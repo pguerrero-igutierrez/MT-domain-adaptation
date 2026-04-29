@@ -10,7 +10,7 @@ https://github.com/hltfbk/E3C-Corpus
 
 pending
 
-OPUS hac
+OPUS https://opus.nlpl.eu/datasets/EhuHac
 
 CA  
 
