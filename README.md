@@ -1,5 +1,8 @@
 # MT-domain-adaptation
 
+already downloaded  General parallel corpus CA-EU
+https://huggingface.co/datasets/projecte-aina/CA-EU_Parallel_Corpus
+
 EU
 
 already downloaded 
@@ -7,6 +10,7 @@ already downloaded
 https://www.ehu.eus/ehg/kc/  
 
 https://github.com/hltfbk/E3C-Corpus
+
 
 pending
 
@@ -18,5 +22,4 @@ pending
 
 https://ctilc.iec.cat/scripts/CTILCCorpus_Descarr.asp
 
-General parallel corpus CA-EU
-https://huggingface.co/datasets/projecte-aina/CA-EU_Parallel_Corpus
+
