@@ -8,8 +8,15 @@ https://www.ehu.eus/ehg/kc/
 
 https://github.com/hltfbk/E3C-Corpus
 
+pending
+
+OPUS hac
+
 CA  
 
 pending
 
 https://ctilc.iec.cat/scripts/CTILCCorpus_Descarr.asp
+
+General parallel corpus CA-EU
+https://huggingface.co/datasets/projecte-aina/CA-EU_Parallel_Corpus
