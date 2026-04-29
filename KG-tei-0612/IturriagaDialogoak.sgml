@@ -1,0 +1,693 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN"
+                       "http://www.tei-c.org/P4X/DTD/tei2.dtd" [
+   <!ENTITY % TEI.prose    'INCLUDE' >
+   <!ENTITY % TEI.linking  'INCLUDE' >
+   <!ENTITY % TEI.analysis 'INCLUDE' >
+   <!ENTITY % TEI.figures  'INCLUDE' >
+   <!ENTITY % TEI.XML      'INCLUDE' >
+   <!ENTITY % TEI.extensions.ent SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.ent' >
+   <!ENTITY % TEI.extensions.dtd SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.dtd' >
+]>
+<TEI.2>
+  <teiHeader>
+  <fileDesc>
+     <titleStmt>
+        <title>Euskal dialogoak</title>
+        <author>Agustin Paskual Iturriaga</author>
+        <respStmt>Ez dauka</respStmt>
+     </titleStmt>
+     <extent>5.497 hitz, 38.337 karaktere</extent>
+     <publicationStmt>
+        <publisher>Klasikoen Gordailua [http://klasikoak.armiarma.com/]</publisher>
+        <distributor>Estrata Liburuak S.L.</distributor>
+        <address type='email'>klasikoak@armiarma.com</address>
+        <idno type='ota'>IturriagaDialogoak</idno>
+        <availability status='free'>Erabilpen librekoa; honoko helbidean topa daiteke (HTML, RTF eta PDF formatuetan): http://klasikoak.armiarma.com/idazlanak/I/IturriagaDialogoak.htm</availability>
+        <date>2006</date>
+     </publicationStmt>
+     <sourceDesc>
+        <bibl>Iturria: Jolasak, Agustin Iturriaga (Patxi Altunaren edizioa). Euskal Editoreen Elkartea, 1987</bibl>
+        <notesStmt><note>Iturburuen datazioa: 1842</note></notesStmt>
+     </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+     <projectDesc>Euskal literaturako testu klasikoen bilduma da KLASIKOEN GORDAILUA; testu hau berorren parte da</projectDesc>
+     <refsDecl>
+        <p>MENTIONED etiketa egilearenak ez diren hitzak markatzeko erabili da: hitzaurreak, aipuak, iruzkinak, e.a.</p>
+    </refsDecl>
+     <classDecl>
+        <taxonomy id='generoa'>
+            <category id='G-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='G-ANT'><catDesc>Antzerkia</catDesc></category>
+            <category id='G-BER'><catDesc>Bertsoak</catDesc></category>
+            <category id='G-ERL'><catDesc>Erlijioa</catDesc></category>
+            <category id='G-NAR'><catDesc>Narratiba</catDesc></category>
+            <category id='G-POE'><catDesc>Poesia</catDesc></category>
+            <category id='G-SAI'><catDesc>Saiakera, kronika, artikuluak...</catDesc></category>
+        </taxonomy>
+        <taxonomy id='garaia'>
+            <category id='M-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='M-16'><catDesc>XVI. mendea</catDesc></category>
+            <category id='M-17-1'><catDesc>XVII. mendea - 1. erdia</catDesc></category>
+            <category id='M-17-2'><catDesc>XVII. mendea - 2. erdia</catDesc></category>
+            <category id='M-18-1'><catDesc>XVIII. mendea - 1. erdia</catDesc></category>
+            <category id='M-18-2'><catDesc>XVIII. mendea - 2. erdia</catDesc></category>
+            <category id='M-19-1'><catDesc>XIX. mendea - 1. erdia</catDesc></category>
+            <category id='M-19-2'><catDesc>XIX. mendea - 2. erdia</catDesc></category>
+            <category id='M-20-1'><catDesc>XX. mendea - 1. erdia</catDesc></category>
+            <category id='M-20-2'><catDesc>XX. mendea - 2. erdia</catDesc></category>
+        </taxonomy>
+        <taxonomy id='euskalkia'>
+            <category id='E-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='E-BAT'><catDesc>batua</catDesc></category>
+            <category id='E-BIZ'><catDesc>bizkaiera</catDesc></category>
+            <category id='E-BNA'><catDesc>behenafarrera</catDesc></category>
+            <category id='E-ERR'><catDesc>erronkariera</catDesc></category>
+            <category id='E-GIP'><catDesc>gipuzkera</catDesc></category>
+            <category id='E-GNA'><catDesc>goi nafarrera</catDesc></category>
+            <category id='E-LAP'><catDesc>lapurtera</catDesc></category>
+            <category id='E-NAF'><catDesc>nafarrera</catDesc></category>
+            <category id='E-ZAR'><catDesc>zaraitzuera</catDesc></category>
+            <category id='E-ZUB'><catDesc>zuberera</catDesc></category>
+        </taxonomy>
+    </classDecl>
+  </encodingDesc>
+  <profileDesc>
+     <textClass>
+       <keywords scheme='generoa'>
+         <list><item>G-SAI</item></list>
+       </keywords>
+       <keywords scheme='garaia'>
+         <list><item>M-19-1</item></list>
+       </keywords>
+       <keywords scheme='euskalkia'>
+         <list><item>E-GIP</item></list>
+       </keywords>
+     </textClass>
+  </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>Euskal dialogoak -- Agustin Paskual Iturriaga</docTitle>
+    </front>
+    <group>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>LENDABIZIKO JOLASA</p><--</head>
+        </front>
+        <body>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Basilio, lengo eguneko zure jolasak arras jostatu ninduen.</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Atsegin det jakiteak.</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Naiko nuke zerbait esango bazendu aberetxo batzuen ga&ntilde;ean.</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Ez da gauza gaitza atsegin ori zuri ematea.</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Txit asko estimatuko nizuke.</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Badakizu seda zer dan?</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Ustez bai; ona emen.</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Ba&ntilde;a, badakizu nondik datorren?</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Indietatik noski.</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Ez da Indietara joan bearrik seda izateko</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Nola! Alderagotik al dator?</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Emen bertan atzeman diteke. Inguma baten obra da seda.</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Inguma baten obra! Baditeke?</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Bai; inguma baten obra.</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Esan zadazu nola egiten duen obra eder ori.</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Bada inguma mota bat zuria ta lodia. Onek egiten dituen arraultzetatik irteten dira ar guztiz txiki batzuek. Bereala asten dira masust arbolen ostoa jaten. Jaten dijoazen bezela dijoaz anditzen. Beatza bezin lodi egiten dira berrogei bat egunen barrenen. Orduan asten dira aotik botatzen lerdea armiarmak bezala. Botatzen dute arbolen arbaztetan beren buruen jiran. Onela gelditzen dira lerdezko bolsa baten barrenen. Bolsa oni deritzaio kapulea. Kapuleak ifintzen dira ur iraki&ntilde;ean, eta an beratzen dira. Artzen da izpi bat, eta dauden lekutik atera gabe, dijoaz askatzen. Matazuran izpia artuaz, egiten da mataza askatzen dijoan bezela.</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Nork esan ikusten diran sedazko jantzi ederrak zor zaizkala ingumari!</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Kapikearen barrenen dauden arrak oso osoro ezkur alea dirudite.</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Illak ala biziak daide?</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Illak gure begietan, ba&ntilde;a udaberrian irteten dira kapuletik inguma biurturik.</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Ori gauzaren miragarria!</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Bi gauza oietatik zein deritzazu miragarriagoa? Piztea, ala inguma biurtzea?</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Ain arrigarria arkitzen det ar bat inguma biurtzea, non il bat piztea.</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Egiaz arritzeko gauza da gaur lurrean arrastaka dabillen arra bigar egan len zan ba&ntilde;o ederragoa ikustea. Onen bistan ez da gaitz sinistea piztuko gerala gu ere egunen baten len ba&ntilde;o ederragoak Inguma berri oiek egiten dituzte arraultzak eta berea&ntilde;a iltzen dira.</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Zer! orren denbora gutxian bizitzen dira?</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Bai, eta badira abereak oraindik gutxiago bizitzen diranak.</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Ori orrela bada, ez degu zer errenkuratu gure biziaren laburtasunaz.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>BIGARREN JOLASA</p><--</head>
+        </front>
+        <body>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Gaur itz egin bear dizut erleen ga&ntilde;ean.</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Aberetxo gaionak dira erleak: oiek ematen digute eztia.</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Ez bakarrik ematen digute eztia, bai ere argizagia.</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Nola ezti zakea naizen txit, ez nintzan argizagiaz oroitzen.</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Jatelo bezin ona da eztia oskaitako. Kostoma dan orduan artzen da eztia urarekin. Eruski&ntilde;ak janarazten dute askotan bazkal aurrean gorputzetik libratzeko. Beste aldetik berriz zenbat gauzatarako ez da ona argizagia! Onekin egiten dira arkaiak ezkoztuak eta enplasto muet asko. Erleak jaiotzen dira ingumak bezala, eta jaten dute eztia. Erleak jaiotzen dira ingumak bezela, eta jaten dute eztiaren eta argizagiaren gaia. Lorearen iri&ntilde;arekin egiten dute argizagia, eta eztia berriz loreari ninikatik ateratzen dioten ezadearekin. Iri&ntilde;a biltzen dute lore ga&ntilde;ean atzeko zankoak arrastaka erabiliaz. Zankoetan dituzte zankozorro mota batzuek, eta ez dira gelditzen oiek bete artera&ntilde;o. Ezadea txupatzen dute muturrean duten tronpa batekin. Ezadearentzat dute beste bat, eta an argizagi biurtzen da. Gero, aotik argizagia botaz, dijoaz abaraska egiten. Abaraska egi&ntilde;a dagoan orduan, betetzen dituzte onen txuloak eztiz.</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Txuloari zeldilla al deritza?</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Abaraskarenari bai.</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Txoratzen naute ni gauza oiek guztiak.</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Ez dezu zerzaz txoratu.</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Zer! Ez da txoratzeko gauza lorearen ga&ntilde;ean dagoan iri&ntilde;a argizagi biurtua ikustea?</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Eta ez zaitu txoro biurtzen ikusteak gure odol biurtzen guk jaten ditugun gauzak?</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Egia diozu, ez nintzan kontuan erortzen.</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Gaur beiak jan duen belarra biar esne biurtua jaten degu.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>IRUGARREN JOLASA</p><--</head>
+        </front>
+        <body>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Errauleaz itz egin bear degu gaur.</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Zuk nai dezun bezala.</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Erraulea da euli me, luze, berdaisa bat. Lizardietan arkitzen da, zeren an utzi oi ditu bere arraultzak.</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Orrek esan nai du erauleen arrak lizarren ostoa jaten dutela.</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Bai, ingumen arrak masust arbolen ostoa bezala. Ba&ntilde;a jakin beazu ez edozein inguma ez edozein arbolen osto ez dirala onak seda emateko. Euli onekin egiten da lokeria.</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Eriai ifintzen zaiotena?</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Bai, uraxe bera. Erotasunik geienetan ori izaten da azkeneko sendagaia. Ezabiziak dituztenentzat da guztiz ona.</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Eta nolatan ematen da sendaki au?</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Auts egi&ntilde;ik, eta begira nola. Errauleak bildu ondoren, uzten dira iltzen eta idortzen; eta idortu ondoren, jotzen dira almerizean edo motrairuan. Auts onekin egiten dan enplastoak erre eta maskulluak ateratzen ditu. Zenbatek ez diote euli oiei zor osasuna! Eta zenbatek bizia!</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Eta esango didazu ez dirala oiek bat txoratzeko gauzak?</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>LAUGARREN JOLASA</p><--</head>
+        </front>
+        <body>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Ona non dezun aberetxo bat zuk ezagutzen ez dezuna.</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Emen atzeman dezu?</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Ez, Ameriketan sortzen da, eta andik ekartzen dute ganbusia egiteko. Garaustikaia deitzen diote.</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Bizkitartean garaustikaia gorria da, eta aberetxo ori auts kolorekoa.</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Otarraina ere berdea da berez, ba&ntilde;a egostean goritzen da. Ozpi&ntilde; txorta bat botatzen badiozu, ikusiko dezu nola gorrituko dan.</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Orren zanpatu-biribilla da! Dilista dirudi. Muturra txerriarena bezelakoa du.</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Argatik deitzen diote erderaz txerritxoa. Bada beste ar bat onen antzekoa ezakotxa deritzana. Ba&ntilde;a ark ematen duen ganbusia ez da ain omanea. Ala bata nola bestea arboletan arkitzen dira, zeren beren amak arbolen ostoetan ezartzen dituzte zibotak, beren barrenen gelditzen dirala. Bada beste ganbusi gorri bat oraindik ederragoa. Suteoa deitzen zaio, ba&ntilde;a ain da bakana non txit gutxik izan oi dute. Maskor baten barrenen arkitzen da, eta txakur bati zor zaio.</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Zer! Txakur bati! Nola izan zan ori?</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Txakur bat oi zebillen goseal illik. Goseak eraman zuen ondarrera, eta asi zan maskor jaten. Egun oro joaten zan bere gosea iltzera. Biurtzen zan bere muturra guztia gorritua zuela. Norbaitek usterik odola zalako eta zauriren bat zuelako, eldu zion. Ikusi zuen ganbusia zala odola zirudiena. Eta orra nola arkitu zen ganbusietan zan ederrena eta garestiena.</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Bai, garestiak bear du izan, zeren maskor asko bildu bearko da so&ntilde;eko bat ganbusitzeko.</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Ain da garestia non erregeak eta beste gai&ntilde; ga&ntilde;eko personak bakarrik izan dezateke. Orobat gertatzen da altistearekin. Maskorraren barrenen arkitzen da itsasoan. Orra non munduan diran gauzarik baliosoenak zor zaizkaten animalitxo batzuei.</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Bai egiazki. Nork esango luke errege eta erregi&ntilde;en apainduriak oiei zor zaizkatela!</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Orobat gertatzen da elizako ornamentuakin.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>BOSGARREN JOLASA</p><--</head>
+        </front>
+        <body>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Gauzarik txikienetan ikusten da ongiena Jainkoaren anditasuna. Badakizu noski zer dan zigarra. Askotan sortzen zaie aurrai beatz artean.</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Baitaere negar gogotik eragiten gaxoai.</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Beren amak atera oi diote eguzkitan orratz musuarekin.</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Ikuste ona bear da eguzkitan ateratzeko ere.</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Bada, dan bezin txikia izanik, baditu zigarrak gorputzaren parte guztiak. Baditu ortzak edo ortzen ordekoak, aurrai negar eragiten dien ezkero: baditu urdalla, estea, sabela, biotza, birikak: bear ditu ere izan gibela, barea eta giltzurri&ntilde;ak Aren odolak bear du ibilli gureak bezala gorputz guztitik.</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Ez dirudi bada odolik duenik.</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Odola txuria duelako beste asko abertxok bezela.</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Ongi diozu gauzarik txikienetan dala andiena Jaungoikoa.</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Badira aberetxoak zigarra ba&ntilde;o ere oraindik txikiagoak.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>SEIGARREN JOLASA</p><--</head>
+        </front>
+        <body>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Arritu zi&ntilde;an joan dan egunean zenbat on aberetxo batzuei zor diotegun ikustean. Seda inguma bati, eta ganbusirik ederrena eta altisteak maskor batzuei. Bada oraindik arrigarriagoa da aberetxo batzuek erakusten digutena ematen digutena ba&ntilde;o. Erleak goizetik arratsera ari dira lanean gelditu gabetanik. Ez dute jaten egunean eguneko anoa baizik. Badakite negua etorriko dala, eta orduan ezin irtengo dirala beren eultzetik. Onela erakusten digute lan egiten al degunean deguneko, eta degunean gordetzen ez deguneko. Itz batean, erakusten digute langilleak eta kontuzkoak izaten. Lanegitetik eta zurra izatetik datoz aberastasuna eta ongi izatea. Lan da birtute guztien ama, eta alferkeria gaitz guztiena. Guk guztiok egingo bagendu erleak egiten dutena, aingeruak bezela biziko gi&ntilde;ake.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>ZAZPIGARREN JOLASA</p><--</head>
+        </front>
+        <body>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Naiko nuke zerbait jakin txingurrien ga&ntilde;ean.</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Asko txingurri mueta dira: batzuek txikiagoak besteak ba&ntilde;o. Negu guztia lotan igarotzen dute.</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Nola iltzen ez dira?</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Beren gizentasunak iraunarazotzen die. Au berau musarrakin eta beste asko animalirekin. Zenbat bider, eri gaudenean, ez gera egoten gerok ere illabete osoetan ezer artu gabe! Txingurrien artean batzuek dira arrak, besteak emeak, eta besteak ez arrak eta ez emeak. Arrak eta emeak dira umeak azitzeko, eta besteak lanerako. Orobat gertatzen da erleakin. Luma gabeko egoak dituzten animalitxoak jaio eta azitzen dira ingumak bezala.</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Eta txingurriak?</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Orobat.</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Bizkitartean txingurriak ez dute egorik.</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Bai, badituzte jaiotzen diranean, ba&ntilde;a gero atzeko bi zankoakin kentzen dituzte. Badakizu bein ba&ntilde;o geiagotan etxeak bota dituztela? Ez farrik egin: esatera noakizu nola. Adrilluzko etxeak diran tokietan, jan gauzarik barrenean senti badute, ara zer egiten duten. Adrilluen arteko morteroa txeatzen dute barrenen sartzeko. Badator berriz aizete bat eta botatzen du etxea. Badira animalitxoak beren arraultzak ifintzen dituztenak frutaren ga&ntilde;ean. Aietatik irteten diran arrak sartzen dira barrena eta jaten dute. Au berau gertatzen da arbolen ostoakin, gariarekin eta arroparekin.</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Argatik ikusten dira arbolen ostoak sare bat egi&ntilde;ik.</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Eta zenbat kalte ez dute egiten gari alean!</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Gari pillaren ga&ntilde;ean egan ikusten diran eltxoen arraultzetatik irtengo dira noski an arrak?</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Bai, eta sartzen dira gari alean barrenen frutan bezala. Badira euliak zaldi eta beste animaliai sudurretik eta beste lekuetatik sartzen zaiozkatenak.</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Eta barrenen uzten dizkate arraultzak?</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Bai, eta aietatik irteten diran arrak zorarazitzen die askotan. Atza, ezkabia eta beste asko mi&ntilde; arrak besterik ez dira.</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Bizkitartean zikinkeriatik datozela esaten dute.</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Bai, zeren zikinkerian sortzen dira. Argatik bear dira garbitu egun oro arpegia eta eskuak. Bear da ere orrazatu egun oro. Aberak ematen digute garbitasunaren ejenploa. Ikusiko dezu beti beren buruak garbitzen ari dirala.</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Txerriak beintzet ez.</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Baita txerriak ere: bestela ez da aien eiai begiratzea baizik. An daukate beren etzauntza zillarra ba&ntilde;o garbiago. Jainkoak eman die ezaguera au, zeren garbitasuna guztiz bearra dan osasunarako.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>ZORTZIGARREN JOLASA</p><--</head>
+        </front>
+        <body>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Gure azkeneko jolasean pentsatzen egondu naiz joan dan arrats guztian.</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Nola bada! Zerk arritu zaitu?</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Atza, ezkabia eta beste gaitz asko zikintasunetik datozela aditzeak.</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Atza eta ezkabia ez dira ar mueta batzuek besterik. Orobat diot ortz eta agi&ntilde;etan sortzen dan zikinkeriaz. Ar oiek zulatzen dituzte geienean batzuek eta besteak.</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Eta nondik datoz aurrak izaten dituzten txitxareak?</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Janari eta edariarekin iretsitzen dituzten arraultzetatik. Eltxo pozoitsuak datoz berriz ur usteletik. Orobat sugeak, surangillak eta sugarrastak. Eta zenbat gaitz ez datoz putzu eta zingiretatik! Putzuak nai du itzala ura usteltzea nai ez bada; eta botatzen bazaio ikatza edo iduria, garbitzen da ura edan ditekean moduan. Baitaere ona da txit arkoska botatzea.</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Ikusten det ziki&ntilde;etik eta usteltasunetik datozela gauza nazkagarriak eta gaitz asko.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>BEDERATZIGARREN JOLASA</p><--</head>
+        </front>
+        <body>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Esan zadazu: zer da anilla?</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>I&ntilde;astorra dirudien landare bati kentzen zaion auts bat.</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Eta algodoia, kina, kanela eta klabilloa nondik datoz?</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Indietatik datoz. Algodoia arbol txiki baten koskoan arkitzen da gazta&ntilde;a morkotzean bezala: kina arbola baten azala da: kanela orobat, eta klabilloa beste arbola baten frutua. Azukrea da ka&ntilde;abera mota bati txikitu egosi eta kentzen zaion ezadea. Gauza oiek guztiak toki beroetan etortzen dira.</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Zori onekoak bear dute izan orrelako tokiak.</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Badira tokiak beti udaberrian bizi diranak. Onelako tokietan ikusten dira arbola batean eta denbora berean lorea, fruta berdea eta eldua. Berenez etortzen dira naranjak, limoiak eta beste fruta batzuek.</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Zori onekoak alako tokietan bizi diranak! Bizi ditezke ezeren kuidadorik gabe.</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Bizkitartean an ere lan eginda bizi da jendea. Jan utsarekin ezin bizi gindezke.</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Zergatik ez? Otzik eta bero aundirik egiten ez badu beintzat.</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Gizon basatiak ala bizi dira. Jakin beazu jantziaren faltan txerrien gisa jira biraka loiean ibiltzen dirala asko tokitan. Eltxo pozoidunak eta beste arbiska pozoitsu askok zulatzen dituztelako egiten dute au.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>AMARGARREN JOLASA</p><--</head>
+        </front>
+        <body>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Gaur nekazaritzaren ga&ntilde;ean jardun bear degu.</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Ez da gaizki igaroa izango denbora, zeren ori da gure egintza.</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Lur mueta asko dira ba&ntilde;a guztiak bitara biurtzen dira.</p>
+<p>Lur guztiak du buzti&ntilde;a eta ondarra: buztin geiago badu ondar ba&ntilde;o deitzen zaio buztin lurra; eta ondar geiago badu buztin ba&ntilde;o deitzen zaio ondar lurra.</p>
+<p>Buztin lurrak ez dio urari barrena sartzen uzten; ondar lurrak berriz guztiari sartzen uzten dio.</p>
+<p>Lurrak ona izateko bear du buztin ainbat ondar; bestela busti bezin laster legortzen da.</p>
+<p>Lur onak ura asko artu eta gordetzen du; eta ga&ntilde;a idortzen dijoan bezala dijoa ere ura betik gora.</p>
+<p>Au berau gertatzen da metxan igotzen dan olioarekin.</p>
+<p>Onelako lur mueta asko dute udaberrian artzen duten euria uda guztirako.</p>
+<p>Kareak desagiten du txit ongi buztin lurra.</p>
+<p>Gorotza da gero gauza bearra lurrak ongi emateko.</p>
+<p>Gorotza izateko bear da elea, eta elea izateko bear da bazka.</p>
+<p>Nekazaririk onena da uzta eta bazka lur beretik ateratzen dituena.</p>
+<p>Au da gure errietan ikusten dana. Eleak bear du etzauntza, eta etzauntzarentzat bear da ondagi&ntilde;a.</p>
+<p>Ondagi&ntilde;ik ez dan lekuetan ezartzen da ondar legorra; eta ondar legorrik ez bada egiten da bidarria.</p>
+<p>Batez ere bear du eleak garbitasun andia, naiz jaten gutxiago eman dakiola; eta iduki bear da albait begien aurrean, zergatik ikarakorra da eta ikarak argaltzen du.</p>
+<p>Nai du txit atzegitea eta balakatzea. Eman bear zaio jaten maiz eta bakoitzean gutxi; bestela igitzen da eta ez du ongi txigoitzen.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>AMAIKAGARREN JOLASA</p><--</head>
+        </front>
+        <body>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Azkeneko jolasari jarraitzeaz egidazu atsegin.</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Atsegin andi batekin jarraituko diot, nekatzen ez zaitudala ikusten dedan ezkeroz.</p>
+<p>Lurrak ditu bere barrenean asko ezade mota.</p>
+<p>Landare bakoitzak nai du berea; ba&ntilde;a beti landare mota bat aldatzen bada lur batean, geroago eta txatarragoa etorriko da.</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Ori gauza ikusia da zergaitik geroago ta ezade gutxiago geldituko da.</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Argatikan eman bear zaio lurrari lur berria edo gorotza; bestela aldatu bear dira orain landare mota bat eta gero beste bat.</p>
+<p>Badira landareak alkarrekin ongi datozenak, eta badira elkarri kalte egiten diotenak.</p>
+<p>Ezade diferenteak bear badituzte, egon ditezke lur berean bi landare mota; ba&ntilde;a ezade bera bear badute biak, ez.</p>
+<p>Ez du abere batek zatirik gorotza egiteko ona ez danik.</p>
+<p>Beatzala, ezurra, adarra, illea, guztia da ona txit gorotza egiteko.</p>
+<p>Karea ugari dan tokietan, nekazari onak bear du bota karobi zulora arrapatzen duen guztia.</p>
+<p>Kare pixka batekin nastuaz, guztia biurtuko da gorotz.</p>
+<p>Ara bota bear dira zapata zar, abero ill eta zatarreria guztia.</p>
+<p>Badire tuparriak kare asko daukatenak, eta buztin lurrarentzat txit onak diranak.</p>
+<p>Karea daukaten edo ez, ozpi&ntilde;ean zatitxo bar sartu eta ezagutzen da.</p>
+<p>Irakiten edo maskulloak botatzen asten bada, karea duen se&ntilde;alea da.</p>
+<p>Autsa da ongarririk onenetatik bat; ba&ntilde;a auts asko egiteko erragin asko bear da.</p>
+<p>Lur zelaiak dira onak landutzeko; zeren berenez txarrak izan arren, nekazari onak ondutzen ditu: bada ematen zaioten guztia bertan gelditzen da.</p>
+<p>Lur aldapetan ifi&ntilde;i bear dira arbolak.</p>
+<p>Lur gutxi ondo landuak geiago ematen du asko gaizki landuak ba&ntilde;o.</p>
+<p>Lurrak ongi landua egoteko auts egi&ntilde;a bear du egon.</p>
+<p>Ale mot asko erein bear dira urte berean, biltze baten faltan bestea arrapa dedin.</p>
+<p>Argatik esaten da bat duenak batere ez duela.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>AMABIGARREN JOLASA</p><--</head>
+        </front>
+        <body>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Gaur ganaduen ga&ntilde;ean itz egin bear degu, zuk ala nai badezu.</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Gusto andiarekin enzungo det esan nai didazun guztia.</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Ganaduak nai du garbitasun andia.</p>
+<p>Jaten eman bear zaio maiz eta gutxi aldian.</p>
+<p>Gu bezelaxe dira animaliak.</p>
+<p>Obe da gutxixeago jaten emango bazaiote ere, garbi idukitzea.</p>
+<p>Egongo dira gizenagoak, alaiagoak eta osasun obekoak.</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Askotan aunditzen da aberea, ez da ala?</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Bai, aunditzen da belar bustia jaten duenean.</p>
+<p>Ara au gertatzen daneko errezetak.</p>
+<p><hi rend='Bold'>ERREZETA ESANDAKO GAITZARENTZAT</hi></p>
+<p>Gatz amoniakoren espiritua, onza bat.</p>
+<p>Petroleo beltzaren olioa, bi onza: nastuta.</p>
+<p><hi rend='Bold'>BESTEA</hi></p>
+<p>Artuarazten zaio abereari otxaba bat genzianaren za&ntilde;a austua.</p>
+<p>Belar berotua obea da ganaduarentzat; ardo iraki&ntilde;a obea dan bezala irakin gabea ba&ntilde;o: eta ganaduak gogo obearekin jaten du, zergatik du gusto obea.</p>
+<p>Argatik beragatik askoz obeto digeritzen du.</p>
+<p>Asko lekutan belarra bildu, pixka bat busti, trinkotu eskuakin eta uzten dute. Berotzen asten dan orduan zabaltzen dute eta ematen diote ganaduari.</p>
+<p>Gatza txit asko gustatzen zaio abereari, eta txit on egiten dio pixkatxo batek; zergatik gatzarekiko jan askoz obeto digeritzen da, eta gatza jaten duen aberearen aragiak du askoz gusto obea.</p>
+<p>Au ezagutzen da gatzua deritzan gatza dan lurretan dabiltzan zikiroen aragian.</p>
+<p>Gaizkitzen danean eman bear zaio batez ere gatza ganaduari.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>AMAIRUGARREN JOLASA</p><--</head>
+        </front>
+        <body>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Ezin esan dizazuket zer gogoz zure jolas entzuten dedan: otoitzen zaitut jarrai dezazula orain da&ntilde;o bezala.</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Atsegin andiarekin jarraituko det, ala nai dezun ezkeroz.</p>
+<p>Abereen gaitzik guzienak ardura gabetik oi datoz.</p>
+<p>Bustiroa da abereentzat guretzat bezala etsairik andiena.</p>
+<p>Belar bustiak aunditzen dituen bezela, etzauntz bustiak eritzen ditu.</p>
+<p>Argatik urte bustietan eman bear zaiote jaten legor pixka bat, eta albait gutxiena bota bear dira larrera.</p>
+<p>Batez ere beaute iduki etzuntza legorra. Abereari ederretsitzen ez dion nekazaria ez da nekazaria; zeren elerik gabe ez da gorotzik, eta gorotzik gabe ez da uztarik.</p>
+<p>Beste aldetik berriz bazka gabe ez da abererik.</p>
+<p>Bazkak, eleak eta lur landuak berdin egon bear dute.</p>
+<p>I&ntilde;ork ez daki lurrak zenbat eman dezakean.</p>
+<p>Esan oi da egiaz, artzen duen ainbat ematen duela.</p>
+<p>Lurrik ongiena landua da apurtuena dagoana.</p>
+<p>Ez du nekazariak lur landu gaberik iduki bear, albait.</p>
+<p>Zenbat eta aberea denbora geiagoan dagoan ukulluan, anbat eta obeago; zeren zimaur geiago izango du nekazariak. Ez du lurrak etsai andiagorik elearen beatzala ba&ntilde;o; buztin lurrak diran tokietan beintzat. Nagusiak eman bear dizka lurrak maisterreri egoitz onean; bestela ez du nekazaritza onik egingo. Badira denborak eta giroak igarotzen utzi bear ez diranak, ala ereiteko nola jorratzeko eta itaitzeko. Argatik bear du esku artea nekazariak ona izateko; zeren giroa igarotzen uzten badu nakazaritza txarra egingo du; eta giroa igarotzen ez uzteko bear dira jornaleroak i&ntilde;oiz.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>AMALAUGARREN JOLASA</p><--</head>
+        </front>
+        <body>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Zer egia andiak esan dituzun azkeneko jolasean!</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Nagusiak ezagutu bear luteke gauza bat:</p>
+<p>Maisterrak indarra baldin badu nausiarentzat obe dala.</p>
+<p>Nagusiarentzat, maisterrarentzat eta lurrentzat onena da errentan oiek ifintzea; ba&ntilde;a ez dirutan, baizik aletan.</p>
+<p>Dirutako errenta da kobratzen gaitza, eta ez da justoa.</p>
+<p>Ez da justoa, zergarik laborearen balioak gorabera andiak dituen.</p>
+<p>Gorabera oiek eta laboreak dirutzea ez dira maisterrarentzat.</p>
+<p>Nekazariari ematen dio indar andia elea berea izateak; ba&ntilde;a sagastiak eta gazta&ntilde;adiak beaute egon erdira: zergatik urte askotan batere ez dute ematen.</p>
+<p>Baserrien jabe guztiak bear luteke elkar artu eta kofradian sartu erretzen diraneko.</p>
+<p>Orobat bear luteke egin ganaduen jabe guztiak oiek iltzen diraneko: bestela bat edo bi iltzearekin lur jotzen du askotan nekazariak.</p>
+<p>Nola i&ntilde;or ez dan oroitzen doakabeaz gerta dedin arte, bortsaz eragin bear dira onelako gauzak.</p>
+<p>Orobat gertatzen da auzo lanakin.</p>
+<p>Guztientzat on diran lanak dira, ba&ntilde;a i&ntilde;ork ez luke kasorik egingo, bortsaz eragingo ez balira.</p>
+<p>Kofradiak dira gauzarik onenak desgrazien kontra. Badira etxeentzat eta ganaduentzat bezala, uraldientzat, arriarentzat eta beste doakabeentzat.</p>
+<p>Erri batean berreun baserri badira, irurogei erreal etxe jabe bakoitzak ematearekin, berria egi&ntilde;a dago.</p>
+<p>Zenbat eta baserri geiagotakoak elkar artzen duten, enbat eta merkeago egiten dira.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>AMABOSGARREN JOLASA</p><--</head>
+        </front>
+        <body>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Zeren ga&ntilde;ean jardungo degu gaurko arratsaldean?</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Zuk nai dezunaren ga&ntilde;ean.</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Esan dizut len ere elea gu bezin kuperatia dala, non eta basatia ez dan.</p>
+<p>Orain esango dizut eman bear zaiola janaria albait egosia.</p>
+<p>Askoz obeto txegosten du, batez ere gatz pixka bat ematen bazaio.</p>
+<p>Badakizu zenbat gustatzen zaion gatza ele mueta guztiari.</p>
+<p>Noizean bein pixka bat ematearekin asko gaitzetatik lagardatzen dira.</p>
+<p>Lastima da egon oi dan bezin garesti egotea gatza.</p>
+<p>Guztiz on andia egingo lioke eleari egun oroko gatz pixkatxo batek; zeren ematen du jateko zalea eta txegosten laguntzen du guztiz: ga&ntilde;era lurren ongarrirako ere guztiz da ona.</p>
+<p>Badakit jana egostea eta gatza ematea gauza garestia dala; ba&ntilde;a on da jakitea, batez ere ganadua mi&ntilde;ez dagoaneko.</p>
+<p>Ez du ezerk-ere ematen irabazi geiago abereak ba&ntilde;o.</p>
+<p>Argatik bear da jakin zer dan ona eta zer ez elearentzat.</p>
+<p>Esan dizut eman bear zaiola jaten gutxi eta maiz. Bear duela garbitasun andia eta etzauntz idorra.</p>
+<p>Egon bear du albait ikuski&ntilde;ean zer gerta ere, eta izutia dalako.</p>
+<p>Abere mota asko akitzen dira.</p>
+<p>Bikor mota eta aragi mota.</p>
+<p>Badira beiak jaten duten guztia esne biurtzen zaiotenak. Orobat gertatzen da abere illedunarekin. Batzuek dute ille ona eta aragi txarra, besteak aragi ona eta ille txarra.</p>
+<p>Badira atzegira gizentzen diranak eta ogei eta bost librako opak dituztenak.</p>
+<p>Arkumeak izan oi du aitaren ille mota eta aragia amarena.</p>
+<p>Belar txikia dan tokian ganadu txikia dala esan oi da, eta belar andia dan tokian ganadu andia.</p>
+<p>Erri bakoitzean ikusi bear da zer abere mot konbeni dan.</p>
+<p>Toki apietan eta amiltzak diranetan ez da ganadu andirik konbeni; toki zelaietan berriz ganadu andia obea da txikia ba&ntilde;o.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>AMAISEGARREN JOLASA</p><--</head>
+        </front>
+        <body>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Ez dio ezerk-ere irabazi geiago ematen nekazariari eleak ba&ntilde;o.</p>
+<p>Argatik bear da arreta andia artu osasuna izan dezan.</p>
+<p>Bear da ere jakin zer egin bear zaion mi&ntilde;ez arkitzen danean.</p>
+<p>Sangria, purga, errakaia eta zurda dirade oskaiak gaitzik geienentzat.</p>
+<p>Nekazariak bear luke jakin aberea sangratzen estutasun baterako.</p>
+<p>Orobat bear luke jakin zer belarren ura dan ona purgatzeko.</p>
+<p>Errakairik onena zarea da, eta zurda ifintzea ez da gauza andia.</p>
+<p>Aberea izerditzen danean bear da estali, batez ere unkullua otza bada.</p>
+<p>Bazka bustia badago utzi bear da legortu artera&ntilde;o.</p>
+<p>Aberea berotua edo izerditua badago etzaio eman bear edaten, batez ere ura gogorra bada.</p>
+<p>Eri badago eta gizena arkitzen bada bereala bear da sangratu.</p>
+<p>Urrengo egunean eman bear zaio purga eta gero urribiza elearentzat eri dagoanean.</p>
+<p>Eta sendagai guztietan onena eta seguruena au da.</p>
+<p>Batez ere bularreko mi&ntilde;arentzat ete kostoma duenarentzat.</p>
+<p>Abere eriak egon bear du aizeak jotzen ez duen tokian eta etzauntz legorrean.</p>
+<p>Ezerk-ere ez oi du gaitz geiago ekartzen bustiak eta toki estutik sartu eta irteten dan aizeak ba&ntilde;o.</p>
+<p>Izerditu ondorean ez da jarri bear onelako aizetan.</p>
+<p>Ebakientzat, zaurientzat eta golpeentzat ez da ura ba&ntilde;o oskai oberik.</p>
+<p>Asko da zaku bustiak ifintzea eta, maiz bustitzea agudo sendatzeko.</p>
+<p>Errearentzat berriz ur freskoa da erremediorik onena.</p>
+<p>Erre bezin laster sartu bear da errekia ur freskoan.</p>
+<p>Gero asko da zaku bustiak ifi&ntilde;i eta maiz bustitzea agudo sendatzeko.</p>
+<p>Zauri zarrentzat, ti&ntilde;arentzat eta mueta gaiztoko sarnarentzat ikatzaren autsa da txit ona.</p>
+<p>Errakaiak, zurda eta txira bularreko eta begietako mi&ntilde;entzat erremedio onak dira.</p>
+<p>Bai eta ere urdallekoarentzat, maturia eta beste mi&ntilde;entzat. Eritasun oiek nai dute urribiza aundia ta denbora asko.</p>
+<p>Bustialdiak guztiz onak dira askotan, bai eta ere lurri&ntilde;ak.</p>
+<p>Maturiak, txoriak eta beste onelako aunditsuak biguindu bear dira loizokiakin.</p>
+<p>Aunditsuak otzak badira obe da ebakitzea edo erretzea.</p>
+<p>Al dan guztian deitu biar da abere sendatzallea.</p>
+<p>Abereak mi&ntilde;ez daudenean on da ukullua zuritzea eta kare bizia bertan itotzea.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>AMAZAZPIGARREN JOLASA</p><--</head>
+        </front>
+        <body>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Nai nuke jakin nola egiten dan guri ona.</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Guri ona egiteko bear zaio abereari eman bazka ona eta legorra.</p>
+<p>Oloa da aleetan esne eta bika&ntilde;ik geiena eta onena ematen duena.</p>
+<p>Gauza ikusia da bika&ntilde;a ona bada guria ona izango dala.</p>
+<p>Belar omanea eta samurra eta irusta txuria edo gorria agitz dira onak bazkatzeko.</p>
+<p>Orobat diot galondoko belarraz, bustia ez badago.</p>
+<p>Guria egiteko tokiak egon bear du ifarraldearekin sartaldearen artean.</p>
+<p>Bear du izan altuba eta aundia eta leio askorekikoa, aizea sartu ta irten dabillen.</p>
+<p>Azpiak bear du izan arrizkoa, freskoagoa eta garbitzeko errazagoa izan dedin.</p>
+<p>Guria egiten dan bakoitzean garbitu bear da azpia urarekin.</p>
+<p>Eta ur onek joan bear du onetarako egindako erreten batean.</p>
+<p>Bestela erortzen diran esne tantak usteltzen dira eta usai gaiztoa ematen diote guriari.</p>
+<p>Guria egiten dan tokian usai gaiztorik gutxiena ere ez da sentitu bear.</p>
+<p>Lurrezko erretillu likurtatuak dira onenak guria egin eta iraunerazotzeko.</p>
+<p>Aberea jatzi bear da al dan garbitasunik aundienarekin.</p>
+<p>Berezi bear da bika&ntilde;a eta ifi&ntilde;i erretillu batean gazi antz piska bat artu dezan artera&ntilde;o.</p>
+<p>Orduan ezartzen da guri ontzian eta erabiltzen da zotz edo makilla batekin.</p>
+<p>Zenbat eta bika&ntilde; geiago dan anbat eta farraskiroago erabili bear da.</p>
+<p>Guria egi&ntilde;a dagoan orduan guri ontzitik atera eta urean garbitu bear da ardura aundiarekin.</p>
+<p>Urik onena da burnia daukan ura, zeren ematen dio kolore ederra.</p>
+<p>Legazia egosteko sufre daukan ura bezela.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>EMEZORTZIGARREN JOLASA</p><--</head>
+        </front>
+        <body>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Atzo ikasarazi zi&ntilde;idan guria nola egiten dan.</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Bada gaur ikasi beazu gazta nola egiten dan.</p>
+<p>Beindik bein iragazten da esne jatzi berria.</p>
+<p>Gero botatzen zaio kutxare bat gatzagi iru pitxer esneri.</p>
+<p>Ongi nastu ondorean idukitzen da bere epeltasunean.</p>
+<p>Onetarako inguma diteke, nai bada, auts erre beroz.</p>
+<p>Gatzatu dan orduan ezartzen da txuka lekuan.</p>
+<p>Toki bero xamarrean ifintzen bada, lenago eta obetoago txukatzen da.</p>
+<p>Zenbat eta geiago txukatzen dan anbat eta gazta obeagoa izango da.</p>
+<p>Ongi txukatu ez dan gaztak gazi antza izan oi du.</p>
+<p>Ogei ta lau ordu igaro ondoren ezartzen da lasto edo zume pillatxo baten ga&ntilde;ean.</p>
+<p>Onela utzitzen da bost edo sei egunean ongi txuka dedin.</p>
+<p>Gero gazitzen da alde batetik, ematen zaiola ontza bat gatz libra bakoitzeko.</p>
+<p>Gatz au txit urtu dan orduan, gazitzen da oro bat beste aldetik.</p>
+<p>Gazitzen dagoan bitartean egon bear du toki legor eta aizetsuan.</p>
+<p>Zortzi egunean gazitzen egon ondorean, garbitu bear da eskuz ur epel beroarekin.</p>
+<p>Esku igaro bear zaio ga&ntilde;etik, azpitik eta ertzetatik.</p>
+<p>Zortzitik zortzira egiten da au bera, baldin gazta geiegi legortzen bada edo lizuntzen asten bada.</p>
+<p>Amabost edo ogei egunen barrenean gaztak artzen du ori kolorea.</p>
+<p>Sartzen da gero eltze edo tinaja batean eta utzi upategian. Zortzitik zortzira ikusi bear da lizuntzen asi ote dan.</p>
+<p>Asi bada, garbitu bear da len bezela ur bero xamarrarekin.</p>
+<p>Esnea bi alditan jatzia bada, txit ongi nastu bear da.</p>
+<p>Euliak jo ez dezan eta errak sortu ez ditzaizkion, ara zer egiten duten toki askotan.</p>
+<p>Erretzen dituzte batzuek ezurrak eta botatzen diote aien autsa.</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Egiteko asko dirade oriek.</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Bada jakin bear dezu gauzak balio duela arreta ematen zaio ura bera.</p>
+<p>Arreta gabe ez da gauza onik.</p>
+<p>Eta mundu onetan gertatzen diran ezbear geienak arreta faltatik datoz.</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Izan diteke.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>EMERETZIGARREN JOLASA</p><--</head>
+        </front>
+        <body>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Zein da abere motik onena nekazariarentzat?</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Toki zelaietan abere aundia eta desberdi&ntilde;etan txikia. Ga&ntilde;erakoan idi onak bear du izan aundia eta luzea.</p>
+<p>Izan bear ditu saiets ezurrak zabalak, larrua lodia eta aragiari itsasi gabea.</p>
+<p>Zezenak bear ditu izan bizkarra zabala, lepoa lodia, giltzak laburrak.</p>
+<p>Isterrak eta belaunak bear ditu biribillak, o&ntilde;ak alderagi&ntilde;ak, illea laburra eta lodia, ba&ntilde;a malgua.</p>
+<p>Buztana jasoa, luzea, illez ongi jantzia eta adarrak lodiak eta zuriak.</p>
+<p>Beiak bear du izan aundia, adar zabala, kopet zabala eta tripa aundia.</p>
+<p>Adarrak izan bear ditu leunak eta argiak, errepea zuria aundia eta mea.</p>
+<p>Ga&ntilde;erakoan bei onak bear du izan zezenaren antzekoa.</p>
+<p>Ganadua erosteko denboran bear da ongi ikusi ortzik falta duen, argaldu ez dedin.</p>
+<p>Bei beltzak txikia izan oi dira eta esne gutxiago ematen dute besteak ba&ntilde;o.</p>
+<p>Bei zuriak aundiagoak dira eta ematen dute esne geiago, ba&ntilde;a denbora gutxiagoan.</p>
+<p>Gorriak aundiagoak dira oraindik eta esne geiago ematen dute, ba&ntilde;a denbora gutxiagoan.</p>
+<p>Argatik dira obeak bei beltzak, esnea denbora geiagoan ematen dutelako.</p>
+<p>Ga&ntilde;era bei beltzak dira umegi&ntilde;agoak beste kolorekoak ba&ntilde;o.</p>
+<p>Iru urtera&ntilde;o etzaio umerik errarazo bear beiari.</p>
+<p>Garagarrillarekin Uztaillaren artean da onetareko denborarik onena bei bat besteik ez duenarentzat.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>OGEIGARREN JOLASA</p><--</head>
+        </front>
+        <body>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Ezin sinista zenezeke zer atsegin aundia dedan zu aditzen.</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Ez det gutxiago artzen zu orren kontentu ikustean. Arkumerik bortitzenak dire bizkiak eta oiek gorde bear dira aurrerako.</p>
+<p>Txerri eme onak ez ditu izan bear amabi titi baizik: amar dituena da onena ume azitzeko.</p>
+<p>Ordotsak bear ditu amabi illabetetik gora eta orobat txerri emeak ume azitzeko.</p>
+<p>Ordotsak bost urte egin ezkero irantzitzen oi dira.</p>
+<p>Oien urdaia da ugariagoa sendoagoa ta gozoagoa irantzi gabeena ba&ntilde;o.</p>
+<p>Lendabiziko egunetan jaten gutxi eman bear zaio txerriari, zergatik goseak etsierazotzen dion lagun gabe egoten.</p>
+<p>Untxia illabetean egoten da umedun.</p>
+<p>Sei aste bear ditu bere umeak azitzeko.</p>
+<p>Ala bi illabetetik bi illabetera umeak egin ditzake.</p>
+<p>Sei aste dituztenean irantzi ditezke eta leku itxi batean sartu.</p>
+<p>Aunditzen dira asko, eta belar on piska bat ematen bazaiote ill ba&ntilde;o lentxeago, txit gusto oneko aragia izaten dute. Ill ditezke iru illabete dituztenean.</p>
+<p>Etzaie eman bear az ostorik, zeren ematen diolako aragiari txit gusto gaiztoa.</p>
+<p>On da noizik bein ematea zai bustia ale batzuekin nasturik.</p>
+<p>Batez ere bear dute garbitasun aundia. Larrurik onena da zillar kolokekoa.</p>
+<p>Gero zuria edo beltza eta atzenik oria edo arrea.</p>
+<p>Angolakuak deitzen zaiotenak dira larrurik onena dutenak.</p>
+<p>Lau edo bost urte egin dituztenean ill bear dira.</p>
+<p>Ume azitzeko gorde bear dira Epaillean jaioak.</p>
+<p>Ar bat asko da amar emerentzat; ba&ntilde;a arrak egon bear du apartean.</p>
+<p>Orobat egon bear dute umezketako dauden emeak.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>OGEI TA BATGARREN JOLASA</p><--</head>
+        </front>
+        <body>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Gaurko jolasak ez dizu nere ustez atsegi&ntilde;ik gutxiena emango.</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Guztiak arkitzen dizkitzut batzuek ba&ntilde;o besteak atsegi&ntilde;agoak.</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Asko tokitan ez da ez eltzerako ez argitarako intxaurraren olioa baizik.</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Jaungoikoari eskerrak ez degu emen orrelako uritasunik.</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Ala ere on da jakitea orain esatera noakizuna.</p>
+<p>Egiten da olioa intzurrarekin, urrarekin eta pagoaren ezkurrarekin. Baitaere egiten da koltza deritzan arbi mota baten aziarekin.</p>
+<p>Orobat egin diteke beste edozein azirekin.</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Eta onak dira oiek guztiak eltzereko?</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Ez; batzuek ez dira onak argitarako baizik.</p>
+<p>Li&ntilde;aziarekin egiten dan olioak du txit usai gaiztoa eta pinturetako bakarrik da ona.</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Eta nola egiten da olioa?</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Ara nola: artzen da intxaur ongi elduaren mamia.</p>
+<p>Ez du intxaurrak izan bear zarra.</p>
+<p>Zeatzen da mamia motraidu batean, pasatzen da zurda bai batean.</p>
+<p>Biltzen da eun zurda tolestu batean.</p>
+<p>Prensan ifintzen da eta estutzen da.</p>
+<p>Berritan olio au da onenetakoa, ala gordi&ntilde;ik nola eltzerako.</p>
+<p>Ba&ntilde;a etzaio zartzen utzi bear, laster galtzen dalako.</p>
+<p>Argatik egin bear da maiz berritan jateko.</p>
+<p>Gelditzen dan patsa uriztatzen da eta berriz prensan ezartzen da.</p>
+<p>Orobat egiten da irugarren aldian.</p>
+<p>Bigarren aldian ateratzen dan olioa ona da erregositzeko eta argitarako.</p>
+<p>Pagoaren ezkurrak, urrak eta aziak ur epeletan beratu bear dute.</p>
+<p>Azala kendu ondorean zeatzen dira motraiduan. Biltzen dira eta egiten da orre bat.</p>
+<p>Au ifintzen da berotzen auts beroaren ga&ntilde;ean lur konketa batean.</p>
+<p>Gero ezartzen da prensan eun zurdan bildurik.</p>
+<p>Pago ezkurraren olioa da guztiz ona ala gordinik jateko nola eltzerako eta zartagierako.</p>
+<p>Ba&ntilde;a bear ditu bi edo iru urte gutxienaz ondutzeko.</p>
+<p>Eta onetaralo ifintzen da lurrean lur konketan edo lur murkoetan.</p>
+<p>Lakari bakoitzak ematen du pitxerra ta erdi olio.</p>
+<p>Urraren olioa ez da ain ona argitarako ez bada.</p>
+<p>Indietako gazta&ntilde;aren ura txit ona da arropa garbitzeko.</p>
+<p>Bi gazta&ntilde;a asko dira pitxerdi bat urentzat.</p>
+<p>Mamia bear da txuritu, erazaldu eta ur beroan iduki ogei eta lau orduan. Nastu bear da noizik bein lauspeatzen utzi eta iragazi. Ur onekin garbitzen da ederki zapia.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>OGEI TA BIGARREN JOLASA</p><--</head>
+        </front>
+        <body>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Gaur beste jolas mota bat egin bear degu.</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Nai dezun bezela; zeren zure jolasa dana dala, beti izango da otzana.</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Badakizu odeiak nola sortzen diran?</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Askotan ikusten ditut irteten erreka eta ibaietatik besteetan lur bustitik, geiagotan eta geiago oraindik itsasotik.</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Zerk aterazitzen ditu onela?</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Eguzkiaren bertasuna nere ustez.</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Ala da, eta odeiak dira dakizun bezela euri biurtzen diranak.</p>
+<p>Euritik sortzen dira iturriak eta errekak eta oietatik ibaiak.</p>
+<p>Ibaietatik dijoaz itsasora berriz denborarekin odei biurtzeko.</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Beraz orrela beti jiraka biraka dabiltza itsasoko urak kurpilla bezala.</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Dudarik gabe, eta au bera gertatzen da eguzkiarekin diotenez.</p>
+<p>Egizu kontu eguzkia dala argizko itsaso bat.</p>
+<p>Andik irteten dan argia berriz ara biurtzen bada itsasoko ura bezela. Erraz da orduan kargu egiten nola itsasoa eta eguzkia beti estadu batean dauden.</p>
+<p>Lurraren azpian arkitzen dira gauza mota guztiak eta beroarekin igotzen dira baporeen artean.</p>
+<p>Bapore oietatik datoz tximistak eta turmoiak.</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Egiazki arrigarrizko gauzak dira esaten dizkidatzunak.</p>
+<p>Zer gauza mota dira beroak lurretik igoarazten dituen oiek?</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Beste askoren artean gatzua eta sufrea ze&ntilde;akin egiten da sutautsa.</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Ez dakit gatzua zer dan.</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Gatzua da gatz mota bat.</p>
+<p>Eta badakizu gatza non arkitzen dan?</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Lotsagarrizko gauza da, ba&ntilde;a aitortu beat det ez dakidala.</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Gatza arkitzen da gariaren gisa lurraren ga&ntilde;ean eta azpian.</p>
+<p>Arkitzen da urarekin nastua iturrietan eta itsasoan.</p>
+<p>Lurraren ga&ntilde;ean arkitzen danari deritza gatz arria.</p>
+<p>Au ateratzen da arrobitik arria bezela. Iturrietatik eta itsasotik ateratzen da ura berotu edo irakinda.</p>
+<p>Luzaro berotu eta uzten da oztutzen eta gatza gelditzen da ondoan.</p>
+<p>Toki beroetan marea goran uzten dute sartzen ura zelai zabaletan.</p>
+<p>Itxitzen dituzte atakidak eta uzten dute eguzkiak egin dezan suak egiten duena.</p>
+<p>Gelditzen da gero zelaia elurra egin balu bezin zuri gatzarekin.</p>
+<p>Gatza lurpean dagoan lekuetan, egiten dituzte zuloak eta eramaten dute erreka bat urez betetzeko.</p>
+<p>Ura gazitzen da, ateratzen dute eta, edo larra&ntilde;etan eguzkitan.</p>
+<p>Jaki&ntilde;a da eguzkiaren bitartez egiten dan gatza askoz merkeago ateratzen dala.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>OGEI TA IRUGARREN JOLASA</p><--</head>
+        </front>
+        <body>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Badakizu zer abarrotsa egiten duen surtan gatzak. Bada sutautsa ez da gatza baizik.</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Bizkitartean gatza zuria da eta sutautsa beltza.</p>
+<p>Nai nuke jakin zerekin egiten duten sutautsa.</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Esatera noakizu.</p>
+<p>Gatzua lurrarekin nastua arkitzen da eta egiten da lixiba lur onekin.</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Ba&ntilde;a nola egiten da lixiba?</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Ifintzen da lurra edo errautsa saski batean, botatzen zaio ur iraki&ntilde;a eta onek urtu eta eramaten du berekin gatzua.</p>
+<p>Ur oni deritza lixiba, eta oztutzen danean gelditzen da ondoan gatzua.</p>
+<p>Zenbat eta urari geiagotan iraki&ntilde;arazitzen zaion anbat eta gatzuak indar geiago izaten du.</p>
+<p>Ba&ntilde;a gaiago kostako da, irakite bakoitzean ur berria bear duelako.</p>
+<p>Ez da dudarik, zeren beti gatzua urritzen dijoa eta su geiago bear du.</p>
+<p>Argatik gatzuak zenbat fi&ntilde;agoa dan anbat eta geiago balio du.</p>
+<p>Gatzuari botatzen zaio sufre piska bat motraidura eta jotzen da orre egin arte.</p>
+<p>Gero botatzen zaio ikatz auts piska bat eta jotzen da berriz luzaro.</p>
+<p>Azkenik erelkitzen da zurda bai batean eta gelditzen da sutauts egi&ntilde;ik.</p>
+<p>Orain endelgatuko dezu nola sortzen diran o&ntilde;azkarrak, tximistak eta turmoiak. Baoakin igotzen dira lurretik eta itsasotik gatza sufre eta beste gauz asko.</p>
+<p>Oiek guztiak nastutzen dira elkarrekin eta artzen dute su. Orra zer dan o&ntilde;azkarra: ez da beraz mirari egin oi dituen zutigoak egitea.</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Orrek esan nai du o&ntilde;azkar bakoitza sutunpada bat dala.</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Ala da.</p>
+<p>Badakizu izotza ur gogortua besterik ez dala.</p>
+<p>Orobat dira txingorra elurra eta gatza.</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Bizkitartean diferenteak dirudite bata bestearen gandik.</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Bai, zeren beste zerbait gauzarekin nastuak dauden.</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Eta lur ikara zer da? Edo zertatik dator.</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Ori da gauza jaki&ntilde;a jakitearekin lurra dagola gatzez, sufrez eta beste onelako gauzez betea.</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Orrek esan nai du lur ikara lurpeko o&ntilde;azkarrak egiten duela.</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Baita ere sutokariak. Sutokariak deritza sua botatzen duen mendiari.</p>
+<p>-f-<hi rend='Bold'>ANTONIO: </hi>Kalte aundiak etortzen bide dira lur ikaretatik eta sutokarietatik.</p>
+<p>-f-<hi rend='Bold'>BASILIO: </hi>Iriak lurreratzera&ntilde;okoak eta lurpean sartzera&ntilde;okoak. Lurpean ura gatza dagoan tokitik igarotzen bada, gazia ateratzen da iturritik; sufre gustokoa, sufre artetik igarotzen bada, eta beroa, sua dan lekutik igarotzen bada.</p>
+        </body>
+      </text>
+    </group>
+  </text>
+</TEI.2>
+

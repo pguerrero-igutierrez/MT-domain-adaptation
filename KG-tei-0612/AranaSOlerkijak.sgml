@@ -1,0 +1,1737 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN"
+                       "http://www.tei-c.org/P4X/DTD/tei2.dtd" [
+   <!ENTITY % TEI.prose    'INCLUDE' >
+   <!ENTITY % TEI.linking  'INCLUDE' >
+   <!ENTITY % TEI.analysis 'INCLUDE' >
+   <!ENTITY % TEI.figures  'INCLUDE' >
+   <!ENTITY % TEI.XML      'INCLUDE' >
+   <!ENTITY % TEI.extensions.ent SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.ent' >
+   <!ENTITY % TEI.extensions.dtd SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.dtd' >
+]>
+<TEI.2>
+  <teiHeader>
+  <fileDesc>
+     <titleStmt>
+        <title>Olerkijak</title>
+        <author>Sabino Arana Goiri</author>
+        <respStmt>Ez dauka</respStmt>
+     </titleStmt>
+     <extent>7.461 hitz, 55.554 karaktere</extent>
+     <publicationStmt>
+        <publisher>Klasikoen Gordailua [http://klasikoak.armiarma.com/]</publisher>
+        <distributor>Estrata Liburuak S.L.</distributor>
+        <address type='email'>klasikoak@armiarma.com</address>
+        <idno type='ota'>AranaSOlerkijak</idno>
+        <availability status='free'>Erabilpen librekoa; honoko helbidean topa daiteke (HTML, RTF eta PDF formatuetan): http://klasikoak.armiarma.com/idazlanak/A/AranaSOlerkijak.htm</availability>
+        <date>2006</date>
+     </publicationStmt>
+     <sourceDesc>
+        <bibl>Iturria: Sabino Arana Goiriren Olerkijak</bibl>
+        <notesStmt><note>Iturburuen datazioa: 1894-1903, 1919</note></notesStmt>
+     </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+     <projectDesc>Euskal literaturako testu klasikoen bilduma da KLASIKOEN GORDAILUA; testu hau berorren parte da</projectDesc>
+     <refsDecl>
+        <p>MENTIONED etiketa egilearenak ez diren hitzak markatzeko erabili da: hitzaurreak, aipuak, iruzkinak, e.a.</p>
+    </refsDecl>
+     <classDecl>
+        <taxonomy id='generoa'>
+            <category id='G-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='G-ANT'><catDesc>Antzerkia</catDesc></category>
+            <category id='G-BER'><catDesc>Bertsoak</catDesc></category>
+            <category id='G-ERL'><catDesc>Erlijioa</catDesc></category>
+            <category id='G-NAR'><catDesc>Narratiba</catDesc></category>
+            <category id='G-POE'><catDesc>Poesia</catDesc></category>
+            <category id='G-SAI'><catDesc>Saiakera, kronika, artikuluak...</catDesc></category>
+        </taxonomy>
+        <taxonomy id='garaia'>
+            <category id='M-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='M-16'><catDesc>XVI. mendea</catDesc></category>
+            <category id='M-17-1'><catDesc>XVII. mendea - 1. erdia</catDesc></category>
+            <category id='M-17-2'><catDesc>XVII. mendea - 2. erdia</catDesc></category>
+            <category id='M-18-1'><catDesc>XVIII. mendea - 1. erdia</catDesc></category>
+            <category id='M-18-2'><catDesc>XVIII. mendea - 2. erdia</catDesc></category>
+            <category id='M-19-1'><catDesc>XIX. mendea - 1. erdia</catDesc></category>
+            <category id='M-19-2'><catDesc>XIX. mendea - 2. erdia</catDesc></category>
+            <category id='M-20-1'><catDesc>XX. mendea - 1. erdia</catDesc></category>
+            <category id='M-20-2'><catDesc>XX. mendea - 2. erdia</catDesc></category>
+        </taxonomy>
+        <taxonomy id='euskalkia'>
+            <category id='E-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='E-BAT'><catDesc>batua</catDesc></category>
+            <category id='E-BIZ'><catDesc>bizkaiera</catDesc></category>
+            <category id='E-BNA'><catDesc>behenafarrera</catDesc></category>
+            <category id='E-ERR'><catDesc>erronkariera</catDesc></category>
+            <category id='E-GIP'><catDesc>gipuzkera</catDesc></category>
+            <category id='E-GNA'><catDesc>goi nafarrera</catDesc></category>
+            <category id='E-LAP'><catDesc>lapurtera</catDesc></category>
+            <category id='E-NAF'><catDesc>nafarrera</catDesc></category>
+            <category id='E-ZAR'><catDesc>zaraitzuera</catDesc></category>
+            <category id='E-ZUB'><catDesc>zuberera</catDesc></category>
+        </taxonomy>
+    </classDecl>
+  </encodingDesc>
+  <profileDesc>
+     <textClass>
+       <keywords scheme='generoa'>
+         <list><item>G-POE</item></list>
+       </keywords>
+       <keywords scheme='garaia'>
+         <list><item>M-19-2</item></list>
+       </keywords>
+       <keywords scheme='euskalkia'>
+         <list><item>E-BIZ</item></list>
+       </keywords>
+     </textClass>
+  </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>Olerkijak -- Sabino Arana Goiri</docTitle>
+    </front>
+    <group>
+      <text>
+        <body>
+<p><mentioned>ARANA-GOIRI'REN OLERKIENTZAKO ITZ-AURRE LABURRA</mentioned></p>
+<p><mentioned>Eleizalde'tar Koldobika</mentioned></p>
+<p><mentioned> Itz barri gutxi esan negiskezu, irakurle on ori, Arana Goiri'ttar Sabin'en Olerkietzaz. Euzkel-irakurzale oroen edo beintzat geyenen artean arras ezagunak dira, banaka an-emen sarri argittaldu izan diralako. Ba&ntilde;a gaur, idazti baten bildduta eskeintzen yatzuz, ta txukundo argittalduta gero, Sabin aundiaren olerkiok. Beste zor askoren artean, gure Sabin maiteari auxe be geneutson, eta ordain-aldia oraintxe eldu yako: zelako atsegin ta maitasunez opaltzen dautsogun oraingo idazti au! Goitik bersku berak.</mentioned></p>
+<p><mentioned> Abertzalea ba-zara, irakurle ori, idazti au txalo ta poz-oyuka darkezu, noski. Abegirik gurenena dagiskeozu. Agi-agian, begietatik negarra zintzillik eta biotza samurtasunez beteta dozuzala, espa&ntilde;etara urbilddu ta mun-egingo dautsozu, Irakasle aundiaren gogo zintsoaren emoitzik ederrenari bezela. Bai, noski! Sabin'en gomuta oro biztu, ta bere ekitte ta egikun gustiak bizi-biziro birrageriko yatzuz. <hi rend='Italic'>Itxarkundia </hi>ta <hi rend='Italic'>Mendiko Negarra, </hi>ta beste aunelako zenbait olerki irakurriaz, gure Batzar ta Batzokietako amaikatxo yayaldi ederren oroipen atsegi&ntilde;ak, oroipen ezin gozoagoak gogora galgalka datorskezuz! Idazti au, beraz, sarri dirakurkezu; ta zartzaroko urte illunetan, gastealdietarantz begirakunen bat yaurti gura izango dozunean, ez dautzu ezerk oroipen gozoagorik ekarriko idazti aunek ba&ntilde;o, ta urrian, oalboko mayan izango dozu beti idazti berauxe, bere olerkietaz ordu mingotsak gozatzeko...</mentioned></p>
+<p><mentioned> Alabere, abertzalea izan ez-arren, olertizalea ba-zara, daskeintzugun idazti au abetalduko dozu; olerkiok berez ederrak, goittiarrak eta zi&ntilde;ez irakurgarriak diralako. Euzkelertian, orainda&ntilde;o, aunelako gutxitxo sortu da. Arrese ta Beitia'k olerki geyago egin ebazan, ez ba&ntilde;a obeak; gozoagoak, samurragoak agian; ez ba&ntilde;a kementsuagoak, ezta gizonezkoagoak. <hi rend='Italic'>Lenago il </hi>irakurzu, arren:</mentioned></p>
+<p><mentioned> <hi rend='Italic'>Ze ikusten dabe neure begijok?...</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Au danau dakust galduta:</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Berezi, baso, muru ta mendi,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Uri, baserri ta dana!..</hi></mentioned></p>
+<p><mentioned> Askuntz au kemenez ta suz beterikoa dala autortuko dozu; ba&ntilde;a kemena ta sua azkenera&ntilde;o geitzen ta geyagotzen doazala be laster dakuskezu.</mentioned></p>
+<p><mentioned> <hi rend='Italic'>Mendiko Negarra, </hi>be, noski, izenak di&ntilde;onez, &laquo;negarra&raquo; da; ez ba&ntilde;a eme makalena, gizonezko gizonarena ba&ntilde;o. Ez &laquo;ezi&ntilde;ak&raquo; dakarran alperriko negarra, egin-nayaren kemenak sortzen daune ba&ntilde;o. Ta ainbat uartu zenegi beti Arana-Goiri'ren olerkietan. Goitiar dabil beti, arranoa egaz bezela, olerkari bikain aunen oldozkuna. Lurreko zirtzilkerietan ez dozu i&ntilde;oiz idoroko. Bere askua orrelakoxea izan zan, eta asku ori egikunetan igarri bear, nai ala ez. Ogasunak ez ebazan berak i&ntilde;oiz be aintzat-etsi, ezta bizkera erraz ta erosoa, ezta gizonik geyenak onesten eta onenesten dabezan gauzok.</mentioned></p>
+<p><mentioned> Olertiok irakurri zenegiz, euzkeldun on orrek! Irakur-gai yoririk euzkeraz ez da orainda&ntilde;o. Gure ele au aoz-ao eldu yaku, egunera&ntilde;o. Idazti gutxidun elea da gure au; agian, idaztirik gutxienduna. Asabetzaz txarto esaka atsegi&ntilde;a ez dan-arren, asabok erri-eleari zor yakon ardurea ez dabela artu, ezta gutxiago bez, autor bearko dogu. Nork euren utsak bete? Geuk, ez beste i&ntilde;ork. Eta gure artean, lenengo lerroetan, Arana- Goiri'ttar Sabin aundiak, yayotzez erdeldun eta maitasunez euzkeldun zanak, eta euzkeldunen artean olerkari bikain-bikai&ntilde;a (abertzale beroa zalako) izan zanak. Darraizan ingoskietan, Euzkel-Olertian berak erakutsi euskun bidea dakuskezu, irakurle on orrek.</mentioned></p>
+<p><mentioned><hi rend='Italic'>Gazteiz, 1918, Azilla, 25'an</hi></mentioned></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><mentioned>ITZ BI</mentioned></p>
+<p><mentioned>Aita Onaindia</mentioned></p>
+<p><mentioned> Begien mende dozu idazti deigarri bat, geldi-geldi irakurtekoa. Ez ezelan be eliz-txorien egazkada biziz, saiaren ego-ukaldi itzal aundikoaz bai&ntilde;o.</mentioned></p>
+<p><mentioned> Sabi&ntilde;'en olerkiak dituzu, maisu jakintsuaren sorpenak. Arek be, ba, musaen ondi-gai&ntilde;ean intzentsua erre eban. Besterenganatua ibilli zan gauza askotan, eder-lanari ekiteko asti geiegi barik; alan eta guzti, sarri aundiko bultzadak izan zituan ez gitxitan.</mentioned></p>
+<p><mentioned> Goi-gorriak jota eder-eremuan besteak ez ekusena ikustera eldu zan, ez gero obari ta interesdun zerbaiten billa, guztion aintzarako zanak eraginda bai&ntilde;o. Erdiune ber-berera doaz abandotarraren burutapen, biotz-erason eta birlora dan-danak: euskal erriaren ona, zuzena</mentioned></p>
+<p><mentioned>ta aintza. Urduritasun orrek iruntsiko dautsa olerkariari arimea.</mentioned></p>
+<p><mentioned> Ertilari genduan Sabin. Gizona ta ertilaria, barriz, estu-estu ei dabiltz. Sabin'ek, giza-seme zanez, jaio zan sukaldean ikasi ta arturiko fede ta ekandu zuzenai ez eutsen egundo muzin egin. Aren oler-lanak onak ditugu beti, Jainkoa ta Aberria duin be duin kantatuz. Gizonak leenen gizon izan bear, eta ondoren artista; gero, jaki&ntilde;a, sorburu garbiak ezin daikegu ur loirik ekarri.</mentioned></p>
+<p><mentioned> Aren lirikar kopla guztiak barren-barrendik sortuak dira. Olerkia, barruan erne ta eroana, aur-aldi baten antzeko dala takean-potean entzuna dogu; labur adierazteko, ernaldi nekeza, luze, lillurazlea. Ez da, egia autortu nai da'da, edozer gauza, aizta bat, tresna bat, idazkortz bat, adibidez. Beste zerbait da, mui&ntilde;etik jagia, gizonaren barne-biziak uzta eder lez emona.</mentioned></p>
+<p><mentioned> Olantxe moldatu euskuzan Arana'k bere olerkiak, espetxean, illunetan egi&ntilde;ak ainbat, mendi gurenetik zabal ta eder, bai&ntilde;a zori gaiztoko gure erria ikusiaz, biotz-taupadaka biribildutako oler-bitxiak.</mentioned></p>
+<p><mentioned> Giza-abots oro da, ziurki, zerbaiten ereile. Arana'rena aberri ereile. Aren bertsoak &mdash;esan dogu&mdash; Jainkoa ta Aberria kantatu eben. Bernanos'ek aitatu zitun i&ntilde;oiz &laquo;lirikar aotxoak&raquo;, emakumezkoak beti gauza bardi&ntilde;a abesten dabela adierazo nairik. Arana'z berebat esan bearko? Ba leiteke. Ez poesi mimikoi ta geldoak egin zitulako, bere barrua olan ustu ebalako bai&ntilde;o. Biotzean daroaguna errez adietan emoten. Ak maite bi eroazan, su bi, bere erraietan. Eta orrexek abesten dauskuz eten barik.</mentioned></p>
+<p><mentioned> Biotzaren intziriak, oiu bizi-garratzak, aren lanak, larogetaz urteak joanak dirala be, oraindik gogotan daukaguzanak. Olerkariaren naia, barriz, nobere bertsoak urtez urte otsegi&ntilde;ak izatea da, ezpairik bage. Eta Arana'k jadetsia dau gurari ori.</mentioned></p>
+<p><mentioned> Bai, nok ez ditu gaur be entzuten, euskotar eztarriak oiukatuta, aren olerkiak: &laquo;Bizkaitarrak gara&raquo;, &laquo;Mendiko negarra&raquo;, &laquo;Azkatasun eguzkia&raquo;, &laquo;Lenago il! &raquo;, &laquo;Agur, Jaunan Ama&raquo;, &laquo;Goxeko Ixarra&raquo;, &laquo;Otse&ntilde;a zara&raquo;, &laquo;Ken!&raquo;, &laquo;Euzko-Abendearen Ereserkia&raquo; eta gai&ntilde;erakoak? Orretarakoxe idatzi zituan, ain zuzen, kanta daiguzan; eta kantatuz euskaldun biotzak samur-azo ta zirraratu egiezan.</mentioned></p>
+<p><mentioned> Xede ori bete beizu, irakurle, gure Irakasle jatorraren biotz-intziri ta samin-oiuak.</mentioned></p>
+<p><mentioned><hi rend='Italic'>Larrea, 1982-3-24</hi></mentioned></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><mentioned>ARANA-GOIRI'REN EUSKAL LANA</mentioned></p>
+<p><mentioned>Aita Onaindia</mentioned></p>
+<p><mentioned>I</mentioned></p>
+<p><mentioned>Bizi zeaztasunak</mentioned></p>
+<p><mentioned> Euskal arloaren arnasa barri bati bidea emon eutsan gizaseme bipil au Abando'n jaio zan, San Bizente eleiz ondoan. Aren gurasoak: Santiago Arana ta Paskuala Goiri. Zortzi seme-alabetatik, Sabin izan zan azkena. 1873'garrenean, bigarrengo karlista gerra sortu zala-ta, Laburdi'ko Getari'ra jo eban Sabin'ek bere ama ta anai bigaz, aita aurretik be Inglaterra aldetik zala. Baiona'n egin zituan 1873-74 arteko ikasketak; 1875-76 artekoa, barriz, Donibane Lohitzun'en, azken azterketak Ondarribi'n osotuaz. Amaika urtedun Bilboratu ta 1876'garren urteko ikastaroa Ordu&ntilde;a'ko jesuitetan asten dau; eta emen, 1881'an azkenengo ikastaroa amaitzen egolarik, oso txarto gertatu zan osasunez, eta urrengo urte bietan ez eban ezertxo be ikasi, bere sorterria maitatzen eta umetatik ez ekian euskera ikasten jardun bai&ntilde;o. Amazazpi urteko zala aita ta anai bat il yakozan.</mentioned></p>
+<p><mentioned> Ondoren, 1883'an, bere ama ta anai Koldobika'rekin, Barzelona'ra joan zan eta antxe ikasi zituan Filosofia, Lege-jakintza ta Elertia; baita bitartetan euskera be Arturo Kanpion'ek atera barri eban &laquo;Gram&aacute;tica Bascongada&raquo;-rekin, len Van Eys olandarraren Iztegi ta Gramatikarekin egin eban lez. Berak be, orrez gain, 1885'an, naiz-ta geroago argitara emona izan, &laquo;Gram&aacute;tica Elemental del Euskera Bizkaino&raquo;, 200 orrialdekoa, osotu eban. Urrengo urteetan, il arterai&ntilde;oko guztian, lan izugarria egin euskun lumaz ta mingai&ntilde;ez.</mentioned></p>
+<p><mentioned> Bein, 1893'an, Bego&ntilde;a ondoko Larrazabal baserrian adierazo zituan garbi ta argi asmotan erabiltzan elburu, xede ta lanak. Orreik aurrera eroateko &laquo;Bizkaitarra&raquo; eritxon aldizkaria sortu eban: il-zori larrian ekusan euskal kontzientzia itxartu nai eban izparringi onen bitartez; bera zan sortzaille ta zuzendari, ta bertoko lanakaitik sarri izan zan salatua, auzipetua ta giltzapetua. 1897' an &laquo;Baserritarra&raquo; sortu eban, bai&ntilde;a au be, denpora gitxi barru, goitik ixil-azia izan zan.</mentioned></p>
+<p><mentioned> Jaungoikoa ta Lagi-Zarra zan aren ikurritza; onekin erein eban bere politika azia, lur naiko girotuan erein be, ernera bikai&ntilde;a bai ekarren. 1894'an edegi zan Euskeldun Batzokija, geroztik sarri itxi ta edegi eutsoena. Onako baten Sabino ta beste abertzale mordo bat espetxean jarri ebezan eta Arana'k orduan ondu euskun, Larrinaga'n egoala, &laquo;Lenago il! &raquo; deritxon olerkia. 1899'an &laquo;El Correo Vasco&raquo; egunerokoa sortu eban; eta auxe izan zan lenengo abertzale egunerokoa, ta 103 zenbakirai&ntilde;o eldu zan. Aranak berak idazten eban ia geiena, ta &laquo;Bizkaitarra&raquo; ta &laquo;Baserritarra&raquo; baizen zirtolari etorren. Urte onetan samin artean izan zituan pozaldiak be: 4.500 bizkaitarrek bere alde emon eben autarkiagaitik Bizkai'ko Aldundegiko aurkietan jarri al izan zan; eta bertako gauza ta goraberetan zuzen ez ebiltzanak polito zigor-azo ebazan.</mentioned></p>
+<p><mentioned> Urte oneitan, lan eta lan ekiola, osagilleak aginduta, Sukarrieta'ko baserri baten bizi izan zan. Berton ezkondu zan 1899'an Atxikallende Nikolasa'gaz. Ez eben seme-alabarik izan. 1902'an Ipar-Amerika'k Kuba'ri emon eutsan askatasunagaitik Arana'k urrutidatzi batez, zorionak bialdu eutsazan ango lendakariari. Au zala-ta be espetxeratu eben, eta orduantxe Larrinaga'n aurkitzen zala idatzi eban &laquo;Abertzale ezkonduba espetxian&raquo; deritxon olerki sentikorra.</mentioned></p>
+<p><mentioned> Ezin etsi i&ntilde;olaz be lanean. 1901'an &laquo;Euzkadi&raquo; iruillabeterokoa ta &laquo;La Patria&raquo; asterokoa sortu zituan. Argitalpen bi oneik, azkenengoak batez be, atera eben zarata ta iskanbillik, eta 1903'ko Bilbao'ko Udaletxean zi&ntilde;egotzi ziran abertzale guztiak bota ebezan andik, baita abertzale usai&ntilde;eko argitalpen guztiak debekatu be. Ainbeste neke-lorrez abandotarraren osasuna auldu joian oso: erriaren alde emon eban eukan guztia. Sukarrieta'n il zan atzenez, 1903-11-25'an; gazte oindi&ntilde;o, 38 urte besterik ez zituan eta. Bere gorputza, illotzik, an geratu zan Kantauri ertzean, lurperatua; aren gogoa, barriz, berak ainbat goratu eban Jainkoak artu eban bere zorion betierekoan.</mentioned></p>
+<p><mentioned>II</mentioned></p>
+<p><mentioned>Euskal lana</mentioned></p>
+<p><mentioned> Naimen sendokoa zan Arana-Goiri, ta etzan i&ntilde;oiz be kikildu bizi-bidean jagi yakozan zoztor eta eragozpenen aurrean. Gogoko eban azterketa lana ta orretan jarduna dogu aspertu barik: asaben izkuntza jaso ta bitxitu, ona aren elburuetatik bat. Zabar eta murriztua ekusan euskera; gure euskalkien matasa be bai ikusten eban. Zer egin? Aurrera ziur asko! Lenengotan bizkaierari buruz osotu ebazan lanik geienak: itxorkun eta etimolojiaz, gramatika ta eskola-liburuz, eleder ta musikaz, arduratu yakun. Euskeraz ta euskeratzaz beti be.</mentioned></p>
+<p><mentioned> Asko be asko idatzi eban Arana'k bere bizitzaldi laburrean. Irakur egizu aren &laquo;Obras Completas&raquo; lanetatik zerbait, eta zeuk ikusiko dozu ederto asko. Ona erderazko lan batzuk: &laquo;Etimolog&iacute;as eusk&eacute;ricos&raquo;, &laquo;Pliegos hist&oacute;rico-pol&iacute;ticos&raquo;, &laquo;Bizkaya por su independencia&raquo;, &laquo;Tratado etimol&oacute;gico de los apellidos eusk&eacute;ricos&raquo;, &laquo;El Partido Carlista y los Fueros Vasco-nabarros&raquo;, &laquo;Bizkaitarra&raquo;, &laquo;Baserritarra&raquo;, &laquo;El Correo vasco&raquo;, &laquo;Euzkadi&raquo;, &laquo;La Patria&raquo;, &laquo;Patria&raquo; aldizkariak eta abar.</mentioned></p>
+<p><mentioned> Egia esan, Arana'k erderaz osotu euskuzan bere lanik geienak. Bai&ntilde;a berak di&ntilde;osku bost aldiz gaitz egiten yakola erderaz jardun bearra, ta orretan ba'ziarduan be euzkotarrak ulertu egioen egiten ebala, ez bere gogoz. Gizona, alan be, ez da itzez neurtzen, egitez bai&ntilde;o. Eta Sabi&ntilde;'ek esan dogu, ez ekian euskera ikasi egin eban, eta euskera utsean emon euskuzan: &laquo;Egutegi bizkaitarra&raquo;, sakelerakoa: &laquo;Umien lenengo aizkidia&raquo;, &laquo;Lenengo Egutegi Bizkaitarra&raquo;, ormarakoa; berton datoz euskal izenak be, geroago &laquo;Ixendegi Euzkotarra&raquo; izenez, a ilda gero, argitara ekarria; aren &laquo;Olerkiak&raquo; eta &laquo;Libe&raquo;, azkenez, euskeraz osotu ziran.</mentioned></p>
+<p><mentioned> Norbaitek bear bada esango dau: &laquo;Nolako euskeran idazten eban? &raquo; Eztau edozelakoa, ez. Ona baserritik urira doazan neskatillak dabezan arriskuai buruz, gurasoai di&ntilde;otsena: &laquo;Bertoko baserrijetako neskatillak zur ta ederrenak &mdash;idazten dau&mdash;, euren gurasuak Bilbao'ra, otse&ntilde;ak ixateko, bidaldu daroyez. Guraso orrek eztakije nora euron alabaok bidaltzen dabezan. Dirutan datozanak, diruban bertan aurkituten dabe euren galbidia, euren galtzia. Beste batzuk usuaren zuritasunez jantzita ta dirubari larregi jaramon ezik datoz; ba&ntilde;a Bilbaon miru ta sayarre asko dagoz, ta usotxuok eztaroyez euron arerijuak ezautu, euren erpiak oratuta dagozan artian. Orduban berandu da. Eta ekixube, euzkeldun gurasuak, extirala gizonak sayarre gaiztoenak, emakumiak ba&ntilde;o: onek, eitz edo kaza-egiteko, ezartzen doyazan aitz nagosijak dira Eztazi&ntilde;oiak eta Merkauak. Euzkeldun gurasuak: ezegixuz bidaldu zeure alabaok Bilbao'ra. Obia da erdeldun otse&ntilde;ez beterik uri au ikustia&raquo;.</mentioned></p>
+<p><mentioned> Arana'k, berak ikasi ta idatzi ez-ezik, eragille trebe lez, bultzada ederra emon eutsan euskerari. Aren irrintziari esker, ainbat euskalari ta euskal idazle jagi ziran or-emendik, gartsu, bizkor eta kezkari. Il-zorian idoro eban Arana'k bere izkera munduratu zanean, eta konturatu-ala, ilte ori uxatzeko alegi&ntilde;ak alegin egiten saiatu zan. Erriaganako maitasunak, abertzaletasunak gaizkatuko eban, aterako eban gure izkuntza bere eriotz-zoritik. Beraz, onela i&ntilde;oan: &laquo;Euskera ilten ba'da, abertzalerik ez dalako izango da&raquo;. Il ez zedin, geure nortasuna zaintzen alegindu gaitezan, beste i&ntilde;ok bai&ntilde;o lan izugarriagoa egin eban. Guk uste bai&ntilde;o geiago zor dautsogu, ba, Arana'ri; a izan ezpalitz, ziur asko, ainbat gauza ta balio aintzagarri, euskaldunonak, galduak genduzan onezkero; euskera bera be, ak zuzpertutako erriak eta idazleak eutsi ta jaso ezpa-lebe, lurperatua bide genduan onezkero.</mentioned></p>
+<p><mentioned> Beioa emen olerkiaren mami&ntilde;a, irakurri ala, obe ulertzeko be, J. M. Leizaola'k bere olerkiari buruzko lanetan di&ntilde;oskun au. &laquo;Olerkiak duan lendabiziko berezitasuna, esan-naietan dago. Olerkiak ez du itzaren esanai bera, bakarrik nai izaten, erantsi lezayoken beste esanai bat agertarazi nai izaten du, eta beste esanai onen bidez edertasunaren biotz-ukitzea suspertu.</mentioned></p>
+<p><mentioned> &laquo;Orretarako itz-izun edo ingurapenak (metaforak) ber-esateak (repeticiones), maillako-itzak (gradaciones) ta aurkako esanak (contrastes) izaten dira bide oituenak. Zenbat eta bide oyek maiz ta egokiago erabilli ainbat olerkia ederrago, mamiari dagokionengatik.</mentioned></p>
+<p><mentioned> &laquo;Euskerak bide oyetakoen arteko esanai asko ba ditu. <hi rend='Italic'>Aitoren semea</hi> jatorri goitueneko gizon bat izendatzea itzizun edo metafora bat esatea da: <hi rend='Italic'>berbera</hi> ber-esate bai da; argi ta garbi maillako-itz bat. Abek, beti aotan dauden esanak, ordea, olerki batean ez lukete bereziak izango, ta onen edertasunaren bide ere ez lirake izango.</mentioned></p>
+<p><mentioned> &laquo;Berriak eta egokiak bear dira. Berriak izatea ez du i&ntilde;oiz entzun ez dirala esan nai; era ontara erabilli ez dirala ba&ntilde;o. Egokiak, ez luzegiak (abek zertan ari geran aztu eragiten digute, ta nastu edertu bearrean), ezta betez ondo ez aitzeko bezelakoak (latzak, errez aitzen ez diranak, ari geran gauzarekin zer ikusi ez dutenak) izatea da.</mentioned></p>
+<p><mentioned> &laquo;Ona eredutzat euskal abesti bika&ntilde;enetako bat:</mentioned></p>
+<p><mentioned> <hi rend='Italic'>Txori&ntilde;uak kayolan tristerik du kantatzen;</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>dualarikan zer jan, zer edan,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>kanpoa desiratzen. Zeren?, zeren?</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Libertatia ain eder den.</hi></mentioned></p>
+<p><mentioned> &laquo;Ontan &laquo;zeren? zeren?&raquo; ber-esatea ezin egokiago dezute; aurkako esan egoki batek tristeziaren sortuera begi aurretik kendu izan digu-ta. Galderari indarra ematen dio ber-esateak. Aurkako esana, berriz, &laquo;dualarikan zer jan, zer dan&raquo; da. Askatasun zelatasunak lotua dagonari sortzen dion mi&ntilde;a gain-ga&ntilde;ean agertarazteko, zein egokiagoa? Askatasuna nai dekala? Ez al dek, bada, zer janik zer edanik? Itz oyek, margolariak arpegi aldean jartzen duten margo illunaren lekua dute&raquo;. (Obras Completas, Donostia, 1981, I alea, 69 orr.).</mentioned></p>
+<p><mentioned>III</mentioned></p>
+<p><mentioned>&laquo;Olerkijak&raquo; liburua</mentioned></p>
+<p><mentioned> Olerki mordoa itxi euskun Arana'k, bere biotz saminduari askatasun pizkat emonaz egindakoak. Erri-askatzaille askok jo dau bide orretatik: J. P. Rizal'ek Pilipinas'en, eta Mao-Tse-tun'ek oraintsu Txina'n. Erria biztuteko egokia izan olerkia. Ba-ekian, gai&ntilde;era, olerkia kantuari lotua ebillela, ta ondu ebazan geienak erri kantu barruan moldatu zituan, ots, erriak abesteko eran biribildu euskuzan. Zer gai erabilli eban? Aberria, ikurpe onekin: &laquo;Jaungoikua eta Lagi-Zarra&raquo;. Ezta aren poesia irudimenaren saio uts, egi batek aragitutako olerkia bai&ntilde;o.</mentioned></p>
+<p><mentioned> Arana ilda gero, aren paper artean agertu ziran banaka batzuk izan ezik, aitatu ditugun agerkarietan datoz geienak. Eleizalde'tar Koldobika'k, Bergara'ko seme argiak arduraz batu ta txorta eder bat argitaratu eban aren poesi-lanakaz, 1918'an; izenburu au emon eutsan bilduma orri: &laquo;Olerkijak&raquo;. Itzaurrean onan di&ntilde;osku biltzailleak: &laquo;Itz barri gutxi esan negiskezu, irakurle ori, Arana-Goiri'tar Sabin'en Olerkietzaz, Euzkel irakurtzale oroen edo beintzat geyenen artean arras ezagunak dira, banaka an-emen sarri argitaldu izan diralako. Ba&ntilde;a gaur, idazti baten bilduta eskeintzen yatzuz, ta txukundo argitalduta gero, Sabin aundiaren olerkiok. Beste zor askoren artean, gure Sabin maiteari auxe be geneuntson, eta ordain-aldia oraintxe eldu yako: zelako atsegin ta maitasunez opaltzen dautsogun oraingo idazti au! &raquo;</mentioned></p>
+<p><mentioned> Liburu bati, irakurtean, atsegi&ntilde;a artzeko, nok eta noiz idatzia dan jakitea, bearrezko dala deritxat. Abertzale batek eta eusko-abertzaletasunaren sorreran bertan egi&ntilde;ak dituzu olerkiok. Ederki di&ntilde;o, beraz, Eleizalde'k: &laquo;Abertzale ba-zara, irakurle ori, idazti au txalo ta poz-oyuka darkezu, noski. Abegirik gurenena dagiskeozu. Agi-agian, begietatik negarra zintzilik eta biotza samurtasunez beteta dozuzala, espa&ntilde;etara urbildu ta mun-egingo dautsozu. Irakasle aundiaren gogo zintsoaren emoitzik ederrenari bezela. Bai, noski! &raquo;</mentioned></p>
+<p><mentioned> Alan be, abertzaleentzat bakarrik egi&ntilde;ak ete dira olerkiok? Ez; eder-zale ba'zara be, ba-dozu emen ederrik. Eleizalde'k barriro be: &laquo;Abertzalea izan ezarren, olerki-zalea ba-zara, daskeintzugun idazti au abetalduko dozu; olerkiok berez ederrak, goitiarrak eta zi&ntilde;ez irakurgarriak diralako. Euzkelerrian, oraindi&ntilde;o, aunelako gutxi sortu da. Arrese ta Beitia'k olerki geyako egin ebazan, ez ba&ntilde;a obeak; gozoagoak, samurragoak agian; ez ba&ntilde;a kementsuagoak, ezta gizonezkoagoak: <hi rend='Italic'>Lenago il</hi> irakurzu, arren:</mentioned></p>
+<p><mentioned> <hi rend='Italic'>Ze ikusten dabe neure begijok?...</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Au danau dakust galduta:</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Beresi, baso, mura ta mendi,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Uri, baserri ta dana!...</hi></mentioned></p>
+<p><mentioned> Askuntz au kemenez eta suz beterikoa dala autortuko dozu; ba&ntilde;a kemena ta sua azkenera&ntilde;o geitzen ta geyagotzen doazala be laster dakuskezu&raquo;.</mentioned></p>
+<p><mentioned> Iru sailletan banandu euskuzan Eleizalde'k, bilduma egiterakoan, Arana-Goiri'ren olerkiak. Onan: I. Bost <hi rend='Italic'>ereserki</hi>: 1) &laquo;O&ntilde;atz-Loyola eta Likona'tar I&ntilde;aki, Bizkaya'ren Zaindari deunari Bizkaitarrak&raquo;, 1895'an egi&ntilde;a; 2) &laquo;O&ntilde;atz-Loyola eta Likona'tar I&ntilde;aki, Gipuzkoa'ren Zaindari deunari Gipuzkoarrak&raquo;; 3) &laquo;Agur, Jaunan Ama&raquo; (<hi rend='Italic'>Ave, maris stella</hi> euskeraz); 4) &laquo;Jai andi onetan&raquo; (<hi rend='Italic'>Sacris solemnis</hi> euskeraz), ta 5) &laquo;Euzko-Abendaren Ereserkija&raquo;. II. Zortzi illots: 1) &laquo;Gaurik baltzena&raquo;; 2) &laquo;Ene Ama!&raquo;; 3) &laquo;Oraingo Bizkai-bizkarrak&raquo;, 1896'an egi&ntilde;a; 4) &laquo;Mendiko negarra&raquo;, 1896'an egi&ntilde;a; 5) &laquo;Abertzale baten negarra&raquo;; 6) &laquo;Otse&ntilde;a zara&raquo;; 7) &laquo;Lenago il!&raquo;, Bilbao'ko espetxean 1895'an ondua; 8) &laquo;Ene Aberrija!&raquo;. III. Amazortzi abesti: 1) &laquo;Bego&ntilde;a'ko Ixar zerutarrari&raquo;, 1895'an egi&ntilde;a; 2) &laquo;Ama Goikuari&raquo;; 3) &laquo;Andera Mirena garbijari&raquo;; 4) &laquo;Josu'ren Bijotzari Abestija&raquo;; 5) &laquo;Gabona&raquo;; 6) &laquo;Goxeko Ixarra&raquo;; 7) &laquo;Ixarkundia&raquo;, goiz-abestia; 8) &laquo;Ederra zara&raquo;; 9) &laquo;Ai, Mikel&raquo;; 10) &laquo;Bizkaitarrak gara! &raquo;; 11) &laquo;Ken! &raquo;; 12) &laquo;Ai. Kepandon! &raquo;; 13) &laquo;Urkiola'ko bidian&raquo;; 14) &laquo;Boga, boga&raquo;; 15) &laquo;Abertzale ezkonduba espetxean&raquo;; 16) &laquo;Zi&ntilde;esmena!&raquo;; 17) &laquo;Astarloa'tar Paul-Kepa'ri&raquo;, ta 18) &laquo;Didar bat aditu da&raquo;.</mentioned></p>
+<p><mentioned> Eder yakozan Eleizalde'ri Arana'ren olerkiak. Onela di&ntilde;o: &laquo;Goititar dabil beti, arranoa egaz bezela, olerkari bikain aunen oldozkuna. Lurreko zirtzilkerietan ez dozu i&ntilde;oiz idoroko. Bere askua (kemena) orrelakoxea izan zan, eta asku ori egikunetan igarri bear, nai ala ez&raquo;. Izan be, mami&ntilde;era jo ezkero, guztiz sentikorrak ditu batzuk, illetotsetatik &laquo;Mendiko negarra&raquo; bereziki. Eta ereserkietatik &laquo;Euzko-Abendarena&raquo; ba'leiteke, izki ta doinu, munduko ederrenetarikoa izatea.</mentioned></p>
+<p><mentioned> Azalari gagokiozala, ez eban rimarik gura; alan be, ondu zituanak kantetako ziranez gero, azken bardin-amaitze edo rimaz osotu euskuzan geienak. Olerkiak neurtzeko ta, jarri euskuzan legeak darabilguz gaurko olerkariok be. Labur: Arana'ren olerkia giarra dozu, indar aundikoa, biotz-odoltsuz gai&ntilde;ezka egi&ntilde;a: aldiz diardu latz, barru loak artuak itxartu nairik, eta aldiz, samur, sentikor oso, egarbera ebiltzan euskaldun urduriak atzemon naita.</mentioned></p>
+<p><mentioned> &laquo;Esanayak olerkiaren mamia diran bezela &mdash;di&ntilde;osku barriro be J. M. Leizaola'k&mdash;, itz-otsak azal ta ezurra dira. Ta esanayetan edertasunaren biotz-ukitzea billatzen dan bezela, itz-otsetan ere ez dira zuzenenak nai izaten, ederrenak ba&ntilde;o. Zein aukeratuko dan ez du argi-nayak agintzen edertasun-nayak ba&ntilde;o.</mentioned></p>
+<p><mentioned> &laquo;Emendik, olerkiak neurtuak izatea; emendik, olerkien azkenenko itzak ots antz-berdin edo berdintsukoak izatea. Euskerak abetan jartzen olerkien azal ta ezurren berezitasuna; beste izkuntzak beste berezitasunak nai izaten dituzte&raquo;. (Ibidem, 72 orr.).</mentioned></p>
+<p><mentioned>IV</mentioned></p>
+<p><mentioned>Oler-sena</mentioned></p>
+<p><mentioned> Esanak esan, or dago Arana'k egi&ntilde;a ainbat arlotan. Eragille benetakoa, egiaz. Euskal ezpiritu barri bat sortu eban euskalduntasunari berebiziko kemena ezartzeko. Adimen zolikoa zan, eta politikan ez-ezik, euskal eremuan lan itzala osotu euskun, esan dogunez. Aren ertxiak, artezak ziran; baita gaur-egunerako be. Izango ditu bere akatsak, bai&ntilde;a ak erriari ta euskerari emondako bestelako indarra, onerako izan da beti be. Saiatu zan arloa ez eban erren itxi.</mentioned></p>
+<p><mentioned> Ezta olerki-arloa be. Esan dogu: olerkari bikai&ntilde;a genduan Arana. Biotz sentikorra ta adimen zolia bear dira erti-lanerako. Zorrotzik zorrotzena zan adimenez, eta biotz-ondoz txit bizia, erriaren alderako atan be. Abertzale bero zalako, olerkari bikain dogula, di&ntilde;osku Eleizalde'k. Ots, erri-berotasunak arrotua, goizale dabilkio oldozkuna.</mentioned></p>
+<p><mentioned> Oler-sena ez da edonoren doai; artista ez da edozein, poesi zorakor bat ez dau edozei&ntilde;ek idazten. Doai berezia bear da zerbait egoki moldatzeko. Ba-ditugu olerkari bakar-zaleak, baita gizarte zaleak be: biok dagiez, egiazko poeta ba'dira, lan aintzagarriak. Bakar-zale dana bere barruko mundu zoragarrian murgilduta bizi da, lan dagi; gizarteagaz naste bizi danak, ostera, gizarteko kezka ta egon-ezi&ntilde;ak batu ta dardarazten dauskuz. Bitzuok ditugu, geien bat, iraultzaille.</mentioned></p>
+<p><mentioned> Bere egikera dau ertilariak, bere-berea nunbait, bere ertikera, bere estetika. Ertikera barriz adierezpena da, barruko zerbait iragarten dauskuna. Gri&ntilde;a da adierazpena, au da, barne-lera, teknikak lagunduta. Ortik bada, egikera berezi batean, barrua leraz, gartsu ta gogartuz azaltzen dauskuna da olerkaria. Gaur bide askotatik dabilkiguz olerkariak; oneik illunak dira, areik argiak. Alan be, poeta ona danak argi ta errez adierazo oi ditu bere oldozkunak.</mentioned></p>
+<p><mentioned> Gaurko olerkari askok lez, Arana'k gizarte bideak zear jo eban. Lo egoan euskaldunaren arazoetan murgildu yakun barru-barturai&ntilde;o, eta egoera orrek bere-bere ebazan istillu ta nekeak abestu euskazun bertso bizietan: Gaur iraultza garaian gagozan lez, orduan lo-zorro euskalduna; ta loaren mende dagoana esnatu, benetan esnatu nai izan ezkero, txibita erabilli bear da. Orixe dagi Arana'k, zartada ederrak emon, bei&ntilde;ola gure asabak arerioa ur egoala somatzean mendi tontorretan joten eben adarraren pareko: deia zan, burrukarako, erria etsaiez esiturik egoan eta. Bera doa aurrelari, ikurrin eroale, burruka onetan. Olerkariak, izan be, leen eta orain, beti erriaren kezka ta larrialdiak, erriaren poz eta aurrerapenak abestu bear ditu.</mentioned></p>
+<p><mentioned> Arana-Goiri'k ba-eban, bere idatziak lekuko, eder-sena. Baita oler-sena be. Gaitasun orrek eraginda, ederra, nai izadian eta nai nobere barnean, benetako poetak egin oi dauanez, somatu, sortu ta adierazoko dausku. Eguzkiak bere izpiak bialdu oi ditu mundua lotatik itxartu dedin; olerkariak bere poema ederrez, gartsuz itxarrtuko dau euskaldun loak artua. Iraultza garaia da, ta ori abestuko dau aurrenik, eta ondoren txorta bat egi&ntilde;ik, maitasuna, fedea, izadia...</mentioned></p>
+<p><mentioned> &laquo;Neurria bitara artzen da euskal olerkietan &mdash;di&ntilde;o J. M. Leizaola'k&mdash;: olerki txorta, ahapaldia, bakoitza aurreko ta urrengoarekin berdi&ntilde;a izanik, ta neurtitz bakoitzak txortaren lekuan dagokion neurrikoa izanik.</mentioned></p>
+<p><mentioned> &laquo;Ahapaldietan neurtitzak zenbatzen dira, ta bikoak edo irukoak edo laukoak... edo <hi rend='Italic'>zortzikoak</hi> izendatzen ditugu.</mentioned></p>
+<p><mentioned> &laquo;Neurtitzetan izki&ntilde;ak (itzak dituzten otsak) zenbatzen dira. Adibidez, ona Oxobi'ren biko bat: (<hi rend='Italic'>Alegiak</hi>, &laquo;Bi garraitona&raquo; olerkiaren amayeran).</mentioned></p>
+<p><mentioned> <hi rend='Italic'>&laquo;Ba-no-a = Us-ta-ri-tze-rat,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Txo-po-lo-ren = la-gun-tze-rat&raquo;.</hi></mentioned></p>
+<p><mentioned> Bi neurtitzak zortzina izkin edo itz-ots dute, ta biak emayeran ots berdi&ntilde;ak, <hi rend='Italic'>tzerat</hi>. Ta ots-berdin onek aurrekoekin zer ikusirik ez dulako, ta olerkia or bukatzen dalako, bi neurtitz oyek ahapaldi bat egiten dute, bikote bat&raquo; (<hi rend='Italic'>Ibidem</hi>, 72 orr.).</mentioned></p>
+<p><mentioned>V</mentioned></p>
+<p><mentioned>Neurkera legeak</mentioned></p>
+<p><mentioned> Itz neurtu batzuk antolatuz bakarrik ez euskun Arana'k bere poesi-zaletasuna agerterazi; areik biribiltzeko legiak eta arauak be eskei&ntilde;i euskuzan, eta ez lokak gero, zentzunez oi&ntilde;arrituak bai&ntilde;o. Bere apai&ntilde;a dau euskal poesiak beste izkuntzetakoak lez; apain au, ederkera ua lau zerok moldatzen dabe batez be: bertsoaren azentu ta <hi rend='Italic'>igikerak </hi>(ritmuak), <hi rend='Italic'>neurriak</hi>, edriko <hi rend='Italic'>etenak</hi> eta <hi rend='Italic'>azken-amaitze</hi> bardi&ntilde;ak, edo rimak. Olerki-lan bat bertsoz zetan idatzirik ez egon arren, orrela jokatu oi dogu geienetan; eta bertsoa aldez aldezko lerro bat dogu, ritmuaren makilpean sartua; lerro onei, asko diranean, aapaldia deritxegu.</mentioned></p>
+<p><mentioned> Azken-amaitzeari buruz ez eban Arana'k ezer idatzi, naiz-ta zerbait esateko asmotan ibilli. Onela berak: &laquo;gai orretzaz jarduteko ba-dot asmoa. abagunea dodanean, bai bertsolariak eta bai olerkariak onetan egin oi dabezan utsak, andi-andiak dirata. Oraingoz auxe di&ntilde;ot bakar-bakarrik: euzkeraz erabilli oi dan azken-amaitzea (rima) guztiz mugatua dala; izkia ezarten yakon mugikeak beste zerbait eskatu ezik, silaba bakardun oskidetzat besterik ez dogu; silaba guztiak doi&ntilde;u indar bardi&ntilde;a dabe ta bertsoak, berenez, gramatikaz bestelakoa dan azken silaban ots bardi&ntilde;a egitea, asko dau. Ontaz, bertso azkea (zuria) amaikidetan osoa naiz oso-eza dala esan dagikegu euzkerari dagokiona; alan be, bertsogille batek be erabillita ez dot ikusi oindi&ntilde;o&raquo;.</mentioned></p>
+<p><mentioned> Euskal bertsoa, beraz, zenbat silaba ainbat pikukoa dogu; naiz-ta gurean be i&ntilde;oiz olako zerbait sartu gurata ibilli, guk ez dogu gerkarrak eta latindarrak lez oin-bitartez silabak neurtzen; bi onein izkunztak amatzat daukezan erromantzeak be, geienik beintzat, silabaen bitartez egin daroe gaur neurkera. Gure euskerak, egia esan, orreik ba&ntilde;o zarrago izanik, euki eban nunbait bere neurkera berezia, ta saia bearko gi&ntilde;ake berau billatzen. Or ditugu, ortarako, zeinbat gura atsotitz &mdash;bei&ntilde;olako bertsolarien lana&mdash;, kopla zar eta gai&ntilde;erakoak, olako zerbaiten bidez izan ezik, ezin neurtu daitkezanak.</mentioned></p>
+<p><mentioned> Silaba auzi onetan, orraiti&ntilde;o, ba-doguz euskeran, edozein izkuntzatan lez, silaba bi bat bezela oguzi oi ditugun kasuak. Gogoz artzekoak dira ontan-ats bikiak; oneik, bada, bokal bi izanda be, silaba bat bai&ntilde;o ez dabe burutzen. Euskeraz sei dira aots-bikiak (diptongoak): <hi rend='Italic'>ai, au, ei, eu, oi</hi> ta <hi rend='Italic'>ui</hi>: Ez dago besterik; ezta irukoitzik be. Bertsolariak i&ntilde;oiz erabilli daroe <hi rend='Italic'>oa</hi>, bai&ntilde;a euskal belarriak eztau ondo artzen. Onetan be, izkuntza batetik bestera aldea izan.</mentioned></p>
+<p><mentioned> Zeatz-zabal ari da Arana gai ontaz &laquo;La fon&eacute;tica en el metro vasco&raquo; deritxan lanean. Ontatik, bertsolariak eta olerkariak dabezan eskubideak aitatu soil-soilki. <hi rend='Italic'>Alkartzapena</hi> ta <hi rend='Italic'>zatipena</hi>, ots, sineresis eta dieresis ez ditu ontzat artzen abandotarrak; bai, ostera, <hi rend='Italic'>ikolpena</hi> edo sinalefa. Eskubide ontaz baliaturik, bokal biren ezkontza dagigu, au da, itz baten azkena ta urrengoaren lenena, itz jarraiko amaia ta asiera, buztartu egiten ditugu. Adibidez: semea <hi rend='Italic'>ta ama</hi> bi <hi rend='Italic'>aa</hi>'kin bat dagigu. Baita biki mordoak diranean be: <hi rend='Italic'>gau u</hi>zua, ta abar. Ona lau sail ikolpena egin dagikegunak: <hi rend='Italic'>a-a, e-e, o-o, u-u </hi>ta <hi rend='Italic'>i-i</hi>; bigarren: <hi rend='Italic'>au-u, eu-u, ai-i, ei-i oi-i</hi> ta <hi rend='Italic'>ui-i</hi>; irugarren: <hi rend='Italic'>a-au, a-ai, e-eu, e-ei, o-oi </hi>ta <hi rend='Italic'>u-ui</hi>; laugarren: <hi rend='Italic'>a-u, e-u, a-i, e-i, o-i</hi> ta <hi rend='Italic'>u-i</hi>.</mentioned></p>
+<p><mentioned> Euskal bertsoetan beti egin bear ete sinalefa? Arana'ren eritxiz, bai. Ak bei&ntilde;ik-bein uts bezela jotzen dat: bear danean ez egitea; bardin, bear ez dan lekuan egitea be. Ak onetan zeatz-zeatz jokatu eban, egundo be pot egiteke. Gaur-egunez askatasun geiago opa dogu, ta ez dogu nai elertian be gisa ortako arau estuegirik. Atxe sartzen danean, alan be, kontu pizkat izan bear genduke, izki onek diptonguak bereizi oi ditu-ta. Esate baterako: <hi rend='Italic'>aha</hi>paldi idazten ba'dogu, lau silaba ditu, ta aapaldi jarten ba'dogu, orduan iru bakarrik, <hi rend='Italic'>aa</hi> biak ikoldurik.</mentioned></p>
+<p><mentioned> Abandotarrak aintzat artu zituan beste lau eskubideok be: 1'goa: Itz bat, bakarka artuta, autuan moztu ba'dagigu, bertsoan be bardintsu: <hi rend='Italic'>euzki</hi> erabilli gengike <hi rend='Italic'>eguzki</hi> ordez; 2'garren: itz bat luzatu oi ba'dogu, luzatu: <hi rend='Italic'>garean</hi>, <hi rend='Italic'>garan</hi> ordez; 3'garren: ango ta emengo idazkerak erabilli, ta 4'garren: aditzaren eta onen laguntzaillearen arteko laburpenak egin; adibidez: <hi rend='Italic'>emongotzut</hi>, <hi rend='Italic'>emongo dautzut</hi>'en ordez.</mentioned></p>
+<p><mentioned>VI</mentioned></p>
+<p><mentioned>Guretzat eredu</mentioned></p>
+<p><mentioned> Jainkoak noizik noiz bialtzen dauskuzan gizaseme gaillen orreitakoa zan Arana, eta i&ntilde;oiz be ez dogu merezi dauan neurrian etsi, ebatzi eta goi-maillaratu al izango. Urli ta berendigaz elkar jote ta bardintzak egin arren, gaitz izango yaku aren goi-bera eltzen danik. Irakur bere lanak &mdash;38 urtekin il zala gogora ekarriz&mdash; eta zeuk esango daustazu. Ez imintzio naiz zi&ntilde;u arloterik eio, egia ezmezean ipi&ntilde;i guraz.</mentioned></p>
+<p><mentioned> Gaur lakoxe giroan bizi izan zan Arana Goiri. Kementsu ta gotor zan, guztiontzat eredu. A, abandotarra, illunpe naigabetsuan larri egoan euskal lurrean eguzki dizditsu agertu yakun, dana barriztu ta irauli bearrez. Politika arloan lan ikaragarria osotu eban; bardintsu istorian eta izkuntzan.</mentioned></p>
+<p><mentioned> Eta ain zuzen be, izkuntzari loturik, beioa emen aren euskal lanaren eredu legez, idatzi zati au. Esanik geratu da, euskaldun barri zala. Umetatik ez ekian euskera, bere izkuntza zalako noski, ikasi egin eban. Eunka dira gaur euskera ikasi nairik saiatzen diranak, baita beingoan ikasten ez ba'dabe, zailla dala-ta, ikasteari agur egin daroenak. Arek ez, arek ondo menderatu eban, eta luzaro bizi izan balitz, obeto menderatuko eban oraindik.</mentioned></p>
+<p><mentioned> Emen dozu, irakurle, &laquo;Au da aukerea! &raquo; izenpuruz, beste askoren artean, emon euskun lantxoa:</mentioned></p>
+<p><mentioned> &laquo;Urreratuten bai dira kontzekaliak aututeko egunak edo aukundiak. Orrillan ixango dira.</mentioned></p>
+<p><mentioned> Bai dakigu edonungo errijan igitu ta txirrindauko dala diruba, munduko jaun inpernutar ori.</mentioned></p>
+<p><mentioned> Gaiztuaren esku okerra ezta zikotza, damon diruko ostian zizku edo dirontzi daukana ba&ntilde;o andijaguen bat ikututen badau.</mentioned></p>
+<p><mentioned> Ba&ntilde;a zer esango dogu dirala bizkaitar eroskarrijak? Bai dakije, eurok saltzen diranian, euron asabaen odola ta Bizkai gaxo guzti au bere, saltzen ditubela? Aztu bai dabe, euron asabeak Bizkai au sartu ebela euren odola jarijonik espa&ntilde;arra-kalteko gudaetan? Eztakuse zelan geure Bizkai ederra dagon maketo ta maketozaliak birrindu ta eratzita?</mentioned></p>
+<p><mentioned> Motz edo maketuak sartu yakuz Bizkaya'n, jarri yakoz bere sukaldian eta bere semiei etxejaundu yakuez berton. Bizkaitarren batzuk euren aizkidetu ta anaitu dira, mai batantxe alkartuta ta Espa&ntilde;a'en otseinduta.</mentioned></p>
+<p><mentioned> Ara nortzuk diran Bizkayaren arerijuak: maketuak eta euron aizkidiak, edo maketozaliak. Eurena da gute Errija; eurenak, geure etxiak; eurenak, geure erra&ntilde;ak; eurenak, geure bixitzak; eurenak, geure seme-alabak eskola edo ikastegijetan eta ezkontzetan; eurena, geure zorija; eurena, geure ixangua; eurenak, batez, geu ta geuria... Eta gu, lotan diraugu, i&ntilde;oz itxartu barik!</mentioned></p>
+<p><mentioned> Si&ntilde;iskorregijak dira bizkaitarrak. Esaten badeutse edonok eltzen yakuela euretara eurei on egiteko, laster ta urren si&ntilde;isten deutsae.</mentioned></p>
+<p><mentioned> Ba&ntilde;a au ezta txarrena. Gero, eurek autu ditubenak; igoten bai dira agindegijetara... an dabiltz urte batzubetan... an ikusten ditube... ba&ntilde;a zer egi&ntilde;ik? Bizkaya'alde ezebez; bai asko Bizkaya'kalte. Alderdi motzaille guztijak igaro dira erri-agindegijetatik... onik ezebez egiteko, bai gaiztorik asko. Bizkaitarrak, ostantzian, au ikusi ezkero bere, itxututa dirabe... Eta geure Bizkaya motz-motzatuten da olan.</mentioned></p>
+<p><mentioned> Ezta au berez olazeikorrena.</mentioned></p>
+<p><mentioned> Noredonok urten bada bizkaitarrei esatera, aztu dabela nunguak diran, eztirala euren asabaen seme zintxuak, ikasi biar dabela nortzubetarik datozen, nortzuk diran eurok, nor euren Erri Ama dan, nortzuk onen arerijuak diran... zenbat dira, gortuta eztiranak agertzen? Zenbat itxartzen diran? Zenbatek dantzubez ta dakasez itz on orrek?</mentioned></p>
+<p><mentioned> Gitxi-gitxik.</mentioned></p>
+<p><mentioned> Olantxe doya aurrerantz, edo obeto esateko, atzerantz beti, geure Bizkai gaiztetsija: motzatuta, espa&ntilde;artuta.</mentioned></p>
+<p><mentioned> Bizkaitartuko ete da nozedonoz!</mentioned></p>
+<p><mentioned> Aukera madarikatuba!</mentioned></p>
+<p><mentioned>(<hi rend='Italic'>Bizkaitarra</hi> aldizkarian, III urtea, 1985'ko opaillaren 31'an).</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>Agur, Bizkaya'ri</hi></p>
+<p>Agur, Bizkai ederra,</p>
+<p>Neure Erri maitia:</p>
+<p>Zugandik nik biar dot</p>
+<p>Urri&ntilde;era juan.</p>
+<p>Bijar enaz igongo</p>
+<p>Zeure mendi-gora,</p>
+<p>Enaz ibiliko bez</p>
+<p>Ibar politetan.</p>
+<p>Zu izten zaitut, Amatxu,</p>
+<p>Zu itzirik bezauta...</p>
+<p>Eztot gura etorri</p>
+<p>Zu ikusteko orrelan.</p>
+<p>Eztot gura negarrein,</p>
+<p>Bijotzeko Ama,</p>
+<p>Emon zeustan esnia</p>
+<p>Negartzeko etzan:</p>
+<p>Odol zu biztuteko,</p>
+<p>Odoldu dakidan!</p>
+<p><mentioned><hi rend='Italic'>Bizkaitarra</hi>, 8' zenbakija, 1894-Jorrala-22</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>Bizkaittarrak gara!</hi></p>
+<p><hi rend='Italic'>Bizkaittarrak, bizkaittarrak gara:</hi></p>
+<p><hi rend='Italic'>Bixi beiz Jaun-Goikua eta Lagi-Zarra!</hi></p>
+<p><hi rend='Bold'>I</hi></p>
+<p>Ezkara espa&ntilde;arrak,</p>
+<p>Ez arrotzaliak,</p>
+<p>Ez maketuen edo</p>
+<p>Motzen aizkidiak:</p>
+<p>Geure Ama danaren</p>
+<p>Geu gara semiak;</p>
+<p>Bera Bizkaya dala,</p>
+<p>Geu gara beriak.</p>
+<p><hi rend='Italic'>Bizkaittarrak...</hi></p>
+<p><hi rend='Bold'>II</hi></p>
+<p>Antzi&ntilde;an Erdelerri</p>
+<p>Gure Bizkaya'ren</p>
+<p>Arerijua zana</p>
+<p>Ezta atzeratuten.</p>
+<p>Bizkaya maittetako,</p>
+<p>Bera-areijuaren</p>
+<p>Arerijuak ixan</p>
+<p>Biogu lengo-len.</p>
+<p><hi rend='Italic'>Bizkaittarrak...</hi></p>
+<p><hi rend='Bold'>III</hi></p>
+<p>Geure Erri Ama dana</p>
+<p>Arrotzak askotan</p>
+<p>Aspiratu ta bezau</p>
+<p>Gureben antzi&ntilde;an;</p>
+<p>Ba&ntilde;a asaba zerdenak</p>
+<p>Eratzi ebezan,</p>
+<p>Odolez ibaitturik</p>
+<p>Erri-mugea alan.</p>
+<p><hi rend='Italic'>Bizkaittarrak...</hi></p>
+<p><hi rend='Bold'>IV</hi></p>
+<p>Asaba arek Bizkaya</p>
+<p>Bestez odol ba&ntilde;o</p>
+<p>Ezeuskubela sortu</p>
+<p>Eztogu aztuko;</p>
+<p>Ta euron seme onak</p>
+<p>Orain ixateko</p>
+<p>Odola atontzen dogu</p>
+<p>Bizkaya'entzako.</p>
+<p><hi rend='Italic'>Bizkaittarrak...</hi></p>
+<p><hi rend='Bold'>V</hi></p>
+<p>Gure Bizkai maittia</p>
+<p>Motzak menbetuta,</p>
+<p>Nai biar dogu danok</p>
+<p>Olan dakuskula,</p>
+<p>Bere Azkatasuna</p>
+<p>Azkatasun utsa,</p>
+<p>Ezpagagoz nastuta</p>
+<p>Motzak ezpagara,</p>
+<p><hi rend='Italic'>Bizkaittarrak...</hi></p>
+<p><hi rend='Bold'>VI</hi></p>
+<p>Askaturik Bizkayak</p>
+<p>Kate lotsadijak,</p>
+<p>Laster eukiko doguz</p>
+<p>Zorijon garbijak:</p>
+<p>Jaungoikua lenengo</p>
+<p>Eta bere egijak,</p>
+<p>Bere Semiak emon</p>
+<p>Deuskuzan lagijak.</p>
+<p><hi rend='Italic'>Bizkaittarrak...</hi></p>
+<p><hi rend='Bold'>VII</hi></p>
+<p>Jaun Done Goikuaren</p>
+<p>Beian egongo da</p>
+<p>Bizkai'ko erri danon</p>
+<p>Gernika'n Batzarra,</p>
+<p>Antxe lagi ederrak</p>
+<p>Eingo deuskuzala,</p>
+<p>Lagi-Zarr'tik urtenik</p>
+<p>Artez-arte dana.</p>
+<p><hi rend='Italic'>Bizkaittarrak...</hi></p>
+<p><hi rend='Bold'> VIII</hi></p>
+<p>Oikinde onak eta</p>
+<p>Ekandu ederrak</p>
+<p>Ordetuko ditube</p>
+<p>Motzaren okerrak,</p>
+<p>Eta onduko dira</p>
+<p>Mendiko bazterrok,</p>
+<p>Ta etorriko yakuz</p>
+<p>Zerutik eskerrak.</p>
+<p><hi rend='Italic'>Bizkaittarrak...</hi></p>
+<p><hi rend='Bold'> IX</hi></p>
+<p>Antzi&ntilde;eko enda zar,</p>
+<p>Garbi ta bakana</p>
+<p>Orain maketuenak</p>
+<p>Dagona betuta,</p>
+<p>Biztuko da ta betik</p>
+<p>Jagiko da gora,</p>
+<p>Eta bizkaittarrena</p>
+<p>Bizkaya ixango da.</p>
+<p><hi rend='Italic'>Bizkaittarrak...</hi></p>
+<p><hi rend='Bold'> X</hi></p>
+<p>Bizkai guzti-guztijon</p>
+<p>Euskera gozua</p>
+<p>Egingo dogu danok</p>
+<p>Biar dalakua;</p>
+<p>Ta motzen erderea</p>
+<p>Aldendukogula,</p>
+<p>Gure Erriko edonun</p>
+<p>Arrotz-etsiko da.</p>
+<p><hi rend='Italic'>Bizkaittarrak...</hi></p>
+<p><hi rend='Bold'> XI</hi></p>
+<p>Nabarra, Benabarra,</p>
+<p>Araba, Gipuzko,</p>
+<p>Lapurdi ta erritxat</p>
+<p>Daukana Zubero,</p>
+<p>Eztittu Bizkai onek</p>
+<p>I&ntilde;ozpez itxiko,</p>
+<p>Bere anai maitiak</p>
+<p>Eurok diralako.</p>
+<p><hi rend='Italic'>Bizkaittarrak...</hi></p>
+<p><hi rend='Bold'> XII</hi></p>
+<p>Bixi bei Jaun-Goikua,</p>
+<p>Bixi Lagi-Zarra,</p>
+<p>Biz eurokin betiko</p>
+<p>Erri bizkaittarra!</p>
+<p>Bizkai ta Euskelerri</p>
+<p>Dano batzatuta,</p>
+<p>Errez arrotza daike</p>
+<p>Bertotitxe bota.</p>
+<p><hi rend='Italic'>Bizkaittarrak...</hi></p>
+<p><mentioned><hi rend='Italic'>Bizkaitarra</hi>, 23' zenbakija, 1895-Epala-24</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>Oraingo bizkai-bizkarrak</hi></p>
+<p><hi rend='Bold'> I</hi></p>
+<p>Aberrijak <hi rend='Italic'>Bizkaya</hi>-ixena dauz</p>
+<p><hi rend='Italic'>Bizkardi</hi> bat zan lez bere;</p>
+<p>Ba&ntilde;a orain daukazan bizkarrak</p>
+<p>Ixena zikintzen dautse.</p>
+<p><hi rend='Italic'>Auxe da, anayak, zorigeztua;</hi></p>
+<p><hi rend='Italic'>Au lots andija da argiro!</hi></p>
+<p><hi rend='Italic'>Bizkaya'ri bere ixena berez</hi></p>
+<p><hi rend='Italic'>Garbi geratu etxako.</hi></p>
+<p><hi rend='Bold'> II</hi></p>
+<p>Mendijetako <hi rend='Italic'>bixkar </hi>zabalak</p>
+<p>Aratu egixuz ondo,</p>
+<p>Ta idoroko dozuz motzalez ta</p>
+<p>Motzez beterik osoro.</p>
+<p><hi rend='Italic'>Auxe...</hi></p>
+<p><hi rend='Bold'> III</hi></p>
+<p>Bizkai-semien <hi rend='Italic'>bizkar </hi>senduak</p>
+<p>Arrotzak ezarritako</p>
+<p>Kate lotsadizko zama aztuna</p>
+<p>Pozik dakarre politto.</p>
+<p><hi rend='Italic'>Auxe...</hi></p>
+<p><hi rend='Bold'> IV</hi></p>
+<p>Ba&ntilde;a euron <hi rend='Italic'>bizkarrak</hi> senduak</p>
+<p>Dira, ta kate-ganian</p>
+<p>Euron buruben saltze-diruba</p>
+<p>Ekartzen dabe askotan.</p>
+<p><hi rend='Italic'>Auxe...</hi></p>
+<p><hi rend='Bold'> V</hi></p>
+<p>Gaurko Bizkai-alaba eruok</p>
+<p>Eztabe nai kopetarik:</p>
+<p><hi rend='Italic'>Bizkarretik</hi> jasota ule ederra,</p>
+<p>Dakarre motzak letxerik.</p>
+<p><hi rend='Italic'>Auxe...</hi></p>
+<p><hi rend='Bold'> VI</hi></p>
+<p>Bizkai onetako <hi rend='Italic'>bizkardijan</hi></p>
+<p>Ezta i&ntilde;un <hi rend='Italic'>bizkar </hi>zindorik,</p>
+<p><hi rend='Italic'>Bizkar </hi>gustijok dagozalako</p>
+<p>Gusti-gustiz motzaturik.</p>
+<p><hi rend='Italic'>Auxe...</hi></p>
+<p><hi rend='Bold'> VII</hi></p>
+<p>Gitxi dira Bizkai-seme onak,</p>
+<p>Gitxi dira bizkattarrak;</p>
+<p>Gitxi, bizkattartasun-zamea</p>
+<p>Zintzorik dautsen <hi rend='Italic'>bizkarrak</hi>.</p>
+<p><hi rend='Italic'>Auxe...</hi></p>
+<p><mentioned><hi rend='Italic'>1898-Orrila</hi></mentioned></p>
+<p><mentioned><hi rend='Italic'>Baserritarra,</hi> 7'g. zenbakija, 1897-Bagila-13</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>Gaurik baltzena</hi></p>
+<p>(Arrats-abestija)</p>
+<p>Dan... dan... dan ...!</p>
+<p>Eguzkijak iges-einda,</p>
+<p>Dana illuntan.</p>
+<p>Bizkaya estal</p>
+<p>Bei gaupian:</p>
+<p>Lagi-Zarra gal-eban da</p>
+<p><hi rend='Italic'>Baltzittu</hi> zan.</p>
+<p><mentioned><hi rend='Italic'>Baserritarra, </hi>8'g. zenbakija, 1897-Bagila-20</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>Urkiola'rako bidian</hi></p>
+<p><hi rend='Bold'> I</hi></p>
+<p><hi rend='Bold'>Auzokuak</hi></p>
+<p>&mdash; Ain arin</p>
+<p>Nora yuan</p>
+<p>Uso zurijena?</p>
+<p>&mdash; Mendira</p>
+<p>Andoni'ri</p>
+<p>Egittera arrena.</p>
+<p>&mdash;Zein arren</p>
+<p>Urkijolan</p>
+<p>Deunari eteko?</p>
+<p>&mdash; Espa&ntilde;an</p>
+<p>Neba ona</p>
+<p>Ez gaiztotuteko.</p>
+<p><hi rend='Bold'> II</hi></p>
+<p><hi rend='Bold'>Ezkonak eta lenengo umia</hi></p>
+<p>&mdash; Jon Ander,</p>
+<p>Ze eski&ntilde;iko</p>
+<p>Yeutsagu Deunari?</p>
+<p>&mdash; Ume au</p>
+<p>Emongeutsan</p>
+<p>Bijotzez Berari.</p>
+<p>&mdash; Zelan, ba,</p>
+<p>Geuretxu au</p>
+<p>Ixangok beria?</p>
+<p>&mdash; Ba-dona</p>
+<p>Jaun-Goiko</p>
+<p>ta Lagi-Zar-zalia.</p>
+<p><hi rend='Bold'> III</hi></p>
+<p><hi rend='Bold'>Attittea ta billoba gexua</hi></p>
+<p>&mdash; Attitta,</p>
+<p>Deuntxubari</p>
+<p>Ze eingeutsat eskatu?</p>
+<p>&mdash; Laztana,</p>
+<p>Lastertxuben</p>
+<p>Agigun osatu.</p>
+<p>&mdash; Ta gero</p>
+<p>Zelan eskar</p>
+<p>Emongo deutsat nik?</p>
+<p>&mdash; Seme on</p>
+<p>Ta bizkattar</p>
+<p>Zintzoena ixanik.</p>
+<p><mentioned><hi rend='Italic'>Baserritarra, </hi>12'g. zenbakija, 1897-Garila-18</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>Mendiko negarra</hi></p>
+<p>(Batzukua)</p>
+<p><hi rend='Italic'>Ene aberri laztana,</hi></p>
+<p><hi rend='Italic'>Jausi zara Espa&ntilde;a-pian...</hi></p>
+<p><hi rend='Italic'>Obia erijotza da!</hi></p>
+<p><hi rend='Bold'> I</hi></p>
+<p><hi rend='Italic'>(Bikua)</hi></p>
+<p>Aberrija, nok</p>
+<p>Ikusi zendun</p>
+<p>I&ntilde;oz erbestek</p>
+<p>Bezauta!</p>
+<p>Orain gustirik</p>
+<p>Txarrena</p>
+<p>Zeure jabe</p>
+<p>Eta jauna da.</p>
+<p>Zelan lotsaz il etzara!</p>
+<p><hi rend='Bold'> II</hi></p>
+<p>Antzi&ntilde;an zeure</p>
+<p>Jaun nagositxat</p>
+<p>Goikua zendun</p>
+<p>Bakarrik.</p>
+<p>Orain erbeste</p>
+<p>Dongerik</p>
+<p>Dongienak</p>
+<p>Zagoz beturik.</p>
+<p>Il ba&ntilde;o ezta oberik!</p>
+<p><hi rend='Bold'> III</hi></p>
+<p>Zeure basotik</p>
+<p>Atzo igoten zan</p>
+<p>Eskari ona</p>
+<p>Zerura.</p>
+<p>Gaur erdeldunak</p>
+<p>Sartuta,</p>
+<p>Axia emen</p>
+<p>Birauz bete da.</p>
+<p>Zelan ondi&ntilde;o il etzara!</p>
+<p><hi rend='Bold'> IV</hi></p>
+<p>Len zeurentzako</p>
+<p>Lagi gustijak</p>
+<p>Zeuk egiten oi</p>
+<p>Zenduzan.</p>
+<p>Gaur motzak einda</p>
+<p>Espa&ntilde;an,</p>
+<p>Zeu salduta</p>
+<p>Zagoz an bertan.</p>
+<p>Zegatik iltzen etzaran!</p>
+<p><hi rend='Bold'> V</hi></p>
+<p>Areitz-azpijan</p>
+<p>Len bizkattarrak</p>
+<p>Batzarrak-etten</p>
+<p>Ebezan.</p>
+<p>Gaur Aretxeko</p>
+<p>Ganian</p>
+<p>Danak dabiltz</p>
+<p>Zoli dirutan.</p>
+<p>Ta, bixi zara zeu olan!</p>
+<p><hi rend='Bold'> VI</hi></p>
+<p>Zeure semiak</p>
+<p>Zenduzan atzo</p>
+<p>Zeure buruba</p>
+<p>Zaintzeko.</p>
+<p>Arerijuak</p>
+<p>Oraindo</p>
+<p>Eruaten</p>
+<p>Dautzuz galtzeko.</p>
+<p>Eta, etzara il onddi&ntilde;o!</p>
+<p><hi rend='Bold'> VII</hi></p>
+<p>Ekandu onak</p>
+<p>Asabaeri</p>
+<p>Zoruna emon</p>
+<p>Len eutsen.</p>
+<p>Ara motzenak</p>
+<p>Gaur emen</p>
+<p>Zeure bijotz</p>
+<p>Garbija usteltzen.</p>
+<p>Ta zeu, Ama, etzara iltzen!</p>
+<p><hi rend='Bold'> VIII</hi></p>
+<p>Abenda Zarra</p>
+<p>Zeure semiak</p>
+<p>Irauten eben</p>
+<p>Len utsik.</p>
+<p>Arrotzakin gaur.</p>
+<p>Nastaurik,</p>
+<p>Zeurentzako</p>
+<p>Ezta odolik.</p>
+<p>Zelan etzara il bertotik!</p>
+<p><hi rend='Bold'> IX</hi></p>
+<p>Len zeure seme</p>
+<p>Eta alabeak</p>
+<p>Ezesten eben</p>
+<p>Arrotza.</p>
+<p>Espa&ntilde;arrakin</p>
+<p>Batuta,</p>
+<p>Gaur ezkontzen</p>
+<p>Dabe ber-bera.</p>
+<p>Oraindik zeu bixi zara!</p>
+<p><hi rend='Bold'> X</hi></p>
+<p>Len euzkerea</p>
+<p>Zeuk belarrijan</p>
+<p>Zentzuban biar</p>
+<p>Zan legez.</p>
+<p>Euzkeldun garbi</p>
+<p>Bat berez</p>
+<p>Ezin da gaur</p>
+<p>Idoro i&ntilde;unbez.</p>
+<p>Zelan etzara il zeu lorrez!</p>
+<p><hi rend='Bold'> XI</hi></p>
+<p>Goiko Jaun ona</p>
+<p>Kendu dautzunak</p>
+<p>Lagi zarrak dauz</p>
+<p>Suzitu;</p>
+<p>Abendea be</p>
+<p>Il dautzu,</p>
+<p>Ta euzkera</p>
+<p>Dana zatittu.</p>
+<p>Ta, olan bixi nai dozu!</p>
+<p><hi rend='Bold'> XII</hi></p>
+<p>Eztakust orain</p>
+<p>Zeure zeruban</p>
+<p>Gurutz Zurija</p>
+<p>Argirik;</p>
+<p>Ez zelayan bez</p>
+<p>Azirik</p>
+<p>Areitz Deuna</p>
+<p>Orleiz jantzirik.</p>
+<p>Ta, bixi zara bilosik!</p>
+<p><hi rend='Bold'> XIII</hi></p>
+<p>Gurutz Zurija</p>
+<p>Baltzittu da ta</p>
+<p>Areitz orleya</p>
+<p>Orittu.</p>
+<p>Geratu ezer</p>
+<p>Etxatzu:</p>
+<p>Seme onik,</p>
+<p>Ama, eztozu.</p>
+<p>Il, Aberrija, zakigu!</p>
+<p><hi rend='Bold'> XIV</hi></p>
+<p>Obi-onduan</p>
+<p>Negarrez zakust</p>
+<p>Mi&ntilde;ez beterik,</p>
+<p>Gaxua!</p>
+<p>Amatau yatzuz</p>
+<p>Gogua</p>
+<p>Eta odol</p>
+<p>Orren berua.</p>
+<p>Ta, Ama, ondi&ntilde;o il etzara!</p>
+<p><hi rend='Bold'> XV</hi></p>
+<p>Ez egin negar:</p>
+<p>Etzaut, Ama, nai</p>
+<p>Negar-egi&ntilde;ik</p>
+<p>Zu ikusi:</p>
+<p>Zeure negarrok</p>
+<p>Motzari</p>
+<p>Eragitten</p>
+<p>Dautso barre-irri.</p>
+<p>Il, Ama, laster! Il zadi!</p>
+<p><mentioned><hi rend='Italic'>1896-Orrila</hi></mentioned></p>
+<p><mentioned><hi rend='Italic'>Baserritarra, </hi>13' g. zenbakija, 1897-Garila-25</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>O&ntilde;az Loyola eta Likona'tar I&ntilde;aki</hi></p>
+<p><hi rend='Italic'>Bizkaya'ren zaindari deunari bizkatarrak</hi></p>
+<p>I&ntilde;aki,</p>
+<p>Jaunguak bidalduba</p>
+<p>Ludijan ixatera</p>
+<p>Josu'ren</p>
+<p>Gudarijen buruba!</p>
+<p>Batzarrak</p>
+<p>Autu zinddun</p>
+<p>Bizkattarren</p>
+<p>Zain Deuntzat</p>
+<p>Zeu zara</p>
+<p>Zaindari ta</p>
+<p>Jaun onena</p>
+<p>Geurentzat.</p>
+<p>I&ntilde;aki,</p>
+<p>Entzun, arren, eiguzu</p>
+<p>Ta geure opea artu!</p>
+<p>Bijotza</p>
+<p>Bizkattarrak</p>
+<p>Jayotzetik</p>
+<p>Damotzu:</p>
+<p>Zeuria da</p>
+<p>Beria...</p>
+<p>Baso, mendi, ibai, arru...</p>
+<p>Zeru-gottik,</p>
+<p>Deun-I&ntilde;aki,</p>
+<p>Jagon, ba,</p>
+<p>Bizkaya!</p>
+<p>Jago-ixu</p>
+<p><hi rend='Italic'>Jaun-Goikua</hi>,</p>
+<p>Jago-ixu</p>
+<p><hi rend='Italic'>Lagi-Zarra</hi>:</p>
+<p>Areyo-</p>
+<p>Aurrian Zeuk</p>
+<p>Agindu</p>
+<p>Bizkattarra...</p>
+<p>Gudean sarturik,</p>
+<p>Ezpatea artuta</p>
+<p>Bizkattarren aldez</p>
+<p>Donge ta areyua</p>
+<p>Inddar zerutarraz</p>
+<p>Zatittu osoro ta...</p>
+<p>Zori-ontsuba</p>
+<p>Bizkaya beti ixango da,</p>
+<p>Zeuk, I&ntilde;aki zaindutal</p>
+<p><hi rend='Bold'>Ipuzkoa'ren zaitzari deunari ipuzkoarrak</hi></p>
+<p>I&ntilde;aki,</p>
+<p>Jainkoak bidalduba</p>
+<p>Ludiyan izatera</p>
+<p>Josu'ren</p>
+<p>Gudariyen buruba!</p>
+<p>Batzarrak</p>
+<p>Autu zindun</p>
+<p>Ipuzkarren</p>
+<p>Zai Deuntzat:</p>
+<p>Zu zera</p>
+<p>Zaitzari ta</p>
+<p>Jaun onena</p>
+<p>guretzat.</p>
+<p>I&ntilde;aki!,</p>
+<p>Entzun, arren, zaguzu</p>
+<p>Eta gure emaitza artu!</p>
+<p>Biyotza</p>
+<p>Ipuzkarrak</p>
+<p>Jayotzetik</p>
+<p>Demazu:</p>
+<p>Zurea da</p>
+<p>Berea</p>
+<p>Baso, mendi, ibai, arru...</p>
+<p>Ipuzkoa</p>
+<p>Beti zaitu</p>
+<p>Zuk ongi,</p>
+<p>I&ntilde;aki!</p>
+<p>Zaizazu</p>
+<p><hi rend='Italic'>Jaun-Goikoa</hi>,</p>
+<p>Zaizazu</p>
+<p><hi rend='Italic'>Lege-Zarra</hi>;</p>
+<p>Etsayen</p>
+<p>Aurrean zuk</p>
+<p>Agindu</p>
+<p>Ipuzkarra...</p>
+<p>Gudean sarturik</p>
+<p>Ezpatea artuta</p>
+<p>Ipuzkarren alde</p>
+<p>Gaizto ta etsaya</p>
+<p>Zeruko indarrakin</p>
+<p>Zatitu osoro ta...</p>
+<p>Zori-ontsuba</p>
+<p>Beti Ipuzkoa izango da</p>
+<p>Zuk, I&ntilde;aki, zaituta!</p>
+<p><mentioned><hi rend='Italic'>Baserritarra</hi>, 14'g. zenbakija, 1897-Garila-31</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>Itxarkundia</hi></p>
+<p>(Goiz-abestija)</p>
+<p><hi rend='Bold'>I</hi></p>
+<p><hi rend='Italic'>(Bakarra (birritan eta maratz))</hi></p>
+<p>Azkatasun-eguzkija</p>
+<p>Basotik urtenda,</p>
+<p>Bere argija edonun</p>
+<p>Arin zabaltzen da.</p>
+<p>(Batzukua (bein eta arin)</p>
+<p><hi rend='Italic'>Itxartu zaiz, bizkattarrak,</hi></p>
+<p><hi rend='Italic'>Aupa, euzkeldun gustijak:</hi></p>
+<p><hi rend='Italic'>Gora, gora antzi&ntilde;eko lagijak!</hi></p>
+<p><hi rend='Bold'>II</hi></p>
+<p>Ixillix ba-zagoz danok,</p>
+<p>Zer dozube entzuten:</p>
+<p>Ara gaur guda-santsuak</p>
+<p>Gattuzan dettuten.</p>
+<p><hi rend='Italic'>Itxartu xaiz...</hi></p>
+<p><hi rend='Bold'>III</hi></p>
+<p>Arrpegija gorrituta</p>
+<p>Darakus euzkijak:</p>
+<p>Gorrijagotuko dira</p>
+<p>Bertoko mendijak.</p>
+<p><hi rend='Italic'>Itxartu xaiz...</hi></p>
+<p><mentioned><hi rend='Italic'>1896'gko. Orrila'n</hi></mentioned></p>
+<p><mentioned><hi rend='Italic'>Baserritarra</hi>, 14'g. zenbakija, 1897-Garila-31</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>Lenago il...!</hi></p>
+<p>Ze ikusten dabe</p>
+<p>neure begijok?</p>
+<p>Au danau dakust</p>
+<p>galduta:</p>
+<p>berezi, baso,</p>
+<p>muru ta mendi,</p>
+<p>uri, baserri</p>
+<p>ta dana...</p>
+<p>gaur maketuak,</p>
+<p>saloberiok,</p>
+<p>ara birrindu</p>
+<p>dabela!</p>
+<p>Il nayago dot</p>
+<p>ikusi ba&ntilde;o</p>
+<p>Aberrijaren</p>
+<p>amaya!</p>
+<p>Noz euzkeldunak</p>
+<p>Jaungoikoaren</p>
+<p>ixen deuna-aiztu</p>
+<p>len eben?</p>
+<p>Orain motzak lez</p>
+<p>loizttuten dabe</p>
+<p>loidun erderaz</p>
+<p>egitten;</p>
+<p>ekandu onak</p>
+<p>itxitta, baltzak</p>
+<p>artu ditube</p>
+<p>gaur emen.</p>
+<p>Goiko jaun ona,</p>
+<p>erruki zadi</p>
+<p>aiztu zabenoi,</p>
+<p>bai, arren!</p>
+<p>Esadazube,</p>
+<p>euzkeldunak, ba,</p>
+<p>nun diran zuben</p>
+<p>errijak.</p>
+<p>Eztira agertzen</p>
+<p>i&ntilde;un i&ntilde;unbez</p>
+<p>zuben asaben</p>
+<p>lagijak;</p>
+<p>motzak sartuta</p>
+<p>zuben etxion</p>
+<p>dira amen jabe</p>
+<p>nausijak.</p>
+<p>Ez esan i&ntilde;oz</p>
+<p>mendi, onek, ba,</p>
+<p>dirala zuben</p>
+<p>mendijak!</p>
+<p>Erri gaxua!</p>
+<p>Jayo nintzan ni</p>
+<p>zeure il-orduban</p>
+<p>eltzeko?</p>
+<p>Zegatik Ama,</p>
+<p>zeure semiok</p>
+<p>eztira itxartzen</p>
+<p>ondi&ntilde;o?</p>
+<p>Ama, ilgo zara</p>
+<p>motzen azpijan?</p>
+<p>Ilgo zara zeu</p>
+<p>betiko?</p>
+<p>Itxaron, Ama:</p>
+<p>jarijon biot</p>
+<p>neure odol au</p>
+<p>lenago!</p>
+<p><mentioned><hi rend='Italic'>Bilbao'ko Kartzelan 1895-Azilan</hi></mentioned></p>
+<p><mentioned><hi rend='Italic'>Baserritarra, </hi>15'g. zenbakija, 1897-Agorila-8</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>Bego&ntilde;a'ko ixar zerutarrari</hi></p>
+<p>Bizkai'ko mendi polit bateko</p>
+<p>Artadi illuntsu ta zarran,</p>
+<p>Gabez illargi betia legez,</p>
+<p>Agertu Andra-Miren zan.</p>
+<p>O&ntilde;a, baso ta bazter gustijok</p>
+<p>Bere arpegi ederrak</p>
+<p>Betetan euzan zeruko argiz,</p>
+<p>Danoi eski&ntilde;ik eskerrak.</p>
+<p>Ordutik ona, lior ta itxasoz,</p>
+<p>Miren-arpegi garbija,</p>
+<p>Aldi gustittan, da gustijontzat</p>
+<p>Goiko zorundun Ixarra.</p>
+<p>Atoz, atoz, ba, bizkattar onak,</p>
+<p>Bego&ntilde;a'k daukan Artera:</p>
+<p>Zuben Ama ta Jaunguarena</p>
+<p>Bertan dagona Bera da.</p>
+<p>Ama mattia, entzun eiguzu</p>
+<p>Geure bijotzen arrena:</p>
+<p>Zeuk emon ezik argija geuri,</p>
+<p>Oso itxutuko geu gara.</p>
+<p>Gaurko Bizkai au,</p>
+<p>Ama laztana,</p>
+<p>Ezta antzi&ntilde;eko lakua:</p>
+<p>Len ekandu ta lagija, ta gaur</p>
+<p>Abenda zarra galduta.</p>
+<p>Zaindu gagixuz, geu bizkattarrok...</p>
+<p>Erruki, Ama, zakigu!</p>
+<p>Eta estuntza gogor-gogorrok</p>
+<p>Zeure semioi azkatu.</p>
+<p><mentioned><hi rend='Italic'>1895-Garila</hi></mentioned></p>
+<p><mentioned><hi rend='Italic'>Baserritarra,</hi> 16'g. zenbakija, 1897-Agorila-15</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>Deun-Andoni'ren erantzunkintzea</hi></p>
+<p><hi rend='Italic'>Aintza Atteari</hi></p>
+<p><hi rend='Italic'>Ta Semiari.</hi></p>
+<p><hi rend='Italic'>Goteunari be</hi></p>
+<p><hi rend='Italic'>Batera:</hi></p>
+<p><hi rend='Italic'>Andoni Deunak</hi></p>
+<p><hi rend='Italic'>Bere egipen eder deunetan</hi></p>
+<p><hi rend='Italic'>Emoten dautsen</hi></p>
+<p><hi rend='Italic'>Aintzea.</hi></p>
+<p>Donoki-indarra</p>
+<p>Biletan bozu,</p>
+<p>Aor erijotz,</p>
+<p>Itxukeri illun,</p>
+<p>Usteri loi ta zoritxarra,</p>
+<p>Bata Gotzaiztua ber-bera,</p>
+<p>Andoni'gandik</p>
+<p>I&ntilde;esten</p>
+<p>Gexuak arin</p>
+<p>Bizkortzen</p>
+<p>Estuntza aztunak azkatuten</p>
+<p>Ta baretuten</p>
+<p>Beinguan</p>
+<p>Itxasua be...</p>
+<p>Goyan daukan almen andija</p>
+<p>Andoni'k olan</p>
+<p>Darakus.</p>
+<p>Gorputzaren zati gexorik</p>
+<p>Ala gauzaren bat-edo-bat</p>
+<p>Galduta daben</p>
+<p>Gaste nai zarrak</p>
+<p>Deunari eskatu ezkero</p>
+<p>Artu oi dabe</p>
+<p>Osorik.</p>
+<p>Galbide ilgorrak</p>
+<p>Aldendu</p>
+<p>Ta neke zarrak</p>
+<p>Kendu daroyaz</p>
+<p>Andoni'k</p>
+<p><mentioned><hi rend='Italic'>Sukarrieta, 1899-V-13</hi></mentioned></p>
+<p><mentioned><hi rend='Italic'>El Correo Vasco</hi>, 1899-Bagila-13</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>Josu'ren Bijotzari abestija</hi></p>
+<p><hi rend='Italic'>Josu'ren Bijotz</hi></p>
+<p><hi rend='Italic'>Guztiz Deuna,</hi></p>
+<p><hi rend='Italic'>Geure Jauna Zeu</hi></p>
+<p><hi rend='Italic'>Utzik Zara.</hi></p>
+<p><hi rend='Bold'> I</hi></p>
+<p>Bizkai gustiko</p>
+<p>Euzkeldun onak,</p>
+<p>Kistar zindduak,</p>
+<p>Gaur etorri,</p>
+<p>Zuben bijotzak</p>
+<p>Emen eskintzen</p>
+<p>Jaungoikoaren</p>
+<p>Bijotzari.</p>
+<p><hi rend='Bold'> II</hi></p>
+<p>Goguan dogu</p>
+<p>Zuk artu zendun</p>
+<p>Neke-ontzija</p>
+<p>Geure aldez,</p>
+<p>Bijotza estu,</p>
+<p>Zanak etenda,</p>
+<p>Odol-ixertza</p>
+<p>Ta negarrez.</p>
+<p><hi rend='Bold'> III</hi></p>
+<p>Gu obendijok</p>
+<p>Gaizkatuteko,</p>
+<p>Josu mattia,</p>
+<p>Untzau zi&ntilde;an:</p>
+<p>Ta bijotz orren</p>
+<p>Ur-odola, be,</p>
+<p>Jarijon zendun</p>
+<p>Gurutzian.</p>
+<p><hi rend='Bold'> IV</hi></p>
+<p>Olan iltziaz</p>
+<p>Etzan bez ase</p>
+<p>Bijotz on orren</p>
+<p>Mattasuna:</p>
+<p>Ogi ta ardao</p>
+<p>Iduripian</p>
+<p>Egin zatzaku</p>
+<p>Or laguna.</p>
+<p><hi rend='Bold'> V</hi></p>
+<p>Geugattik eta</p>
+<p>Geure aldez be,</p>
+<p>Jaun mattekorra,</p>
+<p>Zeu il zara:</p>
+<p>Zeugattik, ba&ntilde;a,</p>
+<p>Zeure kaltez, geu</p>
+<p>Bijotz-bakuok</p>
+<p>Bixi gara.</p>
+<p><hi rend='Bold'> VI</hi></p>
+<p>Zure bijotza</p>
+<p>Gartzen dau suban</p>
+<p>Artu gure loi</p>
+<p>Ta gaxuok:</p>
+<p>Gar uts orrekin</p>
+<p>Obena ketu,</p>
+<p>Garbittu, arren</p>
+<p>Bai! goguok.</p>
+<p><hi rend='Bold'> VII</hi></p>
+<p>Bijotzan dozun</p>
+<p>Mattasun-suba</p>
+<p>Amatako i&ntilde;oz</p>
+<p>Eztalako,</p>
+<p>Eutsi geuriok</p>
+<p>Berton sartuta,</p>
+<p>Noz-edo-noz or</p>
+<p>Su-artzeko.</p>
+<p><hi rend='Bold'> VIII</hi></p>
+<p>Zeure begijok,</p>
+<p>Josu laztana,</p>
+<p>Bigurtu, arren!</p>
+<p>Bizkaya'ri:</p>
+<p>Gatxetik bijotz</p>
+<p>Orrek askatu</p>
+<p>Ta zeugaz lotu</p>
+<p>Laster begi.</p>
+<p><hi rend='Bold'> IX</hi></p>
+<p>Jauna, Zeu matte</p>
+<p>Gura zatugu:</p>
+<p>Gura-ixan, ba, Zeuk</p>
+<p>Eskarijau:</p>
+<p>Euzkeldun danak</p>
+<p>Matte zaigula</p>
+<p>Gaizkatuteko</p>
+<p>Aberrijau.</p>
+<p><mentioned><hi rend='Italic'>El Correo Vasco</hi>, 1899-Bagila-16</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>Itxasoko ixarrari</hi></p>
+<p><hi rend='Bold'> I</hi></p>
+<p>Agur, Jaunan Ama,</p>
+<p>Itxasoko ixarra,</p>
+<p>Beti neskutz eder,</p>
+<p>Goi-ate bakarra.</p>
+<p><hi rend='Bold'> II</hi></p>
+<p>Gotzonaren aboz</p>
+<p><hi rend='Italic'>Ama</hi> ixena autetsi</p>
+<p><hi rend='Italic'>Eme</hi>'ren ordian:</p>
+<p>Zoruna ekarri.</p>
+<p><hi rend='Bold'> III</hi></p>
+<p>Estutzeak ausi,</p>
+<p>Itxubak argitu,</p>
+<p>Kendu guri gatxak,</p>
+<p>Ona ekarguzu.</p>
+<p><hi rend='Bold'> IV</hi></p>
+<p>Amatzat agiri,</p>
+<p>Artu beiz arrenak</p>
+<p>Geugattik jayo ta</p>
+<p>Semetzat dozunak.</p>
+<p><hi rend='Bold'> V</hi></p>
+<p>Idebako neskutz,</p>
+<p>Neskutz garbijena,</p>
+<p>Garbitu gagixuz,</p>
+<p>Obena aldenduta.</p>
+<p><hi rend='Bold'> VI</hi></p>
+<p>Bixitza on gertu</p>
+<p>Ta bidia sendo,</p>
+<p>Gu, Josu ikusirik,</p>
+<p>Poz beti ixateko.</p>
+<p><hi rend='Bold'> VII</hi></p>
+<p>Aintza Jaun-Attari,</p>
+<p>Kisto'ri be aintza,</p>
+<p>Goteunari bardin:</p>
+<p>Irurrei batera.</p>
+<p><mentioned><hi rend='Italic'>El Correo Vasco</hi>, 1899-Dagonila-21</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>Boga, boga!</hi></p>
+<p><hi rend='Italic'>Boga, boga,</hi></p>
+<p><hi rend='Italic'>Arrantzale!</hi></p>
+<p><hi rend='Italic'>Boga!</hi></p>
+<p><hi rend='Bold'> I</hi></p>
+<p>Espa&ntilde;axiak</p>
+<p>Ba-garuaz</p>
+<p>Danok, bai, atara. (<hi rend='Italic'>Birritan</hi>).</p>
+<p>Berak dakaz bertorantz</p>
+<p>Espa&ntilde;a'n semiak:</p>
+<p>Geuria zan urija</p>
+<p>Geuretzat oin ezta. (<hi rend='Italic'>Birr</hi>.)</p>
+<p><hi rend='Bold'> II</hi></p>
+<p>Atxon artian</p>
+<p>Azi nintzan,</p>
+<p>Ene uri mattia. (<hi rend='Italic'>Birr</hi>.)</p>
+<p>Orain zeugandik nua</p>
+<p>Urrun-urrunera;</p>
+<p>Olan zu ikusi ba&ntilde;o,</p>
+<p>Zu ikusi ez, oba. (<hi rend='Italic'>Birr.</hi>)</p>
+<p><hi rend='Bold'> III</hi></p>
+<p>Ostera be gu</p>
+<p>Etortzian,</p>
+<p>Motzena ba-zara...</p>
+<p>Urak iruntsi zaike</p>
+<p>Danori, gaxua,</p>
+<p>Zeu guk aurki-tu barik</p>
+<p>Motzak menbetuta. (<hi rend='Italic'>Birr.</hi>)</p>
+<p><hi rend='Italic'>Agur, agur!</hi></p>
+<p><hi rend='Italic'>Boga!</hi></p>
+<p><hi rend='Italic'>Mattia, agur!</hi></p>
+<p><mentioned><hi rend='Italic'>La Patria, </hi>1902-Irala-7</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>Goxeko ixarra</hi></p>
+<p><hi rend='Bold'> I</hi></p>
+<p>Goxeko ixarra,</p>
+<p>Gustiz argija,</p>
+<p>Jaunan Ama da</p>
+<p>Geuretzako.</p>
+<p>Eguzkittik lez</p>
+<p>Goxeko ixarrak,</p>
+<p>Gotik argija</p>
+<p>Berak dauko.</p>
+<p><hi rend='Italic'>Agur, argi garbi,</hi></p>
+<p><hi rend='Italic'>Argi-egin geuri.</hi></p>
+<p><hi rend='Italic'>Ekarri, ba,</hi></p>
+<p><hi rend='Italic'>Jaunan Ama,</hi></p>
+<p><hi rend='Italic'>Eguzkija.</hi></p>
+<p><hi rend='Bold'> II</hi></p>
+<p>Eguzki-aurrez</p>
+<p>Ixarra dua:</p>
+<p>Jaunan aurretik</p>
+<p>Dator Ama.</p>
+<p>Ixar-atzetik</p>
+<p>Eguzki utza:</p>
+<p>Miren-ostian,</p>
+<p>Josu bera.</p>
+<p><hi rend='Italic'>Agur, argi garbi...</hi></p>
+<p><hi rend='Bold'> III</hi></p>
+<p>Egunan deyez</p>
+<p>Agiri ixarra:</p>
+<p>Jaunaren deyez</p>
+<p>Miren jayo.</p>
+<p>Ixar garbija</p>
+<p>Otoi au entzun:</p>
+<p>Geuri be argi</p>
+<p>Egiteko.</p>
+<p><hi rend='Italic'>Agur, argi garbi...</hi></p>
+<p><mentioned><hi rend='Italic'>La Patria, </hi>1902-Irala-7</mentioned></p>
+<p><mentioned>(Ama-Neskutz'ren Jayokunde-egunekua)</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>Ene ama!</hi></p>
+<p>Bixi ezta</p>
+<p>Ludi gustijan</p>
+<p>Ene Ama</p>
+<p>Baxen ederra, ba&ntilde;o ez</p>
+<p>Ain gaxua.</p>
+<p>Gustiz ederra</p>
+<p>Bera dalako,</p>
+<p>Erbeste-pian jausi da...</p>
+<p>Ara batta!</p>
+<p>Sortu dituzan</p>
+<p>Semiok, ba,</p>
+<p>Bere bixitxa kentzen</p>
+<p>Dautsoela.</p>
+<p><mentioned><hi rend='Italic'>Patria</hi>, 1904-Epala-13</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>Abertzale baten negarra</hi></p>
+<p>Euzkeldunak:</p>
+<p>Galdu da gure ixena;</p>
+<p>Enda danak di&ntilde;oe</p>
+<p>Eztala geyago euzkeldunik!</p>
+<p>Mendi gustijak</p>
+<p>Ikusten dira</p>
+<p>Dana gorri-gorririk</p>
+<p>Erri gustijak, bere,</p>
+<p>Dana ixil-ixillik.</p>
+<p>Euzkeldunak:</p>
+<p>Egijaz esaten da</p>
+<p>Eztala, eztala</p>
+<p>Geyago euzkeldunik!</p>
+<p><mentioned><hi rend='Italic'>Patria, </hi>1904-Epala-19</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>Ama Goikuari</hi></p>
+<p>Miren, agur, Ama,</p>
+<p>Ama mattegarrija,</p>
+<p>Bizkaya'ren Euzkija,</p>
+<p>Jaunaren Ama laztana, agur</p>
+<p>Ara seme mattekorrak</p>
+<p>Zeugana elduta</p>
+<p>Negar-bijotzaz,</p>
+<p>Lepuan estuntz gogorrak.</p>
+<p>Miren, Amatxu!</p>
+<p>Miren, Amatxu!</p>
+<p>Amatxul</p>
+<p>Artu eixuz negarrok</p>
+<p>Ta jagon bizkattarrok</p>
+<p>Mattetasunez,</p>
+<p>Ta Bizkaya,</p>
+<p>Azkatuta,</p>
+<p>Zeuria ixango da beti.</p>
+<p>Bai, arren!</p>
+<p><mentioned><hi rend='Italic'>Patria, </hi>1904-Orrila-1</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>Andera Miren Garbijari</hi></p>
+<p>(Orrila-abestija)</p>
+<p>(Batzutakua)</p>
+<p><hi rend='Italic'>Arin etorri,</hi></p>
+<p><hi rend='Italic'>Etorri danok</hi></p>
+<p><hi rend='Italic'>Josu'ren etxe</hi></p>
+<p><hi rend='Italic'>Deunera:</hi></p>
+<p><hi rend='Italic'>Jaunakin dago</hi></p>
+<p><hi rend='Italic'>Andera Miren,</hi></p>
+<p><hi rend='Italic'>Ta Miren geure</hi></p>
+<p><hi rend='Italic'>Ama da.</hi></p>
+<p>(Bikua)</p>
+<p><hi rend='Bold'> I</hi></p>
+<p>Berezijetan</p>
+<p>Txori zolijak</p>
+<p>Abes-egiten</p>
+<p>Deutzunez:</p>
+<p>Geuk olan, Ama,</p>
+<p>Abestukoguz</p>
+<p>Zeure ederkunak</p>
+<p>Bijotzez.</p>
+<p><hi rend='Bold'> II</hi></p>
+<p>Larre orleyak,</p>
+<p>Lora polittak</p>
+<p>Eskintzen dautzuz</p>
+<p>Orrila'n:</p>
+<p>Geuk, Amatxu, be,</p>
+<p>Igar geuriok</p>
+<p>Jartzen dautzuguz</p>
+<p>O&ntilde;etan</p>
+<p><hi rend='Bold'> III</hi></p>
+<p>Geure samiok</p>
+<p>Indartu,</p>
+<p>Zeuri Abes-etteko</p>
+<p>Zinddorik:</p>
+<p>Geure bijotzok</p>
+<p>Garbitu, Ama,</p>
+<p>Lora guranez</p>
+<p>Beterik..</p>
+<p><hi rend='Bold'> IV</hi></p>
+<p>Entzun eske au</p>
+<p>Ta zeure eskarra</p>
+<p>Abestukogu</p>
+<p>Ludijan:</p>
+<p>Geure goguok</p>
+<p>Zerura igon</p>
+<p>Beti loraztu</p>
+<p>Ditezan.</p>
+<p><mentioned><hi rend='Italic'>Patria, </hi>1904-Orrila-22</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>Ederra zara</hi></p>
+<p>Eder-ederra zara,</p>
+<p>Geure Aberrija,</p>
+<p>Ta edertasun ori</p>
+<p>Geuretzat egin da.</p>
+<p>Ezaindu gura ba-zau</p>
+<p>Erbesteren batek,</p>
+<p>Jaso Goiko itturrirantz</p>
+<p>Zeure begi orrek.</p>
+<p><mentioned><hi rend='Italic'>Patria, </hi>1904-Irala-24</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>Ai, Mikel, Mikel, Mikel!</hi></p>
+<p>Ai, Mikel, Mikel, Mikel</p>
+<p>Au da zoritxarra!</p>
+<p>Jayo nazan urija</p>
+<p>Ezin ezautia.</p>
+<p>Goxion igaro naz</p>
+<p>Ikastola-aurretik,</p>
+<p>Ta ikaratuta nauka</p>
+<p>Dodanak ikusi.</p>
+<p>Ber-bertoko txotxuak</p>
+<p>Bat-be kendu-ezik,</p>
+<p>Gustijak lotsa-baga</p>
+<p>Erdera egi&ntilde;ik.</p>
+<p>Oraintxe, aspaldiko,</p>
+<p>Azalduko dautzut:</p>
+<p>Guk semien <hi rend='Italic'>maixutzat</hi></p>
+<p>Maketo bat dogu.</p>
+<p>Neskatoen <hi rend='Italic'>maistrea</hi></p>
+<p>Euzkeldun utza da:</p>
+<p>Erestuna imintzeko</p>
+<p>Azurbaltz ederra.</p>
+<p>Bijak ekarri yakuz</p>
+<p>Erdera irakasten,</p>
+<p>Euzkera eztala-ta</p>
+<p>Ezetarako bez.</p>
+<p>Ai, Mikel, Mikel, Mikel!</p>
+<p>Olanik ixanik,</p>
+<p>Laster eztogu ixango</p>
+<p>Seme-alabarik.</p>
+<p>Dotri&ntilde;arik umiak</p>
+<p>Ikasi-ezi&ntilde;ik,</p>
+<p>Aziko yatzuz danak</p>
+<p>Bapez jakin barik.</p>
+<p>Euren buruba galdu,</p>
+<p>Galdu lagunak be,</p>
+<p>Ta geure uri gustija</p>
+<p>Galduko dauskube.</p>
+<p><mentioned><hi rend='Italic'>Patria, </hi>1904-Irala-24</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>Abertzale ezkonduba espetxian</hi></p>
+<p>Ezkon samurra,</p>
+<p>Ezti gozua</p>
+<p>Urre-bijotza.</p>
+<p>Akusanat atsege,</p>
+<p>Bakar, gautegun negarrez.</p>
+<p>Auxe min utza. Ez, arren! ein negar.</p>
+<p>Eugaz lotu don or nire bijotza.</p>
+<p>Aberri Ama,</p>
+<p>Artu gogo onez</p>
+<p>Malko ederrok.</p>
+<p>Orren ganez nik eztot</p>
+<p>Zer besterik zeuri emon.</p>
+<p>Bozu buruban eri&ntilde;otz-estunik,</p>
+<p>Orrek loratzat orritik eskegi.</p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>Otse&ntilde;a zara</hi></p>
+<p>Zorijona</p>
+<p>Zeure laguna zan</p>
+<p>Zeure lagijen aldijan.</p>
+<p>Noz-nai</p>
+<p>Zure buruban jauna zi&ntilde;an:</p>
+<p>Gatxa zer dan etzenkijan.</p>
+<p>Itxurik</p>
+<p>Zeuk arrotza onetsi, ba&ntilde;a,</p>
+<p>Ta emon zeutson bijotza.</p>
+<p>Ordutik ona</p>
+<p>Otse&ntilde;a zara:</p>
+<p>Jabia dozu</p>
+<p>Espa&ntilde;a.</p>
+<p>Ara zelan,</p>
+<p>Euzkeldun-Errija,</p>
+<p>Jausi zarean</p>
+<p>Lexara.</p>
+<p>Lotsa...</p>
+<p>Lotsarik eztau orretara</p>
+<p>Dagonik azpiratuta.</p>
+<p>Begirik</p>
+<p>Ori ikusteko ba-daukazu,</p>
+<p>Noz-edo-noz, Ama, itxartu,</p>
+<p>Ta orban ori</p>
+<p>Kendu odolaz;</p>
+<p>Arren, negarrez</p>
+<p>Ez kendu.</p>
+<p><mentioned><hi rend='Italic'>Patria, </hi>1904-Urrila-1</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>Ken!</hi></p>
+<p>Kendu, kendu</p>
+<p>Maketuok eta</p>
+<p>Euzkeldun maketozaliok!</p>
+<p>Bota, bota</p>
+<p>Azurbaltzok eta</p>
+<p>Euren lagun gustijok!</p>
+<p>Kendu, kendu,</p>
+<p>Bota, bota</p>
+<p>Geuria galtzen dagozanok!</p>
+<p>Kendu, kendu,</p>
+<p>Atara bota, bai,</p>
+<p>Zapal nai gabezanok!</p>
+<p><mentioned><hi rend='Italic'>Patria, </hi>1904-Urrila-15</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>Euzko-abendearen ereserkija</hi></p>
+<p>Gora ta gora Euzkadi!</p>
+<p>Aintza ta aintza</p>
+<p>Bere Goiko Jaun onari!</p>
+<p>Areitz bat Bizkaya'n da</p>
+<p>Zar, sendo,</p>
+<p>Zindo</p>
+<p>Bera ta</p>
+<p>Bere Lagija lakua.</p>
+<p>Areitz-ganian dogu</p>
+<p>Gurutza</p>
+<p>Deuna,</p>
+<p>Beti geure</p>
+<p>Goi-buru.</p>
+<p>Abestu gora Euzkadi!</p>
+<p>Aintza ta aintza</p>
+<p>Bere Goiko Jaun onari.</p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>Ene aberrija!</hi></p>
+<p>Bizkarregirtik</p>
+<p>Zeru-goyerantz</p>
+<p>Euzkija igoten</p>
+<p>Bai-dala,</p>
+<p>Bijotz-donetik</p>
+<p>Jaungoiko'ganantz</p>
+<p>Egatuten da</p>
+<p>Arrena.</p>
+<p>Euzkija gero</p>
+<p>Jausten danian</p>
+<p>Itxaso-amai</p>
+<p>Ostera,</p>
+<p>Seme onaren</p>
+<p>Gogua, bere</p>
+<p>Guraso-obira</p>
+<p>jasten da.</p>
+<p>Gautegun zerorrek</p>
+<p>Bakarrik, Ama,</p>
+<p>Zeure Jaungoiko ta</p>
+<p>Asabeak dozuz</p>
+<p>Aiztuta!</p>
+<p><mentioned>1897-Garila-25</mentioned></p>
+<p><mentioned><hi rend='Italic'>Euzkadi</hi> aldizkingija-1905-Garila</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>Ai, Kepandoni!</hi></p>
+<p>Ai, Kepandon, Kepandon!</p>
+<p>Eu diruzalia:</p>
+<p>Ildda be ibiliko az</p>
+<p>Beti diru-bila.</p>
+<p><hi rend='Bold'> I</hi></p>
+<p>Esan nora, Kepandon</p>
+<p>Ire alabea</p>
+<p>Otse&ntilde;a ixateko</p>
+<p>Bidaldu duan, ba.</p>
+<p><hi rend='Italic'>Ai, Kepandon...</hi></p>
+<p><hi rend='Bold'> II</hi></p>
+<p>Nora beya jatera</p>
+<p>Bakik eruaten:</p>
+<p>Umia bidaltzeko</p>
+<p>Nora begittu bez.</p>
+<p><hi rend='Italic'>Ai, Kepandon...</hi></p>
+<p><hi rend='Bold'> III</hi></p>
+<p>Eztakijala di&ntilde;ok</p>
+<p>Eta euri zer, ta</p>
+<p>Diruba artu ezkero,</p>
+<p>Poz-pozik agola.</p>
+<p><hi rend='Italic'>Ai, Kepandon...</hi></p>
+<p><hi rend='Bold'> IV</hi></p>
+<p>Diru asko umiak</p>
+<p>Ba-deus eratortzen,</p>
+<p>Zelan ainbat ein yuan</p>
+<p>Ik igarri nai bez.</p>
+<p><hi rend='Italic'>Ai, Kepandon...</hi></p>
+<p><hi rend='Bold'> V</hi></p>
+<p>Bere eskubak ba-dakik</p>
+<p>Garbi yagozala:</p>
+<p>Ez, ba&ntilde;a i&ntilde;oz bijotza</p>
+<p>Usteldu ba-yeutsan.</p>
+<p><hi rend='Italic'>Ai, Kepandon...</hi></p>
+<p><hi rend='Bold'> VI</hi></p>
+<p>Arro ago ikustiaz</p>
+<p>Umia apainduta:</p>
+<p>Txarrija legoke eder</p>
+<p>Ondo garbituta.</p>
+<p><hi rend='Italic'>Ai, Kepandon...</hi></p>
+<p><hi rend='Bold'> VII</hi></p>
+<p>Basoko lan gogorraz</p>
+<p>Loi ta lats eskubak;</p>
+<p>Ba&ntilde;a neska garbijak</p>
+<p>Ata-aman onduan.</p>
+<p><hi rend='Italic'>Ai, Kepandon...</hi></p>
+<p><hi rend='Bold'> VIII</hi></p>
+<p>Diruba irabazteko</p>
+<p>Umia galdu bok,</p>
+<p>Diru-barik entzungok</p>
+<p>Bein-betiko <hi rend='Italic'>or kon-pon..</hi>.</p>
+<p><hi rend='Italic'>Ai, Kepandon...</hi></p>
+<p><mentioned><hi rend='Italic'>Euzkadi</hi> aldizkingija-1906-VII</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>Astarloa'tar Paul Kepa'ri</hi></p>
+<p>Kikilduten da zeure aurrian</p>
+<p>Neu-bekokija,</p>
+<p>Dakusalako adi zeurian</p>
+<p>Euzkel-euzkija.</p>
+<p>Artezkarija zu ixaten zintzan,</p>
+<p>Zu ipar-ixarra...</p>
+<p>Euzkeltzalerik oindi&ntilde;o ordutik</p>
+<p>Asi dira asko...</p>
+<p>Best-Astarloa bat amagandik</p>
+<p>Ezta jayoko.</p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>Si&ntilde;ismena!</hi></p>
+<p>Ama maitea</p>
+<p>Zetako,</p>
+<p>Zeu il da gero,</p>
+<p>Neu bizi?</p>
+<p>Nire begion argia</p>
+<p>Zi&ntilde;an da</p>
+<p>Min uts-negarrak</p>
+<p>Itzali dostaz</p>
+<p>Uts baltzaz.</p>
+<p>Biotza</p>
+<p>Lokatuta dot</p>
+<p>Atsekabeak:</p>
+<p>Atsegin</p>
+<p>Zamurra</p>
+<p>Galduta,</p>
+<p>Atseden ezin.</p>
+<p>Aritz zar baten</p>
+<p>Adarra</p>
+<p>Gau illuntako</p>
+<p>Ekatsak,</p>
+<p>Eten-ez gero</p>
+<p>Bertan lo pozik</p>
+<p>Egoan</p>
+<p>Egun-tsoria</p>
+<p>Illun-artetik</p>
+<p>Asten da</p>
+<p>Egaz da egaz,</p>
+<p>Ez nora ioan</p>
+<p>Yaki&ntilde;az,</p>
+<p>Ez non dabilan</p>
+<p>Gaizoa!</p>
+<p>Olantxe neu be</p>
+<p>Narabil</p>
+<p>Eriotz-putzak,</p>
+<p>Niri zeu, ama,</p>
+<p>Kenduta.</p>
+<p>Nora naroian</p>
+<p>Ni zori tsarrak</p>
+<p>Eztakit,</p>
+<p>Olan bizi izan</p>
+<p>Dagokit?</p>
+<p>Gau itzal otza</p>
+<p>Eguzkiaren</p>
+<p>Ostetik,</p>
+<p>Bein egunaro,</p>
+<p>Arpelik,</p>
+<p>Argi ta bero</p>
+<p>Bil-bila,</p>
+<p>Arinka,</p>
+<p>Dabillan letse:</p>
+<p>Nerau be</p>
+<p>Beti ibilliko</p>
+<p>Ete naz</p>
+<p>Amaren bila,</p>
+<p>I&ntilde;oiz idoro</p>
+<p>Ezi&ntilde;az...</p>
+<p>Edonon loka,</p>
+<p>Edonoiz illun,</p>
+<p>Otz, utza?</p>
+<p>Eriotzaren</p>
+<p>Gozoa!:</p>
+<p>Erraz aurkigai aurkitten</p>
+<p>Zeu zara.</p>
+<p>Bilauko zaitut?</p>
+<p>Zegaitik</p>
+<p>Ama bagarik</p>
+<p>Ume au iraun</p>
+<p>Bizirik?</p>
+<p>Goiko oinastuak</p>
+<p>Basoa</p>
+<p>Ganetik bera</p>
+<p>Dana argi zuriz</p>
+<p>Beteta...</p>
+<p>Tsori estua,</p>
+<p>Ikusi ta, arin</p>
+<p>Eltzen da</p>
+<p>Zugatz batera.</p>
+<p>Zeruan eme</p>
+<p>Ta nire gogo</p>
+<p>Lai&ntilde;oz itsura</p>
+<p>Yazten da</p>
+<p>Argi-erro bat</p>
+<p>Niretzat...</p>
+<p>Goiko argiaz</p>
+<p>Neronen ama</p>
+<p>Dakust oin bertan</p>
+<p>Nire begira</p>
+<p>Dagola,</p>
+<p>Erakutsirik</p>
+<p>Beraganako</p>
+<p>Daukadan bide</p>
+<p>Zuzena...</p>
+<p>Sinistuten dot!</p>
+<p>Beste bein ama</p>
+<p>Dot ikusiko</p>
+<p>Inoiz be izteko.</p>
+<p>Erruki,</p>
+<p>Erruki, Jauna!</p>
+<p>On itza zeuri!</p>
+<p>Zeu zara</p>
+<p>Bigun da launa!</p>
+<p>Si&ntilde;ismenaren argia,</p>
+<p>Argietarik</p>
+<p>Eder ta Garbia!</p>
+<p>Ez itsomenik,</p>
+<p>Maitasunik ez,</p>
+<p>Zeu barik!</p>
+<p>Bizitza onen</p>
+<p>Gau baltza</p>
+<p>Niri argitu</p>
+<p>Itzi, ai, arren!</p>
+<p>Enaizu.</p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>Sacris solemnis</hi></p>
+<p><hi rend='Bold'> I</hi></p>
+<p>Jai andi onetan</p>
+<p>Batu bediz pozak;</p>
+<p>Abesti deunakin</p>
+<p>Itxartu bijotzak;</p>
+<p>Kendu gauza zarrak</p>
+<p>Dana gaur barrija,</p>
+<p>Egipena ta abestija</p>
+<p><hi rend='Bold'> II</hi></p>
+<p>Gomutian dogu</p>
+<p>Apari barrija,</p>
+<p>Josu-Kisto'Berak</p>
+<p>Artxu ta ogija</p>
+<p>Bere ikaslarijei</p>
+<p>Emon eutsezana,</p>
+<p>Asabeak aginduta.</p>
+<p><hi rend='Bold'> III</hi></p>
+<p>Olan lagi zarra</p>
+<p>Bete ta bertatik</p>
+<p>Bere gorputz deuna</p>
+<p>Beriei emonik,</p>
+<p>Gustijak dana jan</p>
+<p>Bakotxak dana artu</p>
+<p>Ta jakin-erazo dausku.</p>
+<p><hi rend='Bold'> IV</hi></p>
+<p>Makalei emon da</p>
+<p>Gorputza jakitzat,</p>
+<p>Larrijei odola</p>
+<p>Gero edaritxat</p>
+<p>Emonik esautsen:</p>
+<p>&laquo;Edan egixube</p>
+<p>Neure odola dan auxe&raquo;.</p>
+<p><hi rend='Bold'> V</hi></p>
+<p>Gotzonen Ogija</p>
+<p>Gixonena ein zan.</p>
+<p>Idurila azkendu</p>
+<p>Egijagaz eban.</p>
+<p>Egi ikarakorra!</p>
+<p>Jaungoiko andija</p>
+<p>Otsein zittalen jakija.</p>
+<p><hi rend='Bold'> VI</hi></p>
+<p>Kisto'k jaupa andija</p>
+<p>Olan irazanda,</p>
+<p>Jauparijei utsik</p>
+<p>Emon egimena</p>
+<p>Eta agindu eutsen</p>
+<p>Orduntxe geroko</p>
+<p>Beste danei emoteko.</p>
+<p><hi rend='Bold'> VII</hi></p>
+<p>Bat eta iru baten</p>
+<p>Zaran Jaungoikua,</p>
+<p>Zeu artzen zaugun lez</p>
+<p>Erdu Zeu geugana.</p>
+<p>Gu zaliok zaindu</p>
+<p>Zure bide leundik</p>
+<p>Dozu argira zuzenik.</p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>Gabona</hi></p>
+<p>(Artza&ntilde;en abestija)</p>
+<p><hi rend='Bold'> I</hi></p>
+<p>Jaunaren geznarijak</p>
+<p>Poz-geznea ekarri dausku:</p>
+<p>Geure larre onetan</p>
+<p>Jaun-Semia jayo bai-yaku.</p>
+<p><hi rend='Bold'> II</hi></p>
+<p>Guazen artzain danok</p>
+<p>Seintxu Deuna billatuteko.</p>
+<p>Geure bildots barrijak</p>
+<p>Ixan bediz Berarentzako.</p>
+<p><hi rend='Bold'> III</hi></p>
+<p>Ardoki baten Jauna,</p>
+<p>Esan dausku jayo yakula:</p>
+<p>Bera aulan txikittuta,</p>
+<p>Geu geronek andittu gara.</p>
+<p><hi rend='Bold'> IV</hi></p>
+<p>Au da Jaun errukijoi,</p>
+<p>Ona ta Jaun mattegarrija!</p>
+<p>Bere mattetasunak</p>
+<p>Eratsi dau aska batera.</p>
+<p><hi rend='Bold'> V</hi></p>
+<p>Jaunaren geznarija</p>
+<p>Dantzubebak, zorijontsubak</p>
+<p>Jatzi dan Jaungoikua</p>
+<p>Dazabenak, zorijondunak!</p>
+<p><hi rend='Bold'> VI</hi></p>
+<p>Sein ori ardokittan</p>
+<p>Jayoten da, geu lakoxerik</p>
+<p>Ardijak zainduteko:</p>
+<p>Ezta i&ntilde;un-bez artzain oberik!</p>
+<p><hi rend='Bold'> VII</hi></p>
+<p>Ara or ardokija...</p>
+<p>Entzuten da Semetxubari</p>
+<p>Amaren lolotxuba...</p>
+<p>Lotan dago; biar da ixilli.</p>
+<p><hi rend='Bold'> VIII</hi></p>
+<p>Jaungoiko-Semia, agur;</p>
+<p>Agur, agur, Jaunaren Ama;</p>
+<p>Agur, Zeu, Gixon deuna,</p>
+<p>Neska-Amaren ezkona zara.</p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>Didar bat adittu da</hi></p>
+<p>Didar bat aditu da</p>
+<p>Geure mendijetan,</p>
+<p>Itxal da naigabia,</p>
+<p>Aitor'en izketan.</p>
+<p>&laquo;Itxartu, euzkeldunak,</p>
+<p>Esan dau didarrak,</p>
+<p>Itxartu, entzutera</p>
+<p>Asaben negarrak.&raquo;</p>
+        </body>
+      </text>
+    </group>
+  </text>
+</TEI.2>
+

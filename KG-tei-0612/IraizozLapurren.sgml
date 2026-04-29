@@ -1,0 +1,820 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN"
+                       "http://www.tei-c.org/P4X/DTD/tei2.dtd" [
+   <!ENTITY % TEI.prose    'INCLUDE' >
+   <!ENTITY % TEI.linking  'INCLUDE' >
+   <!ENTITY % TEI.analysis 'INCLUDE' >
+   <!ENTITY % TEI.figures  'INCLUDE' >
+   <!ENTITY % TEI.XML      'INCLUDE' >
+   <!ENTITY % TEI.extensions.ent SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.ent' >
+   <!ENTITY % TEI.extensions.dtd SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.dtd' >
+]>
+<TEI.2>
+  <teiHeader>
+  <fileDesc>
+     <titleStmt>
+        <title>Lapurren menpean</title>
+        <author>Polikarpo Iraizozkoa</author>
+        <respStmt>Bertsio elektroniko honen egilea: Ainhoa Beola</respStmt>
+     </titleStmt>
+     <extent>17.232 hitz, 126.687 karaktere</extent>
+     <publicationStmt>
+        <publisher>Klasikoen Gordailua [http://klasikoak.armiarma.com/]</publisher>
+        <distributor>Estrata Liburuak S.L.</distributor>
+        <address type='email'>klasikoak@armiarma.com</address>
+        <idno type='ota'>IraizozLapurren</idno>
+        <availability status='free'>Erabilpen librekoa; honoko helbidean topa daiteke (HTML, RTF eta PDF formatuetan): http://klasikoak.armiarma.com/idazlanak/I/IraizozLapurren.htm</availability>
+        <date>2006</date>
+     </publicationStmt>
+     <sourceDesc>
+        <bibl>Iturria: Zeruko Argia, 1935-07 (199. zbka.) / 1936-07 (211. zbka.)</bibl>
+        <notesStmt><note>Iturburuen datazioa: 1935</note></notesStmt>
+     </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+     <projectDesc>Euskal literaturako testu klasikoen bilduma da KLASIKOEN GORDAILUA; testu hau berorren parte da</projectDesc>
+     <refsDecl>
+        <p>MENTIONED etiketa egilearenak ez diren hitzak markatzeko erabili da: hitzaurreak, aipuak, iruzkinak, e.a.</p>
+    </refsDecl>
+     <classDecl>
+        <taxonomy id='generoa'>
+            <category id='G-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='G-ANT'><catDesc>Antzerkia</catDesc></category>
+            <category id='G-BER'><catDesc>Bertsoak</catDesc></category>
+            <category id='G-ERL'><catDesc>Erlijioa</catDesc></category>
+            <category id='G-NAR'><catDesc>Narratiba</catDesc></category>
+            <category id='G-POE'><catDesc>Poesia</catDesc></category>
+            <category id='G-SAI'><catDesc>Saiakera, kronika, artikuluak...</catDesc></category>
+        </taxonomy>
+        <taxonomy id='garaia'>
+            <category id='M-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='M-16'><catDesc>XVI. mendea</catDesc></category>
+            <category id='M-17-1'><catDesc>XVII. mendea - 1. erdia</catDesc></category>
+            <category id='M-17-2'><catDesc>XVII. mendea - 2. erdia</catDesc></category>
+            <category id='M-18-1'><catDesc>XVIII. mendea - 1. erdia</catDesc></category>
+            <category id='M-18-2'><catDesc>XVIII. mendea - 2. erdia</catDesc></category>
+            <category id='M-19-1'><catDesc>XIX. mendea - 1. erdia</catDesc></category>
+            <category id='M-19-2'><catDesc>XIX. mendea - 2. erdia</catDesc></category>
+            <category id='M-20-1'><catDesc>XX. mendea - 1. erdia</catDesc></category>
+            <category id='M-20-2'><catDesc>XX. mendea - 2. erdia</catDesc></category>
+        </taxonomy>
+        <taxonomy id='euskalkia'>
+            <category id='E-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='E-BAT'><catDesc>batua</catDesc></category>
+            <category id='E-BIZ'><catDesc>bizkaiera</catDesc></category>
+            <category id='E-BNA'><catDesc>behenafarrera</catDesc></category>
+            <category id='E-ERR'><catDesc>erronkariera</catDesc></category>
+            <category id='E-GIP'><catDesc>gipuzkera</catDesc></category>
+            <category id='E-GNA'><catDesc>goi nafarrera</catDesc></category>
+            <category id='E-LAP'><catDesc>lapurtera</catDesc></category>
+            <category id='E-NAF'><catDesc>nafarrera</catDesc></category>
+            <category id='E-ZAR'><catDesc>zaraitzuera</catDesc></category>
+            <category id='E-ZUB'><catDesc>zuberera</catDesc></category>
+        </taxonomy>
+    </classDecl>
+  </encodingDesc>
+  <profileDesc>
+     <textClass>
+       <keywords scheme='generoa'>
+         <list><item>G-NAR</item></list>
+       </keywords>
+       <keywords scheme='garaia'>
+         <list><item>M-20-1</item></list>
+       </keywords>
+       <keywords scheme='euskalkia'>
+         <list><item>E-BIZ</item></list>
+       </keywords>
+     </textClass>
+  </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>Lapurren menpean -- Polikarpo Iraizozkoa</docTitle>
+    </front>
+    <group>
+      <text>
+        <body>
+<p><hi rend='Italic'>Zeruko Argia</hi> (1935-1936)</p>
+<p>Fernando Soloeta de Dimaren <hi rend='Italic'><foreign>Mi Cautiverio bajo el Drag&oacute;n Rojo (Dram&aacute;tico relato de un Misionero Argentino) </foreign></hi>(Buenos Aires, [1934]) kontakizunaren itzulpena</p>
+<p><hi rend='Bold'>Irakurleari</hi></p>
+<p>Ez uste izan, irakurle maitea, nik liburutxo au nere gogoz idatzi dedanik, ez orixe. Nere gogoaren bortxa jarri naiz ortara. Nere adiskide maiteak lapurren artean egon nintzanean ikusitako gauzetaz zerbait idazteko eskatzen zidaten bein ta berriz ta askotan, gogait egitera&ntilde;okoan; ba&ntilde;a nik guztai ezezkoa ematen nien. Ilbeltzean (1934) gelditu nintzan lokabe (libre) eta maiatzera arte ez nuen ortaz itzik ere idatzi. Orduan nere Nagusiak bitarteko jarri ziran eta Nagusiak Jainkoaren ordezkoak baitira neretzat, aien esanera erori nintzan nai banuen ta ezpanuen.</p>
+<p>Orrialde auetan kontatzen diranak ixil ixil i&ntilde;ork jakin gabe gelditu balira, naiago nukean; alde batetik, zuretzat bat ere jakingarriak ez dirala uste nuelako, bestetik berriz, bear gabeko gauzarik egin bear ez dalakoan nagoelako. Nere lantxo au argitara ateratzen bada, ori idazteko ta ateratzeko agindu didatenen kontura agertzen da. Beste atxilo (preso) egondako misiolarien idazkirik ez det irakurri; ba&ntilde;a aien aldean nere idazki au motela, utsa ta ezereza izango zaitzula etsirik nago.</p>
+<p>Ez dizut nere lantxo ontan gertaera guzien berri xeea ematen, ez orixe; Erensuge-Gorriaren soldadutaldean atxilo egon nintzan garaian nere inguruan edo neronen baitan gertatu ziran zenbait gauzen berri labur ala-olako bat besterik ezta liburu au. Gertari guzi aiek xeeki kontatzera jarri ezkero, liburu osoak egin litezke; ba&ntilde;a ni alperregi naiz orrenbeste idazteko eta ga&ntilde;era zuri ere aspergarri litzaitzuke. Tintontzian gelditu bitez beraz.</p>
+<p>Agur, Jainkoak bedeinka zaitzala eta otoitz egiozu nere txinatar maiteok kristau biur ditzan.</p>
+<p>Kingyang (Kansu, Txina)</p>
+<p>1934, maiatzaren 18an.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>1. Non arrapatu ninduten</p><--</head>
+        </front>
+        <body>
+<p>Sanxelipu errian atxitu ninduten soldadu gorriak beste bi kaputxino misiolari euskaldunekin batean. Erri ori, Kingyang uri sendotik 18 kilometroko bidean dago, Kansu deritzan Txinako probintzian datza, aren eguzki-aldean, Lungtung ibarrean. Mila seireun metroko mendiak baditu bere inguruan eta ibarraren erditik txirristatzen dira malin ibaiaren urak bere ondoko bazterrak udaberri-udetan jatortu ta edertuz; mota askotako labore ta zituak sortzen dira alde aietan. Ba&ntilde;a legorte aundiko urtetan beldurgarriak dira Malin ibai orren bazterrak.</p>
+<p>Ibai gatzerretsu ta orizta onen ondoan ta batez ere eguzki-aldean bizi dira aspaldi aspalditik Setxuang probintziatik etorritako jendetalde aundiak; aietako asko katolikoak dira. Mariaren Biotz Garbiaren misiolari belgatarrak lau elizatxo goratu zituzten kristau oiei kontu izateko; bat Malin-en; bestea, Sintziajo-n; irugarrena, Luixejo-n ta laugarrena, Sanxelipu-n. Azken onek baditu 50 urte egi&ntilde;ik, ori da eliza nausia ta or bizi da geienean misiolaria, 1913an, Huixiendik jetxitako lapurrak kixkali ta ondatu zuten; ba&ntilde;a lau urteren buruko Scheut-ko misiolariak goratu zuten berriz.</p>
+<p>1922ean (<foreign>sic</foreign>), Kansu probintziaren egoalde ta eguzkialdea aita kaputxinoak beren gain artu zutenean, lau elizatxo aiek ere beren kontura gelditu ziran. Ordutik ona, auek izan dira ango erretore: 1) Rudolf Blockinger; 2) Uribe-Etxeberria Simon, Bilbo-koa; 3) Gare-ko Bartolome A. Auxe dago orain erretore. Lapur asko ibiltzen baita inguru aietan, batez ere ez-urteetan, Sanxelipu-ko misiolariak bein ba&ntilde;o geiagotan utzi bear izan dute beren misio-etxe ura igesi joateko; Gares-ko Bartolome A., biozdun ta ezin-esan-alako beldurgabea izan, eta orixe bakarrik ezta bein ere igesi joan, naiz galbide aundian egon. Ba&ntilde;a azkenez, erori zan ori ere, Hektor ta Akiles erori ziran bezela; bere eginkizuna betetzen, animen aita-izateak ematen zion eginkizuna betetzen ari zala erori zan.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>2. Kingyang</p><--</head>
+        </front>
+        <body>
+<p>Auxe da segurik Kansu probintziako uri zaarrenetako bat; eta aspaldiko etxe ta oroikarrien aztarna ta orma zarrak adierazten dutenez, gorabera aundiko uria izan zan noizpait. Ondoko mendi ga&ntilde;etan izugarrizko il-etxe aundiak badira eta bertako jendeak diotenez, Txinako Agintari edo Emperadoreak daude eortzirik il-etxe aietan. Nere Kingyang au Txina-ko Agintarien bizi-leku izan danik ez det uste nik nerez.</p>
+<p>Kansu-ko uri sendorik eguzki-aldekoena da; eta non datzan ta lengo denboretan zer izan dan jakin ezkero, bi munduren berez-muga dala esan diteke: alde batera, erein-lurrak; bestera, basalekuak; alde batera, gizalegean bizi diran jendeak; bestera, lege gabe bizi diran lapur ta gaizki-egileak.</p>
+<p>Kingyang-ko arresi (muru) zaar ikaragarriak milikatuz igarotzen da Tung Jo ibaia eta onen eguzki-aldera ezta erein-zelai aundirik ageri, ez erri aundi edo txikirik ere. Zenbait arkaitz-etxe, sakan ta baso artean banaturik; orixe besterik ez dute egin ango jendeak mahomatarrak su ta gar guzia ondatuz ara sartu ezkero.</p>
+<p>Kingyang eta Huosi (ia izen utsezko mandarinato bat da azkeneko au) Txinako alderdi ezezagun ta basotsuena dira noski; Kansu-ko beste alderdietan ez bezela, nere eliz-barruti ontan baso ta oian gaitzak badira; antxe, otso ta pantera ta orein edo basauntzen aldean lasai bizi dira lapurrak; eta ezta erraz izaten oiekin ez topo egitea, batez ere udaberri ta udan zuaitzak ostoz jantzi ta sastrakak ugari sortu diranean.</p>
+<p>Basaleku zabal ta izugarri aietan, zokorik baztertuenetan bizi dira Tartariatik jetxitako zenbait kristau familia. Auek noizpait lenago bataioa artu zuten, ba&ntilde;a gaur Goiko Jaunagandik eta aren lege santutik alde bizi dira, kristau egitean artu zuten fedean edukitzeko misiolari on bat ez dutelako. Neri, misiolari katoliko oni, biotza erdiratzen zitzaidan, zenbait kristauek egiten zuten auxe ikustean: erlijiorik gabe ezin bizi zitezkelako aitzakian, jentilekin batean gezurrezko jainkoai jauretxeak goratzen zizkieten eta erlijio katolikorik etzegoen ezkero, Budaren erlijioari zarraizkion. Itz gogorrez erritan eman nien beren bizimodu txar ortaz; toki egokian elizatxo bat goratu nien, eta neronek aien animen kontu izango nuela agindu nien.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>3. Sanxelipu ta Kingyang arteko artu-emanak</p><--</head>
+        </front>
+        <body>
+<p>Elkarrengandik urbil samar daude bi misio-etxe oiek; bertako misiolariak maiz joan izan bear dute elkarrengana; eta argatik, Pingliang-eko <foreign>Prefectura</foreign>ren zokorik baztertuenean dauden bi etxe oien artean artu-eman aundia izaten da.</p>
+<p>Ga&ntilde;era, Bartolome Aitak bidaltzen dio <hi rend='Italic'>Kingyang</hi>-eko erretoreari onek bere kristaugai-etxerako bear duen labore ta alea eta, ordai&ntilde;ez, <hi rend='Italic'>Kingyang-</hi>eko erretoreak bidaltzen dizkio <hi rend='Italic'>San xelipu</hi>-koari baserrian arkitu ezin ditezken zerak.</p>
+<p>Ortaz landara, anima-lanetan ere maiz laguntzen diote elkarri. Ola, azkeneko agorrilean (agoztuan, 1933) bi misiolariok erabaki auxe artu zuten: Bartolome Aitak <hi rend='Italic'>Sanxelipu</hi>-ko bere eliza utzi ta beste lekuetan banaturik bizi dituen kristauak ikustera joan bearra baitzan, nik nere gain artuko nuela <hi rend='Italic'>Sanxelipu</hi>-ko eliza ere bitarte ortan.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>4. Nere ibilerak Tartarian barna (iraila, 1933)</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Italic'>Kingyang-</hi>eko misio-etxea Artazkoz-ko Isidro Anai etxegi&ntilde;aren kontura utzirik, irailaren (agorraren) lenengo egunetan abiatu nintzan nere barrutiaren iparraldea ikertzeko asmotan. Al banezaken, Txinatar Arresi aundiaren iparralderai&ntilde;o igarotzeko asmoa nuen, Gobi-ko misiolariekin elkar-aditurik, deabruari ipar ta egoaldetik asti&ntilde;aldi gogorra emateko.</p>
+<p>Makurrikgabe iritxi nintzan. <hi rend='Italic'>Laoyeling</hi>-era; ala ere, jendeak ni ta nere morroia ikustean igesi joan ta mendi-arteko zokogunetan gordetzen zirala oartu nintzan bidean; lapur gaixtotzat artu ginduzten nonbait. Lengo aldietan oi&ntilde;ez egiten nituen nere ateraldiak, meza emateko bear diran gauzak astotxo baten gai&ntilde;ean neramatzala; bai&ntilde;a oraingo aldian, lapurrak bein ta betiko ondatu ziralakoan, nere bi mandoekin ninjoan.</p>
+<p>Alderdi ezezagun aietan nenbilela, konturatu nintzan etzirala berdin nik liburuetan ikasi nuena ta orain nere begiz ikusten nuena, lekuan lekuan ageri zana eta mapak erakusten dutena. neretzat ardura aundiko beste oar au ere egin nuen: kansu ta Shensi probintzien arteko muga eztagola geografiak dioten tokian.</p>
+<p><hi rend='Italic'>Lo ho</hi> ibaiaren goiko aldea inguratu nuen <hi rend='Italic'>Kintang</hi> aintziratik igaroaz. Mendi-zelai eder, zabal ta jatorra da eta, dirudienez, baketsua ere bai. An ibili nintzan egunetan, ez nuen bidetan ez etxetan ez jendetan kristau-ezaungarririk bat ere ikusi. Misiolari batek ere eztu noski oraindik Zeruko Aitaren maasti ura landu. Otoitz egiozue gogotik Jesusi bere langileak ara bidal ditzan. Txinatar Arresi aundia <hi rend='Italic'>meridianoko </hi>108garren graduan igaro nuen.</p>
+<p><hi rend='Italic'>Ta yang wan</hi>-era iristean, bertako misiolari Kler Aita arritu zan ni ikusteaz eta galdegin zidan: Gizon ezezaguna, zein izkuntzetan nai dezu itzegitea? Alegia, misiolari belgatar arek badakizki izkuntza asko: txinera, mongol, aleman, frantzes, flamenko, ingles ta geiago.</p>
+<p><hi rend='Italic'>Gobi-</hi>ko ondartzaren euskarri ta zurkaitz diran mendi-tontorretara igo nintzan eta andik iksui nituen ondartza aietan banaturik alako zuriune batzuek; eliza katolikoak dira eta saie-arraultzak ematen dute. <hi rend='Italic'>Sia-kiao-pan</hi> uri sendora sartu nintzan egun berean, larogei urte betetzen zituen Mgr. Otto, Kansu-ko Apostolutar Vikario izandakoak; auxe da Txinako Apezpiku zaarrena. Lerden eta txut dago orai&ntilde;o; iduri luke arentzat esanak dirala arako Liburu Santuetako itz aiek: <hi rend='Italic'><foreign>Deus fecit hominem rectum:</foreign></hi> Jainkoak gizona zuzena egin zuen. Igandero predikatzen du, egunero erlijio-eskola ematen die ango neskatxa batzuei, gero baserrietan dotri&ntilde;a irakasle izan bear duten neskatxai; gai&ntilde;era, Txinan agertzen diran aldizkari askotara ere bidaltzen ditu idazkiak. Jainkoak luzaro bizirik edukiko al digu Apezpiku santu ta lanzale ori!</p>
+<p>Misiolariak sortutako erria da <hi rend='Italic'>Sia kiao pan,</hi> berak dira ango nagusi bai gudurako gauzetan ta bai elizaz ere. Apezpiku Jaunarekin izketan ari nintzalarik, berri auxe ekarri zioten: alako ta alako lekuan iruen bat mila gaizkiegile bazebiltzela. Eta Apezpiku zaarrak esan zien: Erne egon bada ta aiei begia eduki. Scheut-ko misiolari belgatarrak daude bazter legor aietan misiolari; beren Vikariatoan amabost uri sendo sortu dituzte ta arresiz (muruz) inguratu. Galbide edo arriskuen bat sumatzen dutenean, misiolariak arresi-gabeko misio-lekuak utzi ta arresidun uri sendoetara joaten dira igesi. Gisa ortara bakarrik egin diteke lan iraunkorrik toki aietan, Txinako Gobernuak ain indar gutxi duen toki urrun aietan.</p>
+<p>Belgatarren misiotik igaro nintzan Frantziskarren misio <hi rend='Italic'>Yegnanfu-</hi>ra; aspaldiko mendetan or ari dira lanean gure anai oiek. Misio ori nere misioarekin mugatzen da eta ango misiolariekin arazo batzuek garbitu bear nituen. Irailaren 17an (1933) <hi rend='Italic'>Y&uuml; fang tou</hi>-en egon nintzan eta andik egun gutxira lapurrak atxilotu zuten Fradua Frantzisko Aita, jatorriz bermearra. Nolako mi&ntilde;a eman zidan nere anai gaxo orren zoritxarrak! Aren askatzera zijoazen soldaduekin izketan ari izan nintzan.</p>
+<p>Frantziskarren misio osoa zearkatu nuen iparraldetik egoaldera. <hi rend='Italic'>Yu lin fu</hi>-tik asi ta <hi rend='Italic'>Fou txo</hi>-rai&ntilde;o. Vikariato au erakusmenekoa da bai misiolarien gogo onari begiratuz ta bai zenbat kristau berri egiten diran gogoan edukiz. Eta naiz misiolariak alde askotakoak izan, Espai&ntilde;iako probintzi geienetakoak badira ta, gogo bakar auxe besterik eztute: animak zeruratzea.</p>
+<p><hi rend='Italic'>Heisuise </hi>ta <hi rend='Italic'>Tai pai</hi>-en barna nere barrutira itzuli nitzan eta bertako baso ta zokoak berriz inguratu nituen eguzki-aldetik itzalderai&ntilde;o. Lapur-gordelekuak besterik eztiran tokietan barna berrogei egunez ibili ondoan, <hi rend='Italic'>Sanxelipu</hi>-ra iritxi nintzan nere barrutian beintzat lapurrak erabat ondatu eta baso-aldean bake ederra zegoelako uste gozoan.</p>
+<p>Urriaren 12an (1933), goiz aldean sartu nintzan <hi rend='Italic'>Sanxelipu</hi>-ra; geroxeago etorri zan bertara Isidro Anaia <hi rend='Italic'>Kingyang</hi>-etik. Berantetsirik omen zegoen nere zai; esandako egunean atzera etorri ez nintzalako, ezbearren bat gertatu ote zitzaidan beldur omen zan. Nere bila joateko gizonak biltzen asteko asmoa zuen.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>5. Sanxelipu nere kontura</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'><hi rend='Italic'>(urrila, 1933)</hi></hi></p>
+<p>Andik lau egunera, Bartolome Aitak bere erretore-etxeko giltzak eman zizkidan eta bere etxe ta eliza nere ardurapean utzirik, bere mando ta morroiekin jo zuen <hi rend='Italic'>Luisejo</hi> aldera an ilabete bat egoteko. <hi rend='Italic'>Sanxelipu</hi>-ko elizan nituen eginbideak etziran bat ere astunak: igande ta jaiegunetan meza eman, aurrak bataiatu eta eri aundiai elizakoak eman: orra nere egiteko guzia.</p>
+<p>Egun beraietan Artazkoz-ko Isidro Anaia <hi rend='Italic'>Sintxiajo</hi>-ra aldatu zan, izen ortako arru edo mendartean Bartolome Aitak goratu nai zuen elizatxo berri batean lan egitera. <hi rend='Italic'>Sintxiajo</hi> amabi kilometroko bidean dago <hi rend='Italic'>Sanxelipu-</hi>tik eta Isidro Anaia igande ta jaiero <hi rend='Italic'>Sanxelipu-</hi>ra jeisten zan bere kristau-eginbideak betetzera.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>6. Huosui Gorrien menpean</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'><hi rend='Italic'>(urriaren 13an, 1933)</hi></hi></p>
+<p>Aspaldiko uria da <hi rend='Italic'>Huosui</hi> ori; lenago gorabera aundiko er&iacute;a izan zan, noski, bere arresi ikaragarriak eta etxe erdi-urratuak adiarazten dutenez. Gaur ordea ondakin eta ormazar-multzu bat besterik ezta, bein Gobernuaren soldaduak nausi dituela, laster berriz lapurren menpean eroria. <hi rend='Italic'>Kingyang</hi>-etik ogei-ta-amabost eta <hi rend='Italic'>Sanxelipu</hi>-tik berrogei-ta-bost kilometroko bidean dago.</p>
+<p>Urriaren 13an berri txar bat zabaldu zan: komunista gorriak <hi rend='Italic'>Huosui</hi>-ra sartu zirala, uri guzia lapurtu ta bipildu, zenbait jende il, beste zenbait gizon berriz atxilotu ta eraman egin zituztela. <hi rend='Italic'>Kingyang</hi>-en etzioten berri orreri si&ntilde;este aundirik eman; <hi rend='Italic'>Sanxelipu</hi>-ra berriz iritxi ere etzan egin berri txar ori. Nik neronek si&ntilde;esten nuen gutxiena; nik zenbait egun lenago inguratu nituen ango bazter galbidetsu ta ezkutuenak eta ez nuen i&ntilde;on lapurren aztarnarik arkitu. Egia da, <hi rend='Italic'>Paotzetsuang </hi>eta <hi rend='Italic'>Tungkuatze</hi> artean ikusi nituen gizon batzuei agur egin izan nien eta aiek etzidaten tutik erantzun; ortaz arritu nintzan pixka bat, bai&ntilde;a ez nuen ain gauza aunditzat artu. Orduan, polizia-gizonak ote ziran gogoratu zitzaidan, orain ordea, lapurrak ote ziran nago. Zergatik etzidaten orduan ezer egin? Berak al dakite zergatik.</p>
+<p>Bai&ntilde;a komunistak <hi rend='Italic'>Huosui</hi> ostu ta garbitu zutela egia atera zan zoritxarrez. Gorrien ausartasun ta beldurrik-eza sumatzean, erria zaintzen zuten soldaduak tarrapataka igesi joan ziran eta gorriak goizeko bostetan jabetu ziran uriaz. Arrapa-alako diru ta jantzi ta guziak artu zituzten; gero, soldaduak atzera etorriko ote ziran beldurrez, egun bereartan aldegin zuten uriaren egoaldera. Berekin erman zituzten Eskola-Batzarraren Burua, eskola-emale bat eta zenbait ikasle, etxe oneko semeak.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>7. Lapurrak Xinpuse'<hi rend='Italic'>n</hi></p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'><hi rend='Italic'>(urriaren 20an)</hi></hi></p>
+<p>Gorabera aundiko auzune bat da <hi rend='Italic'>Xinpu,</hi> etxeak banaturik dauzka, <hi rend='Italic'>Txeng ho </hi>ta <hi rend='Italic'>Tung ho</hi> ibaiak elkartzen diran toki ondoan da,<hi rend='Italic'> Kingyang-</hi>etik berrogei-ta-amar kilometroko bidean ta <hi rend='Italic'>Sanxelipu</hi>-tik berrogei.</p>
+<p>Urriaren 20an, arratsaldean, mandarin etorri berriari ongi-etorri esatera joan nintzan eta izketan ari gi&ntilde;ala, gure agintari berri arek esan zidan: <hi rend='Italic'>&laquo;Xinpu</hi>-n lapurrak agertu omen dira; eztakit ordea neronek ere, zenbat edo nolakoak diran&raquo;. Etxera biurtu nintzanean, Erro-ko Gerardo Aitari ta Isidro Anaiari kontatu nien guzia. Gerardo Aita misiolaria agerraldi bat egitera etorria genuen; Isidro An. <hi rend='Italic'>Sintxiajo</hi>-tik etorria zan, eliza berria egiteko bear zituen gauza batzuen eske.</p>
+<p>Ustegabeko berri oiekin izutu zan Isidro Anaia, ez bere buruagatik, bai&ntilde;a bai <hi rend='Italic'>Sanxelipu</hi>-n zer gertatu ote zan gogoratuz; Bartolome Aita kanpoan zan bitartean gure kontura baitzegoen ango Aurtzaro-Sandutegia bere ogei-ta-amar neskekin. Nik, zaarrago izaki Txinan ta nere burua beldurgabe erakutsiz, ez beldur izateko esan nion, ordukoz beintzat etzegoela arriskurik eta biaramonean, larunbatean, nerau joango nintzala <hi rend='Italic'>Sanxelipu</hi>-ra.</p>
+<p>Urriaren 21an (<foreign>sic</foreign>), euria ari zuen ibaika eta argatik Gerardo Aita ezin atera izan zan bere misio-etxe <hi rend='Italic'>Sifengcheng</hi>-era joateko ta nik ere ez nuen Malin ibai aldera jotzeko erarik. Arratsaldean atertu zuen ala ere eta Isidro Anaia gure arrotzari lagun egiten utzirik, nere mandoa artu ta Bartolome Aitaren misio-etxe aldera abiatu nintzan. Bidean ez nuen oi-ez-bezelakorik ezer ikusi; zenbait jende alper pagodaen aurrean, besterik ez, <hi rend='Italic'>Sanxelipu</hi>-n guzia bakean zegoen.</p>
+<p>Biaramonean (urriaren 22, 1933) igandea baitzan, isidro Anaia ere an agertu zan. Bertako jendeak eta poliziak etzuten uste ezeren arriskurik bazegoenik; argatik ez genuen guk ere neurririk bat ere artu nai izan. Ilaren 23an, astelenean ni Kingyang-era itzuli nintzan, Isidro Anaia berriz <hi rend='Italic'>Sintxiajo</hi>-ra</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>8. Domine-Sandu eguna</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'><hi rend='Italic'>(azaroaren 1, 1933)</hi></hi></p>
+<p>Jai onen bezperan <hi rend='Italic'>Sanxelipu</hi>-n agertu nintzan igande ta jaiero bezela; Domine-Sandu egun berean etorri zan Isidro Anaia meza entzutera, amabi kilometroko bidea egin bear bazuen ere (Erakusmen ederra, igandeko eginbideak ain erraz uzten dituzten kristau zabarrentzat!). Jende gaitza bildu zan egun artan elizara. Ni Sandu guzien predikua egiten ari nintzala, itxura txarreko otsak entzun genituen kanpotik, zaldi-arrapala ta soldadu-otsak. Ongi iduritu zitzaidanean, bukatu nuen nere itzaldi kaxkarra, ta bai meza sandua ere. Nere kristau batzuek elizatik atera izan ziran kanpoan zer ote zan ikustera. Bai&ntilde;a i&ntilde;ork etzezaken asots aien berririk eman. Ondoko egunetan ikasi nuen lapurrak Domine-Sandu egun artan etzirala gugandik urruti egon.</p>
+<p>Animen egunean (ilaren 2an) Isidro Anaia itzuli zan bezperan etorri bidetik eta ni ere <hi rend='Italic'>Kingyang-</hi>era biurtu nintzan. Etxean arkitu nituen nere morroi langileak; <hi rend='Italic'>Yyumiao-</hi>tik etorriak ziran. Nere barrutiko txokorik ezkutuena dan alde artan Mikel Sanduaren izeneko elizatxo bat goratu nai nuen, Aingeru sandu orrek nere txinatarrai deabruarekiko burrukan lagun zezaien. Ara bidaliak nituen nere morroiak lan egitera, argatik arritu nintzan aiek <hi rend='Italic'>Kingyang-</hi>en arkitzeaz. Aiek ordea esan zidaten, baietz,<hi rend='Italic'> Tungho</hi> ibai alde guzia lapurrez josia zegoela eta berak inguru-minguru andiak egin bear izan zituztela nere astotxoa galtzera ez uzteko.</p>
+<p>Ala ere, gure Jaundone Mikel inguruko kristau batzuek ondoko egunetan adiarazi zidatenez, lapur tzar aiek soldaduen beldurrez <hi rend='Italic'>Shensi</hi> aldera, <hi rend='Italic'>Paogna</hi> probintziara jo zuten. Ez genuen beraz aiengatik zer beldur izan.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>9. Gorriak <hi rend='Italic'>Siamawa-</hi>n</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'><hi rend='Italic'>(azaroaren 11an, 1933)</hi></hi></p>
+<p><hi rend='Italic'>Kingyang-</hi>etik amazazpi kilometroko bidean dago <hi rend='Italic'>Siamawa </hi>eta <hi rend='Italic'>Sanxelipu</hi>-tik beste ainbeste gutxi gora bera. Aurreko egunean etorri izan zan Bartolome Aita bere misio-etxe nausira. Nik biaramonean (ilaren 12an) <hi rend='Italic'>Kingyang</hi>-en meza eman ondoan, <hi rend='Italic'>Sanxelipu</hi>-ra joan asmo nuen ango erretoreari bera kanpoan zan bitartean gertatu ziran guzien kontua ematera.</p>
+<p>Larunbata zan, ilaren 11; arratsaldean etxeko morroiak eta adiskide batzuek berri auxe ekartzen didate: lapurrak urbil dabiltzala eta uriko ateak ilundu bai&ntilde;o askoz lenago itxi zituztela, zer gerta ere. Nik orduan ezin ulertu nezaken orrenbesteko ixilki ta estuasuna; geroago bai, lapurren eskuetan erori ondoan, ulertu nuen, aiek argibidea eman zidatenean.</p>
+<p>Batzuek, lapurrak zenbait metroko bidean zirala zioten; beste batzuek, berreun kilometroko bidean zeudela. Biaramon goizean uriko ateak zaindurik zeuden, beste egunetan bezela. Nere bidaldia geroko utzi nezan, arren! eskatu zidaten nere morroiak; neska kristau-gaiak Fraduatar Frantzisko Aitaren berri galdetzen zidaten, lapurrak noiz ta nola arrapatu zuten ta ola. Nik erantzun nien: &laquo;Ain xuxen ere, atzo izan nituen <hi rend='Italic'>Yegnan/u</hi>-ko Vikariatotik eskutitzak eta aiek diotenez, soldaduak askatu dute Fradua Aita, naiz beso bat zauritua duen&raquo;.</p>
+<p>&laquo;Kontu andia izan zaiozu gero zere buruari, esan zidaten; ez al zaitzu zuri ere olako zoritxarrik gertatuko&raquo;. Nik irriparre batez erantzun nien; bai&ntilde;a ura irriparre gogoangarria! Andik bi ilabetera arte ez nituen berriz ikusiko nexka gaixo aiek eta bi ilabete aietan, gizonik azkar eta sendoena ere onda dezaketen neke gaitzak eraman bear nituen.</p>
+<p>Beti bezela, nere mando gai&ntilde;ean ninjoan ni; ingurumari guzi aietan ezaguna da nere mando ori; biurri xamarra, bai&ntilde;a txintxoa ta pixkorra. Bidean ez nuen oi-ez-bezelako gauzarik bat ere aurkitu, naiz bazter guzi aiek ispiaz, ixil-berrikariz beteak egon. <hi rend='Italic'>Sanxelipu</hi>-ra iristean, Meza sandua entzutera bildutako kristauak agur egin zidaten; gero nere mandoa artu ta guzia bakean zegoela esan zidaten. Bartolome Aitari bere eliztarrak atsegi&ntilde;a erakusten zioten etxera onik biurtu zalako; Isidro Anaia berriz etorria zan beste igandetan bezela eta <hi rend='Italic'>Sintxiajo</hi>-rako bear zituen zer batzuen prestatzen ari zan.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>10. Misio-etxe berri bat <hi rend='Italic'>Yuelo</hi>-n</p><--</head>
+        </front>
+        <body>
+<p>Iru misiolariok elkarri agur egin bezain laster, <hi rend='Italic'>Yuelo</hi>-ko misioari buruz izketan asi gi&ntilde;an; misio-leku egokia da orixe. Bi erretoreok iduri berekoak gi&ntilde;an: Ibar gora ta jator ta jendetsu artan misio-etxe bat eraiki genezake, ta on andia egingo luken etxea ala ere. Andik oso eroso zaindu ditzakegu <hi rend='Italic'>Luisejo</hi>-ko kristauak <hi rend='Italic'>(Yuelo</hi>-tik amasei kilometroko bidean) eta bai <hi rend='Italic'>Eultxiatsuang</hi>-ekoak ere (irurogei-ta-amar km.).</p>
+<p>Arazo ortaz su-ta-gar izketan ari gi&ntilde;ala joan zitzaigun arratsalde gogoangarri ura.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>11. Ondoko gauean... lapurrak!</p><--</head>
+        </front>
+        <body>
+<p>Bartolome Aitaren itz batzuek aipatuko ditut emen; Iru&ntilde;a-ko aldizkari batean agertu ziran erderaz (otsaila, 1934): &laquo;Azaroaren 12garren egun bereartan, igandean, baketsu afaldu genuen ilundu ondoan. Afalondoan iruok izketan geniarduela, ara non entzuten ditugun zaldi-laster-otsak. Morroien batek gure mandoak lotu gabe utzi zituelako ustean, jaikitzen gera zer ote dan ikusteko. Bai&ntilde;a puntu artantxe morroi bat sartzen zaigu tarrapataka erdi-jantzian, ikara aurpegian, oiuz diola: &laquo;Komunistak or dira kalean, gure etxetik eun metroko bidean&raquo;.</p>
+<p>Iru misiolariok esan genuen: &laquo;Goazen sagrariora!&raquo; Eta ara joan ziran arin bai arin nere lagunak. Nik bitartean ate aldera jo nuen kalean gertatzen zana nere begiz ikusteko. Lapur&aacute;k bertan zirala etsi nuen eta gau ura mundu ontako nere azken gaua izan zitekela gogoraturik, elizara joan nintzan lasterka gure Jauna artzeko asmotan.</p>
+<p>An ikuskizun eder zoraga&iacute;a ikusi zuten nere begiak: Bartolome Aita elizaren erdian, ostiontzi sandua eskuetan, doidoi zebilela; Isidro Anaia berriz kandela bat eskuan aldareko Jaunari argi egiten, belaunikatzen ta txutitzen Bartolome Aitak oarkabeko pausu bat eman aldioro. Nik oiuka nere apaizlagunari: &laquo;Jan itzatzu laster Ostia sanduak!&raquo; Ain biotz-ukitua zegoen Aita misiolari ura! Nik kopoia nere eskuetan artu eta Isidro Anaiak eta biok jaten ditugu Ostia guziak.</p>
+<p>Isidro Anaiak kentzen dit gero eskuetatik Ontzi sandua ta lasterrari ematen dio. Nik oiuka: "Ekarzu kopi ori garbi dezadan, mezan bezala&raquo;. Bartolome Aitak erantzuten: &laquo;Utzazu, orain eztago elizlege guziak betetzeko astirik; eta guk nai gabe utsen bat egin badezagu, Jainkoak barkatuko digu&raquo;. Eta Isidro Anaiak, kopi-kalizak arturik, Bilbo-ko Uribe-Etxerriatar Simon aita zanaren il-obian gordetzen ditu.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>12. Zer egingo degu?</p><--</head>
+        </front>
+        <body>
+<p>Bai, zer egingo degu? galdetu genion iruok elkarri. Gaua iluna zan eta iluntasun arek lagundurik iges egin genezaken bearbada eta ola gure biziak gorde. Bai&ntilde;a etzitaigun olako gogorapenik burutara etorri. Nola iges egin gure Aurtzaro-Sandutegia ta bertako ogei-ta-amar nexkak bertanbera utzirik?</p>
+<p>Nexka gaixo oiek misiolaria beste estalperik eztute munduan, misiolaria dute beren aita, beren aita-ordekoa, beren azlea, eta ez beste aldetan bezela animaren aita bakarrik. Elizaren gauza bezela dira, berak ere olakotzat dauzkate beren buruak bai orain ta bai geroago ezkondu ondoan ere. Elizak zaindu ta begiratu bear ditu beren galbide ta arriskuetan aita batek Europan edo Amerikan bere alaba maiteak zaindu oi dituen bezelaxe.</p>
+<p>Orduan esan nien nere bi lagunai joateko berak igesi, ni geldituko nintzala nexka aien zai. Ba&ntilde;a Bartolome Aitak, eginbideko gizona baita oso, bereala erantzun zidan: &laquo;Ni naiz emengo erretore, neri dagokit Aurtzaro-Sandutegiaren zaintzea. Ni ez naiz emendik joango, zuek egizue nai dezuena&raquo;.</p>
+<p>Bartolome A. orren gogor ta etsia ikustean, alper iduritu zitzaidan geiago ekitea; bai&ntilde;a bera alako galbidean bakarrik utzi bearrak min ematen zigun ta bere aldean gelditu gi&ntilde;an. Biok ango egur-pila batean gorde gintuen gure erloju ta ur&aacute;ts-neurriak, Isidro Anaiak berriz, galtzerdi barruan sartu zuen berea.</p>
+<p>Gure izketaldi ura bukatu ta zenbait gauza prestatu ondoren, Aurtzaro-Sandutegira aldatu gi&ntilde;an eta an arkitu gintuen emakume ta nexka gaxoak zoko batean kuzkurturik, fusil-bunpada ikaragarri aietaz izuturik. Antxe geunden begira zer gertatuko ote zan gau bereartan gure etxean ta geren baitan ta batez ere aur aien baitan, aiek zaintzeagatik geren bizia ere galtzeko arriskuan jartzen gi&ntilde;ala.</p>
+<p>Gaueko zortziak edo ola ziran; ilargirik etzan ageri; gau iluna zan, zeruan izar bat edo beste. Karrikan entzuten ziran oraindik ere lapurren karraxiak, mi&ntilde;etan zeuden jenden aiotsak fusil-bunpadak, ezpata-kirrinkak. Uraxe kenka estua.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>13. Argi-izpi bat ilunben erdina...</p><--</head>
+        </front>
+        <body>
+<p>Oraindik ez genekien nonbait ango berririk aski ta argatik esaten genion elkarri: &laquo;Agian eztira elizarai&ntilde;o iritxiko, kanpotarrak geralako lotsa izango digute bearbada&raquo;. Bai&ntilde;a zoritxarrez! laster ikasi genuen besterik zala.</p>
+<p>Asi dira gure ate andian dinbi-danba jotzen; bagoaz idikitzera; bai&ntilde;a gu ara orduko zabaldu da atea. Beren nausia non dan galdetzen diegu, arekin itzegin nai genuen ta. Alperrik ordea; ezin diteke itz garbirik entzun; karraxiak, arma-ots-ak ta meatxu gogorrak besterik ezta an nabari. Gure eriotzeko ordua dugula uste dugu, mundu ontako azkena. Belaunikatzen naiz eta Bartolome Aitak asolbitzen nau; gero nere bi lagunok belaunikatzen dira ta nik asoluzioa ematen diet. Etzegoen konfesatzeko betarik.</p>
+<p>Gu ikusi orduko, gai&ntilde;era oldartzen zaikzigu beren pistola ta fusilak gugana zuzenduz ta beren lastargiez argi egi&ntilde;ez. Ilun artan, ni ez nintzan oartu nere bi lagun maiteai zer egin zieten ta neroneri egin datena kontatuko dut.</p>
+<p>Lenengo urbiltzen zaidanak buruan dudan euskaldun-txapel kentzen dit; asarretzen naiz, txapel ura Tolosa-ko txapelgin Elosegi Jaunak berberak emana dudala ta uzteko neri txapela, esaten diot; bai&ntilde;a alperrik, komunistak eztute olako izkuntzarik aditzen. Bigarrenak nere lepo inguruko bufanda kentzen dit. Lapur lotsagabe orreri oiu egiten diot eta katarro gaitz batekin nagoela esaten diot. &laquo;Ba, gu ere otzak geudek!&raquo; erantzun zidan. Jaki&ntilde;a, nor-bera besteak bai&ntilde;o lenago izaki. Irugarrenak, zaldiz joatean txinatar jantzi lasaia lotzeko ibiltzen dudan ugala kendu nai dit. Ugal ori bearrezkoa dudala esaten diot; bai&ntilde;a lapur tzarrak &laquo;ez gero neri adarra jo!&raquo; erantzuten dit. Laugarrenak zapatila berri-berria, egun bereartan mustua kentzen dit eta nik eztut txintik ateratzen; gero bestea kendu nai dit. Orduan nik lurra azkar joaz: &laquo;Bego-o&ntilde;a!&raquo; oiu egiten dut, nere Bilbo ondoko Ama Birji&ntilde;ari dei egi&ntilde;ez. Eta bai Ama Birji&ntilde;ak laster erantzun ere, osturiko oi&ntilde;etakoa itzultzen didate ta. Boskarrenak nere betaurrekoak kendu nai dizkit. &laquo;Ez, beaurrekoak ez, esaten diot gogorki; oiek gabe eztut ezer ikusten, utsa naiz&raquo;. Etzidaten itzez erantzun, bai ordea egitez: tresna zorrotz batez izugarrizko kakarrekoa jo ziten buruan. Orduan aiek nai zutenera jarri nintzan. Zauritua nintzan, nere aurpegia odolez estalia zegoen; euskaldun-argentinatar odolez busti zan Txinako lurra. Betaurrekoak eraman zizkidana aiekin ezer ikusten etzuela oartu zan laster, ta atzera ekarri zizkidan. Gaitzerdi ala ere!</p>
+<p>Olatsuko garbiketa egin zioten Bartolome Aitari ere, ez ordea Isidro Anaiari. Anai begi-erne onek, nere tolosar txapelari gertatua ikustean, bere napar txapeltxoa ezkerreko sakelan gorde egin zuen. Bai&ntilde;a zer gertatu zitzaion? Arako Etxebarrigorrigoikoerrotabarrikoetxea euskaldun argentinatarrari gertatua: bere soi&ntilde;ekoak gorde, bai ta bera Mar de Platan ito egin zan. Isidro Anaiak ere bere txapel maitea gorde zuen sakelan sartuz; bera ordea Erensuge Gorriaren menpean gelditu zan.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>14. Lapurrak zaldi eske</p><--</head>
+        </front>
+        <body>
+<p>Orduko naspila ta iluntasun artan iru misiolariok elkarrengandik zerbait berezi gi&ntilde;an. Beingoan Bartolome Aitak oiu egiten dit: &laquo;auek zaldi eske ari zaizkit&raquo;.</p>
+<p>&#173; &laquo;Ez esan bada non dauden&raquo; erantzun nion.</p>
+<p>Eta nik nere aldetik esan nien lapurrai: &laquo;Guk eztugu zaldirik&raquo;. Ta alaxe zan egia; lau mando ta astotxo bat baditugu bai&ntilde;a zaldirik ez.</p>
+<p>Bartolome Aitak berriz ere: &laquo;Gure abereak ematen ezpadizkiegu, ilko nautela diote. Eta olako tzarkeria egiteko beldur gutxi lapur biozgabe auek&raquo;. Nere anai gaxo artaz arduratan jarri nintzan eta aren inguran zegoen lapur-taldeari nerekin etortzeko esan ta okulura eraman nituen. Gero nere lagunengana itzuli nintzan atzera.</p>
+<p>Orduko etxe guzia bipiltzen asiak genituen, ateak autsi, kristalak puskatu ta etxeko zer guziak azpikoz-gora irauliz. Armak eta dirua ta kartutxoak nai zituzten batez ere. Eizarako ezkopeta kaxkar bat beste armarik etzegoen; ikusi zuten ura, bai&ntilde;a bertan utzi zuten. Dirua berriz, dolar batzuek ez beste guzia morroiak gorde izan zuten leku seguruan, Bartolome Aitaren aginduz. Oiu bat entzuten dut, Bartolome Aitarena: "Ai! lotzen ari naute!&raquo; Geroxeago orixe berorixe esaten du Isidro Anaiak. Ni lokabe (libre) nengoen oraindik, bai&ntilde;a lapurrez inguratua ta beste misiolariengandik piskabat aldendua.</p>
+<p>Gauzak zertan ziran ikusi ta iges egitea besterik ez neukan, misio-etxean ezer egiterik etzegoen ezkero; Aurtzaro-Sandutegia ta nere bi lagunak Jainko guziz onaren kontura utzi bearko; ni an egon edo ez egon berdin zan, ezer egin ez nezaken ta. Bai&ntilde;a laster nere gain ere erori ziran lapur tzar aiek eta lotu ninduten besteak bezela. Bartolome Aitak auxe idatzi zuen geroago: &laquo;Oldarrean erori ziran gure gai&ntilde;era, eutsi ziguten gogorki ta gure lotzen asi ziran. Etzuten ordea asmatzen gure lotzera, ain tarrapataka ari ziran ta. Eta obena guk bagenu bezela, Isidro Anaia ta biok sabelean jo ginduzten zanpa zanpa. Lokarriak estu estu lotu zizkiguten, ezin eraman alako oi&ntilde;azeak ikusarazten zizkigutela. Isidro Anaiak larri esaten zuen bein ta berriz: &laquo;Baldin laster askatzen ezpanaute, besoak ondatuko dizkidate&raquo;. Bi apaizok, naiz gerok ere loturik egon, gure anaitxo aren oi&ntilde;azetaz errukiturik, ura bederen askatzeko eskatu gehien lapurrai. Bai&ntilde;a aiei eskatzea ta otoitz egitea alperrik zan.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>15. Mendizulora bidean</p><--</head>
+        </front>
+        <body>
+<p>Orrela lotu ta uzkaldurik misio-etxetik atera ginduzten. Etxean gure morroi bat ere ageri etzala esan bearrik eztago; guziak igesi joanak ziran, bein Apostoluak Jesus loturik ikustean igesi joan izan ziran bezala. Andik kilometro erdiko bidean zegoen mendizulo batera eraman ginduzten. Gaueko zortzi t'erdiak edo ziran.</p>
+<p>Gu errian barna igarotzean etzan kristaurik ageri; jende gabeko etxe-multzu bat zirudien erriak ta izan ere alaxe zan gizon basa aiek an sartzearekin erritar guziak igesi joan ziran ta. Mendizuloan mandarinato artako beste atxilo (preso) batzuek arkitu genituen. Aietako bat zanpa zanpa jo zuten gure aurrean; bai ikusteko pozgarria uraxe guretzat!</p>
+<p>Eztakit zenbatsu denboraren buruan sartu iztzaigun mendizulora gizon bat, bere itxuran, izketan eta jantzian besteak ez bezelakoa. Adeitsu mintzatu zitzaigun ta berak etzirala lapurrak esan zigun. &laquo;Ez! esan zuen berriz ere, gu ez gera i&ntilde;olaz ere lapurrak, gu <hi rend='Italic'>hung chiung</hi> edo soldadu gorriak gera; edozein erlijiori, berdin katolikoari ta berdin protestanteari, gorrotoa diogu, erlijioa zorakeria ta aemts bat besterik eztala badakigu ta. Ala ere, ez beldur izan. Auxe bakarrik eskatzen dizuegu: dirua, ta gure gorputzak estaltzeko berogarriak, negu otza bertan da ta&raquo;.</p>
+<p>Guk erantzun genion: &laquo;Begira, gu misiolari ta erlijioso geranez, beartsuak gera ta dirurik eztugu&raquo;. Bai&ntilde;a arek etzituen gure itz oiek aintzat artu.</p>
+<p>Itxura ta jantzi oneko komunista ura nor zan ez genekien guk gau artan, bai&ntilde;a ondoko egunetan ikasi nuen nor zan eta bai bere biziaren berri ere. Soldadutalde gorriaren agintzaria bera zan gure ikustera etorri zan ura. Aurren aurrena eskatu genion gure lokarriak pixka bat lasatzeko, gure zain ta zaintxuriak geiegi estutzen zituztela ta. Ura, bere mendeko gogorrak bai&ntilde;o biotz-berago izan nonbait, eta guri eskumuturrak askatzeko agindu zuen. Ala ere besoak soka lodiz lotu zizkiguten eta soka oien muturrak soldadu batek; zeuzkan, iges egin ez genezan. Agintari ura beste bein etorri zitzaigun mendizulora mandoen tresnak non gorde genituen galdetzera. &laquo;Agerian daude bada&raquo; esan genien; eta gero Bartolome Aitak guri erderaz: &laquo;Askatzen banaute, laster asko arkituko ditut nik&raquo;.</p>
+<p>Geroxeago sartu zituzten mendizulora gure misio-etxean ostutako zerak: gurutzeak, meza-jantziak ta abar.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>16. Erriko polizia-lekua</p><--</head>
+        </front>
+        <body>
+<p>Lapurrak eta nere atxilo-lagun batzuek geroago jakin-arazi zidatenez, gorriak bi aldiz izan zuten lenago ere <hi rend='Italic'>Sanxelipu</hi>-ra joateko asmoa; bai&ntilde;a etzuten beren asmo ori bururatzeko erarik izan, erriko polizia-gizonak garaiez konturatu ziralako. Bai&ntilde;a irugarren aldian nausi atera ziran. Ona emen nola.</p>
+<p>Lapurrak <hi rend='Italic'>Tungtsuang </hi>inguruan, <hi rend='Italic'>Xingpu</hi> ta <hi rend='Italic'>Simawan</hi> artean zebiltzela jakin zan azaroaren 11an. <hi rend='Italic'>Tungtsuang-</hi>eko poliziak, bere eginbidea zanez, mandatari bat bidali zuen <hi rend='Italic'>Sanxelipu-</hi>ra agindu zorrotz au emanez: Eraman bear zuen mandatua presakakoa zala eta egun artan bereartan joateko <hi rend='Italic'>Sanxelipu-</hi>rai&ntilde;o. Bai&ntilde;a mandataria bear bai&ntilde;o astiroago ibili zan nonbait; bidean ilundu zion eta <hi rend='Italic'>Sanxelipu-</hi>tik zenbait kilometroko bidean lo egin zuen. Biaramonean (azaroaren 13an) argitu ondoan iritxi zan <hi rend='Italic'>Sanxelipu-</hi>ko polizia-lekura; bai&ntilde;a beranduegi zan, orduko guzia lapurren eskuetan zegoen.</p>
+<p>Polizia bera arritu zan geiena lapurrak sartzean; ala ere beren armak eta biziak gordetzeko era izan zuten. Gu andik igarotzean, bandera gorria goratua zan polizia-etxean.Polizia-buru Tzu koronela mirariz atera zan bizirik bera lotu nai zuten bi lapurrekin burruka gogorra egin ondoan. Baldin lotu balute, burua moztuko zioten; bera bezelako beste batzuei olaxe ebaki zieten neronen aurrean.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>17. Beste mendi-zulo batera</p><--</head>
+        </front>
+        <body>
+<p>Bartolome Aitak onela idatzi zuen: &laquo;Goizeko ordu bietan atera gi&ntilde;an mendizulotik atxilo guziok lapurren erdian beste leku seguruago batera joateko noski. Ura ibilketa neketsu eta iluna! Iltzera generamaztela begitandu zitzaigun. Ixiltasun itzala! Nagusien aginduz etzuen i&ntilde;ork itzik egiten. Guk bakarrik egiten genuen itzen bat edo beste gure aurrean gertatzen ziranak gora-beratuz. Mamuak zaldi gai&ntilde;etan eta sorgin-prozesio bat ikusten genuela zeritzaigun. Mando ta astoen gai&ntilde;ean emakume asko ere bazijoazela iduritu zitzaigun eta elkarri esan genion: &laquo;Auek ederki zuzendu dituzte beren gauzak, beren familia ere berekin dakarte ta&raquo;. Alako zoritxarreko zama bizkarrean zeramaten amando aien artean gure iru mando ere ezagutu genituen. Uraxe mingarria: guk alako arduraz ta maitasunez zaindutako abere aiek ortara bear!</p>
+<p>Nere mandotxo kilikabera ta bixia ez genuen ikusten ala ere. &laquo;Iges egin ote du?&raquo; esan genion elkarri. Bai&ntilde;a ez, an zegoen, beste nausi batek zeraman, etzan ordea ausartzen gai&ntilde;era igotzen; ain asarre zegoen mando gaxoa berak nai gabe nausi berria eman ziotelako.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>18. Kaputxino parragarria</p><--</head>
+        </front>
+        <body>
+<p>Ibili ta ibili baginjoazen aurrera eta gure buruai ta gure gauzai egiten zitzaien bidegabeaz itzegiten ari gi&ntilde;an naigabeturik. Beingoan, ikusteko parragarri bat jartzen zaigu begien aurrean; nere irakurleai ere parra eragingo die noski. Lapur aitetako bat, luze ta lodia bera, kaputxino egi&ntilde;ik ageri zan. Nolatan bada? Lapur arek <hi rend='Italic'>Sanxelipu</hi>-n Bartolome Aitak zuen fraile-jantzi bakarra ostu izan zion eta lotsarik gabe jantzi. Bai&ntilde;a Frantziskarren oiturarik ez jakin gizonak eta atzekoz aurrera jantzi zuen gure soi&ntilde;ekoa txoti&ntilde;oa aurre aldera eta bularrekoa berriz bizkar aldera. Asarratu nintzaion alako itsukeriaz eta batez ere gure soi&ntilde;ekoa jantzi etzuelako gure Aita Frantzisko Sanduak agintzen duen bezela.</p>
+<p>Amabien bat kilometro ibili ondoan, goizeko bostak aldera <hi rend='Italic'>Sintxiwatze </hi>izeneko erritxo batera iritxi gi&ntilde;an. An beste mendi-zulo, lengoa bezain otz eta zakar batean sartu ginduzten. Gure zaintzaleak erne begira zegozkigun beti eta gai&ntilde;era, gizon armatuak baziran zuloaren sarreran. Lagun asko etorri zitzaizkigun ara ikusmiran batzuek lapurrak ziran, beste batzuek, erriko jendeak. Auek arritu ziran gu ain gaizki erabiltzen ginduztela ikustean; misiolariai, txinatarrai ez bezela, nonnai begirune andia erakusten zaie ta.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>19. Lenengo jatordua</p><--</head>
+        </front>
+        <body>
+<p>Soldadu gorri auek izugarrizko jale gaitzak dira, beren barruan ezin-bete-alako zorro bat dutela dirudite. Egunean zortzi edo gehiago aldiz jan ta ala ere beti goseak. Alde guzietan janari-keta gaitzak iresten zituztela oartu gi&ntilde;an.</p>
+<p>Gure bigarren mendi-zulo artan gogotsu ari ziran jaten eta lenbizian etziguten ezer eskaintzen. Nik, egia esan, ez nuen jateko gogo andirik, bi&ntilde;a ala ere jan nai nuen gero zer zetorkigun banekielako. Lapur-agintariak <hi rend='Italic'>(Wan tai txi</hi> du izena) galde batzuek egin zizkigun eta oietatik atera genuen oso urruti eraman nai ginduztela eta gai&ntilde;era bi de malkar ta basa-lekuz. Eta ongi jan-ezik, bide luzeak gogor erasaten didala badakit nik, nere kostuz ikasita.</p>
+<p><hi rend='Italic'>Orthonia </hi>ta <hi rend='Italic'>Yegnanfu</hi>-ko misiolarien ezaguera ba ote dugun galdetu zigun; lenengo errialde ura Txinatar Arresiaren iparraldean dago eta <hi rend='Italic'>Sanxelipu</hi>-tik oso urrun beraz; eta <hi rend='Italic'>Yegnanfu</hi> are urrunago bearbada. Ilabete bat aurretik ibili nintzan bazter aietan eta banekien ongi zenbateko bidea dagoen arai&ntilde;o.</p>
+<p>Azkenez, bederatziak aldera, <hi rend='Italic'>txiaomi </hi>edo Arabia-garizko zukua eskai&ntilde;i ziguten. Nere bi lagunak doi-doi mustatu zuten; nik, jateko ta jateko esan nien eta ez esan bakarrik, baita neronek azkar janez erakutsi ere. Alperrik ordea! Jateko-txotxak katiluan utzirik, an zeuden nere lagun gaxoak, gogoeta ilunetan pulunpatuak. Nik nere aldetik uste nituen eztakit zenbat katilu, bai&ntilde;a filosofo-gisa jaten nuen.</p>
+<p>&laquo;Jan zazue, esaten nien nere lagun errukarri aiei; orain baduzue jatekoa ta jan zazue; ibilketa luzea egin bearko dugu agian eta non afalduko dugun eztakigu&raquo;. Bai&ntilde;a aiek, laster etxera itzuli bear zutela etsirik baleude bezela, etzuten jaki erresumindu ura jan nai.</p>
+<p>Isidro Anaiak, bere buruari poliki eragi&ntilde;ez, ola zion: &laquo;Ostu dizkiguten mandoen gai&ntilde;ean eramango gaituzte eta patxada ederrean joango gera&raquo;. &mdash;&laquo;Bai zera, erantzun genion; S. Frantziskoren kotxean eramango gaituzte&raquo;. Eta alaxe gertatu zan.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>20. Larrai&ntilde;ean</p><--</head>
+        </front>
+        <body>
+<p>Amaikak aldera mendi-zulotik atera ta abiarazi ginduzten. Gero, <hi rend='Italic'>Huo na va</hi> izeneko larrain batean tenk egin genuen. Agindu zigutenez inguru inguru jarri gi&ntilde;an eta atxilo (preso) guziak alde batera berexi gi&ntilde;an, aur asko ere ikusi genituen, gaxo errukarriak! Atxilo ezezagun aien artean bazan aguretxo bat, zaar-okitua, astotxo baten gai&ntilde;ean zijoan ta ala ere eutsi bear zioten. Jende gaxoak, kupide gabe beren etxetatik ateraziak! Agurea bere abere txarretik jetxiarazi ta gurekin batean inguruan jarrarazi zuten.</p>
+<p>Orduan gure azken ordua iritxi zala etsi genuen. Ilko ginduztela etsirik zeuden atxilo guziak. Batzuek lapurren aurrean belaunikatu ziran erruki eske. Beste atxiloak iltzen ikustea nazkagarri zitzaidan. Neronen eriotza berriz onela begitandu zitzaidan: Erromako Eliza Ama Sanduak erakusten digun erlijioaren kontrako zerbait egiteko aginduko digute noski lapur auek. Guk gure gogo biotz osoaz gogor egingo diegu, ez gera i&ntilde;olaz ere olako gauzarik egitera jarriko eta argatik ilko gaituzte gogoapen oietaz alaiturik auxe genion geren baitan: gaurko eguzkia itzali orduko, Euskalerriko Kaputxinoen Probintziak eta Argentina-Txileko Komisariatoak iru martiri izango dituzte zeruan.</p>
+<p>Bai&ntilde;a ez gi&ntilde;an agi-denean aski onak eta ez genuen olako zorionik irabazi. Guzi ura komedia utsean gelditu zan.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>21. &mdash;Geldialdia&mdash; Turba multa</p><--</head>
+        </front>
+        <body>
+<p>Gauez eta mendi-zuloetan geunden bitartean, inguru aietara etorritako lapurrak zenbatsu ziran ez genuen nabaritu; ba&ntilde;a gero eguna zabalduta argitara irten gi&ntilde;anean, oartu gintzaien. Laureunen bat bazirala jo nuen eta guziak fusilez armaturik zeuden.</p>
+<p>Milaka lapur ikusi izan nituen nik lenago, Txengkuitxang zanaren ta Juan-tai-kui-ren mendean zebiltzenak; aiek ordea makilez ta aizkoraz ta ezpataz armaturik ibiltzen ziran, zenbait fusil ere bazituzten, bai&ntilde;a geienak gorri auek berriz soldadu-talde gaitza egiten zuten, ongi armaturik zeuden ta.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>22. Lapur-buruekin izketan</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Italic'>Sintxiajo</hi> erriaren ondoan, ipar-itzaldera (NW.) badago mendizka bat eta artara buruz abiatu gi&ntilde;an berriro. Mendian gora ginjoazelarik, zenbait jende ikusmiran urbildu zitzaizkigun itzegitera, aien artean gizon eskoladun ta asko-ikasi bat. Onek maitetsu samar itzegin zigun, nongoak gi&ntilde;an eta zer lanetan ari izaten gi&ntilde;an galdegin zigun. Gorrien artean eskubide aundia bazuela zirudien. Txina guziko komunisten berri ere bazekien; ontaz arritu gi&ntilde;an lenbizian, bai&ntilde;a laster ikasi genuen zer zan: alegia, nik bezperan <hi rend='Italic'>Kingyang</hi>-etik eramandako eskutitzak ostu ta irakurri izan zituen lapur arek eta an ikasi zituen berri aiek.</p>
+<p>Lapur-buruekin itzegin bearra geneuken zer asmo zuten ezagutzeko, kezka estuan geunden ta. <hi rend='Italic'>Sanxelipu </hi>bipildua ta soildua zegoen, ango Aurtzaro-Sandutegiaz eta bertan egindako zakarkeriaz berririk bat ere ez genuen eta misiolaria laster atzera etorri ezik guzia galtzeko arriskuan gelditzen zan. Gai&ntilde;era <hi rend='Italic'>Sinkiajo</hi>-n Isidro Anaia elizatxoa goratzen asi zan; azkenez, <hi rend='Italic'>Kingyang</hi>-en ere zenbait langile lanean ari genituen eta aiek etzuten jakingo nora jo misiolariak etortzea luzatzen bazuen. Guzi orrengatik bada, iruetako bat bederen lenbailen lokabe (libre) gelditzea komeni zitzaigun. Laster artu genuen asmo auxe: ni geldituko nintzan lapurren atzaparretan.</p>
+<p>Gurekin etorritako lapur maitetsuari gure naikaria agertu ta agintariari itz egin nai geniola esan genion. Ura gogotik jarri zan gure bitarteko izatera. <hi rend='Italic'>Lui txia miao</hi>-ra iritxi bezain laster guziak tenk egin zuten; lapur buruak lurrean kokoriko jarri ta gu deitu ta gu ere alaxe eseriarazi ginduzten.</p>
+<p>Agintari aietako bat ere ez genuen guk orai&ntilde;o garbi ezagutzen eta guzien buru nor zan galdetu genuen. Len aipatutako Wan tai txi agintariak auxe erantzun zigun: &laquo;Emen guziok anaiak gera, guziok berdi&ntilde;ak eta nagusirik eztugu beraz. Komunistak geran aldetik, nausitasuna guziena da, ez bakar batena...&raquo;</p>
+<p>&laquo;Zei&ntilde;ekin itzegin bear dugu bada?&raquo; galdetu genion. Eta arek atzera: &laquo;Emen gauden guziokin&raquo;. Eta gero, len, mendi-zuloan esandakoa bera esan zigun berriz: &laquo;Gu ez gera lapurrak, komunistak gera; jende zintzo ta asmo onekoa, erlijio guzien etsai; beartsuak bai, bai&ntilde;a gisakoak; guzien bearra badugu; soi&ntilde;eko, sendagai, jateko ta abar. Idatzi zaiezue zuen aide ta ezagunei bidaltzeko dirua ta guretzako emaitzak; ori egin ezkero, ez beldur izan&raquo;.</p>
+<p>Azken itz auek oso mamitsuak ziran; oietatik, oraindik luzaro atxilo (preso) egon bearko genuela atera genuen, gutxienez Txinatik Europara joan ta etorri egiteko bear dan denboraz bai.</p>
+<p>Bereala arek esan zigun labur ta garbi: &laquo;Ots, emaizkiguzue <hi rend='Italic'>berrogei mila</hi> dolar ta joaten utziko zaituztegu&raquo;. Guk, iruok batera erantzun genion: &laquo;Ezin, ezin ta ezin! Eztugu orrenbeste diru ez Txinan, ez Europan ta ez Ameriketan&raquo;. Gero gure lagun edo diruzaien berri galdegin ziguten. Aurretik gertu geneukan erantzuna: Gu diru-kontuetan geren buruen jabe gerala, ortan eztugula beste misiolariekin ikustekorik bat ere, guk bai beste i&ntilde;ork etzekiela gure gauzen berri, eta etzezagukela dirurik ez beste gauzarik bidali; ezer nai bazuten, gerok eman bear geniela eta artarako geren misio-etxetara joan bear nai ta nai ez. Gai&ntilde;era esan genien: &laquo;Guk dirurik ezin eman dugu, oialak eta sendagaiak bai bidaliko dizkitzuegu eta gure mandoak atzera biur badezazkiguzue, seireunen bat dolar biribilduko ditugu bearbada zuei emateko&raquo; (Txinako dolarrak Argentinako pesoaren balioa du). &mdash;&laquo;Mandorik eztizuegu itzuliko, ez orixe&raquo; esan ziguten. &mdash;&laquo;Guk ere eztizuegu bada dirurik emango&raquo; erantzun genien.</p>
+<p>Azkenean, alde batera ta bestera jarduki ondoan, bosteun dolareko eskuerakutsiak egingo genizkiela itzartu gi&ntilde;an, bai&ntilde;a ori gu lokabe (libre) uztekotan. &laquo;Guk, misiolariok, beteko dugu emandako itza, esan genien; egiazale ta zintzo ta itzeko gizonak gera, bein emandako itza eztugu jaten. Ala ere si&ntilde;etsi nai ezpagaituzue, ortxe duzue emendik bertan <hi rend='Italic'>Luisejo</hi>-ko elizatxoa; ortaz nai duzuena egizue, baldin itza jan badezagu&raquo;.</p>
+<p>&mdash;&laquo;Ez, ez! esan zuten guziak batera; zuek ziria sartu nai diguzue, ziria sartu&raquo;. Eta gero: &laquo;Isidro Anai langilea joan diteke; bai&ntilde;a bi apaizok emen geldituko zerate&raquo;. &mdash;Guk atzera: &laquo;Ezin diteke ori. Anai orrek eztaki ongi alderdi ontako izkera eta ezta ongi adituko jendekin&raquo;. Orduan Bartolome A. ere lokabe uztea etsi zuten. Eta bereala askatu zituzten biok.</p>
+<p>Ni nerez pozik nengoen gauzak ola atera ziralako. Bi misiolari lokabe zeuden; oiek kontu izan zezaieketen <hi rend='Italic'>Kingyang</hi>-barrutiko iru misio-etxeai, Aurtzaro-Sandutegia zaindu ta langileak zuzendu. Nere bi lagun oiek emandako itza albait lasterren beteko zutela banekien; bai&ntilde;a ala ere, ez nuen etxera biurtzeko uste andirik eta ondoko egunetan ikusi nuenak sendortu ninduen ez-uste ortan. Lapurrak auxe nai zuten noski: lenbailen zerbait diru eskuratu, gutxi edo asko; eta gero... berriz geiago eskatu.</p>
+<p>Bartolome A. eta Isidro An., askaturik, lapurrekin izketan ari ziran; Isidro Anaiak ogei ta zortzi urte zituela esan zien; parre egin zuten, adin ori izateko zurratuegi zegoela zeritzaien ta. &laquo;Ederki ler eragin diote lanean gaxoari!&raquo; zioten. Etxegilea dala bazekiten, <hi rend='Italic'>Kingyang</hi>-en zenbait etxe egin baititu eta <hi rend='Italic'>Sintxiajo</hi>-ko sakanean elizatxo bat goratzen ari baitzan orduan; orko langilen artean batzuek gorrien zelatari ziran. Auek kontatu zizkieten lapur-buruai Isidro Anaiaren biziera ta aziorraziak eta oso gora jarri zuten. Berari esaten zioten ez beldur izateko, beti Txinan egoteko eta soldadu gorrien artean sartzeko, guziak oso ongi artuko zutela alako langile argi ta bizkorra zalako. Isidro Anaiak <hi rend='Italic'>jao jao jao</hi>-ka eskerrak eman zizkien; bai&ntilde;a bera komunista egitea... ori gorabera andiko gauza zala... ta pentsatuko zuela zer egin.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>23. Nere utsegi&ntilde;ak aitortzen</p><--</head>
+        </front>
+        <body>
+<p>Nere lagunak lokabe(libre) ta nere burua loturik ikustean, gogora etorri zitzaidan beingoan, misiolari asko-ikusi batek aspaldi egin zidan eskutitz bat; ortan, beste gauza on askoren artean, auxe esaten zidan:</p>
+<p>&laquo;Aita, zain zazu ongi zure osasun baliotsua eta batez ere erne ibili komunisten eskuetan ez erortzeko. Aien menpean erori diran askok beren osasuna galdu dute; geienak misio-lanetarako gauza eztirala gelditzen dira, asko erotu ere egin dira. Bizpairu urte gorrien artean egondako misiolariak beren etxetara erdi-eroturik etortzen ikusi ditugu&raquo;.</p>
+<p>Ez nekien misiolari apaizik berriz ikusiko ote nuen eta ikusita ere, zintzorik gerta ere, azken orduko konfesioa egitea erabaki nuen; nere bizi guziko konfesioa jende guzi aren aurrean. Zenbait ordu lenago artua nuen asoluzioa <hi rend='Italic'>Sanxelipu</hi>-n ilabete bat lenago nere bizi guziko konfesioa egi&ntilde;a nuen <hi rend='Italic'>Yegnanfu</hi>-ko Frantziskarren etxean. Ala nenbilen aldi guzi artan, beldurretan, eriotza urbil nuelako ustean.</p>
+<p>Konfesatu nai dudala esaten diot Bartolome Aitari. Bai&ntilde;a onek, bear bai&ntilde;o andiagoko beldur batek artu nauelako ustean, esaten dit: &laquo;Utzi orain gauza oiek, kendu gogorapen ilun guziak; gaur berean ekarriko dugu zure eros-saria ta biar elkarrekin egongo gera misio-etxean. Ala ere, konfesatu nai baduzu...&raquo;</p>
+<p>Isidro Anaia lekutu zan zenbait metro eta nik umetatik asi ta orduantxe arteko nere utsegin guziak aitortu nizkion Jaunaren ordezkoari.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>24. Nere azken-naia</p><--</head>
+        </front>
+        <body>
+<p>Nere animako gauzak zuzendu ondoren, mundu ontakoak ere zuzendu bear nituen. Isidro Anaiari erakutsi nion nola zaindu bear zuen misioa ni kanpoan nintzan bitartean eta etxeko arasa guzien giltzak eman nizkion. Bartolome Aitari esan nion, bein Polikarpo Sanduari Antiokiako Inazio Sanduak bezela, nere kristauetaz ardura izan zezala. Gero elkarri eskuak estutu ta agur esan ondoan, abiatu gi&ntilde;an: aiek, mendian beera; ni, mendian gora.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>25. Gogoeta ilunak... Aupa!</p><--</head>
+        </front>
+        <body>
+<p>Nere burua bakarrik ikustean, gogorapen ilun auek burutara etorri zitzaizkidan: &laquo;Bear-bada eztitut berriz ikusiko or mendian beera doazen nere bi lagun oiek, ez <hi rend='Italic'>Lungtung</hi> ibarreko beste misiolariak, ez Euskalerriko kaputxinoak, ez Txile-Argentina-ko erlijioso laztanak, ez nere senide, aide ta adiskide kutunak, ez nere biotz-biotzeko Euskalerria, ez nere Argentina ta Txile maiteak&raquo;.</p>
+<p>Gogoeta oiekin biotza autsi zitzaidan eta bai begiai malkoak jario ere. Atxilo (preso) dagoen misiolaria galbidetan sartua dabil beti ta ez jakin bere burua berriz lokaberik ikusiko ote duen. Nere begietatik atera naiez zeuden malkoak etzirala arrazoigabekoak, beroak esan zidan. Orduan ala ere, gogora ekarri nituen gure Aita Frantzisko Sanduak bere semeoi agindu zigun <hi rend='Italic'>egiazko poztasun, </hi>batez-ere larri-orduetan erakutsi bear dana ta Loiolako Inazio Sanduak irakasten digun bigarren apaltasun-maila; eta gogorapen ortaz alaitu ta bizkortu nintzan berriro. Geroztik, lapurren artean egon nintzan denbora guzian iraun zidaten alai ta bizkortasun oiek, nere bi Snadu oiek lagundu ta noski.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>26. Isidro Anaiaren joan-etorriak</p><--</head>
+        </front>
+        <body>
+<p>Joan-etorri oiek ez nituen nik nere begiz ikusi; Bartolome Aitak onela kontatu zizkigun bi-biziro: &laquo;Nere misio-etxera, <hi rend='Italic'>Sanxelipu</hi>-ra iritxi bezain laster, bilatu nituen bereala bi asto eta Isidro Anaia ta morroi bat gai&ntilde;era igo-arazirik, aurrera bidali nituen. Aiek nolako beldur ta leiaz joan ziran esan bearrik eztago. Gau beranduan iritxi ziran <hi rend='Italic'>Kingyang </hi>urira, bai&ntilde;a ezbear andi bat ikusi zuten: amabien bat metroko arresiaz inguratua dago uria ta ateak itxirik zeuden.</p>
+<p>Morroiak adiarazi zion atezaiari zertara zetozen ta presaka zebiltzela ta idikitzeko atea; bai&ntilde;a alperrik, atezaiak ezezkoa eman zien; ala ere, arresian gora igo nai bazuten, igotzeko. Etzan errax orixe, bai&ntilde;a zerbait egin bear, den gutxiena luzatu-ezkero, Fernando Aitak bizia galdu zezaken ta. Norbait urrikladu zitzaien eta arresi gai&ntilde;etik soka-mutur bat bota zien; ari eldurik aupatu ziran arresi gai&ntilde;era.</p>
+<p>Biaramon goizean nere misio-etxera ziran, lapurrei agindutako sari ta emaitzak berekin zekarzkitela&raquo;.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>27. Bigarren gaua</p><--</head>
+        </front>
+        <body>
+<p>Arratsalde bereartan, nere lagun maiteak lokaberik joan ondoren, egin genituen oraindik zenbait kilometro, beti mendian gora. Laguntalde gaitz bat neukan nere inguruan, guzien erdian ni. Aien artean amabi-amabost urteko mutikoak ere baziran; oiek neri iseka egiten zidaten, Europan ta Ameriketan ume gaizki-aziak erlijiosoai egiten dieten bezela. <hi rend='Italic'>&laquo;Yang-ren, yang-ren</hi> (arrotza, arrotza!)&raquo; oiu egiten zidaten. (Olatsuko itz bat asko erabiltzen da Rio de la Platan, Europako errialde batetik etorritako jendeai iseka egiteko...) Asarretu nintzan pixka bat iseka oiengatik eta eragozteko egi&ntilde;ala egin nuen.</p>
+<p>Ilundu bai&ntilde;o askoz lenago banatu ziran gure gizonak mendizuloetan aterbea bilatzera. Ni beste lagun batzuekin <hi rend='Italic'>Txengtxiyuen-</hi>go zulo estu samar batean sartu ninduten. Besbe amabi atxilo baziran bertan ormaren kontra; gorrien beldurrez zoraturik bezela zeuden. I&ntilde;ork etzuen tutik ateratzen.</p>
+<p>Ni urbildu ta galdezka asten natzaie. Ogei ta lauen bat urteko mutil batek auxe erantzuten dit ixil-mixilka: &laquo;Ni ta nere laguno <hi rend='Italic'>Huo-sui-</hi>koak gera; ni ta larrai&ntilde;ean ikusi duzun agure zaar ura, ango Eskola-Andiko irakasleak, gai&ntilde;erakoak, berriz, bertako ikasleak. Agure ura Eskola-Batzarraren buru da gai&ntilde;era. Orain amabost egun arrapatu ginduzten eta noiz utziko gaituzten lokabe, eztakigu&raquo;.</p>
+<p>Gero kontatu zidan zenbat joan-etorri ta zenbat neke artu izan zituzten lapurrak Sanxelipu-ra iristeko. Alako eguraldi otza bazegoen ere, beti lur utsean egin zuten lo, ez lasto ta ez estalkirik gabe.</p>
+<p>Bigarren gau artan ikusi nuen beraz, zer bizimodu egin bearko nuen gorrien artean. Nik arropa gutxitxo nuen, gai&ntilde;erako jantziak lapurrak ostu zizkidaten ta; eta oi&ntilde;etan berriz etxerako erabili oi diran zapatilak nituen. Azaroaren 14a zan, negua urbil, gure aurreko mendiak oso gora, 1.000 ta geiago metro, biaramonean elurra asi zuen. Otzak ematen zidan kezkarik andiena; beko zelaietan ere gogorra izaten da ta jendea larruzko jantziz estalirik ibiltzen da; atera kontua, zein gogorra bide zan otza mendi ain gora aietan! Eta mendi aietara buruz ginjoazen eta an egin nituen ilabete otzenak, lenbizi erdi-jantzirik eta gero ia bilutsik.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>28. Nere usteak ustel atera</p><--</head>
+        </front>
+        <body>
+<p>Bartolome Aitak eta Isidro Anaiak &laquo;agur, biar arte&raquo; esan zidaten aldegitean. Biar arte! ala uste genuen guk. Eta lapurrak ere, ni askatzeko sari ta emaitzak etorri arte <hi rend='Italic'>Txengtxiyuen'</hi>dik etzutela aldegingo itzeman ziguten. Bai&ntilde;a gure ustea ustel atera zan. Biaramon goizean (azaroaren 14an), argitu gabe, soldadu gorriak bideari lotu zitzaizkion, Gobernuaren soldaduen beldurrez noski. Turutak jo zituzten eta lerro lerro jarri ziran soldadu-antzera; jantzian ez beste guzian soldaduak ziruditen.</p>
+<p>Elurra ari zuen gogorki, eta <hi rend='Italic'>piaotze</hi> edo atxilo (preso) gaixuoi otza mui&ntilde;etarai&ntilde;o sartzen zitzaigun. <hi rend='Italic'>(Piaotze</hi> itz ori doi doia ageri da iztegietan zentzun orrekin; Txinara misiolari etorri nai dutenak ikasi bezate! Nora ginjoazen galdegin nien eta itz-erdika erantzun zidaten.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>29. Ori prozesio itsusia!</p><--</head>
+        </front>
+        <body>
+<p>Gure irugarren eguna astean, josten ditut nere begiak lapurrengan. Ura arritzea! Batzuek zuriz, besteak beltzez, besteak morez, besteak berdez jantzirik ageri ziran. Ura ikuskizun jostagarri ta bai parragarria ere, itsuskeri lotsagarria izan ezbalitz!</p>
+<p>Zer zan bada? Alegia, lapur aiek Sanxelipu-ko gure elizan ta bearbada beste zenbait aldetan osturiko elizjantzi guziak jantzi zituzten berogarritzat eta an zijoazen prozesio itsusi bat egiten zutela. Aurrena amazazpien bat urteko mutil bat zijoan, Bilbo-ko Uribe-Etxebarriatar Simon A. kaputxino zanaren kapa soi&ntilde;ean zuela; itxurazko kaputxino orren ondotik zenbait beretter (roketedunak), gero subdiakono ta diakonoak (dalmatikadunak), urrena apaizak (kapadunak), gero mezemaleak (kasulladunak), gero meza-mutilak eta era askotako beste elizagizonak. Egundai&ntilde;o olakorik!</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>30. Euskaldun mendigoizaleak Txinan?</p><--</head>
+        </front>
+        <body>
+<p>Txapela duten guziak euskaldunak dirala uste dute askok, batez ere Ameriketan. Ara zer gertatu zan bein: Buenos-Airesen, Barracas-ko txabola batean gizon bat ilik arkitu zuten. Etzuen i&ntilde;ork aren berririk ematen, etzekiten nor zan; bai&ntilde;a polizia-buruak, arek jantzia zuen txapela ikusirik, euskaldun bat zala erabaki zuen. Eta alaxe zan egiaz; geroago argitasun geiago bildurik, Uriguena izeneko bizkaitar bat zala atera zan.</p>
+<p>Uriguena orren oroitzapena etorri zitzaidan neri burutara egun artan. Buruan euskaldun-txapela zuten mutil batzuek ikusi nituen <hi rend='Italic'>Luisejo</hi> inguruko mendietan gora igotzen eta beren bizkarrean zeramatzaten armen ordez makila sendoak izan balituzte eskuetan, edozein euskaldunek uste izango zuen, mutil gorri aiek gure Euskalerriko mendimutil-talde bat zirala. Txapel aietako batzuek ezagunak nituen eta eskatu ere egin nizkien, bai&ntilde;a aiek ez eman. Gai&ntilde;erakoak eztakit non bildu zituzten, beti ere etziran Txinan egi&ntilde;ak.</p>
+<p>Neri ostutako txapela Kaokang izeneko batek zeraman; zaldun-buruzagia zan ori, lapur-taldearen izlaria, gizon ausarta, tzarkeri asko egindakoa. Askotan itzegin nion orri eta txapel gorri bat agindu nion, baldin ni askatzeko egi&ntilde;ala egiten bazuen. Euskaldun-txapel ori oso atsegin dutela oartu nintzan; bearbada, txinatarrak jantzi oi dituzten <hi rend='Italic'>maotze</hi> edo larru ta ilezko ginbailak bai&ntilde;o osasungarriago dira. Txinatar ginbail auek askori buruko mi&ntilde;a ematen diete ta batzuetan odol-aldi galgarriak ere bai. Txapelak ez ditu belarriak estaltzen, ori egia da; bai&ntilde;a oiek erraz estali ditezke beste gisa.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>31. Itxurazko kaputxinoa ta egiazko kaputxinoa</p><--</head>
+        </front>
+        <body>
+<p>Euskaldun-itxurako txinatar aiei begira, baninjoan nere bidean. Beingoan, nere zaitnzaleak bizkarrean jotzen nau azkarki ta oiu egiten dit gogor: &laquo;Ots, aurrera! lasterrago ibili!&raquo;. Burua iraultzen dut nere jotzaleari auxe esateko asmoan: &laquo;Zuk agindu egin dezadakezu, bai&ntilde;a jo zergatik egiten nauzu?&raquo; Bai&ntilde;a nere burua iraultzean, nere arrimena! Zer dakuste nere begiak? kaputxino aundi gaitz bat nere aurrean!</p>
+<p>Aurreko gauean, ilunben artetik, txoti&ntilde;o zorrotzdun frantziskar bat ikusi izan nuen; bai&ntilde;a ura ireltxo bat edo begitasun bat iduritu zitzaidan eta gai&ntilde;era arek kaputxino-jantzia atzekoz-aurrera zedukan. Oraingo au ordea besterik zan; ni ez nengoen ametsetan eta etzan begitasun bat ere. Nere zaintzale orrek txoti&ntilde;oa (kaputxoa) buru gai&ntilde;ean jantzia zuen, bularrekoa ere zuzen aurreko aldean eta gerri inguruan gerri-lokarria. Ura ezberdintasuna! Ni, egiazko kaputxino au, zarpazar bat buruan, maukutsik, nere Ordenaren ezaungarri bat ere gabe ninjoan, lapur aien oazalak bizkar gai&ntilde;ean neramatzala; lapur tzar ura berriz kaputxino-jantzian. Orduantxe esan ziteken ederki: &laquo;Kaputxinoa dirudi ta ezta; eztirudi kaputxinoa ta bada&raquo;.</p>
+<p>Gure soi&ntilde;eko maiteaz jantzia zijoan arekin izketan asi nintzan. &mdash;&laquo;Nola da zure izen ederra?&raquo; galdegin nion. &mdash;&laquo;Wang(errege)&raquo; erantzun zidan. Bai&ntilde;a geroago ikasi nuenez, gezurra esan zidan; bere egiazko izena <hi rend='Italic'>Li yan hai </hi>(aran-ondo gozoa) da.</p>
+<p>Li ori ogei ta bi urteko mutil luze, sendo, azkarra da; lenbizian idorki ta itz-erdika ta gezurrez erantzuten dit. Gizon ori txurikatu ta limuritu nai nuen; eta ortarako, komentuan egon naizen berrogei urtetan nere Nagusien limuritzeko ikasi ditudan antze guziak erabili bear nituen. Zerbait iritxi nuen; geroztik ez ninduen zeatzen lenengo aldietan bezela eta nere galdeai erantzun ere egiten zien.</p>
+<p>Auxe ikasi nuen arengandik: <hi rend='Italic'>Shensi</hi> probintzikoa ta <hi rend='Italic'>Sanyuen</hi>-dik urbil samar dagoen erri batekoa dala; beste misiolari asko ere ikusi izan dituela, bai&ntilde;a eztuela aiekin ariorik batere izan; eztala kristaua eta ezta izan nai ere; zenbait etxetan sukaldari egon dala eta jostungoan ere badakiela; bera eztala lapurra, <hi rend='Italic'>kuntzatang</hi> edo komunista baizik; aiei, lapurrei, gogor egin diela eta komunista egin dala, komunistak beartsuai alde ta aberats tzarrai kalte egiten dietelako; beren artean ederki etortzen zirala elkarrekin eta buruzagi auek zituztela: <hi rend='Italic'>Wangtaitxi,</hi> guzien agintaria; <hi rend='Italic'>Liutzeta,</hi> gudu-batzarrekoa; <hi rend='Italic'>Sing yan ti</hi> eta <hi rend='Italic'>Sing Huang ti</hi>, batzarre andiko lagunak. Berak etzezadaken esan nora ginjoazen. Beti nere ondoan zetorren, nere egin guziak ikusi nai zituen.</p>
+<p>Geldialdi batean, mutiltxo bat urbiltzen zait, bere burukoa erantzi ta domi&ntilde;o (medalla) bat eskatzen dit. &laquo;Ni, esan zuen gero, kristaua naiz eta Ama Birji&ntilde;aren domi&ntilde;o bat nai dut, komunisten artean sortu lekizkedan afiskuetatik onik atera nazan&raquo;. Lotsaz mintzo da kristau ura eta bere masaila zurpailak gorritu zaizkio. Sasi kaputxino biurriak errista <hi rend='Bold'>usbis</hi> egiten dio gogorki eta esaten dio, uzteko txorakeri aiek, eztagoela Jainkorik, gizonak eztuela animarik; gorputza il, guzia il.</p>
+<p>Ni sasi-kaputxinoaren aurka ta kristauaren alde jartzen naiz eta al bezala laguntzen diot. Gaxoak fedea eztu galdu, lapur egi&ntilde;ik badabil ere.</p>
+<p>Azaroaren 14an, egun osoan aldapak gora ta bera ibili gi&ntilde;an apurrik ere jan gabe. Ogi-puska bat eman zidaten eta nik, goseak zegoen beste atxilo bati eman nion oso osoa.</p>
+<p>Beste komunista bat, adi&ntilde;ekoa bera, gurekin izketatu zan; aren izenaz ez naiz oroitzen; misioen berri ere bazekien poliki. Beste gauza askoren artean, neri atsegi&ntilde;ik bat ere egin etzidan auxe ere esan zidan: &laquo;Misiolaria Txinan jende andia da, gure uri aundietako mandarinen pare&raquo;. Orrekin esan nai zion nere zaintzaleari misiolariok oso aberatsak gerala eta bere eskuetan nindaukan ezkero, neri alik diru geiena ateratzeko. nik erantzun nion, baietz, misiolaria jende andia dala, bai&ntilde;a animako gauzetan bakarrik eta ez gi&ntilde;ala bat ere aberatsak.</p>
+<p>&laquo;Egarri naiz!&raquo; oiu egin nuen. Goizeko bostetatik asita bidez genbiltzan eta arratsaldeko lauak edo ziran; ago-sabaia legortua nuen ta ur-tanta batzuek nai nituen; bai&ntilde;a biotzgabeko sasi-kaputxinoak ukatu egin zizkidan. Ogei ta amasei urte egin ditut komentuan eta urte guzi oietan nere guardian batek ere eztit olako ezekorik eman! Oi ene Ordenako guardian santu ta errukitsuak, Jainkoak bedeinka zaitzatela! Zuek maite etzaituztena ez al da bein ere <hi rend='Italic'>Li</hi> (aranondo) zaitzalearen mendean eroriko! Ez, eztiot i&ntilde;ori olako gaitzik nai.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>32. Ta wan ta kumen</p><--</head>
+        </front>
+        <body>
+<p>Irugarren egunean, arratsaldeko bostetan iritxi gi&ntilde;an toki ortara; ni, barau utsik. Zama andi samarra baineraman bizkarrean, nekaporraturik nengoen. Mendizulora sartu ta bereala <hi rend='Italic'>kang</hi> batean etzan nintzan. (Delako <hi rend='Italic'>kang</hi> ori lurrezko oe bat da, berotua; olakoak izaten dituzte txinatar&aacute;k eguraldi otzetan). Gai&ntilde;erako atxiloak itz bat esan gabe, abereak bezela, lurrean etzan ziran zabal zabal.</p>
+<p>Geroxeago sartu zituzten mendizulo bereartara bi soldadu (Gobernuaren aldekoak) gorrien eskuetan eroriak; galde asko egin zizkieten eta soldadu gaixoak azkenean aitortu zuten guzia, Gobernuaren aldeko soldaduen asmo guziak agertu zizkieten. Orduan bi komunista-sail, bi soldadu aiek lagun zituztela, <hi rend='Italic'>Youelu</hi> eta <hi rend='Italic'>Utxio</hi> aldera jo zuten; bai&ntilde;a bi leku aietako soldaduak ikasi zuten lapurren berri eta garaiez igesi joanak ziran. Arritzekoa da zenbat eta nolako ispia edo ixil-berrikari dituzten komunisten buru auek!</p>
+<p>Egun osoan nere bizkar gai&ntilde;ean ekarri nituen oazalak ilundu ondoan kendu zizkidaten. Ez nuen txintik atera. Jatekoa eskai&ntilde;i zidaten; bai&ntilde;a ez nuen artu nai izan, izugarri gose banintzan ere, <hi rend='Italic'>Kang-</hi>etik jesteko esan zidaten; eta nik, etzitala gogoak ematen erantzun nien borobil borobil. Jotzera eskai&ntilde;i zidaten eta nik, parre egin nien. Beren fusilez zanpaka jo ninduten eta orduan jetxi nintzan lurrera.</p>
+<p>Arropa osoa gutxi nuen eta lurrean etzan ezkero otzak il beldur nintzan. &laquo;Lo egizue, esan nien gogor; zuek lo egizue <hi rend='Italic'>kang</hi> orren gai&ntilde;ean; nik lurrean egingo dut gaua. Bai&ntilde;a begira gero, orren gaizki erabil banazazue, laster ilko naiz eta nere eros-saria galduko duzue. Eta biar berean joko dut zuren agintariaregana, ari kontatuko dizkiot txarkeri guziok. Gai&ntilde;era eztut i&ntilde;olaz ere beste <hi rend='Italic'>piaotze </hi>edo atxiloen ondoan lo egingo, ziki&ntilde;ez eta zomorro nazkagarriz josiak daude ta&raquo;. Ontan agertu zan nere zaintzale Aranondo eta burusi (oatzestalki) bat eman zidan. Gizon zakar eta itxura txarreko au maitasun piska bat erakusten asi zitzaidan. Gai&ntilde;era, aldi ontan berak ez ninduen jo.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>33. Jan gabe!</p><--</head>
+        </front>
+        <body>
+<p>Lenbizi egon gi&ntilde;an medizuloan Bartolome Aitak eta Isidro Anaiak etzuten amenik jan, eta buru orrek bereala mesede egin zien. Lapurrak auxe esan zuten noski beren baitarako: &laquo;Gizon auek orrela bat ere jan gabe badaude, ilko zaizkigu bereala, eta eztugu ezer onik aterako&raquo;. Eta argaitik noski utzi zituzten lokabe; misiolariok ezpaitziran gutxi arritu ortaz.</p>
+<p>Nik usterik onenaz jan nuen gogotik gari-zopa tzar ura eta lapurrak uste izan zuten noski, ni erraz jarriko nintzala aien bizimodura. Obe nukean, nere lagunak bezela, ezer jan ezpanu; aiek lenengo egunean egin zutena, nik laugarrenean egin nuen. Aurreko gauean <hi rend='Italic'>kang </hi>edo oea zala ta etzala ibili ondoan ez nuen ezer jan; biaramonean, ezongi nengoelako aitzakia atera ta ez nuen deus ere agora sartu. &laquo;Bai biurri ta mutiri ta tematsua dala arrotz au&raquo; esaten zioten elkarri.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>34. Gudu-zelaian</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'><hi rend='Italic'>(azaroaren 15)</hi></hi></p>
+<p>Lapur-buruzagiek, bezperatik <hi rend='Italic'>Tung ho</hi> ibaia igaro ta <hi rend='Italic'>Kutxiawan</hi>-en egin zuten lo; guk biaramonean, azaroaren 15an igaro genuen ibai ori lapurrak, abereen gai&ntilde;ean, guk, berriz, oi&ntilde;ez, gerrirai&ntilde;oko ur otzetan sarturik. Neri, ur-sendazalea bainaiz, on andia egin zidan gorputz erdiko bustialdi arek; txinatar atxiloai ordea guziz mingarri izan zitzaien.</p>
+<p>Lapur-buruzagiek txerri ta ardi ta auntzak ilarazi ta jai andia egin zuten, orduarteko beren garaitiak eta gurendak ospatzeko. Alai eta kezkagabe ageri ziran <hi rend='Italic'>Tun ho</hi> ibaiaren eguzkialdean zeudelako, lapurrak besterik bizi eztiran tokia baita alderdi ori. Lapur ezezagun asko etorri zitzaizkidan itzegitera eta batzuek legetsu begiratzen zidaten.</p>
+<p>Fusilak eta lanabasak eta gure elizetako tresnak eta erlojuak eta abar erakusten zizkidaten. Isidro Anaiaren erlojua Tsao tenienteak zeukan; galtzerdi barruan sartua zuen Anai arek eta andik kendu zioten. Termometro, altimetro ta barometroen giltzatxoak eskatzen zizkidaten. Gaxoak etzekiten tresna oiek zertarako diran. Bilbo-ko Uribe-Etxeberria-tar Simon Aita zanak bere buru argia ilobitik jaso balu!</p>
+<p>Fusil geienen argitasuna eman nien; aietako asko Alemaniatik ekarriak ziran eta Europako Gudu Andian ibilitakoak.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>35. Gudukaldi gaitza!</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'><hi rend='Italic'>(1932, azaroaren 15)</hi></hi></p>
+<p>Etxe bateko senideak bagi&ntilde;a bezela izketan ari naiz lapurrekin eta auek nere omenez musikajoaldi bat eratu zuten. Bat-batean, joan-etorri andia nabaritzen dut soldadu-taldean; bai&ntilde;a joan-etorri zuzena, naspilgabea. Ibaiaren beste aldetik datozen bala batzuek sumatzen ditugu. Jaiki eta mendian gora laster egiteko agintzen dit Aranondok. &laquo;Zer da ori?&raquo; galdegiten diot. &mdash;&laquo;Iri etzaik axolik&raquo; erantzuten dit. Eta nik lasterrari ematen diot, besten oazalak soi&ntilde;ean ditudala; lasterrari ematen diote beste atxiloek eta bai komunista geienek ere.</p>
+<p>Tiroak lenbizian bakan ziran, orain usuago dira. Itzaldera (eguzki-sartze aldera) begiratu nai dut, bai&ntilde;a Aranondok galarazten dit. Bala batzuek txistuka lurperatzen dira. &laquo;Gu orren errukigabe il nai gaituzten oiek nor dira?&raquo; galdegiten diot. &mdash;&laquo;Ago ixilik eta abil laster&raquo; diost Aranondok eta bere beso sendoaz aurerontz bultzatzen nau. Alde batera ta bestera txistuka dabiltzan balai iges egiteko lagun asko lurrera etzaten dira nere eskuin ta ezker aldean.</p>
+<p>&laquo;Ezin dut geiago!&raquo; esaten dut zartadan eta soi&ntilde;ean ditudan oazalak lurrera bota ta nere zaintzale Aranondori aurpegi-emanik eun-ta-berealdikoak esaten dizkiot. Orrela asarre itxuran arekin izketan ari naizen bitartean, ederki oartzen naiz zer gertatzen da. Soldadu-multzu bat dator <hi rend='Italic'>Sanxelipu</hi> aldetik eta oiek ari zaizkigu tiroka atertugabe. Nik badiot nere kolkorako: &laquo;Auxe da nere eguna, edo lokabe izateko edo lurretik ondatzeko eguna&raquo;. Eta bietara berdin etsirik nengoen, edo berriro lokabe izateko edo beste mundura joateko.</p>
+<p>Biozdun agertu ziran orduantxe gorrien atzekariak; gora ta aupa ta poz-oiuka oldarrtu ziran soldaduen kontra, ez <hi rend='Italic'>Tung-ho</hi> ibaiaren otzaz ez soldaduen balaz beldur izan gabe. Aiek mutil azkarrak! Kristobal sanduaz kontatzen dana gogoratu zitzaidan aiek ikustean. Eta orduan arropuztu nintzan gorrien algun izateaz; edozei&ntilde;ek atsegin baitu jende bizkorren artean egotea.</p>
+<p>Balazko euri baten erdian iritxi gi&ntilde;an mendi-errpi&ntilde;era. Gain artatik atzera begiratu nuen zuri ta gorrien arteko guduak nolakoak ziran ikusteko; bai&ntilde;a nere zaintzaleak galarazi zidan eta ezpata erakutsiz aurren aurreneko lerroetan jarri ninduen. Goiz osoan eta bai arratsalde geienean ere tiroka jardun zuten oraindik; eztakit ordea nor gelditu zan garailari. Gorriek ziotenez, berak garaitu zuten; ala ere etzuten berotasun andirik erakusten.</p>
+<p>Gero, egun oso artan, azaroaren 15 egun gogoangarri artan elkar begiratu ta zirikatu besterik etzuten egin bi soldadu-talde aiek. Olaxe begiratu ta zirikatu zuten elkar israeldarrek eta filistearrek Goliat eta Daviden garaian.</p>
+<p>Burrukan ari ziran bitartean, oso gaizki erabili ninduten gorriek, gertatzen zana nere gain ematen zuten ta. Asarrerik onela zioten: &laquo;Ire bi lagun aiek bidali zizkigutek soldadu arrotz auek. Azpisugeak! Ik ordainduko duk aien gaizki-egi&ntilde;a!&raquo; Aientzat Gobernuaren soldaduak eztira txinatarrak, arrotzak baizik. Nere zaintzale Aranondo, goizean ain maitetsu agertu bazitzaidan ere, iluntzerako asarre gorrian zegoen nere aurka. Nik, egia esan, ez nuen obenik; nere lagun misiolariak egin zutenaz ez nuen nik erantzun bear; aiek beren buruen jabe ziran ta beren buruz ari ziran, ez nik agindu nielako.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>36. Igesaldi neketsua</p><--</head>
+        </front>
+        <body>
+<p>Egun gogoangarri artako gertaera odoltsuak gaua etortzearekin bukatu ziran. Zuriak <hi rend='Italic'>Utxio </hi>uri sendora bildu ziran, gorriak berriz tarrapatan igesari eman zioten <hi rend='Italic'>Yu yuan tsuang</hi>-eko sakan andi aldera. Pozaren pozez nengoen ni ibilketa ori gauez egin bear genuelako. Aurreko gauean otzak gogorki erasan zidan eta orduezkero lokabe etxera itzuli nintzan arte, gauak beldur gaitza ematen zidan; ibilian berriz beti beroago irauten nuen.</p>
+<p>Gai&ntilde;ez gain ibili gi&ntilde;an denbora guzian etzitzaigun esateko gauzarik gertatu; bai&ntilde;a sakanera jestea oso neketsu ta mingarri izan zitzaigun. Zeruan etzegoen argirik. Amiltegi baten gai&ntilde;ean, bidezidor estu ta irrista batetik ginjoazen. Jendeak, gu nondik nora genbiltzen suma etzezan, itzik ez egiteko agindu zitzaigun. Nik besoak lotuak nituen eta soka-muturrak Aranondok zeramatzan eskuetan. Atxilo guziok soldadu-taldearen erdi erdian ezarri ginduzten eta geroztik iges egiteko asmorik ezin artu.</p>
+<p>Batzuek irristatu ta erori egin ziran. Aranondo ere zalantzatu zan, bai&ntilde;a zutik iraun zuen. Arek, begi erneak izan ta bideko oztopo guziak ederki ikusten zituen; ni berriz begi-lausoa bainaiz eta ere lausoago azken aldi auetan, beaztoporik etzan lekuan ere oztopo egin nuen. Aldaroka nenbilen ez erori bai erori; eta erori aldioro, gure zaintzaleak parre-algaraka asten zitzaizkidan; eta algara aiek nolako durundia ateratzen zuten gau ixil, beltz eta ilun artan!</p>
+<p>Zenbat aldiz arkitu nintzan bide ertzean, erroitzean bera amilka joateko arriskuan! Aranondok eusten zidan gogorki eta masailak urratzeko zorian parre egi&ntilde;ez jasotzen ninduen zoritxarreko bidexka artara. Norbaitek, urrikaldurik, makilatxo bat eman zidan eta arekin ilunbeak eta bideko goibeak aztatuz, ez nintzan ain maiz erortzen. Orrela jaiki ta erori ibili gi&ntilde;an gaueko amabiak arte edo eta orduan mendearte batean sartu gi&ntilde;an. Eta bidezidorra bere amiltegiekin nekagarri izan bazitzaigun, mendartea etzan bat ere atsegi&ntilde;ago bere zulo ta putzuekin.</p>
+<p>Azaroaren 16an, goizean goiz, sartu gi&ntilde;an <hi rend='Italic'>Yuy&uuml;an</hi> auzunera. Orduan Aranondok Sing Liuti zeritzan baten kontura uzten nau: gero bere kaputxino-jantzia goratu, altzo-oial bat artu ta aizpe ilun batean sarturik jatekoa prestatzen asten da. Arek prestaturiko guzia laster klikatu zuten gorriek eta bereala aurrera joateko agindua eman ziguten. Nik <hi rend='Italic'><foreign>ad perpetuam rei memoriam</foreign></hi> papertxo batean idatzi nuen gertakari ori. Gai&ntilde;erako <hi rend='Italic'>piaotze</hi> edo atxiloek arritu ta naigabeturik begiratu zioten elkarri; gaixoek etzuten ogei ta laur ordu aietan ezer jan, aurreko egun osoa suatske ta bala artean igaro zuten, gauez berriz bidean ibili gelditu gabe; eta guzi ori ezin-eramanalakoa zaio txinatar bati, berez ain janzaleak diralarik. Ni pozik nengoen nere baruaz eta ez nuen deus esan ez itzez eta ez kei&ntilde;uz.</p>
+<p>Abiatu gi&ntilde;an beraz. Gorriak oso ardura andiz zebiltzan, soldaduak nonbait barrandan edo zelatan ote zegozkien beldurrez. Mendien tonto&eacute;tan iguriak (zentinelak) erne begira zeuden zer jende ageri ote zan bazterretan. Gorriak goiz guzi artan kezka anditan egon ziran. Noizpait ere, zelai andi zabal batera sartu gi&ntilde;an eta orduantxe ats-artu genuen.</p>
+<p>Mendi-tontorretan zeuden iguriak jetxi ziran eta ixil-berrikari ta lapur-buruekin batzarrea egin zuten guregandik urruti; argatik ez genuen igarri zertaz ari ziran izketan. Ordu batzuek igaro genituen oraindik ez-baian, zer egingo ez genekiela. Azkenean, gure agintari Wan tai-txi-k birao batzuek bota zizkion Tai se lin-i eta bere inguran zeuden gorriek pozaren pozez oiuka erantzun zioten. Alegia, gobernutarren agintari Tai se lin <hi rend='Italic'>Yuan tzen tze</hi>-ra itzulia zan eta etzegoen geroztik ezeren beldurrik.</p>
+<p>Ala ere bideari lotzeko agindu ziguten. &laquo;Nora goaz?&raquo; galdegiten diot Aranondori.</p>
+<p>&mdash;&laquo;Etzekiat&raquo; erantzuten dit idorki. Alderdi aiek etzituela ezagutzen nabari zuen. &laquo;Egarriz iltzeko zorian nago, esan nion berriz; or beera dijoan erreka ortatik zenbait urtanta emaizkidatzu&raquo;. Sasi-fraile arek gorrarena egin zidan; bai&ntilde;a amabien bat urteko mutiko batek ontzi bat urez bete ta edatera ematen dit. Otza zan ura, oso otza; eta nik goxoki xurgatu nuen pixkeka pixkeka.</p>
+<p>Egun oso artan mendietan gora ta bera ibili besterik ez genuen egin. Egun txarra uraxe mendigoizale izan eztan misiolari batentzat; bearrik ni Txileko Santiagon nengoelarik zortzian bein igotzen bainintzan San Cristobal mendira.</p>
+<p>Geldialdi batean Wan tai txi agintariak ikustatu ginduzen bere soldaduekin batean.</p>
+<p>&laquo;Zer diozu, <hi rend='Italic'>yang ren</hi> (arrotza)?&raquo; galdegin zidan nereganatzean. &mdash;&laquo;Oso gaizki, erantzun nion; lau egun auetan eztut ezer jan eta ibilketa ain luzeak egin bear izan ditut oi&ntilde;ez aldapa piko ta bidexka malkar ta ibar loitsuetan barna. Akitua nago eta laster illotzik erortzeko zorian nago!&raquo; &mdash;&laquo;Egonarri pixka bat ar zazu, esaten dit berriz; biar berean joango zera bearbada zure etxera. Zure bi lagun aiek, beren itza betetzeko, bidali dituzte emaitzak; bai&ntilde;a guk zapaldu ditugun soldadu oiekin topo egin zuten eta gizon lotsagabe oiek guregana ez etortzeko esan diete. Gai&ntilde;era guretzat zekartzaten zigarroak kendu egin zizkieten, lapurrak alaenak! On litzake zure lagunai idazten bazenie esanez guk soldadu oiek zapaldu ditugula eta zuk eztuzula oiengandik ezer igurikitzen (itxoiten); emaitza ta esku-erakutsiak lenbailen bidaltzeko&raquo;.</p>
+<p>Agi denean, gorriek bazekiten gertatuaren berri; agintariaren itz oiek argibide guziz on bat eman zidaten; andik aurrera etzezaken i&ntilde;ork esan Bartolome Aitak eta Isidoro Anaiak esku-erakutsien ordez, soldaduen balak eman zizkietela komunistai. Nere lagunai idaztea etzala komeni ta etzala bear ere esan nien.Nere idazkiak neronen kaltetan izango ote ziran beldur nitzan; soldadu berriak etorri balitez, nik deituta etorri zirala gogoratuko zitzaien lapurrai.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>37. Isidro Anaiaren asmo ta egite goren-gorengoak</p><--</head>
+        </front>
+        <body>
+<p>Nere inguran gauza oiek agitzen ziren bitartean, <hi rend='Italic'>Kingyan </hi>eta <hi rend='Italic'>Sanxelipu</hi>-n zer gertatzen zan bat ere ez nekien. Geroago nere mixio-etxera itzuli nintzanean, auxe kontatu zidaten: Bartolome Aitak eta Isidoro Anaiak alik lasterrena bildu zituzten lapurrai eramateko esku-erakutsiak. Etzituzten ala ere guziak batean eraman nai, orduan lapurrek askoz geiago eskatuko zituzten ta. Bilduriko zer guziekin (oial, galtzerdi, zapatila, buruko, tabako, sendagai, pastel ta abar) lau sorta egin zituzten eta zenbait gizon, Isidro A. buru zutela, sorta oiek soi&ntilde;ean artu ta <hi rend='Italic'>Sanxelipu</hi>tik abiatu ziran, ni berrerosi ta askatzera joateko.</p>
+<p>Isidro Anaiak konfesio on bat egin ta bere anima Jainkoaren eskuetan utzi ondoan, agintza auxe egin zion Jainkoari: &laquo;Aldez edo moldez askatuko dut atxilo dagoen mixiolaria eta emaitza oekin ori iristen ezpadut, nerau geldituko naiz atxilo aren ordez&raquo;. Orra or napartar. Nolasko berria! Bai&ntilde;a Jainkoak Anai: kaputxino gorputzez txiki bai&ntilde;a animaz andi orren eskaintza utsa askietsi zuen. Gorabera andiko gauzak zerabiltzan orduan esku artean eta argatik nonbait etzuen Jainkoak nai izan lapurren menpean geldi zedin.</p>
+<p>Bearbada eginkizun andiagotarako gorderik dauka gure anai ori eta orduan emandako itza bete dezaion eskatuko dio noizpait agian. Ez litzake bat ere arritzekoa izango; ainbesteko galbidetan sartua dago beti Kansu-ko misiolaria eta nork daki, <hi rend='Italic'>Sanxelipu</hi>-ko ondamenaren ondotik ondamen andiago ta odoltsuagoak ez ote diran etorriko? Misioak orduantxe bearko ditu Isidro Anaiaren antzeko lagunak.</p>
+<p>Baizjoazen beraz gure gizonak beren emaitzekin eta <hi rend='Italic'>Singkiajo</hi>-ko aldapa andira iritxi ziran. Egun bereartan (azaroaren 14an) nai zuketen lapurrekin izketatu. Aldapa gora ats-anditurik dijoazela, ara non ikusten dituzten aurreko mendian armadun gizon batzuek. Gure gizonak, armadun aiek lapurrak ziralakoan, igesari eman zioten eta zokogune batean gorde ziran. Bai&ntilde;a armadun aiek Gobernuaren soldaduak ziran, lapurrai gudu ematera zijoazen soldaduak eta Isidro Anaiak paper bat erakutsi zien zertara zetozen adiaraziz.</p>
+<p>Soldaduak esan zieten: &laquo;Ez gero olako txorakeriarik egin, ez joan lapur oiengana. Guk emango diegu komunista tzar oiei zor zaien ordai&ntilde;a eta misiolaria askatuko dugu. Etzaitzue komeni ez gure aurretik eta ez gure ondotik joatea; gure aurretik joan ezkero, gu garaiturik gelditzen bagera, ezbearren bat gertatuko zaitzue bearbada; ta gure ondotik joan ezkero berriz, lapurrek ilko zaituzte, zuek ekarri gaituzuela uste izango dute ta. Zoazte beraz atzea eta gu aurrera joango gera, lapur tzar oien zapaltzera&raquo;.</p>
+<p>Ezinbestean etsi zuen beraz Isidro Anaiak eta atzera itzuli zan, biotza puskaturik, bere baitarako auxe ziola: &laquo;Or gertatuko da arako Ebangelioko parabolak dionez gari artean ereindako belar txarrari gertatua: soldadu auek bizia kenduko diete bearbada gaizkiegile aiei; bai&ntilde;a aurretik lapurrek gure misiolari gaixoa ilko dute&raquo;. Gobernuaren soldaduek bataloi bat egiten zuten, Tsao koronela buru; lentxeago esan dugu, nola jokatu zuten soldadu oiek.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>38. Patata gordi&ntilde;ak jaten</p><--</head>
+        </front>
+        <body>
+<p>Egun artako (azaroaren 16) ilunabarrean <hi rend='Italic'>Tsentsuango</hi>-ra iritxi gi&ntilde;an; toki ortan elkartzen dira ibar andi artako bi ibai nausiak. Atxilo guziok nekearen nekez il-urren gentozen. Aurreko egunetan bezela, egun ortan ere guk jaso bear izan genituen gorrien tresnak eta ainbeste egunetan ain gutxi jan genuenoi zama andiegia zitzaigun ori.</p>
+<p>Ni lenengo egunean ase nintzan arako <hi rend='Italic'>txiaomi</hi> edo gari-zopa artaz; bai&ntilde;a geroztik ez nuen ezer jan. Urdaila etzan jan gabe egotera jartzen arako astoa bezela eta berea eskatzen zuen; nik ari laguntzea erabaki nuen bai&ntilde;a nere zaintzaleak oartu gabe. Nik, txotxolo bat izaki, ta nere barua luzatu ezkero lokabe utziko nindutela uste nuen. Argatik, baru egin bear nuen aurrera ere ta baru estua, itxuraz beintzat. Naikoa dut ura eta ori ere neurrian.</p>
+<p>Aurreko egunetan bezela, azaroaren 16 artan ere mendizulo korrokoil batean sartu ginduzten. Nekaporraturik eta atseden-bearretan geunden. Ni txoko batean gelditu nintzan beste atxiloengandik alde samar. An ondoan lurra koloka dagoela sumaturik, igitzen dut piska bat eta, zer arkitzen dut? Patata-pila bat, patata eder andiak. Artzen dut bat eta ortzak josten dizkiot, dagoen bezlaxe, azal ta guzi. Oso goxo zait, sagar edo udare on bat bailitzan. Jaten dut, gero beste bat, gero geiago, lau egun aietan bildutako gosea il arte. Sakelak ere betetzen ditut biaramonerako. Bai egia dala arako esaera ura: &laquo;Gosea, bera jaki&raquo;. Atxilo egon bai&ntilde;o lenago ta orain ere, doidoia jaten ditut patak, egosita ere.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>39. Gure erlijioari gogor egilea</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Italic'>Tsentsuangjo</hi>-n bi egunez egon gi&ntilde;an eta bitarte ontan komunistak inguru aietara banatu ziran lapurretara. Aranondok ere aldegin zuen, ni Sin Liu-ren konturu utzita. Sin Liu ori nik egundai&ntilde;o ezagutu dudan gizonik zikin, lotsagabe ta nazkagarriena da bai ber eesanetan ta bai bere egi&ntilde;etan.</p>
+<p>Alderdi artako jendeek ezagutzen ninduten, <hi rend='Italic'>Eultxiatxuang</hi>-erako bidean dago ta. Lapurrek ango jendeai nitazko berriak eskatu zizkieten eta bai aiek eman ere, nitaz zekiten guzia kontautz; nik dirua ugari banuela, gari-ogia jaten nuela, astotxo bat banuela, eta aldien batez itxura ederreko bi mandoekin ere ikusi nindutela; urte bereartako maiatzean, <hi rend='Italic'>Jujomiao-</hi>ko ibarrean zelai andi bat erosi nuela bosteun dolaretan.</p>
+<p>Komunistek aurren aurrena dirua nai zuten; bai&ntilde;a ala ere, baserritaron aien aurrean beren gaixtakeriak edertzeko aitzakiak atera nai. Jendetalde andi batean mintzatu zan Sing Jui eta onelako ez-esatekoak esan zituen: &laquo;Ona emen arrotza au, ezta zuek uste duzuen bezain azkar ta altsua. Begira zei&ntilde;en apal daukagun&raquo;. Gero, soldadu gorriek, Wan tai txi agintari zuur ernea buru dutela, iritxitako garaipeank aipatu ondoan, erantsi zuen: &laquo;Txinoeraz erdipurdika mintzo dan arrotz au gezurti maltzur bat da eta ezin-si&ntilde;etsizko erlijioa irakasten du. Jainkoa badala esaten dizue; bai&ntilde;a, Jainko ori nork ikusi du? Gure baitan anima bat, ez aragi ta ez odol eztana badugula dio; gai&ntilde;a, anima ori nork ukitu du? Jende ezjaki&ntilde;ek si&ntilde;esten dituzte olako txorakeriak; guk, komunistok, eztugu olako si&ntilde;esterik, gu Markexi (Marx) ta Lenin-en ikasleak gera, oiek baitira Europane gunda&ntilde;o sortu diran gizonik andien ta jakintsuenak. Gaur mundua gorriena da; Txinan badira eun miloi komunista eta beste aldetan geiago&raquo;.</p>
+<p><hi rend='Italic'>Tsentsuang</hi>-eko jendeek, ni zarpazarrez jantzia ikustean, bazioten beren artean: &laquo;Au al da gero orain ilabete mando eder baten gai&ntilde;ean emandik igaro zana?&raquo; Aiek, alegia, ezin si&ntilde;etsi ori.</p>
+<p>Lapurretara joandakoak atzera itzuli ziran ainbeste gauza ostu ta bildurik; Aranondo ere pozik zegoen.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>40. Tayangp'po mendi gai&ntilde;ean</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Italic'>Lungtung</hi> ibarreko mapetan ageri diran menditontor guzien gorena <hi rend='Italic'>Tayangp'po</hi> ori da noski. Aren gai&ntilde;etik ederki ikusten dira <hi rend='Italic'>Kingyangna </hi>ta <hi rend='Italic'>Josuisiana</hi> mendi-lerroak eta antxe dago <hi rend='Italic'>Tungjo</hi>ta<hi rend='Italic'> Juatxi sui</hi> ibaien ixurki-muga.</p>
+<p>Gorriak guri ostutako mandoen gai&ntilde;ean patxadan jarririk eta atxiloak berriz oi&ntilde;ez igo gi&ntilde;an Tayango'po mendira; lapurren agintaria tontorrik gorenean eseri zan eta guk ere beste ainbeste egin genuen. Andik ageri dira <hi rend='Italic'>Kingyang </hi>eta<hi rend='Italic'>Sanxelipu</hi>-ko mendi-gai&ntilde;ak; aien ikusteak gogoeta ilunak egiteko bidea eman zidan. Illabeteko bat lenago, lokarririk gabe eta baso aietako basauntzak bezain lokabe, nere begiak gozartu izan nituen gain artatik ageri diran ikuspide ederretaz. Orain berriz!</p>
+<p>Antxe jarririk nengoela, lapur aietako asko etorri zitzaizkidan eta galdeak egiten zizkidaten, batez ere kanpotarrok Txinan dugun diruketa andiaz eta &laquo;Zuek bai&ntilde;o txiroago, beartsuago naiz ni&raquo; erantzun nien. Betaurreko-pare asko samar erakutsi zizkidaten; batzuek ezagutu nituen, <hi rend='Italic'>Sanxelipu</hi>-n ostuak ziran ta noski. Zenbatsu balio zuten galdetu zidaten, eta ogei ta amar dolaretik gora balio zutela entzutean arritu ziran.</p>
+<p>Sing Jui eskola zerbait baduen gizona da; arek zeduzkan Bartolome Aitaren betaurrekoak, eta, on bai&ntilde;o kalte geiago egiten ziotela esan bainion nik, etsi zuen ta atzera eman zizkidan. Sing Tsao koronelak Bortolome Aita berorren Olio Sanduak itzuli zizkidan; mutiko batek arrosario batzuek itzuli zizkidan, nik eska ta eska ekin ondoren; orrekin, balio andiko zerbait eman balidate bai&ntilde;o geiago poztu nintzan: aurrerontzean ez nuen arrosario sanduko Agur-Mariak beatzekin kontatzen ibili bear izango.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>41. Nere bererosleak bigarren aldiz etortzen</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Italic'>Tayangp'po </hi>mendia irauli ondoan, asma litezken zokogune basa ta izkutuenetan sartu ninduten; leku bakartsu ta otzak aietxek (30 gradu ta geiago zero-pean). <hi rend='Italic'>Tung mien</hi> deritzan toki ortan lapurrak beren etxean bezela bizi dira; iruzpalau aldiz izan naiz bertan, bai&ntilde;a beti beldur andiz. Zaintzale guzien begi erneai iges eginta ere, ez litzake errez basabazter ikaragarri artatik ateratzea. Oraindik luzaro atxilo egon bearko nuela etsitzen nuen gero tageiago.</p>
+<p>Azaroaren 18an <hi rend='Italic'>Lingtximiao</hi> ondoan egin genuen gaua; erri ori lenago gorabera andikoa izan zan noski, feria ere izaten zan artan; orain ormazar multzu bat da. Gau artan, atxiloen mendizuloaren buru Sintxangti izeneko bat egon zan. Lo egin genuen errixkan lapurrek egin zituzten beren gaixtakeriak, al duzten guzia ostu ta emakume gaixo bat gaizki erabili zuten.</p>
+<p>Azaroaren 19an, igandean, goiz jaiki gi&ntilde;an; egun ortan ibilketa luzeak egingo genituela atera genuen ortik. Bi kilometro bezelatsu ibilitakoan, eskui aldetik norbaitek nere izenez deitzen ninduela sumatzen dut; nere misiolari-lagunak bidalitako bigarren berreosleak ziran.</p>
+<p>Izketa auxe izan nuen aiekin: &mdash;&laquo;Nondik zatozte?&raquo;&mdash;&laquo;Sanxelipu-tik&raquo;. &mdash;&laquo;Eros-sari osoa ekarri al duzue?&raquo;&mdash; &laquo;Ez, erdia bakarrik&raquo;.&mdash; &laquo;Non duzue bada?&raquo; &mdash;&laquo;Lapur-buruei eman diegu&raquo;.&mdash; &laquo;Eta lapur-buruak zer esan dizuete?&raquo;&mdash; &laquo;Ekarri duguna gutxi dala eta beste erdia zeko; gai&ntilde;era paper batean jarri dizkigute ekarri bearko ditugun beste gauza asko, milaka dolareko baliokoak&raquo;. &mdash;&laquo;Ez al dago lokabe utziko nautelako usterik?&raquo;&mdash; &laquo;Oraingoz bat ere ez&raquo;.&mdash; &laquo;Zer diote Sanxelipu-n? Guziak ongi?&raquo;.</p>
+<p>&laquo;Oker dijoaz gauzak&raquo; esan nuen nere baitan; bai&ntilde;a gure Aita Frantzisko Sanduaren egiazko poztasunaz eta Inazio Sanduaren egiazko poztasunaz eta Inazio Sanduaren bigarren apaltasun-maillaz oroitu nintzan eta etsia artu nuen. &laquo;Atozte nerekin, esan nien gure gizonai; goazen lapur-buruengana, ea zer agintzen didaten neronei&raquo;.</p>
+<p><hi rend='Italic'>Lingtximiao</hi>-ko zelaian bildu ziran komunista guziak. Kao kang zaldun-koronelari mintzatzen natzaio; gorrien izlaria dan orrek beste gauzen artean auxe esan zidan: &laquo;Gu diru ta fusil ta tirogai ta sendagai ta beste zer askoren bearretan gaude eta zuk lagundu bear diguzu. Orain bei&ntilde;ipein eztugu zure odola nai, bear ditugun gauzak eskatzen dizkizugu. Txina-ko Gobernua zure alde duzu, arako <hi rend='Italic'>Sanxelipu</hi> lenago erre zan aldi artan bezela. Guk zuri zer-edo-zer ken badezazugu, Gobernuak ordainduko dizu beste errietako Gobernuekin asarre-biderik ez izateko. Eztugu zure dirua nai, Txinago Gobernuaren dirua nai dugu, arena bai&ntilde;o lenago gurea da ta. Arek zuzen-kontra diruketa gaitzak kentzen dizkie erritarrai eta diru ori ezta berea, gurea baizik. Oraingoz eztugu ordea indarrik aski Gobernuari berea eztan diru ori emanarazteko. Bai&ntilde;a zu gure menpean zaude eta lokabe gelditzeko eskatzen dizuguna eskura ezpadezaguzu, ementxe egongo zera beti, zere etxera gabe&raquo;.</p>
+<p>Orrela mintzatu zan Kao kang txapel-andia eta beste lapur-buruek, Wan tai txi eta Liutzeta ta gai&ntilde;erakoak berritsu aren erausia sendortu ta ontzat eman egin zuten. Agintariak bere aldetik, bere eskupekoaren itzai indar emanez, itz auek erantsi zituen: <hi rend='Italic'>&laquo;Sanxelipu</hi>-ko jendeak esan ta dakigu zer gertatzen dan bertan kanpotarrek zakarkerien bat egiten duten guzietan: Gobernua beti elizaren alde ateratzen da. Erriko polizia zuen eskuetan daukazue eta orren arma ta tirogai eta zaldiak bear ditugu&raquo;.</p>
+<p>Nik lasai lasai eta bat ere estutu gabe onela erantzun nien: &laquo;Oker zaudete esan duzuen guzi ortan; guri ez Txinako Gobernuak ez gure sorterrietako Gobernuak eztigute dirurik ematen; geren diruz eta zenbait ongi-egilek emandako limosnaz ari gera. Txinako Gobernuak gure biziak eta gure eskubideak zaintzen dizkigu, edozein aldetako Gobernuak beren lurretan bizi diran arrotzai zaintzen dizkieten bezela. Eta ainbesteko kalteak ikusi baditugu ere, eztugu orai&ntilde;o Txinako agintariengandik txanpon bakar bat ere jaso. Guk eztugu armarik ez tirogairik; <hi rend='Italic'>Sanxelipu</hi>-ko polizia ezta gurea, Gobernuarena baizik. Polizia orrek zaintzen gaitu, bere eginbidea danez; bai&ntilde;a armarik eztigu ematen. Sendagai askorik ere eztugu geren etxetan&raquo;. &mdash;&laquo;Sendagairik eztuzuela? Erosi bada!&raquo; &mdash;&laquo;Non ordea?&raquo;&mdash; &laquo;Shangai-en saltzen ezpadira, Europan eta Ameriketan&raquo;. Ai ene! luzatuz dijoa nere atxilo-aldia!</p>
+<p>Itz oiek beroiek esan zizkidaten lengo aldi batean ere. Geroztik, sendagaiak Europatik edo Amerikatik etorri arte, ez nuen lokabe gelditzeko usterik. Komunista izugarri guzi aien aurrean auxe esan nien nere berrerostera etorritako gizon prestuai: &laquo;Nere arazo au eztezakete gizonek zuzendu eta Jainkoaren eskuetan utz dezagun. Nere atxilotze au ezta nombait gizonen gauza, Jainkoarena baizik; ez naiz noski bear bezain ona izan eta Jainkoak ola isundu (kastigatu) nau. Bedeinka Bera! Zuek ez larritu, zoazte atzera Sanxelipu-ra eta Aita misiolariari oso ongi nagoela esaiozue; nere kristauei berriz esaiezue, Goiko Jauna (Tien Tzu) biotzez maitatzeko eta zintzon ibiltzeko&raquo;.</p>
+<p>Gizon prestu aiek beren txamarra larruzkoak erantzi ta nere eskai&ntilde;i zizkidaten. Nik, nolako bearretan nengoen ere, ez nizkien artu. Agur esan nien mandatari aiei; gero zuaitz-adar bat artu nuen zubi gabeko ibai aiek erosoago igarotzeko eta jo genuen errekan beera basoen eguzki-alderontz.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>42. Barua austen dut</p><--</head>
+        </front>
+        <body>
+<p>Oraindik luzaro atxilo egon bearko nuela atera nuen berriz ere <hi rend='Italic'>Lingtximido</hi>-n gertatu zitzaidan ortatik; ez neukan beraz nere zorigaitz ortara etsitzea besterik. Ezer ere jaten ez nuela bazekiten lapurtalde osoan eta jaki bereziak nai nituela begitandu zitzaien. &laquo;Zer nai duzu jateko?&raquo; galdegin zidaten atxiloen arduradunek. Eta nik erantzun: &laquo;Janari arruntak nai ditut, esaterako: patata, sagar, udare, maats, ogi-puska bat, besterik ez; aragiaz eztut axolik bat ere&raquo;. Nere eskabide ortaz arritu ziran eta beren buruei eragi&ntilde;ez ola zioten: &laquo;Sagarrak, udareak, maatsa... bidal dezazkiotela bere etxetik!&raquo;</p>
+<p>Jan-gabe egoteak mesede egin zien Bartolome A. eta Isidro Anaiari, lenbailen etxera joateko bidea izan zitzaien ta. Neretzat ordea ezpata galgarri bat zan baru ori eta guzien aurrean barua austea erabaki nuen. Ematen zidatena jan, ematen etzidatena eskatu, besten janariak ostu egiten nituen, arako teologoen esanera zuur ura gogoan nuela: &laquo;Bear gorrian, gauza guziak guzienak dira&raquo;. Andik aurrera, nere jateko txotxak eskuan, burrukan ari izaten nintzan nere atxilo-lgunekin, zei&ntilde;ek arrapatuko pertzaren ur motel gai&ntilde;ean igerika zebiltzan arto-aleak. Uraxe ikuskizun jostagarria!</p>
+<p>Aldi artan beste nagusi bat eman ziguten atxilooi; <hi rend='Italic'>Sing Tsanti</hi> zuen izena eta bataiatua ezpazegoen, kristau askazikoa zan beintzat. Gure nagusi onek ezagutzen zuen Tseng misiolari euskalduna eta oso ongi aipatu zuen: &laquo;Misiolari prestua da, txinatarren onetan kupide-gabe lan egiten duena. Arako zornakatz-izurria izan zan urtean, beldur gabe laguntzen zien izurridunai eta aietako asko sendatu zituen. Izurri gaitz arek etzuen <hi rend='Italic'>xenfu</hi> edo misiolaria ukitu. Goiko Jaunak (Tien Tzu) laguntzen baitio <hi rend='Italic'>xenfu</hi> orreri&raquo;.</p>
+<p>Misiolari ori Zendokiz-tar Frantzisko Aita frantziskarra zan noski; bizkaitarra. Gautegiz-Arteagako semea bera, gizon ixila, animen zeruratzea beste asmorik eztuena. Argatik ezta bat ere arritzekoa alako mirariak egiten baditu.</p>
+<p><hi rend='Italic'>Juantxisui</hi> ibai bixi-bixiaren ondoko ibar ederrean <hi rend='Italic'>Lingtximiao </hi>ta <hi rend='Italic'>Taipaitxeung</hi> artean egin genituen zenbait egun; atxilook ongi aski geunden Sintsanti nagusi berriaren menpean, bestean bai&ntilde;o gozoago eta biotz-berago da ta. Ibai-bazterretan patata asko bazan eta artoa ere bai poliki; janari zakarrak ziran oiek Singtsantirentzat: guretzat, atxiloontzat, berriz bikai&ntilde;ak. Patatak eskatzen nizkion eta ematen zizkidan, eta nik gordi&ntilde;ik jan. Gai&ntilde;erako atxiloak oartu ziran zer ari nintzan eta aiek ere patata eskatzen zuten, bai&ntilde;a misiolariaren bitartez. Berak etziran ausartzen ezer eskatzera.Lagun asko baitziran eta gai&ntilde;era gazteak eta sasoi onekoak, patata asko jaten zuten. Azkenean Singtsantik asarre samar esan zidan: &laquo;Bai patata asko jaten duela arrotz onek! len ain jangartz, orain onen zintzurkoi, Dirua bearko dugu onen asetzeko!&raquo; Lur-sagar guzi aiek nik jan nituela uste zuen, alegia.</p>
+<p>Azaroaren 22an iritxi gi&ntilde;an <hi rend='Italic'>Heisuise</hi>-ra; Sehnsi probintzian dago erri ori eta andik urbil daude euskaldun frantzikarren lenengo misio-tokiak. Alberdi-tar Jose Aitaren misio-etxeetaz arduratan negoen; gorrien artean maiz aipatzen zituzten etxe oiek eta beldur nintzan lapur tzarrak ara&ntilde;o joan ta ostu ta misiolaria atxilotu egingo ote zuten. Orixe ikaragarria! Gorrien infernu artan egoteko ez nuen lagunik nai, zein ere on ta sanduak diran. Misiolari aiei nai niekean adiarazi nolako arriskutan zeuden; ezin ordea! Iges egin al banezaken, ni nerau joango nintzan gaztigatzera. Ene gaixoa! Lekutan zegoen oraindik nere iges-egitea!</p>
+<p>Gau artan berean, azaroaren 22an, atzeratu gi&ntilde;an itzalderontz (eguzki-sartze aldera), <hi rend='Italic'>Juatxisui</hi> ibaian gora; gaueko amaikak edo ziran, gaugiro otza zegoen, eskuetako ileak erortzeko ai&ntilde;ako otza. Zenbait kilometro ibili ondoan, lurpe batean sartu ginduzten. Sukaldariak, eta batez ere nere zaintzale Aranondo, bizkor ari ziran lanean; laster ibilketa luzeen bat egin bear genuela ezagun zan. Amaika katilu uste zituzten komunista aietxek! Sukaldariek geiago jateko esaten zieten eta aiek erantzun: <hi rend='Italic'><foreign>&laquo;Txe pao leo txe pao leo;</foreign></hi> ezin, ezin! ase gera ok-egiterai&ntilde;o&raquo;. Guri, atxilo eprrukarrioi etzigun i&ntilde;ork ezer eskaintzen, ez eltzetara urbiltzera uzten ere. Singtsanti etzegoen an. Katituluetan gelditu ziran ondarrak biltzeko baimena eskatu nien eta aiek ezezko borobila eman zidaten. Berriz ere eskatzen diet, eki&ntilde;aren eki&ntilde;ez zerbait iristen ote dudan; eta birao ta iroi artean ogi-puska bat ematen didate; bai&ntilde;a nolako ogia gero! ikatza zirudien. Ala ere ozka egiten diot eta txeatzen dut gogotik. Bearrak gauza andiak eragiten ditu gero!</p>
+<p>Azaroaren 23an, argitu bai&ntilde;o askoz ere lenago abiatu gi&ntilde;an. Orain ere itzik ez egiteko ta ixilik ibiltzeko agindu ziguten. Ura ixiltasuna ibar andi artan! Errekaren gurguraia, orei&ntilde;en oiuak, oxtopo-egin ta mi&ntilde;-artutakoen baten aiotsak besterik etzan entzuten. Goizaldean turuta jotzen dute eta egunetik egunera ugalduz dijoan lapur-talde ura <hi rend='Italic'>Jusuwan</hi>-go zabaldi andira biltzen da bereala. An agintariak kokoriko eseri ta jende guzi ura inguru inguru dutela, izketan diardute bizi bizi; guk eztugu ordea aien itz bat ere aditzen. Bi ordu edo iraun zuen izketaldiak eta gero agertu zanez, gorabera andiko asmoak artu zituzten.</p>
+<p>Jo zuten berriro turuta; orduan fusildunak abiatzeko gertu jarri ziran. Gu, atxilo , armadunengandik urrun samar geunden, eun soldadu bere mendean zituen buruzagi baten kontura. Gure eskuetan utzi zituzten bandera gorria ta oe-tresnak eta eskopeta ustuak. Buruzagiak: &laquo;Etorri nere ondotik!&raquo; oiu egiten digu, eta abiatzen gera aren jarrai mendian gora, bai&ntilde;a ez beste lapurrek itxuraz beintzat jo bear duten aldera. Nik ezarian galdetzen diet lagunai: &laquo;Nora dijoaz gorriak?&raquo; Eta erantzun zidaten: &laquo;Egoaldera noski, Shensi probintziara&raquo;.</p>
+<p>Egun oso artan azaroaren 23an, aruntz-onuntz ibili gi&ntilde;an baso sasitsu itxietan; bazterrak ezagutu gabez, bein bai&ntilde;o geiagotan bidea galdu genuen. Goizean etzidaten arako ogi beltz puska ura besterik eman zian eta gai&ntilde;erako atxiloak baru utsik zeuden. Gorriek berriz, aurreko gauean egin zuten betekadaz gai&ntilde;era, jateko ugari zeramatzaten: ezti, aragi,ogi, azukare, patata egosi ta abar; gizon zuur, erneak izaki aiek.</p>
+<p>&#173;&laquo;Guk ere bizi nai dugu, oiu egin nien; gizonak gera zuek bezela, eta zuen janari ondarrak eman nai ezpadizkiguzue, orrako basa-makatz orietara igotzen utzi gaitzatzue, udare min oiek jan ta gure gosea il dezagun&raquo;. Ortarako baimena eman ziguten; igo gi&ntilde;an beraz zuaitz aietara eta basa-udare garatx eta mottel aiek goxo zitzaizkigun.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>43. Lapur-tegian</p><--</head>
+        </front>
+        <body>
+<p>Shensi probintziarekin mugatzen dan ibar luze mear batera iritxi gi&ntilde;anean, bukatu zan egun artako (azaroaren 23) ibilketa luze nekagarria. Basaleku baztertu artan komunista zauritu asko arkitu genituen eta aien artean Singyangti, Batzarre Nagusiko lagun, <hi rend='Italic'>Sanxelipu</hi>-n zauritua. Antxe bazuten arma-ola ta eritegia; eritegi ori Hupeh probintziako apaizgai protestante izandako baten kontura zegoen. Atxilo batek esaten dit ixilka belarrira: &laquo;Emen izan gera gu lenago; au da lapur-tegia&raquo;.</p>
+<p>Izan ere, alaxe zan, lege-gabeko jendeak bizi diran tokia; erta lapurren bizitegi izateko ezin aukeratu leku egokiagorik, alafede! &laquo;Auxe izango da gure gorputzen ilobia, esan genuen geren baitan; edo beintzat gure aukeramenaren ondategia, arik eta beren buruen jabe diran gizonen artera itzuli gaitezen arte&raquo;.</p>
+<p>Bai gora-irizten duela gizonak askatasuna loturik dagoenean! Bai atsegin zaizkiela atxilo baten belarriei Argentinako eresiaren itz aiek:</p>
+<p><foreign> &laquo;Oid el ruido de rotas cadenas</foreign></p>
+<p><foreign> libertad, libertad, libertad!</foreign></p>
+<p>Lapur-tegikoek aurpegi-ilun ta muker artu ginduzten. Lengo egunetan bezela, emen ere argi ta aizegabeko zulo batean sartu ginduzten. Gorriek bertan arkitu alako janari guziak laster garbitu zituzten eta gu goseak, ainbeste egun aietan asealdi bat egin gabe. Egun artan bertan, alako ibillaldi neketsua egin ta basa-makatzak besterik ez genuen jan. Nik ixil-ostuta arto-ale batzuek eskuratu nituen eta osorik iretsi. Nere barneko kezka ta biotz-zimikoak ixilarazteko, aako len aipatu dudan esan-zaar artaz oroitzen nintzan: &laquo;Bear gorrian gauza guziak guzienak dira&raquo;.</p>
+<p>Alaz ere, etzidan jan-gabe egon bearrak ematen kezkarik andiena; geiago estutzen ninduen <hi rend='Italic'>Ping t'ing tsuang</hi>-eko otz izugarriak. (ori da lapurtegiaren izena!) Geudnen zulo artan lo egiteko burusi ta bururdi ta oazalen ordez lur uts eta otza eskai&ntilde;i ziguten. An gaua egitea gure bizia edo beintzat gure osasuna galtzeko arriskuan jartzea zan. Ez nintzak iltzeko beldur; aitzitik, gorputzetik askatu eta zerura igo naiak nengoen. Bai zerura urbiltzen dala gizona mundua gaitzi zaionean! Orain, lokabe nagoelarik, nai nuke, orduan bezela, iltzeko edo bizitzeko berdin etsirik egon!</p>
+<p>Gogoan nuen ala ere, ni ez nintzala nere buruaren jabe, nik gorde bear nuela onik eta osorik Jainkoak atzera eska zezaidan arte. Argatik bizia galdu lezaidaketen arrisku guzien kontra nere neurriak artu nituen. Aurreko gauetan beste atxiloengandik berez etzaten nintzan; orain berriz, lapur-tegian aien ondo-ondoan etzaten nintzan, beren gorputzetan ageri ziran zofi andi gaitzai jaramonik egin gabe. Lenago nazkagarri zitzaizkidan ez bakarrik xomorro xikin oiek, baita xomorrodun jendeak ere. Orain ordea aien ondoan egon nai dut. Zer eragiten duen bearrak!</p>
+<p>Bai&ntilde;a gorputz aiek izotza ziruditen ta ni otzak iltzer nintzan. Bitartean gorriak <hi rend='Italic'>kang</hi> edo oatze bero atsegi&ntilde;etan lo zauntzan, zorronka galantzak egi&ntilde;ez. Ezin nagoke orrela; jaikitzen naiz eta mendizuloaren atea zaintzen duten igurien (zentinelen) aurrean nere asarrea erakusten dut txarkeri ortaz. Bai&ntilde;a aiek, nagusien aginduz ari dirala ta nere zoritxarrarekin etsitzeko esaten didate. Nik ezpainuen otzez il nai, gimnasia egiten jardun nuen gau osoan. Biaramonean, jaikitzean, nere lagunak bular-aldean odolbilduak zituzten; ni berriz egundai&ntilde;o bezain ongi nengoen.</p>
+<p>Argitu ondoan, jana eskatu genuen; bai&ntilde;a jatera eman bearrean, aurreko eguneko ibilketari berriz ekiteko gertu egon gintezela erantzun ziguten. Ibiltzea atsegin nuen nik orrela aienatzen baikenuen gure etsai ikaragarria, otza. Atxilo gaixo guziok armadun egin ginduzten gure fusilak bizkarrean, komunista gorrien itxura berbera genuen. Tankera parragarri ta kupigarri ortan kilometro batzuek ibili ondoan, <hi rend='Italic'>Laotsuang</hi> baserrira iritxi gi&ntilde;an; <hi rend='Italic'>Ping t'ing tsuang</hi> mendartearen erditik dijoan errekaren ezker aldean dago baserri ori. Arto-iri&ntilde;ezko zer bat eman ziguten jatera.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>44. Misiolaria egur-ketan</p><--</head>
+        </front>
+        <body>
+<p>Aldi artan Liu yuen san izeneko gaixtagin tzar baten mendean geunden atxilook; nik Barrabas izena emango diot, ongi merezi du ta. Ala ere Sing Tsao tenientea egoten zan geiena gurekin; bere nagusia bai&ntilde;o gozoago ta biotz-berago zan teniente ori.</p>
+<p>Onek bein bai&ntilde;o geiagotan atsegin egin izan baitzidan, <hi rend='Italic'>Laotsuang-</hi>era sartu gi&ntilde;an egun berean onela mintzatu nintzaion: &laquo;Nere teniente maitea, begira zenbat egur dagoen bazter oeitan; zertako utziko dugu or alperrik galtzera? Zuek otzak zaudete eta gu ere bai, aragi ta ezurrezkoak gera ta. Zulo onetan luzaro egongo gera noski; eta nai baduzu, guk ekarriko dugu menditik bear dan sugai guzia. Eztugu iges egingo, ez beldur izan; nik nere aldetik itzematen dizut, misiolari katoliko baten itza, nai duzuen arte zuen menpean egongo naizela; eta beste atxiloek, nai ta ere, ezin iges egingo dute, zuen fusilen irispidean egon ezkero. Lan egiten utzi zaiguzue, geren jana irabaz dezagun&raquo;.</p>
+<p>Biotz oneko tenienteak ontzat artu zuen nere eskabidea eta ala asi gi&ntilde;an egur-lorrean . Eta geroztik, bai labur zitzaizkigula gau eta eguneko ordu luzeak suaren ondoan! Bero egoteko ez nuen gimnasia egin bearrik. Mendizuloa, sutzar arek beroturik, atsegin zitzaigun. Bai gauez ta bai egunez nik zaintzen nuen sua.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>45. Lapur-tegian misioak ematen</p><--</head>
+        </front>
+        <body>
+<p>Nere atxilo-lagunak guziz maite nituen eta Jainkoagana erakarri nai nituen. Su ondoane goten gi&ntilde;an aldietan Jesusen berri irakasten ari nintzaien. Onelatsu itzegiten nien: Badala Jainko bat, zeru ta lur, aingeru ta gizonen egilea; gu anima ta gorpuzdun izakiak gerala, gure anima ori eztala iltzen eta gorputza ere il ondoan berriz piztu ta animarekin atzera batuko dala noizpait; guziok senideak gerala, Adam eta Evaren ondorengoak; lenengo gizon oiek Jainkoak egin zituela; Adam eta Evak Jainkoaren agindua autsiz bekatu egin zutela eta beren ondoko guziok aien bekatuaz kutsatzen gerala; Jainkoa gizon bekatariaz urrikaldu zala eta gu zeruratzeko Bera gizon egin zala Jainko-izatea utzi gabe; Jainko orrek onentzat zerua ta gaixtoentzat infernua jarri dituela.</p>
+<p>Auetxek ziran nik nere atxilo-lagun aiei azaldu nizkien irakaskari nausienak; entzule aietako batzuek nere irakatsia ona zala etsi zuten eta bai ontzat artu ere. Ala ere, len aipatu dugun agure zaar <hi rend='Italic'>Huosui</hi>-ko Eskola-Batzarraren buru zan ura gogor zegoen bere paganotasunean. Nere lagun gaixo aiek onak ziran eta anima onen baitara erraz sartzen da Jesu Kristo gure Jaunaren Ebangelio-argia.</p>
+<p>Agerian, i&ntilde;oren lotsarik gabe mintzatzen nintzaien, lapur asko ere etortzen ziran nere izketak entzutera, batzuek ikus-miran, besteak berriz, farisau ta sadukearren antzera, nere irakatsiai kontra egin ta indarra kentzera.</p>
+<p>Komunistek ez Jainkorik eta ez gizon-animarik si&ntilde;esten eztutela esan dut lenago; alaxe esan ziguten berek arrapatu ginduzten egun berean. Erlijio katolikoa ta bai beste erlijio guziak ere zorakeriatzat daduzkate. Ala izatea komeni zaie berai; Jainkoa baldin bada eta lege bat eman badu, komunismoa eztago izpidean, gezurra da. Argatik erakusten zien Wan tai txi-k bere mendekoai ta baserritarrai Jainkorik eta animarik eztala eta aietaz ez oroitzeko beraz.</p>
+<p>Gorriek, nere itzaldia entzun ondoan, galdegin zidaten: &laquo;Zuk non arkitzen duzu Jainkoa?&raquo; Nik erantzun nien: &laquo;Ortxe zure begietan eta emen gizon ta abere ta landare ta arriak dauden lur ontan arkitzen dut Jainkoa&raquo;. &mdash;Aiek atzera: &laquo;Nork ikusi du Jainkoa?&raquo; Nik erantzun: &laquo;Lenago, alde batera edo bestera ikusi zuten Adam, Eva, Abraham, Moises eta beste askok; il diran jende on guzien animek ere ikusi dute Jainkoa; eta gai&ntilde;era milaka lagunek ikusi zuten Jesu Kristo, Jainko ta gizona&raquo;.</p>
+<p>Aiek berriz ere: &laquo;Jesu Kristo milaka lagunek ikusi zutela nola dakizu?&raquo; &mdash;Eta nik: &laquo;Orain mil ata milaka urte Txinan izan diran errege ta gizon andizkien izen ta egi&ntilde;ak nola dakizkizue zuek? Olaxe dakit bada nik ere Jesu Kristore berri&raquo;.</p>
+<p>&laquo;Eta gizonen anima nork ikusi du?&raquo; &mdash;Nik erantzun nien: &laquo;Gure anima eztugu begiz ikusten, bai&ntilde;a badala ezagutu bai badezakegu. Esadazue bestela: Atzo il zenituzten zerri belarri-luze aiek eta zuen agintaria Wan tai txi berdin al dira? Ez noski; zuen agintariak badu adimena, belarri-luzeek berriz ez; agintariak itzegiten du, urdek berriz ez. Zuek guziok ere baduzue adimena ta mintzoa (izketa); eta adimen ori, edo anima bera da edo animarekin baturik dago ezin-berexizko moduan; adimena dan tokian anima ere bada beraz. Adimenik ez animarik eztuten aberekin berdin egiten al dituzue zuen buruak? Eztut uste. Gai&ntilde;era, Jainkoa ta anima badirala bere ezaumen utsez ezagutu ta erakutsi dezake gizonak&raquo;.</p>
+<p>Nere itzalditxo ori, ain arrazoizkoa bazan ere, etzuten lapurrek ontzat artu; aiek ez omen dute begiz ikusten dutena baizik si&ntilde;esten. Aiei si;ets-araztea ezpada, lotsaraztea beintzat erraz zitzaidan . Ots, esan nien; lurra eguzkiaren inguran biraka dabilela eta an goiko izar aietako asko gure mundu au ba&ntilde;o andiagoak dirala ikusi al duzue?&raquo; &mdash;&laquo;Ez, erantzun zidaten; bai&ntilde;a eztugu ori ere si&ntilde;esten&raquo;. &mdash;&laquo;Eztuzuela si&ntilde;esten? Eskola piska bat duten jende guziak ortaz etsirik daude bada. Eta ni, arrotza ta misiolari katolikoa naizelako si&ntilde;esten ezpanauzue, orra or Tutxio, kristau izan nai eztuena, orra or Singtxao irakaslea, orra or <hi rend='Italic'>Huosui</hi>-ko Eskola Andiko ikasle oiek, oiei galdegiezue, eta baietz, lurra eguzkia bai&ntilde;o txikiago dala ta mundua gelditu gabe badabilela esnago dizuete&raquo;. Irakasle ta ikasle aiek, nik ain ongi aipatu nituelako pozturik, nere alde atera ziran eta zuzen nengoela adierazi zuten, ni garailari gelditu beraz.</p>
+<p>Atxilo egon nintzan arte guzian bein bai&ntilde;o geiagotan izan genituen olako izketaldiak eta geienetan gau beranduan, su ondoan jarrita.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>46. Gorriak Jainkoaz gaizki-esaka</p><--</head>
+        </front>
+        <body>
+<p>Gorriak jende ozar ta lotsagabeak dira eta gai&ntilde;era biraozaleak. Nik Jainkoa badala ta beren aita dala ta damutzen ezpadira infernura bidaliko dituela erakusten nienean, etzekiten zer erantzun. Ala ere oiu egiten zuten: &laquo;Bera Jainkoa! Il dezagun geren fusilez! Ura bai&ntilde;o indartsuago gera gu. Orra or misiolari ori; Jainkoaren jauresle ta mirabe zintzoa, Beraren ordezkoa omen da; eta ala ere ezer eztezake gure aurka, guk berriz nai duguna egiten diogu berari. Orra nola dagoen uzkaldurik, ezertako gauza eztala! Zergatik eztio laguntzen bere Jainkoak? Zergatik eztu askatzen? Zergatik eztio jatera ematen?&raquo; Olaxe esan izan zioten bein Jesusi bere etsaiek: &laquo;Jainkoaren semea baaiz, jetsi adi gurutzetik&raquo;.</p>
+<p>Aldien batez, beren fusilak nigana zuzendurik, Jainkorik ez si&ntilde;esteko agindu zidaten; nik ordea, Zoriondun Berriotxoari bizkaitar sandu berri bat lagun emateko ustean, bat ere beldurrik gabe erantzun nien: <hi rend='Italic'><foreign>&laquo;Wo sin Tien Tzu</foreign></hi>, si&ntilde;esten dut Jainkoagan&raquo;. Nere erlijioa gezurra ta parragarria dala eta ez geiago erakusteko esan zidaten; nik berriz, nere erlijioa sandua ta jainkozkoa dala ta alde guzietan irakatsiko dudala erantzuten diet. Orrelako eztabaida gogorrak oso maiz izan genituen.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>47. Simon Pedro Kaifasen atarian</p><--</head>
+        </front>
+        <body>
+<p>Azaro ta gabonileko izketaldi aietan maiz oroitzen mintzan Pedro Apostolu sanduaz; gogoratzen nuen batez ere Ostegun Sandu gauean egin zuena, nola egon zan Kaifasen etxe barnean su ondoan eseri ta judutar apaiznausiaren mirabe ta beste jende alper askroen erdian aien lotsagabekeriak entzuten, nai bazuen ta ezpazuen. Zenbat gauza konta zitzaken gero Apostolu sandu arek, batzuek parragarriak, beste asko nazkagarriak!</p>
+<p>Orrelako egon nintzan bada ni ere gizeraile, lapur lotsagabe ta bizimodu tzarreko jende artean; amabi urtetik ogei ta bost urtera bitarteko gizakiak ziran geienak. Ez Jainkoari beldurrik ez urkolgunari begiramenik eztioten jende aiek egin ta esaten zituzten lotsagabekeriak eztira esatekoak. Ez, ezin aipa ditzaket eta are gutxiago idatzi egun aietan entzun ta ikusi nituenak. Auxe bakarrik esatea aski da noski: beste atxiloak berak, paganoak ziralarik, izutzen ta nazkatzen ziran ikusten ta entzuten zutenaz.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>48. Ur-ketan</p><--</head>
+        </front>
+        <body>
+<p>Gure nagusiak lanik astun eta gogorrenak guri ematen zizkiguten, berak nekerik txikiena ere artu gabe. Guk ekarri bear genituen menditik egurrak eta oeak berotzeko abarrak eta errekatik ura.</p>
+<p>Lapur-tegi artara bezain laster, komentu batean bezelaxe nagusi gogor errukigabe baten mendean bizi bear nuela etsi nuen eta aren esanak itsurik, bereala ta alaiki egiteko asmoa artu nuen (Jainko-legearen kontrako zerbait agintzen ezpazidan, ori jaki&ntilde;a!). Zein zintzo ta osoki bete nuen nere asmo ori, aitor dezakete Singtsao tenienteak eta nerekin ibili ziran beste zenbaitzuk. Nere nagusien naikariak asmatu nai nituen bereala egiteko. Erlijioso gutxi izan dira noski ni komunisten artean nintzan bezain esangile zintzo.</p>
+<p>Alde ortatik beintzat sandu bat nirudien. Singtsao tenienteak berak, nere aldaketa ortaz arriturik, auxe esan zidan: &laquo;orain etzera lengoa bera; len ain asarre-samur, arroputz ta mutiria zi&ntilde;an; orain berriz onen gozo, apal ta esangilea.Orain eztuzu akatsik bat ere, ez andi ta ez txikirik&raquo;.</p>
+<p>Singtsao orrek misiolari asko ezagutzen ditu ta aiekin ibili izan da noski eta aien irakatsiak ulertzen ditu gutxi edo asko. Orretxek aditzen ninduen ongiena. Urketara bidaltzen ninduten ta joaten nintzan bereala; eieran (errotan) lan egiteko agintzen zidaten eta eieran lan egiten nuen.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>49. Eieran (errotan) lan egiten</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Italic'>Kansun</hi>, nik ezagutzen dudan alderdian bei&ntilde;ipein, ur-eiera gutxi da, aize-eierarik bat ere ez. Eiera geienak aberen bidez edo gizonen eskuz ibiltzen dira. Etxe geien geienetan badute eiera erabiltzeko abere bat; etxe guziz beartsuetan eskuz egiten duten lan ori.</p>
+<p>Lapur-tegi artan egon gi&ntilde;an aldi guzian, egunoro edo beintzat egun bitik batean toki batetik bestera aldatzen gi&ntilde;an, geienetan gauez; ostatuz egoten gi&ntilde;an baserrietan etzan beti eiera erabiltzeko abererik izaten; orduan guk, atxilook iraularazten genuen errotarri astuna, guk eiotzen genuen lapur-talde osoak bear zuen irin guzia. Ni, nagusien naikaria asmatuz gogotik eskeintzen nintzan beste atxilo guziak itsusitzat zedukaten lan ortarako. &laquo;Utzi zadazue lan ongitsu ori, esaten nien; lana gauza anditzat artzen dan Errepublika bateko semea bainaiz ni&raquo;. Nitaz parre egiten zutela? Bai bost axola zitzaidan neri. Nere zai&ntilde;ak teinkatu ta gau otz luze aietan otza garaitzeko naikoa berotasun bildu egiten nuen ta kito!</p>
+<p>Gure toki-aldak geienetan gauez egiten genituela esan dut lenago; ostatu berrietara berandu iristen gi&ntilde;an eta etzegoen beraz basora egur-eske joaterik. Nik nere gorputz-ekitaldietan igarotzen nuen gau osoa; loaz axola gutxi nuen. Lo egin gabe azkar nengoen: lo egiten zutenen artean berriz maiz agertzen ziran batzuek oi&ntilde;ak anditurik, besteak birika aldea mindurik; argatik loari gorroto piska bat artu nion.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>50. Gure jatorduak</p><--</head>
+        </front>
+        <body>
+<p>Lapur-tegian egon gi&ntilde;an aldian ongi samar eman ziguten jatera; bein ardikia, beste bein faisankia ere eman ziguten (faisan asko izaten da ango bazterretan). Geienetan ala ere arto-iri&ntilde;ezko bazka motel gatz-gabe bat ematen ziguten eta guri goxoa iduritzen. Gizonaren agoa bear-orduan edozertara jartzen da. Zenbait aldiz arto-purea ta gari-zopak ere eman zizkiguten.</p>
+<p>Atxiloen jana gerok maneatzen genuen; gorrientzat beste sukalde batean egiten zuten eta agixko janari bikai&ntilde;ak, aragi-mota asko iresten zituzten: faisan, eper, oillo, ardi, auntz eta zerrikia. Abelgorririk eztute iltzen ez jaten komunistek eta ez beste txinatarrek ere. Lapur-tegian maiz egiten zituzten beren jatura gaitzak, ortarako auntz eta artalde andiak bazituzten ta.</p>
+<p>Noizean bein, jaki urintsu oiek iduki zituen ura eskaintzen ziguten eta guk bai gogoz urrupatzen, edari goxoena bailitzan. Eta gu ain gogorki artzen ginduzten gizon aiek, berek ain galanki jan ta guri ondar-mondarrak eskaintzen zizkiguten aiek munduan <hi rend='Italic'>anaitasuna, askatasuna</hi> ta <hi rend='Italic'>berdintasuna</hi> jartzera omen datoz ...</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>51. Nere edan-kuia</p><--</head>
+        </front>
+        <body>
+<p>Etxetan eta misiotegietan osturiko katilu batzuek beste ontzirik etzuten gorriek; etziran aski ordea ainbeste lagunentzat eta ozarren ta lotsagabenak baliatzen ziran aietan. Guk ere ontzi oiek beroiek erabiltzen genituen eta beste atxiloak ni bai&ntilde;o erneago baitziran, beti bigarren jan-aldirako, bigarren txnadarako uzten ninduten; berak jan ta ase ondoan, orduan ematen zidaten katilua. Eta Europar batek asetzeko bi katilukada bear baditu, txinatar batek zortzi bear dituela gogoan iduki gero. Zer gertatzen zan bada? Nere txanda etortzen zanerako, ezer gutxi gelditzen zan jateko. Ara bada zer asmatu nuen.</p>
+<p>Nere zaintzale Aranondori aizto(labana) bat eskatu nion <hi rend='Italic'>(Sanxelipu</hi>-n ostua zuen berak); gero <hi rend='Italic'>kui</hi> edo <hi rend='Italic'>kalabaza</hi> bat ustu, mamia ta azi-aleak jan ta azalaz opor edo katilu eder bat egin nuen. Orduezkero banuen nik nere ontzia, gerritik zintzilika neraman beti. Jateko txotx batzuek ere egin nituen, neronek bakarrik erabiltzekoak, eta geroztik etzidan neri i&ntilde;ork adarrik jotzen. Ordu jaki&ntilde;etan nere edan-kuia bete ta ase arte jaten nuen. Jatordu ondoan ezer onaurki&ntilde;ik gelditzen bazan pertzean, nik artu ta nere oporrean gordetzen nuen, gero nik artu ta nere oporrean gordetzen nuen, gero amarretako edo lauetako bat egiteko. Nola edo ala moldatu bear bizimai&ntilde;a ateratzeko!</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>52. Nere bigarren berrerosleak etxeratzen dira</p><--</head>
+        </front>
+        <body>
+<p>Ni lapur-tegi artara sartu nintzan garaitsuan, nere berrerostera etorritako gizonak <hi rend='Italic'>Sanxelipu</hi>-ra itzuli ziran. Atsekabeturik zijoazen gaixoak, beren eginkizun artan gaizki atera ziralako. Negarra begietan, jakinarazi zieten ango misiolariai lapurrekin ikusi zutena. &laquo;Komunista oiek (zioten gure gizonak) eztira beste lapurrak bezelakoak; besteak ematen zaienaz pozik gelditzen dira; komunistak berriz, emaitza geiago eraman badezakiegu, geiago eskatuko dituzte eta eztakigu noiz aseko diran. Atxilo orren askatasuna iritxiko ote dugun eztakit&raquo;.</p>
+<p>Orixe berri sami&ntilde;a! Nere misiolari lagunak gure Prefecto Aldaba-ko Gregorio Aitari adiarazi zioten gertatua, gure buruzagi orren berriz <hi rend='Italic'>Pingliang</hi>-eko soldadu-agintariari ta Aita Sanduaren Ordezkoari ta misio katolikoen zaintzale dan Konsulari parte eman zien. Txinako egunkariek Errepublika guzian barna edatu zuten berri ori. Misiolari bat lapurren eskuetan erortzeak ots andia ateratzen du Txina osoan, egunkariek zabaltzen dute berri txar ori, jende guziek, edozein erlijiotakoek, naigabea artzen dute misiolariaren zorigaitzaz.</p>
+<p><hi rend='Italic'>Lungtung</hi>-eko kapitanak nere askatzeko biderik bat ere artu zuen eztakit. Agi danean auxe bakarrik esan zuen: &laquo;Lapur oiek otso-talde bat dira, soldaduen aurrean sakabanatu ta arru sakonetan gordetzen dira. Olakoen kontra ezer ezin dagikete nere soldaduek&raquo;. <hi rend='Italic'>Yegnanfu</hi>-ko brigadierari berriz Gobernuak zorrozki agindu zion noski, misiolari katolikoa askatzeko egi&ntilde;al guziak egiteko.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>53. Lapurren botikariarekin izketan</p><--</head>
+        </front>
+        <body>
+<p>Lapur-tegian zeuden zaurituak botikari protestante batek zaintzen zituen; <hi rend='Italic'>Hupeh</hi> probintziakoa zan, gizon gazte, alai, adeitsu, atsegi&ntilde;a. Ameriketan artzai (edo apaiz) protestante baten eskolan ibilia zan; geografia ezagutzen zuen poliki eta misio katolikoen berri zerbait ere bazekien. Ederki idazten zuen lati&ntilde;ezko izkiekin eta Europako izkuntzaz poliki samar mintzatzen zan.</p>
+<p>Nere ezbearraz atsekabea erakutsi zidan eta Biblia bat eskatu zidan. Nik orduan nerekin Biblia bat ere ez nuela erantzun nion; bia&ntilde;a geroago emango niola bat ederra, berak ordu arte irakurri zituenak bai&ntilde;o osoagoa ta argibidez ornitua. Europako izkuntzaz mintzatzen gi&ntilde;an, eta txinoeraz esango etzizkidan ixileko zenbait gauza kontatu zizkidan.</p>
+<p>Lapur-tegian zeuden soldadu gorri aiek, lenago soldadu zuriak, Txiang kai xek-en Gobernuaren aldekoak izan omen ziran; bai&ntilde;a geroago, bear bezela gobernatzen etzula eta aberatsen ta beartsuen artean zuzen-kontrako ezberdintasun andia zegoela ikusirik, soldadu gorri edo komunista egin omen ziran. Aien eginkizuna, aberatsak ondatu ta beartsuai lasai samar bizitzeko bear dutena ematea omen da. Oraingo Txinako agintariak azpiratu ta oien ordez baserritar ta soldadu-batzarreak, txinatar jator ta komunistak jarri bear omen dira agintari. Bera botikari zedukaten gorri aiek garailari ateratzen omen ziran alde guzietan eta ordu arte iritxitako garaipeank aipatu zizkidan. Wang tai txi zan beren agintari nausia.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>54. Wang tai txi zergatik egin zan komunista?</p><--</head>
+        </front>
+        <body>
+<p>Ni lapurren menpean nengoen bitartean, ez nekien orai&ntilde;o zergatik egin zan komunista gure agintari Wang tai txi, lenago Gobernuaren alde egon zalarik. Geroago, lokaberik <hi rend='Italic'>Kingyang</hi>-era biurtu nintzenean, ikasi nuen zerbait ortaz.</p>
+<p>Uri onetako polizia-buruak auxe kontatu zidan: &laquo;Orain bi urte soldadu batzuek il zituzten <hi rend='Italic'>Pingliang</hi>-en sueziatar artzai protestante bat eta beste bi lagun, bat amerikarra ta bestea japondarra. Wang tai txi zan noski soldadu iltzalle aien koronela. Ildako aien konsulak beren asarrea erakutsi zuten eta orduan <hi rend='Italic'>Nantxin</hi>-go Gobernuak iltzale aiek arrapatu ta gogorki isuntzeko agindu zuen. Eta gari artan nonbait, Gobernukoen eskuetan ez erortzeko, Wang tai txi komunista egin zan.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>55. Liu yuen san-en barabaskeriak</p><--</head>
+        </front>
+        <body>
+<p>Baldin Liu yuen san ori Ponzio Pilatoren aldian bizi izan balitz, orixe autatuko zuen noski, Barrabasen ordez, Jesusen parean jartzeko; nekez arki liteke i&ntilde;on ori bezain lapur gaizto, litxar, gezurti ta gizerailerik. Gizon nazkagarri orren mendean laster joaten zitzaizkigun egunak lapurtegi artan, munduan zer gertatzen zan bat ere oartzen ez gi&ntilde;ala.</p>
+<p>Atxilo bati galdegiten diot: &laquo;Zure eros-saria noiz etorriko dala uste duzu?&raquo; Eta arek esatendit: &laquo;Eros-saria? Gure eztigu i&ntilde;ork eros-saririk bidaliko; abere galduak, beren jabeek arki ezin ditzaketen abere galduak bezela gera gu&raquo;. Lapur tzar batekin dagoen beste bati esaten dot. &laquo;Lokaberik etxera biur gaitezenean, sendagaiak bidaliko dizkitzut&raquo;. Arek atzera: &laquo;Bai&ntilde;a gu lapur gaixto auen atzaparretatik aterako gerala ustea al duzu?&raquo;. orixe negargarria federik eztuen gizon batentzat!</p>
+<p>Azaroaren 296a zan. Beste atxilo gaixoa! gogorkeri gaitzak egiten asi zitzaizkien: egun osoan baru utsik iduki, gero zigorrez jo ta zeatu; gai&ntilde;era, eros-sari osoa etorri arte egunoro olakoxeak ikusi bear zituztela esaten zieten. Aldi artan etzidaten neri neke andirik eman, zenbait sari ta esku-erakutsi emanak nituelako noski. Zenbat aldiz ikusi nituen nere lagun gaixoak otzak eta negarrez! Ondoko egunak, gabonilera arte, bereolatsu joan ziran. Gaueko otzak izutzen ninduen geiena eta gimnasia egi&ntilde;ez berotu ezpanintz, onezkero galdua nintzan.</p>
+<p>Gabonilaren lenengo egunetan etorri zitzaizkidan neri ere Barrabas tzar aren morroiak eros-dirua eskatzera. Dirurik ez nuela esan nien. &laquo;Eska zaiezu beste misiolariai!&raquo; &mdash;&laquo;Ez orixe, beste misiolariai eztiet eskatuko. Gai&ntilde;era zuek, etzerate itzeko gizonak, emandako itza jan didazue ta; olako jende maltzurrekin eztut artu-emanik izan nai. Gogora zazue <hi rend='Italic'>Lingtximiao</hi>-n egin zenidaten beltzkeria. &laquo;Bosteun dolaren balioko gauzak ekarri ezkero, lokabe utziko zaitugu&raquo; esan zenuten <hi rend='Italic'>Sintxiajo</hi>-ko mendietan geundelarik; eta orain milaka dolaren balioko gauzak eskatzen dituzue. Ori al da zintzotasuna?&raquo; Nere onetatik atera nintzan eta zer nion ere ez nekiela, euskerazko itz auek jalki zitzaizkidan: <hi rend='Italic'>&laquo;Tratua tratu, lapur aparaju; idia adarretik eta gizona berbatik&raquo;. </hi></p>
+<p>Itz ezezagun oiek entzutean, Singtsao tenienteak esan zidan: &laquo;Izkuntza ori eztiagu ulertzen eta esan zak nai dukana. Bai&ntilde;a begira gero, gure esanera jartzea obe duk gero; bestela gure Liu yuen-san andiak iretzat berexi dituen gogorkeriak eraman bearko dituk&raquo;.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>56. Neretzako gogorkeriak</p><--</head>
+        </front>
+        <body>
+<p>Singtsao tenientea etzan gaixtoa berez eta bein bai&ntilde;o geiagotan erakutsi zidan egiazko maitasuna. Ni ainbesteko neketan ez ikusteagatik, bein ta berriz ta asko aldiz eskatu zidan nere eros-saria lenbaitlen ekarraraz nezan. Aldi artan izketa auxe izan genuen biok:</p>
+<p>Arek: &laquo;Ona emen gure Liu yuen san bikai&ntilde;ak iretzat gertu daduzkan oi&ntilde;azeak: aurrena, jana kendu ta barurik idukiko augu&raquo;. Nik: &laquo;Etzait axolik&raquo;.</p>
+<p>Arek: &laquo;Zigorrez joko augu gogorki&raquo;. Nik: &laquo;Etzait axolik&raquo;.</p>
+<p>Are: &laquo;Bilustuko augu eta orrako esol orri loturik idukiko augu negu otz osoan&raquo;. Nik: &laquo;Etzait axolik&raquo;.</p>
+<p>Arek: &laquo;Zuaitz-adar batetik zintzilika jarri ta aragiak urratzera&ntilde;o zanpatuko augu&raquo;. Nik: &laquo;Etzait axolik&raquo;.</p>
+<p>Arek: &laquo;Begi bat aterako diagu&raquo;. Nik: &laquo;Etzait axolik; auxe esan digu Jesu Kristo gure Jaunak: BEgi bidun infernura joan bai&ntilde;o obe da begi-bakar zerura sartu&raquo;.</p>
+<p>Arek: &laquo;Belarri bat ebaki, sudurra erauzi, oin bat moztu egingo diagu&raquo;. Nik: &laquo;Etzait axolik&raquo;.</p>
+<p>Arek: &laquo;Bizirik sutara botako augu&raquo;. Nik: &laquo;Etxait axolik&raquo;.</p>
+<p>Arek: &laquo;Soldadu gorrien atxilo egon al aiz lenago?&raquo; Nik: &laquo;Ez egundai&ntilde;o&raquo;.</p>
+<p>Arek: &laquo;Ezagun duk bai; baldin baeki nolakoak geran, gure beldur intzake noski. Ala ere, ire ezekoan gogor baago, laster nabarituko duk zein beldurgarriak geran&raquo;.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>57. Gizon bati burua moztea</p><--</head>
+        </front>
+        <body>
+<p>Lapurrak <hi rend='Italic'>Kutxiawatze</hi>-n atzeman zuten Li ja txin izeneko gizon bat, <hi rend='Italic'>Yuelou </hi>barrutiko polizia-buruaren anaia, ogei ta amabost urtekoa, gorputzez sendo ta ongi egi&ntilde;a. Ikusi nuen bezain laster, aren musu zabal ta begi beltxetan sumatu nuen alako etsitasun aundia, apaltasun gozoa, mendetasun itsua ta beste asko birtute; jaki&ntilde;a da, birtute oiek etziran naturazgorakoak (Jainkoak emanak), bai&ntilde;a egiazki sandu diran kristau animetan bakarrik arkitu oi dira.</p>
+<p>Bai maitagarri egin zitzaidala gaixo ura bere zorigaixtoan! Itz gutxi egin nuen gizon txoragarri arekin; bai&ntilde;a gurekin egon zan artean, lege andia artu nion eta al nezaken guzia laguntzen nuen. Tzarkeri andiak egin zizkioten asto edo zaldi baten gisa lauroinka jarrarazi ta bizkar gai&ntilde;ean esertzen zitzaizkion, burua makilaka zanpatzen zioten; eta arek etzuen esparik den txikiena ere ateratzen. Olako egonarria nondik zuen ez nekin.</p>
+<p>Egun batez ondatu zitzaigun; artaz galdegin nuen eta Li ikasleak, burua moztu ziotela esan zidan. naigabe andia artu nuen gizon on aren eriotzaz. Bere lagunai, bera bezela erritar baketsuak ziran lagunai ongi-egin beste gaizkirik etzuen egin gaixoak eta argatik moztu zioten burua. Orduan oartu nintzan nondik zetozkion len aipatutako birtute guzi aiek; alegia, lapurrek ilko zutela etsirik zan ain uzkur ta beldurti. Bere anaiek jaso zuten gorputz-ila eta beren etxekoen zelaietan lur eman zioten.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>58. Nere otoitzak</p><--</head>
+        </front>
+        <body>
+<p>Txintxo egiten nituen egunoro nere otoitzak: Goizean, Agur-Mariak, gero Sandu guzien letaniak eta ordu batez bederen gogozko otoitza. Ori egiten nuen, naiz mendi-zuloetan geldi egon ta nazi mendietan barna bidez ibili. Jainkozko Ofizioa otoizteko libururik ezpainuen, Inozenzio IVgarrenak berexitako otoitzak egiten nituen eta gai&ntilde;era arrosario asko eta bai Jainkoari ta Sanduai otoi laburtxoak ere. Lapur batek kendu zizkidan arrosarioak eta beste batek atzera eman; balio andiko bitxi bat eman balit ba&ntilde;o geiago eskertu nion mesede ori.</p>
+<p>Jatekoa zi&ntilde;atzen nuen gure komentuetan egiten dan bezela zeremonia ortaz arritzen ziran gorriak, batzuek onesten zuten, besteek parragarritzat artzen. Nik <hi rend='Italic'>Gurutze Sanduaren</hi> egitean, jaten ari ziran janaria ematen zidaten askok eta bai auxe esan ere: &laquo;Orra! bere Jainkoak bertan utzi du ori eta bere etsairik aundienak geran auetaz baliatzen da orreri mesede egiteko&raquo;. Agur-Maria ta <hi rend='Italic'>Gurutze-Sanduaren </hi>oiek amaika zerriki puska ta faisan-saieski eskuratu zizkidaten.</p>
+<p>Nere egunoroko otoitzak lapur askoren aurrean aruntz-onuntz ibilki egiten nituen; nik ezpai&ntilde;ak igitzen nituela sumatzen baitzuten, belarriak nere ago-ondoratzen zituzten nere itzak entzuteko. Bai&ntilde;a arrotzaren izkuntza etzutela ulertzen ta aldegiten zuten. Otoitzean ari nintzan bitartean, ez nuen nai i&ntilde;ork itzik egin zezaidan eta norbaitek itza emanten bazidan, ixilik egoteko adiarazten nion beatz ta ezpai&ntilde;ez gurutzea egi&ntilde;ez.</p>
+<p>Misiolariak, ageri eztiran izaki batzuekin izketan ari dan bitartean ezer jaten eztuelako otsa zabaldu zan lapurren artean. Ori egia ote zan jakiteko, jaki gozoak, berentzat atonduriko jakiak eskaintzen zizkidaten. Ni ontzia eskuetan artu ta arrosarioa bukatu arte ezer murtxatu (probatu) gabe egoten nintzan. Egunoro etortzen zitzaizkidan lapur berriak eta guziek proba egin nai. Lengoek esaten zieten etorri-berriai: &laquo;Zuen ontzia bete jaki bere esku ezkerrean jarri zaiozue eta ikusiko duzue nola eztuen ezer jaten, ariketa borobiltxo gorrixka oiek (a&oacute;sario-aleak) ukitu arte&raquo;.</p>
+<p>Bear bezain kartsu ezpada ere, egundai&ntilde;oko jaierarik andienaz egiten nituen nere otoitzak. Aiek nai ainbat jostatzen ziran, nik berriz asebete galantak egiten nituen. Pompeya Berriko Amak laguntzen zidan ageri ageri. Ala ere, nik Ama Birji&ntilde;ari otoitz egiten banion, ez nuen gorriek ematen zidaten jana irabaztearren egiten, ez orixe!</p>
+<p>Barrabas ere bein bai&ntilde;o geiagotan etorri zan proba egitera. Nik jakiak nola zi&ntilde;atzen nituen eta goiz-arratsetako otoitzak nola egiten nituen ikustean, irriparrez esaten zuen: &laquo;Oiek txorakeriak!&raquo; Nik ordea erantzuten nion: &laquo;Ez, ni ez nago txoraturik, zuek zaudete txoraturik, zuek!&raquo;</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>59. Europako izkerak irakasten</p><--</head>
+        </front>
+        <body>
+<p>Lapur aietako asko Txinako Eskola Andietan ziran eta Europako izkuntzen berri zerbait ekiten. Espai&ntilde;iako erdera ere bezala entzun zuten eta aren gramatika obekixeago ezagutu naiak zeuden. Bi izkuntzen eskola eman zien eta bai aiek ederki ikasi ere. Txinatarrek geienean erraxki ebakitzen dituzte Eruoparren itzak. Ikasle erne oiek Valladolid edo Buenos-Aires edo New-York edo Londo-go ikasleak bezelako bakean bizi balira, Laster irakur litzateke Quevedo ta Sarmiento, Milton ta Shakespeare-ren liburuak. Zenbaituzk leia andiz ekiten zioten erderaren ikasteari. Onezkero Madrid edo Buenos-Airesko karriketan dabiltza bearbada.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>60. Barularien multzua</p><--</head>
+        </front>
+        <body>
+<p>Baru utsik zeuzkaten atxiloen artean jarri ninduten ni ere gabonilaren lenengo egunetan eta gai&ntilde;eako guziak bezela erabiltzen ninduten. Orduan esan nuen nere baitarako: &laquo;Beren eros-saria ekarri nai eztuten atxiloentzat Barrabasek izendatu dituen zigorradak ematen asi zaizkiguk oraintxe!&raquo; Ori zan, izan ere, lenengo zigorrada: atxiloak baru utsik idukitzea.</p>
+<p>Nere lagun errukarriak negarrez ari ziran goseak ea nik urrikari nituen gaixo aiek. Nik ez nuen negarrik egiten, bai&ntilde;a al nuen bezela bizimodua atera bai egiten nuen. Gauez lapurren zakutoetatik al nezaken guzia ostu ta jan egiten nuen ixilkian. Bein bai&ntilde;o geiagotan nabaritu zuten lapurreta, bai&ntilde;a lapurreta-egilea etzan ageri. Aiek alde batera ta bestera galdetu ta listera bilatzen zuten; nik ez nuen ordean nere burua salatzen.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>61. Zigorrez jotzen naute</p><--</head>
+        </front>
+        <body>
+<p>Barrabas tzar arek ni barurik idukiz ezer onik ateratzen etzuela, estu, ta larritu bearrean pozik nengoela ikusi zuen; eta orduan, bere ustez egokiago zan beste zigorrada bat ematea erabaki zuen.</p>
+<p>Gabonilaren (abenduaren) laua zan. Goiz artan beso ta eskumuturrak beste egunetan bai&ntilde;o estuago lotu ta arrastaka basora eraman ninduten. Zer egin bear zidaten galdetu nien; etzidaten itzez erantzun, bai ordea egitez. Zuaitzen ondoan beso ta eskumuturrak askatzen dizkidate; &laquo;ba, esan nuen nere baitan; auek adarra jotzen ari zaizkit noski&raquo;. Bai zera, adarra jo! Gero kentzen didate txamarra, urrena elastikua ta abar. Ezta ardura! Jesusek ere ikusi zuen bere burua olako lotsa gorrian.</p>
+<p>Gero beso ta eskumuturrak bizkar aldean soka lodiz lotu, akazia batetik zintzilika jarri eta gogor bai gogor jotzen asten zaizkit, lotzaleen zigor-ukaldiek eztute itxuraz mi&ntilde;ik ematen, bat ere sentitzen ezpanu bezela nago ta.</p>
+        </body>
+      </text>
+    </group>
+  </text>
+</TEI.2>
+

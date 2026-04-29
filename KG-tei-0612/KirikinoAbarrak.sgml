@@ -1,0 +1,989 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN"
+                       "http://www.tei-c.org/P4X/DTD/tei2.dtd" [
+   <!ENTITY % TEI.prose    'INCLUDE' >
+   <!ENTITY % TEI.linking  'INCLUDE' >
+   <!ENTITY % TEI.analysis 'INCLUDE' >
+   <!ENTITY % TEI.figures  'INCLUDE' >
+   <!ENTITY % TEI.XML      'INCLUDE' >
+   <!ENTITY % TEI.extensions.ent SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.ent' >
+   <!ENTITY % TEI.extensions.dtd SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.dtd' >
+]>
+<TEI.2>
+  <teiHeader>
+  <fileDesc>
+     <titleStmt>
+        <title>Abarrak</title>
+        <author>Ebaristo Bustintza - "Kirikiño"</author>
+        <respStmt>Ez dauka</respStmt>
+     </titleStmt>
+     <extent>18.100 hitz, 133.004 karaktere</extent>
+     <publicationStmt>
+        <publisher>Klasikoen Gordailua [http://klasikoak.armiarma.com/]</publisher>
+        <distributor>Estrata Liburuak S.L.</distributor>
+        <address type='email'>klasikoak@armiarma.com</address>
+        <idno type='ota'>KirikinoAbarrak</idno>
+        <availability status='free'>Erabilpen librekoa; honoko helbidean topa daiteke (HTML, RTF eta PDF formatuetan): http://klasikoak.armiarma.com/idazlanak/K/KirikinoAbarrak.htm</availability>
+        <date>2006</date>
+     </publicationStmt>
+     <sourceDesc>
+        <bibl>Iturria: Abarrak, Kirikiño (Itziar Lakaren edizioa). Euskal Editoreen Elkartea, 1986</bibl>
+        <notesStmt><note>Iturburuen datazioa: 1918</note></notesStmt>
+     </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+     <projectDesc>Euskal literaturako testu klasikoen bilduma da KLASIKOEN GORDAILUA; testu hau berorren parte da</projectDesc>
+     <refsDecl>
+        <p>MENTIONED etiketa egilearenak ez diren hitzak markatzeko erabili da: hitzaurreak, aipuak, iruzkinak, e.a.</p>
+    </refsDecl>
+     <classDecl>
+        <taxonomy id='generoa'>
+            <category id='G-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='G-ANT'><catDesc>Antzerkia</catDesc></category>
+            <category id='G-BER'><catDesc>Bertsoak</catDesc></category>
+            <category id='G-ERL'><catDesc>Erlijioa</catDesc></category>
+            <category id='G-NAR'><catDesc>Narratiba</catDesc></category>
+            <category id='G-POE'><catDesc>Poesia</catDesc></category>
+            <category id='G-SAI'><catDesc>Saiakera, kronika, artikuluak...</catDesc></category>
+        </taxonomy>
+        <taxonomy id='garaia'>
+            <category id='M-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='M-16'><catDesc>XVI. mendea</catDesc></category>
+            <category id='M-17-1'><catDesc>XVII. mendea - 1. erdia</catDesc></category>
+            <category id='M-17-2'><catDesc>XVII. mendea - 2. erdia</catDesc></category>
+            <category id='M-18-1'><catDesc>XVIII. mendea - 1. erdia</catDesc></category>
+            <category id='M-18-2'><catDesc>XVIII. mendea - 2. erdia</catDesc></category>
+            <category id='M-19-1'><catDesc>XIX. mendea - 1. erdia</catDesc></category>
+            <category id='M-19-2'><catDesc>XIX. mendea - 2. erdia</catDesc></category>
+            <category id='M-20-1'><catDesc>XX. mendea - 1. erdia</catDesc></category>
+            <category id='M-20-2'><catDesc>XX. mendea - 2. erdia</catDesc></category>
+        </taxonomy>
+        <taxonomy id='euskalkia'>
+            <category id='E-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='E-BAT'><catDesc>batua</catDesc></category>
+            <category id='E-BIZ'><catDesc>bizkaiera</catDesc></category>
+            <category id='E-BNA'><catDesc>behenafarrera</catDesc></category>
+            <category id='E-ERR'><catDesc>erronkariera</catDesc></category>
+            <category id='E-GIP'><catDesc>gipuzkera</catDesc></category>
+            <category id='E-GNA'><catDesc>goi nafarrera</catDesc></category>
+            <category id='E-LAP'><catDesc>lapurtera</catDesc></category>
+            <category id='E-NAF'><catDesc>nafarrera</catDesc></category>
+            <category id='E-ZAR'><catDesc>zaraitzuera</catDesc></category>
+            <category id='E-ZUB'><catDesc>zuberera</catDesc></category>
+        </taxonomy>
+    </classDecl>
+  </encodingDesc>
+  <profileDesc>
+     <textClass>
+       <keywords scheme='generoa'>
+         <list><item>G-NAR</item></list>
+       </keywords>
+       <keywords scheme='garaia'>
+         <list><item>M-20-1</item></list>
+       </keywords>
+       <keywords scheme='euskalkia'>
+         <list><item>E-BIZ</item></list>
+       </keywords>
+     </textClass>
+  </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>Abarrak -- Ebaristo Bustintza - "Kirikiño"</docTitle>
+    </front>
+    <group>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Irakurlientzat uarra</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>Kiriki&ntilde;o</hi></p>
+<p>Ona emen, <hi rend='Italic'>Abarrak</hi> deitu dautsedan irakuragaitxu oneik.</p>
+<p>Egurgi&ntilde;an sartu naz ni gure euzkera ederraren oyanian. Bertan ain ugari dagozan zugatz enbor-lodidunak eta euren besanga ta adar andijak ebagi ta gertatu ta ekartia ixango zan nire atsegi&ntilde;ik andijena; ba&ntilde;a ezin, orretarako biarrak dira ba beso sendua ta azkora andi zorrotza. Nire besua ta azkorea, barriz, bata makala ta bestia zorbatzik bakua dira.</p>
+<p>Lan ori ezi&ntilde;ik, zerbait orraiti&ntilde;o egin gura ta, egur meiari, abarrari, ekin dautsot, eta besarkada auxe gertau ta ekarri dot. Al ixan dodana.</p>
+<p>Egur me au be zetarako edo atarako bai-da. Su andija egiteko, egur lodija ixetuteko, lenengo abarrari ezartzen yako sua, ta onegaz ari gero.</p>
+<p>Irakurgaitxu oneik be gogo askotan sortu leye euzkeraz irakurteko zaletasuna. Txikijak, meiak, arin-ari&ntilde;ak, errazak, barru gitxidunak, geyenak barre batzuk eragitekuak ixanik, euzkeraz irakurten bape zalia eztanak onakoxiak atsegi&ntilde;ez artu leiz, ta eurok, abarrak lez, bere goguan sua biztu.</p>
+<p>Euzkera ziatzaren zalia ba'zara, urrian sarri musturra okertuko dozu irakurgaitxu oneitan aurkituko dozuzan erderatiko itz ugarijak ikusita; ba&ntilde;a gogoratu eikezu eurok eztirala idatzi eun urte geruagoko euzkeldunentzako, ezta gaur euzkera ziatz-ziatza ta erdel-antz apur bat daben itz bakua jakin eta erabilli oi daben euzkeldun banakarentzako bakarrik be. Ez, eurok idatzi dira gaurko euzkeldun geyenak dakijen euzkeraz, geyenak irakurri ta ulertu al dagijen euzkeraz.</p>
+<p>Irakurgaitxu geyenak lendik argitalduak dira izparringi baten edo bestian. Urte asko dala Bilbao'n, Azkue abade jaunaren artezkuntzapian agertzen zan izparringi asteroko eder -ederrian, <hi rend='Italic'>Euzkaltzale</hi>'n, argitaldu ziran: <hi rend='Italic'>Zerutar bat</hi>, <hi rend='Italic'>Deun ixateko bidian</hi>, <hi rend='Italic'>Azeri azartuak ollua darua</hi>, <hi rend='Italic'>Aurrerapen ikaragarri bat osakuntzan</hi>, <hi rend='Italic'>Itoxurak zi&ntilde;aldari</hi>.</p>
+<p>Geruago uri onetan bertan urte bijan bixi-ixan zan asteroko izparringi &laquo;Ibaizabal&raquo;-en argitaldu ziran: <hi rend='Italic'>Peru Makur</hi>, eta A<hi rend='Italic'>zerijari Azerij</hi>a.</p>
+<p><hi rend='Italic'>Euzkadi</hi> ingurtijan argija ikusi eban lenengoz onexek: <hi rend='Italic'>Garagarrillean edurra</hi>.</p>
+<p>Eta <hi rend='Italic'>Euzkadi</hi> egunerokuan urten dira argitara: <hi rend='Italic'>Aratoste</hi>, <hi rend='Italic'>Urte barri barri</hi>, <hi rend='Italic'>Kukua entzuten</hi>, <hi rend='Italic'>Zi&ntilde;aldari arteza</hi>, <hi rend='Italic'>Tximistargi barrija</hi>, <hi rend='Italic'>Alkar aitu obe da alkar il ba&ntilde;o</hi>.</p>
+<p>Amalau orrexek dira lenengokuak. Beste saspijak: <hi rend='Italic'>Gixon zurrak ondo erabagi</hi>, <hi rend='Italic'>Baltz euzkelduna</hi>, <hi rend='Italic'>Jatorra</hi>, <hi rend='Italic'>Or dozu ospia ta betoz diruak</hi>, &laquo;<hi rend='Italic'>Biarrak biarra eragin&raquo;, Ardao-zaliak poltsia galdu,</hi> eta <hi rend='Italic'>Atxuri'ko &laquo;Millagrua</hi>&raquo;; barrijak dira, orain arte argitaldu bakuak.</p>
+<p>Irakurgaitxu oneik geyenak jazorikuak dira; batzuk antxi&ntilde;akuak, nik neure aitari entzunak, eta berak bere aititari; beste batzuk neuk batu dodaz or-emen neure aldijan; beste batzuk neuk asmauta be bai-dira, gustitara.</p>
+<p>Or dozuz ba, irakurle, ta eztautzuela gogait eragingo ba'leki, poz-pozik geratuko litxake, ta zeuri eskarrak egi&ntilde;ik, euroen egille</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Zerutar bat</p><--</head>
+        </front>
+        <body>
+<p>Nik orain gomuta eztodan etxaguntza baten bixi ei-zan bigarrenez eskonduriko emakume bat, buru-barruba utsik edo bei&ntilde;ik-bein ondo beterik ezeukana bera, irakurliak igarriko daun lez.</p>
+<p>Agertu yakon bein ate-onduan eskeko bat, bere so&ntilde;ekuak zarren-zarrez danak triskilduta, alde gustijetatik zulatuta, o&ntilde;etakuak abua zabalik barreka, buruko txapela be koipez beterik, erdi-erdijan leyo biribil bat ebala, bertatik ule pillo bat agiri yakola. Bere arpegi, ule, bixar ta makillara&ntilde;oko gustijak, danak ziran so&ntilde;eko, o&ntilde;etako ta txapelaren antzekuak; arlote andijagorik, amesetan be, i&ntilde;ok eleuke sortuko irudimenian. Arriturik ikusi ebaneko, itandu eutson emakume arek:</p>
+<p>&mdash; Ene! Nundik urten zara era orretan? Nundik zatoz?</p>
+<p>&mdash; Zeutatik, andrea &mdash;erantzun eban Arlote'k.</p>
+<p>&mdash; Zeruetatik zatozala? Zeruetatik esan dozu?</p>
+<p>&mdash; Bai andrea, andixek nator.</p>
+<p>&mdash; Aitearen da Semearen!!... Ondi&ntilde;o alakorik! Orduan, biarba, ezautu ixango dozu Juane guria.</p>
+<p>Auxe zan bere lenengo senarraren ixena. Espetxe nagositik etorran azeri zarrak laster igarri eban zelako <hi rend='Italic'>lelantoni</hi> eukan aurrian, eta, badaezpadan, jarraitu eutson onen oker-aditziari.</p>
+<p>&mdash; Ezautu ez ostera! Bai ta... aizkide andijak gara.</p>
+<p>&mdash; Ene ba! Ta zelan dabil bera? Ondo bixi da?</p>
+<p>&mdash; Gitxi gora-bera neu lez. An ezta oi beste bixikerarik. Danak arlote, danak zorriz, ardiz, so&ntilde;eko zarrez ta nekez beterik.</p>
+<p>&mdash; Ai ene Jaungoikua! Juane koitadue! Nok uste ixan biar olakorik? Bigurtuko zara bertara barriro?</p>
+<p>&mdash; Bai, aldi andirik ezta igaroko ni ara juan orduko, uste dot beintzat.</p>
+<p>&mdash; Orduban eruan biar dautsozuz gauzatxoen batzuk, nire bijotzeko Juane ain txarto bixi ez dadin.</p>
+<p>&mdash; Bai, bai, pozik be; ataraizuz, ataraizuz gauzok.</p>
+<p>Atara ta emon eutsozan ba, diruben batzuk, so&ntilde;eko barrijak toloztuta maletatxo baten, eta ganera gorantzi andi ta ugarijak Juane koitaduarentzat.</p>
+<p>Zerutarrak alde-eginda gerotxuago, agertu zan nundik-edo-andik emakume aren bigarren senarra. Emaztiak esan eutson:</p>
+<p>&mdash; Bakixu? Juanen izparrak gaur euki dodaz.</p>
+<p>&mdash; Arranua! Nundik artu dozuz ba?</p>
+<p>&mdash; Oraintxe emen egon dan gixon bategandik; izpar txarrak ekarri dauz.</p>
+<p>Azaldu eutson gero senarraki zelan emon eutsozan Juanentzako, esan diran gauzak. Au entzun orduko itandu eban gixonak:</p>
+<p>&mdash; Norantza artu dau izpardun orrek?</p>
+<p>&mdash; Andixe bidetik; zer zuaz egiten?</p>
+<p>&mdash; Ba... Juanen barri jakin gura dot neuk be ta, juan biar dot izpardunagaz itz-egiten.</p>
+<p>Atera eban kortatik zalditxo polit bat, ganera igon, eta tximistea baxen arin aldendu zan.</p>
+<p>Ba&ntilde;a Zeuta'ko espetxetarrak arima zarra euki, ta otu yakon, baten-bat urten litxakela bere atzian; eskutau eban maletatxua sasi-arte baten eta jezarri zan bidezabaletik urteten zan bide zidor baten asijeran.</p>
+<p>Zaldidunak, eldu zanian, itandu eutson arlotiari:</p>
+<p>&mdash; Aizkidia, ikusi al dozu bide onetan maletadun gixon bat?</p>
+<p>&mdash; Bai, bide zidor onetatik artu dau, baso sarratu erditik gorantz. O&ntilde;ak bizkor daruaz berak, eta bere billa ba'zuaz, errezki arin ibilliko zara.</p>
+<p>Basua etzan zaldiz ibiltekua, ta bere esturan senarrak emon eutson bestiari aberia, esanaz:</p>
+<p>&mdash; Mesedez, zaldi au eukiko daustazu apur baten?</p>
+<p>&mdash; Bai, zuaz ardura barik emen itxarongo dautzut.</p>
+<p>Alde-egin eban leluak; atara eban Arlote'k maletea ta zaldijari igonda, ari&ntilde;ari emon eutson pozarren.</p>
+<p>Bestiak barriz bota biar zituan gibelak abotik mendi artako baster gustijak arakatu biarrez, batera ta bestera, atzera ta aurrera, gora ta bera; azkenian arnas-estuka, nekatuta, ixerdituta, bigurtu zan zaldijaren eske, ta arrizkua lez geratu zan i&ntilde;or ikusi ezebanian.</p>
+<p>Ulertu eban gustija, artu eban eruapena, ta juan zan etxera lotsatuta.</p>
+<p>Emaztiak eldu zanian:</p>
+<p>&mdash; Da, ikusi dozu?</p>
+<p>&mdash; Bai.</p>
+<p>&mdash; Eta zaldijari zer egin yako?</p>
+<p>&mdash; Emon egin dautsot Juaneri eruateko, biarbada guk ba&ntilde;o aren biar-ixan geyago euki lei ta.</p>
+<p>&mdash; Ai zu lango gixonik eztago ludi gustijan. Zorionekua zugaz eskondu nintzan ordua!</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Deun ixateko bidian</p><--</head>
+        </front>
+        <body>
+<p>Basetxe baten ei-eguan (antzi&ntilde;e) egundo elexara izan etzan mutil bat. Bere ugazabak bidaldu eban bein Meza-entzuten; eta elexia nun aurkitxen zan ezekijan lez, esan eutson lagun asko sartuko zan etxe andi batera juateko.</p>
+<p>Jatzi zan ba kalera gure mutil ori, ta eldu orduko ikusi eban estegu andi bat elexatik etxerantz joyala, gomutau eban ugazabaren esana, batu zan esteguaz, ta sartu zan danakaz eskon-barrijen etxian.</p>
+<p>I&ntilde;ok be ezeutson ezer esan, senide edo auzokoren batek beragaz ekarri ixango ebalakuan, jarri zan mayan, eta ederto bete eban sabela ango jan-edari ugarijekaz.</p>
+<p>Pozik bigurtu zan etxera, ta aste gustija juan yakon bere ugazabaki itanduka ia igandia noz etorran. Ugazabak erantzuten eutson:</p>
+<p>&mdash; Mutil, etorriko dok. Itxuraz ondo ibilli intzan, orrenbeste gurari adirazoten dokan ezkero barriro be juateko.</p>
+<p>&mdash; Bai ondo ibilli! &ntilde;o!... estuen nago igandia eldu arte.</p>
+<p>&mdash; Kristi&ntilde;au gustijak orrelakoxiak ixan biar layeukiek. Asko ta asko yagozak, mutil, Mezatarako beti nagi aurkitxen diranak, beste gauzetarako bizkorrak ixaten dozak ba&ntilde;a.</p>
+<p>&mdash; Enaz ni ba arretarikua. A zan atsegi&ntilde;a nik euki nebana igandian! Eta, jente nagija dagola ain gauza ederrerako di&ntilde;ozu? Zi&ntilde;estu be ezin leiteke.</p>
+<p>&mdash; Mutil! ori dok, ori, kristi&ntilde;autasuna: ua, ua, bide orretatik, eta neuk dinokat deun andi bat ixatera elduko azala.</p>
+<p>Larunbata gabean, amesetan egin eban mutillak, okela-zati, bixigu-erre, ogi-zuri, gaztae, pitxerkada ardao ta beste onelango gauzakaz. Itzartu zaneko urten arin ogetik, arrapataka jantzi ta bizkor kalerantz, abo gustija gozotuta, gora-goraka atsegi&ntilde;an atsegi&ntilde;ez.</p>
+<p>Kalera eldu zanian, entzun zan Mezatarako azkenengo txillin-otsa, ta agaitik ikusi eban jentia arin elexerantz; berau be arin-arin juan da sartu zan erdi ingurura&ntilde;o. An gelditu zan begira alde gustijetara, ta ikusi ebanian etorten ziran gustijak ur bedinkatu-ontzijan sartzen ebezala euren eskuak eta gero arpegira edo (berentzat) abora eruan, ari&ntilde;eketa baten juan zan bera be, ta beso gustija sartuta ibili zan la zatijen bat aurkitxeban, ba&ntilde;a alperrik, an saldea ba&ntilde;o besterik ezegualako.</p>
+<p>&mdash; Ederra jokatu yaustiek! esan eban agin-artian.</p>
+<p>Geratu zan gero baster baten ixillik eta adi; ta izkaldija asi zanian alde-egin eban gogait eginda.</p>
+<p>Etxeratu zanian, bai-di&ntilde;otso ugazabak:</p>
+<p>&mdash; Ona emen gure kristi&ntilde;au zintzo au be, zintzorik ba'dago i&ntilde;un!</p>
+<p>Mutillak arpegi illundubagaz:</p>
+<p>&mdash; Gaur ederrak emon daustiez.</p>
+<p>&mdash; Zer ba? Jo egin abe ala? Ta zegaitik? Mezatara juatiagaitik? Zorionekua az, gauza deunakaitik nekiak igaroten asi azalako; esan neuan nik deun andiren bat ixango intzala, jarraitxen ba'eutsokan asiriko bidiari: Eta, zelan ixan dok?</p>
+<p>&mdash; Berandutxu eldu naz gaur bai, ta saldea ba&ntilde;o besterik eztauste itxi. Itxaron dot gero puskatxu baten, ba&ntilde;a ezer bereez. An aurrian iru gixon, saku antzeko gauza batzukaz jantzita, ibili ta ibili batera ta bestera, nik eztakit zer egiten; beste bat ostera sabai-ganian iru milla txilibitu joten; alkarri didar bat edo beste egiten ixan daustie, ulertu ezin leikian eraz; geruago igon da beste bat lexibontzi baten ganera, ta asi da agiraka ta didarrez gustiz asarre. Auxe ikusi dodanian: &laquo;ezer artu ez da nik zegaitik entzun biar yuadaz ba olango demoni&ntilde;okerijak?&raquo; esanda, alde-egin dot. Urrenguan, enaz azkenen juango.</p>
+<p>&mdash; Bakik nora juan biar dokan ik?... Kortara!... antxe daukak lekurik egokijena, astotzar arrayo orrek. Eztausku azkenian <hi rend='Italic'>deun</hi> txar txarrak urten mutil eder onek!</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Azeri azartubak ollua darua</p><--</head>
+        </front>
+        <body>
+<p>(Jazorikua)</p>
+<p>Errioja'ko uri txiki baten alkar topau eben bein erri bateko euzkeldun mutil bik; bata gaizto samarra, ezegaitik ikaratuten etzana, edozein esturan urteyerea laster asmetan ebana, bide onetik naiz txarretik; bestia barriz on uts bat, i&ntilde;ori kalterik egin ba&ntilde;o lenago gosiak ilgo leukiana.</p>
+<p>Ezta zegaitik esan zeinbat poztuko ziran alkar ikusita; erbestian i&ntilde;oz bakarrik ibilli danari ezta zegaitik, jakingo daulako zelan nasaitu ta bigunduten dan bijotza erritar bat aurkituaz batez-be antzi&ntilde;eko ezaguna ba'da; euzkelerrijan edo euzkeldun-artian beti bixi ixan danari be ezta zegaitik, bijotzari dagokijozan gauzak eztiralako errazak azalduten, eta aditu erazoten bez, ondo adituteko sentidu egin biar diralako.</p>
+<p>Ba&ntilde;a aldendu gaitezan adarretatik eta guazan gerrira. Gure mutillak, ba, alkarri agurrak eta laztanak eginda gero, asi ziran autuan era onetan. Esan eutson okerrak otzanari:</p>
+<p>&mdash; A mutil, nundik nora abil? Ze biximodu darabik? Nora ua emendik?</p>
+<p>&mdash; Ibilli nok Gaztela'n lan-billa, ta ozta-ozta gosiak ez ilteko beste aurkitu dodanian, Goikua'n eskarrak; eta beraz, orain etxera nayuak. Eta ik, ze bide daruak?</p>
+<p>&mdash; Neuk ba&ntilde;ekik! Ugazaba galduta dabillan txakurra lez nayagok, nora jo eztakidala; aspaldijan etxuat euki lanik, eta etxaukuat nun sartu, zer jan, ta etxakiat zer egin be; augaitik zerbait emotia mesede egin biar daustak, gitxi ba'dok be. Errira uanian, eskatu eyoek neure gurasoei ta an kitatuko az.</p>
+<p>&mdash; ai, ona nayagok ezer emoteko! Artzeko ixan ba'litxok...</p>
+<p>&mdash; Zer ba, diru barik ago ala?</p>
+<p>&mdash; Txakur txiki bat edo bi, geyen.</p>
+<p>&mdash; Au dok ixatekua!... Onak gayagozak!... Ba, zeozer asmau biar yuagu, mutil; bestelan galduak gaituk.</p>
+<p>&mdash; Bai asmau! Zer asmauko yuagu ba?</p>
+<p>&mdash; Zer arrayo! gayuazan ostatura bai, ta aparija eskatu ta jan yaiguan, eta gero atara daiskubela urdallian sartu doguna.</p>
+<p>&mdash; Ik beti ixan biar betikua. Alan jango yuagu, ba&ntilde;a kartzelan sartuko gayoezak; eta nik, lotsarijen ganian, etxerako bidia galduko yuat. Ez, ez, ni enayuak orretara.</p>
+<p>&mdash; Dana dala, obe dok kartzelan apalduta egon, kanpuan gosiak illik ba&ntilde;o.</p>
+<p>&mdash; Ez, ez olakorik mutil; onena ixango dok jarraitutia bakotxak bere bidiari, eskatu Jaungoikua'ren ixenian ogi zati bat ba&ntilde;o ezpa'da, ta ia elduten garean ni neure etxera ta i lana aurkituko dokan lekuren batera.</p>
+<p>&mdash; Lelotzar ori! Bildurti ori! Ator neugaz, ta ezadi ezeren bildur ixan, neuk jabe urtengo yuat eta. Txarrik etorten ba'dok, esango yuat ik eztaukuala errurik, neuk dana ordainduko nebalakuan etorri azala.</p>
+<p>&mdash; Ba&ntilde;a mutil...</p>
+<p>&mdash; Ze mutil ta zer arrayo! ator bein, eta ezadi ain olluaixan.</p>
+<p>Juan ziran ostatura ba, apaldu eben ederto, be&ntilde;ipein batak, bestiak ez ainbeste, eban bildurraz.</p>
+<p>Apal-ostian ekin eutsen barriketan bertan egozan gaztelar mandazain batzukaz, ta autubaren azkena ixan zan musian jokatzia gure mutil bijok beste mandazain biri.</p>
+<p>Lenenguan ardaua bakarrik jokatu zan, mandaza&ntilde;ak galdu ebala berau, ta onek zerbait berotu ziran arrotxuak bai-ziran ta; jokatu eben gero aparija ta gau artako oge-sarija, irabazliak ixan zirala onetan be euzkel-mutillak.</p>
+<p>Asarratu yaken auxe mandaza&ntilde;ai, ta euren barru gustija irakiten eukela itandu eben ia diruba jokatu gura eben, eta mutil okerrak ausardi andijaz &laquo;bayetz&raquo; erantzun eban. Beste gixagaxua barriz Gokaxoki edo Purgatorio'ko bat irudijan, larri-larri, abo gustija legortuta, ikara-ikara ta berentzako i&ntilde;uala:</p>
+<p>&mdash; Au languakaz batuten danak, berak daukaz erru gustijak. Nori burura etorri lekijo bijar arteko ostatuba eskubetan euki ta diruba jokatzia, sakelian txanpon bat euki ez ta? Jaungoikuak obia, naste ederrian sartzen guaz!</p>
+<p>Ain larri eguan, apal-apal esan eban obe ixango zala jokua iztia, ba&ntilde;a lagunak erantzun eutson:</p>
+<p>&mdash; Euk gura ezpa'dok dirurik jokatu, neuri laguntzia ba&ntilde;o besterik eztaukak; galdu edo irabazi neuk bakarrik egingo yuat.</p>
+<p>Itundu eben joko bakotxak laurleko bat balijoko ebala, ta orrexegatik dirurik atara barik ez batzuk ez bestiak, lengo babakaz jarraitu eutsoen zorijoneko jokuari. Oi dan lez, ixan ziran jokuan gora-berak, ba&ntilde;a azkenian mandaza&ntilde;ek galdu eben ainbat laurleko, ordaindu eben galdu ebena ta ogeratu ziran danak.</p>
+<p>Bijaramonian banandu eben diruba mutillok, eta agur alkarri egiteko egozala i&ntilde;otson mutil onak bestiari:</p>
+<p>&mdash; Ik egiten dokazanak!... Nik igaro nayuazan larrijak bart!... Ezkeunkan ba naikua aparija ta ostatuba irabazijaz? Zertarako sartu diru nastietan? Zer egiteko galdu ba'geiduk? Orixe dok bene-benetan, egaiz dabillan saya artziarren eskuko txorijari aindutia.</p>
+<p>&mdash; Ut, etzarie, ezetako be ta, lelo ustelok! Nik etxakiat zetan urteten zarien amandrien gona-artetik, arra beteko uretan itoten zarie-ta.</p>
+<p>&mdash; Bai!... Ba, alan jazo ba'litxok, etxakiat en be zetan ibilliko intzan, eure azartasun gusti orregaz.</p>
+<p>&mdash; Zelan ibilli...? Ibilli eza! Asarria jokuan ataratia gauza erraza dok, eta zeren edo aren ganian laster urtengo zuan matrakea, ta au neuk eruango nayuan burrukara&ntilde;o ainbat ari&ntilde;en, eta argi ta edontzi ta pitxer ta mai ta bastar gustijak aidian ibilliko zuazan, olango jazokeretan ixaten dan lez. Gero...</p>
+<p>&mdash; Gero... guk ederrak artu biar, gu ba&ntilde;o geyago ziralako, ta ganera kartzelara...</p>
+<p>&mdash; Ze kartzelara gero? Ni asiko nintzuan orduban didarrez neu ni&ntilde;oyala alkatiagan egundoko ari&ntilde;en, ango nastian gerrikotik poltsea ostu eustela ta, an lapurren batzuk egozala ta...</p>
+<p>&mdash; Mutillak!</p>
+<p>&mdash; Ikaratuko nayuazan apurren bat, ba ostatu-jabiari olango gauzak etxuakazak ondo, ezta mandaza&ntilde;ai be euren bidia atzeratuteko gauzarik; eta neure asmuaz urtengo gintzuazan ezer be ordaindu barik gitxienez, ganera eskupekoren bat ixillik egotiarren atara ezpa'geinduk.</p>
+<p>&mdash; Ezau i arin gosiak galduko, daukuazan azerikerijekaz!</p>
+<p>&mdash; Zer egingo dautsok ba? Gibelak euki biar ixaten dozak errimiak basterrara urteteko; itoten dagona ezin dok ibili begiratzen albuan agiri dan untzia gorituta dagon ala ez.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Aurrerapen ikaragarri bat osakuntzan</p><--</head>
+        </front>
+        <body>
+<p>(Jazorikua)</p>
+<p>Be&ntilde;ola Madrid'eko akeitetxe bateko mai baten inguruban batzen zan ikaslari edo <hi rend='Italic'>estudiante</hi> pillo bat, euren artian lagikari-geyak eta osalari-geyak zirala geyenak, danak <hi rend='Italic'>vascongaduak</hi> bi edo iru <hi rend='Italic'>euzkeldun</hi> kendu ezkero.</p>
+<p>Esan biarrik eztago barriketea eurrez ibilten zala batzar artan. Gau baten atara eben osalarijok eta lagikarijok matraka galanta, areik euren ogibidiaren aldez, oneik eurena goratu biarrez, bide batez alkarri i&ntilde;un diran txakurkerijak arpegira jaurtinda.</p>
+<p>&mdash; Zubek drogeaz bixi biar izaten dozube ta...</p>
+<p>&mdash; Zubek, ostera, osagai berenozkuekaz ta ga&ntilde;ibeta antzeko tresnakaz zenbat gixajo ez ete-dozube bidaltzen beste aldera...!</p>
+<p>&mdash; Lumadun gixonak erpe geiztokuak; ludijan drogarik ezpalego, lagikarijak gosiak illik.</p>
+<p>&mdash; Zubek a&ntilde;a edozein atsok daki; juaten zare astozar bat ba&ntilde;o motzago oe-ondora, artu an dagonaren eskubitorra, burubari alde batera ta bestera eragin, ipi&ntilde;i papel txatal baten urrengo burura yatortzuben txarrikeriren bat, lan-sari ederrak kendu, ta or konpon, osatzen ba'da ondo ta ilten ba'da, lurra emon dayoela ta kitu, zuberi zer?</p>
+<p>Onakoxe irain garratzak alkarri jaurtitera eratzi eben euren eztabaidea.</p>
+<p>Alboko mayan egoten zan zaldun urtetsu bat, ule ta bixar zuriduna, koronel zana edo ixana, morroiak esaten ebenez; ikaslarijak arpegiz ezauna eben eta agur egiten eutsoen bere maira etorri edo kanpora juaten zanian, akeitetxian auzokuak ziralako aspalditik.</p>
+<p>Gastien eztabaidea garraztuten asi zanian, jagi zan alako baten zaldun ori ta begirune andijaz esan eban:</p>
+<p>&mdash; I&ntilde;ok deitu eztaustan lekura nator, eta azartu naz orrenbestera&ntilde;o, ustia dodalako parkatuko daustazubela, bada nik zuben aita ixateko beste urte dodaz, zer-edo-zer alkar ezagutzen dogu, ta neure bixitza luzian gauza asko ikusita nagonez, argi apurren bat ekarri daiket zubek darabiltzuben eztabaidara.</p>
+<p>Mutillak kapelak erantzi ta euren erdijan jezarri eragin eutsoen esanaz:</p>
+<p>&mdash; Jauna, eztaukazu zetan parkamenik eskatu, geuk dagitzuguz eskarrak etorri zayakuzalako.</p>
+<p>Aguriak eta ikaslarijak alkarri labankeri andijak eginda gero, asi zan a itzaldi bat egiten, gustiz polito, danak poz-pozik entzuten eukazala aora begira.</p>
+<p>Lenengo azaldu eban lagija zer dan, onen jatorrija, bere biar-ixana ludijan, zenbat eta zelako onurak dakaskuzan, eta azkenez, zein goratubak ixan biar eben lagijak ikasi ta aztertuten dabiltzanak, baita eurak gorde edo jagoteko ixentauta dagozan gixonak.</p>
+<p>Gero, osalarijen aldez be gauza gustiz ederrak esan ebazan; osasuna dala gauza bat bera galdu arte eztakiguna daukan balijua; osakuntzeak egiten daula, ez bakarrik gexotasunari igesi eragin, baita gatxa ekarri leiken gauzea ondo ezagutu ta aldendu eragin be bai, <hi rend='Italic'>Higiene</hi> deritxon zeraz, eta alan aberrijak edo nazi&ntilde;uak osasuntsutu ta gogortu, ta edozein aurrerapenetako gertu ipi&ntilde;i, gauza jaki&ntilde;a dala ba osasun bagako errijak, ez indarrerako, ez adimen gauzetarako daukela ganorarik; eta onetariko asko esan ebazan jas andijaz.</p>
+<p>Mai arek irakastola bat irudijan orduan, eta irakasle bateri legez entzuten yagokozan adurra darijola mutil gastiak aguriari, papau batzuk legez.</p>
+<p>Jarraitu eutson onek bere arluari gitxi gora-bera onetara:</p>
+<p>&mdash; O, arrigarri ta entzungarrijak dira ixan osakuntza gauzetan urtiokaz egin diran aurrerapen, i&ntilde;oiz amesetan be gogora etorri etxakiezanak gu ba&ntilde;o lenagokoei! Ainbestian dirala-ta, azaldu biar dautzubet zuben baimenaz, ain ardura andiz entzuten zagozen ezkero, neuk Paris'ko gexotegi baten ikusi neban osakuntza bat.</p>
+<p>&mdash; Bai, bai, pozarren entzungo yatzu, jauna; jarraitu egixu &mdash;i&ntilde;otsoen mutillak.</p>
+<p>&mdash; Tira ba; eruan eben egun baten gixajo bat istar-adurra ausita, burdi andi baten txirringeak azpijan artuta edo; gexotegi artako osalari nagusijak eta bere urrengokoek arduraz begiratu ta ikusi eutsoen istarra gixon ari; gero asi zan bakotxa bere eretxija edo aburuba adirazoten eta geyenak, i&ntilde;oen ankea kendu biarko yakola bixija atara gura ba'zan; nagusijak orduban onetara itz-egin eban:</p>
+<p>&mdash; &laquo;Istarra ebagiteko astia gero be eukiko dogu-ta, bada ezpadan lenengo ikusi biar da neuk aspaldijan daukodan uste bat; gixajo au anka bagarik bertan-bera isten ba'dogu, ilgo da, ankeaz, biximodua kenduko dautsogu-ta.&raquo;</p>
+<p>Uste ori ixan zan ondatuta eukan istar-azur atala kendu, ta ordez ipi&ntilde;i txakur andi baten azurra, abe edo zugatzai mentua ezarten yaken antzera, ta ikusi ia oratuten eutsen azurrok alkarri.</p>
+<p>Egin zan ba, ta eztago zetan esan zein ederto zainduko eben gexua osalarijak; bai-joyazan egunak, eta geruago ta obeto joyan gixona, istarra osatu yakon azkenian, oetik jagi zan eta ondi&ntilde;o makal, ba&ntilde;a ankea lurrian ipinten eban, mentua lortu zan, beste biar-ixanik ezeguan indarra artutia ba&ntilde;o gixona osoro geratzeko.</p>
+<p>&mdash; Orrek dira gauza miragarrijak ikusten doguzanak gaurko egunetan! &mdash;i&ntilde;oen arrituta gastiok.</p>
+<p>&mdash; Ba&ntilde;a, gure gorputzian, atal gustijak bardingeak ixan arren, ain alkartuta dagoz danen artian gauza oso bat egiteko ze, batak ezer daukonian, bestiak, danak ezpa'dira be, batzuk be&ntilde;ipein, sarritan okertu ta moteldu ta gexotuten dira; au da osalarijak konplikazi&ntilde;ua esaten dautsena. Auxe jazo zan an be; guntzurrunetara ta puxikara jo eban gatxak, ezin eban txixik egin, puxikeak estanda egin biar eutson gixonari ta bixija galdu biar eban, laster osabideren bat artu ezik.</p>
+<p>Osalarijok ebiltzan gau ta egun zoratu biarrez, zer ete-zan ezin igarrita, liburu gustijak aratuaz ia zer alkartasun eukan azurretako gatxak guntzurrunekaz; itxaropena galtzen asi ziran, ezekijen zer egin.</p>
+<p>&mdash; Da, il zan gixajua?</p>
+<p>&mdash; Ez; dei egin eutsoen beste osalari entzute andidun bati. Onek itandu eban zer eukan eta zer egin yakon; azaldu eutsoen gustija; ta erantzun eban: &laquo;ia ekarrixube ona gixon ori&raquo;; eruan eutsoen ba, ta besotik eldu ta orma-ondora eruanda agindu eutson:</p>
+<p>&mdash; &laquo;Altzaixu ankea gora, ia txixik egiten dozun.&raquo;</p>
+<p>Parra-parra, ederto egin be. An egozan gustijak ikaratu ziran, eta benetasun andijaz esan eban osalari ospatsubak:</p>
+<p>&mdash; &laquo;Txakur baten azurra ipi&ntilde;i dautsozuben ezkero zelan arrano gura zenduben ba gixon onek bere biarra egitia, ankea jaso ezik orma baten ondora urreratuta?&raquo;</p>
+<p>Au entzunaz asi ziran gastiak barreka, ain benetan, eurai bai txis-eragin eutsela aguriak bere ipui&ntilde;az. Berau ostera piperra ba&ntilde;o benago edo serioago geratu zan.</p>
+<p>Berez gogo onekua zalako edo, mutillak bakian ipintiarren edo, ezekijen onek zegaitik alango gixon urtetsu agurgarri bat juan yaken barregarrikeri aregaz.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Peru Makur</p><--</head>
+        </front>
+        <body>
+<p>Peru Makur, agure gixajua, zarren zarrez ezetarako gauza etzalako, emendik desta&ntilde;a, ortik bekoki illuna, andik agiraka garratza, ta beti gosiak illik, gustiz txarto bixi zan bere seme ta erranagaz, eurok etxeko txakurrari aitari ba&ntilde;o jaramon geyago egiten eutsoela.</p>
+<p>Ain atsekabez ta ain errukigarri bizi zan aguretxuaren belarrijetara eldu zan bein albista edo izpar au: Erregeri lapurretan egin eutsoela, txingi edo pitxi eder asko ostu eutsoezala, ta sari andi bat abinduta eguala lapurrak nortzuk ziran agertzen ebanarentzat.</p>
+<p>Peruk bere kolkorako egin eban: &laquo;Araxe Juan biar yuat, eta iru edo lau eguneko jan-edana eskuratuko yuat edozelan be, ta gero zuzitu nagijela gura ba'yoek, niri zer? zer galduko yuat ba? Ez asko. Gaur darabildan biximodua ba&ntilde;o erijotza berbera asko txarrago eztok-eta.&raquo;</p>
+<p>Esan eta egin, itzi semia ta errana (pozarren onek aguria etxetik aldendu yakenian), artu Errege-uriko bidia, ta bai-yuan txairo ta bizkor gure Peru, bere baserritar jantzi zar ipingitsu nabarraz, Jauna'ri erreguka alik ondoen atara egijala arazo artatik.</p>
+<p>Errege ta onen ingurukoen aurrera agertu zanian, bere arpegi tximur zimela ta bere so&ntilde;eko marroxak ikusi orduko asi ziran gustijak barre purruztadaka; batak i&ntilde;uan: &laquo;Zer dakarkaiku zar onek ona?&raquo; Bestiak: &laquo;Au, bere erri koskorreko txi&ntilde;el nagosija edo-da.&raquo; Onek: &laquo;Gixonak, <hi rend='Italic'>astronomu</hi> onek ixarrai begituta edo igarriko dau, ta katalejo andi bat ekarrijozube!&raquo;. Arek: &laquo;Eskuma-aldra nundik nora dan ete-daki gero beronek&raquo;.</p>
+<p>Txorijak mozollua erabilli oi daben lez, irri ta barre erabillen gixajua. Erregek, orraiti&ntilde;o, barreka-barreka esan eutson: &laquo;Aitaita, adorerik bai al dozu artu dozun zeregi&ntilde;a bide onera eruateko? &mdash; Bai jauna, erantzun eban, emon bekit iru edo lau eguneko epia, ta zerbait egingo da. &mdash; Baita emongo yatzu epe ori, ta oraintxe aginduko dot neure jauregiko eskaratzeko morroyak jandedan emon dagitxubela.</p>
+<p>Juan zan ba Peru Makur eskaratzera, zokondo baten maitxo bat ipi&ntilde;i eutsoen, eta morroi batek bazkari ederra eruan eutson; argitu yakon gogua aguriari, ta urdalla ondo bete ebanian esan eutson bere burubari, bazkari bat arrapau ebala gogoraturik:</p>
+<p>&mdash; &laquo;Bat orraitik, eskuban yaukuat, onek etxaustak igesi egingo&raquo;. Morroya adi-adi ta zurt begira egon yakon zatitxo baten, eta lagunakana eldu zanian, zurbil eta arnasa barik azaldu eutsen aguriari entzunikua, ta ikaratu ziran gustijak, eurak ziran ba lapurrak eta. &mdash; &laquo;Agure kaiku orrek igarri egin ete-yauskuk ba? Aparija beste batek eruan dayola, ia zer urteten dan.&raquo;</p>
+<p>Alan egin eben; orduban be aguriak aparija amaitueran esan eban: &laquo;Bi jausi dozak; bijar ta etsi jausiko dozak bestiak be, ta enayuak ain txarto&raquo;. Aguriak esakun onetan janaldijen kontua erabillan.</p>
+<p>Morroya juan zan arin bestiakana ta esan eutsen:</p>
+<p>&mdash; Arrayia mutillak, guriak egin yok, galdubak gaituk! auxe ta auxe esan yok agure demoni&ntilde;o orrek, dana jakik.</p>
+<p>Larritu ziran mutillok, eta azkenez itundu ziran aguriari itz egin biar yakola ta beragaz aitu, ia onian zuzendu al eitekian zoritxarreko arazo a. Urreratu yakon ba aguriari morro yen artian buru egiten ebana, ta autortu eutson eurak zirala Errege'ri ostu eutsoenak, eta gertu egozala atzera emoteko ostu ebena; ba&ntilde;a, Jaungoikuarren, ezegixala salatu, bestelan urkamendira biar ebelata; Peruk esan eutson ezeren bildur ez ixateko, ardura txikijenik barik lo egiteko, ezetara be ezebazala agertuko ta.</p>
+<p>Bijaramonian Peruk eruan ebazan Errege'n aurrera txingi edo pitxi gustijak, Errege ta bere ingurukuak aitiarenka izten ebazala. Ak itundu eutson Peru'ri:</p>
+<p>&mdash; Eta lapurrak, nortzuk dira ba?</p>
+<p>&mdash; zin esan neikijo, jauna; neure itxa emon dautset eztodazala agertuko-ta.</p>
+<p>&mdash; Ba&ntilde;a zuzentasunak aginduten dausku gaizki&ntilde;ak zigortau egin biar dirala.</p>
+<p>&mdash; Egi andija da ori, jauna; ba&ntilde;a damututa dagozan ezkero, osturikua bigurtu daben ezkero, Errege gustijen Erregeren parkamena dauke, ta, ak parkatu ezkero, berorrek be parkatu begijoe, jauna.</p>
+<p>&mdash; Eztago txarto esanda, ta bai poz andijaz, aitaita, parkatzen dautset. Orain beste gauza bat igarri biar daustazu: nire emaztia laster sein-egiteko dago, ta esan eiskuzu mutilla ala neskea ixango dan argitara urteteko dagon seintxua.</p>
+<p>Peruk erantzun eutson Erregi&ntilde;a ikusi biar ebala orretarako, ta areto edo <hi rend='Italic'>saloi</hi> andi zabal baten, lagun aldra andi baten erdijan Peru Makur gixajua estu ta larri eguan zer esan ezekijala; ba&ntilde;a zer-edo-zer esan biar eban ta, eskatu eutson Erregi&ntilde;a'ri mesedez ibilli eitela alde batera ta bestera areto artan; ibilli zan ba, ta Peruk esan eutson Errege'ri:</p>
+<p>&mdash; Jauna, gauza zalla da igarten... enago ziur; aruntza doyanian mutilla iruditzen yat, onuntzakuan ostera neskea. Peru'ren zorijonerako, andik iru edo lau egun barru Erregi&ntilde;ak ume bi egin ebazan, bata neskea ta mutilla bestia. Nok adirazo an ixan zan arritasuna? Nok azaldu nora&ntilde;o goratuba ixan zan Peru Makur kaikuaren jakindasuna? Len barre purruztadaka artu eben agure zimela, orain Seneka berbera euren artian agertu bailitzan, lotsa ta itxal andijaz begiratuten eutsoen.</p>
+<p>Larri eguan ba&ntilde;a gure Baserre, Errege ta enparaubak au ta ori ta bestia igarri egijala-ta asiko yakozala, ta bide onetan laster jausi biar ebala ikusten ebalako.</p>
+<p>Alantxe, berak uste ixan eban lez asi yakozan, eta Peru'k bere larri-aldijan urteyera polit bat asmau eban; Errege'ri sermoitxo bat zuzendu eutson, bertan beste gauza askoren artian i&ntilde;otsola:</p>
+<p>&mdash; Gogoratu egikezube, jauna, nik neurez ezin ixan dodala euki indarrik edo <hi rend='Italic'><foreign>virtute</foreign></hi>'rik egin dodazan gauzak egiteko; gogoratu egikezube, Jaungoikua'gandik euki dodala indar ori, eta Jaunak biarrixana danian bakarrik emoten daula bere eskarra edo grazija, ta ez gixonen jolaserako; ez Josu Gure Jaunak ez bere jarraille ixan diran santubak egin dabe i&ntilde;oz miraririk munduaren jolasgarrirako; enaz ni santuba, ba&ntilde;a ori gorabera, santuben bidez mirarijak egin dauzan lez, ni pekatari onen bidez Jainkuak berak egin dau zubek nigan ikusi dozubena, ta orain jolasbidian igarkixunakaz asten ba'gara, Jainkua zirikatzia ixango da, ta pekatu lotsagalduko ori egin ba&ntilde;o len, obe ixango da ni neure etxera juatia, berorren baimenaz.</p>
+<p>&mdash; Gixona! &mdash;erantzun eutson Errege'k&mdash; igarle ona zara ba&ntilde;a etzara sermolari txarragua. Bai, zuzen zagoz. Ederto esanda. Eutsi ba zeure zartzarua ainbat ondoen igaroteko lain, eta zuaz Jainkuaz.</p>
+<p>Au esanaz batera, Errege'k zizkukada urria emon eutson. Bigurtu zan aguria baserrira, ta seme, erran, loba, lengusu, ta laugarren edo boskarren mallako senide gustijak, auzokuak, erritar gustijak txiki ta andi, danak alkarren leyan, berari eder-egiten eutsoela (zizkukada urriaren <hi rend='Italic'>millagruak</hi>), estula ba&ntilde;o zarrago egin arte ederto bixi ixan zan Peru Makur agure zolija.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Itoxurak zi&ntilde;aldari</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>I</hi></p>
+<p>Prakerre ta Motrollo esan, eta txakurra ta katua esan, Arribil'tarrentzat gauza bardi&ntilde;a zan, ain zan andija arek euken alkar ikusi ezi&ntilde;a.</p>
+<p>Ezin ixaten eben alkar artu ezetan be; naikua zan batak eguna zala esatia, bestiak gaba zala esateko; beti batak bayetz eta bestiak ezetz. Pelota-jokuan, eta bolalekuban, eta karta jokuan, eta auteskundietan, edozetariko jokotan aurrez-aurre beti aurkitxen ziran. Errikuak esatebenez, ardandegijan bertan be, batak ardao zurija eskatzen ba'eban, bestiak ardao baltza. Alkarren onduan, urrumaka ta uliak astinduta otso bi lez egon biar beti.</p>
+<p>Euren tayu ta ixakeretan be ezin ziran ixan bardingeaguak. Prakerre, txakur jezarri bat ba&ntilde;o andijagua etzan; gorputzez argala, samaz luzia, arpegiz estuba, sudurra luze ta makotuba, begijak txikijak eta barru-barruban sartubak, bixerra mietza, ta buruba txikitxua. Bizkorra zan bera, dantzari nekegabia, barritxu andija, itz utsa; pirri nausijenetaikua, leku gustijetan lenengua beti ixan gura ixaten eban, eztabaida danetan orijuaren antzera berak igon biar i&ntilde;ok ba&ntilde;o gorago, ta onetarako bere indarrak laguntzen ezeutsonez, gibel gaizto ta demontretakua zan, eta bada-ezpadakuan, aizto luze bat gerrikuan erabilten eban.</p>
+<p>Motrollo, barriz, erraldoe andi ta zabala zan; burutzar ikusgarrija eban, ule zapa baltz sarratu bategaz estalduta kokotetik asi ta begijen ur-urrera&ntilde;o; bepurubak, matrallak, sudurra, ezpanak, andi ta trauskillak ebazan, sutegiren baten mallukadaka egi&ntilde;ak irudijela. Bixerra be sarratuba, buruko ulia lez; azala, baltz gorrizkea, begirada itxala, abotsa lodi ta astuna. Oso indartsua zan; itzak, gitxi ta neurtuta lez jaurtiten ebazan; matrakan nekez asten zan, ba&ntilde;a bein asi ezketi&ntilde;o, itz asko egin ba&ntilde;o lenago bere besoetako gabi astunak erabiltzen ebazan, eta orduban bildurgarrija zan.</p>
+<p>Mutil txikitxuak zirala erne zan euren artian gorrotua. Zetatik? Batek-baki!</p>
+<p>Gixonen bijotzetan azi txarra ernetia ezta arritxeko; euretan landara gaiztuak ain erraz ta ugari urteten dirala ikusirik esan leike azi barik berez jayoten dirala, edo bertan dagozan erro zatiren batetik dakarrela jatorrija. Azitik ba'datoz be, nok galerazoko dautso azijari norberen soluan jausten? Aixiak dakar, edo urak dakar, edo aberetxuren batek dakar, edo bai-dator arerijua gabaz ta ereiten dau.</p>
+<p>Gero, jayo daitezanian lanak egin biar dira! Orduban ondo ikusten dira! Ordubantxe bai eskuz edo atxurrez atara biar dira ta garbitu biar da solua, landara onak emon dagijezan igali eder zorijontsubak! Augaitik itandu biar da zelan geitu zan mutillen gorrotua, ez zetatik erne zan.</p>
+<p>Prakerretxo ta Motrollotxo txikitan edozer ezerezkerigaitik burrukan ibilten ziranian, zenbat bidar jazo ete-zan egotia urrian gixon pilloren bat, eta onek, mutillak banandu ta bakian ipi&ntilde;i biarrian, amorratu ta sututen ebezan, eurai begira alditxo bat emotiarren, onetariko esakerakaz:</p>
+<p>&mdash; Ia, Prakerre, gogor, arrayua, eztagijela esan makalak garanik! bere auzotegitarrak.</p>
+<p>&mdash; Ia, Motrollo, ez ukatu, euria dok ori ta!</p>
+<p>Noz-edo-noz burrukea amaitzen eben, nekatzen ziralako ez euren amorruba gitxitzen zalako, berau erakusten ebela begirakun ta esakun gaiztoekaz, ta etxeratzen ziran so&ntilde;ekuak loitu ta urratuta, sudurretik odola dagijola, ta arpigitxoetan baltzunen bat edo beste ukabilkadakaz egi&ntilde;ak.</p>
+<p>Etxera elduberan, an ixaten ziran garrazijak; bakotxaren amak, burura esku bijak jasota, samako zanak asarrez andituta, begijak txingarrak irudijela, urteten zan semiagana didarka:</p>
+<p>&mdash; Nok ipiru au era orretan? Nor ixan da neuk neure atzamarretan ito daidan? Beti ixan ixango da urlia txakurtua! Oraintxe, geroko itxi barik, juango naz taraska orreri esatera azikera obia emon dagijola bere txakurkumari. Bai ta laster gero!</p>
+<p>Alkar aurkitxen ziran emakume bijak eta euren aboetatik, kerexak bata bestiagaz katigatuta otaratik lez, urteten ziran i&ntilde;ok asmau ezin leikezan itz zikin, irain eta txakurkerijak; sarri, ondoren, alkarri oratuta lotsagarrizko burrukea egiten eben, eta, dana mutikoen eurrian!</p>
+<p>Au ezeze, gero, gurasoekandik artzen ebezan onu deungak, amorruz emonak:</p>
+<p>&mdash; Ollanda demoni&ntilde;o ori! I&ntilde;oz agaz burrukan asten ba'az, ezakit ondora etorri buruba austen ezpa'dautsak, ezpabe neuk sayetsok berotuko dauskadaz, epel, irabijo bako, eztakit zelako ori.</p>
+<p>Bertan-bera itzijaz bakarrik, solua jorratu ta zainduten ezpa'da, geituaz da geituaz ba'duaz bedar galgarrijak, eta azkenez, erindako azijetatik datozan landara onak itoten ba'dabez, zer ezeteda jazoko, bedar txarrak ainbat lasterren atara biarrian, eurai lagunduten ba'yake?</p>
+<p>Jaki&ntilde;a, ixan biar leuken, eta ixan be ixango zan solo edo baratz, igali ta lora ederrez betia, larra bat egingo da, sasija ta otea ta arantzea ba&ntilde;o besterik eztaukona.</p>
+<p>Zelango zenbatza emon biarko eben Erabagile Nagusija'ren aurrian Prakerre ta Motrollo'ren guraso ta errikidiak, aixia emon eutsoelako aren bijoztxubetan ixitu zan gar txikijari, putz bategaz itxali eitekenari?</p>
+<p><hi rend='Bold'>II</hi></p>
+<p>Arribil'go ardandegijan, igande goiz baten Meza nagusi ostian, gixon taldetxo bat eguan euren eztarri egarritubak ardao zuriz bustitzen. Geyenak lurgi&ntilde;ak ziranez, autuban eragoyoen eguraldi ta baso ta solo ta abere ta onetariko gauzetzaz. Guenian gaste batek aitatu eban arratzalde artan Arribil'dik ez urrin egin biar zan erromerija.</p>
+<p>&mdash; Mutillak, errosarijo-ostian erromerijara juan biarko yuagu dantzaldi bat egiteko.</p>
+<p>&mdash; Juan ez ostera? Ori zetan esan bez.</p>
+<p>&mdash; Ba&ntilde;a, itunduta zagoze neskatillekaz?</p>
+<p>&mdash; Bai, Prakerre ain ospe zalia dan lez, or ibilli dok batzui ta bestei itz egiten, gaur andijenetaikua egin biar dala ta.</p>
+<p>&mdash; Errotabe'ko neskatilleari be itz egin ixango yautsok orrek.</p>
+<p>&mdash; Ba&ntilde;a mutillak, egija ete-da Motrollo be neska orren atzian dabillala?</p>
+<p>&mdash; Egija dok bai.</p>
+<p>&mdash; Andija dok eurena orraitio! Orain arte etxoek euki ba sekulan gauza baten naya, ta, orra! i&ntilde;oz alkartu dozak nai baten, i&ntilde;oz ba&ntilde;o asarriago geratzeko.</p>
+<p>&mdash; Eta, ze&ntilde;i arpegi emoten yautsok neskatilliak?</p>
+<p>&mdash; Ziur ezer etxakiagu, ba&ntilde;a zurrumurruba dok ortik ziar, Motrollo'gana daukola zer geyago.</p>
+<p>&mdash; Arrayetan, ederra be badok eta!</p>
+<p>&mdash; Eztok aingerua, ba&ntilde;a beste erki&ntilde;aren aldian gixon-itxurea yaukok be&ntilde;ipein.</p>
+<p>&mdash; Bai, gixon-itxura ederra! Arimea aldendu ezkero, naiz kanpotik naiz barrutik ori ta astozar andi bat aren baten.</p>
+<p>&mdash; Ba, Prakerre'gaz eskondu edo tximi&ntilde;o bategaz eskondu, etxakiat neuk zer gura ixango neuken geyago.</p>
+<p>&mdash; Arratzaldian an ixango dozak bijak.</p>
+<p>Orduban, ardandegijan eguan zar batek esan eutsen mutillei: Jaungoikuarren, eurokaz arduraz ibilli zaiteze, ezbiar bat jazo eztaiten danoen lotsagarrirako.</p>
+<p>&mdash; Goguan artuko dogu zeuk di&ntilde;oskuzun ori, Juenanton; ba&ntilde;a eztogu uste burrukaldi ta zartada batzuk ba&ntilde;o geyago jazo leitekenik.</p>
+<p>&mdash; Etxakiat ba. Neskatillea Prakerre'gana ballegok, biarba Motrollo errazago baketuko litxakek, bestia ba&ntilde;o gixonagua dalako; ba&ntilde;a esan dozuben erara gauzak dagozan ezkero, beste kontu bat da. Prakerrek, txikija ta ziztri&ntilde;a dalako burla egin dautsoela uste ixango yok eta zoratuko yakok, eta edozer ezbiar egiteko bidiak artu leikezak.</p>
+<p>&mdash; Ixan leiteke, ba&ntilde;a ixan ta be, zer? Aiztua ba'darua be, Motrollo ezta aren bildur, belarrondoko bategaz urri&ntilde;era bidalduteko biar dan ba&ntilde;o saspi bidar indar geyago dauko ta.</p>
+<p>Arratzaldian, erromerija zan lekuko zalaitxua bete-beterik eguan albo-errijetako gasterijaz; an ebiltzan auts-artian, arpegijak gorri-gorri ta ixerdija tantaka erijoela, eguzkijak eta ardauak eta eurak erabillen arluak berak emoten eutsien beruagaz, arnas-estuka nekiaren-nekez, ba&ntilde;a ori gora-bera, danak barreka ta pozarren.</p>
+<p>Prakerrek aurresku bat egin eban, erabilli ebazala i&ntilde;un diran anka-biyorkadak eta kirimillak, guztiz bizkorra zan ta; lagun gustijak berari begira egozan, eta Arribil'tarrak sokan piskat arrotxo ebilzan alako dantzari urtena eurendarra zalako. Errotabe'ko Marikrus ekarri eutsoen lagun, eta sokan sartu ba&ntilde;o len, arek ixan ziran txotxolokerijak Prakerrek egin ebazanak neskatilleari eder egitiarren! Jaurti eban bere txapel gorrija Marikrus'en o&ntilde;etara, ta asi zan artazika ta morapillaka bere anka bizkorrakaz txilibituaren so&ntilde;u arin bategaz lagunduta, atzera ta aurrera, ta gora-goraka, ta milla jira-biraz; artian, neskatillea irri barreka, pozarren, nasai-nasai ta arro eguan, zelan ez? etzan emakumia bestelan ixango! Prakerre'k au ikusijaz bere-artian i&ntilde;uan: &laquo;Ze Motroillo ta ze morrollo! aurreko oni kendu dautsot bijotza; lora kutun au eztago astozar aren ezpanetarako.&raquo; Ta gero uste au bide zala pozen-pozaz erdi zoratuta txotxolotuta ibilli zan arratzalde gustijan Txandia beria ixan zan.</p>
+<p>Motrollo barriz erreten egon zan, eta bein ba&ntilde;o sarrijago ezeban asko biar ixan bestiagana juan eta bertan ostikoka eyotuteko.</p>
+<p>Etxerantz abijau ziranian gure Arribil'tarrok, Prakerrek lortu eban Marikrusegaz bakarrian itz egitia; bere bijotzeko ondoezak agertu eutsozan, agin-ataratzalle batek ba&ntilde;o barriketa geyagogaz, otza-otzan, bildotza ba&ntilde;o apalago; neskatilleak, eskarrak egi&ntilde;az, itz-eta-itz adirazo eutson berandu eldu zala, edo besten bategana itzez lotuta aurkitxen zala, edo onakoren bat; orduban bildotzari uliak zerbait aztindu yakozan eta otsotuten asi zan; ekin eutson orraiti&ntilde;o autubari, neskeari atara gurarik ia nor zan itxa artuta eguana, ba&ntilde;a neskeak ezeutson esan gura. Onek, autubari ebagi bat emonaz, bere lagunakaz batzeko gurarija agertu ebanian, Prakerre osoro asarratu zan, eta esan eutson:</p>
+<p>&mdash; Ori bai-dakit nik nor dan, eztozu esan gura ba&ntilde;a.</p>
+<p>&mdash; Bai-dakixu ba... zelan zabiz jakin gurarik?</p>
+<p>&mdash; Ziur jakitiarren, zeure aotik entzutiarren; ba&ntilde;a, itxuraz, orban edo zetakaren bat euki biar dau soso orrek, argitara atara gura eztozunian.</p>
+<p>&mdash; Orbanik ba'dauko edo ezpa'dauko ezta i&ntilde;oren ardurea, neuria ba&ntilde;o.</p>
+<p>&mdash; Jakingo dogu, geruago jakin biar dan gauzea da ta, Marikrus, ta nik susmetan dodana ba'da zure senargeya, neuk abinduten dautzut etzarala beragaz eskonduko, naiz-ta galerazoteko ludi' gustija erre ta kiskaldu biar ba'litz be.</p>
+<p>&mdash; Jo... su!! ezta orrenbeste ixango orraiti&ntilde;o; zu zaran gixonaz gusti ori egitia geyegi dozu.</p>
+<p>Auxe, irri-barrez esanda neskeak igesi eutson bere lagunekana. Prakerre geratu zan odola irakiten ebala, abua ligortuta, bijotza zartadaka, arnasarik artu ezi&ntilde;ik, ikaraka, bere abotik jaurti gura ebazan irain ta birauak ezin oguzi ta; sartu yakon bijotzaren erdijan asmo deunga zitala; noz-edo-noz asmo au bete al ixango ebanaren itxaropenak zerbait nasaitu eutson bere barruba, ta batzau zan beste gasteekaz. Amorruba sakonago sartu yakon, errira eldu ba&ntilde;o lenago Motrollotzar ikusijaz Marikrusen onduan, eta au ostera udabarriko goiz bat ba&ntilde;o arpegi eder ta argijaguaz.</p>
+<p>Arribil'era elduberan banatu ziran erromerijakuak aldratxoetan, eta bai-yuazan bakotxa bere auzotegi-aldera abeska ta santzoka; aldratxo onetan emakumiak ziran geyenak; gixonezkuak, ardandegijan sartu ziran geyenak azkenengo zurruta edateko.</p>
+<p>Prakerre ta Motrollo be an ziran. Laster sortu zan matrakea bijen artian, eta Motrollok bestiari emon eutson bultzakadeaz txirikillia lez ziar bota eban jarleku ta mai artera; jagi zan au suge zitalaren amorruaz, edegi eban aiztua, ta ezpanetatik bitsa darijola bai-yuan Motrollo'ri sartzen; onek aulki bategaz lo eban burutik-bera ta Prakerre ostera be lurrera; orduban sartu yakon Motrollo, aiztua kendu ta beragaz bertan triminduteko ustiaz, ba&ntilde;a ezin ixan eutson kendu, katuba lez aginka ta ostikoka egiten ebalako. Gusti au igaro zan aida batian; banandu ebezan, Motrollo esku ta besoetatik odola darijola burrukan ebagi batzuk artu ebazalako, ta Prakerre buruban anditu ta zauri batzukaz, bestiagandik arturiko blaustadakaz. Onek, gorrotoz bixi-bixi begijak beteta ebazala, esan eutson Motrollo'ri arrapauko eban lekuban garbituko ebala.</p>
+<p>Alkatiak au entzun ebanian (zer-edo-zer berotxua zan bera) esan eutson: &mdash; Zer garbitu edo zer arrayo? Nor garbitu biar dok ik, demoni&ntilde;o orrek? Etxera ixil-ixillik, eta laster juan be gero, aizto ori emen itzita, katu txatxar ori!</p>
+<p>Prakerrek, azkenengo itz ok entzun ebazanian, albuan eukan edontzi bat artu, ta jaurti eutson burura alkatiari, ta odoldu eban; orduban, danen artian oratuta, amorratuta egualako, pizti basati bat ixan balitz lez lotuta espetxera eruan biar ixan eben.</p>
+<p><hi rend='Bold'>III</hi></p>
+<p>Erromeri eguneko jazoerak ondo ospatsubak ixan ziran erri txiki aretako biztanlientzat.</p>
+<p>Jazoera arek bere ardurapian artu zituan Epaikarijak, eta epaitu eban burrukari bijak espetxian gerizpea artu egijela alditxo baten, eta gero Prakerre erbesteratu eitela Arribil'tik lau legua ingurutik at.</p>
+<p>Epaya bete eben. Motrollo eskondu zan Marikrus'egaz, ta maizter edo errenteru jarri zan erriko basetxe baten; Prakerre juan zan biziten andik bost legua bidian eguan erritxo batera, ta an ipi&ntilde;i ebazan bixargintzea ta zapatagintzea.</p>
+<p>Arribil aonan bake-bakian geratu zan; bertako notin zentzudunak ezeben asko biar egun artako odol-ixurtzia ija bedeinkatzeko, bere ondoren, i&ntilde;oren kalte andi barik, alako bake dontsuba ekarri ebalako; baita uste eben, Motrollok eta Prakerrek alkarrengana eukan gorrotua, urtiekaz bigundu ta azkenez urtu egingo zala. Edozelan be, ondo zan bata bestiagandik urrin eukitia.</p>
+<p>Orraiti&ntilde;o, Prakerre beti Prakerre, ta Motrollo beti kirten andi bat ixango ziran, txikitatik ekarren laztasunagaitik; azikera txarra ixan daun zugatza, lenengo urtietan okertu zana, ta alan andi ta gogorra egin dana nok zuzendu? Jaungoikuak bakarrik bere almenaz, beste i&ntilde;ok ez.</p>
+<p>Ba&ntilde;a Jaun Irakasliak biarba orrelako abe okerrak zuzendu barik izten dauz askotan, gustijori ikusi eragiteko zelako ondorenak dakazan azikera gaiztuak, eta beraz ikusi daigun zelan eta zenbat umiak zaindu biar doguzan okertu eztaitezan, eta i&ntilde;oz okerbidian ikusi ezkero zuzendu daiguzan artarako eskubiderik ba'daukogu, ta euki ezik, be&ntilde;epein ez emon indarrik artu daben bide deungatik jarraitzeko.</p>
+<p>Gixon egin zanian gugaitik, Berak irakatsi euskun Bere txikitxoen aurrian galbidia emongo eutson gauzarik egin ba&ntilde;o obe dala samatik errotarri bat estu ta itxasora bota ixatia.</p>
+<p>Guretzat Bere esana bakarrik naikua ixan biar leuke bide zuzenetik ez urteteko, ba&ntilde;a zorigatxez ezta alan, eta Jaun errukitsubak jazoerakaz egunero Bere agintzak gomuta erazoten dauskuz. Ludiko jazoera gustijetan, ondo begiratu ezkero, ikusi daikeguz gure Jauna'ren irakaspen ederrak.</p>
+<p>Prakerre'ri gorrotua etxakon gitxitu. Estura andijan bixi zan; berak eban erruba, eskondu barik eta ganora barik, ardanetxietan, erromerijetan, eta alakoxe lekubetan aldirik geyena emoten ebalako; ba&ntilde;a berak, estutasun onen jatorrija ipinten eban Motrollo'gaz euki eban asarrian. Igaroten ebazan atsakabe gustijetan bijotza garrez beterik esaten eutson bere burubari:</p>
+<p>&mdash; Axe ixan dok ire ondamendija, axek galdu au sekulako, ezintzan aurkituko orain agoan eran Arribil'en bixi ixan baintz. Augaitik lenagoko gorrotua bixi-bixi eguan bere bijotzian, eta ez bixi erki&ntilde;az, ta bai sendo, gogor ta i&ntilde;oz ba&ntilde;o andijago.</p>
+<p>Motrollok, bere emaztiaren nebakaz asarren batzuk ebazan, ogasun izkijen batzuk zirala ta etzirala, ta ain latza ta kirtena zan lez i&ntilde;ok ezin eban beretik atara ezetara be. Euren artian asko garraztu ziran, eta bein-edo-bein urten zan urten biar zana alako kirtenaz eztabaidetan ibilli ezkero; berak eta bere ko&ntilde;atu batek alkarri eskubak ezarri eutsoezan, eta Motrollo'k ebazan indartzarrakaz apurtu eban bestia ukabilka ta ostikoka, ta geyagora elduko zan banandu ezpa'lebez arin. Ko&ntilde;atuak, lagun-aurrian, ori lako jazokunetan asarriaren beruak erazoten dauzan itzekaz Motrollo zematu eban:</p>
+<p>&mdash; Au ordainduko daustak ba, astozar, kirten, arrayo orrek; indarra daukuala ta errazoyari begiratu barik beti euriaz urtengo dokala uste dok ala? Sutautsak ik ba&ntilde;o indar geyago yaukok, ire atzamarrak ba&ntilde;o zorrotzago dozak aiztuak eta azkorak.</p>
+<p>Urrengo eguna igandia zan; edurra eguan goyetan, eta euria zan beyetan; Motrollo'k erriko ardanetxian apaldu eban eta bertan egon zan gaba ondo sartu arte, iganderik geyenetan berak eta beste askok ekanduba eben lez. Urten zan bakarrik etxerantz, eta atzian gixon bat yuakon, jausten zan euriaren ardura gitxigaz; aixiak eta eurijak batera egiten eben otsaz Motrollo'k ezebazan entzuten bere jarrai yoianaren oinkadak; au noixik-bein urreratzen yakon, eta berialaxe gelditzen zan bide-ertzian, egin gura ebana egiten azartuko ezpa'litz lez. Gero, itxuraz, beste asmoren bat artu biar ixan eban, bidetik aldendu ta geyago agiri etzalako.</p>
+<p>I&ntilde;or bixi etzan etxe txiki erdi-apurtu baten ondotik igaro biar eban Motrollo'k. Orma-ondotik yoiala, sayetzetik zartada bat susmau eban, bigurtu zan, ba&ntilde;a indarrak uts eginda aieneka lurra jo eban. Etxiaren illunbian eskutaurik eguan gaizki&ntilde;ak aizto zorrotza sartu eutson; Motrollo lurrian ikusi ebanian, urten eta esan eutson:</p>
+<p>&mdash; Bixirik ago ondi&ntilde;o, tximista ori? Ezagutzen al nok? Nor nazan bai al dakik? Prakerre nok! Prakerre makillatua, Prakerre ostikopetua, Prakerre erbestetua, Prakerre bai, estu-estu ta larri-larri, ija eskian ibilteko eraz aurkitxen dana eugaitik! Ai, noz-edo-noz jausi biar uan neure eskubetan arrayo orrek!</p>
+<p>Motrollo gixajua azkenetan eguan, ixerdi larritan, zotinka, ta bildurturik erijotza ikaragarrija ain urrian ikusita; gomutau zan Jaungoikuaz, ta emazte ta semetxoekaz; bere goralbenez esan biar dogu, sendijaganako maitasunak bere gorrotua betu ebala, ta beraz Prakerre'ri esan eutson:</p>
+<p>&mdash; Jaungoikuarren itzi naik! Egin daustakan zaurija garbitu ta estaldu egistak, enaik il!</p>
+<p>&mdash; Ezta! Ementxe il biar dok, ementxe gusti-gustijak ordaindu biar dostazak.</p>
+<p>&mdash; Tellatutik bera datozan itoxurak ixan daitezela ik nigaz egiten dokan gaitakeriyaren zi&ntilde;aldari, esan eban Motrollo errukarrijak, ija zer esaten eban be ezekijala.</p>
+<p>&mdash; Ixan daitezela ba!! didar eginda Prakerre otso gogorrak bertan erail eban.</p>
+<p>Ba&ntilde;a, zelan ixan eraillia Prakerre, andik urrun bixi ta? Oraintxe azalduko da.</p>
+<p>Motrollo'k larunbatean bere ko&ntilde;atuakaz ixan eban burrukea ta onek zelan zematu eban, igande goixian eldu zan Prakerre'ren belarrijetara, ta Motrollo'k ardanetxian gabaren zati bat igaroten ebala igandetan bai-ekijan lez, erabagi eban egitia egin ebana.</p>
+<p>Bera bixi zan erriko ardanetxian aurkitzen zan igande-illuntzijan mus-jokuan; eta buruko min aundija eukala ta txarto eguala-ta, jokuari itzi eutson, eta bertan egozan batzuk lagun egin eutsoen etxera&ntilde;o, an larranbillo-ura artu, ta euren aurrian ogeratu zan; gerotxuago, zerbait obeto eguala ta, bidaldu ebazan esanaz bijaramon goixian, bada-ezpadan eldu eitezela, baldin txartuago ba'eguan, bakarrik eta gexorik bere buruba ikusi ezegijan.</p>
+<p>Lagunak alde egin eta gerotxubago jagi zan, urten etxetik, eta basorik baso bidiak asko laburtuaz, arin, diabruak bere eguak emon ixan ba'leutsoz lez, artu eban Arribil-aldera, ta eldu zan ondi&ntilde;o Motrollo ardanetxian eguala, ta gau utsez, bakartadian, atzetik eta gogorkeri andijaz esan da zelan egin eban erijotza madarikatuba.</p>
+<p>Berialaxe bigurtu zan etxera; gau luzia zan lez, eguna zabaladu ba&ntilde;o lenago eldu ta ogeratu zan, lagunai itxaroten. Onek, etorri ziranian, aurregunian ba&ntilde;o askozaz gexuago aurkitu eben; egun batzuetan ai-ene guzurrezkuak ugari ebazala, lotu zan oyan.</p>
+<p><hi rend='Bold'>IV</hi></p>
+<p>Urrengo goixian jakin eta zabaldu zanian Motrollo erailda topau ebela, erri gustija zurtuta gelditu zan; errijan a lako egitada deungarik ezeban i&ntilde;ok gomutaten, ezta zarren artian be.</p>
+<p>Epaikarija etorri zan, agindu eban aratuteko eraildakuaren soi&ntilde;eko sakelak ta lapurretan egitiarren erail ete eben; ez, aldian eukazan diru ta balijodun enparau gauzak. Itandu eban i&ntilde;ogaz asarrerik ixan eban; bayetz ba, ko&ntilde;atu bategaz zala asarre ta iru egun aurrerago alkar joten ibilli zirala. Beraz, artu eban ko&ntilde;atua, ta epaiterki buruko espetxera eruan eben. Epaikarijak egiten eutsozan itaunetara, garratz ukatzen eban; agindu eutson azaltzeko nun egon zan gau artan, eta berak erantzuten eban etxian egon zala ta etxekoai itanduteko; ba&ntilde;a etxekoen esanak ezeutson balijo, ta ostera, burrukea ikusi eben gustijak esaten eben zelako itz gogorrakaz zematu eban Motrollo.</p>
+<p>Epaikarijak, orraiti&ntilde;o, itandu eutson Prakerre bixi zan erriko alkatiari ia alde egin ete eban ak i&ntilde;ora erailtza egin zan egunetan; ezetz erantzun yakon, igandian oian sartu ta egubenera arte gexorik egon zala.</p>
+<p>Beraz, epaikarijak eta danak, eskijertzat edo ziurtzat euken Motrollo'ren erallia bere ko&ntilde;atua ixan zala, onen ukamenai jaramon barik. Epaya bere kaltez ixan zan, urte askotan espetxian egoteko nekia ezarri eutsoen errubako gixajo andia!</p>
+<p>Prakerre'ri, bijotz gogorduna ixan arren, sortu ta jayo yakozan bijotzaren erdi-erdijan artxo bi, txiki jayo arren andi egingo ziranak, nun jan bai-euken da; bata, egin eban erijotzagaitik; bestia, espetxian eguan errubako gixajuagaitik.</p>
+<p>Aldija aurrera joyan, eta azi ta azi, urte batzubetan eldu ziran eurai egokijoen anditasunera, ta Prakerre'ren izakeran aldakuntza andija egin zan apurka-apurka. Etzan ikusten erromerijetan eta beste jolas-lekubetan; itxala egin zan; len barriketa utsa zana, ixilla ta itz biarrekuak ba&ntilde;o esaten ezebazana bigurtu zan; itzi eutson jokuari, dantzeari, barre-egitia sekulako juan zan bere espanetatik: beste gixon bat zan. Bere auzo, aizkide ta lagunak barriona emoten eutsen esanaz:</p>
+<p>&mdash; Bein edo bein gixon gustijak buruba jarten dabe; zuri be eldu yatzu aldija; ekin ba lanari, emaztegeya billatu, ta onerako izan daitela.</p>
+<p>Ezeben barrutik ikusten! Egunez, al ebazanak egiten ebazan lagunen aurrian zelan edo alan estalduteko bere barruko larritasun eta atsakabia, bildurrez susmau ezegijen zetatik etorran. Gabez bildur utsa zan gixajua; eukiten ebazan ames ikaragarrijekaitik, lo egiten bildur; itxarrik illunian, bildur; argijagaz, berak orman egiten eban gerixiaz, eta argijak egiten ebazan zirki&ntilde;akaz basterretako illun-unak be zirkin egiten ebenian, nor-edo-nor gelan egualakuan, bildur; gabeko ixildasunian zaratatxo batek ule gustijak zutunduten eutsozanian, bildur; etxetik kanpora urteteko, bildur; etxian egonaz, bildur. Egunez nai gabez, lagun-aurrian naiz bakarrik, beti-beti bildur.</p>
+<p>Otu yakon bein, esaten be gaitz dan bide bat, atsakabe ain izugarrijei iges-egiteko; ba&ntilde;a beste aldetik susmau eban Jauna'ren arpegi asarre ikaragarrija, ta bildur andijagua sartu yakon bere aragi ta azurren barru-barrura&ntilde;o.</p>
+<p>Alan, jausi biar, ta azkenez jausi zan gexorik. Abadiak eta Alkatiak emakume bat bidaldu eben, gabeko ordu batak ba&ntilde;o bakarrago eguan errukarrija zaindu egijan. Osalarijak aginduriko osakayak ba&ntilde;o laguna eukitiak on geyago egin eutson, eta egun batzuk igarota jagi zan ogetik, ondi&ntilde;o makal eta zurbil eguan ba&ntilde;a.</p>
+<p>Aonan, gexo-ostian eguala, eurite andi bat etorri zan; arratzalde batian, euri zaparrada luze bat zala, bai-eguan Prakerre leyuan, begira zelan ura jausten zan odeyetatik lurrera, gela-barruban emakuma laguntzallia kaltzetagi&ntilde;an jezarrita eguan artian; bai-eguan Prakerre begijak zabal-zabalik, geldi-geldi, gauza gustijekaz aztuta, burutik oldozpen gustijak iges egin ba'leutsoe lez, itxaso ta erreka ta eurijaren aurrian askon jazoten yaken antzera. Itoxurak itxartu eben eta ekarri eutsoen gogora bere betiko gomutia, ta esan eban:</p>
+<p>&mdash; Etxuazan ba itoxurak ipi&ntilde;i zi&ntilde;aldaritzat Motrollo'k gau artan il nebanian?</p>
+<p>Emakumiak itz ok entzun ebazan, zurtu zan, eta jarraitu eban bere lanian zirki&ntilde;ik egin baga; Prakerre be etzan igitu bere lekutik zati baten; etxakon burutik igaro, bere oldozkuna i&ntilde;ok entzuteko eraz urten yakonik.</p>
+<p>Geruago laguntzallia urten zanian andik, alkatia kalian aurkitu eban, eta azaldu eutson entzun ebana; alkatiak &laquo;ezin ixan leike&raquo; i&ntilde;uan, ba&ntilde;a, bada-ezpadan epaikarijari izparra bidaldu eutson; etorri zan au, artu eban bakarrian Prakerre ta eraso eutsan gusti-gustija.</p>
+<p>Zabaldu zan izparra ingurubetako erri gustijetan; askok eta askok ezeben zi&ntilde;estu gura, Prakerrek gabez Arribil'era egin eban juakundia zertzelada gustijekaz jakin arte; gero itanduten eben zelan jakin zan ain eskutu eguan gauzea, ta itoxurak zi&ntilde;aldaritzat ildakuaren aldetik ipi&ntilde;ijak agertu ebela gustija azalduten yakenian, arrituten ziran eta Jaungoikua goraltzen eben, bere bildur osasuntsua bijotzetan ebela.</p>
+<p>Ainbat lasterren aginduba bidaldu eben espetxera, bertan eguan gixajo errubakua azkatu egijela. Laster juan zan Prakerre aren lekuba betetera; ara juan ziran beragaz atsakabe gustijak; an urte askotan so&ntilde;ian burdi&ntilde;azko lokarrijak eta barruban gomuta larrigarrijak narraz eruan ebazan; an urte askotan erdi gexorik erdi osaturik bertako bixikera gogorrak, eta geyago, askoz geyago, bere bijotzian josita eukozan untziak ezeutsoen itzi une bateko alaitasunik; an urte askotan eruan eban bixitza bat, irudimen azkarrenak asmau leikiana ba&ntilde;o itxalagua ta bildurgarrijagua, Jauna'ren itxarokuna gixajuak galdu ebalako; ezeguan aren bijotzian samurtasunik, ezeguan aren begijetan negarpulurik. Axe zan nekia! Nok azaldu daike zelakua dan negar bagako atsakaba?</p>
+<p>Eldu yakon bein-edo-bein ludi au izteko orduba, berak gura ba&ntilde;o lenago, ainbeste larritasunen erdijan bixi arren. Zorijonez euki eban onduan abade jaun on bat, aren bijotzera Jauna'ren itxarokuna ekarteko benetan nekatu biar ixan ebazana buruba, bijotza, ta mi&ntilde;a; azaldu eutson Jauna'ren erruki neurri bagea, ta oben edo pekatu andi ta ikaragarrijen azpijan aurkitu arren, bere itxarokuna galdutia, bere ontasuna ez ezautzia dala obenik galgarrijena; itz egin eutson bijotzetik damutasunatzaz, geure Josu-Kisto Jauna'ren erijotzeatzaz, ta abar; ekin eta ekin lortu eban argi izpitxo bat sartzia illundasun ain sendo artan; apur-apurka negar eragin eutson, eta atondu eban Eleixa Ama'ren azkenengo Ikurtonak edo Sakramentubak artzeko; artu ebazan eta il zan.</p>
+<p>Gaurko egunetan askoren artian dabiltzan ustiakaz batebatek azalduko leuke Prakerre'k eta Motrollo'k ixan eben gorrotua, onetara: &laquo;Ori euren tayu ta ixakera ain ezbardi&ntilde;etatik nai-ta-ez datorren gauzea da.&raquo;</p>
+<p>Orreri erantzun leikio katuba ta txakurra be, txikitatik irakatsi ezkero elkarren aizkide ixaten dirala; irakatsi ezkero ba, errazago lortuko da ori gixonen artian, adimendunak diralako, anayak eta beraz alkar maitatzeko egi&ntilde;ak diralako.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Garagarrillean edurra</p><--</head>
+        </front>
+        <body>
+<p>Otalar'eko Txomin ba&ntilde;o gixon ixillagorik eta bakarzaliagorik ezta i&ntilde;un ixan.</p>
+<p>Lagun-artian i&ntilde;oz egon biar ixaten ebanian, ixi-ixillik egoten zan, entzun eta entzuten bestiak esaten ebena; bere gogua zetara eguan i&ntilde;ok ezin igarri eikion, ikara txikarrenik be eragiten ezeutsolako bere arpegiko narrubari; noizik-bein begijak erabilli ezpa'leuz alde batera ta bestera, edonok artu eikion arrizko edo zulezko edo argixarizko gixon-tayutzat.</p>
+<p>Gitxitan, oso gitxitan asten zan bera itz-egiten; geyen-geyenetan berari egin biar ixaten yakon, eta orduban be, iru edo lau itz laburregaz amaitzen eban bere erantzuberea; gura ta be, alegi&ntilde;ak eginda be, ezin eban i&ntilde;ok euki aregaz izketa luzerik, gixon legorragorik!...</p>
+<p>Ezek ezeban ikaratzen. Urira i&ntilde;oz jatzi zanian bere menditik, menditar batentzat beti ikusgarri ixan oi diran gauzaen ondotik igaroten zan ezeri begiraka ibilli barik, gauza areik egunian-egunian ikusten oituta egon ba'litz lez. Lenengoz <hi rend='Italic'>automobil</hi> bat igaro yakonian ondo-ondotik adarroska, autsa ta atsa darijola, txakur bat igaro ba'litz ba&ntilde;o jaramon geyago ezeutson egin. Kirijo edo <hi rend='Italic'><foreign>nervio</foreign></hi> bagako gixona irudijan.</p>
+<p>Bere ixakereari alagala etorkijon bixibidia eban Txomi&ntilde;ek. Ardizain ebillan mendijan, artaldia ugazabak eta berak erdirantza edo erdibana eukela.</p>
+<p>Alperrik ixaten zan ari esatia: &laquo;Txomin, zuk au edo or edo bestia egin biar zeunke, auxe datorkixu ondo, orixe egin go ba'zendu...&raquo; A etzan i&ntilde;oz ibilten i&ntilde;oren esanetik, bere gogotik ba&ntilde;o; gixon azkiagorik ezeguan inguru artan.</p>
+<p>Onako baten agertu zan errijan Matxin Kaixku barritxuba, Ameriketan urte bi edo iru ibilli ta gero, ta erriko ardanetxian igande arrastei baten gixon pillo andi bati eragoyon edesten edo kontetan, guzur ta abar, itxasuaz-andiko gauzak. Txomin Otalar be entzulien artian zan.</p>
+<p>Ameriketako lurraren goralben andijak esan ebazan Matxin Kaixkuk; eta batez-be, abeltza&ntilde;ak edo unayak ederto irabaz ten dabela, gitxik juan gura ixaten dabelako basamortura ta geyenak urijetan gelditxen diralako; eta augaitik Euzkadi'ko baserritarrak, bakarrian bixi ixateko igo&ntilde;ik eztaukelako ango basamortu zabaletan, laster aberaztuten dirala; eta aberiak azteko zabal ixugarrijak dagozala; bai-dirala an Euzkadi gustija besteko zabalak bedar gozatsuz estaldubak, gixon bakar ba bixi etzala.</p>
+<p>Onek gustijok entzun ebazanian Txomin Otalar'ek esar eutson bere burubari:</p>
+<p>&mdash; Orrexek dozak, Txomin euretzako aginduta lako lekubak; orixe dok, abeltzaintza ori, bixibide ta irabazpide egin-egi&ntilde;ekua iretzat. Ua Ameriketara.</p>
+<p>Bijamon-bijamonian bere ugazabari Txomin agertu yakon eta esan eutson:</p>
+<p>&mdash; Ugazaba, zeugaz berba batzuk egiten nator.</p>
+<p>&mdash; Mu... til!; berba egiten etortzeko zegozer jazo dok... Gure ardijak otsuak jan al yozak?</p>
+<p>&mdash; Ez, osorik dagoz. Neuriak erosiko zeunskidaz?</p>
+<p>&mdash; Ba&ntilde;a, zer dala ta?</p>
+<p>&mdash; Neu banua.</p>
+<p>&mdash; Nora gero?</p>
+<p>&mdash; Ameriketara.</p>
+<p>&mdash; Zoratu egin al yak? Zer darabik euk? Bai-dakik zer dan Ameriketara juatia? Ezegik uste or Anboto-ostian dagola.</p>
+<p>&mdash; Neu banua bai... ta billatu egixu nire ordiazko bat ardijak zaintzeko, ta esaistazu neuriak erosiko daustazuzan ala ez.</p>
+<p>&mdash; Buru orretan sartu ba-yak ara juatia, alperrik ibilliko nok iri ezer esaten... ludiko gixon jakintsu gustijak bai-letozak ire burutik asmo ori ataraten elleukiek ezer egingo... tirok ba, erosiko dauskadaz ardijak, eta ua euk gura dokan lekura.</p>
+<p>Saldu-erostia egin eben, eta Bagilla'ko 12'g egunian Bilbao'n ontziratu zan gure Txomin.</p>
+<p>Dagonilla'ko azken-egunetan agertu zan barriro Txomin bere errijan, eta beti lez, ixil-ixillik, atzera zegaitik etorri zan i&ntilde;ori esan barik, goiz baten ugazabana juan zan.</p>
+<p>&mdash; Bagillean saldu neutsuzan ardijak atzera erosiko dautzudaz; gura ba'dozu.</p>
+<p>&mdash; Bai pozik be. Eure ordez artu dodan ardizain barrijak gauza onik etxeustak egiten... ainbat ardi galdu yozak... bidaldu biar yuat, eta eu ipi&ntilde;iko aut len lez. Ba&ntilde;a esaistak, Ameriketara eldu az eu?</p>
+<p>&mdash; Bai.</p>
+<p>&mdash; Eztok egin an egote andirik ba.</p>
+<p>&mdash; Egun bat. Buenos Aires'en. Ontzitik urten, eta bijamonian etorran beste bat onantza, ta antxe sartu nintzan.</p>
+<p>&mdash; Zegaitik ori?</p>
+<p>&mdash; Garagarrilla-ko 10'garrena zan.</p>
+<p>&mdash; Da?</p>
+<p>&mdash; Edurra zan gogoz, urtarrillean lez, otzak baster gustijak ondatu biar.</p>
+<p>&mdash; Eta bildurtu egin intzan, eztok?</p>
+<p>&mdash; Bai ba, Garagarrillean eguraldi-modu ori zanian, neguan nor atondu an?</p>
+<p>&mdash; Ondo egin dok. Emen obeto bixiko az.</p>
+<p>Andik egun batzubetara errijan zabaldu zanian zegaitik ain laster etorri zan Txomin-Otalar Ameriketatik, Matxin Kaixku'k barre santsoka i&ntilde;uan:</p>
+<p>&mdash; Kirten andija, emen udea danian an neguba ixaten dok, eta emen neguba danian an udea. Ori dok ostera idija!</p>
+<p>&mdash; Ezpa'yekijan, zer egingo yuan ba?</p>
+<p>&mdash; Arra&ntilde;ak baxen mutuba ezpa'litxok esango gayeutsokan, ba&ntilde;a, orixe yagok ba, etxok i&ntilde;ogaz itz egiten, eta bere burutatik ibilten dok eta... pekotza!</p>
+<p>Txomin'i esan eutsoenian Keixku'k i&ntilde;uana, erantzun eban:</p>
+<p>&mdash; Zortzi urteko umetzat artzen nozube ala? Alde batian neguba ta bestian udea? Nok entzun yok i&ntilde;oz ori lako astakeririk? Niri etzakidaze etorri orretariko barriketakaz, zeuben amamai juan zakiyoeze eurokaz, txatxu andijok alakuok!</p>
+<p>Bere ugazabak be ezeban atara gura okerretik, barriro alde egingo ete-eutson bildurrez, ta sakatu eutson geyago bere ustia; eta atan gelditu zan Txomin: Buenos Aires'ko alde ori otzaz baster geiztua dala, Garagarrillan edurrez zuritzen dana, ta beraz, ia zer ixango dan neguban.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Aratoste</p><--</head>
+        </front>
+        <body>
+<p>Mutiko sostor pillotxo bat agiri da, obeto esateko, eskutaten da berezi-barruko ikeztoi zuluan.</p>
+<p>&mdash; Mutillak, gaur aratoste dok, eta koko jantzita juan biar yuagu errira.</p>
+<p>&mdash; Ederto asmau dok.</p>
+<p>&mdash; Ori, ori!</p>
+<p>&mdash; Aupa mutillak!</p>
+<p>Au da poza koko janzteko. Zuzendu dabez nundik edo andik zapi zar batzuk eta papel zati andi batzuk; norbaitek, etxera-ostera bat eginda, ekarri dau aril bat amari ostuta edo.</p>
+<p>Zapi zar ta papelok banandu dabez, amaika agiraka ta asarre alkarri eginda gero; begijetarako zulotxo bi&ntilde;a egiten dautsez, ta kokote-aldian ari puskategaz lotuta, egin eta jantzi dabez karatula dotoriak.</p>
+<p>Gero, arkondarea praken ganetik imi&ntilde;i, txapela ta jakia itzulijetara jantzi, praka barrenak toloztu ta jaso ija belaunetara&ntilde;o... ta orra kokomarro jantzita nire erriko mutiko koskorrok.</p>
+<p>Eurok ba&ntilde;o obeto marrotuko dira urijetakuak; ba&ntilde;a i&ntilde;or ezta ixango pozago, jantzi polit-ederrak erabilli-arren.</p>
+<p>Arek egiten dabez barre algarak alkarri begiratuta!</p>
+<p>&mdash; Mutillak, ikusiyozube oni arkondarea. Laster ezautuko abe i, txarrito ori.</p>
+<p>&mdash; Euk al daukok garbiyagua, zotza lakoxe txanka me orrekaz?</p>
+<p>&mdash; Oni barriz karateluak ezin yautsok artu arpegijaren erdija be, ain yaukok aldaba andija!</p>
+<p>&mdash; Aituok, i barritxu? E&ntilde;eukek trukauko ba ik daukuan gazta&ntilde;a txikol orregaitik.</p>
+<p>&mdash; Barriketak itxita tirozube, gayuazan errira.</p>
+<p>&mdash; Gaur atso gustijak ikaratu biar yuaguz.</p>
+<p>Piperpote utsitu batzubetan arri koskorrak sartu ta zarata eragi&ntilde;az abijau dira noz-edo-noz oyuka ta santsoka.</p>
+<p>Euren bidia lenengo aurkitxen daben etxe-ondoko errekatxubaren ertzian eskaratz-tresna batzuk dagoz legortzen, garbituta gero; artzen dabez andik sarten bi ta mazkillu bat, onek be zarata egiteko, ta abarrots andijagaz sartzen dira errijan.</p>
+<p>I&ntilde;un katurik ikusten ba'dabe arrika egiten dautsoe, katu-karraxi andijak eurok egiten dabezala. Txakur gustijak arrapaladan duaz igesi etxe-ostietara edo etxe-barrubetara, al daben lekura, andik asten dirala ausika ixildu barik bildurrez. Batu jakez etxe-artian olgetan ibilli diran erriko ume txiki gustijak, eta danak batera jarraitzen dabe.</p>
+<p>Arrapau dabe, geruago, errota-osteko gazta&ntilde;adijan belarri andidun asto zar-zar bat; igon yako bat bizkarrera, ta bai-dabilz poz-pozik alde batera ta bestera, itxita aurkitxen dabe zan ate gustijetan arrika ta makillaka zarata andijak atararik. Atso gustijak barre santso baten dagoz eurai begira, bixi-bixi ta pozik daukezela euren begi tximurrak, eta agiri lokaren bat edo beste agiri yakezela euren abo bartubetan.</p>
+<p>Ba&ntilde;a ludi onetan poz iraunkorrik eztago, eta an dabillan pozak be egundoko ari&ntilde;en alde egiten dau.</p>
+<p>I&ntilde;ok igarri barik bertaratu dira, alde batetik errotarija bere astuaren billa, beste aldetik sartanak eta mazkillua artu dabezan etxeko gixona bere tresnaen eske.</p>
+<p>Kokoteko bi galantak artzen dauz asto-ganian arro-arro dabillan <hi rend='Italic'>zaldunak</hi>; eta tresnakaz dabiltzanak, baita beste enparauak be, artzen dabez ostikada ta zapladako desentiak... eta ortxe amaitu da gure erriko aratostietako poz gustija.</p>
+<p>Uxatu ta sakabanatu dira mutiko koskortxuok erri basterretara, imi&ntilde;i dabez jantzijak egunoro lez, ta kitu.</p>
+<p>Itandu egiyozube mutiko onei aratostietan olgau diran ala ez, ta erantzungo dautzube albuak minduta daukezala ondi&ntilde;o barriaren barriaz.</p>
+<p>Ez Bilbao'n, ez Paris'en, ez Niza'n, ez i&ntilde;un eztira olgau mutiko koskor orrek ba&ntilde;o geyago.</p>
+<p>Gixon egin daitezanian be gomutauko dabez eurok aratoste egunetako jazokunak. Errotarijaren kokotekuak eta beste gixonaren ostikadak eta zapladakuak euren bixitza gustijan pozarren gogoratu yakez.</p>
+<p>Poztasuna eztago onetara edo orretara jantzitian, asko edo gitxi eukitian; poztasuna norbere barruban dago, norbere goguan.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Urte barri barri</p><--</head>
+        </front>
+        <body>
+<p>Ene irakurliak, azaldu gura dautzubet nire baserriko ekandutxu bat, ara:</p>
+<p>Or duaz estartea gora mutil koskor batzuk, txor-txor-txor, gustijak batera barriketan, une bakartxu baten be ixiltzen eztirala, musturrak gorri-gorri otzaren otzaz, o&ntilde;etakuak eta praka-barrenak loi-loi eginda lupetzez.</p>
+<p>Eltzen dira basetxe baten aurrera ta:</p>
+<p>&mdash; Emen kantauko eta yuagu, mutillak?</p>
+<p>&mdash; Bai bein! igaz be emon yeuskubean da...</p>
+<p>&mdash; Tirozube ba.</p>
+<p>Erreskadan jarten dira, ta ben-ben, gauza andiren bat egiten ba'li&ntilde;ardube lez asten dira:</p>
+<p>Urtebarri barri</p>
+<p>daukonak eztaukonari</p>
+<p>nik eztaukot eta niri</p>
+<p>emoten eztaustana...</p>
+<p><hi rend='Italic'>txarri-belarri</hi>!</p>
+<p>Orain arteko abesti au euzkeraz dago, ta zer-edo-zer esan gura dau; ba&ntilde;a emendik aurrerakuak erdi euzkeraz erdi erderaz esaten dabez, ta zentzumenaren apurrik eztauke, tentelkeri utsa.</p>
+<p>Don Nikolas caramelo</p>
+<p>konpesore Mariandres,</p>
+<p>alarguna dontzeilla</p>
+<p>cantaremos alegria.</p>
+<p>Lau ventana bost ate</p>
+<p>sei etxe ta subete</p>
+<p><foreign> si si si</foreign></p>
+<p><foreign> no no no</foreign></p>
+<p>otzara bete solomo.</p>
+<p>Aingeruak gara</p>
+<p>zerutik gatoz</p>
+<p><foreign> una limos&ntilde;ita</foreign></p>
+<p><foreign> porramor de Dios,</foreign></p>
+<p><foreign> aqui estamos cuatro</foreign></p>
+<p><foreign> cantaremos dos</foreign></p>
+<p><foreign> agillando agillando!!</foreign></p>
+<p>Matxin-arrando!!</p>
+<p>Abesti onek asmau ebazana zororen bat ixan biar; ba&ntilde;a ezebazan i&ntilde;ok asmauko, abesti askoren zatijak edo-dira, mutikuak erabilli-ta-erabilli, alkarregaz nastu ta itxulastu dabezanak.</p>
+<p>Ondo ixango litxake barrijak egin polito ta egoki, ta mutil txikijei irakatsi, ta saritxuak emon ugari eurak abestuten yatorkuzanian, poztu daitezan, eta ekandu zar ori bere loyetarik garbituta ipi&ntilde;i.</p>
+<p>Nire erriko mutikuak eztabe ondo abestuten, ba&ntilde;a sari andirik be eztabe artzen; gazta&ntilde;a txikolen batzuk, sagar txatxarren bat, intxaurren batzuk, tremes-ogi zatiren bat... dirurik ez, orixe bai ez! an diruba ba&ntilde;o lenago belarri bat emongo leukie. Esaten dabe, i&ntilde;oz, ta eztakit zein etxetako etxandereak bein lukainka-mutur bat emon ebala. Orain jakixu noz ixan zan jazopen arrigarri ori; ba, ni mutiko sostorra nintzala <hi rend='Italic'>Urtebarri</hi> abesten ibilli oi nintzanian, eta, amaika zaparrada jausi da ordutik ona! gu ba&ntilde;o andijaguak ziranak esaten eben eurak be entzun ebela lukainka-mutur orren ipuin ori.</p>
+<p>Oraintsu, lengo urte baten jazo zan gauza arrigarrija, i&ntilde;oz amesetan be uste ixan ezebena nire erriko mutikuak: <hi rend='Italic'>karameluak</hi> emon eutsiezan basetxe baten.</p>
+<p>Bai, eldu zan mutiko-aldratxua <hi rend='Italic'>Zinko</hi> deitzen yakon baserritar baten etxera, ta oi dan lez, abesten ekin eutsen gogorik onenagaz <hi rend='Italic'>Urtebarri barri</hi>.</p>
+<p>Euren abeskundia amaitu ebenian, agertu zan <hi rend='Italic'>Zinko</hi> etxeko atian, barreka-barreka, ta esan eban:</p>
+<p>&mdash; Mutillak ba... ezkozubez arrapau gauza andirik emoteko moduan; orrati&ntilde;o, gura ba'zendubez, atzo Durango'tik ekarrita ortxe daukoguzan karamelo batzuk emongo geunskixubez.</p>
+<p>&mdash; Bai bai, artukuz bai pozik be.</p>
+<p>Karameloen billa <hi rend='Italic'>Zinko</hi> barruratu zan bitartian, mutikuak ikotika pozaren pozaz, noz artu eben ba i&ntilde;oz alako saririk gixajuak? Karameluak!!</p>
+<p>Urten zan <hi rend='Italic'>Zinko</hi> esku bijak bete karamelogaz, ingi zuri-zurijetan ederto bilduta bakotxa, ta iruna emon eutsiezan mutikoei, barreka-barreka esanik:</p>
+<p>&mdash; Gauza merkiak eztozak onek eta bakotxari iru emonda be, pozik ixango zarie.</p>
+<p>Ixango etziran ba! Ondo pozik artu eutsoezan! Estartea bera bitxabalerantz joyatala esaten eben:</p>
+<p>&mdash; Orixe <hi rend='Italic'>Zinko</hi> lako gixonak garaunik be etxagok errijan.</p>
+<p>&mdash; Olakoxe gixonak gure &ntilde;eukezak.</p>
+<p>&mdash; Sekuleko <hi rend='Italic'>Zinko</hi> dok ori gero.</p>
+<p>&mdash; <hi rend='Italic'><foreign>Dies</foreign></hi> ixatia be merezidu yok.</p>
+<p>Onetan euretaiko batek zabaldu eban karamelo-ingija ta... zer zan a!... barruban marraskillo-masala eguan; bestiak au ikusirik, zabaldu ebezan ingijak, eta gustijetan eguan marraskillo-masala.</p>
+<p>Asi ziran barre-purruztadaka alkarri begira, ta erabagi eben errijan ezaguala <hi rend='Italic'>Zinko</hi> ba&ntilde;o gixon burletijagorik. Bitartian an agiri zan bera, muna-goyenan, mutikoeri begira barreka.</p>
+<p>Gabonzar gabean jandako marraskilloen masalak ingi-txatal zurijetan bilduten egon ei zan luzaro, mutikoei trankart egitiarren.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Kukuba entzuten</p><--</head>
+        </front>
+        <body>
+<p>Igande goixian lenengo Mezea entzunda, Bilbao'ko Goenkale'ko Txomin Porru etxeratu zanian, bere emaztiak esan eutson:</p>
+<p>&mdash; Zein gosari imi&ntilde;iko dautzut, berakatz-zukuba ala sardi&ntilde;a zar errea?</p>
+<p>&mdash; Ez, gaur basora nua, ta imi&ntilde;i eistazu gaztaya edo, ogi zati bategaz.</p>
+<p>&mdash; Bai, ta lukainka muturtxu bat be imi&ntilde;iko dautzut. Egun ederra daukozu basorako. Perretxiko billa zuaz ala?</p>
+<p>&mdash; Ez ba. Orrillean sartuta gagoz ta ondi&ntilde;o aurtengo kukuba entzun barik nago, ta gaur juatia otu yat, eta entzun arte enator etxera. Bakixu, lenengoz txori udabarritar ori entzuten danian sakela bero ba'dago, urte gustirako bero egon oi dala.</p>
+<p>&mdash; Bai, gure ixeko, Jainkuak zeruan euki dayala, Mari-Baltz'ek be, orixe esan eroyan, eta beste askok be bai, ta ainbestek di&ntilde;oenian... keia dan lekuban suba da.</p>
+<p>&mdash; Ekazu ba atzo arturiko asteko alogerak eta...</p>
+<p>&mdash; Bai bai, ene gixontxua... eutsiz; apaiteko libelaurena gibel ekarteko diruba ixan ezik, etxeko gustijok or daruazuz.</p>
+<p>&mdash; Banua ba, ia zorijon bat ixaten dogun.</p>
+<p>&mdash; Bai dago biarra. Zuaz ondo. Ia kukutxu ori entzuten dozun.</p>
+<p>Eguberdi-aurretxuan orra nun sartzen dan Txomin Porru bere etxian arpegi illunaz.</p>
+<p>&mdash; Da? Entzun dozu kukuba?</p>
+<p>&mdash; Entzun dot.</p>
+<p>&mdash; Tira ba! Beintzat geuretu dogu aurtengo lapikokua ta...</p>
+<p>&mdash; Aste onetako gosia be bai, geuretu dogu...</p>
+<p>&mdash; Zer di&ntilde;ozu? Eztot ulertzen.</p>
+<p>&mdash; Ara emaztetxu: Or Iturrigorri-aldetik Buya'rantz juan naz, astiro-astiro, ta beti, al ixan dodala, zugatz-arterik zugatz-arte, txori zorijoneko ori noz entzungo ete-dodan ba, ibilli nabillala jan dodazala ogi ta lukainka-mutur ta gaztae-zatija; Deun Erroka-azpiko iturritxuan il dot egarrija, ur garden eder otz aretatik dangada batzuk egi&ntilde;az, ta... bapez! ludijan kukurik ezpa'lego lez.</p>
+<p>Neure artian: &laquo;Andija dok!&raquo; esanda, jezarri naz Buya-barreneko zugaztijan sasi-moltso andi baten onduan, eta asmau egin dot antxe arratzaldera arte be geldi egoteko, leku oberik a ba&ntilde;o amestu be ezin leike ba kukubentzako ta.</p>
+<p>Zigarrotxu bat ixituta bai-nago zabal-zabal arkoloka bedar-ganian, gerizpe gozatsu artan, ipar-aizetxu bigun ozkirrija arnasatuten ixan dodala... a zan arua! ta onetan sumetan dot sasi-ostian abarrotsa, begiratzen dot eta...</p>
+<p>&mdash; Kukuba ixango zan!</p>
+<p>&mdash; Bai, zereko kukuba!... gixon itxal bat, eskuban aizto <foreign>(cuchillo) </foreign>luze zorrotz ikaragarri bat ebala.</p>
+<p>&mdash; Ene Josu!</p>
+<p>&mdash; Eta erderaz esan daust emoteko berari aldian neukozan diru gustijak eta agudo ta txitik be atara barik, bestelan gibelak euzkitara atarako eustazala. Bildurren-bildurrez agi&ntilde;ak alkar joten ixan daustela, ixil-ixillik emon dautsodaz dirubak. Zer egingo zeuntson?</p>
+<p>&mdash; Ai bai, ondo egin dozu Txomin, zeuri ezer egin eztautzunian Jainkua'ri eskarrak.</p>
+<p>&mdash; Gixon ori arin juan da gorantz, eta ni gelditu naz <hi rend='Italic'>pralle</hi>, aldian lauziko barik, eta... diabrukerija ezpa'da!... ordubantxe, etxerantza abijau nazanian asi dira kukubak alde gustijetatik, alkarren leyan letxerik, kuku! ta kuku! Esan eikian neuri burla egiten ebiltzala!... Zer egingo yako!... Txarragorik be ikusi leike ta!...</p>
+<p>&mdash; Ez estutu, ene gixon, atonduko gara zelan-alan, Jaungoikua lagun. Alde batera, jazo yakun ori ondo irabazita euki dogula esan leike.</p>
+<p>&mdash; Zegaitik ba?</p>
+<p>&mdash; Orrelako zi&ntilde;eskeririk euki biar eztalako. Urte gustirako jana edo ondo-ixatia Jaunak emongo dausku, geure aldetik lan egi&ntilde;az alegintzen ba'gara.</p>
+<p>Eta Txomin Porru zintzuak eta bere emazte on-onak, bakerik osoenaz bazkaldu eben euren lapikokotxua.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Zi&ntilde;aldari arteza</p><--</head>
+        </front>
+        <body>
+<p>Udagoyeneko arratzalde epel-epela da.</p>
+<p>Baserri-etxe bateko atarte-aurrian auzoko emakumiak batuta dagoz, bata galtzetagi&ntilde;an, bestia baba-urkultzen, au bere gixonaren prakai ipingi bat ezarten, ori galtza zarren batzuk <hi rend='Italic'>errepasetan</hi>, beste bat etxe-ondoko <hi rend='Italic'>pozutxuan</hi> tresnak garbitxen...</p>
+<p>Danak darabille esku-artian zeregi&ntilde;a, i&ntilde;or eztago alper, ba&ntilde;a i&ntilde;or be ez ixillik.</p>
+<p>Ego-axia dabil, eta oi dan lez, gustiz urduri dagoz emakumetxuok, i&ntilde;oz ba&ntilde;o barritxubago, beti barritxubak ixan-arren. Etzakigu zetatik ez zelan (jakixu!) euren artian asarria sortu da, ta alkarri desta&ntilde;aka asi dira, gustijen aurrera i&ntilde;un diranak ataraten dabezala.</p>
+<p>&mdash; A bestelako zera! Ik eure modukuak gariala danok pentsauko don.</p>
+<p>&mdash; Enagin asko zirikatu, asten ba'non asi ba, atarako daunadaz eskutuban daukonazan trapuzar gustijak eta.</p>
+<p>&mdash; Ni... ri? Geldi-geldi gero! Lotsiaren izpirik ba'eukona, ondo ixillik egon biar euken.</p>
+<p>&mdash; Ik eztakin lotsia zer dan be ta, neu ixillik? ez orixe!</p>
+<p>&mdash; Ezaz ixilduko, ez; i beti ixango az betikua; ire onduan ezin bixi leiteken i&ntilde;or be ta, geizto ori.</p>
+<p>&mdash; Ni geiztua? ia beste bein esain!...</p>
+<p>&mdash; Geiztua, bai; barriro be esango yonat, azalako. Gixona be jo egiten don ta.</p>
+<p>&mdash; Aitiaren! Au da emakumiaren lotsabakua! Gixona joten dodala?</p>
+<p>&mdash; Bai, bai, joten don, egija don.</p>
+<p>&mdash; Ezton! da laster guzurtauko aut, gonerre peste ori.</p>
+<p>Jagiten da bixi-bixi, altzuan daukozan gauzak lurrera bota ta artzeko asti barik, eta inguruban olgetan dabillan mutiko bati deituta.</p>
+<p>&mdash; Purtoso, ator ona polit ori, errekadu bat egingo daustak? Neuk sarija emonguat. Juadi etxe-osteko solora, antxe yabik gure Praisku biarrian, eta esayok datorrala arin-arin ona, neuk esan dodala-ta.</p>
+<p>Andik lastertxu agertzen da Praisku etxe-alboko orma-ganian eta bai di&ntilde;o:</p>
+<p>&mdash; Ze dengani&ntilde;o biar daustazube, barritxuok alakuok?</p>
+<p>&mdash;Ara Praisku, esaiskuzu ementxe argi ta garbi: Nik i&ntilde;oz jo zaitut?</p>
+<p>&mdash; I&ntilde;oz bakarrik? Bai bein ba&ntilde;o sarrijago be, arrayorrek!</p>
+<p>Entzuten egozan gustijak barre-santsoka estandak egin biar ebezan. Gau atan, <hi rend='Italic'>seguru be,</hi> Praiskuk ez ei eban otzik ixan bizkar-aldian.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Tximistargi barrija</p><--</head>
+        </front>
+        <body>
+<p>(Jazorikua)</p>
+<p>Emen irakurriko dozubena lengo urte baten Durango'n jazo zan.</p>
+<p>Merkatu-eguna zan, eguraldija illun-illun eguan; emakumetxu bat sartu zan Artekale'ko saloki edo deuda baten, eta ikusirik tximistargi-makatza, apur baten argijari begira-begira egon eta esan eutson etxeko-andreari.</p>
+<p>&mdash; Ene! Au argien ederra! Egundo onakorik!</p>
+<p>&mdash; Gustetan yatzu, Ana-Mari?</p>
+<p>&mdash; ...bai. Polito dao kristalezko bere ontzitxo orretan. Zenbat kostetan da onako bat?</p>
+<p>&mdash; Bost errial.</p>
+<p>&mdash; Bat erosiko neuke. Nun saltzen ete-dira?</p>
+<p>&mdash; Neuk daukodaz ementxe. Gurozu bat ala?</p>
+<p>&mdash; Bai, iministazu bat. Sekuleko ikarea artu bear daure Kosanton gureak eta mutilek, gaur gabean argi dotore au imini daidanean gure subetean.</p>
+<p>Imini eban argi-makatza polito-polito bere zimeratxuan (zestellatxuan) eta agur esanez juan zan Ana-Mari ona, lau urteko umiak ba&ntilde;o gaiztotasun geyago ezaukon emakumetxu zintzuba.</p>
+<p>Urrengo merkatu-eguna zanian, orra nun agertzen dan bera Artekale'ko denda artan, eta bai-di&ntilde;otso etxeko-andreari:</p>
+<p>&mdash; Ara ba, lengo egunean eroan neban argi-ontzitxua etzan ona ixan edo...</p>
+<p>&mdash; Ez?</p>
+<p>&mdash; Neu pozarren eldu nintzan etzera, ta estuen nengoan gaba noz etorriko zan gure gizonok ikaratute izteko, ta esakerea dan lez &laquo;nire poza pozure&raquo; yoan zan. Imini neban argitxu au ta... len beste illun. Burle egin eusten sano gure gizonok esaten eurela erretzinean alderako eztaola argirik ondioke ta... ene, ene!</p>
+<p>&mdash; Fundiduta egon ete zan ba? Ekarri dozu bonbillia?</p>
+<p>&mdash; Zera? Argi eitekoa? Bai... ara...</p>
+<p>Saloki-andreak artu ta imi&ntilde;i eban beste makatzaren lekuban, berau kenduta, eta ederto argi egin eban.</p>
+<p>&mdash; Ikustozu, Ana-Mari, zein polito?</p>
+<p>&mdash; Andie da gero!</p>
+<p>&mdash; Zelan imi&ntilde;i zendun ba?</p>
+<p>&mdash; Nik ba... ortxe daon lez, goiko kuartoeko untze batetik abarka-kordelaz dingilizke...</p>
+<p>&mdash; Ba&ntilde;a, Ana-Mari, Jaungoikuak parkatu daistala, letrizidaderik ezpadaukozube, onek eztautzube balijo!</p>
+<p>Artu eutson ari-makatza saloskari edo denderiak, eta emon eutsozan atzera bost erlak, eta i&ntilde;un diran atzalgundiak (esplikazi&ntilde;uak) be egin eutsozan aditu erazoteko tximista barik, edo <hi rend='Italic'>letrizidade</hi> barik denderiak esateban lez, etzala gauza argi egiteko etxera eruandako makatza.</p>
+<p>Ezeban ezer ulertu, ta len bestian juan zan, edo len ba&ntilde;o txartuago, buru-barruban naste illun bat eroyalako.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Gizon zurrak ondo erabagi</p><--</head>
+        </front>
+        <body>
+<p>(Jazorikua)</p>
+<p>Gixon zurrik ixan ba'da, Ma&ntilde;ari'ko Galtzada deitzen yakon ostatuko jabia bai-zan bat.</p>
+<p>Emen edesiko doguna antzi&ntilde;a jazo zan, burdinbidiak asmau ziran aldija ba&ntilde;o askozaz lenago. Aldi aretan, Bizkaya'ren zati andi batek Araba eta Gaztelerrija'gaz eukon saleroste, artu-emon, eta juatetorri gustija Ma&ntilde;ari'tik igaroten zan, eta orregaitik, ango ostatubak irabazpide ederrak ixaten ziran, euretan arradaka lez diruba sartzen zala, ostatukuak bidaztijei abegi ona egin eta mai ugarija ta oe garbija emoten ba'eutsien batez-be.</p>
+<p>Orduko aldijetan etzan ezautzen, gure Bizkai onetan beintzat, Txindetxe edo Banko'rik, eta bakotxak bere lanagaz edo aurreztu al ixaten eban diruba, eskutau egiten eban polito -polito bere etxeko zirkillubetan, emen zati bat eta or beste bat eta an beste bat.</p>
+<p>Galtzada'ko ostatu jabe arek be olantxe eukozan eskutauta urrezko diru pillotxubak.</p>
+<p>Morroi bat eukon ostatuban, mutil gaste bizkor ta zolija, lanian zindo-zindua. Arabarra zan berau.</p>
+<p>Igande arratzalde baten, erriko jaya zalako edo, Galtzada'ko ta inguruko etxietako biztanliak kale-aldera ziran gustijak, ostatarija ixan ezik. Onek, bere buruba bakar ikusi ebanian, asmau eban diru pillotxu bat sartzia eskutuleku baten. Sartu kortan, sardiagaz eragin alde batera basterreko zatz-pilluari, ta lurrian eguan arlau edo losa bat jaso, ta agertu eban eskutulekuba; zenbatu (kontau) ebazan ardura andiz an eukazan urrezko dirubok, eta euroi ganeraturik eroyazan barrijak, itxi eban zulua arlauagaz, zatza len lez ipi&ntilde;i eban barriro, ta alde egin eban kortatik eskubei igurdika ta barre-barreka... i&ntilde;ok ikusi ezebalakuan.</p>
+<p>Ba&ntilde;a ikusi eben ondo beste aldeko baster illuneko aska-ganetik begi adikor ta bixi-bixi batzuk. Arratzalde atan, eguberdi ostetxuan, kortako mando ta beste aberiei jatekua askara bota ondoren, arabar mutilla bertan gelditu zan, buruko min piska bat ebala ta uste ixanik kale-aldera juatia ba&ntilde;o obeto ixango yakola lo-alditxo bat egitia, ta olantxe ba, korta-baster illunenian askan bigungarritzat ira-besarkada bat ipi&ntilde;ita nasai-nasai etzun zan. Ugazabak ezeban uste a etxian zanik, erriko zelayan dantzan ebillala ba&ntilde;o.</p>
+<p>Ugazaba kortara sartu ta sardiagaz zatza kentzen abijau zanian itxartu zan mutilla, ta ixil-ixillik egon zan, arnasia be arduraz arturik, ugazabak egin ebanari begira.</p>
+<p>Andik egun bi edo irura, morroyak esan eutson ugazabari:</p>
+<p>&mdash; Zeugaz itz bat egin gura neuke.</p>
+<p>&mdash; Esaik ba.</p>
+<p>&mdash; Etxera juateko gogua dodala ta, nire ordezko bat zuzendu biarko dozula.</p>
+<p>&mdash; Iru edo lau illabete ba&ntilde;o eztok etorri intzala ta, zegaitik ua ba? nire zer-esanik daukok ala? geyago irabazi gura dokala? Ara, gertu nayagok euk eskatzen daustakana emoteko, aspaldi baten etxuat euki eu lako mutillik eta...</p>
+<p>&mdash; Ez, zer-esanik eztot; ondo artu ixan nozube, ta irabazi... edonun irabazi neikean beste morroitzan. Ba&ntilde;a, neure etxia beti gomutan daukot, neure ama alarguna ta anai-arrebak beti goguan dodaz ta...</p>
+<p>&mdash; Tirok ba, tirok. Ondo damu yuat ba euk alde egitia; eztok eu leusintziarren, ba&ntilde;a etxakiat eu lako beste bat idoro al ixango dodan.</p>
+<p>Egun batzuk geruago juan zan bere errira arabar mutilla, urre-dirutzan zati polita eroyala, ugazabak kortako eskutulekuban euki ebana oso-osorik. Eskutulekubaren jakitun egin zan egunetik urrenguan, goiz-goixetik jagi ta al eban ixillen ibillita, ostu eutsozan ugazabari an eukozanak. Onek ostera, ezeukon orrelako gogorapenik, eta batek baki zenbat aldi igaroko zan a zulua barriro ikusi orduko.</p>
+<p>Bere errira eldu ta laster, mutillak errota edo bolu bat erosi eban, toki egokijan eguana, ta arri barrijak ipi&ntilde;i eta beste tramankulubak barriztau, laba eder bat gertu, ta etxe gustijaki barri-antz andija emonik, asi zan ale (garaun) urun eta ogi-saleroskuntzan. Orrez ganera, erosi ebazan soluak eta oyanak be. Irabazte-arazoetan garratz abijau zan.</p>
+<p>Bere errikidiak, ainbeste dirugaz mutilla ikusirik, ikaratu ziran; ba, lau illabete aurrerago itxu bati so&ntilde;ua jo eragiteko txanpon baten jabe etzan, eta ezin ulertu eben zelan atondu zan ain aldi laburrian ainbeste diru egiteko. Asi ziran mar-mar, eta geyenak txarrera jota, oi dan lez, ustia egin eben lapurretan edo beregandu ez ete ebazan dirubok. Bat-edo-batek izparra bialdu eutson, mandaza&ntilde;an bitartez, Galtzada'ko ostatudunari, lengo bere morroi mutillak diru-arazo andijak erabilzala, ta mutil zindo ta ona irudi-arren, ezin ulertu ebela ainbesteren jabe egitia morroitzan eta ain aldi txikijan, eta bada-ezpadan jakitun ipinten ebela.</p>
+<p>Izpar au artu ebanian: &laquo;Arrayo bat!&raquo; jaurtinda urduri-urduri jarri zan ostatarija. Urrengo bakar-aldijan arakatu ebazan bere eskutuleku gustijak, eta kortakua utsik aurkitu eban.</p>
+<p>&mdash; Ederrak emon yeustazak arexek! &mdash;egiten eban bere artian ostatari zurrak&mdash;. Zelan igarri ete-yuan or diruba eguala? Auxe dok ona! eta orain, zer egin? Bere atzian asten ba'nok epaikarijen aurrian, orra beste buru-auste bat orain daukodanaren ganera, ta ezer egiteko, beste zulo bat utsitu biarko yuat, eta berak eruan daun dirutza ori eztok ixango ez berentzat ez niretzat, idazkixonak (idatz-gixonak) dana jango yoek. Zer egin?... Ardura andiz ta otz-otzian oldoztu biar arazo au...</p>
+<p>Egun batzubetan goguan erabilli eban bere morroyaren egitadea, lorik be asko geyago egin ezebala ta jandedan egiteko be leya barik. Gau baten erabagija artu biar ixan eban orraiti&ntilde;o, ba goiz-goxetik jagi, ondo gosaldu, mando bat gertau, eta beronen ganian arpegi argijagaz, trapa-trapa, zuzendu zan Araba'rantz Urkiola'tik ziar.</p>
+<p>Eldu zan morroyaren erri ta etxera, ta oni, ikusi orduko, esautson:</p>
+<p>&mdash; A mutil; itz egin biar yuagu bijok eta bakarrian. Etxian gela egokirik ba'daukok orretarako, etxian, eta ezpa'deritxok, beste edozein lekutan, basuan edo...</p>
+<p>&mdash; Ementxe, errota-osteko gelan sartu gindekez, i&ntilde;ok entzungo dauskun bildur barik.</p>
+<p>Juan ziran ara, atia ondo itxi, ta alkarren aurrez-aur jezarri ziranian:</p>
+<p>&mdash; Ik niri lapurretan egin daustak, esautson ostatarijak mutillari.</p>
+<p>&mdash; Bai, ukatu zetako.</p>
+<p>&mdash; Zelan eta zegaitik ixan dok?</p>
+<p>&mdash; Ara ba, ugazaba, neuk gura enebala bein ikusi zindudan kortako eskutulekuba agertzen, ete alan jakin neban diru-pillo polita zeukola bertan; axe artzia neure eskuban neukola-ta ziltzan jausi nintzan, ostu neutsuzan urredirubak. Bai-dakit oben egin dodala. Parkatu egistazu obena, ta artu egixuz diru orregaz erosiriko etxe ta lurrak eta enparau geratu yatan diruba. Nik ustia bai-neban i&ntilde;oz ordaintzeko ostu dodana, arazuak ondo bai yoadazan.</p>
+<p>&mdash; Ara mutil, ondo arduraz arturiko oldozpenagaz etorri nok eugana: Nik i salatu ta espetxera bidaltziaz etxuat ezer irabazten, ori lortu al ixateko ba uste yuat ostu daustakan diru gustija, edo geyago biarba, eralgi biarko dodala; i mutil azkarra az, biargi&ntilde;a ta zindua, nire dirubekaz polito abijau az irabazte-arazoetan... Ba, auxe di&ntilde;uat: Egin yaiguan idazkagiri bat, nik iri palagau auskadazala dirubok euneko bijaren saripian eta i lotzen azala diru ori osuan nire eskubetara bigurtzeko amar urteko epe-barruban; eta lapurreta onen barri eztaigula jakin Jaungoikuak, euk, eta neuk ba&ntilde;o. Zer deritxok?</p>
+<p>&mdash; Zer deritxodan di&ntilde;ostazu? Gertu nagola ori egiteko, ta zeu zarala ludijan danik gixonik onena.</p>
+<p>&mdash; Orretara ezkero, mando bat artu egik, eta gayuazan oraintxe bertan Gazteiz'era, zi&ntilde;altz-idazkarijak geure egijunia atondu dagijan.</p>
+<p>Alantxe egin eben. Ain azkarra ixanaz ganera, mutillak bere irabazte-arazoetan zori ederra ixan eban, eta dirubaren sarija ta diruba berbera osorik ordaindu eutsozan bere lengo ugazabari, bera aberaztuta, edo ondotxu beintzat, geratu zala. Bere errijan ezeban i&ntilde;ok jakin mutillaren lapurretea.</p>
+<p>Ia, ostatari a gixon zurra ta zindua ezpa'zan!</p>
+<p>Bera gixon zar-zurra ixatera eldu zan, eta niri edeski au esan eustanak berari entzun ei-eutson, azaldu barik orraiti&ntilde;o nor ta nundarra ixan zan bere morroya; baita be esaten ei-eban agure zoli arek, morroi-ixena ta bijak beti aizkide andijak ixan zirala.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Baltz euskelduna</p><--</head>
+        </front>
+        <body>
+<p>(Jazorikua)</p>
+<p>Orain irurogei ta amar urte inguru dala, Ego-Amerika'tik Apirka'ko itxas-basterrerantz etorran iru mastadun ontzi ederra; oyalduna, aldi artan itxaso zabaletan ibilten ziran geyenak lakua.</p>
+<p>Bilbao'kua zan, eta bere barruko gustijak, onzpurutik asi ta azkenengo txo'ra&ntilde;o, bizkaitar euzkeldunak ziran, mundakar, bermiotar, elantxobetar, lekeitiar, ondarrutar, algortar, eta abar.</p>
+<p>Sierra Leona ixena daun Apirka'ko alde orretan, ekaitz asarre ta indartsu batek arrapau ebazan. Egun eta gau oso-osuan aixe ta itxaso gogorrakaz burruka itxela erabilli eben euzkeldunok, ba&ntilde;a egi&ntilde;alak egin-arren, itxas-basterreko ondartza zabal batera jo eban ontzijak, aixiak eta ugi&ntilde;ak bultzaka eruanda, ta bertan josi yaken, karrakada andi bat eginda birringatzen asi zala. Ezeben ixan astirik txanela bi uretara eratzi ta euretan arin-arin sartzeko ba&ntilde;o, ugi&ntilde;en sartadak ontzijoi beriala ausi ta purrukatu eben-ta.</p>
+<p>Eguna zabalduta laster jazo yaken gixajo arei ontzija galtzia, ta an ibilli ziran txanelokaz barregarri goixik geyenian, ondartzeak ipar-aldera eukan ukondo bat arrapau ezi&ntilde;ik, itxasuak noz iruntsiko ebazan bildurrez. Ibilli ta ibilli, orraiti&ntilde;o, eguberdi-inguruban lortu eben ondartzearen ukondua igarotia, ta aurkitu ziran gal-zoritik azke, leku artan ba itxasuak ezeban ain gogor joten, aurreikara ezetorralako. Urten ziran liorrera aldian eroyen jantzija ba&ntilde;o besterik atara ezebela.</p>
+<p>Itxasuari iges-egin eutsoen, ba&ntilde;a beste arerijo txar bat agertu yaken: gosia. Ondartza aren inguru gustijetako lurrak elkor-elkorrak ziran; etzan agiri an ez biztanlerik, ez abererik, ez zugatzik ez ezer, lur igerra ba&ntilde;o. Onak egozan gixajuak! Ija egun bi bai-ziran ezer sartu etzala euren urdalletara ta... a lako maurtuban euren burubak ikusi!...</p>
+<p>Gaba bertan egin eben arrausi ta arrausi, ta bijaramonian, itxasua baretu zalako, onzpurubaren agindupian txaneletan sartu ta abijau ziran ipar-alderantz itxas-basterretik. Arratzalde erdijan uartu eben ibai txiki baten iztabua, ta bertara eldurik, ibaya-gora artu eben bidia, norbait aurkituko eben itxarokunaz, edo beintzat, nun-edo-nun zer jan agertuko yakelakuan. Onetan eldu ziran ibaya beste bitan urkultzen zan toki batera, ta antxe egozala asmau ezi&ntilde;ik ze&ntilde;etatik juan, apirkarren txanela antzeko <hi rend='Italic'>piragua</hi> deitzen yakonetaiko bat ikusi eben eurak egozan alderantz etorrala ibai batetik bera, gixon baltz pillotxu bat ganian ekarrala.</p>
+<p>Oneik urreratu ziranian gure euzkeldunak uartu eben piraguan igali asko ekarrela, ta euren gosiak eraginda asi yakezan baltzai didarka ta ki&ntilde;uka gelditu deitezala adirazoten. Gelditu ziran; bitzubek alkarri bixi-bixi begira jarri ziran; euzkeldunan onzpurubak ki&ntilde;uka adirazo gura eutsen emoteko igalijetarik zerbait, gosez aulduta aurkitxen zirala ta; baltzok be ki&ntilde;uka erantzuben, ba&ntilde;a etxaken ondo ulertzen esan gura ebena, beintzat ezer emoteko antzik ezerakusen. Onan, alkarri ki&ntilde;uka i&ntilde;ardubela onzpuruba ta baltzok, euzkeldun batek esan eban gogor:</p>
+<p>&mdash; Zetan gabiltz onetan astija alperrik galtzen! Eldu orrei ta jaurtin uretara, ta kendu or dakarrezan jateko orrek!</p>
+<p>&mdash; Geldi geldi!... Geu be gixonak gara gero!... erantzun eban <hi rend='Italic'>euzkeraz</hi> areitako baltz batek.</p>
+<p>Arrituta, kokolotuta lez geratu ziran bizkaitarrak. Onzpurubak gero esan eutson euzkeldun baltz ari:</p>
+<p>&mdash; Ezegixube orren esana aintzat artu. Onian deskatzubegu jatekua, ija zutunik egoteko gosiaren-gosez gauza ezkarala gagoz ba ta.</p>
+<p>&mdash; Neure anayak lez maite dodaz nik euzkeldunak, esan eban baltzak, eta biar dozuben gustija emongo yatzube. Artu ta jaixube, gixajuok.</p>
+<p>Eta piraguan ekarrezan igalijetarik emon eutsen euzkeldunei gura&ntilde;a, ta gero:</p>
+<p>&mdash; Orain guazan nire erritxora, ta an aurkituko zarie zeuben etxian lez.</p>
+<p>Ibaitarteko zorrotza igaro, ta beste ibai-adarretik gora juan ziran danak baltzen baserrira. An egon ziran euzkeldunak ederto ainbat egunian; biztanle gustijak abegi gozo-gozua egiten eutsoen, ikusirik baltz euzkeldunaren aizkidiak zirala; onek barriz, bere bijotza be emongo eluskijoen biar ixan ba'lebe, bere gogo gustija zan euzkeldunak poz-pozik eukitia.</p>
+<p>Baltz euzkeldun zindo arek, ganera, itxasaldeko goyune baten ipi&ntilde;i eban zaintzallia, ontzirik igaroten ikusten ba'eban ixara andi bategaz ikur-egijon, gelditxeko.</p>
+<p>Eta olantxe, nozpait ontzi bat gelditu erazo eben, eta bertan etorri ziran Europa'ra euzkeldunak.</p>
+<p><hi rend='Bold'>II</hi></p>
+<p>Orain, irakurliak itanduko dau Apirkako baltz arek euzkeraz itz-egiten zelan ekijan.</p>
+<p>Edeski polita da.</p>
+<p>Baltz euzkeldun a ume txiki-txikija zan aldian, gixon zuri bijotz gogordunak juaten ziran Apirka'ra, ta baltzok arrapetan ebezan aberiak ba'litzaz lez, ta gero Amerika'ra eruan an saltzeko. Gixonak gixona orretara erabilli! Josu-Kisto'ren irakatsijak ekijezan gixonak lan deunga ori egin edo laketu... Guzurra dirudi ba&ntilde;a alantxe jazoten zan. Lotsagarrija Europalo Laterrijentzat ori!</p>
+<p>Orretariko baltz-arrapaketa baten gure baltz au be artu ta eruan eben Habana'ra, amar urte inguru ebazala bakarrik. Uri ospatsu artan mutiko au erosi eban euzkeldun batek, eta eruan eban bere etxera. Euzkeldun ori eukiduna zan, lugintza anditxuaren jabia. Inge-gozo-arlo andijak ebazan eta bai olea be gozarri edo azukerea egiteko. Ola-onduban eukon bera bixi-ixateko etxe ederra, bere lurrean erdijan, eta bertan eukozan emazte ta seme-alabak. Eurok, ta etxeko otse&ntilde;ak, danak ziran euzkeldunak. Etxe artan etzan beste elerik erabilten euzkerea ba&ntilde;o.</p>
+<p>Euzkeldun zaldun arek bere idazkelea garbirik eta eraz eukiteko ardurea emon eutson mutiko baltzari. Au, gustizko esangi&ntilde;a, bizkorra, apala ta bijotz onduna zan, eta bere ugazabak eta bai etxeko beste gustijak maitasun andija ixan eutsoen, eta euren arteko bat lez, etxeko lez, artzen eben. Mutiko baltz au laguntzat euki eben ugazabaren mutikuak, eta alkarregaz amaika olgeta egin eben ango basterretan.</p>
+<p>Eta antxe ikasi eban baltzak euzkerea, antxe bixi ixan zan bere sendijan lez ogetabost urtera arte.</p>
+<p>Orduban bere ugazabak erabagi eban bere sendi gustijaz Euzkadi'ra bixi-ixaten etortia, ta bere morroi baltzari azkatasuna emon eutson lagijen aurrian, eta onez ganera, dirutza-mutur polita be bai eskura.</p>
+<p>Mutillak bere buruba azke ta dirudun ikusirik bere aberrira juateko asmua artu eban. Euzkeldunen etxian ondo ta pozik egon zan-arren, beti ixaten eban bere guraso, anai -arreba, ta bere jayoterrijaren gomuta bixi-bixija. Eta barriro arrapau ta salduko eben bildurrik ezeban, ordurako ba Ingelanda'ko gudontzijak ibilli ebiltzan Apirka'ko itxasoetan, baltz-arrapatzalliak arrapetan, eta samatik eskegiten, eta galerazoten onantxe gixonak gixona aberia lez saltzia.</p>
+<p>Ontzigalduko itxastarrei baltzak berberak edesi eutsezan jazokun oneik. Esan eutsen, eurei on egi&ntilde;agaz ordaindu gura ebala zelanbait beste euzkeldun batzuk berari egin eutsoen ona.</p>
+<p><hi rend='Bold'>III</hi></p>
+<p>Or idatzi doguna, baltz euzkeldun orretzaz esan doguna, jazorikua da, ta ez i&ntilde;ok asmaurikua. Itxas-baster atan ontzija galdu ebenak aberrira bigurtu ziranian edestu edo kontau eben an jazo yaken gauza arrigarrija baltz aregaz.</p>
+<p>Eta euretariko bati entzun eutsonak niri edestu eustan, eta nik zubei, irakurliak.</p>
+<p>On-egintziak beti dauko bere ondorena, gaitz-egintziak lez. Zaldun euzkotar zintzo arek eta bere sendikuak baltz gastieri egin eutsoen ona, ibilli-ta-ibilli, euzkeldunekana barriro etorri zan.</p>
+<p>Euzkerea, bere abenda-elia, etxian beti erabiltzetik sortu zan euzkeldunak geruago aurkitzia laguntza ederra Apirka'ko maurtu baten. Olantxe, irakurlia, gorau egixuz beti zeure aberri-elia, aberri-ekandu onak, eta aberri-ixakera osua, ta egon eskijer, zeure o&ntilde;ordeko edo aberkiden bat-edo-bati on andija etorriko yako ortik.</p>
+<p>Norbere o&ntilde;ordekotzako edo norbere errijarentzako on-egintzak bildu ta iztia onuratsuagua da on-egintza bako diruak bildu ta iztia ba&ntilde;o, lenengo begiradan irudi ez arren alan.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Jatorrija</p><--</head>
+        </front>
+        <body>
+<p>Miru-Torre deritxon etxiak bere ate-buruban ikurdi edo arma-arrija dauko, naikua dotoria. Bertan agiri da miru bat egaiz, ollo edo txita-pillo baten ganian.</p>
+<p>Torre-etxe onen jabiak arma-arri ori maite-maiterik dauko, berau ba, asaba ospatsu batena da, Don I&ntilde;igo Gomez de Orroeta y Sanchez de Munguru zanari Gaztela'ko errege batek emonda, berak egindako gauza asko ta andijen saritzat.</p>
+<p>Etxeko areto edo saloe'ko buru-aldian agiri da jatorri-zugatza: Enborrian <hi rend='Italic'>Don I&ntilde;igo</hi>'ren ixena, ta bere iru semienak lenengo iru adarretan; seme nagusijaren adarretik urteten dira beste lau adar, ta euretan, bere lau semien ixenak; eta onetara, adarrik-adar (edo belaunik-belaun, lenago esaten zan lez), beti semi nagusijetatik, <hi rend='Italic'>Don Kazinto</hi> gaurko etxaunaganai&ntilde;o; beronen ixena ta bere anayenak dagoz jatorri-zugatzaren azkenengo abarrian.</p>
+<p>Jatorri-kontu au aitatu ezkero, arro-arrorik asten da Don Kazinto Don I&ntilde;igo'ren goralbenak esaten, bere aldijan gixon andijenetaikua ixan zala, Espa&ntilde;a gustijan ezagutuba, baita Europa'n be... a lako gixonik!... Eta goralbenen azkena ixaten da Don Kazinto'k esatia bera dala arexen jatorrikua, artez-artez, seme nagusirik seme nagusira; ta edonor eruaten dau etxera bere jatorri-zugatza ikusi dagijan.</p>
+<p>Asi yakon bein orrelantxe Etxe-Txiki'ko mutillari. Errijan alogerian ibilten zan gixona apal baten semia da. Txikitan alde-egin eban erritik urri&ntilde;etara biximoduaren billa; ta zurra ta biargi&ntilde;a ixanik, baita be zori onak argi egi&ntilde;ik, bigurtu da errira ta etxera diru-moltso polita aldian daula, eta askok uste ez-arren, dirubek ba&ntilde;o geyago balijo daunagaz: adimen landuagaz, jakitun eginda, asko ta asko irakurri ta ikusita.</p>
+<p>Onexen aurrian bein asi zan ba <hi rend='Italic'>Don Kazinto</hi> bere jatorrija goralduten, eta Etxe-Txiki'ko mutillak dirautso:</p>
+<p>&mdash; Zenbat malla dagoz arengandik zugana&ntilde;o?</p>
+<p>&mdash; Amabi malla. Gixaldi amaseigarren asijeran bixi ixan zan.</p>
+<p>&mdash; Zeuk eztozu i&ntilde;oz oldoztu ixango zenbat asaba, edo zenbat aitita-amama ixan zenduzan Don I&ntilde;igo orren aldijan.</p>
+<p>&mdash; Ez, eztot i&ntilde;oz pentsau orretan.</p>
+<p>&mdash; Neuk ointxe esangutzut.</p>
+<p>Ataraten dauz sakeletik ingi edo papela ta lapixa, ta bertan operazi&ntilde;o txiki bat eginda, di&ntilde;o:</p>
+<p>&mdash; Lau milla ta larogeta amasei (4.096) aitita-amama. Erdijak aititak, 2.048, eta beste erdijak amamak.</p>
+<p>&mdash; Orrenbeste?... Ezin ixan leiteke!</p>
+<p>&mdash; Bai, Don Kazinto; lenengo mallan <hi rend='Italic'>bi</hi> daukozuz, aita ta ama, ez ba? Bigarren mallan <hi rend='Italic'>lau</hi>, aitaren aita-ta-ama, ta amaren aita-ta-ama, ez ba? Irugarren mallan <hi rend='Italic'>zortzi</hi>, bigarreneko lauen aita-amak. Laugarren mallan <hi rend='Italic'>amasei</hi>, ta zuaz aurrerantz onetara, ta ikusiko dozu amabigarren mallan 4.096 asaba dirala.</p>
+<p>&mdash; Alantxe da. Nok uste olakorik?</p>
+<p>&mdash; Orra ba, zure asaba ospatsu <hi rend='Italic'>Don I&ntilde;igo de Orroeta</hi> ori <hi rend='Italic'>lau milla ta larogeta amasei</hi>'tik</p>
+<p>BAT ixan zan. Tira, emon daigun Don I&ntilde;igo'ren andria be ona ixan zala. Eta beste lau milla ta larogeta-amalauak, zelakuak ziran? Ez ete-eguan ainbesten artian deunga edo lapur edo sorgin edo onakorik?</p>
+<p>&mdash; Begira gero zer di&ntilde;ozun!</p>
+<p>&mdash; Eztirala danak onak, ez gitxiagorik be, ziur esan daikegu. Eta eztoguz aintzat artu amabigarren mallakuak ba&ntilde;o. Ordutik onako malla gustijetakuak, zeure gurasoetara&ntilde;o, batu ko ba'genduz, 8.190 asaba ixango zeunkez, amabigarren mallara&ntilde;o. Ainbesten artian gaiztuak asko ixan biar. Ez ete-eben urkatu bat-edo-bat bere egintza madarikatubekaitik?</p>
+<p>&mdash; Ba&ntilde;a eztakigu, bestiarena dakigun lez.</p>
+<p>&mdash; Jakintzat, Don Kazinto. Urkaturikoen egintzak eta gomuteak eztira jaoten bein be sendi edo pamilietan.</p>
+<p>&mdash; Eta ekin urkatuekaz!</p>
+<p>&mdash; Etzaitez asarratu. Urkatuak di&ntilde;ot gaiztuak esatiarren. Ondo da, Don Kazinto, norbere asaba andi ta ospatsu baten gomutea zaindutia, zuk Don I&ntilde;igo'rena lez; ba&ntilde;a ez arrotu orregaitik, millaka ta millaka jente ezezaunen jatorrija daukogu bakotxak eta, jakixu zelakuak ixan ziran arek! Jatorri-zugatza bestetara egingo ba'litz, norberagandik asi ta atzerantza, sustarrak agirijan ipi&ntilde;i, ikaratuta geldituko gintzakez zelako jentetxoen jatorrija dogun ikusita. Onetara, sustarrik-sustar urrintxo jatzi ezkero, uste dot andikijak eta txikijak ezkeunkela alde andirik ixango; aren baten danok.</p>
+<p>&mdash; Zuk Miru-Torre ta Etxe-Txiki bardindu egin gura dozuz.</p>
+<p>&mdash; Bardindu? Alderik ba'dago Miru-Torre'na ezta beintzat. Miru-Torre'kuak bixi dira i&ntilde;ok utzi dautsenaz, ez eurak egindako lanaz. Etxe-Txiki'kuak, ostera, eurak ondo irabazirikuaz bixi dira. Miru-Torre'kuak, illargija lez, i&ntilde;ok emondako argijagaitik agiri dira illunian; eurak argirik eztabe, illak edo illunak dira. Etxe-Txiki'kuak ostera, agiri dira edonun, ez i&ntilde;ok emondako argiz euren argiz ba&ntilde;o, eguzkija ta ixarrak lez. Beraz, ez etorri nigana desta&ntilde;az. Zu, jatorriduna, ta ni, jatorribakua, gara; ta orraitik, edozein gixontasun-bidietan zeugaz neurtzeko gertu nago, naiz adimeneko naiz gorputzeko arazoetan; eta orain arte daukoguzan egitadak ze&ntilde;ek geyago ta obiak nai&ntilde;oz jokatuko dautzut.</p>
+<p><hi rend='Italic'>Don Kazintok</hi> alde-egin eban purruztadaka, ta bere etxerantza juan zan, asarrez i&ntilde;uala:</p>
+<p>&mdash; Gaur egunian ezeri be eztautsoe artzen errespetorik, i&ntilde;oz ezer ixan eztiranak be geure <hi rend='Italic'>parera</hi> eldu gura dabe, dana dago itxulastuta. Ai lenagoko denporak!... Nun ete-zarie?...</p>
+<p>Etxe-Txiki'k esan eutson barreka urri&ntilde;eko aldetik:</p>
+<p>&mdash; Orrek lenaoko aldijok, Don Kazinto, juan ziran sekulako.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Alkar aitu obe da alkar il ba&ntilde;o</p><--</head>
+        </front>
+        <body>
+<p>(Jazorikua)</p>
+<p>Naparra'ko erri txikitxu baten da, 1876'garren urtian, karlisten ointsuengo guda azkenian.</p>
+<p>I&ntilde;urrijak lez, ugari dabilz bertan guda-mutil karlistak, aurreraoko gabean etorrita, Parantze aldeko Euzkadi'ra igaroteko ustez.</p>
+<p>Euretarik ija gustijak gaztelarrak dira; euzkotarrik, banakaren bat ixan ezik, nekez aurkitu lei an.</p>
+<p>Diru askorik eztago gudamutil aren sakeletan, ba&ntilde;a orraitik jokuan daragoyoe alde gustijetan. Elexaren ondoko zugatz andijaren gerizpian agiri da aldra azitxo bat; bertan dabilz gogor jokuan, &laquo;txapeta&raquo;-jokuan.</p>
+<p>An dira a&ntilde;enak, didarrak, eztabaida andijak, begirakuna itxelak, eskuba bayonetara eruatiak...! Otsuak &laquo;txapetan&raquo; jokatu al ba'lebe, eleukie ainbeste urrumada ta agin-erakuste egingo.</p>
+<p>Ba&ntilde;a zemakun (amenazu) asko ixan-arren eztira eskubetara sartzen, bertan dagolako euren ollarra, andaluztar sarkento bat, mutil morrosko andija, baltza, begirakun itxalduna, beliaren lumia lakoxe <hi rend='Italic'>patilla</hi> baltzak daukozala arpegi-alboetan.</p>
+<p>Onexen dautsoe bildur, berau egin da ugazaba, beronek epaya emoten dau eztabaidetan; bere nausitasunaren ikurkija (se&ntilde;alia) an dauko lurrian <hi rend='Italic'>sartuta</hi>, arrabete ta erdiko aizto <foreign>(cuchillo) </foreign>zorrotza, birrist argi egiten dauna; jokatu gura daunak, beroni emon biar dautso onenbesteko bat.</p>
+<p>Joko oni begira dagoz euzkeldun bi, bata marki&ntilde;arra ta bestia Durango-aldekua.</p>
+<p>Ikusirik marki&ntilde;arrak sarkento ollar arek dirua kentzen dautsela jokalarijei, berak jokatu barik, itanduten dautso bere lagunari la zegaitik dan a.</p>
+<p>&mdash; Ori dok, darantzutso lagunak, <hi rend='Italic'>baratoa kobretia</hi>; alan esaten yoek eurok. I&ntilde;ok emon gura ezpa'yautsok, berorregaz bixija jokatu biar yok aiztokadaka. Berori dok itxuraz errimiena orretan, bere bildur dozak, i&ntilde;ok eztok azartzen, eta ixil-ixillik egiten yoek bere esana. I&ntilde;ok gura ballok ori <hi rend='Italic'>ollartzatik</hi> kendu, beste aizto bat sartuko lieukek beriaren onduan, eta olantxe adirazoko lieuskiok narruba jokatu gura daula ta bere nausitasuna kendu gura dautsola.</p>
+<p>&mdash; Aiztorik ba'dok or? esan eban marki&ntilde;arrak.</p>
+<p>&mdash; Etxaukuat, ba&ntilde;a eskatu negijok neure ezagun bati, zer ba? Orretan sartzeko ustia daukok ala?</p>
+<p>&mdash; Bai mutil! Ementxe gayabiltzak txanpon barik, barrubak uts-utsik ija iru egun onetan, eta ortxe ikusten yuat gosia ilteko bide erraza.</p>
+<p>&mdash; Bixija galtzeko bide erraza be ixan leitekek.</p>
+<p>&mdash; Dana dala!... Ekarristak aiztua ta ikusiko yuagu.</p>
+<p>Zuzendu dabe nundik-edo-andik aizto eder bat; artu dau marki&ntilde;arrak, eta sartu, beste aiztuaren onduan. Beingo baten ixildu dira gustijak, mutillari begira-begira dagoz ikaraturik, an zek jazo biar daun; sarkento andaluztarra arrituta lez geratzen da unetxu baten, eta beriala, arpegi ta begijak ikaragarriro jarririk, asten da didarka:</p>
+<p>&mdash;<hi rend='Italic'><foreign>&#161;Corro, corro!... &#161;Mardita zea!... Oigast&eacute; comparito, ot&eacute; zabe bien que &eacute; lo que ezo zenefica</foreign></hi>?</p>
+<p>&mdash; Barriketa gitxi jo niri! esan dau marki&ntilde;arrak bere aiztua lurretik artu ta bestiaren aurrian jarririk edozetarako gertu.</p>
+<p>&mdash; <hi rend='Italic'><foreign>Ot&eacute; no jabla en cristiano?... &#161;G&uuml;eno!... Vamoj a v&eacute; zi noy entendemo... </foreign></hi>Zu jakin... ori... zer?</p>
+<p>&mdash; Bai, bayakiat... nai bok ementxe, edo nai dokan lekuan...</p>
+<p>Andaluztarrak igarri dau aregaz ordago jokatu biar dala, il edo erail egin biar dala, beste biderik eztagola; aren begijetan agertzen dan gogo sendua eztagola atzeratzerik. Orduban, didar ta beso-erabilte ta aiko-maiko andijak egi&ntilde;ik, zabaldu dau asko gudamutillen arteko utsunia, ta beronen erdi-erdijan geratzen dira <hi rend='Italic'>ollar</hi> bijak; ba&ntilde;a aiztokadaka narrubak zulatu biarrian, txutzu-putzu itz egiten dautso andaluztarrak marki&ntilde;arrari, onek bayetz di&ntilde;ola buru ta gusti, ta gero:</p>
+<p>&mdash; <hi rend='Italic'><foreign>Va a zeg&iacute; er juego... ezte cabayero y menda cobramoj er barato... er que no et&eacute; conforme que lo iga, y ze le dar&aacute; lo zuyo...</foreign></hi></p>
+<p>Andaluztarrak ixil-mixil esan dautsona marki&ntilde;arrari da, alkar ilten ibilli barik, <hi rend='Italic'>baratoa</hi> erdi-bana artzia obeto ez ete deritxon, eta bestiak bayetz ba.</p>
+<p>Onantxe bildu eben ainbat txanpon euzkeldun mutil bijak. Erri bertatik bigurtu ziran euren etxietara, ta biderako naikua euki eben; Berriz'en alkarri agur egin eutsoenian, azkari <foreign>(merienda)</foreign> on bat eginda, ondi&ntilde;o be apurren batzuk banakatu ebezan.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Or dozu ospia ta betoz diruak</p><--</head>
+        </front>
+        <body>
+<p>(Jazorikua)</p>
+<p>Edonok daki, buru pitin baten jabe ba'da beintzat, ospe onak uste dan ba&ntilde;o diru geyago balijo ixaten daula. Ospiaren billa ikusten doguz dabiltzala gixonak euren alegin gustijan, eta ospe ori diruaz erosi al ba'dagije, sarri jazoten dan lez, bape zalantza barik emongo dabe dirua, ta ugari, ospiaren ordez.</p>
+<p>Arau onek, orraiti&ntilde;o, auste bat izan eban, nik orain edestuko dautzubedan jazoeran. Bertan ikusiko dozue ospiaren ordez dirua artu zala, ta, pozik artu be gero!</p>
+<p>Karlisten lenengo gudatia zan. Naparra'ko erritxu baten, goixeko amaikak inguruan, karlisten Durango'ko batalloya sartzen da. Baida errijan ugari usubillua ta zaratea; mutikoteri gustija batalloyari bidera urten yako, ta bere aurrian dator urduri; errijan, ate ta leyuak beterik, emakume ta gixonak begira dagoz poz-pozik. Txakurrak, etxe-barruetara a&ntilde;eketan sartuta, bertatik ausika dabilz garratz.</p>
+<p>Sartu dira Bizkai-mutillok txairo ta lerden, gelditu dira plazan, beronen lau aldiak euren erreskadaz betetan dabezala, ta bertan, korneta-otsera, lerruak ausi, ta sakabanatuten dira errijan. Erriko nausijak banakatu dautsiezan okela, ogi ta ardauaz bazkarija atondu dabe, baita iruntsi be egundoko ari&ntilde;en.</p>
+<p>Pelota-leku polita dago errijan, eta eguberdi-ostian asi dira guda-mutillak bertan batzen. An dabilz eurak-euretara pelotan. Nastau dira eurakaz erriko gixon batzuk be. Oneik, ikusirik guda-mutil aren artian pelotarako zaletasuna bai-dala, esan dautsie erriko abadia dala eskuz pelotaririk bika&ntilde;ena, eztala agertu ondi&ntilde;o ari irabazi dautsonik.</p>
+<p>Au entzunda asi dira mutillok euren artian esaten ez ete leyon ba jokatu abade areri; bai-dagozala mutillak an ederto jokatzen ekijenak; ipi&ntilde;i egin biar yakola partidua, ta onan. Adirazo dautsie ba erriko gixon arei, abadiari nok jokatu ta nok irabazi bai-dagola, ta gura ixan ezkero, eurak gertu dagozala.</p>
+<p>Errikuak ezin dabe zi&ntilde;estu ori, ta juan dira abadiagana; etorri da berau be pelota-lekura, ta laster asmau dabe partidua, onantxe: abadia alde batetik eta Durango'ko mutil bat bestetik, eskuz, bijak bardi&ntilde;an, ogetalau tantura.</p>
+<p>Partidua ikustera batzau dira bertan erriko gixonik geyenak eta ija batalloi osua. Abadiak esan dautse guda-mutillai zenbat-nai diru, bi bati jokatuko dautsela; ta onek erantzun dabe, aldian daroyezan diru apur gustijak batuta jokatuko dabezala. Auxe egin eben: guda-mutil bik batu eben euren lagunen diru gustija, batak zorrotxu baten arturik eta bestiak bakotxarena zenbat dan ingi edo papel baten ezarririk. Amaseiko bat ixan da batu dana. Abadiak bere aldez jokatu dauz amaseiko bi.</p>
+<p>Pelotakea asten da. Bijak dira onak. Abadiak indar geyago dau, bixi-bixi jaurtiten dau pelotia, batez-be eroso artzen daunian keia ateraten dautso. Bere besagain-jotiak, zelan txalotzen dabez bere erritarrak! <hi rend='Italic'><foreign>Vaya qu&eacute; bracico!</foreign></hi> di&ntilde;oe, erdeldunak dira ba erri artan.</p>
+<p>Durangarra azerijagua da. Onek egiten dauna da eutsin eta eutsin, alik gitxien indarrak erabilli, geroko gorde bere indarrak eta bere trebetasun edo habilidadea, bere aurkarija nekatu.</p>
+<p>Abadia eldu da amasei tantura, ta mutilla dago sei tantuan ondi&ntilde;o. Oni bere lagunak di&ntilde;otsoe: &laquo;A mutil, zer darabilk? olan ustok irabaztia?&raquo; eta berak darantzu: &laquo;erabilliko yuat.&raquo;</p>
+<p>Asten da mutilla gustira-jokua egiten, ta indartsu: orma-bijak, ziar-pelotak, itxijak, luziak, orma-urreratuak... joko ederra, ta beti pelotia leku txarrian ipi&ntilde;i bestiari. Alditxu bat oso neketsua darabille bijak, eta jezarten dira puskaten arnasa apur bat artzeko, abadiak 18 tantu dauzala, ta mutillak 15 eta ataria. Igarten asi da abadia mutilla bera ba&ntilde;o geyago dala, edo beintzat, irabaziko ete dautson bildur andija sartzen yako, ta bestela-baitakuan bai-di&ntilde;otso mutillari, eleukela partidua galdu gura ezetara be, errijan eta inguruetan daukon pelotari-ospia ez galtzearren, eta beraz, irabazten izten ba'dautso, beste amaseiko bi, jokatzen ganera, emongo dauzala, gustira lau amaseiko. Mutillak darantzutso bere aldetik gertu dagola orretarako, ba&ntilde;a lagunak jakitun ipi&ntilde;i biar zituala.</p>
+<p>Ixil-mixilka ibilli barik, durangarrak esaten dautse didarrez bere lagunei: &laquo;Mutillak, onek auxe ta auxe yi&ntilde;ok, zer deritxozube? galdu egingo yuat partidua, ala zer?&raquo;</p>
+<p>Danak gogo-batez erantzueben: &laquo;Galduik! Galduik! Guk ospia zetako bieyuau? Lotuyozak amaseikuok?&raquo;</p>
+<p>Ituntze edo alkar-aitze au, jaki&ntilde;a, euzkeraz ixan da, eta errikuak eztabe ezer ulertu, len esan dogun lez napar-erdeldunak diralako anguak.</p>
+<p>Durangar-mutillak adirazoten dautso abadiari ba, nasai jokatzeko ta nasai egoteko, partidua irabaziko daula-ta.</p>
+<p>Asko gogortzen da abadia orduan; ta bestiak, ezin-antzak eta guzur alegi&ntilde;ik asko erabillirik, amaitzen dabe partidu ori, abadia ogetalaura eldurik, mutillak amazortzi daukozanian.</p>
+<p>Errikuak amaika txalo ta gora jo egiten dautsoez euren abadiari; alako bat eztagola Bizkayan esaten dabelarik. Poz-pozik geratu dira.</p>
+<p>Guda-mutillak, ostera, ipi&ntilde;i daben dirua jaso, ta ganera, lau bidar geyago artu dabelako, pozen pozaz praketan artu ezi&ntilde;ik dabiz, ospiagaitik bape ardurarik eztautsela.</p>
+<p>Abadia bera be pozik, lau ontzako kosta yakon arren, bere pelotari-ospia zutunik daukolako ondi&ntilde;o.</p>
+<p>Orra danok pozik, arazo baten danak pozik gelditzia gauza ezi&ntilde;a dala esaten dan-arren.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Azerijari azerija</p><--</head>
+        </front>
+        <body>
+<p>Bere etxiaren ortuko txoko edo baster baten zoratuta lez ebillan Anton Berakatz, urrumaka, esku bijakaz buruari elduta. Illarrak lakoxe negarranpuluak begijetatik jausten yakozala, atzera ta aurrera i&ntilde;un geldi ezin egonik, zein da lurrak erre baileutsozan bere o&ntilde;azpijak; eta intziri ta urruma bitartietan erdi-tartaka min motelaz esaten ebala:</p>
+<p>&mdash; Ai ene bada ta ni!... Ai nire errukarrija!... Zetarako nago ni orain munduan?... Neure Jaungoiko laztan Aita ta Seme ta Espiritu-Santua, Ama Birgi&ntilde;a bijotz beria ta errukiorra, neure ixeneko santu Antonio miraritsua, ta zeruko santu-santa gustijak!... Arren!! Erruki zakidaze ta lagundu eistazue neure ordu gorri ta larri onetan!... Zein txakur izan da nik emen ain ondo gorderik neukan okela-zatija sumau dabena?... Nor arrayo, bai, nor milla arrayo ixan ete-da niri emendik diru biribil polit ederrak ostu daustazana?... Ainbeste urtetan apurka-apurka ta nekiaren-nekez aurrezturiko eun ogerleko zuri ederrak, nun ete-zagoze?... Esakerea da osturiko gauzea bere jabiaren dei egoten dala... ba&ntilde;a nik eztantzut i&ntilde;undik be deirik... al banentzu!... laster ni&ntilde;uake zuekana, ogerleko maitiak, ollo lokea bere txitakana baxen agudo!... Milla ta bosteun tximistak birrinduko al abe, lapur deunga zital madarikatua!!</p>
+<p>Esakune onekaz atara-bidia emon eutsonian bere atsakabe ta asarriaren lurrunari, nasaitu yakon zerbait bere barruba, ta jezarri zen iko-zugatz baten azpijan, eta ordurarte ba&ntilde;o arte geyagogaz asi zan gogoketan:</p>
+<p>&mdash; Zoritxarreko nire arazo au ezta zarataka zuzendutekua; ixi-ixillik eta bestela-baitakuan atrapa biar da, atrapatekotan!! nire dirubekana eldu dan azeri zarra... nor ete-da bera?... un!... eingo neuke orixe geure alboko belarrimotza ixan dala... demoni&ntilde;ua!... oixe ixango da bai!... orren etxeko tellatupeko leyotik agiri da dirubak gordeten nebazan tokija; i&ntilde;oz ikusi egingo ninduben orrek lurrak aztertu ta ogerlekoren batzuk antxe ipinten ibilli nazanen baten... bai! orixe da... berori da bai... ziur.</p>
+<p>Arnasa luze bat eginda, esker aldera gorputza okerturik ipi&ntilde;i eban luze-luze eskumako ankea, ta beronen praka-sakeletik atara eban toxa edo tabakorri-ontzija; zabaldu berau ta artu eban barrutik zigarro-papel liburutxu okertu ta tximurtu bat, kendu eutson orri bat eta ipi&ntilde;i eban dingiliz beko ezpanetik; itzuli eban gero eskerreko eskura zigarro batentzako lain tabakorri, ta ganian eskumako eskura jarririk erabilli ebazan apur baten esku bijak errotarrijen antzera; biribildu eban gero taketa lakoxe zigarro lodi ta gogor bat; eta eskerreko praka-sakeletik ardaya, galtzairua ta subarrija atara, ta, kaisk-eta-kaisk, zati baten i&ntilde;ardun eta gero, ixitu eban ardaya, ta onegaz zigarrua, pautadaka, ta musturra luzatuta.</p>
+<p>Zigarrua egiteko ta berau ixituteko biar ixan ebazan tresna gustijak gorde eta gero, ipi&ntilde;i ebazan besuak gurutzetuta belaun-ganetan, eta pauta ta pauta, beti-be zigarruari ke moltso andijak ataraten eutsozala, zati baten geldi-geldi egon zan, aurre-aldeko arri koskor bati begira-begira. Arrayoren bat aginartian esanda jagi zan noz-edo-noz, ta alde egin eban andik Anton Berakatz'ek, belarrimotzaren etxerantza begiratuta esanaz:</p>
+<p>&mdash; Ikusiko yuagu ba nor nor garian.</p>
+<p><hi rend='Bold'>II</hi></p>
+<p>Dirubak ostu eutsonian egunetik aurrera, i&ntilde;oz ba&ntilde;o kantarijago ta argijago ebillan Anton Berakatz, batez-be auzoko belarrimotzagaz; onegaz barrukotasun andija artu eban, eta barriketaldi luziak ixaten ebezan alkarregaz, antxi&ntilde;eko aizkide ta lagun zarrak ixan ba'litzaz lez.</p>
+<p>Gau baten, apalduta gero, ate-onduan preskuran, sillia atzerantza orma-ondora eginda, bere o&ntilde;ak aurre-aldeko gorengo zotzian ipi&ntilde;ita, beso-utsik eta eurok eunduta, burua orman, eta ezpanetan zigarro-mutxikin bat ebala, <hi rend='Italic'><foreign>Sanchez</foreign></hi> belarrimotza <hi rend='Italic'>petenera</hi> bat agin-artian kantetan i&ntilde;ardubala, eldu yakon Anton Berakatz eskubetan silla bategaz, ta bere onduan jarten zan artian esan eutson:</p>
+<p>&mdash; Kaixio Txantxes, gau-aro ederra dago.</p>
+<p>&mdash; Ola Berakatxa, ederra gaba.</p>
+<p>&mdash; Eta... zer di&ntilde;oe ba papelok?</p>
+<p>&mdash; Gitxi gauza. Bilbon bankero bat egin kiebra, eskapau Amerika'ra, palmo bat sur itxi akredoriak.</p>
+<p>&mdash; Artzekodunak ago-bete agi&ntilde;egaz geratu dirala esan gura dozu, ezta?</p>
+<p>&mdash; Bai, ori.</p>
+<p>&mdash; Neu enindukie arrapauko orretariko banko ta drogetan; ez, ez, diruba norberak gorde.</p>
+<p>&mdash; Bilboko Banko edo Espa&ntilde;a'ko Banko edo <hi rend='Italic'><foreign>Caja de Ahorros</foreign></hi> eztago bildur, gizona.</p>
+<p>&mdash; Ba&ntilde;a Txantxes, norberak eukitia da onena, ezteritxozu?</p>
+<p>&mdash; An be seguru egon, eta ademas interesa artu. Etxian lapurrak sartuta...</p>
+<p>&mdash; Ez euki etxian! beste leku baten ba&ntilde;o. Nik neuk beintzat aurreztu ixan al dodan diru apurra, ondo gordeta daukot, i&ntilde;ok jakin ezin daiken tokitxu baten.</p>
+<p>&mdash; Bai? Asko diruak e, Berakatxa? (<hi rend='Italic'><foreign>Este no sabe nada</foreign></hi>).</p>
+<p>&mdash; Asko ez, zugaz baidot zi&ntilde;estasuna, ta esango dautzut eun ogerleko daukodazala toki orretan. Lengo egunian salduriko txalaren ogetabost ogerlekuak be, bijar artuko dodaz ta antxe ipinteko ustia dot. Korridurik eztot artuko, ba&ntilde;a eztaust ardura; Banko baten ipi&ntilde;i ta gero... ez korridu ta ez diru barik geratuko ete-nindeken bildurrez lorik be eneuke egingo ta...</p>
+<p>&mdash; Bai Berakatxa, asko arrazoya euki zu. (<hi rend='Italic'><foreign>Rediez, hay que animarle</foreign></hi>). Poblazi&ntilde;oetan pillo asko egon, aldeanuak enga&ntilde;au, atara diruba, esan interesa emon, gero dana artu dozu eurentzat, egin kiebra ta bapez itxi zuri. Bai, Anton, gorde ondo dirua (<hi rend='Italic'><foreign>para mi</foreign></hi>).</p>
+<p>&mdash; Bai ba; urtiak dira asi nintzala dirua gordeten alantxe; ta bijar edo etzi ogetabost ogerlekuak ipintera juango nazan lez, i&ntilde;oz diru-zati bat ipintera nuanian bakarrik begiratzen dautset; nasai-nasai dot neure gogua, ezeren bildur baga, seguru dagolako.</p>
+<p>Apurtxu baten barriketan egonda gero, alkarri gabon esanda aldendu ziran bakotxa bere etxera. <hi rend='Italic'><foreign>Sanchez</foreign></hi>'ek, ogeratu orduko, abots zorrotz-zorrotzagaz <hi rend='Italic'><foreign>malague&ntilde;a</foreign></hi> luze bat bota eban bere etxe barruban, eta Anton Berakatz'ek i&ntilde;uan:</p>
+<p>&mdash; Pozik abil.. jausi biar dok urrian.</p>
+<p><hi rend='Bold'>III</hi></p>
+<p>Bijaramonian, bere ortuko txokuan zoro-zororik ebillan Anton, artazika dantzan zaitu biarrez; jaurti eban santso bat, iru killometroen inguru-barruan entzun ixan ixango zana. Ak eukan poza!Eukiteko zan; eguna zabaldu orduko jagita, juan zan bere diruen gordelekura, ta... antxe egozan eun ogerlekuak, <hi rend='Italic'><foreign>Sanchez</foreign></hi>'ek gau artan ipi&ntilde;ita, txalaren ogetabostak be artzeko ustian.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Biarrak biarra eragin</p><--</head>
+        </front>
+        <body>
+<p>(Jazorikua)</p>
+<p>Bizkai'ko baserritarren esakera oni deritxot egokijena <hi rend='Italic'>Abar</hi> onen burutzat. Jaki&ntilde;a da Bizkaya'n lanari <hi rend='Italic'>biarra</hi> esaten yakola; beraz, esakera orrek di&ntilde;o: biarrak, edo biar-ixanak, lana eragiten daula.</p>
+<p>Gastetxua nintzala (18 urte) Madrid'era neure ikaskuntzak asteko eldu nintzan-egunetan, bixi-bixi gomuta dot, illuntze baten bertako <foreign>&laquo;Caf&eacute; de la Iberia&raquo; (Carrera de San Jer&oacute;nimo)</foreign> akeitetxian ikusi nebala neu ba&ntilde;o seien bat urte zarragua zan mutil polit, argi-argi, gustiz begikua, bere lagunei alde-agurra egiten, bere aberri Euzkadi onetara etorralako bere karreria amaituta.</p>
+<p>Txera andija egitsoen danak, pozarren erakutsoen euren zorijon-opea, etzan besterik entzuten: &laquo;Ori da mutilla, ori!&raquo;, &laquo;mutil adimen argiduna&raquo;, &laquo;oso lagun-artekua&raquo;, &laquo;lagun maite korra&raquo;, &laquo;biargi&ntilde;a&raquo;, eta onelako esakerak ba&ntilde;o. Bertan aurkitxen ziran gustijak alkarren leyan ebiltzan axe mutilla goralduten. Neure ezaun bati itandu neutson ia nor zan a mutilla, ta erantz&uuml;stan:</p>
+<p>&mdash; Mutil orrek bere karreria zelan egin daun ba'zenki, ikaratu egingo zintzakez.</p>
+<p>&mdash; Pozik entzungo neuke, ta i&ntilde;ora juan biarrik ezpa'dozu, arren edestu egistazu (esan neutson nire ezaun ari).</p>
+<p>Orra ba: mutil ori gipuzkoarra da, ain erritakua. Bere gurasuak ogasunetan ondotxo dagozanak dira. Adimen argi-argija dau mutil onek, zur-zurra da, ta batxiller ikastaldijan beti goiengo mallea, <hi rend='Italic'>sobresaliente</hi>, arrapateban, urtian-urtian sarija bereganaturik. Batxiller-agiri edo titulua be dubarik atara eban. Jaki&ntilde;a da, bere gurasuak txotxatuta egozan beragaz.</p>
+<p>&mdash; Egoteko da, orrelako seme bat euki ezkero.</p>
+<p>Eta ikasten zolija ta azkarra ixanaz ganera, mutil au zan ekandu onak ebazana, etxeratua, esangi&ntilde;a... ezeukon akatsik.</p>
+<p>&mdash; Zein karrera egin dau?</p>
+<p>&mdash; Osakigi&ntilde;a edo botikarijua. Aitak ekarri eban Madrid'era lenengo urtian, ostatu-etxe on bat idoro eutson, eta aizkide bankero bategana mutillagaz juanda, beronen aurrian esautson ari</p>
+<p>&laquo;Ikastaro edo <foreign>curso'</foreign>aren amayeran kontuak egingo doguz, eta artian, beronek eskatzen daun beste diru emongo dautsozu oni.&raquo;</p>
+<p>Bankeruak adirazo eban, ori geyegi ixango zala, biarba, gaste batentzako, ta aitak erantzutson:</p>
+<p>&laquo;Eztago bildurrik, neure buruagaz ba&ntilde;o zi&ntilde;espen geyago dot beronegaz.&raquo;</p>
+<p>Alan utzi eban mutilla Madrid'en, bere-buru zala, ta diruba noz-gura atarateko eskubidiagaz.</p>
+<p>&mdash; Arranua! Ego andijak dira orrek...</p>
+<p>&mdash; Andijeyak. Gastia zan lez, mutillak ezeukon dirubaren maitasunik eta eskubetatik igarri barik juaten yakon. Ain barik geratzen zan bakotxian, bankeruagana juan, eskatu, artu ta kitu. Lenengoetan lotsatzen zan piskat; gero, ekanduban sartu zan apur-apurka, ta erruki barik eskatzeban diruba. Andik illa bigarrengo, andiki bat lez bixi zan. Jaki&ntilde;a, ikastiak asko galdu eban biximodu ain ederragaz.</p>
+<p>&mdash; Eta ustel atarako eban biarba azterketetan.</p>
+<p>&mdash; Ez ba. Bere ikaste-atalak (asignaturak) ondo atara ebazan, ba&ntilde;a ez goirengo mallan, batxillerrian lez, berengo mallan ba&ntilde;o; ozta-ozta ondo urten bakarrik. Ikastaro gustijan dirutza andija eralgi eban; berak ezekijan zenbat, bein be ezeban inungo ingi edo idaztitan jarten bankeruari eskatzen eutsona. Diru asko zala ba&ntilde;o ezekijan, asko. Juan zan etxera, ta an bere aitagaz jazo yakona sarritan berak edestu dausku.</p>
+<p>&mdash; Bekoki ederra ipi&ntilde;i ixango eban aitak urteko gastuen kontua ikusi ebanian.</p>
+<p>&mdash; Etxera elduta, bildurrez ei-ebillan berau, itxaroten noz aitak artuko ete-eban zarataka.</p>
+<p>Andik lastertxu aitak bere idazkelara deitu ta esan ei-eutson:</p>
+<p>&laquo;A mutil, Urlija jaunak (bankerua) bialdu yok urteko ire kontua, ta oker egon biar yok, ainbeste ezin ixan leikek. Idazten nayuak berari kontua barriro egin dayala; ba&ntilde;a idatzi orduko, itandu egin gura dauat. Ara bere ingija. Zer di&ntilde;ok?&raquo;</p>
+<p>Eta mutillak esautson:</p>
+<p>&laquo;Nik eztakit zenbat dan, eztot erabilli konturik eta. Berak ori ipi&ntilde;i ba'dau, egija ixango da.&raquo;</p>
+<p>Aitak au entzunda bai-di&ntilde;otso:</p>
+<p>&laquo;Konturik erabilli ez arren, gitxi gora-bera gomutauko dok orraiti&ntilde;o aldi ezaunetan zenbat eskatu euan. Esaterako, emen yagozak Aratoste-egunetan eskakixun bi, bata milla laurlekokua ta bestia bosteunekua.&raquo;</p>
+<p>&laquo;Bai, ori egija da&raquo;, esan eban mutillak apal.</p>
+<p>Aitak orduan igarri eban ezeguala okerrik bankeruaren kontuan, eta esan eutson semiari otz-otzik, ezer jazo ezpa'litz lez:</p>
+<p>&laquo;Orixe jakin gura ixan yuat. Onek etxaukok ordaindutia ba&ntilde;o besterik. Tirok, juan aiteke.&raquo;</p>
+<p>&mdash; Gixon otza da benetan aitori. Beste askok bere lekuan, a zelako agirakak! eta agiraketan bakarrik geratuko elitxakezanak ez gitxi.</p>
+<p>&mdash; Mutillak uda gustijan ezeutson ikusi aitari asarriaren izpirik be. Arrituta eguan. Eldu zan Iralla'ren azken-aldia; urrengo illaren lenengokuan ikastarua asi oi dan lez, aldi orretantxe juan oi dira ikasliak euren ikastetxietara. Gure mutil au bere aitari Madrid'erako juatia aipatuten bildur ta lotsa zan; ba&ntilde;a esturan, illaren 25'g. eguna eldu zanian, lotsaka ba'zan be, zuzendu zan aitagana, ta:</p>
+<p>&laquo;Aita, onezkero bost egun ba&ntilde;o eztaukodaz matrikulak egiteko, ta Madrid'era juan biarko dot.&raquo;</p>
+<p>&laquo;Bai, ene semia (esautson aitak) matrikulatu biar ba'dok erreski an ibilliko az.&raquo;</p>
+<p>&laquo;Orduan, ba'deritxozu, gaur arratzaldeko trenian urtengo naz.&raquo;</p>
+<p>&laquo;Euk nai dokanian.&raquo;</p>
+<p>Mutil orrek poz-pozik gertau ebazan pardelak, eta barriro aitagana juanda dirua eskatu eutsonian biderako-ta, aitak erantzutson barreka:</p>
+<p>&laquo;Dirua nik iri emon! Lotsarik ba'dok eske etorteko, igazko ikastaruan bost milla laurlekotik gora ostu eustakazan ta? Ez, ez, nire dirurik eztok ikusiko.&raquo;</p>
+<p>&laquo;Orduan, zelan juango naz ba? zelan bixiko naz an?&raquo;</p>
+<p>&laquo;Ori eure ardurea dok, or konpon.&raquo;</p>
+<p>&laquo;Ba&ntilde;a orretara karreria laga biar.</p>
+<p>&laquo;Laga edo eutsin, euk egingo dok nai dokana, or konpon adi. Neu bixi nazan artian beintzet eztaukok nire txanponik.&raquo;</p>
+<p>Estutu zan mutilla onegaz, ta zolija zan lez, laster erabagija artu eban. Bere ama, ixeko, osaba, aizkide ta enparauak diru-eske arakatu ebazan, amabost-ogei bat ogerleko alan baturik, eta bijaramonian Madrid'era etorri zan. Lenengo aldija txarra igaro eban, ba&ntilde;a biarrak biarra eragin eutson. Botika-mutil jarri zan, eta ganera, ostatu edo ponda bateko idazkigintzea <foreign>(correspondencia) </foreign>bere gain artu eban, eta onetara, atarateban naikua jan ta janzteko baita bere ikastiak egiteko biar ebazan liburuak eta erosteko be. Onantxe, egun gustija zereginez beteta eukirik, ezeukon txarrerako astirik, eta asko zindotu zan. Bigarren ikastarua amayeran, batxiller-aldiko mallak barriro arrapau ebazan. Lenengo ikastaruan estalduriko lengo mutil zoli adimen argiduna ta era batez ikasi-zalia barriro agertu zan.</p>
+<p>Balijoko mutilla da orraiti.</p>
+<p>&mdash; Bai ben! Beronek egin ebana ikusita, amak eta ixekuak eta senitarteko enparau emakumiak eskatu eutsoen aitari, lenguak aztu ta lagundu egin biar yakola mutillari.</p>
+<p>&laquo;Gixajua (esateben), aurten ak egin daun lana, bere ikastiak sobresaliente'gaz amaitu, ta bixi-ixateko biar ixan daun gustija berak irabazi, etxetik txanpon bat bialdu etxakola;</p>
+<p>arito aulduta egon biar gixajuak.&raquo;</p>
+<p>Bai&ntilde;a aitak erantzun barreka: &laquo;Bai zera! lengo urtian ipini gendun mutilloi zer-nai ta axe eukola, eskura dana emonda, ta polot egin euskun; aurten, ezer emon barik, bizkortu</p>
+<p>da ta goitik jarri. Zein da biderik onena? Esan biarrik eztago. Kirten osua ixango nintzake ta semiari kalte andija egingo neuskijo, orain daruan bide artez ori ausiko ba'neutso. Ezolakorik!&raquo;</p>
+<p>&mdash; Zuzen eguan aitori bai...</p>
+<p>&mdash; Emakumak otoika ta asarreka ta negarka ibilli jakozan, aita gogor eguan, ezin ixan eben bigundu, ezeutson semiari dirurik bialtzen.</p>
+<p>Eta mutil azkar onek karrera gustija onantxe egin dau: berak bakarrik, etxeko laguntasunik baga, ta ederto, beti goiko malletan; osakigin-agirija be, batxillerrekua lez, dubarik atara dau sarija irabazita.</p>
+<p>&mdash; Asko balijo dau bai mutil orrek, beroi lakuak ondo urri ixango dira; ba&ntilde;a bere aitak be balijo dae.</p>
+<p>&mdash; Mutillak berak di&ntilde;o aitari zor dautsola dana; bigundu ba'litz, eta dirua emoten asi ba'litzakijo biarba bide txarrera barriro jota, ezebala gauzonik egin ixango.</p>
+<p>&mdash; Orain danak pozik.</p>
+<p>&mdash; Mutillak esan dauskunez, aitak jakin eragin dautso gertu dagola biar dan dirua emoteko mutillak gura daun tokijan edo urijan osakitegi <foreign>(farmacia) </foreign>gorengotaiko bat ipinteko.</p>
+<p>&mdash; Edesti polita da.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Ardao-zaliak poltsia galdu</p><--</head>
+        </front>
+        <body>
+<p>(Jazorikua)</p>
+<p>Burdinbidiak asmau ba&ntilde;o lenago, Bizkaya'ren zati andi batek (Bermeo'tik Ondarroa'ra&ntilde;oko itxasaldian, Gernika ta Marki&ntilde;a-aldiak, Zornotza ta Durango-aldiak) Araba ta Gaztela-aldiekaz euki oi eban sal-eroste, artu-emon ta juan-etorri gustija Durango'tik Gasteiz'era duan bidetik egiten zan, Urkiola, Otxandijo ta Legutiano (Villarreal) ziar.</p>
+<p>Orduko aldijetan bide orretatik o&ntilde;ez, mandoz, zaldiz ta burdiz, atzera ta aurrera, gustiz ugari ibilten ziran noti&ntilde;ak. Urkiola'tik Legutiano'ra bitartian, bitxabalaren alde bijetatik urri&ntilde;era&ntilde;o, oyan edo baso sarratu zabal andijak egozan, eta orain ba&ntilde;o askozaz etxe gitxiago. Oyan andi orreitan ugari eskutaten ziran basalapurrak, eta al eben aldi gustijetan bidera urten, bidaztijak gelditu, eurekaz eruan baso-barrura biar ba'zan, eta, jaki&ntilde;a! aldian txanpon barik izten ebezan murri-murri.</p>
+<p>Aldi aretan gorda-zibillik ezeguan, ba&ntilde;a bai-egozan mikeletiak bidiak zaintzeko. Oneik geyenetan bidez-bide ibilten ziran lez, ondo zainduak ixaten ziran. Lapurrak beti jakiteben mikeletiak nundik nora ebiltzan.</p>
+<p>Orregaitik, mikeletien uste andirik euki ez da, burdidunak alegintzen ziran alkarregaz batera ibilteko, alan indar geyago egi&ntilde;ik lapurrai aurre emon al ixateko. Sarri ibilli oi ziran alkarri tiroka lapurrak eta burdidunak.</p>
+<p>Egija da, beti-be, lapurretak asko ta lotsabakuak ixaten ziranian, eta batez-be, notin ezagun edo andikijen bati ostuten ba'eutsoen, etorten ziran mikeletiak indar andijagaz, alik ziatzen arakatzen ebezan baso gustijak, lapurren bat edo beste il edo arrapau, ta enparauak uxatuten ebezan urri&ntilde;etara. Orretariko garbi-aldi baten ondoren bake geyago ixaten zan bidietan; ba&ntilde;a gero, apur-apurka, bat orain eta beste bat gero, agertzen ziran barriro lapurrok, eta ibilli-ta-ibilli, azkenerako lengo moduan.</p>
+<p>Eta gauza uargarri bat: naiz Durango-aldekuak ixan, naiz Arratia'kuak, naiz Orozko'kuak, naiz Larrabetzu'kuak, naiz Bizkai'ko edozein aldetakuak, berialaxe ikasi ta erabilten ei-eben gipuzkerea (Gipuzkua'ko euzkerea). Euren izkeratik danak kiputzak ei-irudijen. Ori ixango zan, gure ustez, urri&ntilde;ekuak zirala zi&ntilde;estu erazotiarren.</p>
+<p>Guk zarrai entzunda dakigunetik, Napoleon'en gudatetik karlisten gudaterarte ixan ei-zan lapurraldi itxela. Eulijak ba&ntilde;o ugarijago ei-ebiltzan. Azkenerako alkarren aurka jarri ziran, danentzako beste zer-ostu ezegualako, ta burruka ta zarraparra askotxo euki ondoren, iru edo lau aldratan banatu ziran, aldra bakotxak eukola bere mendian bidiaren zati bat antxe lapurretan ekiteko; ta aldra orreitakua etzanari ezeutsoen izten an lapurretan egiten. An etzan laketzen lapurrik euren aldretakua ba&ntilde;o.</p>
+<p>Lapurren artian i&ntilde;un ba&ntilde;o agintari-biar geyago ixaten da; ta beraz, aldra bakotxian buru edo nagusija eukiteben, eta onen urrengo beste malla bat egiteben bik edo iruk, bere barrukuaguak ziranak, eta enparau gustijak egiteben berengo mallea, &laquo;lapur lauak&raquo; esango ba'gendu lez.</p>
+<p>Oneik aldrok, geyenetan, onetaraxe lan egiteben euren lapurrerijetan: lapur lauak edo berengo mallakuak jarten ziran or-emen bitxabala jagoten, batez-be biar-biderik asten zan tokijetan, gelditu erazoten ebezan bidazti gustijak, eguan baso-barrura, lotu antxe zugatz-enborrai; eta onan batzen ebenian talde azitxua, etorten zan eurakana aldra-burua zan lapurra, manta bat zabal-zabal ipinteben lurrian, bidazti arrapatuei agintzen eutsien botateko araxe euren poltsak, eta gero arakatuten eutsiezan ondo euren sakelak eta jantzijak badaezpadan.</p>
+<p>Onetara lumatuta gero, edontzi edo baso-betena ardao eski&ntilde;i ta emoten eutsien ostutakoei, atsakabia zelanbait arinduteko edo.</p>
+<p>Lapurrak onetariko ekandurik i&ntilde;un daukenik, edo euki dabenik, eztogu entzun sekule. Antza danez, onetantxe be, lapur ixaten be, euzkeldunek berarizkuak ixan dira, euren antza ta ez i&ntilde;orena euki dabe, i&ntilde;or ez lakuak ixan dira.</p>
+<p>Ardaua eski&ntilde;i diruak kenduta gero!... Asmakixun errukorra!... Beste leku batzuetan dirubakaz batera bixija be ardura asko barik kentzen ei-dabe.</p>
+<p>Bai, antxe lapur-tokijan polito-polito eukiten ei-eben zaragi ederra (au be ostua ixango zan, zer esanik eztago) bere astotxuan dotore.</p>
+<p>Ba, onakoxe aldi baten, bidazti-taldia batu ebenian, eta poltsak eskatu eutsezanian, eta gero sakelak eta jantzijak ziatz arakatuta, ardaua emoten asi ziralarik, jazo zan gauza barregarrija, ara:</p>
+<p>Bidaztijen artian eguan aguretxu bat txiro jantzita, buruan tximela ebala, aldi aretan oiturea zan lez; berau etorren Legutiano'tik, an eukozan etxe bijen urte-sari edo errentak artuta; poltsak botatia agindu zanian, beronek esan eban ezeukola ezer, bera txiro bat ba&ntilde;o etzala; sakelak eta jantzijak arakatzia ixan zanian be, ezeutsoen ezer idoro; ezeutsoen ezer kendu ba; ardaua emotordua eldu zanian, lapur bi asi ziran alde banatatik pitxerkada-ardaua ta edontzijak eroyezala, edontzija bete ta emon bidazti bakotxari; aguretxuaren txanda edo aldija ixan zanian, lapurra aurrera igaro zan oni ardaurik emon baga, ta au ikusi ebanian aguriak, ardao-zalekerijak jota, esan eutson:</p>
+<p>Lapur <hi rend='Italic'>jauna</hi>, niretzako eztago ardaorik ala?</p>
+<p>Lapurrak orduan emon eutson belarrijan itxulijetako bat, esanaz:</p>
+<p>Lapurra... ta <hi rend='Italic'>jauna</hi>? Or dezu ori ba!</p>
+<p>Zartadeaz tximela burutik lurrera bota eutson, eta antxe agertu zan aguretxuaren poltsia. Gixajuak antxe eukon polito eskutauta, eta ixan ezpa'litz bere ardao-zalekerijagaitik ezeutsoen kenduko. Jaki&ntilde;a, agertu orduko eskua ezarri eutsoen lapurrak poltsiari barreka, ta orduantxe bai eski&ntilde;i eutsoen ardaua, esanaz:</p>
+<p>Oraintxe bai emango zaizu ardua gogo onarekin. Ar zazu, aitona, ar zazu.</p>
+<p>Agurea negar baten eguan eta ezeban entzun gura ardauaren ixenik be. Bera negarrez eguan artian, lapurrak eta beste bidazti gustijak barreka egozan.</p>
+<p>Zalekerijak eztakar bein be gauza onik eta.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Atxuri'ko &laquo;millagrua&raquo;</p><--</head>
+        </front>
+        <body>
+<p>(Jazorikua)</p>
+<p>Emen edestuko doguna jazo zanetik ona urte asko igazi dira.</p>
+<p>Orduan Bilbao'k ogei milla inguru biztanle ba&ntilde;o askoz geyago ezebazan. Geruago Bego&ntilde;a'ri artu dautsozan zatijak ezeukozan ondi&ntilde;o. Abando be azke zan, erri banakua.</p>
+<p>Beraz, Bilbao erri txikija zan, eta biztanle gustijak alkarren ezaunak ziran. Ezeguan orain dagon beste <hi rend='Italic'><foreign>guardia municipal</foreign></hi>, naikua ziran iru edo lau txi&ntilde;el errija zaintzeko, gabezko <hi rend='Italic'><foreign>sereno </foreign></hi>kantari batzukaz.</p>
+<p>Onelako erri baten aituten da erraz egin leitekela emen edestuko dogun barrabaskerija, erri gustija barre baten ainbat egunian euki ebana.</p>
+<p>Bilbotar barregarri batzuk iragarri eben bertako izparringi baten, eztakit nungo erritan il zala atso aberatz bat, eta milla ogerleko batzuk utzi ebazala Bilbao'ko erren edo kojoei bananduteko, atsua be errena ixan zalako ta Bilbao'n jayua; diru ori bananduko yakela Atxuri'n, etxe bateko atarijan, bertan aurkeztuko ziran erren bilbotarrai, onen egunetan eta onen ordutan.</p>
+<p>Bilbao'ko txiro ta gosakillen artian ikara andija eragin eban iragarki orrek, eta egun batzuetan etzan ixan beste izketagairik auxe ba&ntilde;o.</p>
+<p>Eldu zan eguna. Atxuri'ko etxe aretan agiri zan atarijan mai bat, beronen ganian tintontzija ta ingijak, iru jezarleku, basterrian zorro batzuk zerez edo arez beterik, eta iru edo lau gixon, piperra ba&ntilde;o seriyuago, alkarregaz izketa ixiltxuan, atarijan batera ta bestera ibilli ebiltzala eperdi-ganian eskuak alkartuta.</p>
+<p>Goiztxo asi ziran kojuak agertzen kalian. Geyenak etozan makulu bigaz ta anka bata dingiliz; bai-ziran etozanak eperdi-ganian erdi-tatarrez; baita burtxoyetan etozanak be i&ntilde;ok bultzaka eruanda. Danak zurbil eta arpegi aulagaz, edonor errukituteko lez.</p>
+<p>Iragarrita eguan ordurako, kale gustija aurkitxen zan errenez beterik.</p>
+<p>Balkoyetan eta leyuetan eguan jentiak arrituta esateban: &laquo;nok uste ixango eban Bilbao'n onenbeste kojo eguanik?&raquo;</p>
+<p>Atarijan egozan gizon seriyuak adirazo eutsien kalekoei diruak gertu ipi&ntilde;i biar ebezala ta orregaitik piskaten atia itxiko ebela, ta asko belutu barik, laster asiko zala diru-banandutia. Itxi eben atia ba, ta gerotxuago barriro zabaldu zanian, tximista ba&ntilde;o ari&ntilde;ago urten zan andik, zer uste dozue? Zezentxu bat!!Nok azaldu an ixan zan usubillua? Asi zan zezentxua topeka, au bota ta ori bota, ta, ango a&ntilde;eketia kojuak ixanarren! Egundoko ari&ntilde;en, mi&ntilde;uto bat ba&ntilde;o lenago, garbitu zan kalia, makillaz ta burtxoez beterik gelditu zala. Millagrua ixan zan. Zezena agertu zan orduko kojo gustijak osasunera etorri ziran.</p>
+<p>Balkoi-leyoetako jentia, barriaren barriaz tripa gustija minduta geratu ziran.</p>
+<p>Diabrukeri au ikusi eben bilbotar zarrak barre-zoroka asten ixan yakuz berau aitatu dogun aldi gustijetan. Amaika gixon gogaldi ederreko jayo ta bixi ixan zan lenagoko Bilbao'n!</p>
+        </body>
+      </text>
+    </group>
+  </text>
+</TEI.2>
+

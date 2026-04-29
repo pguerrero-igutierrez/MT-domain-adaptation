@@ -1,0 +1,657 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN"
+                       "http://www.tei-c.org/P4X/DTD/tei2.dtd" [
+   <!ENTITY % TEI.prose    'INCLUDE' >
+   <!ENTITY % TEI.linking  'INCLUDE' >
+   <!ENTITY % TEI.analysis 'INCLUDE' >
+   <!ENTITY % TEI.figures  'INCLUDE' >
+   <!ENTITY % TEI.XML      'INCLUDE' >
+   <!ENTITY % TEI.extensions.ent SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.ent' >
+   <!ENTITY % TEI.extensions.dtd SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.dtd' >
+]>
+<TEI.2>
+  <teiHeader>
+  <fileDesc>
+     <titleStmt>
+        <title>Muga</title>
+        <author>Antonio Maria Labaien</author>
+        <respStmt>Ez dauka</respStmt>
+     </titleStmt>
+     <extent>7.943 hitz, 58.065 karaktere</extent>
+     <publicationStmt>
+        <publisher>Klasikoen Gordailua [http://klasikoak.armiarma.com/]</publisher>
+        <distributor>Estrata Liburuak S.L.</distributor>
+        <address type='email'>klasikoak@armiarma.com</address>
+        <idno type='ota'>LabaienMuga</idno>
+        <availability status='free'>Erabilpen librekoa; honoko helbidean topa daiteke (HTML, RTF eta PDF formatuetan): http://klasikoak.armiarma.com/idazlanak/L/LabaienMuga.htm</availability>
+        <date>2006</date>
+     </publicationStmt>
+     <sourceDesc>
+        <bibl>Iturria: Teatro osoa euzkeraz (I), Antonio Labayen. La Gran Enciclopedia Vasca, 1976</bibl>
+        <notesStmt><note>Iturburuen datazioa: 1954</note></notesStmt>
+     </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+     <projectDesc>Euskal literaturako testu klasikoen bilduma da KLASIKOEN GORDAILUA; testu hau berorren parte da</projectDesc>
+     <refsDecl>
+        <p>MENTIONED etiketa egilearenak ez diren hitzak markatzeko erabili da: hitzaurreak, aipuak, iruzkinak, e.a.</p>
+    </refsDecl>
+     <classDecl>
+        <taxonomy id='generoa'>
+            <category id='G-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='G-ANT'><catDesc>Antzerkia</catDesc></category>
+            <category id='G-BER'><catDesc>Bertsoak</catDesc></category>
+            <category id='G-ERL'><catDesc>Erlijioa</catDesc></category>
+            <category id='G-NAR'><catDesc>Narratiba</catDesc></category>
+            <category id='G-POE'><catDesc>Poesia</catDesc></category>
+            <category id='G-SAI'><catDesc>Saiakera, kronika, artikuluak...</catDesc></category>
+        </taxonomy>
+        <taxonomy id='garaia'>
+            <category id='M-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='M-16'><catDesc>XVI. mendea</catDesc></category>
+            <category id='M-17-1'><catDesc>XVII. mendea - 1. erdia</catDesc></category>
+            <category id='M-17-2'><catDesc>XVII. mendea - 2. erdia</catDesc></category>
+            <category id='M-18-1'><catDesc>XVIII. mendea - 1. erdia</catDesc></category>
+            <category id='M-18-2'><catDesc>XVIII. mendea - 2. erdia</catDesc></category>
+            <category id='M-19-1'><catDesc>XIX. mendea - 1. erdia</catDesc></category>
+            <category id='M-19-2'><catDesc>XIX. mendea - 2. erdia</catDesc></category>
+            <category id='M-20-1'><catDesc>XX. mendea - 1. erdia</catDesc></category>
+            <category id='M-20-2'><catDesc>XX. mendea - 2. erdia</catDesc></category>
+        </taxonomy>
+        <taxonomy id='euskalkia'>
+            <category id='E-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='E-BAT'><catDesc>batua</catDesc></category>
+            <category id='E-BIZ'><catDesc>bizkaiera</catDesc></category>
+            <category id='E-BNA'><catDesc>behenafarrera</catDesc></category>
+            <category id='E-ERR'><catDesc>erronkariera</catDesc></category>
+            <category id='E-GIP'><catDesc>gipuzkera</catDesc></category>
+            <category id='E-GNA'><catDesc>goi nafarrera</catDesc></category>
+            <category id='E-LAP'><catDesc>lapurtera</catDesc></category>
+            <category id='E-NAF'><catDesc>nafarrera</catDesc></category>
+            <category id='E-ZAR'><catDesc>zaraitzuera</catDesc></category>
+            <category id='E-ZUB'><catDesc>zuberera</catDesc></category>
+        </taxonomy>
+    </classDecl>
+  </encodingDesc>
+  <profileDesc>
+     <textClass>
+       <keywords scheme='generoa'>
+         <list><item>G-ANT</item></list>
+       </keywords>
+       <keywords scheme='garaia'>
+         <list><item>M-20-2</item></list>
+       </keywords>
+       <keywords scheme='euskalkia'>
+         <list><item>E-LAP</item></list>
+       </keywords>
+     </textClass>
+  </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>Muga -- Antonio Maria Labaien</docTitle>
+    </front>
+    <group>
+      <text>
+        <body>
+<p>M<SUP>me</SUP> DUTOURNIER-i.</p>
+<p>&mdash; Egun batez Mugatik igesi nentorrela ezagutu nuen SERORAENEA-ko Etxekandre bihotz zabalari, gaur esker on eta adiskidetasunez opa diot ene baithako &laquo;puska&raquo; xume hau.</p>
+<p>&mdash; Ez ahal dute muguzainek atzemainen.</p>
+<p>&mdash;Egilleak</p>
+<p><hi rend='Bold'>MUGA</hi></p>
+<p><hi rend='Bold'>Irri antzerkia (josteta) ekitaldi bietan</hi></p>
+<p><foreign> &laquo;Ah, mon Dieu, Fran&ccedil;ais ou Espagnol, moi, &ccedil;a m'est &eacute;gal. J'aime autant l'un que l'autre: je suis Basque comme toi, comme nous sommes, tous; le reste je m'en fixe&raquo;.</foreign></p>
+<p><foreign>(&laquo;Ramuntxo&raquo; de Pierre Loti).</foreign></p>
+<p><hi rend='Bold'>DRAMATIS PERSONAE</hi></p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Etxeko anderea.</p>
+<p>-f-<hi rend='Bold'>KARABINERO</hi>, <hi rend='Bold'>MUGAIZAINAK</hi>...</p>
+<p>-f-<hi rend='Bold'>MARIXUME:</hi> Alaba.</p>
+<p>-f-<hi rend='Bold'>MIXEL:</hi> Etxeko Jauna.</p>
+<p>-f-<hi rend='Bold'>BATIXTA:</hi> Mugalari nagusi: kontrabandista.</p>
+<p>-f-<hi rend='Bold'>KOXE JOAN:</hi> Mutil Marixumeren senargaia.</p>
+<p>-f-<hi rend='Bold'>ERREMUNDEGI:</hi> Sarako auzapeza.</p>
+<p>-f-<hi rend='Bold'>ARANTXIPI:</hi> Zugarramurdiko endorea.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>LEHEN EKITALDIA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Italic'>Mendito baten gainean </hi>Galtxagorri <hi rend='Italic'>benta. Muga-mugan, Sara ta Zugarramurdi artean. Etxea Eskual-Herriaren bihotzean dagoelarik aintzin atea Espainian du; gibelaldea berriz Frantzian.</hi></p>
+<p><hi rend='Italic'>Irudian </hi>Galtxagorri <hi rend='Italic'>ager bedi lau aritz aundiren erdian. Ate nagusia ta sukalde leioa zabalik ditu.</hi></p>
+<p><hi rend='Italic'>Udako egun eder batez. Goiza da. Giroa &laquo;elizanburutiarra&raquo;...</hi></p>
+<p><hi rend='Bold'>LENENGO AGERRALDIA</hi></p>
+<p><hi rend='Italic'>I&ntilde;axi ta Batixta</hi></p>
+<p>-e-<hi rend='Italic'>(I&ntilde;axi etxe lanak utzirik atadian dago norbaiten begira. Une artantxe Batixta etortzen da: izerditan, eskuan makila, maripulisa bizkarrean ezarria):</hi></p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> To, elduki? Batixta zu zinen? Oren tzarrean zatoz. Eta bertzeak?</p>
+<p>-f-<hi rend='Bold'>BATIXTA:</hi> No. Zu egoki? Eta zertako da oren tzarra? Emen gire guztiok. Beti egiten diguzu begitarte on, aterbe ta bazkaria eske&ntilde;iaz. Zer gertatzen da egun? Inoiz baino unatuago ta gosetuxeago. Mendian itsuski ibiliak gaituzu. Eta zu noren begira zaude ba?</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI: </hi><hi rend='Italic'>(Larri)</hi> Gaisoak. Beharko duzue geiago ibil oraino. Bazoazi iges emendik. Laister gainera. Fite. Instantean unat etortzekoak baitire mugazainak Sarako jaun auzapeza buru dutela; ta okerrena dena, Arantxipi, Zugarramurdiko Endorea karabineroakin.</p>
+<p>-f-<hi rend='Bold'>BATIXTA: </hi><hi rend='Italic'>(Arriturik)</hi> E?</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Jende hekien adiskide ez ziranez geroz bazoazke bertze nonbait aterbe ta jan bila. Atzematen al zaitue bertzenaz. Eta gu zurekin.</p>
+<p>-f-<hi rend='Bold'>BATIXTA:</hi> Karabineroak? Nun dira urde zikinak? Ez digute bizitzen uzten. Al...</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Laister emen dirala uste dut.. Baita ezpada Marixume gain ortarat igorria dut nortzuek datozen ikusterat.</p>
+<p>-f-<hi rend='Bold'>BATIXTA:</hi> Zu ez zaitue ustegabean ez mugazain ta ez karabineroek izi arazten. Bideak zainduagatik, ni zure etxerat oartzeke eldu naiz ordea.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Bidexkari lotuz, bai. Zu ere mugatiarra izaki.</p>
+<p>-f-<hi rend='Bold'>BATIXTA:</hi> Errazu ba egi osoa. Hunela ama alabak bideen begira egoteko, zerbait gertatzen da emen. Zertarako etorri behar dute, bertzenaz, elgarrekin, mugazain, auzapez, karabinero eta gaineratekoak?</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Bai baitire beti zenbait ardi, zikiro eta behor galduak erri bietarik, eta badakizu kantrabando istorioren bat ere ba, tartean, bertze zenbait bezala.</p>
+<p>-f-<hi rend='Bold'>BATIXTA:</hi> Ez erran, bai erran... anitz adituz dela anitz ikasten.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Itzulia ongi egin duzue?</p>
+<p>-f-<hi rend='Bold'>BATIXTA:</hi> Arras ongi. Zure jauna emen da puska pulitekin. Guzientzat irabazia izanen da. Egon lasai. Gose ta egarri naiz.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Ori behar dugu ba. <hi rend='Italic'>(Posik)</hi> Jarri zaite jarri. Xorta bat arno ematen al dizut, beldur naiz baino.</p>
+<p>-f-<hi rend='Bold'>BATIXTA:</hi> Zaude lotsik gabe. Dezagun jan ta edan, azken ilak arauz zorrak ordainduko ditu. <hi rend='Italic'>(Esertzen da esku gibelaz izerdia idortuaz)</hi>.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI: </hi><hi rend='Italic'>(Etxe barnetik arno, gasna ta ogiaz itzulirik eta orma kontrako alkian utzirik)</hi> Artu ba Batixta. Nik uste mugazainak ez direla bat batean etortze ahal.</p>
+<p>-f-<hi rend='Bold'>BATIXTA:</hi> Saratarrak badugu beti astia. Izanen ahal dugu iges egiteko <hi rend='Italic'>(Edanez)</hi>. Ez nuke maite alimale orien eskuetan erortzea.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Eta ustegabean balin badatoz norat jo behar duzu? Ez sar, otoi, gure etxean. Galduak gintazke.</p>
+<p>-f-<hi rend='Bold'>BATIXTA:</hi> Karabineroak badire Praintziako aldean gordetzen ahal naiz, eta aitzitik, mugazainak badire Espainian.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Eta denak batera badatoz?</p>
+<p>-f-<hi rend='Bold'>BATIXTA: </hi><hi rend='Italic'>(Bertze xorta bat edanez)</hi> E? Ba, zuen etxe gibelean badituzue iratz multsoak. Bada or ni kokatzeko ainbat leku. An oberenik muga-mugan.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Zer nolako irriskuetan zabiltzan, ibil. Karabineroak ez badire mugazainak; eta zu biekin gaizki.</p>
+<p>-f-<hi rend='Bold'>BATIXTA:</hi> Ardura guti. Batzuentzat desertore omen; bertzeentzat berriz muga lapur. Berak ohoinak, guri ebatsi bait digute Eskual-Herrian menditik mendirat libroki ibiltzeko eskua.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Gaisoa. Mintzaira ori ez dute arrotzek konprenitzen, eta gizon oriek ager badire, obe duzu lehenbaitlen igesi gan.</p>
+<p>-f-<hi rend='Bold'>BATIXTA:</hi> Segurki. <hi rend='Italic'>(Jan edanean jarraitzen dun bizkitartean isil unetxoa)</hi>.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI: </hi><hi rend='Italic'>(Larritzen asia; zakurrek eiza bezala mugazainak urrundik usainduaz)</hi>. Ez dakit ene jauna zer ari den egiten agertu gabe. Berantetsirik nago. Emen behar zuen aspaldixko.</p>
+<p>-f-<hi rend='Bold'>BATIXTA:</hi> Zama andiskoa baitu, astia behar unat etortzeko. Nolanai laister duzu emen.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Ez nuke nahi etxekoak ez direnak ikus dezaten lan ortan. Gutiago ere gogo nuke. Zugarramurdiko eta Sarako jaunak emen daudelarik etortzea... Ahalkegarri litake.</p>
+<p>-f-<hi rend='Bold'>BATIXTA:</hi> Ez izan lotsik, alaba ez duzu igorri ba bideak begira ditzan? Kasu egiterat?</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Itzuli behar zuen onezkero. Solasean ariko da or nunbait... ni bakarrik utzirik etxe lanen egiten.</p>
+<p>-f-<hi rend='Bold'>BATIXTA:</hi> Zer ba? Neskatxek bozkario zerbait behar dute. Adiskidea or baitu gainera.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI: </hi><hi rend='Italic'>(Addi belarria emanaz)</hi>. Adiskidea? Adiskideak ez ezik ez dakit etsaiak ez ote datozen? Entzuten duzu?</p>
+<p>-f-<hi rend='Bold'>BATIXTA:</hi> Ba. Jendea da.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Ezkuta zaitez bataezpada. <hi rend='Italic'>(Bide alderat ainzinaturik), (Batixtari ozenki)</hi> Marixume ta Zugarramurdiarrak dire. Bazoazke.</p>
+<p>-f-<hi rend='Bold'>BATIXTA: </hi><hi rend='Italic'>(Lasa)</hi> Orduan karabineroak. Banoa Frantziarat <hi rend='Italic'>(Abiaturik)</hi> Sarri artio.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Ez gan bide ortarik, zeren mugazainak kausitzen ahal dituzu.</p>
+<p>-f-<hi rend='Bold'>BATIXTA: </hi><hi rend='Italic'>(Itzuliaz)</hi> Ez uste, ez dut ibiltzeko gogo aundirik. Etxe gibelean gordetzen ahal nain ta lo egin iratz tartean.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI: </hi><hi rend='Italic'>(Etxe gibeleruntz bultz eginaz)</hi> Ori oberenik eta ez atzarri nik deitzen zaitudan artio. <hi rend='Italic'>(I&ntilde;axi unetxo battez etxe barnerat sartzen da arno, ontzi, gasna ta ogia berakin eramanik)</hi>.</p>
+<p><hi rend='Bold'>BIGARREN AGERRALDIA</hi></p>
+<p>-e-<hi rend='Italic'>I&ntilde;axi, Marixume, A rantxipi ta bi Karabinero</hi></p>
+<p>-f-<hi rend='Bold'>MARIXUME: </hi><hi rend='Italic'>(Eun bat metra aintzina etorriaz)</hi> Ama. Zugarramurdiko jaun auzapeza ta karabineroak ditugu emen.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI: </hi><hi rend='Italic'>(Atadian agertuaz)</hi> Obe zendun lehentxeago etorri. Eta gure gizonak nun dire?</p>
+<p>-f-<hi rend='Bold'>MARIXUME:</hi> Ez datoz bide ortarik.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Bertzeari kasu egin ba. Eman or.</p>
+<p>-f-<hi rend='Bold'>MARIXUME:</hi> Ez kezkik izan ama. Begiratzen al ditut ongi bideak.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Zaude ixil. Arantxipi jauna eldu bait zaigu <hi rend='Italic'>(Ezpainen irria duela ongi etorria egiterat joanaz)</hi>.</p>
+<p>-f-<hi rend='Bold'>ARANTXIPI: </hi><hi rend='Italic'>(Karabineroak gibelxeago utzirik etxekoanderea agurtzerat urbiltzen da)</hi> Agur andre. Ongi zaizte guziok? <hi rend='Italic'>(Eskua emanez)</hi>:</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Arras ongi, mila esker: eta zuek?</p>
+<p>-f-<hi rend='Bold'>ARANTXIPI:</hi> Zuk ikus. Gure adinean gain untarat igotzeko behar du ongi izan.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Ez arrangura, ez zira xaharra oraino.</p>
+<p>-f-<hi rend='Bold'>ARANTXIPI:</hi> Sobera, I&ntilde;axi. Gureak egin du. Ez dire Sarako auzapeza ta lagunak eldu?</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Badakizu Saratarrak astia saltzen dutela. Baina, jarri zaite, jarri. Unela obekiago itxoegiten al duzu ta pausatzen ziran bizkitartean ogi gasna arno pitarekin artuko duzu. Eta bai zure lagunak ere. Serbi zaiezu, Marixume.</p>
+<p>-f-<hi rend='Bold'>ARANTXIPI:</hi> Bai, gogoz, egarri bait naiz. <hi rend='Italic'>(Jarriaz, karabineroeri) </hi><foreign>Vengan ustedes a tomar un trago que ya tendr&aacute;n sed.</foreign></p>
+<p>-f-<hi rend='Bold'>I KARABINEROA: </hi><hi rend='Italic'>(Urbilduaz) </hi><foreign>Se agredece, se&ntilde;or alcalde; y a ud se&ntilde;ora </foreign><hi rend='Italic'>(Etxekoandrearengatik)</hi>.</p>
+<p>-f-<hi rend='Bold'>II KARABINEROA: </hi><foreign>Muy buenas, patrona. </foreign><hi rend='Italic'>(Marixume ogi, gasna, ta arnoaz sartzen da. I&ntilde;axi ta Arantxipi alde batean gelditzen, karabineroak bertze bazterrean jartzen diralarik)</hi>.</p>
+<p>-f-<hi rend='Bold'>MARIXUME: </hi><hi rend='Italic'>(Arnoa serbituz geroz) </hi>Gasna emen duzue, nagusiak. <hi rend='Italic'>(Ulertzen ez diotela ikusirik) </hi><foreign>Du formage, messieurs.</foreign></p>
+<p>-f-<hi rend='Bold'>II KARABINEROA: </hi><foreign>Merci &laquo;mademuasel&raquo;. </foreign><hi rend='Italic'>(Lagunari) </hi><foreign>Buena moza.</foreign></p>
+<p>-f-<hi rend='Bold'>I KARABINEROA: </hi><foreign>T&uacute; que sabes franc&eacute;s dila algo, a ver si la camelas.</foreign></p>
+<p>-f-<hi rend='Bold'>II KARABINEROA: </hi><foreign>No ves que estas de la frontera hablan el &laquo;dialezto&raquo;?</foreign></p>
+<p>-f-<hi rend='Bold'>I KARABINEROA: </hi><foreign>No. Te vamos a traer a ti una de Paris de Francia. Pues no te pide nada el cuerpo. Ahi la tienes.</foreign></p>
+<p>-f-<hi rend='Bold'>II KARABINEROA: </hi><foreign>D&eacute;jala, hombre, y bebamos este vinillo que entra bien.</foreign></p>
+<p>-f-<hi rend='Bold'>I KARABINEROA: </hi><foreign>Como que tenemos el gaznate seco.</foreign></p>
+<p>-f-<hi rend='Bold'>ARANTXIPI: </hi><hi rend='Italic'>(Karabineroengana urbilduaz) </hi><foreign>Parece que las de Sara van a tardar a&uacute;n.</foreign></p>
+<p>-f-<hi rend='Bold'>I KARABINEROA: </hi><foreign>Eso, siempre. </foreign></p>
+<p>-f-<hi rend='Bold'>ARANTXIPI: </hi><foreign>Entonces es mejor que suban ustedes antes. Yo ir&eacute; con ellos luego.</foreign></p>
+<p>-f-<hi rend='Bold'>I KARABINEROA: </hi><foreign>A sus &oacute;rdenes, se&ntilde;or alcalde, </foreign><hi rend='Italic'>(Jeikiaz) </hi><foreign>Pues nada, subiremos al cerco y nos guardaremos en el puesto, por si acaso.</foreign></p>
+<p>-f-<hi rend='Bold'>II KARABINEROA: </hi><hi rend='Italic'>(Igiturik) </hi><foreign>Ya tengo gana de echar el guante a uno de esos contrabandistas. Sobre todo al Batista ese.</foreign></p>
+<p>-f-<hi rend='Bold'>I KARABINEROA: </hi><foreign>En marcha, Gutierrez; ya caer&aacute;.</foreign></p>
+<p>-f-<hi rend='Bold'>II KARABINEROA: </hi><foreign>Yo ya estoy dispuesto.</foreign></p>
+<p>-f-<hi rend='Bold'>I KARABINEROA: </hi><hi rend='Italic'>(Abiturik) </hi><foreign>Hasta luego.</foreign></p>
+<p>-f-<hi rend='Bold'>ARANTXIPI: </hi><foreign>S&iacute;, pronto nos tienen all&aacute;.</foreign></p>
+<p>-f-<hi rend='Bold'>II KARABINEROA: </hi><hi rend='Italic'>(Doalarik) </hi><foreign>Bonjour.</foreign></p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI ta MARIXUME:</hi> Agur jaunak. <hi rend='Italic'>(Karabineroak badoaz. Marixumek ogi, gasna, arno ontzi, azpil eta bertze puskak etxera bitza)</hi>.</p>
+<p><hi rend='Bold'>IRUGARREN AGERRALDIA</hi></p>
+<p>-e-<hi rend='Italic'>I&ntilde;axi, Marixume ta Arantxipi</hi></p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI: </hi><hi rend='Italic'>(Larrituxe)</hi> Bainan norat igorri dituzu karabinero oriek?</p>
+<p>-f-<hi rend='Bold'>ARANTXIPI:</hi> Gaineko leporat, an egon ditezen gu gaten garen artio. Emen gaizki bait zeuden.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> A, gaisoa. Ederra egin duzu. Nere jauna segur naiz atzematen al dute, arestian bide ortarik etortzekoa baita zenbeit puskekin.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Galduak gira.</p>
+<p>-f-<hi rend='Bold'>ARANTXIPI:</hi> Mixelek badaki zer bide ta bideskatik ibil. Ez du lehen aldia izanen nik uste.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Emen behar zuen aspaldisko, ordea. Ni etxean berriz istutasun denak jasaiten. Obe ginuke zergak ordaindu hunela ibili baino.</p>
+<p>-f-<hi rend='Bold'>ARANTXIPI:</hi> Laketurik zaude ontarat I&ntilde;axi. Zer nahi duzu. Mugan bizi bait gira.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI: </hi><hi rend='Italic'>(Lasaiago)</hi> Hunela da ba. <hi rend='Italic'>(Alabari)</hi> Marixume; kasu egiozu sua ta eltzekariari, eta karabineroak gan direlarik erraiozu etxe gibelean dagon Batixtari ager dadiela.</p>
+<p>-f-<hi rend='Bold'>MARIXUME:</hi> Bai ama.</p>
+<p>-f-<hi rend='Bold'>ARANTXIPI:</hi> Aranberriko Batixta emen al dugu? aren bila dabiltza ba karabinero. Orain ere arek sortu bait ditu kalapita guziak erri bien artean. Artaldea mendiz aldatua du baimenik gabe; behorrak naiz zangoak egurrekin izan mugaz bertzalde eramaiten ditu. Berdin dabil, bei, txerri, ta bertze aziendekin, ta jakina, buruzagiek, bahitzeko manua eman digute.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Karabineroak usaindu orduko gorde da; ez dute erraz atzemanen.</p>
+<p>-f-<hi rend='Bold'>ARANTXIPI:</hi> Nik ez diot gaitzik opa, Batixta nere aspaldiko laguna baita; eta maite dut. Alabainan Zugarramurdiko endore naizan aldetik ixtutasun nardagarrian emanen nau. Kontrabando zenbeit egitea, puska batto ala bertze astero bederen etxeratzea ez da oben andi, naski, bainan...</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Ori bera erraten diot nik ere.</p>
+<p>-f-<hi rend='Bold'>ARANTXIPI:</hi> Gizon ardita ta ausartegia da. Eta aren kariaz erri biek asarre ta auzietan dabiltza. Ortakotz agindariek jarraiki zaizkio: Espainiarat ezin gan da, eta Frantzian ez da sartzen al. Beraz...</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Ez da sobera larritzen. Or dago, etzinda, loak arturik iratze multso artean. Ori omen bere eskualdea..</p>
+<p>-f-<hi rend='Bold'>MARIXUME: </hi><hi rend='Italic'>(Etxetik ateratzen da pegarra buru gainean dualarik)</hi> Atzarria da Batixta; laister duzue emen. Ni urketarat noa ama, ta saratarrak oartzen ditudalarik osegingo dautzut.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Aguro ibil ba. Bazkari prestatzeko sukaldean ba-bait duzu lan.</p>
+<p>-f-<hi rend='Bold'>MARIXUME:</hi> Bai, ama. <hi rend='Italic'>(Aienatuaz)</hi>.</p>
+<p>-f-<hi rend='Bold'>ARANTXIPI:</hi> Alaba prestu ta panpina duzu I&ntilde;axi.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Hunela da jauna. Ez da alaba dudalakotz bainan &laquo;erle bat da etxe barnean gaiso maitea; eta baratzean den lore pulitena&raquo;.</p>
+<p>-f-<hi rend='Bold'>ARANTXIPI:</hi> Elizanbururen kanta arabera <hi rend='Italic'>(Abestuaz)</hi>.</p>
+<p>-f- &laquo;Errege baldin banitz, a, zer erregina&raquo;.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Errango nuke. <hi rend='Italic'>(Irriz)</hi> Errege behar.</p>
+<p>-f-<hi rend='Bold'>ARANTXIPI:</hi> Haatik senargeia baduala jakin dut, eta ez nolanaikoa, ederki hautatua baizik: Koxejuan, mutil azkar, zalhu ta prestua.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Kontent gare ba. Gizon gazte bat behar ginuen etxean eta Jainkoari esker ezin obea eltzen zauku. <hi rend='Italic'>(Oroituaz)</hi> Semeen orde zerbait behar; Ain urrun daude gaisoak. Kalifornian.</p>
+<p>-f-<hi rend='Bold'>ARANTXIPI:</hi> Baduzu berririk? Ongi izanen dire naski?</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Arras ongi omen. Oraintsu, orai letra bat igorri dauku gazteenak. Aziendeentzat urte ona dutela dio.</p>
+<p>-f-<hi rend='Bold'>ARANTXIPI:</hi> Orduan laister emen ditugu aberasturik aitama loriatzerat.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Zaharrena ezkondua danetz eta aurrekin ez da errez izanen. Ez dugu aspaldi aren berririk. Bainan gaztea bai, espero dut urte gutiren buruan etxean ikustea. Erran bai zidan partitzerakoan: Ama, behorra karrosari lotuta erriz-erri kurritzeko aina diru irabazten dutanean orduantxe itzultzen al naiz Ameriketatik.</p>
+<p>-f-<hi rend='Bold'>ARANTXIPI:</hi> Behorra ta karrosan ezik automobilean eltzen al zaizu, gutiena uste duzunean.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Eltzekotan, beti eginen diogu ongi etorria, naiz oinez etorri eta gure etxe zaharrean beti izanen du leku.</p>
+<p>-f-<hi rend='Bold'>ARANTXIPI:</hi> Ez zuen berak ahantziko kopla maite ura: <hi rend='Italic'>(Erdika oroituaz):</hi></p>
+<p>&laquo;Naiz ez den gaztelua</p>
+<p>Maite dut, nik sorlekua</p>
+<p>Aiten-aitek autatua&raquo;.</p>
+<p><hi rend='Bold'>LAUGARREN AGERRALDIA</hi></p>
+<p>-e-<hi rend='Italic'>Lehengoak eta Batixta</hi></p>
+<p>-f-<hi rend='Bold'>BATIXTA: </hi><hi rend='Italic'>(Agertuaz)</hi> Agur, jaun-andre. Emen aldarte oneko jendea dagoala dirudi. Ala obe.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Aldi gutirako. Gure pozak ez du irauten.</p>
+<p>-f-<hi rend='Bold'>ARANTXIPI:</hi> A, Batixta; asarrea ere batzuetan soinuz eta kantuz iraungi arazten baita.</p>
+<p>-f-<hi rend='Bold'>BATIXTA:</hi> Inoiz lan pita bat eman ohi dizuet bainan... Ez zira nerekin asarre izanen ba, jaun auzapeza.</p>
+<p>-f-<hi rend='Bold'>ARANTXIPI:</hi> Norekin ba? Orai ere auzi gaitza sortu ezpadiguzue. Ez dut dudarik tartean izanen zirela. Bat da kontrabando xehea...</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Ogi, arno, gatz, tota apur bat eta hunelako puskak etxeratzea...</p>
+<p>-f-<hi rend='Bold'>ARANTXIPI:</hi> Jakina. Eta zuek egin bidegabekeriak bertze. Zer nahi gauza: arnoa zaharagika; aziendek andanaka; ots; tabakoa ausarki.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Zer ba obe da pipakada batto ekartzea baino.</p>
+<p>-f-<hi rend='Bold'>ARANTXIPI:</hi> Ikusten al duzu ikus. Karabinero ta mugazainek negurri latzgarriak artzerat doaz eta gaizki ibili beharrak zerate.</p>
+<p>-f-<hi rend='Bold'>BATIXTA:</hi> Atzematen bagaitue bai. Badakigu hori. Ortarakotz ez nuke aien eskuetan erori nahi. Haatik karabineroak urbilduxe direnean Frantziarat iragaiten naiz; eta guarda frantzesak badire Espainiarat: Enetzat orobat baita. Eskual-Herria.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Nahi duenak berra nahi duena. Hunela solasean aritzeko eta nehork ikus ez zaitzaten obe duzue etxe barnerat sar. Lasago egoiten al zaizte ta nik sukaldeari begiratzen al diot. Antola behar baitut bazkaria. <hi rend='Italic'>(Abiturik)</hi>.</p>
+<p>-f-<hi rend='Bold'>ARANTXIPI:</hi> Itzaren ederra. Hortan ez dugu gibelarazteko gogorik. Bagoazi barnerat.</p>
+<p>-f-<hi rend='Bold'>BATIXTA:</hi> Ni ere etxekoandrearen arabera nago.</p>
+<p>-f-<hi rend='Bold'>ARANTXIPI: </hi><hi rend='Italic'>(Sartuaz)</hi> Batixta ene aholkua entzun zazu, ez bada berant: Sarako auzapez Erremundegibehere jaunak derasanez jabetzen ahal gera lehenik. Nola nai den ez dakit ongi ateratzen ote ziran auzi oritarik. <hi rend='Italic'>(Doaz)</hi></p>
+<p><hi rend='Bold'>BORTZGARREN AGERRALDIA</hi></p>
+<p><hi rend='Italic'>Marixume ta Mugazainak. Erremundegi</hi></p>
+<p><hi rend='Italic'>(Marixume ta Erremundegi lehenik Bertzeak gibelxeago).</hi></p>
+<p>-f-<hi rend='Bold'>MARIXUME: </hi><hi rend='Italic'>(Pegarra urez gainezka buruan dualarik)</hi>. Zugarramurdiarrak etorriak dire ba. Arantxipi jauna emen gelditua da, etxe barnean izainen da, eta karabineroak gaineko leporat igorriak ditu, an itxoin dezaten.</p>
+<p>-f-<hi rend='Bold'>ERREMUNDEGI:</hi> Nik gauza bera egin beharko dut. Goiz eldu dire haatik zugarramurdiarrak.</p>
+<p>-f-<hi rend='Bold'>MARIXUME: </hi>Berritz errainen dute saratarrek astia badutela, jaun auzapeza.</p>
+<p>-f-<hi rend='Bold'>ERREMUNDEGI:</hi> Aspaldiko omena dugu. Hunela obe, alare sasoiz el bait gera. Urketatik zatozenez ur freskoagorik ez dugu sekulan erdietsen al. Gogotik jastatzen al dut, sapa dago ta zintzurra busti ta egarria kentzeko maitatzenago bai dut mendi iturriko ur xorta bat bertze edozein edari baino.</p>
+<p>-f-<hi rend='Bold'>MARIXUME:</hi> Pozik emainen dizut, hunen nago galdez. Fresko freskoa. Zaude, beiraren bila noa. <hi rend='Italic'>(Etxerat sar aintzina mugazainei mintzaturik)</hi> Jaun oriek bertze zerbait gogoko izanen dutela nik uste <hi rend='Italic'>(Doalarik)</hi>.</p>
+<p>-f-<hi rend='Bold'>I MUGAZAINA:</hi> Ez da galdegin beharrik gazte <hi rend='Italic'>(Ojukatuaz)</hi></p>
+<p>-f- &laquo;Zerik othe den nik jakin nahi&raquo;</p>
+<p>-f-<hi rend='Bold'>II MUGAZAINA: </hi><hi rend='Italic'>(Lagunari) </hi><foreign>Tu chantes, toi?</foreign></p>
+<p>-f-<hi rend='Bold'>I MUGAZAINA: </hi><foreign>Tiens,, elle nous demande si nous voulons bien boire un coup.</foreign></p>
+<p>-f-<hi rend='Bold'>II MUGAZAINA: </hi><foreign>C'est pas de refus, bien s&ucirc;r; on a le gosier sec.</foreign></p>
+<p>-f-<hi rend='Bold'>ERREMUNDEGI: </hi><foreign>Mais elle vous offre de l'eau. C'est ce qui a de mieux pour rafra&icirc;chir et &ocirc;ter la soif.</foreign></p>
+<p>-f-<hi rend='Bold'>II MUGAZAINA: </hi><foreign>Vous plaisantez, monsieur le maire. Pour l'eau nous en avons assez avec la pluie qui tombe tout le temps dans ce pays. Je pr&eacute;f&egrave;re l'arnoa...</foreign></p>
+<p>-f-<hi rend='Bold'>I MUGAZAINA: </hi><foreign>Arnoa, arnoa, naparra gainera. Il conna&icirc;t d&eacute;j&agrave; l'article aussi bien que le tarif d'arancel.</foreign></p>
+<p>-f-<hi rend='Bold'>ERREMUNDEGI: </hi><foreign>Et m&ecirc;me il a appris le mot basque. C'est que, monsieur le garde, le vin est p&eacute;rilleux. On ne sait pas s'il est de contrebande.</foreign></p>
+<p>-f-<hi rend='Bold'>II MUGAZAINA: </hi><foreign>Vous savez, au bon vin il ne faut jamais lui demander ses papiers. Il y a des choses bien plus importantes qu'on devrait plut&ocirc;t surveiller et poursuivre et ne pas nous laisser tromper par ces types.</foreign></p>
+<p>-f-<hi rend='Bold'>ERREMUNDEGI: </hi><foreign>Certainement. Pour &ccedil;a on devrait mieux garder tous les chemins de montagne. </foreign>Baduk lan.</p>
+<p>-f-<hi rend='Bold'>II MUGAZAINA: </hi><foreign>Ah, si on pouvait tirer sur ces brigands avec un fusil comme font les &laquo;carabineros&raquo; &ccedil;a serait une autre histoire, je vous dis.</foreign></p>
+<p>-f-<hi rend='Bold'>I MUGAZAINA: </hi><hi rend='Italic'>(Marixume eltzen dela ikusiaz) </hi><foreign>Laisse de c&ocirc;t&eacute; ces soucis. Ne t'inqui&egrave;te pas. &Ccedil;a ne vaut pas la peine. Voici Marixume qui arrive, et &agrave; ce qu'on voit on va casser la cro&ucirc;te. </foreign><hi rend='Italic'>(Marixumeri)</hi> Utzi emen, Marixume. Gasna ogi ta txingarra ere badugu, arnoa ezik.</p>
+<p>-f-<hi rend='Bold'>MARIXUME:</hi> Zer ba? arnoa jaun andi baita laguntzalle gaberik. <hi rend='Italic'>(Ontzia ta, puskak mai gainean uzten dituala, mugazaineri)</hi>. Jarri zuek emen. <hi rend='Italic'>(Erremundegiri)</hi> Emen dator ama ur pitxarrarekin, jaun auzapeza.</p>
+<p>-f-<hi rend='Bold'>ERREMUNDEGI:</hi> Ez da presarik, millesker.</p>
+<p>-f-<hi rend='Bold'>MARIXUME:</hi> Lehen etortzen al zen. Ain lanpeturik dago supazterrean finkatuta. Beharrik... Aspaldiko lagun xaharrak gira zure ama ta ni.</p>
+<p><hi rend='Bold'>SEIGARREN AGERRALDIA</hi></p>
+<p>-e-<hi rend='Italic'>Lehengoak eta I&ntilde;axi</hi></p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI: </hi><hi rend='Italic'>(Agertuaz)</hi> Agur, jaunak. <hi rend='Italic'>(Erremundegiri)</hi> Ongi etorri jaun auzapeza. Etxean ontsa zaizte beti?</p>
+<p>-f-<hi rend='Bold'>ERREMUNDEGI:</hi> Badugu osasuna I&ntilde;axi, eskermilla anitz, eta zuek?</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Gu ere azkar gaude Jainkoari esker. Ezta gutti. <hi rend='Italic'>(Pitxar bat ur, ontzi ta azpilla Erremundegiri aintzinean ezarriaz)</hi> Emen duzu ur frexkoa. Alabak erran bait nau egarrituxea eldua zinela.</p>
+<p>-f-<hi rend='Bold'>ERREMUNDEGI:</hi> Hunela da ba <hi rend='Italic'>(Edanez)</hi> Ederki sartzen da. Izardituaz geroz ez da au ainbatekorik.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Bada ortarik ausarki, iturria idortu deino. Ez da kario. Gogo baduzu geiago edan? Arno ala sagarnotarik?</p>
+<p>-f-<hi rend='Bold'>ERREMUNDEGI:</hi> Aski dut oraikotz. Geroxeago. Ez da geiegi edatea komeni.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Nahi duzun bezala. <hi rend='Italic'>(Mugazainai begiratuaz)</hi> Badakizu Zugarramurdiarrak emen ditugula?</p>
+<p>-f-<hi rend='Bold'>ERREMUNDEGI:</hi> Badakit ba.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Hekien antzinean ezin gira mintzo altoki bainan... or barnean daude Aranttipi jauna eta... <hi rend='Italic'>(Isilago)</hi> Batixta.</p>
+<p>-f-<hi rend='Bold'>ERREMUNDEGI:</hi> Gizon orrek galdu behar gaitu. Atxeman dezaten al dabil edo zer?</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Ori erraten diot nik: karabineroak inguruan, mugazainak urbil, buruzagiak etxe barnean eta bera emen geldi. Etxetiarrentako ere ertsura gaitza baita.</p>
+<p>-f-<hi rend='Bold'>ERREMUNDEGI:</hi> Haatik mugazainak leenbaitlen igortzerat noa, bertzenaz...</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Doazila ba Arretxolako bizkarrerat. Hori ontsa. Karabineroak an baitire aspaldixko. <hi rend='Italic'>(Mintzatzen jarrai bezate bertze ertzean Marixume eta mugazainak diardurlarik)</hi>.</p>
+<p>-f-<hi rend='Bold'>II MUGAZAINA:</hi> Ardi gasna au arras ona da. Etxean egina duzue?</p>
+<p>-f-<hi rend='Bold'>MARIXUME:</hi> Bai jauna, ba. Jan zazue geiago, ez da gasnik falta gure etxean.</p>
+<p>-f-<hi rend='Bold'>I MUGAZAINA: </hi><hi rend='Italic'>(Puska bat lagunari eskeniaz)</hi>. <foreign>C'est pas mal ce petit fromage. En veux-tu davantage?</foreign></p>
+<p>-f-<hi rend='Bold'>II MUGAZAINA: </hi><foreign>C'est pas &laquo;m&eacute;chant&raquo;, je l'accepte. On ne mange pas du pareil tous les jours, m&ecirc;me chez nous en Auvergne o&ugrave; il y a du bon fromage et des belles filles.</foreign></p>
+<p>-f-<hi rend='Bold'>I MUGAZAINA: </hi><hi rend='Italic'>(Irriz)</hi>. <foreign>Les Auvergnates ne valent pas cette Basquaise.</foreign></p>
+<p>-f-<hi rend='Bold'>II MUGAZAINA: </hi><foreign>Pour &ccedil;a, c'est question de go&ucirc;t, tu sais.</foreign></p>
+<p>-f-<hi rend='Bold'>I MUGAZAINA:</hi> Atsegin zaizu gaskoin bau, Marixume?</p>
+<p>-f-<hi rend='Bold'>MARIXUME:</hi> Ez dut orren beharrik, onetako aina bait baitut emen.</p>
+<p>-f-<hi rend='Bold'>II MUGAZAINA: </hi><hi rend='Italic'>(Marixumeri begiretuaz)</hi>. <foreign>Qu'est-ce que vous d&eacute;bitez?</foreign></p>
+<p>-f-<hi rend='Bold'>I MUGAZAINA: </hi><foreign>Elle dit qu'elle est contente de son fianc&eacute;.</foreign></p>
+<p>-f-<hi rend='Bold'>II MUGAZAINA: </hi><foreign>Mais tant mieux. Nous allons boire &agrave; leur sant&eacute;. </foreign><hi rend='Italic'>(Edanez)</hi>. <foreign>A la v&ocirc;tre.</foreign></p>
+<p>-f-<hi rend='Bold'>ERREMUNDEGI: </hi><hi rend='Italic'>(Mugazainei)</hi> Pausatu bazaizte bideari berriz lotzeko sasoina da.</p>
+<p>-f-<hi rend='Bold'>ERREMUNDEGI: </hi><hi rend='Italic'>(Jarrai)</hi> Karabineroak Arretxolako bizkarrean dauzkagu zai.</p>
+<p>-f-<hi rend='Bold'>I MUGAZAINA:</hi> Azken tragoa egiten ari giren jaun auzapeza. Bagoazi. <hi rend='Italic'>(Jeikiaz) (Lagunari)</hi>. <foreign>Ecoute. On va partir puisque les carabineros nous attendent au col.</foreign></p>
+<p>-f-<hi rend='Bold'>II MUGAZAINA: </hi><foreign>En marche donc. </foreign><hi rend='Italic'>(Zutiturik)</hi>. <foreign>Il ne faut pas que les Fran&ccedil;ais attendent. La ponctualit&eacute; est la plus n&eacute;cessaire des politesses; une vertu militaire </foreign><hi rend='Italic'>(Doalarik)</hi>. <foreign>Allons-y..</foreign></p>
+<p>-f-<hi rend='Bold'>I MUGAZAINA: </hi><foreign>Et la gratitude la premi&egrave;re de toutes... Pour &ccedil;a n'oublions pas de remercier pour le petit d&eacute;jeuner qu'on nous a offert dans cette maison. </foreign>Milleaker anitz, etxekoak. Sarri artio.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Aipatzea ere. Ez da fitxik. Bazoazi trankil.</p>
+<p>-f-<hi rend='Bold'>II MUGAZAINA: </hi><foreign>&Ccedil;a bien entendu nos remerciements, mesdames. </foreign><hi rend='Italic'>(Auzapezari) </hi><foreign>Au revoir, monsieur.</foreign></p>
+<p>-f-<hi rend='Bold'>ERREMUNDEGI: </hi><foreign>A tout &agrave; l'heure, j'irai vous rencontrer tout de suite.</foreign></p>
+<p>-f-<hi rend='Bold'>I MUGAZAINA:</hi> Emen geldi nahi badu ere eginen dugu itzulia. <hi rend='Italic'>(Abiatuaz)</hi>.</p>
+<p>-f-<hi rend='Bold'>ERREMUNDEGI:</hi> Gerora ikusi behar...</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Etorkizuna ez baita gure.</p>
+<p>-f-<hi rend='Bold'>MARIXUME:</hi> Agur jaunak <hi rend='Italic'>(Doaz mugazainak)</hi>:</p>
+<p><hi rend='Bold'>ZAZPIGARREN AGERRALDIA</hi></p>
+<p><hi rend='Italic'>I&ntilde;axi, Marixume eta Erremamdegi</hi></p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Abitu direnean ez naiz asarre. Ezpadituzte haatik bide hekietan gure gizonak kausitzen. Ez zuen bart arratsean pusken bila ateratu behar egun zer zen jakinik.</p>
+<p>-f-<hi rend='Bold'>ERREMUNDEGI:</hi> Hortarat usatuak daude. Zer nauzu laister itzultzen al dire.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Aspaldixko behar zuten emen. Bizkitartean Batixta agertu da gure Mixel nunbeit galdurik utzirik. Hori egiten du orrek. Bera etor irabaziak beretako ta mutilak mendirako.</p>
+<p>-f-<hi rend='Bold'>ERREMUNDEGI:</hi> Ez dire urrun izanen. Geiegi maite bait ditu mutilak eta puskak hunela nulanai galtzen uzteko. Esku zabal da ta bere burua bezenbat maite du bertzeena.</p>
+<p>-f-<hi rend='Bold'>MARIXUME:</hi> Ama, sobera ezagutzen duzu Batixta, leial jokatzen duela jakiteko.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI: </hi><hi rend='Italic'>(Urduri)</hi>. Zu zaude ixilik, baduzu lan etxe atadi au txukuntzen. Gainera lur-sagar batzuek oraino zuri beharrak dituzu, eta baratzetik txilar batzuek atzematen. Eta... bidenabar erran zaiezu barnekoei mugazainak aina dirala.</p>
+<p>-f-<hi rend='Bold'>MARIXUME:</hi> Bai, ama. Bainan ez egon kezketan. Ez alferretan naigabetu. Guzia antolatzen al da garaiz. <hi rend='Italic'>(Bonbil, azpilgasna ta abar barnerat bitza)</hi>.</p>
+<p>-f-<hi rend='Bold'>ERREMUNDEGI:</hi> Hunelako alabaz baduzu laguntza ederrik I&ntilde;axi. Pausa gaitezke.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Ez uste, badago denontzako lan: sukaldean dela, garbiketan baratzean sorroan. Egia aitortu behar dizut jaun auzapeza. Kontrabandoaren kariaz, gure gizonek estakuru, mestakuru etxe lan larrienak doi doi egiten dituztela. Orobat emen eta beste Sarako bordetan. Eta sos batzuek irabazteagatik mendia kurrituaz, irrixku artean, urrats latzgarrietan, zenbait ez ote ditugu galtzen gure eremuak behar bezela ez artatuz.</p>
+<p>-f-<hi rend='Bold'>ERREMUNDEGI:</hi> Hori bera erraten ari nauzu aspaldian eta ez naute aintzakotzat artzen eta damurik mendia ari da laborantza gainditzen othe ta sasiz. Nik ez dakit kontrabandisten gorde leku ala...</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Zuzen mintzatzen zira, onela diot nik ere ene gogoari bainan bertzalde ain mozkin urria ematen du lurrak eta lana ain da gogorra, zerbeit behar gure bizia arintzeko eta ustegabean sos batzuek irabazteko.</p>
+<p>-f-<hi rend='Bold'>ERREMUNDEGI:</hi> Kisua ta ongarria obe litzake lurrarentzako kontrabandoa baino.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Hau ez bait dugu nagusiekin erdibana behar. Ezagun da ez zirela maister. Bakoitzak daki nula emendatu etxea. Nere jauna ager baledi beiak bazkatzera igortzen al nuke, lehenik eta gero...</p>
+<p>-f-<hi rend='Bold'>ERREMUNDEGI:</hi> Hori ere ez. Ez zazu leher araz senarra.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Merezi baitu ez delakotz tenorez itzuli.</p>
+<p>-f-<hi rend='Bold'>ERREMUNDEGI:</hi> Ez duzu, naski, alargun geldi nahi?</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Jainkoak nauzan errukarri. Zinak eta minak eta bortz kalapita ikusi behar baditut ere ene senarrarekin izan ditezela. Gaisoa.</p>
+<p>-f-<hi rend='Bold'>ERREMUNDEGI:</hi> Marixumek ere ekartzen al dizute laister etxerat indar berria. Amatxi izateko gogotan ote zaudentz.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Laisterregi zoazi.</p>
+<p><hi rend='Bold'>ZORTZIGARREN AGERRALDIA</hi></p>
+<p><hi rend='Italic'>Lehengoak, Arantipi ta Batixta</hi></p>
+<p>-f-<hi rend='Bold'>ARANTIPI: </hi><hi rend='Italic'>(Agertuaz eta agurtuaz)</hi> Nola zaude Erremundegibehere?</p>
+<p>-f-<hi rend='Bold'>ERREMUNDEGI:</hi> Nere izena errateko behar da lehenik gosaldu. Ontsa millesker. Eta zu Arantipi?</p>
+<p>-f-<hi rend='Bold'>ARANTIPI:</hi> Hori ere egina dugu. <hi rend='Italic'>(Eskua estutuaz)</hi> Arras ongi, zuei begiratzen saratarrek astia saltzen baituzue.</p>
+<p>-f-<hi rend='Bold'>ERREMUNDEGI:</hi> Eta sorgin errikoek erosten. Sara eta Zugarramurdi: Erri biek elgarren begira daude eta adiskide bizitzeko sortuak dire. Ezta hunela, Batixta? <hi rend='Italic'>(Bigak solasean darraite)</hi>.</p>
+<p>-f-<hi rend='Bold'>BATIXTA:</hi> Ba, mugarik ezpalitz.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Zuri mugazainengatik zaizu axola ta ez mugarengatik.</p>
+<p>-f-<hi rend='Bold'>BATIXTA:</hi> Ezta andrearengatik; ere ez bai dut!</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Ezkondu izan bazinauzten fini zenduen kontrabandoa, eta gure etxean ere bake geiago genukean.</p>
+<p>-f-<hi rend='Bold'>BATIXTA:</hi> To, zure jauna xeede hekietan badabila zer nahuzu?</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Bai; oren huntako etxean behar zuen. Goiz erdi. Ahalkegarri baita egun argiz urhats hekietan nehork ikustea. Eta guttiago erri buruzagiek emen direlarik. Gauez ez duzue aski ehia.</p>
+<p>-f-<hi rend='Bold'>BATIXTA:</hi> Zu, Marixume. Ezkon aitzina antola itzatzu zure maitearekin xehetasun eta goiti beihiti oro. Zer orenetan gibelaraz behar diozun mendirat gatea. Egunez ala gauez dela; ilargi berritan ala betean... Bertzenaz asarretzen ahal zaizte usu.</p>
+<p>-f-<hi rend='Bold'>MARIXUME:</hi> Ene aitak aizu duana ez diot senargeiari eragozten al. Ez gerorat ezkonduz geroz ere.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Obe duzu ba bethi mutilzar geldi. Alferretan mintzatzen ari naiz. Noan.</p>
+<p>-f-<hi rend='Bold'>ARANTIPI: </hi><hi rend='Italic'>(Batixtari urbilduaz)</hi> Andrerik ez duzunez, Batixta, kontuen artzeko gu la&ntilde;oki mintza behar gira elgarrekin. Badakizu zertako.</p>
+<p>-f-<hi rend='Bold'>BATIXTA:</hi> Orai da zuen txanda? Asi ba.</p>
+<p>-f-<hi rend='Bold'>ERREMUNDEGI:</hi> Obe litake gehi ortaz bideari lotuz jardukitzea.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI: </hi><hi rend='Italic'>(Marixumerekin etxe barnerat doazelarik)</hi> Uzten zaituegu libroki rnintzatzen, bai baitugu atxiki a&ntilde;a lan barne ortan. Gauza bat galdetzen dizuet: ethor zaiztela tenorez bazkaritarako eguardi-eguarditan. Ordurako ene jauna ere etxeratua izanen ahal da.</p>
+<p>-f-<hi rend='Bold'>ARANTIPI:</hi> Hazkurri orenerako denak izanen gira emen prestu-prestu. Baita saratarrak ere.</p>
+<p>-f-<hi rend='Bold'>ERREMUNDEGI:</hi> Beharrik.</p>
+<p>-f-<hi rend='Bold'>BATIXTA:</hi> Txerri goseak ezkurra amets.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Bazoazi &laquo;muthil zaharra kanporat eta oilo zaharra etxerat&raquo;. Sarri artio.</p>
+<p>-f-<hi rend='Bold'>ERREMUNDEGI:</hi> Arantipi... <hi rend='Italic'>(Irriz)</hi> Hori, hori.</p>
+<p>-f-<hi rend='Bold'>BATIXTA:</hi> Zuentako. Nik aski dut salda.</p>
+<p><hi rend='Bold'>BEDERATZIGARREN AGERRALDIA</hi></p>
+<p><hi rend='Italic'>Arantipi, Erremundegi ta Batixta</hi></p>
+<p>-f-<hi rend='Bold'>ARANTIPI:</hi> Errazu, Batixta, orai ere falta dire bazterretan nik ez dakit zenbat zikiro, behor; eta hazienda hekion buruz buru urhats alferrik ez dezagun egin, behar diguzu aitor itzul-inguru guztiak. Naparroko Diputazioneak erri aziendak lerroz-lerro agertzeko agindua eman baitigu.</p>
+<p>-f-<hi rend='Bold'>BATIXTA:</hi> Dakienak daki...</p>
+<p>-f-<hi rend='Bold'>ERREMUNDEGI:</hi> Jaun prefetak gauza bera manu digu: kadastroen egitea. Eta ez dugu xehetasun garbirik atheratzen ahal zuek abereak batetik bertzera baimenik gabe dabilzkitzuelarik.</p>
+<p>-f-<hi rend='Bold'>BATIXTA:</hi> Hala da, jaunak. Aurten belar guttisko baita eta azienda berez-ber larre berrien bila dabil. Zer nauzue, muga guzian ez bait diteke ezarri itxiturik.</p>
+<p>-f-<hi rend='Bold'>ARANTIPI:</hi> Ba guk azienda ori bahitzeko agindua dugu. Onez onean erraten dizut, bertzenaz...</p>
+<p>-f-<hi rend='Bold'>BATIXTA:</hi> Ez naiz bakarrik izanen. Nasaiki gire erri bietan mugalariak... muga ohoinak nai baduzue. Agian erriko handi-mandi eta buruzagietarik. Orobarne. Eha baden nehor ez duanik egin kontrabandorik.</p>
+<p>-f-<hi rend='Bold'>ARANTIPI:</hi> Ezta ori auzia. Zoritzarrik danori gerta ez dakigun ordea, aginduak bete ditzagun.</p>
+<p>-f-<hi rend='Bold'>ERREMUNDEGI:</hi> Mugazain eta karabineroak urbil dire gainera ta atxeman zinukete. Hobe duzu ikus ez zaitzaten.</p>
+<p>-f-<hi rend='Bold'>BATIXTA:</hi> Lehenago ikus baititut heik ni bai&ntilde;o. Damurik ez naiz gazte. Haatik aski zalhui naiz oraino eta eskualdun gaskoinen eskuetan ez erortzeko. Naiz egun sei oreneko bidean ibilia banaiz.</p>
+<p>-f-<hi rend='Bold'>ARANTIPI:</hi> Beha, Batixta. Ez gatozkitzu zelatari bezala, adiskidetik adiskiderat mintzatzerat baizik. Asarretzeke zer nulak antola ditezkela uste baitugu. Zuri buruz erran-merranak badabiltza. Guk ez jakin iduri egiten dugu. Ez gire aietaz jabetzen.</p>
+<p>-f-<hi rend='Bold'>BATIXTA:</hi> Ez nik ere ez ditut sinesten entzundako guziak. Ez ditut ba ordaintzen petxa, zerga eta kontribuzione oro? Bada mandoa lehertzeko a&ntilde;a zama. Hortik landa zer zaie axola mihi-zorrotxai nundik norat hikiltzen naizen? Nerea da nekea ez bere.</p>
+<p>-f-<hi rend='Bold'>ERREMUNDEGI:</hi> Eta zureak irabazi osoak. Nola nai den errien kastu eta kargak gainditzen doaz bethi. Gobernamenduak dirua geroz eta geiago galdetzen dauku eta nunbait sortu behar.</p>
+<p>-f-<hi rend='Bold'>ARANTIPI:</hi> Eta egunetik egunerat gure errietan azienda guttiagotzen, paperean bederen...</p>
+<p>-f-<hi rend='Bold'>ERREMUNDEGI:</hi> Mugan galtzen baitira.</p>
+<p>-f-<hi rend='Bold'>BATIXTA:</hi> Jakina artaldeak ez ohi dira paperez bazkatzen eta bai larra janez mendian. Bada anhitz mutil iri handietako bulegotan. Ethor daitezela eremuz-eremu azienda buruen kondatzea. Ikhus nahi nituke mendi pattar gora lehertzen, gure bizkar jaten bizi baitira. Ez da aski muga paperetan ematea.</p>
+<p>-f-<hi rend='Bold'>ERREMUNDEGI:</hi> Gure Biltzar zaharra balitz nagusi lehen bezala, ez litake hori gertatzen ahal, bainan hura izan zanez geroz ez dezakegu haren zai astia gal.</p>
+<p>-f-<hi rend='Bold'>BATIXTA:</hi> Ez, ez; ni Mixelen begira nago, or konpon gainerakoak. Enetako puska baliosak bait dakarzki ez nituzke mendi bazterrean utzi nahi; Mugan geldi behar dut finkatua hekiek eskura ditude&ntilde;o. Luzeitzirik nago.</p>
+<p>-f-<hi rend='Bold'>ARANTIPI:</hi> Hala delarik eta lasago egon zaitezen bakarrik uzten zaitugu. Gu Arretxaldeko leporat berma bearrean gira lekuko izaterat: eta lehenbaitlehen gatea obe. Itzulitakoan ukhanen ahal dugu gogo bezenbat asti elgarrekin mintzatzeko.</p>
+<p>-f-<hi rend='Bold'>ERREMUNDEGI:</hi> Bagoazi ba orduan.</p>
+<p>-f-<hi rend='Bold'>ARANTIPI: </hi><hi rend='Italic'>(Batixtari)</hi> Bazkaltzen emen izainen zira naski?</p>
+<p>-f-<hi rend='Bold'>BATIXTA:</hi> Ez dakit ba. Etxekandreak eskeintzen badit bazkari eta mugazainak ez badaute gibelarazten ez nuke bertze ostaturik gutizi.</p>
+<p>-f-<hi rend='Bold'>ERREMUNDEGI:</hi> Aldi batetik zuretako ama jaki izainen da eta... bertzeak ez zaitue izitzen loa eta gosea kentzeraino.</p>
+<p>-f-<hi rend='Bold'>ARANTIPI:</hi> Huntan malurik gerta ez dakion, bataezpada, on degu bizkarrerat igotea. Mugazain eta karabineroak andik aizatzen ahal ditugu. Oren baten buruan egina dugu itzulia. <hi rend='Italic'>(Gan-jina)</hi> eta bazkal ondoan jarraitzen ahal dugu solasa aspertu ala.</p>
+<p>-f-<hi rend='Bold'>BATIXTA:</hi> Ederki, ni bizkitartean etxe gibeleko iratze multzuan etziterat noa. Ehia lokartzen nauen. Loa gozo baita logale denean; eta jan edana ez denean ase...</p>
+<p>-f-<hi rend='Bold'>ERREMUNDEGI:</hi> A zu. Piztien arabera da ori.</p>
+<p>-f-<hi rend='Bold'>BATIXTA:</hi> Ba, eiki. Zikiroak maite dute eguerdi aitzineko lo kuluxka eta noiz nai bazka lodia. <hi rend='Italic'>(Doalarik nagiak ateriaz)</hi> Noan oatzerat berant gabe. Agur jaunak.</p>
+<p>-f-<hi rend='Bold'>ARANTIPI:</hi> Sarri artio.</p>
+<p>-f-<hi rend='Bold'>ERREMUNDEGI:</hi> Gizonaren laxoa.</p>
+<p>-f-<hi rend='Bold'>ARANTIPI:</hi> Bagoazi. <hi rend='Italic'>(Batixta eskuta den lekurat burua itzuliaz eta beha).</hi> Alimale gaitza. Larre gizona. Are geiago: muga-gizona. Ez aute errez atzemaiten karrika aurrek.</p>
+<p>ZAPIA</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>BIGARREN EKITALDIA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Italic'>(Lehen ekitaldiko agerkai bera)</hi></p>
+<p><hi rend='Bold'>LEHEN AGERRALDIA</hi></p>
+<p><hi rend='Italic'>Koxejuan eta Marixume</hi></p>
+<p><hi rend='Italic'>(Koxejuan laisterka dator, izerditan hatsa larri; Marixume etxe atadian dagolarik).</hi></p>
+<p>-f-<hi rend='Bold'>MARIXUME:</hi> Zer duzu ain ertsi eldutzeko? igesi zatoz eta nola; gaisoa. Zerbait gerta zaizue? Nun geldi da aita?</p>
+<p>-f-<hi rend='Bold'>KOXEJUAN:</hi> Utz zadazu artzen atsa. Ez dauzut galde guziai, batean, jardesten ahal. Itzulia egin dugu beinik bein... eta zu ikusteak bozkariatzen nau.</p>
+<p>-f-<hi rend='Bold'>MARIXUME:</hi> Baita ni ere, erran gabe doa. Pausa zaite ba Koxejuan eta gero asetzen ahal duzu nere jakin mina.</p>
+<p>-f-<hi rend='Bold'>KOXEJUAN: </hi><hi rend='Italic'>(Hatsa arturik)</hi>. Ehia ezin nintzan mintza. Orai bihurtzen hasi zaut abotsa, Marixume.</p>
+<p>-f-<hi rend='Bold'>MARIXUME:</hi> Entzuteko kilikan naukazu. Erran, erran. Mugazainak mendi gora ikusi ditudalarik beldur bait nintzan, buruz buru ez ote zenuen eginen.</p>
+<p>-f-<hi rend='Bold'>KOXEJUAN:</hi> Ixo. <hi rend='Italic'>(Etxerat behatuaz)</hi>. Ez ditzala zure amak entzun gure abotsak.</p>
+<p>-f-<hi rend='Bold'>MARIXUME:</hi> Or dabil baratzean baztanarriak atxematen.</p>
+<p>-f-<hi rend='Bold'>KOXEJUAN:</hi> Bazenakien orduan mugazainak emengo aldi zabiltzala.</p>
+<p>-f-<hi rend='Bold'>MARIXUME:</hi> Nik ala uste. Badea oren biga gibeleko iratz multsotan lotan, zurrungan dagoala.</p>
+<p>-f-<hi rend='Bold'>KOXEJUAN:</hi> E? ez da deithogarri? Beitu zazu. Eldua da ordea?</p>
+<p>-f-<hi rend='Bold'>MARIXUME:</hi> Ba aspaldisko. Or da or. <hi rend='Italic'>(Nun dagon erhiaz sinalaturik)</hi>.</p>
+<p>-f-<hi rend='Bold'>KOXEJUAN:</hi> Ba elgarrekin lotu behar dugu berriz mendira. Ark baitaki ondoenik lekuen berri.</p>
+<p>-f-<hi rend='Bold'>MARIXUME:</hi> Etzinda loak artzeko hauta duena ez da ba obenetarik.</p>
+<p>-f-<hi rend='Bold'>KOXEJUAN:</hi> Beharra eragille handi.</p>
+<p>-f-<hi rend='Bold'>MARIXUME:</hi> Noan iratzartzerat... <hi rend='Italic'>(Amultsuki begiratuaz)</hi>.</p>
+<p>-f-<hi rend='Bold'>KOXEJUAN: </hi><hi rend='Italic'>(Orobat)</hi>. Noiz eltzen ahal da iratzarriko nauzun eguna.</p>
+<p><hi rend='Bold'>BIGARREN AGERRALDIA</hi></p>
+<p><hi rend='Italic'>Lehengoak eta Batixta</hi></p>
+<p>-f-<hi rend='Bold'>BATIXTA: </hi><hi rend='Italic'>(Sarturik)</hi>. Ez duzue igi beharrik, emen nauzue, zuen arrabotsa nabaitu bait dut eta baita ere ezagun Koxejuaneren boza. Ikusia dago egun ezin lo egin daitekela trankil. Ta zer gerta zaizue jada?</p>
+<p>-f-<hi rend='Bold'>KOXEJUAN:</hi> Ba deus handirik: goitik gentozelarik karabineroekin behaztopo egin dugula; behitik lotu gira ta mugazainekin berritz. Ehia zarra gaituzte ederki. Eskerrak barreiatu girala mandoak alde batetik, gu bertzetik. Eta puskak an nunbeit...</p>
+<p>-f-<hi rend='Bold'>BATIXTA:</hi> Ai, ai, ai. Eta Mixel bakarrik utzita eldu zira? Eta aren alaba nahi duzu andretzat? Marixume, ez dauzu ohore handirik biurtzen.</p>
+<p>-f-<hi rend='Bold'>MARIXUME:</hi> Zurea da obena, bera laguntza bila etorri zaigu, egin ahaletan eta biok gan bear duzue gure aita mugazainen eskuetan eror ez dedin. Ahalkegarri litake.</p>
+<p>-f-<hi rend='Bold'>KOXEJUAN:</hi> Ni eldu naiz ez lotsaz igesi, baizik zu gaztigatzerat. Egun batez behar eta...</p>
+<p>-f-<hi rend='Bold'>BATIXTA:</hi> Ahalkegarri ezik kaltegarri litake. Mixel ez dute mugazainek atxemanen, bai zera! Badaki nundik ibil, eta haren laguntzera gaten ahal gira errezki. Bainan puskak galdu balin badituzue bertzerik da.</p>
+<p>-f-<hi rend='Bold'>MARIXUME:</hi> Hori da. Puskak maitezenago dituzue presunak baino. Ea irurok atzemaiten zaituzten.</p>
+<p>-f-<hi rend='Bold'>BATIXTA:</hi> Ez ukhan ardura, Marixume, zure maitea, aita ta ni orok osorik itzultzen ahal gire. Mugazainak ere geiago maite baitituzte puska baliosak gu baino, eta naski haiei jarraikitzen. Bagoazi lako <hi rend='Italic'>(Koxejuaneri)</hi>. Zer aldetarat jo du?</p>
+<p>-f-<hi rend='Bold'>KOXEJUAN:</hi> Arretxilako erreka behitik an izainen da sasipean.</p>
+<p>-f-<hi rend='Bold'>BATIXTA:</hi> Ez da urrun, laister emen dire. Hortzez ala aginez.</p>
+<p>-f-<hi rend='Bold'>MARIXUME:</hi> A, gaisoa. Emen geldituak baitire arno xorta bat edaten. Bainan ez dauzu errepikatzen nola eldu ziran bakar bakarra. Nun utzia duzun aita.</p>
+<p>-f-<hi rend='Bold'>KOXEJUAN:</hi> Ba karabineroekin behaztopo egin dugu usategietako oianerat eldu girelarik. Io dugu errekarat, eta no, an berritz mugazainak zaizkigu ageri. Bakoitza bere aldetik sakabanatu gira, puskak galdurik, soka ausiaz; eta azkenik ez dakit nere lagunak noruntz artu duten. Zure aita sasipe batean gorde dela uste dut. Ni gibelxeagon geldi naiz pusken gordetzen eta karabineroak urbildu direlarik laisterka abitu naiz, kurri. Eta nere zango arinai esker emen nauzu finki.</p>
+<p>-f-<hi rend='Bold'>MARIXUME:</hi> Zer irriskuetan ematen zaituen zuen balentriak. Gure aita ez dago hunela ibiltzeko adinean. Hobe duzue utzi muga erra-goiti jadura-behitia. Bertzenaz egun batean presondegirat eramaten al zaitue.</p>
+<p>-f-<hi rend='Bold'>KOXEJUAN:</hi> Ez da errez gu atxematen salatarien bat ez badugu barne. Egun ere mugazain eta karabinero, bietarik gure begira; sareak eda eta guk ega halaz guziaz.</p>
+<p>-f-<hi rend='Bold'>MARIXUME:</hi> Lumak utzirik guzia berant zabiltzatelakotz.</p>
+<p>-f-<hi rend='Bold'>KOXEJUAN:</hi> Egia diozu: eguna artitzeko behar ginuen etxean, bainan Espainiako txabola batean, Batixtaren mutil bati lau oren begira egonak gaituzu eta ark nahasi bidaia.</p>
+<p>-f-<hi rend='Bold'>MARIXUME:</hi> Ezkon gaitezenean ez dauzut utziko hunela kurritzen, tiroren batek ez zaitzan gal.</p>
+<p>-f-<hi rend='Bold'>KOXEJUAN:</hi> Ez, orduan zure baitan egoten al naiz beti, zuk arthatuko nauzu eta nik zu maiteko.</p>
+<p>-f-<hi rend='Bold'>MARIXUME: </hi><hi rend='Italic'>(Eztiki)</hi>. Orai erraten duzu ori, esposatuz geroz ordea gizon guziek lehen lepotik burua. Emazteki gaisoak etxean pairamenak jasaiten.</p>
+<p>-f-<hi rend='Bold'>KOXEJUAN:</hi> Eta ni laguntzen ahal bezenbat. Haatik uste dut muga barnerat etxerako pusken ekartzea utziko nauzula. Nola lakhet bertzenaz... Gainera zer nahi gauza emen eros ala Nafarroan badago aldea: anitz sosen irabazia. Inoiz eskeintzen dauzut jantzi baten egiteko ohial ederra, setazko txingol, galtzerdi, oinetako, arno goxoetarik eta bertze...</p>
+<p>-f-<hi rend='Bold'>MARIXUME:</hi> Horrek pozkariatzen nau, bainan bertzalde zenbat hertsura ta lotsa. Badirudi aristiko istripua ahantzi zaizuala eta gure aita doakabea sasipean apal-apal gaisoa.</p>
+<p>-f-<hi rend='Bold'>KOXEJUAN:</hi> Hori ez da deusik ere. Pausan dago eta laister laguntzen ahal dugu handik ateratzen.</p>
+<p>-f-<hi rend='Bold'>MARIXUME:</hi> Amak ukhanen du atsekabea jakitean.</p>
+<p>-f-<hi rend='Bold'>KOXEJUAN:</hi> Ez bait zaio erran behar; aski da guk jakitea ta Batixta gure aintzindariak. Hau eldu dadinean eta urbilxea othe denz nago...</p>
+<p><hi rend='Bold'>IRUGARREN AGERRALDIA</hi></p>
+<p><hi rend='Italic'>Lehengoak eta I&ntilde;axi.</hi></p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI: </hi><hi rend='Italic'>(Iziturik)</hi> Norat zoazi? Zu emen Koxejuan, nun da Mixel? Zer da hau.</p>
+<p>-f-<hi rend='Bold'>KOXEJUAN:</hi> Elduki andre, Mixel ere bidean da ta orai goazkio bila.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Ba, au ez da hunela ibiltzeko sasoina, ea eguardi. Bide guziak mugazainez beterik daudela, auzapez eta bertze aintzindariak inguru hekietan begira dabiltzalarik.</p>
+<p>-f-<hi rend='Bold'>BATIXTA:</hi> Ez arrenkura, zure jaunak orduan eta obeki baidaki bide ta bidexkak iragaiten, ortakotz da mugatiar.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Nun othe gaisoa?</p>
+<p>-f-<hi rend='Bold'>KOXEJUAN:</hi> Urbil osoki, pusken zaintzen; eta mugazainak mendi masail onetan daude&ntilde;o bertzaldera laguntzerat gan behar gatzaio lehenbai-lehen guzia etxeratzeko.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Ez bazenuten astirik bidean gal aspaldian behar zenuten emen. Deus egiteko gogoak kendu dauzkidazue.</p>
+<p>-f-<hi rend='Bold'>BATIXTA:</hi> Egon lorietan, I&ntilde;axi; eman or bazkari maniatzen, goserik itzultzen al gira Mixel eta puskak barne. Laister gainera.</p>
+<p>-f- Ez du balio linburtzeak. <hi rend='Italic'>(Gogoeta eginez)</hi>. To, asmo bat, hoberenetarik burura zaut. Marixume, aitaren zizpa etxean ikhanen duzue naski?</p>
+<p>-f-<hi rend='Bold'>MARIXUME:</hi> Ba, or da nunbeit, supazterrean zintzilika.</p>
+<p>-f-<hi rend='Bold'>BATIXTA:</hi> Ekhar zadazu othoi. Enia fite <hi rend='Italic'>(Gaisoa)</hi>.</p>
+<p>-f-<hi rend='Bold'>MARIXUME:</hi> Banoazu bila <hi rend='Italic'>(Doalarik)</hi>.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Zertako duzu zizpa ordea? Ixtripu baten emateko? Obe duzu esku utsik gan. Irrisku guttiago, arma lagun txarra mugarako.</p>
+<p>-f-<hi rend='Bold'>BATIXTA:</hi> Ez andre, bataezpada erbiren batek jausi egiten badauku on da zizpa eskuan eramatea.</p>
+<p>-f-<hi rend='Bold'>KOXEJUAN:</hi> Eizariak ba baitu beti herra. Ezagun da usategietako abatari zerala. Egun ahantzi behar dituzu uso ta sareak. Ez dago ego aizerik. Bertze piztiak dabiltza mendian.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Gure etxeko bildotx otxana atxeman nahiz. Gaiso Mixel.</p>
+<p>-f-<hi rend='Bold'>BATIXTA: </hi><hi rend='Italic'>(Marixume eltzen dela oarturik)</hi>. Orai ikusten ahal duzue iztari ona dela kontrabandista oberenik; uso abataria mugazain izitzale azkarrenik. <hi rend='Italic'>(Marixumerengaga ganez)</hi>. Emazu, eman zizpa ori.</p>
+<p>-f-<hi rend='Bold'>MARIXUME:</hi> Torizu, baita kartuxak ere. Ez dakit zertako baino.</p>
+<p>-f-<hi rend='Bold'>BATIXTA: </hi><hi rend='Italic'>(Zizpa kartuxak eskuan arturik kartuxa bat atxikiaz kanoinean sartu beza)</hi>. Milesker. Kasu orai. Ez izitu. Tiroa botatzerat noa <hi rend='Italic'>(Ohian alderat abiatuaz)</hi>. Ixo. Entzun.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Zertako oinbat espantu? Zer egiterat zoazi? Galduak gira.</p>
+<p>-f-<hi rend='Bold'>MARIXUME:</hi> Erotu zaigu. Ai ama. <hi rend='Italic'>(Eskuez begitartea estaliaz)</hi>.</p>
+<p>-f-<hi rend='Bold'>KOXEJUAN:</hi> Batixta. Gizona joku txarra da ori. Zaude geldi <hi rend='Italic'>(Geiago gabe Batixtak &laquo;su&raquo; egin du ta extanda entzun bedi)</hi> pu-u-u-m. <hi rend='Italic'>(Batean emaztekiek karrasi, ohiu egiten dute eta iziturik biltzen dire elkarrenganat. Gero unetxo batean guzia ixil)</hi>.</p>
+<p>-f-<hi rend='Bold'>BATIXTA: </hi><hi rend='Italic'>(Itzuliaz)</hi>. Ez beldurtu, ez da deus. Orai itxoin mendirat begira, zakurrak agertzen othe diren.</p>
+<p>-f-<hi rend='Bold'>KOXEJUAN:</hi> Bainan zer burutapenak har zaitu? Ez dut fitsik konprenitzen.</p>
+<p>-f-<hi rend='Bold'>BATIXTA:</hi> A gazte xalo ta xumea. Ez duzu ikasi oraino zure lagintzaren arabera. Ez dakizu aski dela leku batean harrabotsa ateratzea bertarat mugazai guziak eldu daitezen? Hunela bertze denak libro dire zernahitarako. Artalde osoa iragaiteko ere.</p>
+<p>-f-<hi rend='Bold'>KOXEJUAN:</hi> Zer bitxikeria.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Gaizki gaude orduan emen.</p>
+<p>-f-<hi rend='Bold'>BATIXTA:</hi> Tenorez ezkutatzen ahal gira, guardak eldu baino lehen.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Antsia badut barnen sartua, nere jauna tiroa entzunaz iziturik hilkitzen othe dez eta atxemainen dutela. Otxana baita.</p>
+<p>-f-<hi rend='Bold'>BATIXTA:</hi> Mixel ez da erbi ta bai azeri; badaki noiz zilotik hilki. Ehia Marixume, zoazi bide birhunda ortarat, norbeit nabaitzen duzun kasu egiterat <hi rend='Italic'>(Gaiztoz)</hi>. Beldurtzen bazera Koxejuanek lagun zaitzala.</p>
+<p>-f-<hi rend='Bold'>MARIXUME:</hi> Ez naiz beldurtzen, banoake bakarrik ere. Agian laister zuek izanen duzue laguntz beharra iges egiteko.</p>
+<p>-f-<hi rend='Bold'>KOXEJUAN:</hi> Gero ez dakit, bainan, orai laguntzako eskua ez al dauzu ukhatzen. Apur batto bederen. <hi rend='Italic'>(Ertzerano doaz bigak)</hi>.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Ez ordea astirik gal elheketan. Begira bethi aitzina, gaineko bide hortarat.</p>
+<p>-f-<hi rend='Bold'>MARIXUME:</hi> Bai, ama. &laquo;Txoko bia&raquo; ageri da garbiki.</p>
+<p>-f-<hi rend='Bold'>BATIXTA:</hi> Utz zaiezu gaisoai atsegin poxi bat ar dezaten. Ezpaitira nahi bezenbat elgarrekin egoten.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Ezkonduz geroz izanen dute astia maite minetan aspertzeko. Orai bertze aieruak lehendatzen du gure izangunea. Horrat jo behar dugu mugazainak etortzen direlarik? Zuk erran.</p>
+<p>-f-<hi rend='Bold'>BATIXTA:</hi> Zuen urhatsa jakina da: emaztekiak etxe barnerat bazkari maniatzera eta gu or nunbeit errefelaria antzo, pilota hundik datorren begira.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Joku txarra &laquo;kintzea&raquo; irabazteko.</p>
+<p>-f-<hi rend='Bold'>BATIXTA:</hi> Atxikitzen al dugu, muga gure baita. Bertzeak esperantza. <hi rend='Italic'>(Marixume ta Koxejuan elduki)</hi>,</p>
+<p>-f-<hi rend='Bold'>MARIXUME:</hi> Gaineko bidetik jende andana ibilki. Urbil dire.</p>
+<p>-f-<hi rend='Bold'>KOXEJUAN:</hi> Mugazainak dire. Ez zeuden urrun eta tirotsa entzunez laisterka alde huritatat datoz. Instantean ditugu emen.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI: </hi><hi rend='Italic'>(Iziturik)</hi> Eia egiten daukuten &laquo;pik&raquo;. Erraten nizun, Batixta, galduak ginela. Egun ez bazkari eta ez afari; ta ez banaiz gelditzen alargun. Ondamenaren handia; zuen liskarrak zertarat ekarri gaitun. Jautsapenik izan bazenuen. Ainhoako Arantza Andre dena Maria Birgina sainduak urrikal nazala. Aren kaperat bilutsik beilan gaten natzaiola agintzen baitut, eta zuek lekuko ontarik onik ateratzen bagaitu.</p>
+<p>-f-<hi rend='Bold'>BATIXTA:</hi> Guttiagorekin ere Arantzetako Ama Birginak laguntzen ahal zaitu. Hura ere mugatiarra baita. Badu gure berri. Bataezpada ordea sar zaitezte etxean ama-alabak.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Ene Jainkoa. Zato Marixume. Ez nigandik urrundu.</p>
+<p>-f-<hi rend='Bold'>MARIXUME:</hi> Goazen, ama. Emen nauzu, ez hunela lotsa. Zaude la&ntilde;oki. Ez dirudizu mugan sortua <hi rend='Italic'>(Etxerat sarturik)</hi>.</p>
+<p>-f-<hi rend='Bold'>KOXEJUAN:</hi> Egon lasai. Zer da ba hau? Zerbait galdegiten badautzue ez iardetsi; ez mintza geiegi. Ez da deus ere, tiroak izatu du.</p>
+<p>-f-<hi rend='Bold'>BATIXTA:</hi> Ark uxatuko ditu alaber mugazainak. Koxejuan, jo or eskubitik aitzina. Gero biltzen ahal gira berritz.</p>
+<p>-f-<hi rend='Bold'>KOXEJUAN:</hi> Nik ala uste, ez baita sortu erren mugan atxemaiten gaituen arrotzik <hi rend='Italic'>(Bioaz)</hi>.</p>
+<p><hi rend='Bold'>LAUGARREN AGERRALDIA</hi></p>
+<p><hi rend='Italic'>Mugazain eta Karabineroak</hi></p>
+<p>-e-<hi rend='Italic'>(Agertokia une batean nehor gabe. Bat batean espantuka karabinero eta mugazainak elduki).</hi></p>
+<p>-f-<hi rend='Bold'>I KARABINEROA: </hi><foreign>Por aqui ha sido el tiro </foreign><hi rend='Italic'>(Basterrak ikertuaz)</hi>. <foreign>Ah, pu&ntilde;eta. Si hubierra sido por el lado de Espa&ntilde;a nos lo iban a pagar </foreign><hi rend='Italic'>(Karabinero bigarrenari)</hi>. <foreign>Diselo a esos franxutes, para que lo sepan.</foreign></p>
+<p>-f-<hi rend='Bold'>II KARABINEROA: </hi><hi rend='Italic'>(Prantzera mordoiloz)</hi>. <foreign>&laquo;Ici on tir&eacute; le tiro&raquo;. En France, non en Espagne. Pas nous; c'est &agrave; vous de continuer le chemin. Nous, nous arr&ecirc;ter ici. Alto.</foreign></p>
+<p>-f-<hi rend='Bold'>II MUGAZAINA: </hi><foreign>&Ccedil;a ne nous regarde pas. A mon avis au contraire, la d&eacute;tonation est venue clairement de l'autre c&ocirc;t&eacute; de la fronti&egrave;re. Bref: du territoire espagnol. C'est votre juridiction, entendez? Alors...</foreign></p>
+<p>-f-<hi rend='Bold'>II KARABINEROA: </hi><foreign>Vous parlez... e, tr&egrave;s &laquo;serr&eacute;&raquo;. Je ne comprends pas.</foreign></p>
+<p>-f-<hi rend='Bold'>II MUGAZAINA: </hi><foreign>Moi, je parle fran&ccedil;ais, voil&agrave; tout. </foreign><hi rend='Italic'>(Mugazain lagunari) </hi><foreign>Explique-lui en espagnol.</foreign></p>
+<p>-f-<hi rend='Bold'>I MUGAZAINA: </hi><hi rend='Italic'>(Karabineroari)</hi>. <foreign>&laquo;Oiga tienes mala oreja&raquo;. El tiro haber venido de all&aacute;. Y los chicos &laquo;pasia&raquo; Zugarramurdi &laquo;espacar&raquo; han hecho...</foreign></p>
+<p>-f-<hi rend='Bold'>I KARABINEROA: </hi><foreign>Me lo va usted a decir a mi que soy el que de m&aacute;s cerca lo he oido y llevo treinta a&ntilde;os de servicio en el cuerpo...</foreign></p>
+<p>-f-<hi rend='Bold'>I MUGAZAINA: </hi><foreign>Tu cuerpo? y yo &laquo;m&aacute;s mejor <hi rend='Italic'>belarri&raquo;.</hi></foreign></p>
+<p>-f-<hi rend='Bold'>II KARABINEROA: </hi><hi rend='Italic'>(Lagunari)</hi>. <foreign>Con este &laquo;vascuence&raquo; es inutil discutir. Y nosotros no nos movemos de aqu&iacute; porque a ellos corresponde el servicio en esta zona en la que se han refugiado los &laquo;delizcuentes&raquo;. Nada m&aacute;s.</foreign></p>
+<p>-f-<hi rend='Bold'>II MUGAZAINA: </hi><hi rend='Italic'>(Lagunari) </hi><foreign>Qu'est-ce qu'il d&eacute;bite, lui?</foreign></p>
+<p>-f-<hi rend='Bold'>I MUGAZAINA: </hi><foreign>Rien du tout. Il dit &agrave; peu pr&egrave;s que c'est &agrave; nous de faire le service, parce que c'est de ce c&ocirc;t&eacute; que se sont enfuis les types. Ils veulent rester ici &agrave; manger &agrave; leur faim, voil&agrave; tout.</foreign></p>
+<p>-f-<hi rend='Bold'>II MUGAZAINA: </hi><foreign>Mais s'ils n'ont rien &agrave; faire, qu'ils s'en aillent du c&ocirc;t&eacute; espagnol o&ugrave; malgr&eacute; leurs dires a retenti le coup.</foreign></p>
+<p>-f-<hi rend='Bold'>I MUGAZAINA: </hi><foreign>Si aqu&iacute; no estar vuestro <hi rend='Italic'>&laquo;leku&raquo; </hi>porque no vais al otro lao de la muga?</foreign></p>
+<p>-f-<hi rend='Bold'>I KARABINEROA: </hi><hi rend='Italic'>(Asarre) </hi><foreign>Esa es la educaci&oacute;n francesa. A mi no me da lecciones ning&uacute;n gendarme. Valientes gabachos. </foreign><hi rend='Italic'>(Lagunari) </hi><foreign>Diselo as&iacute; clarito, al otro que es el jefe, y v&aacute;monos de aqu&iacute; cuanto antes.</foreign></p>
+<p>-f-<hi rend='Bold'>II KARABINEROA: </hi><hi rend='Italic'>(Damurik) </hi><foreign>Lastima de tiro. Si estos gendarmes llevasen fusil como nosotros ya hab&iacute;amos tumbado a media docena de contrabandistas. Pero como no tienen miedo de que les disparen, los muy pillos van aumentando de d&iacute;a en d&iacute;a.</foreign></p>
+<p>-f-<hi rend='Bold'>I KARABINEROA: </hi><foreign>D&eacute;jate de lamentos y al grano, Gutierrez, para que lo entiendan estos.</foreign></p>
+<p>-f-<hi rend='Bold'>II KARABINEROA: </hi><foreign>A eso voy. </foreign><hi rend='Italic'>(Mugazainari) </hi><foreign>&laquo;E vous, gendarmes. Nous savoir mieux que vous notre obligation et nous irons quand viendra la "gaine"&raquo;.</foreign></p>
+<p>-f-<hi rend='Bold'>II MUGAZAINA: </hi><foreign>Tiens, voil&agrave; de jolis mots. Enfin, on a compris quand m&ecirc;me. Bien s&ucirc;r, vous irez quand vous voudrez et o&ugrave; il vous plaira. Je n'ai rien &agrave; y voir... Mais, avec ces discussions entre autorit&eacute;s, les contrebandiers ont eu le temps de fixer le camp.</foreign></p>
+<p>-f-<hi rend='Bold'>I KARABINEROA: </hi><foreign>Basta de &laquo;xapurreaos&raquo;. Que hable en cristiano. Ya dar&eacute; cuenta al comandante del puesto de la novedad ocurrida. Diles que nos vamos Gutierrez. Nosotros no somos como los franceses.</foreign></p>
+<p>-f-<hi rend='Bold'>I MUGAZAINA: </hi><foreign>Por nosotros ya &laquo;poder&raquo; marchar a tu tierra.</foreign></p>
+<p>-f-<hi rend='Bold'>I KARABINEROA: </hi><hi rend='Italic'>(Zakar) </hi><foreign>Rediez. A usted nadie se lo pregunta. <hi rend='Italic'>(Lagunari)</hi> En marcha.</foreign></p>
+<p>-f-<hi rend='Bold'>II KARABINEROA: </hi><foreign>A la orden mi jefe. <hi rend='Italic'>(Gogo tzarrez eta berez-ber)</hi>. Maldita sea. Con lo bien que nos hubiera ca&iacute;do aqui el &laquo;amaiketako&raquo;.</foreign></p>
+<p>-f-<hi rend='Bold'>I KARABINEROA: </hi><hi rend='Italic'>(Abituaz) </hi><foreign>Buenos d&iacute;as.</foreign></p>
+<p>-f-<hi rend='Bold'>II KARABINEROA: </hi><hi rend='Italic'>(Gibeletik) </hi><foreign>Nous suivons notre chemin &agrave; Zugarramurdi. Au revoir messieurs.</foreign></p>
+<p>-f-<hi rend='Bold'>II MUGAZAINA: </hi><foreign>Bonjour messieurs. Nous allons suivre le n&ocirc;tre pour alerter au poste de la douane tous les hommes en service. Allons Elissamburu. Il faut se d&eacute;p&ecirc;cher.</foreign></p>
+<p>-f-<hi rend='Bold'>I MUGAZAINA: </hi><hi rend='Italic'>(Uzkur eginaz) </hi><foreign>Mais si t&ocirc;t que &ccedil;a?</foreign></p>
+<p>-f-<hi rend='Bold'>II MUGAZAINA: </hi><foreign>Mais bien s&ucirc;r, tout de suite.</foreign></p>
+<p>-f-<hi rend='Bold'>I MUGAZAINA: </hi><foreign>Est-ce que nous n'allons pas attendre, Monsieur le Maire?</foreign></p>
+<p>-f-<hi rend='Bold'>II MUGAZAINA: </hi><foreign>Pourquoi faire? Ce qui est le plus urgent est de descendre sans nous attarder afin de poursuivre les coquins. En marche donc!</foreign></p>
+<p>-f-<hi rend='Bold'>I MUGAZAINA: </hi><foreign>&Ccedil;a oui... </foreign><hi rend='Italic'>(Berez-ber)</hi>. Salda artu gabe gatea ere. <foreign>Allons.</foreign></p>
+<p>-f-<hi rend='Bold'>II MUGAZAINA: </hi><hi rend='Italic'>(Abituaz) </hi><foreign>On est fatigu&eacute; d'&ecirc;tre toujours les dupes, on est rassasi&eacute;.</foreign></p>
+<p>-f-<hi rend='Bold'>I MUGAZAINA: </hi><hi rend='Italic'>(Berez-ber) </hi><foreign>Pas moi. </foreign>Goseak kilikatzen bait daut barnea.</p>
+<p>-f-<hi rend='Bold'>II MUGAZAINA: </hi><foreign>Cette fois on les attrapera. Nous les aurons. En avant. </foreign><hi rend='Italic'>(Doalarik eta gibelxeago mugazaina)</hi>.</p>
+<p>-f-<hi rend='Bold'>I MUGAZAINA:</hi> Alferretan. &laquo;Usoak ioan, sareak eda&raquo;. Mugan beti kontrabanda izanen baita hariztegian konduak bezenbat <hi rend='Italic'>(Doa)</hi>.</p>
+<p><hi rend='Bold'>BORTZEGARREN AGERRALDIA</hi></p>
+<p><hi rend='Italic'>Arantipi eta Erremundegi</hi></p>
+<p>-f-<hi rend='Bold'>ARANTIPI: </hi><hi rend='Italic'>(Elduki eta bazterren beha)</hi>. Ezta nihor emen. Mugazainak nunbeit aintzinat jarraiki dute eta etxetiarrak ere ez dira ageri.</p>
+<p>-f-<hi rend='Bold'>ERREMUNDEGI:</hi> Tiroa inguru auetan zen ba. Eginen nuke apustu ixtripu ortan ez zela Batixta urrun izainen. Nulanai haren mutilen egitea da guzia. Bizkitartean gu gaizki gelditzen gira gendarmerian begietan. Batixta hori.</p>
+<p>-f-<hi rend='Bold'>ARANTIPI:</hi> Zer nauzu, gure erri bietako mutilek ogi-bide ori beharra bai dute. Gaizoek irabazi sosak gauez, mendiz irrisko ta neke gaitzetan ibilki ongi irabazitakoak direla errango nuke.</p>
+<p>-f-<hi rend='Bold'>ERREMUNDEGI:</hi> Ez zaite, othoi, hekien alde mintza zeren hertzitasun ederretan ezartzen gaituzte. Eta maisko hortaz so eginaz ene bahitarako diot, eia hunela gobernamenduari ebasten utziaz ez othe giran geraur ere obendun. Salatzeko gogoa ematen daut batzuetan.</p>
+<p>-f-<hi rend='Bold'>ARANTIPI:</hi> Hori sekulan ez gizona. Zaude kezkik gabe. Meza nagusirat gatez guttitan uts egin dut berrogei urte auetan eta ez dut egundaino entzun kontrabandoaren kontra mintzatzen eta bai salatariari buruz. Nik uste mendietarik barne pusken iragaiten bethi dela haizu. Gure arbaso xaarrek hori bera uste izan zuen Axularrek erakutsi arabera eta hura saindua omen.</p>
+<p>-f-<hi rend='Bold'>ERREMUNDEGI:</hi> Saindua baleike, mugakoa ordea: urdazubiarra. Eta nik uste muga-zergak manatu dituzten geroz zerbeitetakotz direla.</p>
+<p>-f-<hi rend='Bold'>ARANTIPI:</hi> Jakina. Kontrabandoa izan dadin, bertzenaz ezina bait litake. Eta zer egin behar lukete gure mutilak kontrabando gabe?</p>
+<p>-f-<hi rend='Bold'>ERREMUNDEGI:</hi> Ez dauzut ukho eginen, bainan, haatik, Batixta hori geiegizkoa da. Haren kariaz goiza galdu dugu eta herrirat itzul beharko fitsik emenda gabe.</p>
+<p>-f-<hi rend='Bold'>ARANTIPI:</hi> Lagun zaarra. Badugu astia oraino. Lehen egin zagun bazkari eta gero antolatzen ahal dituzu gainerakoak.</p>
+<p>-f-<hi rend='Bold'>ERREMUNDEGI:</hi> Bethi &laquo;geroko-gero&raquo;. Saratarra dirudizu.</p>
+<p>-f-<hi rend='Bold'>ARANTIPI:</hi> Ez ba ainoarra. Altzak ez du biotzik, ez gaztanberak ezurrik. Zure ez zira ba saratarra. Saran ez baita saratarrik.</p>
+<p>-f-<hi rend='Bold'>ERREMUNDEGI:</hi> Hunela da. Etxalarren sortua nauzu.</p>
+<p>-f-<hi rend='Bold'>ARANTIPI:</hi> Denok mugatiar, orok bat: eskualdun.</p>
+<p>-f-<hi rend='Bold'>ERREMUNDEGI:</hi> Eta zuk muga-herrietako lehen aintzindari izateko baduzu larruak atxiki ainbat malizi.</p>
+<p>-f-<hi rend='Bold'>ARANTIPI:</hi> Zer nauzu zerbeit behar, munduan ez baita aski justizi. Eta sinetsi nazazu: uste dut mugatiarrak ez girela &laquo;kontrebandistak&raquo; baizik erderaz deitzen dena: &laquo;librokanbistak&raquo;.</p>
+<p>-f-<hi rend='Bold'>ERREMUNDEGI: </hi><hi rend='Italic'>(Adar jotzen)</hi> Errazu Arantipi, Zugarramurdin akerrek ze aldetarat dituzte adarrak?</p>
+<p><hi rend='Bold'>SEIGARREN AGERRALDIA</hi></p>
+<p><hi rend='Italic'>Lehengoak eta I&ntilde;axi</hi></p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Leiotik zuek agertzen ikhus zaituztedanean ez naiz asarre. Ai, hau ezta bizitzea. Karabinero, guarda, gendarme, mugazainak emen eta asperenka ene jauna ez dela ageri.</p>
+<p>-f-<hi rend='Bold'>ARANTIPI:</hi> Zaude la&ntilde;oki hekiek gan ta gu gelditzen bait gira? Senarra ere ez duzu urrun.</p>
+<p>-f-<hi rend='Bold'>ERREMUNDEGI:</hi> Emen gaituzu berritz ere etxekandre.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Beldur nintzen gure Mixel guardak mendian bahituta presondegirat eraman ez othe zuten.</p>
+<p>-f-<hi rend='Bold'>ARANTIPI:</hi> Badakizu I&ntilde;axi ez ginuela gure adiskidetarik bat uzten ahal orrela eraman zezaten. Bertzalde guarda zozoak, ez daukate atxemanik. Guziek behitik bota dire; segur Mixel goitik dela.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> A zer nolako goiza hari naizen jasaiten. Ez daute etxeko lanak ez bazkari prestatzen utzi.</p>
+<p>-f-<hi rend='Bold'>ERREMUNDEGI:</hi> Batixta ere alde egina duzu? Ez dugu ikhusten.</p>
+<p>-f-<hi rend='Bold'>ARANTIPI:</hi> Ez berririk jakiten... nunbeit galdu dire?</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Gizon guziak ene jaunaren bila abiatuak bai dituzu, emaztekiak bakarrik utzirik.</p>
+<p>-f-<hi rend='Bold'>ARANTIPI:</hi> Lagunak arthatzen dute bai zure senarra. Ez da galtzen ahal.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Maitego nuke ez balitz tratu horietan jardukitzen. Gauez eta edozein eguraldiez goaki osasuna bederen ondatzen ahal du, eta hunekin ontasuna; eta badakigu huntarik urrixko dela laborari etxe tristean. Nehor gutti aberasten baita eremuak lantzen.</p>
+<p>-f-<hi rend='Bold'>ARANTIPI:</hi> Ortakotz mugari etxeak behar bertze mozkinak. Uste dut arno nafarra ta bar guttitan falta dirala emen. Ez da ala?</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Zu bethi jostalari Arantipi jauna.</p>
+<p>-f-<hi rend='Bold'>ARANTIPI:</hi> Ba, atsekabetzeak ez badu balio. Obe da eginbide latzgarrienak ere irriz artzea.</p>
+<p>-f-<hi rend='Bold'>ERREMUNDEGI:</hi> Nigarretan ez badugu amaitzen eguna. Eia tiroak ez daukun ekartzen auzia. Karabinero eta gendarmeak badute asarre bizian jazartzeko estakurua.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Haren naiz beldur jaun auzapeza. Egungo ibiliak zer ondorio izainen duen. Gure etxea ez othe duten salatuko.</p>
+<p>-f-<hi rend='Bold'>ARANTIPI:</hi> Ez gaude ba zuek laguntzeko? Ez gogoeta ilunik egin horri buruz. Etxe huntarat egun urbil daitezenak sumatuko dutena da sukaldetik usain gozoa dariola. Hunek salatzen du bazkari ona. Usainak ez du tronpatzen ahal ez mugan ez nehun.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Zuk umorea ezik sudur ona bethi.</p>
+<p>-f-<hi rend='Bold'>ERREMUNDEGI:</hi> Luzea bai beintzat jan gutizia bezenbat.</p>
+<p>-f-<hi rend='Bold'>ARANTIPI:</hi> Hortarat ez daukute bertze eskualdeak, irabazten.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Egun janaria ez da ba urri gure etxean. Badugu: oiloa eltzean, ahateak saltzan, antzara gerrenean eta aretxe lexak erreki.</p>
+<p>-f-<hi rend='Bold'>ERREMUNDEGI: </hi><hi rend='Italic'>(espantuka)</hi> O, la-la. Bada zerbeit. Hori guzia janez geroz ilabete osoan mehe egiten ahal dugu.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Mehe? Ez uste, amorraintarik ere galdetuak nituen zuei jastarazteko bainan ez ditut atxeman izan ahal, damurik.</p>
+<p>-f-<hi rend='Bold'>ARANTIPI:</hi> Alabainan I&ntilde;axi, anpatu ala leherraraz nahi gaituzu? Otoruntza gaitza da ori. Geiegia gaisoa.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Aintzindariak ezik karabinero, mugazain eta laguntzale oro bazkatzeko ainbat janari bildu dut or.</p>
+<p>-f-<hi rend='Bold'>ARANTIPI:</hi> Ez lukete utziren ezurrik, karabineroak bederen.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Ez aipa neri orlakorik. Ez ditut emen ikhus nahi. Etxetiarrekin ere aski dugu gure bazkaria irentsitzeko <hi rend='Italic'>(Iresteko)</hi>.</p>
+<p>-f-<hi rend='Bold'>ARANTIPI:</hi> Egiazki menditik gosetuxeak eltzen ahal diro: &laquo;bidea gose&raquo;.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Noan bataezpada nere eltzeak begiratzera. Irakin soinua bada supazterrean. Egun ez bai daute lanean uzten. Nabilan barnerat.</p>
+<p>-f-<hi rend='Bold'>ERREMUNDEGI:</hi> Ez zaite igi. <hi rend='Italic'>(Mendi alderat behatuz)</hi> Uste dut muga gizonak emen ditugula. Bai, berak dire. Ikhus.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Aspaldi zuten etxeratzeko sasoina gu hunela zalantzan atxiki iduki gabe.</p>
+<p>-f-<hi rend='Bold'>ARANTIPI:</hi> Hobe da berant beinere baino. Emen ditugu ba eta zure jauna aintzinatik. <hi rend='Italic'>(Oiuka)</hi> Biba zu Mixel.</p>
+<p><hi rend='Bold'>ZAZPIGARREN AGERRALDIA</hi></p>
+<p><hi rend='Italic'>Lehengoak eta Mixel, Batixta,</hi></p>
+<p><hi rend='Italic'>Koxejuan puskak dakarzkiela.</hi></p>
+<p><hi rend='Italic'>Gero Marixume.</hi></p>
+<p>-f-<hi rend='Bold'>MIXEL: </hi><hi rend='Italic'>(Elduki)</hi> Bizi naiz, ba, Jainkoari esker. Egun on,</p>
+<p>-f-<hi rend='Bold'>BATIXTA:</hi> Emen gira berritz, I&ntilde;axi.</p>
+<p>-f-<hi rend='Bold'>KOXEJUAN:</hi> Eta mugazainak &laquo;zegadan&raquo; jautsi araz ditugu.</p>
+<p>-f-<hi rend='Bold'>ERREMUNDEGI:</hi> Kasu oraino, buruzagiak emen bait gira, eta ez da on sobera arrokeri agertzea.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Ez da hau etxeratzeko tenorea; eta bizkitartean jasan ditugunak.</p>
+<p>-f-<hi rend='Bold'>MIXEL:</hi> To. Ederra duk historioa. Ni ertsi ibil eta zuk jasan. Utzi zazu errita xaramel hori ta uste dut goiz tzarra ahantzteko bazkari on bat emendatua izanen duzula. Unatua nago ta are geiago gosetua. Eia ba I&ntilde;axi.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Zuen gose egarriak asetzeko bakarrik gira on emaztekiak.</p>
+<p>-f-<hi rend='Bold'>MIXEL:</hi> Eta mokoka egiteko ez? <hi rend='Italic'>(Senar emazteak elheketan darraite)</hi>.</p>
+<p>-f-<hi rend='Bold'>ARANTIPI:</hi> Zer ba, gizonek etxe barnean astintzen gaituen norbeit behar dugu, bertzenaz oker bidetik lotzen ahal ginake usu. Ez da hala Batixta?</p>
+<p>-f-<hi rend='Bold'>BATIXTA:</hi> Ez dakit; erritik maite ez duena ez dadila ezkondu. Hunela libro naiz, ez dut baimenik galda beharrik... mugazain alueri ezik. Nagon ba mutilzahar. Geienaz ere andregaia &laquo;Muga&raquo; izainen.</p>
+<p>-f-<hi rend='Bold'>MIXEL:</hi> Egun bai; erran gabe doa. Itsuski ibiliak gira ta Mixel puska guzieki ez dutenean mugazainek atxeman, ez naiz asarre.</p>
+<p>&laquo;Atxuriko gibelean...&raquo;</p>
+<p>-e-<hi rend='Italic'>(Gerthakaria entzutera Erremendegi eta Arantipi Mixelen ingurua urbiltzen dire).</hi></p>
+<p>-f-<hi rend='Bold'>KOXEJUAN: </hi><hi rend='Italic'>(Bertze bazterrean Marixumerekin mintzatzen)</hi>. Entzun duzu ezkontzari buruz erraten ari direnak?</p>
+<p>-f-<hi rend='Bold'>MARIXUME:</hi> Horrelako maite solasentzat bethi dago belarria eme.</p>
+<p>-f-<hi rend='Bold'>KOXEJUAN:</hi> Damutzeko sasoinean zaude oraino.</p>
+<p>-f-<hi rend='Bold'>MARIXUME:</hi> Eta zu? ezartzen ahal duzu piko ori sakelean.</p>
+<p>-f-<hi rend='Bold'>KOXEJUAN:</hi> Ez da ondua. Itz eman dauzut eta ez dut nahi bertze maiterik zu baizik. Eskual-Herri orotan ez bait duzu parerik.</p>
+<p>-f-<hi rend='Bold'>MARIXUME:</hi> Ni ere izainen naiz zure; bainan ezkonduz geroz ez nuke nahi mugaz bertzalierat ibil zaitean.</p>
+<p>-f-<hi rend='Bold'>KOXEJUAN:</hi> Orduan mugazainen batekin ezkondu beharko duzu. Nor dituzu maiteago karabineroak anala mugazainak.</p>
+<p>-f-<hi rend='Bold'>MARIXUME:</hi> Biek orobat, kapitainak izanez geroz. <hi rend='Italic'>(Maite elgarrizketan zimikoka diardute)</hi>.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI: </hi><hi rend='Italic'>(Senarrari bethi erritan)</hi> Etxean bada zuretzako lan &laquo;mugaketan&raquo; ari gabe.</p>
+<p>-f-<hi rend='Bold'>MIXEL: </hi><hi rend='Italic'>(Etsirik)</hi> Ematen dauzut amore. Ba, ba, arrazoin duzu. Etxekandreak azken itza bere...</p>
+<p>-f-<hi rend='Bold'>BATIXTA:</hi> Galdu aiz Mixel. Andrea isiltzeko erakuts aizkiok saku barnean ditukan puska baliosak.</p>
+<p>-f-<hi rend='Bold'>MIXEL:</hi> Egun ez gaituk esku-huts ethor, ez. <hi rend='Italic'>(Sakua altxatuaz)</hi> Badik pisua.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Ez duzue presa handirik ustutzeko. Eia ikhus?...</p>
+<p>-f-<hi rend='Bold'>ARANTIPI:</hi> Guri, buruzagiai zor diguzuten itzalagatik, othoi, ez emen kontrabandoa azaltzen asi.</p>
+<p>-f-<hi rend='Bold'>ERREMUNDEGI:</hi> Kontrabandoa eta sorginak eguzkiaren etsai dira.</p>
+<p>-f-<hi rend='Bold'>ARANTIPI:</hi> Gure erriarengatik badiozu banago Saran ere ez duzutela gauez argia geiago maite. Gau txoriak, ezagutuak izan ez daitezen ez baitiote ilunduz geroz elgarri agur egiten.</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Sar ezazu saku ori barnerat, Mixel, eta egin zagun bazkari.</p>
+<p>-f-<hi rend='Bold'>BATIXTA:</hi> Hori guziok dugu onesten.</p>
+<p>-f-<hi rend='Bold'>ARANTIPI: </hi><hi rend='Italic'>(Mixeli)</hi> Bazenaki zer jaki lerroa den supazterrean... <hi rend='Italic'>(Zerbeit belarrirat erranez)</hi>. Antzara gerrenean.</p>
+<p>-f-<hi rend='Bold'>MIXEL:</hi> Ez aipa laisterregi, bertzenaz lerdea darit kokotzaz behera...</p>
+<p>-f-<hi rend='Bold'>I&Ntilde;AXI:</hi> Marixume, emazu eltzekaria mai-gainerat eta hurbil or kadirak.</p>
+<p>-f-<hi rend='Bold'>MARIXUME:</hi> Bai ama, banoa instantean.</p>
+<p>-f-<hi rend='Bold'>KOXEJUAN:</hi> Nik aita laguntzen ahal dut sakua eramaten <hi rend='Italic'>(Sakua atxiki nahiz)</hi>.</p>
+<p>-f-<hi rend='Bold'>MIXEL:</hi> Utzi, utzi, oraino azkana bait nago pisuen eramaiteko.</p>
+<p>-f-<hi rend='Bold'>KOXEJUAN: </hi>Bai, baino ez dira alferretan gal behar indarrak. <hi rend='Italic'>(Ama alaba lehenik sartzen dire; gero Koxejuan eta Mixel sakua bien artean eramanik. Ondoan, Arantipi, doazela galdegiten jarraiki)</hi>.</p>
+<p>-f-<hi rend='Bold'>ARANTIPI:</hi> Hala da, gazteak egin dezala lan. Zure solasa entzun nahi dut Mixel, nola ibiliak zaizten mendi-gibel hortan.</p>
+<p>-f-<hi rend='Bold'>MIXEL: </hi><hi rend='Italic'>(Atetik begitartea itzuliaz)</hi> Nere gibelean izan dut aski min, zilipurdiz, zangoz gora, erori naizelarik. <hi rend='Italic'>(Doa)</hi>. Arantipi. <hi rend='Italic'>(Sartzen da irri karkara eginez)</hi> Ja, ja, ja...</p>
+<p>-f-<hi rend='Bold'>ERREMUNDEGI: </hi><hi rend='Italic'>(Batixtarekin bakarrik gelditu dela oarturik)</hi> Ekarri dauzu Habanako tabako laurdena?</p>
+<p>-f-<hi rend='Bold'>BATIXTA:</hi> Baita biga ere. Ez zautut ahantzi. Huna emen. <hi rend='Italic'>(Puska bi tabako emanez)</hi>.</p>
+<p>-f-<hi rend='Bold'>ERREMUNDEGI:</hi> Zenbat da? <hi rend='Italic'>(Sakeletik sosak atheratuaz)</hi> Milesker.</p>
+<p>-f-<hi rend='Bold'>BATIXTA:</hi> Bethi bezala.</p>
+<p>-f-<hi rend='Bold'>ARANTIPI: </hi><hi rend='Italic'>(Berritz atean agertuaz)</hi> Zer, isil traturen bat bai duzue?</p>
+<p>-f-<hi rend='Bold'>BATIXTA:</hi> Tabako poxi bat.</p>
+<p>-f-<hi rend='Bold'>ARANTIPI:</hi> Larriena. Mugazain legeen arabera.</p>
+<p>-f-<hi rend='Bold'>BATIXTA:</hi> Guretzako arina. <hi rend='Italic'>(Xeenik)</hi>.</p>
+<p>-f-<hi rend='Bold'>ERREMUNDEGI:</hi> Kheetan doan gaia ez dakit zertako den kontrebando. <hi rend='Italic'>(Eskeiniaz)</hi> Erre zazu zuk ere.</p>
+<p>-f-<hi rend='Bold'>ARANTIPI:</hi> Bai gogotik adiskide maitea, ni banaiz Adan zu zira Eba. Erre zagun bainan ez gure aditzaileai azkenagurra erran gabe:</p>
+<p>Yosteta hunek poz bazaitue</p>
+<p>Aize-egoak Negu bezala</p>
+<p>Gogoan artu Mugan gainetik</p>
+<p>Bigak elduki direla...</p>
+<p>Orai txalo bat galda dizugu</p>
+<p>Lanaren sariztatzeko</p>
+<p>Aski zaigu zure eskerrona</p>
+<p>Gure bihotza berotzeko:</p>
+<p>Agur jaun andriak</p>
+<p>Zuetarik du ohore</p>
+<p>ESKUAL-HERRIAK.</p>
+<p>AMAIA</p>
+<p>Sara. Prefetenea.</p>
+        </body>
+      </text>
+    </group>
+  </text>
+</TEI.2>
+

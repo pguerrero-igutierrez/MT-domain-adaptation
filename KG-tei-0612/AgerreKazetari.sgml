@@ -1,0 +1,873 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN"
+                       "http://www.tei-c.org/P4X/DTD/tei2.dtd" [
+   <!ENTITY % TEI.prose    'INCLUDE' >
+   <!ENTITY % TEI.linking  'INCLUDE' >
+   <!ENTITY % TEI.analysis 'INCLUDE' >
+   <!ENTITY % TEI.figures  'INCLUDE' >
+   <!ENTITY % TEI.XML      'INCLUDE' >
+   <!ENTITY % TEI.extensions.ent SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.ent' >
+   <!ENTITY % TEI.extensions.dtd SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.dtd' >
+]>
+<TEI.2>
+  <teiHeader>
+  <fileDesc>
+     <titleStmt>
+        <title>Kazetari lanak</title>
+        <author>Jose Agerre - "Gurbindo"</author>
+        <respStmt>Bertsio elektroniko honen egilea: Joxemiel Bidador.</respStmt>
+     </titleStmt>
+     <extent>20.373 hitz, 146.662 karaktere</extent>
+     <publicationStmt>
+        <publisher>Klasikoen Gordailua [http://klasikoak.armiarma.com/]</publisher>
+        <distributor>Estrata Liburuak S.L.</distributor>
+        <address type='email'>klasikoak@armiarma.com</address>
+        <idno type='ota'>AgerreKazetari</idno>
+        <availability status='free'>Erabilpen librekoa; honoko helbidean topa daiteke (HTML, RTF eta PDF formatuetan): http://klasikoak.armiarma.com/idazlanak/A/AgerreKazetari.htm</availability>
+        <date>2006</date>
+     </publicationStmt>
+     <sourceDesc>
+        <bibl>Ez dauka</bibl>
+        <notesStmt><note>Iturburuen datazioa: 1930-1936</note></notesStmt>
+     </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+     <projectDesc>Euskal literaturako testu klasikoen bilduma da KLASIKOEN GORDAILUA; testu hau berorren parte da</projectDesc>
+     <refsDecl>
+        <p>MENTIONED etiketa egilearenak ez diren hitzak markatzeko erabili da: hitzaurreak, aipuak, iruzkinak, e.a.</p>
+    </refsDecl>
+     <classDecl>
+        <taxonomy id='generoa'>
+            <category id='G-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='G-ANT'><catDesc>Antzerkia</catDesc></category>
+            <category id='G-BER'><catDesc>Bertsoak</catDesc></category>
+            <category id='G-ERL'><catDesc>Erlijioa</catDesc></category>
+            <category id='G-NAR'><catDesc>Narratiba</catDesc></category>
+            <category id='G-POE'><catDesc>Poesia</catDesc></category>
+            <category id='G-SAI'><catDesc>Saiakera, kronika, artikuluak...</catDesc></category>
+        </taxonomy>
+        <taxonomy id='garaia'>
+            <category id='M-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='M-16'><catDesc>XVI. mendea</catDesc></category>
+            <category id='M-17-1'><catDesc>XVII. mendea - 1. erdia</catDesc></category>
+            <category id='M-17-2'><catDesc>XVII. mendea - 2. erdia</catDesc></category>
+            <category id='M-18-1'><catDesc>XVIII. mendea - 1. erdia</catDesc></category>
+            <category id='M-18-2'><catDesc>XVIII. mendea - 2. erdia</catDesc></category>
+            <category id='M-19-1'><catDesc>XIX. mendea - 1. erdia</catDesc></category>
+            <category id='M-19-2'><catDesc>XIX. mendea - 2. erdia</catDesc></category>
+            <category id='M-20-1'><catDesc>XX. mendea - 1. erdia</catDesc></category>
+            <category id='M-20-2'><catDesc>XX. mendea - 2. erdia</catDesc></category>
+        </taxonomy>
+        <taxonomy id='euskalkia'>
+            <category id='E-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='E-BAT'><catDesc>batua</catDesc></category>
+            <category id='E-BIZ'><catDesc>bizkaiera</catDesc></category>
+            <category id='E-BNA'><catDesc>behenafarrera</catDesc></category>
+            <category id='E-ERR'><catDesc>erronkariera</catDesc></category>
+            <category id='E-GIP'><catDesc>gipuzkera</catDesc></category>
+            <category id='E-GNA'><catDesc>goi nafarrera</catDesc></category>
+            <category id='E-LAP'><catDesc>lapurtera</catDesc></category>
+            <category id='E-NAF'><catDesc>nafarrera</catDesc></category>
+            <category id='E-ZAR'><catDesc>zaraitzuera</catDesc></category>
+            <category id='E-ZUB'><catDesc>zuberera</catDesc></category>
+        </taxonomy>
+    </classDecl>
+  </encodingDesc>
+  <profileDesc>
+     <textClass>
+       <keywords scheme='generoa'>
+         <list><item>G-SAI</item></list>
+       </keywords>
+       <keywords scheme='garaia'>
+         <list><item>M-20-1</item></list>
+       </keywords>
+       <keywords scheme='euskalkia'>
+         <list><item>E-GNA</item></list>
+       </keywords>
+     </textClass>
+  </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>Kazetari lanak -- Jose Agerre - "Gurbindo"</docTitle>
+    </front>
+    <group>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>MIKEL DEUNAREN ELDUIERA</p><--</head>
+        </front>
+        <body>
+<p><mentioned><hi rend='Italic'>La Voz de Navarra, </hi>1930-IV-27</mentioned></p>
+<p><hi rend='Italic'>Mikel, Mikel gurea</hi></p>
+<p><hi rend='Italic'>Gorde, gorde Euzkal Erria.</hi></p>
+<p>Euzkadin bizten dirauten abatz ederretan auxe dugu, deun Mikelena. Ia gaurko au, iru&ntilde;arrok. Bada, zein irunxemeari ezaio bulka biotza, olako oroiki begikoaren iardukitzekoan? Zahar-zaharra badute euzkeldunek Mikel deunaren abatz gogoangarriau, bertsu dugu iru&ntilde;arrok aintzin-aintzinetik etortzen beita gure artera, bazko-egun alai oketantxe Aralarko zaindari gorena.</p>
+<p>Mikel deunak ez du aski izan mendiko tontorrean agertzea. Nai izan du guregana etorri ez ba&ntilde;an bein bakarrik baizik eta urte guzietan. Bai eginen diogu aurten ere gure ahalako gorasarrea, bai gurebiziko ordea agertuko, aren maitasunari dagokion bezela. Gongotzon maite ori, zure berrizko agertze begiko orren begira dago Iru&ntilde;a, Miserikordiako aingerutxoak emanen dizun mun maitekorra, erriarena izan zazu, ertxi-ertxia. Ta buruan daramazun gurutze eder orrekin donetsi gitzazu, arren, betidanik atxikiak gagozkitzun euzkeldunok. Donetsi gure erria, gure aurrideak, gure gaxuok, bizibide latza daramaten oro, baita ere gure karrika ta zeiak, gure pentzak eta gure bazterrak oro, gaitzaren ahala koka ez daiten barnera.</p>
+<p>Euzkeldunen babesle azkar orrek, zaindu Euzkal Erria. Gaurko euzkotarrak argizta itzazu ba, oken biotzetan elgarrenganako leia bizia sortuz. Jaunak eman goreneko ahal orrekin iraunarazi duzu gure erri maite au, ixtorioko lazturetan barna. Ekarri, arren, Euzkal Erria dagokion bizitzara. Ezeztatu arteko asarreak, azkartu senide-lokarriak, bizkortu gure bizmenak oro, ezen zenbat eta atxikiago gure oitura ederrori, ainbat zureago izanen baigiuzu. Jaunaren aintzarako.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>ASTEKO BERRIAK (I)</p><--</head>
+        </front>
+        <body>
+<p><mentioned><hi rend='Italic'>Amayur, </hi>XXXII, 1931-I-2</mentioned></p>
+<p><hi rend='Italic'>Ezkurrako JEL batzarra</hi></p>
+<p>Joan den eguberri egunean izan zen, oztetsu ta pozgarria. Bertan mintzatu ziren Azkue eta Egibar. Jeltzale gazte azkarrek ederki bai ederki egin omen zuten itzaldia euskaraz, txaloak entzunik ugari. Gauz jakingarria bezala emanen dugu nola eldu zen Leitzatik mutil ta neskatxa talde bat begi-begikoa. Ezkurran egiten zen jaiari atxiki-nai naiak. Ontako elurraz pastu bear izan zuten 12 kilometroko bidea, inolako bildurrik ez ziotela elurrari ezta aldapa gogor ta neketzuari. Ongi bai ongi agertu zuten mutil ta emakume okek JEL-eri dioten lei bizi-bizia. Jaia ederki ateratu omen zan, dena egin zen ustea zen ba&ntilde;o obeto ta jendea alai gelditu zen. Azkenean abestu zen <hi rend='Italic'>Euzko-Abendaren-Ereserkia</hi>. Zorionak zueri ezkurtar maite oriei. JEL-en azia ereiten asiak zeratenez geroz, uste dugu segituko dezutela zintzo jokatzen arik eta betiereko gurenda iritxi arte. Zuek, leitzarroik, ikaspide galanta eman diguzute joate bulartzu ori dela-ta. Lendanik ere baigenekien zintzoeneko zaituztegula Euzkadin. Orai ere esango dugu zuendako ez dela gauz zailik, leitzar ta jelkideak, dena batean izanik.</p>
+<p><hi rend='Italic'>Zurrumurru dabil</hi></p>
+<p>Bazterretan gu, jelkideok, debruaren eskutan emanik ote gauden edo Tusurik nausituak. Zergatik? Estatuta nai dugulakoz edo. Ta estatuto delako ori zer da ba? Gure erria bere buruaren jabe izateko eskua. Ona ba. Zuk agian galde eginen didazu ea ori den bekatue, ea gure erria beste batzuek bezela ez deizken izan bere buruaren jabe, ea elizak debeku duen emanik orreri. Zu arritu egiten zera olako tentelkeriak entzunda. Zu, zenzuneko gizona zerala-ta, bai-dakizu zoroa edo dela olako astapuzkeriak ixurtzen dituen gizakia. Ba&ntilde;an bai-dire beste batzuek itxuka sinesten dutenak ta olakoeri mintzatu nai diet nik argi ta garbi.</p>
+<p>Ez, gizona, ez. Olako gezurrak darizkiotenak biotz tzarreko gizakiak dira. Ariek bai-dakite, bai, gezurra barreiatzen dituztela ba&ntilde;an alarik ere, ibiltzen dire bazterrak naasten. Olakoak, ba&ntilde;an, badire, bai, beren aldera ekarriak. Olako gezurrak banatzen dituztenean, badakite zer ari diren, ez uste gero begiak itxu dabiltzela. Min ematen die olakeri, min bizia alare, jeltzaletasuna Euzkadi osoan mara zabalzten dela jakiteak ta zabaltze au nai luteke geldiarazi, nai luteke ebaki. Berandu dabiltz ta egundainoko aleginak eginik ere, gauzak aurrera doatzi. Ona, biotz gaizto orren erdian duten arra, jo ta jo.</p>
+<p><hi rend='Italic'>Euzkel idazgaiak</hi></p>
+<p>Bear ditugu, mutilak. Onata eltzen ari dire trumilka erderazkoak ba&ntilde;an euzkeraz tautik ere. Zer ari zerate, ba? Lenago, <hi rend='Italic'>Napartarra</hi>-ren aro artan euzkel-idazgai-kutxa izaten ginuen beterik, orai berriz, izerdi patxak bota bear zelan edo alan ibiltzeko. Ustea dugu, ba, laster elduko zaizkigun euzkel-idazgai oik. Llabur ta mamitsu bialtzen badituzue obe.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>ASTEKO BERRIAK (II)</p><--</head>
+        </front>
+        <body>
+<p><mentioned><hi rend='Italic'>Amayur</hi>, XXXIV, 1932-I-16</mentioned></p>
+<p><hi rend='Italic'>Euzkel izenak</hi></p>
+<p>Abertzale zinek samurra bear dute erakutsi euzkel izenen delako ortan. Axal beiratzen badugu, or ikusten ditugu jeltzaleak trumilka, euzkozaleak ugari ta euzkelzaleak aneika bazterretan. Bai ba, euzkel-izenak, ordean bakantxu. Mihizko jelkide oik, zer ari zerate ba, aintzakotzat ez duzuela artzen euzkel-izenen zer au? Geroztik erdel-izenera zituztegu ixuriak ala? Bai ote? Ezen ez beita beste biderik. Ala euzkel-izena eman aurreri ala erderazkoa. Au ezartzen ba diezu aurreri, onek beti espa&ntilde;ar-ikurra, espa&ntilde;ar-atza ibiliko du. Erdel-izena erderaren aintzabidea euzkeraren baztergarri. Or duzu aukera.</p>
+<p><hi rend='Italic'>Zibillak iltzen</hi></p>
+<p>Or ari dire Kabernikolandian zibillak erailtzen. Zinezko porgesuaren gibelgarriak omen dira zibillak. Beti ere erortzen ari dire, udazkenan orbela bezala. Iltzen ba-dituzte ere, ez dute aski porgesuzalioik. Nai dituzte pusketan emanak ta ortako buruak lehertzen, soinak zeatzen, aragiak urratzen ditugu asiak erritar uzu ok. Ilda gero emaztekiak dantzan ari omen. Sanjurjo buruzagi orrek dionaz, Monte Arruiten gertatu lazgarrikerien eintsukoak dire Castilblancoko oraiko ok. Aldea du alde, aatik, Castilblancokoak. Apirkan abrekeri aiek egin zituztela moroak, atzerritarren aurka, atzerritarren gorpuetan. Espa&ntilde;an berriz, alkarri dizkiotela eginak, au da, espa&ntilde;arrek espa&ntilde;arren buruan. Baiginakien leendanik ere ez ginuela ikusia Espa&ntilde;akoa bezin porgesu larririk. Orai dugu ere bai larriki erakutsia.</p>
+<p><hi rend='Italic'>Badabil aurrera</hi></p>
+<p>JEL Napar osoa. Erri txikienetan ari dire ere bai jelkide-txorta begikoak sortzen. Iru&ntilde;erriko ontan ere bai. Gogortxu ginuen ta ezigaitza Iru&ntilde;erri au, exin zitzaiola ozkarik atxigi inondik ere. Orai ba&ntilde;an bizkortzen asia dugu ta abertzalez txirdilkatzen, zendeak eta aranak. Aroa dugu auta bazterretan baita ere eskeini joria. Erribera-aldean ere. Aitzitik, atzeraxe dugu euzkeldunen errialde, bide tarrak, Aetza-ek, Agoitz-erkikoak, erki-ganekoak bereziki. Beitia ederki dago JEL-en aldez. Zer zabiltzate, mutilak, lozorro min ortan sartuta? Ikusazue Barrankaren ikaspidea, zintzo jokatzen duela aberriaren aldez.</p>
+<p><hi rend='Italic'>Emakume Abertzale Batza</hi></p>
+<p>Abia azkarrak agertzen zaigu egun otan emakume jarduki ta begikoak. Aiegi, Agoitz, Aurizperri ta urrengoak. Joan den igandean, Agoizen mintzatu zen Fernandez Zabaleta'r Jule, nola asi bear den azalteko. Ederki alare egon zen Iru&ntilde;ako Emakume Batzako lendakari bipila. Eldu den igandean Aurizperrin izanen omen dute batzarra ango emakumiek, ango batzari abiarazteko txedetan.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>ASTEKO BERRIAK (III)</p><--</head>
+        </front>
+        <body>
+<p><mentioned><hi rend='Italic'>Amayur, </hi>XXVII, 1932-II-5</mentioned></p>
+<p><hi rend='Italic'>Araudiaren aldeko batzarra</hi></p>
+<p>Araudi da estatuto delako ori. Bai edo dakizu, irakurlea, zer den. Bada ezbadakoan esanen dizut. Orai gaude Espa&ntilde;aren menpeko. Zerbait bear badugu, Madrillera joan bearra dugu esketan. Ez gera ba gure buruaren jabe. Lenagokoan bai ordean. Emen legeak egiten genituen, bear ginuena emen erabakitzen zen, gure gurea ginuen gobernua. Ta udalak libre ziren osoki. Guretako Espa&ntilde;a-susmorik etzen inundikan ere, gure etxean egiten beiginuen bear ginuena. Buruaren libre egote au <hi rend='Italic'><foreign>fueros </foreign></hi>deitzen da. Orra ba, fueroak gineuzkalarik, nola libre bizi ginen. Ba&ntilde;an fuero ok galdu ziren geienik ta puskak besterik etzitzaigun gelditu. Osoki urratuak gaude orai, menpeko purtzilak besterik ez gerala. Gu euzkaldunok, jabe jabeak izateko jayoak geranok. Lenagoko erara etortzeko bear dugu burua altxatu ta tinkatzen gituen uztarri latz au guganik bota. Ta au ardietsi dezakegu, estatuto delako ori ateratzen ba dugu. Araudi au ez da gure fueroak, bai ordean otara eltzeko bide ziurra. Zuzeneko den bidea. Orrengatik, burua esten duen euzkotarrak lan egin bearra du, gogotik alare, araudiaren alde.</p>
+<p>Auxen zan, ba lengo eguneko auzia Napar guziko udalak deituak izan ziren Naparroako Jauregia jakiteko ea nai zuten estatutoa ta baiezkoan, nolako estatutoa autatu bear zuten udaloik. Udal geienak araudi bakarraren alde eman ziren. Araudi bakarrak erran nai du araudi bat egin bear dela Araba, Bizkaia, Gipuzkoa ta Naparrarendako. Batzuek, gutienak, erran zuten naiago zutela Naparrakoa, au da, Naparrarendako bakarrik. Araudi bakarraren alde, 161 udal eman ziren, Naparrakoaren alde, ordean, 34 edo. Argi eta garbi eman zuen Naparrak bere iritzia. Nai du beste euzkotarrakin bat ibili. Azpiko jokuak izan ziren ausarki, Naparraren naia baztertzeko bere txedetik. Alperreko lana. Berriz ere, irugarren aldiz, Naparrak erasana du bere gogoa.</p>
+<p><hi rend='Italic'>Araba, Bizkaia ta Gipuzkoan</hi></p>
+<p>Gauz ederra izan dira ango batzarrak estatutoaren alde. Arabako udalek ao batez onartu zuten bera. Gipuzkoan ta Bizkaian, bertsu. Ez uste gero politika batekoak direla ango udalak. Ezta gutiago ere. Badire ango udaletan karlista, jeltzale, errepublikanoak, sozialistak eta abar. Ala ere, bat etorri dire estatutoaren onartzekoan. Ori da zintzo jokatzea, politikeriak alde batera utzita. Gure senide oriek gu ba&ntilde;o erneago ta aurrerago dabiltza. Emen Naparran astakillotan dugu sail ederra, sudurrain sudurrean gauzak ikusten ez dituztenak ta okeri galde bat, tipieneko den galdea egiten zaienetan, erantzuten ere ez dakitela gelditzen dira.</p>
+<p>Alkegarria zen, beraz, lengo egunekoa. Udalak izan dire Naparran esan dutenak ez dutela oraindik txegosi estatutoaren mamia. Estatutoa zer den ez dakitenak. Ene bada! Trumilka joan zaizkiote orriak, liburuak ta paperak. Au dute irugarren batzarra, Iru&ntilde;an, ta Lizarrako arrabots ura, bazterrak inarrosi zituena, bizkorki alare, orren eltzeko joan-etorriak, arat-unatak, periodikuak, mailuak bezela gogorki jotzen arien buruan, ta ona nola eldu zaizkigun estatutoa zer den ez dakitela. Gorrak zauzte, mutilak, ala? Gorrak, itsuak edo zoroak? Beti ere estatutoa onartua dugu jadanik. Ta aurrera jo bear dugu orai. Emendik guti buruan batzarra izanen dugu Euzkadiko udal guziena, Naparrakoak sartuta, batzar ontan irakurriko da estatua ta gure erri guziari galde eginen zaio ea nai duen estatutoa. Eginbide au bukatuta, estatutoa eramana izanen da Madrillera onartua izan dadin an. Tira, ba, mutillak, ezaizte atzean gelditu. Zintzo jokatu bear dugu oroeri erakusteko ez gaudela lokartuak, nai dugula libre izan aintzinetan izan ginen bezala.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>ASTEKO BERRIAK (IV)</p><--</head>
+        </front>
+        <body>
+<p><mentioned><hi rend='Italic'>Amayur, </hi>XXXVIII, 1932-II-13</mentioned></p>
+<p><hi rend='Italic'>Euzko araudia badabil</hi></p>
+<p>Agur, euzkaldunak. Berri onak ditugu oraiko ontan. Joan den igandean bildu ziran Gazteizen ezker-ezkubiko jendeak ta ederki artu omen ziren alkarrekin. Batzorde bat egin dute lanak azkarrago eramateko ta batzorde ontan da idazkaria Garzia Larratxe'tar, naparra bera. Laupabost egun emanen omen dituzte lana buruatzeko. Au eginda agertuko omen dira berriz ere batzarrera. Ta andik etortzeko da erabaki larri bat, Euzkadiko udal guziak deitzekoa araudi au onartzeko. Larratxek erran zuen nola Erribera atzera xamar dabilen zer ontan ta bertan zerbait egiteko jendearen esnagarri.</p>
+<p>Euzkotar guziok pozez zoraturik gitu araudiaren erdiesteak ta ezin dugu ulertu jendea den araudiaren etsaia edo nai-eza. Itxumen gaitza dugu au bestela elitzake bihi bat geldituko araudira leia gabe. Orra katalanak nola ditugun araudian erratuak. Oiek ez dira, ez, zozoak. Ta araudia oiek ba dute onesgarri, guk are geiago. Okek autonomi eleak ekarri ba&ntilde;o len, mutilak ginen gu, fuero direlako oiez bazterrak inarrosiz. Zertarako ba? Oraiko ontan ixiltzeko ala? Bear gorrietan erakusten dira gizonak. Oraikoa dugu gure erakustekoa. Atzera egiten ba dugu, ondorengoek gaitzetsiko gitu ta zuzenez.</p>
+<p><hi rend='Italic'>Josu eskoletik aizatua</hi></p>
+<p>Zakurrak dabiltz ozkaka. Ta batean badabil libertade galanta. Ta onen izenean, sinismenari jazarri egiten diote. Bapo zeok! Sinistea du gizonak golkoena, maitiena. Zelako libertadea duk ori, arranotan, gizonari nai diola ekendu barreneko den kutuna! Non dugu olakorik ikusia? Ba&ntilde;an euzkaldun fededun, dio erran zaharrak ta oraintxe agertu bear dugu guk gure zain azkarra. Ezgero asi arranguraka ta zinkurinetan. Ez. Asi bear dugu eskolak idekitzen bazter guzietan, eskola euzkotar ta kistarrak edo kistar ta euzkotarrak nai baduzie. Jeltzaleak asi dira Bizkaian, ta Gipuzkoan asi dire bertsu, ta Naparrun ere bai asiko dire berandu gabe. Ez da deus irabazten oiuka ta deiadarrez ibiliz. Itzetan izan gera zugur euzkaldunak, eginetan ordean luze. Ager giten orai ere beti bezala ta eutsin dezogun gure sinismenari len ba&ntilde;o azkarrago. Kanpoko ikurrak badituzte ekenduak onez geroz, Josu ez dadila beinere suntsi gure biotzetik. Ala biz.</p>
+<p><hi rend='Italic'>Josulaunak barreia ta bulus</hi></p>
+<p>Sakatu joan dire josulaunak, sekuleko gaizkintza egin badiezten ere beren izen on ta ogasunetan. Ozan joanak dire Josuren iduriko, deus errarik ez dutela artu beren baitan buluskileri aitzi. Doipuruaren o&ntilde;ordekoak ola erraten zuen lengo egunean miresgarria dela beren jasamena. Usueneko den la&ntilde;oak estalduak ditu ira&ntilde;ez ta laidoz. Agoa ideki gabe joan dira. Arien baitan egin den ohointza ez da atzentzekoa. Madrilleko basurdiek egindako legeak agintzen du inori ere ez ekentzeko bere ongiak. Ta josulauneri ekendu dizkiezte. Inori ere ez jazartzeko aren sinismena edozein den ere, ta katoliko-apezak direlakotz barreiatuak izan dira. Basurde tzarrok esaten dute espa&ntilde;arren zorionaren esketan ari direla ta erra gaiztoa ta asalda besterik ez dakarte. Espa&ntilde;a atzeratua dugu eun urtez gutienik, orai ere deraman eginbide basa ontaz baidugu atzera gelditu-bearra areago ere.</p>
+<p><foreign> <hi rend='Italic'>Patria Vasca</hi></foreign></p>
+<p>Ola deritza berriki argitaldu ingurti bat, eder-ederra. Tira izugarria izan da atera ta bereala. Goreste gaitzak ditu bazter guzietan altxutuak non eta aitzeko beitire aleak oro. Emen, Iru&ntilde;ako Euzko Etxean dugu salgai. Norbait bada artugabea oraindik, leia bedi eskatzeko ondarrak gelditzen beitire ta emendik iruzpalau egunen buruan, zinak. Edergarriak baiditu ausar ta bereziak alare, bakan ikusizkoa. Ta mamia, gozo-gozoa, abertzale utsa dena 2.50 ptan duzue salgai Iru&ntilde;ako <foreign>Centro Vasco</foreign>-n, <hi rend='Italic'><foreign>reembolso </foreign></hi>dela bide bialtzen da ere bai.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>ASTEKO BERRIAK (V)</p><--</head>
+        </front>
+        <body>
+<p><mentioned><hi rend='Italic'>Amayur, </hi>XL, 1932-II-27</mentioned></p>
+<p><hi rend='Italic'>JEL-batzarrak ausar</hi></p>
+<p>Lau izanak ditugu azken igandean, oro ozte ta sutzu. Zangotze, Olexua, Zirauki ta Lekunberrin, au, geienik, euzkera garbian. Mutilak ditugu gero Egibar ta Tolosa, gauzak propiki esaten. Agertuko diren toki gustietan, jendea berenduko dute. Ok asiz geroz, entzuleak zituzten so ta so. Beren itzelarik zintzilika. Txalotuak izan ziren biziki ta arien solasain gose zagon jendea. Ez da erreza esatea zelako ongia ekarri duen Lekunberrira gure aberkide maite orien euzkel-itzak, euzkera beitago erri ontan ein larrian. Gipuzkoarren alak ta gure iardun iraunkorrak zuzpertu dezakete ba&ntilde;an laster egiten badugu. Ortako lengo igandekoa bezala egin bear dugu batzar zenbeit ta ola geldaziko dugu euzkera maitearen ondamena erri ontan. Bestalde, lana dugu bearra ere bai, Larraungo ibarrean. Badakizue nola lerratu ziren ango udalekoak Naparroako araudiaren aldera onek esan nai du abertzaletasunik dui-duie dabiltzala bazter ariek. JEL den tokietan, lehen susmoa dugu beti euzkotasuna ez du biotzean tinki atxikia. Ez dakit norek garreiatu zituen larraundarrak oin bide txarrera ta ustea dugu onez geroz damutu zaiotela. Beti ere, ibili erne emendik aurrera, esku azpiko joko ortara ez erortzeko berriz ere.</p>
+<p><hi rend='Italic'>Aberriaren eguna Bizkaian</hi></p>
+<p>Egun ederra prestatzen ari dira Bizkaian. Aberriaren eguna deritzaikena. Lengo egunean zekarren <hi rend='Italic'>Euzkadi</hi>-k orren berria pozaren pozaz jauzi egiteko ainako. Bilbon inguruko mendi-kaskoetan suak piztuko dira, su berri-berriak ordean, berpizkunde-su ederrak. Berpizkundea izanen da egun ortan ba&ntilde;an gure gogoen berpizkundea izanen da ere bai. Josu Kisto berbizi agertuko zaigun egun zoragarri ortan. Aberriaren iduria ere bai agertuko zaigu berpizturik, amesgarrizko gisatan. Mendigain arietarik ozenduko du irrintzi zoliak, urrungo bazterretara edatuko dena. Ta Bilbok bere erantzun suarra emanen du, turuta garraziak direla garri. Biaramonean, aiziek su berrien durduriak eta turuten ahotsa deramatzateke bazterretan barna. Bilbok eta bilbotarrik bat, bertan bilduko diren euzkotarrak oparia eginen diote aberriari, opari bizia alare, opari iltzerainokoa. Ta gerotxuago, jendiak ikusiko dituzte lerro-lerro euzko-gudarak, aberriaren oindian zin-eginda. Bilboko karriketan barna. Euzkotarra, oar zite egun au ederra ditakenari ta gerta zite zu ere joateko Bilbora.</p>
+<p><hi rend='Italic'>Zer gertatzen da Latasan?</hi></p>
+<p>Berria eldua dugu Latasa aldetik nola ango maistrak gaizki artzen zaien Erasoko mutiko-neskakoeri euzkeraz egiteagatik. Baite ere esan digute kastiguak ematen dizkiela euzkeraz mintzatzea dela aitzakia. Argimenak ditugu galdatuak alako maistraren izen-abizenaz, ezin beitugu jasan ere gaur-egunetan denik olako pedagogia ibiltzen ausartatzen dena. Zuek, erasuarrak edo ango euzkalzale egizkoak, leia zaize berriak bialtzen onera ta itz ematen dizuet gure gain artuko dugula bai pozik olako maistra argitara ateratzeko saila.</p>
+<p><hi rend='Italic'>Areagoko irainak euzkerari, Donezteben</hi></p>
+<p>Ango adizkide batzuek esan digutenaz, Doneztebeko erretore jaunak ez du kasurik egiten euzkalzalien galderi, euzkera nai dutela elizan, meza batez bederik. Arranguraka etorri zaizkigu adizkide maite ok nola bi urte ditu, euzkerazko predikuari uko egin zuen erretore jaunak den gutieneko funtsik gabe. Ta orai daudela itzik ere ez dela aitzen euzkeraz erri euskalduna den Doneztebeko elizan. Areistian eliz-dei-orria pastu omen zuten eliztarren artean bertan ezartzeko zenbat diru eman bear zuten ariek. Gure adizkidiek bertan ezarri omen zuten: Elizan nai dugu euzkera, meza batez gutienik. Ta oraindik erretore jaunak segitzen omen du euzkeraz ez egiteko txedean gogortuta. Ezin dugu aditu gortze au ta ustea dugu sarri eztituko den, Doneztebeko euzkalzalieri jaukiz, beren doieneko eskarian.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>ASTEKO BERRIAK (VI)</p><--</head>
+        </front>
+        <body>
+<p><mentioned><hi rend='Italic'>Amayur, </hi>XLI, 1932-III-5</mentioned></p>
+<p><hi rend='Italic'>Gogo-inarkunak, euzkeraz</hi></p>
+<p>Edo ejerziziziuak izanen dira Done Pirmin Aldapakoaren elizan, 7ean asi ta 13en bitartean, deiak dionaz, or beitiko deia. Emaleak izanen dira Iruarritzaga ta Ugarte abak ta egun guzietan eginen dira arratseko 7etan. Ordu ona ta ordu egokia ta ordu gai-gaia. Ez gero ibili aitzaki-maitzaki, euzkeldun ori, al duzula ta ez duzula. Iduki gogoan, bestalde, Iru&ntilde;an ez dela izanen beste belguntzarik euzkeraz ta ez bazera joaten orrera, ez uste gero izanen duzula berriz ere. Berantarrak porrot beti, ta ola gertatuko zaizu. Ba&ntilde;an ez da aski zure joatea, sendia baduzu euskelduna ta artakoa egor zazu beraz, neskameak bereziki. Ez atzendu inola ere soingain daukazula zuk zure seiak onera biltzeko zera, au dela-ta, joan azi bear dietzu utz gabe. Jaungoikoak sari ditzatela aba begiko ok, etorri beizaizkigu zalantza ginaudelarik beldurrez eta uts eginen ziguten aurten belguntzok. Ez egin gero uts zeorrek, euzkeldun orrek, mihizko maitasuna bederik daukazun orrek.</p>
+<p><hi rend='Italic'>Euzkeldunak Iru&ntilde;an</hi></p>
+<p>Oraiko onek burura ekarri digu ze gauz ederra izanen litzaken olako misioetara agertuko balire Iru&ntilde;an bizi diren euzkeldunak. Euzkel-misioak izanen direla irakurririk batek ba&ntilde;o geiagok esan edo du: Done Pirminen eliza duzue aski bai ba. Ba&ntilde;an nik olakoeri esan bear diet ez eliz au, bikoitz edo irukoitz andiagoko bat baizik bear ginukela euzkeldunok, alkerik baginu pixkat ta gure izkuntz zor ederrari diogun leia ere. Zenbat uste duzu, irakurle maite orrek, euzkaldunatan dela Iru&ntilde;an? Milla? Bi milla? Iru milla? Are geiago, 5000 ote? Geiago. Au ba&ntilde;o geiago bide da Iru&ntilde;an. &laquo;Bide da&raquo; diot eta ez &laquo;da&raquo;, ez beidakigu orainik zenbat diren zeatz. Gure zabarkeriak ez digu utzi estadistika bat egitera.</p>
+<p><hi rend='Italic'>Soldaduak atzerrira</hi></p>
+<p>Or ibiliak dire karriketan, berek ez duten alaitasuna inundik ateratu naietan. Inun au izaten da beti alkola. Gure buruaren jabe ginelarik euzkotarrak ez ginen etxetik ateratzen ezta are gutiago inoren mutil joaten. Orduko zoriontzu artan, kintarik etzen Euzkadin, gure aintzineko etxekandriek begiak txukatu bear ezuten semeak ekentzen zizkieztela-ta. Eta garaiena zena, euzko-mutilak eziran joaten inore euzko-gogo ederra edentzera ta zikintzera. Etxekandre orrek, begiak negarrez bustitzen dituzun etxekandre orrek, semea kanporako artzen dizutenetan, zuk estatutoa zer den ezdakizu naski... Ori da ba. Estatutoa bagineuka, zure semetxu ori elitzake joanen soldadu ez eta zure begioik negarrez elitzaizkizuke bustiko ere.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>AN EMENKAKO BERRIAK (I)</p><--</head>
+        </front>
+        <body>
+<p><mentioned><hi rend='Italic'>La Voz de Navarra</hi>, 1932-III-6</mentioned></p>
+<p><hi rend='Italic'>Lindbergen aurra</hi></p>
+<p>Badakizute naski Lindberg au nor dela. Egalari ospetsua, baiki. Gizon onek egin zuen Ameriketatik Uroparako egaldia jauz batez. Ipar-Ameriketan egazkinera igan ta Uropan agertu. Gaindi eder-ederra, jendeak agoa zabalik utzi zituena. Orra ba, bera dugu orai ere solasgai. Aurra ebatsi diote aur-lapurrak. Lo zegola, etxera sartu ziren lapur oik ta artu zuten kanpora. Andik joan ziren iges tarranta batean. Oken susmorik ez da inondik agertzen. Gurasoek artua omen dute karta bat non eta esaten beitute lapurrek deus makurrik ezaiola gertatuko mutikoari. Beti ere, eun milla duro ba&ntilde;o geiago bear dute eman, mutikoa atzera nai badute gurasoek. Txinelak eta zainak or dabiltza bazterren ikerketan ea den nunbeit aren aztarrenik. Dena, uts.</p>
+<p><hi rend='Italic'>Espa&ntilde;ako terribliak</hi></p>
+<p>Ari dire beste matxinada bat konpontzen ta Jakan, oraiko ontan oi den bezela. Andik etorri omen zen oin zoriontzu xasi gituen oraiko au. Sediles ta beste terriblioik ustea dute andik etorri bear duela egiazkoa, gauzek zintzo jotzekotan bederik. Ba&ntilde;an porrot egin du egiazko onek ta urrenari so egon bearko. Ez beita beranduko, beraz...</p>
+<p><hi rend='Italic'>Txinako gudua</hi></p>
+<p>Diotenaz bakea dabil gaurgero bazterretan. Japonek ardietsia du txedea ta ixil arazi ditu izkilluak. Iraun beza luzaro. Txinak badu soldadutan ozte gaitza, ba&ntilde;an buru bakotxak jotzen du bere alde. Or dituzute, beraz, agintariak azkar, keneralak ausarki: Txinako oniak, ba&ntilde;an, ez die azolik. Ortaz beraz, Japon nausitu al izan zakie aise.</p>
+<p><hi rend='Italic'>Euzkel-misioak</hi></p>
+<p>Asiko dire, Done Pirmin Aldapakoaren Elizan, datorren 7gnean. Elizkizuna arratseko 7etan izango da. Aba Iruarritzaga ta Uriarte direla izlari. Jende guti joango den bilur, ala? Bai ote? Ez dut uste nik, inundikan ere. Iru&ntilde;an bada euzkeldunatan azkar Aladapako eliza gonburu bete aina ta are geiago. Ez badira etortzen, berek izanen dute errua. Aba begiko oriek zera egina dute eska ala: Jainkoarekilako bearkuna ta euzkeldunen aldekoa ere bai betetu dute ta arieri ezaiote egonen entzulien ez joana.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>ASTEKO BERRIAK (VII)</p><--</head>
+        </front>
+        <body>
+<p><mentioned><hi rend='Italic'>Amayur, </hi>XLII, 1932-III-12</mentioned></p>
+<p><hi rend='Italic'>Abertzaleen batzarrak</hi></p>
+<p>Joan den astean egin dira itzaldi aberkoiak Nafarruko erri batzuetan: Lizarran, Salinas de Oron, Azketan, Ziraukin, Undianon, Zizurren eta Autzan. Azkeneko au da Ultzamako erri euskaldun polit bat. Bertan mintzatu ziren Paul Egibar ta Eneko Tolosa abertzale sutsuak, biak euskeraz. Bildu zen yendeketa polita, gizonkietan eta neskatiletan, eta oso pozik atera ziran danak. Beste 6 erri oyetan ere, yende andia bildu zen. Zizurren, gu abertzaleak yoan orduko, norbaitek zirikatu ta, ango emakumezkoak beste erri batera yoanak. Undianon berriz, norbaiteri entzun genion gu ez garela kristauak: ba ote da euskalzaleak ba&ntilde;o kristauagorik Euskalerrian? Yuramentuak ere, erdaraz aitzen dugu beti. Sineskaitz da, euskalzaleen aurka ari diranak, tradizionalistak direla entzutea. Ba ote da emen <hi rend='Italic'><foreign>tradici&oacute;n</foreign></hi> edo oitura zarragorik eta zintzoagorik gure euskera ba&ntilde;o? Begiko ninia ba&ntilde;o ere maitago ditugu ba, guk abertzaleak, euskaldunen dantzak, kantak eta mintzaira... eta karlistak ere ala bearko dute, beren aitatxiren idurikoak nai badute izan.</p>
+<p><hi rend='Italic'>Iru&ntilde;ean euskerazko misioak</hi></p>
+<p>Aste ontan izan ditugu Aldapako elizatxoan euskerazko gogo-inarkunak edo misioak. Izlari A. Iruarritzaga eta A. Uriarte. Eliza mukuro betea egon da egun guzietan, non iduritzen baitzaigu txikiegia dela Iru&ntilde;eko euskaldunendako. Ala ere, goxoki egon gara, geren kanta eztiak abesten eta erlijio sainduaren egiak euskera ederrean entzuten. Eskerrak zor diotegu euskaldunek A. Iruarritzaga eta A. Uriarte-eri.</p>
+<p><hi rend='Italic'>Radio euskeraz</hi></p>
+<p>Donostiko Eusko Gaztediak antolatu ta asteazken guzietan atsaldeko 7&THORN; etatik 9 orduak arte entzuten al dugu radio debrukeri orren bitartez euskerazko kantak eta itzaldiak, Donostiko estazionetik bialiak. Orain arte eman diranak ongi entzuten dira eta irri pixka bat egiten al da Egileor eta Beorlegi ospatsuekin.</p>
+<p><hi rend='Italic'>Komediak Erratzun</hi></p>
+<p>Gaztetxoak biltzea, komediak emateaz erriko yendea atseginekin pasazteko, gauza ona litzake, euskeraz balire komediak, euskaldun erri bateri dagokion bezala. Ba&ntilde;o Erratzuko monja batzuk zokoratzen dute gure euskera maitea, eta erdararekin batean nai bide dute sarrarazi Euskalerrian beste gauza batzu, orai Madriletik etortzen zaizkigunak bezalakoak. Euskaldunei euskeraz, bada ortako komedia franko idatzirik, Jainkoari eskerrak.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>MENDI XURI MAITEOI</p><--</head>
+        </front>
+        <body>
+<p><mentioned><hi rend='Italic'>Amayur, </hi>XLIV, 1932-III-26</mentioned></p>
+<p>Zorionak ez bakarrik neskatil lirain ta zintzo oei, asi beitira euzkel kantuez, zuek guzieri ba&ntilde;o ere bai. Euzkel-kantak! Niork ez daki zer garrantziak diren euzkotarrak aberri-ezautzara ekartzeko. Yendiek balekite, sail oneri gogotik lotuko lirake. Geienetan abertzaletasuna ez da sartzen buruz biotzez ba&ntilde;o. Geienetan biotza dugu nausitua burua ba&ntilde;o lenago. Orra or euzkel kantuen zera, biotzera sarkortu. Itzari ematen diogu bide zabala ustez eta euzkotarren gogoa ekarriko digula. Dantzeri ta kantueri, ordean, guti. Auxe idazten duenak burua zuen aritua irakurri ta irakurri, etzen ematen, ordean, osoki, abertzaletasunari. Egun batean &mdash;egun zoriontsua&mdash; biotza unkitu zion euzkel so&ntilde;u batek. Zergatik? Ez da erreza esatea, bai ordean oartzekoa biotzean auteman zuen ikare ura etzuela bein ere nabaria, beretua zuen paper-pilaz, aberria au dela ta ori delako aitzakiz burua beterik bazuen ere. Atxiki zaizte, ba, tinki euzkel-kantueri ta aberria eginen duzute.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>ASTEKO BERRIAK (VIII)</p><--</head>
+        </front>
+        <body>
+<p><mentioned><hi rend='Italic'>La Voz de Navarra</hi>, 1932-IV-3</mentioned></p>
+<p><hi rend='Italic'>Done Mikelen etorrera</hi></p>
+<p>Ezin dugu gaurko periodikua utzi berri au eman gabe, nola biyar etorriko den Iru&ntilde;era goiangeru donea. Etorrera au gertatzen da Bazko-ondoko lehen-astelenean. Ozte gaitza aterako zaio bidera, agian lengo urtietan ba&ntilde;o geiago. Ta Aldundi-jauregian zer gertatuko ote da? Oitura segituko al da goiangeruaren iduri alazgarria eramateko ala ez? Ikusiko dugu. Beti ere, eraman ala ez euzkotarren biotzetan bizi da ta biziko beti-betierekotz. Au ez bada, eginbidea izanen du lengo urtetakoa. Elizkizun ederra izanen da katedralean, sermoia duela kaputxino batek.</p>
+<p><hi rend='Italic'>Umorea dabil bazterretan</hi></p>
+<p>Atzo leitu edo irakurria duzutenaz besta bat zuten Casino batean, jende piku ta elegantiek emana. Jaiak iraun bitartean, legoi bat sartu zen zalapartaka, egoilieri oldartuz. Andre ta andretxuak ziren an, dantzan ari ta ari. Legoia sartu zelarik, ikaratu ziren geienak ta trumilka ateratu atarietara, karrikari atz-eman bearrez. Besteak ordean erne gelditu ziren lurrean lotuta. Andre batek kinu egin zion orkestari &laquo;txarlestonetan&raquo; aritzeko ta legoia, malso-malso, bizkura edo jaulara, zinkurinarik gabe. Ikaspide ederra eman zien ikuslieri. Agian arien artean, norbaitzu izanen ziren beren eginbearra oin ederki ezautzen ez dutenak.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>ASTEKO BERRIAK (IX)</p><--</head>
+        </front>
+        <body>
+<p><mentioned><hi rend='Italic'>La Voz de Navarra, </hi>1932-IV-17</mentioned></p>
+<p><hi rend='Italic'>Errepublikako eguna</hi></p>
+<p>Jaitu da bizkor bazterretan. Emen berriz, Iru&ntilde;an ez da gar andirik izan. Beti ere musikak ibili ziren karriketan eta zendoiak eta kilikik ta zaldiko maldikok azaldu zuten ere bai beren tayu barregarria. Au zela aitzakia, mutikoak ta jende xeak eman ziren karriketara ta arrabotsa ibili zen or nunbeit.</p>
+<p><hi rend='Italic'>Sekretarigoa utsik</hi></p>
+<p>Utsik gelditu da Gipuzkoako Aldundiko sekretarigoa. Deia dute barreiatua utsune au betetzeko. Ez uste, ba&ntilde;an, edonorek bete dezakela. Bear du euskera jakin ukanduruak. Ederki egina. Txalogarria da benetan Gipuzkoako Aldundiaren erabakia au ta zorionak bialtzen dizkiogu biziki.</p>
+<p><hi rend='Italic'>Sumendiak Txilen</hi></p>
+<p>Azaldu dire berri izugarrizko orroaz ta errautsak botatuz gaitzeko urrutira. Bi milla kilometroko ba&ntilde;o geiago. Uropara ere etorriko ote diren kezkea dabil. Elitzake lenengokoa izanen. Aspaldi izanak dire Asian olako sumendi-ikarak ta errautsak onatuak izan zitazten ordukoek.</p>
+<p><hi rend='Italic'>Ardozaliek garaituko ote dute Ameriketan?</hi></p>
+<p>Or dabiltz ardozaleak ta &laquo;idorrak&raquo; zein bere alde jokatuz. Ustea dabil, ba&ntilde;an, ardozaliek garaituko dutela. Bost milloi erritarrek eskatu omen diote Ipar-Ameriketako buruzagiari orai dagon debekua urratzeko. Jakina ez da zertan geldituko diren alde ta kontrak. Beti ere, azkartuz omen doatzi beren indarra ardozaliak ta ez da arritzekoa emendik guti buruan azkarrenak ba dire. Mutillak dira gero ardozaliek asmoak ateratuz burutik. Orai diote estaduak duela era propia beste estaduek dizkioten zorrak garbitzeko, ardoa dela bide. Utz dezala Estaduak ardoeri sartzera libre. Zordunek ardoa dute sobera. Bial dezatela okek ordea ardotan, urririk edo <hi rend='Italic'><foreign>gratis</foreign></hi>. Ardozaliek pagatuko estaduari ta ola onek altxatuko du aise bere zorra.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>ASTEKO BERRIAK (X)</p><--</head>
+        </front>
+        <body>
+<p><mentioned><hi rend='Italic'>La Voz de Navarra, </hi>1932-IV-24</mentioned></p>
+<p><hi rend='Italic'>Igandeko gertakiak</hi></p>
+<p>Latzak izan ziren eta jendeak inarrosi zituzten biziki. Aharra sortu omen zen karlisten eta eskertarren artean, edangu batean. Karlistek porrak atera ta bestieri jo egin omen ziezten eta bi lagun zaurtu, porrak zirela garri. Beti ere, lasterka ateratu ziren, batzu bestieri jazarka. Karlistak sartu omen ziren batzokira, bestien iges eta jazarliak atarian gelditu igaliak noiz jautsiko goait. Bere artan bospasei tirok ozen taka taka ta bi gizon gazte, illik altxatu zituzten lurretik eta beste iru, itxuski zaurturik. Norek erauzi ote zuen? Oraindik ezta jakina. Beraz, ezta deus jakin ere. Or ibili dira esamesak deus funtsik gabe, au dela ta ori dela esaten.</p>
+<p><hi rend='Italic'>Gau berean</hi></p>
+<p>Iru&ntilde;ako inguruetan omen zebiltzen gau berean zenbeit mutil gazte, karlistak berak oiu ta karrazka. Basaldeko zainak atzitu omen zituzten ta preso altxa irira. Bidebitartean, asaldatu omen ziren eta bat igesi joan zen zainen eskuen artetik. Zainek bazeramatzaten atzilotuak besteak nun eta alako batean tiroka asten beitzaie, ariek ezakiten aldetik. Bere artan zen gizon bati eldu zitzaizkion balak eta bat sartu soinean, nunbaiteko saieskiak sutsirik. Andik altxatu gizona artu zuten <hi rend='Italic'><foreign>Casa Socorro</foreign></hi> delako etxera, andizki ukitua. Plaza del Castillo delakoan, ozte amorruak gizon zoritxarreko bat arpatu zuen eta gaizkilea zen eta itxuski minarazi zioten soin guzian.</p>
+<p><hi rend='Italic'>Biaramonean</hi></p>
+<p>Lehen-goizetik, oro geldi. Eskertarrek langile guzieri lana uko arazita, legen kontra. Dendak ere bai ertxita naiz eta askok ideki nai zituzten. Ba&ntilde;an babesa eskatu gobernadoreari eta onek <hi rend='Italic'><foreign>insensatos</foreign></hi> ta <hi rend='Italic'><foreign>alarmistas</foreign></hi> deitu ta oin kito gelditu zen. Ein artan, oro, olga bearrez eman ziren, nai ta naiez. Bederatziak inguru, multzo gaizkin bat joan zen Circulo Karlista aldera ta leioetatik sartuz, gauzak ebatsi ta apurtu egin zituen. Ostu omen zituzten diru batzu, lengo egunetik utzita. Zigilupe zagon Circulo au ta buruzagiek bahitua, ortaz beraz, au jakingi, yendeak arritu ziren oso.</p>
+<p>Gaizkin-saldoak larrituta, Baleztenain etxe aldera jo zuten, beltzeneko ziren asmoek artuta, su-eman bearrez. Baita egin ere. Orroaka asi ziren ta tiroak amanta, etxeain kontra. Ta azkenik, giza txarrek su eman zioten etxeari, eskaratzean barna. Lasai ibili ziren gaizkileak zibilak ezbeitziren agertu txakada batez. Anartean, txinelak an zauden irudizko lerrenetan, jendeak eta lazkeriok otxin-bearrez. Ezin bertzez, etxea ikertzekotan sartuak ziren bi zainburu abantxu utzi zituzten erre-urranak. Bearrik eta leio batetik &mdash;beitiak beitire&mdash; eskapatu al ziren. Azkenik eldu ziren suginak edo bonberoak, sua iraungi al zutenak. Jendeak, ba&ntilde;an, ziarduen erra gaistoak artuta, suginek zebilten zurgua lurratu ta abarrika egin zuten. Bidegabekeriak zebiltzen larri ba&ntilde;an aginlariak an ari ziren, beatza agoan, ixio-ixioka. Azkenean, gataskari nausitu ziren. Agikun oken artean, 20-25 tiroek zartatu zuten eta sua asi zen gogotik Baleztenain etxean.</p>
+<p><hi rend='Italic'>Urrengoa</hi></p>
+<p>Espak azaldu zire bazterretan, buruzagien-bigunkeriain kontrakoa. Oroen buru, <foreign>C&aacute;mara de Comercio </foreign>delako elkartea. Au zuzendu zaie erritarreri bere asmoari-atxiki-eske. Badabiltza baiak eta ezak, baietzak ugariago izanik.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>EGUNEKO BERRIAK (I)</p><--</head>
+        </front>
+        <body>
+<p><mentioned><hi rend='Italic'>La Voz de Navarra, </hi>1932-IV-26</mentioned></p>
+<p><hi rend='Italic'>Euzko-araudia</hi></p>
+<p>Ez al zaizu politago estatuto baskoa ba&ntilde;o? Or duzu, ba, onetsirik. Atzo bildu ziren Gasteizen araudi au egiteko zera zuten o&ntilde;ordekoak ta azkenik onartu dute ao batez. Poztu gaiten, beraz, euzkotarrak. Ba&ntilde;an berri onak ez ditugu onekin aitu Badakizu, irakurlea, nola udalak edo ayundamenduak bildu bear direan araudia onartzeko. Biltzar au egin bear zen Euskalerriko erri batean. Orra ba, erri au Iru&ntilde;a izanen da. Au dala-ta, eldu den illek 22gnean Iru&ntilde;ara etorriko dira Euskalerriko udal guziak ta egun oroigarri ontan Euzkadik, udalen aoz, onartuko du.</p>
+<p><hi rend='Italic'>Itxas-ontzi bat ondora</hi></p>
+<p>Euzko-ontzi bat ondoratu da Inglaterrako itxasotan. Amar gizon il omen dira. Ontzi onen izena Ulia-mendi. Arraintzakoa zen ontzi au ta Pasaiatik ateratua azken ostiralean. Beste ontzi batekin ateratua zen Pasaiatik arrainketan. Parean ari ziren biak arraintzan eta elkarren aldamenean zeuden. Bat batez, Jaizkibel-mendi oartu zen ezagola bestia. Asi zen ala oartu ea bila zezakean. Alperrik. Beste ontziak ezuen deusik erantzuten. Bazterrak arakatu edo miatu zituen ezin idorota. Ezinbertzean joan zen. Orduko artan iragaten zen ontzi ingles bat, ito-urranen oiu ta garraziak entzunik. Urbildu zen toki artara. Bi gizon besterik ezin altxatu zituen. Eta Cardiffera eraman zituen. Ontziaren jabeak baieztu dute berri negargarri au, esanez bi gizon bakarrik alxatu al izan direla, bestien berririk ez dela.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>EGUNEKO BERRIAK (II)</p><--</head>
+        </front>
+        <body>
+<p><mentioned><hi rend='Italic'>La Voz de Navarra, </hi>1932-IV-27</mentioned></p>
+<p><hi rend='Italic'>Euskeraren Adiskideak.</hi></p>
+<p>Atzo izan zuen batzarra batz begiko onek aristiko batzarkidieri alde-agurra esateko. Baita ere izendatu berrieri sarrera emateko. Don Jenaro Larratxen gain izan zen zer au, batzako buruzagi izana danaz. Onek itz sutsuaz egin zuen esanez gogotik lan egiteko euskeraren alde orai asiko direnak, bera egongo dela batzaren sail begikoari atxikia orai arte egon dan bezela. Sartu berriek eskarrak erakusi zizkioten biziki buruzagi aspergaitza ta zinezko euskelzalea izan dela-ta orai alde egiten dien jaun begingarri au. Ba&ntilde;an ez du egiten aienganik alde, batzarrak asmoa artua beitzuen lengo egunean ohorezko buruzagi segitzeko bera. Bear ere bai D. Jenaroren geriza beitute laguntz ederrekoa. Euskeraren adiskideak, ohore-buruzagigoa opatuaz jaun beiragarri oneri, ordea nolabeit agertzen dio batzaren alde egin direlakoa ta ga&ntilde;era ez du galtzen aren babesik.</p>
+<p><hi rend='Italic'>Katalunya badoaye</hi></p>
+<p>Aste ontan asiko dire Katalunyako araudiari buruzko izkatzeak. Ongi ateratuko omen da geiena, gobernuak asmoa beitu aurrera eramateko zer au. Gu, euzkotarrak, begira egon bear dugu aste ontan ea zer gertatzen den. Gure araudia pastuko da Katalunyakoa pasten bada. Ta oneri emanen zaionaz konduak ateratuko ditugu ea zenbat jaliko zaigun guri ere. Beti ere areri emanen zaiona guri ere emanen zaigu. Eskatzen baldin ba dugu arek eskatu duen bezela.</p>
+<p><hi rend='Italic'>Beuntza jaunaren eleak</hi></p>
+<p>Erasan du tradizionalistek botoa emanen dutela Katalunyako araudiaren alde. Onek esan nai du orok jokatu bear dugula zintzo gurearen alde. Katalunyakoa aldezgarria bada, gurea are geiago. Lehendanik ere baiginakien gure aldunek gogor eginen zutela Madrillen gure araudiaren alde. Asi dire, ba, bidea erakusten. Beuntza jaunak egin duen azaltze onekin. Jarrai dezala sendo.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>EGUNEKO BERRIAK (III)</p><--</head>
+        </front>
+        <body>
+<p><mentioned><hi rend='Italic'>La Voz de Navarra, </hi>1932-IV-28</mentioned></p>
+<p><hi rend='Italic'>Katolikoak Parisen</hi></p>
+<p>Izan dute egitate bikaina. Pariseko Kardenal jaunak eskatua zien dirua asmotan dituen elizak eraikitzeko. Norbaitek esan zuen obe zutela arpide edo mailego bat idekitzea. Ola egin zen lengo egunean. Banketxe batzuek saila artu zuten dirua biltzeko. Ogei milloi ziren eskakizuneko dirua. Egun batez bildu dire. Diru onekin 60 eliz eraikiko dire Pariseko auzaberrietan. Ezaupide galanta dugu kistar-gogoa pizkortzen ari dela paristarren artean. Gudaroan asi zen eta badoaye aurrera. Lanik eza eztituko bide da, kistarren diru au dela garri.</p>
+<p><hi rend='Italic'>Abertzaleak errialdetan</hi></p>
+<p>Berri dakarkigu gaur teleponuak nola margolari batek egin duen Japonen ango erregearen iduri bat, bere odolaz baliatuz. Sei neskatxek nai izan dute odola ixuri gudurik ez badabilen ere ta ortako asmo bakana izan dute, ikurrin batzu apaintzea beren odolaz tintatuz.</p>
+<p><hi rend='Italic'>Lusagarra garesti</hi></p>
+<p>Prantzin debeku ezarri diote Espa&ntilde;atiko lusagarrari ta angoak asi gareztitzen orai.</p>
+<p><hi rend='Italic'>Uzta Andaluzian</hi></p>
+<p>Eska&ntilde;i jori-joria ta ederra omen du ta larrieneko esamesak barreiatuak izan dira ango aurkintzetan, bilduko dela ta ez dela. Onen kupidaz, gobernuak egorri omen du <hi rend='Italic'><foreign>Ministro de la Gobernaci&oacute;n </foreign></hi>delako altseina toki aietara, porrot-arazteko an dabiltzan asmo beltz oiek.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>EGUNEKO BERRIAK (IV)</p><--</head>
+        </front>
+        <body>
+<p><mentioned><hi rend='Italic'>La Voz de Navarra, </hi>1932-IV-29</mentioned></p>
+<p><hi rend='Italic'>Gaztelarrak araudien aurka</hi></p>
+<p>Asi dire adarra jotzen. Palentziko udaldarrek erabakia artu dute beren alduneri eskatzeko alde egin dezaten latetxetik araudiak edo estatuteak agertzen badira izkagai edo. Nai lituzteke estatutoak lurpetu, ez beitzaie komeni Katalunya ta Euskalerriak eukitzea dagokien eskubidea, Gaztelako morroiak izatea ba&ntilde;o. Au bada egia izanen da ere bai Gaztelak gure gain bizi nai duela. Ta gu ez gaude ortako ez, gure oldez bizi izateko ba&ntilde;o. Egin dezatela nai dutena, ez digu axolik, guk gure bidea eginen dugu, besteak bai asarre edo ez asarre.</p>
+<p><hi rend='Italic'>Unanumo or dabil</hi></p>
+<p>Ergelkeriak dariotzala. Euzkerari buruzko gauzetan azaldu ta anka sartu, gauza bera du Unamuno famatu orrek. Erra gaistoa dio euzkerari euzkotar ustel onek ta al duen alditan orotan agertzen oi du. Jakintsua omen da Unamuno. Bai ba, griegoz agian, euzkeraz beinepein ez. Gogora zaigu inkineru ta idazle edo iskribatzale ospatsu areri gertatzen zitzaiona. Gizajoa aotan erabiltzen zutenean inkinieruek, aren kidekoek, esaten omen zuten: Au duk idazle azkarra! Ta idazleak aipatzen zutelarik aren izena, esaten omen zuten: Au inkinieru argia! Ola ba esanen dugu guk Unamunoz: Ona zegok euzkeraz! Gizona da gero griego-gaietan... Ta bere griego-ikasle bat agertuko balizaigu, agian erranen liguke... Ba, ba... euzkeraz bezala dabil griegoz ere... beti errenka ta ankea sartuz...</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>EGUNEKO BERRIAK (V)</p><--</head>
+        </front>
+        <body>
+<p><mentioned><hi rend='Italic'>La Voz de Navarra, </hi>1932-IV-30</mentioned></p>
+<p><hi rend='Italic'>Ogia eskas</hi></p>
+<p>Boltxebikok etorri ba&ntilde;o len, Uropako garatea zen Errusia. Orai ba&ntilde;an eskas gorritan daude, berendako ere ez dutela. Oletako langileri kilo bana ematen omen ziezten, orai egunoroko puska diezte xuhurtua, kilo-erdia besterik ez beitute artzen. Siberin gauzak larriago omen badiltza. Gorriak jasaten ari dire Errusiko jendeak. Emengo txolorioek &mdash;Espa&ntilde;akoek beinepein&mdash; naiko luteke gauzak aratu Errusikoen arabera ustez eta lukainkaz lotuak direla ango zakurrak. Or dute, ba, ikaspidea. Ez dakigu nola dabiltzen ango gauzak. Izperringiek diotenaz, arras makur. Beti ere, ogiz badaude eskas Errusin, gauzak larri bide dabiltza.</p>
+<p><hi rend='Italic'>Abertzalien odola Ukranin</hi></p>
+<p>Ukrani bizi da Errusik azki azpiraturik. Izigarrikeriak jasanak ditu Ukrani zoritxarrekoak Errusiren aldetik. Boltxebitarrak garaitu zutenean Ukranik uste izan zuen azkatasuna ardietsiko zuela, Leninek ola itz emana beitzagon Errusiren azpiko erri guzieri. Ala iduritu zuten boltxebitarren agindua astearekin. Ba&ntilde;an gauzak arras bestelakotu dire ta abertzaleak jasaten dutena ez da esateko. Errusiko zakur odolegarriak nausitu zaizkie ukranitar gizagaizoeri ta alatu ta erail besterik ez dute egiten. Ba&ntilde;an abertzalien biotzak sustatu dituzte morroi boltxebitarren lazkeriok ta asi dire gogor egiten. Abertzale batzak sortzen ari dire bazterretan eta gauzek ola segitzekotan, etsai zakarra laster uxatuko dute. Iru abertzale atzilotu ta eriozpetuak izan dira. Abertzalien odola, abertzalien anizgarri.</p>
+<p><hi rend='Italic'>Maura itz-ausle</hi></p>
+<p>Zuk, irakurle orrek, bai edo dakizu Maura egona dela <foreign>Pacto de San Sebasti&aacute;n </foreign>delako batzarrean. Badakizu nola Katalunya arien aldera ekarri-bearrez batzarrekoek orok estatutoaren itza emana zioten. Oken artean, Maura. Egiaren ordua dugun oraiko ontan. Maurak ezetz erraten du, estatutoaren kontra egingo duela alik gogorren. Guk, euzkotarrok, lehendanik ere badakigu nora&ntilde;oko leiala izaten den espa&ntilde;ar batzuen itza. Ara Espartero, karlisten gudua geldazi zuen euzkotarreri itz emanez fueroak gordetuko zitzaizkiela. Bai zera! Madrileraz geroz itza jan zuen deus axolik eziola goreneko buruzagia izanik ere. Orra Maura flamenko ori, Donostin itza lotu katalanekin eta orai galanki suelto atera. Ori dok mutila. Erdaldunaren, agintza, gezurra.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>EGUNEKO BERRIAK (VI)</p><--</head>
+        </front>
+        <body>
+<p><mentioned><hi rend='Italic'>La Voz de Navarra, </hi>1932-V-1</mentioned></p>
+<p><hi rend='Italic'>Agurra</hi></p>
+<p>Jauregiberri jauna, mendiz arainko euskaldun azkarra, gure artean dago, Iru&ntilde;ara etorria, zenbeit egun pasatzeko gogotan. Espa&ntilde;a aldean ibilia da lurralde asko ikusirik. Emendik joanen da Baionara. Agur diotsogu.</p>
+<p><hi rend='Italic'>Shanghai delako errian</hi></p>
+<p>An ibiliak dira burrukan Txina ta Japon. Lengo egunean zen gudari-jai batean, koreatar batek bonba bat botatu zuen Japoneko guda buruak eta altseinak zagozten multzo erdira. Arek eztanda egin ta zenbeit bildu omen zituzten lurretik, altsein edo ministro bat ta itxas-gudalburu bat, beste batzuen artean. Gaizkilea atzilotu dute japoitarrek. Koreatarra bera. Kidekoak ba omen ditu. Gaizkintz au dela garri, ikarea barreiatua da Shanghaien ta gudal-deia omen dabil, bildurrez eta gauzak makurtuko ote diren. Baldin ere, japoitarrek badaude negurriak artuta.</p>
+<p><hi rend='Italic'>Zoriona bahitzen ez du diruak</hi></p>
+<p>Burua erail du Londresen <hi rend='Italic'><foreign>Rey del Acero </foreign></hi>delako gizon aberatsak. Ilabete batsu du beste errege batek burua erail zuen ere bai, fotografikoa, Eastman zeritzana. Onek esan zuen naiala ukana zuela dela atsegarritan, dela dirutan, gauzak oro aituta, erioari ematen zela. Sinisteak egiten du bakarrik gizona zoriontsu. Sinistea eta sinismena galduz geroz, pillaka dirua ukanik ere, biotza ez da beinere asetzen. Egia balitz diruak zoriona ematen duela errege bi ok ezuten burua erailko. Orrengatik deitzen zaie errege, dirua erruz daukatelakotz. Dirua dela bide gauzak oro erosi deike, salbu osasuna ta zoriona.</p>
+<p><hi rend='Italic'>Emaitza doipuru doneari</hi></p>
+<p>Aita Sainduari, nai baduzu euzkera mordoilo. Belgikako izperringinak edo periodikeruak Doipuru Doneari agertuak izan dire aurten ere, igazkoetan bezala. Emaitza polita eman diote. 250.000 libera edo prankok. Espa&ntilde;a aldeko zakur goseti ok ikusirik, norbaitek ustea edo du erlisioneko gauzak direla ludian arrunt amaituak. Bai ba. Or duzute Belgika begikoaren ikaspide ederra. Bai edo da an porgesu ta zibilizarinue ausarki.</p>
+<p><hi rend='Italic'>Ibarnegerai ta Lizar jaunak</hi></p>
+<p>Autaroak dituzte Prantzin biyar ta autagai agertzen dire bi euzkalzale zintzo ok. Ibarnegaraiek ez omen du etsairik. Lizarek bai. Aulxe ba&ntilde;an, sozialista bera. Onek esan nai du biak garaile aterako direla ta au izanen delakoan gure zorion-agurra elazten diegu bizi ta biotzetikoa.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>EGUNEKO BERRIAK (VII)</p><--</head>
+        </front>
+        <body>
+<p><mentioned><hi rend='Italic'>La Voz de Navarra, </hi>1932-V-3</mentioned></p>
+<p><hi rend='Italic'>Lekarotzen erenegun</hi></p>
+<p>Euzkel-ikaslien saritako jaia ederra izan zen, baiki. Ozte asko bildu zen alde guzietarik, bereziki Gipuzko ta Bizkayatik. Goizean, jaupa abestu zen ederki ba&ntilde;o ederkiago. Ezta arritzekoa an diren ortako gaikiez. Gallena, arratsaldean, izan zen. Ez dugu lekurik gauzak xeheki ipintzeko emen. Esanen dugu mintzain zirela Eizagirre, Aitzol, Artxanko ta Agirre alduna. Oro, ederki. Altzo abaren itzaldia, mamitsu ta sarkorra ere bai. 150 ikasle ateratu omen dire euskera ikasiak. Aba ok egin duten lana txalogarria da ta onuratsua. Boakio gure txaloa ere bai.</p>
+<p><hi rend='Italic'>Ibarnegarai ta Lizar</hi></p>
+<p>Garaile ateratu dire euskelzale begiko ok Prantziko auteskundietan. Oloron eta Maulek aldunak izanen dituzte euzkelzaleak lehen bezala. Bretonak badabiltz aurrera. Rennesko auterkia edo distrituan azaldu da lehen aldiz noski autagai autonomista bat. Ez da atera ba&ntilde;an bai bildu autarki zenbeit. Olako gauzak asiz geroz, berez ibiltzen dire. Eusko-abertzaleak asi zirelarik izan zen emen, Euzkadin, iseka ta farretan azkar. Ez gero egin irri. Olako gauzak asiz geroz, ez dire beinere baratzen. Ona emen nola ez garen gelditu ezta geldituko ere, gurea atera arte.</p>
+<p><hi rend='Italic'>Orrilleko 1gn eguna</hi></p>
+<p>Eguna joan zen deus makurrik ez. Euzkadin bereziki gauz guti agitu zen oargarri. Espa&ntilde;an ere ez, Cordoban ez ezik. Komunistak ateratu omen zitzaizkion zibilleri ta okek tiroka artu omen zituzten, gizon bat bertan bera utzirik. Emen, Iru&ntilde;an zozolistok izan zuten batzar bat, pelotatokian, pelotatoki-erdia erdurik notinetan. Madrilleko bat etorri zen mintzatzera, zozolistoen burua edo buruetarikoa bera. Emengoek ustea zuten balditurik utziko zituela aren solasak ba&ntilde;an ezen ola gertatu. Ez beitzuten entzuliek ederretsi.</p>
+<p><hi rend='Italic'>Abertzalien asmoak</hi></p>
+<p>Ogei bat batzar eta jai omen dire egitekoak gobernadoreak baimena eman orduko. Azia ernetzen ari da bazterretan eta emendik guti buruan, abertzalez brokatua izanen dugu Naparra. Ala biz.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>EGUNEKO BERRIAK (VIII)</p><--</head>
+        </front>
+        <body>
+<p><mentioned><hi rend='Italic'>La Voz de Navarra, </hi>1932-V-4</mentioned></p>
+<p><hi rend='Italic'>Leitzako neskatxak</hi></p>
+<p>Ari dire beti. Orai, antzokia, urren jardun bat. Xardukiak baidire neskatx begiko ok. Ola bear. Jendiak ola balire, gauz onak eziren galduko, ez eiki. Bi argazki aurkituko dituzue beste nonbeit. Argazki okek esan nai dute naskatxak direla gero gauzak propiki egiten. Txaloak bildu omen dituzte ugari. Ezta arritzeko. Diren pollitaz eta dakitenaz, oro txorabiaturik egongo ziren arieri ikusten. Ez uste ba&ntilde;an komendiantiak izaten saiatzen ari direla neskatxoik, izate-utsez, ez, jeltasuna zabaltzeko ba&ntilde;a. Or duzute, irakurliok, Euzkadiko ezkutu ederra, ageri agerian dagona argazkian. Ta au dala-ta, eskerrak bialtzen dizkiegu biziki, esker-txoria ontan gure mirespena sartuta. Jo ta aurrera daramazuten bide ontan.</p>
+<p><hi rend='Italic'>Nasturiak bazterretan</hi></p>
+<p>Espa&ntilde;ako erri batzuetan, nahasmenduak izan dire egun oketan. Agimenduak or dabiltz, nahasketarieri baia eman naiez, arien aierkunde tzarretan ta or dute ordea. Ok dire errepublikako gauzak. Or zilla da edozeren propaganda egitea naiz ta gaiztakeriak izan. Orra or geroa. Ondorio txarrak ekarri bear ditu uzte onek. Espa&ntilde;an asko dira izkigabeak. Ta izkigabeak naiz esker alde naiz eskubi alde gauz onik ezin dezakete ekarri.</p>
+<p><hi rend='Italic'>Mutillak, so oni</hi></p>
+<p>Badakizute nola izanen den udalen batzar nagusia emen Iru&ntilde;an eldu den 22gnean. Egun ortan bilduko dira emen Euzkalerriko udal guziak, estatuto onesteko.</p>
+<p><hi rend='Italic'>Usueko Andre Miren</hi></p>
+<p>Biyar izanen da joakundea, lengo egunean atzeratu beitzuten biyar arte. Mirenen alabak antolatua dute tarranta bat, emendik ateratzeko. 8 bat pesta balio. Napar geinek ez dakite Usue zer dan. Ezta ere ango Andre Mirenen eliz gurgarria. Ba-lekite geiago joango lirake.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>EGUNEKO BERRIAK (IX)</p><--</head>
+        </front>
+        <body>
+<p><mentioned><hi rend='Italic'>La Voz de Navarra, </hi>1932-V-6</mentioned></p>
+<p><hi rend='Italic'>Euzkel-so&ntilde;uak radioz</hi></p>
+<p>Atzo eman dute erestaldi polit bat, amargarrena, euzko-gauzezko. Txistua, abestiak, izketak, itzaldiak, eresia, ederki emana ala ere. Gauz ederra da au ta euzkerak irabazten duena ez da errateko aisa. Luze ez duela oraindik, norek usteko zuen gauzak egingo zirela euzkeraz oin ongi.</p>
+<p><hi rend='Italic'>Gaurko jaia</hi></p>
+<p>Nai zuten ezabatu gaurko jaia, ez dute ba&ntilde;an ardietsi, jaia gordetu dute jendiek. Batzuek goizean izan zuten lana ba&ntilde;an arratsaldeko olga zagon jendea. Elizak mukuru egon dire elizkizun ospetzuetan eta eguna lasai ta bakean joan da. Gauz batek arritu gaitu, aatik, ez beita izan ostegun disdira eguzkia bezala, erran zaharrak dionak, goibel ta euritsua ba&ntilde;o.</p>
+<p><hi rend='Italic'>Erlisione gabekoen elkarteak suntsi</hi></p>
+<p>Alemanin debekua eman dute erlisione gabien elkartean iraungitzeko. Asi ziren egunda&ntilde;oko gaiztakeriak barreiatzen eta gezurrez nahasten bazterrak. Ta laidoa ta iraina besterik ezioten sinistunari. An itxuskeri gaitza da. Erlisionerik ez duenak ez du zergatik bota irainik duenari. Sinesgaitzenekoa da erlisione gabeko laidoztatzalien seta txar au. Ez duzutela sinesten? Utzi, ba, sinesten duena bere bidean. Ongi egin dute Alemanin olako gizonen elkarteak ezeztatzen.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>EGUNEKO BERRIAK (X)</p><--</head>
+        </front>
+        <body>
+<p><mentioned><hi rend='Italic'>La Voz de Navarra, </hi>1932-V-13</mentioned></p>
+<p><hi rend='Italic'>Irakurlieri</hi></p>
+<p>Egun oketan ez dugu elkar ikusi, irakurle maiteoik. Bazen euzkel-solasa nerea ba&ntilde;o obea ta uste dut onartua izanen duzutela. Orrexengatik ni, kuku, agertzen beinaiz bestiek uts egiten dutenean. Beti ere, zuen aldetik eta niketz ere bai, agur esaten diet idazle berrieri ta agian idatziko al dute alik usuen. Jarrai, ba, zintzo, Irur Lagun, Manezaundi ta Irular begiko oik.</p>
+<p><hi rend='Italic'>Berriak ugari</hi></p>
+<p>Saskibete bat izan dugu egun oketan, bereziki Prantze aldetik. Badakizute nola erail zuten lazki Prantzeko buruzagia. Or ari dire ez dela ora&ntilde;ik jakina erailea nor den zein den ortara bulkatu zuen txede gaiztoa. Gorguloff deritza gaizkileak ta batzuek diotenaz, komunista gorria da ta besten esanera, lagun muskerra edo ferdia. Orai, margoz aldatu bide dute nahasliek, lenagokoa gorria izanik. Orai olako gaizkilieri esan bearko diegu lagun ferde. Beti ere, gauzak ez dire argitu ta Gorguloff ez dakigu ora&ntilde;ik zeri lot. Lehenetan ustea zabilan eroa ote zagon, orai ba&ntilde;an buruz aldatuxe omen dago epaikaria edo jueza. Ez omen dirudi oin eroa.</p>
+<p><hi rend='Italic'>Buruzagi berria</hi></p>
+<p>Dena den gaizkileari buruz, Doumer jaun gizagaizoa larri unkitua izan zen ta biaramoneko goiztirian il zen. Egun oketan bildu dire aldun ta zenaturrak (latetxe ta senadu) ta beste buruzagi bat izendatu dute, Lebrun jauna, almen aundiko gizona, oso artakoa ta perestua. Beti ere, boz geienak ditu beretuak ta ustea dago ongi bai ongi beteko duela bere zera.</p>
+<p><hi rend='Italic'>Langabiendako Bilbon</hi></p>
+<p>Euzkotar langileak daude Bizkayan lanik ezak. Orai arte, dirua ematen zitzaien lantsari-bide. Oraiko ontan euzko-langilien sakela xaitu da arrunt ta diru emate au utzi bearra izan da. Gaixoak bear gorrian aurkitu ziren, nondik jan ezakitela. Orduan bildu ziren arien batzarra ta dirudunak eta. Guzien artean erabaki eder-ederra artua dute ta goraintzigarria. Egunoro ematekoa bazkaria langabieri. Atzo eman zen lenengoa ta jendiak ateratzen ziren goreska, zerbitzua txukuna ta propia, janaria, naikoa ta ongi egosia, ogi ona ta baso bat ardo, aundia. Gauzak larri irautekotz, langabiek beintzat janen ahal dute. Ta egia bada, janaria berez ez dela aski, egia da ere bai obeki iardoki deikela janez aliketa aldi txarrak igazi arte. Txistua zuten bazkaldu bitartean, askundea edo <hi rend='Italic'><foreign>inauguraci&oacute;n </foreign></hi>izanez.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>EGUNEKO BERRIAK (XI)</p><--</head>
+        </front>
+        <body>
+<p><mentioned><hi rend='Italic'>La Voz de Navarra, </hi>1932-V-14</mentioned></p>
+<p><hi rend='Italic'>Euzko-jaia Narbarten</hi></p>
+<p>Eldu den igandeko aratu dire jai pollitak. Goizean pillota-jokaldia, arratsaldean, JEL-batzarra, izlariak izanen direla Tolosa ta Egibar azkarrak ta Iru&ntilde;eko Miren neskatxa pollita ta izlari gurena. Su ta gar dabiltza bazterretan jai au dala-ta, eta ustea dago bilduko dela jendeketa gaitza.</p>
+<p><hi rend='Italic'>JEL-batzarra Arbizun</hi></p>
+<p>Barrankako erri begiko ontan, JEL-batzar garrantzi bat eraldu da ere bai. Aspaldi ontan ari ziren arbizuarrak zerbeit omentsu egin bear zutela-ta. Or doaye. Bertan mintzatuko dira Azkarate-tar Joseba, baztandar ezauna, Napar-Buru Batzarkidea bera ta Goikoetxea-tar Kepa, uartearra ta izlari errimia den F. Zabaleta-tar Jule, Emakume-Abertzale-Batzaren lendakari ospetsua. Orriak barreiatuak izan dira bazterretan eta eldu zaizkigun berriez, jendea bilduko da.</p>
+<p><hi rend='Italic'>Doumeren eorzketa</hi></p>
+<p>Egin dute Parisen ospe andiz. Gorpua eraman zuten lendabizi Notre Dame delako elizandira. Bertan meza nausia eman zuen Verdier kardenalak eta andik artu zuten Panteon delako illegira. Emazteak agindua beitzuen sendi-illobira eramateko, andik ateratuta, ola egin zuten.</p>
+<p><hi rend='Italic'>Estatuto dala ta ez dala</hi></p>
+<p>Espa&ntilde;ako bazterretan izkanbilla ta izkiriu besterik ez. Estatutoa dela solasgai. Katalanek nai dute beren eskubidea biurtu diezaten, Espa&ntilde;ako jendiek ordean entzun ere ez dute nai. Okek esaten beitute nausiak direla ta bestiak menpe emateko nai ta naiez. Beti ere, elkarren aurkako oldarretan dabiltz. Eskerrik eta Aza&ntilde;ak esana beitu estatutoa pasatuko dela. Or dabiltzan saingari so eginen balitz, etsitzeko ginuke gauza, espa&ntilde;ar amorratuen aldetik naimen ona ez beita inundik ageri.</p>
+<p><hi rend='Italic'>Euzko-jaia Bartzelonan</hi></p>
+<p>Zuek, euzkotar usteloik aitxakitan ibiltzen zeratenak euzkera ori dela ta au dela, jai bat izanen da Bartzelonan biyar igandean, <foreign>Palacio de Proyecciones </foreign>delako jauregian. An agertuko dire euzko-bizitzako irudi batzu ta euzkeraz ere gauzak eginen dira. Orra or Bartzelonan. Zuk bearbada ustea izanen duzu euzkerak ez duela balio ezertako ta or duzu Bartzelonara eramanik. An jendiak badire, ba, sudurretik aruntzaxe ikusten dutenak. Aintzakotzat artzen badute euskera olako jendiek, zer duzu, ba, zuk errateko?</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>EGUNEKO BERRIAK (XII)</p><--</head>
+        </front>
+        <body>
+<p><mentioned><hi rend='Italic'>La Voz de Navarra, </hi>1932-V-21</mentioned></p>
+<p><hi rend='Italic'>Araudia</hi></p>
+<p>Araudia bai edo dakizu, irakurle orrek, zer den. Estatutoa, euzkera zakarrean. Ederki zoayen Euzkadin eta emen Naparran ba&ntilde;an ezkertarrok esan dute orainik ez direla jakitundu ta Udal-Batzarra atzeraxe eman-bearra izan da. Garagarrillan, 19gnean izanen omen da. Zu sutsu zabiltza noski araudiaren alde, euzkalduna izan eta olako sendimenduak ez eukitzea ez beitire ongi artzen alkarrekin. Ba&ntilde;an gure euzkera eta gure oiturak, itz batez, gure gogoa galdua dugunez geroz Naparran, badire jendeak emen atzerriari leia diotenak gureari ba&ntilde;o geiago. Zoaz ba olakoengana, araudia au dela ta ez dela. Azpako bentara igorriko zaituzte. Ta kanpokoak bizi dire azkar gure artean ta okek, alegia, araudiari uko ere bai. Beti ere, zu bazera napar zintzoa, ez gero etsitu, araudiak ateratu bear du zelan edo alan.</p>
+<p><hi rend='Italic'>Doipuruaren gutuna</hi></p>
+<p>Aita Sainduaren Karta. Egun otan edatua dute lurbiran. Ederra da benetan eta kistar-mamiz jori-joria. Oldozgai ta eginkizunatan die agitz giristinoeri, ikasi nai ba-dute. Ta lurreko guzieri ere bai. Gauzak makur dabiltza oraiko ontan. Ugolde-garaian bezain larri, noski. Gizonak erdoiztu dira guztiz, grinarik ez dutela diruena ba&ntilde;o. Ta orduko artan bezala, zigorrak etorri bear dute azkar, ikusten dugun bezala. Orai ere erreka jotzeko urrana dago gizadia, diru-gosez.</p>
+<p><hi rend='Italic'>Done Urban</hi></p>
+<p>Gaskuen ari dire prestatzen elizkizuna. Omengarria izanen omen da aurten ere. Zuek, euzkaldunoik, badakizute nola egiten den aspaldiko jai au. Ez utzi, ba, aurten ere Gaskuera joan gabe, arimak eta gorputzak egun ederra ta alaia pasatzen oi dute-ta.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>BERRI BERRIAK (I)</p><--</head>
+        </front>
+        <body>
+<p><mentioned><hi rend='Italic'>La Voz de Navarra, </hi>1932-VIII-13</mentioned></p>
+<p><hi rend='Italic'>Matxinada bazterretan</hi></p>
+<p>Madrillen bereziki gogor ibilli da. Sevillan ere bai, naiz ez odoltsua, angoa, Madrillekoa bai ordean. Bere artan gelditu ziren ilotzik zenbeit, ta zaurtuetarik izan dire illak ere bai beste zenbeit, orotara, amabost edo, periodikuek diotenaz. Zer nai ote zuten? Batzuek esaten dute erregea nai zutela, beste batzuek ordean bestelako gobernua, errepublikain barnekoa balitz ere. Sanjurjok esanari aditzen badiogu, esango digu arek ezuela nai erregea bestelako gobernua ba&ntilde;o. Madrillen ordean ibili diren jendiek ikurrak eta, erregiarenak, zaramazkiten. Beti ere jo dute alik geieneko eskuartez. Izkilluak bazituzten ugari ta errimeak, eskuko ta luzeak. Itxuraz, nai zuten Bidai-Jauregia arrapatu ta andik mezuak egorri Espa&ntilde;ako bazterretara nola nausituak ziren Madrillen eta amor emateko erri guzietan. Gauzak ordean bestera jo zuten. Burruka latza erabili zen Bidai-Jauregiaren inguruetan. Gobernuaren gudariak joan ziren zalui ta leiatsu. Poliziko buruzagia zoayela aintzin. Bi orduz aritu ziren tiroka ta azkenean gataskariak joan ziren iges. Bidai-Jauregira sartu nai izan zuten ba&ntilde;an an ziren zibilak bidera atera ta atzera biali zituzten. Bere artan il zan agintari bat. Anartean, Sevillan gauzak zebiltzen larri. Sanjurjo, buruzagi ezauna, ango gudari guzien buru eman zen, indarrak oro bilduta bere menpera. Madrilleko zerak porrot eginik, arek guti zezakean arrezkero ta Sevillatik atera zen iges. Huelvarakoan, zain batek preso altxa ta atzilotu zuen erri artan. Gaberako Madrillerazi zuten. Gauzak einera iduri dute ekarriak gargero. Ez badire bikoizten, obe.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>BERRI BERRIAK (II)</p><--</head>
+        </front>
+        <body>
+<p><mentioned><hi rend='Italic'>La Voz de Navarra, </hi>1932-VIII-19</mentioned></p>
+<p><hi rend='Italic'>Abertzale-jaiak</hi></p>
+<p>Igandeak oro beteak dire gaurgero emendik udazkena bitartean. Eldu den igandean, Lizarran izanen da Emakume-Abertzale-Batzaren askundea. Izlari gorenak mintzatuko dire, emengo ta Agirre aldun edo diputadu jauna ere bai. Su ta gar omen dabiltza alde artako abertzaleak gauzak andizki ospatzeko ta ozte gaitza elduko omen da inguruetarik baita Naparra barnetik ere bai. Urrengo jaiak izanen omen dire Ilunberri ta Uarte-Arakilen. Lizarrara nai duenak eman beza izena Euzko-Etxean larunbata ba&ntilde;o len.</p>
+<p><hi rend='Italic'>Omengarri zinez</hi></p>
+<p>Lengo egunean izperringi onek zekarren nola Baionako apezgai-etxetan (seminariotan) euzkel-mintzoa ta euzko-edestia irakasten den. Oraiko ontan jakin dugu ango <hi rend='Italic'>Gotzain-Deia</hi>-n berri ematen dela aba Landheren iztegiarena, sarri agertzeko dena Parisen. Leia dago nabari jauregi artan euzko-gauzetako. Ola nai ginuke guk ikusi Euzkadi guzian. Badakizute nola Baionako apezpikuak edo gotzainak euzkeraz egiten dituen bere menpeko euzkeldunendako gutunak edo kartak. Ta beti sustatu ditu ta bizkortu apezpiku begiko arek euzkeraren aldeko ekinak.</p>
+<p><hi rend='Italic'>Abertzaleak dabiltz prantziko iparraldean</hi></p>
+<p>Breta&ntilde;a da erri bat aitzin-aitzina lehendanik ere eskubide berezia duena. Prantzin menpe dago orai. Ba&ntilde;an aspaldi ontan esnatzen ari dire ta grinatzen ango erritarrak ea nola dauden besteren mendean. Ta badire an ere abertzale porrokatuak. Lengo egunean jaia zuten Bretaniaren Prantziriko eraskuna edo atxikipena ospatzeko. Jende pikuak ziren joanak, altsein-burua ere bai. Ba&ntilde;an egun berean, beste iri batean, jauzarazi zuten monumento bat, Bretaniaren menderatzea ospatzeko eraikia 25en urte ditu. Abertzale gazteak omen dire ok, jauzarazle ok.</p>
+<p><hi rend='Italic'>Matxinadain ondarrak Espa&ntilde;in</hi></p>
+<p>Bahituak izan dire jende-mordoskak bazterretan ta espe altxatuak. Suteak izan dire, erre direlarik etxandi, jauregi ta eliz zenbeit. Orai pakea omen dabil.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>BERRI BERRIAK (III)</p><--</head>
+        </front>
+        <body>
+<p><mentioned><hi rend='Italic'>La Voz de Navarra, </hi>1932-VIII-30</mentioned></p>
+<p><hi rend='Italic'>Buru-barkamena</hi></p>
+<p>Epaikariek ilgarri eman zuten Sanjurjo buruzagia altzatu zelakotz gobernuain aintzi edo kontra. Ba&ntilde;an jendiek eskaturik bazterretan, eriotza zugurtu diote, espe utziaz betiko. Baziren ordean aren burua eskatzen zutenak. Ta bitxia dena, eskertarren aldekoak. Bitxia da gero au, konstituzioneko legeak esaten beitu inor ez dela iraila izanen. Ta lege onen aldeztale sutsuenak ditugu eskertarrok. Ortaz beraz bakaneko gauza da ok legea ezabatzeko eska dezaten. Ola gertatu da, ba. Azkenik, ba&ntilde;an, zentzuna irten da nagusi ta barkatu diote. Olabearra, gauzak eratsu joatekotan.</p>
+<p><hi rend='Italic'>Aur euskeldunaren eguna</hi></p>
+<p>Dugu eldu den 4gnean. Elizondon ospatuko da omen aundiz. Orrengatik alik geieneko ospea emateko, bear da guraso euzkeldun guziek Elizondora eraman ditzaten aurrak, euzkeldunak izatekotz ok ere, bestela xugurtu dezakete ara joatea. Ba&ntilde;an aur euzkeldun batek ere eluke bear gelditu ara joan gabe. Zer ikusiko da an? Sorpresak izanen dire berebizikoak. Beti ere, joanen direnak ez dira damutuko, ez eiki, batez ere txikiak. Zer esan ta aipua izanen dute urtebeteko. Ta aurpegia, boz ikusteko aurrak urtebetean, alegintxu bat egin deike gurasoen aldetik. Ola ardiesteko bein ba&ntilde;o geiagotan aritzen dire aitamak jostailiuen oroska. Orra, jostailuak oro batera artuta ba&ntilde;o atsegin geiago izanen dute aurrek, Elizondoko ikuskariak gozatu ondoan. Ez utz, ba, aitama euzkeldunoik, aurrak joan gabe Elizondora.</p>
+<p><hi rend='Italic'>Lekunberriko JEL-jaiak</hi></p>
+<p>Zoragarri ateratu ziren, ustea zen ba&ntilde;o oztetsuago. Ba&ntilde;an erri ta inguruetako errixketatik ain ausarki ziren etorriak baserritarrak non eta esan beizeikean an ikusi jende geiena zela bertakoa. Batzarraren urren, etzen gero makala an sortu zen zaratia, erromeria zela-ta. Mutil-neskatxak ezirenak ere bai ingurutxo ustaiari lotu ziren egunda&ntilde;oko izkiritu ta irrintzika ta anka-erainka, ikusliarrak ere zoratzeko a&ntilde;a. Batzarrean mintzatu ziren Egibar, Montzon eta Agirre alduna ta Kareaga neskatilla, lira&ntilde;a eta iztun garaia bera. Sarkor eta bipil iardun zuten iruek, biotzak inarrosiz. Egun ederra izan zen eta oroimenari luzaz atxikitzekoa.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>BERRI BERRIAK (IV)</p><--</head>
+        </front>
+        <body>
+<p><mentioned><hi rend='Italic'>La Voz de Navarra</hi>, 1932-IX-4</mentioned></p>
+<p><hi rend='Italic'>Maisu-batzarra</hi></p>
+<p>Gaur asiko da zortzi eguneko. Zabalduko da, Irakas-Altseina dela buru. Eskola-gaiak eta abar erabiliko dire. Zazpireun maisu-maistra ba&ntilde;o geiago omen dira etortzeko. Garrantziak izanen direla gaiak diote. Ikusiko ea ukitzen dioten euzkerari. Emen pedagogia gora bera, euzkera beti maipe. Maisu-maistrak bear ditugu euzkeldunak. Ez badugu geok euzkeldunok ardiesten bear duguna, eman dakigun euzkeraz ikaskizuna, alperrik ditugu olako pedagogi-asteak eta urteak ere bai. Itarauan edo programian ez dugu ikusi argiztuko den gai garrantzi au.</p>
+<p><hi rend='Italic'>Aur euzkeldunaren eguna</hi></p>
+<p>Ona eldua, Elizondon. Jai begiko au asi zen zenbeit urte ditu ta gero ta eratsuago egiten dute. Aurtengoak ez dio zorrik izanen lengo urtekoari. Goizean, meza nausia aurrek abestua. Gero irakur itz eta olesketa, bertsolari txikiak, Baztango mutikoak direla iarduleak, eskola-erakusketa, Koruko Ama Neskutzaren aurren gain. Eguerdian bertsolari andiak, bazkaria, onen urren euzkeraren aldezko batzarra, eletariak izanki Urreta'tar Mikel eta Ariztimu&ntilde;o'tar Joseba. Ondoko, dantzak eta antzerkia, euzkeraz dena.</p>
+<p><hi rend='Italic'>Errepublikako buruzagia</hi></p>
+<p>Etortzeko omen da 16an. Eguerdian elduko da Iru&ntilde;era, emen bazkaldu ta seietan atera. Gaztiegua ola du emana gobernadore jaunak. Ura ba&ntilde;an, eziren Tafalla ta Tudelara.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>BERRI BERRIAK (V)</p><--</head>
+        </front>
+        <body>
+<p><mentioned><hi rend='Italic'>La Voz de Navarra, </hi>1932-IX-13</mentioned></p>
+<p>Geiago pagatu bearra. Madrilletik berri txarrak eldu zaizkigu. Aza&ntilde;ak, gobernuko buruzagia berak, periodikeru bati esan dio Naparrak guti pagatzen duelako geiago pagatu-bearra dagola. Ta orai zeri lotuko gara? Gobernuaren kontra gogor egitekoari? Ikusiko. Aulak ditugu oraiko gizonak gauzak aurrera eramateko. Induria balego, emen, gauzak aterako ziren estatutoaren aldez. Ta orra or nola gauden erreka-joak. Jaunak ez baditu Naparrako zerak bide onera ekartzen, gureak egin du.</p>
+<p>&mdash;Zaude, gizona, kopetillun agertzen zitzaigu gaurko ontan. Ez orrenbeste. Naparrak badaki ateratzen poltsa zirikatzen zaionetan. Orai ere aterako da. Uste duzu zuk ola geldituko garala, gobernuak agindua bete-bearrak maltso-maltso? Ez balinba!... Lenago ere gilika egin ziguten sakelean ta jauzi batez bota ginuen gobernua, gu pakean utzita.</p>
+<p>&mdash;Egia da, egi garratza ordean naparrak mugitu direla tin-tin egiten dieztelarik sakelean. Ba&ntilde;a ogendune ez dugu erria, erriko zuzentzaleak edo obeki errateko, zeiartzaleak ba&ntilde;o. Tzarreneko izan ditugu aspaldi ontan buruzagiak. Oraikoak ere ezin makurragokoak ditugu. Orrengatik gaude zalantzan gauzak nola aterako diren emen Naparran, gogor egiten badigute Madrilletik. Badakizute artzaia zaututa, barreiatzen direla ardiak. Orreri gaude grina gu, Naparrako ardi gaxuok ez ote diren sakabanatuko, ez beita artzainik emen.</p>
+<p>&mdash;Ez etsitu ordean, istripua dagolarik urbil, erriak baarak egingo du zer bear duen zera. Egun artan naparrak ez dire mugituko sakela atzimurkatu-ondoko. Jaliko dire bipil, gogoan autemanen beitute olde zakarra. Batzu asiak ditugu biotz eta buru-indar au nabaitzen. Ta oken artean baidira, bai, artzaiak, propiak alare.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>BERRI BERRIAK (VI)</p><--</head>
+        </front>
+        <body>
+<p><mentioned><hi rend='Italic'>La Voz de Navarra, </hi>1932-IX-14</mentioned></p>
+<p><hi rend='Italic'>Euzko-jaiak San Juanen zelain</hi></p>
+<p>Izan ziren azken igandean ta polliki erdu zen jende-oztea. Iru&ntilde;ek leia dire gero ta geiago euzko-gauzeri. Olako jai bat egiten denean, ikusliarrak joaten dire azkar. Olaber gertatu zen igandean. Gogoan euki bear da joanak zirela abertzaleak Uarteko batzarrera non eta mintzatzen beitzen Agirre aldun jatorra. Bertzalde, traineruak Donostin eta mezetak anitz errietan. Jakiteko zenbat jende aldaratuak ziren Iru&ntilde;atik, aski da erratea larunbatean ezin zeikela ediren autobus ere Iru&ntilde;an, oro zeuden izpe ta. Onen ondoak aisa da ulertzea zelaian izandako jendea askotxu zela.</p>
+<p><hi rend='Italic'>Etzi jai aundia Donostin</hi></p>
+<p>Egun ontan Errepublikako buruzagiak estatuto katalana izenpetu du. Artara daude deituak Katalunyako aldunak eta Euzkadikoak eta beste batzu. Dei berezi bat bialdu die Prietok gure alduneri, naiz eskubi naiz eskerreko ta orotsu elduko dire. Jel-aldunak beintzat joanen dire ta partiduak edo alderdiek atzodanik du emana agintza bat joateko. Pozkarra da bazterretan sortua, agintza au dela garri. Dakigunaz, JEL-aldunak mendigoizale-zaintza ederra eramanen dute. Aurrez, mendigoizale talde bat-oztetsu-onen urren, ezpata-dantzari-lerroak saetsean edo alboan, ta atzetik mendigoizale-sail bat, oztetsua bera, gero erria.</p>
+<p><hi rend='Italic'>Errepublikako buruzagia Iru&ntilde;an</hi></p>
+<p>Etortzeko da 16an esan ginuenaz lengo egunean. Agak eta oialak eta margoak barreiatzen ari dituzteen karriketan ta jaiantzo bilakatzen asia dugu iria. Orai dabil Gipuzkoan txaloak eta abegi onak artzen bazterretan, izperringiek diotenaz. Lengo egunean, Donostin zagon jai batean ta bukaeran asi ziren abesten Gernikako Arbola. Ura buru-erantzi zen eta txutik eman. Orduan an zagon Rafael Pikabeak alduan bera, ele bat izan zuen esanaz Primo de Riverak ezuena nai izan altxefuere Tolosan. Azkenean, <hi rend='Italic'>gora Euzkadi!</hi> bota zuen.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>BERRI BERRIAK (VII)</p><--</head>
+        </front>
+        <body>
+<p><mentioned><hi rend='Italic'>La Voz de Navarra, </hi>1932-IX-18</mentioned></p>
+<p><hi rend='Italic'>Espa&ntilde;ako buruzagiaren etorrera</hi></p>
+<p>Iragarri-arabera joan dituzte gauzak, makurrik ez ta. Eguerdian sartu zen Portal de Takonera delako tokian barna, Naparrako Jauregirantza. Bide-bitartean ziren jendaketa, lerroak argaltxu ziren Paseo de Balentzira sartu arte. Antxe, usutxuago ta Jauregiaren inguruetan, sarri. Txalo ta esku-zarten artean azaldu da balkoira, itzalditxo bat esan-bearretan. Aurretik ziren mintzatuak Iru&ntilde;ako alkatea ta Prieto Altseina. Ez dugu onetsi alkatea. Ezuen ezagun Iru&ntilde;ako alkatea zen edo Soriakoa. Aipu ere ez, gure eskubidien gain. Prieto asi da ongixko. Orduko artan jendeak atera balitzaizkio otxin eta suztagarri, elea abiatuko zitzaion gora-goraketan. An ziren jendiak ba&ntilde;an, fueroak eta zer diren guti zakiten edo axolik eziezten deus. Areago autematen inun den leiarik. Prietok ikusirik jendiak ezituela jaukiak bere esanari, bestalde jozuen. An zirenek bildu balute arek esaten asia ta gogoan atxikiko, pixka bat ateratuko zen noski. Gauzak ola joan dira, deus ezela nabari euzkotasuna edo napartasunari buruz. Goien mintzatu zena Naparran alde izan zen buruzagia bera.</p>
+<p><hi rend='Italic'>Araudia</hi></p>
+<p>Berriz abiatzen asia. Lengo egunean batzartu ziren Bilbon amazazpi aldun (ogei ta bietarik) eta asmoa artu zuten eragiteko berriz araudi edo estatutoari. Esan ginuen nola uts egin zuten karlistek. Uste dugu ba&ntilde;an ez direla gogortuko beren temian, kinka larrira-mehatxu egonen lirake-ta. Aise ikusten da Euzkadik zer eskeinia duen. Estatuto-kara, gero eta geiago. Sartuko ez direnak erriak erazten duen bidera, bazter geldituko dira. Etorriko balitz estatutoa, ta etorriko da, nola karlistek arbuiatuko lituzteke izanen diren karguak? Aldunen-autatzerakoan, ez dituzte autatuko aldunak? Jaurbide edo gobernueri uko eginen al dute? Baiezkoan, erriak uxatuko lituke. Eta ezezkoan, galdua dago arien almena beti-betierekotz. Sartu-bearra da estatutoa, karlistak gora bera. Ez da zuhurra bazter gelditzea. Ortaz beraz, ustea dago karlisten ukoak ez duela iraunen. Anitz poztuko gineke Euzkadiko aldunak oro batera etortzen ikusteaz.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>AN EMENKAKO BERRIAK (II)</p><--</head>
+        </front>
+        <body>
+<p><mentioned><hi rend='Italic'>La Voz de Navarra, </hi>1933-II-25</mentioned></p>
+<p><hi rend='Italic'>Bakea</hi></p>
+<p>Mozki asaldatu ziren euzkel-idazleak, tipikeria zela aitzakia. Jadanik bakea dugu itxuraz, finkatua bazterretan, izkatze gogorra eztitu ta akarrak, otzaldi, obe. Zer nai den ere, ez dazkigula kaska Jainkoak ain xuhur emanikako euzkel-idazleak. Ortaz beraz, ezin dugu buruan koka zergatik ipintzen diren olako aitzakia gilikorrak, euzkelgi au dela obea, euzkel idazliek au ta ori egiten dutela ta abar. Uko, beraz, liskarbide oeri ta deramala nork bere bidea, berriek ta zaharrek, euzkelgi ontakoek eta artakoek, onaindi ta araindiak. Euzkelgi guziak ederrak dira, oroek dute nabarmenik. Bego, ba, auzoa bakean. Euzkera osotuko den egunean ez da izanen au ala ori, laburkera ala gipuzkera, Nafar-mintzaira ala Bizkaikoa, guzitarikoa ba&ntilde;o. Euzkelgiak ditugu einean, bat, soilik artuta, eskaxa da, edonungoa den ere, osokoa izan ditakenari erkaturik. Ez derragun, beraz, euzkelgi bateri datxikogula leia ta ez bestieri. Ni naiz euzkelduna, ez ordean nabar-labur-giputz-bizkai ta abarren berexkako aldezkaria.</p>
+<p><hi rend='Italic'>Espa&ntilde;ako politikeria</hi></p>
+<p>Ari dute tranka-barranka. Aintzineko azpiko-jokoak derabilzkite egungo politikoek. Gobernua uzkaili-bearretan xeta. Orai ere naiz eta erkalak <hi rend='Italic'><foreign>stylo</foreign></hi> berria sartua omen duen arras Espa&ntilde;ako moduan. Lerroux eta lagunek giderra nai luteke atzitu. Orra ok, nausigoaren gose, besteak aldiz, uzteari uko. Beti ere, zalantzan dute erria ta legegintza, auer gorritan oso. Bitxabala ba omen dute bearra Alicante delako errian. Zuzena omen da ura egina dadin. Ba&ntilde;an radikal politikeru oiek ezetz-ketan daude gogortuak egun oketan. Ezetz onek trabatuz, abiatu ta bere artan dute gauza so. Lurra-jo-bearrak omen dauzkate Aza&ntilde;a ta aialdekoak, sozialista lagun oik. Guk ordean uste dugu Lerroux ez dela etorriko, erauziko luteke-ta jendiek, igan bezain laster. Gaurko aldun-batzarra bearko luke barreiatu, ba&ntilde;an Buruzagiak ez omen da aier ora&ntilde;ik. Gure alde beintzat, Lerroux etorrita gauzek makurratago joko luteke, erra beitio gaitza autonomiari. Abertzaliek gogor-egin bearko genioke ta oldar oroz.</p>
+<p><hi rend='Italic'>Erriak nahasi</hi></p>
+<p>Nora ta burua biurtzen beitugu, an dira zinak eta minak. Alemani dugu axpaldi ontan Hitlerrek esku gogorra ezarria. Englanden kezkak eta grinak ausarki. Prantzi, kordokan, gobernuak ezin direla finkatu, iru beitaude ukanik zenbeit egunez. Asian, guda-asotsa. Baita ere, Ego-Ameriketan. Iparrekoan, gauzak larri dabiltza ere bai, gosea beitute eremu gaitzetan edatua. Begira daude angotarrak ea noiz asiko den Roosevelt eta kidekoen buruzalgoa. 40 orduko astea ibili zen solasa ixildu da. Bazterrak bai edo dira ketxu bizitza gareztiko ote den. Gareztitze berriak erosliarren uko minagoa ateratuko bide luke. Ta areago eskastuko lana. Bortitza da gero eskaste au ta ainbeste lengilen ein latza. Aldi ta ereak ditugu mehatxu. Ea nonbeitik atertzen den.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>AN EMENKAKO BERRIAK (III)</p><--</head>
+        </front>
+        <body>
+<p><mentioned><hi rend='Italic'>La Voz de Navarra, </hi>1933-II-26</mentioned></p>
+<p><hi rend='Italic'>Inautea</hi></p>
+<p>Egun asten da aurtengoa. Euzkalerrian izan dugu beti pozkor ta alaitu. Aundiak eta txikiek, gaztiek eta zaharrek bazuten zertaz gozatu. Mozorroak karrikara-orduko, erritarrak dantzan. Ikatza eskumenetan izanki, mutillek ez dute beste makillaje bearrik ere. Moro ok neskatxeri agertzearekin, ara karraziak eta txilloketa eta zarrastak. Badoatzi baita ere mutikoak nausieri idurizkatuz, zakuetan sarturik, kalerik kale. Ustekabean, atso Katalin agertu da karrikan furrunka, traste debru aieri egotziz apaldi gorriak. Mordoska jokatu zaio ta baderamate aurrera, atsoak esia eta ezin autsiz... Zarratrako alaenak! Deabruain piztiak! To! Auxe bekokea, nausieri lotsa galtzen besterik ez beixakitek... Aspaldion aske xabilak lasaikeria munduan.</p>
+<p>Beti ere, erritarrak jolasten ziren azkar eta inaute, aipua zabaldua zen bazterretan non eta, egun okez gainera, egiten beitziren inaute-jaiak urteko beste egun batzuetan ere. Oiartzun-aldean egiten ziren bestak urtebarruko egunetan ere. Emen, iru&ntilde;arrok bai edo ginuen Arrotxapean mozorro ospetsu bat, onetik izena beitzuen ekarria etxe batek. Au, ba&ntilde;an, ez omen zen aragizkoa atso Katalin, karako lurrin, ikaratzen zuten bezalakoak baizik eta baratzean zagon Txori-Mutil galanta bat, auzoan naski azkarrena.</p>
+<p><hi rend='Italic'>Baionako apezpikuak euzkeraz</hi></p>
+<p><hi rend='Italic'>Eskualduna</hi>-k, Baionako astekari bipila, dakarra ango apezpiku jaunak eliztarreri eman garizuma-idazkia. Idazki au, oi bezela, euzkeraz dator. Ango euzkeldunak zoritsuago dira onaindikoak ba&ntilde;o. Zergatik ez da egiten berdin? Lengo egunean zekarten emengo izperringiek gure apezpikuaren idazki-berria ta ez dugu jakin onezkeroz euzkeraz emana denik. Emengo euzkeldunek, ez ote dira ariek bezain nor beren mintzairan? Ez dakigu gure apezpiku jaunak gai oneri buruz duen txedea, ba&ntilde;an zer nai den ere, esanen diogu, alik apaleneko lotsaz, eliztar asko gelditu direla agoa ezurrez beterik aren idazkia irakurrita. Olatan irakurri ala ez irakurri dute bertsua. Uste dut ausar ediren ditzakela apezpiku jaunak euzkeratzaleak, ba&ntilde;an euzkeratzale-bearra balitz emen naukate, atzeneko eliztarra ta otseina naizen au.</p>
+<p><hi rend='Italic'>Bidegabekeri latza</hi></p>
+<p>Donostian gertatu da egundoko lazkeria. Espetxe edo kartzelera eman dute gizon bat, epai-gizonek edo juradoek uts eginik, erantzutean. Nola izan dute ba uts ori? Aisa, ez beizakiten erderaz, auzia izanik erderaz. Epai-gizon buruak ola du erasana. Au gaizkintza! Gipuzkoan eta Euzkadi osoan gaizkintza onek sortu duen aserre-ikarea ezta aipatzekoa ere. Izperringiek auzia berriz ikusi bear dela diote, jendiak bazterretan suminak artuta, oroek esanka larri gertatu bear duela, uts ori ez bada zuzentzen, argi ta garbi ta zintzo ez jokatzekotan auzi ontan. Auzi au ikusteakoan, epai-gizonak euzkeldun utsak zirela oarturik, Audientziari eskatu zitzaion euzkeraz egiteko itateak. Otso gorri bat agertu zen espa&ntilde;azale-eskertarren aldetik, eskari bidezko au lurratu-naietan. Liberal okitu ta mihizko okek ez dute itxuraz ederresten euzkelduneri egitea euzkeraz naiz eta gizon bat, errugabe, kartzelera bota. Aurka edo kontra ateratu ziren, espetxera audikirik ere errugabea, deus axolik ez diela zuzen jokatzeak ala ez.</p>
+<p>Erkalaren mendean gaude ala otso txarren atzaparretan! Non da zuzena ba? Gizon batek eskatzen duenean, zintzo epaitu-bearretan, euzkeraz egin dakion, nundik eta nora epai-araziko al zaio ez dakiten mintzo batean? Ez beintzat zuzenez. Eskertarrek gizon onen bizitza ere galdatua zuten. Euzkera egitekotz azke aterako zela ikusirik, ez beitzen orren aitzi azalduko zenik epai-gizonen artean, nai izan dute indarka galdu. Ortako gutieneko den alderpidea ekendu nai izan diote. Baita ere erantzi epai-gizoneri zintzo epaitzeko gisa, ulertzen ez duten erderaz emanez auziketea. Ona dago olako erkala ta gaizkintz onen kide diren erkaldarrak!</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>AN EMENKAKO BERRIAK (IV)</p><--</head>
+        </front>
+        <body>
+<p><mentioned><hi rend='Italic'>La Voz de Navarra, </hi>1933-II-28</mentioned></p>
+<p><hi rend='Italic'>Estatuton bear gorria</hi></p>
+<p>Lengo egunean irakurri ginuen <hi rend='Italic'><foreign>Comisi&oacute;n Gestora </foreign></hi>delakoak trenkatu duela ixialdia ta badoayela estatutora buruz berriz ere. Zer nai den ere, adipetua bai edo dago igespiderik ez duela, ala estatutora ala ondamendira. Urran dugu Espa&ntilde;ako gobernuaren atzaparra, gai-gainean dugu aren disidu latza. Ezin baztertu doakaitz larri au ez bagera biltzen estatutoaren babespera. Gure euzko-senidiek asmo bera daukate atxikiz ta asi dira jokatzen arreri buruz. Orai, Nabarran, argimena galdatu dio Gestorak <hi rend='Italic'><foreign>Ponencia </foreign></hi>delako gizon-zuhur-bildumari. Ta uste dugu inor ez dela geldituko estatuton eske alik lasterren joan gabe. Ta balitz olakorik, ona gure onua: sartzeko erotetxea berandu gabe, burutik dagola-ta.</p>
+<p><hi rend='Italic'>Donostiko gaizkintza</hi></p>
+<p>Jendiak asaldatu dire Gipuzkoan ta alke-ondarrik badago euzko-zainetan, euzkeldun bat ere ez dagoke, gai dena, otzetan entzuteko Donostiako laido beltza. Mutil bat, euzkelduna, 21 urtez zigorpetua izan da, aske atera-bearrean. Zergatik? Jurado-ko gizonek ez beizakiten erderaz. Baietz esan bear zutenean, ezetz esan ta aitzitik. Au ez da inoren ustekeria, au da jurado berorien aitorra. <hi rend='Italic'>El D&iacute;a</hi> izperringiak argi ta garbi ekarri du onen berria. Antxe jurado buruak erasan du lagunek bere baitan zutela, bete-betea, fida. Gaizki erantzunik berak ere, nahasia izanez, bestien erantzuna aizun eta okerra izan bear zuen. Okek ere aitortua ta orotara azaldua dute uts egin gaitza, beren eskuaren idatziz.</p>
+<p>Au ez daike utsean gelditu, edo iraungi argi-txakurren gisara. Ez alabainan, bazterrak inarrosiko ditugu, beste auziketa bat atera arte, lurpetik ere. Zur edo bulur, onez ala azkartara, eutsin bear dugu zuzenari. Gizon bat, errugabea bera, aretsi arte dasakegu, espe dago laidozki, juradoek ez ulertuz erdera. Espa&ntilde;ar epaitzaleari eskatu zitzaien euzkeraz izan zedin auziketea. Arek ezetsirik eskari zuzena ta bidezkoa, gizon bat dugu kartzelan altxa. Euzkotarrak, eup...</p>
+<p><hi rend='Italic'>Euzko-etxeko jaia</hi></p>
+<p>Batzokia mukuru-mukuru txoko ta trokondotan, ospatu zen iragarri jaia. Ura zen euzko-usain begikoa! Neskatxak eta mutilak dena egin zuten ederki. Txaloak entzunik azkar. Iru&ntilde;arrak ziren ari izan zutenak ba&ntilde;an alaz ere, euzko-atsa zarioten. Saski-naski-irudi polita batzu atera zituzten apain, eratsu ta bizkor. Erakutsia dute atera ditezkela nora nai. Eremu estuxea dugu emen oro aipatzeko ba&ntilde;an gogotik eginen ginuke uste ba&ntilde;o polikiago atera beitzen dena. Emakumeak eta mendigoizaliak zintzo iarduki zuten irudi-bearretan eta ikusliarrak pozik eta atseginez eta irri-algaraka zeuden, sarri egingo delakoan beste jai bat, onen kidea.</p>
+<p><hi rend='Italic'>Sozialismok porrot OTF</hi></p>
+<p>Internazionalak, Amsterdan eta Moskovakoak, elgarretaratzeko omen daude. Onek esan nai du sozialistak eta komunistak ari direla elgarren eske, aulezian ba&ntilde;o. Erra gaiztoa izaten diote elgarreri biek. Erri guzietan, sozialistak agertu dire komunisten etsai porrokatuak ta okek ordea itzuli diezte aieri. Orrez geroz, elgar-bearra bada, gauzek larri jotzen bide dute arien aldetik. Alde batetik, Errusiko erreka jotzea agerian dago. Atzera egiten ari dire gero ta geiago ta zaluiago. Bestalde, sozialismo ta komunismoa argira azaltzearekin, beste ismo tzarren zuzperra, militarismo, faszismo, izan dugu. Gorri ta gorristek ez dute egin giza-zoriona, ba&ntilde;an, ordean aukera porropia ekarri diote aitzitiko indar gaiztoeri. Berebiziko aldiak ditugu beraz urran ok. Kapitalismo, sozialismo eta kideko ismoak, militarismo eta faszismo barne, laterri aundien aitzaki ta lazkarrak dira. Laterri aundiak xehakatuak ditazkenean, orduan bakea ta sosegua dukegu ludian.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>AN EMENKAKO BERRIAK (V)</p><--</head>
+        </front>
+        <body>
+<p><mentioned><hi rend='Italic'>La Voz de Navarra, </hi>1933-III-1</mentioned></p>
+<p><hi rend='Italic'>Berrian austerre-eguna</hi></p>
+<p>Inauten ondo, austerre. Arramak inaungita, isila dago nausi bazterretan. Au zen lehenago, orai ba&ntilde;o geiago. Orai ordean inaute-egunak oxta-oxta dira autesiak. Kanpion jaunak esana digunaz, Iru&ntilde;a zaharreko jendiok gaur ba&ntilde;o geiago jolasten ziren, argiago beitzuten gogoa oraitarren ba&ntilde;o. Au zion Kanpionek 1912gnean. Orduz geroz arexeago istu zaigu gotargia. Orduko Iru&ntilde;an, Kanpionek aipatzen duena, su geiago zakarten erritarrek inauteko jolasetako non eta arek ikusiak beitzituen neskatxa ta andere&ntilde;o arrulloak <foreign>Vinculo</foreign>-tik ateratzen austerre-eguneko goize lehenetan, etxera ba&ntilde;o lehen autoa artu bearrak elizan. Jolasak akitzera&ntilde;oko leiak ezien elizarako txedea traba. Ta 1912gnean gauzak ez larriturik onenbeste, grina zioten idazle azkarrari esateko aina. Gaur nekez aditzen dugu egin au, inori gaizpide ezitzaion egin au. Estik egin dugu, sagarroia laztua dugu agitz ta karlotik ezin erkina, sudurra uzkian kuku. Ea Igaratz-orduko aizatzen zaigun gogo uger ta urdin au. Asi gaiten beraz berrogei-karoan bear bezelako lotsaz.</p>
+<p><hi rend='Italic'>Gobernua kirrispide</hi></p>
+<p>Koloka dugu egun oketan ba&ntilde;an ez dute nai giderra lotu. Kaparrak ditugu gero altsein sozialistak ta kantigaitzak. Alaz ere ustea dabil uko egin bearko dutela gobernugoari. <foreign>Casas Viejas </foreign>delako zer orrek kaskartu du gobernua are geiago. Egunda&ntilde;oko lazkeriak gertaturik ere, ixilaldi dute oraiko ontan gobernu ta kidekoak. Aurkaldian, beitire orai ariek ere 19 gizon il bide dituz sosalistek oldarka gobernuaren indarrari. Orai berriz alde, kanpatzen den auzo artan menekoek. Joana da egun oketan batzorde bat, gauzak ez omen ziren agitu eratsu. Au dela aitzakia, igitu da arrankura, gobernuari aitzi, legetxean. Eskubi ta ezkerretik, aldun zenbeit mintzatu dire gogortxu esanez gobernuko mutileri auer andiak izan direla <foreign>Casas Viejas</foreign>-eko agikunen garbitzen, nai izan bazuten ariek, leiaz egingo zutela zuriketea ta ez egon ilabete batzu. Dena den, gobernuak abea bear zuen azkarra oraiz lehen ere ta koskatu da onekin. Ganburuak izanik ere larri noizpait ere amor eman bearko.</p>
+<p><hi rend='Italic'>Franzisko Idiakez</hi></p>
+<p>Au da Getariko mutila. Mutil errugabea, 21 urtez lazki zigortatua juradoek ez beizakiten zer esaten zuten auziko galdieri. Piskalak 14 urte eskatzen zituen ta lazkeria izateko larrieneko, artera zaio piskalak eskatuaz gaindi. Itxuskeri gaitzak azaltzen ari ziren eta zenbeit espa&ntilde;azale-ezkerreko zeudenean gaizkintz onen ugerretan itotzeko. Gipuzkoako jaurlariak ezarri du debeku gogorra ez iardokitzeko geiago. Ez dio axolik, zuzena berez ibilko da ta Espa&ntilde;ako legetxera ere eraman bear da auzia, oroek ikus dezaten lazkeria. Mutil zintzoa da Idiakez ta il bazuen, bere anaiaren aldez egin zuen, ildakoak il nai beitzuen Idiakezen anaia. Au erasan dute juradoek, ez nola nai ere izenak emanez ba&ntilde;o, idatziz. Beti ere, ezbearra arrunteko burrukan gertatu zan eta ez da beinere ikusi 21 urteko zigorraz jotzea burua aldeztu zuena. Or dabiltza iltzaleak ta gaizkinak, erre, lapur, oldarte ilgarrietan iardunak eta inori ezaio agotzi oin zigor larria. Zergatik Idiakezi? Artola jauna, olako auziak ez dira kilatzen ixil-debeku gogorra emanez, ez, baizik eta utziaz argirat azaltzera gauzak kukuak okek azpi-zapokeria beitute gaitza.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>AZKEN IGANDEAN</p><--</head>
+        </front>
+        <body>
+<p><mentioned><hi rend='Italic'>Amayur, </hi>C, 1933-IV-21</mentioned></p>
+<p><hi rend='Italic'>Euzkotarren igaratza</hi></p>
+<p>Ez gera gauza iragan igandeko gertaki miresgerrien berri zeatza emateko. Donosti txukunean azken igandean euzkotarrak irabazi ginuen gurenda ezin esanekoa beita. Dakizuten bezela, urte guzietan ospatzeko gera Aberri-Eguna delako eguna. Asi ginen joan den urtean Bilbon eginik ezin ahantzizko jai ederra. Aurtengoa Donostian zen izan-bearra. Bilbokoa ikusita, lehendanik ere baginakien Donostikoa ere izanen zitzaiola kidekoa edertasunean eta ospez. Ala gertatu da uste ba&ntilde;o geiago, ordean. Napartarrak erakutsi auta izan dugu. Joan den urtean joan ginen Bilbora amabosten bat tarranta aundi, aurtengoan ba&ntilde;an berrogeitasei agertu ditugu!</p>
+<p>Diotenaz, berrogei ta amarren bat milla bildu gera. Ainto au apalxea da, izandakoz beiti. Maitea pelotatokian, dirudienaz, sartu direko olako notintza. Pelota-toki au mukuru zagon alderdi guzietan. Guk xehetasun zenbeit atxiki genituen. Ona batzu. Txalotzerakoan jendiek eskuak gora egin bear zuten. Onek esan nai du mugitu ere ezitezkela estuaren estuz. Aize zabalean bazen ere alditxartuak izan ziren zenbeit. Ba&ntilde;an geiena esaten duena dugu auxe. Bi ordu laurden gutiz egondu ziren jendiak atera al izateko. Mendigoizale azkarreri ezker jendiak modu onean ateratu ziran. Emazu, beraz, sei notin ateratzen iruroiren batez ta izanen duzu or nonbeit berrogei milla. Urreta jaunak ola esan zigun ere bai. Tokiak omen ditu zazpi milla lauki-neurkin (metro). Emazu sei notinero neurkin bana ta orra or, berrogei milla notin. Emazu, ga&ntilde;era, kanpoan ziren jendiak sartu ezinak ta izanen duzu alderdi guzietarik berrogei millaz goiti zirela batzarre artan. Ez uste ba&ntilde;an Donostian ziren jendiak oro an zeudela pelota-tokian koka ala ta ezinala. Ez, ordu ortanxe kafiak eta jatetxeak jendez zeuden mukuru, inoiz ikusi ez danez Donostian. Xehetasun guzi ok batera artuta, esan deike bildu ginen abertzaliak berrogei ta amar milla goiti aise jotzen zutela.</p>
+<p><hi rend='Italic'>Batzarra</hi></p>
+<p>Ederra izan zen eta sutzua. Izlari guziek suaz mintzatu beitziren ta trebe alare. Lenbizi euzkotarrak. Ernandorena da euzkel mintzaile auta. Xaramelaturik utzi ginduzan aren itz sarkor ta kementzuak. Agirre gure aldun zoli ta bika&ntilde;a agertu zitzaigun euzkeraz ere bai. Itza du gero ere pollita, ikaragin ta ezti-jarioa Otero Pedrayo galizitarrak. Ba&ntilde;an ez azalez, pollita ta leuna, mamia ere bazekarren. Gauz oargarri asko esan zituen. Ona bat. Euzkotarrak eta galizatarrak eta katalundarrak daukagula gogoera eta eziera, Espa&ntilde;akoaz beste, gurea beita iparraldetarra eta Espa&ntilde;akoa Apirka aldekoa. Ba&ntilde;an geien arritu ginduena izan zen Maxpon jauna. Lege-gizona da bera ta legintza-gaietan agitz ikasia. Onek su ta keia ateratu zigun adiraziz zelako tzarkeriak egiten dizkigun Espa&ntilde;ak euzkotarreri, galizitar eta katalundarreri, bide txarra deramala Espa&ntilde;ak eta erreka jo nai ez badu, azkatasuna emateko burrukan ari geran erri oeri. Esan zuen argi ta suarrik nola galdu zituen Espa&ntilde;ak aren aldera bilduak zeuden lurralde guziak eta orai ere nola ez dakien izandakoetan ikasi. Amende jaunak ere bai mamitsu esan zuen. Ona beste gauzen artean. Etorria zela bere begiz ikustera Euzkadiren azkatasun-naia ta etsitua dagola emen ez dela deus aizunik edo gezurrik, baizik eta txutik dagola Euzkadi azke ibiltzeko bear-orduan. <foreign><hi rend='Italic'>C'est un peuple en pleine fa&ccedil;on renaissante</hi>. </foreign>Berpizkunde au ez da ez lau politikoek egina, ez, orriak berak autetsia ba&ntilde;o. Bukaeran Montzon jaunak itzaldi gozoa eman zigun, barren eta zoli. Iragarri zigun nola urbiltzen ari den azkatasun-ordua. Ordu eder ontan, berek, Euzkadiko aldunek azken itza esanen dute eta erri guzia, erri osoa abiatuko da arien agindu arauz. Uropari Amende jaunaren baitan agertu zion Montzonek Euzkadiren naia. Ta azkenik, Euzko-Abendaren Ereserkia, an ziren millakak abesturik, miresgarrizko elkargoan.</p>
+<p><hi rend='Italic'>Dantzak Atotxan</hi></p>
+<p>Aberri-mamia eskeintzen diguten ikuskizunen artean, guti dantzak bezelako. Ikara arazten dute gero biotzean dantzok. Iduri du gure izate guzia mugituko balitz bezela. Uraxe ederra! Milla ta bost eun eta geiago dantzari, to ta &ntilde;o, azaldu ziren zelai artan ezin pollitagoko itxuraz. Gure zeingietan ze&ntilde;en den garaiena, irtenena, esanen nuke nik arina, zaloia. Euzko-aurrideak diren zaloi eta arinak, ez dute, ez, munduan parerik.</p>
+<p>Zelaira, ba, agertzen dire dantzariak, ederki jantzita. An dire neskatxak eta mutilak, ankak ezin atxikiz ekuru, abiatzeko urduri ta leiaz. Aldunak eta o&ntilde;ordekoak sartu bezain laster, so&ntilde;ua du jotzen txistuak deia emanik. So&ntilde;ua ezin elduta alderdi guzietara, <hi rend='Italic'><foreign>altavoces </foreign></hi>direlako tresna oiek iminiak dire zenbeit tokitan. Ara ikurri&ntilde;a... Badoaye erdira... Asten da... Ikurrin-apalgundeak biotzak inarrosten ditu ezin esaneko giroan... Txaloak ugari alde guzietarik... Ara nola gizozte gaitza bulko batez erazia bezela... Gero neskatxak, euzkotar-neskatxa den bezela, lirainak, gozoak... Ta mutil ta neskatxak, oro gain, bizkor eta zaloi... Arin-izate onek esan nai du odola daukatela bizia euzkotarrek.</p>
+<p>Xar-tokiak oro zartatzen dire luze-irauneko txaloz. Maltso ateratzen jendiak, mendigoizalien esaneri zintzo. Ona gure erria. Berdin gertatu da pillota plazatik ateratzekoan, batzarrearen ondokoan. Miresgarria da eiki nola geldi erazi dakioken ain errez berrogei ta amar milla laguneko biltza bateri, zenbeit egonik zai ordu bat eta erdiz eta geiago. Zintzotasun au baida egitan nork bere euzkotasuna ederresteko.</p>
+<p>Egun ederra, benetan, biotzen sustagarri. Amaituko dugu esanez Nabarrak ederki erantzun duela. Ez guk esana da ori, kanpokoek esana dugu ere bai. <hi rend='Italic'><foreign>La Noticia </foreign></hi>Donostiko izperringian, politika gabea bera, aipamen berezia egin dio Nabarraren erantzun oneri. Esan du, bada, <hi rend='Italic'>sorpresak</hi> izandu direla, naiz eta gurenda-asmoa izan eratzalien gogoetan, eta <hi rend='Italic'>sorpresa</hi> larri oken artean dela Nabarrak bialdu zituen jendiak, asko ta sutzu. Ta ez bakarrik Donostiko erriarendako eta gipuzkoarrendako <hi rend='Italic'>sorpresa</hi> zen au. Aipu berbera egin ziguten bizkaitarrek eta alderdiko guziko jendiek ere, oroek aotan ukanik Nabarrainganako goraintzi biozkorrak, oin ederki jokatu beitzen egun oroigarri ontan. Eup napartarrak!</p>
+<p><hi rend='Italic'>Ona gure itzautzia</hi></p>
+<p>Ez dugu ederra-sakatzen esaten badugu Euzkadin ez dela gaur inongo alderdi edo partidu, igandean Donostian JEL-ek egindako indarketa altzua egiteko aina. Ortaz beraz, esan dezagun goraki JEL dugula Euzkadin nausi. Ba&ntilde;an erroak egin bearra dugu areago Nabarran. Abiatu gera, baiki, napartarrok ba&ntilde;an gure aurridiena ikusi ondoan, gurea motz deritzaigu eta abia bear dugu leiatu arien aldamenean emateko gure joakera. Azken lerrenari ekiteko, oroek bat eginik bear dugu jokatu. Nabarrakoari begituta ezin dugu esan Jel nausigo au. Ekin dezagun, beraz, au ardiesterainoko aleginetan.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>ASTEKARIA (I)</p><--</head>
+        </front>
+        <body>
+<p><mentioned><hi rend='Italic'>Amayur, </hi>CXIV, 1933-VIII-28</mentioned></p>
+<p><hi rend='Italic'>Zirt berriz ere</hi></p>
+<p>Ona berriz Zirt zulotik agertzen. Bazuan ordua, adizkidea. Diogunaz, olabearra zen eta, euzkel-idazleak ez beitira bizkortzen. Begira ginauden aspaldi ontan ea sartzen ziren euzkel-idatziak. Bai zera! Gero ta eskasago. <hi rend='Italic'>Napartarra</hi> garaietan oek ausarki eskuratzen zitzaizkun, orai ordean ezin batez ari gera sailtxo tiki bat. Zeri atxiki idazlien ukoa? Ona mutillak, berriz ere kitzika lot dukezue Zirt manduli-gisa. Ea ardiesten dugun nork bere saila eman dezan. Zertaz? Nai duziena, salbu ziztor luze oriek inork ere ez dituenak irakurtzen. Gai ez beita mugatzen emen.</p>
+<p>Mutillak, inarrosi ba, orai atxikiak zauzkan lozorro eriokaraeneko ori.</p>
+<p><hi rend='Italic'>Eup Tafallarroik</hi></p>
+<p>Goraintziak dabil orai ere zuen izen ospatua. Berria eldu zaigu aur-izenak bilduak dituzutela, berreunez gora, asmotan dabiltzuten euzkel-eskoletako. Erakutsia duzie gaurgero mutilak zeratela gauzak egiten, oraiko au duzie eratueneko. Inun den saila deramazute Tafallako aurreria euzkerara-naietan. Zeri erka, ba, zuen lan goresgarria? 200-300 aur-mutiko-nexkatu, berak-eskolatzen badituzie aurten, sarri duketsue karriketan, euzkeldunak, parra parra. Ona Euzkadin egin deiken gaitzeneko iraulketa, irabaz deiken garaitz edirena. Txalogarria da, zinez, antsi au. Ea bestiek artzen dioten ikaspidea ta berandu gabe ikus dezakegun leiaka sortzen bazterretan euzkel-eskolak.</p>
+<p><hi rend='Italic'>Iru&ntilde;ako euzkel-eskolan</hi></p>
+<p>Naiz berandu, aipa dezagun zerbait gure euzkel-ikastolari buruz. Bai-ginuen nun jarri azterketa-egunean, emen aurrak beitziren bertokoak, Iru&ntilde;ako umeak baiki, zintzo erantzuten irakaslemeari euzkeraz, iru ilabetez egonik eskolan. Orra, or ibiltzen dira gizalarriak euzkerarekin burrukan, ozka ezin diotela, atxiki ta tikiak txitean-pitean ikasiak, agoak lerde zariola utzi gintuztelarik. Ikasle aek ikusirik pario bai-zeikean euzkeldunek zorrotzatgo dutela adimena motzek ba&ntilde;o. Jator emanen balitzate euzkelduneri irakaskuntza, aurrera bai aurrera joko luteke mutikuok abiako zaulitan. Ortaz beraz, gatzkintza da euzkotarrak edukitzea besteren zangopean, zangope lantza ta purtil ala ere. Ortzak karraska ateratu ginen eskolatik ustez eta Espa&ntilde;ak gauzkala laidozko katez loturik eta jakintzarako oldea itxuski trabatuta. Agian sarri askatuko al gera!</p>
+<p><hi rend='Italic'>Euzkadi-Katalunya-Galizia</hi></p>
+<p>Badabiltza iruak alkarrekin. Katalunya atzarria dago, Euzkadi ere bai, geiena. Galizia gutiago. Iru lurralde ok batera eginen duten egunean, Espa&ntilde;ari ospo eragingo diogu gure artetik. Ura arineketa!... Zortzi milloien bat edo dauka biztanletan irukoitz onek ta Espa&ntilde;ako laterrian den indartzuena. Egun artan nor aterako gure bidera, kastellanuak, andaluzitarrak ote? Ez eiki, naiko lana dute bizi al izateko. Euzkotarrak garabiltzate orai Espa&ntilde;ako jauntxuek egundoko lazkeriak egiten. Sarri ditake eguna noiz eta euzkotarreri egin irainak beste bazterrak airatuko ditu. Azkar dezagun, beraz, gure abertzale-oldea ba&ntilde;an ez dezagun ahantz sar daiguken laguntza, at edo kanpotik ere. Berriek diotenaz, ederki doatzi euzko-katalunyar eliak Galizin barna, bazterrak ikertuz eta upatuak izanik, zoko ta zokondo orotarik aterazten zaizkien so-egilek.</p>
+<p><hi rend='Italic'>Ergelkeriak amanta</hi></p>
+<p>Borbonkumiak baditugu gotor-garaian orai ere naiz eta Errepublika izan. atonomiari buruz da solasa. Urantzun mintzazu zaiku Martzelino Domingo atonomia edo atoniari buruz, ok, mutilok nai ginduzkete ta euzkotarrek beren erra beltzaren azpian emanik eduki. Nongo kumia omen da Martzelino au. Bera solasean oro lurrera&ntilde;o ukurtuta. Etorri zaiku oraiko ontan autonomia, zer oiek guri euzkotarreri, au bekokea, erakusteko leiaz. Tirrit ere ez du balio aren esanak, Domingo aizatua dago Katalunyatik Espa&ntilde;aren uzki milikariz estatuto-garai artan. Bitara jokatu nai zuen, Espa&ntilde;a ta Katalunya-alde. Batetik estatuto-zale agertuz Katalunyan eta ango auziaren txuritzaletzat Espa&ntilde;an. Gertatu-bearra zen gertatu. Katalanak usnatu zutenean aren koipea, igorri zuten meseta aldara. Orai Urantzura dugu jin-berria, maketo ele oien lilluragarri. Ta sekuleko aitzakia erakutsi digu Espa&ntilde;ako unidadea ez dela auskorra. Estatutoa ez omen da emanen <hi rend='Italic'><foreign>vasco</foreign></hi>-ago izateko, espa&ntilde;ar geiago izateko ba&ntilde;o. Eta olako tentelkeri asko ta andi non eta estatuto ta autonomia utsean mariatu ziren. Datotzila orai emengo <hi rend='Italic'>bizarru</hi> aek Martzelino au ta kidekoak direla fuerozaleak, Azpako bentara igorriko ditugu. Donostiko Patu-Errepublika ura itsa dugu, ona nola its ats irteten diguten aren gizonak, ta aizaztua izateko besterik ez da gauza. Eta aitzartzeko. Eta aizarazteko. Aiza dezala egoak estepa aldera. Beti ere gili motx egiten digu jareigoa ez dakarkigun, errepublika aizun onez. Ta ez ahantz arekin artzen Martzelino <hi rend='Italic'>espantitu</hi> au, emen ez beitugu nai deuseko, naiz eta goengo kumia izan.</p>
+<p><hi rend='Italic'>Aralarrera</hi></p>
+<p>Karra ari da edatzen bazterretan, belia eder au egiteko. Asmotan bazabiltza, euzkeldunak leia zaite izena ematen. Ez egon azken arte, aurkituko beitzera deus ez dela eskuterre. Ez txartelik, ez tarrantarik, ez junbiderik. Batez ere errietan, gauz asko arakotu bear dire. Lenagokoan, lagun asko gelditu zen joan ezina. Damu-itzak zariotzaten mihi aunitzek. Lenbizi, joan ahal izateko, tarrantak aurreztik itzartu bear da. Ea zenbat lagun diren jalitzeko erri bakotxetik, ea nun elkartu beste batzuekin ea non artu tarranta. Gaurdanik asten bazerate, batuko ahal dituzte iru, lau ta geiago tarranta. Iru&ntilde;ara etorri-bearrak bazerate, leia zaizte areago. Zer izanen ote da Iru&ntilde;an? Gertakari larri-larria, bakan-bakanetakoa. Pedro-Mari, bai, Pedro Mari, bai, Kanpionena, antzeztuko dute bertokoek...eh?, bai bertokoek...</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>ASMO TXALOGARIA</p><--</head>
+        </front>
+        <body>
+<p><mentioned><hi rend='Italic'>Amayur, </hi>CXXIII, 1933-IX-29</mentioned></p>
+<p>Joseba Imanol, Leitzakoa, euzkel idazle trebetzat azaldu zaigu joan den igandean. Ongi etorri, gizona, ta ekatzu bosteko ori agur sutsugisan. Minean jo du gaia idazle onek esaten duelarik euzkeraz guti egiten dela Naparran. Baiki, guti <hi rend='Italic'>La Voz</hi>-en, guti <hi rend='Italic'>Amayur</hi>-en, orotan guti. Ta galdetzen du, ez leike egunero <hi rend='Italic'>La Voz</hi>-en zati bat naiz txikiagoa izan, euzkeraz idatzi? Ta astero, <hi rend='Italic'>Amayur</hi>-en erdia? Ortan gaude gu ere idazkide ori, guti idazten dela. Naparran euzkeraz idazten mirrixari so, nork erranen luke ura dugula aurrera-bidean? Eiki, zerbait geixeago egin bearko litzake. Euzkel-idazleak ordean eskax dira ta direnak bestelako laneri ditugu atxikiak bein ba&ntilde;o geiagotan. Kexu ikusten dugu euzkelzaliok idazlien uko au. Izperringian aldiz ez bide dira andizki grinatzen euzkel-saila ez agertuz. Irakurleak ote? Salbu Joseba Imanol ta gu, zer ontan gogortuta aspalditik, garabik ez. Noizpeinka iduri sukila bizkortzen dela subazterra alaituz. Guti irauten du, gauzak lengo einera gabe. Bizkortze ok baginaki joritzen, bederik, olako batean sartuko ahal ginuen asmo on bat edo bat.</p>
+<p>Zer nai den ere, <hi rend='Italic'>La Voz</hi>-en agertu dire gauzak euzkeraz, ez ordean oroek naiko genituen gisakoak. Orobat nola erderaz den solas egunoroko gertakariez, ola nai ginuke guz euzkeraz. Oneri gaude gu ere ba&ntilde;an askotxu da egunoro egiteko. Ortarako beartuko litzake idazle bat beartu arakoa. Ez dugu ora&ntilde;ik etorria ordu au Naparran beintzat. Ba&ntilde;an egunoroko sail au ordaintzeko ateratzen ezbada, izan leike orri edo orrialde bat aste oro, <hi rend='Italic'><foreign>El Pueblo Vasco </foreign></hi>Donostikoan agertzen den itxurakoa. Onela irakurliek aste guzitan izan lezakete euzko-gogoa asetzeko alapidea. Antsigarria izanez, idazleak mugituko lituke errietan. Idazle-autabearrik ez, aski da berrikariak izan ditezen, xumieneko berriak bialtzeko, malko-ziztorrak eta euzkaraminezko zingurin oriek aldera utzita. Ola jator ta eratsu etorriko litzake orrialdea ta guzion gogarako.</p>
+<p>Betire ongi xina egiten diogu Joseba Imanoli. Pozten gera euzkel-idazlien aintoa gotortzen dela Naparran, auxe dugu-ta. Elikatan gabiltza aspaldi ontan. Ona muga propia orri edo orrialde au egitekoa. Joseba Imanolekin batio agertzen balakigu beste idazleren bat, tira, orrialde aterako ginuke zur edo bulur. Geroxeago gauzak berez goanen lirakela nago, abiada artuta. Orrialde au edo orrialde erdia asi egiten edolan ere, igandekotz egin leike ba lana gertatu astearen artean, emeki emeki egin al izateko. Berebiziko erritarra dugu Joseba Imanol, leitzarra bearrik ere. Leitzak gauzatan dauka pila bat, euzkaldunen leia pizteko. Leitza ta inguruko erriek non eta bizi beita mardul-mardula euzko-gogoa.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>ASMO ONETAKO AROA</p><--</head>
+        </front>
+        <body>
+<p><mentioned><hi rend='Italic'>Amayur, </hi>CXXIV, 1933-X-6</mentioned></p>
+<p>Negua dugu asmo onak prestatzeko garaya. Uda bitartean azalduko diren asmoak orai dira presta-bearrak. Egiten ez baduzute ola, ez uste gero udan uzta joria bilduko duzutela. Biltzeko, erein bear da. Zabalgunde ona izateko orai dugu asmo onak eduki ta tinkatu-bearra. Jobek esaten zuen udaroa dela giza-bizibidea. Onek esan nai du bear dugula eten gabe ekin. Orai negua bitartean, asmatu, prestatu ta arakotu. Udan azalduko orai asmatua ta gogoan artua. Asko ta asko biltzen dira batzokietan josta-bearrak. Okek ez dakite zertan dauden. Abertzalea ez da sortu jostatzeko ta jeltasuna ez da garrantzi gabeko jostabide edo olgeta bat. Inolaz ere. Abertzale-bizitzak izan bear du etengabeko burruka ta lana. Ludi au ez dago egina, ez, atseden artzeko, lanean iardukitzeko ba&ntilde;o. Atseden artuko dugu Jainkoaren altzoan, Beragana deituko gituen egunean. Bizkitartean, lan egin-bearra dugu, egin-bear ertxia, ezin uko egin diogun eginbearra. Baitaezpadago egin bearra. Abertzalea izatea ta musean edo olako jokoetan aritzea, lan-orduan, ez dire ongi artzen elkarrekin. Oartzen bazerate, aise ikusiko duzute lana dela gero ta geiago. Lenago ere, zinezko abertzaleak betarik ezuen jostatzeko, orai ordean amets ere ez deike lasai biziko gerala. Bai zera! Orrenbeste gauz egitekotan direla ta zu, abertzale alper ori, lotuko zera zabarkeriari? Ez eiki.</p>
+<p>Bein ba&ntilde;o geiagotan esaten da Naparra atzera dagola, ez dela ibiltzen bearko zen abiarekin Sabinok erasana du ta guk ainbestetan bildua gure solasetan Euzkadik Naparra duela bear-bearra, azken lerrena jokatzeko. Ba&ntilde;an Naparra ez da abertzaletuko, abertzaleak ez badute bizkortzen. Ta nola bizkortuko? Eskuetan darabilzuten mus edo tute edo joko oiekin? Ez noski. Badire batzu joko-maietan josita, ez dutela ikusten inguruan zer gertatzen den. Okek ez dute gaizkatuko Euzkadi ez eta Naparra aurreraziko ere. Espa&ntilde;ako gauzak gertatzen diren gisan, makur leizke gauz ok ezin zuzenduko jokeraz. Egun artako bizi bear dugu prest. Azkatasuna, osoa agian, eskuetan euki ginezake. Jokatzen badugu zintzo, gure alde elkiko lirake gertakiak, gu nausituko gitzaiela-ta. Ba&ntilde;an gauzak oldartzen bazaizkigu, dena galdua izanen dugu ez dakigu noiz arte. Artu gogoan, ba, abertzaleak Naparra prestatu-bearra dugula ordu aundi bateko. Onek eskatzen digu alik geieneko lana zeren eta gaurko Naparra onekin ezin ginezake egin bear duguna. Naparra leiazi bear dugu deraman jokaeran. Aleginak usotzen baditugu, sarri elduko gera bear dugun elburura ta bear ere dugun tenorean bipil azalduko gera. Egun latz artan prestatu gabeak bagaude, zer esanen dugu? Zer aitzakia altxatuko dugu, gure nagikeriaren txurigarri? Lan dezagun, beraz, zintzo ta iarduki.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>ASTEKARIA (II)</p><--</head>
+        </front>
+        <body>
+<p><mentioned><hi rend='Italic'>Amayur, </hi>CXXV, 1933-X-13</mentioned></p>
+<p>Martzillan, lengo egunean. Erakusketa ederra egin ginuen abertzaliek lengo egunian Martzilla iri begikoan. Osoko erakusketa. Ortzak eta ukabilak ere erakutsi genituen. Bidera irten ziguten arlote ta jende purruska aieri ikaspide galanta eskeini genien. Aginka nai ziguten, karriketan barna joaterakoan, erriak egin abegiari mutur. Bi motako ziren jendaki aien ulu-patarrak. Batzu, ezker aldekoak, <hi rend='Italic'><foreign>viva Rusia, viva la Rep&uacute;blica </foreign></hi>ta abar; eskui-aldetik, <hi rend='Italic'><foreign>viva Espa&ntilde;a</foreign></hi>. Onen kridari azkarrena ginuen botikarioa, ozarra zen gero gure belar-pote au. Atarira elki ebaska, oyua bota kiriketan eta kuku botikara, baezpare. Iru atso zarpail zeuden atarian, tripa bilbe ta bularrak ordoki. Zimak zariotzatela, sekuleko gordinkeriak esaten joaileri. Ematzen zirelarik zebilten solas lodi ta loian, azaltzen zen botikarioa, bohami zirdinzu arien pizgarri. Oin aztura jasoko pote-karioa duten errietako jende xeak arrika asten badira, ez da balditzeko. Artsaldean, norbaiti matelak gorri-gorriak egin zizkioten eta jende purruskek errua egozten zuten mendi-goizalien ukabil zaulieri. Eziren, ba&ntilde;an, ogenduruak aek, pote-karioa ta aialdekoak ba&ntilde;o. Arrotzak oin mutiri kexatu-bearrean, irakatsiko baliezte erritarreri begirunez artzen aiexek, gauzak bestera joanen ziren. Beraz abertzalieri aurdiki ele gaiztoak obeki egonen ziren, pote-kario sator orreri irauzita. Ta urrengotz egorriko balute kanpora, obe. Sendagarriak prestatzen ez dakigu artzen aundikoa den gixon gupel ura, azkuntz onik bederen exkax zabilan.</p>
+<p>Espa&ntilde;ako kortak barreia. Jokamena diezte soziolistoei poliki ziplatua. Estik zabiltzaten, idiaz-antzo, baia emateko kortak barreia zitezen, esanez eta segi zeikela oraiko aldunakin, mantxungak edo entxukiak galtzeko bildurrez ba&ntilde;an azkenik barreiatuak izan dire aek. Bazen garaia ez beitzen morroi ariekin jaurri-biderik. Orai, gose omen dabiltza listok, ez dakitela agina non ezarri. Prietok eta seiak zinak eta minak dabilzkite ea zergatik egin den istripua, negura kara. Noski beiramendurik ez da izan listoen aldunak olga gorrian uzteko, otz minera buruz. Zer ariko dute gaisoek? Bekokea bear da olako esamesetan asteko. Nork, ba, gibelatu du beste gobernu baten eratzea? Ustel irten die asmatu eginbideak. Loria ta kuka ziren legetxea ezala barreiatuko berek esan gabe ta azpiko jokua zerabilzten, inun ziren gobernuak traba ta traba. Orai, ustegabean, gelditu dire agoa ezurrak beterik, ikusiz, berak gora bera, legetxea barreiatua al izan dela baita ere beren morroiak aldungoaz murriztu. Bi aldiz egin al balitez gauzak, bestela jokatuko zuten listoen grinek. Urrengoan date zuhurrago.</p>
+<p>Txortxiak karriketan. Bein areago agertu zaizkigu karriketan gudal-zozkerako mutilak, ardoz okituak ukanik ere urdailak, mutilok ez dira alaitzen. Txarreko gauza bai edo da gudari jaustea. Espa&ntilde;a-aldeko non eta arinxko alaitzeko ardora jo bearra beita. So euzkotarrari, barrutik dagolarik boz, eta so mutil okeri. Ura, zauli, erne, zangoak zirkin, dantzari txikia. Mutilok ordean ezin eutsin tente, elkarren kordaka, besoak emanik elkarren sorbaldain gainetik, batzu bestien soinetan bermatu-bearrak. Aldea da gero onen eta euzko suaren arte. Ardoak ez beitu bizkortzen, sobera edanda, zinezko boza mariatzen ba&ntilde;o. Ardo au ez da edaten pizgarri eske, atzengarritzat ba&ntilde;o. Kezka da larria Espa&ntilde;a aldera-bearreko mutilarena, euzkotarrarena, gudaritan joan bearra duela-ta, berea ez den erri baten meneko. Nola goza mingatx au? Ardoaren ardoz. Ardoak ez du eztitzen barruko kezkau, bai ordean euzko-gogo jatorra ta xauia zirziltzen. Alaz ere, badire asko ora&ntilde;ik eginbearra argi ikusten ez dutenak, lauso beituzte begiak.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>GERTU GAITEN</p><--</head>
+        </front>
+        <body>
+<p><mentioned><hi rend='Italic'>Amayur, </hi>CXXV, 1933-X-13</mentioned></p>
+<p>So egin zagun Espa&ntilde;a aldera une batez bederik. Zer dakusgu? Ondamen bidea, gauzak gero ta makurrago. Txotxoluak begitandu ziren erkala edo errepublika etorrita, gauzak zuzenduko zuela. Olakoek erregetzaren gain ematen zituzten istripuak oro, erregea kasa ta ongiak porrilloan jautsi, asten zuten gauza bera. Guri beintzat eziguten zipitza sartu, badakigu-ta errege-merrege, bakal edo erkal, gauzak ondora-bearrak direla Espa&ntilde;an. Onen lurrak bestearen meneko ageriko balira egunen batez, ez ginezke larri txundituko. Tzarra zen, eiki, bakal ura, lengo bakala, ba&ntilde;an oraiko erkalak eskintzan digun tailua ez da obea. Beren bidean doatzi gertakiak. Espa&ntilde;ak bat eta bakarra izateko ez esku, ez era, ez menik ere ez dauka ta inoiz-inungo ahalak ez ditu kokatuko, jaurbide batez, <hi rend='Italic'><foreign>Pen&iacute;nsula Ib&eacute;rica</foreign></hi>-n diren erriak. Okek berebiziko dute izakera, elkarretik lekora-naiak, burua, azke ta loka, ikusteko gose. Banaka-gura diardukate ta ez dira baratuko buru-jabegoa ukan arte. Erregea ta erkala, Espa&ntilde;ako goraberek, zer guri? Txuri zagun auzi au gure aldetik, bizkarrak uzkurtuz Espa&ntilde;ako gauzeri.</p>
+<p>Egia da ixuri ginela errepublika aldera, onen etorreran. Ba&ntilde;an areago da egia erkal-aldera ekarri ginduzan leiak gure jareigora buruz egiten zuela apara. Nai ginuen erkaleko gizonak esan izan zizaguten: &laquo;Euzkotarroik, eman zazute gugan ustantza. Badakigu, zerebizikoak zeratela-ta, azkatasuna bearra duzutela bizi al izateko zuen izakeraren barne. Erregiek fueroez bagetu zinduzten, zuek oin maitetsi lege zarrez, ona nola guk biurtzen dizkizuegun. Izan zaitez libre orai ta beti&raquo;. Onako erasanari ginauden begira euzkotar adidunek, ustez ta Espa&ntilde;ak oraiko ontan buruz aldatuko zuela gurekiko, lehen ba&ntilde;o bestera jokatuko zuelakoan. Ez noski gure eskubideari begira, ez eta ere gurea biurtzeagatik bere baitaz, bai ordean beste biderik ez beitu berak, iraun al izateko. Esan zagun goraki: auxe ala erreka. Aukerarik ez.</p>
+<p>Orra, irakurle on orrek, bide bi baldin badituzu toki batera-bearrak ta bata trabatzu agertzen bazazu, nola apainduko zera? Bertzea autatuz, zalantzik ez. Auxe zen, ba, Espa&ntilde;ako zoria, errepublikaren elduieran. Zintzo jokatzekotan bederik, bear zuen gure ta beste errien eskubidea ezautu. Ezuen besterako aukerarik, errekara-bidea beitzen beste erkingua. Ez al zuen Aza&ntilde;ak berak errana errepublika ondoratuko zela autonomia delako zera garbitzen ez bazuen igartzen? Igarri al du?</p>
+<p>Ez eiki. Seta itxu batek artuak dira erkaleko morroiak eta erreka-jotzeko einean dute emanik. Or dabiltza itxu-makilka, Iruxok esanik. Laterriko txalupea, ur eginez pitze guzietarik. Eroak ginezke, beraz, gu narraztuak izatera utzita, arek dabillen turunbillora ondora bitez ariek ere, za&ntilde;ak ola badie. Guk ez diegu lagun-eginen, euzkotarrak betikoak izan eta ez dugulakotz nai, ez Espa&ntilde;arekin ez inungo erriarekin. Amil bitez ariek beren erabe ta ezazolkerian, guk beintzat ez dugu amiltze onen grinarik artuko. Bereziak geralakotz, alde nai dugu Espa&ntilde;atik al bezain laister ba&ntilde;an kidekoak baginen ere, alde galdatuko ginuke ere bai. Deramaten zirzilerian ito ba&ntilde;o len. Bizmena dugu sendo euzkotarrek eta biziaren gose gaude. Bestiak euzkok badiren ere, ondora ala ez, ez digu oraiko ontan kezkarik pitin ere. Erkalak ez du asmatu bere bidean. Bakalaren gisa berean, zeiartua da elburutik eta ondamendian abiatua dugu. Ez balditu beraz esaten badugu Espa&ntilde;an daudela kordokan bakala eta erkela eta bestelako ahalak, Espa&ntilde;ak berak egin beitu karrak. Altxa gaiten euzkotarrok, bat eginda, urrana beitugu ixtorioko ordu larri bat, andia izan deikena, egiten badakigu guk. Zertxobait espa&ntilde;arrek emana baligute, agian puska batekin asetuko ginduzten, oraikotz bederik. Adimenik ez beitu espa&ntilde;arrak, utzia du, ustegabe, ordu au on dadin. Au elduta, azkenera&ntilde;o ekinen dugu oldartean. Morroitzaroan, autonomian amets. Izkirutean, ba&ntilde;an, lore gorriak lilitzen duten aroan, gogoak galda geiago, azkatasuna.</p>
+<p>Gogo bat egin zagun euzkotarrek orok, bear dugu, ba, banakoa aldera utzi. Etxea ondatzer dagonean, aurrideak biltzen dira subazter gozora. Ona nola galdatzen gitun ordu eder ontan subazterreko leiak. Etxea, euzkaldunen etxea ta onen aldeko maitasuna izan dugu mende guzietako etsaien azpigarria. Izan dadila leia au oraiko ontan ere indarra ta iraumena. Eskualdun egon giten bethi-eskualdunak.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>AUTESKUNDEA</p><--</head>
+        </front>
+        <body>
+<p><mentioned><hi rend='Italic'>Amayur, </hi>CXXVII, 1933-X-27</mentioned></p>
+<p>Onekin esan nai dugu autaroa, au da, auta-bearrak ditugula aldun edo diputaduak, Espa&ntilde;a aldeko. Guti digu autaro onek ba&ntilde;an guti badigun ere, zerbeit digula ezin uka. Ta, zerbait onengatik, bear gira burrukari lot. JEL bera da burruka, esan nai beitugu JEL-en ahalak nausitzeko Euzkadin sekuleko burrukak ibili-bearra duela. Oro da burruka, gudero ta gudalgo utsa da gizonaren bizialdia. Zainetan ere deramagu burruka-bearra, soin-oldiek, gogo-bulkoek, igi guziek burrukara erazten gituzte. Ez gira mundu untaratuak burrukako ba&ntilde;o. Abertzaleak ezin dio burrukari uko egin. Atx egiten badio burrukari, bego etxean. Giza tepelak, iziberak ez ditugu nai gure arteko.</p>
+<p>Ona ba Espa&ntilde;a aldeko aldunen auteskundea. Ta ona burrukak eskeintzen digun tankera. Alde batetik, eskuitar espa&ntilde;azaleak, erlisioa dela ta ez delako aitzakitan, arbuiatuak dituztela abertzaleak. Beste aldetik ezkertar espa&ntilde;azaleak, batera edo berex, ez dakigu ora&ntilde;ik. Oroek seinale bera daramate buruan, espa&ntilde;azale. Gogor egin bear dugu guk, euzkotarrek orok, espa&ntilde;azalien kontra, edonungoa den ere deramaten izengoitia. Espa&ntilde;azaliek orok ondatu gituzte ta gauzkate orai ere erreka jo-bearrak. Euzkadik bear-bearra du burua altxa. JEL gabe ez du altxatuko. Ta espa&ntilde;azaleak, edozein motakoak diren ere, ditugu etsai. Au esan-bearra dugu zeren eta batzuek, abertzale berriek batez ere, uste beitute ezaiola ukan bear eskuitarreri ezkertarreri bezein ainbateko uguna.</p>
+<p>Uste onek ixuri arazten ditu olakoak eskuitar espa&ntilde;azalien aldera. Ez. JEL dagon aldetik, gure erriaren onain aldetik, oro ditugu berdin. Ezkertarren aldera ixurtzen den euzkotarrak kalte egiten dio erriari ta erriaren onari. Espa&ntilde;azale-eskuitarren aldera leia dakarrenak kalte egiten dio erriari ta erriaren onari. So egin soilik erriaren onari ta on oneri gaitz egiten badio Espa&ntilde;ako politikak, narda egiozu politika orreri, edozein den ere.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>NABARRAKO BERTSOLARIAK</p><--</head>
+        </front>
+        <body>
+<p><mentioned><hi rend='Italic'>La Voz de Navarra, </hi>1934-III-27</mentioned></p>
+<p>Oroek ez dakite, noski, Naparran Tapia Perurena'tar Alexanderren berririk. Bai ordean euzkel-zeretan diardugunok. Gongoeneko olerkaria dugu, bein ba&ntilde;o geiagotako olerki-saioetan saritua. Oraiko ontan ere badakarra <hi rend='Italic'>Yakintza</hi> delako ingurti ospetsuak aren olerki bat, yayo-yayoa (...) Guti gera Naparran euskel-gaietan aritzen geranok. Damua da, beraz, geiago ez edatzea gure olerkarien omena. Ba&ntilde;an esan bear dugu asiak ditugula olerkariak sortzen gure artean eta ez nolanaikoak. Ona emen Tapia'tar Alexander, oraiko oberenen lerrokan eman deikena. Eremu kaskarra da, egitan, Nabarrako bertsolariak jardun bear duten eremua, ortaz beraz, txalogarria dugu Tapiaren alegina, askoz areago oartzen bagera apaleneko mailletik dugula igana olerkari au, euzkeldun berria da-ta, ez sortzetikoa. Ta orra nola darabillen euskera ta euzko-gogoa ta euskel-joskera. Gure zorionak.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>ELE NABARRAK</p><--</head>
+        </front>
+        <body>
+<p><mentioned><hi rend='Italic'>La Voz de Navarra, </hi>1934-IX-1</mentioned></p>
+<p><hi rend='Italic'>Aralarko beila</hi></p>
+<p>Zur edo bulur egina dugu aurten ere Aralarko beila. Baiki, gobernu-morroiak gora bera. Sekuleko erasiak eta marmarrak zebiltzen larunbatean, bilkura debekatuko ote zuten, tarrantak baituko ta larrua zilatuko beilarieri. Geienik, ele uts gertatu da erasia. Makur andirik ez da agitu. Aitzitik, zibillak gozo agertu zitzaizkigun, salbu bat, Lekunberriko kabua, ergeldu zitzaikuna, einto bat. Launkaria ez da gizon au, arritzen zaiku beraz nola suertatu den olako erri udarakoan. Gaitzitu zitzaikon gure goana, batez ere neskatxena. Andre-uguin edo androgino bide da bera. Zernai den ere, neskatxak ibili zituen o&ntilde;o ta meatxuka. Lipar batez, ustea ginuen tiroka xautuko ginduzan non eta zizparako ganua erakutsi beizigun. Neskatxak ordean ez ziren uxkurtu ta trufa gazia eman zioten sudurrera. Furruxkatu zen polliki ba&ntilde;an tiroak ez ziren elki, damuturik edo. Mutillak eta neskatxen batzu kabu nabarbenaren ele gogorrak, alde igan ziren mendira,</p>
+<p><hi rend='Italic'>Gure asarre deiadarra</hi></p>
+<p>Baditugu berton bi astopito, Rolland eta kideko prantzesak dabilzkigutenak larri, bazterrak inarrosiz eta inungo gezurrak asmatuz. Norbaitek galdetuko du Rolland delako ori nor den. Prantzes inorbait, euzkotarren etsaia, euzkotarren lurretan ibilia lapur. Orduko artan gudozte edo ekerzitu aundiarekin etorria zen Euskal Errira Karlo Man, aren nausia, txirikillan iraganen zelakoan Zaragozara. Bai joan ere bertara, itzultzerakoan euzkeldunak kuku zegozkion oyanetan zai, laidoa xaitu-gose, Iru&ntilde;ako arresiak birrindurikoa. Itxuraz, aintzineko onaindiko euskotarrek Iru&ntilde;a zuten gaztelu azkarrena. Karlo Manek orren kupidaz arrautsi egin zuen errotik. Ordaina, aldiz, artu zuen eder-ederra. Iba&ntilde;etan barna ziren iragan, bearrak, prantsesak. Euskeldunek iguriki zuten oyan zarrian, arpakizunaren begira. Iru puskatan zoaien gudoztea. Bi aurrenak iraganik, euzkeldunak oldartu zitzaizkon irugarrenari. Ontan buru zetortzin Roldan eta besteak erailak izan ziren erruki gabe. Rolland ohoin aien aintzindaria zen, ez degu beraz goretsi bear aren izena ta are gutiago egintsaria, euskotarrena baizik, ta abena, ez garaituagatik, gogor eginagatik ba&ntilde;o, erria aldezten zuten eta, Rolland eta lagunak xeakatzearekin.</p>
+<p>Auxe bai auxe da inork ezeztatuko ez duen egia. Ba&ntilde;an aipuko bi astaputz oriek ditugu inun diren asmakeriak arrotuz, Rolland lapur ori dela aitzakia. Gizon aunditzat omen daukate emen Euzkadin. Ta arbuiatzeko esaten dute ere bai edo bederik ola agertzen, euzkotarren aipamen goresgarri au. Ortako baliatu dire Naparrako izen eta diruakin, ezen or dabiltza dei ta oyutan esanez Diputazioak berak duela Rolland eta kideko lapurren gorasarrea bere gain artua. Emanik dute irrigarritan gargero Diputazioa bera ere. Artxiberu galanta du beraz Nabarrak ixtorioaren berririk ez bide dakiela edo or nonbeit. Ala erra gaiztoa diola gure egintsarre argi areri, ixildu eta ixilazten duela-ta, kanpotar eta etsaiena anpatu-bearrez. Arrotzaile ta arrozale oiek daude euzkotarrak joanen zaizkielakoak lagun. Beti ere uts egiteko dire itz-lotuak abertzaleak oro. Astopito oik irrits bizi ta ixikia besterik ez dute, burua agertzekoa gendiak kur dakizkien, <hi rend='Italic'>parol</hi> erderaz eta argimutil euzkeraz deitzen diogu irriska oneri. Olakoek berenak ere garbituko lituzteke tiroz <hi rend='Italic'><foreign>miss</foreign></hi> edo <hi rend='Italic'><foreign>manzelle</foreign></hi> muxurdin baten goresmenak artu-bearrez. Makurrena da zulatu oek beren aisa dabiltela Naparra, Diputazioaren gerizan oraiko ontan bezala. Soraio oek mende gauzkatela napartar zintzuak eta <hi rend='Italic'>bestale</hi> alai oketan burrustan goaten direla guzioen diruak, erriari gutieneko den aintza ta omena ekarri gabe. Erderaz egin dut nik ere krida bizia, euzkeraz ere nai dut egin. Enitzaie batera, inolakoz ere, astopito oien oyukideeri. Ira&ntilde;a, laidoa, gaitza alare, egotzi nai dute Iba&ntilde;etako euzkeldun suar arien oroitzara. Niketz eta nere eiagora, alde, bederik ez. Erderaz eta euskeraz.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>IDIAKEZ AZKE: JEL ALDERDIAREN INDARRA</p><--</head>
+        </front>
+        <body>
+<p><mentioned><hi rend='Italic'>La Voz de Navarra</hi>, 1934-IX-26</mentioned></p>
+<p>Lengo egunean azke eman zuten Idiakez Getariko mutila. Aizken, zuzena, garai. Poztu gaiten, beraz, Espa&ntilde;ako legeak zigor latzapetan zuen ezarririk Getariko mutila, aitzakiz eta il zuen gizon bat. Ezen egia, jurado delako orrek nai izan zuen kartzelaren atzaparretarik ateratu, lehen-arestitik. Uts egin zuten ordean, baietz erraiterakoan, erdera ez beizuten ongi ezautzen. Egia zen Idiakezek irail zuela gizon bat, izan zen ba&ntilde;an burua beiratu-bearrez, ta olakoetan, iltze bat gertatzen bada, egileari ezaio egotzi bear orren errua. Bertsua agitu zitzaikon Idiakezi. Burruka izana zuen illarekin eta ola ikusirik, tarte eman zen anaia beresi-bearrez. Bertzea gogor agertu zitzaikon, izkilua erakutsita. Idiakezek arrisku gaitzean ikusi zuen anaia ustez eta bertzea jokatuko zitzaikola. Ontan berak zuen langai-burni bat atera ta zizta sartu zion bertzeari. Ez balu ola egin, illak garbituko luke anaia baita ere bera ere. Olaxe etsitu zuten juradoek ta azke uzteko epaia eman nai izan ere. Ba&ntilde;an beren erdera eskasez nahasi egin ziren ta baia eman zuten ezetzari ta ezetz erran, baiaren orde. Gero maikideak (magistradoak) juradoek epaituaren arabera moldatu zuen berena ta andik elki zen zuzen-autsi ikaragarria. Gertatuari aitzi jaiki ziren lehenik juradoak berak, esanez ezutela nai izan inolako zigorpena eman Idiakezi, aitzitik, azke uzteko zutela naia. Periodikoak asi ziren gogortara utsegin latz aren kontra, ta JEL Alderdiak gain artu zuen onen aldezko iardukitzea. Sortu zen oldarteak bazterrak inarrosi zituen non eta <hi rend='Italic'><foreign>Tribunal de Garant&iacute;as</foreign></hi> delako epaitegira joa izan zen auzia. Anartean, Espa&ntilde;ako gobernuak sartua zen saltsan ikusirik zera xuritu nai zuen barkazioa emanez Idiakezi. Abertzaleak iardoki egin ziren orreri. Barkazioa, ez, obengetzat aitortzea ba&ntilde;o ta ortarako bearra zen epaikunde berria. Ola erabakita, Donostian izan dugu epaiketa lengo astean. Bertatik irten du Idiakezen azkatua, olabearra beitzen agertu zenetik juradoen naia.</p>
+<p>Oar gaitezen JEL Alderdiaren indarrari. Gain artu ez baleza gure alderdiak zuzen-autsi lazgarri onen urratzea, aurrera joko zuen gaizkintzak. Zuzena einera ekarri-bearrez, Espa&ntilde;ako magistradoak eziren andizki grinatzen. Gorago joan ba&ntilde;o lehen, jo ginuen bertokoengana ea zuzenbiderik zuen bidegabekeriak. Espantuka artu ginduzten esanez eta, nai ta naiez, Idiakez oinbertze urteko zanpatua zela kartzelara. Alaber, Madriden. Zuzen-zain galantak ditugu, Espa&ntilde;ako zenbeit xuxeneko. Ezen, ez zilegi oin zigorpe latzera aurdikitzea inongo gizona, ta abertzaleak ez gera oin jaukikorrak. Emengo ta ango alabearrekoak gora bera, asi ginen azkarki jokatzen non eta ardietsi dugun garaitzea. Non dire, ba, aintzin laburreko gizonoik, uste dutenak motz aterako zela auzi au? Ontan bezelaxe bertzetan ere, bear bertzetan, emanen baginu emen agertu oldartea, bertze gisan ginukean aberria. Ez gitu, ez, etsaiak mendratzen, gure zabarkeriak ba&ntilde;o.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>BERRI BERRIAK (VIII)</p><--</head>
+        </front>
+        <body>
+<p><mentioned><hi rend='Italic'>La Voz de Navarra</hi>, 1935-X-30</mentioned></p>
+<p><hi rend='Italic'>Inun den zolda</hi></p>
+<p>Ari da ateratzen egun otan Espa&ntilde;ako bazterretan. Trapala bat ernea, inoiz izan den bizkorkeria erakutsirik, agitz trebatu zen 1934gn urtean ziren zenbeit buruzagiekin, Strauss zitzaion, ijito gisakoa, jendiek ez dakitela nondik sartua. Orduko artan diru jokoa ezen aizu Espa&ntilde;an. Gizon onek zakarren aitzakia ezin zilegi. Nai zien buruzagi oieri ziria sartu ea bere gogora biltzen zituen. Jokoa nai zuen azke edo libre beraindiko. Katxarro bat omen zuen oso arakoa, kutxa itxurakoa. Iru aldiz jo eskero bertan, bi beintzat jabearen alde. Gisa ortan bilduko ziren irabaziak mantxunga gaitza zituen arek eta kidekoek. Ba&ntilde;an ortarako bearra zen baimena, buruzagien baia. Okek ba&ntilde;an ezin zuten eman, debekua zela garri, legez eta. Ba ordean gizaki ok ez dira izaten erabeak eta Strauss delako au, are gutiago. Dirua barreiaka asi zen eta purrusta ontara bai sartu ere txipak ausarki. Txipaen ondotik, barboak. Ta gobernuko barbo okek Straussi jokobidea zabaldu zioten.</p>
+<p><hi rend='Italic'>Jokoa motza</hi></p>
+<p>Ta bapo asi ere jokoa Donostian. Ba&ntilde;an asi ta trenka bereala, ez beitzuen utzi iru orduz bertzerik jokoa. Gizon bat, polizikoa, agertzen da pistola eskuan eta partidua so. Ez omen da yakin zeren aitzakiz. Mihi gaiztoek derasate barbo batek ez ote zuen diru puska bat itz emanik jokoa as-orduk eta ez baitaturik iru ordu pasa ta jokoan. Beti ere so baitaezpadako arek negozioa zien airatua ta asi ziren intziriz gogorki Strauss ta lagunak. Arrezkero ordean bideak zauden gantzak ziraturik eta ordea agertu zen tarrapatan. Aizu Baleares delako ugarteko uri batean jokatzea. Katxarroa ta lagunak artuta, arara jo zuen Straussek. Bai asi ere polliki.</p>
+<p><hi rend='Italic'>185.000 ptak. sei-zazpi egunez</hi></p>
+<p>Oin diru-biltzaile auta zen Straussen kutxa non eta sei-zazpi egunez baitaratu ahal zituen ogei ta amazazpi milla duro. Aisa eman zezakean yuduak inguruko taldeari. Ba&ntilde;an an ere, ondikotz, makurtu zitzaion zoria. Debekua etorri zitzaion berriz ere, jendiak gogorki asita jokoaren kontra. Bildurra sartu edo zitzaien barboeri norbaitek salatuko zituen. Ba&ntilde;an ordurako bazituzten diru purrustak jaso ta xauturik. Straussek negozioa ikusirik erreka jota, atzera eskatu omen zien dirua, ez beitzuten konpromisua bete. Zerbait altxatu ahal du, gutiz geiena, ordean, or dago trabaturik norbaiten sakelean. Ta beartu zaio Straussi lagun presko oien salatzea.</p>
+<p><hi rend='Italic'>Barbo salatuak</hi></p>
+<p>Barbo oen artean da Salazar Alonso ministro ospatsu ura, Euskalerriko udaleri inun den laidoa egotxi nai izana. Oroitzen zera, irakurlea, Euskalerriko udalak edo ayuntamentuak gogorki jarri zitzaizkion ura? Orra, oraiko Salazar Alonso ori. Zakurrenak erraten ari zitzaigun bitartean, arek ari zuen saltsa lirdinga ortan. Ontaz landa badire zenbeit <hi rend='Italic'><foreign>radical </foreign></hi>delako partido orren buruzagiak. Yakiteko ea zenbatekoak diren aren erruak eratua da batzorde bat, aldun edo diputaduena. Onek erran du erru susmo larriak badirela ta epaikari edo juezengana yoateko ariekin. Beti ere <hi rend='Italic'><foreign>partido radical </foreign></hi>ori oso kinka txarrean gelditua omen dugu ta nekez agertzekoa politikara. Ikusiko Espa&ntilde;ako pollitika arras bertzea da bertze pollitikakin. Beti ere ez sobera larritu gizon ok berberak agertzen badire.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>BERRI BERRIAK (IX)</p><--</head>
+        </front>
+        <body>
+<p><mentioned><hi rend='Italic'>La Voz de Navarra, </hi>1935-XI-3</mentioned></p>
+<p><hi rend='Italic'>E.B.B.-ren deia</hi></p>
+<p>Orok dakigu diru gabe inora ez dela yoaten eta deus ere egiten. Alderdi abertzaleak lanak daramazki, eder-ederrak, gutiz geienak euzkara indartzeko. Orai baldin badugu euzkera pixkat xuxperturik, ordea dio Euskalerriak Jel-Alderdiari. Au ezin ukatuzko egia dugu. Euzkeraz eta euzkera-gorakundez ogei badira aleginak, emazu amabortz eta geiago direla abertzalgoak piztuak. Ortaz beraz, euskalzale utsak ere maite bear du JEL alderdia. Maite au, ordean, ezin da mihizkoa izan soilik. Bear da eginetan erakutsi. Ona, euzkalzale begiko orrek, baduzu leia ori erakusteko sasoi aroa. Deia barreatua dugu bazterretan diru-eske, E.B.B.-k zirkinduta. Zeren eske? So oni. Aberri-Ogasuna egin txedez. Zer da Aberri-Ogasuna? Diru bat, gordebearra, tente atxikitzeko JEL alderdia. Erran dugu aristian dirua bearra dela denetako, Euzko JEL alderdia aintzinat egiteko ere bai, gero ta geiago, euzko-ekintzak beititugu gero ta garrantziago gero ta aritzenago. Zuk aizea bear duzun gisa berean, JEL alderdiaren ekintzek dirua dute galda. Ez duzuia emaiten? Or konpon, ez erran gero ez eta mogi aitzakiak ere euzkerak erreka jotzen duen itobearra, bizi ezina. JEL alderdiak bi ekentzen ditu euzkeraren aldez arrotzen diren iru zatirik. Bai emanen? Eldu den abenduko 1gnean eginen da biltza.</p>
+<p><hi rend='Italic'>Egilegor</hi></p>
+<p>Bai edo dakizu eresaldi auta dugula urran, emen Iru&ntilde;ako Gayarre antzoki ederrean. 190 lagun abeslari bika&ntilde;ak berak, agertuko zaizkigu burrunba batez mendietako abots zoragarriain gisan. Nor ote? Olaizola azkarraren taldea. Iru&ntilde;an betidanik abestu izan da goxoenik. Zoazte antzokira 9gnean ta etsituko zerate an berpiztua dela gure eres-gogoa ere. Iru&ntilde;ako euzko-abesbatzak du txanda egun ortan. Olaizolaren zotz sustagarriak ermanik. Beri xea, egun eta kontziertu onena, duzu karriketan barratu orrietan. Ba&ntilde;an guk aipu diogu nai bereziki Egilegor zauliari. Onek ere arizanen du sekuleko irri algarak zartarazten. Zein arte duen puntzioan? Euzkel erdel naste barregarrizko ipuiak kondatzekoa. Egilegor dute ezauna euzkotarrek oro. Ezera oroitzen, irakurle, nola arintzen zaizun gogoa Egileor entzunda? Nor den? Radiora ezera ateraia bein ba&ntilde;o geiagotan inun diren okurrentzik entzutera gizon traste batek emanik? Uraxe duzu Egilegor. Ta gomazu zuk entzun gauz oiek, diskoak direla bide, zaizkizula etorriak? Orai ordean, bera bai bera izanen duzu Gayarre antzokian. Balio du beraz lasterketan bilatzea txartela.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>BERRI BERRIAK (X)</p><--</head>
+        </front>
+        <body>
+<p><mentioned><hi rend='Italic'>La Voz de Navarra, </hi>1935-XI-5</mentioned></p>
+<p><hi rend='Italic'>Etxerre bat</hi></p>
+<p>Ez ain berri, amabortz egun duelakoa edo. Bai edo duzute aren berri. Etxarri-Aranatzen izana. Zazpi etxe erre omen ziren taxakada batez, auzo geiena. Gaua zen suak artu orduko, goizeko biak edo. Ain bortitza izan zen sua non eta abantxu il ziren etxe-barnetan ziren lagunak. Aizea omen zuen lagun suak. Beti ere maizterrak gogorki joak izan ziren, sua zela garri. Biarmonean bertze auzoetako etxetera zeuden eramanik maizter gaizoak, kupidagarri, so&ntilde;ekoak ere zituztela erreak eta etxeko tresnak ere suak kiskalirik. Lenago olako naigabe latzean etxerrekoek bilketa bat egiten zuten diru-eske, etxea konpondu al izateko baita ere poliki biltzen. Luze ez da Auzan ikusi ginuen nola erritarrak etorri zitzaizkion lagun auzokide bateri, onek etxea zuen tximistak urratua.</p>
+<p>Etxarri-Aranatzen ordean etxerre-berririk ez da edo beintzat lagun-leia itzali, ez baita izan bilketarik inguruko errietan. Ona euzko oitura bat ederra, galdurik. Ona erdelkeriaren bertze ondorio bat. Lenago era bai edo zen etxerrekoen lagun etortzeko aztura propia, Etxarrin eta Nabarra guzian. Izan balitz orai ere, erretako etxeak ordea izanen zuten nonbeitikan. Batzuek erranen dute orai seguroak direla-ta, bertzeren dirua ez dela ain bearra. Noski. Ba&ntilde;an olako lazkeria gertatzen deleik, etxez ga&ntilde;erako gauza anitz erretzen dire bai ta ere diruaren bearra izaten da. Ortaz beraz lagundu-bearra ez da suntsitu, nai bada bederik urkoari urgazi. Ortarako dire etorriak etxarritarrak ustez eta inolako etxerre-sari bat aterako zutela emen, ba&ntilde;an esku-utsik itzuli bide dire. Gaurgero etxeak nai bada ongi zaindu, segurtatu bearko dire. Eginbide ortara biltzea dute eginbear ertsia erritarrek burua gordetzen zinzo badira. Segurtamena elgarra balitz, obe, <hi rend='Italic'>mutua</hi> delako gisa ortan. Onela mozkin geldituko litzaken puska eluke inortxok ere altxatuko.</p>
+<p><hi rend='Italic'>Oarkabe ilgarria</hi></p>
+<p>Gertari bat itsa izan ginuen atzo Tafallako geldokian. Iru&ntilde;ako auzo bat, ezauna ta ongi etsia, lagun ziyoakien senide batzueri, Ameriketaldera egiten beitzuten bide. Tafallarakoan gizona jauster zen noiz eta ustekabean agertzen da bultzi bat aldameneko burnibidean barna. Gizona jauts eta bela azpiratu zuen bultziak, bere artan lepoa mozturik errotak. Lazki unkitu zituen soiliarrak agitu beltzak. Ona erioa non den. Alai atera etxetik, inolako grinarik ez eta demendreneko ixtantean bizitza galdu. Oxar edo arrandi luzeak ezin ditugu ibili ontan ere.</p>
+<p><hi rend='Italic'>Oitura bat, erritar-barnea</hi></p>
+<p>Oerakoan etxeko-andrek ekortzen oi dute etxea ta ez da geldituko bat ere sail au egin gabe, bear bezalakoa bada beintzat. Zergatik eta zertako? Benaparran ustea dabil Ama Birgina sukaldean barna ibiltzen dela gabez ta garbi dagon artan ixtan bat yartzen dela. Gipuzkoan eta Bizkayan bertze uste bat da. Gabean, oerakoan, sukaldea garbi egoki aingeruak dantzan ibiltzen dira, zikin sorginak.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>BERRI BERRIAK (XI)</p><--</head>
+        </front>
+        <body>
+<p><mentioned><hi rend='Italic'>La Voz de Navarra</hi>, 1935-XI-6</mentioned></p>
+<p><hi rend='Italic'>Apezpiku berria</hi></p>
+<p>Etortzer dugu, eldu den igandean. Larunbatean jinen da kaputxinoen kobentura, gaua egiteko an. Antxe bilduko du agintarien agurra, eldu ta bereala. Biaramonean, oitura danez, Done I&ntilde;akiren elizara amaiketan, eta andik Done I&ntilde;aki, Plaza, Txapitela, Mercaderes ta Curia barna, Eliz-Nausira. Te Deum abestuta, erria dela abesle, predikua apezpiku berriaren gain. Urren, Jauregian, eskumu&ntilde;a. Kalonge-Batzarrak deiak ditu banatuak olakoetan oitura den legez. Deituak dira agintariak, parroko edo apezburuak, anaidi, elkarte ta lagundiak. Naparrako Madrillerako aldunak etorriko omen dira, gorasarreari atxiki-naiak. Esanbearrik ez yendea bilduko dela trumilka Eliz-Nausian artzain berriari agur egin gogoz. Neoni, berriketaria, yoanen naiz zerbait konda-bearra an susmatuta. Pozak artuak gare gu ere, artzaina dugulakotz lenbizi ta erritarra beita urrengoan. Jaunak eutsinen al du, ardien onerako! Boazkio gure zorion-nai beroak.</p>
+<p><hi rend='Italic'>Gogorxu ari du</hi></p>
+<p><hi rend='Italic'>Diario-</hi>k dakarra Elizondoko apezburu jaunak idatzia. Au da <hi rend='Italic'>La Voz-</hi>n agertu idatziari erantzuna. Ez da aise emen biltzea Beltzunegi jaunak erraten duena luxea beita. Ea mamizki ematen ahal dugun. Lehenik asarrea erakusten du biziki gero nola erran zaion euzkera ez duela maite. Aspaldian saiatua duela apez atera ondokoan berean atxiki beitzen aren obe-bearrezko ikaskuntzari. Gero apezgoan euzkeraz da erri euzkeldunetan mintzatua beti ta beti. Auxe argi lezaketela Oiz, Oronoz eta Etxelar erriek. Otan prediku bat ere ez beitu erderaz emana. Elizondon bertze oinbertze ez badu egin, ez ote da arrazoi bat edo bat? Zein? Eliztarrak salbu bordariak (irutik bat egiten beitute ok), laur ogeitamarrean erdaraz mintzatzen direla iya soilik, berrogei ta amar urtez goragokoak bederik. Errian dituen bi urtetan euzkerak duela gaina berreun eta geiagoko predikuz, erderaz direno ogeitalau. Ortaz beraz ongi etsia ta zaindua dut &mdash;dio berak&mdash; euzkaldunen artaldea. Itz ematen du engoitik ere saiatuko dela alik obekien beiratzen, erdalduna ere baztertu gabe. Ugun eta narda diola eskabidean euzkeraz baliatzen delako zaztada orreri. Ta <hi rend='Italic'>La Voz-</hi>en idatzia dela aitzakia ta sasoi, sekuleko atsegina duela eliztiarrek ekarria. Bi apezek <hi rend='Italic'>La Voz</hi>-eko irakurleak berak, asarrea azaldu diotela dio. Bertze eliztiar aunitz izan dituela izen-bilketan etxez-etxeko batez abiatzer ez duela onetsi oinbertzera&ntilde;oko leia, aski beitu sasoian ikusirik oroen atxikimendua.</p>
+<p>Guk guketz ez dugu erantzuteko andirik, bereziki erran ondoan apezburu jaunak artalde euzkalduna beiratuko duela. Berak ematen duen aintoari beako utsez, aise da ulertzen artalde euzkalduna garrantzi dela Elizondon. Ar giten Belzunegi jaunaren kondu berbereri. Bordariak dira iruko bat eliztiarretan, gero ematen du amarren bat euzkaldun, aez gaineko, badugu 43 por 100. Ba&ntilde;an ondarreko 90 por 100 da 50 urtez beitikoena. Emagun, beraz, multxo bat badela goragokoak ta aisa ateratzen zaigu erdia. Onez ga&ntilde;era erdeldunen artean edo obeki errateko, erderaz mintzatzen ba&ntilde;an euzkeraz ulertzen ezautzen ditugu guk zenbeit, euzkera-naiak bertzalde elizan. Oek guztiok batera artuta gaia da baiki Elizondon inoiz ere ez uts egiteko euzkerazko predikuak. Erdaldunek nai dutela berena? Eman dakiela, ba, euzkera utzi gabe ba&ntilde;an. Pozik bai pozik jabetu gera Elizondon ez dela baztertzen euzkera. Agian ola iraunen al du.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>BERRI BERRIAK (XII)</p><--</head>
+        </front>
+        <body>
+<p><mentioned><hi rend='Italic'>La Voz de Navarra</hi>, 1935-XI-8</mentioned></p>
+<p><hi rend='Italic'>Aintzina</hi></p>
+<p>Ona euzkal-geznari edo mandatari propia. Noren oyua dakarren? Eskual erritarrena. Ok zer diren? Mendiz araindiko bazterretan JEL-en ahotsa entzun dutenena, tira zaulia asia dugu bertako euzkeldunen artean eta okek atera dute ingi bat ederra. Ez uste gero izperringi luze bat duziela au, ez, tikia ba&ntilde;o ta mamitzu, ba&ntilde;an aren idatziak oin ginar dire ta gilikorrak non eta bein asi ezkeroz ezin uko berriz ere irakurtzeari. Denen iyeki edo lumerua asi zenetik daukat nik, zintzo-zintzo gorde ere aren sorta. Bein ba&ntilde;o geiagotan lotzen niz zarren ikertzeari ta sumatzen ere zerbeit oargarri. Buru ekartzen dituen idatziak bai dire gurintzuak. Luma bipila ta yoria, idazle onena, azkarrenetan buru, noski. Zenbat balio duen? Guti, 10 libera edo franko urtebeteko. Ingia illekaria da. Aren berri ematen dute Uztaritzen M. Jean Duboscq baitan.</p>
+<p><hi rend='Italic'>Erregetiarrak pozez Grezin</hi></p>
+<p>Xoraturik daude bazterrak, errepubilika auxatuta, Grezin. Erregiaren gose gorriak omen daude yendiak, zoriona jite betean atari zabaletan barna sartuko zaielakoan. Espantuak ibiliak dituzte koplari zenbeitek orai txakurrak txistorrakin lotuko direla-ta. Beti ere xorabio dabil erria. Ez da aise errien asetzea. Erriak ez du bizi bear ongi, ezik ez alai. Erri aseak ez dire, ez, erri laketuak. Azken guda bitartean eta ondokoan diruz okituak ziren erriak, ez omen zeuden aseak. Ogi kurruzko bat gogotik jaten duena zorionez ausarrago da diruduna ba&ntilde;o. Orra Grezi. Inortxok ere eluke erranen erregea izanen den zoriona. Guk uste ezetz, erregea ta erregegoa beitira molde utsak. Ta moldea, berez, ez da deus ere. Orai bear dugu orea, orea nola opila ala. Itxurakoa bada orea, moldeari ongi artuko da ta moldeak zera eginen du txairo. Emazu, ba&ntilde;an, zirinegi dela orea ta ezgaitza, biurrituko zaizu kupida gabe, azka ta puzka ta egundoko eginala ibilita ere, ara berean gogortzen bazaizu, erran naiz nago etsituko zerala. Azpako bentara igorririk molde ta orea. Ez gero gertatuko bertsua Grezin. Errege-nai gorriak ditugu grezitarrak. Oraiko ontan ez ageri zoztorrik. Baditakea gisa ortan emendik guti buru? Orreri, aldatzeari ies egin bear zaio. Erregeren alderako ixuri ta ixitu onen ondoko etsimenduak larri ta luze bear luke ondorioak karreia. Zer edergarria eta zer aterabidea, ordu artakoa?</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>EUZKERA, ERRITARREN KUTXA</p><--</head>
+        </front>
+        <body>
+<p><mentioned><hi rend='Italic'>Amayur, </hi>CLXXVII, 1935-XI-30</mentioned></p>
+<p>Ona Monzon aldun jaunak esandako itzak. Aldun azkar au dugu beti gure elearen aldez zintzo jokatzen. Arek bai gogotik ari, ba&ntilde;an belarriak daude sor. Askotan erraiten oi dugu euzkera gabe ez garela yoanen inora ere, ba&ntilde;an euzkera segitzen dugu aunitz eta aunitzek. Emen Nabarran batez ere zer ari dute yendakiek? Lenagoko urtetan ateratzen zen andik edo emendik euzkal-eskola bat, aurten bat ere, emen Iru&ntilde;an. Bada bai, bat Aldundiak gain duena, ba&ntilde;an ango ikasleak oin dire, bertze tokitakoak bezin urri. Exkaxten ari zaigu lentxoago ginuen gogo xuhurra. Aurten bat ere. Gisa ontan segitzekotz, eldu den urtean ez da izanen susmorik ere. Erreka yo-bearrez gabiltza, eginbidez ez badugu aldatzen. Gure jabetasuna ez dugu aterako, gure baita beriztu gabe ta baita au ez da beriztuko euzkera gabe. Buruan yosi bear dugu egi au. Euzkera dela bide bakarra sartuko zaigu azkatasuna. A! Ta obe da saritzen ez bada orai agertzen dugun gogaitze onekin.</p>
+<p>Euzkera gabe ez dukegu euzko-gogoa. Ta euzko-gogoa gabe ez dugu etsiko azkatasuna zu&ntilde;en eder den eta nola nabaitzen, nola asmatzen den. Azkatasunaren lehen-leheneko eginbearra, auxe. Erroak ari bere gogakeran. Ta gogakera berezi au atxikitzen gai ez bagera izan, azkatasuna, makaltxu, aulxe, erroa barrendu ezina biziko da. Ta ez etsaiek yota, erritarrek berek iltzeko zorian yarrita. Nola? Ikusagun. Euzkera gabe nior ere ez da euzkotartzen egiz ta benetan, beintzat. Euzkelduna izan gabe, barrutiko euzkotarra ez osoki. Barrutiko euzkotarra ez da or karriketan barna ibiltzen dena gora-goraka. Bai ginberretan eta atzeraka. Karriketan barna gora-goraka ibiltzen diren oiek ez dira, ez, bene-benetako euzkotarrak, ez euzkel-tayutan oratuak. Gogoa baleukate euzkotar, ez lireke emanen oin euzkotar-itxura guti dakartzen oyu funsgabeko oeri. Gora-gorakako oiek ez dakite euzkera. Jakin bezate, beraz, oyu alperreko oiek ez direla gai aberria azkartzeko. Zugatzak abar sendoak eta sano ekartzeko, bear du erroa sakondu. Alaber erriak. Azkatasuna dira abarrak eta adarrak. Erroa ez badu inongo erriak barnetik artua, kukula ez gai luxe. Ola-ola sasi-euzkotar oiek, barnea dutela atzerriak janik eta exalez parruko, mundua ere yanen dutelako mehatxutan. Esan dezagun argi ta garbi, euzkalduna ez denak ozka bat du larri bere gogoan, atzerriak yanik. Egizu eginala, edozein tokitik yota. Ez bazera eukalduntzen, etsaia duzu biotza ta adimenari lot. Unamunok, badakizu zer erraiten zuen be&ntilde;ola. Entzun eta so gogotik arien itzeri: <foreign>&laquo;Mientras los nacionalistas griten contra Espa&ntilde;a en erdera, no hay peligro&raquo;. </foreign>Ona. Ona gora-gorako oiek. Itz oen pilosopia ta zer esana edoski bear luteke, ez gora-gorako oiek soilik baizik eta euzkotarrak orok.</p>
+<p>Iru&ntilde;ako mutilak, zer ari zerate, induriarik ere ezaizuela gelditu biotzetan, euzkera ikasteko? Ez emen, gure batzokietan, ezta Aldundiaren euzkel-ikastolan, ez dira agertzen euzkalzaleak, euzkera maite dutenak. Ta euzkera gabe uste al duzute aberriaren gorakunde-bidetan barna ibil zaitezkela? Bai ote? Gaizo-puskak zerate uste ortan. Orai ordean, ustea baduzute zintzo ta ganua ustel, ez erran euzkotar zeratela ezta abertzale-naiak. Etxean gelditzeko zerate geiago, batez ere zuek, ikastunak.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>ERDAL KUTSU SARKORRA</p><--</head>
+        </front>
+        <body>
+<p><mentioned><hi rend='Italic'>Amayur, </hi>CLXXX, 1936-I-4</mentioned></p>
+<p>Batzuk burua esten dute abertzale, sartuak beitire aunitz abertzale xoko-mokora. Utsegin gaitza. Nork burua abertzale-izatera biltzen du aberkoitzen denean. Aberkoitu zer den? Aberkoi biur, abertzale egin biotz-biotzetik. Bertzeak, mihiz bai erran eta biotzetik ez izanak, ez dira fidagarri naiz eta sartuak diren milla zokotara. Ez, mutillak, ez. Auxen dugu galgarriena. Erria maitatzen dute ez mihizko maitekariek, aren aldez aritzen duena ba&ntilde;o. Bazkoz, ez du betetzen, txartela artuta, etxera doayena txairo-txairo, ez bear bezala aitor eta jaunartu duenak ba&ntilde;o. Gauzok badituzu gaizki eginak, ogei txartelak ere ezaitue salbatuko. Ba ordean ongi baduzu egina, txartela ez da bear. Orra ogei aberkoi-elgartera sartua izanik ez dizu emanen egizko abertzale-izaria. Bear-bearra duzu an agindua bete. Abertzale axal oieri erran bear diegu ez dutela betetzen ez osotzen ere elgarte oietan ezartzen zaien lehen-agindua. JEL-elgarte guziek agintzen dute euzkeraren aldez eginala egiteko. Gure aipatu ok tirria diote agitz oni. Ezetz? Ea abertzale sartu oietan zenbat diren euzkeraren ikasteari lotuak. Einto bat, tikia. Geienak ogei urtetan agertzen dire sargarayan bezain gogor. Euzkerak ez die xirrintarik, erdara ta erdara naiago ordu guzietan. Eleak erriak gaizkatuko digun aitzakia ez da gaurkoa, badu urte-multzo bat, belarriak ordean daude sor eta gor, entzun nai ez dutela.</p>
+<p>Ba&ntilde;a errua ez dugu egotzi bear, guziz eta osoki, elea ikasi nai ez duen abertzale onen bizkarrera. Onek ez du ikasten euzkera, ikusten beitu alderdian ez dela eskatzen euzkera deuseko. Zenbat aldiz dugu errana asi bear ginuela guk eskatzen, ba&ntilde;an ez ditugu eskatzen euzkaldunak, morroiak edo seiak bear ditugun tenorean. Abertzale direnek oitura au artuko balute, ataria exteko erdalduneri, bai eginen litzake lan polita. Ez gera oartzen ein oni ta edonor artzen dugu, dela edo ez dela euzkaldun. Gero zinak eta minak, euzkera, au ta ori.</p>
+<p>JEL-ek aurreratzen du euzkera gaxoak ba&ntilde;o askoz geiago. Jeldar aunitz ditugu soraio, onen ulertzen gogor, euzkeraganako leia buruan sartzen beranta. Olakoekin ez dugu deusik eginen. Makurrena da buru kozkor ok ez dutela ulertzen erdara zariotenean, erdararen itzea dutela sakon eta barren, zeren eta nor bere mintzoaren menpeko bizi da. Badugu areago ere. Erdalzale amorru ok gero ditugula nausi dela batzarretan dela aginpidetan. Oartzen gera bein ba&ntilde;o geiagotan alderdiak eginetan ez dakarrela euzko-usain andirik. Aisa. Alderdiaren biotz-biotzean dituzie erdalzale aek josita. Erdaldun-gisa eskeintzen digute yatorra. Erdaldun-gisa, maketo-gisa, naiz eta gurdi bete bat solas aberkoi irauli. Espa&ntilde;ar bat ikusiko baginu, bere elea ez dakiena, arrituko litzaiguke bai azkar. Ta ainbertze euzkotar ari gera ikusten euzkera ezyakinak eta abertzalien mamiok ere gelditzen gera bizkarrak uzkur.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>BAI GOZAGARRI</p><--</head>
+        </front>
+        <body>
+<p><mentioned><hi rend='Italic'>Amayur, </hi>CLXXXI, 1936-I-11</mentioned></p>
+<p>Pozik bai pozik ematen dugu gaurko berri au, bai gozagarri euzkara-autsi-mautsiotan ari giranendako. Berriki izanak ditugu JEL-Alderdiaren eranguntzan deitzen ditugun Erki-Batzar Nausiak. Gipuzkokoan ez omen da fitsik ere ibili erdaraz, Bizkaikoan euzkal-solasak einto bat polita ardietsia du ere, euneko 60 bai ta geiago. Naparran, ordean, itz bat ere ez. Betidanik bai gotorki agertzen gu erdalzale min. Abertzaleak nola ez abertzaleak. Oro gitu erdal-aier gaistoak. Erranen da ez dela aier gaistoa, zabarkeria ba&ntilde;o. Emazu bertsu. Ta makurrago, nai baduzu. Aiertuak noizbait aira dezake seta gorri ori, erderara eroria, euzkalzale bilaka. Seta gaisto-ukaileak gogoa du bederik. Gaizkira jotzen badu gaur, biyar onaldi dagoke. Zabarra aldiz il-antza dago. Bizkortzeko bear da apur bat alegin. Seta gaistoa bein-beineko gaitza izan deike. Zabarkeria, zenbat aldiz, bizi-bitarteko. Done Paulek kistarreri zien amorru gaitza, setarik beltzena. Gogoa beitzuen zauli ta azkarra ta xardukia, Jainkoaren argiak jo zion egun batez. Ala bertsu Done Augustinekin. Gisa berean ainbertze donekin eta gizonekin. Zabarrak ukituak dituen ez dakigu.</p>
+<p>Zabarki bizi izan dena, ordean, zabar iltzen da. Auxen dugu erio ilgarria, ga&ntilde;era. Ez soinaren ilgarri, bai ordean gogoaren. Gogo zabarrak biziari ez dio leia denari ugun, orori narda, guzien iges. Erran naiz nago, ez Jinkoaren aintzin ez gizakien, zabarrak geienetan sendabiderik ez du, ez badu ateratzen bederik egundoko inala ta lerrena. Azken beltzean ere bearreztuko zaion Jinkoaren urrikia gaude, gaitzari ies egiteko. Zabarra ta abertzalea, oro batera ar, gauza da sinesgaitza ta krozkan errauztekoa. Ezin solastatu gaitz onen elmena. Zabarrak barratzen duen kutsua baida ilgarria, indura-mota guzien igortzale, beroeneko aleginen epelgarri. Zabarra sortzen denean eta ukakorra-zabarra ta ukakorra baita berean ibiltzen dira, oberena litzake belako batez aizatzea inon den urrumera bialduz. Elkorra baitu asmoa ta biotza, ustel.</p>
+<p>Itzul giten gure arira. Euzkerari ginion solas. Eginbide prestua, Gipuzko ta Bizkaikoa. Noiz erranen gauza bera Naparraz? Noiz izanen bertoko batzarrak, euzkeraz? Bizibide ederra deramagu bai ala ere. Aintzinat jo orde, gibelat. Igazko urtetan bazen emen Iru&ntilde;an aurten ba&ntilde;o itxura obea, euzkera-aldeko. Bizkorrago genituen lagunak eta zenbeit, euzkera ikasi nai gorriak ere. Aurten, ordean, oro, anu ta uko non eta nior ere ez da mugitzen. Abarkeria lotu zaigun susmo. Zer nai den ere, ez gira len bezain atxikiak, len bezain gozo-ixuriak. Ai gure antsiaren aula! Ez ote oart gauza bateri? Ez ote oart euzkera bazterrat emanik JEL ere nekezago ibiltzen dela? Nai baduzie JEL-en urratsak azkartu, o&ntilde;arria landatu sendo, joaitea gotortu, eman zazie euzkera aurretik. Aziko zaitzuen jelzalgoa zustraia izanen duzie. Gabe, aldiz, kaxkarra ta loka. Sudurmenean duzie ikasgarria. Ea zenbat dire joanak, JEL-ekin batera euzkera edoski aietarik. Ea zein diren alderdian eragilenak. Egun eta eguzkian, abertzale garrienak, euzkaldunduak. Ez dezagun eder xuri ta xau ezin dena. Euzkera ta euzkera. Euzkalzale nolako, abertzale alako. Euzkalzale txarra, abertzale txatarra. Ta abertzale txatarrakin erria ez da joanen ez da erdaraz ere. Euzkaldunak direla bide, JEL-ek eginen du aurrera. Oil ditzagun urrunat ez ikasten gogortu oiek, bereziki gazte izaki. Euzkaldunak bear ditugu, abertzale bezain ainbat. Egia da abertzaleak alde, JEL ez dela sartuko erritarren gogora ba&ntilde;an ez gutigoko egia da euzko-gogoa ezin dela bazka ta alha, euzkera gabe. Erdaldunak ez du izari-izarian neurtzen ahal euzkotasuna, onen zaina ezbadu, euzkera. Duenak erro ta barne asmatzen du abendaren deia. Gabeari, ordean, makalduko zaio euzkotasuna, indartu-ustean. Nik beinepein ez dut ezautzen abertzale bat euzkera ikasia ta guganik alde-egina. Elea dugu, beraz, euzko-gogoaren pitz arazle, leiaren indargarri ta JEL-etsiaren atxikimendu gakoa. Unagarri naizela ni euzkera-aitzakia-maitzaki otan gogortua? Bai noski ba&ntilde;an ni baino unagarriago dire egi au atxiki ta gogortzen direnak, ez ausnartu naiak.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>KALERANTZAKO BURRUKA</p><--</head>
+        </front>
+        <body>
+<p><mentioned><hi rend='Italic'>Amayur, </hi>CLXXXIII, 1936-I-25</mentioned></p>
+<p>Gauza ederra da aritzea ta burrukan aritzea areago. Gudura-gogorik ez duen abertzalea motza dugu. Nai ta naiez gudukatu bear dugu egun guzietan. Girina tzarreri aitziko gudua duen gizona ori da ori gizona. Gogoa epelduta, debrua sartzen da bela. Ta gogoa epeltzen da gudua ez badago. Gogorra da ta latza abertzalek ibiltzen dugun burruka. Azeri artzen bagira zintzo, lazten dira indarrak eta obeki iardokitzen bear orduan. Ona bertze gudaldi bat, eldu den autaroan. JEL gudura doaye berriz ere. Burrukatik kanpo, JEL elitzake JEL. Ekin bear dugu induria lasa gabe. Bi egun emaiten badituzu lan gabe, irugarrenean baduzu gogoa lazo. Iru badira olga-egunak, lazoago ta gisa ortan baitara nai edo bear duzunean gogoa, tarrapatan duzu joana ezin atxikiz.</p>
+<p>Au ez da makurrena ordean. Ez al zera oartu abertzaleak elgarrekin liskartzen eta samurtzen kanporantza ez badute ateratzen indarra? Ni bai beintzat. Ikusazu barneko auziak gertatzen diren sasoia. Eskier dela gertatzen kanpotik zirikatzen ez gituztelarik. Etsaia ager ta indarrak bil dugu bein ba&ntilde;o geiagotan ikusia. Agerian bear dugu beraz etsaia. JEL da gazte-alderdia. Gaztez dugu zaina zaharrek ere. Tenoreak oro ditugu gudura gert. Odola bero, gogoa bizkor, ekin-gose. Nola ez gira guduan saiatuko?</p>
+<p>Naparrak bear ditugu erne ta bizkor ditezen. Ona bide bat. Autaroa. Auteskunde-burruka ta sasoia ez da bakarra, bai noski. Ba&ntilde;an kenazu gure erri ontan sasoi au ta erria ez da zaletuko orai bezain ainbat. Urdaila makalxe dagoenean, ez dematu artara sartzen saltsa lodiak eta txingarra. Naparrako jendiak, euzkotasuna galduta, urdaila dute minbera, deus guti sartzen zaiela.</p>
+<p>Arako bear diozie janaria eman. Jendiak bizkortzen dire burruka-tenoretan. Ba&ntilde;an zuek, euzkaldunoik gai ta sasoia duzie gogoa gauza ok ulertzeko. Naparran aise ezauna da euzkaldunek zein alde jotzen. Non ere bizitzen beizerate, Jelek aurrerako bidea deramana. A! Euzkaldundu ahal baginetza erdal-zatiak Naparran, maketerriko leiak laister genituzke aizatuak... Ba&ntilde;an, ba&ntilde;an, bide au dugu luze ta latza, ez nolanaikoa. Asmatu bearra dugu zerbait onen bitartean. Ezperen, bizirik dugun errietan, euzkera ilen litzaiguke. Lurralde otan eutsin eta eutsin. Euzkera-galdu bertze orietan JEL-en azia bota ildoan. Eta bizkitartean atxiki gogor egiteko mugak. Burruka bada, agertu ara geoni. Aipa gitzatela bederik abertzaleok une ta toki guzietan. So&ntilde;ua baderamagu aintzinean, jendiak oartuko dira nai ta nai ez, onkara ala gogorkara. Jendiak guri ta gure irakatsiari oartuz geroz, zera badugu egina. Erritarren sor ta gor egote ori beitugu etsairik beltzena.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>EKIN-LEIA</p><--</head>
+        </front>
+        <body>
+<p><mentioned><hi rend='Italic'>Amayur, </hi>CLXXXIV, 1936-II-1</mentioned></p>
+<p>Gauz ederra, baiki, gogo bat biotz bat. Auxe izan bear zuen beti JEL-ek baita bear luke. Aitzika edo aurka ditugun etsaiak larri dira. Abertzaleak. Nola banandu, nola barreiatu? Inundikan ere ez. Ona azken igandean batzartutako guzien txedea. Ortaz beraz, gauz ederra izan zen, ezin solastatua an ikusia. Bizirik dago ta txutik beti JEL-Alderdia, bizirik eta ekin-gosez. Orai agertuko zenbeit egunen buruan. Auteskundeak ez dira guzi, ontan gaude, bai ordean JEL-en aldez egiteko gisa bat eta ez nolanaiko. Gure etsaiek dauzkagun bide guzietan agertuko bagine abertzaleak, zenbat on ginekarke. Orra or, udalak eta aldunegiak. Gureganatuko bagenitu, bai naroa aterako ginuken egina. Aberriaren gorabidetan ezin da erran txokoak uzteko etsaieri. Inoletan ere. Kiriketako etsaia dugu larriena. Kokatzen bada or zuloetan, zuloetatik atera bear. Zuloetan uztea, esanez eta garbiegi gerala gu, bertara agertzeko, irrigarri dugu. Ontara so, pututxea bear dugu ikasbidatan atxiki. Pututxea badakizue noski zer den. Abere bat tikia, eizitarakoa. Untxi-eske ta billa eramaten dutena. Uloetan barna sartzen dute eremua alduta. Pututxea sartzen den zulotik, untxia ager nai ta nai ez. Gisa ontan axti baten buruan garbi daude zilo-milo guziak. Ortarako ez beita pututxearen muturra bezelakorik. Alaber gu. Etsaia non, gu ager antxe. Udaletan dugula kokatua, gu udalen xokotara. Aldunegietan dagola kuku, gu ararat, jazarri ta jazarri, atseden utzi gabe. Madrillerako aldungoan dela aren kabia? Zintzo gu, sardea eskuetan. Burruka beti. Gudua dela tikitan dela andiatan. Abertzale batendako Jinkoaren legeain barne, ezin deike nardagarria izan aberriaren onerako eginetan. Auxe izana da alderdiaren betiko egin-bidea. Aizatu bear da etsaia toki guzietatik. Etsaia da gure eskubideari gogor egiten duena, maketoa ta ez maketoa. Aintzinkatzen zaiguna bidean, erriaren gorabidetan traba ta gibel-bearrez ori dugu etsaia, atxerri naiz erri. Aldara bear gure bidetik, ezen bide ta bidezkak oro bear ditugu garbi ta xai gure arlora buruz.</p>
+<p>Zinezko kistarra bereganoz agertzen da. Jinkoak berak beidugu ezaupidea emana. Jinko-maitasuna. Orra ba duenak kistar erakusten du burua. Ez duena kistarra ez da naiz eta inoizko apatxekoak ekarri. Gisa berean, JEL-izakerean, burruka-leia ez dakarrenak ez du balio. Burruka leia ordean ez da gauz bat zoroa, adigabea, buruz ekiteko itxuki, basurde-gisa bultza-bearrez. Ez, utikan, gizaz eta arrazoiekin ibiltzeko ba&ntilde;o, gizonari dagokion bezala. Bertzenaz alperrik jotzeko arriskua. Ba&ntilde;an buruan gizazko txedea bein artu ezkeroz, ez da utzi bear, etsaiak eta ez etsaiak, baizik eta etsaien indarrak apurtu arte.</p>
+        </body>
+      </text>
+    </group>
+  </text>
+</TEI.2>
+

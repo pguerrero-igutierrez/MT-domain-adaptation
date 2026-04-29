@@ -1,0 +1,377 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN"
+                       "http://www.tei-c.org/P4X/DTD/tei2.dtd" [
+   <!ENTITY % TEI.prose    'INCLUDE' >
+   <!ENTITY % TEI.linking  'INCLUDE' >
+   <!ENTITY % TEI.analysis 'INCLUDE' >
+   <!ENTITY % TEI.figures  'INCLUDE' >
+   <!ENTITY % TEI.XML      'INCLUDE' >
+   <!ENTITY % TEI.extensions.ent SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.ent' >
+   <!ENTITY % TEI.extensions.dtd SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.dtd' >
+]>
+<TEI.2>
+  <teiHeader>
+  <fileDesc>
+     <titleStmt>
+        <title>Don Juan eta bere adixkidiak</title>
+        <author>Jean Baptiste Constantin</author>
+        <respStmt>Ez dauka</respStmt>
+     </titleStmt>
+     <extent>5.236 hitz, 36.939 karaktere</extent>
+     <publicationStmt>
+        <publisher>Klasikoen Gordailua [http://klasikoak.armiarma.com/]</publisher>
+        <distributor>Estrata Liburuak S.L.</distributor>
+        <address type='email'>klasikoak@armiarma.com</address>
+        <idno type='ota'>ConstantinDonjuan</idno>
+        <availability status='free'>Erabilpen librekoa; honoko helbidean topa daiteke (HTML, RTF eta PDF formatuetan): http://klasikoak.armiarma.com/idazlanak/C/ConstantinDonjuan.htm</availability>
+        <date>2006</date>
+     </publicationStmt>
+     <sourceDesc>
+        <bibl>Iturria: Haritchabaletaren bizia / Don Juan eta bere adixkidiak, Jean Baptiste Constantin (Patri Urkizuren edizioa). Euskal Editoreen Elkartea, 1997</bibl>
+        <notesStmt><note>Iturburuen datazioa: 1910</note></notesStmt>
+     </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+     <projectDesc>Euskal literaturako testu klasikoen bilduma da KLASIKOEN GORDAILUA; testu hau berorren parte da</projectDesc>
+     <refsDecl>
+        <p>MENTIONED etiketa egilearenak ez diren hitzak markatzeko erabili da: hitzaurreak, aipuak, iruzkinak, e.a.</p>
+    </refsDecl>
+     <classDecl>
+        <taxonomy id='generoa'>
+            <category id='G-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='G-ANT'><catDesc>Antzerkia</catDesc></category>
+            <category id='G-BER'><catDesc>Bertsoak</catDesc></category>
+            <category id='G-ERL'><catDesc>Erlijioa</catDesc></category>
+            <category id='G-NAR'><catDesc>Narratiba</catDesc></category>
+            <category id='G-POE'><catDesc>Poesia</catDesc></category>
+            <category id='G-SAI'><catDesc>Saiakera, kronika, artikuluak...</catDesc></category>
+        </taxonomy>
+        <taxonomy id='garaia'>
+            <category id='M-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='M-16'><catDesc>XVI. mendea</catDesc></category>
+            <category id='M-17-1'><catDesc>XVII. mendea - 1. erdia</catDesc></category>
+            <category id='M-17-2'><catDesc>XVII. mendea - 2. erdia</catDesc></category>
+            <category id='M-18-1'><catDesc>XVIII. mendea - 1. erdia</catDesc></category>
+            <category id='M-18-2'><catDesc>XVIII. mendea - 2. erdia</catDesc></category>
+            <category id='M-19-1'><catDesc>XIX. mendea - 1. erdia</catDesc></category>
+            <category id='M-19-2'><catDesc>XIX. mendea - 2. erdia</catDesc></category>
+            <category id='M-20-1'><catDesc>XX. mendea - 1. erdia</catDesc></category>
+            <category id='M-20-2'><catDesc>XX. mendea - 2. erdia</catDesc></category>
+        </taxonomy>
+        <taxonomy id='euskalkia'>
+            <category id='E-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='E-BAT'><catDesc>batua</catDesc></category>
+            <category id='E-BIZ'><catDesc>bizkaiera</catDesc></category>
+            <category id='E-BNA'><catDesc>behenafarrera</catDesc></category>
+            <category id='E-ERR'><catDesc>erronkariera</catDesc></category>
+            <category id='E-GIP'><catDesc>gipuzkera</catDesc></category>
+            <category id='E-GNA'><catDesc>goi nafarrera</catDesc></category>
+            <category id='E-LAP'><catDesc>lapurtera</catDesc></category>
+            <category id='E-NAF'><catDesc>nafarrera</catDesc></category>
+            <category id='E-ZAR'><catDesc>zaraitzuera</catDesc></category>
+            <category id='E-ZUB'><catDesc>zuberera</catDesc></category>
+        </taxonomy>
+    </classDecl>
+  </encodingDesc>
+  <profileDesc>
+     <textClass>
+       <keywords scheme='generoa'>
+         <list><item>G-NAR</item></list>
+       </keywords>
+       <keywords scheme='garaia'>
+         <list><item>M-20-1</item></list>
+       </keywords>
+       <keywords scheme='euskalkia'>
+         <list><item>E-ZUB</item></list>
+       </keywords>
+     </textClass>
+  </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>Don Juan eta bere adixkidiak -- Jean Baptiste Constantin</docTitle>
+    </front>
+    <group>
+      <text>
+        <body>
+<p><mentioned><hi rend='Italic'>Eskualduna</hi>, 1197.z., 1910-III-5.</mentioned></p>
+<p><hi rend='Bold'>I</hi></p>
+<p>Orai diala 50 urthe bazen Santa Grazian gizon bat <hi rend='Italic'>Don Juan</hi> deitzen. Bazen phuntu hetan etxeko jaun handiagorik, bena bai txipiagorik ere.</p>
+<p>Kartieleko gizonik azkarrena zen, eta suiaren buhatzen hasten zenian butzaz inkhatzak eta ilhintiak tximiniari gora igorten zutian, bestalde aho beroxka, eta ardura espantu zerbait khuntatzeko. Kabaletan bazian sinheste eta hanitx hazle huna ere.</p>
+<p>Urtheberri ondoan, igorri zutian bere ardiak eradatera, <hi rend='Italic'>Topeten </hi>altia gainti, <hi rend='Italic'>Zurubu handia</hi>la. Oren erdi baten buruko utzuli zeitzon oro, salbu ardi gris paleta, maxela xuri eta muthur nabarra. Badua haren arrankuran eta huriala heltziareki ikhusten du bere ardia axuria sorthurik. Biltzera iseiatzenda, bena axuria lotsaturik, abiatzen da <hi rend='Italic'>Abitolarat</hi> buruz, orkhatz bat bezala jauziz, bere ama ondotik marrakaz.</p>
+<p>Don Juan laster ebilten zen, axuria zalhiago. <hi rend='Italic'>Khapariako</hi> lephoala heltzian gizonak uzten dutu bere eskalanpuak elhurrian zalhiago ebili beharrez: axuria <hi rend='Italic'><foreign>Lohitschimilze</foreign></hi>n barna gain behera heltzen da <hi rend='Italic'>Barlaneseko</hi> loseria khantiala. Debaldetan deio ardiari artetarik don Juanek oihu egiten: <hi rend='Italic'>&laquo;pirri, aitte, pirri aitte!&raquo;.</hi></p>
+<p>Loseria ondoan lanian ari ziren, <hi rend='Italic'>Marinalako</hi> duela egiten, zazpi gizon: <hi rend='Italic'>Jonolo Eskiula, Miu eta Jean Gormant Barkoxekoak, Gollut Altzuruku, Bensa L&eacute;es Athasekoa, Chouret</hi> eta<hi rend='Italic'> Lakasia Barlanesekoak</hi>, oro apetitu huneko gizonak, lotsa ez zirenak pastetxaren jatera zahiareki. Ikhusirik don Juan lasterka horra zela, partzen dira axuriari; hau, basa ahuntz baten balde, jauzi batez badua bago erori eli baten artiala gordatzera. Han atzamaiten die eta khexiaren handiz don Juanek arrunt buxeriatzen du eta khumitatzen dutu gizonak laurden baten jatera. Suia phizturik da bertan eta oren baten buruko laurdena janik zen oso osoa.</p>
+<p>Don Juanek laur phartetarik hirurak hartzen dutu bizkarrian, eta ardia zintaz estekirik, etxerat abiatzen da, eta ulhuneko etxen sartzen.</p>
+<p>Etxera ondoan bere emaztiari erraiten dero:</p>
+<p>&mdash;Zer egin behar dugu hainbeste axurkiz? Bai karakho amigo behar dugu, Mari-Phuilta, axurki huntarik janerazi triste kailesaho gorri, gose jankin horier, aments bizi direno behin ondo egin dezen.</p>
+<p>Phouiltak:</p>
+<p>&mdash;Debliak boilatu, bai bai, don Juan, eman behar ziezu, Jinko hunak ere nahi dizu amuinaegin dadin. Dianak eztianari phartitzia obra ederra duzu.</p>
+<p>Don Juanek erraiten zian geroan, sei familia hazi zutiala hirur egunez axurkiz, han beitzen axuri sorthu berria handi eta gizen. Larria aldiz Espainul maister bati soba erazi zian eta ederraren ederrez eman <hi rend='Italic'>Mizpiret </hi>ordunko jaun bikariari.</p>
+<p>Ardiak hainbeste ezne eman zian nun negu orotan Don Juan eta familia bizi izan beitziren erraberoz apairu guzietan. Bena azkenian zer heltu zen! Xixariek eta gogorreriak hartu zutian ihautiri azkeniala bait.</p>
+<p>Lerdo egunian, joalteroek egiten zien urthe oroz kartaka partida bat. Urthe hartan juntatu ziren Anna Xohoren etxen don Juan eta Bixar musian aritzeko Sutibran de Kallinbre eta Agaramunten kuntre. Jean Purra aldiz jinerazi zien butilatzeko eta seien khuntiaren eramaiteko.</p>
+<p>Hasi ondoan bertan lagunek don Juani:</p>
+<p>&mdash;Don Juan zer duzu? trixte zirela uduri zitazut, etzira batere largatzen; emazu, eman gezur zonbait; tanto zonbait gora behera nik laxuki eskumutaldi batez bilduren zitit zuk galdiak!</p>
+<p>Don Juanek:</p>
+<p>&mdash;Bai, karakho amigo, badiat sobera phena alagera izateko.</p>
+<p>Agaramuntek:</p>
+<p>&mdash;Zer duk gizona ala eri hiz?</p>
+<p>Jean Purrak:</p>
+<p>&mdash;To, edak buen trago eta erran leialki phenak heben hire adixkide hoberener. Ehadila lotsa, gogo hunez sustengiren haigu.</p>
+<p>Don Juanek erraiten dere ordian zer dabilan, nulaz bera eta familia xixariek eta gogorreriak harturik diren:</p>
+<p>&mdash;Phentsatzen ahal duzie zer trantsutan nizan. Aleta enundia joan nahi Atharratzeko basa bedezi horietarat, oro pilardit eli bat beitira, untsa phaka erazten baizik deus eztakienak. Bena lotsa diat behartuko zaitan.</p>
+<p>Agaramuntek:</p>
+<p>&mdash;Ez gizona, ehadila joan; hobenian phuzuatuko haie eta untsa phaka eraziko. Nik nahi deiat dohainik eman erremedio bat, sendoturen zutiena bai ere xixarier zalhe lekhu egineraziko diana. Bil ezak gaitzuru bat unhurru arrautze, xirikotan untsa egoseraz itzak; gero emak edatera ahal bezain bero bolta bedera hire familiako jenter, eta ihaurek aldiz biga gainti itzak, hamahirur urthetako zezen espainul bat beno azkarrago behiz.</p>
+<p>Don Juan:</p>
+<p>&mdash;Eskerrik hanitx Agaramunt, eztuk gorrari erraiten.</p>
+<p>Bixar:</p>
+<p>&mdash;Bai, ttenttamentia hori segur hun lukezu, bena nun ediren sasu huntan unhurru arrautziak?</p>
+<p>Sutibran de Kallinbre:</p>
+<p>&mdash;O demoniua! nekez sasu huntan; bena egin ahal bat eginen diagu Arboli alte horri.</p>
+<p>Hortan gure gizonak barreiatzen dira, khuntiak phakatu ondoan. Ihautiri iganteko goiz mezan, don Juanek ikhusten du xokho batetan bere adixkide Trinka eta gogoan igaraiten du harek ihurk emaitekoz, berri emanen derola unhurru arrautzez, bazter hanitx kurritzen dialakoz ihiztekan.</p>
+<p>Mezatik elkhitiareki badua Trinkari buruz eta khumitatzen du topeta bat aigardenten edatera Alagoyhen Kalanbriaren ostatian.</p>
+<p>Berrikaxetan hasten dira, pintu bat aigardent igaraiten da zuntzurrari behera: beste bigerren bat galthatzen die. Azkenekoz don Juan atrebitzen zaio galthatzera ez othe dakianez nun baden huilanian unhurru habia zonbait abis ukhen diala eritarzun batetarik sendotzeko behar diala unhurru arrautzez eginik den tisana edan.</p>
+<p>Trinka:</p>
+<p>&mdash;To! doi galthatzen duk, alaturu jinkua, badakiat habia bat ederra, beitu segurik hogeita hamar unka arrautze. Hurrun duk, bena behar den denbora hartuz bilduko diagu hire doia. Igaran Done Santhore altia Bortuzko phasian igaraiten nintzalarik, ikhusi diat Alano bortietarik utzultzian.</p>
+<p>Don Juan:</p>
+<p>&mdash;Bai bena elhurra baduk, nula edirenen dugu?</p>
+<p>&mdash;Deus eztuk, fida nuk begiak zerraturik atzamaitera. Behar diagu laur lagunek joan Ga&ntilde;eko Bentala gaiko, alageraki oren zonbaiten igaraiteko, eta ladron trixte hura pihu beita espainul zorria bezala, jateko ausarki hartu behar diagu; irus balinbaduke bospasei kantaro ardu zuntzurren bustatzeko doia.</p>
+<p>Don Juan:</p>
+<p>&mdash;Voila qui fait! ene adixkide Trinka. Lagunetako hartuko tiagu Bixar eta Xapalanda, segur ezpeita lagun hoberik. Nik hartuko diat urdazpi bat, laur edo bost tripot, hirur lukhainka uztarri, bi andoila plek eta horik jan ez dutuguno arauz atzamanen ditiagu unhurru arrautziak. Bira kantaro ardu edanik ere, esparantxa diat halere bedezi arrapatuthoieki beno merkexiago elkhitia.</p>
+<p>Hitzartzen die hauste goizan abiatuko direla, ihauteriko azken egunak behar dutielakoz igaran beren familietan. Lehen heltiak beharko dutu bestiak eguruki Ardatxeorenian. Elhe horik iraganik, nur bere alde badoatza bi gizonak, eta don Juanek bidajiaren egitera biltzen dutu Bixar eta Xapalanda.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>II</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>Don Juan bere adixkideki bentan</hi></p>
+<p>Hauste goizan hitzartu thenoreko laur gizonek Ardatxeroarenian junta egiten die Don Juanek, alforjetan zutian anhuak emaiten dutu Bixarri eta Trinkari, berak bi xahako arduz betherik hartzen dutu Agnarenian, eta Xapalanda aitzinian abiatzen dira trenpu hun Ga&ntilde;eko Bentalat buruz. Laur orenez ebili ondoan elhurrari gainti, heltzen dira Ga&ntilde;eko Bentala untsa eskerniaturik eta egarrituxerik. Erran gabe dua, Erreginarenko zurubian hasirik, xahakoek ardu tzirista zonbait galdu ziela Bide Gorri gainean, Ezpel Sarian, Aize Sarian, Ihizkondizeko Portiluan, Uthur Hotxetan, Arthe Burian azken txortolek ematuxe zien laur gizonen egarsuia.</p>
+<p>Eguerditan Ga&ntilde;eko Bentako borthatik barna sartzen dira. Juan Benterua eta Mari-Paitta haren emaztia hasten ziren zopa hun baten jaten. Eginik zen patataz, alubiaz edo ilharrez, eta salonez, hura beita Espainolek udan ekhian idorrerazten den aragia untsa gazitu ondoan.</p>
+<p>Benterua laur gizonak ikhustiareki sukhaltian sartzen, jeikiten da eta oihuz erraiten du:</p>
+<p>&mdash;Zer bada! xuek keben, holako tenporareki! xuek don Juan, Xapalanda, Trinka eta Bixar! eta zer berri dago Santa Grazian? Baya, Santa Grazia guziko laur gizon baphuenak orai keben! karakho! Maria xuan dadila, eta saits dezala anis pitxerra, kortarik gizon korier baso banaren emaiteko!</p>
+<p>Don Juan:</p>
+<p>&mdash;Goseturik gutuzu eta barazkaltu nahi gira. Baduzu arauz ardu inhar bat orano?</p>
+<p>Benterua:</p>
+<p>&mdash;Bai, karakho, ardau izanen diagozu bai, atzo xinik diagozu eta bada ardau ona, Oliteko iriko ardau hoberenetarik, eta gero zahagian beitago xin bezala ahotxek etzazuela erran Frantzian Juanek eta Mari-Paittak ardauari ur ezarten diela. Edan zazie anis kortarik buen trago eta zahagitik barrikalat hustuko dugu orai xuen begien aitzinian ardaua, eia ikhusiko xuenez urik botatzen.</p>
+<p>Elhe horik erran bezain sarri, zahagia husten du barrikalat; Santa Graztarrak algarri soz begi nikaz ari dira beren beithan dioielarik: &laquo;Eguna ardua atzamaiten diagu hurik gabe, behar ere ez gintia ikhusi jiten athe buria behera Bentero tripa handiak&raquo;. Bena gaizuek etzien kasurik egin barrikan bazenez hurik aitzinetik; ikhertu ukhen balie jakinen zien nur jin ere benteroak bethi hur hein bat etxekiten zerola prest, ahotxak jiten zieneko. Hirur kantaro arduak nahasi ziren egun hartan bi kantaro hureki.</p>
+<p>Santa Graztarrek anis phitxerra husten zien artian, Mari-Paittak prestatu zutian don Juanek eman lukhainka, andoila, trantxa pharte hun bat, hots egin zian barazkari hun bat. Salda trenpatzen du eta bost gizonak mahain bati buruz jarten dira guziek zoparen jateko ber untzitik.</p>
+<p>Xapalanda hanitx delikatu zen eta gaizak nahi beitzutian xahuki prestaturik, begi bazterraz sogiten zian eia Mari-Paittak zer planta zian kozinaren egiteko. Ikhusten du kota goraxe eta kota haldaz xukatzen gizoner eman gei zutian zurezko golhari eta forxeta beltz eli bat. Etzaio agradatzen eta ezta net gogo hunez zopari lotzen, bena zopa urhentu ondoan edaten beitu godale hun bat Benteroak emanik, ahazten zaio Mari-Paittaren kota hegal theia, eta geroalat bestek bezain untsa jaten eta edaten du.</p>
+<p>Benteroa artetarik ari zaie:</p>
+<p>&mdash;Alo gero, onki xan eta edan zazue, eta bada kharakho, ez gero fama gaixtorik Frantzian erran Mari-Paittaren eta karen khaunaren!</p>
+<p>Jatiaren eta edatiaren bortxaz, laur Santa Graztarrak alageraxetan dira, kafia edaten die Espainako rom tzortola hun bateki, anis godalet txipiak laur bostetan husten dutie. Denbora badoa aitzina. Arrestiri aphala jiten da, eta Benteroak Trinkari erraiten dero:</p>
+<p>&mdash;Alo!!! eman zazu orai aire bat zelura gora, eta lehenik orok xunto eman zazie anila bat etxeko andriaen osagarriari.</p>
+<p>Ordian herots izigarrian xahakotarrak hasten dira ahal bezain goratik:</p>
+<p>&mdash;Benteroaren eta Mari-Paittaren osagarriari to-o-o-o-o-pa, ou hi hi hi hi hi!</p>
+<p>&mdash;Hola hola mantenatzen bagutie berriz, ere merexi beitie to-o-o-o-o-pa, ou hi hi hi hi!</p>
+<p>Benteroa esku zapartaz ari da eta erraiten du:</p>
+<p>&mdash;Ai, karakho! qu&eacute; gente tan alegre!</p>
+<p>Trinkak belatxaren airia emaiten du gero zelu odeietan gora ixiltu denian, Benteroak hartzen du itze batetarik txilitxau zen gitarra bat eta erraiten:</p>
+<p>&mdash;Alo Mari-Paitta, eta Bixar, fite bailera, oso egin zagun egun gure fiesta!</p>
+<p>Bixarrek:</p>
+<p>&mdash;Ttenttamentia! nik eztakit espainul dantzarik emaiten eta hasteko txainkhu nuzu!</p>
+<p>Benteroak:</p>
+<p>&mdash;&#161;No importa! nurapait brinka adi, brinka, nik aire eder bat emanen dexuet gitarrareki.</p>
+<p>Bixar dantzan hasten da ordian bere brodaki handieki, Mari-Paitta aldiz ungurukan eta erhi klaskaz, iharrausten dialarik bere phantz handi luze bezain biribil zena. Benteroak gitarra joiten du: prin prin prin prin, ber denboran khantatzen dialarik:</p>
+<p><hi rend='Italic'><foreign>Siete y siete caturze,</foreign></hi></p>
+<p><hi rend='Italic'><foreign>y siete vinte una,</foreign></hi></p>
+<p><hi rend='Italic'><foreign>el qui no tiene cama</foreign></hi></p>
+<p><hi rend='Italic'><foreign>que duerma a la luna, </foreign></hi></p>
+<p><hi rend='Italic'><foreign>e prin prin prin,</foreign></hi></p>
+<p><hi rend='Italic'><foreign>e prin prin prin.</foreign></hi></p>
+<p>Gerokoz Bixar enherik da, Mari-Paitta hatsalboturik. Sonia ukhuratzen da. Bixarrek, egarriturik, so bat egiten dero mahainari; artian rom botilla lagunek hustu zeien. Manhatzen du ordian ekhar dizen Ranzioko ardu pinta bat. Mari-Paittak fite ekharten du, bena haatik erdizgora untsa hurtaturik. Pinta zalhe edanik da eta biga, hirur, bost, seiek bertanxka ber bidia hartzen die.</p>
+<p>Ulhuna artian jin beitzen, arratsen berriz aihaitan dira gure Espainazaliak; untsa jan, untsa edan, ondotik bethi pintuka, gaiaren pharte hun bat ixil joaiten zaie.</p>
+<p>Azkenekoz espainul ardu hurtatiak, goizantko anisak, arristiriko rom eta Ranzioak barniak berotuxe beitzeitzen eta buruko mina jauzerazi, hirur orenetan erretiratzen dira Mari-Paitta eta haren jauna ohialat, Santa Graztarrak aldiz sabaialat, ahotzian eta lastoan lo bederaren egitera.</p>
+<p>Goiza bertanxka jiten da. Trinka lehenik iratzartzen da barnia sutan, ahua egarriak idorturik espainul akher adar baten balde. Kanpoalat so bat egiten du eta ikhusten elhurra ari tapa tapa. Sabaieko leihotik hegatzian hartzen du elhur ahurreta bat ahua freskatzen. Zortzi orenak ingoiti bazirela, eta jaikiteko eta thenoria zelakoan hasten da ahal bezain goratik:</p>
+<p><hi rend='Italic'>Jeiki, jeiki, etxenkoak, argia da zabala,</hi></p>
+<p><hi rend='Italic'>Mari-Paitta, zuk egizu, othoi, kafia berhala,</hi></p>
+<p><hi rend='Italic'>Gizon hoik juan gitian Bortuzkura zoin lehena.</hi></p>
+<p>Trinkaren botzak iratzarrerazten dutu beste hirur gizonak. Bixarrek borogatzen du arropa bustirik diala, lotarik txortola hegatzetik jin beitzeron. Hotz ikhariak arhintzen beitzian aire gaitzian jarten da eta phentsatzen saihetseko lagunak erri egiteko busti diala. Xapalandari hasten zaio ahoala jinen erraiten, hunek berriz brau! jeikiten delarik emaiten dero kuhat bat ahal bezain zinez, zuinek ere segur lekhu eginerazi beitzian Bixarren hotz ikhariari. Bi gizonak tinpa tanpa bilhaxkan hasten dira, don Juan gaizua artian sarthu nahi zaie berhexteko, Trinka aldiz bazterretik erri karkazak ezin etxekiz dago.</p>
+<p>Albarot handi hura entzunik Benteroa jiten da arrunt hur bertzata bateki, eta ikhusten dutian bezain sarri Bixar eta Xapalanda lastoaren gainen bilhaixkan, husten deie gaina ekharri zian hura, ziolarik:</p>
+<p>&mdash;Espa&ntilde;an eta keben, xakurrak hola hasten dinian hur egoxten diezu!</p>
+<p>Bai segur bi gizonak fitexko jeikiten dira eta beren aharra ahatzerik, bena sordeis bustirik, piala biltzen Benteroa eta hari tinka aldi hun bat emaiten. Don Juanek azkenekoz amoderaxetan dutu, erraiten dere Benteroa bere etxen dela, baziala aharraren ukhura erazteko zuzena, eta aski letzione ukhen diala. Benteroa ere ekharten deie anisa eta tzorta hun bedera emaiten erranez haren khumita diela.</p>
+<p>Edan ondoan, Santa Graztarrak zurubier behera eraixten dira, kozinan phizturik den suian idortzeko geietan. Elhurra sekula bezain zinez ari zen, ordunkoz bi zehebazen gutienetik.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>III</p><--</head>
+        </front>
+        <body>
+<p>Elhurrari so bat eginik, sartzen dira laur gizonak sukhaltian, egun huna emaiten Mari-Paittari, eta su eder baten ungurian jarten.</p>
+<p>Don Juan:</p>
+<p>&mdash;Alo adixkidiak, denbora ederra haitatu dugu Bortuzkura joaiteko! Etxen bagina aments! bena karakho amigo, hola delarik ezkira egun ja orano kanpo elkhiren, gero ere zer izanen beita. Egun orano jan eta edan dezagun, beitugu zereki; gu hil ondoan ere zorruak eiheralatko dira.</p>
+<p>Mari-Paittak eta Benteroak etzien beste nahirik; etzeien uduri aski min egin ziela orano Santa Graztarren musari, eta biek algarreki don Juanen erran topatzen die erranez:</p>
+<p>&mdash;Onki mintzo zira, halako tenporareki etzu nehor xuaiten ahal Frantzialat.</p>
+<p>Etxeko anderiak egiten dere ordian ez kafia, Trinkak kobla batetan galthatu ukhen zian bezala, bena xokolatia, lodi lodia Espa&ntilde;ako mudala. Zerbutxatzen du mahainian gizoner, eta bakhotxaren aitzinian ezarten baso bedera hurez betherik ahoaren ixarratzeko ondotik.</p>
+<p>Bixar lehentzen zaie bere phartiaren jatera, eta krak, godaleta har eta, ustez anisa zen, gaintitzen du hur trago hun bat. Ordian gaizten da eta burhau bat ezkapatzen zaiolarik erraiten du Mari-Paittari buruz:</p>
+<p>&mdash;Uste duzia nahi dudala nik ostatian ene phantiz trixtia hur hotzez kharrunta erazi? Fiten eman izazut kopa bat anis ene barniaren kontsolaxetako!</p>
+<p>Don Juan, Xapalanda eta Trinka ezpeitziren orano hurari gahaturik, ber abiseko dira, hura pharete bati kontre urthukiten die aire gaitzian, eta galthatzen Bixarren gisa godaletak betha ditzen anisez.</p>
+<p>Ami&ntilde;i baten burian Trinkak erraiten du laguner:</p>
+<p>&mdash;Alo ene gizonak, goiz huntan aisan egonen beikira eztugu beste askaririk eginen. Intretan fres gutuxiago dukegu ere phakatzeko!</p>
+<p>Xapalanda:</p>
+<p>&mdash;Hirur ehun kanua, bai hola egin behar diagu: nula lan, hala jan!</p>
+<p>Bixar orano goseareki etzen kontent egin zian askariaz eta murmuzikatzez erraiten du:</p>
+<p>&mdash;Demuntria! ogi gorritu buxi zunbait jan eta anisetik txorta zonbait edan, aisa egonen gutuzu, mai, bazkariala artio!</p>
+<p>Aphurtto baten burian laur gizonak ogi xerra zonbait hauts eta abiatzen dira haien gorri erazten labela phuntan ezar ondoan, su eder bati buruz. Ogia gorritu bezain sarri jan, anis edan, berriz ogi gorrieraz eta anis arredan eguerdi jiten da. Ordunkoz kantaro erdi bat anis bazien edanik Santa Graztarrek eta Benteruak halere uste zien kasi barur zirela askari haren undatzagatik.</p>
+<p>Mari-Paittak artian zopa egin zian bezperakua bezain hun; erra erazi zutian don Juanek ekharri urdazpitik muztu trantxak: andoilakia zopan egoserazi zian eta bi lukhainka uztarri, grisilan behar den heinian bero erazi.</p>
+<p>Gure gizonak elhia usututtorik, eta Bortuzkuko unhurru arrautziak ahatzerik jarten dira mahainian; eztugu erran beharrik bakhotxa etzela lotsa izan bere phartiaren thiratzeko. Arristiria berriz pintukan eta trala-laikan joaiten zaie, ulhuna jiten da: horra nun behar dien igaran bigeren gaia Bentako lastuaren ganen. Goiz baduatza sabaialat, ustez eta han sendotuko zaien edatez bildu dien buruko mina. Luak bertanxka hartzen dutu.</p>
+<p>Biharamenian hotzak iratzar erazten dutu goizik gizonttoak. Elhurra sekula bezain gustian ari da orano.</p>
+<p>Don Juan:</p>
+<p>&mdash;Ba! karakho amigo! halako denborareki kanpoan dena barnerat nahi beita arrimatu, gu barnen egon gitian, orano barnen beikira. Dezagun jan eta edan, azken hilak arauz zorrak phakaturen tu!</p>
+<p>Mari-Paitta beha beitzen konbersari, agertzen zaie ordian:</p>
+<p>&mdash;Eta beraz ni arren azkena hil artio bethi hartzetan egon! O kori ez, nik behar diezt xuek kementik xuan bage batetarik edo bertzetarik, ifernutik edo zelutik, Frantziatik edo Espa&ntilde;atik, saintuetarik edo mil demoniuetarik ene hartzia. Eta gero demonioen egina, behar xuela onki xan eta edan orano! Eta akabaturik badira xateko eta edatekuak oro? Bai xuek ekharri tripot, lukanka, xerri azpi eta xerri uzterxiak gure alubia ederra eta salon ona, guziak xan tuzie!</p>
+<p>Mari-Paittak gezurra ederki butilatu zeien; etzeien etxit erran haiek ekharri gaizen erdiak gorde zutiala, ondo egunetan jateko bere senharrareki buruz buru.</p>
+<p>Benteroa:</p>
+<p>&mdash;Baia rekontxos! ardaua ere ekabatu diagozu, anisa ere bai! Baziagozun xuek xin zelarik bost kantaro eta sei pinta lo menos, eta orai eztiagozu lo mas hirur pinta! Anis ere baziagozun kantaro bat eta bederatzu pinta, eta orai eztiagozu siquiera baso xiki bat nik edateko! Bai eztiagozie izan behar ariman penarik eztiagoziela aski onki probetxatu! Baia, baia Maria, egin zala gizon koier kontia, paga dezen eta arranka ditian fresko freskua bortiari karaz!</p>
+<p>Trinka:</p>
+<p>&mdash;Baia othe barur hotz hotza orai bortiari buruz, eta holako denborareki? Ez othe deia arren deus ere etxe huntan guretako? Ezta xokolaterik ere?</p>
+<p>Mari-Paitta:</p>
+<p>&mdash;Eta aurra, ez! akabatu diagozu xa! Eta dirurik ere ez erosteko, orai xuek eman behar xuena baizik.</p>
+<p>Xapalanda:</p>
+<p>&mdash;Egitzu ordian patata frijitiak eta oliat bat!</p>
+<p>Mari-Paitta:</p>
+<p>&mdash;Bai aurra, eta nun dago olio eta ogia?</p>
+<p>Bixar:</p>
+<p>&mdash;Ttenttamentia, eta egizu urinez.</p>
+<p>Mari-Paitta:</p>
+<p>&mdash;Mila miliu demoniua, ekharzazu zuk urina! Eztiagozu ez Espa&ntilde;an urinik Frantzian bezala!</p>
+<p>Don Juan:</p>
+<p>&mdash;Baia Maria, atzo eta herenegun hain untsa jan eta edan onduan auher gorri ginelarik, behar dugia arren egun barurik igaran bortia hainbeste elhurreki?</p>
+<p>Mari-Paitta:</p>
+<p>&mdash;Eta zer nahi duxue, ezpadago xatekorik? Nahi duxue patata?</p>
+<p>Trinka:</p>
+<p>&mdash;Eta gordinik dutugia jan behar?</p>
+<p>Mari-Paitta:</p>
+<p>&mdash;Eta ezarzue hauts pean erratzen! Onki hun diagozu kola ere!</p>
+<p>Xapalanda:</p>
+<p>&mdash;Hirur ehun kanua! ezarzu arren unka bat, hauts pian, bortian hil behar badugu ere holako denbora tzarreki, ez gitian aments gosez hil!</p>
+<p>Benteroa:</p>
+<p>&mdash;Baia Maria! Kontia, kontia gizon koier! poko probetxo dugula guk orai koiek keben egonez!</p>
+<p>Mari-Paitta:</p>
+<p>&mdash;Baia kontia? Ordian, patatak bage, hirur hogei eta hamazortzi real fuerte eta sueldo bat ziagozun, eta orai patatekin hamazazpi sueldo haboro. Kontiak orok egiten du laur hogei eta hamasei real fuerte, edo eta hobeki konprenditzen bada ehun eta laur hogei eta hamabi sueldos.</p>
+<p>Sueldoak balio du bost sos hegiaz beste gaintian. Gaizo don Juan eta haren lagunak etziren hanbat Espa&ntilde;an usaturik.</p>
+<p>Xapalanda sabantena zien, Amerikak kurriturik zutialakoz; harek doi doia zerbait enthelegatu zian Mari-Paittaren khuntietan, eta don Juani erran zian, hura zelakoz phakazageia, berrogeita zortzi libera zela khuntia oro.</p>
+<p>Ezpeitzien huilanik ere holako khunturik egurukiten, berek hainbeste jateko ekharri onduan, trixtetzen dira gure gizonak, don Juan orotan gainti eta algarri soz ari dira, elherik ezin erranez.</p>
+<p>Benteroa:</p>
+<p>&mdash;Baia amigo! etzizte atzo eta erenegun bekain alegre! Ots, ots, boltsa horik larga!</p>
+<p>Don Juan:</p>
+<p>&mdash;Ene gizonak! hau da hau istoria. Eztiat hogeita hirur libera baizik musan. Hatik nik enia uste holako khunturik heben ekharriko zeikiela. Lotsa diat enukian hain khario Bedezitik xixari erremedio erostia ez eta bedezia bera ere Santa Grazira jin erazi banu!</p>
+<p>Trinka:</p>
+<p>&mdash;Oho! nik ere bederatzu sos diat, ezpeitut haboro hartu, fida benintzan bestela haboro hartu ukhen banu oro igorriko nutiala.</p>
+<p>Don Juanek eztu ordian Xapalandetan baizik esperantxarik ukhen behar, eta beitzakian harek sakolan urhe ederrik erabilten ziala, ezti eztia, ahalke eta errespetureki abiatzen zaio lagungoa galthatzera uhurezki elkhi ahal ditian bentatik.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>IV</p><--</head>
+        </front>
+        <body>
+<p>Don juan etzian boztu Trinkaren eta Bixarren arrapostiak. Etzian khuntiarien phakatzeko eskaz zian sosaren esperantxarik ukhen Xapalandaren gainik baizik, eta ordian hanitx umilki, ezteztia erraiten dero huni:</p>
+<p>&mdash;Eta zuk, Xapalanda, baduzu arauz urhetto bat sakolan; bestela galdiak gutuzu. Nahi nitikezu segur jente horik phakatu, egun phuru lekhu huntarik uhurez elkhi ahal gitian. Don Juanen elhian fida balin bazira, hitzamaiten deizut Santa Grazira heltu bezain sarri eraikiko dutudala Poleinen bankian dutudan soxkuak, eta phakatuko zutudala arrunt.</p>
+<p>Xapalanda:</p>
+<p>&mdash;Hirur ehun kanua, gizonak eztik uhurerik etxerik elkhiten bada hogeita bost libera sakolan gabe.</p>
+<p>Zeta musa berdia eskietara hartzen du, xamar pian ezarten, bestek ikhus eztezen zonbat sos dian berareki eta urhe bat har ondoan erraiten dero don Juani:</p>
+<p>&mdash;To, hebentxe hogeita bost liberako sterlingeder bat, aski neketto Amerikan irabaz dudana. Khuntia phaka ezak, eta haboro behar baduk orano, beste bat badukiat hi bezalako adixkide batentako; enia beste bati emanen, eta segur enia ene ustez Bentero tripa handiaren gei sakolan begiratzen.</p>
+<p>Benterua:</p>
+<p>&mdash;Bentero tripa handia! Bentero tripa handia! eia erran zaka berriz niri Bentero tripa handia, nahi baduk nabakha kaldi batez tripak keben hiri atheratzen!</p>
+<p>Xapalanda ordian harriturik jarten da, ezpa&ntilde;ak, ikhare, umil umila.</p>
+<p>Benterua:</p>
+<p>&mdash;Nik badiat ene deithura, nur ez eniz Xapalandaren ez beste ahotxen ahalke. Ni deitzen nie Espa&ntilde;a guzian don Juan Baillaz, eta ez Bentero tripa handia. Niri ez haboro halako izenik eman, bestenaz<hi rend='Italic'><foreign> comidado las tripas.</foreign></hi></p>
+<p>Ikhus ondoan Benterua gaizturik dela, ixilik egoiten dira Santa Graztarrak. Don Juanek ezarten du bere hogeita hirur libera maha&ntilde;iala, Xapalandak aldiz bere sterling gorria.</p>
+<p>Don Juan:</p>
+<p>&mdash;Eia don Juan Baillaz, sogizu hunat: hogeita bost eta hogeita hirur liberak zure khuntia egiten dienez?</p>
+<p>Benterua sterling gorriari soz zelarik:</p>
+<p><foreign> &mdash;Bueno, bueno! baya, mira, mira Mar&iacute;a, qu&eacute; pieza tan bonita! yo juego que en toda la villa de Isaba y en valle de Roncal, ni ricos ni pobres no tienen una pieza de oro como &eacute;sta que yo he sacado en estos d&iacute;as a los gavachos.</foreign></p>
+<p>Xapalanda saihetsetik murmuzikan hasten da, Benteruak ez entzuteko gisan haatik:</p>
+<p>&mdash;Espainul abarka huna, eztuk debria ezpaduk berhala beste urhe bat hik Xapalandari idekiten, nik hitzamaite deiat edo manduak adar!</p>
+<p>Benterua sosa harturik, artian juan zen bere khanberalat, eta han boztarioz edan zian, gorderik zian anisetik bi kopa, ziolarik:</p>
+<p><foreign> &mdash;&#161;A la salud de los gavachos!</foreign></p>
+<p>Mari-Paitta ordartino ixilik egon zen; haren mintzatzekoaldia jin da:</p>
+<p>&mdash;Alo, alo aurrak, hots xatera, orai patatak errerik diagotzu.</p>
+<p>Laur gizonak suphazterriala huilantzen dira, bi aldiz erranerazi gabe; Mari-Paittak hauts petik gibel thiratzen dutu lur sagarrak, bere kota hegalareki xahaldi bat emaiten dere eta gizonen aitzinian ezarten. Benteroa jiten da khanberatik eta zuzulian erdi etzaten delarik, purro eder bat pipatzen.</p>
+<p>Haiez trufatzen zela sobera edireiten beitzien Santa Graztarrek, algarri soz hasten dira. Benteroak enthelega elitzan, Trinkak biarnesez erraiten du laguner:</p>
+<p><foreign> &mdash;H&eacute; dounc, amics, nou cau pas invita lour mest&eacute; en ta minja poumas d&eacute; terre!</foreign></p>
+<p>Xapalanda:</p>
+<p><foreign> &mdash;Lo&uacute; diable que lou portera mes leu! ne ba pas emplea son bentre a noustes depens, com aquestes dies pasats que se crebera de hami mes leu!</foreign></p>
+<p>Trinka:</p>
+<p><foreign> &mdash;Oh! si poudevan da pousou auments enta haa creva!</foreign></p>
+<p>Benteroa zonbait aldiz Oloruko feidetanebilten zen, eta bere utzul ungurrietan ikhasi zian biarnes khoxia:</p>
+<p>&mdash;Rekontxos! zer lengoaje da kori! ala aments nere gaixtoten mintzo zizte hor: <foreign>triga, harta, creva, pozou! </foreign>zer dira elhe horik! <foreign>Mar&iacute;a tray la escopetta, voy a matar estes cuatros falsos!</foreign></p>
+<p>Gizonttuak bilhoak burian txut txuta jarten dira, zerbait konprenitu dialakoz Benteroak beren elhestatze biarnesian. Don Juan lehenik mintzatzen da konbersaren ezabatu nahiz:</p>
+<p>&mdash;Ez, ez, don Juan Baillaz, eztizugu zure gaixtorik nahi; Bortuzkura behar baikunian, eta orai elhurra gatik ezin juan, eta huna jinez geroz afruntu beitzaiku etxerat utzultzia harat heltu gabe, hori ginizun, ziek enthelegatu gabe, gure artian igaraiten guniana.</p>
+<p>Benterua:</p>
+<p>&mdash;Bueno; eta zer afera zinuen orai Bortuzkuan, ala xuan den udan Espa&ntilde;an ebatsi gaztak han xue gorderik, zilo zonbaitetan.</p>
+<p>Trinka:</p>
+<p>&mdash;Ez, ez! eztizugu halako sabeleko minik; hasteko, etzuzun gu lauretarik bakhotx bat ere igaran udan Espa&ntilde;alat igaran zenik keserogoaren egitera! Bestela ere, ez gutuzu uhuin gu! Etzira xuxenian!</p>
+<p>Benterua:</p>
+<p>&mdash;Eta arren! zer xue alako tenporareki egitekorik kan?</p>
+<p>Don Juan:</p>
+<p>&mdash;O eztuzu egia bezalakorik! eta gezurrak zaina llabur beitu nahi nitzaizu egiaz mintzatu. Igaran larrazkenian Trinkak ikhusi zizun Bortuzkun unhurru habia handi bat; hartarik ginizun behar etxerat eraman gaitzuru bat arrautze.</p>
+<p>Benterua:</p>
+<p>&mdash;Maria, mira este falso! nitzaz trufatzen iaza berriz orai ari hi! karakho! Maria indan eskopetta ori, balazo batez behar dinat kuni atima xaits erazi ifernuetarat! Ez niri sinhetsaraz laur gizon Bortuzkura xin ziztela unhurru arrautze koriengatik!</p>
+<p>Don Juan:</p>
+<p>&mdash;Elhurra orai ari din bezain segur, egia nik erran deizut, Se&ntilde;or Baillaz, bai! familia oro xixariek harturik dit aspaldiko denboretan, eta adixkide batek aholkatu nizu unhurru arrautziak xirikotan herakeraz ditzadan, eta gero haien hura berorik edaneraz dezadan emaztiari eta haurrer, nahi badutu xixariak hilerazi. Bedezieki beno merkexiago, hola eginez, sendoeraziko nutialako esparantxan abiatu gutuzu 1aurak Bortuzkura, eta orai ezin harat joan, aski phena beita!</p>
+<p>Benterua:</p>
+<p>&mdash;Baia, merikuareki beno merkeago eztakiezt, bena kola klaroki mintzatzen bazira nik emanen diezt erremedio hobea, eta etxerako bidian edirenen beitzie. Gorakoan zoazte Ithur-Hotxera, eta uraren tokian ezpeitago elhurrik, kan edirenen zei lurrari kontra osto hoili xabal bat, laur aldetarat zabal, phago ostoaren gisako, solo xipixiago. Guk Espa&ntilde;an deitan zugu <hi rend='Italic'>zirin belharra</hi>. Kartarik arren emanen zu familia guziari libra bana, Arranzioko ardau xurian onki herakiturik eta edan fitexko ikhusiko zie bada, xixariak itzuliphurdika xalkiten, izanik ere andienetarik.</p>
+<p>Don Juan:</p>
+<p>Milatan zutut erremestiatzen, don Juan Baillaz. Jinko hunak phakatuko zutu; eni ere etzitazu segur ahatzeko zure eratzian giten dudan obligazionia egun; dagun Bazkoz axuri bat ederra ekharriko deizut zuk eman erremediuak ondore hunik balin badu. Banuazu orai fite etxerat, enuzu segur heben trankil, halako trantsian familia han utzi beitut!</p>
+<p>Benterua:</p>
+<p>&mdash;Bai ageri diagozu etzirela trankil! etzu xinez geroztik kuna irur egun baizik xa pasatu fiestan, xatekan eta pintukan!</p>
+<p>Trinka:</p>
+<p>&mdash;Bardin balio dik! hik ukhen bahu jateko eta edateko guri emaiteko, eta don Juanek aldiz ukhen balu diharu hire phakatzeko, ez guntia aleta beste hirur egunez orano juanen etxerat, phorrot ezne blu eta zihainjatera!</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>V</p><--</head>
+        </front>
+        <body>
+<p>Horik hola igaranik, laur gizonttuek egin ahal bat egiten die pataten urhentzeko; bena edaria eskaz beitzien, etzutien oro jan ahal izan. Xapalandak kuinta egitiaren bortxaz emanerazi zeitzon Benteruari bi botila ardu, barrikan baratzen ziren hiruetarik, eta haboro dena, dohainik elkhi zeitzon hitzamanez beste halako xanfart baten egitera jinen zirela ogi korreakako arduaren txerka utzuliko zirenian.</p>
+<p>Ezpeitxutien utzi nahi Bentan hain khario phakatu zutien patata soberatiak, don Juanek alforjetan ezari zian gaitzurutto baten heina. Bixarrek sakolan zutian sei sosen truk emanerazi zeitzon Mari-Paittari sei zigarro, bidian pipatzeko, Trinkak aldiz beste sei. Bentala heltzian bezala juaitian ere, bi xahakuak hutsik eraman behartzen zaitze Santa Graztarrer, beren makhilak harturik adio erraiten die Benteruari eta Mari-Paittari, eta Frantziari buru abiatzen, agoinu handirik gabe, goizanko hamar orener. Elhurra builta hartan ukhuraturik zen, bena anhartio eroria ezpeitzen net hurtu, franko nekez Trinkak xilatzen du bidia laguner.</p>
+<p>Bentatik hurruntuxe onduan, alde gaineko baguen pian Xapalanda etxiari buruz ukhuratzen da. Don Juanek hitzaman zeron hari eman hogeita bost liberakua phakatuko zerola hiriala heltu bezain sarri, bena Xapalandari min zeron bere sterling ederraren uztia Bentan. Fida beitzen Benteroak etziala entzunen, hasten du hari buruz elhe gaixto khordamusa izigarri bat:</p>
+<p>&mdash;Hirur ehun debru, Bentero phu, gose jankin, uhuin, aho gorri, zorro beltza, eztuk ez sekula bizian aserik eginen azken bi egun horietan bezala, ene sterling ejerraren khostuz.</p>
+<p>Bere ustez egotxi dianian bihotzeko phozua oro, ixiltzen da eta laur gizonak herrokan, bata bestiaren gibelian, petigorari lotzen dira. Artetarik, kurluek egiten dien ber gisala, aitzinian ebilten dena, gibelialat igaraiten da, neke beita elhurraren xilatzia eta zuzen baizik ezpeita bakhotxak bere aldian laguner bidia egin dezan.</p>
+<p>Aski neketto eta zer nahi ikhusirik, heltzen dira izerdi trenpan hameka orenetako Uthurri-Hotxiala. Xahakuak ardu inhar bat ukhen balu esker zukian, bena ezpeitzian koterarik ere, behartzen zaie ur trago bedera edan egarriaren emaxetako. Hur toki bazterretan, Benteroak erran bezala, biltzen die zirin belharra, eta abiatzeko beste hur trago bat edaten.</p>
+<p>Bixar:</p>
+<p>&mdash;Bai, ttenttamentia, hunek zain emanen dikuk bai bortiaren igaraiteko enuk hatik egundano orai artio agitu Espa&ntilde;a bidian ardurik gabe!</p>
+<p>Sekula elhe horik erran dutianeko hedatzen da, lanhu thian bat Lakhua ganetik Binbaletara artio, eta lantzer xehe xehe bat hasten. Lanhapiak hartzen dutu gure bidajantak.</p>
+<p>Xapalanda:</p>
+<p>&mdash;Hirur ehun kanua! ezkunian jente hunak, lanhuaren beharra baizik, aisago etxerat utzultzeko! Baliatuko zaiku belhi izatia, xuxen gidatzeko. Enintzateke orano hil nahi, ziek ere ez arauz. Gitian arren ebil untsa kasu eginez. Guatzan trebes exkerrialat; hobe dugu Urdaiteko portillotik igaraitia, eta uztia Ihikondizen gainti utzultzia, elhurrak, han zinez lodi izan behar beitu hebenko altiala!</p>
+<p>Trinka:</p>
+<p>&mdash;Ene gizonak, Xapalandak arrazu du; elhur lurten arriska gatik hobe dugu Urdaiterik Laphitzer behera Zardaiala eraitsirik.</p>
+<p>Don Juan :</p>
+<p>&mdash;Bai arrisk gutienik lekhutik phartetik den guatzen. Ni ene phartetik enintzate lotsa elhur lodian jalkhitera, beitazkizie lehen ere nula mando bat elhurrian ukhatu zena, bizkarrian elkhi nian Tximinia altian. Bena eztu balio laur gizonek ezur eta larru txarrak utz ditzagun elhur lurta baten pian zirin belhar ejer horregatik!</p>
+<p>Bixar:</p>
+<p>&mdash;Ttenttamentia! Agaramunt aho zabalaren abisa dela gatik gutuk heben; bera aldiz ari duk hoberenian karkazaz plazari so leihotik kanpo.</p>
+<p>Trinka:</p>
+<p>&mdash;Alo jaunak! Koraje har dezagun, gure bizian, halako bat ikhusi ahal dugu!</p>
+<p>Lanhape tinkian oren batez ebili ondoan, igaraiten die jakin gabe Urdaiteko portillua eta Binbaletakoala heltzen; ustez Laphitzen behera doatzala, edireiten dira Harluze gaineko olhan. Uduritzen zaie eztela ihulaz ere olha luze handi hura Zardaikua izaten ahal eta algarri erraiten die segur herratu direla, geroago eta treslata gaitzenago die.</p>
+<p>Trinkak muntrari so egiten du:</p>
+<p>&mdash;Ene gizonak, hirurak badire ulhune jiten da bostak gabe. Gaurko gaia segur kanpoan igaran beharko zaiku!</p>
+<p>Bixar:</p>
+<p>&mdash;Ttenttamentia! ni ja enaite haboro ebil, barne huntan eitz nezazie; bihar goizan arauz lanhagertuko beitu etxerako nitzaizte!</p>
+<p>Don Juan:</p>
+<p>&mdash;Bah! karakho amigo! eztiagu denbora galtzekorik, hots! eman dezagun behera buruz; nurapait heltuko gutuk bai!</p>
+<p>Erran bezala, laur gizonak berriz abiatzen dira eta ulhuneko doi doia heltzen Fonterrabiako olhala; eztie ezagutzen nun diren, bena gaiaren han igaraitia hobe zukiela sartzen dira olhan, suia phizten, berotzen, arropak idor eraztera eta goizan Bentan hartu patata soberatiak jaten gogo hunez. Etzuien hatik barniak aitzineko bi gaietan bezain untsa ezari, bena goizan beno bertanxiago khuntia egin zien eta aisago phakatu. Su handi bat phizturik utz eta, luak hartzen dutu.</p>
+<p>Biharamenian argi ubeltzian elkhiten dira olhatik lanhua sekula bezain tink zen; behera buruz ari dira. Ehun bat urhats egin onduan atzamaiten dutie gizonttuek jente herexa eli bat elhurrian harier jarraikiten dira botzik nurait gidatuko dielakoan. Pello Latsagabordaren eta Mari Urruxterin herexak ziren, bezperan ebilirik, Holtzarten, ezkurrian zutien bilha beltxen ikhusten. Herexek gidatzen dutie Latsaga bordala; bena etziren han mintzatu afruntu beitzeien erraitia zer bidajetarik horra ziren. Xuxenka heltzen dira Lexartzuko khurutxetara.</p>
+<p>Trinka:</p>
+<p>&mdash;Ui phupa! orai salbaturik gira jaunak. Lexartzuko hiru khurutxetan gira! artetarik debozione builta zonbait jiten beitzeien, gomendatzen dira khurutxetan Jinko hunari eta Ama Birjinari, othoitziak egiten dere Santa Graziari, San Jusefi, Maria Maidalenari eta San Antoniri, eta gero prosesione bidia behera etxerat buruz abiatzen zalhe zalhia.</p>
+<p>Xuburuko bordan baratu zutien bordazaliak, bena ez etxit erran, ez bidian ikhusi zutien beste jenter ere, nuntik horra ziren. Ezta erran beharrik Bethatian gora urhatsa xehe horra ziela, bezperan Bentako patata hotza janik. Espilagako errekala heltziareki ukhuratzen dira.</p>
+<p>Bixar:</p>
+<p>&mdash;Ttenttamentia! hots emazie Agna Xorho gana; behar dugu indar hartzeko phitxer bedera ardu edan eta axuritto bat jan, segur merexiturik dugu!</p>
+<p>Trinka:</p>
+<p>&mdash;Hala duk bai, bena afruntuz ere eztiagu harat agertu behar!</p>
+<p>Xapalanda:</p>
+<p>&mdash;Hirur ehun beltzen tripa! enintek mundu huntako huntarzun orogatik orai harat ager. <hi rend='Italic'><foreign>Sterling</foreign></hi> bat igorri diat, bena laur ere lehen eman niok ezi ez holako bidajerik egin, nur nahi izan dadin unhurru arrautze edo zirin belhar beharrunian xixarietarik sendotzeko!</p>
+<p>Neskanegunian, laurgerren egunian, igaraiten dira buriak Dendariko phatarra gora, eta plazala heltzen. Han ziren alborotaturik joalteruak oro Bentalat juan gizonen arrankuran beren artian hitzartzen nurk juan behar zian galdien txerkhatzera. Orotan gainti ezagun ziren Sutibran de Kallinbre, Jean Purra, Agaramunt, Xerbiet, Barrabas, Cadet Gros, Santo, Txardina, Arhin, Beusa, Briket Tanbur, Pette Koxka eta Gaztanbide. Phentsatzen ahal da Espa&ntilde;azalek baziela berri galthari franko, bena. Bentatik ezpeitzen xahakuetan ardurik jin, helgaraia hoxko izan zen. Halere gizon galdiak agertu beitziren, joalteruak eta bidajantak nur beren etxetarat kuntent juan ziren elhe zonbait igaran eta.</p>
+<p>Etxera heltu onduan don Juanek Mari Phuiltari berri franko eman zian; hanitx eskerniatu zirela laur gizonak, Bortuzkura ezin heltuz indar handirik egin ziela, gaiak eta egunak elhurrian nahasirik igaran zutiela hotzareki eta gosiareki eta halako gezur franko; bena etzeion etxit erran Bentan zer bestak egin zutien hirur egunez. Erakatsi zeron ere xixarien galerazteko ekharten zian zirin belharra eta manhatu berantu gabe egin lezan erremediua.</p>
+<p>Mari-Phuilta:</p>
+<p>&mdash;Ifernuko deblia! don Juan eztizugu ez zirin belhar beharrik, ziek phartitu zinden ber egunian Okheillak eman zitazun bi libera margot purga Bexkinaren baratzian bildurik; untsa herakerazi nitizun arduian, gero hartarik hanitx edan, haurrer ere bortxaz gaintierazi; oren bat gabe xixariek lekhu egin zizien. Xixariak ahatzetik aski arrankura eman deitazu hirur egunez, bizi ala hil zinen!</p>
+<p>Don Juani purgaren ber feita egin zeion Bentako asekak hanko anis, rom eta ardu nefarrak hilerazi zeitzon xixariak.</p>
+<p>Elire sinhets ahal ikhusi zianak baizik don Juanen eta Phuiltaren plazera zuin handi izan zen ikhus onduan familia oro sendotu zela. Erremediua etzen merke merke izan, bena ihurk eztu sendotzen denian despendioari kasurik egiten. Urthe zonbait orano bizi izan zen don Juan, bena sekula bizian etzian haboro zankhorik sarthu Bentan.</p>
+        </body>
+      </text>
+    </group>
+  </text>
+</TEI.2>
+

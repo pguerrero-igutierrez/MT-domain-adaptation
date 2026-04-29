@@ -1,0 +1,748 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN"
+                       "http://www.tei-c.org/P4X/DTD/tei2.dtd" [
+   <!ENTITY % TEI.prose    'INCLUDE' >
+   <!ENTITY % TEI.linking  'INCLUDE' >
+   <!ENTITY % TEI.analysis 'INCLUDE' >
+   <!ENTITY % TEI.figures  'INCLUDE' >
+   <!ENTITY % TEI.XML      'INCLUDE' >
+   <!ENTITY % TEI.extensions.ent SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.ent' >
+   <!ENTITY % TEI.extensions.dtd SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.dtd' >
+]>
+<TEI.2>
+  <teiHeader>
+  <fileDesc>
+     <titleStmt>
+        <title>Atheka gaitzeko oihartzunak</title>
+        <author>Jean Baptiste Daskonagerre</author>
+        <respStmt>Ez dauka</respStmt>
+     </titleStmt>
+     <extent>14.256 hitz, 106.825 karaktere</extent>
+     <publicationStmt>
+        <publisher>Klasikoen Gordailua [http://klasikoak.armiarma.com/]</publisher>
+        <distributor>Estrata Liburuak S.L.</distributor>
+        <address type='email'>klasikoak@armiarma.com</address>
+        <idno type='ota'>DakonagerreAtheka</idno>
+        <availability status='free'>Erabilpen librekoa; honoko helbidean topa daiteke (HTML, RTF eta PDF formatuetan): http://klasikoak.armiarma.com/idazlanak/D/DakonagerreAtheka.htm</availability>
+        <date>2006</date>
+     </publicationStmt>
+     <sourceDesc>
+        <bibl>Iturria: Atheka gaitzeko oihartzunak, Jean Baptiste Daskonagerre (Errolba Bozas-Urrutiaren edizioa). Sociedad Guipuzcoana de Ediciones y Publicaciones, 1970</bibl>
+        <notesStmt><note>Iturburuen datazioa: 1870</note></notesStmt>
+     </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+     <projectDesc>Euskal literaturako testu klasikoen bilduma da KLASIKOEN GORDAILUA; testu hau berorren parte da</projectDesc>
+     <refsDecl>
+        <p>MENTIONED etiketa egilearenak ez diren hitzak markatzeko erabili da: hitzaurreak, aipuak, iruzkinak, e.a.</p>
+    </refsDecl>
+     <classDecl>
+        <taxonomy id='generoa'>
+            <category id='G-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='G-ANT'><catDesc>Antzerkia</catDesc></category>
+            <category id='G-BER'><catDesc>Bertsoak</catDesc></category>
+            <category id='G-ERL'><catDesc>Erlijioa</catDesc></category>
+            <category id='G-NAR'><catDesc>Narratiba</catDesc></category>
+            <category id='G-POE'><catDesc>Poesia</catDesc></category>
+            <category id='G-SAI'><catDesc>Saiakera, kronika, artikuluak...</catDesc></category>
+        </taxonomy>
+        <taxonomy id='garaia'>
+            <category id='M-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='M-16'><catDesc>XVI. mendea</catDesc></category>
+            <category id='M-17-1'><catDesc>XVII. mendea - 1. erdia</catDesc></category>
+            <category id='M-17-2'><catDesc>XVII. mendea - 2. erdia</catDesc></category>
+            <category id='M-18-1'><catDesc>XVIII. mendea - 1. erdia</catDesc></category>
+            <category id='M-18-2'><catDesc>XVIII. mendea - 2. erdia</catDesc></category>
+            <category id='M-19-1'><catDesc>XIX. mendea - 1. erdia</catDesc></category>
+            <category id='M-19-2'><catDesc>XIX. mendea - 2. erdia</catDesc></category>
+            <category id='M-20-1'><catDesc>XX. mendea - 1. erdia</catDesc></category>
+            <category id='M-20-2'><catDesc>XX. mendea - 2. erdia</catDesc></category>
+        </taxonomy>
+        <taxonomy id='euskalkia'>
+            <category id='E-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='E-BAT'><catDesc>batua</catDesc></category>
+            <category id='E-BIZ'><catDesc>bizkaiera</catDesc></category>
+            <category id='E-BNA'><catDesc>behenafarrera</catDesc></category>
+            <category id='E-ERR'><catDesc>erronkariera</catDesc></category>
+            <category id='E-GIP'><catDesc>gipuzkera</catDesc></category>
+            <category id='E-GNA'><catDesc>goi nafarrera</catDesc></category>
+            <category id='E-LAP'><catDesc>lapurtera</catDesc></category>
+            <category id='E-NAF'><catDesc>nafarrera</catDesc></category>
+            <category id='E-ZAR'><catDesc>zaraitzuera</catDesc></category>
+            <category id='E-ZUB'><catDesc>zuberera</catDesc></category>
+        </taxonomy>
+    </classDecl>
+  </encodingDesc>
+  <profileDesc>
+     <textClass>
+       <keywords scheme='generoa'>
+         <list><item>G-NAR</item></list>
+       </keywords>
+       <keywords scheme='garaia'>
+         <list><item>M-19-2</item></list>
+       </keywords>
+       <keywords scheme='euskalkia'>
+         <list><item>E-LAP</item></list>
+       </keywords>
+     </textClass>
+  </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>Atheka gaitzeko oihartzunak -- Jean Baptiste Daskonagerre</docTitle>
+    </front>
+    <group>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>EUSKALDUNERI</p><--</head>
+        </front>
+        <body>
+<p>Hiru urte badu jadanik inprimatu ginuela liburutto hau, frantseserat itzuliz. Norbaitek galdegiten balu zertako hain sarri iguriki dugun hau inprima-arazi gabe, ihardetsiko ginioke iduri zitzaukula itzultze frantsesa errexki eta lasterrago saldu ginukela. Denek badakite saltze horren progotxu guziak karitatezko obra batentzat emaitekoak zirela. Bertzalde, oraino ezagutu euskera liburuak frantsesetik edo espainoletik itzuli ohi zirelakotz, nahi ginuen gure herritarreri eskaini lan xume bat euskaraz egina. Hori bainan argitarat eman aintzinean, behar zen hainitz aldiz irakurtu, apaindu eta emendatu. Bada egun hola garbitua baita, gure mintzaira maite duten guzieri ematen diotegu.</p>
+<p>Etzauku iruditzen hargatik liburutxo hau faltarik bat ere gabe dugula. Jakintsuek kausituko dute huntan dudarik gabe zenbait huts handi, eta behar bada estakuru ematen daukute hautatu dugula maiz eskribatzeko molde bat, beren arabera zuzen ez dena. Otoiztuko ditugu barka ditzagutela huts hoiek, egiazki lehenbiziko euskara liburua dela oroiturik. Plazerekin adituko ditugu jende jakinek erranen dauzkiguten estakuruak, baldin irakurtzaileek ahantzi izanen ez badute eskribatu ginuela Donibaneko euskaran, gurea dalakotz, nahiz ez den hoberena. Guti badire liburuak, poliki, garbiki eta artezki euskaraz eskribatuak; hau beraz har dezatela, baldin ere iduritzen bazaiote makurra, euskaraz ederki mintzo direnek, eta gure mintzaira zaharra ikasi nahi duten arrotz bakar eta baliosek.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>LUIS LUZIEN BONAPARTE PRINTZEARI</p><--</head>
+        </front>
+        <body>
+<p>Jauna:</p>
+<p>Gure buruzagi handienak, osoki sartuak gure itsas-hegien edertasunez, heldu dire une guziez hekien ikusterat eta bere emaitza nasaiez Euskaldunen gainditzerat.</p>
+<p>Gure mintzaiaren aberastasunak zaitu zu ere gureganatu, eta zure Euskaldunen arteko egoitzak irabazarazi zaitu betikotz populu horren ezagutza biziena; zorionez gainditua da ikusteaz haren mintzaira ikasmenetan hartua printze batez, zeinaren jakitate handiak berregintza geihagoko bat ematen baitio.</p>
+<p>Dohatsu naiz zure arartekotasunaren azpian emateaz lan xume bat euskaraz eskribatua. Huntan bilatu dut agertzea gizon hainitz aipatu baten itxura eta herriaren ohikuntzak; huntarik bilduko den irabazia izanen da euskaldun gizon zahar gaixo bat bere zorigaitzetan arintzeko.</p>
+<p>Onetsi duzu egin zaitudan eskaintza; ordainez, zilegi utz nazazu, Jauna, ene ezagutza handienak zuri bihurtzerat.</p>
+<p>Eskerrak emanez zure nahi onezko gerizari, agertu dut lehia gehiagorekin ene liburua jendeen begietarat.</p>
+<p>Igurikitzen dut beraz irakurtzaileak onetsiko duela, zuk bezala, horren hedarazteko izan dudan xedeagatik.</p>
+<p>Onets zazu, Jauna, zure zerbitzari leihalaren agurrak.</p>
+<p>DASKONAGERRE</p>
+<p>Kontseilu Jeneraleko menbra.</p>
+<p>Baionan egina, hazilaren 20-an 1866-an.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>1</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>ATEKA-GAITZ</hi></p>
+<p>Harat huna dabiltzari arrotzek, gure herrietarat helduak Miarritzeko eta Donibaneko itsas-hegien edertasunari esker, behinere ez dute huts egiten gatea Ateka-Gaitzeko erreka fama handirekin aipatua denaren ikusterat.</p>
+<p>Txoraturik dagozi arroka kozkor hoieri buruz begiztatzen dituzte zeruraino doazin mendi bibitxi hek, oten lore horiez apainduak. Iduri du ihurtzuriak urratu dituela. Dilindan ageri dire mendi bizkar hoien gainean arroka mutur zorrotzak. Hemen, sehaska zabal batean, Ur-handiak bere ibai garbiak dabilzka; han erreka ilun bat da, trabatua arroka eroriz, zeinen tartetik borrokan itzuliz baitohazi urak, behin jauziz, gero itzulika herrestan suge kolpatu bat iduri.</p>
+<p>Gizonaren antzea guduka hari da naturaleza atrebitu horrekin; jadan langilearen pikotxen harrabotsa aditzen da zelaian; lasterbide handiak alde guzietarat eginez, errexki jendea bat bertzeratuko da norat nahi eta ikusiko nasaitasuna eta aisea sartzen mortukarazko mendi zoko gordenetan.</p>
+<p>Ateka-Gaitzak badu bere mendetako ornen ederra, guziek dakitena. Hosinen gainerat makurtua den arroka horren erditik Errolanek ideki zuen beretzat bide bat; haren itzal handia, gora hegaldatua, dabila orai ere gure mendien gainean. Baina Ateka-Gaitzak baditu bere oroitzapen berriak; hoien oroitarazteko hartu dut hemen xedea.</p>
+<p>Jadan ibili zaiztenak mendi lepo ilun hetan, oroitzen zaizte ikusirik bidexka bat, zurubia bezain txuta, xingola bat bezain hertsia? Ageri da sigisagan eskuineko mendian gora, egina kontrabandisten eta etxola goreneko jenden urratsek.</p>
+<p>Zenbat gertakari latz ez ditu gogoratzen bidexka hunek!</p>
+<p>Maiz, itsas hegietan sortzen dire marinel suharrak, oihanetan ihiztari zaluak, mendi mortukaretan eta herri-mugen auzoan kontrabandista atrebituak. Bakoitzak dakarte bere baitan sor-lekuaren zigilua, eta, maizenik, biakatzen gare marinel, pertsulari, edo ihiztari, sortzen edo ohitzen garen tokiaren arabera.</p>
+<p>Bide gora-beherakor horri hurbil ikusten da, bisianbiseko mendiaren gainean, etxe zuri polit bat gaztaindegi batez inguratua; hain eder egiten baitu oihan bazterrean, nola uso ohatze batek ostrailpean.</p>
+<p>Han bizi zen gizon bat gorputzez larria, besoz zainarta, oinak zumiaren pare, begi zoirotzetakoa. xede bortitzez gainditua, arima ederra, lainoa zaukana haurrarena bezala, eta bihotza beti zabaldua behar guzieri.</p>
+<p>Egoitza airos eta polit horren behereko aldean idekitzen dire hosin ikaragarriak, leze ilunak, otso hamikatuen lekuak. Uhartzean agertzen dire espainol mendien koskoak; hoien azpian zelai xoragarri bat, zerga guzietarik libro zena. Gure lekutan zilegi ez diren hainitz gauza, amanden eta presondegiaren gastiguen pean, han saristatuak dire.</p>
+<p>Hemen aipatzerat noan gizona, sortua etorki arrunt batetik, jakitate guziz gabetua zen. Bere erresumako debeku eta gastigu hauk, eta aldiz begien azpian Espainiako lurrean ziren zilegitasun hek, lehiagarrizko agintza hoiek, denak iduritzen zitzaizkon gauza desberdinak.</p>
+<p>Gehiago dena: zeinek ere beharko baitzioten adiarazi bere herriko legeek zuten debekua eta garraztasuna hek berak ziren lehenbizikoak haren gogo lehiatua kontrabandorat kitzikatzeko. Haren inguruetako jende handiek bilatzen zuten hunen kalapuen balakatzea, hartaz hobekiago baliatzeko. Eta zenbat andrek etzuten legunki hartzen, haren laguntza beharrean! Hala nola arrats batez behar bazen bazkari edo soinu bat, behar ere ziren blundak eta xederia nahikarazkoak: zer egin?</p>
+<p>Betan, uso bat airatzen zen, gauaren gerizean, hegalpean eramanez mezu bat; eta, baldin ilargia, lerratuz bi hedoien artean, etorri balitz mendiko bidexka txutaren argitzerat, ikusiko zinduen Ganix (hori da gure gizon famatuaren izena), bere gerriko gorriaren azpian zainduz, ama batek bere haurrari ematen duen artarekin, apaindura balios liluragarri hek, agertu beharrak arrats berean, menturaz biharamunean hekien ekartzailea gastiga zezaketen gizon beren aintzinean.</p>
+<p>Ai! Zein errex den hutsean erortzea lerraraztaile aberatsak direnean! ezen hekien aintzinean denak apaltzen dire.</p>
+<p>Eta, uste duzu irabaziagatik Ganix zabilala tulunbioen inguruetan, hotza eta beroa jasanez, galerna nahasieneri buru eginez? Galde diozazute hura ongi ezagutzen duteneri.</p>
+<p>Egun batez, lau ehun gizon gertatzen ziren jakitaterik gabeko hunen manuen azpian. Garden aintzindarieri salatua izan zitzaioten, holako egunez, halako orenez, dentelezko eta zigarrozko metak ekarriak izanen zirela mendia behera. Betan garda oste bat bildua da kontrabandist atrebitu hekien baratzeko.</p>
+<p>Laster, mendiko oihartzunek ihardesten dute oihu zizkolatsueri. Kontrabandistak, bere bine hertsian uste gabetan trikatuak, denak betan bere etsaien gainerat jauzten dire; gardak ere, bere aluetik, gudukatzen bortizki, baina gutiago zirelakotz, garaituak dire.</p>
+<p>Bereala, garda bakoitza amarratua da; baina aintzindaria sueltatzen da atxikitzen dutenen eskuetarik, hartzen du bere txispa eta muturrez Ganixi paparoa ukitzen dioelarik husten dio gainerat.</p>
+<p>Errabia sartzen da gure jende asaldatuen artean; kontrabandisten nagusi bain maitea jo duei aren gainerat erortzen dire denak. Bainan Ganixek, bi eskuz atxikiz bere paparo odolestatua:</p>
+<p>&mdash;Geldi zaizte! &mdash;oihu egiten du&mdash; begira zazue horren bizia; bere eginbidea egin du; zor zaio bizitzea!</p>
+<p>Hitz hauk erran eta, lurrerat erorten da; bainan bere begi biziez segurtatzen da aintzindaria eta haren meneko guziak libro utziak direla, nahiz haren arpegia oinazez desegina zen, erakusterat ematen zuen haren arimaren edertasuna.</p>
+<p>Handik zenbeit hilabeten buruan, erran dugun eskatima jujatzeko bildu ziren jujeak Pabeko tribunalerat.</p>
+<p>Eta Ganix, bere zauriak oraino idekiak zituelarik, oinazez arpegi deseginarekin, agertzen da deskantsuki eta kordokarik gabe haren jujatzeko bilduak zirenen aintzinean. Laztura batek hartzen du bilkura guzia. Batek bertzeak sorkatzen dute hurbilagotik ikusteko gizon miresgarri hura. Haren alde mintzatzen direnek hain gora altxatzen dute, non, kontra zirenak bortxatuak baitire haren bihotz ederraren onesterat. Jujek, eztela hobendun, libro igortzen dute.</p>
+<p>Ordu berean, aditu zen alde guzietarik alegrantziazko oihu bat bete zuena justiziako jauregia; heriotzearen aintzinean bain handi agertu zen gizon hura sorbaldetan eramana da, zeruraino altxatu nahi izan balute bezala.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>2</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>TIPUSTAPASTEKO JAUREGIA</hi></p>
+<p>Eder zaiku guzieri obra ederren aipatzea; nahiz diren eginak Erregetasunean, Errepublikan edo Enperadoregoan miresten ditugu.</p>
+<p>Gizon behar bazalakoak, emaile eta leihalak, edozein bandera izan dezan, gure amodioa eta ezagutza merezi ditu; bertzela uste dutenak itsumenduan dire.</p>
+<p>Denbora hura zen, zeintan Espainia ez baitzitaken apal emazteki baten manuen azpian, ordenu baten medioz erregina izendatua izanagatik.</p>
+<p>Espainia sutan zen; odola bazarioen zurruxtan; bandera bat altxatua izan zen, eta hura ikusiz garaituz zoala, gure auzo herriko jaun handi desterratuak don Karlosen laguntzerat abiatu ziren, haren hirrisku eta garaizietan parzun izateko.</p>
+<p>Baina mugaz bertze-alderatzea etzen gauza errexa; behar zen bilatu gizon bat, jaun handi hoieri bidea idekiko ziotena.</p>
+<p>Ateka-Gaitzeko oiharzunek aipatzen zituzten ordukotz Ganixen egin ederrak, eta, euskaldunen artean, bakoitzak maite zuen maiz haren laudatzea. Paper egunorokoek, 1834-an, goraki erran ere zuten, gizon hau, gizon segur eta leihal bat zela. Atzeman ote zitaken lagun segur eta leihalagorik?</p>
+<p>Bizkitartean, zer lanak behar ziren! Soldaduz eta gardez betea zen muga, eta, hekien atzartasunaren loharkatzeko, amarruz behar zen jokatu. Jeneralak ala fraile, markesak ala mandazain, bertze batzuek ala artzain edo ikazkin, ikusiko zintuen; kontrabanda gisa berrikoa zen hau mugaz bertze-alderatzeko.</p>
+<p>Bainan horra non trabak erortzen diren, mendiak apaltzen. Nor da gizona gauza espantagarri hau egin zezakena? Galde diozazute Espainol jaun handi, gorago aipatu dugun etxe xuri-polit hura, beldurrezko egun hetan betetzen zuteneri. Etxetiarrek bere arropetan bezala, etxe hark ere izan zituen bere mudantzak. Atzo, korteko aitzindari nagusiaren jauregia zen. Egun, zigilari handiaren egon lekua da. Eta bihar, ministroaren ostatua izanen da; haren berriak badakizki Ganixek eta begiratzen du haren oroitzapen ona.</p>
+<p>Ez da erran bear, Ganixen etxea karlisten aitzindari guzien biltzartokia egin zen, eta, jaun handi hoieri begitarte on egiteko nagusiak gain behera itzulikatu zuen. Pareta kusuz xurituak, oihal aberatzez gorde ziren, oheak sederia ederrez estali, zangazpitan hedatu sahial gozoenak, eta gela guziak bete gauza ederrez. Ikusiko zinduen, tipustapasteko jauregi liluragarri huntan, ximinia guzietan karra, mahain bat beti hedatua, azkurri jankarenez eta arnorik hurrupagarrienez betea.</p>
+<p>Ahal zituen guziak Ganixek agerian utzi ziozkaten bere etxetiar ospatueri; eta, maiz, moltsa arinegi zuenean, ministroak, soldaduen hazteko eta pagatzeko, Ganixen moltsari eskasa galdetzen zioen.</p>
+<p>Ganixek etzituen bakarrik bere izateak xahutzen; bere sueltotasuna eta bizia ere hirriskatzen zituen don Karlosen tronuratzen laguntzeko.</p>
+<p>Gau batez, bere mutillak lagun, bazoan Baionatik karlisten armadarat mando multzo batekin, kargatua lau-ehun mila liberez. Gaba ilun zen, bidean nihor ez; manduen urratsak baizik etzen deus aditzen.</p>
+<p>Betan, Arrunzko ezkila-dorrea gauerdik jotzen du; bide hegiko hesia zarraztatzen da; itzal handi batzuek zoazineri trabatzen diote bidea, eta boz zizkolatsu batek oihu egiten du: &laquo;Bizia edo moltsa!&raquo;.</p>
+<p>Dixiduzko oihu hortan, Ganix saltatzen da, eta, bere makila altxatuz, dio: &mdash;Ganixekin duzue zuen egitekoa! Hurbil zaizte, ausart ez deusak!</p>
+<p>Bi xispa tirok ihardesten dute mehatxu horri; mando bat erortzen da gaineko gizonarekin; bertze mandoak trikatzen dire zotzerbatuak, eta iduritzen zaiote mandazaineri galduak direla.</p>
+<p>&mdash;Ai madarikatuak! &mdash;dio Ganixek ihurtzuriaren bozarekin, eta lehoin bat bezala erortzen da arlote hekien gainerat.</p>
+<p>Kolpeka errabiatu baten ondoan, ohoinak zapatuak dire, eta Ganixek bere gerrikoa puskaturik amarratzen ditu denak bere mutilen laguntzarekin.</p>
+<p>Ohoin hoiek, inguru hetan trikatuak, Buhameak ziren.</p>
+<p>Buhameak, leinu higuindua, bizitze gisa on guzien etsaiak, aurkitzen dire Euskal-herriko leku auzo-gabenetan. Gizon larriak, begiz beltzak eta arpegiz hori, iguzki aldeko kastate zenbaitetarik atera ditezke; hargatik nihork ez dakike nondik heldu diren. Ohoinak, ez axolatuak, badituzte basa gizonen aztura eta ohikuntza guziak, indiatarren dohain berezietarik izan gabe. Multzoka dabiltza, han-hemenka aterpeak ezarriz; amarruzko atxipuz eta ohointzaz bizi dire. Nihork ez daki non sortzen, non hiltzen, non ehozten diren!</p>
+<p>Amarratuak zirenek barkamendu galdetzen dute, eta Ganixek, urrikaldurik, erraten diote:</p>
+<p>&mdash;Barkatzen zaituztet; baina baldin berriz ene bidean atzematen bazaituztet, zorigaitz zueri!</p>
+<p>Argia urratzerat zoan, karlisten aldaketarat mandoak eta mandazainak flurbildu zireneko. Ordu ona ziteken orduan Ganixentzat ministroari eman ziozkan diruen galdetzeko; bainan etzitzaion holako den gutieneko asmorik gogorat etorri.</p>
+<p>Gizona norbaiten aldeko agintzetan osoki ematen denean, lanaren akabantzan izan dezaken sariaren oroitzapenak atzartzen dio bere asmo gordea; horrelako asmoak gehienen aitorra baduke. Bainan leihaltasun sari igurikimenik gabea, egiazki eder eta miresgarriagokoa da. Holakotan, bihotzak gabilzka, eta horren oihu bereziari jarraikitzen direnak bakanak direlakotz, guziez merezi lukete izatea ezagutuak eta laudatuak.</p>
+<p>Badakizu non aurkitzen ohi diren holako bihoztunak? Maizenik, jende xehe jakitate gabekotan.</p>
+<p>Heiek ez dakite irakurtzen ere, ongia eta gaizkia irakasten duten liburuetan. Nork edo zerk beraz ematen diozkate asmorat holako eginkara handiak? Guzien gainetik, erlisioneko fedeak, su zerukoa, hekien bihotzetan beti piztua dagoena.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>3</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>FEDEA EUSKAL-HERRIAN</hi></p>
+<p>Bai, erlisioneko fedeak erroak barna ditu euskaldunaren bihotzean. Jink aren xederat eus aldunak egiten ditu bere biziko egintza guziak.</p>
+<p>Non hartzen du Jinkoaren alderateko sineste hori? Erlisioneko edergailuetan, elizetako apainduretan ote, zeinek maizenik liluratzen baitute baserritara eta ematen baitiote Jainkoaren handitasunaren asmo handiagoko bat?</p>
+<p>Ez... ikusazu euskaldun eliza bat: lehenbiziko giristinoen denborakoa bezain biluzia da, toki bat guti edo gehiago handia, herriko jende ostearen arabera.</p>
+<p>Gainean zutitzen zaio ezkila-dorre zorrotz bat; gain guzia teila gorriz estalia; paretak kisuz zurituak; kukurustegiaren gainean dire haurren eskolategia eta herriko etxea. Barneko aldean, aldare nagusi bat bertze bi ttiki saihetsetan urreztadura mehez han hemenka eraginak. Hainitz baserrietan jaun ailearen jar-lekua aurkitzen da kantorean. Gisa berean, familia bakoitzak badu bere jar-leku berezia sahial beltza batez estalia, eta hil direnentzat ahaideak haren gainean belauniko otoitza egiten du.</p>
+<p>Euskaldun bakoitzak, mezako edo bezperetako denboran, eskuetan izaten du bere errosarioa, zeinari hainitz itzuli egin-arazten baitio, bi eri pototsa gurutzatueri maiz musu emanez.</p>
+<p>Beti euskaldunak berekin du, paparoaren gainean, habitoa; harekin ausarki ibiltzen da hirriskoak dixidatuz.</p>
+<p>Mezaren akabantzan, bakoitzak bere auzoko lagunari, soilaruetan, agur xamur bat egiten dio. Gertatzen bazine bi etsaien erdian, burua apaldu behar zinduke, nahi edo ez, agur egiteko. Meza bat ongi entzunak behar lituzke beti ahantzarazi liskar guziak, eta bakea eman bihotzean.</p>
+<p>Euskaldunak bere erlisioneko sinistea biltzen du, apezek bere egin ederrez ematen dituzten irakasmenetan.</p>
+<p>Apeza, guzien adiskide ona da. Norbait nigarretan, beharrean edo eritasunean bada, apeza agertzen zaio.</p>
+<p>Zer gauza ederra apez baten eginbidea! Ene begiak nigarrez betetzen dire ikusi ditudan hainbertze gauza ukigarriez oroitzen naizenean. Zenbat gauza arrailagarrien ez naiz lekuko izan! Azken hatsetan zirenak arpegi deseginak, oinaze minez hartuak eta etzanak bere pairamenezko eta agoniako ohearen gainean. Ikusi izan ditut apezak bere ezpainak bat egiten gaiso haukien ezpainekin hobeki deskantsarazteko, hekien aitorren biltzeko eta azken-nahien aditzeko.</p>
+<p>Ez uste izan haren eskua agertzen dela emaitza bat egiten duenean; bakartasunaz baliatzen da ongiaren gorderik egiteko.</p>
+<p>Zorigaitz bat erortzen da familia baten gainera; ama bat nigarretan dago, zeren gabetu den bere haurraz; betan, bera deitua da herioaz maite dituenen erditik.</p>
+<p>Apeza han da, hekiekin nigar egiteko; haren hitza igurikimenezko eta deskantsagarriak aditzen dire bihotz min handienetarik ezin aztandua den ixiltasunean.</p>
+<p>Euskaldunak baditu begien aitzinean bertze ikuspen, haren erlisioneko sinestea sustatzen dutenak.</p>
+<p>Ikusazu gure baserrietan etxe xuri eta xume hura, zeina eskila-dorrearen itzalpean gerizatzen baita; baratze ttiki bat aldean dauka, asentuz inguratua. Asentuen gainetik sagar-ondoen ostrailen artean josteta dabila iguzki-begia. Baratze hartako loreen usain ona hedatzen da inguruan.</p>
+<p>Batean etxe hori ixil-ixila dago, zerbait ohigabeko barnean balu bezala. Bertzean kanta eta irri alegerak handik sortzen dire, aingeruen bozak iduri; han ondoan dabilana baratzen da txoratua heien entzuteko.</p>
+<p>Etxe hortan daude serora eskol-emaileak, azken adio bat erranak bere gurasoeri eta herriari, jende xehearen haurren argitzeko.</p>
+<p>Emazteki saindu horiek, fedez gaindituak, eta baratu gabe, betetzen dute, Jinkoaren laguntzarekin, berek hartu eginbidea. Neskatxen bihotzetan eragiten dute, erlisionaren jakitatearekin, haren ongiak, ahaiden errespetoa, eta bertute beharren hazia.</p>
+<p>Eta arrats guziz, Euskal-herrian, amek bere bihotzean benedikatzen dute hekien alabak bide onerat plegatu dituen emazte saindua.</p>
+<p>Hastetik, haur pobreen argitzeko, gizonak batera bildu dituena sartu zen Euskal-herrian. Leinu enak dira Euskal-herrian, hango odolak aitatik semerat daramatza aztura onak. Sala, haren arbasoa, 808-an bizi zen Bardotzeko herrian, haren izena oraino dakarken mendetako jauregian.</p>
+<p>Jan-Batist de la Salle sortu zen, Reims deitu hirian, 1651-ko apirilaren 30-ean, eta gaztetasunetik jarri Jinkoaren serbitzuan. Lagunaren alderateko karitate bizi batez sustatua, lehia handirekin haren gogoa beti bila zabilan nondik eta nola zerbeit laguntza eta on ekarriko zuen gizon beharraren alde. Zenbat traba etzituen garaitzeko izan jakitate eskasak eta mendearen aztura goibelak gogortuak! Halare azkeneko, bereganatu ondoan bere iduriko zenbeit gizon bihozdun, jakitatez argituak bezin humilak, horieri esker, altxatu zituen orai orotan hedatuak diren jende beharren eskolak. Bilkura hortako errientak deitu ziren Giristino Doktrinako anaiak edo Frerak.</p>
+<p>Egintza miragarri horren bidez Aita de la Sallek erakutsi zuen munduari zeren gai ditaken karitate bero bat lagundua denean iraupenezko ongi nahiaz; horri begira dezatela etsenplu ederren bati bezala etorkiko beharren alderateko bihotz ixuriek.</p>
+<p>Haren ondokoek iraungidurarik gabe segitu dute nagusiaren urratsa, eta heien entseiu oneri esker, berratu da freren bilkura, eta egun guziz handituz eta hedatuz dohazi heien eskola eta ongieginak.</p>
+<p>Zein laudagarriak diren munduari ihes eginez gordetzen diren gizonak humiltasunean bizia higatzeko haurren eskolatzen, lurreko igurikimenik gabe, bilatuz bakarrik langile eta familia buruzagi on, prestu eta zuhurren egitea!</p>
+<p>Pobreen haurrek dituzte hekien arta berezienak; ahal guziez bilatzen dute heien bihotzetan sorraraztea eta finkatzea bertute eta sineste zuzenak, hobekiago ikas dezatentzat kuraiekin eta kordokatu abe jasaiten beharraren eta eskasien herstura eta kirastasun ohituak.</p>
+<p>Egiazko gizonen amodioak holako bidetan ibilarazten zaituzten gizonak, ederra da gora dabilkazuen karitateko bandera! Agur dautzue eta ezagutza gure herriak. Zueri esker, oraino Euskal-herrian ohore du zuzentasunak, erlisioneak; beti bizi dire euskaldunak sortzez bihotzean dakarzken aztura onak.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>4</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>BELZUNZEKO JAUREGIA</hi></p>
+<p><hi rend='Bold'>Beirako Printzesa</hi></p>
+<p>Beirako printzesak utzi zuen bere Salzburgeko jauregia bere senar eta haren armada leihalarenganat gateko. Ez gare mintzatuko haren bideko gan-etorri guziez Belzunzeko jauregirat heldu arte. Jauregi zahar hori zen bi dorre gorez edertua; han bizi zen zaldun ospatu bat mendetako euskaldun leinu on batetik ateratua, Aitoren seme bezala eskaini zioena erreginari leihorra.</p>
+<p>Belzunzeko izen hori fama handitakoa da gure mendietan. Gure arbasoek zioten etxe hortako seme bat gudukatu zela herri guzia ikaran zaukan heren-suge hegaldun batekin. Lantza xoilaz jo eta, eman zioela herio kolpea. Bainan heren-sugeak, azken hersturetan, jauzi handi bat eginez, etsaiaren gainerat biribilkatu zuen eta itzulika herrestatu berekin Urhandirat. Ordutik hunat belzunzetarrek ekartzen dute bere armetan herensuge beltz bat bandera gorri batean.</p>
+<p>Belzunzetarren odolak atxiki ditu zaharren suhar eta leihaltasuna; eta heien egin ederrak kantatu dituzte Euskal-herriko pertsulariek. Belzunzen izenak aitor hoberenak ditu bazter guzietan; nork ez daki nola ibili zen Marseilleko apezpiku handia izurrite lotsagarrienaren egunetan?</p>
+<p>Arrats batez, erregina solasean zagoen jaun bizkondearekin jauregiko aldamioan, Espainiako lurrerat heltzen lagundu behar zuen gizonaren begira.</p>
+<p>&mdash;Jaun bizkondea, zure menditarra gizon segura ote da? &mdash;galdetzen dio erreginak.</p>
+<p>&mdash;Bai, andrea; harentzat berme sartzen naiz; Ganix euskaldun garbi eta lehiala da; karlistentzat orai arte egin dituenek aski gora diote zer iguriki ditaken hemendik aintzinat ere harenganik. Bertze-alde, andrea, leku hautako edozein menditarrek segurki lagunduko zintuzke. Hemen bizi dire oraino gure aiten fedea eta bihotzeko zuzentasuna; etxolarik txarrenean arrotzak beti aurkitzen du aterpe beldur gabekoa. Euskaldun bati gomendatzen balin badiozkatzu zure burua eta moltsa, gogotik bizia hirriskatuko du bat eta bertzea ongi zaintzeko.</p>
+<p>Hori erratearekin, ederra zen euskaldun bizkondearen arpegia, eta erreginak entzuten zituen atseginekin haren hitzak.</p>
+<p>Aldamio hartaratibegiari zioazkonn orotarik bazter xoragarrienak. Hurbilean, haltzez inguratu pentze zabal ferdetan, artalde gizenak ala ziren, bildotsak jauzika jostetan, ahariek adiarazten zituztelarik bere gare eta bulunbak. Urrunago, zurtsuri lerro baten ondoan, baratxe-baratxe marmariatuz ageri ziren etxola txuri eta politak. Goragoan, mend&iacute;sken pantupa biribil ilarka gorritxez estalietan, zioazin txirripa garbienak, eta arbolen ostartetik ikusten ziren, han-hemenka, ote ez-eraginen lili horiak. Uhartzean, mendi bizkarrak iguzki sartzeratekoaren azken argiez urreztatuak.</p>
+<p>Erregina eta bizkondearen solasak bakantzerat zioazin. Printzesak ahanzduran begiak zauzkan aintzinean zabaldua zitzaikon leku ederren gainean. Laster, euskaldun mendi goren bistak gogoratu zioen bere urrungo herria. Haren arpegi eder eta amultsuan irakur zitazken barnean aldizka sortzen zitzaizkon sentimenduak. Han ageri ziren orai bozkarioa, gero bihotz ilundura; batean igurikimena, bertzean etsimena.</p>
+<p>Bet-betan, haren gogoeta baratzen du bi gizon bekokitsu eta suharren hurbiltzeak; biek eskuan dute makilla, euskaldunen beti bideko laguna.</p>
+<p>Hek ziren Ganix eta Manuel, bi adiskideak.</p>
+<p>&mdash;Huna zure segitzailea, &mdash;dio jaun bizkondeak printzesari erakutsiz bi euskaldunetarik handiena.</p>
+<p>Ikustean gizon larri, begitarte beldur gabe hura, aintzinerat hurbiltzen zaioena, paparoa ageri, besoak biluziak, bularrak eta gerria sare gorri batez inguratuak, herabedura ezin gorde batek hartu zuen printzesa, ordu arte ohitua bertzela apainduzko korteko jaunekin.</p>
+<p>Fida ote zitaken osoki holako gizon bati, zeletariz eta gardez betea zen muga baten hurbilean?</p>
+<p>Bainan Ganixen begitarte ideki eta lainoak laster suntsiarazi zuen printzesaren beldurdura. Halere, orduko, menditarraren begi zorrotzak ezagutu zuen erreginaren beldurkundea, eta bere bizitasunean, erakusten dio printzesari bularrean duen zauri sendatua, bere leihaltasunaren lekuko ezin ukatuzkoa.</p>
+<p>&mdash;Ez beldurrik izan, andrea &#173;dio&mdash; ukaldi hau hartu duenak jakinen du ere bere biziaren hirriskatzen zure laguntzeko.</p>
+<p>&mdash;Goazen beraz &mdash;dio erreginak&mdash; izan zaite ene gidaria!</p>
+<p>Biharamunean, guziak antolatuak ziren erreginaren abiadako. Gan zen Belzunze jaunaganat; hunek igurikitzen zuen bere bi euskaldunekin. Printzesak eskuetan zuen kopa aberats bat eman zioen Ganixi, eta hunek aldiz bere adiskide Manueli, beharrirat zenbeit hitz erranez.</p>
+<p>Ordu berean, Manuel eman zen bideari.</p>
+<p>Erregina loriatu zen oroitzearekin laster hartzerat zoala Espainiko lurretarat zaraman bidea. Arraiziarekin eskerrak bihurtu eta murde Belzunzeri, &laquo;goazen&raquo; dio printzesak Ganixi.</p>
+<p>Handik apur baten buruan, bazoan zaldiz bere gidariaren ondotik, segituz arrosa-basate eta elorri-txurien arteko bidea.</p>
+<p>Luzez gure bidaiantek ikus zetzaketen arbolen gainetik, utzi zuten jauregiaren dorre zorrotzak. Betan, gauzak ganbiatu ziren: erreka agor, zuhaitz eta be ar gabeko batean sartuak ziren; han hasten ziren printzesaren bideko gora-beherak.</p>
+<p>Erreka hunen buruan, doidoia ageri zen etxola txar bat, jendek alde bat utzia. Bi oren ibili ondoan, han erregina zalditik jautsi zen, zerbait janarien hartzeko.</p>
+<p>Heletatik berrehun urratsetan ziren; eta behar baitzen gardez betea zen herri hunen erditik iragan, Ganixek utzi zuen printzesa apur bat bakairik, bera gateko urbilagotik tokien zeletatzerat.</p>
+<p>Jainkoari esker, uste gabean, etzen garda bihirik Heletako plazan ordu hartan; bero handia baitzen, nihor etzen karrikan ageri. Presaka badoa Ganix erreginari berri on horren ematerat.</p>
+<p>Laster herria bertze-alderatu ziren trabarik gabe, eta berriz sartu bazter bidexketan.</p>
+<p>Artzainek, ikustean andre handi hura, euskaldun arrunt bat lagun iragaiten, aho eta begiak zabalduz, agur egiten zioten teteletuak.</p>
+<p>Bizkitartean, bidea ganago eta gehiago tzar bilakatzen ari zen; etzitaken gehiago zaldiz ibili; abereak utzi zituzten menditar gizon, Manuelek Ganixen manuz harat zeletatzerat igorri bati.</p>
+<p>Gure bidaianteak heltzerat zoazin mendixka baten gainerat, noiz eta ere Ganixek ohartu baitzuen garda multzo bat nekez bertze-aldetik mendi bizkarra gora heldu zena.</p>
+<p>Bidexkari hurbil gertatzen zen ardi borda bat, erdi eroria. Doidoia printzesak eta haren lagunak astia izan zuten harat ihes-egiteko. Barnerat gorde zireneko, ikusten dituzte ikararekin, harresien arrailaduretarik, gardak heldu zirela hek ziren lekurat.</p>
+<p>Zer egin?... Zer bilaka?... Lehio apal bat erreka zilo bati buruz idekia zagoen. Ez bat ez bia, asmatu orduko, Ganixek eramaten du printzesa leihorat, besoetan hartzen du eta jauzi bat egiten du lezeaz bertze alderat. Ordu zen, ezen gardak sartzen ziren bordan!</p>
+<p>Etenduak iragan bideaz eta iguzkiaren beroaz, deskantsatzerat zoazin.</p>
+<p>Luzegi litake kurrida hirriskuz beterikako hunen tartika guzien erratea. Ganixek printzesari eginarazi ziozkan ehun itzulien ondoan, noiz eta ere urrundanik sentitzen baitzuen, kontrabandixtaren usnarekin, garden galtza urdinak; bideko asko pirpiren ondotik, landa eta larre, ote eta elorri jazarkorreri trebes, erregina eta Ganix heldu ziren azkeneko heien aterpetzeko zabaldua zen etxe xurirat.</p>
+<p>Han atzeman zituzten bi emazteki euskaldun gotor, zeinek behar ziren guziak apainduak baitzauzkaten, erregina harat etorri orduko. Maria eta Rafaela ziren hek; bat laguntzailearen emaztea, eta bertzea haren arreba.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>5</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>EUSKALDUN JAUNZTURAK ETA JOKOAK</hi></p>
+<p>Erregina deskantsatzen ari zen bere bideko neketarik. Urrats bakar bat aski zuen Espainiako luri erat heltzeko; oroitzapen horrek ezpainetan lerrarazten zioen zorionezko irria.</p>
+<p>Makaian Eliza-besta zen egun hartan; ezkilen errepika alegerek zioten meza errana zela.</p>
+<p>Airean zen herriko plaza guzia.</p>
+<p>Bitxi ziren egun hartan euskaldun jaunzturak, herrirat igorriak gertatzen ziren soldaduen arropekin.</p>
+<p>Huna euskaldun gizon gaztea: ederra da kantarben seme guziak bezala; gapelu urdin bat dauka buruan, erdi eroria eskuineko beharrirat; maipolisa sorbalda batean, gorputza lixto eta xuxen gerriko batez inguratua; soineko atorra elurra baizen xuria du; birazka zilarrezko botoinek dauzkate haren atorra mahukak eta batek fola; zangotan esparti&ntilde;ak gurutzekara zinta gorriak amarratuak; niakila bat eskuan dabilka, noizetik noizera itzulikatuz <hi rend='Italic'><foreign>Tambour-major </foreign></hi>bekokiarekin.</p>
+<p>Horra gizon zahar bat; hura ere estalia da kapeluaz, makurtua daukana kopetaren gainerat; buru gibelean ileak luze ditu bizkarra behera, lege zaharrean leinu oneko gizonek bezala; haren atorra txuria gizon gaztearena bezala, ukarai-lepotan atxikia da; maipolisa ere arta gutirekin sorbaldaren gainean emana; galtza motxetan da; galtzerdi ilezkoak gordetzen diozkate bere zainartak, eta, zilar burla distiantez berreginduak dire haren belaun-lepo eta zapatak.</p>
+<p>Huna emazteki multzo bat.</p>
+<p>Neskatxa gazteek gerriak mehe eta lerden dituzte, arpegiak eder eta begiak bizi, arraiziaz gaindituak.</p>
+<p>Hunek burutik behera dauka mantalina beltza, zirikozko punpoilo bat dilindan doakona kopetaren erdirat; oihal merkez du soina. Bertze horrek beso gainean darama bere mantalina; buruko mokanes airosaren azpitik, ageri ditu kopetaren gainean bi aldetarat ile beltz lodi eta ongi legundu ederrak; lepoko ttiki polit batek estaltzen diozka sorbaldak.</p>
+<p>Euskaldun emazte adinekoak, apaintzen denean, ematen du buruko xuria, pertal bat dilindan buru gibelerat. Haren jaunztura iluna da eta edergailurik gabekoa; lepotik dilindan dabilzka urrezko kate bati behera, bihotz uso hegaldun handi bat, gurutze egina. Bertze batek burutik oineraino doakon kapa beltz batez gordetzen ditu bere bisaia eta jaunztura guziak.</p>
+<p>Bainan huna non eldu den gizon gazte andana bat, elkar dixidaturik pilotarat; eskuen sartzen hari dire eskularruetan.</p>
+<p>Pilota jokoa da euskaldunen josteta bereziena. Deus ez da hain lehiakorik. Harritua zaude, ikusteaz jokariaren bizitasuna eta zalutasuna, halaber haren bekokia. Batean, xaxa on bat egin nahiz, orkatz baten jauziak egiten ditu; bertzean, zezena iduri, furrunkada piloten gainerat erortzen da; bertze aldiz, lehoin batek baizen, burua gora, badabila eskularrua beso azpian emanik, paso eder bat egin ondoan; alde guzietarik begiztatua da.</p>
+<p>Denboraz Erroman ziren lege-egile zahar hek baizen aire garraztakoekin biltzar bat izendatua da joko hartako justizia egiteko. Hekiek harat edo hunat gauza jujatuz geroz, ez da nihor ausartatzen marmariatzea, nahiz he ien errana makurra litaken. Euskaldunaren bertute ederrenetarik bat da, beti burua apaltzea buruzagien aintzinean; Jinkoa mintzatu balitz bezala.</p>
+<p>On handiak darraizko joko horri. Gorputzean hedatzen dituelarik zalutasuna eta indarra, sorrarazten du garai-nahia, eta gizonari ematen diozka bekokia eta duen ahalaren ezagutza. Bazterretik doazkon txistu eta bibek berotzen dute haren kalapua. Jokalariak indar handirekin igorri apilotari buruzl ikasten du bere bularren zabaltzen ukaldi kaltekorragoeri.</p>
+<p>Zer da apaindura distiantetan agertzen den oste hori? Hau da pastoraleko gazteria.</p>
+<p>Pastoralak edo konpartsak euskaldunen josteta maitagarrienak izaten dire. Hekien egin-moldeak hartuak ohi dire liburu sainduetarik, alegia zaharretarik, edo Arrolanen, Moro eta Napoleonen oroitzapenetarik.</p>
+<p>Euskal-herriko koplariek moldatuak, pastoralek dakarkete gure etorkiaren zigilua, eta aberats dire gauza unkigarri bakan gertatu eta maitagarrien aipamenez. Urteen eta munduko nahasdurengatik, bere mintzaira, bere ohikuntzak eta mendetako omenak, ontasun sakratu bat bezala, oso atxiki dituen populu bereziaren noizpaiteko etorki goraren lekukoak dire.</p>
+<p>Josteta hoiek plazaren erdian egiten dire; hortako ederki apaindua den leku baten gainean, txirula eta tanbulina soinuz.</p>
+<p>Hastean, erantzute luze batek jakinarazten du zer erabiltzerat doazin pastoralean. Gero, birazka edo gehiago aldean agertzen dire aipu ederrez mintzo direla pastoraleko beztituak diren gizon gazteak. Loria da ikustea zein gozoki eta kordokarik gabe bakoitzak derasan errateko duena.</p>
+<p>Eta pastoralerat edo pilota partidarat bildua den jendea, solasean, jostetan, alde batetik bertze titxoa titxoari irriz eta bat bertzeari oihuz aditzen dire euskaraz.</p>
+<p>Betbetan, haro horren erdian, harrabots ilun bat aditzen da, pandero urratu batek jotzean duena iduri. Makaiko herriko mutila da, zerbaiten erantzuterat etorria, bere boz ihar-marrantarekin.</p>
+<p>Ordu berean, oihu guziak ixiltzen dire, joku guziak gelditzen.</p>
+<p>Aditzagun zer ote dioen:</p>
+<p>&laquo;Mes habitants d&eacute; mon pays:</p>
+<p><foreign> &raquo;Par l'ordonnac&eacute;ment d&eacute; messiu l&eacute; Maire, l&eacute; poublic il est err&eacute;pr&eacute;venu que l&eacute; f&acirc;me, grand dame de don Carlos Quinto, il est cach&eacute; dans quelqu&eacute; coin ici, dans l&eacute; village de Macaye. Il est err&eacute;sousentendu qu&eacute; si l'attrape il est err&eacute;ussie, grand err&eacute;compense il sera donn&eacute;e &agrave; son ratrappement.&raquo;</foreign></p>
+<p><foreign> &mdash;Tiens! on parle donc fran&ccedil;ais ici </foreign>&mdash;dio soldadu batek.</p>
+<p>Bereala, gizon bat ostea utziz, badoa hesi artetik Ganixi erraterat zer irriskutan den erregina; hura zen Manuel, Ganixek, Beltzuntzeren jauregian berekin men laguna.</p>
+<p>Jendeak han hemenka multzokatzen dire, elkarri buruz, begiak kexu.</p>
+<p>Zer gertatu ote da herrian?... Txango-arinek (hori da letra barraiatzailea) zer berri ekarri ote du? Orok begiz bilatzen dute, ezen Txango-arin herriko berrikaria da.</p>
+<p>Elkarri begira daudelarik, zerbeit jakin nahiz, errienta agertzen da plazan, kapelu kopetan apaldua, begia ilun, gogoan zerbait balu bezala; ageri da ikasi duela oraino gutik dakiten berri handia.</p>
+<p>&mdash;Jaun errientak badakike zerbait! &mdash;diote, eta betan jendeek inguratzen dute. Denek batean galde bera egiten diote; haren ahotik ateratzen diren hitzak lehia handirekin bilduak dire.</p>
+<p>Errienta herriko Jinkoa da.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>6</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>GALERNA</hi></p>
+<p>Jinko handia, zer gaua!</p>
+<p>Haizea txistuka hari da, ihurtzuria karraskan... Erran diteke lur behere huntako mamu ikaragarri guziak marrubiaka bat bertzearen gainean multzoka bere erraien zarraztakatzen hari direla.</p>
+<p>Tximista tximistari jarraikitzen da erresaka lazgarri batean. Uhartzea batean sutan da; bertzean leze zokolu bat bezain beltz da gaua.</p>
+<p>Batean ihurtzuriak adiarazten du harrabots idor eta desberdin bat zapartatzen den xispa baten kolpea iduri. Bertzean galernak marrumaz dago lazgarriki.</p>
+<p>Hori da zeruaren boza... dio, adizak:</p>
+<p>&mdash;Hire gaineko aldean eta muga gabeko lekuan NI NAUK!</p>
+<p>Jinko handia, uka ote ditake zure izatea, zure asarredura hola agertzen denean?</p>
+<p>Xixari herbala lurraren gainerat aurtikia, hare bihia mugarik ez duen lekurat bezala, zer hintake baldin ez bahu hire arima, baldin Jinkoak ez bahintu eman hire handitzekotzat bere Jinkotasunaren hats bat?...</p>
+<p>Uholdeak erortzen dire jauts ahala, xirripak ibai bilakaturik trunbilatzen dire mendiaren gorenetik; arrokek, erroetarik ateratuak, elkar kuskatzen dute harrabots izigarri batekin. Zangopea ikaratzen da...</p>
+<p>&mdash;Ai! izitzen naiz, izitzen naiz! &mdash;oihu egiten du printzesak dena deboilatua eta nahasia.</p>
+<p>Babazuza eta harrizko uri bat heldu da etxeko berinen xeakatzerat eta galernaren hasarredura berratuz doa. Haizeak altxatzen dituelarik ateak, zapartan zabaltzen dire.</p>
+<p>Erregina dohakabeari mainu eta altamak agertzen zaizkola iduritzen zaio.</p>
+<p>&mdash;Ene Jinkoa! ene Jinkoa! otoi, ene egunak begira zatzu... Horra soldaduek non inguratzen duten etxea... Hekien begiratzeek sua aurtikitzen dute... entzuten ditut hekien paturriak... oihu egiten dute: Heriotzea erreginari!... Ez, ez dut nahi il lur arrotz hunen gainean... nere senarrarenganik urrun... laguntzarik gabe... otoitzik gabe... Ai! zenbat pairatzen dudan, ene Jinkoa... urrikal zakizkit!...</p>
+<p>Eta Beirako printzesa erortzen da lurrerat hebaindua, ezindua.</p>
+<p>Zeru hasarretuak lurra ezeztatu behar zuela iduri zuenean, gorputz larriko gizon bat bazoan, galernak errozgora ezarri arbolen erditik, putzu eta arrokeri trebes, urrats suharrian, nahiz etzuen bere bidearen ikusteko tximisten argia baizik.</p>
+<p>&mdash;Jainkoak maite gaitu &mdash;zioen gizonak&mdash; uholdezko gau ikaragarri hau gabe, erregina galdua zen!... Gaixo erregina! Bakarrik gure etxean; zahar ezindu bat eta haur xume bat sehaskan lagun, zer grinetan ote dago! Haren aldean egon banintz, beldurraren kentzen lagunduko nuen; bainan laster deskantsatuko dute emanen diozkan berriek; gaua ona izatu da; eskerrak dauzkitzut, ene Jinkoa, egin gaitutzun horrelako gau hunentzat!</p>
+<p>Eta Ganix bihotz handikoa aintzinat zoan azkar eta alegera, galernaren pean, haize, uri, harri, leze, ihurtzuri eta mendiari behera erortzen diren arroka zatikatuen gatik. Zerua bera dixidatuko zuen, ez balinbalu izan Jinkoa baitan zuen sinestea.</p>
+<p>Norat ote zoan bada? Ongi baitezpadakoa behar zen hark egiteko zuena, kasik huts ezin eginezko hil hirriskurat bere burua hola largatzeko! Eta zertako eskerrak bihurtzen ziozkan Jinkoari, zeren gau hartan haren oinetan sorrarazi zituen leze eta tulunbio hek?</p>
+<p>Bazoan karlisten armadari bere erregina maitea helarazteko bideen egiterat; eta, Jinkoari eskerrak ziozkan, zeren, denbora izigarri horri esker, alfer bilakatua egina zen gardeen atzartasuna eta hurbil jokotik kanpo emana erreginaren ihesia.</p>
+<p>Badire gizonak ongirat ekarriak, deusek ezin baratuak; zenbatenaz handiago baita hirriskua, hanbatenaz gogorrago dire hekien iraunpena eta kalapua; hirriskuak berratzen ditu.</p>
+<p>Norbait hersturan lagundu bear bada uretik edo sutik atera, bila zazu holako gizona; geroko-gerorik gabe jauzi eginen du itotzen edo suan denari esku emateko.</p>
+<p>Manuel plazatik etorri zenean, Ganixen etxean printzesa bakarrik zagoen nagusiarekin, gizon zahar bat eta haur eri baten aldean. Maria apur bat zuela gana zen haurraren sendagarri zerbaiten bila; Rafaela ez baitzagoen Ganixekin, eta bere etxerat abiatua zen.</p>
+<p>Manuelek hirriskuaren berria ekartzean, Ganixek gan nahiko zuen bereala geriza seguragoko baten bila; bainan, oroituz laguntzarik gabe bera utzi beharko zuela erregina, gelditu zen bere emaztea etorri arte iguriki behar zuela.</p>
+<p>Bizkitartean, gaua beranduz zoan; hedoi beltz eta lodiak metakatzen ziren uhartzean, tximistak hari ziren eta ihurtzuriaren orro iluna urrunean. Ezagun zen denbora tzarra hurbil zela.</p>
+<p>Bi oren luze iragan ziren, eta Maria etzen oraino etxerat etorria.</p>
+<p>Etzikaten gehiago iguriki; behar ziren bideak egin erreginari. Ganixek, emanez bere mandatuak Manueli, igortzen du bere arrebaren gana; gero, bere bihotzari bakarrik jarraikiz, badoa kanporat, otoitz kartsu batean erregina Jinkoari gomendaturik.</p>
+<p>Orduan, adarrairea lehertu zen iharrosiz bazter guziak, eta Maria, galernaz bidean atzemana, aterpetu behar izan zen, etxetik urrun.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>7</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>SOLDADUAK MAKAIAN</hi></p>
+<p>Galerna orroaz errabian zagoenean, eta erregina erreberian nahasiari alde guzietarik mamu eta itxura izigarriak iduritzen zaizkionean, Ganixek, hirrisku guzien erditik, Jinkoari eskerrak zituenean, alegeratua ere gau lotsagarri horren bixtan, zeren hain ongi gordetzen baitzituen haren xedeak, bertzelako zerbait gertatzen zen Makaieko etxe batean.</p>
+<p>Irakurtzaileak utz gaitzala etxe hartaz mintzatzera; ezagutaraziko diogu hola nolakoa den euskaldun baten egoitza.</p>
+<p>Bi ixuritarat teilatua, estalia du teila gorriz. Aintzinean arkamasez han hemenka ditu leiho desberdinak, kanpoko leihoak gorriz, gurutzen artetik leiho-begiak, eta, sar-hirian, ate handi bat elizakoa iduri. Ate horren gainean bada gurutzefika bat.</p>
+<p>Toki batzuetan, gurutzefikaren orde Ama-Birjina bat, edo, egin edo erosi duen nagusiaren izena eskribuz duen harri berezi bat.</p>
+<p>Deusek ez du sentimendu hobeagorik sorrarazten euskaldun etxe sartze horrek baino.</p>
+<p>Etxeko atalapustan badu ur benedikatu untzi bat; euskaldunak elizarentzat duen errespetu berarekin begiratzen du bere egoitzari.</p>
+<p>Erran dugun ate hortarik sartzen zare <hi rend='Italic'>eskaratza </hi>deitua den leku zabal batean; harat etxeko jaunak biltzen ditu bere laborantzako errementak, han ere udan jotzen ditu ogiak eta negu hastean xuritzen artoak. Eskaratz horrek egiten du etxea bi alde.</p>
+<p>Eskaratzerat bilduak, Makaiako etxe hartan, soldadu multzo bat jarria zen han pixtu su baten inguruan, eleketa herrian denak mintzo ziren gauzez, pipa kiresten keak egin hedoi minkorrarenpean.</p>
+<p>Kaporal Hitzederren elek, ahoa zabaldurik begira zauzkan inguruko soldaduak.</p>
+<p>&mdash;Zer hau! mila debruko denbora! Huna non gaituzkan hemen ihi xorrozten! Nola lot, gaur, printzesa eta Ganix madarikatu ori?</p>
+<p>&mdash;Errak, to, kaporala &mdash;dio soldadu batek&mdash; zer duk bada otso leku huntan jarraikitzen diagun printzesa delako hura?</p>
+<p>&mdash;Huna, mutilak, nahi zaituztet xeheki gauza horren gan-etorriak erakutsi, bainan ixil-ixila egotekotan.</p>
+<p>&mdash;Halabiz! Hori aski balinbaduk, kaporala, mutu gaudek xarboak bezala.</p>
+<p>&mdash;Ez diat eria surat emanen hala dela ni erratera noan egiaren egia, ez nauk aditua baitezpada politikan; bertzalde, guti axola diat printzen eta erregen arteko mokokez. Hargatik, fransesez <hi rend='Italic'>gatzalikia </hi>deitu legea etzaukat arras makurra dela iduritzen ere zaitak nagusiari ongi daozkola galtzak eta bizarra.</p>
+<p>Bainan hor ere gertatzen dituk batzuetan noiz behinka istripuak; erranen zaituztet gauza entzun diadan bezala, gure kapitainaren ahotik; hura zerbait baduk eta hark erraten duena hala.</p>
+<p>Bazukan behin Espainian errege bat, Ferdinan zazpigarrena deitua. Eta, errege hura ezkondua zukan asko bezala. Bada, erregeak ere zahartzen dituk bertzeak bezala; behar diek guk bezala herioari muga danean bere zerga handi hura bihurtu.</p>
+<p>&mdash;Sorgina! Haltsuko erretora bezain ongi mintzo duk gure kaporala!</p>
+<p>&mdash;Beaz, egin behar zian bere ordeinua; bainan emaztekiek apur bat goiti beiti, dakizuen bezala, etxean nagusi nahi dituk izan.</p>
+<p>&mdash;Ha kaporala! nere emaztegaia Kattalin ez duk behinere ene etxean nagusi izanen.</p>
+<p>&mdash;Hetxak ahoa, birika handia, hire emazteak sudurretik ibiliko hau. Larrerat larrerat, murde Haltsuarra!</p>
+<p>Hortarakotz beraz, erregina <hi rend='Italic'>Kristinak </hi>nahi zian bere alaba <hi rend='Italic'>Isabelari </hi>koroa eman; hori deitzen duk liburuan <hi rend='Italic'>koroa kilo bilakatzea.</hi></p>
+<p>&mdash;Errak, kaporala, zer iruten ditek erreginek, ilea edo haria?</p>
+<p>&mdash;Behauk hortik, Haltsuarra. Espainiako erreginek ez ditek urrea eta seda baizik iruten.</p>
+<p>Zauzte ixilik, zuek. Baditek orai Espainiako erreginak aski hari bihurtzeko; ez ornen baitoazi hainitz gaizki karlista puttiko hoiek. Bainan bego lo politika.</p>
+<p>Erraten gindian beaz hastean <hi rend='Italic'>Kristinak </hi>nahi zuela koroatu bere alaba <hi rend='Italic'>Isabela.</hi></p>
+<p>Bainan hola nola Fran<hi rend='Italic'>tzian</hi> gizonak izan dik Espai<hi rend='Italic'>nian</hi> kaprestua betitik es<hi rend='Italic'>kuan;</hi> don Karlosek behar zian tro<hi rend='Italic'>noan, </hi>Ferdinanek ez balu orde<hi rend='Italic'>nuan </hi>bertzela egin, legea porroka<hi rend='Italic'>tzean.</hi></p>
+<p>&mdash;Emak hor kaporala, nola uan pertsutan!</p>
+<p>Eta kaporala, balakatua hitz hoiez, hanpatzen da, karrakatzen du zintzurra eztul egiten, eta gero dio:</p>
+<p>&mdash;Ikusten ahal duzue nola loriatu ote zukan don Karlos erregeren ordenu hartaz. Haren ez-baitzitian gutiak; jarri zitian maltzurki haren alde. Bildu tiek, oinez eta zaldizkoak, gogora, non nahi, metaka. Geroztik, su eta jo, nagusitzetik nagusitzera, nahi bezala, doazila ziote ; hori ikusirik, don Karlos bera gan ornen duk bere laguneri erraterat: &laquo;Huna hemen nauk etorria, zuek bezala zuekin egiterat! &raquo;</p>
+<p>&mdash;Biba hura! eztik harrek bihotzean urrik! &mdash;diote alde guzietarik soldaduek&mdash; ez diek errege guziek horrek bezala tirokarat laster; &mdash;Eta aditzaile denak esku joka hasten dire.</p>
+<p>&mdash;Bainan errege bat etzintakek egon donado. Hortarakotz beaz, don Karlos ezkondu duk Beira-ko printzesarekin; andre handi harren ondotik gabiltzak gau madarikatu huntan. Ganixen etxean duk gordea, ordian, ixil-isila; bat eta bertzea gure saretan hartu behar ditiagu. Ezkontza hori en'ustez Londresen eina izan duk; omenak hala dituk.</p>
+<p>&mdash;Barka nazak, kaporal maitea, hire kalak'ederra hausten badiat; ordea, nola ezkontza hori eina izan ahal duk Londresen, don Karlos hemen denaz geroztik?</p>
+<p>&mdash;-Gauza hori eina izan duk liburu zaharretan erraten den bezala: <hi rend='Italic'>Prokurazionen operazioneaz.</hi></p>
+<p>&mdash;Demuntsuen misaia! zer duk hau?</p>
+<p>Hitz hori ahotik ateratu orduko kaporalak bere aditzaile leleak begiztatzen ditu ikusteko zer ondorio duen haren ele bereziak.</p>
+<p>Denak teteletuak daozi ikusiz bere aintzindariaren baitan holako jakitatea. Apur bat badaudez guziak ixilik.</p>
+<p>Azkenean, guzietarik ausartenak:</p>
+<p>&mdash;Errak bada, kaporala, zer duk prokurazionen operazioneaz eiten den eskontza?</p>
+<p>Kaporalak, apur bat gogoetan egon ondoan:</p>
+<p>&mdash;Emagun, dio, orai Makaian haizela, eta hire ernaztegaia Kattalin Haltsuko herrian dukala; igortzen duk Haltsuko oihanzaina auzapezaren aintzinat, zeinari ihardesten baitio <hi rend='Italic'>bai </hi>hiretzat.</p>
+<p>&mdash;Alaintso! zer ezkontzeko moldea! nere emaztegaia Kattalin hartuko diatanean, nihori agertuko nauk, Jinkoak nahi badu, Haltsuko auzapezaren aintzinat. Ez diat ordainik eman nahiko! ez halafede nik!</p>
+<p>&mdash;Behin ezkonduz geroz &mdash;dio kaporalak&mdash;ez ote duk emaztea senarrarenganat behar? Hortarakotz, printzesa etorri duk mug'alde huntarat don Karlosi hurbiltzeko, eta gu haren baratzerat manatuak gaituk.</p>
+<p>Bainan, guziek dakizuen bezala, baduk hemen Ganix deitzen den gizon debru bat, gutaz trufatzen dena, ornen, bere etxean gorderik printzesa; eta guk nahi edo ez, haren laguntzarekin don Karlosek alderat igurikitzen dik bere andre hori. Ikusiko diagu ba!</p>
+<p>Gaurkoan, gaur goitik, hemen gaituk bihar arte, denbora madarikatu horri esker; bainan bihar goizean, argi pirrintan, ganen gaituk Ganixen etxea gainbehera itzulikatzerat.</p>
+<p>&mdash;Zer kalakaren akabantza ederra! Bainan bihar, biharko gisa.</p>
+<p>&mdash;Orai mutilak, akabo duk istorioa; gazin bakoitza gure kamastrarat... Bainan, atabala eta turuta jotzean, <foreign>EN AVANT, MARCHE!</foreign></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>8</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>PRINTZESAREN IHES EGITEA</hi></p>
+<p>Ferrakan tzar eta bortitzeri jarraikitzen dire maiz denbora eder eta haizegabeak. Iduri du zeruak, permagune bortitz batean, higatu duela bere hasarreduraren hedadura guzia.</p>
+<p>Gutituz gutituz, galerna isiltzen da; urrunean entzuten dire oraino harrabots apalduz doazinak, eta ximistek, mendiak zafratuz, barreiatzen dute argi xurista bat; erran litake mirail bat, zoinak urrunerat igortzen baitu hartzen duen argia.</p>
+<p>Noizetik noizera ur ttintta batzuek, zitoitzak iduri, erortzen dire zirimolak egotzi ez dituen arbolen gainetik, eta horrek erakusten du uria gelditua dela.</p>
+<p>Haize ezti batek ferekatzen du ostraila; igela, beldurrak ahantzirik, agertzen da ur gainean, eta kalakatzen du zezkapean; erresinuleta bera, oihaneko kantari ederra, harrek ere bere izialdura ahantzirik, urrunerat adierazten du bere boz bizi eta ganbiakorra.</p>
+<p>Haize arinak urruntzen ditu hedoi eta lanoen azken ondarrak. Zerua distiant agertzen da bere ezin konda ahal ditazken izar guziekin, eta haren irriak erraiten dio lurrari Jinkoaren hasarredura jabaldua dela.</p>
+<p>Jinko handia! zein ederra den izarrez eragin duzun zeru hori eta zein ongi mintzo den zure izateaz begiak ezin hel ditazken neurri gabeko lekuetan! Zuk egin duzu gauaren estalkia harri biziz igeri; zuk barreiatu dituzu ondogabeko eremu goretan iguzkiak ostez; ez bakarrik zure handitasunaren erakusteko, bainan ere gizonari zure ontasunaren frogatzeko, aintzinetik hari dastaraziz etorkian agintzen diozkatzun zorion gozoak leihal egoten bada zure legeri.</p>
+<p>Zertako gizona altxa litake zure kontra? Haren bizia suntsitzen da itzalaren pare; lur huntako gozamenak iheskorrak eta ezdeusak dire; hemengo zorionak itxura hoberenekin funtsgabeak, hasi orduko begien engainatzen airatzen dire haize xumenak daraman kea bezala.</p>
+<p>Eta, bizitik landa, zer geldituko da?</p>
+<p>Harri bat, guti edo gehiago apaindua, lehen egunetan ahaideek artez inguratzen dutena, estalia biharamuneko histuak, haizeak eramaten dituen lorez.</p>
+<p>Denborak higatzen eta iresten du harria bera, suntsiaraziz gaineko eskribu ozar eta ez deusak, eta marmolarik gogorrena laster hauts eta herrauts bilakatzen da.</p>
+<p>Bidaianteak ostikatzen du hobi hura zen lekua.</p>
+<p>Eta gero zer gelditzen da?</p>
+<p>Deusik ez...</p>
+<p>Zer diot? Gauza bakar bat gelditzen da gizona gan ondoan; egin dituen ongien oroitzapena; oroitzapen hori beti bizi, urrikari gabe bertze guziak ezeztatzen dituen urteen iragantza lasterrak leinutik leinurat eramana.</p>
+<p>Galernaren patarrakan loak-hartu gizona atzartzen den bezala emadura isila etortzean, orobat Beira-ko printzesak kobratu zuen ezagutza, bakea sortzearekin haren inguruan. Begiak idekitzen ditu; oraino ikusten dituela iduritzen zaio izialduran eduki duten mamu eta itzal beldurgarriak; laster asmu lazgarri hek itzaltzen dire ihesi igorriak zagoen gelako leiho erdi idekitik etorri argidura maitagarri batek. Jeikitzen da eta bereganatua bihotz altxagarrizko argi hartaz, badoa leihorat; beha dago gau ederrari eta haren gogoa bixtan zuen ikuspen miragarriak sarrarazi zuen gozotasun hoberenean. Ferekatzen du iragan egunen oroitzapen arraia.</p>
+<p>Amesten ditu Salzburgeko jauregian haren lehen urteak loriatu zituen gozamen eztiak; ikusten du egun batez koroa eskaintzerat etorri zitzaion mezularia... agintza ederrak igortzen ziozkan orduan etorkiak...</p>
+<p>Eta, fama hedatu zenean, haren senarra sanoki zoala bitoriaz bitoria, zer lehiarekin etzen abiatu haren lorian partzuer sartzeko!... bainan, behatuz bere orduko hirriskueri, begiak busti zitzaizkon nigarrez. Bakartasunak lazten du, hats gorapen du eta hurren etsitzen etorkiaz. Aldian balu bederen bere laguntzaile ona! Traba lotsagarrienak non nahi ikusten ditu bere bidean. Garaituko ahal ote ditu Ganixen kalapuak?... Zein luzea den eta berant heldu libertatea ekartzen duen orena!</p>
+<p>Betbetan aditzen du harrabots xume bat. Beha dago; baratxe-baratxe harrabots hura berratuz doa, zerbait hurbiltzen balitz bezala. Doazinen arta guziengatik ixil-ibiltzeko, urratsak ezagun dire bideko harrietan. Izialdura lotzen zaio berriz ere. Nahi luke ihes egin. Etsaiak heldu ote dire haren gatibu bila? Bainan laster izarren argi herabean ezagutzen ditu Rafaela, Ganixen arreba eta Mixel haren mutila. Dudarik ez da, hek dire... Horrek alegeratzen du printzesa, bihotzerat ekarriz esperantza.</p>
+<p>&mdash;Egiaz otoi, Rafaela, zu zare? &mdash;erraten dio ahopean.</p>
+<p>&mdash;Bai andrea, heldu gare, Mixel eta biak zure laguntzerat.</p>
+<p>&mdash;Eta Ganix, gure Ganix?</p>
+<p>&mdash;Anaiak igortzen gaitu zureganat. Ezin ditake gau huntan ibaiaz bertze-alderat gan. Zato bereala gure etxerat, eta bihar, argi urratzean, ganen gare Ganixen ganat; igurikitzen gaitu, harrek eta guk bakarrik dakigun toki gorde batean.</p>
+<p>&mdash;Bainan nola ilki zure etxetik nihork ikusi gabe?</p>
+<p>&mdash;Errex da. Ramona gaixoa, gure auzoa, atzo hil zen; goiz huntan berean ehortziko dute, emanen gare Ganixen gordelekuaren hurbiletik iragan behar den haren aukoan. Anaiak nahiko zuen zurekin gan, baina badakizu muga soldaduz eta gardez betea dela, eta haren libertatea baliosegia orai behar gabe irriskatzeko.</p>
+<p>&mdash;Zer bihotz handia!... eta nola dixidatu dituen gau huntako irrisko guziak! osorik heldu ote da?</p>
+<p>&mdash;Ez beldurrik izan, andrea, Jinkoak begiratzen gaitu... baina, egizu, otoi, laster; gure adixkide Manuelek erran du ez dela den gutieneko denborarik galtzeko. Orai denbora ateri baita, laster hunat litazke <hi rend='Italic'>galtza gorriak.</hi></p>
+<p>Handik lekora, erregina eta haren bi lagunak ilki ziren Ganixen etxetik eta abiatu sasi artetik gordez zoan bidexka batean, handik ixil eta errazkiago ibili baitzitaken. Apur bat gure bidaianten urratsa bakarrik ezagun zen gabaren isiltasunean.</p>
+<p>Gero etzen deus gehiago aditu.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>9</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>GANIXEN ETXEAREN SETIOA</hi></p>
+<p>Erregina eta haren bi lagunak Rafaelaren etxe alderat zoazin denboran, Makaiako etxe batean, gizon bat atzarria zagoen, nahiz gaua berandua zen.</p>
+<p>Gizon hura, jarria paperez estali mahain baten aintzinean, burua bi eskuetan, barna sartua zagoen bere gogoetetan. Haren aldean piztu xiribitak, bere argi goibelaz ilunpean utziz gelako inguruak, beltzean zauzkan gizona eta hango gauzak.</p>
+<p>Biluziak ziren hango harresiak. Bakarrik, han hemen kausi zitazken zenbait erretaula, bitxiki batzu-bertzen hurbil ezarriak, hala nola judu herratua Napoleon zenaren aldean, lehen enperadorearen zenbait gerlen auzo, eta Jesu-Kristoren piztea deabru dirukoiari buruz; zenbait zurezko kadira; mendetako aitasoen egunetan han ezarri kutxak. Bazter batean, dentelaz azpildu oihal zuriz estali mahain xume baten gainean ezarria zagoen igeltsuzko Ama Birjina bat, arrosarioa lepotik behera, burua lore horiz koroatua. Bertze bazterrean, ohe zabal bat, familia oso baten etzan-gai litakena, gora altxatua; iduri zurubia behar lukela harat heldu nahi denak; erridauak, denborak histuak, funts arrosa kolore baten gainean lore argalekin; bururdiaren aldean, berinazko ur benedikatu untzi bati lotua da erramu aldaska ihartu bat. Ateak gakorik ez du; alfer baitire euskaldunen artean etxeen zaintzako arta bereziak.</p>
+<p>Herri guzia lo denean, iratzarria dagoen gizona Burrunba kapitaina da, Makaiarat igorri soldaduen manatzailea. Kapitain hau, ilun eta kexu, burua hartua dul egiteko dituenez: Jeneralak eman dio gau hartan berean Beirako printzesaren baratzeko manua; baina bezpera arratsean lehertu den galernak bortxatu du biharamunerat igortzeko manatua zaioen eginbidea. Aintzaindari hau, zahar eta higatua bastapean, ohitua da kuxian egiten goragokoez errana zaioena. Beldur da urrunegi gan ote den oraikoan. Behin armetan ezarri nahi zituen bereala bere soldaduak kanpo, baina, uri eta lohitan, bide guziak leze eta intzurra eginak dire. Nola aintzinerat higiaraz galde handi gabe soldadu-oste bat ilunpean?</p>
+<p>Gogoeta horrek apur bat barnea eztitzen dio, baina laster bertzelako gogoeta berriek setiatzen dute. Jaikitzen da bere kadiratik, eta tharat hunatl badabila gelan barna kexadura handienean.</p>
+<p>&mdash;Handia da betetzeko dudan eginbidea &mdash;dio bere buruari&mdash; erregina baten lotzea ez da nolanahikoa eta egun orotako lana; nola ere eginen baitut, hala ditake ene etorkia. Buru on eginez gauza horri, gomendant naiz gurutzearekin. Baina horien ardiesteko eman behar dire ene zuhurtzia, adimendu eta fintasunaren frogak... ordea, zertako kexa? Berri guziez ongi jakindua naiz. Ganixen etxean da printzesa, segur da han lotuko dugula. Bestalde, galernak hura ere bortxaz egonarazi du barnean... Baina Ganix gizon maltzurra da, badakitza mendietako itzulika gordeenak. Ez ote du jadan erreginari ihes egin-arazi?</p>
+<p>Eta gogoeta ilunetan barnago sartua kapitaina lasterka bezala dabila kopetari joka.</p>
+<p>Laster berriz, bertzelako gogoetak heldu zaizko.</p>
+<p>&mdash;Ez &#173;dio&mdash; ez ditake!... emazteki flako eta beldurti bat ezin ditake bidean abia holako gau madarikatuan, eta, argi pirrintan, hartuko dugu printzesa arte batean bezala. Ai! Ganix, Ganix puttikoa, ez dakik norekin ditukan egitekoak! Alfer izanen dituk hire maltzurkeriak... hire amarruek argi hobez distiarakizo ditek nere atzartasuna!</p>
+<p>Aintzindaria berriz jartzen da; su eta gar burua berotua eskribatzen du, kordokarik gabe, bere soldaduentzat erantzute hau:</p>
+<p><foreign> &laquo;Soldats!</foreign></p>
+<p><foreign> &raquo;Le ciel s'est montr&eacute; un instant jaloux du succ&eacute;s r&eacute;serv&eacute; &agrave; nos armes.</foreign></p>
+<p><foreign> &raquo;Un orage &eacute;pouvantable nous a fatalement condamn&eacute;s &agrave; l'innaction cette nuit; mais il a aussi emp&ecirc;ch&eacute; nos ennemis d'ex&eacute;cuter leurs desseins perfides.</foreign></p>
+<p><foreign> &raquo;La princesse de Beira est chez Ganich. Dans quelques heures l'un et l'autre seront en notre pouvoir.</foreign></p>
+<p><foreign> &raquo;Soldats: vous ne faillirez pas &agrave; votre devoir; songez que du haut de ces Pyr&eacute;n&eacute;es quarante si&egrave;cles vous contemplent!&raquo;.</foreign></p>
+<p>Eta, bekokitsu egin duen Napoleondar lanaz, gure kapitain gaizoa hanpatzen da, ustez jadanik eskuan daukala lotu behar duen erregina. Oihu egiten dio bertze gelan lo dagoen bere azpiko bati eta ematen dio eskribatu duen erantzutea, manatuz bereala itza dezala Makaiako Eliza-atean.</p>
+<p>Noizpait argi urratzean, atabalak hasten dire, eta jende guzia, atzartua ohigabeko harrabots goiztiar hartaz, biltzen da erresakan plazarat.</p>
+<p>Guziak espantituak dire kapitainaren eguneko erantzuteaz. &laquo;Horra egiazko frantsesa!&raquo; &mdash;diote alde guzietarik. Errientak eskribuz ezartzen du bere paperetan, haurreri irakasteko ordu denean nola behar den azpikoeri mintzatu gertakari handietan. Soldaduak, erran gabe doa, sutan dire.</p>
+<p>Bizkitartean, euskaldun bihoztun guziak hersturan ziren. &laquo;Zer eginen du Ganixek, zer bilakatu behar da?&raquo; &mdash;zioten batzuek bertzeari. &laquo;Ganix gure herritarra, gure laguna, gure adixkidea! Nola gan mehatxatzen duen hirriskuaren hari mezutzerat? Gauza ezin egina da; herri guzia baionetez inguratua da; laguntza ekartzeko igurikimenik gabe, hartuak gintazke&raquo;.</p>
+<p>Laster aditzen da kapitainaren boza:</p>
+<p>&mdash;<foreign>En avant! pas ac&eacute;l&eacute;r&eacute;, <hi rend='Italic'>arrrche! </hi></foreign>&mdash;dio Burrunka kapitainak, gerlari ozarren espantuan. Atabala eta turuta soinuz abiatzen dira soldaduak. Norbaitek usteko du behar bada, etzela zuhurtzia handia, holako mementuan, horrenbertze harrabotsekin soldaduen bidean ematea. Baditake, baina oroit gaiten kapitaina segur zela bere urratsaz. Erreginaren ihesia ahal guziez gorago zaukan; zelaia ur lodiz estalia zen; Ur-handi egina ibai laster ezin bertzalderatuzko.</p>
+<p>Soldaduek plazatik ilki orduko, atzematen dituzte metaka hirrisku eta trabak. Bide guziak galdu dire, hekien tokian ez da gelditu zilo eta putzu, ur eta lohiz gainditurik baizik. Soldaduek basate hortan ez dakite zer egin ez norat itzulika; batzuek sartzen dire putzutan belaunetaraino; bertzeak arbola erorien errotan behaztopatuz lurrerat doazin trumilka. Ehun oihu, arnegu, madarizione, herrian nihoiz adituak, orrotan entzuten dire urrunerat.</p>
+<p>Hargatik, Burrunba kapitainak ez du burua galtzen.</p>
+<p>&mdash;Aintzinat, haurrak! Hau ez da deus! &mdash;dio ihurtzuriaren bozarekin&mdash; Aintzinat!</p>
+<p>Eta frantsesen furia ezin baratua baita, soldaduek bide egiten dute inderi trebes, bentzutuz traba guziak.</p>
+<p>Urrunean agertzen da Ganixen etxe zuri eta humila, bortxaz hartu behar den zitadela ikaragarria.</p>
+<p>Azkeneko harat heltzen dire. Zenbait soldadu han hemenka igorriak dire etxeko ate-lehioen zaintzerat, bertzeak ezarriak guduko lerrotan.</p>
+<p>Begi guziak harmatuak dire leiho eta zirritu bakoitzari buruz. Pirpiran igurikitzen dute!</p>
+<p>Ordu latza da!... Barrunba kapitainak aintzinerat zenbait urrats eginez oihuz dio:</p>
+<p>&mdash;Legearen izenean eta Frantziako erregeren partez, Beirako printzesa, hartzen zaitugu. Geldirik zaude. Alfer baititutzu entsegu guziak!</p>
+<p>Ordu berean, bazterrak iharrosten ditu txispa kolpen harrabotsak, eta mendiko oihartzunak atzartzen ohigabeko patarrakek. Halere ez da ageri deusik erran ez higitu dela etxean.</p>
+<p>Aintzindaria, asaldatua ikusiz gogorrarena egiten diotela haren manuari, xeharazten ditu ateak. Eta bera sartzen da majestate handirekin etxean, soldadu guziak ondotik.</p>
+<p>Sotoan, nihor ez. Badoazi eskebeletan goiti... nihor ez! Aldizka hiru ate aurtikiak dire... nihor ez oraino!</p>
+<p>Oheak miratuak dire, lastairak itzulipurdikatuak, mahainak eta kutxak puxkatuak, ximineetaraino guziak ikertuak... deusik ez da ageri!</p>
+<p>Betan, sala handi bat zabaltzen da setiatzaile harrituen bixtan, eta han ikusten dute mahain bat hedatua, dafailak herrestan lurreraino, gainean dituela oraino zenbait bazkari handiren ondarrak. Han den zilarreriak begiak liluratzen ditu.</p>
+<p>Aintzindaria sartzen da lasterka harat eta altxatzen du eskuz defailaren petral bat... deusik ez! Mankalaseak porroskatuak dire... deusik, deusik ez!!</p>
+<p>Bizkitartean, supazterreko brasa bizitik ageri da berriberritan norbait etxean bazela.</p>
+<p>Kapitaina burua galtzera doa. Adios asmatu espoleta berria, adios gurutzea! Ihes doazko atseginekin ferekatu esperantzak!</p>
+<p>Kolpez, usain bortitz goldeko jendetan guti ohitu batek baratzen du haren usna.</p>
+<p>&mdash;Lagunak &#173;dio&mdash; usain hori <hi rend='Italic'>eterra </hi>duk! Printzesa hor diagu!</p>
+<p>Badoa zerratua den azken ate bati buruz handik heldu zen usaina.</p>
+<p>Hurbiltzen da, beti bere soldaduak ondotik, eta bere boz lausengarrienarekin:</p>
+<p>&mdash;Printzesa &#173;dio&mdash; dabilkazun usainak salatu zaitu! Zato, ez gehiago gogor egin! Idekazu zutarik urruntzen gaituen ate ori!</p>
+<p>Baina ihardesterik ez du galde berri horrek ere. Kapitainak ematen du beharria ateko urrakoetan, eta, nolakoa ez da haren bozkarioa entzutean hango nigar eta auhen ilunak!</p>
+<p>Ez da gehiago esmesiarik: erregina hor da!</p>
+<p>Emeki jotzen du atea eta hartuz bere boz balakagarriena:</p>
+<p>&mdash;Andrea, otoi, idekazu bada; nahiz etsaiak garen, on eta prestuak gare bitorian. Ez beldurrik izan, zato, frantsesak gare guzien buruan.</p>
+<p>Alferretan aintzindari hunek higatu zuen bere mihi leguna. Nigar eta auhenak berratuz zoazin. Orduan, gure gizonak, guzia sumindua, soldadu bati eskuetarik kendu dioen txispaz jo ta lurrerat aurtikitzen du zabaltzen etzaioen atea.</p>
+<p>Jaun ona! Zer ikusten du!</p>
+<p>Haur xume bat, eritasunak ubeldua, sehaskan etzana, eta harenganat makurtua gizon zahar bat ile zuritan, lausengatzen hari zaioena.</p>
+<p>Kadira baten gainean andre baten zaldizko kapela saial ferde bat dilindan; lurrean, bidaianteen kutxa polit bat eta anpoila lehertu baten puxkak.</p>
+<p>Gizon zaharrak uzkurtasunekin ihardesten du eginak zaizkon galderi; baina azkeneko, idorki manatua mintza dadien, zutitzen da eta kobratuz bere gaztetasuneko kalapua: &laquo;Bilazazue ongi, bila, jaunak! Ez da zeren. Nahi duzuena oz duzue atzemanen... iragan gauean gan zen; oraikoz mendiz bertze alderat heldua da.&raquo;</p>
+<p>Hemen, itsuak argitu ziren. Ez gaite mintza hango begi eta arpegiez!</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>10</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>AHUKOA</hi></p>
+<p>Hilezkilek urrunerat adiarazten dute bere soinu samina. Martilu tankako idorrek diote bihotz minaren auhena.</p>
+<p>Zertako, ene Jinkoa, ni hilaraz... ?</p>
+<p>Bereala oihartzunak beretzen ditu soinu hoiek eta, gure buruaren gainean handitasunarekin dabilan galernak bezala, iduri du erraiten dioela gizonari: &laquo;&mdash;Aditzen duk? Horra Jinkoaren boza&raquo;. Orobat izkiritu bihotz erdiragarri hoiek, airean luzatuz heldu dire oraino huni erraiterat: &laquo;&mdash;Ni mintzo nauk, ni, hire juje bakarra!... Apur bat utzi hindudan hire buruaren nagusi frogatzeko, egun eneganat hartzen haut. Betitik enea hintzen&raquo;.</p>
+<p>Maiz eta ardura, hilezkila hoiek mezutzen dute ama bat kendua dela bere haurren ferekaduretarik, edo haur bat amaren musuetarik.</p>
+<p>Bihotz-minezko urruntzea, zeinetarat gizonaren arrazoina ez baititake ohi! Nor da egin dezakena, auhenik eta dolamenik gabe, azken adio bat bere bihotzean dituen maiteeneri?</p>
+<p>Kobra ditake diru edo ontasun galdu bat, bizitze gisa nasai ihes egin bat; baina herio lazgarri eta ezin trikatuak jo duena, suntsitzen eta desegiten da, ondikotz, gibelerat itzultzerik gabe. Gizona baratzen denean oroitzapen hortan, beldurrak ekartzen dio izpiriturat ilundura; bere burua utz lezake etsimenerat, baldin Jinkoaren oroitzapena heldu ez balitzaio betan erakusterat uhartze deskantsagarriak.</p>
+<p>Gizonak bestiaren akabantza bera ote duke, eta harekin nahastatua izanen ote da putzu edo hobi berean? Bentzutzen du lehoina, garaitzen otsoa, lur huntako bizi den guziak obeditzen dio haren nahiari; herioak jotzen du: hekien iduriko bilakatzen ote da? Ez, ezen hil ondoan, oraino kar ageri ez den batek berexten ditu gizonaren eta bestiaren ariak. Arimak bizitze berri bat hasten du, hiltzerik ez den lekuetan; eta, bihotza nahigabe handietan, oroitzapen horrek bakarrik deskantsarazten du. Amak erraiten dio herioak kendu dioen haurrari: &laquo;Berriz ikusiko haut!&raquo;</p>
+<p>Zertako loreak, zerentzat hobi baten gainean otoitzak? Hilentzat erraten diren otoitzak eta egiten diren ohorezko gauza guziek, ez ote dute frogatzen bertze bizitze batean dugun sinistea? Horrek iraunarazten du oroitzapenaren sua eta bihotzean finkatzen esperantza.</p>
+<p>Gela beltz apaindu baten erdian, bi zirio piztuen artean, horra kaxa bat hil-oihalaz estalia. Barnean du ama gazte baten gorputz hila.</p>
+<p>Ahaide eta adiskideak biotz-minetan hurbilduak ziren ama gaixo huni azken adioen egiterat.</p>
+<p>Gizonak kapa-dengadun artarekin aitatik semerat atxikietan ziren; emaztekiak aldiz, gorago aipatu ditugun eliza-bidetan dabilzkaten kaputxa beltzetan.</p>
+<p>Herioak bere sar-ilkia egin men etxe aterat jendeak bilduak zireneko, etorri ziren bi kaputxa beltz-dun andre, hain ongi biribilkatuak, non ez baitzitaken den gutieneko hekien arpegirik ikus.</p>
+<p>Laster, dolamenezko kantak hasten dire; entzunazu harrabots ilun hori: gorputzaren altxatzea da. Auhen eta nigar marraskak zartatzen dire alde guzietarik, eta daramaten kaxak, etxetik ilkitzean, kentzen diote ahaideri beren azken esperantzen enganioa.</p>
+<p>Hilaren ondotik, abiatzen da ahukoa ixiltasun handienean, noizetik noizerat apezak adiaraziz hilak bere azken egoitarat segitzen dituen kanta mingarriaren zenbait pertsu.</p>
+<p>Ahukoa zoan bidea harritsua baitzen, bezperako galernak min guti egin zioen; etzuen bertze trabarik, han hemenka zenbait istil bakan baizik.</p>
+<p>Bi kaputxadun azken etorriak bazoazin soinez-soin, noizetik noizera zerbait elkarri erranez.</p>
+<p>&mdash;Zer kuraia! &mdash;zioen batek&mdash; galernaren elementan bilatu du ene ihes-lekurateko bidea. Zein bihotz oneko gizona! Jinkoak sarista dezala!</p>
+<p>&mdash;Nor da zuri estekatuko ez litekena? Nork ez lezazke ahal guziak egin zure laguntzeko &mdash;zion bertze kaputxadunak.</p>
+<p>&mdash;Gure etsai atzarrien engainatzeko ote zitaken asmo hobeagorik ene hunat doluko arropetan bidaltzea baino? &mdash;zerasan printzesak (ezen hura zen mintzo zena)&mdash;. Zuk dakizun gorde-lekutik urrun gare? Ezagutzen ote duzu ongi harat daramaken bidea?</p>
+<p>&mdash;Ez izan beldurrik, andrea &mdash;dio Rafaelak&mdash; Ganixek niri gomendatu zaitu; fida zaite niri.</p>
+<p>Ordu berean, Burrunbaren soldaduen xispa kolpek iharrosten dute mendia.</p>
+<p>&mdash;Jinko handia! zer da harrabots hori? Iduri du tirokan hari direla.</p>
+<p>&mdash;Deusik ez da hori; soldaduek behar bada setiatzen dute anaiaren etxea, baina han atzemanen dituzten haur eri eta gizon zaharra gerizatuko ditu bere flakeziak berak. Ez diote soldaduek minik eginen.</p>
+<p>&mdash;Aditzen dituzu oihu eta paturri hoiek? Segurki soldaduek jarraikiko naute... Barka ote nazakete zeren ihes egin diotedan?</p>
+<p>&mdash;Urrunsko dire, urrun, gureganik; etzaiote gogorat etorriko ere hemen zarela.</p>
+<p>&mdash;Bainan, ikustearekin ene gelako nahas-mahasia, ezagutuko dute aise, ez naizela urrun.</p>
+<p>&mdash;Bilatuko zaituzte auzoko etxeetan eta han geldituko dire.</p>
+<p>Itzulian, mendi bizkarra behera jautsi eta ahukoa sartu zen Un-handik bere ibai nahasiak lasterka zabilzkan zelaian. Hurbilduago eta ur haren harrabotsa bortitzago aditzen zen.</p>
+<p>&mdash;Ibai hori haserrezko iduritzen zait &mdash;dio erreginak&mdash;. Nola gan bertze alderat?</p>
+<p>&mdash;Etzaitezela lotsa, andrea. Ganix trufatzen da hirriskuez, salbo eramanen zaitu alde batetik bertze.</p>
+<p>&mdash;Nahi edo ez, ez naiz beldurraren nagusi &#173;-dio pintzesak&mdash; hil hori, ahuko hau, nigar eta doluko arropa hauk ikaratzen naute. A Jinkoa, indazu behar dudan kuraia!</p>
+<p>&mdash;Ez izi, andrea, ez; iragan gauean bertze hirriskutan ibiliak gare; orduan gutiago beldur zinen; eta orai, salbamenduko porturat heltzean, hirrisku handienak abantzu bentzutu ondoan izitzen zare? Izan zazu beraz, andrea, Jinkoa baitan fidantza gehiago.</p>
+<p>Gure bi solastiarrak ahukoko jendeen ondotik urrun zabiltzalakotz, elkarren artean mintza zitazken nihork aditu gabe. Holako biltzarretan, bereziki gure herrietan, bidea luze luzea denean, jendeak alkarretarik urruntzen dire; bat-bedera mintzatzen ere bere lagunekin. Ahaideak bakarrik isilik dagozi; egiazko bihotz-minak ele guti baitu.</p>
+<p>Bizkitartean, Ur-handirat hurbilduak ziren, eta ibaia itzaltzen zuten arbola, hesi eta etxeak, emeki emeki gibelerat utziak ziren ahukoarrez.</p>
+<p>Itzulika bat-bertzeen gainetik trunbilka zoazin uren harrabotsa, gero ta gehiago lazgarritzen hari zen. Itsas-marloin zuri eta potorro, ur handituetarat lehiatuak, hegaldaka zabiltzan ur-hegi batetik bertze. Ageri ziren behin urperat sartzen, gero gaineratzen, berriz pulunpatzen eta azkenean airetan abiatzen.</p>
+<p>Ahuko etendua baratzen da, hats hartzeko. Kaxa lurrean pausatu dute eta ahaideek inguratzen marraska berrietan. Emeki-emeki oste barraiatua bateratzen da; kapa eta kaputxa beltzak elkarrenganat hurbiltzen dire eta multzokatzen. Ikustekoa zen eta bihotz mingarria hil-ohatze hura galernak gauaz sakailatu zelaian.</p>
+<p>&mdash;Bainan non ote gare bada? &mdash;galdetzen dio printzesak Rafaelari beharrirat.</p>
+<p>&mdash;Zaude isilik, isilik otoi, andrea; ez gare gehiago bakarrik biak; den gutieneko hitzak gal gaitazke; ongi dire guziak... Begira, ikusazu non den?</p>
+<p>Ordu berean, hesi artetik, printzesak eta aren lagunak Ganixen begia ikusi eta, berriz esperantza sortzen zaio erreginaren bihotzean.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>11</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>ARROKA-ZILOKO SOLASAK</hi></p>
+<p>Zerua lirain zen, eta iguzkiak ixuriz bere ongi bizi nasaiak ostrailpean distiarazten zituen ur xortak, harri bizi begiak bezala. Txoriak alde guzietan kantu errepikaz hari ziren. Haize eztiaren hatsak doidoia higituz xuxturrak ehun argi begitan zabilkioten gaineko ihintza. Ur ibaikatua orroaz zoan zelaia behera. Ur-handiren gai lohituak, olatuak olatuari ihesi zoazin, arrapo horiak hedatuz bazterreko haltzetarat, iduri artalde otsoen beldurrak nahasi bateko ardi barraiatuak, basatean galduz bere ileen zuritasuna.</p>
+<p>Hil-ahuko pausatzen gelditua, begira zegoen, apezak keinu egin zezan, abiatzeko. Zer itzal, ilun eta dolugarria, ahuko hori, goiz eder hartan, naturalezari alegrantzia eta bizia orotarik zerioenean!</p>
+<p>Orduan, kaputxadun andretarik bat, baratxe-baratxe, ahukotik bazterreratu zen hurbilduz Ganix gordea zagoen hesiari buruz.</p>
+<p>&mdash;Ni naiz &mdash;dio printzesak ahopean mintzatuz.</p>
+<p>&mdash;Zato, andrea, otoi fite &mdash;dio boz ongi ezagutu batek&mdash; eramanen zaitut leku segurrerat; zure gorde-lekua hemen hurbil da.</p>
+<p>Eta Ganixek, esku emanez printzesari itzalarazten du xaran barna eta jaustarazten helar handi eta huntz-ostoez sar-hiria gordea zuen arroka zilo baterat. Lamiategi horrek hare xehez zuen ondoa; han ere printzesak kausitu zituen jateko zerbait, lurrezko alki baten gainean.</p>
+<p>&mdash;Hemen orain segurean zare, andrea &mdash;dio Ganixek&mdash; Rafaela eta nitaz landa, nihork ez daki leku hunen berri. Gaiak laster apalduko dire; heien gora-beherak aspaldi ezagutzen ditut. Begira, jadan ura garbitzen da, itsasoko ihizkiak ihesi gan dire, enarak gora dabiltza, berri ona. Zerua distiant da eta Espainia hor da zure aintzinean. Horra non ditutzun hango mendiak.</p>
+<p>&mdash;Jinkoak dautzula, horrenbertze hirriskutan enegatik ibili zaren gizona! Miresten zaitut. Sortu zinen errege izateko, eta baldin zeruak hala sorrarazi bazintu, gauza handiak eginen zintuen.</p>
+<p>&mdash;Ni errege! Zer bitxikeria!</p>
+<p>&mdash;Irriz zaude, bainan emagun apur bat errege zarela; jakin nahi nuke zer egin zinezaken. Hots, errazu lainoki. Hemen gare sarri arte, mintza gaiten; iraganen zauku denbora, ahantzaraziz inguratzen nauten hirriskuak.</p>
+<p>&mdash;Zer nahi duzu, andrea? Jakitaterik gabea naiz, zer erran dezaket?</p>
+<p>Halere, errege banintz, iduri zait ez nukela nahi behinere nihor pairatzen ikusi; urrikari ditut bihotz guziz jasaten dutenak. Zuk, andrea, ez dakizu zer den egiazko pairamena, egiazko beharra. Huna aita bat, bere familiaren laguntza bakarra, eri, lastoan etzana, pilik gabe, bere haur hamikatuen erdian... Horra ama gaixo bat: haurrak biluziak ditu, zenbait piltzar ez deus baizik ez, heien gorputz hotzak ikaratuen estaltzeko...</p>
+<p>Errege banintz, andrea, neronek bila netzake errumesak, heien hobeki laguntzeko; gan nintake beharraren etxolarat hari eskas dituen ogi eta arropen emateko; lagun nezake, bakarrik beharrean delakotz, galdetu gabe judu ala katoliku, karlista edo kristino den.</p>
+<p>&mdash;Bihotz ona duzu, hori ederki litake; bainan, nola egin zinezake, zer bide har, erromeseriaren gizonen artetik desterratzeko?</p>
+<p>&mdash;Banuke dirutze berezi bat, bere bizia irabaz ez dezaketen beharrentzat. Lana eman niozokete osasun eta beso oneko guzieri, erran gabe: hunek, gaizkia egin du, preso izatu da, ez dut nahi holako langilerik. Kontrarat, har nezake zeren, goiz edo berant, lanak gizona prestu eta ontzen baitu.</p>
+<p>&mdash;Bainan, badire ospitale eta sokorrizko ihes-lekuak zorigaitzean direnentzat.</p>
+<p>&mdash;Egia da andrea, baina hiritarrentzat bakarrik eta ez arrotzentzat, ezen baserritarra ez ditake han sar, ez bada eramana beso edo zango hautsien antolatzaileen bila.</p>
+<p>&mdash;Ez ote ditake bada, baserrietan, hirien bezala egin?</p>
+<p>&mdash;Ai andrea! eta non kausi hortarakotz behar dirua? Hiriak iresten ditu gure ontasunak. Miliundunak ez dire egoten gure artean.</p>
+<p>&mdash;Zer bada, ez da hirietan aterperik baserrietako beharrentzat?</p>
+<p>&mdash;Bai andrea, naski, baina pagatuz, eta, nola paga dezake pobreak? A oxala! Hirietako ospitale eta gerizak ez balire jauregi eginak, hainbertze edergailu alferrez berreginduak, ez litake pobreri dirurik galdetu behar bereri sokorri emateko.</p>
+<p>Eder zaizkit eta onesten ditut herriko loriarentzat eta gizon ospatuez oroitarazteko egiten diren obra miragarriak, zer nahi ere gosta diren; ezen hola ematen da lana langileri eta gauza ederren primantza igortzen etorkiko mendeeri. Baina ume-zurtza, ezindu zahar eta erien aterpeak nahi nituzke humilago eta edergailu gutiagorekin ikusi.</p>
+<p>Badakizu zertako diren hirietan ospitaleak deitzen dituzten jauregi hek? Maizenik, arlotekeria, bizio eta ergelkerien kuraieztatzeko. Batbederak dio hek ikustean: josta gaiten eta alegera, orai, gazte gareno; ez gaiten oroit biharamunaz; zahartzen bagare, horra gure etxea, horrat ganen gare; hor bizi goxoan iraganen ditugu gure azken egunak dohatsu, errege bezala.</p>
+<p>&mdash;Atsegin dut zure hola mintzatzen aditzeaz, eta hainitz gustatzen zaizkit zure hitzak. Geroxeago, behar orduan, oroituko naiz zure kontseilu onez. Baina errazu, zer egin zinezake oraino, errege bazine?</p>
+<p>&mdash;Ene laguntza eta arta berezienak nituzke ospitaleko serorentzat; hek bizia higatzen dute beharrean eta minetan direnen sokorritzen.</p>
+<p>&mdash;Oi! zenbat maite eta miresten ditudan emazte saindu eta ospatu hoiek! &mdash;dio erreginak&mdash; seguratzen zaitut ez ditudala sekulan ahantziko.</p>
+<p>Ederra zen egiazki Ganix, bere bihotz onaz, izpiritua argitua, printzesari mintzo zitzaioenean hola, ospitaletako serora, aingeru kontsolagarriaz!</p>
+<p>Hura da Jinkoaren eta gizonaren arteko lokarria.</p>
+<p>Entzunazu herioak haurraz gabetu behar duen sehaskaren aldean mintzo den boz amultsu eta urrikaldun hori: &laquo;Gaixo haurra -dio- Jinkoak beretzat nahi zintuen, baina ene oroitzapena zurekin hegaldatuko da aingeruen herrirat!</p>
+<p>Sarri, emazteki amultsu ura soldadu ausarten bihotzarekin, ikusiko duzu, herioari buruz, hirrisku guzien erditik, suan diren garlarieri kuraia ematen, eta kolpatuen sokorritzen. Guduaren kean galdu dire zerua eta lurra. Peza kolpen ihurtzurian ikaran dago zangopea, eta han hemenka, hedoian saltatzen dire tximisten pareko su lazgarriak. &laquo;Rots, haurrak! Hots, kuraie! &mdash;oihu du serorak&mdash; Jinkoa lekuko guduan zaizte! Hemendik ere bada zerurat bidea! Hots kuraie! Nik ere banakike zuek bezala, bizia ematen; baina, Jinkoak uzten banau bizia, egonen naiz zuen aldean, zuen zaurien ene eskuz artatzeko&raquo;.</p>
+<p>Ikuspen lotsagarria! Lurra estaltzen du hiltzera doazin zaurituen osteak, oihu eta marraskak bazter guzietan.</p>
+<p>&mdash;Non zaizte &mdash;dio serorak&mdash; non zaizte, gaixo dolugarri minetan hondatuak? Hemen naiz heldu, zuen minen eztitzerat; ene erremedioek sendatzen ahal ez bazaituzte, eginen dugu elkarrekin otoitz. Bihotz-dun eroriak, horra zerua zuentzat zabaldua!</p>
+<p>Eta serora sokorritzaileak, belauniko makurtua balek sakailatu gorputzari buruz, bere boz ezti eta behatze zerutiarraz ixurtzen dio, hiltzera doanari, arimarat, esperantzaren argi gozoa.</p>
+<p>Bizkitartean, maiz serora hori da bere aita-amen haur-mainaz galdua. Hautsiz lokarri minenak, hek utzirik, badoa herri arrotz urrunenetara. Salbaiek berek miresten dute. Mundu guzia, horra haren herria; ez du bertze ahaiderik.</p>
+<p>Ama bat, bere etxe hustuaren azken ondarra, nigarrez eta auhenetan da, bere azken ohatzean, bakarrik gelditua, lagun amultsurik gabe; haur eri gaixo bat, paturriaka, galdu duen amari oihuz; gizon gazte bat adinaren suak bide txarretarat aurtikia, erori da zauritua bere hutsek, ilunik dago biziaz etsitua; neskatsa gazte bat, beharrak lerrarazi duena txarkeriarat, higuingarri bilakatu da bere buruarentzat, guziek ihesi diote; gizon bat zahartua bera bakarrik gelditu da lurraren gainean, bihotza zauritua galdu dituen ahaide eta haurren oroitzapenak, harentzat biziak ez du oinazerik baizik; Jinkoaren ukatzailea, ikusiz oinen azpian lurra itzurtzen zaiola, jo duen minaren eztenaz atzarria, azken orenean, ahoan arrapoa, arneguz eta blasfemiaz dago.</p>
+<p>Baina huna non agertzen den zeruko aingerua. Kolpez, ama nigarretan urtuak, umezurtza alde bat utziak, gizon gazte etsituak, neskatxa gazte lagunek utziak, gizon zahar bakarrik geldituak, ikusten dute esperantzaren argia bihotzean sortzen. Nigarrak agortzen dire, eta igurikimen gozoa sartzen etsimenaren ilunduren hartu tokietan. Sineste-gabea bera ahalketzen da bere arneguez eta ahapaldi gaiztoez; eta hastiatzen basten bere iragan egunez.</p>
+<p>Erran dugun serora bera da, zerutik jautsi aingeru, mirakulu horren egilea.</p>
+<p>Badire marmolaz eta altzairuz mendetako gerlari eta gizon aipatuen lekukoak. Baina zuentzat, o emazte paregabeak! loria handienean, lore eta koro deusek, nihoiz, histuko ez dituenak!</p>
+<p>Apur bat printzesa ixilik gogoetan baratu zen, begiak itzuliak bere bihotzak galde zioen Espainia alderat. Uren orroa etzen oraino gelditua; tirainak borroka zabiltzan oraino hasaldatuak. Etzitaken bertze alderat abia; behar zen iguriki. Apur baten buruan, Ganixenganat itzuliz:</p>
+<p>&mdash;Solas hautuak dituzu &mdash;dio printzesak&mdash; nondik dakizkitzu erran nauzkitzun gauza on eta zuhur hoiek?</p>
+<p>&mdash;Erran zaitut jadanik, andrea, jakitaterik ez dudala; baina, ene bidaietan, zenbait ikusi eta ikasi dut beharraren eskolan. Baserrietan biziz, badazkitzat inguruko eskasen berriak.</p>
+<p>&mdash;Zer egin zinezake beraz zure baserrietan, errege bazine?</p>
+<p>&mdash;Ahal guziaz laguntza eman niozokete laborarieri. Banuke hortarakotz dirutze on bat, etxeko jaun bakoitzak, bere ontasunen araberako, behar orduetan, hartarik baluke berriz bihurtzekotan. Hirian eta plazan, oihal, gatz eta piper saltzaileek badute prestamuz behar duten dirua, zertako laborariak ez ditu errextasun berak? Tratulari eta ofiziale gehienek non nahi kausitzen ohi dute behar dituzten urre eta zilarrak; zertako laborariak ez lezake orobat kausi gauza bera bere etxe eta landak <hi rend='Italic'>ipotekan </hi>eman gabe? Lur erabiltzaileek, errekarat daramaten kontratuz, hainitz gostaz baizik, ezin diote aurki den gutieneko dirua.</p>
+<p>&mdash;Arras ongi mintzo zare. Baina, nola egin nahi zindukena?</p>
+<p>&mdash;Nola egin, andrea? Iduritzen zait erregerentzat guziak errex direla.</p>
+<p>&mdash;Ez beti; baina, errazu, zer egin zinezake oraino?</p>
+<p>&mdash;Zer erranen dut, andrea? Gutia da nik dakidana. Hargatik, errege banintz, lausengariek mehe egin lezakete enekin; guti fida bainintake korteko mihi legun berekoieri, ezen hek egia gordetuz printzeri, ekartzen dituzte guzien kalteak, eta igortzen erregeak eta erresumak errekarat errozgora.</p>
+<p>Korteko lausengariak, hala edo ez, beti arrazoin ematen diote printzeri, beldurrez heien adixkidetasuna gal. Nik ez dut maite lausengariak; nahiago ditut eneak entzun, zeren, egia adituz, ikasten baitut ongi egiten.</p>
+<p>&mdash;Baina egiazki erran litake orai arte kortean higatu zarela. Errazu bada, errege bazine, etzintuz</p>
+<p>ke nahi gerlak egin, armada ederrak manatu eta bitoriak eraman?</p>
+<p>&mdash;Ez dut gerla maite, andrea, eta errege banintz, beti bakea bila nezake. Gerlak gizonak iresten ditu, herriak husten eta lurra langilez gabetzen, grina eta bihotz-minak hedatzen bazter guzietan.</p>
+<p>&mdash;Bizkitartean gerlari darraizko ohore handi nahikarakoak, soldadua bilaka baitateke jenerale, marexale, ministro...</p>
+<p>&mdash;Hoiek denak on dira, andrea, gizon eskolatuentzat; baina gu bezalakoa mando gan gerlarat mando gerlatik itzul.</p>
+<p>&mdash;Halere batzuetan gerla egin behar da!</p>
+<p>&mdash;Badakit, andrea, bai, behar dela batzuetan auzoekin borrokan hari, bain&aacute;, hilka hasi gabe, behar litazke ahal guziak egin alkarren aditzeko eta bazterrerat utzi urguiluaren kontseiluak.</p>
+<p>&mdash;Baketiarra zare beraz arras?</p>
+<p>&mdash;Bai, andrea; bakeari darraizko ondorio hoberenak. Hari esker, kuraiezta netzake lan eta egintza ederrak, bereziki lagunt laborantza, heda sal-erosiak, eta elkarretarik urrun diren jendeen artean eman aria berriak. Hala gauzak ongi gan litazke eta bakeaz balia nintake zergen gutitzeko; errex bailitake, soldadu gutiago izanez pagatzeko, bolboia gutiago erretzeko, jaun handi gutiago sariztatzeko, alargun eta kolpatu gutiago sokorritzeko.</p>
+<p>&mdash;Egiazki, bakearen itzalean, gauza handiak egin ditazke; ez ote litazke ere eskolak berra?</p>
+<p>&mdash;Bai, andrea; baina nahi nuke bakoitzak lehenik ongi ikas dezan bere erlisionea, ezen Jinkoaren maitatzen eta errespetatzen ikasiz, ikasten da ere aita-amen amorioa eta errespetua, laidoen ahantzia, amoina ematea, ihes egitea leku txar eta ostatu gazteriaren ohikuntza txarren iturrietarik.</p>
+<p>Nahi nuke oraino, gure herrietan, haurrek ikas balituzte handitu-eta hartuko duten ofizioari doazkon gauzak. On litake, naski, guziek jakin dezaten irakurtzen eta eskribatzen, baina, guzien gainetik, hautaraz netzazke laborari eta baratze-zainek baitezpada jakin beharren irakasteko gai litazken errientak. Eskola-emaileak behar liokete laborari semeri irakatsi nola behar den lurra erabili, eta nolako eragintzak behar diren egin toki bakoitzean.</p>
+<p>Bizkitartean, ene arabera, behar litazke lagundu, eta kuraieztatu, Jinkoak bere dohain bereziez berregindu dituen gizonak. Badire gure artean artzainak berak, pertsulari sortuak, bai eta ere nihongo eskolan ibili gabe jaun erretorak bezain ederki predikatzen dakitenak. Ikusi ditut nihongo xifratzaile hoberenak baino lasterrago buruz kontu ateratzen zakiten ikazkinak. Ezagutzen ditut bere baitarik, miriku hoberenak bezain ongi, zango eta beso hautsien antolatzen dakiten zapatainak. Badire belarren izenak jakin gabe, hekien indar sendagarriez baliatzen dakiten harginak. Ezagutzen dut norbait, errientik gabe, haritz edo ametz, herri, bestia eta jendeen itxurak gogorat egiten dituen ilagina. Badakit ere non den ehaile bat zeruko izar guzien itzulikaz gogoz dakizkiena, eta gauaz, noiz nahi, hetarik orenak xuxen; galdetzen bazaio non zen atzo edo igaz, non ditaken bihar edo hilabeteen buruan, hunelako edo halako izarra, behaztoparik gabe, eriz, noiz nahi, zeruan, tokia erakutsiko duena. Non nahi badire laborari eta harotz, oren eta muntra antolatzaileak, lan hoietako tresna ez langilerik egundaino ikusi gabe. Non dire gure oihan-zainen pareko kantariak?</p>
+<p>Hola beraz, nahi nuke holako gizonak ezagutuak balire hekien azturak lagunt detzazketenez.</p>
+<p>&mdash;Arrazoin duzu, bekatu da barnean geldi daiten gordeak, laguntza eskasean, Jinkoak holako dohain espantagarriez aberastu gizonak. Jinkoak ongi maite ditu herri hauk, bere dohainak horren nasaiki hemen eragiteko. Xoratua naiz bidean ikusi ditudan bazter miragarriez.</p>
+<p>&mdash;Sinesten dut, andrea; munduko toki ederrenetan bizi gare; eta iduritzen zait Jinkoa bera berriz lurrerat jausten balitz, hemen bere egoitza hauta lezakela.</p>
+<p>Euskal-herria ikusi dutenetarik nihork ez du irri eginen Ganixek bere sor-lekuaz eta haren inguru eder eta aberatsez duen espantuaz. Nor ibili ote da, xoratua izan gabe, hango mendi eta pantupa ferdegailuz apainduetan, hango pentze fresko irriz dauden lorez estalietan? Nor ez da atseginekin baratu Ur-handiren bazterreko zelaixka gozoan, Kanbo-ko ur-on epeletan? Kanbo, ibaiari buruz jarria, hurbileko patarrean, nor gare gu: nork ez ditu hire bide eta jarlekutan ahantzi hiriko grina eta kexadurak?</p>
+<p>Bainan gauza guti zor diote lapurdiko itsas-bazterrek hango mendien edertasunari. Donibane eta Miarritzeko itsas-hegiak guzien gainetik ikustekoak eta maitagarriak dire. Hortarakotz, urte guziz, Miarritzek biltzen ditu nihongo dirudun handi, gazteria eder atseginkariak; han ere jostetan bateratzen dire koplari eta lege-emaileak, gerlari eta jakinak, printze eta dantzariak.</p>
+<p>Donibanek, haro gutiagorekin, bereganatzen ditu atsegin eztien bila harrabotsetik urrun dabiltzan zuhurrak edo ero unatuak; han ere bakea eta osasuna kausitzen besagainka dirua aurtik ezin duten arteko jendeak, Miarritzen behar bezala.</p>
+<p>Badire gure itsas-hegietan bertze leku arrotzek ikustea merezi luketenak, bai eta ere zenbait gizon baketiar deskantsatzeko udan bila ditazkenak; aipatuak dire hortako Getaria eta Hendaiako itsas-bazterrak.</p>
+<p>Baina neguko galernen egunean ikus bazinetza udan hain eder eta maitagarriak diren kosta hoiek... harri eta ikara zintazke.</p>
+<p>Nolako eta zer gauza mingarriak ez dire batzuetan gertatzen bereziki Donibaneko baian?... Baina laster, Inperadoreari esker, gerizezko harresiak uretik sortuko dire, Zokoatik Artako arrokaraino eta ihesleku on eginen galtzapenean heldu diren untzi eta marineleri.</p>
+<p>Gizonak etorkiari utz detzaken obra eder eta laudagarrienak ez dire atsegin eta urguiluarentzat altxatzen dituenak, baina bai beharrean direnen laguntzeko eta hirriskutan jende bizien sokorritzeko egiten dituenak. Hek zutik daudeno azkar daukate ondokoen bihotzetan egiazko ongi eginen oroitzapen ezin ila.</p>
+<p>Jakiteko zer ezagutza merezi duten Donibaneko lanek, ikusi behar litazke Euskal-herriko kostak itsasoa asaldatua denean errabian, eta bereziki Donibaneko baian.</p>
+<p>Jinko handia, zer gauza ikaragarria!</p>
+<p>Zerua, lurra eta itsasoa, bat eginak nahasduran, galdu dire, estaliak, marrumaz itzulikan, arrapoa darioten tirain hiratuez.</p>
+<p>Zokoa, Santa Barbara eta Arta, batean gainditzen ditu zeruraino altxatu itsasoak; doi-doian, noizean-behinka, non diren agertzerat uzten dituela gai lehertuak; iduri itsas hasarrea hondatzerat doan gaixo marinelen hobia.</p>
+<p>Donibane guzia auhenetan dago; nigar eta deiadarrak karriketan; emaztekiak burukorik gabe, ileak dilindan, haurrak marraskaz, lasterka orotarik, eroak irudi, badoazi itsaso-bazterrerat. Apezak ere, elizako arropetan, ilkiak dire otoitzez zeru hasarretuari buruz.</p>
+<p>Zenbait gizon burua galdu ez dutenak, ikarazko oren hortan, bateratu dire alkar laguntzeko, itsasoak iresterat doazkon dohakaberi esku emateko, nolazpeit heien leihorrerat herioaren aztaparretarik kentzeko. Orduan galerna, ifernuzko itsaso hortan, trufatzen da gizonen hari buru egiteko permagune erbalez; errairik ez dute irainek; itsaso axola gabeak ez du entzuten ez nigarrik ez otoitzik. Zer doazko haurren bihotz-minak, ama eta alargunen etsimenak?</p>
+<p>Laster itsaso barne nahasiak goitika han hemen, aurtikitzen ditu iretsi dituen gizonen gorputz hilak.</p>
+<p>Gaixo amak!</p>
+<p>Gaixo haurrak!</p>
+<p>Betbetan, aditzen da urrats bat; leze bazterrean, xuxturrak higitzen dire. Ordu berean, iru esku-jotze apal aditzen dire lezearen sarreran.</p>
+<p>&mdash;A Jauna! Hartuak gare! &mdash;dio erreginak.</p>
+<p>&mdash;Etzaitela izi, andrea &mdash;dio lagunak&mdash; ez da deusik; arrebakeskuak jotzen ditu nik erran bezala, hura dela errateko. &mdash;Eta Ganixek hitz hauk erratean, printzesak aditzen du beldur guziak kentzen diotzan ezagutu boz ezti bat.</p>
+<p>&mdash;Ni naiz &mdash;dio Rafaelak lamiategian jausten delarik.</p>
+<p>&mdash;Ongi etorri, Rafaela, atsegin handi dut zure ikusteaz.</p>
+<p>&mdash;Gordeka hunat itzuri naiz urtxintxa bat bezala, nihork ikusi gabe... baina ez ahal zare guti unatua, andrea, lamia-zilo hortan.</p>
+<p>&mdash;Ez bada hainbertze; zure anaiaren solasek ez naute utzi unatzerat, eta hola denbora gan zait laster, zu etorri arte.</p>
+<p>&mdash;Beldur naiz beharko duzula apur bat oraino iguriki.</p>
+<p>&mdash;Zertako hori? urak ez dire bada apaldu, gaiak ematu?</p>
+<p>&mdash;Ez bildurrik izan, andrea; banoa Ur-handiren ikusterat; uste dut laster hari nagusituko garela. Zaude Rafaelarekin, plazer baduzu, ni etorri arte.</p>
+<p>Ganix inguru behatu eta nihork ikusten ote duen, ilkitzen da lamiategitik eta apalduz, haltzen artetik hurbiltzen ur-hegirat.</p>
+<p>Ibaia hertsiena zen tokirat heldu eta Ganixek begiratzen du ur zolarat.</p>
+<p>Ageri ote diren alde batetik bertze maiz saltoka iragan dituen arroka muturrak; nahiz apalduak, urak oraino handi ziren eta ez garbituak, laster jausten. Arras nekez eta hirrisku handirekin baizik etzitaken bertze alderat abia. Bainan gure menditarrak etzaukan zuhurtzia gehiago printzesa zen tokian egotea. Soldadu eta gardak oraindik sarrirat jauts zitazken zelaierat eta bidean traba jar erreginaren ihesiari. Ganixek orduan, Jinkoa baitan zuen fidantzaz sustatua, dio bere buruari: &laquo;Behar da, gazin bertze alderat&raquo;. Eta ikusirik nihor ez dela han hetan ageri, badoa kuxian printzesaganat. Eta itxura alegeraz gordetuz bihotzean duen herabea:</p>
+<p>&mdash;Hots! Andrea! &#173;dio&mdash; abia gaiten. Bagoazke.</p>
+<p>Eta handik lekora, erregina eta Ganix badoazi ur bazterrerat.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>12</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>IBAIAZ BERTZE ALDERATZEA</hi></p>
+<p>Euskaldunak sineste handitakoak dire, zeren baitute fede oso bat otoitzaren indarrean.</p>
+<p>Gabaren ilunpeari jarraiki zaio goiz pittintaren argia; mendiaren gorena doi-doia estaltzen da itxura zuriztez. Argi ezkilak jo du. Euskaldunak jauzi egiten du bere ohetik eta gurutzearen seinalea eginik, erraten du bere goizeko otoitza.</p>
+<p>Eguerdi da. Ikusazu gizon hori makurtua bere golde nabarren gainerat eta nola jarraikitzen den neke handirekin aintzinean idekitzen duen ildaskari. Ezkilak jotzen du: bereala langilea gelditzen da gurutzearen seinalea egiteko eta bere otoitzaren errateko.</p>
+<p>Arratsa da. Iguzkia sartu ez-bai han da, oraino haren azken argiak hedatzen dire zelaiean. Haritz baten ondoan jarria, gizon bat, bere maitearen aldean, goxoki eleketan dago hari erraten zein berant heldu den bat bertzearena biak bat egin behar dituen orena. Jarria bere etxeko atean, ama gazte batek altzoan dauka bere haur sortu berria; hunentzat ditu bere irri eztiak, hunen loak-hartzeko aldizka bere kanta lamo guziak. Anjelus hasten da eta ama euskalduna zutitzen bere haurra besoetan, gelditzen kantatzetik bihotzeko otoitzaren ezpainetan erabiltzeko; gizon gazte eta andregeia ere kolpez jeikitzen dire, utziz hitz eztiak, zeruari begira, otoitz egiteko.</p>
+<p>Ikusatzu gizon gazte hoiek, errautzezko hedoi batean, birun-birun dantzan hari, krosketarik gabe eriz dituzte haren soinuak, tanburina eta txirula jotzean, batean altxatuz beso eta zangoak, bertzean zein gorago egi ez salto berak irrintzinaka: <hi rend='Italic'>mutxikotan </hi>ari dire. Begi on diotela inguru begira diren neskatxeri, hoiek atxikiak baitire; dantzariez baino arta gehiago dute dantzaz.</p>
+<p>Betan ezkilaren soinu zilarkara aditzen da airean, tanburina, xirula eta krosketak isiltzen dire, jauziak gelditzen, kapeluak burutarik belaunetaraino jausten, jauzilari bakoitzak egiten du gurutzearen seinalea eta erraten anjelusa.</p>
+<p>Merkatu eguna da. Herriko zoko guziak beteak dire, jende tratulariez, bat bertzearekin eskatiman hari dire, begiak zorrotz, mehatxuzko edo dixiduz ko ukabiloak eginez. Ezkilak jotzen du; begitarteak arraitzen dire, besoak erortzen, eta bakoitzak isiltasunaren eta bildutasunaren erdian otoitz egiten du.</p>
+<p>Lehenbiziko <hi rend='Italic'>Anjelusen </hi>tankakoan, ostatuan diren gizonek makurtuak dauzkaten flaskoak zutik ematen dituzte, basoak ezpainetarik urruntzen, erdi beteak mahain gainean uzten.</p>
+<p>Pilota plazan haro guziak isiltzen dire kolpez, eta jokarien esku hantuak izerditan ateratzen eskularruetarik gurutzearen seinalea egiteko.</p>
+<p>Eta guzien bihotz altxatze hortan, norbaitek, kapel buruan, irri edo trufa balu, zorigaitz, zorigaitz hari!</p>
+<p>Hirrisku batean euskaldunak gurutzearen seinale batez erakusterat ematen du beti giristino dela eta Jinkoaren begitartearen azpian dabilala. Zerbait on gartatzean, Jinkoari orobat eskerrak ditu isiltasunean, seinale beraz, egin dioen graziaz. Bere egintza xumeenetan, erakusten du sinesten duela, Jinkoaren aintzinean dela.</p>
+<p>Familiako aitak egiten du gurutzearen seinalea ogi osoaren gainean, zatiturik eman baino lehen bere haurreri.</p>
+<p>Arrats guziez amak egiten du seinale hori haur sortu berriaren sehaskaren gainean.</p>
+<p>Kandeleroz, xirio benedikatua pizten da euskaldunaren egoitzan, eta xirio horrekin familiako bakoitzak kopetaren gainean egiten du gurutzearen seinalea.</p>
+<p>Ibai hegirat heldu zirenean, Euskal-herriko ohikuntza laudagarriari lehial, Ganix belaunikatzen da eta eskua sartuz Ur-handian, eskaintzen dio bere eri bustia printzesari.</p>
+<p>&mdash;Egizu, andrea &#173;dio&mdash; enekin gurutzearen seinalea, eta otoitz, Jinkoak lagunt gaitzan!</p>
+<p>Hola, Jinkoa lagun hartu eta, Ganix zutitzen da; ezartzen du erregina sorbaldetan eta badoa saltoz ur lasterrerat. Horra non dabilan urian, harri eta arroka erorieri trebes, deusek ezin baratua, burua gora, ozar garraiatzen duen zama ospatuaz!</p>
+<p>Betbetan, kordokatzen da behaztopa batean, ezagutzen etzuen zilo berri baten aintzinean. Gurputz guzia ikaran dardaratzen zaio. Erregina beldurrak hartua oihuz abiatzen da. Baina, Ganix, utzirik kordokak, badoa jauzi batez lezez bertze alderat.</p>
+<p>Halere, ez dire denak akabo ibaiarekin; iduri du berekin eraman behar dituela oraino itzurtzerat doazkon ihesilariak. Mende luzeen lazgarriko moment batez, etzitaken erran zertarako zen Ganixen gudua ur lasterrekin. Baina azkenekotz, Ganix uhoi</p>
+<p>nen nagusi, leihorrarazten da eta pausatuz printzesa, erraten dio: &laquo;Orai, andrea, salbo zare, Jinkoari esker. Traba guti izanen dugu hemendik aintzinerat gure bidean; guti zelatatua da. Gardek baitakite hemen ez dabilala zenbait kontrabandist atrebitu bakar baizik.&raquo;</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>13</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>MUGAZ-BERTZE-ALDERATZEA</hi></p>
+<p>Burrunba kapitainak azpizgora eman ondoan Ganixen etxe guzia, ezin sinetsiz, etxeko jaun zaharraren erranagatik, erregina ibaiaz bertze-alderatu zitakela, engainatua ere Ganixen lagun zenbaiten hitzez, uste izan zuen bertze nonbait segurkiago bilatu behar zela printzesa, Ur-handiren bazterrean baino. Ortarakotz, bide beraz gibelerat igortzen ditu bere soldaduak eta harat hunat barraiaraziz igortzen hurbileko etxeen miratzerat.</p>
+<p>Ibai bazterrean zelatan gelditu garderi ere hain gora eta haserre ikusiz urak, iduri zitzaioten arima bizirik etzitakela han alde batetik bertze abia, eta hortarakotz ohi baino gutiago atzarriak zaude .</p>
+<p>Horieri guzieri esker, Ganix gan ahal izan zen ibai alde batetik bertze, sobera trabatua izan gabe.</p>
+<p>Oren erdi bat ibili ondoan, gure ihesilariak jautsi ziren zelaixka hertsi eta apal baterat. Han sartzean, arroka tarte batetik ilkiz, etorri zitzaioten aintzinerat gizon bat, berekin zakarkela, gerrikoaz amarratua, erreginaren harri-bizi eta urreriak barnean zituen gorago aipatu dugun kopa.</p>
+<p>&mdash;Horra haiz, Manuel; ederki hori -dio Ganixek- banakiken hiri zaintzerat emanak ongi zainduak izanen zitukala; ttana hunat, gazin elgarrekin Espainiarat.</p>
+<p>Eta erreginaganat itzuliz:</p>
+<p>&mdash;Orai andrea, igan behar gare hemen aintzinean dugun mendi zut hau gora. Hots! Kuraie! Bertzela ezin baditake, Manuel-ek eta nik sorbaldetan eramanen zaitugu gaineraino.</p>
+<p>Patarra zorrotza baitzen eta goroldioz estalia, uriak lerrakor egina zuen mendi bizkar guzia jendea ezin igan bezalako. Neke handirekin baizik etzitaken hor zango bat bertzearen aintzinerat eman. Arras mendi gainerat heldu gabe, erreginak eta haren lagunek kausitu zuten patar-hegian arroka bat makurtua bertze-alderat, zaramakan bideskari buruz. Arroka hura, erortzerat doan pareta bat iduri, luzatuz zoan bidexkaren ezkerretik. Eskuinean, ondorik gabeko leze beherean, doidoia ezagun zen, harrieri trebes, itzulika, saltoz, arrapotan jausten ziren uren azantza. Etzitaken gainetik harat beha. Behin baino gehiagotan, erregina burua nahasi eta bixta galduz, alditxartu zen; behar zen Ganixen kalapu guzia haren aintzinerat ibili arazteko.</p>
+<p>&mdash;Hots andrea, kuraie, hots &mdash;maiz zioen Ganixek&mdash; oraino zenbait urrats eta hor da Espainia; ez gibelerat beha: hau da gatibutasuna!</p>
+<p>Eta hitz hoien ondoan, erreginaren begiak oraino pizten ziren, eta hartuz berriz kuraia: &mdash;Gazin beraz aintzinerat! gazin! &mdash;zioen.</p>
+<p>Oren luze bat hala ibili ondoan bide txar beldurgarri hartan, gure iheslariak heldu ziren elorriz eta arantzez betea zen erreka baterat, aintzinean zuten zelaierat zaramakan bide bakarra.</p>
+<p>Handik ilkitzerat zoazinean, gehiago ez ur laster hertsi bat baizik printzesak iragaiteko, Ganixen arrano-begiak ikusi zituen, iguzkiak dirdiarazten zituen iratzelekuan zabiltzan garden xispak. Bereala, keinu egiten diote erreginari eta Manueli, geldi geldia egon daiten, eta bera apalduz gordetzen da sasiaren gibelean.</p>
+<p>Laster aditzen zituzten garden urratsak; hatsa ahoan isilik zauden iru bidaiantak, izituak, bihotzak panpaka bularrak urratzeko menean.</p>
+<p>&mdash;Zeren ondotik dotik ote dabiltza hemen gizon horiek? Ikusi ote gaituzte? &mdash;Izerdi hotzak estaltzen dio Ganixi bisaia guzia. Alfer izanen ote dire bada iragan neke eta entsegu guziak? Salbamenduko porturat leltzean erori be lar ote da printzesa etsaien eskuetarat?</p>
+<p>Bizkitartean, gardak hurbiltzen dire; jadan Ganix gordea den sasiaren ondoan dire. Ezagun da xispek ostraila ukituz egiten duten harrabotsa. Gehiago dudarik ez da. &laquo;Ikusiak gare...&raquo; Laster entzuten dituzte garden ele berak:</p>
+<p>&mdash;Zer apokina! &mdash;zioen batek&mdash; berrogei ta hamar mila libera printzesa atzematen duenarentzat! Ez ditek harrek urte txarren beldurrik zahartzean.</p>
+<p>&mdash;Ez diagu guretzat hori! &mdash;dio bertzeak&mdash; ez duk hunat etorriko printzesarik; hegalak behar litizkek mendi hau behera jausteko!</p>
+<p>Hitz hauk azkenak Ganixek aditu zituen, gardak urruntzearekin. Laster itzaldu ziren bidexkaren itzulian, eta, atseginekin Ganixek ikusi zituen ihesi gaten azken hirriskuen beldurrak. Orduan gure bidaiantak berriz abiatu ziren muga alderateko bidean.</p>
+<p>Zer biaia nekagarria printzesarentzat! mendi zorrotzen patarreri gora behera ondo gabeko erreketan, sasieri trebes, doi-doia geldituz han hemenka ahalik gutiena hats hartzeko. Emazteki miragarri horrek zer kuraia etzuen erakutsi trebesia guzien erdian! Kasik bortxa egin behar zioen Ganixek leku gaitzenetan besoetan erabiltzerat bere buruaren uzteko hari eta Manueli.</p>
+<p>Azkenekotz, heldu ziren xirripa baten bazterrerat; hura zen Frantzia eta Espainia bereisten dituen muga. Ganix, saltoz iragan eta erreginarekin xirriparen bertzealderat, gelditu zen bide hegian zen barri handi bati kontra, eta haren gainean eskua emanez: &laquo;Huna Espainia!&raquo; dio printzesari.</p>
+<p>Erregina, atsegin handienean hurbiltzen da Ganixenganat eta musu ematen dio hark erakutsi harriari. Hirriskuak, nekeak, ahazten ditu eta libertateaz arindua, lasterka doa, doi-doia oraindik segi dezaketen lagunen aintzinean. Handik lekora, laster printzesa eta haren lagunak igan ziren azken mendixka baten pantuparat. Zer zoramenduan etzituzten begiak hedatu, hurbilean agertu zitzaizkoten ikuspen bihotz altxagarrietarat!</p>
+<p>Han ziren, hurbil zelaian, karlisten armadaren belazko etxola zuriak, lerroka hedatuak; soldaduak harat-hunat zabiltzan; hekien kapelu txuri eta maipolis urdinak alegera ezagun ziren mendi ferdeari buruz. Batzuek kantaz zagozin, bertzeak gitarra jotzen; hauk fandango erotan itzulika, hek jarriak multzoka han hemenka piztu suen inguruan, eleketan zauden esku ta besoak erabiliz euskaldunen haro ohituarekin. Urrunago ostrailpetik ageri zen belazko etxola zuri berezi bat, bandera gorri bat airean zabilakona: hura zen erregeren jartokia.</p>
+<p>Uhartzean, eliza bateko eskila-dorre antzerekin gora altxatua eder zagoen ageri zeru urdinean.</p>
+<p>Orduan Ganix, karlisteri agindu bezala, hasten da irrintzinaka, adiarazteko erregina han dela.</p>
+<p>Ordu berean, peza kolpeen orroek inarrosten dituzte mendiak, atabalek eta turutek atzartzen oihartzunak bere gudutiar harrabotsez. Armada guzia bibaka dago; ezkilek errepikatzen dute. Aintzindariek lerrotarat deitzen dituzte soldaduak; zaldiak zaldunekin alegeratuak jauzika bateratzen dire, eta armek iguzkian darioten inar distiantez liluratzen dituzte begiak. Orduan, armadako soinulariek diote hemen <hi rend='Italic'>ai! ai! ai! mutila!, </hi>hantxen <hi rend='Italic'>Gernikako arbola.</hi></p>
+<p>Orduan errege, aintzindari oste bat ondotik etortzen da erreginaren biderat, eta laster bateratuak, guzien aintzinean elkar besarkatzen dute.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>14</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>AKABANTZA</hi></p>
+<p>Denbora luzez, karlisten armadak ibili ziren bitoriaz bitoria. Heien aintzindari Zumalakarregi, Elio, Egia, Villarreal, Zariategi, Urbistondo, Las Torres eta bertze hainitz jeneral aipatuek, beren balentriez, lehial eduki zuten bitoria don Karlosen banderari.</p>
+<p>Orotan mintzo ziren Cabrerak Aragoan zituen garaiziez, errege eta erregina zabiltzanean bere lagun leihalen hirriskuetan partzuer.</p>
+<p>Bainan, egun batez, ondikotz! traidorekeriak sartuz karlisten lerroetan, alfer egin zituen erran ditugun gerlarien entsegua</p>
+<p>Uzkurdurak eta azkenekotz etsimenak hartu zuen karlisten armada guzia; soldaduak, fidantza galduak aintzindarietan, zein bere alde barraiatuak abiatu ziren eta laster karlista bentzutuak jasaiten hasi kristino, ordutik Espainiako nagusien uztarria; don Karlos eta erregina ikusiz etzitzaiotela gehiago gelditzen ihesiaz edo gatibotasunaz, behar bada heriotzeaz, bertze hauturik, eman ziren desterrurateko bidean, utziz Espainiako lur, hanbat ohorez karlisten guduek berregindua.</p>
+<p>Bakarrik Cabrera jeneralak, Aragoa mendietan zuen ornen ospatuari esker, oraino zabilkan karlisten bandera eta egiten gudu ona kristinoen kontra; baina gizon handi hura, bere egin ahal eta balentria guziengatik, lehertua beti berratuz zoan etsaien osteaz, zokoratua bere soldaduen azken ondarrekin, etxatua da Frantziako lurretarat eta harekin suntsitu ziren Espaniatik don Karlosen azken lagunak.</p>
+<p>Mundu hau aldamio handi bat bezala da, erretaulez betea: batzuek atseginaren eta zorionaren itxura erakusten dute eta bertzek oroitzapen mingarriak gogoratzen.</p>
+<p>Hemen ama batek musuz ferekatzen ditu inguruan dituen bere haurrak; heien irriez dohatsu da. Eta, maiz, argamasa bat artean, bertze ama batek, marrasketan, oinazez funditua, bustitzen du nigarrez bere seme hain maitearen gorputz hila.</p>
+<p>Familia bat ontasunez gainditua igeri zorionean bizi da, eta etxe berean bertze familia bat goseak irestera doa, aitak ez duelakotz bere nigarrez deus bertzerik haurreri sokorri emateko.</p>
+<p>Gizon bat zorionezko ametsetan loak-artua da; etorkizuna irriz agertzen zaio guzia lore eta urre; eta, haren etxearen atala ustan, trikatu etsaiak, arpegi ikaragarri batekin, gogoan dabilka horren galtzea.</p>
+<p>Baina eskas da aldamio hortan erretaula lazgarriena.</p>
+<p>Erretaula hura gorderik dagoen errumeseriarena da, zeren zorigaitzean eroriz geroz errumesa bere bakartasunari utzia den; guziez ahantzia da eta uste gabez oroitzen balinbadire hartaz, jendeek u n egiten dute urrikalmendurik gabe.</p>
+<p>Bizkitartean, zenbat eskasia, zenbat urriki kirets, zenbat oinaze arrailgarri ehorzten direnak etxearen itzalean!</p>
+<p>Errumes ahalketua au enetan dago isiltasunean, igurikimena galtzen du, beti buruz bere buruarekin; bere haurren begiratzeak berak lazten du. Baina, kanpoan erakutsi nahi ditu oraino bere leheneko galdu aisea eta errextasunak; jazten du ere bestetako aldagarri beltza, iragan aberastasunean azken ondarra. Eta haren begi kexatua beha dago aldetik dabilzkion jendeen begiari; beldur da bere kopetako ilundurak sala detzan beti gorde nahi lituzken eta barnetik iresten duten bihozminak.</p>
+<p>Bizkitartean bada ez dute beti erokeriek, ez emaitza zoroegiek errekarat aurtiki gizona.</p>
+<p>Halere, egunak banazka badoazi, ezin dio gehiago garai etxean nagusi jarri zaioen gosetia.</p>
+<p>Orduan, ihes egiten du errumesaren zorigaitzez baliatzen ohi diren jendetarat.</p>
+<p>Etxeko traste ederrak, urreria baliosak biziko egun ederren oroitzapenak, salduak direez deusetan</p>
+<p>Eta, egun batez, errumes ahalketua, hebaindua eskasiez eta pairamenez, hiltzera doa, nihork urrikaldu gabe, adixkide esku bat etorri eskasian azken oreneraino gordetzea bilatu duen beharraren arintzerat.</p>
+<p>Holakoa da, bada, liburu huntan argitarat ezagutaraztea bilatu dudan gizonaren zortzea; irakurtzaileak barka dezadala baldin hemen egin baditut zenbait solas alegera oroitzapen mingarrien auzo.</p>
+<p>Ganixek joko eman zituen don Karlosen zerbitzuan zituen guziak eta prestamuz utzi karlisten armadari laur ogoi eta hamar mila libera diru.</p>
+<p>Holako dirutze batez gabetzeak kordokan eman zuen haren izatea, etzen halere errenkuratu ez eta behinere berearen galdetzen hasi, hartaz baliatu zireneri.</p>
+<p>E,gia bada ere, don Karlosek agindu ziozkan Ganixi urteko emezortzi ehun libera; baina agintza hori alfer gelditu zen Ganixentzat deus ondoriorik gabe.</p>
+<p>Eta karlist eta kristinoen gerla akabatuz geroz, hautsi ziren Ganixen karlistekin lokarriak; baina gelditzean don Karlosen lagunekin haren hariak, etzituen galdu bere herritarren amodioa eta, guziez ongi ikusia aitor hoberenak zituen bazter guzietan. Nihori ezbaitzuen ematen bere beharren berri, guziek aisean zaukaten zela.</p>
+<p>Bizkitartean, Ganix aspaldian beharrarekin borroka zagoen, eta ahal guziak higatzen nolazpait gordetzeko bere eskasia, begietarat errauts eman zezaketen itxura engainakorrez, eta gibelatzeko hanbatenaz azken errekan eman behar zuen erorikoa.</p>
+<p>Biluzten hari zen haren etxea, banazka kenduz handik Ganixen maiteenak zituen iragan egun ederretako oroitzapenak.</p>
+<p>Laster behar minak, sarjantak etendua, ezin buru eginez utzi behar izan ditu zituen ontasun guziak bere hartzeduneri. Ene begien bistan egin du Ganixek bere azken sakrifizioa, eta, entzunez haren boz hats-gorapenetan itoa, ikusiz haren arpegi bihotz-minak ubeldua eta begietarik erortzen zitzaizkion nigarrak, ezagutu dut haren zola gabeko errumeseria. Orduan, bortxaz ateratu eta errekarat erori delako aitorra, bilatu dut gizon dolugarri huni kurajie ematea mintzatuz eta hari gogorat ekarriz lehenago, behar orduetan, lagundu dituenen izen ezin a.hantzi dituenak.</p>
+<p>&mdash;Ez, ez jauna; ez dut oihurik eginen ezagutza zor nauteneri; ez naiz baliatuko orai naizen beharraz egin dituzkedan iragan ongiez oroitarazteko.</p>
+<p>Eta bihotza zauritua nigarretaraino Ganixen jenerostasunaz errumeserian berean erran diot: &mdash;Etzare nahi mintzatu, Ganix; bada ni mintzatuko naiz zuretzat.</p>
+<p>Zueri nago beraz, espainol ospatuak; zueri, don Karlosen alde izan edo zaretenak; miretsi duzue Ganixen arima ederra. Zueri nago, bihotz oneko zuen herria maite duzuen guzieri, nahiz erregetasunean edo errepublikan. Erregeren amodioa bihotzetan daukazue erlisione berri bat bezala; siniste eta esperantza berek bat egiten zaituzte familia bereko haurrak bezala. Elgarren lagun, sokorri eta lekuko zarete, anaiak bezala. Adituko nauzue eta ez duzue utzi nahiko beharrean, errumeserian, zuen banderaren azpian lagun on, saririk gabe, ibili den gizona.</p>
+<p>Haurretik gizonari emaiten zaioen jakitateak fedea haren baitan piztarazten du; maiz ere bere etorkiak erakusten dio zein banderaren azpian ibili behar duen. Baina ez duenak jakitaterik, ez buraso zaharretarik bidea ematen dioen erakuspenik, ez du bere bihotzeko karrak eta biziko gertakariek ematen dioten lehia baizik. Mendi eta oihanen erdian hazia, maitatzen du agertzen zaioen bandera, zuzenbidekoa iduritzen balinbazaio. Ganixek errege -nahi bat lagundu du, inperadore- nahi bat orobat lagunduko zuen.</p>
+<p>Jakitate gabeko gizonak ez daki gizonetik gizonerat, aitatik premurat koroa igortzen duen legea. Errumes bat gertatzen denean haren etxeko atalapustan, aterpea galdez, ikusi orduko, besoak zabaltzen diozka.</p>
+<p>Zueri nago beraz, zuria edo gorria izan dadien zuen bandera, zueri, guzien gainean ematen duzuenak ohorea, zuhurtasuna eta leihaltasuna, zorigaitzaren koroaz edertuak direnean.</p>
+<p>Zueri ere nago, mendeko dohatsu, harenganik ditutzuenak gozatzen ditutzuen edergailu eta atseginen iturri asko. Zuentzat zenbat hirriskutan ez da ibili!</p>
+<p>Lehenago maite zinduten eta bilatzen haren adiskidantza; jartzen zen zuen mahainean. Ukatuko ote duzue eta debalde utziko errumeseriak jo duenean?</p>
+<p>Ez, ez duzue hola eginen; nahiko duzue frogatu guzieri atsegina bezala ezagutza ere bizi dela zuen bihotzean.</p>
+<p>Euskaldun ene herritar maite, bihotz on eta kartsuak, zuentzat ere azken hitza. Nik bezala ezagutzen eta miresten duzue Ganix eta deitzen egiazko euskalduna. Zuek ere lagunduko duzue beharrean, ez duzue nahiko dolugarriak izan daiten haren azken egunak; mintzatuko zarete hartaz, ezagutzen ez duten guzieri, erranez Ganix dela egiazko ohore, leihaltasun eta kalapuaren mirail berezia, gure mendean eta gure Euskal-herrian.</p>
+        </body>
+      </text>
+    </group>
+  </text>
+</TEI.2>
+

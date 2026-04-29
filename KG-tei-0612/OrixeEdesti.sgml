@@ -1,0 +1,590 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN"
+                       "http://www.tei-c.org/P4X/DTD/tei2.dtd" [
+   <!ENTITY % TEI.prose    'INCLUDE' >
+   <!ENTITY % TEI.linking  'INCLUDE' >
+   <!ENTITY % TEI.analysis 'INCLUDE' >
+   <!ENTITY % TEI.figures  'INCLUDE' >
+   <!ENTITY % TEI.XML      'INCLUDE' >
+   <!ENTITY % TEI.extensions.ent SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.ent' >
+   <!ENTITY % TEI.extensions.dtd SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.dtd' >
+]>
+<TEI.2>
+  <teiHeader>
+  <fileDesc>
+     <titleStmt>
+        <title>Euskal literaturaren atze edo edesti laburra</title>
+        <author>Nikolas Ormaetxea - "Orixe"</author>
+        <respStmt>Ez dauka</respStmt>
+     </titleStmt>
+     <extent>9.957 hitz, 75.091 karaktere</extent>
+     <publicationStmt>
+        <publisher>Klasikoen Gordailua [http://klasikoak.armiarma.com/]</publisher>
+        <distributor>Estrata Liburuak S.L.</distributor>
+        <address type='email'>klasikoak@armiarma.com</address>
+        <idno type='ota'>OrixeEdesti</idno>
+        <availability status='free'>Erabilpen librekoa; honoko helbidean topa daiteke (HTML, RTF eta PDF formatuetan): http://klasikoak.armiarma.com/idazlanak/O/OrixeEdesti.htm</availability>
+        <date>2006</date>
+     </publicationStmt>
+     <sourceDesc>
+        <bibl>Iturria: Orixe. Idazlan guztiak III: Artikulu eta saiakerak, Nikolas Ormaetxea Orixe (Paulo Iztuetaren edizioa). Etor, 1991</bibl>
+        <notesStmt><note>Iturburuen datazioa: 1927</note></notesStmt>
+     </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+     <projectDesc>Euskal literaturako testu klasikoen bilduma da KLASIKOEN GORDAILUA; testu hau berorren parte da</projectDesc>
+     <refsDecl>
+        <p>MENTIONED etiketa egilearenak ez diren hitzak markatzeko erabili da: hitzaurreak, aipuak, iruzkinak, e.a.</p>
+    </refsDecl>
+     <classDecl>
+        <taxonomy id='generoa'>
+            <category id='G-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='G-ANT'><catDesc>Antzerkia</catDesc></category>
+            <category id='G-BER'><catDesc>Bertsoak</catDesc></category>
+            <category id='G-ERL'><catDesc>Erlijioa</catDesc></category>
+            <category id='G-NAR'><catDesc>Narratiba</catDesc></category>
+            <category id='G-POE'><catDesc>Poesia</catDesc></category>
+            <category id='G-SAI'><catDesc>Saiakera, kronika, artikuluak...</catDesc></category>
+        </taxonomy>
+        <taxonomy id='garaia'>
+            <category id='M-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='M-16'><catDesc>XVI. mendea</catDesc></category>
+            <category id='M-17-1'><catDesc>XVII. mendea - 1. erdia</catDesc></category>
+            <category id='M-17-2'><catDesc>XVII. mendea - 2. erdia</catDesc></category>
+            <category id='M-18-1'><catDesc>XVIII. mendea - 1. erdia</catDesc></category>
+            <category id='M-18-2'><catDesc>XVIII. mendea - 2. erdia</catDesc></category>
+            <category id='M-19-1'><catDesc>XIX. mendea - 1. erdia</catDesc></category>
+            <category id='M-19-2'><catDesc>XIX. mendea - 2. erdia</catDesc></category>
+            <category id='M-20-1'><catDesc>XX. mendea - 1. erdia</catDesc></category>
+            <category id='M-20-2'><catDesc>XX. mendea - 2. erdia</catDesc></category>
+        </taxonomy>
+        <taxonomy id='euskalkia'>
+            <category id='E-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='E-BAT'><catDesc>batua</catDesc></category>
+            <category id='E-BIZ'><catDesc>bizkaiera</catDesc></category>
+            <category id='E-BNA'><catDesc>behenafarrera</catDesc></category>
+            <category id='E-ERR'><catDesc>erronkariera</catDesc></category>
+            <category id='E-GIP'><catDesc>gipuzkera</catDesc></category>
+            <category id='E-GNA'><catDesc>goi nafarrera</catDesc></category>
+            <category id='E-LAP'><catDesc>lapurtera</catDesc></category>
+            <category id='E-NAF'><catDesc>nafarrera</catDesc></category>
+            <category id='E-ZAR'><catDesc>zaraitzuera</catDesc></category>
+            <category id='E-ZUB'><catDesc>zuberera</catDesc></category>
+        </taxonomy>
+    </classDecl>
+  </encodingDesc>
+  <profileDesc>
+     <textClass>
+       <keywords scheme='generoa'>
+         <list><item>G-SAI</item></list>
+       </keywords>
+       <keywords scheme='garaia'>
+         <list><item>M-20-1</item></list>
+       </keywords>
+       <keywords scheme='euskalkia'>
+         <list><item>E-GIP</item></list>
+       </keywords>
+     </textClass>
+  </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>Euskal literaturaren atze edo edesti laburra -- Nikolas Ormaetxea - "Orixe"</docTitle>
+    </front>
+    <group>
+      <text>
+        <body>
+<p><mentioned><hi rend='Italic'>(Euskal-Esnalea, XVII, 1927)</hi></mentioned></p>
+<p><hi rend='Bold'>I. ATAL-GITEA</hi></p>
+<p><hi rend='Bold'>Iru atal</hi></p>
+<p>Euskeraren literatura, dentxoa, iru atal eginen dizut, iru idazle-mordotara biribiltzen dudalarik. Eskualdez edo regionez, baita euskalkiz ataltzeari ere utzi eginen diot, ezpaitirudit ain egoki. Mendez-mende, gizaldiz-gizaldi zaitzeak ere badu neke, batez ere labur izateari ba gatxizkio. Gizonez-gizon morkatuko dizut, jaunenik edo buruenik izan direnetara xumeagoaz eratxikiz. Onetan ere baduzu irrixta-bidea edo limur-bidea; gure mendeko, gure bizikide direnetan i&ntilde;or minarazi ote nezake? Enuke orretara jo nai; baino nai ta nai ez,mintza-bearra izaki, ixil egoitea litzake errazenik, alegia, baino gure literaturak izan duen arorik bizkorrenaz ixiltzea, utsarte aundixkoa zinuke, naski. Irakurle, nere iritziari etzaitziola egiari bezain atxiki. Nik esana, nere iritzia, nere egia da, ez egia bera. Beraz zure iritzia nerea baino egiago liteke.</p>
+<p>Beste zoztorrik ere azaldu zait bide onetan: nor-ta dire gure literaturaren iru guraso oriek? Gure mendekoetan zein aukeratuko dizut buruzagi?</p>
+<p>Iru guraso orietan baduzu bat, lenbizikoa, idazlerik bikainentsuna: Azular. Geroz, Axular'en biribilkia edo <foreign>cicloa</foreign>, bera zilbor edo buru delarik ipini diteke aurrena, uka-mukarik gabe.</p>
+<p>Badugu bigarrena, bera euskal-idazle bikaina izan ezik ere, ezpaitzion lanbide orri irautsi, bere eragitez eta bultzakaz euskeran ildorik edo atzerik barnena utzi zuena: Larramendi beinki. Geroz, bigarren biribilkia, Larramendi'rena eritziko dugu. Mendiburu'ri, Kardaberaz'i, ta beste zenbait giputzi, bai Bizkaitarri ere artzekoa ba dite Larramendi'k. Oraintsu arte arengandik ikasi oi zuten onozko aldeko euskaldunak. Euskalerriko Revista'etan, Lore-jokuetan eta abar ageri-lanak diotenaz, ez da itzali Larramendi. Aurten alaere, Euskalerria'k, eun urte-garrenean zor beltza, lotsagarrixkoa utzi dio ainbesterainoko gizonari.</p>
+<p>Zein dugu irugarren? Gizonik ipini nai ezpaduzu, ipini ezazu Bizkaia; euskaldun literatura pattalari onek erauntsi baitio gaurko kemena, Bidasoa'z emendi. Gipuzkoa'n etzegoen literatura Bizkaia'n bezain illa; baino Bizkai'ko bizte edo birbizteak ango bizitze-txingiari bularrez aizegin dio. Mintza gaitezen bizkor: dezagun bekoki. Azkue'ren Iztegi aundia sortu ezpalitza, oraingo euskerabizte onek ba zuken zulorik aski. Ala ere, liburu eder bat ziteken ori, balinba liburutegian alper egon bearra, erri-esnatze edo politika dardara gerta ezpalitza. Geroz irugarren biribilkia Arana-Goiri'rena bedi, bera euskal-idazle edo beintzat idazlari ez izanik ere.</p>
+<p>Ederrago balitzaizu, beste iru izen oek ar zenezazke: Laphurdi mendea, Gipuzkoa-mendea, Bizkai-mendea. Neri etzait ain eder atal-gite au; Axular'en gerokoa ezpaita, alegia, egun ere iraungi, ez atertu. Begira ezperen Laphurdi'n ari duten literaturari.</p>
+<p>Iru biribilki oetaz gainera badituzu bere berezko edo beren gisa dijoazen idazle batzuk, neurtizlariek usuenik. Oriena bereiz ariko dut gaiak dakarren bezala.</p>
+<p><hi rend='Bold'>Begiratu bat</hi></p>
+<p><hi rend='Italic'>Iru mende edo epoka oriei gain-begiratu bat. </hi>Leen-mendea dugu oraino buruenik. Axular'engana bil diteke Laphurdi tipiko idazle-eli aundia: Etxeberri, Haraneder, Yoanategi, Arbelbide, Duvoisin, baita Xuberotar Intxauspe. Bizi direnetatik, Adema, Daranatz, Barbier, Otxobi (Moulier), Anxuberro (Saint Pierre), Zerbitzari (Elissalde), Etxepare Naparroa Barrenen, eta Constantin Xuberoa'n. Oriek oro Axular'en edo Axulartarren jario gozoa dute: mintzaira arraia, gazia, erraza. Andik onatako Euskalerria'n, orien tarteko zinun Cruz Goyenetxe, Amayur'ko Apeza, ta duzu Larreko (Irigarai), gaurko mintzalarietan ez motelena. Gipuzkoa'n ere, gutxi bederik, ageri da Axular'en edo Axulartarren atzea. Larramendi'k ezagun izan zituen laphurtarrak; Agirre'ren Erakusaldietan ere zantzuren bat usandu diteke; Arrue'ren imitazioan ez gutxiago. Lardizabal'ek irakurri izan zuen Etxeberri'ren Historioa, baino ez du aren ixurkirik; ez Mendiburu'k ere, euskalki Naparra arren. Bizkaia'n berriz orok dakite Axular'en Gero ango euskalkiratu zuela A&ntilde;ibarro'k.</p>
+<p><hi rend='Italic'>Larramendi. </hi>Onek bere eragite sendoa erauntsi dio bigarren idazle-mordoari, ez idaz-tankera edo estiloa, ezpaitigu euskal-idazkirik utzi. Aren <hi rend='Italic'>Ezina egina </hi>edo <hi rend='Italic'><foreign>Imposible vencido </foreign></hi>ta <hi rend='Italic'>Iztegiaz </hi>geroztik, euskeraren aldeko lan ugari badugu. Arengandik etorri da Gipuzkoa'ra literatura, ez urria ere. Larramendi'k eman zion biotz eta kemen Oyartzuar Mendiburu ospetsuari, baita beste bere Anai Kardaberaz'i ere. Lardizabal, Arrue, ta abar ta abar, zer edo zeren zordun zaizkio Aita Manuel'i. Ta nor ez Gipuzkoa'n naiz Bizkaia'n oraintsu arte? Bigarren idazle-mordo onen izaera ta ariurria Larramendi'rena berarena da: euskeraren aldeko edo apologia. Euskera gora, euskera bera, euskera alako ta euskera olako, gure iraintzaleen buruzki. Eliz-literatura lekutzen ba dugu, gainerako guzia ortan ari dela dirudi. Neurtitzetan, Revista'etan, eta nonai, ez da beste kezkarik. Astarloa'k erderaz ez ezen, Mogel'ek eta Iztueta'k euskeraz ortara jo zuten geienaz. Literatura-mordo onen ilunbea edo itzala beintzat au da: alor edo landa medarregia artu du idazgaitako. Euskal biziera, oiturak, ez dire bear bezain gogoan artu. Gaizki-esaleen burukapean beti ari izan garala ematen du, ta beraz euskera an, euskera emen, Euskalerria andik, Euskalerria emendi. Erdaltasunetik eta erdalkeritik aldegitea du xede idazle mordo onek. Landa au zabaltxeagotzeko Iztueta'k egin digu indarkarik edo aleginik aundiena Gipuzkoa'ko dantzakin eta Kondairarekin.</p>
+<p><hi rend='Italic'>Arana Goiri. </hi>Noizbait ari izan arren, ez da euskal-idazlari izan; utzi ziguntxoa, orregatik, ez da galtzeko. Jesukristoren Nekaustea Mateo Deunaren araura, Lenengo egutegi Bizkaitarra, ta poesi batzuk daduzkagu burutan. Ez politikaz bakarraz, bai bere idaztankeraz ere ildoa urratu digu. Euskera garbitzea ez ezen, euskeraz burutapen sendoak agertzea izan zuen xede ta asmo, ta garai artarako i&ntilde;ork ardietsi zezakena ardietsi zizun. Aren ikasleetaz gero mintzatuko naiz, zertan atzeman, zertan utsegin duten. Andik onata euskera aurrera doa arek eman-ziztua geitzen dularik. Ez dakigu ilen ote den, agian ez, baino biziko ba da, geroak esanen du Arana'ren bultzaraz noraino diteken gure mintzoa ta literatura.</p>
+<p>Gain-begiratu au aski dugu oraingoz. Gero xeakatuko dugu, labur bederik, bakoitzaren lana.</p>
+<p><hi rend='Bold'>II . EUSKALDUNAK ETA EUSKERA</hi></p>
+<p><hi rend='Bold'>Lenbiziko euskaldunak</hi></p>
+<p>Lenbiziko euskadunetaz zer esanen dugu? Tutik eztakigu, ipuin saila besterik. Zer ari edo arraza dugun, nongo ta nondik eta nola garan eztakigu, jakinen ere ez onozkero, tinko beintzat. &laquo;Gu ez gara inoizko&raquo; &mdash;erantzun zion eukaldun batek Montmorency'ri. Nongo ta nondik? Adan'engandik, alegia. Urrena... joan eta bila.</p>
+<p>Euskalduna bere ariz basati ala etxetiar zenik ere enizuke atxiki-atxiki esanen. Kristau-legea artu zuen einean basati zela diote. Lenagorik? Asma or. Kristautzearekin gendatu zela agerian datza. Kristautuz gerozkoan ere izan ditu aldi ta aldi.</p>
+<p>Gure arbasoak oian-sasi-arkaitz-artetik itxasora jo zuten, gosea berdinduko bazuten. An asi ziren etsi ta sendo, jateko-eske Terranova'raino baztartzen zirela. Gero Ameriketa gendatzean ez duzu atzena ta aulena izan euskalduna. Euskalduna nekazari ta itsas-gizon, funtsezko ta burudun, egitate arazoetan iraunkor eta itsatsi, bide-urratzaile, supizguari (familiari) erauntsia, ta orotan gaindi &laquo;Eskualdun fededun&raquo;.</p>
+<p>Euskera, beste edozein erritako izkuntza bezain literaturarako gai dela esan bearrik eztago. Gramatika, Europa'n denik ugariena da inolaz ere, itz-eratortzean eta itz-eraustean <foreign>(en la composici&oacute;n y derivaci&oacute;n). </foreign>Itzik aski sartu zaigu arrotz-erritik, baino gure izkuntza landuala oilduko ditugu ezarian ezarian.</p>
+<p><mentioned> <hi rend='Italic'>Euskarak du elhea labur eta eme</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>erran nahi den hura laster duzu barne </hi>(Daranatz)</mentioned></p>
+<p><mentioned> <hi rend='Italic'>Hitz uts alferrik gabe, zalhu ta la&ntilde;oki,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>gauza gorak, barnenak aiphatuz errexki.</hi></mentioned></p>
+<p>Lau euskalki izan ditugu literaturadunak: Laphurdi'koa, Xubero'koa, Gipuzkoa'koa, Bizkai'koa. Zein baino zein euskalki diren obe, galde alperra ta gorrotagarria da. Bakoitza gai da, ta aski dugu.</p>
+<p><hi rend='Bold'>III. POESI ERRITARRA</hi></p>
+<p>Poesia naiz erritarra, naiz landua, bereiz arkiko dugu. Amaboskarren mendean badituzu &laquo;eresiak&raquo;, euskeran den literaturarik ederrenetakoak, beste gainerako poesi ta itz neurrigabe ta oro barne. Aoberokeriren bat esan ote dizut? Ez naski, adiskidea, ezpaituzu balinba ezagutzen poesi ori, ta ez da erraz, batean liburuka argitara gabe baitago, beste euskal-liburu askoren gisa, puskalaka, an emenka. Juan Carlos Guerra'ri esker, or daukagu bildurik liburu batean; baino liburu ori ere ez da, ondikoz!, geienen eskuetarako, eta galdu diren olerkiak eta ezin irakurri ditezkenak, bear egiten dute. Euskerak ez duela literaturarik. Esatea da. Ez da arrigarri ori gure arerioak esatea, gerok ere esan oi baitugu; baino ezaguera geiegi gabe, alegia. XV'garren mendeko gure poesi bakar oriek, ez diote i&ntilde;ongo erriko erri-poesia'ri zorrik.</p>
+<p>Iru aritara biltzen ditu J.C. Guerra'k kantu oriek: alderdikeri kantuak (O&ntilde;az'tar Ganboa'rrenak eta Agramont'ar Beaumont'arrenak); ileta kantuak; gertaliski eta leloak. Orietan ba dire asko galdu izanak, beste batzuk puskalaka iraun dutenak, beste batzuk irakurri ezinak. Alda ditzagun bakar batzuk osorik badere.</p>
+<p><hi rend='Italic'>Bereterretxen kantua. </hi>Lerin'go Conde Jaunak, Beaumont'arren buruzagi zenak, azpikeriz illarazi zuen Bereterretxe.</p>
+<p><mentioned> <hi rend='Italic'>Altzak eztu biotzik,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>ez gaztanberak ezurrik,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>enian uste erraiten ziela aitonen semek gezurrik.</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Andoze'ko ibarra</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>ala ibar luzia!</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Iruretan ebaki zaitan armarik gabe biotza.</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Bereterretxe'k oeti</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>neskatuari eztiki:</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>&laquo;abil eta so egin ezan, ageri denez gizonik&raquo;.</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Neskatuak berela</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>ikusi zian bezela</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>irur dozena bazabiltzala leyo batetik bestera.</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Bereterretxe'k leyoti:</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>&laquo;Jaun Kuntuari goraintzi</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>eun bei bazereitzola bere zezena ondoti&raquo;.</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Jaon Kuntiak berala</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>traidore batek bezala:</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>&laquo;Bereterretx, aigu bortala, utzuliren aiz berala&raquo;.</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Ama, indazut atorra,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>menturaz sekulakua!</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Bizi dena'k or(o)it izanen du Bazko biaramena.</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Marisantzen lasterra,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Bostmendietan beera!</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Lakarri Buztanobian sartu da bi belai&ntilde;ak erresta.</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>&mdash;&laquo;Buztanobi gaztia,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>ene anaie maitia,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>itzaz unik ezpalinbada, ene semia juan da!&raquo;</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>&mdash;&laquo;Arreba, ago ixilik,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>ez, otoi, egin nigarrik;</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>ire semia bizi ba da, menturaz Mauliala da&raquo;.</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Marisantzen lasterra</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Jaon Kuntiaren bortala!</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>&laquo;&#161;Ai, ei! &#161;eta, Jaona!, non duzie ene seme galata?&raquo;</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>&mdash;&laquo;Ik bai ena semerik</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Bereterretxez besterik?</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>&mdash;Ezpeldoy altian dun ilik; abil, eraikan bizirik!&raquo;</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Ezpeldoiko gentiak</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>ala sendimentu gabiak,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>ila ain ulant, eta deusere etzakienak!</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Ezpeldoiko alaba</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Margarita deitzen da;</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Bereterretxen odoletik aurkaz biltzen ari da</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Ezpeldoiko bukata</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>ala bukata ederra!</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Bereterretxe'n atorretarik iru dozena umen da.</hi></mentioned></p>
+<p>Ez al da au edozein erritarako ere poesi bikaina?</p>
+<p><hi rend='Italic'>Milia Lastur'en eresia. </hi>Alda dezagun Andra Milia'ren eresia ere.</p>
+<p><mentioned> <hi rend='Italic'>Zer ete da andra erdiaren zauria?</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>sagar errea eta ardao gorria.</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Alabaya, kontrario da Milia,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>azpian lur otza, ga&ntilde;ean arria.</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Lastur'era bear dozu, Milia,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>aita jaunak eresten dau elia,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>ama andreak apainketan obia.</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Ara bear dozu, Andre Milia!</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Jausi da zerurean arria</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>aurkitu dau Lastur'en torre barria,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>edegi dio almeneari erdia.</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Lastur'era bear dozu, Milia.</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Arren, ene andra Milia Lastur'ko</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Peru Garzia'k egin deusku laburto,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>egin dau andra Marina Arrazolako,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>ezkon bekio, bere idea dauko.</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>&mdash;&laquo;Ez dauko Peru Garzia'k bearrik</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>ain gatx andia apukaduagatik,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>zeruetako mandatua izanik</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>andrari ok ala kunpli jasorik</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Gizon txipi soil baten andra zan,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>atearte zabalean oi zan,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>giltza-porra andiaen jabe zan,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>onra asko kunplidu jakan.</hi></mentioned></p>
+<p><hi rend='Italic'>Alos-torre'ko kantuak </hi>ere merezi luke osorik aldatzea; baino ezaguntxegoa delako, bai luzexkoa ere, utzi eginen dut.</p>
+<p><hi rend='Italic'>Beotibar'ko kantak. </hi>Bat aldatuko dizut, ederrena, ez ala ere nere ustez ain aspaldi-usai aundikoa. Gaurko gipuzkeraz esana dirudi. J.C. Guerra'k ahapaldi orien aspaldigoa ezin uka ditekela dio.</p>
+<p><mentioned> <hi rend='Italic'>Beotibar'ko zelaiak,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>len ilunak, gaur alayak!</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Beotibar'ko arkaitzetan</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>frantsesak gure o&ntilde;etan.</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Arro asko sartu ziran,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>umil asko irten ziran.</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>O&ntilde;az, agintari aundia,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>zuretzat gure bizia!</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Nora zuaz, O&ntilde;az Jauna,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>frantses jende arengana?</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Edur maluta ugaria,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>ugariago etsaya.</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Larrean emaztetxuak,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>begian negar-malkuak.</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Atoz len bai len etxera,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>bestela oso galdu zera!</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Aurrera, mutil maiteak,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>etxera dolorkumiak,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>il emen edo garaitu</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>O&ntilde;az Jaunak esaten du.</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Zein gelditzen da atzian</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>O&ntilde;az ikusita aurrian?</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Zu zera nere nagusi,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>zurekin il edo bizi.</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Juan dira emendik betiko,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>ez dira i&ntilde;oiz etorriko;</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>beti euskaldun mendiak</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>ez besterentzat gaziak.</hi></mentioned></p>
+<p><hi rend='Italic'>Lelo'ren lantua. </hi>Au ere ezagun askia da, ta enaiz aldaketan ariko.</p>
+<p><hi rend='Italic'>Egun bereko alarguntsa. </hi>Au bai, aldatuko det.</p>
+<p><mentioned> <hi rend='Italic'>Goizian goizik jeki nunduzun, ezkuntu nintzan goizian;</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>bai ete ere zetaz beztitu ekhia jelki zenian.</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Etxekandere zabal nunduzun eguerdi erditan,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>bai eta ere alarguntsa gazte ekia sartu zenian.</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>&mdash;Mus de Irigaray, ene Jaona, altxa izadazut buria,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>ala dolutzen ote zaizu enekila ezkuntzia?</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>&mdash;Ez, ez, etzitadazu dolutzen zure espusatzia,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>ez eta ere doluturen bizi nizano, maitia.</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Nik banizuun maitetxo bat mundu ororen ixilik,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>mundu ororen ixilik eta Jinko Jaonari ageririk;</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>buket bat igorri ditadazut lili arraroz eginik,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>lili arraroz eginik eta erdia pozuaturik.</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>&mdash;Zazpi urtez etxeki dizut gizon ila kanberan;</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>egunaz lur otzian eta gayaz bi besuen artian,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>zitru-urez ukuzten nizun astian egun batian</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>astian egun batian eta ostirale goizian.</hi></mentioned></p>
+<p>Poesi eder onetaz bakoitzak esan beza derizkiona. Gure erri-poesiaren erakusburutako naikoa ditugu oek. Gai oni garraizkola emainen dizugu erri poesiari dagokiona, labur bederen.</p>
+<p><hi rend='Bold'>Pastoralak</hi></p>
+<p>Xubero'ko Pastoralak edo atarian istiatzen dituten komeriak eztakigu noiz asi ziren, baino XV'garren mendean, beintzat asi bide ziren. Frantzia'ko mysterio-etatik antzeratuak edo dire. Agitz aipagarri ezpadire, aipagabe ezin-utziak dire euskal-literatura'ren edestirik laburrrenean ere. Ez bide dute poesi ugaririk &mdash;ezpaitzaizkit eskuetara&mdash;, ta zenbaitek diotenaren araura, ez ditut kanore aundirik emainen. Galdurik izan bear dute asko, baino oraindik ageri dire 80'tsu banaz beste. Xuberotar aipatu batek esan zidanaz, iraupen aundia bear da, gibel aundia, &mdash;ain luze ta gatz-gabe baitire&mdash; aiek bururen buru antzeztu arte begira egoiteko. Laburrago balire ta yoriago, gogoz entzunen lirake Bidasoa'z emendik ere, ta gure erria isiatuko edo zaletuko litzake teatrorako. Gure erriari axolik ez diola literaturaz... esatea merke da. Geroxeago ikusiko duzu baietz.</p>
+<p><hi rend='Bold'>Eske-leloak</hi></p>
+<p>Urtearo batzuetaz ibili oi dire mutilak eske, eguberriz, Santa Ageda'z, San Juan'ez, San Nikolas'ez; t.a. Poesi au aspaldikoa da, Axular ta baino askoz lenagokoa, ta Erroma'ko paganoengandik ixuria aldez aldez. Badituzu &laquo;mayak&raquo;, Kalendas? Maias; bai Santander'en ere <foreign>&laquo;Las Marzas&raquo; </foreign>(Latineko <foreign>&laquo;Martias&raquo;</foreign>), eta an ere gurean bezalatsu eskatzen dute, emaiten dutenean onetsiz, eta ez dutenean gaitzetsiz:</p>
+<p><mentioned> <hi rend='Italic'>En la tierra gracia</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>y en el cielo gloria.</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>A los de esta casa</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>solo les queremos</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>que sarna perruna</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>les cubra los huesos.</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>An goien goien la&ntilde;oa,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>errekondoan otsoa,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>arkakusoak itoko al dik</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>etxe ontako atsoa.</hi></mentioned></p>
+<p>Euskalerria'n geienean ahapaldi berdintsuak esaten dire, ta bakan izanen dire errian beintzat ez dakitzatenak. Ala ere ahapaldi batzuk aldakuntzekin eta idurin edo bekalde batzuk ipiniko ditut:</p>
+<p><mentioned> <hi rend='Italic'>Izar eder bat ateratzen da</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>urtean egun batean;</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>urtean egun batean eta</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>ua San Juan goizean. </hi>(A. N.&mdash; lar)</mentioned></p>
+<p><mentioned> <hi rend='Italic'>San Silbestre'k ekarri digu</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>izar ederra giyari;</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>gaurko gaba emen pasa dezagun</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>ate onduan kantari. </hi>(A. N.&mdash; bera)</mentioned></p>
+<p><mentioned> <hi rend='Italic'>An goien goien izarra,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>errekondoan lizarra,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>etxe ontako nagusi jaunak</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>urre gorrizko bizarra.</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Urre gorrizko bizarra eta</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>zilar-urrezko espalda;</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>erreal txikiz egina dauka</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Elizarako galtzara. </hi>(A. N.&mdash; lar)</mentioned></p>
+<p>Beste nonbaitsu ez dute ain egoki esaten bigarren ahapaldi ori:</p>
+<p><mentioned> <hi rend='Italic'>Urre gorrizko bizarra eta</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>diamantezko espalda:</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>berori bezain gizon presturik</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>erri onetan ez al da. </hi>(A. N.&mdash; bera, G-bidan)</mentioned></p>
+<p><mentioned> <hi rend='Italic'>Naparroa'n da Bardena.</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Kaparroso'ren urrena;</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>etxakandrea kopla dezagun</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>nagusiaren urrena. </hi>(A. N.&mdash; lar)</mentioned></p>
+<p><mentioned> <hi rend='Italic'>An goien goien elorri</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>ondoan jota erori:</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>etxe ontako etxekoandreak</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Ama Birji&ntilde;a dirudi. </hi>(A. N.&mdash; lar)</mentioned></p>
+<p><mentioned> <hi rend='Italic'>Askan eder da garia</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>aren ga&ntilde;ean txoria,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>eraztuneak bildu dezake</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>andretxoaren gerria. </hi>(A. N.&mdash; lar)</mentioned></p>
+<p><mentioned> <hi rend='Italic'>Usoak egal gorrizu,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>moko-aldea lumazu:</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>orren aingeru txukun polita</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>nondik agertu zera zu? </hi>(A. N.&mdash; lar)</mentioned></p>
+<p><mentioned> <hi rend='Italic'>Sentitzen zaitut sentitzen</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>ari zarala jekitzen,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>zure gerriko giltze-so&ntilde;uak</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>emendixe tut aditzen. </hi>(A. N.&mdash; lar)</mentioned></p>
+<p><mentioned> <hi rend='Italic'>Oramayean sagua,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>aren begira katua,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>etxe ontako okelarekin</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>ez da beteko zakua. </hi>(A. N.&mdash; lar)</mentioned></p>
+<p>Beste aldakuntza batzuk ikus ditezke <hi rend='Italic'><foreign>Revista Internacional de los Estudios Vascos</foreign></hi>'ean (esan-lekua) eta <foreign><hi rend='Italic'>Anuario de la Sociedad Eusko-Folklore, </hi>II, 1922, p&aacute;g. 47 sq.</foreign></p>
+<p><hi rend='Bold'>Toberak</hi></p>
+<p>Ezkon-aitzin gabean andregaiari mutilek kantzen zizkioten kantak ziren toberak. Galduxe dire. Aipa diteken poesirik ez dizugu arkitzen, eta labur-sur, goazen aurrera.</p>
+<p><hi rend='Bold'>Kantutegiak</hi></p>
+<p><hi rend='Italic'>Azkue'ren kantutegia eta A. Donostia'rena. </hi>Gure poesia, kantatzeko egina da, aspaldiko liriko-ena bezala, ta kantuarekin sortua ere da, aldeaurretik paperean idatzi gabe. Nekazari, ikazkile t.a. dire itz orien jabeak, geienak, irakurtzen ere etzekitenak. Azkue'ren eta A. Donostia'ren lelotegietan ediren ditezke polit askiak, maite-leloak beintzat; baita bakarren batzuk ileta-leloak, <hi rend='Italic'>Egun beteko alarguntsa </hi>buruen dutelarik. Maite-leloetan badituzu <hi rend='Italic'>Atea dizut kirrinkari, Auntxo gazte, Arboletan den ederrena, Xurian xuri, Zazpi urthe ba duzu, Munduan den ederrena, </hi>t.a., agitz poesi politak. Emen duzu batxo:</p>
+<p><mentioned> <hi rend='Italic'>Arboletan den ederrena da</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>aritza edo pagoa;</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>nik maite&ntilde;o bat bakar izan ta</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>arek bestetan gogoa.</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Jaun zerukoak eman dezola</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>nereganako asmoa.</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Amodioa xoroa dela</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>mundu guziak badaki:</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>nik maite&ntilde;o bat bakar izan ta</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>ura bestek eramaki.</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Enuke penarik baliro bizi</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>enekin baino obeki!</hi></mentioned></p>
+<p><hi rend='Bold'>Bertsolariek</hi></p>
+<p>Gai oni gagozkiola esan dezagun zerbait. Esana da, ez zur esana, gure erriari ez diola literaturaz axolik. Neurtitzak entzuteko beintzat, itoa duzu gure erria. Perietan zoaz Tolosa'ra edo Gernika'ra edo noranai, ta kantari baten inguruan an dauzkazu gure baserritarrak txoroa bezala noiz bukatuko, bertso berri ayek amar xentimoren ordez arrapazka eramateko. Bestelako literatura'rik nai ezpadu ere, au maite du, ta onek emaiten dio aznaia, ta onetatik balia bear ginuke errian literatura gisakoa sartzeko. Erriko indar-gizon edo athletak, apustu, gertakari latz eta abar, gosegarri zaizkio gure baserritarrari. Eskolatu gabeko neurtizlari baten lana baino obea egin dezake artan ikasiak. Ez da lotsakizun gizon eskolatua ortan ari bear izaitea. Egia da, gure erriak ez duela deus askorik irakurri nai, liburuz beintzat. Oraindio ere, liburua erostean, ipuin-liburua ba da ere, Meza entzuteko biderik bai ote duen galdegiten du. <hi rend='Italic'>Argia</hi>'n ere, bein baino geiagotan ikusirik gaude &laquo;Ebangelioa&raquo; irakurtzen dutela aurrenik, edo batzu batzuan bakarrik. Gainerontzean liburuak ez dite gose aundirik emaiten. Ezin uka diteke ordea, esan dugun bezala, neurtitzetarako itoa dela euskalduna.</p>
+<p>Ta, zer balio du literatura xarpil onek? Asko balio, gutxi balio, gizon landuak ere ez lezake burutapen sendorik ez ugaririk atera bat-batean, kanta-ala ari bear balu. Alare gure neurtizlari ikasgabe oriek, burudun baitire, izketa txanbelina ta iduripen mardula ageri ez arren, badute askotan bere funtsa edo mamia. Zear-mintzo'rako (ironia'rako) yayoa duzu euskera, gaiekoa. Bai euskaldunek ere, ta zenbait gizon landuk ez dezakena ere, gure erritar nekazari batek ba dezake gizagajoak. Ateraldi zorrotza, par-eragilea baino onetsiago duzu literaturan zear-mintzo par-irriduna. Ortan nabari dituzu gure bertsolari oriek, ta orien literaturak ere badu norbaitek uste baino gatz geiago. Besteren izkuntzara aldatu nai dunean zaina ta muina ezin alda ditezke; berekin gordetzen du euskerak, beste edozein izkuntzak bezala, bere xorroxtasuna.</p>
+<p>Gaurko bertsolarien artean aipagarri dugu Enbeita Muxikarra.</p>
+<p><hi rend='Bold'>IV. AXULAR AURREA</hi></p>
+<p>Esana da, euskalduna &laquo;eginetan luze, esanetan labur&raquo; dela, ta egiagorik ez da izan oraino. Bere gisa edo bere baitaz etzuen bear ba da oraindaino libururik argitara izanen. Errege, errege-gai ta gizon ospetsuren batzuek eragin bear izan zioten. Argatikan duzu Naparroa Barrena edo Baxenabarre euskal idazketan aurrenik.</p>
+<p>Bearrik Naparroa'ko Erregina Joana! Arek itzularazi bait zion Leizarraga'ri Testament Berria. Gure egunetantsu ere, nor dugu Biblia osoaren itzularazle? Luis Luziano Bonaparte. Napoleon'en ilobasoa, erregetarra. Duvoisin'en itzulpena ez ezen Bidasoa'z onoztikoena ere, nori zor zaio? Emen ez dugu olako Erregerik ez erregeondorik, ez jaunik izan, eta oraino Biblia osoa ez dugu euskeraratu, Bidasoa'z aindi duten bezala.</p>
+<p><hi rend='Bold'>Dechepare (1545)</hi></p>
+<p><hi rend='Italic'><foreign>Linguae vasconum primitiae. </foreign>Euskeraren leen-zituak.&mdash; </hi>Arriturik zegoen Dechepare euskaldun artean &laquo;izan baita eta baita scientia guzietan lettratu handirik..., nola batere ezten assayatu bere lengoage propriaren favoretan heuskaraz zerbait obra egitera eta skributan imeitera, zeren ladin publika mundu guzietara, bertze lengoagiak bezala hain skribatzeko hon dela&raquo;. &laquo;Bertze nazione orok uste dute ezin deusere skriba daiteiela lengoage hartan&raquo;.</p>
+<p>Dechepare'k erakutsi digu baietz argi ta garbi. Ez da biotzaldi aundiekiko poeta, baino bai leguna, itz utsik eztuna, jasoa <foreign>(correcto), </foreign>lenbizikoa ez ezik, gaurkoa ere izateko; idaztankera lasterra ta muinduna du, ebakia ta adi-erraza. Neurria erderaren <foreign>cuaderna via </foreign>maizenik, eta neurtitza amasei silabaduna, kantatu gabe mingatzeko nonbait-orkoa. Joale-antzo miin-bakarra <foreign>(monotono)</foreign> dena: orixe. Gaiari dagokiola, idaztankera ere erakustezkoa <foreign>(didacticoa) </foreign>du: <foreign>Doctrina Christiana</foreign>, Amar manamenduiak, eta a. Eutsi erakusburutako:</p>
+<p><mentioned> <hi rend='Italic'>Anhitz gendez miraz nago neure buruiaz lehenik</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>nola gauden mundu hunekin hain bortizki josirik</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>hanbat gende dakusula hunek enganaturik,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>oranokoak igorri tu oro buluzkorririk,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>eta eztute gerokoek hantik eskapatzerik.</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Person ori hil denian hirur zaiti egiten,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>gorputz ori usteltzera lur otzian egoizten,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>unharzuna ahaidiek bertan dute partitzen,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>arima gaixoa dabilela norat ahal dagien,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>hain viage bortitzean compa&ntilde;ia faltatzen.</hi></mentioned></p>
+<p>Bekaldetu bedi <hi rend='Italic'>Vuela el tren atravesando la mon&oacute;tona llanura.</hi></p>
+<p>Noizbait ere oitu du zortziko nagusia poesi'ren baten asieran. Maite leloen aurreneko neurtitzetan bi oek dakartzi:</p>
+<p><mentioned> <hi rend='Italic'>Bertzek bertzerik gogoan eta</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>nik Andre dona Maria.</hi></mentioned></p>
+<p>Bestenaz maite-leloetan ba du baten bat gordin-antza. Gai onetan biotzak ere zerbait lagunegiten dio: asko ikusia bide zen. Bere <hi rend='Italic'>Kantuia</hi>'n ere asceta-usai apurra dario, ta liriko baino moral-erakuslego ageri da. Edozein erritako leen poetak ikusiaz, Dechepare'k eluke izen ori oso-oso ostua. Aren neurtitzetatik gaurkoetara eztago Villasandino'rengandik Herrera'rengana&ntilde;o bide. Neurtitzerdiko utsartea edo ebakia ez du beti-beti bereizten.</p>
+<p><hi rend='Bold'>Leizarraga</hi></p>
+<p><hi rend='Italic'>Biblia'ren euskeratzea. </hi>Leizarraga'ren izkuntza &laquo;oraino traslationetan beintzat usatu gabea&raquo; zen (Erreginari). Gainera itzulketan zeatz ari bearra, al zuen zeatzena edo &laquo;fidelkiena&raquo;, ta etzezaken beste edozein gaietan bezala biur-gaietik aldegin. Jainkoaren &laquo;hitzari deus edeki eztakion, ez eratxiki, egin ahal dudan fidelkiena egin dudala&raquo; <foreign>(ibid.)</foreign>.</p>
+<p>Euskalkiaren bat-egiteari ere begira zion: &laquo;guziei adieraziteari iarreiki gatzaitza, eta ez xoil, edozein lekuko lengoage bereziri; eta badakigu ezen, denborarekin anhitz eta anhitz hitz eta mintzatzeko manera eridenen dela obra huntan bertzela hobeki erran zatenik&raquo; (Heuskaldunei). Bai naski, ba zekien zenbait itz eta esaera obeki esan zitezkela euskeraz, baino ala ere lardaska-samar egina da euskeratze ori: latinean dagon bezalatsu utzia. Ba dire itz eder bakar batzu, labaki zabalean zizek-antzo. Oriek ar dezazkegu iruditu txarrik eta begi-okertzerik gabe, ezpaitzion yaramon itz-berritzeari. Artaz, balio aundiagokoak. Gramatiko'ak ere euskal-aditz edo berbo'rik ugariena Leizarraga'n arki dezaket. Ez dagokot orretaz iritzi emaitea. Leizarraga'k, beraz, euskal-aditza ugaria eman digu, itzulketa lardaska, izketa erraza, errazegia, ta idaztankera ez gisakoa. Torizu erakusburu bat:</p>
+<p><mentioned> &laquo;Eta Jakobek engendra zezan Joseph, Mariaren senharra, zeinaganik yayo izan baita Jesus, zein erraiten baita Christ&raquo;.</mentioned></p>
+<p>Badakizu, adiskide: ez Maria'rengandik, Maria'ren senarrarengandik jayo zen Jesukristo, Leizarraga'k dionaz. Olako utsegite mandorik ez duzu arkituko Leizarraga baitan, baino euskera olakotsua beti. Leizarraga'ren euskeratik egun ari dugunera ba duzu bidealdi.</p>
+<p><hi rend='Bold'>Bonaparte</hi></p>
+<p><hi rend='Italic'>Luis Luziano Bonaparte: Biblia osoa euskeraz. </hi>Au ez dagokio Axular-aurreari, baino Bibliaren itzulketari dagokion apurra erabat sailtzearren eta labur-naiez emaiten dizut emen. Errege-gai Bonaparte'z ari bitez luze adina zabal mintzo-zaleak; nik literatura dizut gai, antzez idatzitakoa. Gai onetan ere zor aundia diogu euskaldunak. Laphurdi'ko euskerara zala bide ta aren diruz itzuli ta argitara zen Biblia osoa: Duvoisin duzu Biblia osoaren aurreneko euskerazale (1859 gn). Biblia zati batzuk ere itzularazi zituen Bizkaierara (Uriarte), Giputzerara (Otaegi), Baztan'go euskalkira (Etxenike), ta Xubero'kora (Intxauspe). Duvoisin'ek egin-lana Leizarraga'rena ez bezelakoa da. Eginalak egina duzu euskerara bear bezalatzen; eta euskeraren jabe baitzen, Leizarraga'rengandik Duvoisin'engana argi-urratzetik eguerdira adina tarte badago. Laborantza'ren egille onek euskera ederki derabil; baino Biblia'ren biurtzean orretaz gaindi oldar edo indarka bizkorra egin dizu. Berak itz berri anitz antolatu bear izan zituen, eta aiek oro ez dire artzekoak; baino asko ta asko euskeran sartuko direnak. Erri euskeraren ezaguera barnea zizun, eta berez ikastetsua ta lanari lotua baitzen, arek egin-lana inork ez dizu goitu oraino.</p>
+<p><hi rend='Bold'>V. AXULAR (1643)</hi></p>
+<p>Peru Axular, Naparroa'ko Urdazubi'n jaioa, ta Laphurdi'ko euskeraz idatzi zuena duzu aurki euskal-idazlerik bikainena, oraintsudaino. <hi rend='Italic'>Geroko gero </hi>edo Jainkoa'rengana biurtzeko luzamena zein kaltegarri den erakusten digu. Liburu ori ez da guzia bere buruz asmatua. Berak ere ba dio asi-aurrean: &laquo;Gogomenak, Eskritura Saindutik, Elizako Dotoretatik eta zuhurren liburuetarik Axular, Sarako Errotorak bilduak&raquo; Bein batez lagunarte on batean ari zirela, solasak ekarri zuen, etzuela deusek ere hanbat kalte egiten arimako eta ez gorputzeko ere, nola egitekoen geroko uzteak, eta on zatekeiela gauza hunetzaz liburu baten euskaraz egitea. &laquo;Konpai&ntilde;ia berean galdegin zen nori emanen zeikan liburua egiteko kargua. Eta bertze guzien artetik asi zeizkidan niri neroni aditzera emaiten lehenbizian kheinuz, eta ayeruz, eta gero azkenean klarki eta ageriz, nik behar nituela egiteko hartan eskuak sartu. Ordea nola ezpainintzen neure buruaz fida, desenkusatu nintzen ahal bezanbat. Baina alferrik, zeren hain zinez eta batetan lothu zizkidan, non ezetz erraiteko bide guztiak hertsi baitzerauzkidaten&raquo;. Lagun aiek ezagutu zuten nonbait Axular'ek zer egin zezaken. <hi rend='Italic'>Gero </hi>ori bi liburutan zatiturik egin nai zuen, &laquo;baina ikhusirik zein gauza guti edireiten den euskaraz eskribaturik, gogan-behartu naiz eta beldurtu, eztiren bideak asko segur eta garbi; baden bitartean zenbait trabu edo behaztopa harri. Eta halaian hartu dut gogo lehenbiziko liburu hunen lehenik benturatzeko, eta berri yakitera bezala aitzinerat igortzeko. Hunek zer iragaiten den, zer begitarte izaiten duen, eta nor nola mintzo den, abisu eman diazadan&raquo;. Onozkero badakigu Axular'en liburu oriek zer begitarte izan duten Euskalerria'n. Bidasoa'z aindi asko irakurria da Axular, eta Bidasoa'z onoztik, orain beintzat, irakurtzeko gogoa etorri zaye zenbaiti, ta maizago irakurtzen ezpada, liburu orien alerik arkitzen ez delako da, ta ez besterengatik. Damurik ez dugu ikusiko nai bezain laister <hi rend='Italic'>Gero</hi>'ren ekoispen edo edizione berria! Axular bezalako idazle asko izan balitu euskerak, dagon baino landuagoa zegoen onezkero. &laquo;Baldin egin balitz euskaraz &mdash;dio Axular'ek&mdash; hanbat liburu nola egin baita latinez, frantsesez edo bertze erdaraz eta hizkuntzaz, hek bezain aberats eta konplikatu izanen zen euskara ere, eta baldin hala ezpada, Euskaldunek berek dute falta, ta ez euskarak&raquo;.</p>
+<p>Urte gutxi duela idatzi zuen Julio Urkijo jaunak, Axular'en <hi rend='Italic'>Gero </hi>orren iturburuetatik bat ote zen Granada'ko Fray Luis. Granada'ren jario gutxi ageri da, Axular'en toki bakar batzuk itzez itz euskeratuak baldin badire ere. Lenbiziko zatian ez da zantzurik ere usmatzen; bigarrenean idazburu batzuk eta parrafo'ren bat besterik ez. Baino Granada'k berak ere Elizaren Gurasoengandik artzen zuen bere liburuetako gaia. Axular'ek duen guzia erderatik euskeratua balitza ere eluke gutxiago balio, ederki itzalgaiztu baitu erdera ori. Euskeraz burutatua dirudi Axular'en liburua.</p>
+<p>Gaurko irakurlea ez bijoa Axular'engana euskera garbi-garbiaren billa. Mingarri idurituko zaio ainbeste erdal-itz ikustea. Axular'en asmoa, burutapena den bezala ta argi agertzea da, ta ez dijoa igesi beste asko bezala buruan daukana adieraztetik. Asko ta asko, gaur ere, erderaren igesi dijoazela, burutapenaren igesi dabiltza. Alaere Axular'ek euskal-itz eder ugari ba du, Mendiburu'k baino ugarigo. Axular bere itzez zuzendua edo garbitua eman liteke dagon baino txukunago. Axular'en idaztankera bizia da, arraia, garbia, ta zainduna. Naiz bitxikeri edo axekarako, naiz funtsez eta gogor mintzatzeko gai dago beti. Orrek eman dio Laphurdi'ko euskalkiari bere joera ta aria.</p>
+<p>Onen atzetik etorri da idazle-sail ederra Laphurdi'ra. Laphurdiz esan diteke bere denboran Larramendi'k ziona: <foreign>&laquo;en lo impreso nos hace ventaja a todos el labortano&raquo;. </foreign>Gaur bertan ere irakurri beintzat an egiten da geienik. Geroz bai idatzi ere. Martial'ek esan zuana, alegia: <foreign><hi rend='Italic'>non scribit cuius carmina nemo legit </hi>= </foreign>&laquo;ire neurtitzak inork irakurtzen ez ba ditu, ik ez duk idazten, ez idaztea bezala duk ori&raquo;. Laphurtar guzietaz zerbait esan bear banu, luzatu eginen nitzake. Jaunenak edo buruenak bakarrik aipatuko ditut bada.</p>
+<p><hi rend='Bold'>VI. AXULARTARRAK</hi></p>
+<p><hi rend='Bold'>Joannes Etxeberri</hi></p>
+<p><hi rend='Italic'>Eskuararen hatsapenak </hi>(1712). Julio Urkijo jaunaren esku zabalari esker, irakur dezazkegu batean Joannes Etxeberri'ren idaz-lanak. Au dugu Axulartarrik gartsuena. Sara'n jaioa bera, Gipuzkoa'ko Azkoitia'n sendalari izana, Dotor edo Irakasle, euskera, frantses-erdera, gaztel-erdera, latina, gisaz erabili oi zituena. Axular'ek Jainkozko gauzetara bezala Etxeberri'k jakingaietara egoki zuen euskera. <hi rend='Italic'>Latin ikhasteko hatsapenak </hi>eskaini zizkion Euskal-erriari. Aurretik dakartzi <hi rend='Italic'>Eskuararen hatsapenak. </hi>Larramendi'k bere Iztegi'ko itz-aurrean bezalatsu, Gramatica orren aurretik emaiten ditu &laquo;euskeraren zuhurtziaren frogak, eskuara garbia dela, noblea dela, bertze izkuntzetarik ethorkirik gabekoa dela, zenbat gisetakoa den eta nondik heldu den euskaldunen mintzaira differentea dela, eta eskuara guztietan bat dela&raquo;. Mariana'ren eta beste gaizkiesaleen buruzki goraki adiarazten du, euskera gai dala ikhulurako ez ezen jakingaietan ere iardukitzeko. Larramendi'k erderaz ari izan zituen gairik geientsunak, euskeraz ari izar zituen Etxeberri'k, Julio Urkijo jaunak oarrarazten duenaz. Esanik dago onezkero, Etxeberri'ren lana kanorezkoa (importantea) dela. Karmelo Etxegarai zenak esan izan zuen, euskal-idazleak beren buruz edo beren gisa joan oi zirela, bakarturik, bata besteren berririk gabe, ta kutsurik gabe. Laphurtarretan beintzat ez dirudi ala denik, esanen dut Urkijo jaunarekin. Etxeberri'k, beste asko laphurtarrek bezala, Axular artu zuen bere buruzagitzat eta gogotik ospatu ere. &laquo;Axular, Sarako Errotora, eskuarazko autoretarik hautuena, eta famatuena&raquo;. &laquo;Egiazki Eskualherrian hau da bakharra, hanbat autoren liburuetan zauntzan gauzek arantzepetik atherarik bezala eta Theologiaren mami hautua bildurik, eskuaraz ederkienik argitara eman darokuna. Halatan beraz baderraket, eskuarazko autoretarik hau dela Aitzindaria, Buruzagia eta lehena&raquo; <foreign>(p&aacute;g. 61)</foreign>. Sara'ko euskera zekien, &laquo;Euskal-herri guzian ospe handitakoa&raquo;, eta Axular irakurri eta Etxeberri irakurri, ezin uka diteke antza badutela. Oldartu zen arloa edo larda zabaltzen. Arteraino Eliz-gauzetan bakarretan erabil zuten izkuntza, yalgiarazi zuen jakingaietara ere. Filosofoen esanak eta poeta'enak eta abar egoki euskeraratzen ditu. Laphurdi'ko literaturan ezin-utzia da Etxeberri.</p>
+<p><hi rend='Bold'>Larregi</hi></p>
+<p><hi rend='Italic'>Testamen Berria </hi>(1775). Bi liburutan eman zigun Larregi'k <hi rend='Italic'>Testament zaharreko eta berriko historioa, M. de Rayaumont-ek egin izan zuenetik berriro eskararat itzulia...</hi></p>
+<p>&laquo;Ene artharik handiena izan da, &mdash;dio&mdash; klarki mintzatzea, eskalerri guzian adituren nauten bezala. Arrazoin hunek berak erakharri nau ere bortxa eta ahalik gutiena ba da ere, lerratzerat frantseskara diren hitz batzutarat. Horra beraz zergatik, ene burua hobeki adiarazi nahiz baliatu behar izan naizen zenbait hitz bakotxez, nahiko nuen bezain eskara garbian ez direnez&raquo;.</p>
+<p>Alaere egungo euskaldunak ez luke alperrik irakurriko Larregi'ren historioa. Ez du euskera garbi-garbia; baino ez mordoiloa ere.</p>
+<p><hi rend='Bold'>Haraneder</hi></p>
+<p><hi rend='Italic'>Testament Berria </hi>(1740-1855). Aspaldi irakurri nituen Haraneder'en xati batzuek Arbelbide'ren liburu eder batean: <hi rend='Italic'>Jainkoaren Deia</hi>'n. Noizbait ere nere eskuetara da Haraneder'en <hi rend='Italic'>Testament Berria </hi>bera. Eun urte ta geiagoren 1740'tik 1855'raino argitara gabe egon izan zen. Dassance'k eta Harriet'ek argitarazi zuten. Laphurdi'n baditute lau Evangelioen itzulpen ederrak; baino katolikoetan Haraneder'ena da aurrena, Leizarraga protestanta baitzen, alegia. Euskera ederra, ugaria, garbia du. Itz bakar batzuk berritzen ere ditu. Mingarri da, euskal-libururik geienetaz esan ditekena onetaz ere esan bearra. Nork erabil dezake eskuetan? Nork ezagutzen du? Damurik, ez euskaldunik geienak!</p>
+<p>Haraneder'ek berak euskeraratu zituen S. Prantzisko Sales'koaren <hi rend='Italic'>Philotea, </hi>(1749) eta Scupoli'ren <hi rend='Italic'>Gudu izpirituala </hi>(1750). Atsegin aundiz irakur ditezke. Bakantxo arkituko dire Euskalerria'n.</p>
+<p><hi rend='Bold'>Arbelbide</hi></p>
+<p><hi rend='Italic'>Jinkoaren Deia edo bokazionea </hi>(1887) eta <hi rend='Italic'>Igandea edo Jaunaren eguna </hi>(1895), ditu Arbelbide Kalongeak, ezagutzen dugunik. Bi liburu oriek mami utsa dire, bururen buru irakurri arteraino betarik eta egonik emaiten ez dutenak. Euskalki edo dialektoak zerbait naasten dituela, egia; baino barkakizun da orregatik.</p>
+<p>Arbelbide'ren aitzin-solasak ere ongi burutatuak eta mintzo ederrean esanak dire. Irakur bedi batez ere A. Yoannategi'ren Sainduen Bizitzeen bigarren liburuari eman zion aitzin-solhasa. Erabiltzez eta erriz baino areago zekien euskera liburuetako ikastez, eta ala ba ditu utsegintxo batzuk aditza edo verbo'an.</p>
+<p>Esan dezagun aspertu gabe: euskaldun askok ezagutzen ote ditute liburu eder oriek?</p>
+<p><hi rend='Bold'>Yoannategi</hi></p>
+<p>Au dut euskal-idazleetan maiteena. &laquo;Eskuara ederrarengatik aipatuak diren liburu batzu&raquo; irakurri izan zituen bere orien antolatzeko, ta &laquo;herriz herri ibili ere hai (herria) nola mintzo den&raquo;. Geroz Aita Yoannategi'ren <hi rend='Italic'>Sainduen Bizitzeak, </hi>ederki idatziak izaiteko bidea badute. 1876'garrenean argitara zituen <hi rend='Italic'>Ehun bat Sainduen Bizitze, </hi>eta gendea geiagoren eske zegokion. Idazkera biguina, ixurbera, argia du. Ondikoz!, aren liburuak ere ez dabiltza edozeinen eskuetan; baino bein eskuetara ezkero, txoratzen du Yoannategi'k. A. Yoannategi, Beneditanoa, Sara'n Bikario izana, erriz euskaldun ona ta ikastez ez motela. Laphurdi'ko idazleen guna ta mamia berekin du. Euskera garbia, baino adi-erraza. Iketa edo toketa egoki derabil. Sainduen Bizitzetan Garagarrileraino iritxi zen. Andik aurrerakoa nik ez dut beintzat ikusi, ta bietatik lenbiziko liburua agortua dela badakigu.</p>
+<p><hi rend='Bold'>Intxauspe</hi></p>
+<p>Intxauspe apaiza, Xuberotarra, gero Kalongea, euskal-idazlerik landuenetakoa izan duzu. Bonaparte'ren aginduz S. Mateo'ren Evangelioa poliki euskeraratu zuen. <hi rend='Italic'>Jesukristen imitazionea </hi>(1883) itzuli zigun, eta beste liburuto ta aitzinsolhas edo itzaurre batzuk ere bai. Mariaren hilabethia duzu nere aburuz Xubero'n ez ezen Euskalerria'n den libururik aipagarrienetakoa idaztankeraz. Ez dut uste euskera zaintsuagorik, muindunagorik, gauzek labur eta indarrez esaiteko ta barne sarrarazteko euskaldunagorik oraindaino idatzi denik.</p>
+<p>Alaere beste lan batengatik aipabide aundiago duela iduri zait. Intxauspe'k atera zigun 1864'garrenean Axular aundiaren irugarren ekhoizte edo argitarapena, ta ari esker irakurri nuen aurrenik, gerokoan bigarrena arkitu ba dut ere. Aitzin-solhasean ageri da Intxauspe zen bezalako idazlea. Norbaitek gaitzitu dio Axular aldatuxe egin duela lenbiziko argitapenetik; baino onetan bere burua garbitzen du Intxauspe'k: &laquo;guti tokitan behar izan dugu Axularen mintzalia estali, aphaindu edo aldatu, orainko yenden delikatutasunagatik. Axular'en denboran, bai erdaraz, bai euskeraz, orai baino librokiagi eta nasaikiago mintzo ziren; gauzen bere izenaz deitzeaz nehor etzen asaldatzen. Oraiko azturak, nahiz eztiren ordukoak baino hobeago, ez garbiago, bai ordea, minberago dira beharriak; eta benturaz gogoa ere gaizkiaren phentsatzera zalhuago ta lasterrago. Minberatasun horren ariaz eta amoreakatik arima garbienek probetxuekin irakur ahal dezaten Axularren liburu ederra, garbitu, leuntu eta aphaindu ditugu lekhu harro, zakar, eta gordinegi zirenak; alabaina osorik uzten dugularik Axularren lanegina&raquo; <hi rend='Italic'>(Aitzinsolhasa, </hi>IX).</p>
+<p>Axulartarra da Intxauspe ere, <hi rend='Italic'>Gero </hi>aipatua gogoz irakurria. Etxeberri'rekin goraipatzen digu Axular euskal-idazleen tuturruraino. &laquo;Baditake, guztiarekin, euskara eskiriba daitekeiela Axularek iskiribatu duen baino arthezkiago; baina nork erranen du mintza ditekela hobeki? Hunetan guztien, bai lehenekoen, bai oraikoen, nabusi eta buruzagi da Axular. Nehork ez du hain ederki, hain garbiki, hain la&ntilde;oki eta hain ugariki euskara mintzatu. Guziek behar diogu gure burua biluzi, agur egin eta nabusi ezagutu&raquo; <hi rend='Italic'>(Aitzinsolhasa, </hi>X).</p>
+<p>Euskal-aditza edo Verbo'a ta beste lanik ere badu Intxauspe jaun jakintsuak; baino orain enaiz Gramatico-etaz ari.</p>
+<p><hi rend='Bold'>VII. ORAINGO IDAZLE LAPHURTARRAK</hi></p>
+<p><hi rend='Bold'><hi rend='Italic'>Eskualduna </hi>ta <hi rend='Italic'>Gure Herria</hi></hi></p>
+<p>Ez gaizteke nasai mintzo gurekin bizi direnetaz. Bertanegi daude, begien ondoegian aiei bear bezala begiratzeko. Laphurdi'n badituzu gure artekoetan bai lenagokoetan ere idazle ugarigo; baino ez dugu luzatu nai. Kalonge, apaiz, mediku ta abar, oraindaino bezala ederki ari dire orain ere. Laphurdi'ko euskalkia landuxe dute ta lantzeari darraizkio. Baiona'ko astekari <hi rend='Italic'>Eskulduna</hi>'n amika mintzaldi goxo irakur diteke berrogei-garren urte ontan. Oraintsu zazpi urte duela asi den <hi rend='Italic'>Gure Herria</hi>'n ere or ari dituzu idazle apainak. Ez ditugu denak aipatuko; aisa itzuriko digute bakarren batzuk. Barka bezate. Nik ezagutzen dizkizut Adema osaba-ilobak (osabaz geroago ariko naiz), Daranatz naiz itz neurrigabeetan naiz neurtuetan bizkorra ta biziki euskalduna; Hiriart, asteroko <hi rend='Italic'>Eskulduna</hi>'n Ebangelioa agertzen duena; Barbier, <hi rend='Italic'>Ama Birjina Lurden, Supazter Xokoan </hi>eta <hi rend='Italic'>Piarres</hi>'en egile bikaina, ta klopari ere garaia; Otxobi (Moulier) alegi arinen, zailuen, gazien jabea; Anxuberro (Saint Pierre) <hi rend='Italic'>Eskualduna</hi>'ren zuzendaria, ainbeste mintzaldi eder egin dituena. Zerbitzari'k dio <hi rend='Italic'>Gure Herria</hi>'n: &laquo;Euskal-herrian egundaino izatu ote da Axular eta oro barne olako idazlerik?&raquo; (Ilbeltz-Otsail, <foreign>pag. </foreign>70). Zerbitzari bera, (Elissalde), orien ondo ondokoa; Etxepare ta Constantin sendagileak, beren euskalkian ager nabari direnak... Bidasoa'z aindikoak barkatuko al didate besterik aipatzen ezpadut. Euskaltzaindia'z mintzatuko naizenean beste bakar batzuk izendatuko ditut.</p>
+<p><hi rend='Bold'>VIII. LAPHURDIKO POETA LANDUAK EDO ERDI-LANDUAK</hi></p>
+<p><hi rend='Bold'>Oihenart (1657)</hi></p>
+<p>Gizon landua ta asko-jakina duzu Oihenart. Atsotitzak edo errefrauak biltzen ari izan zelako esker onik eman bear diogu euskaldunak. Baita ere poeta landuxea izanik, neurtitz politak utzi zizkigulako. Etxepare baino landuagoa, zailuagoa, arinagoa. Maite-leloetan ari izan zen maizenik. Baditu burutapen ugari, erderatik artu arren, euskerara ederki egokitzen dituenak. Bein edo bein bere-berezko burutapena bide du. Maitearen eskuetaz dio:</p>
+<p><mentioned> <hi rend='Italic'>...eskua argi</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>nola arroltze berri erruna.</hi></mentioned></p>
+<p>Eskua argi, arroltze errun-berria bezala. Euskal-yoskerarik eztute neurtitz oek, baino arruntean bai Oihenart'enak.</p>
+<p><mentioned> <hi rend='Italic'>Ortzak aintzintzen txuriz</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>e (do) zein esne ixurkorri</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Gainerakoz bihotza</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>ala utritxa ala ordotsa,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>duen, isterbegiak</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>porogatuz biotsa.</hi></mentioned></p>
+<p>Gainerakoz, biotza urritxa (ezi-bera) duen ala ordotsa (ezi-kaitza), arerioak progatutakoan esan beza.</p>
+<p>Biblia'ren usaia ere ba dario noizpenka.</p>
+<p>Neurketa Dechepare'k baino banakoitzagoa: zortzi silabaduna naiz bere bera, naiz zazpikoarekin naaste badarabila; zazpikoa ere bai, seirekoaz, naiz zazpikoaz antai bedi ahapaldia. Bost silabadun neurtitz lo-argarria ere oitu zuen. Atzenik gerka-lati&ntilde;en Asklepiade-ahapaldia euskerara aldatu zigun, edo antzekoa.</p>
+<p><mentioned> <hi rend='Italic'>Gau-egun goiz-arrats, edate-yatean</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>ebilte-gelditze, yaikite-etzatean</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>zuzaz dizut pensamendu</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>ene penen luzamendu.</hi></mentioned></p>
+<p>Gaur den egunean ere lanik aski Oihenart'en neurtitzak baino legunagorik, landuagorik, jasoagorik egiten. <foreign>Notitia utriusque Vasconiae </foreign>latinez baitago, besterentzat igorriko dizut, euskal-arloari nagokala. Latina ere landuxkoa zizun Oihenart'ek eta ez da atrigarri euskal-idazle bikaina izan izatea.</p>
+<p><hi rend='Bold'>Elizamburu</hi></p>
+<p><hi rend='Italic'>Nere etxea edo laboraria </hi>(1860-65). Etxe-jaun eta nekazari, aiten aitek aukeratutako lurra lantzen ari dena, deusen ments ez dena, mintzalari goxoa ta garbia, &laquo;eskualdun fededun&raquo;... poeta-gai dela igarri dikioke. Etxea ta etxekoak maite, ta Jainkoaren itzalean bizi, zer zoriona! Zorion ori argi nabari da <hi rend='Italic'>Nere etxea edo laboraria </hi>deritzon poesian. Ardandegietan ere entzun izan ditugu ahapaldi batzuk, euskaldunak poesia'rako axolkabe ez direla ilargiarazteko. Ain ezaguna ta luzexkoa delako ez ditugu osotara aldatuko; bai orde ahapaldi batzuk, baliteke guzi-guziak ez ezagutzea-ta.</p>
+<p><mentioned> <hi rend='Italic'>Ikusten duzu goizean</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>argia hasten denean,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>menditto baten gainean</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>etxe ttipitto aitzintxuri bat</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>lau haitz handiren artean,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>iturri&ntilde;o bat aldean,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>xakur xuri bat atean?</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Han bizi naiz ni bakean.</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Naiz ez den gaztelua,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>maite dut nik sorlekhua,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>aiten aitek hautatua.</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Etxetik kanpo zait iduritzen</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>nonbait naizela galdua;</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>nola han bainaiz sortua,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>han utziko dut mundua</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>galtzen ez badut zentzua.</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Etxean ditut nereak</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>akhilo, aitzur, goldeak,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>uztarri eta hedeak.</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Yazko bihiaz ditut oraino</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>zoko guziak beteak;</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>nola iragan urtheak</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>ematen badu bertzeak</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>ez gaitu hilen goseak.</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Landako hiru behiak</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>esnez hanpatu dithiak</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>aratze eta ergiak;</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>bi idi handi kopetazuri</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>bizkarbeltz adar-handiak,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>zikhiro, bildots guriak,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>ahuntzak eta ardiak,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>nereak dire guziak.</hi></mentioned></p>
+<p>Bere onek ba ditu beste poesi onesgarri zenbait; nik dakizkidanetan <hi rend='Italic'>Aingeru bati </hi>ederrentsuna, begirapenaz eta maitez ihiztatua.</p>
+<p><hi rend='Bold'>Salaberri</hi></p>
+<p><hi rend='Italic'>Solferino'ko itsua </hi>(1864). Oso osorik aldatuko dizut ezpaituzu aurki ezagutuko, Solferino'ko gudu-jasan begietako argia galdu zuen Salaberri aren neurtitzaldi txoragarria. Ortatik igarriko diozu itsu onek poeta izenik merezi ote duen, eta euskeraz zenbait barnerik eta samurrik adiarazi ote diteken.</p>
+<p><mentioned> Harmen hartzera deitu ninduen gazterik zorte etsaiak</mentioned></p>
+<p><mentioned> Urrundu nintzen, herri alderat itzuliz usu begiak,</mentioned></p>
+<p><mentioned> itzuliz usu begiak.</mentioned></p>
+<p><mentioned> Zorigaitzean baitut ikusi Zolferino'ko hegia</mentioned></p>
+<p><mentioned> alferretan dut geroztik deitzen iguzkiaren argia,</mentioned></p>
+<p><mentioned> iguzkiaren argia.</mentioned></p>
+<p><mentioned> Nihoiz enetzat ez da jaikiren goizeko argi ederra,</mentioned></p>
+<p><mentioned> zeru-gainetik nihoiz enetzat dirdiraturen izarra,</mentioned></p>
+<p><mentioned> dirdiraturen izarra.</mentioned></p>
+<p><mentioned> Bethiko gaua, &#161;gau lazgarria!, begietara zait jausi,</mentioned></p>
+<p><mentioned> ene herria, ene lagunak nihoiz ez behar ikusi...</mentioned></p>
+<p><mentioned> nihoiz ez behar ikusi.</mentioned></p>
+<p><mentioned> Ene amaren begi samurrak bethiko zaizkit estali,</mentioned></p>
+<p><mentioned> maite&ntilde;oaren begithartea behin bethiko itzali,</mentioned></p>
+<p><mentioned> behin bethiko itzali.</mentioned></p>
+<p><mentioned> Ez aipha niri landa hegitan sortzen den lili ederra;</mentioned></p>
+<p><mentioned> othoi, ez aipha ur-axalean arinik doan ainhara,</mentioned></p>
+<p><mentioned> arinik doan ainhara.</mentioned></p>
+<p><mentioned> Larrainetako haritz gaztaina, mendietako ithurri,</mentioned></p>
+<p><mentioned> oriek oro enetzat dire amets histu bat iduri,</mentioned></p>
+<p><mentioned> amets histu bat iduri.</mentioned></p>
+<p><mentioned> Herriko bestan gazte-lagunak kantuz plazara doazi,</mentioned></p>
+<p><mentioned> eta ni beltzik etxe-zokoan irri egiten ahantzi,</mentioned></p>
+<p><mentioned> irri egiten ahantzi.</mentioned></p>
+<p><mentioned> Oraino gazte, gogoz ez hoztu, eta biziak lotsatzen?</mentioned></p>
+<p><mentioned> Dohakabea! Zer eginen dut Juanak ez banau laguntzen,</mentioned></p>
+<p><mentioned> Juanak ez banau laguntzen!</mentioned></p>
+<p><mentioned> Ai aski hola! Jainkoa barka! Begira zure haurrari;</mentioned></p>
+<p><mentioned> kontsolamendu zerbait emozu; noizbait duzun urrikari,</mentioned></p>
+<p><mentioned> noizbait duzun urrikari.</mentioned></p>
+<p><hi rend='Bold'>Etxaon</hi></p>
+<p>Ondikoz!, ez dut ezkuetara Etxaon, Euskalerriko Verlaine delakoa, ta ez dezazuket ezer esan. Aski esan ez ba dizut, orizu bein geiago: euskaldunak arlote izan zirela idazteko; gu arloteago irakurtzeko edo beintzat berriro aien idaztiak argitaratzeko.</p>
+<p><hi rend='Bold'>Artxu, Goietxe, Otxobi</hi></p>
+<p><hi rend='Italic'>Alegiak edo fableak. </hi>Leenbiziko biek Lafontaine ta Samaniego artu zituten euskeraratzeko; irugarrenak bere buruz ere asmatu ditu. Artxu erderari lotuegia bere itzulpenetan; Goietxe eskukoago duzu. Bien-ala-biek esan dudanaz ez biziki aipagarriak. Otxobi'k aldiz, alegi arinak, arraiak, maitagarriak atera ditu. Neurtitza leguna du aingirea antzo, zailua basauntzaren gisa, mintxoa musika bezala, Xubero'ko dantzariek bezain jauzilaria ta biguina. Irakur <hi rend='Italic'>Bi garratoinak </hi>esaterako. Ez dizut esanen Esopo dunik burutapenaz, ez itz beteaz eta laburrez alegietan. Biziki erraz da neurtitzetan ari izan ezkeroz alfer-itzen bat jariotzea &mdash;Esopok etzuen neke onenik izan, ez paitzituen neurri&mdash; ta bein edo bein edatuxego ari duzu gure Moulier; baino ez duzu berritxua, ez burugabea. Oraindainoko alegi-idazleak goitu dituela nago.</p>
+<p><hi rend='Bold'>Adema Zaldubi</hi></p>
+<p>1907'garrenean aldegina dugu mundu ontatik euskaldun begi begiko au. Ezinutzia da naski poetaetan, eta Lafontaine euskalduna izendatua; baino edozein aritarako ere biguina duzu: irakasteko, beroarazteko, irri eginarazteko.</p>
+<p>Lau zatitara ditezke aren poesiak: Katiximako kantak; Eliz-kantak; alegiak; beste gisako poesi batzuk. Euskera garbia dizu, yayoa, erraxa, bakuna, funtsezkoa edo itz alferrik gabea, leguna, erritarra. Gogoetarik goraenak eta biotzaldirik bizkorrenak gisaz agertzen ditu. Aindiko Euskalerri osoan kantatzen ditute Zaldubi'ren kanta batzu-batzuk. Neurtitz ederretan adiarazten zituen erlisioneko egiak eta nahikariak. Euskaldunik beroenetakoa, gure oikuntzen eta mintzoaren aldezkari goria: &laquo;mintza gaitezen euskuaraz; iskriba dezagun eskuaraz&raquo;.</p>
+<p>Badakit idatzi zuela gainera itz-neurketaz edo bertsoetaz, Eliz-himnoen neurriarekin euskal neurtitzena bekaldetzen zuela. Berak agitz yaioki egoki zuen Asklepiade-neurtitza gure izkuntzara. Ikus <hi rend='Italic'>Jesusen azken-afaria.</hi></p>
+<p><hi rend='Bold'>IX. LARRAMENDI TA BERETARRAK</hi></p>
+<p><hi rend='Bold'>1. Eliz-idazleak</hi></p>
+<p><hi rend='Bold'>Larramendi</hi></p>
+<p>Gogora beza irakurleak sarreran esan duguna: Larramendi euskal-idazle ez ta idazarazle dela. Ederrago ba derizkiozu, Mariana ta Mayans eta Ebro'z aindiko erdaldunak eragin zioten euskera erdi-galduari. Izkera &laquo;totela ta lazkarra&raquo; ginuela; erderatik artu ginuela geren izkuntza, gure jabetasunaren ardiesteko; erri asto bat ginela, <foreign>&laquo;asna naci&oacute;n&raquo;, </foreign>eta olako astakeri oriek esnarazi zuten euskera. Mingarria da Larramendi'k euskeraz geiago ez idatzi izaitea. Argitaratzeko neke aundia zela dio garai artan, eta ala izan bear zuen ere. Erderaz iarduki zuena euskeraz iardukitzen alegin balu J. Etxeberri'k bezala, euskerak indar aundiagoa artuko zuen bear ba da. Bear ba da diot, alegia, idatzi ta ere ezpaitzuten irakurriko erdaldunak gure izkeraren alde esaten zuena, ta ez euskaldunak ere: orain bertan ere neke baita irakurtzea.</p>
+<p>Larramendi'k Aita Mendiburu'ri Jesusen Biotzaren debozioa euskera ederrean idatzi zuelako, gutun sutsu bat egin zion, gero itzaurretako argitara zutena. Orixta bat edo beste xurixtatzen ba dizkiogu, gaur den egunerako ere ez du lotsarik &laquo;Garagorri&raquo; edo Larrramendi'ren euskerak. Ona zer diotson Aita Mendiburu'ri:</p>
+<p>&laquo;Beste batzuek dituzu gure Euskeran nai ez lukeenak beste izkundeetatik iztxo bat ere; eta onen bidez epaitzen eta ziatzen bezela dira jolasean. Bestelako ergelkeria! Etzaiteala zu malmeti. Euskerari eransi zaizka gaztelaniatik, lati&ntilde;etik, edo beste izkundeetatik itz asko, ba&ntilde;o adituaz ta oituaz, euskerazkoak bezi&ntilde; ongi aditzen diranak; eta oiek utzi bear eztitugu, ta bear ba da noiz edo berriz obeko da onelakoak usatzea euskerazkoak ba&ntilde;o, batez ere Eliz-gauzetan ta gure animen salbazioari dagozten egikarietan. Lajatuko ditugu erbesteko itz oriek, nai badegu, gure euskerarenak pixkabana usatuaz ta erabiliaz, eskukoi ta jaki&ntilde;ak egingo diranean. Ongi egin dezu Naparroako itzen batzuek ekartzea, egokiak diranean, eta besterik eztanean; zeren lenbizian ta bat-batetan aditzen ezpadira ere, aurki adituko dira ta geienak dagoneko aditzen ere ba dira; ta ala euskera bide batez edertzen ta ugaritzen da&raquo;.</p>
+<p>San Agusti&ntilde;en goraipamena ez dakit ezagutzen ote duzun. Goxo ez ezen zorrotz ere ari da Larramendi mintzaldi artan, <foreign>&laquo;ens ut scio&raquo; </foreign>eta beste filosofietarako euskera gai dela erakutsiz. Idaztankeraz ezpada ere, bere eragitez, eta bere Gramatika'rekin eta Iztegia'rekin Irakasle ta buru izan da Larramendi oraintsuraino.</p>
+<p><hi rend='Bold'>Mendiburu</hi></p>
+<p>Euskal-idazlerik oberena au uste dute zenbaitek eta Cicero euskalduna izena ipini diote. Axular'en ondo-ondoan beintzat tokia merezi du. Euskera garbiagoa du Oyartzuarrak Urdazubiarrak baino; ez orde ugariagoa. <hi rend='Italic'>Jesusen Biotzaren debozioa </hi>(1747) Aita Croisset'ek prantsesez egindakotik egoki zigun euskerara; ez itzuli. Au da Mendiburu'ren libururik bikainena idaztankeraz eta euskalkiz. Eman zizkigun gainera beste iru liburutan <hi rend='Italic'>Otoitz-gaiak </hi>(1759) ikaskizunez eta azkuz beteagoak. Orkaiztegi zenari esker, gaur irakurri dezazkegu euskaldunak erraz. Irakurgaiak, bi liburu, oraindio argitara gabe daude, ondikoz! Euskeraren garbitzen orainotsu ez da Mendiburu'k adina alegin duenik. Urrena, biotzez ari da, ta maitagarri agertzen du bere burua; Jainkotiarra ta sutsua, duzu; idaztankera berdin-antza du beti. Irakurgai orien begira gaude; eztakigu noiz argitarako diren.</p>
+<p><hi rend='Bold'>Kardaberaz</hi></p>
+<p>Euskera ez du garbia, erderakeri asko, ta idaztankera ez euskaldunak geienaz. Oso gizon Jainkotia zen eta Santutzat zedukatena. Bere burubide ta burutapenak oso erderaz ernatzen zituen eta euskeraz ezin esan; baino ala ere euskal-idazle gisakoa ziteken euskaldun biziera gai artu balu. Santa Monika'k aurtzaroan izan zuen okerkeritxo bat (edari-zalea), ta baserritar baten eriotza, zer poliki idatzi zituen! <hi rend='Italic'>Euskeraren berri onak </hi>irakurri ba ditugu, an daukazu euskaldunai &laquo;Andre donostiarraren erretorika&raquo; ta &laquo;Andre Elorrioarraren erretorika&raquo;. Gainerakoz zeru-gaietan ari izan zen, eta Euskalerria'n onik ugari egin ere bai, jende xumeari ez ezik apaizai ere, euskeraz bear bezala ari zitezela esanaz. &laquo;Sazerdote Jaunen Ministerio Sagraduetan euskeraz baizik emen egin ta esan bear ez dala. Ta lengo aitzakiarik orain edolarik ez dute askok: bada Aita Manuel Larramendi'k neke gogor ta estudio esan al ba&ntilde;o aundiagorekin, ezin izango ta ezin egingo zan bere <hi rend='Italic'>Arte</hi>'a egi&ntilde;ik, ezi&ntilde;ak eta nekeak lazki garaitu zituen, ta ori ta bere <hi rend='Italic'>Iztegi </hi>edo <foreign>Diccionarioa </foreign>Maisuak bezala eman dizkigu&raquo;. Liburu asko eman zizkigun Kardaberaz'ek: politena aurki <hi rend='Italic'>Euskeraren Berri onak, </hi>eta <hi rend='Italic'>Ondo eskribitzeko ondo irakurtzeko ta ondo itzegiteko Erreglak, Cura Jaun eta eskola-maisu zelosoai, Asteteren Dotri&ntilde;a </hi>(1760?); <hi rend='Italic'>Kristauaren bizitza </hi>(1744; bir. 1790); <hi rend='Italic'>Euskeraren berri onak </hi>(1761); <hi rend='Italic'>Ejerzizioak </hi>(1761; bir. 1790); <hi rend='Italic'>Aita San I&ntilde;azioren bizitza </hi>(1790; bir, 1824); <hi rend='Italic'>Ondo iltzen ikasteko </hi>(1762; bir 1765; irur 1787; laur 1816); <hi rend='Italic'>Jesus Maria ta Joseren debozioa </hi>(l766); <hi rend='Italic'>San Isidro ta bere emazte Santua </hi>(1766; bir 1885); <hi rend='Italic'>Meza eta Comunioa </hi>(1782), lauretan argitaratua; <hi rend='Italic'>Eskuliburua </hi>(1889); <hi rend='Italic'>Ama Josefa'ren bizitza </hi>(1882) eta beste apurren batzuk. Ejerzizioen bigarren partea (1865); irugarren partea (1761); laugarren partea (1765). Geienak agortuak bide dira.</p>
+<p><hi rend='Bold'>A&ntilde;ibarro</hi></p>
+<p><hi rend='Italic'>A&ntilde;ibarro ta Zarauz'ko Prantziskotarrak. </hi>Zarautz'en badugu Komentu bat Euskalerria'ren eta euskeraren alde lan poliki egin diguna. A&ntilde;ibarro ta Ubillos ta Zabala daduzkat orain gogoan. A&ntilde;ibarro bizkaitarra, Arratiarra izanik, beste euskalkiak ikasten ere alegina egin zuen. Laphurdi'ko euskeratik Bizkai'kora aldatu zigun Axular'en <hi rend='Italic'>Gero, </hi>ta bere Iztegitxoa antolatu ere bai, argitara ikusi ezpadugu ere. <hi rend='Italic'>Esku-liburua </hi>du idaztankeraz baliotsuenik (1802); euskera ere garbia, landua, ugaria. Euskal-eliz-liburuetan bai politentsuna, txiki samarra dena. <hi rend='Italic'>Lora-sorta </hi>aldiz, ez dirudi batena; erdalkeriz josirik dago. Bi liburutxo oriek erderatik artuak dire: lenbizikoa Pinamonti'rengandik eta bigarrena Aita Palacios'engandik.</p>
+<p><hi rend='Bold'>Agirre ta Bartolome</hi></p>
+<p><hi rend='Italic'>Agirre'ren erakusaldiak eta Bartolome'ren ikaskizunak. </hi>Asteasu'ko Erretore Juan B. Agirre'k anima gauzetan ederki ari izan zuen euskera. Moral-gaia oso osorik lati&ntilde;etik euskerara zuen eta Eliz-gauzetan beretan ere euskeraren landa zabaldu zigun.</p>
+<p>Idaztankera argia, izkera erraza, garbia, irakurriago ta maitagarriago dena. Euskeraz ere ikasia zen eta laphurtarren jario apurra ba duela emaiten du: argitasunez beintzat bai.</p>
+<p>Onekin bereiz ipini bear dugu Santa Teresa'ren Aita Bartolome, Marki&ntilde;a'ko Karmeldarra, gai onetan berean ari izana, ez Agirre bezain edatuki, bai orde sakonago ta beroago. Idaztankera ez du Agirre'k bezain jasoa ta txukuna, baino indartsuagoa ta etorritsugoa. Euskera baldanagoa du bai, baino gaur bertan ere onturrez irakurri diteke. Agirre'ren iru liburu gizenak ez dabiltza edozeinen eskuetan eta euskaldunak eztakit bear adina ezagutzen dituten. Bartolome ere aditzeaz bakarraz idukiko dute batzuren batzuk gogoan.</p>
+<p><hi rend='Bold'>Lardizabal</hi></p>
+<p><hi rend='Italic'>Testamentu zarreko ta berriko Kondaira, </hi>nork eztu ezagutzen? nork eztu irakurri bein baino geiagotan? Biblia'ren laburpen polita egin zigun euskera eder, garbi, ugari askian. Gipuzkoa'n noizbait ere maiz irakurtzen zen. Orain eztakit ainbeste. Gramatika-lanetan ere jakintsua zen.</p>
+<p><hi rend='Bold'>Arrue</hi></p>
+<p>Langile bikaina bide zen, ogeitamar urtez euskera-lanetan. Asko ta ederki idatzi edo euskeratu zuen Mazo'ren dotri&ntilde;a euskeraz (1858); <hi rend='Italic'>Esku-liburua </hi>(1863); <hi rend='Italic'>S. I&ntilde;azioren hizitza </hi>(1866); <hi rend='Italic'>Santa Genoveva'ren bizitza </hi>(1868); <hi rend='Italic'>Villacastin'en Meditazioak </hi>(1880); <hi rend='Italic'>Mariaren Gloriak </hi>(1881); <hi rend='Italic'>Salbazioko aingura </hi>(1883); <hi rend='Italic'>San Alfonso'ren bisitak </hi>(1887); <hi rend='Italic'>Maiatzeko illa </hi>(1888); <hi rend='Italic'>Beargillearen argia </hi>(1897). Baino nere ustez <hi rend='Italic'>Jesukristoren imitazioa </hi>du libururik onuratsuena euskerarentzat. Gaur bertan ere, errirako beintzat ez dut uste oberik denik. &#161;Agortua da zorigaitzez!</p>
+<p><hi rend='Bold'>Beste eliz-idazle batzuk</hi></p>
+<p>Luzatu eginen nitzake ain kanorezko eztiren idazleetaz bakoizka ari bear banu. Ubillos, Mogel, Astarloa, Otxoa Arin, Etxeberria ta abar, ez dire ain aipagarri gure Eliz-literaturan. Laphurdi'n ere asko utzi ditugu, ta ez al dire muturtuko Bidasoa'z oneindikoak, edesti labur batean bakoitzari leku aisen emaiten ezpadiogu.</p>
+<p><hi rend='Bold'>2. Mogel ta Iztueta</hi></p>
+<p><hi rend='Bold'>Mogel</hi></p>
+<p>Bizkaia'n ez ezik Euskalerria'n argitara den libururik ederrenetakoa da <hi rend='Italic'>Peru Abarka </hi>(1881). Euskal-biziera gai artu zuen, eta orregatik zaigu zalegarriago. Peru nekazari, eskolagabea, euskeraz besterik eztakiena, Maisu Juan sendagilearekin ariarazten du. Peru ederki bezain Maisu Juan gaizki mintzatzen da. Gure Basarteko Irakasleak erakusten dizkio Maisu Juan'i ta guri ola, errota, eundegi, ardandegi ta gainerako lantegietan eta bildegietan diren gauzak eta itzak. Esaera, oikuntza, neurtitz, atsotitz eta olakoak edertzen dute liburu au. Atzenean eratxiki ditu lati&ntilde;eko itzulpen batzuk: Curtius, Salustius, T. Livius, Cicero, ez ditu oso motel ari euskeraz. Izkera apaina, bizia, etorria, ugarria ta egokia du.</p>
+<p><hi rend='Bold'>Iztueta</hi></p>
+<p><hi rend='Italic'>Gipuzkoako dantzak </hi>ainbesteko balioa ba dute (1824) alegin edo oldar bizkorra adiarazten baitute euskera jakin-gaietara ere edatzeko. Etxeberri'ren urrena ez du gutxi egin Iztueta'k. Dantza orien antz-egitea edo deskriptioa ez da gauza erreza, ta argatik euskera gogor-antza du batzu-batzutan; berak asmatu-itzak ere bai usu-samar; bai aspaldi-itzak ere, Axular eta beste euskaldunengandik artuak. <hi rend='Italic'>Gipuzkoako Kondaira </hi>(1847), bere zartzaroan egina, idaztankeraz ixurberagoa da ta apain askia. Au ere jakin-gaietaz den ezkeroz, gogoangarria da euskal-literaturan, eta gai ontan aurren-lana, nik dakidanaz. Itz eta esaera ugari bildu ditezke an emen. Euskalerria barne-barnetik maite zuela ikusi dezazuke. Biotzaldi beroekiko gizona, irakurlea ere beroazten duena da. Irurogeita emezortzi urte zituen azken- lan ontan ari zelarik; baino biotza gazte zedukan ala ere. Euskalerria'k bere mendi, ibia, zuaitz, iturri, eize, arrain eta abar-ekin; Euskaldunak bere erlijio, oikuntza, lan, josteta, gizon gogoangarrien egite ospetsuekin, gai zabala eman zioten.</p>
+<p>Neurtitzetan ere ari izan zen Iztueta. Garai artan eta aurretik ere ez da ageri Gipuzkoa'n biotzez ua adinekorik Bilintx'en egunetaraino. Gure poeten neurtitzak or dabiltza birri-barra niora bildu gabe, ta ez da errez edozeinek irakurri izaitea. Iztueta'renik <hi rend='Italic'>Kontzezi'ri </hi>egin ziona bederen ezagutzen bide duzu: <hi rend='Italic'>&laquo;Maite bat maitatzen det maitagarria&raquo;. </hi>Biozmin barnea du bere emazte-gaiari egindako poesi onetan. Poeta gaia zen inolaz ere Iztueta, bere burua lantzeko bidea izan balu.</p>
+<p><hi rend='Bold'>3. Lore-jokuak</hi></p>
+<p><hi rend='Bold'>Euskal-Erria</hi></p>
+<p>1879'garrenean euskaldun bero Manterola'k irasi zuen Revista <hi rend='Italic'>Euskal-Erria </hi>ta bitartean (1877-1880) argitara ere zuen Euskal-kantutegia edo <hi rend='Italic'><foreign>Cancionero Vasco</foreign>. </hi>Euskalerria'k ez dio gutxi zor, euskera biztarazi naiean alegina egin zuelako. Lentxeago D'Abbadie'k asi izan zituen Lore-jokuak Prantziko Euskalerri'rako ta gurerako. An-emenka ziren poetatxoak biltzen ziren Sara'ko, Marki&ntilde;a'ko edo beste euskal-jaietako batzaldi edo <foreign>concurso</foreign>-etara, eta euskera biztuxe zela emaiten zuen. <hi rend='Italic'>Euskal-Erria </hi>delako Revista'n ere ari ziren itz neurrigabeetan naiz neurtuetan gizonik ikasienak. Carlisten guduak ere Fuero'enganako maitea irazeki zigun eta literaturan ixuri aundirik utzi ezpazuen ere, Iparragirre tarte orretatik atera da. Arrese ta Beitia ere ez dugu euskaldun Fuero'tar epela. Ainikere, beste zenbait garaitan aski ziteken oldarra edo indarraldi au, biztu-nai au, etzen bear bezain bizkorra. Etsai gogorra zuen eta oraingo birbizteak ere ori bera du: ondoko erdera agitz landuen mendea.</p>
+<p><hi rend='Bold'>4. Bidasoaz emendiko poetak</hi></p>
+<p><hi rend='Bold'>Iparragirre</hi></p>
+<p>Ezer gutxi balio dute gure kantari onen poesiak: oso landugabea da poesian beintzat. <hi rend='Italic'>Ume eder bat </hi>eta <hi rend='Italic'>Nere etorrera lur maitera, </hi>ainbestekoak dire, baino neurtitz utsaltxo eta baldanetan eginak. <hi rend='Italic'>Gernika'ko Arbola </hi>aipatua ere poesiz erantzia dago. Alare euskaldun biotzetan zirrara emaiten du, gure Fueroen alde ari delako:</p>
+<p><mentioned> <hi rend='Italic'>Gerrarik nai ez degu,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>pakea betiko,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>gure lege zuzenak</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>emen maitatzeko.</hi></mentioned></p>
+<p>Orregatik euskaldun biotzari eragin zion. Bere erria maite zuen eta aldeginbear beltza izaki: &laquo;geiago ez etortzeko Probintzi onetara&raquo;, agindu baitzioten. Erri-zale izaitea bearrik! Onetan asmatu zuen; bestela deus etzuen balioko Iparragirre'k.</p>
+<p><hi rend='Bold'>Bilintx</hi></p>
+<p>Bizkarrondo gizagajoa ainbeste ezbearren artean azia, biotzondo utsa zirudien. Aren neurtitzak muina ba dute geienaz. Samurra ta negarti-antza da, bere bizierari darraikola. Izkuntza txukuna ta biguina du. &laquo;Euskal-poetetan samurrena ta bioztunena&raquo; zerizkion Manterola'ri. Erdaldun poeta batzuk maiz irakurri arren, landugabetxoa zen au ere. Bere gisa ari izan zen poesian txoria txintaka bezala. Irakur bitez <hi rend='Italic'>Izazu nizaz kupira </hi>eta <hi rend='Italic'>Kontzeziri.</hi></p>
+<p><hi rend='Bold'>Arzak</hi></p>
+<p>Berak besteri bezala, &laquo;On&raquo; Antonio Arzak izena emainen diogu. Poeta urrixa edo emekia, bera gizaki izaiteko. Izena bederik merezi du edesti labur onetan.</p>
+<p><hi rend='Bold'>Arrese ta Beitia</hi></p>
+<p>Au dugu euskaldun poetarik bizkorrena: erritarra, erritik ateria. Irakurtzen ere ez dakiten ardandegiko bertsolariek baino ikasiagoa, ta alaere ez landua. Nork ez daki buruz eta nork irakurri ez du biozminarekin <hi rend='Italic'>Ama Euskerriari azken-agurrak? </hi>&laquo;Xamurtasun goxoa, negar-min barea, iduripen aundikorrak, Jeremias'en eiagorak eta Shakespeare'n aienak berekin ditu, Euskalerria'n berdinik ez duen eresi onek&raquo; (Campi&oacute;n).</p>
+<p><mentioned> <hi rend='Italic'>Nun dira bada zure semiak,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Foru ta euskerazaliak?...</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Umezurtz batzuk gelditu gara</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>bilosik Foru-gabiak.</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Zorioneko arkaitzak eta</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>zorioneko mendiak,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>orain artian zuek izan zare</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Foruen gordelariak.</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Geiegi da ta, ausi arkaitzak,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>onegi ez izan, mendiak,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>lurpetuteko, Euskera il ta,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>bere ondasun biziak.</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Bera tontorrak, bete arruak,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>erdu Gaztel-lau igarrrak,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>agortu errekak, lurtu itxasuak,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>agur, euskaldun ibarrak!</hi></mentioned></p>
+<p>&laquo;Euskerak adina iraunen dute Arrese'ren euskal-kantak&raquo;, C. Etxegarai'k zionez, eta bere onen aburuz, &laquo;euskaldunago ta poeta bioztunago da Arrese&raquo;. Landu-itxura artu nai duenero, ordea, ez du lurraren azal-gainetik aldegiten.</p>
+<p><hi rend='Bold'>Karmelo Etxegarai</hi></p>
+<p>Marki&ntilde;a'ko euskal-jaietan oraino ume zelarik sariztatu zutenean itxaropen zuten euskal-poeta bikaina aterako zela Etxegarai. Gaiekoa zen poesirako, bere gainerako idaztietan noizpenka nabari danez. Gaia egokitzen ba zekien, izkuntza berez etorritsua zizun, esaera txukuna, neurtitza erreza eta ongi ebakia. Zergatik utzi zion poesi-giteari? Eztakigu. Mingarri da bere bizieran geiago ez ari izaitea (lkus: J.M. de Estefania S.I. <hi rend='Italic'>Euskalerriaren Alde, </hi>1926, 129 <foreign>sp.)</foreign>.</p>
+<p><hi rend='Bold'>5. Alegi edo ipuinak</hi></p>
+<p><hi rend='Bold'>Iturriaga</hi></p>
+<p>Samaniego'ren eta besteren alegiak euskerara zituen gatzik askirekin. Ez dirudite itzuliak, euskerara sortuak baino: euskerara ain egokiak daude gure baserritarrentzat. Gizon ikasia ta jakintsu askia zen, eta alegien eta gainerako poesien itzulketan ez dugu Iturriaga adinekorik. Virgilio'ren Egloga'k ere, izketa biurritu gabe, etorkitsu euskeraratu dizkigu. Irakur bedi batez ere <hi rend='Italic'>Palemon, </hi>eta ikus gure bertsolarien izketa nola eraiki digun, eta Virgilio'ren poesia nola erriratu digun. Bein eta berriz irakurri diteke Iturriaga aspertu gabe. Nere ustez Adema Zaldubi'rekin ez da naski euskera bertsoetan ainbeste landu duenik.</p>
+<p><hi rend='Bold'>Azkue (E.M.)</hi></p>
+<p>Erri-poeta bikaina baginuela esan zuen A. Uriarte'k Azkue (Eusebio Maria) irakurtzean. Euskal oiturak gai artean ditu askotan: <hi rend='Italic'>&laquo;Mundaka'ko arrain saltzalia&raquo;, &laquo;Bermeo'ko astodunak&raquo;, &laquo;Mundaka'ko emakumia&raquo;, &laquo;Baserritarren jai Domeketako batzarrak&raquo; </hi>eta a. Baditu ipuinak, eztenkadak edo satirak eta ziri-bertso edo epigramak ere. Gogoaldi edo tankera ona ta buru-adi zorrotza, darakustza agiz. <hi rend='Italic'>Dies irae </hi>latinetik ederki euskerara zigun. Gai anitzetan oitu zen eta &laquo;denetan antzetsu zela aditzera eman zigun&raquo; (Uriarte'k).</p>
+<p><hi rend='Bold'>Aita Zabala</hi></p>
+<p>Orainotsu ez ginuen ezagutzen. Azkue R.M. jaunak 1904'garrenean Paris'en ediren, eta Urkijo jaunak argitara digu R.I.E.V.'ean. Alare bakan irakurriko zuten euskaldunak, Revista ori gutxirengana irixten baita. Zabala'ren ipuinak ere argitarazlearen begira daude. Euskera eder-ederra du, garbi-garbia; baino gatza gutxitxo ipuinetan, Eguzkitza jaunak dionaz <hi rend='Italic'>(Lenengo Euskalegunetako itzaldiak, </hi>29'g. orriald.). &laquo;Geure artean askok erabili daben euskera mordoilo, loi, ezain, itxusi ta lotsagarria gomutau ezkero, Zabala'ren ipuin oneik euskera garbi ta ederrean dagozala esan daikegu&raquo; (Ibid. 28).</p>
+<p>Esopo'ren ipuinak Vicenta Mogel'ek ez ezik, gure egunetantsu gerkeratik ederki euskerara dizkugu Apaiza Jaun Nikasio Larrea'k. Bildurik baleude!</p>
+<p><hi rend='Bold'>X. GURE MENDEA: ARANA TA INGURUKOAK</hi></p>
+<p><hi rend='Italic'>Euskalerria </hi>deritzan argitarategian, Manterola'ren kantutegian ikusi dezakezu Bizkai-giputz-laphurdi-etako idazle mordoa. Bizkaia'n ere oldartu zen Azkue R.M. 1879'garrenean <hi rend='Italic'>Euskalzale </hi>ateratzen zuelarik. An ari izan dituzu Agirre Txomin, Arrese ta Beitia, Etxegarai bi anaiak, Urruzuno arraia ta alaia, Gerra, Zamarripa, Bustintza, Izurrategi. Geroxeago atera zizun Azkue'k berak lagun batzuekin Ibaizabal astekaria, Bustintza Ebaristo zuzendari zuela. Bi argitaratzei oriek itzali ziren.</p>
+<p>Sortu zen Arana ta esnatu da euskera ta inarrosi du burua bizkor. Politikaz txintik eztizut aterako, ezpaitagokit: euskeraren esnatzeari nagozu. Mintzatu zen Bizkaia, ta itzetik ortzera &laquo;inbido&raquo; otsegin zigun beste euskaldunei. Gogonduri ta buru emari gelditu zen alditxoz Gipuzkoa, ta atzenik &laquo;ordago&raquo; iardetsi. Yokua &laquo;euskera&raquo; izaki, alegia, ta Laphurdi'k &laquo;iduri&raquo;, eskua zedukalakoan.</p>
+<p>Arana gabe edo Arana'z leku ari izanak eta ari direnak badituzu, baino aren aldekoak naiz aitzikoak, naiz bitartekoak, naiz Arana-kukuak, ua dute eragile nola edo ala. Laphurdi'k zedukan oraino eskua, nere ustez, eta ez dizu galdu nai egun ere. An ere apur bederik ageri da Arana'ren uratsa. Itz-berri-sortzean begiratuago, gibeltiago dituzu laphurtarrak, baino alare Arana'ren buruan sortu batzuk artu ditizue naiz <hi rend='Italic'>Eskualduna</hi>'n naiz <hi rend='Italic'>Gure Herria</hi>'n: &laquo;idatzi&raquo; esate baterako. Gainerakoz, ango garrari gutxi edo asko Bizkaia'k aizeman diola ukatzerik eztago.</p>
+<p><hi rend='Bold'>Arana'z lekukoak</hi></p>
+<p><hi rend='Bold'>Agirre, Txomin. </hi>Ondarruar Agirre dugu oraindaino literato edo antze-idazlerik garaiena. Aren egunetan baino euskera ugariagoan, edatuagoan, landuagoan ari gara egun, euskal-biziera ez ezik, edonolako arte ta jakin-gaietan ari baitugu gure izkuntza maitea. Alare, ua adinekorik ez bide zaigu sortu. <hi rend='Italic'>Garoa </hi>omen da euskal-literaturako lanegin nagusia, <foreign>&laquo;chef d'oeuvre&raquo;, </foreign>Aita Landhe'k dionaz. Euskal-biziera artu zuen gai; arantzale-nekazarien biziera, ta esanik dago, ezertan asmatu ezkeroz, begi-begiko izanen zaiela euskaldunei. Izan ere, bigarrenekoz argitaratzeko asmoetan dire, ta jendea eske dadukazu. Nai dunak nai duna beza: begitarte ona egin diote Agirre'ri euskaldunak, eta bai merezi ere. Euskera garbia ta ugaria du, ta naiz Bizkaieraz, naiz Gipuzkeraz, irakurgai ederrak utzi dizkigu: <hi rend='Italic'>Garoa, Kresala, Au&ntilde;emendi'ko Lorea. Garoa</hi>'n idaztankera belaxka-antxa gertatzen zait, emexkoa edo zain gutxi duena; <hi rend='Italic'>Kresala</hi>'n zaintsuagoa: euskalkiari egotzi ditioke ori. <hi rend='Italic'>Garoa </hi>Bizkaieraz egin balu, aurki etzen ain usu irakurriko, ez agortuko; baino Bizkaieraz balego, balinba, irakurle jakintsu denak eskerrago lioke.</p>
+<p><hi rend='Bold'>Etxeita. </hi>Etxeita'k ere iru liburu gisako bederen utzi dizkigu: <hi rend='Italic'>Josetxo, Jaioterri maitia, Au ori ta bestia. </hi>Oriek ere gogoz irakurri dire Euskalerrian. Arana'z leku ipini dizut idazle au; baino gerora Arana'ren jario pixka ezagun du.</p>
+<p><hi rend='Bold'>Arana-Goiri</hi></p>
+<p>Euskera-lanetan <hi rend='Italic'>Lenengo egutegi Bizkaitarra </hi>ta <hi rend='Italic'>Olerkiak </hi>argitara zituen bereiz. Lanbide latzari ekin zion egutegi oretan: neke ta zoztorak etzuten estiarazi. Gai au zela, ori zela, aurera zoaien euskera gaisoarekin, eta arritzekoa da eman zion joera. <hi rend='Italic'>S. Mateo'ren Pasioa </hi>askok uste baino euskera samuragoan dadukazu. Gainerakoz <hi rend='Italic'>Egutegi</hi>'ko euskera latza iduri ba zaizu, ekiozu lan berari orain ere.</p>
+<p>Olerkietan baditu burutapen sendoak, &#191;nork uka?, ta biozmina ere bai; baino nere ustez ez da izena beteko poeta; ez biotzondo samura duten orietakoa beintzat. Neurtitzak kantatzeko egin zituen, susmo onaz alare, baino leguntasuna ments edo palta dute. Bera gazterik il zen, eta baita berak ateratako <hi rend='Italic'>Euzkadi </hi>ilerokoa ere. Beste euskal-lanetaz iardukitzea eztagokit, literatura baitut gai.</p>
+<p><hi rend='Bold'>Eleizalde</hi></p>
+<p>Aren ilburukoa (testamenta), esaterako, Eleizalde'k jaso zuen. Arana'ren ikasle beroa zen Eleizalde, ta naiz itz neurrigabeetan, naiz neurtuetan, aren urratsei ondo-ondotik jarrai zien. Euskalzale bizkorra zen, baino euskera laxkoa zuen.</p>
+<p><hi rend='Bold'>Arana baino Aranagoak</hi></p>
+<p><hi rend='Bold'>Arriandiaga. </hi>Arriandiaga Claret'arra, buruz ernea ta argia da, moral-zale garaia; baino euskeran guziz utsegin du erritik aldegitean. Urrutia ta Zabala-Arana ta beste batzuk aren atzetik ari dire. Euskerari bere joanera geldixegoa ba da ere, edukiagoa eman bear zaio. Oriekintsu dijoa Zinkunegi, Balmes'en <hi rend='Italic'>Irizpidea </hi>euskeraratu duena.</p>
+<p><hi rend='Italic'>Euzko-Gaztedi </hi>deritzaion lagunartea, laisterkatxo asi zen. Asmo zuzen ta Maisuarenganako jaiera itsua zuten gazte oriek; baino Maisua luzaroago bizi izan balitza, euskera-lanetan onontzaxego geldiaraziko zituela nago, euskera garbitzeari bere astia emainen baitzion. Itzali zen orien <hi rend='Italic'>Euzko-deia </hi>ta baita lagunartea bera ere Gobernua zala bide, edo ixilik dago beintzat, ezpaitzaio zilegi <hi rend='Italic'>Aberri </hi>argitaratzea. <hi rend='Italic'>Jaungoiko-Zale </hi>ere azkarregi asi zen euskera garbiketan; baino eskuratzen ari da. Orain irakurgarriago da.</p>
+<p><hi rend='Bold'>Arana-kukuak</hi></p>
+<p>Arana-kukurik aundiena (anti-aranista aundiena), Azkue R.M. dugu, ta ez diogu ukatuko berak ain maite duen ospe ori. Balin ba da, Azkue jaunak onontzarazi ditu Aranagoko oriek; baino &#191;beroriek ere ez ote dire oartu oker-antza ari zirela? Egia da, Azkue'k euskera bere einean aurrerarazteko lanik aski egin du.</p>
+<p><hi rend='Bold'>Ileroko, asteroko, egunari, t.a.</hi></p>
+<p>Gipuzkoa'n <hi rend='Italic'>Euskalerriaren Alde, </hi>amabostero aurrena ta ilero urrena (1911), <hi rend='Italic'>Euskal-Esnalea </hi>(1908), <hi rend='Italic'>Argia </hi>(1920) ta oraintsu <hi rend='Italic'>Txistu. </hi>Bizkaia'n <hi rend='Italic'>Euzkadi </hi>egunaria, <hi rend='Italic'>Jesusen Biotzaren Deya, Jaungoiko-Zale, </hi>Naparoan <hi rend='Italic'>Zeruko Argia. Euzkadi</hi>'n Kiriki&ntilde;o Aranatarra da &laquo;ez egia ez apurra&raquo;, erdikoa baizen. Eskuarteko burutapenak poliki derabiltza <hi rend='Italic'>(Abarrak, Egunekua, Euskal-atala, </hi>t.a.). Erriko euskera ez du atzean utzi nai, geldixeago joanen ba da ere, ta ala bear.</p>
+<p><hi rend='Bold'>XI. EUSKALTZAINDIA</hi></p>
+<p>Euskaltzaletasun bero orretatik sortu zen Euskaltzaindia ere. Xuri, beltx, gorri, ari guzietakoak sartu ziren lagunarte ortan, eta orrek bateginen ditu euskeraren onerako, euskerari dagokion joanera emaiteko. Euskera garbitzeari (aurreneko lana), apaintzeari, ta orotara edatzeari lotua dago. <hi rend='Italic'>Euskera </hi>iru-ilabete-karia asi du, ta an irakurri ditezke gai askotaz mintzaldi bikainak. Urtetik urtera ari du edertzen euskera.</p>
+<p><hi rend='Bold'>Euskaltzaindiko idazle batzuk</hi></p>
+<p>Izenez edo gezurrizenez idazle bakoitza izendatu bear banu, luzaroko nuke, ta gainera zazpi aalak egin ta ere bat baino geiago itzuriko litzaiket. Ez noa bada denak, ez geienak, ez oberenak ere aipatzera. Euskaltzain eta urgazleetatik bakar batzuk aipatuko dizkizut, eta barkatuko al didazu. Gogo emazu gainera oraingo laphurtarretaz ari nintzelarik esan nizuna: begien bertanegi daudela oraingoak, ongi ikusteko. Gure mende onetako literatura'ren joera ta balioa begi-zizta batean erakustea naikoa dirudit, eta iriztemaileak ez al dute geiagorik eskatuko laburpen onetarako.</p>
+<p>Azkue R.M. Euskaltzainburuaren <hi rend='Italic'>Iztegia </hi>dugu euskera onaren iturri, ta euskera-lanak niori ez diote egitez oni adina zor, eragitez Arana'ri badiote ere. Iztegi aundiaz gainera lan ugari egin du ta ari du. Antze-idazle edo literato denaz, <hi rend='Italic'>Bein da betiko </hi>ezkeroz berein idatzi du. Itz neurrigabeetan <hi rend='Italic'>Jesus'en Biotzaren illa </hi>ta <hi rend='Italic'>Ardi galdua </hi>gogarakotzen dizkizut bereziki. Neurtitzetan ere txukun eta goxo ari izan da, <foreign>romantico</foreign>-antza ba da ere. <hi rend='Italic'>Euskal-kantutegia</hi>'n badituzu lenagoko bertso zarpil eta utsal asko txukunduak, beteak eta ordeztuak. Beste euskalkien ezagueraz edo, bere euskera legundu du.</p>
+<p><hi rend='Italic'>Maiatzeko illa </hi>ta <hi rend='Italic'>Garbitokiko animena, </hi>bi liburutxo orietaz landa, J.B. Eguzkitza'k Euskaltzaindian egindako mintzaldiei begira egiezu. Gai zailetan eta argi euskeraz au baino obeki mintzatu denik ez dakit ote den Euskalerrian.</p>
+<p>Aita Lhande'k atera zigun <hi rend='Italic'>Yolanda, </hi>Eroma-ipui edo novela. Landerretxe apeza jaun agurgarria or ari duzu bakarrik <hi rend='Italic'>Fedearen hedameneko urthekaria </hi>frantsesetik Laphurdi'ko euskera ederrera itzultzen. Intzagarai, naiz itz askatuetan, naiz neurtuetan txukuna dugu. Aita Intza Kaputxinoak ere argitara zizkigun <hi rend='Italic'>Amar aginduak </hi>(Ikusazu atzenean <hi rend='Italic'>Irakaspena).</hi></p>
+<p>Euskaltzaindia'ren urgazleetan Muxika Gregorio (Ikus <hi rend='Italic'>Irakaspena), </hi>Garitaonandia, biek Argia'ren lankide bero; Manterola, poesian solas-kara ari dena, etorritsua ta itzal-asmoa duena; Zamarripa erri-euskeran yayoa; Lekuona, <hi rend='Italic'>Gure Mixiolaria</hi>'ren lankide ta Apezpiku jaunaren <hi rend='Italic'>Artzai gutun</hi>'en euskerazalea, t.a. Beste batzuek ere badire, burua erakutsiko luketenak, eta lotsarik gabe, aipatutako batzuen artean. Egin dizugu euskal-literatura'ren edesti labura.</p>
+<p><hi rend='Bold'>XII. IRAKASPENA</hi></p>
+<p>Gure euskera parragarri edo negargarri gelditu zitzaigun ainbesterainoko erderakeriz. Galduxe ginen. Aranatarren oldar edo indarkarekin eta guzion su-garrarekin ogei urtetik onata errutixko ekarri dugu. Garbituz eta landuz deramagu, eta emendik arontza lotsarik gabe atera dezaguke aurpegia. Oraindaino, zarpilez beteta argitara jauzitzera ez ginen ausartzen. Elkarren oztopoari begiratuz batak bestearen erori ta zutitzetik ikasiz, ez deramagu joera txarra. Baino ez gaitzan loak artu, oraindik ere euskera galtzea nai ezpadugu.</p>
+<p>Geldixeago joanen ba gara ere, deramagun erria gerekin eta tinkoago goazke. Erri literatura landu bear dugu leenik. Begiemozu bertsolarietaz esan dizudanari. Gure erria bertsoetarako itoa den ezkeroz, ema-izkiogun landuxegoak, baino erritarrak, esan dudan gaietaz. Orain errian euskera galdurik balego, gure lanak alper lirake. Orri eutsi bear diogu bada leenik. Irakurtzen ikasteko (au du erriak nekerik aundiena), irakurgai pizgarriak, emagarriak eman bear ditiogu. Irakurtzea ez da lan gogorra egitea, baino gaur euskaldunak &mdash;silaba arrotzetara oiturik baitago&mdash; bereak arrotzago ditu, ta neke apurra artu egin bear du, ta irakurtzera doana ez doaie neketara. &#191;Neke ori noiz artuko du? Gaia emagarri <foreign>(interesante)</foreign> denean. Gregorio Muxika'k ederki aski asmatu du Pernando'rekiko liburu ori agertzean. Umeak txistu bezala, jende larriak ere aleginen du ori asmatzen, ikasiko du irakurtzen. Ori hai, iritxiko da erriraino. Norbait asmoetan dabila, diru asko balu, erriz erri ibili, arkitzen dituen gertakariak bildu, Pindaro'k bezala bertsoetan ipini, ta periz-peri kantatzeko, kantutegietatik artutako musika mintzoagoakin, euskera gal ez dedin. Ez litzeke aurki bide txarra. Irakurtzen ikasteko, ezin atzera dezazkegu <hi rend='Italic'>Umien laguna </hi>ta <hi rend='Italic'>Xabiertxo </hi>Lopez Mendizabal Euskaltzaindiaren urgazleak argitara dituenak.</p>
+<p>Esanen didazu ordea. Erriari erakusteko erakustunak bear dire. Ala da. Baino Euskalerria'n ba da antzekorik aski areztian esan dudantxoa egiteko. Urrena alegia, bein euskerari eutsi diogun ezkero, apurka-apurka landuko dugu gure erria, bear den einean. Ortarako jakintsuak bear dire. Elurra bearra da gainetan, baino ez an geldi dedin: andik ibarretara urtuz-urtuz ixuri bear du. Jakingaietan ari bezate bada euskera, ta ortatik eratxi bezate erriari onegoki zaiona. Jakingairik bearrena ta agizkoena, arruntena, erlijioa da, Jainkoak ala naita. Gure baserritarrak eta nongo-nai-ko erritarrak ere beren esku-lanetaz bakarretaz iarduki behar balute beti, landa itxigoa ta estugoa luke erri-izkuntzak. Ba dute geigorik eta goragorik. Geroz, erriaren leen-erakuslea apeza da, ala izan da ta ala izanen ere. Aren igandeko mintzaldiak izan dire ta dire gure erriaren abozko literatura. Ta apezai gizagajoai aztu-arazten dite euskera ikastetxeetan, eta gero oztopoka ari bear. Gaur den egunean ekin diote bizkorrago euskerari. Itzaldiak erderatik eta lati&ntilde;etik euskerara bear eta oraindio ez daukate Biblia euskeraz. Laister argitarako dela uste dugu <hi rend='Italic'>Testamentu Berria </hi>bederen, eta urrena zarra. Euskaltzain Olabide ortan ari duzu aspaldi. <hi rend='Italic'>Gogoi&ntilde;arkun</hi>'etan laxko, <hi rend='Italic'>Kristoren antz-bidea</hi>'n samurago, geroago ta ixurberago. Erriarentzat ez baino erdiko jakintsuentzat ari da, ta barkakizun ez ezen <hi rend='Italic'>goresgarri </hi>ere ba da. <hi rend='Italic'>Giza-soina</hi>'z egin bezala, beste gaietaz ere ori egitea du xede. Erriaren eta bere tartean daudenentzat ari ditu lan oriek. Orrelako gainetan ari direnen lana, beeraxegokoak urtuz urtuz eratxi bear dute erri-zokoraino.</p>
+<p>Urrena teatroa ere on luke gure erriak. Onetan ere ez ditu atzendu bear egin diren aleginak. Altzaga, Garitaonandia, t.a. saiatu dire poliki. Atari zabalean teatroa ere ez legoke oker asmatua; baino laburpentxo onetan ezin idaroki ditizut gogorapen guziek. Barkatu, berriz esaten badizut: aspertu gabe ariko natzaizu: euskal-liburuen ekoizte edo edizione berriak bear egiten digutela.</p>
+<p>Zer joera artu bear dugun, argi aski oartu gara euskaldunek: ez goaz oker. Alare itz bi eratxikiko ditut, nongo literatura'ren antzera ari bear dugun esateko. Nik ez dizut menderik edo autoritaterik aski, bidea erakusteko, baino iritzia emanak ez du kalterik. Nori ezpada ari gogoak emainen dio beste zerbait, eta ager beza euskeraren onerako. Aspaldiko errien literatura, baitipat Grezikoa artu bear ginuke ikasbidetako: <hi rend='Italic'><foreign>vos exemplaria graeca, nocturna versate manu, versate diurna. </foreign></hi>Erri aien biziera ta izkera gurearen antzeko baitziren, eta aiek beren literatura ederra sortu baitzuten.</p>
+        </body>
+      </text>
+    </group>
+  </text>
+</TEI.2>
+

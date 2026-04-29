@@ -1,0 +1,402 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN"
+                       "http://www.tei-c.org/P4X/DTD/tei2.dtd" [
+   <!ENTITY % TEI.prose    'INCLUDE' >
+   <!ENTITY % TEI.linking  'INCLUDE' >
+   <!ENTITY % TEI.analysis 'INCLUDE' >
+   <!ENTITY % TEI.figures  'INCLUDE' >
+   <!ENTITY % TEI.XML      'INCLUDE' >
+   <!ENTITY % TEI.extensions.ent SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.ent' >
+   <!ENTITY % TEI.extensions.dtd SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.dtd' >
+]>
+<TEI.2>
+  <teiHeader>
+  <fileDesc>
+     <titleStmt>
+        <title>Batxi Guzur</title>
+        <author>Resurreccion Maria Azkue</author>
+        <respStmt>Ez dauka</respStmt>
+     </titleStmt>
+     <extent>7.964 hitz, 58.588 karaktere</extent>
+     <publicationStmt>
+        <publisher>Klasikoen Gordailua [http://klasikoak.armiarma.com/]</publisher>
+        <distributor>Estrata Liburuak S.L.</distributor>
+        <address type='email'>klasikoak@armiarma.com</address>
+        <idno type='ota'>AzkueRGuzur</idno>
+        <availability status='free'>Erabilpen librekoa; honoko helbidean topa daiteke (HTML, RTF eta PDF formatuetan): http://klasikoak.armiarma.com/idazlanak/A/AzkueRGuzur.htm</availability>
+        <date>2006</date>
+     </publicationStmt>
+     <sourceDesc>
+        <bibl>Iturria: Bein da betiko / Batxi Guzur, Resurreccion Maria Azkue (Ines Pagolaren edizioa). Euskal Editoreen Elkartea, 1986</bibl>
+        <notesStmt><note>Iturburuen datazioa: 1897</note></notesStmt>
+     </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+     <projectDesc>Euskal literaturako testu klasikoen bilduma da KLASIKOEN GORDAILUA; testu hau berorren parte da</projectDesc>
+     <refsDecl>
+        <p>MENTIONED etiketa egilearenak ez diren hitzak markatzeko erabili da: hitzaurreak, aipuak, iruzkinak, e.a.</p>
+    </refsDecl>
+     <classDecl>
+        <taxonomy id='generoa'>
+            <category id='G-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='G-ANT'><catDesc>Antzerkia</catDesc></category>
+            <category id='G-BER'><catDesc>Bertsoak</catDesc></category>
+            <category id='G-ERL'><catDesc>Erlijioa</catDesc></category>
+            <category id='G-NAR'><catDesc>Narratiba</catDesc></category>
+            <category id='G-POE'><catDesc>Poesia</catDesc></category>
+            <category id='G-SAI'><catDesc>Saiakera, kronika, artikuluak...</catDesc></category>
+        </taxonomy>
+        <taxonomy id='garaia'>
+            <category id='M-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='M-16'><catDesc>XVI. mendea</catDesc></category>
+            <category id='M-17-1'><catDesc>XVII. mendea - 1. erdia</catDesc></category>
+            <category id='M-17-2'><catDesc>XVII. mendea - 2. erdia</catDesc></category>
+            <category id='M-18-1'><catDesc>XVIII. mendea - 1. erdia</catDesc></category>
+            <category id='M-18-2'><catDesc>XVIII. mendea - 2. erdia</catDesc></category>
+            <category id='M-19-1'><catDesc>XIX. mendea - 1. erdia</catDesc></category>
+            <category id='M-19-2'><catDesc>XIX. mendea - 2. erdia</catDesc></category>
+            <category id='M-20-1'><catDesc>XX. mendea - 1. erdia</catDesc></category>
+            <category id='M-20-2'><catDesc>XX. mendea - 2. erdia</catDesc></category>
+        </taxonomy>
+        <taxonomy id='euskalkia'>
+            <category id='E-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='E-BAT'><catDesc>batua</catDesc></category>
+            <category id='E-BIZ'><catDesc>bizkaiera</catDesc></category>
+            <category id='E-BNA'><catDesc>behenafarrera</catDesc></category>
+            <category id='E-ERR'><catDesc>erronkariera</catDesc></category>
+            <category id='E-GIP'><catDesc>gipuzkera</catDesc></category>
+            <category id='E-GNA'><catDesc>goi nafarrera</catDesc></category>
+            <category id='E-LAP'><catDesc>lapurtera</catDesc></category>
+            <category id='E-NAF'><catDesc>nafarrera</catDesc></category>
+            <category id='E-ZAR'><catDesc>zaraitzuera</catDesc></category>
+            <category id='E-ZUB'><catDesc>zuberera</catDesc></category>
+        </taxonomy>
+    </classDecl>
+  </encodingDesc>
+  <profileDesc>
+     <textClass>
+       <keywords scheme='generoa'>
+         <list><item>G-NAR</item></list>
+       </keywords>
+       <keywords scheme='garaia'>
+         <list><item>M-19-2</item></list>
+       </keywords>
+       <keywords scheme='euskalkia'>
+         <list><item>E-BIZ</item></list>
+       </keywords>
+     </textClass>
+  </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>Batxi Guzur -- Resurreccion Maria Azkue</docTitle>
+    </front>
+    <group>
+      <text>
+        <body>
+<p><hi rend='Bold'>Lenengo agerraldia</hi></p>
+<p><hi rend='Bold'>ALPALAURREAN</hi></p>
+<p>Aizurdi-mendi-sorbalda-ganean luze luze etzunda, artadi itzaltsu edo gerizpetsu baten adarpean, txori baketsu askon txiokaz pozkor pozkortxu, aldauri bat dago, oillo loka batek txitak euki daroazan antzera, lau etxe beren magalpean daukazana. Aldauriari <hi rend='Italic'>Satika </hi>deritxo. Beren lau etxeak <hi rend='Italic'>Satika Goseaskoa, Satika Beaskoa, Satika nagosia </hi>ta <hi rend='Italic'>Satikatxu </hi>dabez izenak. Uda ta negu, zein euri zein aterri, nai eguzki galdatan nai lei-antziarra buruan dabela, bai soloak galgarau-eske dagozanean da bai soloetako galburuak etxera begira egotorduan, Satikak beren ]eio illunak, begi baltz eder batzun gizan itxasaldera begira euki daukaz; eta itxas-ertzean, Aizurdipeko <hi rend='Italic'>Santa Katali&ntilde;ak </hi>argi-nutilla eskuetan daukala, erri polit polit polit bat dakuse: elri garbia, arraintsua bai&ntilde;a arrain-sunda bagakoa; <hi rend='Italic'>leku itua </hi>bai&ntilde;a arnasaz da adorez betea; erdaldunen begikoa, bai&ntilde;a bizkaitar utsa; erri ikusgarri, Elizarakoi, erri maitagarria: neu iaia nintzan erria.</p>
+<p>Lakandu beiez gizonak euren mii&ntilde;ak, iaioterria bururatuten iakenean; euki beiz bakotxak beren erriko mendietako karatxak urre mamintzat, erroiak usakumetzat, urretxindorren kanta zolitzat beren erriko asto zaarren arrantza gortugarriak. <hi rend='Italic'>Bakotxak </hi>ordu onean <hi rend='Italic'>beren opilari su </hi>egin beio. Ta nik neureari su egin dautsadala i&ntilde;ok esan-orduko, noan noan ur-ertzetik aldatzean zear, gora ta gora, Aizurdi-mendi-sorbalda-ganera.</p>
+<p>Sei edo zazpi umekondo egozan artapedian: batean txilioka, bestean soi&ntilde;uren bat ioten, bestean orra edo ona... beti iolasean da zerbait egiten. Zaarrena zazpi-zortzi urte-inguruko neskatillatxu bat zan, eragi&ntilde;a ta bizkorra, edo, beren Amak esan eroana esateko, mutilla egiten asia. Onen urrengoa bost urte ta erdiko mutil bat zan, beronen nebea, Kose Kusto izentzat eukana au zan Aman kutuna. Aitak neskatilla zaarrentxuari egiten eutsan begi argiena. Esatea da, Aitan antzeko alabaak eta Aman antzeko semeak izaten direala seme-alabarik zintzo ta men da zoritsuenak. Au egia bada, Kose Kusto ta arrebea bene benetan zintzoak eta menak eta zoritsuak izan bear eben: alabea Aita bera zan; semea, Ama lakoxe arpegi-zabalkote, begi-urdin, buru-andi, arto-zale utsa. Neskatillea izaten zan beti nagosi: nai etxean Aitan aurrean, nai artadian aparika edo mai&ntilde;aka euren kontura iarduenean. Mutillak ezeban gogoz eroaten bera nagosi ez izan bearra. Egun bi edo iru aurrerago negarrez Amagana ioan zan baten isilduta gero, Amari esan eutsan ea andi eginda nor izango zan zaarrago: bera ala I&ntilde;esatxu (au zan neskatillean izena) Amak barreka &laquo;Astokillo, esan eutsan, bera beti zaarrago&raquo;.</p>
+<p>&mdash;Eskolara yuaten banaz be bai?</p>
+<p>&mdash;Eskolara yuanezkero, ez.</p>
+<p>Eztakigu aurrerantzean zer gerta edo iazoko zan. Ordurarte be&ntilde;ik bein I&ntilde;esatxu zan Satikako ume guztien nagosia: dendaka edo dendarika iolastu bear baeben, bera izango zan saltzaillea; oillo oilloka i&ntilde;arduezkero, bera izaten zan oillo lokea edo Amalokea; idika, bera zan itzai&ntilde;a ta itaurlaria; Eliz-inguruka, Abadea; aurreskuka, Piela. Berba baten: neskatillea izaten zan edozein iolasalditan guztien Buru; Kose Kusto urrengo; ta beste ume gaztetxuagoak batean burdi, bestean oillo, bestean <hi rend='Italic'>erroskera... </hi>I&ntilde;esatxuk nai ebana.</p>
+<p>Kose Kustok Eliz-inguruka <hi rend='Italic'>Txomin y Kolente </hi>kanta edo erezten buru-utsik ibilli bai&ntilde;o naiago izaten eban aurreskua egiten iardu. Dantzan ezeban i&ntilde;oiz gogait egiten: gogoa aspertu bai&ntilde;o askozaz lenago gorputza eio edo nekatu ta ankaak soortuten iakazan. Ta bera zeinbat gogotsuago, beren arrebea ainbat nakarrago edo gogo bageago egoten zan. Aurreskua egitea zanean, I&ntilde;esatxu izaten zan Piela ta ganera Txistularia. Aurreskurako deia asiaz batera, nebea ain gogoz artasika ikusirik, isilduten zan, naikoa zala esan-da. Mutillak orduantxe, len bai&ntilde;o bere alegintsuago, berak soi&ntilde;ua io ta berak dantzan egiten eban. Arratsalde atan beste onenbeste iazo iaken. Aurreskulariaren eki&ntilde;az asarratu zan neskatillea; ta arako ota-suskurrak sutan txinpartak ataraten dabezan bai&ntilde;o bere zarratuago, asi zirean biak alkarri esaten:</p>
+<p>&mdash;Arro putza.</p>
+<p>&mdash;Gangarra.</p>
+<p>&mdash;Mokoti.</p>
+<p>&mdash;Negarti.</p>
+<p>&mdash;Beeko zale.</p>
+<p>&mdash;Baitta i barrix Atorra zaar.&raquo;</p>
+<p>Au entzun ebanean, atorra zaardunak sei&ntilde;a beeganean itxi ta ederrak emon eutsazan neba dantzariari. Onek besteari atorrako dindirri batetik oratu ta tarratada andi bat egin eutsanean, &laquo;ene kaderaak ari&ntilde; egizu&raquo; esanda, arrapataka iges egin eban, arrebea atzetik iarraika ebala.</p>
+<p>Eldu zirean onetan soloetako langilleak; eta barre gogoz egin eben, ume biak alkarren leian arin aringa ikuseran. &laquo;Mariyena, atzetik dandarra dariyena&raquo; esan eutsan Amak I&ntilde;esari; ta onek kurrukaz da amurruz, atorrea erdi erditatik etenda, Aitari belarrira esan eutsan: &laquo;Aitta, Kose Kustok matxingarratza yan dau.&raquo;</p>
+<p>Aitak orduan &laquo;Txotxo&raquo; dei egin eutsan dantzariari &laquo;Kose Kusto, ator ona. Kose Kusto, gero biyar gero ezaix etorriko gero Ipestarrera, Santiyago-eguna da bai&ntilde;a.&raquo;</p>
+<p>Noiz edo noizko baten agertu zan Kose Kusto: atzekatxu, nakar, gozaga, gogo barik eta esku biak sakeletan sartuta. Aitak, urreratu zanean, irri-barrezka kaiskarreko txiki bat emonda, ukabilla surretara eroanaz &laquo;ik, txotxo, matxingarratzak yan dozak&raquo;, esan eutsan.</p>
+<p>Au entzueran asi zan barriro Kose Kusto igesi, ta etzan gelditu, beren osaba Batxi, solotik gora etorrena, ikusiarte. Onen esanen esanaz sartu zan aparitara.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Bigarren agerraldia</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>BATXI AZALETIK</hi></p>
+<p>Iru illebete aurrerago eldu zan Satikara gizon bat, amalau urte eukazanetik itxasoak austen ibilli ta beren barririk i&ntilde;oiz bialdu ezebana. Etzan bera Satikarra. Amaika urte eukazala, Arratiako baserri batetik ekarri eben, ume zurtz gelditu zanean.</p>
+<p>Turubia Satikako, emakuma egillea ta arrastaria, maratza ta gizagi&ntilde;a, Arratiarra bera, ta gazterik otsein edo ogipeko izatera etxetik urtena, zan gizon onen edo ume aren izekoa. Beren aizta alarguna il zala iakin ebanean, ioan zan iaioterri edo aizorrira; argi ta garbi antzau ebazan beren aizteak eukazan zor-arturenak; eta arek itxiriko ume zurtza semetzat artu ta beragaz bizi izatera Satikara eroan eban. <hi rend='Italic'>Batiste </hi>zan ume au Arratiatik urteeran, <hi rend='Italic'>Batxi </hi>biurtu eben illebete igaro-orduko.</p>
+<p>Ordurarte Batxik egi&ntilde;iko gauzaak lau berbatan esan leikez; bada neska-mutil gaztetxuak eta andra-gizon zaarrak, geienak beintzat, suetetik kanpoan eztabe esateko gauza andirik egiten: umeak gurasoakan da atso-aguraak seme-alabakan eukiten dabez, ez bakarrik elikatura edo ian-edana, baita entzutea ta izena bere. Ume guztiak amalau edo amabost urterarte izaten dira Urlia edo Berendia-n seme alabaak; irurogei urtetik gorako atso-aguraak barriz Urlia edo Berendia-n Aita ta Ama. Eurenez, ez batzuk ez besteak eztabe ez entzuterik ez izenik eukiten.</p>
+<p>Batxin amaikagarren urtetik amalaugarrenerarteko gertaera edo iazoerak gitxik eukezan gogoan; andik aurrerakoak berak bai&ntilde;o bestek ezekizan; da nai-ta-nai-ezkoa zan, iakin nai ebazanak, berari entzutea.</p>
+<p>Berari barriz (i&ntilde;ogaitik txarto esatea ezta ondo ta isillik egotea oba da bai&ntilde;a) bei&ntilde;ik bein arpegira ezarren, Batxi-guzur esaten eutsen; da beren esakera guztiak egitzat artu izaten eztireana, ezizenak berak agiri dau.</p>
+<p>Lekeitioko kaleetan da Izpasterko Eleizaldean da Gartadako ingurumarietan ikusi ebenean gizon bat, arpegi guztia, ezpanak ezeze, bizarrez beteta; kaltza-iake lodi astunak eta narruzko oi&ntilde;etako zoru-lodiak eta musturdun txota baltza ta alkondara-ordez ingeles-bandera-antzeko txamarra bat soi&ntilde;ean ebazala, nok esan baso-aizeak aren iaiotetxea arnasaz bete ebenik? Zer dan arpegi sona edo argia ez eukitea! Batxi, barru barrutik bei&ntilde;ik bein, ezekian i&ntilde;ok nor zan, beren lengosu Kose Satikak bere ez. Arpegia ikusiaz beste bagarik asi zirean esaten: protestantea zala, eriotzaren bat eginda igesi etorri zala, masoi-arpegia eukala, pirata ibillirikoa zala, ta zer ez?</p>
+<p>Lenengo barritan, diru asko ekarrela zabalduaz gora-bera, biotz bat ezin irabazi izan eban: amabost egunen barruan i&ntilde;ok bai&ntilde;o ezaun geiago egin ebazan, adiskiderik bat bere ez. Ain ze Lekeitiotik Murelagako bidean dagoan auzotegi baten, Oletan, Maiatz-Pazkoz egiten direan irugarren erromeri-egunean, Batxik, txapel-musturduna eskuetan ebala ta ingeles berba onekaz Lekeitioko Arranegitar neskatilla bati dantzarako mandatu eginarren &mdash;<hi rend='Italic'><foreign>Duyulaik tu dans uit mi&mdash;, </foreign></hi>neskatilleak atzerantz oinkada bi eginda, lotsa andi-barik esan eutsan Batxiri: &laquo;Zer dakar beronek? Ezkara txakurrak, zaunkaka asteko.&raquo; Batxik lagun-aldrara ioan zanean, esan eban: &laquo;neskatilak eurak mandatu egin bear izango deuste, ni dantzan ikusteko.&raquo;</p>
+<p>Andik illebetera, Donian-goizean, Izpastertar batzukaz ioan zan Lekeitioko enparanza edo plazara, aspaldiko ordez gona-dantzea ikusteko asmoaz. Beren isillik urreratu zirean lagun bi emakuma aurreskulariagana; ta eskatu eutsen, mesedez atara eiela dantzara Satikako <hi rend='Italic'>indianoa. </hi>&laquo;Ene! Bakit nor dan, erantzun eutsen neskatilleak. Orrako orregaz onako neu? Ontxe gogorrago! Di&ntilde;uena egiya baldin bara, oba leuke orrek Elixapera yuan da ur-berinkatu-ontziyan dzanga ei&ntilde; da gero Elixan sartu.&raquo;</p>
+<p>Itaundu eben gero Izpastertarrak nortzuk zirean birreskuak; agertu iakezan bi; ta esan eutsen, aurreskuko neskatillai Izpastertar mutillak dantzara ataratearren, mutillen kontura izango zala danentzako gosari eder bat, San Pedro-goizerako: ardao zuria, makaillaua piper da guzti ta ganera gaztaia edo iko melauak edo zer edo zer. Neskatilla geienak ontzat artu eben Izpastertarren guraria. Asi zan dantzea: aurreskuak ederto egin eban dantzaurrea; laguntzat atariko baserritarrari egin eutsan oi dan txeratxua, ta ordurarte guztia ioan ondo... Atzeskuak bere ezeban txarto egin beren egokia, ta txaloak bere entzun ebazan; bai&ntilde;a arako birreskuen erdian Batxi-guzur ikusi ebenean, txistu batak, txistu besteak, erdi-gortu eben Batxi gizagaisoa.</p>
+<p>Neskatillean arpegia ikustekoa izan zan, Batxi urreratu eutsenean. &laquo;Zer? esan eban. Nora dakarre berau, Mariya Talakon arpegi onegaz? Neuk orreri eskua emon? Bai tta zera be! Nik yantzarako eztot nai morokill-usai&ntilde;ekorik, eskuetan ankilla pinttaua eukiarren; nik neu lakoxe arrai&ntilde;-usai&ntilde;ekoa nai rot. Zer dakarre eurok? Onen ankaak itxu-soi&ntilde;uan obeto yantzan egingo leukie.&raquo;</p>
+<p>Bitartean geroago ta txistu geiago entzuten zirean.</p>
+<p>Batxik, ingeleskadaak esateko gogo bagarik, gorri gorri eginda, iges egin eban dantza-tokitik.</p>
+<p>Onetariko arrera txar asko egin eutsezan Batxiri.</p>
+<p>Ta guztia zegaitik? Irudiagaitik; nor irudian ikusiarren; nor zan ezekielako; azal latza eukalako. Zein sagar garratz ezta azal onekoa izaten? Da zein sagar gozo, esaterako txarbea, sagarrik berankorrena ta gozoena, ezta izaten azal-tximur ispilduna? Azaletik barrua ikusi nai daben begiak, sarri egongo dira illargi bagako gau illunetan legez.</p>
+<p>Ikusi daigun, al daigun gi&ntilde;oan, Batxin barrua, azala ikusi dogunezkero: azala baltzerana eukan, begirakuna astuna; bekoki txordo edo illuna; ibilkerea, alperrak lanera eroaten dabena lakoxea. Azalez onezkero badakigu nor dan.</p>
+<p>Izatez... urrengo agerraldian berak beren barrua agertuko dau.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Irugarren agerraldia</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>BATXIN LAGUNAK</hi></p>
+<p>Batxin gertaera edo iazoeraak beren aotik entzutearren, gaurik geienetan batu oi zirean Satikan auzoetako gazte batzuk eta eurakaz batera atso-agura banakaren batzuk bere noizean noizean bai. Ara baturiko gazte geienak euken ezizentzat euren jaiotetxe edo oi&ntilde;etxe-izena: Urabilla, Batiz, Eluntzeta, Urkitza, Bei&ntilde;a, Ikaran, Santa Katali&ntilde;a ta besteren bat. Onetxek zirean Batxiri lagun egiten eutsenak. Guztien artean sarrien lagundu, zeatzen iarraitu, izena goratu ta berba ta esakeraak ikasi ta zabalduten ebazana Urabilla zan: mutil galanta bera, baba-lastoa legez gazterik azia, dantzarako aurrerea, laietan da araketan da bedar ebaten ibilteko bere atzerea edo atzerana ez; gibel andikoa; goi-ari&ntilde;a, askon eritxian beintzat; eta egia esateko si&ntilde;iskorregiak goi-arintzat euki bear badira, lumazko burua eukala edozei&ntilde;ek esan zeikean. Batxi amar bidar aitatu-bagako egunik etxakon igaroten Urabillako morroskoari. Aspaldion ebillen Kapro, zorioneko Kapro, nor etezan aturau ezi&ntilde;ik.</p>
+<p>Batxiri zelan edo alan ikasi eutsan ingeles-kanta edo erezi bat<hi rend='Italic'>, O Susanna </hi>deritxona, goiko Amerikatarrena ta Inglaterrako itxasgizon geienak buruz dakiena. Beren modura euskeratu ta O <hi rend='Italic'>Susanna </hi>barik <hi rend='Italic'>Ai Kapro </hi>izentzat ipi&ntilde;i ta edonun erezi oi eban Urabillak: etxean da soloan, bakarrean da lagunartean, edonori aspertu eragiteko beste bidar.</p>
+<p>Batxiri entzun eutsan bein, Lebrefuelen edonok erabilten dabela esku-ganean zer edo zer, taiu edo irudiren bat, narruan bertan ezarrita: itxasgizonak, ontzia nai ankillea; zapatariak, oi&ntilde;etakoa; laborari edo lugi&ntilde;ak, atxurra nai burdia, nai lurra landuteko beste tresnaren bat: bakotxak beren bizibidea ondoen iragarteko irudia.</p>
+<p>Ta Urabillak Amari osturiko buruko orratz bategaz, sast! sast! odoldu eban eskerra, Batxik ankillea legez, burdi bat idi-buztarri ta guzti antzeztuteko ustean.</p>
+<p>Beren gurasoak txutxu egiten eben Batxigaz ebillelako: maian iezarten zan guztian, asten iakazan batean Amama, bestean Ama, bestean biak batera, zirika zirika, lagunagaitik txakurrenak esaten. Batxin lengosuak bere bein bai&ntilde;o sarriago esan eutsan umeegia zala, aregaz burua bat egiteko; amazortzi urteko mutillak eztabela berrogei urteko mutil zaarrakaz batu bear. Zeinbat esanago ainbat biztuago egiten iakan Urabillari Batxiganako garra: suari gertaten iakana; txikia danean aizeak amata egiten dau, andia danean barriz bizkortu ta geitu.</p>
+<p>Iluntze atan i&ntilde;oiz bai&ntilde;o luzaroago egon zirean Batxin lagunak berari itxaroten. Sei bidar gitxienez esan eutsen Urabillari, Batxin eske ioateko.</p>
+<p>Esanen esanaz zuritu eben da aterai&ntilde;o eldu zan; bai&ntilde;a Kose Satikari eutsan lotseak antxe lotu eban gure mutilkoa. Zelatean da adi geldittu zan ate-ondoan, giltz-zuloan batean belarria, bestean begia ebazala. Ona emen berak entzuniko esataldia edo autua.</p>
+<p><hi rend='Italic'>(Kosepa-koipek beren koi&ntilde;atu Batxiri.) </hi>Maalen guria itxusiya edo ezai&ntilde;a dala esan dabenari gorantziyak emon, Batxi. Surra daukala alakua edo olakua! Surrak emongo deusk. Bai, egon ardura barik! Yuatia bai&ntilde;o eztago Doratio mandazai&ntilde;enera ardautan, surra ederra daukala norberak-eta. Emakumiari biyotzera begiratu biar yako. Maalen guriak barriz, ez aiztia dodalako bai&ntilde;a biyotza i&ntilde;ok ez lakoxia dauko; ta sakela edo ziskua edo diru-zorrua... ikusi nai neuke zei&ntilde; arpegi ederdun berbaldunek dauken ugariyagua.</p>
+<p><hi rend='Italic'>(Kose Kustok Kosepa-koiperi.) </hi>Ama: I&ntilde;esatxuk ontxe be azur da guzti yan dau kerixia.</p>
+<p><hi rend='Italic'>(Kosepa-koipek.) </hi>Bakizu nor zarien zuek, batau ta bestiori? Atorra zaar da prakerre. Eta zueri antxi&ntilde;akuena esan biar yatzue: &laquo;Atorra zaar da prakerre, asarre nintzuan bart bere.&raquo;</p>
+<p><hi rend='Italic'>(I&ntilde;esatxuk.) </hi>Beronek yaten dau ba edozer da edozelan, zurru ta purru?</p>
+<p><hi rend='Italic'>(Kosepa-koipek.) </hi>Euk egin biar dona burua bat txikiyauagaz, ganera mutilla berau izanda? Euk? Urdailla bai&ntilde;o begiyak andiyago daukanazan yatun orrek?</p>
+<p><hi rend='Italic'>(Kose kustok.) </hi>Onek barriz niri, atzo bai&ntilde;o lenagoko egunian, arto-zatiya kolkotik ostu neuri ta yan gero.</p>
+<p><hi rend='Italic'>(Kosepa-koipek.) </hi>Bai, txotxo, onek edozer iri; eu az, eder ori, arto-zatirik asko-ta. Urrenguan ez kolkuan gorde, barrurago bai&ntilde;o. Yan, yan; mutillak buruan be estiak eukitten dabez-da.</p>
+<p><hi rend='Italic'>(Kose Satikak.) </hi>Kosepa, esan dot lenago be: bialdu ekidazuz umiok lotara, entzun biar eleukiezan atsokeririk asko entzun dabez eurok, da guk entzun nai eztoguzan umekeriak ugari entzun doguzalako. Tira, txotxo, lotara; bestela atzetik daroiaan makaillau ori katuari emongo yeutsat.&raquo;</p>
+<p>Onenbestegaz ioan zirean gora Ama-seme-alabaak: Kosepa Koipe, ume biari beso banatatik oratuta; Kose Kusto, begiak bustirik ebazala; I&ntilde;esatxu, musturtuta.</p>
+<p>Ta arako Batxi ta koi&ntilde;atua mai-ganera begira, isillik eta bakarrik, ate-zulotik Urabillak ikusi ebazanean, umeak gabaz legez, kantetan edo erezten uxatu eban Kose Satikari eutsan bildurra; ta onetaraxe agertu zan eurakana.</p>
+<p>Ona emen ingelesen <hi rend='Italic'><foreign>O Susazma, </foreign></hi>Urabillak <hi rend='Italic'>Ai kapro </hi>biurtua.</p>
+<p>Ai Kapron alaba maittia lalaralala,</p>
+<p>Ai geure Lusiana maittia lalala.</p>
+<p>O Susana, oillotxua nok ni;</p>
+<p>Ai Kapron alaba maittia lalaralala.</p>
+<p>Kosepa, Urabillan zaratea entzun ebaneko, goitik asi iakan esaten: &laquo;Buru-andi, i&ntilde;ori buruko mi&ntilde;a egittera zek akar? Ez asko txarrago etorri azan bidetik atzera bai&ntilde;ua, mi&ntilde; luziori; euk sur ederra badaukak, gordeik ondo, etxak i&ntilde;or billa yuango-ta.&raquo;</p>
+<p>Berba onek entzunaz, <hi rend='Italic'>susunkordan </hi>gelditu zan mutil mandataria, zer-esan ezekiala.</p>
+<p>Batxik orduan, urteteko gogotua egoala ez esatearren, lagunen batek zetako edo atako bear izango ebala atxakitzat ipi&ntilde;iaz, iagi ta atera-bidea artu eban.</p>
+<p>Ate-brinbeletik kanporako egozala, Urabillak, beren buru-bagakotasuna agertuaz, lagunari belarrira berba onek esan eutsazan: &laquo;Batxi, gero... entzun dodaz gero kontuak. Maalen, e, Maalen? Maalen plautiri! Badakixu zer di&ntilde;uen?&raquo; On-bila, on-bila, bonbilla.&raquo;</p>
+<p>&mdash;Nor iabilk on-bila, mutil, ez txar-bila bere? &mdash;Nik neuk... u, ara! egiya esateko, Alkatien aurrera eruan da be eztakitt ezer, di&ntilde;uena bai&ntilde;o besterik: bai&ntilde;a Maalen-bonbilla esangotse, zugaz ezkonduten baldin bada.&raquo;</p>
+<p>Eldu zirean onetan lagunakana. Euren artean iazo zana agertu-orduko, ondo izango da gauza batzuk oartutea: 1.a Batxiri Urabillak Aitari legetxez berba egiten eutsala: zuketan beti, iketan i&ntilde;oiz bere ez. 2.a Batxik gazterik edo mutiltxutan Arratiatik urtenarren, Arratiarren antzera <hi rend='Italic'>mutila, iabilk, koipea... </hi>berba egiten ebala, <hi rend='Italic'>mutilla, yabilk, koipia </hi>Satikarren erara esan barik. 3.a Kosepa-koipek Urabillak esaniko guztia ederto aditu ta belarriratu ta gogoan artu ebala.</p>
+<p>Guztizko arrera ona egin eutsen Batxiri lagunak. Anpor andi bi eukezan alkarren aurrean; da euretan iarri zirean, Batxi erdian artuta.</p>
+<p>&laquo;Zetan gengozan atzo? Middlesbrotik Lebrefuelera ninoan, ezta?, esan eban Batxik.</p>
+<p>&mdash;Batxi, erantzun eutsan Urabillak: Eluntzeta ezeizan atzo emen egon; da oba ixango da, zeuk nai bozu, txiki txikittatik astia.</p>
+<p><hi rend='Italic'><foreign>&mdash;Very well.</foreign></hi></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Laugarren agerraldia</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>UMETAKO IKASTEAK</hi></p>
+<p><hi rend='Italic'><foreign>Very well</foreign></hi> esanda gero, Batxi, pipea bedarrez bete ta zurezko arrast bat isiotakoan, edu onetan asi zan beren gertaera edo iazoeraak esaten.</p>
+<p>&laquo;Badakizue, mutilek, zeri esaten iaken kuku-sagarra ta kuku-balea? Bada ni kuku-sagarra lako mutiko gorri gorritxua ta kuku-balea lakoxe tartain tartaine nintzen, Izekotxuk Satikara ekarri nendunean. Amaka urte neukazan. Nire gorputzek eta arimeak ezirudien amakakoak, batera iaioak bere ez: gorputzari ezotsezan i&ntilde;ok ainbatuko bederatzi urtetik gora; arimeari barriz amalau edo amabost urte edozeinek emon euskeozan. Izekotxu ta biok or bide zaarrean beera buruen otzara banagaz, sagarra edo gaztainea edo lurrak ekarrena saldutera ioaten gineanean, arek zirean egunak! Gaur bailitzan gomuta dot: bagatoz etserantz beste batzukaz da abade bigaz topez tope egin genduen ortxe solo-goienean; geitu ostien da asi iatezan <hi rend='Italic'>dotrina </hi>guztie goikoz beera ta azpikoz ganera ta atzekoz eurrera itendu ta itendu. Nik, ez neuk esatearren baie, utsik bere egin barik erantzun neutsien. Abade batak (Jaungoikoak zeruen euki deiela) Aitearen egin euen arritute, Izekotxuk esan euenean nik eneuela ordurarte eskolan oinik imini, nekien guztie zala sutondoan etsean entzun da ikesirikoa. Gero ni urrera ninoala, Abadeak Izekotxugaz luzero egon zirean berbetan. Eztakit zer esan otsien Urrengo astelenean Lekeitioko eskola barrien sartu nendun Izekotxuk. Izen geizto asko ezarri ostezan mutil lagunak: Satika, Arrati, Batxi gurea (au zan, Izekotxuk Batxi gurea esaten euden da agaiti); baite abotxa bere, ao txikie neukelako, esaten osten.</p>
+<p>&mdash;Nik entzutia daukadanez, esan eban Urabillak, <hi rend='Italic'>bira-bira </hi>be esaten eutsuen, Batxi. Bein erderaz <hi rend='Italic'>Kerdua </hi>edo <hi rend='Italic'>Kredua </hi>esaten zengozala <hi rend='Italic'><foreign>y la vida perdurable </foreign></hi>esan bearrian <hi rend='Italic'>bira-bira perdurable </hi>esan eizenduan da gero <hi rend='Italic'>bira-bira </hi>maisuak eta guztiak.</p>
+<p>&mdash;Eztakit ori, baie urte ta erdi (ingiru orixe) eskolan egin neuzanean, meisueri <hi rend='Italic'>birabira </hi>emoten notsan, edo lau ta esku.</p>
+<p>&mdash;Lengo egunian urte bi esan zenduan.</p>
+<p>&mdash;Urabila, nai urte bi nai urte ta erdi, badakit beintzet urte bete baino asko geiago igaro etzana.</p>
+<p>&mdash;Batxi, esan ia arako <hi rend='Italic'>esami&ntilde;etako </hi>yazoeria, Alkatia ikaratuta geldittu zanekua.</p>
+<p>&mdash;Gabon-eurrea zan. Odeiak egotzi-ala edur, ieusi zen egun atan; biregarrotan bere kolkokadea koiu (?) neuen orduen. Besteak baino belutxuago eldu nintzen eskolara. Meisuek, Izekotxuri mandatu bat bialduarren, uste euen enintzela ioango ta larri egoan. Eskolara sartu nintzenean, aren poza! Abadeari ta Alkateari belarrire zer edo zer esan otsen, da burutik beatzetara ondo aitu osten guztiek. Alkatea asi iaten lenengo lenengo; erderarik ezekien berak gitxi baino; baie arrokeriegaiti, ala eztakit zegaiti, erderaz asi iaten. Nik barriz erdera ura legez ikesi neuen, da erantzuten asi nintzen <hi rend='Italic'>zarta, zarta, zarta. </hi>Alkateak buruegaz baietz esaten euen beti; baie begietan igarri notsen: ezeuen nire erderarik ondo ulertu. Beste batzuk bere edozer itandu ostien: liburuak ezeukezanak bere bai. &laquo;On neure sanyia,&raquo; esan euen Abadeak, eta ortiko ta emetiko ingurumari guztiek arakatu eragin ostezan da uts baten koiu ezin izan nendunean, &laquo;yausiko az ba, polit ori; bestela, igarten bok, neugaz bazkalduko dok gaur&raquo; esanda, itaune auxe egin euen. &laquo;Nundik sartzen da Elizara?&raquo; Neuk neure artean: &laquo;emen lakioa dago.&raquo; Egon nintzen luzerotxu Alkate-makileari begire, guztiek egozan aoa zabalik neuk zer-esango; ta onelantxe erantzun neuen: &laquo;Eleizako gizategira bakotxek al deian lekutik sartuten gara; Eleizara bertara barriz Bataiotik: eztago beste aterik.&raquo; &laquo;Zelan izan leike ori?&raquo; esan osten berak; eta nik orduen: &laquo;Esate baterako, gizon batek sartu gure deu San Krispi&ntilde;en anaikide edo kofradien, da San Krispi&ntilde;en lagun onek batu deitezala Goiko kaleko ardantegi edo tabema zarrean. Onegaiti esango dogu ardantegi orretara doazan guztiek direala San Krispi&ntilde;en anaikide edo kofradikoak? Ez. Eleizea bere anaikide bat da, eta batzarrak egiteko etse andi batzuk deukiez, Eleiz-izenekoak onek bere. Doala bat etse orretara. Elizan sartuta dago? Elizeagaiti batzartokie edo gizategie artuezkero, bai; Elizeagaiti anaikidea edo alkartasuna artuezkero, ez. Eleizako anaikide orretan (benetako Elizan) sartuteko zer da egin bear dana? Bateatu.&raquo; Au esan neuenean, Abadea etorri iaten neu nengoan lekure ta mosu egin osten. Gero esan otsen meisueri: Au entzunezkero, zer geiyago entzungo dogu? Ni bai&ntilde;o geiyago az, txotxo. Ator ointxe neugaz esanda&raquo; bazkaritera eroan nendun.</p>
+<p>&mdash;Batxi: emen di&ntilde;ue ze lengo eguneko esaeran arratsaldian ixan ziriala <hi rend='Italic'>esami&ntilde;ak.</hi></p>
+<p>&mdash;Ori beste urteren baten izengo zoan, Urabila. Ni, ez neuk esatearren baie, lotsaturik nengoan. Abadeak ian bere gitxi egin euen egurdi atan: neuri begire egoan beti. Azkenean eskupeko ederra emon da gero, esan osten (etxat eguno bere aiztuko) argiegia nintzela, ta iltea nai ezpanendun, eskolatik ainbat goizen urteteko. &laquo;Arimia geiyegi azi yak, esan osten beren berbakeran, gorputza gitxiegi; ta itxi eikezak liburuok eta yuan ai itxasora, eta andi egi&ntilde;arte, ez libururik gomutara ekarri. Andi egindakuan, neuk egingo aut, euk nai bok, Eleizgizon, neure kontura; urte bete naikua ixangok ik, bestiak sei edo zazpi urtetan egitten dabena egitteko.&raquo;</p>
+<p>Izekotxuri esan notsen zer iazo iaten; da, ondo gomuta dot, biok alkarregaz ioan ginean urira urrengo egunean, eskolako atarteragino. Ni beti legez barrure ioan nintzen; da Izekotxu abadeanera. Meisuek (Markina-aldekoa zan bera) ikusi nendunean, asarrez aitu ta esan osten: &laquo;Batxi: edo eu, edo neu.&raquo; Ni isilik nengoan, zer zan enekiela. &laquo;Batxi oi&ntilde;artekuek be naikue jituguk: edo eu maisu, edo neu maisu. Eskola baterako geixegi gaituk bi. Atzo lotsatu egin nenduan: ez juat geixago lotsatu nai.&raquo; Nik esan notsen: &laquo;Jaune, ba, Jaune, eztot uste geuze txarrik egin dodanik. &mdash;Geixegixa beti da txarra; geixegi ikastie be bai. Goguez kontra sarri ikesten izen dok: euk nai eztuala, buru andi sakon orretan gauza asko sartu dozak urte onetan. Dana dala: edo eu, edo neu.&raquo;</p>
+<p>Onek entzun neuzanean, batetik Abadeak esanikoa neukan gogoan, laster ilgo nintzena; bestetik meisuek seme-alaba asko ta etorri gitxi eukezan; da etxaten eder egiten gizeisoari ogi-bidea kendutea; ta mutilek, zer egin neuela uste dozue? Txapela artu, ikusi-arte agur egin, ta gero Izekotxugana ioan nintzen. Eta eztot damu bere.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Boskarren agerraldia</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>ITXASMUTILLETAN</hi></p>
+<p><hi rend='Italic'>&laquo;Ondo eginen pagoa, atondoan paloa;&raquo; </hi>baie <hi rend='Italic'>egizu egileari </hi>bere esaten da ta nik beintzet eztot damu ondo egine: esan eban Batxik. Nik meisuegaitik egin nebana (eskola-meisu izateari istea) egin ezpaneu, eneuen gero izen dodan zoririk eta adu onik izengo.</p>
+<p>&mdash;Batxi, gero geldi geldi esan gero on datorrena, politta da-ta.</p>
+<p>&mdash;Urabila, ez neuk esatearren baie, niri iazo iatezan geuzekaz liburu eundi bet egin lei. Apurren baten ibili nintzen arrantzale Lekeition, marie erdiko, lenengo egun batzuetan baino ezpazan bere. Sartu ta urrengo astean marie osoa emon ostien &mdash;gero esango dot zegaiti&mdash; eta geiago bere emoteko egozan, neuk arrantzuan lotu gure izen baneu.</p>
+<p>&mdash;Esan ia, Batxi, zegaittik urten zenduan, nai dan barria egin daigun.</p>
+<p>&mdash;Itxasora-ostera abie-orduko, Izekotxuk, negue zala-ta, etsean euki nendun iru-ilebete edo lauten. Ude barrie ondo eldute egoala, Doniane-aurretxuen, Simon-gorrin txalupen sartu nintzen, len esan dodan legez, marie erdiko. Neu geur legez sartu ta arik zortzi egunera atunetan asi ginean, edo obeto esateko egalaburretan; bada lurrak lenengo lenengo dakazan ikoai ikolorak legez, itxasoak lenengo lenengo dakazan atunei, egalaburrek esaten iake. Ta badakizue zegaiti?</p>
+<p>&mdash;Batxi, esan eban Urabillak; emen di&ntilde;ue ze geu be ezkariela Otxandiyon yaiyuak, egalaburra ta egaluzia zertzuk dirian ez yakitteko.</p>
+<p>&mdash;Tire ba, tire ba. Badakizue, ezta? nik esan bearrik ezteukezue ta eurrera. Lenengotan loa neriola ioaten nintzen, baie gero, Abe Marie!! egunek txirrist egin-orduko, Batxi gora iagiten zan. Banenbilen da banenbilen, etseti kaira, kaiti munduen atzenera, munduen atzeneti kaira, kaiti etsera; ta olantxe ibili beti. Lenengo egunetan sartu-barrie nintzen da, maite nenduen baie, isilik ibili bear, zer ba? Baie gero txalupen etsekotu nintzenean, mutilek, guztiek egoten zirean neuri aora begire. Amuek lengoen ordez barriek asmeu neuzan, atunetako birrari edo firu sendoak baltzezkotu neuk eragin notsiezan; da beste onelangoxe asmo batzukaiti, nire besoak inder asko euki ezarren, marie osoa emon ostien. Simon gorri etzan pozik gelditu; bada semea euken, da semeak sei ilebete itxesoan eroanarren, marie erdiko baino etzan; baie tire... Auske bere sarri egin gendun Simon gorrin semeak eta nik; baie tire... au bere ezta esakizuntzet artu bear.</p>
+<p>&mdash;Batxi, zelan zan arako olezko atunena?</p>
+<p>&mdash;Aotik kendu deustek atune, Urabila. Gizonak legez marie osoa ipini ostenean, esan notsen neure burueri: &laquo;Batxi &mdash;Zer.?&mdash; Ik eztekok gizonak beste inder besoetan; baie beste inder batzuk dekozak ik. Gizonak gorputza nekatuten dauden artean, ik burue nekatu bear izengo dok.&raquo; Asi nintzen orduen geuze guztiek ondo aitu ta arakatuten. Beste geuze askotan barrireztasune sartu lei, baie asi geizen lenengo ertz bateti: karnatati. Karnatea esaten dautse Bizkaian...</p>
+<p>&mdash;Batxi, ezkariela Otxandiyotarrak.</p>
+<p>&mdash;Baie, Urabila, au eztakizue: Donostien <hi rend='Italic'>beita </hi>esaten iako emengo karnateari. Emen <hi rend='Italic'>malutea, </hi>Arratien <hi rend='Italic'>mokoloa </hi>ta <hi rend='Italic'>kapatxa </hi>bere bai esten iako, atunek koixuteko amu-ertzean ipinten dan karnateari. Ta ementxe asi nintzen burue austen. Goizalde baten bat edo bi ezeze beste guztiok lo gengozala, <hi rend='Italic'>dapa, </hi>bat batera itzertu nintzen da iretzartu neuzan lagunek. Mutilek, esan notsen, gure dozue biertik eurrera geur arte baino eun bider atun geiago artu? Konkortute egozan, au entzun ebenean. Ames bat euki dot. Atunek koixuteko kapatxa edo maluten ondoan beste zerbait ipini bear zala, atzo buruek emon osten: burutasun onetxegaz loak artu nendun, da gero... baie artez berba egin bear da.</p>
+<p>&mdash;Batxi, esan gero Simon gorrik esanikua be.</p>
+<p>&mdash;Baite ori bere, Urabila. Gizonak, esan notsen, txoriek koiuteko, zein da biderik onena? txorie. Kaiola-txoriek kaiola-txoriekana, larratxoriek larratxoriekana ta txirrizkilek txirrizkilekana, lendik erreta ezpadagoz, itsu itsurik etorten dire: lika-puske bat adarrean ipini ta gero kolkora kaiolatxori ta larratxori ta txirrizkilek. Ezta egie? Usategi batera usoak urrunetik etorri deitezan, zein izaten da eroakarririk onena? Usoa: benetakoa edo antzeraturikoa. Ezta egie? Oiloak arreutzek egiten asteko, zein izaten da egikarririk egokiena? Arreutzea. Ta agaiti baserrietan abizarie iminten iako oiloari abien, eta bera izeten da arreutze utse karez baterikoa, eta alan oiloa igerri barik legez aurreutzek egiten asten da. Atunek koiuteko, zein dala uste dozue karnatarik onena, abizaririk egokiena? Mokoloa edo molutea? Ez. Zein bada? Beste atun bet.</p>
+<p>&mdash;&laquo;Demonimes demonimesa&raquo; esan euen orduen Simon gorrik. Txo, Satika, lo dagozan gixonak onetarako iratzartu dozak? Uste dok itxasuan liorrian lez dala? <hi rend='Italic'>Mokoloa </hi>di&ntilde;o berorrek, <hi rend='Italic'>mokoloa. </hi>Zer dok ori? Surrak eriyonian dagozala lo eittia?&mdash;Baie Simon... &mdash;Zelako Simon? Satikako soluetan gariyak urteteko gariya ereitten dan lez, uste dok, atunak uretatik atarateko, atunak erei&ntilde; biar diriala? Egalaburra ezta gero artaburua. &mdash;Simon, esan notsen, Simon: besterik ezpalitz bere, mokoloa edo malutea urrunetik ezin ikusi leike, atuna barriz, zurezkoa izan deitela ur-azalean egon daitean da <hi rend='Italic'>Santa-legua-</hi>ti ikusiko leukie ta gero... &mdash;Egiya, esan euen batek. &mdash;Ezta egiya, guzurra bai&ntilde;o, erantzun euen Simonek.&raquo;</p>
+<p>Eta alanik batak esan, besteak erantzun, eztabaida gogor bat euki euden Simon gorrik nire aldeko agurea zuritu ezin izen euenean, erramue goratu ta iotera ioan zan. Nik au ikusi neuenean, sartu nintzen euren artean, da esan notsen: gizonak, nigaiti eztot gure asarratu zaitezen. Banue ni. Auxe esanda, <hi rend='Italic'>blaust, </hi>itxasoan must egin da urpe edo mustuger asi nintzen. Gero iakin neuenez, guztiek arritu zirean, da baketu bere bai.</p>
+<p>&mdash;Da etzi&ntilde;ian itto, e?</p>
+<p>&mdash;Esango ioat, Urabila. Atunetako txalupek, aizea eukiezkero, aizea bera baino bere bizkorrago ibilten dire, burutasuna legez bizkor. Neu uretan sartu te batera, iaurtu eben txalupea neure bile. Nik ikusi neuzanean, eurei ikera bat emotearren, must egin neuen errirentz. Eldu zireanean, Simon gorri bera, zaarra izenarren, beragaiti must egin neuela ta, uretan sartu zen neure bile: beste gizon bi bere bai. Ni andi ia ordu-laurenera azalera urten da burue atara neuenean, nigandi urrun egoan txalupea. Bat edo batek ikusi bear izan nendun, da itota urdaile puztute agertu nintzelakoan, neugana etorri zirean; nik bigarrenean bere must egin da ordu-lauren baino luzeroago urpe ibili ta burue agertu neuenean, etzan txalupea agiri. Orduen esan notsen neure burueri &laquo;Batxi: astiro astiro goazan.&raquo; Uger da uger, A zan uger egitea! Egun da erdi barru eldu nintzen Bermeo-ondoko-atxarte batera. Urabila, enintzen ito.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Seigarren agerraldia</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>ZORGINDU EBENEKOA</hi></p>
+<p>&mdash;Batxi, esan eutsan Urabillak itto ez, bai&ntilde;a ikaratu edo estutu edo larrittu edo keixu ixan edo (eztakitt zer esan be ba) egingo zi&ntilde;ian orraiti&ntilde;o?</p>
+<p>&mdash;Urabila, bide-erdi-ingurure eldu nintzenean ol andi batzuk aurkitu neuzan, da, ez nekatuta nengoalako, gose nintzelako baino, euren ganean ordu ta erdi igaro iatazan.</p>
+<p>&mdash;Zigarrotxu bat edo beste erreteko astiya ixan zenduan orretara-ezkero.</p>
+<p>&mdash;Asto kokoloa! Zigarroa dinok?</p>
+<p>&mdash;Ori bai&ntilde;o gauza andiyagorik entzun deutsut eta...</p>
+<p>&mdash;Enekien zigarrorik erreten, bestela nundik edo andik eskuratuko nendun ori bere. Urabila, Lekeitiorako leia edo priesatxue dauket eta neuk esango dot esateko daukedana.</p>
+<p>&mdash;Berandu ezta izango Lekeitiorako, bederatziyak be ba dira-ta?</p>
+<p>&mdash;Kokolo orrek, zer dinok? Oin enago Lekeitiorako, orduantxe baino. Onetara bagoaz, eztot inoiz amaituko ta ago isilik.</p>
+<p>Banago zuren ganean, alkondarea erdi-usteldute neuken da, part! uretara iaurtigi nendun, da gizona, nok esango leuke? nire aragi zurie ikusi euenean, txibi-azurra zalakoan, ainbat tximini txiki etorri iatazan. Au zan bat, bestea ondiokarren andiegoa: bero berotan irakiten legez gelditu nintzen. Badakizu gero udako gaueletan zelanik atsoak egoten direan <hi rend='Italic'>txut</hi> orain, <hi rend='Italic'>txut</hi> gero, nai ta bere lorik egin ezinik, ardiakaz egon ezinda? Onetaraxe nengoan ni zur-ganean lo-gure ta egin ezinik, ardien ordez tximinoiak <hi rend='Italic'>pik </hi>orti, <hi rend='Italic'>pik </hi>emendi egiten eustiela. Zeinbat eta artuago ainbet geiago etorten iatazan. Gordinik ian nendun bat edo beste, baie, mutilek, ezta ona. Ordurarte etxatan gogora etorri: neuk kaltzerpean neuken sue ta ez gitxi, ta zer egin neuen? Artu esku bategaz arrain bat edo bi, txikiak izanezkero, ta beste esku-aldeko kaltzerpean apurtxu baten euki ta egosita urteten ostien. Gauza gozoagorik ostatuen bere ez arean. Gaurrarte egongo nintzen ni bertan, baie etserako gogotxue etorri iatan da goizaldean izarrai begiretu ta non nengoan gitxi bat gora-bera igarri ta tximinoiari agur eginde, geldi geldi, abuazil bat egurdi-eurrean legez, erri-alderantza etorri nintzen. Amarrak zirean ni Lekeitio-ondora eldueran. Ni orduantxe sartu neitekean, baie neuk atara neuen kontua: &laquo;Batxi, alkondararik eztaukek, ire kaltzari onezkero kaltzerdiek imini lekioe izentzat, eta etxak eder egiten erdi-biloizik kalerik kale ioatea.&raquo; Ta zer egin neuela esango zeukie? Amaikak ioarte, ur-goreari kaian sartuteko begira egoten direan ontzi andien antzera, ni bere eskolako mutiltxuek uger egitera etorriarte begire egon nintzen.</p>
+<p>Agertu zirean eskola-mutilek alako baten, iaurtigi euezan txapelak gora goraka, ondartzera edo aretzara eldutakoan, da txapelak iausi zirean tokietan erantzi edo biloiztuta, bata baino bestea arinago uretara sartu zirean. &laquo;Ia Batxi, ortxe az ba&raquo; esan notsen neure burueri ta lau besakadatan, egin kontu, eldu nintzen euren urrera; must egin da must-uger sartu nintzen euren artean. Mutiko gaisoak! Aren ikarea ta izue ta estualdie! &laquo;Igarabiria, igarabiria dator&raquo; esanda, biloiz biloizik, egozan legez, ioan zirean mendiraino igesi. Nik orduan makur makur eginde, aretzara ioan da mutiltxuen alkondara bi edo irugaz neutzat bat eginde, uretan sartu barriro ta kaira ioan nintzen.</p>
+<p>Eskola bateko ume, <hi rend='Italic'>Jesus abezean </hi>dabilzanak, eztabe esaten goiz osoan, ni ikusitakoan esan zirean beste <hi rend='Italic'>ene. </hi>Atso guztiek egozan aitearen-ka, ta ene-ka. Ene semetxua! Illarra atzo ixan tzan aremaittakuetan. Lekitto guztian zabaldu ra, Otoiyo lakoxe baloi andi batek iruntzi auana.</p>
+<p>&mdash;Ene bara ta ni! Satikak neure semien alkondaria dakar soi&ntilde;ian, da egingo neuke baloiak iruntzi dabela neure semia be. Ene bara ta ni!</p>
+<p>&mdash;Erdu koittaru ori, gurian, etxe probia-ra ta, Kaungoikuen graziya bai&ntilde;o besterik eztago bai&ntilde;a.</p>
+<p>Zer egiten neban bere enekiala legez, eroan ninduan beragaz atso batek. Emon osten iaten, aldagarriak bere emon ostezan da lotara bialdu ninduen. Urrengo egunean neure elizkarietara ioateko egozanak neu ikustera etorri zirean. Edozein txalupa iaubek eroan gure izen ninduen beragaz; baie nik, neure alde urten euen agureari dei egin de, esan notsen: Ioane, nai zor nai lor, txalupe barri bet egin bear dozu. Aste ta erdi barru zorrak garbitu ta nai beste diru eukiko dozu. Zelanik, iakin gure izengo dozu? Egin deiguzan zurezko atunak sei edo zazpi. Guztia bere zer izango da? Amar errealen gora-beerea.&raquo;</p>
+<p>Aste ta erdi barru, itxasoko atun guztiek geuri begire egozala esan zeikean. Mutilek! Beste txalupe zaar bat, Madalena-ondoan ustelduten bedartzan egoan bat, zelan edo alan azpi erdiekaz ipi&ntilde;i ta arraina ekarteko geure atzetik eroaten genduen. Andiki bat ezkonduten danean, zelan egoten dira alberrietako oilloak sanyea edo txandea artuten andiki-etsera sartuteko? Alantxe egoten zirean atunek, geure amuetan katigatuteko astia artu ezinik. Eta beste txalupe guztiek utsik.</p>
+<p>Zer esango zeunkie egin ostela ni erritik kanpora bialduteko? Zorginek neukezala edo zorgine nintzela asmau ostien. Egun baten banator, itxaso-erdie atun biurtute neugez nekarrela, ta oina nasan (Nasa, erderaz <hi rend='Italic'>molle </hi>(?) da, Urabila) imini neueneko, Simon zaarrak mutiko batzuri (onek orduko egozan txapelkada arria besoetan ebela) esan otsien: &laquo;Txo, bota ardura barik arri orrek Satikari arpegira, mi&ntilde;ik ezteutse egingota, zorgi&ntilde;a-ra ta.&raquo;</p>
+<p>Neure buruaz bakeak egiteko (bestela nor edo nor ilgo neban) erritik kanpora iges egin bear izan neuen.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Zazpigarren agerraldia</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>BATXI IZENA OSTUTA</hi></p>
+<p>Batxi, esan eutsan Urabillak, zuk naiyago ixango dozu gugaz bai&ntilde;o neuk dakidan bategaz egon, da oba ixango da bakotxa beren abira yuatia.</p>
+<p>&mdash;Urabila, zegaiti dinok ori?</p>
+<p>&mdash;Esan-biarra dago? Maalen-plautiri sartun da zeuenian.</p>
+<p>&mdash;Galduak gozak orduan. Ointxe ezin ioan neikek etsera.</p>
+<p>&mdash;Zer ba?</p>
+<p>&mdash;Zelan esan dot eskuz gura gaine arrain koiu neuzala, arako egun da erdien itxasoan egon nintzenean? Bada orduxean itxas-kabra andi bet etorri iatan esku-artera ta euxe aginekaz da al neuen moduen ezarri notsan lepo-ganean, ezpi-ondo ondoan: 1864-BATXI.</p>
+<p>Ta gizona, aiztuta neuken nik; eta goizeon, gaur gero, gaur goizeon banago Aizurdipean arrainetan, da ara ots baten eroan iaustek kordeleta urrun, amora emon nik beti, &laquo;euk gogaituko dok, arraine, nik baino lenago,&raquo; emon nik amora, errie errie errie; ta ordu-erdi garrenean, ito izengo dala uste izen dodanean, ala ala ala txakurre lango itxaskabra eundi ikaragarri bet koiu dot. Amue ataraten da zakatza austen nagoala, begiretu dotsat lepora, ta nok sinistuko leuke ikusi barik? Ezpi-ondo ondoan, 1864-BATXI euki deu lepoan ezarrite. Ogeta amar urtean Batxin izena lepoan dauela itxasoak eusten ibili dan arrainari, nok esango otsen Batxin eskuetara etorri bear euela? Zakatza eusi ezpanotso, gizona, buzten-ganean ipiniko notsan neure izena ingelesak esaten ostiena: 1894-BASKISH; baie orduko il iat eta etsera ekarri-bearrean Iparragirreko Kosantoneri bialdu dotsat, txikitako lagune bere bada-ta.</p>
+<p>&mdash;Orrek zer dauko zer-ikusi Maalen-plautiri ona etortiaz?</p>
+<p>&mdash;Euki ez, ostera? Iparragirren sarri egoten dok ori, ikusiko ioan arraine, ta bertakoak uketu gure izenarren, arrainek antxe agertu izengo ioan nire izena, ta aor suak arturik etorri izengo de ori, berorrentzat ekarri eztodalako.</p>
+<p>&mdash;Aulan bai. Orretaraezkero Maalen or daguan artian, ezin etxera yuan zeikez, e?</p>
+<p>&mdash;Eztok etxura.</p>
+<p>&mdash;Orduan-a, Santa Katali&ntilde;a, egon gaixan beste pixkaten, ontxe dator polittena ta. Batxi, Zumaiyarrena ta Ingalatierrakua ta Donostiakua ta eztatoz ontxe?</p>
+<p>&mdash;Lelengo lelengo Zumaiyarrena, gero Donostiekoa ta gero Ingalaterrakoa ta alanik.</p>
+<p>&mdash;Tira ba.</p>
+<p>&mdash;Lekeitiotik zorgin-izena arrika lepoan ezarri-ostenean, ibili ta ibili ta ibili (orduen ez egoan bide barririk) Ondarroaraino enintzen gelditu. Nire ustea zan Donostiera eldu ta andi Frantziera edo norabait gizon egitera ioatea. Ondarroako zubire eldu nintzenien, ardantegi-batera sartu nintzen, zein zan Donostiera-bidea iakitera. Mutilek, arpegien igerri bear izen ostien dirurik eneukena; ta an egozan marinel batzuk esan ostien:</p>
+<p>&laquo;Lekaittioko itxas-sapuu: ire urdailliin aspaldiyon ezta gauza andirik sartu ta beste ordu betiin jan barik baengo, abadii etorriko litzake oliazi&ntilde;oiaz, da artuik ze o zer, il bai&ntilde;o lenago, geure kontura, koittau orrek.&raquo;</p>
+<p>Mutilek, eztozu Ondarrutarrak langorik ikusi. Adiskide askok baino Ondarrutar arerio batek sarri mesede geiago egiten daki. Alkar ikusi ezinik egozan orduen Ondarrutarrak eta Lekeitiarrak, eta a ta guzti bere errukitu ta gura neuen beste sagardao ta ogi emon ostien. Ni orduen oker-samarra nintzen, da eskerrak emon-bearrean, badakizue zer esan notsien? &laquo;Agur, Apostoluek.&raquo; Eta au esanaz, arineketan asi nintzen zubien zear. Atzera begiretu neuenean, bost ukubil ikusi ta zemai andiek entzun neuzan. <hi rend='Italic'>Zemaiek </hi>esateko gure errien <hi rend='Italic'>amenazuek </hi>esaten da.</p>
+<p>&mdash;Lenago be ittandu neutsun Apostoluak zegaitik esaten deutsen Ondarrutarrai Lekeitiarrak.</p>
+<p>&mdash;Ortozik sarri ibilten direalako.</p>
+<p>Gau-ilunean eldu nintzen Zumaiara ta txalupa baten barruen lo egin neuen. Goizean goizeti eguzkiez batera ioan nintzen bonbo batera. Bonboa esaten da gure itxaserrietan Galiziarren <hi rend='Italic'><foreign>Falucho</foreign>, </hi>ingelesen <hi rend='Italic'><foreign>Vessel</foreign>-</hi>gaiti<hi rend='Italic'>. </hi>Patroiekana ioan da esan notsen ia ezeuken nietzat ogibiderik. Nor da nungue nintzen itandu ostenean, enotsan esan gura izen Batxi Satika nintzenik, osterantzean eztakit zer iazoko zan-da. Txotxo-tzat artu ninduen. Iru ilebetean nik irepaziriko diruegaz Lekeitio barri bet Satikan egin leike.</p>
+<p>&mdash;Lenago Bilbo esan zenduan, on Lekeitio.</p>
+<p>&mdash;Gizona, asko gitxiago bere ez.</p>
+<p>&mdash;Ainbeste diru zelan?</p>
+<p>&mdash;Batetik <hi rend='Italic'>pleit </hi>onak (gaur galdute dago <hi rend='Italic'>kabotajea), </hi>bestetik <hi rend='Italic'>kontrabandue. </hi>Urabila, nik orduen, neuk gura izenezkero sartuko nendun kontrabandue, sartuko nendun karabineruen begi begitik, eurak ikusi barik.</p>
+<p>Bagatoz bein Baionati Donostiera ta Iaungoikoaren asarreak, aberastasun larregi gura genduelako, putz egin da bota ginduzen Amen etsera itxasoen erdi erdira. Alakorik! Orduko aizetea ta ekatxa langorik eztau gizonen begik ikusi. Gure ontziek masta bi eukazan da biek zati zati egin euskuzan aizeak; da geure buruek osorik atara gura bagenduzan, zer egin bear izan genduela uste dozue? Artu urrezko erloio edo orduari ederrak eta, part! itxasora, artu diramantezko belarritakoak eta, part! artu eskuturretako baliotsuak ederren ederraz begiratu ezin lekioenak eta, part! Orduen itxasora ieurtigi genduzan aberastasunek emen pilotuta balegoz, beste munduren baten zagozela uste izengo zeunkie.</p>
+<p>Ta au egin ezpagendu ondora ioango ginean. Urabila! Nok esango leuke nire mosuko bizar erdi-gorri erdi-urdin onei begiretute, nik onenbeste aberastasunegaz neure burue itxasoari erosi neutsela?</p>
+<p>&mdash;Zelan etorri zi&ntilde;ean ba liorrera mastak zatitu eukiezkero?</p>
+<p>&mdash;Ori etzan gauza gatxena. Aizea eukiezkero, edozer egin leike, baie guk aizerik ez. Gizonak ezekien zer-egin. &laquo;Ia Bizkai, esan osten patroiek, ia Bizkai, guk eztegu asmatzen nola demontre juun lezaken Donostira aize gabe ta arraunik ere gabe. Ia Bizkai.&raquo; Nik orduen esan notsen: &laquo;neuk esaten dodana egiten bada, ogetalau ordu baino lenago Donostien sartuko gara.&raquo; Neuk gure nebana egiteko esan ostenean, eskatu neuen iketza ta ezegoan, arrasta edo su egiteko <hi rend='Italic'>posporoa </hi>ta ezegoan. Gizonak, esan notsen orduen, zuek gurago izango dozue Donostiera ontzi erdiaz eldutea, ontzi osoaz itxasoan gelditutea baino, ezta?</p>
+<p>&mdash;&laquo;Zer esanik ere etziok&raquo; erantzun osten batek. Bada (nik orduen) bada ontzi erdiegaz Donostiera elduteko, beste ontzi erdie erre bear da. Ezostien au ulertu, baie an egozan zortzi beso neuk esaten neuena egiteko, zabal zabalik.</p>
+<p>Kareleko ol guztie kendu genduen lenengo, zatitu bere bai, ta zatiek zatiekaz zuzitu ta ezkotasuna edo ur guztie kendu, alkar igortziez su egin, da gero ipini genduen bela eeundi bet oerako txanoa legez beera begire. Eztozue inoiz ikusi, mutilek, komedianteak Lekeitiora datozanean, zelanik ipinten daudien Eliza-aurrean <hi rend='Italic'>globo </hi>bat eta dingilizka iru edo lau katakuma; ta zelan sue egiten daudien, da ke guztie globoan sartute, globoa gora ta gora zeruetan ostendu edo ezkuta-arte katakumak lagun dabezala ioaten dan? Geu ginean, egin kontu, katakumak; neu <hi rend='Italic'>komediantea; </hi>ontzi erdie egurtuta sua egin da beren kea bela andi baten barruen sartute, zeruko aize-puskarik bere ezegoala, ziri zara ziri zara Donostien sartu ginean. Orduen patroiek ukabillaz belaunburue iota, &laquo;Txotxo: eo alde txarrekua, eo Batxi Satika aiz i&raquo;, esan euen.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Zortzigarren agerraldia</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>ARTZAI&Ntilde;AK ASARRATU, GAZTAIAK AGERTU</hi></p>
+<p>Donostiako iazoeraak esaten asi ta batera zarata bat entzun eban Batxik beren etxe-inguruan, eta isillik eta adi ta zurt egoan zer etezan ezekiala. Madalen Plautiri ta Kose Satika zirean atea edegi ta urten ebenak.</p>
+<p>Batxi ta lagunak orduan, euren arnasea zurrust egi&ntilde;az, gerizea batu nairik, geldi geldi egon zirean. Arek ostendutakoan, Batxik etxeratu bere nai eban, ez bere bai... Baeteekian berak barruak zer eskatuten eutsan?</p>
+<p>Koseparen eki&ntilde;ak bai&ntilde;o Kose-ren astuntasunak ardura geiago emoten eutsan. Izan balitz bera esku-zabala... diruaganako ain itsutua izan ezpalitz... diruaz edegiten eztan aterik, samurtuten eztan biotzik, baketu ta baretu edo iabalduten eztan aserrerik eztago ta etxeratuko zan; bai&ntilde;a... zer edo zer aaztu bailitzakion, beera begira ta atzazalak iaten egoan.</p>
+<p>&mdash;Onan egoteko gara, Batxi? Goiazan, goiazan etxera ta lotara; ta nigaittik-i lorik egin nai ezpada be... guztia be zer ixango da ba? Biyar iru sermo entzun-biarra: bat Elixan, bi etxian: aor nun dirian iru. Etzi beste iru ta or konpon. Tira, Batxi, perretxikotu barik: edo atzera, edo aurrera. Ogei esanda yuango gara. Bat... bi... iru...</p>
+<p>&mdash;Ogei, esan eban Batxik, irri-barrezka zutunduaz. Urabilla: umea gizonduteko, urte asko bear izaten dira; gizona umetuteko, gau bat izaten da naikoa.</p>
+<p>Aurrera: datorrena datorrela. Urabila; io ate ori ta ikusiko dogu Kosepak zer dinoan.&raquo;</p>
+<p>Lagunak orduantxe etxera bidea artu eben. Urabillak io eban atea ta auzoko txakur guztiak itzartu edo esnatu zirean. Kosepak ezeban itzartu zaneko ezaugarririk emon. Bigarrenean ots egin ebanean bere, txakurrak bakarrik erantzun eutsen. Irugarrenez atea io ebanean, agertu zirean eskerreko aldetik Madalen Plautiri ta Kose Satika.</p>
+<p>&mdash;Iparragirren eidago ostatu ona: biar dabenak, antxe eskatu, esan eban Madalenek.</p>
+<p>&mdash;Urabillak barriz destai&ntilde;az erezi eban:</p>
+<p><hi rend='Italic'>Madalen Busturiko </hi></p>
+<p><hi rend='Italic'>astian birritan </hi></p>
+<p><hi rend='Italic'>Bilbora yuaten da </hi></p>
+<p><hi rend='Italic'>botika gorritan.</hi></p>
+<p>Eta Madalenek: &laquo;Urabilla i nor azan badakik? Badakik toilla zer dan, itxasoko arrai&ntilde;ik bastuena? Axe bai&ntilde;o be bastuago az i.&raquo;</p>
+<p>Urabillak lengo soi&ntilde;uaz:</p>
+<p><hi rend='Italic'>Madalen Busturikok </hi></p>
+<p><hi rend='Italic'>gabian gabian </hi></p>
+<p><hi rend='Italic'>errondia darabill </hi></p>
+<p><hi rend='Italic'>bere portalian.</hi></p>
+<p>Onetan agertu zan Kosepa ta buruko zapia lotuten ziarduala, esan eban.</p>
+<p>Eztogula guk i&ntilde;or biar: geu gara gu naikua. Orrutz! Iparragirrera egunez, da gabaz Satikara? Eztogu biar gabontzik.</p>
+<p>Urabillak orduan astiro astiro ta burua okertuta:</p>
+<p><hi rend='Italic'>Ai Madalen Madalen </hi></p>
+<p><hi rend='Italic'>Ai Madalen.</hi></p>
+<p>Kosepak berari: Urabillako buru andi, orra banaiyatok, aurreko agi&ntilde; andi prantzes-txirritxirriyen agi&ntilde; andiyok kenduko dauadaz. Yuadi eure etxera, astoko; ta kantaiyok antxe eure arreba papu-andiri Batxik ekarririko kanta ganora bakua.</p>
+<p>&mdash;Batxi isilik dago, esan eban Batxik berak.</p>
+<p>&mdash;Baitta geure kortako idi ta txalak be ixillik yagozak. Entzun dozue Iparragirren daguala ostatu ona ta eztaukagu zer-esan geiyago. Kose, neu be eugaz naiyoiak, Madaleneri lagun egittera.</p>
+<p>&mdash;Orrek esan nai dau ze (iarraitu eban Urabillak) emen-e Maalenegaittik euki dabela Batxi, lengusua dalako ez.</p>
+<p>&mdash;Orrek esan nai dau ze i-lako umiakin dabillen gixona eztala gixona; ta eztabela ezkonduteko asmorik artu biar, txori-abiyatan ibilli bai&ntilde;o.</p>
+<p>&mdash;Aunetxek emon yeustak ontxe ogeta amaika esku eskutik! Atzo be neugaz ebillen Batxi, arai&ntilde;egun be bai, arai&ntilde;egun-atxeti be bai; baitta astelenian be, arako Maalenen Ama neugana etorritta neuk dakidan gauza bat esan eustanian.</p>
+<p>&mdash;Guzurra be berbia da, Urabilla.</p>
+<p>&mdash;Da guzurra da, Madalen, atzo arratsaldian geurian egon zi&ntilde;iala ta geure Amari zeuk esan zeutsala Batxik aurreskua egitteko biyar, neu ixateko neskaak ataratekua; ta atara biar zirianian Elixapian egongo zi&ntilde;iala zeu? Guzurra da?</p>
+<p>&mdash;Lotsabaga lotsabagiori, ume gorri, baba-lasto, tentel...</p>
+<p>&mdash;Urabillak orduan, txapela erantzita:</p>
+<p><hi rend='Italic'>Amotoko Leta&ntilde;ia</hi></p>
+<p><hi rend='Italic'>Ardua ta lukainkia.</hi></p>
+<p>Esan geiyago be, Maalen. Bariak yaniko surra ta azpillduriko zakatza baneukaz, beste bat edo batek daukazan antzera nik entzungo neukez entzutekuak!! Ezta Maalen?</p>
+<p>&mdash;Txotxo: isillik ezpaago, musturreko bi emongo deuadaz txistua bai&ntilde;o ari&ntilde;ago.</p>
+<p>&mdash;Musturrekuak? Esaten errezago ixaten da, Kose.</p>
+<p>&mdash;Aor daukazak. Geiyago nai?</p>
+<p>&mdash;Gero zeuk be arpegiya daukazu gero, ta neuk be ukabilla.</p>
+<p>&mdash;Aor beste bat be.</p>
+<p>&mdash;Gero zaarrago zara, bai&ntilde;a beste bei&ntilde; yoten banazu...</p>
+<p>&mdash;Baitta beste birrittan be, nai baldin badok. Geiyago?</p>
+<p>&mdash;Batxi: testigu ixango zara: iru bidar yo nau beronek lenengo.</p>
+<p>Oratu eutsen alkarri. Emakumak txilioka, txakurrak zaunkaka ta arnasa-oska auskari biak ziarduela, atarietara erdi-iantzita urten eben auzoak.</p>
+<p>&mdash;Matasa bat azkatutea baizen gatxa edo zailla izaten da auska edo burruka bat adierazotea, batez bere tartean emakumarik badabil. Ukabilkada asko ta berba iraingarriak ugari artu ebazan aizeak. Ukabilkada osdunen artean konturakoena Batxik, bakeak egitera ioala, Urabillagandik arturikoa izan zan. Kose Satika, Urabillak beste indar euki baleu, Urabilla-lako biren bildur etzan izango. Urabillak barriz euki izan baleuz Kose-ren maltzurkeriak, Kose-lako lauri arpegi emon al izango eutsen. Urietako erloio edo orduariak pisu astun bi dingilizka daukazala ibilten direan gizan, Urabillak bere beso banatatik Kosepa ta Madalen erdi-dingilizka eukazan, Kosegaz ekionartean.</p>
+<p>Nekez berezi edo aldendu ebezan auskari biak. Batxik eroan eban beren adiskidea goiko bidean zear. Beste auzo guztiak gelditu zirean beste auskariaren inguruan.</p>
+<p>Urabillak orduan, esker ona erakustearren, lagunari: Batxi, eztago ardurarik, esan eutsan. Satikan bai&ntilde;o obeto bizi izango zara Urabillan. Alkarregaz lo eingo gaur.</p>
+<p>&mdash;Eskerrik asko, baia guztiek eztire i-lakoak. Urabilan txakurrik ezpalego, etsekoak eurek zaunke egingo leuskite; ta oba da bakea. Geurkoa edonon igaroko dot: biar Iaungoikoak argi egingo deu.&raquo;</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Bederatzigarren agerraldia</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>IRETARGIA BATXIREN BEGIETAN</hi></p>
+<p>Iretargi zuritan iatzi zirean bide barrira Batxi ta laguna. Eurak alkarri zer-esan andirik ezeukenezkero (bada Urabilla asten bazan zer edo zer isiltxurik erezi edo kantaten, besteak ezeutsan iarraituten), geuk euren ordez zerbait esan daigun.</p>
+<p>Batxiren barrua azaldutea ezta dirudien baizen gauza erraza. Eguargiz ai&ntilde;ube edo toki laiotzean dagozan gauzaak, illartargitan bere illun egoten dira. Biotz asko iaio dira beti ai&ntilde;ubean egoteko. Beste batzuk barriz besoen eragikeran, ezpanen irribarrean da mii&ntilde;eko berbetan, egi&ntilde;enetan baizen argi ikusten dira.</p>
+<p>Orai&ntilde;arteko agerraldietan Batxik eztau berba gitxi egin, beren arpegia ezauna dabe irakurleak; onan da guzti bere, eztau i&ntilde;ok esan al izango zelango biotza eukan.</p>
+<p>Gure gorputzeko odola zanetan zear gibelean sartu ta birien arnasa-gorabereaz beaztunaz batera bizi al balitz, gizon asko biotz bagarik bizi al izango litzakez: Batxi bai beintzat. Alako gizonakaitik, i&ntilde;or benetan maite izaten eztabelako ta i&ntilde;ori gorrotorik eztautselako, sarri esaten da: &laquo;biotzik eztauko orrek.&raquo;</p>
+<p>Beste bular askotan barriz biotz asko bizi dira, lurrak gozatuteko euria ta eguzkia bear izaten dabezan antzera, negarra ta barrea bear izaten dabezanak. Esaten baiake gizon askori alargun bat bizi dala iru edo lau seme-alabagaz, arrenean, sukalde su bagakoaz, gauza berorik egun osoetan sabeleratu ezinda... nai gizon basto ardantegi-zale batek emazte langille, maratz, berakatz-atala makillaka ausi ausi egiten dabela... nai txaltxu bategaz, seme bakarragaz legez, gozaro bizi dala agura i&ntilde;or bagako bat, eta bera lo dagoala, motzailla edo ijitanoren batek txala ostuta, bizi-lagun barik gelditu dala... onako gauzarik entzunezkero, biotz askotatik begietara negarrak igoten dau. Entzun baleie barriz mutiltxu bati, sagar-lapurretan ibilli dalako, baserritar gizatoren batek iarraitu dautsala ta orduantxe eskua saputzean ezarteko eukala, larrapast edo laban eginda iausi zala gizatoa ta bitartean mutiltxuak iges egin al izan ebala... onakoetan biotz andiak ezpanetara barrezka igoten dau.</p>
+<p>Eguraldi ta biotz aldakorrakaitik esaten da:</p>
+<p><hi rend='Italic'>Eguzkia ta euria </hi></p>
+<p><hi rend='Italic'>Martiko eguraldia.</hi></p>
+<p><hi rend='Italic'>Negar da barre </hi></p>
+<p><hi rend='Italic'>txitxi-burduntzi.</hi></p>
+<p>Negar da barredun biotzak biotz andia dabe euren izena.</p>
+<p>Biotz andiko geienak izaten dira onegiak, eta onegi geienak elduten dira <hi rend='Italic'>egi</hi> orretara onak izan bai&ntilde;o leenago. Azalduko dogu au bere, Batxik eta lagunak euren isiltasunaz astituten gabezanezkero.</p>
+<p>Biotz onegi guztiak eztira onak izaten. Neska zaar bi balegoz alkarri esaten &laquo;nor da gure artean gazteena,&raquo; gazteentzat bat edo bestea eukiko gendukez, gaztetzat barriz ez bata ez bestea. Sarri izaten da gaztea gazteena bai&ntilde;o gazteago. Biotz ona beti izaten da onegia bai&ntilde;o obea. Biotz onegiaz ona egiteko, aza orritsu buru txikidunakaz anabakea egiteko egiten dabena egin bear izaten da: bare ta marraskulo ta osterantzeko mamo txikiak ianiko ta eguzki sargoritsuak zimelduriko orri edo ostoak, mutuldu edo mutildu edo soildu. Biotz onegiak, ukatu bear dabenean bere, eztabe ezer ukatuten. Eurontzat egi&ntilde;ak dira batera datozan esakune onek:</p>
+<p><hi rend='Italic'>Kanpo ederra, etxean gerra.</hi></p>
+<p><hi rend='Italic'>Kanpo ederra, etxean bela.</hi></p>
+<p><hi rend='Italic'>Kanpoan eder, etxe-kalte.</hi></p>
+<p><hi rend='Italic'>Kanpoan uso, etxean otso.</hi></p>
+<p>Urabillako morroskoa, biotz onegikoa barik, onekoa izan balitz, beren oe-alde bat eski&ntilde;itakoan Batxik aintzat artu ezeutsanean, auxe gitxi bat gora-bera esan ber eban: &laquo;Adiskidea, nigaz lo egin nai ezpadozu, nik ezin or zear lagundu neizu.&raquo; Eta au esan bear eutsan, ez bakarrik etxekoak arduratan eukazalako ta gazteentzat, batez bere, etxeko beroa ta argia, kanpoko otza ta illuna bai&ntilde;o egokiago direalako; besterik ezarren antxi&ntilde;ako esakune zaar onegaitik:</p>
+<p><hi rend='Italic'>Munduan nai dabenak </hi></p>
+<p><hi rend='Italic'>luzaroan bizi, </hi></p>
+<p><hi rend='Italic'>oilloakaz oera, </hi></p>
+<p><hi rend='Italic'>txoriakaz iagi.</hi></p>
+<p>Bai&ntilde;a Urabillak ezekian ezetzik esaten, da, txakurrak ugazabari legez, Batxiri zintzo zintzo lagun egin eutsan gau atan bere.</p>
+<p>Berbetako gogoa eukan Urabillak, Batxik ezeutsan ez aurrerazpiderik ezta erantzuerarik bere emoten lagunaren esate geienari.</p>
+<p>Lau edo bost bidar esan eutsan au: &laquo;Gero ni Alkatien aurrera eruango banendue, bakizue zer yaso dan: Kosek berak iru bidar eskua ezarri deust.&raquo;</p>
+<p>Iru bidar gitxienez beste berba onek: &laquo;Maalenek onezkero esan dau beren artian: Urabillak daukaz erruak.&raquo;</p>
+<p>Urruneko txakurren zaunkari egiten iakena egin eutsan Batxik bestearen esanai: iaramon ez. Bai&ntilde;a arako asi iakanean belarriak gozatu ta izena gooratuten, orduan Batxi gogoz adi egon zan.</p>
+<p>Eztaigun galdu eurenik ezer.</p>
+<p>&mdash;Zuk, Batxi, dana dakizu ta yakingo dozu iretargiya zegaittik agertuten dan batzuetan, gaur lez, arpegi andi andiyaz; beste batzuetan, abadiak mutil-neskatillatxuari emoten deutsen Garizumako txartela legez, atala kenduta; beste batzuetan barriz, zelan izaten da bedarra ebateko edo mats-batzeko makets edo gurguillua? alakoxia; edo gaztaiari egaletik kenduriko azala letxe mee mee, kako kako ta zuri zuri. Iretargiya bat ezta ba?</p>
+<p>&mdash;Bat da iretargie, ta beti arpegi-biribilkote arpegi-andie; ezta inoiz bere argaldu edo makartuten, loditu bere ez, baie badakik zer egiten dauen? Eguraldi on ona, egun onetan langoa, dagoanean, adurre dariola, esaterako, egoten da geugana begire. Eguraldie aizetara nai euritara aldatu bear dan egunetan, aizea ta eurie zerutik datozana badakik eta iretargi papu-andie zerura begire geldituten da. Ta gero guk arpegi erdie baino ezin ikusi. Ulertu dok? Esaterako, neu naz iretargie ta iri begire naiagok, eta ik niri arpegi guztie matraile biekaz ikusten deustak. Aditu edo begiretuten baioat barriz Iparragirrera, ik orduen nire arpegi guztie ezin ikusi izango dok, surra ta alderdi bat baino. Zegaiti? Biredea emon dodalako. Bardin iazoten da zeruko arpegi-andigaz.</p>
+<p>&mdash;Eta zelan da iretargiya beti geuri begira egotia? Itxasondora bagoiaz, itxasondora bera be; mendira yuanezkero, bera be mendira; ta ni Elantxobera banoia ta zuk Motrikura yuan nai badozu, alda edo era batera yuango da nigaz Elantxobera ta zugaz Motrikura. Andiya ezta au?</p>
+<p>&mdash;Ezadi arritu: andiegorik ikasiko dok, nigaz baabil. Badakik zegaiti dagoan ibiltaunari begire? Bateti eztok ori logure izaten, egunez lo egiten dauelako: iretargieri esan leio zeruko <hi rend='Italic'>serenoa. </hi>Bestetik kontu egin deigun odei-ertzean doala ontzi aaaundi bet; eta i agoala ari begire. Ontziti i ikusi al izanezkero, esango leukee euren artean: &laquo;Mutilko orren ikusgurea! Geldi geldirik dagoala, orren begie beti dago geure ganean.&raquo; Urabila, ik eztakik ingeles-berbetea ta agiri da: ingeles liburuek dinoe ze iretargiek adikune edo begirekune bategaz ikusten dauela lurreko ta itxasoko une andie; ta une orretan dabilzan gauzek ikusteko, eztaukela zirkin egin bearrik. Ulertu dok? Euk ontzie dabilela ikuseran, burueri eragiten deutsak, a ordu erdien ikusteko? Ez. Txori bi bide baten pekorotz-arteko artagaraunek iaten dagozala, inok arririk ieurtiezkero, bata bateti ta bestea besteti doazanean, ire begiek batzukaz Elantxobera ioazak ta besteakaz Motriku-aldera, eztok egie? Bada iretargiek, gu ikusteko, eztau zirkin egin bear.</p>
+<p>&mdash;Eta une orren ertzera elduezkero, iretargiyak zirki&ntilde; eitten dau, ala atzia ikusten yako?</p>
+<p>&mdash;Zelan dan: batean zirkin egiten deu, bestean atzea ikusten iako.</p>
+<p>&mdash;Zeuk ikusi deutsazu sekula?</p>
+<p>&mdash;Madaleneri arpegie baino sarriago bai.</p>
+<p>&mdash;Madalenen arpegiya! A ze ikustekua! Bariak yaniko surra, plautiriyak sakatzetan, belarriyak udan be azkordi&ntilde; edo ozpel-eske, agi&ntilde;ak i&ntilde;ori kenduak dirudiyenak, begiyak barriz txalena bata, katuak egunez eukitten dabezan lakoxe txiki betule bakue bestia. Arpegiya da a?</p>
+<p>&mdash;Egon adi, neurea esan daidan. Iretargien atzea ikusi etedodan? Nik ikusi eztodan gauzarik eztago.</p>
+<p>&mdash;Neuk be bakit ori.</p>
+<p>&mdash;Banaioak bein (Inglaterrako <hi rend='Italic'><foreign>Upland</foreign>-en </hi>zan au: gero esango deuat <hi rend='Italic'><foreign>Upland </foreign></hi>zer zan) banaioak, ioan, da ioan, da ioan, eurrera beti, ta beti iretargieri begire: amakak (gaubekoak) io ta Batxi ibilten, io amabiek eta Batxi eurrera, io ordu batak eta ordu biek eta irurek... eta Batxi Amaren atzeti akitika dabilen txaala baino bizkorrago. Bildur nintzen albizarra amata edo itzali ta bera ostenduko eteiaten; baie Batxik bereagaz orduen bere urten euen. Urabila, badakik zelan egoten dan laratzuti beera dingilizka, esnea egosteko maskilotxue, barruti garbi garbie ta kanpoti kez da kedarrez edo i-iutukoz baltziturikoa? Alangoxea da iretargie: aurreti argie, atzeti gabaren Ama.</p>
+<p>&mdash;Iparragirrera yuanezkeko, ikusiko litzakiyo atzia?</p>
+<p>&mdash;Eztot uste; baie euk gura dok eta eurrera.&raquo;</p>
+<p>Eta gure biotz andikoa ta biotz bagakoa Iparragirrera ioan zirean: bata iretargiari garondoa ikusteko leian, bestea Iparragirreko neskatilleari arpegia ikusteko gogotan.</p>
+        </body>
+      </text>
+    </group>
+  </text>
+</TEI.2>
+

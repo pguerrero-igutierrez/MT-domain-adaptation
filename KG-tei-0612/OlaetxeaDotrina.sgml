@@ -1,0 +1,1370 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN"
+                       "http://www.tei-c.org/P4X/DTD/tei2.dtd" [
+   <!ENTITY % TEI.prose    'INCLUDE' >
+   <!ENTITY % TEI.linking  'INCLUDE' >
+   <!ENTITY % TEI.analysis 'INCLUDE' >
+   <!ENTITY % TEI.figures  'INCLUDE' >
+   <!ENTITY % TEI.XML      'INCLUDE' >
+   <!ENTITY % TEI.extensions.ent SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.ent' >
+   <!ENTITY % TEI.extensions.dtd SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.dtd' >
+]>
+<TEI.2>
+  <teiHeader>
+  <fileDesc>
+     <titleStmt>
+        <title>Dotrina Kistianea</title>
+        <author>Bartolome Olaetxea</author>
+        <respStmt>Bertsio informatiko honen egilea: Josu Lavin; Urkiola, 1-1C 48990 - Getxo (Bizkaia)</respStmt>
+     </titleStmt>
+     <extent>11.473 hitz, 86.951 karaktere</extent>
+     <publicationStmt>
+        <publisher>Klasikoen Gordailua [http://klasikoak.armiarma.com/]</publisher>
+        <distributor>Estrata Liburuak S.L.</distributor>
+        <address type='email'>klasikoak@armiarma.com</address>
+        <idno type='ota'>OlaetxeaDotrina</idno>
+        <availability status='free'>Erabilpen librekoa; honoko helbidean topa daiteke (HTML, RTF eta PDF formatuetan): http://klasikoak.armiarma.com/idazlanak/O/OlaetxeaDotrina.htm</availability>
+        <date>2006</date>
+     </publicationStmt>
+     <sourceDesc>
+        <bibl>Ez dauka</bibl>
+        <notesStmt><note>Iturburuen datazioa: 1763</note></notesStmt>
+     </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+     <projectDesc>Euskal literaturako testu klasikoen bilduma da KLASIKOEN GORDAILUA; testu hau berorren parte da</projectDesc>
+     <refsDecl>
+        <p>MENTIONED etiketa egilearenak ez diren hitzak markatzeko erabili da: hitzaurreak, aipuak, iruzkinak, e.a.</p>
+    </refsDecl>
+     <classDecl>
+        <taxonomy id='generoa'>
+            <category id='G-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='G-ANT'><catDesc>Antzerkia</catDesc></category>
+            <category id='G-BER'><catDesc>Bertsoak</catDesc></category>
+            <category id='G-ERL'><catDesc>Erlijioa</catDesc></category>
+            <category id='G-NAR'><catDesc>Narratiba</catDesc></category>
+            <category id='G-POE'><catDesc>Poesia</catDesc></category>
+            <category id='G-SAI'><catDesc>Saiakera, kronika, artikuluak...</catDesc></category>
+        </taxonomy>
+        <taxonomy id='garaia'>
+            <category id='M-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='M-16'><catDesc>XVI. mendea</catDesc></category>
+            <category id='M-17-1'><catDesc>XVII. mendea - 1. erdia</catDesc></category>
+            <category id='M-17-2'><catDesc>XVII. mendea - 2. erdia</catDesc></category>
+            <category id='M-18-1'><catDesc>XVIII. mendea - 1. erdia</catDesc></category>
+            <category id='M-18-2'><catDesc>XVIII. mendea - 2. erdia</catDesc></category>
+            <category id='M-19-1'><catDesc>XIX. mendea - 1. erdia</catDesc></category>
+            <category id='M-19-2'><catDesc>XIX. mendea - 2. erdia</catDesc></category>
+            <category id='M-20-1'><catDesc>XX. mendea - 1. erdia</catDesc></category>
+            <category id='M-20-2'><catDesc>XX. mendea - 2. erdia</catDesc></category>
+        </taxonomy>
+        <taxonomy id='euskalkia'>
+            <category id='E-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='E-BAT'><catDesc>batua</catDesc></category>
+            <category id='E-BIZ'><catDesc>bizkaiera</catDesc></category>
+            <category id='E-BNA'><catDesc>behenafarrera</catDesc></category>
+            <category id='E-ERR'><catDesc>erronkariera</catDesc></category>
+            <category id='E-GIP'><catDesc>gipuzkera</catDesc></category>
+            <category id='E-GNA'><catDesc>goi nafarrera</catDesc></category>
+            <category id='E-LAP'><catDesc>lapurtera</catDesc></category>
+            <category id='E-NAF'><catDesc>nafarrera</catDesc></category>
+            <category id='E-ZAR'><catDesc>zaraitzuera</catDesc></category>
+            <category id='E-ZUB'><catDesc>zuberera</catDesc></category>
+        </taxonomy>
+    </classDecl>
+  </encodingDesc>
+  <profileDesc>
+     <textClass>
+       <keywords scheme='generoa'>
+         <list><item>G-ERL</item></list>
+       </keywords>
+       <keywords scheme='garaia'>
+         <list><item>M-18-2</item></list>
+       </keywords>
+       <keywords scheme='euskalkia'>
+         <list><item>E-BIZ</item></list>
+       </keywords>
+     </textClass>
+  </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>Dotrina Kistianea -- Bartolome Olaetxea</docTitle>
+    </front>
+    <group>
+      <text>
+        <body>
+<p><hi rend='Bold'>DOTRINA KRISTIANEA</hi></p>
+<p><hi rend='Italic'>D. BARTHOLOME <hi rend='Bold'>Olaetxea</hi></hi><hi rend='Bold'> Laukarizko Kureak bere Elesatean Jai Domeka guztietan expliketan dabena legez.</hi></p>
+<p>OFREZIETAN, ETA <hi rend='Bold'>dediketan deutso <hi rend='Italic'>D. <foreign>Nicolas </foreign>Antonio Landazuri,</hi> Laukarizko, eta Bilboko Elexetako Benefiziau, eta leen Bego&ntilde;ako, eta ora&ntilde; Jandone Kueko Kura Jaunari.</hi></p>
+<p>Inprimadu da Bitorian bear direan lizenzia guztiakaz, Thomas Robles ta <foreign>Navarro </foreign>en etsean.</p>
+<p>Liburutxu onek daukazan Kapituluetarik bat, nai bat irakurri, edo enzuten dan bakotxean irabazten dira 40. eguneko Induljenziak alan dauko esanik, eta konzedidurik <foreign>Calaorra eta Calzada</foreign>ko Obispo Jaun Don Andres Porras, eta Temes en mesedeak Plazenziako Urian Abenduaen ogeta seigarrenean, urte 1763.</p>
+<p>Lotsaz isten bada,</p>
+<p>esan baga pekatua,</p>
+<p>eztago arenzat Zerurik,</p>
+<p>ezpada infernua.</p>
+<p>Eriotzako Orduan gatx</p>
+<p>da Konfesetea,</p>
+<p>Leenago akorda zaitez</p>
+<p>pekatari tristea.</p>
+<p>Pekaturik urteteko,</p>
+<p>ora&ntilde; negar egizu;</p>
+<p>bada geroko damuak</p>
+<p>balioko ezteutsu.</p>
+<p><hi rend='Bold'>EGUNEANGO KRISTINAUAEN EXERZIZIOA</hi></p>
+<p><hi rend='Italic'>Iratzartu, ta bertati zer egin beardau Kristinauak?</hi></p>
+<p>Krutzeaen Se&ntilde;alea, eta esan: Jesus Maria Josepe: neure Jangoikoa, nik emoten deutsut neure biotza.</p>
+<p><hi rend='Italic'>Jagi, ta janzi ezkero, zer egin bear dau?</hi></p>
+<p>Ur bede&ntilde;katua artu, ta jarririk belauniko esan: Krutze + Santeaen se&ntilde;alea gaiti geure + arerioetarik libradu gagizuz geure Jauna, + ta Jangoikoa.</p>
+<p>Aiteaen, + ta Semeaen, ta Espiritu Sautuaen izenean Amen.</p>
+<p>Erdu, Espiritu Santu Jauna, zeure fielen biotzetara, eta eressegi egizu gugan zeure amorezko sua.</p>
+<p>Neure Jangoiko laztana, sinisetandot firmemento zeuk esan dozun guztia, adoretan zaitut, eta esperetandot zeugan: ametan zaitudaz neure biotz guztirik, damudot, Jauna, iza&ntilde;ik zeu a&ntilde; ona ofendidu zaitudazalako.</p>
+<p>Graziak emoten deutsudaz, neure Jaun andia, kriadu nozulako, Kristinau egin, eta Jesu-Kristoen odol prezioso agaz erredimidu nozulako, ora&ntilde; artean konserbau, eta gorde nozulako, eta ora&ntilde; gi&ntilde;o Zeure esku Santuetarik artu dodazan benefizio, mesede, ta ondasun guztia gaiti.</p>
+<p>Ofrezietan deutsudaz, Jauna, gaurko neure pensamentu, berba, akzi&ntilde;oe,trabaju, eta neke guztiak, Zeure seme Jesu-Kristo geure Jaunaen Pasi&ntilde;oeko merezimentuakaz batera.</p>
+<p>Proponietandot, leenago galdutea neure bizitzea, zeu ofendidu ba&ntilde;o. Gorde nagizu gatx guztietarik, eta emon egidazu Zeure grazia, Zeure gustora egiteko egun onetako, obra, eta akzinoe guztiak, au erre gututen deutsut, Jesu-Kristo geure Jauna gaiti, Ama Birjina Santissimea gaiti, eta Zeruko Santu, eta Santa guztiak gaiti alan izan della.</p>
+<p><hi rend='Bold'>PATERNOSTERRA</hi></p>
+<p>Aita gurea Zeruetan zagozana: santifikadu bedi zure izena betor zure erre&ntilde;ua gugana egin bedi zure: borondatea zelan Zeruan alanlurrean, emon egiguzu gaur geure eguneango ogia, eta parkatu egiguzuz geure zorrak geuk geure zordunai parketan deutseguzan legez: eta itxi ezeiguzu jausten tentazi&ntilde;oean: baia libradu gagizuz gatxerik. Amen.</p>
+<p><hi rend='Bold'>ABE MARIA</hi></p>
+<p>Abe Maria, graziaz betea Jauna da zugaz, bede&ntilde;katea zara zu andra guztien artean, eta bede&ntilde;katuada zure sabeleko frutua Jesus. Santa Maria Jangoikoaen Ama erregutu egizu gu bekatariok gaiti ora&ntilde;, ta geure eriotzako orduan. Amen. Jesus.</p>
+<p><hi rend='Bold'>KREDOA</hi></p>
+<p>Sinistetandot Aita Jangoiko guztiz poderoso, Zeruaen, ta Lurraen Kriadoreagan: eta bere seme bakar Jesu-Kristo gure Jaunagan, ze&ntilde; sortuzan Espirituaen obraz, ta graziaz: Jaiozan Maria Birjinea ganik: padezidu euan Ponzio Pilatosen podereaen bean, izan zan Kruzifikadua, il, ta enterradua, jatsizan infernuetara; eta irugarren egunean biztu zan ilen artetik: igo eban Zeruetara, eta dago jarririk Aita Jangoiko guztiz poderoso en ezkomatati: arik etorrikoda biziak, eta ilak juzgetan. Sinisetandot Espirituagan: elexa Santa Katolikea, Santuen Komuni&ntilde;oea, pekatuen parkazi&ntilde;oea aragiaen erresurrezi&ntilde;oa bizitza betikoa. Amen.</p>
+<p><hi rend='Bold'>SALBEA</hi></p>
+<p>Salbe Erregi&ntilde;a miserikordia en Ama, bizitzea, ta dulzurea, Salbe esperanza geurea. Zeuri deiez gagoz Ebaen ume desterraduok. Zeu gana gagoz zizpuruz, sentimentuz, ta negarrez negarrezko balle onetan: ea bada Abogada geurea, biortu egizuz gugana zeure begi miserikordiazko orrek, eta desterruau igarota erakutsi egiguzu Jesus zeure sabeleko frutu bede&ntilde;katua. O Klementissimea! O Piadosa! O Maria Birjina gozoa! Erregutu egizu gugaiti Jangoikoa en Ama Santea, digno izan gaitezan. Kristo en promesen. Amen.</p>
+<p><hi rend='Bold'>JANGOIKOAEN LEGEKO MANDAMENTUAK DIRA AMAR</hi></p>
+<p><hi rend='Italic'>Lelengo irurak Jagokaz, edo pertenezietan jakaz Jangoikoaen onreari, eta beste zazpirak proximoaen probetxuari.</hi></p>
+<p>Lelengoa, Jangoikoa ametea gauza guztien ganean.</p>
+<p>Bigarrena, bere izen santuagaz ez juramentu banoak egitea.</p>
+<p>Irugarrena, Jaiegunak santifiketea.</p>
+<p>Laugarrena, Aita, ta Ama onretea.</p>
+<p>Bostgarrena ez i&ntilde;or iltea.</p>
+<p>Seigarrena, aragizko pekaturik ez egitea.</p>
+<p>Zazpigarrena, ez ostutea.</p>
+<p>Zorzigarrena, testimonio falsorik ez ezartea, eta guzurrik ez esatea.</p>
+<p>Bederatzigarrena, proximoen emazterik ez deseetea.</p>
+<p>Amargarrena, besteen ondasunik ezdeseetea.</p>
+<p>Amar Mandamentu onek sartuten dira bitan.</p>
+<p>Jangoikoa serbidu, ta amadu gauza guztien ganeti. Eta geure proximoa geure buruak legez. Amen.</p>
+<p><hi rend='Bold'>ELEXA SANTAKO MANDAMENTUAK DIRA BOST</hi></p>
+<p>Lelengoa, Domeka, eta Jaiegunetan meza osobat enzutea.</p>
+<p>Bigarrena, urtean be&ntilde; edolabere Konfesetea, edo leenago eriotzako peligrurik bada, edo komulgauko bada.</p>
+<p>Irugarrena, Pazko erresurrezi&ntilde;okoetan komulgetea.</p>
+<p>Laugarrena, elexa Ama Santeak aginduten dabenean barau egitea.</p>
+<p>Bostgarrena, Amarrenak, eta primiziak ondo pagetea.</p>
+<p><hi rend='Bold'>FEDEKO ARTIKULUAK</hi></p>
+<p><hi rend='Italic'>Dira Amalau Lelengo zazpirak pertenezietan, edo jagokaz Jangoikotasunari: beste zazpirak Jesu-Kristo geure jangoiko, eta Gizon egiazkoaen humanidade santuari.</hi></p>
+<p><hi rend='Italic'>Jangoikotasunari jagokazanak dira onek.</hi></p>
+<p>Lelengo, Sinistu Jangoiko guztiz Poderoso bakar bategan.</p>
+<p>Bigarrena, sinistu, dala Aitea.</p>
+<p>Irugarrena sinistu, dala semea.</p>
+<p>Laugarrena, sinistu, dala Espiritu Santua.</p>
+<p>Bostgarrena, sinistu, dala Kriadorea.</p>
+<p>Seigarrena, sinistu, dala Salbadorea.</p>
+<p>Zazpigarrena, sinistu, dala Glorifikadorea.</p>
+<p><hi rend='Italic'>Umanidadeari, edo Gizatasunari jagokazanak dira onek.</hi></p>
+<p>Lelengoa, sinistu, Jesu-Kristo geure Jauna Gizona dan partez Sortu zala Espiritu Santuaen obraz, ta graziaz.</p>
+<p>Bigarrena, sinistu, jaio zala Santa Maria Birjinea ganik, zala Birjina Semea jaio artean, jaiotzean, eta jaio ezkero.</p>
+<p>Irugarrena, sinistu; artu ebala eriotzea, ta pasi&ntilde;oea, gu bekatariok salbetearren.</p>
+<p>Laugarrena, sinistu, jatsi zala infernuetara, eta atera zituzala bere etorrera Santuaen begira egozan Guraso Santuen arimak.</p>
+<p>Bostgarrena, sinistu, irugarren egunean ilen arterik biztu zala.</p>
+<p>Seigarrena, sinistu, igo ebala Zeruetara, eta dagoala jarririk Aita Jangoiko guztiz Poderosoaen ezkomatati.</p>
+<p>Zazpigarrena, sinistu etorrikodala biziak, eta ilak juzgetan. Esanguradau, ze emongo deutsela onai gloria, bere Mandamentuak gorde zituelako, eta deungai betiko penea gorde ezzituezalako. Amen.</p>
+<p><hi rend='Bold'>KONFESINOEA</hi></p>
+<p>Ni bekatariau Konfesetan najako Jangoiko guztiz Poderosoari, Santa Maria beti Birjineari, San Migel Angeruari, San Juan Bautisteari, San Pedro, eta San Pablo Apostoluai, Santu guztiai, eta zeuri Aita espiritual orri, egin dodalako pekatu pensamentuagaz, berbeagaz, eta obreagaz: neure erruz, neure erruz neure erru andiagaz: Orregaiti erregututen deutsat Santa Maria beti Birjineari, San Migel Angeruari, San Juan Bautisteari, San Pedro, eta San Pablo Apostoluai, Santu guztiai, eta zeuri Aita Espiritual orri, erregutu deiozula nigaiti geure Jaun, eta Jangoikoari. Amen.</p>
+<p><hi rend='Bold'>AKTO KONTRIZINOEKOA</hi></p>
+<p>Neure Jesu Kristo Jauna, Jangoiko, ta Gizon egiazkoa, neure Kriadorea, eta Erredentorea; Zu zareana zarealako, eta ametan zaitudazalako beste gauza guztiak ba&ntilde;o geiago: damudot, Jauna, neure biotz guztirik zeure Majestadea ofendidua: arzendot propositu firmea, ez geiago pekaturik egiteko, eta apartetako zeure ofensako okasi&ntilde;oe guztietarik, eta konfesetako, eta emoten deusten penitenzia kunplietako, ofrezietan deutsudaz, Jauna, neure bizitzea, obrak, eta trabajuak neure pekatuen satisfazi&ntilde;orako, eta daukat Konfianzea Zeure ontasun, eta miserikordia infinitoagan, parkatuko deustazuzala, Zeure odol prezioso, Pasi&ntilde;oe, eta eriotzeagaiti, eta emongo deustazula grazia, emendetako, eta perseberetako neure eriotzako ordu artean. Amen.</p>
+<p><hi rend='Italic'>Goxean, egerdian, ta arratsean essateko, Elexeak latin essaten dabena, emen euskeraz. </hi></p>
+<p><hi rend='Italic'><foreign>Angelus Domini, &amp;c</foreign>.</hi></p>
+<p>Angeruak barri onak Ama Birjineari emon, eta Espiritu Santuaen graziaz semea bere sabelean Sortu zan, Abe Maria.</p>
+<p><hi rend='Italic'><foreign>Ecce Ancilla Domini, &amp;c</foreign>.</hi></p>
+<p>Ara Jaunaen esklabea, Zeure berbeagaz batera nigan egin bedi. Abe Maria.</p>
+<p><hi rend='Italic'><foreign>Eta Verbum Caro, &amp;c</foreign>.</hi></p>
+<p>Jangoikoaen semea Gizon egin zan, eta gure artean bizi izanzan. Abe Maria.</p>
+<p><hi rend='Italic'>Jangoikoaen Ama Santea gugaiti erregutu egizu.</hi></p>
+<p><hi rend='Italic'>Kristo en promesen digno egin gaitezan.</hi></p>
+<p><hi rend='Bold'>ORAZINOEA</hi></p>
+<p>Emon egiguzu, arren, Jauna, geure arimetan Zeure grazia; Angeruak barri onak ekarri, ta Kristo Zeure Semeaen enkarnazi&ntilde;oea ezautu dogunok bere Pasi&ntilde;oe, ta krutzeagaiti Erresurrezi&ntilde;oeko gloriara eroanak izan gaitezan. Amen.</p>
+<p><hi rend='Italic'>Erlojuak joten dabenean Zer essan bearda?</hi></p>
+<p>Guraneukez, Jauna, falta dodazan orduok Zeu Serbietan igaro, alan pekatuan jausten ez egidazu itxi. <hi rend='Italic'>Abe Maria.</hi></p>
+<p><hi rend='Italic'>Bearren bat asten danean. Zer esan bearda?</hi></p>
+<p>Neure Jaun, eta Jangoikoa, nik ofrezietan deutsut ora&ntilde; egiten noean trabaju au, ezarri egizu Zeure bendizi&ntilde;oe Santua. Guraneuke leenago neure bizitzea galdu, Zeu ofendidu ba&ntilde;o. <hi rend='Italic'>Paternosterra eta Abe Maria.</hi></p>
+<p><hi rend='Italic'>Ondo da, aldaianak, egunean be&ntilde; meza enzutea?</hi></p>
+<p>Da debozi&ntilde;oe guztietarik andiena, eta oneena. <hi rend='Italic'>Jaten asi ba&ntilde;o leenago Zer essan bearda?</hi></p>
+<p>Neure Jaun, eta Jangoikoa, erdu, eta bedenkatu egizu nik ora&ntilde; artuten noean jateko au, eta izanbedi zeu serbietako, eta alabetako.</p>
+<p><foreign> <hi rend='Italic'>Benedicite.</hi></foreign></p>
+<p><foreign> <hi rend='Italic'>Dominus nos, et ea quesumus sumpturi benedicat destera Christi, in nomine Patris, et Filii, et Spiritus Sancti. Amen. Paternosterra eta Ave Maria.</hi></foreign></p>
+<p><hi rend='Italic'>Jan exkero, Zer esan bearda?</hi></p>
+<p>Neure Jaun, eta Jangoikoa, nik emoten deutsudaz graziak, emon deustazun jatekoagaiti, eta alan izanbedi Zeu serbietako.</p>
+<p><foreign> <hi rend='Italic'>Tu autem Domine miserere nobis. </hi></foreign></p>
+<p><foreign> <hi rend='Italic'>Deo gratias.</hi></foreign></p>
+<p><foreign> <hi rend='Italic'>Agimus tibi gratias, Omnipotens Deus, pro universis benefitiis tuis qui vivis, et regnas in secula seculorum. Amen.</hi></foreign></p>
+<p><foreign> <hi rend='Italic'>Fidelium Anime per misericordiam Dei requiescant in pace. Amen. Paternosterra, ta Ave Maria.</hi></foreign></p>
+<p><hi rend='Italic'>Arratsean Zer egin bearda?</hi></p>
+<p>Afaldu ba&ntilde;o leenago ezelanbere albadedi errosarioa Ama Birjina Santissimeari Sosiguz errezau.</p>
+<p><hi rend='Italic'>Eta oean sartu ba&ntilde;o leenago Zer egin bearda?</hi></p>
+<p>Ur bede&ntilde;katua artu, eta jarririk belauniko, esan Krutze santeaen, <foreign>&amp;c</foreign>. Goxean legez an dagozan orazinoeakaz, eta onek bere.</p>
+<p>O Jangoikoaen Ama Santissima Se&ntilde;ora graziaz betea, eta pekatari guztien anparua, artu nagizu Zeugana, asistidu egidazu; arren ez nagizu desanparau neure eriotzako orduan.</p>
+<p><hi rend='Italic'>Gero egingo da exami&ntilde;a konzienziakoa, ekarten dituzala memoriara, edo gogora egun atan egin dituzun falta guztiak, pensamentuz, berbaz, obraz, omisi&ntilde;oez, eta inori exenplu deungea emonagaz, eta akabau akto. Kontrizinoeko bategaz.</hi></p>
+<p>Neure Angeru goardakoa, lagundu egidazu, eta gau onetan gorde nagizu Jesus, Maria Josepe Sokorridu nagizu, Jangoikoak emon deigula bere grazia, eta gero gloria. Amen.</p>
+<p><hi rend='Italic'>Oera Sartu Orduan Zer egin bearda?</hi></p>
+<p>Ur bede&ntilde;katua artu, eta egin Krutzea bekokian, eta oeaen ganean, esanagaz.</p>
+<p>Neure Jangoikoa, emon egidazu grazia, gau au, Zeu ofendidu baga iragoteko, eta gorde nagizu gauza deunga guztietarik. Amen. Jesus, Maria, Josepe.</p>
+<p><hi rend='Bold'>KRISTINAUAK JAKIN BEAR DITUZAN FEDEKO GAUZARIK PRINZIPALENAK, ETA BEARRENAK</hi></p>
+<p>Nok <hi rend='Italic'>egin zenduzan?</hi></p>
+<p>Jangoikoak.</p>
+<p><hi rend='Italic'>Zetako?</hi></p>
+<p>Bera ezaututeko, ametako, serbietako, eta gero betiko gozetako.</p>
+<p><hi rend='Italic'>Zerda Jangoikoa?</hi></p>
+<p>Da gauzabat esan, eta pensau al litekean eszelenteena, eta admirableena, Jaun bat infinitamente Ona, Poderosoa, Jakituna, Justoa, gauza guztien prinzipioa, eta fina.</p>
+<p><hi rend='Italic'>Nun dago Jangoikoa?</hi></p>
+<p>Zeruan, eta altarako Santisimo Sakramentuan, eta lekuguztian.</p>
+<p><hi rend='Italic'>Zein bat Jangoiko dira?</hi></p>
+<p>Bat Jauna.</p>
+<p><hi rend='Italic'>Zeinbat persona daukaz Jangoikoak?</hi></p>
+<p>Iru Aitea, semea, ta Espiritu Santua.</p>
+<p><hi rend='Italic'>Zerda Trinidade Santissimea.</hi></p>
+<p>Da Jangoikoa bera, Aitea, semea, eta Espiritu Santua, iru persona distinto, eta Jangoiko egiazko bat.</p>
+<p><hi rend='Italic'>Ze&ntilde;da lelengo personea?</hi></p>
+<p>Aitea, Jauna.</p>
+<p><hi rend='Italic'>Ze&ntilde;da bigarrena?</hi></p>
+<p>Semea.</p>
+<p><hi rend='Italic'>Ze&ntilde;da irugarrena?</hi></p>
+<p>Espiritu Santua.</p>
+<p><hi rend='Italic'>Zegaiti deritxo Aitea lelengo personeari?</hi></p>
+<p>Bere izatea eztakarrelako ino ganik.</p>
+<p><hi rend='Italic'>Eta Zegaiti semea bigarren personeari?</hi></p>
+<p>Dakarrelako bere izatea Aitea ganik.</p>
+<p><hi rend='Italic'>Eta Zegaiti Espiritu Santua, irugarren personeari?</hi></p>
+<p>Dakarrelako bere izatea Aitea Ganik, eta semea ganik.</p>
+<p><hi rend='Italic'>Aitea Jangoikoa da?</hi></p>
+<p>Bai Jauna.</p>
+<p><hi rend='Italic'>Semea Jangoikoa da?</hi></p>
+<p>Bai Jauna.</p>
+<p><hi rend='Italic'>Espiritu Santua Jangoikoa da?</hi></p>
+<p>Bai Jauna.</p>
+<p><hi rend='Italic'>Iru Jangoiko dira?</hi></p>
+<p>Ez Jauna Jangoiko bakar bat.</p>
+<p><hi rend='Italic'>Zegaiti?</hi></p>
+<p>Zegaiti direan personak distintoak, eta eztagoan Jangoiko egiazko bat ba&ntilde;o.</p>
+<p><hi rend='Italic'>Iru personak direala distintoak, Zer esan gura dau?</hi></p>
+<p>Esan guradau, ze bata bestea eztireala: bana direala.</p>
+<p><hi rend='Italic'>Iruretarik ze&ntilde;da Andiena, Jakitunena, edo Zarrena?</hi></p>
+<p>Irurak dira igualak gauza guztietan.</p>
+<p><hi rend='Italic'>Iru pesonetarik ze&ntilde; egin zan Gizon?</hi></p>
+<p>Trinidadeko bigarren pesonea, ze&ntilde; dan semea.</p>
+<p><hi rend='Italic'>Zer esan gura dau, Semea eginzala Gizon?</hi></p>
+<p>Gorputza, ta Arimea artu zituzala guk legez.</p>
+<p><hi rend='Italic'>Gorputz, eta Arima au nun artu zituzan?</hi></p>
+<p>Ama Birjina Santissimaeaen Sabel Birjinalean Espiritu Santuaen obraz.</p>
+<p><hi rend='Italic'>Norda Ama Birjina Maria Santissimea?</hi></p>
+<p>Da Jesu-Kristo geure Jaunaen Ama.</p>
+<p><hi rend='Italic'>Norda Jesu-Kristo?</hi></p>
+<p>Jangoikoaen Semea Gizon eginik.</p>
+<p><hi rend='Italic'>Zetako Jangoikoaen Semea, Gizon egin zan?</hi></p>
+<p>Gu erredimietarren, Salbetarren, eta infernurik libretearren.</p>
+<p><hi rend='Italic'>Nos Konzebidu, edo Sortuzan Jesu-Kristo?</hi></p>
+<p>Martiaen ogeta bost garrenean, Ze&ntilde;i esaten deutsagun Andra Maria Martiko, edo Ama Birjineaen Anunziazi&ntilde;oeko eguna.</p>
+<p><hi rend='Italic'>Nos jaiozan?</hi></p>
+<p>Gabon gabean Belen en</p>
+<p><hi rend='Italic'>Ze Egunetan zirtunzidauzan, eta imini eutsen Jesusaen izena?</hi></p>
+<p>Urteaen lelengo egunean, edo Urte barriz.</p>
+<p><hi rend='Italic'>Ze egunetan iru Erregeak adoradu eben?</hi></p>
+<p>Urtar il aen seigarrenean, edo Aparizioz.</p>
+<p><hi rend='Italic'>Nos il zan?</hi></p>
+<p>Bariku Santu egunean.</p>
+<p><hi rend='Italic'>Nun, eta Zelan il zan?</hi></p>
+<p>Jerusalenen Krutze baten josirik.</p>
+<p><hi rend='Italic'>No gaiti il zan Jesu-Kristo?</hi></p>
+<p>Munduko gizon guztiak gaiti.</p>
+<p><hi rend='Italic'>Nos biztu, edo erresuzitadu zan?</hi></p>
+<p>Pazko goxean.</p>
+<p><hi rend='Italic'>Nos igo eban Zeruetara?</hi></p>
+<p>Aszensi&ntilde;oe egunean.</p>
+<p><hi rend='Italic'>Ze egunetan bialdu eutsen Espiritu Santua bere Apostoluai?</hi></p>
+<p>Maiaz pazko egunean.</p>
+<p><hi rend='Italic'>Nos etorriko da biziak, eta ilak juzgetan?</hi></p>
+<p>Munduaen akabuan.</p>
+<p><hi rend='Italic'>Ze Juizio egingo dau Jangoikoak orduan?</hi></p>
+<p>Onai emongo deutse betiko gloria, eta deungai betiko penea.</p>
+<p><hi rend='Italic'>Sakramentu Elexakoak zeinbat dira?</hi></p>
+<p>Zazpi.</p>
+<p>Lelengoa, Bautismoa.</p>
+<p>Bigarrena; Konfirmazi&ntilde;oea.</p>
+<p>Irugarrena, Penitenzia.</p>
+<p>Laugarrena, Komuni&ntilde;oa.</p>
+<p>Bostgarrena, Estremaunzi&ntilde;oa.</p>
+<p>Seigarrena, Ordea.</p>
+<p>Zazpigarrena, Matrimonioa.</p>
+<p>Nok egin zituzan Sakramentuak?</p>
+<p>Jesu-Kristo geure Jaunak, geure arimen Onerako.</p>
+<p><hi rend='Italic'>Ze&ntilde;zuk dira, Sakramentu Santuak daukezan efektorik prinzipalenak?</hi></p>
+<p>Bautismoak egiten gaituz Kristi&ntilde;au.</p>
+<p>Konfirmazi&ntilde;oak, Konfirmau, Sendotu, edo fuertetuten gaituz fedean.</p>
+<p>Penitenziak, parkatuten deuskuz pekatuak.</p>
+<p>Komuni&ntilde;oak, Mantenietan dituz geure arimak.</p>
+<p>Oleazi&ntilde;oeak, lagunduten deusku, Ondo ilten.</p>
+<p>Ordeak emoten dau poderea, funzi&ntilde;o, eta gauza Sagradu etan.</p>
+<p>Matrimoni&ntilde;oak emoten dau grazia, seme alabak Zerurako aziteko.</p>
+<p><hi rend='Italic'>Ze&ntilde;zuk dira Gizona en akabuko gauzak?</hi></p>
+<p>Eriotzea, Juizioa, Infernua, eta Gloria.</p>
+<p><hi rend='Italic'>Il zaitezanean, Zer izango da zure arimeagaz?</hi></p>
+<p>Agertuko da Jesu-Kristo en aurrera, munduan, egindituzan obra guztien kontu, ta errazoa emoten.</p>
+<p><hi rend='Italic'>Juizio au egin ezkero nora joango da zure Arimea?</hi></p>
+<p>Estadu graziazkoan ilten bada joango da Zerura, baia ilten bada pekatu mortalean, joango da infernura.</p>
+<p><hi rend='Italic'>Zer izango da zure gorputzagaz, il ezkero?</hi></p>
+<p>Auts biortuko da.</p>
+<p><hi rend='Italic'>Zure gorputza betiko geratuko da lurrean?</hi></p>
+<p>Ez Jauna, Juizioko egunean biztuko da, eta agertuko da Josephatko ballean, bere bizitzako gauza guztien kontu emoten.</p>
+<p><hi rend='Italic'>Akabuko Juizio au egin, ta Zer izangoda zure gorputz, ta arimeagaz?</hi></p>
+<p>Juizio Onetan Ondo Urteten badabe joango dira Zerura; baia deungaro urteten badabe joango dira biak infernura, nun egongo direan Eternamente.</p>
+<p><hi rend='Bold'>FEDEA</hi></p>
+<p><hi rend='Italic'>Ze&ntilde;zuk dira Kristi&ntilde;auaen Birtuterik prinzipalenak?</hi></p>
+<p>Iru Fedea, Esperanzea, eta Karidadea.</p>
+<p><hi rend='Italic'>Zer da Fedea?</hi></p>
+<p>Ikusi eztoguna Sinistutea. Zegaiti Jangoikoak erakutsi daben.</p>
+<p><hi rend='Italic'>Sinistu bearda Jangoikoak esan daben guztia?</hi></p>
+<p>Bai Jauna, Zegaiti ze Artikuluen baten Sinistuten eztabenak, edo dudetan dabenak galdu dau Fedea.</p>
+<p><hi rend='Italic'>Fedea bagarik salba ge&ntilde;tekez.</hi></p>
+<p>Ez Jauna; bada Fedea da geure Erliji&ntilde;oaen eta Salbazi&ntilde;oaen fundamentu, ta Zimientu prinzipala.</p>
+<p><hi rend='Italic'>Zegaiti sinistuten dozuz fedeak irakasten deutsuzan egiak?</hi></p>
+<p>Zegaiti Jangoikoak (ze&ntilde; inok ezin enga&ntilde;au ieian, eta ez berakbere inor enga&ntilde;au) irakatsi, eta errebelau dituzan.</p>
+<p><hi rend='Italic'>Ze misterio dira partikularean jakin, eta sinistu bear doguzanak?</hi></p>
+<p>Onek: lelengo dala Jangoiko bat, eta iru persona distinta.</p>
+<p>Bigarrena, Trinidadeko bigarren Personea Gizon egin zala, eta il zala Krutzean, gu bekatariok Salbetearren.</p>
+<p>Irugarrena, Dagoala Zerua Onenzat, eta infernua deungenzat.</p>
+<p><hi rend='Italic'>Egizu ea ora&ntilde; fedeko aktobat?</hi></p>
+<p>Neure Jaun, eta Jangoikoa, Sinisetandot zareala Jangoiko egiazko bat, eta iru persona distinto: eta orrez ganeti Elexa Santeari irakatsi, eta errebelau deutsazun guztia, Zeuk alan esan dozulako, eta egia bera zarealako.</p>
+<p><hi rend='Italic'>Ze frutu atera bear dogu lezi&ntilde;oe onetatik?</hi></p>
+<p>Lelengo, eskatu umildade andiagaz Jangoikoaen Majestadeari, konserbau, eta aumentau deigula berak emon euskun fede Santua.</p>
+<p>Bigarrena, fedeko Aktoak egiten ikasi, eta egin Sarri espezialmente trabaju, edo obra onen bat asten dogunean, eta tentazinoen bat jatorkunean.</p>
+<p><hi rend='Bold'>ESPERANZEA</hi></p>
+<p><hi rend='Italic'>Salbetako asko da Jangoikoagan sinistutea beste bagarik?</hi></p>
+<p>Ez Jauna euki bear da Esperanzea bere.</p>
+<p><hi rend='Italic'>Zer da Esperanzea?</hi></p>
+<p>Esperetea Zeruko gloriak Jangoikoaen graziagaz, eta geure Obra Onen medioz.</p>
+<p><hi rend='Italic'>Egizu Esperantzako Aktobat?</hi></p>
+<p>Neure Jaun, eta Jangoiko ona, esperetan, eta itxadoten dot Zeure miserikordia andian, joango nasala Zerura, Zeu betiko gozetan, gordetan bado daz. Zeure mandamentu Santuak.</p>
+<p><hi rend='Bold'>KARIDADEA</hi></p>
+<p><hi rend='Italic'>Asko da eukitea Fedea, ta Esperanzea Salbetako?</hi></p>
+<p>Ez Jauna, bearda, Karidadea bere, eta au bagarik ezin Salba liteke; bada Karidadea ez taukanen obrak eztabe ezer balio.</p>
+<p><hi rend='Italic'>Zer da Karidadea?</hi></p>
+<p>Ametea Jangoikoa beste gauza guztien ganeti, eta geure proximoa geure buruak legez.</p>
+<p><hi rend='Italic'>Norzuk dira geure proximoak?</hi></p>
+<p>Gizon guztiak: infiel, eta geure arerio gi&ntilde;okoak.</p>
+<p><hi rend='Italic'>Egizu Karidadeko Akto bat?</hi></p>
+<p>Neure Jaun, eta Jangoiko laztana, nik ametan zaitudaz beste gauza guztiak ba&ntilde;o geiago, neure bizitzea ba&ntilde;o bere geiago, eta neure proximoa neure burua legez zeu gaiti.</p>
+<p><hi rend='Italic'>Zetara obligetan gaituz proximoen amoreak?</hi></p>
+<p>Geure buruenzat gura doguna arenzat gura izatera.</p>
+<p><hi rend='Italic'>Zetan ezautuko da poximoari gura deutsaguna?</hi></p>
+<p>Obra miserikordiazkoak di&ntilde;oena egitean.</p>
+<p><hi rend='Italic'>Zeinbat dira Obra miserikordiazkoak?</hi></p>
+<p>Amalau, Zazpi Espiritualak, eta Zazpi Korporalak.</p>
+<p><hi rend='Italic'>Espiritualak dira onek.</hi></p>
+<p>Lelengoa eztakianari irakastea.</p>
+<p>Bigarrena, bearra daukanari Konseju Ona emotea.</p>
+<p>Irugarrena, uts egin, edo erratuten dabena, arteztu, edo zuzendutea.</p>
+<p>Laugarrena, Injuriak parkatutea.</p>
+<p>Bostgarrena, tristea Konsoletea.</p>
+<p>Seigarrena geure proximoen miseriak, edo argaltasunak pazienziatan igarotea.</p>
+<p>Zazpigarrena ilak gaiti, eta geu persegietan, gaituezanak gaiti Jangoikoari erregututea.</p>
+<p><hi rend='Italic'>Zazpi Korporalak dira Onek.</hi></p>
+<p>Lelengoa, Gexoak, eta presoak, bisitetea.</p>
+<p>Bigarrena, Gose danari jaten emotea.</p>
+<p>Irugarrena, egarri danari edaten emotea.</p>
+<p>Laugarrena, Kautiboak erreskatetea.</p>
+<p>Bostgarrena, billosik dagoana Janzitea.</p>
+<p>Seigarrena, peregrinoari ostatu emotea.</p>
+<p>Zazpigarrena, ilak enterretea.</p>
+<p><hi rend='Italic'>Ze frutu atera beardogu lezi&ntilde;oe onetarik.</hi></p>
+<p>Lelengo gurago izan bizitzea, eta gauza guztiak galdu, pekatu mortalagaz Karidadea ba&ntilde;o.</p>
+<p>Bigarrena, ikasi amorezko aktoak egiten, eta sarritan egin.</p>
+<p>Irugarrena, egin geure bear, Obra, lan, eta egiteko guztiak Jangoikoaen amoreagaiti.</p>
+<p>Laugarrena, geure proximoa serbidu, egitendogula beragaz obra miserikordiazkoak di&ntilde;oena.</p>
+<p><hi rend='Bold'>GRAZIA</hi></p>
+<p><hi rend='Italic'>Geu geurez, beste baga salba gentekez?</hi></p>
+<p>Ezta posible Grazia bagarik.</p>
+<p><hi rend='Italic'>Zer da Grazia?</hi></p>
+<p>Da Jangoikoaen doe, edo izate Jangoikozko bat, egiten dabena gizona Jangoikoaen seme, eta Zeruko erederu.</p>
+<p><hi rend='Italic'>Zegaz alkanzauko dogu Grazia?</hi></p>
+<p>Orazi&ntilde;oeagaz, obra onakaz, Kontrizi&ntilde;oeagaz, eta Sakramentuakaz.</p>
+<p><hi rend='Italic'>Grazia emoten deuskunean, Ze Birtute Jangoikoak emoten deusku?</hi></p>
+<p>Iru Birtute Teologalak: Fedea, Esperanzea, eta Karidadea. Bai, lau Kardinalak bere: Prudenzia, Justizia, Fortalezea, eta Tenplanzea. Bai, ta Humildadea, eta Kastidadea bere.</p>
+<p><hi rend='Italic'>Zeinbat dira Bienabenturanzak?</hi></p>
+<p>Zorzi Lelengoa, Zorionekoak espirituz pobre direanak, Zegaiti aena dan Zeruko Erre&ntilde;ua.</p>
+<p>Bigarrena, Zorionekoak mansoak; Zegaiti izango direan lurraen jabeak.</p>
+<p>Irugarrena, Zorionekoak negar egiten dabenak; Zegaiti izango direan konsoladuak.</p>
+<p>Laugarrena, Zorionekoak, Justiziaen gose, eta egarri direanak, Zegaiti izango direan aseak.</p>
+<p>Bostgarrena, Zorionekoak miserikordiosoak; Zegaiti miserikordia alkanzauko daben.</p>
+<p>Seigarrena, Zorionekoak biotz garbikoak, Zegaiti onek Jangoikoa ikusiko daben.</p>
+<p>Zazpigarrena Zorionekoak bakesoak; Zegaiti onek Jangoikoaen seme izentauko direan.</p>
+<p>Zorzigarrena, Zorionekoak Justizia gaiti persegidu direanak, Zegaiti aena dan Zeruko erre&ntilde;ua.</p>
+<p><hi rend='Italic'>Ze frutu atera beardogu lezi&ntilde;oe onetarik?</hi></p>
+<p>Lelengo, emon Jangoikoari eskerrak, aen Majestadeak emon deuskuzan Grazia guztiak gaiti.</p>
+<p>Bigarrena, parkazi&ntilde;oen eskatu, izan ezgarealako ora&ntilde; gi&ntilde;o beraganako fielak.</p>
+<p>Irugarrena, propositu firme bat artu, aurreranzean Kontu geiago egiteko bere inspirazi&ntilde;oe, eta abisu Santuai.</p>
+<p><hi rend='Bold'>PEKATUA</hi></p>
+<p><hi rend='Italic'>Ze&ntilde; da gatx guztietarik andiena?</hi></p>
+<p>Pekatua; bada bera da mundu onetan, eta bestean igaroten direan pena, ta trabaju guztien Kausea.</p>
+<p><hi rend='Italic'>Zelan apartau bear gatxakoz pekatuari?</hi></p>
+<p>Pesteari, lupuari, eriotzeari, Infernuari, eta demoni&ntilde;o guztiai ba&ntilde;o bere Obetoago, eta lasterrago.</p>
+<p><hi rend='Italic'>Zeinbat pekatu, jenero dagoz?</hi></p>
+<p>Bi. Orijinala, eta Aktuala.</p>
+<p><hi rend='Italic'>Zer da pekatu Orijinala?</hi></p>
+<p>Da pekatu &agrave;, Ze&ntilde;egaz jaioten garean guztiok, eta jatorkun geure lelengo Gurasoetarik.</p>
+<p><hi rend='Italic'>Ze&ntilde;zuk dira pekatu orijinalak dakazan gatxak?</hi></p>
+<p>Izatea Jangoikoaen arerio, eta demoni&ntilde;oaen esklabo.</p>
+<p>Inklinauak gatxera, eta gauza deungara.</p>
+<p>Eta sujeto munduko miseria, eta eriotzara.</p>
+<p><hi rend='Italic'>Zerda pekatu Aktuala?</hi></p>
+<p>Errazoean ezaututera eldu ezkero, geure guraz egiten doguna.</p>
+<p><hi rend='Italic'>Zeinbat modutakoa da pekatu Aktuala?</hi></p>
+<p>Modu bitakoa. Mortala, eta Beniala.</p>
+<p><hi rend='Italic'>Zer da pekatu mortala?</hi></p>
+<p>Da esatea, egitea, pensetea, edo deseetea Zerbait Jangoikoa en lege Santuaen Kontra gauza grabean.</p>
+<p><hi rend='Italic'>Zer egiten dau pekatu mortalak ariman?</hi></p>
+<p>Kenduten dau grazia, eta irabazi eragiten dau infernua.</p>
+<p><hi rend='Italic'>Zer da pekatu Beniala?</hi></p>
+<p>Da pekatu mortalaen disposizi&ntilde;oe, edo presteeta bat.</p>
+<p><hi rend='Italic'>Nos ezautuko da pekatuamortala, ala beniala dan?</hi></p>
+<p>Borondate osoagaz, eta gauza grabean, edo andian danean, izango da mortala. Izango da, barriz Beniala, Borondate osoagaz eztanean, edo gauza txikarrean danean.</p>
+<p><hi rend='Italic'>Zegaiti deritxo Beniala?</hi></p>
+<p>Erraz egin, eta erraz parkatuten dalako.</p>
+<p><hi rend='Italic'>Zeinbat gauza gaiti parkatuten da?</hi></p>
+<p>Bederatzi gaiti Lelengoa, meza enzuna gaiti.</p>
+<p>Bigarrena, Komulgetea gaiti.</p>
+<p>Irugarrena, Konfesi&ntilde;oe jenerala gaiti.</p>
+<p>Laugarrena, Obispoen bede&ntilde;kazi&ntilde;oea gaiti.</p>
+<p>Bostgarrena, Urbede&ntilde;katua gaiti.</p>
+<p>Seigarrena, ogi bede&ntilde;katua gaiti.</p>
+<p>Zazpi garrena, Paternosterra esana gaiti.</p>
+<p>Zorzigarrena, Sermoea enzutea gaiti.</p>
+<p>Bederatzigarrena, bularra joa gaiti Jangoikoari parkazi&ntilde;oea eskatuten jakola.</p>
+<p><hi rend='Italic'>Pekatu Kapitalak Zeinbat dira?</hi></p>
+<p>Zazpi 1. Soberbia. 2. Abarizia. 3. Luxuria. 4. Ira. 5. Gula. 6. Enbidia. 7. Nagitasuna.</p>
+<p><hi rend='Italic'>Zazpi Bizio onen kontra dagoz beste zazpi Birtute, eta dira?</hi></p>
+<p>1. Lelengoa, Umildadea. 2. Liberaltasuna. 3. Kastidadea. 4. Pazienzia. 5. Tenplanzea. 6. Karidadea. 7. Dilijenzia, edo Jangoikoa Serbietan ferbora.</p>
+<p><hi rend='Italic'>Zefrutu atera beardogu lezi&ntilde;oe onetarik?</hi></p>
+<p>Lelengo, apartadu Jangoikoa Ofendietako Okasi&ntilde;oe guztietarik.</p>
+<p>Bigarrena, Konfesau pekatu guztiak, eta aen penitenzia egiazko egin.</p>
+<p><hi rend='Bold'>KRISTINAUAEN DOTRINEA</hi></p>
+<p>Expliketan dira emen Kredoko Artikuluak.</p>
+<p><hi rend='Bold'>KREDOA</hi></p>
+<p><hi rend='Italic'>Kristinauak jakin beardogun guztia, nun arakituko dogu?</hi></p>
+<p>Kredoko Artikuluetan.</p>
+<p><hi rend='Italic'>Nok esan eban Kredoa?</hi></p>
+<p>Amabi Apostoluak.</p>
+<p><hi rend='Italic'>Nor izan zan lelengo Kredoa asi ebana?</hi></p>
+<p><hi rend='Bold'>San Pedro Apostolua Guztien burua legez </hi></p>
+<p><hi rend='Bold'>lelengo asi zan, eta esan eban</hi></p>
+<p><hi rend='Italic'>Sinisetandot Aita Jangoiko guztiz Poderoso Zeruan, eta lurraen Kriadoreagan.</hi></p>
+<p><hi rend='Italic'>Zer esan gura dau </hi>Sinisetandot Jangoikoagan?</p>
+<p>Esan gura dau, ze daukadala Ziertuzat, eta guztiz segurutzat, dagoala Jangoiko egiazko bakar bat.</p>
+<p><hi rend='Italic'>Jangoikoak bauko gorputzaen figurarik guk legez?</hi></p>
+<p>Jangoiko dan partez ez, bada da espiritu purua, baia bai Gizona dan partez.</p>
+<p><hi rend='Italic'>Nos akabauko da Jangoikoa?</hi></p>
+<p>Inosbere ez: eztauko Jangoikoak, ez asierarik, ez akaburik.</p>
+<p><hi rend='Italic'>Zer esan gura dau: </hi>Sinisetandot Aiteagan?</p>
+<p>Sinistuten dodala, Trinidadeko lelengo personea, dala Aitea.</p>
+<p><hi rend='Italic'>Semea, eta Espiritu Santua, ezdira guztiz Poderosoak Aitea legez?</hi></p>
+<p>Bai Jauna.</p>
+<p><hi rend='Italic'>Zegaiti esatenda bada, Aitea dala guztiz Poderosoa, eta ez Semea, ez Espiritu Santua?</hi></p>
+<p>Zegaiti poderez jagokan Aiteari, Jakituria Semeari, eta Amorea Espiritu Santuari legez.</p>
+<p><hi rend='Italic'>Jangoikoa Zelanda guztiz Poderosoa?</hi></p>
+<p>Bere gura izanagaz beste bagarik, egiten dabelako gura daben guztia.</p>
+<p><hi rend='Italic'>Zer esan gura dau </hi>Zeruaen, eta lurraen Kriadoreagan?</p>
+<p>Ezerbere ezerik egin zituzala, Zeruak, lurra, eta gauza guztiak.</p>
+<p><hi rend='Italic'>Zer entendietan dozu, Zeruak, lurra, eta beste gauza guztiak gaiti; </hi>Egin Zituzala ezerbere ezerik, Angeruak, Gizonak, eta Munduan dagozan beste gauza guztiak.</p>
+<p><hi rend='Italic'>Zerzuk dira Angeruak?</hi></p>
+<p>Zeruan Jangoikoa gozetan dagozan Espiritu bienabenturadu batzuk.</p>
+<p><hi rend='Italic'>Zetako Jangoikoak egin zituzan?</hi></p>
+<p>Bera beti alabetako, bere Ministroak legez Elexea gobernetako, eta gizonak gordetako.</p>
+<p><hi rend='Italic'>Zelan Kriadu eban Jangoikoak Gizona?</hi></p>
+<p>Egin eban gorputza lurragaz, eta Kriadu eban Arimea ezer bere ezerik.</p>
+<p><hi rend='Italic'>Zerda Arimea?</hi></p>
+<p>Da Jangoikoak bere anzera eginiko espiritu inos bere il, ez akabauko eztan bat.</p>
+<p><hi rend='Italic'>Ze estadutan Jangoikoak Kriatu eban lelengo Gizona?</hi></p>
+<p>Inozenziako estaduan.</p>
+<p><hi rend='Italic'>Zelan bada galdu eban estaduau?</hi></p>
+<p>Bere desobedenzia gaiti, jana gaiti Jangoikoak eragotzita eukan frutea.</p>
+<p><hi rend='Italic'>Eta Jangoikoak Zer egin eban pekatu au erredimietako?</hi></p>
+<p>Bialdu eban Zerurik lurrera bere semea ilteko afrenta andia gaz Krutzean.</p>
+<p><hi rend='Italic'>Ze frutu atera bear dogu lezi&ntilde;oe onetarik?</hi></p>
+<p>Lelengo, admirau, eta adorau Jangoikoaen grandezak.</p>
+<p>Bigarrena, graziak emon egin genduzalako bere imajina, eta anzera.</p>
+<p>Irugarrena, Ezautu geure ezerbere eza, eta jaioak gareana pekatuan.</p>
+<p><hi rend='Bold'>Bigarren Artikulua</hi></p>
+<p><hi rend='Bold'>San Andresek esan eban</hi></p>
+<p>Eta bere seme bakar Jesu-Kristo geure Jaunagan.</p>
+<p><hi rend='Italic'>Jesus aen izenak, Zer esan gura dau?</hi></p>
+<p>Salbadorea, edo libradorea.</p>
+<p>Bere eriotzeagaz librau, eta Salbau genduzalako infernurik.</p>
+<p><hi rend='Italic'>Kristok Zer esan gura dau?</hi></p>
+<p>Unjidua, edo Konsagradua: bere Aita Eternoak Unjidu ebalako Errege, eta Sazerdote.</p>
+<p><hi rend='Italic'>Zer entendietan dozu Semea gaiti?</hi></p>
+<p>Trinidadeko bigarren personea dala Semea.</p>
+<p><hi rend='Italic'>Kristinauak Jangoikoaen Semeak dira?</hi></p>
+<p>Bai Jauna, adopzino ez, eta graziaz, baia ez naturalezaz.</p>
+<p><hi rend='Italic'>Zetako esaten deutsazu Kristori, </hi>geure Jauna?</p>
+<p>Bere eriotzeagaz Erredimidu genduzalako.</p>
+<p><hi rend='Italic'>Ze frutu atera beardogu lezi&ntilde;oe onetarik?</hi></p>
+<p>Lelengo, Jesusaen izen Santuari errespeto, eta debozi&ntilde;oe andi bat euki.</p>
+<p>Bigarrena, emon Jangoikoari grazia andiak, bealdu euskulako bere seme maitea.</p>
+<p>Irugarrena, Amadu, eta serbidu fielmente Jesu-Kristo geure Jauna; bada bera da geure Maisu eta jabea.</p>
+<p><hi rend='Bold'>Irugarren Artikulua</hi></p>
+<p><hi rend='Bold'>Santiago Nagusiak esan eban</hi></p>
+<p>Ze&ntilde; Sortu zan Espiritu Santu aen obraz ta graziaz: Jaiozan Maria Birjineaganik.</p>
+<p><hi rend='Italic'>Zer esan guradau, Jesu-Kristo Konzebidu, eta Sortu zala Espiritu Santuaen obraz?</hi></p>
+<p>Trinidadeko bigarren personea Gizon egin zala Maria Santissimeaen Sabel Birjinalean, gizonaen obra baga, Espiritu Santuaen obraz, zala Se&ntilde;ora au Donzella. Semea jaio ba&ntilde;o leenago, jaiotzean, eta jaio ezkero.</p>
+<p><hi rend='Italic'>Esan egizu Klaruago: Zeinbat gauza obrau Zituzan Espiritu Santuak Enkarnazi&ntilde;oeko Misterio Santuan?</hi></p>
+<p>Lau gauza Jauna: lelengo Maria Santissimeaen entra&ntilde;etako Odol garbiagaz formau, edo egin eban Jesu-Kristoen Gorputza.</p>
+<p>Bigarrena, Kriadu eban Arimea.</p>
+<p>Irugarrena, Unidu eban gorputza Arimeagaz.</p>
+<p>Laugarrena, Trinidadeko bigarren personea juntadu, edo batuzan Gorputz, eta Arima onegaz, eta au izan zan Jangoikoa Gizon egitea.</p>
+<p><hi rend='Italic'>Ez eben egin obra mirarizko andi au Aiteak, eta semeak bere?</hi></p>
+<p>Bai Jauna.</p>
+<p><hi rend='Italic'>Zegaiti esatenda bada izanzala </hi>Espiritu Santuaen obraz, ta graziaz?</p>
+<p>Zalako Amorezko obrea, eta Amorea jagoko, edo toketan jako Espiritu Santuari, Aiteari Poderea, eta Semeari Jakituria legez.</p>
+<p><hi rend='Italic'>Aitea, eta Espiritu Santua Gizon egin zirean?</hi></p>
+<p>Ez Jauna, Semea bakarrik.</p>
+<p><hi rend='Italic'>Zeinbat naturaleza daukaz Kristok?</hi></p>
+<p>Bi, bata Jangoikoaena, eta bestea Gizonaena.</p>
+<p><hi rend='Italic'>Zer esan gura dau, Kristok daukala Jangoikoaen, eta Gizonaen naturalezea?</hi></p>
+<p>Esan gura dau, ze dala Jangoikoa, eta bai Gizona bere.</p>
+<p><hi rend='Italic'>Nosik ona da Jangoiko?</hi></p>
+<p>Eternamente, beti; bada Jangoikoak eztauko asierarik.</p>
+<p><hi rend='Italic'>Nosik ona da Gizon?</hi></p>
+<p>Maria Santissimeaen Sabel Birjinalean Sortuzanik ona</p>
+<p><hi rend='Italic'>Zeinbat entendimentu daukaz Kristok?</hi></p>
+<p>Bi, bata Jangoiko dan partez, eta bestea Gizona dan partez.</p>
+<p><hi rend='Italic'>Zeinbat borondate?</hi></p>
+<p>Bi, bata Jangoiko dan partez, eta bestea Gizona dan partez.</p>
+<p><hi rend='Italic'>Zeinbat persona daukaz Kristok?</hi></p>
+<p>Persona bat, eta bera Jangoiko dan, partez.</p>
+<p><hi rend='Italic'>Zeinbat memoria?</hi></p>
+<p>Bat, eta bera Gizona dan partez; bada Jangoikoak gauza guztiak daukaz presente, eta bear eztau memoriarik.</p>
+<p><hi rend='Italic'>Non dago Jesu-Kristo?</hi></p>
+<p>Jangoiko dan partez, dago leku guztian, eta Gizona dan partez Zeruan, eta Santissimo Sakramentu altarakoan.</p>
+<p><hi rend='Italic'>Kristok bauko Aitarik, edo Amarik?</hi></p>
+<p>Jangoiko dan partez dauko Aita, Ze&ntilde;dan Aita Eternoa, eta eztauko Amarik, Gizona dan partez eztauko aitarik, ezpada Ama, eta da Maria Santissimea, Ze&ntilde;ek erabili eban bere Sabel Birjinalean bedaratzi illabetean, eta egin eban Gabon gabean Belenen.</p>
+<p><hi rend='Italic'>Zefrutu atera beardogu lezi&ntilde;oe onetarik?</hi></p>
+<p>Lelengo, Jesus aen jaiotzeagaz debozi&ntilde;oe andibat euki.</p>
+<p>Bigarrena, Graziak, eta eskerrak emon, geuri deuskun Amore pare bagakoagaiti.</p>
+<p>Irugarrena deseau bere pobreza Santua, eta amau bere umildade, eta inozenzia, prokuretan dogula bere Birtute Santuak imitetea.</p>
+<p><hi rend='Bold'>Laugarren Artikulua</hi></p>
+<p><hi rend='Bold'>S. Juanek esan eban</hi></p>
+<p>Padezidu eban Ponzio Pilatosen poderen bean, izanzan Kruzifikadua, il, ta enterradua.</p>
+<p><hi rend='Italic'>Zer igaro eban Jesu-Kristo geure Jaunak bere Pasi&ntilde;oe Santuan?</hi></p>
+<p>Tristeza, eta larritasun mortala bere ariman, dolore ikaragarriak bere gorputzean, eta eriotza afrentosoa Krutzean.</p>
+<p><hi rend='Italic'>Jesu-Kristo Jangoiko zan partez, ala Gizon zan partez il zan?</hi></p>
+<p>Gizona zan partez.</p>
+<p><hi rend='Italic'>Zer izan zan Kausea Kristo Krutzean a&ntilde; afrenta andiagaz ilteko?</hi></p>
+<p>Gure pekatuak.</p>
+<p><hi rend='Italic'>Zer esan guradau,</hi> Kristo il zala?</p>
+<p>Apartau jakola bere Arimea-Gorputzaganik.</p>
+<p><hi rend='Italic'>Jangoikotasuna, edo Dibinidadea apartauzan Gorputz, eta Arimeaganik?</hi></p>
+<p>Ez Jauna.</p>
+<p><hi rend='Italic'>Krutzerik eretsita, nun imini eben Jesu-Kristo en Gorputza?</hi></p>
+<p>Sepultura barri baten.</p>
+<p><hi rend='Italic'>Ze frutu atera beardogu lezi&ntilde;oe onetarik?</hi></p>
+<p>Lelengo, gomutau, akordau, eta Konsiderau Sarri Jesu-Kristo en Pasi&ntilde;oe Santua.</p>
+<p>Bigarrena, meza enzuten gagozanean, ekarri gogora bere bizitza, eta eriotzan gu gaiti igaro zituzan trabajo, pena, eta tormentuak.</p>
+<p>Irugarrena, ez itxi bariekurik, Pasi&ntilde;oe Santu onen memorian, penitenzia, edo obra on bat egin bagarik.</p>
+<p>Laugarrena, Jangoikoaen Majestadeak bealduten deuskuzan Krutzeak pazienziagaz igaro.</p>
+<p><hi rend='Bold'>Bostgarren Artikulua</hi></p>
+<p><hi rend='Bold'>San Tomasek esan eban</hi></p>
+<p>Jatsizan infernuetara, eta irugarren egunean biztuzan il en arterik.</p>
+<p><hi rend='Italic'>Zer esan gura dau,</hi> Jatsi zala infernuetara?</p>
+<p>Esan gura dau, ze Jesu-Kristo en Arimea, bere Gorputza ganik apartau ezkero, jatsi zala Linbora, bere etorrera Santu aen Begira egozan Guraso Santuen Arimak ateraten.</p>
+<p><hi rend='Italic'>Zer esan gura dau: </hi>Irugarren egunean biztuzala il en arterik?</p>
+<p>Esan gura dau, ze Pazko egunean bere Arima gloriosoa, eta Gorputza alkarregana juntau zireala, ez geiago ilteko.</p>
+<p><hi rend='Italic'>Zer egin eban Kristok biztu, edo erresuzitau ezkero?</hi></p>
+<p>Berrogei egunean ibilizan munduan, bere dotrina, eta erresurrezi&ntilde;oea Konfirmetarren.</p>
+<p>Ze frutu atera bear dogu Lezi&ntilde;oe onetarik?</p>
+<p>Lelengo Jesu-Kristoagaz biztutea espiritualmente, biortuten gareala beragana Osorik.</p>
+<p>Bigarrena, Esperanza firmebat euki Jangoikoagan, bizituko direala geure gorputzak, glorioso Juizioko egunean, bizi bagara ora&ntilde; Kristinau onak legez.</p>
+<p><hi rend='Bold'>Seigarren Artikulua</hi></p>
+<p><hi rend='Bold'>S.Tiagok esan eban</hi></p>
+<p>Igo eban Zeruetara, eta dago jarririk Aita Jangoiko guztiz Poderosoaen ezkomatati.</p>
+<p><hi rend='Italic'>Nos igo eban Kristok Zeruetara?</hi></p>
+<p>Aszensi&ntilde;oe egunean: biztuzanik berrogei garren egunean.</p>
+<p><hi rend='Italic'>Zelan igo eban?</hi></p>
+<p>Bere Birtutez; berez.</p>
+<p><hi rend='Italic'>Zer egiten igo eban Zerura?</hi></p>
+<p>Guri ango ateak zabalduten: an gure Abogadua eta bitarteko bere Aita, Eternoagaz izaten: eta arik Espiritu Santua bealduten.</p>
+<p><hi rend='Italic'>Zetako esaten dozu dagoala jarririk?</hi></p>
+<p>Guri entendietan emoteko, bere glorian daukan atsegina, ta deskansua.</p>
+<p><hi rend='Italic'>Eta Zer esan guradau, dagoala </hi>Aita Jangoiko guztiz Poderosoa en ezkomatati?</p>
+<p>Daukala beragaz gloria bardina Jangoiko dan partez, eta Gizona dan partez beste guztiak ba&ntilde;o geiago.</p>
+<p><hi rend='Italic'>Ze frutu atera beardogu lezi&ntilde;oe onetarik?</hi></p>
+<p>Lelengo, apartau, ta kendu geure biotzak mundu onetako ondasun falsoetarik, eta ez kasurik egin, eta ez jaramon emeko alegria, eta jolas falsoai.</p>
+<p>Bigarrena, akordau, eta gomutatu pensetan dogula Sarri Zeruko deskansu, eta Santuak an dauken ditxa, ta Zorionean.</p>
+<p>Irugarrena, bizi emen kontuz, galdu eztaigun geure erruz Zeruko gloria, eta Santuen Konpa&ntilde;ia.</p>
+<p><hi rend='Bold'>Zazpigarren Artikulua</hi></p>
+<p><hi rend='Bold'>San Felipek esan eban</hi></p>
+<p>Arik etorriko da biziak, eta ilak juzgetan.</p>
+<p><hi rend='Italic'>Nos etorriko da biziak, eta ilak juzgetan?</hi></p>
+<p>Munduaen akabuan. Juizioko egun ikaragarriandian.</p>
+<p><hi rend='Italic'>Zelan etorriko da?</hi></p>
+<p>Podere, eta Gloria andiagaz.</p>
+<p><hi rend='Italic'>Zer egingo dau Jesu-Kristok Juizioko egun andi, terrible, ikaragarri atan?</hi></p>
+<p>Munduan egin direan gauza on, ta deunga guztiak agertuko dituz, guztien aurrean.</p>
+<p><hi rend='Italic'>Ta Zetako?</hi></p>
+<p>Onai emoteko gloria, eta Onrea Angeru, eta Gizon guztien aurrean, eta deungai, lotsariz, ta Konfusi&ntilde;o ez bete, ta infernuko penea.</p>
+<p><hi rend='Italic'>Zer esango deutse Jangoikoak onai?</hi></p>
+<p>Erdu neure Aitaen bede&ntilde;katuok, erdu munduaen asierarik Zuenzat dagoan Zeruko erre&ntilde;ua artuten.</p>
+<p><hi rend='Italic'>Eta Zer esango deutse deungai?</hi></p>
+<p>Zoaz madarikatuok nire begien aurrerik, zoaz Sekulako infernuko sutara, Ze&ntilde; dagoan prestaurik infernuko demoni&ntilde;o en zat.</p>
+<p><hi rend='Italic'>Zer izango da Gizonakaz, juizio au egin ezkero?</hi></p>
+<p>Onak joango dira Zerura, eta deungak Ondatuko dira infernuan, non egongo direan erretan eternidade guztian.</p>
+<p><hi rend='Italic'>Ze frutu atera beardogu lezi&ntilde;oe onetarik?</hi></p>
+<p>Lelengo, akordau Sarri, agertuko direala ora&ntilde; emen egiten doguzan gauza guztiak, issilak izan arrenbere Juizioko egun ikaragarri onetan.</p>
+<p>Bigarrena, ez pekaturik itxi konfesi&ntilde;oean esan bagarik, lotsarizkoak; eta andiak izan arren bere; bada guztiak agertuko dira an, munduko, Zeruko, eta infernuko guztien aurrean.</p>
+<p><hi rend='Bold'>Zorzigarren Artikulua</hi></p>
+<p><hi rend='Bold'>San Bartolomek esan eban</hi></p>
+<p>Sinisetandot Espiritu Santua gan.</p>
+<p><hi rend='Italic'>Zer esan gura dau artikulu onek?</hi></p>
+<p>Espiritu Santua dala Trinidadeko irugarren Personea, ze&ntilde;egan sinistuten dodan.</p>
+<p><hi rend='Italic'>Nun dago Espiritu Santua?</hi></p>
+<p>Leku guztian; baia partikularean dago arima Justoetan.</p>
+<p><hi rend='Italic'>Zer egiten dau arima Justoetan?</hi></p>
+<p>Bere grazian santifiketan dituz, eta lagunduten deutse euren nezesidade, ta bear orduetan.</p>
+<p><hi rend='Italic'>Erregutu bear deutsagu Espiritu Santuari?</hi></p>
+<p>Bai Jauna, bada berak lagundu bagarik, ezin alkanzau ginai geure Salbazi&ntilde;oea.</p>
+<p><hi rend='Italic'>Zeinbat dira Espiritu Santuaen doeak?</hi></p>
+<p>Zazpi. Lelengoa Jakituriako Doea. 2. Entendimentuko Doea. 3. Konsejuko Doea. 4. Fortalezako Doea. 5. Zienziako Doea. 6. Piedadeko Doea. 7. Jangoikoaen bildurtasuneko Doea.</p>
+<p><hi rend='Italic'>Ze frutu atera beardogu lezi&ntilde;oe onetarik?</hi></p>
+<p>Lelengo, Eskatu beardeutsagu umildade agaz, etorridella geure arimak Konsoletan, Apostoluai etorrijakena legez.</p>
+<p>Bigarrena, prestau, ta disponidu geure arimak Espiritu Santua ondo errezibietako.</p>
+<p>Irugarrena, ez jausi pekatu mortalean, joan ezten geure arimetarik.</p>
+<p><hi rend='Bold'>Bederatzi Garren Artikulua</hi></p>
+<p><hi rend='Bold'>San Mateok esan eban</hi></p>
+<p>Elexa Santa Katolikea Santuen Komuni&ntilde;oea.</p>
+<p><hi rend='Italic'>Zerda Elexea?</hi></p>
+<p>Da Kristi&ntilde;au fiel guztien Kongregazi&ntilde;oea, Ze&ntilde;en burua dan Aita Santua.</p>
+<p><hi rend='Italic'>Nor da Aita Santua?</hi></p>
+<p>Da Sumo Pontifize Erromakoa Kristo en Bikario, edo ordeko lurrean, Ze&ntilde;i gagozan guztiok obligauta obedezietara.</p>
+<p><hi rend='Italic'>Ze&ntilde;zuk dira Elexa Santeaen Se&ntilde;aleak?</hi></p>
+<p>Izatea: Bat. Santea. Katolikea. Apostolikea.</p>
+<p><hi rend='Italic'>Zelan da </hi>Bat?</p>
+<p>Elexa au Konponietandabenak eztankelako fede bat, eta Erreliji&ntilde;oe bat ba&ntilde;o.</p>
+<p><hi rend='Italic'>Zelan da</hi>, Santea?</p>
+<p>Irakatsi, eta aginduten Daben guztia dalako Santua, eta geure Salbazi&ntilde;o erako Serbietan dabena.</p>
+<p><hi rend='Italic'>Zer da,</hi> Katolikea?</p>
+<p>Dala Unibersala, eta dagoala Zabalduta mundu guztian.</p>
+<p><hi rend='Italic'>Zetako esatendozu, dala</hi> Apostolikea?</p>
+<p>Apostoluak izan zirealako, Kristo aurrerengo zala, Elexa onen lelengo fundamentuak.</p>
+<p><hi rend='Italic'>Elexa onek irakasten deuskun guztia, da ziertua, eta faltau ezin leiana?</hi></p>
+<p>Bai Jauna, Espiritu Santuak gobernetandabelako.</p>
+<p><hi rend='Italic'>Zer esan gura dau: </hi>Santuen Komuni&ntilde;oeak?</p>
+<p>Grazian dagozan fielak daukela partea beste en ondasun espiritualetan gorputz baten mienbroak legez.</p>
+<p><hi rend='Italic'>Ze&ntilde;zuk dira ondasun espiritualak?</hi></p>
+<p>Sakramentuak, Induljenziak, orazinoeak, eta obra onak.</p>
+<p><hi rend='Italic'>Bat Salba liteke, Elexa onetan eztagoala?</hi></p>
+<p>Ez Jauna, bada Elexa onez Kanpoti eztago federik, eta fedea da geure Salbazi&ntilde;o en fundamentu prinzipala.</p>
+<p><hi rend='Italic'>Norzuk dira Elexa onen ondasun espiritualetan parterik eztaukenak?</hi></p>
+<p>Infielak, Erejeak, eta deskomulgaduak.</p>
+<p><hi rend='Italic'>Ze frutu atera beardogu lezi&ntilde;oe onetarik?</hi></p>
+<p>Lelengo emon grazia andiak Jangoikoaen Majestadeari, Elexa Santa onen mienbro, eta Seme egin gaituzalako.</p>
+<p>Bigarrena, Gura dogula bizi, eta il Elexa Santa onen fedean.</p>
+<p>Irugarrena, Erregutu Jangoikoari Elexa Santa onez Kanpoti dagozanak gaiti.</p>
+<p>Laugarrena, apartau Erejen konbersazinoerik.</p>
+<p><hi rend='Bold'>Amargarren Artikulua</hi></p>
+<p><hi rend='Bold'>S. Simonek esan eban</hi></p>
+<p>Pekatuen parkazi&ntilde;oea.</p>
+<p><hi rend='Italic'>Jesu-Kristok emon eban poderea, pekatuak parkatuteko?</hi></p>
+<p>Bai Jauna Lelengo, emon eutsen bere Apostoluai, eta gero Obispo, eta Sazerdoteai.</p>
+<p><hi rend='Italic'>Pekatuak parkatutea gauza andia da?</hi></p>
+<p>Potestade geiago, eta andiagoa da, Milagroak egitea ba&ntilde;o.</p>
+<p><hi rend='Italic'>Zetati parkatuten dira pekatuak?</hi></p>
+<p>Bautismoko, eta Penitenziako Sakramentuetati.</p>
+<p><hi rend='Italic'>Ze pekatu parkatuten dau Bautismoak?</hi></p>
+<p>Pekatu Orijinal, eta bai beste edoze&ntilde;, badauko bere bateatuten danak.</p>
+<p><hi rend='Italic'>Ze pekatu parkatuten dau Penitenziak?</hi></p>
+<p>Bateatu ezkero eginiko guztiak.</p>
+<p><hi rend='Italic'>Ze frutu atera beardogu lezi&ntilde;oe onetarik?</hi></p>
+<p>Lelengo, Jangoikoari eskerrak emon, bere Elexa Santeari itxi eutsalako poderea, pekatuak parkatuteko.</p>
+<p>Bigarrena, Sarri Konfesau, prestetan, eta leenaz disponietan gareala, Sakramentu Santu Penitenziakoa frutuagaz errezibietako.</p>
+<p><hi rend='Bold'>Amaekagarren Artikulua</hi></p>
+<p><hi rend='Bold'>S. Tadeok esan eban</hi></p>
+<p>Aragia en erresurrezi&ntilde;oea.</p>
+<p><hi rend='Italic'>Zer esan gura dau:</hi> Aragiaen erresurrezi&ntilde;oeak?</p>
+<p>Biztuko gareala guztiok Ora&ntilde; daukaguzan gorputz, ta arimakaz.</p>
+<p><hi rend='Italic'>Ze diferenzia egongo da Onen ta deungen artean?</hi></p>
+<p>Onen gorputzak egongo dira guztiz ederrak, eta gloriaz beterik. Deungenak barriz txito eza&ntilde;ak, eta ikaragarriak.</p>
+<p><hi rend='Italic'>Nos bizituko dira?</hi></p>
+<p>Munduaen akabuan.</p>
+<p><hi rend='Italic'>Ze frutu atera beardogu lezi&ntilde;oe onetarik?</hi></p>
+<p>Lelengo, geure gorputzok ez amau a&ntilde;beste, eta ez beste edertasunik bere, gura badoguz ikusi eder, ta glorioso erresurrezinoeko egunean.</p>
+<p>Bigarrena, geure pena, ta trabaju etan konsolau; bada esperetan dogu, biztuko gareala glorioso.</p>
+<p>Irugarrena, ez ainbeste pena artu geure adiskide onen eriotzan; bada dakigu, ikusiko doguzala ora&ntilde;dino.</p>
+<p><hi rend='Bold'>Amabigarren Artikulua</hi></p>
+<p><hi rend='Bold'>San Matiasek esan eban</hi></p>
+<p>Bizitza betikoa.</p>
+<p><hi rend='Italic'>Zer da</hi>: Bizitza betikoa.</p>
+<p>Zeruko bienabenturaduen Etsea, ta deskansuko lekua, ze&ntilde;i deritxon Paradisua.</p>
+<p><hi rend='Italic'>Zetan dago deskansu, atsegin, eta gloria au?</hi></p>
+<p>Jangoikoa arpegiz arpegi ikustean, eta bera beti ametean.</p>
+<p><hi rend='Italic'>Andiak dira Zeruan Bienabenturaduak gozetan dituezan gloriak?</hi></p>
+<p>Infinitamente andiagoak, munduko Erregerik andienak euki dituezan onra, aberatstasun, deskansu, eta atsegin guztiak, ba&ntilde;o bere.</p>
+<p><hi rend='Italic'>Zelangoak dira Jangoikoak, bera ametan daben enzat gordeta daukazan ondasunak?</hi></p>
+<p>A&ntilde; dira andiak, ze ezin esan lei munduan dagoanek, Zelangoak direan, bada begik eztau inos gauza a&ntilde; ederrik ikusi, ez belarriak enzun a&ntilde; dulze, ta admiragarririk; eta ezin gizonaen entendimentuk sekula alkanzau lei, ango gloria, eta atseginak Zelangoak direan.</p>
+<p><hi rend='Italic'>Nos artean iraungo dabe gloria onek?</hi></p>
+<p>Eternamente: Jangoikoa Jangoiko dan artean.</p>
+<p><hi rend='Italic'>Norzuk joango dira Zerura?</hi></p>
+<p>Mandamentu Santuak gorde, ta Jangoiko aen grazian ilten direanak.</p>
+<p><hi rend='Italic'>Ze frutu atera beardogu lezi&ntilde;oe onetarik?</hi></p>
+<p>Lelengo, ez kendu inos gogorik Paradisuko Zorioneko en Etse Zabalau, eta arako Sarritan Zizpuru egin.</p>
+<p>Bigarrena, igaro pazienziagaz mundu onetako menos prezio, neke, eta ez eukiak, edo nezesidadeak.</p>
+<p>Irugarrena, egin obra onak, ara joateko.</p>
+<p><hi rend='Italic'>Gizonaen akabuko gauzak.</hi></p>
+<p><hi rend='Bold'>ERIOTZEA</hi></p>
+<p><hi rend='Italic'>Zerda Iltea?</hi></p>
+<p>Arimea gorputza ganik apartetea.</p>
+<p><hi rend='Italic'>Nos ilgogara?</hi></p>
+<p>Eztakigu, ez nos, ez nun, ez zelan.</p>
+<p><hi rend='Italic'>Ze estadutan ilgogara?</hi></p>
+<p>Ori bere eztakigu; baia geienean jazo kodana da, ondo bizidana ondo iltea: orregaiti esan doa:</p>
+<p><hi rend='Italic'>Zelango bizitzea alango eriotzea.</hi></p>
+<p><hi rend='Italic'>Ondo da prest egotea, eriotzea datorreneko?</hi></p>
+<p>Bai; bada geure eriotzan dago, edo geure betiko ditxa, ta Zoriona, edo geure betiko desditxa, ta zorigestoa.</p>
+<p><hi rend='Italic'>Zer egin bear dogu, prest, edo pronto egoteko?</hi></p>
+<p>Beardogu egon estadu graziazkoan.</p>
+<p>Egin penitenzia egiazkoa, eriotzea eldu ba&ntilde;o leenago.</p>
+<p>Eta i&ntilde;o en gauzatan kargu bagara, artean bakotxari berea emon.</p>
+<p><hi rend='Italic'>Ze frutu atera beardogu lezi&ntilde;oe onetarik?</hi></p>
+<p>Lelengo Sarri pensau eriotzan.</p>
+<p>Bigarrena, ez ainbeste estimau, gero auts egin, eta ustelduko direan gorputzonek.</p>
+<p>Irugarrena, egin ora&ntilde; eriotzako orduan gurako genkena.</p>
+<p><hi rend='Bold'>JUIZIO PARTIKULARA,</hi></p>
+<p><hi rend='Bold'>EDO BAKOTXENA</hi></p>
+<p><hi rend='Italic'>Il, ta bertati izango gara juzgaduak?</hi></p>
+<p>Bai Jauna.</p>
+<p><hi rend='Italic'>Zetan?</hi></p>
+<p>Geure bizitzako pensamentu, berba, eta obra guztietan.</p>
+<p><hi rend='Italic'>Zelangoa izango da Juizio au?</hi></p>
+<p>Guztiz gogorra, eta ikaragarria, bada Jueza izango da entero arteza, eta Juizio onetan dago geure ditxa, edo desditxa betikoa.</p>
+<p><hi rend='Italic'>Norzuk izango dira akusadoreak?</hi></p>
+<p>Infernuko Demonioak, eta norberen Konzienzia.</p>
+<p><hi rend='Italic'>Zer egin beardogu, Juizio onetan ondo urteteko?</hi></p>
+<p>Lelengo, pekatuaganik iges egin.</p>
+<p>Bigarrena, obra miserikordiazkoetan ejerzitadu.</p>
+<p>Irugarrena, ez proximo en gauzarik juzgadu, geureak ba&ntilde;o.</p>
+<p><hi rend='Bold'>PURGATORIOA</hi></p>
+<p><hi rend='Italic'>Nora joango da Zure arimea Juzgadu ezkero?</hi></p>
+<p>Eztadu graziazkoan egon bada, eta bere pekatuen Zorra pagauta, joango da Zerura; baia egon bada pekatu mortalean joangoda Infernura.</p>
+<p><hi rend='Italic'>Eta nos joango da Purgatoriora?</hi></p>
+<p>Purgatoriora joango da, estadu graziazkoan ilarrenbere, pagau ezpadau pekatuen zorra.</p>
+<p><hi rend='Italic'>Zerda Purgatorioa?</hi></p>
+<p>Da Suuz beteriko Karzela bat, non dagozan Arimak, pagetan Jangoikoaen justiziari, pena pekatuak gaiti Zor deutsena.</p>
+<p><hi rend='Italic'>Purgaotiora doazan Arimak an egongo dira beti?</hi></p>
+<p>Ez Jauna, pagau daienean euren Zorra joango dira Zerura.</p>
+<p><hi rend='Italic'>Andiak dira Purgatorioko penak?</hi></p>
+<p>A&ntilde; dira andiak, ze mundu onetako pena, ta trabaju guztiak eztira ezer, aen aldean.</p>
+<p><hi rend='Italic'>Zelan Sokorridu leiz purgatorioko Arimak?</hi></p>
+<p>Altarak bisitauagaz, espezialmente arimea ateratendan egunean, Orazinoeagaz, barauakaz, limosneagaz, il en buldea artuagaz, eta alanbere geiago Mezako Sakrifizio Santuagaz.</p>
+<p><hi rend='Italic'>Zefrutu atera beardogu lezi&ntilde;oe Onetarik?</hi></p>
+<p>Lelengo egitea penitenzia mundu onetan, besterako itxi baga.</p>
+<p>Bigarrena, prokurau induljenziak irabaztea.</p>
+<p>Irugarrena, ez jausi faltatan txikarrak direala ustearren bere.</p>
+<p>Laugarrena, sokorridu, ta alibiau Arima Santak.</p>
+<p><hi rend='Bold'>JUIZIO UNIBERSALA</hi></p>
+<p>Esanda zerdan, Kredoko Zazpigarren Artikuluan 73.</p>
+<p><hi rend='Bold'>GLORIA</hi></p>
+<p>Esanda zerdan, Kredoko Amajibarren Artikuluan 85.</p>
+<p><hi rend='Bold'>INFERNUA</hi></p>
+<p><hi rend='Italic'>Zerda Infernua?</hi></p>
+<p>Da Karzela, eta leze ilun, ikaragarri bat, lurraen erdian, edo barruan, Jangoikoaen justiziak iminia, suuz, penaz, eta tormentuz beterik, pekatu mortalean il ten direanenzat.</p>
+<p><hi rend='Italic'>Infernuko pena, ta tormentuak andiak dira?</hi></p>
+<p>A&ntilde; dira andiak, Ze munduko gatx, pena, trabaju, eta tormentu guztiak bat eginda bere, ango txikarrenagaz eztira konparetakoak.</p>
+<p><hi rend='Italic'>Zeinbat pena modu dagoz, edo iragoten dira Infernuan?</hi></p>
+<p>Pena jenero bi: bata da pena Da&ntilde;ukoa, eta bestea Sentidukoa.</p>
+<p><hi rend='Italic'>Zerda pena </hi>Da&ntilde;ukoa?</p>
+<p>Ez ikustea, eta ez esperazarik eukitea, sekula Jangoikoa ekusteko, euren erruz.</p>
+<p><hi rend='Italic'>Zerda pena</hi> Sentidukoa?</p>
+<p>Suagaz, eta beste tormentu jeneroakaz, Kondenauak Infernuan igaroten daben penea.</p>
+<p><hi rend='Italic'>Nos akabau, amaitu, edo gitxituko dira infernuko penak?</hi></p>
+<p>Inosbere ez, inosbere ez, inosbere ez, beti, sekula, fin baga, iraungo dabe; eta eztabe Kondenauak instante bateko gustorik inos eukiko.</p>
+<p><hi rend='Italic'>Zeinbat pekatu mortal gaiti, joatenda infernura?</hi></p>
+<p>Pensamentuzko bat da asko, ara joateko, penitenzia egin baga il ten bada.</p>
+<p><hi rend='Italic'>Ze frutu atera beardogu lezi&ntilde;oe onetarik?</hi></p>
+<p>Lelengo, tentazi&ntilde;oe deungarik jatorkunean akordau tormentu ikaragarri onekaz.</p>
+<p>Bigarrena mundu onetako pena, eta trabajuak igaro pazienziagaz, ez bestean eternamente padezietearren.</p>
+<p>Irugarrena, gurago izan milla bidar bizitzea galdu, Ze ez ofendidu Jangoikoa pekatu mortalagaz.</p>
+<p><hi rend='Italic'>Expliketan dira emen Paternosterra, eta Abe Maria.</hi></p>
+<p><hi rend='Bold'>PATERNOSTERRA</hi></p>
+<p><hi rend='Italic'>Orazi&ntilde;oe guztietarik Ze&ntilde;da onena.</hi></p>
+<p>Paternosterra.</p>
+<p><hi rend='Italic'>Zegaiti?</hi></p>
+<p>Apostoluak eskatuta, Jesu-Kristok berak esan ebalako.</p>
+<p><hi rend='Italic'>Zetako esaten deutsazu Jangoikoari Aitagurea?</hi></p>
+<p>Berak Kriadu, eta Konserbetan gaituzalako, eta bere Semezat Bautismoan adoptau genduzalako.</p>
+<p><hi rend='Italic'>Ze&ntilde;da Paternosterraen lelengo petizi&ntilde;o, edo eskaria?</hi></p>
+<p>Santifikadu bedi Zure izena.</p>
+<p>Emen eskatuten doguna da, Jangoikoaen izena, izan della ezautua, amadua onradua, eta Serbidua mundu guztian.</p>
+<p><hi rend='Italic'>Ze&ntilde;da bigarrena?</hi></p>
+<p>Betor Zure erre&ntilde;ua gugana.</p>
+<p>Emen Jangoikoari eskatuten deutsagu, egon della, eta erre&ntilde;au daiala emen geure arimetan graziagaz, eta gero emon deigula bere gloria.</p>
+<p><hi rend='Italic'>Ze&ntilde;da irugarrena?</hi></p>
+<p>Egin bedi Zure borondatea, Zelan Zeruan, alan lurrean.</p>
+<p>Emen eskatutendogu, Jangoikoak emon deigula grazia, bere borondate santua emen egiteko, Zeruan Santuak, eta Angeruak egiten dabena legez.</p>
+<p><hi rend='Italic'>Ze&ntilde;da laugarrena?</hi></p>
+<p>Emon egiguzu gaur geure eguneango ogia.</p>
+<p>Emen eskatuten deutsagu emon deigula gorputzaenzat Mantenimentua, eta arimarako grazia.</p>
+<p><hi rend='Italic'>Ze&ntilde;da bostgarrena?</hi></p>
+<p>Parkatu egiguzuz geure Zorrak geuk geure Zordunai parketan dautseguzan legez.</p>
+<p>Emen eskatuten doguna da, parkatu deiguzala Jangoikoak geure falta, eta pekatuak, geuk parkatuten deusteguna legez geuri deungaro, eta gatx egin deuskuenai.</p>
+<p><hi rend='Italic'>Ze&ntilde;da seigarrena?</hi></p>
+<p>Itxi ezegiguzu jausten tentazi&ntilde;oean.</p>
+<p>Emen eskatuten dogu, librau, eta apartau gaizala Jangoiko geure Jaunak Demoni&ntilde;oen tentazino etarik; edo ezpabere, aetan ez jausteko emon deigula bere grazia.</p>
+<p><hi rend='Italic'>Ze&ntilde;da Zazpigarrena?</hi></p>
+<p>Baia libradu gaizuz gatxerik.</p>
+<p>Emen eskatuten doguna da, Jangoikoak libradu gaizala, arimako, eta gorputzeko gatx, eta peligru guztietarik.</p>
+<p><hi rend='Italic'>Akabuan esaten dozun berba</hi> Amen <hi rend='Italic'>Zer esan gura dau?</hi></p>
+<p>Alan izan della.</p>
+<p><hi rend='Italic'>Alkanzauko dogu Jangoikoaganik Paternosterrean eskatuten doguna?</hi></p>
+<p>Bai Jauna, eskatuten badogu beardan legez Konbenietan jakuna; eta au umildadeagaz, Konfianzeagaz, biotz garbiagaz, eta perseberanziagaz.</p>
+<p><hi rend='Italic'>Ze frutu atera beardogu lezi&ntilde;oe onetarik?</hi></p>
+<p>Lelengo ikasi ondo Paternosterraen petizi&ntilde;oe bakotxeko esplikazinoea.</p>
+<p>Bigarrena, Errezau Debozi&ntilde;oeagaz goxean, eta arratsean, gitxienaz.</p>
+<p>Irugarrena, erregutu, ta eskatu Jangoikoari beardoguna, Umildadeagaz, eta Konfianzeagaz.</p>
+<p><hi rend='Bold'>ABE MARIA</hi></p>
+<p><hi rend='Italic'>Zetako esatendozu Paternosterraen Urrengo</hi> Abe Maria?</p>
+<p>Ama Birjina Santissimea bitarteko dala, errazago alkanzau daigun Jangoikoaganik, Paternosterrean eskatu deutsaguna.</p>
+<p><hi rend='Italic'>Nok esan eban </hi>Abe Maria?</p>
+<p>Angeru San Gabrielek; Santa Isabelek, eta Elexa Santeak: eta alan gukbere Angeruagaz barri onak emonten deutsaguz: Santa Isabelegaz alabetandogu: eta Elexa Santeagaz erregutu, eta eskatuten deutsagu.</p>
+<p><hi rend='Italic'>Zelan obligauko dogu Se&ntilde;ora au, gu gaiti Jangoikoari erregutu deion.</hi></p>
+<p>Bere deboto izanagaz: imitetan doguzala bere pureza, Umildade, Modestia, eta beste birtuteak.</p>
+<p><hi rend='Italic'>Ze frutu atera beardogu lezi&ntilde;oe onetarik?</hi></p>
+<p>Lelengo, errazau debozi&ntilde;oe andiagaz iru Abe Maria, goxean, egerdian, eta arratsean bere Konzezi&ntilde;oe garbiaen erreberenzian.</p>
+<p>Bigarrena, ez itxi egunik bere errosario Santua errezau bagarik.</p>
+<p>Irugarrena, euki Konfianza andi bat beragan, dalako pekatarien Ama miserikordiaz betea.</p>
+<p>Laugarrena, bere fiesta, eta egun prinzipaletan Konfesau, eta Komulgau.</p>
+<p><hi rend='Italic'>Expliketan dira emen Amar Mandamentuak, eta bai bost Elexakoak bere.</hi></p>
+<p><hi rend='Bold'>MANDAMENTU SANTU JANGOIKOAEN LEGEKOAK DIRA AMAR</hi></p>
+<p><hi rend='Italic'>Eta Mandamentu guztiak gorde bear dira?</hi></p>
+<p>Bai Jauna; bada bat bakarrik austen bada bere gauza grabean, Eta Konsentimentu osoagaz, egingo da pekatu mortala.</p>
+<p><hi rend='Italic'>Ze&ntilde;da lelengo Mandamentua?</hi></p>
+<p>Jangoikoa ametea gauza guztien ganean.</p>
+<p>Mandamentu onek obligetan gaituz, Jangoikoa bera bakarrik, gorputz, eta arimako erreberenziarik andienagaz, adoretara: fede biziagaz beragan sinistu, ta esperetan dogula.</p>
+<p><hi rend='Italic'>Zelan Jangoikoa adorauko da?</hi></p>
+<p>Guztizko errespeto, Umildade, debozi&ntilde;oe, eta Modestia andiagaz.</p>
+<p><hi rend='Italic'>Egizu Adorazi&ntilde;oeko akto bat?</hi></p>
+<p>Neure Jaun, eta Jangoikoa, adoretan zaitudaz neure Kriadore, ta Salbadore Ona legez: Arren nigaz miserikordia.</p>
+<p><hi rend='Italic'>Zerda Jangoikoa ametea gauza guztien ganeti?</hi></p>
+<p>Gurago izatea bizitzea, eta gauza guztiak galdu, bera ofendidu ba&ntilde;o.</p>
+<p><hi rend='Italic'>Zer eragotzitendau Mandamentu onek?</hi></p>
+<p>Sorginkeria, Supestizi&ntilde;oea, Sakrilejioa, infidelidadea, Jangoiko falsoak adoretea, erejia, desesperazi&ntilde;oea, eta Jangoikoaen gorrotoa.</p>
+<p><hi rend='Italic'>Ze frutu atera beardogu lezi&ntilde;oe onetarik?</hi></p>
+<p>Lelengo goxean arratsean, eta meza enzutendogunean adorau Jaungoikoa errespeto eta Umildade andiagaz.</p>
+<p>Bigarrena, geure azi&ntilde;oe guztiak egin Jangoikoaen amoreagaiti.</p>
+<p>Irugarrena gorde kontu andiagaz mandamentu Santu onek esaten dabena.</p>
+<p><hi rend='Italic'>Ze&ntilde;da Bigarrena?</hi></p>
+<p>Bere izen Santuagaz ez juramentu banoan egitea.</p>
+<p>Mandamentu onek eragotziten dituz Jangoikoaen kontrako juramentu, eta blasfemiak, eta obligetan gaituz Boto, edo promesak kunplietara.</p>
+<p><hi rend='Italic'>Zerda Juramentu banoan egitea?</hi></p>
+<p>Egitea egia baga, justizia baga, eta nezesidade baga, edo bear eztala.</p>
+<p>Jangoikoaen izen Santuagaz?</p>
+<p>Jangoikoaen izena, Jesu-Kristoena, Ama Birjina Santissimeaena, Zeruko Santuena, eta bai Kriatura espezialekoena bere.</p>
+<p><hi rend='Italic'>Zer da Blasfemia?</hi></p>
+<p>Jangoikoaen edo beste Santuen kontra, esaten dan berba injurioso bat.</p>
+<p><hi rend='Italic'>Zer da Botoa?</hi></p>
+<p>Da Jangoikoari egiten jakon promes bat, berari agradetan jakon gauzaen baten ganean.</p>
+<p><hi rend='Italic'>Kunplidu beardoguz Boto, edo promesak?</hi></p>
+<p>Bai Jauna, bada da Jangoikoari burla egitea, Ofrezidu, ta ez Kunplietea.</p>
+<p><hi rend='Italic'>Ze frutu atera beardogu lezi&ntilde;oe onetarik?</hi></p>
+<p>Lelengo, Juramenturik ez egiteko euki Usu, Kostunbre, edo izkunea, esateko bai, edo ez Kristok irakasten deuskuna legez.</p>
+<p>Bigarrena, euki errespeto, eta erreberezia andia Jangoikoa en izen Santuari, eta esan Jesus inok juramentu egitendabenean.</p>
+<p>Irugarrena, Kunplidu ainbat lasterren, eta beardan legez Jangoikoari, eta bere Santuai prometidu jakena, eta ez egin profesik erraz, ta Konseju bagarik.</p>
+<p><hi rend='Italic'>Ze&ntilde;da irugarrena?</hi></p>
+<p>Jaiegunak Santifiketea.</p>
+<p>Mandamentu onek aginduten deusku, ez bearrik egiteko, eta Jangoikoa serbietan egun a igaroteko.</p>
+<p><hi rend='Italic'>Ze&ntilde;zuk dira egin bear eztirean bearrak?</hi></p>
+<p>Gorputza nekatuta egiten direanak: eta Kriaduak, eta Ofizioko jenteak, euren bizitzea igaroteko egin daroezanak.</p>
+<p><hi rend='Italic'>Nos baita bearra egin lei domeka, eta jaiegun, bearrik ez egiteko esanta dagozanetan?</hi></p>
+<p>Nezesidadea badago bai; baia Orretarako lizenzia eskatu bear da, ezelanbere al-badedi: eta bearra egin arrenbere Meza enzun bearda.</p>
+<p><hi rend='Italic'>Zer egin bearda Domeka, ta Jaiak Ondo gorde, ta Santifiketako?</hi></p>
+<p>Mezara, errosariora ofizio Santuetara, eta Dotrinara Debozi&ntilde;oe andiagaz asistidu.</p>
+<p><hi rend='Italic'>Ze pekatu egitendabe guraso, ta Ugazabak, bearra eragiten badeutse nezesidade baga, eta mezea enzuten eragotziten badeutse Domeka, ta jai egunetan euren ume, eta Kriadu Kriadai?</hi></p>
+<p>Egiten dabe pekatu Mortala, eta bildur izateko da, Jangoikoak maldizinoea ezarri eztaian euren familien ganera.</p>
+<p><hi rend='Italic'>Ze frutu atera beardogu lezi&ntilde;oe onetarik?</hi></p>
+<p>Lelengo, ez bearrik egitea Jai domeketan nezesidade baga.</p>
+<p>Bigarrena, igaro eguna Jangoikoa Serbietan piedadeko obra onakaz.</p>
+<p>Irugarrena, apartau, eta iges egin pekatuaen okasinoetarik, tabernetarik, tanbolin, jolas, eta danzetarik; bada aetan Jangoikoa geien ofendietan da.</p>
+<p><hi rend='Italic'>Ze&ntilde;da laugarrena?</hi></p>
+<p>Aita, ta Ama Onretea.</p>
+<p>Mandamentu Onek obligetan gaituz gurasoak ametara, Onretara, Obedezietara, eta euren nezesidadetan asistidu, eta Sokorrietara. <hi rend='Italic'>Bizi gaitezan luzaro.</hi></p>
+<p><hi rend='Italic'>Norzuk entendietan dozuz besterik gurasozat?</hi></p>
+<p>Nagusiago direanak edadean, dignidadean, eta gobernuan. Onek dira Elexetako Pastore, eta Sazerdoteak, Justizietako buruak, Maisuak, Ugazabak, eta beste onelangoak.</p>
+<p><hi rend='Italic'>Zerda gurasoak ametea?</hi></p>
+<p>Deseetea, eta gura izatea on guztia, alan arimakoa, Zelan gorputzekoa.</p>
+<p><hi rend='Italic'>Zer da gurasoak onretea?</hi></p>
+<p>Errespetoagaz berba egitea, estimetea, sufrietea, eta euren faltak ixilik eukitea.</p>
+<p><hi rend='Italic'>Zer da Obedezietea?</hi></p>
+<p>Aginduten daben gauzea, justoa, eta beardana bada, arin, eta gustoz egitea.</p>
+<p><hi rend='Italic'>Zer esan guradau Sokorrieteak?</hi></p>
+<p>Euren Zarzan, nezesidade eta geisoetan lagundutea: eta il ditezanean eurak gaiti Jangoikoari erregututea.</p>
+<p><hi rend='Italic'>Zelan Jangoikoak Kastigetan dituz, euren gurasoak errespeto bagarik, eta deungaro tratetan dituezan Umeak?</hi></p>
+<p>Ezarten deutse bere Maldizinoea, Kondenetan dituz eriotzara, eta Ondatuten dituz infernura.</p>
+<p><hi rend='Italic'>Ze Obligazi&ntilde;oe dauke gurasoak euren Umeakganako?</hi></p>
+<p>Emon bear deutse Mantenimentua, azi Jangoikoaen bildurtasunean, eta Dotrina Onean, Korrezianoeagaz, amoreagaz, eta exenplu Onagaz.</p>
+<p><hi rend='Italic'>Ze frutu atera beardogu lezi&ntilde;oe onetarik?</hi></p>
+<p>Lelengo, Obedezidu geure gurasoai aginduten deuskuen guztian, ez bakarrik bildurra gaiti, ezpada amorea gaiti, eta onerestea gaiti.</p>
+<p>Bigarrena, ez inosbere atsakabarik emon.</p>
+<p>Irugarrena, Kuidadoa euki eriotza onbat egin da ien</p>
+<p><hi rend='Italic'>Ze&ntilde;da bostgarrena?</hi></p>
+<p>Ez inor iltea.</p>
+<p>Mandamentu onek agindutendau geure proximoari, ez gatxik egitea, ez iltea, ez eskurik egoztea, ez berba deungarik esatea, ez odiorik, ez bengetako deseorik eukitea, eta ez eskandalurik emotea.</p>
+<p><hi rend='Italic'>Zer da eskandalua?</hi></p>
+<p>Berba, edo azi&ntilde;oe deungenbat, ze&ntilde;egaz emoten jakon okasi&ntilde;o ta motiboa geure proximoari pekatuan jausteko.</p>
+<p><hi rend='Italic'>Zetara obligetan gaituz Mandamentu onek?</hi></p>
+<p>Geure proximoa Serbidu, eta ametara, geure buruak legez; eta berbea, ta agurra ez Ukatutera.</p>
+<p><hi rend='Italic'>Ze frutu atera beardogu lezi&ntilde;oe onetarik?</hi></p>
+<p>Lelengo, geure proximoa amau, ta tratau dulzureagaz.</p>
+<p>Bigarrena, apartau auzi, ta kerelletarik, eta deungen Konbersazi&ntilde;oe, eta Konpaniarik.</p>
+<p>Irugarrena, Kolorea datorrenean ixilik egon, eta igaro pazienziagaz proximoen falta, ta injuriak.</p>
+<p>Laugarrena, deungaro egina, ez deungaro agaz pagau.</p>
+<p><hi rend='Italic'>Ze&ntilde;da seigarrena?</hi></p>
+<p>Aragizko pekaturik ez egitea.</p>
+<p>Mandamentu onek eragotzitendituz pensamentuz, berbaz, eta obrazko pekatu loi guztiak: eta bai pureziaen, eta Kastidadeaen Kontrako bizio, eta indezenziak.</p>
+<p><hi rend='Italic'>Ze&ntilde;zuk dira Orrek?</hi></p>
+<p>Jan, edo edan larregi egitea, edo ase beteak, Komediak, pintura, ta So&ntilde;eko indezenteak.</p>
+<p><hi rend='Italic'>Ze gauza da persona Kasto, eta garbi bat?</hi></p>
+<p>Da Angeru bat lurrean, eta Jesusa en esposoa.</p>
+<p><hi rend='Italic'>Zer egin bear dogu, Kasto, eta garbi izateko?</hi></p>
+<p>Lelengo, euki Modestia andi bat begietan, So&ntilde;ean, ta Ukututean.</p>
+<p>Bigarrena, bota ainbat lasterren Kastidadeaen Kontrako tentazi&ntilde;oeak.</p>
+<p>Irugarrena, erregutu Jangoikoari garbi, eta Kasto izateko.</p>
+<p>Laugarrena, euki debozi&ntilde;oe andia Ama Birjina Santissimeaen Konzezinoe garbiagaz, eta San Josepegaz.</p>
+<p><hi rend='Italic'>Ze frutu atera beardogu lezi&ntilde;oe onetarik?</hi></p>
+<p>Lelengo, ez pensau, ez esan, ez enzun, eta ez ekusi Kastidadeaen Kontrako gauzarik.</p>
+<p>Bigarrena, al-eginagaz apartau Konpa&ntilde;ia, eta lagun deungak ganik.</p>
+<p>Irugarrena, Konfesau, eta Komulgau sarri: eta iragarri Konfesoreari bere pekatu, tentazi&ntilde;oe, eta inklinazinoeak.</p>
+<p><hi rend='Italic'>Ze&ntilde;da Zazpigarrena?</hi></p>
+<p>Ez Ostutea.</p>
+<p>Mandamentu onek agindutendau, ez kenduteko, ez eukiteko, eta ez deseetako inoen gauzarik, jabeaen borondateaen Kontra.</p>
+<p><hi rend='Italic'>Norzuk dagoz obligauta, bakotxari berea biortuten?</hi></p>
+<p>Inoen gauzea daukenak, eta bai lapurrerian, eta proximoaen Kontrako da&ntilde;uen baten parte izan direanak bere.</p>
+<p><hi rend='Italic'>Askoda esatea Konfesoreari, ostu dabela, edo Zerbait daukala jabeaen borondateaen Kontra?</hi></p>
+<p>Ezta asko esatea, biortuten ezpadeutso ainbat lasterren.</p>
+<p><hi rend='Italic'>Mandamentu au ondo gordetako, asko da, inori ez ezer ostutea, eta inoen gauzarik ez eukitea?</hi></p>
+<p>Ezta asko: Noberak daukanerik bere emon beardau, Sokorrietako nezesidadean dagozan pobreak.</p>
+<p><hi rend='Italic'>Ze frutu atera beardogu lezi&ntilde;oe onetarik?</hi></p>
+<p>Lelengo, artu Odio mortal bat abariziari, eta Kontentau Jangoikoak emoten dabenagaz.</p>
+<p>Bigarrena, inoen gauzagaz, ez Kargurik euki.</p>
+<p>Irugarrena, emon bakotxari berea bertati, edo ainbat lasterren.</p>
+<p><hi rend='Italic'>Ze&ntilde;da Zorzigarrena?</hi></p>
+<p>Testimonio falsorik, ez ezartea, eta guzurrik ez esatea.</p>
+<p>Mandamentu Onek agindutendau, ez inori falsotestimoniorik eregi, ez egozteko, ez guzurrik esateko, ez murmuretako, ez erraz proximoen Kontra jusgetako.</p>
+<p><hi rend='Italic'>Zer da guzurra?</hi></p>
+<p>Gogoaz bestera gauzea esatea.</p>
+<p><hi rend='Italic'>Inos guzurrik esan bearda?</hi></p>
+<p>Ez Jauna; bada da guzurra Jangoikoaen Kontra; eta Kastigau daroa aen Majestadeak mundu onetan bere gatx, eta trabaju ikaragarriakaz.</p>
+<p><hi rend='Italic'>Zer da murmurazi&ntilde;oea?</hi></p>
+<p>Esatea deungaro proximoa gaiti, bera aurrean eztagoala.</p>
+<p><hi rend='Italic'>Obligazinoerik bago, proximoari famea biortuteko?</hi></p>
+<p>Bai Jauna, eta ainbagarik ezin Salba liteke.</p>
+<p><hi rend='Italic'>Zer egin bearda, inor murmuretan dagoanean?</hi></p>
+<p>Eragotzi albadagi, ezpabere beste Konbersazi&ntilde;oe bat atera, edo joan arik.</p>
+<p><hi rend='Italic'>Ze diferenzia dago murmuretan dabena ganik, gustoz enzuten dabena gana?</hi></p>
+<p>Batak dauko Demoni&ntilde;oa mi&ntilde;ean, eta besteak belarrian.</p>
+<p><hi rend='Italic'>Zer da juizio temerarioa: edo erraz proximoen Kontra Juzgetea?</hi></p>
+<p>Errazoa bagarik proximoen Kontra egitendan juizio deungea.</p>
+<p><hi rend='Italic'>Ze frutu atera beardogu lezi&ntilde;oe onetarik?</hi></p>
+<p>Lelengo, ez sekula inori guzurrik ez ino gaiti deungarorik esan.</p>
+<p>Bigarrena, berba egin proximoa gaiti geuk gura geunkean legez, berak geugaiti egin leian.</p>
+<p><hi rend='Italic'>Ze&ntilde;da Bederatzigarren mandamentua?</hi></p>
+<p>Proximoen emazterik ez deseetea.</p>
+<p>Mandamentu Onek eragotziten dituz purezeaen, eta Kastidadeaen Kontrako pensamentu eta deseo loiak.</p>
+<p><hi rend='Italic'>Ze&ntilde;da Amargarrena.</hi></p>
+<p>Besten Ondasunik ez deseetea.</p>
+<p>Mandamentu Onek eragotzitendau inoen bidebagako azienden deseoa, eta bai Ondasun larregi gura izatea bere.</p>
+<p><hi rend='Bold'>ELEXA AMA SANTAKO MANDAMENTUAK DIRA BOST</hi></p>
+<p>Lelengoa Domeka, eta Jaiegunetan meza Oso bat enzutea.</p>
+<p>Mandamentu Onek aginduten deusku, Meza enzutera debozi&ntilde;oe, errespeto, eta atenzi&ntilde;oe andiagaz Domeka guztietan, eta bai astebarruko jaietan bere.</p>
+<p><hi rend='Italic'>Ze&ntilde;da Jangoikoari Ofrezidu al-leion gauzarik andiena?</hi></p>
+<p>Da mezako Sakrifizio Santua, Ze&ntilde;etan ofrezietan jakon Aita Eternoari Jesu-Kristo Jangoiko, eta Gizon egiazkoa, ogia en, eta ardaoa en irudi, edo azidenten azpian.</p>
+<p><hi rend='Italic'>Zetako ofrezietan jako Sakrifizio Santu au?</hi></p>
+<p>Lelengo, emoterren Jangoikoari, geure Jaun Soberanuari legez zor jakon onrea.</p>
+<p>Bigarrena, eskatuterren geure pekatuen parkazi&ntilde;oea, eta Osteranzean beardogun guztia.</p>
+<p>Irugarrena, eskerrak emoterren egin deuskuzan mesedeak gaiti.</p>
+<p><hi rend='Italic'>Nok ofrezietan dau Sakrifizio au?</hi></p>
+<p>Jesu-Kristo geure Erredentoreak Sazerdoteagaz batera, eta Mezara asistietan daben fielak.</p>
+<p><hi rend='Italic'>Zelan meza enzun bearda?</hi></p>
+<p>Atenzi&ntilde;oe, errespeto, eta Debozinoe andiagaz.</p>
+<p><hi rend='Italic'>Zer esan lei, meza esatendan artean eta Elexan errespeto baga dagozanak gaiti?</hi></p>
+<p>Onelango fede bagako Kristinauak, eztabela Jangoikoaen esku Santuerarik gauza onik izango, eta bildur izateko da bere maldizinoea etorri ezten euren ganera; a&ntilde; Kasu gitxi egiten dabelako Jesu-Kristo geure Erredentoreaen bizitza, Eriotza, eta Pasinoe Santuko misterio andiakaz: Zorigestoko onek dagoz Jangoikoaen eskurik itxita legez, eta jentilak ba&ntilde;o bere itsuago; bada Onek ikusiko balebe Kristinau askok Elexan egoteko daukeen modua espantau, eta arrituko litzatekez.</p>
+<p><hi rend='Italic'>Ze gauza on alkanzetan dabe beardan legez Mezea enzuten dabenak?</hi></p>
+<p>Lelengo Jesu-Kristo geure Jaunak errepartietan deutsez bere Pasi&ntilde;oe Santuko merezimentuak.</p>
+<p>Bigarrena, emoten deutse grazia alkanzetako Aita Eternoa ganik eskatuten dabena.</p>
+<p>Irugarrena, dauko kuidado espeziala libretako egun atako gatx, eta desgrazietarik.</p>
+<p><hi rend='Italic'>Ze frutu atera beardogu lezi&ntilde;oe onetarik?</hi></p>
+<p>Lelengo, ainbat Sarrien Meza enzun, Jangoikoak ezarri deigun bere bendizinoe Santua.</p>
+<p>Bigarrena, egon elexan errespeto, eta modu andiagaz; bada alan emongo deusku Jangoikoak eskatuten doguna.</p>
+<p><hi rend='Italic'>Ze&ntilde;da bigarrena?</hi></p>
+<p>Urtean be&ntilde; edolabere Konfesetea, edo lenago eriotzako peligrurik bada, edo Komulgauko bada.</p>
+<p><hi rend='Italic'>Penitenziako Sakramentuan dago Zerdan Konfesinoea an ikusi bedi. 137.</hi></p>
+<p><hi rend='Italic'>Ze&ntilde;da Irugarrena?</hi></p>
+<p>Pazko Erresurrezi&ntilde;oe koetan Komulgetea.</p>
+<p><hi rend='Italic'>Ikusi bedi Sakramentu Komuninoekoa. 149.</hi></p>
+<p><hi rend='Italic'>Ze&ntilde;da Laugarrena?</hi></p>
+<p>Elexa Santeak aginduten dabenean barau egitea.</p>
+<p>Mandamentu onek aginduten dau barau egiteko, Koarta tenporetan, Bijilietan, eta Garizuma guztian, Eta Ez aragirik jateko barikuetan.</p>
+<p><hi rend='Italic'>Norzuk dagozan obligauta, barau egiten, eta norzuk ez, Ori Kura Jaunak esando dabe, eta bai norzuk aragia jango daben bere.</hi></p>
+<p><hi rend='Italic'>Ze&ntilde;da bostgarrena?</hi></p>
+<p>Amarrenak, eta primiziak ondo pagetea.</p>
+<p><hi rend='Italic'>Zelan pagau bear dira Amarrenak?</hi></p>
+<p>Emoten dala, arzendan legez, Onerik Ona, adinonerik adin Ona, eta Txarrerik txarra, Kunpliduko bada mandamentu onek esaten dabenagaz.</p>
+<p><hi rend='Italic'>Ze frutu atera beardogu lezi&ntilde;oe onetarik? </hi></p>
+<p>Lelengo euki errespeto andia Elexa Santeak aginduten dituzan gauza guztiakaz.</p>
+<p>Bigarrena, Mandamentu Santu onek aginduten dabena egin amoreagaz, eta Obedenzia itsuagaz.</p>
+<p><hi rend='Italic'>Expliketan dira emen Sakramentu Santuak.</hi></p>
+<p><hi rend='Bold'>SAKRAMENTUAK</hi></p>
+<p><hi rend='Italic'>Ze gauza dira Sakramentuak?</hi></p>
+<p>Dira Jesu-Kristo geure Jaunak emon niko se&ntilde;ale batzuk aen medioz emoteko guri grazia, eta Birtuteak.</p>
+<p><hi rend='Bold'>BAUTISMOA</hi></p>
+<p><hi rend='Italic'>Zer da Bautismoa?</hi></p>
+<p>Da Jesu-Kristok eginiko Sakramentu bat, Ze&ntilde;ek kenduten daben pekatu Orijinala, eta besterik badago bere. eta egiten gaituz Kristinau, eta Jangoikoaen seme.</p>
+<p><hi rend='Italic'>Zer da, Kristinaua?</hi></p>
+<p>Bateaturik dagoana:</p>
+<p>Jesu-Kristo en fede Santuan sinistuten dabena, eta ofrezidurik daukana, bizi izatera bere exenplu, eta Dotrina Santuagaz batera, edo Konforme.</p>
+<p><hi rend='Italic'>Ze&ntilde;da Kristinauaen se&ntilde;alea?</hi></p>
+<p>Krutze santea.</p>
+<p><hi rend='Italic'>Zegaiti?</hi></p>
+<p>Dalako Kristo Kruzifikaduaen figurea, Ze&ntilde;etan erredimidu genduzan.</p>
+<p><hi rend='Italic'>Se&ntilde;ale au nos egin beardogu?</hi></p>
+<p>Bearren bat asten dogun guztian, tentazi&ntilde;oe, edo peligruen baten ikusten gareanean, etserik urteten dogunean, Elexan Sarzen gareanean, jaten goazanean, eta Oera etxuten gareanean.</p>
+<p><hi rend='Italic'>Krutzea en Se&ntilde;aleak, Zer errespresentetan dau?</hi></p>
+<p>Trinidade Santissimoko, eta geure Erredenzinoeko misterioak.</p>
+<p><hi rend='Italic'>Zelan Trinidadeko misterioa?</hi></p>
+<p>Krutzea egitendogunean, iru personak izentauagaz.</p>
+<p><hi rend='Italic'>Zelan erredenzinoeko misterioa?</hi></p>
+<p>Krutzea eginagaz; bada an erredimidu genduzan ilten zala gugaiti.</p>
+<p><hi rend='Italic'>Bateatuten danari Zetako Sazerdoteak egiten deutso Krutzea bekokian, eta bularrean?</hi></p>
+<p>Bekokian lotsatu ezten Kristinau izateagaz: bularrean barriz Krutzea amau daian.</p>
+<p><hi rend='Italic'>Bautismoa baga Salba liteke?</hi></p>
+<p>Ez Jauna, eta bateatu baga ilten direan Se&ntilde;ak Doaz linbora, eta eztabe ikusiko inos Jangoikoaen arpegia.</p>
+<p><hi rend='Italic'>Bateatuteko Zer egin bear da?</hi></p>
+<p>Ura artu, eta ezarri bateatuten dan personeaen parte prinzipal en batera esaten dala, Ura egozten jakanean. <hi rend='Italic'>Nik bateatuten Zaitudaz Aitea en, eta Semea en, eta Espiritu Santua en izenean Amen.</hi></p>
+<p><hi rend='Italic'>Edoze&ntilde;ek bateatu lei?</hi></p>
+<p>Bai Jauna, nezesidadea badago.</p>
+<p>Zetara <hi rend='Italic'>Obligetan gaituz Bautismoak?</hi></p>
+<p>Satanas en ponpa, eta Obra kaz errenunzietara.</p>
+<p><hi rend='Italic'>Ze&ntilde;zuk dira Satanas en ponpa, eta obrak?</hi></p>
+<p>Munduko banidade, eta pekatuak.</p>
+<p><hi rend='Italic'>Ze frutu atera beardogu lezi&ntilde;oe Onetarik?</hi></p>
+<p>Lelengo, Jangoikoari esker andiak emon, bere Bautismo Santua dala mediante, egin gaituzalako Kristi&ntilde;au.</p>
+<p>Bigarrena, bateatu gi&ntilde;eanean egin genduzan promesak barriztau.</p>
+<p>Irugarrena, emon berbea aurreranzean bizi izateko bera Serbietan, orretako errenunzietan doguzala munduko ponpa, eta banidadeak.</p>
+<p><hi rend='Bold'>KONFIRMAZI&Ntilde;OEA</hi></p>
+<p><hi rend='Italic'>Zetako da Sakramentu SantuKonfirmazinoekoa?</hi></p>
+<p>Bautismoan artu genduan fedea, firme iminteko.</p>
+<p><hi rend='Italic'>Konfirmau baga Salba liteke?</hi></p>
+<p>Bai Jauna.</p>
+<p><hi rend='Italic'>Konfirmazi&ntilde;oeko Sakramentua artu lei Sarritan?</hi></p>
+<p>Ez be&ntilde; ba&ntilde;o; bada ezta galduten be&ntilde; ariman iminten daben Se&ntilde;alea.</p>
+<p><hi rend='Italic'>Konfirmauta dagoanak, ze obligazi&ntilde;oe dauko?</hi></p>
+<p>Lelengo, beardituz igaro, eta sufridu pazienzia, eta biotz onagaz Jangoikoa en bide Santuan, aurkitu, eta topetan direan enbarazu, eta difikultadeak.</p>
+<p>Bigarrena, egin beardituz lotsa, ez bildur baga Kristinau egiazko batek egin daroazan gauzak.</p>
+<p><hi rend='Italic'>Ze frutu atera beardogu lezi&ntilde;oe onetarik?</hi></p>
+<p>Lelengo, ikasi ondo Sakramentu Santu onen obligazinoeak.</p>
+<p>Bigarrena; errezibidu eztabenak, prestau leenaz, beardan legez errezibietako.</p>
+<p><hi rend='Bold'>PENITENZIA</hi></p>
+<p><hi rend='Italic'>Zetako da Sakramentu Santu Penitenziakoa?</hi></p>
+<p>Bateatu ezkero eginiko pekatuak parkatuteko.</p>
+<p><hi rend='Italic'>Guztiz da bearra konfesetea Salbetako?</hi></p>
+<p>Salbauko bada beardituz konfesau bere pekatuak, edo euki gogoa konfesetako aldagianean,</p>
+<p><hi rend='Italic'>Zeinbat gauza beardira konfesi&ntilde;oe Ona egiteko?</hi></p>
+<p>Bost. 1. Examinea. 2. Dolorea. 3. Propositua. 4. Konfesetea. 5. Satisfazinoea.</p>
+<p><hi rend='Bold'>EXAMINA KONZIENZIAKO</hi></p>
+<p><hi rend='Italic'>Zerda Examinea?</hi></p>
+<p>Pekatuak memoriara ekartea.</p>
+<p><hi rend='Italic'>Zelan egingo da examinea?</hi></p>
+<p>Lelengo, Jangoikoaen Majestadeari eskatu humildadea gaz, emon deiola grazia, eta argia bere pekatuak idoro, eta ezaututeko, eta aen damu egiazkoa.</p>
+<p>Bigarrena, Atera kontua Jangoikoa en legeko Mandamentuetati, eta bost Elexakoetati, ze mandamentuen kontra egindaben pekatu, eta zeinbat bidar, pensamentuz, berbaz, eta obraz, norberen eta besten estadu, eta obligazinoeakaz konforme, eta errazago egiteko akordau, edo gogoratu nondi ibili, eta non egon dan nogaz tratau daben, eta ze inklinazinoe oidaben. Onetako iminten dabela negozio andi baten imini oi dan kontua, eta ardurea.</p>
+<p><hi rend='Italic'>Konfesi&ntilde;oe jenerala, nai partikulara egiteko modu erraza dauko iminita euskeraz Aita Agustin Kardaberaz Mistonista zeloso, eta Jakitunak bere exerzizioetako liburu ederrean.</hi></p>
+<p><hi rend='Bold'>DOLOREA</hi></p>
+<p><hi rend='Italic'>Zer da dolorea?</hi></p>
+<p>Eukitea damua Jangoikoa ofendidu dabelako.</p>
+<p><hi rend='Italic'>Zeinbat modutakoa da dolorea?</hi></p>
+<p>Modu bitakoa Kontrizi&ntilde;oea, eta atrizi&ntilde;oea.</p>
+<p><hi rend='Italic'>Zerda kontrizi&ntilde;oea?</hi></p>
+<p>Eukitea damua Jangoikoa ofendidu dabelako, izanik nor dan.</p>
+<p><hi rend='Italic'>Zer da Atrizi&ntilde;oea?</hi></p>
+<p>Eukitea Damua Jangoikoa ofendidu dabelako, pekatua en eza&ntilde;tasuna gaiti, edo pekatua dala medio galdu dituzalako zeruko gloriak, eta irabazi infernuko penak.</p>
+<p><hi rend='Italic'>Damu, edo Dolore onetarik onena ze&ntilde; da?</hi></p>
+<p>Kontrizinoea da askoz obea Atrizi&ntilde;oea ba&ntilde;o; Zegaitize Akto Kontrizinoeko egiazkoa egiten dabena, bertati gelditutenda Jangoikoa en grazian; baia ez atrizinoea egiten dabena Konfesetan eztala. Eta orregaiti pekatu mortalean dagozan bi bata kontrizi&ntilde;oegaz, eta bestea Atrizi&ntilde;oegaz ilgo balira konfesau baga, Kontrizi&ntilde;oea daukana salbauko litzateke, eta Atrizinoea daukana kondenau.</p>
+<p><hi rend='Italic'>Asko da Akto Kontrizinoekoa aoagaz esatea?</hi></p>
+<p>Ez Jauna, barruko, eta biotzeko dolore, eta Damua euki bearda, izango bada egiazkoa.</p>
+<p><hi rend='Italic'>Pekatuen Damua artuteko, zer ekarri bear dogu gogora?</hi></p>
+<p>Lelengo Jangoiko Majestade infinitoaen ontasun pare bagakoa, ze&ntilde; menospreziau, eta ofendidu dogun.</p>
+<p>Bigarrena, aen Majestadeak egin deuskuzan mesede eta benefizio andiak.</p>
+<p>Irugarrena, Jesu-Kristo geure Jauna en Pasi&ntilde;oeko pena, eta trabajuak.</p>
+<p>Laugarrena, infernuko pena betikoen konsiderazi&ntilde;oea.</p>
+<p>Bostgarrena, pekatua en eza&ntilde;tasuna.</p>
+<p><hi rend='Italic'>Zerda Propositua?</hi></p>
+<p>Da biotzeko gogo, edo determinazi&ntilde;oe firme bat, ez geiago pekaturik egiteko, eta pekatuen okasinoerik apartetako.</p>
+<p><hi rend='Italic'>Pekatu egiteko bide, edo okasi&ntilde;oerik apartetan eztanak, aldaiala, beardan propositu egiazkoa bauko?</hi></p>
+<p>Ez Jauna, uste izan arrenbere baukala, eztauko.</p>
+<p><hi rend='Bold'>KONFESINOEA</hi></p>
+<p><hi rend='Italic'>Zer da Konfesi&ntilde;oea?</hi></p>
+<p>Esatea Sazerdoteari bere pekatu guztiak bat bere itxi baga Umildadeagaz, Doloreagaz, eta garbiro, euren Zirkunstanzia guztiakaz.</p>
+<p><hi rend='Italic'>Konfesino ean inor izentau bear da?</hi></p>
+<p>Ez Jauna; bada ezta ori norbera akusetea, ezpada besten pekatuak agertutea.</p>
+<p><hi rend='Italic'>Pekatu benialak Konfesau bear dira?</hi></p>
+<p>Ondo da Konfesetea, baia eztago ligazinoerik.</p>
+<p><hi rend='Italic'>Pekatu mortal bat, edogeiago Konfesetea aztuten baiako, Orregaiti Konfesinoea Ona izango da?</hi></p>
+<p>Bai Jauna bere erruz ezpada; baia eukiko dau Obligazi&ntilde;oa, esateko Urren Konfesetara Doeanean.</p>
+<p><hi rend='Italic'>Pekatu Mortal en bat lotsaz Konfesau bagarik itxiten dabena Salba liteke beste penitenzienbat, edo Obra Onen bat eginagaz?</hi></p>
+<p>Ezin Salba liteke Santu guztiak ba&ntilde;o penitenzia geiago eginta bere.</p>
+<p><hi rend='Italic'>Lotsa andiko, eta ikaragarrizko pekatuz beterik Kristinau bat balego, eukiko leuke erremedioa Erromara joan baga?</hi></p>
+<p>Bai Jauna, bere errian edoZeinbere Konfesorek emongo deutso guztien parkazi&ntilde;oea.</p>
+<p><hi rend='Italic'>Konfesoreak Konfesinoetan enzuniko gauzea inori esan leio: edo Salatu lei penitentea Inkisizi&ntilde;o era?</hi></p>
+<p>Ezin inori ezer esan leio, bizirik erreko balebe bere.</p>
+<p><hi rend='Italic'>Beraz eztago atxakiarte, pekatuak Konfesau baga isteko?</hi></p>
+<p>Ez Jauna, ta Ondo Konfesetan eztana bere erruz, Kondenauko da erremedio bagarik.</p>
+<p><hi rend='Italic'>Konfesetara Orduan, Zer egin bear da?</hi></p>
+<p>Jarri belauniko Sazerdotea en o&ntilde;etan, Umildade, ta modu andiagaz, Ze&ntilde;atu, ta esan Konfesi&ntilde;oea. Ni bekatariau &amp; K. eta esan bere pekatu guztiak bat bere itxi bagarik.</p>
+<p><hi rend='Italic'>Pekatuak Konfesau ezkero, Zer egin bear da?</hi></p>
+<p>Enzun, ta aditu atenzi&ntilde;oea gaz Konfesoreak emoten dituzan Konsejuak, eta egin Akto Kontrizino ekoa.</p>
+<p><hi rend='Italic'>Konfesorea en O&ntilde;etarik jagi ezkero Zer egin bear da?</hi></p>
+<p>Lelengo, erretirau leku On batera; Jangoikoari graziak emoten, bere pekatuak parkatu deutsazalako.</p>
+<p>Bigarrena, barriaztu, Konfesi&ntilde;oean, eta leenago egindituzan proposituak.</p>
+<p>Irugarrena, Konfesoreak emon deutsazan Konsejuak gogoratu. Eta penitenzia egiazkoa egin.</p>
+<p><hi rend='Italic'>Ze frutu atera beardogu lezi&ntilde;oe onetarik?</hi></p>
+<p>Lelengo Examinau Konzianzia, eta begiratu ondo, ea leenagoko Konfesinoeak onak izan ete direan.</p>
+<p>Bigarrena, Onak izan ezpadira barriaztu, edo Konfesi&ntilde;oe jeneral bat egin.</p>
+<p>Irugarrena, esan Konfesoreari bere pekatu guztiak, Umildadeagaz, Osorik, laster, eta erretorika baga.</p>
+<p><hi rend='Bold'>SATISFAZI&Ntilde;OEA</hi></p>
+<p><hi rend='Italic'>Zer da satisfazi&ntilde;oea?</hi></p>
+<p>Pagetea penitenziako Obra kaz pekatuak gaiti Zordan penea.</p>
+<p><hi rend='Italic'>Zetan dago satisfazinoe au?</hi></p>
+<p>Konfesoreak emoniko penitenzia artu, ta Ondo Kunplietean.</p>
+<p><hi rend='Italic'>Penitenzia artuten dabenak Kunplietako gogoagaz, egiten dau Konfesinoe Ona, gero Kunplietan ezpadau?</hi></p>
+<p>Bai Jauna; baia Kunplidu bagarik itxi eban penitenzia, andia edo grabea bazan egingo dau pekatu mortala; eta bearko dau Konfesau Urrengo Konfesinoean.</p>
+<p><hi rend='Italic'>Ze frutu atera bear dogu lezi&ntilde;oe onetarik?</hi></p>
+<p>Lelengo Konfesinoean ezarririko penitenzia Kunplidu ainbat lasterren.</p>
+<p>Bigarrena, azaz ganeti bere, artu norberak beste penitenziaen bat, aplaketako Jangoikoaen aserrea, eta pekatuak gaiti obeto satisfazietako.</p>
+<p><hi rend='Bold'>KOMUNI&Ntilde;OEA</hi></p>
+<p><hi rend='Italic'>Zer dago altarako Sakramentu Santuan?</hi></p>
+<p>Dago Jesu-Kristo Jangoiko, ta Gizon egiazkoa, zeruan dagoana legez.</p>
+<p><hi rend='Italic'>Zer dago Ostian Konsagradu ba&ntilde;o leenago.</hi></p>
+<p>Ogi puskabat.</p>
+<p><hi rend='Italic'>Eta Zerdago Konsagradu ezkero?</hi></p>
+<p>Dago Jesu Kristoen gorputza, bizirik, eta bat eginik, edo unidurik Jangoikoen semea en personeagaz, dago odola bere, arimea, Jangoikotasuna, eta Trinidadeko iru personak.</p>
+<p><hi rend='Italic'>Zer dago Kalizan Konsagradu ba&ntilde;o leenago?</hi></p>
+<p>Ardaoa ur puskatxu bateagaz.</p>
+<p><hi rend='Italic'>Eta Konsagradu ezkero zerdago?</hi></p>
+<p>Jesu Kristoen odola, eta dagoana legez bat eginik Gorputzagaz, dago Gorputza bere, Arimea, Jangoikotasuna, eta iru Personak.</p>
+<p><hi rend='Italic'>Nos iminten da Jesu Kristo Ostian, eta Kalizan?</hi></p>
+<p>Sazerdoteak Mezatan berba Konsagrazinoekoak esaten dituzanean.</p>
+<p><hi rend='Italic'>Eta berba mirarizko Onek esan ezkero, bago Ostian Ogirik, edo Kalizan ardaorik?</hi></p>
+<p>Ez Jauna; bada len ogi Zana egiten da Kristo en Gorpuz: eta len ardaoa Zana Kristo en odol, eta eztago Ostian ogirik, ez Kalizan ardaorik, Ogia en eta ardaoaen irudia ba&ntilde;o.</p>
+<p><hi rend='Italic'>Sazerdoteak Ostia erdi bi egiten dabenean, erdiratuten da Kristo?</hi></p>
+<p>Ez Jauna; bada a&ntilde; osorik dago alde batean, Ze&ntilde; bestean, eta bardin Ostia Txikarrean, nai Ostiaen parte rik Txikarrenean, Ze&ntilde; andian.</p>
+<p><hi rend='Italic'>Pekatu mortalean Komulgetan danak errezibietan dau Kristo?</hi></p>
+<p>Bai Jauna, baia deun.</p>
+<p><hi rend='Italic'>Ze pekatu egiten dau alan Komulgetan danak?</hi></p>
+<p>Judasen pekatua; Sakrilejio ikaragarri bat; bada jaten, eta irunsiten dau Jangoikoa en Juizioa.</p>
+<p><hi rend='Italic'>Nos egin eban Jesu-Kristok Sakramentu Santu au?</hi></p>
+<p>Egen Sartu gabean bere Apostoluen aurrean.</p>
+<p><hi rend='Italic'>Zetako?</hi></p>
+<p>Izateko geure arimen mantenimentua: eta adorau gengian Sakramentu Santu onetan.</p>
+<p>Zer dan Mezea Elexako <hi rend='Italic'>Lelengo mandamentuan esan da.</hi></p>
+<p><hi rend='Italic'>Ondo Komulgetako Zer bearda?</hi></p>
+<p>Lelengo, Zer errezibietan dan jakitea.</p>
+<p>Bigarrena, barau naturalean egotea.</p>
+<p>Irugarrena, Jangoikoaen grazian egotea.</p>
+<p><hi rend='Italic'>Zer da barau naturala?</hi></p>
+<p>Samati estamangura ezerbere ez igarotea, gaberdiko amabietarik, eta Komulgau artera.</p>
+<p><hi rend='Italic'>Zelan joan bear da Komulgetara?</hi></p>
+<p>Umildade, Konfianza eta debozinoe andiagaz.</p>
+<p><hi rend='Italic'>Zelan egingo dozu Umildadeko Akto bat Komulgetara Zoazanean?</hi></p>
+<p>Neure Jesus Ona, sinisetandot firmemente Zagozala Sakramentu Santu adora garri Onetan, adoretan zaitudaz neure biotzeko erreberenzia, eta Umildade guztiagaz.</p>
+<p><hi rend='Italic'>Egizu Umildadeko, eta konfianzako Akto bat?</hi></p>
+<p>Neure Jesus maitea, Zeure O&ntilde;etan etxunik, Konfesetan dot, ez nasala digno Zeure Majestadea errezibietako; baia alanbere daukat Konfianza andi bat, emongo deustazula Zeure grazia.<hi rend='Italic'> Zer egin bear da Komulgau ezkero?</hi></p>
+<p>Lelengo adorau geure gorputzetan dagoan Jaun andi au.</p>
+<p>Bigarrena, emon graziak, egin deuskuzan mesedeak gaiti.</p>
+<p>Irugarrena, fabore, ta mesedeak eskatu.</p>
+<p>Laugarrena geu garean legez, sentidu, eta potenzia guztiakaz bere eskuetan Ofrezidu.</p>
+<p><hi rend='Italic'>Komulgau ezkero egizuz lau akto Onek?</hi></p>
+<p>Neure Jaun Soberanua! nik adoretan Zaitudaz Angeru, eta Santu guztiakaz: nik ezaututen Zaitudaz neure Jangoiko, eta Salbadore zat, eta eztot gura bizi aurreranzean Zeu bagarik.</p>
+<p>Neure Jangoiko Maitea! Zer emon al-neizu nik Zuri, egin deustazun mesede, eta benefizio andi Onegaiti! biziko naz onik aurrera ezauturik Zeure fabore, ta benefizio andiak.</p>
+<p>Neure Jesus miserikordiosoa, parkatu egidazuz neure kulpa eta pekatuak, eta ez egizu permitidu Zeuganik ni apartetea, bete egizu neure arimea, Zeure graziaz eta gorde nagizu gatx guztietari.</p>
+<p>Neure Jesus amablea! Ofrezietan deutsudaz neure pensamentu, berba, obra, eta azi&ntilde;oe guztiak, neure biotza, arimea eta gorputza: ara emen neu guztiau Zeurea, artu nagizu, Salba nagizu; bada eztaukat beste deseorik ezpada Zeure izatea Zeu ametea, eta Zeu serbietea sekula beti Amen.</p>
+<p><hi rend='Italic'>Jangoikoari graziak emon ezkero zer egin bearda?</hi></p>
+<p>Biotzeko gogo, edo erresoluzinoe firmebat atera, bere defekto, edo faltarik prinzipalenak emendetako: bere bizio prinzipal, edo agintariari gerra egiteko: bizitza barribat asiteko, eta bizitza barri atan irauteko.</p>
+<p><hi rend='Bold'>OLEAZI&Ntilde;OEA</hi></p>
+<p><hi rend='Italic'>Zetako da Sakramentu Santu Oleazi&ntilde;oekoa?</hi></p>
+<p>Iru gauzatako.</p>
+<p>Lelengo bizitza geisto igaroa en errastu ta sustraiak kenzeko.</p>
+<p>Bigarrena, arimeari indarra emoteko demoni&ntilde;oen tentazi&ntilde;oen kontra.</p>
+<p>Irugarrena, gorputzari osasuna emoteko konbenietan bada.</p>
+<p><hi rend='Italic'>Oleazi&ntilde;oea artu bagarik salba liteke?</hi></p>
+<p>Bai Jauna; baia geiso peligruzkoa daukala, itxi balei menosprezioz, egingo leuke pekatu mortala.</p>
+<p><hi rend='Italic'>Zetako Sazerdoteak orio Santuagaz igorzi edo unjietan deutsaz geisoari begiak, belarriak, suurra, aoa, eskuak, eta o&ntilde;ak?</hi></p>
+<p>Bere sentidu guztiakaz egin dituzan pekatu guztien parkazi&ntilde;oea, Jangoikoa ganik alkanzetako.</p>
+<p><hi rend='Italic'>Ze disposizi&ntilde;oe bearda Sakramentu Santu au errezibietako?</hi></p>
+<p>Lelengo, ezelanbere albadedi bearda konfesau.</p>
+<p>Bigarrena, deseau, eta eskatu atarako badago.</p>
+<p>Irugarrena, errezibidu bere pekatuen damuagaz, fede biziagaz, konfianza Osoagaz, iminten dabela bere burua Jangoikoa en eskuetan.</p>
+<p>Laugarrena, Sazerdoteak unzinoeak egiten dituzan artean, gesoak bere akto kontrizinoekoa egin, sentidu bakotxagaz egindituzan pekatuen parkazinoea alkanzetako.</p>
+<p><hi rend='Italic'>Ze frutu atera beardogu lezi&ntilde;oe onetarik?</hi></p>
+<p>Lelengo, ez egon agoni&ntilde;akoa jo artean begira, Sakramentu au errezibietako.</p>
+<p>Bigarrena, prokurau, gesoai denporaz emon dakien.</p>
+<p>Irugarrena, gesoa peligruzkoa danean inok esan bagarik noberak eskatu.</p>
+<p>ORDEA</p>
+<p><hi rend='Italic'>Zetako da Sakramentu Santu Ordeakoa?</hi></p>
+<p>Ordenduteko, eta Konsagretako Elexako ministro dignoak, Zelan direan Sazerdoteak, Diakonoak, eta besteak.</p>
+<p>MATRIMONIOA</p>
+<p><hi rend='Italic'>Zetako da Sakramentu Santu Matrimoniokoa?</hi></p>
+<p>Ezkonduteko, eta ezkonduai grazia emoteko, bakean bizi ditezan, eta seme alabak Zerurako azi daiezan.</p>
+<p><hi rend='Italic'>Grazia geiago emoten dau?</hi></p>
+<p>Bai Jauna, eroan eragiten dituz pazienziatan estadu Onek berez dakazan difikultade, eta trabajuak, eta fidelidadea gordetako.</p>
+<p><hi rend='Italic'>Zelan disponidu bear da, Sakramentu au errezibietako?</hi></p>
+<p>Lelengo, itundu, edo Konsutau bere Konfesoreagaz, eta gurasoakaz eta begiratu Ondo, estadu a Konbenietan bajako, edo jagokanez.</p>
+<p>Bigarrena, Jangoikoaen grazian egon: eta prestau leenaz orazi&ntilde;o eagaz barauagaz; eta limosneagaz.</p>
+<p>Irugarrena, ez permitidu ezkonzetan Oidirean bulla, danza, eta jan edanak.</p>
+<p>Laugarrena, ikasi leenago ezkonduen obligazinoeak, eta euki intenzinoe garbi bat, Jangoikoak emoten daben frutua Zerurako aziteko.</p>
+<p><hi rend='Italic'>Ze frutu atera beardogu lezi&ntilde;oe onetarik?</hi></p>
+<p>Lelengo, tratau Matrimonioa errespetoagaz, dalako Jesu-Kristok eginiko Sakramentua.</p>
+<p>Bigarrena, ez ezkondu ezpadagoz bear direan disposizinoeak.</p>
+<p>Irugarrena, bizi Kristinau onak legez Jangoikoaen bildurtasunean, Katidade, bake, uni&ntilde;oe, amore, pazienzia, eta fidelidade Sakramentu Santu onek aginduten dabenean.</p>
+<p><hi rend='Italic'>Kalaorra, eta Kalzadako Obispo Jaun Don Andres Porras, eta Temes ek agindurik deutse bere Obispauko Kura Jaun guztiai, esplikau daiezala Elexan ezkonzako inpedimentu onek edolabere illean be&ntilde;.</hi></p>
+<p><hi rend='Bold'>ONESTIDADEKO AIDETASUNA</hi></p>
+<p>Onestidadeko aidetasun au dator ezkonzako berbea emonetati, eta alan persona batek emoten badeutso beste bati ezkonzeko berbea, egiten da aide, edo senide persona aen aide ta senideakaz lelengo graduan, edo o&ntilde;ean; eta alan gizon batek emon badeutso ezkonzeko berbea andra bati ezin ezkondu leite andra onen aizteagaz, ez Amagaz, eta ez alabeagaz bere. Eta lomesmo, ezin ezkonduko da andra au gizon onen anajeagaz, ez aitagaz, ez semea gaz; bada onek dira lelengo o&ntilde;ekoak eta ezkonzen badira dispensa baga, eztau ezkonzeak balio, ta biziko dira pekatu mortalean.</p>
+<p><hi rend='Bold'>KO&Ntilde;ATEZEA</hi></p>
+<p>Seigarren mandamentua en kontra aragizko pekatu obrazkotati datorren aidetasuna, edo ko&ntilde;atezea elduten da bigarren o&ntilde;era eta alan gizon batek euki badau zer egina (obrazkoa) andra, edo neskatilla bategaz, ezin ezkondu leite neskatilla, edo andra onen amagaz, ez aizteagaz, ez alabeagaz, ez lengusineagaz ez izekoagaz, eta ez lobeagaz bere, eta ezkonzen bada lelengo, edo bigarren o&ntilde;ekogaz eztau ezkonzeak balio.</p>
+<p><hi rend='Italic'>Alargun bat ezkondu leite bere emazte, edo senar difuntua en aide, edo senideen bategaz?</hi></p>
+<p>Senitasuna elduten bada laugarren gradu gi&ntilde;o ezin ezkondu leiteke, bada daukee Ko&ntilde;atezea, eta au elduten da (ezkonzea ona izanik) Laugarren o&ntilde;era.</p>
+<p>Guztiak dakiena da barriz ezin ezkondu leitezana persona bi alkarregaz, dispensa baga, badira biak senide karnalak laugarren o&ntilde;ean; eta ezkonduko balira dispensa baga, uste onagaz izan arren bere, ez leuke ezkonzeak balioko.</p>
+<p><hi rend='Italic'>Norbait ezkonduko baliz, ezkonzeko berbea emonda deutsan baten amagaz, edo aizteagaz, edo alabeagaz: edo bai berak pekatu egin daben personea en bigarren o&ntilde;eko, edo gradukogaz (uste onagaz) ezkonzea ona izango lizateke?</hi></p>
+<p>Ez Jauna; bada noberak ondo ezkonzen dala uste izan arren bere, eztau uste onak ezkonzako inpedimentua kenzen. Egia da uste onagaz ezkonzen danak pekaturik egiten eztabena; baia ezkonzeak eztau balio. Eta orretarako itundu, edo konsultau bear dau, alangorik jazo jakonak, Konfesore jakitun prudente bategaz.</p>
+<p><hi rend='Italic'>Beste inpedimentuak eztira emen iminten, eta onek bere esplikauko dituez klaruago Kura Jaunak; bada da guztiz bearra, onek ondo jakitea, eta Elexan guztiai klaru esatea.</hi></p>
+<p><hi rend='Bold'>JESU-KRISTO GEURE JAUNA EN PASINOEKO </hi></p>
+<p><hi rend='Bold'>MISTERIO AK ASTE SANTUKO EGUNETAN.</hi></p>
+<p><hi rend='Bold'>ETA BIDE BATEZ ESATENDA GARIZUMEA ZETAKO EGIN ZAN.</hi></p>
+<p><hi rend='Italic'>Zetako Elexa Santeak egin eban Garizumea?</hi></p>
+<p>Jesu-Kristo geure Jaunak egin eban berrogei eguneko baraua onretarren, eta prestau gendizan Pazkoetan ondo Komulgetako.</p>
+<p><hi rend='Italic'>Zer egin bear da Garizuman?</hi></p>
+<p>Lelengo izangoda gauzarik onena garizumea en asieran, Konfesau, eta Komulgetea.</p>
+<p>Bigarrena, igaro, osasuneko egun Santu onek dibersi&ntilde;oe askotarik (onak izanarren bere) apartetan gareala: bestetan ba&ntilde;o limosna geiago egiten dogula, mortifikazinoean, barauan eta orazi&ntilde;oean denpora geiago gastetan dogula, Doktrina, eta sermoetara asistietan dogula.</p>
+<p><hi rend='Italic'>Zetako estalduten dira altarak, eta Santuak Pasi&ntilde;oeko astean.</hi></p>
+<p>Erakusterren guri Elexa Santea en tristezea, Jesu-Kristo en eriotzan.</p>
+<p><hi rend='Italic'>Garizumea en akabuko asteari, Zetako esaten deutsazu Aste Santua?</hi></p>
+<p>Aste atan Jesu-Kristo geure Jaunak obrau zituzan misterio Santuak gaiti.</p>
+<p><hi rend='Italic'>Zegaiti Erramuko domekan erabilten dozuz prozesi&ntilde;oean erramuak eskuetan?</hi></p>
+<p>Jesu-Kristok bere Pasi&ntilde;oe Santua ba&ntilde;o sei egunez leenago Jerusalenen egin eban Sarzaiera Santua en gomutan, edo memoriam.</p>
+<p><hi rend='Italic'>Eguazten Santu egunean, Zer igaro zan?</hi></p>
+<p>Egun onetan Judas traidoreak Saldu eutsen Judeguai geure erredentorea, ogeta amar erreal ean.</p>
+<p><hi rend='Italic'>Egen Santu egunean, Zer igaro zan?</hi></p>
+<p>Afaldu eban Jesu-Kristok bere Apostoluakaz; garbitu eutsezan O&ntilde;ak: eta egin eban Santissimo Sakramentu altarakoa.</p>
+<p><hi rend='Italic'>Nos preso artu eben?</hi></p>
+<p>Gau onetan bertan, Jesemaniko Ortuan Orazi&ntilde;oean egoala eldu zirean judeguak Judas aurrerengo zala, eta loturik lapur bat legez eroan eben Anas, eta Kaifas en Etsera; Emen ukatu eban San Pedrok iru bidar: bere Apostoluak igez egin eben, itxirik judegen eskuetan; eta gau ontan igaro zituzan al zirean pena, eta trabaju guztiak, blasfemia asko esaten eutsezala bere izen Santua en kontra, eta estaldurik bere arpegia, emoten eutsezan belarrendoko andiak.</p>
+<p><hi rend='Italic'>Zer igaro zan Bariku Santu egunean?</hi></p>
+<p>Egun onetan txito goxeti eroan eben Pilatosen aurrera, andi Erodes erregea gana, ze&ntilde;ek artu eban zorotzat, eta biortu eban, So&ntilde;eko zuribat janzita. Pilatosegana, onek agindu eban azotau leiela, eta soldaduak emon eutsezan bost milla ta geiago azote, krueldade andiagaz.</p>
+<p><hi rend='Italic'>Azotau ezkero zeregin eben geure Salbadoreagaz?</hi></p>
+<p>Janzi eutsen so&ntilde;eko gorri Zantar bat, imini eutsen aranzazko koroa bat buruan, Ka&ntilde;abera bat eskuan: eta jarrizik belauniko bere aurrean, egiten eutsezan burla andiak, botaten eutsezala bere arpegira Txistu ta gorro asko. Eta gero emon eban Pilatosek bere kontra ilteko sentenzia.</p>
+<p><hi rend='Italic'>Pilatosek sentenzia au emon ezkero, zer egin eben judeguak?</hi></p>
+<p>Imini eutsen lepoan Krutze astunbat, eroan leian Kalbarioko mendira. An Elduta billostu eben eta josirik krutzean lapur bi en erdian, irugarren orduan ilzan.</p>
+<p><hi rend='Italic'>Kristo Krutzean egon zan iru ordu onetan, zer igarozan?</hi></p>
+<p>Eguzkia ilundu zan, eta arriak bata beste&ntilde; kontra ausizirean, luurra ikaratutenzala, eta Kriatura guztiak sentidu eben Jesu-Kristoen eriotzea.</p>
+<p><hi rend='Italic'>Kristo Krutzean il ezkero Zer jazozan?</hi></p>
+<p>Soldadu batek igaro eutsan bere bularra lanza bategaz, eta eridarik emoeban odola, ta ura. Josepe, ta Nikodemus ek eratsi eben Krutzetik, eta imini eben bere Ama en alzoan, gero enterrau eben, izara Zuri bategaz Mestidu, edo amorta jauta Sepultura barri baten.</p>
+<p>Ikusi bedi Laugarren <hi rend='Italic'>Artikulua 67.</hi></p>
+<p><hi rend='Italic'>Zer egiten dau Elexeak zapatu Santuz?</hi></p>
+<p>Ura en bede&ntilde;kazinoea, eta beste gauza asko guztiak misterioz beteak.</p>
+<p><hi rend='Italic'>Aste Santua ondo igaroteko, zer egin beardogu?</hi></p>
+<p>Lelengo, barau egin, eta mortifikau geure gorputkak bestetan ba&ntilde;o geiago.</p>
+<p>Bigarrena, asistidu debozi&ntilde;oe andiagaz ofizio Santuetara.</p>
+<p>Irugarrena, Krutzeak bisitau kontenpletan dogula gu gaiti, ze trabajuak igaro zituzan geure Erredentoreak, eta euki geure pekatuen damu andia, izan direlako kausea Jesu-Kristok a&ntilde;beste igaroteko.</p>
+<p>Ezta edegiten</p>
+<p>Zeruko a terik,</p>
+<p>Ezpada Birjineaen</p>
+<p>debozi&ntilde;oerik.</p>
+<p>Eztago zeruetan</p>
+<p>a&ntilde; izar argirik</p>
+<p>Birjina Maria</p>
+<p>berori lakorik.</p>
+<p>Eguzkia bera</p>
+<p>bere aurreti</p>
+<p>ilundurik doa</p>
+<p>argi bagarik.</p>
+<p>Irargia O&ntilde;etan</p>
+<p>dauko geldirik</p>
+<p>ezin arpegira</p>
+<p>begiraturik.</p>
+<p>Eztau inos urten</p>
+<p>Jauna en eskurik</p>
+<p>beste kriaturak</p>
+<p>bera langorik.</p>
+<p>Sortuta jaiozan</p>
+<p>beti garbirik</p>
+<p>pekatua urruti</p>
+<p>berorreganik.</p>
+<p>Ezin litzateke</p>
+<p>zeure Maitea</p>
+<p>a serre dabenak</p>
+<p>zeure semea.</p>
+<p>Zeurea eztanak</p>
+<p>alper alperrik</p>
+<p>espera lezake</p>
+<p>salbazi&ntilde;oerik.</p>
+<p>Berorrek ezpadauko</p>
+<p>neure errukirik</p>
+<p>eztago niretzat</p>
+<p>erremediorik.</p>
+<p>Birjina Mariak</p>
+<p>Eskua emonik</p>
+<p>seguro urtengodot</p>
+<p>mundu onetarik.</p>
+<p><hi rend='Bold'>MEZA ERAZOTEKO MODUA</hi></p>
+<p><hi rend='Italic'>Sazerdoteak. </hi><foreign>In nomine Patris, &amp;c.</foreign></p>
+<p>Erazotendabenak. <foreign>Ad Deum qui l&aelig;tificat iuventutem mean.</foreign></p>
+<p><foreign> S. ludica me Deus, &amp;c. E. Quia tu es Deus fortitudo mea, quare me repulisti, &amp; quare tristis incedo dum affligit me inimicus.</foreign></p>
+<p><foreign> S. Emitte lucem tuam, &amp;c.</foreign></p>
+<p><foreign> E. Et introibo ad Altare Dei, ad Deum qui latificat iuventutem meam.</foreign></p>
+<p><foreign> S. Confitebortibi, &amp;c. E. Spera in Deo quoniam adhuc cor fitebor illi salutare vultus mei, &amp; Deus meus.</foreign></p>
+<p><foreign> S. Gloria Patri, &amp;c. E. Sicut erat in principio, &amp; nunc &amp; semper, &amp; in s&aelig;cula s&aelig;culorun. Amen.</foreign></p>
+<p><foreign> S. Introibo, &amp;c. E.Ad Deum qui l&aelig;tificat iuventutem meam.</foreign></p>
+<p><foreign> S. Adiutorium, &amp;c. E. Qui fecit C&#156;lum, &amp; terram.</foreign></p>
+<p><foreign> S. Confiteor, &amp;c. E. Misereatur tui omnipotens Deus, &amp; dimissis peccatis tuis perducat te ad vitam &aelig;ternam.</foreign></p>
+<p><foreign> S. Amen. E. Confiteor Deo onmipotenti, Beat&aelig; Mari&aelig; semper Virgini, Beato Michaeli Archangelo, Beato Ioanni Baptist&aelig;, Sanctis Apostilis Petro, &amp; Paulo, &amp; beato N. omnibus Sanctis, &amp; tibi Pater, quia peccavi nimis cogitatione verbo, &amp; opere, mea culpa, mea culpa, mea maxima culpa. Ideo precor Beatam Mariam semper Virginem, Beatum Michaelem Archangelum, Beatum Ioannem Baptistam, Sanctos Apostolos, Petrum, &amp; Paulum, &amp; Beatum N. omnes Sanctos, &amp; te Pater orare pro me ad Dominum Deum nostrum.</foreign></p>
+<p><foreign> S. Misereatur vestri, &amp;c. E. Amen.</foreign></p>
+<p><foreign> S. Indulgentiam, &amp;c. E. Amen.</foreign></p>
+<p><foreign> S. Deus tu, &amp;c. E. Et plebs tua l&aelig;tabitur in te.</foreign></p>
+<p><foreign> S. Ostende nobis, &amp;c. E. Et salutare tuum da nobis.</foreign></p>
+<p><foreign> S. Domine exaudi, &amp;c. E. Et clamor meus ad te veniat.</foreign></p>
+<p><foreign> S. Dominus, &amp;c. E. Et cum Spiritu tuo.</foreign></p>
+<p><foreign> S. Kyrie eleyson. E. Kyrie eleison.</foreign></p>
+<p><foreign> S. Kyrie eleyson. E. Christe eleison. S. Christe eleison. E. Christe eleison. S. Kyrie eleison. E. Kyrie eleison. S. Kyrie eleison.</foreign></p>
+<p><hi rend='Bold'><hi rend='Italic'>Epistolea akabauta esatenda</hi></hi></p>
+<p><foreign> Deo gratias. S. Sequentia Sancti Evangelii secundum, &amp;c. E. Gloria tibi Domiae.</foreign></p>
+<p><hi rend='Bold'><hi rend='Italic'>Ebajelioa akabauta esatenda</hi></hi></p>
+<p><foreign> Lans tibi Christe.</foreign></p>
+<p><foreign> S. Orate Fratres. E. Suscipiat Dominus Sacrificium de manibus tuis ad laudem, &amp; gloriam Nominis fui, ad utilitatem quoque nostram totiusque Ecclesia sua Sancte. S. Sursum corda. E. Habemus ad Dominum. S. Gratias agamus, &amp;c. E. Dignum, &amp; iustum est.</foreign></p>
+<p><foreign> S. Et ne nos, &amp;c. E. Sed libera nos a mlo. S. Pax Domini, &amp;c. E. Et cum spiritu tuo. S. Ite Missa est, o benedicamus Domino. E. Deo gratias. <hi rend='Italic'>Evangelioa acabauta esatenda.</hi> Deo gratias. </foreign></p>
+<p><hi rend='Bold'><hi rend='Italic'>Maria Santissimaren Letania</hi></hi></p>
+<p><foreign> Kyrie eleyson.</foreign></p>
+<p><foreign> Christe eleyson.</foreign></p>
+<p><foreign> Kyrie eleyson.</foreign></p>
+<p><foreign> Christe audi nos.</foreign></p>
+<p><foreign> Christe exaudi nos.</foreign></p>
+<p><foreign> Pater de C&#156;lis Deus. Miserere nobis. Fili Redemptor Mundi Deus. Mis. nob. Spiritus Sancte Deus. Mis. nob. Sacta Trinitas unus Deus. Mis. Sacta Maria. Ora. Sacata Dei Genitrix. Sacta Virgo Virginum. Mater Christi. Mater Divin&aelig; Grati&aelig;. Mater Purissima Mater Castissima. Mater Inviolata. Mater Intemerata. Mater Amabilis. Mater Admirabilis. Mater Creatoris. Mater Salvatoris. Virgo Prudentissima. Virgo Veneranda. Virgo Predicanda. Virgo Potens. Virgo Clemens. Virgo Fidelis. Speculum Justitia. Sedes Sapienti&aelig;. Causa nostra latiti&aelig;. Vas Spirituale. Vas Honorabile. Vas Insigne Devotiones. Rosa Mystica. Turris Davidica. Turris Eburnea. Domus Aurea. F&#156;deris Arca. Janua C&#156;li. Stella Matutina. Salus Infirmorum. Refugium Peccatorum. Consolatrix Afflictorum. Auxiliu Christianorum. Regina Angelorum. Regina Patriarcharu. Regina Prophetarum. Regina Apostolorum. Regina Martyrum. Regina Consessorum. Regina Virginum. Regina Sanctorum Omnium. V. Agnus Dei, qui tollis peccata mundi. R. Parce nobis Domine. Y. Agnus Dei, qui tollis peccata mundi. R. Exaudi nos Domine. V. Agnus Dei, qui tollis peccata mundi. R. Miserere nobis. V. Ora pro nobis Sancta Dei Genitrix. R. Ut digni essiciamur promissionibus Christi.</foreign></p>
+<p><foreign><hi rend='Bold'>OREMUS</hi></foreign></p>
+<p><foreign> Gratiam tuam, qu&aelig;sumus Domine, mentibus Domine, mentibus nostris infunde, ut qui Angelo nunciante Christi Filii tui Incarnationem copuovimus, per Passionem efus, &amp; Crucem ad Resurrectionis Gloriam perducamur. Percumdem Christum Dominum nostrum, Amen.</foreign></p>
+<p><hi rend='Bold'>ABISUA</hi></p>
+<p><foreign><hi rend='Italic'>Gava, Javea, Davena, Evan, Even, </hi>&amp;c</foreign>. Erri askotan esatendira <hi rend='Italic'><foreign>V.</foreign></hi> agaz beste batzuetan <hi rend='Italic'><foreign>b.</foreign></hi> agaz emen eskribidu dira <hi rend='Italic'><foreign>V.</foreign></hi> agaz, <hi rend='Italic'><foreign>Eva:</foreign></hi> eta <hi rend='Italic'><foreign>Ave,</foreign></hi> legez; bada alan bakotxak bere erriko usura esango dau, batzuk <foreign><hi rend='Italic'>Gava, Javea, Davena, </hi>&amp;c</foreign>. beste batuak <foreign><hi rend='Italic'>Gaba, Jabea, Dabena, </hi>&amp;c</foreign>.</p>
+<p><hi rend='Italic'>Jangoikoa, Jesus, Jabea, Jarri, Janzi, </hi><foreign>&amp;c</foreign>. eskribidu dira <hi rend='Italic'>J.</hi> Agaz bada batzuk esaten dabe <hi rend='Italic'>Iangoikoa, Iesus, Iabea, </hi><foreign>&amp;c</foreign>. eta <hi rend='Italic'>J.</hi> agaz, nai batera, nai bestere esango da.</p>
+<p>Izan arren barriz euskera augeien Bizkaian usetan dana, eta Bizkaitar guztiak erraz irakurri, eta entendiduko dabena, alanbere erri guztietako modura, eta guztien gustora onelango liburu txikar baten ezin eskribidu lei.</p>
+<p>Kredoan, <hi rend='Italic'>Espirituaen,</hi> eta <hi rend='Italic'>sinisetandot Espirituagan,</hi> di&ntilde;oan lekuan irakurri bear da <hi rend='Italic'>Espiritu Santua en</hi> eta sinisetandot <hi rend='Italic'>Espiritu Santua gan</hi>, bada hau Inpresoreaen faltea izan da.</p>
+<p>Letra batzuk oker: andiak bear direan lekuan Txikarrak: Txikarren lekuan andiak: berba bat dana, erdi bian: bi direanak, baten moldean urten dabe; baia Onelango faltak irakurten dabenak artez esango dituz.</p>
+<p><foreign>J. g. g. b. A. S. e. A. p. i. g. A.</foreign></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><mentioned>Bertsio informatiko honen egilea: Josu Lavin; Urkiola, 1-1C 48990 - Getxo (Bizkaia)</mentioned></p>
+        </body>
+      </text>
+    </group>
+  </text>
+</TEI.2>
+

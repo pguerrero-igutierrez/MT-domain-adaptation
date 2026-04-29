@@ -1,0 +1,1409 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN"
+                       "http://www.tei-c.org/P4X/DTD/tei2.dtd" [
+   <!ENTITY % TEI.prose    'INCLUDE' >
+   <!ENTITY % TEI.linking  'INCLUDE' >
+   <!ENTITY % TEI.analysis 'INCLUDE' >
+   <!ENTITY % TEI.figures  'INCLUDE' >
+   <!ENTITY % TEI.XML      'INCLUDE' >
+   <!ENTITY % TEI.extensions.ent SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.ent' >
+   <!ENTITY % TEI.extensions.dtd SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.dtd' >
+]>
+<TEI.2>
+  <teiHeader>
+  <fileDesc>
+     <titleStmt>
+        <title>Linguae Vasconum Primitiae</title>
+        <author>Bernard Etxepare</author>
+        <respStmt>Bertsio informatiko honen egilea: Josu Lavin; Urkiola, 1-1C 48990 - Getxo (Bizkaia)</respStmt>
+     </titleStmt>
+     <extent>7.009 hitz, 46.751 karaktere</extent>
+     <publicationStmt>
+        <publisher>Klasikoen Gordailua [http://klasikoak.armiarma.com/]</publisher>
+        <distributor>Estrata Liburuak S.L.</distributor>
+        <address type='email'>klasikoak@armiarma.com</address>
+        <idno type='ota'>EtxepareBPrimitiae</idno>
+        <availability status='free'>Erabilpen librekoa; honoko helbidean topa daiteke (HTML, RTF eta PDF formatuetan): http://klasikoak.armiarma.com/idazlanak/E/EtxepareBPrimitiae.htm</availability>
+        <date>2006</date>
+     </publicationStmt>
+     <sourceDesc>
+        <bibl>Ez dauka</bibl>
+        <notesStmt><note>Iturburuen datazioa: 1545</note></notesStmt>
+     </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+     <projectDesc>Euskal literaturako testu klasikoen bilduma da KLASIKOEN GORDAILUA; testu hau berorren parte da</projectDesc>
+     <refsDecl>
+        <p>MENTIONED etiketa egilearenak ez diren hitzak markatzeko erabili da: hitzaurreak, aipuak, iruzkinak, e.a.</p>
+    </refsDecl>
+     <classDecl>
+        <taxonomy id='generoa'>
+            <category id='G-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='G-ANT'><catDesc>Antzerkia</catDesc></category>
+            <category id='G-BER'><catDesc>Bertsoak</catDesc></category>
+            <category id='G-ERL'><catDesc>Erlijioa</catDesc></category>
+            <category id='G-NAR'><catDesc>Narratiba</catDesc></category>
+            <category id='G-POE'><catDesc>Poesia</catDesc></category>
+            <category id='G-SAI'><catDesc>Saiakera, kronika, artikuluak...</catDesc></category>
+        </taxonomy>
+        <taxonomy id='garaia'>
+            <category id='M-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='M-16'><catDesc>XVI. mendea</catDesc></category>
+            <category id='M-17-1'><catDesc>XVII. mendea - 1. erdia</catDesc></category>
+            <category id='M-17-2'><catDesc>XVII. mendea - 2. erdia</catDesc></category>
+            <category id='M-18-1'><catDesc>XVIII. mendea - 1. erdia</catDesc></category>
+            <category id='M-18-2'><catDesc>XVIII. mendea - 2. erdia</catDesc></category>
+            <category id='M-19-1'><catDesc>XIX. mendea - 1. erdia</catDesc></category>
+            <category id='M-19-2'><catDesc>XIX. mendea - 2. erdia</catDesc></category>
+            <category id='M-20-1'><catDesc>XX. mendea - 1. erdia</catDesc></category>
+            <category id='M-20-2'><catDesc>XX. mendea - 2. erdia</catDesc></category>
+        </taxonomy>
+        <taxonomy id='euskalkia'>
+            <category id='E-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='E-BAT'><catDesc>batua</catDesc></category>
+            <category id='E-BIZ'><catDesc>bizkaiera</catDesc></category>
+            <category id='E-BNA'><catDesc>behenafarrera</catDesc></category>
+            <category id='E-ERR'><catDesc>erronkariera</catDesc></category>
+            <category id='E-GIP'><catDesc>gipuzkera</catDesc></category>
+            <category id='E-GNA'><catDesc>goi nafarrera</catDesc></category>
+            <category id='E-LAP'><catDesc>lapurtera</catDesc></category>
+            <category id='E-NAF'><catDesc>nafarrera</catDesc></category>
+            <category id='E-ZAR'><catDesc>zaraitzuera</catDesc></category>
+            <category id='E-ZUB'><catDesc>zuberera</catDesc></category>
+        </taxonomy>
+    </classDecl>
+  </encodingDesc>
+  <profileDesc>
+     <textClass>
+       <keywords scheme='generoa'>
+         <list><item>G-POE</item></list>
+       </keywords>
+       <keywords scheme='garaia'>
+         <list><item>M-16</item></list>
+       </keywords>
+       <keywords scheme='euskalkia'>
+         <list><item>E-BNA</item></list>
+       </keywords>
+     </textClass>
+  </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>Linguae Vasconum Primitiae -- Bernard Etxepare</docTitle>
+    </front>
+    <group>
+      <text>
+        <body>
+<p><foreign><hi rend='Bold'>LINGUAE VASCONUM PRIMITIAE</hi></foreign></p>
+<p><foreign>per Dominum Bernardum Dechepare</foreign></p>
+<p><foreign>Rectorem sancti mich&aelig;lis veteris.</foreign></p>
+<p><foreign>Aduertant Impressor, et lectores quod .<hi rend='Italic'>z.</hi> nunquam ponitur pro .<hi rend='Italic'>m</hi>. Neque .<hi rend='Italic'>t.</hi> ante .<hi rend='Italic'>i.</hi> pronunciatur pro .<hi rend='Italic'>c.</hi> Et vbi virgula ponitur sub <hi rend='Italic'>.&ccedil;.</hi> hoc modo quod fit dum pr&aelig;ponitur vocalibus <hi rend='Italic'>a.o.u., </hi>tunc <hi rend='Italic'>.c.</hi> p[r]onunciabitur paulo asperius quam <hi rend='Italic'>.z.</hi> vt in <hi rend='Italic'>.ce.ci.</hi></foreign></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p>Erregeren adbokatu bidezko eta nobleari,</p>
+<p>birthute eta hon guziez konplituiari</p>
+<p>bere jaun eta jabe Bernard Leheteri,</p>
+<p>Bernard Etxeparekoak,</p>
+<p>haren zerbitzari xipiak,</p>
+<p>gogo honez gorainzi, bake eta osagarri.</p>
+<p>Zeren baskoak baitira abil, animos eta jentil, eta hetan izan baita, eta baita, zienzia guzietan letratu handirik, miraz nago, jauna, nola batere ezten asaiatu bere lengoaje propriaren faboretan heuskaraz zerbait obra egitera eta eskributan imeitera, zeren ladin publika mundu guzietara berze lengoajiak bezala hain eskribatzeko hon dela. Eta kausa honegatik gelditzen da abataturik, ezein reputazione bage, eta berze nazione orok uste dute ezin deus ere eskriba daiteiela lengoaje hartan, nola berze orok baitute eskribatzen berian.</p>
+<p>Eta zeren orai zuk, jauna, noble eta naturazkoak bezala, baituzu estimatzen, goratzen eta ohoratzen heuskara, zuri, neure jaun eta jabia bezala, igorten darauritzut heuskarazko kopla batzu ene ignoranziaren araura eginak. Zeren, jauna, haiek ikhusirik eta korregiturik plazer duzun bezala, irudi bazautzu, inprimi erazi ditzazun eta zure eskutik orok dugun joia ederra. inprimiturik heuskara, orano izan eztena, eta zure hatse honetik dadin aitzinerat augmenta, kontinua eta publika mundu guzietara eta baskoek, berzek bezala, duten bere lengoajian eskribuz zerbait doktrina, eta plazer hartzeko, solas egiteko, kantatzeko eta denbora igaraiteko materia, eta jinen direnek gero duten kausa oboro haren abanzatzeko eta obligatu giren guziak Jeinkoari othoiz egitera, dizun mundu honetan prosperoki bizia eta berzian parabizuia. Amen.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>DOKTRINA KRISTIANA</p><--</head>
+        </front>
+        <body>
+<p>Munduian den gizon orok behar luke pensatu</p>
+<p>Jangoikoak nola duien batbedera formatu,</p>
+<p>bere irudi propiara gure arima kreatu,</p>
+<p>memoriaz, borondatez, endelguiaz goarnitu.</p>
+<p>Ezein jaunek eztu nahi muthil gaixtoa eduki</p>
+<p>ez pagatu soldatarik zerbizatu gaberik;</p>
+<p>Jangoikoa ari duzu hala hala gureki:</p>
+<p>gloriarik ez emanen hongi egin gaberik.</p>
+<p>Muthilek gure zerbitzutan deramate urthia,</p>
+<p>soldata aphur bategatik harzen pena handia;</p>
+<p>Jangoikoak behar luke guk bezanbat balia;</p>
+<p>Zerbitzatu behar dugu emaitekoz gloria.</p>
+<p>Ogirik eztakusat bilzen hazi erein gaberik;</p>
+<p>nork zer hazi erein [baitu] biltzen dizi komunki.</p>
+<p>Obra honak ukhenen du goalardona frangoki,</p>
+<p>baietare bekhatuiak punizione segurki.</p>
+<p>Zeren Jeinkoa egun oroz ongi ari baitzaigu,</p>
+<p>guk ere hala behar dugu harzaz unsa orhitu,</p>
+<p>gure hatse eta fina hura dela pensatu,</p>
+<p>goiz et'arrats orhituki haren izena laudatu.</p>
+<p><hi rend='Bold'> Arratsian</hi></p>
+<p>Arratsian etzitian gomend'adi Jeinkoari</p>
+<p>eta othoi begir'ezan peril guzietarik;</p>
+<p>gero irazar adinian orhit adi bertarik</p>
+<p>zenbait ere orazione erraitera debotki.</p>
+<p><hi rend='Bold'> Goizian</hi></p>
+<p>Albadagik joan adi elizara goizian,</p>
+<p>Jeinkoari han gomenda bere etxe sainduian;</p>
+<p>han sartzian pensa ezak aitzinian nor duian,</p>
+<p>norekila minzo izan han agoen artian.</p>
+<p><hi rend='Bold'> Ilherrian</hi></p>
+<p>Hilez unsa orhit adi ilherrian sartzian,</p>
+<p>hi nolako ziradela bizi ziren artian;</p>
+<p>hek bezala hil behar duk eta ez jakin orduia;</p>
+<p>othoi egik Jeinkoari deien barkamenduia.</p>
+<p><hi rend='Bold'> Batheiarria</hi></p>
+<p>Elizara izanian so egik bateiarrira;</p>
+<p>pensa ezak han duiala rezebitu fedia,</p>
+<p>Jeinkoaren grazia eta salbatzeko bidia;</p>
+<p>hari egin albaiteza lehen ezagutzia.</p>
+<p><hi rend='Bold'> Gorputz sainduia</hi></p>
+<p>Bertan gero so albaitegi non den gorputz sainduia;</p>
+<p>pensa ezak hura dela hire salbazalia;</p>
+<p>ador'ezak debozionez eta galde grazia</p>
+<p>azken finian eman diazan rezebitze dignia.</p>
+<p><hi rend='Bold'> Kurutzea</hi></p>
+<p>Kruzifika ikhus eta orhit adi orduian</p>
+<p>nola izan redemitu haren odol sainduiaz;</p>
+<p>hark erio haritu dik hiri leian bizia;</p>
+<p>pensa ezak nola eman hari bere ordia.</p>
+<p><hi rend='Bold'> Andre Dona Maria</hi></p>
+<p>Andere hona den lekhura ailtxa itzak begiak;</p>
+<p>mundu oro eztakidik hura bezain balia;</p>
+<p>Jeinkoaren hurranena hura diagok glorian:</p>
+<p>graziak oro bere eskuian nahi duien orduian.</p>
+<p>O andere gloriosa eta ama eztia!</p>
+<p>zutan dago bekhatoren esperanza guzia.</p>
+<p>Ni zugana niatorkezu, bekhatore handia,</p>
+<p>arimaren salbatzera zu zakiztan balia.</p>
+<p><hi rend='Bold'> Sainduier</hi></p>
+<p>Sainduier ere egin ezak heure ezaguzia,</p>
+<p>singularki nortan baituk heure debozionia;</p>
+<p>zein sainduren besta daten orhit egun berian</p>
+<p>eta noren izenetan fundatu den eliza;</p>
+<p>orhituki othoi egin, dakizkian balia.</p>
+<p><hi rend='Bold'> Orazione igandeko</hi></p>
+<p>Miserikordiaz bethe ziraden jaun eztia!</p>
+<p>othoi, enzun iazadazu neure orazionia;</p>
+<p>bizi nizan artian eta erioko phunduian</p>
+<p>zuk idazu, othoi, oso neure endelgamenduia,</p>
+<p>alteratu gabetarik zure fede sainduian</p>
+<p>gauzen unsa egiteko neure azken finian.</p>
+<p>Eta orduian zuk idazu indar eta grazia</p>
+<p>bekhatuiez ukheiteko bide dudan doluia,</p>
+<p>perfektuki egiteko neure konfesionia,</p>
+<p>neure bekhatuiez oroz dudan barkhamenduia,</p>
+<p>bai digneki errezebi zure gorpuz sainduia,</p>
+<p>baietare behar diren berze sagramenduiak.</p>
+<p>Etsai gaitza jinen baita tentatzera orduian</p>
+<p>nontik engana niroien bere arte guziaz,</p>
+<p>othoi, jauna, enguztazu lagun zure sainduiak</p>
+<p>en'etsaiak benzi enazan neure azken finian.</p>
+<p>Ene arima orduian har, othoi, zure glorian,</p>
+<p>nola baita redemitu zure odol sainduiaz,</p>
+<p>eta nik han dakusadan zure begitartia</p>
+<p>eta sainduieki lauda zure majestatia.</p>
+<p>Goiz et'arrats egiten duk buluz eta beztitzia,</p>
+<p>gorputzaren zerbitzutan barazkari afaria;</p>
+<p>arimaren salbatzeko Jeinkoaren ohorian</p>
+<p>etzaiala, othoi, neke gauza hoien egitia,</p>
+<p>egun oroz ezin bada aste oroz igandian.</p>
+<p>Gure artian haur dakusat itsutarzun handia,</p>
+<p>nola dugun zerbitzatzen hanbat gure etsaia;</p>
+<p>Jangoikua deskonozi gure salbazalia</p>
+<p>eta orok ezagutzen dela bidegabia.</p>
+<p>Anhitz jendez miraz nago, neure buruiaz lehenik,</p>
+<p>nola gauden mundu huneki hain borthizki josirik</p>
+<p>hanbat jende dakuskula hunek enganaturik;</p>
+<p>oranokoak igorri'tu oro buluzkorririk</p>
+<p>eta eztute gerokoek hantik eskapatzerik.</p>
+<p>Person'oro hil denian hirur zathi egiten:</p>
+<p>gorpuzori usteltzera lur hotzian egoizten,</p>
+<p>unharzuna ahaidiek bertan dute partitzen,</p>
+<p>arima gaixoa dabilela norat ahal dagien;</p>
+<p>hain biaje bortitzian konpainia faltatzen.</p>
+<p>Orhituki igandian behar dugu pensatu</p>
+<p>zenbatetan egin dugun aste hartan bekhatu;</p>
+<p>orhit eta Jeinkoari barkhamendu eskatu,</p>
+<p>atorra nola arim'ere aste oroz garbitu.</p>
+<p>Bi pundutan diagozu gure gauza guzia:</p>
+<p>hongi egin badazagu segur parabizuia,</p>
+<p>bekhatutan hil dadina bertan kondenatuia.</p>
+<p>Bertze biderik ezin date; hobenari begira.</p>
+<p>Ehon ere eztakusat hain laxo den artzainik,</p>
+<p>otsoa khentzen eztuienik bere ardietarik;</p>
+<p>gure arimaz kargu dugu Jangoikuak emanik,</p>
+<p>nola gobernatzen dugun batbederak so begi;</p>
+<p>kondu hersi behar dugu harzaz eman segurki</p>
+<p>nori baitu bere odolaz karioki erosi;</p>
+<p>hala zinets eztazana dauke enganaturik.</p>
+<p>Kontenplatu behar dugu pasione sainduia</p>
+<p>eta sendi bihotzian haren pena handia;</p>
+<p>nola zagoen kurutzian oro zauriz bethia,</p>
+<p>huin eskuiak izaturik eta buluzkorria,</p>
+<p>ohoineki urkaturik, nola gaizkigilia,</p>
+<p>eta arhanzez koroaturik mundu ororen jabia;</p>
+<p>haren gorputz prezioso eta delikatuia</p>
+<p>gaizki eskarniaturik eta zathikatuia.</p>
+<p>Elas! orduian nola zagoen haren a[ri]ma tristia,</p>
+<p>haren ama maitia eta mundu ororen habia,</p>
+<p>pena hetan ekusteaz bere seme maitia</p>
+<p>eta hilzen begietan mundu ororen bizia.</p>
+<p>Biotzian diraustazu gertuz, ama eztia,</p>
+<p>zure orduko doloriak eta bihotz zauriak:</p>
+<p>begiez nola zenakusan zure jabe handia</p>
+<p>orotarik lariola odol preziatuia;</p>
+<p>hek nigatik ziradela ari nuzu khonduia.</p>
+<p>Orhit adi nola duian egin anhitz bekhatu,</p>
+<p>heien kausaz merexitu anhitzetan hondatu,</p>
+<p>bere miserikordiaz nola huien guardatu</p>
+<p>eta dolu ukhen baduk bertan oro barkhatu;</p>
+<p>eta agian hik eginen bertan berriz bekhatu.</p>
+<p>Orhit adi Jengoikoaren majestate handiaz,</p>
+<p>zeruia, lurra, itxasoa dadutzala eskuian,</p>
+<p>salbatzia, damnatzia, erioa eta bizia,</p>
+<p>estendizen orotara haren potestatia;</p>
+<p>ezi eskapa hari ehor, dauginian manuia.</p>
+<p>Mundu honetan badirogu batak berzia engana,</p>
+<p>bana berzian egiatik batbedera joanen da;</p>
+<p>nor nolako izan giren orduian ageriko da,</p>
+<p>egin, erran, pensatuiak, ageriko guziak.</p>
+<p>Orhit adi Jeinkoaren justizia handiaz,</p>
+<p>nola orok behar dugun eman khondu hersia,</p>
+<p>egin oroz rezebitu gure merexituia,</p>
+<p>erioa dauginian, baita haren mezuia.</p>
+<p>Ordu hartan afer date hari apelatzia,</p>
+<p>hark ehori eztemaio oren baten ephia,</p>
+<p>ezetare estimazen xipia ez handia;</p>
+<p>batbederak egarriko orduian bere haxia.</p>
+<p>Orduian zer eginen dut, gaixo bekhataria?</p>
+<p>Arartekoak faltaturen, kontra juje handia;</p>
+<p>abokatzen eztakike ehork haren gortian,</p>
+<p>ogen oro publikoki agerturen orduian.</p>
+<p>Elas, othoi, orok egin orai penitenzia,</p>
+<p>behar orduian eztukegu gero agian aizina;</p>
+<p>anhitz jende enganatu doa luzamenduiaz,</p>
+<p>seguraturik ehork eztu egun baten bizia.</p>
+<p>Gu girade egun oroz herioaren azpian;</p>
+<p>behar dugu prest eduki gure gauza guzia,</p>
+<p>gure gauzez ordenatu, oso giren artian,</p>
+<p>gero eztugun egiteko hezaz azken finian;</p>
+<p>arimaz aski egiteko badukegu orduian.</p>
+<p>Pensa, othoi, nola gauden bi bideren erdian,</p>
+<p>salba bano damnatzeko perileko punduian;</p>
+<p>ehor fida eztadila, othoi banitatian;</p>
+<p>sainduiak etziraden sarthu banitatez glorian.</p>
+<p>Elas, othoi, hunat beha bekhatore guzia;</p>
+<p>bekhatuiaz damnatzen du Jangoikuak munduia;</p>
+<p>zeren hanbat bekhatutan deramagu bizia</p>
+<p>eta guhaurk gure faltaz galtzen gure buruia?</p>
+<p>Artzain orok biltzen ditu ardiak arratsaldian,</p>
+<p>lekhu honerat eramaiten eguraldi gaizian;</p>
+<p>batbederak pensa beza arimaren gainian</p>
+<p>nola salbaturen duen hura bere finian.</p>
+<p>Bekhatorek ifernuian dute pena handia,</p>
+<p>pena handi, izigarri, ezein pausu gabia;</p>
+<p>sekulakoz egon behar hango sugar bizian;</p>
+<p>zuhur denak, hara eztohen, egin penitenzia.</p>
+<p><hi rend='Bold'> Harmak erioaren kontra</hi></p>
+<p>Erioa jaugiten da guti uste denian</p>
+<p>eta agian ez emanen konfesione ephia;</p>
+<p>hirur gauza albaditu ehork ere egiaz,</p>
+<p>nola ere hil baitadi, doha salbamenduian.</p>
+<p><hi rend='Bold'> Lehen egia</hi></p>
+<p>O jaun hona, aitortzen dut bekhatore nizala</p>
+<p>eta gaizki egitiaz ogen handi dudala;</p>
+<p>nik baitzitut ofensatu bide eztudan bezala,</p>
+<p>dolu dizit eta damu zure kontra eginaz.</p>
+<p><hi rend='Bold'> Bigarren egia</hi></p>
+<p>O jaun hona, gogo dizit oren present honetan</p>
+<p>goardazeko bekhaturik bizi nizan artian;</p>
+<p>othoi, jauna, zuk idazu indar eta grazia</p>
+<p>gogo honetan irauteko neure bizi guzian.</p>
+<p><hi rend='Bold'> Heren egia</hi></p>
+<p>O jaun hona, gogo dizit garizuma denian</p>
+<p>egiazki egiteko neure konfesionia,</p>
+<p>baietare konplitzeko didan penitenzia;</p>
+<p>othoi jauna zuk konfirma ene borondatia.</p>
+<p>Eta hoiek egiazki ehork hala ezpaditu,</p>
+<p>albailiaki duda gabe ezin dateiela salbu</p>
+<p>bere bekhatuiak oro baditu ere konfesatu;</p>
+<p>eta hala zinhets beza nahi eztenak enganatu.</p>
+<p>Apezek ez apezpikuk ezetare aita sainduk</p>
+<p>absolbatzen halakoaren ezein bothererik eztu;</p>
+<p>Jangoikua bethiere bihotzera so diagozu,</p>
+<p>guhaurk bano segurago gure gogua diakutsu;</p>
+<p>gogua gabe hura baitan hizak oro afer tuzu,</p>
+<p>Regla ezak egun oroz onsa heure etxia;</p>
+<p>eure gauza guzietan emak dilijenzia;</p>
+<p>eta eure trabailuia duian penitenzia,</p>
+<p>Jangoikua lauda ezak gauza ororen buruian.</p>
+<p>Honekila albaiteza bethi ere konbersa,</p>
+<p>gaixtoeki ezin aite gaizki bezi probetxa;</p>
+<p>berzer egin eztazala nahi ez ukeiena</p>
+<p>ezetare falta ere hiaurk nahi duiana;</p>
+<p>lege honi segi bedi salbu nahi duiena.</p>
+<p><hi rend='Bold'> Hamar manamenduiak</hi></p>
+<p>Ador'ezak Jangoiko bat onhets oroz gainetik;</p>
+<p>haren izena ez jura kausa gabe banoki;</p>
+<p>igandiak eta bestak sanktifika debotki;</p>
+<p>aita eta ama ohora izak, bizi izan luzeki;</p>
+<p>ehor erho eztazala ezetare gaitzetsi;</p>
+<p>nork beria baiezila emazterik ez hunki;</p>
+<p>berzerena eztazala ebatsi ez eduki;</p>
+<p>fama gaitzik eztemala lagunari falsuki;</p>
+<p>berzen emazte alabak ez desira gaixtoki,</p>
+<p>ezetare unhasuna, lekot bedi justoki.</p>
+<p>Manamenduiak hoiek dira, Jangoikuak emanik;</p>
+<p>hok begira dizagula, salba giten hegatik.</p>
+<p><hi rend='Bold'> Judizio jenerala</hi></p>
+<p>Judizio jeneralaz nola orhit eztira,</p>
+<p>bekhatutan bizi dira bethi bere aisira;</p>
+<p>egun hartan gal ezkiten, aitzinetik begira,</p>
+<p>han orduian eztukegu ehork ere aizina;</p>
+<p>harzaz unsa orhitzia zuhurtzia handi da.</p>
+<p>Arma! arma! mundu oro judizio handira!</p>
+<p>Zeru eta lur ororen kreadore handia</p>
+<p>munduiaren jujatzera rigoroski heldu da;</p>
+<p>nola gauden aphaindurik bat bederak begira.</p>
+<p>Manamendu igorten du mundu guzietarik</p>
+<p>jende oro bat dakion Josafaten bildurik;</p>
+<p>ehon ere ehor ere eskapatu gaberik</p>
+<p>zeru eta lur guzia daude ikharaturik.</p>
+<p>Erioa manatzen du, ezein falta gaberik</p>
+<p>hilak oro dakatzela aitzinera bizirik,</p>
+<p>hantik harat eztukela bothererik jagoitik;</p>
+<p>mundu oro jarriren da bi lekutan hersirik:</p>
+<p>glorian ezpa ifernuian; ezta eskapatzerik.</p>
+<p>Manatzen du ifernuia handi eta bortizki</p>
+<p>han direnak igor'itzan luzamendu gaberik,</p>
+<p>arima eta gorputzetan nahi tuiela ikusi</p>
+<p>eta emanen daraiela zer baitute merezi.</p>
+<p>Jende honak, onsa pensa juje hunen gainian</p>
+<p>nola duien guzietan potestate handia,</p>
+<p>erioan, ifernuian, zeru eta lurrian.</p>
+<p>Zeren dabil haren kontra, bada bekhatoria?</p>
+<p>Gure artian haur dakusat itsutarzun handia,</p>
+<p>nola dugun zerbitzazen hanbat gure etsaia;</p>
+<p>Jangoikoa deskonozi gure salbazalia</p>
+<p>eta orok ezagutzen dela bidegabia.</p>
+<p>Harren bier emanen du sentenzia pizuia</p>
+<p>elgarreki pena diten ifernuko garrian,</p>
+<p>sekulako suian eta ezein pausu gabian.</p>
+<p>Orok, othoi, onsa pensa zer den irabazia.</p>
+<p>Egundano ezta izan, ez izanen jagoitik,</p>
+<p>judizio hain handirik ezetare borthitzik;</p>
+<p>sortu eta sortzekoak, hilez gero pizturik,</p>
+<p>orok hara behar dute eskusatu gaberik.</p>
+<p>Anhitz gauza behar dira judizio handian:</p>
+<p>jujeak duien potestate parte ororen gainian,</p>
+<p>demandantak erran dezan bere kausa egiaz,</p>
+<p>baietare defendentak bere defensionia;</p>
+<p>porogatu datenian nork dukeien zuzena,</p>
+<p>sentenziaz eman dezan jujiak nori beria.</p>
+<p>Egun hartan juje date mundu ororen jabia,</p>
+<p>baitu ororen gainian potestate handia;</p>
+<p>akusari bera date eta konzienzia;</p>
+<p>bekhatu oro publikoki ageriko orduian.</p>
+<p>Bekhatoren kontra date orduian mundu guzia,</p>
+<p>zeren duten ofenditu haien kreazalia;</p>
+<p>ordu hartan ixil dauke triste bekhatoria;</p>
+<p>orotarik zerraturik daude pausu guziak.</p>
+<p>Juje jauna iraturik egonen da gainetik,</p>
+<p>irestera aphaindurik ifernuia azpitik,</p>
+<p>etsai gaitza akusatzen ezkerreko aldetik,</p>
+<p>bekatuiak eskuinetik minzaturen publiki:</p>
+<p>&laquo;hire kontra heben gituk, ihaurorrek eginik&raquo;.</p>
+<p>Gaizkienik kontra date konzienza barnetik.</p>
+<p>Estalzeko ez izanen ehon ere lekhurik;</p>
+<p>agertzera nork eginen ordu hartan bathirik?</p>
+<p>Mundu oro egonen da haien kontra jarririk,</p>
+<p>sainduak ere ordu hartan oro egonen ixilik,</p>
+<p>jujeak ere ez enzunen ezein ere othoiik;</p>
+<p>egun harzaz orhit giten, othoi, hara gaberik.</p>
+<p>Non dirate egun hartan hebengo jaun erregiak,</p>
+<p>duke, konde, markes, zaldun eta berze jaun nobliak</p>
+<p>eta haien armadako gizon sendoen balentiak?</p>
+<p>Ordu hartan baliako guti haien potenziak.</p>
+<p>Jurista eta theologo, poeta eta doktoriak,</p>
+<p>prokurador, adbokatu, juje eta notariak?</p>
+<p>ordu hartan ageriko klarki haien maliziak</p>
+<p>eta guti baliako kautela eta parleriak.</p>
+<p>Aita saindu, kardenale, aphez eta prelatuiak?</p>
+<p>Berez eta ardi oroz eman behar han konduia;</p>
+<p>egun hartan handiena izanen da erratuia</p>
+<p>eta bardin jujaturen handia eta xipia.</p>
+<p>Afer date egun hartan hari apelatzia,</p>
+<p>ehon ere eztazagu jaunik bere gainian;</p>
+<p>malizia gaitzi zaika eta maite egia.</p>
+<p>Elas, othoi, orok egin orai penitenzia,</p>
+<p>egun hartan gero eztugun egiteko handia.</p>
+<p>Seinaliak jinen dira aizinetik tristerik;</p>
+<p>elementak ebiliren oro tribulaturik,</p>
+<p>iguzkia, ilhargia odoletan etzinik,</p>
+<p>itxasoa samurturik goiti eta beheiti,</p>
+<p>hango arrainak iziturik ebiliren jalgirik.</p>
+<p>Eta lurra izigarri oro ikharaturik,</p>
+<p>zuhamuiek dakartela odolezko izerdi;</p>
+<p>tenpestatez, igortziriz, aire oro samurrik;</p>
+<p>mendi eta harri oro elgar zatikaturik;</p>
+<p>mundu oro jarriren da suiak arrasaturik.</p>
+<p>Juje jaunak manaturen bera jaugin gaberik</p>
+<p>gauza oro tsahu dezan behin suiak lehenik</p>
+<p>satsu eta kirats oro dohen mundu guzitik</p>
+<p>eta hala jarriren da lur guzia errerik.</p>
+<p>Tronpeta da minzaturen munduguzietarik</p>
+<p>hilak oro jaiki huna zuien hobietarik</p>
+<p>arima eta gorpuzetan oro bertan pizturik</p>
+<p>orok hara behar dugu eskusatu gaberik.</p>
+<p>Iustu oro iganen da hertan goiti airian</p>
+<p>Eta egonen eskoinetik jujearen aldean</p>
+<p>Bekatoreak dolorezki sugarrian lurrian</p>
+<p>Hariketa danzuteno sentenzia gainian.</p>
+<p>Dagoenian jende oro aizinian bildurik</p>
+<p>Iauginen da rigoroski sainduieki zerutik</p>
+<p>Iosafaten egonen da airian gora jarririk</p>
+<p>Bekatorer eginen du arrangura handirik</p>
+<p>Haren hizak ezarriren oro erdiraturik.</p>
+<p>Hartu nahi zuienian pasione saindua</p>
+<p>Haren kontra jin zenian armaturik jendia</p>
+<p>Hiz huts batez iziturik egozitu lurrian</p>
+<p>Iuiazera dauginian majestate handian</p>
+<p>Nola eztu lotsaturen ordu hartan munduia.</p>
+<p>Erranen du bekatorer dolorezki orduian</p>
+<p>Nizaz ezineten orhit bizi zinetenian</p>
+<p>Hanbat ongi nik eginik zuier zuien mendian</p>
+<p>Esker honbat ukhen eztut zuieganik bizian.</p>
+<p>Zer ere hon baituzuie oro dira eniak</p>
+<p>Gorpuz eta hon guziak baietare arimak</p>
+<p>zuiendako egin ditut lurra eta zeruiak</p>
+<p>Iguzkia ilhargia eta fruktu guziak.</p>
+<p>Suiak bero hurak tsahu hats hartzeko airia</p>
+<p>Ainguruiak zuien goarda ararteko sainduiak</p>
+<p>zuiegatik ezarri dut gero neure bizia</p>
+<p>Hoiegatik orogatik zer da zuien pagia.</p>
+<p>Ikusirik anhizetan beharrian pobria</p>
+<p>Eri gose egarria eta buluzkorria</p>
+<p>Ene izenian anhizetan galdeginik limosna</p>
+<p>zuiek ukhen baituzuie hezaz guti ansia.</p>
+<p>Bai erhoki konplazitu ene kontra etsaia</p>
+<p>Demonio haragia baietare munduia</p>
+<p>Orai dela zuiendako maradizionia</p>
+<p>Ifernuko suia eta jagoitiko nekia</p>
+<p>Eta zuien konpainia demonio guzia.</p>
+<p>Ezta anhiz luzaturen etsekuzionia</p>
+<p>Bertan date irekiren lurra oren berian</p>
+<p>Su hareki iretsiren oro bere barnian</p>
+<p>Haur izanen bekatoren undar irabazia.</p>
+<p>Elas nola izanen den heben damu handia</p>
+<p>Damu handi izigarri remedio gabia</p>
+<p>Hanbat jende sekulakoz damnaturen denian</p>
+<p>O jaun huna zuk gizazu othoi hantik begira.</p>
+<p>Beretara izuliren ditu gero begiak</p>
+<p>Goazen oro elgarreki ene adiskidiak</p>
+<p>Bethi eta sekulakoz gauden ene glorian</p>
+<p>Desir oro konpliturik alegria handian.</p>
+<p>Hantik harat ezta izanen bi erretatu baiezi</p>
+<p>Damnatuiak ifernuian bethi dolorereki</p>
+<p>Salbatuiak Jeinkoareki bethi alegeraki</p>
+<p>Iangoikuak dagiela gure partia hoieki.</p>
+<p>Zeruia ezta ebiliren hantik harat jagoitik</p>
+<p>Iguzkia egonen da orienten geldirik</p>
+<p>Ilhargia ozidenten begiz begi jarririk</p>
+<p>Egun honek iraunen du eben eta jagoitik</p>
+<p>Alabana ez izanen heben gauza bizirik.</p>
+<p>O jaun hona zu zirade gure kreazalia</p>
+<p>Bekatore bagirere oro gira zuriak</p>
+<p>Gure faltaz gal eztadin othoi zure egina</p>
+<p>Bekaturik garbizazu othoi gure arimak.</p>
+<p>Baldin erideiten bada gutan falta handia</p>
+<p>Are duzu handiago zutan pietatia</p>
+<p>zuretarik giren othoi egiguzu grazia</p>
+<p>zure ama anderia dakigula balia.</p>
+<p><hi rend='Bold'> Orazionia</hi></p>
+<p>Abe maria anderia grazia oroz bethia</p>
+<p>Ieinkoaren ama birjen berak ordenatuia</p>
+<p>Zeru eta lur ororen erregina dignia</p>
+<p>Bekhatoren aduokata eta konfortaria.</p>
+<p>Ni zugana niatorkezu bekatore handia</p>
+<p>Karioki othoizera zu zakiztan balia</p>
+<p>Digne ezpaniz aipazera zure izen sainduia</p>
+<p>Ez jitera aizinera zeren bainiz satsuia.</p>
+<p>Miserikordiaz bethe ziren andere handia</p>
+<p>Enazazula othoi iraiz eta ez menosprezia</p>
+<p>zuk gibela badidazu elas ama eztia</p>
+<p>Ordu hartan diakusazut galdu neure buruia.</p>
+<p>Hanbat nuzu gauza orotan ni berthute gabia</p>
+<p>Oren oroz bekatutan nabilena galduia</p>
+<p>Eta bethi erratiua nola ardi itsuia</p>
+<p>Mundu hunek haragiak bethi enganatuia.</p>
+<p>Zu baitzira grazia ororen ama eta iturburuia</p>
+<p>Berthute eta hon guzien thesorera handia</p>
+<p>Egundano bekatutan makulatu gabia</p>
+<p>Berthutetan segizeko egidazu grazia.</p>
+<p>Zutan dago bekatoren remedio guzia</p>
+<p>Speranza osagarri eta salbamenduia</p>
+<p>zuk gibela demazuna nola baita galduia</p>
+<p>zure gomenduian dena halaber da salbuia.</p>
+<p>Ieinkoak zuri eman dizi potestate handia</p>
+<p>Haren ama ziren gero ama ere maitia</p>
+<p>Zeru eta lur orotan duzun hanbat balia</p>
+<p>Zer zuk galde baitagizu den konplitu guzia.</p>
+<p>Eta zure eskutik duten bertze orok grazia</p>
+<p>Eta salba zuk dezazun zuri gomendatuia</p>
+<p>O andere exzelente ezein pare gabia</p>
+<p>Salbatuietarik nizan egidazu grazia.</p>
+<p>Zuri gomendazen nuzu hila eta bizia</p>
+<p>Neure gorpuz eta arima eta dudan guzia</p>
+<p>Othoi behar orduietan ku zakizat balia</p>
+<p>Eta othoi zuk goberna ene bizi guzia.</p>
+<p>Eta irabaz ieinkoaganik indar eta grazia</p>
+<p>Bekatuiez egiteko unsa penitenzia</p>
+<p>Eta gero berthutetan deramadan bizia</p>
+<p>Eta egin gauza orotan haren borondatia.</p>
+<p>Begira othoi meskabutik ene gorpuz pobria</p>
+<p>Bekatutan hil eznadin egidazu grazia</p>
+<p>Sekulakos damnaturik enoian galduia</p>
+<p>Bana zure eskutik dudan salbazeko bidia.</p>
+<p>Eta gero dauginian ene eriozia</p>
+<p>Arimaren partizeko oren izigarria</p>
+<p>Ordu hartan behar baitut eman kondu hersia</p>
+<p>Egin oroz rezebitu neure meretsituia.</p>
+<p>Eta ez iakin lehen gaoian non daten ostatuia</p>
+<p>Ez etare zu ezpazira nor dakidan balia</p>
+<p>Ordu hartan hel zakizat othoi ama eztia</p>
+<p>Ararteko leial eta neure aiutaria.</p>
+<p>Othoi zure gomenduian har arima tristia</p>
+<p>Ordu hartan io eztezan ifernuko bidia</p>
+<p>zure seme iaunareki egidazu bakia</p>
+<p>Bekatuiak barkhaturik didan parabizuia</p>
+<p>Eta nik han dakusadan zure begitartia</p>
+<p>Eta sainduieki lauda haren majestatia</p>
+<p>zeren unsa orhit ziten nizaz ama eztia</p>
+<p>Gogo honez erranen dut zuri abe maria.</p>
+<p>Orazione haur derrana andredona maria</p>
+<p>othoi gomendatu duzun bila eta bizia.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>AMOROSEN GAZTIGIA</p><--</head>
+        </front>
+        <body>
+<p>Bertzek bertzerik gogoan eta nik andredona maria</p>
+<p>Andre bona dakigula guzior othoi balia</p>
+<p>Amorosak nahi nuke honat beha balite</p>
+<p>Hon lizaten gaztigurik agian enzun liroite</p>
+<p>Amore bat hautazeko konseilu bat nekeie</p>
+<p>Balinetan sekulakoz gogoan sar balekie.</p>
+<p>Nihaurk ere ukhen dizit zeinbait ere amore</p>
+<p>Bana bantik eztut ukhen probexurik batere</p>
+<p>Anhiz pena arima gal hanera eta neuriere</p>
+<p>Amoretan plazer baten mila dira dolore.</p>
+<p>Amoretan othe date leial denik batere</p>
+<p>Hiz ederrez ezpa ioiaz mutha eztadin huraere</p>
+<p>Hoben uste duienori anhizetan traidore</p>
+<p>Hobena date gaizenik arimaren berere</p>
+<p>Bekhatuzko amoria bethi date traidore</p>
+<p>Erioa dauginian egia zogeri date</p>
+<p>Hartu duten plazer oro orduian iragan date</p>
+<p>Bekatuia geldizen da penazeko gero ere</p>
+<p>Anhiz plazer ukhen badu anhiz behar dolore.</p>
+<p>Amore bat nahi nuke liadutanik egia</p>
+<p>Bizi eta hilez gero hain lakidan balia</p>
+<p>Zerbizatu nahi nuke halakoa bizian</p>
+<p>Heben labur bizia da iagoitikoz bertzia.</p>
+<p>Mundu oro iraganik ez eriden bertzerik</p>
+<p>Ieinkoaren ama hona grazia oroz betherik</p>
+<p>Haren amore izateko ezta ehor dignerik</p>
+<p>Unsa zerbiza dazagun maite gitu bertarik.</p>
+<p>Amoriak bano dira hartzaz bertze guziak</p>
+<p>Behar handien denian faltaturen bertziak</p>
+<p>Uste bano lehen gira hilzen bekhatoriak</p>
+<p>Hark aiuta ezpagiza nola giren galduiak.</p>
+<p>Andre hona har dazagun orok gure amore</p>
+<p>Bertze oro uzi eta egin hari ohore</p>
+<p>Hala egin badazagu ohoratu girate.</p>
+<p>Bertzegatik hura gabe oro galdu girade.</p>
+<p>Ieinkoaz landan mundu orok eztu hanbat balia</p>
+<p>Zeruia lurra ixasoa haren peko guzia</p>
+<p>Orotara hedazen du behar bada eskuia</p>
+<p>Bera handi izan arren preziazen xipia</p>
+<p>Halakoa uzi eta non dukegu bertzia.</p>
+<p>Bertze amoreak baten bezi eztirade perestu</p>
+<p>Nork beria bertziari eztu nahi partitu</p>
+<p>Ama birjen gloriosa hanbat bada konplitu</p>
+<p>Ororenzat bera baita leial dela abastu.</p>
+<p>Amorosek badagite behin bere nahia</p>
+<p>Handiago jiten zaie bertze nahikaria</p>
+<p>Ezi ukhen behinere bere konplimenduia</p>
+<p>Bethi peitu deramate bere mende guzia</p>
+<p>Emazte eta gizon orok har amore maria</p>
+<p>Eta orori baitekegu berak konplimenduia.</p>
+<p>Andre honak ukhen dizi ederretan grazia</p>
+<p>Ehork hura gaixteriaz ezin lezan inbia</p>
+<p>Bana bistaz hilzen zuien nahikari satsuia</p>
+<p>Figuraren ekhustiaz dakikezu egia.</p>
+<p>Ixasoan hur guzia zeruietan izarra</p>
+<p>Oihanetan izalori lur guzian belharra</p>
+<p>Egunari iguzkia gau belzari ilhuna</p>
+<p>Lehen faltaturen dira ezi hura gugana</p>
+<p>Balinetan egiazki gu bagaude hargana.</p>
+<p>Zeren bada erho gira gaixo bekhatariak</p>
+<p>Andre leial honegana goazen othoi guziak</p>
+<p>Elas othoi aribira bertze amore falsuiak</p>
+<p>Harekila segur dugu behar dugun guzia.</p>
+<p>Elas amoros gaixoa hire enganatuia</p>
+<p>Erhogoatan badaramak eure mende guzia</p>
+<p>Ene andere graziosa ezpadakik balia</p>
+<p>Bai bizian bai hilian bethi oha galduia.</p>
+<p>Denbora duian artian egik ahal hongia</p>
+<p>Erioa dauginian miraz dukek orduia</p>
+<p>Orduian ere nahi baduk onsa ialgi dagia</p>
+<p>Onsa hari gomendadi nik diosat egia</p>
+<p>Finian ere eztik uzten hark galzera beria</p>
+<p>Orduian ere bere eskuian dik grazia guzia.</p>
+<p>Mundu honek anhiz jende enganatu darama</p>
+<p>Iagoitikoz bizi ustez haren sehi dabilza</p>
+<p>Guti uste duienian ehor uzi darama</p>
+<p>Erho iokhatuia date hartan fida dadina.</p>
+<p>Nihaur ere ebili niz anhizetan erhorik</p>
+<p>Gaoaz eta egunaz ere hozik eta berorik</p>
+<p>Loa galdu pena aski bana ez arimagatik</p>
+<p>Orai oro nahi nuke liren ieinkoagatik.</p>
+<p>Ni bezala anhiz duzu halakorik munduian</p>
+<p>Mende oro dohatenik bethi banaglorian</p>
+<p>Ohart giten buruiari denbora den artian</p>
+<p>Andre honak har gizake gomendutan agian</p>
+<p>Hanbat bada graziosa ama ororen gainian</p>
+<p>Jin dadinik eztu uzten hartu gabe grazian</p>
+<p>Kulpa gabe ehor ezta haur da segur egia</p>
+<p>Bekhatuiaz damnazen du iangoikoak munduia</p>
+<p>Bekhaturik ezta izan zutan andre handia</p>
+<p>Ararteko zakizkula digun barkhamenduia.</p>
+<p>Bekatoren salbazeko ieinkoak egin zinduzen</p>
+<p>Bere buruia egin dizi iuje iustiziaren</p>
+<p>zu miserikordiaren refujio zinaden</p>
+<p>Nola berak iustizian ezin salba lizake</p>
+<p>zure miserikordiaz remedia litezen</p>
+<p>Balinetan egiazki zugana jin balite.</p>
+<p>Egundano ezta izan ez izanen iagoitik</p>
+<p>Bekhatore hain andirik ezetare satsurik</p>
+<p>Bere bidian iaugin bada zuri gomendaturik</p>
+<p>Ukhen eztuien barkhamendu zure amorekatik</p>
+<p>Ez galdu da ez galduren zure gomendukorik</p>
+<p>zuri gomendazen gira bilik eta bizirik.</p>
+<p>Bertze emaztiak ama dira zenbait haurto xipiren</p>
+<p>Eta gero obororik punzela ezin dirate</p>
+<p>zu anderia ama zira birjinarik ieinkoaren</p>
+<p>Eta geroz erregina zeru eta lurraren.</p>
+<p>Ieinkoa iaun den gauza ororen zu zirade andere</p>
+<p>Arrazoin da mundu orok dagien zuri ohore</p>
+<p>Ezi hala ari zauku Ihesu kristo bera ere</p>
+<p>zuk bezanbat dignitate mundu orok eztuke.</p>
+<p>O anderia ezin date ehor zure bardinik</p>
+<p>Gainekorik zuk eztuzu ieinko beraz bertzerik</p>
+<p>Ieinko ezten bertze oro dago zure azpitik</p>
+<p>Ieinkoaren ama zira mundu oroz gainetik.</p>
+<p>Mundu orok eztu egin zuk bezanbat hargatik</p>
+<p>Orogatik bano oboro hark ere daidi zugatik</p>
+<p>Bere ama ezin uzi obeditu gaberik</p>
+<p>Othoi grazia egiguzu giren zuienetarik.</p>
+<p>Unsa zuk har banenzazu gomendutan gogotik</p>
+<p>Ezin damna naindeiela zinesten dut segurki</p>
+<p>Anhiz begiratu duzu galduren zenetarik</p>
+<p>Niri ere hel zakizat othoi galdu gaberik.</p>
+<p>Ehonere gaizik ezta zuk khen eztirozunik</p>
+<p>Ez etare hontasunik zure eskuian eztenik</p>
+<p>Denbora eta lekhu orotan ezin duda gaberik</p>
+<p>Graziak oro zure eskuian iangoikoak emanik.</p>
+<p>Nahi duiena hala duke amak semiaganik</p>
+<p>Seme honak anhiz daidi amaren amorekatik</p>
+<p>Gure natura haritu du zutan amoraturik</p>
+<p>Iangoikoa ezarri duzu gure anaieturik.</p>
+<p>Haren eta gure ororen ama zira dignerik</p>
+<p>Amak eztu sofrizeko semen artian gerlarik</p>
+<p>Samurturik badakutsu gure gaizkiegatik</p>
+<p>Ororen ama zira eta bake gizaku bertarik.</p>
+<p>Orai egiten diraden gaizki handiegatik</p>
+<p>Ieinkoak ondatu zukeien lur guzia engoitik</p>
+<p>Balinetan zu ezpazina ararteko gugatik</p>
+<p>Oro soszengazen gitu zure othoiegatik</p>
+<p>Gu gaixtoak izan arren ezten zutan faltarik</p>
+<p>Fin honera hel gizazu giren salbuietarik.</p>
+<p>Ama eztia nik badagit zure kontra faltarik</p>
+<p>zuk gaztiga eta dreza nazazu othoi bertarik</p>
+<p>Elas norat ihes naidi zu neure ama uzirik</p>
+<p>Neuretako eztazagut zu nolako amarik.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>EMAZTEN FABORE</p><--</head>
+        </front>
+        <body>
+<p>Emaztiak ez gaiz erran ene amorekatik</p>
+<p>Gizonek uzi balizate elaidite faltarik.</p>
+<p>Anhiz gizon ari bada andrez gaizki erraiten</p>
+<p>Arhizki eta desoneski baitituzte aipazen</p>
+<p>Ixilika egoitia ederrago lizate</p>
+<p>Andrek gizoneki bezi hutsik ezin daidite.</p>
+<p>Zuhur gutik andregatik gaizki erran diroite</p>
+<p>Haiez hongi erraitea onestago lizate</p>
+<p>Emazteak zerengatik gaiz erranen dirate</p>
+<p>Handi eta xipi oro haietarik girade.</p>
+<p>Balentia sinplea da andren gaiz erraitea</p>
+<p>Bat gaiz erran nahi badu oro bardin sartzea</p>
+<p>Ixil ladin nahi nuke halako den guzia</p>
+<p>Damu gaizik emazteak hari eman dithia</p>
+<p>Andren gaiz erraile orok bear luke pensatu</p>
+<p>Bera eta bertze oro nontik ginaden sorthu</p>
+<p>Ama emazte luien ala ez nahi nuke galdatu</p>
+<p>Amagatik andre oro behar luke goratu</p>
+<p>Gizonaren probexuko emaztia bethi da</p>
+<p>Oro behin haietarik sortzen gira mundura</p>
+<p>Sorthu eta hil ginate hark haz ezpaginiza</p>
+<p>Haziz gero egun oroz behar haren aiuta.</p>
+<p>Haren eskuz osoan behar soinera eta iatera</p>
+<p>Eri denian andre gabe galdu gizon egurra</p>
+<p>Hil badadi hura nola nor doake gainera</p>
+<p>Ordu oroz behar tugu ezta heben zer duda</p>
+<p>Emazterik ezten lekuian eztakusat plazerik</p>
+<p>Ez gizona ez exia behinere tsahurik</p>
+<p>Exian den gauza oro gaizki erreglaturik</p>
+<p>Parabizuian nahi enuke emazterik ezpaliz.</p>
+<p>Emaztiak eztut enzun lehen gizona iaukirik</p>
+<p>Bana gizonak emaztia bethiere lehenik</p>
+<p>Gaixteria ialgiten da bethi gizonetarik</p>
+<p>Zeren bada daraukate emaztiari hogenik.</p>
+<p>Bertuteak behar luke gizonetan handiago</p>
+<p>Emaztetan nik dakusat hongiz ere gehiago</p>
+<p>Mila gizon gazxtorik da emazte batendako</p>
+<p>Gizon baten mila andre bere fedean dago.</p>
+<p>Hek gizoner beha balite elizate bat honik</p>
+<p>Eztiroute deuskai denik uzi iauki gaberik</p>
+<p>Bana anhiz emazte da eskapazen zaienik</p>
+<p>Anderetan zeren baita bertutea hobenik.</p>
+<p>Nik eztanzut emaztiak borxaturik gizona</p>
+<p>Bana bera zoraturik andriari darraika</p>
+<p>Zenbait andre hel baledi oneriztez hargana</p>
+<p>Zein gizonek andriari emaiten du ogena.</p>
+<p>Ieinkoak emaztea maite mundu oroz gainetik</p>
+<p>Zerutika iaitsi zedin hartzaz amoraturik</p>
+<p>Emaztiak ezarri du gure anaieturik</p>
+<p>Andre oro laudazeko haren amorekatik.</p>
+<p>Irudi zait emaztia dela gauza eztia</p>
+<p>Donario guzietan guziz gauza emia</p>
+<p>Gaoaz eta egunaz ere badu plazer handia</p>
+<p>Hartzaz gaizki erraitia bilania handia.</p>
+<p>Munduian ezta gauzarik hain eder ez plazentik</p>
+<p>Nola emaztia gizonaren petik buluzkorririk</p>
+<p>Beso biak zabaldurik dago errendaturik</p>
+<p>Gizonorrek dagiela hartzaz nahi duienik.</p>
+<p>Io badeza dardoaz ere gorpuzaren erditik</p>
+<p>Ainguruiak bano oboro ez larrake gaizkirik</p>
+<p>Bana dardoa ematurik zauriere sendoturik</p>
+<p>Bere graziaz ezarteintu elgarreki baketurik.</p>
+<p>Nor da gizon modorroa hartzaz orhit eztena</p>
+<p>Eta gero halakoa gaizerraiten duiena</p>
+<p>Ezta gizon naturazko hala egiten duiena</p>
+<p>Zeren eztu ezaguzen hala hongi egina.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>EZKONDUIEN KOPLAK</p><--</head>
+        </front>
+        <body>
+<p>Iangoikoa edetazu bertzerena gogotik</p>
+<p>Bera kaptiba da eta ni gathibu hargatik.</p>
+<p>Ni gathibu nadukana kaptiba da bertzeren</p>
+<p>Ene dixak hala egin du ni gathibu bigaren</p>
+<p>Gogo honez ikaneniz bizi baniz bataren</p>
+<p>Bana borxaz baiezila ez iagoitik bertziaren.</p>
+<p>Bertzerena har dazanak beretako amore</p>
+<p>Oborotan ukhenen du plazer bano dolore</p>
+<p>Bazarriak bekhan eta beldurreki dirate</p>
+<p>Guti uste dutenian gaiza bertan sor daite.</p>
+<p>Honestea bertzerena erhogoa handi da</p>
+<p>Plazer baten ukhenen du anhiz malenkonia</p>
+<p>Begiez ikus ezin minza han dakusat nekia</p>
+<p>Beriareki dazanian enetako aizia.</p>
+<p>Perileki baiezila ezin noake hargana</p>
+<p>Eta agian, hark orduian ezpaituke aizina</p>
+<p>Badu ere beldur date bertan doha hartzara</p>
+<p>Nik nahien dudanian bertzex besoan daraza.</p>
+<p>Alhor hartan hel badakit ereitera hazia</p>
+<p>Eta ene bada ere lastoa eta bihia</p>
+<p>Ez bat ori ahal duket ezetare bertzia</p>
+<p>Lan eginaz esker gaixto galdu irabazia</p>
+<p>Bertzerenzat geldizen da ene zuzenbidia</p>
+<p>Agian gero alabareki ezkonduko semia.</p>
+<p>Amoria ehork ere eztu nahi partitu</p>
+<p>Nik eztakit bertziak bana ni ari niz bekhatu</p>
+<p>Beriareki ekhustiaz hain hain noha penatu</p>
+<p>Hek dostetan ni neketan orduian errabiatu</p>
+<p>Jelosiak eztizaket nik gaiz erran sekulan</p>
+<p>Maite nuiena nahi enuke ehork hunki liazadan</p>
+<p>Bertzerenaz izanuzu amoros lekhu batetan</p>
+<p>Beriagana jelosturik desesperazer ninzan.</p>
+<p>Amoria ezin zenzuz ezin daite goberna</p>
+<p>Anhizetan honesten du guti behar duiena</p>
+<p>Arnoak bano gaizkiago ordi diro persona</p>
+<p>Sarri estaka berant laxa hark hazeman dezana.</p>
+<p>Amoria itsu da eta eztazagu zuzena</p>
+<p>Eztu uste bertzerik dela lekot maite duiena</p>
+<p>Suiak bano gaizkiago erra diro gizona</p>
+<p>Ixasoak ez iraungi eraxeki dadina.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>AMOROS SEKRETUKI DENA</p><--</head>
+        </front>
+        <body>
+<p>Andre eder jentil batek bihoza deraut ebatsi</p>
+<p>Hartzaz orhit nadinian deusere ezin iretsi</p>
+<p>Nik hura nola nahi nuke hark banenza onhetsi</p>
+<p>Ezin benturatuz nago beldur dakion gaizi.</p>
+<p>Mirail bat nik ahal banu hala luien donoa</p>
+<p>Neure gogoa nerakutson sekretuki han barna</p>
+<p>Han berian nik nakusen harena ere nigana</p>
+<p>Hutsik ezin egin nezan behinere hargana.</p>
+<p>Ene gaizki penazeko hain ederrik sortu zen</p>
+<p>Gaoaz eta egunaz ere gaizki nizi penazen</p>
+<p>Harekila bat banadi bihoza zait harrizen</p>
+<p>Neure penen erraitera are eniz ausartzen.</p>
+<p>Ene gogoa baliaki maite bide ninduke</p>
+<p>Ni errege balin baninz erregina lizate</p>
+<p>Hura hala nahi baliz elgarreki ginate</p>
+<p>Haren baurrak eta eniak aurride oso lirate.</p>
+<p>Balinetan nik banerro hari neure bihoza</p>
+<p>Eta gero balin balit respuesta bortiza</p>
+<p>Dardoak bano lehen liro erdira ene bihoza</p>
+<p>Duda gabe eror nainde han berian hilhoza</p>
+<p>Artizarrak bertzetarik abantailla darama</p>
+<p>Halaber da anderetan ni penazen nuiena</p>
+<p>Hanbat da eder eta jentil hartzaz erho narama</p>
+<p>zori honian sortu date haren besoan dazana.</p>
+<p>Ene gogoa nola baita zuzen iarri hargana</p>
+<p>Harenere iangoikoak dakarrela nigana</p>
+<p>Ene pena sar dakion bihozian barrena</p>
+<p>Gogo hunez egin dazan desirazen dudana</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>AMOROSEN PARTIZIA</p><--</head>
+        </front>
+        <body>
+<p>Parti albanengidio hark ezluke parerik</p>
+<p>Alabana nik eztizit hain hon derizadanik.</p>
+<p>Amore bat onhetsi dut guziz soberatuki</p>
+<p>Ene arima eta bihoza iosi dira hareki</p>
+<p>Haren irudi ederrori begietan ehoki</p>
+<p>Hartzaz orhit nadinian bihoza doat ebaki.</p>
+<p>Nik hargana hanbat dizit amorio handia</p>
+<p>Harekila egoitiaz ezpaneinde enoia</p>
+<p>Harganiko partizia ene eihargarria</p>
+<p>Berriz ikus dirodano bethi malenkonia.</p>
+<p>Elas ene amoria nola nuzun penazen</p>
+<p>zurekila ezin bathuz bihozian errazen</p>
+<p>Ene gaizki penazeko segur sorthu zinaden</p>
+<p>Penak oro hon lirate zu bazina orhizen.</p>
+<p>Minzazeko zurekila gau bat nahi nikezi</p>
+<p>Hilabete konpliturik hura luza baledi</p>
+<p>Arranguren khondazeko asti nuien frangoki</p>
+<p>Ezeinere beldur gabe egoiteko zureki.</p>
+<p>Orai porogazen dizit dakitenen errana</p>
+<p>Ehork uzi eztazala eskuietan duiena</p>
+<p>Elas izul albaneza iragan den denbora</p>
+<p>Segur orai enikezi dudan gogoan beharra</p>
+<p>Denbora hartan ohi nizin nik zugatik dolore</p>
+<p>Orai aldiz zure faltaz muthatu niz ni ere</p>
+<p>Malenkonia ezitela badukhezu amore</p>
+<p>Bana ordu bazinduke zenzazeko zuk ere.</p>
+<p>Badakizu dolorian partaide niz ni ere</p>
+<p>Eta zure muthazeko ez ogenik batere</p>
+<p>Neure gaizki penazeko har zinzadan amore</p>
+<p>Iagoitikoz ukhenen dut nik zugatik dolore.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>AMOROS JELOSIA</p><--</head>
+        </front>
+        <body>
+<p>Beti penaz izatia gaiz da ene amore</p>
+<p>Beti ere behar duta nik zugatik dolore.</p>
+<p>Amore bat ukhen dizit miragarri jentilik</p>
+<p>Harekila ninzanian enuien nik faltarik</p>
+<p>Nik iagoitik ezin nuke hura bezain maiterik</p>
+<p>Haren minez orai nago ezin hilez bizirik.</p>
+<p>Nork baitere amoria niri daraut muthatu</p>
+<p>Nik eztakit zer den bana estamendu berri du</p>
+<p>Ohi nola aspaldian nahi ezait minzatu</p>
+<p>Zerk andere han tuduien behar dizit galdatu.</p>
+<p>Sekretuki behar dizit harekila minzatu</p>
+<p>Ordu hartan iagoitikoz etsai ezpa baketu</p>
+<p>Niri unsa ezpadagit behar dizit pintatu</p>
+<p>Ene buruia ziaidazu harendako abastu.</p>
+<p>Amoria nor izan da gure bion artian</p>
+<p>Muthaturik bazabilza ia aspaldi handian</p>
+<p>Nik zugana dakidala faltatu eztut bizian</p>
+<p>Biok behin sekretuki nonbait minza gitian.</p>
+<p>Ehonere eztakusat nihaur bezain erhorik</p>
+<p>Nik norgatik pena baitut hark ene eztu axolik</p>
+<p>zuhur baninz baninzande ni ere hura gaberik</p>
+<p>Alabana ezin uzi behin ere gogotik.</p>
+<p>Jende honak bihoza daut bethiere nigarrez</p>
+<p>Neure amore xotiltua galdu dudan beldurrez</p>
+<p>Gaoaz lorik ezin daidit haren gogoan beharrez</p>
+<p>Gogoan behar handi dizit bethe nnien adarrez.</p>
+<p>Iangoikoa edetazu amoria gogotik</p>
+<p>Eta haren irudia ene begietarik</p>
+<p>Hark nigana eztaduka unsa leialdaterik</p>
+<p>Ni ere elikatureniz orai hura gaberik</p>
+<p>Saroia da lohitu eta eztut haren beharrik</p>
+<p>Nahi badut ukhenen dut orai ere berririk.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>POTAREN GALDAZIA</p><--</head>
+        </front>
+        <body>
+<p>Andria ieinkoak drugazula orai berdi girade</p>
+<p>Ni errege balin baninz erregina zinate</p>
+<p>Pot bat othoi egidazu ezaizula herabe</p>
+<p>Nik zugatik dudan penek hura meretsi dute.</p>
+<p>Eia borrat apartadi nor uste duk nizala</p>
+<p>Horlako bat eztuk uste nik ikusi dudala</p>
+<p>Horrelako hiz gaixtorik niri eztarradala</p>
+<p>Bertzer erran albaitiza enuk uste duiana</p>
+<p>Andre gaixtoa bazinade nik eznaidi kondurik</p>
+<p>Ziren zirena baitzira zuzaz pena dizit nik</p>
+<p>Ene ustian eztut erran desonesta den gauzarik</p>
+<p>Pot bat niri eginagatik ezinduke laidorik,</p>
+<p>Hire potak baziakiat bertze gauza nahi dik</p>
+<p>Anderia azti zira nihaurk erran gaberik</p>
+<p>Bada uzi albainenzak ni holakoz ixilik</p>
+<p>Horrein gaiz ziraden gero eginen dut bertzerik.</p>
+<p>Bizi nizan egunetan bada ezitut uziren</p>
+<p>Nik zer orai nahi baitut heben duzu eginen</p>
+<p>Uste diat eskuiarki ezizala burlazen</p>
+<p>Gizon hunek orai nuia heben laidoz beteren</p>
+<p>Eiagora nik zer daidit zaude ixilik hanbaten</p>
+<p>Etai lelo ribai lelo pota franko bertzia bego</p>
+<p>Andria minza albaitzinde bertze aldian emiago.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>AMOREZ ERREKERIZIA</p><--</head>
+        </front>
+        <body>
+<p>Benedika fortuna ala enkontru hona</p>
+<p>Orai begietan dizit desirazen nuiena.</p>
+<p>Ene maite maitena egidazu zuzena</p>
+<p>Ioan duzuna ekhardazu ezpa eman ordaina</p>
+<p>Nik dakidan gauzarik eztadukat zurerik</p>
+<p>Lotsaturik iarri nuzu ezpaitakit zegatik.</p>
+<p>Eztuzula beldurrik eztukezu perilik</p>
+<p>Gure auzian ezta izanen zuhaur bezi iuierik.</p>
+<p>Eztut egin gaizkirik ukheiteko perilik</p>
+<p>Ez etare zerengatik behar dudan auzirik.</p>
+<p>Bada neure maitia nik diotsut egia</p>
+<p>Arrobatu nuzu eta balia bekit neuria.</p>
+<p>Ni enuzu ohoina arrobazer nizana</p>
+<p>Orai othoi enadila ogen gabe difama.</p>
+<p>Enetako ohoin zira ohoin ere handi zira</p>
+<p>Nik beharren nuien gauza daramazu zurekila.</p>
+<p>Ni enuzu iakintsu klarki erran ezazu</p>
+<p>Ehork unsa adi zizan nahi balin baduzu.</p>
+<p>Gizonak duien maitena bai etare hobena</p>
+<p>Bihozeko pausuia du eta bere lo huna.</p>
+<p>Orai lorik ezin daidit bihozian ez pausurik</p>
+<p>Haiek biak galdu ditut amoria nik zugatik.</p>
+<p>Unsa pensa badezazu gaizki arrobatu nuzu</p>
+<p>zor handian zaude eta othoi unsa egidazu.</p>
+<p>Galdu balin badituzu zeren ogen derautazu</p>
+<p>Nik dakidan lekhutarik ni baitara eztituzu</p>
+<p>Orai egun batetan zenaudela pensetan</p>
+<p>Hanbat zuzaz amoratu geroz nuzu penatan.</p>
+<p>Horla erraitia errax duzu erho bozen badakizu</p>
+<p>zure pena diozunok nonbait handi bideituzu.</p>
+<p>Hanbatere handi tuzu ezin erran nizakezu</p>
+<p>Egiara baziniaki urrikari nangidizu.</p>
+<p>Penak handi badituzu axeterrik aski duzu</p>
+<p>Sarri sendoturen zira larruiori oso duzu.</p>
+<p>Zauri baninz larruian bada axeter herrian</p>
+<p>Ene mina sendo ezliro zuk baiezi bizian.</p>
+<p>Zure irudi ederrak eta maina jentilak</p>
+<p>Gaizkiago zauri nizi ezi dardo zorrozak.</p>
+<p>Bihozian zauri nuzu eta gathibatu nuzu</p>
+<p>Amoretan har nazazu nik dudana zure duzu.</p>
+<p>Ametsetan agerritan ni kugatik doloretan</p>
+<p>Hiz bat honik erradazu hil eznadin othoi bertan.</p>
+<p>Zer nahi duzu darradan gauka horren gainian.</p>
+<p>Mi nolakorik aski duzu bertzerik ere herrian.</p>
+<p>Bertze oroz gainetik hanbat maite zitut nik</p>
+<p>Mundu oro uzi niro zure amorekatik.</p>
+<p>Albanerra egia nik dut pena handia</p>
+<p>Sekretuki minza giten biok othoi maitia.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>AMOROSEN DISPUTA</p><--</head>
+        </front>
+        <body>
+<p>Uztazu hurtanzera amore maite</p>
+<p>Orai partizeko damu ginate.</p>
+<p>Amoriak othoi parti gitezen</p>
+<p>Jendiak diradela hasi bekhaizen</p>
+<p>Laidok hartu gabe geldi gitezen</p>
+<p>Jendek irrigarri gerta ezkiten.</p>
+<p>Elas amoria ene galduia</p>
+<p>Iamas zurekila enainde enoia</p>
+<p>Bizirik partizia pena handia</p>
+<p>Honein sarri uzi nahi nuzuia.</p>
+<p>Nihaurk ere gerthuz maite bazitut</p>
+<p>Onerizte gabez uzten ezitut</p>
+<p>Bana ieinkoaren nuzu beldurtu</p>
+<p>Sobera digizi egin bekhatu.</p>
+<p>Orano amorea gazte gituzu</p>
+<p>Ieinkuaz orhizeko lekhu diguzu</p>
+<p>Are elgarreki behar diguzu</p>
+<p>Orai partizeko damu gituzu.</p>
+<p>Bekatu honetan hilen bagina</p>
+<p>Damnatu lukezu ene arima</p>
+<p>Ezitela engoitik nitan engana</p>
+<p>Niri phorogurik eztidazula.</p>
+<p>Zineste bat dizit gogoan honela</p>
+<p>Nik nola dadukat amore zugana</p>
+<p>Ieinkoari ere eder zaikala</p>
+<p>Hargatik gaizetsi ezkizakela.</p>
+<p>Horlako lausenguz uzi nazazu</p>
+<p>Nola erhoturik narabilazu</p>
+<p>Othoi zenizauzu niri euztazu</p>
+<p>Ene gogoa unsa eztakusazu.</p>
+<p>Nola diostazu horlako hiza</p>
+<p>Bethi dadukazu tema borthiza</p>
+<p>Ioan daraudazu lehen bihoza</p>
+<p>Gero gathibatu neure gorpuza.</p>
+<p>Horlazeko eranzutez uzi nazazu</p>
+<p>Geldi bazinite nahi nikezu</p>
+<p>Gure exian ohart badakizkigu</p>
+<p>Biok iagoitikos galdu gituzu.</p>
+<p>Jendiak so daudia bethi gugana</p>
+<p>Nihaurk sekretuki nator zugana</p>
+<p>zuhaurk dakikezu noiz den aizina</p>
+<p>Neke ezaizula jitia nigana.</p>
+<p>Pixer ebilia hautsi diohazu</p>
+<p>zuk ni laido handiz betheren nuzu</p>
+<p>Othoi zenizaizu niri uztazu</p>
+<p>Nizaz atseginik ezin dukezu.</p>
+<p>Amore maitia diotsut egia</p>
+<p>zutan diagozu ene bizia</p>
+<p>Nahiago dizit zure ikhustia</p>
+<p>Ezi neuretako herri guzia.</p>
+<p>Horlako lausenguz uzi nazazu</p>
+<p>Ixil bazinite nahi nikezu</p>
+<p>Ieinkoaz orhizeko ordu lukezu</p>
+<p>Bertzerik har ezazu niri uztazu.</p>
+<p>Ieinko beldurturik iarri ziraia</p>
+<p>Halaz despeditu nahi nuzuia</p>
+<p>Hebetik ioan gabe ene buruia</p>
+<p>Egin behar duzu ene nahia.</p>
+<p>Orai nahi nuzuia heben borxatu</p>
+<p>Aldi honetan othoi uzi nazazu</p>
+<p>Bertze aldi batez jinen nizaizu</p>
+<p>Nahi duzunori orduian daidizu.</p>
+<p>Haraizinakorik duzu errana</p>
+<p>Uzi dazanorrek eskuian duiena</p>
+<p>Nahi duienian eztukeiela</p>
+<p>Hizak hari bira dugun egina.</p>
+<p>Orai egin duzu nahi duzuna</p>
+<p>Eman darautazu ahalgeizuna</p>
+<p>Maradikazen dut neure fortuna</p>
+<p>Zeren jin bainendin egun zugana.</p>
+<p>Amore ezitela othoi despara</p>
+<p>Honat begitartez izul zakizat</p>
+<p>Ni baitan dukezu adiskide bat</p>
+<p>Balia dikezit senhar gaixto bat.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>ORDU GAIZAREKI HORRAT ZAKIZAT</p><--</head>
+        </front>
+        <body>
+<p>Orai behar dugia konkista berri</p>
+<p>Eztei iraganez gomitu handi</p>
+<p>Hanbat ezirade andere larri</p>
+<p>Meretsi duzuna nartzake sarri.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>AMORE GOGORRAREN DESPITA</p><--</head>
+        </front>
+        <body>
+<p>Andre eder jentil batez hautatu zait begia</p>
+<p>Herri orotan gauza oroz eztu bere paria</p>
+<p>Othoize bat banegion larradala egia</p>
+<p>Biderikan lizatenez ninzan haren grazian</p>
+<p>Respostuia eman deraut luzamendu gaberik</p>
+<p>Kortesiaz hon derizut nik zuri hain segurki</p>
+<p>Bertzerik nitan eztukezu abisazen zitut nik</p>
+<p>Gazte zoroa nizan arren enukezu hargatik.</p>
+<p>Zu gaztia bazirere adimendu hon duzu</p>
+<p>Nik zugatik dudan pena othoi sendi ezazu</p>
+<p>zuretako har nazazu bizi nahi banuzu</p>
+<p>Ni zugatik hil banadi kargu handi dukezu.</p>
+<p>Ohoria galzen dela plazergitia gaiz duzu</p>
+<p>Niri horla erraitia zuri eman eztuzu</p>
+<p>Gaixteria egitia laido dela dakizu</p>
+<p>Ni erhoa zu iakintsu beha enakidizu.</p>
+<p>Zuhaur nahi bazirade ni segretu nukezu</p>
+<p>Gure arteko amoria ehork eziakikezu</p>
+<p>Sekretuki minzazeko othoi bide idazu</p>
+<p>Enekila minzaziaz gaizik ezin dukezu.</p>
+<p>Gaizki egin dadinian jendek sarri dakite</p>
+<p>Ene gaizki egitiaz enek laido lukeite</p>
+<p>zu eta ni elgarreki unsa ezin ginate</p>
+<p>zaude ixilik zoaz horrat eta hobe baitate.</p>
+<p>Hiz horrezaz erdiratu deraudazu bihoza</p>
+<p>Nik zugatik dudan pena hanbat ere handi da</p>
+<p>zuzaz beraz ezpanadi orai bertan konsola</p>
+<p>Ene arima ialgiren da falta gabe kanpora.</p>
+<p>Arimaren ialgitia neke bandia duzu</p>
+<p>Orai duzun penegatik zuria egonen duzu</p>
+<p>Horrelako banitatez niri segur uztazu</p>
+<p>Probexurik eztukezu eta zinhets nazazu.</p>
+<p>Zurekila gaizki baniz nola bizi ninzande</p>
+<p>Ene bihoz eta arima zurekila dirade</p>
+<p>Bihoz eta arima gabe ehor ezin lizate</p>
+<p>zu eta ni elgarreki unsa ahal ginate</p>
+<p>Iauna gertuz hik dadukat porfidia handia</p>
+<p>Ixil endin nahi nikek ala ene fedia</p>
+<p>Hiz gutitan adi ezak nahi baduk egia</p>
+<p>Hiretako eztiadukat gertuz neure buruia.</p>
+<p>Hori horla lizatela nizin neure beldurra</p>
+<p>Andriak hon derizanari ezpadaki mesura</p>
+<p>Ni lehenik eta gero amoros oro galdu da</p>
+<p>Nik zuri hon baderikut gaizzi eztakizula</p>
+<p>Egundano izan daia ni bai dixatakorik</p>
+<p>Ni amoriak enu maite nik hura ezin gaizetsi</p>
+<p>Uste dizit narraiola ezin dukedanari</p>
+<p>Zeren bada hon derizat hon ezteriztanari.</p>
+<p>Iangoikoa mutha ezak othoi ene bihoza</p>
+<p>Amoriaren hark bezala nik eztudan axola</p>
+<p>Borxaz ere gaizki bano hongi egitia hobe da</p>
+<p>Nihaurk ere uziren dut hon ezteriztadana.</p>
+<p>Andre faltaz eniz hilen balinba ni lehena</p>
+<p>Oroz etsi behar dizit non baitate hobena</p>
+<p>Heki ezin medra naite bai gal neure arima</p>
+<p>Bategatik sarri niro diren oroz arnega.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>MOSEN BERNAT EXAPARERE KANTUIA</p><--</head>
+        </front>
+        <body>
+<p>Mosen bernat iakin bahu gauza nola jinen zen</p>
+<p>Bearnora gabetarik egon ahal inzanden.</p>
+<p>Heldu behar duien gauzan ezta eskapazerik</p>
+<p>Nik ogenik eznuiela hongigitez bertzerik</p>
+<p>Bidegabek haritu nu bide eznuien lekhutik</p>
+<p>Erregeri gaizki saldu gertuz ogen gaberik.</p>
+<p>Iaun erregek mezu nenzan ioanengion bertarik</p>
+<p>Gaizez lagola enzun nuien bana nik ez ogenik</p>
+<p>Izterbegier eneien malizian lekhurik</p>
+<p>Ioan nendin enagien ogen gabe ihesik.</p>
+<p>Balinetan ioan ez aninz ogenduru ninzaten</p>
+<p>Ene kontra falseria bethi zinhetsi zaten</p>
+<p>Iustizian enzun baninz sarri ialgi ninzaten</p>
+<p>Haren faltaz hasi nuzu iaugitiaz doluzen.</p>
+<p>Bertzen gaizaz zenzazia zuhurtzia handi da</p>
+<p>Izterbegi duien oro nitan bedi gaztiga</p>
+<p>Abantallan dabilela albailedi segura</p>
+<p>Gaiza apart egoiztea bethiere hobe da.</p>
+<p>Ni gaixoa etsaiari nihaur jiniz eskura</p>
+<p>Ene unsa eginak ere orai oro gaiz dira</p>
+<p>Haren menian ezpanengo nik nukeien zuzena</p>
+<p>Mirakulu banagi ere orai ene ogena.</p>
+<p>Falsu testimoniotik ezin ehor begira</p>
+<p>Halaz kondemnatu zuten ieinkoa ere hilzera</p>
+<p>Bekatore gira eta mira eztakigula</p>
+<p>Balinetan bide gabe akusatu bagira</p>
+<p>Pazienza dugun eta ieinkoak gizan aiuta</p>
+<p>Malizian dabilena berak diro mendeka.</p>
+<p>Iangoikua zu zirade egiazko iujia</p>
+<p>zure gortean bardin dira handi eta xipia</p>
+<p>Nork bait ere egin deraut malizia handia</p>
+<p>Haier hura othoi barkha niri balia egia.</p>
+<p>Iangoikoa zuk begira etsaiaren menetik</p>
+<p>Nik eniak badakuskit ene gaizaz bozturik</p>
+<p>zure eskuiaz dakuskidan heiek gaztigaturik</p>
+<p>Ene gainian eztagiten uste duten irririk.</p>
+<p>Iangoikua egin dizit zure kontra bekatu</p>
+<p>Haiez nahi enuzula othoi heben punitu</p>
+<p>Erregeri dakidala nik eztizit faltatu</p>
+<p>Zeren egon behar dudan heben hanbat gatibu.</p>
+<p>Zuganako hutseginez nahi banuzu punitu</p>
+<p>Errege eta bertze oro ene kontra armatu</p>
+<p>Gogo honez nahi dizit zure egina laudatu</p>
+<p>Eta etsaiak didan pena pazientki haritu</p>
+<p>Nahiz heben pena nadin arima den salbatu</p>
+<p>Haiek zer meretsi duten zuhaurorrek ikhustzu.</p>
+<p>Penak oro jiten dira ieinkoaren nahitik</p>
+<p>Eta berak permitizen oro hobenagatik</p>
+<p>Agian hula ezpanango hil ninzanden engoitik</p>
+<p>Ene etsaiak galdu ustian ene hona egin dik.</p>
+<p>Berak bazu hil dirade ni are nago bizirik</p>
+<p>Hongi egin uste baitut ohorezki ialgirik</p>
+<p>Gaiza nola hona ere iauginen da bertarik</p>
+<p>Gaiz ekhusi eztuienak hona zer den eztaki.</p>
+<p>Hongi egitez gaiz sofrituz behar dugu salbatu</p>
+<p>Pena eta miseria nik enuien dastatu</p>
+<p>Orai dakit iangoikuak enu nahi damnatu</p>
+<p>Heben ene penazera zaidanian orhitu</p>
+<p>Urhe hunak behar dizi suian unsa purgatu.</p>
+<p>Bere nahi ezpanindu eninduken punitu</p>
+<p>Aitak bere haur maitia gaztigatu ohi du</p>
+<p>Bihi hunak gorde gabe behar dizi xahutu</p>
+<p>Iangoikoak nizaz ere hala agian egin du.</p>
+<p>Mosen bernat pensa ezak kartzel hori gaiz bada</p>
+<p>Nonbait ere ifernuia are gaizago dela</p>
+<p>Heben hik badukek bana haiek ez nork konsola</p>
+<p>Penak heben fin dik sarri haienak ez sekulan.</p>
+<p>Batre minik heben eztuk lekot ialgi nahia</p>
+<p>Han direnek bethi die suian pena handia</p>
+<p>Pena handi izigarri ezein pausu gabia</p>
+<p>Hartzaz orh&iuml;t adi eta dukek pazienzia.</p>
+<p>Bertzen gaztigari inzan orai adi gaztiga</p>
+<p>Pena honez orhit eta hangoa ezak kojita</p>
+<p>Hebengoaz bertzekoa albaheza eskusa</p>
+<p>Unsa enplegatu dukek heben eure denbora.</p>
+<p>Hor balego gaztigairo ihaurk bertze guzia</p>
+<p>Bada orai gaztigezak aldiz eure buria</p>
+<p>Kirisailuiari nola hiri hel eztakia</p>
+<p>Bertzer argi egin eta errazen dik buruia.</p>
+<p>Hiri egin badaraie bidegabe handia</p>
+<p>Ieinkoari gomendezak eure gauza guzia</p>
+<p>Hark orori emanen dik bere meretsituia</p>
+<p>Gaizkigiler pena handi pazienter gloria.</p>
+<p>Eztazala gaizeriztez damna heure buruia</p>
+<p>desiratuz gaixtoari hel dakion gaizkia</p>
+<p>Ieinkuari egiten duk iniuria handia</p>
+<p>Hura borrer egiten duk iuje eure buruia.</p>
+<p>Zertan iuia hik baitazak eure izterbegia</p>
+<p>Hartan kondemnazen dukek ihaurk kure buruia</p>
+<p>Eta hartan eztakidik eskusarik balia</p>
+<p>Erakustak ehonere nor den ogen gabia.</p>
+<p>Iangoikua orai dizit egiteko handia</p>
+<p>Hiri honetan eriozez hilzen duzu jendia</p>
+<p>Gathibutan hil enadin gizon ogen gabia</p>
+<p>Osorik othoi ialgiteko zuk idazu bidia</p>
+<p>Izterbegiak eztagidan gibeletik irria</p>
+<p>Ogenduru zuian eta han galdu dik bizia.</p>
+<p>Libertatia nola baita gauzetako hobena</p>
+<p>Gathibutan egoitia hala pena gaizena</p>
+<p>Ni bezala eztadila othoi ehor engana</p>
+<p>Ez etare hiz orotan fida ere gizona</p>
+<p>Iangoikua zuk begira niri ere zuzena.</p>
+<p>Amen.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>KONTRAPAS</p><--</head>
+        </front>
+        <body>
+<p>Heuskara</p>
+<p>ialgi adi kanpora</p>
+<p>Garaziko herria</p>
+<p>Benedika dadila</p>
+<p>Heuskarari eman dio</p>
+<p>Behar duien thornuia.</p>
+<p>Heuskara</p>
+<p>Ialgi adi plazara</p>
+<p>Bertze jendek uste zuten</p>
+<p>Ezin eskriba zaiteien</p>
+<p>Orai dute phorogatu</p>
+<p>Enganatu zirela.</p>
+<p>Heuskara</p>
+<p>Ialgi adi mundura</p>
+<p>Lengoajetan ohi inzan</p>
+<p>Estimatze gutitan</p>
+<p>Orai aldiz hik behar duk</p>
+<p>Ohoria orotan.</p>
+<p>Heuskara</p>
+<p>Habil mundu guzira</p>
+<p>Bertzeak orok izan dira</p>
+<p>Bere goihen gradora</p>
+<p>Orai hura iganen da</p>
+<p>Bertze ororen gainera.</p>
+<p>Heuskara</p>
+<p>Baskoak orok preziatzen</p>
+<p>Heuskara ez iakin harren</p>
+<p>Orok ikasiren dute</p>
+<p>Orai zer den heuskara.</p>
+<p>Heuskara</p>
+<p>Oraidano egon bahiz</p>
+<p>Inprimitu bagerik</p>
+<p>Hi engoitik ebiliren</p>
+<p>Mundu guzietarik.</p>
+<p>Heuskara</p>
+<p>Ezein ere lengoajerik</p>
+<p>Ez franzesa ez bertzerik</p>
+<p>Orai ezta erideiten</p>
+<p>Heuskararen parerik.</p>
+<p>Heuskara</p>
+<p>Ialji adi danzara.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>SAUTRELA</p><--</head>
+        </front>
+        <body>
+<p>Heuskara da kanpora, eta goazen oro danzara</p>
+<p>O heuskara lauda ezak garaziko herria</p>
+<p>Zeren hantik ukhen baituk behar duian thornuia</p>
+<p>Lehenago hi baitinzan lengoajetan azkena</p>
+<p>Orai aldiz izaneniz orotako lehena.</p>
+<p>Heuskaldunak mundu orotan preziatu ziraden</p>
+<p>Bana haien lengoajiaz bertze oro burlatzen</p>
+<p>Zeren ezein eskripturan erideiten ezpaitzen</p>
+<p>Orai dute ikasiren nola gauza hona zen.</p>
+<p>Heuskaldun den gizon orok alxa beza buruia</p>
+<p>Ezi huien lengoajia izanen da floria</p>
+<p>Prinze eta iaun handiek orok haren galdia</p>
+<p>Skribatus halbalute ikhasteko desira.</p>
+<p>Desir hura konplitu du garaziko naturak</p>
+<p>Eta haren adiskide orai bordelen denak</p>
+<p>Lehen inprimizalia heuskararen hura da</p>
+<p>Basko oro obligatu iagoitikoz hargana.</p>
+<p>Etai lelori bailelo leloa zarai leloa</p>
+<p>Heuskara da kanpora eta goazen oro danzara.</p>
+<p><foreign>DEBILE PRINCIPIUM MELIOR</foreign></p>
+<p><foreign>FORTUNA SEQUATUR</foreign></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Extraict des regestes de Parlement</p><--</head>
+        </front>
+        <body>
+<p><foreign> Svpplie humblement Fran&ccedil;oys Morpain, maistre Imprimeur de ceste ville de Bourdeaulx, que pour imprimer vn petit tracte intitule, Lingu&aelig; vasconum primitie, luy a conuenu faire plusieurs fraiz &amp; mises. A ceste cause plaise a la Court inhibitions estre faictes a tous les Imprimeurs libraires de ce Ressort de imprimer ou faire imprimer le dict Tracte, &amp; a tous marchans de nen vendre dautre impression dans troys ans a peine de mil liures tour&ntilde;. &amp; ferez iustice. Veue laquelle requeste la court faict les inhibitions requises par le dict Morpain a peine de mil liures tour&ntilde;. Faict a Bourdeaulx en Parlement le dernier iour Dapuril, mil cinq cens quarante cinq.</foreign></p>
+<p><foreign>Collation est faicte,</foreign></p>
+<p><foreign>De Pontac.</foreign></p>
+        </body>
+      </text>
+    </group>
+  </text>
+</TEI.2>
+

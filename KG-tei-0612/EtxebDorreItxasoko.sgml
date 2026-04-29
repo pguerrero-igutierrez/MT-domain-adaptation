@@ -1,0 +1,792 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN"
+                       "http://www.tei-c.org/P4X/DTD/tei2.dtd" [
+   <!ENTITY % TEI.prose    'INCLUDE' >
+   <!ENTITY % TEI.linking  'INCLUDE' >
+   <!ENTITY % TEI.analysis 'INCLUDE' >
+   <!ENTITY % TEI.figures  'INCLUDE' >
+   <!ENTITY % TEI.XML      'INCLUDE' >
+   <!ENTITY % TEI.extensions.ent SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.ent' >
+   <!ENTITY % TEI.extensions.dtd SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.dtd' >
+]>
+<TEI.2>
+  <teiHeader>
+  <fileDesc>
+     <titleStmt>
+        <title>Itxasoko Nabigazionekoa</title>
+        <author>Piarres Etxeberri - "Etxeberri Dorre"</author>
+        <respStmt>Ez dauka</respStmt>
+     </titleStmt>
+     <extent>17.257 hitz, 122.532 karaktere</extent>
+     <publicationStmt>
+        <publisher>Klasikoen Gordailua [http://klasikoak.armiarma.com/]</publisher>
+        <distributor>Estrata Liburuak S.L.</distributor>
+        <address type='email'>klasikoak@armiarma.com</address>
+        <idno type='ota'>EtxebDorreItxasoko</idno>
+        <availability status='free'>Erabilpen librekoa; honoko helbidean topa daiteke (HTML, RTF eta PDF formatuetan): http://klasikoak.armiarma.com/idazlanak/E/EtxebDorreItxasoko.htm</availability>
+        <date>2006</date>
+     </publicationStmt>
+     <sourceDesc>
+        <bibl>Iturria: Ixasoco nabigacionecoa, Etxeberri Dorre (Faksimilea). Txertoa, 1985</bibl>
+        <notesStmt><note>Iturburuen datazioa: 1677</note></notesStmt>
+     </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+     <projectDesc>Euskal literaturako testu klasikoen bilduma da KLASIKOEN GORDAILUA; testu hau berorren parte da</projectDesc>
+     <refsDecl>
+        <p>MENTIONED etiketa egilearenak ez diren hitzak markatzeko erabili da: hitzaurreak, aipuak, iruzkinak, e.a.</p>
+    </refsDecl>
+     <classDecl>
+        <taxonomy id='generoa'>
+            <category id='G-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='G-ANT'><catDesc>Antzerkia</catDesc></category>
+            <category id='G-BER'><catDesc>Bertsoak</catDesc></category>
+            <category id='G-ERL'><catDesc>Erlijioa</catDesc></category>
+            <category id='G-NAR'><catDesc>Narratiba</catDesc></category>
+            <category id='G-POE'><catDesc>Poesia</catDesc></category>
+            <category id='G-SAI'><catDesc>Saiakera, kronika, artikuluak...</catDesc></category>
+        </taxonomy>
+        <taxonomy id='garaia'>
+            <category id='M-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='M-16'><catDesc>XVI. mendea</catDesc></category>
+            <category id='M-17-1'><catDesc>XVII. mendea - 1. erdia</catDesc></category>
+            <category id='M-17-2'><catDesc>XVII. mendea - 2. erdia</catDesc></category>
+            <category id='M-18-1'><catDesc>XVIII. mendea - 1. erdia</catDesc></category>
+            <category id='M-18-2'><catDesc>XVIII. mendea - 2. erdia</catDesc></category>
+            <category id='M-19-1'><catDesc>XIX. mendea - 1. erdia</catDesc></category>
+            <category id='M-19-2'><catDesc>XIX. mendea - 2. erdia</catDesc></category>
+            <category id='M-20-1'><catDesc>XX. mendea - 1. erdia</catDesc></category>
+            <category id='M-20-2'><catDesc>XX. mendea - 2. erdia</catDesc></category>
+        </taxonomy>
+        <taxonomy id='euskalkia'>
+            <category id='E-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='E-BAT'><catDesc>batua</catDesc></category>
+            <category id='E-BIZ'><catDesc>bizkaiera</catDesc></category>
+            <category id='E-BNA'><catDesc>behenafarrera</catDesc></category>
+            <category id='E-ERR'><catDesc>erronkariera</catDesc></category>
+            <category id='E-GIP'><catDesc>gipuzkera</catDesc></category>
+            <category id='E-GNA'><catDesc>goi nafarrera</catDesc></category>
+            <category id='E-LAP'><catDesc>lapurtera</catDesc></category>
+            <category id='E-NAF'><catDesc>nafarrera</catDesc></category>
+            <category id='E-ZAR'><catDesc>zaraitzuera</catDesc></category>
+            <category id='E-ZUB'><catDesc>zuberera</catDesc></category>
+        </taxonomy>
+    </classDecl>
+  </encodingDesc>
+  <profileDesc>
+     <textClass>
+       <keywords scheme='generoa'>
+         <list><item>G-SAI</item></list>
+       </keywords>
+       <keywords scheme='garaia'>
+         <list><item>M-17-2</item></list>
+       </keywords>
+       <keywords scheme='euskalkia'>
+         <list><item>E-LAP</item></list>
+       </keywords>
+     </textClass>
+  </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>Itxasoko Nabigazionekoa -- Piarres Etxeberri - "Etxeberri Dorre"</docTitle>
+    </front>
+    <group>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>LIBURU HAU DA ITSASOKO NABIGAZIONEKOA</p><--</head>
+        </front>
+        <body>
+<p>MARTIN DE HOYARZABALEK EGI&Ntilde;A FRANZEZES,</p>
+<p>ETA PIARRES DETXEBERRY, EDO DORREK ESKARARAT EMANA,</p>
+<p>ETA ZERBAIT GEHIAGO ABANZATUBA</p>
+<p><mentioned>Bayonan, Fauvet inprimerian Carmesseteko aldean, MDCLXXVII</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>LIBURU HAU DA HOIARSABALETIK ATHERATUBA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Italic'>Aitaren eta, Semearen eta, Ispiritu seindubaren, izenean halabiz.</hi></p>
+<p>Iakiteko duzu liburu hunetan konprenitzen direla arrutak, lekoak, zundak, eta marea kontubak, eta entradak, ezagutzak halturak halanola, lebantekoak, Espai&ntilde;iakoak, Franziakoak, Bretaniakoak, Normandiakoak, eta Picardiakoak, Flandeskoak, Angeleterrakoak, Irlandakoak, Eskosiakoak, eta Ternubakoak, halanola baitire segidan iskribatubak, plazer duten maistrubenzat edo pillotubentzat, edo itsasoan nabigatzen dutenentzat, perilletarik goardatzeko, eta lehenbizikorik Lebantekotz berzeak segidan ditubela.</p>
+<p>Iakiteko duzu nahi baduzu muillatu sparzellen barrena, Lebantean muillazazu 15 edo 16 brasetan bainan ezta sobera garbia.</p>
+<p>Iakiteko duzu nahi baduzu muillatu tarife barnean lebantean muillazazu hiriaren besteko partetik harea pilleren trebesean 15 brasetan.</p>
+<p>Iakiteko duzu nahi baduzu muillatu ponatko Karnerako puntan muillazazu harea puguben trebesean 18 brasetan.</p>
+<p>Iakiteko duzu nahi baduzu muillatu gilbartarren, muillazazu 5 brasetan hiriko portale aitzinean.</p>
+<p>Iakiteko duzu nahi baduzu muillatu Alporisko dorreas leihorretik muillazazu, 20 brasetan.</p>
+<p>Iakiteko duzu nahi baduzu muillatu ponantko Fugirolan muillazazu gastelubaren trebesean 15 brasetan.</p>
+<p>Iakiteko duzu nahi baduzu muillatu Malegede ponatko erroteran muillazazu 10 brazetan eta emanen duzu buruba hegoan, eta nahi baduzu muillatu ponatko ziten muillazazu 7 brasetan.</p>
+<p>Iakiteko duzu nahi baduzu muillatu Albenazar de ponat eta lebantean ankra zoin ona da Emazu probiza leixorrat.</p>
+<p>Iakiteko duzu nahi baduzu muillatu lebatean Kalubenako Irlan sar zaite nahi baduzun partetik Irlaren bi aldetarik leku ona da gustietan eta hartzazu Irla gerize eta muillazazu 7 brasetan eta emazu probiza leihorrat.</p>
+<p>Iakiteko duzu nahi baduzu muillatu Ferode ponatko gastelubaren aspian muillazazu 15 brasetan.</p>
+<p>Iakiteko duzu nahi baduzu muillatu lebantean A aguarde elemiak muillazazu 20 brasetan eta ethorriko zaitzu suesta puntaren gai&ntilde;etik.</p>
+<p>Iakiteko duzu nahi baduzu muillatu almerien muilazazu, 7 edo 8 brasetan.</p>
+<p>Iakiteko duzu nahi baduzu muillatu lebatean kap de Gatan muillazazu 22 brasetan eta goardia egizu baxa bat baita puntan leihor hautsi batzuben trebesean zei&ntilde;a baita gustia xuria.</p>
+<p>Iakiteko duzu nahi baduzu muillatu Gely obesko portuban muillazazu 18 brasetan eta nahi baduzu muillatu les Frailezen muillazazu 15 brasetan eta ethorriko zaitzu fuduesta puntaren gai&ntilde;etik.</p>
+<p>Iakiteko duzu nahi baduzu muillatu Mosca de Coldanen muillazazu 20 brasetan eta ethorriko zaitzu hegoa puntaren gai&ntilde;etik.</p>
+<p>Iakiteko duzu nahi baduzu sarthu magaronen sartzaite ponako leihorraren arras eta muilazazu 10 brasetan eta emanen duzu ponantko leihorrerat probiza protu hau da Kartajenatik suduesterat.</p>
+<p>Iakiteko duzu nahi baduzu sarthu Cartagena de ponaten sar zaite erditik eta idukazu ponatko leihorrerat eta guardia egizu baxa bat baita erdian ankra zoinean ikuziko duzu baxa eta muillazazu 6 brasetan eta emanen duzu probiza leihorrat.</p>
+<p>Iakiteko duzu nahi baduzu sarthu Cartagena lebantean sartuko zare, Irlas barnetik eta Ioanen zare muillatzerat ponanko alderdirak erran den bezala.</p>
+<p>Iakiteko duzu nahi baduzu muillatu ponantko Cap de Palosen muillazazu 15 brasetan.</p>
+<p>Iakiteko duzu nahi baduzu muillatu lebantean Irla de Grosen muillazazu irlaren gerisean 7 edo 8 brasetan.</p>
+<p>Iakiteko duzu nahi baduzu muillatu lebantean cap d'Almuxen muillazazu dorrearen trebesean 5 brasetan.</p>
+<p>Iakiteko duzu nahi baduzu muillatu Allicanten eta zoazela ponantik sar ahal zaiteske irlas barnetik eta kaustuko duzu 6 brasa, muillazazu hiriaren aitzi&ntilde;ean erran dudan bezala 6 brasean.</p>
+<p>Iakiteko duzu nahi baduzu muillatulebantean Morianen muillazazu 12 brasetan.</p>
+<p>Iakiteko duzu nahi baduzu sarthu au cap de Mine de ponanten muillazazu 15 brasetan.</p>
+<p>Iakiteko duzu nahi baduzu muillatu endenia muillazazu hiriaren aitzi&ntilde;ean eta hartzazu hara ioateko marea.</p>
+<p>Iakiteko duzu nahi baduzu muillatu Balenziako plaian muillazazu 7 brasetan eta baldin nahi baduzu muillatu atherago 6 brasarano gustietan harea da.</p>
+<p>Iakiteko duzu nahi baduzu muillatu lebantean au cap d'Oropesa muillazazu 15 brasetan.</p>
+<p>Iakiteko duzu nahi baduzu sarthu Tortosako afakesen sarzaite erditik guzietarik leku ona da eta muillazazu 5 brasetan.</p>
+<p>Iakiteko duzu nahi baduzu muillatu au cap de lebanten Arimgo aldetik puntan muillazazu 12 brasetan.</p>
+<p>Iakiteko duzu nahi baduzu muillatu Barzalonako plaian de ponant muillazazu hiriaren aitzi&ntilde;ean 10 brasetan.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Segidan dire Calixtik hasi eta lebantean diren arrutak</p><--</head>
+        </front>
+        <body>
+<p>Iakiteko duzu dauntzala Calix eta Trafaga nornordest &amp; susuduest eta dire batetik bertzerat, 10 lekoa.</p>
+<p>Iakiteko duzu Calix eta Esparzel dauntzala nort noroest &amp; susuest eta dire batetik bertzera, 16 lekoa.</p>
+<p>Iakiteko duzu dauntzala Trafaga eta Esparzel northean noroestean laurdenean edo hegoan suestean laurdenean eta da batetik bertzera 10 lekoa.</p>
+<p>Ikiteko duzu dauntzala trafaga eta Irla de Tarife est suest uest noroest eta dire batetik bertzera, 6 lek.</p>
+<p>Iakiteko duzu dauntzala Pene Delcuerboren trebesean den baxa eta Irla de Tarife eta Minedezente est nordest uset suduest eta dire batetik bertzera 7 lekoa.</p>
+<p>Iakiteko duzu dautzala Lamin Dezente eta cap de Gate, est nordest uest suduest eta dira batetik bertzera 55 lekoa.</p>
+<p>Iakiteko duzu dauntzala Gilbartako mendia eta mine dezente nor noroest &amp; susuest.</p>
+<p>Iakiteko duzu Gilbartako mendia eta giminere nrothean nordestean laurdenean edo hegoan suduestean laurdenean direla.</p>
+<p>Iakiteko duzu dauntzala Gibartako mendia eta cap de Gata, est uest hartzen duzula laurden bat nordestetik edo suduestetik eta dire batetik bertzera, 55 l.</p>
+<p>Iakiteko duzu Gibartako mendia eta malegako errotak nordest est suduest eta dire batetik bertzera, 118 lekoa.</p>
+<p>Iakiteko duzu dauntzala cap de Gata eta cap de Palos nordest suduest eta dire batetik bertzera 36 l.</p>
+<p>Iakitekon duzu daunzala cap de Palos eta cap de Mine, nor onrdest &amp; susuduest eta dira batetik bertzera, 36 lekoa.</p>
+<p>Iakiteko duzu dauntzala cap de Palos eta cap de Mine nornordest &amp; susuduest eta dira batetik bertzera, 30 lekoa.</p>
+<p>Iakiteko duzu daunzala cap de Palos eta cap d'Alumz nort &amp; su eta dira batetik bertzera, 14 lekoa.</p>
+<p>Iakiteko duzu dauntzala cap d'Alum eta Alicante nor su eta dire batetik bertzera 2 lekoa.</p>
+<p>Iakiteko duzu dauntzala Carneroko punta eta lamine dezente noroest &amp; suest.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Segidan dire Baionako, Bocal zaharretik eta Calixerai&ntilde;oko arrutak</p><--</head>
+        </front>
+        <body>
+<p>Iakiteko duzu dauntzala Bocal zaharra eta Igereko punta nordest &amp; suduest hartzen duzula laurden bat nortetik edohegoatik eta dire batetik bertzera, 10 l.</p>
+<p>Iakiteko duzu dauntzala igere eta machichako punta est uest eta dire batetik bertzera, 15 lekoa.</p>
+<p>Iakiteko duzu dauntzala machichaco eta seintoinako arrada est nordest uest suduest eta dire batetik bertzerat, 12 lekoa.</p>
+<p>Iakiteko duzu machichaco eta cap de Pena est uest eta dire batetik bertzera, 50 lekoa.</p>
+<p>Iakiteko duzu dauntzala cap de Pena eta Arrbidaus nordest &amp; suduest hartzen duzula laurdenbat estetik edo uestetik eta dire batetik bertzera, 18 lekoa.</p>
+<p>Iakiteko duzu Seint Sabriango Irla eta Arribadeusko arrada est suest uest noroest eta dire batetik bertzera, 5 lekoa.</p>
+<p>Iakiteko duzu ottigereko Ekatadiak eta cap de Pena est uest hartzen duzula laurdenbat noroestetik edo suestetik eta dira batetik bertzera, 32 lekoa.</p>
+<p>Iakiteko duzu ortiguereko Eskatarietarik eta cap de Priolrat nordest &amp; suduest eta dire batetik bertzera, 8 lekoa.</p>
+<p>Iakiteko duzu dauntzala baires eta ortigereko ekatariak est uest eta dira batetik bertzera, 3 lekoa.</p>
+<p>Iakiteko duzu dauntzala suderako Arbola eta cap de prior nordest &amp; suduest eta dira batetik bertzera, 4 l.</p>
+<p>Iakiteko duzu dauntzala cap de Priol eta Grui&ntilde;akosen Franzesko Komentuba nort &amp; su eta dire batetik bertzera, 4 lekoa.</p>
+<p>Iakiteko duzu dauntzala cap de Prior eta Cicerga est nordest &amp; uest suduest eta dira batetik bertzera, 8 l.</p>
+<p>Iakiteko duzu dauntzala Ferrolgo errada eta zizerga est uest eta dira batetik bertzera 6 lekoa.</p>
+<p>Iakiteko duzu dauntzala cicerga eta turriana nordest &amp; suduest aphur bat hartzen duzula estetik edo uestetik eta dire batetik bertzera, 8 lekoa.</p>
+<p>Iakiteko duzu dauntzala mungiako billan eta turiana nordest esuduest hartzen duzula aphur bat nortetik edo hegoatik eta dire batetik bertzera, 3 lekoa.</p>
+<p>Iakiteko duzu dauntzala cap de Finisterre eta Baionako Irlak noroest 4 suest hartzen duzula laurden bat nortetik edo hegoatik eta dira batetik bertzera, 16 l.</p>
+<p>Iakiteko duzu dauntzala cap de Finisterra eta Berlingak nort &amp; su eta dira batetik bertzera 56 lekoa.</p>
+<p>Iakiteko duzu dauntzala alta de Paliza eta Berlingak nort &amp; su hartzen duzula laurdenbat nordestetik edo suduestetik eta dira batetik bertzera, 46 lekoa.</p>
+<p>Iakiteko duzu dauntzala palizaillesko Puntatik eta Portugalgo portuko Leichionesat nornordest eta susuduest eta dira batetik bertzera, 18 lekoa.</p>
+<p>Iakiteko duzu dauntzala Lachiones Duport de Portugal eta Sarbol de Mandego nort esu hartzazu aphur bat noroestetik edo suestetik eta dira batetik bertzera, 18 lekoa.</p>
+<p>Iakiteko duzu dauntzala puerto Portugal eta Berlinga nornordest &amp; suduest eta harzazu laurdenbat nortetik edo hegoatik eta dire batetik bertzera, 18 lekoa.</p>
+<p>Iakiteko duzu dauntzala Lachiones Duport de Portugal eta Sarbol de Mandego nort esu hartzazu aphur bat noroestetik edo suestetik eta dire batetik bertzera, 18 lekoa.</p>
+<p>Iakiteko duzu dauntzala puerto Portugal eta Berlinga nornordest &amp; suduest eta harzazu laurden bat nortetik edo hegoatik eta dire batetik bertzera 24 lekoa.</p>
+<p>Iakiteko duzu dauntzala salta de Montego eta Berlinga nordest &amp; suduest eta dire batetik bertzera 18 lekoa.</p>
+<p>Iakiteko duzu dauntzala Berlinga eta Larroque de Cintre nort &amp; su eta dire batetik bertzera 12 l.</p>
+<p>Iakiteko duzu dauntzala Larroque de Cintre eta cap Despichjis noroest &amp; suest eta dire batetik bertzera, 8 l.</p>
+<p>Iakiteko duzu dauntzala Larroque de Cintre eta Cascalesko punta noroest &amp; suest eta dire batetik bertzera, 2 l.</p>
+<p>Iakiteko duzu dauntzala Tabaillako Santa Maria Despichis zei&ntilde;a baita sentualko entrada Sen Vicenteko burubarekin nort esu eta dire batetik bertzera, 32 l.</p>
+<p>Iakiteko duzu cap de San Vicente eta Dalfarako Santa Mariako punta est uest eta dire batetik bertzera, 15 l.</p>
+<p>Iakiteko duzu dauntzala cap de Sent Vicent eta Salmedine est uest eta dire batetik bertzera, 40 l.</p>
+<p>Iakiteko duzu dauntzala Dasfaroko Santa Mariako punta eta San Medine est uest eta dire batetik bertzera, 26 l.</p>
+<p>Iakiteko duzu Santa Mariako punta eta Calixko San Sebastian est uest hartzen duzula laurden bat noroestetik edo suestetik eta dire batetik bertzera, 30 l.</p>
+<p>Iakiteko duzu dauntzala cap de Sen Vicent eta cap de Esparzel est suest uest noroest eta dire batetik bertzera, 55 l.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Segidan dire Espai&ntilde;iako portutako entrada hasten zarela igeretik eta Calixerai&ntilde;o</p><--</head>
+        </front>
+        <body>
+<p>Iakiteko duzu nahi baduzu muillatu Hondarrabiako Igeren muillazazu 9 brasetan eta deskubrizazu Ospitalea eta ethorriko zaitzu amuisko puntaren Irlaren gai&ntilde;etik noroesta.</p>
+<p>Iakiteko duzu nahi baduzu sarthu Pasaien es hurbil sobere uesteko leihorrari zergatik baita baxa bat estalia zei&ntilde;a baita entradaren aitzi&ntilde;ean eta bada bertze baxa bat barneko aldean Istiborretik eta eginen duzu guardia hekiengatik erran den bezala eta ioanen tzare muillatzerat gastelubaren barreneko alderat.</p>
+<p>Iakiteko duzu nahi baduzu sarthu Donostian sartzaite erditik eta iraganen zaisko hurbil noroesteko puntari eta nahi baduzu, kaiean barrena sarthu egonen zare baxamarean ensekean.</p>
+<p>Iakiteko duzu nahi baduzu muillatu Getharian eta baldin baduzu haizea, bendebala ez hurbil sobera Santantongo irlariharik eta hiriaren punta deskubritu artean eta izaren tzare orduan irlaren trebesean zei&ntilde;a orduban sarthuko baitzare barnat.</p>
+<p>Iakiteko duzu nahi baduzu sarthu mustrikun ieuziko duzu arrokak istriborreko aldetik uesteko partetik eta sar tzaite barnatharik eta arrokak hurz hegin artean.</p>
+<p>Iakiteko duzu nahi baduzu muillatu ondrroako arradan muillzazu 13 brasetan.</p>
+<p>Iakiteko duzu nahi baduzu muillatu Bermaiun muillzazu 16 brasetan eta handik ageriko da mundako arroka.</p>
+<p>Iakiteko duzu nahi baduzu muillatu machicaco arradan etkarri behar duzu nort noroesta machicaco puntaren gai&ntilde;etik eta muillatuko duzu 10 brasetan.</p>
+<p>Iakiteko duzu nahi baduzu muillatu Plazenzian ioanen zare ahalik eta istriborrenerat santua deskubritu artean eta etxatuko zaitu northerat eta muillazazu uest noroesta puntaren gai&ntilde;etik duzunean.</p>
+<p>Iakiteko duzu nahi baduzu muillatu Portugalletako baieran muillazazu 10 brasetan crastoko Santanton estalzean.</p>
+<p>Iakiteko duzu nahi baduzu muillatu craston eta baldin baduzu haizeal bendebala egi&ntilde;en diozu amor Santanako Irlari kable erdi bates eta ioanen zare plaza deskubritu artean ahalik leihorrena eta muillatuko duzu 5 brasetan zuri dagotzu guardia egitea kablei zergatik ha&ntilde;itz lekutan baitire arrokak.</p>
+<p>Iakiteko duzu nahi baduzu muillatu Zeinto&ntilde;an muillatuko duzu Froidearen trebesean, 10 brasetan.</p>
+<p>Iakiteko duzu nahi baduzu ioan larredorat guardia emazu nordesteko puntari eta muillazazu 5 brasetan zarratzen duzula punta Zeinto&ntilde;arekin.</p>
+<p>Iakiteko duzu nahi baduzu muillatu Santandrezen utzazu arroka magredeizen dutena nahis istriborretik edo aborretik hala nola baituzu haizea eta ioanen tzare baiaren erditik eta guardia egizu es khanaletik apartatzetik.</p>
+<p>Iakiteko duzu nahi baduzu muillatu Chardi&ntilde;eron muillazazu harearen trebesean 10 brasetan eta nahi baduzu muillatu Sen Martin de Larrenatik besterat muillazazu 13 brasetan.</p>
+<p>Iakiteko duzu nahi baduzu sarthu San Vicente de la Barqueran utzazu irla istriborretik eta zoas irlaren arras eta muillatuko duzu pausandatubak direnen trebesean.</p>
+<p>Iakiteko duzu nahi baduzu sarthu Arriba de Seillasen idukazu esteko partearekin zerengatik uesteko partea urak usten baitu.</p>
+<p>Iakiteko duzu nahi baduzu muillatu Castasonesen muillazazu 13 brasetan.</p>
+<p>Iakiteko duzu nahi baduzu muillatu Torresen muillazazu 15 brasetan gastai&ntilde;adiaren trebesean eta ethorriko zaitzu noroesta puntaren gai&ntilde;etik.</p>
+<p>Iakiteko duzu nahi baduzu muillatu cap de penaren gerisean muillazazu harearen trebesean, 12 brasetan.</p>
+<p>Iakiteko duzu nahi baduzu sarthu pabrieko arrada baduzu arroka bat erdian eta idukazu esteko partearekin eta muillatuko duzu dorrearen aldean.</p>
+<p>Iakiteko duzu nahi baduzu muillatu arderon barna eta baldin heltzen bazare bendebalarekin noroestarekin izanen duzu Reblaia sartzeko hartu behar duzu norta eta guardia emazu ezobra hurbizeas uesteko parteari zergatik baxa bat baita barnean eta muilatuko duzu leihor gorri baten trebesean zei&ntilde;a baita uesteko partetik eta muillazazu 5 brasetan.</p>
+<p>Iakiteko duzu nahi baduzu muillatu luarcan barna utzazu eliza ababorretik eta muillazazu 5 brasetan eta guardia emanen diozu arroka bati zei&ntilde;a baita baiaren erdian.</p>
+<p>Iakiteko duzu nahi baduzu sarthu Arribidauxen aparta zaisko uesteko leihorrari eta ioanen zare hareara bezala eta gero trebesatuko duzu uesteko parterat amor ekiten diozula punta halto denari eta muiollatuko duzu Sen Michelgo puntaren trebesean 5 edo 6 brasetan eta orduban izaren zare leku segurean.</p>
+<p>Sen Saurianen utzazu Irla ababorretik eta muillatuko duzu plazer duzun lekuan.</p>
+<p>Iakiteko duzu nahi baduzu muillatu biberoko arradan haizea nordestarekin muillazazu harearen trebesean 10 edo 12 brasetan.</p>
+<p>Iakiteko duzu nahi baduzu muillatu San Iuan de Cobasen deskubrizazu Elizako leihoak eta muillazazu 5 edo 6 brasetan.</p>
+<p>Iakiteko duzu nahi baduzu muillatu Basteladeren uesteko aldetik sar ahal zaiteske Coneieros barnetik.</p>
+<p>Iakiteko duzu nahi baduzu muillatu Baitesen muillazazu arrantzalleen kabanen trebesean 10 brasetan.</p>
+<p>Iakiteko duzu nahi baduzu sarthu Santa Marten hartuko tutzu marearen biherenak eta eginen diozu amor istiborreko aldeari kable baten inguruba zerengatik ensekatzen baita gustia eta hartuko tutzu markatzat barnean diren baluzak eta ioanen tzare khanalean zei&ntilde;a baitaitza nordest &amp; suduest eta izanen da urhilletako plemarean 2 edo 3 brasetan.</p>
+<p>Iakiteko duzu nahi baduzu sarthu cideron entrada d'Arza noroest &amp; suest eta entradaren erditik deskubrituko duzu anctazoi&ntilde;a eta bada arroka bat zei&ntilde;a marea biherenetan estaltzen baita eta utziko duzu baxa istiborreko aldetik eta ioanen tzaren ababorreko leihorraren kontra eta muillatuko duzu harearen trebesean 4 brasetan karratzen duzula nordesteko punta noroesteko puntuarekin.</p>
+<p>Iakiteko duzu nahi baduzu muillatu Ferrolen harearen trebesean izanen duzu geruize uesta eta suduesta.</p>
+<p>Iakiteko duzu nahi baduzu sarthu Ferrolen sar zaite erditik Castabal de Molinsen trebeserai&ntilde;o eta hurbi zakisko northeko leihorrari eta muillazazu 8 edo 9 brasetan.</p>
+<p>Iakiteko duzu nahi baduzu sarthu nahi baduzu berantcosko baian guardia emozu baxa bati zei&ntilde;a baita erdian eta hurbil zakisko istriborreko leihorrari eta muillatuko duzu 5 edo 6 brasetan.</p>
+<p>Iakiteko duzu nahi baduzu sarthu gri&ntilde;an barrena eginen diozu amor Santantongo Irlari eta muillatuko duzu plazer duzun lekuan, edo 6 brasetan.</p>
+<p>Iakiteko duzu nahi baduzu muillatu en Malpicon sar zaite barnat 25 brasetaraino eta izaren tzare, cicergaren gerizean eta nahi baduzu ioan handik hesteko parterat etzare sobera leihortuko zeren leihorrean baitire baxak.</p>
+<p>Iakiteko duzu nahi baduzu sarthu comesen guardia egizu barneko baxei zei&ntilde;ak baitaunza noroesterat zabalsko.</p>
+<p>Iakiteko duzu nahi baduzu sarthu nahi baduzu mungian barnat hiriko khanaletik guardia egizu baxa bati zei&ntilde;a baitatza uest noroest bi kable eta utzazu baxahura ababorretik eta es hurbil lehenbiziko puntari eta noizere iragaten baituzu pontu zarra zaite ahalik gehiena leihorat harik eta deskubritu artean Santa Mariako Elizako theillak eta zoas kosteondo susuduestean muillazazu 7 edo 8 brasetan eta emanen duzu Santa Mariako Eliza uest noroestean eta guardia egizu sobera etzoazen suestera zerengatik baita baxa bat ancrazoi&ntilde;as suesterat.</p>
+<p>Iakiteko duzu nahi baduzu sarthu mungian turrianeko karrosatik ekarriko duzu deskubrituba turriane cap de Ventrerekin galea baten luzetazuna harik eta Santa Maria mungiakoa deskubritu artean eta gero zoas ancrazoinerat lehen erran dudan bezala.</p>
+<p>Iakiteko duzu nahi baduzu muillatu Kabuan edo cap de Finesterran ioanen zare harea deskubritu artean zei&ntilde;a baitatxeko berari harik eta pasatu artean zentol zergatik baita baxa bat Zentol hartas norterat gero bihurruko zare harik eta Santa-Mariako puntaraino eta muillazazu 15 edo 16 brasetan.</p>
+<p>Iakiteko duzu nahi baduzu muillatu concorrionen zoas xuxen aborreko bururat zei&ntilde;etan baita baxa bata baiaren erdian eta utzazu istriborretik eta emanen diozu amor puntari kable baten inguruba eta ioanen tzare barnat konkorbion aitzi&ntilde;erat 9 edo 10 brasetarat.</p>
+<p>Iakiteko duzu nahi baduzu ioan cap de Finesterratik amurusat luersko Carrosatik Carrosa dauntza noroest esuest eta ekarriko duzu Zentol noroesterat eta kurrizazu suestean eta noizere deskubrituko baituzu senadia ioanen tzare ababorreko leihorra bezala eta muillazazu amurusko hiriaren aitzi&ntilde;ean 7 edo 8 brasetan.</p>
+<p>Iakiteko duzu nahi baduzu sarthu amursen barrena nordest &amp; suduest datzan khanaletik utziko duzu loberes ababorretik eta emanen duzu montellero nordestean harik eta haren beraren trebeserat artean, eta baldin bazoas lujetan lariarat guardia emozu baxa bati zei&ntilde;ari baitaritza labaie zei&ntilde;a baitatza Montebroren trebesean suesteko partetik khanalaren erdian aphur bat hegoatik leihorrerat eta noizere doblatzen baituzu baxa leku ona dire guzietan eta ioanen tzare lehen erran dudan bezala murusat.</p>
+<p>Iakiteko duzu nahi baduzu ioan Naiarat ioanen zare xuxen zibreko irlarat eta biziko duzu irla ababorretik eta ioanen tzare plazer duzun lukurrat zeren guzietan leku ona baita.</p>
+<p>Iakiteko duzu nahi baduzu sarthu S Salbareko Irlan haizea northarekin utzazu Irla ababorretik eta deskubrizazu arranzailleen kabinak eta gero muiliatuko duzu 10 edo 12 bras.</p>
+<p>Iakiteko duzu nahi baduzu ioan de l'Isle alapubelerat iakiteko duzu baxa gaistoak direla eta arrokak parte gustietarik bai&ntilde;an nezesitatean zoas nort nordestean zeren hartan baita khanala.</p>
+<p>Iakiteko duzu nahi baduzu sarthu punta berako errioan sar zaite erditik eta ioanen tzare aitzi&ntilde;at dobesko Irla usten duzula ababorretik eta ioanen tzare muillatzerat laturde mine Irlakoaren trebeserat norteko haizearekin.</p>
+<p>Iakiteko duzu nahi baduzu sarthu en la ria de Gangon northeko haizearekin guardia emozu baxa bati zei&ntilde;a baita aborteko aldetik eta ioanen tzare aitzi&ntilde;at eta muillatuko duzu 15 brasetan.</p>
+<p>Iakiteko duzu nahi baduzu muillatu Baionako Irletan sarthuko zare nahi baduzu alde guzietarik eta erabilliko duzu zunda punta guzietan eta ioanen tzare muillatzerat Ermitaren aitzi&ntilde;erat zei&ntilde;a baita irlan eta ioanen tzare aphur bat norteratxeago eta muillatuko duzu, 10 brasetan.</p>
+<p>Iakiteko duzu nahi baduzu sarthu Baionan konportako entradatik hartzazu marea biherenak eta baxamarean da brasea bat ur eta sarthuko sate erditik hurbil zertaneko puntako irlatik zei&ntilde;a baita enzekean eta ioanen tzare Baiona aitzinerat, 4 edo 5 brasetan.</p>
+<p>Iakiteko duzu nahi baduzu sarthu Baionan barna bendebalarekin emanen diozu aphur bat amor Cap de Paum kalleri eta ioanen tzare estean nordestean laurdenean zerengatik hala baitatza khanala eta estuzu beldur behar leihorrarenzat eta deskubrituko duzu errebala eta bada baxa bat zei&ntilde;etarik guardatuko baitzare eta muillatuko duzu lehen erran bezala.</p>
+<p>Iakiteko duzu nahi baduzu muillatu cap de Canianen muillazazu northeko buruban zerengatik hegoako partetik guzia ensekatzen baita.</p>
+<p>Iakiteko duzu nahi baduzu muillatu bianan northeko partetik muillazazu hiriaren trebesean 15 brasetan eta nahi baduzu sarthu barnat hartuko duzu Itsaso ederra marea ona.</p>
+<p>Iakiteko duzu nahi baduzu muillatu Villa de Condeko arradan muillatuko duzu kanpoan 13 brasetan eta da marea kontusko portuba.</p>
+<p>Iakiteko duzu nahi baduzu sarthu edo muillatu lexonesen iakinzazu northetik lekoa bat entradatik direla 3 edo 4. Irlatxo eta eginen diozute irlatxo hei amor kable baten luzetazuna eta ioanen tzare muillatzerat 8 edo 9 brasetan eta emanen duzu punta northean gero nahi baduzu porturat ioan hartzazu marea.</p>
+<p>Iakiteko duzu nahi baduzu nezesitates sarthu daberoko arradan hartuko duzu ezagutzatzat arradarrentzat harea puiubelz batzuek eta haltoak bi lekoa entradatik hegoatarago eta entradan dire hirur masta burus goiti eta emanen tutzu geiak elkarrekin batean eta ioanen tzare xuxen hetarat eta izanen duzu baxa-marean 3 brasa eta gero hetarat hurbiltzen zarenean muillatuko duzu laster zeren goaia handia baitabilla.</p>
+<p>Iakiteko duzu nahi baduzu muillatu en mondego muillazazu 8 edo 9 brasetan Elizaren trebesean eta noroesta ethorriko zaitzu puntarik.</p>
+<p>Iakiteko duzu nahi baduzu sarthu nahi baduzu Selixen zei&ntilde;a baitaunza Senlixko arrada eta Berlingako farrillon est uest eta dira batetik bertzera 4 lekoa eta deskubrizazu entrada eta iakinzazu aborreko puntan badela dorre xume bat zaharra eta hegoako partetik badela ermita bat eta sar zaite northeko leihorraren aldetik eta muillazazu laster kontxa deskubritzen duzunean zei&ntilde;a baita hertzia eta da baxamarean barnean, 2 brasa.</p>
+<p>Iakiteko duzu nahi baduzu sarthu edo muillatu Berlingan muillatuko duzu 12 brasetan ermitas hegoatikan.</p>
+<p>Iakiteko duzu nahi baduzu muillatu Dagiongo Caliberneko buruban muillazazu 8 edo 9 brasetan bai&ntilde;an ezta sobera garbia.</p>
+<p>Iakiteko duzu nahi baduzu mullatu Cascaillesen muillatuko duzu hiriaren aitzi&ntilde;ean 13 brasetan bai&ntilde;ean aphur bat lixunskoa da.</p>
+<p>Iakiteko duzu nahi baduzu sarthu Lichibonan Seingango khanaletik loaren zare Costeondo eta emanen diozu amor Seingango puntari eta guardia emozu gaxopori zei&ntilde;a baita hurbil eta ioanen zare arras Santa Maria de Belim aitzi&ntilde;erat 5 edo 6 brasetara.</p>
+<p>Iakiteko duzu nahi baduzu sarthu Lichibonan khanal handitik deskubrituko duzu Lazite Lichibonako eta harea ioanen zare Sein-Guango puntarat harik eta harea a&ntilde;ertzen duzui&ntilde;o Sen-Ianen nordestetik zergatik khanala han baita eta ekarriko duzu zunda dalmadekoa zei&ntilde;a baita 7 edo 8 brasa gaxopoko aldetik dire 3 brasa eta gero guardia emozu gaxopori gero ioanen tzare muillatzera lehen erran dudan bezala.</p>
+<p>Iakiteko duzu nahi baduzu muillatu cap Despichisko lehenbiziko senadian buruba iraganik muillazazu, 15 brasetan.</p>
+<p>Iakiteko duzu nahi baduzu sarthu sotuballen deskubrituko duzu despixisko punta derabideko puntarekin eskifa baten luzetazuna eta ioanen tzare fazoin hortan handikan gero ikuziko duzu pokaleko entradan dorre zahar bat gero ikusten duzunean dorrea ioanen tzare hartarat eta gero ioanen tzare barnat, eta gero muillatuko duzu lehenbiziko harean arbolen trebesean, 10 brasetan ta sartzeko barnat behar duzu marea erdi gero ez beldur ioaterat arradart eta egi&ntilde;en diozu amor aphur bat nordesteko puntari eta gero hurbil zakisko nordesteko Elizari eta gero handia harat lekugeiak onak dire eta garbiak.</p>
+<p>Iakiteko duzu nahi baduzu muillatu cap de Sen Vizenten lebantean muillazazu harearen trebesean, 18 edo 20 brasetan.</p>
+<p>Iakiteko duzu nahi baduzu muillatu cap de sen Vizenten muillazazu 15 brasetan.</p>
+<p>Iakiteko duzu nahi baduzu muillatu Lagosen muillazazu 8 edo 9 brasetan, eta ethorriko zaitzu suduesta puntaren gai&ntilde;etik.</p>
+<p>Iakiteko duzu nahi baduzu sarthu silbesen hartuko duzu marea biherenak eta hurbilduko zaisko esteko burubari eta ioanen tzare Ialtaren gibelerat gero hurbilduko zaisko Ialtarri eta muillatuko duzu pasatzen duzula harea hura northeko partetik, 5 edo 6 brasetan.</p>
+<p>Iakiteko duzu nahi baduzu muillatu Dalfaroko arradan muillatuko duzu pasatu ondoan Santamariako punta lehenbiziko xilhoan, 6 brasetan eta gero hartuko duzu Itsasoa eder eta marea ona barnat zartzeko.</p>
+<p>Iakiteko duzu nahi baduzu muillatu Talirako arradan muillazazu xilhoaren trebesean, 5 brasetan eta barnatzartzeko hartzazu Itsasoa eder marea ona.</p>
+<p>Iakiteko duzu nahi baduzu muillatu Genodianeko arradan ioanen tzare leihorretik kabal zei&ntilde;a baxek hagitz atherat ilkitzen baitire muillatuko duzu 8 brasetan aphur bat entradas estetik Eliza baten trebesean zei&ntilde;a baita mendi batean.</p>
+<p>Iakiteko duzu nahi baduzu muillatu saltesen muillatu behar duzu 5 brasetan Crobin eta Castot balonekoa Santa Mariako Eliza Babidekoaren eta zuzenzeagatik entrada emanen duzu Palosko Sen-Sebastian northean eta muilla 5 brasetan.</p>
+<p>Iakiteko duzu nahi baduzu sarthu Seint Lucas de Barramenden iakin behar tutzu marka segidan direnak, iakiteko duzu Sent Lucasko entradarik hoberena datzala est suest edo uest noroest hurbil zaite barramede aldearekin hirur brasa eta erditarat ioanen tzare barramedeko Santa Mariarat bezala eta erebilliko duzu zunda ababorreko aldetik eta kausituko duzu baxa-marean khanalean mendreena 3 brasa eta noizere baitzare arbola lodi baten trebesean apartatuko zaisko leihorrari zeren han baita punta eta hala ioanen tzare muillatzera, eta noizere emanen baituzu Seint Iaquesko Eliza Saint Lucasko Kathedraleko Elizarekin bat, ioanen tzare Seint Lucasko hiriaren alderat guardatzegatik Ialtaren ganik eta noizere uste baituzu altarren gai&ntilde;ean ikusiko duzu Hautsia Santa Maria barramedekoa leihorrari aparta akio zergati Santa Mariaren trebesean eta handik goiti arroka gaisto batzuek baitire eta ioanen zare muillatzera northean eta muillatuko duzu 8 edo 9 brasetan.</p>
+<p>Iakiteko duzu nahi baduzu sarthu Seint LUcasen itsaso handiarekin khanal zaharretik hartuko duzu marea erdi eta dire markak segidan direnak khanal huntan, piachon eta lostial utzi behar tutzu aborretik eta noizere baitzare chipioneren trebesean ioanen tzare costeando zunda erabilzen duzula hobegiago goardatzeagatik deskubrizazu Santa Maria Iesuseko Eliza Seint Espriteko puntatik eta hala handik deskubrizazu errebala puntarik eta noizere deskubritzen baituzu arranzalleen etxea zei&ntilde;a baita bertze guzies gorago, kurrizazu nordestean xuxen harea mendi baterat zergatik bertze aldeari egin behar baitzaio amor zei&ntilde;a baita barremende eta hala ioanen tzare nordestean handik aitzi&ntilde;at, gero deskubrituko duzu Seint Iaquesko Eliza nordesteko partetik Katredalleko Elizatik hurbil zakisko Seint Lucasko leihorrari eta ioanen tzare ankrazoi&ntilde;erat lehen erran dudan bezala khanala d'Atza, nodest &amp; suduest eta da ura baxa-marean 3 brasa.</p>
+<p>Iakiteko duzu nahi baduzu sarthu chipionen lebantean goardia emozu salmedinari zei&ntilde;a baitatza est uest Iogleko Santa Mariarekin eta utziko duzu lehor aldetik salmedine leku sanoa da itsaso aldetik eta noizere iragan baituzu salmedine ioanen tzare muillatzera chipione aitzi&ntilde;erat, 7 edo 8 brasetarat.</p>
+<p>Iakiteko duzu nahi baduzu sarthu Callixen lebanteko haizearekin iakin behar duzu ezagutzen segidan diren markak han den baxa batetarik guardatzeko zei&ntilde;ari baitaritza eldiamante.</p>
+<p>Iakiteko duzu sartzen baldin bazare Bolte Gaudon medineko hegoako partetik bada arroka biguillu bat San Anton Gethariako Irla dirudiela bada bertze mendi biribil bat arroka hartas estetik: iakiteko duzu noizere ematen baituzu mendi xume hura mndi biribil harekin zei&ntilde;a baita bata bai&ntilde;o bertzea esteratago eta Santa Mariako Eliza zei&ntilde;a baita hirias kanpotik eskerreko puntarekin bat orduban izanen ais baxaren kontra baxa-marean estuzuaren gai&ntilde;ean braza bat eta erdi ur baizen eta noizere baitzare Santa Mariako puntan erabilzatzu marka horiok idokiak bata bertzea ganik eta noizere deskubritzen baituzu hiriko dorreak baxa izanen duzu itsaso aldetik eta muillatuko duzu handik harat plazer duzun lekuban.</p>
+<p>Iakiteko duzu nahi baduzu sarthu edo muillatu uesteko haizearekin ioanen zare estean suestean laurdenean zeren hala baitatza, baia gero ioanen zare arroka handiaren alderat zei&ntilde;a baita ageria, haren ondoan baduzu ura 6 edo 7 brasa, eta utziko duzu baxa alde batetik edo bertzetik eta baldin usten baduzu ababorretik etzaisko sobera hurbilduko leihorrari harik eta deskubritzen duzun artean dorreko leihoa eta gero zoas ahalik leihorrena 5 edo 6 brasetaraino.</p>
+<p>Iakiteko duzu nahi baduzu muillatu Santa Catallinan muillazazu 5 brasetan arroka deskubritzen duzula zabal bi kablen inguruba.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Segidan dire Espai&ntilde;iako kostetako zundak</p><--</head>
+        </front>
+        <body>
+<p>Iakiteko duzu Ondarrabiatik bi lekoa zabal kausituko duzula 70 edo 80 brasa.</p>
+<p>Halaber Donostiatik eta Gethariarik artean 4 l zabal senaditik kausituko duzu 95 brasa.</p>
+<p>Halaber Machachaku gai&ntilde;ean, 2 l zabal kausituko duzu 100 brasa.</p>
+<p>Halaber Kexoko puntaren gai&ntilde;ean lekoa bat zabal 90 edo 100 brasa.</p>
+<p>Halaber Viverotik eta Tapiarai&ntilde;o zerbi ahal zaiteske Seint Sabriango zundas 100 brasa eta izaren zare leihorrat 4 l eta basme gai&ntilde;ean 100 brasean izaren tzare leihorrat 5 l.</p>
+<p>Halaber baieresko burutik eta billanorai&ntilde;o 90 brasetan izaren tzare leihorrat, 2 l.</p>
+<p>Iakiteko duzu 3 l zabal Kabutik, Kabuba estean duzula 100 brasetan basada.</p>
+<p>Halaber Turianeko burutik eta Billanoraino lekoa bat zabal 90 brasa.</p>
+<p>Halaber Montollero nordestean 3 l eta cap de Finesterre nortean, 5 l zabal kausituko duzu 75 brasa.</p>
+<p>Halaber Birlingatik partitzen bazare norteko arrutan kausituko duzu 100 brasa eta baldin kausitzen baduzu gutiago izaren tzare arruta hartas leihorrago eta hedatzen zarenean Laguarderat kausituko duzu buru gai&ntilde;ean basa.</p>
+<p>Halaber ditutzunean Berlingako Firrilunak nordestean lekoa bat edo bi lekoa estuzu izanen zudarik Berlinga duzunean suduestean bistan handik ioaten bazare norteko arrutan ioanen zare zundaren kataletik eta izaren da 85 edo 90 brasa.</p>
+<p>Halaber Rocquetik lekoa bat zabal bazare eta ioaten bazare Berlingarat kausituko duzu 60 brasa eta 2 leko zabal arrutatik kausituko duzu 85 brasa eta ioaten bazare lekoa bat leihorrago kausituko duzu 60 brasa.</p>
+<p>Halaber cap Despichistik ioaten bazare Rocquerat arrutan bi lekoa zabal kausituko duzu 80 brasa.</p>
+<p>Halaber iakiteko duzu cap de Sen Vincent gai&ntilde;ean bi lekoa zabal kausituko duzu 100 brasa eta lekoa bat zabal kausitzeko duzu baxak leihorretai&ntilde;o baldin guzia ensekatuba espada baldin ioaten bazare zabalago kausituko duzu ur handiago baldin ioaten bazare aitzi&ntilde;ago ere halaber.</p>
+<p>Halaber iakiteko duzu nahi baduzu Ioan Galnciatik Andaluziarat eta iakin nahi baduzu ea nois doblatu duzun cap de san Vizan edo dela gabaz edo deia denbora sarrasoin batekin iakiteko duzu mixika estea duzunean eta zarenean hirur lekoa zabal izaren duzu 100 brasa eta bi lekoa zabal 80 brasa eta lekoa bat zabal 70 brasa; brazaia hauk segituko direnarik eta buruba doblatuanean eta gero doblatu ondoan kausituko duzu ur handiagoa eta da 6 lekoa bururat.</p>
+<p>Halaber heldu bazare Andaluziatik eta nahi baduzu doblatu cap de Sen Vicente edo dela gabas, edo dela denbora sarrasoin batekin eta baldin bazare mixika bezain aitzi&ntilde;a hartzazu 100 brasa edo 80 brasa nola den denbora mixika northean bururatikaren duzu 6 lekoa eta 100 brasetan hirur lekoa eta 80 brasetan bi lekoa.</p>
+<p>Halaber saltestik barramederat dire 12 lekoa, parada hartan 100 brasetan izaren da leihorrat 10 lekoa, eta 25 brasetan 4 lekoa, eta 15 brasetan 3 lekoa, eta 10 brasetan lekoa bat.</p>
+<p>Halaber nortean ga[ nahi baduzu ]es a[ ]enes eta chipionerko punta nordestean estean laurdenean izaren da 25 brasa eta buruban izaren da basa handia arruta ilkiko zaik suestean estean laurdenean eta izaren da arrutan hirur lekoa.</p>
+<p>Halaber salmedina gai&ntilde;ean edo dela gabas edo dela sarrasoi&ntilde;arekin ezabilla ioan 25 brasa baino ur xumeagotara, zeren 25 etan estuzu lekoa bat baizen leihorrat, 30 brasetan bi lekoa, 100 brasetan 9 lekoa, Salmedina gai&ntilde;ean 20 brasetatik ioanen duzu buruba eta ilki beharko duzu suestean hartzen duzula hegoatik.</p>
+<p>Halaber Koraillestarik arrutan harik eta Calisko Sen Sebastiarai&ntilde;o baia guzian 12 brasa eta kausituko duzu harea xehea eta harriskoak eta caralaxarik eta sabmedirerai&ntilde;o kausituko duzu harea larria harriskoak baba bezalakoak errekuladi aphur bat Calistik harik eta trafagarai&ntilde;o arrutan duk 18 brasa trafaga gai&ntilde;ean ez hurbil 14 brasetarik.</p>
+<p>Halaber iakiteko duzu nahi baduzu muillatu Galixko baian muillazazu 12 brasetan eta gabas ez hurbil gutiagotarat eta zundan atrapatzen baduzu leku lizuna es muilla 25 brasas gutiago hau aditzen da denbora ederrarekin eta baldin baduzu itsasoko haizea muillazzu 20 brasetan.</p>
+<p>Halaber iakiteko duzu nahi baduzu muillatu Galixko Sen Senbastianen muillazazu 10 brasetan eta etzaikiskola hurbil 7 brasa gutiago Sen Sebastiango puntar.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Segidan dire Espai&ntilde;iako trebesiak nort esu arrutan</p><--</head>
+        </front>
+        <body>
+<p>Iakiteko duzu Bokalzaharra eta Ondarrabiako, Igere dauntzala nordest esuduest harzen duzula laurden bat nortetik edo hegoatik eta dire batetik bertzera, 10 lekoa.</p>
+<p>Iakiteko duzu Bokal Zaharra eta Punta mala, nor esu hartzen duzula aphur bat noroestetik edo suestetik eta dire batetik bertzera, 18 l.</p>
+<p>Iakiteko duzu Punta mala, nort esu hartzen duzula nordestetik edo suduestetik eta dire 18 l.</p>
+<p>Iakiteko duzu Donibane eta Bordeleko ai&ntilde;ak nort esu eta dire batetik bertzera 45 l.</p>
+<p>Iakiteko duzu Armainnaca eta Chardinneroko buruba nort esu eta dire batetik bertzera, 5 l.</p>
+<p>Iakiteko duzu Pasaie eta Antucha nort esu eta dire, 55 l.</p>
+<p>Iakiteko duzu Donostia eta Seint Estenne Dars nort esu eta dire, 60 l.</p>
+<p>Iakiteko duzu Gethariak eta Baleak nort esu eta dire, 60 l.</p>
+<p>Iakiteko duzu Mutriko eta Sen-Gil nort esu eta dire, 60 l.</p>
+<p>Iakiteko duzu Machicacu eta Huge[ nahi baduzu ] nort esu eta dire 65 l; arruta hortan guardia emozute orkaniei.</p>
+<p>Iakiteko duzu Zentoi&ntilde;a eta Berila nort esu eta dire, 80 l.</p>
+<p>Iakiteko duzu Saint Andrer eta Irla de Groy nort esu eta dire, 85 l.</p>
+<p>Iakiteko duzu Sen Vicente de la Barquera eta Glaran nort esu, eta dire batetik bertzera, 80 l.</p>
+<p>Iakiteko duzu Lannes eta Pesmare nort esu eta dire, 90 l.</p>
+<p>Iakiteko duzu Villa-Viziosa eta Outannant nort esu eta dire, 95 l.</p>
+<p>Iakiteko duzu Cap de Pena eta Zai&ntilde;ak nort esu hartzen duzula aphur bat nordestetik edo suduestetik eta dire batetik bertzera, 95 l.</p>
+<p>Iakiteko duzu Arribedaustik eta Zurlingarat nort esu eta dire, 135 l.</p>
+<p>Iakiteko duzu Sen Sabriango Irlak eta Gatafurgeko dorrea nort esu eta dire batetik bertzera, 120 l.</p>
+<p>Iakiteko duzu Cap de Priol eta Gabobiezo nort esu eta dire 100 l.</p>
+<p>Iakiteko duzu Cap de Turriane eta cap de Clara nort esu eta dire batetik bertzera, 140 l.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Segidan dire arrutak Franciako kostakoak eta Bertai&ntilde;iakoak</p><--</head>
+        </front>
+        <body>
+<p>Iakiteko duzu Baleak eta Ollonako Dorrea noroest edo suest hartzen duzula laurden bat nortetik edo hegoatik eta dire 7 l eta baldin marea badoha arruta hortan begirauizu Busurat hurrupa etzaitzan.</p>
+<p>Halaber iakiteko duzu ioaten zarenean S Estienne Darsko puntaren gai&ntilde;etik 8 brasetarat ioaten zarela handik nordesteko arrutan hurbil iraganen zaiskote balezi, eta baldin mareal badoha goardia emozu etxa etzaitzan hekien gai&ntilde;erat.</p>
+<p>Iakiteko duzu pertucha datzala est suest edo uest noroest eta kausituko duzu entradan 13 brasa eta baldin bazoas Pertuchatik kanporat uest noroesteko arrutan estuzu hartu behar beldurtasunik Ollonako berjesentzat eta ioanen tzare bi lekoa zabal ugestik, Ugesek baditu bi entrada eta dire pertuchatik eta ugesat, 16 l.</p>
+<p>Iakiteko duzu Baleak eta Ugesko Irla noroest edo suest hartzen duzula laurden bat estetik edo uestetik eta dire 13 l.</p>
+<p>Iakiteko duzu Baleak eta Orka&ntilde;iak est uest hartzen duzula nahi baduzu laurden bat nordesterik edo suduestetik eta dire 11 l.</p>
+<p>Iakiteko duzu Ollonako Berjesak eta Orcaniak nordest esuduest hartzen duzula laurden bat estetik edo uestetik eta dire, 10 l.</p>
+<p>Iakiteko duzu Ollonnako Berjesak eta Uges est suest uest noroest eta dire 8 l.</p>
+<p>Iakiteko duzu Ollonako Berjesak eta noroest edo suest eta dire, 5 l.</p>
+<p>Iakiteko duzu Sen-Gil eta Ugesko Irla est uest eta dire, 4 l.</p>
+<p>Iakiteko duzu Uges eta besa nordest edo suduest hartzen duzula laurden bat estetik edo uestetik eta dire 3 l.</p>
+<p>Iakiteko duzu Uges eta Orcaniak nort esu eta dire, 10 l eta Orcannien bustanek diraute alantur, 4 l.</p>
+<p>Iakiteko duzu Uges eta Bereseauko entrada nordest edo susuduest eta dire 3 l eta baldin marea badoha begirautzu etxa etzaitzan pilleretarat.</p>
+<p>Iakiteko duzu Cruciko puntaren gai&ntilde;ean den banku bat zei&ntilde;ari baitaritzale blanchin eta Uges nort esu hartzen duzula laurden bat noroestetik edo suestetik eta dire batetik bertzera, 10 l.</p>
+<p>Iakiteko duzu Ugesko eskilladorrea eta punta nordest edo suduest punta hau aditzen da Irlarik eta zertanarik artekoa eta ioanen tzare irlarik eta zertanarik artetik aphur bat irlako puntari amor egiten diozula.</p>
+<p>Iakiteko duzu Uges eta Murbiango entradako Kardinalak nornoroest edo susuduest eta dire 15 lekoa eta Kardinaletarik Murbianat abanako entradarat dire 6 l.</p>
+<p>Iakiteko duzu Ugesko noroesteko buruba eta pillerak nort esu hartzen duzula aphur bat noroestetik edo suestetik eta dire 7 l arruta huntan goardia emozu etxa etzaitzan mareak pilleretarat.</p>
+<p>Iakiteko duzu Pillerak eta Xanparterak edo Pierre Perce edo Seint Nazere dauntzala nort nordest edo susuduest eta dire lau lekoa, halaber bada Pierre Percetik lekoa hirur laurdenetan nordest edo suduest baxa bat zei&ntilde;ari baitaritza Lalanberte, goardatuko zare hartarik halaber bada bertze baxa bat Pierre Percetik leku bat hurre suesterat zei&ntilde;ari baitaritza lebett, baia erdirat halaber goardia emanen diozu itsasoa aphur bat haundi bada hausten du.</p>
+<p>Iakiteko duzu Pillerak eta Alamariako buruba est suest edo uest noroest eta dire batetik bertzera 12 l.</p>
+<p>Iakiteko duzu Uges eta Bellila noroest edo suest eta dire, 18 l.</p>
+<p>Iakiteko duzu Gruziko puntaren gai&ntilde;eko Bankua le Blanchin eta Cruziko punta nornoroest edo suduest eta dire 2 lekoa eta Blanchin d'Atza est suest uest noroest eta bada lekoa bat eta erdi Blanchin luze eta khanalak badirau lekoa erdi bat heogarat bien artean, 14 edo 15 brasa.</p>
+<p>Iakiteko duzu Chanparteren ondoan den Pierre de Perce eta la Croix de Gerande est uest hartzen duzula laurden bat noroestetik edo suestetik eta dire 4 l.</p>
+<p>Iakiteko duzu la Croix de Gerande eta Sein Iacmedarnis noroest esuest eta dire batetik bertzera 5 l.</p>
+<p>Iakiteko duzu la Croix de Gerande eta eta Ugesko irla nornoroest edo susuest eta dire batetik bertzera 3 l.</p>
+<p>Iakiteko duzu Ugesko Irla eta le Fur nort esu eta dire 3 l.</p>
+<p>Iakiteko duzu Lauoge eta Eredongo entrada nornordest edo susuduest eta dire batetik bertzera 4 l.</p>
+<p>Iakiteko duzu Latuneko entrada eta Portanion nordest edo suduest eta dire 4 l.</p>
+<p>Iakiteko duzu geranda eta alamariako buruba est uest, eta hartuko duzu aphur bat nordestetik edo suduestetik eta dire 8 l, bai&ntilde;an arruta hortan guardia emozu alamariako blachini kardinaletarat baduzu alamariako puntatik 5 l est suestean ioanen tzare baxa baten gai&ntilde;erat zei&ntilde;ari baitaritza blachin.</p>
+<p>Iakiteko duzu geranda eta alamariako buruba est uest, eta hartuko duzu aphur bat nordestetik edo suduestetik eta dire 8 l, bai&ntilde;an arruta hortan guardia emozu alamariako blachini kardinaletarat baduzu alamariako puntatik 5 l est suestean ioanen tzare baxa baten gai&ntilde;erat zei&ntilde;ari baitaritza blachin.</p>
+<p>Iakiteko duzu hala-mariako buruba eta Concarbaraiko hegoako punta nort esu eta dire 4 l.</p>
+<p>Iakiteko duzu Perlan eta Laporte nordest edo suduest eta dire 3 l.</p>
+<p>Iakiteko duzu berila eta Concernau noroestean edo suestean eta dire 15 l.</p>
+<p>Iakiteko duzu Berila eta Glaran noroest edo suest hartzen duzula laurden bat estetik edo uestetik eta dire 12 l. Berilatik ioaten bazare uest noroestean estezu beldur behar glarango juenterentzat bai&ntilde;an iraganen zaisko hagitz arras eta haren ondoan da 45 brasa baxa hura datza glarango esteko burutik suduestean lekoa xume bat zabal baxas leihorretik bada 40 brasa.</p>
+<p>Iakiteko duzu berila eta sai&ntilde;ak est suest edo uest noroest eta dire 34 l.</p>
+<p>Iakiteko duzu Irla de Groiako buruba eta blabetko entrada nordest edo suduest hartzen duzula laurden bat estetik edo uestetik eta dire 4 l.</p>
+<p>Iakiteko duzu Irla de Groy eta glanan est edo uest eta dire 7 lekoa arruta huntan bada baxa bat zei&ntilde;a baita bidearen herenean groiatik glanarat arrokaren kontra bada 27 brasa eta beraren gai&ntilde;ean brasa bat eta erdi, gero pasa ahal zaiteske harts leihorretik eta deskubrizazu glanango Ermita puntas nortetik bi belaren luzetazuna eta idukitzen baduzu punta eta ermita biak bat ioanen zare baxaren gai&ntilde;erat glanenen haltoena eta baxa daunza est edo uest.</p>
+<p>Iakiteko duzu glanan aldean den arroka handia eta Koncernau nort edo su eta dire 3 l.</p>
+<p>Iakiteko duzu glanango junte eta Pesmarko harria est suest uest noroest eta dire batetik bertzera, 7 l.</p>
+<p>Iakiteko duzu glanango esteko buruba eta benodet noroest edo suest hartzen duzula laurden bat nortetik edo hegoatik eta dire 4 l.</p>
+<p>Iakiteko duzu les Montones eta Pesmarko harria est edo uest hartzen duzula laurden bat nordestetik edo suduestetik eta dire 5 l.</p>
+<p>Iakiteko duzu Farrillon eta Pesmarko entrada eta baxa nordest edo suduest hartzen duzula laurden bat estetik edo uestetik.</p>
+<p>Iakiteko duzu Persmark eta Sain est suest edo uest noroest eta dire 12 l. Baldin marea bada goardia emozu eraman etzaitzan Sai&ntilde;en gai&ntilde;erat hartzazu uestetik zeren marea hagitz doha norterat.</p>
+<p>Iakiteko duzu Sain eta Uchant nort edo su hartzen duzula laurden bat noroestetik edo suestetik eta dire 12 l.</p>
+<p>Iakiteko duzu outantgo buruba eta sai&ntilde;en uesteko buruba est nordest edo uest suduest eta hobeki doblatzeko sai&ntilde;etako buruba ioanen zare suduestean zeren sen eta punta baitire nordest edo suduest hartzen duzula laurden bat estetik edo uestetik outanantik eta sanat dire bi lekoa eta sandik puntarat hirur lek.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Segidan dire Franziako eta Bretai&ntilde;iako kostako zunda uxanterai&ntilde;okoak</p><--</head>
+        </front>
+        <body>
+<p>Iakiteko duzu heldu bazare denbora xar batekin Arcachungo kostan muillazerat es muilla 25 brasa baino gutiagotan zeren 20 brasetan itsasoak hausten baitu.</p>
+<p>Iakiteko duzu Cordando dorretik uest suduestean bi lekoa zabal kausituko duzula 22 brasa.</p>
+<p>Iakiteko duzu Iruilleak nordestean 25 brasetarik izanen da leihorrat, 3 lekoa eta handik ioaten bazare nordestean itsasoak zehatuko zaitu.</p>
+<p>Iakiteko duzu ai&ntilde;etarik eta Antucharik arteanioaten bazare nor noroestean kausituko duzula 18 brasa eta halaber handik eta baletarai&ntilde;o eta halaber olonarai&ntilde;o kausituko duzula, 18 brasa eta iragaten duzunean Olona ugeserai&ntilde;o kausituko duzula hogoi brasa Ollona gai&ntilde;ean zarenean 21 brasetan ioaten bazare uest noroestean ioan tzare ugesen erdirat.</p>
+<p>Iakiteko duzu pertuxaren gai&ntilde;ean 70 brasetan izanen duzu leihorrat 20 l 60 brasetarik, 18 l 50 brasetarik, 15 l 40 brasetarik, 12 l 30 brasetarik, 7 l 25 brasetarik, 4 l eta baldin, 25 brasetan kausitzen baduzu basa izaren tzare malmisungo aldetik eta baldin kausitzen baduzu baba bezelako harriskoak izaren zare baleen aldetik edo hekien ingurubetan.</p>
+<p>Iakiteko duzu baleak nordestean, 100 brasetarik izanen duzu leihorrat, 25 lekoa, 90 brasetarik 22 lek, 80 brasetarik 19 lek, 70 brasetarik 16 lek, 60 brasetarik 14 lek, 50 brasetarik 10 lekoa, 40 brasetarik 7 lekoa, 30 brasetarik 4 lekoa, 20 brasetarik lekoa bat eta erdi.</p>
+<p>Iakiteko duzu Olona duzunean nordestean estean laurdenean 28 brasetarik izanen duzu Olonarat 5 lekoa eta kausituko duzu zundan harea granoa bezain larria.</p>
+<p>Iakiteko duzu Ugesko Irla duzunean nortean 80 brasetarik izanen duzu ugesat 27 lek, 70 brasetarik, 20 lek, 60 brasetarik 15 l, 50 brasetarik 12 l, 40 brasetarik 10 l; orkaniarik eta ugesik artean Irlari hurbillago 4 edo 5 l; irlatik zabal kausituko duzu 30 brasa.</p>
+<p>Iakiteko duzu uges duzunean nordestean 100 brasetarik izanen duzu ugesat 24 l, 90 edo 80 brasarik artean izanen duzu 14 l, 70 brasetarik 12 l, 60 brasetarik 10 l, 50 brasetarik 7 l, 40 brasetarik, 4 l, 33 brasetarik dadukazula buruba noroestean eta Irla nordestean izanen duzu ugesat 2 lekoa.</p>
+<p>Iakiteko duzu Ugesik eta Belilarik artean arrutan kausituko duzula 27 edo 30 brasa Belilarik eta glaranik artean est suest edo uest noroesteko arrutan kausituko duzu 40 brasa.</p>
+<p>Iakiteko duzu berila nordestean duzunean 100 brasetarik izanen duzu leihorrat 21 l, 90 brasetarik 18 l, 80 brasetarik 15 lek, 70 brasetarik 11 l, 60 brasetarol 5 edo 6 l, 50 brasetarik lekoa bat eta erdi.</p>
+<p>Iakiteko duzu Irla de Groy duzunean nordestean 55 brasetarik izanen duzu groiarat 2 l eta kausituko duzu basa ioaten zarela 3 l zabal Pesmarcik uest noroestean doblatuko tutzu sai&ntilde;ak eta baldin marea badoha hartuko duzu estetik edo uestetik zeren goaiak hagitz baitoas utanant edo sai&ntilde;etarat.</p>
+<p>Iakiteko duzu glanan nortean duzunean 100 brasetarik izanen duzu leihorrat 24 l, 90 brasetarik 20 l, 80 brasetarik 18 l, 70 brasetarik 12 l, 60 brasetarik 7 l, 55 brasetarik 4 lek.</p>
+<p>Iakiteko duzu glanan duzunean nornordestean 100 brasetarik, izanen duzu glananat 22 l, 90 brasetarik 18 l, 80 brasetarik 16 l, 70 brasetarik 12 l, 60 brasetarik 7 l, 50 brasetarik nahi baduzu 2 lekoa.</p>
+<p>Iakiteko duzu Pesmare duzunean nortean izanen duzu leihorrat 100 brasetarik 20 l, 90 brasetarik 17 l, 80 brasetarik 14 l, 70 brasetarik 8 l, 60 brasetarik 6 l, 50 brasetarik 2 lekoa.</p>
+<p>Iakiteko duzu Pespare duzunean nornordestean 100 brasetarik izanen duzu leihorrat 17 l, 90 brasetarik 14 l, 80 brasetarik 11 l, 70 brasetarik 8 l, 60 brasetarik 5 lekoa, 50 brasetarik lekoa bat eta erdi.</p>
+<p>Iakiteko duzu sai&ntilde;ak ditutzunean nortean 100 brasetarik izanen duzu leihorrat 15 l, 90 brasetarik nahi baduzu nahi baduzu , 80 brasetarik nahi baduzu nahi baduzu l, 70 brasetarik nahi baduzu nahi baduzu l, 50 brasetarik lekoa bat eta erdi eta ez ioan gutiago ara zergatik sai&ntilde;en beren kontra da 50 brasa.</p>
+<p>Iakiteko duzu sai&ntilde;ak ditutzunean nornordestean 100 bras, kausituko duzun dan maskor larriak hautziak eta zunda guzia sartuko zaitzu basan.</p>
+<p>Iakiteko duzu Lirlesen trebesean 76 brasetan kausituko duzu harze xuriak xeheak, zeinbait hautsi eta gero sartuko zare harea larrian.</p>
+<p>Iakiteko duzu outanant gai&ntilde;aean 60 brasetan kausituko duzu baa norteko arrutan zoazela eta baldin marea badoha itsasoak zehatuko zaitu glananik eta pesmarquik artean arrutan da 40 bras. Gauza bera Pesmarkik eta sai&ntilde;ik artean audierna gai&ntilde;ean kausituko duzu basa sai&ntilde;ik eta uchanti artean nortesuko arrutan, da 50 brasa goardia emozu mareak hagitz manatzen du Lirlesko senadirat eta utananko aldaketarat ere.</p>
+<p>Iakiteko duzu ioaten zarela Belisla gai&ntilde;etik sai&ntilde;en bilha atheko haizearekin ez ioan 55 brasa bai&ntilde;o guziagotarik eta zoaz 60 brasetarik uest noroesteko arrutan eta noizere baitzare glanan edo Pesmark bezain aitzi&ntilde;a ez baxa 60 brasetarik baldin atheko haizea bada 60 brasa horiok segituko saiskitzu sai&ntilde;etarai&ntilde;o baita hek doblatu eta ere ordean uest noroesteko arrutan.</p>
+<p>Iakiteko duzu glananik eta Pesmarquik artean kausituko duzu 60 brasetan basa eta segituko zaitzu brazaia hori audiernarai&ntilde;o eta utanantrai&ntilde;o handik harat zundan kausituko duzu hai&ntilde;itz kolore eta izaren duzu 60 brasetarik leihorrat 4 edo 5 lekoa.</p>
+<p>Iakiteko duzu unzi bat baldin bada zai&ntilde;etako puntaren basterretan atrapatuko duzu 50 brasa eta punta beraren gainean 20 brasa eta puntas barnetik 40 brasa zeren baitire putzubak, zunda zazu mais zeren 45 brasetarik 40 brasetarai&ntilde;o guzietan arrokak baitire.</p>
+<p>Iakiteko duzu zai&ntilde;etako arranzalek diotela badirela bi baxa zai&ntilde;etarik est uest 24 lekoa, zabal halaber lekoa bat zabal badirela 3 baxa zai&ntilde;etan baxa marean deskubritzen baitire zai&ntilde;ei baitaritzate baxen freredesateko baxen kontra bada 45 brasa eta leihorreko baxen kontr bada 40 zai&ntilde;en gai&ntilde;ean abisatuba izanen zare ez hurbilzeas 50 brasa bai&ntilde;o gutiagotarat.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Segidan dire Franciako eta Bertainako portutako entradak Flandreserai&ntilde;okoak</p><--</head>
+        </front>
+        <body>
+<p>Iakiteko duzu nahi baduzu sarthu Arcachunen entrada prinzipaletik hurbil nor esuko puntarik ioanen zare puntetarat, 4 brasetarai&ntilde;o eta eramazu oihan xume bat zei&ntilde;a ikusiko baituzu est suestean eta hala estuzu perillik punta Malarenzat gero ioanen zare barnat.</p>
+<p>Iakiteko duzu nahi baduzu sarthu zolako pausurik emazu Cordan nortean eta zolako Santan Maria est suestean eta han den harea mendirik handiena zei&ntilde;a deitzen baita Puy-blanc est nordestean eta ioanen tzare Puy-blancat arruta hortan iruilles barnetik ioanen tzare harik eta Arugango gastelu zaharra zei&ntilde;a baita hautsia, hartuko duzu bardonko puntatik aphur bat deskubritua gastela zahar hura da unzi baten bela bezain handi; orduban utziko duzu Puy-Blanco merka, eta ioanen tzare xuxen bardongo puntarat, bethiere daramazula puntatikan gastelu hura deskubrituba, entrada hau hai&ntilde;itz aldis mudatzen da horratxe edo hunatxe eta da baxamarea ura, 2 brasa eta erdi.</p>
+<p>Iakiteko duzu nahi baduzu sarthu Bordelleko ai&ntilde;etarik emazu Cordan estean eta Rondele handia zei&ntilde;a baita [ nahi baduzu nahi baduzu ] nordestean estean laurdeneko aldetik eta ioanen tzare nordestean nortean laurdenean harik eta puiurik eman dezazuken Santa Maria zolakoarekin unzi baten bellaren zabaltazuna idokia eta den orduban Cordan nordestetik ordu hartan izanen tzare maubeseren trebesean eta idokiko duzu Cordan suestea hegoan laurdenean eta noizere doblatzen baituzu maubese izanen duzu lagran Rondele nortean, eta begiratzeagatik Maueseganik ekarriko duzu eskilla dorrea bela bat bezala lehorbetzaren burubaren gai&ntilde;etik orduba izanen zare maubeseren ondoan gero ioanen zare lehor arras amor ekiten diozula lehorbelzari zeure plazerera.</p>
+<p>Iakiteko duzu heldu bazare arrotxella aldetik eta nahi baduzu sarthu bordelleko ai&ntilde;etarik ez hurbil 12 brasas gutiagotarat harik eta lehen erran diren merkak hartu artean eta entrada hartan mareak bethi exar arasten du maubeseren gai&ntilde;erat eta baxamarak ai&ntilde;en gai&ntilde;etarat eta ez hurbil ai&ntilde;ei 10 edo 12 brasetarik, zergatik zundatzen batetarik bertzerat goaiak etxatuko baitzaitu hegien gai&ntilde;eras baldin itsasoa handi bada zeronek ikusiko dituzu hausten eta ai&ntilde;arik eta maubeserik artean bada 22 brasa ai&ntilde;en entradan 7 brasa ura.</p>
+<p>Iakiteko duzu Malmisones uestetik ikuziko duzu Olorongo dorrea eta noizere baitzare Oloron haren trebesean idurituko zaitzu dorre hura unzi bateko belaren gisa eta Olorongo dorreas uestetik ikusiko duzu Eliza bat zei&ntilde;ari baitaritza Sen Gorge eta Eliza hartas uestetik ikusiko duzu xardi&ntilde;ero eta xardi&ntilde;ero hark iduriko du hirur edo lau harea murru eta guziek bat dirudite eta noroesteko parteko murua da handiena edo gorena xardi&ntilde;eros uestetik ikusiko duzu Sen Denis; es-estetik ikusiko duzu bihaise errota, zei&ntilde;ak baitire mendi biskar baten gai&ntilde;ean.</p>
+<p>Iakiteko duzu nahi baduzu sarthu Arrotxellan antuxatik ekarzu deskubritua Arrotxellako hiri gustia Porneufeko puntaren gai&ntilde;etik suesteko partetik eta goardia emateko Santa Mariako Coralei eta Blanchari eta banku bati zei&ntilde;arik baitaritza kalabardin eta eta muillatuko duzu xedeboxen 6 brasetan eta nahi baduzu ioan unziarekin ligan barna behar tutzu ur-biziak eta plemara, eta nahi baduzu ioan Palizat edo itsasorat pertuxatik erditik est nordestean noizere baitzare kalabardinen trebesetik deskubrizazu Palisko baia eta ioanen zare xuxen ala badierat, eta muillatuko duzu aphur bat albadiatik suesteraxeago eta izanen duzu leku ona bendebal guzies hasi suestetik eta noroesterai&ntilde;o.</p>
+<p>Iakiteko duzu nahi baduzu sarthu pertuxatik zei&ntilde;a entrada baitatza est suest edo uest noroest idukazu aphur bat zertaneko aldearekin eta aparta zakisko Sen Martingo aldeari eta erabilzazu zunda Sen Martin aldetik, eta ioanen zare muillatzerat Sen Marti&ntilde;at; gero ioanen zare Port-neufko bururat xuxen, zeren zertan alde guzia leku sanoa da.</p>
+<p>Iakiteko duzu nahi baduzu sarthu zundan unzi handiarekin behar duzu ur bizitako plemara zergatik baxamarean entrada gustiak ensekatzen da eta barnean bada putzu bat zei&ntilde;etan baita 3 brasa eta erdi.</p>
+<p>Iakiteko duzu nahi baduzu ioan Irla d'Arcasat antuxatik ioanen tzare xuxen Irlarat eta utzazu Irla aborretik eta muillazazu baxamarean, 4 brasetan.</p>
+<p>Iakiteko duzu nahi baduzu sarthu Olonan zei&ntilde;a baita 5 l pertuxatik noroesterat eta bada Olonarik eta pertucharik artean oihan handi bat zei&ntilde;ak baitirau pertucharaino zei&ntilde;ari baitzaritza Monte de Jarte eta nahi baduzu sarthu Olonan ioanen zare atradarat eta muillatuko duzu 10 brasetan eta handik hartuko duzu marea barnat sarzeko.</p>
+<p>Iakiteko duzu nahi baduzu sarthu sen Gilen ioanen zare xuxen arradarat sen Gilen bada eskilla-dorre bat eta muillatuko duzu 6 brasetan eta handik hartuko duzu sartzeko marea.</p>
+<p>Iakiteko duzu nahi baduzu muillatu ugesen muillatuko duzu herriaren aitzi&ntilde;ean puntas suduestetik 6 brasetan eta nahi baduzu muillatu ugesen nordesteko haizearekin muillazazu gastellu-zaharraren trebesean zei&ntilde;a baita Irlas suduesteko partetik 16 edo 18 bras.</p>
+<p>Iakiteko duzu nahi baduzu muillatu Belilan ala Mariako buruan muillazazu 10 edo 12 brasetan leku ona da suduestes eta noroestarai&ntilde;oko haizeenzat.</p>
+<p>Iakiteko duzu nahi baduzu muillatu Bellilan nmoroesteko buruaren alderat muillazazu 6 edo 7 brasetan bendebales leku ona da eta nahi baduzu muillatu Belilaren alentur guzietan muilla al dezakezuke erabilzen duzula zunda ben[de]boraren errespeturat.</p>
+<p>Iakiteko duzu nahi baduzu ioan Murbianen bilha zarenean, Irla de Basen trebesean ekarri behar duzu noroesta lehor baten gai&ntilde;etik zei&ntilde;ari baitaritza Sen Iacmedarmis eslehorari sobera hurbil eta ekarzu bethi idekia eskilla dorrea puntarekin Seint Gidasten trebesean bada baxa bat eta hartarik goardatzeagatik ekarrazu pi&ntilde;u xume bat zei&ntilde;etan ikusiko baituzu arriberan Irlas kanpotik zei&ntilde;a Irla baita murbiango entradan; erran den pi&ntilde;u hura idukitzen baduzu Irlako trenkarekin ioanen zare baxa baten gai&ntilde;era, bai&ntilde;an erran den pi&ntilde;u hura idukiko duzu alderdi batarekin edo bertzearekin eta segurki ioatekotz idukazu esteko leihorrarekin eta harekin idukitzen duzula izanen zare abisatua gauza guzies.</p>
+<p>Iakiteko duzu nahi baduzu sarthu benaudaren esteko entradatik idukazu glarango uesteko buruba Eliza iduri batekin zei&ntilde;a baita glarango aldean harik eta zaren artean harea Pon-lauekoaren trebesean, eta deskubrizazu glarango Irla Montoneko Irlatik Galea baten luzetazuna norteko partetik eta baldin ezin ikus badezazuke glaran edo berze Irla ekarzu oihanxoa ponlabeko harearekin batean eta datza karrosa nordest edo suduest hartzen duzula laurden bat nortetik edo hegoatik eta ioanen zare costeando aborreko leihorra bezala harik eta hirur harri mendiak bat emanartean eta muillazazu aingura ensekean eta bertzea esterat Eliza baterat.</p>
+<p>Iakiteko duzu nahi baduzu sarthu uesteko parteko kha&ntilde;aletik eta baldin baduzu ezagutza leihorrena ioanen zare oihanxoetarat bezala zei&ntilde;ak baitire benodeten aldetik eta emazu nordestean hartzen duzula aphur bat nortetik eta datza nor nordest edo susuduest.</p>
+<p>Iakiteko duzu nahi baduzu sarthu Pesmarken barna behar duzu ezagutza arroka handienarena eta dire bia entradan, bata esteko partetik eta bertzea hegoatik eta hegoako partekoa da handiena zergatik entrada hegoatik eta baldin heldu bazare sartzerat pesmarken borxas ioanen zare xuxen arrokarik handienetarat zeren han kausituko baituzu entrada eta arrokarik handiena utziko ditutzu aborretik eta ioanen zare xuxen harea baterat, eta muillazazu 7 edo 8 brasetan.</p>
+<p>Iakiteko duzu nahi baduzu sarthu Antonaren arras emanen diozu amor buruko farrillosi; iakiteko duzu mareak etxatzen dubela estebenetarat eta noizere baizar estebenetan zoas nortean nordestean laurdenean harit eta pasa dezakezun artean gulera eta sarzen bazare antonatik eta nahi baduzu ioan Gradonat barnetik letorlinga hartuko duzu lekoa bat nortean nordestean laurdeneko burutik baxa batetarik zei&ntilde;a baitaza nortean eta gero ioanen zare xuxen torlingarat nort nordestean eta uziko dituzu ababorretik eta ioanen zare erditik gradungo leihorra bezala eta muillatuko duzu 5 edo 6 brasetan eta atherako zaizu S Maiko uesteko buruba noroestean.</p>
+<p>Iakiteko duzu nahi baduzu muillatu gradun zaharrea buru bat da haltoa entradako buruaren trebesean bi ajusta zabal bada baxa bat, zei&ntilde;a baita deskubritua nagiz leihorrean edo ioan nagiz zabal eta muilla aizinean 5 edo 6 brazetan.</p>
+<p>Iakiteko duzu nahi baduzu sarthu Bresteko baian entradaza estean eta khanalaren erdian badu arroka bazuek zeinei baitarizate silhetez marea erditarik harat estaliak dire eta baxamarean ageriak dire utzazu gal&ntilde;zarrerano ea nola duzun haizea hek dire khanalaren erdian deskubrizean hegoako baiako Irlak eta mullatuko duzu plazer duzun lekuban leku gustietan leku ona da eta garbia.</p>
+<p>Iakiteko duzu nahi baduzu sarthu bresten barna ioanen zare xuxen gastelurat eta uziko duzu istiborretik eta sarthuko zare khanalaren erditik xuxen eta muillatuko duzu Gastelubaren eta berze alderdian den harearen trebesean 7 edo 8 brasetan.</p>
+<p>Iakiteko duzu nahi baduzu muillatu bertumen noroestarekin edo nortarekin edo nordestarekin muillatuko duzu harearen trebesean 4 brasetan eta uesta ethorriko zaitzu Irlako puntaren gai&ntilde;etik eta han da harea bat eta hartan bada ithurri bat zeinetan baita ur estia.</p>
+<p>Iakiteko duzu berthumeko irlatikan herat badela baxa bat peza kolpe baten menean, eta haren gai&ntilde;ean da bi brasa eta erdi ura.</p>
+<p>Iakiteko duzu nahi baduzu muillatu S Maion nortarekin edo nordestarekin muillatuko duzu 15 edo 16 brasetan eta nahi baduzu ioan S Maiotik bertumerat, idukiko duzu idokia bermigel eta S Maiuoko punta baxagatik zei&ntilde;ari baitaritza Galinaterre.</p>
+<p>Iakiteko duzu nahi baduzu muillatu S Cicuen zei&ntilde;a baita S Maios nortetik S Maiotik eta Conquetik artean da nordestarekin muilltuko duzu 7 edo 8 brasetan eta nahi baduzu muillatu Conqueten muillazazu 6 brasetan bainan leku gaistoan izaren zare zeren goaga handiak dabilza eta nahi baduzu sarthu Conquetko kajean urizi batekin bi brasetarik hartuko duzu plemara eta noizere baitzare Cagean ensekean egonen zare eta harea gogorraren gai&ntilde;ean.</p>
+<p>Iakiteko duzu nahi baduzu muillatu balsanimen barrena muillazazu 7 brasetan lekuba ona da bendeballarekin, eta baldin bazoas S Maiorat edo hurrat barnetik ioanen batzare unatereren hurbil basanimko puntaren arraz bai&ntilde;an apur bat, amor ekin beharko diozu punta berari; iakiteko duzu harea edo kosta xume bat badela conquetes nortetik eta unaterredaza est uest ; unaterre da arroka bat zei&ntilde;a agertzen baita baxamarean eta bada pasaia nahi alderdi batetarik edo bertzetik.</p>
+<p>Iakiteko duzu nahi baduzu ioan S Maiortik auhurat eta hartubak baitutzu markak zoas nortean nordestean laurdenean eta emanen duzu S Maioko Eliza deskubrituba conquetko puntatik bela bat bai&ntilde;o gehixeago eta hunela ioanen tzare hurrat.</p>
+<p>Iakiteko duzu unzi bat ioaten bada balsanintik hurrat ematen badu S Maioko Eliza conquetko Silerezin ioanen da baxa batetarat zei&ntilde;a baita Irladeogarren trebesean.</p>
+<p>Iakiteko duzu nahi baduzu sarthu barbaraquen uesteko partetik esagutu behar duzu port Sautko leihorra eta gero izanen tzare arroka batzubetarat zei&ntilde;a baitaunza entradatik est uest eta arroka hek badidurite organoak eta noizere baitzare hekien trebesean ioanen zare estean; ioaten zarenean estean, ikusiko ditutzu nordesteko partetik arroka batzubek eta hemengo markak dire hauk Eliza bat zei&ntilde;a baita mendi xume baten gai&ntilde;ean eta badirudi labe bat eta itsasoaren aldean arraso dela eta emanen duzu erran den Eliza hura merka hetan eta deskubrizazu entrada, zeren Elizako merkak utzi behar tutzu baxa batengatik, zei&ntilde;a baita zartzerakoan entradan ababorretik eta noizere baitzare baxa haren trebesean begirazazu istiborrerat eta deskubrizazu hareasko mendi bat, entradako lehenbiziko arroka handiarekin, leihorrean denarekin; gero ioanen zare plazer duzun lekura, zeren guzietan leku ona baita eta garbia.</p>
+<p>Iakiteko duzu nahi baduzu sarthu norteko khanaletik, barbaraquen ezagutu behar tutzu barbarak hartako errekistak eta entrada ondoan ioanen tzare mendi batetarat eta gero mendi hartarik barbarako errejistetarat eta noizere baizare entradan begiratuko duzu susuduesteko alderat eta ikusiko duzu leihorraren gainean haize-errota bat eta gero denbora guziekin ioanen zare errota hartarat, hatik eta entrada gustia deskubritu artean; gero nois ere baizare entradaren erdian ioanen zare kanporat plazer duzun lekurat.</p>
+<p>Iakiteko duzu nahi baduzu sarthu Irla Debasen barna izanen duzu ezaguzeko S Pol Leongoko eskilladorrea zei&ntilde;a ageri baita itsasotik hagis urrundanik, zeinak baitiduri direla unziaren bi mastak.</p>
+<p>Iakiteko duzu nahi baduzu ioan hurtik barbarakat edo dela gabas edo dela sarrasonarekin haize handiarekin ez hurbil leihorrat, 40 brasas gutiagotarat, zeren arroka beren kontra bada 35 brasa.</p>
+<p>Iakiteko duzu nahi baduzu sarthu nahi baduzu S Gidasten, ikusiko duzu Eliza xuri bat harrobi baten gainean, eta emanen duzu Eliza habraren erdit sar zaite barnat, eta emozute amor suduesteko puntari harik eta baxa itsuak puntas kanpotik deskubritu artean eta muillatuko duzu plazer duzun lekuban barnean eta habra edo entrada daza nor noroest edo su suduest eta begirazazu barbaratik galbairat 35 brasa.</p>
+<p>Iakiteko duzu galbaitik Irla de Baserano hurbil ahal zaiteske 25 brasetarat, harik eta leku planak aizinean dituskezun artean.</p>
+<p>Iakiteko duzu nahi baduzu sarthu brehacquen ankrazoinean uest aldeko puntan muillazazu 8 brasetan eta izanen duzu ondoa garbia eta ioan nahi baduzu hirirat zeina baita brehacez hegoatik zei&ntilde;ak baitu izena Ponpul, muillazazu hurbil hiriari eta nahi baduzu ioan bilha Sen Michelen partitzen zarela breacko ankrazoinetik est suesteko arrutan kausituko duzu Cap de Lara eta badire batetik bertzerat 18 lekoa.</p>
+<p>Iakiteko duzu menturas heldu bazare Lorrenes kanpotik bidearen erdian da Roquetobas eta eta ioaten zarela est suestean ioanen tzare Senmaloako Konporteren erdirat eta baldin ezin sar basaiteske barnat, ioanen tzare lateko Gastelubaren trebesrat eta muillatuko duzu 8 brasetan.</p>
+<p>Iakiteko duzu menturas muillatu nahi espaduzu eta baldin bazoas Conportetik, iakiteko duzu behar dubela abiasatuba gison batek untzi baten sartzekos merka hautan iakiteko duzu konporta dela aborreko aldetik eta badela han Eliza xume bat eta utziko tutzu aborretik eta gero hartuko tutzu merka hauk iakiteko duzu ikusiko duzula hiri bat zei&ntilde;ari baitaritza zite Bielle Sen Maloas suestetik eta noizere baitzare konportan hartuko duzu Sen Maloako hiriko murailla eta zite bielekoa esteko partetik eta ioanen tzare Sen mloako hiriaren gai&ntilde;erat eta emanen duzu barnat marka hartarik eszifa baten luzerasuna eta muillatuko duzu Sen Maloako aldetik eta bada Irla xume bat zei&ntilde;ari baitaritza Santa Marie de Boia, eta goardia emanen duzu etzoazen haren gai&ntilde;erat, zeren haren arras bada baxa bat, eta ioanen zare lehen erran den Sen Maloako eta zite bielleko muraillen merketan eta ioanen tzare muillatzerat Sen Maloaren trebeserat, eta baldin plemara bada 13 brasada ura eta baldin baxamara bda 4 brasa, eta baldin muillatu nahi espaduzu, ioanen tzare zite Beillerat eta ikusiko duzu ababorretik, eta ikusiko duzu barnean gastelu bat eta ioanen tzare muillatzerat haren trebeserat ai&ntilde;gura bat emanen duzu leihorrean zite Bielleren alderat, eta bertzea hegoarat ensekean hunetan harea izanen duzu.</p>
+<p>Iakiteko duzu baldin menturas ilkitzen bazare koportetarik kanporat eta ioan nahi baduzu brehazen bilha etzoazela uest noroestean baldin brehazen barna nahi espaduzu, baldin marea kontra baduzu eta baldin plemara badoha, ioanen tzare uest noroestean, eta baldin baxamara badoha, ioanen tzare noroestean uestean laurdenean, eta hunela ungi ioanen tzare bide erditaratis eta handik ioanen tzare bertze bidearen erdian uest noroestean, hau da, Lorrenetik Arroque Tobasat eta Arroque Tobastik Sen Maloarat.</p>
+<p>Iakiteko duzu breatik landrigerat badirela 4 l eta badire bi khanal izenak dituste bata almades eta bertzeak torata, eta ezta posible sartzea non ezten itsasoa eder, eta bada Sengidasat lekoa bat, eta baldin bazoas Sen Gidasko arradaren gai&ntilde;erat kausituko duzu arbola bat, zei&ntilde;a baita norteko partetik, eta daritza Port-blanc, eta badirudi dela Sen Gidasko entrada den arbola bat, Sen Gidasat bada lekoa bat arbola hartatik eta bi arbola hek hakitz dute bata bertzearen iduria, zeren hai&ntilde;itz untzi sartzen da Port blanquen ustes eta Sen Gidasten sartzen delakotz, eta iakiteko duzu Sen Gidastek baditubela etxe batzubek mari&ntilde;an eta badu hirias suduestetik Eliza bat, eta han zarzekotz hartuko duzu Eliza baten eskilla+dorrea esteko parteko portaleekin bezala eta ikusiko duzu arbola hura deskubrituba eta muillatuko duzu plazer duzu lekuban haizerik gaistoena da noroesta, hau da Sen Gidasten entrada d'Arza nornordest edo susuduest.</p>
+<p>Garnisen barna sartuko zare susuduesteko puntatik eta egi&ntilde;en diozu amor puntari, zeren baita baxa bat puntatik bi abustetan leihorretik baxa hura agertzen da baxamarean, eta muillatuko duzu lehenbiziko harearen trebesean, eta nahi baduzu ioan hiriaren aitzi&ntilde;erat hartuko duzu plemara.</p>
+<p>Iakiteko duzu nahi baduzu muillatu Chiribucquen muillatuko duzu aphur bat hirias uestetik 6 brasetan, eta izanen duzu abrio nordestetik suduesterai&ntilde;o atheko haizea, eta nahi baduzu Chiliburquen barna sarthu, hartuko duzu plemara eta utziko duzu hiria istriborretik eta sarthuko zare erditik, zeren guzia ensekatzen baita.</p>
+<p>Iakiteko duzu nahi baduzu muillatu alahogan emanen duzu punta nor noroestean eta muillatuko duzu 6 brasetan.</p>
+<p>Iakiteko duzu nahi baduzu sarthu Villa-Ruillen hartuko duzu plemara, zeren baxamarean espaita braza bat eta erdi baizen eta entradako markak hartuko tutzu buru zuri bat zei&ntilde;a baita taillatua eskallerak bezala, zei&ntilde;a baita bive Flor gai&ntilde;ean est nordestean eta ekarriko duzu deskubrituba buru hura Cap de Sente Maire Bive florkoarekin eskifa baten luzetazunean hunela sarthuko zare khanalaren erditik eta muillatuko duzu Rotierik haltoenean, 6 brasetan, eta ioan nahi baduzu Biveflorat hartuko duzu itsasoa eder eta marea ona baldin untzia handia baduzu.</p>
+<p>Iakiteko duzu nahi baduzu muillatu Diapako orkaden muillatuko duzu 8 brasetan ageri dela iustizia eta noroesta erhorriko zaitzu puntaren gai&ntilde;etik.</p>
+<p>Iakiteko duzu nahi baduzu muillatu cap d'Arnesen muillatuko duzu heriaren trebesean, 15 brasetan.</p>
+<p>Iakiteko duzu nahi baduzu muillatu Calesko orkaden muillazazu 6 brasetan ziteren aitzi&ntilde;ean eta nahi baduzu muillatu Calesen barna hartuko duzu plemara eta utziko duzu entradako dorrea istriborretik eta ioanen tzare costeando Palizade bezala, eta amarratuko zare ala Fosan, zei&ntilde;etan izanen baitzare ensekean.</p>
+<p>Iakiteko duzu nahi baduzu muillatu edo sarthu milanbarquen erabiliko duzu zunda eta hartuko duzu ostendako trebesea eta ioanen tzare 5 edo 6 brasetarik eta ioanen tzare horla harik eta Isko eskilla dorrea eman dezakezazun duringesko eskilla dorrearekin eta hartuko duzu markatzat Casolleko Eskilla-dorrea kable bates norteratago ezi&ntilde;ez Irla de Chacolleko harea pugu bat zei&ntilde;a baita arriberan, eta erran den marka hunetan ioanen tzare harizeta Sante Catharineko dorrea eta Descapolgo dorra biak bat eman artean; gero ioanen tzare nordestean harik eta bankuba iragan artean gasarolleko puntakoak eta harerai&ntilde;o emanen duzu Chacolleko punta Retanburko Santa-Mariarekin, gero ioanen tzare est nordestean aphur bat hartzen duzula nordestetik xe harik eta Chacoleko bankuba iragan artean.</p>
+<p>Iakiteko duzu Chacoleko dorrea duzunean susuduestean izaren tzarela Chacoleko bankubaren trebesean.</p>
+<p>Iakiteko duzu merka hautan hai&ntilde; ungi sarahab zaiteskela noizere baitzare Carekonen emanen tutzu Santa Catalinako dorrea eta Descrapolgo dorrea biak batean eta ioanentzare nordestean harik eta Chacoleko punta emanen dezakezun artean Retanburko Santa Mariarekin, gero zoas nordestean estean laurdenean harik eta deskubri desakesun artean kable bat pichilingako dorrea lehen erran den bezala eta orduban estuzu izanen perillik Chacolleko bankubarentzat eta ez bertze garabenzat eta erabilliko duzu bethi zunda istiborreko aldetik, eta hurbilduko zaisko leihorrari 5 edo 6 brasetarat, zeren urik xumena da Carrosa hartarik eta noizere baituzu Retanburko Santa Maria lescluseko Gasteluko Kabailleriaren etxearekin bat izanen duzu baxamar guzies 4 brasa eta erdi khanalean basa handia da.</p>
+<p>Iakiteko duzu nahi baduzu sarthu Zelanden edo Agnoczes trebesa noroestetik eta sartzekotz behar duzu haisea khanalekoa eta hartuko tutzu segidan diren merka hau; iakiteko duzu duneko dorrea harik eta ostenderik eta blanca bergerai&ntilde;o eta duna gasteko dorrea eta durnigesko dorreak dauntaza noroest esuest dorre horiek marka onak dire Carrosatik sartzeko eta ioanen tzare zundan, 5 brasetarik costeando eta hartuko duzu duna GAsteko dorrea leihorretik zergatik harri mendi batzubek baitire arriberan dorreari datxeskala ekarriko duzu dorrea hareasko puiu batzubek dire leihor aldetik untzi baten belaren zabaltazunean, hunek goardatuko zaitu darangerko bankutik, hau badoha ostendeko kostarat eta handikan Santa Catali&ntilde;ako puntarat.</p>
+<p>Iakiteko duzu borxak ezin gehiago egi&ntilde;es sar-arasten bazaitu les clusen ioanen tzare costeando hala nola baldin bazi&ntilde;e les clanden ioanen tzare haretai&ntilde;o eta emanen tutzu trois boisak Santa Catali&ntilde;arekin eta gero ioanen tzare harat merka hartan edo ioanen tzare suestean, zeren hala baitatza Carrosa lehenbiziko trois Boisetik eta gero ioanen tzare Kostabera gisa zerori iduritzen zaitzun bezala.</p>
+<p>Iakiteko duzu menturas denbora xarres kurritzen bazindu Olandako kostan despazatzen duzula Zelande edo dela Fortunas edo dela denboras Zelandako Irlan bada gauza guzien gai&ntilde;etik dorre handi bat eta bi xume, bata bertzearen hurbil, eta izanen tutzu deskarpolen esaguzatzat harea handi batzuk zei&ntilde;etan harea hartan baita dorre handi bat luzea eta hertzia nordesteko partetik eta bertze xumeagoko bat luzea marka hautes esagutza hartuko duzu despasatu duzula Flandresko kosta eta leihor hau datza est suest edo uest noroest eta zunda zenba duzu kausituko duzu 18 edo 20 brasa etzaitezela hurbil 12 brasetarik ez hain guti hain barnasat, kosta hartan harik eta burubak ilki artean est uest harerai&ntilde;o eta duzun deskubrituba entrada gero ahal zoaske istriborreko konsta bera bezala zundatzen duzula, 5 edo 6 brasetan harik eta Lesbogeserai&ntilde;o, iakiteko duzu entrada hura dela bogesetik lescluserat bezala eta da baxamarean bogesen 3 brasa ioanen tzare horla eta izanen tzare abisatuba gauza guzies.</p>
+<p>Iakiteko duzu baldin bazare menturetan ere Flandresko kostan pasatuak mongeko eta neuportuko bankua eta Zingletan ezin errepara badesakesuke kurrizazu nortean nordestean laurdenean eta ioanen tzare leku baterat zei&ntilde;ari baitaritza cap de Untre. Iakiteko duzu bide hortan arruta hortan ioaten zarela kausituko duzu banku bat zei&ntilde;ari baitaritza Flestande eta da luzetazunean 4 l eta zabaltazunean 12 l, eta hunetan ezta 18 brasa bai&ntilde;o gutiago, eta iakiteko duzu noisere kurritu baituzu nortean nordestean laurdenean 45 l kurrizazu nor nordestean eta ioanen tzare cap de Geserorat bada Ostendetik cap de Geserorat 22 l ikusiko duzu buru haren gai&ntilde;ean bi mendi handi eta buruba arrasoa da, alderdi bat du noroest edo suest eta bertze alderdia nordest edo suduest noroest esuest dohan kosta, doha nogarat eta nordest esuduest datzan kosta doha apricarat noizere baitzare burubaren aldean suesteko partetik bada portuba nahi baduzun bezanbat;</p>
+<p>iakiteko duzu partitzen zarela nieuportutik edo Mongesetarik kurritzen duzula nortean kausituko duzu leihor bat zei&ntilde;ak baitaduka hauraren gai&ntilde;a zei&ntilde;ari baitaritza estuba eta da trebesia 32 l, eta da leihorra hareaskoa.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Segidan dire Galesko portutako entradak eta mirafurdeko portutako entradak</p><--</head>
+        </front>
+        <body>
+<p>Iakiteko duzu nahi baduzu muillatu Caldeien zarra zaite Caldeko Irlan eta emazu Irla suestean eta noizere deskubrituko baituzu Irla Barneko eskilla-dorre xumea muillazazu herrriaren trebesean eta izanen duzu baxamarean lau braza eta erdi eta plemarean 11 brasa.</p>
+<p>Iakiteko duzu nahi baduzu sarthu mirasurden barna entrada d'Atza est uest eta ioanen tzare ababorreko puntaren erdirat bezala, bada Eliza bat eta iragaten duzunean Ermita bat zei&ntilde;a baita istiborreko aldean eta muillatuko duzu 5 brasetan, eta nahi baduzu esagutu mirasurdeko portua, bada herri bat zei&ntilde;ari baitaritza dulle, ikusiko duzu ababorreko buruan Irles itsasoko aldetik lekoa bat zabal Farrilonsetarik esteko partetik eta bada harea bat portutik hurbil, eta leihorrean esteko partetik guzia da plana eta arrasoa, eta egiten du hirur buru balire bezala.</p>
+<p>Iakiteko duzu plemarean Caldey dela luzeago eta betheago, eta bada Eliza biribil bat zei&ntilde;ak baitirudi gastelua eta Caldeies esteko partetik ikusiko duzu arroka bat hirias est nordesteko partetik han da portua zei&ntilde;etan egoten baitire baxamarean ensekean; kaldeik eta tenebiyrik artean badire baxa gaisto batzuek zei&ntilde;etan estalzen baitire marea erditan eta heldu bazare Caldeitik mirafurderat bada baxa bat aitzi&ntilde;ean eta begirautzu hurbilzeaganik atherat ilkizen den entradari eta baxagatik guardatzeagatik idukazu Caldey deskubritua leihorras kanpotik eta baxa da esteko puntaren trebesean, eta gero doblatzen duzunean estuzu deuzenzat beldur behar eta ioanen tzare muillatzerat.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Segidan dire zizergatik ioatekotzat Angleterrako khanalerat eta hango zundak</p><--</head>
+        </front>
+        <body>
+<p>Iakin behar duzu unzi bat partitzen denean Zizergatik eta ioaten denean Ouchanten bilha nornordest edo susuduesteko arrutan eta baldin zundatzen badu eta kausitzen 100 edo 90 edo 80 brasa eta baldin horiotan atrapatzen baduzu zundan Iondoni Iaquaco maskorrak edo basa orduan motinesko partetik edo Irla [ ]aco aldean, eta baldin marea bada, ioanen zare nortean Uchantengatik goardatzeagatik.</p>
+<p>Iakiteko duzu Uchanten bilha ioaten zarenean nornordesteko arrutan eta duzunean 80 edo 90 brasa, izanen duzu sai&ntilde;etarat 13 edo 14 l eta baldin atrapatzen baduzu basa sei&ntilde;ale xeherikan gabe izanen zare Irlan eta brasaia estuzu xumetuko eta baldin zundatzen baduzu eta hartzen 80 brasa eta atrapatzen baduzu zundan Iondoni Iaquaco maskorrak besalakoak, ioanen zare xuxen nortean Ucahnty ez hurbilzeagatikan harik eta nordesterat ekarri artean.</p>
+<p>Iakiteko duzu Uchant duzunean nordestean 85 brasetarikan izanen duzu Uchantat 22 lek eta ekarriko duzu sei&ntilde;aletzat zundan harea xehea eta 80 brasetarikan 20 l eta 75 brasetarik 15 l eta 70 brasetarik 10 lekoa leihorrat.</p>
+<p>Iakiteko duzu ioaten zarela nort nordestean eta zundatzen baduzu eta kausitzen 75 edo 80 brasa eta hetan kausitzen baduzu harea xehea eta Ferdekarakoa izanen zare uchantik hurbil, eta baldin denborak obliga arasten bazaitu edo Klar izanak ioaterat nordestean Uchanten bilha izanen dire Uchantat 10 edo 12 lekoa.</p>
+<p>Iakiteko duzu baldin zundatzen baduzu 70 brasetan eta ekarzen sei&ntilde;alea mazkorrak harea harri bezala eta izanen zare Uchantes barnetik eta ilkiko zaitzu suestean khanalaren barrenean zaren erespeturat Uchantik eta longaneosik artean zundatzen baduzu eta hartzen 70 brasa harea larria eta gorrikara izanen tzare Cap de Corneil alderat eta izanen duzu leihorrat nornordest edo susuduest 15 edo 16 lekoa.</p>
+<p>Iakiteko duzu Corneil aldaketan segidan dela eta noizere baitzare burues barnetik eta zundatzen 50 edo 53 brasa eta ekartzen sei&ntilde;alea harri belxak Mazkor Korala bezalakoak izanen zare Cap De Alizarten ingurutan eta baldin bazare grabas edo sarrazoi&ntilde;arekin Cap de Alizarten aldeketan ez hurbil 50 edo 45 brasa bai&ntilde;o gutiagotarat.</p>
+<p>Iakiteko duzu Sai&ntilde;ik eta Surlingarik artean nornoroesteko edo susuesteko arrutan kausituko duzu 70 brasa Uchantik artean eta estean Uchant noroest edo suest hartzen duzula laurden bat nortetikako edo hegoatikako arrutan kausituko duzu 75 brasa, eta ioaten zarela Uchantik noroestean kausituko duzu 66 brasa, ioaten bazare Uchantes itsaso alderat kausituko duzu 75 brasa ioaten zarela suestean doblatuko duzu zain.</p>
+<p>Iakiteko duzu Sai&ntilde;ek duzunean nortean 100 brasetarik izanen duzu Sai&ntilde;otra 15 lekoa, 90 brasetarik 13 lekoa, 70 brasetarik 8 lekoa, 60 brasetarik 4 lekoa outanant duzunean nortean, 64 brasetarik 4 lekoa Outanant duzunean nortean, 64 brasetarik izanen duzu outanant 4 lekoa, bai&ntilde;an egizu ungi goardia zeren goaiak handik dabilza uchantik eta zai&ntilde;ik artean eta arrutan da 50 brasa ez baxa gehiagotarat, eta baldin marea badoha, zoas nornoroestean eta etxatuko zaitu erroten gai&ntilde;erat, zeren goaiak hagitz manatzen baitu.</p>
+<p>Iakiteko duzu ioaten bazare turianeren edo cap de Alizarten bilha, 80 brasetarik izanen duzu cap de Alizartat 40 edo 45 lekoa, eta kausituko duzu harea larria mesklatua Cap de Alizarten trebesean 8 lekoa itsasorat kausituko duzu, 57 brasa sei&ntilde;alea gorri zara harea larria hurik eta longaneosik artean kausituko duzu khanalean 60 brasa.</p>
+<p>Iakiteko duzu Barbaraquen trebesean edo Irla de Basen trebesean uchant duzula suestean hartzen duzula apur bat hegoatik kausituko duzu zeinbat lekutan, 70 edo 75 brasa eta baldin hartzen baduzu 60 brasa sei&ntilde;aleak dituela baba bezalako harriskoak izanen zare Irla de Bas alderat hurik eta gualbaien artean, 43 brasetarik izanen duzu leihorrat lekoa bat, eta 63 brasetarik bi lekoa zaspi Irlak suesteko partetik eta 53 brasetarik 8 lekoa leihorrat.</p>
+<p>Iakiteko duzu baldin bazare Roquetobasen trebesean 40 brasetan eta baldin kausitzen baduzu harea larria gorri zara, ioanen tzare guzia norterat doblazeagatik cap de Grane Remiren trebesean kausituko duzu ur handia edo apika.</p>
+<p>Iakiteko duzu Surlingarik eta cap de Alisarterai&ntilde;okoan baldin gabas bazare edo sarrasoi&ntilde;arekin etzaitezela hurbil 50 brasa bai&ntilde;o gutiagotarat eta cap de Alisartik gaudesterai&ntilde;okoan etzaitezela baxa 40 edo 45 brasetarik; halaber gabarekin edo sarrasoi&ntilde;arekin gaudesterretik eta Porlauserainokoan ez baxa 30 edo 35 brasetarik eta Porlaustik Irla Duicat eta Beochoperai&ntilde;o edo Romaneoserai&ntilde;o edo dela gabas edo sarrasoi&ntilde;arekin etzaitezela baxa 20 brasetarik eta brasaia berean ioanen tzare dobrarai&ntilde;o.</p>
+<p>Iakiteko duzu Irla de Bas eta Fabici artean kausituko duzu khanalean 55 edo 57 brasa eta Fabicques est suesteko aldetik Fabvictik 5 lekoa zabal kausituko duzu arrokadi bat zei&ntilde;etan haren beraren gai&ntilde;ean espaita 12 brasa baizen eta haren abaizerean bada 50 braza.</p>
+<p>Iakiteko duzu Artamuarik eta zaspi Irlen artean khanalean 47 brasa gaudesterrik 3 lekoa zabal kausituko duzu 35 edo 37 brasa, harea gorria mazkor nahaste; halaber kausituko duzu limen trebesean harea larria Por-lausko zaken sarthu artean baita halaber linberaren gai&ntilde;ean kausituko duzu 38 brasa, baita halaber zundan ekarriko tutzu harrisko handiak.</p>
+<p>Iakiteko duzu Portlausen trebesean bistan duzula Lim kausituko duzu 35 brasa eta sei&ntilde;alea ekarriko duzu harrisko xehe xuriak eta 30 brasetan ekarriko duzu zundan leku batzutan harriak.</p>
+<p>Iakiteko duzu Garniserik eta Porlausik artean badela khanalean 40 edo 45 brasa ioaten zarela kasketarik eta Porlausik artean doblatzekotz beouchep ioanen tzare estean nordestean laurdenean.</p>
+<p>Iakiteko duzu Irla Duiquik eta Alahogarik artean khanalean dela 35 edo 40 brasa eta alahogako partetik guzia arrokas bethea da eta Angeleterrako partetik guzietan garbia da hunela merka haui goardia ematen diozutela iakinen duzu ea zein partetarik zaren.</p>
+<p>Iakiteko duzu Torostik 4 lekoa zabal kausituko duzu 25 edo 27 brasa, eta Seint Elenes hegoatik 4 edo 5 lekoa zabal kausituko duzu 26 edo 27 brasa, eta ioaten bazare aitzi&ntilde;ago kausituko duzu 35 edo 40 brasa eta estuzu beldurtasunik behar ioaten zarela estean nordestean laurdenean hartu beharko duzu ezagutza beochepena.</p>
+<p>Iakiteko duzu baldin bazare 20 brasa eta etxazen bazaitu guaiak edo berze fazoines zite ville gai&ntilde;erat kausituko duzu zundan arroken kolpeen sei&ntilde;aleak eta burunean harri desilatuaren gisakoak, orduan izaren zare zite vielleren paradetan, zunda hau zerbitzatuko edo segituko zaitzu, 6 Caleserai&ntilde;o 20 brasetan ezagutza izateko Beochopena edo Herlagerena estretxuan sar zaitezen bai&ntilde;o lehen.</p>
+<p>Iakiteko duzu beochepetik eta antiferik artean khanalean badela 30 edo 35 brasa, Diaparik eta Chanbrarik artean kausituko duzu brazaia bera bai&ntilde;o herlageses uestetik, 2 l zabal bada leku 10 edo 12 braza da.</p>
+<p>Iakiteko duzu Dobrarik eta Boloinarik artean bada banku bat zei&ntilde;etan espaita 3 brasa edo 3 eta erdi baizen banku hau bera datza nordest edo suduest eta dobratik datza nor noroest edo susuduest eta bankuari daritza folok estan eta Angeleterrako leihorrarik eta bankuarik artean bada 25 edo 26 brasa, eta bankuarik eta Picardiarik artean bada 24 edo 25 brasa, zunda falsoa da bi aldetarik are falsago Picardiako aldetik ezin ez Angeleterrako partetik.</p>
+<p>Iakiteko duzu dobrarik eta Saucaterrik artean badela 22 brasa eta leku batzuetan bada 27 brasa dobrarik eta Calesik artean bada 27 edo 28 brasa.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Segidan dire Turianetik ioaten zarela Surlingarai&ntilde;oko zundak</p><--</head>
+        </front>
+        <body>
+<p>Iakiteko duzu haeetzen baduzu zunda 60 edo 65 brasa kausitzen baduzu harea xehea zeinbait mazkor ttipi gorri duela, orduan izanen zare longaneosko paradan, eta baldin egiten badu klar, ikusiko duzu mendia eta hartas gidatua izanen zare, eta baldin gaba baldin bada edo sarrazoi&ntilde;a, ez ioan 50 brasa bai&ntilde;o gutiagotarat.</p>
+<p>Iakiteko duzu Surlinga duzunean nortean nordestean laurdenean 80 brasetarik, ioanen duzu Surlingarat 18 lekoa, eta zunda ekarriko duzu bethea Ioandani Iaquaco maskor iduris, eta zeinbait harri piska eta Surlingako parte guzietan menturas atrapatuko duzu zeinbait mazkor eta hunelatan abisatua geldituko zare.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Segidan dire Irlandako zundak eta Saltesko Irletakoak abisatzen zaitut nort esukoak</p><--</head>
+        </front>
+        <body>
+<p>Iakiteko duzu unzigarabek estuela baxatu behar saltesko Irletarik eta cabobiesorai&ntilde;okoan edo dela gabas edo dela sarrazoi&ntilde;arekin 25 edo 30 brasa bai&ntilde;o gutiagotarat; halaber cabobiesotik eta cap de Clarai&ntilde;okoan etzaitezela hurbil gabas edo sarrasoinarekin 40 edo 45 brasa bai&ntilde;o gutiagotarat, eta cap de Claratik eta blasquesetarai&ntilde;okoan etzaitezela hurbil 60 brasa bai&ntilde;o guziagotarat, non estuzun leihorra ezagutuba.</p>
+<p>Iakiteko duzu ioaten bazare Irlandako Kostaren bilha jocleren edo Gatafudreren paradetarat, eta ioaten bazare leihorraren bilha, iakin behar duzu parada hartan lekoa bakotxekotzat abaxatuko zarela brasa bat ures, eta baldin bazare cabobiesoko edo gizailleko paradetan lekoa batenzat abaxatuko zare brasa bat eta erdi ures, eta baldin 7 chateusen paradetan lekoa bakotxarenzat xumetuko zaitzu ura bi brasas eta erdis eta baldin ioaten bazare viceren bilha lekoa bakotxekotzat abaxatuko zaitzu ura hirur brasas eta erdi hau aditzen da bankuaren entradan ioaten zarela norteko arrutan hunela iaki&ntilde;en duzu canon izanen zare.</p>
+<p>Iakiteko duzu baldin bazare surlingarik eta cap de Clararik artean eta baldin bazabilza luietan eta baldin zundatzen baduzu eta hartzen 60 brasa, baldin basare surlinga duzula est suestean izanen duzu surlingarat 10 edo 12 lekoa eta baldin parada hortarik ioaten bazare nornordestean edo nordestean nortean laurdenean kausituko duzu 55 brasa eta ekarriko duzu sei&ntilde;alea harea larria belza eta estuzu beldur behar leihorrat konpasu handia duzun, eta baldin zunda hortarik baldin bazare 7 edo 8 lekoa, eta hartzen baduzu 65 brasa eta basa handia izanen duzu cabobieso nordestean hartzen duzula apur bat estetik, eta baldin zunda hortarik baldin bazare uest noroesterat 3 edo 4 lek eta kausitzen baduzu 50 brasa harea garbia izaren zare Zurlingarik eta Cabobiesorik artean.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Segidan dire Irlandako portutako entradak eta ezagutzak</p><--</head>
+        </front>
+        <body>
+<p>Iakiteko duzu Blanquetinek duela suduesteko burua xumea itsaso aldetik eta baitu bi Irla eta burutik hurbillena du arrazoena eta itsaso alderat dena da handiena, eta da biribilla, eta haltoa, eta badu muillatzekotzat leku ona suestetik eta nordesterai&ntilde;o Blanquetinetik eta Ioclerai&ntilde;o badire 2 lekoa, Iocle hura da mareasko portua, eta badu irla bat itsaso aldetik santa Clara irla bezalakoa.</p>
+<p>Iakiteko duzu Iocletik armorrat badirela 2 lekoa; armorek badu arroka bat eta eskatadi bat, eta buruan badu baxa bat kable bat zabal barnean putzu ona da, 5 brasa ur etxe hautsi baten aitzi&ntilde;ean, eta noizere baitzare putzuan ikusiko duzu eskilla-dorre halto bat eta idukiko duzu abrio suesterai&ntilde;o.</p>
+<p>Iakiteko duzu Dartunelagetik eta condorat badire 5 lekoa, Kondorda Rosik eta Port benturatik artean bada portuas suduesteko partetik Irla bates Bristoalgoa bezain handia; portuaren entradan bada Irla bat bai&ntilde;an ez hain handia, Irla alderako bi punta eta bada 12 edo 14 brasa, eta baldin bazoas marketan puntarat bai&ntilde;o lehen ikusiko duzu puntan Iar+toki bat, eta ioanen tzare xuxen harat, zeren guzietan leku segura da, eta ioanen zare Clasieren kontra kontra, zeren baitire baxa itsuak kantoin guzietarik, muillazazu 10 edo 11 brasetan, Portu huntan Irlas esteko partetik edo uesteko partetik; Portu hunek badu esteko puntaren gai&ntilde;ean dorre bat, eta hunetan ezaguza aha dezakezuke.</p>
+<p>Iakiteko duzu nahi baduzu ezagutu drosei eta haren Irlak heldu zarela itsasotik ikusiko duzu hegoako partetik trebesean bi mendi haundi esteko partearekin, estuzu ikusiko leihor garabik lekat cap de Clara 3 lekoa biren eta brianen alderat esteko partetik, eta heldu zarela itsasotik, ikusiko duzu mendi handi bat est suesteko partetik; briango entradan baidre bibarra, ikusiko duzu gastelu xuri bat eta entradas uesteko partetik badu baxa bat bi eskatadiren trebesean, eta entrada datza nornordest susuduest.</p>
+<p>Iakiteko duzu ioaten zarela uesteko burutik cap de Clararat ikusiko tutzu bi edo hirur mendi halto biribilak, zei&ntilde;ak baitirudite irlak, eta badirudite itsaso zabaletik cap de Clara, eta bada mendi biribil bat norteko leihor guziak egiten du arraso lekat erran diren mendi hek eta hunela ezagutuko tutzu leihorrak, eta gero ikusiko duzu 7 Chateix eta arraso egiten du irla baten gisa, eta baidre gastelu bat edo bia Cabobiesos beherago, eta itsasorat lekoa heren bat badu baxa bat.</p>
+<p>Iakiteko duzu baldin bazare cabobiesorik eta 7 Chateusik artean ikusiko duzu cabobiesos gai&ntilde;etik mendi biribil bat, hartas uesterago eta berze mendi bat galea baten gisa lehenekoa bai&ntilde;o handiago eta luzeago, eta ikusiko duzu bertze bat uesteko partetik zoas erdirat, nola cabobiesotik egiten baitu baxoa eta biribilla ioaten zarela hegoan cabobieso gai&ntilde;ean leihor guziak egiten du arraso eta ikusiko duzu gastelu bat esteko partetik eta estuzu ikusiko bertze mendirik harik eta Ioclerano 7 Chateusen gai&ntilde;ean uesteko partetik badu mendi handi doble bat bertzeak bai&ntilde;o handiago.</p>
+<p>Iakiteko duzu Coerca de la Cabobiesotik 5 lekoa eta coercako entradatik uesteko alderat ikusiko duzu buru eder bat eta arrasoa arriberan eta leihor guzia hagitz da plana arradas nordestetik badirudi badela bertze arrada bat bai&ntilde;an ezta, eta gero ikusiko duzu lalte de Mongarbay lalteren behereko ladean est suesteko partetik dire ocla eta Iocle biak dire mareasko portuak.</p>
+<p>Iakiteko duzu Iocle gai&ntilde;ean ikusiko duzu mendi handi bat eskonkarbaikoa bezain handia eta mendi hark baitu sei piller xorroits eta noizere izanen baituzu piller hura nornordestean; izanen duzu Iocleco entrada nornoroestean Iocles uestetik bado irla bat eta harea bat bai&ntilde;an hau ezta Iocle bezain handi eta est nordesteko partetik bada buru eder bat.</p>
+<p>Iakiteko duzu Mongarbay dela mendi bat eta ezta kosta guzian lekurik hain haltorik, noroesteko partetik egiten du arrasoena eta est suesteko partetik badu herreka bat, Mongarbaitik Gatasurderat badire 7 lekoa.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Segidan dire Saltesko Irletarik eta Oliererai&ntilde;o eta Christerai&ntilde;o eta Beualmaresrai&ntilde;oko trebesiak</p><--</head>
+        </front>
+        <body>
+<p>Halaber Baldresi eta Garmensiko Irla nordest suduest eta dire 18 lekoa Baldresinek baitu ezagutzazat buruas kanpotik bi irla eta pasaia ona du hegien artetik eta badu mendi bat eta etradan badu irla bat zei&ntilde;ak pasaia ona baitu barneko aldetik eta iragaten bazare kanpoko aldetik guardia emozu baxa bati, zeina [Unita] irlatikan kable bat apart eta noizere pasatu baituzu baxa muilla ahal dezakezu 20 brasetan.</p>
+<p>Halaber iakin behar duzu Baldresitik eta Carabantko entradarat badirela 4 l; kosta hura datza nor nordest susuduest Carabanen trebesan den menditik, eta olierat badire 6 lekoa eta mendia eta Cadolier dauntza noroest esuest hartzen duzula laurden bat nortetik edo hegoatik, ta olierko buruak badirudi cap de Toro gai&ntilde;ean badu Ispillon iduri bat eta badu Irla bat hurbillean susuduestetik Caraboneko entradako leihorra Oliererai&ntilde;okoa leihor arrasoa da, olierik urruitida&ntilde;ikan egiten du saihetzean Irlak balitu bezala.</p>
+<p>Halaber Baldreseko Irlak eta holier nort esu eta dire 12 lekoa Carabneko entradaren badire mendijak ze&ntilde;ak baitire Carabaneko aldaketan barneko aldetik beaulmareserai&ntilde;o.</p>
+<p>Halaber iakiteko duzu holierko buruaren gai&ntilde;ean leku ona da muillatzeko eskilla-dorrea uest suduestean eta punta noroestean uestean laurdenean eta izanen duzu abrio uest noroestetik nordesterai&ntilde;o heldu zarela holiertik begirautzu baxa batetarik zei&ntilde;a baita estalia eta saistoa.</p>
+<p>Halaber Dholier eta Curyko Irla nort esu hartzen duzula laurden bat nordestetik edo suduestetik eta dire 2 lekoa eta Irla hark badirudi pika ba luxe luxea; irla hartarik L'Ermitarat badire 6 lekoa eta pausu ona da parte guzietan eta dauntza est nordest uest suduest.</p>
+<p>Halaber Ermiteko burua eta beaulmaresko Irla noroest esuest hartzen duzula laurden bat estetik edo uestetik eta dire 4 l beaulmaresko puntako entradako Irlak badirau Kanporat puntatikan eta bada baxa halto bat zei&ntilde;a ageri baita jusent laurdenas gerostik zertaneko aldetik baditu erroak eta nahi baduzu sarthu iduki behar duzu behar duzu deskubritua suesteko burua harik eta lehenbiziko zertaneko pasatuartean zara zaite istiborreko alderat han zinduben zunda berzan eta ez ioan khanalaren gai&ntilde;erat zeren baxak baitire.</p>
+<p>Halaber Balmaresko irlatiketa Goienerat badire bi lekoa eta daunza nordest esuduest goiene da leihor halto bat, eta badirudi irla eta nahi baduzu muillatuko duzu 5 brasetan eta izanen duzu abrio suestetik eta uesterai&ntilde;o bai&ntilde;an esta garbia Ermitaren aitzi&ntilde;ean garbia da.</p>
+<p>Halaber iakin behar duzu Beaulmaresetarik ioatekotz khristrerat eramazula goiene buru harekin zei&ntilde;a baita handikan lekoa batean gehiago khristre eramazu deskubritua galea baten luzetazunean noizere baitzare barrako entradan ikusiko tutzu Gasteluak eta noizere baituzu bat emanak, orduan izanen zare hers isenean goiene eta Port menut daunza est uest eta dire 8 lek.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Segidan dire Ternuako zundak hasten zarela Sen Tierretarik eta Cap de Graterai&ntilde;okoak</p><--</head>
+        </front>
+        <body>
+<p>Iakiteko duzu noizere kausituko baituzu zundan zernahirekin nahastatua Khristailla orduan izanen zare Cadarasik eta Concepcionik artean.</p>
+<p>Iakiteko duzu noizere baitzare est suestean uest noroestean Cadarasekin kausituko duzu 107 brasa, harea xehea eta herrikolpeak.</p>
+<p>Iakiteko duzu noizere baitzare Cadarasen gai&ntilde;ean 60 brasetan kausituko duzu harea mesklatua gorriarekin eta khristail xeheak.</p>
+<p>Iakiteko duzu noizere baitzare Cadarrasa gai&ntilde;ean, 50 brasetan kausituko duzu khristailla eta harea xehea mesklatua artho xehea bezalakoa eta larrigoa ere.</p>
+<p>Iakiteko duzu noizere baitzare 40 lekoa zabal cap D'Esperatik kausituko duzu 80 brasa eta harrisko xabalak et belxak, eta khristaillehak artho xehea bezalakoak gehienak.</p>
+<p>Iakiteko duzu noizere baitzare Sen Iango buruan kausituko duzu gauza bera ur handik eta harrikolpeak.</p>
+<p>Iakiteko duzu noizere baitzare Irla de Chibausekin est suest uest noroest 20 lekoa zabal, 50 gradu eta erditan kausituko duzu 125 braza harri kolpeak eta baldin handik ioaten bazare noroestean nortean laurdenean ioanen tzare Groia eta Belila zertanekoaren bilha eta izanen duzu leihorrat 27 edi 30 lekoa.</p>
+<p>Iakiteko duzu noizere baitare 45 gradu eta bi herenetan kadarrasekin noroest esuest hartzen duzula laurden bat nortetik edo hegoatik, 35 lekoa zabal kausituko duzu zundan, 35 brasa eta ekarriko duzu zundan Khristailla eta Korala nahastatua eta arruta hortan ioaten zarela zundatzen baduzu kausituko duzu 35 brasaren ingurua eta zundan ekarriko duzu sei&ntilde;alea harrisko xabalak sagar pipita bezalakoak eta noizere hurbilzen baitzare leihorrat 25 lekoatarat kausituko duzu 45 brasa eta harri gogorrak eta harea gogorra eta belza nahaste.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Segidan dire Bankuko xorien ezagutzak</p><--</head>
+        </front>
+        <body>
+<p>Iakiteko duzu noizere hurbilzen baitzare ternuago leihorretikan 100 lekoetarat kausituko duzu xori bels handi batzuk, zeina ezin bola baitaiteske eta eskaldunek deitzen tuste dukak, hek ikusten tutzunean bankarrengatik guardia emanen diozu zure buruari eta guardia emanaraziko zure iendeari.</p>
+<p>Iakiteko duzu noizere hurbilzen baitzare bankurat, ikusiko duzu xori xuri hai&ntilde;itz zei&ntilde;ak deitzen baituste eskualdunek usoak eta ondoan kausituko duzu komunski xori beltz batzu batzuk zei&ntilde;ak baitute moko luxea eta sabel xuria halakoak gutitan frogatuko duzu dabilzala bankuas hagitz atherat lekat bankuaren kantalean edo bankuas leihor aldetik baizen hartarakotzat halakoak iksten ditutzunean zunda etxea ahal dezakezu agian ondoa atrapatuko duzula.</p>
+<p>Iakiteko duzu baldin zundatzen baduzu bankuas esteko partetik kantalean Bakaillauko Irlaren gai&ntilde;ean eta atrapatzen baduzu zunda izanen duzu leihorrat 60 edo 70 lekoa.</p>
+<p>Iakiteko duzu noizere hurbilzen baitzare leihorrat atrapatuko tutzu Potorro flotak 8 edo 10 edo 12 edo gehiago tropa bakotxean eta hala ikusten ditutzunean guardia emanen diozu leiohorrari.</p>
+<p>Iakiteko duzu ikusten baitutzu xori xuri handi batzuk marloi&ntilde;ak baino handiagoak eta lepho luzeak zei&ntilde;ak deitzen baituste eskaldunek gorrak, baita halaber xori belz batzuk zei&ntilde;ek baituste xango gorriak, zeinak deitzenbaituste eskaldunek xukutun xoriak; hek ikusten ditutzunean etzara hagitz urrun izanen eta egi&ntilde;en diozube zeben buruei guardia.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Segidan dire Sen Pieretarik hasi eta Cap de Graterai&ntilde;oko arrutak eta entradak, eta errekistak</p><--</head>
+        </front>
+        <body>
+<p>Iakiteko duzu Sen Pierretako uesteko burua eta Angeleterrako uesteko burua dauntzala noroest suest eta dire batetik bertzera 6 lekoa.</p>
+<p>Iakiteko duzu S Pieretarik eta Cadarrairat dela arruta noroestean uestean laurdenean hartzen duzula apur bat noroestetik edo esperen suestean estean laurdenean hartzen duzula apur bat suestetik eta dire 38 l, bai&ntilde;an iakiteko duzu S Pieretarik eta Cadaraik arteko kosta edo Berjesak deitzen direnak leku gaistoa dela, ezta baxa itzurik eta baxa ageririk eta irla xumerik baizen halaber iakin behar duzu goaia handiak dabilzala ezen konturik emaneskoak, baita.</p>
+<p>Iakiteko duzu Cadarrayko hegoako burua eta norteko burua dauntzala nort esu, eta dire 4 lekoa ; iakin behar duzu hegoako burutik lekoa erdi bat edo bi herenetan zabal hegoak burutik uest noroestean badirela bi baxa zei&ntilde;az doidoia ageri baitire, eta itsasorik batere denean hekien gai&ntilde;ean hausten baitute. Halaber iakin behar duzu bi buruen artean dela portuba, zei&ntilde;a baita Irla Arraso batean, eta da norteko buruaren aldean. Halaber iakin behar duzu Portu xar bat dela eta nahi baduzu muillatu hango arradan muillatuko duzu zertaneko Ithurriaren trebesean, aingurak izanen diren lekuan, harea gogorra da eta hartarakotz han ere perill izanen duzu ibilzeas caseando, eta baldin eta ioaten bazare caseando atherat gustietan arrokarik baizen ezta, hartarakotz izanen zare abisatua nezesitateak baizen ez harat eramatekotz.</p>
+<p>Iakiteko duzu cap d'Arrayko norteko burua eta ulicilloko portua dauntzala est uest hartzen duzula laurden bat nordestetik edo suduestetik eta dire 12 lekoa. Iakin behar duzu ulizilho ezagutzekotzat badela Cadarrayk eta ulicilhorik artean bide erditan barratxo bat, zei&ntilde;etan Xalupak sartzen baitire. Halaber iakin behar duzu berak baduela sarzean istiborreko aldetik irla bat, zei&ntilde;ak baitu oihana gai&ntilde;ean irlarik eta zertanarik artean baxamarean ezta ibilliko xaluparik, zeren ensekatzen baita. Halaber iakin behar duzu Irlaren arrasean atheko aldetik dela lau edo sei brasa ur eta noizere sartu nahi baituzu egi&ntilde;en diozu amor istiborreko hareasko puntari apur bat, zeren puntas Barneko aldetik baita ur xumea puntako harea hartan berean ondan ioanen zare istiborreko alderat lehenbiziko oihanaren trebeserat muillatzerat edo plazer duzun lekurat eta nahi baduzu emanen duzu probisa leihorrat.</p>
+<p>Halaber, heldu zarenean athetik iakitekotz ea non den ulicilloko portua, ioanen zare fundamenean den mendirik handienetarat eta han kausituko ditutzu erran diren merka hauk eta potua. Halaber iakin behar duzu portu hark badirudiela athetikan estela unziaren egoteko lekurik harik eta bereran ioan artean, eta barnat sartus gerostikan hagitz da leku ona eta segura.</p>
+<p>Halaber iakin behar duzu Cadarrayko norteko burua eta Sen Georgeko suduesteo punta dauntzala nor nordest susuduest eta dire 10 lekoa; halaber suduesteko puntatik eta Irlarat dire 2 lekoa.</p>
+<p>Iakiteko duzu nahi baduzu sartu Sen Georgen Irla ababorreko aldetik utzirik ioan behar duzu zertanaren aldetik, zeren bitu zubi bat Irlako aldeti ur xumea duena, eta ioan beharko duzu hagitz barna zertaneko leihorra bezala muillatzerat, bai&ntilde;an ezta handik sartzen untzi guti baizen eta guti kallatzen dutenak edo f[leu]ltak baizen. Nahi baduzu sartu Irla istiborretik utzirik entrada nausitik, deskubrizazu entrada gustia, zeren nordesteko puntak baititu baxak lekoa heren bat zabal bethi hausten dutenak, eta deskubritu ondoan ioanen tzare heooan barna harik eta irlako nordesteko punta ekar dezakezun artean noroesterat, hartzen duzula laurden erdi bat uestetik eta orduban izanen duzu barratxoa trebesean edo deus gutirik barnean suestean estean laurdenean, bai&ntilde;an behar duzu hartu zabaltasuna leihorretik edo zerthanetik lekoa erdi baten inguruba.</p>
+<p>Halaber iakin behar duzu Sen Georgetik Oporportuko entradarat direla 7 lekoa eta auntza nordest suduest hartzen duzula apur bat nortetik edo hegoatik.</p>
+<p>Halaber iakin behar duzu Sen Georgetik eta Portu Xarrerat direla 3 lekoa eta da Portu Xarra buru handi askenekoaren aspian.</p>
+<p>Iakiteko duzu Portu Xarretik eta Oporportuko entradart direla lau lekoa eta gustietan kosta arrasoa da platanadi bat bezala, eta apartatuko zaisko apur bat kosta hari, zeren arroka batzuk badire kosta bera bezala, eta noizere baitzare puntan, iakin behar duzu punta har baduela zubi bat zei&ntilde;a baithoa trebeserat edo baia erdirat bezala, hartarakotz bada erabilliko duzu bethi zunda, zeren zubiaren gai&ntilde;ean ur xumea baita hartarakotz bada deskubrituko duzu baia guzia nordesteko arruta hartan hartzen duzula apur bat nortetik, eta noizere baitu gustia deskubritua, ioanen zare grauaden leihorraren aldetik edo idukiko duzu barnerakoan istiborreko aldeko leihorrarekin eta grauada kosta Platanadi iduri hartan, eta ioanen zare barnat harik eta ababorreko leihorrean den buru handiaren trebeserai&ntilde;o eta muillatuko duzu grabaren eta buruharen trebesean baldin unzi handia baduzu muillatuko duzu buru handi hartarik abusta bat zabal, 16 edo 18 brasetan. Iakiteko duzu bertze batzuek muillatzen dutela grabetik bi abusta zabal, bai&ntilde;an abisatzen zaitut Oporportuko puntatik nor noroestean barna badirela bi baxa itsu lekoa bat edo bat eterdi zabal leihorrerik, zei&ntilde;etan hagitz behar baitu itsasoa eder baldin hekien gai&ntilde;ean itsasoak hausten espadu. Halaber abisatzen zaitut Sen Georgetik zoazenean eta oporreko baia deskubritzen duzunean ez sobera kurri aitzi&ntilde;at, zeren barraxoko alderat baxak baitire.</p>
+<p>Gero iakin behar duzu badirela bi senadi buru hartarik eta tres Irletako Grat lekurai&ntilde;okoan, eta diraute senadihek bi lekoa, eta Grat lekua da oporportutik bigarren burutik tarte batean berehala, Grat lekuko burua da buru bels handi bat; handik baduzu berze buru handi bat tres Irletako burua bai&ntilde;o lehen, eta gero ondoko punta edo burua izanen da Tres Irletan sartzeko burua edo deitzen dutena Fraideko burua; baldin nahi baduzu sartu edo ioan tres Irletan muillatzerat ioanen tzare Irla guziak ababorretik utzirik, eta ioanen zare Fraideari d'atxequan leihorraren arras, eta kausituko duzu senadi handi bat zei&ntilde;ari baitaritza baia xarra; hura iragan eta ondoan ikusiko duzu barnat sarzeko entrada, eta sarzean ababorreko aldetik duela graba hartarakotz bada ioanen zare zertanarik eta grabarik artetik apur bat amor egiten diozula grabeko puntari, zeren mihi bat baitu, eta ondoan ioanen zare barnat muillatzerat grabaren trebeserat edo plazer duzun lekurat, zeren susuesteko haizeak zeinbait aldis ezin erranesko haizeak egiten baitu portu hartan.</p>
+<p>Halaber iakin behar duzu portutxoko suduesteko puntarik eta baia ederrarik artean badela portu bat zei&ntilde;etarat ioaten baitire portutxorat doazen unziak edo dela bankas edo haizea kontra izanes, eta portu hura deitzen da aingura xarreko portua, eta da portutxo suduesteko puntatik harat bi lekoa xume, eta daunza nort nordest susuduest.</p>
+<p>Iakiteko duzu tres Irletarik lau lekoaetan direla kosteler bat edo baia ederretik suduesterat bi lekoetan, zei&ntilde;etan xalupa leihorrat lanxatuko baituzu eta emanen itsasoaren perillik izanen estuben lekura.</p>
+<p>Iakiteko duzu Portutxoan sarthu nahi baduzu lehenbizirik egorri behar duzu xalupa leihorrat, baldin unzi handia baduzu ematerat buia bat blanxadiko puntaren gai&ntilde;ean den ur xumean; blanxadia da sarzean ababorretik eta utziko duzu buia hura sarzean ababorretik, eta ioanen zare buia hari apur bat amor egiten diozula, bai&ntilde;an zenbait gerthazen da zirga istibor alderat edo zertanerat ematen dutela hartarakotz ori liteke han hartuko den penagatik, han ere eman ledin buia bat, zundas miraturik ea non den athereneko punta, zei&ntilde;a baita deus gutirik barnean berze buia izanen den trebesean; halaber iakin behar duzu lehen erran dut on litekela istiborreko aldean ematean buia, orai hobeki erranen darotzut khanalaren erdiaz aphur bat sarzean, istiborreko aldetik badela blanxadi zuri bat, zei&ntilde;aren gai&ntilde;ean baxamarean baita sei beso ur, eta hartan emanen duzu buia bat, ezta urrun handi blanxadiaren puntaren trebesetik, eta utziko duzu hura sarzean istiborretik entrada hura hagitz da xumea buia batetik bertzerat, eta da baxamarean hirur braza ur, eta baldin baxamarean ioaten bazare zertaneko blanxadi hartan buia ematerat ikusiko duzu bera zuri xuria, eta noizere sartzen baitzare zar zaite barnat istiborreko alderat bezala harik eta ithurriaren trebeserai&ntilde;o bezala, eta muillatuko duzu; muillatu ondoan emanen duzu amarra bat blanxadirat, unzia eramatekotz kaiaren trebeserat, eta han amarratzen dute lau amarretan aitzen gibeletarik xalupa buthatzen dutenean ezkus kaiatik arrabik hartu gabe unzirat dohaken gisa portutxoa, nola baita xilo bat menturas xalupan ioaten direnak baldin aprendizak badire eta iragaten badire suesterat arrapatuko dute tarte bat portutxoas suesteratago, zeina deitzen baitute barbort zilho, bai&ntilde;an iakiteko duzu portutxoak badubela irla bat erdian, zei&ntilde;etan hirurgarrenak arrain aphainzeko kaia egiten baitu, bai&ntilde;an Barbot xillok estu halako irlarik, huntan ezagutuko duzu portutxoa egizu kontu dela batetik bertzera musketa tiro baten arrastoa.</p>
+<p>Halaber iakiteko duzu baldin ioaten bazare Barbort xilotik suesteratago halaber bertze musketa tiro kolpe bat kausituko duzu baia bat zei&ntilde;a deitzen baita portutxo zaharra, bainan munduba portutxoan unzia amarratzen atrebitus gerostik esta ioaten harat unzirik.</p>
+<p>Halaber iakin behar duzu nahi baduzu sarthu ferrolgo portuban, eztela errekistarik amuixtik eta ferrolgo artean, eta ferrolek du entradaren erdian irla bat grau puska bat dubela, eta grabarik eta irlarik artean da baxa handi bat arroka ageri bat edo irla bat, eta da graba sartzean ababorreko aldetik, eta ioanen zare muillatzerat irla ababorretik usten duzula plazer duzun lekurat; batzubek ematen dute probisa grabean finkaturik, bertzeek amarratzen dute plazer duten lekuan, zerrori darrotzut hori.</p>
+<p>Halaber iakin behar duzu unziak herrirat bela egitekos ioaten direla ferrol zaharrerat edo Espa&ntilde;olek deitzen dute etxaire; portu hura da ferroldik lehenbiziko senadian eta amarratzen dire unziak senadi haren uesteko burubaren kontra probisa ematen dutela leihorrat, eta handik harzen dute denbora bela egitekotz, eta da senadi hura noroesteko partetik edo amuixko partetik.</p>
+<p>Hemen emanen dut abisu bat baia hartan dabilza pilotu edo maistru lekuko berria eztakitenei arruta hautan tronpa estaitezen hagitz direla leku hartan goaia ezin konturik emaneskoak, eta komunski goaiek hagitz manatzen dute hegoako aldeko leihorrerat hartarakotz idukiko duzu baia erdiarekin edo aphur bat balsamuko leihorrarekin; halaber iakin behar duzu baldin bazare baia erdian aboatzen dudala kanporat ilkitzekos kanal hura datzala estuest, bai&ntilde;an hartu behar duzu laurden erdi bat nordestetik han abilzan goaiengatik eta esparanza dut ungi ioanen zarela.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Segidan dire cap de Rutk nola ioan behar den Irla de Perza basterretarat, eta hetako arrutak eta portubak eta ankrazoi&ntilde;ak</p><--</head>
+        </front>
+        <body>
+<p>Iakin behar duzu Cap de Ray eta xoritako Irlak daunzala noroest suest, eta dire hogoi eta sei lekoa, bai&ntilde;an iakin behar duzu lekuhetan hagitz dabilzala goaia handiak ezin konturik emaneskoak, eta halaber iakiteko duzu xoritako Irles santakurutz alderat hagitz direla leku gaiztoak, sekera hai&ntilde;itz eta baxa hai&ntilde;itz; hartakotz eman behar da arruta nortean noroestean laurdenean, edo gutienean nor noroestean hartzen duzula pahur bat nortean noroestean laurdenetik harik eta estimatzen duzun artean ekarri ditutzula xoritako Irlak suduestean hegoan laurdenerat edo suduesterat bertzela ematen baduzu arruta noroesteratago beldurtazun handia hartu beharko duzu beldurres goaiak eraman zaitzan xoritako irletarat, eta handik emanen duzu arruta kartak ematen darotzun arrutan denboraren errespetarat, nitas denas nahiago nuke iduki aphur bat natiskoteko leihorrarekin, zeren natiskoten leihor handiak baitire eta urrundanik ageri baitire, eta asaiatuko zare Irla de Capusalen edo esperen deitzen dute bona Bentura haren bilha ioaterat.</p>
+<p>Iakiteko duzu nahi baduzu amarratu Irla de Capusalen amarratuko zare baldin albirant bazare grabaren trebesean kaiatik unzirat adiarazi dezakezun bezala oihuba noroesteko partetik.</p>
+<p>Iakiteko duzu Irla de Perza dela Irla halto bat eta irla de erditik xilahatuba eta xilho hartarik pasatzen da marean xalupa batetik berzera. Iakiteko duzu irla hartarai&ntilde;o ensekatzen dela baxamarean.</p>
+<p>Iakiteko duzu han muillatzekotz muilatzen dutela irla Gerize harturik leihorras suesteko partetik, han amarratzekotz. Iakiteko duzu amarra hagitz onak behar direla eta ungi behar dire lauiatu, zeren hai&ntilde;itz aldis goaia alde batetik eta haizea berzetik, eta unzia den lekuban estuzu izaren haize erratekotik eta goaiak alxarasten duben esklataiak hagitz unziari arrola arasten dio, eta handik arrokek kableak pikatzen dituste, hartarakotz ematen tuste eprezukiko lauia batzubek pi&ntilde;us, zei&ntilde;ak baitire tirtotxa bezain arin, eta errekuritzen tuste igande gusties arranzalek bertze obra gustiak utzirik.</p>
+<p>Iakiteko duzu Irla de Perce eta Forcemolueko Irla xumea daunza nordest suduest, eta dire hirur lekoa xume; Forsemolueko Irla punta beraren gai&ntilde;ean da Irla Percerik eta forcemoluerik arteko bide hark badirudi baia bat bai&ntilde;an barne hartan ezta barratxo bat baizen, eta barna hartarat ezta ioaten unzirik.</p>
+<p>Iakiteko duzu Forcemulueko puntan badela senadi bat zei&ntilde;etan Caispekoek hart grata egiten baitute, eta unzi xume batzubek amarratzen dire eta egiten kostera leihorras nordesteko partetik edo kaispeko aldetik.</p>
+<p>Iakiteko duzu Forsemolueko punta eta caipesko punta dire nordest suduest hartzen duzula laurden bat estetik edo uestetik, eta dire hirur lekoa, eta Caispeko puntak badu Irla xume bat puntan ez hari sobera hurbil denbora kalmekin, zeren erremulia handia dabilla bira.</p>
+<p>Iakiteko duzu handik eta graberat edo unziek muillatzen duten lekurat bada lekoa xume bat eta han amarratzen tuste unziak kaiaren trebesean eta finkatzen dute probiza leihorrean.</p>
+<p>Halaber, baldin ioan nahi baduzu fundamenerat edo dela amarra gabes edo berze fazoi&ntilde;es, ioanen zare istiborreko leihorra bezala apur bat amor egiten diozula harik eta ababorreko ladeko hareazko puntarai&ntilde;o, eta egi&ntilde;en diozu amor hagitz punta hari, zeren lehenik egorri behar baituzu xalupa buiaren ematerat ea non den ur xumearen punta, eta utziko duzu buia hura leihor aldetik, eta gero buia doblatu ondon ioanen zare ababorreko alderat plazer duzun leihor, eta emanen duzu kable on bat edo ahalik hoberena noroesteko baiarat, eta berzeak zure komoditaterat.</p>
+<p>Iakiteko duzu irla de perceko suduesteko burua eta chegoanchisco punta daunzala nordest suduest harzen duzula laurden bat nortetik edo hegoatik, eta dire hamasei lekoa.</p>
+<p>Iakiteko duzu chegoanchisko puntari etzaiskola hurbildu behar hemezorzi brasa baino gutiagotarat, zeren handik bi agustat egin baino lehen izaren duzu hamabi brasa Chegoanchisko kosta gustian Karakik iragan artean, eta hamabi brasetarik berze bi agustaren burukotz kurri edo lau eta leku batzubetan ikusiko duzu leihorrat zarela bi lekoa, eta izanen duzu lau brasa eta hainitz lekutan menturas izaren zare lekoa baten arrastoa zabal, baxamarean xalupa enkailla daiteke gehien lekutan harea gogorra da chegoanchisko punta beraren gai&ntilde;ean harea pugubek urrun diraute eta izaren zare abisatuba chegoanchisko puntatik eta Karakik iragan artean leihorhek hagitz dire arrasoak eta planak, zei&ntilde;etan ezpaita posible leihorrik ezagutzen ungi, non estuzun xalupa leihorrat egorzen edo behartu hura ezagutuko dubenak pezabiako leihorrak ezagutu, zeren norteko leihorrek mendi ezagutzekoak baitire, eta ezagutu ondoan leihor hetarikako arruten arrespetura hobekienik ezagutzen dute; hartakotz eman ditugu hemen hetako arrutak, iakiteko duzu xeken zeina baita pezebiakoak grata egiten duben lekuba, eta Chigoanchis daunza nort esu hartzen duzula aphur bat noroestetik, eta dire 12 lekoa.</p>
+<p>Halaber iakin behar duzu Pezebiak eta estanzia daunza edo Pecheguy daritzan baia nordest suduest, eta dire hamalau lekoa, bainan iakiteko duzu menturas handik zerbiat beharres ioaten bazare estanzia hura da baian barna, bai&ntilde;an iakiteko duzu noizere baitzare xaluparekin edo garraioarekin tarte herzi batean eta baldin ioaten bazare baxamara denean, ioanen zare sarzean istiborreko puntarat iendeen etxatzerat, zeren baxamarean xaluparik ezta iraganen baldin khanalen berria espadaki estanziarat eta estanzia da punta hartarik bigarren senoan, eta ezta ageri harik eta bererat ioan artean istiborreko aldean egizu kontu badela puntatik lekoa erdi bat.</p>
+<p>Iakiteko duzu baldin bazabilza luietan hagitz dabilzala goaia handiak, eta komunski esterat hartzen dubela nordestetik, eta baldin bazare segoanchisko aldetik ez hurbil hemezorzi braza baino gutiagotarat, eta baldin bazare norteko partetik ez hurbil hogoi eta bortz brasa bai&ntilde;o gutiagotarat, baldin ioan behar baduzu Karakirat eta baldin gerthatzen bazare chegoanchisko aldetik eta kalmatzen bazaitzu, hobeki egi&ntilde;en duzu iotea hemezortzi brasetarat han muillatzen baduzu, zeren berzela goaiak koratuko zaitu.</p>
+<p>Iakiteko duzu nahi baduzu muillatu edo sarthu chegoanchisen ioanen zare suduesteko punta suesterat ekarri artean, eta muillatuko duzu hemezortzi brasetan, eta handik hartuko duzu marea, eta denbora sartzekoa lehenetan ematen zitusten buiak han sartzekotz, bainan diote khanalaren entrada deskubritus gerostik ioan behar dubela suduesteko punta bererat, eta bethi ur handia kausituko dubela, bai&ntilde;an niri apredizenzat leheneko zaharren legea hobe zait buien ematea: hango penagatik barnat sarthus gerostik ioan behar duzu muillatzera entradas den ababorreko punta arraso baten gerizerat, edo lehenbiziko punta meharraren gerizerat, zei&ntilde;a baita pi&ntilde;alak egiten ditusten punta, eta kaia egiten dutena, eta ioanen zare amarratzera kaia egiten den lekurat, eta ha&ntilde;itzek ematen dute probiza leihorrat.</p>
+<p>Halaber iakin behar duzu nahi baduzu sarthu Karakiken, lehenik egorriko duzu xalupa buien khanalean ematerat eta lehenbiziko aingura muillatu behar duben lekuban ematerat, bai&ntilde;an khanalean hobe liteske bi aldetarik ematea, zeren ez baten bezala baita khanala, eta khanalak badirau lekoa baten arrastoa arradarat ioan behar du hamabi brasetarat, eta handik hartu behar du haize largoa eta marea.</p>
+<p>Iakiteko duzu Karaxiko Irla hagitz dela gaitz ezagutzea, zeren ezpaita apart zerthanetik, eta irla bera oihana baitu zerthanak bezala.</p>
+<p>Halaber nahi baduzu ioan Pezebiakat ioanen zare senadi hartan edo portu hartan den leihorrik haltoenaren trebeserat, zei&ntilde;a baita sarzean ababorreko aldearekin, eta ethorriko zaitzu noroesta leihor handien haren gai&ntilde;etik, eta muillatuko duzu leihorretik bi agusta zabal, eta han zarela seguratzekotz mendi handi harik eta grabarik artean bada barratxo bat zei&ntilde;etan sartzen baitire xalupak.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Segidan dire ilhargia zein nahi haizetan denean ea zenbat orenetako plemara den</p><--</head>
+        </front>
+        <body>
+<p>Menturas zenbait izaren da ilhagiaren egunak iaki&ntilde;es gerostik edo dela Epakta kontubaren medios edo dela Armainakaren medios espaitu penarik hartu nahi marea kontu hori on atheratzen bada halakoenzat segidan izaren dira zeinbait thaula zeinetan espaitu behar egin deusik lekat lehenbizirik, ioan behar du marea kontra iakin nahi duben lekuban, ea ilhargia plemara denean zein baizataratzen den 20, zenbat egun duben ilhargi berriak edo betheak orobat da thaula hautan 30, ioan ilhargia haize hartaratzen den thaularat eta bilha desiratzen duen eguna eta egunaren xuxenean kausituko duzu zenbat oren eta zenbat minutetan izaren den plemara egun hartan.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Segidan dire ea nola kausitu behar den, ea den bitsuste urthea edo zenbat garren urthea den</p><--</head>
+        </front>
+        <body>
+<p>Nahi baduzu kausitu ea den bitsuste urthea edo zenbatgarren urthea den ala den lehenbiziko urthea ala bigarrena ala hirurgarrena.</p>
+<p>Lehenbizik zuk urthe desideratzen duzunetik kendu behar ditutzu milla eta sei ehunak, eta zenbat errestatzen baita, hura parti laues zergatik lau urthetarik lau urthetarat baita bisuste urthea eta baldin errestatzen bada partizio&ntilde;earen gai&ntilde;eko aldean batekoa izanen da lehenbiziko urthea, eta baldin errestatzen bada partizionearen gai&ntilde;eko aldean bia, izanen da bisustetik bigarren urthea, eta baldin partizionean errestatzen bada gai&ntilde;eko aldean hirur izanen da bisuste urthetik hirurgarren urthea, eta baldin partizionearen gai&ntilde;eko aldean espada deus errestatzen edo heldu bada izero izanen da urthe hartan bisuste urthea.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Segidan da deniz Diapan erregeren ordenaz pilotukoa irakazten duenak berriro egi&ntilde;ikako iguzgiaren deklinazionearen thaula</p><--</head>
+        </front>
+        <body>
+<p>Iguzkiaren deklinazionea eman bai&ntilde;o lehen abisatu behar zaitut marxoaren hogoiyean eta setemeren hogoi eta biyean iguzkia li&ntilde;an dela.</p>
+<p>Eta baldin harzen baduzu haltura marxaoren 20etik eta setemeren 22a&ntilde;o, nola iguzkia li&ntilde;az haltoago, edo norteko bandan baita denbora hartan haltura baleztrillas harzen baduzu, begiaren eta martilluaren arteko graduei ajustatu behar diotzatzula deklinazioneko Thaulak egun hartan ematen tuben gradu eta minutak.</p>
+<p>Eta baldin harzen baduzu haltura setemeren 22tik eta marxoaren 20&ntilde;o, nola iguzkia li&ntilde;a bai&ntilde;o baxoago, edo hegoako bandan baita, begiaren eta martilluaren arteko gradu eta minutetarik kendu behar tutzula iguzkiaren thaulak egun hartan ematen tuben gradu eta minutak, eta fazoin huntan kausituko duzula zure lekuko nortesuko gradizionea, edo haltura.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Segidan dire guardak ea zer denboretan edo zenbat egunen buran haize laurden batez tardatzen duben</p><--</head>
+        </front>
+        <body>
+<p>Horren egitekotz iakin behar duzu urthe bates duen tardamenduba dela 24 orenena edo baldin egun badire guardak estean ianbieren hogoi eta borzean gaberditan, estire izanen berris guardak estean edo hurreneko urthean ianbieren hogoi eta borzerai&ntilde;o, hartakotz bada badkizu urthean egiten duben tarramendu gustia dela 32 haize laurden bada halaber badakizu urthe komunak ditubela, 365 egun, baldin bitsuste urthea espada eta bitsuste urthean direla 366 egun, kontu hau izanen da hirur ehun eta hirur hogoi eta bortz egunduben urthekotz zeren nola baita gaitz ezagutzea goardetan minuta batetara&ntilde;o hargatik ematen ditut 365 egun kontu hunen egitekotz, zei&ntilde;a egiten baitut fazoin huntan 365 egunak partitzen tut 32 haize laurdenez eta heldu dire 11 egun, eta errestatzen dire 13 egun.</p>
+<p>2ean, 13 horiok ekartzen tut orenetarat, 24 multiplikatzen tudala, eta heldu dire 312 oren hauk partitzen tut 32 haize laurdenez, eta heldu dire 9 oren, eta errestatzen dire 24 oren.</p>
+<p>3ean 24 oren hauk ekartzen tut minutetarat multiplikatzen tudela 60, zeren orenean 60 minuta baitire, eta heldu dire 1440 min.</p>
+<p>4ean 1440 minuta hauk partitzen tut 32 haize laurdenez, eta heldu dire 45 minuta, edo oren baten hirur laurden errepusta, 11 egun, 9 orenes eta hirur laurden.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Segidan da gau herdi denean, ea guarda zein haizetan den hemen ematen tugun egunetan</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>Ianbierez</hi></p>
+<p>Ianbieren hirureun gaberdi izanen da guarda est suestean denean.</p>
+<p>Ianbieren hamabortzean gaberdi izanen da guarda estean denean.</p>
+<p><hi rend='Bold'>Febreroz</hi></p>
+<p>Febreroen seiean gaberdi izanen da guarda estean nordestean laurdenean denean.</p>
+<p>Febreroren hemezortzian gaberdi izanen da guarda est nordestean denean.</p>
+<p><hi rend='Bold'>Marxoan</hi></p>
+<p>Marxoaren lehenean gaberdi izanen da, guarda nordestean estean laurdenean denean.</p>
+<p>Marxoaren hamahirurean gaberdi izanen da, guarda nordestean denean.</p>
+<p>Marxoaren hogoi eta labean gaberdi izanen da guarda nordestean nortean laurdenean denean.</p>
+<p><hi rend='Bold'>Aphirillean</hi></p>
+<p>Aphirillaren bortzean gaberdi izanen da guarda nort nordestean denean.</p>
+<p>Aphirillaren hamaseiean gaberdi izanen da guarda nortean nordestean laurdenean denean.</p>
+<p>Aphirillaren hogoi eta zazpian gaberdi izanen da guardak nortean denean.</p>
+<p><hi rend='Bold'>Maiatzean</hi></p>
+<p>Maiatzaren bederatzian gaberdi izanen da guarda nortean noroestean laurdeandean denean.</p>
+<p>Maiatzaren hogoiean gaberdi izanen da guarda nort noroestean denean.</p>
+<p><hi rend='Bold'>Iui&ntilde;ean</hi></p>
+<p>Iui&ntilde;aren lehenean gaberdi izanen da guarda noroestean nortean laurdenean denean.</p>
+<p>Iui&ntilde;aren hamabian gaberdi izanen da, guarda noroestean denean.</p>
+<p>Iui&ntilde;aren hogoi eta hirurean gaberdi izanen da guarda noroestean uestean laurdenean denean.</p>
+<p><hi rend='Bold'>Iuillean</hi></p>
+<p>Iuillaren bortzean gaberdi izanen da, guarda uest noroestean denean.</p>
+<p>Iuillaren hamaseian gaberdi izanen da, guarda uestean noroestean laurdenean denean.</p>
+<p>Iuillaren hogoi eta sortzian gaberdi izanen da guarda uestean denean.</p>
+<p><hi rend='Bold'>Abostuan</hi></p>
+<p>Abostuaren sortzian gaberdi izanen da guarda uestean suduestean laurdenean denean.</p>
+<p>Abostuaren hemesortzian gaberdi izanen da guarda uest suestean denean.</p>
+<p><hi rend='Bold'>Setemez</hi></p>
+<p>Setemeren lehenean gaberdi izanen da guarda suduestean uestean laurdenean denean.</p>
+<p>Setemeren hamekean gaberdi izanen da guarda suduestean denean.</p>
+<p>Setemeren hogoi eta hirurean gaberdi izanen da guarda suduestean hegoan laurdenean denean.</p>
+<p><hi rend='Bold'>Oktobrez</hi></p>
+<p>Oktobreren labean gaberdi izanen da guarda susuduestean denean.</p>
+<p>Oktobreren hamabortzean gaberdi izanen da guarda hegoan suduestean laurdenean denean.</p>
+<p>Oktobreren hogoi eta zazpian gaberdi izanen da guarda hegoan denean.</p>
+<p><hi rend='Bold'>Nobenbrez</hi></p>
+<p>Nobenbreren zazpian gaberdi izanen da guarda hegoan suestean laurdenean denean.</p>
+<p>Nobenbreren hemeretzian gaberdi izanen da guarda susuestean denean.</p>
+<p><hi rend='Bold'>Dezenbrez</hi></p>
+<p>Dezenbreren lehenean gaberdi izanen da guarda suestean hegoan laurdenean denean.</p>
+<p>Dezenbreren hamabian gaberdi izanen da guarda suestean denean.</p>
+<p>Dezenbreren hogoi eta hirurean gaberdi izanen da guarda suestean estean laurdenean denean.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Segidan ilhabethe guzitean alba denean guarda zein haitzetan den</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>Ianbieren</hi></p>
+<p>Ianbieren hamarrean guarda nortean nordestean laurdenean.</p>
+<p>Ianbieren hogoi eta bortzean guarda nortean alba.</p>
+<p><hi rend='Bold'>Febreroz</hi></p>
+<p>Febreroren hamarrean guarda nortean noroestean laurdenean alba.</p>
+<p>Febreroren hogoi eta bortzen guardat nortean alba.</p>
+<p><hi rend='Bold'>Marxoan</hi></p>
+<p>Marxoaren hamarrean guarda nortean noroestean laurdenean alba.</p>
+<p>Marxoaren hogoi eta bortzean guarda noroestean laurdenen alba.</p>
+<p><hi rend='Bold'>Aphirillean</hi></p>
+<p>Aphirillaren hamarrean guarda noroestean alba.</p>
+<p>Aphirillaren hogoi eta bortzean guarda noroestean alba.</p>
+<p><hi rend='Bold'>Maiatzan</hi></p>
+<p>Maiatzaren hamarrean guarda noroestean uestean laurdenean alba.</p>
+<p>Maiatzaren hogoi eta bortzean guarda uestean noroestean laurdenean alba.</p>
+<p><hi rend='Bold'>Jui&ntilde;ean</hi></p>
+<p>Iui&ntilde;aren hamarrean guarda uestean alba.</p>
+<p>Iui&ntilde;aren hogoi eta bortzen guarda uestean alba.</p>
+<p><hi rend='Bold'>Juillean</hi></p>
+<p>Iuillaren hamarrean guarda hegoan suduestean laurdenean alba.</p>
+<p>Iuillaren hogoi eta bortzean guarda suduestean hegoan laurdenean alba.</p>
+<p><hi rend='Bold'>Abostuban</hi></p>
+<p>Abostubaren hamarrean guarda hegoan suduestean laurdenean alba.</p>
+<p>Abostubaren hogoi eta bortzean guarda hegoan alba.</p>
+<p><hi rend='Bold'>Setemez</hi></p>
+<p>Setemeren hamarrean guarda hegoan suduestean laurdenean alba.</p>
+<p>Setemeren hogoi eta bortzen guarda suestean hegoan lurdenean alba.</p>
+<p><hi rend='Bold'>Oktobrez</hi></p>
+<p>Oktobreren hamarrean guarda suestean alba.</p>
+<p>Oktobreren hogoi eta bortzean guarda suestean estean laurdenean.</p>
+<p><hi rend='Bold'>Nobenbrez</hi></p>
+<p>Nobenbreren hamarrean guarda estean suestean laurdenean alba.</p>
+<p>Nobenbreren hogoi eta bortzen guarda estean norddestean laurdenean alba.</p>
+<p><hi rend='Bold'>Dezenbrez</hi></p>
+<p>Dezenbreren hamarrean guarda nordestean estean laurdenean alba.</p>
+<p>Dezenbreren hogoi eta bortzen guarda nordestean nortean laurdenean alba.</p>
+        </body>
+      </text>
+    </group>
+  </text>
+</TEI.2>
+

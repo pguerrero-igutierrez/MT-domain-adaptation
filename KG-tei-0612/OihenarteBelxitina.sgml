@@ -1,0 +1,2883 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN"
+                       "http://www.tei-c.org/P4X/DTD/tei2.dtd" [
+   <!ENTITY % TEI.prose    'INCLUDE' >
+   <!ENTITY % TEI.linking  'INCLUDE' >
+   <!ENTITY % TEI.analysis 'INCLUDE' >
+   <!ENTITY % TEI.figures  'INCLUDE' >
+   <!ENTITY % TEI.XML      'INCLUDE' >
+   <!ENTITY % TEI.extensions.ent SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.ent' >
+   <!ENTITY % TEI.extensions.dtd SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.dtd' >
+]>
+<TEI.2>
+  <teiHeader>
+  <fileDesc>
+     <titleStmt>
+        <title>Kaniko eta Belxitina</title>
+        <author>Jakes Oihenarte</author>
+        <respStmt>Ez dauka</respStmt>
+     </titleStmt>
+     <extent>8.157 hitz, 66.309 karaktere</extent>
+     <publicationStmt>
+        <publisher>Klasikoen Gordailua [http://klasikoak.armiarma.com/]</publisher>
+        <distributor>Estrata Liburuak S.L.</distributor>
+        <address type='email'>klasikoak@armiarma.com</address>
+        <idno type='ota'>OihenarteBelxitina</idno>
+        <availability status='free'>Erabilpen librekoa; honoko helbidean topa daiteke (HTML, RTF eta PDF formatuetan): http://klasikoak.armiarma.com/idazlanak/O/OihenarteBelxitina.htm</availability>
+        <date>2006</date>
+     </publicationStmt>
+     <sourceDesc>
+        <bibl>Iturria: Kaniko eta Belxitina (ihauterietako pastoral zuberotarra), Jakes Oihenarte (Gabriel Arestiren edizioa). Lur, 1971</bibl>
+        <notesStmt><note>Iturburuen datazioa: 1848, 1971</note></notesStmt>
+     </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+     <projectDesc>Euskal literaturako testu klasikoen bilduma da KLASIKOEN GORDAILUA; testu hau berorren parte da</projectDesc>
+     <refsDecl>
+        <p>MENTIONED etiketa egilearenak ez diren hitzak markatzeko erabili da: hitzaurreak, aipuak, iruzkinak, e.a.</p>
+    </refsDecl>
+     <classDecl>
+        <taxonomy id='generoa'>
+            <category id='G-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='G-ANT'><catDesc>Antzerkia</catDesc></category>
+            <category id='G-BER'><catDesc>Bertsoak</catDesc></category>
+            <category id='G-ERL'><catDesc>Erlijioa</catDesc></category>
+            <category id='G-NAR'><catDesc>Narratiba</catDesc></category>
+            <category id='G-POE'><catDesc>Poesia</catDesc></category>
+            <category id='G-SAI'><catDesc>Saiakera, kronika, artikuluak...</catDesc></category>
+        </taxonomy>
+        <taxonomy id='garaia'>
+            <category id='M-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='M-16'><catDesc>XVI. mendea</catDesc></category>
+            <category id='M-17-1'><catDesc>XVII. mendea - 1. erdia</catDesc></category>
+            <category id='M-17-2'><catDesc>XVII. mendea - 2. erdia</catDesc></category>
+            <category id='M-18-1'><catDesc>XVIII. mendea - 1. erdia</catDesc></category>
+            <category id='M-18-2'><catDesc>XVIII. mendea - 2. erdia</catDesc></category>
+            <category id='M-19-1'><catDesc>XIX. mendea - 1. erdia</catDesc></category>
+            <category id='M-19-2'><catDesc>XIX. mendea - 2. erdia</catDesc></category>
+            <category id='M-20-1'><catDesc>XX. mendea - 1. erdia</catDesc></category>
+            <category id='M-20-2'><catDesc>XX. mendea - 2. erdia</catDesc></category>
+        </taxonomy>
+        <taxonomy id='euskalkia'>
+            <category id='E-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='E-BAT'><catDesc>batua</catDesc></category>
+            <category id='E-BIZ'><catDesc>bizkaiera</catDesc></category>
+            <category id='E-BNA'><catDesc>behenafarrera</catDesc></category>
+            <category id='E-ERR'><catDesc>erronkariera</catDesc></category>
+            <category id='E-GIP'><catDesc>gipuzkera</catDesc></category>
+            <category id='E-GNA'><catDesc>goi nafarrera</catDesc></category>
+            <category id='E-LAP'><catDesc>lapurtera</catDesc></category>
+            <category id='E-NAF'><catDesc>nafarrera</catDesc></category>
+            <category id='E-ZAR'><catDesc>zaraitzuera</catDesc></category>
+            <category id='E-ZUB'><catDesc>zuberera</catDesc></category>
+        </taxonomy>
+    </classDecl>
+  </encodingDesc>
+  <profileDesc>
+     <textClass>
+       <keywords scheme='generoa'>
+         <list><item>G-ANT</item></list>
+       </keywords>
+       <keywords scheme='garaia'>
+         <list><item>M-19-1</item></list>
+       </keywords>
+       <keywords scheme='euskalkia'>
+         <list><item>E-ZUB</item></list>
+       </keywords>
+     </textClass>
+  </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>Kaniko eta Belxitina -- Jakes Oihenarte</docTitle>
+    </front>
+    <group>
+      <text>
+        <body>
+<p><hi rend='Bold'>KANIKO ETA BELXITINA</hi></p>
+<p><hi rend='Bold'>DRAMATIS PERSONAE</hi></p>
+<p>I. Satanak (zamariz)</p>
+<p>1.- <foreign>Jupiter</foreign></p>
+<p>2.- <foreign>Buljifer</foreign></p>
+<p>3.- Satan</p>
+<p>II. Praubiak (ui&ntilde;ez)</p>
+<p>4.- Juanes</p>
+<p>5.- Gilento</p>
+<p>III. Jiantak (zamariz)</p>
+<p>6.- <foreign>Ferragus</foreign>.</p>
+<p>IV. Partidak.</p>
+<p>a.- (karratan)</p>
+<p>7.- Postill&uuml;na.</p>
+<p>8.- Belxitina.</p>
+<p>9.- Kaniko.</p>
+<p>b.- (bohorrez).</p>
+<p>10.- Sabant.</p>
+<p>11.- Salhatan.</p>
+<p>V. J&uuml;jeak (zamariz).</p>
+<p>12.- Barbera</p>
+<p>13.- K&uuml;rriera.</p>
+<p>14.- &Uuml;xera.</p>
+<p>15.- Presidenta.</p>
+<p>16.- <foreign>Luzien</foreign>.</p>
+<p><hi rend='Bold'>EDIREN - BIDIA</hi></p>
+<p>Lehen entrada: 001 - 052</p>
+<p>Lehen sataneria: 053 - 125</p>
+<p>Trajeriaren lehen phartia: 126 - 274</p>
+<p>Trajeriaren &uuml;ndar phartia: 275 - 505</p>
+<p>Trajeriaren sataneria: 506 - 555</p>
+<p>&Uuml;ndar entrada: 556 - 573</p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>LEHEN ENTRADA</hi></p>
+<p>Jinkuoak eg&uuml;n hun deiziela,</p>
+<p>jaunak eta anderiak;</p>
+<p>hunki jin ziriela,</p>
+<p>xipiak eta handiak.</p>
+<p>Hart&uuml; d&uuml;zie phena</p>
+<p>gure ikhustera jitez.</p>
+<p>Nik ere hartzen d&uuml;t libertatia,</p>
+<p>mintzatzeko bi hitzez.</p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>MARTXA</hi></p>
+<p>Satisfazionetan gira,</p>
+<p>zeren, heben ikhustez,</p>
+<p>&uuml;h&uuml;re errezebitzen d&uuml;g&uuml;</p>
+<p>jente hanitxen jitez.</p>
+<p>Orai gure trajeriaz</p>
+<p>nahi nintzate mintzat&uuml;,</p>
+<p>atentzione &uuml;kheitiaz</p>
+<p>nahi z&uuml;nt&uuml;keiet othoit&uuml;.</p>
+<p>Jente hunak, badakizie</p>
+<p>Pariseko errebolta;</p>
+<p>hartarik da g&uuml;re eg&uuml;nko</p>
+<p>s&uuml;jetaren kausa.</p>
+<p>Jente hunak, ikhusten d&uuml;zie</p>
+<p>kasi herri orotan,</p>
+<p>errejuisantza bat egiten</p>
+<p>haren uhuretan.</p>
+<p>G&uuml;k bad&uuml;g&uuml; orano</p>
+<p>seg&uuml;r arrazu haboro,</p>
+<p>zeren hasi izan beita gerla heben</p>
+<p>Parisen beno gaitzago.</p>
+<p>Nuzpait izan da lehen ere</p>
+<p>gerla zibila deithia,</p>
+<p>bena ordian etxekitzen zian emaztiak</p>
+<p>senharraren phartia.</p>
+<p>Bena orai, maleruski,</p>
+<p>emaztia senharrari.</p>
+<p>Jente hunak, ezteia</p>
+<p>hori harrigarri?</p>
+<p>Aren, orok behar d&uuml;g&uuml;</p>
+<p>Jinkuoa erremestiat&uuml;</p>
+<p>zeren g&uuml;re errebol&uuml;zionia</p>
+<p>izan beita zesat&uuml;.</p>
+<p>Bai eta othoitz egin,</p>
+<p>hebetik aitzina</p>
+<p>gisa hortako gerlarik</p>
+<p>eztadin alarma.</p>
+<p>Orai behar d&uuml;g&uuml; aiphat&uuml;</p>
+<p>gerla hasi diana;</p>
+<p>haren izena da, aren</p>
+<p>Madama Belxitina.</p>
+<p>Harekin, aldiz, Kaniko</p>
+<p>gerlari b&uuml;h&uuml;rzalia,</p>
+<p>zui&ntilde; barat&uuml; izan beita</p>
+<p>tristeki blesatia.</p>
+<p>Trajeria hunen uhuretan</p>
+<p>erakharri t&uuml;g&uuml;n feitak,</p>
+<p>barber, j&uuml;sitizier, bolant</p>
+<p>eta testimoniuak.</p>
+<p>Beste hanitx ekipaje drole</p>
+<p>bere bersetekin;</p>
+<p>jiant terrible bat ere</p>
+<p>izenen da haiekin.</p>
+<p>Phezaren hatsarrian,</p>
+<p>aren, d&uuml;zie ikhusiren</p>
+<p>bi espi&uuml;n sataneriak</p>
+<p>nola tian tr&uuml;fat&uuml;ren.</p>
+<p>Harzara jinen da berriz</p>
+<p>jiant <foreign>Ferragus</foreign> handia;</p>
+<p>defendat&uuml;ren deo <foreign>Buljifer</foreign>ek</p>
+<p>triatian sartzia.</p>
+<p>Bena bere maill&uuml; handiaz</p>
+<p>eginen d&uuml; bidia,</p>
+<p>eta laster h&uuml;st&uuml;rik</p>
+<p>ikh&uuml;sirik triatia.</p>
+<p>Ikh&uuml;siren d&uuml;zie orano</p>
+<p><foreign>Ferragus</foreign> kolera handian,</p>
+<p>Belxitinak Kaniko</p>
+<p>zerentako jo dian.</p>
+<p>Beste ekipaje batz&uuml;</p>
+<p>dirade libertit&uuml;ren;</p>
+<p>nik heben erran beno hobeki</p>
+<p>d&uuml;zie kunprenit&uuml;ren.</p>
+<p>Gero ikh&uuml;siren d&uuml;zie postill&uuml;na</p>
+<p>zarrato eder bateki;</p>
+<p>haren barnian t&uuml;zke jaun-andere</p>
+<p>hauk algarreki.</p>
+<p>Triatiala igaranen d&uuml;t&uuml;</p>
+<p>trionfa handitan,</p>
+<p>l&uuml;rreti zunbait berset</p>
+<p>emaitiarekilan.</p>
+<p>Geroxeago jinen dira</p>
+<p>bi jaun gazte bohorretan,</p>
+<p>zui&ntilde; hasiren beitira</p>
+<p>Kanikorekin tratian.</p>
+<p>Bat deitzen d&uuml;g&uuml; Sobant</p>
+<p>eta bestia Salhatan,</p>
+<p>ikh&uuml;siren d&uuml;t&uuml;zie</p>
+<p>bohor haiez tr&uuml;kadan.</p>
+<p>Tratiaren egitian zunbait</p>
+<p>botilla ardu die edanen,</p>
+<p>eta Kanikok emaztiari</p>
+<p>beste bat d&uuml; galdeginen.</p>
+<p>Bena botilla arduoaren</p>
+<p>&uuml;kheiteko plazan,</p>
+<p>paso batez ezarriren deio</p>
+<p>pipa axisetan.</p>
+<p>Ikh&uuml;siren d&uuml;t&uuml;zie</p>
+<p>oro algarreki loth&uuml;rik,</p>
+<p>droleki erretiratzen</p>
+<p>eskui&ntilde;eko aldetik.</p>
+<p>Harzara gero berhala</p>
+<p><foreign>Ferragus</foreign> handia,</p>
+<p>hek han atzaman nahiz</p>
+<p>&uuml;d&uuml;ri errabiatia.</p>
+<p>Botilla bat ardurekin</p>
+<p>gero jinen da Kaniko;</p>
+<p>harekin konplasentzian</p>
+<p>aizo batetan sarth&uuml;ko.</p>
+<p>Behin gibelerat eginen d&uuml;</p>
+<p>emaztia ikh&uuml;sirik;</p>
+<p>bizkitartian emaztiak</p>
+<p>eztero eginen kas&uuml;rik.</p>
+<p>Ikh&uuml;siren d&uuml;zie Belxitina,</p>
+<p>erhatz bat bizkarrian,</p>
+<p>latsagiaren xahatzera juoaiten</p>
+<p>errabia handian.</p>
+<p>Zeren ezpeitakike solamente</p>
+<p>senharra n&uuml;n dian;</p>
+<p>kolpat&uuml; dianez othe sobera</p>
+<p>erranen d&uuml; ordian.</p>
+<p>Hainbeste phena bad&uuml;ke, ith&uuml;rria</p>
+<p>behar dialakoz xahat&uuml;;</p>
+<p>d&uuml;da gabe senharrak egiten,</p>
+<p>beitzen kost&uuml;mat&uuml;.</p>
+<p>&Uuml;tz&uuml;ltzian &uuml;tziren d&uuml;</p>
+<p>erhatza bortha batian,</p>
+<p>eta xerment biltzen</p>
+<p>sarth&uuml;ren mi&ntilde;abesian.</p>
+<p>Erhatza hart&uuml;ren d&uuml;</p>
+<p>senharrak, han sartzian;</p>
+<p>miserable Kaniko,</p>
+<p>bere zorigaitzian!</p>
+<p>Erhatza Kanikoreki</p>
+<p>hatzaman zianian,</p>
+<p>ikh&uuml;siren d&uuml;zie ederki</p>
+<p>zerb&uuml;txatzen bizkarrian.</p>
+<p>Lehentxago entz&uuml;nen d&uuml;t&uuml;zie</p>
+<p>Sabant eta Salhatan,</p>
+<p>berset zunbaiten khantatzen</p>
+<p>errep&uuml;blikaren gai&ntilde;ian.</p>
+<p>Gero ikh&uuml;siren d&uuml;zie</p>
+<p>Kaniko barberian,</p>
+<p>sangre eta operazione</p>
+<p>eginen d&uuml;te ordian.</p>
+<p>Enfin, ikh&uuml;siren d&uuml;t&uuml;zie,</p>
+<p>bai bata, bai bestia,</p>
+<p>zunbatenakuoa zen</p>
+<p>haien desesperazionia.</p>
+<p>K&uuml;lpad&uuml;ra ber bekhatiak</p>
+<p>&uuml;s&uuml; beit&uuml; erratzen,</p>
+<p>ikh&uuml;siren d&uuml;zie Kaniko</p>
+<p>Xatonen zed&uuml;latzen.</p>
+<p>Zeren beld&uuml;r baitate</p>
+<p>egon eztadin ixilik,</p>
+<p>hobe diala j&uuml;stiziaz</p>
+<p>kraintan etxekirik.</p>
+<p>Jentiak melat&uuml;ren dira</p>
+<p>hark merexi beno hobeki,</p>
+<p>bena atentzionerak</p>
+<p>ezt&uuml; eginen ihuri.</p>
+<p>Berak ere j&uuml;jiak</p>
+<p>kundenat&uuml;ren d&uuml;t&uuml;,</p>
+<p>zeren untsa har ditzan</p>
+<p>ezpeilizate merit&uuml;.</p>
+<p>Ikh&uuml;siren t&uuml;zie berak ere</p>
+<p>j&uuml;jiaren aitzinian,</p>
+<p>hitz bat ezin erranez,</p>
+<p>konf&uuml;sione handian.</p>
+<p>Ezpaneza illab&uuml;rt</p>
+<p>nunbait finitzeko,</p>
+<p>jente h&uuml;nak, ban&uuml;ke</p>
+<p>arrats arte h&uuml;ntako.</p>
+<p>Ikh&uuml;siren d&uuml;zie bai</p>
+<p>ekipaje propirik,</p>
+<p>bai eta &uuml;rhentzian</p>
+<p>jianta ere hilik.</p>
+<p>Nik erran beno hobeki</p>
+<p>d&uuml;zie kunprenit&uuml;ren,</p>
+<p>zeren ezpeita posible</p>
+<p>ororen erraitia heben.</p>
+<p>Zien atentzione h&uuml;naz, othoi,</p>
+<p>nahi nitzaitzie gomendat&uuml;,</p>
+<p>eta ene libertate oroz</p>
+<p>pharkament&uuml; galthat&uuml;.</p>
+<p>N&uuml;la gazte berriz orano,</p>
+<p>eta ez ikhasirik mintzatzen</p>
+<p>hart&uuml; libertatia</p>
+<p>pharka dezadazien.</p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>ERDIAN</hi></p>
+<p>Nahi bada ezkiren kapable</p>
+<p>g&uuml; untsa errepresentatzeko</p>
+<p>othoi, &uuml;khezie h&uuml;ntarz&uuml;na</p>
+<p>gure falten gordatzeko.</p>
+<p>Adio, jaun-anderiak,</p>
+<p>phartitzen niz mementian,</p>
+<p>lag&uuml;nak prestik beitauzte</p>
+<p>ene haid&uuml;r&uuml; aspaldian.</p>
+<p>Zien permisioniarekin, aren,</p>
+<p>banua haien xerkha,</p>
+<p>eta &uuml;ntsa, beharra beit&uuml;t</p>
+<p>bi kolp&uuml;ren edatera.</p>
+<p><hi rend='Italic'> (Satanak jin zamariz. L&uuml;rreti mintza Satan.)</hi></p>
+<p><hi rend='Bold'> Satan</hi></p>
+<p>Jaunak, ezteia hau</p>
+<p>palazio agradablia?</p>
+<p>Ezt&uuml;ta nik othian</p>
+<p>eg&uuml;n bon&uuml;r handia?</p>
+<p>Amirat&uuml;rik nago hebeko</p>
+<p>prepario ederrez;</p>
+<p>ene bihotzak eztaki</p>
+<p>zertan den plazerez.</p>
+<p>Orai behar d&uuml;g&uuml;, Jaunak,</p>
+<p>g&uuml;k sarth&uuml; plazeretan;</p>
+<p>zunbait fort&uuml;naren bidia</p>
+<p>bada hiri h&uuml;ntan.</p>
+<p><hi rend='Bold'> <foreign>Buljifer</foreign></hi></p>
+<p>Bai, jauna, agradament&uuml;</p>
+<p>ederrik bad&uuml;z&uuml; heben;</p>
+<p>son&uuml;-egiliak ere</p>
+<p>dantzat&uuml; nahi denaren.</p>
+<p>Hik zer diok, <foreign>Jupiter</foreign>?</p>
+<p>Bad&uuml;ka satisfazione?</p>
+<p>Hebeko prepar&uuml; ederrez,</p>
+<p>ezt&uuml;ka erraiten de&uuml;s ere?</p>
+<p><hi rend='Bold'> <foreign>Jupiter</foreign></hi></p>
+<p>Jaunak, ezta kestionia</p>
+<p>hebenko agradamentiaz;</p>
+<p>behar d&uuml;g&uuml; mintzat&uuml;</p>
+<p>horra igaraitiaz.</p>
+<p><hi rend='Bold'> Satan</hi></p>
+<p>Igaran zitaie, Jaunak,</p>
+<p>triate hortan gai&ntilde;a,</p>
+<p>ikh&uuml;si nahi beit&uuml;t</p>
+<p>zien dantzatzeko manera.</p>
+<p><hi rend='Bold'> <foreign>Jupiter</foreign></hi></p>
+<p>Igaraiten lag&uuml;nt gitzatz&uuml;,</p>
+<p>Jauna, plazer bad&uuml;z&uuml;;</p>
+<p>eskiaren emaiteko</p>
+<p>&uuml;h&uuml;ria egig&uuml;z&uuml;.</p>
+<p><hi rend='Bold'> <foreign>Buljifer</foreign></hi></p>
+<p>Dantzalaz geroz</p>
+<p>satisfat&uuml;ren z&uuml;t&uuml;g&uuml;;</p>
+<p>hartakoz, aren, igaraiten</p>
+<p>lag&uuml;nt&uuml; behar g&uuml;t&uuml;z&uuml;.</p>
+<p><hi rend='Bold'> Satan</hi></p>
+<p><foreign>Sonu</foreign>-egiliak, emazie</p>
+<p>plazer d&uuml;zien airia,</p>
+<p>zeren ene mithilak</p>
+<p>feitian beitira.</p>
+<p>Behar d&uuml;zie dantzat&uuml;;</p>
+<p>alo, ene mithilak;</p>
+<p>ezpad&uuml;zie h&uuml;tsik egiten,</p>
+<p>izanen zidie phakatiak.</p>
+<p><hi rend='Italic'> (Soin&uuml;. Dantza mithilak. Satan jar. <foreign>Jupiter</foreign> mintza.)</hi></p>
+<p><hi rend='Bold'> <foreign>Jupiter</foreign></hi></p>
+<p>Gure dantzako maneraz</p>
+<p>kuntent zireia, Satan?</p>
+<p>Z&uuml;k ere ari behar d&uuml;z&uuml;</p>
+<p>phiko bat gurekilan.</p>
+<p><hi rend='Italic'> (Satan jeiki eta mintza)</hi></p>
+<p><hi rend='Bold'> Satan</hi></p>
+<p><foreign>Set ase, mesius;</foreign></p>
+<p>arren, gitian dantza;</p>
+<p><foreign>selui ki mankerak</foreign></p>
+<p>phakat&uuml;ren d&uuml; phitxerra.</p>
+<p>Lehen h&uuml;tsa egiten dianak</p>
+<p>phitxerra phakat&uuml;ren d&uuml;;</p>
+<p>gogo hunez kolp&uuml; bedera</p>
+<p>orai edanen d&uuml;g&uuml;.</p>
+<p><hi rend='Italic'> (Dantza eta Satan so larga-bistaz eta mintza.)</hi></p>
+<p><hi rend='Bold'> Satan</hi></p>
+<p>Soizie, ene mithilak.</p>
+<p>Hantxeko h&uuml;r handi h&uuml;ra</p>
+<p>larga-bixtaz ikhusten d&uuml;t:</p>
+<p>Ardu bilhakat&uuml; da.</p>
+<p><hi rend='Bold'> <foreign>Buljifer</foreign></hi></p>
+<p>Aiei, aiei, <foreign>Jupiter</foreign>,</p>
+<p>guazan bertan lasterka;</p>
+<p>h&uuml;riala khanbiat&uuml; gabe</p>
+<p>betha dezag&uuml;n barrika.</p>
+<p><hi rend='Bold'> <foreign>Jupiter</foreign></hi></p>
+<p>Satan, z&uuml; dantza zite,</p>
+<p>g&uuml; huna artio;</p>
+<p>&uuml;zk&uuml;z gora sarth&uuml;ren z&uuml;t&uuml;g&uuml;</p>
+<p>barrika hartan gero.</p>
+<p><hi rend='Italic'> (Mithilak erretira. <foreign>Sonu</foreign>. Satan dantza. </hi></p>
+<p><hi rend='Italic'> Praubiak jin, asto bederatan, triate aitziniala.)</hi></p>
+<p><hi rend='Bold'> Satan</hi></p>
+<p>Zer jente zirie ziek,</p>
+<p>zien asto xarretan?</p>
+<p>Ala espi&uuml; zunbait?</p>
+<p>Erradazie bertan.</p>
+<p><hi rend='Bold'> Gilento</hi></p>
+<p>Jauna, ezk&uuml;t&uuml;z&uuml; g&uuml;</p>
+<p>jiten espi&uuml;natzera,</p>
+<p>bena bai zerbait karitate</p>
+<p>bad&uuml;keg&uuml;nez jakitera.</p>
+<p><hi rend='Italic'> (Satanek eman eskia eta &uuml;tz erortera)</hi></p>
+<p><hi rend='Bold'> Gilento</hi></p>
+<p>Jauna, z&uuml; z&uuml;nbait</p>
+<p>izpirit&uuml; gaixto ahal zira;</p>
+<p>g&uuml; ezkitizie jentek ih&uuml;n</p>
+<p>hola tr&uuml;fat&uuml; sek&uuml;la.</p>
+<p><hi rend='Bold'> Satan</hi></p>
+<p>Igaran zitaie, aren,</p>
+<p>hots emazie bertan;</p>
+<p>nahi z&uuml;tiet khako hunez</p>
+<p>biak thirat&uuml; batetan.</p>
+<p><hi rend='Italic'> (Biak abia eta &uuml;tz erortera.)</hi></p>
+<p><hi rend='Bold'> Juanes</hi></p>
+<p>Jauna, g&uuml;tzaz erri egitera</p>
+<p>jin ahal zira espres&uuml;ki;</p>
+<p>bena othoitzen z&uuml;t&uuml;t</p>
+<p>ezkitzatz&uuml;la interrunpi.</p>
+<p><hi rend='Bold'> Satan</hi></p>
+<p>Hots, aren, ezde&uuml;sak;</p>
+<p>oraiko aldian bedere</p>
+<p>behar d&uuml;zie finkat&uuml;</p>
+<p>haboro erori gabe.</p>
+<p>Aig&uuml; hunat, <foreign>Buljifer</foreign>.</p>
+<p>N&uuml;n ago barne hortan?</p>
+<p>Bi enbasadore batiag&uuml; heben</p>
+<p>ekipaje eder batetan.</p>
+<p><hi rend='Italic'> (<foreign>Buljifer</foreign> jin)</hi></p>
+<p><hi rend='Bold'> <foreign>Buljifer</foreign></hi></p>
+<p>Jauna, horiek nur d&uuml;t&uuml;z&uuml;</p>
+<p>hain untsa ekipajat&uuml;rik.</p>
+<p>Badizie horiek gisala</p>
+<p>zunbait ahari propirik.</p>
+<p>Hots, orai zankho horik,</p>
+<p>aren, finka itzatzie;</p>
+<p>sala eder huntara</p>
+<p>iragan behar d&uuml;zie.</p>
+<p><hi rend='Italic'> (Orai iragan praubiak triatiala </hi></p>
+<p><hi rend='Italic'> eta han eror bi aldetarat.)</hi></p>
+<p><hi rend='Bold'> Satan</hi></p>
+<p>Alo, <foreign>Buljifer</foreign> behar tiag&uuml;</p>
+<p>jaun horik eraiki;</p>
+<p>x&uuml;ti ebilten orano</p>
+<p>ez ahal die ikhasi.</p>
+<p><hi rend='Bold'> <foreign>Buljifer</foreign></hi></p>
+<p>Alo, jaunak behar d&uuml;zie</p>
+<p>orai x&uuml;ti finkat&uuml;,</p>
+<p>bestela zankho-petan</p>
+<p>behar d&uuml;zie lehert&uuml;.</p>
+<p><hi rend='Bold'> Gilento</hi></p>
+<p>Jauna, g&uuml; &uuml;tzi gitzatzie,</p>
+<p>othoi, gure gisa;</p>
+<p>ala zien erri-garri</p>
+<p>huna jin izan gira.</p>
+<p><hi rend='Bold'> Juanes</hi></p>
+<p>Ezpirit&uuml; gaixtuoak, zuoazte</p>
+<p>h&uuml;rr&uuml;n gure ganik;</p>
+<p>&uuml;tzi gitzatzie errepaus&uuml;z,</p>
+<p>egin gabe tr&uuml;farik.</p>
+<p><hi rend='Italic'> (<foreign>Sonu</foreign>. Erretira bi aldetarat. </hi></p>
+<p><hi rend='Italic'> Jianta jin zamariz. Mintza l&uuml;rreti pasai&uuml;z.)</hi></p>
+<p><hi rend='Bold'> <foreign>Ferragus</foreign></hi></p>
+<p>Ha! Ha! Jentiak, arauz</p>
+<p>erhot&uuml; ahal zirie.</p>
+<p>Hainbeste gure so egitera,</p>
+<p>zertara jin zirie?</p>
+<p>Badeia khiristirik batere</p>
+<p>kanpa&ntilde;a huntan? Errazie!</p>
+<p>Ene maill&uuml; handiaz</p>
+<p>zapha dezadan hebexe.</p>
+<p>Kaniko deitzen den batek</p>
+<p>osoki nai erho-erazi,</p>
+<p>zeren emaztia &uuml;tzi dian</p>
+<p>bere b&uuml;r&uuml;zagi.</p>
+<p>Jakin ezazie bad&uuml;dala</p>
+<p>eh&uuml;n gizunen indarra.</p>
+<p>Ezt&uuml;zieia ikh&uuml;sten ene m&uuml;stra</p>
+<p>lau khana gora dela?</p>
+<p>Agertzen bada khiristirik</p>
+<p>eni de&uuml;s ere erraitera,</p>
+<p>behar d&uuml;ke beste m&uuml;ndialat</p>
+<p>bona-xera egitera.</p>
+<p>Khiristi arraza oro</p>
+<p>arrabaskiren d&uuml;t&uuml;t;</p>
+<p>ezpata eta maill&uuml; kolp&uuml;z</p>
+<p>oro erhoren d&uuml;t&uuml;t.</p>
+<p>Igaiten niz mahai&ntilde; hortara</p>
+<p>hor arrapausatzera,</p>
+<p>zeren eta hau beita</p>
+<p>ene jauregi ederra.</p>
+<p><hi rend='Italic'>(Jaits zamariti. <foreign>Buljifer</foreign> jalkhi eta</hi></p>
+<p><hi rend='Italic'> mintza.)</hi></p>
+<p><hi rend='Bold'> <foreign>Buljifer</foreign></hi></p>
+<p>Eg&uuml;riok, jiant asto handia;</p>
+<p>ehiz jauregi huntan sarth&uuml;ren,</p>
+<p>n&uuml;n eztian bidajia eg&uuml;n</p>
+<p>untsa phakatzen.</p>
+<p>Zer m&uuml;stra propian</p>
+<p>hizan huna jiten;</p>
+<p>areta, behar d&uuml;k ikhasi</p>
+<p>sarri laster egiten.</p>
+<p><hi rend='Bold'> <foreign>Ferragus</foreign></hi></p>
+<p>Ale, eskelle fripuoa,</p>
+<p>nula zaitan mintzatzen?</p>
+<p>Maill&uuml; hunez zabaltzen ait,</p>
+<p>ezpahiz hortik khentzen.</p>
+<p>Ezt&uuml;ka ikh&uuml;sten, hi ene althian</p>
+<p>&uuml;&ntilde;h&uuml;rri bat hizala,</p>
+<p>eta aho-kolp&uuml; batez</p>
+<p>iretsiren haidala?</p>
+<p><hi rend='Bold'> <foreign>Buljifer</foreign></hi></p>
+<p>Enaik ez iretsiko,</p>
+<p>zunbat ere behiz &uuml;sat&uuml;;</p>
+<p>ezpata hau estomaketi</p>
+<p>nahi deat lanthat&uuml;.</p>
+<p>Arropari hori orai</p>
+<p>ahal baderat trankatzen;</p>
+<p>zankhoz gora bertan</p>
+<p>hortxe ait ezarten.</p>
+<p><hi rend='Bold'> <foreign>Ferragus</foreign></hi></p>
+<p>&Uuml;&ntilde;h&uuml;rri h&uuml;mia,</p>
+<p>Mintzo iz fierki.</p>
+<p>Ene mailliak berak erhoren ai,</p>
+<p>mobit&uuml; gabetarik ni.</p>
+<p>Aski d&uuml;k bera hau</p>
+<p>hire erhaiteko.</p>
+<p>Abil. Erran ezak etxian</p>
+<p>orai lehenik adio.</p>
+<p><hi rend='Bold'> <foreign>Buljifer</foreign></hi></p>
+<p>Eztiat erran nahi adiorik;</p>
+<p>en&uuml;k lotsa hiretako.</p>
+<p>Jiten bahiz aitzina</p>
+<p>sinketa zaik khostako.</p>
+<p><hi rend='Italic'> (<foreign>Ferragus</foreign> igai&ntilde; triatila)</hi></p>
+<p><hi rend='Bold'> <foreign>Ferragus</foreign></hi></p>
+<p>Ale, apho mithiria,</p>
+<p>fier hiza, fier heben.</p>
+<p>Maill&uuml; huntaz hi eta hire lag&uuml;nak</p>
+<p>oro z&uuml;tiet zabalt&uuml;ren.</p>
+<p><hi rend='Italic'> (<foreign>Sonu</foreign>. Batailla. <foreign>Buljifer</foreign> eskapa.)</hi></p>
+<p><hi rend='Bold'> <foreign>Ferragus</foreign></hi></p>
+<p>Ha! Miserable &uuml;&ntilde;h&uuml;rria!</p>
+<p>Bortha d&uuml;ka zerratzen?</p>
+<p>Maill&uuml; huntaz derat</p>
+<p>nik bertan hautsiren.</p>
+<p><hi rend='Italic'> (Erretira. <foreign>Sonu</foreign>. </hi></p>
+<p><hi rend='Italic'> Praubiak jalkhi eta paseia)</hi></p>
+<p><hi rend='Bold'> Gilento</hi></p>
+<p>Eg&uuml;n hun, k&uuml;npa&ntilde;a ederra,</p>
+<p>bai eta il&uuml;stria;</p>
+<p>Jinkuoak detsala harzara berriz</p>
+<p>alkhar sal&uuml;ta erriz.</p>
+<p><hi rend='Bold'> Juanes</hi></p>
+<p>Jinkuoak benedika zitzela oro,</p>
+<p>merexi d&uuml;zien beno haboro.</p>
+<p>Bai g&uuml; ere zieki</p>
+<p>trata gitzala miserikordiuski.</p>
+<p><hi rend='Bold'> Gilento</hi></p>
+<p>Benedikat&uuml; ziradiela oro,</p>
+<p>graziaz lag&uuml;nt&uuml;rik alkharreki.</p>
+<p>Zien hun eta kaballeki,</p>
+<p>poseditzen d&uuml;t&uuml;zien ororeki.</p>
+<p><hi rend='Bold'> Juanes</hi></p>
+<p>Egizie, othoi, karitatia;</p>
+<p>pratika bethi berth&uuml;tia;</p>
+<p>jente pietatez bethia,</p>
+<p>heda ezaz&uuml;, aren, eskia.</p>
+<p><hi rend='Bold'> Gilento</hi></p>
+<p>Eia, jente galant eta hunak,</p>
+<p>emadazie zerbait amoina,</p>
+<p>sos, ardit edo tolosan,</p>
+<p>hark berak satisfat&uuml;ren z&uuml;tie.</p>
+<p>Karitatiaren egitia,</p>
+<p>hori komeni da, pop&uuml;lia;</p>
+<p>ezt&uuml;z&uuml; aski fediaren &uuml;kheitia,</p>
+<p>behar diz&uuml; fedia, esparantxa eta</p>
+<p>/karitatia.</p>
+<p><hi rend='Bold'> Juanes</hi></p>
+<p>Eia! Othoi! Jente hunak,</p>
+<p>ematzie zien amoinak;</p>
+<p>seg&uuml;r da ezi Jinko h&uuml;nak</p>
+<p>emendat&uuml;ren deitziela hunak.</p>
+<p><hi rend='Bold'> Gilento</hi></p>
+<p>Amoina egitiak ezt&uuml;</p>
+<p>sek&uuml;la ihur praubet&uuml;;</p>
+<p>Jondane Phaulek erraiten d&uuml;;</p>
+<p>ezta behar d&uuml;dat&uuml;.</p>
+<p><hi rend='Bold'> Juanes</hi></p>
+<p>Ez deia heben ihur ere</p>
+<p>guri emaile, de&uuml;s ere,</p>
+<p>ez artho-muxi bat ere?</p>
+<p>Eta nula biziren girade?</p>
+<p><hi rend='Bold'> Gilento</hi></p>
+<p>Ezteia jaun aphezik, ez nublerik,</p>
+<p>ez damarik, ez andererik;</p>
+<p>heben ezta de&uuml;z emailerik,</p>
+<p>ez aberatsik, ez prauberik.</p>
+<p><hi rend='Bold'> Juanes</hi></p>
+<p>Jente horiek eztie arauz entz&uuml;ten,</p>
+<p>ezpaderek azkarki oihegiten;</p>
+<p>oih&uuml; egin ezek, aren,</p>
+<p>bena lotsa n&uuml;k ezt&uuml;g&uuml;la de&uuml;s</p>
+<p>/&uuml;khenen.</p>
+<p><hi rend='Bold'> Gilento </hi><hi rend='Italic'>(Oih&uuml;z.)</hi></p>
+<p>Jente h&uuml;nak eta pherestiak,</p>
+<p>idek itzatzie beharriak,</p>
+<p>eta entz&uuml;n itzatzie praubiak,</p>
+<p>oih&uuml;z beitirade miserabliak.</p>
+<p><hi rend='Bold'> Juanes</hi></p>
+<p>Orai ikhusten dit in&uuml;til dela</p>
+<p>heben pheredikatzia;</p>
+<p>hots, h&uuml;r-xorta baten edatera</p>
+<p>ih&uuml;n ith&uuml;rririk balin bada.</p>
+<p><hi rend='Bold'> Gilento</hi></p>
+<p>Bai, bena ene lag&uuml;n maitia,</p>
+<p>nula da posible edatia;</p>
+<p>nik ja erran behar bad&uuml;t egia,</p>
+<p>jateko hobe nikek apetitia.</p>
+<p><hi rend='Bold'> Juanes</hi></p>
+<p>Areta, seg&uuml;rtatzen ait nik ere,</p>
+<p>edatez mintzat&uuml; baniz ere,</p>
+<p>jateko apetitia hobe d&uuml;dala halere,</p>
+<p>ezi aspaldian eztiat jan de&uuml;sere.</p>
+<p>Guazan, guazan barne hortara;</p>
+<p>ment&uuml;raz nurbait bad&uuml;k,behar bada</p>
+<p>heben eztiag&uuml; besterik</p>
+<p>baizik eta erri eta karkaza.</p>
+<p><hi rend='Bold'> Gilento</hi></p>
+<p>Orai g&uuml; baguoatza.</p>
+<p>Adio, anderiak eta jaunak.</p>
+<p>Agian sarth&uuml;ren deitzie</p>
+<p>astuoak &uuml;zkian belhai&ntilde;ak.</p>
+<p><hi rend='Italic'> (<foreign>Sonu</foreign>. Erretira. <foreign>Jupiter</foreign>, <foreign>Buljifer </foreign></hi></p>
+<p><hi rend='Italic'> eta Satan jalkhi. Postilluoa juoan karretala.)</hi></p>
+<p><hi rend='Bold'> Satan</hi></p>
+<p>Giradianaz geroz, jaunak,</p>
+<p>alkharrekin adixkidiak,</p>
+<p>behar d&uuml;t&uuml;g&uuml; egin</p>
+<p>fidelki kundizioniak.</p>
+<p><hi rend='Bold'> <foreign>Buljifer</foreign></hi></p>
+<p>Jauna, gure fidelitatiaz</p>
+<p>ezt&uuml;z&uuml; behar mintzat&uuml;,</p>
+<p>zeren m&uuml;nd&uuml; orotan</p>
+<p>parerik ezpeit&uuml;g&uuml;.</p>
+<p><hi rend='Bold'> <foreign>Jupiter</foreign></hi></p>
+<p>Jauna, zer galthatzen d&uuml;z&uuml;</p>
+<p>gure fidelitatian?</p>
+<p>Mintza zite, aren,</p>
+<p>zer d&uuml;z&uuml;n phentsamentian.</p>
+<p><hi rend='Bold'> Satan</hi></p>
+<p>Badakizie, Jaunak,</p>
+<p>ni errege bat nizala,</p>
+<p>eta ene zerb&uuml;tx&uuml;ko, ziek</p>
+<p>&uuml;ste d&uuml;t propi ziriela.</p>
+<p>Hartakoz behar d&uuml;zie ziek</p>
+<p>enekila engajat&uuml;;</p>
+<p>gero izanen ziradeie</p>
+<p>merexi bezala phakat&uuml;.</p>
+<p><hi rend='Bold'> <foreign>Buljifer</foreign></hi></p>
+<p>Nahi bag&uuml;t&uuml;z&uuml;, jauna,</p>
+<p>untsa errekunpentsat&uuml;,</p>
+<p>zerb&uuml;txari hoberik</p>
+<p>m&uuml;ndian ezt&uuml;kez&uuml;.</p>
+<p>Hik zer diok, <foreign>Jupiter</foreign>?</p>
+<p>Hun d&uuml;ka bihotza?</p>
+<p>Jaun huneki engajatzeko,</p>
+<p>eheitekia mintza?</p>
+<p><hi rend='Bold'> <foreign>Jupiter</foreign></hi></p>
+<p>Ezta kestionia, jaunak,</p>
+<p>heben akordatzeko.</p>
+<p>Gitian erretira hebenti,</p>
+<p>errefletzionen egiteko.</p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>TRAJERIAREN LEHEN PHARTIA</hi></p>
+<p><hi rend='Italic'>(Erretira. <foreign>Sonu</foreign>. Jin postill&uuml;na, karrera bateki, </hi></p>
+<p><hi rend='Italic'>asto bat thirazale. Egin pasei&uuml; eta postill&uuml;na mintza l&uuml;rreti.)</hi></p>
+<p><hi rend='Bold'> Postill&uuml;na</hi></p>
+<p>Jente h&uuml;nak, badeia heben</p>
+<p>ih&uuml;r aizinat&uuml;rik?</p>
+<p>Ezi bad&uuml;g&uuml; heben</p>
+<p>ekipaje propirik.</p>
+<p>Jaun-andere batz&uuml; dira</p>
+<p>enekin bidajat&uuml;,</p>
+<p>zui&ntilde; beitia ollaltegiko</p>
+<p>haga bezai&ntilde; xah&uuml;.</p>
+<p>Eginik dira deja</p>
+<p>tapaje handirik.</p>
+<p>Gizun bat bad&uuml;g&uuml; heben</p>
+<p>kolp&uuml;z lapidat&uuml;rik.</p>
+<p>Emaztia hart&uuml; &uuml;khen bal&uuml;</p>
+<p>bere esk&uuml;-peko,</p>
+<p>eg&uuml;n etz&uuml;kian, helt&uuml; bada,</p>
+<p>barbera beharko</p>
+<p>Orai karrosa hortarik</p>
+<p>jalkhi zitaie bertan:</p>
+<p>nik iganen z&uuml;tiet</p>
+<p>trionfa handitan.</p>
+<p><hi rend='Italic'> Orain karruxatik elkhi eta igan </hi></p>
+<p><hi rend='Italic'> trionfan triatiala, postill&uuml;nak </hi></p>
+<p><hi rend='Italic'> bandera etxekiz, pasei&uuml; bat egin </hi></p>
+<p><hi rend='Italic'> eta gero erretira. <foreign>Sonu</foreign>. Hir&uuml;r satanak jalkhi.</hi></p>
+<p><hi rend='Bold'> Satan</hi></p>
+<p>Behadi h&uuml;nat, <foreign>Jupiter</foreign>.</p>
+<p>Egin d&uuml;ka errefletzione?</p>
+<p>Behar nikek jakin</p>
+<p>denborarik gald&uuml; gabe.</p>
+<p><hi rend='Bold'> <foreign>Jupiter</foreign></hi></p>
+<p>Bai, jauna, egin tiz&uuml;t,</p>
+<p>eta soberaxe merke.</p>
+<p>O&uuml;rthian behar nikez&uuml;</p>
+<p>bi sakolen bethia &uuml;rhe.</p>
+<p><hi rend='Bold'> Satan</hi></p>
+<p>Sakolak aski xipi bad&uuml;t&uuml;k,</p>
+<p>horrez akort g&uuml;t&uuml;k.</p>
+<p>Eta hik, <foreign>Buljifer</foreign>,</p>
+<p>zunbat beharko d&uuml;k?</p>
+<p><hi rend='Bold'> <foreign>Buljifer</foreign></hi></p>
+<p>Sira, ni g&uuml;tiagoz</p>
+<p>kuntentatzen n&uuml;z&uuml;;</p>
+<p>bi milla libera, aments.</p>
+<p>Behar n&uuml;kez&uuml;.</p>
+<p>Behar nikez&uuml; haiegati</p>
+<p>hamar neskatila ph&uuml;ntzela,</p>
+<p>g&uuml;st&uuml; d&uuml;dan oroz</p>
+<p>libertitzeko hariekila.</p>
+<p><hi rend='Bold'> <foreign>Jupiter</foreign></hi></p>
+<p>Aiei, nik ere, jauna, baniz&uuml;n</p>
+<p>bizpahiruen beharra.</p>
+<p>Etzitaz&uuml; ohart&uuml;, adesa,</p>
+<p>horren erraitera.</p>
+<p><hi rend='Bold'> Satan</hi></p>
+<p>Neskatila ph&uuml;ntzelak aurthen</p>
+<p>arraroxe d&uuml;t&uuml;k;</p>
+<p>plaza huntan orotan dena</p>
+<p>hantxeko h&uuml;ra d&uuml;k.</p>
+<p><hi rend='Bold'> <foreign>Buljifer</foreign></hi></p>
+<p>Jauna, berzale z&uuml;nbait d&uuml;z&uuml; hura</p>
+<p>bizkarraz alde h&uuml;ntarat.</p>
+<p>Gero z&uuml;k ikh&uuml;sten d&uuml;t&uuml;z&uuml;</p>
+<p>haren bertz iph&uuml;rdiak.</p>
+<p><hi rend='Bold'> <foreign>Jupiter</foreign></hi></p>
+<p>Ez t&uuml;z&uuml; ez m&uuml;nd&uuml; huntan</p>
+<p>halako neskatilarik,</p>
+<p>sek&uuml;la balinda sorth&uuml;</p>
+<p>emaztiaren &uuml;zk&uuml;-zilotik.</p>
+<p><hi rend='Bold'> Satan</hi></p>
+<p>Ago hi, <foreign>Jupiter</foreign>.</p>
+<p>Mintzo iz korteski.</p>
+<p>Orizie ene larga-bista</p>
+<p>eta so egin hobeki.</p>
+<p><hi rend='Italic'> (Eman larga-bista eta biek so egin)</hi></p>
+<p><hi rend='Bold'> <foreign>Buljifer</foreign></hi></p>
+<p>Aiei, jauna, hura d&uuml;z&uuml;</p>
+<p>mustro ikharagarria.</p>
+<p>Begiak berak baditiz&uuml;</p>
+<p>bi xaskiren bethia.</p>
+<p>Aho bat ere badiz&uuml;</p>
+<p>labia bezai&ntilde; handiko</p>
+<p>eta ezpai&ntilde;ak propi</p>
+<p>zaldari biltzeko.</p>
+<p><hi rend='Bold'> <foreign>Jupiter</foreign></hi></p>
+<p>Hura ph&uuml;ntzela izanik ere</p>
+<p>ezt&uuml;z&uuml; estonatzeko;</p>
+<p>nik ja eztit nahi;</p>
+<p>atxikaz&uuml; z&uuml;retako.</p>
+<p><hi rend='Bold'> <foreign>Buljifer</foreign></hi></p>
+<p>Hura kapable d&uuml;z&uuml;</p>
+<p>gizunaren joiteko,</p>
+<p>eta orano bestalde</p>
+<p>osorik iresteko.</p>
+<p>Eztakizia eg&uuml;n ere</p>
+<p>zertako giren heben?</p>
+<p>Ifernialat eramaiteko</p>
+<p>emazte gizon joiten.</p>
+<p><hi rend='Bold'> Satan</hi></p>
+<p>Jaunak, ez, aren, xerkha</p>
+<p>neskatila ph&uuml;ntzelarik,</p>
+<p>zeren eta ezpeita</p>
+<p>ohakuetan baizik.</p>
+<p><hi rend='Bold'> <foreign>Jupiter</foreign></hi></p>
+<p>Satan, ezpad&uuml;z&uuml; guretako</p>
+<p>batere ph&uuml;ntzelarik,</p>
+<p>ezar itzaz&uuml; horiek oro</p>
+<p>&uuml;zk&uuml;-ziloti sarth&uuml;rik.</p>
+<p><hi rend='Bold'> <foreign>Buljifer</foreign></hi></p>
+<p>Eta gero zuaza</p>
+<p>zihaur Zarabozalat,</p>
+<p>galdeginik baitzira</p>
+<p>erhuen palaziulat.</p>
+<p><hi rend='Bold'> Satan</hi></p>
+<p>Ezpalin bazinezte</p>
+<p>zien zankhuer fida,</p>
+<p>ez ahal zintake</p>
+<p>eni hola mintza.</p>
+<p><hi rend='Bold'> <foreign>Jupiter</foreign></hi></p>
+<p>Ezk&uuml;t&uuml;z&uuml; zure beld&uuml;r</p>
+<p>haboro ezi ez &uuml;l&uuml; baten;</p>
+<p>laurdenkat&uuml;ren z&uuml;t&uuml;g&uuml;</p>
+<p>ezpazira untsa mintzatzen.</p>
+<p><hi rend='Bold'> Satan</hi></p>
+<p>Ale, kanailla salduoak,</p>
+<p>maradikat&uuml; debriak,</p>
+<p>orai nahi deitziet</p>
+<p>bier idoki erxiak.</p>
+<p><hi rend='Italic'> (<foreign>Sonu</foreign>. Batailla. Mithilak ezkapa.)</hi></p>
+<p><hi rend='Bold'> Satan</hi></p>
+<p>Bazuazte, jaunak, bazuazte,</p>
+<p>adiorik erran gabe;</p>
+<p>sarri ere, balinda, n&uuml;nbait</p>
+<p>helt&uuml;ren girade.</p>
+<p><hi rend='Italic'> (Kaniko sar. Xaribari.)</hi></p>
+<p><hi rend='Bold'> Kaniko</hi></p>
+<p>H&uuml;nen beste jente</p>
+<p>eg&uuml;n heben bad&uuml;g&uuml;,</p>
+<p>zien uhuretan nahi dit</p>
+<p>billart bat plantat&uuml;.</p>
+<p>Herri huntan ezpeita</p>
+<p>eg&uuml;ndano jokhat&uuml;,</p>
+<p>beste aire batian behar diz&uuml;g&uuml;</p>
+<p>eg&uuml;n libertit&uuml;.</p>
+<p><hi rend='Italic'> (Satan jalkhi herritatzera)</hi></p>
+<p><hi rend='Bold'> Satan</hi></p>
+<p>Ai, urde asto p&uuml;rrua,</p>
+<p>fantesiaz bethia,</p>
+<p>hire bizkarrian d&uuml;k eg&uuml;nko</p>
+<p>libertitzeko lekhia.</p>
+<p>Zer tresnak d&uuml;t&uuml;kan</p>
+<p>billart baten egiteko</p>
+<p>beste lanik badik, bai,</p>
+<p>hire emaztiak hiretako.</p>
+<p><hi rend='Bold'> Kaniko</hi></p>
+<p>Ene emaztia eta hi,</p>
+<p>biak algarreki,</p>
+<p>ezarriko z&uuml;tiet</p>
+<p>hortxe zankhoz goiti.</p>
+<p><hi rend='Bold'> Satan</hi></p>
+<p>Hobe h&uuml;ke emaztiaren</p>
+<p>nausi izatia,</p>
+<p>eta h&uuml;ra nausit&uuml; onduan</p>
+<p>besten desafiatzia.</p>
+<p>Jinen t&uuml;k, bai, berhala,</p>
+<p>hire zorigaitzian,</p>
+<p>bi gizon bohor bederetan,</p>
+<p>ari nahiz tratian.</p>
+<p>Hire emaztia gero</p>
+<p>buillta baten b&uuml;rian;</p>
+<p>hire bizkar handi hortan</p>
+<p>ariko d&uuml;k billartian.</p>
+<p><hi rend='Bold'> Kaniko</hi></p>
+<p>Ezpirit&uuml; gaixtuoa,</p>
+<p>khen akit aitzineti,</p>
+<p>ala, aments, akort iz</p>
+<p>ene emaztiareki?</p>
+<p><hi rend='Italic'> (Satan erretira. <foreign>Sonu</foreign>. Sabant eta Salha </hi></p>
+<p><hi rend='Italic'> tan zamariz jin eta paseia triate aitzinian; </hi></p>
+<p><hi rend='Italic'> Kaniko jalkhi eta mintza.)</hi></p>
+<p><hi rend='Bold'> Kaniko</hi></p>
+<p>N&uuml;rat ari zira</p>
+<p>k&uuml;npa&ntilde;arekin, Salhatan?</p>
+<p>Nahi zira ari gitian</p>
+<p>g&uuml;re bohorrez tr&uuml;kadan?</p>
+<p><hi rend='Bold'> Salhatan</hi></p>
+<p>Nula ez gira ariko</p>
+<p>tratian ere, Kaniko?</p>
+<p>Zunbat emanen d&uuml;z&uuml;?</p>
+<p>Erraz&uuml; ga&ntilde;eatiko!</p>
+<p><hi rend='Bold'> Sabant</hi></p>
+<p>Hamabost libera balio tiz&uuml;</p>
+<p>z&uuml;riak haboro, Kaniko.</p>
+<p>B&uuml;tilla bat ardu idok ezaz&uuml;,</p>
+<p>tratiaren egiteko.</p>
+<p><hi rend='Bold'> Salhatan</hi></p>
+<p>&Uuml;tzi nezak ene gisa</p>
+<p>egiteko hortan,</p>
+<p>ala hi kunprenitzen iz</p>
+<p>behorren tratian?</p>
+<p><hi rend='Bold'> Kaniko</hi></p>
+<p>Jaunak, aren, banua</p>
+<p>arduoaren xerkha.</p>
+<p>Jar zitie arten h&uuml;ntan.</p>
+<p>Hebenxe da mahai&ntilde;a.</p>
+<p><hi rend='Italic'> (<foreign>Sonu</foreign>. Ekhar arduoa eta hiruak mahai &ntilde;ia jar.)</hi></p>
+<p><hi rend='Bold'> Kaniko</hi></p>
+<p>Nahi d&uuml;ka egin dezag&uuml;n</p>
+<p>jaun hunen erranetik?</p>
+<p>Ezi hamabost libera</p>
+<p>eniak hiriak beno haboro balio tik.</p>
+<p><hi rend='Bold'> Salhatan</hi></p>
+<p>Ezt&uuml;z&uuml; ez batere</p>
+<p>hunen errana balable;</p>
+<p>hamabost libera behar tit</p>
+<p>eta ene behorra z&uuml;re.</p>
+<p><hi rend='Bold'> Sabant</hi></p>
+<p>Behar deroz&uuml;, Kaniko,</p>
+<p>eman hamar libera,</p>
+<p>eta tratia hortan finit&uuml;.</p>
+<p>D&uuml;g&uuml;n edatera.</p>
+<p><hi rend='Italic'> (Edan)</hi></p>
+<p><hi rend='Bold'> Kaniko</hi></p>
+<p>Jaunak, eginen d&uuml;g&uuml; hortan,</p>
+<p>bena behar d&uuml;g&uuml; therma&ntilde;o;</p>
+<p>bost libera eginen dit Bazkoz,</p>
+<p>eta beste bost Phentakosteko.</p>
+<p><hi rend='Italic'> (Jan eta edan.)</hi></p>
+<p>Alo, aren, jaunak</p>
+<p>akort girenaz gai&ntilde;an,</p>
+<p>beste botilla bat ardu</p>
+<p>phakatzen ahal d&uuml;t konpa&ntilde;an.</p>
+<p>Eta lehenik pipat&uuml;,</p>
+<p>jaunak, ziekilan;</p>
+<p>ardua erakharriren d&uuml;t</p>
+<p>gero mementian.</p>
+<p><hi rend='Bold'> Salhatan</hi></p>
+<p>Ez presa batere;</p>
+<p>pipa ezaz&uuml;, Kaniko.</p>
+<p>Ala ezt&uuml;z&uuml;, aments, emaztia</p>
+<p>ere zure man&uuml;ko?</p>
+<p><hi rend='Italic'> (Orai pipatzen has Kaniko; </hi></p>
+<p><hi rend='Italic'> argiarekin pipatzen. Gero mintza)</hi></p>
+<p><hi rend='Bold'> Kaniko</hi></p>
+<p>Nun ago, Belxitin?</p>
+<p>Barne hortarik aig&uuml; hunat,</p>
+<p>idok ezag&uuml;n mementian</p>
+<p>ardu butilla bat.</p>
+<p><hi rend='Italic'> (Belxitin jalkhi eta mintza, s&uuml;d&uuml;rriala juoanik Kanikori.)</hi></p>
+<p><hi rend='Bold'> Belxitina</hi></p>
+<p>Ale, &uuml;rde gormant,</p>
+<p>zorriek jan-beharra!</p>
+<p>H&uuml;ntarz&uuml;naren igorteko ere,</p>
+<p>behar d&uuml;ka neskatua?</p>
+<p>O&uuml;rde auher zarrak!</p>
+<p>Ezt&uuml;zieia jeiki ord&uuml;?</p>
+<p>Ala nahi d&uuml;zieia</p>
+<p>barrika oro h&uuml;st&uuml;?</p>
+<p><hi rend='Italic'> (<foreign>Ferragus</foreign> zamariala. Kanikok har botilla </hi></p>
+<p><hi rend='Italic'> eta abia balenzan. Belxitinak urthuki </hi></p>
+<p><hi rend='Italic'> mahai&ntilde;a eta argia; gero loth Kanikori; </hi></p>
+<p><hi rend='Italic'> joiten dialarik, pipa urthuki. </hi></p>
+<p><hi rend='Italic'> Kanikok ostiko eman nahi eta ezin atzaman. </hi></p>
+<p><hi rend='Italic'> Sabant eta Salhatan loth.)</hi></p>
+<p><hi rend='Bold'> Sabant</hi></p>
+<p>Ale, milla debria! Eta horik?</p>
+<p>Zer jesto d&uuml;t&uuml;zie?</p>
+<p>G&uuml; girela kausa, lehen aldian</p>
+<p>hasi othe ziradie?</p>
+<p><hi rend='Bold'> Salhatan</hi></p>
+<p>Ez, debria baliz ere ez,</p>
+<p>orai odol hotzian:</p>
+<p>Ale, itx&uuml;si zarrak!</p>
+<p>Gorde zitaie mementian.</p>
+<p><hi rend='Italic'> (Oro erretira. <foreign>Sonu</foreign>. <foreign>Ferragus</foreign> jiganta </hi></p>
+<p><hi rend='Italic'> zamariz jin, &uuml;zkialako aldialat delarik.)</hi></p>
+<p><hi rend='Bold'> <foreign>Ferragus</foreign></hi></p>
+<p>Ha! Ha! Khiristiak,</p>
+<p>n&uuml;rat gorde zirie?</p>
+<p>Ni ikh&uuml;si naizienian</p>
+<p>laster egin d&uuml;zie.</p>
+<p>Hatzeman bah&uuml;nd&uuml;t, Belxitina,</p>
+<p>senharrari jokaz,</p>
+<p>janen z&uuml;ntiedan biak,</p>
+<p>zabalt&uuml;rik ene mailliaz.</p>
+<p>Bena balinba, zunbait</p>
+<p>atzemanen z&uuml;tiet.</p>
+<p>Arrakuntratiak oro</p>
+<p>zedi-eraziren beitz&uuml;tiet.</p>
+<p>Apetit&uuml; hun bat bad&uuml;t</p>
+<p>Khiristien jateko;</p>
+<p>ezn&uuml;t&uuml;ke hamabost</p>
+<p>sobera apair&uuml;ko.</p>
+<p>Olandako landetan</p>
+<p>bizi nintzan orai artino;</p>
+<p>han ere ezd&uuml;t orai</p>
+<p>bizigarririk haboro.</p>
+<p>Iretsi d&uuml;t&uuml;t hanko</p>
+<p>zamari eta aberiak,</p>
+<p>bai eta artzai&ntilde;er ere</p>
+<p>bortxaz bere ardiak.</p>
+<p>Mahai&ntilde; huntan nahi niz</p>
+<p>orai bertan plantat&uuml;,</p>
+<p>eta maill&uuml; handi hunez</p>
+<p>khiristiak oro zaphat&uuml;.</p>
+<p>Ez da m&uuml;ndian sorth&uuml;</p>
+<p>ni bezai&ntilde; giz&uuml;n handirik;</p>
+<p>khiristiak xahat&uuml;ren d&uuml;t&uuml;t</p>
+<p>ene maill&uuml; handiaz nik.</p>
+<p>Orai mahai&ntilde; huntan</p>
+<p>gai&ntilde;a igaraiteko,</p>
+<p>lag&uuml;n bat h&uuml;n n&uuml;ke</p>
+<p>goiti thiratzeko.</p>
+<p><hi rend='Italic'> (Jaitsi zamariti. Satan jalkhi.)</hi></p>
+<p><hi rend='Bold'> Satan</hi></p>
+<p>Hau naiala ni orai</p>
+<p>hire lag&uuml;ntzera jiten;</p>
+<p>khako h&uuml;n bat ere badiat</p>
+<p>hire thiratzeko heben.</p>
+<p>Aig&uuml; hunat bertan;</p>
+<p>ekharrak eskia.</p>
+<p>Nik thirat&uuml;ren ait</p>
+<p>khako hunekila.</p>
+<p><hi rend='Italic'> (Thira eta <foreign>Ferragus</foreign> mintza.)</hi></p>
+<p><hi rend='Bold'> <foreign>Ferragus</foreign></hi></p>
+<p>Ja, Satan, ja, emeki,</p>
+<p>enezala hola thira.</p>
+<p>Khako xar horrez</p>
+<p>xilatzen deitak larria.</p>
+<p><hi rend='Bold'> Satan</hi></p>
+<p>Igan adi, aren,</p>
+<p>animal handia;</p>
+<p>&uuml;d&uuml;ri d&uuml;k badiala</p>
+<p>hamar kintaleren phezia.</p>
+<p><hi rend='Bold'> <foreign>Ferragus</foreign></hi></p>
+<p>Ale, debr&uuml; mithiria,</p>
+<p>&uuml;tzi ezadak larria.</p>
+<p>Igaten baniz horra</p>
+<p>idokiten derat bizia.</p>
+<p>So egin ezak hunat,</p>
+<p>ene maill&uuml; handiari;</p>
+<p>h&uuml;nek aphua bezala</p>
+<p>lehert&uuml;ren behai.</p>
+<p><hi rend='Bold'> Satan</hi></p>
+<p>Igan adi, aren</p>
+<p>triate huntan gai&ntilde;a;</p>
+<p>ikh&uuml;s dezag&uuml;n bertan</p>
+<p>nula zaphat&uuml;ren naia.</p>
+<p><hi rend='Bold'> <foreign>Ferragus</foreign></hi></p>
+<p>Nahi d&uuml;ka ikh&uuml;si othian,</p>
+<p>ene m&uuml;stra orriblia,</p>
+<p>igaiten baniz horra,</p>
+<p>zer lasterra eginen dia?</p>
+<p><hi rend='Bold'> Satan</hi></p>
+<p>Ale, animal handia,</p>
+<p>eztiat lasterrik eginen,</p>
+<p>bena bai khako h&uuml;nez</p>
+<p>hi therresta eramanen.</p>
+<p><hi rend='Italic'> (Igan triatera)</hi></p>
+<p><hi rend='Bold'> <foreign>Ferragus</foreign></hi></p>
+<p>Alo, Satan, orai</p>
+<p>behar diag&uuml; kunbatit&uuml;;</p>
+<p>k&uuml;k&uuml;so bat bezala</p>
+<p>nahi ait zaphat&uuml;.</p>
+<p><hi rend='Italic'> (Batailla. Satan ezkapa.)</hi></p>
+<p><hi rend='Bold'> <foreign>Ferragus</foreign></hi></p>
+<p>Ha! Miserable &uuml;lia,</p>
+<p>ihesi juoan iza?</p>
+<p>Hik zer eginen hian,</p>
+<p>nik phentsatzen nia.</p>
+<p>Bena jiten bahitzait</p>
+<p>harzara herritatzera;</p>
+<p>lehert&uuml;ren ait hebexe</p>
+<p>karakoill bat bezala.</p>
+<p>Ni orai banua</p>
+<p>aph&uuml;r bat errepausatzera.</p>
+<p>Sarri &uuml;tz&uuml;lien niz</p>
+<p>khiristi zunbaiten jatera.</p>
+<p><hi rend='Italic'> (<foreign>Sonu</foreign>. Erretira.</hi></p>
+<p><hi rend='Italic'> Kaniko jalkhi eta mintza)</hi></p>
+<p>Ha! Ezteia malerus</p>
+<p>m&uuml;ndian ene zorthia?</p>
+<p>Behar d&uuml;t desesperat&uuml;</p>
+<p>edo gald&uuml; bizia.</p>
+<p>Zerentako abiat&uuml; niz</p>
+<p>berritan ezkuntziari,</p>
+<p>emaztia &uuml;kheitekoz</p>
+<p>nihauren b&uuml;r&uuml;zagi?</p>
+<p>Hobe l&uuml;ke gizunak</p>
+<p>bere b&uuml;ria ithotzia,</p>
+<p>ezi ez eta emazte</p>
+<p>gaixto baten hartzia.</p>
+<p>Ikh&uuml;sten d&uuml;zie, jente hunak,</p>
+<p>n&uuml;la agiz&uuml; zaitan;</p>
+<p>bai, eta orano ere</p>
+<p>ni bardin arriskian.</p>
+<p>Arduren idokitzera</p>
+<p>hura manha nezan,</p>
+<p>arrazui&ntilde; bat zena othian,</p>
+<p>olhuoak &uuml;khen nitzan?</p>
+<p>Bena daig&uuml;n aldian</p>
+<p>ezin bad&uuml;t garhaitzen,</p>
+<p>xah&uuml;ki errabiat&uuml;rik</p>
+<p>naizie ikh&uuml;sten.</p>
+<p>Ale, perfida traidoria,</p>
+<p>maradikat&uuml; debria,</p>
+<p>kost&uuml;maren &uuml;zteko ere</p>
+<p>sobera iz trebatia!</p>
+<p>Jente h&uuml;nak, banua;</p>
+<p>eniz batere fida,</p>
+<p>&uuml;khen eztezadan, aments,</p>
+<p>p&uuml;blikuoan deshuhuria.</p>
+<p><hi rend='Italic'> (Erretira. <foreign>Sonu</foreign>. Belxitinatina jalkhi eta mintza.)</hi></p>
+<p><hi rend='Bold'> Belxitina</hi></p>
+<p>N&uuml;rat othe zait</p>
+<p>ene senharra Kaniko?</p>
+<p>Naski beharko d&uuml; harek</p>
+<p>orano z&uuml;nbait phanpako.</p>
+<p>Ala sobera kolpat&uuml;</p>
+<p>othe d&uuml;t azken aldian?</p>
+<p>Aleta, &uuml;khenen t&uuml; bai</p>
+<p>lehen errekuntrian.</p>
+<p>Hanitx emazte ikh&uuml;sten tit</p>
+<p>senharrak b&uuml;r&uuml;zagi;</p>
+<p>brida laxuegi &uuml;ztiak</p>
+<p>egiten d&uuml; hori.</p>
+<p>Emaztekiak el&uuml;ke behar</p>
+<p>izan sobera astai&ntilde;a;</p>
+<p>jo behar die gizunek</p>
+<p>bizkarreti behera</p>
+<p><hi rend='Italic'>(Satan jalkhi eta mintza)</hi></p>
+<p><hi rend='Bold'> Satan</hi></p>
+<p>Arrazu d&uuml;n, Belxitina;</p>
+<p>behar d&uuml;n lahardekat&uuml;;</p>
+<p>gero, hura hil denian,</p>
+<p>beste bat xerkhat&uuml;.</p>
+<p>Ordian irabaziko d&uuml;n</p>
+<p>bent&uuml;raz zerbait tratian,</p>
+<p>eta gero gureki</p>
+<p>erreren ifernian.</p>
+<p><hi rend='Bold'> Belxitina</hi></p>
+<p>Ifernian erreik edo gabe,</p>
+<p>eztiat ja sofrit&uuml;ren;</p>
+<p>h&uuml;nen beste nizano,</p>
+<p>petik diat etxekiren.</p>
+<p><hi rend='Italic'> (Belxitina erretira)</hi></p>
+<p><hi rend='Bold'> Satan</hi></p>
+<p>Tr&uuml;blament&uuml;tan nago,</p>
+<p>ezpiritia nahasirik,</p>
+<p>ene mithilak n&uuml;n diren</p>
+<p>ezpeitakit berririk.</p>
+<p>B&uuml;gre h&uuml;rak, aren</p>
+<p>n&uuml;nbait lo d&uuml;t&uuml;t,</p>
+<p>ezi bi oren h&uuml;ntan</p>
+<p>ezin edireiten d&uuml;t&uuml;t.</p>
+<p><foreign>Buljifer</foreign>, hiri ziuoat:</p>
+<p>Aig&uuml; hunat fite,</p>
+<p>bai eta hai&ntilde; &uuml;ntsa</p>
+<p><foreign>Jupiter</foreign> aphua ere.</p>
+<p><hi rend='Italic'> (<foreign>Buljifer</foreign> jin eta mintza)</hi></p>
+<p><hi rend='Bold'> <foreign>Buljifer</foreign></hi></p>
+<p>Jauna, zer othe d&uuml;z&uuml;</p>
+<p>hainbeste azantzekin?</p>
+<p>Ala uste d&uuml;z&uuml; egonen</p>
+<p>girela bethi zurekin?</p>
+<p><hi rend='Italic'> (Jalkhi <foreign>Jupiter</foreign>)</hi></p>
+<p><hi rend='Bold'> <foreign>Jupiter</foreign></hi></p>
+<p>Zer d&uuml;zie, jaunak,</p>
+<p>hainbeste azantz egiteko?</p>
+<p>Haur naiziela <foreign>Jupiter</foreign>,</p>
+<p>eta zer d&uuml;zie erraiteko?</p>
+<p><hi rend='Bold'> Satan</hi></p>
+<p>Eztiat erraitekorik</p>
+<p>zientako batere,</p>
+<p>bena n&uuml;n egon zirien</p>
+<p>bertan errazie.</p>
+<p><hi rend='Bold'> <foreign>Buljifer</foreign></hi></p>
+<p>Jauna, ezt&uuml;z&uuml; propi</p>
+<p>orai erraiteko z&uuml;ri;</p>
+<p>hartakoz pazentzia</p>
+<p>har zaz&uuml; arrank&uuml;ra gati.</p>
+<p><hi rend='Bold'> Satan</hi></p>
+<p>Propi ala ez propi</p>
+<p>erradazie fite;</p>
+<p>bestela aldiz, kanpuoa</p>
+<p>biek har ezadazie</p>
+<p><hi rend='Bold'> <foreign>Jupiter</foreign></hi></p>
+<p>Jauna, ats&uuml;l&uuml;toki</p>
+<p>jakin nahi bad&uuml;z&uuml;,</p>
+<p>hortxe, etxe gibelian</p>
+<p>khaka egiten egon g&uuml;t&uuml;z&uuml;.</p>
+<p>Lan hori g&uuml;k</p>
+<p>zure zerb&uuml;tx&uuml;ko egin d&uuml;g&uuml;,</p>
+<p>eta satisfet g&uuml;nt&uuml;kez&uuml;</p>
+<p>hala kuntent bazina z&uuml;.</p>
+<p><hi rend='Italic'> (Satan mintza khexat&uuml;rik)</hi></p>
+<p><hi rend='Bold'> Satan</hi></p>
+<p>Beste manerarik ehiana</p>
+<p>arrazu horren esplikatzeko?</p>
+<p>Ziauzte, badiat nik xarpa</p>
+<p>zier &uuml;zkiaren xahatzeko!</p>
+<p><hi rend='Bold'> <foreign>Buljifer</foreign></hi></p>
+<p>Lan hortako, jauna</p>
+<p>ezt&uuml;z&uuml; aski ezti hori;</p>
+<p>egitekoz, egin itzag&uuml;z&uuml;</p>
+<p>zure mihi l&uuml;ziareki.</p>
+<p><hi rend='Bold'> Satan</hi></p>
+<p>Errespetiak oro</p>
+<p>n&uuml;rat &uuml;tzi d&uuml;t&uuml;zie?</p>
+<p>Alo, untsa mintzatzen</p>
+<p>ikhasi behar d&uuml;zie.</p>
+<p>Defenda zitaie eni,</p>
+<p>edo goguoa emazie;</p>
+<p>bestela biek biziak</p>
+<p>gald&uuml; behar d&uuml;t&uuml;zie.</p>
+<p><hi rend='Bold'> <foreign>Buljifer</foreign></hi></p>
+<p>Koraje, to, <foreign>Jupiter</foreign>,</p>
+<p>loth akio Satani;</p>
+<p>larr&uuml;t&uuml; behar diag&uuml;,</p>
+<p>ene fedia, oraikoti.</p>
+<p><hi rend='Italic'> (Batailla. Mithilak belharika.)</hi></p>
+<p><hi rend='Bold'> Satan</hi></p>
+<p>Ezt&uuml; de&uuml;s egiten orai</p>
+<p>heben belharikatziak.</p>
+<p>Alo, eni erak&uuml;ts etzatzie</p>
+<p>xah&uuml; t&uuml;zienez &uuml;zkiak.</p>
+<p><hi rend='Italic'> (Batailla. Ezkapa mithilak. </hi></p>
+<p><hi rend='Italic'> Satan dantza; gero erretira.</hi></p>
+<p><hi rend='Italic'> Belxitina, erhatz bat bizkarrian, jin.)</hi></p>
+<p><hi rend='Bold'> Belxitina</hi></p>
+<p>Ene senharra naski</p>
+<p>oraikuan gald&uuml; dit;</p>
+<p>ith&uuml;rria ere nihaurek</p>
+<p>xahat&uuml; beharko dit.</p>
+<p>Areta, baliat&uuml; zaio,</p>
+<p>zeren den eskapat&uuml;;</p>
+<p>bestela beharko z&uuml;kian</p>
+<p>latsagia xahat&uuml;.</p>
+<p>Gizunari etzaio behar</p>
+<p>de&uuml;sere pharkat&uuml;;</p>
+<p>emaztia malerus da,</p>
+<p>gizunak gai&ntilde;a hartzen bad&uuml;.</p>
+<p><hi rend='Italic'> (Erretira ezker. <foreign>Sonu</foreign>. Sabant eta </hi></p>
+<p><hi rend='Italic'> Salha tan jalkhi eta khanta pasei&uuml;z)</hi></p>
+<p><hi rend='Bold'> Biak</hi></p>
+<p>Biba la liberte, egalite,</p>
+<p>Frantziako errep&uuml;blika,</p>
+<p>nahi bada &uuml;khen d&uuml;g&uuml;</p>
+<p>herrian erreboilta. (<foreign>Sonu</foreign>.)</p>
+<p>Parisen erauntsi die</p>
+<p>aberatsen kuntra;</p>
+<p>heben aldiz emaztia</p>
+<p>senharrari joka. (<foreign>Sonu</foreign>)</p>
+<p>Parisen erauntsi die</p>
+<p>hanitx dihar&uuml; gatik;</p>
+<p>heben aldiz botilla bat</p>
+<p>ardu fut&uuml;te gatik. (<foreign>Sonu</foreign>.)</p>
+<p>Parisen erauntsi die</p>
+<p>Frantzia oro gatik;</p>
+<p>heben aldiz emazte batek</p>
+<p>porra pasatzia gatik. (<foreign>Sonu</foreign>.)</p>
+<p>D&uuml;g&uuml;n, ene lag&uuml;na, egin</p>
+<p>bazkari bat handirik,</p>
+<p>ezt&uuml;g&uuml;lakoz etxian</p>
+<p>hai&ntilde; emazte gaixtorik. (<foreign>Sonu</foreign>.)</p>
+<p><hi rend='Italic'> (Orai maha&ntilde;a ezar eta biak jar.</hi></p>
+<p><hi rend='Italic'> Jaten ari; Kaniko ager bistara </hi></p>
+<p><hi rend='Italic'> botilla bat ardureki.)</hi></p>
+<p><hi rend='Bold'> Kaniko</hi></p>
+<p>Zer diozie, jaunak?</p>
+<p>Badeia apetit&uuml;?</p>
+<p>Nik ere hau bad&uuml;t,</p>
+<p>nahi banaizie kh&uuml;mitat&uuml;.</p>
+<p><hi rend='Bold'> Sabant</hi></p>
+<p>Aig&uuml;, aig&uuml; hunaxe,</p>
+<p>nahi bahiz, Kaniko;</p>
+<p>g&uuml; bezai&ntilde; hun iz, bai,</p>
+<p>phartiaren thiratzeko.</p>
+<p><hi rend='Bold'> Salhatan</hi></p>
+<p>Har ezak kaidera hori;</p>
+<p>nik phartit&uuml;ren diat orori.</p>
+<p>Hobeneti idoki d&uuml;ka</p>
+<p>botilla ardu hori?</p>
+<p><hi rend='Italic'> (Orai Belxitina jalkhi ezkerreti, </hi></p>
+<p><hi rend='Italic'> erhatza bizkarrian; Kaniko erretira berhala eskui&ntilde;.)</hi></p>
+<p><hi rend='Bold'> Belxitina</hi></p>
+<p>Eg&uuml;ndanoti ez da ihun</p>
+<p>eni lana falta;</p>
+<p>orain ere behar d&uuml;t juan</p>
+<p>xermendien biltzera.</p>
+<p><hi rend='Italic'> (Belxitina erretira eskui&ntilde;; </hi></p>
+<p><hi rend='Italic'> &uuml;tzi erhatza. Kaniko jalkhi eta juan </hi></p>
+<p><hi rend='Italic'> mahai&ntilde;era, borthan erhatza hart&uuml;rik.)</hi></p>
+<p><hi rend='Bold'> Kaniko</hi></p>
+<p>Jaunak, ez erran ezt&uuml;dala</p>
+<p>sek&uuml;la de&uuml;s ekharten;</p>
+<p>erhatza ere bad&uuml;keg&uuml;</p>
+<p>xahatzeko barnen.</p>
+<p><hi rend='Italic'> (Jar mahai&ntilde;ian; jaten has. </hi></p>
+<p><hi rend='Italic'> Belxitina jalkhi eta juan mahai&ntilde;era. </hi></p>
+<p><hi rend='Italic'> Khexat&uuml;rik mintza.)</hi></p>
+<p>Ale, mila debria!</p>
+<p>Zerk ekharri hai hi h&uuml;na?</p>
+<p>Ni erhatzaren onduoan</p>
+<p>eta kas&uuml; ere heben d&uuml;ka?</p>
+<p>Ala ekharri d&uuml;k, aments,</p>
+<p>bizkarrian zerb&uuml;txatzeko?</p>
+<p>Ezpad&uuml;k hala ekharri ere</p>
+<p>etzaik faltat&uuml;ko.</p>
+<p><hi rend='Bold'> Kaniko</hi></p>
+<p>Emazte mila debria,</p>
+<p>khen akit aitzineti!</p>
+<p>Aiher n&uuml;n bi ostikataz hezadan</p>
+<p>zankhaz gora urthuki.</p>
+<p><hi rend='Bold'> Belxitina</hi></p>
+<p>Ale, koki bugria,</p>
+<p>hik bahia eni ostiko?</p>
+<p>&Uuml;khenen t&uuml;k, bai, erhatzaren</p>
+<p>giderra hauts artio.</p>
+<p><hi rend='Italic'> (Belxitinak erhautzaz jo; </hi></p>
+<p><hi rend='Italic'> Kanikok ostikoz atzaman nahi. </hi></p>
+<p><hi rend='Italic'> Sabant eta Salhatan lot.)</hi></p>
+<p><hi rend='Bold'> Sabant</hi></p>
+<p>Aiei, debr&uuml; emaztia,</p>
+<p>gizuna hilen d&uuml;n;</p>
+<p>eta gero beste bat,</p>
+<p>n&uuml;n atzeman d&uuml;n?</p>
+<p><hi rend='Bold'> Salhatan</hi></p>
+<p>Holako emaztiaren, bad&uuml;k</p>
+<p>seg&uuml;rki gizun bat franko.</p>
+<p>Miserable tristia</p>
+<p>phena ikhusteko!</p>
+<p><hi rend='Italic'>(Erretira. <foreign>Ferragus</foreign> bera jalkhi eta jar </hi></p>
+<p><hi rend='Italic'> pipatzen.)</hi></p>
+<p><hi rend='Bold'> <foreign>Ferragus</foreign></hi></p>
+<p>Ha! Zer plazera</p>
+<p>piparen zihikatzia!</p>
+<p>Neskatilak, erradazie.</p>
+<p>Ezteia hori egia?</p>
+<p>Miserabliak, ard&uuml;ra</p>
+<p>h&uuml;tsik pipatzen d&uuml;zie;</p>
+<p>halere zien mihian</p>
+<p>arrakastak handi d&uuml;t&uuml;zie.</p>
+<p>Nik pipat&uuml;ren d&uuml;t;</p>
+<p>bat&uuml;t arnes g&uuml;ziak.</p>
+<p>Bena hantxeko mithil haiek</p>
+<p>d&uuml;tie zien pipen ziriak.</p>
+<p>Soizie, soizie, hantxeko h&uuml;ra,</p>
+<p>begiak &uuml;rrat&uuml;rik,</p>
+<p>ene bereki eraman nahiz,</p>
+<p>ahua zabalt&uuml;rik.</p>
+<p>Areta, enai &uuml;khenen</p>
+<p>zeren tian begiak gorri;</p>
+<p>bat beit&uuml;t hitzart&uuml;rik</p>
+<p>hogei mila liberareki.</p>
+<p><hi rend='Italic'> Jaiki eta pase(ia.)</hi></p>
+<p>Ha! Zer plazera eg&uuml;n</p>
+<p>heben paseatzia!</p>
+<p>&Uuml;ntsa aserik denak</p>
+<p>desiratzen d&uuml; lotzia.</p>
+<p>Ni ere arrigolat&uuml;rik niz</p>
+<p>itxain bat bezala;</p>
+<p>idi bat jan d&uuml;t bere larr&uuml;</p>
+<p>eta aztaparrekila.</p>
+<p>Orai nahi nintzate</p>
+<p>aph&uuml;r bat errepausat&uuml;;</p>
+<p>ixil egon zitie, mement bat</p>
+<p>behar beit&uuml;t loth&uuml;.</p>
+<p>Bena othoizten z&uuml;tiet</p>
+<p>enezaziela interrunpi;</p>
+<p>bestela lehert&uuml;ren z&uuml;tiet</p>
+<p>maill&uuml; handi huneki.</p>
+<p><hi rend='Italic'> (Etzan eta lo. </hi></p>
+<p><hi rend='Italic'> Satan bera jalkhi.)</hi></p>
+<p><hi rend='Bold'> Satan</hi></p>
+<p>Ha, ha! Hor intzana,</p>
+<p>animal handia?</p>
+<p>Aig&uuml;, jaik adi,</p>
+<p>behar d&uuml;k jin enekila.</p>
+<p>Alo, bertan, aren,</p>
+<p>iratzar adi berhala;</p>
+<p>bestela khako h&uuml;nez</p>
+<p>eramanen ait therresta.</p>
+<p><hi rend='Bold'> <foreign>Ferragus</foreign></hi></p>
+<p>Zeitera iz h&uuml;na,</p>
+<p>debr&uuml; Satan xarra;</p>
+<p>khen akit horti,</p>
+<p>eta ni &uuml;tzi lotara.</p>
+<p><hi rend='Bold'> Satan</hi></p>
+<p>Ehait nahi &uuml;tzi,</p>
+<p>maraut urdia;</p>
+<p>behar d&uuml;k orai phakat&uuml;</p>
+<p>eni egin afr&uuml;ntia.</p>
+<p>Aurkhi, lasterkat&uuml; naik</p>
+<p>leh&uuml; bat bezala,</p>
+<p>bena orai nahi ait eraman</p>
+<p>iferniaren erdira.</p>
+<p><hi rend='Bold'> <foreign>Ferragus</foreign></hi></p>
+<p>Ene eramaiteko</p>
+<p>iferniaren erdira,</p>
+<p>behar litikek, aments,</p>
+<p>hi bezalakorik sei mila.</p>
+<p><hi rend='Bold'> Satan</hi></p>
+<p>Aski ni nihau</p>
+<p>hire eramaiteko;</p>
+<p>jaiki adi bertan</p>
+<p>eneki k&uuml;nbitatzeko.</p>
+<p><hi rend='Bold'> <foreign>Ferragus</foreign></hi></p>
+<p>Khen akit hebeti,</p>
+<p>eta ni &uuml;tzi lotara;</p>
+<p>bestela lehert&uuml;ren ait</p>
+<p>apho xar bat bezala.</p>
+<p><hi rend='Bold'> Satan</hi></p>
+<p>En&uuml;k khend&uuml;ren</p>
+<p>sek&uuml;la, hi jeik artino;</p>
+<p>nahi diat ikh&uuml;si</p>
+<p>hire tailla oro.</p>
+<p><hi rend='Bold'> <foreign>Ferragus</foreign></hi></p>
+<p>Nahi d&uuml;ka ikh&uuml;si,</p>
+<p>ene mustra handia?</p>
+<p>Bena laster eginen d&uuml;k,</p>
+<p>leheneko aldian bezala.</p>
+<p><hi rend='Bold'> Satan</hi></p>
+<p>Eztiat eginen, ez,</p>
+<p>hire gatik lasterrik,</p>
+<p>bena bai hi eramanen</p>
+<p>bizkarrian hart&uuml;rik.</p>
+<p><hi rend='Bold'> <foreign>Ferragus </foreign></hi><hi rend='Italic'>(Jaikitiarekin).</hi></p>
+<p>So egin ezak h&uuml;nat,</p>
+<p>ene maill&uuml; handiari;</p>
+<p>h&uuml;nek aphua bezala</p>
+<p>lehert&uuml;ren behai.</p>
+<p><hi rend='Italic'> (Batailla. Satan ezkapa.)</hi></p>
+<p><hi rend='Bold'> <foreign>Ferragus</foreign></hi></p>
+<p>Baliatzen zaik, Satan,</p>
+<p>arhin bait&uuml;k aztala;</p>
+<p>bestela lehert&uuml;ren ait</p>
+<p>sag&uuml;-h&uuml;me bat bezala.</p>
+<p>Bena jiten bahiz</p>
+<p>berriz herritatzera;</p>
+<p>ehiz eskapiren,</p>
+<p>oraiko bi aldietan bezala.</p>
+<p>Orai behar d&uuml;t erretirat&uuml;</p>
+<p>zerbaiten xerkhatzera,</p>
+<p>idi bat ahal bad&uuml;t ediren,</p>
+<p>gero haren jatera.</p>
+<p><hi rend='Italic'> (Erretira. <foreign>Sonu</foreign>.)</hi></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>TRAJERIAREN &Uuml;NDAR PHARTIA</hi></p>
+<p><hi rend='Italic'> (Barbera jin zamariz)</hi></p>
+<p><hi rend='Bold'> Barbera</hi></p>
+<p>Jente h&uuml;nak, jiten niz</p>
+<p>eg&uuml;n herri h&uuml;ntara,</p>
+<p>zui&ntilde; hau deitzen beita</p>
+<p>Konstantinople herria</p>
+<p>Hau naizela, aren, Barbera</p>
+<p>eg&uuml;n zien herrian,</p>
+<p>aprobazionez kestione</p>
+<p>mintzat&uuml;ren niz mementian.</p>
+<p>H&uuml;nen beste jente heben,</p>
+<p>g&uuml;ziak ene haid&uuml;r&uuml;;</p>
+<p>hartakoz behar d&uuml;t</p>
+<p>berhala jauregi huntan sarth&uuml;.</p>
+<p>Hebenti mintzat&uuml;ren niz,</p>
+<p>eta lanian ariko;</p>
+<p>nik sendo-erazten d&uuml;t&uuml;t</p>
+<p>eritarz&uuml;n suertiak oro.</p>
+<p><hi rend='Italic'> (Igan triatiala eta jar.)</hi></p>
+<p>Jente h&uuml;nak, huillan zitie,</p>
+<p>eri blesat&uuml; g&uuml;ziak,</p>
+<p>konkor, xaink&uuml;, begi-bakhotx</p>
+<p>&uuml;ts&uuml;, m&uuml;t&uuml; g&uuml;ziak.</p>
+<p>Haginian min d&uuml;zienak,</p>
+<p>abis bat nahi bad&uuml;zie,</p>
+<p>h&uuml;ra zui&ntilde; zien etxetan</p>
+<p>aisa eginen d&uuml;zie.</p>
+<p>Haginian min d&uuml;ke gizon batek,</p>
+<p>eta eskiez ezin idok;</p>
+<p>nik emanen deiziet abis bat</p>
+<p>eginen beit&uuml;zie orok.</p>
+<p>Nik ikh&uuml;si d&uuml;t Bersaillen</p>
+<p>hazienda-b&uuml;ria hortzak batere ez /higitzen</p>
+<p>tripa saldan egos eta</p>
+<p>g&uuml;ziak esk&uuml;z khentzen.</p>
+<p>Jente h&uuml;nak, hori</p>
+<p>aise eginen d&uuml;zie,</p>
+<p>minik haboro ezd&uuml;keziela</p>
+<p>ni bermatzen nitzaitzie.</p>
+<p>Eta orano beste alde,</p>
+<p>bad&uuml;t erremedio,</p>
+<p>neskatilek berek nahi d&uuml;tien</p>
+<p>senharrek &uuml;kheiteko.</p>
+<p>Neskatilek preferatzen die</p>
+<p>mantharik gabe ebiltia,</p>
+<p>eta erremedio haren</p>
+<p>botigan erostia.</p>
+<p>Nik ikh&uuml;si t&uuml;t neskatilak</p>
+<p>Pariseko hirian,</p>
+<p>bere martxandiza saltzen</p>
+<p>beste muienik etzianian.</p>
+<p>Neskatilak, eros ezazie</p>
+<p>arragretik gabe,</p>
+<p>n&uuml;nbait arranjat&uuml;ren gira</p>
+<p>martxandizala gabe.</p>
+<p>Nahiago dit erremediua</p>
+<p>merke konposat&uuml;rik,</p>
+<p>hari ph&uuml;tz bat egin eta</p>
+<p>h&uuml;ra eman kitorik.</p>
+<p>Gero ezk&uuml;nt&uuml;ren zirie</p>
+<p>ph&uuml;tz-egile z&uuml;nbaiteki,</p>
+<p>ohian b&uuml;riak untsa k&uuml;k&uuml;t&uuml;rik</p>
+<p>berot&uuml;ren algarreki.</p>
+<p>Hantxeko huak ere</p>
+<p>ezkont&uuml; dira aitzineko eg&uuml;netan,</p>
+<p>bena errexistruak egin d&uuml;tie</p>
+<p>n&uuml;nbait, zokho horietan.</p>
+<p>Kh&uuml;ndia behar bal&uuml;te,</p>
+<p>bai eman hebenxe;</p>
+<p>erran liote egin d&uuml;tiela</p>
+<p>n&uuml;nbait piragainkaxe.</p>
+<p>Orai zien presentziak</p>
+<p>plazer balin bal&uuml;;</p>
+<p>nahi nintzate karg&uuml; hau beno</p>
+<p>handiago batetan sarth&uuml;.</p>
+<p>Jaun-anderiak, zien botzetan</p>
+<p>behar naizie izentat&uuml;;</p>
+<p>nahi n&uuml;ke sarth&uuml; maiatzian</p>
+<p>Parisen dep&uuml;tat&uuml;.</p>
+<p>Ene eletzionian,</p>
+<p>aski botz ezpada,</p>
+<p>maiatzian emanen deitade</p>
+<p>asto g&uuml;ziek bedera.</p>
+<p><hi rend='Italic'> (Kaniko jalkhi esk&uuml;&ntilde;eti. Paseia.)</hi></p>
+<p><hi rend='Bold'> Kaniko</hi></p>
+<p>Jauna, hau naiz&uuml;la</p>
+<p>eri miserable bat,</p>
+<p>z&uuml;re sokhorriari</p>
+<p>aprezatzen den bat.</p>
+<p>Mal&uuml;r bat &uuml;khen dit</p>
+<p>iragan astian,</p>
+<p>errekuntra dezadan</p>
+<p>k&uuml;npai&ntilde;a bat auzuan.</p>
+<p><hi rend='Bold'> Barbera</hi></p>
+<p>Jar zite lehenik hortxe</p>
+<p>kaidera hortan gai&ntilde;ian,</p>
+<p>x&uuml;ti egoitez, aments,</p>
+<p>akhit etzitian.</p>
+<p><hi rend='Italic'>(Jar Kaniko)</hi></p>
+<p>Esplika zaite orai,</p>
+<p>ene jaun maitia,</p>
+<p>eta erradaz&uuml;t zer gisaz</p>
+<p>z&uuml; ziren kolpatia.</p>
+<p><hi rend='Bold'> Kaniko</hi></p>
+<p>Jauna, erran den k&uuml;npai&ntilde;a hartan</p>
+<p>gustian nintzalarik,</p>
+<p>ene emaztia hara jin da</p>
+<p>&uuml;d&uuml;ri errabiat&uuml;rik.</p>
+<p>Bazkaitan ari z&uuml;t&uuml;z&uuml;n</p>
+<p>g&uuml;stian algarrekin;</p>
+<p>ni ere hara juan n&uuml;nd&uuml;z&uuml;n,</p>
+<p>botilla bat ard&uuml;rekin.</p>
+<p>Erhatz bat baniz&uuml;n</p>
+<p>ekharririk nihaurekin,</p>
+<p>hartaz eman ditaz&uuml; eh&uuml;n &uuml;khaldi</p>
+<p>g&uuml;tien g&uuml;tieneti.</p>
+<p>Beste aldiz ere, Jauna,</p>
+<p>pegesa baten gai&ntilde;eti,</p>
+<p>paso batez ezarri zitaz&uuml;n,</p>
+<p>pipa frikazeiat&uuml;rik.</p>
+<p><hi rend='Bold'> Barbera</hi></p>
+<p>Ha! Emazte gaixtuak,</p>
+<p>holaxe egiten d&uuml;zie;</p>
+<p>senharrak maite ezpat&uuml;zie</p>
+<p>joka erabilten d&uuml;t&uuml;zie.</p>
+<p>Zeren espeitie &uuml;kheiten ahal</p>
+<p>berek maite d&uuml;tien h&uuml;rak;</p>
+<p>hartakoz, emaiten d&uuml;tie bester</p>
+<p>ogenik gabe olhuak.</p>
+<p>Emaztekin ezta</p>
+<p>sek&uuml;la fidatzeko;</p>
+<p>horra n&uuml;n zirien hirriskian</p>
+<p>biziaren galtzeko.</p>
+<p>Jauna, nezesari da</p>
+<p>pr&uuml;denki aji nadin;</p>
+<p>aments, kolp&uuml; horietarik</p>
+<p>heben berian hil etzitin.</p>
+<p><hi rend='Italic'> (Bisita eta mintza.)</hi></p>
+<p>Aiei, eta jauna, bexk&uuml;ra horiek</p>
+<p>oro kolpiak d&uuml;t&uuml;z&uuml;,</p>
+<p>&uuml;stez z&uuml;re koloria z&uuml;nian</p>
+<p>abantz&uuml; n&uuml;z&uuml; tr&uuml;npat&uuml;.</p>
+<p><hi rend='Bold'> Kaniko</hi></p>
+<p>Jauna, so egin ezaz&uuml; untsa;</p>
+<p>nezesari da so egitia,</p>
+<p>ezi ene egitez ere arrastan</p>
+<p>badit seg&uuml;rki beltx airia.</p>
+<p><hi rend='Italic'> (Barberak so egin eta mintza.)</hi></p>
+<p><hi rend='Bold'> Barbera</hi></p>
+<p>Orano enian ikh&uuml;si</p>
+<p>kolp&uuml; horien parerik;</p>
+<p>areta, ene denboran</p>
+<p>zunbait eri bisitat&uuml; dit.</p>
+<p>Sangre bat behar d&uuml;z&uuml;</p>
+<p>lehenik zankhoti,</p>
+<p>odola behera</p>
+<p>eraits dakiz&uuml;n b&uuml;r&uuml;ti.</p>
+<p><hi rend='Italic'> (Sei&ntilde;a eta mintza.)</hi></p>
+<p>Orano z&uuml;re odola</p>
+<p>alterat&uuml;rik da biziki;</p>
+<p>beld&uuml;r n&uuml;z&uuml; erremedio</p>
+<p>ezt&uuml;g&uuml;n orano aski.</p>
+<p>Labament&uuml; bat behar z&uuml;n&uuml;ke</p>
+<p>odolaren freskatzeko,</p>
+<p>eta ez heben lag&uuml;nik</p>
+<p>haren emaiteko.</p>
+<p><hi rend='Bold'> Kaniko</hi></p>
+<p>Jauna, eztit nahi</p>
+<p>ih&uuml;r ere lag&uuml;nik;</p>
+<p>nihaur egonen n&uuml;z&uuml; hortxe</p>
+<p>&uuml;zk&uuml;z gora jarririk.</p>
+<p><hi rend='Bold'> Barbera</hi></p>
+<p>Alo, aren, jauna,</p>
+<p>z&uuml;k bihotza h&uuml;n d&uuml;z&uuml;;</p>
+<p>denborarik gald&uuml; gabe</p>
+<p>hart&uuml; behar d&uuml;z&uuml;.</p>
+<p><hi rend='Italic'> (Eman ai&uuml;ta.)</hi></p>
+<p><hi rend='Bold'> Kaniko</hi></p>
+<p>Aiei, aiei, jauna,</p>
+<p>ezt&uuml;z&uuml; khausitzen xiluoa;</p>
+<p>ifernian erre balitz</p>
+<p>xiringa horren mokua!</p>
+<p><hi rend='Bold'> Barbera</hi></p>
+<p>Zaude ekh&uuml;r&uuml;, aren;</p>
+<p>kilika d&uuml;z&uuml; &uuml;zkia!</p>
+<p>S&uuml;hart&uuml;ren zaiz&uuml; ziluoa,</p>
+<p>giz&uuml;n milla debria.</p>
+<p><hi rend='Italic'> (Erretira. <foreign>Sonu</foreign>. Barbera jalkhi pasei&uuml;z.)</hi></p>
+<p><hi rend='Bold'> Barbera</hi></p>
+<p>Jente h&uuml;nak, ikh&uuml;si d&uuml;zie</p>
+<p>ene operazionia,</p>
+<p>n&uuml;la sendo-erazi d&uuml;dan</p>
+<p>gizon blesat&uuml; h&uuml;ra.</p>
+<p>Sangria beno hobe da</p>
+<p>orano labamentia,</p>
+<p>zeren zaphoratzen beit&uuml;</p>
+<p>barne kurrunpitia.</p>
+<p>Labamentiaren operazionia</p>
+<p>difizil da, pop&uuml;lia,</p>
+<p>zeren aisa beita k&uuml;ntreko</p>
+<p>ziluoaren atzamaitia.</p>
+<p>S&uuml;stut, neskatiler</p>
+<p>neke da aplikatzia</p>
+<p>zeren aisa beita</p>
+<p>biez bat egitia.</p>
+<p>Bizkitartian ausartago dira</p>
+<p>berak Barbera beno;</p>
+<p>hartakoz baratzen dira</p>
+<p>trunpat&uuml;rik gero.</p>
+<p>Presuna bakhoitxak bat&uuml;</p>
+<p>bederatz&uuml; zilo,</p>
+<p>eta haietan bat baizik</p>
+<p>ez labamentiarentako.</p>
+<p>Jente h&uuml;nak, erredazie gero</p>
+<p>gaitz denez trunpatzia;</p>
+<p>ezta, ez, mirakuill&uuml; &uuml;s&uuml;</p>
+<p>heltzen bada desordria.</p>
+<p>Hanitx neskatilak</p>
+<p>ekhar-azten die Barbera</p>
+<p>eta gero behar berek nahi</p>
+<p>d&uuml;ten lekhian xiringa.</p>
+<p>Z&uuml;nbait mal&uuml;r ezda heltzen</p>
+<p>izanik ere Barbera;</p>
+<p>ikh&uuml;si d&uuml;g&uuml; baratzen</p>
+<p>&uuml;zk&uuml;-ziluoan xiringa.</p>
+<p>Eta gero h&uuml;ra</p>
+<p>emeki-emeki hantzen;</p>
+<p>bederatz&uuml; hilabeteren b&uuml;rian</p>
+<p>berriz operazione egiten.</p>
+<p>Jente h&uuml;nak, horra</p>
+<p>n&uuml;la agitzen den;</p>
+<p>abis gaistuoaguoak dira</p>
+<p>batzietan &uuml;ntsa phakatzen.</p>
+<p><hi rend='Italic'> (Erretira. <foreign>Sonu</foreign>. Kaniko jalkhi.)</hi></p>
+<p><hi rend='Bold'> Kaniko</hi></p>
+<p>Ezt&uuml;t beste berririk entz&uuml;ten</p>
+<p>orai bazter orotan,</p>
+<p>baizik nahi direla libertit&uuml;</p>
+<p>g&uuml;re uhuretan.</p>
+<p><hi rend='Italic'> (&Uuml;rhatsa khexa.)</hi></p>
+<p>Areta, mila debria,</p>
+<p>pentsatzen dit nurk erran dian,</p>
+<p>bena beld&uuml;r niz bidaje bat</p>
+<p>enekin eginen dian.</p>
+<p>Banua; behar d&uuml;t orai</p>
+<p>mementian zed&uuml;lat&uuml;,</p>
+<p>bai eta sek&uuml;lakoz</p>
+<p>presuntegian zerrat&uuml;.</p>
+<p><hi rend='Italic'> (Erretira. <foreign>Sonu</foreign>. K&uuml;rriera jin zamariz. </hi></p>
+<p><hi rend='Italic'> Salhatan jalkhi.)</hi></p>
+<p><hi rend='Bold'> K&uuml;rriera</hi></p>
+<p>Jauna, letera bat</p>
+<p>badit zuretako;</p>
+<p>aski gomendat&uuml;rik niz</p>
+<p>x&uuml;xen emaiteko.</p>
+<p><hi rend='Bold'> Salhatan</hi></p>
+<p>Erremestiatzen z&uuml;t&uuml;t,</p>
+<p>jauna, z&uuml;re phenaz;</p>
+<p>zerbait inportantzia</p>
+<p>hola dioz&uuml;naz.</p>
+<p><hi rend='Italic'> (Salhatanek irakur letera; </hi></p>
+<p><hi rend='Italic'> pasei&uuml;z. Gero mintza.)</hi></p>
+<p><hi rend='Bold'> Salhatan</hi></p>
+<p>Zeren debr&uuml; behar d&uuml;t juan</p>
+<p>j&uuml;jiaren aitziniala?</p>
+<p>Jente gaisto da batz&uuml;tan</p>
+<p>ikh&uuml;stia sobera.</p>
+<p>Behar bezala ezpeit&uuml;t</p>
+<p>ih&uuml;n gez&uuml;rrik erran,</p>
+<p>ezpadie entz&uuml;n nahi,</p>
+<p>eztie egin behar.</p>
+<p><hi rend='Italic'> (Erretira. <foreign>Sonu</foreign>. K&uuml;rriera jin zamariz; </hi></p>
+<p><hi rend='Italic'> mintza l&uuml;rreti.)</hi></p>
+<p><hi rend='Bold'> K&uuml;rriera</hi></p>
+<p>Badeia ih&uuml;r ere</p>
+<p>audientzia hortan?</p>
+<p>Ezi badit istoria franko</p>
+<p>paper eli batz&uuml;tan.</p>
+<p><hi rend='Italic'> (Presidenta jalkhi.)</hi></p>
+<p><hi rend='Bold'> Presidenta</hi></p>
+<p>Ikh&uuml;si itzak h&uuml;nat</p>
+<p>eia zer dioten;</p>
+<p>Pariseko berriak</p>
+<p>d&uuml;da gabe heben.</p>
+<p><hi rend='Bold'> K&uuml;rriera</hi></p>
+<p>Jelos n&uuml;z&uuml; hatik</p>
+<p>othe direnez hantik;</p>
+<p>huillanagotik ere</p>
+<p>berri xarrak sendi tit.</p>
+<p><hi rend='Italic'>(Paperak har. K&uuml;rriera juan. </hi></p>
+<p><hi rend='Italic'> Presidentak irakur pasei&uuml;z ixilik; </hi></p>
+<p><hi rend='Italic'> gero mintza.)</hi></p>
+<p><hi rend='Bold'> Presidenta</hi></p>
+<p>Ago, milla debria!</p>
+<p>Heben d&uuml;guia erreboilta?</p>
+<p>Baia emaztiak hasi</p>
+<p>senharren phanpaka?</p>
+<p>Bada mira barberak</p>
+<p>ezpeteit de&uuml;s erran;</p>
+<p>areta, ikh&uuml;si d&uuml;t</p>
+<p>orano eg&uuml;n goizan.</p>
+<p>Behar d&uuml;t, bai, irakurri,</p>
+<p>gure audientzian;</p>
+<p>behar d&uuml;g&uuml; libertit&uuml;</p>
+<p>arratsaldi h&uuml;ntan.</p>
+<p><hi rend='Italic'> (Erretira. <foreign>Sonu</foreign>. Kaniko jalkhi. Paseia.)</hi></p>
+<p><hi rend='Bold'> Kaniko</hi></p>
+<p>Ale debrien egina,</p>
+<p>holako kartiera!</p>
+<p>Berri-kharreiazaliak</p>
+<p>bethi badireia?</p>
+<p>Ala fort&uuml;na tristia,</p>
+<p>betzait eni gerthat&uuml;;</p>
+<p>orano ere behar dit</p>
+<p>trib&uuml;lazionian sarth&uuml;.</p>
+<p>Helas! Th&uuml;rment&uuml; d&uuml;t</p>
+<p>bethi lekh&uuml; orotan;</p>
+<p>bat ezin s&uuml;porta</p>
+<p>eta gero berritan.</p>
+<p>H&uuml;rrari behera duenak ere</p>
+<p>zer nahi phentsatzen d&uuml;;</p>
+<p>hartakoz behar dit egia</p>
+<p>gez&uuml;rriala khanbiat&uuml;.</p>
+<p>Behar d&uuml;t abantzat&uuml;</p>
+<p>nihaurk abiat&uuml;,</p>
+<p>aments p&uuml;blika dezen,</p>
+<p>pleinta bat phausat&uuml;.</p>
+<p>Ikh&uuml;si g&uuml;tien huak</p>
+<p>behar tit zed&uuml;lat&uuml;,</p>
+<p>berria barreia eztezen,</p>
+<p>j&uuml;stiziaz kreintat&uuml;.</p>
+<p>Ordian gero h&uuml;rak</p>
+<p>beld&uuml;r beitiateke,</p>
+<p>halaz ene &uuml;h&uuml;ria</p>
+<p>gorderik dateke.</p>
+<p>Egiteko horrez</p>
+<p>behar d&uuml;t orano konts&uuml;ltat&uuml;</p>
+<p>eta gero ahalaz</p>
+<p>fite zed&uuml;lat&uuml;.</p>
+<p>Ha! Debr&uuml; emazte gaixtua!</p>
+<p>Hik d&uuml;n hori khausat&uuml;;</p>
+<p>lehenik olhuak behar eta</p>
+<p>gero ahalkia pasat&uuml;.</p>
+<p><hi rend='Italic'> (Jalkhi Barbera eta presidenta.)</hi></p>
+<p><hi rend='Bold'> Presidenta</hi></p>
+<p>Behadi h&uuml;nat, Kaniko!</p>
+<p>Horik zer jesto d&uuml;t&uuml;k?</p>
+<p>Gizun hoiek zer gisaz</p>
+<p>zed&uuml;latzen d&uuml;t&uuml;k?</p>
+<p><hi rend='Bold'> Kaniko</hi></p>
+<p>Jauna, amurekatik</p>
+<p>ih&uuml;n eztitian mintza,</p>
+<p>malerus horiek beitie</p>
+<p>bethi zerbait pleinta.</p>
+<p><hi rend='Bold'> Barbera</hi></p>
+<p>Zer debr&uuml; nahi d&uuml;k? Hoiek</p>
+<p>eztie de&uuml;s deklarat&uuml;.</p>
+<p>Ala hik behar d&uuml;k</p>
+<p>herria gobernat&uuml;?</p>
+<p>Nahi bad&uuml;k herria</p>
+<p>ixilik etxeki,</p>
+<p>goizetan behar d&uuml;k</p>
+<p>orai beno goizago jeiki.</p>
+<p><hi rend='Bold'> Kaniko</hi></p>
+<p>Bena nahi tit menazat&uuml;,</p>
+<p>ixilik egoiteko;</p>
+<p>kapable beitira solazaren</p>
+<p>aitzina phusatzeko.</p>
+<p><hi rend='Bold'> Presidenta</hi></p>
+<p>Bena, debr&uuml; gizona,</p>
+<p>hori zer solas d&uuml;k?</p>
+<p>Garbiki mintza adi.</p>
+<p>G&uuml; ignorant g&uuml;t&uuml;k.</p>
+<p><hi rend='Bold'> Kaniko</hi></p>
+<p>Bazakit nihaurek</p>
+<p>zertaz mintzo nizan;</p>
+<p>nahi tit etxeki</p>
+<p>ami&ntilde;i bat kreintan.</p>
+<p><hi rend='Bold'> Barbera</hi></p>
+<p>Zer kreinta nahi d&uuml;k hik</p>
+<p>herrian phausat&uuml;?</p>
+<p>Hitzaz ezt&uuml;k ihur</p>
+<p>izanen enbrasat&uuml;.</p>
+<p><hi rend='Bold'> Presidenta</hi></p>
+<p>Bena, maradikat&uuml; gizona,</p>
+<p>hik bad&uuml;k zerbait goguan.</p>
+<p>Ezt&uuml;k nahi ezarri araber</p>
+<p>ignoranta j&uuml;stizian.</p>
+<p><hi rend='Bold'> Kaniko</hi></p>
+<p>Bena beitakite nurbaitek,</p>
+<p>emaztiak ni jo niala,</p>
+<p>hartakoz nahi tit erakharri</p>
+<p>eztitian deklara.</p>
+<p>Eta naski deja</p>
+<p>hasi beitie geia,</p>
+<p>nahi dit bara ditian</p>
+<p>errerik &uuml;zkia.</p>
+<p><hi rend='Bold'> Barbera</hi></p>
+<p>Ha, ha, ha!</p>
+<p>Hori d&uuml;k, hori! Debria!</p>
+<p>Hiaurek beno hobeki eztik ihurk</p>
+<p>barreiat&uuml;ren berria.</p>
+<p><hi rend='Bold'> Presidenta</hi></p>
+<p>Heben orok jakinik ere,</p>
+<p>ezpeita harat heltia,</p>
+<p>hiaurek Sabant&uuml;rik</p>
+<p>ezarriren d&uuml;k j&uuml;stizia.</p>
+<p><hi rend='Bold'> Barbera</hi></p>
+<p>Eta hori hala bada</p>
+<p>hiaurek eztakila?</p>
+<p>N&uuml;ri nahi d&uuml;k horrez</p>
+<p>eratxeki k&uuml;lpa?</p>
+<p>Ixilik egon bahendi</p>
+<p>eta etxerat itz&uuml;l horti,</p>
+<p>hiaurrek ezarriren d&uuml;k</p>
+<p>saltsa kharatsegi.</p>
+<p><hi rend='Bold'> Kaniko</hi></p>
+<p>Eztiat batere axolik</p>
+<p>zer nahi beita den.</p>
+<p>Nahi d&uuml;t&uuml;t kreintat&uuml;;</p>
+<p>ezteret pharkat&uuml;ren.</p>
+<p><hi rend='Bold'> Presidenta</hi></p>
+<p>Jaunak, hau d&uuml;ziela</p>
+<p>gizunaren b&uuml;ria;</p>
+<p>abil, abil, juoan adi</p>
+<p>eta liberti-eraz m&uuml;ndia.</p>
+<p><hi rend='Bold'> Kaniko</hi></p>
+<p>Banua bertan halere,</p>
+<p>denborarik gald&uuml; gabe;</p>
+<p>bihar zortziko</p>
+<p>zed&uuml;lat&uuml;rik beitire.</p>
+<p><hi rend='Italic'> (Erretira)</hi></p>
+<p><hi rend='Bold'> Barbera</hi></p>
+<p>Gizon h&uuml;ra juan da,</p>
+<p>&uuml;rhatsa aski &uuml;s&uuml;.</p>
+<p>Alo, jaunak, g&uuml;k ere</p>
+<p>erretirat&uuml; behar d&uuml;g&uuml;.</p>
+<p><hi rend='Italic'> (Erretira. &Uuml;xera, presidenta eta </hi></p>
+<p><hi rend='Italic'> <foreign>Luzien</foreign> jalkhi eta jar. </hi></p>
+<p><hi rend='Italic'> Gero, Salhatan eta Kaniko jalkhi.)</hi></p>
+<p>Jinkuoak eg&uuml;n hun deiziela,</p>
+<p>kunpai&ntilde;a ohoragarria;</p>
+<p>badakizie zer gisaz den</p>
+<p>gure bidajia.</p>
+<p>Halaz x&uuml;xen jin niz,</p>
+<p>hart&uuml; g&uuml;nian orenian;</p>
+<p>horra n&uuml;n d&uuml;dan k&uuml;lpablia</p>
+<p>ekharten ne&uuml;rekilan.</p>
+<p><hi rend='Bold'> &Uuml;xera</hi></p>
+<p>Jaunak, behar d&uuml;g&uuml;</p>
+<p>exenplia phausat&uuml;,</p>
+<p>eta kalomnia-erailia</p>
+<p>gaztelian zerrat&uuml;.</p>
+<p><hi rend='Bold'> Presidenta</hi></p>
+<p>Ditzag&uuml;n biak entz&uuml;n,</p>
+<p>prozesaren j&uuml;jatzeko;</p>
+<p>ageriko da, defautian</p>
+<p>zui&ntilde; diren aitzinago.</p>
+<p><hi rend='Bold'> <foreign>Luzien</foreign></hi></p>
+<p>Kontzentziaren erditi</p>
+<p>erran ezadaz&uuml;, Salhatan,</p>
+<p>eia ikh&uuml;si d&uuml;z&uuml;nez emazterik</p>
+<p>senharrari jokan.</p>
+<p>Jauna, ene arrazuoa</p>
+<p>bethi gisa bat d&uuml;z&uuml;;</p>
+<p>ikh&uuml;si ezt&uuml;danik eztit</p>
+<p>sek&uuml;la deklarat&uuml;.</p>
+<p><hi rend='Bold'> <foreign>Luzien</foreign></hi></p>
+<p>Egia erraiteko</p>
+<p>hala behar da, Salhatan.</p>
+<p>Zeren erauntsi d&uuml;z&uuml; Kaniko</p>
+<p>hunentako pleintakan?</p>
+<p><hi rend='Bold'> Salhatan</hi></p>
+<p>Enetako l&uuml;kez&uuml; bada</p>
+<p>jaun hau obligazionetan;</p>
+<p>Nik begirat&uuml; ezpan&uuml;,</p>
+<p>emaztiak hilen baitzian.</p>
+<p><hi rend='Bold'> <foreign>Luzien</foreign></hi></p>
+<p>Eg&uuml;n zortzi jinen zira</p>
+<p>zure emaztiareki. Kaniko.</p>
+<p>Ordian badit zier</p>
+<p>bi hitz erraiteko.</p>
+<p><hi rend='Bold'> Kaniko</hi></p>
+<p>Ene prozesa, hartan</p>
+<p>d&uuml;zieia j&uuml;jat&uuml;?</p>
+<p>Nahi dit Pauberat</p>
+<p>plainta deklarat&uuml;.</p>
+<p><hi rend='Italic'> (Erretira berhala)</hi></p>
+<p><hi rend='Bold'> <foreign>Luzien</foreign></hi></p>
+<p>Jauna, idek az&uuml; bethi</p>
+<p>ahalaz elhe g&uuml;ti;</p>
+<p>egiak ere eztiz&uuml;</p>
+<p>erran behar bethi.</p>
+<p>Erretira zite orai,</p>
+<p>nahi zirenian,</p>
+<p>eta ez jin haboro</p>
+<p>diskus horiekilan.</p>
+<p><hi rend='Italic'> (Salhatan erretira eta bestiak ere </hi></p>
+<p><hi rend='Italic'> gero berhala. <foreign>Sonu</foreign>. Satan jalkhi.)</hi></p>
+<p><hi rend='Bold'> Satan</hi></p>
+<p>Soizie, soizie, xorrotx hek</p>
+<p>neskatila haien kota-petan.</p>
+<p>Maradikatiak, ezar itzatzie</p>
+<p>eskiak sakola horietan.</p>
+<p>Zeren hor beitie zunbait sos</p>
+<p>etxekuer ebatsirik,</p>
+<p>&uuml;zk&uuml;-zilo horietan aldiz</p>
+<p>sei-arditeko bat baizik.</p>
+<p>Areta, h&uuml;ra ere ez da</p>
+<p>seg&uuml;rki hanbat k&uuml;riusa,</p>
+<p>x&uuml;rian balin badie</p>
+<p>oihal gorriaren buketa.</p>
+<p>Marixalak, bil ezazie</p>
+<p>bost liberako horietarik,</p>
+<p>zeren ezpetzaizie biltzia permis</p>
+<p>erregeren fig&uuml;rarik.</p>
+<p>Hunak oro biltzen t&uuml;g&uuml;</p>
+<p>ifern&uuml;ko maseko,</p>
+<p>zeren ezarri beit&uuml;</p>
+<p>Frantzia trublat&uuml;rik oro.</p>
+<p>Jente h&uuml;nak, hori</p>
+<p>aisa da k&uuml;nprenitzeko;</p>
+<p>ifernialat jiten zirenian</p>
+<p>han d&uuml;t&uuml;zkezie oro.</p>
+<p><hi rend='Italic'> (Erretira)</hi></p>
+<p><hi rend='Italic'> (J&uuml;stizia jalkhi eta son&uuml;. </hi></p>
+<p><hi rend='Italic'> Belxitina, Kaniko jalkhi. Oro jar.)</hi></p>
+<p><hi rend='Bold'> <foreign>Luzien</foreign></hi></p>
+<p>Erradaz&uuml;, anderia;</p>
+<p>z&uuml;k kolpat&uuml; d&uuml;zia jaun hori,</p>
+<p>bai eta bizkarrian</p>
+<p>erhatz-giderra hautsi?</p>
+<p>Bai eta beste hanitx aldiz ere</p>
+<p>pasokaz pipa hautsi?</p>
+<p>Holako plainta franko</p>
+<p>ekharri beitie eni.</p>
+<p>Orai erradaz&uuml;, horiek</p>
+<p>egiak direnez, Belxitin;</p>
+<p>egiak balin badia behar d&uuml;z&uuml;</p>
+<p>gaztelian sarth&uuml; mementin.</p>
+<p><hi rend='Bold'> Belxitina</hi></p>
+<p>Jauna, nik eztiot horri</p>
+<p>holako lanik egin;</p>
+<p>ixilik egoiten ahal d&uuml;z&uuml;</p>
+<p>bere astokeriekin.</p>
+<p><hi rend='Bold'> Kaniko</hi></p>
+<p>Erran. Hik en&uuml;nduiana</p>
+<p>erhatzaz jo ederki,</p>
+<p>&uuml;ndarreko behor haren</p>
+<p>tratiaren gai&ntilde;eti?</p>
+<p>Ehintzana hiaur jin,</p>
+<p>bohorra hart&uuml;rik,</p>
+<p>baizik eta baz&uuml;tiala</p>
+<p>harek defaut handik?</p>
+<p>Ordian en&uuml;ndui&ntilde;ana ezarri</p>
+<p>odol gorriz betherik,</p>
+<p>jenten ahalkez egon benintzan</p>
+<p>hiri s&uuml;d&uuml;rra hautsi nahirik?</p>
+<p>Hire esk&uuml; idorrekin</p>
+<p>den g&uuml;tienian pasoka</p>
+<p>hireganat&uuml;z geroz, sakolan di&ntilde;at</p>
+<p>hogei eta hamargarren pipa.</p>
+<p>Beste hanitx aldiz ere</p>
+<p>ahalke ezpanintz aiphatzia,</p>
+<p>l&uuml;b&uuml;r&uuml; bat egin laiten</p>
+<p>Graduela bezai&ntilde; handia.</p>
+<p><hi rend='Bold'> <foreign>Luzien</foreign></hi></p>
+<p>Giz&uuml;na, behar z&uuml;nian</p>
+<p>zihaurek ere abisat&uuml;;</p>
+<p>emazte gaixtuoari</p>
+<p>ezta behar fidat&uuml;.</p>
+<p><hi rend='Bold'> Presidenta</hi></p>
+<p>Ala, prozes drolia!</p>
+<p>Etziradeia ahalke?</p>
+<p>Hebeti kanpo egoiteko,</p>
+<p>ziek propiago zinezteke.</p>
+<p>Zihaurek &uuml;d&uuml;ri feitak</p>
+<p>etxekiten d&uuml;t&uuml;zie;</p>
+<p>biak gaztelian sartzia</p>
+<p>merexi z&uuml;nekie.</p>
+<p><hi rend='Bold'> &Uuml;xera</hi></p>
+<p>S&uuml;jet horreki etxian</p>
+<p>egoiten ahal zinaudian;</p>
+<p>holakorik ezd&uuml;g&uuml; ikhusi</p>
+<p>orano audientzian.</p>
+<p>Gizonak behar d&uuml; bai izan</p>
+<p>aski asto purro,</p>
+<p>emaztiaren arrazak</p>
+<p>gisa hortan joiteko.</p>
+<p><hi rend='Bold'> <foreign>Luzien</foreign></hi></p>
+<p>Zuazte fera futre,</p>
+<p>ene aitzineti,</p>
+<p>ziek etzirade h&uuml;n</p>
+<p>alkharrekilanko beizi.</p>
+<p>Ezi jiten bazirie</p>
+<p>haboro ene gana,</p>
+<p>ziren bidajiak</p>
+<p>bad&uuml;ke zerbait phena.</p>
+<p><hi rend='Italic'> (<foreign>Sonu</foreign>. Erretira plai&ntilde;antak; gero j&uuml;stizia. </hi></p>
+<p><hi rend='Italic'> Praubiak jalkhi bi aldetarik.)</hi></p>
+<p><hi rend='Bold'> Juanes</hi></p>
+<p>N&uuml;la iz, Gilento?</p>
+<p>bad&uuml;ka osagarririk?</p>
+<p>N&uuml;la deramak denbora?</p>
+<p>&Uuml;kheiten d&uuml;ka amoinarik?</p>
+<p><hi rend='Bold'> Gilento</hi></p>
+<p>Ene lag&uuml;na, tranquil bizi n&uuml;k;</p>
+<p>eztirat arrank&uuml;ra handirik.</p>
+<p>Ene h&uuml;nak ezin arranjat&uuml;z,</p>
+<p>eztiat enbraz&uuml;rik.</p>
+<p>Ene etxiak, l&uuml;rrak eta kabaliak oro,</p>
+<p>ezinago untsa d&uuml;t&uuml;k.</p>
+<p>Nik zer jan balin bad&uuml;t,</p>
+<p>untsa baizik ezin izaten n&uuml;k.</p>
+<p>Balin bad&uuml;t zerbait bild&uuml;rik,</p>
+<p>alagera n&uuml;k ordian;</p>
+<p>pint&uuml; ard&uuml; zunbait edaten diat</p>
+<p>sakolan dihar&uuml; d&uuml;danian.</p>
+<p>Bena orai jentiak gaixtot&uuml; d&uuml;t&uuml;k;</p>
+<p>eztie sinhesterik amoinan.</p>
+<p>&laquo;Jinkuoak eman dizaziela&raquo; erran eta</p>
+<p>&uuml;zten die praubia borthan.</p>
+<p>Beste zunbaitek erraite die</p>
+<p>&laquo;N&uuml;rk irai&ntilde; lio prauber emaitez.&raquo;</p>
+<p>&laquo;O&uuml;ntsa eginen d&uuml;zie,&raquo;</p>
+<p>&laquo;g&uuml; bezala tribaillatzez.&raquo;</p>
+<p>Beste zunbait bad&uuml;k karitat&uuml;sxago:</p>
+<p>Artho-buxi bat emaiten die.</p>
+<p>Bena hura eman beno lehen Pater /eta (Abemaria)</p>
+<p>hamarretan erran-erazten die.</p>
+<p>N&uuml;spaiko denboran ohart n&uuml;k</p>
+<p>aiphatzen banian Jinkuren izena,</p>
+<p>emazte xahar eli batek betzeitadan</p>
+<p>emaiten nahi niena.</p>
+<p>Z&uuml;nbait nahi merkhat-eg&uuml;nez</p>
+<p>egiten d&uuml;dan oih&uuml; handirik;</p>
+<p>bena orai denbora khanbiat&uuml; d&uuml;k;</p>
+<p>ezin &uuml;kheiten diat tolosarik.</p>
+<p>Erraiten diat merkhatzaler:</p>
+<p>&laquo;Emadazie zerbait, jente h&uuml;nak.</p>
+<p>&laquo;Errek&uuml;ntr&uuml; gaixtuetarik</p>
+<p>&laquo;begira zitzela Jinkuoak.&raquo;</p>
+<p>&laquo;Eman dezaziela grazia</p>
+<p>&laquo;etxilat ir&uuml;ski &uuml;tz&uuml;ltzeko.&raquo;</p>
+<p>Bena haboruoak baduoatzak</p>
+<p>de&uuml;s kh&uuml;nt&uuml;rik egiteko.</p>
+<p>De&uuml;s emaiten eztien haier</p>
+<p>erraiten diat ene bihotzeti:</p>
+<p>Bizkarra eta lephua hauts ditzatziela</p>
+<p>jalki gabe merkhat&uuml;ti.</p>
+<p>Seg&uuml;r da ene maraditzioniak</p>
+<p>sartzen zaitzela z&uuml;nbaiti,</p>
+<p>ezi hilik edo kolpat&uuml;rik</p>
+<p>merkhat&uuml;-bide horietan bad&uuml;k bethi.</p>
+<p>Jinkuoak begira litzake</p>
+<p>eni amoina egin baleze,</p>
+<p>bena taharnetan horditzeko</p>
+<p>dihariak begiratzen tie.</p>
+<p>Barneko malezia zaharrak</p>
+<p>agertzen zitzek ordit&uuml; onduoan,</p>
+<p>eta makhila-khald&uuml;z hasten dira</p>
+<p>algarren kuntre ordian.</p>
+<p>Zihauriek ikh&uuml;sten d&uuml;zie, jente hu /nak,</p>
+<p>zonbat mal&uuml;r heltzen den;</p>
+<p>amoina eni egin gabez</p>
+<p>horiek oro dirade gerthatzen.</p>
+<p><hi rend='Bold'> Juanes</hi></p>
+<p>O&uuml;ntsa mintzat&uuml; iz, Gilento;</p>
+<p>egia handirik erran d&uuml;k.</p>
+<p>Bena haregatik horietan gainti</p>
+<p>z&uuml;nbait karitat&uuml;sik bad&uuml;k.</p>
+<p>Parropia h&uuml;nez etziruat erran;</p>
+<p>heben jente h&uuml;nik bad&uuml;k.</p>
+<p>Biarnon eta Nafarrian beno</p>
+<p>milatan karitat&uuml;sago d&uuml;t&uuml;k.</p>
+<p>Helt&uuml; n&uuml;k ni horietan gainti,</p>
+<p>emaztiak berak ziradianian;</p>
+<p>s&uuml;khaldiala sar onduan</p>
+<p>galthatzen niana &uuml;kheiten benian.</p>
+<p>Emaiten ditade lehenik</p>
+<p>beraiek artho-b&uuml;r&uuml; ederrik;</p>
+<p>h&uuml;rak &uuml;khen onduoan galthatzen diat</p>
+<p>xinkhor bat Jinkuoaren amurekatik.</p>
+<p>H&uuml;rak &uuml;khen onduan erraiten diat</p>
+<p>Pater bat eta Abemaria bat,</p>
+<p>eta ard&uuml;rik balin bada galthatzen</p>
+<p>edatera kolp&uuml; bat.</p>
+<p>Erraiten dik etxeko anderiak</p>
+<p>berhala neskatuari:</p>
+<p>&laquo;Abil, Maria, ekharran gath&uuml;l&uuml; bat /ardu,</p>
+<p>&laquo;giz&uuml;n orazione-erraile horri.&raquo;</p>
+<p>Holako jente z&uuml;nbait nik</p>
+<p>edireiten diat heben ere,</p>
+<p>eta haier emaiten</p>
+<p>milla beneditzione.</p>
+<p>Orai ere badiat xinkhor bat,</p>
+<p>etxe h&uuml;ntan &uuml;khenik;</p>
+<p>mest&uuml;ra-buzi batz&uuml; eli bat ere</p>
+<p>goiz h&uuml;ntan bild&uuml;rik.</p>
+<p>Beste aragi-poxi bat ere</p>
+<p>ogi-zerratto batekin;</p>
+<p>neskatilla batek eman diztak</p>
+<p>lehen lehen etxian.</p>
+<p>Hik balin bad&uuml;k beste hai&ntilde; beste</p>
+<p>janen tiag&uuml; algarrekin,</p>
+<p>edo bestela jin adi</p>
+<p>botilla bat ard&uuml;rekin</p>
+<p><hi rend='Bold'> Gilento</hi></p>
+<p>Nik ere &uuml;khen diat bai</p>
+<p>hortxeko etxe hortan,</p>
+<p>xinkhor bat propirik</p>
+<p>mest&uuml;rarekilan.</p>
+<p>Eltze handi bat bazian;</p>
+<p>bazkari die gisala.</p>
+<p>Seg&uuml;r n&uuml;k jente horiek oro</p>
+<p>kh&uuml;mitat&uuml;rik direla.</p>
+<p>N&uuml;la s&uuml; handi bat baitzen,</p>
+<p>han erre diat xinkhorra;</p>
+<p>agian h&uuml;ra jatian</p>
+<p>arduoa &uuml;khenen niala.</p>
+<p>Bazko biharamenareki,</p>
+<p>etz&uuml;keia ez mirakuill&uuml;,</p>
+<p>&uuml;khenik ere h&uuml;ra jatian</p>
+<p>Bizpahir&uuml;r ardu kolp&uuml;.</p>
+<p><hi rend='Bold'> Juanes</hi></p>
+<p>Jente horietan bild&uuml;ko d&uuml;k bai</p>
+<p>z&uuml;nbait bi-arditeko;</p>
+<p>erran ezek behar diala</p>
+<p>familiaren hazteko.</p>
+<p><hi rend='Bold'> Gilento </hi><hi rend='Italic'>(Galtha)</hi></p>
+<p>Jente h&uuml;nak, emadazie</p>
+<p>othoi z&uuml;nbait sos bakhar&ntilde;o;</p>
+<p>familia handi bat dit</p>
+<p>eta inkomodatiak oro.</p>
+<p>Erranen deitziet orazioniak</p>
+<p>hitz bat h&uuml;ts egin gabe,</p>
+<p>Jinkuoak lag&uuml;nt zitzaten</p>
+<p>mal&uuml;rik &uuml;khen gabe.</p>
+<p><foreign>Pater noster at boniat,</foreign></p>
+<p><foreign>fiat bolont astoooooa,</foreign></p>
+<p><foreign>et ne nos inducas in tentazionen,</foreign></p>
+<p><foreign>set libera nos a malo. Amen.</foreign></p>
+<p><foreign>Abe Maria domines tecon,</foreign></p>
+<p><foreign>et in terra imilieribus. Amen.</foreign></p>
+<p><foreign>Errekien donais domine.</foreign></p>
+<p><foreign>Loria patri. Sikut erat. Amen.</foreign></p>
+<p>Ene lag&uuml;na, eztiot</p>
+<p>ardit bat ere &uuml;khen.</p>
+<p>Seg&uuml;r n&uuml;k ard&uuml; horren prepausa</p>
+<p>entz&uuml;n diela erraiten.</p>
+<p><hi rend='Bold'> Juanes</hi></p>
+<p>Ene lag&uuml;na, &Uuml;harterat</p>
+<p>behar diag&uuml; phartit&uuml;.</p>
+<p>Pillart-enian janen diaig&uuml;,</p>
+<p>de&uuml;s &uuml;kheiten bad&uuml;g&uuml;.</p>
+<p>(<hi rend='Italic'>Erretira. <foreign>Sonu</foreign>. Hir&uuml;r satanak jelkhi; </hi></p>
+<p><hi rend='Italic'> Sataneri, mithilek atxiki beso-onduetarik.)</hi></p>
+<p><hi rend='Bold'> Satan</hi></p>
+<p>Jaunak, errabiament&uuml; bat</p>
+<p>bad&uuml;t bihotzian sarth&uuml;rik,</p>
+<p>ezin beitirot &uuml;khen</p>
+<p>ih&uuml;n errapaus&uuml;rik.</p>
+<p><hi rend='Bold'> <foreign>Jupiter</foreign></hi></p>
+<p>Sira, eritarz&uuml;n horrek</p>
+<p>behar diz&uuml; erremediat&uuml;;</p>
+<p>labament&uuml; bat berhala</p>
+<p>behar d&uuml;z&uuml; hart&uuml;.</p>
+<p><hi rend='Bold'> <foreign>Buljifer</foreign></hi></p>
+<p>Sira, <foreign>Jupiter</foreign>rek diz&uuml;,</p>
+<p>z&uuml;re gaitza ezag&uuml;t&uuml;;</p>
+<p>hartan gai&ntilde;en berhala</p>
+<p>erremediuoa phentsat&uuml;.</p>
+<p>&Uuml;zkiaren &uuml;zkia baizik</p>
+<p>ezta beste izenik format&uuml;;</p>
+<p>hartakoz ai&uuml;taren hartzeko</p>
+<p>behar d&uuml;z&uuml; preparat&uuml;.</p>
+<p><hi rend='Bold'> Satan</hi></p>
+<p>Bai, ene kanuoak bethi</p>
+<p>thiratzen dik okher;</p>
+<p>astalila gi&ntilde;a eta</p>
+<p>s&uuml;d&uuml;rra dik atzemaiten.</p>
+<p><hi rend='Bold'> <foreign>Buljifer</foreign></hi></p>
+<p><foreign>Jupiter</foreign>, nik etxekiren diat</p>
+<p>errege beso-ondoti;</p>
+<p>hik aldiz eman ezok</p>
+<p>salda gibel-aldeti.</p>
+<p><hi rend='Italic'> (Eman labamentia.)</hi></p>
+<p><hi rend='Bold'> Satan</hi></p>
+<p>Jaunak, ene gaitzeti</p>
+<p>ai&uuml;tak nai edeki.</p>
+<p>Phena hart&uuml; d&uuml;ziena</p>
+<p>phakat&uuml;ren deiziet sarri.</p>
+<p><foreign>Jupiter</foreign>, ezag&uuml;tzen ait,</p>
+<p>espirit&uuml;z penetrant.</p>
+<p>Erresumako enperadore</p>
+<p>orai izentatzen haut.</p>
+<p>Sira, z&uuml;re izentatzez ene</p>
+<p>enperadore erres&uuml;mako,</p>
+<p>kuntent dira m&uuml;nd&uuml; oro,</p>
+<p>sarri benaie ezag&uuml;t&uuml;ko.</p>
+<p><hi rend='Italic'> (Erretira. <foreign>Sonu</foreign>. Belxitina jalkhi.)</hi></p>
+<p><hi rend='Bold'> Belxitina</hi></p>
+<p>Zer ikh&uuml;sten d&uuml;t orai ere</p>
+<p>heben hainbeste jente?</p>
+<p>Aizuoak eta oro</p>
+<p>kargat&uuml;rik hebe.</p>
+<p>G&uuml;tzaz erri egitera</p>
+<p>dirade bai bild&uuml;.</p>
+<p>Ala fort&uuml;na tristia!</p>
+<p>Behar d&uuml;t desesperat&uuml;.</p>
+<p>Ha! Maradikatua hi!</p>
+<p>Debr&uuml; Salhatan handia!</p>
+<p>Zorigaixto zela hire</p>
+<p>g&uuml;re etxian gerthatzia.</p>
+<p>Hiri banjat&uuml; nahiz</p>
+<p>behar diat gald&uuml; bizia;</p>
+<p>sek&uuml;la ezt&uuml;k zesat&uuml;ren</p>
+<p>ene malezia.</p>
+<p>Ha! Bohor-arrazak orok</p>
+<p>leher egin bal&uuml;;</p>
+<p>s&uuml;jet h&uuml;nen kausa</p>
+<p>ordian zen format&uuml;.</p>
+<p>Ha! Madarikat&uuml; giz&uuml;nak</p>
+<p>eza emaztiak sinhetsiko</p>
+<p>desei&ntilde;ian direnian</p>
+<p>gaizen begiratzeko.</p>
+<p>Hobe deia, aren</p>
+<p>kanpokuekin igortzia,</p>
+<p>gero, finit&uuml; denian,</p>
+<p>etxian aharra emaitia?</p>
+<p>Ordian izanen dira</p>
+<p>emaztiak edale handi;</p>
+<p>ezd&uuml; ez barrikak senditzen</p>
+<p>zunbait arr&uuml;sta gati.</p>
+<p>Hobeki senditzen d&uuml; bai</p>
+<p>zintz&uuml;r l&uuml;ze horieki,</p>
+<p>batzietan ezpeitira kuntent</p>
+<p>bira pintarekin.</p>
+<p>Areta orano seg&uuml;r</p>
+<p>gero d&uuml;k bai bihar;</p>
+<p>ezt&uuml;kek hortarik, Kaniko,</p>
+<p>erreprox&uuml;rik egin behar.</p>
+<p>Bestela izanen d&uuml;k</p>
+<p>orano s&uuml;jet haboro;</p>
+<p>ezteiat pharkat&uuml;ren,</p>
+<p>balira ere debriak oro.</p>
+<p><hi rend='Italic'>(<foreign>Jupiter</foreign> eta <foreign>Buljifer</foreign> jalkhi.)</hi></p>
+<p><hi rend='Bold'> <foreign>Jupiter</foreign></hi></p>
+<p><foreign>Buljifer</foreign> nizanaz geroz,</p>
+<p>enperadore erres&uuml;mako</p>
+<p>badiat, aren bothere</p>
+<p>hire manhatzeko.</p>
+<p><hi rend='Bold'> <foreign>Buljifer</foreign></hi></p>
+<p>Sek&uuml;la ehait nahi</p>
+<p>ezag&uuml;t&uuml; b&uuml;r&uuml;zagi,</p>
+<p>zeren ezpeiteiat ikh&uuml;si</p>
+<p>astokeriarik baizik.</p>
+<p><hi rend='Bold'> <foreign>Jupiter</foreign></hi></p>
+<p>Ezt&uuml;k zer erran, to,</p>
+<p>nitan badela astorik;</p>
+<p>bestela erranen die</p>
+<p>hitara nizala s&uuml;sat&uuml;rik.</p>
+<p><hi rend='Bold'> <foreign>Buljifer</foreign></hi></p>
+<p>Eztiat est&uuml;diat&uuml; nik</p>
+<p>instr&uuml;kzione hun baizik;</p>
+<p>hik zer erraiten dian ere</p>
+<p>ene ustez eztakik.</p>
+<p><hi rend='Bold'> <foreign>Jupiter</foreign></hi></p>
+<p>Bad&uuml;t b&uuml;ria h&uuml;n bad&uuml;t gaixto,</p>
+<p>b&uuml;r&uuml;zagi n&uuml;k hiretako,</p>
+<p>izendat&uuml; benai Satanek</p>
+<p>enperadore erresumako.</p>
+<p><hi rend='Bold'> <foreign>Buljifer</foreign></hi></p>
+<p>Erresumaren gobernatzeko</p>
+<p>giz&uuml;n b&uuml;r&uuml;-h&uuml;na ezarri dik;</p>
+<p>hitaz ez ahal dik ihurk</p>
+<p>eginen khunt&uuml; haundirik.</p>
+<p><hi rend='Bold'> <foreign>Jupiter</foreign></hi></p>
+<p>Hik jakinen d&uuml;k sarri</p>
+<p>eginen dianez khunt&uuml;rik,</p>
+<p>erakutsi nahi derat</p>
+<p>hanbat denbora gabetarik.</p>
+<p><hi rend='Bold'> <foreign>Buljifer</foreign></hi></p>
+<p>Khaka to hiretako.</p>
+<p>Hi, zer enperadoria!</p>
+<p>El&uuml;kek esk&uuml; gaistuoan</p>
+<p>erresumako gobernia.</p>
+<p>Ehait ezag&uuml;tzen nik</p>
+<p>hi b&uuml;r&uuml;zagitako,</p>
+<p>zeren ezpeit&uuml;k treit&uuml;rik</p>
+<p>ene &uuml;zkiak beno haboro.</p>
+<p><hi rend='Bold'> <foreign>Jupiter</foreign></hi></p>
+<p>Enperadore bati deia</p>
+<p>gisa hortan mintzatzia?</p>
+<p>Ezarrak ezpata eskiala</p>
+<p>balin bad&uuml;k korajia.</p>
+<p><hi rend='Italic'> (Batailla. <foreign>Buljifer</foreign> blesa.)</hi></p>
+<p><hi rend='Bold'> <foreign>Buljifer</foreign></hi></p>
+<p>Sira, errendatzen n&uuml;z&uuml;,</p>
+<p>obedient izan nahi n&uuml;z&uuml;.</p>
+<p>Zer plazer d&uuml;z&uuml;n orai</p>
+<p>othoi erran izadaz&uuml;.</p>
+<p><hi rend='Bold'> <foreign>Jupiter</foreign></hi></p>
+<p>Behar d&uuml;k, aren juoan</p>
+<p>orai Satanen gana,</p>
+<p>kh&uuml;ndiak egin behar t&uuml;g&uuml;la,</p>
+<p>erakhar huna</p>
+<p><hi rend='Bold'> <foreign>Buljifer</foreign></hi></p>
+<p>Sira, banuoaz&uuml;</p>
+<p>orai mementian.</p>
+<p>Ekharriren dit errege</p>
+<p>bertan nihaurekilan.</p>
+<p><hi rend='Italic'> (Erretira. Kaniko jalkhi eta paseia.)</hi></p>
+<p><hi rend='Bold'> Kaniko</hi></p>
+<p>Ale, kanailla salduak.</p>
+<p>khen zitie horti;</p>
+<p>ziek begirat&uuml;ren z&uuml;tiet</p>
+<p>ene l&uuml;rretarik.</p>
+<p>N&uuml;nti zer ikh&uuml;siren d&uuml;zien</p>
+<p>zirie bai jiten,</p>
+<p>harzara gero salhatzeko</p>
+<p>m&uuml;thil gazte horier.</p>
+<p>Areta, mila debria,</p>
+<p>ezpaniz zapartatzen;</p>
+<p>solas horien abiatzia</p>
+<p>zaizie dol&uuml;t&uuml;ren.</p>
+<p>Eniz geldit&uuml;ren batere</p>
+<p>muienik d&uuml;dano;</p>
+<p>hatzemanen d&uuml;t adixkide</p>
+<p>zien kuntre orano.</p>
+<p><hi rend='Italic'> (Erretira. Hir&uuml; satanak jalkhi.)</hi></p>
+<p><hi rend='Bold'> Satan</hi></p>
+<p>Jaunak, zerbait meskredenzia</p>
+<p>ziek bad&uuml;zie d&uuml;da gabe,</p>
+<p>ala ene zerb&uuml;txian</p>
+<p>debeiat&uuml; ziradie.</p>
+<p><hi rend='Bold'> <foreign>Jupiter</foreign></hi></p>
+<p>Jauna, badiz&uuml; denbora</p>
+<p>zerb&uuml;txatzen z&uuml;t&uuml;g&uuml;la,</p>
+<p>nahi bada ezt&uuml;g&uuml;n de&uuml;s &uuml;khen</p>
+<p>z&uuml;re ganik sek&uuml;la.</p>
+<p>Eta plazer bad&uuml;z&uuml; orai</p>
+<p>jente horien aitzinian,</p>
+<p>ditzag&uuml;n khuntiak egin</p>
+<p>garbiki presentian.</p>
+<p><hi rend='Bold'> <foreign>Buljifer</foreign></hi></p>
+<p>Arraz&uuml; d&uuml;k, <foreign>Jupiter</foreign>;</p>
+<p>kh&uuml;ndiak eginik garbiki</p>
+<p>hobe &uuml;khenen diag&uuml;</p>
+<p>beld&uuml;r n&uuml;k jaun huneki.</p>
+<p><hi rend='Bold'> Satan</hi></p>
+<p>Jaunak, eniz ene beithan</p>
+<p>orai kh&uuml;ndien egiteko;</p>
+<p>behar d&uuml;t &uuml;khen denbora</p>
+<p>errefletzione egiteko.</p>
+<p>Beste aldiz batez, jaunak,</p>
+<p>eginen t&uuml;g&uuml; hobeki.</p>
+<p>Hor emazie orai aldiz</p>
+<p>phausatzera hebeti.</p>
+<p><hi rend='Italic'> (Erretira.<foreign>Sonu</foreign>.Praubiak jalkhi, hordiak.)</hi></p>
+<p><hi rend='Bold'> Juanes</hi></p>
+<p>Jente h&uuml;nak, ezt&uuml;guia</p>
+<p>eg&uuml;n fort&uuml;na egin?</p>
+<p>Emazte bedera baizik</p>
+<p>etzen etxe bakhoitzin.</p>
+<p>&Uuml;khenen bag&uuml;n&uuml; bira tripa,</p>
+<p>nahiago g&uuml;n&uuml;kian,</p>
+<p>zeren eta haboro</p>
+<p>janen baik&uuml;nian.</p>
+<p><hi rend='Bold'> Gilento</hi></p>
+<p>Emazte h&uuml;rak ari ziren</p>
+<p>ixil askari egiten;</p>
+<p>nahi t&uuml;g&uuml;nak &uuml;khen t&uuml;g&uuml;,</p>
+<p>ixilik egon ginten.</p>
+<p>Bere familiak z&uuml;t&uuml;ztela</p>
+<p>errep&uuml;blikaren banketian;</p>
+<p>gero hek ere behar z&uuml;tela</p>
+<p>egin beren gisa etxian.</p>
+<p>Othoi ez erraiteko</p>
+<p>berria ih&uuml;ri ere,</p>
+<p>hek bezala eginen</p>
+<p>g&uuml;niala g&uuml;k ere.</p>
+<p><hi rend='Bold'> Juanes</hi></p>
+<p>Eztie seg&uuml;rki arriskatzen</p>
+<p>erranen d&uuml;g&uuml;n ih&uuml;n.</p>
+<p>Miserable emaztiak,</p>
+<p>fort&uuml;na egin diag&uuml; eg&uuml;n.</p>
+<p>Ez, ene fedia, Juanes,</p>
+<p>eztie seg&uuml;rki merexi;</p>
+<p>hel direla medio g&uuml;t&uuml;k</p>
+<p>untsa aserik eta ordi.</p>
+<p>Guoazan taula hartara</p>
+<p>lo bederaren egitera;</p>
+<p>gero juanen g&uuml;t&uuml;k</p>
+<p>hantxeko ostat&uuml; hartara.</p>
+<p><hi rend='Bold'> Juanes</hi></p>
+<p>Bai, ene lag&uuml;na,</p>
+<p>orai aserik beikira;</p>
+<p>lo egoiten ahal g&uuml;t&uuml;k</p>
+<p>oren bat edo biga.</p>
+<p><hi rend='Italic'> (Jan eta lo taulan gai&ntilde;en. </hi></p>
+<p><hi rend='Italic'> Kaniko jalkhi, eta taula hartziarekin mintza; </hi></p>
+<p><hi rend='Italic'> praubiak eror zankhoz gora.)</hi></p>
+<p><hi rend='Bold'> Kaniko</hi></p>
+<p>O&uuml;ste d&uuml;ziela taula hok</p>
+<p>d&uuml;t&uuml;d&uuml;la zientako?</p>
+<p>&Uuml;rde zizill zarrak!</p>
+<p>zorriz bethatzeko?</p>
+<p><hi rend='Italic'> (Erretira.)</hi></p>
+<p><hi rend='Bold'> Gilento</hi></p>
+<p>Ale, &uuml;rde infame,</p>
+<p>zezen b&uuml;r&uuml;-tz&uuml;ta!</p>
+<p>Taula horren hartzeko,</p>
+<p>beste manerarik ezt&uuml;ka?</p>
+<p><hi rend='Bold'> Juanes</hi></p>
+<p>Hire emaztiarentako</p>
+<p>izan bahintz horren fier,</p>
+<p>debrien astapituoa</p>
+<p>hobeki eginen hien.</p>
+<p>Zer &uuml;ste d&uuml;k, ene lag&uuml;na,</p>
+<p>behar d&uuml;g&uuml;la egin?</p>
+<p>Bers&uuml; bedera behar dioag&uuml;</p>
+<p>khantat&uuml; algarrekin.</p>
+<p><hi rend='Bold'> Gilento</hi></p>
+<p>Bai, bai, ene lag&uuml;na,</p>
+<p>gitian has mementian,</p>
+<p>emaztiak giz&uuml;naren</p>
+<p>joitiaren gai&ntilde;ian.</p>
+<p><hi rend='Bold'> Khanta</hi></p>
+<p>Kaniko giza-gaisuoa,</p>
+<p>zer zaian gerthat&uuml;?</p>
+<p>Emaztiak &uuml;men hai</p>
+<p>ederki zanphat&uuml;.</p>
+<p><hi rend='Italic'> (<foreign>Sonu</foreign>.)</hi></p>
+<p>Hori etsenpl&uuml; h&uuml;na d&uuml;k</p>
+<p>arrastako emazten;</p>
+<p>ez ahal die &uuml;khenen</p>
+<p>axol handirik giz&uuml;nen.</p>
+<p><hi rend='Italic'> (<foreign>Sonu</foreign>.)</hi></p>
+<p>Bena behar bezala</p>
+<p>beita orotarik,</p>
+<p>eztie &uuml;s&uuml; atzemanen</p>
+<p>hi bezai&ntilde; giz&uuml;n astorik.</p>
+<p><hi rend='Italic'> (Soin&uuml;.)</hi></p>
+<p><hi rend='Italic'> (Khanta orai Belxitinaren.)</hi></p>
+<p>Emazte marimartin,</p>
+<p>kolore berdia,</p>
+<p>&uuml;ste d&uuml;na permis dela</p>
+<p>giz&uuml;naren joitia?</p>
+<p><hi rend='Italic'> (<foreign>Sonu</foreign>.)</hi></p>
+<p>Hik merexi &uuml;ke, bai,</p>
+<p>bizirik erratzia,</p>
+<p>eta gero hire erhautsak</p>
+<p>aiziari &uuml;rth&uuml;kitzia.</p>
+<p><hi rend='Italic'> (<foreign>Sonu</foreign>.)</hi></p>
+<p>Hire senharra ezt&uuml;n h&uuml;n</p>
+<p>jalkhitzeko borthara,</p>
+<p>jenten ahalkez behar din</p>
+<p>barnen egon lotara.</p>
+<p><hi rend='Italic'> (<foreign>Sonu</foreign>.)</hi></p>
+<p>Bena hatzemaiten bahait,</p>
+<p>erran den Belxitina,</p>
+<p>gald&uuml;ren d&uuml;n giz&uuml;nari</p>
+<p>joka hasteko mina.</p>
+<p><hi rend='Bold'> Juanes</hi></p>
+<p>Guazen, ene lag&uuml;na,</p>
+<p>pinta-erdiaren edatera;</p>
+<p>nik sei ardit badiat.</p>
+<p>Guazan ostat&uuml; hartara.</p>
+<p><hi rend='Bold'> Gilento</hi></p>
+<p>Guazan, ene lag&uuml;na;</p>
+<p>hamar ardit batiak nik ere.</p>
+<p>Ordian janen diag&uuml;</p>
+<p>sos baten ogia ere.</p>
+<p><hi rend='Italic'>(Erretira. <foreign>Sonu</foreign>.)</hi></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>&Uuml;NDAR SATANERIA</hi></p>
+<p><hi rend='Italic'> (Satanak jalkhi.)</hi></p>
+<p><hi rend='Bold'> Satan</hi></p>
+<p>Jaunak, egin tit ene beithan</p>
+<p>errefletzioniak seriuski,</p>
+<p>zien soldaten phakatzeko</p>
+<p>dihar&uuml;z jeneruski.</p>
+<p>Denbora iragan horietako</p>
+<p>eman nahi deiz&uuml;t ardit bat,</p>
+<p>eta zerb&uuml;txat&uuml;ren naiziela</p>
+<p>hebentik aitzina orobat.</p>
+<p>Orai ez deiziet eman nahi</p>
+<p>gal dezazien beld&uuml;rrez,</p>
+<p>gero has beitzindaizte</p>
+<p>haurrak bezala nigarrez.</p>
+<p><hi rend='Bold'> <foreign>Buljifer</foreign></hi></p>
+<p>Bet diable! Zer soldata</p>
+<p>bi mithilen phakatzeko!</p>
+<p>Ezk&uuml;t&uuml;k gaixki izanen</p>
+<p>taharnetan ebilteko.</p>
+<p>Hik nahi d&uuml;z&uuml;, <foreign>Jupiter</foreign>,</p>
+<p>zerb&uuml;txat&uuml; Satan.</p>
+<p>Beld&uuml;r n&uuml;k eztian</p>
+<p>ardit bat ere sakolan.</p>
+<p><hi rend='Bold'> <foreign>Jupiter</foreign></hi></p>
+<p>Jauna, ezk&uuml;t&uuml;z&uuml; haboro</p>
+<p>entertenit&uuml;ren gez&uuml;rrez.</p>
+<p>Eia! Ikher az&uuml; sakola</p>
+<p>batere bad&uuml;g&uuml;nez.</p>
+<p><hi rend='Bold'> Satan</hi></p>
+<p>Ale, ziraien bezalako</p>
+<p>enpertinent xarrak!</p>
+<p>Errege bati erraiteko</p>
+<p>horik direia disk&uuml;sak?</p>
+<p>Ale, infame paria;</p>
+<p>ziek zertarako z&uuml;tiet?</p>
+<p>Sabre-kolp&uuml; h&uuml;nez</p>
+<p>b&uuml;riak idoki nahi deitziet.</p>
+<p><hi rend='Italic'> (Batailla. Mithilak ezkapa.)</hi></p>
+<p><hi rend='Bold'> Satan</hi></p>
+<p>Jente h&uuml;nak, tradizione bat</p>
+<p>behar d&uuml;t egin zieki;</p>
+<p>ziek ezt&uuml;zie de&uuml;sere</p>
+<p>ixilik egoitia baizi.</p>
+<p>Jiant handi h&uuml;ra</p>
+<p>nahi n&uuml;ke atzaman,</p>
+<p>eta gero ezarri</p>
+<p>iferniaren zolan.</p>
+<p>Hebexe behar d&uuml;t</p>
+<p>lekh&uuml; bat preparat&uuml;,</p>
+<p>eta pholbora-meta bat</p>
+<p>gero barreiat&uuml;.</p>
+<p>Gero konposat&uuml;ren d&uuml;t,</p>
+<p>behar den bezala,</p>
+<p>h&uuml;ra h&uuml;na deneko</p>
+<p>bere mailliarekila.</p>
+<p>Lehen maill&uuml;-kolpian</p>
+<p>beit&uuml; s&uuml; jauz-eraziren,</p>
+<p>otso ph&uuml;tz bezala</p>
+<p>da zapartat&uuml;ren.</p>
+<p>Ni orai banua hebenti,</p>
+<p>ez othoi aberti;</p>
+<p>bestela erra-eraziren z&uuml;tiet</p>
+<p>oro algarreki.</p>
+<p><hi rend='Italic'> (Konposa eta erretira. </hi></p>
+<p><hi rend='Italic'> <foreign>Ferragus</foreign> jalkhi eta mintza.)</hi></p>
+<p><hi rend='Bold'> <foreign>Ferragus</foreign></hi></p>
+<p>Zeitera zirie, kanailla saldua?</p>
+<p>Zer disk&uuml;s d&uuml;t&uuml;zie nitaz?</p>
+<p>Zui&ntilde; ziradie hardita</p>
+<p>mintzat&uuml; ziradeiana ene erhaitiaz?</p>
+<p>Ha miserable &uuml;khatiak!</p>
+<p>Zer phentsatzen d&uuml;zie jitez h&uuml;na,</p>
+<p>m&uuml;nd&uuml; h&uuml;ntan egoitez,</p>
+<p>hain debeiat&uuml; zinandiena?</p>
+<p>Solamente eni so egiteko</p>
+<p>bihotzak ikhara d&uuml;t&uuml;zie.</p>
+<p>L&uuml;rrian barna f&uuml;nditzen z&uuml;tiet,</p>
+<p>khentzen ezpazirie.</p>
+<p>Ezt&uuml;zieia ikh&uuml;sten zihaurek?</p>
+<p>&Uuml;&ntilde;&uuml;rri eli bat zirie ene althian,</p>
+<p>hartzen baz&uuml;tiet aztaparretan,</p>
+<p>osorik iresten z&uuml;tiet eztarrian.</p>
+<p><hi rend='Italic'> (Maza-&uuml;khald&uuml; eman; </hi></p>
+<p><hi rend='Italic'> tiro bat thira triate-pian. </hi></p>
+<p><hi rend='Italic'> <foreign>Ferragus</foreign> eror hilik. </hi></p>
+<p><hi rend='Italic'> Satan jalkhi eta mintza.)</hi></p>
+<p><hi rend='Bold'> Satan</hi></p>
+<p>Ha! Zer plazera!</p>
+<p>Eg&uuml;n beit&uuml;t ikh&uuml;sten</p>
+<p>ene partida handia</p>
+<p>hilik edireiten.</p>
+<p>Othian ezt&uuml;ka erran nahi</p>
+<p>n&uuml;rk erho haian?</p>
+<p>&Uuml;ste nia etzela izanen</p>
+<p>hire parerik m&uuml;ndian.</p>
+<p>Hanitxetan lasterkat&uuml; naik</p>
+<p>hire maill&uuml; handiareki;</p>
+<p>eg&uuml;n ifern&uuml;ko kapitxale-gei</p>
+<p>nahi ait ezarri.</p>
+<p><hi rend='Italic'> (Alxa ami&ntilde;i bat.)</hi></p>
+<p>Ale, animal handia,</p>
+<p>eta horren phez&uuml; intzana!</p>
+<p>Ago, ago, airian ezpada</p>
+<p>eramanen hait therresta.</p>
+<p><hi rend='Italic'> (Thira ami&ntilde;i bat.)</hi></p>
+<p>N&uuml;n dira oithian</p>
+<p>orai ene mithilak?</p>
+<p>Ni aldiz &uuml;rrat&uuml;rik</p>
+<p>ezin eginez lanak.</p>
+<p><hi rend='Italic'> (Bi mithilak jalkhi.)</hi></p>
+<p><hi rend='Bold'> <foreign>Buljifer</foreign></hi></p>
+<p>Aiei eta, zer da hau</p>
+<p>m&uuml;stro ikharagarria?</p>
+<p>Eta n&uuml;la phentsatzen d&uuml;zie</p>
+<p>h&uuml;nen eramaitia?</p>
+<p>Ez, ez, en&uuml;z&uuml; beld&uuml;r,</p>
+<p>bagina ere azkarrago,</p>
+<p>ez eta jinik ere</p>
+<p>ifern&uuml;ko debriak oro.</p>
+<p>Abil, ua, <foreign>Jupiter</foreign>,</p>
+<p>bertan zot&uuml;ka adi;</p>
+<p>soka pare bat h&uuml;nik</p>
+<p>ekharrak n&uuml;ntipaiti.</p>
+<p><hi rend='Italic'> (Ekhar sokak.)</hi></p>
+<p><hi rend='Bold'> <foreign>Jupiter</foreign></hi></p>
+<p>Eg&uuml;r&uuml;, jaunak, behar d&uuml;g&uuml;</p>
+<p>zankhuetarik estekat&uuml;;</p>
+<p>ostrailla bat bezala therresta</p>
+<p>gero eramanen d&uuml;g&uuml;.</p>
+<p><hi rend='Italic'> (Esteka eta thira.)</hi></p>
+<p>Hots, hots, orai, jaunak.</p>
+<p>higitzen d&uuml;g&uuml; halere.</p>
+<p>D&uuml;g&uuml;n eraman bertan,</p>
+<p>phausatzera &uuml;tzi gabe.</p>
+<p>Orai behar diag&uuml;, Baljifer,</p>
+<p>g&uuml;k untsa libertit&uuml;,</p>
+<p>g&uuml;re soldaten khost&uuml;z</p>
+<p>alagaraki plazer hart&uuml;.</p>
+<p>Dihar&uuml; frango badiag&uuml;</p>
+<p>orai irabazirik;</p>
+<p>eztiag&uuml; seg&uuml;rki</p>
+<p>gaiski izateko biderik.</p>
+<p><hi rend='Bold'> <foreign>Buljifer</foreign></hi></p>
+<p>Bai, hala d&uuml;k, <foreign>Jupiter</foreign>,</p>
+<p>orai d&uuml;k denoria;</p>
+<p>beharko dik largat&uuml;</p>
+<p>bere m&uuml;ltsa haundia.</p>
+<p>Edo bestela ikh&uuml;si</p>
+<p>bera sarri &uuml;tz&uuml;lirik;</p>
+<p>eztik &uuml;khenen profeit&uuml;rik</p>
+<p>zonbait gez&uuml;r phentsat&uuml;rik.</p>
+<p><hi rend='Bold'> Satan</hi></p>
+<p>Zer ikh&uuml;sten d&uuml;t nik,</p>
+<p>edo ziek zer zirie?</p>
+<p>Bad&uuml;zieia aire h&uuml;nik,</p>
+<p>ala ene mithilak zirie?</p>
+<p>Enezaziela tr&uuml;bla-erazi</p>
+<p>ene phentsamentian,</p>
+<p>eta ene mithilak bazirie,</p>
+<p>mintza zitie bertan.</p>
+<p><hi rend='Bold'> <foreign>Buljifer</foreign></hi></p>
+<p>Ezk&uuml;t&uuml;zia ezag&uuml;tzen</p>
+<p>z&uuml;re mithilak girela?</p>
+<p>Arauz b&uuml;ria nahasi zeiz&uuml;,</p>
+<p>ala, aments, hordi zira.</p>
+<p><hi rend='Bold'> <foreign>Jupiter</foreign></hi></p>
+<p>Nabasiki &uuml;ts&uuml;t&uuml; zira</p>
+<p>eta zentzia gald&uuml;.</p>
+<p>Nahi d&uuml;zia ene larga-bixta?</p>
+<p>H&uuml;nez ikh&uuml;siren d&uuml;z&uuml;.</p>
+<p><hi rend='Italic'> (Jeiki eta eman makhilaz.)</hi></p>
+<p><hi rend='Bold'> Satan</hi></p>
+<p>En&uuml;k orano &uuml;ts&uuml; ez hordi,</p>
+<p>ez eta gald&uuml; zentzia;</p>
+<p>etxek ezazie present hau,</p>
+<p>frip&uuml; ahalke gabia.</p>
+<p><hi rend='Bold'> <foreign>Buljifer</foreign></hi></p>
+<p>Hau hil gabe eztiat nik, eztiat,</p>
+<p>&uuml;khenen deskants&uuml;rik.</p>
+<p>Alo, <foreign>Jupiter</foreign>, dezag&uuml;n erho</p>
+<p>edo ezar laurdenkat&uuml;rik.</p>
+<p><hi rend='Italic'> (Batailla. <foreign>Jupiter</foreign> ezkapa.)</hi></p>
+<p><foreign>Vient icy, Jupiter</foreign>.</p>
+<p>&Uuml;zten naika nihaur?</p>
+<p><foreign>Tu es un grand cobart,</foreign></p>
+<p>ezpanaik lag&uuml;ntzen gaur.</p>
+<p><hi rend='Bold'> <foreign>Jupiter </foreign></hi><hi rend='Italic'>(Jalkhirik.)</hi></p>
+<p><foreign>Quesquilia de faire,</foreign></p>
+<p><foreign>moncher Buljifer?</foreign></p>
+<p><foreign>Il faooooot que nous murrons</foreign></p>
+<p><foreign>le Roi de l_Enfer.</foreign></p>
+<p><hi rend='Bold'> Satan</hi></p>
+<p><foreign>Que dit-tu, foutut bougre,</foreign></p>
+<p><foreign>grand pendart Jupiter?</foreign></p>
+<p><foreign>Tu viens en colere,</foreign></p>
+<p><foreign>determine deme tuer.</foreign></p>
+<p>Bena hots orai, aren,</p>
+<p><foreign>prend l_epee a la main,</foreign></p>
+<p>eta seg&uuml;rtatzen ait nik</p>
+<p><foreign>tu ne sera en vie demain.</foreign></p>
+<p><hi rend='Bold'> <foreign>Jupiter</foreign></hi></p>
+<p>Heben n&uuml;k orai, <foreign>Buljifer</foreign>,</p>
+<p>biziaren arrixkatzeko;</p>
+<p>nik phausuak &uuml;kheitekoz,</p>
+<p>behar diag&uuml; Satan erho.</p>
+<p>Gero tranquil g&uuml;t&uuml;kek</p>
+<p>paseiatzeko gure gisa.</p>
+<p>Behai&ntilde; phak&uuml;rik hune ganik</p>
+<p>eztikeiag&uuml; sek&uuml;la.</p>
+<p><hi rend='Bold'> <foreign>Buljifer</foreign></hi></p>
+<p>Zer phak&uuml; nahi d&uuml;k</p>
+<p>&uuml;khen dezag&uuml;n hune ganik?</p>
+<p>H&uuml;nek eztik besteik de&uuml;sere</p>
+<p>gez&uuml;r baizik.</p>
+<p><hi rend='Bold'> Satan</hi></p>
+<p>Ale, pandart koki,</p>
+<p>m&uuml;th&uuml;r ahalke-gabiak!</p>
+<p>Orai nahi deitziet</p>
+<p>bier idoki biziak.</p>
+<p><hi rend='Italic'> (Batailla. Bi aldetarik mithilak. </hi></p>
+<p><hi rend='Italic'> Satan ezkapa.)</hi></p>
+<p><hi rend='Bold'> <foreign>Jupiter</foreign></hi></p>
+<p><foreign>Buljifer</foreign>, oraiko aldian</p>
+<p>garhait&uuml; diag&uuml; Satan,</p>
+<p>bena g&uuml;re soldatak</p>
+<p>eraman tik berekilan.</p>
+<p><hi rend='Bold'> <foreign>Buljifer</foreign></hi></p>
+<p>Ho! Maradikatia h&uuml;ra!</p>
+<p>Ez d&uuml;k gaixki tr&uuml;fatzen.</p>
+<p>Bena behar dik phakat&uuml;,</p>
+<p>ezpag&uuml;t&uuml; phakatzen.</p>
+<p><hi rend='Bold'> <foreign>Jupiter</foreign></hi></p>
+<p>Adio, jente hunak.</p>
+<p>G&uuml; baguatza hebentik.</p>
+<p>Ziek ere jin zitie</p>
+<p>nahi bazide gureki.</p>
+<p><hi rend='Bold'> <foreign>Buljifer</foreign></hi></p>
+<p>Jente h&uuml;nak, orai</p>
+<p>adio deizieg&uuml; erraiten,</p>
+<p>eta plazer d&uuml;zienak oro</p>
+<p>dantzala kh&uuml;mitatzen.</p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>&Uuml;NDAR ENTRADA</hi></p>
+<p>Ikh&uuml;si d&uuml;zie, jente h&uuml;nak</p>
+<p>g&uuml;re trajeria finitzen;</p>
+<p>hart&uuml; d&uuml;zien atentzioniaz,</p>
+<p>oro z&uuml;tiet erremestiatzen.</p>
+<p>Gure plazera lizate</p>
+<p>libertit&uuml; zinandian,</p>
+<p>eta kuntentament&uuml;reki</p>
+<p>etxerat erretira zitian.</p>
+<p><hi rend='Italic'> (Paseia.)</hi></p>
+<p>Orok etsenpl&uuml; har ezazie;</p>
+<p>holakuoak arraro dirade.</p>
+<p>&Uuml;militatia pratika,</p>
+<p>koleran eman gabe.</p>
+<p>S&uuml;st&uuml;t, emaztekiak,</p>
+<p>s&uuml;jet hau zier dago.</p>
+<p>Etz&uuml;n&uuml;kie behar hitz bat erran</p>
+<p>beste bat beno gorago.</p>
+<p>Ezag&uuml;t etzatzie, othoi,</p>
+<p>kas&uuml; erreserbatiak,</p>
+<p>etzitien izan, aments,</p>
+<p>esk&uuml;m&uuml;k&uuml;z joak.</p>
+<p>Ezkirela agradableki</p>
+<p>eta behar bezala konportat&uuml;,</p>
+<p>nahi deizieg&uuml; presentian</p>
+<p>gihaurek aithort&uuml;.</p>
+<p>H&uuml;tsik egin ezpag&uuml;n&uuml;,</p>
+<p>m&uuml;nd&uuml;ko lehenak ginatian;</p>
+<p>bena ezkira pla&ntilde;itzeko,</p>
+<p>h&uuml;tsa hai&ntilde; kom&uuml;n denian.</p>
+<p>G&uuml;re aitzinekuetarik ere</p>
+<p>izan da h&uuml;ts-egile,</p>
+<p>Adan, aita lehena,</p>
+<p>eta Salomon zaharra ere.</p>
+<p>Bena ezta eni eman</p>
+<p>s&uuml;jet horiez mintzatzia,</p>
+<p>zeren hartako haitatiak</p>
+<p>Elizako aitak dira.</p>
+<p>Ene disk&uuml;sa nahi d&uuml;t</p>
+<p>bi hitzetan finit&uuml;,</p>
+<p>eta kanpa&ntilde;a &uuml;h&uuml;ragarria,</p>
+<p>ziek oro othoit&uuml;.</p>
+<p>Othoitzen z&uuml;tiet, aren,</p>
+<p>ene aurhide maitiak,</p>
+<p>erretira zitaien oro</p>
+<p>ahalik goizena etxerat.</p>
+<p>Am&uuml;rekatik ezkandalik</p>
+<p>kausa eztezazien,</p>
+<p>eta etxekuek xangrinik,</p>
+<p>aments, &uuml;khen eztezen.</p>
+<p>Goizik erretiratzen bazirade,</p>
+<p>plazer eginen d&uuml;zie;</p>
+<p>beste aldiko kredita</p>
+<p>gero beit&uuml;kezie.</p>
+<p>Beste trajeria bat illab&uuml;rzki</p>
+<p>bait&uuml;g&uuml; errepresentat&uuml;ren,</p>
+<p>ordian ere asestitzez</p>
+<p>oro z&uuml;tiet othoitzen.</p>
+<p>(<hi rend='Italic'>xapeka eskian</hi>)</p>
+<p>Esperantxa horreki batian</p>
+<p>konjit beiziet hartzen,</p>
+<p>eta ene ins&uuml;fisentziaz</p>
+<p>pharkament&uuml; galthatzen.</p>
+<p>(<hi rend='Italic'>erdian</hi>)</p>
+<p>Aren, kuntentatzen niz</p>
+<p>habororik erran gabe,</p>
+<p>zeren eta juoaiteko etxerat</p>
+<p>sarri ord&uuml; baitateke</p>
+<p>Plazer bad&uuml;zie ih&uuml;rk ere</p>
+<p>g&uuml;rekilan dantzat&uuml;,</p>
+<p>mementian soniak</p>
+<p>has-erazten d&uuml;t&uuml;g&uuml;.</p>
+<p>Libertitzez uneski</p>
+<p>orai niz gomendatzen,</p>
+<p>eta ber-denboran, jente h&uuml;nak,</p>
+<p>gai h&uuml;n bedera suhetatzen.</p>
+        </body>
+      </text>
+    </group>
+  </text>
+</TEI.2>
+

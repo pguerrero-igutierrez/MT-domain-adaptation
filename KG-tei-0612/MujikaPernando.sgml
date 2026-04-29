@@ -1,0 +1,1556 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN"
+                       "http://www.tei-c.org/P4X/DTD/tei2.dtd" [
+   <!ENTITY % TEI.prose    'INCLUDE' >
+   <!ENTITY % TEI.linking  'INCLUDE' >
+   <!ENTITY % TEI.analysis 'INCLUDE' >
+   <!ENTITY % TEI.figures  'INCLUDE' >
+   <!ENTITY % TEI.XML      'INCLUDE' >
+   <!ENTITY % TEI.extensions.ent SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.ent' >
+   <!ENTITY % TEI.extensions.dtd SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.dtd' >
+]>
+<TEI.2>
+  <teiHeader>
+  <fileDesc>
+     <titleStmt>
+        <title>Pernando Amezketarra</title>
+        <author>Gregorio Mujika</author>
+        <respStmt>Ez dauka</respStmt>
+     </titleStmt>
+     <extent>11.948 hitz, 87.027 karaktere</extent>
+     <publicationStmt>
+        <publisher>Klasikoen Gordailua [http://klasikoak.armiarma.com/]</publisher>
+        <distributor>Estrata Liburuak S.L.</distributor>
+        <address type='email'>klasikoak@armiarma.com</address>
+        <idno type='ota'>MujikaPernando</idno>
+        <availability status='free'>Erabilpen librekoa; honoko helbidean topa daiteke (HTML, RTF eta PDF formatuetan): http://klasikoak.armiarma.com/idazlanak/M/MujikaPernando.htm</availability>
+        <date>2006</date>
+     </publicationStmt>
+     <sourceDesc>
+        <bibl>Iturria: Pernando Amezketarra. Bere ateraldi ta gertaerak, Gregorio Mujika. Iñaki Deuna, 1925</bibl>
+        <notesStmt><note>Iturburuen datazioa: 1925</note></notesStmt>
+     </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+     <projectDesc>Euskal literaturako testu klasikoen bilduma da KLASIKOEN GORDAILUA; testu hau berorren parte da</projectDesc>
+     <refsDecl>
+        <p>MENTIONED etiketa egilearenak ez diren hitzak markatzeko erabili da: hitzaurreak, aipuak, iruzkinak, e.a.</p>
+    </refsDecl>
+     <classDecl>
+        <taxonomy id='generoa'>
+            <category id='G-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='G-ANT'><catDesc>Antzerkia</catDesc></category>
+            <category id='G-BER'><catDesc>Bertsoak</catDesc></category>
+            <category id='G-ERL'><catDesc>Erlijioa</catDesc></category>
+            <category id='G-NAR'><catDesc>Narratiba</catDesc></category>
+            <category id='G-POE'><catDesc>Poesia</catDesc></category>
+            <category id='G-SAI'><catDesc>Saiakera, kronika, artikuluak...</catDesc></category>
+        </taxonomy>
+        <taxonomy id='garaia'>
+            <category id='M-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='M-16'><catDesc>XVI. mendea</catDesc></category>
+            <category id='M-17-1'><catDesc>XVII. mendea - 1. erdia</catDesc></category>
+            <category id='M-17-2'><catDesc>XVII. mendea - 2. erdia</catDesc></category>
+            <category id='M-18-1'><catDesc>XVIII. mendea - 1. erdia</catDesc></category>
+            <category id='M-18-2'><catDesc>XVIII. mendea - 2. erdia</catDesc></category>
+            <category id='M-19-1'><catDesc>XIX. mendea - 1. erdia</catDesc></category>
+            <category id='M-19-2'><catDesc>XIX. mendea - 2. erdia</catDesc></category>
+            <category id='M-20-1'><catDesc>XX. mendea - 1. erdia</catDesc></category>
+            <category id='M-20-2'><catDesc>XX. mendea - 2. erdia</catDesc></category>
+        </taxonomy>
+        <taxonomy id='euskalkia'>
+            <category id='E-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='E-BAT'><catDesc>batua</catDesc></category>
+            <category id='E-BIZ'><catDesc>bizkaiera</catDesc></category>
+            <category id='E-BNA'><catDesc>behenafarrera</catDesc></category>
+            <category id='E-ERR'><catDesc>erronkariera</catDesc></category>
+            <category id='E-GIP'><catDesc>gipuzkera</catDesc></category>
+            <category id='E-GNA'><catDesc>goi nafarrera</catDesc></category>
+            <category id='E-LAP'><catDesc>lapurtera</catDesc></category>
+            <category id='E-NAF'><catDesc>nafarrera</catDesc></category>
+            <category id='E-ZAR'><catDesc>zaraitzuera</catDesc></category>
+            <category id='E-ZUB'><catDesc>zuberera</catDesc></category>
+        </taxonomy>
+    </classDecl>
+  </encodingDesc>
+  <profileDesc>
+     <textClass>
+       <keywords scheme='generoa'>
+         <list><item>G-NAR</item></list>
+       </keywords>
+       <keywords scheme='garaia'>
+         <list><item>M-20-1</item></list>
+       </keywords>
+       <keywords scheme='euskalkia'>
+         <list><item>E-GIP</item></list>
+       </keywords>
+     </textClass>
+  </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>Pernando Amezketarra -- Gregorio Mujika</docTitle>
+    </front>
+    <group>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>ITZAURREA</p><--</head>
+        </front>
+        <body>
+<p>Ona emen Pernando amezketarraren esaera ta gertaeren liburutxoa. Bere ateraldi irritsu ta jaki&ntilde;enak, berari ezartzen dizkioten gertaera atsegin eta politenak, ementxe daude ipi&ntilde;ita, irakurle.</p>
+<p>Pernandori ezartzen dizkioten gertaerak... Pernandori ezer gertatu al zezakion bada? Bizi izan zan gizona izan al zan bada Pernando? &mdash;esango du norbaitek noski. Ta ez da arritzeko izango. Pernando gizon izan ez zala uste duan bat edo beste izan liteke: norenak diran ez dakigun ipui ta izkirimiriak berari ezarri al izateko asmatu zuten izena besterik ez dala Pernando ori, uste lezake norbaitek.</p>
+<p>Ez ordea. Gu bezelaxe jaio ta bizi izan zan Pernando.</p>
+<p>Bere aita, Marti&ntilde; Jose Bengoetxea, adunatarra zan, eta bere ama, Joxepa Antoni altuna, amezketarra. Amezketan, gaitz izenez jolasean <hi rend='Italic'>euli-erri </hi>esaten dioten Gipuzkoako erri txiki menditsuan bizi ziran biok, eta Pernando ere antxen jaio zan:1764 garren urteko Urrillaren 10ean etorri zan mundura, ta Amezketan diotenez <hi rend='Italic'>Ixpille-saletxe </hi>izan zuan bere lendabiziko kabi epela.</p>
+<p>Txikitandik omen zan biurria, geldi egoteko tzarra, etxetik irtendakoan etxera etortzeko estutzen ez zana. Ala, diotenez, berandutu eta gero mutilla etxeratzen ez zala ikusita bere billa irten ziran batean, nundik nora zebillen jakitearren <hi rend='Italic'>Pernandooo...</hi> deitzen omen zioten, eta berak, alde batetik bestera iges egi&ntilde;az, <hi rend='Italic'>Ez noala oraindiooo... </hi>erantzun omen zien. Mendi-mutil, eskolarik ez, berez argia... biurri izan bear.</p>
+<p>Artzai zan; geienak ala ziran orduan, eta ala dira gaur ere Amezketan. Ez zuan lanak itoko <hi rend='Italic'>(langille errexa zan, </hi>esaten dute amezketarrak, ta izaten zituan estuasunetatik ateratzeko beso-lana ba&ntilde;o biurrikeri-lana sarrigo egiten zuan. Gizon leiala omen zan, beren bearretan besteai gogoz laguntzen ziena. Bertsolari jator, azkar ta purrukatua, ori jaki&ntilde;a; ba&ntilde;a eztarri txarrekoa.</p>
+<p>Amezketar batekin ezkondu zan, Mari-Joxepa Sagastumerekin, 1790g. urteko Orrillaren 3an. Bederatzi seme ta alaba bat eman zizkien Jaungoikoak. <hi rend='Italic'>Ixpille </hi>ta <hi rend='Italic'>Azentzin txikia </hi>izan zituzten bizitokitzat, eta azkenengo baserri ontan il zan Pernando, 1823g. urteko Uztaillaren 9an, kristau on bezela, Jauna ta elizakoak artu ondoren. Ez zuan testamenturik egin. Il eta urrengo egunean lurperatu zuten Amezketan bertan.</p>
+<p>Egia ala jolasa dan ez dakigu, ba&ntilde;a, Amezketan diotenez, <hi rend='Italic'>Apaetxe-borda</hi>n aran geiegi jan ondoren <hi rend='Italic'>Igaran-bizkar </hi>edo <hi rend='Italic'>Goen-errota</hi>ko errekatxoan eran zuan urak gaitz eginda il zan. Iltzeko zorian zegoanean, ala omen zion: &laquo;Ni iltzen naizeneen esan geo argi asko alde guziitan, Pernando ez doola goseek il; beti erdi-goseek eta mixerin bizi izan banaiz ee, ondo asetuta il naizela&raquo;.</p>
+<p>Benetako gizona zan bada gure Pernando au. Buruz azkarra, esaeratsua, itzez etorri aundikoa, orduko bertsolarien artean gain ga&ntilde;ekoa. Bere esaera ta ateraldiak, egikera ta gertaerak, izkirimiri ta ipuitxoak, or dabiltz oraindik aoz-ao, esan eta entzun, guzioen pozkarri. Ta oiek liburutxo batean bildu ta agererazteko asmoa artu det nik...</p>
+<p>Aspalditik nerabillen buruan asmo auxe. Esaera bixiak, gertaera zorrotzak, ateraldi parreragilleak, ipui labur alaiak, guzioen gogoko izaten dira, ta Pernandorenak bildu ta argitaratzeko asmoa aspalditik nerabilkian zirika.</p>
+<p>Ala, ala, ustekabean, Pernandoren omenez Amezketan egindako jaiak etorri ziran.</p>
+<p>1823garren urteko Uztaillaren 9an il zan Pernando.1923garren urtean bete ziran bada eun urte, Pernando il zan ezkeroztik. Urte ontan egin nai izan zuten jaia amezketarrak, ba&ntilde;a, au zala ta ura zala, jaia eratzerako urrengo urtea etorri zitzaieten.</p>
+<p>Orduan bai, 1924garren urtean, egin zan jai ori.</p>
+<p>Ta nolako jaia gero! Egun uraxe, Uztaillaren 13a, ez zaigu berealakoan aztuko. A zer eguzki argi ta alaigarria zegoan, eta a zer egun atsegi&ntilde;a izan zan an bildu gi&ntilde;an guziontzat!</p>
+<p>Egun artan Amezketan egin genuen guzia len ere esanda daukat. Ementxe berriz ipintzea, bearrezkoa da ordea.</p>
+<p>Amarretan, jaki&ntilde;a, Meza-nagusia. Nolakoa ordea? Eliza ederra, argiz ta loraz ederki apaindua zegoan. Toki berezi ta apa&ntilde;etan diputadu jaunak, lendakari ta guzi. Erri-buruak bere aulkijaki&ntilde;ean, eta eliza osoa zoko guzietan bete-betea. Abeslariak ederki abestu zuten Goikoetxearen meza, ta Bida&ntilde;iko erretore Balentin Azpeitia jaunak berebiziko sermoi eder, bika&ntilde;a, egin zigun. Ura izan zan Meza-nagusia, ura!</p>
+<p>Gero, plazan, pelota partidua ta bertsolariak; eta ordubatean... jaki&ntilde;a!... bazkaldu.</p>
+<p>Eun ta berrogei ba&ntilde;o geigo bildu gi&ntilde;an bazkaltzera Amezketako plazan. Plazan, bai, ba&ntilde;a ezin eta obeto antolatutako jan-toki zabalean, eta guzioen buru diputadu jaun, alkate, erretore, sermolari ta ga&ntilde;erako agirikoenak zirala.</p>
+<p>Bazkal-ondoan, antxe bertan, ereslari trebeak entzun genituen. Paulo Sorozabal donostiarra, mundu guziko toki onenetan musika ikasten dabillenak, bioli&ntilde;a jo zuan, eta entzunleak lilluraturik entzun genion. Bero Beltran Pagola jaunak pianoa jo zuan eta maki&ntilde;abat txalo irabazi zituan.</p>
+<p>Arratsaldeko jaia gero, Pernandoren izena gogora-erazi ta goratzeko eratutako jaia.</p>
+<p>Jai au ere plazan bertan. An ez zan izkutuan ezer egin. Guzia agirian, ikusi nai zuten guzientzat.</p>
+<p>Amezketako alkate jauna agertu zan lendabizi ta Pernandoren izena ospatzera errira etorri ziran guzioi eskerrak eman zizkien.</p>
+<p>Urrena, berriz, Juan Bautista Larreta jauna azaldu zan. Antxi&ntilde;ako denboretan Amezketa zer izan zan esaten asi zitzaigun, ba&ntilde;a laister, bide ori utxita, beste batetik asi zan: kanpoko oiturakin zer egin bear degun, kanpotarrekin nolakoak izan bear degun, eta orrelakoak. Parrez-parre egi aundiak esan zituan. Bai jendea ondo atsegindu ere.</p>
+<p>Gero Karmelo Etxegarai jauna zan itzegiteko. Ezin etorri al izan zan, ordea, ta berak bidaldutako itzaldia Antonio Pagoaga jaunak irakurri zuan. Itzaldi sakon ta ederra da.</p>
+<p>Gipuzkoako Diputazioko lendakari Julian Elorza jaunak itzegin zigun gero, garbi ta sutsu, euskaldunen oitura ta izkerari sendo eutsitzeko esanaz. Bere itzaldi labur, xamur ta goratuari, txalo ugari jo genizkion.</p>
+<p>Tolosako Manuel Urreta jaunak bere olerki polit batzuk irakurri zituan.</p>
+<p>Olerki onen ondoren, Pernandoren oroigarritzat Erriko-etxearen arpegian jarritako arria agertu erazi zuan alkatearen alaba lirain batek.</p>
+<p>Bere anai Josek pianoz lagunduta, Gabriel Olaizola abeslari ospatxuak ederki ba&ntilde;o ederkigo abestu zituan, <hi rend='Italic'>Ezkongaietan zerbait banintzan, </hi>eta <hi rend='Italic'>Bein batean Loiolan. </hi>Ao-zabalik entzun genituen abesti oiek, eta txalo ugari jo genizkien Gabriel eta bere anaiari.</p>
+<p>Joxe Egilegorren aldia izan zan urrena. Pernandoren ipui ta gertaerak bixi-bixi esan zituan, eta jendea algaraz lertzeko zorian eduki zuan. Ura zan gogoz par-egitea!</p>
+<p>Bukatzeko, txotxongilloak agertu zituzten. Egilegor berak eta Gregorio Beorlegik erabilli ta itzegi&ntilde;az, gauza politak esan eta egin zituzten txotxongilloak. Aurrak eta aur etziranak ondo pozik egon ziran andara aien aurrean, algaraz ta txalo-jotzen.</p>
+<p>Ala bukatu zan jai ura, jai eder ura. Egun artan Amezketan izan ziran guziak, ao batez esaten dute alako egunik ez dala oraindik Amezketan ikusi.</p>
+<p>Ez Amezketan eta ez inguruko errietan ere. Euliak pozik zebiltzen orduntxe...</p>
+<p>Jai onen antzeko beste bat ere egin zan Pernandoren izena piztu ta bizi-erazteko. Donostian izan zan bigarren jai au. <hi rend='Italic'>Euskal-Esnalea</hi>k urtero egiten ditu <hi rend='Italic'>Nobedades </hi>antzokian euskerazko itzaldi-jaiak, eta 1924garren urteko Lotazillaren 7an egin zuana, Pernandoren omenez izan zan. Joxe Eizagirre jaunak esan zuan asierako itzaldia. Gero, Pagoaga jaunak irakurri zuan Etxegaraik egin eta Amezketan Pagoagak berak irakurritako itzaldi uraxe bera. Egilegorrek, Amezketan bertan esandako Pernandoren ateraldiak berriz esanaz, maki&ntilde;abat algara egin-erazi zuan. Amezketa-erri ta bertan egindako jaiaren irudi politak erakutsi ziran, eta Jose Olaizolak lagunduaz, eresi ederrak abestu zituan Bitor Garitaonandia jaunak. Entzule ta ikuslien gogo-gogoko jaia izan zan.</p>
+<p>Jai oek zirala-ta, jaki&ntilde;a! berriz an ibilli ziran Pernandoren esaerak gora ta bera. Guziak bildu behar lirakela, guziakin liburutxo polit bat egin zitekela, egin bear litzakela... &laquo;Nik egingo det&raquo; ordea, ez zuan i&ntilde;ork esaten. Geienetan ala gera gu: egin litekela badakigu ta egin bear litzakela esaten degu, ba&ntilde;a... egitea bestientzat utzi.</p>
+<p>Aiek guziak entzutean, nere gogoa piztuagotu zan. &laquo;Egitekotan, oraintxe&raquo; &mdash;esan nuan, eta asi nitzan lanean.</p>
+<p>Oni galdetu, ari idatzi, emen irakurri, andik artu, alakori entzun, onakori esan-erazi, apurka-apurka nere lana aurreratu nuan... Ekin eta jarrai, ona emen egin detan guzia; Pernandoren ateraldiak ona emen.</p>
+<p>Guziak? Ez det uste. Guziak nork bildu? Ezagunak, jaki&ntilde;enak,Pernandoren izena geien zabaldu dutenak bai ordea, emen daude. Geigo izango dira noski, ba&ntilde;a nik ez det geigo arkitu.</p>
+<p>Emen dijoazen guziak ere ez dira noski, Pernandok esanak izango. Zeintzuk esan zituan eta zeintzuk ez, nola jakin? I&ntilde;ola ere ez, ta jakin gabe ezin batzuek bestiengandik aldendu. Emen ipi&ntilde;i ditudan guziak, ordea, Pernandok esandako bezela entzun eta irakurri ditut. Neronek ez det ezer asmatu; nere burutik ateratako ezertxo ere ez diot Pernandori ezarri.</p>
+<p>Sail au osatzeko galdera asko egin bear izan ditut, paper asko irakurri, itz asko entzun. Maki&ntilde;abat aldetan ikusi, entzun eta irakurritako gaiz egi&ntilde;a da liburutxo au! Bakoitzari berea ez zaio ukatu bear-eta, lendabizikotik asi ta IIgarrenera&ntilde;oko ateraldiak beste batek idatzi ta eratuak dirala esango det: Toribio Alzaga jaunak antolatu ta aurrena Amezketan eta urrena Donostian Jose Egilegorrek esan zituanak berak dira. Beste guziak neronek bildu ta idatizak dira, ta biltze-lan ontan lagundu diratenen artean, Zaldibiko Prantxisko Erauskin bertsolariaren izena ezin ixilik utzi dezaket, lankide iaioa izan det-eta.</p>
+<p>Ara guzioen lana. Nik dakidala, Pernandotzaz ez da oraindik liburutxorik egin, eta bere izena, bere izaera, ta bere ateraldiak, la&ntilde;otan bezela, erdiizkutuan zeuden. Ona emen, bada, nere liburutxo au aurrenengo. Geitu liteke, noski; edertu ta txukundu, bixitu ta alaigotu ere bai. Gai denak pixkortu, txoxpertu, gaztu ta osatu dezala. Txalo aurrez, berari.</p>
+<p>Bitartean zauden bezela atoz giza-artera, Pernando. Astotxoa aurrean dezula, etorri buru-arin eta esaeratsu. Ala ikustean, erretore jauna irtengo zaitzu bidera, ta zorrotz zirikatuko zaitu. Ez estutu: Erantzun bixi, ia zuen esaera, ta atera-aldiekin irakurleak poztutzen dituzuten.</p>
+<p>Ala izan dedilla, bide onezko poza bezelako ondasunik ez da-ta.</p>
+<p><hi rend='Bold'>G. MUJIKA</hi></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><mentioned>PERNANDO AMEZKETARRA</mentioned></p>
+<p><mentioned> Milla ta milla txalo irabazi dituzute, emen bildu zeraten amezketarrak, gure aurrean zaudeten gipuzkoarrak, onera etorri zeraten euskaldun guztiak.</mentioned></p>
+<p><mentioned> Zer dala-ta bildu zerate gaur Larrunarriren azpian bere tokia aukeratu zuen Amezketako erri ontan?</mentioned></p>
+<p><mentioned> Gudari bika&ntilde;en baten izen otsandikoak ekarri al zaituzte? Gizon jakintsuen artean bere burua jasotzen zuen asko-jakin baten omenak geiago ta geiago zabaldu ta goratzera alzatozte? Ez. Zuek onera ekarri zaituzten gizona, etzan gudaria, etzan jakintsua, etzan aundikia. Artzai bat zan, nik entzun dedanez; ba&ntilde;a zuek etzatozte artzaia zalako; Bertsolaria, eta bertsolarien artean ga&ntilde;-ga&ntilde;ekoa zalako, zatozte. Eta orregatik esan det lenago, milla ta milla txalo irabazi dituzutela.</mentioned></p>
+<p><mentioned> Ez derizkiotzute, gure artean bertsolariak beti izan ditezen, bertsolari bika&ntilde;en, bertsolari zorrotz eta azkarren oroitza goratzea eta sabaltzea ezin ta egokiago dala?</mentioned></p>
+<p><mentioned> Goratu zagun, bai eta zabaldu zagun Pernando Amezketarraren oroitza, eta bere esaerak eta berak egin zituela esaten dan gauzarik gogoangarrienak, buruan eta biotzean iduki ditzagun. Pernando noiz jaio zan, eta noiz il zan jakin naiko dezute. Berealaxe esango dizutet.</mentioned></p>
+<p><mentioned> Pernando Bengoetxea, Amezketako semea, erri ontan jaio zan 1764garren urteko Urrillaren 10an. Emen bertan ezkondu zan, Joxepa Sagastumerekin, 1790garren urteko Orrillaren 3an, eta 1823an il zan, orain eun ta bat urte. Amezketan jaio; Amezketan ezkondu; Amezketan il. Aitaren aldetik, Adunan bere aurretikoak iduki arren, benetan Amezketarra zan Pernando -Bengoetxea. Eta Amezketarren eta Pernandoren izenak elkarri itsatsiak bezela daude. Ez degu i&ntilde;oiz entzuten Pernandoren izena, Amezketarra zala gogoratu gabe. Amezketarrentzat, noski, pozgarria da, Pernandoren erritarrak dirala beste euskaldun guztien aurrean erakustea.</mentioned></p>
+<p><mentioned> Zer egin zuen, bada, Pernando otsandiko orrek, bere izena, urteak joan eta gero ere ai&ntilde; pozik gogora ekartzeko, ai&ntilde; biotzez goratzeko? Diru asko bildu zuen? Ez beintzat. Bera ezagutu zutenak diotenez, diru bearrean geiagotan arkitu zan diruz aseta ba&ntilde;o. Dirutsua izan balitz, etzuen Alegiko eskribauarena joan bearrik izango bere artzekodunakin zer egingo ote zuen galdetzera, estu ta larri ekarri etzezaten. &laquo;Zuk zor dezuna eskatzen dizutenean, ortzak erakutsi bear dizkietzu&raquo; &mdash;esan zion eskribauak. &laquo;Eta orain berori zer zor diot&raquo; &mdash;galdetu zion bereala Pernandok. Eta eskribauak &laquo;onenbeste edo hainbeste&raquo; erantzun zionean, badakizute Amezketako artzai burutsuak zer egin zion eskribauari? Ortzak erakutsi. Laster ikasi zuen eskribauak esan ziona.</mentioned></p>
+<p><mentioned> Zorrak nondik oraindu ezbazuen Pernandok, etzan dirutsua, etzan aberatsa. Gaurko egunean, ona izatea, jakintsua izatea eta beste dozer gauza pozgarri izatea ba&ntilde;o aberats izatea askoz geiago billatzen dala, derizkiot. Orregatik, lenengo lenengo Pernando dirutsua ote zan galdetu det.</mentioned></p>
+<p><mentioned> Aberatsa etzala ikusi degu. Jakintsua ote zan bada? Jakintsua? Jakintsua izateko, ikastola gitxitan ibilli zan. Ai&ntilde; gitxitan ezik, irakurtzen ere etzuen ikasi noski. Ba&ntilde;a irakurtzen ez ikasiagatik, buruan argia bazuen, eta nori nai ziri ederrak sarten bazekien.</mentioned></p>
+<p><mentioned> Berez, Jaungoikoak eman ziolako, buruan zuen argitasun orretatik dator Pernandoren oroipenak gaur ere, gure artzai ta nekazari ta langillien artean daukan indar eta sustraia. Eta buruko argitasun ori dala-ta, bildu gera gaur emen, Amezketarrakin Amezketakoak ez geran asko, Pernandoren izena eta Pernandoren oroitza goratzeko ustean.</mentioned></p>
+<p><mentioned> Irakurtzen dakienak, berak jatorriz duen argitasuna geitu ta bizirotutzeko bide berriak baditu. Ba&ntilde;a berez argitasunik ez badu, bere burua neguko egun beltz illun bat ba&ntilde;o illunagoa bada, irakurtzen ikasteak ez dio argituko. Lengo esaera zarra da, jatorriz edo sorreraz batek ez duen argia, Salamancan ikasteak ez diola emango. Ori da askorekin gertatzen dana. Pernando berriz, Salamancara ez joanagatik, ikastola bat zer zan ez jakin ta ere, irakurtzen ikasteko bear zuen erakusle bat ez arkitu arren, beti izango da gure artean gogoangarria, buruan, beste askok etzuten argitasunak dizdiz egiten ziolako.</mentioned></p>
+<p><mentioned> Eta bera gogoangarria dalako, gogoangarriak dira, era berean, bere bizitokitzat iduki zituen etxeak, bera ibilli zan zelai eta ibai-aldeak. Toki oetara goazenean, baderizkiogu, andik edo emendik Pernandoren itzala sortuko zaigula, an gertatu zana guri esatera, gogoan iduki dezagun, gero gure ondorengoai guk ere edestu edo kontatzeko. Baserritako sukalde txokoan, amaika bider entzun dira Pernandoren gertaera oek.</mentioned></p>
+<p><mentioned> Gertaera oek danak, Pernandori berari gertatuak ote dira? Nik ez det uste; bene-benetan esaten dizutet, egia, beste gauza guztien ga&ntilde;etik maite dedalako. Ba&ntilde;a, oiek danak Pernandori gertatuak ez izan arren, Pernandoren izena len ba&ntilde;o illuntxuagoa gelditzen ote da? Nik ez derizkiot beintzat. Aspaldiko gizaldietatik onera, erri batzuetan eta besteetan nork daki non sortuta, eta zer bidetatik alde batetik besteetara eramanta, ipui batzuek entzuten dira gizonik geienak oso txalogarritzat artu dituztenak. Ipui oietan norbaiten buru-azkartasuna agertzen da. Norenak diran eta nork asmatuak diran ez jaki&ntilde;agatik, erri bakoitzak laster arkiten du noren izenean ipi&ntilde;i. Alde batzuetan bat da; beste batzuetan, beste bat; gure artean Pernando, orrelako ipui, aitarik eta amarik ez dutenen egillea. Zergatik? Ez da izango noski, beste edozein ba&ntilde;o ipuiegille txarragoa zalako. Orregatik nion nik, Pernandori berari gertatuak ez izan arren gertaera oiek guziak, Pernandoren izenak ez duela ezertxo galtzen.</mentioned></p>
+<p><mentioned> Gertaera oietatik bat ba&ntilde;o geiago badira, Pernando jaio ba&ntilde;o askoz lenago egindako liburu edo idaztietan neronek irakurriak. Idazti oietatik, batzuek Italian egi&ntilde;ak dira; besteak, Frantzian; bestek, Espa&ntilde;ian. Idatzi oetako batek, zortzireun bat urte baditu. Judatar kristaututako bat zan bere egillea, aragoitarra. Pedro Alfonso zan bere izena, eta <hi rend='Italic'>Disciplina Clericalis</hi>, bere idazti edo liburuarena. Idazti onek dakarzkien ipuiak, geienak beintzat, eguzkia sorten dan aldean bizi diran errietatik artuak dira, ba&ntilde;o ongi zabaldu ziran Europa guztian. Emen Aralarpera&ntilde;o iritxi zan oietako bat, eta Pernandori gertatua bezela esaten digute. Ogei bat urte badira igande-arratsalde eder batean, neroni Amezketara etorri nintzala, txiki-txikitatik ikasi nuen ipui edo gertaera ori, emen Pernando bizi izan zan tokietan, Amezketarren aotik entzun nairik. Eta or ibilli nintzan toki itzaltsu eta ederretan, Pernandoren izena berekin daukaten etxeak ikusten. Orduan ikusi nituen Irulegi, Bengoetxea, Espilla, Apatxeko borda eta Asentxinea txikia. Batik bat, azkena, aitatu degun oni begiratu nion. Bi lasa edo errekak antxe aurrean bat egiten dute. Igaran da eskuikoa; ezkerrekoa, Loidi. Urak argi-ga&ntilde;etik dijoalako, eta aldapa bera indarra daramalako, ots aundia ateratzen du an. Eta antxen diotenez, Errotako zubiaren inguruan, Pernandok gau batean, ardandegitik beranduxeago zetorrelako eta emazteak, bere Mari- Joxepak, etxeko atea iriki nai etziolako, bere burua errekara botako zuela deitu zion eta ala egin zuela andre gaixoak sinistu zezan, arri aundi bat artu, eta bere buruaren ordez arri ura joan zan ibaira zalaparta ederra atereaz. Eta orduan emaztea etxetik egi&ntilde;alean joan zan ibai-ertzera eta Pernando, etxeko atea irikita ikusi bezin laster, etxera sartu zan. Mari-Josepa atarian uzten zuelarik. Gertaera au da, beste izen batzuekin, len aitatu dedan Pedro Alfonsok egindako <hi rend='Italic'>Disciplina Clericalis</hi> deritzaion liburuan, eta beste askotan, irakurtzen dana. Baliteke lenago beste norbaiti gertatuagatik, gertaera bat eta beste, eta geiago, Pernandori gertatzea, eta berean Pernando jaio ba&ntilde;o askoz lenago egindako liburu edo idaztietan agertzea. Eta ez emen inguruetan egindako idaztietan: oso urruti egindakoetan.</mentioned></p>
+<p><mentioned> Pernandorenak bereak dirala, zalantzik gabe, esan genezakean egitekoak, bertsolarien artean izen aundia eta ongi irabazia eman ziotenak dira. Egiteko oek izan ez baziran nondik bururatuko zitzaion i&ntilde;ori, beste gertaera oien egillea Pernando zala asmatzea? Ipuirik gezurtienak ere badu beti bere egiazko sustraia.</mentioned></p>
+<p><mentioned> Pernando &mdash;len esan degu eta orain berriz gogoratu bearrik ez degu&mdash; artzaia zan. Eta bere artzaintzan zebillela, norbaitek zirikatzen bazuen arin erantzungo zion, itz-neurtu ederrak eta zorrotzak bat-batean, iturritik ura ateratzen dan erara sortuaz. Bertsolari onak baziran egun aietan Gipuzkoan, ba&ntilde;a i&ntilde;ork etzuen Pernandok ainbat omen irabazi. Neri emen esan zidatenez bein batean Pernando Aralarren zegoen bere artaldearekin eta ardiak eraizten ari zala etorri zitzaizkion estu ta larri Azpeitira joateko Azpeitian bertsolari-guda aundia zala eta bere erritar Zabala beste itzneurlari batzuekin galdu-bearrean zebillela, beste oiek Zabala ba&ntilde;a argi eta zorrotzagoak ziruditelako. Eta Pernandok Amezketarren izena beste guzien ga&ntilde;etik laster jaso zuen, beste danak ba&ntilde;o bertsolari azkar eta zorroatzagoa zala erakutsi zuelako.</mentioned></p>
+<p><mentioned> Pernando ezagutu zutenen artean Iztueta Zaldibiarra da aren gertaera batzuek idaztietan jarri dizkiguna. Beste ga&ntilde;erakoak, aoz-ao etorri dira gugana. Eta aoz-ao datorren itza, sarritan ez dator lenengo atera zan ezpa&ntilde;etatik sortu zan bezela. Orregatik Pernando Amezketarraren izena goratu naian gabiltzanak, Zaldibiko Iztuetari Zaldibiko <hi rend='Italic'>Txuri</hi>ri asko zor diogu. Eta zorra aitortzea, ordaintzeko biderik egokiena da. Ordea aitortze utsa ez da aski Iztuetari bere saria emateko. Pernandoren egite batzuek gogora-erazi nai zizkigulako. Pernandok bertsolarien artean erakutsi zuen trebetasun argia, idatzita utzi zuen. Ez ote da ongi egi&ntilde;a izango Iztuetaren itzakin gertaera oiek zuen aurrean gaurko egun gogoangarrian oroitzea? Entzun, entzun, Iztuetak zer dion.</mentioned></p>
+<p><mentioned> &laquo;"Datorren Otsaillean izango dira ogeita bi urte &mdash;oraintxen dira eun urte, Iztuetak au idazten zuela&mdash; Billabonako plazan jokatu zutela itz-neurtu edo bertsoetan bosna ontza urre, lendanaz apustua eginik, Zabala Amezketarrak eta Txabalategi Ernanikoak". Iztueta bera zan, Zabalak billatuta, itzneurlarien artean zan indar-neurtze artarako epaille edo erabakitzalletako bat. Ba&ntilde;a egun batzuek aurretik eritasun txiki batek artu ninduelako, ez nuen serbitu, eta nere ordez eraman zuten bere erritar Pernando, baita Txabalategik ere Aizarnazabalko elizaia; eta Billabonako alkate jaunak erabakitzalle Jose Mendizabal jaun Tolosako apez aundi sonatu ura. Ipi&ntilde;irik lau milla ta geiago personaren aurketzean kantatu zuten bi orduz jokalariak, apostua egi&ntilde;a zuten bezala; batak besteari asmatu al zitzaten itz gairik nekezenak irikiaz, nondik eta nola alkar naspillatuko zuten, alegi&ntilde;ik aundienak egiten zituztela&raquo;.</mentioned></p>
+<p><mentioned> &laquo;Guziak ere ain zuzen eta egoki eman omen zituen nork bere itz-neurtuak, non apostuko bi orduak betetzean, ekadoi edo juezak, alkargana batu ba&ntilde;o lenago, altxatu emen zan plazako jende guzia deadarrez, esaten zutela: jokalari biak kantatu zutela guziz ongi eta utsaldirik gabe, entzunleak naikidaturik utzi zituzten moduan, eta beragatik onkai zutela, berdi&ntilde;-berdi&ntilde;ean gelditzea&raquo;. Orduan irten omen zan era berean Aizarnazabalko elizaia plaza erdira, eta kantatu omen zuen itz-neurtu au:</mentioned></p>
+<p><mentioned> <hi rend='Italic'>Txabalategi eta</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Zabala gaztea,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Askok deseo zuen</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Kantuz ikustea.</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Atsegin aundietan</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Geldi da jendea;</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Bata adinbat egin</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Bear degu bestea.</hi></mentioned></p>
+<p><mentioned> Pernandoren erantzuera:</mentioned></p>
+<p><mentioned> <hi rend='Italic'>Ezin gentzake, bada,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Beste gauzarik ei&ntilde;;</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Nik gogoan naukana,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Zuk dezu itzegi&ntilde;.</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Utzi bear ditugu,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Biak berdi&ntilde;-berdi&ntilde;,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Gipuzkoa guziak</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Ar dezan atsegi&ntilde;.</hi></mentioned></p>
+<p><mentioned> Ara emen nola zuen Pernandok, amezketarrak, gure Pernandok gipuzkoarrak, erakusten digun itz gutxitan, bire gipuzkoartasuna.</mentioned></p>
+<p><mentioned> Ara, Pernandoren beste gertaera bat, au ere Iztuetak idatzia:</mentioned></p>
+<p><mentioned> &laquo;Orain ogei ta lau urte &mdash;badakizute Iztuetaren idaztia, orain eun urte egi&ntilde;a dala&mdash; San Sebastian egunarekin eraman zuten Pernando Amezketarra Azpeitira, erri bereko betekin itz-neurtuetan jokatzera; ba&ntilde;a etzitzaien agertu kontra aritzallerik plazara. Egia da, bera zegoen ostatuko atarira joan zitzaiozkala gabaz, desgaraiean deadarrez ta auparaka, ba&ntilde;a ezaguturik Pernandok aien asmo txarrak, beraren onerakoak etziradela, utzi izan zien gau artan kantatu gabe, eta bidaramunean ikusi zuenean karrikan igarotzen bere kontrario ustekoa, bota zion aurkez-aurke, beste anitzen artean itz-neurtu au:</mentioned></p>
+<p><mentioned> <hi rend='Italic'>Lagunak arturikan</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Guzizko tirrian,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Nere billa enbillen</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Bart gau erdian.</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Erronkak botatuaz</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Prestuezkerian</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Ez dik ongi ematen</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Nork bere errian.</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Egunazko argian,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Euskara garbian,</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Jokatu nai nian;</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>Ba&ntilde;an ez nauk ipi&ntilde;i</hi></mentioned></p>
+<p><mentioned> <hi rend='Italic'>I&ntilde;on premian.</hi></mentioned></p>
+<p><mentioned> &raquo;Ederki erakutsi zuen Pernandok bera nor zan, eta bere bizkar parre egin nai zutenak, elperrikako asmoa zutela.</mentioned></p>
+<p><mentioned> &raquo;Oraindik beste gertaera bat badegu, Iztuetari ikasi ta zuei esan bear dizutedana, Pernando zer nolakoa zan bertsolarien artean gogoan ongi sartu dezazuten.</mentioned></p>
+<p><mentioned> &raquo;Tolosako erri le&ntilde;argitiko batzartar jaunak &mdash;Iztuetak idazten du&mdash; 1802garren urteko i&ntilde;auteriaren azkenengo arratsaldean, biribillatu zituzten lau itz-nuertulari, Gipuzkoan aurki alzitezkean onenak: Zabala, Pernando, Txabalategi eta Altamira, lauak letra bat bakarra ere ezagutzen etzutenak.</mentioned></p>
+<p><mentioned> &raquo;Plaza zarreko baranda banatara igorik kantatu zuten arratsalde guzian bi bitara. Ain atsegintasun aundikoa ta pozkidatsua izandu zan arratsalde gogoangarri ura ezik, illunduta gero ere deadarka zeuden entzuleak, aurrera ere kanta eragiteko, eta uste det baldin eguna zabaldu artera&ntilde;oko guzian ere ari izandu balira kantari, etzala aldenduko entzuleen artekorik inor ere&raquo;.</mentioned></p>
+<p><mentioned> Bertsolariak beti izan dira gure artean, gogoz entzunak. Beserritarrentzat ez da jai pozgarririk bertsolaririk ez bada. Etxe batetik edo bestetik bertsolari bi ateratzen diranean, eta aurrez-aurre jarririk, batak ziri bar besteari sartu, eta bestiak lengoari ziri zorrotzagoakin erantzun asten diranean, ura poza, ura atsegi&ntilde;a baserritarren artean! Arpegian, begietan, esku ta besoetan, beren ibilleran ongi erakusten digute, bertsolarien ateraldi ederrak atsegin aundia artzen dutela. Eta orrela, i&ntilde;oren kalte gabe, poz ematen duten gizonak, txalo ugariz artu bear ditugu. Len esan dedana berriz ere esatera noa, nere itzaldia bukatu ba&ntilde;o len: gure txaloak, gure omenak, ez dute gudarientzat eta agintarientzat eta jakintsuentzat eta aberatsentzat bakarrik izan bear. Artzaia dalata, mendian bizi dalata, dirurik ez duelata, idaztietan bere izena ikusten ez degulata, ezereztzat iduki bear aldegu gure erritar askorentzat gogoangarria izan dan bertsolari buru-azkarra? Ez noski, Batzuek idazti edo liburuetan ikasten deguna, beste batzuek Jaungoikoak gure begien aurrean ipi&ntilde;i dizkigun zelai, baso ta txara, ibai eta erreka txistor, arkaitz eta leizezulo, itsaso zabal, otsgarbi eta la&ntilde;oetan ikasten dute. Gure jakiteaz ez degu geiegi arrotu bear. Guk, liburuen aurrean urte asko igaro eta gero ere ez dakizkigun gauza asko dakizki goizetik arratsera lurrari aberastasuna atera naian dabillen baserritarrak, bere artaldeen ondoren dabillen artzaiak. Eta baserritar au, artzai au berez buru-azkarra danean, orduan maiz arrituko gera bere ateraldi zorrotzakin. Pernando Amezketarra oetako bat zan. Eta oetako bat zalako, bere oroitzak gure artean, gizaldiak joan eta gizaldiak etorri, asko iraungo du. Asko iraun dezan, egin degu gaurko jai eder au.</mentioned></p>
+<p><mentioned>KARMELO ETXEGARAI</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>ATERALDI TA GERTAERAK</p><--</head>
+        </front>
+        <body>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>1</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>ZAKURRAREN MUTURRA</hi></p>
+<p>Bein batean, Pernando amezketarra bazijoan ba bide batean barrena, ta gizon ondo jantzi bat, orain <hi rend='Italic'>baskuentzez </hi>Kaballero deitzen dan oietako bat, bere zakurrarekin arkitu zuan.</p>
+<p>Alderatu zanean, gizonak ez zion zaunkik egin; zakurrak ere ezer esan ez. Au da, ez batak eta ez besteak ez zioten egun onik eman.</p>
+<p>Ba&ntilde;a zakurra alderatu zitzaion, braka zarrak usaindu zituen eta atzeko anka altxatzen asi zan.</p>
+<p>Orduan, Pernandok, zakurra uxiatu zuen esanaz:</p>
+<p>&mdash;Ua emendik, nagusiyaren mutur orrekin.</p>
+<p>Orduarte ixilik egon bazan, jaun arrek bazuen orduantxe zer esana. Arren abotik Pilatosen abotik ba&ntilde;o zitalkeri zorrotz, min, latzagoak atera ziran.</p>
+<p>Ez ori bakarrik; andik egun gutxira, epaikari aurrera deitu zuen Pernando.</p>
+<p>Baxo-erdi bat erateko garaia izango zan aldera epaikariaren aurrean bildu ziranean, kaballero izeneko ura bere zakurrarekin, eta Pernando txakur txiki bat ere gabe.</p>
+<p>Bereala beren auziari eraso zioten.</p>
+<p>Jaunak:</p>
+<p>&mdash;Gizon onek, orain egun gutxi iseka egin zidan.</p>
+<p>Pernandok:</p>
+<p>&mdash;Ez da egia.</p>
+<p>Epaikariak:</p>
+<p>&mdash;Tilin! Tilin! Tilin!</p>
+<p>Jaunak, berriro:</p>
+<p>&mdash;Gizon onek iraindu egin ninduen.</p>
+<p>Pernandok:</p>
+<p>&mdash;Ez da egia.</p>
+<p>Epaikariak:</p>
+<p>&mdash;Tilin! Tilin! Tilin!</p>
+<p>Azkenik, jaunak:</p>
+<p>&mdash;Gizon onek esan zidan, zakurrak nere muturra zuela.</p>
+<p>Pernandok:</p>
+<p>&mdash;Ori bai dala egia.</p>
+<p>Epaikariak:</p>
+<p>&mdash;Eta iraindu ez zenuela diozu?</p>
+<p>&mdash;Ez noski.</p>
+<p>&mdash;Nola ordea?</p>
+<p>&mdash;Ara epaikari jauna: Zakur au, norena da?</p>
+<p>&mdash;Nagusiarena.</p>
+<p>&mdash;Eta zakur onen muturra?</p>
+<p>&mdash;Nagusiarena.</p>
+<p>&mdash;Ori da ba nik esan nuena. Zakurrak nagusiaren muturra zuela.</p>
+<p>Guziak mututu ziran, ori entzun zutenean; eta, orra, nola Pernando amezketarrak auzia irabazi zuen.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>2</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>ORTZAK ERAKUTSI!...</hi></p>
+<p>Pernandok ixkribauarekin itzegin nai zuen. Bere etxera joan zan eta dan! dan! atea jo zuen. Bereala neskamea azaldu zitzaion.</p>
+<p>Neskameak, nolako itxura atera deitzen dutenak, alako arpegia jarri izan oi dute.</p>
+<p>Aberats antzekoa bada arpegi guzia irri parrez josirik, eta tibiribiri, tibiribiro, sortu diran inbusteri guziak esanaz.</p>
+<p>Erdi puerdikoa bada, arpegi otza, ta itzak otzagoak oraindik.</p>
+<p>Eta zarpazar antzekoa danean berriz, tximinia ba&ntilde;o illunagoko kopetarekin eta erratza ba&ntilde;o latzagoko itzakin.</p>
+<p>Ori neskame guztiak jakiten dute. Aralargo muturretik errira datorren neskak, bigarren asterako inork erakutsi gabe ikasten du.</p>
+<p>Ez dago esan beharrik zer itxura eramango zuen Pernandok eta zer arpegi jarriko zion neskamenak.</p>
+<p>Pernandok, apal apal, galdetu zion:</p>
+<p>&mdash;Nagusia etxian al dago?</p>
+<p>Eta neskameak, itz bakoitzean bi purrustada egi&ntilde;az:</p>
+<p>&mdash;Ez dakit. Jakingo det.</p>
+<p>Orrenbesterekin ezkutatu zan.</p>
+<p>Pernandok igarri zuan zer arrera egiten zioten etxe artan, eta ona zer bururatu zitzaion.</p>
+<p>Berrogei erraldeko beia erosteko a&ntilde;a diru ez zuen noski berekin izango, ba&ntilde;an txanpon bakar batzuek musuzapian korapillo batekin bilduak bazeuzkan.</p>
+<p>Bere aiek askatu ta zalaparta ikaragarria ateriaz lurrean bota zituen.</p>
+<p>Asarre bizian, neskamena biurtu zan, eta esan zion:</p>
+<p>&mdash;Gizona. zer darabilzu zarata burrunbatsu oiekin?</p>
+<p>&mdash;Badakizu &mdash;erantzun zion Pernandok&mdash; diru mordoxka bat dakart nagusiarentzat eta banaken batzuek erori zaizkit.</p>
+<p>Ori entzun zuenian, neskamea, diruk beretzako izan balira bezela oso poztu zan, aberatsentzako bezelako arpegi goxo irritsua jarri zuen, txanponak biltzen lagundu zion, eta, gixontxua, nagusia etxean dago, esanaz, ixkribauaren aurrera eraman zuen.</p>
+<p>Ixkribauak esan zion:</p>
+<p>&mdash;Zer degu?</p>
+<p>Eta Pernandok:</p>
+<p>&mdash;Jaio gi&ntilde;an-ta, iltzea zor degu.</p>
+<p>Gero jarraitu zuen Pernandok esanaz:</p>
+<p>&mdash;Jauna, zorrak badauzkat, artzekoak ere bai; artzeko dauzkatenai ez diet estutasunik eman nai, eta nik zor dietenak berriz estu narabilte. Larritasun onetan, zer egin ote nezaken jakitera etorri naiz.</p>
+<p>Ixkribauak erantzun zion:</p>
+<p>&mdash;Ori gauza errexa dezu. Artzekoak, nola nai dala ere, artu itzazu, ta zor diezunai, berriz, ortzak erakutsi.</p>
+<p>&mdash;Beraz dirua eskatzen didatenai ortzak erakutsi?</p>
+<p>&mdash;Ori da.</p>
+<p>&mdash;Ederki iduritzen zait. Eta, orain, beorren nekea zenbat da?</p>
+<p>&mdash;Box pexta egin zazu.</p>
+<p>&mdash;Nola?</p>
+<p>&mdash;Box pexta.</p>
+<p>Pernandok orduan, ortzak erakutsirik, uuu! egin zion.</p>
+<p>&mdash;Zer da ori? &mdash;zion karraxika ixkribauak.</p>
+<p>&mdash;Beorrek erakutsi didana. Ortzak erakutsi.</p>
+<p>Eta nagusi ta neskamea parragarri utzirik, Pernandok etxe artatik alde egin zuen.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>3</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>BOST UME, LAU TITI</hi></p>
+<p>Buru-austerik aundienak Pernandori sabela betetzeak eman zizkion.</p>
+<p>Eskerrak sabel bat besterik ez zuela. Arako Santu arrek nai zuela esan oi duten bezela, bi sabel izan balitu, ixtillu gorriak ikusi bearrian izango zan.</p>
+<p>Batek ere lana naikoa eman zion. Entzun bestela gertaera au.</p>
+<p>Tolosako errian zan, Lau gizon ari ziran alaitasun pozgarrian zaunk eta zurrut egiten. Aien jateko eki&ntilde;aldia! Inguruari begiratu gabe ere plateretik abora jakiak aidian zebiltzan.</p>
+<p>Pernando alderatu zitzaien eta berari begira irrikitzen zegon.</p>
+<p>Ez ordia inork jaramonik egiten. Begira egotez aspertu zan, eta ala dio gure Pernandok:</p>
+<p>&mdash;Gure errian ere Komeri ederra gertatu da.</p>
+<p>&mdash;Zer ba? Zer ba? &mdash;galdetu zioten bestia jatez ia geldituan.</p>
+<p>&mdash;Bei batek bost ume egiten ditu.</p>
+<p>&mdash;Gizona, gizona &mdash;zioten bestiak&mdash; bei arrek zenbat titi ditu ba?</p>
+<p>&mdash;Zenbat izango ditu? Lau.</p>
+<p>&mdash;Eta bostgarrenak zer egiten du?</p>
+<p>&mdash;Zer egingo du! Nik orain egiten detana bera. Bestiai begira egon.</p>
+<p>Ori entzun zutenian berakin jaten jarri erazi zuten, eta bostetan kamutzena etzala Pernandok erakutsi zuen.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>4</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>ATOZ BAZKALTZERA...</hi></p>
+<p>Erri koxkor batean zan. Eguerdiko orduak aurrera zijoazen. Pernandoren bazkaltzeko gogoak aurrerago oraindik, ba&ntilde;an i&ntilde;ondik ere sabela betetzeko biderik ez zuen ikusten.</p>
+<p>Ontan, apaiz jaun bat agertu zan. Pernando alderatu zitzaion eta agur itzaltsu bat egi&ntilde;az esan zion:</p>
+<p>&mdash;Jauna: galdera bat, barkatu biar dit.</p>
+<p>&mdash;Nai dezun guzia.</p>
+<p>&mdash;Orra ba, nik jakin nai nukena da... alegia... zera... Erri ontan bazkaitara norbait eraman nai danean, nola esaten zaio?</p>
+<p>&mdash;Ori, era askotara.</p>
+<p>&mdash;Bai ba&ntilde;a bat, esan bezait bat.</p>
+<p>&mdash;Nola esango dizut bat... &laquo;Nerekin bazkaitara etorri nai bazenu, poz aundi bat emango zenidake&raquo;.</p>
+<p>&mdash;Poz hori emango diot ba.</p>
+<p>&mdash;E! Zer!</p>
+<p>&mdash;Beorrekin bazkaitara joango naiz.</p>
+<p>&mdash;Ba&ntilde;a...</p>
+<p>&mdash;Aspaldian, norbaitek orrelako zerbait esango ote zidan, zai negon.</p>
+<p>Eta nau bazuen, eta nai ez bazuen, apaiz jaunak bazkaitara eraman bear izan zuen.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>5</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>ERRETORAREN AMORRAIAK</hi></p>
+<p>Erriko Erretoreak askotan eramaten zuen Pernando berekin bazkaltzera, orrela parra naikoa egitearren.</p>
+<p>Bein batean joan zan bazkaltzera, ta entzun zuen Bikarioa ta neskamea sukaldean izketan ari zirala, ta bi amorrai aundienak gaberako gordetzea erabaki zutela.</p>
+<p>Pernandok ez entzun egin zuen, eta ezer igarri ez balu bezela bazkari-tokira bildu zan.</p>
+<p>Bazkaritan asi dira, amorraiak ekarri dituzte, ta Pernandok artzen du bat, eltzen dio isetsetik, buruz-bera jartzen du, belarriondora badarama, ta an dabilki batian gora, bestian bera, aro berian, begiakin, aboakin eta sudarrarekin imintzio mota guziak egiten dituela.</p>
+<p>Bikarioak, arriturik, galdetzen dio:</p>
+<p>&mdash;Ba&ntilde;a, Pernando: zer esan nai dute orain darabilzkizun sorgin-antzeko katramil oiek?</p>
+<p>Ez zion Pernandok lenbizikoan erantzun, ba&ntilde;a Erretoreak jarraitu zion bere galdeketari, ta ona, azkenik, Pernandok zer erantzun zuen:</p>
+<p>&mdash;Ara jauna: Ameriketan aide batzuek baditut, eta denbora asko da beren berririk ez detala. Nola arrai abek uretan ibiltzen diranak diran, galdetzen nion ia aien berririk ote zekiten.</p>
+<p>&mdash;Ta, zer esan dizu?</p>
+<p>&mdash;Esan dit, alegia, abek gaztetxoak, txikitxoak dirala oraindik eta urruti aietara iritsi gabeak dirala. Ba&ntilde;a, sukaldeko armarioan aundiagoak, zarragoak egon bear dutela, eta aieri galdetzeko. aiek zer edo zer jakin lezatekela.</p>
+<p>Erretoreak, algaraz lertzeko zorian dio:</p>
+<p>&mdash;Arraiea! Usai ori ere artu dezu? Zelebrea zera.</p>
+<p>Eta neskameari aundiena ekartzeko oju egiten dio.</p>
+<p>Neskame maltzurrak ordea, aundiena sukaldean utzi ta bigarrena ekartzen du.</p>
+<p>Ba&ntilde;a, Pernandok igarri zuen neskamearen jokua, ta len bezela, amorraiari isetsetik eldu ta lengo matrakeriak berak egiten asi zan.</p>
+<p>Bikariak dio orduan.</p>
+<p>&mdash;Orra non dezun amorrai zarra ta aundi askoa; zer esaten dizu orrek?</p>
+<p>&mdash;Bai, onek zerbaiten susmurra badu; ba&ntilde;an guzia ondo ez dakiela, dio. Guzia ondo dakiena, oraindik armarioan omen dago, ta arri galdetzeko.</p>
+<p>Bikarioak deitzen dio orduan neskameari esanaz:</p>
+<p>&mdash;Emakumea: neronek jango es badet ere, ekarri zaiozu Pernandori amorrai aundiena Ameriketako berriak sustraitik jakin ditzan.</p>
+<p>Ala dio neskameak:</p>
+<p>&mdash;Bikario jauna: ez dakit Ameriketako berriak sustraitik jakingo dituen, ba&ntilde;a gure amorrai ederrak sustraitik jango dituela, bai.</p>
+<p>Ekarri dute azkenean, amorrai aundi ura, ta sorgin-galdeerak egin ondoren, gure Pernando bapo jaten asi da.</p>
+<p>Eta Erretoreak galdetzen dio:</p>
+<p>&mdash;Azkeneko orrek, zer esandizu ba?</p>
+<p>&mdash;A! Oso ondo dirala; urte bete barru onuntz etortzeko asmoa dutela; aiek etortzean, Amezketako Erretorea ondo izango dala; ni orain bapo nagola ta amorraiak on egin dezaidatela.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>6</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>ILLARGIRA ZENBAT BIDE?</hi></p>
+<p>Bein, bidean barrena zetorrela, bi praille arkitu zituan.</p>
+<p>&mdash;Pernando &mdash;esan zion praille aietako batek, zuk gizon azkar, buru argi, pizkorren izena daramazu; ta esango al ginduzuke, emendik illargira zenbatsu bide dagon?</p>
+<p>Pernandok buruari atz egi&ntilde;az erantzuten dio:</p>
+<p>&mdash;Galdeera ori zail-xamarra dala derizkiot.</p>
+<p>&mdash;Ba&ntilde;a zu azkarra zera-ta...</p>
+<p>&mdash;Ala ere: emendik illargirako ori oso zalla da. Illargitik onera balitz, zerbait esan nezake.</p>
+<p>&mdash;Ia, bada, illargitik onera zenbat bide dagon.</p>
+<p>&mdash;Zenbat bide dagon, ez dakit; ba&ntilde;an, eguardiko amabiak laurden gutxitan illargitik praille bat botako baluteke, eguardiko amabi-amabietan erretore etxean bazkari-zai egongo litzake.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>7</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>KENDU TA AUNDITU</hi></p>
+<p>Beste batian, gizon aundizki batek galdetu zion:</p>
+<p>&mdash;Zer gauza izan liteke, kendu ta kendu, zenbat geiago kendu, aundiagoa egiten dana?</p>
+<p>&mdash;Gauza ori asmatzeko &mdash;erantzun zuen Pernandok&mdash; ez du gizonak jakintza aundikoa izan bearrik Betor gure sorora, atxur bar ar beza, ta zenbat eta lur geiago kendu orduan ta aundiagoa zuloa egingo da.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>8</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>OLLAZKO-EZURRAK</hi></p>
+<p>Bein, etxeratu zanean, ez zegon ez surik eta ez bazkaririk. Nola, orduan, otordua egin? Ona Pernandok zer asmatu zuen.</p>
+<p>Erretore-etxe aldera joan ziran emaztea, ta biak lasterka bizian, emaztea aurretik eta senarra atzetik, emaztea karraxika begiak ateratzen balizkiote bezela, senarra deadarka ta zigor bat eskuetan duela emaztea elbarritzeko zorian.</p>
+<p>Erretoreak emaztearen karraxiak entzun dituenenan atarira atera da, ta Pernando bere zigorrarekin ez egiteko bat egiteko antzean ikusten duenean bien artean sartzen da oju egi&ntilde;az:</p>
+<p>&mdash;Geldirik! Gizona zer da zatarkeri au?</p>
+<p>&mdash;Zer dan? Onelako emakumea, txiki-txiki eginta ere, ez da bear bezela ordaintzen.</p>
+<p>&mdash;Zer izan dezute bada?</p>
+<p>&mdash;Ezer ez.</p>
+<p>&mdash;Ta ezer ezen gatik orrela jarri?</p>
+<p>&mdash;Bai jauna: ezer ez, ez surik, ez bazkaririk.</p>
+<p>&mdash;Begira, begira; gaurko beintzat zuentzako bazkaria nere etxean badago ta utzi zaiozute asarreari.</p>
+<p>Pernandok ez zuen besterik nai, ta pozik asarre-itxura utzi zuan.</p>
+<p>Emaztea sukaldera eraman zuten, eta Pernando Erretore jaunarekin jan-gelara bildu zan.</p>
+<p>Erretoreak txuliatzeko gogo aundia zeukan egun artan, eta bazkaritan ollaxkoa ekarri zutenean, exurrak Pernandoren aldera jarri zituen eta mamiak berera.</p>
+<p>Erretorea parrez <hi rend='Italic'>gur-gur </hi>zegon Pernandok jartzen zuen arpegi illuna ikusirik, ta, zerbait esan bear bada, ta esan zion:</p>
+<p>&mdash;Aiztian emaztea arrapatu izan bazenu, zer egingo zenion?</p>
+<p>&mdash;Jauna: orain plater onekin egiten dedan bezela lepoa biurrituko nion.</p>
+<p>Eta platerari buelta emanaz, mamiak bere aldera ekarri ta ezurrak erretoreari utzi zizkion.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>9</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>NON DEZU SEMEA?</hi></p>
+<p>Beste batean, semearekin zuen zer-asmatua. Beretzako, bazkaria erretore-etxean bazuen. Semearentzat ez ordia. Non billatu semearentzat bazkaria?</p>
+<p>Erretore-etxeko ateetara eraman zuen, eta, &laquo;nik deitu arte ago emen&raquo;, esanaz, bera jan-gelara igo zan.</p>
+<p>Bazkaitan astekoan Pernando bestien gain ojuka asi zan:</p>
+<p>&mdash;Aitaren... eta Espiritu Santuaren izenean.</p>
+<p>Erretoreak esaten dio orduan:</p>
+<p>&mdash;Pernando, gaizki ari zera: Egizu berriro Aitaren.</p>
+<p>Eta Pernandok berriz ere:</p>
+<p>&mdash;Aitaren... eta Espiritu Santuaren izenean.</p>
+<p>Ba&ntilde;a, Pernando, non dezu semea?</p>
+<p>&mdash;A! Bean dago. Bereala etorriko da.</p>
+<p>Ta esan eta egin, ekarri ta berekin bazkaritan jarri zuen.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>10</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>EMAZTEA ITZIK GABE</hi></p>
+<p>Egun batean, ez zeukaten etxean arbasta bat ere, ta egur-billa mendira joan zan.</p>
+<p>Egur moztutzen asi besterik ez zuen egin eta gazte-pilla bat agertu zan, eta esan zioten:</p>
+<p>&mdash;Pernando: gaur dan egunarekin mendian lanean?</p>
+<p>&mdash;Zer egun da ba, gaur?</p>
+<p>&mdash;Azkarateko pestak, gizona.</p>
+<p>&mdash;Arraie-arraia, ta ala dek.</p>
+<p>Eta zegona zegon tokian utzi ta Azkaratera gazte aiekin joan zan.</p>
+<p>Etxian hartu bearrian baziran, ondo jaioak zeuden.</p>
+<p>Lau egunean ez zan etxeratu. Bostgarrenean etorri zan, eta emazte gajoa soroan lanian arkitu zuen.</p>
+<p>Alderatu zitzaion eta emaztea kopet illunarekin ixilik. Leiatu zan emazteak zerbait esaten ote zion, ba&ntilde;a alperrik, Emakume arren abotik ez zuen itz bat entzun.</p>
+<p>Orduan erretorearengana joan zan.</p>
+<p>&mdash;Jauna &mdash;esan zion&mdash;. Etxean oker aundiak ditugu. Emaztea itzik gabe daukat.</p>
+<p>&mdash;Gizona, gizona...</p>
+<p>&mdash;Egin ditudan alegi&ntilde;ak alperrik izan dira. Itz bat ezin atera zaio.</p>
+<p>&mdash;Emakumea, ta itzik ez... ez zeok ondo.</p>
+<p>&mdash;Ala esan liteke.</p>
+<p>&mdash;Goazen, goazen, zerbait egin bearko dala uste det.</p>
+<p>Joan ziran sorora, ta emazteak erretorea ijusi zuenean asi zan:</p>
+<p>&mdash;Erretore jauna, beorri ere alderdi abetatik?</p>
+<p>Eta Pernandok.</p>
+<p>&mdash;Orain etorri zaio itza. Sendatu da.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>11</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>ARRIA ERREKARA</hi></p>
+<p>Beste batean Pernando, gaberdia ezkero ta izotz gogorra zan gau batean etxera etorri zan. Emazteak ez ordia aterik iriki nai.</p>
+<p>Arren egin zion, atea irikitzeko, ba&ntilde;a alperrik.</p>
+<p>Ojuak esaten zion:</p>
+<p>&mdash;Zurekin gurutze donea artutako senarrari aterik irikitzen ez badiozu, nere burua errekara botatzera nua.</p>
+<p>Ala ere ez zan aterik irikitzen.</p>
+<p>&mdash;Orduan Pernandok soro-barrengo ormatik arri aundi bat atera, ta ots aundia egi&ntilde;az errekan bota zuen.</p>
+<p>Emaztea karraxika erdi-jantzian irten zan. Pernandok beste aldetik etxean sartu ta berrendik atea itxi zuen; ta bera bero-bero zegon bitartean, emazte gajoa kanpoan, otzak dar dar goiz arte euki zuen.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>12</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>PERNANDO TA AMETZA</hi></p>
+<p>Bein Txabalategi ta Ernaniko beste bertsolari bat, Lekunberriko bi betsolarikin aritu ziran bertsotan.</p>
+<p>Gero, Ernaniko bi bertsolari aiek Amezketakoakin (Pernando zan beren artean) Tolosan arkitu ziranean, Ernaniko Txabalategik bertso au bota zuan:</p>
+<p><hi rend='Italic'>Pernando ta Zabala</hi></p>
+<p><hi rend='Italic'>erri batekoak,</hi></p>
+<p><hi rend='Italic'>badakit zeratela</hi></p>
+<p><hi rend='Italic'>koplari bapoak.</hi></p>
+<p><hi rend='Italic'>Ez izanagatikan</hi></p>
+<p><hi rend='Italic'>zuek a&ntilde;akoak,</hi></p>
+<p><hi rend='Italic'>gu ere egin gindutzen</hi></p>
+<p><hi rend='Italic'>zerbait Jaungoikoak.</hi></p>
+<p><hi rend='Italic'>Lengo apustukoak,</hi></p>
+<p><hi rend='Italic'>Napar-errikoak,</hi></p>
+<p><hi rend='Italic'>Lekunberrikoak,</hi></p>
+<p><hi rend='Italic'>etziran pijoak;</hi></p>
+<p><hi rend='Italic'>askoz obeak gaituk</hi></p>
+<p><hi rend='Italic'>Ernanikoak.</hi></p>
+<p>Entzuleen artean an zegon <hi rend='Italic'>Ametza, </hi>bertsolari onenetakoa ta Pernandori zirika askotan aritzen zana.</p>
+<p>Txabalategik amezketarrak nola goratu zituan entzutea, min piskaren bat eman zion Ametzari noski. Pernandok arpegian ezagutu zion eta ona bota zion bertsoa:</p>
+<p><hi rend='Italic'>Ametza omen dago</hi></p>
+<p><hi rend='Italic'>gizon arrittue,</hi></p>
+<p><hi rend='Italic'>itxuraren kontrako</hi></p>
+<p><hi rend='Italic'>entendittue;</hi></p>
+<p><hi rend='Italic'>onek jarritzen digu</hi></p>
+<p><hi rend='Italic'>kontu luzittue,</hi></p>
+<p><hi rend='Italic'>gu geiago gerala</hi></p>
+<p><hi rend='Italic'>ezin suprittue</hi></p>
+<p><hi rend='Italic'>Kantuzko pleitue</hi></p>
+<p><hi rend='Italic'>beartzen gaittue</hi></p>
+<p><hi rend='Italic'>galduko zaittue</hi></p>
+<p><hi rend='Italic'>jarri nai gaittue.</hi></p>
+<p><hi rend='Italic'>Amezketak zedukak</hi></p>
+<p><hi rend='Italic'>kantuz kredittue.</hi></p>
+<p>Amezketak erantzuen zion:</p>
+<p><hi rend='Italic'>Pernandok nere ona</hi></p>
+<p><hi rend='Italic'>ezin eraman txarra...</hi></p>
+<p><hi rend='Italic'>atzean gelditzeko</hi></p>
+<p><hi rend='Italic'>ni ez naiz mantxarra.</hi></p>
+<p><hi rend='Italic'>Zuri egiten dizute</hi></p>
+<p><hi rend='Italic'>iseka ta farra,</hi></p>
+<p><hi rend='Italic'>ekarri dezulako</hi></p>
+<p><hi rend='Italic'>alkandora txarra.</hi></p>
+<p>Pernandok berriz:</p>
+<p><hi rend='Italic'>Prenda artzen dirazu</hi></p>
+<p><hi rend='Italic'>alkandorarena</hi></p>
+<p><hi rend='Italic'>bai dakit ez derala</hi></p>
+<p><hi rend='Italic'>emen dan onena.</hi></p>
+<p><hi rend='Italic'>Txarra izanagatik</hi></p>
+<p><hi rend='Italic'>au da neronena:</hi></p>
+<p><hi rend='Italic'>zuk ederra daukazu</hi></p>
+<p><hi rend='Italic'>ba&ntilde;an besterena.</hi></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>13</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>GUZIAK ITXU</hi></p>
+<p>Abaltzisketako jaiak San Juan-egunean izaten dira. Oi zuan bezela, joan zan Pernando ere norbaitek bazkaltzera bere etxera eramango zualakoan, ba&ntilde;a goiz guzian gora ta bera bere burua erakusten ibilli arren, i&ntilde;ork ez zion ezer esan.</p>
+<p>&mdash;Ta? Abaltzisketan zer modu? &mdash;galdetu zioten urrengo egunean.</p>
+<p>&mdash;Abaltzisketan? Gaizki, motel. Guziak itxu zeudek. I&ntilde;ork ez natxok ikusi!</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>14</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>ALKAR EZIN IKUSI!</hi></p>
+<p>Asto itxu bat zeukan Pernandok ikulluan. Asto ura i&ntilde;ork erosiko ez ziola, amezketar guziak bazekiten. Zertarako erosiko zion, bada, i&ntilde;ork asto itxua?</p>
+<p>Alako batean, Pernandok berak erosi zuan beste asto bat, eta... itxua ura ere!</p>
+<p>Pernando gizarajoa txoratuko zala uste izan zuten amezketarrak. Ba&ntilde;a... bai zera txoratu!</p>
+<p>Urrengo peri-eguna etorri zanean, artu zituan bi asto itxuak eta an joan zan Tolosara.</p>
+<p>Gerturatu zan bat.</p>
+<p>&mdash;Asto oiek saltzeko al dauzkatzu, Pernando?</p>
+<p>&mdash;Alaxe dauzkat bada.</p>
+<p>&mdash;Ez daukate itxura txarra... Ez al dute akatzik?</p>
+<p>&mdash;Ez, ez... Denbora askotxoan alkarrekin ikullu batean egon dirala ta... alkar ezin-ikusia, besterik ez.</p>
+<p>&mdash;Ori besterik ez baldin bada...</p>
+<p>&mdash;Besterik ez. Ezin alkar ikusi...</p>
+<p>Beste gizarajoak erosi zituan bi asto oiek, dirua eman zion Pernandori, ta amezketarra an joan zan pozik diruari <hi rend='Italic'>txin txin </hi>eragi&ntilde;az.</p>
+<p>Eroslea ere alai zegon, astoak merke-xamar erosi zituala-ta. Baxo-erdi bat Jesus batean ziplatu ta gero, asi zan etxe-alderako asmotan. Astoai-soka kendu zieten, eta <hi rend='Italic'>arre </hi>esanaz, asi zan txistu-jotzen.</p>
+<p>Astoak geldi ordea. Makillaz jota ibiltzen asten baziran, beti bazterretara ta bear ez zan tokietara zijoazten. Zer asto arrano ziran aiek!</p>
+<p>Begira ta begira, itxuak zirala antz eman zion azkenerako erosleak. Eta egi&ntilde;aletan an joan zan Pernandoren billa.</p>
+<p>&mdash;Ba&ntilde;a gizona &mdash;esan zion arkitu zuanenan&mdash; zer asto eman dizkidatzu? zertarako ditut nik asto oiek, alkar ere ezin ikusi dutela? Ekatzu neri berriz dirua ta artu itzatzu zere asto zar oiek!...</p>
+<p>&mdash;Ez &laquo;konpa&ntilde;eo&raquo; ez. Astoak erosi ba&ntilde;o len, nik argi asko esan nizun alkar ezin ikusi zutela. Ala ere erosi egin zizkidatzun. Orain... or konpon! Ibiltzeko gauza ez badira, lukainkak egiteko saldu itzatzu.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>15</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>GATZA OTE ZAN GERO?</hi></p>
+<p>Bein batean, Gatzagatik gatza ekartzeko agindu zioten Pernandori. Astoa aurrean artuta, an joan zan tipi tapa, tipi tapa, Gatzaga aldera. Gatz-zaku aauundi bat jarri zion astoari bizkar-ga&ntilde;ean, eta tipi tapa, tipi tapa, berriz etxe-aldera.</p>
+<p>Bidean iru ibai igaro bear zituzten, eta ez dakigu nola izan zan, ba&ntilde;a lendabizikoan sartu ziranean, astoa txirristatu ta erori zan. Bapo zegok gure gatza!</p>
+<p>Erdia ba&ntilde;o geigo urtu zan, eta len ba&ntilde;o pixu gutxigo zeramala laister antz eman zion astoak. Busti detalako dek bada ori &mdash;zion astoak bere kasa&mdash; busti detalako. Ori besterik ez ba dek berriz ere bustiko diagu bada...&raquo; Ta bigarren ibaian zapla! berriz astoa bera, ta irugarrenean berriz. Irugarrenetik irten zanean, arin ta pozik zijoan gure astotxoa.</p>
+<p>Arrano astoa! Nerekin ibilliaz maltzurkeriak ikasi dituk ik ere, ba&ntilde;a oraindik ez aiz ire nagusia a&ntilde;a. Biar emango diat nik iri...</p>
+<p>Urrengo egunean, tipi tapa, tipi tapa, berriz Gatzagara. Artu zuan Pernandok zaku aauundi bat, esponjaz bete-bete egin zuan, astoari bizkar-ga&ntilde;ean jarri zion, eta... kaxo motel!</p>
+<p>&mdash;Gaur karga txikia diagu &mdash;zion astoak&mdash;. Ala ere, txikia ba&ntilde;o txikiagoa obe izango diagu.</p>
+<p>Ta ibaira irixtean, zapla! erori zan. Ba&ntilde;a, arranotan! oraingoan, karga gutxitu bearrean geigotu egin zitzaion. Bigarren ibaian zakua busti zuan berriz, ta geigotu oraindik. Irugarrenean, zakua busti zuan... eta indarrak bear ziran gero uraxe eramateko. Damutu zitzaion orregatik: ez zuan arek geigo kargarik bustiko.</p>
+<p>Orduezgeroztik, gatza ondo legor ekartzen zuan bai Gatzagatik Pernandoren astoak. Busti, ez busti, zalantzan egoten zan batzuetan, ba&ntilde;a... gatza ote zan gero? esponjak ote ziran gero?</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>16</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>AGURO ALAJA&Ntilde;ETAN!</hi></p>
+<p>Tolosako perian Pernando ikusi zuan batean lagun batek galdetu zion:</p>
+<p>&mdash;Gariak egin al dituzute, Pernando?</p>
+<p>Ta ona Pernandoren erantzupena:</p>
+<p><hi rend='Italic'>Gure Azaroa Abenduan,</hi></p>
+<p><hi rend='Italic'>goiz bear ta beranduan.</hi></p>
+<p><hi rend='Italic'>Eguaraldi onaren bearra bagenduan</hi></p>
+<p><hi rend='Italic'>garia egingo bagenduan.</hi></p>
+<p><hi rend='Italic'>Azaroaren azkeneko larunbatean</hi></p>
+<p><hi rend='Italic'>gari guziak egin dizkiagu egun batean.</hi></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>17</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>ERRETOREAREN TXERRIA</hi></p>
+<p>Orduan ere, urtero bezela, Amezketako erretore jaunak txerria il zuan. Txikia zan ordea, to oiturari jarraituaz, etxerik-etxe odolki zabaltzen asi balitz, beretzat batere gabe geldituko zan. Ez banatzea, berriz, txartxat artuko zuten errian. Zer egingo ta zer ez egingo, Pernandori deitu zion eta gertatzen zitzaiona esan zion.</p>
+<p>&mdash;Orrek erremedio errexa dauka, erretore jauna.</p>
+<p>&mdash;Ia bada, ia...</p>
+<p>&mdash;Il duan txerri txiki ori jarri beza baratza-aldeko ate-ondoan guziok ikusi dezaten.</p>
+<p>&mdash;Baaai...</p>
+<p>&mdash;Ta biar esan beza, ostu egin diotela.</p>
+<p>&mdash;Arrano arranoa... Ez zegok gaizki... Apaiz batek gezurra esatea ez dek egoki, ba&ntilde;a... gauza gutxi dek, eta orixe egingo diat...</p>
+<p>Esan bezela, jarri zuan txerria baratza-aldeko ate-ondoan. Eta gauean, Pernandok berak ostu zion.</p>
+<p>Urrengo goizean, txerria an ez zegola erretoreak ijusi zuanean, estututa deitu zion Pernandori, ta esan zion:</p>
+<p>&mdash;Pernando ez dakizu zer gertatu zaidan! Gaur gabean txerria eraman ez dirate bada?...</p>
+<p>&mdash;Ori, ori. Orixe esan bear du: arrapatu egin diotela.</p>
+<p>&mdash;Ez dala gezurra, Pernando. Benetan arrapatu dirate.</p>
+<p>&mdash;Ori, ori. Eutsi itz orri. Orrela esan ezkero, guziok sinistuko diote.</p>
+<p>Esan eta esan, Pernandok ere si&ntilde;istu zion azkenik.</p>
+<p>&mdash;Ori ala bada, erretore jauna, nere etxean begiratu dezatela lendabizi.</p>
+<p>&mdash;Ez gizona. Zure errezelorik ez daukat nik.</p>
+<p>&mdash;Ez dio ardura. Nere etxeko baztar guziak ikusi detzatela.</p>
+<p>Ta ikusi bear izan zituzten. Jo gora ta jo bera an ibilli ziran, ba&ntilde;a ez zan txerririk agertu.</p>
+<p>Ez zan errez, ondo izkutatuta zegon-eta. Aurrraren seaskan, lastaian sartuta zeukaten; aurra berriz, negarrez seaskan eta Pernandoren emaztea kantari, seaskari eragiten. Ze&ntilde;i bururatuko zitzaion seaska arren barruan, aur-azpian begiratzea?</p>
+<p>Garizuma etorri zan, ordea, ta aitortzerakoan erretoreari guzia esan bear. Esan zion, eta erretoreak, egia jakiteak ematen zion pozaren pozez, guzia barkatu zion Pernando azkarrari.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>18</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>DUM... DAM... DUM... DAM...</hi></p>
+<p>Gau batean, etxera joan zanean, bere emaztea aserre ta aurrak gosez negarrez ta zer jantzirik ez zutela arkitu zituan Pernandok.</p>
+<p>Aiek ala ikusi zituanenan, atera zan etxetik, joan zan korrika elizara, igo zan kanpantorrera ta asi zan <hi rend='Italic'>dum... dam... dum... dam...</hi> il-kanpaia indarrez jotzen.</p>
+<p>&mdash;Zein il da, zein il da, zein il da?... &mdash;galdetzen zuten amezketarrak estutasunez beterik. Inork ez zekian ezer.</p>
+<p>Eliz-aldera inguratu ziranean, Pernandoz esan zien kanpan-torretik garraxika:</p>
+<p>&mdash;Errian dan bearrena il da.</p>
+<p>&mdash;Zein da, bada, zein?...</p>
+<p>Jo zuan kanpaia beste puska batean, eta berriz ere:</p>
+<p>&mdash;Errian dan bearrena il da...</p>
+<p>&mdash;Zein da, ordea gizona?</p>
+<p>&mdash;Karidadea il da. Orixe zan emen bearrena!</p>
+<p>Egia jakin zutenean, esan zioten Pernandori:</p>
+<p>&mdash;Ez estutu, gizona. Zure emazte ta aurrakin atoz biar plazara, ta zerbait bilduko degu zuentzat.</p>
+<p>Urrengo goizean an agertu zan plazan, aur guziak larrugorrian gurdian artuta. Jantzi zituzten, eta illabeterako zer jana eman ere bai.</p>
+<p>Egun artan pozik joan zan Pernando.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>19</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>ETXE-GA&Ntilde;EKO ZENTSOAK</hi></p>
+<p>Alako batean, Amezketako erri-agintariak joan ziran Pernandoren etxera.</p>
+<p>&mdash;Pernando &mdash;esan zioten&mdash; etxe onen ga&ntilde;ean zentsoak omen daude, ta.</p>
+<p>&mdash;Zentsoak etxe onen ga&ntilde;ean? &mdash;erantzun zien Pernandok&mdash;. Zaudete, zaudete pixka batean.</p>
+<p>Eskillara bat atera zuan ikullutik, jarri zuan etxe-ga&ntilde;era igo al izateko eraz, ta esan zien:</p>
+<p>&mdash;Igo jaunak, igo... Ta nere etxe-ga&ntilde;ean ezer arkitzen badezute, artu, Lenago jakin izan banu neronek artuko nituan; bearraren bearrez ez gera.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>20</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>ASTOA POZEZ SALTOKA</hi></p>
+<p>Atxo gaxoa! Egi&ntilde;alak eginda ere, ezin astoa mogitu. &laquo;Arre ta arre&raquo;, astoa atzera. Egunda&ntilde;o orrelakorik!...</p>
+<p>&mdash;Zer du asto orrek, amonatxo? &mdash;galdetu zion Pernandok.</p>
+<p>&mdash;Ez dakigu bada. Ez ibilli nai.</p>
+<p>&mdash;Jakin egin bear, jakin...</p>
+<p>&mdash;Jakin? Ia bada zuk aurrera joan-erazten dezun.</p>
+<p>&mdash;Baita pozez saltoka jarri ere.</p>
+<p>&mdash;Ia, ia zure &laquo;abillidade&raquo; ori.</p>
+<p>Pernandok izkutura joan eta ardagai puska bat piztu zuan. Gero, astoaren aldamenera etorri, ta belarri batetik itzegingo balio bezela jarri zan, eta bitartean beste belarri-zulotik ardagai piztua sartu zion. Astoa laister asi zan ipur-saltoka, ga&ntilde;ean zeramazkian ontzi guziak ausitzeko zorian.</p>
+<p>Atsotxoak, arrituta, bildurtuta, galdetu zion Pernandori:</p>
+<p>&mdash;Ba&ntilde;a zer esan diozu?</p>
+<p>&mdash;A!... Ipui politak...</p>
+<p>&mdash;Zer esan diozu orla aztoratzeko?</p>
+<p>&mdash;Zer? Garagar, olo ta arto asko dagola aurten, eta etxera joandakoan, guzitatik nai a&ntilde;a emango diozula.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>21</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>PASA BEARKO!...</hi></p>
+<p>Bertsoetan ari zirala, Pernando aberatsa ez zala esan zion beste bertsolariak...</p>
+<p>Eta orra Pernandok zer erantzun zion:</p>
+<p><hi rend='Italic'>Ondo agirian dago</hi></p>
+<p><hi rend='Italic'>errenta nerea,</hi></p>
+<p><hi rend='Italic'>kantuz ez det nik sartzen</hi></p>
+<p><hi rend='Italic'>poltsara urrea</hi></p>
+<p><hi rend='Italic'>ez da errotan ere</hi></p>
+<p><hi rend='Italic'>karga laborea;</hi></p>
+<p><hi rend='Italic'>agirian dago, bada,</hi></p>
+<p><hi rend='Italic'>naizela pobrea.</hi></p>
+<p><hi rend='Italic'>Gauza gutxi daukat nik</hi></p>
+<p><hi rend='Italic'>etxean gordea,</hi></p>
+<p><hi rend='Italic'>detanarekin pasa</hi></p>
+<p><hi rend='Italic'>eiten naiz ordea.</hi></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>22</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>ARKUMA TA DUROA</hi></p>
+<p>Ez dakigu zertarako ba&ntilde;o, bein, besteren bordatik arkuma bat atera naiean zebillen Pernando. Kanpo-aldetik barrura eskua sartuta, isetxetik eltzen zion arkumari ta langa-sarera&ntilde;o ekarri ere bai, ba&ntilde;o tarte estuduna zan langa ori ta ezin atera zuan arkuma kanpora. Bertan utzi bear izan zuan.</p>
+<p>Urrena aitortzera joan zanean, apaizak galdetu zion:</p>
+<p>&mdash;Ia zazpigarrenean... Ezer ostu al dezu?</p>
+<p>&mdash;Ez jauna. Naia bai, izan det, ostutzekoa.</p>
+<p>&mdash;Berdin da, berdin da. Ostu edo ostutzeko naia izan, berdin-berdin da. Ia, ia, nolakoa izan zan nai ori.</p>
+<p>&mdash;Ara jauna, nagusiari arkuma eraman bear nion eta, nereak txikitxoak zeuden-eta, beste borda batean aundiagoak ikusi nituan eta, andixe ostutzeko gogoa etorri zitzaidan. Langa-sarera&ntilde;o ekartzen nuan ba&ntilde;o ezin atera, ta bertan utzi nuan.</p>
+<p>&mdash;Gizona, gizona... Ori barkatzeko duro erdi-banako bi meza atera bearrean zera.</p>
+<p>&mdash;Duroa eman bear, beraz?</p>
+<p>&mdash;Jaki&ntilde;a.</p>
+<p>&mdash;Orain ematea berdin al da?</p>
+<p>&mdash;Ez da bearrezkoa. Urrengo batean emango dirazu.</p>
+<p>&mdash;Gaur ematea naigo nuke.</p>
+<p>&mdash;Nai dezuna...</p>
+<p>Pernandok, apaizak barkamena eman zionean, eskua luzatu ta emakumien aitor-tokian dagon saretik duroa eske&ntilde;i zion.</p>
+<p>&mdash;Ortik ez, ortik ez &mdash;esan zion apaizak.</p>
+<p>&mdash;Bai jauna bai, emendik.</p>
+<p>&mdash;Ortik ezin artu det, gizona.</p>
+<p>&mdash;A!... Neri ere orixe bera gertatu zitzaidan arkumarekin.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>23</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>ELBIAK ETA TXINTXARRIAK</hi></p>
+<p>Amezketarren izengoitia <hi rend='Italic'>elbiak </hi>da; alegitarrena berriz <hi rend='Italic'>txintxarriak.</hi></p>
+<p>Bein batean Pernando bai omen zijoan Alegiko kalean bera, osto batzuek zituan txotx bat eskuan zuala.</p>
+<p>Alegitar batek galdetu zion:</p>
+<p>&mdash;Pernando! Eskuan daramazun txotx hori elbiak izutzeko al dezu?</p>
+<p>&mdash;Ez, ez. Zintzarrien miak ixiltzeko det.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>24</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>ARDI IZUA</hi></p>
+<p>Pernandok bere artaldean, ardi bat oso izua zuan: esnea jeisteko kaikua eskuan zuala Pernando gerturatzen ikusi orduko, artizkunetik irten eta an joaten zan igesi nora nai. Kaikuak bildurtzen zuan noski.</p>
+<p>Beti bezela, alako gau batean ere, barrutiko ormaga&ntilde;etik salto eginda, joan zan Jaungoikoak daki nora. Pernando, makilla eskuan zuala, ibilli zan bere atzetik ordu batean, ba&ntilde;o azkenik, aspertuta, &laquo;otsoak jango al au&raquo; esanaz, ardia billatzeari utzi ta lotaratu zan.</p>
+<p>Goizerako artizkune inguruan izango zala uste zuan. Ba&ntilde;a bai zera! ez zan etorri. Beste ardiak jetxi ta lurrera eraman zituanean, an arkitu zuan ardi izua, otsoak erdi-janda.</p>
+<p>Begira-begira jarrita, Pernandok esan zion ardiari:</p>
+<p>&mdash;A txepela!... Bart arrapatu aun orrek ez al zian kaikurik?</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>25</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>ASTOA TA IXKRIBAUA</hi></p>
+<p>Alegiko ixkribauarentzat, Pernando zirikatzea bezelako pestarik ez zan.</p>
+<p>Bein asi zan beti bezela xiri ta xiri, artzaiak ezer ez zekitela esaten.</p>
+<p>&mdash;Ezetz? &mdash;esan zion Pernandok&mdash;. Ixkribauak gutxigo. Nere astoak ulertzen duana ezetz beorrek paperean jarri?</p>
+<p>&mdash;Jarriko ez det, bada, gizona?</p>
+<p>&mdash;Ia... ia... Jarri beza <hi rend='Italic'>arre!</hi></p>
+<p>&mdash;Jarria dago.</p>
+<p>&mdash;Jarri beza... <hi rend='Italic'>isooo!...</hi></p>
+<p>Jarria dago.</p>
+<p>&mdash;Orain jarri beza au... &mdash;Ta minga&ntilde;a ao-sapaian jarriaz astoari ari&ntilde;ago ibilli dedin egiten zaion otsa egin zion.</p>
+<p>&mdash;Ori paperean jarriko duanik ez da oraindik jaio &mdash;esan zuan ixkribauak.</p>
+<p>&mdash;Ori nere astoak ederki daki bada... Astoa, ixkribaua ba&ntilde;o geigo, arranotan!</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>26</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>ALKAR IL</hi></p>
+<p>Aurretik ibiltzen zan ardi eskurakoi, maite bat zuan Pernandok. <hi rend='Italic'>Alkar </hi>esaten zioten ardi orri.</p>
+<p>Bein batean <hi rend='Italic'>Alkar </hi>gaxotu zitzaion, eta abel-sendalariari deitu arren, ez zan agiri ta ez zan agiri. Ardia il zan, eta barrunpeak saski batean artuta an joan ziran Pernando ta bere emaztea errekan garbitzera.</p>
+<p>Irtetzerakoan, Pernandok esan zion etxean gelditu zan semeari:</p>
+<p>&mdash;Gure galdezka i&ntilde;or etortzen baldin badek, <hi rend='Italic'>Alkar </hi>ilda errekan gaudela esan akiok.</p>
+<p>Laster etorri zan abel-sendalaria. Zaldi ta guzi atarira sartu zan, eta sukaldeko atetik burua sartuaz:</p>
+<p>&mdash;Eup!... &mdash;esan zuan&mdash;. Ama ta aita nun dira, txikito?</p>
+<p>&mdash;<hi rend='Italic'>Alkar </hi>ilda errekan <hi rend='Italic'>daare...</hi></p>
+<p>Abel-sendalaria, ori entzun bezin aguro, joan zan sendalariaren etxera, ta erretorearen etxera, ta an eraman zituan errekara guziak arrapastaka. An ez zeudela ikusi zutenean, Pernandoren etxera joan ziran egi&ntilde;alak egi&ntilde;az, senar-emazteak alkar ilda arkitua zituztelakoan, ba&ntilde;a... bai zera!... ondo patxaran zeuden biak sukaldean <hi rend='Italic'>Alkar </hi>goxoaren gibela jaten.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>27</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>ARDI BAITUAK</hi></p>
+<p>Pernandori ardiak baitu zizkioten Orendainen. Ze&ntilde;enak ziran jakin zutenean, deitu zioten Pernandori Orendaingo erri-etxera.</p>
+<p>Bidean zijoala, norbaitek galdetu zion:</p>
+<p>&mdash;Nora zoaz orren goiz, Pernando?</p>
+<p>Ta Pernandok erantzun zion:</p>
+<p><hi rend='Italic'>Orendaina noa deituta,</hi></p>
+<p><hi rend='Italic'>Gure ardiak omen daude baituta.</hi></p>
+<p><hi rend='Italic'>Ez daude preso egoten oituta...</hi></p>
+<p><hi rend='Italic'>Jabeak bere gauzak nai dituta</hi></p>
+<p><hi rend='Italic'>bere billa noa ondo estututa.</hi></p>
+<p><hi rend='Italic'>Biaje onek pamilia ez du utziko goituta!</hi></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>28</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>PUFFF!...</hi></p>
+<p>Bein batean, Pernando larri zebillen bide-baztar batean, eskuak sabel-ga&ntilde;ean zituala, ortzak estutu ta ostiko txikiz lurra joaz. Larri zebillen, ba&ntilde;a galtzak askatzera ez zan ausartzen, jende asko zebillen-eta.</p>
+<p>Adiskide batek ikusi zuan estutasun artan, eta esan zion:</p>
+<p>&mdash;Motel... ortxe bertan... ori guziok egin bear diagun gauza dek-eta.</p>
+<p>Pernandok, orduan, galtzak askatu ta pikotxean jarriaz erantzun zion:</p>
+<p>&mdash;Ez, au beintzat nik bakarrik egin bear detana dek...</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>29</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>ARRI, ASTOA...</hi></p>
+<p>Bein batean, bazijoan Pernando peritik etxera, bere astotxoaren atzetik.</p>
+<p>Bidean topo egin, zuan azkar-usteko batekin, eta ona nola itzegin zuten</p>
+<p>&mdash;Nundik zatoz, Pernando?</p>
+<p>&mdash;Peritik.</p>
+<p>&mdash;Laboreak zer egin du?</p>
+<p>&mdash;Zai ta irin, zai ta irin.</p>
+<p>&mdash;Ori ez dizut galdetzen, Plazako gora-bera galdetzen dizut:</p>
+<p>&mdash;Zaldian gorago, asto txikian ba&ntilde;o.</p>
+<p>&mdash;Zer asto ta asto-ondo!... Zure orrek kargak aurreragi dauzka beintzat.</p>
+<p>&mdash;Ordubeteko bidean aurrerago baleuzka naiko nuke.</p>
+<p><hi rend='Italic'>Arri astoa, arri,</hi></p>
+<p><hi rend='Italic'>illuntzerako ote gaitezkean</hi></p>
+<p><hi rend='Italic'>atarian jarri,</hi></p>
+<p><hi rend='Italic'>ezer irabazten ez degu-ta</hi></p>
+<p><hi rend='Italic'>mintzatu arren gizon orri.</hi></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>30</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>TXERRIAREN IL-KANPAIA</hi></p>
+<p>I&ntilde;ori odolkirik ez emateagatik bere txerria gauaz iltzen zuan bat bai omen zan Amezketan.</p>
+<p>Pernandok jakin zuan ori, eta erne-erne egon zan txerria noiz ilko ote zuten jakin arte.</p>
+<p>Alako batean, goizeko ordu bitan ixil-ixilik il zuten txerri ori, ta asi ziran erretzen...</p>
+<p>Pernandok ori ikusi zuanean, joan zan arin asko sakristauaren etxera, ta, errian sua sala, ta sukanpaia jotzeko agindu zion.</p>
+<p>Bai ala egin ere. Kanpaia zalapartaka asi zan, amezketar guziak esnatu ta kalera irten ziran, eta Pernandoren atzetik an joan ziran txerria erreizen ari ziran tokira.</p>
+<p>I&ntilde;ork ikusterik nai ez, ta erri guziak ikusi.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>31</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>ODOLKIRIK BIDALTZEN AL DEZUTE?</hi></p>
+<p>Erri txikietan, norbaitek txerria iltzeri duanean, auzokoai odolki edo txerri-puxkaren bat bidaltzen zaiete. Pernandok ez zuan, ordea, be&ntilde;ere txerririk iltzen, eta berari bidaldutako erregaloak ez zuten ordai&ntilde;ik izaten. Aspertu viran errikoak eman eta ez artzez, ta i&ntilde;ork ez zion Pernandori ezer bidaltzen.</p>
+<p>Ori ikusi zuanean, txerria iltzea gogoratu zitzaion Pernandori. Il zuan eta odolki ta ga&ntilde;eratikoak ontzi batean arturik, asi zan aterik-ate.</p>
+<p>&mdash;Gure etxera odolkirik bidaltzen al dezute zuek?</p>
+<p>&mdash;Ez...</p>
+<p>&mdash;Orduan emen ez,daukat zorrik &mdash;esanaz, ezer utzi gabe aurrera joaten zan.</p>
+<p>Amezketarrak, Pernando ere txerria iltzen asi zala ikusi zutenean, berriz asi ziran bere etxera odolkiak bidaltzen.</p>
+<p>Pernandok, ordea, bere bizi guzian ez zuan berriz txerririk il.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>32</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>PLAST!</hi></p>
+<p>Gure Pernando bazijoan bada bein pestara, ta, bidean, ibai-ertzean, gizon bat ikusi zuan.</p>
+<p>&mdash;Zertan zaude or, gizona? &mdash;galdetu zion Pernandok.</p>
+<p>&mdash;Ara bada: ibaiaren beste aldera joan nai nuke, ta ez nuke busti nai ta...</p>
+<p>&mdash;Ez estutu, gizona; neronek bizkarrean eramango zaitut. Igo...</p>
+<p>Jarri zitzaion gizon ori bizkar-ga&ntilde;ean, eta ibaiaren erdi-aldera irixtean ala dio goikoak:</p>
+<p><hi rend='Italic'>Pernando, Amezketako bertsolarie:</hi></p>
+<p><hi rend='Italic'>etzijook ire ga&ntilde;een gaizki</hi></p>
+<p><hi rend='Italic'>Errezilgo zapatarie.</hi></p>
+<p>Ta Pernandok, azpitik gora begiratuaz, erantzun zion:</p>
+<p><hi rend='Italic'>Erekin badakarrek naiko janarie,</hi></p>
+<p><hi rend='Italic'>laister izango dek naiko edarie.</hi></p>
+<p>Ta plast!, errekara bota zuan.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>33</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>TONTO AZKARRA</hi></p>
+<p>Pernando ta bere emaztea ari ziran bein mendian, bere gurdia garoz betetzen.</p>
+<p>Ala ari-zirala, zauritutako erbi bat etorri zitzaieten ingurura; artu ta garo artean izkutatu zuten. Andik pixka batera, erbi-zakurrak etorri ziran usaian, eta gurdi-ingurutik ezin kendu zituzten. Eiztariak etorri ziran urrena.</p>
+<p>&mdash;Erbirik ikusi al dezute? &mdash;galdetu zien senar-emazteai eiztarietako batek. Eta, Pernandok erantzun zion:</p>
+<p>&mdash;Orain amaikak inguru.</p>
+<p>Eiztariak berriro:</p>
+<p>&mdash;Erbirik ikusi dezuten?</p>
+<p>Pernandok:</p>
+<p>&mdash;Oraindik beintzat geienaz ere amaika ta erdiak.</p>
+<p>Eta &laquo;tontoa dek gizon au&raquo; esanda, urrutiratu ziran eiztariak.</p>
+<p>Urrengo larunbatean Tolosan ikusi zuten Pernando eiztariak. Eta zirikatzeagatik galdetu zioten:</p>
+<p>&mdash;I, tonto, zer ordu dek?</p>
+<p>Eta Pernandok erantzun zien:</p>
+<p>&mdash;Ederra zegoan. Andreak eta biok jan genuen.</p>
+<p>Eiztariak arrituta gelditu ziran.</p>
+<p>&mdash;Arranoa! Ederrak eman zizkiguk! Ez zeok ori tonto txarra!...</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>34</p><--</head>
+        </front>
+        <body>
+<p><foreign><hi rend='Bold'>MAS CARGA</hi></foreign></p>
+<p>Gerratean, Pernandok Betelura bagajea eraman bear zuan. Artu zituan iru mando, ta soldaduak asi ziran mando-ga&ntilde;ean zama jartzen. Jarri ta jarri, mandoak lertzeko zorian zeuden, eta ala ere, soldaduak ez zioten zama jartzeari uzten.</p>
+<p>Naikoa zala esan nai zien Pernandok; ba&ntilde;a erderaz jakin ez, ta ezin esan.</p>
+<p>Ala, zapatariari galdetu omen zion ia naikoa zala nola esaten zan erderaz, ta zapatariak esan zion <foreign>&laquo;m&aacute;s carga&raquo; </foreign>(jarri geigo) esaten zala.</p>
+<p>Soldaduak zenbat eta zama geigo jarri, orduan eta aserrego Pernandok esaten zuan <foreign>&laquo;m&aacute;s carga, m&aacute;s carga...&raquo;. </foreign>Mandoak lurra-jotzeko zeudenean, Pernandok mandoan ga&ntilde;eko zama guzia lurrera botaz, esan omen zuan:</p>
+<p><foreign> <hi rend='Italic'>M&aacute;s carga, m&aacute;s carga</hi></foreign></p>
+<p><hi rend='Italic'>iru mando ta bost karga?</hi></p>
+<p><hi rend='Italic'>Artutako lekuan</hi></p>
+<p><hi rend='Italic'>bertan deskarga.</hi></p>
+<p><hi rend='Italic'>Erri ontan zapatari</hi></p>
+<p><hi rend='Italic'>presturik ez al da?</hi></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>35</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>ILDA APOSTUA IRABAZI</hi></p>
+<p>Pernandok talkarako ari bat omen zeukan: eta beti erronkan emen zebillen, beste nunbait arekin jokatzeko a&ntilde;a zan aririk bazan, Amezketako plazara ekarri zezatela esanaz.</p>
+<p>Alako batean, izugarrizko ari aundi bat ekarri omen zioten Azkoititik.</p>
+<p>&mdash;Ia Pernando &mdash;esan zioten&mdash;. Ire ariari onek jokatuko ziok...</p>
+<p>&mdash;Bai, nai badik. Ba&ntilde;a garbi jokatu bear diagu. Ara emen arrasto bat (egi&ntilde;az)... ara emen bestea... Oien barruan jokatzera, ta arrasto oien artetik azken irtetzen danak irabaztea. Konprome al gera?</p>
+<p>&mdash;Jaki&ntilde;a bada!...</p>
+<p>Au entzutean Pernando joan zan ikullura, ta illunpean, giltzapean, i&ntilde;ori erakutsi gabe edukitzen zuan ari zar, elbarritu, txutik ezin egon zan bat sokatik zuala agertu zan. A zer parrak egin zituzten azkoitarrak ari zar ura ikustean!</p>
+<p>Esanak-esan, aurrez-aurre jarri zituzten bi ariak talka egin zezaten. Lenengo erasoan, Azkoitiko ari bika&ntilde;ak jo zuan indarrez Pernandorena, ta an utzi zuan lepoa ausita, bertan ilda. Beste aria ilda zegola ikustean, azkoitiarra irten zan arrasto artetik... eta bai apostua galdu ere. Pernandorena irten zan azken!</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>36</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>TXARTELETAN</hi></p>
+<p>Urtero bezela, orduan ere joan zan Pernando txartel billa.</p>
+<p>&mdash;Zer dakartzu, Pernando? Dotri&ntilde;a Ikasi al dezu?</p>
+<p>Ta Pernandok erantzun zion:</p>
+<p><hi rend='Italic'>Errespetoa ekartzen diot</hi></p>
+<p><hi rend='Italic'>erantzirikan txarela</hi></p>
+<p><hi rend='Italic'>dotri&ntilde;a pranko badakit eta</hi></p>
+<p><hi rend='Italic'>eman bear dit txartela.</hi></p>
+<p>Pernando joan zan garizuman txarteletara. Erretore jaunak galdetu zion:</p>
+<p>&mdash;Nor da Jaungoikoa, Pernando?</p>
+<p>&mdash;Jaungoikoa bera.</p>
+<p>&mdash;Orixe aixa esan dezu. Obra miserikordiazkoak bai al dakizkitzu?</p>
+<p>&mdash;Ez jauna.</p>
+<p>&mdash;Ez dizut bada txartelik emango. Datorren iganderako ikasi ta etorri.</p>
+<p>&mdash;Ala bearko... Ta berorrek bai al daki ardi bakoitzak zenbait ortz dituan?</p>
+<p>&mdash;Ez...</p>
+<p>&mdash;Ia bada berorrek ere iganderako ikasten duan.</p>
+<p>Urrengo igandean, etorri zan berriz Pernando, ta erretore jaunak galdetu zion:</p>
+<p>&mdash;Ikasi al dituzu, Pernando?</p>
+<p>&mdash;Bai jauna. Ta berorrek ikasi al du?</p>
+<p>&mdash;Bai; ardi bakoitzak zortzi ortz dauzka.</p>
+<p>&mdash;Goian ala bean?</p>
+<p>Erretoreak ez zekian. Eta txartela ixil-ixilik eman zion Pernandori.</p>
+<p>&mdash;Pernando, zer gauza da dolorea? &mdash;galdetu zion erretore jaunak.</p>
+<p>Eta Pernandok erantzun zion:</p>
+<p><hi rend='Italic'>Zer gauza dan dolorea?</hi></p>
+<p><hi rend='Italic'>Ez adukitzea ezer gordea;</hi></p>
+<p><hi rend='Italic'>jan bearra, ta errotan laborea:</hi></p>
+<p><hi rend='Italic'>ori izaten da gure dolorea.</hi></p>
+<p>Txarteletarako garaian, an joan zan gure Pernando ere, beste amezketarrakin batera, sakristira. Erretorea bertsolaria zan, eta Pernando atean sartzen ikusi zuan bezin laister, bertsoz galdetu zion dotri&ntilde;a.</p>
+<p>Ona nola:</p>
+<p><hi rend='Italic'>Esan bear dirazu</hi></p>
+<p><hi rend='Italic'>ixtante batean</hi></p>
+<p><hi rend='Italic'>liburutik txartela</hi></p>
+<p><hi rend='Italic'>nik atera artean,</hi></p>
+<p><hi rend='Italic'>nola sinisten dezun</hi></p>
+<p><hi rend='Italic'>zuk zere artean</hi></p>
+<p><hi rend='Italic'>daudela iru persona</hi></p>
+<p><hi rend='Italic'>Jaungoiko batean.</hi></p>
+<p>Eta Pernandok, itzetik ortzera, alaxe erantzun zion:</p>
+<p><hi rend='Italic'>Nota sinisten dedan</hi></p>
+<p><hi rend='Italic'>arrazoiarekin,</hi></p>
+<p><hi rend='Italic'>orain esango diot</hi></p>
+<p><hi rend='Italic'>sagartxo batekin.</hi></p>
+<p><hi rend='Italic'>Usai ta saborea</hi></p>
+<p><hi rend='Italic'>kolorearekin,</hi></p>
+<p><hi rend='Italic'>orra iru jenero</hi></p>
+<p><hi rend='Italic'>gauza bat-batekin.</hi></p>
+<p>Bi zortziko oek, batez ere lendabizikoa, oso politak dira.</p>
+<p>Garizuma batean Pernando txarteletara joan zanean gertatua.</p>
+<p>&mdash;Peinando zer nai dezu galdetzea?</p>
+<p>&mdash;Txartela eman eta bidaltzea.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>37</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>PASKOAZKOA</hi></p>
+<p>Paskoakoa egin bear zuala bada Pernandok, eta joan zan elizara. Jarri zan erretore jaunaren aurrean belauniko, ta ona nola asi zuan bere aitorpena:</p>
+<p><hi rend='Italic'>Nere aitorpen oek</hi></p>
+<p><hi rend='Italic'>dirade bakanak,</hi></p>
+<p><hi rend='Italic'>ez nekatutze arren</hi></p>
+<p><hi rend='Italic'>abadetxo jaunak.</hi></p>
+<p><hi rend='Italic'>Sarriago egin lezazke</hi></p>
+<p><hi rend='Italic'>gogoa daukanak...</hi></p>
+<p><hi rend='Italic'>urtean bein egiten ditut</hi></p>
+<p><hi rend='Italic'>animako lanak.</hi></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>38</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>BI ASTO</hi></p>
+<p>Pernandoren burua nola ote zebillen egun artan! Astoa aurrean artuta joan zan goizean perira, ta astoa nun zuan ez zekiala zetorren gauean etxera.</p>
+<p>Asto gabe zetorrela ikustean emazteak zer esango ote zion, bildur zan. Geldi-geldi, bere kasa itzegi&ntilde;az, burua alde batera ta bestera erabilliaz zijoan etxe-aldera. Ostatu-aurrera ala irixten ikusi zuanean, ostalariak esan zion:</p>
+<p>&mdash;Zer dezu, Pernando, orla etortzeko? zerbait gertatu al zaitzu?</p>
+<p>&mdash;Bai gizona. Astoa perira eraman det, eta perian aztuta ez nator bada? Oraindik orrelakorik... Tokitan dago, ura orain arren billa joateko. Zorioneko astotzar ori... emango nioke!...</p>
+<p>&mdash;Utzi zaiozu biar arte, gizona. Biar ere an egongo da bai.</p>
+<p>&mdash;Bai, ori bai, ondo lotuta utzi det-eta. Ba&ntilde;a nere emazteari zer esango diot? Egia esaten badiot...</p>
+<p>&mdash;Gezurra esan. Esaiozu... esate baterako... Ara. Zure lagun batek txal txikidun bei bat erosi duala: txal txiki ori ezin eramanik arkitu dezula bidean, eta txala ga&ntilde;ean obeto eraman dezan, astoa eskatu dizula ta biar berriz ekartzekotan eman egin diozula.</p>
+<p>&mdash;Ez zera makala, adiskide! Buru iaioa daukazu gero gauzak asmatzeko! Nere Mari-Joxepari egia esan bear izan banio, ixtilluak izango ziran gure etxean... Orla, ordea... bapo ziok!</p>
+<p>Uste bezela gerta. Sartu zan Pernando etxera, astoa nun zuan galdetu zion Mari-Joxepak, lagunari nola eman zion erantzun zion Pernandok, Mari-Joxepak sinistu zion... itxuraz beintzat, eta pake santuan oeratu ziran.</p>
+<p>Urrengo goizean joan zan gure gizona peri-tokira asto billa... ta an astorik ez. Ara bigarren ixtillua, ta bigarren gezurra asmatu bearra!</p>
+<p>Etxeratu zanean</p>
+<p>&mdash;Astoa ez al dakarrek, Pernando?</p>
+<p>&mdash;Ara, ez bada. Atzo, txala ga&ntilde;ean zuala bidean zijoala, beiak bultzada bat egin omen zion eta elbarrituta dago. Ni ikusi nauenean etorri nai izan du gaixoak, ba&ntilde;a gaizkigotu ez dedin nere adiskidearen ukulluan bertan utzi det egun batzutarako. San Bartolometarako emen izango degu.</p>
+<p>Pernando izketan ari zala, bere astoa ukulluan arrantzaka asi zan.</p>
+<p>&mdash;A kirtena!... &mdash;esan zion Mari-Joxepak senarrari&mdash;. Aditzen al dek ori? Gezurrak asmatzeko ere burua bear dik, burua; ez ik or lepo-ga&ntilde;ean daukekan lapiko zar ori. Bi asto zeuzkeagu guk etxean, bi asto.</p>
+<p>&mdash;Bi?</p>
+<p>&mdash;Bi, bai, bi: atzo ezkeroztik ukulluan dagon ori ta i.</p>
+<p>Aurreko egunean Pernando bera ba&ntilde;o lenago ez zan bada astoa etxera etorri! Bai Mari-Joxepak ukulluan ixil asko sartu ere. Toki onean zeuden Pernando gizarajoaren ziriak!</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>39</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>A ZER SARTUALDIA!...</hi></p>
+<p>Pernando neguan Adunara joaten omen zan bere ardiakin.</p>
+<p>Oso barruti on bat bai omen zegon Adunan: itxia, ardiak errez zaintzekoa. Ba&ntilde;a jabeak ez omen zion Pernandori saldu nai, ta, oi dan bezela, illabeteko ainbestean eman ere ez: sartu-aldiko onenbestean eman nai omen zion.</p>
+<p>Jabeak ala nai zuan ezkero, Pernandok artu dio, bada, barruti ori sartu-aldi bakoitzean ainbesteko bat ordaintzekotan, eta sartu ditu ardiak.</p>
+<p>Sartu bai, ba&ntilde;a atera ez. Egunak igaro ta egunak igaro ta ardiak ateratzen ez zituala ikusi zuanean, nagusia joan zaio Pernandori oso aserre.</p>
+<p>&mdash;Gizona, ardi oiek ez al dituzu atera bear ala?</p>
+<p>&mdash;Ori neronek ikusiko det.</p>
+<p>&mdash;Zerorrek? Orduan barrutia zurea dala esan liteke.</p>
+<p>&mdash;Nik ardiak atera artean bai beintzat.</p>
+<p>Jabea sututa, joan da Tolosako lege-gizonarengana, esan dio zer gertatzen zaion eta deitu diote, Pernandori.</p>
+<p>Lege-gizonak galdetu zion:</p>
+<p>&mdash;Ba&ntilde;a barruti ori zenbat illabeterako, edo zenbat asterako edo zenbat egunerako edo zenbat ordurako artu zenduan?</p>
+<p>&mdash;Ez jauna, ez... Ez degu ez ordurik, ez denbora jaki&ntilde;ik... Sartualdiko ainbestean artu nuan, ardiak sartu nituan eta antxen dauzkat naikoa jan artean.</p>
+<p>Lege-gizonak arrazoia eman zion. Barruti-jabea ortzak estu-estu eginda, etxera ixil-ixillik joan zan. Eta Pernandok bost egunean eta bost gabean an eduki zituan ardiak; nai a&ntilde;a janaz.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>40</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>GATZAREN ARRAX</hi></p>
+<p>Sal-erosketan ibiltzen ziran bi lagunek, Pernando zirikatu naiean esan zioten bein:</p>
+<p>&mdash;Gaizki gabiltz, Pernando. Zu gizon azkarra zera ta ia estutasun ontatik ateratzen gaituzun.</p>
+<p>&mdash;Zer da bada?</p>
+<p>&mdash;Bi itxasontzi bete gatz erosi ditugu, ta arrak egin zaizkio bidean. Egi&ntilde;alak eginda ere, ezin arrak kendu dizkiogu...</p>
+<p>&mdash;Mandoaren esnea bota zaiozute, ta laister asko joango zaizkio arrak gatzari bai.</p>
+<p>&mdash;Mando-esnea? Mandoak ez du esnerik izaten, gizona.</p>
+<p>&mdash;Ez e?</p>
+<p><hi rend='Italic'>Ez gatzak ere arrak</hi></p>
+<p><hi rend='Italic'>Pernandoren bizkarretik</hi></p>
+<p><hi rend='Italic'>ez dezute egingo parrik.</hi></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>41</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>TXINGURRIEN OTSA</hi></p>
+<p>Bein bi ikaslek esan zioten Pernandori:</p>
+<p>&mdash;Aizu, Pernando: Marinarriko arkaitzean dijoazen txingurri aiek ikusten al dituzu?</p>
+<p>Ta Pernandok, Marinarri-aldera ondo begiratu ta gero:</p>
+<p>&mdash;Ez... urruti zegok ura nik olakorik ikusteko... Ez dizkiat ikusten, ba&ntilde;a bere oin-otsa bai, ederki aditzen diat. Zuek ez?</p>
+<p>&mdash;Ez, otsik ez guk.</p>
+<p>&mdash;Orduan e, zuen begietako argia nerietakoa ba&ntilde;o obea izan arren, nik belarriak obeak, e? Arre astotxo, arre!</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>42</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>ZAZPI JAUNGOIKO</hi></p>
+<p>Pralle batek, par egi&ntilde; naiean, galdetu zion Pernandori:</p>
+<p>&mdash;Pernando, zenbat Jaungoiko dira?</p>
+<p>Ta Pernandok:</p>
+<p>&mdash;Zazpi.</p>
+<p>&mdash;Zazpi? Nolatan gero?</p>
+<p>&mdash;Aita, Semea ta Espiritu Santua, iru. Iru persona diferenteak, sei. Ta Aita Eternoa, orra zazpi.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>43</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>ILLARGIAREN PIXUA</hi></p>
+<p>Egun batean Amezketako Erretore jauna, Pernandoren adiskide aundia, illargiak zenbat pixatzen ote zuan pensatzen zegoan.</p>
+<p>Ontan Pernado albotik pasa zan, eta galdetu zion erretoreak:</p>
+<p>&mdash;Pernando: illargia ain aundi ta ederra izanik, zenbat pixatzen duan nai nuke jakin. Pernandok erantzun zion, galde ori erreza zala ta illargiaren pixua kilo bat zala.</p>
+<p>&mdash;Ba&ntilde;a orren gutxi nola? &mdash;zion erretoreak.</p>
+<p>&mdash;Errex, jauna, illargiak zenbat laurden ditu?</p>
+<p>&mdash;Lau.</p>
+<p>&mdash;Ta lau laurden ez al dira bada kilo bat?</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>44</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>ARDI GALDUA</hi></p>
+<p>Bein batean Pernando Amezketarrari ardi bat galdu zitzaion.</p>
+<p>Bere adiskide batek ori jakin zuanean, ia egia zan galdetu zion Pernandori ta orra onek zer erantzun zion:</p>
+<p><hi rend='Italic'>Bai, eta moduz</hi></p>
+<p><hi rend='Italic'>errekan sartuta</hi></p>
+<p><hi rend='Italic'>lau anka ta buruz.</hi></p>
+<p><hi rend='Italic'>Testamentu egin du,</hi></p>
+<p><hi rend='Italic'>ba&ntilde;an beretzat</hi></p>
+<p><hi rend='Italic'>larrua kentzeko</hi></p>
+<p><hi rend='Italic'>nekea neretzat.</hi></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>45</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>TXERRI-TRATOAN</hi></p>
+<p>Bein batean, Pernando juan zan Tolosara txerriak saltzera. Txerri-eme bat zeraman bost txerrikumakin, eta bostak aardiak (emeak) ziran. Txerri-tratalari bat gerturatu zitzaion.</p>
+<p>&mdash;Zenbat ortots dituzute, Pernando?</p>
+<p>&mdash;Aita dute ortotsa.</p>
+<p>&mdash;Gizona, danak aardiak al dira bada?</p>
+<p>&mdash;Baita ama ere.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>46</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>BABAK ETA ARRAUTZAK</hi></p>
+<p>Amezketako mutil batek, nai a&ntilde;a arrautza prejitu jateko kutixia izan zuan bein. Bai jan ere. Ostatura joan eta zortzi sartu zituan tripatzar artan. Ordaindu ordea bat ere ez: ordainduko zituala ta ordainduko zituala... ba&ntilde;a ordaindu gabe Ameriketara joan zan.</p>
+<p>Ameriketan amar urte igaro, ta aberastuta etorri zan. Bere zorrak kilisk-kilisk egiten zion biotzean, eta ordaindu bear zuala-ta, joan zan ostatu etxera.</p>
+<p>&mdash;Ara bada &mdash;esan zion ostalariak&mdash; zortzi arrautz aietatik zortzi txita txiki atera zitezkean; zortzi txita aiek zortzi ollo izango ziran laister; zortzi ollo oiek urtean zortzireun arrautz ipi&ntilde;iko zizkidaten; zortzireun arrautz... amar urte... bi milla ollo... amasei milla txita... amabost milla peseta ortxe nunbait ibilliko dira.</p>
+<p>Mutilla izutu zan. Baietz eta ezetz luzaroan aditu ta gero, bakoitzak bere aldetik gizon bat jarri, bien artean irugarren bat izendatu, ta aiek esaten zutena egitea erabaki zuten.</p>
+<p>Ostalariak lege-gizon ospetsu bat jarri zuan; mutillak berriz Pernando. Alkarrekin itzegiteko egun eta ordua ipi&ntilde;i zituzten: lege-gizona joan zan, ba&ntilde;a gure Pernando ez zan agiri.</p>
+<p>Alako batean, an dator laisterka, izardipatsetan. Epaikariak, juezak, ala ikustean, esan zion:</p>
+<p>&mdash;Ba&ntilde;a gizona, zuk lengo lepotik orain ere burua. Erlojua gelditu egin al zaitzu?</p>
+<p>&mdash;Ez jauna, ez. Nere Mari-Joxepak atzo egositako babak zeuzkan lapikoan, eta aietxek baratzan aldatzen aritu naiz.</p>
+<p>&mdash;A gizarajo, gizarajo, gizarajoa!... Egositako babak azitarako ez dituk gauza, gizona.</p>
+<p>&mdash;Ez e? Ezta orain amar urte jandako arrautzak ere, txitak ateratzeko.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>47</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>AGUR, ZINTZARRIAK</hi></p>
+<p>Bein Pernandok Alegin, ari ta ari, Jaungoikoak daki zenbat bertso bota zituan: gauerdia Jesus batean etorri zitzaieten alegitarrai amezketarraren ateraldi alaiak entzunez.</p>
+<p>Noizbait bukatu bear ordea, ta Amezketara joateko kalera atera zanean, orra nola agur egin zien Pernandok alegitarrai.</p>
+<p><hi rend='Italic'>Egundo ez da ukatu</hi></p>
+<p><hi rend='Italic'>geure alderdiak,</hi></p>
+<p><hi rend='Italic'>ezta ukatukore</hi></p>
+<p><hi rend='Italic'>Amezketa-erriak.</hi></p>
+<p><hi rend='Italic'>Ba&ntilde;a nola ez gauden</hi></p>
+<p><hi rend='Italic'>betiko etorriak,</hi></p>
+<p><hi rend='Italic'>gabon, beste bat arte,</hi></p>
+<p><hi rend='Italic'>agur zintzarriak.</hi></p>
+<p><hi rend='Italic'>Egi bat esango</hi></p>
+<p><hi rend='Italic'>eta neure aoaz,</hi></p>
+<p><hi rend='Italic'>sinistu ez dezute</hi></p>
+<p><hi rend='Italic'>egingo benturaz:</hi></p>
+<p><hi rend='Italic'>agur, alegitarrak,</hi></p>
+<p><hi rend='Italic'>oraintxe bagoaz;</hi></p>
+<p><hi rend='Italic'>naibazute jarraitu</hi></p>
+<p><hi rend='Italic'>zintzarriak joaz.</hi></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>48</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>ZAKURRA BEZELA</hi></p>
+<p>Idia saltzera joan zan bein Tolosara, ta sanoa zan galdetu ziotenean erantzun zuana:</p>
+<p>&mdash;Bai orine! Zakurra bezelakoa.</p>
+<p>Erosi diote bada idi ori, ta urrengo egunean erosleak jarri du lanean: idi gizarajoa, minga&ntilde;a aterata, arnaska, ezin ibillirik zan laister.</p>
+<p>Jabe berria, aserre, joan zan Pernandorengana ta eraso zion ziria sartu ziola garraxika esanaz.</p>
+<p>&mdash;Ziria? &mdash;erantzun zion Pernandok&mdash;. Ez gizona. Zakurra bezelakoa zala esan nizun. Jarri zazu zakurra lanean, eta ikusiko dezu idiak bezela minga&ntilde;a ze&ntilde;en aguro aterako duan.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>49</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>EMAN BEARKO</hi></p>
+<p>Amezketako erretore-etxean apaiz batzuek jatura omen zuten, eta, bazkari-usaira, eguardi-ingururako Pernando ere an omen zebillen. Apaiz aiek Pernando bidaldu nai omen zuten andik patxarago bazkaltzeko, ba&ntilde;a ezi&ntilde; i&ntilde;ola ere.</p>
+<p>Azkenik, bati auxe bururatu omen zitzaion: opoak atariko atean jarri ta kanpo-aldera nork oposalto aundiagoa egin. Pernandoren aldia zetorrenean, onek ere bere saltoa egingo zuan, besteak bezela, kale-aldera, ta orduan atea itxi ta kanpoan utziko zuten.</p>
+<p>Bai zera! Apaiz batek bere saltoa egin zuan. Gero besteak. Besteak gero. Ta Pernandoren aldia iritxi zanean, opoak jarri zituan atariko atean... ba&ntilde;a bera barrura begira zala.</p>
+<p>&mdash;Nik, egingo detan pixka barren-aldera egingo det &mdash;esanaz, salto egin zuan, eta kanpora joan bearrean barrenerago sartu zan.</p>
+<p>Bazkaria eman egin bear izan zioten.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>50</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>ZEREKO BEORRAK</hi></p>
+<p>Bein Pernando mendi-tontor batean, elur-lapatzetan otzak dal-dal ardi-zai zegola, bere beorren billa joan zan batek galdetu zion:</p>
+<p>&mdash;Beorrik ikusi al dezu emen, Pernando?</p>
+<p>Eta Pernandok erantzun zion:</p>
+<p>&mdash;Beorrak? Zereko beorrak!...</p>
+<p><hi rend='Italic'>Ardian erdiak akabatuta</hi></p>
+<p><hi rend='Italic'>barrutiak ezin pagatuta,</hi></p>
+<p><hi rend='Italic'>ez gaude abelera txarrean geldituta.</hi></p>
+<p><hi rend='Italic'>Eguraldi oek jarri bitza mudatuta,</hi></p>
+<p><hi rend='Italic'>bestela aurki naiz ardi ta guzti</hi></p>
+<p><hi rend='Italic'>akabatuta.</hi></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>51</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>PITXITA</hi></p>
+<p>Bi neskatx gazte, apai&ntilde; eta lirain, txakur txiki polit bat berekin zutela zijoazten.</p>
+<p>Pernandok ikusi zituan, ta esan zien:</p>
+<p>&mdash;Orixe da txakurtxo polita... zer izen du?</p>
+<p>&mdash;Pitxita.</p>
+<p>&mdash;Putzik egiten al du ipurdia itxita?</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>52</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>ONETIK ERAN</hi></p>
+<p>Pernandoren beiak, belar onik jaten ez zuten eta, argalak zeuden. Egun batean, bei-zai zegola, auzoko soro batean ikusi zuan belar mardul mardula, ta antxe sartu zituan ase ta zerbait gizendu zitezen.</p>
+<p>Beiak ari ziran gogotik garia jaten, ba&ntilde;a ona non irtetzen dan baserritik atso bat, deadarka:</p>
+<p>&mdash;Pernando!...</p>
+<p>&mdash;Pernando!... &mdash;erantzun zuan onek.</p>
+<p>&mdash;Ateza itzak bei oriek.</p>
+<p>&mdash;Ateza itzak bei oriek.</p>
+<p>&mdash;Ez al dek aditzen?</p>
+<p>&mdash;Ez al dek aditzen?</p>
+<p>Atsoa, ainbeste jardunekin aspertu zan, eta aserreturik esan zion:</p>
+<p>&mdash;Edari gaiztoak galduko al au.</p>
+<p>&mdash;Onetik eran &mdash;erantzun zion Pernandok.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>53</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>SARTU BITEZ!...</hi></p>
+<p>Pernando bazetorren Tolosatik etxera, bere asto beltxa aurrean zuala. Olarainera iristean, bi damatxo arkitu zituan; oek astoari begira jarri ziran, eta lokarriak min eman ez zezakion isets-ondoan zeuzkan trapu zarrak ikustean, asi ziran parrez.</p>
+<p>&mdash;Zu, Pernando &mdash;galdetu zioten zirikatzeagatik&mdash; astoak isats-azpian daukan oial orren kana bakoitza, zenbatean saltzen dezu?</p>
+<p>&mdash;Ori bera ez dago saltzeko, andratxo. Ba&ntilde;a ori ba&ntilde;o obeak badauzkat denda-barruan... Sartu bitez...</p>
+<p>Eta astoari isetsa goi-gora&ntilde;o jasoaz, bidea erakutsi zien.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>54</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>IXKRIBAURIK EZ ZERUAN</hi></p>
+<p>Bazijoan bein Amezketako Pernando, zeukan so&ntilde;eko onena jantzirik.</p>
+<p>Bidean arkitu zuan ixkribaua, ta onek, ala apaindua ikusirik, galdetu zion:</p>
+<p>&mdash;Ba&ntilde;a Pernando, zer zabiltz orren apain?</p>
+<p>&mdash;Ara jauna &mdash;erantzun zion&mdash;. I&ntilde;ondik ezin bizi-modurik atera nuan, eta ikazkintzara joatea gogoratu zait.</p>
+<p>&mdash;Ikazkintzara zoaz? Ez da bada ikazkintza txit lanbide ona. Sekulan ez det aditu zeruan ikazki&ntilde;ik sartu danik.</p>
+<p>&mdash;Bai jauna, bai; bein sartu omen zan. Eta ikazki&ntilde;a zeruan ikustea gauza arrigarria zalako ixkritura egitea erabaki omen zuten. Ortarako ixkribaua bear ordea, ta billa ta billa ibilli arren, ez omen zuten arkitu. Zerua zeru dan ezkeroztik, ez omen da an ixkribaurik sartu!</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>55</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>EKIN!...</hi></p>
+<p>Ametza ta Otobezino bertsolariak, askotan aritzen ziran bertsotan Pernandoren kontra.</p>
+<p>Ametza erronkan zebillenetako batean, zortzi bertsolarien izenak sartuaz, bertso oek esan zituan Pernandok.</p>
+<p><hi rend='Italic'>Ametza omen dabil</hi></p>
+<p><hi rend='Italic'>aide onarekin</hi></p>
+<p><hi rend='Italic'>noranai joango dala</hi></p>
+<p><hi rend='Italic'>Bere Migelekin,</hi></p>
+<p><hi rend='Italic'>Otobezino jauna</hi></p>
+<p><hi rend='Italic'>arturik berekin;</hi></p>
+<p><hi rend='Italic'>laugarrena daukate</hi></p>
+<p><hi rend='Italic'>Tolosan arakin.</hi></p>
+<p><hi rend='Italic'>Ni Zabalarekin,</hi></p>
+<p><hi rend='Italic'>Martin Amorexekin,</hi></p>
+<p><hi rend='Italic'>Prantxisko Irabasen (?)</hi></p>
+<p><hi rend='Italic'>arturik gerekin...</hi></p>
+<p><hi rend='Italic'>Orain gogoa duanak</hi></p>
+<p><hi rend='Italic'>lanari ekin.</hi></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>56</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>O&Ntilde;ETAKOAK MERKE</hi></p>
+<p>Bataioren batera joateko, edo eztaietara joateko, edo alkate egin zutelako, edo zertarako, edo zergatik ez dakigu, ba&ntilde;a Pernandok o&ntilde;etako berri batzuk bear omen zituan. Ba&ntilde;o... betikoa!, dirurik ez.</p>
+<p>Ala ere, joan zan o&ntilde;etakogille batengana.</p>
+<p>&mdash;O&ntilde;etako oek zenbatekoak dira?</p>
+<p>&mdash;Oek? &mdash;esan zion saltzalleak parre egiteagatik&mdash;. Ezkerreko o&ntilde;ekoa utsean, eta eskuikoa ogei peseta.</p>
+<p>&mdash;Ta beste pare au?</p>
+<p>&mdash;Au ogei peseta (ezkerreko o&ntilde;ekoa erakutsiaz), ta eskuikoa utsean.</p>
+<p>&mdash;Orduan bada... au ta auxe eramango ditut &mdash;erantzun zuan Pernandok o&ntilde;etako pare bakoitzetik utsean zana artuaz.</p>
+<p>Jarri zituan biak eta asi zan korrika. Bai saltzallea ere atzetik &laquo;orri... orri... lapurra...&raquo; deadarka.</p>
+<p>Alakoren batean norbaitek eldu zion besotik, ba&ntilde;a Pernandok, sua zeriola, esan zion:</p>
+<p>&mdash;Ago geldi, kankallu ori, korrika-apostua diagu-ta.</p>
+<p>Ta berriz an joan zan arin asko, o&ntilde;etako saltzallea atzean utzita.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>57</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>TUTUTUTU...</hi></p>
+<p>Pernandok zar-xamartu zanean, askotan esaten omen zuan:</p>
+<p>&laquo;Zartuta, ni bi aldiz ume biurtu. Mami danak urtu, azala zimurtu, ezurrak agertu, gerria okertu, bizkarra makurtu, belarriak gortu, bixta laburtu, junturak legertu, aizea samurtu, oso naiz bildurtu.</p>
+<p>&raquo;Ia ez daukat bada zerekin poztu.</p>
+<p>&raquo;Ala ere munduan ezin aspertu&raquo;.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>58</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>OBE IZANGO NII&Ntilde;</hi></p>
+<p>Pelota-partidu ospetsu bat izan zan bein Ernanin, gipuzkoatar eta lapurtarren artean. Olakoetan gertatu oi dan bezela, dirutza aundiak jokatu ziran. Pernandok ere nundik edo andik bi duro eder bereganatu zituan; eta bai jokatu, ta bai galdu ere.</p>
+<p>Etxerakoan, Billabonako kalean zear zijoala, galdetu zioten:</p>
+<p>&mdash;Ernanin zer berri, Pernando?</p>
+<p>&mdash;Ernanin?</p>
+<p><hi rend='Italic'>Irabazi duenak armonii&ntilde;</hi></p>
+<p><hi rend='Italic'>beste batzuk agonii&ntilde;;</hi></p>
+<p><hi rend='Italic'>nik ere joan ez banitz</hi></p>
+<p><hi rend='Italic'>obe izango nii&ntilde;.</hi></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>59</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>ASTOA GIZON-GA&Ntilde;EAN</hi></p>
+<p>Taka, taka, bazijoan Pernando bere astotxoa aurrean zuala. Kalera iritxi zan, eta mikeleteak esan zion:</p>
+<p>&mdash;Katea ordaindu bear dezu, Pernando.</p>
+<p>&mdash;Zergatik gero?</p>
+<p>&mdash;Astoa daramazulako.</p>
+<p>&mdash;A, ta nererik ez ta astoarena bai?</p>
+<p>&mdash;Jaki&ntilde;a ba...</p>
+<p>&mdash;Nererik ez, orduan.</p>
+<p>&mdash;Ezetz.</p>
+<p>&mdash;Ta bizkarrean karga badaramat ere ez?</p>
+<p>&mdash;Ezetz bada, gizona; zurerik ez.</p>
+<p>Ori entzutean, astoa bizkarrean artuta an joan zan Pernando, mikeletea zer egin ez zekiala utzita.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>60</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>ORDAINDU ARTEKO ASTIA</hi></p>
+<p>Gaxo, oso gaxo zegoan Pernando. Artzekodun bat etorri zitzaion oi-ondora, ta zor zizkion diruak eskatu zizkion.</p>
+<p>Pernandok, mantxo-mantxo esan zion:</p>
+<p>&mdash;Ai zuri ordaindu arteko bizia emango balit gure Jaungoiko maiteak! Orduntxe pozik ilko nitzake...</p>
+<p>Erretore jauna zegon, eta itz aiek gaxoari entzutean, esan zion:</p>
+<p>&mdash;Gure Jaungoikoa on-ona da, Pernando ta zure naia beteko du noski. Zorrak ordaintzea nai du berak, eta egiteko ori bete arteko astia emango dizu...</p>
+<p>&mdash;Ordu arteko bizia ematen baldin badit bada, jauna, berorrek ez dauka nere entierroa kobraturik...</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>61</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>TXALBURUDUN ARDOA</hi></p>
+<p>Bera bezelako erreminta jenero batekin, ari ta ari zan Pernando ardoteki-zulo batean, zurrut eta zurrut. Maki&ntilde;abat baxo-erdi zor zituan etxe artan, eta ala ere, zorrak ordaindu bearrean, eran eta eran, geiagotu egiten zituan zor oiek.</p>
+<p>Estutasun artatik nola aterako ta nola aterako, ara zer gogoratu zitzaion.</p>
+<p>Irten zan ardotegitik, joan zan inguruetako potzu-zulo batera, ta zortzi-amarren bat txalburu arrapatuta, atzera sartu zan. Izkutuan, sartu zituan bi txalburu basoan, eta ga&ntilde;erakoak botillan. Andik pizka batera...</p>
+<p>&mdash;Zer zikinkeri arrano da au?</p>
+<p>&mdash;Zer da, zer da?...</p>
+<p>&mdash;Orlakorik ez zaio gizonari egiten. Ardoa eskatu ta zikinkeri au ekarri.</p>
+<p>Trabenaria gerturatu zan.</p>
+<p>&mdash;Aizazu, Pernando, nik ez det zikinkerik ematen, e, ta kontu zer esaten dezun. Obe zenduke zor dezun ardoa ordaindu.</p>
+<p>&mdash;Ardoa, ardoa al da bada au?</p>
+<p>&mdash;Zer ote da bada?</p>
+<p>&mdash;Ur ziki&ntilde;a besterik ez; potzu ziki&ntilde;etik ekarritako ura.</p>
+<p>&mdash;Kontu gero, zer esaten dezun...</p>
+<p>&mdash;Kontu? Txalburu bat irintzita gero kontu?</p>
+<p>&mdash;Zer txalburu ta txalburu-ondo gero! Txoratu egin zera, gizona...</p>
+<p>&mdash;Txoratu e? Ta au, zer da au?</p>
+<p>Ontzian zeuzkan bi txalburuak erakutsi zizkionean, arrituta gelditu zan ardo-saltzallea.</p>
+<p>&mdash;Jaki&ntilde;a! &mdash;zion Pernandok panparroi&mdash; potzuko ur ziki&ntilde;a, bota diozu-ta, txalburuak etorri... Botillan ere izango dira geigo onenean...</p>
+<p>Bai, baziran. Botillako ardoa itzultzean, an irten zan beste txalburu-mordoxka bat.</p>
+<p>Eta Pernandok:</p>
+<p>&mdash;Au ezin ixilik eraman liteke. Ardoari ur ziki&ntilde;a botatzea...</p>
+<p>&mdash;Ara bada, Pernando, sekulan ez diot bada botatzen. Gaur... bai... pixka-pixka bat. Ba&ntilde;a ur garbi, ederra zalakoan...</p>
+<p>&mdash;Neri ez didazu bada berriz orrelakorik egingo. Nik parte emango det, eta ikusiko degu zer gertatzen dan.</p>
+<p>&mdash;Ez Pernando, ez. Zaude ixilik. Or gordeta daukatan ardo zar bikain ortatik emango dizut gaurtik aurrera. Ta zor guztiak barkatuko dizkitzut.</p>
+<p>Ondo ixildu zan bai, Pernando.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>62</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>DON JUAN DE GARAIOA?</hi></p>
+<p>Izurrite batean, mando-ga&ntilde;ean gaxoak eramaten asi zan Pernando. Bakoitzarengatik ainbesteko bat ematen zioten, eta, kaxo motell! bapo zebillen.</p>
+<p>Tolosatik Ernanira gaxo bat eramateko agindu zioten bein. Bai berak agindua bete ere. Ba&ntilde;a, Ernanira iritxi ziranean, gaxoak esan zion:</p>
+<p>&mdash;Donostira&ntilde;o joan nai nuke. Eraman nazazu, gizontxu.</p>
+<p>Ernanitik Donostira&ntilde;o gaxo ura eramanda, Pernandok ez zuan ezer irabazten, eta ez zuala eramango esan zion.</p>
+<p>&mdash;Ernanira&ntilde;o ekartzeko esan dirate neri, ta emen gelditu bearko dezu.</p>
+<p>&mdash;Ba&ntilde;a gizona...</p>
+<p>&mdash;Esana esanda dago, ta kito.</p>
+<p>&mdash;Zer kito ta kito-ondo! Kontu gero zer esaten dezun! Don Juan de Garaioa naiz gero ni...</p>
+<p>&mdash;Bai e?</p>
+<p><hi rend='Italic'>Don Juan de Garaioa?</hi></p>
+<p><hi rend='Italic'>Berdin da baldin bada</hi></p>
+<p><hi rend='Italic'>Inpernuko arraioa.</hi></p>
+<p><hi rend='Italic'>Indarrez ez baldin bada</hi></p>
+<p><hi rend='Italic'>ni bai&ntilde;o geigo,</hi></p>
+<p><hi rend='Italic'>Pernando mandoarekin</hi></p>
+<p><hi rend='Italic'>etxera dijoo.</hi></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>63</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>IL, BARKATU, TA PIZTU</hi></p>
+<p>Nola edo ala artalde baten jabe izateko gogoa sartu zitzaion Pernandori. Ardiak izan nai, ta ardiak erosteko dirurik ez. Besteren bat estutuko zan noski, ba&ntilde;a ez gure Pernando. Dirurik ez zuala? Geroago ordaintzekotan erosi.</p>
+<p>Ala erosi zuan Pernandok bere artalde ori. Egunak etorri eta egunak joan, ordaintzeko ordua ere etorri zan.</p>
+<p>Ez zan estutu. Bi adiskideren billa joan zan, eta:</p>
+<p>&mdash;Eup!...</p>
+<p>&mdash;Zer degu, Pernando?</p>
+<p>&mdash;Zera! Ardiak ordaintzeko eguna etorri zaidala-ta, nik dirurik ez detala-ta, zuek lagundu bearko didazutela...</p>
+<p>&mdash;Guk? Gure diruak errez eramango dituzu.</p>
+<p>&mdash;Ez det zuen diru bearrik. Itzezko laguntasuna eskatzen dizutet, ez diruzkoa.</p>
+<p>&mdash;Ori emango dizugu, bada, gizona.</p>
+<p>&mdash;Tira bada; goazen. Nere artzekoduna zai dago onezkero, ta goazen.</p>
+<p>An zijoazen irurak artzekodunaren billa. Iturritxo baten ondotik igarotzerakoan, esan zien Pernandok bere bi lagunai:</p>
+<p>&mdash;Geldi bertan. Ni ementxe geldituko naiz. Zuek biok zoazte, ta nere diruaren zai dagonarengana irixten zeratenean, esan zaiozute: &laquo;Pernando gizarajoa! Gurekin zetorren zuri zorra ordaintzera. Izerdi-patsetan, korrika zetorren, eta iturrian ur otza eranda, gaitzen batek artu ta zerraldo gelditu da&raquo;.</p>
+<p>&mdash;Ba&ntilde;a gizona...</p>
+<p>&mdash;Zuek ori esan zazute, ta gero-gerokoak.</p>
+<p>Esan eta egin. Artzekoduna an zegoan Pernandoren zai.</p>
+<p>&mdash;Ara bada &mdash;esan zioten Pernandoren bi adiskideak&mdash;. Egi&ntilde;ala guzian oneraxe zetorren zor dizun dirua ekartzera. Ba&ntilde;a iturritik igarotzean, izarditan zegoala ura eran du, ta plast!... luze-luze erosi da. Azkenekotan dago noski.</p>
+<p>&mdash;Gizarajoa!... Ia, ia, goazen, goazen aguzo, ia zer-edo-zer egin dezakegun.</p>
+<p>Pernando an zegoan iturri-ondoan bapo exerita, ba&ntilde;a bere artzekoduna zetorrela ikusi zuanean, lurrean luze-luze etzan zan, begiak itxi zituan, eta aoa okertu ere bai... Illa zegoala zirudian.</p>
+<p>Ardiak saldu zizkionak ala ikusi zuanean, kupituta, esan zuan:</p>
+<p>&mdash;Maki&ntilde;abat par eragindako Pernando gizarajoa!... I ere il bear itzan eta il aiz... Jaungoikoak barkatuko al dizkik zorrak, nik barkatu diaten bezela...</p>
+<p>&mdash;Barkatzen al diozu zor zizuna?</p>
+<p>&mdash;Bai bada, gizarajoari.</p>
+<p>Orduan, bat-batean altxa zan Pernando. Ta ala zion:</p>
+<p>&mdash;Zuek testigu e? Zorra barkatzen ditala esan du. Gero ukatzen badu, zuek testigu.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>64</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>BAT EMAN, BESTEA ARTU</hi></p>
+<p>Gure zorioneko Pernando au bazebillen bein beste askotan bezela, zer janik ez zuala. Alakoetan, jaki&ntilde;a!, erretore jaunarengana joan bear eskean.</p>
+<p>&mdash;Erretore jauna: anega bat arto emango balit &laquo;ixtimatuko&raquo; nioke ba...</p>
+<p>&mdash;Anega bat arto? Ez zeukeat nik alperrentzat artorik. Lan egin zak, eta ala izango dek artoa. Pernando ixil-ixilik etxeratu zan. Garizuma iritxi zanean, ordea, erretoreari &laquo;peatu&raquo; bear ziola, ta joan zan sakristira txartel-billa.</p>
+<p>&mdash;Ia Pernando: zer esan nai du Santuen komunioak?</p>
+<p>&mdash;Artorik ematen ez duana eramango duala inpernuko demonioak.</p>
+<p>&mdash;Utzi akiok pakean inpernuko demonioari. Espiritu santua artu bear dek laguntzat, Espiritu santua; ez demonioa. Zer obra egin zikan Espiritu santuak?</p>
+<p>&mdash;Etxe bat Errenterin, jauna. (&laquo;Espiritu Santua&raquo; deitzen zioten etxe-egille bat bizi zan orduan Errenterin).</p>
+<p>&mdash;Bai e? Joan adi bada Errenteriko Espiritu santuarengana, ta eskatu akiok txartela, nik beintzat ez diat emango-ta.</p>
+<p>Ixildu zan berriz Pernando. Ez orregatik buru-makurturik gelditu.</p>
+<p>Bere baratzan bi kalabaza aundi zituan erretore-jaunak. Aiek ba&ntilde;o aundiagorik inguruetan ez zala-ta, arro-xamar itzegiten zuan, eta bai ondo pozik erakutsi ere.</p>
+<p>Joan zen Pernando erretore-etxera, ta neskameari esan zion:</p>
+<p>&mdash;Aizan, Ma&ntilde;axi: erretore jaunak apustua egin din Eulizarreko Joxerekin, ia ze&ntilde;ek kalabaza aundiagoa ekarri. Ta baratzan daukan aundiena emateko esan zian.</p>
+<p>&mdash;Ator baratzara, ta erorrek ebaki zak aundiena ara, pareta-kontrako uraxe dek.</p>
+<p>Pernandok &laquo;rast!&raquo; ebaki, ta bizkarrean artuta eraman zuan.</p>
+<p>Erretore jauna etorri zanean:</p>
+<p>&mdash;Eta zei&ntilde;ek irabazi du apustua erretore? Eulizarreneko Joxek ez zuan gauza aundirik ekarriko beintzat...</p>
+<p>&mdash;Ba&ntilde;a zer esaten ari zera, Ma&ntilde;axi?</p>
+<p>Ma&ntilde;axik guzia esan zionean, erdi-aserre, erdi-parrez gelditu zan erretorea.</p>
+<p>&mdash;Kalabaza zalea da orratio Pernando alproja ori. Txarteletan galanta eman diot bada ba&ntilde;o berak aundiagoa eraman dit...</p>
+        </body>
+      </text>
+    </group>
+  </text>
+</TEI.2>
+

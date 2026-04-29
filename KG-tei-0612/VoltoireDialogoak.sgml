@@ -1,0 +1,785 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN"
+                       "http://www.tei-c.org/P4X/DTD/tei2.dtd" [
+   <!ENTITY % TEI.prose    'INCLUDE' >
+   <!ENTITY % TEI.linking  'INCLUDE' >
+   <!ENTITY % TEI.analysis 'INCLUDE' >
+   <!ENTITY % TEI.figures  'INCLUDE' >
+   <!ENTITY % TEI.XML      'INCLUDE' >
+   <!ENTITY % TEI.extensions.ent SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.ent' >
+   <!ENTITY % TEI.extensions.dtd SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.dtd' >
+]>
+<TEI.2>
+  <teiHeader>
+  <fileDesc>
+     <titleStmt>
+        <title>Dialogoak</title>
+        <author>Voltoire</author>
+        <respStmt>Ez dauka</respStmt>
+     </titleStmt>
+     <extent>4.828 hitz, 31.840 karaktere</extent>
+     <publicationStmt>
+        <publisher>Klasikoen Gordailua [http://klasikoak.armiarma.com/]</publisher>
+        <distributor>Estrata Liburuak S.L.</distributor>
+        <address type='email'>klasikoak@armiarma.com</address>
+        <idno type='ota'>VoltoireDialogoak</idno>
+        <availability status='free'>Erabilpen librekoa; honoko helbidean topa daiteke (HTML, RTF eta PDF formatuetan): http://klasikoak.armiarma.com/idazlanak/V/VoltoireDialogoak.htm</availability>
+        <date>2006</date>
+     </publicationStmt>
+     <sourceDesc>
+        <bibl>Iturria: L'Interprect ou traduction du fran&ccedil;ois, espagnol et basque, Voltoire. A. Rovyer, 1620</bibl>
+        <notesStmt><note>Iturburuen datazioa: 1620</note></notesStmt>
+     </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+     <projectDesc>Euskal literaturako testu klasikoen bilduma da KLASIKOEN GORDAILUA; testu hau berorren parte da</projectDesc>
+     <refsDecl>
+        <p>MENTIONED etiketa egilearenak ez diren hitzak markatzeko erabili da: hitzaurreak, aipuak, iruzkinak, e.a.</p>
+    </refsDecl>
+     <classDecl>
+        <taxonomy id='generoa'>
+            <category id='G-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='G-ANT'><catDesc>Antzerkia</catDesc></category>
+            <category id='G-BER'><catDesc>Bertsoak</catDesc></category>
+            <category id='G-ERL'><catDesc>Erlijioa</catDesc></category>
+            <category id='G-NAR'><catDesc>Narratiba</catDesc></category>
+            <category id='G-POE'><catDesc>Poesia</catDesc></category>
+            <category id='G-SAI'><catDesc>Saiakera, kronika, artikuluak...</catDesc></category>
+        </taxonomy>
+        <taxonomy id='garaia'>
+            <category id='M-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='M-16'><catDesc>XVI. mendea</catDesc></category>
+            <category id='M-17-1'><catDesc>XVII. mendea - 1. erdia</catDesc></category>
+            <category id='M-17-2'><catDesc>XVII. mendea - 2. erdia</catDesc></category>
+            <category id='M-18-1'><catDesc>XVIII. mendea - 1. erdia</catDesc></category>
+            <category id='M-18-2'><catDesc>XVIII. mendea - 2. erdia</catDesc></category>
+            <category id='M-19-1'><catDesc>XIX. mendea - 1. erdia</catDesc></category>
+            <category id='M-19-2'><catDesc>XIX. mendea - 2. erdia</catDesc></category>
+            <category id='M-20-1'><catDesc>XX. mendea - 1. erdia</catDesc></category>
+            <category id='M-20-2'><catDesc>XX. mendea - 2. erdia</catDesc></category>
+        </taxonomy>
+        <taxonomy id='euskalkia'>
+            <category id='E-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='E-BAT'><catDesc>batua</catDesc></category>
+            <category id='E-BIZ'><catDesc>bizkaiera</catDesc></category>
+            <category id='E-BNA'><catDesc>behenafarrera</catDesc></category>
+            <category id='E-ERR'><catDesc>erronkariera</catDesc></category>
+            <category id='E-GIP'><catDesc>gipuzkera</catDesc></category>
+            <category id='E-GNA'><catDesc>goi nafarrera</catDesc></category>
+            <category id='E-LAP'><catDesc>lapurtera</catDesc></category>
+            <category id='E-NAF'><catDesc>nafarrera</catDesc></category>
+            <category id='E-ZAR'><catDesc>zaraitzuera</catDesc></category>
+            <category id='E-ZUB'><catDesc>zuberera</catDesc></category>
+        </taxonomy>
+    </classDecl>
+  </encodingDesc>
+  <profileDesc>
+     <textClass>
+       <keywords scheme='generoa'>
+         <list><item>G-SAI</item></list>
+       </keywords>
+       <keywords scheme='garaia'>
+         <list><item>M-17-1</item></list>
+       </keywords>
+       <keywords scheme='euskalkia'>
+         <list><item>E-LAP</item></list>
+       </keywords>
+     </textClass>
+  </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>Dialogoak -- Voltoire</docTitle>
+    </front>
+    <group>
+      <text>
+        <body>
+<p><foreign>COLLOQUES OU DIALOGUES</foreign></p>
+<p><foreign>propes &amp; necessaires en divers negoces &amp; affaires pour la dite traduction</foreign></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>KAPITULU LEHENA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>ha&ntilde;itz nezesarioa, biyaietan dabil ha&ntilde;arenzat</hi></p>
+<p><foreign><hi rend='Bold'>V.A.N. </hi></foreign>Elkharekin minzatzen direnek dira.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Ieinkoak dizula gau on adiskidea.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Zoaz jauna horen onean.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Erradazu othoi egiten darotzut, bide hau norat duan.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Nurat nahi du iuan zure Se&ntilde;oria.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Banua Castillara.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Bide handia da.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Barathe barathe, badua urron.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Gure jaunak gida zaitzala eta goarda.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Iainkoak dizula ozasona.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Nolatan zoaz horrela bakharrik.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Pobre biluzia, nihork ezin berris billuz dezake.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Ungi begiratua da, Iainkoak begiratzen duena.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Nondik joan behar dut ez hutzik egiteko, eta bidea laburzeko.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Ez ta laburzerik neke gaberik bai&ntilde;o, bide handitik nihor osasunarekin doa.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Zanbat lekoa dire orayio hamandik lehenbiziko ostatu edo herrira&ntilde;o.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Lekoa bat eta erdi guti bat gora behera.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Bide eder on eta garbia da.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Parte gaisto lohitsu eta ederra.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Herri belz hau iguin zait.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Lur belzak ekharzen du bihi eta bertze onik asko, eta xuria ezta on.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Bide garbia on eta eder zait.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Lur onean konmunki bide gaistoa.</p>
+<p><foreign><hi rend='Bold'>N. </hi></foreign>Ezta bide xigor hai&ntilde; ederrik non ezpaitu bi urratsen lohirik.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Nondik heldu da hai&ntilde; berze lohi, eta lizunkeria.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Nola idartasunak bilzen baita hai&ntilde;itz harrauts urak egiten du gero ha&ntilde;itz lohi.</p>
+<p><foreign><hi rend='Bold'>N. </hi></foreign>Errana egia da harrautsetik lohia heldu dela.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Badaritzatzu denbora ederra, egi&ntilde;en duela, eta uria athertuko dela.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Udan eta neguan uri, egiten du jeinkoak nahi duinean.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Haize handia da eta borthitza.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Denbora denborari, eta heizearen ondoan uria.</p>
+<p><foreign><hi rend='Bold'>N. </hi></foreign>Denbora eta fortuna, orenoroz mudatzeko erraz dire eta hai&ntilde;itz dago goizian hirriz zei&ntilde;a baitago arratsean, nigarrez eta marraskaz.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Aiziak eztu zi&ntilde;alatzen uria.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Iainkoa nahi duen orduan, aize guziez egiten du uria.</p>
+<p><foreign><hi rend='Bold'>N. </hi></foreign>Aizia eta emastea eta fortuna kanbiatzeko, erraitz dire hillargira bezala.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Goitz hunetan bruma da.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Uraren bruma eta isozaren auzo da.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Arriba naiteko Baionara gaur.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Egun argis nekatu gabe goitz.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Nola aurkitoko duk bidea.</p>
+<p><foreign><hi rend='Bold'>N. </hi></foreign>Mihi duena erromara dua.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Beldur nais erebela nadin bidean.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Iarreki sakitza beti here bide handiari zoaz xuxen nihurat itzuli gabe.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Ezta posible zuk niri emaitea entresa obeagorik.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Galdegin dezezu bidea, idiza&ntilde;er urda&ntilde;er, astoza&ntilde;er ulla&ntilde;er, eta arza&ntilde;er.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Alako jendiak dire grozierak.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Nabaski estute Espa&ntilde;a ekusi.</p>
+<p><foreign><hi rend='Bold'>N. </hi></foreign>Erripirak beteag dira, ogie paillez eta erzillez.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Karri aurki toko duzu iturri bat ezko&ntilde;etik, eta apro bat aitzinago landaez ebaki bat eskereko aldean eta arribatzen zarenean arbola, adargabe baten aldean aurkituren duzun bide ziutze bat, zo&ntilde;ek gidaturen bait zatu ribera xipi batera.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Arribera barrena eta zabal da.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Ez zaitzela beldur ita zaiten ezin herzi da.</p>
+<p><foreign><hi rend='Bold'>N. </hi></foreign>Arribera geldi betan estu eman behar eskorik ez erririk.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Bidea Segura da.</p>
+<p><foreign><hi rend='Bold'>N. </hi></foreign>Hirietan denperilla handiago da, gehienetan ezinez erregeren bideko akzidentak.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Bada oho&ntilde;en famarik heman edo arrobatzallerik.</p>
+<p><foreign><hi rend='Bold'>N. </hi></foreign>Fama da ezen oi hanak bedeak direla millia gastaginez, zein hek hilzen eta masakratzen, eta rubatzen, baitituste enkontratzen duten guziek.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Zergatik estute horkatzen, estakatzen erretzen asotatzen itotzen, banitzen lapidatzen.</p>
+<p><foreign><hi rend='Bold'>N. </hi></foreign>Prebostak kriminaleak eta berzia, Iustizia, eta serjentak eta berziak sobera egiteko lokete.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Aditu dut goitz honetan hartu dutela, eta eraman dutela hurkabera ohoin eta gastagin pilla bat.</p>
+<p><foreign><hi rend='Bold'>N. </hi></foreign>Zergatik hurkatu ituste.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Hurkabeak eramaten du obra, gastuak egiten duena.</p>
+<p><foreign><hi rend='Bold'>N. </hi></foreign>Arrubatu zuten zenbait edo hil.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Hil zuten pobre bat, eta milia gaiski egin zuten oihan baten aldean.</p>
+<p><foreign><hi rend='Bold'>N. </hi></foreign>Garizuma eta justizia da gaistuenzat.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Ongi bizi dena ongi hilzen da, eta gaiski egiten duena gaitzak darraio.</p>
+<p><foreign><hi rend='Bold'>N. </hi></foreign>Egiten estuena behar lokena etorzen zaio nahi ez tuena.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Gutitan ikusten dugu ongi hilzen direla gaiski bizi direnak.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Ene fedea ezin ausaria nainteke adzi&ntilde;ago ioatea konpa&ntilde;earik gabe.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Kurajia una, izitzen du bentura gastua.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Ezgi&ntilde;ezake aurki zenbat gidari, eramen ginzakena oihan honez alde harterik.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Iainkoa lagun deunari, nihork ezin kalterik egin dezakeio.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Iauzi behar dut apro bat hedoi haur iragan artean.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Gerizea duenak uri, denean erroa da alda badadi.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Zure ustez denbura haur ira&ntilde;en du.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Asti balin banins, eznenteke hil pobre ez kokin.</p>
+<p><foreign><hi rend='Bold'>N. </hi></foreign>Zaude eta hasta zaite, gure baitan gaur hontan, ezen berando da eta hasten da ilhonzen.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Diahin ninzanduke leko batez abanzatu.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Iainkoaren benedikzionea lagun zaitzala.</p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>PREPAUS</hi></p>
+<p><hi rend='Bold'>on eta gustiz plazentak hanbat bidetan, dabilzanenzat nola hostatu daduzatenenzat</hi></p>
+<p><hi rend='Bold'>Kap II.</hi></p>
+<p><foreign><hi rend='Bold'>H. </hi></foreign>Iainkoa dela hemen hela?</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Zure Se&ntilde;oria ungi ethorri dela.</p>
+<p><foreign><hi rend='Bold'>H. </hi></foreign>Etxeko Iauna zare zu ala arrotza.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Ni nais etxeko motilla zure serbitzeko.</p>
+<p><foreign><hi rend='Bold'>H. </hi></foreign>Rezebituko nais ni gaurkotz arrotzat.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Bai Iauna eta ongi traktatu.</p>
+<p><foreign><hi rend='Bold'>H. </hi></foreign>Ostatu ona duzu.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Hiri hunetan esta hobeagorik.</p>
+<p><foreign><hi rend='Bold'>H. </hi></foreign>Nola daritza Etxeko Iaunari.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Daritza nihongo ez Iauna.</p>
+<p><foreign><hi rend='Bold'>H. </hi></foreign>Zein merka dadukate etxe hunetan.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Sillaresko garatosa.</p>
+<p><foreign><hi rend='Bold'>H. </hi></foreign>Beras se&ntilde;ale ona da ungi garausatuak isanen garela.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Iauseite Iauna eta utsazu pau zatzera zure saldia.</p>
+<p><foreign><hi rend='Bold'>H. </hi></foreign>Establia una duzu.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Belhar ona berria oloa eta garagarra.</p>
+<p><foreign><hi rend='Bold'>H. </hi></foreign>Esta behorik edo mandorik.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Esta astotxo bat baizen bakekoa ardi gisa.</p>
+<p><foreign><hi rend='Bold'>H. </hi></foreign>Non da palafrenerua.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Hara non den guztia rekaitatoko duena.</p>
+<p><foreign><hi rend='Bold'>H. </hi></foreign>Eramazu ene abrea establiora zistu egiozu utziosu gernu egitera, eztezazula sella ideki ura&ntilde;o.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Plazer duzu erradatera eraman dezadan eta garbitzera.</p>
+<p><foreign><hi rend='Bold'>H. </hi></foreign>Emozon hemendik apru baten bruan sulla bat ur freskua eta ongi forta iozazu sangoak ura irarotsarazetzeko.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Eztute aurkitzen bridarik ez kabestrarik.</p>
+<p><foreign><hi rend='Bold'>H. </hi></foreign>Galdu dire bidean ene sapatak eta ene malet ere.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Plazer duzu gelera iuan Iauna.</p>
+<p><foreign><hi rend='Bold'>H. </hi></foreign>Lagunza kiskit espero&ntilde;ak eta botak kenzen.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Plazer duzu urinez ganzu sure botak detzadan.</p>
+<p><foreign><hi rend='Bold'>H. </hi></foreign>Betezazu belharrez busti gabe.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Egi&ntilde;en da Iauna.</p>
+<p><foreign><hi rend='Bold'>H. </hi></foreign>Izanen dut nik gela bat apart.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Berand heldu dena gaski osta da, zure abrea izertu da eta flakua da.</p>
+<p><foreign><hi rend='Bold'>H. </hi></foreign>Mirazazu ungi ferratua den.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Bi o&ntilde;etan dabilza bordi&ntilde;a ferrak.</p>
+<p><foreign><hi rend='Bold'>H. </hi></foreign>Deidezate ferratzalia ikusteko; eta ekardazu eskoba bat, ene xahuzeko, eta ur freskoa, ahoaren garbizeko.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Nahi duzu sarri afaldu.</p>
+<p><foreign><hi rend='Bold'>H. </hi></foreign>Nahi nuke afaria prest baliz ezen apetitoa dut.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Estuzu nahi berzeen begira egon.</p>
+<p><foreign><hi rend='Bold'>H. </hi></foreign>Baita biskitartean goazen ikustera zer den onik kusi&ntilde;an.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Ezta hiri honetan obeki prestaturik hara nun den haragia hotza, eta berua arra&ntilde;a egosi eta errea.</p>
+<p><foreign><hi rend='Bold'>H. </hi></foreign>Haragiak egiten du haragia ezkintuske zenbait arolze fresko.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Nola nahi duzu hek apeindurik.</p>
+<p><foreign><hi rend='Bold'>H. </hi></foreign>Batzuek frejiturik berziak errerik.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Gusturik aurkitzen duzu heper bero hunetan.</p>
+<p><foreign><hi rend='Bold'>H. </hi></foreign>Esta eper galderik egozi dena baizen dagigun dasta de iakin zegun, eta zer arno duzun.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Berria eta xuri eta klareta plazenta.</p>
+<p><foreign><hi rend='Bold'>H. </hi></foreign>Eta hobeagorik zer pagatzen dute honte[...]ronzaagatis.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Gose direnek pagatzen dute Eskutu erdi bat.</p>
+<p><foreign><hi rend='Bold'>H. </hi></foreign>Estut gose handirik eta apetitorik.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Maha&ntilde;era Iauna, plazer baduzu berzek iarri dire.</p>
+<p><foreign><hi rend='Bold'>H. </hi></foreign>Estu nahi afalu. Ioan nahi dut oherat.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Plazer duzun orduan.</p>
+<p><foreign><hi rend='Bold'>H. </hi></foreign>Ene abrea ongi tratatua da.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Bai Iauna bai&ntilde;an nauziaren begiak gizenzen du abrea.</p>
+<p><foreign><hi rend='Bold'>H. </hi></foreign>Izanen dut nik ohe una, eta estaki ona ezen isotz egiten ari da borteski nahi nuke, bakarrik erzin ezen saragatzu nais.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Plazer duzu kontuak dagitzagun.</p>
+<p><foreign><hi rend='Bold'>H. </hi></foreign>Esta hori fazonia adiskideen etxetan.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Egiten dute hemen sarruiera, baitan bezala non bat bederak da bere kornadduaagatik.</p>
+<p><foreign><hi rend='Bold'>H. </hi></foreign>Uztezagun hori eta erradazu bihar denbura ona eginen duens.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Holzadarrak zeruan arratzian denbora una irakusten du bai&ntilde;an estezazula sekulan si&ntilde;ez denbura isar atoari, ezeta brodar salie gaski bestituari.</p>
+<p><foreign><hi rend='Bold'>H. </hi></foreign>Aisia bihortu da iguski sarzetik ilkitzera.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Iainko nahi duenean, aisia bat bederatik uria egiten du.</p>
+<p><foreign><hi rend='Bold'>H. </hi></foreign>Non dire aizinak.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Hara non diren.</p>
+<p><foreign><hi rend='Bold'>H. </hi></foreign>Esta hemen oillarik.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Gure oillua kantatzen du, eta ullarra ixilzen da.</p>
+<p><foreign><hi rend='Bold'>H. </hi></foreign>Harzas esperatu bear dute nolako fi&ntilde;a, nola latin ninzatzen den amastean.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Noist partitu nahi du Iauna.</p>
+<p><foreign><hi rend='Bold'>H. </hi></foreign>Bihar goizean iainkoarekin batean.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Zergatik ezara pauzatzen hemen egun batzu.</p>
+<p><foreign><hi rend='Bold'>H. </hi></foreign>Hostalarrua eta arra&ntilde;a, hirur egunez dire pusoin.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Plazer duzu irazar zeitzaden alban eta bortala idekitzean.</p>
+<p><foreign><hi rend='Bold'>H. </hi></foreign>Ha&ntilde;is egi&ntilde;en dut bihar aribatzeas Burdelen.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Gure aizean eta egun Klarez.</p>
+<p><foreign><hi rend='Bold'>H. </hi></foreign>Bazinduke herrata bat.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Utziko dut nik gakoak atean, edo sarratoko duzu atea barnetik.</p>
+<p><foreign><hi rend='Bold'>H. </hi></foreign>Urrerik eta zillarrik estuena lo egiten du segurki, badarikan ate sarratuari burua gardatua.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Iainkoa dizula gau on Iauna.</p>
+<p><foreign><hi rend='Bold'>H. </hi></foreign>Goaz ordu onean.</p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>PREPAUS melzake eta berze plaza edo konpa&ntilde;ietan egiteke hartueman edo trafikatzeko behar direnak</hi></p>
+<p><hi rend='Bold'>Kap. III.</hi></p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Iainkoa dizula osazona adiskidea.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Nurat zoaz Iauna.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Banua molzara&ntilde;o merkatari gisun presto baten billa.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Gisu prestuak, egungo egunean bakan erein dire.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Zer oren da zure ustez?</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Uste dut hamekek io dutela, ezen jendeak hasi dirade bilzen mulzera ioateko.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Banoa ni ere harat.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Goazen konpa&ntilde;a batean elkarrekin.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Nahi derautazu plazer egin ni lagunziaz egiteko batzuen debiditzeko ze&ntilde;a baititut han.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Aspaldi dakizu nitzas eta ene onez osoki plazer dozuna egin dirokezula.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Hori diozu honesta eta kurtezia harzas remerziatzen darotzut.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Norekin duzu egiteko esta merkataririk hiri honetan nik ongi ezahutzen estudenik.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Gertuz zu zara nik behar duden gizuna ene lagunzeko.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Gidatuko zaitut non hemendik atzi&ntilde;era izanen baituzu entrada una.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Ikusagun bada baden zenbait adiskiderik duenik zenbait marxandiza unik.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Minza gaitien Iaunari Iaunarekin ze&ntilde;ez kustumatu baita bethi ogi probeditu izaitea.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Minzatzen da ongi Espa&ntilde;olez.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Zu bezain ongi.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Minza zakizko lehenik bi hitz.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Iauna gizun prestu honek desiratzen du zurekin minzatzea erosteko zenbait marxandiza.</p>
+<p><foreign><hi rend='Bold'>B. </hi></foreign>Ni nais zure amoreagatik haren zerbitzeko balin diru kontant egiten badugu eta emanen diotzut marxandiza onak.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Mantenazezu emanez marxandiza onak.</p>
+<p><foreign><hi rend='Bold'>B. </hi></foreign>Ene marxandiza ona da eta loiala.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Ala oste eta zi&ntilde;esten dut.</p>
+<p><foreign><hi rend='Bold'>B. </hi></foreign>Ikuszada zure memorialea, iakin dezadanzat senbaten eske zauden.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Huna nun den nik behar dudanaren memoriua: Esko, larru, li&ntilde;oa, kobrea, burdi&ntilde;xoria, leton haria, tortitza, alzeiroa, eta illia.</p>
+<p><foreign><hi rend='Bold'>B. </hi></foreign>Horioz goziez fornitoko zitut.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Non kubratoko dugu ga&ntilde;erakoa?</p>
+<p><foreign><hi rend='Bold'>B. </hi></foreign>Galdezagu eta hikusagun zer falta duzun.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Mahatsa arnuak, taulak, berona, esta&ntilde;ua, telak, kamelotak, breiak.</p>
+<p><foreign><hi rend='Bold'>B. </hi></foreign>Gauza horiez goziez Iaunak bere botiga daoka ongi goarnitua.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Informa gaitien orai&ntilde; ethorri berri diren merzetari hetzaz iakiteko zer ekharri duten eta galdeinzazu ea nahi duten trukatu edo kanbiatu.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Minzatoko natzaie gaur onetan arratzeian astiro.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Goazen ikustera protugez, horiek ezen egin ekiteko ahal noke.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Ikusten dut han bat xotik dagoela.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Iauna erradazu flota etorria da edo arribatua.</p>
+<p><foreign><hi rend='Bold'>P. </hi></foreign>Haren begira gandez oren batetik berzera.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Zer ekarzen du onik.</p>
+<p><foreign><hi rend='Bold'>P. </hi></foreign>Gozietarik apro bana eta gehienik espezieria nola Asukrea, riza, Karesmoko frutua, salbo&ntilde;a, limoniak, larenjeak, oliuak, jinjenbrea, piperra, h[...], elzaura muskada eta berze marxandiza.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Zer balio du tonela baletako uri&ntilde;arena.</p>
+<p>Prezio gorean da alziatzeko iduriarekin abaizatzako ba&ntilde;o leen.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Nola hori?</p>
+<p><foreign><hi rend='Bold'>F. </hi></foreign>Despendioak eta prajak kostumak eta dretxuak dire hain handiak ezen estela prositu garabik.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Non ostatat[...] zure Se&ntilde;oria?</p>
+<p><foreign><hi rend='Bold'>P. </hi></foreign>Iakopinekin [...]dean karrikaxolan Kordeliereko zinean.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Zer trafiko [...]ten dute Italiano[...].</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Zedasko [...] aluna eta koto[...].</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Eta anglez [...] horiek?</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Illiasko oihalak, beruna eta esta&ntilde;ua.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Hetzas orai&ntilde;gotz iraganen gare hek gabe.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Iauna plazer duzu esxanjeko letra haur niri pagerazi.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Emanen derautzut berze bat asi&ntilde;atzionesko.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Zein da gizuna?</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Hara non den bere ohoresko bazaratekin.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Nahiago noke sankta krutz.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Iauna estakizula ahans niri ga&ntilde;arrakoa pagarazitzera.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Inportuna zara ene hitzas kontenta zaite.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Hitzak dire emeak eta obrak harrak.</p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>Solaza</hi></p>
+<p><hi rend='Bold'>bankeruaren eta Kurretearena</hi></p>
+<p><hi rend='Bold'>Kap. IIII.</hi></p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Iauna bai&ntilde; zure komoditate balis desiratzenuke zuri bi hitz erraitea.</p>
+<p><foreign><hi rend='Bold'>B. </hi></foreign>Zer galde egiten duzu?</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Iauna baduzu dirorik Liongotz depositean edo han emateko?</p>
+<p><foreign><hi rend='Bold'>B. </hi></foreign>Estut dirorik ez molzarik ba&ntilde;an norkoa da partida haur?</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Pierrez hiliag[...] Iaunarena.</p>
+<p><foreign><hi rend='Bold'>B. </hi></foreign>Maradika d[...] hura esk[...]du[...].</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Moienesko gizun eta [...].</p>
+<p><foreign><hi rend='Bold'>B. </hi></foreign>Edu nahi harekin egitakorik ezetare hura kalzatu zuen amarekin.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Gizun presto bat da.</p>
+<p><foreign><hi rend='Bold'>B. </hi></foreign>Hala da ba&ntilde;an hauzo gaistoa du.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Egia da fama gastoa duela.</p>
+<p><foreign><hi rend='Bold'>B. </hi></foreign>Utzagun den bezalakotzat mangoa da eta beldur nais eror dadin eta haus dadin berris.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Ezahutzen duzu?</p>
+<p><foreign><hi rend='Bold'>B. </hi></foreign>Bai ene galte handitan herri honetako da duelarikemastea, eta hogoi eta bors haur ba&ntilde;o gehiago.</p>
+<p><foreign><hi rend='Bold'>D. </hi></foreign>Hanbat gastoago estezula anzia kolpe batez pagatoko zitut.</p>
+<p><foreign><hi rend='Bold'>F. </hi></foreign>Ur beroz erre den poxuak beldur da epelarenzat.</p>
+<p><foreign><hi rend='Bold'>D. </hi></foreign>Aseguratzen zaitut ezen gizun aberatza dela eta aski unazun duela.</p>
+<p><foreign><hi rend='Bold'>B. </hi></foreign>Ha&ntilde;a aberatza da iainkoa baitan, bere biotza ematen duenik hagins dadioten bezala ze&ntilde;a eta gutti lurrean.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Bere aita utzi dio moien handiak Sibilean.</p>
+<p><foreign><hi rend='Bold'>B. </hi></foreign>Hori hetzas profitu ha&ntilde;is hiri honetan.</p>
+<p><foreign><hi rend='Bold'>F. </hi></foreign>Haren aita zen abarizios handi bat ba&ntilde;an semeak iaten tut gustiak.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Gauza gaski irabaziak estute sekulan etorzen finonik.</p>
+<p><foreign><hi rend='Bold'>B. </hi></foreign>Traktatzen du egiteko handietan eta ha&ntilde;is komisionetan.</p>
+<p><foreign><hi rend='Bold'>D. </hi></foreign>Nork sobera bezarkatzen baitu gutti hersten du.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Behin bazuen moien handiak.</p>
+<p><foreign><hi rend='Bold'>L. </hi></foreign>Ha&ntilde;is da on duenik zuhurzia gaberik ha&ntilde;is da izan duenik eta begiratu estuenik.</p>
+<p><foreign><hi rend='Bold'>D. </hi></foreign>Goardatzen iakitea esta gutiago irabastea ba&ntilde;o.</p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>Kanbioko kurreterez</hi></p>
+<p><foreign><hi rend='Bold'>Sol. C.D.</hi></foreign></p>
+<p><hi rend='Bold'>Kap IIIII.</hi></p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Iauna erradazu nola dabilla kanbioa.</p>
+<p><foreign><hi rend='Bold'>D. </hi></foreign>Molza egiaski zabala da ba&ntilde;an kornuadak bakhanak dire.</p>
+<p><foreign><hi rend='Bold'>S. </hi></foreign>Nola egin liteke hamar milia eskutu kobratzeko.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Gutun obaten nioienez Ioanis Iaunak zerbitzatoko zaitu ungi.</p>
+<p><foreign><hi rend='Bold'>S. </hi></foreign>Iainkoak begira dezala ene astoxua haren zekaletik eta ene mandua haren belharretik.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Konzienzesko gisona da, hark estu harzen ehuneko laurden bat baizen.</p>
+<p><foreign><hi rend='Bold'>S. </hi></foreign>Erradazu Iauna badirudi ezen iaunzi tuela Merkurarren speroniak.</p>
+<p><foreign><hi rend='Bold'>L. </hi></foreign>Zerk hartera du harenekiteko?</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Haren gaistotazun handia konzienziaren falta zuna eta leialta.</p>
+<p><foreign><hi rend='Bold'>L. </hi></foreign>Nor penzato zuken sekulan konsideratorik hark zuen kredit.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Momento batez aberastutzen.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Fite irabazi, eta emendatu fite despendatu.</p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>Sulaza Merkatarien Kuritzaleen eta mandatarienzat</hi></p>
+<p><hi rend='Bold'>Kap 6.</hi></p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Agur mandatari.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Iainkoak mantena saitzala.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Noitz ethorri zara?</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Bart harratzien berandu asko.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Sendorik ethorri zara?</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Bideak aski traballaturik eta hautsirik.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Badazu gutunik enetzat?</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Hara zer igorzen darotzun andrea ha&ntilde;isetan ikozi muzu egiten darantzularik.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Ungi dago.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Desiratzen du ha&ntilde;is zure ikustea.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Iainkoak otoitzten du hori sarri gerta dadillela; bada berze gutonik enetzat?</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Badut berze bi paket ene maletan zein utzi baitut ene ostatuan.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Non duzu ostatua eta non aurkitoko zaitute senbatean tatsatu dire?</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Ikusiko da ga&ntilde;eko eskripturan.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Mandatari onak meresi du ongi rekonpesatu izaitea.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Postean ethorri zara.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Kurreruen nauziarekin ethorri nais.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Noitz handik partitu zi&ntilde;en?</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Badu zortzi egun inguruan.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Zerari dire adiskidiak.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Batzuek usasona dute eta goranzi kastigatzen derautzote.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Iainkoak duzula grazia zarri ikusteko, egia da pierrez hil dela?</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Iainkoa plazer izatu du haren retiratzea.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Erradazu zerbait berririk.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Urrak korritzen du personak minzo dire eta aisia suflatzen du.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Esezazula zi&ntilde;etz mundo gostia, ezen gezurra erraten du nori minzatu zi&ntilde;en ene ahaidetarik partitu zi&ntilde;enean.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Minzatu nais zure aitari aitasori osabari anaiari uasemiari, gison gi&ntilde;erebari kusi&ntilde;ari ko&ntilde;atari suiari illobari aitabixiri eta zure ahaide guziei.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Egunen zare ora&ntilde;o hemen denbora ha&ntilde;itz.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Deliberatu ddut ioatera larunbatean iainkoak nahi badu entretzatzen banaute.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>O&ntilde;ez ala zamaz ala itsazoz ala leihorez zoaz?</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Ezin suportasaket abres ioatea.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Enbarka zaite aiziago ioanen zara.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Barkan edo onzian enbarkatzen dena estu beti denbura nahi duen bezala.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Minzatoko nais saitzue partitu ba&ntilde;o lehen.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Plazer baduzu deuzik alde hartarik ni nais zure zerbitzeko.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Otoi egiten derautzut ene letrak segurki helitzazun inportanei askoak dira.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Estuzula hartas ansia ba&ntilde;an ekhar dietzaduzu ahalik lasterrena.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Iadanik eskribatuak dire estute deus faltarik ga&ntilde;atik eskribatzea baizen.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Horra aistorrak zerratzeko eta kaxatatzeko.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Zenbat daduka hillunek?</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Guk dugu ene ustez askena.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Orroit zaite simoni erraitera ihardets badiezedan maizago egin duen ba&ntilde;o lehen denburan.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Estut faltatuko gisonaren fedez.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Nois esperanza duzu etorzeko?</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Sei asteren barrenean.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Baduzu konpa&ntilde;arik.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Hobea da bakarrik konpa&ntilde;a gaistuarekin ba&ntilde;o.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Iainkoak begira zaitzala eta gida.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Manatzen derautazu berze gauzarik.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Iainkoak dizula biajia una egiteko eta bihorzeko grazia.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Gure Iauna dela eta dagoela zurekin.</p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>Sulas propio eta nezesario, pizu komuneko jendei eta balatzalerei eta fastaxer</hi></p>
+<p><hi rend='Bold'>Kap. 7.</hi></p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Erraduzu anaia minzatzen zara kastillano.</p>
+<p><foreign><hi rend='Bold'>E. </hi></foreign>Zer galde du zure merzedeak?</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Nondik du aspizura.</p>
+<p><foreign><hi rend='Bold'>E. </hi></foreign>Goazen, gidatuko zaitut.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Zer ofizio duzu?</p>
+<p><foreign><hi rend='Bold'>E. </hi></foreign>Enbaladorea nais zure serbitzeko.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Egiaski zure bearnais zato enekin, eta nik irabaziraziko derautzut diru apro bat.</p>
+<p><foreign><hi rend='Bold'>E. </hi></foreign>Kornaengatik poxua dansatzen du.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Baduzu astirik?</p>
+<p><foreign><hi rend='Bold'>E. </hi></foreign>Portugez batek bilha egorri zerautan zerbaiten balatzera nindohangola ba&ntilde;an enelagona ioanen da.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Egizu ahalik eta dilijenzia lasterena piza dezatela hogoi eta borsesko opil.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Estakizula ahans rebatitzera, tara eta pizatu direnean ekar ditzante gure zotora.</p>
+<p><foreign><hi rend='Bold'>E. </hi></foreign>Pizua esta idekia.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Zer orenetan idekitzen dute?</p>
+<p><foreign><hi rend='Bold'>E. </hi></foreign>Goizean zorzietan eta baraskalonduan bi orenetan.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Mira dezagun nola egi&ntilde;en dugun guziek randatzeko ene dendan.</p>
+<p><foreign><hi rend='Bold'>E. </hi></foreign>Azaiatoko gure laster aurkitzera zanbait faistaitz edo itzain.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Pagatzen dute zenbait gabela piaje edo kostuma.</p>
+<p><foreign><hi rend='Bold'>E. </hi></foreign>Harzen dute ehun real bat.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Horrek iragaiten du arrazu&ntilde;aren limitak.</p>
+<p><foreign><hi rend='Bold'>E. </hi></foreign>Erre&ntilde;eren borundatea edugiten dute legetzat.</p>
+<p><foreign><hi rend='Bold'>E. </hi></foreign>Pagatu behar du kargatu ba&ntilde;o lehen kalterik ez izaiteko.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Baita ba&ntilde;en kexa zaite ongi gustien paketatzeas ezen gaur enbarkatu behar dugu.</p>
+<p><foreign><hi rend='Bold'>E. </hi></foreign>Zure marxandiza izanen da hain ongi enbalatua nun espaitu perillik bustitzeko.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Zure baitan fidatzen nais.</p>
+<p><foreign><hi rend='Bold'>E. </hi></foreign>Iauna, gustiak enbalatu dugu eta lagundu enbarkatzera.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Ea bada esta berze faltarik zure pagatzea baitzen.</p>
+<p><foreign><hi rend='Bold'>E. </hi></foreign>Hori errais da.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Zenbat behar duzu hanbat pagatu duzun aren nola zure penaren?</p>
+<p><foreign><hi rend='Bold'>E. </hi></foreign>Guziez montatzen dute laur hogoi real.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Horra zuretzat.</p>
+<p><foreign><hi rend='Bold'>E. </hi></foreign>Esta aski.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Iainkoa baitan konfianza duena egun obe bat izanen du.</p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>Prepauzak</hi></p>
+<p><hi rend='Bold'>nezesarioak faktoren eta diruaren rezebizallaren, egitekoak idugiten itustenenzat</hi></p>
+<p><hi rend='Bold'>Kap. 8.</hi></p>
+<p><foreign><hi rend='Bold'>FRAN. IOANIS M. &amp; V.</hi></foreign></p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Erradazu plazer baduzu posible lizateke minza nainde fakturari ekin.</p>
+<p><foreign><hi rend='Bold'>F. </hi></foreign>Esta hemen nik dakidela ba&ntilde;an zoaz kontadurera eta galdegizu han denez.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Erran deraute estela han.</p>
+<p><foreign><hi rend='Bold'>F. </hi></foreign>Zato zea nik irakoziko derautzut harengela.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Remerziatsen derautzu.</p>
+<p><foreign><hi rend='Bold'>F. </hi></foreign>Izan zazu eskaler horiek eta butazezu lehenbiziko atea.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Io dut atea eta oihu ekin dut hiruretan eta nihor ez teraut ihardezi.</p>
+<p><foreign><hi rend='Bold'>F. </hi></foreign>Uste dut ilki izanen dela.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Hori faxuizada hemen hain mais etorzea hura aurgitu gabe.</p>
+<p><foreign><hi rend='Bold'>F. </hi></foreign>Segurago izaiteko zato egu erdian edo gois handian.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Banoa ea eldo nais komunki eta behinere ezin aurki desaket.</p>
+<p><foreign><hi rend='Bold'>F. </hi></foreign>Falta da ez paitzura etorzen denboran.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Badagizu norat ioan den eta non aurki nesaken.</p>
+<p><foreign><hi rend='Bold'>F. </hi></foreign>Ene fedez estakit.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Ioanen nais ea aurki dezaken.</p>
+<p><foreign><hi rend='Bold'>F. </hi></foreign>Nahi duzu zerbait erran dezadan.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Harekin minzatu behar dut.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Nor aditzen dut nik han adzinean?</p>
+<p><foreign><hi rend='Bold'>F. </hi></foreign>Gizun gaste bat faktoraren gaidez dagoena.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Zar dadilla eta ikus dezadan.</p>
+<p><foreign><hi rend='Bold'>F. </hi></foreign>Minza zate iaunarekin.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Nor zara, adiskidea?</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Zure serbitzaria eta pierrezen mo[tilla].</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Zer galde egiten duzu?</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Ha&ntilde;itz desiratzen dut zure fakturarekin minzatzea.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Pasajia zaite molzara&ntilde;o.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Suplikatu nahi zintuske haren manatzea ene aresta konda desala.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Zi&ntilde;isten noen pagato zi&ntilde;ala.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Eman darot diru arin eta debekatorik zein behurtu diotzat.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Zure nauziaren amoreagatik manatoko dut paga zaitzala.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Obligatu idukiko nauzu.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Zoaz ordunarekin.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Nois etorriko nmais zure etxera bors ehun eskutu zein sor baikeituzuengatik.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Estut uste hai&ntilde;berze zor seitudela.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Mihia gesur erraten badu letra ezin hutzik daidike.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Olio eta egia ga&ntilde;a dadukate.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Hara zure eskriptura orai&ntilde; zi&ntilde;asten nauzu.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Begis ikusten dena gogos zi&ntilde;ezten du badarikan oste dut berzei pagatu itudela.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Pierrez zor duenak eta franzezi pagat zenduela berris pagatzen du.</p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>Erretatzale eta rezebidorearekinzat</hi></p>
+<p><hi rend='Bold'>Kap. 9.</hi></p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Non zara, rezebidorea?</p>
+<p><foreign><hi rend='Bold'>R. </hi></foreign>Ni nais hemen kontatzen eta pizatzen dodela diru haur.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Una eta pisoskoa da.</p>
+<p><foreign><hi rend='Bold'>R. </hi></foreign>Gehiago balis obe lizateke.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Zer puntuan da kofrea edo kaisa?</p>
+<p><foreign><hi rend='Bold'>R. </hi></foreign>Hutza eta deusgabea.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Zergatik ez zara asagiatzen ene harzekoak kobratzera rentak eta arkillak ene zordunekin ganik ezen nik egin behar duden pagamenduen denbura urbiltzen da.</p>
+<p><foreign><hi rend='Bold'>R. </hi></foreign>Balin pena harzen badut zure sordun solizitatzeas estute hek pena gotiago pagatzeas.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Nola hori?</p>
+<p><foreign><hi rend='Bold'>R. </hi></foreign>Batzuek estute eta berze dutenek estute nahi molzatik atraru.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Adiurnerazi zazu edo prison deguian eserrierasi zazu eta remedio aurkitoko dute ene pagatzea.</p>
+<p><foreign><hi rend='Bold'>R. </hi></foreign>Ezen bilduzi dena bilduzakete eta ez etare harria larrotzea.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Prokura desatela izaitera.</p>
+<p><foreign><hi rend='Bold'>R. </hi></foreign>Mehaxatzen naute xikanatzeas.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Mehaxatoek ora&ntilde;o jaten dute ogia.</p>
+<p><foreign><hi rend='Bold'>D. </hi></foreign>Gehiago da mehaxatu direnetarik zehatu direnetarik ba&ntilde;o.</p>
+<p><foreign><hi rend='Bold'>R. </hi></foreign>Berzerik estut egiten eta estut a&ntilde;is probexatzen.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Nahi duzu gitiek kita dezedan.</p>
+<p><foreign><hi rend='Bold'>R. </hi></foreign>Parte gehienetarik estire solbableak.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Zer diote brabuak egiten dire ha&ntilde;is.</p>
+<p><foreign><hi rend='Bold'>R. </hi></foreign>Hiz unak ematen derautzte.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Hitz unak eta egin gaistuak enganatzen dute suhur eta erro perfetuak.</p>
+<p><foreign><hi rend='Bold'>R. </hi></foreign>Deusik esten lekonan, erregek bere zusenbidea galzen du.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Balin ezin baduzu idikoa harzazu kontu onean larrua.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Pagatzale gaistoaganik lastua pagamenduen aldera.</p>
+<p><foreign><hi rend='Bold'>R. </hi></foreign>Badire batzuek trenarik ez platik esakurik eztutenik.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Zoaz eta egizu dilijenzia handia.</p>
+<p><foreign><hi rend='Bold'>R. </hi></foreign>Bada jauna orroitzen zara nitzas.</p>
+<p><foreign><hi rend='Bold'>D. </hi></foreign>Bai ungi ikusten zeitudanean.</p>
+<p><foreign><hi rend='Bold'>R. </hi></foreign>Kontatuko derautazu dirua.</p>
+<p><foreign><hi rend='Bold'>D. </hi></foreign>Gauza kruela da aflijeatzea aflijiatu dena.</p>
+<p><foreign><hi rend='Bold'>R. </hi></foreign>Lure brua gaiski aurkitzen duzu.</p>
+<p><foreign><hi rend='Bold'>D. </hi></foreign>Obeki minzateke balin hemendik aparta bazi&ntilde;eza fitez.</p>
+<p><foreign><hi rend='Bold'>R. </hi></foreign>Nois pagatoko nauzu?</p>
+<p><foreign><hi rend='Bold'>D. </hi></foreign>Borondatea ona da ba&ntilde;an ahala flakua da.</p>
+<p><foreign><hi rend='Bold'>R. </hi></foreign>Nois nahi duzu bihur nadin?</p>
+<p><foreign><hi rend='Bold'>D. </hi></foreign>Zure komoditatean eta denbura dudanean.</p>
+<p><foreign><hi rend='Bold'>R. </hi></foreign>Denbora expiratua da idazu ehun eskutu kontua onean.</p>
+<p><foreign><hi rend='Bold'>D. </hi></foreign>Nihor ezin eman dezakle estuena.</p>
+<p><foreign><hi rend='Bold'>R. </hi></foreign>Baduzu ongi.</p>
+<p><foreign><hi rend='Bold'>D. </hi></foreign>Arnegatzen dut mahom eta despitatzen dut balin badut malhik espitarik ba&ntilde;a igurikazu eta kontent izanen zara.</p>
+<p><foreign><hi rend='Bold'>R. </hi></foreign>Hitzak eta lomak aisiak eramaten du.</p>
+<p><foreign><hi rend='Bold'>V. </hi></foreign>Iauna otoi egiten derautzut konterazi iazadazu ehun eskutu zein nauziak prestatu derautzu.</p>
+<p><foreign><hi rend='Bold'>L. </hi></foreign>Estesazula anzia pagatoko zeitut.</p>
+<p><foreign><hi rend='Bold'>R. </hi></foreign>Ene nabuzia asarratoko da erraten duelarik alfer nais zela aren sor donei minzatzeas.</p>
+<p><foreign><hi rend='Bold'>L. </hi></foreign>Minzatoko nais harekin eta erranen diot zure desenkusa.</p>
+<p><foreign><hi rend='Bold'>R. </hi></foreign>Esnais auzartoko bihurzera hutzak.</p>
+<p><foreign><hi rend='Bold'>L. </hi></foreign>Retiraizaite nahi baduzu ezen ora&ntilde; okupatu nais.</p>
+<p><foreign><hi rend='Bold'>R. </hi></foreign>Adzi&ntilde;era begiratzen estoena gibelitik gelditzen da.</p>
+<p><foreign><hi rend='Bold'>R. </hi></foreign>Eta zu gizun prestua nois izanen da?</p>
+<p><foreign><hi rend='Bold'>B. </hi></foreign>Falxu zara ura itaizuran bezala.</p>
+<p><foreign><hi rend='Bold'>R. </hi></foreign>Mandataria esteramarza ez penarik ez dolorerik.</p>
+<p><foreign><hi rend='Bold'>B. </hi></foreign>Berris zatoske berze egun batez pagatoko zaitut.</p>
+<p><foreign><hi rend='Bold'>R. </hi></foreign>Nahuke ikusi dio itsua.</p>
+<p><foreign><hi rend='Bold'>B. </hi></foreign>Fedea konzistatzen du zi&ntilde;astean eta ez ikustean.</p>
+<p><foreign><hi rend='Bold'>R. </hi></foreign>Estezazula geiago uza delays ezen denbura da paga dezazun.</p>
+<p><foreign><hi rend='Bold'>B. </hi></foreign>Nezesitatea estu erregerik eta ez legerik ba&ntilde;an igurizazu amabors egun eta pagatoko zaitut interresarekin.</p>
+<p><foreign><hi rend='Bold'>R. </hi></foreign>Esaitut gehiago zi&ntilde;esten.</p>
+<p><foreign><hi rend='Bold'>B. </hi></foreign>Ezara neure fedez kontentatzen.</p>
+<p><foreign><hi rend='Bold'>R. </hi></foreign>Fedea obra gabe hilla da.</p>
+<p><foreign><hi rend='Bold'>B. </hi></foreign>Prometatzen darautzut nik ekarzen duden bisaras pagatoko zaitudela.</p>
+<p><foreign><hi rend='Bold'>R. </hi></foreign>Iuramentuak proprioki da gesurti baten arma.</p>
+<p><foreign><hi rend='Bold'>B. </hi></foreign>Estuzu zi&ntilde;ezten egia.</p>
+<p><foreign><hi rend='Bold'>R. </hi></foreign>Gezortia egia erraitean estu kreditik ez autoritaterik.</p>
+<p><foreign><hi rend='Bold'>B. </hi></foreign>Plazer egiten duena plazeren begira dago.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Esko batek berzia garbitzen du.</p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>Tratatzeko oihal seri koskoren, merkatari ekin merzeronak xapelgiliak kapelugiliak eta berzia denda duenag</hi></p>
+<p><hi rend='Bold'>Kap. 10.</hi></p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Iainkoa trugatzula Iauna.</p>
+<p><foreign><hi rend='Bold'>S. </hi></foreign>Zeren galdez dago Iauna?</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Begira nago zure denda hain ongi garnitua eta probeditua merzerias.</p>
+<p><foreign><hi rend='Bold'>S. </hi></foreign>Behar baduzu zerbiat sornitoko seitut marxandizas ha&ntilde;ona nola nior aurki lesaken.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Merke egiten baderautazu etorriko nais maizago.</p>
+<p><foreign><hi rend='Bold'>S. </hi></foreign>Zure Se&ntilde;oria aurkitoko nau labur hisketan.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Ea bada zeren hitz luziek egiten tuste egun laburrak mirasegun zer duzun ea akorda gi&ntilde;eteske prezins.</p>
+<p><foreign><hi rend='Bold'>S. </hi></foreign>Hara belueta renforzatua illia eterdisko kramoisitua, damasa, kamalota, arraxa, Brugesko sati&ntilde;a, tasetana, orresko telak, sillaresko telak, sedak, eskarlata, oresko haria.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Zer duzu soku hortan?</p>
+<p><foreign><hi rend='Bold'>S. </hi></foreign>Kapelua garnituak, xapelak, butaniak, eskolarrua perfumatuak, gerrikoak, kalzerdilokariak.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Baduzu berzierik?</p>
+<p><foreign><hi rend='Bold'>S. </hi></foreign>Perlak, errestonak, diamantak, rubiak, esmeraudak, orrosko gateak.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Nahi darautazu kredit egin bihur nadin ehun eskutuena zure merziriatik?</p>
+<p><foreign><hi rend='Bold'>S. </hi></foreign>Plejearik edo dirurik estoenak esta billatu merkatariaganik.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Zergatik estuzu fidatu nahi ene baitan?</p>
+<p><foreign><hi rend='Bold'>S. </hi></foreign>Iainkoa begira nazala, nik fidatzen naizenaren ganik, ezen begiratoko nais fidatzen ez naizenarenaganik.</p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>Erresteko eta salzeko ilisko yohalak</hi></p>
+<p><hi rend='Bold'>Kap. 11.</hi></p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Zer egiten dute Iauna oihalzalea.</p>
+<p><foreign><hi rend='Bold'>D. </hi></foreign>Kontenplatzen dut benizesko eskarlata honen edertazuna eta fintazuna.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Ezagutzen estuenak estu presatzen.</p>
+<p><foreign><hi rend='Bold'>E. </hi></foreign>Ungi tramatua da ehoa eta tintatua.</p>
+<p><foreign><hi rend='Bold'>D. </hi></foreign>Estu taxa garabik una dena baisen.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Unik asko duela peleri&ntilde;a bere burdu&ntilde;a ungi prezatzen duena.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Zer berze zihal taillu duzu prezio beheresko moienesko eta goresko zabaltazun fintazun eta baliotazun goziezko eta a&ntilde;on nior erran lesaken bezain.</p>
+<p><foreign><hi rend='Bold'>H. </hi></foreign>Zure merzedea zar dadilla dendan sarziak eta ikostiak ezaitzula kostatoko deuzik.</p>
+<p><foreign><hi rend='Bold'>D. </hi></foreign>Zer prezioko nahi duzu?</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Nior ezin prezia dezake izuzi estuena.</p>
+<p><foreign><hi rend='Bold'>D. </hi></foreign>Kolore eta kalitate honesko badut iakitera xuri bels edo bruna, gorri, horia, more, ferde, inkarnatua, grisa, tanatua, laranjiatua, estameta, baieta, Florenzeko raxa, frisa, <foreign>&amp;c</foreign>. Sabala, hersia, laburra, lusia.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Zein kolore estimatzen duzu hoberena?</p>
+<p><foreign><hi rend='Bold'>D. </hi></foreign>Iainkoaren ga&ntilde;en esta jaunik esetare belzaren ga&ntilde;en berze kolorerik.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Baduzu zenbait oihal Angleterragorik?</p>
+<p><foreign><hi rend='Bold'>D. </hi></foreign>Herri honetako oberena.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Nai nuke pesa bat osua.</p>
+<p><foreign><hi rend='Bold'>D. </hi></foreign>Arzazu haur ene hitzaren ga&ntilde;en.</p>
+<p><foreign><hi rend='Bold'>H. </hi></foreign>Hara monstra.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Zenbat nahi duzu?</p>
+<p><foreign><hi rend='Bold'>D. </hi></foreign>Ehun lebera eterdi.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Zenbat berga dauka?</p>
+<p><foreign><hi rend='Bold'>D. </hi></foreign>Hogoi eta hamalaur guti gora behera.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Zenbatean etorriko da berga bakoitza?</p>
+<p><foreign><hi rend='Bold'>D. </hi></foreign>Egi&ntilde;en dugu kontua.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Estizadazula karestia egisal.</p>
+<p><foreign><hi rend='Bold'>D. </hi></foreign>Moiena badut zuri emaiteko hain merke nola merkatari garabik.</p>
+<p><foreign><hi rend='Bold'>F. </hi></foreign>Merkatu una atratzen du molzetik dirua, eta merkatariak erakarzen du deudara.</p>
+<p><foreign><hi rend='Bold'>D. </hi></foreign>Zerbait eskein iazadazu.</p>
+<p><foreign><hi rend='Bold'>N. </hi></foreign>Galdatzea esta bilania eta eskeinzea da kurtezia.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Nik ekarzen dudena gutiago kosta da.</p>
+<p><foreign><hi rend='Bold'>D. </hi></foreign>Erosten duena eta gezur erraten duena bere molzak sentitzendu.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Karestia zara eta xixa.</p>
+<p><foreign><hi rend='Bold'>F. </hi></foreign>Gizun xixa gotietan da aberatza.</p>
+<p><foreign><hi rend='Bold'>D. </hi></foreign>Adizazu zu enganatu gabe gustia nahi duena gustia galzen du, irabazi behar da zerbait.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Izanen duzu laurhogoi libera piezaagatik.</p>
+<p><foreign><hi rend='Bold'>D. </hi></foreign>Ungi ninduake zuri emaiteas niri kostazenitan banio gotiagotan.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Arrazu&ntilde;az kontenta zeite badagigu ezen oihalak duazela errabaxatons.</p>
+<p><foreign><hi rend='Bold'>D. </hi></foreign>Alxatzen dire eta karestiatzen gerotik gerora.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Eman zigoazake nahi bazindu ni eskeindu derautzunagatik.</p>
+<p><foreign><hi rend='Bold'>D. </hi></foreign>Estuzu izanen pita bat gutiagotan ezen estut irabasten kornadu bat eta ezin kaltetan eman desake.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Denbura bat zuetan eta leko batzuetan galzea eta emaiten pro &amp; xoada.</p>
+<p><foreign><hi rend='Bold'>D. </hi></foreign>Astuak ekarzen du mahatz arnua eta edaten du ura.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Badirudi errea gaiski fintatua eta gaski tonditua.</p>
+<p><foreign><hi rend='Bold'>D. </hi></foreign>Tintura bizia da illia hantatoa eta trama ha&ntilde;is una.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Nahi duzu ehun sos gehiago?</p>
+<p><foreign><hi rend='Bold'>D. </hi></foreign>Jendeaz mokiatzen zara.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Neurriazadazu resta haur.</p>
+<p><foreign><hi rend='Bold'>D. </hi></foreign>Lehen prezios akorda geitian.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Gauza aizita da erreko&ntilde;aisko jendearekin akordatzea.</p>
+<p><foreign><hi rend='Bold'>D. </hi></foreign>Badaduka hamasei berga eta laurden.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Begia ikusten duena bihotzak zi&ntilde;esten du.</p>
+<p><foreign><hi rend='Bold'>F. </hi></foreign>Neur dezagun berris.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Obar da neurzea pikatzea urrikitzea eta geldirik egoitea ba&ntilde;o ba&ntilde;en zu zer neurri egi&ntilde;en duzu alaber egi&ntilde;en saitzu.</p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>Dendariaren debizua</hi></p>
+<p><hi rend='Bold'>Kap. 12.</hi></p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Zer ari zara, nabuzia?</p>
+<p><foreign><hi rend='Bold'>B. </hi></foreign>Traballatzen dut zahartzonarenzat.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Gertus ongi ari zara ezen gastetazuna alferra zahartazuna nezesitazua da.</p>
+<p><foreign><hi rend='Bold'>D. </hi></foreign>Ogi garrabik da nekatu gaberik.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Zer bestimenduak iruzu?</p>
+<p><foreign><hi rend='Bold'>E. </hi></foreign>Mantelak, kazaka, jipo&ntilde;a, saia.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Nahi noke har baziniesa mantua edo kapa baten neurria.</p>
+<p><foreign><hi rend='Bold'>B. </hi></foreign>Manatoko nauzona egitera prest nais.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Zer portaia da orai&ntilde;o komuna?</p>
+<p><foreign><hi rend='Bold'>B. </hi></foreign>Zabelaldi bateko zaspi haurrek bat bedera diferenta d borundatean.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Beroki bestitu balin banais irri egiten badarante estut axolik.</p>
+<p><foreign><hi rend='Bold'>B. </hi></foreign>Estuzu nahi ere kazaka bat?</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Baita oihal beretik ba&ntilde;a pleko gaberik eta maho kaberik egizu abizatoko duzun bezala eta estesazula ahans zarpa bat egiteko.</p>
+<p><foreign><hi rend='Bold'>B. </hi></foreign>Igoria zaduzu estosak bereala.</p>
+<p><foreign><hi rend='Bold'>A. </hi></foreign>Zer behar duzu?</p>
+<p><foreign><hi rend='Bold'>B. </hi></foreign>Satin ebakia, tela lodi, tela fina, seda belzia, botoniak, koto&ntilde;a, kroxetak, furradurak, fustania.</p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>Sapatagi&ntilde;aren debiso</hi></p>
+<p><hi rend='Bold'>Kap. 13.</hi></p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Zer ari zara konpai, lo egiten duzu ala geldirik saude?</p>
+<p><foreign><hi rend='Bold'>F. </hi></foreign>Obea da geldirik egoitea gaski egitea ba&ntilde;u.</p>
+<p><foreign><hi rend='Bold'>G. </hi></foreign>Ongi pauzatu nahi duena ha&ntilde;is traballatu behar du.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Egin duzu ene sapatak.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Hasten duenak egiten estu akabatu.</p>
+<p><foreign><hi rend='Bold'>D. </hi></foreign>Ungi hazi dena erdi eginda edo akabatua.</p>
+<p><foreign><hi rend='Bold'>G. </hi></foreign>Nois egi&ntilde;en dire ne botak?</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Orko&ntilde;aren ga&ntilde;ean daudez.</p>
+<p><foreign><hi rend='Bold'>G. </hi></foreign>Zergatik estozu akabatzen ene sapatak?</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Erroma ezen horen batez akabatu.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Ikusten du den bezala estuzu bolontate handia traballatzeko.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Ruinatzen nais iostean eta triballatzean dohagik eta probetxo gaberik.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Hire bizia irabasten estuen ofizios zarri apartadi eta harzas expediari.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Hainbat onhatu nago ezen seda bat ba&ntilde;o gotiagoagatik emanoke estena eta bikia surtan.</p>
+<p><foreign><hi rend='Bold'>G. </hi></foreign>Traballazazu saxatu gabe irabazi behar duzu zure famillarenzat.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Desplazer dut aditzea ezen egun orez urditzen zerala eta irabazi bezain fite despendatu hain fite.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Irakazi estonena mandua minzatzera nekez irakaziko du ixilik egoitia.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Baduzu korduana onik eta lustratorik niri egiteko kolet bat.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Ha&ntilde;is una eta ungi apeindua.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Har gezadazu neurria.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Estuzula ania arzas.</p>
+<p><foreign><hi rend='Bold'>P. </hi></foreign>Eta andrearen mantustak.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Hain kexada ezin dagoela bihar artean.</p>
+<p><foreign><hi rend='Bold'>P. </hi></foreign>Egoitea turmentatzen du.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Inportanza guti den lekuan badagoke pazienziarekin.</p>
+<p><foreign><hi rend='Bold'>P. </hi></foreign>Pena handia du harat hunat da biliena beti alferrik.</p>
+<p><foreign><hi rend='Bold'>C. </hi></foreign>Zoaz pasagiatzera ez nezezala enpaxa.</p>
+<p><foreign><hi rend='Bold'>P. </hi></foreign>Urariari gastuari gauza apurrak enpaxatzen du.</p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>Mandatu baten egiteko</hi></p>
+<p><hi rend='Bold'>Kap. 14.</hi></p>
+<p>Nauziak motiliak. Bertrand bruneta.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Non ais mutilla.</p>
+<p><foreign><hi rend='Bold'>S. </hi></foreign>Zer atzegin duzu Iauna?</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Harzak bilhet haur eta ua ene partez konbidatzera haren barnean aurkitoko duen guziekenzat kapelua, ahanzi gabe egitea itzazo bete erreberenziaz oha hegaladi eta bihuradi.</p>
+<p><foreign><hi rend='Bold'>S. </hi></foreign>Ezin aurki dezaket neure eskularruak eta ezin iuan hek gabe.</p>
+<p><foreign><hi rend='Bold'>M. </hi></foreign>Harzak enetarig bata eta faltadi.</p>
+<p><foreign><hi rend='Bold'>B. </hi></foreign>He la norat ua?</p>
+<p><foreign><hi rend='Bold'>S. </hi></foreign>Mandatu baten egitera nua.</p>
+<p><foreign><hi rend='Bold'>B. </hi></foreign>Nola ua hain laster igurikak banua hirekin.</p>
+<p><foreign><hi rend='Bold'>S. </hi></foreign>Ezin geldi naiteke.</p>
+<p><foreign><hi rend='Bold'>B. </hi></foreign>Ekarzen duk zenbait gutun?</p>
+<p><foreign><hi rend='Bold'>S. </hi></foreign>Zer axola dukik?</p>
+<p><foreign><hi rend='Bold'>B. </hi></foreign>Erradak othoi egiten derabat, norat ua?</p>
+<p><foreign><hi rend='Bold'>S. </hi></foreign>Badagik pierrez Iaunaren etxea.</p>
+<p><foreign><hi rend='Bold'>B. </hi></foreign>Hara non den mairu xutik dagena haren atzi&ntilde;ean, iozak.</p>
+<p><foreign><hi rend='Bold'>N. </hi></foreign>Nor da hor?</p>
+<p><foreign><hi rend='Bold'>S. </hi></foreign>Adiskiderik idekazu bustitzen nais.</p>
+<p><foreign><hi rend='Bold'>N. </hi></foreign>Nor zara zu zer galdatzen duzu?</p>
+<p><foreign><hi rend='Bold'>S. </hi></foreign>Iauna enpaxatua da edo akonpa&ntilde;atua da nahi nuke harekin minzatu.</p>
+<p><foreign><hi rend='Bold'>N. </hi></foreign>Nola duzu izena eta nondik heldu zara?</p>
+<p><foreign><hi rend='Bold'>S. </hi></foreign>Ezin adi aiziaagatik.</p>
+<p><foreign><hi rend='Bold'>N. </hi></foreign>Nor erranen dut haren galdez dagoela?</p>
+<p><foreign><hi rend='Bold'>S. </hi></foreign>Iauna ez nau ezagotzen.</p>
+<p><foreign><hi rend='Bold'>N. </hi></foreign>Norekin egoiten zara?</p>
+<p><foreign><hi rend='Bold'>S. </hi></foreign>Pierrez Iaunaren motilla naiz.</p>
+<p><foreign><hi rend='Bold'>N. </hi></foreign>Igurikazu.</p>
+<p><foreign><hi rend='Bold'>I. </hi></foreign>Nor do hor?</p>
+<p><foreign><hi rend='Bold'>S. </hi></foreign>Iainkoatrogatzula, Iauna.</p>
+<p><foreign><hi rend='Bold'>I. </hi></foreign>Ongitorri.</p>
+<p><foreign><hi rend='Bold'>S. </hi></foreign>Pierrez Iauna ene nabuzia zure se&ntilde;oriaren eskuei muzu egiten du, otoitz egiten darautzu hain berze ohore egin diesazun haren etxera etor zeitezen baraskari haren harzera.</p>
+<p><foreign><hi rend='Bold'>I. </hi></foreign>Nola dago zure nauzi Iauna?</p>
+<p><foreign><hi rend='Bold'>S. </hi></foreign>Ungi eta zure untazunaren desiratzen dena eta afektionatua zuri serbizio egitera.</p>
+<p><foreign><hi rend='Bold'>I. </hi></foreign>Errozu ni naizela beti prest haren zerbizeko eta remerziatzen dudela ezen aldi honetako exkuza nazala.</p>
+<p><foreign><hi rend='Bold'>S. </hi></foreign>Zer atzein duzu bada ni manatu?</p>
+<p><foreign><hi rend='Bold'>I. </hi></foreign>Zonaz iainkoaren goardian eta errozu zure nauzi eta Iaunari ezen ni naizela harena.</p>
+        </body>
+      </text>
+    </group>
+  </text>
+</TEI.2>
+

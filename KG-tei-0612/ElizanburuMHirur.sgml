@@ -1,0 +1,959 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN"
+                       "http://www.tei-c.org/P4X/DTD/tei2.dtd" [
+   <!ENTITY % TEI.prose    'INCLUDE' >
+   <!ENTITY % TEI.linking  'INCLUDE' >
+   <!ENTITY % TEI.analysis 'INCLUDE' >
+   <!ENTITY % TEI.figures  'INCLUDE' >
+   <!ENTITY % TEI.XML      'INCLUDE' >
+   <!ENTITY % TEI.extensions.ent SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.ent' >
+   <!ENTITY % TEI.extensions.dtd SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.dtd' >
+]>
+<TEI.2>
+  <teiHeader>
+  <fileDesc>
+     <titleStmt>
+        <title>Frantziako hirur errepubliken ixtorioa laburzki</title>
+        <author>Mixel Elizanburu</author>
+        <respStmt>Ez dauka</respStmt>
+     </titleStmt>
+     <extent>21.873 hitz, 162.984 karaktere</extent>
+     <publicationStmt>
+        <publisher>Klasikoen Gordailua [http://klasikoak.armiarma.com/]</publisher>
+        <distributor>Estrata Liburuak S.L.</distributor>
+        <address type='email'>klasikoak@armiarma.com</address>
+        <idno type='ota'>ElizanburuMHirur</idno>
+        <availability status='free'>Erabilpen librekoa; honoko helbidean topa daiteke (HTML, RTF eta PDF formatuetan): http://klasikoak.armiarma.com/idazlanak/E/ElizanburuMHirur.htm</availability>
+        <date>2006</date>
+     </publicationStmt>
+     <sourceDesc>
+        <bibl>Iturria: Frantziako hirur errepubliken ixtorio laburzki, Michel Elissamburu (Gabriel Fraileren edizioa). Euskal Editoreen Elkartea, 1987</bibl>
+        <notesStmt><note>Iturburuen datazioa: 1890</note></notesStmt>
+     </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+     <projectDesc>Euskal literaturako testu klasikoen bilduma da KLASIKOEN GORDAILUA; testu hau berorren parte da</projectDesc>
+     <refsDecl>
+        <p>MENTIONED etiketa egilearenak ez diren hitzak markatzeko erabili da: hitzaurreak, aipuak, iruzkinak, e.a.</p>
+    </refsDecl>
+     <classDecl>
+        <taxonomy id='generoa'>
+            <category id='G-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='G-ANT'><catDesc>Antzerkia</catDesc></category>
+            <category id='G-BER'><catDesc>Bertsoak</catDesc></category>
+            <category id='G-ERL'><catDesc>Erlijioa</catDesc></category>
+            <category id='G-NAR'><catDesc>Narratiba</catDesc></category>
+            <category id='G-POE'><catDesc>Poesia</catDesc></category>
+            <category id='G-SAI'><catDesc>Saiakera, kronika, artikuluak...</catDesc></category>
+        </taxonomy>
+        <taxonomy id='garaia'>
+            <category id='M-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='M-16'><catDesc>XVI. mendea</catDesc></category>
+            <category id='M-17-1'><catDesc>XVII. mendea - 1. erdia</catDesc></category>
+            <category id='M-17-2'><catDesc>XVII. mendea - 2. erdia</catDesc></category>
+            <category id='M-18-1'><catDesc>XVIII. mendea - 1. erdia</catDesc></category>
+            <category id='M-18-2'><catDesc>XVIII. mendea - 2. erdia</catDesc></category>
+            <category id='M-19-1'><catDesc>XIX. mendea - 1. erdia</catDesc></category>
+            <category id='M-19-2'><catDesc>XIX. mendea - 2. erdia</catDesc></category>
+            <category id='M-20-1'><catDesc>XX. mendea - 1. erdia</catDesc></category>
+            <category id='M-20-2'><catDesc>XX. mendea - 2. erdia</catDesc></category>
+        </taxonomy>
+        <taxonomy id='euskalkia'>
+            <category id='E-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='E-BAT'><catDesc>batua</catDesc></category>
+            <category id='E-BIZ'><catDesc>bizkaiera</catDesc></category>
+            <category id='E-BNA'><catDesc>behenafarrera</catDesc></category>
+            <category id='E-ERR'><catDesc>erronkariera</catDesc></category>
+            <category id='E-GIP'><catDesc>gipuzkera</catDesc></category>
+            <category id='E-GNA'><catDesc>goi nafarrera</catDesc></category>
+            <category id='E-LAP'><catDesc>lapurtera</catDesc></category>
+            <category id='E-NAF'><catDesc>nafarrera</catDesc></category>
+            <category id='E-ZAR'><catDesc>zaraitzuera</catDesc></category>
+            <category id='E-ZUB'><catDesc>zuberera</catDesc></category>
+        </taxonomy>
+    </classDecl>
+  </encodingDesc>
+  <profileDesc>
+     <textClass>
+       <keywords scheme='generoa'>
+         <list><item>G-SAI</item></list>
+       </keywords>
+       <keywords scheme='garaia'>
+         <list><item>M-19-2</item></list>
+       </keywords>
+       <keywords scheme='euskalkia'>
+         <list><item>E-LAP</item></list>
+       </keywords>
+     </textClass>
+  </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>Frantziako hirur errepubliken ixtorioa laburzki -- Mixel Elizanburu</docTitle>
+    </front>
+    <group>
+      <text>
+        <body>
+<p><hi rend='Bold'>LEHEN PREFAZIOA</hi></p>
+<p><hi rend='Bold'>ORORENTZAT</hi></p>
+<p>IRAKURTZAILE MAITEAK:</p>
+<p>Egun emaiten dut Framazonez mintzo den liburuxkaren bigarren edizionea.</p>
+<p>Bigarren edizione hau segitua izanen da Frantziako gure hirur Errepubliken ixtorioaz.</p>
+<p>Orai duela ehun urtheko Erreboluzionea eta Errepublika mila eta mila itsuskeriaz betheak izan baitziren, orduko ixtorioa, bortxaz ere, seriosa da, ez erraiteko ikharagarria.</p>
+<p>1848ko Errepublika, erhoska bat zen, hortakotz da haren ixtorioa bitxia, edo irri egingarria. Bainan, irriz ere, egiak erran daitezke, eta segur erranen ditugu.</p>
+<p>Orai dugun hirurgarren Errepublika hau, 1848koa bezala, da erdia mentsa, edo erdia imizila, duelarik hatik egite gehiago errepublika zaharrarekin. Ez bada hura bezain kokintsa, hura bezaingaixtagintsa, badu duenaren beharra, erranen dugun bezala. Ez da hunen ixtorioa akhabatua, bizi denaz geroz oraino. Leher egiten duenean, agian ahal bezain laster, erranen dire huntaz orai erran ez daitezkenak.</p>
+<p>Ene liburuxka berri hau nork behar du erosi? Hau erosiko dute untza bat izpiritu buruan, untza erdi bat zentzu kaskoan, eta hamabi sos sakelan izanen dituzten Eskualdun guziek.</p>
+<p>Norbaitek galdeginen daut oraino heya beren ixtudioak eginak dituztenek probetxurekin irakurtuko duten liburutto hau. Ene errepostua izanen da<hi rend='Italic'>: Batere dudarik gabe.</hi></p>
+<p>Ixtorioa edo bertze gauzak ikhasi nahi dituenak, lehenik hasi behar du liburu labur eta ttipi batetarik. Gero ixtudiatuko ditu liburu luzeagoak edo arras luzeak. Azkenik berriz ikhusiko ditu lebenbiziko labur eta ttipiak.</p>
+<p>Hau da ixtudioak akhabatuak dituztenendako. Ez da dudarik, batere ez edo guti eskoletan ibili direnek, abantail gehiagorekin irakurtuko dutela ene liburu ttipia. Egia hunek ez du froga beharrik.</p>
+<p>Gazte denborako orhoitzapen bat heldu zaut gogorat eta hura erran behar dut hemen.</p>
+<p>Beraz Baxe-Nabarreko herri batzuetan, haur bat bathaiatua izan behar zenean, aberatsa bazen, haren Amabitxia ikhusten zen m&aacute;ntalet baten azpian zohala, ederki, bai eta Aitabitxik bazuen phezako arropa finekin, zethazko gerriko gorria. Hek ikhusiz elizatik etxerat bihurtzen, bilduko ziren herriko muttil ttipi eta neskatxa haur guziak heyen inguruetarat.</p>
+<p>Alta-bitxik, besainka, aurthikiko zuen ahur bat sos, bi arditeko eta ardit, lehenago Frantziako erregek, hogoi eta berrogoi sosekoak botatzen edo botarazten zituzten bezala, beren khoronatzeko egunean.</p>
+<p>Haurrak, hori ikhustean, eroriko ziren lurrerat trumilka eta musurika, batzueri laster sudurretik odola zariotela, eta guziek hirriskatzen zutela ukharai edo beso bat hautsia izaitea.</p>
+<p>Baldin Aitabitxi hura zuhurskoa bazen eta ez bazuen deus aurthikitzen, haur saihera guzia hasiko zen oihuz, patarrakaz, karrasiaz: &laquo;Sosik ez... sosik ez... sosik ez...&raquo; Ene liburuttoa Eskualdunek ez badute erosten, adituko dute, hek ere: &laquo;Sosik ez... sosik ez... sosik ez&raquo;. Ez deiet hatik erranen: &laquo;Izpiriturik ez... izpiriturik ez, zentzurik ez, zentzurik ez&raquo;.</p>
+<p>Irakurtzaile maitea, adi zazu azken hitz bat gure lenguayaren gainean. Arrazoinekin erraiten dute Latina dela lenguaya bat net ederra, eta gehiago dena, arras zalhua, kasik nondik nahi has ditazkenaz geroz frasak latinean.</p>
+<p>Italianoa eta Frantsesa omen dira arraita baten soinu xarmagarriari konpara daitezkenak; nola baita Espa&ntilde;ola tinbala ederraren parekoa.</p>
+<p>Bada, Eskuarak ez du zorrik edozoin lenguaya horieri. Hain zalhua da non erran baititake iduri duela alimalexka pullit, bizkarrean hezurrik ez duten batzueri, zoinak dobla, plega baititazke nahi bezala, eta itzularaz norat nahi.</p>
+<p>Lenguaya guti da Eskuara baino gehiago gai denik koblatzeko edo poesiako. Orok badakigu Poesia dela khantuzko edo koblazko lenguaya, hitz neurtuzkoa. Eskuara, erran nahi da, gure aitaamen besoetan lehen lehenik ikhasi dugun mintzaire eztia eta ederra maite duenak, gogotik erosiko du liburu hau eta hunen irakurtzetik atherako ditu gazeta edo berriketari phurtzil frantsesezko batzuetarik athera ez lezazken abantail frango.</p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>BIGARREN PREFAZIOA</hi></p>
+<p><hi rend='Bold'>SABANTENTZAT</hi></p>
+<p>Zer izan da Frantziako Erreboluzionea? Frantziako erreboluzioneaz aditu behar da, yuan den mendearen azken urthetan eta mende hunen hastean, gure aitzinekoek ikhusi izan zituzten nahasdurak, krimak, batzuek bertzen kontrako gerlak, edo gerla zibilak, mazakre eta ibayaka odol ixurtze eta gainerako izigarrikeriak.</p>
+<p>Erreboluzionea da lehenbizikorik Yainkoaren kontrako errebolta, hura ukhatzerainokoan, haren izen saindua ez aiphatu nahi izaiterainokoan eta Yainko Seme Gizon eginaren imayak khentzerainokoan eskoletarik, ospitaletarik, yustiziako tokietarik, <foreign>etc</foreign>.</p>
+<p>Bigarrenekorik, Erreboluzionea da Elizaren kontrako errebolta, Aita Sainduaz, Aphezpikuez eta Aphezez trufatuz edo heyen erakuspenez khasu guti eginez, nola Erlisione sainduari ahal bezenbat kalte erakharriz.</p>
+<p>Hirurgarrenekorik, Erreboluzionea da errebolta autoritate zibil suerte guzien kontra; Erregeak, Enperadoreak aurthikiz bere tronuetarik, eta ahal bada hek hilez, asasinatuz; ez xoilki heyek, bainan oraino bertze buruzagi lesitimo suerte guziak.</p>
+<p>Horiek oro hala dire, eta gauzak ongi phisatuz eta ongi izendatuz, Erreboluzionearen lorifikatzea da prinzipio on guzien ukhatzea, kasik fedearen beraren arnegatzea eta munstrokeria bat izenik gabekoa onhestea. Frantziako Erreboluzione handia izan da Yainkoak nazioner eman dituen gaztigu handienetarik bat.</p>
+<p>Bada Yainkoaren kolera erortzen denean nazione hobendun baten gainerat, nork erran dezake zonbat desmazia, zonbat atsegabe yinen zazkon nazione hari, lehertzeko, ez hatik haren ezeztatzeko. Yainkoak ez du deus bere obretarik ezestatzen</p>
+<p>Gaztigu horietarik badire hirur, iduri dutenak bertzeren orozgainekoak, eta hek dire Jerusalemeko hiriaren setioa eta haren destrukzionea, Frantziako Erreboluzione handia eta gure azken gerla, Prusiaren kontra.</p>
+<p>Ez dut deusik erranen azken gerla hunen gainean. Ixtorioa dakitenek konpara dezaketela 1870ko gerla, lehen, edozoin mendetan, izan diren gerleri. Bentzutuak izatea izan garen bezala merezl ginuen, ez da dudarik, gure inpietatea eta gure tzarkeriak zirela kausa, bai eta zeren ginuen Pio IXen Aita Saindua bere etsayer largatu.</p>
+<p>Yuduek ere aspaldi merezitu zituzten Yainkoaren yustiziaren zigorradak, haren miserikordiaz eta onthasunez abusu egin zutelakotz, eta guziz jesus dibino khurutzearen gainean hil araziz.</p>
+<p>Hartako, Salbatzailea zerurat iragan eta berrogoi urtheren buruan, Jerusaleme izan zen setiatua lehenik, eta gero destruitua Erromanoez. Miliun bat eta ehun mila presuna hil ziren hiri hobendun eta dohakabe hartan, gisa guzietarat: goseteaz, eritasunez, batzu bertzen kontrako gudu krudelez. Azkenean hiria hartu, sutan eman eta, soldadoek furian hil-arazi zituzten gainerakoak harmez. Bada Erreboluzionean ikhusi izan dire, ez hiri batean bakharrik, bainan Frantzia guzian, aiphatu izigarrikeria heyek iduriak, edo heyek bezain handiak.</p>
+<p>Hemen ene irakurtzailek galdeginen dautate zer gaizki egin izan zen bada Frantzian hoin garrazki Yainkoak hura gaztigatzeko. Sobera aise izanen zaut galde horren arrapostuaren emaitea.</p>
+<p>1rik Protestanten heresia eta jansenistena munduan agertuz geroztik, izpirituak ekharriak ziren altxatzerat Eliza-ama-sainduaren kontra;</p>
+<p>2rik Frantziako errege batek, Luis XVak, bizitze infame bat eraman zuen, eta haren lizunkeriak eta eskandalak ez ziren guti segituak izan asko noblez edo aitoren-semez;</p>
+<p>3rik Bizioan pulunpatzen ziren gizon heyek, aise galdu zutenfedea, eta, iragan mendean, inpietatea modan bezala ezarria izanzen erresuma guzian, filosofoak deltzen ziren gizon sobera famatu batzuez.</p>
+<p>Hirur gaitz horietarik bat bakharrik aski izanen zen zeruko ozpinen Frantziaren gainerat erorarazteko, eta beraz hirurek aiseago dituzte yautsarazi.</p>
+<p>Behar ditut oraino seinalatu bi kausa Erreboluzionea ekharri zutenak.</p>
+<p>Hetarik lehena izan zen segitzea aiphatu filosofo heyen doktrina faltsoak eta gezurrezkoak, zela kestione bai Erlisioneaz, bai zozietateaz, bai gobernamenduez. Filosofo horietarik biga ditut bakharrik izendatu nahi: bat Monteskiu eta bertzea Joannes-Jakes Rousseau.</p>
+<p>Lehenak, nahiz thalendu eta yakitate handitakoa zen, fedea arras galdua ahal zuen, erakusten zuenean bere iskribuzko obra handienean <hi rend='Italic'><foreign>(Esprit des Lois) </foreign></hi>zozietatea dela egina edo formatua gizonez, eta ez Yainkoaz; eta beraz gizonak gidatzen dituzten legeak eta heyek dazkoten obligazioneak, gizonek hauts ditzazketela. Klar da gauza bat egiten duenak gauza hura barrea dezakela, eta horrek erran nahi du hemen lehenbiziko gezur batek bigarren gezur bat berekin golkhoan ekhartzen duela.</p>
+<p>Joannes-Jakes Rousseauk, bere aldian, erakhutsi zuen bertze gauza bat ez gutiago egiaren kontrakoa, eta osoki zoroa. Iskribatu zuen beraz liburu batean, filosofo hunek, gizonak bizi izanik, lehen denboretan, basa bestiak bezala, elgarretarat bildu zirela, zorion gehiagorekin bizitzeko mundu huntan, eta hortakotz establitu zituztela lege batzu guziek begiratu behar zituztenak <hi rend='Italic'><foreign>(Contrat social).</foreign></hi></p>
+<p>Bainan filosofo beraren arabera, nola lege horiek sobera maiz bazterrerat utziak baitire, gizonek urra, hauts eta barrea detzazkete, egin zituzten bezala.</p>
+<p>Erakuspen faltsu, gezurti eta erho horietaz zituzten hantuak beren izpirituak eta fartzituak beren buruak, hastean aiphatuko ditudan hamabi ehun gizon Versaillarat bildu ziren gehienek; eta horiek eraman nahiz azken kontsekentzietaraino, ezarri zuten Frantzia azpikoz gora.</p>
+<p>Azkenik erranen dut Framazonek, erran nahi dut Yainkoaren, gizonen eta zozietatearen etsayek, egin dutela gehienik Erreboluzionea!</p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p>FRANTZIAKO</p>
+<p>ERREBOLUZIONEAREN</p>
+<p>ETA</p>
+<p>HAREN ERREPUBLIKAREN</p>
+<p>ISTORIOA</p>
+<p>LABURZKI</p>
+<p>bai eta</p>
+<p>ZONBAIT HITZ BIGARREN</p>
+<p>ERREPUBLIKAZ; NOLA</p>
+<p>ORAIKO HIRURGARREN</p>
+<p>HUNTAZ,</p>
+<p>azken egun huntaraino.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>1en KAPITULUA</p><--</head>
+        </front>
+        <body>
+<p>Ereboluzionea egina zen izpirituetan anhitz urthe agertu baino lehen Parisen eta Frantzia guzian. &mdash;Versaillarat bildu ziren hamabi ehun deputatu berotuak, suminduak erregetasunaren kontra. &mdash;Hamabi ehun, hamabi aldiz sobera. &mdash;Heyen artean bazen gizon thalendu eta balio handitakorik. &mdash;Askok beren buruak zituzten desohoratu. &mdash;Errege ona zen, bainan flakoa, Errege inozent harek behar zuen pagatu haren aitzineko hobendunentzat. &mdash;Yainkoaren yustiziak hori galdegiten du. &mdash;Deputatuak bildu ziren Mayatzaren 4an 1789an. &mdash;Hirur gradotakoak zlren. &mdash;Ekhainaren 23an Errege mintzatu zen. &mdash;Haren ondotik Mirabeau tzarra. &mdash;Erhoki ziren pharatu deputatuak Frantziari buruz, Elizari buruz, gauza guziak erreberritzeko estakuruan . &mdash;Konstituzione zibila. &mdash;Haren bitzikeria bat.</p>
+<p>Yadanik, gure prefazioan, aditzera eman dugu nola iragan mendetako gizon sobera aiphatu batzu zirela kausa, Erreboluzlonea egina zen izpirituetan anhitz urthe agertu baino lehen Parisen eta Frantziako bertze bazterretan.</p>
+<p>Egun bakharrik ikhusiren dugu, lehen kapitulu huntan, Versaillarat bildu ziren hamabi ehun deputatuek nola zituzten preseski beren izpirituak gaizki itzuliak, biziki berotuak, osoki eta inyustoki suminduak erregetasunaren, orduko zozietatearen eta Elizaren edo Erlisionearen kontra.</p>
+<p>Ohart gaiten berehala deputatuen hamabi ehun nombre horri.</p>
+<p>Hamabi ehun, hamabi aldiz bederen sobera zen, ezik, ehun g&iacute;zonek ere aski lan ukhanen zuten elgar aditzeko.</p>
+<p>Ez da beraz estonatzeko zenbait abusu khentzeko ordean gauza guziak ezarri bazituzten zangoz gora edo buruz behera; zer diot? Gauza onak berak zituzten hautsi erhautsi, funditu, ezeztatu, hori geroxago ikhusiko dugun bezala.</p>
+<p>Bazen bada deputatu heyen artean gizon balio handitakorik, batzu beren thalenduez, bertze batzu beren yakitatez, zenbait edo anhitz, ederki mintzatzeko zituzten lenguaya eta manera miretsgarriez.</p>
+<p>Damurik behar zituzten kasik orok, gutiago edo gehiago, eta askok arras, beren izenak desohoratu. Berriz diot deputatu heyek bazutela aiherkunde edo higuintza itsu bat erregetasunari buruz.</p>
+<p>Orduko erregea zen Luis XVIna, erregetan hoberena, hogoi urthetan Frantziako tronuaren gainera iragan zena.</p>
+<p>Nehork ez zezaken hatzeman haren baithan estakuru bat baizik: onegia zelakotz zen sobera flakoa.</p>
+<p>Horrek egin zuen haren beraren, haren familiaren eta Frantziaren zorigaitza.</p>
+<p>Egia da, gauzer behatuz goragodanik, ikhusiko dugula erregetasuna izan zela hanitz hobendun Henri IV (laugarrenaren) presunan, Luis XIV (hamalaugarrenarenean), eta guziz Luis XV (hamabortzgarrenarenean). Orotarik tristena azken hau izan zen.</p>
+<p>Errege inozent batek behar zituen beraz pagatu haren aitzinekoek egin hutsak eta krimak. Yainkoak bere yustiziaren apazegatzeko, biktima nota gabeak ditu hautatzen; hala nahi izan du haren Seme dibinoak, saindutasuna bera zenak, salba zezan mundu hobenez bethe hau; Frantzia bera ere, Yainkoaren nazione hautetsia, behar zen izan gaztigatua, guziz bere inpietatea zela kausa, gero, bere odolean garbiturik, sekula baino ederrago ager zadin Elizaren begietan.</p>
+<p>Orokatik ere, Luis XVInak bil arazi zituen Versaillarat, Mayatzaren 4an, 1789an, aiphatu hamabi ehun deputatu heyek, zoinak baltzlren, ordu artean bezala, hirur gradoetakoak: Eliza gizonetarik, erran nahi baIta Aphezpiku eta Aphezetarik, Aitoren seme edo Nobletarik eta populu komun, edo yende xehearen gizonetarik. Erregea juan zen bera heyen arterat Ekhainaren 23an eta mintzatu zaioten aita on bat bere haurrer mintzatzen den bezala, erranez desiratzen zuela, bere bihotz guziaz, zenbait abusu khendu ondoan, lege zuhurrenak egin zitzaten. &laquo;Nik ez dut bilhatzen deusik, zuen adiarazi Erregek, nola ene suyeten eta Frantzia guziaren zoriona&raquo;. Errege on eta mayestatearekin gisa hortan mintzatu zena, miresteko ordean, Mirabeau deitzen zen deputatu, izpirituz mintzatzeko thalenduz, bai eta bizio tzarrenez bethea zenak adiarazi zituen hitz gaixto eta kondenagarri hok: &laquo;Aditu ditutzuen solazek (Erregearen ahotlk), salba lezakete erresuma, baldin tiranoen presentak ez balire bethi lanyeros&raquo;.</p>
+<p>Hantik ixtant baten buruan, aditzearekin gortheko kargudun bat erraiten Erregeren nahia zela, hura juan zen bezala, deputatuak ere, memento berean barrea ziten, Mirabeau hark berak, ihurtziaren pareko botz batekin, oihu egin zioen: &laquo;Zuazi erratera zure nagusiari (Erregeari), populuaren borondatez garela hunat bilduak, eta baionetek bakharrik gaituztela hemendik barrearaziko&raquo;.</p>
+<p>Deputatuak orduan ziren Erreboluzionearen aitzinean edo buruzagi bezala abiatu, eta ez ziren behar baratu bide erditan. Erregea inyustoki mesprezatzen zuten bezala, behar zuten berdin zoroki tratatu Frantzia. Eskuetan zituzten probintzia guzietako kayerak, zoinetan baitziren heyek Versaillarat igorri zituztenen botuak. Botu hetaz khasu guti eginez, yokhatu ziren Frantzia ederra salbayen herri bat izan balitz bezala.</p>
+<p>Bertzenaz, iduri izan zuten mediku bati, zoinak nahi bailuzke tratatzen duen eriari menbroak phikatu, zeren dituen menbro hetan zenbait min eta minxka.</p>
+<p>Deputatu heyek konparatzekoak ziren azkenik bere etxe handi eta ederra erre lezaken gizon bati, zeren dituen etxe hartan zenbait pharte erreberritzeko, edo han zenbait erreparazione egiteko.</p>
+<p>Deputatu zoro heyek Frantzlako probintzia zaharrez khasu guti eginez, erresuma zatikatu zuten 83 departemendutan; ixtorioan ez da bizkitartean batere ageri khanbiamendu hori yendek galdegiten zutela.</p>
+<p>Geroxago khenduak izan ziren Frantziako 17 unibersitateak, 400 koleyioak, bai eta eskola ttipi on guziak.</p>
+<p>Hemen erran dezaket oraino nola, Versaillarat bildu ziren gizon heyek gora gora zuten erraiten Frantzia guzian erreforma ezarri nahi zutela. Erreformatzea eta deformatzea biga dira<hi rend='Italic'>. Erreformatzea, </hi>da makhur baten xuxentzea eta <hi rend='Italic'>deformatzea </hi>aldiz, formaren geroago eta gehiago makhurtzea. Gure gizon hauk izan dire egiazki, ez gauzen xuxentzaleak, bainan gauza heyen behinere baino trebes emaileak.</p>
+<p>Gisa hortan berean ziren pharatu Elizari buruz, hartzen zazkotelarik lau miliarren onthasunak, hesten zituztelarik</p>
+<p>Frantziako hirur mila komentu, handi eta ttipi, fraidenak eta serorenak, hek hutsaraziz eta gero deklaratuz ez zuela nihork egin behar gehiago boturik, zeren botuak libertatearen kontra baitire heyen arabera.</p>
+<p>Debalde da erraitea Versaillako bilzarreak ez zuela dremenden podorerik izigarrikeria horien egiteko; ez zezazkeen ere Frantziako 13 diozesak ezar 8tan.</p>
+<p>Aita Sainduaren baimena gabe, ez daiteke Elizan egin holako khanbiamendurik; bainan gure deputatuek ez zuten deus ere xerkhatzen nola Erlisionearen kontra herrarik itsuena erakustea.</p>
+<p>Konstituzione zibila deithurik, Eliza gizonen kontra egin zuten legean, bazen artikulu bat kuriosa, zoinaren arabera behar baitzlren Aphezpikuak eta Erretorak bozkatuz hautatu. Bozkatzea gauza pulit bat dugu oraino.</p>
+<p>Berrogoi gizon prestuen botzek baino andar gehiago izanen dute berrogoi eta bat gizon txar eta kanailenek.</p>
+<p>Bertzenaz behar litazke botzak, ez khondatu bainan phizatu.</p>
+<p>Bainan urrun da hain zuhurki nahi baikare yokhatu, nahiago dugu phoroatu Plo IXen Aita saindu handiak erraten zuena: Bozkatze yeneralak, gezur yeneralak. Hok guziak hola direlarik, Erreboluzioneko deputatu heyek egin zuten eta aiphatu dutan legeaa ikhusten zen herriko gizonek behar zutela hautatu beren Erretorra.</p>
+<p>Ixtorioak khondatzen du Tolosan Jaun batek, gau batez, utzi zuela teatrea edo komediako sala, erranez juan behar zuela bertze toki batetarat jaun Erretoraren hautatzerat, edo hari bere botzaren emaiterat.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>2en KAPITULUA</p><--</head>
+        </front>
+        <body>
+<p>Balmesen errana. &mdash;Yende tzar eta, bere faltaz, herromes ziren batzuen herra aitoren semen kontra. &mdash;Zer den holako gizoner doktrina faltsoen erakustea. &mdash;Tigre eta tigresak baino krudelago dire izpiritu gaizki itzuliak eta bihotz galduak. &mdash;Nola tratatu z&iacute;tuzten Morde de Vauguyon, de Bezenval, de Calonne, de Belzunze de Guillin&mdash;Dumontel, de Barras, <foreign>etc</foreign>, <foreign>etc</foreign>. &mdash;Anhitz Aitoren semen yauregiak izan ziren arroatuak, erreak, destruituak. &mdash;Zer egin zakoten de Forbin Janson deitzen zenari. &mdash;Zer, Reveillon <hi rend='Italic'>bertze bati. </hi>&mdash;Zer egin zuten haren sotoetan. &mdash;San Lazaroren <hi rend='Italic'>komentuan </hi>ere yokhatu ziren gisa bercan. &mdash;Gaixtaginek, berak arnoz ase eta, barrikak zilhatu eta huts-arazi zituzten. &mdash;Emazteak izan ziren hatzemanak ithoak arnoan...</p>
+<p>Gure denborako Balmes Espa&ntilde;ol handiak arrazoinekin erran du filosofoak, batzu bertzen kontra disputan ari direnean, heyen disputak laster yeusten direla <hi rend='Italic'>plazetarat eta </hi>karriketarat, erran nahi baita yende xehea phasatzen dela fite hitzetarik obretara.</p>
+<p>Preseski hori ikhusi izan da, orai duela mende bat, gure Frantzia maitean.</p>
+<p>Bai, orduan yende xeheak, edo, hobeki erraiteko, haren artean, bethi bezala, khausitzen ziren izaite gaixto eta bere faltaz herromeskerian erori batzuek, nehork ezin erranezko furia bat bazuten noblen eta aberatsen kontra.</p>
+<p>Halako gizoner doktrina tzarren erakustea da, denbora guzietan, othe idorrer edo lasto meta batzuer su emaitea.</p>
+<p>Phindar batez egin daiteke laster gar bat ikharagarria, eta Erreboluzioneko gizonek phlndar hori behin bainotan eman zuten anhitz eta anhitz tokitan.</p>
+<p>Hemen erran behar dut oraino ez dela basa bestiarik, tigre ez tigresarik, gizon izpiritu gaizki itzuli eta bihotz galdu batzu baino krudelagorik.</p>
+<p>Frantziako izenik handienak eta ederrenak ekhartzen zituztenak ziren gehienik hirriskutan denbora triste hartan.</p>
+<p>Hala zituzten Morde de Vauguyon, de Bezenval, de Calone eta mila bertze holako gaizki tratatu, zeren ziren aitoren-semeak. Morde de Belzunze, zoinen aitzinekoak Eskual-herritik atheratzen baitziren, Caen deitzen den hiri batean zen erreximendu baten buruzagi edo kapitain.</p>
+<p>Nahi izan zuelakotz ordena ona edo diziplina bere soldaduer begirarazi, populuaz izan zen hartua, masakratua, yana!.</p>
+<p>Geroxago, Morde Guillin Dumontek, untzietako kapitain zaharrak, Lyoneko alderdian, izan zuen zorthe bertsua.</p>
+<p>Hura ere phuskatu zuten eta gaixtaginetarik zenbait hatzemanak izan ziren, yandarmez, ostatu batean, haren beso baten yaten ari zirela.</p>
+<p>Morde de Barras, berdin zathikatu zuten, bere emaztearen bistan, eta azken hau laster hil izan zen orduko izialduraren segidaz.</p>
+<p>Morde de Montesson tiroka hil zuten, bere aitzinean ikhusi zuen ondoan, nola haren Aitaizunari zintzurrak egin zazkoten .</p>
+<p>De Barthilly izena zuen kontesa batek arnegatu behar izan zuen bere nobleziako titulu guzier, aizkora buruaren gainean atxikitzen zakotelarik eta bere bi alabak zituelarik oinetan flakatuak.</p>
+<p>De Listenais deitzen zen <hi rend='Italic'>prinzesak sakrifizio </hi>bera egin behar izan zuen, atxikitzen zakotelarik <hi rend='Italic'>burdin sarde </hi>bat lephoan.</p>
+<p>Morde de Montessu eta haren esposari, hirur orenez pistoleta zintzurrean atxiki ondoan, beren karrosatik atheratu zituzten ziphu handi batetara aurthikitzeko.</p>
+<p>Anhitz liburu egin litazke, behar balire khondatu gisa hortako orduan ikhusi ziren bertze gauza izenik ez dutenak.</p>
+<p>Zenbait ilhabete laburrez khonda ahal baino gehiago AitorenSemen yauregi edo gaztelu izan ziren arroatuak, erreak, edo destruituak.</p>
+<p>Morde de Forbin-Janson deitzen zenari bakharrik gaixtaginek egin zakoten hirur ehun mila liberaren hoben baino gehiago, destruituz haren eiherak, haren yauregiko teilatua, yauregi hartako mubleak, kapera, <foreign>etc</foreign>., eta ebatsiz nahi zituztenak.</p>
+<p>Sar gaiten orai probintzietarik Parisera. Bazen orduan Parisen, San Antonioren karrikan, paper thindatu egile bat, Langile xinple izanik, emeki, emeki, bere abileziaz eta bere entseguez, fabrika handi baten buruan pharatu zen, zituelarik bere azpiko hirur ehun eta berrogoi eta hamar langile.</p>
+<p>Komuzki pobretasunetik aberatstasunerat phasatzen direnak bezala, bazituen hartaz sobera yelos zirenak, eta beraz, haren etsayak. Hetarik batek asmatzen du gezur bat haren kontra. Reveillon mintzatu omen da gaizki Pariseko edo bere kartierreko populuaz.</p>
+<p>Kalomnia hori, ahotik ahora, ximista bezain fite phasatzen da, eta yende tzar, zertarat nahi prest zirenak, biltzen dire, oste handian, Reveillonen etxearen aintzinerat, ebiakoitz batez, San Mark egunean, 1789an.</p>
+<p>Lehenik hogoi eta hamar gizonek ihardokitzen dute kanaila multzo hari; bainan gero hok nagusitzen dire, borthak dituzte bortxatzen eta dira etxean sartzen. Orduan dituzte muble guziak hausten, xehatzen, arropak xintxirrikatzen eta oro su batean erretzen. Linya guzia zuten ebatsi, bai eta hatzeman zituzten diru guziak eta zilharreria guzia.</p>
+<p>Reveillon aski uros izan zen halere, ahal zuen bezala, bere adiskidetan gordetuz, bere biziaren kontserbatzeko.</p>
+<p>Haren soto eta kabak hustu zituzten, bai eta zenbaitek, arnoz ase eta, berniza likurtzat hartuz, iretsi zuten. Batzu hatzemanak izan ziren hordi-hilak; bertze batzuek, hala nola berniza edan zutenek egiazki eta errealki, leher eta zapart egin zuten zer nahi tormenten erdian. Gerthakari hits hok lkhusi ziren aphirilaren 25an, 26an, eta 27an, 1789an.</p>
+<p>Uztallaren hamabian eta hamahiruaren arteko gauean, San Lazaro deitzen den komentuan ere borthak hautsiak aizkora ukhaldika eta phusketan emanak izan ziren, bai eta biblioteka, harmarioak, leihoak berak, guziz Fisikako kabinet balios eta preziatua.</p>
+<p>Hango kabetan nahi zuten arnoa edan ondoan, barrikak, ideki eta hutsarazi zituzten.</p>
+<p>Biharamunean kaba arnoz bethea zen, eta han ziren, erdi edo arras ithoak, hogoi eta hamar bat presuna, zoinen artean baitzen hila haur ukhaiteko esperantzetan khausitzen zen emazte bat, eta zena yadanik bederatzigarren ilhabetean.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>3en KAPITULUA</p><--</head>
+        </front>
+        <body>
+<p>Klubak. &mdash;Zer ziren hek. &mdash;Hetan hartzen ziren zer nahi den gaizki egiteko xederik beltzenak. &mdash;Orleaneko dukea. &mdash;Zer egiten zuen gorthearen kontra. &mdash;Zer izan zen haren zorthea. &mdash;Klubetako gizonek gaizki handia egiten zuten beren gazetez eta liburuxka batzuez. &mdash;Klubarik famatuena zen Yakobinena. &mdash;Harek zarabilan biltzarre deputatuena nahi zuen bezala. &mdash;Klubek zituzten izpiritu guziak erreelatzen beren gezurrez. &mdash;Zer gerthatu zen Baxe&mdash;Nabarreko herri xume batean. &mdash;2.200 dekretu egin zituen biltzarreak, bai eta gehiago.</p>
+<p>Hirurgarren kapitulu huntan mintzatu nahi naiz orain duela ehun urtheko klubez eta Eskual-herriko gerthakari batez.</p>
+<p>Ene Irakurtzale maitek galdeginen darotate berehala zer den Kluba.</p>
+<p>Anglesa da hitz hori, eta Anglesa dakienak daki.</p>
+<p>Bertze orduz enperadore handi batek erraten zuen Anglesa dela antzaren lenguaya.</p>
+<p>Erakuts lezagukete beraz antzarek, gure liburu Bokabularioek bezala, kluba dela gabazko gizonen bilkhura bat, gauza publikoez mintzatzeko.</p>
+<p>Angletarren baditake kluba hori den; bainan Frantzian, orai duela ehun urthe, klubak konpara zaitezken, diru faltsu egiteko, lur pean, hautatzen diren kaberneri, edo bertze ohoin zilho batzueri, non hartzen baitire xederik beltzenak, egiten planik tzarrenak, mila gaizki egiteko, non nahi ebasteko, nor nahi hiltzeko, asasinatzeko, zer nahi den gaixtakeria egiteko.</p>
+<p>Egiaz klubetarik athera ziren orduan, eta hedatu bazter guzietarat, urhe eta zilhar faltsoak onentzat barreatzen diren bezala, matsimarik galkorrenak, doktrinarik faltsoenak, krimarik ikharagarrienen egiteko deseinurik gaitzenak.</p>
+<p>Yadanik ikhusi dugu zer egiten zen orduan, Frantzia guzian, Aitoren semen, handien, buryesen edo aberatsen kontra.</p>
+<p>Hemen behar dut ere erran oraino, nola Orleaneko duke, Erregeren odoleko zen eta <hi rend='Italic'>sobera ixtorioan </hi>aiphatua den batek, bere pharteko gizonekin egiten zituen, <hi rend='Italic'>gau </hi>eta egun, izilik bere egin ahalak gorthearen kontra.</p>
+<p>Erregea nahi zukeen bere tronutik aurthiki, bera haren plazan emaiteko, bainan ikhusiko dugu geroago nola bera iduri batzuek zakoten burua phikatu.</p>
+<p>Ez dezagun ahantz behinere, ixtorio hau irakurtzean, klubetarat gabaz zohazinak, Orleanistak eta bertze Erreboluzioneko gizonak oro, edo zirela Framazonak, edo debruzko gizon hauyen inspirazioneak segitzen zituztenak. Inspirazlone Heyek emanak ziren egun guziez <hi rend='Italic'>gazetetan </hi>eta liburu ttipi xar batzuetan.</p>
+<p>Kluba hetarik aiphatuena izan da Yakobinena.</p>
+<p>Harat biltzen ziren, gau inharak bezala, deputatu eta bertze Erreboluzioneko gizonik tzarrenak, lanyerosenak. Jakobinen Kluban deliberatu gauzak behar zituen egin gero, biharamunean, deputatuen biltzarreak; erran nahi baita bortxatuak zirela deputatuak egitera legerik injustuenak, dekretik tiranoenak, zeren baitziren mehatxatuak, memento guziez, klubak hortako harat igortzen zituen gizon eta emazte kanaila eta atrebituez. Klubak ez ziren gutiago hobendun, beren gezurrez, beren berri faltsoez, zituztenean egun guziez yendeak tronpatzen, izpirituak asaldatzen, hitz batez, opinione yenerala erreelarazten.</p>
+<p>Bethidanik yende xeheari izpirituaren itzultzea, phiztea, sumintzea, gauza erretxa izan da, hari zer nahi sinhets araziz.</p>
+<p>Erreboluzioneko gizonek hori ongi bazakiten; hortakotz noiz nahi hedatzen zituzten erranik zoroenak eta xutik ez zaudenak.</p>
+<p>Batean zioten nonbait eta nonbaiteko ohoin, brigant multzo batek, ogi landa osoak, oraino pherde zirelarik, phikatu zituztela.</p>
+<p>Erregek, gortheak, gobernamenduak, aitoren semek horiek bazazkitela; bainan ez zirela biziki kexatzen heyek, zutelakotz ausarki yatekoa, eta edatekoa, yende xehea gosez eta miseriaz hilik ere berdin zakotela. Bertze aldi batez yinen zen berria hogoi mila, hogoi eta hamar mila gaixtagin heldu zirela holako hirirat. Naturalki hiri hartako gizonek harmak hartuko zituzten, bilduko ziren plazarat, patruillak ezarriko zituzten kantoin zokho guzietan.</p>
+<p>Bi, hirur, sei, hamar oren egonik hiri barnean etsaien aiduru, atherako ziren beren harmekin hiriz kanporat, yo harat, yo hunat, miatuko zituzten xeheki oihanak, xarak, urruneko etxeak, sabai edo belhartegiak eta ardi bordak.</p>
+<p>Gaixtaginak toki horietarik guzietarik urrun baitziren phentsatzeko den bezala, gure gizonak itzuliko ziren bere etxetarat, gosetuak, unhatuak, bai eta hein bat ahalkatuak, zeren beren buruak enganatzera utzi zituzten.</p>
+<p>Yadanik erran dut, berririk bitzienak laster kurritzen zirela. Hek ziren askotan bide gehienik egiten zutenak. Gezurrak handiago eta sinhets-arazteko aiseago, nik ez dakit nola heldu den hori.</p>
+<p>Baxe-Nabarreko herri xume batean, behar bada irri egin arazteko, norbaitek eman zuen gauza bat arras egiatzat, eta huna hura zer zen. Naski bazakien kanaila harrek Versaillako deputatuen biltzarrea ari zela, egun guziez, zanpa-zanpa, yadanik bigarren kapituluan erran dugun bezala, dekretu eta lege egiten. Yakin behar dugu biltzarre famatu harrek, bi urthe eta erdirik barnean egin zituela bi mila eta bi ehun dekretu edo lege baino gehiago. Aisa da asmatzeko lege edo dekretu hetarik gehienak egin orduko ahantziak zirela. Egun nehor ez da hetaz orhoit.</p>
+<p>Beraz aiphatu herri ttipian yende guziek yakiten dute badela lege berri bat osoki populuaren kontra egina dena.</p>
+<p>Zer den nehork ez daki; bainan gauza segurra dena da elizan behar dela izan publikatua. Lege batek ez duenaz geroz indarrik publikatua izan aitzinean eta hura izan behar zenaz geroz publikatua elizan, Jaun Erretoraz, gauza klara da bakhotxak behar dituela egin bere zazpi egin ahalak, haren elizan sartzerat ez uzteko.</p>
+<p>Gizoner litake guardiaren egitea, hil herrietan edo kalostra azpian; bainan herri hartakoak edo bide ziren sinhets-gogorrak, edo beldurtiak. Ez dakigu ongi zertako maltso edo trankil egon ziren.</p>
+<p>Heyen eskasean, hor abiatzen dire emazteak harmen hartzen; ez hatik kartuxen erretzeko, tiroka artzeko, ez ahal zuten bolborarekin deus nahi. Ordu artean ez baitzuten yakin kargatzen beren khiluak baizik, eta hek ixtupaz edo lihoz, ez zuten ez pistoletik ez eta ihiziko harmarik beretarik eskuratu. Bat hetarik zen bere etxetik atheratu gerren handi batekin; bertze bat, burdin sardearekin, hirurgarren bat aihotzarekin...</p>
+<p>Gisa hortan, kuralez betheak, emaztetto heyek eman ziren goizean goiziki, lerro lerro, elizako athen atzinean. Jaun Erretora, egun guziez bezala, yin denean mezaren emaitera, ez da guti espantitzen ikhusteaz emaztezko guardia bitxi hori.</p>
+<p>Hetarik batek, nik ongi ezagutu dutanak, haurra nintzalarik, eta hura orduko atxotua, Juana zuen izena. Juana pharatzen da, bere lagunekin, jaun Erretoraren aitzinean eta orok galdegiten dakote dekretu berria.</p>
+<p>Jaun Erretorak ihardesten du hark ez duela dekretu ez berririk ez zaharrik, ez dakiela ere zertaz zazkon mintzo.</p>
+<p>Emazte fier heyek diote: &laquo;Jaun Erretorra, hustu behar dituzu zure sakelak, orai, hemen, gure aitzinean&raquo;. Jaun Erretorrak sakelak hustu zituen, bainan ez zen haren sakeletan dekretik ez legerik.</p>
+<p>&laquo;Jaun Erretora, zapetak khent kitzu&raquo;. Zapetak khendu zituen jaun Erretorak, bainan ez bide zen heyen barnean Jaun Erretoraren zangoak baizik.</p>
+<p>&laquo;Jaun Erretora, galtzerdiak ere athera behar dituzu&raquo;. Jaun Erretorak atheratzen ditu bere galtzerdiak, eta haren zangoak ageri dira garbi garbiak, xuri-xuriak, delikatu-delikatuak, ez ordean dekretu demuntre hura...</p>
+<p>Guardiako emaztekiak azkenian, ikhusiz jaun Erretora untuhuts eta marhantatzeko hirriskuan, eztitu ziren eta hasi konprenditzen naski anhitz aldi aiphatu dugun dekretua ez zela khausitzen heyen imasinazionean baizik. Geroxago aiphatu Juana harrek, berrogoi eta hamar urtheren buruan, ahalgez gorrituz eta burua aphalduz, bortxaz, khondatzen zuen nola hark eta hura iduri zuten bertze batzuek izan zuten aski xinplezia edo aski imixilkeria holako gauzen sinhesteko eta egiteko.</p>
+<p>Ez zen orduan hortaz sobera espantitzeko, ikhusten zenaz geroz Frantzia guzia, erran behar bada, edo bederen pharterik handiena, adimenduaz gabetua bezala.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>4en KAPITULUA</p><--</head>
+        </front>
+        <body>
+<p>Uztaliaren 14an zelebratzen da besta nazionala. &mdash;Nola den hura anontzatua aitzinetik eta besta goizean. &mdash;Herri ttipletan ezkilak yoiten dituzte egun hartan. &mdash;Leihoetarik dilingan daude banderak. &mdash;Bada ere arrabots karriketan. &mdash;Ostatuak dire betheak egun hartan. &mdash;Gutiek dakite besta hark zer orhoitzapen dakharken berekin. &mdash;Hirur urthe aitzinetik framazonek anontzatu zuten Bastilla hartua eta barreatua izanen zela Uztailaren 14an 1789an. &mdash;Zer zen Bastilla. &mdash;Zoin ziren orduan han ziren presunerrak. &mdash;Uztailaren 12an hasi zen mobimendua eta 14an 60.000 gizon ikhusten ziren karriketan. &mdash;Harmak hartzen zituzten, hetarik zen tokietan. &mdash;Gauza guti egin zitaken tiroka hogoi eta hamar pia lodi ziren murruen kontra. &mdash;Azkenean nola hartua izan zen Bastilla. &mdash;Gero zer itsuskeriak egin zituzten. &mdash;De Launay, de Flesselles, de Foulon, de Berthier, de Sauvigny, <foreign>etc</foreign>. &mdash;Bai Erreboluzionea zen egiazki Debruzkoa, Frantsesak salbayak baino ariagoak ziren orduan.</p>
+<p>Errepublikan sarthuz geroztik, urthe guziez, Uztailaren 14an zelebratzen dugu besta nazionala delakoa.</p>
+<p>Anhitz egun aitzinetik, anontzatua da besta hori, eta bere egunean ethortzen zaukunean, goizetik aditzen dire, hirietan, kanoi ukhaldiak edo petarrak.</p>
+<p>Herri ttipietan, baldin Jaun Merek maiteago badute Errepublika Erlisionea baino gehiago, elizako ezkilak dituzte balantza handian edo errepikaz yo araziko.</p>
+<p>Gero dire ikhusten bandera hirur koloretakoak hedaturik leihoetan, eta handik dilingan. Karriketan bada oihu, harrabots, hixtu eta khantu. <hi rend='Italic'>Marseillesa </hi>da khanturtan gehienik aditzen dena.</p>
+<p>Ostatuak dire betheak, galkhatuak, yende yale eta edalez, edo yadanik sobera yan eta edan ondoan kokorreraino aseak direnez. Hok diote gora gora: <hi rend='Italic'>Biba Errepublika, bai eta biba barrika! </hi>Ala fede biak maite ahal dituzte, eta <hi rend='Italic'>naski </hi>azken hau bederen lehena bezenbat.</p>
+<p>Hitz batez askok eta askok dituzte buruak berotuak, tripak betheak...</p>
+<p>Gutiak edo arras gutiak dire dakitenak Uztailaren hamalaueko besta horrek zer orhoitzapen duen, urthe guziez, berekin ekhartzen. Hemen erranen ditugu egun hartako gerthakarietarik zenbait. Ez dezagun ahantz orai ehun urthe ikhusi zirela hek Parisen eta haren inguruetan. Framazonek, hirur urthe aitzinetik, anontzatu zuten Uztailaren 14an 1789an zela izanen hartua eta barreatua Bastille deitzen zuten, eta Pariseko hiriaren erdian zen, <hi rend='Italic'>presundegia, zoina </hi>baitzen gaztelu handi, gora, zortzi dorhekilako bat.</p>
+<p>Orduan hango presunerak ziren Aitoren-Seme erho bat, bertze Aitoren-Seme diru xahutzale bat, Erregeren eta erresumaren kontra izilik yokhatzen zen yaun bat eta lau monera faltsu egile.</p>
+<p>Zitadela bat bezain azkarki egina zen, haren murruek bazutenaz geroz hogoi eta hamar pia largo, nota baitzituzten ere berrogoi pia gora. Haren defendatzalileak ziren 82 soldado zahar, lehenago gerletan kolpatuak izan zirenak. Heyekin ziren oraino Suisako 32 bertze soldado.</p>
+<p>Bazuen lau ehun urthe hurbil izan zela egina, ez yende xehearendako, bainan bai printze, Aitoren-Seme handi eta bertze gizon puxant Erregeren eta gobernamenduaren kontra alxatzen <hi rend='Italic'>zirenentzat.</hi></p>
+<p>Beraz ez zuen populu xeheak arrazoinik Bastillaren destruitzeko.</p>
+<p>Bizkitartean, 1789an, Uztailaren hamabitik hasirik, Parise mobimendu handitan zen, eta hamalauean hirur-hogoi <hi rend='Italic'>mila </hi>gizon, oihu <hi rend='Italic'>patarrakaz, Bastilla, Bastilla </hi>ziotela, abiatu, ziren gaztelu famatu hartaras zeramaten karrlken kurritzen. Ez zuten harmarik; bainan non ere sendi baitzituzten eta harat yuan izan ziren xerkha. Gobernamenduaren yauregi batean bakharrik hatzeman zituzten zenbait kanoi eta ereman, ziren lekhutik.</p>
+<p>Horiekin guziekin gauza guti egin zezaketen hogoi eta hamar pia lodiko murruen kontra.</p>
+<p>Bastilla barnean zirenek nahi ukhan balute tiratu haren aitzinean zen yende oste edo multzoaren gainera, milaka eta milaka izanen ziren hilak.</p>
+<p>Lau hogoi eta biga hil eta bertze hainbertze kolpatu khondatuak izan ziren, eta bok erorarazi ahal zituzten Bastillan zirenek, ikhusi zutenean gazteluaren kontra zen lasto eta belhartegi bat sutan.</p>
+<p>Guduak iraun zuen zazpi orenen ingurua, goizeko hamar orenetarik hasirik, arratsaldeko bortz orenak artino. Denbora haren buruan, de Launay, Bastillako gobernadoreak, aurthiki zuen murruen gainetik paper bat, zointan hitzemaiten baitzuen borthak idekiko zituela, nahi bazakoten hitzeman hura eta harekin zirenak, utziko zituztela atheratzera bizirik eta gerlarien ohorekin.</p>
+<p>Elie, Erreginaren erreximenduko ofiziale batek, Hulin guardia frantseseko saryantak eta Cholat, arno tratulariak, populuaren izenean agindu zuten kondizione horiek betheak izanen zirela.</p>
+<p>Bertzela behar ziren gauzak ikhusi!!!...</p>
+<p>Borthak ideki zireneko, Paristarrak, furian, bestia errabiatuak bezala, edo ez yakinez zer agintzak eginak izan ziren, edo heyetaz trufatuz, bost ofiziereri eta hirur soldadoer burua phikatu zakoten eta bertze bati eskua. Gero kanaila osteak ibili zituen karriketan buru heyek eta esku hura, pika edo lantza batzuen puntan.</p>
+<p>De Launay, gisa guzietara gaizki eta krudelki tratatzen baitzuten, oihu heyagoraz zioen akhaba zezatela.</p>
+<p>Zalapartan zango batez yo zuelakotz gizon bat sabelean, huni eman zakoten sabre bat burua ebak zezan Gobernadore dohakabeari. Sobera muthitsa bide zen sabrea, nola haren erabiltzailea baitzen zozozkoa.</p>
+<p><hi rend='Italic'>Desnot zuen izena; bere ofizioz kozinerra zen, bainan memento hartan, plazarik gabea.</hi></p>
+<p>Desnotek, entseatu ondoan sabre muthitsarekin lephoaren ebakitzea, <hi rend='Italic'>athera zuen sakelatik kanibet </hi>edo nabala gider beltx bat zuena, eta buxeriako haragi bat hezurren artetik phikatzen den bezala, emeki emeki, phikatu zuen de Launay aiphatu dugunari burua. Gero eman zuten hura ere, bertzeak bezala, lantza baten puntan. Egun berean, Morde de Flesselles, Pariseko merak, de Launay baino hobendunago ez zenak, haren zorthe bera izan zuen. Zortzi egun berantago, Morde de Fouton, kontrolur yeneral ohi bat, urkhatu zuten, hirur hogoi eta hamabost urthetan, gabazko lanterna baten khordaz eta lanternaren lekhuan.</p>
+<p>Hori zen egiten orduan nobleri, eta moda zen erraitea eta khantatzea: <hi rend='Italic'>Aitoren-Semeak lanternara.</hi></p>
+<p>Morde de Foulonen suhia, Morde Berthier de Savigny, bere Aita-inharrea bezala hobenik gabea zena, mazakratua da; bihotza atheratzen dakote, <foreign>etc</foreign>...</p>
+<p>Bertze anhitz eta anhitz Frantziako hiri, Besanlon, Cherbourg, Strasbourg, Troyes, Maubcuge deitzen direnetan, lkhusi ziren egun hetan, nahasdura eta gerthakaririk tristenak.</p>
+<p>Orai galdeginen dut ene irakurtzaleri heya besta nazionalaren egiteko ez zaiteken hauta bertze egun bat, holako orhoitzapen itsusi eta izigarriak berekin ez zuzkeena.</p>
+<p>Arrazoinekin erran du <hi rend='Italic'>autor banda </hi>batek Erreboluzionea dela bere funtsez edo berenaz debruzkoa, eta orok badakigu debruak bethi nahi dituela hedatu bi gauza: <hi rend='Italic'>gezurra eta gaizkia.</hi></p>
+<p>Preseski, orai duela ehun urtheko, eta orai ere erreboluzionea maite duten gizonek mila gezur eta mila promes faltso dute ahoari debruek bezala, eta dute egiten oraino ahal bezenbat gaizki munduan. Estonagarri da nola ez ditugun begiak idekitzen gauza horri, eta nola ditugun uzten gure buruak zoroki enganatzerat!</p>
+<p>Ez da iguzkiaren azpian yenderik Frantsesak baino aiphatuagoak direnik, beren argiez eta yakitatez, beren bihotz onaz eta beren karitatez edo amoinez. Bizkitartean iragan mendearen akhabantzan agertu ziren Afrikako beltzen, Ameriketako salbayen eta Ozeaniako lehen elgar yaten zutenen pare.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>5en KAPITULUA</p><--</head>
+        </front>
+        <body>
+<p>Bastilla izan zenean barreatua Parisen, Erregeren tronua zen ere izan uzkailia Versaillan. &mdash;Batere arrazoinik gabe, Erregeri eta guziz Erreginari aiher ziren. &mdash;Egun guziez kalomniatzen zituzten. &mdash;Yenden izpirituak asaldatuak zauzkaten, ez zela gehiago ogirik erranez. &mdash;Estakuru hortan bildu ziren, Urriaren bostean, gizon eta emazte oste handi bat, eta yuan Versaillarat. &mdash;Madalena Chabrik yoiten zuen atabala. &mdash;Gizonen buruzagia zen Jourdan (buru phikatzailea). Emaztekiena zen Teroigne, ematzar bat. &mdash;Tropa itsusia, gabaz yuan zen Versaillarat, eta sarthu argi hastean hango palazioan. &mdash;Varikourt eta Deshuttes hil zituzten. &mdash;Heyen buruak pika batzuen puntan ekharri zituzten, Erregeren eta haren familiaren aitzinean hok Pariserat itzultzerat bortxatu zituztenean.</p>
+<p>Laugarren kapituluan ikhusi dugu nortaz, noiz eta nola aurthikia izan zen Bastilla. Erran daiteke orduan berean uzkaili zutela, kolpe berez, munduan zen tronurik ederrena. Erreboluzioneko gizonek net ongi bazakiten azken lan hau eginik zaudela <hi rend='Italic'>Versaillan, </hi>lehenbizikoa egitean <hi rend='Italic'>Parisen.</hi></p>
+<p>Tronu uzkailia ez zadin berriz altxa bainan, kontrara, hura ahal bezain laster arras hausteko, eman zuten gaixtoki, beren buruer, Luis XVIna galdu behar zutela, zer nahi gisaz, edozoin moldez; bai eta Erregina, batere arrazoinik gabe, Errege baino oraino gehiago arbuyatzen zutena.</p>
+<p>Egun oroz kalomnia berriak zituzten asmatzen, eta bazterretarat hedatzen, <hi rend='Italic'>framazonek, Orleanistek </hi>eta bertzek, guziz Autrixianoaren kontra (Erreginaren kontra).</p>
+<p>Yenden izpirituak ere asaldatuak zauzkaten, erranez ez zela gehiago ogirik: gosetea yadanik Pariseko borthetan zutela, non ez zen gorthea ekhar-arazten Versaillatik Pariscra. Zonbaitek bazuten ere xede kriminelena eta beltzena, ahal bazuten, Erregeren eta Erreginaren hiltzeko. Phentsamendu horrekin, bildu zen, <hi rend='Italic'>Urriaren bostaren eta seiaren </hi>arteko gauean, gizon eta emazte oste handi bat elgarretara oihuz gora gora erranez: <hi rend='Italic'>Ogia, ogia; guazen ogiketa Versaillarat.</hi></p>
+<p>Neskatxa gazte bat, Madaleina Chabri izena zuena, bainan Luison deitzen zutena, juaten da soldado guardia bat zen lekhura eta han harturik tanbur bat, Marimuthiko hura da abiatzen tanbur yoiten. Laster inguratu zuten sei edo zazpi mila ematzar, bera iduri batzuek, eta zenbait ehun gizon hits eta gaixtoenek.</p>
+<p>Luison unhatu baitzen naski lastersko tanbur yoiten, Maillard deitzen zen uxer bat, Bastilla hartua izan zenean bere burua ezagutarazi zuena, eman zen Luisonen plazan.</p>
+<p><hi rend='Italic'>Denik era gisanago zen gizon </hi>bat eta ez neskatoko bat izan zadin kanaila multzo haren buruan.</p>
+<p>Beraz zer ikhusgarria Maillard tanbur soinuz aintzin aintzinean, eta haren ondotik sei edo zazpi mila emazte zantzaila, philzarra zariotela, anhitzak zango-has, edo galtzerdirik gabe, zenbait unthuts, asko motho edo kofia tzar eta zikhin batzuekin, ileak desordrean; oro busti-pelatuak eta gerriraraino ixtilez estaliak.</p>
+<p>Heyen artean baziren zenbait goseak; asko sobera edanak; guziek zuten begitartean pintatua gaizkia, bizioa, krima. Emakume saihera harrek bazuen bere buruzagia; nola gizonek baltzuten berea.</p>
+<p>Bi aitzindari horiek nahi ditut pixka bat bederen ezagutarazi.</p>
+<p>Emaztena deitzen zen T&eacute;roigne de M&eacute;ricourt. Erreboluzionearen hastean bazukeen hogoi eta hamar urthe hurbil. Presuna handi bat zen, ederra izana; bainan bere libertinkeriaren seinaleak begithartean ekhartzen zituena.</p>
+<p>Parisen zenean yende altxatze bat, ikhusiko zen ororen erdian T&eacute;roigne, pika edo lantza bat eskuan. 1792an, Agorrilaren hamarrean, Erregeren palazioa hartua izan eta gaixtaginez, neskatxa zahar eta tzar harrek masakraaraziko du Suleau, bertze bost gizonekln. Gero Autrixiako enperadorearen lurretarat yuan zen yenden nahastera eta erreboltan eman-araztera: bainan hartu zuten preso eta luzaz hala egon zen.</p>
+<p>Presondegitik atheratu zenean, Autrixiatik Pariserat itzuli eta, leheneko urhats makhurretan eta lagun berekin abiatu zen; bainan fitesko burua galdu bide zuen. Hitz batez haren ixtorio tristea akhabatzeko, erhoen barnean eman zuten; erho egonik hogoi bat urtheren ingurua, erho hil zen...</p>
+<p>Saihera bereko gizonen aintzindaria zen Jourdan deitzen zena, zoinak ongi merezitu baitzuen izengoititzat: Buru ebakitzailea.</p>
+<p>Lehenik ofizioz buxera zen. Gero soldado sarthu nahi izan zuen; bainan soldado unhatu baitzen laster, desertur zela yakin zuten. Deserturrak, bertzeren gauzak bereganatzen zituelakotz, hirriskatzen baitzuen yustiziaz itzalean ezarria izaitea, ihesari eman zen, eta leihorra bera utzirik, itsasoko untzi batean, lekhu segurragoan izanen zela, sarthu zen; bainan Aljerianoek untzi hartaz yabetu ondoan, gure gizona, gathibo egin zuten eta esklabo bezala saldu.</p>
+<p>Afrikatik zerbait ere gisaz eskapaturik, yin zen Pariserat, han bizitzeko ahal zuen bezala, erdia ohointzaz.</p>
+<p>Erreboluzionea hasi zenean, Jourdan naturalki prest presta zen zer nahi den obren egiteko. Berehala erakhutsi zuen ezin erranezko herra eta errabia bat Erregeren, Erreginaren, Aphezen, Noblen eta buryesen kontra. Haren atsegin handia bide zen aberatsen etxen arroatzea, erretzea eta hek berak masakratzea.</p>
+<p>Avignoneko probinziarat igorria izan zen, bera iduri bandil krudel batzuekin, zoinek formatzen baitzuten bere gisako armada bat. Armada hartako Patrix, bere yenerala, hil arazi zuen eta bera haren plazan eman zen.</p>
+<p>Avignon aiphatu dudan hirian, bildu zituen elgarretara hirur hogoi eta bi presuna, zoinetarik hamahirur emaztekiak baitziren. Oro hil zituzten, haren manuz, burdin phalanga ukhaldika.</p>
+<p>Ene lumak ez ditu nahi iskribatu tigre haren gisa hortako bertze masakreak.</p>
+<p>Biloak, arropak, eskuak eta guziz bere bizar luzea odolez thindatua zabilan, eta uria ari zenean, bizar hura zerbaitez estaltzen zuen beldurrez urak garbi zezakon.</p>
+<p>Azkenean izan zuen bere krimen saria. Justizia zen. Hirur hogoi eta bi egun Robespierre haren nagusia baino lehen, gillotinatu zuten.</p>
+<p>Holako lanak yadanik eginik, edo egin behar zituen Jourdan, zuten beraz hautatu aintzindaritzat Versaillarat yuan ziren gizon kiskil eta gaixtoek.</p>
+<p>Lafayette, Parisen guardia nazionaleko yeneralak, yakin zuenean zer hirriskutan izaitera zohan gorthea, yuan zen haren beiratzerat, bere azpikoer harmak harrarazirik.</p>
+<p>Parisetik eta Versaillaraino bada lau orenen bidea. Lafayette, gaua galdurik, hara orduko unhatua baitzen, bai eta haren gizonak ere, yuan ziren oro phausatzera.</p>
+<p>Parisetik yin kanailek ez zuten bertzerik xerkhatzen. Argia baino lehen, lau orenak irian, sarthu ziren, izilka, palazloko baratzetan, eta hurbildu athetaraino. Han bararazi nahi izan zituzten Sulsako soldadoetarik biga izan ziren hilak (Varikourt eta Deshuttes) eta bertze batzu afruski kolpatuak (Miomandre, Repaire eta Lhulier).</p>
+<p>Lehenbiziko bi biktima heyek, ez zuten bertze oihurik egin hiltzean, baizik hau: <hi rend='Italic'>Salba zazue Erregina!</hi></p>
+<p>Doi-doietarik eskapatu zen Erregina, erdia beztitua, bere ganberatik, eta han sarthu zirenek haren ohea zuten zilhatu pu&ntilde;al ukhaldika.</p>
+<p>Brigant eta brigantsa oste haren aitzinera jin zen bakharrik Errege, bere begitharte on, ezti eta mayestatez bethearekin, eta haren hiltzeko nahia zuten gaixtaginetarik bat ez zen menturatu haren hunkitzera.</p>
+<p>Luison, yadanik ezagutzen dugun neskatxa hura hurbildu zenean haren ganat, bere lagun zalamandrinen izenean mintzatzeko, flakatu zen , eta bere baitharat itzuli zenean, bakharrik zuen galdegin Erregeren eskuari musu bat emaitea.</p>
+<p>Luis XVInak buru eginik bi orenez bederen kanaila eta kanailasa oste hari, aditu zuen galdegiten zutela itzul zadin, bere familiarekln, Pariserat. Ordutik galdu zuen, erran daiteke, ez <hi rend='Italic'>xoilki </hi>erregetasuna, bainan libertatea bera.</p>
+<p>Sarthu ziren beraz karrosan, kapitalerat yuateko, Errege, Erregina, heyen bi haur gazteak eta Madama Elisabeth, Frantziako aingerua deitzen zutena. Ez ahal zen ikhusi, nihoiz ez nihon, orduan Frantzia ederrean ikhusi zena. Errege, Aita on bat, bere familiarekin, preso bezala eramana, bere suyetik gaixto eta tzarrenez.</p>
+<p>Ixtorioa ez laiteke konprendi ahal zenbait aldiz ez baginaki harrek khondatzen dituen gauzak gerthatu direla, edo Jainkoaren manuz, edo Jainkoaren baiamenarekin edo permisionearekin.</p>
+<p>Bertze hitzez erraiteko, Probidentziaren plana eta lana ikhusten ez duenak ixtorioan itsu handi bat da.</p>
+<p>Erregeren karrosaren aitzinean zaramatzaten, piket batzuen puntan, Jourdanek phikatu zituen bi soldadoen buruak.</p>
+<p>Emazte atrebitu eta galdu heyek ere zioten gora gora, Parisen ez zutela gehiago goserik lkhusiko, berekilan zituztenaz geroz bolanyera, bolanyersa eta muthil ttipia.</p>
+<p>Bailli, Pariseko merak, eskaini zazkon Erregeri borthetan hiriko gakhoak, zilharrezko plat batean, erranez: &laquo;Parise egun dohatsu da ikhusteaz bere erregea egoitera heldu zakola&raquo;.</p>
+<p>Baditake Bailli modest eta sabantak, guti ahal zuen phentsatzen orduan lehenik Erregek eta gero berak burua ebakia izanen zutela.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>6en KAPITULUA</p><--</head>
+        </front>
+        <body>
+<p>Bazuen 130 urtheren ingurua, gorthea Parisetik kanpo zela harat itzuli zenean. &mdash;Hango palazioan asko gauza andeatuak ziren, eta beste zenbaitek arras huts egiten zuten. &mdash;Pariseko palazioan, egiazki, Errege gathibo zen. &mdash;Konseilatu zakoten eskapa zadila. &mdash;Nekez eta bortxaz hartu zuen xede hori. &mdash;1791an, Ekainaren 21an zenbait zerbitzari leyalekin, entseatu zen ihesi yuatera. &mdash;Pariseko karriketan erreelaturik, oren baten gibelapena. &mdash;Gero Parisetik kanpo, timoya karrosakoa hautsirik, bertze gibelapen bat. &mdash;Errege ezagutua da 4 eta arrastatua. &mdash;Tristekl itzultzen da Pariserat, afrentua frango ukhaiten duelarik bidean. &mdash;Bazen 200 mila Paristar baino gehiago Erregeren familia sarthu zenean gathibo Parisen.</p>
+<p>Azken kapituluan ikhusi dugu Errege, bere familiarekin, nola yuan zen Versaillatik Pariserat. Bazuen 130 urtheren ingurua gorthea kasik bethi Versaillan zagola, eta arras arrarozki Parisen edo hango <hi rend='Italic'><foreign>les Tuileries </foreign></hi>deitzen den palazioan agertzen zen. Hortakotz azken egoitza huntan anhitz gauza andeatuak ziren eta zenbaitek falta ere egiten zuten.</p>
+<p>Han, egiazki, Errege gathibo zen, bai eta haren familiako guziak, abantzu bi urthe bazuen hala zaudela, gero eta gehiago herstuak.</p>
+<p>Askotan konseilatu zakoten Erregeri eskapa zadin kapitaletik, eta yuan zadin bere erresumako armada, yeneral leyal eta on batek gidatzen zuen batetara.</p>
+<p>Ez zuen xede hori berehala hartu, ez baitzen preseski kurayea haren kalitaterik bat. Bazukeen ere bere baithan phentsamendua edo beldurkundea, Yainkoaren deseinuen konplitzeko hartua izanen zela.</p>
+<p>Orogatik ere, karrosa berri bat egin arazi zuen, eta, zenbait zerbitzari eta adiskide leyalekin elgar aditurik, ekhainaren hogoi eta bateko gaua, 1791an, izan zen hautatua ihes egiteko.</p>
+<p>Adiskide eta zerbitzari hetarik zenbait behar ditut izendatu, hala nola Morde de Fersen, urrun urrundanik Frantziarat eta Pariserat yina, Erregeren eskapatzerat laguntzeko.</p>
+<p>Haren ondotik behar dire izendatuak izan: Morde de Maleden, de Valory, de Moustier, Madama de Neuville, Madama Brunier eta guziz, Madama de Tourzel, printze ttipiaren eta printzesaren gobernanta.</p>
+<p>Erregek eta harekilako guziek beren izenak khanbiatu zituzten. Madama de Tourzel zen Rusiako barona bat, de Korff deitzen zena. Madama Elisabeth haren zerbitzaria, Rosalie izena zuena; printze ttipia, anyere gisa beztiturik, eta haren arreba, Maria-Theresa-Charlotta, deitzen ziren Aglae (Printzea) eta Amelia (Printzesa); Erregina haur heyen gobernanta zen, eta Madama Rochet zuen izena, nola Errege deitzen baitzen Morde Durand.</p>
+<p>Luis XVIenaren xedea zen yuateko de Bouill&eacute; yeneralak gidatzen zuen armadara, iguzkiko phartean, Frantziaren bazterrean, Montmedy deitzen den hirira. Parisetik hara, bada hirur-hogoi eta hamar lekhua baino gehiago. Egun, burdinazko bideri esker, aise eta fite laiteke bide horren kurritzea; bainan orai duela ehun urthe, bertze molderik zen ikhusten. Piaya horren ixtorioaren ongi irakurtzeko, behar da orhoitu gure Errege eta haren familia urrikalgarria Yainkoak zituela hautatu, yadanik, anhitz aldiz eta hemen berean geroxago erran eta erranen dudan bezala, bere yustiziaren apazegatzeko biktimatzat. Zer biktimak behar ziren izan!!</p>
+<p>Beraz asko uste eta nahigabek seinalatu zuten Erregeren ihes yuaite hura.</p>
+<p>Lehenbizikorik, Parisen berean, gauaren erdian, izan zuen ezin esplika daiteken oren baten gibelapena. Parisetik abiatu eta, bidean, karrosako timboya eta bertze zerbait hautsirik, izan zuen bigarren gibelapen handi bat.</p>
+<p>Gero, nahigaberik handiena, eta ondoriorik tristenak ekharri behar zituena, izan zen de Bouill&eacute; yeneralak Erregeren bidera igorri zituen kabalierrek eta soldadoek ez aski denbora igurikitzea haren karrosa, eta fitegi phentsatzea utzi zukeela Monarkak bere playa egiteko, edo bertze nonbaitik yuan izan zaitekela.</p>
+<p>Ch&acirc;lons izena duen hiri batetako ostaler batek ezagutu zuen Errege, haren begithartea konparatuz zilhar sei liberako batean zen potretari. Ostaler hura ona zelakotz, ixilik egon zen, eta gogotik piayant handi eta pietate egingarria utzi zuen yuan zadin aitzina bere bidean.</p>
+<p>Bertze hiri batean, santa Menehulean berriz izan zen zorigaizki ezagutua, Drouet deitzen zuten hogoi eta zortzi urtheko gizon gazte batez.</p>
+<p>Drouet, orduko Frantzesik gehienak bezala, ausikia zen Erreboluzioneko, ez uliaz, bainan bai sugeaz. Miserable harrek, zaldiz galopan, aintzindu zuen Erregeren karrosa, Varennes deitzen den hiri ttipira orduko; bai eta altxarazi haren kontra hango eta inguruetan ziren bertze herrietako yendeak.</p>
+<p>Alferretan Erregeak eta Erreginak othoiztu zituzten yende heyek utz zitzatela aitzina yuaiterat. Bortxatuak izan ziren tristeki gibelerat yiterat.</p>
+<p>Net aise da bethidanik populuari izpiritua norat nahi itzul-araztea.</p>
+<p>Denbora hartan, kasik Frantzia guzia, osoki sumindua zakoten Erregeren eta Erreginaren kontra. Heyen karrosarat hurbiltzen zireneri debekatua zen deus errespetuzko eta ohorezko seinalerik heyer emaitea.</p>
+<p>Bizkitartean, Morde de Dampierre, Santa Menehule-ondoko Aitoren-Seme batek, nahi izan zuen gaixtaginen debeku hori hautsi, Erregeri mintzatuz, dudarik gabe hari erraiteko zer atsegabeekin zuen ikhusten haren Mayestatea nola zaramaten gathibo bat bezala Pariserat.</p>
+<p>Morde Dampierrek, bere Monarka uztean, hartu zakon eskua hari musu bat emaiteko; bainan ordu berean izan zen masakratua eta phusketan emana Erregeren beraren bistan.</p>
+<p>Bertzela ziren yokhatu yendeak Ferte-sous-jouarre deitzen den hiri ttipi batean, zeren heyen buruzagiak baitziren onak.</p>
+<p>Hango mera, Morde Regnard izena zuenak, prepara-arazi zuen, bere etxean, bazkari bat Erregeren familiaren eta haren segidako guzientzat.</p>
+<p>Madama Regnard bera pharatu zen torxoin xuria aitzinean, estranyer handi eta mila aldiz errespetagarriak ziren heyen zerbitzatzen.</p>
+<p>Erreginak aise ezagutu baitzuen bere airetik, eztiki zakon erran: &laquo;Madama, zu zare hemengo etxeko-anderea&raquo;. &laquo;Barkha dezadazu&raquo;, zuen ihardetsi Madama Regnardek; &laquo;ene Erregina, gure etxean zu sarthuz geroztik, ez naiz zure zerbitzaria baizik&raquo;.</p>
+<p>Aphairua akhabatu eta, karrosarat iragaiteko phonduan, Erreginak nahi izan zuen Printze ttipiak erremesia zezan Madama Regnard.</p>
+<p>Haur izarra bezain ederra zen harrek, bethi erakustera uzten zuen izpiritu prunt eta handiarekin, erran zuen beraz etxeko-andereari: &laquo;Madama, Mama Erreginak eskerrak dauzkitzu bihurtzen guretzat izan ditutzun borondatez, eta nik ere berdin dauzkitzut emaiten, zeren anhitz atsegin egin baituzu Mamari.</p>
+<p>Ordu da ikhus dezagun zer egin zuten Paristarrek, yakin zutenean Errege yuan zela ihesi. Zenbait ziren espantitu, dudarik gabe zentzu guti zutenetarik. Bertze batzu ziren kolera furian, sarthu. Yende xehearen artean zenbait seinalatu ziren, bethi bezala, beren grosierkeriez. Hetarik asko yin ziren Tuilerietako palaziorat. Batek, Erregeren potreta khendurik bere lekhutik, eman zuen borthan dilingan.</p>
+<p>Emazte bat yarri zen Erreginaren ohearen gainean eta han hasi gerezi saltzen, gerezi sasoina baitzen. Neskatxa gazte bati eman zakoten Erreginaren kofia bat, erraiten zakotelarik ezar zezan buruan; kiskilsa harrek ostikatu zuen bere zangoen azpian. Deputatuen biltzarreak igorri zituen bere menbroetarik hirur Erregeren eta haren famillaren bilha; hek ziren Morde de Latour-Maubourg, Barnave eta Pethion. Lehena, noble gehienak bezala, errespetuz bethea izan zen Errege eta Erregina, hain dolu egingarriak zirenen alderat. Bigarrena, Barnave, Grenobleko deputatu gaztea, protestante, eta ordu hartan Erregeren etsala, hunkitua izan zen haren zortheaz eta haren familiarenaz. Laudagarri den molde batean pharatu zen heyer buruz, Pethion bertze gisaz yokhatzen zen denboran.</p>
+<p>Ixtorioko egiak nahi du errana izan dadin hirur deputatu heyek, Erregeren, Erreginaren eta Madama Elisabethen othoitzak entzunez, ongi zaindu zituztela Morde de Moustier, de Valory, eta de Maleden, bai eta hek debekatu, hamar aldiz, bidean eta Parisen sartzean, gaixtaginez masakratuak izaitetik.</p>
+<p>Yadanik erran dugu, Errege athera zen bere familiarekin Ekhainaren 2lan eta harat itzuli behar zuen, khondatu dugun bezala, 25an, beraz lau egunen buruan.</p>
+<p>Kapitalean sartzean, haren karrosa inguratua izan zen 150 mila edo 200 mila presunez, eta eman zuen, hiriko borthetarik Tuilerietako palazioraino, lau oren baino gehiago.</p>
+<p>Nola bero bat ezin gehiago handia egiten baitzuen, Erreginak, karrosako erridauak altxaturik, adiarazi zuen bere amabotza, erraiten zuelarik yende oste handi hari haren bi haur gaixoak, aire eskasez, hatsa galtzeko heinean zirela.</p>
+<p>Hola sarthu ziren beraz tristeki, gathibo handi eta maithagarri heyek bere palazioan, arratsaldeko bost orenetan. Printze ttipia, unhatua ezin gehiago, besoetan hartu zuen Morde Hue, bere zerbitzari batek, eta heldu Madama Tourzel, bi haurren gobernantaren eskuetarat.</p>
+<p>Deputatuen biltzarrean, yakobinen klubako gizonek, erran nahi da Robespierre eta haren lagunek, galdegin zuten Errege izan zadin yuyamenduan emana denborarik galdu gabe.</p>
+<p>Beren phartetik, Danton, Camille Desmoulins eta heyek iduriek nahi zuketen Errepublika ezar zezaten Frantzian berehala.</p>
+<p>Biltzarreak deklaratu zuen bakharrik Errege khendua zela bere kargutik denbora batentzat.</p>
+<p>Handik laster, berriz ezarri zutenean bere karguan (ez dut erraiten tronuan), ez zakoten utzi erregezko autoritatearen itzala baizik.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>7en KAPITULUA</p><--</head>
+        </front>
+        <body>
+<p>Erreboluzioneko bigarren biltzarrea, Lege egilen biltzarrea deitzen zena bildu zen Urriaren lan 179lan. &mdash;Biltzarre horri eratxikitzen diren orhoitzapenik premiatsuenak dire Ekhainaren hogoieko, Agorrilaren hamarreko eta Buruilaren bi, hirur, lau eta bosteko gerthakariak.</p>
+<p>&mdash;Pariseko gaixtaginak aixatu ziren, estakuru huntan, baizik Erregek ez zuela nahi sinatu dekretu bat aphezen kontra zena. &mdash;Funtsera yuan eta, Errege eta Erregina hil nahi zituzten. &mdash;Agorrilaren 10ko erreboluzioneak, beste estakuru batean, gauza bera zuen xerkhatzen . &mdash;Orduan ezarri zuten preso Errege, bere familiarekin. &mdash;Buruilako bi, hirur, lau eta bostean izan ziren masakre handiak Parisen.</p>
+<p>Askotan aiphatu dugun deputatuen biltzarrea, bera konstituzionekoa deithu zena, barreatu behar zen buruilaren azken egunean 179lan. Iraun zuen bi urthe eta lau ilhabete.</p>
+<p>Bilkhura hartako gizonik gehienak, beren doktrina faltso eta zoroekin, izpiritu bero eta erhoska batzu zirela zuten maiz eta sobera frogatu.</p>
+<p>Ordu zen lekhu egin zezaten bertze bilkhura batetako gizoner, nahiz azken hok ere, zorigaizki, heyek iduriak izan behar ziren.</p>
+<p>Bigarren biltzarre huni eratxikitzen dire, oroz gainetik, hirur orhoitzapen, zoinak deitzen baitire ixtorioan <hi rend='Italic'>Ekhainaren hogoia, Agorrlaren hamarra, Buruilaren bia, hirura, laua </hi>eta<hi rend='Italic'> bosta.</hi></p>
+<p><hi rend='Italic'>Aise konprenditzen dute ene anhitz irakhurtzalek erraitera nohala zer gerthatu zen Parisen lhenbiziko aiphatu bi egun hetan; eta gero buruilaren hastean nola hil zituzten hango presudegietan zazkoten </hi>Arxapezpiku, Aphezpiku, aphez, fraide eta bertze anhitz mila Franses.</p>
+<p>Beraz, Ekhainaren hogoian, framazonek eta bertze erreboluzioneko buruzagiek igorri zituzten zortzi mila gizonen ingurua, lehenik deputatuen biltzarrera, alegia petizione bat han presentatu beharrez.</p>
+<p>Biltzarre harrek utzi zituen bere salan sartzera, salbu hetarik bat, zoinak ekhartzen baitzuen lantza edo pika baten puntan aratxe bihotz bat, erranez zela hura Aitoren-Seme batena. Gizon tzarrenetarikako oste handi hau yuan zen gero, lege-egilen salatik, Tuilerietako yauregira, traba guziak hautsiz, borthak bortxatuz. Heyek xerkhatzen zutena zen, yadanik Versaillan bezala, Erregeren eta Erreginaren hiltzea. Luis XVIen onaren aitzinerat yuateko zuten estakurua zen Erregeri erran behar zakotela aproba zitzan biltzarrearen dekretu batzu, zoinetarik bat egina baitzen preseski aphez on eta fidelen kontra.</p>
+<p>Dekretu heyek ez ziten izan segituak, Erregek zuen erraten latinez <hi rend='Italic'><foreign>Veto </foreign></hi>(debekatzen dut beiratuak edo etsekutatuak izan diten lege gaixto horiek) eta Erregeren baia gabe dekretuek ez zezaketen ukhan indarrik.</p>
+<p>Santerre, biera egilea, eta Saint-Huruge, <hi rend='Italic'><foreign>marquis </foreign></hi>edo noble triste deboxatu bat zituztela buruzagitzat, Paristar erreboltatuak sarthu ziren beraz Tullerietan oihuka: &laquo;Eror dadila Morde Veto; eror dadila ere Madama Veto&raquo; (Errege eta Erregina). Errege, oihu tzar horiek aditzen zituelarik, bera pharatu zen gaixtagin heyen guzien aitzinean, eta bakharrik buru egin zeyen lau orenez.</p>
+<p>Madama Elisabetek, nahi izan zuenean Monarka bere anayaren hirrisku beretan aurkhitu, Erregeren aldean pharatu zeneko, gizon bat, printzesa Erreginarentzat hartuz, abiatu zen bere lantzaz phasatu behar zuela.</p>
+<p>Uroski norbaitek oihu egin zakon: &laquo;Ez da hori Erregina! madama Elisabeth duzu zure aitzinean&raquo;.</p>
+<p>Legendre deltzen zen buxer bat, hurbildu zen Erregeren gana, eta zer nahi inyurio suerte erran zazkon bekhoz-bekho. Erregek ez zuen galdu, ez bere pazientzia, ez bere begitharteko arraitasuna. Bertze gizon itsusi batek ere oihu egin zuen Erregeri aproba zitzala aiphatu dekretuak; bainan Erregek zuen ihardetsi, digneki eta fermuki, ez zela ez orena, ez tokia dekretu heyen aprobatzeko. Hirurgarren batek proposatu zuen Erregeri baso bat arno edan zezan populuaren bistan eta haren osagarriari.</p>
+<p>Erregek, sakrifizio guzietarat prest zenak, konsentitu zuenean edatera, nola ez baitzen han basorik, hartu zuen botoila, eta bere ezpainak busti zituen edariaz, erakhusterat emaiteko ez zela beldur phozoinda zezaten. Egia da, ikhusi dugun bezala yadanik, sobera ardura izan zituela phozoindatuak arima eta bihotza.</p>
+<p>Paristar miserable hetarik zenbait yuan nahi izan ziren Erregina bere bi haurrekin zagon ganberara. Bisita hits hau ukhaitera zohatzila ohartu zirenean, zerbitzariek fite ezarri zituzten, trebes, zenbait mahi, hetarik baten gainean printze ttipia yarririk, eta Erregiria, Printzesa bere alabarekin, barneko aldean.</p>
+<p>Gaixtaginek ez zuten bertze gaizkirik egin Erreginari eta bi haurreri, xoilki hetarik batek printze ttipiari ezarri zakon bonet handi gorri bat buruan. Haur gaixoa, sei urthetan, gosetua eta unhatua, bero handi batez egon zen lau oren, yan eta edan gabe!!</p>
+<p>Printzesa nigarrez ikhusi zuten. Maria Antuaneta, Erreginak, ezagutzerat eman zuen, Maria Teresa inperatrizaren alaba zela.</p>
+<p>Yin ziren bezala yuan ziren zazpi edo zortzi mila Pariseko suyet tzar heyek, zenbait pleinituz bere kolpea huts egin zutela egun hartan; bainan ziotelarik laster itzuliko zirela egin gogo zutenaren egitera; hura zen Erregeren bethikotz tronutik khentzea eta ahal bazuten haren beraren hiltzea!!...</p>
+<p>Xede kriminel hori buruan, sobera fidel egon ziren eman zuten hitzari. Ekhainaren hogoiean hasirik, heyen pharteko gazeta egile batzuek, egun guziez zituzten izkribatzen artikulurik beltzenak Erregeren eta Erreginaren kontra. Guzien gainetik zen seinalatzen Marat munstroa.</p>
+<p>Tuilerietako yauregian bazakiten ongi zer preparatzen zuten Erreboluzioneko gizonek Erregeren kontra. Agorrilean, bederatziaren eta hamarraren arteko gauaren erditan, aditu zen Parisen kanoi ukhaldi bat lehenik, eta gero hirrisku handitan adi arazten zen eskila. Bertze arrabots frango ere izan zen karriketan, argia hasi artean. Iguzkia yeikitzen abiatu zenean, Madama Elisabetek begiak altxa arazi ziozkan Erreginari zeruetako hedoi hori hori, ederki doratuak zireneri. Helas! ekhiak azken aldikotz zuen argitu behar Luis ha aseigarrenaren erregetasuna! Dudan egonik luzaz Errege, behar zuen bai ala ez ihardoki harmekin haren etsai oste handi hari, ezagutu zuen ez zezakela khonda Suisako zenbait ehun soldadoen gainean baizik. Tristeki bainan arrazoinekin, debekatu zaioten azken hauyer berer deusik egitea alferki haren fagoretan.</p>
+<p>Gero laster, ikhusi zituenean yauregian sartzen, milaka eta milaka, Pariseko eta heyekin Frantzia guziko gaixtaginak, yuan zen, bere familiarekin, deputatuen biltzarrerat.</p>
+<p>Errege yuan ondoan ere, Suisak beren postetan zauden, partikulazki eskalerretakoak. Gaixtaginek, azken hotarik lau edo bost, beren ganat tiratu zituzten, krakoekin, eta hil berehala pu&ntilde;al ukhaldika.</p>
+<p>Bertze Suisek, ikhusiz zer sorthe krudel eta izigarria ukhan zuten heyen lagunek, eta phentsatuz heyena berdin izanen zela, memento berean beren harmak deskargatu zituzten gizon hiltzaile heyen gainerat, bai eta garbitu, memento batez, yauregia, haren baratze eta basakurteak.</p>
+<p>Suisak izan balire nonbrean ihes yohan zirenen segitzeko, biktorios gelditzen ziren, bainan Paristarrek, kontsideratuz zoin guti ziren, berriz yauregiko alderat itzuli ziren; han sarthu eta buxeria bat egin zuten kasik Suisa guziez. Egun guzia eta gaua, iraun zuten sarraskiek edo masakreek. Errege eta haren familia, hirur egun egon ziren biltzarrearen salan, edo haren ondoan zen komentu zahar batean. Gero, biltzarreak hitzeman ondoan Luxembourg deitzen den palaziorat yuanen zirela, igorri zituzten preso, Tenploa izena zuen lehenagoko Xebalierren komentuko dorhe batetara.</p>
+<p>Irakhurtzaile maitea, orhoit zaite Frantziako Erregea, eta erregetan amultsuena, izan zela gisa hortan tratatua bere suyetez; bai eta Erregina handi eta on bat eta heyekin zazpi urtheko printze xarmanta; haren arreba, hamahirur urthetako printzesa eztia, eta azkenik heyen izaba, sainda huts bat zena. Zuhorrek asmatu behar ditutzu mila eta mila xehetasun, nik hemen khonda ez detzazketanak.</p>
+<p>Urthe bereko hirurgarren orhoitzapen edo gerthakari izigarriez ez dut erranen zenbait hitz baizik, gaitz edo penible baita gauza batzuen iskribatzea eta heyen irakhurtzea.</p>
+<p>Frantzian eta Frantziatik kanpo, yakin zutenean Luis XVIna preso zela bere familiarekin, mundua espantitu, harritu zen, eta aise asmatu zuten Erreboluzioneko gizonak yuanen zirela gauzen azken kontsekentzietaraino.</p>
+<p>Gure erresumaren auzoetako monarkek, bederen zenbaitek, nahi zuten salbatu Luis XVIna, eta atheratu hura bere etsaien aztaparretarik. Xede hortan igorri zuten Frantziako alderat armada bat, zointan baitziren Frantziako asko Aitoren-seme estranyererat yuatera bortxatuak izan zitenak. Parisen yakin zutenean, Brunzvikeko printzea, bere Prusianoekin, sarthu zela hiri batean eta zela sartzekotan bertze batean lotsatzeko orde, gaixtoak kolera furian eman ziren, eta hartu zuten xede bat beltzenetarik, Erregeri fidel zaudenen hiltzeko.</p>
+<p>Danton, lehoin bati konpara zaitekena, yustiziako ministroa zen. Bera iduri bi edo hirur ehun gizon gaixtoekin, bethe arazi zituen Pariseko presundegiak eta presundegi bilhakatuak izan ziren elizak eta komentuak, bai Aphezpiku, bai aphez, fraide, Aitoren-Seme eta bertze askoez.</p>
+<p>Gero, dudarik gabe mundu guziaren eta mende guzien lazteko, ikhararazteko, lau egunez eta lau gauez hek guziak hil zituzten, sabre, lantza, pu&ntilde;al ukhaldika eta tiroka.</p>
+<p>Karmen komentuan eta heyen elizan imolatu zituzten gisa hortan Arxaphezpiku bat, bi Aphezpiku, biak anayak, zortzi bikario yeneral, hamazazpi semanario eta komentuetako superior, hogoi erretor, hamasei bikario, eta bertze aumonier, doktor eta kargu gabeak, orotara 197 aphez.</p>
+<p>Izigarrikeria horiek berak ikhusi ziren Parisen bertze sei edo zazpi tokitan. De Lamballe, printzesa gaztea, Erreginaren adiskideak, izan zuen burua ebakia, nahiz 200 mila libera eman zituzten haren libratzeko, eta buru ebakia eremana izan zen pika baten puntan Erregina zagon presondegiko leihoen azpira. Bertze andere gazte batek bere aitaren libratzeko, behar izan zuen iretsi baso bat yende odol, edo baso bat arno, odolez zikhindua.</p>
+<p>Parisen izan ziren hola bost edo sei mila bizia galdu zutenak.</p>
+<p>Bertze hiri batzuetan ere izan ziren masakre horietarik.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>8en KAPITULUA</p><--</head>
+        </front>
+        <body>
+<p>Erreboluzioneko hirurgarren biltzarrea deitzen zen Konbenzione nazionala. &mdash;Egundaino izan den biltzarrerik munstroena. &mdash;Buruilaren 21an Errepublikaren proklamatzea. &mdash;Erregerentzat, Tenploko presondegla khanbiatu zuten kaxot 'batetara. &mdash;Mila laido eta afruntu itsusiren ondotik, hasi zuten Abendoaren llan, Erregeren auzia. &mdash;Haren abokatak ziren Malesherbes, Tronchet eta Des&eacute;ze. &mdash;Abendoaren 26an Luis XVIna agertu zen, bigarren aldikotz, deputatuen aitzinean. &mdash;Luzaz eta ederki, Des&eacute;ze, Erregeren abokata, mintzatu ondoan, akhabatu zuen bere diskursa, erranez deputatueri: &laquo;Yaunak, alferretan bilhatzen ditut zuen artean yuyeak, ez dut akusatzailerik baizik edirelten&raquo;. &mdash;Kondenatu zuten Luis XVIna gillotinarat, eta yuan zen Errege inozenta, Urtharrilaren 2lan, aphez Irlandes batek preparaturik heriotzerat.</p>
+<p>Erreboluzioneko hirurgarren biltzarrea deitzen da ixtorioan Konbenzione nazionala. Yadanik yuyatu izan ditugu alse lehenbiziko blak, edo bere obra tristekin agertu izan dire gure begien aitzinean egiazki zer ziren. Egun hasiko gare orai aiphatu hirurgarren hunen ezagutzen, eta laster dugu ikhusiko, mundu hau hasiz geroztik ez zela aurkhitu lurrean holako bilkhurarik, ezen hau kasik osoki zen gizon munstro batzuez egina. Munstro hetarik hiruren izenak ditut bakharrik orai iskribatuko; ene luma sobera zikhint laiteke, hastetik oro izenda banintza.</p>
+<p>Danton izan zen, yadanik dakigun bezala, Buruileko bost edo sei mila presuna masakratuak izan ziren hil-araztale prinzipala.</p>
+<p>Joannes Paulo Marat, bigarrenak, galdegiten zituen lau ehun mila gizon buru, dudarik gabe errepublikaren fundamentetan emaiteko, nola heyen odola zimenduetarat aurthikitzeko.</p>
+<p>Maximiliano Robespierrek erraiten zuen Erreboluzionea hastean hamabost urthe zituzten guzek behar zuketela peritu, zeren heyek, Frantzia zaharra ezagutu zutenek, ez baitzezaketen maitha Frantzia berria, Frantzia errepublikanoa.</p>
+<p>Hirurgarren biltzarre huntako zazpi ehun eta berrogoi eta bederatzi gizonak bildu ziren elgarretarat Buruilaren 2lan, 1792an eta deklaratu zuten, egun berean, handik harat, erregetasunaren orde, errepublika izanen zela Frantzian.</p>
+<p>Ez zen huntan behar baratu biltzarre nazional hau. Konstituzioneko biltzarreak, uzkaili zuen Frantziako tronua, munduan zen tronurik ederrena. Lege egiteko biltzarreak, hautsi zuen gero tronu hura bere khoronarekin eta zeptroarekin; Konbenzioneko biltzarreak, bertzek hain gaizki hasi lana, nahi izan zuen akhabatu, Errege, Erregina, zortzi urtheko printzea asasinatuz, bai eta ere Madama Elisabeth, sainda bat zena.</p>
+<p>La Fontaine fabula egile edo berri-xahar khondatzailea, bizi izan balitz, ez Luis XIVen denboran bainan yuan den mendearen akhabantzan, huna zer berri-xahar asmatuko zuen, eta hau egia izanen zen.</p>
+<p>Behin batez, nunbaiteko edo anhitz tokitako bestia krudelak, ehunka eta ehunka bildu ziren elgarretarat: hek ziren lehoinak, tigreak, hartzak, otsoak eta bertzeak. Bestia heyek, gose errabiatuak zirenak, nahiz beren biktimak hil, phuskatu eta yan gogo zituztelarik, alegia bizirik utzi gogo, hetaz krudelki trufatu ziren, zonbait mementoz.</p>
+<p>Irakhurtzailea, emazkitzu, lehoinen, tigren, otsoen eta hartzen plazan, hirurgarren biltzarre huntako deputatuak, eta heyen hortzen eta aztaparren erdian, Errege eta haren familia ona eta inozenta: horra Erreboluzionea zer izan den edo hark zer egin duen, hasi eta laugarren urthean. Yadanik utzi dugu Errege Tenploan, bere familiarekin. Tenploa izan zen laster khanbiatua presondegi edo kaxot batetara. Hango leihoetan ezarri zituzten, Erregeren beraren bistan, burdin barrak, eta gero, heien barneko aldetik, taulazko traba suerte batzu, airea eta argia ez ziten kasik batere sar egoitza triste hartan. Han, airea eta argia bezala, eskas ziren gauzarik beharrenak.</p>
+<p>Erregeri ez zakoten emaiten hitzemana izan zayonetik kasik deus ere, eta haren zerbitzari fidelek, eten sakeletarik, pagatzen zituzten Erregeri ekhartzen eta hark paga ez zezazkeen khonduak.</p>
+<p>Printze ttipiaren oheko mihiseak anhitz lekhutan zilhatuak ziren. Haren beztitzeko, Angleterrako enbaxadorearen emazteak igorri zituen bere haurren arropetarik zenbait.</p>
+<p>Erregina bortxatua zen, ahal zuen bezala, bere philden xuxentzera edo aphaintzera.</p>
+<p>Mila laido eta afruntu itsusiren ondotik, hasi zuen biltzarreak, abendoaren llan, Erregeren kontra, izenik ez duen auzia.</p>
+<p>Malesherbes, Tronchet eta Des&egrave;ze, haren hirur defendatzailek, ez zuten ukhan behar zuten denbora ongi preparatzeko; bainan, gehiago denbora ukhan balute ere, debalde izanen zen.</p>
+<p>&laquo;Erregek ez du merezi hiltzea; bainan hil behar da, hilen dugu&raquo;, zuten erran Erreboluzioneko gizonik gaixtoenek.</p>
+<p>Abendoaren 26an beraz, Eguberri biharamunean, Luis XVIna agertu zen, bigarren aldikotz, deputatuen aitzinean, bere hirur abokatekin.</p>
+<p>Abokat hotarik gaztenak, Des&egrave;ze deitzen zenak, aise erakutsi zuen eta frogatu Erregeren inozentzia.</p>
+<p>Luzaz eta ezin gehiago ederki mintzatu ondoan, bere diskurtsa akhabatzen zuelarik, behatu zuen erreposki deputatu guzier, eta zeyen erran hitz hok, ethorkizunak ahanzten ez dituenak: &laquo;jaunak, debaldetan dire kurritzen ene begiak zuen gainean, nahiz hatzeman zenbait yuye, ez dute akusatzailerik baizik edireten zuen artean&raquo;.</p>
+<p>Erran zeyen oraino: &laquo;jaunak, baratzen naiz ixtorioaren aitzinean. Hark yuyatuko du zuen yuyamendua, eta haren arrasta izanen da mende guziena...&raquo;</p>
+<p>Urtharrilaren 16an 1793an kondenatu zuten Luis XVIna hiltzera.</p>
+<p>Sententzia hori ontsala eman izan behar zen deputatu guzien bederen hiruretarik biez; bainan zonbait botz bakhar izan zirelakotz gehiago, Erregeren kontra, aitzina yuan ziren bere bide galduan, gizon infame eta krudel heyek. Hemen erran behar dut gure Eskual-herriaren ohoretan, ez zela gure deputatuetarik bat izan Errege hiltzera kondenatu zuenik.</p>
+<p>Bakharrik Garat, Uztariztarrak, konte Garat ezagutu dugunaren aitak, orduan yustiziako ministro zenak, ereman zakon Erregeri presondegira arrasta lo tristea.</p>
+<p>Hortakotz gure herrietako familia onen begietan Garaten arraza agertu da geroztik nota hits batekin, eta hori dakote sendiarazi edo erakustera eman asko aldiz.</p>
+<p>Ilhabetearen 20an, biltzarreak eman zuen dekretu berri bat Errege izan zadin biharamunean berean igorria suplizlorat.</p>
+<p>Aditu zuen Monarka yustu eta on harrek arrasta, trankilki, estonatu edo trublatu gabe. Bakharrik zituen hirur gauza galdatu, lehena, sei aste hartan ikhusi ez zuen bere familiaren ikhustea; bigarrena, kofesor bat, bere hautukoa; hirurgarrena, hirur egun hiltzerat preparatzeko.</p>
+<p>Lehen bi gauzak izan ziren onhetsiak, bainan ez hirurgarrena.</p>
+<p>Luis XVIna egon zen zazpi oren laurden Erreginarekln, bere arr&eacute;barekln eta bere bi haurrekln.</p>
+<p>Erreginak eta Madama Elisabethek erakutsi zuten kuraye handi bat, ikhusten baitzuten Erregeren dolorezko denbora, edo pasione luzea akhabatzera zohala; bainan azken adioetan Printzesa Maria-Teresa-Charlotta flakatu zen eta printze ttipia, haren anaya, eman zen bihotza erdirarazten zuten heyagora eta nigar-marrasketan.</p>
+<p>Erregek utzi zituen, ahal zuen bezala, mundu huntan gehiago ikhusi behar ez zituen presuna maite heyek.</p>
+<p>Bederatzi orenak eta erdia ziren deithu zuenean aphez kofesorra.</p>
+<p>Madama Elisabethek erran zakon, Du Bac deitzen zen karrikan, 483ko numeroan, bazela aphez bat katolikoa, Irlandesa, Morde Edgeworth de Firmont, eta konstituzioneko yuramentua egin ez zuena. Errege kofesatu zen aphez hari eta egon harekin gauherdi eta oren erdiraino.</p>
+<p>Orduan eman zen ohe batean, eta han, yustuen loak harturik, egon zen lo, goizeko bost orenetan, bertzek iatzar arteraino.</p>
+<p>Morde Edgeworth de Firmont aphezak, erran zuen meza sei orenetan, eta eman zakon, Erregeri, Biatiko saindua, zoinak errezebitu baitzuen pietate eta kharsutasun handienarekin bere Yainkoa.</p>
+<p>Bederatzi orenetan yin zen Santerre Tenplora, erraten zuelarik Erregeri orduan zela tenora handik atheratzeko.</p>
+<p>&laquo;Guazen&raquo;, zuen ihardetsi, fermuki eta digneki, Erregek, tronuaren gainean izan balitz bezala.</p>
+<p>Karrosan bere aldean zuen aphez kofesorra, eta harekln yuan zen, bide guzian, othoitzean eta eternitateaz mintzatuz. Haren segitzeko igorriak izan ziren bi gizon triste yandarmek, bazuten manua pu&ntilde;al ukhaldika hiltzeko Errege, baldin haren adiskideak, edo haren suyet fidelak entseyatzen baziren haren libratzerat.</p>
+<p>Erregeren egun hartan libratzea, egin ez zaiteken lan bat zen, ehun mila gizon zirenaz geroz harmekin kurritzen, biltzarrearen manuz, Pariseko karriketan.</p>
+<p>Yende guzia harritua eta tristezian urthua egon zen egun hartan; magasinak edo botigak hetsiak egon ziren, egun hartan, goizetik hasi eta arratseraino.</p>
+<p>Karrosa tristea heldu zenean Erreboluzioneko Plazara, hamar orenen ingurua zen.</p>
+<p>Khen arazi zakoten Erregeri bai koleta, bai xenila edo gaineko arropa.</p>
+<p>Besoen estekatzen abiatu zazkoten, eta lehenik Errege errefusatu zen humiliazione hortarat, bainan laster sumetitzeko, bere kofesorrak adi arazi zazkonean hitz hok: &laquo;Errege, uzten baduzu zure burua estekatzerat, Salbatzaile dibinoa hortan ere imitatuko duzu bertze gauzetan bezala&raquo;.</p>
+<p>Gero aitzinatu zen zenbait urhats plaza bethetzen zuten gizonen alderat, eraiten zeyelarik goraki: &laquo;Hobenik gabe noha hiltzera; barkhatzen dut ene etsaieri; agian ene odola ez da eroriko...&raquo; Santerren manuz, atabalek estali zuten Erregeren botza...</p>
+<p>Burua ematera zohalarik, aphezak oihu egin zion: &laquo;San Luisen semea, iragan zaite zerurat&raquo;.</p>
+<p>Hamar orenak eta hogoi eta bi minuta ziren Erreboluzionearen krima handia konplitu zenean. Krima horrek laztu zuen lehenik Parise eta gero Frantzia guzia.</p>
+<p>Charles Sanson, burreua bera, egon zen, bizi zeno, orhoitzapen ikharagarri horrekin. Urthe guziez, urtharrilaren 2lan, eman-arazten zuen meza bat Erregeren arimaren fagoretan, eta hura entzuten, bere familia eta ahalde guziekin.</p>
+<p>Hura hil izan zenean 1805an, Henri Sanson haren semearen phartez, bethi meza emana zen, eta gauza horrek iraun du 1839 artino.</p>
+<p>Urthe hartan akhabatu bide da Sansonen arraza.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>9en KAPITULUA</p><--</head>
+        </front>
+        <body>
+<p>Erreginak behar zuen, Erregek bezala, burua ebakia izan, gaixtaginen manuz. &mdash;Chaveau-Lagarde eta Tron&ccedil;on-Ducoudray, haren bi abokatek, alferretan zuten defendatu bere yuyen aitzinean. &mdash;Kurayerekin yuan zen heriotzerat. &mdash;Hogoitxineko urhezkoen gostuz, aphez katoliko bat presondegirat hel-arazi zuten Erreginaren hiltzerat preparatzeko. &mdash;Aphez hura zen Morde Magnier, zoina, Erreboluzione ondoan, erretor izan baitzen Pariseko eliza batean. &mdash;Madama Elisabeth ere igorria izan zen supliziorat mayatzaren 2lan, 1794an, bertze anhitz anderekin. &mdash;Luis XVIIna, Frantziako errege izan behar zena, Simon zapetainak emeki-emeki hil arazi zuen, eta printzea yuan zen zerurat ekhainaren San, 1795an.</p>
+<p>Erregek bezala, behar zuen Erreginak ere akhabatu bere bizia, burua ebakia izanez; krima berri hori egin zuten, arte hartan atxikirik ama dohakabea bere haurrekin presondegian.</p>
+<p>Luis XVIna asasinatu zutenean, erran dutan bezala, Maria Antoanetek hartu zituen doluzko arropak eta berak aphaindu behar zituen urratzen edo zilhatzen zazkonean.</p>
+<p>Alde batetik, berenaz azkarra edo fierra den, eta bertzetik hobenik ez duen arima baten kuraye guzia erakhutsi zuen, nahiz hura alegia yuyatu behar egin zutenen aitzinean, nahiz gillotinatzerat, orga tonberoan, eraman zuten orenean.</p>
+<p>Bi abokatek, Chaveau-Lagarde eta Tronion-Ducoudray deitzen zirenek, alferretan zuten frogatu haren inozentzia, eta adi-arazi ez zuela beraz merezi hiltzea.</p>
+<p>Erreginak ez zuen nahi izan kofesatu yuramentua eginik zagoen Girard, aphez xizmatikoari; bainan andere Fauchek igorri zakon presondegira, anhitz hogoxineko urhe pagatuz haren zaintzalecri, Morde Magnier, yuramentua egin nahi izan ez zuena, eta geroago, Frantziako Elizari bakea emana izan zenean, Pariseko eliza batean erretor izan behar zena.</p>
+<p>Madama Elisabeth yuan zen supliziorat handik bertze urthean, mayatzaren 2lan, 1794an, bertze anhitz andere handirekin.</p>
+<p>Azken hauk gillotinatu baitzituzten lehenik, beren burua eman baino lehen marraza izigarriaren azpian, agur handi bat egin zuten, orok, Madama Elisabeth printzesaren aintzinean pasatzean.</p>
+<p>Luis XVIIna izan behar zena, eman zuten Erreboluzioneko gizon munstroek, Simon deitzen zen zapetain tzar eta tigrearen pareko zenaren eskuetan.</p>
+<p>Errege bizi izan zeno, berak instruitu zuen bere seme printze ttipia; hura hil eta, berriz diot, zapetain gaixto bat izan zen kargatua haren altxatzeaz, edo hobeklago erraiteko haren hil arazteaz.</p>
+<p>Ez da tratamendu gaixtorik printze inozentak yasan ez zuenik.</p>
+<p>Batean haur maitea lo zagolarik iratzar araziko zuen Simonek, erraiten zakolarik: &laquo;Yaiki hadi, otso umea...&raquo; Bertze aldi batez emanen zakon uhal batez, zapetainek zapeta belhaunaren gainean dakoten uhalaz...</p>
+<p>Gizon krudel harrek aurthikitzen zakon, burutik behera, larru phusken hezatzeko aldean zakon untzia, bere ur zikhinarekin...</p>
+<p>Printze ttipi, aingerua bezain inozenta zena, bortxatua zen oraino kantatzerat batere onak ez ziren kantu batzu.</p>
+<p>Simonek eta haren emazteak uzten ere zuten haur printzea orraztatu gabe eta zikhinkerian. Ez da estonatzeko hola laster haurra peritzen abiatu bazen. Naski fitetzago akhaba zadin, eman zuten bere presondeglko zolan aurkhltzen zen ganbera batean, non ez baitzuen ez airerik, ez argirik.</p>
+<p>Han zakoten zokho batean, bethi kasik bakharrik, ohe aski pobre eta sobera garbia ez zen batean.</p>
+<p>Haren gaitza handitu eta sendatzeko esperantza guti uzten zuenean, deithu zuten Desault mediku famatu bat, Luis XVIna bere tronuaren gainean zelarik, printze ttipia ezagutu zuena.</p>
+<p>Morde Desault hasi zen anhitz dolurekin, estatu hartan ikhusten zuen printzea sendatu nahiz; bainan bera hil zen supituki bezala, 51 urthetan, Yainkoak daki nola, eta sei egunen buruan bakarrik, Ekhainaren 5an, 1795an, yuan zen Luis XVIIna zerurat.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>10en KAPITULUA</p><--</head>
+        </front>
+        <body>
+<p>Denbora ikharagarri hartako zenbait martirez. &mdash;Compiegnako 14 karmelitak. &mdash;Auver&ntilde;iako 50 laborarisak. &mdash;Pariseko 45 legeko gizonak. &mdash;Bertze 33 Tolosakoak. &mdash;Frantziako probintzia gehienek izan zituzten, bakhotxak bere titanoa: Nantesen ikhusi zen Carrier; Bordelen, Talien; <foreign>etc</foreign>. &mdash;Gerla zibila. &mdash;Lyon altxatzen da. &mdash;10.000 presuna han hil-arazten dituzte, 8.000 Toulonen. &mdash;Vendeako gizonek hartzen dituzte harmak; nola. &mdash;Zer harma, zer gerla!! &mdash;Vendeenen buruzagiak. -Bretoniako gerlariak gabaz yokhatzen ziren. &mdash;Vendeenen gerla ez zen izan briganten gerla, bainan bai yiganteena! &mdash;17 Gudu handi edo bataila, 700 gudu ttipi. &mdash;75.000 Vendeenek ihardokitzen dute miliun bat errepublikanoeri.</p>
+<p>Denbora ikharagarri hartako martir guzien aiphatzea, ezin eginezko lana laiteke: zenbaitez naiz bakharrik mintzatuko.</p>
+<p>Compi&egrave;gne deitzen den hirian, hartu zituzten preso hamalau Carmelita, eta kondenatu buruaren galtzerat. Yainkoaren zerbitzari serora heyek yuan ziren heriotzea errezebitu behar zuten tokirat, edo gillotinarat, kantatzen zutelarik orok elgarrekin hetarik batek egin zuen kantika bat, himno profano, Marseillesaren airean.</p>
+<p>Auver&ntilde;iako berrogoi eta hamar laborarisa ere yuan ziren supliziorat, guziek zutelarik kantatzen betan kantika bat frantsesez ongi ezagutua dena:</p>
+<p><hi rend='Italic'><foreign>je mets ma confiance,</foreign></hi></p>
+<p><hi rend='Italic'><foreign>Vierge, en votre secours;</foreign></hi></p>
+<p><hi rend='Italic'><foreign>Servez-moi de d&eacute;fense,</foreign></hi></p>
+<p><hi rend='Italic'><foreign>Prenez soin de mes jours.</foreign></hi></p>
+<p>Kantua flakatuz zohan, buruak pika arabera; bainan ez zen arras gelditu azken burua ebaki zutenean baizik.</p>
+<p>Parisen berrogoi eta bost eta Frantzia Tolosan hogoi eta hamahirur gizonek, hobenik gabe, berdin burua ebakia izan zuten.</p>
+<p>Ez dugu zeren hain urrun yuan orduko martiren miresteko: hurbilago, gure aldetan eta gure eskual-herrietan beretan hatzemanen ditugu hetarik egiazki miragarriak direnak. Frantziako probinziarik gehienek izan zituzten bere tirano krudelak, gurean Pinet izan zen bezala.</p>
+<p>Bordelek ukhan zuen burreotzat Talien, zoina ez baita oraino hiri hartan ahantzia.</p>
+<p>Maignet, Orange deitzen den hirian eta inguruetan, agertu zen egiazko odol ixurtzailea nola Schneider, Alzazan, hura iduri. Horiek oro baino gehiago eta afruskiago seinalatu zen Joseph Lebon, Arras izena duen hirian eta auzoko herrietan. Nantesen Carriek hil arazi zituen, batzuek diote hogoi eta bi mila, bertze batzuek hogoi eta hamar mila, zoinen artean baitziren bost ehun haur hamalau urthez pekoak.</p>
+<p>Biktima horiek oro imolatuak izan ziren edo itho araziz Loire deitzen den ibaya handian, edo heyer burua ebakiz gillotinaz, edo hilez bertze nola nahi moldez.</p>
+<p>Ordu da mintza nadin orai, denbora hartako gerla zibiletan hil izan ziren mila eta mila yende handi, xume, gizon, emazte eta haurrez berez.</p>
+<p>Errege Luis XVInak burua pikatua izan zuela hedatu zenean Frantzian, Frantses onhest guziak harritu, laztu ziren, eta kurayosenek harmak hartu zituzten, gaixtaginer bihurtzeko.</p>
+<p>Frantziako bigarren hiriak, Lyonek, eman zuen etsenplua, eta Toulonek egin zuen hark bezala, altxatuz, hura ere, errepublikako munstroen kontra.</p>
+<p>Pariseko biltzarreak, igorri zituen bere menbroetarik bi hiri horietarat, zer nahi poderez beztituak.</p>
+<p>Lyonerat yuan zirenetarik bat zen Couthon, paralitikoa, bainan denbora berean arima gaixtoa eta krudela.</p>
+<p>Bertzeak ez zuen gehiago balio. Hura zen Collot-d'Herbois, komediant ohi bat, zoina Lyondarrek hixtuka trufatu baitzuten, teatrean, zenbait urthe lehenago.</p>
+<p>Dekretua eman zuen Pariseko biltzarreak Lyone izanen zela ezeztatua. Izendatu ditudan bi komisario horiek behar zuten dekretua etsekutatu.</p>
+<p>Erho gaixto eta errabiatu heyek aurthiki arazi zituzten beraz lurrerat hogoi mila etxe, handienetarik; gero, ikhusiz naski bertze guzien barreatzea ez zela hain aise izanen, utzi zuten lan hasi hori eta eman ziren Lyondarrer krudelki yatzartzen. Adin guzietako yendeak, zaharrak eta gazteak, kondizione guzietakoak, handiak bezala ttipiak, eramanak ziren hiriz kanporat, toki plano edo zelhai batetara. Han, milaka, kanoi mitraillaz lehenik, hiltzen zituzten eta gero sabre kolpeka phuskatuz, xehatuz. Hamar mila Lyondarrek hola galdu zuten bizia.</p>
+<p>Toulonen ere bertze zortzi mila presuna izan ziren hilak, kanoi tiroka edo itsasoan ithoz. Gerla zibilaren harat hunatak eta sarraskiak behar laitezke irakhurtu partikularzki Vendeenen eta Bretonen orduko ixtorioan.</p>
+<p>Batzuek eta bertzeak bizi izan ziren erreboluzioneraino trankilki eta xinpleki, gure erlisione sainduari yarraikiz, eta gutiz gehienak laborantzan ariz, bihotz onez ikhusten zituztelarik herrietako aitoren-seme anhitzen nagusiak.</p>
+<p>Gerla hasi zenean, ez zuten ihiziko zenbait harma beltz eta zahar baizik. Askok ez zuten harmatzat, burdin sarde, aihotz, gerren edo lantza herdoildurik baizik. Huna nola yokhatzen ziren hobeagorik ukhaiteko.</p>
+<p>Yohan ziren bataila batetarat kofesaturik, Yesusen Bihotz Sakratuaren abitu gorria ageri zutela papoan. Bere Erretorez lagunduak ziren, hauyen benedizonearen ukhaiteko hastean.</p>
+<p>Lehenbiziko etsayen fusillada edo guzien tiroak, errezebituko zituzten lurrean etzanik, zabal zabala, ez hilak, ez kolpatuak izaiteko. Gero altxatuko ziren bat batean eta abiatuko, lasterka, kurayez, lehoinen pare, errepublikanoen alderat. Azken hok ihesari emaiten zuten, beren harmak aurthikiz fiteago yuateko. Vendeenak yabetuko ziren harma aurthikiez, eta geroztik heyentzat izanen ziren.</p>
+<p>Kanoiyez yabetzeko, berdin egiten zuten; kanoi hetarik famatuena izan da Maria-Yuana <hi rend='Italic'><foreign>(Marie-Jeanne) </foreign></hi>izena zuena. Hau izan zen asko aldiz, batzuez eta bertzez, hartua eta gero galdua.</p>
+<p>Yustu da hemen eman ditzadan Vendeenek, zituzten buruzagietarik zenbaiten bederen izenak; hek dire Catelineau, de Charette, Stofflet, d&#180;Elb&eacute;e, Bonchamp, Lafor&ecirc;t, d&#180;Autichamp, de Lescure, Henri de Larochejaquelain eta Talmont printzea.</p>
+<p>Buruzagi horien pixka bat bederen ezagutarazteko, aski zaut izanen erraitea zer zioen hetarik batek bere soldadoer:</p>
+<p>&laquo;Aitzina yohan baniz, segi nezazue; gibelerat ihes badut egiten, hilen nauzue; eta hiltzen banute, nitaz mendeku egin behar duzue&raquo;.</p>
+<p>Azkenik, Talmont printzea preso hartu zutenean errepublikanoek eta ereman Laval deitzen den hirirat, bere gazteluko bortha prinzipalaren aitzinerat, fierki zuen erran bere etsayer: &laquo;Zuen kontra gudukatu naiz hirur hogoi eta zortzi aldiz, ene Erregea zerbitzatu nahi bainuen. Orai yakinen dut hiltzen. Burheoa, yakinzak, hik, hire lanaren egiten&raquo;.</p>
+<p>Erreboluzioneko gizonek deitzen zuten Vendeenen gerla bandilen gerla; bainan Napoleon handiak, gerla eta gerlariak ongi ezagutzen zituenak, bertzelako phensamendurik zuen hartaz, adiarazten zuenean hura zela Yiganten gerla.</p>
+<p>Enperadoreak arrazoin zuela aise da konprenditzeko, ikhusten dugunean Vendeen heyek, bederatzi ehun (900) herri, handi eta ttipietarik, altxatu eta, hartu zituztela 200 hiri, edo gerlako plaza; nola pharte hartu baitzuten hamazazpi (17) gudu edo bataila handitan, eta zazpi ehun (700) ttipiagokoetan. 75.000 Vendeenek buru egiten zuten 300.000 tropako soldadoer eta 700.000 guardia nazionalekoer.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>11en KAPITULUA</p><--</head>
+        </front>
+        <body>
+<p>Erreboluzioneko gizonek, batzuek bertzeri yustizia egin zuten, elgar igorriz gillotinarat. &mdash;Lehenik yuan ziren Girondis deitzen zirenak (1793an). &mdash;Heyen azken orenak. &mdash;Gero bertze saihera baten aldia yin zen 1794an, martxoaren 11an. &mdash;Deitzen ziren Clootz, Gobel, Chaumettel Hebert, orotara dotzena bat. &mdash;Azken hunen ixtorioa hitz gutiz. &mdash;Danton, Camille Desmoulins, Lacroix, Philipeaux eta bertzeak yuan ziren heriotzerat Aphirilaren 5an 1794an. &mdash;Robespierre hil zen, milaka eta milaka bertzeak hil arazi zituen moldean. &mdash;Tonberoan zeramatelarik, emazte batek kolerarik handienean erran zakon: &laquo;Habil, miserablea, ifernurat, ama guzien maledizionekin&raquo;. &mdash;Harekin hil ziren 66 hura iduriak. &mdash;Horiek gerthatu ziren uztailaren 27an 1794an.</p>
+<p>Kapitulu huntan ikhusiren dugu Erreboluzioneko munstroek yustizia batzuek bertzeri egin zutela. Erran nahi dut, Yainkoaren nahiz, edo Yainkoak utziz, elgar igorri zutela heriotzerat edo gillotinarat: hori zuten preseski merezi, orok, mundu huntarik beretik.</p>
+<p>Gizon gaixto famatu heyek anhitz multzo edo bilkhuretan separatuak ziren, guziak hatik elgarretara yuntatzen zirelarik, zenean kest&iacute;one phasarazteaz edo lege tzar, edo dekretu inyustu bat.</p>
+<p>Hori gerthatu zen biltzarrea yokhatu zenean nahiz Erregeren, nahiz haren familiaren kontra.</p>
+<p>Multzo hetan menbro gehienik zuena , zen<hi rend='Italic'><foreign> Girondins </foreign></hi>deitzen zirenena. Yadanik tristeki seinalatu ziren Errege kondenatuz heriotzerat.</p>
+<p>Bazen heyen artean thalendu handitako gizonik, hala nola Vergniaud; bainan zer balio dute thalenduek, ez badute gizonek fedea?</p>
+<p>Vergniaud aiphatu dutan harrek erran zuen diskurs batean: &laquo;Erreboluzioneak iretsiren ditu bere haurrak, lehenago Saturne, yainko falsoak, bere semeak iresten zituen bezala&raquo;. Erreboluzionea <hi rend='Italic'><foreign>Girondins </foreign></hi>hetarik beretarik hasi behar zen obra horren egiten.</p>
+<p>Errege hil zuten Urtharrilaren 2lan, 1793an, eta handik ondoko mayatzaren 3lan, <hi rend='Italic'><foreign>Girondins </foreign></hi>zirelakoak eman zituzten preso, gutiz gehienak, edo eskapatu ahal ez zirenak. Gero, ondoko Urriaren 3lan, heyen buruak ebaki zituzten.</p>
+<p>Aditu zutenean bere hiltzeko arrasta, errana da zenbait kofesatu zirela, juramento debekatua eginik zagoen aphez bati Hiltzeko orenean edozoin aphezi kofesa daiteke.</p>
+<p>Bertze batzuek, dio ixtorioak, egin zuten hiltzeko gau bezperan komedia bat, zointan baitzuten erakusten <hi rend='Italic'><foreign>Girondins </foreign></hi>heyen ifernurat yaustea.</p>
+<p>Yuan omen ziren oro supliziorat, kantatuz Marseillesa, eta oihu eginez: &laquo;Biba Errepublika!&raquo;.</p>
+<p>Hobekiago eginen zuten erraitea ixilik, agoniako othoitzak. 1794an Martxoaren llan, bigarren saihera batetako gizonek eman zituzten beren buruak gillotinako marrazari.</p>
+<p>Hek ziren Clootz, Prusianoa, Gobel, H&eacute;bert, Chaumette, <foreign>etc</foreign>., orotarat dotzena bat. Azken bi hok ezagutuak ziren heyen buruzagitzat.</p>
+<p>H&eacute;bert hura, gazterik yuan zen Pariserat, dudarik ez da goizdanik egiteko bere aprendizkoak gaixtakerian.</p>
+<p>Ohoin filus bat zen egina Erreboluzionea yin orduko.</p>
+<p>1792an, Buruileko masakretan, pharte handia hartu zuen. Hitz batez, zertarat-nahi gaizkiren egiteko prest zen.</p>
+<p>Bizkitartean Paristar tzarrek gogotik irakurtzen zuten haren berrikari infamea.</p>
+<p>Akhabatzean haren ixtorio tristea, erranen dut hil zela kurayerik gabe, ezagutza bera galdu zuenaz geroz, edo zenaz trenpu xartu audientzietako denboretan, eta burua estekatu zakoten baino lehen taula ikharagarriari marraza eror aitzinean.</p>
+<p>Chaumette, zapetain baten semea zen. Haren aitak eman arazi ondoan eskola poxi bat, yuan zen itsasoz, haurra zelarik, ez dakigu noraraino. Bakharrik ixtorioak du erakusten zapetain seme mari&ntilde;el hura, Parisen zela Erreboluzionea hastean, bertze asko, hura iduriak bezala.</p>
+<p>Heyen artean behar zen seinalatu bere gaixtakeriez, eta Parisen egin zutenean (bertze kapituluan erranen dut nola) besta bitzi, tzar, pagano, inpio bat, Chaumette bide zen aphez handi; bainan ederkiegi pharatu ahal zen Pariseko katedrale handian, eta ibili prosesionean, karriketan, Robespierreren gostuko.</p>
+<p>Azken hunek ez baitzezakeen sofri nihork har zezan deus nagusi airerik haren bistan, ororen buruzagi bera nahi zelakotz izan, Robespierrek, diot, igorri zuen bere lagunekin, mundu huntarik bertzerat.</p>
+<p>Dantonek, zenbait egun berantxago, zorthe bera behar zuen izan, dotzena bat bere adiskideekin, zoinak baitziren Camille Desmoulins, Lacroix, Philipeaux, Westerman, <foreign>etc</foreign>., <foreign>etc</foreign>.</p>
+<p>Danton, hauyen guzien buruzagia, hogoi eta hamabi urthetako abokat bat zen, tailaz gora zena, sorbaldez arras largoa, indar handitakoa, hitz batez, gizon arraila alimale itsusi bat, alimalen beren gustu eta phendurekin eta hetako krudelenetarik bezala zena. 1792an, Buruileko masakretan, nihork ez zuen hark bezenbat pharte hartu. Yainkoaren aitzinean agertzean bazuen beraz ihardesteko lau edo bost mila aphezpiku, aphez eta bertze gizon, hobenik gabekoen biziaz. Danton yuan zen gillotinari bere buruaren emaiterat, erranez laster heldu zela Robespierren aldia.</p>
+<p>Arrazoin zuen Dantonek. Bizkitartean Robespierrek iraun zuen ora&iacute;no lau ilhabeteren ingurua.</p>
+<p>Huna hitz laburrez Robespierre, behar bada Erreboluzioneko gaixtaginik handienaren ixtorioa. Arras izena duen hirian sorthu eta han berean abokat egin zen.</p>
+<p>Errana izan da ukhan zuela bederen zerbait idea kapuxinen komentu batean sartzeko. Duda daiteke egiazko bokazionea izan othe zuen behinere; bainan gauza segura da, behin makhur abiatuz geroztik, gaizkian urrun yuan zela.</p>
+<p>Ahalgerik gabe, edo sanfretik handienarekin, erraiten zuen 1789an hamabost urthe baino gehiago zutenek behar zuketela bizia galdu, Errepublika fondatzekotz, zeren bertzenaz nekhez maithatuko baltzuten Frantziako ordena berria.</p>
+<p>Erori zenean bere lagunekin, Uztailaren 27an, 1794an, baziren bi gauza phentsatuak berriki Parisen: gillotina bat kolpe bakhotx hogoi eta hamar bururen ebakitzekoa, eta kanal bat hainbertze yenderen odola eramanen zuena ur handirat.</p>
+<p>Robespierre hil zen bertzeak milaka eta milaka hil-arazi zituen moldean. Yuan zen supliziorat bere mathela hezurra dilingan, batzuen arabera berak hautsirik pistolet kolpe batez; bertzek diotenaz, Meda yandarmak hola kolpaturik. Orogatik ere, tonberoan zeramatelarik, emazte batek, kolerarik handienean oihu egin zakon eta erran bekhoz bekho: &laquo;Habil, habil, miserablea, hiltzerat, mila aldiz merezltu dukan bezala, eta yauts hadi ifernurat, ama guzien maledizionekin&raquo;.</p>
+<p>Robespierrekin hil ziren, gisa berean, hirur hogoi eta sei, hura iduri zutenak.</p>
+<p>Gorago erran dut, eta orai ene irakurtzailek ikhusten dute, Yainkoaren yustiziak hatzeman zituela mundu huntarik beretik Erreboluzioneko gaixtaginak.</p>
+<p>Zonbaitek akhabatu zuten bizia beren eskutik. Lau edo bostek, ez ukhanez ez kanibetik ez pistoletik, sarthu zuten, bat bertzearen ondotik, haixtur pare bat bihotzean.</p>
+<p>Marat itsusia, hil zuen bere mainhuan, pu&ntilde;al ukhaldi batez, neskatxa batek... Pethion, ihes zabilarik , goseak naski hil arazi zuen. Haren gorphutza hatzemana izan zen oihan zilho batean, erdia yana, otsoez edo azeriez, <foreign>etc</foreign>., <foreign>etc</foreign>.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>12en KAPITULUA</p><--</head>
+        </front>
+        <body>
+<p>Erreboluzioneko gizonek, erran nahi baita yuduek eta framazonek, gure Erlisione saindua persekutatuz gisa guzietarat, erakutsi zuten zer herra duten Jesus-Kristo Yaunaren eta Giristinotasunarendako. &mdash;Katedraletako eta elizetako sainduen imayak hautsi zituzten. &mdash;Elizak berak hetsi, eta hetsirik atxiki hamar urthez hurbil. &mdash;Elizaren onthasunez yabetu ziren bederen 4 miliarrez. &mdash;Monasterio eta komentu guziak hartu zituzten. &mdash;Heyen habitantak izan ziren hilak, preso emanak, desterratuak. &mdash;Egiazko Yainkoaren plazan Frantzesek adoratu zituzten Yainkosa triste batzu. &mdash;Pio VIna 83 urthetako Aita saindua, ekharri zuten Erromatik eta hil arazi Valencen. &mdash;Fier ziren inpioak Frantzian ehortzi zutela azken Aita saindua...</p>
+<p>Ordu da ikhus dezagun zer moldetan izan den tratatua gure Erlisione saindua anhitz aldiz aiphatu ditugun Erreboluzioneko gizon gaixtoez.</p>
+<p>Molde hortan da ageri preseski hobekienik yuduen eta framazonen herra Yesus-Kristo Yaunaren eta giristinotasunaren alderat.</p>
+<p>Aphezpikuak eta aphezak zituzten hil, kasatu, desterratzerat bortxatu, Espainiarat, Angletarrerat, Suisarat, Italiarat eta Ameriketaraino.</p>
+<p>Frantziako katedraletan eta elizetan hautsi, phorroskatu zituzten, errabiarekin, Ama Biryinaren eta Sainduen imayak, bai eta, su emanez, erre, zurezkoak zirenak. Katedrale heyek, elizak eta kapera guziak hetsi zituzten, eta hetsiak atxiki hamar bat urthez.</p>
+<p>Hirur mila monasterio, handi eta ttipi, bai eta bertze fraiden eta seroren komentuak zituzten hustu, eta heyen habitantek izan zuten aphez fidelen zorthe bera, erran nahi dut, heriotzea, presondegia, desterrua.</p>
+<p>Bertze nonbait errana izan den bezala, Elizaren lau miliarren onthasunez yabetu zen Erreboluzionea, bai eta zortzi ehun milionen zilharreriaz.</p>
+<p>Beraz Frantziatik khendua izan zen Erlisionea; bainan ez uroski Frantsesen bihotzetarik.</p>
+<p>Alferretan entseatu ziren egiazko Yainkoaren orde, edo haren plazan, adoraraztea kreatura hits batzu, erranez hek zirela errepresentatzen zutenak gizonaren arrazoina, heyen arabera bakharrik adoratu behar laiteken dibinitatea.</p>
+<p>Orduko Frantsesek net ongi konprenditu zuten ez dezakela gizonak adora bere burua, edo bere arrazoina; hori laitekela krima bat ikharagarria, Idolatria deitzen dena.</p>
+<p>Ez da aise erraitea nola, konparazione Parisen, eta hango katedrale handian, ahuspez emanik orduko biltzarrean ziren gizon guziak adoratu zuten komediantsa eta dantzarisa bat.</p>
+<p>Hura ezarri zuten Tabernakle sakratua baino gorago, xuriz bezti, kapa blu arin batekin, zango has eta, motho edo bonet gorri bat buruan...</p>
+<p>Ez dugu zeren estona yakiteaz holako itsuskeria eta infamekeriak ikhusten zirela Parisen.</p>
+<p>Nihauri erraiten zautan, orai duela hogoi eta hamabost urtheren ingurua, emazte Eskualdun, bere buruko xuria beheiti zabilan batek:</p>
+<p>&laquo;Yauna, ni hemen ene saskia aitzinean ikhusten nauzuna, ibili naiz, Erreboluzioneko denboran, Besta-Berriz bezala aphaindua, edo xuriz bezti, gure herriko Yainkosaren ondotik. Gure Yainkosa hura holako etxeko alaba zen...&raquo;.</p>
+<p>Ez dezagun hatik uste izan Eskualduntsa guziak gisa hortan ibili zirela idola bizi baten laguntzen.</p>
+<p>Preseski aiphatzen dudan Yainkosa haren lehenbiziko auzoan baziren bi edo hirur ahizpa, zoinek baitzioten gora gora eta fermuki:</p>
+<p>&laquo;Bihotza errayekin daukute bulharretarik atheratuko, gure fedea arnegaturen dugun baino lehen&raquo;.</p>
+<p>Frantziaren buruan ziren orduko framazonek eta fede gabeko gizonek uste zuten behin bethikotz khendu zutela gure herritik Erlisionea, eta gisa berean khentzeko mudu guzitik, aski puxant zirelakotz memento hartan Europan, ekharri zuten (ez dut erraiten yin arazi) lau hogoi eta hirur urthetako Aita-Saindu bat, Valence deitzen den hiri batetarat, eta han, egun guziez kontrariatuz eta laidostatuz, laster hil-arazi zuten Aita Saindu hura.</p>
+<p>Hemen yustu da erran dezadan Frantsesek izan zutela Pio VIen alderat amodio eta errespetu gehiago, heyen orduko buruzagiek, Aita-Saindu beraren alderat erakutsi zuten baino malezia beltz, herra eta aiherkunde.</p>
+<p>Frantzian sarthu zenean Pio VIna, Valencerat heltzeko behar izan zuen zenbait tokitako ostatuetan gelditu; bada han, neskato gisa beztiturik eta turxoina aitzinean, Frantziako Madamarik handienek humilki eta gogotik Aita-Saindua zerbitzatu zuten.</p>
+<p>Erran dutan bezala, Pio VIna hil izan zen Frantzian, Agorrilaren 29an, 1799an, lau hogoi eta hirur urthe eta 8 ilhabete eta bi egun zituelarik.</p>
+<p>Erreboluzioneko oraino bizi ziren gizonak kontent eta alegera pharatu ziren, erranez Frantzian ehortzi zutela azken Aita-Saindua.</p>
+<p>Gizon dohakabe hek ez zakiten edo ez zuten uste, Pio VIen ondotik izanen zirela Pio VIIna, Leon XIIna, Pio VIIIna, Gregorio XVIna, eta orai uroski dugun Leon XIIIna.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>FRANTZIAKO</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>BIGARREN ERREPUBLIKAREN </hi></p>
+<p><hi rend='Bold'>IXTORIO BITXIA LABURZKI</hi></p>
+<p><hi rend='Bold'>1en KAPITULUA</hi></p>
+<p>Bigarren errepublika, 1848koa, izan zen mentsa edo erhoska. &mdash;Sorthu zen Otsailaren 24an. &mdash;Yende on guziak lotsatu ziren. &mdash;Errege Angletarrerat yuan zen, eta han hil. &mdash;Asko Frantzesek, erregerik ez zela Frantzian yakin zutenean, uste izan zuten berak errege zirela. &mdash;Hetarik anhitzak elgarretarat biltzen ziren. &mdash;Biltzarre hek deitzen ziren <hi rend='Italic'>klubak. </hi>&mdash;Denbora hartako Frantsesik gehienek iduri zuten burua galdua zutela. &mdash;Akize eta Baionaren artean Morde Segalaz, bai eta bi Aita-seme Eskualdun. &mdash;Pariseko Erretor batek, bere ganberako leihotik egiten ditu <hi rend='Italic'><foreign>exorcisme </foreign></hi>deitzen diren othoitz batzuk itzuliz ikhusten zituen gizonen alderat.</p>
+<p>Orai artean erran dut eta frogatu zer gaixtagintsa izan zen lehenbiziko errepublika. Berdin aise izanen zaut cre frogatzea bigarrena, 1848koa, izan zela egiazki mentsa edo erhoska.</p>
+<p>Nehor ez zen estonatu lastersko bere burua xahutu bazuen. Lau urthe eta erdi eta hamahirur egun zituelarik, hil ahal zen, bizkar hezurra hautsia izanik.</p>
+<p>Sorthu zen, yende xahar guziak ongi orhoit gare, Otsailaren 24an, 1848an. Biharamunean telegrafa zaharrek (telegrafa berririk ez zen oraino), hedatu zuten herri handia, Frantzia guzian, azken probintzietaraino. Preseski haize hegoz zen egun hartan. Zerua goibel zagon, zeren ekhia lanhoek ardura kukutzen baitzuten.</p>
+<p>Yende on guziak lotsatu, harritu eta sesitu ziren yakin zutenean Errege kasatu zutela Parisetik, eta bortxatu yoaterat kabriolet baten barnean, zamar batez estalia, itsas hegiraraino handik Angleterrarat phasatzeko. Errege hura Luis-Filipe zen. Yainkoak bere lorian daukala!!! Izan zuen Angletarren heriotzerat ongi preparatzeko denbora<hi rend='Italic'>, </hi>era segurki prepario haren beharra bazuen. Bai errege hura halaxe hulaxekoa zen; hargatik, gizon seriosek, zen bezala atxikiko zuten. Kanailak ziren bakharrik bozkariatu haren yuateaz. Bethi hola gerthatzen da: deusik galtzeko ez duenari lakhet zaio buruzagiz eta gobernamenduz khanbiatzea.</p>
+<p>Zer diot? Erregerik gehiago ez zela Frantzian ikhusi zutenek, uste izan zuten berak errege zirela, era beraz bakhotxa deithua zela bere gisan Frantziaren gobernatzerat. Gauza ederra laiteke orok mana eta nehork ez obed&iacute;. Hori zen bizkitartean askok orduan phentsatzen zutena.</p>
+<p>Arrats guziez biltzen ziren elgarretarat, betarik zenbait politikaz mintzatzeko, eta aise da asmatzeko zer gizonak ahal z&iacute;ren, klub de&iacute;tzen zituzten biltzarre hetako marxant ttipi, zapetain, hargin, masturi, arotz, peontzan ari zirenak eta bertzeak.</p>
+<p>Ni denbora hartan nindagon tokian, gau batez, klubista gizon bat xutitu zen bertzen erdian, zioelarik: &laquo;Yaunak, ene arabera, Errepublikak behar ditu, ahal bezain laster, erorarazi berrogoi mila Frantsesen buruak&raquo;.</p>
+<p>Berehala bertze bat altxatzen da, dioelarik hark are: &laquo;Ni ere sendimendu hortako naiz, kondizionekin berrogoi mila buru hetarik lehen lehenik eroriko dena izanen dela Yauntto horren berarena...&raquo;.</p>
+<p>Hitz hauk aditzearekin, bravo zuten orok oihu egin, eta irri farra, esku zafla frango eta frango izan zen klub guzian...</p>
+<p>Berrogoi mila buru galdatzailea, beldurrez naski berea gau hartan gal zezan, zalhu itzali zen, nehori erran gabe: &laquo;Yainkoak digutzila gau on&raquo;.</p>
+<p>Ez xoilki gabaz, bainan egunaz aditzen eta ikhusten ziren bigarren errepublika hunen erhokeriak.</p>
+<p>1848an Urriaren hastean, kausitzen nintzan, Akizeren eta Baionaren artean, Adour deitzen den ibaya handiaren erdian, bapurrak zabilan xalupa handiaren barnean. Han bazen anhitz gizon eta emazte; bainan, kasik orok, hain iduri zuten zentzua galdua zutela, non erran bainakon ene aldeko lagunari: &laquo;Hau da gauza espanta eta tristegarria, erran lezakete Frantsesik gehienak burutik yuanak direla...&raquo;.</p>
+<p>&laquo;Hala da&raquo;, zautan ihardetsi ene lagun Yaunak; &laquo;bainan horra Morde Segalaz, Donapaleun kolesioko superiora, aphez saindu, sabant eta errespetagarria. Ikhus zazu nola dagon belhauniko, guzien bistan, ahalgerik gabe, bere ofizioaren erraiten&raquo;<hi rend='Italic'>.</hi></p>
+<p>&laquo;Beha zazu oraino Aita-Seme, bi Eskualdun aberats horier. Egun guziez mezaren entzuteko usaya baitute, eta egun hori egin ez dezaketelakotz, irakhurtu dituzte mezako othoitzak, eskuaraz, eta orai ari dire arrosarioaren erraiten&raquo;.</p>
+<p>Ongi eginen dute bere othoitzen erraitea, Frantses guzientzat, errepublikak bere erhokeriaz khotsa ez ditzan, sukhardunek izurritea edo hezkabea dutenek, heyer hurbiltzen direnak khotsatzen dituzten bezala.</p>
+<p>Bigarren errepublikako erhokeriak ageri ziren partikularzki, aditzen gintuenean gizon gazteak bidetan egunaz, eta karrlketan gabaz oihu patarrakaz, khantatzen: &laquo;Harmak har ditzagun&raquo;:</p>
+<p><hi rend='Italic'><foreign>Aux armes, citoyens! etc.</foreign></hi></p>
+<p>Aldi batez Pariseko erretor batek aditu zuen khantu hori <hi rend='Italic'><foreign>(la Marsellaise) </foreign></hi>eta anhitz arrabots; behatu zuen bere ganberako leihotik, haren etxe aitzinean zen plaza batetarat. Han, ikhusiz Parisiano multzo handi bat, yo harat, yo hunat zabiltzala; eta zutela iduri gure mendietan airean ikhusten ditugun belatxer edo letsuner, ongi nahasiak, karrankaz daudenean Erretor horrek erran zuen bere buruari, dudarik gabe anhitz mila debruz poseituak zirela Parisiano hek.</p>
+<p>Beraz, soinean eman zuen bere superliza, hartu estola, ideki liburua Rituala eta aurthiki hisopaz, plazako alderat, ur benedikatua. Parisiano hek apazegatu bide ziren.</p>
+<p><hi rend='Bold'>2en KAPITULUA</hi></p>
+<p>Libertateko Arbola gure herrikoa nola landatu zuten. &mdash;Non, nor eta nola izan ziren haren bilha. &mdash;Muthil gaztetarik zenbaitek egin zuten zortzi pia barna zuen zilhoa. &mdash;Arbola ekharri zutenean, karrika zen hustu, bortha eta leihoak zituzten laster hetsi. &mdash;Landatu baino lehen, zuharraren puntan ezarri zuten bandera trikolora. &mdash;Biharamunean, igandea baitzen, Yaun Erretorak benedikatu zuen arbola. &mdash;Egin ere zuen prediku bat. &mdash;Zer predikua. &mdash;Gure Aitabitxi zenaren erreprotxuak Yaun Erretorari, zertako ez zuen madarikatu Errepublika eta haren sinbola. &mdash;Yaun Erretoraren errepostua.</p>
+<p>Irakurtzale maitea, 1848ko errepublikaren orhoitzapenik pullitena zaut: <hi rend='Italic'>Libertateko arbolaren landatzearena...</hi> Huna gure herrikoaren ixtorioa. Ebiakoitz batez, ilhuntzean, bildu ziren elgarretarat, berrogol bat muthil gazte azkar eta aski fanfarronetarik, eta hartu zuten xedea gau hartan berean landatzeko <hi rend='Italic'>Libertatearen arbola.</hi></p>
+<p>Hetarik zenbait aizkorekin ziren, etxeko yaun batek hitzeman zaioten zuhar edo zur xuri ondo baten phikatzeko.</p>
+<p>Bertze zonbaitek bazituzten pudak, zuharraren adarren ebakitzeko. Hamar batek zauzkaten eskuetan phikotxak, aitzurrak, phalak, zuharra errezebitu behar zuen zilhoaren egiteko.</p>
+<p>Azken hok hasi ziren berehala lanean, zortzi pia barna lurraren zilhatzeko, erranez zur xuriaren tokia prest izanen zela segur hura heyen bertze lagunek ekharri orduko. Ekharzaleak, andana handian, abiatu ziren, bere aldetik, mendiari gora, sokekin, khordekin, bilhurrekin, arbolaren, hura amarraturik, bizkarrez ekhartzeko. Zenbaitek zioten estekatuko zutela beren zinta gorriez.</p>
+<p>Gau hartan izpiritu guziak xoratuak ziren, eta buruak airean; phentsatuz zer behar othe zen ikhusi, nehork ez zuen oherat yuateko gutiziarik.</p>
+<p>Emazteak ari ziren iruten, oraino baitzen moda, heyentzat lan hortan artzeko. Egun beldur dira goizegi beren bulharrak xukha: horra zertako ez den gehiago etxetan ez khilurik, ez ardatzik, ez kotxearik.</p>
+<p>Bizkitartean denbora yohan zen. Bederatzi orenak, bederatziak eta erdiak yoak ziren. Nehor ez deus ez zen ageri, eta nola aski hotz ari baitzen, yende guziak suphazterrean zauden. Hamar orenak yoiteko hinkan, hor aditzen dire, bat batean, lehenik irhintzinak, gero hixtuak, bai eta oihu eta khantu, eta azkenik deus, ixiltasunik handiena berriz hasi zen.</p>
+<p>Su ondoa utzirik eman ziren batzu borthetan, bertzea, leihoetan; bainan laster behar izan zuten sarthu barnean, ezen gure muthil gaztek phentsatuz izanen zirela kurios batzu beren sudurrak atheratuko zituztenak, hartu zituzten izari batzu, ezin gehiago onak, heyen kukuarazteko, nahi bazuten eta ez bazuten.</p>
+<p>Bai, muthiko hetarik bost edo seyek, papoa eta sakelak harriz betherik, abiatu ziren aurthikitzen, firrindikan karri kari behara, bai eta pin, pan, borthetarat eta leihoetarat. Laster, laster karrika hustu zen, bai eta bortha leihoak zerratu zituzten!!</p>
+<p>Holaxe heldu zen, zuhar edo zur xuri luzea, xutik eman behar zuten tokirat.</p>
+<p>Punta puntan ezarri zakoten, arbola <hi rend='Italic'>baliosari</hi>, bandera trikolora, edo hirur koloretakoa, xuri, gorri eta blu.</p>
+<p>Lan eder hori egin orduko, gure muthil gazteak ziren unhatuak, hiratuak, ethenduak; guziz hetarik kharreatzaileak ziren gorri-gorria eginak eta izerdi uharretan.</p>
+<p>Azken hok pleini ziren hezurrak zituztela minberatuak, nahiz eman zuten bere sorbalden gainean batzuek boneta, bertzek marapulisa. Orok, edatearen beharra bazuten, eta zenbait afaitekoak ere baitziren, ostatuan gogotik sarthu ziren. Gauerdi zen hurbil hek handik athera eta beren etxetarat yuan orduko.</p>
+<p>Biharamunean, igandea baitzen, erran dudan bezala, yaun Erretora komitatu zuten, bezperak ondoan, arbola landatuaren benedikatzerat.</p>
+<p>Beraz lau orenetako irian, gure elizatik atherarik yende oste handi bat, yuan zen plazarat, arbola errespetagarriaren inguruetan. Yaun Erretora ethorri zen, bi bikarioak bere sahetsetan, estola bat ederrarekin, lehenagoko bonet tuturrutuya buruan; uroski haizerik ez baitzen!</p>
+<p>Gure herriko aphez zaharrak ere yin ziren serioski eta debozione handirekin. Ez naiz orhoit khantorek zer khantu adi arazten zuten. Uste dut <hi rend='Italic'><foreign>Veni Creator </foreign></hi>eman zuten , zeren errepublika berriak baitzuen egiazki-zeruko argien beharra.</p>
+<p>Yaun Erretorari galdegin zakoten goizian prediku bat zirkonstantziakoa.</p>
+<p>Grazia onez hitzeman zuen mintzatuko zela, eta igan zen hortakotz, mahi aphaltto baten gainerat, nondik aise ikhus baitzetzazken yende guziak, eta heyek ere hura aise adi baitzezaketen.</p>
+<p>Ez dakit hasi zen ala Testament zaharretik ala Testament berritik. Nik ongi dakitana da haren predikuak ez zuela ez bururik ez zangorik, edo muthurrik ez buztanik. Ondoko egunetan, bera irriz zagon orduan erran zituen gauzez.</p>
+<p>Predikuaren ondotik, izan zen arbola benedikatua; haren alderako pharterat itzuliz zuen segurik hustu hisopa yaun Erretorak eta erran: <foreign><hi rend='Italic'>Benedictio tibi in nomine, </hi>etc</foreign>. Arrats hartan berean, yin baitzen yaun Erretora gure etxerat, aitabitxi zenak, samur samurra, erran zakon lan ederra eginik zagola; benedikatzeko orde errepublika, edo haren sinbola bitzia, hobekiago eginen zuela biak madarikatu balitu.</p>
+<p>&laquo;Ixo, ixo, Laurentx&raquo;, zuen ihardetsi yaun Erretorak, &laquo;ez dakizu naski aphezek ez dakitela yenden eta gauzen benedikatzen baizen; ez dutela hek sekulan nihor ez deus madarikatzen. Bainan zaude deskantsuz, etxeko yauna: errepublika erhoki, edo gaixtoki pharatzen bada Yainkoak berak segur du madarikatuko zerutik...&raquo;.</p>
+<p><hi rend='Bold'>3en KAPITULUA</hi></p>
+<p>Libertateko Arbolaren ixtorioa, landatua izan eta ondoko egunetan.&mdash;Nor ziren gure herriko ihiztariak. &mdash;Marxoko egun batez yuaten dira egunguziko ihizirat. &mdash;Heyen xakhurrek zer egiten duten Arbola maiteari, bai etabertze xakhur suerte guziek. &mdash;Medikuaren Madamaren karlina. &mdash;Katixa biskotx tratulariak eta Marie-Maite okhintsak zer solas dabilaten xakhur hetaz.&mdash;Marie-Maitek erran bezala Katixari, Arbola eihartu zen, bai Errepublika ere hil zen.</p>
+<p>Orai behar dut khondatu, hirurgarren kapitulu huntan, zer gerthatu zen ondoko egunetan aiphatu arbolaz kestione.Gure herriko yaun Yuyeak, yaun Uxerrak eta yaun Notariak biziki maite zuten ihizirat yuatea, guziz elhurra edo horma izana gatik, uririk egiten ez zuen neguko egunetan, nola primaderako eta larrazkeneko denbora ezti edo epheletan.</p>
+<p>Beraz, Marxoaren hastean, libertateko arbola landatu eta lastersko, deliberatu zuten yuateko biharamunean oihanez oihan, otharrez othar, egun guziko.</p>
+<p>Bakhotxak bazuen bere ihiziko zakhurra. Zer diot? Yaun Notariak berak bazituen hetarik hirur, arras onak, abilak, famatuak. Goizean goizik, edo argiko, atheratzen dira plazarat gure hirur ihiztariak bai eta heyen bost xakhurrak.</p>
+<p>Alimaletto hauyek behatzen dute arbola libertatekoari, estonatuak balira bezala haren han ikhusteaz. Badabiltza haren ondoan inguru inguru, <hi rend='Italic'>hau, hau, hau, hau, </hi>egiten dutela, eta gero azkenean, bostek, bat bestearen ondotik, gibeleko zango bat altxaturik, hor ongi ihiztatzen dautzute Arbola preziagarria!!</p>
+<p>Hirur yaunak, heyer beha irriz egonik, eman ziren bidean mendiko alderat. Hetarik batek hixtu bat adi-arazi eta, bost xakhurrak ere abiatu ziren bere nagusien ondotik.</p>
+<p>Bestia maite hek behar zuten ibili, egun guzia, zalhuki, erbi loak hartuen iratzartzen, heyen lasterkatzen eta ahal bazuten lephotik har eta ithotzen.</p>
+<p>Ez dakit egun hartan ihztariek ekharri othe zuten igorri zituzten perdiunen eta bolboraren balioa.</p>
+<p>Zenbait aldiz sartzen ziren ihizitik deskartzelak betherik, eta zenbait aldiz hutsik, noiz nola.</p>
+<p>Aiphatu xakhur ihizikoez kanpo, heyen lan bera ere zeremonia berekin egiten zuten Libertateko arbolaron kontra gure herriko etxe-xakhur, artzain xakhur hora handi, xakhur alano eta xakhur xarlango guziek.</p>
+<p>Merezi du partikularrean izenda dezadan Morde Medikuaren Madamaren karlina, erdi belx eta erdi gorria. Madama, presuna arras debota, yohan zen egun guziez zortzi orenetako mezaren entzuterat, bere karlina zuela ondotik; bainan, plazarat heltzean, hunek utziko zuen bere etxeko-andrea yuatea bakharrik; egiten zuen behako bat, urrundanik, zur xuri banderadunari, gero hurbilduko zen ihausika, eta ihiztatuko zuen hura, bere arrazako guziek bezala. Azkenik lurra usaindatuko zuen, busti zuen tokian, eta yoanen zen til, til, til, til elizarat, Madamaren kaderaren ondoan lo egiteko, Madamak bere arrosarioa akhabatu artino.</p>
+<p>Gauza horiek oro ikhusten zituzten, egun guzia plazan zauden Katixa, biskotxa saltzaileak, eta Marie-Maite okhintsak. Ortzegun batez, orhoit naiz nola lehenak erran zakon bigarrenari: &laquo;Marie-Maite, zur-xuri hau arras idortua balitz ere, berriz phitz litake, hoin ongi eta hoin ardura ihiztatua izanez&raquo;. &laquo;Zer dioxu Katixa, zer dioxu!&raquo; dako ihardesten okhintsak. &laquo;Xakhur handi eta ttipi demonio horiek eihararaziko dixie, ez bada yadanik idortua; bai eta errorik egin badu, apho bisaia!; erro hek erreak izanen ditutxu&raquo;. &laquo;Egonen gare beha, Marie-Maite...&raquo;. &laquo;Bai, Katixa, egonen gituxu beha, eta bizi denak ikhusiko dixi&raquo;.</p>
+<p>Beraz egon ziren beha: Martxoa, Aphirila, Mayatza eta Ekhaina igan ziren arbolak ez ardaxka bat, ez hosto bat egin gabe. Uztailean ageri zen net idortua zela. Zuhar hura zen beraz bigarren errepublikaren sinbola egiazkoa, ez zuenaz geroz errepublika hark anhitz denboraren bizirik.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>FRANTZIAKO HIRURGARREN</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>ERREPUBLIKAREN IXTORIOA,</hi></p>
+<p><hi rend='Bold'>ERDIA IRRI EGINGARRIA ETA </hi></p>
+<p><hi rend='Bold'>ERDIA SERIOSA</hi></p>
+<p><hi rend='Bold'>1en KAPITULUA</hi></p>
+<p>L&eacute;on Gambetta izan da anhitz Errepublikanoentzat idola bitxi bat, aski luzaz. &mdash;Zer zen, nola bizi zen, azkenean nola hil zuen ematzar batek. &mdash;Gambetta lodiaren kozinerrak bazuen urthean hamar mila libera. &mdash;Holako gizona izan da glorifikatua hil ondoan. &mdash;Bayonan, Miarritzen eta Donibane Lohizunen emaiten dute karrika batzueri Gambettaren izena, karrika hetan bada urrin bat: Gambetta urrina da hura. &mdash;Boulanger, bertze asko Frantsesen idola. &mdash;Boulanger yenerala, deusez yeneral, <foreign>etc</foreign>.</p>
+<p>Orai duela hogoi urthe, eta geroztik, Frantzian, errepublikaren pharteko direnak mintzo ziren, egun oroz, ahoa bethez, heyen arabera gizon handi batez. Hura zen L&eacute;on Gambetta, abokata bere profesiones, eta, errana izan den bezala, Yudu arrazatik bere ethorkiaz.</p>
+<p>Nihork ez dezake ukha thalendu handiak zituela; bainan usaiarik tristena egiten zuenaz geroz thalendu hetaz, gure erlisione sainduari errabiarekin yatzarriz, bizi infame bat eremanez, Frantsesek ez balute zentzuttoa g&aacute;ldu, ez zuten gizon hits hartarik eginen, bitxiki, anhitz urthez, beren idola handia.</p>
+<p>Ihautirian zeri gizenduak hiltzen ditugu nabala marraza emanez lephora. Ez zuen hala hil behar Gambetta lodiak; bainan harekin gaizki bizi zen emakume tzarrak tiro bat tiratu omen zakon triparat, pistolet batez, eta hola ukhan zuen Gambettak heriotzeko kolpea. Tripa hura ongi bethetzen ahal zuen eta mainatzen, Gambettak; bere kozinera, Trompette deitzen zena, pagatzen zuenaz geroz urthean hamar mila libera!!!</p>
+<p>Holako gizona izan da glorifikatua errepublikanoez, bizi zelarik eta hil ondoan.</p>
+<p>Gambetta, erran dugun moldean yuan zenean mundu huntarik bertzerat, eta bere Yuyearen aitzinerat, hedatu zen berri hori Frantziako lau kantoinetarat. Eskual-Herri aldean berean, nahiz gizon ez handi, bainan triste haren izena mende eta mendetan kontserbatu, Bayonan, Miarritzen, eta Donibane Lohizunen, khendurik karrika batzueri beren aspaldiko izenak, berriz bathaiatu zituzten deithuz karrika Gambetta, <hi rend='Italic'><foreign>Rue Gambetta.</foreign></hi></p>
+<p>Ala fede! zer zoriona eta zer ohorea ez da hirur hiri horientzat, ukhaitea bakhotxak karrika bat izen glorios horrekin!!! Maiz yohan naiz Bayonarat; zenbait aldiz Miarritzerat, bakhan Donibanerat. Bada karrika hetarik igaitean, iduritzen zaut ene soineko arropa guzietarik atheratzen dela ez dakit zer bafada, nola duda baitut uste gabe sarthu othe ditudan ene oinetakoak zenbait salsetan!!</p>
+<p>Ostalertsari galdetzen diot eskubila bat eta fite naiz ohartzen karrika hetako erhautsak berak baduela Gambetta urrin bat. Urrin hura da preseski nik hemen izendatuko ez dudan gauza baten berarena. Karrika hetarik igaitean, bakhotxak bere sudurra tapa dezala!!</p>
+<p>Huna gure errepublika hunen bertze haurkeria bat: Mila zortzi ehun eta lau hogoi eta bederatzian, anhitz Frantses ibili dira bertze idola baten ondotik. Hura zen Boulanger yenerala. Bakharrik ditut erranen hartaz bi gauza. Lehena, yenerala hedoietan gora aixatu dutenek, hura iduri dutela. Bigarrena, deusez giristino dena, dela ere izanen deusez gizon eta aiseago deusez yeneral.</p>
+<p>Karta yoko batean badire erregeak. Ez dut uste hatik baden, ez karta espa&ntilde;oletan, ez karta frantsesetan yeneralik. Balitz ere, nork nahi luke izan kartetako yeneral baten pare? Gizagaixo Boulanger yenerala! ezar bezate karta yoko batean, han ongi izanen da!!! Banuke oraino mila gauza irri egingarri khondatzeko gure errepublika pullitaren gainean; bainan lehen kapitulu hau aski luzea da.</p>
+<p><hi rend='Bold'>2en KAPITULUA</hi></p>
+<p>Hirurgarren errepublika hunen imixilkeria agertu da guziz 1889ko elekizionetan. &mdash;Bozkatzeko aitzinean, gerla zibila ikhusi da herrietan eta etxetan beretan. &mdash;Botzen emaiteko egunean, zer egin duten ostalerrek eta ostalersek. &mdash;Gure herrian Peyo, bi litrako botoila eskuan. &mdash;Mari&ntilde;o, haren emazteak, kafea agiten du bertz handian. &mdash;Elektorrak asetzen dire arnoz, aguardintez, kafez. &mdash;Badohatzi gero botzen emaiterat, balantzan, gorri gorria, su phindarrak aurthikitzeko phonduan. &mdash;Hori othe da errepublikano izatea?</p>
+<p>Gure hirurgarren errepublika hunen imizilkeria agertu da oraino 1889an izan diren elekzionetan. Nahi naiz mintzatu gure herrian ikhusi diren gauzez.</p>
+<p>Beraz, bozkatzeko aitzinean, anhitz egunez, zoinetan izan baita kasik gerla gorria herririk ttipienetan, bai eta etxetan beretan, aitak semen kontra, semeak aiten kontra, xuriak beltzen edo gorrien, eta azken hauk xurien kontra ikhusi dire.</p>
+<p>Beraz orduan ostalerrak eta ostalerrak arnoa nahi zutener turrustan zuten emaiten, baldin hitzemaiten bazuten halakoarentzat bozkatuko zutela.</p>
+<p>Iduri zaut oraino ikhusten dudala gure herriko Peyo, bere xano beltxa buruan, bi pintako botoila bat eskuan, erraiten:</p>
+<p>&laquo;To, edan zak, Piarres... Har zak arno kolpe bat, Manex; ase hadi, Bettirl... On dakikala, Istebe...&raquo;.</p>
+<p>Eta Mari&ntilde;o, Peyoren emaztea, bere besoetako mahongak altxaturik ukondoetaraino, turxon urdin bat aitzinean, halakoa aferatua zen kafearen egiten, ez bertz hori ttipian, bainan bai bi giderretako bertz gorri handian.</p>
+<p>Gero ikhusiko zinituzten, bakhotxak bere gostu, zonbait gizon arnoa edan eta edan; bertze batzu aguardintez baso, ez ttipiak, bainan handiak ongi bethe eta gero heyen iresten, berrogoyen tripak! hek zintzurretik behera igortzen; bai eta bertze anhitz, arnoa eta aguardinta bano kafea lakhetago zakotela, lau, bost, zazpi, bederatzi kafe prisetaraino hartzen, naski hertzeak beltz-beltza egin arteraino!!!</p>
+<p>Ostatutik yohan ziren, gure herriko gizonak, bere arno hatsa hedatzen zutela bidean. Zenbait zohazin arrailak balantzan; bertze batzu khaldan kasik su phindarrak atheratzen zeztela sudur puntatik eta begitarte guzitik.</p>
+<p>Orai erran zadazu, irakhurtzale maitea, hori dea bada bozkatzea? hori dea errepublikano izatea? hori dea Frantses izatea? hori dea guziz Eskualdun izatea?</p>
+<p>Phu!... phu!... phu!... Orhoitzen nizanean gauza horietaz guzietaz, oraino iduri zaut zango puntetarik goitikak aurthiki behar ditudala.</p>
+<p>Funtsean dela manera, ikhusi dugu egungo yuduen eta framazonen debru errepublika hunek iduri duela baratzeko xenila batzu, zoinek zikhintzen eta gastatzen baitituzte hunkitzen dituzten aza hosto eta bertze gauza guziak.</p>
+<p>Eta Errepublikaz denaz bezenbatean, nik diot ez direla segurki, ontsa urrun da, errepublikano guziak ohoinak, faltsuzakhurrak; bainan diot gizon ohoin, traidore, bandil eta edale guziek erraiten dutela errepublikanoak direla.</p>
+<p>Gauza segurra da errepublikanorik hoberenak direla fruitu itxuraz eder, bainan harrak yoak direnen pare.</p>
+<p>Egiaz errepublikano bat da, askotan, kanpoz gizon konplia; bainan ongi etsaminatzen bada, bere hitzetan da guti sinhetsgarria, bere agintzetan guti leyala; bertzerenaren hartzeko maiz prest dena, bai eta bertze holako frango estakuru handi eta ttipi dituena.</p>
+<p><hi rend='Bold'>3en KAPITULUA</hi></p>
+<p>Hirurgarren errepublika hau ergela baino da gaixtoagoa. &mdash;Fedearekin nahi dauku khendu zentzua. &mdash;Konparazione, mila gazetek erran dute, elekzionetako denboran, aphezek egon behar dutela beren elizetan edo sakristian. &mdash;Ez da gauza hori bezala errana izan errienteri, egon ditela, hek ere, bere eskoletan... &mdash;Egungo egunean yuduek eta Framazonek dabilate Frantzia. &mdash;Hek dituzte egin eta phasarazi legerik itsusienak, ezkontzako sakramenduaren kontra, eskola giristinoen kontra, seminaristen kontra, <foreign>etc</foreign>. &mdash;Yuduak eta Framazonak dire egun gobernamenduko plaza guzietan, khendurik handik Eliza gizonak. &mdash;Bizkitartean, azken hauyek ere yakin dute Frantziaren gobernatzen. &mdash;Aski da izendatzea Suger, Richelieu, Mazarin, Fleury, <foreign>etc</foreign>.</p>
+<p>Oraiko errepublika ez da xoilki ergela; ergela baino da gaixtoagoa.</p>
+<p>Erran daiteke fedea khentzean, daukula ere khentzen zentzua, bai eta emaiten gaixtakeria.</p>
+<p>Irakhurtzale maitea, ikhus zazu zeronek, ez othe dudan mila aldiz arrazoin. Zenbait gazeta handi eta ttipiek ez dute erran, mila aldiz seriosik handienarekln, elekzioneko denboran, Aphezak dagotzila beren elizan edo sakristian?</p>
+<p>Bainan hau da gauzaren bitxia!!!</p>
+<p>Erran batzu badira, ahoetan erabiliaren bortxaz, gezurrak izanik ere, egiatzat hartzen baitituzte</p>
+<p>Aphezak ez direla behar okupatu elekzionez; zertako ez? Aphezak ez direa Frantsesak, eta Frantsesetan argituenetarik? Zer itsuskeria ez da beraz izan anhitz yaun erretoreri, elekzionez bertzeak bezala okupatu direlako estakurian , pagaren khentzea, ebastea?</p>
+<p>Zertako ere ez da errana izan, gisa berian, Errienteri, heyek ere egon zitela eskoletan, ibili gabe, herriz herri, etxez etxe, borthaz bortha, beren buruak mendratuz, aphalduz, zenbaitek desohoratuz, nahi izan dituztelakotz beren herrietako Erretorak belztu, kalomniatu?</p>
+<p>Heyek zuten, heyek, merezi bere pagaren galtzea, eta ez yaun Erretorek.</p>
+<p>Egungo egunean yuduek eta framazonek asmatu legerik tzarrenak phasatuko dira ura zubiaren azpitik bezala. Hori ikhusi izan dugu, Yainkoak berak establitu ezkontzako sakramenduaren kontra egina den lege afrusa publikatu dutenean.</p>
+<p>Gero berriz zoin tristagarri ez da izan ikhustea egiten bertze lege bat Semenarloetan diren aphez-gayen kontra? Yaun gazte heyek beharko dute utzi Teolosiaren ixtudioa, harmekin etsersisaren egiteko, eta yuanen dira othoitzeko lekhu batetarik soldado kaserna batetarat.</p>
+<p>Bertze orduz, Frantzia guzia, eta partikulazki Eskual-Herria, altxatuko ziren bat batean, gizon bat bezala, holako munstrokerien kontra, eta ez zuten gaixtoek pharrik phasatuko. Egungo gizon onak direlakoek ez dakite egiten zonbait hats-beherapen baizik.</p>
+<p>Bai, hauyek aurthikiko dituzte zonbait suspira, eta framazonek eta yuduek eginen dute irri!!!</p>
+<p>Hemen zenbaitek erranen dautate lege bat egiten dela guzientzat. Nehork ez dezake sustenga gauza hori serioski, non ez den arras mentsa, edo non ez duen izpiritua osoki makhurra, osoki gaixtoa.</p>
+<p>Yainkoaren legea egina izan da guzientzat, eta guziek behar dute hura begiratu; bainan gizonen legek ez dute egundaino izan, ez behinere izanen hedadura, ez indar hori.</p>
+<p>Alegia Frantses guzientzat, bainan bakharrik fraiden eta semenaristen kontra egina den legeaz bezenbatean! Nork ez du ikhusten anhitzak direla lege hartaz kanpo?; hala nola sorthu direnak menbro bat edo bertze gabe, edo diretakotz sobera flako, sobera eritsu, hitz batez, gorphutzez ez aski sano.</p>
+<p>Bertze alde, Yainko Yaunak berak, zoinak gobernatzen baititu mundu huntan yende eta gauza guziak, bethi emaiten du gizoneri, zertarat deitzen baititu eta hartako yaidura, gostua, izpiritua eta indarrak. Beraz eginen dituzte batzuek ixtudioak, eta dira izanen aphez, mediku, notari, <foreign>etc</foreign>., eta bertze batzu, sorthuak gorphutz lanetako, ikhusiko dire laborari, edozoin ofizlale, ala hargin, ala arotz, ala marasturu <foreign>etc</foreign>., bakhotxa bere hautuaren arabera.</p>
+<p>Berdin, harma, sabrea, baioneta ibili nahi dituenak, soldado nahiko du izan. Bainan nork ez du konprendituko aise, aphez-gai batetarik komuzki soldado txarra eginen dela; nola soldado beharra, aphez egiten bada, aphez hitsa baiditake?</p>
+<p>Orok konprendi dezagun ongi egungo yudu eta framazon gaixto batzuek nahi badute phasatu beren nibela gizon guzien gainean, gauzen gainean bezala, hori dela aments bat ezin gehiago zoroa, ezin gehiago kaltekorra laitekena ororentzat, baldin egin ahal balitake.</p>
+<p>Bertze gauza bat, erreboluzioneko gizonek, gure mendean egiten dutena da kargu guzietarik khentzea Eliza gizonak, berak heyen orde edo plazan emaiteko.</p>
+<p>Bizkitartean Eliza gizonak deitzen ditugunen artean izan da frango eta frango ongi Frantzia gobernatu, eta Frantziaren ohorea eta zoriona egin dutenak.</p>
+<p>Aski izanen zaut aiphatzea Suger, zoina baitzen fraide benediktanoa; Georges d'Amboise, kardinalea; Duprat, arxaphezpikua; Richelieu, aphezpikua, kardinalea; Mazarin, berdin kardinalea; Fleury, oraino aphezpiku kardinalea. Arrazoinekin laudatzen ditu ixtorioak gizon handi eta famatu horiek; eta ez ahal dire heyen herronkan emanak izanen egungo ministro framazonak, zoinen artean asko abokat txar edo negoziant afera zikhin edo frodazko batzuen egile izanik, agertzen baitire tirano gaixto, beren azpikoen alderat, heyek gobernatuz nola nahi, ala ongi ala inyustoki.</p>
+<p>Frantziak behar du laster xahutu holako gizonen eskuetan; bainan diote heyek, Frantzia peri bedi nahi badu, hori berdin zauku, baldin Errepublika bizi bada.</p>
+<p>Nik aldiz diot: &laquo;Yainkoak kontserba beza Frantzia, bainan framazonen eta yuduen errepublikak lehen bai lehen, lehert eta zapart egin dezala!!! Amen&raquo;.</p>
+<p>Burho hori ez omen da bekhatu. Gure yaun Erretorari segurik ez zako hala.</p>
+<p>Ez ala fede eta eni ere!!</p>
+<p><hi rend='Bold'>4en KAPITULUA</hi></p>
+<p>Norbaitek, bere Aita-amen edo aitzinekoen gaitzez kanpo, badituzke nondik nahi eta noren-ganik ukhan eritasunak. &mdash;Gure hirurgarren errepublika hunek iduri du emazte eder bati, zoina baidaukate, bertze bi tzarrek lephotik herstua eta ithoa bezala. &mdash;Hek dira Yudukeria eta Framazonkeria: lehenak khentzen dako Frantziari bere izaitea, edo fortuna; bigarrenak, bere fedea, Erlisionea.</p>
+<p>Yadanik aditzerat eman dut haur batek badituzkela bere amaren eritasunak edo estakuruak, bai eta bere amaxorenak.</p>
+<p>Hartakotz, diot berriz, gure hirurgarren errepublika hunek iduri duela lehenik haren 1848ko ama, bere imizilkeriez, eta gero beraren amaxo 1793koa, egin dituen gaixtakeriez.</p>
+<p>Ez da guzia, norbaitek, bere aitzinekoen eritasunez kanpo badituzke, nor nahik edo zer nahik emanikako bertze gaitzak. Egun konparatuko dut, eta naski arrazoinekin, gure errepublika hau, edo orobat dena, Frantzia maitea, hirurgarren errepublika huntan, emazte eder bati, zoina bertze bi emazte, osoki tzarrek eta gaixtagintsek, baidaukate lephotik herstua, eta ithoa bezala; zangoen azpian ostikatzen ere dute, ustez, eta ongi nahiz hari bizia ereman.</p>
+<p>Bi emakume zalamandrin kokintsa heyek dira bat Yudukeria eta bertzea Framazonkeria.</p>
+<p>Lehenak dio Frantziari behar dakola khendu odola, erran nahi baita, bere izaite guzia, urhe, zilhar eta iguzkiko funts eta onthasun guziak. Lan hortan ari bide da Yudukeria aspaldiskoan, guziz hogoi bat urthe huntan.</p>
+<p>Guziek badakigu ez dela izan bethidanik yuduak bezalakorik yende baten, herri baten, populu baten, nazione baten sangratzeko, azken xortaraino.</p>
+<p>Orai duela berrogoi urthe, Frantziak zuen Europan eta mundu guzian zen monerarik ederrena, kasik dena bost liberako zilharretan. Non da orai moneda eder hura? Yuduek erran dezakete non den. Guk paper gehiago ikhusten dugu diru baino. Egia da hatik oraino segurik, paperrak diru metalea balio duela.</p>
+<p>Yuduen eskuetan dire lehenagoko monasterio edo komentu handi, eder eta famatu zenbait, bai eta anhitz aspaldiko aitoren-semeen yauregiak, bere inguruetako landa, phentze, mahasti, oihan eta bertze bazter ederrekin. Yauregi hetan ikhusten omen dira orai, egundaino lehen han ikhusten ez ziren doradurak, pinturak, tapizadurak, hitz batez, zer nahi aberastasun eta edergailukeria.</p>
+<p>Gure hirietan ere, konparazione Bayonan berean, yuduenak dire hango hotel eta etxerik ederrenak eta handienak; Miarritzeren pharterik hoberena yuduena da.</p>
+<p>Yuduek mundu huntan berean nahi dute egin bere parabisua, beldur baitira ez dela izanen bertzean heyentzat, baizik ifernua. Bai, Frantzian eta bertze erresuma guzietan, yuduak dire gozatzen onthasunik superrenez, gaztelurik aiphatuenez.</p>
+<p>Yuduak dire, berriz diot, beren fagoretan, non nahi izan diten, sangratzailerik abilenak, uxaran, itxain, edo odol edale goseenak. Hetarik zenbaitek erran ahal dute eros lezaketela Frantzia guzia, nahi balute, han yokharazi ondoan lehenik, ez bolbora, bainan bolborak baino indar gehiago duen <hi rend='Italic'>dinamita. </hi>Erraiten ere ahal dute yadanik Frantziaren erdia berea dutela.</p>
+<p><hi rend='Italic'>Esperantza izan behar da, bertze erdia heyek beretu orduko,Yinen zeyela Frantseser odol xorta bat zainetarat, kuraye izpi bat bihotzerat, dremenden zentzua izpiriturat. Yudukeriak baino kalte gehiago egiten du oraino Frantziari frama zonkeriak.</hi></p>
+<p>Erran dut eta frogatu nola dakon lehenak odola edaten, xukhatzen edo bertze hitzez dakola emeki emeki bere fortuna guzia hartzen. Framazonkeriak, aldiz, ez dako gutiago hatsa ttipitzen, duenean egun guziez haren fedea gutitzen.</p>
+<p>Funtsera yuanez, yuduak eta framazonak, obra gaixto beraren egiten ari dira, erran nahi dut, Frantziaren aphaltzen, mendratzen, azkenean, ahal badute, erhausteko, ezeztatzeko.</p>
+<p>Hemen erran behar dut batzuek eta bertzek malezia eta aiherkunde berak dituztela yende on eta Yainkotiarren kontra: Yuduek, zeren duten bethi bihotzaren zolan herrarik handiena Salbatzaile Dibinoaren eta haren dizipuluen eretzerat eta framazonak berdin direlakotz debruzko gizonak, edo egiazki eta errealki debruarenak, debruen xede eta sendimendu berekin Yainkozko gizonen alderat.</p>
+<p>Bertze alde, ordu da erran dezadan yudu guziak, edo gehienak, direla framazonak, eta framazon ezagutuak. Kriminel handi heyek, zenbat molde ez dute gaizkiaren egiteko...</p>
+<p>Kasik gazeta tzar guziak, edo oro, yuduen eta framazonenak dire eta heyen medioz dituzte hel arazten Frantziako herririk xumenetaraino, bai eta ere Eskualdunetaraino, beren doktrina galgarrak, izpirituen phozoinarazteko, bihotzen uste arazteko.</p>
+<p>Framazonek sinhets arazi dute bazterretan erlisione guziak berdin direla egiak, edo berdin dudazkoak; beraz gure erlisione saindua dela opinionezko egiteko bat.</p>
+<p>Makhurkiago ez ditake arrazoina. Egundaino nehork ez du serioski erran plomuzko edo ezteinuzko bost liberakoak balio duela zilharrezkoa. Bertzela dugu arrazoinatzen diogunean monera faltsoak balin badira, monera egiazkoa ere badela, ez laitekela bertzenaz monera faltsorik. Erraiten dugu oraino, arras ongi, monera egiazkoa dela bakharrik bailo duena.</p>
+<p>Framazonek diote oraino, ezkontzaz bada kestione, esposak elgarrez badire desgustatzen, elgarretarik aparta daitezkela sekulako. Hori deitzen da frantsesez <foreign>divorce</foreign>, eta nik diot diborza lege bat balin bada, ez dela ona giristinoentzat, bainan izaitekotz dela basa urde eta urdesentzat, nola bortuko bertze bestientzat.</p>
+<p>Erraiten daukute oraino framazonek behin batez otso batek bildots gazte bat yan zuela, gose baitzen eta bildotsa baino azkarragoa zelakotz. Berdin egin daitekela gizonen artean. Hetarik azkarrenaren legea dela hoberena.</p>
+<p>Heyek berek erakhusten daukute bozkatzerat yohan garenean, hogoi eta hemeretzi gizon onhesten botzek baino gehiago dutela balio berrogoi kanailenek.</p>
+<p>Huna azkenean heyen matsima ederrenetarik bat: &laquo;Errege edo enperadore batez ez denean kontent populua, aski du heyek hiltzea, tiro edo pu&ntilde;al ukhaldi batez&raquo;. Gero heyen plazan ezarriko dituzte urkhatzea merezi luketen, bainan urkha bilhurrak balio ez dituzten gizon batzu.</p>
+<p>Ez da estonatzeko yuduek eta framazonek, ikhusiz Frantzia bere izpirituko eta gorphutzeko indarrez kasik gabetua, egin arazten badazkote, azken urthe hautan, mila imizilkeria eta beharrezdenkeria.</p>
+<p><hi rend='Bold'>5en KAPITULUA</hi></p>
+<p>(laugarrenaren segida)</p>
+<p>Gerlako untzietarik eta armadetarik khenduak izan dira aumonierrak. &mdash;Kalonjeri eta bertze zenbait aphezeri ez zakote gehiago emaiten pagarik. &mdash;Itsuskiago izan dire oraino gabetuak beren tratamenduaz erretor batzu, estakururik arinenez, eta, heyen yustifikatzeko arrazoinak aditu ere gabe. &mdash;Fraideak beren komentuetarik kasatuak izan dire. &mdash;Bizkitartean yuduak, non nahi utziko dituzte aberasterat giristinoen gostuz. &mdash;Prosesioneak debekatuak dira, eta ihautiriko idi gizena, bai eta maskak, libro kurritzerat. &mdash;Ehorzte zibilak, mera framazona ahokiaren puntan libro... &mdash;Katixima ez daiteke erakuts eskola publikoetan. &mdash;Khurutzeak khenduak izan dire eskola hetarik. &mdash;Ez da estonatzeko hainbertze haur kriminel ikhusten badira. &mdash;Bost muthikok hil dute beren adineko lagun bat. &mdash;Bertze etsenplu batzu. &mdash;Neskatxen ixtorioak ez dira ederragoak.</p>
+<p>Nork ez daki gerlako untzietarik, bai eta armadetarik khenduak izan direla aumonierak, gure soldado, Frantziaren haurrak, hil diten, itsasoan edo leihorrean, aphezik gabe, erran nahi baita erlisioneko laguntza eta kontsolazionerik gabe, heyen amek naski nigar eta heiagora gehiago egin dezaten, phentsatuz gizonen gatik heyen seme maiteak hil direla, nahiz giristinoak ziren, pagano batzuen pare; zer diot, bestiak bezala, non ez diren lagunduak beren aingeru begiralez, edo bertze zeruko aingeruez?</p>
+<p>Kalonje eta asko bertze aphezeri khendua izan zaiote paga, hura merezi ez balute bezala, elizaren eta zozietatearen zerbitzuan bere bizia iragan duten gizon errespetagarriek; bainan oraiko errepublika pullitari berdin zako heyek miseria gorrian hil diten bai ala ez!!</p>
+<p>Itsuskiago oraino asko yaun erretor beren tratamenduaz gabetuak izan dire, baizik ere mintzatu direla errepublikaren kontra, guziz elekzionetako denboretan.</p>
+<p>Hori hala balitz ere, lehenik behar laiteke frogatu egina izan den hutsa eta gero eman gaztigua.</p>
+<p>Yainkoari esker, oraino Frantzian, bertze tokitan bezala, norbait akusatua dena, kondenatu baino lehen presondegirat yuaiterat edo amanda baten pagatzerat, aditzen dute, eta yustifikatzen da, ahal badu segurik.</p>
+<p>Gu egun gobernatzen gaituzten gizonek ez dituzte beiratzen yustiziako legeak berak, gure yaun erretoren eretzerat.</p>
+<p>Fraideak kasatuak izan dire beren komenduetarik eta aurdikiak, nahi bazuten eta ez, karrikaren erdirat. Heyen krima guzia zen fraide izaitea. Mundu guziko yuduak, aldiz, geldi daitezke Frantziako edozoin hiri edo herritan, eta han utziko dituzte trankilki aberasterat, giristinoen gostuz, heyer dirua prestatuz ehuneko galdeginez hamar, hogoi, hogoi eta hamar libera, bai eta berrogoi eta bamar ere.</p>
+<p>Besta-Berriko prosesione eder eta anhitz maiteak debekatu dituzte asko hiritan mera framazon batzuek, karrikak piayanter hutsik uzteko estakuruan. Bizkitartean mera heyek berek utziko dituzte bertze prosesione suerte batzu egiterat trankilki, hala nola, urthe guziez, ortzegun gizenez, idi gizena paseatzen da xingola flokaz aphaindua, eta haren ondotik yende oste handi bat badabila.</p>
+<p>Ihautiriko maskak ere ibil daitezke nahi duten bezala, ala zaldiz, ala oinez, bethez karrikak eta plazak. Aise ukhaiten dute meraren baimena.</p>
+<p>Azkenik erranen dut zenbait urthe huntan ikhusten direla bertze prosesione batzu itsusiagoak: hek dire gizon triste, inpio, framazon, elizako sakramendurik gabe hil eta, ez aphezik, ez khurutzerik, erhosterakoan, nahi ez dutenak.</p>
+<p>Lehen halakoak bazeramatzaten gabaz, ixilik, oihan zokho batean egina zen zilhorat, oraino xakhur, ahari, mando, idi edo bertze kabala hil bat eremaiten duten bezala.</p>
+<p>Aiphatu mera framazoneri ederrago zayote berak pharatzea ahokiaren puntan, bere exarpa edo zintura hirur koloretakoarekin. Horra egungo errepublikaren gaixtakerietarik bat, zoina baita, denbora berean, nik ongi erran ez dezaketan <hi rend='Italic'>eskarnioa grimasa, ziminokeria.</hi></p>
+<p>Izenik ez duen munstrokeria hau da: katiximaren erakusterat ez haizu izaitea haur gazteri, Franziako eskoletan.</p>
+<p>Eskola hetan beretan ez da ikhusten Salbatzaile Dibinoaren imayarik, ez sainduenik: Marianaren, edo andere Errepublikaren potreta da bakharrik ikhus daitekena han. Yuduek eta framazonek, bethi gure erlisione sainduaren etsai handi direnek, hola nahi izan dute; bai eta Frantzia guzia da sumetitu heyek egin arazi lege horri!!!</p>
+<p>Zer diot? Lege infame eta madarikatua phasatu zenean,aurthiki zituzten khurutzefikak orga tonberoetarat, eramaitekonork daki norat!!!</p>
+<p>Zenbait gizon izan ziren errabian hautsi zituztenak kurutzefika hek, eta bertze batzuek, egiazki eta errealki ifernuko debruez poseituak zirenek, botatu zituzten ez dut erranen norat... Bakhotxak aise pentsaturen du!!!</p>
+<p>Gisa hortan khurutzefikez gabetuak izan diren eskoletan ez daiteke gehiago Yainkoaz beraz mintza. Haurrak altxatuak dire beraz Yainkorik ez balitz bezala, eta harren lege saindua utziz bazterrerat.</p>
+<p>Ez da beraz estonatzeko egungo egunean ikhusten bada hainbertze haur kriminel Frantzian, eta gizon argituak khexahasi badira heyen eskoletan altxatzeko moldeaz.</p>
+<p>Edo molde hori laster khanbiatua izanen da edo dire ikhusiren gure artean salbayek berek egiten ez dituzten itsuskeriak eta izigarrikeriak. Huna itsuskeria eta izigarrlkeria hetarik zonbait.</p>
+<p>Frantziako hiri batean (Boulogne-sur-mer) bost muthiko, yadanik arras tzar eta ustelduek, hil arazi dute beren adineko lagun bat (Albert Dum&egrave;ge).</p>
+<p>Hetarik hamabi urthe zituena, izan da kondenatua bost urthez zerratua izaiterat haurrak korreitzen diren etxe batean; bigarren batek, hamar zituenak, izan du gaztigu bera bi urtherendako.</p>
+<p>Bortze hirurak, bederatzi, zortzi eta sei urthetakoak, eman ditu yustiziak beren Aita-Amen eskuetan.</p>
+<p>Hamabi urtheko bertze muthiko bat, preso eman duteneko, urkhatzen da, bere gerrikoaz; hamar urtheko batek bere burua aurthikitzen du zubi batetarik ur handirat eta han da ithotzen.</p>
+<p>Muthikoez mintzatu eta, nahi banu neskatxez ere mintzatu, azken hauyen ixtorioak laitezke berdin tristeak edo tristeagoak.</p>
+<p>Horra Yuduek eta Framazonek Frantzian ezar arazi dituzten eskoietako edukazionearen zenbait fruitu.</p>
+<p><hi rend='Bold'>6en KAPITULUA</hi></p>
+<p>Egin ditazke yende baten bi potret suerte: bat haren kanpoarena edo itxurarena, bertzea haren barnearena edo karaterarena. &mdash;Zer itxura dute Yuduek, ala Portugalekoek, ala Prusiakoek, Poloniakoek, Autrixiakoek, Frantziakoek, eta guziz Afrikan Aljeriakoek eta Tunisiakoek? &mdash;Zer dira mundu guziko Yuduak barnez? &mdash;Yuduek badituzte hirur estakuru eta seinale bat. &mdash;Bakhan dire Yuduak konbertitzen.</p>
+<p>Erretorika egin nuenean, helas aspaldi du! ikhasi nuen pintre batek ez badezake egin norbaiten potret suerte bat baizik, haren kanpo edo itxurarena, autor eskribanoak eginen dituela biga bere lumarekin.</p>
+<p>Egiaz, iskribatuko du norbait hura dela ontsa egina, lerdena, ederra, edo dela istupa amoka bezala moldatua, tapaloa gabazko huntza iduria, <foreign>etc</foreign>. Hori deitzen da frantsesez <hi rend='Italic'><foreign>Prosopographie. </foreign></hi>Autor hura nahi bada mintzatu norbait haren izpiritu handiaz edo eskasaz, hark duen memorio on edo ingrataz, yuyamendu xuxen edo makhurraz, ezagutzen dakoten bihotz onaz edo gaixtoaz, haren karatera eztiaz edo borthitzaz, hori bertze potret suerte bat da, Erretorikan deitzen ginuena <hi rend='Italic'><foreign>Ethop&eacute;e.</foreign></hi></p>
+<p>Egun nik egin behar ditut bi potret horiek, Yuduez mintzatzean. Ontsala behar nintuzke aiphatu mundu guziko Yuduak. Bisaya, bisaya, zer lana nukeena!! Aiphatuko ditut bakharrik zenbait, hasten naizelarik Portugalekoez.</p>
+<p>Portugaleko yuduak omen dira gizon aski propi batzu, nahiz ongi belxaranak diren. Mathela lodi eta molde on batetakoak ahal dituzte eta sudur punta biribil biribila.</p>
+<p>Yudu hauyen aitzinekoak ethorri ziren Portugalerat, berek diotenaz, orai duela bi mila urthe baino gehiago. Ez zuten beraz hek pharterik izan gure Salbatzaile Dibinoa heriotzerat kondenatzearen gainean. Hobe segur heyen ondokoentzat! Gutiago dute notha handi hori kopetan, edo estakuru bat giristinoen begietan!!</p>
+<p>Batere ez bailiteke naski aise Portugaleko Yudueri erraiten duten gauza horren frogatzea, utz ditzagun deskantsuan, eta guazin Alemaniako Yuduetarat. Ez dugu hirur egun baino gehiago beharko Lisbonetik, Berlinerat yuateko. Laster eginen da piaya burdinezko bidean, eta loria da hetan ibiltzea. Beha, beha dezagun ongi Prusiako yudu eta yudusa kankaila eta kunkur dabiltzan heyeri. Ikhus, ikhus heyen begi &ntilde;a&ntilde;az betheak edo krasatua eta gorriak...</p>
+<p>Begi gorriak, sorgin begiak! Halere bertzenaz Autrixiako eta Alemaniako Yuduak askitto dira garbiak. Aljeriakoak eta Tunisiakoak iguzkiaren azpian daitezken zikhinenak dire, partikularzki tabako harzaleak badira, pekada sudurretik dariotela!</p>
+<p>Bai, Aljeriako eta Tunisiako Yuduak eta Yudusak dira egiazki okhastagarriak , nahiz sakelak dituzten urhez betheak.</p>
+<p>Lehen Frantziako Yuduak ziren oraiko Aljeriakoak eta Tunisiakoak bezala. Egungo yudu Frantsesek, Polonesek, Alemanesek elgar iduri dute, zeren guziak aberats okhituak baitira.</p>
+<p>Bethidanik izan dire bi gauza miretsgarriak: bat nola Yuduek elgar iduri izan duten; eta bertzea nola giristinoek, heyek, non nahi aise ezagutu dituzten. Orai duela berrogoi eta hamabortz urthe, ene haur denboran, ikhusten genituen, Santo Izpiritutik atheratu eta, borthaz bortha, philtzar-tzar, luma eta burdin zahar erosten zabiltzan Yuduak eta heyen emazteak; sakelako mokanesak harturik, edo arropa kantail batekin, eginen ginituen urde beharriak bezelako batzu, eta yauzteka pharatuko ginen Yudu eta Yudusa heyen aitzinean oihu eginez:</p>
+<p>&laquo;Raka, raka! raka!&raquo;.</p>
+<p>Hek koleran laster; guk, irriz laster! Zer orhoitzapena! Orduan zalhu ginen, orai maltso gabiltza!!</p>
+<p>Orokatik ere, Yudua bethi Yudu da, eta Yuduak baditu berekin hirur estakuru eta seinale bat. Khasu ongi huni.</p>
+<p>Estakuru hetarik lehena da Yesu-Kristo gure Yaunaren eta haren erlisione sainduaren kontra duen herra ezin asea.</p>
+<p>Herra errabiazko hori asko eta asko aldiz erakutsi dute Yuduek, partikularzki Phazko irian, gure misterio handi eta sainduak sakrileiozki profanatuz, giristinoak, hala nola Aita Joseph, kapuxina, orai duela berrogoi eta bederatzi urthe, martirisatuz, bai eta anhitz haur ttipi eta inozentak khurutzefikatuz.</p>
+<p>Haur hetarik aiphatuena izan zen San Simon, bi urthe eta erdi zituen muthil gaztea. Trente deitzen den hirian, hil edo khurutzefikatu zuten Yuduek afruski 1475an.</p>
+<p>Izan dire bertze berrogoi eta biga edo hirur, hola tratatuak Yuduez!!</p>
+<p>Alferretan ukhatuko dituzte gauza hok Yuduek; badire bi liburu khenduko ez dituztenak mundutik: hek dira bat Elizako ixtorioa, eta bertzea Martir sainduen lista.</p>
+<p>Yuduen bigarren estakurua da urhe eta zilharrer sobera estekatuak izaitea. Egun guziez erraiten dugu: &laquo;Gizon hau abariziosa da Yudu bat bezala; dirua hainbertze maite du, non iduri baitu Yudu bat&raquo;.</p>
+<p>Eskritura Sainduan errana da Israeldarrek adoratu zutela desertuan urhezko aratxe bat. Moisek yakin zuenean idolatriazko akto hori, erhautsarazi zuen urhezko aratxea eta aurthiki Israeldarrek edaten zuten urerat.</p>
+<p>Erran ditake yuduek, naski edan zutelakotz urhestatu ur hartarik, badutela geroztik, guziek, bainan guziek, urhearen gosea eta egarria.</p>
+<p>Ez da beraz sobera estonatu behar, dirua prestatzen badute galdeginez hamar, hogoi, berrogoi eta hamar ehuneko.</p>
+<p>Erroman, Europako hiri handietan, Santo Izpiritun bezala, Yuduak atxiki dituzte, lehen, bertze yendetarik behex, beren kartierrean; uste izaiteko da ifernuan ere apart izanen direla. Han betheko ahal dute departamendu edo probinzia bat, handiskoa izanen dena!</p>
+<p>Gutiak dire heyen artean, batere balinbada ere, konprenditzen dutenak Testament Zaharreko liburu batean irakurt dezaketena: &laquo;Norbaitek fitegi bere fortuna egiten badu, nekez dukela bere kontzientzia garbi&raquo;. Bada Yuduak galopan aberasten dire!</p>
+<p>Orai duela ehun urtheren ingurua, Rothschild, guzien buruzagia, komis xinple bat omen zen. Egun haren familia on da, diotenaz, hirur milliarrez (3.000.000.000). Egundaino ez da behar bada izan ez erregerik, ez monarkarik halako izatea ukhan duenik. Orai segurik ez da hain aberatsik.</p>
+<p>Komondo, bertze Yudu batek, omen ditu 1.000.000.000 libera. Nehork ez daki Ephrusik, Miresek, Dreyfusek, Millaud deithua denak eta bertzek zer izatea duten. Ni arras haurra nintzelarik, bazen Bayonan Yudu etxe bat deitzen zutena Hogoi eta zortzi sosenia<hi rend='Italic'>. </hi>&laquo;Norat yohan zare gauza horren erostera?&raquo; &laquo;Yohan naiz Hogoi eta zortzi sosenera&raquo;. &laquo;Nori erosi duzu hori?&raquo; &laquo;Hau erosi dut Hogoi eta zortzi sosenean&raquo;.</p>
+<p>Yudu hek bere fortuna hasi omen zuten hogoi eta zortzi sosetarik, eta gero altxatu nork daki zoin gora!!</p>
+<p>Yuduen hirurgarren estakurua, eta ttipla ez dena, da falso edo traidore izaitea.</p>
+<p>Yudua tratulari bada, ez da estonatu behar, bertze tratulariak bezala, izan dadin filusa eta gezurtia; bainan denean traidorekeria bat handia egiteko, badakite traidorek nor den irutan kargatuko holakoaren edo halakoaren enganatzeaz. Faltsokeria deusik ez da Yuduarentzat, baldin dirua hunkitzen badu; Yudu guziek behar lukete ontsala Yudas izena...</p>
+<p>Hemen erranen dut egin nezakela liburu handi bat, zoinetan froga bainezake Yuduak traidore direla ez xoilki gure etsayak direlakotz, bainan eta guziz dutelakotz urhe eta diru gose eta egarri bat, deusek ezin asea.</p>
+<p>Bi disposizione horiekin khausitzen dira Yuduak mundu guziko banka eta industria konpainia prinzipalen buruan. Bertze bankek eta konpainiek badakite ez dutela indarrik aski heyer ihardokitzeko, eta heyetaz zangoen azpian ostikatuak eta lehertuak ez izaiteko.</p>
+<p>Orai behar dut erran hitz bat Yuduen seinaleaz. Kainek hil zuenean Abel, bere anaia inozenta, izan zuen Yainkoaganik seinale bat, zoinak ezagutarazten baitzituen bi gauza: Bat, hura zela lehenbiziko gizon hiltzalea; bigarrena, nehork ez zuela hatik hura hil behar, Yainkoak ez baitzuen hori nahi.</p>
+<p>Yuduek ere badute beren seinalea, harek ezagutarazten ditu ongi, guziz direla Yesus-Kristoren hiltzaleak, nola ere baitire ezin konbertituak, edo reprobatuak munduaren akhabantzaraino.</p>
+<p>Arraro da ikhustea Yudu bat konbertitzen. Bizkitartean Yondoni Bixintxo Ferriekoak hamalaugarren mendearen akhabantzan, konbertitu ahal zituen 25 mila hetarik.</p>
+<p>Gure mende huntan giristinoen fedea besarkatu duten Yudu famatuenak izan dire: Liberman, bi anaia Ratisbonne, bertze bi anaia Leman, oraino bizi direnak.</p>
+<p>Baratzen naiz, ordu baitu. Yadanik erran dut nagusi direla Yuduak, Frantziaren cidiaz!!!</p>
+<p><hi rend='Bold'>7en KAPITULUA</hi></p>
+<p>Gauza bat erran daiteke anhitz gisetarat. &mdash;Berdin framazonkeria ongi ezagutarazteko, behar dire eman hartaz zonbait definizione. &mdash;Orai artean framazonek bazuten Yainko bat, nahi zuten bezala izendatzen zutena; orai Yainko hura bera ukhatzen dute. &mdash;Orai duela lau hogoo urtheren ingurua, baziren framazonak Mableko hirian. &mdash;Zer khondatzen zuen denbora hartan zerbitzari egona zen presuna adinetako batek. &mdash;Bayonan ere framazonak biltzen ziren han den karrika hertsi eta zikhin batean den etxe batetarat. &mdash;Zer ikhusi den deputatu framazonen bilkhuran, behin bainotan, Yainkoaren izena aditu dutenean. &mdash;Orokatik ere, arbola bere fruituetarik ageri den bezala, framazonkeria ageri da bere obretarik. &mdash;Zer khondatzen dute autorrek hartaz, partikulazki Brescianik. &mdash;Naturalistek zer duten erraiten. &mdash;Afr&iacute;kako desertuetan diren zur ernayak bezain handiko suge ikharagarri batzuez. &mdash;Bada suge baten plazan, bi suge handiek dakote egungo zozietatea, Yudukeriak eta Framazonkeriak.</p>
+<p>Gauza batez nahi denean norbeit mintzatu, nesesario da ezagutaraz dezan lehenik gauza hura, baldin ez bada ezagutua. Erran behar du beraz zer den hura, edo eman haren definizionea.</p>
+<p>Bada, losikako erreglen arabera, definizione batek, ona izaiteko, berekin ukhan behar ditu lau edo bortz kalitate. Hetarik lehenbiziko biak dire: klartasuna eta laburtasuna. Definizionea izan dadila beraz klarra eta laburra.</p>
+<p>Aise da haren erraitea, ez ordean egitea!!</p>
+<p>Orokatik ere, erranen dut, laburzki ez bada, bederen klarki, zer den framazonkeria. Iduri zaut gauza hori erran behar dutala anhitz gisetarat:</p>
+<p>1nik Framazonkeria da zozietate bat egina munduan diren gizonik faltsoenez, gaixtoenez, tzarrenez.</p>
+<p>2nik Hura da oraino bilkhura suerte bat gizonik lanjerosenez formatua, monarka, errege edo enperadore ororen, nola buruzagl eta gobernamendu lesitimo guzien kontra dena.</p>
+<p>3nik Framazonkeria da, azkenik, biltzarre bat ifernuko debruek, mundu guzian, bere iduriko egin dituzten gizon kriminel batzu, zoinak baitire bethi Yainkoaren kontra, Elizaren kontra, zozietatearen kontra.</p>
+<p>Arbola bere fruituetarik ageri den bezala, Framazonkeria da bere obretarik. Framazonen obrak behar ditugu beraz ixtudiatu, framazonkeria ongi ezagutzekotz. Orai arterainoko framazonek bazuten bederen bere gisako Yainko bat, munduko etxe-egile handia deitzen zutena.</p>
+<p>Harek egin izan duen etxea da mundu hau guzia, erran nahi baita, zerua, bere iguzki, ilhargi, eta izar guziekin, eta lurra itsasoarekin.</p>
+<p>Gauza horien guzien Kreatzaile Dibinoa deithu dute beraz orai artino, framazonek, arxitekta handia, deitzeko orde Yainkoa. Orai arras ukhatzen dute lehen bere izenaz deithu nahi ez zutena.</p>
+<p>Hori behar zen gerthatu framazoneri.</p>
+<p>Hemen orhoitzen naiz zer khondatzen zuen presuna adinetako batek, bizi zen herri eder batean.</p>
+<p>Adi zazue ongi presuna hark khondatzen zuena:</p>
+<p>&laquo;Ene gazte denboran, zerbitzuan nindagolarik Mableko etxe batean, ikhusten nitzun, aski ardura, gure yaunaren ganberarat biltzen hiriko bertze yaun multxo bat, eta han egoiten zitzun luzaz, ahapetik eta segretian mintzo zirelarik&raquo;.</p>
+<p>Erraiten dizie emaztekiak kurios direla, uste nikezi neskato gaztiak oraino kuriosago direla. Ni segurik hala ninduzun.</p>
+<p>&laquo;Beraz egun batez, yauntto hek sarthu zireneko ganberan, eta bortha untsa zerratu zuten ondoan, eman ninduzun, barrandan, eta gakho xilotik beha, eta ez ninduzun guti estonatu ordian ikhusi nintuen gauzez.</p>
+<p>&raquo;Ohartu ninduzun gure nagusiak baziela bere altzinean, larru xuri xurizko dantal edo taulierra. Beste batek bazaukan ezkerreko eskian, hargin phalotea; hirurgarren batek konpas bat, hark ere ezkerreko eskian; laugarrenak atxikitzen zizin erregla bat esku batez eta eskuairea bertze eskiaz. Azken batek bazizin geroztik gure herriko errientari ikhusi dakotan bola bat. Han arizan zitzun luzaz ez dezakezit zer yestu egiten, zer mezu elgarri beharrira adi-arazten...</p>
+<p>&raquo;Sino eta eskarnio horiek iduritu zitzadatzun eni, gauzak bere izenez erraiteko, astokeria handi batzu, eta ez deus bertzerik.</p>
+<p>&raquo;Sehi bainintzan, eta ez bainien ene plaza nahi galdu, ixil-ixila egon ninduzun.</p>
+<p>&raquo;Ez nakizin ordian zer phentsa; bainan geroztik yakin dizit framazonak zirela, eta heyen erlisionea gurearen ximinokeria bat dela&raquo;.</p>
+<p>Orduan Mableko framazonak biltzen ziren bezala, hetarik baten etxerat, Bayonakoak elgarretarat yuntatzen ziren, gisa berean, Bayona handian zen kharrikarik hertsi hertsienaren eta zikhin zikhinenaren etxe batetarat.</p>
+<p>Ez da beraz estonatu behar framazonak gisa hortan yokhatuz, lehenik Yainkoaren izen saindua ez badute nahi izan aiphatu, eta gero Yainkoa bera badute ukhatzen.</p>
+<p>Tristeago da oraino phentsatzea zer ikhusi izan den zenbait aldiz gure deputatu gorri, framazonen artean. Aditu dutenean Yainkoaren izena, edo Probidentziarena, oihuka dira hasi, beren hortzak karraskatuz, haguna zariotela ahotik, xak hur errabiatuer bezala, eta zalapartan abian zirela, berek ez zakiten norat.</p>
+<p>Yainkoaren etsayak dira, denbora berean Eliza sainduarenak. Hartakotz dakote, hogoi urthe huntan, haren buruzagia, Aita Saindua, preso bere palazioan, hari khendu ondoan Probidentziak eman zakon erresuma ttipia.</p>
+<p>Framazonek, Frantzian, phasarazi dituzte, hamar aldiz erran dugun bezala, legerik tzarrenak ezkontzaren kontra, aphezgai ixtudianten eta fraide gazten kontra.</p>
+<p>Zer erranen dut oraino, hain itsuski etsekutatzen dituzten eskoletako lege batzuez? Bai, framazonek khenduko dituzte eskolak frereri eta seroreri, eta heyek emanen laiko batzuen eskuetan, zoinek altxatuko baitituzte gure haurrak paganoek berek altxatzen zituzten baino gaizkiago. Hortik gerhatzen da egun Frantzian, nihoiz eta nihon gerthatu ez dena: aste guziez berrikariek edo gazetek daukute yakin arazten, bi sensuetako haur gazte batzuek dituztela halako eta holako tokian, bere buruak destruitu, bere nahitarat ithoz, urkhatuz, edo pistolet kolpe bat bereri tiratuz.</p>
+<p>Eskola inpioak fagoraten dituzten mera framazon batzuek dituzte oraino debekatuko, katolikoen dretxo guzien kontra, urthe guziez egiten ziren prosesione maiteak eta Bestaberrikoa bera...</p>
+<p>Framazonak ez dira gutiago etsayak hek iduriak ez direnen eretzerat, bai eta hek berak iduri dutenentzat. Hemen behar ninduzke khondatu mila ixtorio.</p>
+<p>Irakurt daitezke ixtorio hek anhitz autorretan, zoinetarik ez baititut izendatuko hirur baizik: Bresciani, Leo Taxil eta Paul Rosen.</p>
+<p>Lehenak erraiten dauku framazon batzuek, neskatxa gaztez abusatu eta, heyek, pozoindatuz, hil arazi dituztela emeki emeki..</p>
+<p>Zenbaitek, autor beraren arabera, norbait hil edo asasinatu baino lehen, ekharri dute bekhatu mortal baten egiterat, gero haren ifernurat xuxen xuxena igortzeko..</p>
+<p>Zer furia ez dute framazonek beren buruen kontra ere, geroago eta gehiago gaixtagin bilhakatzea xerkatzen dutenean! ikhusi izan dira hetarik, dio oraino Brescianik, bilhatzen San Ligorioren Theolosia Moralean, hek ezagutzen ez zituzten bekhatu mortalak, preseski heyen egiteko!!!</p>
+<p>Orai aise da konprenditzeko nola diren framazonak zozietate guziaren etsayak. Hek egin eta egin arazi dituzte Europan eta Ameriketan, bederen ehun urthe huntan, khonda ahal erreboluzione, eta hek hil arazi dituzte milaka eta milaka gizonak, gerla zibil hetan, berak lekhu segurrean zaudelarik.</p>
+<p>Hek dituzte lephoraino sar-arazi, erresumak eta errepublikak sekula pagatu ez dituzten zorretan.</p>
+<p>Hek dakote populua lehertua zergen azpian. Hek direla kausa edo heyen doktrina falsoak segituz, agonian dagotzi Laborantza, Industria eta Komerzioa.</p>
+<p>Huntan akhabatzen dut kapitulu hau. Naturalistek erakhusten daukute Afrikako desertuetan badirela zur emalak bezain handiko sugeak.</p>
+<p>Hetarik baten gana inprudentki edo uste gabez, hurbiltzen bada bestia ezti edo inozent bat, hala nola basa ahuntz bat, mustroak yauzi eginen du haren gainerat; hura hartuko du eta inguratuko du bere gorphutz luzeaz egiten dituen erhaztun ikharagarriez. Tinkatuz, herstuz, eta bere hats phozoindatuaz laster du bere biktlma ithotzen, hiltzen.</p>
+<p>Sugeak ez du hura phuskatuko, bainan kraskaka hautsiko ditu haren hezur handi eta ttipiak, eta basa ahuntzaren gorphutza, hezatuz edo trenpatuz bere ahoko elder zikhinaz, ezarriko du luze luzea, philtzar bat bezala, eta azkenean iretsiko hola osorik, bere larru eta ilearekin... Mustroak behar du denbora gisa hortan bere phazkaren iresteko eta, iretsi ondoan, haren diseitzeko. Zenbait egunez, erdi lo bezala omen dago eta preseski orduan dute kalitzen edo hiltzen Afrikako salbaiek, haren larruaren ukhalteko eta hura ongi khario saltzeko.</p>
+<p>Konparantza hortan behar litezke ontsala suge baten orde, bi suge; ezen Yudukeriak lehenik eta gero Framazonkeriak dakote, biek, Frantzia maitea inguratua, tinkatua, phozoindatua, ithotzeko phonduan!!!</p>
+<p>Esperantza izan behar dugu sugea bezalatsu akhabatuko direla, Yudukeria eta Framazonkeria, noiz eta baitute uste izanen direla puxantenik eta orduan berean!!</p>
+<p>Amen! Halabiz.</p>
+<p><hi rend='Bold'>8en KAPITULUA</hi></p>
+<p>Gauza bat ikhus ditake asko gisetarat, haren gainean egin ahal daite konparantza bat baino gehiago. &mdash;Uxaranek odola edaten daukuten bezala, Yuduek xukatzen dute Frantziaren fortuna. &mdash;Afrikako suee munstroek beren biktima duten bezala ithotzen, phozoindatzen, hiltzen framazonek dute egungo zoz letateari egiten. &mdash;Alimaletto batzu dire hatzemaiten artetan, nola otsoak zephoetan. &mdash;Yuduek dakote egungo zozietatea beren artetan, eta framazonek beren zephoetan. &mdash;Estonatzeko da nola egungo Aitoren-semeak aurkhitzen diren Yuduen egunazko eta gabazko bestetan. &mdash;Fedearekin yuan da lehengo fiertasuna. &mdash;Dirudunak dira egungo Yainkoak edo idolak. &mdash;Gure Amerikanoek, diren bezala ere, balio dute Yuduek baino gehiago. &mdash;Framazonak dire egiazko debruzko gizonak. &mdash;Debruek bezala dute egiten gaizkia, maizenik izilka, zenbait aldiz agerian. &mdash;Medikua, barbera framazonak badira, behar dira bakharrik entzun mediku edo barber bezala. &mdash;Ez ditzagun irakhurt heyen gazetak eta ez giten yuan heyen botigetarat.</p>
+<p>Gauza bat ikhus dalte asko gisetarat, eta hari beha egon ditake hanitz tokitarik: hortakotz haren beraren galnean egiten ahal da konparantza bat baino gehiago.</p>
+<p>Goraxago erran dut Yuduak ari direla, Frantzian, eta non nahi, iduri dutelarik uxaranak eta banpirak, egungo zozietateari bere odol guziaren edaten, xukatzen, edo dakotela emeki emeki izaite edo fortuna guzia hartzen.</p>
+<p>Gisa berean erran dut framazonek dutela zozietate berari hatsa khentzen, beren lege infame eta tiranozkoez, hura herstuz eta hola ithoz.</p>
+<p>Bai eta dute, bere doktrina tzarrenez hura phozoindatzen, hiltzen, Afrikako suge mustroek egiten duten molde berean, hatzemaiten dituzten biktima inozenter.</p>
+<p>Egun nahi dut erran ene haur denboran, urthe guziez, atabala soinuz, nola kridatzen zuten, gure herrian holako tokitik eta halakoraino, ezarriren zituztela zephoak bestia gaixto batzuen hatzemaiteko.</p>
+<p>Denbora hartan hedatzen ere zituzten arteak halako ihizi suerte batzuen hartzeko.</p>
+<p>Egungo egunean, ez dira zenbait alimaletto hatzemanak; bainan zozietate guzia da hartua Yuduen artetan edo saretan eta framazonen zephoetan.</p>
+<p>Beraz azken kapitulu huntan erran nahi dut zer egin behar dugun, gure etsai handiak diren batzuen eta bertzen bentzutzeko.</p>
+<p>Hasteko Yuduak behar litazke bere gisa utzi, lehen uzten ziren bezala.</p>
+<p>Nik konprendi ez dezaketan gauza da, ardura ikhusten dena Frantziako izenik handienak eta ederrenak ekhartzen dituzten yaun eta andereak, nola diren yuntatzen Yudueri, konparazione, azken hok, bere gaztelu eder eta aberatsetan emaiten dituzten egunazko bazkarietan, arratsetako bilkuretan gabazko baletan.</p>
+<p>Deusetan ez ziren lbiilko besoz-beso, Yudusekin, lehenagoko nobleak ala dukeak, ala konteak, markisak, baronak eta bertzeak; eta ez zituzten ere ikhusiko nahas mahas valsatzen,</p>
+<p>Yuduekin, orduko dukesak, kontesak eta barontsak.</p>
+<p>Denbora hartako Aitoren-semek, deus ez baitzuten malleatzen Yudueri, ez zuten sekulan sofrituko errana izan zadin hetaz, zituztela heyek potkatu Yuduen botak, edo musuz estali heyen zapetak, milikatu heyer aztalak, besarkatu belhaunak.</p>
+<p>Fedearekin yuan da lehenagoko fiertasuna, karatera, noblezia, dignitatea.</p>
+<p>Dirudunak dira egungo Yainkoak, izanik ere Yuduak.</p>
+<p>Guk yende xehe edo xumetarik atheratzen garenak, guardia eman dezagun egitetik noble eta buryes, aberats izanik, egiten dutena miserableki, yuaten direnean, xapela eskuan,</p>
+<p>Yuduen oinetarat, heyen ez humilki, bainan zozoki othoizterat.</p>
+<p>Gure beharrak khonda ditzagun lehenago Bathayoko seinalea bederen berekin ekhartzen duten gizoneri. Egun baditugu gure herrietan Amerikanoak, nahi badute gu lagun gaitzaketenak. Badakit, hemen erranen dautate zenbait Amerikanoek badutela yudu aire bat. Nahi dut Amerikano heyek baduten ez bakharrik yudu airea, bainan oraino yudu khantua bera.</p>
+<p>Halarik ere, nik diot, Amerikanorik sorjesenek Yudurik hoberenek baino gehiago balio dutela.</p>
+<p>Utz ditzagun beraz, bere gisa, Yuduak Yuduekin, uzten ditugun bezala xakhurrak xakhurrekin, edo faltsoak faltsoekin, traidoreak traidoreekin.</p>
+<p>Hola gare beiratuko Yuduen arte eta saretarik. Ez zauku hain alse izanen ez hatzemanak izaitea Framazonen zephoetan.</p>
+<p>Yadanik erran dut, bi motibok dabiltzala gehienik yuduak:jesus-Kristoren eta haren Erlisione sainduaren etsaitasunak, eta lurreko onthasunen gose edo egarriak. Framazonek badute, hek Satanen beraren herra, koiera, errabia, Yainkoaren kontra, Salbatzaile Dibinoaren kontra, Eliza sainduaren kontra, errege eta monarka lesitimo guzien kontra, gobernamendu on edozoinen kontra, zozietate osoaren kontra. Bai, framazonak dire egiazki eta errealki debruzko gizonak.</p>
+<p>Debruek bezala dute egiten gaizkia, preseski debruzko gizonak direlakotz; debruek bezala, ez behin, bietan, zonbait aldiz; bainan bethl eta bethi; debruek bezala, zenbait aldiz agerian, eta ardurenik izilka, ilhunbetan, gau inharak iduri dutela...</p>
+<p>Norbaitek deraut orai erranen: &laquo;Nola ezagutuko ditugu framazonak?&raquo;. Aise da alse keyen ezagutzea: uzta hur-ondoa ageri da hur handietarik; urritza, hur ttipietarik; arbola guziak beren fruituetarik; berdin berdina framazonak, beren obra madarikatuetarik.</p>
+<p>Deputatuen biltzarrean eginak izan badira legenik inpioenak, tzarrenak, erraiten ahal duzu lege hek proposatu, egin eta phasarazi dituztela framazonek.</p>
+<p>Deputatu halakoak izendatu nahi dituzten elektorrak, elekzionetako denboran, segur dira edo framazonak edo heyen esklaboak, zerbitzariak, mandatariak. Denean erreboluzione bat, nazione batean, Europan edo Ameriketan; nahasdura bat hiri batean, errebolta edo greba bat langilen artean, erraiten ahal da horietan guzietan arl direla esku-petik framazonak.</p>
+<p>Holako lanen egiteko dituzte biltzen, urthe guziez, mundu guzian, framazonek, 150 edo 200 miliun libera diru; beraz dituzte asasinaraziko begletan dituzten gizonak, bai eta egin araziko egun guziez, han edo hemen, krimarik beltzenak.</p>
+<p>Mundu hau duketenean, framazonek, osoki tzartu, zikhindu, itsus eta afrus bilhakatu, Yainkoak beharko du igorri bere koleraren suya, lur hunen garbitzeko, gauza guzien purifikatzeko, gero ororen erreberritzeko.</p>
+<p>Gerthakari handi horiek ikhusiko dira munduaren akhabantzan; nork daki, behar bada, guk uste baino lehenago.</p>
+<p>Arte huntan yende on guziek behar dute elgar sustengatu, bederen Yuduek Yuduak, tzarrek tzarrak sustengatzen dituzten bezala.</p>
+<p>Ez da hirriskurik Yudu bat yuanen dela, bertze yudu baten botiga utzirik, giristino baten botigarat.</p>
+<p>Berdin framazonen, inpioen eta tzarren fagore guziak dire izanen heyek iduriendako.</p>
+<p>Yende onak dire aldiz zoroki bertze gisaz yokhatuko. Ahal duenak konprendi dezala gauza hori. Framazonak, ez bertze gaixtaginak, ez dira sekulan abonatuko giristino onen gazeter. Yende onak, hala hala, edo onentzat dauzkatenak bere buruak, nahiago duzkete irakurtu gazeta tzarrak onak baino.</p>
+<p>Kanpainako yende xinplea da askotan pharatuko barber edo mediku baten alde, erranez izanen duela barberaren eta medikuaren beharra.</p>
+<p>Barbera eta medikua Yin arazten dire heyen beharra denean. Hek ordenatu erremedioak egin behar dire, eta yaun heyek pagatu lehen bal lehen; bainan gero utzi bere gisa, ez badira erlisionearen aldeko gizonak. Bertze gizon aberats batzuez mintzatzean, dute erraiten zenbaitek: &laquo;Holako yaun aberats horrek ez du Phazkorik egiten, ez dabila ere guti baizik elizan, bainan langile anhitz bizi arazten du, eta langilearentzat ona da. Zu ere izan zaite haren alderat langile on eta fidel bat; bainan guardia emazu saltzetik zure arima, zure kontzientzia, elekzionetako denboretan, emanez zure botza Yainkoaren eta Elizaren etsaler. Orhoit zaite, zure bizia, zure osagarria, zure izaite guzia direla bakharrik zeruko Yaunaren eskuetan&raquo;.</p>
+<p>Akhabatzen dut, erranez bakhotxa, xuhur xuhur bada, bizi dadila sainduki, othoitz eginez, erlisioneko urhatser yarraikiz, guziz fede bizi bat kontserbatuz.</p>
+<p>Printzipo horiek guztak ahantz ditzazkegu, bainan Yainkoa ez da ahantzkor. Hura da bakharrik pairakor. Zertako laitake presa, duenaz geroz eternitatea bere eskuko?</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>EPILOGA EDO AZKEN HITZA</p><--</head>
+        </front>
+        <body>
+<p>IRAKURTZAILE MAITEA:</p>
+<p>Esperantza dugu liburu ttipi edo labur hau irakurtu dutenek, huntarik athera dituztela hanitz gauza, berentzat eta bertzerentzat, ezin gehiago abantailosak, gu bizi garen denbora hits eta triste huntako.</p>
+<p>Bai eta agian, egungo egunean hain nezesario diren erakuspen hok helduko direla emeki emeki Eskual-herriko azken etxetaraino.</p>
+<p>OMNIA A.M.D.G</p>
+        </body>
+      </text>
+    </group>
+  </text>
+</TEI.2>
+

@@ -1,0 +1,2684 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN"
+                       "http://www.tei-c.org/P4X/DTD/tei2.dtd" [
+   <!ENTITY % TEI.prose    'INCLUDE' >
+   <!ENTITY % TEI.linking  'INCLUDE' >
+   <!ENTITY % TEI.analysis 'INCLUDE' >
+   <!ENTITY % TEI.figures  'INCLUDE' >
+   <!ENTITY % TEI.XML      'INCLUDE' >
+   <!ENTITY % TEI.extensions.ent SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.ent' >
+   <!ENTITY % TEI.extensions.dtd SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.dtd' >
+]>
+<TEI.2>
+  <teiHeader>
+  <fileDesc>
+     <titleStmt>
+        <title>Karmela</title>
+        <author>Jean Pierre Harispe</author>
+        <respStmt>Ez dauka</respStmt>
+     </titleStmt>
+     <extent>12.354 hitz, 85.332 karaktere</extent>
+     <publicationStmt>
+        <publisher>Klasikoen Gordailua [http://klasikoak.armiarma.com/]</publisher>
+        <distributor>Estrata Liburuak S.L.</distributor>
+        <address type='email'>klasikoak@armiarma.com</address>
+        <idno type='ota'>HarispeKarmela</idno>
+        <availability status='free'>Erabilpen librekoa; honoko helbidean topa daiteke (HTML, RTF eta PDF formatuetan): http://klasikoak.armiarma.com/idazlanak/H/HarispeKarmela.htm</availability>
+        <date>2006</date>
+     </publicationStmt>
+     <sourceDesc>
+        <bibl>Iturria: Karmela, Jean Pierre Harizpe (Gurutze Aldabaldetrekuren eta Amaia Bonetaren edizioa). Euskal Editoreen Elkartea, 1992</bibl>
+        <notesStmt><note>Iturburuen datazioa: 1886</note></notesStmt>
+     </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+     <projectDesc>Euskal literaturako testu klasikoen bilduma da KLASIKOEN GORDAILUA; testu hau berorren parte da</projectDesc>
+     <refsDecl>
+        <p>MENTIONED etiketa egilearenak ez diren hitzak markatzeko erabili da: hitzaurreak, aipuak, iruzkinak, e.a.</p>
+    </refsDecl>
+     <classDecl>
+        <taxonomy id='generoa'>
+            <category id='G-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='G-ANT'><catDesc>Antzerkia</catDesc></category>
+            <category id='G-BER'><catDesc>Bertsoak</catDesc></category>
+            <category id='G-ERL'><catDesc>Erlijioa</catDesc></category>
+            <category id='G-NAR'><catDesc>Narratiba</catDesc></category>
+            <category id='G-POE'><catDesc>Poesia</catDesc></category>
+            <category id='G-SAI'><catDesc>Saiakera, kronika, artikuluak...</catDesc></category>
+        </taxonomy>
+        <taxonomy id='garaia'>
+            <category id='M-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='M-16'><catDesc>XVI. mendea</catDesc></category>
+            <category id='M-17-1'><catDesc>XVII. mendea - 1. erdia</catDesc></category>
+            <category id='M-17-2'><catDesc>XVII. mendea - 2. erdia</catDesc></category>
+            <category id='M-18-1'><catDesc>XVIII. mendea - 1. erdia</catDesc></category>
+            <category id='M-18-2'><catDesc>XVIII. mendea - 2. erdia</catDesc></category>
+            <category id='M-19-1'><catDesc>XIX. mendea - 1. erdia</catDesc></category>
+            <category id='M-19-2'><catDesc>XIX. mendea - 2. erdia</catDesc></category>
+            <category id='M-20-1'><catDesc>XX. mendea - 1. erdia</catDesc></category>
+            <category id='M-20-2'><catDesc>XX. mendea - 2. erdia</catDesc></category>
+        </taxonomy>
+        <taxonomy id='euskalkia'>
+            <category id='E-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='E-BAT'><catDesc>batua</catDesc></category>
+            <category id='E-BIZ'><catDesc>bizkaiera</catDesc></category>
+            <category id='E-BNA'><catDesc>behenafarrera</catDesc></category>
+            <category id='E-ERR'><catDesc>erronkariera</catDesc></category>
+            <category id='E-GIP'><catDesc>gipuzkera</catDesc></category>
+            <category id='E-GNA'><catDesc>goi nafarrera</catDesc></category>
+            <category id='E-LAP'><catDesc>lapurtera</catDesc></category>
+            <category id='E-NAF'><catDesc>nafarrera</catDesc></category>
+            <category id='E-ZAR'><catDesc>zaraitzuera</catDesc></category>
+            <category id='E-ZUB'><catDesc>zuberera</catDesc></category>
+        </taxonomy>
+    </classDecl>
+  </encodingDesc>
+  <profileDesc>
+     <textClass>
+       <keywords scheme='generoa'>
+         <list><item>G-ANT</item></list>
+       </keywords>
+       <keywords scheme='garaia'>
+         <list><item>M-19-2</item></list>
+       </keywords>
+       <keywords scheme='euskalkia'>
+         <list><item>E-LAP</item></list>
+       </keywords>
+     </textClass>
+  </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>Karmela -- Jean Pierre Harispe</docTitle>
+    </front>
+    <group>
+      <text>
+        <body>
+<p><hi rend='Italic'>Egin-doakabea edo drama iru egitetan emana </hi></p>
+<p><hi rend='Italic'>jaun on Luis Calisalvo-ri</hi></p>
+<p>Jaun maitea, ez naiz esker gabea:</p>
+<p>Zutaz dakat biotza betea.</p>
+<p>Mundu untan bizituren naize&ntilde;o,</p>
+<p>Neri zaude zeruetaraino.</p>
+<p>Triste nintzen munduan ikusirik,</p>
+<p>Ez zagoela neretzat ongirik;</p>
+<p>Ezin nuen jasan biotz barnean,</p>
+<p>Nere pena egun guzietan.</p>
+<p>Jaungoikoak, egin zuen orduan,</p>
+<p>Gizon on bat indarra eskuan:</p>
+<p>Gizon arek, arimaz andiago,</p>
+<p>Indar bainon biotz du geiago.</p>
+<p>Gizon ura zuk ez duzu ikusten;</p>
+<p>Apalzeak zuri du gordetzen,</p>
+<p>Nik ordian ez dezaket isildu,</p>
+<p>Neretako sobera egin du.</p>
+<p>Ezin duzu gorde zure izena,</p>
+<p>Andiegi zuk duzu omena,</p>
+<p>Biotzeko zu nere gozamena,</p>
+<p>Calisalvo, nik dautzut errana.</p>
+<p><hi rend='Italic'>Harispe</hi></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>ITZAURREA</p><--</head>
+        </front>
+        <body>
+<p>Aspaldian, Eskual-errientzat zerbeit egiteko gogoa nakan. Gure izkuntza ederrarekin, gure aita zaarren balentziak eta indarrak kantatzea ederki aal zela, irakusterat eman nai nuen. Karlomanen denboretako eskualdunek, Altabizkarreko mendi gai&ntilde;etik, Rolanen gizonak arrika garbitu zituzten. Rolan bera, illik mendi tartean egondu zen. Gauza ederrak Rolanen gainean egin dire; bainan geienak asmatuak dire. Liburuek gerla artaz gauza andirik erraten ez dute. Beaz; egin-doakabe edo drama egiteko, egiaren araberako gauzak beartziren asmatu. Lerenburu deitzen dutan zaar bat eskualdunen buruzagi eman dut. Zazpi seme ditu, eta alaba bat, Karmela. Lerenburu zaarra Gernikakoa da, eta Altabizkarreko inguruetan, etsai gaisto bat badu, Araneder. Araneder jeloskorrak seme bat du, Ramon, Karmelaren adiskidea. Araneder jelosiaz etsaien alde ematen da, eta berak bere eskuz, Rafael Lerenbururen seme maiteena iltzen du. Orduan urrikiz artua, badoa gordetzerat, eta bertze izen bat artzen du.</p>
+<p>Ramon bere semeak, bere izen egiazkoa ez du ezagutzen. Mendizabal dela uste du, Apez batez altxatua beretarik urrun bizi izan delakotz, eta Ramon bakarrik gaztetik izendatua izan delakotz.</p>
+<p>Naiz Araneder eskualdun gaizto bat izan, aren urriki andiak ematen diozkat, non eriotze andi batez altxatzen eta anditzen baitut.</p>
+<p>Ai&ntilde;itz errenkuratuko dire nere eskribitzeko moduaz. Mendi bertze aldeko anaiek bezela nai izan dut eskribitu: zeren iruditzen zait, ori dela modurik argiena eta garbiena. Jaun apez Darrigolek eta bertze anitz jakintsunek, kendu zituzten letra batzuek, nola <hi rend='Italic'>u, &ccedil;, </hi>eta <hi rend='Italic'>q. </hi>Ematen zuten gero, eta ez <hi rend='Italic'>guero; </hi>gerla, eta ez <hi rend='Italic'>guerla: </hi>zatozte, eta ez <hi rend='Italic'>&ccedil;atozte: </hi>baduk, eta ez <hi rend='Italic'>baduc... </hi>Espaniako aldetan, utzi dute oraindik, h; apeza eta ez <hi rend='Italic'>apheza: </hi>boterea eta ez <hi rend='Italic'>botherea. </hi>Naiz batzuek kontra izan, utziko nituzke, nik, oraindik bertze letra batzuk; zeren eskuara baita izkuntzarik zaarrena, eta izkuntza zaarretarat igatzen bagare, letra guttiago beti kausitzen beitire eietan. Letra <hi rend='Italic'>h, </hi>uzten dut bakarrik, letra <hi rend='Italic'>c</hi>-rekin, nola <hi rend='Italic'>chakurra.</hi></p>
+<p>Batzuek erranen dute <hi rend='Italic'>h </hi>uztian anitz itz, banatuak eta naasiak direla: bainan zenbat itz badire itzkuntza guzietan ber berak direnak eskribituak, eta bizkitartean aditzen da beti zer erran nai duten, bertze itz batzuen ondotik edo aintzinetik direnaz geroztik. Beaz deusik ez du erranai, itz berak izatea. Itz berak, anitz aldiz, artzen duen tokiaren arabera, anitz gauza ez berak erran nai ditu. Bertzenaz ere, bakotxak badu, bere ikuste arabera, eta egiaz, ezta andi, gauza ttiki ekieri begira egotea. Baditugu gauza ederragoak ikusteko, Larramendi, Lardizabal, Axular, Intxauspe eta Duvoisinek egin dituzten lan ederretan.</p>
+<p>Egin ditut ere uts batzuek, bertsutan, nere ustez aizu direnak: nola, <hi rend='Italic'>ai da, </hi>ari da; <hi rend='Italic'>len, </hi>leen; <hi rend='Italic'>aitzen dut, </hi>aditzen dut. Izkuntza guzietan anditzen edo ttikitzen dire itz batzuk, bertsuaren arabera. Bertsuen batasunarentzat, geiago kontu egin dut, batzuetan, errateko moduari, eskribitzekoari bainon.</p>
+<p>Aal guzia egin dut Eskualdunen Errelijione saindua, eta arima ederrak ikusterat emateko.</p>
+<p>Oxala, Egin-Doakabe unek, asmu onak ematen baditu, eta Jainkoarenganat arima batzuek biurtzen.</p>
+<p><hi rend='Italic'>Harispe, apeza</hi></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>ITZ AURREA</p><--</head>
+        </front>
+        <body>
+<p>Una egimen labur bat orai duela ogoi eta bortz urte egin dutana. Ez nuen billatzen orduan, ez dut geiago billatzen orai, mintzatzen ez den eskaldun lapur bat eskribatzea. Mi&ntilde; ingarri da ikustea gure mintzaera zahar eta ederrean sumatzen diren obra geienak ezin adituzko hitz eta itzaldietan itzuliak direla. Itzaldi eiek jakintsunak gozatzen dituzte beharbada, bai&ntilde;an ez ordian jende xeiak. Ez Mari&ntilde;elek, ez langileek ez dituzte irakur ahal ezin errexki adituak direlakotz. Ez ote dituzte itzaldi bakotxean itz arrotz eta gogor batzu kausitzen, ez ote dute behar billatu nekez bere gogoetan zer hitz eiek erran nai duten? Jakintsun izkuntz ederrez burua naasia daukate. Eien mintzoa izan daiteke zuzen eta garbi, bai&ntilde;an ote da jende xeiarena bainon legun eta argikiagoa?</p>
+<p>Eskuara ez de bertze mintzaerak bezala. Ederkiena mintzatzen dutenak dire gure mendietako artzai&ntilde;ak, Ai&ntilde;oako laborariak, eta Donibaneko Kazkarotak.</p>
+<p>Jende xeia da gure itzkuntzak dakan jakintsun eta bertsularirik andiena. Unek mintzatzen du eta kantatzen du zuzenkiena, eta argikiena. Garbi eta eztisonuzkoa, mendi bizkarretan, zelai illunpetan, erriska, bide zabal eta jendekorretik urrun, ursorgi lurrin batetik bezala, gure eskuara dabilla.</p>
+<p>Itzaldua, eta ezin adituzko itzaldietan illun eroria dago, jakintsun andien lumaren azpian. Zertako? zeren obeki eskribatzeko beren burua bortxatzen baitute. Ohartu gabe obea ongiaren etsaia dela.</p>
+<p>Geiegi beren jakintasunez oartzen dire, bainan ez aski bertzen adimendu eta itztegiaz. Guzien ga&ntilde;etik beren jakintasuna nai dute irakutsi, eta ongi argitaratu eskuararen itz lege guziak ezagutzen dituztela. Ez dakat nik, orren nahi atrebitu eta nausitua. Burutik urrundurik hitz goraki eta legekorra, nere aurtasunean aditu dutan eskuara eskribatzen dut. Onesten ditut gure mintzo nausiak biotz guziz, ez ordian adimenduz. Nere ama maitearen boz eztia dakat bihotzean, eta nere lumaren azpian. Nere loarkatzeko kantatzen zituen bertsu pollitak, nereak bainon ederragoak, eldu zaizkit oroitzerat. Seaskaren gain botatzen zituen airean deus ez balirez bezala, nere loaren ahantziak sekulakotz estal bezan. Oroitzen naiz bakarrik nere ama gaxoak, Abbadi jaunarekin zaramatzan solasez, eta oroitze orren egalpean nere luma uzten dut laxoki dabillala. Ez nuke nai deusetan, gure itzkuntzaren lege nausituen arabera mintzatu, ez iskribatu. Legetsun jaunek beretzat pisuski eskribitzen dute. Ez dut eien erranez axolik. Nere libertatearen jeloskor andi bat naiz, ezin nere gizatasuna eta etorkitasuna arnega lezaket. Barka nazazu beaz nere irakurtzaille anaia maitea, nere hitz eta hitzaldi batzu ez balin badire legearen arabera. Nere nausiek ez balin badute nitaz oroitzapen on bat erabiltzen, zuk bederen urrikal izanen nauzu, eta beharbada egun batez nere gertamena nigar gozoetan irakurtuko duzu.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>EGILEAK</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>LEHENBURU</hi>: Eskualdun zahar aita</p>
+<p><hi rend='Bold'>KARMELA</hi>: Lehenbururen alaba</p>
+<p><hi rend='Bold'>ARANEDER</hi>: Eskualdun etsaien aldekoa</p>
+<p><hi rend='Bold'>RAMON MENDIZABAL</hi>: Aranederren semea</p>
+<p><hi rend='Bold'>AITA JOSEP</hi>: Apeza</p>
+<p><hi rend='Bold'>LIZAR</hi>: Eskualdun mutil bat</p>
+<p><hi rend='Bold'>BIDEGAIN</hi>: Eskualdun bertze mutil bat</p>
+<p><hi rend='Bold'>ARANEDER</hi>: Zazpi semeak</p>
+<p><hi rend='Bold'>BERTZE</hi>: Eskualdun batzu</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Lehen egimena</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>LEHEN IRUDIA</hi></p>
+<p><hi rend='Italic'>Lehenburu aita eta Karmela</hi></p>
+<p><hi rend='Bold'>LEHENBURU</hi></p>
+<p>Beaz akabo da, Karmela maitea!</p>
+<p>Etsaiak artu du mendiko bidea!</p>
+<p>Karloman andiak, bere gizonekin</p>
+<p>Zelaia guziak egin ditu berdin.</p>
+<p>Ez dugu ikusten landare bat xutik.</p>
+<p>Arbol xumeenak artuak errotik,</p>
+<p>Zuraitz ederrenak, soro bazterrean,</p>
+<p>Errestan dabiltza xirripa barnean.</p>
+<p>Gure mendietan ardi zoratuak</p>
+<p>Izituak oso dabilza galduak.</p>
+<p>Gure baratzeko lore pollitena</p>
+<p>Eroria dago lurrean etzana.</p>
+<p>Abere gaxoak mortuan barnaka</p>
+<p>Iesi doazi jautzi marrumaka.</p>
+<p>Belarren azpian, &ntilde;ur&ntilde;ur egin gabe,</p>
+<p>Ixil ixilikan soroaren jabe,</p>
+<p>Zirriztaka doaz urxoak gorderik</p>
+<p>Aldardi guziak odolez beterik!</p>
+<p>Beaz akabo da Karmela maitea,</p>
+<p>Etsaiak artu du mendiko bidea.</p>
+<p><hi rend='Bold'>KARMELA</hi></p>
+<p>Aita zer nai duzu! Jainkoa egi&ntilde;a</p>
+<p>Ongia de beti; naiz ark egin mi&ntilde;a.</p>
+<p>Aren eskutikan eldu zaizkigunak</p>
+<p>Arimen onetan zaizkigu emanak.</p>
+<p>Zertako bihotza geiegi damutu?</p>
+<p>Eta gure beitaz damuak anditu?</p>
+<p>Aski da mi&ntilde; batez: goibel izan gabe,</p>
+<p>Jainkoaren mi&ntilde;ez aski gare jabe.</p>
+<p>Ez bada damutan ondatu sobera,</p>
+<p>Zure fede ona, nere bihotz bera.</p>
+<p>Gure doakabez oso goibeldurik,</p>
+<p>Eginen zintuzke bi mi&ntilde;, mi&ntilde; batetik.</p>
+<p>Nork daki orai&ntilde;o gauzak zertan diren!</p>
+<p>Mendi bizkarrean zer den gertaturen?</p>
+<p>Menturaz anaiak, gutaz oroiturik,</p>
+<p>Erra bihotzean, Karloman arturik,</p>
+<p>Aren trop andiak, oso garbiturik,</p>
+<p>Etortzen zaizkigu, loriaz beterik!!</p>
+<p><hi rend='Bold'>LEHENBURU</hi></p>
+<p>Oxala gauz eiek izanikan gure,</p>
+<p>Zuk erran bezala gertatzen balire!</p>
+<p>Bainan berandu da, gai&ntilde;eko mutillak,</p>
+<p>Burdin zabalean jo ditu amarrak.</p>
+<p>Ar zazu zokoan larru bihurtua,</p>
+<p>Irakur nazazu liburu saindua.</p>
+<p>Arkituko dugu hitz eder eietan,</p>
+<p>Jainko gozamena gure mi&ntilde; anditan.</p>
+<p><hi rend='Bold'>KARMELA</hi></p>
+<p>Egun batez beaz Jakoben semeak,</p>
+<p>Bazkatzen ai ziren beren artaldeak.</p>
+<p>Illunak mundua zuenian estali,</p>
+<p>Ez ziren orai&ntilde;o etxerat itzuli.</p>
+<p>Aita Joseperekin egon zen bakarrik,</p>
+<p>Sukalde zokoan dena gri&ntilde;aturik.</p>
+<p>Oiu guzieri gogo goibetetan,</p>
+<p>Belarriak erne zituen xeletan.</p>
+<p>Bainan oihanetik mendietara&ntilde;o,</p>
+<p>Errepiretatik zelaietarai&ntilde;o.</p>
+<p>Etxe barnetikan deus ez zen aditzen,</p>
+<p>Ibaiaren boza bakarrikan baizen.</p>
+<p>Eguna zenean azkenik agertu,</p>
+<p>Jakobek semea zuen besarkatu,</p>
+<p>Eta han anaien berriak artzeko,</p>
+<p>Bere bihotzetik damua kentzeko,</p>
+<p>Urrun, mendiz mendi du Josep igurtzen,</p>
+<p>Eta belauniko lurrean eman zen.</p>
+<p>Auspez, autsean burua gurturik,</p>
+<p>Othoitz egin zuen bihotzen erditik,</p>
+<p>Josep gan zen beaz, soro larretarat,</p>
+<p>Anaia zaharraren antxet billatzerat.</p>
+<p>Ekien ondorat etorri zeneko,</p>
+<p>Eman ziren irriz bere gri&ntilde;endako.</p>
+<p>Eta zeren aitak Josep, gazteena,</p>
+<p>Guzien gai&ntilde;etik zuen maiteena,</p>
+<p>Gutizia tzarrez hek zuten asmatu,</p>
+<p>Nola behar zuten aur gaxoa galdu.</p>
+<p>Aitari, zioten, diogu erranen</p>
+<p>Nola leoin batek Josep artu duen.</p>
+<p>Ortan zirelarik, Rubenek diote:</p>
+<p>Ez: urrun zazue burutik aparte,</p>
+<p>Ifernu gorriko gutizi tzar ori,</p>
+<p>Zeren Jaungoikoak daki gure berri.</p>
+<p>Ez: eman zazue billuzi ondoan,</p>
+<p>Deus mi&ntilde;ikan gabe zillo baten zolan.</p>
+<p>Bai&ntilde;an ikusten tut salzaille gizonak</p>
+<p>Ejiptotik unat etortzen direnak.</p>
+<p>Ekieri beaz sal zagun anaia,</p>
+<p>Ola eginen da gure gutizia.</p>
+<p>Erran zen bezala Josep saldu zuten,</p>
+<p>Aur gaxoa gabe etxeratu ziren.</p>
+<p><hi rend='Bold'>LEHENBURU</hi></p>
+<p>Ortan geldi zaite Karmela maitea,</p>
+<p>Hitz eietaz daukat bihotza betea.</p>
+<p>Gizon oberenak ola galzen dire,</p>
+<p>Gutizi tzarretan gozatzen badire.</p>
+<p>Jainkoa guretzat izan daien egun,</p>
+<p>Belaunikaturik othoitz egin zagun.</p>
+<p>Zeruetan zaren aita guziz ona!</p>
+<p>Omendua bedi zuk duzun izena.</p>
+<p><hi rend='Bold'>KARMELA</hi></p>
+<p>Gure bihotzean, zu nai dugu nausi:</p>
+<p>Zeren zuk egi&ntilde;ik, zuri beitgoazi.</p>
+<p><hi rend='Bold'>LEHENBURU</hi></p>
+<p>Zu gure xedeaz ongi jabetzeko,</p>
+<p>Iguzu grazia bethi egiteko</p>
+<p>Zure nahiaren gogo doatsua,</p>
+<p>Zeruetan barna bethi maitatua.</p>
+<p><hi rend='Bold'>KARMELA</hi></p>
+<p>Egin ahal zagun zure gutizia,</p>
+<p>Egun bakotxeko iguzu ogia.</p>
+<p><hi rend='Bold'>LEHENBURU</hi></p>
+<p>Erortzen bagare zure eskupean,</p>
+<p>Bertezar gaitzatzu bide zuzenean.</p>
+<p><hi rend='Bold'>KARMELA</hi></p>
+<p>Badugu barkatzen egi&ntilde;ez ahala,</p>
+<p>Egin Jauna guri, guk egin bezala.</p>
+<p><hi rend='Bold'>LEHENBURU</hi></p>
+<p>Asmu gaixtoetan ez utz lerratzerat,</p>
+<p>Gaizkiko leizean ez utz erortzerat</p>
+<p>Seme maitetxoak: zuri jazarririk,</p>
+<p>Zoriona dute, zurekin egonik.</p>
+<p><hi rend='Bold'>KARMELA</hi></p>
+<p>Mundu untan diren gaitz guzietatik,</p>
+<p>Begira gaitzazu debrua gaindurik.</p>
+<p><hi rend='Bold'>LEHENBURU</hi></p>
+<p>Jauna!...</p>
+<p><hi rend='Bold'>KARMELA</hi></p>
+<p>Bada norbeit mendien aldetik.</p>
+<p>Oiu deiadarkak aditzen ditut nik.</p>
+<p>Aita, leiotikan behatzerat noa.</p>
+<p>Ikaretan nago, galtzen dut gogoa.</p>
+<p><hi rend='Bold'>LEHENBURU</hi></p>
+<p>Aurra beha zazu; Jaungoikoa baitan</p>
+<p>Emazu bihotza zorigaitz anditan.</p>
+<p><hi rend='Bold'>KARMELA</hi></p>
+<p>Aita Josepekin anaia guziak</p>
+<p>Unat eldu dire dena goibelduak.</p>
+<p>Seiek bizkarrean gorputz bat damate.</p>
+<p>Zer bada mendian gertatu zaiote?</p>
+<p>Bizkitartean ba guziak or dire!</p>
+<p>Aita Josepekin zortzi bat badire.</p>
+<p>Goazen ikusterat! Emen dire sartzen,</p>
+<p>Jainkoa! zer berri gaituzte ekartzen!</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>IRUDI II GARRENA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Italic'>Lehenburu, Karmela, Aita Josep, Ramon Mendizabal eta zazpi anaiak</hi></p>
+<p><hi rend='Bold'>AITA JOSEP</hi></p>
+<p>Agur Karmel ona bakarrikan zare?</p>
+<p><hi rend='Bold'>KARMELA</hi></p>
+<p>Othoitzean biak emen egon gare,</p>
+<p>Bai&ntilde;an zer zorigaitz ekartzen gaituzu?</p>
+<p>Bihotz min handia kopetan dakazu.</p>
+<p><hi rend='Bold'>LEHENBURU</hi></p>
+<p>Laster mintza zaite non dire semeak?</p>
+<p>Egiaz uste dut direla galduak.</p>
+<p><hi rend='Bold'>AITA JOSEP</hi></p>
+<p>Ez nerekin datoz, pizkor batez landan.</p>
+<p>Bat bakarrik hil da mendi bizkarrean.</p>
+<p>Jauna, gaizki diot zeruan bizi da.</p>
+<p>Lurreko bizia, parean deus ez da.</p>
+<p><hi rend='Bold'>LEHENBURU</hi></p>
+<p>Barka diezadazu, nere bihotz mi&ntilde;a,</p>
+<p>Ezin gorde zaket neri gaitz egi&ntilde;a</p>
+<p>Atozte maiteak zuen aitaganat,</p>
+<p>Aren besoetan negar egiterat.</p>
+<p><hi rend='Italic'>(Seme guziak besarkatzen ditu,</hi></p>
+<p><hi rend='Italic'>eta Rafael eskas dela ikusirik)</hi></p>
+<p>Rafael, eskas da; a&ntilde;itz maite nuen!</p>
+<p>Jainkoak kendu daut beretzat nai zuen.</p>
+<p>Izan bedi nitaz beti maitatua.</p>
+<p>Zeruan Rafael guziz doatsua.</p>
+<p>Aurra zer aiz emen? Rafaelen alde,</p>
+<p>Etortzen aiz unat bihotzaren orde?</p>
+<p><hi rend='Bold'>AITA JOSEP</hi></p>
+<p>Or da Rafaelen adiskide leial</p>
+<p>Oso maiteena: Ramon Mendizabal</p>
+<p><hi rend='Bold'>KARMELA</hi></p>
+<p>Aita mintza zaite, zuk erran gaitzazu,</p>
+<p>Rafael non hil den, berdin badakizu.</p>
+<p>Goibel baldin bada bai eriotzea,</p>
+<p>Mi&ntilde;ago da guziz, deus ez aditzea,</p>
+<p>Urrun galdu diren maiteen gai&ntilde;ean.</p>
+<p>Dudak anditzen tu bihotzen barnean,</p>
+<p>Ekien eskasak guri mi&ntilde; egi&ntilde;ak.</p>
+<p>Ez begira, beaz, orain gure gri&ntilde;ak.</p>
+<p><hi rend='Bold'>AITA JOSEP</hi></p>
+<p>Altabizkarreko, sasien barnetik,</p>
+<p>Ikusi gintuen urrun, urrutitik,</p>
+<p>Karlomanen tropak ezin kondatuak,</p>
+<p>Edoiak bezala beltzez edatuak.</p>
+<p>Zelaia guzia zagoen belztua.</p>
+<p>Ez ginduen aitzen, ibaia kantua.</p>
+<p>Troparen burrunbak zituen betetzen</p>
+<p>Aldardi guziak, nola re garbitzen.</p>
+<p>Gu, gorderik gi&ntilde;en, arroken atzean.</p>
+<p>Rafael zagoen mendi kanttalean,</p>
+<p>Ikusteko norat etsaiak zoazin...</p>
+<p>Ek urbiltziarekin egiten gaitu zin,</p>
+<p>Gora menditikan, etortzen zirela,</p>
+<p>Ardi zoratuak larrean bezala.</p>
+<p>Orduan guziak makillak arturik,</p>
+<p>Lasterka goazi puskak etxaturik,</p>
+<p>Menditik beera; botatzen ditugu</p>
+<p>Arroka zuriak; Ramon artzen dugu.</p>
+<p>Bai&ntilde;an iten gaitu: Rafaelenganat</p>
+<p>Utzi nazazue, arekin iltzerat.</p>
+<p>Rafaelen alde gan gi&ntilde;en kuxian.</p>
+<p>An ikusten dugu mendien tartean,</p>
+<p>Asko gizonekin ari zen arrika,</p>
+<p>Edo geienekin makill ukaldika.</p>
+<p>Ramon, nere Ramon, badoako laster.</p>
+<p>Egiten diote makillekin eder.</p>
+<p>Beti makillekin amar hiltzen ditu.</p>
+<p>Rafael eta gu, eskututzen gaitu,</p>
+<p>Eta mendiz barna, gurekin jautsirik,</p>
+<p>Adiskide ona berak lagundurik,</p>
+<p>Erreka barnean, laster du gordetzen.</p>
+<p>Eta saetsean erne da gelditzen.</p>
+<p>Bai&ntilde;an or eldu da eskualdun gaixto bat,</p>
+<p>Lurrean errestan ahala bezinbat.</p>
+<p>Kokoriko zaiku sorotik urbiltzen.</p>
+<p>Jadan etsaiari, salduak gintuen.</p>
+<p>Ez dezaket erran gizon ura nor den:</p>
+<p>Bai&ntilde;an erranen dut nor ez den izanen.</p>
+<p>Egin guzietan izigarriena,</p>
+<p>Gizonaren gogoz gauz itsusiena,</p>
+<p>Da bere naiaz anaiak saltzea,</p>
+<p>Eta txarkeriez ongi gozatzea.</p>
+<p>Bai&ntilde;an gu saltzea ez zitzaioen aski:</p>
+<p>Gaizkidunak beti, gutizi du gaizki.</p>
+<p>Azkenian beaz guri jazarri zen,</p>
+<p>Eta bere kolpez Rafael hil zuen.</p>
+<p>Ikusi gintuen orduan ikusi,</p>
+<p>Adiskide biak elkar ezin etsi:</p>
+<p>Ramonek Rafael, ez zezaken utzi,</p>
+<p>Bat bertzea gabe ez zitazken bizi.</p>
+<p><hi rend='Bold'>SEME BATEK</hi></p>
+<p>Aita zuk bihotza duzu barkatzaille,</p>
+<p>Eta bertzen utsen oso gordetzaille.</p>
+<p>Gure salbatzeko Jainko guziz onak,</p>
+<p>Len egin zituen apez barkadunak.</p>
+<p>Zutarikan beaz ez dugu jaki&ntilde;en,</p>
+<p>Gure salzaillea nor izan ote den.</p>
+<p>Bai&ntilde;an nik badakit, ez dezaket gorde.</p>
+<p>Erranen dut gero bihotzaren orde</p>
+<p>Gizon tristearen, zorigaitz izena...</p>
+<p>Gu guzietarik igundua dena,</p>
+<p>Izen doakabe, madarikatua,</p>
+<p>Eskualdun garbiez a&ntilde;itz igundua,</p>
+<p>Etsai guzietaz izen maitatua,</p>
+<p>Ifernu leizetan, izen aipatua,</p>
+<p>Erranen aut beaz, erranen aut laster,</p>
+<p>Hi, aiz, azkenekotz: Ganix Araneder.</p>
+<p><hi rend='Bold'>LEHENBURU</hi></p>
+<p>Araneder zela nork erranen zuen?</p>
+<p>Araneder lehen gizon andia zen.</p>
+<p>Banakien, aren etsaia nintzela,</p>
+<p>Iguntza neretzat andia zuela.</p>
+<p>Bai&ntilde;an ortarai&ntilde;on ez nuen usteko</p>
+<p>Err aren andia zela neretako,</p>
+<p>Eskualdunen bihotz leial, on batean,</p>
+<p>Jaungoikoak egin arima barnean.</p>
+<p><hi rend='Bold'>MENDIBURU</hi></p>
+<p>Jauna menditikan dator erraterat,</p>
+<p>Rolan eldu dela gure bentzuterat</p>
+<p><hi rend='Bold'>LEHENBURU</hi></p>
+<p>Aurrak! artzatzue, makillak eskuan.</p>
+<p>Etsaiak gaintzeko karra biotzean.</p>
+<p>Eta nik dakaten liburu sainduan,</p>
+<p>Men egin zazue, bihotz erditikan,</p>
+<p>Jainkoa lekuko guziek arturik,</p>
+<p>Unat itzulzea gaixtuak gaindurik.</p>
+<p><hi rend='Bold'>SEME BATEK </hi><hi rend='Italic'>(guziek eskuak zabaltzen tuztelarik)</hi></p>
+<p>Gu guziek orain men egiten dugu,</p>
+<p>Zerua guretzat, izaten badugu,</p>
+<p>Eskualdun guziak zutaz indarturik,</p>
+<p>Izanen direla loriaz beterik.</p>
+<p>Guk artuko dugu mendi zokoetan</p>
+<p>Ganix Araneder, lurrean errestan,</p>
+<p>Ementxet emanik oi&ntilde;etan burua,</p>
+<p>Zillatuko dugu bere beltz larrua.</p>
+<p>Ala gizon ortaz lurra garbiturik</p>
+<p>Goxatuko gare bakean sarturik...</p>
+<p>Gazin, gazin laster, anaia maiteak,</p>
+<p>Gure mendietan iltzerat etsaiak.</p>
+<p><hi rend='Bold'>KARMELA</hi></p>
+<p>Zoazte, zoazte anaia maiteak,</p>
+<p>Indar zerukoaz osoki beteak,</p>
+<p>Zoazte odolez, lurra garbitzerat,</p>
+<p>Eskual erriaren oso guretzerat.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>IRUDI III GARRENA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Italic'>Ramon Mendizabal, Lehenburu, aita Josep, Karmela</hi></p>
+<p><hi rend='Bold'>RAMON MENDIZABAL</hi></p>
+<p>Ni geldituko naiz zurekin apur bat.</p>
+<p>Gero&Otilde;re ganen naiz anaiarenganat.</p>
+<p>Ez dakit orai&ntilde;on nolako bihotzez,</p>
+<p>Zer arimarekin, eta zer begiez,</p>
+<p>Ikusiko dutan belarra eztia,</p>
+<p>Nere Rafaelen odolez bustia.</p>
+<p>Aren ikusteak emanen daut erra.</p>
+<p>Bai&ntilde;an errarekin, sorgituz nigarra,</p>
+<p>Nere grin andiek ondatuko naute.</p>
+<p>Indarra guziak, ezdeusten nazkate.</p>
+<p><hi rend='Bold'>LEHENBURU</hi></p>
+<p>Hitz eietaz aurra gri&ntilde;ak ixurtzean</p>
+<p>Sartua dakizut bihotzen barnean.</p>
+<p>Rafael nerea zinduela maite,</p>
+<p>Zure nigar mi&ntilde;ek ederki diote.</p>
+<p>Zurekin arima banatua dakat.</p>
+<p>Gri&ntilde;a berak egun egiten gaitu bat.</p>
+<p>Bia garenean damu batendako,</p>
+<p>Elkar lagundurik, aren jasaiteko,</p>
+<p>Bat bertziarekin, ongi gozaturik,</p>
+<p>Solas eztietan gri&ntilde;ak ixuririk,</p>
+<p>Arimak batean odoleztatuak,</p>
+<p>Elkarren nigarrez dire gozatuak.</p>
+<p><hi rend='Bold'>AITA JOSEP</hi></p>
+<p>Ordua dakagu, banoa gelarat,</p>
+<p>Gure gizonentzat othoitz egiterat.</p>
+<p>Gure Jaungoikoak orain entzun beza,</p>
+<p>Gure bihotzaren nigarrezko boza.</p>
+<p>Mendian direnak indartzen baditu,</p>
+<p>Eskualdun eskerrak maiz izanen ditu.</p>
+<p>Aren aipamenaz beterik bazterrak,</p>
+<p>Eginen ditugu, Eliza ederrak.</p>
+<p>Aldare saindutan bihotzak emanik,</p>
+<p>Maitatuko dugu guziek berdinik.</p>
+<p>Eta sasietan odol ixuria,</p>
+<p>Izanen da gure arimen saria.</p>
+<p>Agur nere Ramon, len izan zarena.</p>
+<p>Izan zaite beti! Nere gozamena.</p>
+<p><hi rend='Bold'>LEHENBURU</hi></p>
+<p>Aita gelatxoan, nai balin baduzu,</p>
+<p>Nerekin otoitzak eginen ditutzu.</p>
+<p>Badakizu berdin zenbatetarai&ntilde;on,</p>
+<p>Zure bazterrean nik nai dutan egon.</p>
+<p>Iruditzen zaiku gizon onduneri,</p>
+<p>Jainkoa zaikula zuekin ageri.</p>
+<p>Aren ontasunak zuek ditutzue.</p>
+<p>Emen aren ordez ematen tutzue.</p>
+<p>Gazen beaz aita, Jaungoiko oinetan,</p>
+<p>Buruak gurtzerat othoitz kartsuetan.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>IRUDI IV GARRENA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Italic'>Lehenburu eta aita Josep ateratzen dire.</hi></p>
+<p><hi rend='Italic'>Karmela eta Ramon</hi></p>
+<p><hi rend='Bold'>KARMELA</hi></p>
+<p>O zeru lurreko Jainko dohatsua,</p>
+<p>Garaiaz gaitzazu gizon erratsua,</p>
+<p>Zure laguntzeaz badugu bearra,</p>
+<p>Zeren zu baitzare gaxoen indarra...</p>
+<p>Ramon ixilikan etxe bazterretik,</p>
+<p>Ni ganen naiz arat, bide laburretik.</p>
+<p>Ikusiko nauzu gureak laguntzen,</p>
+<p>Memento batean, ez banaiz gelditzen.</p>
+<p>Utz nazu bakarrik emendik gaterat.</p>
+<p>Ez eman aitari deus gogoratzerat.</p>
+<p><hi rend='Bold'>RAMON</hi></p>
+<p>Bai&ntilde;an aur maitea nola ganen zare?</p>
+<p><hi rend='Bold'>KARMELA</hi></p>
+<p>Ganix artuko dut, biak ganen gare.</p>
+<p><hi rend='Bold'>RAMON</hi></p>
+<p>Bai&ntilde;an, zure aita dena grinaturik...</p>
+<p><hi rend='Bold'>KARMELA</hi></p>
+<p>Aitaren gainean ez izan kexurik,</p>
+<p>Eskual erria da egun dena guri.</p>
+<p><hi rend='Bold'>RAMON</hi></p>
+<p>Aitaz eta nitaz deus ez zaitzu zuri?</p>
+<p><hi rend='Bold'>KARMELA</hi></p>
+<p>Ah! Ramon hitz eiek, ikaratzen naute.</p>
+<p>Zure bihotz sua berekin dakate.</p>
+<p>Ikusten nuen nik orain aspalditik,</p>
+<p>Maite ninduzula bihotz guzietik.</p>
+<p>Zure begi belzek erraten ninduten</p>
+<p>Arima gureek zer zuten gordetzen.</p>
+<p>Ni ere maizetan zuri beaturik,</p>
+<p>Ixilik nindagon, bihotza beterik.</p>
+<p>Nola bada Ramon, nola nik ez maita!</p>
+<p>Orrenbertze gauza zuk an egi&ntilde; eta.</p>
+<p>Ez ote gaitutzu bietan eskutu!</p>
+<p>Eta zorigaitzez osoki garbitu!</p>
+<p>Nere Rafaelen bihotzen mamia,</p>
+<p>Jaungoikoak eman bigarren anaia,</p>
+<p>Emendikan arat zu zare nerea,</p>
+<p>Eta bihotz guziz nakazu zurea.</p>
+<p>Jasaiten ditugun gauza goibeletan</p>
+<p>Arima bat dugu, gure gorputzetan.</p>
+<p><hi rend='Bold'>RAMON</hi></p>
+<p>O gure bihotzen gri&ntilde;a barnekoa!</p>
+<p>Orain sentitzen dut zorion gozoa.</p>
+<p>Egun nereganat jautsi da zerua</p>
+<p>Zure bozarekin, izar aingerua.</p>
+<p>Ez dezaket erran zer sentitzen dutan</p>
+<p>Orantxet zuretzat, bularren barnetan,</p>
+<p>Nere barne bozak aditu zintuen.</p>
+<p>Jainkoak zuretzat egi&ntilde;a ninduen.</p>
+<p>Ortarakotz beaz ez duzu gan behar.</p>
+<p>Galduko zintuzket, amodio izar.</p>
+<p>Zaude sukaldean, aitaren ondoan.</p>
+<p>Eta ni ganen naiz, mendirat orduan.</p>
+<p><hi rend='Bold'>KARMELA</hi></p>
+<p>Zuk aise diozu, zu ganen zarela!</p>
+<p><hi rend='Bold'>RAMON</hi></p>
+<p>Ez duzu sentitzen ala behar dela?</p>
+<p><hi rend='Bold'>KARMELA</hi></p>
+<p>Orduan gu biek elkar galzen dugu.</p>
+<p>Eta lan beretan egoten gare gu.</p>
+<p><hi rend='Bold'>RAMON</hi></p>
+<p>Ez nauzu beaz orain emen entzuturen?</p>
+<p><hi rend='Bold'>KARMELA</hi></p>
+<p>Zure bihotzetik ez dut deus arturen.</p>
+<p><hi rend='Bold'>RAMON</hi></p>
+<p>Zure baitan beaz itekorik ez dut.</p>
+<p><hi rend='Bold'>KARMELA</hi></p>
+<p>Ni bai&ntilde;on geiago, Ramon maite zaitut.</p>
+<p>Bai&ntilde;an naiago dut, maiz eskual-erria.</p>
+<p>Arentzat dakat nik osoki bizia.</p>
+<p>Oiartzunetatik, eldu zaizkit neri</p>
+<p>Anaiaren bozak!</p>
+<p><hi rend='Bold'>RAMON</hi></p>
+<p>Ez zait ba iduri...</p>
+<p><hi rend='Bold'>KARMELA</hi></p>
+<p>Banoa kuxian.</p>
+<p><hi rend='Bold'>RAMON</hi></p>
+<p>Baina aurra nola...</p>
+<p><hi rend='Bold'>KARMELA</hi></p>
+<p>Zaude or maitea!...</p>
+<p><hi rend='Bold'>RAMON</hi></p>
+<p>Karmela! Karmela!...</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>IRUDI V GARRENA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Italic'>Karmela badoa, Ramon bakarrik</hi></p>
+<p><hi rend='Bold'>RAMON</hi></p>
+<p>Badoa lasterka bihotzaren jabe,</p>
+<p>Eta nere gri&ntilde;ez axolikan gabe.</p>
+<p>Badoa mendirat nere mi&ntilde;arekin.</p>
+<p>Nik egin bearra, nai du berak egin.</p>
+<p>Badoa Karmela, nere zoriona!</p>
+<p>Nere bihotzaren frutu gozoena;</p>
+<p>Nere baratzeko lore pollitena,</p>
+<p>Nere grin anditan maite gozamena.</p>
+<p>Badoa ni baitan utzirik beldurra.</p>
+<p>Urrats bakotxean altxatzen du lurra.</p>
+<p>Eta ni, lazoki gorderikan nago.</p>
+<p>Indarra guzia besoetan dago;</p>
+<p>Deusik egin gabe galtzen dut bizia.</p>
+<p>Or betetzen ez da nere gutizia.</p>
+<p>Ez, ez, ez dezaket, ortan utzi gauza.</p>
+<p>Geiagokotz dakat, nik nere bihotza.</p>
+<p>Zer? nere maitea mendietan utzi</p>
+<p>Eta ni goxoki jauregian bizi!</p>
+<p>Zer? nik alferrikan, utziko dutala,</p>
+<p>Nere zain gaztetan ustelzen odola!</p>
+<p>Ez! bertzela lehen aurra nintzenian,</p>
+<p>Aitak altxatu nau mendizka gainean.</p>
+<p>Ez, ez, ez zernai zuk erranikan ere</p>
+<p>Karmela! ganen naiz, orain ez naiz zure.</p>
+<p>Gure lur maiteak, oiukan ai zaizkit.</p>
+<p>Gan bear dutala nik, orain badakit.</p>
+<p>Zuk duzu ni baitan piztu su berria,</p>
+<p>Guziz maita dezan, nik Eskual Erria.</p>
+<p>Zoaz beaz maitea, nai duzun tokirat,</p>
+<p>Eldu naiz ere ni, zurekin hiltzerat.</p>
+<p>Gu biak batian erortzen bagare,</p>
+<p>Nerekin zeruan gozatuko zare.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>IRUDI VI GARRENA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Italic'>Lizar, Ramon</hi></p>
+<p><hi rend='Bold'>LIZAR</hi></p>
+<p>Ramon! non da Ramon! aren billa nabill.</p>
+<p><hi rend='Bold'>RAMON</hi></p>
+<p>Zer zauku gertatu! gaituzte norbeit hill!</p>
+<p><hi rend='Bold'>LIZAR</hi></p>
+<p>Ez! Ramon behar dut.</p>
+<p><hi rend='Bold'>RAMON</hi></p>
+<p>Lizar, Ramon ni naiz.</p>
+<p>Bai&ntilde;an noren manuz unat etortzen haiz?</p>
+<p><hi rend='Bold'>LIZAR</hi></p>
+<p>Jauna zure galdez mendian dabilza.</p>
+<p>Oraindik ez dakit non den tropa belza.</p>
+<p>Bai&ntilde;an urrutitik oiuka diote:</p>
+<p>Etxean zaiztenak lasterka zatozte!</p>
+<p>Ramon Mendizabal? datorla! datorla!</p>
+<p>Etsaien eskutik, ar beza Karmela!</p>
+<p><hi rend='Bold'>RAMON</hi></p>
+<p>Zer diozu Lizar?</p>
+<p><hi rend='Bold'>LIZAR</hi></p>
+<p>Egia da Jauna.</p>
+<p><hi rend='Bold'>RAMON</hi></p>
+<p>Etsaien eskutan?</p>
+<p><hi rend='Bold'>LIZAR</hi></p>
+<p>Gure Karmel ona!</p>
+<p><hi rend='Bold'>RAMON</hi></p>
+<p>Zorigaitz! zorigaitz! etsaien eskutan</p>
+<p>Nere andragaia dago nigarretan!</p>
+<p>Zerbeitek ni baitan ninduen erraten,</p>
+<p>Illun egun untan, zer zen gertaturen.</p>
+<p>Madarikatua lurrean errestan,</p>
+<p>Izan al ditezken, zorigaitz anditan,</p>
+<p>Izan bedi beti saldu gaituena!</p>
+<p>Etsaiek mendia dakate berena?</p>
+<p><hi rend='Bold'>LIZAR</hi></p>
+<p>Ikusi nuen nik mendi kanttaletik.</p>
+<p>Erreka barnean besotan arturik,</p>
+<p>Berekin batean antxet zamatela,</p>
+<p>Zelaian barnaka, etsaiek, Karmela.</p>
+<p><hi rend='Bold'>RAMON</hi></p>
+<p>Bainan zein alderat eramaten zuten</p>
+<p>Ez zinduen andik begiez ikusten?</p>
+<p><hi rend='Bold'>LIZAR</hi></p>
+<p>Jauna soroetan odol ixuriak,</p>
+<p>Utzi tu bideak osoki gorriak.</p>
+<p>Odolen bidea, zuk an segitzean,</p>
+<p>Arkituko duzu Karmela larrean.</p>
+<p><hi rend='Bold'>RAMON</hi></p>
+<p>Atoz, Lizar beaz, berdin zuk nai duzu.</p>
+<p>Eriotz kolpea zuk eman nakazu.</p>
+<p>Banoa! banoa! galdurik bihotza.</p>
+<p>Eskual Errientzat galtzerat bizitza.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Egimen bigarrena</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>LEHEN IRUDIA</hi></p>
+<p><hi rend='Italic'>Aita Josep eta Araneder</hi></p>
+<p><hi rend='Bold'>ARANEDER</hi></p>
+<p>Agur aita Josep.</p>
+<p><hi rend='Bold'>AITA JOSEP</hi></p>
+<p>Agur! nor zare zu?</p>
+<p>Ez zaitut ezautzen barka diezadazu.</p>
+<p><hi rend='Bold'>ARANEDER</hi></p>
+<p>Begira begiak, ukitu eskuak...</p>
+<p>Zuri deusik orain ez dio bihotzak?</p>
+<p><hi rend='Bold'>AITA JOSEP</hi><hi rend='Italic'> (arritua)</hi></p>
+<p>A ba Jaungoikoa! Zutaz naiz oroitzen.</p>
+<p>Unat etortzerat zare ausartatzen</p>
+<p>Ez dakizu beaz zoin etxetan zaren?</p>
+<p><hi rend='Bold'>ARANEDER</hi></p>
+<p>Badakit ederki zoin etxetan naizen...</p>
+<p>Bainan nere Ramon non ote da bizi?</p>
+<p>Norekin etxean, zuk zinduen utzi?</p>
+<p><hi rend='Bold'>AITA JOSEP</hi></p>
+<p>Beldur andietan ikaretan nago!</p>
+<p>Xeletan entzuten norbeit ote dago?</p>
+<p>Ez, bakarrik gare. Baatxe, baatxe,</p>
+<p>Itz eginen dugu, gu biek ementxe...</p>
+<p>Ramon, nik uste dut, menditarat gantzen.</p>
+<p><hi rend='Bold'>ARANEDER</hi><hi rend='Italic'> (gogoetan)</hi></p>
+<p>Aitaren gaizkiak an ditu garbitzen!</p>
+<p><hi rend='Bold'>AITA JOSEP</hi></p>
+<p>Ez bada gauz oitaz gogoa betetu,</p>
+<p>Eta urrikiez bihotza damutu.</p>
+<p>Jainkoaren manuz gaizki, nigartua,</p>
+<p>Da gure nigarrez oso garbitua.</p>
+<p>Gaizkiduna zi&ntilde;en, bai&ntilde;an zuk ordian</p>
+<p>Izan duzu barka bihotz odolian.</p>
+<p>Aixtian guziek gaiztotzat zintuzten.</p>
+<p>Nik bakarrik zutan, gri&ntilde;a dut ikusten.</p>
+<p>Eta zure mi&ntilde;ak lausengatziarekin,</p>
+<p>Ematen zaizkitzut barne bakiarekin,</p>
+<p>Jainko gozamena.</p>
+<p><hi rend='Bold'>ARANEDER</hi></p>
+<p>Zuri tut eskerrak.</p>
+<p>Aita, zer nai duzu, gaizkien beldurrak</p>
+<p>Beterikan daka nere dolu mi&ntilde;a.</p>
+<p>Utsa barkatua, gri&ntilde;a zait berdi&ntilde;a.</p>
+<p>Badire gaizkiak aren gaizkikoak,</p>
+<p>Non uzten beituzte frutu betikoak.</p>
+<p>Oraindik guzia, nik ez zaitut erran.</p>
+<p>Zuk ez adituak, badazkat barnean.</p>
+<p>Aita beha zazu.</p>
+<p><hi rend='Bold'>AITA JOSEP</hi></p>
+<p>Nago dena zuri.</p>
+<p><hi rend='Bold'>ARANEDER</hi></p>
+<p>Nere urrikia nai zaitut ixuri.</p>
+<p>Badakizu nola mendi bazterrian</p>
+<p>Ikusi ninduzun etzana lurrean?</p>
+<p>Egondu nintzen han urrikari mi&ntilde;ez,</p>
+<p>Oso goibeldua, deus ezin egi&ntilde;ez.</p>
+<p>Noizian bein Rafael, agertzen zitzaitan,</p>
+<p>Amets bat bezala, nere begietan.</p>
+<p>Burutik beera zarion odola,</p>
+<p>Nik sasian utzi nuenian bezala.</p>
+<p>Batzuetan ere idekiz aoa,</p>
+<p>Beatzen ninduen galdurik gogoa.</p>
+<p>Gure gurutzea bihotzean zuen.</p>
+<p>Eta boz eztiaz egiten ninduen:</p>
+<p>Jainko guziz onak barka diezazula!</p>
+<p>Hitz mi&ntilde;garri eiek erraten ai dela,</p>
+<p>Etxatzen ninduen bere azken atsa.</p>
+<p>Eta bere baitaz betetzen bihotza!</p>
+<p>Beti dakat orain ariman sartua;</p>
+<p>Aren irudiaz burua nastua.</p>
+<p>Ezin dut mendian egin nik urratsa,</p>
+<p>Sentitu gabe or arek egin utsa.</p>
+<p>Arroka zuriek an erraten dute</p>
+<p>Nik egin gaizkia: sarrastatzen naute,</p>
+<p>Arima guzia: Bihotzez oiuka</p>
+<p>Egiten diotet nigarretan: Barka!</p>
+<p>Iardesten naute, barkarik ez dela,</p>
+<p>Oraindik darrai&ntilde;o menditan odola...</p>
+<p>Ibaiak jaustean zelai larreetan,</p>
+<p>Soro zokoetan, oian illunpetan,</p>
+<p>Rafael izena, guziz erresaka,</p>
+<p>Daka barraiatzen:Iten diot: Barka!</p>
+<p>Bai&ntilde;an geiagorik egiten nau goibel,</p>
+<p>Erranikan beti: Rafael! Rafael!</p>
+<p>Xirripak, jaustean menditik &ntilde;ur&ntilde;urka,</p>
+<p>Iten du: Rafael! Eta diot: Barka!</p>
+<p>Bai&ntilde;an ur sorgian, neri zait agertzen</p>
+<p>Rafaelen itxura; dena nau betetzen..</p>
+<p>Gauza guzieri, munduan lasterka,</p>
+<p>Nere biotz guziz erraten dut: Barka!</p>
+<p>Neretzat ordian ez dago barkarik,</p>
+<p>Goibelki munduan nagoe&ntilde;o bizirik.</p>
+<p>Alde guzietan erranikan: Barka!</p>
+<p>Beti dut Rafael, ariman barnaka!</p>
+<p>Aditzen dut beti xamur boz eztia:</p>
+<p>Ikusten odolez belarra, bustia...</p>
+<p>Olaxe damutan gaizki bizitzea</p>
+<p>Da bihotzarentzat maizegi iltzea!</p>
+<p>A! nere gaizkia, Ramonek baleki?</p>
+<p><hi rend='Bold'>AITA JOSEP</hi></p>
+<p>Ramonek oraindik zutaz deus ez daki.</p>
+<p><hi rend='Bold'>ARANEDER</hi></p>
+<p>Bizkitartean ba, naiz izan gorderik</p>
+<p>Ikusi ninduen sasi gibeletik.</p>
+<p><hi rend='Bold'>AITA JOSEP</hi></p>
+<p>Rafael bakarrik zuen ark ikusten.</p>
+<p><hi rend='Bold'>ARANEDER</hi></p>
+<p>An, izen gurea du maizik entzuten.</p>
+<p><hi rend='Bold'>AITA JOSEP</hi></p>
+<p>Nerekin delakotz gaztetik egondu,</p>
+<p>Ezta bertze moduz emen izendatu.</p>
+<p>Ezagun guziez, Ramon da deitua.</p>
+<p>Izen bakar ortan dago oitua.</p>
+<p>Ikusirik gero, zure zorigaitza,</p>
+<p>Ari gordetzeko zuk an egin utsa.</p>
+<p>Ramon Mendizabal izena duela</p>
+<p>Erranik, eta zu mendian zarela</p>
+<p>Etsaien ondotik, sinetsia daka.</p>
+<p>Mendizabal zare lur autan barnaka.</p>
+<p>Niork emen ez du, niork ez sumatzen,</p>
+<p>Mendizabal orrek nor duen gordetzen.</p>
+<p>Gernika erritik Altabizkarraino,</p>
+<p>Luze da bidea, nola gan arai&ntilde;o</p>
+<p>Izen on garbia. Beaz ez ageri</p>
+<p>Zure goibeltzeaz izena bertzeri.</p>
+<p>Ementxet bertzekin ixil zarenean</p>
+<p>Ez utz ikusterat begien barnean.</p>
+<p>Nik deituko zaitut aita Mendizabal.</p>
+<p>Zure gogoetarik ez dezazula gal.</p>
+<p><hi rend='Bold'>ARANEDER</hi></p>
+<p>Gernikatik unat bideak badire</p>
+<p>Ekiek una&ntilde;on etorriak dire.</p>
+<p><hi rend='Bold'>AITA JOSEP</hi></p>
+<p>Emengo guziek egiz uste dute</p>
+<p>Ill izan zarela, bederen diote.</p>
+<p>Nola bihotz mi&ntilde;ak baitzaitu mudatu,</p>
+<p>Eta bertze moduz zare izendatu</p>
+<p>Nior zu pizterat ez da ausartatzen.</p>
+<p><hi rend='Bold'>ARANEDER</hi></p>
+<p>Bai&ntilde;an nere Ramon dute ezagutzen.</p>
+<p><hi rend='Bold'>AITA JOSEP</hi></p>
+<p>Dakizun bezala, semea, Gernikan,</p>
+<p>Nerekin bizirik, ixil, gorderikan,</p>
+<p>Niork emen ez du Ramon ezagutzen:</p>
+<p>Zuk eta zureek bakarrikan baizen.</p>
+<p>Emezortzi urte, bederen badire,</p>
+<p>Ongi gure baitan oroitzen bagare</p>
+<p>Etorri gi&ntilde;ela biak oso goibel.</p>
+<p>An maitatu zuen...</p>
+<p><hi rend='Bold'>ARANEDER</hi></p>
+<p>Rafael! Rafael!</p>
+<p>Gazte doakabe nik eskuez illa,</p>
+<p>Nere bihotzaren ondotik abilla!</p>
+<p>Akabo duk nitaz i galdu geroztik,</p>
+<p>Ramonen bihotza judas batek hil dik.</p>
+<p>Naiz zernai egi&ntilde;ik; ganik menditarat,</p>
+<p>Itsaso barnaka mortu batetarat;</p>
+<p>Zerurai&ntilde;on iga; sartu lur barnean;</p>
+<p>Edo munduz mundu, norte bazterrean,</p>
+<p>Gorderikan egon, eskun edo ezker:</p>
+<p>Izanen nauk beti Ganix Araneder.</p>
+<p><hi rend='Italic'>Kantua (aditzen da)</hi></p>
+<p>I</p>
+<p>Arbol baten tonttorrian,</p>
+<p>Oatze baten goxoan,</p>
+<p>Uso&ntilde;o bat arturik mokoan,</p>
+<p>Arrano bat an zabillan.</p>
+<p>Uso&ntilde;o pollit ura bezala,</p>
+<p>Eraman daute Karmela...</p>
+<p>II</p>
+<p>Baratzeko lore eztia,</p>
+<p>Diztianta, ta gaztea,</p>
+<p>Ihintzaren xorta&ntilde;oz betea,</p>
+<p>Bere nigarrez bustia.</p>
+<p>Baratzeko lorea bezala.</p>
+<p>An doa nere Karmela.</p>
+<p>III</p>
+<p>Mendi xokoan barnaka,</p>
+<p>Ardi galdua lasterka,</p>
+<p>Dolamenez jausten da meeka.</p>
+<p>Eta xirripa &ntilde;ur&ntilde;urka;</p>
+<p>Ardi eta xirripa bezala,</p>
+<p>An doa nere Karmela.</p>
+<p>IV</p>
+<p>Etsai gaixtuek arturik,</p>
+<p>Atzaparretan gorderik,</p>
+<p>Daramate mendi bazterretik.</p>
+<p>Jainkoa! Zure zerutik,</p>
+<p>Oroit zaite zureak garela.</p>
+<p>Begira zazu Karmela.</p>
+<p><hi rend='Bold'>AITA JOSEP</hi></p>
+<p>Nondik eldu zaiku boz mingarri ori!</p>
+<p>Arima betetzen gaitu gu bieri!...</p>
+<p>Orren grin andiak nork jasan letzake!</p>
+<p>Karmela galdua! Nork sinets lezake!</p>
+<p>Norbeit eldu zaiku...</p>
+<p><hi rend='Bold'>ARANEDER</hi></p>
+<p>Beldurrian nago.</p>
+<p><hi rend='Bold'>AITA JOSEP</hi></p>
+<p>Zaude! ni zurekin, emen naiz egongo,</p>
+<p>Oroit zaite gero zer erran zaitudan.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>IRUDI II GARRENA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Italic'>Lehenburu, aita Josep, Araneder</hi></p>
+<p><hi rend='Bold'>LEHENBURU</hi></p>
+<p>Gau on aita Josep, billatzen zintudan.</p>
+<p><hi rend='Bold'>ARANEDER</hi><hi rend='Italic'> (apartaturik)</hi></p>
+<p>Jauna! Lehenburu!</p>
+<p><hi rend='Bold'>AITA JOSEP</hi></p>
+<p>Ni, nindagon emen,</p>
+<p>Noiz othoiz ondoan etorriko zi&ntilde;en.</p>
+<p><hi rend='Bold'>LEHENBURU</hi></p>
+<p>Othoitz kartsuetan ari nintzelarik,</p>
+<p>A&ntilde;itz egondu naiz, or loak arturik...</p>
+<p>Bai&ntilde;an zoin dakazu, zurekin Jaun ori?</p>
+<p><hi rend='Bold'>AITA JOSEP</hi></p>
+<p>Aita Mendizabal.</p>
+<p><hi rend='Bold'>ARANEDER</hi></p>
+<p>Bihotz guziz zuri.</p>
+<p><hi rend='Bold'>LEHENBURU</hi></p>
+<p>Zer! Ramonen aita?</p>
+<p><hi rend='Bold'>AITA JOSEP</hi></p>
+<p>Zuk erran bezala.</p>
+<p><hi rend='Bold'>LEHENBURU</hi></p>
+<p>Ongi etorria or izan daiela!</p>
+<p>Balin bazare zu Ramoni iduri,</p>
+<p>Emendikan arat emen zaude guri!</p>
+<p>Errana da beti itxur berarekin,</p>
+<p>Anditzen direla aurrak guri berdin.</p>
+<p>Zureak badaka bihotz bat andia,</p>
+<p>Bere gorputzean arima garbia.</p>
+<p>Nere odolaren seme maiteena,</p>
+<p>Biziaren gostuz eskutu zuena!...</p>
+<p><hi rend='Bold'>ARANEDER</hi></p>
+<p>Jaungoiko maitea!</p>
+<p><hi rend='Bold'>AITA JOSEP</hi></p>
+<p>Zaude ba geldirik!</p>
+<p><hi rend='Bold'>LEHENBURU</hi></p>
+<p>...Etsai gaixtoaren esku tzarretatik.</p>
+<p><hi rend='Bold'>ARANEDER</hi></p>
+<p>Rafael! Rafael!</p>
+<p><hi rend='Bold'>LEHENBURU</hi></p>
+<p>Ikusi zinduen?...</p>
+<p>Naski zu mendirat arekin gan zi&ntilde;en?</p>
+<p>Zertako begiak gordetzen nazkatzu?</p>
+<p>Nere mi&ntilde;ez oso mindua zare zu?</p>
+<p>Bazindakizu, nik zer irahun dutan!</p>
+<p>Entzutearekin, hil zela mendian!</p>
+<p>Zuk ere menturaz baditutzu gri&ntilde;ak,</p>
+<p>Bertzeri sekulan erran ez tutzunak.</p>
+<p>Bizitze guzia da guziz gaizkia;</p>
+<p>Ez dago mundua gozamen tokia.</p>
+<p>Loak arturikan nindagon goxoki,</p>
+<p>Jainkoari gri&ntilde;ak erranez eztiki,</p>
+<p>Noizeta, ni, golpez atzarraazi bait nau</p>
+<p>Boz baten kantuak, erranikan gauz au:</p>
+<p>&laquo;Jainko zerukoa! iguzu Karmela!...</p>
+<p>Bai&ntilde;an egia da, hek artu dutela?&raquo;</p>
+<p><hi rend='Bold'>AITA JOSEP</hi></p>
+<p>Zuk bai&ntilde;an geiago, nik orain ez dakit.</p>
+<p>Bai&ntilde;an berri tzarrak andik eldu zaizkit.</p>
+<p>Othoitz egiterat gu gan gi&ntilde;enean,</p>
+<p>Emen egondu zen bertzekin batean.</p>
+<p>Gero Jaun unekin etorri naiz unat,</p>
+<p>Atsegin anditan pozik zureganat.</p>
+<p>Emen sartziarekin, ez dugu ikusi,</p>
+<p>Nior zuretarik. Ez gintuen asi</p>
+<p>Gure erasiak, non zure kantu berak</p>
+<p>Ernetu zituen gure belarriak.</p>
+<p>Zuk bezala...</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>IRUDI III GARRENA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Italic'>Mendiburu, aita Josep, Araneder, Lehenburu</hi></p>
+<p><hi rend='Bold'>MENDIBURU</hi></p>
+<p>Zure galdez an dabiltza,</p>
+<p>Jauna, guretako zerua de beltza.</p>
+<p>Ramon Mendizabal etsaien erdian,</p>
+<p>Zelaian dabilla, zorigaitz andian.</p>
+<p><hi rend='Bold'>LEHENBURU</hi></p>
+<p>Eta Karmela?</p>
+<p><hi rend='Bold'>MENDIBURU</hi></p>
+<p>Ba Karmela damate,</p>
+<p>Etsaiek zelaian berekin dakate.</p>
+<p><hi rend='Bold'>ARANEDER</hi></p>
+<p>Orra norat doan egin dutan gauza,</p>
+<p>Biak galdu ditut; aitak barka beza!</p>
+<p>Dudarikan ez zen Ramon an zagola,</p>
+<p>Nere gaizkientzat ematen odola.</p>
+<p><hi rend='Bold'>LEHENBURU </hi><hi rend='Italic'>(othoitzean)</hi></p>
+<p>Jauna zuri dazkat nik esker guziak,</p>
+<p>Zuk egi&ntilde;ik zernai, gu gare zureak.</p>
+<p>Zuk guri bihotza bete zorionez,</p>
+<p>Edo zigorratuz gu ondatu mi&ntilde;ez,</p>
+<p>Izanen zare zu, Jainko guziz ona,</p>
+<p>Esker guzietaz goraki gai dena.</p>
+<p>Esku batez jorik gaitutzu damutzen,</p>
+<p>Bertzeak ordian du mi&ntilde;a leguntzen.</p>
+<p>Mundu goibel untan gu zauriz beterik,</p>
+<p>Zeruen agintzaz gu lausengaturik,</p>
+<p>Entzutua dugu zer erran nai duzun;</p>
+<p>Zuretzat pairatuz, zer izanen dugun.</p>
+<p>Ez gaitutzu Jauna, lurrarentzat egin,</p>
+<p>Bai&ntilde;an izateko zerua zurekin.</p>
+<p>Zenbatenaz emen dugu jasaituko,</p>
+<p>Anbatenaz zutaz gare gozatuko.</p>
+<p>Jo nazazu beaz: Zuk egin zauriek</p>
+<p>Eskatzen zaituzte la&ntilde;oka guziek.</p>
+<p>Nere zoriona: zurekin geroan,</p>
+<p>Rafael, Karmela, baditut zeruan.</p>
+<p><hi rend='Bold'>AITA JOSEP</hi></p>
+<p>Nik nai nuen Jauna, zuri mi&ntilde;a kendu;</p>
+<p>Fedearen itzez damua legundu.</p>
+<p>Bai&ntilde;an ikusten dut Jainkoak ariman,</p>
+<p>Zaizkitzula leen asmu, onak eman.</p>
+<p>Naiz gure bihotzak arek egin erdi,</p>
+<p>Gu guzietarik maitatua bedi!</p>
+<p>Banoa kuxian mendien alderat,</p>
+<p>Gure zelaietan, zer den ikusterat.</p>
+<p><hi rend='Italic'>(Mendibururi)</hi></p>
+<p>Atoz zu, nerekin, irakus nazazun,</p>
+<p>Gure maitetxuak non utzi ditutzun.</p>
+<p><hi rend='Bold'>LEHENBURU</hi></p>
+<p>Zoazi gaixtuez, artuak badire</p>
+<p>Eiekin Frantzirat, laster ganen zare.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>IRUDI IV GARRENA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Italic'>Lehenburu, Araneder</hi></p>
+<p><hi rend='Bold'>LEHENBURU</hi></p>
+<p>Eta zer diozu Ganix Mendizabal?</p>
+<p><hi rend='Bold'>ARANEDER</hi></p>
+<p>Ni nago zurekin deus ez egin ahal,</p>
+<p>Mendietan diren gure gazteentzat,</p>
+<p>Aita Lehenburu, deus ezta neretzat,</p>
+<p>Deus ez mundu untan, deus ez mi&ntilde;agorik,</p>
+<p>Nola bi gazte ikustea galdurik!</p>
+<p>Oraindik bederen, nere bihotzean,</p>
+<p>Ez banu sentitzen, nik zer egin dutan,</p>
+<p>Egonen nintake nigarrez bakean,</p>
+<p>Izanik lausenga, mi&ntilde;aren tokian.</p>
+<p>Bai&ntilde;an, nola goza gozorikan gabe,</p>
+<p>Izanik arima zorigaitzez jabe.</p>
+<p>Nola, gau tristean, egin lo gozoak,</p>
+<p>Burua betetzen duenian kexoak.</p>
+<p>Ezta neretako gozamen osorik.</p>
+<p>Arima guzia daukat, zauriturik.</p>
+<p><hi rend='Bold'>LEHENBURU</hi></p>
+<p>Jaungoikoa baitan emazu bihotza,</p>
+<p>Zure Ramonentzat egi&ntilde;ik othoitza.</p>
+<p>Arkituko duzu, barnean bake bat</p>
+<p>Zure mi&ntilde;endako behar den bezinbat.</p>
+<p><hi rend='Bold'>ARANEDER</hi></p>
+<p>Bai&ntilde;an bere gri&ntilde;ak nau dena betetzen,</p>
+<p>Egun guzietan bihotza xautzen.</p>
+<p>Zuk aurren gainean nigar iten duzu,</p>
+<p>Bai&ntilde;an zure baitan bakea dakazu.</p>
+<p>Gizonak barnean ote du pairatzen,</p>
+<p>Bederen ariman bake du kausitzen.</p>
+<p>Arimaz ordian ez badago garbi,</p>
+<p>Gri&ntilde;a batendako jasaiten ditu bi.</p>
+<p>Nion eztu gero goxorik billatzen,</p>
+<p>Bere baitan ditu gri&ntilde;ak erabiltzen.</p>
+<p>Toki guzietan mi&ntilde;ak daramatza,</p>
+<p>Ardi kolpatuak sasien arantza,</p>
+<p>Barnegi sartua, dabillan bezala.</p>
+<p><hi rend='Bold'>LEHENBURU</hi></p>
+<p>Beaz zure mi&ntilde;ak eginez ahala</p>
+<p>Ez dire kenduko.</p>
+<p><hi rend='Bold'>ARANEDER</hi></p>
+<p>Barnegi sartuak,</p>
+<p>Nere baitan dazkat, eta goortuak.</p>
+<p>A bazindakizu, zuk emen nor naizen,</p>
+<p>Ez nintake egon zurekin mintzatzen.</p>
+<p><hi rend='Bold'>LEHENBURU</hi></p>
+<p>Bere bihotz mi&ntilde;ak oso du gainditzen</p>
+<p>Eta men berean burua nahasten.</p>
+<p>Zer balio du zu dena xautzea,</p>
+<p>Eta zure baitaz bihotza galtzea?</p>
+<p><hi rend='Bold'>ARANEDER</hi></p>
+<p>Erran bear zaitut, ba, bizkitartean,</p>
+<p>Nik zuri lenago zer egin zaitudan.</p>
+<p><hi rend='Bold'>LEHENBURU</hi></p>
+<p>Neri zuk maitea, neri zerbeit egin,</p>
+<p>Barkatua zaitut bihotz guziekin.</p>
+<p><hi rend='Bold'>ARANEDER</hi></p>
+<p>Bainan ez dakizu zer barkatzen duzun.</p>
+<p><hi rend='Bold'>LEHENBURU</hi></p>
+<p>Neri zer doakit, zu zare beardun,</p>
+<p>Zorra kentzen zaitut.</p>
+<p><hi rend='Bold'>ARANEDER</hi></p>
+<p>Barkatuko nauzu?</p>
+<p><hi rend='Bold'>LEHENBURU</hi></p>
+<p>Barkatua zare.</p>
+<p><hi rend='Bold'>ARANEDER</hi></p>
+<p>Bai&ntilde;an zer zare zu.</p>
+<p>Gizon edo Jainko! gu guziak aurrak</p>
+<p>Gare zure parez. Erran itz ederrak</p>
+<p>Ederki badio! Nauzu barkaturen!</p>
+<p>Bihotz nik len illak, orain nau pizturen.</p>
+<p>Beaz Jauna baitan arturik indarra,</p>
+<p>Adi zazu nitaz, zer den gizon erra.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>IRUDI V GARRENA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Italic'>Aita Josep, Lehenburu, Araneder</hi></p>
+<p><hi rend='Bold'>AITA JOSEP</hi></p>
+<p>Zorion! Zorion! emen da Karmela,</p>
+<p>Jainkoa lurrean onhestu daiela!</p>
+<p>Zuek aita biak alegera zaizte!</p>
+<p>Aurrek zuen mi&ntilde;ak kentzen zaikitzute,</p>
+<p>Ramonek Karmela berak gureturik,</p>
+<p>Bere gizonekin unat ekarririk,</p>
+<p>Nai du gero berriz emendik gan arat.</p>
+<p>Etsaiak mendian oso garaitzerat...</p>
+<p>Emen eldu dire zuen aur maiteak</p>
+<p>Begiak goraki loriaz beteak.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>IRUDI VI-GARRENA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Italic'>Karmela, Ramon sartzean,</hi></p>
+<p><hi rend='Italic'>Lehenburu, Araneder, aita Josep</hi></p>
+<p><hi rend='Bold'>LEHENBURU</hi></p>
+<p>Zatozte! zatozte biak nereganat,</p>
+<p>Nere bihotzaren orain gozatzerat.</p>
+<p><hi rend='Bold'>ARANEDER</hi><hi rend='Italic'> (bere baitan)</hi></p>
+<p>Ramon, nere Ramon! Nork erranen zuen!</p>
+<p>Salzaille semea zoinen andia zen!</p>
+<p>Nere zain guziak dazkat itzuliak!</p>
+<p>Eta xutatuak buruan illiak.</p>
+<p>Banoa gorderik, antxet gelatxoan,</p>
+<p>Nigar eginen dut ixiltasunean.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>IRUDI VII GARRENA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Italic'>Karmela, Ramon, Lehenburu</hi></p>
+<p><hi rend='Bold'>LEHENBURU</hi></p>
+<p>Rafaelen alde nere gozatzeko,</p>
+<p>Jainkoak eman daut semetzat betiko</p>
+<p>Ramon Mendizabal. Zu nere Karmela.</p>
+<p>Non ibilli zare? zoroa bezala?</p>
+<p><hi rend='Bold'>KARMELA</hi></p>
+<p>Aita badakizu zenbat maite dutan</p>
+<p>Nik Eskual erria. Nere bihotzean</p>
+<p>Ezin gorde zaket zer dutan sentitzen.</p>
+<p>Guzien gai&ntilde;etik ura dut maitatzen.</p>
+<p>Ezta mundu untan deus unen parerik,</p>
+<p>Bazter guzietan ongi billaturik.</p>
+<p>Eskual erria da ama maiteena,</p>
+<p>Bere lur odolaz azten gaituena.</p>
+<p>Negua denian mendi xokoetan,</p>
+<p>Ibaia egiko sasi pollitetan,</p>
+<p>Dazka gorderikan xori&ntilde;o gixenak,</p>
+<p>Eta soropetan erbi belardunak.</p>
+<p>Udako beroak etortzearekin,</p>
+<p>Aritzen azpian itzaltxoarekin,</p>
+<p>Berak zabaldurik leialki bularrak,</p>
+<p>Ematen dazkigu landare ederrak.</p>
+<p>Arroka zilloan urxoak baditu</p>
+<p>Mendi bizkarrean, bagare berotu.</p>
+<p>Egunaz lanean, unatzen bagare,</p>
+<p>Soro lurrinduak zelaian badire.</p>
+<p>Antxet xori&ntilde;oa kantuz ai delarik</p>
+<p>Egiten dugu lo, lurrean goxorik.</p>
+<p>Au da azkenekotz, au da nere lurra;</p>
+<p>Emen ni sortu naiz, ni naiz unen aurra.</p>
+<p>Gure gurasoak, emen egon ziren,</p>
+<p>Ekien lurrean, ni naiz geldituren.</p>
+<p>Nere odol berak, erraten nau aski,</p>
+<p>Emengo naizela emengotz osoki.</p>
+<p>Euskualdun zaharrak unek azi ditu,</p>
+<p>Eta hill ondoan belarrez gordetu.</p>
+<p>Guk gure urratsez alxatu errautsa,</p>
+<p>Da gure maiteen gorputzaren autsa...</p>
+<p>Emen diren gauzak bertzetan badire,</p>
+<p>Bai&ntilde;an hek ordian, gureak ez dire.</p>
+<p>Bertze tokitako, mendi ta ibaiek,</p>
+<p>Arbol, belar, lore, larre, ta zelaiek,</p>
+<p>Ez gaituzte guri deusikan erraten,</p>
+<p>Ez eta bihotza batere ukitzen.</p>
+<p>Euskual erriak nau bakarrik gozatzen;</p>
+<p>Nere bihotzari hark daki mintzatzen.</p>
+<p>Beaz nere aita, urren ikustean,</p>
+<p>Gure lur maitea etsaien oi&ntilde;etan,</p>
+<p>Sentitu nuen nik mugitzen odola,</p>
+<p>Nere ama galdu banuke bezala.</p>
+<p>Orduan niori erran gabe deusik,</p>
+<p>Emendik gan nintzen erresaka, pozik,</p>
+<p>Gureak mendian, ongi laguntzeko;</p>
+<p>Emendik etsaiak laster igurtzeko.</p>
+<p>Bainan eien alde ni ganintzenian,</p>
+<p>Ikusi nituen nere urbillean,</p>
+<p>Lau gizon nere zai, errekan zirenak,</p>
+<p>Ixilik, gorderik, lurrean etzanak.</p>
+<p>Asirik lasterka ies egin nuen:</p>
+<p>Bainan eien batek atzeman ninduen.</p>
+<p>Orduan guziek pozikan arturik,</p>
+<p>Bertziak mendian xiztuka deiturik,</p>
+<p>Eraman ninduten zelaian barnaka</p>
+<p>Otsoak bezala oiu marrumaka.</p>
+<p>Nolanaizka gero ninduten ibiltzen,</p>
+<p>Aita zuretako, ni galdua nintzen.</p>
+<p>Oso sumindua zutaz etsiturik,</p>
+<p>Nigarrez nindagon, nereak galdurik;</p>
+<p>Noiz baitzat agertzen sasian gordea,</p>
+<p>Bere gizonekin, Ramontxo maitea.</p>
+<p>Altxatzen da laster, dena errabia.</p>
+<p>Bi makilla kolpez hiltzen ditu bia.</p>
+<p>Euskualdun guziek Ramon ikusirik,</p>
+<p>Erra bihotzean kuxian arturik,</p>
+<p>An ziren etsaiak garbitu zituzten,</p>
+<p>Eta zureganat ekartzen ninduten.</p>
+<p>Orena berean, Ramon an zabillan</p>
+<p>Ikusteko ea sasi gibelian</p>
+<p>Etsaiak oraindik baziren gordeak,</p>
+<p>Edo belarretan xeletan etzanak.</p>
+<p>Nola mendi goian arranoen ama</p>
+<p>Biribilka dabill, etxatzian luma,</p>
+<p>Bere ohatzeko umeen gainean,</p>
+<p>Ongi goxatzeko hekiek barnean,</p>
+<p>Ala Ramon bera, gure ingurutan</p>
+<p>Zabillan lasterka soro bazterretan.</p>
+<p><hi rend='Bold'>RAMON</hi></p>
+<p>Ederki gaitutzu Karmela kondatzen,</p>
+<p>Nik zer egin dutan. Ez duzu edertzen</p>
+<p>Ordian maitea, zuk egin duzuna:</p>
+<p>Zuk duzu xedea guziz apalduna.</p>
+<p>Aitaren gaiako alaba bortitza,</p>
+<p>Xamur bainan azkar dakazu bihotza.</p>
+<p>Gorputzen gai&ntilde;etik naiaz andiago</p>
+<p>Arimen indarrak ditutzu geiago.</p>
+<p>Ez dut nik ikusi zu bezalakorik:</p>
+<p>Indar, goxo, bortitz, eztiagokorik.</p>
+<p>Egin ditutzunak nik ditut erranen.</p>
+<p>Karmela guziek an dezaten omen.</p>
+<p>Sasi gibeletik gu xeletan gi&ntilde;en.</p>
+<p>Etsaiak ondotik laster eldu ziren.</p>
+<p>Mendi bizkarraren patarra beera,</p>
+<p>Karmelak botarik arri bat ederra,</p>
+<p>Bere leen kolpez, iru hiltzen ditu.</p>
+<p>Bertzeak botarik ies ematen tu.</p>
+<p>Ez zaioten eder gizon ekieri,</p>
+<p>Karmelak eietaz egitea irri.</p>
+<p>Or jazartzen dire, mendien gai&ntilde;etik,</p>
+<p>Tropako guziak Karmelen ondotik.</p>
+<p>Bai&ntilde;an ies ganik nere andre gaiak,</p>
+<p>Etsaiak mendian dazka banatuak,</p>
+<p>Eta eienganat itzultze guzitan</p>
+<p>Bat etzaten zuen kuxian oi&ntilde;etan.</p>
+<p>Azkenian beaz, indarra galdurik,</p>
+<p>Bera erori zen han atsak anturik.</p>
+<p>Orduan etsaiek arrapatu zuten,</p>
+<p>Eta mendiz mendi pozik zaramaten.</p>
+<p><hi rend='Bold'>LEHENBURU</hi></p>
+<p>Aski da maitea neri zait iduri,</p>
+<p>Zu biek ederki, bat bertzien berri</p>
+<p>Badakizuela, Ramon, zure aita</p>
+<p>Aixtian emen zen. Nerekin izketa</p>
+<p>Ari zen auhenez.</p>
+<p><hi rend='Bold'>RAMON</hi></p>
+<p>Nere aita emen?</p>
+<p>Ordian oraintxet, ez dakizu non den?</p>
+<p><hi rend='Bold'>LEHENBURU</hi></p>
+<p>Nere gelatxoan bear du hark izan,</p>
+<p>Nigar separekin ixil otoitzean.</p>
+<p>Karmela zoazi, eta deitu zazu.</p>
+<p>Arekin bakarrik hitz eginen duzu.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>IRUDI VIII GARRENA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Italic'>Lehenburu, Araneder, Ramon</hi></p>
+<p><hi rend='Bold'>ARANEDER</hi></p>
+<p>Seme doakabe.</p>
+<p><hi rend='Bold'>RAMON</hi></p>
+<p>Aita zure Ramon!...</p>
+<p>Eldu zaitzu orain zureganat...</p>
+<p><hi rend='Bold'>ARANEDER</hi></p>
+<p>Egon!</p>
+<p>Or zaude maitea, ez nai ni zure gai!</p>
+<p><hi rend='Bold'>RAMON</hi></p>
+<p>Orrenbertze bada, naizela zure zai,</p>
+<p>Eta gero zutaz ez naiz gozaturen!</p>
+<p>Ikusi orduko zaitut damuturen?</p>
+<p><hi rend='Bold'>LEHENBURU</hi></p>
+<p>Karmela goazin, aita ta semea</p>
+<p>Utz detzagun emen.</p>
+<p><hi rend='Bold'>KARMELA</hi></p>
+<p>Arima betea</p>
+<p>Gri&ntilde; andiez dakat: goazin.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>IRUDI IX GARRENA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Italic'>Araneder, Ramon</hi></p>
+<p><hi rend='Bold'>ARANEDER</hi></p>
+<p>Ramon! aurra!</p>
+<p><hi rend='Bold'>RAMON</hi></p>
+<p>Nerekin izanik zer duzu bearra?</p>
+<p>Ez dakizu beti zurea naizela?</p>
+<p><hi rend='Bold'>ARANEDER</hi></p>
+<p>Ez naiz ni zurea. Zuk orain bertzela</p>
+<p>Ikusiko nauzu.</p>
+<p><hi rend='Bold'>RAMON</hi></p>
+<p>Bainan zer da ori.</p>
+<p>Orain zer zorigaitz etorri da zuri?</p>
+<p>Zure ingurutan izan duzu zerbeit?</p>
+<p>Gure gurasotan hill ote da norbeit?</p>
+<p><hi rend='Bold'>ARANEDER</hi></p>
+<p>Ez Ramon! ez aurra! askoz andiago,</p>
+<p>Nere zain barnean, nere mi&ntilde;a dago.</p>
+<p><hi rend='Bold'>RAMON</hi></p>
+<p>Bai&ntilde;an zu zerk bada erdiratzen zaitu?</p>
+<p>Izate guziak zaizkitzute hartu?</p>
+<p><hi rend='Bold'>ARANEDER</hi></p>
+<p>Ez munduko mi&ntilde;ak deusikan ez dire</p>
+<p>Nere mi&ntilde;arekin neurritzen badire.</p>
+<p><hi rend='Bold'>RAMON</hi></p>
+<p>Bai&ntilde;an mintza zaite, zure barne mi&ntilde;ak,</p>
+<p>Izanik andiak badire berdi&ntilde;ak:</p>
+<p>Zernai gerta daien, ni nago zurekin.</p>
+<p><hi rend='Bold'>ARANEDER</hi></p>
+<p>Ez dezakezuke, deus ordian egin.</p>
+<p><hi rend='Bold'>RAMON</hi></p>
+<p>Bainan zuk ni baitan dakazu beldurra.</p>
+<p><hi rend='Bold'>ARANEDER</hi></p>
+<p>Zu damututzea neri zait gogorra.</p>
+<p>Ez dezaket aurra zuri deusik erran.</p>
+<p>Arritu zintuzket aditze berean;</p>
+<p>Eta beharbada gogoa galdurik,</p>
+<p>Erori zintazke gri&ntilde;ak garaiturik.</p>
+<p><hi rend='Bold'>RAMON</hi></p>
+<p>Nere zain gaztetan, ikarak artua</p>
+<p>Odola barnean dakat ormatua.</p>
+<p>Zuk deus ez erranik, geiago nakazu</p>
+<p>Bizia goibeltzen.</p>
+<p><hi rend='Bold'>ARANEDER</hi></p>
+<p>Aditu nai duzu!</p>
+<p>Erran ordutikan aita galtzen duzu.</p>
+<p><hi rend='Bold'>RAMON</hi></p>
+<p>Beaz zure mi&ntilde;ak bakar jasantzatzu.</p>
+<p><hi rend='Bold'>ARANEDER </hi><hi rend='Italic'>(bere baitan)</hi></p>
+<p>Nere bihotzaren etsi mingarria,</p>
+<p>Ni banaiz zahartzen, zu zaude berria.</p>
+<p><hi rend='Bold'>RAMON</hi></p>
+<p>Aita sentitzen tut orain zure mi&ntilde;ak.</p>
+<p>Zorigaitza batek zaizkitzu emanak.</p>
+<p><hi rend='Bold'>ARANEDER</hi></p>
+<p>Nola bere baitaz lur gaixto batetik,</p>
+<p>Belar tzarra beti sasien ondotik</p>
+<p>Altxatzen beitzauku; bihotzean ala</p>
+<p>Gaizkiak maizikan oteak bezala,</p>
+<p>Agertzen zaizkigu.</p>
+<p><hi rend='Bold'>RAMON</hi></p>
+<p>Beldurrik ez izan,</p>
+<p>Aita nik badakit zer nai duzun erran.</p>
+<p>Zuk zernai munduan eginikan ere,</p>
+<p>Ez duzu gaizkirik nere aita zare.</p>
+<p>Seme garbi batek aitaren gaizkiak,</p>
+<p>Ikusten ez ditu, naiz izan argiak.</p>
+<p>Aski dakat orain: zu beti neretzat</p>
+<p>Aita zare. Zuk an egi&ntilde;ak onatzat</p>
+<p>Artuko ditut nik.</p>
+<p><hi rend='Bold'>ARANEDER</hi></p>
+<p>Ez bada maitea</p>
+<p>Zuk egin ongiez burua betea,</p>
+<p>Zure begi onez ongitu gaizkiak.</p>
+<p>Utz detzagun ortan azken erasiak.</p>
+<p><hi rend='Bold'>RAMON</hi></p>
+<p>Aita badut zerbeit zuri errateko.</p>
+<p><hi rend='Bold'>ARANEDER</hi></p>
+<p>Aurra mintza zaite.</p>
+<p><hi rend='Bold'>RAMON</hi></p>
+<p>Deusik zuretako,</p>
+<p>Gorderikan ez dut; nere bihotzean</p>
+<p>Badakizu zenbat amodio dutan,</p>
+<p>Zuk ikusi duzun aingeru batentzat.</p>
+<p><hi rend='Bold'>ARANEDER</hi></p>
+<p>Aingeruak aurra ez dire zuretzat.</p>
+<p>Ramon, nere Ramon: Karmela nai duzu!</p>
+<p>Aingeru baten gai balin bazare zu,</p>
+<p>Nere zorigaitzak zaitu damuturen;</p>
+<p>Arima guzia zaitu ondaturen.</p>
+<p>Nik orrenbertze mi&ntilde; zuri egi&ntilde; eta</p>
+<p>Orain behar zaitut, erran: zuk ez maita</p>
+<p>Bihotz guzietik maitatu duzuna:</p>
+<p>Zeren aita duzu zorigaitzaduna.</p>
+<p>Unat eldu dire fexoki etsaiak,</p>
+<p>Entzuten dituzu ekien marrumak?</p>
+<p>Ramon goazin biak... Oxala mendian</p>
+<p>Hiltzen banindute anaien erdian!</p>
+<p>Euskual errientzat odol ixuriak.</p>
+<p>Eginen gintuzke arima garbiak...</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Hirugarren egimena</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>LEHEN IRUDIA</hi></p>
+<p><hi rend='Italic'>Bidegain bakarrik, Mendiburu kanpotik</hi></p>
+<p><hi rend='Bold'>BIDEGAIN</hi></p>
+<p>Mendiburu!</p>
+<p><hi rend='Bold'>MENDIBURU</hi></p>
+<p>Nere Jauna! zer nai duzu?</p>
+<p><hi rend='Bold'>BIDEGAIN</hi></p>
+<p>Oraindik etsaiak ikusten ditutzu?</p>
+<p><hi rend='Bold'>MENDIBURU</hi></p>
+<p>Ba Jauna, guziak zelaian zabaltzen</p>
+<p>Ari dire laster.</p>
+<p><hi rend='Bold'>BIDEGAIN</hi></p>
+<p>As zaite kondatzen.</p>
+<p><hi rend='Bold'>MENDIBURU</hi></p>
+<p>I</p>
+<p>Bat, bia, iru, lau,</p>
+<p>Bortz, sei, zazpi, zortzi</p>
+<p>Bederatzi, amar,</p>
+<p>Ameka, amabi,</p>
+<p>Amairu, amalau,</p>
+<p>Amabortz, amasei,</p>
+<p>Amazazpi, emezortzi,</p>
+<p>Emeretzi, ogoi.</p>
+<p>II</p>
+<p>Millaka geiago,</p>
+<p>Ezin kondatuak,</p>
+<p>Mendiez gorago</p>
+<p>Oso nausituak,</p>
+<p>Unat eldu dire</p>
+<p>Gure garbitzerat.</p>
+<p>Bainan ganen gare</p>
+<p>Ekien iltzerat.</p>
+<p>III</p>
+<p>Orra zertan diren</p>
+<p>Anaiak zelaian.</p>
+<p>Obeki len ziren</p>
+<p>Mendien erdian.</p>
+<p>Araneder tzarraz</p>
+<p>Oraintxet salduak,</p>
+<p>Etsaien indarraz,</p>
+<p>Dire garaituak.</p>
+<p>IV</p>
+<p>Loreen azpian</p>
+<p>Maiz dire gordetzen,</p>
+<p>Baratze garbian</p>
+<p>Ixilik gozatzen</p>
+<p>Suge gaixtosuak.</p>
+<p>Bagare urbiltzen</p>
+<p>Eien ao tzarrak</p>
+<p>Gaitu asikitzen</p>
+<p>V</p>
+<p>Madarikatua</p>
+<p>Beti izan daiela!</p>
+<p>Lorez hantzitua,</p>
+<p>Sugea bezala,</p>
+<p>Etortzen zaikuna</p>
+<p>Eginez ahala,</p>
+<p>Ortzez gaizkiduna,</p>
+<p>Kentzerat odola.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>IRUDI II GARRENA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Italic'>Bidegain, Mendiburu sartzean</hi></p>
+<p><hi rend='Bold'>MENDIBURU</hi></p>
+<p>Ikusi duzu?</p>
+<p><hi rend='Bold'>BIDEGAIN</hi></p>
+<p>Nor?</p>
+<p><hi rend='Bold'>MENDIBURU</hi></p>
+<p>Gure saltzaillea!</p>
+<p>Gaizki andiena guri egillea!</p>
+<p><hi rend='Bold'>BIDEGAIN</hi></p>
+<p>Non zen?</p>
+<p><hi rend='Bold'>MENDIBURU</hi></p>
+<p>Emen ori</p>
+<p><hi rend='Bold'>BIDEGAIN</hi></p>
+<p>Emen zen bakarrik?</p>
+<p><hi rend='Bold'>MENDIBURU</hi></p>
+<p>Emen ark sartzea ez zaukan beldurrik,</p>
+<p>Ikusi nuen nik, aita Josepekin!</p>
+<p>Ixilikan biek itz nai zuten egin!</p>
+<p>Bainan belarriak nik ernegi dazkat.</p>
+<p>Emen gauz gorderik ez dago neretzat.</p>
+<p>Nere belarriez ezin adituak,</p>
+<p>Arimen begiez ditut ikusiak.</p>
+<p><hi rend='Bold'>BIDEGAIN</hi></p>
+<p>Bai&ntilde;an Mendiburu nork erran zintuen,</p>
+<p>Ikusi duzuna sukaldean nor zen?</p>
+<p>Araneder hill da guziek diote.</p>
+<p>Bertze bat arentzat, dakazu, nik uste.</p>
+<p>Emen orain dabill, Aita Mendizabal</p>
+<p>Deitzen den gizon bat. Oso gizon leial.</p>
+<p>Eta garbi dela guziz du omena,</p>
+<p>Eder bainon andi du berak izena.</p>
+<p>Nik ikusi nuen, emen egun artan,</p>
+<p>Lehenbururekin, ari zen izketan.</p>
+<p><hi rend='Bold'>MENDIBURU</hi></p>
+<p>Ura zen! ura zen! ez izan dudarik;</p>
+<p>Ez dago mendian Araneder hillik.</p>
+<p><hi rend='Bold'>BIDEGAIN</hi></p>
+<p>Norbeit eldu zaiku...</p>
+<p><hi rend='Bold'>MENDIBURU</hi></p>
+<p>Goazin biak laster.</p>
+<p>Biek hillen dugu orain Araneder.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>IRUDI III GARRENA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Italic'>Lehenburu, Bidegain, ateratzen ari delarik</hi></p>
+<p><hi rend='Bold'>LEHENBURU</hi></p>
+<p>Bidegain</p>
+<p><hi rend='Bold'>BIDEGAIN</hi></p>
+<p>Zer Jauna?</p>
+<p><hi rend='Bold'>LEHENBURU</hi></p>
+<p>Bazen zerbeit emen?</p>
+<p>Orrekin bakarrik mintzatzen zu zi&ntilde;en?</p>
+<p><hi rend='Bold'>BIDEGAIN</hi></p>
+<p>Orrekin bakarrik</p>
+<p><hi rend='Bold'>LEHENBURU</hi></p>
+<p>Andik zer diote?</p>
+<p><hi rend='Bold'>BIDEGAIN</hi></p>
+<p>Etsaiek gureak gainditzen dituzte.</p>
+<p><hi rend='Bold'>LEHENBURU</hi></p>
+<p>Jainkoa!... Bidegain zoazi mendirat,</p>
+<p>Nere gizoneri orain erraterat.</p>
+<p>Etsaiak nausitzen oso bazaizkote,</p>
+<p>Ni ganen naizela, iltzen ez banaute,</p>
+<p>Nere guziekin bizia galtzerat,</p>
+<p>Euskual errientzat arima uzterat.</p>
+<p>Naiz izan adinez odola oztua,</p>
+<p>Bihotza beti dut ongi berotua.</p>
+<p>Lehenburutarrek ez dute bizirik,</p>
+<p>Non ez duten uzten lurrerat botarik</p>
+<p>Azkeneko etsai, guziz ergelena.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>IRUDI IV GARRENA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Italic'>Karmela, Lehenburu</hi></p>
+<p><hi rend='Bold'>KARMELA</hi></p>
+<p>Aita, gai&ntilde;etikan, an ederkiena</p>
+<p>Ikusten ditugu anaia guziak,</p>
+<p>Botatzen tuztela arroka zuriak!</p>
+<p>Ez dakit emendik agertzen ote den</p>
+<p>Deusik!...A ba zoinen bortizki ai diren,</p>
+<p>Arriak etxatzen! Aita beha zazu!</p>
+<p><hi rend='Bold'>LEHENBURU</hi></p>
+<p>Nik bai&ntilde;on obeak begiak ditutzu,</p>
+<p>Aurra, behatzatzu neretzat anaiak.</p>
+<p>Erranen nauzu zuk, zoin diren gaindiak</p>
+<p><hi rend='Bold'>KARMELA</hi></p>
+<p>Ramon ikusten dut, anaien ondoan,</p>
+<p>Gapelu xuria bakarrik buruan</p>
+<p>Ark daka...Mendian badabill lasterka!</p>
+<p>Arat eta unat, makill dixiduka!</p>
+<p>Anaiak ark berak ditu eskututzen!</p>
+<p>Bere gibeletik bozaz konbidatzen!</p>
+<p>Orain goiti doa! beiti dator orain!</p>
+<p>Jauna! zer arrokak etsaien buru gain</p>
+<p>Botatzen dituen !Ikaretan nago!</p>
+<p>Mendi bizkarrean badoa gorago!</p>
+<p>Anaia guziak ondotikan ditu!</p>
+<p>An diran arrokak berriz botatzen tu!</p>
+<p>Arriak millaka jautzikan dabiltza!</p>
+<p>Menditik beera. Ai !zer zorigaitza!</p>
+<p>Ramon jo dute</p>
+<p>An daramate!</p>
+<p>Ai !da erori!</p>
+<p>Illa iduri!...</p>
+<p>O zer zorion!</p>
+<p>Bihotzari on!</p>
+<p>Or da xutitzen!</p>
+<p>Eta saltatzen!</p>
+<p>Bere makilla</p>
+<p>Eder dabilla...</p>
+<p>Etsai gaixto bat</p>
+<p>Aal bezinbat,</p>
+<p>Zaio urbiltzen,</p>
+<p>Eta du jotzen!...</p>
+<p>Bainan maitea</p>
+<p>Artez betea</p>
+<p>Or zaio gurtzen!</p>
+<p>Ta eskapatzen...</p>
+<p>Berriz biribill</p>
+<p>Makilla dabill</p>
+<p>Etsai gainean!...</p>
+<p>Joa buruan,</p>
+<p>Etsai andia,</p>
+<p>An eroria,</p>
+<p>Ez da ernetzen,</p>
+<p>Ez da piztutzen!</p>
+<p>Luzez etzana</p>
+<p>Den andiena</p>
+<p>Dago lurrean!</p>
+<p>Ramon da gurtzen.</p>
+<p>Eta du artzen</p>
+<p>Etsai ezpata!</p>
+<p>A nere aita!</p>
+<p>Esker Jaunari,</p>
+<p>Guziz onari!</p>
+<p>Anaiak pozik</p>
+<p>Zutaz beterik</p>
+<p>Or eldu dire!</p>
+<p>Gu nausi gare!</p>
+<p>Azkenian beaz dire gan etsaiak,</p>
+<p>Ramonek eietaz gaitu nausituak!</p>
+<p>Zorion! zorion! Ezin dut geiago</p>
+<p>Gogoak utzirik emen ezin nago...</p>
+<p><hi rend='Bold'>LEHENBURU</hi></p>
+<p>Karmela maitea ementxet jar zaite,</p>
+<p>Zure dolamenek bakea dakate.</p>
+<p>Bainan aitzen ditut oraindik oiuak,</p>
+<p>Mendien aldetik gizon deiadarrak.</p>
+<p>Mendiburu!</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>IRUDI V GARRENA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Italic'>Lehenburu, Karmela, Mendiburu kanpotik</hi></p>
+<p><hi rend='Bold'>MENDIBURU</hi></p>
+<p>Jauna!</p>
+<p><hi rend='Bold'>LEHENBURU</hi></p>
+<p>Zer duk an ikusten</p>
+<p><hi rend='Bold'>MENDIBURU</hi></p>
+<p>Etsaiak menditik laster eskapatzen.</p>
+<p>Anaiak etxerat lorios etortzen!</p>
+<p><hi rend='Bold'>LEHENBURU</hi></p>
+<p>Ea bertze moduz as ari kondatzen.</p>
+<p><hi rend='Bold'>MENDIBURU</hi></p>
+<p>Ogoi, emeretzi,</p>
+<p>Emezortzi, amazazpi,</p>
+<p>Amasei, amabortz,</p>
+<p>Amalau, amairu,</p>
+<p>Amabi, ameka,</p>
+<p>Amar, bederatzi,</p>
+<p>Zortzi, zazpi, sei, bortz,</p>
+<p>Lau, iru, bia, bat.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>IRUDI VI GARRENA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Italic'>Mendiburu, Karmela, Lehenburu</hi></p>
+<p><hi rend='Bold'>MENDIBURU </hi><hi rend='Italic'>(sartzean)</hi></p>
+<p>Ez dago mendian, gizonik geiago.</p>
+<p>Rolan han etzanik bakarrik lo dago.</p>
+<p>Ordian azpian lagunak baditu:</p>
+<p>Jainkoak geroan atzarriko ditu.</p>
+<p><hi rend='Bold'>KANTUA </hi><hi rend='Italic'>(urrutian)</hi></p>
+<p>I</p>
+<p>An ditugu etsaiak osoki garbitu.</p>
+<p>Eriotze eder bat hek dute arkitu,</p>
+<p>Zertako unat</p>
+<p>Gure mendirat</p>
+<p>Ek etorri ziren.</p>
+<p>Bertzek adi zatela zer gizonak garen.</p>
+<p>II</p>
+<p>Ramon Mendizabalek hil zituen amar,</p>
+<p>Ura bezalako bat, guk ginduen bear.</p>
+<p>Gizon andia,</p>
+<p>Oso garbia,</p>
+<p>Guziz maitatua.</p>
+<p>Bazter guzietan du izen aipatua.</p>
+<p>III</p>
+<p>Gauak ezin du, izar pollitarik,</p>
+<p>Non ez duen izaten zerua garbirik.</p>
+<p>Gizon egi&ntilde;ak,</p>
+<p>Oso berdi&ntilde;ak,</p>
+<p>Diztiatzen dute,</p>
+<p>Bihotz garbi batetik izanikan aste.</p>
+<p>IV</p>
+<p>Karlomanen tropako, gizon indardunak,</p>
+<p>Mendiko bazterrean dagozi etzanak.</p>
+<p>Arrano belzak</p>
+<p>Eien ezurrak</p>
+<p>Argituko ditu.</p>
+<p>Umien bazkatzeko behartu garbitu</p>
+<p>V</p>
+<p>Jaingoikoa barka zazu gure etsaieri.</p>
+<p>Naiz gurekin gerletan berdin dire zuri,</p>
+<p>Zure zeruan,</p>
+<p>Bake goxoan</p>
+<p>Zutaz gozatzatzu.</p>
+<p>Ek berdin gu bezala zureak ditutzu.</p>
+<p><hi rend='Bold'>KARMELA</hi></p>
+<p>Or dire! or dire! Anaia guziak,</p>
+<p>Berekin dakarzte etsaien antziak</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>IRUDI VII GARRENA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Italic'>Ramon sartzen da, anaia guziekin,</hi></p>
+<p><hi rend='Italic'>Karmela, Lehenburu, Mendiburu</hi></p>
+<p><hi rend='Bold'>RAMON</hi></p>
+<p>Emen uzten ditut aitaren oi&ntilde;etan,</p>
+<p>Indar andirekin artuak menditan.</p>
+<p>Una non den Aita ezpata zuria</p>
+<p>Gizonen odolez oraindik bustia.</p>
+<p>Rolan egia da mutill suharra zen,</p>
+<p>Bere zain gaztetan indarra bazuen.</p>
+<p>Ez nuen ikusi nik aren parerik,</p>
+<p>Arek bezin fexo besoa zuenik.</p>
+<p>Bakarrik zagoen gure garaitzeko,</p>
+<p>Bertziak gan ziren mendien artzeko.</p>
+<p>Ikusi bazindu, aita, zoin ederki!</p>
+<p>Gu guzien kontra eta zein bortizki</p>
+<p>Ura bazabillan! ezpata eskuan!</p>
+<p>Ibiltzen zuela airoski buruan!</p>
+<p>Anaia guziak zituen galduak.</p>
+<p>Eiek gu bezala zituzten salduak.</p>
+<p>Rolan utzi zuten, Rolan ona bera,</p>
+<p>Bakarrik, jausterat mendia beera.</p>
+<p>Etsaiak baziren arroka tartean,</p>
+<p>Ixilik zagozin, gure bazterrean.</p>
+<p>Bai&ntilde;an guk arriak etxatzearekin,</p>
+<p>Guziek lasterka ies zuten egin.</p>
+<p>Orduan ni ganik eien antzinerat,</p>
+<p>Ek jazarri ziren laster nereganat.</p>
+<p>Ek ezpatarekin, ni makillarekin,</p>
+<p>Asi ginen joka, bi aldetik berdin.</p>
+<p>Azkenian Rolan antxet zen erori.</p>
+<p>An zagon etzanik Karloman iduri.</p>
+<p>Gu guziek minki egin dugu nigar,</p>
+<p>Ura ikustean eder eta azkar,</p>
+<p>Illa gure gatik. Eta men berean</p>
+<p>Guk eman gintuen belaunak lurrean.</p>
+<p><hi rend='Bold'>SEME BATEK</hi></p>
+<p>Rafaelen alde, aita, or dakazu</p>
+<p>Etsaien buruko bandera. Har zazu.</p>
+<p>Nere Karmelentzat bi eskumuturrak</p>
+<p>Ekarri ditut nik, urrezko ederrak.</p>
+<p><hi rend='Bold'>BERTZE SEMEA</hi></p>
+<p>Goizik ernaturik, baratze batean</p>
+<p>Loreak bilzeko sartzen garenean,</p>
+<p>Beexten ditugu lore pollitenak,</p>
+<p>Berriki sortuak oso lurrindunak,</p>
+<p>Maite duguneri pozik emateko.</p>
+<p>Karmela lore hek dire zuretako.</p>
+<p><hi rend='Bold'>BERTZE SEMEA</hi></p>
+<p>Nik ezaguturik zure gutizia</p>
+<p>Rafael gaxoak an zuen guzia</p>
+<p>Emen uzten zaitut. Una non dakazun</p>
+<p>Aren gurutzea.</p>
+<p><hi rend='Bold'>BERTZE SEMEA</hi></p>
+<p>Gu gaitzatzu entzun,</p>
+<p>Aita gu batean an ibilli gare,</p>
+<p>Bildu ditugunen nausia zu zare.</p>
+<p>Nai ditutzun gauzak artuko ditutzu.</p>
+<p>Gu guziak berdin zureak gaitutzu.</p>
+<p><hi rend='Bold'>AITA JOSEP</hi></p>
+<p>Bakezko gizona, nik ez dakat deusik,</p>
+<p>Zuri emateko, arima bat baizik;</p>
+<p>Arima ederra osoki garbia;</p>
+<p>Gure dolamenen gozamen eztia.</p>
+<p>Rafael beldurrez, eiek hill zintuzten.</p>
+<p>Jainkoaren eskuz nik zaitut ematen</p>
+<p>Ramon Mendizabal. Ar zazu semetzat,</p>
+<p>Zeruak Rafael artu du beretzat.</p>
+<p><hi rend='Bold'>LEHENBURU</hi></p>
+<p>Aurrak orain neri mintzoa doakit.</p>
+<p>Zer zor zaituztetan nik berdin badakit.</p>
+<p>Zerua neretzat onegi neri zaut.</p>
+<p>Seme bat kendurik bertze bat eman daut.</p>
+<p>Nik ez dut bertzerik, semeak zuentzat</p>
+<p>Ematea baizik Ramon anaiatzat...</p>
+<p><hi rend='Italic'>(Ramoni mintzatzean).</hi></p>
+<p>Aurra, zuretako ez dakit zer egin.</p>
+<p>Ditudan guziak, nere biotzekin</p>
+<p>Ematen zaizkizut: or ditutzu zure.</p>
+<p>Eskual-erriaren semea, zu zare.</p>
+<p>Amaren odola egiaz zuk duzu.</p>
+<p>Izate guziak itzuli diozkatzu.</p>
+<p>Eta guti zaitzu zuri ematea</p>
+<p>Zerbeit on saritza, nere aur maitea.</p>
+<p>Ez duzu munduan izanen bakerik,</p>
+<p>Non ez zaren hiltzen guziak galdurik.</p>
+<p>Zu zare, zu zare, egiaz andia</p>
+<p>Besoez indardun, bihotzez eztia.</p>
+<p>Zu zare etsean seme bat xamurra,</p>
+<p>Eta mendietan etsaien beldurra.</p>
+<p>Zu zare guretzat zeru aingerua:</p>
+<p>Gu begiratzeko hark eman burua.</p>
+<p>Zuk nere semeak ditutzu eskutu.</p>
+<p>Zuk gure etsaiez gaituzu nausitu.</p>
+<p>Zuk nere Rafael zinduen maitatu,</p>
+<p>Zuk nere Karmela ninduzun segurtu,</p>
+<p>Zuk Eskual-erria gaitutzu guretu,</p>
+<p>Etsaien burua zuk duzu leertu</p>
+<p>Eta gure zai&ntilde;ak indarrez betetu.</p>
+<p>Ontasun galduez gaituzu jabetu,</p>
+<p>Eta gure baitan bizitza berritu</p>
+<p>Zuk beaz azkenik gaituzu anditu</p>
+<p>A nere maitea! zer egin zuretzat.</p>
+<p>Zuk an egi&ntilde;eta ainbertze guretzat.</p>
+<p>Nere baratzean ez dakat lorerik</p>
+<p>Zure xedearen osoki gai denik.</p>
+<p>Bainan nik dutana, eskainduko zaitut,</p>
+<p>Zure bihotz gaia beharbada badut.</p>
+<p>Nere zai&ntilde;etako frutu gozoena,</p>
+<p>Gizon andi baten indar eztiena,</p>
+<p>Nik eskaintzen zaitut, alaba; or duzu</p>
+<p>Rafael galdurik, Karmela baduzu.</p>
+<p>Aurrak leemixian goazin elizarat,</p>
+<p>Eskerrak Jaunari pozik ematerat.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>IRUDI VIII GARRENA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Italic'>Karmela, Ramon</hi></p>
+<p><hi rend='Bold'>KARMELA</hi></p>
+<p>Eta nere Ramon orain zer diozu?</p>
+<p><hi rend='Bold'>RAMON</hi></p>
+<p>Zuretzat maitea oraindik ez nauzu.</p>
+<p><hi rend='Bold'>KARMELA</hi></p>
+<p>Bizkitartean ba, biak nausi gare!</p>
+<p>Egun nere aitak egin zaitu gure.</p>
+<p><hi rend='Bold'>RAMON</hi></p>
+<p>Bainan zure aita ez dago nerea.</p>
+<p><hi rend='Bold'>KARMELA</hi></p>
+<p>Kopeta dakazu illunez betea.</p>
+<p>Zer gertatu zaitzu?</p>
+<p><hi rend='Bold'>RAMON</hi></p>
+<p>Maitea, deusik ez.</p>
+<p><hi rend='Bold'>KARMELA</hi></p>
+<p>Arima beteko nauzu zure mi&ntilde;ez,</p>
+<p>Ramon!</p>
+<p><hi rend='Bold'>RAMON</hi></p>
+<p>Ez Karmela, ez duzu jakinen,</p>
+<p>Bularren azpian zer dutan jasaiten,</p>
+<p>Jaungoikoak berak argituko zaitu:</p>
+<p>Guri eman mi&ntilde;ak eztituko ditu.</p>
+<p>Egon gaiten beaz, biak ixilikan,</p>
+<p>Emanik xedeak aren eskuetan.</p>
+<p><hi rend='Bold'>KARMELA</hi></p>
+<p>Ezin adi zaket, orain zuk zer duzun.</p>
+<p><hi rend='Bold'>RAMON</hi></p>
+<p>Erranikan ere ezin duzu entzun,</p>
+<p>Zertako ni naizen olaxe mudatu.</p>
+<p>Zeren nere gri&ntilde;a nik nai dut gordetu.</p>
+<p><hi rend='Bold'>KARMELA</hi></p>
+<p>Beaz errana da ez nauzu maitatzen,</p>
+<p>Zure bihotz ona, nik ez dut izanen.</p>
+<p><hi rend='Bold'>RAMON</hi></p>
+<p>Zer erraten nauzu? beti maite zaitut,</p>
+<p>Zuretzat bakarrik, nere biotza dut,</p>
+<p>Jainkoaz Karmela zuk ditutzun mi&ntilde;ez,</p>
+<p>Ez nauzula bete arima zauriez.</p>
+<p>Aski da neretzat orain jasaitea,</p>
+<p>Jasaiten tutanak. Karmela maitea!</p>
+<p>Aitaren baimena ez dezaket izan...</p>
+<p>Zertako? Ez dakit. Arek gogoetan</p>
+<p>Badaki zertako. Erranau betitik,</p>
+<p>Zu ez maitatzeko, hark egi&ntilde;en gatik.</p>
+<p>Bainan maite zaitut; ez dezaket gorde,</p>
+<p>Zu nerea zare Jainkoaren orde.</p>
+<p><hi rend='Bold'>KARMELA</hi></p>
+<p>Zernai izan daien, zure aita, tzarra,</p>
+<p>Edo gizon ona. Nik zure bearra,</p>
+<p>Dakat; aitzen duzu?</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>IRUDI IX GARRENA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Italic'>Ramon, Karmela, Bidegain, Mendiburu</hi></p>
+<p><hi rend='Bold'>MENDIBURU </hi><hi rend='Italic'>(sartzean)</hi></p>
+<p>Ez naiz ixilduko...</p>
+<p>Azkenekotz emen ni naiz mintzatuko!</p>
+<p><hi rend='Bold'>BIDEGAIN</hi></p>
+<p>Bainan Mendiburu orain oroitari</p>
+<p>Zoin dagozin emen barka zak aurreri.</p>
+<p><hi rend='Bold'>MENDIBURU</hi></p>
+<p>Aurrek aitarena odola dakate;</p>
+<p>Aitaren gaizkia hek egi&ntilde;en dute</p>
+<p>Nik utzi Karmela orain ezkontzerat</p>
+<p>Aranederrekin! lenago hiltzerat,</p>
+<p>Lorios ganen naiz!...</p>
+<p><hi rend='Bold'>RAMON</hi></p>
+<p>Nik sumatzen nuen!</p>
+<p>Araneder ni naiz! Araneder emen!</p>
+<p>Aita sekulako aurra galdu duzu.</p>
+<p>Banoa Karmela zuretzat ez nauzu.</p>
+<p>Ez naiz ni zure gai, izanez geroztik</p>
+<p>Salzaille semea. Banoa emendik,</p>
+<p>Urrun mendiz mendi mortu batetarat,</p>
+<p>Nere ahalkea nonbeit gordetzerat.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>IRUDI X GARRENA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Italic'>Mendiburu, Lehenburu, Bidegain, Ramon, Karmela</hi></p>
+<p><hi rend='Bold'>LEHENBURU</hi></p>
+<p>Andikan oiuak nik ditut aditu.</p>
+<p>Bainan zer zaizue zueri gertatu?</p>
+<p><hi rend='Bold'>MENDIBURU</hi></p>
+<p>Baratze xokoan, Jauna balin bada,</p>
+<p>Suge ohatze bat; beraz errana da</p>
+<p>Eginbide dela zuek ernetzea,</p>
+<p>Ez arat gateko; edo garbitzea,</p>
+<p>Sugeen arraza.</p>
+<p><hi rend='Bold'>LEHENBURU</hi></p>
+<p>Ori egia duk.</p>
+<p>Bainan baratzeak oso garbi dituk.</p>
+<p><hi rend='Bold'>MENDIBURU</hi></p>
+<p>Ohoi&ntilde;ek etxean sartu nai badute,</p>
+<p>Zuri erratea nai duzu; nik uste.</p>
+<p><hi rend='Bold'>LEHENBURU</hi></p>
+<p>Bainan zer daasak, ire sugeekin.</p>
+<p>Zoin ditut ekiek? zer nai ditek egin.</p>
+<p><hi rend='Bold'>MENDIBURU</hi></p>
+<p>Sugeen azia etxean duzue.</p>
+<p>Bizi balin bada laster hill zazue.</p>
+<p><hi rend='Bold'>LEHENBURU</hi></p>
+<p>Ohoin eta sugez burua betea</p>
+<p>Ezin duk errexa ire entzutea.</p>
+<p><hi rend='Bold'>MENDIBURU</hi></p>
+<p>Jauna!</p>
+<p><hi rend='Bold'>BIDEGAIN</hi></p>
+<p>Lehenburu! ez konturik egin,</p>
+<p>Orren erraneri? gaizkiz ai da berdin?</p>
+<p><hi rend='Bold'>MENDIBURU</hi><hi rend='Italic'> (Ramon irakustean)</hi></p>
+<p>Egia nik diot. Or duzu sugea,</p>
+<p>Araneder tzarrak izan du semea.</p>
+<p><hi rend='Bold'>RAMON </hi><hi rend='Italic'>(Lehenbururi belaunikaturik)</hi></p>
+<p>Barka zuk nazazu, zeren ez nakien</p>
+<p>Unat etortzean, noren aurra nintzen.</p>
+<p>Dakidan geroztik, ez nintake egon</p>
+<p>Leial, etxe untan, banoa!</p>
+<p><hi rend='Bold'>KARMELA</hi></p>
+<p>Ez Ramon!</p>
+<p>Zaude!</p>
+<p><hi rend='Bold'>RAMON</hi></p>
+<p>Araneder! zurekin Karmela!</p>
+<p>Oxala zuretzat ixuriz odola</p>
+<p>Ill banintz mendian. <hi rend='Italic'>(Aparte) </hi>Jauna zuk nai duzu.</p>
+<p>Zure gutizia oso bete zazu.</p>
+<p><hi rend='Bold'>LEHENBURU</hi></p>
+<p>Zaude Ramon, emen; aitaren gaizkiak,</p>
+<p>Berdin zuk egi&ntilde;ez dire garbituak.</p>
+<p><hi rend='Bold'>RAMON </hi><hi rend='Italic'>(otoitzean)</hi></p>
+<p>Jaungoikoa barka, zeruan aitari;</p>
+<p>Berdin zuk dakizu arimaren berri.</p>
+<p>Adios Karmela! Adios maitea.</p>
+<p>Nere bihotzaren, hiltzeko galtea.</p>
+<p>Zutaz, mundu untan pozik bizi nintzen,</p>
+<p>Zutaz auhenetan, oraintxet naiz hillen.</p>
+<p><hi rend='Italic'>(Ramon ateratzen da, Bidegain ere).</hi></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>IRUDI XI GARRENA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Italic'>Lehenburu, Karmela, Mendiburu</hi></p>
+<p><hi rend='Bold'>LEHENBURU</hi></p>
+<p>Oa, Mendiburu! bakarrik utz gaitzak,</p>
+<p>Orra zer in duen ire mihi tzarrak,</p>
+<p>Nerekin bear uen leenik mintzatu.</p>
+<p>Gero bear nikan gauz ori garbitu.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>IRUDI XII GARRENA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Italic'>Lehenburu, Karmela</hi></p>
+<p><hi rend='Bold'>KARMELA</hi></p>
+<p>Aita nere gri&ntilde;az osoki artua,</p>
+<p>Ez nintake bizi ola damutua.</p>
+<p>Banoa gelarat ixiltasunean,</p>
+<p>Nigar egiterat Jaunaren oinetan.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>IRUDI XIII GARRENA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Italic'>Lehenburu, Bidegain</hi></p>
+<p><hi rend='Bold'>BIDEGAIN</hi></p>
+<p>Jauna zure galdez etxe bazterrean</p>
+<p>Dago aita Josep.</p>
+<p><hi rend='Bold'>LEHENBURU</hi></p>
+<p>Banoa kuxian.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>IRUDI XIV GARRENA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Italic'>Bidegain bakarrik. Leiotik begira gogoetan dago apur bat, gero kantatzen asten da</hi></p>
+<p>I</p>
+<p>Oi zer gauza ederrak ikusten tutan nik,</p>
+<p>Zeru beltz zabalian argiez beterik,</p>
+<p>Agertzen zaizkit neri izar bi pollitak.</p>
+<p>Elkarri su begiez ematen musuak.</p>
+<p>II</p>
+<p>Zeruko bi esposak lurrari begira,</p>
+<p>Dirdir egiten dute mendian beera,</p>
+<p>Bat bertzien ondotik beti an dabiltza,</p>
+<p>Bainan begiz bakarrik, ek dute bihotza.</p>
+<p>III</p>
+<p>Eguna etortzian, or dire gordetzen</p>
+<p>Zeren egun argiak baititu estaltzen.</p>
+<p>Bainan ek ixilikan zeru mortuetan</p>
+<p>Elkar dute ikusten beatze suzkotan.</p>
+<p>IV</p>
+<p>Izar eiek iduri bi bihotz baziren,</p>
+<p>Jaungoikoak elkarrentzat eginak zituen:</p>
+<p>Bat, Ramon Mendizabal, bertzia Karmela,</p>
+<p>Elkar argitzen dute izarrek bezala.</p>
+<p>V</p>
+<p>Naiz ondotik ibilliz zeru leizondoan,</p>
+<p>Izarrak ez litezke banatu musuan.</p>
+<p>Zeren beren musuaz denak erretuak,</p>
+<p>Guziak gintuzkete hurren xautuak.</p>
+<p>VI</p>
+<p>Izarrak zauzte bada urrun bat bertzetik!</p>
+<p>Zuek amodiotan, banatu geroztik,</p>
+<p>Elkar balin bazaizte, musu batez hiltzen.</p>
+<p>Eta balin badire munduak ondatzen.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>IRUDI XV GARRENA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Italic'>Kanta akabatzean sartzen da aita Josep, Ramon</hi></p>
+<p><hi rend='Bold'>AITA JOSEP</hi></p>
+<p>Ato! aur maitea! ato nereganat!</p>
+<p><hi rend='Bold'>RAMON</hi></p>
+<p>Aita zu beharrez, etorri naiz unat.</p>
+<p><hi rend='Bold'>AITA JOSEP</hi></p>
+<p>Beha zazu, Ramon, eta ikusazu</p>
+<p>Zer gizonen aurra, zaren oraintxet zu!</p>
+<p>Dazkitzut ekartzen odoleztatuak,</p>
+<p>Aitak zuretako utzi dituenak.</p>
+<p><hi rend='Bold'>RAMON</hi></p>
+<p>Zer gertatu zaio?</p>
+<p><hi rend='Bold'>AITA JOSEP</hi></p>
+<p>Berak nai zuena.</p>
+<p>Izan du mendian eriotze ona.</p>
+<p>Aren nai azkenak nik bakarrik dazkat:</p>
+<p>Azken atsarekin emanak zuretzat.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>IRUDI XVI GARRENA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Italic'>Lehenburu, Aita Josep, Ramon</hi></p>
+<p><hi rend='Bold'>LEHENBURU</hi></p>
+<p>Araneder hill da diote mendian,</p>
+<p>Fexo andirekin etsaien erdian!</p>
+<p>Zure aitak Ramon, berak egin utsak,</p>
+<p>Odola emanez ditu edertuak.</p>
+<p>Emendikan arat garbi du izena.</p>
+<p>Bazter guzietan, andi du omena.</p>
+<p>Guziek lorios an ikusi dute.</p>
+<p>Arrek erran itzak aipatzen dituzte.</p>
+<p>Nere bazterrean zu nere semea</p>
+<p>Geldituko zare ontasun jabea.</p>
+<p><hi rend='Bold'>RAMON</hi></p>
+<p>Aita, zurea naiz; zuk erran bezala!</p>
+<p><hi rend='Bold'>LEHENBURU</hi></p>
+<p>Ni ganen naiz beaz deitzerat Karmela!</p>
+<p>Guraso guziak nai dut etor daiten;</p>
+<p>Gertaira andi au emen adi zaten.</p>
+<p>Arek egin duen, an eriotzea</p>
+<p>Aditu zazue.</p>
+<p><hi rend='Bold'>RAMON</hi></p>
+<p>Aita, Karmelari,</p>
+<p>Errozu kuxian guziz dela neri.</p>
+<p>Pozik eta goibel izanen naizela,</p>
+<p>Bainan arendako bihotza dutala.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>IRUDI XVII GARRENA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Italic'>Lehenburu ateratzen da, aita Josep, Ramon</hi></p>
+<p><hi rend='Bold'>RAMON</hi></p>
+<p>Gri&ntilde;a da neretzat aita bat galzea;</p>
+<p>Bainan mi&ntilde;ago zen ura ikustea</p>
+<p>Bizi zen bezala, Euskual errientzat</p>
+<p>Hill denaz geroztik, ez dago neretzat</p>
+<p>Geiago damurik.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>IRUDI XVIII GARRENA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Italic'>Aita Josep, Lehenburu, Karmela seme guziekin, eta Eskualdun zaarrak</hi></p>
+<p><hi rend='Bold'>LEHENBURU</hi></p>
+<p>Seme nere aurrak,</p>
+<p>Eskual erriako, bilzardun zaharrak,</p>
+<p>Ramonen aurrean buruak gurturik</p>
+<p>Zenbat gizon suhar dela ikusirik,</p>
+<p>Anaia bezala oso ar zazue.</p>
+<p>An zer egin duen berdin dakizue.</p>
+<p>Aita Josep, orain artaz mintza zaite:</p>
+<p>Emen dagozinak entzuten zaituzte.</p>
+<p><hi rend='Bold'>AITA JOSEP</hi></p>
+<p>Ikusi duzue, Ganix Araneder:</p>
+<p>Arek eman duen odolari esker</p>
+<p>Garaileak gare. Egin zuen gaizki,</p>
+<p>Bainan garbitu du gaizkia ederki.</p>
+<p>Anaia batzuek baziren ordian</p>
+<p>Etsaiez artuak zelaien erdian.</p>
+<p>Araneder berak ikusi orduko,</p>
+<p>Eskualdun hekiek zirela galduko,</p>
+<p>Jautsi zen lasterka mendian behera,</p>
+<p>Etsaieri joka jazarri zen, bera.</p>
+<p>Bainan gizon batek, ahal guziekin,</p>
+<p>Ek guzien kontra, zer zezaken egin?</p>
+<p>Artu zuten beaz bere lagunekin.</p>
+<p>Banatu gintuzten han guziak berdin.</p>
+<p>Entzun zuteneko Rolan hilla zela,</p>
+<p>Mendi bazterrean etzana zagoela!</p>
+<p>Eskualdun guziak nai zituzten artu:</p>
+<p>Ibaien uretan banazka itotu.</p>
+<p>Ni eien artean oso etsitua,</p>
+<p>Nindagon arima urrikiz antua.</p>
+<p>Giz hiltzaille batzu urbilduak ziren</p>
+<p>Nitaz, odol mozkor. Alxatu nituen</p>
+<p>Bi begiak, jadan, Jainkoaren orde</p>
+<p>Utsak barkatzeko. Zeruaren alde</p>
+<p>Denak eman ginen othoitz kartsuetan.</p>
+<p>Arrasta entzuten behazun anditan</p>
+<p>Adios eginik Eskual erriari,</p>
+<p>Gure arimeko maite guzieri,</p>
+<p>Etsituak ginen, noiz alxatzen baita,</p>
+<p>Nere bazterretik galai unen aita.</p>
+<p>Eta bere boza goraki botarik,</p>
+<p>Gurutze batekin berak zin eginik,</p>
+<p>Erraten du gora: &laquo;Emen zaretenak.</p>
+<p>Eskualdun garbien etsai andienak,</p>
+<p>Adi nazazue: Rolan hill duenak,</p>
+<p>Saritu letzake bere tzar eginak.</p>
+<p>Jaungoiko gizonak zaiztenaz geroztik,</p>
+<p>Eztutzue hillen auek batengatik.</p>
+<p>Rolan hill duena ni naiz: ar nazue</p>
+<p>Bainan ek guziak utziko tutzue...&raquo;</p>
+<p>Ek erratiarekin belaunikatu zen.</p>
+<p>Nere besoetan nigar egin zuen.</p>
+<p>Zutaz nere Ramon mintzatzen ninduen.</p>
+<p>Orain Karmelen gai zi&ntilde;ela zioen.</p>
+<p>Zuretzat bihotzez egi&ntilde;ik othoitza,</p>
+<p>Bere anaientzat emanik bizitza,</p>
+<p>Jainkoarenganat lorioski gan zen...</p>
+<p>Etsaiek orduan deslotu gintuzten.</p>
+<p><hi rend='Bold'>MENDIBURU</hi></p>
+<p>Ori da! ori da! egiaz gizona!</p>
+<p>Izen loitua anditu duena!</p>
+<p>Gaizki leenago ni mintzatu nintzen.</p>
+<p>Orainxet ordian ez naiz baraturen</p>
+<p>Ongi erratetik.</p>
+<p><hi rend='Bold'>LEHENBURU</hi></p>
+<p>Ramon emen duzu</p>
+<p>Orain zure aita! Zureak ditutzu</p>
+<p>Anaia guziak! Omentze zaituzte.</p>
+<p>Emendikan arat zu naiko zaituzte</p>
+<p>Eskual erriako semeen burutzat.</p>
+<p>Gure lurretako gizon gudaritzat.</p>
+<p>Nere eskutikan har zazu Karmela</p>
+<p>Bat bertzien dohain izan zaiteztela.</p>
+<p><hi rend='Italic'>Donostian egi&ntilde;a 1884garren urtean</hi></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>EUSKAL IDAZKIAK</p><--</head>
+        </front>
+        <body>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>ONDARRABIAKO ARRANTZALEA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>I</hi></p>
+<p>Igande besta goizean</p>
+<p>Zagoen arrantzale bat</p>
+<p>Sagardi baten azpian.</p>
+<p>Bere gogotan zagon pentsatzen</p>
+<p>Zoin zuen bizi tristea,</p>
+<p>Zenbat pena negar zenbat,</p>
+<p>Bihotza zauriz betea</p>
+<p>Zuen uretan ixurtzen.</p>
+<p><hi rend='Bold'>II</hi></p>
+<p>Mari&ntilde;elek itsasoan</p>
+<p>Ederki bere bizitza</p>
+<p>Arkitzen dute lanean.</p>
+<p>Bai&ntilde;an geienek dute kausitzen</p>
+<p>Arroketan itzulirik,</p>
+<p>Itotzean eriotza:</p>
+<p>Eien negarrez beterik</p>
+<p>Itsasoa da gazitzen</p>
+<p><hi rend='Bold'>III</hi></p>
+<p>Gizonaren negar mi&ntilde;ak</p>
+<p>Ur gozoak mintzen ditu.</p>
+<p>Mendi kozkor, lur berdinak,</p>
+<p>Gaztelu, etxol, mundu osoa</p>
+<p>Darabil marrask anditan:</p>
+<p>Nihork ezin du neurritu</p>
+<p>Arimak daukan barnean,</p>
+<p>Negarrezko itsasoa.</p>
+<p><hi rend='Bold'>IV</hi></p>
+<p>Guk egin utsak zer dire</p>
+<p>Gure gri&ntilde;aren aurrean!</p>
+<p>Odolez estaltzen dire.</p>
+<p>Sagardo gozoz azten garela!</p>
+<p>Arrantzale jaungoikoak</p>
+<p>Arnoa eran ondoan</p>
+<p>Guregatik, amulsuak</p>
+<p>Ixuri zuen odola.</p>
+<p><hi rend='Bold'>V</hi></p>
+<p>Sagardoaren barnean</p>
+<p>Etxeko nahi gabeak</p>
+<p>Arkitzen dire maizean.</p>
+<p>Itsas andiko mendebaletik</p>
+<p>Maiz ateratzen bagare,</p>
+<p>Aurren artean tristeak</p>
+<p>Penetan erortzen gare,</p>
+<p>Oiu, negarrek arturik.</p>
+<p><hi rend='Bold'>VI</hi></p>
+<p>Arrantzalea zagoen</p>
+<p>Asmu beltzetan tristerik</p>
+<p>Bainan kolpez alxatu zen.</p>
+<p>Sagar arbola lorez betea</p>
+<p>Zaukan begien aurrean:</p>
+<p>Eta kuxian pizturik</p>
+<p>Sentitu zuen barnean</p>
+<p>Bihotzen pake maitea.</p>
+<p><hi rend='Bold'>VII</hi></p>
+<p>Orduan penak utzirik</p>
+<p>Alegeratzen asi zen,</p>
+<p>Kantuz eman zen pozturik:</p>
+<p>Arbol maitea, frutu gozoa!</p>
+<p>Zuk dezu pizten odola,</p>
+<p>Zuk nere za&ntilde;ak berotzen,</p>
+<p>Su berri batek bezala</p>
+<p>Ernetzen bihotz osoa.</p>
+<p><hi rend='Bold'>VIII</hi></p>
+<p>Itsasoko ur gazitan</p>
+<p>Mihia mintzen badugu</p>
+<p>Eztitzen dugu zu baitan</p>
+<p>Zeren gatzaren gustu garratza</p>
+<p>Gozoki duzu leguntzen,</p>
+<p>Zurekin artzen badegu</p>
+<p>Eta batean ddastatzen</p>
+<p>Frigiturikan legatza.</p>
+<p><hi rend='Bold'>IX</hi></p>
+<p>Atozte! adiskideak!</p>
+<p>Gaur mi&ntilde;ak aztu detzagun</p>
+<p>Eskutan baso beteak.</p>
+<p>Eran detzagun sagar arnoan</p>
+<p>Gure negar negukoak,</p>
+<p>Guziek ito detzagun</p>
+<p>Bihotzen asmu gaiztoak</p>
+<p>Baso distiant ondoan.</p>
+<p><hi rend='Bold'>X</hi></p>
+<p>Geiegi dugu sofritu.</p>
+<p>Nik ez dut orain azturen</p>
+<p>Arra&ntilde;ik ezin arkitu.</p>
+<p>Goizetik arrats deusik saretan,</p>
+<p>Arra&ntilde;ik ez itsasoan,</p>
+<p>Ikus dezagun bederen</p>
+<p>Ea diren sagardoan</p>
+<p>Artu detzagun xurrupan.</p>
+<p><hi rend='Bold'>XI</hi></p>
+<p>Aal balitz izaitea</p>
+<p>Munduan bizi berdi&ntilde;a,</p>
+<p>Gure Jaungoiko maitea.</p>
+<p>Mende guzitan jaun betikoa,</p>
+<p>Itsasoan garenean</p>
+<p>Iguzu beti sardi&ntilde;a</p>
+<p>Eta gero leiorrean</p>
+<p>Sagardo gozo naikoa.</p>
+<p><hi rend='Bold'>XII</hi></p>
+<p>Ederki penitentzia</p>
+<p>Egiten dugu neguan,</p>
+<p>Ar zazu pazientzia.</p>
+<p>Barur anditan beti bornuan</p>
+<p>Egoiten gara bustiak,</p>
+<p>Asko sofritu ondoan</p>
+<p>Ezar gaitzatzu guziak</p>
+<p>Salbamenduko portuan.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>AXERIA ETA BELEA</p><--</head>
+        </front>
+        <body>
+<p>Bele jauna haitz ttonttorroan</p>
+<p>Tente zagon gasna bat mokoan.</p>
+<p>Azeri bat usa&ntilde;ez azia</p>
+<p>Eldu zaio muturra zuria.</p>
+<p>Iten dio begiez azkurren:</p>
+<p>&laquo;Agur Jauna ! zoin pollita zaren!</p>
+<p>Zoin ederra ! Egiaz nabilla.</p>
+<p>Naiz izanik giza bat zirtzilla</p>
+<p>Zure boza legun eta guri</p>
+<p>Balin bada zure luma isuri.</p>
+<p>Oihanpeko erregea zare;</p>
+<p>Gu guziak parez deus ez gare.&raquo;</p>
+<p>Itz eietaz bele anpatua</p>
+<p>Zabaldurik astoki mokoa,</p>
+<p>Asten zaio kantatzen salmoa</p>
+<p>Emanikan aots betikoa...</p>
+<p>Gasna zaio mokotik erortzen,</p>
+<p>Axeria kuxian jabetzen.</p>
+<p>Zaukalarik atzapar tartetan</p>
+<p>Malzur tzarrak iten dio bertan:</p>
+<p>Bele asto urgulluz kantari,</p>
+<p>Eman nauzu egungo janari.</p>
+<p>Eta boza alxatuz gorago</p>
+<p>trufa bai&ntilde;on musika geiago</p>
+<p>Jadan gasnaz bizarra betea</p>
+<p>Jaidosten du irria zurrutan:</p>
+<p>Adi zazu apo tetelea:</p>
+<p>Tripa kontu erran alabantzak</p>
+<p>Urgulluak merezi bengantzak</p>
+<p>Maiz direla malzurren onetan.</p>
+<p>Gure gostuz nik jaten dut gasna.</p>
+<p>Ez zare zu errege berdi&ntilde;a</p>
+<p>Naiago dut anitzez usoa</p>
+<p>Musde bele zu zare zozoa.</p>
+<p>Orai ere badire munduan</p>
+<p>Axeri tzar ta bele tontoak.</p>
+<p>Itz ederrak tuztenak aoan,</p>
+<p>Eskuz dire maizegi lapurrak.</p>
+<p>Diputatu axeri malzurrak</p>
+<p>Populua dute izorratzen.</p>
+<p>Alabantzez azturik, ta berek,</p>
+<p>Arin gasna dute zurrupatzen.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>NEGUKO ARRATSETAN SU ONDOAN KONTU-KONTARI</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Italic'>(Nere adiskide maite on Antonio Arzak jaunari)</hi></p>
+<p>Donostiarrek ainitz irriak eta jostetak, eta janziak maite omen dituzte. Una nun daukaten kondaira xiki bat, donostiar batek arras polliki eman dautana, eta zuretzat izkribatzen dutana.</p>
+<p>Egun batez beaz, Piarres apostoluak Zeruko atia utzi bear izan zuen apur bat.</p>
+<p>Minez omen zagoen, naiz Zeruan ezten minik. Norbeiten billa zebillalarik aren eskuetan bere kargua Zeruko giltzakin emateko, ikusi zuen Sebastian, Donostiaren patroi&ntilde;a, eta erran zion:</p>
+<p>&mdash;Adi ezazu adixkide maitea, ez ote zintuzke idukiko nere giltzak, denbora laburtxo bat?</p>
+<p>&mdash;Atsegin andirekin, erraten dio Sebastianek.</p>
+<p>&mdash;Bainan, ardiasten dio Piarresek, kontu egin bearko duzu, ez uzteko nornai emen sartzerat: zeren bertzenaz akabo nintake. Zuk Sebastian, Sebastian zarelakotz, donostiar guziak zerurat iganarazi naiko ditutzu; eta ezta ori nere kontua, ez eta ere justua.</p>
+<p>Bea zazu: donostiar guziak jostakorrak eta bizi-gozotiarrak dire. Emo zazute, janari eta edari ona, eta &laquo;xirula&raquo; eta &laquo;tuntuna&raquo; eztire gaizki trufatzen bertze gaineko gauz guzietaz. Josteta izanez geroztik eztire geiago okupatzen, ez Zeruaz, ez ifernuaz, ez Jainkuaz ez eta ere gure erresumeko saindu guziez. Ikusten ditutzu itsasoaren egian nola dabiltzan? Beren buruari atsegin guziak ematen dituzte.</p>
+<p>Beaz, Sebastian, naiz giza ona eta biotz eztikoa izan, bear duzu ez utzi donostiarrik emen sartzerat.</p>
+<p>&mdash;Bainan, dio Sebastianek, izan zazu urrikalde pixka bat nere erritarrentzat; zeren eztute eiek falta andirik, burua dute ari&ntilde;a, bainan biotza bera. Galde azu Jainkoari zertako eman dioten xorotasuna prestutasunaren tokian.</p>
+<p>&mdash;Zer nai duzu bada, erraten du orduan Piarresek, nik eztezaket bertzela egin. Eztut nai donostiarrik batere Zeruan. Zeren bakarrik izanen litake, edo bertze batzuekin. Bakarrik balitz, tristezian biziko litake; eta ainitz balire, ez ginduke geiago bakerik Zeruan; arrabots eta aroasko eta beti &laquo;xirula&raquo; eta &laquo;tuntuna&raquo; gintuzke. Beaz Sebastian, nior Donostiatik.</p>
+<p>&mdash;Ongi da, Piarres jauna, zure naia egi&ntilde;a izanen da; zuren eskuetan dire gakuak.</p>
+<p>Itz eiek erratiarekin batean, Piarres badoa fidantzia osoarekin uzten duelarik bere kargua Sebastianen gain.</p>
+<p>Piarres gantzen bezin laster, zeruko atia norbeitek jo zuen: &laquo;Pan Pan&raquo;.</p>
+<p>&mdash;Nor da hor? dio Sebastianek.</p>
+<p>&mdash;Ni naiz, San Pedro maitea.</p>
+<p>&mdash;Ezta emen San Pedrorik geiago, ni naiz San Sebastian atezain berria.</p>
+<p>&mdash;Obeto, obeto, dio atejolariak, zeren, ni naiz zure erritarra, donostiar garbi bat.</p>
+<p>&mdash;O tristea! esaten du Sebastianek, bazoazke nai duzun tokirat, emen ezta lekurik zuretzat.</p>
+<p>&mdash;Zer ezta lekurik! errebelatzen ari ote zare Sebastian? Ezta tokirik donostiarrentzat!!! beaz mundua akabo da.</p>
+<p>&mdash;Bai ala da. Donostiar guziek omen txarra duzue, ongi bizitzea eta munduko ontasunak beizik ez ditutzue ikusten.</p>
+<p>&mdash;Zer diozu Sebastian? Ez gare beraz zuretzat ezerre. Ez gaituzu beraz urrikari izanen batere. Gu, zure erritar maiteak?</p>
+<p>&mdash;Ez! Nola nai duzue urrikari izan dezadan zuentzat! ez ote zarete beti jostalariak? zu bera Zeruko aterai&ntilde;o jauzika &laquo;xirula&raquo; so&ntilde;uz etorri zare.</p>
+<p>&mdash;Otoi Jaungoikoaren miserikordiaz, uz nazazu sartzerat... Bertzenaz ere nere jostetak akabo ditut.</p>
+<p>&mdash;Bai bainan, nola akabo ditutzu, ezin geiagoz?</p>
+<p>&mdash;San Pedrok ez nau ikusiko, Zeruan den xillo xiki baterat goanen naiz.</p>
+<p>&mdash;Ez nezake olakorik egin: zeren San Pedrok eztu geiago nigarrik egiten eta begiak argiak ditu, eta ikusten bazintu igurriko ninduke laster Purgatoriorat eguntxo batzuek pasatzerat.</p>
+<p>&mdash;Zer da zuretzat egun batzuek Purgatorioetan pasatzea?</p>
+<p>&mdash;Ase diozu zuk, dio Sebastianek. Ezagun da ez zarela sekulan izandu toki triste artan. Zoaz nai baduzu zeroni, zeruan ez zare sartuko.</p>
+<p>&mdash;Ez naizela sartuko?</p>
+<p>&mdash;Ez!</p>
+<p>&mdash;Ezetz? Ongi da; zure biotzaren gainean ez bait lezaket ezer egin, ikusiko dugu nere bizkarrak zerbait egin lezaken.</p>
+<p>Eta ordu berian, Sebastian eta donostiarra, bat alde batetik eta bertzia bertzetik asi ziren pusaka. Eta nola donostiarrak beitire indartsuak, laster giza unek bere sorbalda zabalarekin, atia saltarazi zuen bere partadura edo gontzetarik, eta igurri paseatzerat Sebastian eta bere atia, eta jautzika Zeruan sartu.</p>
+<p>Sebastian dena tristatua atiaren antolatzen ari zen noiz eta ere eldu beitzaio Piarres.</p>
+<p>&mdash;Zer dire arrabots andi auk guziak? dio atezain nausiak.</p>
+<p>&mdash;Zer den? errepikatzen dio Sebastianek. Donostiar batek atia pusketan igurri daut; orra zer den.</p>
+<p>&mdash;A! zer atrebitu tzarra! Nun da giza gaixto ura? Bear dugu kanporat eman.</p>
+<p>&mdash;Baina San Pedro, nola nai duzu atxeman santu aukiek guzien artian, eta ikusi onduan nola arrapatu? Zeren donostiarrak kaskua baino ainitzez zanguak ari&ntilde;ago dituzte, eta ezta ori guti erratia.</p>
+<p>Orduan Piarresek ke&ntilde;u bat eginik artzen du esku batez &laquo;xirula&raquo; eta bertzetik &laquo;tuntuna&raquo;, eta asten da &laquo;turruntuntuntun tuntun tuntun tuntun&raquo;. Zeruko oiarzunek gauza bera errepikatzen dute. Denbora berean donostiar garbia, bere bi besuak altxaturik ematen da jautzika eta irrintzinaka.</p>
+<p>&mdash;Ikusten ote duk oraintxet nun den donostiar atrebitua?</p>
+<p>&mdash;Bai, dio Sebastianek, ura bera da.</p>
+<p>Eta artu zuten donostiar ausarta eta kanporat eman.</p>
+<p>Eta ordutik unat ez omen da sartu donostiarrik Zeruan.</p>
+<p>Uruski donostiarrentzat au da alegia bat egi batzuek erraten dituena, baina alegia beti. Oxala guziek zeruan sartuko balire.</p>
+<p><hi rend='Italic'>Harispe, apeza</hi></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>JESUS AURRARI GONBITEA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>MATXIANDIARENA JAUNARI</hi></p>
+<p>Beteleneko</p>
+<p>Aurxo ttikia,</p>
+<p>Oso Gizona</p>
+<p>Eta Jainkoa,</p>
+<p>Baratzetako</p>
+<p>Lore gaztia,</p>
+<p>Oso garbia</p>
+<p>Eta xuria</p>
+<p>Sabel garbiko</p>
+<p>Frutu gozua,</p>
+<p>Xit lurrindua</p>
+<p>Eta guria;</p>
+<p>Biotzetako</p>
+<p>Adiskidea</p>
+<p>Oso bakarra</p>
+<p>Eta xamurra.</p>
+<p>Beteleneko</p>
+<p>Aurxo ttikia,</p>
+<p>Oso Gizona</p>
+<p>Eta Jainkoa,</p>
+<p>Zure ikusteko</p>
+<p>Dago mundua,</p>
+<p>Oso poztua,</p>
+<p>Ixill ixilla.</p>
+<p>Gau illunpeko</p>
+<p>Ipar argia,</p>
+<p>Oso berria</p>
+<p>Dago begira.</p>
+<p>Gaur elurrezko</p>
+<p>Kapa xuria</p>
+<p>Autsi du lurrak</p>
+<p>Zutaz beteak.</p>
+<p>Beteleneko</p>
+<p>Aurxo ttikia,</p>
+<p>Goiz ernaturik</p>
+<p>Guziak pozik</p>
+<p>Etortzen gare.</p>
+<p>Zure esku&ntilde;uak</p>
+<p>Maite pollitak</p>
+<p>Otzak badire,</p>
+<p>Munduko gauzak</p>
+<p>Guziak otzak</p>
+<p>Balin badire,</p>
+<p>Zu berotzeko</p>
+<p>Goxo egiteko,</p>
+<p>Asta&ntilde;on atsa</p>
+<p>Etxe bat utsa</p>
+<p>Oye bat latza</p>
+<p>Balin baduzu,</p>
+<p>Beteleneko</p>
+<p>Aurxo ttikia,</p>
+<p>Gure lurreko</p>
+<p>Jainko maitea,</p>
+<p>Zu berotzeko</p>
+<p>Biotzen atsa</p>
+<p>Oso guria</p>
+<p>Izanen dugu.</p>
+<p>Atoz mamia,</p>
+<p>Atoz eztia,</p>
+<p>Gure arimetan</p>
+<p>Biotz barnean,</p>
+<p>Loa egiteko,</p>
+<p>Oye burua</p>
+<p>Eta goxua</p>
+<p>Izanen duzu.</p>
+<p><hi rend='Italic'>Harispe, apeza</hi></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>ALLELUIA!</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Italic'>On Kosme Damian Txurrukako</hi></p>
+<p><hi rend='Italic'>nere adiskide errespetagarriari</hi></p>
+<p>Egun goiz aldeko illunar xurian,</p>
+<p>Mendien erdiko iduzki-sorgian</p>
+<p>Piztu da lorios, gure Jaun andia!</p>
+<p>Erran zagun beaz, pozik: &laquo;Alleluia&raquo;.</p>
+<p>Goizik ernaturik Madalen maitea,</p>
+<p>Mendian zabiltza nigarrez betea,</p>
+<p>Zeren utsa beita Jaunaren obia!</p>
+<p>Bainan piztua da, pozik: &laquo;Alleluia!&raquo;.</p>
+<p>Zuk uste zinduen galdu zinduela</p>
+<p>Zuretzat emanik mendian odola,</p>
+<p>Bainan or dakazu, zure Jaun garbia,</p>
+<p>Biotzen egizu, pozik: &laquo;Alleluia!&raquo;.</p>
+<p>Baratze-zain on bat ikusi zinduen</p>
+<p>Jaunaren itxura arpegian zuen</p>
+<p>Aditu orduko aren boz eztia</p>
+<p>Zure biotz onak, dio: &laquo;Alleluia!&raquo;.</p>
+<p>&laquo;Zuk dakazu, Jauna, diozu, gorderik;</p>
+<p>Non da? ura gabe, ez dakat gozorik!&raquo;</p>
+<p>Jardesten zaitu eztiki: &laquo;Maria!...&raquo;</p>
+<p>Eta zuk biotzez, pozik: &laquo;Alleluia!&raquo;.</p>
+<p>Aingeru xuri bat obi kanttalian,</p>
+<p>Jarririkan dago arrien gainean,</p>
+<p>Irakusten digu illoial xuria,</p>
+<p>Jaunaren gorputzaz utsa: &laquo;Alleluia!&raquo;.</p>
+<p>Ementxet ez dago Jaunarik geiago!</p>
+<p>Dio; alxatu da mendiez gorago</p>
+<p>Etsaien erditik, gure Iduzkia!</p>
+<p>Ama ikusterat gan da &laquo;Alleluia!&raquo;.</p>
+<p>Ama damutua non duzu semea?</p>
+<p>Eder eldu zaitzu, zure on lorea?</p>
+<p>Orain zuk dakazu zorion andia</p>
+<p>Erran zazu beaz, pozik: &laquo;Alleluia!&raquo;.</p>
+<p>Semea galdurik zurea ninduzun,</p>
+<p>Bainan pekatuaz, bi semez alargun</p>
+<p>Egin zi&ntilde;an, Ama! Jesusen bizia</p>
+<p>Piztu da ni baitan. Ama! &laquo;Alleluia!&raquo;.</p>
+<p><hi rend='Italic'>Harispe, apeza</hi></p>
+<p><hi rend='Italic'>1886ko apirilaren 21. eguna</hi></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>JAINKOAREN ARAGIZTATZIA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Italic'>Obedun ote zen Jaungoikoa aragiztatzia.</hi></p>
+<p>(Aurrandea)</p>
+<p><hi rend='Bold'>&mdash;I&mdash;</hi></p>
+<p>Egi bat da, egitzaille andienek erraten dutena, munduko eta zeruko gauza guziak Jainkoaren ongitasunaren argitzeko eginak izan direla. Zeruek Jainkoaren omena erraten dute. <hi rend='Italic'><foreign>Coeli enarrant gloriam Dei. </foreign></hi>Lurrak bere prestutasuna eta edertasuna, itsasoaren zabaltasunak bere ezneurritasuna, mendiek bere anditasuna, leizondoek bere misterio ezin adiaraztuak. Xori&ntilde;uek egunero kantatzen dute, eta gizonen biotzek ganetan. Amodioaren odola ixuria da, alde guzietan arentzat. Guziek belar xume baten barnean bizi diren ulixka ttikietarik, zeru aingerutarai&ntilde;o, xinaurritik gizonarai&ntilde;o, lur errautsetik zeru argitarai&ntilde;o, osto arrabotsetik galernaren xistuetarai&ntilde;o, ur xirripatik, itsasuaren marrumetarai&ntilde;o, guziek Jaungoikoaren anditasunak, egintasunak, amodioa eta ongitasun guziak, erraten dituzte. Gauza guziak Jainkoak egin ditu, eta nola bera beita on soberanua, eta ongitasun osoa, bera da, bere xede azkena, eta ortarakotz gauza guzien xedea. Ortarakotz ere beretzat guziak egiten ditu. Eta ezta ori beredun izatea, edo egoista izatea. Bereduna edo egoista da bere ongia bakarrik billatzen duena bertzeri konturik egin gabe.</p>
+<p>Bainan Jaungoikoak denak beretzat egitean, guzien ongia billatzen eta egiten du; zeren bera beita guzien ongi soberanoa, eta azken xedea, eta beren naturaleza bere beitaz guziak arenganat doazi, urustasun, eta zorion andiarenganat bezala. Ortarakotz beaz, beretzat guziak egitean, andi eta ongiegille agertzen da; zeren bere burua oso ona guzieri ematen beitu. Ontasunezko eta amodiozko itsaso neurrigabekoa, gauza guziak aren barnetik ateratzen dire, eta tirainak bezala bat bertziaren ondotik ibiltzen dire, gero berriz bereganat etortzeko. Botere soberanoak ez deusetarik egiten dituenak, egin onduan, bere omenaren kantatzerat igurtzen ditu, eta gero bereganat deitzen, eta bere beitan ekien gutiziak betetzen.</p>
+<p>Nola adiarazmenduak erraten beitu, gauza guziak beretzat egitean, Jainkoak, ekien gutiziak betetzen dituela, ala ere ikusterat ematen du ez zetzakela bertze xede batentzat egin. Zeren, gauza bat bertze batentzat egitea, bertze aren soberatasuna ezagutzea da. Zuretzat egiten dut zerbeit, beaz ni bainon geiagokoa zare, beaz egiten dutan gauza ortan nere xedea zare, zuk zerbait egin aazten nauzu.</p>
+<p>Bainan Jainko guziz soberanuak, eta zorion neurrigabezkoak, bera bainon andiagorik eta obeerik ez du, bera da bere xede bakarra eta osoa.</p>
+<p>Beaz Jainkoak deusik ez lezaken egin beretzat beizik.</p>
+<p>Beaz gauza guziak Jaungoikoarentzat eginak direnaz geroztik, eguna bainon argi da, gauza bat anbetenaz obeduna izanen dela, zenbatenaz geiago Jainkoaren ongitasunak erakutsiko beititu.</p>
+<p>Zenbatenaz andiago, dirdirantago, eta indarrago argiak berotuko eta distiatuko du, anbatenaz geiago irakusterat emanen du, bere indarra.</p>
+<p>Bainan zein argik irakusterat emanen du Jainko iduzki andiaren indarra, nola <hi rend='Italic'><foreign>Verbum</foreign></hi> itz Jainko andiak, gizonenganat etortzean.</p>
+<p>Beaz deusek ez lezake geiago erakusterat eman, Jainkoaren ontasuna, justizia, prestutasuna, eta boterea, nola bere gizon egiteak. Ikus dezagun nola.</p>
+<p><hi rend='Italic'>Harispe, apeza.</hi></p>
+<p><hi rend='Italic'>(Aurrandetuko da)</hi></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>PENITENTZIAREN GAINEAN</p><--</head>
+        </front>
+        <body>
+<p>Jaunaren hitza Jonas Amatiren semearenganat jautsi zen eta erraten zioen: &laquo;jaiki adi eta Ninibako iri andira oa eta nere aldera konberti edo biurtzatzik guziak, zeren ekien tzarkeriak ene antzinera igan dituk.&raquo;</p>
+<p>Eta Jonas jaiki zen, eta Jainkoari ies egin zioen.</p>
+<p>Untzi baten barnean itsasoan eman zen, eta bazoan bazoan beti. Uste zuen Jainkoari eskapatu, bai&ntilde;an noiz eta ere ezti eztiena untzian beitzoan mugitu eta igitu gabe batere, aize izigarri bat alxatu zen, edoiak beltztu ziren, zerua estali zen, tirai&ntilde;ak urezko mendi batzuek bezala, bazabiltzan alde batetik bertzerat.</p>
+<p>Mendebala eta galernaren erdian untzi gaixoa desmastatua, mastarik gabe bazabillan, artikia tira&ntilde;etarik tira&ntilde;etara. Oiu eta deiadarrak beizik ez ziren aditzen itsasoaren marraskarekin batean. Oi zer gauza tristea. Guziak belauniko zagozin eta bizkitartean Jonas lo zagoen.</p>
+<p>Jaiki arazi zuten laster, eta atzarri ondoan profetak berak erran zuen beorrik zituela falta edo gaizkitasun guziak, eta artiki zuten urera.</p>
+<p>Orduan aizia eztitu zen, itsasoa apaindu zen, oiuak ixildu ziren, eta untzi gaixoak bere bidea segitu zuen.</p>
+<p>Irur egun arrain baten barnean Jonas egon zen eta irur egunen buruan leiorrera etxatua izan zen. Eta Jainkoak berriz itz egin zioen: Jaiki adi eta oa Ninibako iri andira, eta eneganik aditu ditukan itzak errotek.</p>
+<p>Orduan Jonas jaiki zen, eta Jaunaren itzaren arabera, Ninibara goan zen. Eta Jonasek oi egiten zuen erraten zuelarik: Orai&ntilde;o berrogei egun eta Niniba xautua eta ondatua izanen da.</p>
+<p>Eta ordu berian Ninibatarrek Jainkoa beitan sinetsi zuten, eta penitentziazko arropak artu zituzten.</p>
+<p>Urte guzietan garizumako denboretan apez guziek Jonasek bezala oiu egiten dute: oraitik denbora guttiren buruan mundua guretzat akabo izanen da: penitentzia beraz bear dugu egin.</p>
+<p>Denbora luzerik ez dugu bizitzeko. Zenbeit egun orai&ntilde;o, zenbeit ilabete, zenbeit urte bear bada eta mundua akabo izanen da guretzat. Gure bizia laburra da: lore baten pare goizian iduzkiaren aintzinean dirdiratzen dugu, arratseko itzalak eldu diren bezin laster lurrerat eroriak gaude.</p>
+<p>Penitentzia beraz, beti penitentzia.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>ZER DA PENITENTZIA</p><--</head>
+        </front>
+        <body>
+<p>Gure penak eta biotzeko damuak bear ote du izan gure biotzak izan lezaken mi&ntilde;ik eta dolorerik andiena?</p>
+<p><hi rend='Italic'><foreign>Utrum contritio sit major dolor qui possit esse in natura?</foreign></hi></p>
+<p>Bere beitaz erraten du San Tomas andiak, gure pekatuentzat, izaten dugun damua, damurik eta mi&ntilde;ik andiena da: ezen, kontu egin zazue San Tomasen asmu eta pentsamendu ederrari. Urrikia, biotzeko mi&ntilde;a, amodiotik eldu da, eta ortarakotz amodioaren neurria bear du izan. Ezen zenbatenaz geiago maite dugu presuna edo izape bat, eta anbatenaz geiagokoa izanen da gure urrikia, presuna, izape ura ofensatu balin badugu, damu egin balin badiogu. Beraz amodioa andiago presuna damutuarentzat eta urrikia, biotzeko mi&ntilde;a andiagokoa izanen da ere.</p>
+<p>Beraz unelako amodio eta alako urriki. Bainan mundu untan eta bertzian den amodiorik andiena, karitatezko amodioa da, Jainkoaren amodioa.</p>
+<p><hi rend='Italic'><foreign>Sed amor Charitatis in quo fundatur dolor contritionis est maximus.</foreign></hi></p>
+<p>Ezen amodioaren neurria maitatuaren neurria da. Gauza bat, edo izape bat geiago da maitagarria eta geiago ere maitatua izanen da. <foreign>Amores intensio ab objecto, </foreign>eta ez da deusik, Jainkoa bizein maitagarriagokorik.</p>
+<p>Beraz bere beitaz, bere naturalezaz kontrizioa, biotzeko urrikia Jainkoa damutu delakotz, urrikirik eta biotzeko minik andiena da.</p>
+<p>Bertze aldetik, biotzeko minak, urrikiak, bere anditasuna eta zabaltasuna, egin duen gaizkiaren eta damuaren anditasunetik, idukitzen du.</p>
+<p>Gaizki egi&ntilde;a edo damua andiago eta urrikia naturalki andiagokoa.</p>
+<p>Bainan gaizkirik andiena pekatua da Jainkoaren aldetik eta guretik. Jainkoaren aldetik Jainkoa guziz ona, eta guziz andia delakotz, eta ofensaren, damuaren neurria ofensatuaren, damutuaren neurrian delakotz. Gure aldetik, Jainkoak guretzat egin duen zorionetik urruntzen gaituelakotz, eta guri galterik andiena egiten gaituelakotz. Gure zorion soberana oso kentzen gaitu.</p>
+<p>Beraz kontrizioa edo pekatuen urrikia gure biotzeko penarik eta damurik andiena da.</p>
+<p>Bainan erranen nauzue anitzek pena eta damu geiago dutela bertze asko mundukok galte batzuendako, eta nigar geiago ixurtzen dela adixkide eta buraso batzuengatik, Jainkoaren biotzarengatik baino. Urriki eta damu geiago dugula ama baten eriotzeaz gure arimaren eta Jainkoaren galtzeaz baino! Zuek erraten nauzutena egia da alde batetik, bainan bertzetik ez da egia.</p>
+<p>Badire bi urriki, edo biotzeko damu, bat gure naian edo borondatian dagoena, eta bestia biotzeko inguruetan dabillana eta nigarretan begitik eta otoitz eta suspira garsuetan agotik ateratzen dena.</p>
+<p>Bigarrena sensiblia, bestia ez. Bigarrena izan diteke leemixikoa gabe eta maiz aldiz gure biotza trunpatzen du. Izan diteke egiazko urrikia nigarrik gabe, naian edo borondatian: ezen ura da egiazko urrikia. Bainan Jainkoak ematen baditu biak obeto da. Egiazko urrikia da beraz pekatuarentzat izaitea iguntze eta naigabe andi bat zoi&ntilde;ak urruntzen beikaitu, apartatzen beikaitu pekatutik. Itz batez pekatuen erra: unelako urrikia eta biotzeko damua da gizonak izan lezaken damurik eta biotzeko mi&ntilde;ik andiena: eta una zertako. Zenbatenez gustu geiago izaten da gauza batentzat, anbatenaz geiago iguntzen da aren kontrarioa eta arenganik urruntzen da. Zenbatenez geiago adixkide bat maite da anbatenaz geiago aren etsaia iguntzen da.</p>
+<p>Bainan naturalkiena eta bortizkiena nai dugun eta maite dugun gauza gure azkeneko zoriona da, zorion perfeta, zeren ura beita gure xede, eta betezarri andia, eta arenganat doazi naturalki gure arimako gutizia asmu eta nai guztiak, eta nai tugun guziak gure azkeneko xedearentzat eta zorionarentzat nai ditugu. Ordian pekatua da gure zorionaren kontrarioa eta etsaik andiena.</p>
+<p>Beraz pekatua da gauza bat galte andiena egiten gaituena eta ortarakotz geiegi igundu ez dezakeguna. Beaz pekatuarengatik izaten dugun urrikia eta biotzeko mi&ntilde;a damu eta urrikirik andiena da.</p>
+<p>Bertze urriki biotzean dagoena, eta nigarretan maiz agertzen dena, naiaren, borondatearen, urrikiaren ondokoa da. Borondatean edo naian du bere astapena. Aldi batzuez ere naturalezaren jarkiatik edo ekarraiatik eldu da. Badire presuna edo izape batzuek naturalki izakoiro, sortizkoiro nigar aise egiten dutenak: eta nola gure ekidal eta indar guziek indar eta ekidal leemiziko bat, zoina beita ekien ama bezala, segitu bear baitute.</p>
+<p>Indar leemixikoa unkitua denian, nola beita bertze guzien ama, bertze guziak arekin batian unkituak dire. Ortako beaz gure naia edo borondatea damutua denean, gure biotzak ere sentitzen edo bidabitzen du unkitze bera.</p>
+<p>Bertze aldi batzuez, geronek berek gure gaizkiez ongiri oatzian eta ekieri begira egotian, gure biotza alxatzen, ernetzen eta pizten dugu eta nigarrak gure begietarik ateratzen ditugu. Beraz nigarrak eta biotzeko damuak dire gure naiaren edo borondatiaren ondokoak, edo guk gurenek pizten eta egiten duguna gure pekatuen aintzinian.</p>
+<p>Bigarren urriki ori, gure borondatetik, naietik edo gure pekatuen ikustetik eldu daien, ez da neurri gabekoa, ez da urrikirik eta damurik andiena, zeren, fakultate edo indar ekidal bakotxak, bere betezarri eta xede berekia, bakarrik badu: so&ntilde;ua eta arrabotsa bearrien betezarri berekiak dire, argia begien betezarria. Ez dute bearriek ikusten ez eta ere begiek aditzen zeren bakotxak ba beitu bere xede osoki bakarra. Gauza bera da gure arimaren bertze indar eta ekidal guzientzat. Orai nere arrazonamendua edo aritadiera aditu balin baduzue, ikusiko duzue nola negar geiago egiten dugun ama baten edo adixkide baten galtzeaz gure pekatua urrikiez baino. Gure borondatia edo naia megopearra edo espirituala beita betezarri espiritual edo megopear unkitua izanen nola adiera asmu eder batez. Eta gure biotza sensiblia, gauza sensible batzuz unkitua izanen da, nola begiak argiaz. Gauza sensible batek geiago unkituko du gure biotza, gauza espiritual edo megoper batek baino, zeren xuxenkiago eldu zaio. Korputztiar gauzak xuxenkiago gorputzarat doazi. Eta nola ama baten galzea gauza sensiblia eta migorra beita geiago sentitzen du gure biotzak bainan ez naiak edo borondateak. Nola bekatuaren urrikia gauza espiritual edo megoper bat beita gure borondate espirituala eta megopera geiago unkitua da urriki ortaz: bainan ez biotza. Urriki ori jausten denian borondatetik biotzera fakultate sensiblerat, biotza ez da xuxenki unkitua, urriki artaz, bainan naiaren edo borondatearen komendioz eta artez.</p>
+<p>Beraz urrikiak bear du izan berexiki borondatean. Ez beraz kexu izan zure beitan biotzean ez balin baduzu sentitzen min andiagokoa zure pekatuentzat zure korputzen sufrikarientzat baino edo zure amaren eriotzearentzat baino. Ez da bear negar egitea ez eta ere biotzean min gaitea bainan borondatean pekatua arnegatzea, iguntzea aal bezinbat ori bakarri da bear.</p>
+<p>Badire presuna batzuek emaiten direnak Jainkoaren aintzinean ondo beren biotza etsaminatu gabe, eta urriki batez pekatu guziak garbituak direla, uste dutenak. Gure penitentziak, urrikiak, ez du bear izan itsutua, bainan argitua.</p>
+<p>Ortarakotz gure kontzienzia esaminatzian bear dugu ikusi, zer diren pekatu andienak, eta Jainkoari damu andiena egiten dutenak, eta gure arimari kalte andienak. Eta pekatu ekientzat bear dugu izan urriki andiagokoa: zeren urrikiaren neurria pekatuaren neurria da. Ez dugu pekatu ttiki batentzat andi batentzat bezala urriki izan bear. Pekatu batentzat bear dugu urriki geiago izan bertzenzat baino, pekatu arrek geiago ofensatu balin badu gure Jainkoa. Beraz bear dugu ondo jakin zen diren gure pekatuak, zen direna txarrenak. Ez da oraino ortan akabo, gure burua anzkorra da gure pekatuez. Konfesatu andikan ez gera geiago akordatzen eta oroitzen gure pekatuez. Iduritzen zaiete asko presuneri pekatu esana, pekatu barkatua dela, eta ez dela geiago egitekorik konfesiuaren ondotik. Eta ikusten ditugu ortarakotz ainitz asko beti jostetan, ondo jan, ondo eran, eta mundu untako atsegin guzietan bizi direnak. Nere pekatua konfesatu dut, apezak penitentzia eman daut, beraz ez dut geiago egitekorik eta unela esatiarekin iduritzen zaiote salbatuko direla.</p>
+<p>Ez, ez; gure bizi guzian urrikia eta damua izan bear dugu gure pekatuentzat. Ez egun batez, ez bi egunez, bainan beti. Beti urrikian bear dugu bizi zeren Jainkoak beti maite gaitu eta gure pekatua gure begien antzinean bear dugu beti izan. Gauza ori David erregeak esaten zuen, ene pekatua beti ene begietan dago <hi rend='Italic'><foreign>peccatum meum contra me est semper</foreign></hi>. Ninibatarrak aditu zutenian Jonasen boza, urrikitan sartu ziren, negar egiten zuten eta esaten zuten: eta bat bedera bere bide gaixtotik eta eskuan gainean duen tzarkeriatik atera bedi. <hi rend='Italic'><foreign>Et convertatur vir a via sua mala et ab iniquitate quae est in manibus corum.</foreign></hi></p>
+<p>Eta autsez beren buruak estali zituzten, eta beren korputzak kastigatu zituzten. Eta guk zer egiten dugu, kristau maiteak, gure Jainkoarentzat? Ezerre ez. A! gure Jainkoa egiazki maite balin bagendu, zer ez du gunduke eginen onentzat! Zer ez da egiten maite den presunarentzat? Maite denian norbeit, adiskide bat, irauntzen diren sufrikari guziak arentzat gozuak eta eztiak dire. Beraz, kristau maiteak, nai balin badugu izan egiazko urrikia, nai balin badugu egiazki gure urrikiaz gure pekatuak garbitu, maita zagun Jesus oso maitagarria, eta amodioak esanen gaitu zer bear dogun egin gure Jainkuarentzat eta gure pekatuak izanen dire garbituak ez bakarrik gure urrikiaren nigarrez, bainan ere gure penitentziaren odolez.</p>
+<p>Ezerre ez dugu geiegi izanen gure amodioarentzat eta Elizako santu andiek bezala gure gorputza kastigatuko degu. Zer ez duzue egiten, zer ez du ama batek bere semearentzat, maite duzuen presunarentzat zenbat gau ez duzue pasatzen, nigarretan zenbat egun ez zaizte ibilltzen, penetan eta sufrikarietan, eta esanen duzue gero Elizaren penitentziak andiegiak direla.</p>
+<p>Amodiotik eldu da egiazko urrikia, egiazko penitentzia: maite zagun beraz gure Jainkoa eta gure pekatu guziak barkatuak izanen dira.</p>
+<p>San Agustin andiak esaten zuen: Ene Jainko indazu bakarrik zure amodioa, eta besterik ez.</p>
+<p>Bai! maite zagun Jainkoa eta orduan gure urrikia izanen da egiazko urrikia eta kontrizio, eta orduan gure pekatu guziak garbituak oso estaliak izanen dire. Geren San Tomas andiak esaten zuen bezala: Urrikia edo kontrizioa karitatez eldu dena, edo biotzeko min sensibletik, izan diteke aren andia non pekatua eta pekatuaren ondoko kastiguak kentzen baiditu. <hi rend='Italic'><foreign>Contritio sive ex parte charitatis, sive ex parte doloris sensibilis consideretur, tanta esse potest, ut ad plenam culpae et penae delectionem sufficiat.</foreign></hi></p>
+<p><hi rend='Italic'>Harispe, apeza</hi></p>
+        </body>
+      </text>
+    </group>
+  </text>
+</TEI.2>
+

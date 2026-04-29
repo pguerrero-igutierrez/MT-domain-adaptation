@@ -1,0 +1,999 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN"
+                       "http://www.tei-c.org/P4X/DTD/tei2.dtd" [
+   <!ENTITY % TEI.prose    'INCLUDE' >
+   <!ENTITY % TEI.linking  'INCLUDE' >
+   <!ENTITY % TEI.analysis 'INCLUDE' >
+   <!ENTITY % TEI.figures  'INCLUDE' >
+   <!ENTITY % TEI.XML      'INCLUDE' >
+   <!ENTITY % TEI.extensions.ent SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.ent' >
+   <!ENTITY % TEI.extensions.dtd SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.dtd' >
+]>
+<TEI.2>
+  <teiHeader>
+  <fileDesc>
+     <titleStmt>
+        <title>San Ignazio Loiolakoaren bizitza laburtua</title>
+        <author>Jose Ignazio Arana</author>
+        <respStmt>Ez dauka</respStmt>
+     </titleStmt>
+     <extent>20.213 hitz, 157.632 karaktere</extent>
+     <publicationStmt>
+        <publisher>Klasikoen Gordailua [http://klasikoak.armiarma.com/]</publisher>
+        <distributor>Estrata Liburuak S.L.</distributor>
+        <address type='email'>klasikoak@armiarma.com</address>
+        <idno type='ota'>AranaJIIgnazio</idno>
+        <availability status='free'>Erabilpen librekoa; honoko helbidean topa daiteke (HTML, RTF eta PDF formatuetan): http://klasikoak.armiarma.com/idazlanak/A/AranaJIIgnazio.htm</availability>
+        <date>2006</date>
+     </publicationStmt>
+     <sourceDesc>
+        <bibl>Iturria: San Ignacio Loyolacoaren bicitza laburtua euskaraz eta gastelaniaz, Jos&eacute; Ignacio Arana. Larunbe anaien moldiztegia, 1872</bibl>
+        <notesStmt><note>Iturburuen datazioa: 1872</note></notesStmt>
+     </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+     <projectDesc>Euskal literaturako testu klasikoen bilduma da KLASIKOEN GORDAILUA; testu hau berorren parte da</projectDesc>
+     <refsDecl>
+        <p>MENTIONED etiketa egilearenak ez diren hitzak markatzeko erabili da: hitzaurreak, aipuak, iruzkinak, e.a.</p>
+    </refsDecl>
+     <classDecl>
+        <taxonomy id='generoa'>
+            <category id='G-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='G-ANT'><catDesc>Antzerkia</catDesc></category>
+            <category id='G-BER'><catDesc>Bertsoak</catDesc></category>
+            <category id='G-ERL'><catDesc>Erlijioa</catDesc></category>
+            <category id='G-NAR'><catDesc>Narratiba</catDesc></category>
+            <category id='G-POE'><catDesc>Poesia</catDesc></category>
+            <category id='G-SAI'><catDesc>Saiakera, kronika, artikuluak...</catDesc></category>
+        </taxonomy>
+        <taxonomy id='garaia'>
+            <category id='M-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='M-16'><catDesc>XVI. mendea</catDesc></category>
+            <category id='M-17-1'><catDesc>XVII. mendea - 1. erdia</catDesc></category>
+            <category id='M-17-2'><catDesc>XVII. mendea - 2. erdia</catDesc></category>
+            <category id='M-18-1'><catDesc>XVIII. mendea - 1. erdia</catDesc></category>
+            <category id='M-18-2'><catDesc>XVIII. mendea - 2. erdia</catDesc></category>
+            <category id='M-19-1'><catDesc>XIX. mendea - 1. erdia</catDesc></category>
+            <category id='M-19-2'><catDesc>XIX. mendea - 2. erdia</catDesc></category>
+            <category id='M-20-1'><catDesc>XX. mendea - 1. erdia</catDesc></category>
+            <category id='M-20-2'><catDesc>XX. mendea - 2. erdia</catDesc></category>
+        </taxonomy>
+        <taxonomy id='euskalkia'>
+            <category id='E-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='E-BAT'><catDesc>batua</catDesc></category>
+            <category id='E-BIZ'><catDesc>bizkaiera</catDesc></category>
+            <category id='E-BNA'><catDesc>behenafarrera</catDesc></category>
+            <category id='E-ERR'><catDesc>erronkariera</catDesc></category>
+            <category id='E-GIP'><catDesc>gipuzkera</catDesc></category>
+            <category id='E-GNA'><catDesc>goi nafarrera</catDesc></category>
+            <category id='E-LAP'><catDesc>lapurtera</catDesc></category>
+            <category id='E-NAF'><catDesc>nafarrera</catDesc></category>
+            <category id='E-ZAR'><catDesc>zaraitzuera</catDesc></category>
+            <category id='E-ZUB'><catDesc>zuberera</catDesc></category>
+        </taxonomy>
+    </classDecl>
+  </encodingDesc>
+  <profileDesc>
+     <textClass>
+       <keywords scheme='generoa'>
+         <list><item>G-ERL</item></list>
+       </keywords>
+       <keywords scheme='garaia'>
+         <list><item>M-19-2</item></list>
+       </keywords>
+       <keywords scheme='euskalkia'>
+         <list><item>E-GIP</item></list>
+       </keywords>
+     </textClass>
+  </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>San Ignazio Loiolakoaren bizitza laburtua -- Jose Ignazio Arana</docTitle>
+    </front>
+    <group>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>SAN IGNAZIO LOIOLAKOAREN BIZITZA LABURTUA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>EUSKARAZ ETA GAZTELANIAZ</hi></p>
+<p>Bear diran baimenakin.</p>
+<p>Bilbon.</p>
+<p>Larunbe anaien moldiztegian.</p>
+<p>Ronda-5</p>
+<p>1872.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>BAIMENA</p><--</head>
+        </front>
+        <body>
+<p>Vitoriako apezpikutzan. Aztertua izandu dan ezkero nere aginduz Jesusen Lagunkidako erlijioso D, J, Ignazio Aranak izkuntza Euskarazkoan ipi&ntilde;i duen LOIOLAKO SAN IGNAZIOREN BIZITZA LABURTUA, eta orobat itzaurrea eta osagarria, eta agerturik, fede eta oitura onen kontra ezer ez idukiaz ga&ntilde;era, bere irakurtzatik kristau leialai espirituzko protxu andi bat etorri leikeala, gere baimena molderatua izan dedi&ntilde; ematen degu.</p>
+<p>Jainkoak urte askotan gorde zaitzala. Vitorian, 1868garren urteko Otsaillaren 10an.</p>
+<p><hi rend='Bold'>Diego Mariano Apezpikoak</hi></p>
+<p>San Inazio Loiolakoaren Alkartegiko A. Erretore Begiragarria</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>ITZAURREA</p><--</head>
+        </front>
+        <body>
+<p>Bi lagun asi gi&ntilde;aden geron agintzalleen borondatez eta askoren gogo santubak betetzeko, <hi rend='Italic'>San Ignazio Loiolakoaren bizitza laburtua </hi>era-berean batek Gaztelaniaz eta besteak Euskeraz zuzentzeko asmoakin, nai baziran ere izkuntza biyetan eta liburu batean alkar-ipi&ntilde;i, gauza ber-berak esan eta kondairaturik. Eta Jaunaren grazia eta laguntzarekin geron erasotxoari buru eman ere diogu.</p>
+<p>Zenbat gizon adituk eta zenbait itzkera-modutan Santu onen bizitza eskribatu duten, zearo ta garbi nork adierazo? Izendatzekoak dirade ala ere gai onetan A. Pedro Ribadeneira, AA. Bolandokoak, Orlandino, Maffeo, Bartoli, L. Ortiz, L. Lebrun, Bouhours, A. Lucas, Francisco Grac&iacute;a, A.F. Mariani, FLubi&aacute;, C. Genelli, eta Daurignac.</p>
+<p>Ba&ntilde;an ordea emengo gere euskera anzi&ntilde;a-anzi&ntilde;ako ederrean, San Inazio beraren lendabiziko izketa gozo maitagarrian, ze bizitza-mueta eskribatu ta argitaratu dirade gaurda&ntilde;okoan? Sentigarria da gai onetan zerbait geixeago, mundu osoaren, ba&ntilde;a batez-ere beren edergarri ta gloria dan Santuaren onran Euskaldunak ez egi&ntilde;a.</p>
+<p>Ala ere, Gaztelaniazko eta Lati&ntilde;ezko bizitzaen aldean ezer gutxi izan arren, zerbait ere egi&ntilde; eta saiatu da orobat Euskaraz San Inazioren ga&ntilde;ean. Bere alabanza ta aza&ntilde;ak kanta zituen itz neurtuetan A. Sebastian Mendiburu Jesusen lagun Oiarzun-dar eta misiolari ospatsuak Euskaldun onaren biziera deiturik argitaratu zuen liburutxo batean, eta beste bere eskribu ederretan ere bai maiz. A. Agustin Kardaberaiz Hernaniko semeak, eta santutasunean eta animen zeloan mallarik goienekoak, eskribatu zuen, luze, zearo ta garbi jaierazko itz-giro eztizkoan Aitalen santubaren bizitza; ba&ntilde;a juan dan eunkidan molderatzeko zegoan unean bertan bera bere lagun errubageakin batera Italiara erbestetua izandu zan, eta ezi&ntilde; arkitu izandu da gaurda&ntilde;o bere eskuskribu osoa, agiri dala ordea eskuratu diraden bat edo beste burukida edo kapituluetatik liburu ederren bat izango zala. Berak argitaratua da ere Euskeraz leku askotan Santuari egin oi zaion bederatzi-urrena, beste askotan A. Mendibururena bezela; eta utzi zuen ere eskuskribatua bere doanditza edo panejiriku eder bat. Prai Cristobal Linaza San Franziskuren ordenako predikulari ta animen txit zelodunak eginda, Tolosan azaldu zan oraindi urte asko ez dala, San Inazioren bizitza neurrizko erausialdietan, au da, ogeita amazazpi Santu beraren martxa-modutan. Aita Jose Goenaga Tolosaarrak eskribitu zuen ere, A. Ribadeneiragandik aterarik, Santuaren bizitza labur obeeneko bat, eta eskribatua arkitzen da oraindik, Jesusen Lagundiaren sortuera eta geitzearen ga&ntilde;ean ezer gutxi itz egin zuelako argitaratu gabea gaurda&ntilde;o gelditurik, osteronzean txukun eta Euskara garbi pollitean badago ere. Orai&ntilde; bi urte (1866) On Gregorio Arrue Zarauzko eskola-maixu Jaunak Euskera garbi onean ipi&ntilde;i eta molderatuazi zuen Tolosan Santuaren bizitza laburtxo bat. A. Croisetek Kristau-urtea deizkion liburuan dakarren erakoa oso, eta A. Francisco Garciak gaztelaniaz konpondutako bizitza eder luzea ere Euskeratu duela badakigu. Azkenik juan dan urtean Baionan agertu zan, Eguillearen izenik gabe Santuaren bizitza berri bat Euskalerri Sortaldekoaren izkuntza lira&ntilde;ean, onako izen onekin: <hi rend='Italic'>Bi Saindu Heskualdunen Bizia San I&ntilde;azio Loiolakoarena eta San Franzisko Zabierekoarena. </hi>Asierako <hi rend='Italic'>bi-itzetan </hi>Ribadeneira, eta geiena Dori&ntilde;aken obretatik bildua dela dio; eta egiaz iztun eder Daurignak bera Euskaraz gozo-gozo donariorik egokienean, galaikiro, eta erausi atsegintsuan diarduela badirudi. Balitezke guk ez dakizkigun bat edo beste geiago izatea oraindik.</p>
+<p>Laburkidatxo onen gaiak ere eskribalari aipatu ditugunetatik eta beste eskuskribu sinisgarrienetatik bilduak dirade, eta diogun guzi-guzia, Aita Santu Urbano Zorzigarrenak agindu edo manatu zuen bezela, Eliz Ama Santaren iritzi-mendean jartzen degu.</p>
+<p>Nai degiola Jainko gure Jaunari zerbait eskributxo onek serbitzea bere gloriarik goi ta andienerako, Ama Birji&ntilde;a ta San Inazioren onrarako ta animen on eta salbamenerako.</p>
+<p><foreign><hi rend='Italic'>Quidquid ego scribam divino cedar honori:</hi></foreign></p>
+<p><foreign><hi rend='Italic'>Grammata cuncta Dei dirigat alma Parens.</hi></foreign></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>LENENGO PARTEA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>Bere bestetzera&ntilde;okoa</hi></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>1.&#186; BURUA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>Jaiotza ta aurdenbora</hi></p>
+<p>Jaio zitzaigun San Ignazio, I&ntilde;igo-ere izendatua, 1491garren urtean, Loiolako aitaki-etxe eta gazteluan; Azpeitiko erriaren mugapean, ta ez urruti bertatik, Azkoitikotik ordea geiago piskatxo bat bi erriyak daude probinzi Gipuzkokoan, eta Iraurgiko ibar eder, Urola ibaiak jirabiratzen duela, mendiz inguratuaren erdi-erdian.</p>
+<p>Zorzi anai eta bost aizpa, amairu senidetatik atzenengoa izandu zan, eta bere gurasoak odol garbi goienekoak, <hi rend='Italic'>aide andizkietakoak </hi>deitzen zietenak, Beltran Ia&ntilde;ez O&ntilde;az ta Loiola Azpeitiarra, eta Marina Saenz Licona ta Balda, Azkoitikoa berez, ba&ntilde;a jatorriz Bizkaiko Hondarroa deritzan errikoa, ziraden. Etxe ori gaurko egunean Narrosko markesarena da, eta oso-oso dirau oraindik erriaren alboan, Izarraitz aldeko egitxo batean.</p>
+<p>Arabakoa zan orobat amaren aldetik, eta Gebaratarren etxe ospatsuaren belaunekoa Jesusen Lagundiko A. Gabriel Henaok, Kantabriako Anzi&ntilde;atasuneen obran argi-asko adierazten duenez. Au bada onela izanik, egiaz dirudien bezela, iru Probinzi aizpak alkar onoretu litezke, ai&ntilde; seme argiari bere odol eta sortzea eman eta egotzi ziotelako.</p>
+<p>Lau alde igualetakoa da gaztelua, ertze bakoitzean bere torretxoaki&ntilde;, eta lau aldeetan bere ekitxuloaki&ntilde;, ze&ntilde;etatik punteritu oi zituzten lau sutunpa-txiki; oetatik bat Loiolan bertan arkitzen da, eta beste bat Madrillen jauregi erregaleko armategian.</p>
+<p>Ze&ntilde; egun eta gelatan aurtxoa jaio zan eztakigu. Batzuek esan dute eze, orduan mandotegia zegoan, beeneko bizitokiyan, non bere ama onak argitaratu nai izan omen-zuen, zerbaitean beintzat Birji&ntilde;a Maria guziz Santari Belengo estalpean anzeratu ta jarraitzeagatik: ba&ntilde;a kondairatzalle adituenak, goian jaio zala diote.</p>
+<p>Beintzat sala-nausi izandu zan atalburuban kanpoko aldetik eta ondoko sala-aurrearen etxa-goian irakurtzen da onela.</p>
+<p><foreign><hi rend='Italic'> &laquo;Hoc sacellum portentis illustre</hi></foreign></p>
+<p><foreign><hi rend='Italic'> Societati fundatorem,</hi></foreign></p>
+<p><foreign><hi rend='Italic'> Ecclesiae propugnatorem,</hi></foreign></p>
+<p><foreign><hi rend='Italic'> Mundo restauratorem,</hi></foreign></p>
+<p><foreign><hi rend='Italic'> Caelo dovum Ignatium edidit&raquo;.</hi></foreign></p>
+<p>Onetatik dirudi, an onela ipi&ntilde;i zuten Aita zarrak, bere jaiotza-tokiya hura zalakoan zeudela; ze&ntilde; eta <hi rend='Italic'><foreign>caelo edidit </foreign></hi>esanarekin adierazo etzuten bere Jaungoikoaganako on-biurtzea.</p>
+<p><hi rend='Italic'>Etxe santua </hi>gaur deitzen zaion bizitoki dana, ganbara aitatu gabe, iru bizitzakoa da ta izandu ere zan, orai&ntilde; ordea kapillaetan biurtua, lenengo dala esan degun sala nagusi goieneko hura.</p>
+<p>Badirau ere oraindik Azpeitiko Eliza nausiaren bataiotegian bera bataiatua izandu zan ponteak, zurezko taparekin estalita; eta ga&ntilde;ean dago tallazko iduritxo bat, beatzarekin beerontz si&ntilde;alatzen duena, diola Euskeraz:</p>
+<p>&laquo;Ementxen batiatuba naiz&raquo;.</p>
+<p>Aurrenengo izengoiti itzat Loiola eramatea anzi&ntilde;ako oitura batetik zetorkion, ze&ntilde;a zan ondorengo semeai aitona lenagokoen-batena ezarritzea bakarrik lenijaioa edo maiorazkoa, aitarenareki&ntilde; gelditzen zala.</p>
+<p>Umetandik asi zitzaion Ama Birji&ntilde;a Maria guziz-Santari eta San Pedro Apostolu gloriatsuari beti iduki-izan zien jaiera bizia. Ala noski zuzenbidetzen zuen Jaungoikoaren begiruneak, ondorean esango degun bezela; eta jaiera biyak nunbait-ere sortze berezkoa Loiola inguruko bi Ermitetatik izan bear zuten, ze&ntilde;etara sarritan bakarrik edo etxekoakin juan oiko zan; bata dago Izarraitz azpiko Loiola Azpeiti bitartean, Ama-Birji&ntilde;a Olazkoaren izenarekin, eta bestea berriz San Pedro Egimendirenarekin urreraxeago, eta O&ntilde;azmendira goazela, aldaparen asieran, biurtua ordea baserretxe izen berarekin eunkida onen 35en urtetik. O&ntilde;azkoen etxe izana dago mendiaren erpi&ntilde;ean, anzi&ntilde;akoa bera ezpada ere oso, bada oraingoa guztiz obra gerozkoagoa da eta Granada-Egako dukeari dagokio.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>2.<SUP>en</SUP> BURUA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>Bere gaztetza</hi></p>
+<p>Bat edo bestek esan dutena, eze, bere izeba edo aide urrekoren batekin Arevalon gaztetzako urteak igaro zituela, ezerezeko arrazoi-antza duena da; bada indar-gitxikoak dira A. Henaok eta beste nork edo nork artarako dakarzkiten probagaiak. Egiyena da, eskola-gauzak bukatu ondorean, Errege Fernando Fedeosodunaren gortean paje edo jarraile-gazte, bere gurasoak ipi&ntilde;iazi zutela.</p>
+<p>Jauregietako lanikez eta erregaloakin nunbait, eta anbat ere soldadutzak gazteetan berez dakarkien libretasunarekin, eman zan zerbait txorakeri eta zabarkerietara; eta ainbestera&ntilde;o eze, bere kondairatzaille egitsuen Ribadeneirak deitu zion <hi rend='Italic'>soldadutzar zorakerizalea, </hi>nun eta esaera orretan geiegiren bat arquitzen ez dan; bada lekuko sinisgarrietatik agiri dana da, orduan bertan ere zaldun Kristauzkoen antzera zebillela; bada begirune ederra zeukan gauza sagraduenzako; arreta andia minga&ntilde;arekin; biotz zekentasun eta gutiziaren aztarnarik ere etzuena, ikusi zan bezela Komunidadeak zeritzaten Gaztelako iskanbillaetan Erregeren tropak Najera arrapatzean, ezertxo-ere beretu nai gaberik; ga&ntilde;era bere onginaia etsai zituenakin ere laster adiskidetzeko; kementasun guztizkoa gauza zalletarako, bere urteaz ga&ntilde;eko prestutasuna; eta trebetasunik pi&ntilde;enetakoa, gizonai igarri ta borondateak irabazten.</p>
+<p>Bertute ta doai eder oiez ga&ntilde;era, soldatu-lanetatik libre, asti piskatxoren bat zeukanean, aritzen zan noiz edo noiz San Pedro Apostolu gloriatsuaren alabanzan erezi edo berso-aldi jaierazkoak moldatzen; ai&ntilde; zaletua zegoan bere aza&ntilde;a eta bertuteaz, ba&ntilde;a batez-ere bere leialtasun eta portiztasunaz, ze&ntilde;areki&ntilde; Oliveteko penditzean, ainbeste jente gaixto armaturen bildurrik gabe nai izan zuen bere Maisu Jainkozkoa kemen andiaz ta ganibetaz-ere gorde ta eskudatu. Ez da ordea zer zalanzan ipi&ntilde;i, bere Apostolu Santuarenganako jaierak, aitatu diran gauza oietan ba&ntilde;o, sustrai mardul beragoak zituela Jaungoikoaren asmoan, ze&ntilde;ek ala agintzen zuen, denbora sasoikoan bera berez eta bere seme garaizaleaz, irten zedin Eleiza Santaren alde eta zabaltzerako, egonik au San Pedro eta bere o&ntilde;ordeko Erromako Aita Santuen fede, aitormen eta lenentasunean, arkaitz gogor batean bezela, sendo ezarrita.</p>
+<p>Alaz guztiaz ere, bide-ona utsegi&ntilde;ik bizi izandu zan ogeita sei urteetara&ntilde;o. Zenbat zituenik ezta senti, galai irme lirai&ntilde; ta arroa ta arma-gauzetara, bere aurreko ta anaien eran, zaletua zebillela, Najerako Duke eta Naparroako erregeorde Don Antonio Manriqueren banderapean <hi rend='Italic'>borondatezkoen </hi>edo <hi rend='Italic'>si&ntilde;alatuen </hi>artean dirudienez orai&ntilde; esan oi dan bezela, izendatu zanean.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>3.<SUP>en</SUP> BURUA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>Iru&ntilde;eko gaztelua portizki eskudatzen du</hi></p>
+<p>Ogeita amar urtereki&ntilde; Errege serbitzen ziarduen, itzali gabetanik oraindik zearo Komunidadeen gerra sutu galgarria.</p>
+<p>Irten zan nunbait Erregeordekoa, Enperadore eta era-berean Errege zan Carlos V kanpoan zala, erresuma eraentzen zuten andizkiakin Segovian alkar-ikustera, Iru&ntilde;eko sutunpadiya aurretik bialtzen ziela; eta lagun gutxi bertan gordelari utzitzen zituela, ze&ntilde;etatik bata, ala-bearrez, gure Ignazio zan.</p>
+<p>Berandutxo bederik, oartu ta baliatu zan une egoki onetzaz Franziko errege Franzisko Ia, eta Noionen enperadorearekin egindako pakeak ausirik, bere ku&ntilde;adu Enrique Albrit, edo de la Brit zeritzan errege Naparroakoari lagundu nai izan zion. Orretarako Naparroara, ze&ntilde;a orduan D, Fernando fedeosodunaren mendean zegoan, gerrari-talde galant bat bertatik bidaldu zuen, ze&ntilde; 1521garren urteko Orrillean, Roncesvalles-aldetik erasorik Uri-nagusiyan sartu zan.</p>
+<p>Izanik gazteluko jendea, Sandobal Cesaren kondairatzalleak dionez, eskaxa eta ergela, desailaitu ta makaldu zan bereala, eta jarri zan tratuak egitera, eta toki hura franzesai eskuratzera, bertako Alkate Francisco Herrera berak ere kontra gogorrik egin gabe. Ignazio ordea, zaldun ausarditsu ta leialaren gisan, asarratzen da biziro; ezpata artzen du; eta ainbeste aldezake bere begi-bizi ta itz-sutuakin lagun bildurti aietan, eze, guztiak batean erabakitzen dute kontra portizki egitera, eta prestubak bezela ill edo garaitu.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>4.<SUP>en</SUP> BURUA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>Eritzen dute</hi></p>
+<p>Bi edo iru egun erreskadan iraun zuen gogor pranzesak, murruak artilleri sendo batekin sutunpatzen.</p>
+<p>Puskatuak zituzten ateak tiroka, eta alde batetik bretxa irikiya; ala ere, setiatuak bildurraren izpirik gabe, alaitzen ziradela galanki, beren aurrean ainbeste ausardiz ari-zan Gizpukoatar galai arroarekin. Ba&ntilde;a badatorkio alako batean balatzar bat, anka biyetan ematen diola, eskuikoa ga&ntilde;etik printzaturik; eta au naikoa izandu zan, makaldurik lagunak gaztelu-gordetzari bertatik utzitzeko, eta kontrakoengana menderatzeko.</p>
+<p>Gertaera au izandu zan 1521garren urteko Maiatzaren ogeiyan, eta alabearrez Espiritu Santuko Pazkoa-bigarrenean. Ondorengoetan, gaztelua bota zanean erituba izan zan lekuan kapilla edo basilika dioten eleizatxo agiri bat egin zan, ze&ntilde;ak gaurda&ntilde;o dirauen betiko oroimen otsandiko hura eta Santu Aita-len-goaganako uriaren jaiera ere azaldurik.</p>
+<p>Garaitzalleak begirune ta modu onekoak I&ntilde;igo erituarekiko, izan ziran, eta bere kemen ez-nolanaikoaren miratzalleak; eta nor eta ze&ntilde; etxe purubekoa zan jaki&ntilde;ik, etxera-zedi&ntilde; modua egi&ntilde;erazi zuten, ekarten zutela esku-silla edo katabera batean Loiolara&ntilde;o zenbait gizonen artean.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>5.<SUP>en</SUP> BURUA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>Sendatzen berriro jartzen da</hi></p>
+<p>Zala Iru&ntilde;-en zebiltzen sendatzalle pranzesen batzuen jaki&ntilde;ezaz, zala bideko mugitzeagatik, etxera etorrita oiratu zuten orduko, agertu zan bereala sendakizuna berritzearen premiya, eta burniren batzuekin eta ondorengo diran o&ntilde;aze-mi&ntilde;aki&ntilde; bi ankaetatik gaizkien gelditua, ze&ntilde;a, esan dan bezela, eskuia zan, polliki polliki luzetuerazi bearra: eta orretan guzian ez da errez beregan zer geiena miretsi, edo o&ntilde;azeen gogortasun sami&ntilde;a, edo oiek eramaten bere portiztasuna; bada ez aienetxo bat esaterik, ez kolore aldatzerik zuen; ezpada egiten zuena zan, ekubillak estutu eginkizun izugarri aiek zirauten bitartean. Oietako bat, eta ezi&ntilde;-esan-alako biyotztasun ta kemenarekin pasa zuena, izandu zan, obetutzen ainbestean aurreratu zan garaian bertan, belaunpean irten zitzaion ezur galant bat, berak ala naita, ondo-ondotik zerratutzea.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>6.<SUP>en</SUP> BURUA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>Bere onbiurtzea, eta zenbait mesede miragarri zerutikakoak bereganatzearen asiera</hi></p>
+<p>Gaitzak okerragora eman zuen. San Pedro bezperan elizakoaki&ntilde;, etsita, eta puntutik-unera eriotzaren begira arkitzen zan, agertu zitzaionean gau artan bertan Apostolu Santuba, osasuna ai&ntilde; osoa zekarkiola, eze, bereala, perillik gabetanik ikusi zan.</p>
+<p>Obetu zanean, gaixtakeri guzien sustraia dan alperkeritik alde egitearren, irakurtzeko zaldunkeri kontuetako liburu batzuek eskatu zituen ze&ntilde;atarako beti gri&ntilde;a andiya izan zuen, ba&ntilde;a batez ere Amadis Gaulakoaren ipuizko egintza andietarako. Ba&ntilde;a Jainkoak nunbait ala naita, etziraden arkitu, eta orda&ntilde;ez beste bi guztiz besterakoak eraman ziozkaten, bata <hi rend='Italic'><foreign>Flos Sanetorum</foreign></hi> edo Santuen bizitzetakoa, eta bestea Jesu-Kristo Gure Jaunaren bizitzakoa, ze&ntilde;, A. Bartolik gure Santuaren italianozko luze ta ugariyan dionez, zan gaztelaniaz itzulita, Landolfo edo Ludolfo kartusianoak moldatu zuena bera.</p>
+<p>Eta berriro ager-dedi&ntilde; zenbatera&ntilde;oko ongi andiak dekazkien liburu onak irakurtzeak (nola ere bestetik ezi&ntilde;-konta-alakoa dan gaixtoak dakarten ondamen galgarria, naiz oraingo paper, infernuko asmakizun, eskuz-esku dabiltzan oriek bezela, orri gutxikoak izan), argitu zitzaizkan adimentuko begiak leetutze ai&ntilde; probetxu ta Jainkozkoarekin, eta beregan ordutik bere onbiurtze zorionekoaren su txingar biziyak sentitzen asi zan.</p>
+<p>Ordea abiatu zan bere barrunbean despitarik gogorenetakoa, batetik aragizko edo gorputzeko loxentxa eta munduko itxodongizunak zituela, bestetik berriz, Jainkoaren graziak gozoro ta portizki beregana deitu eta zaletutzen zuela. Luzaro ta gogor despitak iraun zion; ba&ntilde;a azkenean alaere garaimena jaunarena izandu zan, ze&ntilde;ak, San Pabloren gisara, bere gloriaren zabalkida txit andi eta ezi&ntilde; kopuratu-al animen salbamendurako autatu zuen.</p>
+<p>Gelditu zan bada, santurik goienetakoei ta guzien gai&ntilde; Santu danen Santu danari jarraiturik, bere burua oso bestetzera, penitenzia gogor batera, eta bizitza santa ta obeenekora, beti-betiko erabakita.</p>
+<p>Egun gitxi-barru oraindik, beste ontarte ta zeruko eskuerakutsi goragoko batekin Aingeruen Erregi&ntilde; txit itzaltsuak, bere Seme ezi&ntilde;-obea besoetan zekarkiola, mesedetu ta ikustalditu zuen, ezi&ntilde;esan-alako gozotasunez anima ase ta murgildurik; eta ga&ntilde;era kastutasun ai&ntilde; garbi ta aingeruzkoz edertu ta aberastuta utzitzen zuela, ze geroztik etzuen egunda&ntilde;o zirika edo tentaldi ezonestorik senti izan.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>7.<SUP>en</SUP> BURUA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>Bere bertute garaien lenengo azalduera</hi></p>
+<p>Ez da zer zalanzan ipi&ntilde;i, santuak santu, bertutez apaindu ziradelako, zirala, eta batez ere danen erregi&ntilde;a dan karidadea-gatik, eta edozei&ntilde;ek daki ez dagola beste biderik zerurako. Danak-guztiyak iduki izan zituen gureak goieneko mallan, ba&ntilde;a ala ere, noiz eta noiz, denbora, leku, egiteko eta beste gauzak eskatzen edo berez ziotenez, batzuek besteak ba&ntilde;o geixeago azaldu eta gorago agertuazi zituen.</p>
+<p>Eta aurrenengo, bidezkoa da izan-ere arreta pixkatxo bat bague ez pasatzea, bere Erregerenganako zeukan leialtasun bene-benetakoa, eta jaioterriaren-ganako onginai ta maitetasun txit biotzekoa (bertute oek alegiya, Erlijiorekin batean, anzi&ntilde;a-anzi&ntilde;atik Espa&ntilde;atarragan ta beren bizimoduetan sustraituak daude) ze&ntilde;aki&ntilde; gure Ignazio andia aurkez-aurke balazoetara jarri zan, eta bere onore-tokiya gordetzearren, eriotza igarotzera&ntilde;o ere eske&ntilde;i zan, eta lan irriskatu artatik mi&ntilde; eta damu gorriyan atzeratu bearra izan bazuen ere, probatu ta agertuazi zituen beintzat ederki ta galanki bere prestutasun eta biotz-anditasuna.</p>
+<p>Bere ta mundu osoaren ainbeste onerako, santutasuneko bideari jarraitu zion bezi&ntilde; laixter, beste bost bertute, guzien artean, are bitoreagoak, gallortu eta kopeta altxatzen bezela beregan asi ziran; oek ziraden, Jainkoaren gloriagatik gauza andiyai erasotzeko <hi rend='Italic'>kementasuna; </hi>aiek ondo bukatzeko, muga-bagero <hi rend='Italic'>ustea </hi>Jaungoikoagan, bere esku ta mesedearekin; gure Erakusle ta Erredimitzalle txit Santua-renganako <hi rend='Italic'>amore </hi>biotz-biyotzekoa; entero urretik bere ibillera erakuste eta egiteai segitzeko <hi rend='Italic'>erabakiera; </hi>eta gure Ama Andre Birji&ntilde;a-renganako <hi rend='Italic'>jaiera </hi>bigu&ntilde;, semeti, egiazko, iraunkorra, ze&ntilde;a gero I&ntilde;igo Santuak bere semeai ainbeste gomentatu zien, eta da zeruratuko diran guztien si&ntilde;ale zorionekoa. Danetan irme ta pijo aurreratu zan, azkenera&ntilde;o i&ntilde;un geldi bage, beren betealdiya ta silluba bezela <hi rend='Italic'>iraute-onarekin </hi>egotzi ta emanaz, eta i&ntilde;oiz-ere bere serbitzari leialenakgatik maitatsu, ongille, ta oparo izaten garaitua izatea ezi&ntilde; eraman duen Jauna, guztizkoa izandu zan beretzat ai&ntilde; autatua zeukan onekin.</p>
+<p>Nolatan ordea? Jainkoak berak aurkezten ziozkala jaki-gozo-bat bezela, milla ta milla bide, eta egi&ntilde;tekorik zallenetakoak ze&ntilde;etatik bere izen-guziz Santuaren gloria ta onore txit aundia sortu zan; esku-emanik beste asko alditan, beragatik artaratu zan perill, neke, lan ta gora-beraetatik pake onean atera ta salba zezan; pagaturik bere amore semeti eta irazekia beste muga-bageko aundi eta gozoagoarekin, eta bere albo-alboan gerrari leial eta bortitzenetako baten gisan eramanik, izan zedi&ntilde; peliatzen, garaitzen, sari eta merezierak iristen beraren antz andikoa, eta beti bere Ama Birji&ntilde;a guziz Santaren seme leial eta mesedetua.</p>
+<p>Gauza banaka ta bakoitzaren ga&ntilde;ean erautsizea, ez darama ongi laburkida baten estutasunak. Ikusi leizkate ordea oiek irakurleak, gure Santuaren iru bizitza ai&ntilde; eder diraden edoze&ntilde;etako baten, ze&ntilde;ak, beste askok bezela, A. Pedro Ribadeneirak izkribatu zituen, bi laburrak gaztelaniaz eta lati&ntilde;ez, irugarrena alaba&ntilde;an askoz luzeagoa, nun era-berean bere Erlijio sagraduko zertarako ta bizilegearen arrazoi txit garbi zearoa eman zuen, gai onen ga&ntilde;ean argitaratu bazuen ere beste obra berezi balio ez gutxiagoko bat, onako izen onekin: <hi rend='Italic'>Lagundiko gauzeen zergatikakoa.</hi></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>BIGARREN PARTEA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>Ikasten asi zan artera&ntilde;oko San Ignazioren eginkizun eta bertute lenendariyenak</hi></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>1.<SUP>o</SUP> BURUA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>Bere etxea utzi eta Monserrate-alderonz irteten du</hi></p>
+<p>Arestian aitatu ditugun asmo eta pensakizun goitiyak bere barrunbe alaian zerabiltzkiela, doi-doi ta osta-osta, senda-berriya oraindik o&ntilde;en ga&ntilde;ean zebillela, jaioterri ta aideak betiko oso utzitzea erabaki zuen; eta Monserrateko bakartegi ospatsura aurrenengo erromerian joanik, gero Jerusalengo leku Santuetara pasatzea, an, bide-jarraileai serbitzen, gertatu ziraden tokietan bertan gure Erredenzioko ezkutamenak gomuntatzen, eta fedeko egiakin fede-gabeak argitu ta erakusten, bizi guztiya igarotzeko ustean. Garaiturik bada etxekoen eta batez ere bere anaia zarren Martin Garciaren kontraldiyak, beste anai bateki&ntilde; eta bi morroi lagun zituela O&ntilde;atirako bidea artu zuen, nun bere arreba-bat ezkonduba bizi zan; laxter igo zan ordea andik Ama Birji&ntilde;a Arazazukoaren jaierazko Eliza ta komentura, ze&ntilde;a erriyaz gai&ntilde; Alo&ntilde;a-mendijaren eguartealdera arkitzen dan, eta gau bat osoa an Ama Birji&ntilde;a txit Santa beraren aldare-aurrean ernai igaro zuen, urte batzuez geroz I&ntilde;igo Santuak berak eskribatu zion bezela Erromatik San Franzisko Borjari (1554ko Abuztuaren 20an) onako itz oieki&ntilde;: &laquo;Zerbait nere bizimodua zuzentzeaz Jaungoikoak mesedetu ninduanean, oroitzen naiz ondo protxu-egi&ntilde; ziola nere animari, gaba elizbarru galant artan ernai igarotzeak&raquo;: ze&ntilde;ak bere esaera ai&ntilde; umillarekin adierazten dute noski, mesede guzizkoren bat nunbait ere Ama Andre Birji&ntilde;ak an egin ziola.</p>
+<p>Lagunak atzera bialdurik, joan zan andik bakar-bakarrik, bere aide egiten zan Naxerako Dukeari ere Navarreten agur egitera. Valenciako erresumatik barruna, Catalu&ntilde;a aldera zijoala, moru pakezkoak deitzen zitzaiezten-etako bateki&ntilde; topo egin zuen. Izketan asi ziran eta gai batetik bestera beren erausian Ama Birji&ntilde;aren Birjinatasunaren ga&ntilde;ean tratatzera igaro ziran. Birji&ntilde;a Birji&ntilde; jaiotza Santu ordorean gelditu zala, ukatzen zuen oso mairuak; orduan alaba&ntilde;a Ignazio, asiberriaren jaki&ntilde;ezarekin, bai-ta ere ordea Kristau-zaldun mallazkoaren-gisan fedegabe hura birau argatik illko zuen edo ez, zalanzan egondu zan. Zer egi&ntilde; etzekiela, beregan pixka bat sartuta gelditurik, bidean aurreratzen utzi zion, eta pensatzen jarri zan bere artean; eta azkenean erabagi zuen eze, baldi&ntilde; bera zeraman muxal edo zalditxoak agiri ziran bi bideetatik mairua zijoana, eta au onena eta erosoena segitzen bazuen, arrapatu eta dagarekin pasatuko zuela; ba&ntilde;a, Jainkoak ala naita, bide okerren eta zakarrenetik abereak artu zuen.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>2.<SUP>en</SUP> BURUA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>Jesu-Kristoren soldatutzako armak gabaz Monserraten zaitzen ernai gelditzen da</hi></p>
+<p>Monserratera igaro orduko, bere lendabiziko egitekoa izandu zan, D, Juan Chanones zeritzan San Benitoren ordenako monje edo bakartar batekin iru egun osoan konpesio jeneral edo pekatu guztien aitortze danik damutuenetakoa ta biotzezkoa egitea. Urrengoan, beartsu bati bere janzi eta apainduriya ederrak eman ziozkan, eta asmoan zeuzkanak, ondo bestelakoak ala ere, janzi zituen; ze&ntilde;ak ziraden, kalamuki saku bat, burnizko katea soka batekin goapillatuta, espartzuzko o&ntilde;etakoa eskuikoan, bestea agirian zuela, eta eskuban berriz uretarako kurkubitatxoa zinzilika zeraman bide-jarraileen bordoia. Eta zaldun asiberrien oiturari jarraitzeagatik, (ze&ntilde;a izan oi zan ezpata lenengo janzitzen zuten egunaren aurreko-gaba esnaa arma gordetzen igarotzea), Ama Birji&ntilde;aren Berri-on-edo Anunziazioko-pesta-aurreko gabean (1522 garren urtean) gelditu zan ernai, espirituzko bere soldadutza berriaren armak gordetzen, ze&ntilde;ean ordutik beti-betiko Birji&ntilde;a-txit-Santaren aldare-aurrean izendatzen zan.</p>
+<p>Aberea bakardegi edo monasterioan utzi zuen; ainbeste ordura&ntilde;o maite izan zituen ezpata eta doga edo traketa elizako pillare batean ixegi zituen; eta egun andi hura argitu ba&ntilde;o lentxeago Jauna-arturik, irten zan i&ntilde;ork ezagutu etzezan egunsenti berean, eta o&ntilde;ez belaun-gozo onarekin Mandresa-aldera jo zuen zuzen zuzen; ezagutu zuen orregatik Barcelonako emakume-on Ines Pascual zeritzanak, Santutegi bera albistaturik, beste jendearekin jetxitzean, eta aldatzean topo-egi&ntilde;ik, itzekin zion, eta gidatu zuen Santa Luciako gaixotegi edo hospitalera.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>3.<SUP>en</SUP> BURUA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>Mandresan eraman zuen bizimodua</hi></p>
+<p>Damupena ta humilkizunetara oso-oso emateko zeraman asmo sendoa betetzen Manresan bereala kemen andiarekin abiatu zan.</p>
+<p>Ala-bada, debekatu zion bere buruari bizitzeko ere bearrenetakoa zuena, lo gitxi egiten zuela, eta oia lurrean, arri edo zur puskaren bat burkotzat zeukala. Denbora asko gabaz igarotzen zuen, zala otoitz txit arretazkoan, zala gogor bere gorputza azotatzen eta zeatzen.</p>
+<p>Goizean-goiz bereala meza enzun, eta beste eliza kantu ta erregualdietan jaiera ta poztasun guztizkoarekin ego oi zan. Igandeaz kanpora, aste osoan ogi-uraz barau egiten zuen, ogia bera ere eskean bilduta, beltz eta gogorrena beretzat arturik, onena beste pobre edo beartsuai emanik. Eta bere jantzi edo sakupean zeramazkien ga&ntilde;era zilizioa ta burnizko katea gerrian lotuta, burua berriz orraztu bage eta illea naaspillaturik, eta luze-luze azkazalak.</p>
+<p>Gogorrak ziraden alegia gauza oiek guztiyak, eta labur izatearren aitatzen ere ez diran beste asko; ba&ntilde;a kemen andiagoarekin oraindik ere eraso zion bere burua ukatzeari, eta gri&ntilde;a gaixtoak ilduratzeari; bada gure izate ergel oni aldatzena ta gogorrena egiten zaion hura guzia gogoz laztantzea, lege ezi&ntilde;-ausikorra bezala beretzat artu zuen, asmaturik eta billaturik ga&ntilde;era bide ta moduak utsean-idukia izan zedi&ntilde;, eta eresi bete-betean bere odol ospatsu eta noblezarekiko arrotasun eta galaitasuna oso menderatzeko.</p>
+<p>Ga&ntilde;erako eguna pasatzen zuen, batean gaixoai egitekorik bajuen eta naigabetsuenetan ere serbitzen da morroitzen, bestean berriz eskean atez-ate; eta asieran limosna edo amoina ba&ntilde;o gaizki-esaka eta humillkizun geiago baturik, ba&ntilde;a ezagutu zutenean geixeago, iseka ta burlak begiramendu ta errespetoan bereganako biurtu zitzaizkan.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>4.<SUP>en</SUP> BURUA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>Bere gonbate ta erasoak etsaiarekin, eta aitzuspe batean igaro zuen bizitza</hi></p>
+<p>Etzegoan ez lo eta oartu bage bitartean inpernuko deabruba zirikatu eta atsekabetzen zuela, bururaturik txit azkar, eta begien aurrean ipi&ntilde;irik beeratasun artatik berari ta bereai nai ta nai-ez etorriko zitzaien desonra. Ignaziok alaba&ntilde;an zeruko argitasunarekin igerri zion, eta gaizki&ntilde;ak botatzen zion sarea ezaguturik iges-egin zion beste beartsu eta pobreen artean sartze utsarekin, berenetako nazkagarrien batekin laztantzen zala, eta berarekin igualean adiskiderik kutunenaren eran tratatzen zuela.</p>
+<p>Laxter billatu zuen Uritik urrean aitzune ezkutatu bat, eta an ordu asko gabaz eta egunez igarotzen zituela, anzi&ntilde;ako eremutarren gogorkizunak beregan berritu zituen, barauaki&ntilde; oso ergeldua zeukan gorputz hura azotaldi odolezko asko ta askoreki&ntilde; zeaturik, luzaturik ordu segitu askoan, eta geiyenean belauniko egi beti-betikoen gomuntatzea edo pensakizuna, eta itz batean, ez gizonen, ezpada zerutarren bizimodua zeramala eta agertzen zuela.</p>
+<p>Aitzbitarte ospatsu hura gaur jende asko dijoakion santutegi eder jaierazko batean biurtua arkitzen da, kapilla ta jarduntza santuetarako etxea ere Jesusen Konpa&ntilde;iak an ditubela.</p>
+<p>Ba&ntilde;a ordea, ainbestera&ntilde;oko damukizun edo penitenzi-neurrigabeak (bada ainlakotzat gero santu berak iduki zituen) aurki oso auldu zuten; eta urdalla edo estomagoa makaldu zioten, eta gaixotasun andi batean erorita, iya-ia eriotzako tranzean egondu zan; eta orra zergatik etsaiak beste sare-bat ere zabaldu zion, alegi&ntilde;ean klaru begien aurrean ipinten ziola ezi&ntilde; zezakeala i&ntilde;olako moduz gogor-aldi aiyekin iraun oraindik bizi bear zituen beste berrogeita amar urteetan. Igerri zion ordea berriz-ere, eta irrist iges-egi&ntilde; zion esanaz: <hi rend='Italic'>&laquo;Eta alderakidak ik, doakabe orrek, agintzen dizkidakan ainbeste urteetatik puntutxo bat ere segurutzat eman...?&raquo;.</hi></p>
+<p>Etzizaion orregatikan ere deabrua atzeratu, ezpada eriya medikuagandik lagata, eta orduoro eriotzako zorian bezela zegoan une artan bertan, bazirudien bere barrunbean esaten ziotela ezik, alegriyaz arren eriotza itxodon bear zuela, bada ainbeste barau, damukizun, birtute ta merezierarekin aberastua zegoan ezkero, santua zala i&ntilde;olaz ere. Lenagokoai igerri zien argi berarekin ikusi zuen ere Ignaziok urrengo sare au, besteak ba&ntilde;o ere perill geiagokoa; eta ezi&ntilde; botarik beragandik alegi&ntilde; guztiaz-ere bururazio beti ga&ntilde;ean zetorkion hura, eriyotza bera ba&ntilde;o ere eramankizun gogorragoa egiten zitzaion.</p>
+<p>Orduan bada ederki egin zuena izandu zan, oroimen biziarekin bere leenagoko pekatuak gogoratutzea, eta Jainkoaren erruki ta kupiratasunean uste guzia jarririk, damu-onezko egi&ntilde;tza asko biotzez egitea, eta onela iges-egi&ntilde; zuen gaitzik gabe debruaren eraso gogorretik. Gelditurik ordea eki&ntilde;aldi latz artatik oso nekatua eta bildurtua, bere itz eta sentidu guziak berriro, Jainkoak ala naita, biurtu zitzaizkanean, bereala laguntzen zeuzkan personai erregutu zien, berriz eriotzako zorian ikusten bazuten, arren deadarka belarrira berari esateko: <hi rend='Italic'>&laquo;Oroi ari, pekataria, oroi-ari, egi&ntilde; ditukan ainbeste kulpaz, eta berak gatik merezi ditukan penaz; eta ez uste zerua iritxi dekala, ezpada inpernua merezia daukakela&raquo;.</hi></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>5.<SUP>en</SUP> BURUA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>Eskrupulo edo artukitzeen batallea</hi></p>
+<p>Etzan orrenbesterekin ere mendetutzat eman deabru gaixtoa, ala-nunbait Jainko gure Jaunak utzirik, bere serbitzallearen on askorako; zerren bertutez kargatua dijoan ontzia, tentaldiyen lastrerik gabe, ondatzeko zoriyan dabillen.</p>
+<p>Izugarria izandu zan, etsaiyak artarako zirikaturik, eskrupulo edo artukitzak, konpesiotik o&ntilde;a arturik, erakarri zioten gerra, gaizki egi&ntilde;a ote zeukan edo ez oso kezkaturik, eta uste zuela gaixtoa zala ga&ntilde;era egiten eta pensatzen zuen dana guzia. Emendik legortasun eta tristura aundi bat sortu zitzaizkan, eta Monserratera sarri biurturik, San Benitoar bere konpesore onaren o&ntilde;etan, malkoa plei-plei zeriola irauli arren ere, eta ark modu onez konsolatzen eta paketzen bazuen ere egi&ntilde;alean, dana zan gutxi beretzat; eta ainbestera&ntilde;o tentakizun ark estutu zuen, ze, uste guztiyak galdurik, bere burua leio batetik bera botatzeko egon zan; ala ere kemenez kontra egi&ntilde; zion, agitz esanak: <hi rend='Italic'>&laquo;ez det orrelakorik egingo, ene Jaungoikoa; ez nik egundo zure kontra ai&ntilde; gaiztakeri ta pekatu izugarririk&raquo;;</hi> era berean, itzez ba&ntilde;o ere geiago negar-malko ta suspiruz bene-benetan erregutzen zion, bada lurrean pozik topatzen etzuen ezkero, arren berak goitik oso errukiturik bialtzeko. Jaunak ordea utzi ta utzi gogorki bere eramakizun ta batalletan, ez bere onerako baizik, ezpada beste askorentzako, zei&ntilde;aen aita ta maixu ondorean bera izatea nai zuen. Onetan nekatua arkitzen zala, oroitu zan Santuen bizitzaren baten nunbait ere irakurri zuela eze, bein bat, era-artako gerraditik libratzearren zortzi egun erreskadan ez-jan ta ez-edan egondu zala; eta puntutik, beste ainbeste egitera jarri zan, larunbat batetik bestera&ntilde;o bokadu bat probatu eta txurrut bat ur ere edan gabe; gauza egiyaz mirari-agiri bat bage gerta-ezi&ntilde; zeikeana. Eta asmoa zedukan artan aurrera segitzeko, etzan alaba&ntilde;an atrebitu alakorik egitera bere konpesorearen iritzirik bage, eta onek azkenik arrazoiz utzi-erazo ziozkan geieki aiek, bere-bereala jan zezala aginduaz. Eta nola bai Jainkoaren nai-ederrekoa dan lurrean bere ordeak egiten dituztenai guk zintzo obeditzea, asko izandu zan gogoz bertatik Ignazio obeditzera jartzea, ordu berean itzal beltz aiek kentzeko, adimentua oskarbitzeko, eta lenagoko sosegu ta gozotasun hura guzia oso beraganatzeko.</p>
+<p>Onela saristatu zuen Jaunak nai izan zuenean, zeruko erregalo ta doaiyakin bere serbitzari leialaren obedikizuna, onela bere amorez eramandako neke ta erasoak, ta onela batez ere ai&ntilde; bereala agertu izan zion biotz-ontasun ta ema-naitasuna berari atsegin eman eta morroitutzeko, ez bere protxu ezerengatik, ezpada Jaungoiko beraren gloria ta alabanzarik andienerako.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>6.<SUP>en</SUP> BURUA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>Zeruko mesedeak</hi></p>
+<p>Abiatu zitzaizkan aurrerakoan anima guztiz mesedetu ta kutunai eman oi zaizten ontarte ta gustorik atsegintsuenetakoak, nola bai ziraden zenzuzte ta kordegabetze zeruzkoak, eta bere almenen goiratzeak, ze&ntilde;akin, gizon illkorrak aldezakeanez, ikusten zituen zearo Fedeko egiyak, eta batez ere Jainkoaren izatea bera, eta Irutasun edo Trinidade guziz-Santuko ezkutamen itzaltsuba; orobat jauna Aldareko Sakramentuan arkintzen dan bezela, bai ta ere askotan Ama-Birji&ntilde;a guziz-Santa, ze&ntilde;ek, aitzuspe artan batez ere, nun ainbeste ordu gau ta egun pasatzen zituen, bisitatu zuen sarritan ikustaldi ederrakin, bai eta ere poz-atsegi&ntilde; ezi&ntilde; esan-alakoakin ase ta bete. Eta ai&ntilde; klaru ta egitsuak ziraden agerkera oiek guztiyak beretzat, eze, esatera&ntilde;o allegatu zan; <hi rend='Italic'>&laquo;baldi&ntilde; Eskritura Sagraduko liburu danak galdu baziran ere, etzala izango ezer beretzat galdurik, eta berak dakarzkiguten egi edoze&ntilde;en alde bere bizitza emateko prest zegoala txit&raquo;.</hi></p>
+<p>Agertu ziozkan orobat pilosofi edo egokindeko eta beste ezkutakizun eta ezaguera barrutuenetako asko; orniturik ga&ntilde;era bere doaiezko emaitzaekin, espiritu motai antz-eman ta igerritzeko, eta beste onelakoak; eta ori guzia a&ntilde; argi ta garbi, ze gero zarzaroan ere esan oi zuen: <hi rend='Italic'>&laquo;Ordura&ntilde;o gerozkoan gure jaunak bere erruki-onez erakutsi ziona eta berak gero bere burutasun eta lanarekin zeruko gauzen ga&ntilde;ean iritxi izan zuen ezaguera dana guzia batuta ere, etzala Cardoner-ibai ondoan eta Tort-guruzpean eserita jaki&ntilde; izan zuanera iristen&raquo;.</hi> (Ibai ori alaba&ntilde;a eta Tort izena duen gurutzea Manresa inguruan daude).</p>
+<p>Ba&ntilde;a an artutako mesede egunda&ntilde;oko ta andiyenetako bat izan zala dakigu zorzi egun osoko kordegabetze mirarizkoa, Santa Luziako gaixotokian zegoala gertatu zitzaiona, esanaz aoz atzenean esnaaturik goxo-goxo <hi rend='Italic'>&laquo;Ai, Jesus!&raquo;</hi> izanik gertakizun onen ga&ntilde;ean bere lagun eta leenengo Aita guzien iritzia, une artan Jainko gure Jaunak animaren begi-aurrean garbi ta zearo jarri ziozkala, berak ipi&ntilde;i ta zuzendu bear zuen erlijioaren sortukizun, traza-modu, zertakotasun eta eki&ntilde;aldi gloriazkoak; baita ere mundua mundu dan arte izan bear zituen seme-samalda andiyak, batzuek Santuen artean izendatuak, besteak gizonik bitore ta argienetakoak, eta guztiyak bere Izen Santua gooratzeko ta azaltzeko, bere Esposa Elizaren ondra ta babesa berri irmerako, eta ezi&ntilde; konta al anima salbatzeko.</p>
+<p>Ba&ntilde;a ontarte ori andienetakoa izandu ezpazan, konta dezagun beste bat goien-goienekotzat, ainbeste gizonen onerako eta ai&ntilde; iraunkor eta denpora luzekoa izan bear zuelako; au da gure Jaunak eta bere Ama Birji&ntilde;a bedeinkatuak albistatzea, eta laguntzea ta eragitea Jardunbide Espirituzkoen liburu miragarriaren parterik geiena ta bika&ntilde;ena beintzat an bertan konpontzen eta zuzentzen; liburu onek alaba&ntilde;an zeruan diran izarrak ba&ntilde;o anima geiago birtuteratu ta birtutean osotu, santutu eta zeruratu ditu, eta geiyago ta geiago ai&ntilde; bide on eragille ta seguruarekin munduaren ezkenera&ntilde;o Jainkoak salbatuko dituela uste degu.</p>
+<p>Bere bakardade sarrienetako aitzulo aretzaz ga&ntilde;era, lau etxek batak bestearen urrena Santuari ostatu emateko ditxa izan zuten. Lendabizi, esana dan bezela, Santa Luziako gaixotegiyan bizitza igaro zuen. Geroxeago pasa zan orobat Ines-Pascual berak eratu zion etxe ondradu batera. Gero berriz guztizko karidadez Aita Santo Domingokoak beren komentu edo bizitokiyan euki zuten. Eta azkenik bizi izan zan, entero kristau onak ziraden senar-emazte batzuen etxe batean, eta oek eman zioten errukizko ostatu argatik, geratu zan senarra bere bizitza guztirako Simonen goitizen ondraduarekin, emaztea berriz Martarenareki&ntilde;, adierazirik orrekin Simon legentsuak eta Lazaroren arreba Martak beren etxean Jesu-Kristo gure Jaunari eman izan zioten arrera eta ostatua.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>7.<SUP>en</SUP> BURUA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>Barcelonan</hi></p>
+<p>Amar illabete Manresan bere damukizun ta obra onetan igaro ondorean, Lur-Santuetarako erromeiari erasotzeko garaiya zuela noski pensatu zuen.</p>
+<p>Barcelonaronz irten zan bada; eta an ogei bat egun egin zituen, atez-ate eskean Jainkoaren amorez ematen ziotenarekin mantentzen zala; etzuen alba&ntilde;an bere ongille Ines Pascualen etxean gaba pasatzeko ganbara baztertxo bat baizik artu nai izan.</p>
+<p>Joan da laster, Eliza batean sermoia aitzen, ume artean aldare nausiko armallaetan jarrita zegoala, ikusi zuen Isabel Rosell zeritzaion emakume batek, arpegitik, ez oi diran bezelako argi-errai&ntilde;u batzuek zeriozkala, aiturik era berean bere barruan esaten ziotela <hi rend='Italic'>&laquo;Ots eiozu; ots eiozu...&raquo;</hi>. Etzan artara ausarditu, ba&ntilde;a bai arriturik jaikita gero, ikusi eta aitu zuena bere senarrari kontatzera joan. Bereala biyen partez gaztigatu zioten arren egun artan bere personaz aien etxea ondratuaz, di&ntilde;a zedilla bereki&ntilde; bazkaltzera joateaz. Modutasun egokian artara jarri zan; eta begiramendu ederrean artu zuten maira, eta berak berriz bazkal-ondoan alako espiritu ta berotasunarekin Jainko-gauzaen ga&ntilde;ean erasota itz egin zien, eze bizitza guzirako oso beragana zaletuak geratu zitzaizkan, gizon santutzat zeukatela, batez ere andreak, ze&ntilde;a geiago bizi izandu zan.</p>
+<p>Bazebillen orai&ntilde;dik eskean kaleetan barruna, itxasoz joateko bizkotxoarentzako adi&ntilde;a bildu artean beintzat, bada ori-gabe itxasoratu bear zuen ontziko Kapitanak etzuen i&ntilde;ola ere berekin eraman nai; eta orra nola alako egun batean, begiraturik ondo beste andre andizki batek arpegiz-arpegi ain argal eta baldrana zebillela, iruritu zitzaion nunbait ere eskale ark bere semearen antza zeukala, ze&ntilde;a beragandik iges egi&ntilde;da jente gaixtoaki&ntilde; galduta zebillen batera bestera; eta berriturik ama-on bati bezela, bat batean bere barrunbe naigabetuaren atsekabe ta mi&ntilde;ak, baita ere ga&ntilde;era bere gri&ntilde;a ta asarre biziya, eraso zion I&ntilde;igo gureari galanki errietan eta gaizki-esaka ase ta bete arte; eta Ignazio geldi ta soseguz guztiak aitzen egon zitzaion, ematen ziozkala azkenean milla esker-eder, esanaz ga&ntilde;era eze, etzala i&ntilde;ortxo ere mundu onetan berak bezi&ntilde; ederki, zan bezelakotzat, ezagutu zuenik. Ai&ntilde; uste-gabeko ukitzea andre aren biotzean egin zuten mansotasun, humiltasun eta begiramendu ezi&ntilde; pensa-alako aiek, eze beragan sarturik, ta susperturik, milla barkazio eskatu ziozkan, eta gutxik egin zuen nola oi&ntilde;ai mu&ntilde; ematera auspeztu etzitzaion; ba&ntilde;a ori egi&ntilde; ezpazuen ere, limosna galan bat eman zion, eta bere santutasuna nun-nai agitz adierazten zuela, egun artatik izandu zan aurrerakoan bere erakutsi-on eta ejenploetatik protxurik geiena atera izan zuten Barcelonako andre askoetatik bat.</p>
+<p>Onen iori eta gozatsuak dirade eramankizun kristauzkoaren prutubak.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>8.<SUP>en</SUP> BURUA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>Barcelonatik Erromara&ntilde;okoa</hi></p>
+<p>Andre oiek berak eta beste bere jaierako ongilleak ere bildu ta eratu zioten diru apur bat itxasoz Italiara joateko; ontziratutzean alaba&ntilde;an kaian laga zituen, entero asieratik Jaungoikoagan bakar bakarrik ipi&ntilde;i zuen itxodomen oso sendoari akatsik ere ez egitearren.</p>
+<p>Bost egun irrits eta ekaitz gogorren artean itxasoz eginda gero, orduban Espa&ntilde;akoa zan Gaetako kaiyean lur-artu zuen, eta ostatu bateko mandotegira lo egitera joan zan. Etzanda laxter emakume deadar ta karraxiak aitu zituen. An dijoa arrapastaka, eta ikusirik soldadu likitx batzuek neskatxa gaixo bat galzera zijoazela, zelo santuz sutu eta bei&ntilde; batean, ezpata eskuban zuela, kale oso bat bete jenderi iges-erazi zion aspaldiko ausardi hura beregan bizturik, deadarka, agiraka eta errieta bizian, iritxi zuen noizbait aiyek gaiztakeri artatik atzeratzea, geraturik arri ta zur-egi&ntilde;ik bezela gizon bakar arrotz eta pobre argatik, berak asko eta gazte frenu-gabeak izan arren ere, gertakizuna egiyaz, inguramen guziei ondo begiratu ezkero, mirari-modutzat euki leikeana.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>9.<SUP>en</SUP> BURUA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>Erromatik Veneciara&ntilde;okoa</hi></p>
+<p>Erromara itxirik, Aita Santu Adriano VIri bedeinkazioa ta baimena eskatu ziozkan, eta Jesukristoren Piztuerako pesta egunetik zortzi, Veneciarontz o&ntilde;ez abiatu zan.</p>
+<p>Pasaizoan ezi&ntilde; esan-alako neke, gose, lan, beartasun eta gizonaren atsekaberik andienak eraman zituen bi arrazoigatik. Bata, bere pobretasun oso-osoa; bada, Erroman bere erritarren batek zerbait diru eman bazion ere, irten orduko bereala beste beartsuen artean partitu zuen. Bestea izandu zan Italian sasoi artan zebillen izurri eriotzakorra, zerren, nola zekusten ai&ntilde; argala, kolore txarrekoa, ta erdi-jantziyan arabakia zeriola, danak beragandik igesi zebiltzan, izurritu batengandik bezela, eta etzuen topatzen erririk bera artu nai zuenik; eta ala, beti kanpoan eta euzkitan zegoan, eta gau askotan lo egin bearrean arkitu izan zan, lo albazezakean, inz artean kanpo zelai ta eremuetan otzminduba eta goseak pasatua.</p>
+<p>Paduara eldu ba&ntilde;o legua batzuez leenago, oso makal, ta bakar-bakarrik nundik nora jo etzekiela zebillela, eseri zan, eta ikusi zuen bat-batetan bere begi-aurrean Jesukristo gure jauna, ze&ntilde;ek alaitu ta indartu zuen bigu&ntilde;kito txit, segurutzat adierazirik, batere eragozpenik bage Paduan eta Venecian sartuko zala.</p>
+<p>Ala gertatu zan: ateak kontuz ondo gorderik euki arren, i&ntilde;ork itzik esan gabe uri biyetan barruna sartu zan, ezi&ntilde; ikusi zeikeana egi&ntilde; balu bezela Jaun maitatsu berak, zei&ntilde; bereai beti premiarik andienetan laguntzera azaldu oi dan.</p>
+<p>Veneciara iritxita, lenengo gabean etzuen izan ostatu ta lotoki edo etzauntza oberik San Markos-plaza ondoko portaleetan zoru gogor edo lur gorriya ba&ntilde;o. Bazan orduan uri ots-andiko artan Senadore argidotar ongille bat, Antonio Trebisano izena zuena, eta onek gabaren zerratuenean aitu zuen boz bat, esnaatuazi ta esaten ziona: <hi rend='Italic'>&laquo;Zer? Zu orren ondo estalita, ta oi bigu&ntilde; ederrean lotan, eta nere serbitzaria lur gorriyan etzana, eta ots-garbi otzean, nork bere etxean artuko duenik ezdaukala?&raquo;.</hi> Etzuen geiagoren bearrik izan. Janzitzen da bere-bereala eta irteten da argi ta morroiyakin ezagunezaren billan, eta esan zioten eran topaturik, erregutzen dio itz gozatsu eder biotzezkoakin, arren jaiki zedilla andik, eta jarrai zegiola bere etxera; eta antxe Jainkozko gizaseme on bati zor zitzaion begirunearekin ostatu eman zion. Eta nola Lur-Santuetara urteero bide-jarraileakin joan oi zan ontzia irtena zan, eman zion eskubidea ango dukeak zaldun beraren bitartez, eraman zezaten karidadez, eraentzalle edo gobernadore berria zeraman Kapitan-otzi berean Txipreko ugartera&ntilde;o, ze&ntilde;a une artan Veneciatarrena zan, eta Palesti&ntilde;a ba&ntilde;o leen arkitzen da.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>10.<SUP>en</SUP> BURUA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>Jerusalenerontz ugarotutzen da</hi></p>
+<p>Ignazio zeraman ontziko itxas-jendea librea ta lotsagabea zan biziro. Ezi&ntilde; ixilik eraman izan zituen aien erasoak; eta ala, erdi italianoz gaztelaniaz ta euskeraz dana naasi, asi zitzaien libretasun patxarakoenakin ta esanaldi latzakin arpegira eman eta errieta onak egiten. Nolatan ordea aiek ondo eraman? Eta ze&ntilde;en kontra gaixtoak, eta oiei eragiten dien deabrua sututzen dira ainbeste, ezpada neurrira erakarri eta Jaungoikoaren ofensak galerazi nai dituztenen kontra? Sentitu ta erre ziran alako gizon koxkor batek beren buru balute bezela, eskura joan eta agindu naiko ote zielakoan; eta ala, alkar artu zuten Adriatiko-itxasoan arkitzen dan ugartetzar i&ntilde;or gabeko batetik pasatzean, lagatzeko an bera bakar-bakarrik; bizitza kentzea bezelako gizatxarkeria alegiya. Izandu zan pasatzalle lagunen bat gauza orren ga&ntilde;ean zerbait esan, eta arren isilldu zedilla, ziona; Ignazio ordea sekula bildur gabeak eta are gutxiago Jainkoaren ondraren alde irteteko, etzion ezer kasorik egi&ntilde;, uste guzia bere guzialtasun eta begiramendu amorezkoan jarririk.</p>
+<p>Eragin zioten alegiya itxas-gizon aiek urre-urrean zebiltzala ontziari ugartearen aldera, ba&ntilde;a zenbat aldiz aurrerazi, anbat bider jaiki zitzaien kontrako aizea, eta ai&ntilde; gogorra, eze belak jirabiratzen zituen eta barrenak ya irauli ere bai, aien alegi&ntilde; guziak desegi&ntilde;ik, eta bere gaizki-naiarekin ezi&ntilde; irtenik; ala salbatu zuen Jaunak kanalla biotz-gogorreko aren atzaparretatik.</p>
+<p>Txipretik Jope edo Jafara&ntilde;oko itxasbidea ez da entero luzea; aldi artan alba&ntilde;an gaitza izandu zan, bada igaro zituen 48 egun gure bide-jarrailea artarako sartu zan beste ontzi batek, ze&ntilde;ean zijoan bera bezela Kristau-talde andi bat Leku Santuak beneratu eta agurtutzeko asmo Jainkozko eder berakin.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>11.<SUP>en</SUP> BURUA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>Jerusalenera iritxitzen da</hi></p>
+<p>Jerusalen aldeko Jafa deritzan Siriako kai ondo aitatura allegatuta, lau egunera Uri Santuba begitandu zuten.</p>
+<p>Nork esan gure ibillkari guziz jaieratsuaren atsegi&ntilde; eta negar-malko gozoak, ango almeneak eta torreak ikustean, ondorean berriz errenkada ederrean, oi zutenez, Erlijioso San Franziskokuak beraganatzean? Nork bere negar-malko erreten aiek, ze&ntilde;aki&ntilde; Jaunaren pasio edo eramankizun eta piztuerako leku oroigarri aiek erregatuaz joan zan? Nork bere barrunbeko sinismen, esker-on eta amorezko biotz-beratasun eta eztitasun hura, ze&ntilde;arekin an egondu zan denpora guztian bere anima su ta gar bezela egiten zitzaion, eta ga&ntilde;era Jainko gure jaun Itsaltsuak an eman ziozkan gozotasun, ikustaldi eta erregaloak?</p>
+<p>Ainbesteren artean bat aitatu dezagun.</p>
+<p>Jesu-Kristo gure Jauna bere gloriazko Igoeraren egunean zeruratu zan mendi Olibetetik beera bazijoan bigarren aldiz. Onetan komentuko morroi zegoan Armenitar andi ta izugarri bide-jarraileen kontua zedukan bat berekin etzetorrela oartzen da; badijoakio bere billan astalka, eta besotik eldurik, gaizki esaka, ostikoka, bultzaka ta makillka asitzen zaio; era berean ordea ikusi zuen Ignaziok bere begi-aurrean Jesu-Kristo gure Jauna eta uste gabeko agertze amorezko hura ai&ntilde; gozo ta atsegi&ntilde; egin zitzaion eze, ez kolperik sentitu, eta ainbeste ira&ntilde;en ardurarik ezertxo ere izan etzuen.</p>
+<p>Pozik noski geldituko zan antxe beti-betiko, edo be&ntilde;epei&ntilde; nun eta nola, Jaunak agintzen zuen bezala, lagundi edo Konpaniaren moldakizuna bukatzeko denpora iritxi arte. Ba&ntilde;a sei asteren ondorean, San Franziskuko probinzial, artarako eskubidea zuenaren manuz edo aginduz irten bearra izan zuen, beste bide-jarraileakin batean, eta itxasoz berriz Veneciara biurtzeari eki&ntilde;. Txipretik ara joateko garaian, bi ontzi orduantxe eskuratu zitzaizten. Bata, Veneciatarra, galanta, ondo kalafetatua, ze&ntilde;ean buru egiten zuenak, gizon biotz gogorrekoak bezela, ez beartsua, ez santua zalakoan, i&ntilde;olaz beragan artu nai izan etzuen, esanaz ga&ntilde;era donarioz: &laquo;Santuba bazan, erropa uretara bota ta ga&ntilde;ean ugarotzeko, eta ala itxasoa pasa zezala&raquo;.</p>
+<p>Egunda&ntilde;o esan ez balu obe. Itxasoratu orduko, aurrenengo egun beraren eguzkia sartu ba&ntilde;o leen, olatuak asarratzen abiatu ziran, eta bereala jaiki zan aize bolada-izugarri batekin ostera su ta salda egi&ntilde;ik, ontziari atzera eragin zioten, eta ugarte beraren aitzetan printzatu eta purrukatu zuten, bakarrik pasajeroak mirariz salbatzen ziradela.</p>
+<p>Beste onzi-jaunak artu zuen karidadez Ignazio gajoa berean; eta barku txiki zar hura moldakaitza bazan ere, igaro zan okerrik bage azkenean Veneciara 1524en urtearen asieran.</p>
+<p>Leorrera zanean, aurrenengo lanbidea izandu zuen, karta batean zearo eta garbi Leku-Santuetan ikusitako gauza guzien ga&ntilde;ean Ines Pascuali kontu ematea; bere ongilleakganako beti izandu zuen esker-ontasunaren si&ntilde;ale agiria, biotzaldirik nobleenekoa, eta betiko bere o&ntilde;ordekoai bere Lagundian utzi ziena.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>12.<SUP>en</SUP> BURUA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>Veneciatik Barcelonara biurtzen da</hi></p>
+<p>Neguaren biyotzean, eta Italiako Ifar-aldetik barruna, ze&ntilde;a denporaldi artan otzenetakoa izan oi dan, o&ntilde;ez ga&ntilde;era eta eskean, Veneciatik Genova-bitarteko bide guzia ezi&ntilde;konta alako nekeakin ibilli zan.</p>
+<p>Ferrarako Eliza batean, usaira bezela bereganatu zitzaion pobre-samalda andi bati, ongille baten erreguz Veneciatik irtetean artu zuen diru puxka eman ondorean; bide artan gertatu zitzaion kontagarriena izandu zan eze, nola garai artan alderdi aetan Espa&ntilde;a despita gogorrean Pranzesakin zebillen, Espa&ntilde;a-tar soldadu talde edo prestegoitz baten eskuetara ustekabean iritxi zan, ze&ntilde;ak ai&ntilde; arlotea ikusi zutenean, izpi ta salaritzat arturik, arabakiak astindu ta ondo begiratu zioten, eta beren agintari edo Kapitana-gana eraman zuten. Nola ordea papeltxo bat ere billatu etzioten, eta egiten ziozkaten galderai itz banakaren bat edo besterekin baizik eranzuten etzien, agintariak soldaduai burugabetzar hura ala erakarri ziotelako, errieta eman zien; orregatik aiek, orda&ntilde;ez bezela, bere gai&ntilde; amorru guzia sutu zuten, egitez eta itzez entero gaizki tratatzen zutela: ba&ntilde;a ira&ntilde; eta eramankizun ark txit asko alaitu zuen, zerren bitarte artan bertan gure Erredimitzalle Jaunaren o&ntilde;aze ta naigabeak bere biotz eta adimentuan egotziak zerabiltzkien.</p>
+<p>Libratuta bereala, topo-egin zuen berriz pranzes-samalda aurrerati batzuekin; ba&ntilde;a Gipuzkoatarra zala bere agintariari adierazorik, bada hura ere an urrekoa eta euskalduna nunbait ere zan, etzioten neke ta arrastaka geiagorik ezer eman; eta bere bideari zuzen Genovara&ntilde;o jarraitu zion, nundikan gero Espa&ntilde;atar ontzi batean ugarotu zan, 1525garren urteko garizuman ederki Barcelonara iritxitzen zala.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>13.<SUP>en</SUP> BURUA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>Bigarren denboraldi onetako bere bertuterik garaiyenak</hi></p>
+<p>Geiago ta geiago azalten aitu gerade orai&ntilde;da&ntilde;okoan gizon portitz ta bulartsu, ta gure Erlijio Santaren gudari ta lenendari onen argi-erra&ntilde;u santutasunezkoak; bere kemen ezi&ntilde;-garaikorra, bere megope edo espiritu pobretasunik osoenetakoa, seme baten erako uste ta piatzea Jainkoaren letarta edo begirakizunean, Jesu-Kristo gure Salbatzalleaganako amore irazakia, eta onen pausoai orpoz orpo bere banderape sagraduan goieneko soldadutza-mallan aurrena sigitzeko eresi eragillea, bere so&ntilde;eko ta librea beraz jantzirik; gero Santuak berak urte batzuen epean bereetakoai karta edo eskuzkribu sonatu batean esan izandu zien bezela.</p>
+<p>Eta bere bertute argien artean lendabiziko tokia ze&ntilde;i eman bearko zaion adieraztea erraza ezbada ere, eta berriro animen onerako eta Jainkoaren ondraren alde egi&ntilde; zuena mintzatu gabe, batez ere portizki pekatuak galerazi ta kendurik, bada gai onetan, leen ikusi genduen eran, erakutsi eder miragarriak eman zizkigun, naikoa litzakealarik guzien artean Gaetan ugarotu zan arako gau ospatsu artako hura aitatzea; badirudi eze garai onetatik aurrera beregan ga&ntilde;ezka bezela egi&ntilde;ik agiri dala otoitz edo <hi rend='Italic'>orazioko</hi> doai txit berezi hura, eta Jaungoikoarekin adiskidetza ta kutuntasunik andienarekin tratatzea, gauza au alegiya azkenera&ntilde;o txit bere ta berezkoa izan zuen; jaki&ntilde;a da alaba&ntilde;an <hi rend='Italic'>jaiera </hi>ta <hi rend='Italic'>obeditzea</hi> (bere bertuteetan orobat garaiena) diotela santuak bi ego urrezko diradela Zerura igotzeko.</p>
+<p>Bat bera aitortzen dute bere bizitzaren itzkribulariak, iru izendatuenak batez ere, Ribadeneira, Maffei ta Bartoli deritzotenak, esanaz eze, Jaunak bere argiarekin animako begiak zabaldu zizkionetik, <hi rend='Italic'>otoitzerako </hi>arretarik berezi ta andiena iduki zuela, orazio ori gero berak <hi rend='Italic'>gomuntatzerik </hi>goienekora&ntilde;o jasotzen ziola; etzuela egunda&ntilde;o zerbait balio zuen egitekorik erabaki, otoitzean aurrena Jaungoikoareki&ntilde; tratatu gabe, batez ere Lagundiko zuzenbideak konpontzen ziarduen bitartean; langai arreta andikoren batek eragozten ez bazion, ordutxo bat ere etzuela igarotzen, beraganatu bagerik, eta txit barrunbeko birtute aldi bigu&ntilde;akin biotza Jauna-ganatu bagetanik; edozer gauza naiz loretxo edo arrik txikiena ikusteak ere o&ntilde; da bide ematen ziola goitutzeko, eta on guzien Ona danaren pensakizun amore ta alabantzaldietan ugoldetu ta asetzeko; Erlijiozko egite danik labur da txikienetan ere, ainbeste barrunbetzen zala, ze Jainko itsaltsua bera aurrean ikusten zuela zirudien, eta arpegia su-gar da txingar bizi bat egi&ntilde;a jartzen zitzaion; otsik eta danbatekorik andienak ere, berak biderik eman ezpazuen utsegitez edo faltaz, etzutela otoitzetik bulzatzen eta alderazitzen; erregutzen zuela beti Aita Santu eta Elizako Apaiz-nagusi, errege, lenendari eta Kristau-agi&ntilde;tariakgatik, bada aien eskuetan Elizaren gubernua eta doatsutasuna dagoala, txit ederki zekien; ainbesteko atsegintasun zeruzkoak eta negar-malko-iturri gozoak, ordendu ta bereala izan zituela, eze begiyak galtzeko zoriyan egondu zala; sinistatzera allegatu zala ezikan etzala izango i&ntilde;or gizonik lurraren ga&ntilde;ean beragan bezela bi gauza oek alkartzen zituenik, bere aldetik ainbeste oker Jainkoa-ganako, ta onen eskutik berriz berak ai&ntilde; orduoroko mesede ugariak artzea; bere Jabearekin iduki zuen tratu kutun eta adiskidetza gozoa iritxi zala gauza guzietan Jaungoikoaren borondatea baizik ez idukitzera; eta azkenik, jainkoarekin alkar ikustearren, gorputzeko presondegi onetatik irteteko zeukan eresia ai&ntilde; irazakia zala, ze eriotzean pensatzearekin bakarrik, ezi&ntilde; esan alako atsegi&ntilde;ez ase ta betea geratu oi zan, bere begi-ertzetatik beera orduero txirrian zeriozkan malko-tanto laba&ntilde;ak ezi&ntilde; geldiazirik.</p>
+<p>Ordea arestian ikusi degun otoitzezko espiritu ai&ntilde; miragarriz apai&ntilde;dua egon arren, ildura edo mortifikatzeari geiago begiratzen ta kaso egiten zion, hura onen alkartasun leiala bage legezkotzat etzedukalako, bada biyak anaiatasun egokian bat-egi&ntilde;ak ibilli bear dute espirituzko bizikizunean. Ba&ntilde;an gorputzeko mi&ntilde;duratzeak balio gutxian ez bazeduzkan ere, askoz geiago maite zuen damukizun edo biotzezko ildura, ze&ntilde;a, txit jaki&ntilde;a dan bezela, sentidu ta aragizko gri&ntilde;a okerrak ta gurari biurriyak azpiratzen eta neurriz erabilten dagoan, eta bakoitzak bere buruaganako amorea garaitzen, eta agintari edo gidari ditugunai gere iritzi ta naitasuna menderatzen. Orregatik noski sarritan bereetakoai esan oi zien: <hi rend='Italic'><foreign>vince te ipsum; </foreign>mendera zazu zere burua; </hi>bada beragan ondo ikasia zeukan ze&ntilde; egi protxugarrienetakoa dan Tomas Kempis Beneragarriaren esankizun hura, eze bakoitzak bere buruari gogor egiten dionez neurritzen dala gizonaren aurreratzea. Eta, nor Kristauk ez daki izan-ere Jaunak Ebanjelioan diona? <hi rend='Italic'>Zeruetako erresuma indarka artzen da, eta indarzaleak bera arrapatzen dute; </hi>argi ta zearo adierazo naiaz, izan bear geradela, salbatu gaitezen, kementsuak, ausarditsuak, eta Jaungoikoaren morrontza edo serbitzuan eta gere gri&ntilde;aen bridatze ta menderatzean iraunkorrak.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>IRUGARREN PARTEA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>San Inazio ikasten asi zanetik, Jesusen Lagundia sortuazi zuen artera&ntilde;okoa, edo orobat 1524-garren urtetik 1540 garrenera&ntilde;okoa</hi></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>1go BURUA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>Barcelonan</hi></p>
+<p>Bazetorren Ignazio Jerusalendik Jainkoari anima asko irabazten oso murgiltzeko eresi biziarekin; ezaguturik ordean ikasikizun onik bage eraso zalla dala hura eta prutuba ere eskaxa, erabakita zetorren orobat bertatik ikastera jartzeko, lati&ntilde;ezko itzkuntzaren asieratik ekinda, orduban bertan ogeita amairu urteetan sartua bazan ere.</p>
+<p>Billatu zuen bada gramatika erakusten ziarduan maixu bat, umeen artean ume egi&ntilde;, bere leziyoa ikasita eraman, ta buruz besteaki&ntilde; batean emateari ezer-asko begiratu bagerik.</p>
+<p>Ba&ntilde;an ordea, berbo edo adititzen lenengo erabidera, iritxi zan bezi&ntilde; laster antz-iduri atsegintsu gozo bat zerakarkion asmakizun ezkutu batekin etsaiak enga&ntilde;atu nai izan zuen, eta au zan, lilluratuta bezela denboraldi luzeetan egonerazitzea, esanaz:<hi rend='Italic'> &laquo;amatzen det, amatzen dezu, amatzen du, amatzen degu, amatzen dezute, amatzen dute&raquo;;</hi> eta berriz ori bera, aurrera pasa gabe eta ezertxo geiago ikasi gabe.</p>
+<p>Orrela egun batzuetan arri ta zurtua egondu zan, alik eta atzenean noizbait ere, Luziferren tranpa azkarrak ezaguturik, bere maixuagana korrika joan zan arte, eta oni belaunbikaturik, ta alegi&ntilde;ez humiltasunik andienarekin erregutu zion eze, arren lezioa ondo ikasiya etzeramakion edozei&ntilde; egunetan, ezeren begiramentu ta errukirik gabe narrugorritu ta azotez edo irizillez zeatu zezala mutill koskor guzien aurrean.</p>
+<p>Onenbestera&ntilde;o al dezake gizon justuetan lagun-urkoaganako onginai protxugarriak, eta itz batean, Jainkoaren gloriarekiko zeloak. Etzan geiagorik bear izan, etsaiaren tranpa ta asmaaldi hura ordutik betiko desegi&ntilde;a utzitzeko.</p>
+<p>Abiatu zan geroxeago barreatutzen bere santutasunaren otsa, eta batez ere andizkietako andre batzuek begiramendu andia zioten, bere konseju ta esan-onai jarraiturik. Kontrara ordea beste gazte bizitza lasaiko batzuek, gizatxarkeri pixuenetakoak egiten ziozkaten, zerekin merezi-asko eta zer-eraman ez gutxi alegia ematen ziotela. Oetako batzuek joan oi ziran sarritan, Aingeruena zeritzan komentura, ze&ntilde;a uritik kanporonz zegoan orduan; eta an izketa alegrean mojaekin ordu osoak parrez eta algaraz itztokiyan igarotzen zituzten. Ignazio au jakitera allegatu zan, erlijiosai menaz itzekin ziyen; eta atzenik ainbestera&ntilde;o egin zuen, eze, andik aurrera gazte aiei sarrera ukatzea iritxi zuen; eta ala okerbide hura bukatu zan. Aiek alaba&ntilde;an, suta-gar egi&ntilde;ik, batez-ere Erribera zeritzan beretako nausiena, mairutzat indartsu bati ondo pagatu zioten, ze&ntilde;ek Ignaziori alde artatik pasa zedi&ntilde; itxodon zion, eta makillaekin ai&ntilde; gogor ta ainbestera&ntilde;o elbarritu zuen eze, illa zalakoan, bere odolez lurra putzu egi&ntilde;ik, utzi zuen. Berrogeita geiago egunean, min o&ntilde;aze gogorrenetakoak eramanik, zauri aietatik sendatzen oiratua egondu zan, Jainkoari argatik, mesederik berezienagatik bezela eskerrak emanik, gaizkillen alde erreguturik, eta ezagutzen bazituen ere, i&ntilde;ori ze&ntilde; da ze&ntilde; ziradenik aitatu bagetanik. Berriro o&ntilde;en ga&ntilde;ean abiatu orduko, i&ntilde;ortxogatik ajolarik gabe, berriz beren asmo onetan erlijiosak sendotu zituen. Arritu zan Erribera alako biotz-anditasunaz, eta era berean ezi&ntilde; geiagoan karidade ai&ntilde; aundia estimaturik, bere errua ezagutu zuen, ta oso damuturik, santuari barkazio eskatu zion, ze&ntilde;ek itz gozatsuakin eman zion bertatik eta gustorik onenarekin, biotzez leendanik barkatua zeukanak bezela.</p>
+<p>Bazetorren beste batean eskolatik, eta alde batera asko korrika zijoazela ikusirik, jende-boladari segitu zion eta ikusi zuen eze, hura guzia, Lizano zeritzan batek une artan bertan bere etxean bere burua urkatu zuelako, zala. Patu artzaz oso errukiturik, biotzez eta menaz aregatik Jainkoari erregutzen jarri zan. Gauza miragarria! Bereganatzen da andik pixka-batera gizon hura, damu-si&ntilde;aleak ematen ditu, konpesio edo pekatuen aitortzea eskatzen du, eta berriro iltzen da, askok deadarka ziotela <hi rend='Italic'>mirariya! mirariya! </hi>Batzuek gerozkoan zalanzan jarri zuten egiyazko piztuera izandu zan edo ez; AA. Bolandotarrak ordea oi duten burutasun eta kontuarekin gertaerari begiraturik, baiezkotzat sinistatzera jarri ziraden. Duda ezi&ntilde; leikean gauza da beinzat, neurri oituaz ga&ntilde;erako graziren batekin errukitu zala Jauna doakabe arzaz, eta ustez bere serbitzari I&ntilde;azioren erregu biziakgatik salbatu zuela.</p>
+<p>Ia urte bi Gramatika ikasten Barcelonan egondu zan, ostatuz beti bere ongille Isabel Cordonerskaean zegoanaren etxean arkitzen zala, beste persona askotxok egunero bear zuen jatekoa limosnaz geienean ematen bazioten ere. Bazuen Isabelek Juan zeritzan seme bat, ze&ntilde;ek bere zarzaroan etxekoai gure Santuaren gauza miragarriak kontatu oi ziezten, beste gertaera askoren artean ziolarik eze, humetan sarri ate-zirrikatik begiraturik orazio edo otoitzeko denboran, lurretik gorunz altxatua ikusten zuela, eta arpegitik argi-erra&ntilde;uak botatzen zituela. Esan ziozkan aldeaurrez bat-banaka bere bizitza luze guztiko gertakizun on eta kontrako dan danak; eta malko gozoak txirrian zeriozkala akabatu oi zuen berai esanaz: &laquo;Jainkoaren gizon ark bere oi&ntilde; eta ukitzearekin santutu zituen ladrillu ta orma aieri begiramendu ta jaierarik andienarekin mu&ntilde;-eman bearrean arkitzen ziradela&raquo;.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>2.<SUP>en</SUP> BURUA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>Alcala Henareskoan</hi></p>
+<p>Gramatika lati&ntilde;ezkoan pijo jarri zan ezkero, egokinde edo pilosofi-jankintzari ekiteko garaia zuen, eta uste oneki&ntilde; 1526ko Abuztuban Alkala Henareskora pasatu zan.</p>
+<p>Sarreran Jainkoak begi-aurrean topo-eragin zion aurrenengoa izan du zan Martin Olave Vitorian jaioa, euskaldun erakasle ots-andikoa, urteak igarota gero, Erroman bere bizilegea artu zuena, eta zuen burutasun, biotz-on ta jakintzagatik santu sortulari edo fundatzalleak berak merezi bezela ta adi&ntilde;a maitatu zuena; bada doai baliozko oiek edozei&ntilde; gizonetan, eta are geiago, bereetan arkitzeak begita-biotz beti lilluratu zuen.</p>
+<p>Igarorik geroxeago Barcelonan inguratu zitzaizkan lau-lagunak, al zuen moduban pobre-txamar bazan ere akomodatu zituen, bera juanik bizitzera hospital-Antezanako gelatxo batera; ta an abiatu zan bereala jarduntza-santu edo ejerzizioak persona askori ematen, ta asmakizun santu onekin, itzaldi jainkozko sutuakin, eta guziaz ga&ntilde;era bere-prestutasun ezi&ntilde; obeagoaren argiarekin ikaslari gazte askotxo eta andizkietako ez gutxi birtuteko bidean sartuerazi zituen. Ez da ixiltzekoa emen oietako persona itzaltsu bateki&ntilde; egi&ntilde; zuena.</p>
+<p>Eliza-gizonetakoa zan person hura, ba&ntilde;a alaere bizimodurik txit zabarrenetakoa zeukana; sartzen zaio bada illunabar batean bere bizitokira ausardi ederrean, eta itz-egiten dio garbi-garbi ta zearo bere bizitza txarraren ga&ntilde;ean, eta lenbaitlen zuzendu ta obetzeko zei&ntilde; premi andian arkitzen zan; su-ta salda egiten zaio gizona bereala; ta asarre bizian deadarka abiaturik, bazirudien bere gai&ntilde; etxekoai ezbearren bat eragitera zijoala; ba&ntilde;a azkenean ere Ignaziok zeukan eta bere onerako ziarduen malsotasun ta sosegutasunaz bigundurik, eta ainbestera&ntilde;oko karidadeaz izu-ikaraturik, polliki polliki asarreak eskuratuta, bildotx baten antzera humildu zitzaion, edo obeto esateko, Jainkoagana menderatu zan, eta egin ziona izandu zan berekin apalduazi ta begirunerik andienarekin apalondoan agindu zien bere mirabeai argiyakin kalera-artean laguntzeko; eta ordutik lagun eta adiskiderik obenetzat eduki zuen. Zei&ntilde; egiya dan karidadeak eta eztiyak ukitzen duten guzia gozotzen dutela!</p>
+<p>Oiek eta oien antzeko beste obra on askok irabazi zioten erri guziagan gizon Apostoluen-gisako baten pama ta izena; ezi&ntilde; izan zuen ordea au etsai gaixtoak ongi eraman; eta orra nun egiten ari zan prutuba eldu ta ioritu etzedi&ntilde; eta ezartzeko ga&ntilde;era kolperik seguruena parterik bizienean, Eliza-gizon batzuegaz baliatu zan, ze&ntilde;ak anbat enga&ntilde;atuak bazebiltzan ere asmorik zuzen eta ederrenarekin, uriko Bikario jaunaren aurrean salatu zuten, adierazorik eze gaztedi guzia irabiatzen zuela, eta zorzitik zorzira Sakramentuak ar zitzan azoratzen zuela; gauza bat alegiya ordura&ntilde;o ikusi etzutena. Iru bider asita utzi zuten auzialdi au santuak i&ntilde;or bere alde ateratzerik nai etzuela; jueza ordea beti libre ta ontzat eman bearrean arkitzen zan, ta bere erakuste ta eginkizunetan tatxarik gabeko gizontzat, eta batez ere juduzalea zala norbaitzuek eransi ziotelako, bada onen ga&ntilde;ean ere Tolodeko inkisizio edo fedazaitzan salatu zuten, eta orobat beste gaixtakeri-itxura bat ezarri zioten. Au izandu zan eze Maria Vadorena eta Luisa Velazquez beneragarria ama-alaba itxura oneko, ta bere ongilleai konsejatu ziela ta jarri zituela Ama Birji&ntilde;a Guadalupeko Jaengo Veronica, eta beste santutegietara erromeian bakarrik ta o&ntilde;ez joan zitezen, eta gaixotegi edo hospitaletan serbituaz eta beragatik beren honestasunaren perillarekin; au guzia ordean gezurra besterik etzan, eta berak aitortu zuten egiya andik berrogei bat egunera Jaendik biurtu ziradenean, ziotelarik kontrara oso gertatu zala; zerren berarekin joatearen ga&ntilde;ean tratatu zutenean, arrazoi asko eman zietela ez arren kanporatzeko, berak ordean etziotela kasorik egin. Denboraldi dan artan alaba&ntilde;an presondegian eukierazi zuen bikarioak zergatikan ordea esan gabe, alik eta 1527ko Garagar illaren batean libretzat utzi zuen arte, aitorturik ga&ntilde;era ezarri zizkioten esan eta eginbide txarretan kulparen izpirik etzuela; alaz guziaz ere, bere janzimodua aldatu ta truka zezala agindu zion. Ba&ntilde;a nola etzeukan zeraman janziya baizik, Juan Luzena zeritzan auzoko lagun on bat erakarri zion, arekin batean limosna eskaturik, beste berri bat eragin zezan. On Lope Mendozakoaren etxe aurrera iritxi ziraden pillota-jokuari zaldun zeinbatzuek an ziarduten unean bertan, eta Lucena beartsuarentzat zerbait aiei eskatzen ari zala, su-ta-gar egi&ntilde;ik esan zion On Lopek: Zer?... Zu zaituguna izanik, orrelako gizon baten lagun zabiltza?... <hi rend='Italic'>Erreta ill nadilla ni orrek sutan gixkaltzea merezi ezpadu. </hi>Jainkoaren epai ikaragarria!... Aurki bere madarikazioak arrapatu zuen; bada argi ta su bolborazkoak andik geroxeago errege-seme On Feliperen jaiotza-pestaetan berak bere etxeko dorre edo begiratokian ipinten ziarduela, txinpartatxo batek bolbora-pillara salto-egi&ntilde;, eta onek oso erre ta gixkaldu zuen, eta andik bereala biziya kendu ere bai.</p>
+<p>Agindu ere baziyon Bikario jaun berak Ignaziori etzezala kristau-dotri&ntilde;a erakutsi, eta ez agirian espirituzko gauzen ga&ntilde;ean itzegiteko alik eta iru urtean be&ntilde;epei&ntilde; Jainkokinde eta Teolojiya ikasi artean.</p>
+<p>Auxe zan alegiya bere zeloarentzat, egoak ebagitzea bezela eta ori ikusirik, persona on aundizki batek esan zionera jarririk, Salamankara an bere ikasikizunak segitzera joan zan, nora 1527 urte beraren atzenengo illetan iritxi zan, urtetxo bat eta geixeago Alcalan bizi izandurik.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>3.<SUP>en</SUP> BURUA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>Salamancan</hi></p>
+<p>Denbora aietan ainbeste ikasle zeuzkan Salamancako ikasitoki edo ikasola ai&ntilde; izendatuan ikusi zanean, leengo bizimodura jarri zan bereala, eta leen bezelako protxu ta frutubarekin; ba&ntilde;a beragatik andik egun gitxi barru Alcalakoa a&ntilde; edo are andiagoko esesi edo persekuzio bat sortu zitzaion.</p>
+<p>San Estebango komentuko A. dominiku bat bere konpesoretzat artu zuan; eta alako egun batean esan zion eze, bere lagun edo pralleak, oi zuten eran, berari espirituko gauzen ga&ntilde;ean mintzatzen aditzeko eresi andiarekin zeudela, eta artara jartzen bazan (jarri ere zan bezela) ondo prestatuba joan zedilla, zerren milla galde ta erdi egingo ziozkaten. Eramaten dute bada aietako zenbaitzuek eta eien artean Bikario jauna aurrena, berekin aparte kapillatxo batera, eta onek, lenengo bere bizitza-modu eta apostoluen antzeko zeloa itzez-goiturik, galdetzen diyo zer ikasi-lanak zeduzkan egi&ntilde;ak ordura&ntilde;okoan. Aitortu zituen Ignaziok tolesgabe zekizkien letra eskaxak, eta orduan dio Bikarioak: <hi rend='Italic'>Nola bada predikatzera ausarditzen zera? Aita, eranzun zuen Ignaziok, guk egiten deguna ez da predikatzea, ezpada alkarreki&ntilde; eguneroko izketan Jainko-gauzen ga&ntilde;ean tolesgabe datorkigun eran jardutea. Eta zer dira diozkatzun Jainkozko gauza oiek? </hi>erlijioso ark berriro galdetu zion, eta Ignaziok eranzun: <hi rend='Italic'>birtuteai jarraitu eta gri&ntilde;a-gaixtoai gogor-egitearen ga&ntilde;eko gauzak; Gai ori, zion berriro, Jainkokindeko barrutuenetakoa da. Ori zuk ez dezula ikasi diozu: orduan Espiritu-Santuaren erakutsibidez dakizu eta orra auxe da jaki&ntilde; nai deguna; ia nolatan Megope-Santuak erakutsi ote dizun.</hi></p>
+<p>Itxumustuko ateraldi ta arrazoi-modu berri ta mee ustekabeko arekin izutu-txamarra geratu zan Ignaziyo, eta bereala itz oek bakarrak eranzun ziozkan: <hi rend='Italic'>asko da Aita; ez geiyago onetan neri itandu. </hi>Eta bikarioak berriz eraso bazion ere, itz oek ezpada beste atzerakorik etzion eman: <hi rend='Italic'>ez uste nik geiago esango dedanik, agindu al dezakedanak artara beartze ez banau. </hi>Ori ere badegu? esan zion oraindik Domingotarrak, <hi rend='Italic'>hereje edo fedeauslez betea daukagu munduba, eta, ez diguzu zuk azaldu nai erakusten zabiltzana?...</hi></p>
+<p>Onetan ziardutela, ara nun dan bertan Barcelonan Jainkoarentzat irabazi zituben lau lagunetatik bat Calisto zeritzana. Altu, plaku, me, dar luze-luze bat zan gazte au eta ez ai&ntilde; moldaltsu ta planta ederrekoa ere; bordoia ga&ntilde;era eskuban, jupoi edo txamarra motx bat eta sonbraillu egal-zabal andi bat zekarzkien. Prailleak parrez ezi&ntilde; egon ziran, eta galdetu zion bikarioak, <hi rend='Italic'>ze janzi dira oek?... </hi>Eskusatu zitzaion Santua modurik al-zuen egokienean bere pobretasunareki&ntilde;, ba&ntilde;a erlijioso ark lengo bereari jarraiturik, esan zien: <hi rend='Italic'>zaudete egon emen pixkatxo bat; laxter egiya esan-erazoko dizuegu. </hi>Biyak kapillan gelditu ziran, eta bertatik, kale aldeko ateak ondo itxita gela batera aldatu zituzten, nun ederki gordeak iru egunean egon ziran, bitarte artan arrotz aien espiritu ta bizimoduaren ga&ntilde;ean batzuek alde eta besteak kontra komentuko prailleak zebiltzalarik.</p>
+<p>Gaztigaturik gero Apaiz-nagusi jaunaren probisoreari, aren aginduz karzelako lekurik txarrenera eraman zituzten, nun lotu zituzten ostera, beren o&ntilde; bakoitza kate batean sarturik. An zeudela joan zitzaiyezten errukiturik ikustera persona on asko, edo baita ere beren dotri&ntilde;a eder ta esan onak aditu ta artutzeko eresi bete-betean; ta oen arteko bat izandu zan On Francisco Mendozakoa, geroagoan Burgosko Arzobispo edo Apezpiku-nagusi eta Eliza Ama Santako Kardenal izan zana, ze&ntilde;i, galdetua egun batean errukimentuz, ea preso ta kateatuba zegoala ikusirik, pena asko sentitzen zuen, eranzun zion: <hi rend='Italic'>orren kaltetsua deizkio gizon bat onla egotea?... Ara, Jauna, nik berorri diodana da eze, ez dirala ainbeste zepo ta kate Salamanca guzian, ze&ntilde;etan eta geiagotan ere Jesu-Kristo nere Jaunaren amorez katibatuta neroni ikustea biziro eta oparo naiko ez nukean.</hi></p>
+<p>Auzi-beargai onetan bikarioa ta beste iru juez arkitu ziran, laurak personak itzaltsu eta eskudunak, ze&ntilde;ak ejerzizio edo jarduntza santuetako liburua arretaz ikusi ta ondo aztertu edo esaminatu zuten; eta agindu zioten beren aurrean gure Erlijio santako sinistagairik bearrenak, eta Jainakoaren legeko aurrenengo agintea itzez-azaldu zitzala; eta ai&ntilde; goiro ederki-ta-egoki egi&ntilde; zuen, ze itzerditxo baten ere zer esatekorik arkitu etzioten.</p>
+<p>Auzi-kontu au laburtu ta akaba zedi&ntilde; laxterrago, etzuen noski gutxi lagundu gau batean karzelan gertatu zanak; bada preso zeuden guztiyak presondegitik gabaz igas egi&ntilde;ik eta ateak parez-pare irikirik zeudela, bakarrik santua ta bere lagun bi presoetakoak barruan gordelari batzuek bezela arkitu zituzten goizean; eta gertaera au izandu zan uri guztiya arriturik ta eder-iritzirik utzi zuena.</p>
+<p>Ala azkenik ere ogeita bi egun pasata erabakiera eman zuten, guzian garbi ta libre, Alcalan bezela, geldi zitezela, irteteko agindurik eta bakarrik aditzera emanik, etzitezela arren orduan beintzat, pekatu illgarri edo mortal eta benial edo ez-illkorra zertan berezitzen diran erakusten ibilli; bada ejerzizioen parte batean gai au pixka bat santuak ukitzen du, pensamentuzko pekatuen ga&ntilde;ean itzegitean.</p>
+<p>Ezagutu zuen alaba&ntilde;an Ignaziok ainbeste kontrako ta eragozpen klaruren artean etzuela nai nunbait ere Jainkoak segi zezan geiago an Salamancan; eta erabakirik zegoala Parisko ikasola edo unibersidadera pasatzeko, ze&ntilde;a denbora aietan kristandade guziko-ikasi-lekurik ospatsuena zan jakinbide sagraduetan, alkar jarri zan bere lagunakin ara joanda otsegingo ziela, danak an beraganatzeko, zerekin bizi ta pasa guztientzat arkintzen zuen bezai&ntilde; laxter; eta Barcelona alderonz abiatu zan, astotxo batean beretzako jaki eskaxen bat, eta bere ikasikizunetako paper-samaldatxo batzuek zeramazkiela.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>4.<SUP>en</SUP> BURUA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>Parisen</hi></p>
+<p>Bildu zuen Barcelonan zerbait bere bide luze ta irrixkuz betean obeto jarraitzeko, batez ere artan laguntzen ziola bere ongille Isabel Rosellek; eta asko ta askok garai artako Espa&ntilde;a ta Francia arteko gerragatik, eta ziotenez soldadu franzesak Espa&ntilde;atarrai ezbear ta txarkeri izugarriak egiten ziozkeelako, alegi&ntilde; naikoa egiten zioten irten etzedi&ntilde; arren denbora puska batean; ba&ntilde;a geldi erazo nai guzia alperrik izandu zan; eta Jainkoak lagundu ere zion eragozmen eta okerragorik ezertxo bage, urrengo urte ogeita zorziko Otsaillaren biyan Parixen arki zedi&ntilde;, santuak berak Ines Pascual beste bere ongille andiari itzkribatu zion bezela.</p>
+<p>Bi gauza txit bearrak zituela bertatik igarri eta ezagutu zuen bere ikasikizunai bukaera ona emateko; animaenganako zeukan zeloari, geroz geiagoa ta obea izan zedi&ntilde;, orduan egoak pixka bat moztea; eta artera&ntilde;okoan ba&ntilde;o obeto bere ikasigaiak aurrerako zuzentzea. Alcalan zegoala, bete betean lagun-urkoen salbazioko eginkizunetara emanaz ga&ntilde;era, lenbaitlen akaberako mugara&ntilde;o iritxitzearren, era-berean jakinde asko eskuratu nai izan zituen, Sumulak, Izetakindi edo Fisika, eta Teoloji edo Jainkokindeari batean eki&ntilde;ik; eta ala gutxi aurreratu zan, zerren dana batean artu nai dutenak esku-utsean gelditu oi diran, gaurko egunean bertan ikasola izendatuetan dabiltzen askori gertatzen zaien bezela.</p>
+<p>Lendabizi alaba&ntilde;an, lati&ntilde;ean eta jakin-maneetan Monte-agudoko erakastegian berritu eta irmetu zan. Santa Barbarakoan egokinde edo Filosofiako jakitekoak akabatu zituen; ikasolan urte ta erdi Teoloji edo Jainkokindea ikasi zuen, et-osteronzekoa atzenik Aita Santo Domingo-enekoakin. Arteetan maisu ta lizenziadu egi&ntilde;ik 1535 urtearen buruan bere ikasi-lan guztiari buruzpide ederra eman zion.</p>
+<p>Biraldu izan zioten bere ongille Barcelonakoak denboraldi pixka batean zerekin bear bezela bizitzeko a&ntilde;e diru; ze&ntilde;a guzia gordetzeko zeukan Espa&ntilde;atar gazte batek beretzat artuta, Parixtik kanpora iges egi&ntilde; zion; arkiturik onela I&ntilde;igo gurea eskean berriro abiatzeko zorian eta Santiagoko gaixotegian, neke galantarekin ordea, ikasi-tokietatik urruti zegoalako, etxe-leorra billatu bearrean. Orregatik persona zintzo baten onesanari segiturik, juaten zan urteoro orduan Espa&ntilde;arenak ziraden Flandesko uri jendetsu Brujas ta Anvereskora, aldi bakoitzean urrengo urte-aldirako bear adi&ntilde;a, leku aietan tratuban zebiltzan Espa&ntilde;ako merkatari askogandik biltzen zuela; eta onetarako ere bei&ntilde; batean Ingalaterran izandu zan; ala ere, atzeneko urtetan bera berez eske juan gabetanik, mesedegilleak zeguan tokira bear zuena bialdutzen zioten.</p>
+<p>Bei&ntilde; Brujasen bazkalondo batean itz-egiten ari zala, aitu zion Valenciatar Luis Vives izentsuak eta Inaziok aldegin zuen bezi&ntilde; laister, esan zien arriturik besteai, ai&ntilde; espiritu andi ta altuko gizon batek ezin zezakeala gutxiagorik, ezpada Jainkoaren Elizaren alde Erlijio berriren bat sortuerazi ta moldatzea. Eta orobat klaru-asko aldeaurrez esan zion Anveresen Medina Campoko merkatari Pedro Cuadradori santuak berak, adierazorik eze, denbora pasarik, bere errian egi&ntilde;eraziko zuela arena izan bear zuen Erlijioaren kolejio edo alkartegi bat, egiztatu zuen bezala berak andik urte askora bere ta emazte Francisca Mangaren ondasunakin. Ez dator ongi asmakinde edo profezi ai&ntilde; erabaki oneki&ntilde; A. Pedro Ribadeneirakoak aitatzen duena, dionean, erlijio oso zuzen etzebillen batean edo zuzentzeagatik edo an zer eraman asko eukitzearren sartzeko asmoetan ibilli zala; nun eta kondairatzalle onek ori Manresako zentzustea ba&ntilde;o leenagoko asmo ta usteak adierazotzeko esan etzuen, edo baita ere anbat orrela obeto bere gogoak ezkutatzeko, santuak beraiz besteai alako itzerdiren batzuek zabaltzen laga ta utzi zien.</p>
+<p>Etzuen Parixen egun bat ere pasa sekula mezarik enzun gabe, ezta iganderik ere konpesatu ta komulgatu bage, eta bi aldiz egunero animaren barrunbeak aztertutzen edo esami&ntilde;atzen zituen, izanik lanbide au danik estimagarriena beretzat; bada ispillu bat bezela degu konzienziya, eta sarritan bertan begiratzen danak errex kentzen ditu egotzitzen zaizkan nabarmen da palta mota guziak. Ba&ntilde;an bere ikasikizunetara kemen osoarekin eman zedi&ntilde;, otoitz egite luzeak eta gorputzeko zeatutze ildurazkoak neurritu zituen ondo denboraldi artan; balio geiagoko obra egiten zuen ordea, uri-buru artan sartzen asi zidaren hereje Luterotarretako asko oartuazi eta fede-osoko egi ederretara erakarri ta biurtuazitzearekin, debozio edo jaierazko gauzetan bere lagun ikasleak sartzearekin, eta birtutezko bide ta Sakramentuen arrera sarritakora zuzendu ta gidatzeareki&ntilde;.</p>
+<p>Auxe asko izandu zan egokinde edo Filosofiya ikasten ziarduen Santa Barbarako alkartegian bere kontra ekaitz izugarri bat jaikitzeko, ta ainbestekoa, eze, zuzendari edo erretore Diego Govea portugesak agindu zuen eman zegiotela sala bat, ze&ntilde;a zan maixuen eskuz eta beste ikasilarien begi aurrean astinduera ta azotaldi gogor bat, ederrak emanik, ezarritzea; kastigu lotsagarri ta latza alegiya, ze&ntilde;areki&ntilde; an okerrak ta iskanbilla zaleak ezitu oi zituzten.</p>
+<p>Iritxi zan berri ori gure santuaren belarrietara; eta aurrenengo, berez oi dan bezela, gogor eta mi&ntilde; egi&ntilde; zitzaion-txit ai&ntilde; kastigu latz eta lotsagarria eraman bearra; ba&ntilde;a biotz andiareki&ntilde; bere buruari eragi&ntilde;ik, joan zan aruntza, eta barruan zegoala eta kanpoko ateak ere itxita, ta dana prest eta asitzeko puntuan eta egitekoa ei&ntilde; bear zan eskola edo ikasitoki andira sartu bearrean, bat batean bestera pensatu zuen, eta bere ezerezari begiratzea ba&ntilde;o espiritu bitoreagoareki&ntilde;, nola zan izan ere Jaungoikuaren gloria ta animen onari zegokiona, badijoa erretoreagana, eta esaten dio; leenago ere jazarre, karzela, ta kateak eraman zituen ezkero, beste ezbear ta kontrako edozer Jaungoikoagatik eramateko prest arkitzen zala; ba&ntilde;an ordea, begira zitzala arren, arreta andiarekin lotsakizun artatik sortuko ziraden kalteak; igerri zezakeala ondo, ikusten zutenean ai&ntilde; desonratua, guziak beragandik alde egingo zutela, eta bertuteko bidetik joaten abiatu ziradenak berak ere urrutituko ziradela, eta gerokoan animetan egi&ntilde; nai zuen prutuba ere ala eragotziko zuela.</p>
+<p>Ainbestera&ntilde;o Gobearen biotza arrazoi oien indarrak, eta iztunak berak mugitu ta gozatu al zuten eze, berbertatik oso beste bat egi&ntilde;ik, eskutik artzen du, salara bereki&ntilde; badijoa, eta zekustenak izu arriturik zeudela, o&ntilde;etara&ntilde;o auzpeztuta, negar malkua ugari dariola barkazioa eskatzen du, ai&ntilde; birtute probatukoa zan gizon bategan eragi&ntilde; nai izan zuen ez-bear ta okerragatik.</p>
+<p>Gertaera onen ondorengoa izandu zan len ba&ntilde;o begiramentu obe ta geiagoz bere erakusbideai jarraitzea, eta Jainko oparoaren iritzi miragarriaren bidez Govea jaun bera gerozko denboretan Portugaleko errege ongille ta biotz-andiko On Juan irugarrenarekiko bitartekorik obeena izatea, San Franzisko Xabierrek eta Lagundiko beste aita askok Indietan fedea arrigarrizko moduz zabaldu ta barreatu zezaten, eta Japongo erresumetan ere erei&ntilde; eta landatu.</p>
+<p>Bere karidade irazakiaren egiteko miragarri bat edo beste oraindik emen jarri nai ditut.</p>
+<p>Aitu zuen seguru Paristik ogeita amar legoara Erruanen Espa&ntilde;arako asmoarekin arkitzen zala gaizki ta bakarrik gaixotoki batean bere dirubak arrapatu ziozkan onako gazte oker hura; eta orra nun puntutik abiatu zan, o&ntilde;utsean ta erdi gosean zer jan-edanik bage aren billa joateko; eta neke pixu andienetako bat senti izan bazuen ere aurrenengo leguak igarotzean, leku aietako penditz baten ga&ntilde;era zanean, ezi&ntilde;-esan-alako pozareki&ntilde; biotza lertzeko zoriyan zabaldu zitzaion, eta ordutik arropa jasota ta korrika ta atsegi&ntilde;ez ojuka bazijoan gelditu bage; eta ala atzenik irugarren egunean iritxi ta laztandu zuen, konsolatu zuen ta arreta andiaz maitakiro kontu egiten egon zitzaion, eta aurrera segitzeko ai&ntilde;a sendatu zanean, Senatik barruna itxasoratutzen diran ontzietako bat eratu zion, eta ostera Espa&ntilde;arako ere gomendio-karta edo gutunak eman ziozkan.</p>
+<p>Ona orai&ntilde; beste gertakizuna: itzalduna bazan ere, bizitza txit zabar ta okerra zerabillkien erlijioso baten gelara goiz batean sartu zan, eta animako begiyak irikiazitzeko eta eroritzera zijoan bekatu-leizetik libratzeko eresi bizi-biziarekin, erregutu zion humilkiro konpesioan aitu zizaiola. Gogo txarrean bazan ere aitzera jarri zitzaion erlijiosoa, ta abiatu zitzaion penitentea bere lenagoko pekatubak bat banaka esaten alako sentimendu sollots eta negarrakin ordea, eze konpesoreak laister bere penitentagana ta beragana begiraturik, eta zei&ntilde; bestelakoa ta okerragoa bizi zan ta zei&ntilde; esker-gaixtoko ta biotz-gogorra zan ikusirik, azkenean ere konturatu zan ze bizimodu doakabea zeraman, ta bereak gero Ignaziori aitorturik, bere eskupean jarri zitzaion bear zuen zuzenbiderako bere laguntza eskatuaz. Zuzengarria izandu zan espirituzko jarduntza santuak egitea, ze&ntilde;aen bidez eta graziaren ikututze ta lagunkizunareki&ntilde; sartu zan noiz edo noiz salbazioko bideetan, eta andik aurrera ai&ntilde; bizimodu ederrean iraun zuen, nola leen kontrara bere ta beste animen galbide ta ondamenean.</p>
+<p>Atzenengo gertaera kontatu aurrean oroituazi bear det, bei&ntilde; alegiya gizonaren barrunbeak Jainkoaren ezaguerak ta amoreak irme ukitu ta berotu ezkero, errex edozei&ntilde; neke ta naigabe eramatera jartzen dala.</p>
+<p>Saiatu ondorean bada santuak milla arte ta modu, ta danak alperrik, beste gazte galai bat loturik zeukaten aiskidetza gaixto baten lazoetatik libratzeko, jakinik, zei&ntilde; lekutatik igaro oi zan gabero bere asmo ziki&ntilde; loietan likiztera, artara zijoan une batean negubaren biotzean, ze&ntilde;a beti Parixen gogorrenetakoa dan, sartu zan erdi izoztua zegoan putzu batean billotsik lepora&ntilde;o. An sartuta zegoala, gazte hura pasatzen sentiturik, boz altuan itzegin zion esanaz: <hi rend='Italic'>oa, oa, doakabe ori, eta ere atsegi&ntilde; ziki&ntilde;etan ase ari; ni bitartean iregatik emen egongo nauk otz-mindurik eta ire kontra altxatua zegokan Jainko asarratuaren besoari eutsitzen. </hi>Ots-oiekin ta alako itz-izuaki&ntilde; arri-egi&ntilde;ik gure gaztea, ta ari zitzaiona zei&ntilde; zan ere ezaguturik, eta ez are gutxiago bere buruaz lotsatuta, ai&ntilde; karidade sutuaz miretsi ta uzkurturik, atzera biurtu zan, eta aldatua oso, beste bat zala ondorengo guzian, bere libratzalle ta ongilleaganako guziz esker-onekoa ta aiskide bika&ntilde; da mamikoa bizi izandu zan.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>5.<SUP>en</SUP> BURUA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>Lagunak Parisen eta an aurrena egiten dituzten preska&ntilde;i edo botoak</hi></p>
+<p>Zala iraun-ezi&ntilde;agatik, zala zerekin joan etzeuketelako, etzioten santuari Franciara jarraitu aurrena artu izan zituen lau lagun edo ikasleak; eta Cartujan sartu zan laugarrena ez besteak, erlijioan sartu gabe gelditu ziran; ta orobat egin zioten Parixen bereganatu zitzaizkan beste iru lagunak.</p>
+<p>Oien ordez alaba&ntilde;an, Jaunak beganatzeko zeuzkan autaturik beste bederatzi nai bezi&ntilde; bitore ta egokiak, eta batzuek Santa Barbarako alkartegian zebiltzanak, ta ona emen bat-banaka zein da ze&ntilde; ziran; Pedro Fabro Saboiakoa; Francisco Xavier, Naparra; Diego Lainez, Almazangoa; Alfonso Salmeron, Toledotarra; Simon Rodriguez, Portugesa; Nicolas Bobadilla, Palenciakoa; Claudio Jaio, Saboiatarra au ere; Juan Coduri, Provenzala; eta Pascasio Broet, Picardia-tar Prancesa; azkenengo iru oek Fabrok bere arte trebe ta zeloareki&ntilde; Santua Paristik kanpora zebillela irabaziyak ziran; bada zan guztiz trebatua animak Jainkoa-ganatzen.</p>
+<p>Luze biziro izango lizake emen zearo azaldu ta adieraztea lenengotik batzuek ipi&ntilde;i ziozkaten kontra ta atzerapenak, nola, bere asmo santuetan sendo iraunik, oek igarota eraman zituen, ta zer trebetasun ta aziertubaekin banaka banaka beretu zituen, alik eta Jaunaren esku ta graziak agitz laguntzen ziola, bere erlijioaren ondape edo zimendu-arritzat jarri, ta apostolu berri batzuek atera zituen arte.</p>
+<p>Ikusirik bere sei lagunak karidadean sugariturik zeudela, eta gogoan zerabillen ekingai andirako prest, 1534garren urteko Ama Biriji&ntilde;a Abustuko jai-egunean Martirien Mendiko Birji&ntilde;aren Elizara aiekin joan zan, ze&ntilde;a orduan legua bete uritik urruti egiten zan; eta konpesatu ta Jauna artu ondorean, danak biotz ta megope edo espiritu bat-berareki&ntilde; preska&ntilde;i edo botoa egin zuten, Veneciara&ntilde;o igarotzeko bear zutena ez beste guzia utzitzeko, eta an urtebetean itxasoz joateko era on bat itxodonik, erromeriz Jerusalenera joan, eta antxe fedegabeak siniste egiazkora, ta kristauak bizitza obera erakarten jardunik betiko gelditzeko; ezi&ntilde; ordea bazitezkean an gelditu, edo urte-barruan Veneciatik irten, Jesu-Kristoren Ordekoari beren buruak eskei&ntilde;tzeko, nai zituen gisara eta eran animen onerako lanbidean ipi&ntilde;i zitzan. Danak berritu zituzten boto oiek berak urrengo bi urteetan ere; eta orra nundi zorioenean sortu zan Jesusen Lagunkidan misioetarako boto berezia profesioa egitean; eta bere erlijioso bakoitzak bereak berretan urteoro berritzekoa, eta ga&ntilde;era Lagundiak aingeruen Erregi&ntilde;a soberanaganako duen jaiera guztizkoa.</p>
+<p>Etzitzaien bada besterik palta beren asmoai bukaera ederra egotsitzeko, ezpada batzuek beren ikasikizunak akabatzea. Milla bosteun ogei ta amabosgarren urtea eldutzean erabaki zuten egun jakin batean lagunak Alemaniatik barruna Veneciarako irtetea, eta orobat I&ntilde;igo gurea denpora puska baterako, sendagi&ntilde;ak agintzen zioten eran, jaioterriko aize giroetara zijoala osasunean irmetu ta pijotu zedi&ntilde;, bada makala ta erdigaldua zerabillen; eta andik Veneciara biurtutzean, Naparroa, Almazan da Toledotik pasarik, oietakoak ziraden iru lagunen eginkizunak zuzendu ta mugonean jarri zitzala.</p>
+<p>Ala egi&ntilde; ere zan; eta Parixen buru ta agintaritzat bere leenengo lagun ta apaiza bakar Fabro utzirik, Espa&ntilde;aronz abiatu zan eta 1535urte bereko Asensio ta Pentekostes Pazkoa bitartean bere erri maite Azpeitikoan sartu zan.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>6.<SUP>en</SUP> BURUA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>Bere jaioterri Azpeitikoan</hi></p>
+<p>Bada batez ere bere erritarren artean diraute orai&ntilde;dik bizi ta giro santu ospatsu ta argidotar onen oroimen gozo eta jaiera iraunkor biotzezkoak, ongi dirudi bai oraingoan zearoxeago emen, nolatan bere sarrera ta egonera izandu ziraden azaldutzea; askok alaba&ntilde;an jaki&ntilde; nai izango dute eta besteren batzuek ere pozik berriro bururatu, eta esan: <hi rend='Italic'>emendixe barruna jetxi zan; onako iturri onetan ura edan zuen; emendik sartu zan; orrako etxe ortan bizitu zan; emen predikatu zuben; eta an edo aruntzago onlako edo alako mirari egin zuen, edo alako edo onelako egitekotan bere santutasunaren ukimen eder eta si&ntilde;alea utzi zuen.</hi></p>
+<p>Urdalleko mi&ntilde; gogor eta o&ntilde;azeakgatik erosi zioten Parixen bere lagunak muxaltxo bat, unetik unera be&ntilde;epei&ntilde; ga&ntilde;ean joan zedi&ntilde; Espa&ntilde;ara bitartean.</p>
+<p>Bere anaiak jaki&ntilde; zuanean bazetorrela, eta euskalerriratu zala, bialdu ziozkan bere-bereala Franciako muga-ondora&ntilde;o bi gizon armadun bidean lagun zegioten; etzuten ordea ezagutu berareki&ntilde; topo egi&ntilde; bazuten ere.</p>
+<p>Donostiatik aurrera anzi&ntilde;ako zaldibide zar latza ekarri zuen, ze&ntilde; Asteasutik barruna dijoa, Ernio-mendi-atzeko epaitzetatik itxasoa ere agiri dala, eta Araunza ta Gainzako tontor bitartarteetatik jetxirik, Enparango zubi ta etxe purubetarraren alboan bukatzen da.</p>
+<p>Bi edo iru leguaz urruti, benta Iturriozkoan atsedetan santua gelditu zan. Sartu zan ere andik laixter Juan Egibarkoa; ta aiturik ostalari etxekoandreari nola iritxi zitzaion Euskeraz itzegiten zuen ezezagun bat, zegoan gelako ate zirrikatik begira zelatan jarri zan, eta morrolloko txulotik ezagutu bezi&ntilde; aurki, <hi rend='Italic'>Don Inazio da, </hi>esanaz, korrika Ezkurrua ta Etumeta-ga&ntilde;ak arturik, aldapa bera abiatu zan, bere etxe ta erriyan berri alegre hura ematera.</p>
+<p>Bereala boza banatu ta barreatu zan eta arrera andi ederren bat ere apainduri ta zaldizko-ta-guzi egiteko axmoaki&ntilde; ibilli ziran; ba&ntilde;a on iritziko etzitzaiolakoan edo berriz laxter joango zitzaien bildurrez, bestera pensatu zuten; eta ongi-etorria ematera aurrera On Baltasar Arabaesa apaiza bidaldurik, ots geiegirik gabe irten zitzaizkan aide, apaiz, eta erritar-samalda bat, batzuek Enparango etxe-atzeko bidean itxodotera, besteak urrutixeago orduan ermita zan Landetako basarretxe ondora, orai&ntilde; Urrestilla ta Tolosarako bide-gurutze egiten dan tokira; bada nai ta nai-ez, batetik edo bestetik pasa bear zuen. Eta ala, bigarrenera iritxi zan, eskuiko bidea utzita, eta Elormenditxoko basarri ondotik beera eskerrera dijoan baso-bidea arturik.</p>
+<p>Jende bolada aren poz-agur ongi-etorri ta diosalen ondoren, erriratzean despita on gogortxo bat etorberriyaren da etxetarren artean sortu zan; oiek beren Loiola-etxera eramateko alegi&ntilde;ean, au berriz zuzen zuzen, irme egi&ntilde; zuen bezela Magdalenako gaxotegira joateko ziardutela, bada etzuten ezer balio izan ez erregu ez arrazoi ta beste edoze&ntilde; munduko begirakizunek, bere jaioterrian bizi zan bitarte guzian beste pobrerik beartsuenaen gisan ibillteko zerakarren asmo umilletik aienatzeko.</p>
+<p>Ai&ntilde; sentikizun andia artu bazuten ere, eta munduak dionez lotsa ta desonra ere bai, andizki alakoak ziradelako, bialdu zizkioten bei&ntilde;epei&ntilde; beretakoai zegozkien moduko oia ta eguneroko jakirik maneatuena; au ordea beti gaixotegiko pobreai ematen zien, eta oi artan egunda&ntilde;o etzauntza bat egi&ntilde; etzuen, goizero polliki banatu ta naastutzen bazuen ere, alik eta zer zerabillen mirabeak oartu ziran arte; eta besteai bezelako gaixotegiko bat ipi&ntilde;i zioten, ta an gabean batzuetan lo egiten zuen, bada geienean lur gorriaren ga&ntilde;ean zetzan. Egun bat bakarra dirudienez bere jauregi-etxe-Loiolakoan pasa izan zuen eta onetara ere belauniko erregu biziakin bere kui&ntilde;atak beartu erazi zuen; ba&ntilde;a biaramon goizean goiz i&ntilde;ortxo ere suspertu bage zirrikatu zan igesi kanpora, kondarairatzalle bat edo bestek egun zenbaitzuek alkarrekin atsegi&ntilde; andian igaro zituztela, badio ere.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>7.<SUP>en</SUP> BURUA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>Bere erakutsi-onak jaioterrian ondorengo prutu ederrak</hi></p>
+<p>Errira etorrita biaramon egunean bertan kaleetan barruna eskean asi zan, eta ala ikusiarekin kaletar guziak arrituta utzi zituen; eta bere aide ta anai nausiena tristuratu ta atsekabetu ere ziraden ez gutxi, ba&ntilde;an etzion orregatik egunero atez-ate ibilteari laga, ematen zioten jatekoa arturik.</p>
+<p>Andik laster humeak eta mutill-koskorkorrak beregana bildu ta dotri&ntilde;a aiei erakusten abiatu zan; eta arpegira emanik bere anaiak onegatik, etzegokiola ondo ala ibiltea berari ta beretako bati, ta alper-alperrik ziarduela esanik; eranzun zion, hume bat bakarra aitzera gelditzen bazitzaion ere, lan eta denbora hura ederki igarotzat zeuzkala. Etzan ala gertatu; ezpada umeak berak aundi ta azientzako ere amu batzuek bezela izan ziraden; bada gizon da emakumeak an zijoazkion aitzera korrika, eta aurki urbildi zitzaizkan bere anai ta aide ga&ntilde;erakoak ere, eta gero elizan jendea ezi&ntilde; kabiturik, kanpo zabalean predikatzera beartu zan.</p>
+<p>Jenderik geiena inguratu zitzaion itzaldi edo sermoi batean esan zuen eze, bi erakai edo arrazoi-bidek bere jaioterrira erakarri zutela; bata bere gaztetzako zorakeri ta erakutsi okerrak alegi&ntilde;ean desegiteko; bestea berriz an bertan arkitzen zan gizon baten onra ta ondasunari begiratu ta ordai&ntilde;tzeagatik, era berean biatzareki&ntilde; si&ntilde;alatu zuan, bada hura urte batzuez leenago bidebagekeriz karzelaratu ta multatu zuten pruta puskaren bat ostu zuelakoan, txarkeri hura egi&ntilde; zutenak bera ta bere antzeko lagun ajolakabe batzuek izanik; ezbear argatik ordean, an guzien aurrean bereak gelditu zitzaizkan bi soro edo lur-zelaiak beti-betiko ematen ziozkala.</p>
+<p>Beste egun batean predikatzen ziarduela Hospitaletxo ta Magdalena bitartean elizatxoaren atarian, bi mirari moduko garaimen ederrak iritxi zituen bere itzaldiaren bidez Jaungoikoaren graziak neskatxa bategan, ze&ntilde;a basarretxe Enparan-gai&ntilde;goaren leio batean erdi-etzana kanpora begira zegoan ea zerbait aitu al ote zegion. (Gaur Madalena ta etxe ori alkar ikustea beste gero eindako berri batek eragozten du). Bata izandu zan, irureun bat pauso iztunagandik zegoala, dana klaru ta zearo aitzea; bestea berriz oraindik askoz andiagoa dana, ondo damutu ta bere bekatuagatik negar egitea, eta ordura&ntilde;o zerabillen bizitza gaixto zabarra utzirik biotz biotzetik Jainkoagana biurtzea.</p>
+<p>Onetan bizitza garbi berri batera jartzeko premi andia zegoan denpora aietan errian eta inguruetan, eta jarri ere ziraden jendeak, Jaungoikoaren errukimenduz eta bere serbitzari leial onen itzaldi ta erakutsi onaen bidez; bada etzan aspertu bere jardunean alik eta desonestidadeko gri&ntilde;a ziki&ntilde; lotsagabeak sustrai sustraitik atera ta kendu arte; ta eginkizun onen prutu onenetakoa izandu zan, apaiz-etxe batzuetako emakume usai txarrekoen oitura agiriko anzi&ntilde;akoa kentzea, ze&ntilde;a zan ezkondu on leialen gisan apa&ntilde;dilla zuriya oek erabiltea, bada oi da euskal-errian oraindik, andre-ezkonduak apaindille edo buruko zuriyarekin ibiltea, alargunduak beltzarekin, eta neskatxak illeutsean edo apandillarik gabe.</p>
+<p>Iritxi zuen orobat beste andreak ere beren gala kostuzko ondagarriak beingoan utzi zitzatela, edo onetan beintzat geiegirik ez erabiltea aurrerakoan; orobat karta-jokuak kentzea, bada onetara ere txit emana zan orduko jendea; baita ere Sakramentu guziz Santuaren anaitasuna ipi&ntilde;i zuen, parroki edo bezeroteiko pobreen alde eta oien onerako ere bere Loiola-etxekoak beartuak geldi zitezela betiko, jaioro elizan amabi ogi ematera; pekatu larri edo illkorrean zeudenentzat eta purgategiko animentzat erregutzeko iru aldiz egunean eskilla edo kanpaiak jo zitezela; eta azkenik <hi rend='Italic'>nai izan zuen guztia egin zuben, </hi>batera aitortu zuten bezela bera doatsututzeko egitekoa erabilli zuten lekuko edo testiguak.</p>
+<p>Guziz oroimen eder eta esker-onekoa geratu zan Santua bere erritarrak-ganako, eta ala ere berai aditzera eman zien Erromatik, izkribatutako karta maitagarri baten bidez milla bosteun da berrogeita batean. Ori dakar XI lati&ntilde;era itzulia eta Bolonian 1804garren urtean argitaratua Aita Erroke Mentxaka euskaldun Llodiotarrak ze&ntilde; zan gizon argiya ta birtutetsua agitz, eta Carlos irugarrenak erresumatik erbestetu zituen jauska&ntilde;i errugabeetatik bat.</p>
+<p>Jaio zan lekuko aize ta egurasteak aurki premia zuen osasuna eskuratu zioten; ba&ntilde;a ondo senti zaneko, berriz ekin zion penitenzi edo damulan gogorrak egiteari, ondo kosta izan bazitzaion ere bada bi aldiz okerrago ostera gaixotu zan; eta orduan ere bereetakoak etxeratuta, oi duten kontu da onginaiarekin sendatzerik etzuen i&ntilde;ola nai izan; etorri zitzaizkan ala ere nolabait zer edo zertan gaixotegian berari laguntzeko bere lengusu bi, Ona Maria Oriolakoa eta Ona Simona Alzagatarra, ze&ntilde;ak karidade argatik saristatu zituen Jaunak erregutzeko denboran santuba airean goratuba, Jainko-amorez sutua, ta argi-errai&ntilde;uak inguruan zeriozkala ikustearekin; eta berentzako oa&ntilde;dik obe izandu zana, biyak gero bizitza guzirako Hospitaletxo artan zeuden beartsuen ta gaixoen serbitzari ta kontuartzalle geldi ziraden.</p>
+<p>Orrezaz ga&ntilde;era, santu onen mereziera ta santutasuna agertu ta sinistarazi zituen gure Jaunak profezi edo igarletzako doaia edo grazia ematen ziola, eta orobat gaisotasun ilkorrenak ere sendatzekoa bere bedeinkazio edo arropa garbitze utsarekin.</p>
+<p>Azkenik bere egoeraren oroimen eder betikoak utzi zituen tokiak, lenengo partearen aurrenengo buruban aitatu gi&ntilde;uzen bere jaietetxe gaztelua San Sebastian Soreasuko parrokian dagon pontia, ta Ama Birji&ntilde;a Olazko, eta Egimendiko San Pedroz-ga&ntilde;era, jakingarrienak dirade, bere erri Azpeiti guztiya, ta batez ere Magdalenako gaisotegi edo hospitaletxoan deitzen ziotena, orai&ntilde; ordea egon zan tokiko etxeari Benta-berri zaio eta au seigarren lumeroareki&ntilde; Santa Anako plazatik Eleizaronz, eta Zestuara ta andik Zarautz ta Donostiara daraman bidearekin eski&ntilde;a egiten duena da; ta onen paretan ipi&ntilde;ia dago pinturazko Santu beraren iduri aundi bat, zei&ntilde;aen aurrean parola gabero iziotu oi duten, eta ga&ntilde;era ara juan oi da ere bere onran so&ntilde;u ederrak jotzera erriko musika edo so&ntilde;ulari-taldea santuaren zorziurren bitartean, eta berak Iru&ntilde;eko gazteluban artu zuen balazo eguna urteoro ospatu edo zelebratzean; ala ere pesta ta jendetzarik geiena Loiolako Etxe Santu, Eleiza, Kolejio edo Alkartegi ta onen aurreko zelai-zabal giroan izaten dira. Erriaren ertzetik irtetean ta Ospitalletxo zanetik eun bat pausora arkitzen da Magdalenako eleizatxoa, eta onen atarian geienean predikatzen zuela segurutzat dadukate, bei&ntilde; ba&ntilde;o sarriago igorik arbola edo zuaitz baten besangaetara. Arbola oien oroimen atsegi&ntilde;a gorde izan dute gaurda&ntilde;o Azpeitiar prestuak zarrak igartzean leku berean berriak landatzeareki&ntilde;, orai&ntilde; bertan lonbardo-makal andi bat baizik ezpadago ere. Aitatzekoa da ere denbora aietan estrata edo gurdibidea izango zana, ta orai&ntilde; espoloi-onarekin erriya ta Loiola bitartean dagon Olazko Ama Birji&ntilde;aren pareko tokiya, nun Salbe bat errezatu oi emen zion santuak, bertan arlandu galantean letreruak egiztatzen duen bezela; eta nundik pasatzean beste ainbeste egiteko jaiera ta oitura duten asko ta askok. Santuaren etxekoena zan ere anzi&ntilde;a-anzi&ntilde;atik Arzubi-ondoko Insula-etxea, ta an sarritan egon oiko zan, zeren bertan zeuzkaten jai-egun andietan elizaratzeko bear zituzten so&ntilde;eko ta arroparik apai&ntilde;enak. Gogoangarria da azkenengo ta ez aaztutzekoa Elosiagako aldapan bide errial azpian Kiruri, Arritxuri edo Garagarzaberri izena duen basarritik urre-urrean sortuta ta beera labai&ntilde;tzen dan iturri iori geza-gozoa, nora bere ur bigun garbi gozatsua eratera joan oi omen-zan, eta orregatik gaurko egunean deitzen diote San Inazio-iturriya.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>8.<SUP>en</SUP> BURUA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>Veneciarako irteten du</hi></p>
+<p>Iru illabetez gero, bere osasun bigu&ntilde;a sendo-txamarturik, berriz beretarrai kontra egin bearrean arkitu zan, ta garaiturik aien berezko ateraldi ta erasoak, eta arrazoi-iduri-hura eze bere erritarren artean i&ntilde;un a&ntilde;a edo protxu geiagokoa izango zala, guzien negaraldi eta laztantzetik noizbait irtenda, aienatu zan, eta bestela ezi&ntilde;alean lagunez ta begiramenduz betea abiatu ere bai Naparroaronz; ba&ntilde;a Gipuzkoako mugapetik kanporatzean, nolala limuriturik, bakarrik eta oi&ntilde;-giro onean aurrera jarraiturik, joan zan Iru&ntilde;a edo Pamplonara, eta Almazan, Siguenza, eta Toledora, bere lagun Espa&ntilde;akoen eginkizunak zuzendu ta bear zuten oinpidean jarritzera.</p>
+<p>Toledotik Segorveratu zan, Valde Kristoko bakartardiyan bere Parisko maisu On Juane Castrokoa kartujo-janziyan ikusteko asmo ta gogoarekin, eta leenago Amberesen Pedro Cuadradori esan ziona, oni ere, aiskide mamiko ta gizonik prestuena ta kuadriari bezela, aditzera eman zion bereala azalduko zuen Lagundiaren maneakizuna ta kemenkidatzea.</p>
+<p>Valenciatik ugarotu zan itxas-lapur andi Barbarroja zeritzanaren ezer bildurrik gabe; onek alaba&ntilde;a Turco-andiaren eskubidearekin buruzai zegoala, Mediterraneo-itxasoko pasadizoak artuta zeduzkan; Jaunak ordea bere errukiz aren atzapar eta eriotzako edo katibutasuneko perilletik gorde bazuen ere, merezi-bidea eman zion Genovan leorreratu ba&ntilde;o leen atzitu, ta estura-larrian ipi&ntilde;i zituen ekaitz-beltz baten bidez, zijoazen ontzi hura ondatzeko zoriyan zerabillela. Pasajero gaixoak esku ta begiak zeruronz, Jainkoari erregutzen deadarka baziarduten, istante-oro eriotzaren beldurrez; I&ntilde;igo gurea berriz lanze artan bertan sosegu-soseguz egon zan, Jaunaren begirunde maitean uste osoa ipi&ntilde;irik, bakar bakarrik zerbait atsekabe ematen ziola, ordura&ntilde;o bear bezin leialki ta zinzo bere esku oparoagandik arturik zeuzkan mesede ta ontarte ai&ntilde; berezi ta andiai ez eranzun izanak.</p>
+<p>Egunda&ntilde;oko perillik arriskatuenean arkitu zan bei&ntilde; batean elurte galantarekin ausa Apeninoko mendiyak iraulitzean, berak aitortu zuan bezela; bada bidea utseginda, izugarrizko aitzarte edo leize-moduko batean beera, ze&ntilde;aren azpitik ibai indar andiko bat zijoan, irristatu ta amildu zan, an bertan ez atzera eta ez aurrera geratzen zala. Ala ere nola-ala geroenean arrastaka, amillka, ta erdi-txilipurdika lan eta neke andiarekin bazan ere leku obera igaro zan, Jainkoak bere esku guzialtsuarekin nunbait ere gorderik.</p>
+<p>Bolonian sartzerakoan, erori zan orobat ustekabean likistegi edo istingai zikin batera, andik dana loitua zekusatenen iseka parre ta algarakin irtenik, okerrago bat oraindik gertatzen zitzaiola ondorean; bada, erdigaixoa ai&ntilde; jendetsua zan uri hura dana ibilli ta inguratu ondorean, ur-tanta bat ere eman nai zionik i&ntilde;ortxo billatu etzuen, alik eta anzi&ntilde;a-anzi&ntilde;atik Espa&ntilde;atarrak an daukaten Arau-jaki&ntilde;tzako alkartegian premia zuen erruki, begiramendu ta Espa&ntilde;olen kristau-karidade ta onginaia arkitu zituan artean.</p>
+<p>Atzenean ere pausoz-pauso Veneciaratu zan milla bosteun da ogeita amasei-garren urteko Abendu-illean, beste batzuek diotenez berriz ogeita amazazpi-garrenaren Illbeltzeko sei edo zorzigarren egunean; ta an atsegi&ntilde; bete betean inguratu ta pozik laztandu zituan osasun ederrean bere lagun biotzeko maiteak, are geiago Pedro Fabrok irabazi ziozkan iru aiekiko geitzearekin alaiturik.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>9.<SUP>en</SUP> BURUA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>Venecian irugarren aldiz</hi></p>
+<p>Zor zitzaion atseden pixkatxo bat gorputzari emanik, Jainkokinde sagradua berriztatzeari gogotik eki&ntilde; zion, ta bei&ntilde;ere pakean utzi ezi&ntilde; ziona, animen onera ere egi&ntilde;-alean begiratzeari.</p>
+<p>Andik egun gutxi-barru Lur-Santuetatik zetozen bi anaia Espa&ntilde;atarrak leorreratu ziraden antxe; oien izenak ziran Diego ta Esteban Eguia, Iru&ntilde;darrak ze&ntilde;ak biak aixa santuak bereganatu, edo obeto esateko, Jainkoaganatu zituen, Jaun berak lenengoa bere konpesatzalle izan zedi&ntilde; Erroman autaturik; bada gizon jaieradun, txit zuzen, begiratsua, ta artarakoa zan izan ere.</p>
+<p>Aurki bi autango oiek ba&ntilde;o gutxiago etzan beste galai bat bere ebanjelio-sarean sartu ta erori zitzaion: au Malagatar Diego Hocez zeritzana zan, eta asieran I&ntilde;azioganako errezeloetan da zelatan zebillena; ba&ntilde;a jarduntza-santuak egitera jarri zan unetik bertatik, zigor mirarizko baten ukitura bezala, bere eskuetan oso jarri zitzaion, ta bere semeen artean izendatu zan. Auxe bera izandu zan geroxeago aurren-aurrena peliazko Lagunkida lurrekotik garaipenezkora sartu ta zeruratu zana, ikusirik santuak nola bere anima, gorputz ustelkorraren lazo ta korapilloak etenik gloriaz inguratua ta argi-errai&ntilde;uak zeriozkala, igo zan zeruko bizitoki ta jargoietara; bada arbola galant eder iori aien artean landare berri bigu&ntilde;a izan arren, denpora gutxi naikoa izan zuben bizitza-betiko pruta gozo-umatuaz zamaturik, ai&ntilde;geru ta zerukoen arboladira aldatzeko di&ntilde;a egiteko.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>10.<SUP>en</SUP> BURUA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>Lagunak leenengo ta urrena santua bera Erromaratzen dira</hi></p>
+<p>Iru bat illabete igaroak ziradela, pobretasunezko erakai edo tituloz ordentzeko baimenak ekartzeko ustean, Erromarako atera ziran bere lagunak, eta leenago Alemania ta Suizako alderdietan lan da neke ez gutxi ta anbat are geiagoak bidean bizarki eramanda, ederki-ederki uri santu artara iritxi ziraden; bitartean gure I&ntilde;igo Santua Venecian geratzen zala, Palestinara joateko zuzenbideak aurreratzen; bada errezeloa bazuen eta lege ta bidezkoa txit, kontra egingo zietela Carafa kardenalak eta Pedro Ortiz, Cesaren bialki&ntilde; zei&ntilde;ek Parixen ere leen berari gogor-egin izan zion, eta biyak ostera Aita Santu Paulo irugarrenarekiko guztiz asko zezakeenan ziraden.</p>
+<p>Alaz guziaz ere, Jainkoak ala naita, etzien Pedrok ezertxo ere kontrarik egi&ntilde;, ezpada emeki arturik, ber-berak Aita Santuareki&ntilde; itzegitera sartuerazi zituben, zei&ntilde;ek entero pozik aitu, eta aiegan danetan zekusan jakinduri, zelo santu ta modutasun egokiaz miresturik, eskatzera joan zitzaizkaten grazi ta mesede espirituzko guziak oparo ta ugari eman ziezten, eskupeturik ere ga&ntilde;era zerekin Veneciara ondotxo biurtu.</p>
+<p>Allegatu ta bereala Aita Santuaren baimenaen bidez segituan ordendu ziraden, eta santuak orobat apaiz-mallako ordena San Juan Bautista-egunean, aotango urte gere salbamenduaren milla bosteun eta ogeita amazazpi-garrenean, artu zuan.</p>
+<p>Kanpoan zebiltzan bitartean, inpernukoa beti Inazioren etsairik zitalena, etzan lo egon ausa; bada ertz eta eski&ntilde; guzietatik zirikatu zituen zenbait persona, bere izen on ta onra beztu edo be&ntilde;epei&ntilde; illuntzeko amaika iskanbilla ta esamesa gezurti banatu ta egiztatutzera saiatu ziradenak. Bost onelako aita-semeai orai&ntilde;da&ntilde;okoan deabru ta bereetatik etorri izan zaizte! Ba&ntilde;a esankizun aien ga&ntilde;ean gauzak argitu ta zearoturik, ez bakarrik salatuarenganako erabakiera barkaziozkoa, ezpada bere bizimodu eta erakutsikizuna o&ntilde; ederrean ta txit onragarri jartzen zuena, eman zuen on Jeronimo Veralli, Jabedi artan Aita Santuaren aldameneko bialki&ntilde;a zanak.</p>
+<p>Egunetik egunera alaba&ntilde;an jabedi orren eta Soliman Turkoaren arteko guda bizia sututzen abiatu zanean, eta Adriatiko-itxaso kosta inguruai etsaiak bere ontzi-samaldaekin gogor egiten ziela; pensatu zuten bitarte hura pasatzeko, eta aurrenengo meza ematera obeto prestatzeko, batera ta bestera alkar berezitzea, gure santuari Vicenciara Fabro ta Lainezekin joatea zegokiyola; antxen irurak bakartegi edo komentu zar baten legorpean lasto-pillan lo egiten zuten, neke askorekin da txit urri ta eskas gauza guzietan zebiltzala; ai&ntilde; ordea otoitzeratuak eta Jainkoaganatuak, ta ai&ntilde; malko gozo ta zeruko erregalo ta mesedez beteak, eze hura bigarren Manresa santuari zeritzaion.</p>
+<p>Karrika ta plazaetara danak irteten ziraden Veneciatarren izkera erdi-jaki&ntilde;ean predikatzera, ta alako indar eta berotasunareki&ntilde; eze, asieran millaka Italian oi diran aulki-berritxu edo saltarietakotzat artu bazituzten ere, polliki polliki urreratu ta aitzen jarririk, arrituta geroenean gelditzen ziran, ta zerbait emanik berentzat damu-onez beteak makur-makur isillik etxeratu ere bai.</p>
+<p>Denbora artan Basanon Simon Errodrigezi aita baten di&ntilde;ako bi ontarte eder-andi, bi mirari aua betean esan leizkeanak, egin ziozkan. Bata gaxotasun larri batean arkitzen zala, bere billa joan eta laztantze utsarekin ia bat-batetango osasuna ematea. Bestea are atsegi&ntilde;agoa oraindik, bere Jainkoaganako erregu bizi ta negaraldiakin hura leenengo bokazio edo atotsimendua ta apostolu bizitzarako asmoak oso utzi ta atzeratzeko zerabilkien tentakizun izugarritik libratu ta gordetzea; bada bakardadeko paketasun ta gozoarekin lilluratu ta enga&ntilde;atuba, bakartar-lagun egiteko gogoakin zebillen an urreko Antonio-zeritzan batekin; au alaba&ntilde;an errikoak bere bakardadean zeraman bizimodu gogor ta so&ntilde;ean zeukan janzi latzagatik beneratzen zuten anitz.</p>
+<p>Abiatu ere bazan Simon gizajoa artara-jarrita eleizatxoa zegoan eremu aldera, ba&ntilde;a orra nun estrata erdian agertzen zaion ustekabean zentoi edo jigante izugarrizko bat ezpata eskuban aren kontra astindurik jarraitzen diyola; arri-egi&ntilde;ik billdur-gorrian atzeratzen da korrika, zalapartaka igas-ei&ntilde;ik, ta estura larrian Ignazioren besoetara iristean, besarkatzen du onek parre-anzian diyola: <hi rend='Italic'>sinismen gitxiko gizona, zertan zalanzan zebilzan? </hi>Jainkoagandik zer pasa zitzaion guzia jakin zuanaren si&ntilde;alea.</p>
+<p>Ikusirik argi ta garbi, i&ntilde;olaz ezi&ntilde; aurrera eramango zutela Jerusalenera joateko zeukaten preska&ntilde;i edo botoa, batu zituen Venecian bere lagunak, eta alkarren artean erabaki zuten, preska&ntilde;i egi&ntilde;aren bigarren parteak zion eran, Ignazio bere Fabro eta Lainezeki&ntilde; danen izenean Aita Santuaren eskuetan jartzera Erromara joanik, beste ga&ntilde;erakoak Italia-goiko ikasolaetan sakabanatu zitezela; ea onela beren izketa, erakutxi-on, ejenplo eder eta bizimoduarekin beste gazte autatu onen batzuek ere beren asmo santu ta ibillera-modura atotsitu ta erakarte ote zituzten.</p>
+<p>Alkar utzi ba&ntilde;o leen orregatik, an bertan guzientzat sortatxo batean bezela Lagundiko bizibidearen marra edo legerik garaiyenak batu ta zuzendu zituzten; oiek ziran, eskean-bilduarekin bizi eta gaixotegi edo hospitaletan ostatuz egotea; txandaka bata bestearen buru edo agintari asteoro bakoitza izatea; plazaetan edo aitzalleentzat egokiena zekusaten tokietan predikatzea; kristau-dotri&ntilde;a edo jakintza eta oitura prestubak umeai erakustea; beren lanbide orda&ntilde;ez bezela ezertxo ere ez eskatu ta ez artutzea; eta beste edozei&ntilde; bide on ere, lagun-urkoen protxurako izanik, beren-berekitzat ta beren bizi-legearen erakotzat eukitzea.</p>
+<p>Eta gure santuaren Erroma-bideko gauzarik ospatsuen eta oroigarriena emen aitatu dezagun, gertatu zitzaion, bakarrik otoitz egitera Storta deritzan ostatutxo edo bentaren aldameneko elizatxo batean sartzea, (ze&ntilde;a arkitzen dan Erromatik bi leguara Florencia bidean), eta an euki zuben ikuskera zeruzko ai&ntilde;a omen andikoa, ze&ntilde;ean klaru-klaru animaren begiyakin ikusi zuen Aita-Jainkoa, ze&ntilde;ak bere Seme-Bakar gurutzea sorbaldan zeramanarekin itz-egi&ntilde;ik, maitakiro-guziz berari Ignazio ta onen lagunak gauza txit bereak bezela gomendatzen ziozkala, bere esku-altsu-pean ipi&ntilde;ten zituen; eta Jesus onak berak, bere serbitzariari arpegi alai gozatuaz itzulita begiraturik, esan ere zion: <hi rend='Italic'><foreign>Ego vobis Romae propitius ero: </foreign>ni zeron alde Erroman izango nazue; </hi>eska&ntilde;i gozoa biziro, eta orduan bere ta beretakoentzat ainbeste atsegi&ntilde;ez bete ta ase zituena izandu bazan, Jainko itsaltsu berak agintzen zien dana guzia beraren gloriarako alaitasun berri bizi batez eramateko; gozo ta seguranza ez gutxiagokotzat izan zana, eta ondorengo denboretan ere Lagunkida guztiarentzako izan bear dubena.</p>
+<p>Geroenean Aita Tirso Gonzalez Lagundiko Buru-nagusi zala, oroimen argidotar ori betikotutzera saiatu zan, lati&ntilde;ez nabarri landu batean ermitatxoaren atalburuban otallutu-azirik, eta orobat an gertakizun bera adirazten zuen pinturazko iduri bat, ipi&ntilde;ierazirik.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>11.<SUP>en</SUP> BURUA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>Erroman bigarren aldiz</hi></p>
+<p>Milla bosteun da ogeita amazazpi urteen azken inguru artantxe gure Santuba bere bi lagunakin Erromara iritxi zan. A. Fabro Sapienzian Eskritura sagradua, eta A. Lainez berriz Jainkokinde Eskolastikoa, Aita Santuak ala naita, erakusten asi ziraden. Santuak orobat eki&ntilde; zien bere beargaiai, batez ere gizonik andizkienetakoai ejerzizio edo jardunaldi espirituzkoak emateari, ta oen artean lenengoetakoa izan zedilla nunbait ere Jaunak nai izandu zuben Gaspar Contarini Kardenala, ze&ntilde;az baliatu zan andik laster, Aita Santuaren gogoa prestatu ta mugi zezan Lagundiko bitezardea edo bizilegea aztertu, begiratu ta ontzat-emateko; egiteko au alaba&ntilde;an Jainko-berarena gizonena ba&ntilde;o geiago zan, nola izaten diran ere bere gureganako onginai neurrigabeaz bere Eliza lagundu, erakutsi, gorde, babesatu eta santutzeko bialdu oi dituen beste ordena erlijiozko guziak.</p>
+<p>Bigarrena, arestian aitatu genduen eran, Aita Santuaren eta Cesaren ingurukorik andienetakoa, onen bialki&ntilde; Pedro Ortiz izandu zan, ze&ntilde; santu berarekin, sosegu ta prutu geiagorekin jarduntza santuak illebete osoan egiteko, Casino-Mendiko bakartegi ospatsura bildu zan.</p>
+<p>Sasoi-artan ere Erroman bereganatuazi zuen, mundu zoroaren itxaso zabalean uste lilluramenduzko olatu arro-puztuen artean zebillen unean bertan, gazte galai Francisco Estrada zeritzona, bere doai eder ugariakgatik lenengo lagun edozei&ntilde;en kidakoa; bada orixe izandu zan, urte-gutxi barru bare itzaldi, ta jarduntza santuak ematearekin, bi gauza oietan maixuenetakoa zala, Europaren parterik galantenean biotzak pekatuzko lo-zorrotik suspertu ta esnaatu, ta jendetza andiak bizitza on kristauzkora erakarri zituena.</p>
+<p>Milla bosteun eta ogeita emezortzigarren urteko garizuma denboran, berak atotsiturik, beste Aita-lagunak batu zitzaizkan; eta danak or-emen elizaetan predikatzera ta konpesioratzera banaturik, ai&ntilde; prutu ta uzta ugaria biltzen abiatu ziran, batez ere ordura&ntilde;okoan an erdi-utzia zegoan oitura, Sakramentu santuen sarri-artzearekin, eze ziran ba&ntilde;o geiago izan balira ere, etziran ezer-naikoa izango alako mugimentu, etorrera ta erri ujoldearentzako.</p>
+<p>Orroa-eman zuben inpernuak, eta egunda&ntilde;oko ekaitzik gogorrena santuaren kontra jaikierazo ere bai, baliaturik artarako Frai Agustin Piamontekoa zeritzan erlijioso batez, ze&ntilde;a predikatzalle ta iztun eztitsua zan guztiz, ba&ntilde;a Luterotar marrajoa orobat. Alako batean Aitaetako batzuek aitu nai izan zioten; eta nolaere-bai ziran jainkokindelari argien ta adituenetakoak, zerren ondo ikasiak zeuden Santo Tomas aingeruzko irakaslearen erakutsikizunean, ze&ntilde;a dan leenengotik berealaxe herejetzarren tranpa ta arti-maga&ntilde;ai igarritzeko menastarririk seguruena, aurrenenengo erausian ezagutu zuten arkume janzian ari zitzaien otsoa. Karidadez bakarrean konturatu zuten; ba&ntilde;a orduan-da okerrago suta-salda iraki&ntilde;ik irrinz egin zuen. Aiek orduan Jainko-jaunari leial zitzaizkan mirabe ta serbitzariyak bezela, agitz pulpitu ta iztokietatik adierazo, ta uritarrak jaki&ntilde;aren ga&ntilde;ean jarri zituzten, ze&ntilde; eriotzazko larre galgarrietara erakutsi berri gaixtoaren ondoren pilloka zijoazen, eta zenbait puzunizko itz eta ots leun lano ederraki&ntilde; beren belarriak gizon txar ark lilluratzen ziezten, ezertxo ere animaren bekatuzko zauriai ikutu gabe ordea, doakabez oraindik gaurko egunean bertan iztun berrizale zenbaitzuek oi duten eran.</p>
+<p>Ezi&ntilde; sinistu zer gorroto ta arrotasun itxuan Ignazio ta beretakoen kontra ekin eta eraso zion, kontuan jarrierazorik bere aditzalle-talde ugari guzia, ta zei&ntilde; da zei&ntilde; ziraden, beatzarekin, esateko moduan, si&ntilde;alaturik, aietatik izurri batetik bezela, iges egin zezaten: ta au ezer-gutxi zeizkiola, billatu zituen bere asmoetarako espa&ntilde;atar gizatxar al-zituen batzuek, batez ere ordea Miguel Navarro zeritzan biotzgabeko bat, ze&ntilde;a zan Parisen bein batean santuak Franzisko Xabier beragana irabazi zuelako bakarrik, eskuban zeraman ganibeta batez santua josi ta pasatzeko ibilli zana, eta zeruko deadar-ots batek artatik bildurtu, ta lurrera egotzi ta ezarririk, atzeratu zuena. Onako Miguel oni eragin zion bada predikalari doakabe ark, salatu zezala Ignazio auzitegian, egi&ntilde; ere zuena, gezur galantarekin ziola ezik, ber-bera an zala, Alcalan, Parisen, da Venecian ere, hereje edo fedeausletzat emana ta erabakia, ta baztar guzietan igesi zebillen gaizkille artes bat bezela, tallu-idurian sutaratua ta errea izandu zala.</p>
+<p>Eta nolaere gizonen naiera ta borondateak ai&ntilde; aldakorrak ta irabiazaleak bai diraden, eta asko ta askoren doakabetasun tristea gaizki-esanak goxo-goxo aditzeko belarri biak beti prest eta ondo irikiak eukitzea, oiei egiari ba&ntilde;o sinismen geiago emanik; guzia puntu batean trukatu zan; jendetza bakardadean, onginaia ezi&ntilde;-ikusiyan, ta bei&ntilde; Ebanjelioaren serbitzalleai tatxa egotzi ezkero, bereala inpernukoaren aize-boladak, erne ba&ntilde;o ere leen, ereinda zeukaten azia dana leortu ta galdu zuen.</p>
+<p>Tranze artan aiek, ba&ntilde;a danak ba&ntilde;o geiago oraindik Ignaziok, Jaungoikoaren errukimenduzko belarrietara biotz-biotzeko erregu biziakin ots eta deadar eman zuben zi&ntilde;ez eta menaz, baita ere Jaunak aitu zituen oparo ta samur txit aurki, beren izen onaren alde irtenik, eta beren ezpa&ntilde;etan erakutsikizun on egiazkoai berriro indar eta kemena ugari ezarririk; bada Aita aiek bizi ta Ebanjelioa zabaltzen ibilli ziraden uri ta errietatik alabanzaz bete ta liri-liri-ga&ntilde;ezkako informe edo billakindeak zetozkien bitartean, egin zuen ere bere begirakizun mirakarriarekin ai&ntilde; sasoi egokiyan Erroman arkitzea Ignazioren auziyak erabaki izan zituzten Juezak berak; au da, Juan Figueroa Alkalo bikarioa, Santo Domingoren ordenako Maisu Prai Mateo Ori, Parisko fedezaia, eta Gaspar Doktiskoa Venecian Aita Santuarenganako Bialki&ntilde;aren enzunle edo aditzalle zegoana, ze&ntilde;ak guziak lekukotzat edo testigu aitatuak, ta ezi&ntilde; i&ntilde;or egokiagorik, era berean aitortu zuten eze, Ignazio bere auzitokietan salakizun eta gaitzusai guzitik librea erabakia ez-ezik, gizon prestu kuadretzat alabatua, ta leen ba&ntilde;o ere bere bizimodu ta erakutsi-bide ederretan obeto probatua agertu izan zala.</p>
+<p>Eta une onetan egiya klaru asko ikusi, ta enga&ntilde;u gabe ta pake soseguan gelditzen ziran ezkero, beretakoen batzueri ta beste persona itzaltsu zenbaiti orobat, auzi-kontu artan atseden, da ez aurrera erabaki-osora segitzea on onena baziraizkien ere, Ignaziok gogor egi&ntilde; zuen, bukatu ta akabatu bearra zala, bere adiskide Pedro Contariniri orduan eskribatu zion eskuzkribu edo karta baten azaldu zituen onako arrazoi bidezko ta egoki oiekgatik, modu onetan esanik: &laquo;Nik ondo dakit ez dirala ez onenbestez mututuko guri gaizki-esaka jardungo diran minga&ntilde;ak; ez naiz zenzugabea, orrenbeste uste izateko ai&ntilde;a; ba&ntilde;a ordea dotri&ntilde;a garbi ta erakutsi fede-osokoa dana utsegi&ntilde;ez zikindua balego bezela agertzen, ez degu i&ntilde;olaz utzi bear, ez eta ere bizitza-modu errugabea errudun, edo kulpazkotzat eukitzen. Moldakaitz, zabar, ta ezjakintzat, ta are enga&ntilde;a-zaletzat oaindik, gu gaizki-oituren batzuek eukitzea, eramango degun gauza da. Gerok alaba&ntilde;an predikatzen diardugun dotri&ntilde;a edo erakasi-ona gezurrezkotzat, eta darabilkigun bizimodua kulpakor eta okertzat eukiya, gure isiltzearekin onetsitzea ta eramatea, guk ezi&ntilde; dezakegun gauza da, zerren ez bata ta ez bestea gureak diran, ezpada Kristoren Eleizarenak&raquo;.</p>
+<p>Onera&ntilde;o santu guziz begiratiyak.</p>
+<p>Azkenean bada, Erromako eraentzalle Benedicto Cursinok Aita Santu beraren manu edo aginduz 1538garren urteko Azaroaren emezortziya, itz guziz onragarriakin biziro, gaitzusai guzitik oso libre ta bagetzat Ignazio autortu ta eman zuben, eta bere etsai edo kontrestak orobat salgaixtotzat; eskuraturik orrenbestez eta presoturik oietatik al zitubenak; bada besteak itzetik-ortzera igesi banatu ziran. Geienak atzenean ere akabera txarra izan zuten, eta guziez gai&ntilde; okerragoa iskanbilla dana sortu ta sutu egin zubenak; zergatik, mozorro-arpegia kenduta, zana bezela azaldurik, ez ala bearrean zeraman habitu-janziya utzi zuen, eta Ginebran fedea ta erlijioa ukaturik, geroenean bere gaizki-egi&ntilde;akgatik surtan errea izateareki&ntilde; arenak egin zuen.</p>
+<p>Geien geiena ordea zereki&ntilde; berriro Ignazio ta bereetakoak Erromatarren borondateak irabazi eta beren bedeinkazio danak guziak berenganatu zituzten, karidadearekin izandu zan; bada, andik laster iritxi zan negurik gogor eta latzenetakoan sortu ta ill askotan iraun zuen gesetean, millaka gose ta billostu, gaixo ta eri bildu ta etxeetaratu zituzten, gau ta egun lagundu, gozatu, ta onegi&ntilde;ik, eta jaten emateko ere ez beren ezi&ntilde; andiagoa zan pobretasunaz baliaturik, ezpada artarako batutzen zituzten andizkietakoen eta zezaketenen limosna eta emaitza andi ta ugariaz, batez ere guziei eragiten zieztenaz, ze&ntilde;ak izan ziran Carlos 5en alaba Margarita Austriakoa, ta onen senar Octavio Farnesio Parmako Dukeak oparo ta liberalkiro bialdu zituztenak, gelditurik biak ordutik Ignazio ta bere Lagunkida-ganako zaletuak txit.</p>
+<p>Diardugun kondairatxo-aldi onen bukaera ederra izango da emen aitatzea, nola santuak garai artan bere aurrenengo meza eman zuben; bada urtebete ta erdi igaroak itxodon zituban, lenengo aldiz aldarean Errege Jaun zeruetakoa bere eskuetara erakarritzeko zoriona euki eta gozatzeko, obeto prestatua arki zedi&ntilde;; eta, gai onetan egokiena izango dana, ara zer karta edo ezkuzkribu baten atzenean berak anai-nagusien eta ga&ntilde;erako aideai iskribitu zien, mintzaturik onela:</p>
+<p>&laquo;Gure on guzi Jesukristo Jaunagan anai ditudan Loiola-etxeko jaun Martin Garcia ta Beltrani Erromatik 1539garren Otsaillaren bigarren egunian. Araoz batxillera, bere illoba eta Lagundiak izan zituen leenengo gizonik argienetakoa zan, emen gelditzen da. Baldi&ntilde; Jainko Gure Jaunak nik opa diodanetik zerbait parte ematen badit, bera bizitza onetan eta bestean aberastua izango da. Juan dan Eguberri egunean Ama-Birji&ntilde;aren eliza nagusieneko kapillan, nun Jesus Aurra ipi&ntilde;ia izandu zan ganbela edo tresabea dagoan, bere laguntza ta graziarekin leenengo meza eman nuben. Nai nuke biziro, eta Jaungoiko itzaltsu berarenganako amore ta begitarteagatik ere erregutzen dizuet, geron otoitzetan alkar oroitu gaiteala, beregan bakoitzak kontu egi&ntilde;ik, bukaeran eta atzenengo arnasetan dagoala, eta bere bizitzako kontu-oso ta larriya emateko zoriyan.</p>
+<p>&raquo;Ontasunez beartua,</p>
+<p>&raquo;I&ntilde;igo</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>12.<SUP>en</SUP> BURUA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>Jesusen Lagundiaren onemantza eta sendotzea</hi></p>
+<p>Seguru ondo Inazio gurea alde batetik Jainkoaren agindutzaz, eta zekusala bestetik, agirian zegoan on andi hura guzia iraunazitzeko bide bakar-bakarra Aita Santuaren oniritziko erlijio-modu bat zimenduetatik jaikiazi ta zutitzea zala; bere lagun danaki&ntilde; alkar arturik, bere asmo ta eresia aren Santutasunari Contarini kardenalaren bitartez aurkeztu ta agertu zion bitezardearen mamiena azaltzen zuben kopia edo erabezta leial bat ere eramanik, ze&ntilde;a atsegi&ntilde;ez irakorri ondorean, esan zuen Aita santu berak azkenean: <hi rend='Italic'><foreign>Digitus Dei est hic: </foreign>au da, edo emen dago Jainkoaren biatza.</hi></p>
+<p>Onenbestez bere oniritzi-izkribuz-jarria eskatzera kemendu zan santua, eta beargarik andienetako au iru kardenalen iritzira eman zuben santutasun berak, irurak alaba&ntilde;an Elizan erlijio berririk i&ntilde;olaz nai etzutenak ziraden, batez ere beren buru, jaiera ta jakintzan argia ta ezaguna zan, Guidiccione kardenala.</p>
+<p>Ordea Jaungoikoak ai&ntilde; ekida aundiaren arri azpikoenetzat autatuba zeukanaren erregu ta negarrak geiago oraindik al izan zuten; zergatik Jainkoaren aurrera sosegu ta ixilldu gabe jardun da jardunarekin, ta asmo bererako zenbat milla meza beretako guzien artean partiturik, kardenal ark oso bere iritzia aldatzea iritxi zuan; bada gizonen biotzat Jainkoaren eskupe ta mendean daude; eta puntutik unera, bera bere burubaz arritzen zala, bitezarde edo istituto berri argana guztiz zaletua ta emana senti zan, beraren ga&ntilde;ean irakurten ziarduen dana-guztiya doanditu ta alabaturik, eta orra modu onetantxe leen kontrakorik gogorrena zana, hori bera Jesukristoren Bikarioagan bitarterik onena izandu zan; onek azkenean ere asiera <hi rend='Italic'><foreign>&laquo;Regiminis militantis Ecclesiae&raquo;</foreign></hi> dakarren bulda agirikoareki&ntilde; ontzat artu ta sendokortzen zubela 1540garren Agorraren ogeita zazpiyan.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>13.<SUP>en</SUP> BURUA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>Irugarren denboraldi onetako santuaren birtuterik goien eta si&ntilde;alatuenak</hi></p>
+<p>Orai&ntilde; gere begiak, edo dala oroimena, irugarren parte onetan guztian izkribatua dagonera atzeraturik, bertatik dakusgu, ze&ntilde; ispillu garbi ederra gure santua agertzen zaigun, ikasikizun denboran ikasi-naia ta letrazalea izanarekin, bertute aiek era berean bereganatzen, ze&ntilde;ak laxter sortuazi ta erne ere oi dituben animak irabazteko zelo beroak, eta saiakera bat bezela gloria Jainkozkoaren eki&ntilde;era andiagoetarako serbi oi duten; orregati bada, edozei&ntilde; ikasilarik, ba&ntilde;a batez ere bere Lagundikoak, ez dute erraz ze&ntilde;egan begiak egotzi obeagorik billatuko, gogoz ikasten irauteko, ta era berean birtutezko bidean zuzen oi&ntilde;-giro onarekin aurreratzeko.</p>
+<p>Nundik jaio zitzaion ordea alako zelo sutuba? Lagun-urkoaganako karidade gartuagandik, ze&ntilde;a anbat beroagoa, ta anbat eragilleago ta goialdunagoa zedukan, zenbat eta suta-gar egi&ntilde;agoa zegoan bere barrunbea Jaungoikoaren amorean.</p>
+<p>Bitoreak eta guztizkoak izandu ziran alegiya bizitu zan erri ta uri danetan egin zituben karidadezko obrak, eta arritzekoak, batez ere Pariskoan, angoan ikusi bezela, ainbeste gazte ta beste iya ezi&ntilde; mugi ta ondutzekoak ziradenak etsai inpernukoaren atzaparretatik aterarik.</p>
+<p>Berak ziona zan eze, ala bearrean, anima baten salbatzeagatik pozik ibilliko zala kalez-kale ta plazaz-plaza oi&ntilde;utsean arabakia zeriola ta lumaz janziya, mundu guziak irri ta parre egin zegion.</p>
+<p>Norbaiti kaltez ordaintzerik, egunda&ntilde;o etzitzaion gogoratu, ezpada oso kontrara, bada bere etsai ta kontresta ziranai beti-beti barkatu, ta al-zien on guzia ere egin izan zien.</p>
+<p>Sustrai beretik sortutako esker-ontasunarekin gogoan, biotzean, eta eranzunbide leialean auki ta gorde izandu zuben berari egindako edizei&ntilde; mesede, ta ongilleaganako naitasun ederra; eta beragatik, bere bizi guztiyan, zana, zala i&ntilde;orekin auzi-kontu, iskanbilla edo desgustoren bat erabilltzetik igas egin zuen.</p>
+<p>Orregatik bada,zez da zer miretsi ez arrotzaki&ntilde; eta bere etsairik amorratuenakin ere ai&ntilde; maitetsua, bigu&ntilde;, malso, lano ta eramanduna zanak, maitatzea orai&ntilde;dik geiago bere seme kutun ondoko eta urrutikoak; eta erlijiosoak ziranez al zuen ta zezaiekean ontarte ta atsegi&ntilde; guzia berai emateko ta eratutzeko ai&ntilde; kontuz ta arretaz ibiltea; eta ezi&ntilde; geiagora&ntilde;o zar, aguretu, gaixoti, eta eriyai morroitu ta lagundutzen jardutia, ta beren tristura ta tentamendiak ari&ntilde;-ari&ntilde; desegiten saiatzea; eta beretakoen baten kontrako gaizki-esanak eta salakerarik edozer ai&ntilde; zaill eta nekez sinistatzea, eta ai&ntilde; biotzetik onginai ta oparotasun betean beren erru, kontuez, eta utsegiteak barkatzea, eta are ernaitasunik andienarekin bertute-mueta danetan guziei aurrerazitzea; eta au guziak beti ai&ntilde; muitatsu gozoro ta aitakiro danaki&ntilde; da bakoitzareki&ntilde; ziarduela ta zebillela, eze bakoitzak uste zuen bera guzietan naiena ta maiteena zubela eta ala seme maite edoze&ntilde;ek bere aita laztanari ba&ntilde;o askoz samurrago eta biotzagotik nai zioten guzti guztiyak.</p>
+<p>Ona emen Lagunkidako agintari edu buru diradenen begiragai osotua, ta ezi&ntilde;-obea, ze&ntilde;a San Franzisco Xabierek bere gutun edo eskuzkribu batean zion eran, &laquo;ez da besterik ezpada amorezko ta alkarnaiko lagundia baizik, nundik laztasun eta morroi-bildur dana-guztiya oso urruti egiten dan&raquo;.</p>
+<p>Au guztia eta gero esatekoa, klaru ta argi-asko agiriko litzake, baldi&ntilde; laburkida batean ezi&ntilde; sartu leizkean egite ta gertakizunak bat banaka lumaz itzkribatu bear baginduzke. Irakurtzekoak dira ala ere bizitza luzeagoetan guk emen batzuek laburtxo ukitu ta esanak utziyagatik.</p>
+<p>Bere beste bertuteen artean esan genzakeana da alegia, umiltasuna zala beregan buruba geiena gooratu zuena, eta A. Ribadeneirak oi duen esku-giro onarekin eskribitzen duan bezela &laquo;Jainko gure Jauna serbitzen abiatu zanetik, berarekin atseginkiro Ignazio laztandu zan, birtute guztien ama ta zimendu-arriyarekin bezela, arabakia zeriola ta erdi-eranzia ibillirik, eta pobretegietan pobrerik beartsuenaren eran, baztertuta, purrustatua ta utziya; eta i&ntilde;ork ezagutu edo estimatzerik nai etzuela, eta noizbait Jesukristo gure Erredimitzalle Jaunaren amorez desonratuba ta jazarrituba bazan, pozik zeraman dana, bere bizitza guztian ondo agiri dan gisan, eta modu berekoa orobat bere erakutsibidea izandu zan&raquo;.</p>
+<p>Erakasten zuen bada, goi-goira igo nai zutenak, berbeetik eta azpi-azpitik eraso ta ekin bear zutela, eta orra beretako guztiyai ematen zion irakasdea edo esangunza; batez ere animen onerako lanera bidaltzen zituanean, nola ere bialdu zituen Franzisko Xabier da Simon Errodriguez Portugal eta Juliara, Salmeron da Pascasio Irlandako ugartera, eta Salmeron hura bera ta Lainez Trentoko Eliz-Batzarrera, Alemaniako apostolu Pedro Ganisio Doatua ipar-aldeko baztarretara, eta A. Antonio Araoz eta beste gizaseme argidotarrak Portugalera ta Gaztelara.</p>
+<p>Ama ere, eta ama maitea deitzen zion orobat umiltasunaren aizpa dan pobretasun edo beartasun santari; eta beartsua bizitu zan, eta bere semeak ere pobreak izan zitezela nai izandu zuben.</p>
+<p>Arrotasunaren tanta&ntilde;ia eta pensamenturik ere ez sentitzera&ntilde;o allegatu zan ill ba&ntilde;o askoz leenago; eta bazion eze, gri&ntilde;a guzien artean antuste edo soberbiyari ziola bildurrik gitxiena. Ainbeste, umiltasunaren sustrai bearra dan, bere buruaren ezagueran barruratu ta ondoratu zuan.</p>
+<p>Txit gutxi, eta orduan garairik premiatuenean bere buruaren ga&ntilde;ean itz egin zuan, eta orobat bere eskuz aldatutako landare gizen iori ark ematen zituela ikusten zituen prutu ugarien ga&ntilde;ean; eta zer edo zer esatea zuanean, Jaungoikoari bakarrik gloria emateko zan.</p>
+<p>Etxeko lagun guztiak bere burua umillatzeko baizik serbitzen etziotela esaten zuen, guzien artean ezerezena bera ikusirik.</p>
+<p>Ill ondorean nai zuena zan, bere gorputza anabasa ziki&ntilde;ezko kostal zar bat bezela kanpora botatzea zakur pizti eta egaztiyak zokoren batean jan zezaten.</p>
+<p>Etzuen ordea ezertan obeto bere umiltasun pi&ntilde;-pi&ntilde;a azaldu, nola ez-artu nai izatean i&ntilde;ola, eta gero utzi naiyean oso, Lagundi guziko buru izatearen kargua, bere burua txit ezerezean eta artarako egundo izango ez zanetzat zeukalako; izanik alaba&ntilde;an A. Ribadeneira berak adierazten duen eran, bera ezagutu zutenentzat miragarriena gai onetan, jaki&ntilde;ik ere nola ondo-eraentzeko bear diran doai guziak Jaunak eman ziozkan, eta ainbestera&ntilde;oko mallan, eze atsegi&ntilde; legozke eta ontzat guztiz, buru edo gidari besterentzat diradenak, baldi&ntilde; aren artarako egokitasunak, ai&ntilde;bestera&ntilde;okoan osotua izateko ark zeuzkanak, erdika balituzkete ere.</p>
+<p>Beste birtute argi batean begiratuko zuen anbat irakurleak, ze&ntilde;a ez dirudi ai&ntilde; ederki umiltasunarekin alkartzen dala; eta izandu zan arako biotz-onditasun ezagun ta goiyeneko hura; ze&ntilde;agatik galaikiro batek esan ere zuben, mundua ba&ntilde;o are galantagoa zala. Ba&ntilde;a ordea, nola ez diraden kontrestak eta alkarren kontrakoak ta arerioak ezpada guztiz alkar-zaleak eta aizpatiyak, Gipuzkoatar guztizko onegan bildu eta batu ziran, edoze&ntilde; Jainkoaren serbitzuko eki&ntilde;-aldi danik gogorrena ere pensatu, eki&ntilde;, aurrerazi, eta bere buru-erpi&ntilde; eta osotasunera eramateko, umiltasunik ondotsuenekoa, gutxitan gizartean agertu izan diraden biotztasun, kemenkizun eta ausardi santu batekin. Egiya da izan ere, biak adiskideki laztantzen diradela, zerren bata gere beeratasun, bear eta ezerezean, eta bestea Jainkoaren esku eta laguntzan zimendatzen diran; edo orobat lenengoa bakoitza bere buruaren uste-ezean, eta bigarrena berriz Jainkoaganako uste betean; bi gauza, santutasunezko bidean alkarrekin beti dabiltzanak.</p>
+<p>Orai&ntilde;da&ntilde;okoan ikusi ditugu egitaldi batzuek txit arrigarriak ala ere, eta orai&ntilde;dik aurrerakoan Jaunaren mesedez geiago ere ikusteko gaude. Gure santu umill eta biotz-aundiko onen bizitza izandu zan bada, birtute bi oien jarduntza betikoa eta guztizkoa, eta beste bertute sendo eta osotuena orobat; naiz Barcelonan, Alcalan da Salamancan, naiz Venecian eta Erroman.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>OSAGARRIA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>San Ignazioren jaiotzaleku, eskribu, eta Euskeraren ga&ntilde;ean zerbait</hi></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>San Ignazioren jaiotza-lekuaren ga&ntilde;ean</p><--</head>
+        </front>
+        <body>
+<p>Liburu onen lenengo Partearen aurrenengo burua emen osatu bearrean arkitzen gerade, geroz jakin degun ezkero garbi, ze&ntilde; <hi rend='Italic'>Etxe-santuko </hi>toki ta lekutan Fundatzalle Santua jaio zan.</p>
+<p>Eta alegiya: berarekin maitakiro tratatu eta bere bizitza lendabizi izkribitu zuen A. Pedro de Ribadeneirak badio eze, etxean leenengo sartuta, jaiotza-lekuari bezela, <hi rend='Italic'>San Franzisko Borjak jaieraz mu&ntilde;-eman zion gelan </hi>jaio zala. Ori bera dudaren izpirik gabe aitortzen du, bere bizitza orobat eskribitu zuen Cienfuegos Kardenalak ere, esanaz <hi rend='Italic'>Borja Santuak lenengo meza eman zuen lekua, San Ignaziok bere jaiotzarekin donekidatu zuena bera zala, eta geroztik </hi>(gaur dagoan eran) <hi rend='Italic'>errugutegi edo kapilla biurturik arkitzen dala.</hi></p>
+<p>Orobat edo obeto A. Franzisko Garciak santuaren bizitzan, S. Franzisko Borjaren ga&ntilde;ean diarduela.</p>
+<p>Au alaba&ntilde;a, erdiko zoru edo bizitzan dauden iruretatik, ezkerrera goazela, azkenengoa, eta Ama Birji&ntilde;a Doloretakoaren izenekoa da.</p>
+<p>Ala bada, (norbaitzuek siniskizun onarekin, ba&ntilde;a arrazoibide gutxirekin esan izan duten bezala), ez goiko bizitzan ta ez beeko tresabean jaio zan.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Liburutxo onen eta besteen Euskeraren ga&ntilde;ean zerbait</p><--</head>
+        </front>
+        <body>
+<p>Euskeraren ga&ntilde;ean ere zerbait esan, edo erakastetxo bat gai onetan emen zenbaitentzat ezarritzea, premiazko gauza ta jakinbide ederra-txit izango dala uste izan degu.</p>
+<p>Liburutxo onen Euskera Euskal-erriaren erdi-erdikoa da, inguru guzietan obeto enzuna eta aitua izan dedi&ntilde;; bada Euskara osoa bat bera izan arren, gorputz aundi eder bat bezela, iru edo lau izketa-modu edo dialekto daduzka, Griegoari eta beste izkunde ospatsueneko askori gertatzen zaion bezela, eta ala, tallu-irudi eder bati alboetatik begiratzen zaion eran, beste bat dirudi <hi rend='Italic'>Sortaldeko </hi>Euskal-erriaren erranak eta mintzatzeak, beste bat <hi rend='Italic'>Sartaldekoaren </hi>berba-egiteak eta esateak, eta beste bat <hi rend='Italic'>Egoaldeko </hi>edo Euskal-dierriaren biyotzeko itz-egiteak, esanak, erausiak, eta itzpideak. Lau bat milla urtean Pirineo edo Subola-mendi inguru ta Kantauri-mendietan sustraitua dagoan Euskara galaiaren arbolak oiek ditu bere iru besanga eta tantai galantak bezela, eta oietaratu leizke eroso ta zuzen, erri danetako esaerak, arbola, edo zuaitz beraren adar-inguru, arbasta, txotx eta kimuaren modura.</p>
+<p>Euskeraren eta Euskaldunen ga&ntilde;ean aditua irten eta zerbait jakiunde beretu nai duenak, eta ez nola nai ta abuntun gai oien ga&ntilde;ean itzegi&ntilde; da jardun, irakurri bitza arretaz eskuaraz itz-egin eta eskribatzeaz ga&ntilde;era, letraz ezarririk utzi digutena liburu galant ederretan, anzi&ntilde;akoen eta fuero Liburuen urrena, A. Gabriel Henao, A.J. Cortes-Osorio, L. Herbas, Maedeu, G. de Humboldt, F.L. L&eacute;cluse, L. Bonapartek, eta euskalerrietako Juan Bautista Poza, Etxabe, Sandoval, Garibai, A.J. Moret, A.P. Abarka, J. Etxeberri, Salazar, Mendoza, Oihenart, Darrigol, Larramendi, Ozaeta, Mogel (irurak), Erro, Astarloa, M. Zabala, Zuaznabar, Novia de Salzedo, Zamakola, Hiribarren, Isasti, Iturriza, Iztueta eta beste onelakoak.</p>
+<p>Izkera onen letrakinde edo gramatika gauzetan orobat adituenak ditugu A. Larramendi, A. Kardaberaz, Astarloa, L. Astigarraga, M. Harriet, M. Hiriart, Frai Mateo Zabala, Francisco Ignazio Lardizabal, M. l'abb&ntilde;e Darrigol, Duvoisin, M. d'Abbadie, A. Chaho, M. Geze, eta oien denborako ta ondorengo beste batzuek. Euskerazko <hi rend='Italic'>abezearen </hi>ga&ntilde;ean, azpian erderaz dagon oarra irakur bider.</p>
+<p>Orai&ntilde; bada, Eskuara <hi rend='Italic'>Sortaldekoan, </hi>ze&ntilde;ean, Franciako Lapurdi edo Lau-urdi, Zuberoa, Subola eta Naparroa-beekoa dana batzen dan, iztun autuenak eta eskribalaririk bika&ntilde; da bitoreenak izandu dirade Joanes de Lizarraga, Joanes de Etxeberri, B. Gasteluzar, Axular, E. Materre, Baratziart, P. Argainaratz, Larregi, Xurio, Haraneder, Hiribarren, Goienetxe, Larregi, Duvoisin, Intxauspe, eta &laquo;Gomunta edo meditazioneak gei premiatsuen gai&ntilde;ean&raquo; eskribatu zituen eliz-gizona.</p>
+<p>Euskara <hi rend='Italic'>Sartaldekoan</hi>, ze&ntilde;ean Deba-ibaitik Bizkaiaren atzenera&ntilde;oko errienak eta zenbait Arabakoarenak ere sartzen diran, berba egin dute itzpide eta erausi ederrian beren liburuetan Kapanaga, A. Agustin Bazterretxea, A. Kardaberaz, J.A. Mogel, Juan Jose Mogel, Bizenta Ant. Mogel, Pr. Pedro Atarloa, Pr. Bartolome de Santa Teresa, Pr. Pedro A. A&ntilde;ibarro, D. Bartolome de Olaetxea, Pr. Jose Antonio de Uriarte, Eusebio M. de Azkue, eta bat edo beste gejagok.</p>
+<p>Baita ere Euskera <hi rend='Italic'>erdikoan </hi>edo <hi rend='Italic'>Egoaldekoan, </hi>nungoa Gipuzkoan Naparroa-goikoan ta Araba-parte batean itz-egiten dan, eskribitu dute itz-giro gozo, garbi, leun, eder, berdi&ntilde;ean A. M. Larramendi, A. Ag. Kardaberaz, A. Seb. Mendiburu, Juan A. Mogel, Pr. Juan A. Ubillos, D.B.A. Mogel, D. Juan B. Agirre, D. Luis Astigarraga, Ag. Iturriaga, J.Ign. Iztueta, Pr. J.M. de Larroka, Fco. Ign. de Lardizabal, Pr. J. Ant. de Uriarte, Gr. de Arrue, M.A. Antia, D. T. Elizalde, J.M. Eguren, eta besteren-batzuek.</p>
+<p>Oietan ondo ta gogoz gau ta egun beta danean irakurri ta ikasi ezkero, danak ederki Euskeraz egi&ntilde; dezakete; ba&ntilde;a batez ere animen kargudunak bear dan kontu, arreta ta di&ntilde;atasunarekin Jainkoaren itza garbi euskaldunen biotzetan ezarri. Sentigarria da egiaz, bestetik gizon adituak diraden zenbaitzuek, Euskeraz itzegitera bearturik, gaztelania edo franzesarekin naaspilla bat eginda, jardutea. Au da alaba&ntilde;an, zenbait eguneroko paperetan agiri dana, gaztelania franzes-esaerakin naasturik, Cerbantes, Leon, Granada, Ribadeneira eta Santa Teresaren izkunde galai eroso zaintsua abarrakitu ta ondatzen bezela, beste orrenbeste gure izkuntzarekin egitea.</p>
+<p>Ez degu esan nai orregatik zenbait itz lati&ntilde;etik edo erderatik artuta euskaratu ez leizkeala egoki ta eroso noiz edo noiz, batez ere Sakramentuen eta beste eliza-gauzen, auzi-kontuen eta jakiunde, ta arteetako izenak edo oien antzekoak aipatu bear diradenean; bai ordea baimen orregaz alik gutxiena baliatzen saiatu bear geradela, euskeraz ondo ta bear dan eran geron erausiak eta itzaldiak ixuri nai eta gura baditugu. Ba&ntilde;a onetan aitu ditzagun laburkiro, ze&ntilde; eroso sasoi ta giro-giro ai zaizkigun euskal-erriaren onra ta edergarri izandu ziraden bi: Aita Prai Bartolome Santa Teresa Markinako Karmendarra, eta San Franziskuetako Aita Frai Juan Antonio Ubilloskoa zana. Lenengoak bere eskribuen ga&ntilde;ean irakurleari itz edo berba-egi&ntilde;az, onela dio: &laquo;Esan batzuk imi&ntilde;i ditut gogo bagarik, geure Euskerako berbeeta nausi, maite, zaar, gaztetu, gozo, prestu, ugarira, geure erruz, erbestetik etorrijak. Euskeria berez aberatsa da, bagenki ondo. Geuk Eleixa-gizonok berba askotan naastau, ta ezaindu degu Euskeria. Geuri entzunda, dakijeez baserrijetakuak <hi rend='Italic'>Jaungoiko Omnipotentia, Poderosua... Birji&ntilde;a Klementisimia... Miserikordijosia... Mandamentubak... Absolbizi&ntilde;oia... Doloria... Errestituzi&ntilde;oia...</hi> ta beste onako berba euskalgaixtoko asko. Erdera ez dakijeen euskaldunak eureen etxetan, ta artu emonetan biar dabeen guztia, esaten dabee euskera garbijan. Kristi&ntilde;autzako ikasijan dira euskaldun gaixtoak. Ez da au euskeriaren erruba, ezbada geuria. Oituko bagi&ntilde;a geu Eleixa-gizonok Larramendi, Cardaberaz, Mendiburu, Moguel, ta beste Euskaldun garbijak irakurtera, ta areen erara geure siniskizunak, ta eginkizunak berbeta garbijan pulpituan, ta ostian kristi&ntilde;aubai erakustera, ari&ntilde; erbestetuko litzatekez, geure euskera maitia, ta aberatsa zaindu, ta lotsatuten daben urrin-errijetako berba banakaak. Astarloa-bat, Erbas-bat, Erro-bat, ta beste jakitun asko jagi ez balira, geure euskera jausija irakoitera, uste dot, geuk galduko geuntzala laster bere ontasun, ta edertasun guztia...</p>
+<p>&raquo;Egija da, Jesu Kristo geure Jaunagan sinistutia, ta ari darraikon guztia dala, dan legez, txito barrija euskeriagazko; geure kristinautzako gauza barri askoren izenak bere barrijak dira; ta areetati ez gutxi kristandadiagaz beragaz Urrin-errijeetati etorrijak. Onetariko ija izen artubak, <hi rend='Italic'>Bautismua... Konpirmazinoia... Penitenzija... </hi>geure Euskera garbira aldatutia, ondo litzaatekian edo ez, jakitunak esango dabee. Ez da ai&ntilde; biar gatxa, euskera garbiko izeneetan imintia&raquo;.</p>
+<p>Besteak txukunago dio oraindik bere liburuaren itzaurrean, era onetan &laquo;Izkuntz bakoitzak ditu itzegiteko, berezko ta bere etxeko itzak; gure euskerak beintzat bai; onez osterontzeko geienak lati&ntilde; itzkuntzarenak dituala, ta oez ga&ntilde;erakoak, nork daki nongoak, ta norenak. Berezko itz oek eskribitzean ta esatean, ezarri bear dira, bakoitzari dagokan tokian. Euskeraz darauskizunean, euskerazko itzak ez badara-biltzatzu, zure erausia <hi rend='Italic'>itzunea </hi>edo <hi rend='Italic'>barbarismoa </hi>dala esango dizue; ta itz bakoitza, dagokan tokian sartzen ezpadezu, zure itz-jarioari <hi rend='Italic'>araututza </hi>edo <hi rend='Italic'>solezismoa </hi>deituko dioe. Bost onelako entzuten degu Euskerazko sermoietan! Alaba&ntilde;a, zori gaixtoan dakusgun bezela, euskaldun gutxik nekatu nai du euskerazko itzak billatzen eta bakoitza bere tokian ipintzen. Euskerazko itzai ongi ezpadirudi, edo oitua ezpada, hura utzi; aren ordean artu diteke, ark esan nai duan adierazteko adi&ntilde;a dan beste bat. Adizazu orai&ntilde;, gizon andi jakintsu batek egiteko-onen ga&ntilde;ean diona. (Gizon au da Prai Lorenzo Villavicenciokoa)&raquo;.</p>
+<p>Euskera itzegitea, aurreratzea, galaitzea, apaintzea, gordetzea, eta loretu-azitzea, egoki, protxuzkoa ta onragarria da guztiz kanpoko jakintsuentzat, eta euskaldun danentzat are geiago. Izkundezaleak edo linguistikara emanak asko aurrerako lirake onekin Europako izkuntzen ezaguera osorako, eta besteerako ere bai; anzi&ntilde;ako lurkiundera edo geografiara eta zargauzetara jarriak argia pranko orobat izango lukete beren jakingaietan zuzenago jarduteko; kondairatzalleak ez gutxi, eta batez ere gaztelaniaren eta franzes-izketaren sustrai guziak billatzen; barruntatzen, aztartzen eta ezagutzen diarduten itz-jakindunak.</p>
+<p>Oiei, arretaratu nai baziraden, milla arrazoi eta erakai eder aurkeztu ziezten A. Larramendik, eta guziaz gai&ntilde; Akademitar edo ikasola gaztelaniakoai, ze&ntilde;akin itzetorkien edo etimologien ga&ntilde;ean itz-egiten ari dala, berakgatik liburu batean esaten du onela.</p>
+<p>Euskaldunok gerok gerade ordea geiena euskararen alde eta onerako egin bear gendukeanak. Euskalerriak beti illezkorra bere zorionean iraun dezan zimendutzat edo <hi rend='Italic'>iru arroka bizi </hi>ta pillare gogor bezela daduzkanak dirade, <hi rend='Italic'>prestutasun kristauzkoa </hi>kristauai dagozten oitura ederrakin, bere eraen-modu ta <hi rend='Italic'>bizilege berekiak, </hi>eta <hi rend='Italic'>bere </hi>izkera eder millaka urtekoa; Ikusi era berean pag, 88 eta bere iztegiaren aurrean ugari diona. Eta iru gauza oien kontra ai dira ta aiko ere Euskalerria doakabetu, gaixtotu ta ondamendi izugarrian amildu-azitzeko aztalka-bizian dabiltzan eta diarduten etsai, arerio, eta naaspillazaleak. Beragatik gogor egin bear zaie; eta kontuz ibilli. Eta orra arrazoi portizenekoa-or euskera gordetzeko, eskudatzeko eta goitutzeko. Ederki eskribatu zuen onetan ere euskaldunen eta euskerazaleen Aitalen otsandiko Larramendik A. Mendibururi bialdu zion karta baten, diolarik. &laquo;Euskaldunak Euskera .</p>
+<p>Eta A. Agustin Cardaberazek, zenbat gauza eder da egoki esan zizkigun euskeraren alde? Bere liburutxo &laquo;Euskeraren berri onak&raquo; deritzaiona irakurtzea baizik ez degu zearo au ikusteko. Ai&ntilde; gizon santua izan arren, begira ze&ntilde; zorrotz ai dan leku batean egi galantak esanik: &laquo;Obra obeagorik errientzat ezin, ala fede, umeak ondo azitzea ba&ntilde;o, egin dezakee. Argatik, maisu ta guraso umeai erakutsi bear dienak, ori ondo egiteko erreglak bearrago dituzte. Seme ta alabak txikitatik eskolan erdaraz ta euskaraz, edo guztitara, oitu bear dira, ta arrazoi gabeko lotsa beltz gaiztoa pisatu ta kentzera. Bestela, zer lotsa gaizto itsusiagorik, euskaldun galtzadun edo gizon egin bat, lau errengloi euskeraz ezin irakurririk, ez atzera ta ez aurrera, lotu-ta ikustea ba&ntilde;o? Ta ori guzia, zergatik? A&ntilde; asia ta erraz lau egunean libru bat irakurtzen ez ekin edo jarduteagatik. Lau eguneko ejerzizio piska batekin seguru, erdaraz bezala edo aisago, euskeraz irakurtzera egingo zera: egin ta irakurri, ta nekerik ta lotsarik eztago...</p>
+<p>&raquo;Emen guraso ta maisuak falta andi bat erremediatu bear dute, ta gure euskerari ora&ntilde;da&ntilde;o ba&ntilde;o mesede geiago egi&ntilde;: jendeen artean beste lenguajerik euskera ba&ntilde;o ditxa gabeagorik ezta ikusi, ta, gure jatorrizko edo jaiotzako izkera ez balitz bezala, ta euskaraz itzegitea pekaturik aundiena balitz bezala, giza artetik kendu ta lurpean ondatu nai dute, ta eskoletan sortija edo si&ntilde;aleakin, azote ta kastiguakin, eragotzi nai dute: Zer erakeria itsuagorik au ba&ntilde;o? Euskaldun prestuak, ez arren orrelako ofensarik zuen lenengo ta beti bear dezuten euskerari egin. Zuen juizioa non da? Euskalerrietan nola gauza onik izango da?... ...Ikusten deguna da: gazteak latin gramatika ikasten dutenean, naiz Gaztelaniaz, naiz Frantzesez, naiz Euskeraz itzegiten dute, ta ori eragozten ez diete. Gramatikako maisu famatu bat gure egunean izan zan, latin gauzak ere euskaraz erakusten zituena: ta franzes euskaldunai gramatikako erreglak euskaraz adirazi ta erakusten diezkate. Ala, ez eskolan ta ez gramatikan, euskara be&ntilde;ere utzi bear ezta. Soldadu jaun onek arrazoi andia zeukan. Al datekean disparaterik bidegabeena da, euskera gazteai debekatu ta, madarikatua balego bezala, kastigatu ta eragoztea. Eskolan bertan erakatsi ordu onean, ta erdaraz jardun dezatela; ba&ntilde;a gero libre, naiz euskeraz naiz gaztelaniaz: orrekin bietara egingo dira... Bedeika nik dakidan maestra estimagarri errespeto andiko bat, bere grazia onarekin ta kastigu gabe ume inozente sei urtekoai ere, euskeraz, erdaraz ta latinez berdin, txit trebetasun andiaz ta ederki lotsarik gabe irakurten erakasten diena. Ojala ori bera maisu guziak egiten balute: mutil mutu lotu motel gutxiago errietan izango litzake. Ba&ntilde;a utsegitean, oiei sosgeuz ta grazia onean, nola ondo irakurri edo esan bear duten, adirazi bear zaie, eta ez bildur ta ikarakin. Oitu bear dira, ez emengo izkeran bakarrik, ezpada edoze&ntilde; dialektotan, eta Frantzia edo Nafarroako edo Bizkaiko libruetan ondo ta trebe irakurtera. Onetarako diran erreglak ondo gordetzen badira, edoze&ntilde; euskera txitez beraa, suabe eta gozoa ertengo da: eta deadar, izu ta golpe gabe, ezpada onez, egun gutxian ondo esanzan, ederki ta nai bezala, irakurtera gure txikiak eta andiak egingo dira... Miragarrizkoa da nola euskera, soll-soll, bakarrik edo nik eztakit nola, bizirik ainbeste sekuletan egon dan ta dagoen: a&ntilde; berez ta beregan, a&ntilde; argi ta garbi, bere erio ta arerio guzien damu gorri gaixtoan badere. Alere asko, egieki, euskera galdu da. Ba&ntilde;a ori ezta euskararen, ezpada euskaldunen desonra: bada oiek polikitu, apa&ntilde;du eta edertu bearrean, lotsari gabe berak beren nagitasunez itxustu, larrutu ta desegin izan dute...</p>
+<p>&raquo;Ba&ntilde;a, gure probetxo on askoren animak salbatzeko, euskarak burua jasotzea Jainkoak nai du: gure baserrietan jende prestuak dirauten artean, euskarak iraungo du. Esan oi dana: oiei lepoa ebaki edo bizia kendu gabe, euskara ezin utzi edo kendu diteke. Jaungoikoaren borondate jaki&ntilde;a da, aren fede ta legeko misterio ezkutatu ta dotrina sabaltzeko bear dana, sazerdote jaunen ministerio sagraduetan, euskeraz baizik emen egin ta esan bear ez dala&raquo;. Onera&ntilde;o A. Cardaberazek.</p>
+<p>Denbora da beraz Euskaldunak ere beren izkunde galai baliozkoena bere apaindura destiatzalleakin beste izkunzarik sonatuenen artean aurkestu ta azaldutzeko. Au errezago da orai&ntilde; eta emendik aurrera egi&ntilde; eta egingo diraden liburu asko ederren bidez. Oiek baidira alaba&ntilde;an, zion miriku edo sendagille Sarako irakasle J. D. Etxeberrik (izkunzaen eta euskerarekiko ta gomendiozko karta edo gutun batean) &laquo;kutxak eta arkak, ce&ntilde;etan itz eta solas ederki eta ongi erranak eta pentsatuak, galdu.gaba baitaiude altxaturik begiratuak, eta goardatuak; eta ala, manera hunetan ikasten da ongi, eta ederki mintzatzen, eta bide beraz hitzkuntzak ere dehazi beti aitzi&ntilde;atuz, hobeagotuz eta edertuz&raquo;. Orai&ntilde; bada, Euskerak iraun da aurreratzeak, ez du eragozten ezer gubernutar ta aginte-gauza guziak izkuntza ofizialean edo erresuma osokoan tratatzea, dala Gaztelania dala Franzesa; eta kanpokoak datozenean beti dute euskalerrietan norekin itzegi&ntilde; ere. Ezagutu ta maita dezagun gauza bakoitza bear dan eran, legez eta bidez. Euskera ezer gutxi edo deusez maitatzea, bera dan a&ntilde;a eta bezela ez ezagutzetik dator; zerren <hi rend='Italic'><foreign>ignoti nulla cupido:</foreign></hi> ezaguera-gabe ez da maitatze onik, bada ezaguera da borondateari argi egiten diona, maitagarri dana neurriz laztandu dezan. Itxumendi ta jaki&ntilde;eza aldendu ta aiena bitez ere euskerarekiko, eta bestera gertatuko da. Au ederki ta klaru dakusgu Larramendi, Mendiburu, Astarloa, Erro, ta beste euskeralari ta ikasizale argienekoetan.</p>
+<p>Ah ze&ntilde; egoki litzakean Franzesaren Gaztelaniaren eta beste izkeraren gisan Euskarak bere itz-lagunkida edo dala akademia edo ikasola idukitzea, juan dan eunkidako Lagunkida Erreal Euskaldunaren asmoak parteka beintzat betetzeko eta beste gauza on asko aurreratzeko; bildurik ortarako zar da gazte letradun argienak Euskalerriko uri buruetan! Batez ere on andia litzake Baionan, Iru&ntilde;en eta Vitorian apaizgaiak ordendu ba&ntilde;o leen, Hebreo, Griego, ta beste onelako izkundeak ikastera, astean bat bi edo iru aldiz bezela, ala euskaldunak beren izkuntzan trebetzeko, alkar billatu ta irakastea. Beren errietara joatean, lagunza ta atsegi&ntilde; andia litzake erritarrentzat, eta erosoago aixa legozke beren izketa ta itzaldi ederrakin animen onean lan egiteko.</p>
+<p>Jaungoiko gure Jaunari nai degiola gauza oek guziak zuzendu ta eraentzea <hi rend='Italic'>bere gloriarik goi eta andienerako </hi>eta gizonen salbamendurako. Ala gerta dedilla.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>SAN IGNAZIOREN KANTAERA TA MARTXA ZENBAITZUEK</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>SAN IGNAZIOREN ZERURATZEARI</hi></p>
+<p><hi rend='Bold'> (Laukoak)</hi></p>
+<p>Izarrez-izar, euzkiz-eguzki,</p>
+<p>milla munduren artean</p>
+<p>aingeru-talde so&ntilde;ulariyak</p>
+<p>zabaltzen dira batean.</p>
+<p>Zillar zurizko, ta urre gorrizko</p>
+<p>distiadura ixuririk,</p>
+<p>so&ntilde;eko ederrak daramazkite</p>
+<p>aizeak apai&ntilde; jarririk.</p>
+<p>Dijoaz egan pozez ga&ntilde;ezka</p>
+<p>asti&ntilde;durikan egalak,</p>
+<p>murgildurikan beren biyotzak</p>
+<p>betiko atsegi&ntilde;-ujolak.</p>
+<p>Oien erditik gure Ignazio</p>
+<p>bere jargoira zanean,</p>
+<p>bazter danetan pesta geitu zan</p>
+<p>zerutar galai artean.</p>
+<p>Bere garaipen paregabea</p>
+<p>kantatzeari benetan</p>
+<p>eki&ntilde; zioten, danak urturik</p>
+<p>Jainkozko amore garretan.</p>
+<p>Nun dira lurrak? Nun dago Erroma?</p>
+<p>Nun andizki goi erpi&ntilde;ak?</p>
+<p>Uts-ezerezak dira Zeruan</p>
+<p>mundu guziko atsegi&ntilde;ak.</p>
+<p><hi rend='Bold'>LOIOLAKO A.S. IGNAZIO KANTAURITARREN BITARTEKOA</hi></p>
+<p><hi rend='Bold'>KANTAERA</hi></p>
+<p><hi rend='Bold'> (Iru berso-modu ta bi kantalditan)</hi></p>
+<p><hi rend='Bold'> 1.</hi></p>
+<p>Kantauritarren gordetza dezun</p>
+<p>Zeruko Aingeru galaia!</p>
+<p>Eman idazu zeruko izkuntza,</p>
+<p>Leundurik minga&ntilde; alaia:</p>
+<p>Eldu da noizbait Ignaziori</p>
+<p>Kantatutzeko garaia.</p>
+<p>Zatozkit ari&ntilde; zeru urdi&ntilde;etik,</p>
+<p>urraturikan izarrak;</p>
+<p>zure ega zillar-urrezkoetan</p>
+<p>artuko ditut indarrak;</p>
+<p>zurekin naitut girabiratu</p>
+<p>mundu guziko baztarrak...</p>
+<p>Onela erregu bero-beroan</p>
+<p>gora nengoan begira;</p>
+<p>ba&ntilde;a bat-baten menpetu nintzan</p>
+<p>lo gozo baten eztira;</p>
+<p>ta aldatu nintzan, (ez dakit nola)</p>
+<p>aingeru-biren erdira...</p>
+<p>Zeru-zaldunak agertzen dizkit</p>
+<p>Erromako Uri parean</p>
+<p>Lur itxasoen lau alderdiyak;</p>
+<p>so&ntilde;u gozoen antzean</p>
+<p>ixurtzen dizkit itz-aldi oek</p>
+<p>gure I&ntilde;igoren ga&ntilde;ean.</p>
+<p>&laquo;Jainko gure Jaunaren gloriatzallea</p>
+<p>Loiolako Ignazio da paregabea;</p>
+<p>Or Erroman gorputza, anima an Zeruban</p>
+<p>bere izen da egi&ntilde;ak an ta emen munduban</p>
+<p>dirade otsandikoak... Onari Jainkoak</p>
+<p>beti dizka ondasun neurriz ga&ntilde;ezkoak.</p>
+<p>I&ntilde;igok diyo beti <hi rend='Italic'>&laquo;Jaunari Gloria&raquo;</hi></p>
+<p>Aren Glori-andirako dauka Lagundia,</p>
+<p>Ze&ntilde;a Jesus duela buru, ai da aurrena</p>
+<p>Munduz-mundu zabaltzen <hi rend='Italic'>Jesusen izena.</hi></p>
+<p>...Ordutik gerra dabill munduban gogorra,</p>
+<p>Jaiki zalako kontra deabru galdukorra:</p>
+<p>Infernu ta gaiztoak Zeru ta Elizari</p>
+<p>Kontra ai dira irten naiez noizbait garailari</p>
+<p>Kantauritar-erriya, ez izan bildurrik,</p>
+<p>Loiolako Inaziori menaz jarraiturik:</p>
+<p>Au dezu zeruetan Bitarteko artuba;</p>
+<p>Segiturik berari zera salbatuba&raquo;.</p>
+<p>Itz-azken oiek esan orduko</p>
+<p>Odei argizko leunetan</p>
+<p>Irristaturik argitu gi&ntilde;an</p>
+<p>Urola-inguru ederretan.</p>
+<p>Emen berriro zabaldurikan</p>
+<p>Arrosazko ezpai&ntilde; gorriyak</p>
+<p>Eraso zidan esan-oiekin</p>
+<p>Zoraturikan mendiyak.</p>
+<p><hi rend='Bold'> 2.</hi></p>
+<p>&laquo;Loiolaren izena darabilte aizeak</p>
+<p>Darabilte gizonak, darabilte humeak;</p>
+<p>Bedeinkatzen da izen au usai gozo artean</p>
+<p>Ebro, Nilo, ta Ganges, ta Amazona aldean.</p>
+<p>Kantabriako mendi tontor altubetan</p>
+<p>Arkaitz tartean eta Ibar-zelaietan</p>
+<p>Lorerik ederrena nola oi dan atara</p>
+<p>Aldatutzeko Errege loretegietara,</p>
+<p>Ala beregandurik I&ntilde;igo Zalduna</p>
+<p>Loiolatik Jainkoak, egin du ezaguna.</p>
+<p>Andiya bada I&ntilde;igo-Iru&ntilde;a gordetzen,</p>
+<p>Guztien ga&ntilde;ekoa da Jauna serbitzen...</p>
+<p>Orri begira beti, Euskaldun prestubak,</p>
+<p>Zeron erri gordetzen, ta izaten santubak.</p>
+<p>Inaziori jarrairik goitu diradenak</p>
+<p>Dituzute inguruan gizon argienak:</p>
+<p>Araba, Naparroa, Gipuz ta Bizkaiak</p>
+<p>Argidotar semetan dirade emankoiak.</p>
+<p>Araba zabalean Aiala ta Olabe,</p>
+<p>Galin, Vela, Guevara, ta eun geiago daude.</p>
+<p>Javier Naparroan, Uriz ta Azpilcueta...</p>
+<p>Ba&ntilde;a, milla izenentzat nundik degu beta?</p>
+<p>Bakarrik alde onetan Bizkaira begira,</p>
+<p>Itxasozko aza&ntilde;etan or agiri dira</p>
+<p>Machin Mungui, Arbolancha, Bilbao-tar ona,</p>
+<p>Errekalde, Arteita, Mello Bertondona...</p>
+<p>I&ntilde;igori jarrairik santutasunean,</p>
+<p>Azaltzen dira Landa ta Uriola batean:</p>
+<p>Zumarraga ta Arauna, Isunza Jauregi,</p>
+<p>Berrio-Ochoa eta Menda Gisategi.</p>
+<p>Gipuzkoa txikiyan gizon andienak,</p>
+<p>ez dira diralako Loiolaen urrenak?...</p>
+<p>Elkano, Andia, Legazpi, Oquendo, Larrea,</p>
+<p>Urbieta, ta Idiaquez, Churruca jendea,</p>
+<p>Beste millaka utzirik, lur ta itxasoetan</p>
+<p>Ospatsu izan dirade milla baztarretan.</p>
+<p>Santu izaten Japonen San Martin, eta Ingren</p>
+<p>Lizardi Asteasukoa, Antxieta Brasillen,</p>
+<p>Errezilgo Herkizia, ta Oiarzungo Isasa,</p>
+<p>Araoz, Cardaberaz, ta Aita Berreiarza...</p>
+<p>Ba&ntilde;a, kopuratzea da errezago izarrak</p>
+<p>Kanpoko bedar eta itxasoko ondarrak,</p>
+<p>gizadi argiya ba&ntilde;o Kantabriarena,</p>
+<p>Ze&ntilde;en guzien artean da Ignazio goiena,</p>
+<p>Nola odeien ga&ntilde;era kopeta altxaturik,</p>
+<p>Loiola Elizak dauzkan etxeak beturik.</p>
+<p>Edo Euskaldun-erraldoi Joaquin Alzokoak</p>
+<p>Nola gaintzen zituen jende Lapongoak.</p>
+<p>Jarraiyozute beti, Euskaldunak, orri;</p>
+<p>Bere antzera bizirik, Zerura&ntilde;o korri;</p>
+<p>Berari erregu bero, ta aldare berriyak,</p>
+<p>Bereki&ntilde; gozatzeko Zeru-jauregiyak&raquo;.</p>
+<p>Lilluraturik arkitzen nintzan</p>
+<p>ai&ntilde; gauza andiak aditzen,</p>
+<p>Ba&ntilde;a, ara nola zeru-zaldunak</p>
+<p>asitzen diran egatzen,</p>
+<p>Farra gozoan, esanaz, &laquo;agur&raquo;,</p>
+<p>Zeruronz zaizkit goratzen.</p>
+<p>Euzki bi egi&ntilde;ik izar-artetik</p>
+<p>Dijoaz, botaz lurrera</p>
+<p>Argi-itxaso bat; ta iduritu zait</p>
+<p>Ni ote-nijoan batera;</p>
+<p>Ba&ntilde;a, naiz geldi mundu tristean,</p>
+<p>Juan gabe zeru ederrera!...</p>
+<p>Arren, gizonak, egi&ntilde; alegi&ntilde;</p>
+<p>Igo dezagun zerura:</p>
+<p>Ara igotzeko, ta ez besterako</p>
+<p>Jaio gi&ntilde;aden mundura;</p>
+<p>Ill-arte gerra pekatubari:</p>
+<p>Guazen Santuen lekura.</p>
+<p>(Ala biz)</p>
+<p><hi rend='Bold'>SAN INAZIO LOIOLAKOAREN IBILL-NEURRIA EDO MARTXEA</hi></p>
+<p><hi rend='Bold'>LENENGO PARTEA</hi></p>
+<p><hi rend='Italic'> (Batena)</hi></p>
+<p>Ignazio, gure Patroi aundia,</p>
+<p><hi rend='Italic'> (Guziona)</hi></p>
+<p>Jesusen Konpa&ntilde;ia</p>
+<p>Fundatu</p>
+<p>Eta dezu armatu:</p>
+<p>Ez da ez etsairik</p>
+<p>Jarriko zatzunik</p>
+<p>I&ntilde;olaz aurrean</p>
+<p>Gaurko egunean;</p>
+<p>Naiz betor Luzifer deabrua</p>
+<p>Utzirik infernua.</p>
+<p><hi rend='Italic'> (Berriro, Ignazio <foreign>etc</foreign>.)</hi></p>
+<p>Zure soldaduak</p>
+<p>Dirade aingeruak,</p>
+<p>Zure gidaria</p>
+<p>Da Jesus aundia,</p>
+<p>Garaitu dituzte zure anaiak</p>
+<p>Etsaiak.</p>
+<p><hi rend='Italic'> (Birena)</hi></p>
+<p>Ez dauka Fedeak</p>
+<p>Ez kristau nereak,</p>
+<p>Ez dauka bildurrik.</p>
+<p><hi rend='Italic'> (Guziona)</hi></p>
+<p>I&ntilde;ungo aldetik:</p>
+<p>Ignazio or dago,</p>
+<p>Beti ernai dago,</p>
+<p>Or dauka jendea</p>
+<p>Txit garaitzallea</p>
+<p>Bandera altxaturik</p>
+<p>Gerran azaldu nairik.</p>
+<p><hi rend='Italic'> (Birena)</hi></p>
+<p>Gau eta egun</p>
+<p>Guztiok pakea dezagun</p>
+<p><hi rend='Italic'> (Guziona)</hi></p>
+<p>Beti gau eta egun.</p>
+<p><hi rend='Italic'> (Berriro. Zure soldaduak <foreign>etc</foreign>.)</hi></p>
+<p><hi rend='Bold'>BIGARREN PARTEA</hi></p>
+<p><hi rend='Italic'> (Batena)</hi></p>
+<p>Ignazio, bildu dezu munduan,</p>
+<p><hi rend='Italic'> (Guziona)</hi></p>
+<p>Arritzeko moduan</p>
+<p>jendea</p>
+<p>fede biziz betea,</p>
+<p>jende jakintsua</p>
+<p>eta indartsua,</p>
+<p>beti dabillena</p>
+<p>gerretan aurrena,</p>
+<p>elizaren etsaiak billatzen;</p>
+<p>topatu ta garaitzen.</p>
+<p><hi rend='Italic'> (Berriro. Ignazio bildu <foreign>etc</foreign>.)</hi></p>
+<p>Dituzu anaiak,</p>
+<p>gerra egin-naiak,</p>
+<p>da oien legea</p>
+<p>etsai garaitzea,</p>
+<p>oiek ditu bere gordetzalleak</p>
+<p>fedeak:</p>
+<p><hi rend='Italic'> (Birena)</hi></p>
+<p>Dirade ezagun;</p>
+<p>dabiltza gau ta egun</p>
+<p>Europan, Asian,</p>
+<p>Afrikan, Amerikan:</p>
+<p><hi rend='Italic'> (Geiona)</hi></p>
+<p>Legorrez ta itxasoz</p>
+<p>dijoaz ta datoz,</p>
+<p>dabiltza nekean</p>
+<p>Indio tartean,</p>
+<p>edo errege-etxean</p>
+<p>Jesusen izenean.</p>
+<p><hi rend='Italic'> (Birena)</hi></p>
+<p>Beti pelean</p>
+<p>bizitzak dirauben artean.</p>
+<p><hi rend='Italic'> (Guziona)</hi></p>
+<p>Beti beti pelean.</p>
+<p><hi rend='Italic'> (Berriro. Dituzu anaiak <foreign>etc</foreign>.)</hi></p>
+<p><hi rend='Bold'>IRUGARREN PARTEA</hi></p>
+<p><hi rend='Italic'> (Batena)</hi></p>
+<p>Ignazio, dira zure anaiak</p>
+<p><hi rend='Italic'> (Guziona)</hi></p>
+<p>Itxas-gixon argiak</p>
+<p>arraunak</p>
+<p>bogatzen dakitenak:</p>
+<p>Pedroren ontzia</p>
+<p>badago ertzia</p>
+<p>arroka tartean</p>
+<p>egunen batean,</p>
+<p>bertatik botean dira sartzen</p>
+<p>eta argana joaten;</p>
+<p><hi rend='Italic'> (Berriro. Ignazio dira <foreign>etc</foreign>.)</hi></p>
+<p>Sokakin loturik</p>
+<p>arroken artetik,</p>
+<p>baldi&ntilde; bada etsairik</p>
+<p>oiek garaiturik,</p>
+<p>an daramate ontzia kaiera,</p>
+<p>leorrera:</p>
+<p><hi rend='Italic'> (Birena)</hi></p>
+<p>Naiz izan ekaitza</p>
+<p>bogatzeko gaitza</p>
+<p>eta bagen goiak</p>
+<p>naiz busti odeiak,</p>
+<p><hi rend='Italic'> (Guziona)</hi></p>
+<p>arraunak arturik,</p>
+<p>alkar alaiturik,</p>
+<p>botean sarturik,</p>
+<p>bizitzaz azturik</p>
+<p>boa boa deirik,</p>
+<p>an dijoaz kaietik</p>
+<p><hi rend='Italic'> (Birena)</hi></p>
+<p>Bultzeaz killa,</p>
+<p>Pedroren ontziaren billa,</p>
+<p><hi rend='Italic'> (Guziona)</hi></p>
+<p>beti bultzeaz killa.</p>
+<p><hi rend='Italic'> (Berriro. &mdash;Sokakin loturik, <foreign>etc</foreign>.)</hi></p>
+<p><hi rend='Bold'>D. Ag. Iturriaga apaizak</hi></p>
+<p><hi rend='Bold'>SAN IGNAZIOREN MARTXA BERRIA</hi></p>
+<p><hi rend='Italic'> Jose Ignazio Aldalur Apaiz Jaunak so&ntilde;uz ipi&ntilde;ia</hi></p>
+<p><hi rend='Italic'> KANTAURREA</hi></p>
+<p>Loiolako Ignazio,</p>
+<p>Euskaldunen Aita!</p>
+<p>Eki&ntilde; dragoi Luzbeli</p>
+<p>Bertatik despita.</p>
+<p>&mdash;Zure garaimen-kantak</p>
+<p>gaurdandik-asita;</p>
+<p>Sionen aitu bitez</p>
+<p>zerua irikita.</p>
+<p><hi rend='Italic'> KANTALDIAK</hi></p>
+<p>Eliz Ama Santa,</p>
+<p>Danen argiya!</p>
+<p>Isildu negarrak</p>
+<p>agertu alaia,</p>
+<p>&mdash;Janzi ezazu berriz</p>
+<p>apainduriya,</p>
+<p>koroiturik lorez</p>
+<p>zere iduriya.</p>
+<p>Zeradela Erregi&ntilde;</p>
+<p>Edertasunez,</p>
+<p>Parre, zorion ta</p>
+<p>Galaitasunez.</p>
+<p>&mdash;Goza-ezazu Jauna</p>
+<p>deadar bigunez,</p>
+<p>goza-ezazu, ez iraun</p>
+<p>sami&ntilde;tasunez.</p>
+<p><hi rend='Italic'> AZKENA</hi></p>
+<p>Bere naigabeakin</p>
+<p>biotzak suturik,</p>
+<p>Ignazio andiari</p>
+<p>guazen jarraiturik.</p>
+<p>&mdash;Segi zaiogun menaz</p>
+<p>ezpatak arturik,</p>
+<p>egan bezela guazen,</p>
+<p>alkar alaiturik.</p>
+        </body>
+      </text>
+    </group>
+  </text>
+</TEI.2>
+

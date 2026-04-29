@@ -1,0 +1,1255 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN"
+                       "http://www.tei-c.org/P4X/DTD/tei2.dtd" [
+   <!ENTITY % TEI.prose    'INCLUDE' >
+   <!ENTITY % TEI.linking  'INCLUDE' >
+   <!ENTITY % TEI.analysis 'INCLUDE' >
+   <!ENTITY % TEI.figures  'INCLUDE' >
+   <!ENTITY % TEI.XML      'INCLUDE' >
+   <!ENTITY % TEI.extensions.ent SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.ent' >
+   <!ENTITY % TEI.extensions.dtd SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.dtd' >
+]>
+<TEI.2>
+  <teiHeader>
+  <fileDesc>
+     <titleStmt>
+        <title>Euskal-eguna</title>
+        <author>Antonio Maria Labaien</author>
+        <respStmt>Ez dauka</respStmt>
+     </titleStmt>
+     <extent>13.745 hitz, 106.257 karaktere</extent>
+     <publicationStmt>
+        <publisher>Klasikoen Gordailua [http://klasikoak.armiarma.com/]</publisher>
+        <distributor>Estrata Liburuak S.L.</distributor>
+        <address type='email'>klasikoak@armiarma.com</address>
+        <idno type='ota'>LabaienEuskalEguna</idno>
+        <availability status='free'>Erabilpen librekoa; honoko helbidean topa daiteke (HTML, RTF eta PDF formatuetan): http://klasikoak.armiarma.com/idazlanak/L/LabaienEuskalEguna.htm</availability>
+        <date>2006</date>
+     </publicationStmt>
+     <sourceDesc>
+        <bibl>Iturria: Teatro osoa euzkeraz (I), Antonio Labayen. La Gran Enciclopedia Vasca, 1976</bibl>
+        <notesStmt><note>Iturburuen datazioa: 1931</note></notesStmt>
+     </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+     <projectDesc>Euskal literaturako testu klasikoen bilduma da KLASIKOEN GORDAILUA; testu hau berorren parte da</projectDesc>
+     <refsDecl>
+        <p>MENTIONED etiketa egilearenak ez diren hitzak markatzeko erabili da: hitzaurreak, aipuak, iruzkinak, e.a.</p>
+    </refsDecl>
+     <classDecl>
+        <taxonomy id='generoa'>
+            <category id='G-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='G-ANT'><catDesc>Antzerkia</catDesc></category>
+            <category id='G-BER'><catDesc>Bertsoak</catDesc></category>
+            <category id='G-ERL'><catDesc>Erlijioa</catDesc></category>
+            <category id='G-NAR'><catDesc>Narratiba</catDesc></category>
+            <category id='G-POE'><catDesc>Poesia</catDesc></category>
+            <category id='G-SAI'><catDesc>Saiakera, kronika, artikuluak...</catDesc></category>
+        </taxonomy>
+        <taxonomy id='garaia'>
+            <category id='M-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='M-16'><catDesc>XVI. mendea</catDesc></category>
+            <category id='M-17-1'><catDesc>XVII. mendea - 1. erdia</catDesc></category>
+            <category id='M-17-2'><catDesc>XVII. mendea - 2. erdia</catDesc></category>
+            <category id='M-18-1'><catDesc>XVIII. mendea - 1. erdia</catDesc></category>
+            <category id='M-18-2'><catDesc>XVIII. mendea - 2. erdia</catDesc></category>
+            <category id='M-19-1'><catDesc>XIX. mendea - 1. erdia</catDesc></category>
+            <category id='M-19-2'><catDesc>XIX. mendea - 2. erdia</catDesc></category>
+            <category id='M-20-1'><catDesc>XX. mendea - 1. erdia</catDesc></category>
+            <category id='M-20-2'><catDesc>XX. mendea - 2. erdia</catDesc></category>
+        </taxonomy>
+        <taxonomy id='euskalkia'>
+            <category id='E-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='E-BAT'><catDesc>batua</catDesc></category>
+            <category id='E-BIZ'><catDesc>bizkaiera</catDesc></category>
+            <category id='E-BNA'><catDesc>behenafarrera</catDesc></category>
+            <category id='E-ERR'><catDesc>erronkariera</catDesc></category>
+            <category id='E-GIP'><catDesc>gipuzkera</catDesc></category>
+            <category id='E-GNA'><catDesc>goi nafarrera</catDesc></category>
+            <category id='E-LAP'><catDesc>lapurtera</catDesc></category>
+            <category id='E-NAF'><catDesc>nafarrera</catDesc></category>
+            <category id='E-ZAR'><catDesc>zaraitzuera</catDesc></category>
+            <category id='E-ZUB'><catDesc>zuberera</catDesc></category>
+        </taxonomy>
+    </classDecl>
+  </encodingDesc>
+  <profileDesc>
+     <textClass>
+       <keywords scheme='generoa'>
+         <list><item>G-ANT</item></list>
+       </keywords>
+       <keywords scheme='garaia'>
+         <list><item>M-20-1</item></list>
+       </keywords>
+       <keywords scheme='euskalkia'>
+         <list><item>E-GIP</item></list>
+       </keywords>
+     </textClass>
+  </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>Euskal-eguna -- Antonio Maria Labaien</docTitle>
+    </front>
+    <group>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>EUSKAL-EGUNA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>IRU EKITALDITAN</hi></p>
+<p><hi rend='Bold'>ANTZERKIA</hi></p>
+<p>(1930n Donostiko antzerki-batzaldian</p>
+<p>lenengo saria irabazia)</p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><mentioned>ATARI-JARDUNA</mentioned></p>
+<p><mentioned> Ume berria du &laquo;Ayanbe&raquo; antzerkigille saiatuak: berria ta, agian, mardulena. Bejondeikela, adiskide.</mentioned></p>
+<p><mentioned> &laquo;Euskal-Eguna&raquo;...</mentioned></p>
+<p><mentioned> Amaika oroitzapen gazi-gozo astindu dizkit gogoan antzerki bizkor ori irakurtzeak! Euskozaleentzat etorri baitziran zazpi bei makal, leenetan bazirudigun ezin-urtuzko odei-sabelean geundela ta etzitekela geiago guretzat eguzkiaren dirdai bizigarririk. Guzia eragozpen, guzia oztasun, guzia etsi-bear ituna zan, ta neke-nekea ta adorerik eza.</mentioned></p>
+<p><mentioned> Joan leenengo beia, igaro bigarrena; iru-bat-lauek aldegin &mdash;zein ba&ntilde;o zein zitalagoak, zein ba&ntilde;o zein idorberiagoak, zein ba&ntilde;o zein ezur-nabariagoak&mdash;eta asi ziran orraatik urrengoak gizentxeago agertzen. Bere exkaxean ere, bazirudian saiets-ezur-tarteak betexeago zituztela. Agian, ez berak mardulagoak izanda, baizikan gu lauso-arintzen asiak gi&ntilde;alako.</mentioned></p>
+<p><mentioned> Mutrikuko, Elgoibarko ta Arrasateko euskozale apalak, badute besteongandik zer-artzekoa. Aiek etziran ikasiak, aiek etziran aundiak; ailek &laquo;erri&raquo; ziran, erri xee; biotza, orde, bizkorra izaki ta etsi ez naiekoa. Munduaren aurrean beren buruak ezagugarri batez nabarbendu nai-izan balitute, auxe zuteken egokiena: &laquo;Ez-etsiko&raquo;.</mentioned></p>
+<p><mentioned> Bejondeiela!... Zenbaitek uste ba&ntilde;o zirika biziagoa artu zun besteon euskozaletasun txepelduak aien baikortasun akulluarengandik. Giro otzaren eta goikoen ezin-ikusi ta z&#161;tal-agintearen ga&ntilde;etik, edo azpitik, edo tartetik, arkitu zuten aiek euskal-gurdia nola berbideratua; ta jai aien bitartez asi gi&ntilde;an antzi&ntilde;ako gogakideak arpegia elkar-berrikusten ta odola elkar-berotzen. Irizarretik Iriberrirako bidea, &laquo;Ayanbe&raquo; nerea, ordun lanbropean zuritzen asi zalako zalantza diat.</mentioned></p>
+<p><mentioned> Arrasatekoaren otsak berbiztu nindun ni be&ntilde;ipein. Arrezkeroko euskal-egunetan egotzi zitzaidan zeregi&ntilde;ik aski. Argatik, &laquo;Ayanbe&raquo;ren lana irakurbetetzeak dit iduri zaarrez oroimena.</mentioned></p>
+<p><mentioned> Euskal-eguna...</mentioned></p>
+<p><mentioned> Goizean goizetik eguzki. Erria, zazpiretako mezetan, Jauna artuz ta Aita Agirreren itzaldi mamia entzunez. Kalez-kale ttunttuna. Bultziak, goitik eta beetik, arrotz-mordoak jaulkiz. Zenbat &laquo;Txorlero&raquo;, zenbat &laquo;Akullu&raquo; aien artean.</mentioned></p>
+<p><mentioned> &mdash;Kaxo, &laquo;Zera&raquo;!</mentioned></p>
+<p><mentioned> &mdash;Bizi aiz, &laquo;Olako&raquo;?</mentioned></p>
+<p><mentioned> &mdash;Ieeeuppp! Bagerala?</mentioned></p>
+<p><mentioned> Euskal idazleak.... Guziek izenordea bai. Ta nolako arrotasunez esaten zizuten, ezagun-berrikoak egiterakoan: &laquo;Ni "Alako" nazu!&raquo;</mentioned></p>
+<p><mentioned> Izenorde ezpaita izengoiti. Izengoitia, ezizena, i&ntilde;ork jarria dezu, ta bear bada irribide gaiztoz; izenordea, berriz, norberak, eta ez izena ukatzekoan, jantzia gotzekoan baizik.</mentioned></p>
+<p><mentioned> An zetorren, ixilik aspaldian egon ta euskal-egunek luma erdoietatik begiratua. Or bestea, euskal-egunon beroak sortu-berria. Etzan bakan baserritar jatorrik arkitzea, atxurketa-ondoan idazteari tajuz ekiten zekianik... Ori ez al-da erri-b&#161;zkundea!</mentioned></p>
+<p><mentioned> Ba&ntilde;a, garraikion.</mentioned></p>
+<p><mentioned> Meza nagusia. Gain-ga&ntilde;eko sermoia. Ondoren, erriko enparantza margo nabariez pil-piltzen. Euskel-idazti erostea: alper gaiztoan, autsaren mende zetzaten libururik asko eguzkitara jartzen baigenitun, salgai, ol zatarrezko txaboletan. Ona non datozen Lizartzako dantzari nabar-apainduak. Bitartean, Udaletxeko areto aundian, inguru-errietako nexka-mutiko aztertu-gaiak dute aldi.</mentioned></p>
+<p><mentioned> Ta ondoko bazkari alai ura?... Zabalean, lareun bat lagun bai, danok sarbide ederrekoak arraioak ezpadu! Azkenerako irten bear i&ntilde;oizko abesti ausartaen batzuk, &laquo;gobernadore&raquo; otxan aien gogarako ezpaziran ere...</mentioned></p>
+<p><mentioned> Arratsaldean... ura gauzez!: ttunttuna dantzariari tarte eskeka. Bertsolariak, aurreskulariak. Berrizko ezpata-dantzariak, Baldaxar ta Gabino palankariak, pillotariak, dantza-aspertua..., nik al dakit! Azkenik, gaueko antzerkiketa: bi millek nai ikusi, ta millerdik ez ikusi bear.</mentioned></p>
+<p><mentioned> Bai. Ori guzia ederra zan. Batez ere, erbestetik lasa-lasa etorriak ala zerizkion. Ba&ntilde;a, aurretiko nekeak?... Zenbat eskutitz, Zenbat joan-etorri, ta itzul-inguru, ta diru-biltze ta bizkar-ezur-biguntze, ta amorrazio latz!</mentioned></p>
+<p><mentioned> Beti, agintarien azken-erabakia zer izango. Baimenik iritxiko bazan, zirauna lurrean ba&ntilde;o areago bear ibilli. Uriko batzorde-osatzea ere lanbide irristagarria zan. Jaki&ntilde;a, alderdi ta margo guzietarik bear, ta agintarien aldekorik, berriz, eztago zer esanik: batzorde-burugoa eman oi genion. Bai berak ere i&ntilde;oizka lan larriak guri! Arik-eta &mdash;jatetxe jabea bazan, noski&mdash; arako dantzarien bazkari-gora-bera eske&ntilde;i arte, ez gendun lo onik &#161;zaten. Batzutan Alkatea, bestetan Sekretario biurria, urrena auzo-errien arteko ezin-ikusia, apaizak ere atera oi zituzten aldizka beren maratiltxoak &mdash;geienetan laguntzalle sutsuenak genitun arren&mdash;: zana zala, korapilloa ta burruka, bear ez a&ntilde;a. Burruka ixilla, ori bai: ezpa&ntilde;etako irriparre bigu&ntilde;ez ta ezkerreko eskuan biltze aal zenduan zaurtasun apurrez irabazi-bearrekoa.</mentioned></p>
+<p><mentioned> &laquo;Euskal-Eguna&raquo;...</mentioned></p>
+<p><mentioned> Oiek guziak gogorazten ditu &laquo;Ayanbe&raquo;ren antzerkiak. Jaiekoak eta jai-aurrekoak: auek batez ere.</mentioned></p>
+<p><mentioned> Esku antzetsuz tajututako lana da. Egintzaen banaketa txit egoki: badute ze&ntilde;ek-bere nortasuna, gaiez, garaiez ta noti&ntilde;ez ere. Ikuslearen gogoa tenka dagoke, aspertzeka.</mentioned></p>
+<p><mentioned> Elkar-izketa, jario errezekoa ta ateraldi gazi ugariez maniatua. Irra noiz-nai datortzu ezpa&ntilde;etara, ustegabean.</mentioned></p>
+<p><mentioned> Ene adiskide onek badu zi&ntilde;ez (ongi ezagutzen baitet) urkoa ta urkoarena begi jostalariz ikusteko aalmena. Eusko-aldarte jatorrekoa da. Sagardo bika&ntilde;ak ere bear &#161;zaten ditu alako bunbulo bakan &laquo;ttipitto&raquo; batzu, beetik gora ta ontzi garbiari itsatsiak.</mentioned></p>
+<p><mentioned> Bitzitzearen gozoa, munduaren alaia, ongi sumatzen ta ematen daki gure gizonak. Barka dezaidala, ba&ntilde;a, ikusi batean, zalantza naiz ez al digun euskal-egun &#161;rrikoitxoegia eman.</mentioned></p>
+<p><mentioned> Izkera erreza du, ta gizena ere maiz. Onako apur oni begira. Mutilzar zuurraren esana da:</mentioned></p>
+<p><mentioned> &laquo;Len ala, orain ola. Gero..., ez andre, ez diru ta ez adore. Au da okerrena. Maitasun ta biozkadak, lore ta igaliak bezela, udaberri ta udan izan oi dira onenak: gorrixka, eze, gozoak. Udazkenean... mixpirak besterik ez, ta aiek... ustelak!&raquo;.</mentioned></p>
+<p><mentioned> Orra bizkorki samar erakutsi ere, bizitza ta bizitzarekikoa oberen aldetik artzeko gai danak nai ta ez bear dula &laquo;pillosopo&raquo; eder. Orrein zuurki mintzatutakoak merezi luke mutilzar geldituaren saria.</mentioned></p>
+<p><mentioned> Ba&ntilde;a, barkatu: aldegin'in dit ariak. Aitari buruz ari nazute ta umearekiko etsia nuen eman-bearra.</mentioned></p>
+<p><mentioned> Noti&ntilde;ak, gizakiak, egitazko askiak ditu ta tajuz ebakiak: bizpairu ez ga&ntilde;erakoak, irrimar-antxean.</mentioned></p>
+<p><mentioned> Alkate tripazai alenak, &laquo;apaizkume&raquo; latin-zaleak, Sekretario biurri-nabarmenak senide ugariak dituzte Euskalerriko bazterretan. Zer esanik ez, Joxepantoni ta aren anai Jonixio bertsolariari buruz. Au batez ere, bertsolaria, gatz-ozpin biziez dago maniatua; ez al ditu ere aotik egi makalak ateratzen, andre ta andrakumeei dagokiela.</mentioned></p>
+<p><mentioned> Egilleak badakartzi tartera, maiz, ezur ta mamizko gizaki ezagunen izenak, gertari-izuna egiantzago dedin.</mentioned></p>
+<p><mentioned> Maitasun-korapilloak ondotxo lotu ta obeto askatu egiten ditu, aien askatzea lotzeago oi bada ere. Maltzurkeri zuurrez darabiltzi, ga&ntilde;era, ta urliarekikoa ikusleak uste zunean, berendiarekiko eztaiak gertatzen zaizka. Ongi erakarria deritzait Mikelen maitasun-aitorpena: eraz ta garaiez, ongi. Ordun ere, mutil gizaxoa begiak lurrera ta masalla piperra ba&ntilde;o gorriago ari dalarik, neskaren pozak eta &laquo;Ayanbe&raquo;ren aldarte bika&ntilde;ak, bat eginda, sagardo gardenaren ondotik askatzen dizute puzpillo &laquo;ttipitto&raquo; gazi aletarik bat. Sekretarioak jasotako &laquo;kulattoa&raquo;, ustegabean azia, biribilki emana ta ongi irabazia du.</mentioned></p>
+<p><mentioned> Elkarraldi irritsuak, onak eta maiz. Gogoan ditut: batzorde-eratzearena, Sekretario-Apaizgaien jarduna ta dantza, (Jonixiorena) euskaltzaleekin, Jonixio ta Joxepantonirena alargunarekin, eta abar. Ta arako gobernadorearen urrutizki edo teleponemak azkenartera&ntilde;o dauka urduri ikuslea.</mentioned></p>
+<p><mentioned> Ba&ntilde;a, aski al degu. Euskel-antzertiak orrenbestekorik gutxi du. Otoi, irakurri ezazute, gazteok; eta, irakurri ezezik, antzeztu: antzeztu bazterrik-bazter. Artara, ez al digu &laquo;Ayanbe&raquo;k ukatzen emaitz berri ta gero ta gozoagoen poza.</mentioned></p>
+<p><mentioned> Ta azken-itzok iretzat, adiskide. Euzkadirentzat egun berriak, agian, zetoztek. Gure erria gero ta ernaiago ziak bere mendian gora. Leengo egoitzari zegokion antzerkia egin dek: egun berriei dagokiona asi zak. Eoren itzak jasoaz: &laquo;Irizar&raquo; piztu dek: oa &laquo;Iriberri&raquo; piztutzera.</mentioned></p>
+<p><mentioned>Lizardi'tar Xabier</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>IRUDIGILLEAK</p><--</head>
+        </front>
+        <body>
+<p>-f-<hi rend='Bold'>MARTIN:</hi> Etxenagusia</p>
+<p>-f-<hi rend='Bold'>ALKATEA</hi></p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Medikua</p>
+<p>-f-<hi rend='Bold'>INDALEXIO:</hi> Apaizgaia</p>
+<p>-f-<hi rend='Bold'>SEKRETARIOA</hi></p>
+<p>-f-<hi rend='Bold'>MELTXOR:</hi> &laquo;Euskaltzalea&raquo;</p>
+<p>-f-<hi rend='Bold'>KASPAR:</hi> &laquo;Euskaltzalea&raquo;</p>
+<p>-f-<hi rend='Bold'>BALDAXAR:</hi> &laquo;Euskaltzalea&raquo;</p>
+<p>-f-<hi rend='Bold'>JONIXIO:</hi> Bertsolaria</p>
+<p>-f-<hi rend='Bold'>MARIA OXOBI:</hi> Alarguna</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Alkatearen alaba</p>
+<p>-f-<hi rend='Bold'>JUANITA:</hi> Maistra</p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI:</hi> Etxenagusiaren neskamea</p>
+<p>-f-Txistulari-talde, dantzari erriko jendea ta abar.</p>
+<p>Gertaera gaur dan egunean IRIZAR-en.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>LENENGO EKITALDIA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Italic'>(Baserri-etxe eder bateko eskaratza <foreign>&laquo;Hall&raquo; </foreign>antzera antolatua. Zernai edergallu: ontzi, mai, alki eserleku ta abar. Atze aldean ate zabala baratzara: ta beste ate bana eskui-ezketera. Gertaera oraintsu, Gipuzkoako erri batean).</hi></p>
+<p><hi rend='Bold'>I. AGERRALDIA</hi></p>
+<p><hi rend='Italic'>Alkatea ta Etxenagusia.</hi></p>
+<p>-e-<hi rend='Italic'>(Alkatea, gizon jator ta mardula. Lanik egin gabe bizitzeko beste duana. Berrogeitamar bat urtekoa. Etxenagusia jauna, osagille azkar ta otsaundiko diputadu edo aldun izana. Orain langintza biak utzirik bere jaiotetxean, Jauregin, kondaira zarra ta euskera aztertuaz bizi dana. Adi&ntilde;ez berrogeitamar urtetik gorakoa. Mutilzarra)</hi>.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Beraz, ez zabiltzala ondo? Biotzerrea...</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Ori lengo erdirik jaten ez detala. Alaz guztiz, ere barren au <hi rend='Italic'>(Eskua sabel ga&ntilde;ean ipi&ntilde;irik)</hi> ankaz gora dabilkit. Ta otordu tartean ez dedalarik apur bat ere artzen... Ez amarretakorik, ez amaiketakorik, ez ezer!</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Ordu guziak jateko al dira bada?</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Ezta meriendik ere!</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Ori eskola-mutillentzat utzi bear da.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Ez nazu mizkindoia. Txokolate, goxo ta eztigarriak! nai duanarentzat!</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Ba&ntilde;an apal-aurrean, ez zenuen galduko zuen janalditxoa egiteko oitura? &laquo;Sukalde-Klub&raquo;en edo &laquo;Errotarioa&raquo; deitzen diozuten toki ortan.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Jaki&ntilde;a! Utsa ordea! Betikoa... musean ari geran bitartean lukainka mutur bat edo, odolki-erre bana, ala kaxuelatxoren bat... Nola esaten da, sagardo pixka bat edateko aitzekia.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Azkoitiarra al zera?</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Ez jauna ez! azpeitiarra.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Ta etxean, apaltzeko garaiean ez zerate alkarri begira egongo?</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Etxean betiko legea egun aundiak ez izan ezkero: sota, zaldun ta errege.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Errepublika ere badezu ori urdallarentzat!</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Ez bada. Gure mediku gazteak dionez estea alpertu omen zait.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Nere ustez, orain, zuk, agin ta ortzak nagitu bear dituzu.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Nagitu? Mediku gazteak biotzerrea sendatzeko bizpairu sendakai eman dizkit. Ba&ntilde;an alperrik. Ea zuk zerbait oberik ematen didazun. Gazteak &mdash;badakizu&mdash;, apika jakin, jakingo dute liburuan ikasitakoa. Ba&ntilde;an, jardun-aldi gutxi, pratikarik ez-da, ez dute asmatzen. Zuk zerbait emango didazu.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Edo-ta kendu egingo nizuke. Ez, ez; medikutza laga nuela badakizu. Emen ez naiz bizi-lagun soil bat besterik. Ga&ntilde;era, gure sendagille Agustin, asko ikasia ez ezik begi zorrotzekoa degu. Aren esanera jarrita osasunik badezu saltzeko di&ntilde;a.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Biotzerrea ta gazitasuna kentzeko zerbait agintzea nai nuke bada.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Begira: ez mediku naizen aldetik, adiskide naizenetik baizik, onu bat emango dizut.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Ezer eman gabe ez ninduzula bidaliko banekien. Ez ditezela izan auts zuritako oriek; ezta alako &laquo;pildora&raquo; biribillak ere. Ez didate ezer egiten.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Errezagoa. Nik barau pizkat egiteko aolkua bakarrik emango dizut. Ez dezu besterik bear ondo ba&ntilde;o obeto izateko.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Gosea...? Ezta alakorik! Berriz ere alpertuko zait estea.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Ez da gosea. Otordu bat bakarra &mdash;ura ona&mdash; egin dezazu amabost bat egunean ta ostera gorputzaldia onera biurtuko zaizu.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Garizuman al gaude ala? Ez luteke par gutxi egingo &laquo;Errotarioko&raquo; nere lagunak &laquo;Sukalde Klub&raquo;en esne edo ur utsa artzen dedala oartuko lutekenean.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Lagunak ba&ntilde;o osasuna lenago.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Zu zera, emen ezagutu izan ditudan medikutatik, jan-edanean motz gelditzen zeran bakarra. Mutillak izaten dira sartzen mediku jaunak!</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Ni ez nazu medikua; izan oia besterik.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Orregatik bada! Ga&ntilde;era, beti etxean sartuta egon gabe, gizonak ez al du i&ntilde;oiz bear aparitxoren bat lagun-artean? Zer egitea nai dezu, bestela, erri auetan?</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Ez dizut ezezkoa esango. Lagun zarrekin biltzea, kontu zarrak oroitzea...</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Ta ardo zarrak edatea...</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Ta kanta zarragoak abestutzea...</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Ta neskazarrak...</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Ez! zarra ez da beti obea izaten. Neskatxa aukeran gaztea... Bere garaiean noski. Ta gureak... alkate jauna, alde egin zuen.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Ez jauna, ez! Gai gaude oraindik; zu ezkongai ta ni alargun. Ze&ntilde;ek daki?</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Ori esan. Nork daki?</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Baezpada nere biotzerre au &laquo;prexkatzera&raquo; noa sagardo txurrusta batez.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Zaude, zaude! Zure gi&ntilde;oko lantxo bat eman bear dizut ta ark sendatuko zaitu. Azturik nengoen. Gutxinez lau eskutitz bidali dizkidate Donostiko &laquo;Euskaltzaleak&raquo;, esanaz, laister jai aundiak gertu nai dituztela gure errian ta orretarako nere laguntza ta agintari guzienarena eskatuaz. Euskalegun onen bat egin nai dute noski.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Bazkari aundiren bat bearko dute.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Ori ere oso euskalduna da. Guzietatik izango dala uste det. Bazkarik gabe &laquo;ez jan, ez lan ta ez jai&raquo;.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Alare! Beingoan aitortu bear zenuan ez dagola ezer bazkari onik gabe... Bazkari kontu ta ga&ntilde;erakoak nere gain artuko ditut. Ostalari guziekin ondo bainago!</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Ederki dago! Orretzaz ere mintzako gera. Begira &laquo;Aitorren illobak&raquo; gaztigatu didate...</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Zeintzuek, zeintzuek?</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> &laquo;Aitorren illobak&raquo; au &laquo;Euskaltzaleak&raquo; artzen duten izen bat da.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Baita, baita. &laquo;Aitorren iztar-lengusuak&raquo; ez da ala?</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Bigar datozela gaztigatu didate.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Ni ez nazu lengusu orietakoa, ba&ntilde;an errira datozen ezkero, guziok erri batekoak: euskaldunak!</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Erdi ixekaz erdi benetan egi aundia esan dezu. Jai-eratzalle oriek bada, bigar omen datozkigu ta ordurako zer laguntza emango diegun; bazkaria nun izan diteken ta beste amaika xehetasun olako jakin nai dituzte. Gizaxoak nigana jo dute. Ez dakite ni aspaldian lurra jota nagoala... alperkeri goxoan. Orretarako deia egin dizutet, seitarako, &mdash;<hi rend='Italic'>(Erlojuari begiratuaz)</hi> laister dira&mdash;, ea guzion artean zerbait asmatzen ote degun.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Guztion artean, apaiza ere barruan al degu?</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Deitu egin diot; ez dakit etorriko zaigun.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Badakizu Erretore jauna, Errotariokuekin &#173;gurekin&mdash; aserretua dagoala. Joan dan igandean sermoiean aitatu omen gi&ntilde;uzen-ta.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Zuek Errotario izen ori dala-ta gizona ikaratu dezute; ez daki ondo ez masoiak baizik tripazaiak besterik ez zeratela.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Jaki&ntilde;a! Zer egin bear dezu bestela erri oietan?</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Esan dizut; zuretzako moduko lana sortuko dizudala.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Sortu bada, sortu lenbailen.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA: </hi><hi rend='Italic'>(Erlojua berriz begiratuaz)</hi>. Beste i&ntilde;or ez etorri izatea arritzekoa da. Seirak joak dira. Joxepantoniri galdetzera noa ea norbait azaldu dan <hi rend='Italic'>(Tinbrea joaz)</hi></p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Nik ere Udaletxera&ntilde;o joan bearra det bada.</p>
+<p><hi rend='Bold'>II. AGERRALDIA</hi></p>
+<p><hi rend='Italic'>Lengoak ta Joxepantoni.</hi></p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI: </hi><hi rend='Italic'>(Etxenagusiaren aspaldiko neskamea ta Jauregiko &laquo;etxekoandrea&raquo;)</hi>. <hi rend='Italic'>(Atetik)</hi> Jauna?</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Ez al da i&ntilde;or agertu baratzako atetik?</p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI:</hi> Ez, jauna. Ba&ntilde;an mediku gaztea, or aurrean, norbaitekin itzegiten dagoala sukaldeko leiotik ikusten det.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA: </hi><hi rend='Italic'>(Irritsu)</hi> Emakumezkoaren eskola leioa izan oi da.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Sukaldea obe.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA: </hi><hi rend='Italic'>(Bat-batean zetbaitez oroiturik)</hi> Mediku gaztea or dagola? Ez diodala ezer esan, oraintxe oroitzen naiz. <hi rend='Italic'>(Alkateari)</hi> Zaude pitin batean. Medikua arrapatu ta bereala emen naiz. <hi rend='Italic'>(Bijoa)</hi>.</p>
+<p><hi rend='Bold'>III. AGERRALDIA</hi></p>
+<p><hi rend='Italic'>Joxepantoni ta Alkatea.</hi></p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI:</hi> Beorri emen, alkate jauna?</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Bai emakumea!, i&ntilde;or ba&ntilde;o lenago ga&ntilde;era. Onelako zintzoa nazu.</p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI:</hi> Zer modu dago alaba, se&ntilde;orita Garatzi?</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Ura ondo, eskarrikasko; ni erdipurdi.</p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI:</hi> Zer gertatzen zaio bada?</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Biotzerrea!... Joxepantoni zartzen goaz.</p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI:</hi> Gazteagoa da ni ba&ntilde;on ta!</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Zu ez zera gaur goizekoa.</p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI:</hi> Be&ntilde;ere ba&ntilde;o obeto nago bada. Azkena gaxo egon nintzanean, medikuak ez zidaten asmatu. <hi rend='Italic'>(Ixillago) </hi>Ezta gure nagusiak ere! Ta alaxe Xerapi Goizuetako &laquo;kuranderuangana&raquo; jo nuen. Eskerrak arengana joan nintzala. Bi egunean aize tzar guziak atera zizkidan; bai belar-ura artu arazi ere. Ta orain, alkate jauna, guzitatik jaten det.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Guzitatik jaten dezula?</p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI:</hi> Baba beltza ta guzi. Ta ainbeste denboran gure nagusiak jan arazi zidan letxua ta arrai pixka bat.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Nun da Xerapi kurandera ori? Banoake billa!</p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI:</hi> Etorriko zaio nai badu. Ostegunero Ernanin izaten da. Bestela nik emango dizkiot belarrak.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Ori ez det nai bada, belarrak!</p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI:</hi> Estomagoan aizeak baditu beatzekin sabelean igurtzi batzuek egin ezkero aterako dizkio.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Nere gaitza bestelakoa da. Este bat alperra omen daukat ta beste bat itxua. Ta ga&ntilde;era &laquo;diabetis&raquo;.</p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI:</hi> Oiek izenak sumatzen dituzte! Bijoa, bijoa Xerapirengana. Emengo medikuak ez dakite ezer.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Emen ez da i&ntilde;or azaitzen-ta, orain beintzat, &laquo;Sukalde-Klubera&raquo; noa; txipiroiak jatea degu. Ederrak ga&ntilde;era, Getaritik ekarritakoak. Nagusiari esaiozu geroxeago etorriko naizela.</p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI:</hi> Nai duan bezela. Esango diot.</p>
+<p>-f-<hi rend='Bold'>ALKATEA: </hi><hi rend='Italic'>(Itzuliaz)</hi> A! ez esan txipiroiarena. Gero etortzekoa naizela bakarrik.</p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI:</hi> Ondo dago. <hi rend='Italic'>(Bijoaz)</hi>.</p>
+<p><hi rend='Bold'>IV. AGERRALDIA</hi></p>
+<p><hi rend='Italic'>Etxenagusia ta Migel, mediku gaztea.</hi></p>
+<p><hi rend='Italic'>(Migel gizaseme egokia, erriko mediku gaztea)</hi>.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA: </hi><hi rend='Italic'>(Sartuaz)</hi> Emen utzi det D. Justo alkatea; ba&ntilde;an nunbait aspertuta alde egin dit.</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Alde egiteko obea degu jaun ori. Ez da erreza berakin asmatzea; kaskagogorrik bada... Orain azkenik gaxotu zanean deitu zidaten; ikusi nuen ondo, gernua aztertu arazi nion ta gero garbi esan ere bai nere iritzia; estetako alako alperkeri bat ta &laquo;diabetis&raquo; asiera. Guzia jana pixkabat begiratzea zala.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Ura jana begiratu utsakin ez zaizu aseko.</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Bai zera! Nerekin aserretu zan; ez nau aintzakotzat artzen. Ta arrezkero etxe artara ez joatea naiago nuke.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Lasaitasuna errez galtzen dezu, gizona. Gaztea izan. Mediku batek bere buruaren jabe beti izan bear du.</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Bai, ni ere buruaren jabe naiz ba&ntilde;an...</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Zer, biotza? Orduan kezka ori... Garatzi dezu.</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Ez uste izan ezer degunik alkarren artean. Noski, bere etxean dala edo bidean arkitzen gerala... ta... askotan itzegin ta lagundu izan diot. Adizkideak gera... atsegin zait.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Baita, baita! Zerbait banenkien Joxepantonik esanda. Ez da egun asko aditu niola: &laquo;medikua alkatearen alabaren atzetik dabillela&raquo;.</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Ez da egia. Ez nabilkio atzetik, ba&ntilde;an ez naiz igesi joango ere, ikusita-ta urrean egokitzen zaidanean.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Ederki, ederki. Ez zaizkit aztu gauza oriek zer diran.</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Zer derizkiotzu?</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Neskatxa egokia dirudi, argia, alaba bakarra, diruz...</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Diruarengatik ez zait ajolik. Badakit askok esango dutela txanponen atzetik nabillela.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Dirua ez da ezetsitzekoa, gizona, ta jendeen esamesak bai.</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Bai ba&ntilde;an... uste al dezu?...</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Iritzia eskatzen didazun ezkero onu bat emango dizut: ez zaite geiegi aurreratu; astiro zoaz. Utzi urte ta sasoiaren giro ta aldarteak zaletasun ori ondo eldu dezaten. Landare samurrak edozein izotzak galtzen baiditu...</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Ez degu ezer oraindik.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Agian maitasun gaietan goiztarra izatea obe da. Emen naukazu mutilzarra benetan, ez ezkondua izatez damutua.</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Garaiz zaude. Zenbait andrek senartzat artuko zindukete.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Ori da errezena. Eragozpena barrendik baidatorkizu. Nere gaztaroa ta nere diru geienak politika &laquo;burruketa&raquo;n, diputadutzan, irauli ditut ta emen nago nauen bezela. &laquo;Len ala, orain ola...</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> ...Gero ez jakin nola&raquo;.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Gero... ez andre, ez diru ta ez adore. Au da okerrena. Maitasun ta biozkadak, lore ta igaliak bezela, udaberri ta udan, izan oi dira onenak: gorrixka, eze ta gozoak. Udazkenean... mixpirak besterik ez, ta aiek ustelak.</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Mixpirak? onak ez badira bada.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Nik naiago marrubi ta anpolaiak. Ba&ntilde;an... urrena orretzaz itzegingo degu. Goazen gure arira. Donostiar oriek erri ontan jai aundiak eratzeko asmoa dutela badakizu. Batzordekoak igandean etortzekoak dira ta ordurako zerbait gaztigatu bear zaie.</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Ta oriek zer egunetan izango dira?</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Datorren illean uste det. Iru bider idatzi didate, alegia, aien izenean guzioi adiarazteko: alkate, apaiz, maixtra, mediku ta jende onentxonai; aztu gabe andre ta erriko &laquo;se&ntilde;oritak&raquo;. Gaur aratsalderako deia egin diet ta baiezkoa eman zidaten, beraz laister agertu bear dute. Andreetatik etorriko dira: Oxobiren alarguna, maixtra gaztea... ta... alkatearen alaba... Garatzi.</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Orduan banoa. <hi rend='Italic'>(Abituaz bezela)</hi>.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Geldi zaite gizona! <hi rend='Italic'>(Besotik elduaz)</hi> Ain ikaratia al zera? Bai emakumezkoekin ta bai gaxo-eriekin gizonki joka zazu.</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Ta andreak zer nolako lanak egin bear dituzte bada?...</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Aurreskuan ta ingurutxoan ateratzea gutxi al da? Ga&ntilde;era, euskal paper ta liburuak saltzen ibilli ditezela nai dute. Alarguna aurrei sariak emateko egokienetakoa da. Gero gazteak teatro jaitxo bat gertu lezakete. Gure esana nola artzen duten ikusiko degu, beintzat. Emakumezkoa, euskaltzaletasunean, atzeratuta dago. Ez ditu gauza oriek arduraz ta biotzez artzen.</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Zuri ez dizute ukatuko laguntza.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Ez zure urteak banintu. <hi rend='Italic'>(Txintxarri otsa entzun bedi)</hi> Atean norbait da...</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Norbaitzuek... Joan bearra det ba... <hi rend='Italic'>(Abotsak entzungo dira)</hi>.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Berak dira. Geldi zaite.</p>
+<p><hi rend='Bold'>V. AGERRALDIA</hi></p>
+<p><hi rend='Italic'>Lengoak ta Joxepantoni.</hi></p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI: </hi><hi rend='Italic'>(Atetik)</hi> Nagusia? Emen dira, emen dira. Erriko andrerik goinetarikoak... Oxobinekoa, Alkatearen alaba...</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Badakit bai; onera sartu ditezela. Bestela... ongi etorria ematera nijoakie <hi rend='Italic'>(Atariruntz aurreratzen da ta agur ta &laquo;zer modu&raquo; batzuek entzun bitez)</hi>.</p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI: </hi><hi rend='Italic'>(Eser-leku ta ontziak tokiz aldatu nairik)</hi>. Iru andre batean, mediku jauna. <hi rend='Italic'>(Berekiko)</hi> ia bat betiko emen gelditzen ote zaidan... <hi rend='Italic'>(Medikua eserita dagoan alkiari bultzatxo bat emanaz)</hi> Barkatu, ba&ntilde;a bestela esango dute &laquo;zer nolako neskame zabarra dagoan etxe ontan&raquo;.</p>
+<p>-f-<hi rend='Bold'>MIGEL: </hi><hi rend='Italic'>(Neskamearen erausiari jaramonik egin barik bere korbata-korapillo, illeak ta abar zuzentzen ariko da) (Oarkabe)</hi> Bai, bai.</p>
+<p><hi rend='Bold'>VI. AGERRALDIA</hi></p>
+<p><hi rend='Italic'>Alarguna, Garatzi, Maistra, Etxepagusia ta Migel.</hi></p>
+<p>-e-<hi rend='Italic'>(Ira emakumezkoak ta Etxenagusia sar bitez. Alarguna berrogei ta bost bat urteko andrea; Garatzi ta Maistra neskatxa gazteak)</hi>.</p>
+<p>-f-<hi rend='Bold'>ALARGUNA, GARATZI eta MAISTRA:</hi> Arratsaldeon!</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Baita zuei ere. <hi rend='Italic'>(Mediku gaztea etorri-berriai urbilduko zaie ta bana-bana eskua estutuaz agurtuko ditu, beste oi diran diosalak egi&ntilde;ik)</hi>.</p>
+<p>-f-<hi rend='Bold'>ALARGUNA: </hi><hi rend='Italic'>(Etxenagusiari begiratuki)</hi> Etxe onetan euskeraz bakarrik itzegingo bearko degu, bestela...</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Nere eskerrik beroenak aurretik, ori egiten badezute.</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Nik ez dakit ondo-ondo itzegiten, zuek bezela.</p>
+<p>-f-<hi rend='Bold'>MAISTRA: </hi>Bai, bai; ederki ikasi dezu.</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Ori txalogarriagoa da.</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> &laquo;Txalogarri&raquo; itz ori zer da?</p>
+<p>-f-<hi rend='Bold'>ALARGUNA:</hi> Izan ere itz berri batzuek sortzen dituzte. Edoze&ntilde;ek antzematen dio!</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Ez dira itz berriak, zuek aztutako itz zarrak baizik.</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> &laquo;Txalogarri&raquo; itzak zer esan nai du bada? <hi rend='Italic'>(Maixtrari)</hi>.</p>
+<p>-f-<hi rend='Bold'>MAISTRA: </hi>Asmatu, asma. Gauza oso atsegi&ntilde;a.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Gizaseme batek zu bezelako andretxo polit bateri beti esan bear diona.</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Ez da orrenbeste.</p>
+<p>-f-<hi rend='Bold'>ALARGUNA:</hi> A! badakit! Txalogarria... txalo, txalo. <hi rend='Italic'>(Txaloak joaz)</hi>.</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> A! baita, baita <hi rend='Italic'>(Guztiok par dagite)</hi>.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA: </hi><hi rend='Italic'>(Eser-lekuak urbildurik)</hi> Eseri zaitezte. Eseri. <hi rend='Italic'>(Eseritzen dira era ontan gelditurik: Maistra, Garatzi ta Migel alde batean, alarguna ta Etxenagusia bestean)</hi>.</p>
+<p>-f-<hi rend='Bold'>ALARGUNA:</hi> Ez dezute esango, beinik bein, txintxo etorri ez gerala.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Egia da. Emendik aurrera emakumezkoekin, nai ta naiez.</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Atsegin zaigu jakitea. <hi rend='Italic'>(Maistrari)</hi> Euskeraz, nola esaten da &laquo;feminismo&raquo;?... emakumeketa edo...</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Etxekoandreketa, ez al dago obeki?</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Biak ere ez daude gaizki. Ori bear degu; emakumezkoen euskaltzaletasuna. Euskeraren alde atxiki ditezela. Au dala-ta, datorren illean, gure errian euskal-jai aundiak egitekoak dira. Bazenekien, ez al da ala?</p>
+<p>-f-<hi rend='Bold'>ALARGUNA:</hi> Zerbait aditu degu. Jende asko etortzekoa dala-ta.</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Ta ez nolanaikoa: Euskaltzaindia, Eusko-Ikaskuntza, Euskal-Esnalea, Euskaltzaleak, Eusko...</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Ene, ori da euskotaldea!</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Batez ere gaztedi aundia etorriko da.</p>
+<p>-f-<hi rend='Bold'>ALARGUNA: </hi><hi rend='Italic'>(Bi neskatillai)</hi> Orduan erriko neskatxak zorionean zaudete.</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Bai, <hi rend='Italic'>(Parrez)</hi> zerbait &laquo;tokatuko&raquo; zaigu. <hi rend='Italic'>(Maistrari)</hi> Ondo esan al det?</p>
+<p>-f-<hi rend='Bold'>MAISTRA: </hi>Esana ez da izana.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Orretarako lan pixka bat artu bear dezute andretxoak.</p>
+<p>-f-<hi rend='Bold'>ALARGUNA:</hi> Ori esan!</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Maistrak aurrai erakutsi; euskeraz irakurri ta idazten; antzerki politen bat, euskal-abestiak ea Eliz-etxean jaien bat eratzen ote degun. Ez det uste zure laguntza ukatuko dezutenik.</p>
+<p>-f-<hi rend='Bold'>ALARGUNA:</hi> Ederki eman ere. Ez, ez. Oso ondo deritzaigu guztia. Ez da ala, Garatzi?</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Bai, bai. Ba&ntilde;an, nik zer egin bear det?</p>
+<p>-f-<hi rend='Bold'>MAISTRA: </hi>Neri nexka-mutillai erakusten lagundu. Geldirik egon arazten bakarrik lanak ematen dituzte.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Itxoin, lenengo, tokiarena erabaki bear degu. Elizako &laquo;Amarrandegia&raquo; iruditu zaigu aundiena, ta egokiena.</p>
+<p>-f-<hi rend='Bold'>MAISTRA: </hi>Autsak ondo kendu bear aurretik, gero lore ta zurbeltzez apainduaz.</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Zuek bertan izan ezkero naiko apainduko dezute.</p>
+<p>-f-<hi rend='Bold'>ALARGUNA:</hi> Gazteak, lore oriek zuentzako izango dira.</p>
+<p>-f-<hi rend='Bold'>GARATZI eta MAISTRA:</hi> Eskerrikasko!</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Mendi-loreak.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Loreak ondo daude ba&ntilde;an lenengo autsak astindu ditzagun ta baimena eskatzerakoan Erretore jaunak zer nolako arpegia jartzen dizuten ikustera zoazte. Gaur bertan egin bear dan gauza da. Oraintxe bertan obe. Jaun ori ta ni ez gera oso adiskide, beintzat ez du etorri nai izaten nere etxera ta noski ez nik ere berera. <hi rend='Italic'>(Neskatxei)</hi> Zuek biok ta Migel bazoazteke, garai onetan etxean izan oi da ta baiezkoa emango dizute. Emendik aurrera an bildu gi&ntilde;ezke.</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Nik gaxo bat ikustera joan bearra det, alare... <hi rend='Italic'>(Neskatxei)</hi> zuei laguntzeagatik pozik joango naiz. Oraintxe bertan nai badezute.</p>
+<p>-f-<hi rend='Bold'>MAISTRA: </hi>Goazen bada bereala.</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Neregatik bai <hi rend='Italic'>(Abiturik)</hi>.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Bitartean <hi rend='Italic'>(Alargunari buruz)</hi> biok amen geldituko gara alkate ta sekretarioa etortzen ote diran zai. Ea laister zatozten.</p>
+<p>-f-<hi rend='Bold'>ALARGUNA:</hi> Aguro ibilli ta erretore jaunari ondo itzegin.</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Entzun nai badigu.</p>
+<p>-f-<hi rend='Bold'>MAISTRA eta MIGEL: </hi>Gero arte! <hi rend='Italic'>(Bijoaz)</hi>.</p>
+<p><hi rend='Bold'>VII. AGERRALDIA</hi></p>
+<p><hi rend='Italic'>Alarguna ta Etxenagusia.</hi></p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Gazteak joan dira. Orain gelditzen gera...</p>
+<p>-f-<hi rend='Bold'>ALARGUNA:</hi> Zarrak.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Ez andrea. Itz ori espa&ntilde;etara etorri zait, ba&ntilde;an bai zera!, ez zera zarra, ni, ainbestean.</p>
+<p>-f-<hi rend='Bold'>ALARGUNA:</hi> Bai, bai. Gizonezkoentzat, andreak aguro zartzen gera. Aguro, agure. Zuen asmo ta begiak neskatxa gaztiengana baidijoaz.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Ez dezu esango nere begiek pozik begiratzen ez dizutela.</p>
+<p>-f-<hi rend='Bold'>ALARGUNA:</hi> Itz ederrak esaten badakizu, barruan bestela uste dezu ordea.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Ez andre, ez. Ez nazu goizollanda-azeria. Izanenean, azari zaarra, illea erortzen asia, anka motela ta... eizerako gauza ez dana.</p>
+<p>-f-<hi rend='Bold'>ALARGUNA:</hi> Onelako azaririk ez dute be&ntilde;ere arrapagallun atxituko.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Gazta ona ipi&ntilde;i ezkero ze&ntilde;ek daki?</p>
+<p>-f-<hi rend='Bold'>ALARGUNA:</hi> Idiazabalkoa izan bearko luke, bestela...</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Adi zazu, zalea naiz.</p>
+<p>-f-<hi rend='Bold'>ALARGUNA:</hi> Ni ere Goierritarra nazu bada...</p>
+<p><hi rend='Italic'>(Ixillunea)</hi>.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Goierri... Goierritik geiena atsegin zaidana da... zera, sagarra loretan ta... Lierniko elizatxo gain ura. Tokiaren polita!</p>
+<p>-f-<hi rend='Bold'>ALARGUNA:</hi> Ara! Lierniko Ama Birji&ntilde;a. Lenago urtero-urtero ikustaldi bat egitera joaten nintzan, Seguratik barrena o&ntilde;ez. Orain ezin ibilli naiz D. Martin. Eskuiko ankean zaintiratua det. Mediku gazkeak gomazko galtzerdiaz ibiltzeko agindu zidan, ba&ntilde;an alperrik.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Gomazko galtzerdia ona da orretarako.</p>
+<p>-f-<hi rend='Bold'>ALARGUNA:</hi> Nere anka zearo minberatua, ubeldua ta aunditua daukat. Ikus zenezazun nai nuke. Mediku gazteari erakusteak lotsa ere ematen dit.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Nere jakituriaz usterik ba al dezu? Medikutza utzi nuen gero.</p>
+<p>-f-<hi rend='Bold'>ALARGUNA:</hi> Berdin da. Galtzerdia ipi&ntilde;i nuenetik anka okerrago ote daukadan.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Ia bada, ikusiko degu. Zerbait egin al banezaizuke aleginduko naiz. Besteak datozen bitartean goazen nere lan gelara, arren, ta X-ixpiaz aztertuko dizut.</p>
+<p>-f-<hi rend='Bold'>ALARGUNA:</hi> Goazen bada. <hi rend='Italic'>(Dijoazelarik)</hi>. Ez dakizu nere ankak ematen didan lanbidea. Ezin ibilli.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Ori sendatu ditekela uste det. <hi rend='Italic'>(Irritsu)</hi> Bestela &laquo;trigeminoa&raquo; ikutuko degu: Asueroren xistema. <hi rend='Italic'>(Bijoaz)</hi>.</p>
+<p><hi rend='Bold'>VIII. AGERRALDIA</hi></p>
+<p><hi rend='Italic'>Garatzi ta Maistra.</hi></p>
+<p>-f-<hi rend='Bold'>GARATZI: </hi><hi rend='Italic'>(Sartuaz)</hi> Alper gaiztoan joan gera. Ez al zekien D. Martinek erretore jauna Loiolan zala?</p>
+<p>-f-<hi rend='Bold'>MAISTRA: </hi>Nunbait.</p>
+<p>-f-<hi rend='Bold'>GARATZI: </hi><hi rend='Italic'>(Irritsu)</hi> Ta alargunak ta &laquo;Martintxok&raquo; alde egin digute. Ezta senargaiak balira ere!</p>
+<p>-f-<hi rend='Bold'>MAISTRA: </hi>Oriek gauzak dituzu. Baratzara jetxiko ziran prexkura artzera. Itxoingo diegu guztiai. Onuzkero laister emen dira.</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Ta Mitxel?... Gaur oso &laquo;legor&raquo; zegon.</p>
+<p>-f-<hi rend='Bold'>MAISTRA: </hi>Gaxoren bat zearo gaizkitu zaio-ta. &laquo;Azpilletako&raquo; gizona.</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Beintzat, ez zigula itzegin nai bazirudin. Lenago ez zan onelakoa. Ba&ntilde;an &laquo;San Kristobal&raquo;era lagundu zigun ezkero, ta oroitzen al zera aren konbidatu naia? Txokolate, limonada, &laquo;helatua&raquo; nola esaten da bada?...</p>
+<p>-f-<hi rend='Bold'>MAISTRA: </hi>Izozkia. Izotsaren bidez egi&ntilde;a.</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Aiek parrak <foreign>valenciano </foreign>arekin izozkia eskatu genionean.</p>
+<p>-f-<hi rend='Bold'>MAISTRA: </hi>Pipar-erroskilletan, Mitxelek zerbait gastatu zuen bada.</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Ta txistutan ere bai; ikusten danez aitu zitzaion guztia. Orduan esan zizkigun kontuak ta abar; emakumezkoen jantzien buruz-ta.</p>
+<p>-f-<hi rend='Bold'>MAISTRA: </hi>A bai! Zuk artillezko &laquo;jersei&raquo; more ura zeramakizun.</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Bai, Baionan erosi nuena. Ez zaigu aztu. Bada, arrezkero, Mitxel ez da gurekin etortzen &laquo;konpromisoz&raquo; ez ezik, bide erdian arkitzen bagaitu edo.</p>
+<p>-f-<hi rend='Bold'>MAISTRA: </hi>Ez uste. Joan dan astean, ez al gi&ntilde;an alkarrekin Elberdi&ntilde;en?... Atzo ere oso atsegin ta aldarte onekoa zegon plazan etorri zitzaigunean!</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Bai, ba&ntilde;an ez da lengoa. Gure etxera, aita gaxo egon danean, lau edo bost bider etorri da. Beti al bazuan etxean ez nintzala; organistarengana, zuregana edo norabait joana nintzanean. Zer uste ote du?...</p>
+<p>-f-<hi rend='Bold'>MAISTRA: </hi>Badakizu erri txikietan berritsukeri asko izaten dirala ta... ebakitzeagatik.</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Bai, erri ontaz aspertua ere banago. Aitatxori esaten diot, Donostira joan bear genukela bizitzera.</p>
+<p>-f-<hi rend='Bold'>MAISTRA: </hi>Ez, Garaxi, tamala litzake Errian asko maite zaituzte-ta. Ez zaio jaramonik egin bear bat edo besteren esamesai.</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Orain udara igaro arte etsiko det ta gero... ikusiko degu.</p>
+<p>-f-<hi rend='Bold'>MAISTRA: </hi>Euskal-eguna laister da ta ikusiko dezu orduan. Egun orretarako so&ntilde;eko berriren bat josi bearko dizute.</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Ez det asmorik. Zertarako?</p>
+<p>-f-<hi rend='Bold'>MAISTRA: </hi>Egia da polit askoak badituzula berririk egin gabe. Nik &laquo;lutua&raquo; orain arte eraman baidet ta ezer gabe nago. Zerbait josten asi bearko.</p>
+<p>-f-<hi rend='Bold'>GARATZI: </hi><hi rend='Italic'>(Lengo arira itzuliaz)</hi> Zer derizkiozu, Mitxel aserretua bezela zegoala?</p>
+<p>-f-<hi rend='Bold'>MAISTRA: </hi>Bai zera! Beti da ben zamarra. Orrek egiten dio.</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Erri ontan mutillik &laquo;bien&raquo; ba al daude?... Guztiak dira trikuagoak. Urruti ibiltzea obe.</p>
+<p>-f-<hi rend='Bold'>MAISTRA: </hi>Ez emakumea; Paxkual, Iturtzaetaneko bi anaiak. Angel Yanzi ta beste asko. Ga&ntilde;era, Euskal-egunerako erruz etorriko omen da jendea. Emendik egun batzuetara jaiak gertutzera Donostiko mendigoizaleak omen datoz. Beren izenak &laquo;Argian&raquo; irakurri ditut.</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Argia?... Etxean ez degu artzen paper ori ta eman bear didazu.</p>
+<p>-f-<hi rend='Bold'>MAISTRA: </hi>Bai, bai. Euskal egun orren beste gora-bera batzuek ere badakarzki.. <hi rend='Italic'>(Ixillunea)</hi> Noruntz joan ote dira D. Martin ta Alarguna.</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Baratzara jetxiko ziran. Emen ba&ntilde;o giro obea dago kanpoan. Gaur berotu du pixka bat. Goazen gu ere baratzara.</p>
+<p>-f-<hi rend='Bold'>MAISTRA: </hi>Nai dezun bezela <hi rend='Italic'>(Abituaz)</hi>.</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> An badaude, betiepein.</p>
+<p>-f-<hi rend='Bold'>MAISTRA: </hi>Joxepantoniri galdetuko diogu.</p>
+<p><hi rend='Italic'>(Bijoaz)</hi>.</p>
+<p><hi rend='Bold'>IX. AGERRALDIA</hi></p>
+<p><hi rend='Italic'>Joxepantoni ta Apaizgaia.</hi></p>
+<p><hi rend='Italic'>(Oraindik &laquo;sotana&raquo; gabeko apaizgaia) (Sarturik)</hi>.</p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI:</hi> Zu al zi&ntilde;an &laquo;ixturiantea&raquo;?</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Bai, andrea, ni naiz. Apaizgai au, da.</p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI:</hi> Gaur ez dakit etxe onek zer dirudin?</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Nun dira billerakoak?</p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI:</hi> Billerakoak? Begira!: lenago alkate jauna izan da; gero mediku gaztea; gero iru andre, bat alarguna, erriko jaia dirudi! Alkatearen alaba, maistra! Ez dakit nun sartu diran. Orrenbeste jende ez zan aspaldi bildu gure etxean!</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Erretore jaunak bidali nau. Bera ez ditekela etorri-ta.</p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI:</hi> Gaxo al dago gure D. Justo?</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Gaxo gaxo... alare Loiolara juan zaigu bere erreuma-ubillo ta guzti. Ta etortzeko esan dit.</p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI:</hi> Aguro asko sendatuko luke Xerapi &laquo;kuranderak&raquo;.</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Ixilik zaude! D. Justo nola jarriko da, bada, kurandera baten eskuetan. Sorginkeriak!</p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI:</hi> Ez enetxoa! Sorginkeriak? Xerapirengana lenago joan diteke medikuarengana ba&ntilde;o.</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA: </hi><hi rend='Italic'>(Parrez)</hi> Ja! ja ja!... Loiolatik itzuli dedinean esango diot, ea zer derizkion. <foreign>&laquo;Respice&raquo; </foreign>ederrik aituko dezu. Beraz akelarrera?...</p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI:</hi> Larre ta belarretan. Xerapi erremediotan ez bestelakoa da, ta bertso zarretan ere bai.</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Bertsoetan! neroni joango natzaio orduan.</p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI:</hi> Gazteekin ez du ezer nai.</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Zarrak sendatzea zallagoa da. Ba&ntilde;an gauza oriek alde batera utzirik, nun dira jaun andreak ta etxeko nagusia?</p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI:</hi> Batek al daki? Etorri dira, joan dira. Ez dakit etxean dauden ala etxea utzik dagon. <hi rend='Italic'>(Adi adi)</hi> Orain ere atean norbait da bada. <hi rend='Italic'>(Ateruntz aurreratuaz)</hi>.</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Bat ba&ntilde;o geiago ere.</p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI: </hi><hi rend='Italic'>(Atetik)</hi> Ta ez edozein. Alkatea sekretarioarekin. <hi rend='Italic'>(Beronei)</hi> Aurrera, alkate jauna ta konpa&ntilde;ia!</p>
+<p><hi rend='Bold'>X. AGERRALDIA</hi></p>
+<p><hi rend='Italic'>Lengoak, Alkatea ta Sekretarioa.</hi></p>
+<p>-f-<hi rend='Bold'>ALKATEA: </hi><hi rend='Italic'>(Joxepantoniri) (Apaizgaiari)</hi> Arratsaldeon! Emen naiz berriz Joxepantoni.</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Ongi etorri, alkate Jauna.</p>
+<p>-f-<hi rend='Bold'>SEKRETARIOA: </hi><hi rend='Italic'>(Ezetsiaz)</hi> Ola, apaiz... apaizkume!</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Umea ez. Gaia. &laquo;Distinguo&raquo;. Ez da berdin.</p>
+<p>-f-<hi rend='Bold'>SEKRETARIOA:</hi> &laquo;Eskolastikoa&raquo; atera da.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Deitu zaiozu nagusiari bada.</p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI:</hi> Banoa, jauna. <hi rend='Italic'>(Bijoa)</hi></p>
+<p>-f-<hi rend='Bold'>ALKATEA: </hi><hi rend='Italic'>(Beste biai)</hi> Zertan gera?</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Ba, alkate jauna, D. Justo erretoreak bidali naula, bera ez zitekela etorri-ta.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Zurekin artuemanak izatea naiago degu. Gazteekin, gazteekin.</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Eskarrikasko ba&ntilde;an, D. Justo etorri izan balitz obe. Nere irizbidea motza baida. &laquo;Kriterioa...&raquo;</p>
+<p>-f-<hi rend='Bold'>SEKRETARIOA:</hi> Balmes &laquo;modatik&raquo; joan zan gizona.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> &laquo;Pilosopokeriak&raquo; utzi itzazute, ta ea jaien kontu ori erabakitzen degun. Bestela gure &laquo;Sukalde-Klub&raquo;en pakean egoten ez gaituzte utziko. Oraintxe, txipiroi batzuek jaten arin nintzala, Donostitik datorren beste &laquo;papera&raquo; artu degu, &laquo;Euskaltzaleak&raquo;-edo bidalia. Bertan, bederik &laquo;angula&raquo; batzuek bidali izan balituzte.</p>
+<p>-f-<hi rend='Bold'>SEKRETARIOA:</hi> Ba&ntilde;an ezin ontzat artu diteke legeak agintzen duan &laquo;tinbrerik&raquo; gabe dagoalako.</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Angulak?... Zuk gordi&ntilde;ik ere kilo pare bat jango zenituke-ta.</p>
+<p>-f-<hi rend='Bold'>SEKRETARIOA:</hi> &laquo;Agiria&raquo;rengatik diot. Tinbrerik gabe dagoala.</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Ez da akatz aundia.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Aundiagoak jaten badakigu.</p>
+<p>-f-<hi rend='Bold'>SEKRETARIOA:</hi> Ez det esan nai utsegite txiki orrengatik agiria otarrera bota bear degula. Orain, orrelako jaietan istillu ta zitalkerik gerta ez ditezen ardura aundia artu bear degu. Lenengo, legeak agintzen du Gobernadorearen baimena nai ta naiezkoa zaigula, alkate jauna!</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Lendabizi jaiaren gora-bera jakin dezagun.</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Meza nagusi eder bat abestutzekoak dirala badakit. Izlari otsaundiko bat ekartzeko dabiltzala ere bai.</p>
+<p>-f-<hi rend='Bold'>SEKRETARIOA:</hi> Zera... Kastelar. Meza nagusia? igandero izaten da. Ta sermoiz... aspertuta gaude.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Utzi asarreak ta erabaki bear degu &laquo;Ayuntamentuak&raquo; osoak meza ortara joan bear duan ala ez.</p>
+<p>-f-<hi rend='Bold'>SEKRETARIOA:</hi> Neregatik ez litzake azalduko.</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Bada nik uste det, ez bakarrik erri katoliko bat dalako, gizalegez ere ta jaiei aunditasuna emate arren Udal guziak azaldu bear lukela.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Emen ze&ntilde;ek agintzen du? <hi rend='Italic'>(Parrez) </hi>Bazkaltzera bagoaz mezetara ere guziok joatea da nere iritzia...</p>
+<p>-f-<hi rend='Bold'>SEKRETARIOA:</hi> Ondo dago. Orain lege berri asko dira ta utsegin ez dezagun Gobernadorearen baimena aitatu det. &laquo;Estatuto Munizipalak&raquo;.</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Estellakoa (Lizarrakoa) bear degu.</p>
+<p>-f-<hi rend='Bold'>SEKRETARIOA:</hi> Erromatik azkatuta.</p>
+<p><hi rend='Bold'>XI. AGERRALDIA</hi></p>
+<p><hi rend='Italic'>Lengoak, Etxenagusia ta Alarguna.</hi></p>
+<p><hi rend='Italic'>(Etxenagusia ta Alarguna sartuaz)</hi>.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Emen zeratela erriko nagusiak. Barkatu itxoin arazi badizutet.</p>
+<p>-f-<hi rend='Bold'>ALARGUNA:</hi> Arratsalde on, jaunak! <hi rend='Italic'>(Alkarren artean agurtuko dira eskua emanaz)</hi>.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Emen naiz berriz.</p>
+<p>-f-<hi rend='Bold'>SEKRETARIOA: </hi><hi rend='Italic'>(Alargunari)</hi> Zu ere emen Do&ntilde;a Maria. Zer modu?</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Jaungoikoak diela arratsalde on!</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Eseri nai dezuten lekuan? <hi rend='Italic'>(Eseritzen diran bitartean Etxenagusia, Alkate ta Sekretarioa izketan ariko dira ta Alarguna ta apaizgaia bere aldetik.)</hi></p>
+<p>-f-<hi rend='Bold'>ALARGUNA:</hi> Noiz eman bear dezu lenengo meza?</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Emendik iru urtera Jainkoak lagun ta Obispo jaunagandik ordenak irixten baditugu beintzat.</p>
+<p>-f-<hi rend='Bold'>ALARGUNA:</hi> Ta &laquo;sotana&raquo; noiz jantzi bear dezu?</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Datorren urtean &laquo;gonekin&raquo;...</p>
+<p>-f-<hi rend='Bold'>ALARGUNA:</hi> Orra ze&ntilde;en ederki! Bada meza berrirako ama bizirik ez badezu nik &laquo;madrina&raquo;tzat egingo det. Pozik ga&ntilde;era.</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Eskerrik asko Do&ntilde;a Maria. Urruti dago oraindik nere meza berria, alare milla esker ta eskeintza gogoan artuko det.</p>
+<p>-f-<hi rend='Bold'>ALARGUNA:</hi> Ta meza emandakoan bereala izaten al dezute eskontzak bedeinkatzeko baimena?</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Bai andrea, bai; sakramentu guziak emateko baimena. Ta oien artean eskontzanarena. <foreign>&laquo;Sacramentum hoc magnum est, ego autem dico in Christo et in Ecclesia&raquo;...</foreign></p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA: </hi><hi rend='Italic'>(Alarguna ta Apaizgaiaren alkarrizketa etenaz)</hi> Zuek ere adi zazute.</p>
+<p>-f-<hi rend='Bold'>ALARGUNA:</hi> Esan, esan!</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Emen ari gi&ntilde;an euskal-jai orretarako zerbait asmatzen. Ayuntamentuak laguntza ez duala ukatuko uste degu.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Diru askorik ezin emango degu.</p>
+<p>-f-<hi rend='Bold'>SEKRETARIOA:</hi> Baimena ematea ez da gutxi, zer nolako jai diran jakin gabe, zeintzuek tartean dabiltzan ta, ta... Gero, gobernadorearekin kontuak! Sekretario gizajoa obendun!</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Gu ez al gera tartean? Batzorde edo komisio bat jarri dezagun, Alkate jauna, medikua ta ni ere, nai badezute izendatuaz. Edo besteren bat.</p>
+<p>-f-<hi rend='Bold'>SEKRETARIOA:</hi> Ori ala bada ixiltzen naiz. Ez dago zer esanik.</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Barkatu! Nik uste det batzorde orretarako <hi rend='Italic'>(Alargunagatik)</hi> Do&ntilde;a Maria izendatu bear zenutekela.</p>
+<p>-f-<hi rend='Bold'>ALARGUNA:</hi> Ni? Ez, ez!</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Bai, bai!</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Ederki dago ori! Do&ntilde;a Maria sar dedilla.</p>
+<p>-f-<hi rend='Bold'>SEKRETARIOA:</hi> Kontzejal ere ez luke gaizki emango. Urrengo txandako gogoan artu bear degu.</p>
+<p>-f-<hi rend='Bold'>ALARGUNA:</hi> Eskerrik asko ba&ntilde;an ez nazazutela istillutan sartu arazi. Alarguna naiz eta pakean bizi nai nuke.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Oraingoz, Euskal-eguneko batzordean sartuko zaitugu ta zure lana ongi betetzen badezu alkatetza ere utziko dizugu emakumea! Ez al da ala, apaizgai?</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Ez dago eragozpenik Elizaren aldetik.</p>
+<p>-f-<hi rend='Bold'>SEKRETARIOA:</hi> &laquo;Estatuto Munizipalek&raquo; emakumezkoai, eskubidea eman zien. <hi rend='Italic'>(Zirikatu naiaz)</hi> Ta lege zarrak apaizak batzarretara sartzea galerazi egiten zuan.</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Ez apaizik bakarrik. Baita letradu ta sasi-letraduak ere.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Jaunak barkatu, urrena itzegingo dezute orretzaz. Ez zagun orain astirik galdu. Nere iritzia ontzat eman dezuten ezkero batzordea izendatuko degu. Batzordean emen gauden guztiok jarri gaitean ta ga&ntilde;era. Medikua, ta Maistra ta <hi rend='Italic'>(Alkateari)</hi> zure alaba.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> &laquo;Konprome!&raquo; gure Kaxiano kontzejalak esaten duan bezela. Ta au entzunaz batzarra amaitzen degu; &laquo;sesioa&raquo; jarri ba&ntilde;o len.</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Ni ez naiz i&ntilde;or, dakizuten bezela, ta erretore jaunari adieraziko diot.</p>
+<p>-f-<hi rend='Bold'>SEKRETARIOA: </hi><hi rend='Italic'>(Ixekaz) </hi><foreign>&laquo;Domine non sum dignus&raquo;.</foreign></p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Apaiztegiko kutsua ez zaizula joan ezagun da.</p>
+<p>-f-<hi rend='Bold'>ALARGUNA:</hi> Ba&ntilde;an, apaizgaia izan al zera? gizona!</p>
+<p>-f-<hi rend='Bold'>SEKRETARIOA: </hi><hi rend='Italic'>(Lotsatua)</hi> Izana bakarrik.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Beraz, ontan gelditzen gera.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Bai gizona! Ta urrena euskaltzale &laquo;illobak&raquo; etorri ditezenean otsegin. <hi rend='Italic'>(Erlojuari begiratuaz)</hi> Gaur ba&ntilde;o ordu obean izan dedilla. &laquo;Errotarioak&raquo; gure lantxoak izan oi ditugu.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Datorren igandez datozela gaztigatu didate ta derizkiozuten orduan biltzen al gera.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Meza nagusi ondoren ongi al datorkizute?</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Neri oso ederki.</p>
+<p>-f-<hi rend='Bold'>SEKRETARIOA:</hi> Alkate jauna, oroi zaite garai ortan &laquo;sesioa&raquo; izaten degula. Ez dago legea kentzerik.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Zuk noiz nai &laquo;sesioa&raquo; jartzen dezu, &laquo;sesiante&raquo; ez bestena! Ta eskubidea dedanez egun orretakoa astelenerako utziko det. Emen Do&ntilde;a Mariak esan bear digu ondo al datorkion. <foreign>&laquo;Se levanta la sesi&oacute;n&raquo; </foreign><hi rend='Italic'>(Abitu naiaz)</hi></p>
+<p>-f-<hi rend='Bold'>ALARGUNA:</hi> Zuek nai dezutenean. Meza nagusi ondoan dala?, ondo deritzait. Ez dedilla beintzat i&ntilde;or asarretu. Ez da sekretario jauna, ta Angel.</p>
+<p>-f-<hi rend='Bold'>SEKRETARIOA: </hi><hi rend='Italic'>(Koipe-jario)</hi> Eskerrik asko. Zure o&ntilde;etan jarria naukazu andrea.</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA: </hi><hi rend='Italic'>(Irritzu)</hi> Ni ezin berago.</p>
+<p>-f-<hi rend='Bold'>ALARGUNA:</hi> Oso atsegi&ntilde;ak zerate guziok. Orduan <hi rend='Italic'>(Zutituaz)</hi> igande arte.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Dagoaneko, bazoaztela. Atera&ntilde;o lagunduko dizutet.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Ez mugitu guregatik! <hi rend='Italic'>(Alargunari)</hi> Etxera&ntilde;o lagunduko dizugu.</p>
+<p>-f-<hi rend='Bold'>SEKRETARIOA:</hi> Baita arago ere!</p>
+<p>-f-<hi rend='Bold'>ALARGUNA:</hi> Eskerrik asko &laquo;konpa&ntilde;iagatik&raquo;. Ez neregatik nekerik artu.</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Ez al diegu itxoin bear bada, Se&ntilde;orita Garatzi ta Maistrari?</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Ez datoz onuzkero!</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Nere alaba ori beti berandu.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Ez jauna! garaiz etorri dira. Guk bidali ditugu erretore etxera D. Justorekin itzegitera.</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Alperrik joan dira On justo Loyolan da-ta.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Urrenarte bada!</p>
+<p>-f-<hi rend='Bold'>ALARGUNA:</hi> Agur!</p>
+<p>-f-<hi rend='Bold'>SEKRETARIOA:</hi> Arratsalde on! <hi rend='Italic'>(Bijoaz Etxenagusia ta Apaizgaia ez ga&ntilde;eko guziak ta auek atera lagunduaz emen egongo dira besteak eskutatu artera&ntilde;o.)</hi></p>
+<p><hi rend='Bold'>XII. AGERRALDIA</hi></p>
+<p><hi rend='Italic'>Etxenagusia ta Apaizgaia.</hi></p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Ez dakit billera ontatik zer atera diteken. Erri onetan alkarren artean aserre izaten gera. Ez dakit...</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Etorri dira beintzat ta zure deia ongi erantzun dute. Orain, zuk gauzak ondo zuzendu bear.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Or dago, bada, korapilloa; nere buruan det uzte gutxi, aspertua bainago. Ta kemenik ez berriro erri lanean asteko. Zortzi urteko diputadutzak, amar urte Buru-Batzarrean, ta betiko asarre, burruka ta nere etxearen erdi-ondamenak, gizon bulartsuenaren indarrak ta gogoak makaltzeko di&ntilde;a badira.</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Zure jatorriak ta euskerak ori ta geiago eskatzen dizute ta oraindik kemen aundiak dituzu biotz ortan.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Toki onean.</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Gaur Aita Gibelalderi bezela, egunen batean Irizar guziak gorasarrea egingo dio &laquo;Etxenagusia&raquo; aundiari.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Zaude ixilik! Merezi izanda... Egin onaren txaloak... paloak.</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Goiz ala berandu erriak esker ona agertzen dute.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Goazen, goazen barrura. Ala bearko. Oraintsu bukatu dedan Gibelalde Aitaren kondaira erakutsi nai dizut... <hi rend='Italic'>(Abituaz)</hi>.</p>
+<p>OIALA</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>BIGARREN EKITALDIA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Italic'>(Lenengo Ekitaldiko agertoki bera).</hi></p>
+<p><hi rend='Bold'>I. AGERRALDIA</hi></p>
+<p><hi rend='Italic'>Meltxor, Kaspar, Baldaxar ta Joxepantoni.</hi></p>
+<p>-e-<hi rend='Italic'>(Meltxor ta Gaspar gazte kaletarrak, apain jantziak, Baldaxar ere gaztea ba&ntilde;an bere adizkideak ba&ntilde;o zaartxegoa; jantzian ta itxuran ere zabarragoa.)</hi></p>
+<p>-f-<hi rend='Bold'>MELTXOR: </hi><hi rend='Italic'>(Joxepantoniri)</hi> Esaiozu Donostiarrak gerala ta naikoa da. Espero gaitu-ta.</p>
+<p>-f-<hi rend='Bold'>KASPAR:</hi> &laquo;Aitorren Illobak&raquo;. Euskaltzaleak...</p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI:</hi> Bitorren illobak? ta esnezaleak? Ez ditu ezagutzen. Orain donostiarrak.</p>
+<p>-f-<hi rend='Bold'>BALDAXAR:</hi> Donostiar kaskari&ntilde;ak...</p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI:</hi> Ez zerate, bada, &laquo;konsulta&raquo; etorriak izango? Ez baidu gaxorik artzen.</p>
+<p>-f-<hi rend='Bold'>BALDAXAR:</hi> Ez andrea! osasun onean gatoz.</p>
+<p>-f-<hi rend='Bold'>KASPAR: </hi><hi rend='Italic'>(Lagunai)</hi> Ori dek jakin gura. Oni zeatz adierazi bearko zioagu gure asmoa, bestela...</p>
+<p>-f-<hi rend='Bold'>MELTXOR: </hi><hi rend='Italic'>(Joxepantoniri)</hi> Zuk aituko zenuen noski, ez bestelako euskal-jaiak erri ontan eratzen ari dirala. Bada orretzaz zure nagusiarekin-ta itzegitera gatoz.</p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI:</hi> Ederki, ederki. Orduan zuek &laquo;tanbolinteroak&raquo; izango zerate?</p>
+<p>-f-<hi rend='Bold'>BALDAXAR: </hi><hi rend='Italic'>(Parrez)</hi> Ja, ja, ja! Tanbolinteruak? Zera, gu... &laquo;iru erregeak gera: Meltxor, Kaspar ta Baldaxar&raquo;.</p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI:</hi> Ez zaudete zuek errege txarrak! Donostiarrekin ez naiz fio...</p>
+<p>-f-<hi rend='Bold'>KASPAR:</hi> Ez dezazula gauza txarrarik uste. Zure nagusiarekin ta erriko agintariekin itzegitera gatoz. Emengo gazteai euskal dantza, jolas ta oiturak erakustera.</p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI:</hi> Jesus milla bider! Donostiarrak guri euskal oiturak erakustera? ez dago gauza zuzenik! Enetxoa!</p>
+<p>-f-<hi rend='Bold'>BALDAXAR:</hi> Ez neri gero Donosti ikutu! <hi rend='Italic'>(Abesten du)</hi> &laquo;Festarik bear bada <foreign>etc</foreign>., Donostiarrak nagusi gera, dantzan, abestietan, estropadetan ta Saski-Naskin&raquo;...</p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI:</hi> Baita zera ere! Saski utsean bearko!</p>
+<p>-f-<hi rend='Bold'>MELTXOR:</hi> Ez zaiozula Baldaxarri jaramonik egin ta ea nagusi jaunari, faborez, deitzen diozun. Ta adi zazu... baezpa Jonixio bertsolaria nun bizitzen dan ba al dakizu?</p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI:</hi> Ez det jakingo bada! <hi rend='Italic'>(Arrokeriz)</hi> Nere anaia da-ta. <hi rend='Italic'>(Baldaxarreri)</hi> Ea nun dezuten Donostin orrelako bertsolarik?</p>
+<p>-f-<hi rend='Bold'>BALDAXAR:</hi> Ez, ortan irabazten diguzute. Ona egia esan. <hi rend='Italic'>(Zurikatzalle)</hi> Jonixio... obea da... Txirrita ba&ntilde;o... ta zure anaia izaki geiago.</p>
+<p>-f-<hi rend='Bold'>MELTXOR:</hi> Ta Jonixio ori, nun ikusi genezake?</p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI:</hi> Gaur errian da-ta neronek deituko diot.</p>
+<p>-f-<hi rend='Bold'>KASPAR: </hi><hi rend='Italic'>(Meltxorreri albora)</hi> Ez dek urruti izango. Tabernan noski, ardoa edaten. Onelakoekin aberria gaizkatuko diagu.</p>
+<p>-f-<hi rend='Bold'>BALDAXAR: </hi><hi rend='Italic'>(Kasparreri)</hi> Ixilik ago motel! <hi rend='Italic'>(Joxepantonigatik)</hi> Onek aditzen badik.</p>
+<p>-f-<hi rend='Bold'>MELTXOR:</hi> Jonixiorena gerorako utziko degu. Anaia beraz? Oso &laquo;famatua&raquo; da. Orain ea On Martineri lenbailen etortzeko esaten diozun.</p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI:</hi> Bai, banoa. Bereala etorriko zaizute. <hi rend='Italic'>(Ateruntz joanaz)</hi> Zaudete pizka batean.</p>
+<p>-f-<hi rend='Bold'>MELTXOR:</hi> Bai, bai. Beraz Jonixioren arreba. Ez genekien ezer! Bertsolari onena!</p>
+<p>-f-<hi rend='Bold'>BALDAXAR: </hi><hi rend='Italic'>(Irritsu)</hi> Izan dan onenetakoa eguzkiaren azpian ta... belarraren ga&ntilde;ean.</p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI:</hi> Arengana ere gero joango gera <hi rend='Italic'>(Bijoa)</hi>.</p>
+<p><hi rend='Bold'>II. AGERRALDIA</hi></p>
+<p><hi rend='Italic'>Meltxor, Kaspar ta Baldaxar.</hi></p>
+<p>-f-<hi rend='Bold'>KASPAR:</hi> Ori dek piztia! Ez dik nagusirik galduko. Ta berriketako gogoa? Anaia bertsolariarena aitatu badiozute aitatu dezute, Jonixio gora ta Jonixio bera.</p>
+<p>-f-<hi rend='Bold'>BALDAXAR:</hi> Jonixio gora!, bestela emango dik.</p>
+<p>-f-<hi rend='Bold'>MELTXOR:</hi> Zer egingo iokan bada?</p>
+<p>-f-<hi rend='Bold'>BALDAXAR:</hi> Atso abek bildurgarriak izaten dituk.</p>
+<p>-f-<hi rend='Bold'>KASPAR:</hi> Martin Etxenagusia ezagutzeko gogoa badiat. Nolakoa dan!</p>
+<p>-f-<hi rend='Bold'>MELTXOR:</hi> Oso dek atsegi&ntilde;a. Oraindik gizon gordi&ntilde;a ta iztun ederra.</p>
+<p>-f-<hi rend='Bold'>BALDAXAR:</hi> Iztuna bakarrik?, idazlea ere. Gaurko &laquo;Argiak&raquo; artikulo ona dakar berea. <hi rend='Italic'>(&laquo;Argia&raquo; aterata Kasparreri emanaz)</hi>.</p>
+<p>-f-<hi rend='Bold'>KASPAR:</hi> Irakurri diat. Ez zegok gaizki, erreza, ari&ntilde;a ta errikoia. Ba&ntilde;an neretzat gaurko idazlerik bika&ntilde;enak, sakonenak, Azelain ta Landazabal Aba dituk. Oiek ezagutzen dizkitek i&ntilde;ork ba&ntilde;o obeki euskeraren bazterrak.</p>
+<p>-f-<hi rend='Bold'>MELTXOR:</hi> Baliteke, ba&ntilde;an oiek darabilkiten euskera zail ta gogorra, ze&ntilde;ek ulertu? Garbizale porrukatuegiak dituk ta onela ez gaitxiok i&ntilde;ora. Azelain beintzat gaitza dek, &laquo;botikarioa&raquo; dala ezagun dik.</p>
+<p>-f-<hi rend='Bold'>KASPAR:</hi> Azelainek asko zekik asko. Oraintsu &laquo;kimika&raquo; osoa euskeraz egin dik. Lana da gero. Gutxinez bi milla itz berri sortu dizkik.</p>
+<p>-f-<hi rend='Bold'>MELTXOR:</hi> Amaika lan bearrezkoagoak badizkiagu. Kimika euskeraz jarri ta sagardoa nola ondo egiten dan erakusteko liburutxo bat izan ez.</p>
+<p>-f-<hi rend='Bold'>BALDAXAR:</hi> Liburu gutxi bear da sagardoa polita egiteko: sagar ona. Ta edaten berriz bazekiagu!</p>
+<p>-f-<hi rend='Bold'>KASPAR:</hi> Zera... euskeraz Jonixioren txorakeriak bakarrik entzun ta ikusi bear al dizkiagu bada? Gerorako lan egiten asi bear diagu.</p>
+<p>-f-<hi rend='Bold'>MELTXOR:</hi> Oraingo lendabizi asi adi! Ez Landazabal karmelita bezela. Euskera gozo ta ederra dik, idaz-tankeraz moteltxoa bada ere. Ez ziguk bada Kanteren pilosopia aukeratu! Zein ausartu ura irakurtzen?</p>
+<p>-f-<hi rend='Bold'>KASPAR:</hi> Iretzat &laquo;Euskaltzaindiko&raquo; jauntxoak bakarrik dituk akatzgabekoak. Zer egiten dute bada? Batzar asko ta utsa. Suchard gora ta Suchard bera.</p>
+<p>-f-<hi rend='Bold'>BALDAXAR:</hi> Orrenbeste txokolate? Motellek &laquo;Euskaltzaindikoa&raquo; egin bear nazute!</p>
+<p>-f-<hi rend='Bold'>KASPAR:</hi> Ez gizona! Sabin ez artu nai &laquo;Euskaltzaindiak&raquo; ta Jainko txikiak Suchard jauna, Vinson ta onelakoak dizkitek.</p>
+<p>-f-<hi rend='Bold'>BALDAXAR:</hi> Banatxioken bada txokolatearen ori egia ote zan.</p>
+<p>-f-<hi rend='Bold'>MELTXOR: </hi><hi rend='Italic'>(Asarre)</hi> Zuekin ez zegok itzegiterik! Euskaltzaindia lan txalogarria egiten ari dek ta jakintza legeen arabera. Azkue, Kanpion. Urkijo ta antzeko gizonak ez dituk egunero jaiotzen. Txapela kendu bear zaietek ta aien esanera makurtu.</p>
+<p>-f-<hi rend='Bold'>KASPAR:</hi> Ez nik euskera &laquo;z&raquo;kin idazten ez duten bitartean. Zer egin ditek ba orainda&ntilde;o? Errekara dirua bota! Obe litekek iztegia lenbailen argitaratu Sabinoren itzak arturik.</p>
+<p>-f-<hi rend='Bold'>MELTXOR:</hi> Ortan ari dituk! <hi rend='Italic'>(Alkarrizketa gero ta biziago azkenera&ntilde;o)</hi>.</p>
+<p>-f-<hi rend='Bold'>BALDAXAR:</hi> Ta teatro berri bat egin &laquo;Saski Naski&raquo;koentzat. Or gatxok lekurik ez degula.</p>
+<p>-f-<hi rend='Bold'>MELTXOR:</hi> Zer uste dek ordea? Jaun oiek euskaltzai&ntilde;ak dituk ta ez argi&ntilde;ak.</p>
+<p>-f-<hi rend='Bold'>BALDAXAR:</hi> Ba, ba, ba? Esan izan diat lenago ere, neretzat onenak Elizondo ta Toribio Alzaga, teatroan; ta Kiriki&ntilde;o zana ta Etxenagusia bestela. &laquo;Euskaltzaindi&raquo;koak...</p>
+<p>-f-<hi rend='Bold'>KASPAR:</hi> Egin zezateakean lan geiago egin dutena ba&ntilde;o.</p>
+<p>-f-<hi rend='Bold'>MELTXOR:</hi> Jakintza lana, auzolana dala al deritzaik? Zera, mikeletiak bidaliko zizkoategu zaintzea!</p>
+<p>-f-<hi rend='Bold'>BALDAXAR:</hi> Ez zegok eskubiderik, Donosti batean aguazillak euskeraz ez jakitea! Ta kaiako mukizuak ere, erderaz itzegitea!</p>
+<p><hi rend='Bold'>III. AGERRALDIA</hi></p>
+<p><hi rend='Italic'>Lengoak ta Etxenagusia.</hi></p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA: </hi><hi rend='Italic'>(Sartuaz)</hi> Ongi etorri gazteak! <hi rend='Italic'>(Meltxorreri)</hi> Zer modu Etxeberria? ondo e? <hi rend='Italic'>(Laztanduaz.)</hi></p>
+<p>-f-<hi rend='Bold'>MELTXOR:</hi> Ederki! Eskarrikasko, zu ere bai?</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Baita, baita. Oia uztutzen degu-ta.</p>
+<p>-f-<hi rend='Bold'>MELTXOR:</hi> Nere adiskideak aurkeztuko dizkitzut e? au, <hi rend='Italic'>(Kasparrrerengatik)</hi> Kaspar Lekuona. Izen ordea &laquo;Txorlero&raquo;.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA: </hi><hi rend='Italic'>(Alkar oi dan eran agurtuaz)</hi> Poztutzen naiz ezagutuaz. Beraz &laquo;Txorlero&raquo; zaitugu. Zure lanak atseginez irakurtzen ditut.</p>
+<p>-f-<hi rend='Bold'>KASPAR:</hi> Eskerrikasko! utsa dira!, zureak bai iaioak. Gu bai zu ezagutzera pozik etorri gerala, otsaundiko gizona.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Utsa! utsa! Ke pizka bat ta gar gutxi. Ni itzali naiz.</p>
+<p>-f-<hi rend='Bold'>MELTXOR:</hi> Ta beste au <hi rend='Italic'>(Baldaxarrerengatik)</hi> Baldaxar Aranguren &laquo;Akullu&raquo;.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Gizona! Akullu? <hi rend='Italic'>(Eskua estutuaz)</hi> Ezten zorrotzekoa ga&ntilde;era. Ondo zaude e? Ez dago zure itxurara begiratzea besterik.</p>
+<p>-f-<hi rend='Bold'>BALDAXAR:</hi> Ni bezin ongi osasunez izatea opa dizut. Gaur zu ikusteakin, berriz ezin obeto.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Erritan ari zi&ntilde;atela iruditu zait ba?</p>
+<p>-f-<hi rend='Bold'>MELTXOR:</hi> Badakizu, gure errietak ajola gutxikoak izan oi dira. Kaspar Euskaltzaindiarengatik ta beste jaun batzuentzaz gaizki esaka ari gi&ntilde;an. Guziok ez gera iritzi batekoak-ta.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Ori ondo dago. Euskera ta euskel gauzak aintzakotzat artzen diran ezaugarria da. Beaumarchaisek esan zuan &laquo;letradunen errepublika otsoen errepublika zala&raquo;.</p>
+<p>-f-<hi rend='Bold'>BALDAXAR:</hi> Nik esaten dedana: euskaldunok errepublika bear degula.</p>
+<p>-f-<hi rend='Bold'>MELTXOR:</hi> Orain ez goatxiok politikara. <hi rend='Italic'>(Etxenagusiari)</hi> Badakizu zertara etorri geran. Gure eskutitza jasoko zenuen. Ea ba, zer nolako euskal-jaiak antolatzen ditugun.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Begira, ni, zarra ta gogo gutxikin nago, azkeneko urte oietan zigor aundiak artu baditut. Ez naiz lengoa, orain zuen garrak zerbait suspertzen banau ere. Euskal-jaia emen egiteko asmoa erriak oso ondo artu du, agintariak ta guzi. Ta Gibelalde aitari gorasarrea egitea, bururatu zaizuten asmorik egokiena bada. Emengo semea izanik ez zitzaion be&ntilde;ere ezer egin.</p>
+<p>-f-<hi rend='Bold'>KASPAR:</hi> Gibelalde izan uan ea euskeraren aita.</p>
+<p>-f-<hi rend='Bold'>BALDAXAR:</hi> Euskeraren aita Aitor izan uan ba?</p>
+<p>-f-<hi rend='Bold'>KASPAR:</hi> Ixilik ago! Irudimenezko izena dek ori. Gibelalde Larramendik ere aitatzen dik orduko izlaritatik bika&ntilde;ena bezela. Ta emen, jaioterrian aren omenez zerbait egiteko garaia dek.</p>
+<p>-f-<hi rend='Bold'>BALDAXAR:</hi> Gibelalde Gazteluzarren jaioa zala ere aditu izan diat.</p>
+<p>-f-<hi rend='Bold'>KASPAR:</hi> Ez jauna! Aspaldi garbin jarri uan Irizartarra zala. <hi rend='Italic'>(Etxenagusiari)</hi> Ez al da onela?</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Bai, ezpairik gabe. Ez da egun asko oso agiri bakanak jaso ditudala Gibelalderen bizitzaren buruz. Eskutitz batzuek baditut, ark bere amari zuzenduak. Aldi artan egia da ama Gazteluzarren bizi zala, ez emen. Ba&ntilde;an agiri guztiok diote emen Irizarren jaio zala &laquo;Etxegoiko&raquo; baserrian. Goazen nere liburutegira ta erakutsiko dizkitzutet amaika paper zar. Ta ardo goxo txurrut bat artuko dezute besteak meza nagusitik etorri bitartean.</p>
+<p>-f-<hi rend='Bold'>KASPAR:</hi> Zure agiri zarrak pozik ikusiko nituke, ba&ntilde;an ez zaitela guretzako ezer ateratzen aritu. Eskerrikasko!</p>
+<p>-f-<hi rend='Bold'>BALDAXAR:</hi> Ni beintzat etxean gosaldu ta ga&ntilde;era emen ostatuan arrautz prejitu pare bat artua nago. Eguardi arte ez det ezer nai. Milla esker!</p>
+<p>-f-<hi rend='Bold'>MELTXOR:</hi> Ez jauna ez! Liburutegira lagunduko dizugu, ba&ntilde;an jaia aurrera eramateko sermoi askotxo tajutu bear ditugu. Ez degu astirik galtzerik. Dantzari, bertsolari, palankalari, aurren jaia ta abar gertuarazi bear dira.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Ez daude aztuta, ori guzia gertutzen ari dira, ta alkatea ta besteak etorri ditezenean zertan diran adieraziko dizute. Ez det uste eragozpenik sortuko danik: enparantzan naiko toki jolas guzietarako badago; eliz-etxean areto aundia teatro jaierako.</p>
+<p>-f-<hi rend='Bold'>BALDAXAR:</hi> Oraingoz seguru gera, orduan.</p>
+<p>-f-<hi rend='Bold'>KASPAR:</hi> Gobernadoreak baimenik ukatzen ez badu.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Bai zera! Bera &laquo;konbidatzeko&raquo; asmoa dute-ta. Emen aurrera dijoaz. Orain zuek lan egin bear dezute Donosti aldetik jende asko etorri dedin. <hi rend='Italic'>(Abituaz)</hi></p>
+<p>-f-<hi rend='Bold'>BALDAXAR:</hi> &laquo;Aitorren illobak&raquo; jaiak eratzen mutillak dirala badakizu. Jo ta kea aterako degu.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Zuek bezelako gazte askorekin zerbait izatera iritxiko gi&ntilde;ake. <hi rend='Italic'>(Atean Meltxorreri lenengo igaro arazi nai dio)</hi>.</p>
+<p>-f-<hi rend='Bold'>MELTXOR:</hi> Ez, jauna, zu lenengo. Ez lizake besterik bear.</p>
+<p>-f-<hi rend='Bold'>KASPAR: </hi><hi rend='Italic'>(Besteai darraiela)</hi> Gazteak futbol, zezenak, boxeo ta antzekotan bai: ostikoka ta mutur joka. Ori dek aurrerapena!</p>
+<p>-f-<hi rend='Bold'>BALDAXAR:</hi> Ez neri ikutu Uzkudun.</p>
+<p>-f-<hi rend='Bold'>KASPAR:</hi> Ikutu ditek ondo Ameriketan <hi rend='Italic'>(Bijoaz)</hi></p>
+<p><hi rend='Bold'>IV. AGERRALDIA</hi></p>
+<p><hi rend='Italic'>Garatzi ta Maistra.</hi></p>
+<p><hi rend='Italic'>(Beste atetik sarturik)</hi></p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Etxe ontan sartzen ikusi ditut, zure zai nengoalarik. Beriala deitu egin didazu ta etorri gera. Donostiarrak ziran.</p>
+<p>-f-<hi rend='Bold'>MAISTRA: </hi>Bai emakumea! Iru dira; bata <foreign>&laquo;de sombrero&raquo; </foreign>zapata txuriakin; bestea burutzik zijoan ta irugarrena berriz lodi bat da baldar jantzia, zaragi puztua zirudien.</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Ez dakit ba...</p>
+<p>-f-<hi rend='Bold'>MAISTRA: </hi>Zera izango da. &laquo;Akullu&raquo;! Ori euskal jai guzietara azaltzen da. Gizon jatorra ta oso ezaguna.</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Ikusten dedanez atsegin zaizu. <hi rend='Italic'>(Irritsu)</hi></p>
+<p>-f-<hi rend='Bold'>MAISTRA: </hi>Ez det onurarik <hi rend='Italic'>(Probetxurik)</hi> ezkondua baida. Seme pilla ere izan bear du.</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Guziekin baldin badator izango degu lana.</p>
+<p>-f-<hi rend='Bold'>MAISTRA: </hi>Aur geyago oraindik? Errikoekin ere aski degu. Zerbait ikasten ari dira ta orain lasago nago. Dantza ta antzerkian txalo ederrak jo bear dizkiote.</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Migelek aurrentzat ipui polita antolatu du: &laquo;La&ntilde;oa ta Izarra&raquo;.</p>
+<p>-f-<hi rend='Bold'>MAISTRA: </hi>Ura parrak atzo apaizgaiarekin! Erretore jaunari ez omen zaio ondo iruditzen neska-mutillak nastuan azaltzea-ta.</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Migeli esan bearko diogu ipuia aldatzeko: neskak alde batera, mutikoak bestera. Apika bera ere iritzi ortakoa da. Guregana aspaldi ez da etortzen be&ntilde;epein. Ikusten badegu osta-osta...</p>
+<p>-f-<hi rend='Bold'>MAISTRA: </hi>Esan badezu esan dezu <hi rend='Italic'>(Baratzaruntz begiratuaz)</hi> begira nundik datorren.</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Ene, bera da bai!</p>
+<p>-f-<hi rend='Bold'>MAISTRA: </hi>Ez du igesi egiterik.</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Ixo e? Ez esan bere buruagatik itzegiten ari gi&ntilde;anik.</p>
+<p>-f-<hi rend='Bold'>MAISTRA: </hi>Ez Ez, <hi rend='Italic'>(Migel agertu bitartean neskatil biak, urduri, orrazkera ta so&ntilde;ekoak dantzatu bitzate.)</hi></p>
+<p><hi rend='Bold'>V. AGERRALDIA</hi></p>
+<p><hi rend='Italic'>Lengoak ta Migel</hi></p>
+<p><hi rend='Italic'>(Sartuaz)</hi></p>
+<p>-f-<hi rend='Bold'>MIGEL: </hi><hi rend='Italic'>(Arritu antzean)</hi> Zuek ere emen? Zer modu? Ez zaituztet ikusi osteguna ezkero?</p>
+<p>-f-<hi rend='Bold'>MAISTRA: </hi>Ori esan! Ederki!</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Gu ondo ta zeorri?</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Ba al dakizute donostiarrak etorriak diran?</p>
+<p>-f-<hi rend='Bold'>MAISTRA: </hi>Barrenen izan bear dute.</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Bai, bai. Neronek sartzen ikusi ditut.</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Ez ote daude gure zai? <hi rend='Italic'>(Ateruntz joanez)</hi>.</p>
+<p>-f-<hi rend='Bold'>GARATZI: </hi><hi rend='Italic'>(Maistrari)</hi> Onek begiratu ere ez digu egin. <hi rend='Italic'>(Migeleri)</hi> Guregandik alde egiteko gogotan zaudela dirudi.</p>
+<p>-f-<hi rend='Bold'>MIGEL: </hi><hi rend='Italic'>(Berriz neskatillai urbildurik)</hi> Ez enetxoa! Pozik zuek ikustez. Ba&ntilde;an jaun oieri lenbailen adierazi nai diet, onela bagoaz euskal jai, koskorra ta utsa aterako dala. Apaiz orrek...</p>
+<p>-f-<hi rend='Bold'>MAISTRA: </hi>Ez gizona! Ez dezu esango nexka-mutillak ez dirala ederki ikasten ari bere lantxoak.</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Zer nai dezu egitea ordea?... Oraintxe apaizak esan baidit, ez duala nexka-mutillak nastuan ateratzen utziko.</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Ori, zuk ontzat emango dezu: mutillak alde batera ta neskatxak bestera. Zure legea baida!</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Ez naiz orren estua.</p>
+<p>-f-<hi rend='Bold'>MAISTRA: </hi>Orduan antolatzen erreza da, Erretore jaunari jaramonik egin ez ta kito!</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Ez da au okerrena. Sekretarioak esan dit, ez ditekela egin orrelako jairik eskolan. Legeak eragozten duala.</p>
+<p>-f-<hi rend='Bold'>MAISTRA: </hi>Gure aurkako legeak ondo dakizki. Iriberritara dala ezagun da.</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Nere aitak itz erdi bat esan ezkero bigunduko zaigu.</p>
+<p>-f-<hi rend='Bold'>MIGEL: </hi><hi rend='Italic'>(Ezkorra)</hi> Ez dakit, ez dakit zer aterako degun. Or aditu det euskal jaierako &laquo;Jonixio&raquo; bertsolariari itzegin diotela. Zertarako?... Mozkor ederra Jonixio! Bide ortatik &laquo;kultura&raquo; gozoa iritxiko degu.</p>
+<p>-f-<hi rend='Bold'>MAISTRA: </hi><hi rend='Italic'>Gonzalo de Berceoren </hi>eskolakoa baida. Ezin uka diteke ateraldi zorrotz ta etorria ez ditunik.</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Nor ekartzea nai dezu bada... Mistral.</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Enbeita beintzat.</p>
+<p>-f-<hi rend='Bold'>MAISTRA: </hi>Gizaxoa makal baidago.</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Beste batzuek ere badira. Dana dala, nai duena egin dezatela. Ni ez naiz sartuko.</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Zuk naikoa dezu zure gaxoekin.</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Ez badakizu ere gaur dantzari txikien erakuslea oeratu arazi det. Atzo, txorkatilla biurritu zuan, ta ondo lotu ondoren, geldi egon dedin oeratu arazi det. Bestela, kaxo! gure dantzariak.</p>
+<p>-f-<hi rend='Bold'>MAISTRA: </hi>Ori ere badegu gizona. Ez zaitela orren goibela izan.</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Berriz ere errian D. Bildur deituko dizute.</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Esamesak utzirik jaun oriengana goazen. Ea zerbait erabakitzen degun. Egun gutxi daude aurretik.</p>
+<p>-f-<hi rend='Bold'>MAISTRA: </hi>Goazen, goazen, ba&ntilde;an, zuk uste dezun ba&ntilde;o obeto dijoa guztia.</p>
+<p>-f-<hi rend='Bold'>GARATZI: </hi><hi rend='Italic'>(Irritsu)</hi> Ez dezu begizkoan sinistatuko e?</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Ez, zure begietan sinisten det. <hi rend='Italic'>(Bijoaz)</hi></p>
+<p><hi rend='Bold'>VI. AGERRALDIA</hi></p>
+<p><hi rend='Italic'>Joxepantoni, gero Alarguna.</hi></p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI: </hi><hi rend='Italic'>(Txintxarri otsa entzun bedi ta ondoren sarturik)</hi> Esaten det bada, gure etxeak errota dirudilla. Au lana, zikin-zikin bazter guztiak egiten dizkidate. Au istillua! Ezin betarik artu mantal garbirik jartzeko. <hi rend='Italic'>(Kaleko atetik begiratuaz)</hi> Alarguna degu. Maiz dabil emen ikusmiran. Ta ez ote nere nagusiaren atzetik? Alargunak izan oi dira okerrenak. Ni ere naiko etxekoandre naiz etxe onetan. <hi rend='Italic'>(Ixillunea) (Alarguna atean agertzen danean)</hi> Aurrera, aurrera!</p>
+<p>-f-<hi rend='Bold'>ALARGUNA:</hi> Egun on Joxepa.</p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI:</hi> Baita beorri ere. Etxea ez dagoala oso txukuna esango du. Zortzi egun oietan uzten al didate bada. Orain ere etxea ea bete zait.</p>
+<p>-f-<hi rend='Bold'>ALARGUNA:</hi> Neretzako tokia geldituko da.</p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI: </hi><hi rend='Italic'>(Gaiztakeriz)</hi> Toki geiegi ez badu bear bai.</p>
+<p>-f-<hi rend='Bold'>ALARGUNA:</hi> Zeintzuek daude or barruan?</p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI:</hi> Neronek ez dakit. Bakarrik loiez etxea zikindu didatela. Au kuxidadea. Eskerrak beorri gomazko o&ntilde;etakoekin etorri dala.</p>
+<p>-f-<hi rend='Bold'>ALARGUNA:</hi> Bai, ankak aunditu egiten zaizkit ibillian, ta zure nagusiak gomazko o&ntilde;etakoekin ibiltzeko agindu zidan.</p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI:</hi> Alperrik da. Gaitza ori ondoenik sendatzen da odola garbituta.</p>
+<p>-f-<hi rend='Bold'>ALARGUNA:</hi> Zu ere, sasi-sendagilletakoa al zaitugu?</p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI:</hi> Zerbait ikasia naiz Xerapi kuranderarekin. Aunditasun ori kentzeko artu beza, goizean baraurik, osin-ura. Eguardian zankogorrien belar-ura ta gauean, bost-orri ostuekin egindako ukenduaz anka ondo igurtzi. Ez da erremedio oberik.</p>
+<p>-f-<hi rend='Bold'>ALARGUNA:</hi> Ez enetxoa, ez nago zikinkeri oriek artzeko. Eskerrik asko. <hi rend='Italic'>(Asarre)</hi> Ta naikoa degu. Garatzi ta Maistra emen al dira?</p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI:</hi> Ez bedi aserretu, e? Banoa ikustera <hi rend='Italic'>(Abituaz)</hi> Bada osin uda artu ezkero...</p>
+<p>-f-<hi rend='Bold'>ALARGUNA:</hi> Ez det asmorik. <hi rend='Italic'>(Txintxarri otsa entzun bedi)</hi>.</p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI:</hi> Ateko deia! <hi rend='Italic'>(Beste ateruntz joanez)</hi> Itxoin beza pizka batean. Ea nor dan. Au ardalla. Ez gaituzte pakean utziko. <hi rend='Italic'>(Bijoa)</hi></p>
+<p><hi rend='Bold'>VII. AGERRALDIA</hi></p>
+<p><hi rend='Italic'>Alarguna bakarrik, gero Alkatea.</hi></p>
+<p>-f-<hi rend='Bold'>ALARGUNA:</hi> Nabarmena ez bestena. Utzi ezkero sartuko litzake baten eztarriko zuloan. Ondo eman ere. Ez dakit nola Martin bizi ditekean onelako emakumearen mendean. Zarpatsu ta ziki&ntilde;agoa da gaxoa. Ta... mingain luzea bera bezelakoa. Ta Martin Etxenagusia onela bizi?... ezkonduta ondo bizi besterik ez luke ta.</p>
+<p>-f-<hi rend='Bold'>ALKATEA: </hi><hi rend='Italic'>(Sartu ta agurtuaz)</hi> Zer modu?... Bakarrik zaude...</p>
+<p>-f-<hi rend='Bold'>ALARGUNA:</hi> Oraintxe etortzea egin det. Ez nago bakarrik, beste guztiak or barruan izan bear dute.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Zorioneko euskal jai ori dala-ta txoratu bear gaituzte guziok. Beti zerbait badegu. Ta Udal-etxean? Egunero paper ta eskutitzak erruz datoz. Sekretarioa amorrazten dago orrenbeste lanaz.</p>
+<p>-f-<hi rend='Bold'>ALARGUNA:</hi> Ori da aren zeregi&ntilde;a.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Ta nerea, zer da?</p>
+<p>-f-<hi rend='Bold'>ALARGUNA:</hi> Erriari ta zure alabari kontu artzea.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Bata ta bestea daramakiten bideak arrapatuko ditu. Nere buruak ere ematen dit franko lan.</p>
+<p>-f-<hi rend='Bold'>ALARGUNA:</hi> Zer bada, gaxo al zabiltza?</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Gaxo ez ba&ntilde;an, ez oso ondo. Nere alaba, Garatzi, ez dago pozik emen. Donostira bizitzea joan nai luke.</p>
+<p>-f-<hi rend='Bold'>ALARGUNA:</hi> Ez dakit, bada, emen adiskideren bat ez ote duan.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Dana dala, Garatzi ezkondu dedinean, aita bakarrik geldituko da. Bakarrik ta alarguna... bi bakartasun.</p>
+<p>-f-<hi rend='Bold'>ALARGUNA:</hi> Nork esan zu ikusita onelako kezkak zarabiltela. Errian ondoena bizi dan gizona zera-ta. Umore on ta alaitasun obean. Beti lagun artean otordu goxoak egi&ntilde;az, zein bizi da zu ba&ntilde;o obeki?</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Etxean zerbaiten utsa danean batek lagun-arteko jan-edanetara jotzen du.</p>
+<p>-f-<hi rend='Bold'>ALARGUNA:</hi> Ba&ntilde;an gizona! Orain errian jai ederrak antolatzen ari geralarik. Noiz ezkero.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Maiz ikusten zaitudan ezkero...</p>
+<p>-f-<hi rend='Bold'>ALARGUNA: </hi><hi rend='Italic'>(Arriturik)</hi> Ez zera benetan ari! Beraz nik errua.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Ori ez ba&ntilde;an... <hi rend='Italic'>(Ixillunea)</hi></p>
+<p>-f-<hi rend='Bold'>ALARGUNA:</hi> Norbait dator. Martin izango da.</p>
+<p><hi rend='Bold'>VIII. AGERRALDIA</hi></p>
+<p><hi rend='Italic'>Lengoak ta Etxenagusia.</hi></p>
+<p><hi rend='Italic'>(Agertuaz)</hi></p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Zuek emen ta gu zai. Nere Joxepantoni txotxolotzen ari zait.</p>
+<p>-f-<hi rend='Bold'>ALARGUNA:</hi> Ementxen utzi gaitu zure etxekoandre orrek...</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Etxekoandre izena baezpada esango zenuen.</p>
+<p>-f-<hi rend='Bold'>ALARGUNA:</hi> Zerbait esateko eskubibea badedala uste det. Joxepa orrek natorren bakoitzean al duan guzia itxoin arazten dit.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Barkatu, ta ongi etorriak <hi rend='Italic'>(Gaiztakeriz)</hi>... biok.</p>
+<p>-f-<hi rend='Bold'>ALARGUNA:</hi> Bakoitza gere aldetik etorri gera. Ez uste.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Itsumustuan.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Biziaren gertaerak. Goazen lenbailen zai ditugu-ta. Donostiarrok etorri dira ta Jonixioren billa joan zaizkit. Ea guk zintzillik dauden zer nola asko tajutzen ditugun. <hi rend='Italic'>(Zerbaitetzaz oroiturik)</hi> a! Alkate jauna, Gobernadore arengana azaldu bearko dezu, baimen eske. Ta emakumezkoentzat ere lana badago.</p>
+<p>-f-<hi rend='Bold'>ALARGUNA:</hi> Gure neskatillak, or izango dira?</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Bada alditxo bat.</p>
+<p>-f-<hi rend='Bold'>ALARGUNA:</hi> Ez baididate itxoin. Etortzeko presa zuten.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Gazteak gazteekin nai.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Ni gazte tartean atsegi&ntilde;ena izaten naiz. Nunbait ber-gaztetu naizen ametsa... Goazen barren ortara.</p>
+<p>-f-<hi rend='Bold'>ALARGUNA:</hi> Sinisten det bai, bai, txokoan uzten gaituzula.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Ea lilluratu-ta neskatxa xamurren baten sarean erortzen ote zeran. Arriskoan zaude.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Onuzkero ez. Obe nuke gauza banendi.... <hi rend='Italic'>(Bijoaz)</hi></p>
+<p><hi rend='Bold'>IX. AGERRALDIA</hi></p>
+<p><hi rend='Italic'>Apaizgaia ta Sekretarioa.</hi></p>
+<p><hi rend='Italic'>(Erritan ta eztabaidan bezela sar bitez)</hi></p>
+<p>-f-<hi rend='Bold'>SEKRETARIOA:</hi> Ezetz esan dizut. Euskera, euskera atzerapena dala. Illunpea. Elizarako bakarrik duin dan izkera. Au jakintsu guziak esango dizute.</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Lojika aztu dezu zearo. Elizarako duin baldi bada beste edozein gauzetarako areago. Jesukristok esan baizuen: darraikidana ez dabil illunpean. Ergo, aren bidetik joan al izan ezkero beste guzietatik ere bai. Au argi ta garbi dago.</p>
+<p>-f-<hi rend='Bold'>SEKRETARIOA:</hi> Zurekin ez dago eztabaidan aritzerik. Itzetik ortzera Santo Tomas aitatu ezkero egi&ntilde;a dagola uste dezute. Geroztik munduan ezer gerta ez balitz bezela.</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Geroztiko gertaerak ez dute egin aren esanak ta beste Elizanaren esanak sendotu ta baietsi besterik.</p>
+<p>-f-<hi rend='Bold'>SEKRETARIOA:</hi> Ezer gutxi irakurri dezula ezagun da. Ez zenuen irakurriko Gerchonoff Errusiko pilosopo berria.</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Ez det ezagutzen. Ez da zuk ere Zinkunegik itzulitako <hi rend='Italic'>&laquo;Irizpidea&raquo;.</hi></p>
+<p>-f-<hi rend='Bold'>SEKRETARIOA:</hi> Zinkunegi?, italianoak ez zaizkit atsegin. Perosiren mezak aspertu naute.</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA: </hi><hi rend='Italic'>(Irritsu)</hi> Ez gauzarik nastu. Nork esan dizu Zinkunegi italianoa danik? <hi rend='Italic'>(Parrez)</hi> Geienaz etruskoa... ba&ntilde;an Ayan jaioa.</p>
+<p>-f-<hi rend='Bold'>SEKRETARIOA:</hi> Ayan?... Olandesak ere ez dira nere gogoak... Gaztak ezik.</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Ba, ba! aski degu. <hi rend='Italic'>(Ixillunea)</hi> Ta, euskal jaierako baimenik ba al degu edo ez?</p>
+<p>-f-<hi rend='Bold'>SEKRETARIOA:</hi> Oraintxe artzea egin degu Gobernadore jaunaren telefonema. Ez baiezkoa ta ez ezezkoa. Berarengana deitzen gaitu programa azaldu dezaiogun.</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Orduan jaia egingo da.</p>
+<p>-f-<hi rend='Bold'>SEKRETARIOA: </hi><foreign>&laquo;Magister dixit&raquo;.</foreign></p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Ez jauna ez. <foreign>&laquo;Vox populi&raquo;.</foreign></p>
+<p>-f-<hi rend='Bold'>SEKRETARIOA:</hi> Neregatik egin dedilla, lenbailen ga&ntilde;era! Jai koskor ori lan geiago ematen ari zait Nizako jaiak ba&ntilde;o.</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Alare gizona! Erria poztu bear degu. Onelako jaiak bearrezkoak izan oi dira urte askotako otztasuna berotzeko, gure lur maite au ongarritzeko. <hi rend='Italic'>(Maitekiro)</hi> Neska-mutillek ze&ntilde;en gogoz ikasten ari diran ikusiko bazenu. A! Orfeoia ere izango degu. Abestetutzea etorriko zera, ez da ala?</p>
+<p>-f-<hi rend='Bold'>SEKRETARIOA:</hi> Ni? ez dakit kantatzen gizona!</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Beinik bein aurreskuan bai, atera bearko dezu.</p>
+<p>-f-<hi rend='Bold'>SEKRETARIOA:</hi> Ezetz gizona! Dantza oriek ez baidakizkit.</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Aurreskuko sokan joatea oso erreza da, azari dantza besterik ez.</p>
+<p>-f-<hi rend='Bold'>SEKRETARIOA:</hi> Azariarena ezik artzarena egingo nuke.</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Bai zera. Ga&ntilde;era aurreskurako, neskatxarik egokienak, aukeratuak daude ta gizasemeak ere aien mallakoak bear ditugu. Nai ta nai ez zu tartean bear zaitugu.</p>
+<p>-f-<hi rend='Bold'>SEKRETARIOA:</hi> Be&ntilde;ere ez bainaiz aurreskuan atera izan.</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Oraingoan txanda datorkizu. Nexkatxarik geienak, Juanitak, Garatzik, itza eman dute. Geiago luzatu gabe barrura goazen. Berriz ere, &laquo;beti berandu&raquo;ren fama izango degu.</p>
+<p>-f-<hi rend='Bold'>SEKRETARIOA:</hi> Goazen, bai. Ta azari dantza, ze&ntilde;ek erakutsi nezake? Jaki&ntilde;a, ateratzen naizenean ez det &laquo;ridikuloa&raquo; egin nai.</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Neronek gizona. Oso erreza da. <hi rend='Italic'>(Iru edo lau karrera egin bitza)</hi> Ikusten? Bagoazke. <hi rend='Italic'>(Abituaz)</hi>.</p>
+<p>-f-<hi rend='Bold'>SEKRETARIOA: </hi><hi rend='Italic'>(Darraikiolarik)</hi> Ta pa&ntilde;ueloa, mutillak eske&ntilde;i bear izaten al du?</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Bai, ta erroskilla ta limonada. Orretzaz ere itzegingo degu. Ta zer derizkiotzu, jairik egingo al da?</p>
+<p>-f-<hi rend='Bold'>SEKRETARIOA:</hi> Bai gizona! <hi rend='Italic'>(Bijoaz)</hi>.</p>
+<p><hi rend='Bold'>X. AGERRALDIA</hi></p>
+<p><hi rend='Italic'>Joxepantoni ta Jonixio (Bertsolaria)</hi></p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI: </hi><hi rend='Italic'>(Atean)</hi> Sartu... ba&ntilde;an onelako zikin etorriko itzan ba? Zer esango duten ere.</p>
+<p>-f-<hi rend='Bold'>JONIXIO:</hi> Au ez den ezer. Ziki&ntilde;agoa ere ibilli izan naun. Lanetik nola etortzea nai den.</p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI:</hi> Ez zak jarri o&ntilde;ik alfonbran.</p>
+<p>-f-<hi rend='Bold'>JONIXIO:</hi> Gure etxekoak ez ditun zikintzen. Ez baidaude!</p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI:</hi> Ago emen. Ire billa plazaruntz irten dituk ta deitzera niak.</p>
+<p>-f-<hi rend='Bold'>JONIXIO:</hi> &laquo;Entrebitartean&raquo; eseri al niteke?</p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI:</hi> Jaun oriek beriala emen dituk. Ez alperra izan <hi rend='Italic'>(Abituaz)</hi></p>
+<p>-f-<hi rend='Bold'>JONIXIO:</hi> Ez zutik ta ez eserita, bada, ez niagoken besterik etzinda ala zintzillik.</p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI:</hi> Bertsotan atera zaik. Orrelako ateraldiak jaun oiei atsegin izaten zaizkiotek.</p>
+<p>-f-<hi rend='Bold'>JONIXIO:</hi> Ateratzeko sartu egin bear <hi rend='Italic'>(Jan zimikoa egi&ntilde;az)</hi> Ontatik ematen badute ariko natzaie. <hi rend='Italic'>(Diru ki&ntilde;ua egi&ntilde;az)</hi></p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI:</hi> Onelako jende nagusiak iretzaz galdetzeaz bakarrik, pozik bear uke. Ondra aundia ez badek-ba.</p>
+<p>-f-<hi rend='Bold'>JONIXIO:</hi> &laquo;Ondrakin&raquo; jango den.</p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI:</hi> Jangose ez bestena! Ez gero jaun oiei arrazoi txarrik eman.... <hi rend='Italic'>(Bijoa)</hi></p>
+<p><hi rend='Bold'>XI. AGERRALDIA</hi></p>
+<p><hi rend='Italic'>Jonixio bakarrik.</hi></p>
+<p>-f-<hi rend='Bold'>JONIXIO: </hi><hi rend='Italic'>(Alde guzietara begiraturik)</hi> Emen ba&ntilde;o gustoago Lukaxenean egongo ni&ntilde;uke. Jonixiorentzat sagardotegia leku obea baida... Ala ere, nagon, ez da au toki txarra. Emengo nagusiak lenago ere eskupeko ederra eman izan dit, eskuzabala da bera. Guzia Xenpelarreren bertso batzuek paratu nizkiolako. Ta itzneurtuetan asko ez badaki bada. Arrituta utzi nindun! <hi rend='Italic'>(Ixillunea)</hi> Donostitik nere billa etorri diran beste jaun oiek ez dira edozein izango... Kaletar oiek zer ote dabiltza?... Bertsotan onena nor dan jakin nairik edo... Atera bedi Euskal-Errin dan onena ta eguzkiaren azpian sortu dan trebeena ta Jonixiok zer erantzun jakingo du. Ori bai euskera garbiz egin ezkero, bestela alperrik ari dira. Bein ola, Bizkai aldera eraman ninduten ta &laquo;Enbeitia&raquo; edo esaten dioten bat lagun jarri zidaten. Ura ez zan bertsotan egitea... Olerkia edo Lerdia! Utsa! Ura besterik edaten ez duan gizona bertsolari?</p>
+<p><hi rend='Bold'>XII. AGERRALDIA</hi></p>
+<p><hi rend='Italic'>Lengoa ta Meltxor, Kaspar ta Baldaxar.</hi></p>
+<p>-f-<hi rend='Bold'>MELTXOR: </hi><hi rend='Italic'>(Lengoak sartuaz)</hi> Emen zegok. Etorri zerala, e?</p>
+<p>-f-<hi rend='Bold'>JONIXIO:</hi> Booo!</p>
+<p>-f-<hi rend='Bold'>BALDAXAR:</hi> Kaxo zera?</p>
+<p>-f-<hi rend='Bold'>KASPAR:</hi> Egun on olerkari!</p>
+<p>-f-<hi rend='Bold'>JONIXIO:</hi> Ez jauna ez, Jonixio naiz, ta ez izenez &laquo;Upel&raquo;.</p>
+<p>-f-<hi rend='Bold'>BALDAXAR:</hi> Bai gizona, Jonixio. Urteak dira ezagutzen zaitugula.</p>
+<p>-f-<hi rend='Bold'>JONIXIO:</hi> Beste lagintzan ibilli oi gera geienean, itzaigoan, ta i&ntilde;oiz bertsotan ere bai.</p>
+<p>-f-<hi rend='Bold'>MELTXOR:</hi> Orretarako bear zaitugu bada. Emen egingo diran euskal jaietan bertso jardun aldia egin nai dezun galdetzera, gentozen.</p>
+<p>-f-<hi rend='Bold'>BALDAXAR: </hi><hi rend='Italic'>(Bizkarrean joaz)</hi> Jonixio, zuk dakizun bezela.</p>
+<p>-f-<hi rend='Bold'>KASPAR:</hi> Ori, ori, ekin beti aberria gaizkatzeko...</p>
+<p>-f-<hi rend='Bold'>JONIXIO:</hi> Gaizkitu? <hi rend='Italic'>(Albora)</hi> Au oraindik euskeraz ondo ikasi bagea degu.</p>
+<p>-f-<hi rend='Bold'>BALDAXAR:</hi> Ixilik zaude! euskeraz ondoena dakina da-ta. Laister &laquo;euskaltzain&raquo; egingo ote duten.</p>
+<p>-f-<hi rend='Bold'>JONIXIO:</hi> Ni aspaldi &laquo;itzai&raquo; naiz.</p>
+<p>-f-<hi rend='Bold'>BALDAXAR:</hi> Ta ni &laquo;akullu&raquo;.</p>
+<p>-f-<hi rend='Bold'>MELTXOR:</hi> Bada, adiskide, egun orretan bertsolari gudua edo jarri nai genuke. Bi alditan. Bata bazkari garaiean ta bestea berriz enparantzan arratsaldeko jaiean.</p>
+<p>-f-<hi rend='Bold'>JONIXIO:</hi> Ta zera... zein izango det <foreign>&laquo;amigo?&raquo;</foreign></p>
+<p>-f-<hi rend='Bold'>KASPAR: </hi><hi rend='Italic'>(Albora)</hi> Au astakillo bat da! Ori euskera. Lotsa bat da.</p>
+<p>-f-<hi rend='Bold'>MELTXOR:</hi> Beste batzuen artean zurekin jarduteko Enbeita otsaundikoa ekarriko degu.</p>
+<p>-f-<hi rend='Bold'>JONIXIO:</hi> Enbeitia?... bildur gutxi Txirritarekin ere indarrak neurtzeko. Enbeitia orrek eztarria du pi&ntilde;a, ga&ntilde;antzean, bertsolaria? ez izan nunbait berezkoa.</p>
+<p>-f-<hi rend='Bold'>KASPAR: </hi><hi rend='Italic'>(Asarre bizian)</hi> Ixilik zaude biraorik jaurti gabe!</p>
+<p>-f-<hi rend='Bold'>JONIXIO:</hi> Gezurra da. Idiekin nabillelarik itz txarren bat edo beste botatzen degu, ba&ntilde;an bestela bertsoetan....</p>
+<p>-f-<hi rend='Bold'>BALDAXAR: </hi><hi rend='Italic'>(Sutsu)</hi> Enbeita a&ntilde;akorik ez da egunda&ntilde;o sortu. Zer ari zera zu esaten!</p>
+<p>-f-<hi rend='Bold'>JONIXIO: </hi><hi rend='Italic'>(Lasa)</hi> Sakarragoa naizela, konprome. Ez diot amor emango. Ark eskola izango du obea, ez asnasa. Ta sari ona baldin badago...</p>
+<p>-f-<hi rend='Bold'>BALDAXAR:</hi> Ori egun artan ikusi bear. Zure lana ongi betetzen badezu saria ere neurrian izango da.</p>
+<p>-f-<hi rend='Bold'>JONIXIO:</hi> Alegi&ntilde;ak egingo ditugu.</p>
+<p>-f-<hi rend='Bold'>BALDAXAR: </hi><hi rend='Italic'>(Belarrira)</hi> Ea neskatxa erderazaleak zirikatzen dituzun. Gogor gero!</p>
+<p>-f-<hi rend='Bold'>JONIXIO:</hi> Zu ez zera bada &laquo;akullu&raquo;? Ajola gutxi neskatxai Jonixio arlotearen esanagatik. Amoriorik ez lekarkien itza, amotza da neskatxentzat.</p>
+<p>-f-<hi rend='Bold'>MELTXOR:</hi> Ez dago gaizki esana. Bertsoetan ez ezik pilisopokerian ere badakizu Jonixio.</p>
+<p>-f-<hi rend='Bold'>JONIXIO:</hi> Bertsolariak guzitatik jakin bear du, idiek gobernatzen ta gizonak ezagutzen.</p>
+<p>-f-<hi rend='Bold'>BALDAXAR:</hi> Ta emakumezkoak?</p>
+<p>-f-<hi rend='Bold'>JONIXIO:</hi> Ez da jaio egunda&ntilde;o emakumea eziko duanik...</p>
+<p>-f-<hi rend='Bold'>BALDAXAR:</hi> Bota bear dizkietzu bada ederrak.</p>
+<p>-f-<hi rend='Bold'>JONIXIO:</hi> Alperrik, aiek gizaseme galaiari belarriak ernai... <hi rend='Italic'>(Jonixio ta Baldaxarrek alkarrizketan darraite)</hi></p>
+<p>-f-<hi rend='Bold'>MELTXOR: </hi><hi rend='Italic'>(Kasparrekin izbidean)</hi> Etxenagusiak liburutegi ederra du, e? Ez dira beste bi izango Euskalerri guzian.</p>
+<p>-f-<hi rend='Bold'>KASPAR:</hi> Bai, bai bika&ntilde;a. Alare, paper zarrak ondo zeudek, ba&ntilde;an, egintzak, egintzak nik naiago. Gure auzia kalera atera bear diagu.</p>
+<p>-f-<hi rend='Bold'>MELTXOR:</hi> Oraingoan gizona sutu diagu ta ez dek ezer gutxi. Jai aundiak ikustekoak gaituk.</p>
+<p>-f-<hi rend='Bold'>KASPAR:</hi> Azkenengo orduan eragozpenen bat jartzen ez badute.</p>
+<p>-f-<hi rend='Bold'>MELTXOR:</hi> Onuzkero ez. Alkate ta sekretarioak zer esan duten aitu dek.</p>
+<p>-f-<hi rend='Bold'>KASPAR:</hi> Obe, obe <hi rend='Italic'>(Barrendik datozen par-zantzo ta abotsak entzun bitez)</hi> Billerakoak onuntz zetozek <hi rend='Italic'>(Atera begira jarriaz)</hi>.</p>
+<p><hi rend='Bold'>XIII. AGERRALDIA</hi></p>
+<p><hi rend='Italic'>Lengoak ta Alarguna, Garatzi, Maistra ta Migel; geroxeago Alkatea, Etxenagusia, Sekretario ta Apaizgaia.</hi></p>
+<p><hi rend='Italic'>(Bertan zeudenak ta etorri berriak agurtuaz)</hi></p>
+<p>-f-<hi rend='Bold'>MELTXOR:</hi> Ba al zoazte dagoanerako?</p>
+<p>-f-<hi rend='Bold'>MAISTRA: </hi>Ez bada. Erabaki batzuek artu ditugu ta orain nai badezute eskola ikusiko degu ea toki ona iruditzen zaizuten.</p>
+<p>-f-<hi rend='Bold'>KASPAR:</hi> Ori zure eskura uzten degu.</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Zuek ikustea obe da.</p>
+<p>-f-<hi rend='Bold'>MELTXOR:</hi> Joango gara bada.</p>
+<p>-f-<hi rend='Bold'>ALARGUNA:</hi> Lan ederra jarri diguzute orrenbeste galtza txuri josi bearrez.</p>
+<p>-f-<hi rend='Bold'>MELTXOR:</hi> Errukizko egintza da lagun-urkoa jaztea...</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Ez ordea dantzariz. Ez bada beste eragozpenik sortzen ta egun artan eguraldi ona egingo baligu.</p>
+<p><hi rend='Italic'>(Beste taldetxoan Alkatea, Etxenagusia, Sekretario ta Apaizgaia ager bitez)</hi>.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Nai ta nai ez, alkate jauna, aurreskuan atera bearko dezu.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Ezetz gizona! ez naiz dantzarako gauza. Nere ordez sekretarioa aterako da.</p>
+<p>-f-<hi rend='Bold'>SEKRETARIOA:</hi> Alkate jauna!... nai duan bezela ba&ntilde;an...</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Bai, bai. Nik dantzan erakutziko diot.</p>
+<p>-f-<hi rend='Bold'>JONIXIO: </hi><hi rend='Italic'>(Baldaxarreri)</hi> Au da jendez. Eztaiak al dira?</p>
+<p>-f-<hi rend='Bold'>BALDAXAR:</hi> Ja, ja, ja! <hi rend='Italic'>(Beste guziai)</hi> Onek etxe ontan eztaiak diran galdetzen du. <hi rend='Italic'>(Geienak parra dagite)</hi>.</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Ze&ntilde;ek daki, ze&ntilde;ek.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Jonixio bertsolariaren ateraldiak.</p>
+<p>-f-<hi rend='Bold'>ALARGUNA: </hi><hi rend='Italic'>(Jonixiorengatik)</hi> Ori da bertsolaria, e?</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Ori ezagutzen det. <hi rend='Italic'>(Maistrari)</hi> Idiekin ibiltzen dana.</p>
+<p>-f-<hi rend='Bold'>MAISTRA:</hi> Bai, bada. Bertsolaria ta itzaia. <hi rend='Italic'>(Jonixiori)</hi> Ez al da onela Jonixio?</p>
+<p>-f-<hi rend='Bold'>JONIXIO:</hi> Bai andrea. Maistrak ondoena nere berri daki <hi rend='Italic'>(Orok bertsolariari begira)</hi>.</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Emen degu eskola gabeko <foreign>&laquo;rapsoda&raquo;. </foreign>&laquo;A&raquo; ezagutzen ez daki ta milla kondaira itz neurtuetan esaten bai.</p>
+<p>-f-<hi rend='Bold'>SEKRETARIOA:</hi> Ardoaren jakituria.</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Anakreonteren motakoa da.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA: </hi><hi rend='Italic'>(Jonixiori)</hi> Gazte oriek esango zizuten euskal jaierako zere burua gertu bear dezula.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Ta eztarria.</p>
+<p>-f-<hi rend='Bold'>JONIXIO:</hi> Bai jauna, bai.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Ea saria zuretzako dan.</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Orretarako kontuz ibilli bear dezu zurrutarekin.</p>
+<p>-f-<hi rend='Bold'>JONIXIO:</hi> Bearko mediku jauna, i&ntilde;ork konbidatzen ez du-ta.</p>
+<p>-f-<hi rend='Bold'>GARATZI: </hi><hi rend='Italic'>(Maistrari)</hi> Ta bertsolariak, aurretik ikasi gabe, nola asmatzen dituzte ainbeste bertso?</p>
+<p>-f-<hi rend='Bold'>MAISTRA: </hi>Etorria izan-ta.</p>
+<p>-f-<hi rend='Bold'>ALARGUNA:</hi> Berez bear.</p>
+<p>-f-<hi rend='Bold'>BALDAXAR: </hi><hi rend='Italic'>(Jonixiori)</hi> Zuri begira andre guziak. Gizonaren suertea!</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA: </hi><hi rend='Italic'>(Sekretariori)</hi> Grezian ere onelakoak baziran: Tartezio-ta...</p>
+<p>-f-<hi rend='Bold'>SEKRETARIOA:</hi> Zaude ixilik gizona! Au geinaz &laquo;Beozikoa&raquo; izango zan. <hi rend='Italic'>(Jonixiori)</hi> Nungotarra zera Jonixio?</p>
+<p>-f-<hi rend='Bold'>JONIXIO:</hi> Bedaiokoa. <hi rend='Italic'>(Sekretarioa ta Apaizgaia ke&ntilde;uak egin bitzate)</hi>.</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Ez diot be&ntilde;ere bertsolari oni, entzun. Orain kantatu nai balu pozik entzungo nioke.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA: </hi><hi rend='Italic'>(Jonixiori)</hi> Jonixio, neskatil auek zer nai duten aditu dezu, ea zerbait abestutzen diguzun.</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA: </hi><hi rend='Italic'>(Andreai)</hi> Zuek iru musak zerate.</p>
+<p>-f-<hi rend='Bold'>BALDAXAR: </hi><hi rend='Italic'>(Jonoxiori)</hi> Musa aitatzen dute emen, Jonixio.</p>
+<p>-f-<hi rend='Bold'>JONIXIO: </hi><hi rend='Italic'>(Uzkur egi&ntilde;az ta buruko illea azkuretuaz)</hi> Musean, eskutik ogeitamaika jokuan duanak ark irabazi.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Zu zera esku. Jo zazu ordago, joan ba&ntilde;o len.</p>
+<p>-f-<hi rend='Bold'>MELTXOR:</hi> Alkate jaunak agintzen dizu, ez dezu ukatzerik.</p>
+<p>-f-<hi rend='Bold'>JONIXIO: </hi><hi rend='Italic'>(Txapel muturrari eutziaz)</hi> Ez baizait ezer bururatzen.</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Bai gizona! Zortziko aundia edo amaika puntuko bat.</p>
+<p>-f-<hi rend='Bold'>SEKRETARIOA:</hi> Amaika txoro! <hi rend='Italic'>(Beatza bekokira eramanez)</hi></p>
+<p><hi rend='Italic'>(Jonixio burua pizka bat jasoaz zerbait azmatzen bezela ariko da)</hi>.</p>
+<p>-f-<hi rend='Bold'>MAISTRA: </hi>Astera dijoa.</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Bota, bota!</p>
+<p>-f-<hi rend='Bold'>ALKATEA: </hi><hi rend='Italic'>(Izketan ari diran apaizgai, sekretario ta ga&ntilde;ekoai)</hi> Ixo!</p>
+<p>-f-<hi rend='Bold'>JONIXIO: </hi><hi rend='Italic'>(&laquo;Erriko Festan biaramunean&raquo; eresi berean abestu beza)</hi>.</p>
+<p>Euskal jaiaren aurre-egunean</p>
+<p>Berak dakiten txoko batean</p>
+<p>Bi neskatx andre alargun bat</p>
+<p>Alkate, nausi ta sei gazte tartean</p>
+<p>Nork daki au nola bukatuko dan</p>
+<p>Bat ez bada bizpairu eskontzan.</p>
+<p><hi rend='Italic'>(Txalo jotze, algara ta beste par-zantzo gora ta abar)</hi>.</p>
+<p>OIALA</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>IRUGARREN EKITALDIA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Italic'>(Alkatearen etxea. Euskal jaiaren eguna da).</hi></p>
+<p><hi rend='Bold'>I. AGERRALDIA</hi></p>
+<p><hi rend='Italic'>Alkatea ta Etxenagusia.</hi></p>
+<p><hi rend='Italic'>(Biok meza nagusira joateko gertu. Alkatea agintari jantzian, &laquo;ginbail-luze&raquo;, zigor ta guzi)</hi>.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Oso ondo arkitzen zaitut; begiak alaiago, ibilleran arin, zearo gaztetuta, gaztetuta.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Apainduta esan naiko dezu. Gaztetuta? Egia esateko obeto nago zuri eskerrak.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Neri? Ez gizona, bakoitzak norberaren mediku izaten ikasi ez badu ez daki ezer.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Nik, zuk jarritako jan legeari jarraitzen diot ta txoria bezela nago. Amar kilo pixuan galdu ditut.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Ta osasunean 10 malla irabazi noski.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Apari-bazkari ta etxetik kanpoko otordu guziak utzi ditut; ez amarretako, ez meriendarik, ez jate ta ez edate.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Ederki, ederki, asko postutzen naiz. Ori da osasun bidea.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Ta ez det ezertarako astirik atxitzen. Lenago, goizean amaiketakoaren zai ta arratsaldean bosteterdiak noiz ziran begira egoten nintzan beti. Orain, zorioneko Euskal-Jai au dala-ta, ez naiz gelditu il guzian. Bein Donostira; urrena Errenderiko txistulariekin itzegitera. Enbeitaren etxean ere izan gi&ntilde;an; Gernikako onduan bizi da. Bertsolariak dirala, dantzariak, baita palankariak ere. Atzetik ibilli natzaie; ba&ntilde;an diruzaleagoak dira palankalariak.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Dirua omnen da munduaren palanka-ta <hi rend='Italic'>(Irritsu.)</hi></p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Esaten dizut: ez naiz gelditu bizpairu aste oietan.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Badakit. Ori bear zenuen sendatzeko ta zure biziari elburu bat ematearren. Zorionak! Lana asko ta tajuz egin dezute ta gaurko jaiak aztuezi&ntilde;ak izango diralakoan nago. Bart arratseko aur-jaia gauza samurra izan zan, malkoak ixurtzera&ntilde;okoa.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Bai gizona. Ez bazuten neska-mutiiak eginbearra ondo bete bada... Dotri&ntilde;a, edozein gauza euskeraz irakurtzea. Esaten dizut: lotsatua egon nintzan. Aien erdirik ez dakit.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Ez baiziguten era ontan erakutsi. Ez genuen izan Juanita bezelako maistrarik. Garai artan eskolara zerbait ikastera joan, ta adimena argitu bearrean ate ta leioak itxitzen zizkiguten euskera galeraziaz.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Ori esan. Ta orain ez dakigu nik be&ntilde;ik-bein bear bezela, ez erderarik ta ez euskerarik. Ara <hi rend='Italic'>(Sakeletik ingitxo bat ateriaz)</hi> gaur itzalditxo bat, Gibelalde jaio zan etxe aurrean, egin bear det ta emen ixkribitua daukat. Ondo dagon ala ez esan bear didazu. Guk ez baidegu euskera liburutan ikasi. <hi rend='Italic'>(Etxenagusiari eman bezaio.)</hi></p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA: </hi><hi rend='Italic'>(Atsegi&ntilde;ez)</hi> Gizona! onela, onela! <hi rend='Italic'>(Ixil irakuriaz)</hi> Oso poliki. <hi rend='Italic'>(Buruarekin oniritzirik)</hi> Txukun ta garbi... Gure erretoreak ba&ntilde;o obeki.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Ura ba&ntilde;o gutxiago ez naizela agertu nai nuke.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA: </hi><hi rend='Italic'>(Jarraiturik)</hi> Ongi, ongi.... <hi rend='Italic'>(Irakurriaz)</hi> Aberria... aberria ere bai?</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Badakizu, alabak ere zerbait lagundu dit. Ta itzen bat ez genekigunean, Lopez Mendizabaleren iztegira begiratu degu...</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA: </hi><hi rend='Italic'>(Pozez)</hi> Aita-alabak beraz? Ondo da ori. <hi rend='Italic'>(Berriro irakurriaz)</hi>... <hi rend='Italic'>(Geldituaz)</hi> Barkatu, ba&ntilde;an emen ondo ez dagon esaera bat ipi&ntilde;i dezute <hi rend='Italic'>(Alkatea, zerik ote dan ikustea urbilduaz)</hi> Ona, emen. Ez da esan bear &laquo;itz bi Gibelalde ga&ntilde;ean&raquo;.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Gibelalde nai ta naiez aitatu bear det bada.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Aitatu bai. Gibelaldetzaz itz bi esan bai, ba&ntilde;an ez &laquo;ga&ntilde;ean&raquo; <hi rend='Italic'>(Irritsu)</hi>. Zapalduko zenuke. Ga&ntilde;ean ez, &laquo;tzaz&raquo; baizik. Aditzen?</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Baita, baita. <hi rend='Italic'>(Lapitza atera ta zuzenduaz)</hi> Zuzendu det. Au besterik ez bada. Eskerrik asko!</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA: </hi><hi rend='Italic'>(Ingitxoa itzuliaz)</hi> Ga&ntilde;eantzean itzaldi ori oso egoki dago. Zorionak <hi rend='Italic'>(Su-zirien otsa entzun bedi: pun, pun pun)</hi>.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Laister joateko garaia degu-ta, beste zerbait esan nai nitzuke.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Bi belarriak zabalik ditut.</p>
+<p>-f-<hi rend='Bold'>ALKATEA: </hi><hi rend='Italic'>(Zalantzan)</hi> Onuzkero zerbait badakizu.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Batere. Ez dakit zertan ari zeran.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Bada... zera... Alargunarekin ezkontzen naizela.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA: </hi><hi rend='Italic'>(Arrituta)</hi> E? Alargunarekin ezkondu? Au da berri ona! Ez nekien ezer! <hi rend='Italic'>(Eskua eske&ntilde;iaz)</hi> Bosteko ori! <hi rend='Italic'>(Su-ziria aundi baten otsa entzun bedi)</hi> &laquo;Etxefuegoak&raquo; egin du eztanda. Zure omenez.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Zer derizkiotzu?</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Oso ederki egiten dezula.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Beraz, ez zenekien ezer?</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Ez da itz erdi bat ere. Ta nere Joxepak nola berri eman ez didan arritzekoa da. Ixilik ibilli zerate.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Ixilik ibiltzea obe; ez gera mutil koskorak-ta. Ba&ntilde;an, benetan, ondo egitea dedala uste al dezu? Badakizu, alarguna nengon...</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Ederki! Alarguna alargunarekin. Bestela, andre alarguna, ederra, ta diruduna... beti da arrixko aundia mutilzarrentzat; mutilzar bizitzeko jaio geranorentzat.</p>
+<p>-f-<hi rend='Bold'>ALKATEA: </hi><hi rend='Italic'>(Parrez)</hi> ja!, ja! ja! Nik onuzkero pausoa eman det ta aurrera!</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Geroago ez dezu izango sasoi oberik.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Ez zuk ere.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Nereak egin zuan.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Ori orrela dala, alabarekin izan det naigabe aundia. Nere ateraldia ez zaio ondo iruditu, noski. Negarrez asi zitzaidan ta egun oietan ez da atsegin etxe ontan.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Egun batzuetako asarrea. Jaki&ntilde;a, zure alaba emakumetxo bat egi&ntilde;a dago ta aitak orrelako ateraldia egiteak... Ba&ntilde;an ezaguera aundia du ta oitzen joango da.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Zeorrek itz batzuek esango balitzaioke. Begirapen aundia dizu ta... <hi rend='Italic'>(Txintxarri otsa entzun bedi.)</hi></p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Zartu bainaiz. Ori ere egingo dizugu gizona.</p>
+<p>-f-<hi rend='Bold'>ALKATEA: </hi><hi rend='Italic'>(Barruan izketan ari dirala entzunik)</hi> Sekretarioa dala uste det. Aren abotsa da... Eskerrik asko ta gero itzegingo degu.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Laister udaletxea joateko garaia degu.</p>
+<p><hi rend='Bold'>II. AGERRALDIA</hi></p>
+<p><hi rend='Italic'>Lengoak ta Sekretarioa.</hi></p>
+<p>-f-<hi rend='Bold'>SEKRETARIOA: </hi><hi rend='Italic'>(Atetik)</hi> Zuen baimenaz?</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Aurrera!</p>
+<p>-f-<hi rend='Bold'>SEKRETARIOA:</hi> Egun on jaunak.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Baita zuri ere.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Zer zabiltza? Ez zi&ntilde;an Ayuntamentuan egotekoa gu joan arte?</p>
+<p>-f-<hi rend='Bold'>SEKRETARIOA: </hi><hi rend='Italic'>(Goibel antzean)</hi> Bai ba&ntilde;an Gobernadoreak telefonema au bidali du... <hi rend='Italic'>(Sakeletik atera-ta emanez)</hi> Ez dakit gaurko jaia... Irakurri zazu, irakurri.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> E! <hi rend='Italic'>(Irakurriaz) <foreign>&laquo;Imposible acudir fiesta suspenda. Haga caso&raquo;. </foreign>(Asarre ta arrituta, Sekretarioari)</hi> Ez diteke gizona! Atzo azkenekoz Gobernadorearekin itzegin bainuen!</p>
+<p>-f-<hi rend='Bold'>SEKRETARIOA:</hi> Telefonema garbi dago: <foreign>&laquo;suspenda fiesta&raquo;.</foreign></p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Galerazi? <hi rend='Italic'>(Sutsu)</hi> Erri guzia jendez betea dagoenean, bazkaria bosteunentzat gertu ta gero; galerazi pake ta alaitasunezko jai au. Ez! Eragozpen guzien ga&ntilde;etik jaia egingo da.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Ori da gizona ori! Zalameako alkatea dirudizu. Ta zure itzaldi polita entzungo degu.</p>
+<p>-f-<hi rend='Bold'>SEKRETARIOA: </hi><hi rend='Italic'>(Etxenagusiari erakutsiaz)</hi> Telefonema garbi jarria dago: <foreign>&laquo;Aga caso&raquo;</foreign>.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Ba&ntilde;an gizona &laquo;aga&raquo; &laquo;hatxe&raquo;rik gabe dago-ta.</p>
+<p>-f-<hi rend='Bold'>SEKRETARIOA:</hi> H. telefonoko arian geldituko zan.</p>
+<p>-f-<hi rend='Bold'>ALKATEA: </hi><hi rend='Italic'>(Telefonema eskuetan arturik)</hi> Ta noiz iritxi da telefonema au?</p>
+<p>-f-<hi rend='Bold'>SEKRETARIOA:</hi> Arestian! Baezpada kalegarbitzalleari, &laquo;etxefuegoak&raquo; botatzez usteko esan diot.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Zein zera ezer agintzeko?</p>
+<p>-f-<hi rend='Bold'>SEKRETARIOA:</hi> Obe bearrez egin det.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Beriala telefonora noa <foreign>&laquo;Gobierno Civil&raquo;</foreign>erekin itzegitea.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Lagunduko dizut.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Goazen bada. Ez degu astirik galtzerik.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Bai, bai. Zirt edo zart egiteko garaia da. <hi rend='Italic'>(Abituaz)</hi></p>
+<p>-f-<hi rend='Bold'>ALKATEA: </hi><hi rend='Italic'>(Atetik sekretarioari)</hi> Geldi zaite emen. Ostera laister gera. <hi rend='Italic'>(Bijoaz)</hi></p>
+<p>-f-<hi rend='Bold'>SEKRETARIOA:</hi> Bai jauna.</p>
+<p><hi rend='Bold'>III. AGERRALDIA</hi></p>
+<p><hi rend='Italic'>Sekretarioa bakarik.</hi></p>
+<p>-f-<hi rend='Bold'>SEKRETARIOA:</hi> Zer gertatu bear ote du emen?... Ajola gutxi!... <hi rend='Italic'>(Ixillunea)</hi> Garatzi onuntz etorriko balitz? Bai etorriko da. Gizalegea ondo daki ta etxekoa ez dan bat, bakarrik nola utziko du bada? Egokiera oni ez badiot eltzen, berriz, ez naiz berarenganako maitasuna izateko di&ntilde;a. Zer gerta ere gaur esan bear diot. Bai orixe! Bigar, apika, berandu izango litzake-ta. Ga&ntilde;era, aita ezkontzen zaion orrekin, erritik alde egiteko irrikitzen izan bear. Orretarako norbait bear; ta norbait ori ni naiz.</p>
+<p><hi rend='Bold'>IV. AGERRALDIA</hi></p>
+<p><hi rend='Italic'>Sekretarioa ta Garatzi.</hi></p>
+<p>-f-<hi rend='Bold'>GARATZI: </hi><hi rend='Italic'>(Sartuaz)</hi> Bakarrik utzi al zaituzte?</p>
+<p>-f-<hi rend='Bold'>SEKRETARIOA: </hi><hi rend='Italic'>(Pixka bat izuturik)</hi> Bai andrea... bai se&ntilde;orita... ba&ntilde;an zu sartu zeran ezkero ez ain bakarrik.</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Noski, ez dezu burua asko nekatu ori asmatzeko. <hi rend='Italic'>(Ixillunea)</hi> Zer gertatu da gaurko jaia galerazteko? Egia al da?</p>
+<p>-f-<hi rend='Bold'>SEKRETARIOA:</hi> Bai, bai. Gobernadorearen agindua da.</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Zuri ajola aundirik ez dizula dirudi.</p>
+<p>-f-<hi rend='Bold'>SEKRETARIOA:</hi> Naigabe izugarri baten pean nago. Ez baizaitut ikusiko aurreskuan ateratzen.</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Ez da oso naigabe aundia.</p>
+<p>-f-<hi rend='Bold'>SEKRETARIOA:</hi> Zu aurrean egoteak naigabea aztu arazten dit. Ordain ederra.</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Eskerrik asko. Oso itz leuna zaude.</p>
+<p>-f-<hi rend='Bold'>SEKRETARIOA:</hi> Ez zuk merezi dezun a&ntilde;akoa.</p>
+<p>-f-<hi rend='Bold'>GARATZI: </hi><hi rend='Italic'>(Legor)</hi> Zu alkatearen alabarekin izketan ari al zera?</p>
+<p>-f-<hi rend='Bold'>SEKRETARIOA:</hi> Bai, alkate ta nere nagusi onaren alaba bika&ntilde;arekin.</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Ez dira koipejarioak nere gogokoak.</p>
+<p>-f-<hi rend='Bold'>SEKRETARIOA:</hi> Ori ez; ez zaitut zurikatu nai izan. I&ntilde;olaz ez.</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Orduan itzegin zazu adiskide batekin bezela ta ez...</p>
+<p>-f-<hi rend='Bold'>SEKRETARIOA:</hi> Eskerrik asko adiskidetzat artzen nazulako. Ez nintzan orrenbestera&ntilde;o ausartzen. Badakit naigabe aundi baten pean zaudela. Aita aita izaten da...</p>
+<p>-f-<hi rend='Bold'>GARATZI: </hi><hi rend='Italic'>(Ben)</hi> Nere aitaren kontuak pakean utzi itzazu.</p>
+<p>-f-<hi rend='Bold'>SEKRETARIOA:</hi> Barkatu... aspaldidanik ezagutzen gera ta onirizten badiozu nere bizia eskeintzen dizut...</p>
+<p>-f-<hi rend='Bold'>GARATZI: </hi><hi rend='Italic'>(Zakar)</hi> Geiegi ausartu zerala uzte det. Ori ez da adiskide izatea.</p>
+<p>-f-<hi rend='Bold'>SEKRETARIOA: </hi><hi rend='Italic'>(Lurrera begiratuaz)</hi> Gaizki esanak barkatu, ba&ntilde;an ezin nengokean barruko argurioa azaldu gabe...</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Bada, gorde dezazuke beste batentzat. Naikoa degu. <hi rend='Italic'>(Automobil-ots, pilarmonika ta txistuaren so&ntilde;ua, deadarrak ta abar entzun bitez)</hi> Aditzen? Plazara jende asko etorria izan bear du automobilletan. Ikus itzagun! Goazen atzeko balkoira!</p>
+<p>-f-<hi rend='Bold'>SEKRETARIOA:</hi> Ez det ezer aditzen, ez ezer ikusten. Zertara datoz? Ez baida jairik izango.</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Jende txea etortzen asi dan ezkero jaien bat izango da. <hi rend='Italic'>(Abituaz)</hi>.</p>
+<p>-f-<hi rend='Bold'>SEKRETARIOA:</hi> Ez dit erantzun... ba&ntilde;an antza eman diot ez duala nerekin ezer nai <hi rend='Italic'>(Mindua)</hi> Gaur ez da jairik neretzat! <hi rend='Italic'>(Bijoaz)</hi>.</p>
+<p><hi rend='Bold'>V. AGERRALDIA</hi></p>
+<p><hi rend='Italic'>Apaizgaia ta, Migel (Medikua)</hi></p>
+<p>-f- <hi rend='Italic'>(Sartuaz)</hi> Bart oso poliki atera zan jaia. Pozik nago. Ez nuen uste nere antzerkitxoa ain ondo antzeztuko zutenik.</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Oso egoki egin zuten. Guziok pozik atera ziran ta ostera ikusteko gogoz.</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Juanita maistrak aurrak ederki gertu dituala, bestela, gauza gutxi da nere komeritxoa.</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Ez, ez, ortan iaioa zera.</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Zure nexka-mutil taldea ez zan atzean gelditu bada, kristau-Ikasbidearen azterketan. Aiek bezela euskeraz Dotri&ntilde;a jakitea nai nuke.</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Neroni ere arritua nago. Ori bikario jaunak nai ez zuala. Dotri&ntilde;a zarra aurrentzat gaitza dala ta berria erakutsi bear zaietela-ta. Nik ez dakit zenbat aitzeki geiago. Gure On Justo setatiagoa degu. Ez ari gauza berririk eman obea baldin bada ere. Ze&ntilde;en ederki ikasi duten ikusi da. Ez bakarrik itzez-itz, zer esaten duten ulertuaz baizik. Naita ere ezin erakutsi izango nieke &laquo;Todopoderosoa, Prinzipioa, Fi&ntilde;a&raquo; ta antzeko motrollokeriak.</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Nere adiskide &laquo;errepublikano&raquo; batek ala esan oi dit: Euskal-erriko apaizentzat, urtetan urtetan dotrina zar trakets ta baldar ori erakustea lotsa aundi bat izan dala.</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Ta arrazoi aundia du. Zenbait apaizek atzo ikusi zutenean Kristau Ikasbide berria dala errez ta garbiena aurrentzat. Ta zer esanik ez dago Jaungoikoaren itzal ta aunditasunari dagokiona. Zarra berriz...</p>
+<p>-f-<hi rend='Bold'>MIGEL: </hi><foreign>&laquo;Sylabus&raquo;</foreign>en obeto izango litzake Leizarragaren &laquo;Testamentu Berriaren&raquo; ondoan. Eliz amak galerazitako euskal liburu bakarretako au baida.</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Ez det orrenbeste esaten, ba&ntilde;an gero ta toki geiago berriari egin bear zaiola bai: kristau ta euskaldun geran aldetik.</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Kaskagogor batzuentzat alperrik esatea izango da.</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Ez uste, zerbait aurreratzen bagoaz, Atzo, Gazteizko &laquo;magistrala&raquo; Mu&ntilde;agorri jauna an zan ta zorionak eman zizkidan. Gazteizera itzul dedinean Obispo jaunari esango diola ziur nago. Gizon azkarra da. Ikusiko dezu gaur zer itzalditxoa egingo digun.</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Aditzera badet bai. Gaur beinik bein jaia ondo irten dedilla ta gero gerokoak. Eguraldia ere ederra degu.</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Jendea erruz dator! Arestian eldu diran autokar biak ikusiko zenitun, beko plazaruntz artu dute.</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Ez ditut ikusi. Nun ote dira alkate ta Etxenagusia? Emen ez arkitzeak arritu nau.</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Norbaiten billa apika.</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Laister Udal-etxera joateko garaia. <hi rend='Italic'>(Erelojuari begiratuaz)</hi> Amarrak laurden gutxigo.</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Nik ere sakristira joan bearko det elizbirako gertutzea.</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Emen ez degu ezer egiten. Goazen plazara zer jende dabillen ikustera.</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Onuntz ere norbaitzuek badatoz, <hi rend='Italic'>(Abots ta algarak entzun bitez)</hi>.</p>
+<p><hi rend='Bold'>VI. AGERRALDIA</hi></p>
+<p><hi rend='Italic'>Lengoak, Meltxor, Kaspar ta Baldaxar.</hi></p>
+<p><hi rend='Italic'>(Azkeneko au makutsik, espartzin zuri, zudur-zapi gorria lepoan jai antzean)</hi>.</p>
+<p>-f-<hi rend='Bold'>BALDAXAR: </hi><hi rend='Italic'>(Zalapartaka sartuaz)</hi> Barkatu! Alkate jauna-ta emen zirala uzte genuen.</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Aurrera, aurrera! Aren billa gabiltza guziok.</p>
+<p>-f-<hi rend='Bold'>MELTXOR:</hi> Egun on jaunak. Ondo al zerate?</p>
+<p>-f-<hi rend='Bold'>KASPAR:</hi> Ori lenengo, Jaungoikoak dizutela egun on. Endorea agertuko da.</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Etorri zeratela beaz? <hi rend='Italic'>(Alkar agurtzen dira eskua emanez edo) (Baldaxarri)</hi> Zenbat lagun?</p>
+<p>-f-<hi rend='Bold'>BALDAXAR:</hi> Berrogei lagun etorri gera ogeina zaldiko autokar bitan. Bakoitzak zaldi bana. <hi rend='Italic'>(Izketan darraite)</hi>.</p>
+<p>-f-<hi rend='Bold'>MIGEL: </hi><hi rend='Italic'>(Kaspar ta Meltxorri)</hi> Emen biltzekoak gi&ntilde;an alkatearekin-ta Udal-etxera joateko ta ez dakigu zer gertatzen dan. Ez omen da ordu laurden bat alkatea ta Etxenagusia norabait atera dirala. Ez datoz ta Elizarako garaitsua da.</p>
+<p>-f-<hi rend='Bold'>MELTXOR:</hi> Sekretarioak kaletik zear zijoala, ta gelditu gabe, esan digu: goitik galerazpen bat izan ote dan.</p>
+<p>-f-<hi rend='Bold'>KASPAR:</hi> Aren esana ez det sinisten. Gizon Ori Makiabelo zamarra degu.</p>
+<p>-f-<hi rend='Bold'>MIGEL: </hi><hi rend='Italic'>(Urduri)</hi> Zerbait badala agirian dago. <hi rend='Italic'>(Apaizgaiari)</hi> Aditzen al dezu Indalexio? Jaia eragotzi ote duten...</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Ez diteke gizona. Eragospen ori <foreign>&laquo;ad absurdum&raquo; </foreign>izango litzake.</p>
+<p>-f-<hi rend='Bold'>BALDAXAR:</hi> Ez da sortu irrintzi botatzen eragotziko didan <foreign>&laquo;guarda civillik&raquo;</foreign>. Ez orixe!</p>
+<p>-f-<hi rend='Bold'>MELTXOR:</hi> Ta Gobernadorearen agindua egitan onelakoa baldin bada, gure asabok egin oi zutena egin. Agindua ontzat artu ba&ntilde;an egin ez.</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Ez degu astirik galtzerik. Goazen Udal-etxera... Kaspar Azkatasuna lortu arte onela ibilliko gaituzte. Goazen Erriko Etxera!</p>
+<p>-f-<hi rend='Bold'>BALDAXAR:</hi> Ni ez noa Erriko etxetik Elizara &laquo;mazero artean&raquo; ta atzetik mikeletiak ditudala; &laquo;jendeak&raquo; ijitotzat artuko nau.</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Ez bildur izan. Emen ez dago amabi bat besterik ta ura jai aundietan.</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Egia jakitera joan gaitean. <hi rend='Italic'>(Abituaz)</hi></p>
+<p>-f-<hi rend='Bold'>KASPAR:</hi> Egia Sabinok azaldu zuan... Euzkadi!...</p>
+<p>-f-<hi rend='Bold'>BALDAXAR:</hi> Zoazte, zoazte, ni gosaldu gabe nago ta bitartean legea egingo det.</p>
+<p>-f-<hi rend='Bold'>MELTXOR:</hi> Zer lege ote da ori?: Tripazaien legea. <hi rend='Italic'>(Besteak par egi&ntilde;az)</hi></p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Oriek Udal-etxera dijoazela. Gu biok, Baldaxar, organistaren etxera joango gera, eztarria leuntzeko zerbait emango digu.</p>
+<p>-f-<hi rend='Bold'>MIGEL: </hi><hi rend='Italic'>(Atetik itzuliaz)</hi> Emen ditugu-ta!</p>
+<p>-f-<hi rend='Bold'>MELTXOR:</hi> Alkate ta Etxenagusia al dira?</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Bai, bai berak dira. <hi rend='Italic'>(Datozenai galdegi&ntilde;az)</hi> Ta?</p>
+<p><hi rend='Bold'>VII. AGERRALDIA</hi></p>
+<p><hi rend='Italic'>Lengoak, Alkatea ta Etxenagusia.</hi></p>
+<p><hi rend='Italic'>(Etorri berriak inguru bitzate)</hi>.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Ezer ez jaunak! Telefonema gaizki artua zegola ta besterik ez.</p>
+<p>-f-<hi rend='Bold'>GUZIOK:</hi> A!</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Gauza parregarria izan da. Ez dakigu telefonema gaizki artua zegon belarriaren erruz ala ortografiaren erruz. Ederra egin digu telefonoko neskatx gaxo orrek.</p>
+<p>-f-<hi rend='Bold'>BALDAXAR:</hi> Ortografia?... Orixe da izen itsusia. Gero, euskerazkoak dirala zatarrak esango digute.</p>
+<p>-f-<hi rend='Bold'>ALKATEA: </hi><hi rend='Italic'>(Telefonema sakeletik ateriaz)</hi> Begira, onela jarria ekarri ziguten: <hi rend='Italic'>(Irakurririk) </hi><foreign>&laquo;Imposible acudir, fiesta suspenda aga caso&raquo;. </foreign>jarri bearrean: <foreign>&laquo;Imposible acudir fiesta suspendan agasajos&raquo;. </foreign><hi rend='Italic'>(Parra dagite)</hi> Beraz, gobernadoreak dio ez ditekela jaira etorri ta ez alperrik berentzat omenik antolatzeko. Ez jaia galerazteko konturik.</p>
+<p>-f-<hi rend='Bold'>KASPAR:</hi> Al balu...</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Banengon bada. <hi rend='Italic'>(Telefonema irakurriaz)</hi> Koma batzuen ta &laquo;hatxe&raquo; baten okerra. Utsa!</p>
+<p>-f-<hi rend='Bold'>BALDAXAR:</hi> &laquo;Koma&raquo; guziak jan egin bear dira ta gobernadorearentzat gerturiko bazkaria ere bai. Au mauka!</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Onela egingo da. Ez etortzearekin mesede aundi bat egiten digu.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Ez daki ondo.</p>
+<p>-f-<hi rend='Bold'>KASPAR:</hi> Orduan, alkate jauna berriro suziriak piztutzen asi ditezke. Sekretario koskor orrek jairik ez dala erri guzian zabaldu baidu.</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Oraintxe aginduko det.</p>
+<p>-f-<hi rend='Bold'>BALDAXAR:</hi> Neroni joango naiz adieraztera ta nai badu &laquo;etxefuegoak&raquo; ere botako ditut. <hi rend='Italic'>(Abituaz)</hi></p>
+<p>-f-<hi rend='Bold'>MELTXOR:</hi> Itxoin zak gizona. Alkate jaunak zer egin bazekik.</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Guziok joan bear degu, danok, ordua da-ta. <hi rend='Italic'>(Alkateari)</hi> Alkate jauna, garaia ote dan...</p>
+<p>-f-<hi rend='Bold'>ALKATEA: </hi><hi rend='Italic'>(Errelejua begiratuki)</hi> Alaxe da, amarrak ga&ntilde;ean ditugu. Goazen.</p>
+<p>-f-<hi rend='Bold'>APAIZGAIA:</hi> Amarrak? ni elizara berriz. <hi rend='Italic'>(Abituaz)</hi> Ori egin bear diot bikario jaunari, sakristira berandu iritxi...</p>
+<p>-f-<hi rend='Bold'>MELTXOR: </hi><hi rend='Italic'>(Deituaz)</hi> Zoazen ezkero esaiozu bikarioari pizka bat itxoiteko.</p>
+<p>-f-<hi rend='Bold'>KASPAR:</hi> Zera... ixopoarokin zai egongo zaik eliz atarian.</p>
+<p>-f-<hi rend='Bold'>BALDAXAR:</hi> Ixopoa? ori dek arma apaitzentzat ta ez... kandela. Bigu&ntilde;egia!</p>
+<p>-f-<hi rend='Bold'>ALKATEA:</hi> Aurrera! <hi rend='Italic'>(Alkatearen ondoren ateratzen dira: Meltxor, Kaspar ta Baldaxar)</hi></p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA: </hi><hi rend='Italic'>(Abituaz) (Migeleri) </hi>Ta zuk zer diozu?</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Lan askorekin nabillela. Bost ikertaldi egin ditut dagoaneko, ta eguardi-aurretik &laquo;Orieta&raquo; basarrira joan dear det. Ordu beteko bidea.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Ori ez da ezer gazte batentzat, lasai zaudeke. Ta... bestea?</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Egia esateko, meza aurretik itzegin nai nuen Garatzirekin ba&ntilde;an... etxea jendez bete da-ta... gerorako utzi bear beste gaxoren batengana eramaten ez banaute.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Gero astia izango dezu. Gaur... osasunezko eguna da. <hi rend='Italic'>(Dijoazelarik)</hi></p>
+<p>OIALA</p>
+<p><hi rend='Bold'>IRUGARREN EKITALDIA</hi></p>
+<p><hi rend='Bold'>(II. ZATIA)</hi></p>
+<p><hi rend='Italic'>(Erriko enparantza. Alde batera Udal-etxea. Zokondoan Eliza nagusia. Beste etxeetan oi diran denda ta eskaratzak ager bitez. Bata Taberna izango da. Oiala jasotzerakoan, urrutira txistulari taldearen otsa entzungo da. &laquo;Alkate So&ntilde;ua&raquo; jotzen ariko dira. Bertan txistulariak ez izan ezkero, &laquo;Columbia&raquo; gramofono etxeak joaldi ori diskoan badu).</hi></p>
+<p><hi rend='Bold'>I. AGERRALDIA</hi></p>
+<p><hi rend='Italic'>Joxepantoni ta Jonixio.</hi></p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI: </hi><hi rend='Italic'>(Jonixio tabernatik atera arazten dualarik)</hi> Goizetik onela al ago? Obe ukan Meza nagusira joan baintz. Zurrutero alena ez bestena! Goizetik asita...</p>
+<p>-f-<hi rend='Bold'>JONIXIO:</hi> Badakin... goizean on, arratsaldean on matsaren zumoa beti duk on. Zera... bertsotan baraurik ariko aiz. Ez den gutxi uste.</p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI:</hi> Zer esan bear duten etorri diran jende aundiak.</p>
+<p>-f-<hi rend='Bold'>JONIXIO:</hi> Zer bada, jende aundi-mendiak ez al du edaten edo?</p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI:</hi> Personak bezela ta ez neurrik gabe. Ardotan ire idiak uretan a&ntilde;a edaten dek-eta. Lertuko aiz!</p>
+<p>-f-<hi rend='Bold'>JONIXIO:</hi> Anima apartatuta.</p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI:</hi> Ez zekiat noiz zuzendu bear dekan.</p>
+<p>-f-<hi rend='Bold'>JONIXIO:</hi> Bigartik asi bearko.</p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI:</hi> Beti arlote ez diru ta kuxidaderik gabe, ire idi zar oriekin. Nor izan baintzan onuzkero idi parea saldu ta auto-kamiona erosi uan. Ire burua bestelako itxuran arkituko uke. Txofer...</p>
+<p>-f-<hi rend='Bold'>JONIXIO:</hi> Txofer?... Luzifer alatsu, naiago det itzai. Berriz ere automobilla kamiotik datorrela ikus dezadanean, erdi-erditik joango naun nere aberiekin. Arraiepola!</p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI:</hi> Bai jauna bai, obe uke automobilla erosi idiak saldurik. Ta naiko diru irabazi &laquo;Uxuanekoak&raquo; bezela.</p>
+<p>-f-<hi rend='Bold'>JONIXIO:</hi> Aiek automobillean ibil ditezela nai badute. Nik ez di&ntilde;at utziko nere idi parea ta akullua. Ta zortzi plaza arri aundia karraiatzen nere bikoari emongo dionik baldin bada, atera dedilla! Ez du paratuko ez apusturik! Au ere euskal jaia da bada.</p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI:</hi> I beti ire demarekin.</p>
+<p>-f-<hi rend='Bold'>JONIXIO:</hi> I beti sermolari.</p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI:</hi> Onbearrez egiten diat anai.</p>
+<p>-f-<hi rend='Bold'>JONIXIO:</hi> Entzungorra naun arreba.</p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI: </hi><hi rend='Italic'>(Bigunxeago)</hi> Jonixio, arratsaldean jaitako so&ntilde;ekoa ta ator garbia jantziko dituk noski.</p>
+<p>-f-<hi rend='Bold'>JONIXIO:</hi> Bai, emakumea, besteak bezin garbi plazan agertuko naun.</p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI:</hi> Bertsotan, mutilla aiz i! txikitandik! Ea politen batzuek esaten dituken.</p>
+<p>-f-<hi rend='Bold'>JONIXIO:</hi> Auskalo!, ez zeki&ntilde;at nere lagunak nundik joko duten.</p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI:</hi> Ik, erriko alargunak zirikatu bear intuke.</p>
+<p>-f-<hi rend='Bold'>JONIXIO:</hi> Arestian ez didan esan bada akullua uzteko?</p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI:</hi> Minga&ntilde;arekin motell! Bertsoak ateriaz!</p>
+<p>-f-<hi rend='Bold'>JONIXIO:</hi> Zer bada?</p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI:</hi> Ez al dakik? Do&ntilde;a Maria alarguna nere nagusiarekin ezkontzen ote dan edo...</p>
+<p>-f-<hi rend='Bold'>JONIXIO:</hi> Ori ere badi&ntilde;agu? Aditu bear dizkin bereak eta bat...</p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI:</hi> Bota ederrak! Alargunak pizti gaiztoak baidira.</p>
+<p>-f-<hi rend='Bold'>JONIXIO:</hi> Neskazarrak ez ditun obeak bada.</p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI:</hi> Mutilzar lotsagabea! <hi rend='Italic'>(Bijoaz)</hi></p>
+<p><hi rend='Bold'>II. AGERRALDIA</hi></p>
+<p><hi rend='Italic'>Garatzi ta Migel.</hi></p>
+<p><hi rend='Italic'>(Bata ertze batetik ta bestea bestetik datozelarik itsumustuan bezela alkar arkitzen dute)</hi>.</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Zer zabiltza Garatzi?</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Meza nagusitik nator ta etxe aldera. Ta zu?</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Ni gaxo guziak ikusteagatik ezin joan izan naiz meza nagusira. Ta okerrena orain Iturrioz baserrirako deia izan dedala.</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Tokitan dago. Gutxienez ordu beteko bidea.</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Ortxe nunbait. Ta joan egin bear.</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Zuentzat ez da jai egunik.</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Ori esan. <hi rend='Italic'>(Ixillunea)</hi> Ta, meza nagusi ederra aterako zan.</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Ezin obea. Eliza oso apa&ntilde;a zegon, ederki kantatu dute ta jendea ga&ntilde;ezka...</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Neretzako tokia izango zan.</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Joatea zenun.</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Ta sermoia?</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Ez nuen uste izango euskeraz ain egoki, ain biribil ta ain ederki gauzak esan zitezkenik.</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Zerbaitegatik ekarri degu kanonigoa.</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Gizon azkarra dala ezagun da.</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> &laquo;Mu&ntilde;agorri&raquo; <hi rend='Italic'>(Ixillunea)</hi> Ta apaizak, zer koloretako kasulak zituzten?</p>
+<p>-f-<hi rend='Bold'>GARATZI: </hi><hi rend='Italic'>(Arrituta)</hi> Oi! neroni ere ez naiz gogoratzen. A bai! berdea.</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Muskerra... Ez det begizkoetan sinistatzen, alare, aspaldi alkarrekin ez genuen itzegiten eta... gaur...</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Ez noski, berriz ere nigandik igesi baldin bazabiltza...</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Ori ez da egia. Bestela ez gi&ntilde;ake gauden bezela ariko...</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Itsumustuan...</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Baliteke <hi rend='Italic'>(Irritsu)</hi> muskerraren begizkoa... izatea, beintzat egun alaia gaurkoa.</p>
+<p>-f-<hi rend='Bold'>GARATZI: </hi><hi rend='Italic'>(Ben)</hi> Neretzat ez ga&ntilde;erako guzientzat. Badakizu...</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Ez dakit ezer. Zu bakarrik ikusteak arritu nau. Onen goiz etxe aldera jaia utzita ta zure aitaren itzaldia entzun gabe. <hi rend='Italic'>(Itun dagoala oarturik)</hi> Ba&ntilde;an arpegi eder ori oso goibel arkitzen dizut. Goibelaren ederra.</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Eskerrik asko zure loriengatik ba&ntilde;an ez nago umorean.</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Zer gertatzen zaizu bada?</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Nere aita alargunarekin eskontzen dala.</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Egitan?... zerbait banenkien ba&ntilde;an...</p>
+<p>-f-<hi rend='Bold'>GARATZI: </hi><hi rend='Italic'>(Negar-antziz)</hi> Atzo aitak esan zidan ta bigar erri guziak jakingo du. <hi rend='Italic'>(Ixillunea)</hi>.</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Lasatu zaite. Ez det uste onela jartzeko berria danik. Ezkontza ori zure aitaren onerako izango da. Ori naiko dezu, aitaren ona, ez al da onela?</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Bai, ba&ntilde;an ezin astu det nere amatxo zana.</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Oroitzea ongi dago, ez dezake ordea betirako bete, gizon baten bizia.</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Gizona...</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Ez da estuegia izan bear i&ntilde;orentzat. Geiegi estutakoa lertu egiten baida. Onela mintzo banatzaizu pozkida pizkat ematearren da. Zure aitarekin asko eraman bear izan dezula badakit. Beti etxetik kanpora bazkari ta aparitan osasuna galtzen ibiltzea ba&ntilde;o, obe du ezkontzea. Do&ntilde;a Maria andre ona da ta alabatzat artuko zaitu.</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Ori ez!, nere ama ez. Ezin bizi izango naiz aitaren etxean.</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Nun bada, bestela?</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Ez dakit, emendik alde egingo det. <hi rend='Italic'>(Ixillunea)</hi></p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Garai bat irixten da gurasoen kabia aski izaten ez dana ta nik... <hi rend='Italic'>(Lurrera begiraturik)</hi> nerea eskeintzen dizut maitasunez berotua...</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Bai e? Txorin bat al naiz?</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Ez, uso zuria zera.</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Ea igesi joan zitzaizun, bada, uso auxe?</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Sarea neukan gertu.</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Ta, zauritua negoan artera&ntilde;o itxoin dezu?... <hi rend='Italic'>(Irritsu)</hi> Eiztari biotz gogorrekoa!</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Zera... Biotza samurtzera&ntilde;o itxoin det.</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Egin al dituzu &laquo;bixita&raquo; guziak? Orain zure gaxoetzaz ez aztu.</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Orain, zu ez ga&ntilde;erako guzia aztu zait...</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Ez dedilla neregatik i&ntilde;or geiago gaizkitu.</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Ta zure aitaren naigabea, aztu al zaizu?</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Zaude ixilik aitatu gabe, aztu bearko.</p>
+<p><hi rend='Italic'>(Ostera, &laquo;Alkate So&ntilde;uaren&raquo; eresia entzun bedi gero ta bertago, ta batera, su-zirien eztandak ta jende taldearen otsa)</hi>.</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Emen ditugu! Ikaragarrizko jendeak dira!</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Goazen, ez det nai ikusi gaitzaten. Itzegingo degu geroxeago. <hi rend='Italic'>(Abituaz)</hi>.</p>
+<p>-f-<hi rend='Bold'>MIGEL: </hi><hi rend='Italic'>(Garatziri eskua artuaz)</hi> Gero arte orduan. Nun izango zera bazkal-onduan?</p>
+<p>-f-<hi rend='Bold'>GARATZI:</hi> Baratzan.</p>
+<p>-f-<hi rend='Bold'>MIGEL:</hi> Aurretik igaroko naiz. <hi rend='Italic'>(Bijoaz)</hi></p>
+<p><hi rend='Bold'>III. AGERRALDIA</hi></p>
+<p>-e-<hi rend='Italic'>(Erri taldea ea iritxi da plazara. Ga&ntilde;ean da; ezin bertago, txixtularien eresia, jendearen otsa ta istilluak. Alako batean taldea ager bedi alik ta ugariena. Amabia lenengo, iru txistulariak gero, dantzariek ere bai nai izan ezkero, ta ondoren erriko zi&ntilde;egotziak. Sekretarioa, Alkatea, apaizen bat ta beste zenbait jaun. Gizon-andre ta jendeketa txea neska-mutillak inguruan. Astiro ba&ntilde;an gelditzeka igaro bezate agertokia ertz batetik bestera, udal etxeruntz ezkutaturik)</hi>.</p>
+<p><hi rend='Bold'>IV. AGERRALDIA</hi></p>
+<p><hi rend='Italic'>Alarguna, Joxepantoni ta Jonixio.</hi></p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI:</hi> Neronek ere, jaia zerbait ikusi bear nuala-ta, kalera irten naiz sukaldea utzirik. Nagusia ez baidet etxean bazkaltzen.</p>
+<p>-f-<hi rend='Bold'>ALARGUNA:</hi> Noski, ederki egin dezu. Zure nagusia, nola ez da juan agintarien artean?</p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI:</hi> &laquo;Levita&raquo; ta ginbail ederrik badu etxean ba&ntilde;an ez du bere burua agertu nai izaten.</p>
+<p>-f-<hi rend='Bold'>JONIXIO:</hi> Ezkontzen danerako gorde naiko ditu!</p>
+<p>-f-<hi rend='Bold'>ALARGUNA: </hi><hi rend='Italic'>(Parrez)</hi> Garaia du...</p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI:</hi> Gaizki bizi al da bada?</p>
+<p>-f-<hi rend='Bold'>ALARGUNA:</hi> Ez, ez; gaur ga&ntilde;era pozik izango da orrenbeste jendekin.</p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI:</hi> Zer da au! ez nuen be&ntilde;ere errian beste orrenbeste ikusi.</p>
+<p>-f-<hi rend='Bold'>JONIXIO:</hi> Bai nik, orain 25 urte idi apustua Mekoletaren aurka jokatu nuanean.</p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI:</hi> Ixilik ago! ez zegok aldeatzerik ere ta, nolako jendea!</p>
+<p>-f-<hi rend='Bold'>JONIXIO:</hi> Ortan ez naiz sartzen. <foreign>&laquo;Siquiera&raquo; </foreign>orduko sasoia banu.</p>
+<p>-f-<hi rend='Bold'>ALARGUNA:</hi> Badakit arratsaldean bertsoetan egitekoa zerala. Ea zure laguna ixil arazten dezun.</p>
+<p>-f-<hi rend='Bold'>JONIXIO:</hi> Bai, andrea. Ixildu?... Ni ez banaute ixil arazten. &laquo;Kuirao&raquo; gero! Beori ere bertsotan ateratzeko esan didate-ta.</p>
+<p>-f-<hi rend='Bold'>ALARGUNA:</hi> Ni?</p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI: </hi><hi rend='Italic'>(Larri)</hi> Ez dezaiola kasorik egin, nere anai alprojaren gauzak! <hi rend='Italic'>(Izketa aldatuaz)</hi> Oso arin dabil Do&ntilde;a Maria, zain-tiratua sendatu zaiola ikusten det...</p>
+<p>-f-<hi rend='Bold'>ALARGUNA:</hi> Bai, askozaz obeto daukat. Ez zait batere aunditzen. <hi rend='Italic'>(Abituaz)</hi></p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI:</hi> Nere erremedioa artuko zuan e?..</p>
+<p>-f-<hi rend='Bold'>JONIXIO:</hi> Izango du erremedio oberik adiskidiak eman-da.</p>
+<p>-f-<hi rend='Bold'>ALARGUNA:</hi> Zer?</p>
+<p>-f-<hi rend='Bold'>JOXEPANTONI: </hi><hi rend='Italic'>(Amorruz)</hi> Emonio nabarmena! <hi rend='Italic'>(Alargunari)</hi> Do&ntilde;a Maria ez bezaio jaramonik egin, edan egiten du-ta. Ni alkatea banintz, kartzelara.</p>
+<p>-f-<hi rend='Bold'>ALARGUNA:</hi> Ez, ez, alkateari nik agintzen diot.</p>
+<p>-f-<hi rend='Bold'>JONIXIO: </hi><hi rend='Italic'>(Joxepari)</hi> Sartu din ziri ederra. <hi rend='Italic'>(Bijoaz)</hi></p>
+<p><hi rend='Bold'>V. AGERRALDIA</hi></p>
+<p><hi rend='Italic'>Maistra, Etxenagusia, Meltxor, Kaspar ta Baldaxar.</hi></p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA: </hi><hi rend='Italic'>(Sarturik)</hi> Egunari asiera ederra eman zaio. Bejuandizutela! jaiak ongi antolatzen iaioak zerate.</p>
+<p>-f-<hi rend='Bold'>MELTXOR:</hi> Erriak erantzun ezkero erreza da.</p>
+<p>-f-<hi rend='Bold'>BALDAXAR:</hi> Au ez da ezer arratsaldean etorriko dan ostearentzat. Ikusiko dezute jendearen emana!</p>
+<p>-f-<hi rend='Bold'>KASPAR:</hi> Azelain ta Azkue euskaltzainak etorri dira ta Gotzai jauna ere bai.</p>
+<p>-f-<hi rend='Bold'>MELTXOR:</hi> Euskal-Erriko gizonik jatorrenak bilduko dira gaur emen.</p>
+<p>-f-<hi rend='Bold'>BALDAXAR:</hi> Iriberritarrak ta Gobernadorea ez ga&ntilde;erako guziak. <hi rend='Italic'>(Parra egi&ntilde;az)</hi></p>
+<p>-f-<hi rend='Bold'>MAISTRA: </hi><hi rend='Italic'>(Etxenagusiari)</hi> Nola ez zera agintariekin batera joan? Ura da zure tokia. Diputado izana, buru-batzarrekoa ta... idazle apaitua zeran aldetik.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Eskerrik asko losentxarengatik. Nere aundi-uzteak uskeriak ez balira izan. Orain naigo det zuekin, gazteekin biltzea. Ez banazute bialtzen beintzat.</p>
+<p>-f-<hi rend='Bold'>MELTXOR:</hi> Buruzagitzat artzen zaitugu.</p>
+<p>-f-<hi rend='Bold'>KASPAR:</hi> Ori, ori!</p>
+<p>-f-<hi rend='Bold'>BALDAXAR:</hi> Zurekin aurrera joango gera. Jo ta kea!</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Gazteak astindu bear dituzute bazterrak, ta zorionez, Irizarrrera eta iritxi zi&ntilde;aten, Irrizar...zaarra bai, erri koskorra, bizirik ba&ntilde;o illagoa, ezin-ikusi ta zikoizkeriz betea. Emen, liburuen pakean, nere koldarkeria ezkutaturik bizi nintzan. Alako euskal asmo eder aiek laga bainituen. Oso beera jetxia nengon, ezkontzeko uztean ibilli naiz-ta.</p>
+<p>-f-<hi rend='Bold'>MAISTRA: </hi>Emakumezkoak, ain gutxi al gera?</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Zu bezelakoak osatu egiten dute gizona. Orrelakorik bere garaiean arkitu ez duanak &mdash;nere gixa&mdash; obe du jarrai ezkongai...</p>
+<p>-f-<hi rend='Bold'>BALDAXAR: </hi><hi rend='Italic'>(Kasparreri)</hi> Kaspar! eutsi akiok Juanitari beste i&ntilde;ork eraman ez dezan.</p>
+<p>-f-<hi rend='Bold'>KASPAR: </hi><hi rend='Italic'>(Juanitari begiraturik)</hi>. Ez diat eutzi bearrik. Alkarren artean badizkiagu ikusten ez diran lokarriak.</p>
+<p>-f-<hi rend='Bold'>BALDAXAR: </hi><hi rend='Italic'>(Algara ta marru aundiak atereaz)</hi> Ori ere badegu! Au euskal-eguna ez ezik eztai-eguna ere badek...</p>
+<p><hi rend='Italic'>(Parrak, esku-estutze ta agurrak)</hi>.</p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Zorionak...</p>
+<p>-f-<hi rend='Bold'>MELTXOR:</hi> Ez diozute itzegiten uzten gure erakusleari. <hi rend='Italic'>(Ixilduaz)</hi></p>
+<p>-f-<hi rend='Bold'>ETXENAGUSIA:</hi> Ezer gutxi geiago. Erri guzia suspertu ta poztu dezutela: alkate, apaiz, neska-mutil ta agure auxe. Zuekin noa. Irizar piztu dezute, goazen Iriberri piztutzera.</p>
+<p>OIALA</p>
+<p>AMAIA</p>
+        </body>
+      </text>
+    </group>
+  </text>
+</TEI.2>
+

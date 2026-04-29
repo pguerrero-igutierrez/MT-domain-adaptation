@@ -1,0 +1,693 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN"
+                       "http://www.tei-c.org/P4X/DTD/tei2.dtd" [
+   <!ENTITY % TEI.prose    'INCLUDE' >
+   <!ENTITY % TEI.linking  'INCLUDE' >
+   <!ENTITY % TEI.analysis 'INCLUDE' >
+   <!ENTITY % TEI.figures  'INCLUDE' >
+   <!ENTITY % TEI.XML      'INCLUDE' >
+   <!ENTITY % TEI.extensions.ent SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.ent' >
+   <!ENTITY % TEI.extensions.dtd SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.dtd' >
+]>
+<TEI.2>
+  <teiHeader>
+  <fileDesc>
+     <titleStmt>
+        <title>Gabon sariak</title>
+        <author>Franzisko Xabier Munibe - "Peñafloridako Kondea"</author>
+        <respStmt>Ez dauka</respStmt>
+     </titleStmt>
+     <extent>2.119 hitz, 14.485 karaktere</extent>
+     <publicationStmt>
+        <publisher>Klasikoen Gordailua [http://klasikoak.armiarma.com/]</publisher>
+        <distributor>Estrata Liburuak S.L.</distributor>
+        <address type='email'>klasikoak@armiarma.com</address>
+        <idno type='ota'>MunibeSariak</idno>
+        <availability status='free'>Erabilpen librekoa; honoko helbidean topa daiteke (HTML, RTF eta PDF formatuetan): http://klasikoak.armiarma.com/idazlanak/M/MunibeSariak.htm</availability>
+        <date>2006</date>
+     </publicationStmt>
+     <sourceDesc>
+        <bibl>Iturria: Teatro zaarra. Gabonetako ikuskizuna. gabon-sariak. El borracho burlado, Pedro Barrutia, Sor Luisa, Xabier Munibe (Gabriel Arestiren edizioa). Auspoa, 1965</bibl>
+        <notesStmt><note>Iturburuen datazioa: 1762</note></notesStmt>
+     </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+     <projectDesc>Euskal literaturako testu klasikoen bilduma da KLASIKOEN GORDAILUA; testu hau berorren parte da</projectDesc>
+     <refsDecl>
+        <p>MENTIONED etiketa egilearenak ez diren hitzak markatzeko erabili da: hitzaurreak, aipuak, iruzkinak, e.a.</p>
+    </refsDecl>
+     <classDecl>
+        <taxonomy id='generoa'>
+            <category id='G-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='G-ANT'><catDesc>Antzerkia</catDesc></category>
+            <category id='G-BER'><catDesc>Bertsoak</catDesc></category>
+            <category id='G-ERL'><catDesc>Erlijioa</catDesc></category>
+            <category id='G-NAR'><catDesc>Narratiba</catDesc></category>
+            <category id='G-POE'><catDesc>Poesia</catDesc></category>
+            <category id='G-SAI'><catDesc>Saiakera, kronika, artikuluak...</catDesc></category>
+        </taxonomy>
+        <taxonomy id='garaia'>
+            <category id='M-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='M-16'><catDesc>XVI. mendea</catDesc></category>
+            <category id='M-17-1'><catDesc>XVII. mendea - 1. erdia</catDesc></category>
+            <category id='M-17-2'><catDesc>XVII. mendea - 2. erdia</catDesc></category>
+            <category id='M-18-1'><catDesc>XVIII. mendea - 1. erdia</catDesc></category>
+            <category id='M-18-2'><catDesc>XVIII. mendea - 2. erdia</catDesc></category>
+            <category id='M-19-1'><catDesc>XIX. mendea - 1. erdia</catDesc></category>
+            <category id='M-19-2'><catDesc>XIX. mendea - 2. erdia</catDesc></category>
+            <category id='M-20-1'><catDesc>XX. mendea - 1. erdia</catDesc></category>
+            <category id='M-20-2'><catDesc>XX. mendea - 2. erdia</catDesc></category>
+        </taxonomy>
+        <taxonomy id='euskalkia'>
+            <category id='E-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='E-BAT'><catDesc>batua</catDesc></category>
+            <category id='E-BIZ'><catDesc>bizkaiera</catDesc></category>
+            <category id='E-BNA'><catDesc>behenafarrera</catDesc></category>
+            <category id='E-ERR'><catDesc>erronkariera</catDesc></category>
+            <category id='E-GIP'><catDesc>gipuzkera</catDesc></category>
+            <category id='E-GNA'><catDesc>goi nafarrera</catDesc></category>
+            <category id='E-LAP'><catDesc>lapurtera</catDesc></category>
+            <category id='E-NAF'><catDesc>nafarrera</catDesc></category>
+            <category id='E-ZAR'><catDesc>zaraitzuera</catDesc></category>
+            <category id='E-ZUB'><catDesc>zuberera</catDesc></category>
+        </taxonomy>
+    </classDecl>
+  </encodingDesc>
+  <profileDesc>
+     <textClass>
+       <keywords scheme='generoa'>
+         <list><item>G-ANT</item></list>
+       </keywords>
+       <keywords scheme='garaia'>
+         <list><item>M-18-2</item></list>
+       </keywords>
+       <keywords scheme='euskalkia'>
+         <list><item>E-GIP</item></list>
+       </keywords>
+     </textClass>
+  </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>Gabon sariak -- Franzisko Xabier Munibe - "Peñafloridako Kondea"</docTitle>
+    </front>
+    <group>
+      <text>
+        <body>
+<p><mentioned>SOR LUISA</mentioned></p>
+<p><mentioned>GABON-SARIAK</mentioned></p>
+<p><mentioned>EDO</mentioned></p>
+<p><mentioned>AURTENGO GABONETAN AZKOITIKO</mentioned></p>
+<p><mentioned>ELEIZA NAGUSIAN KANTATUKO DIRAN</mentioned></p>
+<p><mentioned>GABON-KANTAK EDO OTSALDIAK</mentioned></p>
+<p><mentioned>Puer natos est nabis,</mentioned></p>
+<p><mentioned>venite adoremus.</mentioned></p>
+<p><mentioned>AZKOITIN MISERIKORDIAN</mentioned></p>
+<p><mentioned>MDCCLXII</mentioned></p>
+<p><mentioned> Lenengo argitaraldia: &laquo;Gavon-sariac edo aurtengo gavonetan Azcoytico Eleiza Nagusian cantatuco ciran Gavon cantac edo otsaldiak. Puer natus est nobis, Venite adoremus. Azcoitia, 1762&raquo;.</mentioned></p>
+<p><mentioned> Bigarren argitaraldia: &laquo;Euskal-Erria&raquo; errebista, XX, 1889.</mentioned></p>
+<p><mentioned> Irugarren argitaraldia: &laquo;Egan&raquo;, 1956, 5-6.</mentioned></p>
+<p><mentioned> Laugarren argitaraldia: Auspoa Liburutegia, 48, 1965.</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Azkoitiko Miserikordiako</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>Ama Birji&ntilde;a Soledadekoari</hi></p>
+<p>Andrea:</p>
+<p>Zure mende gozoan bizitzeko zoriona degunok, zure mendean ta egapean ipi&ntilde;i ere bear ditugu gure gauza guztiak. Argatik gaur argierazotzen degun papeltxo au, zure mendean ipintzen degu, ta ala artu ere bear dezu zuk; bada batetik gurea da, ta bestetik guk, gure onginaierak egiten dizkuen ongiteakgatik, eman nai diegun sari bat da: ta abek zure eskuetatik bialtzen dizkuen-azkero beren ongiteak ta ondasunak, esku orietatik biurtu ere nai diegu sari au. Ar zazu, bada, gure Ama gozoa, nai oi dezun ongiroareki&ntilde; papeltxo au; eman egiozu zure grazia, ta adierazo egiezu gure ongi&ntilde; guziai gure borondate ona, ta ezi&ntilde; beste moduz paga gintzakeala, ezpada arekin, ta zuri otoitzeak zure Seme Jaunagandik erdietsi dezazula aientzat guztientzat osasuna, bakea, ondasunak mundu onetan, zure umezurtxoetan gasta ditzaten, ta bestean sekulako bizitza; ala eskatzen dizu, Andrea, zure o&ntilde;etan umilki auspez etzi&ntilde;ik,</p>
+<p>Miserkordiako etxeak.</p>
+<p><hi rend='Bold'>Luis Miserikordiakoak ongi&ntilde;</hi></p>
+<p><hi rend='Bold'>guziai gabon, urte on ta berri on</hi></p>
+<p>Nere biotzeko ongitxo maiteak: Igaroko urtean gabon-saria pranko eman badidazue ere, orra aurten, aurrea artuta, nun neuk ematen dizuedan: Ta nolakoa, ala ere? Zuek geienean gabon egiteko aza-buru bat, edo bakallao puska bateki&ntilde; askidatu ta konplitu dezue nereki&ntilde;; ba&ntilde;a nik zuentzat berariaz inprimierazo ditudan kantatxo edo otsaldi eder auekin erregalatzen zaituet.</p>
+<p>Orai&ntilde; zuek esango dezue zer apetek edo eroaldik eman didan onetarako. Ara bada, adi ezazue.</p>
+<p>Igazko gabonetan ekusi nituan gure etxean makina bat gabon-kanta inprimitu: batzuek Bilbaokoak zirala, besteak Madrilgoak, Karizkoak, ta eztakit nun a&ntilde; urrutietako batzuek; ta adios nun berealaxe gogoak eman zidan: Zer! Beste i&ntilde;un diran eleizak inprimierazotzen ditue, ateratzen dituen kantak (azkenik Bilbaoko San Praxkuko Praille gajoetara&ntilde;o), ta gure Azkoitiko eleiza ederrean kantatzen diranak illunpean gelditu bear debe? Nundik nora? Ez debe beste erdera mordollozko abek ainbat merezi? Ez bada, Jainkoak nai badeu; ta datorren urtean, bizi banaiz, so&ntilde;ean daramadan gona au salduko badet ere, inprimatu bearko debe deamutxoetan. Orra bada, esan da egi&ntilde;, nun inprimierazo ditudan aurten gure Azkoitiko musika aingeruzkoak kantatuko dituan iru kanta-aldiak.</p>
+<p>Jaki&ntilde; ere naiko dezue, norzaz baliatu naizan koplak ta beren so&ntilde;ua ateratzeko, ta jaki&ntilde;-gura geiegitxo bada ere, ez dizuet ezer ixildu nai. Koplarik geienak nere burukoak dira; ta bost gaubela ta izerdi gozo kosta bazaitzit ere, ondo enpleatutzat ematen ditut diranak. Egia da (ez diot i&ntilde;ori ezer kendu nai), Martin beltz gizajoak, mesederik asko egi&ntilde;ik, lagun eginda batez ere, segidilla, ta arako <hi rend='Italic'>aria </hi>edo <hi rend='Italic'>kopra andi</hi> aetan, bada sekula alakorik nola ekusi ere ez neban, ezi&ntilde; asmatu neban; ta ark berriz, nola i&ntilde;unziak egiten ere dakian, asko daki, ta gizon jakintsu bat da. So&ntilde;ua edo koplea ez da nerea; ez dakit orrenbeste; ba&ntilde;a Probintzian diran maixurik pamatuenai eragin diet. Melon antxi&ntilde;ako organista buapo ark, ta Lorentzo dantxariak, biak alkar arturik, atera debe.</p>
+<p>Ala ere, ez dide kantatzen bentajarik eramango, ez batek eta ez besteak; ta ala, ikasi nai deban guztia, ez dauka nigana etortzea ba&ntilde;o. ta nik berealaxe erakutsiko diot; bada eztarri garbi garbia ez badet ere, belarriak galantak ditut. Onenbestereki&ntilde;, agur, bada kanpaeak badarauntza ia, gabon egiteko, gure deiez.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>LENENGO OTSALDIA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'><hi rend='Italic'>Tonadillea</hi></hi></p>
+<p>Sekulako ikaraturik</p>
+<p>Nago ikusi dedanaz;</p>
+<p>Ez bait du i&ntilde;ork sinistuko</p>
+<p>Bakarrik nere esanaz.</p>
+<p><hi rend='Italic'>Bada ni ere </hi></p>
+<p><hi rend='Italic'>Neure ikusirik, </hi></p>
+<p><hi rend='Italic'>Egon naiz ezi&ntilde; </hi></p>
+<p><hi rend='Italic'>Sinisturik.</hi></p>
+<p>Gure erriko sartzaieran</p>
+<p>Dagoan abel-etxe ura</p>
+<p>Ai&ntilde; dago argia ta ederra,</p>
+<p>Zer dirudi zerua.</p>
+<p>Ba&ntilde;a au ez da ezer ere</p>
+<p>Beste gauzeen aldean.</p>
+<p>Ez da ainbeste mirari</p>
+<p>Ekusi i&ntilde;oz lurrean.</p>
+<p><hi rend='Italic'>Bada ni ere...</hi></p>
+<p>Aditu nai dituztenak</p>
+<p>Jar bitez nere aldean:</p>
+<p>Esango ditut diranak!</p>
+<p>Segidillatxo auetan.</p>
+<p>Ba&ntilde;a utzi bulla</p>
+<p>Alde batera;</p>
+<p>Txit, txit, ia noa</p>
+<p>Abiatzera.</p>
+<p><hi rend='Bold'><hi rend='Italic'>Segidillak</hi></hi></p>
+<p>Aurtxo zoragarri bat,</p>
+<p>Or portalean,</p>
+<p>Otzak kil, kil, kil, datza</p>
+<p>Lasto ga&ntilde;ean.</p>
+<p><hi rend='Italic'>Ai, aur ederra!</hi></p>
+<p><hi rend='Italic'>Ai, aur guria!</hi></p>
+<p><hi rend='Italic'>Ai. aur gozoa!</hi></p>
+<p><hi rend='Italic'>Ai, aur eztia!</hi></p>
+<p>Otzak kil, kil, kil, datza.</p>
+<p>Lasto ga&ntilde;ean.</p>
+<p>Belen guztian</p>
+<p>Eztute i&ntilde;un aurkitu</p>
+<p>Ostaturikan.</p>
+<p><hi rend='Italic'>Ai, aur ederra!...</hi></p>
+<p>Asto idi batzuek,</p>
+<p>Etzi&ntilde;ik auspaz,</p>
+<p>Zerbait berotzen dute</p>
+<p>Beren arnasaz.</p>
+<p><hi rend='Italic'>Ai, aur ederra!... </hi></p>
+<p>Errukiago</p>
+<p>Dira abereak berak</p>
+<p>Gizonak ba&ntilde;o.</p>
+<p><hi rend='Italic'>Ai, aur ederra!...</hi></p>
+<p>Txit emakume eder bat</p>
+<p>Alboan jarrita,</p>
+<p>Zoro biurturik dago</p>
+<p>Ari begira.</p>
+<p><hi rend='Italic'>Ai, aur ederra!...</hi></p>
+<p>Bai, biak ere</p>
+<p>Ederrean alkarren</p>
+<p>Antza badebe.</p>
+<p><hi rend='Italic'>Ai, aur ederra!...</hi></p>
+<p>Andre eder au aur onen</p>
+<p>Ama andre izanik,</p>
+<p>Jaio zanean bezela</p>
+<p>Dago, orregatik.</p>
+<p><hi rend='Italic'>Ai, aur ederra!...</hi></p>
+<p>Zer mirarial</p>
+<p>Ama izanik, dontzella</p>
+<p>Bait da garbia.</p>
+<p><hi rend='Italic'>Ai, aur ederra!...</hi></p>
+<p>Aur eder onen aita</p>
+<p>Ez da gizona;</p>
+<p>Da espiritu garbi bat,</p>
+<p>Da Jaungoikua.</p>
+<p><hi rend='Italic'>Ai, aur ederra!...</hi></p>
+<p>Argatik bada,</p>
+<p>Mirari ai&ntilde; andi au</p>
+<p>Gertatu bait da.</p>
+<p><hi rend='Italic'>Ai, aur ederra!...</hi></p>
+<p>Maiz ekusi dezute</p>
+<p>Kristal garbian,</p>
+<p>Nola sartu ta erten</p>
+<p>Oi dan argia,</p>
+<p><hi rend='Italic'>Ai, aur ederra!...</hi></p>
+<p>Ausirik gabe,</p>
+<p>Ta loirikan batere</p>
+<p>Utzirik gabe.</p>
+<p><hi rend='Italic'>Ai, aur ederra!...</hi></p>
+<p>Gisa artan Andre onen</p>
+<p>Sabel garbian</p>
+<p>Sartu ta erten izan da</p>
+<p>Jainkoaren itza.</p>
+<p><hi rend='Italic'>Ai, aur ederra!...</hi></p>
+<p>Aren gisara</p>
+<p>Mantxa gabe ta osorik</p>
+<p>Gelditzen dala.</p>
+<p><hi rend='Italic'>Ai, aur ederra!...</hi></p>
+<p>Aguretxo bat ere</p>
+<p>An dago aurtxoaz.</p>
+<p>Ezi&ntilde; dauka negarra</p>
+<p>Pozaren pozaz.</p>
+<p><hi rend='Italic'>Ai, aur ederra!...</hi></p>
+<p>I&ntilde;oiz malkoak</p>
+<p>Oi dira farra ba&ntilde;o</p>
+<p>Gozoagoak.</p>
+<p><hi rend='Italic'>Ai, aur ederra!...</hi></p>
+<p>Jaunak esleiturik</p>
+<p>Bere ordekotzat,</p>
+<p>Aurrak aita ez badu ere,</p>
+<p>Dauka artakotzat.</p>
+<p><hi rend='Italic'>Ai, aur ederra!...</hi></p>
+<p>Zorionekoa</p>
+<p>Izatea alako aurraren</p>
+<p>Aita ordekoa.</p>
+<p><hi rend='Italic'>Ai, aur ederra!...</hi></p>
+<p>Beste gizakumerik</p>
+<p>Aurkitzen ez da.</p>
+<p>Aurtxo onen konpa&ntilde;ia</p>
+<p>Eztitsu onetan.</p>
+<p><hi rend='Italic'>Ai, aur ederra!...</hi></p>
+<p>Mundu zoroa!</p>
+<p>Ez du sekula jaki&ntilde;</p>
+<p>Zer dan gauza ona.</p>
+<p><hi rend='Italic'>Ai, aur ederra!...</hi></p>
+<p>Ba&ntilde;an ez zaio palta.</p>
+<p>Ez, konpa&ntilde;ia,</p>
+<p>Bada bereki&ntilde; dauka</p>
+<p>Zeru guzia.</p>
+<p><hi rend='Italic'>Ai, aur ederra!...</hi></p>
+<p>Argatik naski</p>
+<p>Dabil mundua igasi</p>
+<p>Toki artatik.</p>
+<p><hi rend='Italic'>Ai, aur ederra!...</hi></p>
+<p>Aingeruak kantatzen</p>
+<p>Diote aurrari:</p>
+<p>Gloria zeruetan</p>
+<p>Jaungoikoari,</p>
+<p><hi rend='Italic'>Ai, aur ederra!...</hi></p>
+<p>Eta bakea</p>
+<p>Gizon on guzientzat</p>
+<p>Berriz lurrean.</p>
+<p><hi rend='Italic'>Ai, aur ederra!...</hi></p>
+<p>Nai dutenak etorri,</p>
+<p>Betoz laxterka,</p>
+<p>Musika zeruko au</p>
+<p>Aditutzera,</p>
+<p><hi rend='Italic'>Ai, aur ederra!...</hi></p>
+<p>Ta aeki&ntilde; batera</p>
+<p>Gure borondate ona</p>
+<p>Erakustera.</p>
+<p><hi rend='Italic'>Ai, aur ederra!...</hi></p>
+<p>Goazen, ta bere o&ntilde;etan</p>
+<p>Umilki etzi&ntilde;ik,</p>
+<p>Alabatuko degu</p>
+<p>Biotz guzitik.</p>
+<p><hi rend='Italic'>Ai, aur ederra!...</hi></p>
+<p>Modu onetan</p>
+<p>Ez digu, ez, ukatuko,</p>
+<p>Deus ere ezertan.</p>
+<p><hi rend='Italic'>Ai, aur ederra!...</hi></p>
+<p>Eska zaiogun bada</p>
+<p>Lendabizian,</p>
+<p>Ez gaitzala, arren, utzi,</p>
+<p>Gere bizian.</p>
+<p><hi rend='Italic'>Ai, aur ederra!...</hi></p>
+<p>Gurekin dela,</p>
+<p>Ez gera ezeren bildur,</p>
+<p>Naiz dena dela.</p>
+<p><hi rend='Italic'>Ai, aur ederra!...</hi></p>
+<p>Orain aur maite oneki&ntilde;</p>
+<p>Ongi bagera,</p>
+<p>Gero eramango gaitu,</p>
+<p>Beraz batera,</p>
+<p><hi rend='Italic'>Ai, aur ederra!...</hi></p>
+<p>Bere Aitagana,</p>
+<p>Sekulako bizitza</p>
+<p>Ta gloriara.</p>
+<p>Ala biz.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>BIGARREN OTSALDIA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'><hi rend='Italic'>Aria</hi></hi></p>
+<p><hi rend='Italic'>Karkiadearen eta egiazko amorioaren auan</hi></p>
+<p>Au egun zoratzekoa!</p>
+<p>Zer poz andia!</p>
+<p>Zer atsegi&ntilde;a!</p>
+<p>Ai&ntilde; da poz nere gogoa,</p>
+<p>Zein da ez dakit zer egi&ntilde;.</p>
+<p><hi rend='Bold'><hi rend='Italic'>Errezitatua</hi></hi></p>
+<p>Jaungoiko andiaren</p>
+<p>Esku indartsuak sortutako guziak,</p>
+<p>Eguzki eder, illargi, ta izar argiak.</p>
+<p>Zeruak, lurra, ta itxaso zabalak,</p>
+<p>Atozte, atozte nigana, zeranak.</p>
+<p>Kanta ditzagun guzien artean</p>
+<p>Jaungoikoaren gloriak gaurko gabean.</p>
+<p>Mendi portitzak, aariak bezela, dantza:</p>
+<p>Munotxoak salto, bildotstxoen gisara;</p>
+<p>Ibar ta madura lau, baso ta txara.</p>
+<p>Atozte, atozte nigana, zeranak,</p>
+<p>Kanta dezagun guzion artean</p>
+<p>Jaungoikoaren gloria, gaurko gabean.</p>
+<p>Arbola orritsu berde, trebola fi&ntilde;ak,</p>
+<p>Larrosa, klabeli&ntilde;a eta jazmi&ntilde;ak,</p>
+<p>Ibai zabal, osi&ntilde;ez betetakoak,</p>
+<p>Erreka berritxutxo itz jarioak,</p>
+<p>Itz batean, zerua bere argiaki&ntilde;,</p>
+<p>Lurra, itxasoaz ta ur guziaki&ntilde;;</p>
+<p>Ibaiak, arbolak, mendiak eta izarrak,</p>
+<p>Atozte, atozte nigana, zeranak,</p>
+<p>Kanta dezagun guzion artean</p>
+<p>Jaungoikoaren gloria, gaurko gabean.</p>
+<p><hi rend='Bold'><hi rend='Italic'>Ariatxoa</hi></hi></p>
+<p>Eguzki andia,</p>
+<p>Izar argia,</p>
+<p>Lastotan dautzan</p>
+<p>Aurtxo orrek</p>
+<p>Sortua zera,</p>
+<p>Ta orren mendera</p>
+<p>Bizi artean</p>
+<p>Zaude zuek.</p>
+<p>Ur aserrea,</p>
+<p>Mendi eskerkea,</p>
+<p>Lastotan dautzan</p>
+<p>Aurtxo onek,</p>
+<p>Ain geldirikan</p>
+<p>Zuen tokian</p>
+<p>Leku batean</p>
+<p>Zauzka zuek.</p>
+<p>Au ala izanik,</p>
+<p>Aur biurturik</p>
+<p>Gaurko gabean</p>
+<p>Dadukat nik,</p>
+<p>Gizon tristea,</p>
+<p>Penaz betea,</p>
+<p>Libratu dezan</p>
+<p>Pekatutik.</p>
+<p>Nik ekarririk</p>
+<p>Gizon egi&ntilde;ik,</p>
+<p>Nik gaur bear det</p>
+<p>Kantatu</p>
+<p>Bere etorrera</p>
+<p>Gizon artera;</p>
+<p>Eta ala zuek</p>
+<p>Lagundu.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>IRUGARREN OTSALDIA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>ARTZAI KANTA</hi></p>
+<p><hi rend='Bold'><hi rend='Italic'>Adirakaia</hi></hi></p>
+<p>Guziak dakite nola aingeruak gaztigatu zieten Belen inguruko artzaiai munduaren Salbatzallea jaio zala estrabi batean.</p>
+<p>Ebanjelioko pasarte onetatik ta beste toki askotatik, nun J.K. gureak bere burua artzaitzat izendatzen duen, artu izan da otsaldi edo kanta onen irudidea; ze&ntilde;ean asmatzen dan, Belen inguruko artzaiak, jaki&ntilde;ik Artzai berri bat eldu dala abel-etxera, alkar arturik, diazela ongi-etorria ematera. Onetarako, Tersis ta Filis lagun guztietatik gazteenai, ta bozik onenak dituztenai, enkargatzen diete ongi-etorria guzien izeneau ematea, zeintzuek au egiten dute kanta berri onetan; nun artzaiaren egokikilde edo <hi rend='Italic'>metafora</hi>ren azpian estaltzen diran Jesu-Kristoren bizitza ta gure Fedeko misteriorik nagusienak.</p>
+<p><hi rend='Bold'>ARTZAI KORUA</hi></p>
+<p>Ola, goazen, artzaiak,</p>
+<p>Abel-etxera,</p>
+<p>Lagun berri bat</p>
+<p>Ezagutzera:</p>
+<p>Ta ongi-etorri on bat</p>
+<p>Ematekotzat,</p>
+<p>Guzien partez,</p>
+<p>Tersis, zuk ta Filisek</p>
+<p>Kanta kanta berri bat.</p>
+<p><hi rend='Bold'>TERSIS ta FILISEK, biak</hi></p>
+<p>Ba&ntilde;a kontu zuek ere laguntzeaz,</p>
+<p>Estribillo batez, guzien artean.</p>
+<p><hi rend='Bold'>GUZIAK</hi></p>
+<p>Ordu onean.</p>
+<p><hi rend='Bold'>TERSIS ta FILISEK</hi></p>
+<p>1/</p>
+<p>Artzai zoragarria!</p>
+<p>Ona emen gera,</p>
+<p>Ongi-etorri on bat</p>
+<p>Zuri ematera:</p>
+<p>Ez da artzairik gelditu</p>
+<p>Inguru guzian,</p>
+<p>Diranak emen datoz,</p>
+<p>Bada, elkarren leian.</p>
+<p><hi rend='Bold'>ERANTZUERA</hi></p>
+<p>Erantzun bada, lagunak,</p>
+<p>Esan dezun bezela,</p>
+<p>Jaki&ntilde; dezan etortze onez</p>
+<p>Nola gu poztu geran:</p>
+<p>Ea bada, kanta laxter.</p>
+<p><hi rend='Bold'>GUZIAK</hi></p>
+<p>Bai, bai, bai, bai, bai, bai, bai.</p>
+<p><hi rend='Bold'>BIAK</hi></p>
+<p>Ea bada, kanta laxter.</p>
+<p><hi rend='Bold'>GUZIAK</hi></p>
+<p>Bai, bai, bai, bai, bai, bai, bai.</p>
+<p>Ongi etorri zerala,</p>
+<p>Artzai pare gabea,</p>
+<p>Gureki&ntilde; bearko dezu</p>
+<p>Beti sekularean..</p>
+<p><hi rend='Bold'>TERSIS ta FILISEK</hi></p>
+<p>2/</p>
+<p>Artaldeak bakarrik,</p>
+<p>Txabolak zai gabe,</p>
+<p>Utzirik gatoz, ba&ntilde;a</p>
+<p>Ardurarik gabe:</p>
+<p>Piztietatik dala,</p>
+<p>Naiz lapurretatik,</p>
+<p>Zuk gordeko dituzu,</p>
+<p>Or zautzan lekutik.</p>
+<p><hi rend='Italic'>Erantzun, bada, lagunak...</hi></p>
+<p><hi rend='Bold'>T. ta F.</hi></p>
+<p>3/</p>
+<p>Etsaia alperrik dabil</p>
+<p>Leoia bezela,</p>
+<p>Inguruka, ustez zerbait</p>
+<p>Artuko duela.</p>
+<p>Judako leoiaren</p>
+<p>Begiratzun batek</p>
+<p>Utzi erazoko dizka</p>
+<p>Laxter bazter abek.</p>
+<p><hi rend='Italic'>Erantzun, bada, lagunak...</hi></p>
+<p><hi rend='Bold'>T. ta F.</hi></p>
+<p>4/</p>
+<p>Zu agertuareki&ntilde;</p>
+<p>Egingo dute iges</p>
+<p>Gure etsai guztiak</p>
+<p>Emendik bildurrez:</p>
+<p>Euren damu gaistoan</p>
+<p>Uxatuko dira,</p>
+<p>Ta inpernuetara&ntilde;o</p>
+<p>Ondatuko dira.</p>
+<p><hi rend='Italic'>Erantzun, bada, lagunak...</hi></p>
+<p><hi rend='Bold'>T. ta F.</hi></p>
+<p>5/</p>
+<p>Artzaitzat zendozena</p>
+<p>Aintzi&ntilde;a gengian,</p>
+<p>Lenagoko gizonai</p>
+<p>Maiz aditurikan:</p>
+<p>Ta ai&ntilde; maite artaldea</p>
+<p>Izango dezula,</p>
+<p>Non ta azkenik bizitza</p>
+<p>Kastauko zaitzula.</p>
+<p><hi rend='Italic'>Erantzun, bada, lagunak...</hi></p>
+<p><hi rend='Bold'>T. ta F.</hi></p>
+<p>6/</p>
+<p>Ardiak duten gaitza</p>
+<p>Kentzeko jaki&ntilde;ik,</p>
+<p>Ez dala artzaiaren</p>
+<p>Odola lakorik:</p>
+<p>Etorri ta egun asko</p>
+<p>Pasatu ba&ntilde;o len</p>
+<p>Asiko zeradela</p>
+<p>Ugariro ixurten.</p>
+<p><hi rend='Italic'>Erantzun, bada, lagunak...</hi></p>
+<p><hi rend='Bold'>T. ta F.</hi></p>
+<p>7/</p>
+<p>Amodio andi onek</p>
+<p>Parerikan ez du,</p>
+<p>Artzai ona zerala</p>
+<p>Erraz dezakezu:</p>
+<p>Orrek ardiak zaitzen</p>
+<p>Ipi&ntilde;iko zaitu,</p>
+<p>Ta orrek aien ondoren</p>
+<p>Ekarriko zaitu.</p>
+<p><hi rend='Italic'>Erantzun, bada, lagunak...</hi></p>
+<p><hi rend='Bold'>T. ta F.</hi></p>
+<p>8/</p>
+<p>Bost bider ekustean,</p>
+<p>Lagunak utzirik,</p>
+<p>Ardiren bat diala</p>
+<p>Bide okerretik,</p>
+<p>Galdu dedi&ntilde; bildurrak</p>
+<p>Osta antxiturik,</p>
+<p>Biurtuko dezu atzera,</p>
+<p>Lepoan arturik.</p>
+<p><hi rend='Italic'>Erantzun, bada, lagunak...</hi></p>
+<p><hi rend='Bold'>T. ta F.</hi></p>
+<p>9/</p>
+<p>Ogei ta amairu urte.</p>
+<p>Pena andiz beteak,</p>
+<p>Emango ditzu, abek</p>
+<p>Ondo gordetzeak;</p>
+<p>Ta aien kabuan gero</p>
+<p>Esker ematea</p>
+<p>Izango da gogorki</p>
+<p>Bizitza kentzea.</p>
+<p><hi rend='Italic'>Erantzun, bada, lagunak...</hi></p>
+<p><hi rend='Bold'>T. ta F.</hi></p>
+<p>10/</p>
+<p>Orduan kunpli dedi&ntilde;</p>
+<p>Aintzi&ntilde;ako itza:</p>
+<p>Artzaia jo, ardiak</p>
+<p>Banatuko dira.</p>
+<p>Ba&ntilde;a iru egun barru</p>
+<p>Zu piztuko zera,</p>
+<p>Ta bilduko dituzu</p>
+<p>Elkargana ostera.</p>
+<p><hi rend='Italic'>Erantzun, bada, lagunak...</hi></p>
+<p><hi rend='Bold'>T. ta F.</hi></p>
+<p>11/</p>
+<p>Ala ere Aitagana</p>
+<p>Biurtu bearko dezu.</p>
+<p>Ta artalde maite ori</p>
+<p>Utzi naiko ez dezu;</p>
+<p>Ba&ntilde;a zure amoreak</p>
+<p>Asmatuko bait du</p>
+<p>Nola, joanagatik,</p>
+<p>Aieki&ntilde; gelditu.</p>
+<p><hi rend='Italic'>Erantzun, bada, lagunak...</hi></p>
+<p><hi rend='Bold'>T. ta F.</hi></p>
+<p>12/</p>
+<p>Mirarietatikan</p>
+<p>Mirar&#161; andiena</p>
+<p>Izango da artarako</p>
+<p>Ikusiko dena;</p>
+<p>Bada ogiaren antzaz</p>
+<p>Ostia batean</p>
+<p>Geldituko zerade,</p>
+<p>Zure artaldean.</p>
+<p><hi rend='Italic'>Erantzun, bada, lagunak...</hi></p>
+<p><hi rend='Bold'>T. ta F.</hi></p>
+<p>13/</p>
+<p>Emen Zerutik i&ntilde;oiz</p>
+<p>Alde egin bagerik,</p>
+<p>Egongo zera ardien</p>
+<p>Janari egi&ntilde;ik;</p>
+<p>Orrela izango zera</p>
+<p>Beti aien aldean,</p>
+<p>Arik-eta munduak</p>
+<p>Dirauen artean.</p>
+<p><hi rend='Italic'>Erantzun, bada, lagunak...</hi></p>
+<p><hi rend='Bold'>T. ta F.</hi></p>
+<p>14/</p>
+<p>Asko ez balitz bezala</p>
+<p>Mirar&#161; ai&ntilde; andia.</p>
+<p>Ipi&ntilde;iko ere dezu</p>
+<p>Ordeko Artzaia,</p>
+<p>Zure ardiak ongi</p>
+<p>Gobernatu ditzan.</p>
+<p>Ta bide onetatik</p>
+<p>erabilli ditzan.</p>
+<p><hi rend='Italic'>Erantzun, bada, lagunak...</hi></p>
+<p><hi rend='Bold'>T. ta F.</hi></p>
+<p>15/</p>
+<p>Artzai onen mendean</p>
+<p>Arkitze ez diranak</p>
+<p>Izan bearko dute</p>
+<p>Galduak diranak:</p>
+<p>Ta ala, artzai maitea,</p>
+<p>Zureki&ntilde; nai degu.</p>
+<p>Ta argan zure ordea</p>
+<p>Ezagutzen degu.</p>
+<p><hi rend='Italic'>Erantzun, bada, lagunak...</hi></p>
+<p><hi rend='Bold'>T. ta F.</hi></p>
+<p>16/</p>
+<p>Artzai onen mendean</p>
+<p>Bizi ta ilko gera,</p>
+<p>Joateko Zureki&ntilde;</p>
+<p>Aitaren aldera;</p>
+<p>Arren lagun zakizgu</p>
+<p>Au ala kunplitzen,</p>
+<p>Gero goza zaitzagun</p>
+<p>Zeruetan. Amen.</p>
+<p><hi rend='Italic'>Erantzun, bada, lagunak... </hi></p>
+<p><hi rend='Bold'><hi rend='Italic'>Kopla jostalluak</hi></hi></p>
+<p>Ezagun du munduak</p>
+<p>Jesus jaio dena;</p>
+<p>Ain dago mudatua,</p>
+<p>Ez dirudi lena;</p>
+<p>Len guzia zan pena,</p>
+<p>Negar, naibageak,</p>
+<p>Ta orai&ntilde; atsegi&ntilde;, gusto,</p>
+<p>Algara, parreak.</p>
+<p>Gorroto, errierta,</p>
+<p>Auziak ta gerra,</p>
+<p>Gaitzak, gose, gezur ta</p>
+<p>Intentzio okerrak</p>
+<p>Juanik, ia ez dago</p>
+<p>Ezerren bildurrik,</p>
+<p>Ta ala dago mundua</p>
+<p>Zeru bat egi&ntilde;ik.</p>
+<p>Abogadu, eskribau</p>
+<p>Eta merioak,</p>
+<p>Mediku, barbero ta</p>
+<p>Botikarioak,</p>
+<p>Ez dira bear; ta argatik</p>
+<p>Izango da sarri</p>
+<p>Hipokrates gaxoa</p>
+<p>Saguen janari.</p>
+<p>Ezpatak, lantzak eta</p>
+<p>Beste arma guziak</p>
+<p>Erositzen dituzte</p>
+<p>Errementariak;</p>
+<p>Ta alperrikan ez dedi&ntilde;</p>
+<p>Galdu burni ura,</p>
+<p>Enpleatzera diaz</p>
+<p>Gure probetxura.</p>
+<p>Atxur, burdi&ntilde;ara ta</p>
+<p>Golde biurturik,</p>
+<p>Nekazari langi&ntilde;ak</p>
+<p>Ongi giaturik,</p>
+<p>Emango digu lurrak</p>
+<p>Garia ta artoa,</p>
+<p>Gazta&ntilde;a, sagardoa</p>
+<p>Ta ardoa naikoa.</p>
+<p>Garia ta artoa</p>
+<p>Merke ta ugariro,</p>
+<p>Gazta&ntilde;a ta sagarra</p>
+<p>Berriz urte-oro;</p>
+<p>Ta ardoak, galdurikan</p>
+<p>Lengo malizia,</p>
+<p>Ez gaitu moskortuko.</p>
+<p>Edan zia-zia.</p>
+<p>Ez da onezkero esango</p>
+<p>Gezurrik batere,</p>
+<p>Egia esango dute</p>
+<p>Dendariak ere:</p>
+<p>Juan da emendik tranpa</p>
+<p>Ta pede gaistoa,</p>
+<p>Ia ur bage saltzen da</p>
+<p>Tabernan ardoa.</p>
+<p>Basa arteko piztiak</p>
+<p>Malso-malso egi&ntilde;ik,</p>
+<p>Ez dute ya alkar jaten,</p>
+<p>Ta ai&ntilde; gitxi gizonik.</p>
+<p>Bat egi&ntilde;ik guziak</p>
+<p>Alkarren artean</p>
+<p>Bizi dira etsai gabe,</p>
+<p>Kontentuz, bakean.</p>
+<p>Otsoa ta ardia</p>
+<p>Zelai zabalean</p>
+<p>Sarri ekusten dira</p>
+<p>Biak jolasean;</p>
+<p>Alberdanian txita</p>
+<p>Aizariareki&ntilde;.</p>
+<p>Portugesa laztanga</p>
+<p>Gastelaubareki&ntilde;.</p>
+<p>Auxen bai dala egiaz</p>
+<p>Denbora urrezkoa,</p>
+<p>Ta ez len koplari zarrak</p>
+<p>Erausitakoa;</p>
+<p>Orai&ntilde; aien amesak</p>
+<p>Egia sorturik,</p>
+<p>Ekusten ari zera</p>
+<p>Pozez zoraturik.</p>
+<p>Ba&ntilde;a kanta berri au</p>
+<p>Geitxo luzatu da,</p>
+<p>Nere eztarri tristea</p>
+<p>Ia urratu da;</p>
+<p>Naiago det ixildu</p>
+<p>Katarratu ba&ntilde;o;</p>
+<p>Agur, nere jendeak,</p>
+<p>Urrengo urtera&ntilde;o.</p>
+        </body>
+      </text>
+    </group>
+  </text>
+</TEI.2>
+

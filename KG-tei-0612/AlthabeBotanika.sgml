@@ -1,0 +1,575 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN"
+                       "http://www.tei-c.org/P4X/DTD/tei2.dtd" [
+   <!ENTITY % TEI.prose    'INCLUDE' >
+   <!ENTITY % TEI.linking  'INCLUDE' >
+   <!ENTITY % TEI.analysis 'INCLUDE' >
+   <!ENTITY % TEI.figures  'INCLUDE' >
+   <!ENTITY % TEI.XML      'INCLUDE' >
+   <!ENTITY % TEI.extensions.ent SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.ent' >
+   <!ENTITY % TEI.extensions.dtd SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.dtd' >
+]>
+<TEI.2>
+  <teiHeader>
+  <fileDesc>
+     <titleStmt>
+        <title>Ziberuko botanika edo lantharen jakitatia</title>
+        <author>Jean Baptiste Althabe</author>
+        <respStmt>Bertsio elektroniko honen egilea: Joxemiel Bidador.</respStmt>
+     </titleStmt>
+     <extent>5.905 hitz, 48.209 karaktere</extent>
+     <publicationStmt>
+        <publisher>Klasikoen Gordailua [http://klasikoak.armiarma.com/]</publisher>
+        <distributor>Estrata Liburuak S.L.</distributor>
+        <address type='email'>klasikoak@armiarma.com</address>
+        <idno type='ota'>AlthabeBotanika</idno>
+        <availability status='free'>Erabilpen librekoa; honoko helbidean topa daiteke (HTML, RTF eta PDF formatuetan): http://klasikoak.armiarma.com/idazlanak/A/AlthabeBotanika.htm</availability>
+        <date>2006</date>
+     </publicationStmt>
+     <sourceDesc>
+        <bibl>Iturria: Ziberuko botanika edo lantharen jakitatia, Jean Baptiste Althabe. Lamaign&egrave;re, 1900</bibl>
+        <notesStmt><note>Iturburuen datazioa: 1900</note></notesStmt>
+     </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+     <projectDesc>Euskal literaturako testu klasikoen bilduma da KLASIKOEN GORDAILUA; testu hau berorren parte da</projectDesc>
+     <refsDecl>
+        <p>MENTIONED etiketa egilearenak ez diren hitzak markatzeko erabili da: hitzaurreak, aipuak, iruzkinak, e.a.</p>
+    </refsDecl>
+     <classDecl>
+        <taxonomy id='generoa'>
+            <category id='G-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='G-ANT'><catDesc>Antzerkia</catDesc></category>
+            <category id='G-BER'><catDesc>Bertsoak</catDesc></category>
+            <category id='G-ERL'><catDesc>Erlijioa</catDesc></category>
+            <category id='G-NAR'><catDesc>Narratiba</catDesc></category>
+            <category id='G-POE'><catDesc>Poesia</catDesc></category>
+            <category id='G-SAI'><catDesc>Saiakera, kronika, artikuluak...</catDesc></category>
+        </taxonomy>
+        <taxonomy id='garaia'>
+            <category id='M-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='M-16'><catDesc>XVI. mendea</catDesc></category>
+            <category id='M-17-1'><catDesc>XVII. mendea - 1. erdia</catDesc></category>
+            <category id='M-17-2'><catDesc>XVII. mendea - 2. erdia</catDesc></category>
+            <category id='M-18-1'><catDesc>XVIII. mendea - 1. erdia</catDesc></category>
+            <category id='M-18-2'><catDesc>XVIII. mendea - 2. erdia</catDesc></category>
+            <category id='M-19-1'><catDesc>XIX. mendea - 1. erdia</catDesc></category>
+            <category id='M-19-2'><catDesc>XIX. mendea - 2. erdia</catDesc></category>
+            <category id='M-20-1'><catDesc>XX. mendea - 1. erdia</catDesc></category>
+            <category id='M-20-2'><catDesc>XX. mendea - 2. erdia</catDesc></category>
+        </taxonomy>
+        <taxonomy id='euskalkia'>
+            <category id='E-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='E-BAT'><catDesc>batua</catDesc></category>
+            <category id='E-BIZ'><catDesc>bizkaiera</catDesc></category>
+            <category id='E-BNA'><catDesc>behenafarrera</catDesc></category>
+            <category id='E-ERR'><catDesc>erronkariera</catDesc></category>
+            <category id='E-GIP'><catDesc>gipuzkera</catDesc></category>
+            <category id='E-GNA'><catDesc>goi nafarrera</catDesc></category>
+            <category id='E-LAP'><catDesc>lapurtera</catDesc></category>
+            <category id='E-NAF'><catDesc>nafarrera</catDesc></category>
+            <category id='E-ZAR'><catDesc>zaraitzuera</catDesc></category>
+            <category id='E-ZUB'><catDesc>zuberera</catDesc></category>
+        </taxonomy>
+    </classDecl>
+  </encodingDesc>
+  <profileDesc>
+     <textClass>
+       <keywords scheme='generoa'>
+         <list><item>G-SAI</item></list>
+       </keywords>
+       <keywords scheme='garaia'>
+         <list><item>M-19-2</item></list>
+       </keywords>
+       <keywords scheme='euskalkia'>
+         <list><item>E-ZUB</item></list>
+       </keywords>
+     </textClass>
+  </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>Ziberuko botanika edo lantharen jakitatia -- Jean Baptiste Althabe</docTitle>
+    </front>
+    <group>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>ZIBERUKO BOTANIKA EDO LANTHAREN JAKITATIA</p><--</head>
+        </front>
+        <body>
+<p>Bai bada jakitate hori, bena geruago txipitzenago ari da. Hitzen erdiak ez dira ezag&uuml;t&uuml;rik orai berrogei urthez peko jentez. Izan da <hi rend='Italic'>&Uuml;skald&uuml;na </hi>hogeita hamar urthe huntan laborari zaharrer entz&uuml;n lantharen izenak bild&uuml; d&uuml;tiana, eta ez ahazteko izkirib&uuml;s hart&uuml; d&uuml;tiana. Eg&uuml;n harren ez &uuml;zteko galtzera, hasten da izen horien herrokatzen <hi rend='Italic'>&Uuml;skald&uuml;n </hi>kazetan<mentioned><SUP> [2]</SUP></mentioned>. Othoitzen d&uuml; horren na&uuml;sia, hun har dezan bihotzez obendatzen deron lan txipi hau. Hitz horiek oro zaharren ahotik elkhirik dira. Biltzaliak ez d&uuml; mereximent&uuml;rik biltzeko pazentzia baizik, eta, lag&uuml;n huneki, frantses hitzen edietekua baizik. Uste d&uuml; badela orano haboro biltzeko, nahi bada, baden hanitx ere gald&uuml;rik. &Uuml;skald&uuml;na ohartzale da zerk hun edo gaitz egin deron, eta halaz izentat&uuml; d&uuml;t&uuml; lantharik. Batak: xixari belharra, odol belhar, arrestel&uuml; belharra. Bestik beren itx&uuml;retarik: axeri b&uuml;ztana, idi mihia, gath&uuml; bixarra. Zonbait beren lilitzeko sazutik: bedats lilia, domesanthore lilia. Eta orano edieten diren lekh&uuml;tik: koment&uuml; lilia, andere mahatsa... Jinkuak lanthare bakhotxari eman d&uuml; bere photeria sendotzeko edo eritzeko. Minaren khantin ezarri d&uuml; orotan belhar sendozalia, ezag&uuml;t&uuml; behar beita salb&uuml; Jinkuaren doha&ntilde;a.</p>
+<p>Hatsarretik Jinkuak egin zienian l&uuml;rra, erran zeron: l&uuml;rrak ekhar beza belhar berde s&uuml;bertiak, bakhotxa bere aziareki, bai eta z&uuml;hain fr&uuml;t&uuml; emaileak, bakhotxa bere fr&uuml;t&uuml; eta aziareki. Eta hala izan zen, Jinkuak manat&uuml; bezala. Ikhusirik lantharen, z&uuml;hai&ntilde;en, &uuml;zten baliustarsun espantagarria gizonen eta kabalen hazteko eta sendotzeko, dezala gizon feded&uuml;nak goratik erran: Jinkuari d&uuml;g&uuml;n laidoro eta esker.</p>
+<p><hi rend='Bold'>Ahagua</hi>.<foreign> Patience (paciencia, romaza, rumex hydrolapathum).</foreign></p>
+<p>Horen zai&ntilde;aeki egin tizana baliatzen da axaleko eraitekuetan<mentioned><SUP> [3]</SUP></mentioned>.</p>
+<p><hi rend='Bold'>Ahamenta</hi>. <foreign>Menthe poivr&eacute;e des jardins (menta)</foreign><mentioned><SUP> [4]</SUP></mentioned><foreign>.</foreign></p>
+<p>Lantharen baliusenetarik. Horren gozotik dira egiten pastilla borthitzak. Meliza bezala adelat&uuml;rik den tizanak azkartzen d&uuml; estomaka, dijestizionia eginazten, ikharak eta barne aizik ohiltzen, begitharte eri izanak zoharditzen, errendeia eta inbeak iganazten, kolika eztitzen, haurrer xixariak ehaiten, &uuml;nh&uuml;der esnia igan erazten, ahamenta ostoz belara herstez b&uuml;r&uuml;ko mina anpletzen.</p>
+<p><hi rend='Bold'>Ahan berdia</hi>. <foreign>Reine claude (ciruela claudia, prunus domestica)</foreign><mentioned><SUP> [5]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Ahantzia</hi>. <foreign>Prunier (ciruelo, prunus).</foreign></p>
+<p>Nula muzkin egin hortarik laborariak? Ahan marlatik erosten dira khario. Atse errezumetarik jiten da Frantzian eskas dena. Zertako &uuml;skald&uuml;n laborariak ezliro egin berak. Ez da gaitz. Hortakotz behar da &uuml;khen Ageneko herriko ahantzia. Horren ez&uuml;rra erein edo sindikataren bidez hanti enpheltia ekharreaz (balitzateke hasteko Urdi&ntilde;arben), basa ahantze saldo bat enphelta, eta hirur urtheren b&uuml;r&uuml;ko emanen die ahan larri, briolet kolore, l&uuml;zan bat. Ord&uuml;nkoz eginik izan behar l&uuml;kie txotxezko khereta aldia bat, labe borthan igaiten ahal dien hei&ntilde;ean, behar dena labe zolaren garnitzeko. Untsa hunt&uuml; dienin ahanak, bata bestiaren ga&ntilde;en ezarri gabe, heda khereta horietan ga&ntilde;en. Ogia aski erreik den ph&uuml;ntian, idok labetik, eta behala ezar ordaritako khereta horiek bere fruteki labe zolan. Bihamenin, idoki kheretak eta &uuml;tz&uuml;l pilazgora ahanak. Ahintzen hasi dira, Jinkuak barnen ezarri hur s&uuml;kratia galzen hasi da, s&uuml;kria lodiago barat&uuml; da. &Uuml;tz&uuml;li ondun ahanak, berriz labia beroazten da lehen aldin beno haboroxiago, ogiak idoki zienian beno, eta berriz ezartzen dira ahanak labian bere kheetetan. Bihamenin berriz idoki kheretak, &uuml;tz&uuml;l ahanak, hirurgerren aldikoz ezar khereteki ahanak, labia bigarren aldin beno beroxiago heleazten delarik. Bi oren egon dienekoz bero hortan, idok ahanak, marlatuik dira. Ordian plega bero beruak dieno kesa hatsik hartzen eztin baten zolan. Kesaren bethatzekua balin bada, tinka eztiki ahanak artetarik. Untsa thapa kesa eta bi urthez ez dira gastat&uuml;ko ez minth&uuml;ko, &uuml;mitarzunik gabe begiatzen badira selaurian. Hobenko ahan txarrak hola hola marla ahal ditake, bena mami g&uuml;ti eta ez&uuml;r handi l&uuml;kete.</p>
+<p><hi rend='Bold'>Aihen xuria</hi>. <foreign>Clematite des haies (hierba de los pordioseros, clematis vitalba).</foreign>Kobai&ntilde; egiteko.</p>
+<p><hi rend='Bold'>Aihena</hi>. <foreign>Vigne (vid).</foreign></p>
+<p>S&uuml;bertiak edo melgak dira: Iskiribeta, korb&uuml;a, klaberia, kamalaua, erle mahatsa, bordeleza, xarxela, klamadana, tanata, duxeta, xoxo mahatsa, basa mahatsa. Hilabetez, bar&uuml;rik mahats jatiak sendotzen d&uuml; gogoreia.</p>
+<p><hi rend='Bold'>Aistigarra</hi>. <foreign>Erable (arce, acer).</foreign></p>
+<p><hi rend='Bold'>Aita&ntilde;i lilia</hi>. <foreign>Pissenlit (amarg&oacute;n, diente de leo&oacute;n, taraxacum officinale).</foreign></p>
+<p>Zeren din fr&uuml;t&uuml; b&uuml;r&uuml; xuri.</p>
+<p><hi rend='Bold'>Akaziatzia</hi>. <foreign>Acacia</foreign>.<hi rend='Bold'>Akhamaila</hi>. <foreign>Hi&egrave;ble, yeble (yergo, sambucus ebulus).</foreign></p>
+<p>Za&ntilde;eki egin tizanak sendotzen d&uuml; &uuml;s&uuml; idropizia<mentioned><SUP> [6]</SUP></mentioned>.</p>
+<p><hi rend='Bold'>Alga</hi>. <foreign>Aira (brezo, erica cinerea)</foreign><mentioned><SUP> [7]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Alharg&uuml;ntsa belharra, zorri belharra</hi>. <foreign>Aconit (matalobos, aconitum napellus)</foreign><mentioned><SUP> [8]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Alhor kardia</hi>. <foreign>Chardonnelle &agrave; feuilles &eacute;tendues par terre</foreign><mentioned><SUP> [9]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Ama&ntilde;i lilia</hi>. <foreign>Lilas syringa.</foreign></p>
+<p><hi rend='Bold'>Ametza</hi>. <foreign>Ch&ecirc;ne blanc o&ugrave; tauzin (melojo, quejigo, quercus toaza).</foreign></p>
+<p><hi rend='Bold'>Anb&uuml;la</hi>. <foreign>Asphod&egrave;le (gam&oacute;n, asphodelus albus)</foreign><mentioned><SUP> [10]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Andere mahats beltza</hi>. <foreign>Cassis (grosella negra, ribes uva crispa)</foreign><mentioned><SUP> [11]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Andere mahats gorria</hi>. <foreign>Groseille rouge (grosella roja, rives rubrum).</foreign></p>
+<p><hi rend='Bold'>Aniza</hi>. <foreign>Anis (pimpinela anisum).</foreign></p>
+<p><hi rend='Bold'>Apiaza</hi>. <foreign>Bouton d'or, renoncule (ren&oacute;ncula).</foreign></p>
+<p>Sohoko eta alhorreko lehen belhar berdia da bedatsian. Lilia urhe kolore, barnia argi berniza bezala. Lehen belhar berdia delakoz, aretza lotzen zaio lehiaeki. Mahastekatu onduan, ertxiak barnetik oro min jarten dira, jan onduan. Ordian aretzak bedajo dira erran nahi beita zain hil, begi handi eli bat zabalt&uuml;rik nigarrez &uuml;d&uuml;ri, phaetiak joiten ikhusten ez balire bezala. Belhar berde horrek phuzuat&uuml;rik dira. Eman ordin kuntre phuzutako zahi hur. Apiazak idor ondoan galtzen d&uuml; phozua.</p>
+<p><hi rend='Bold'>Apiua, urdenapiua</hi>. <foreign>Celeri (apio, apium graveolens)</foreign><mentioned><SUP> [12]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Arabarba. </hi><foreign>Rhubarbe (ruibarbo, rheum nomen generis).</foreign></p>
+<p>P&uuml;rgatzen d&uuml;.</p>
+<p><hi rend='Bold'>Ardaia</hi>. <foreign>Amadou (yesca, fomex fomentarius)</foreign><mentioned><SUP> [13]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Ardi mihia</hi>. <foreign>Doucette, mache (yerba de los can&oacute;nigos, valerianella olitoria)</foreign><mentioned><SUP> [14]</SUP></mentioned><foreign>.</foreign></p>
+<p>Horren jatiak eztitzen, freskatzen eta xahatzen d&uuml; barnia intsaladan.</p>
+<p><hi rend='Bold'>Arestel&uuml; belharra</hi>. <foreign>Chiendent rampant (grama, agropyrum reptans)</foreign><mentioned><SUP> [15]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Arestel&uuml; zai&ntilde;a</hi>. <foreign>Chiendent commun (grama com&uacute;n, cynodon dactilon).</foreign></p>
+<p><hi rend='Bold'>Aribanta</hi>. <foreign>Rubanier (platanaria, sparganium ramosum)</foreign><mentioned><SUP> [16]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Arradiza</hi>. <foreign>Radis, ruiponce (raponchigo, campanula rapunculus)</foreign><mentioned><SUP> [17]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Arraga belharra</hi>. <foreign>Astrancia</foreign><mentioned><SUP> [18]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Arragalisa</hi>. <foreign>R&eacute;glisse (regaliz, glycyrrhiza glabra).</foreign></p>
+<p>Gure bortietako lanthare bat baliatzen dena prauen tizana s&uuml;kratzeko<mentioned><SUP> [19]</SUP></mentioned>.</p>
+<p><hi rend='Bold'>Arragatzia</hi>. <foreign>Fraisier (fresal, fragaria vesca).</foreign></p>
+<p><hi rend='Bold'>Arrosatzia</hi>. <foreign>Rosier (rosal, rosa).</foreign></p>
+<p><hi rend='Bold'>Artho xehia</hi>. <foreign>Millet (mijo, lithos permum officinale)</foreign><mentioned><SUP> [20]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Arthua</hi>. <foreign>Ma&iuml;s (maiz).</foreign></p>
+<p><hi rend='Bold'>Artixauta</hi>. <foreign>Artichaut (alcachofa, cynara scolymus)</foreign><mentioned><SUP> [21]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Artzain musa</hi>. <foreign>Bourse &agrave; pasteur (paniquesillo, bursa pastoris)</foreign><mentioned><SUP> [22]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Asperjatzia</hi>. <foreign>Asperge (esparrago, aparragus officinalis).</foreign></p>
+<p><hi rend='Bold'>Aspilzia</hi>. <foreign>Alizier (mostajo, sorbus aria)</foreign><mentioned><SUP> [23]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Asto lilia</hi>. <foreign>Jeannette jaune ou coucou narcisse.</foreign></p>
+<p><hi rend='Bold'>As&uuml;na</hi>. <foreign>Ortie (ortiga, urtica).</foreign></p>
+<p>Gora juiliaren tizanak ohiltzen d&uuml;t&uuml; bulharretako eta gibel erraietako emur soberikinak. &Uuml;da ala neg&uuml;, zai&ntilde;eki egin tizana orano hobe da. &Uuml;s&uuml; jaten dinak as&uuml;n ph&uuml;nta egosirik, espinaka bezala prestat&uuml;rik, odol gastat&uuml;ti librat&uuml;ko da. Italianuek &uuml;s&uuml; jaten die as&uuml;n zopa. Errematisma dinak seha edo freta bitza minak eg&uuml;n oroz as&uuml;n fresk ah&uuml;rreta bateki, zalhet&uuml;ko da.</p>
+<p><hi rend='Bold'>As&uuml;n xuria</hi>. <foreign>Lamier, ortie blanche (ortiga blanca, lamium maculatum).</foreign></p>
+<p><hi rend='Bold'>Axei b&uuml;ztan</hi>. <foreign>Pr&ecirc;le (cola de caballo, equisetum telmateya)</foreign><mentioned><SUP> [24]</SUP></mentioned></p>
+<p>Aiza edieiten den belhar hori baliusenetarik da barneko eta kanpoko. Horeki heakitu hurak min eta zauri zaharrak xahatzen ejertzen d&uuml;t&uuml;, horreki bustatzez edo hortan bustirik den oihal batez troxatzez. Horreki egin tizanak xaharatzen d&uuml; estomaka. odolezko kraxatak, emazten odol galtziak eta grabela. Hur hori s&uuml;d&uuml;rraz h&uuml;rr&uuml;patzez &uuml;kh&uuml;razten d&uuml;t&uuml; s&uuml;d&uuml;rrezko odol galtziak.</p>
+<p><hi rend='Bold'>Aza</hi>. <foreign>Chou (berza, brassica oleracea).</foreign></p>
+<p><hi rend='Bold'>Baatse kafia</hi>. <foreign>Lupin bleu (altramuz, lupinus albus)</foreign><mentioned><SUP> [25]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Baatze krexua</hi>. <foreign>Cresson alenois (mastuerzo hortense, lepidium sativum</foreign><mentioned><SUP> [26]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Baba</hi>. <foreign>F&ecirc;ve (haba, vicia gaba).</foreign></p>
+<p><hi rend='Bold'>Bagua</hi>. <foreign>H&ecirc;tre (haya, fagus silvatica).</foreign></p>
+<p><hi rend='Bold'>Banda</hi>. <foreign>Lavande (lavanda, lavandule).</foreign></p>
+<p>Horren ph&uuml;ntak hur heakin thia bezala memento bat etxekiz, egiten d&uuml; b&uuml;r&uuml;ko minaren tizana hun bat, doian edanez, ph&uuml;ntak erhauzt&uuml;rik, &uuml;rzain eginazten die. Arropen artian belharra etxekiz begiatzen tie zerenetarik.</p>
+<p><hi rend='Bold'>Baratxuria</hi>. <foreign>Ail (ajo, allium sativum).</foreign></p>
+<p>Beste ord&uuml;z haurrak aristi askaiten ziren ogi belar baratxuristat&uuml;rik jatez. Hatsa memento bat gaizto, bena sekula xixaririk. B&uuml;riak handi eta bethi gose. Orai aldiz &uuml;s&uuml; txar eta denak xixari. Lehenago orano, saihets ph&uuml;ntak zirenian hertz baratx&uuml;ri ister bat zaphat&uuml;z, orai potikaideko paper phiperstat&uuml;z.</p>
+<p><hi rend='Bold'>Basa arrozatzia, otso naharra</hi>. <foreign>Eglantier (escaramujo, rosa canina)</foreign><mentioned><SUP> [27]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Basa erramutzia, basa erramia</hi>. <foreign>Fusains &agrave; fruits rouges, bonet de pr&egrave;tre (bonetero, eronymus europaeus)</foreign><mentioned><SUP> [28]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Basa edo xerri gerezitzia</hi>. <foreign>Merisier (cerezo silvestre).</foreign></p>
+<p><hi rend='Bold'>Basa iatzia</hi>. <foreign>Fous&egrave;re m&acirc;le, osmonde (osmunda)</foreign><mentioned><SUP> [29]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Basa mineta</hi>. <foreign>Luzerne lupuline ou minette des prairies (alfalfa lupulina).</foreign></p>
+<p><hi rend='Bold'>Basa piperra</hi>. <foreign>Bistorte, persicaire (bistorta, polygonum bistorta).</foreign></p>
+<p><hi rend='Bold'>Basa teeb&uuml;za</hi>. <foreign>Salsifis des pr&egrave;s (salsif&iacute; de los prados).</foreign></p>
+<p><hi rend='Bold'>Basapurgatzia</hi>. <foreign>Euphorbe des bois (euforbio).</foreign></p>
+<p><hi rend='Bold'>Basazafrana</hi>. <foreign>Colchique (c&oacute;lquica, azafr&aacute;n silvestre, carthamus tinctorius)</foreign><mentioned><SUP> [30]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Bebeina</hi>. <foreign>Sarriette (thin, tomillo, thymus).</foreign></p>
+<p><hi rend='Bold'>Bedats lilia</hi>. <foreign>Primev&egrave;re (primavera).</foreign></p>
+<p>Hola deith&uuml;rik, zeren den bedats hastekua. Zerail&uuml; onduetan eta arroilletan edieiten da. Gerezi ostuaren handiguako d&uuml; osto berde bat, &uuml;x&uuml;r eta l&uuml;r erazian hedaillo, lilia hoilli, &uuml;rind&uuml;n, bost hortzetako t&uuml;ta baten barneti abiatzen. Kneipp erretorak dio, horeki egin tizanati edanez, taza bat eg&uuml;n oroz zonbait denboraz, eztitzen eta iragaiten diela ez&uuml;r j&uuml;ntetako errematisma eta gutta.</p>
+<p><hi rend='Bold'>Behari belharra</hi>. <foreign>Joubarbe des toits, artichaut sauvage (yerba puntera, serpervivum tectorum).</foreign></p>
+<p>Zeren zonbaitek uste dien haren sapak sendotzen dila beharriko mina. Osto bat gainti bateti axala khent&uuml;rik eta phausat&uuml;rik phiko baten ga&ntilde;en, odola &uuml;kh&uuml;ratzen d&uuml;, hala ber mardotzen hikak (<hi rend='Italic'>cors</hi>). Pomadak, eginik hirur laurdenak urin berriez eta laurden bat belharraren sapaz, eztitzen d&uuml; emurridak.</p>
+<p><hi rend='Bold'>Beladona</hi>. <foreign>Belladone (tabaco bastardo, astropa belladonna).</foreign></p>
+<p><hi rend='Bold'>Belhar beltza</hi>. <foreign>Morelle noire, scrofulair (morela negra, celidonia mayor, erica)</foreign><mentioned><SUP> [31]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Beonika</hi>. <foreign>V&eacute;ronique (veronica, veronica anagallis)</foreign><mentioned><SUP> [32]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Berd&uuml;laga</hi>. <foreign>Pourpier (verdolaga, portulacea oleracea)</foreign><mentioned><SUP> [33]</SUP></mentioned></p>
+<p><hi rend='Bold'>Beterraba</hi>. <foreign>Betterave (remolacha, beta vulgaris).</foreign></p>
+<p><hi rend='Bold'>Biera belharra</hi>. <foreign>Houblon (l&uacute;pulo).</foreign></p>
+<p>Zeren hortarik eta gaagar b&uuml;rnarazitik egiten den edari freskazale hori. Zeraillietan gora duen lanthare bat da. Osto aspre bat mahatsarena &uuml;d&uuml;ri. Fr&uuml;tia, behatzaren lodiguako eta luzeguako lili hoilli bild&uuml; bat da, zohi &uuml;rietan. Horen liliaren tizana (20 grama litrakal) hun da ezin digestit&uuml;z denian, axal minetan.</p>
+<p><hi rend='Bold'>Bleta</hi>. <foreign>Bette, acelga, beta vulgaris</foreign><mentioned><SUP> [34]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Bortusaia</hi>. <foreign>Rue f&eacute;dide (ruda, ruta graveolens)</foreign><mentioned><SUP> [35]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Bost osto, basa arragatzia</hi>. <foreign>Potentille, quintefeuille (cinco en rama, potentilla reptans).</foreign></p>
+<p><hi rend='Bold'>Brazilia</hi>. <foreign>Basilic (albahaca, ocymun basilicum).</foreign></p>
+<p><hi rend='Bold'>Brioleta</hi>. <foreign>Violette (violeta, viola).</foreign></p>
+<p>Horekin egin tizanak eztitzen d&uuml; ezt&uuml;la eta kokaluxa. Zai&ntilde; xehekatik erendeazten d&uuml;.</p>
+<p><hi rend='Bold'>Buillublan</hi>. <foreign>Bouillon blanc (gordolobo, verbascum thapsus)</foreign><mentioned><SUP> [36]</SUP></mentioned><foreign>.</foreign></p>
+<p>Liliaren tisana marhantaren, oihalian iatsirik.</p>
+<p><hi rend='Bold'>B&uuml;rmutxa</hi>. <foreign>Bl&eacute; sans barbe (trigo sin barba).</foreign></p>
+<p><hi rend='Bold'>Burkhia</hi>. <foreign>Bouleau (abedul, betula alba).</foreign></p>
+<p><hi rend='Bold'>B&uuml;r&uuml;-beltza</hi>. <foreign>Centaur&eacute; noire (centauro negro).</foreign></p>
+<p><hi rend='Bold'>B&uuml;rz&uuml;ntza</hi>. <foreign>Tremble (&aacute;lamo tembnl&oacute;n, populus tremula).</foreign></p>
+<p><hi rend='Bold'>Domensanthore-lilia</hi>. <foreign>Artemise (artemisa, artemisia vulgaris)</foreign><mentioned><SUP> [37]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Eguerdi-lilia</hi>. <foreign>An&eacute;mone (an&eacute;mona, anemona pulsatila)</foreign><mentioned><SUP> [38]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Eg&uuml;r belharra</hi>. <foreign>Lytrum ou salicaire (salicaria).</foreign></p>
+<p><hi rend='Bold'>Ehun osto</hi>. <foreign>Rosier peu odorant (rosa centifolia).</foreign></p>
+<p><hi rend='Bold'>Ekhia</hi>. <foreign>Grand soleil (girasol, helianthus annuus).</foreign></p>
+<p><hi rend='Bold'>Ekhililia</hi>. <foreign>H&eacute;lianthe (calaminta, elianto).</foreign></p>
+<p><hi rend='Bold'>Elhorri beltza, basa ahana</hi>. <foreign>Prunelier (endrino, prunus spinosa).</foreign></p>
+<p>Liliaeki egin tizanak p&uuml;rgatzen d&uuml; eztiki, estomaka azkartzen. Horen fr&uuml;ta zohitiaeki egiten da aigardent hoberenetarik hirur departamend&uuml;tan<mentioned><SUP> [39]</SUP></mentioned>.</p>
+<p><hi rend='Bold'>Erabia belharra</hi>. <foreign>Epervi&egrave;re piloselle &agrave; dessous de feuille blanche (pelosilla, parietaria difusa)</foreign><mentioned><SUP> [40]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Eriza</hi>. <foreign>Riz (arroz, oryza sativa).</foreign></p>
+<p>Horren tizanak iganerazten d&uuml; elkhitzia.</p>
+<p><hi rend='Bold'>Erle belharra</hi>. <foreign>Lierre terrestre, herbe &agrave; la Sain Jean.</foreign>Zeren h&uuml;mia errezibit&uuml; behar din khoba&ntilde;a horren &uuml;rin borthitzaeki berekatzen den. Balius da ere horekin egin tizana ezt&uuml;l zaharrentako.</p>
+<p><hi rend='Bold'>Erramutzia</hi>. <foreign>Laurier (laurel, laurus nobilis).</foreign></p>
+<p><hi rend='Bold'>Erremulia</hi>. <foreign>Romarin (romero, rosmarinus officinalis)</foreign><mentioned><SUP> [41]</SUP></mentioned></p>
+<p>Tizanak phizten d&uuml; estomakak flakia eta dijestionea. Horeki egosi den arduak edanez, hun da ezur juntetan agitzen dien errematisma hilen.</p>
+<p><hi rend='Bold'>Erroriz</hi>. <foreign>Rhododendron.</foreign></p>
+<p><hi rend='Bold'>Eskabiusa, bedalapa</hi>. <foreign>Scabieuse epervi&eacute;re (oreja de rat&oacute;n).</foreign></p>
+<p><hi rend='Bold'>Eskalanbua, mizpiaua</hi>. <foreign>Sceau de la vierge (vid negra, tamus communis).</foreign></p>
+<p><hi rend='Bold'>Esker aihena</hi>. <foreign>Ch&ecirc;vre feuille, madre selva, lonicera peridymenum</foreign><mentioned><SUP> [42]</SUP></mentioned><foreign>.</foreign></p>
+<p>Zeren iskeretik &uuml;ng&uuml;ratzen edo zeihartzen beit&uuml; s&uuml;rkhaitz bieia.</p>
+<p><hi rend='Bold'>Espa&ntilde;a herezea. </hi><foreign>Gaude, corolus, reseda jaune, verge d'or </foreign><mentioned><SUP>[43]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Espinaka</hi>. <foreign>Epinard (espinaca, spinacia).</foreign></p>
+<p><hi rend='Bold'>Etxekalhaba belharra</hi>. <foreign>Gaillet, gratteron, caille-lait (amor de hortelano, galium aparine)</foreign><mentioned><SUP> [44]</SUP></mentioned><foreign>.</foreign></p>
+<p>Zeren arroper den lotzen hori etxe ondotik elkhitzian bezala.</p>
+<p><hi rend='Bold'>Ezpata, oilarb&uuml;ztana</hi>. <foreign>Glaieul (espada&ntilde;a, gladiolo, gladiolus).</foreign></p>
+<p><hi rend='Bold'>Ezpela</hi>. <foreign>Buis (boj, ruxus sempervirens)</foreign><mentioned><SUP> [45]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Eztia</hi>. <foreign>Miel.</foreign></p>
+<p>Heben aiphatzen d&uuml;t erremedi lili hanitxen kokotseti eginik beita erlik h&uuml;rr&uuml;patzez. S&uuml;kria beno hanitxez hobe da erien tizanentako. Bera jateko borthizto da. Golharita bat hurt&uuml;rik litra laurden batetan, azkartzen d&uuml;, erdi p&uuml;rgatzen, estomakeko minkhoilak zohiazten, begi lapharziak xahatzen eta argitzen hur horeki bustatzez. Ezti hurian egozazi ondun nahar osto zonbait, z&uuml;ntz&uuml;r minak eta ezt&uuml;la &uuml;kh&uuml;razten hur horeki bero gargarizatzen bada. Axalian agertzen bada k&uuml;sk&uuml;il&uuml; edo hanpilo, xilatzen edo bareatzen dira, hersten bada hula egiten den engoin batez: Erdia ezti, beste erdia irin eta hur g&uuml;ti bat nahasirik, lodisko izan dadin.</p>
+<p>Zahart&uuml; nahi denak, arduaren ordari edanen du <hi rend='Italic'>hydromel </hi>deitzen den ardu eztiz egina. Egiten da: oren batez egozastez hirur laurden hur eta laurden bat ezti, gah&uuml;n ga&ntilde;a khentzen delarik. Gero barrikot garbi bat hortarik abantzu betha. Bostpasei eg&uuml;nen b&uuml;r&uuml;ko hortan hasten da herakitzen egiazko ardua bezala. &Uuml;tzi hogei bat eg&uuml;n &uuml;dan herakitzea, beste hogei bat eg&uuml;n phausatzera. Gero petik ardu berria bezala xahila idoki argi, eta eginik da. Aldin g&uuml;ti edan beza senduak, eta eriek ere ez die h&uuml;g&uuml;ntzen.</p>
+<p><hi rend='Bold'>Eztikaats</hi>. <foreign>Douce-am&egrave;re (dulcamara, solanum dulcamara)</foreign><mentioned><SUP> [46]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Faluxa, ferua</hi>. <foreign>Tr&egrave;fle incarnat (trifolium sativum).</foreign></p>
+<p><hi rend='Bold'>Franboiza</hi>. <foreign>Framboise (frambuesa, rubus idaeus).</foreign></p>
+<p><hi rend='Bold'>Gaagarra</hi>. <foreign>Orge (cebada).</foreign></p>
+<p><hi rend='Bold'>Gardubea</hi>. <foreign>Chardon doux des champs, laiteron des lieux cultiv&eacute;s, lenchus palustris.</foreign></p>
+<p><hi rend='Bold'>Garratza, garatzaina</hi>. <foreign>Petite houx (agracejo).</foreign></p>
+<p>Zeren horren za&ntilde;aeki egin tizana hun beita grabelaidiaren, hydropisian eta eskrofulan.</p>
+<p><hi rend='Bold'>Gath&uuml; bixar</hi>. <foreign>Delphine, nigelle (ara&ntilde;uela, adiantum capillus veneris)</foreign><mentioned><SUP> [47]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Gazta&ntilde;atzia</hi>. <foreign>Ch&acirc;taignier (casta&ntilde;o, fagus castanea).</foreign></p>
+<p><hi rend='Bold'>Geretzitzia</hi>. <foreign>Cerisier (cerezo, prunus cerasus)</foreign><mentioned><SUP> [48]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Gloriatsia</hi>. <foreign>Altaea (malvavisco, althaea officinalis)</foreign><mentioned><SUP> [49]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Gromatia</hi>. <foreign>Chou pomm&eacute;,(repollo, brassica oleracea capitata alba)</foreign><mentioned><SUP> [50]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Grozi&ntilde;a</hi>. <foreign>Bl&eacute; d'Espagne (trigo chamorro).</foreign></p>
+<p><hi rend='Bold'>Gudu&ntilde;atzia</hi>. <foreign>Cognassier (membrillo, cydonia vulgaris)</foreign><mentioned><SUP> [51]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Haltza</hi>. <foreign>Aulne (aliso, alnus glutinosa).</foreign></p>
+<p><hi rend='Bold'>Hari&ntilde;ondokua</hi>. <foreign>Sabline (arenaria).</foreign></p>
+<p><hi rend='Bold'>Haritza</hi>. <foreign>Ch&ecirc;ne (roble, quercus); </foreign><hi rend='Bold'>z&uuml;bihotza</hi>, <foreign>coeur de ch&ecirc;ne.</foreign></p>
+<p><hi rend='Bold'>Haztei-belharra</hi>. <foreign>Ang&eacute;lique (ang&eacute;lica, angelica archangelica)</foreign><mentioned><SUP> [52]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Hegigarra</hi>. <foreign>Suberosa, charme et une autre esp&egrave;ce</foreign><mentioned><SUP> [53]</SUP></mentioned><foreign>.</foreign></p>
+<p>Zeren dien zur axala oro hegi.</p>
+<p><hi rend='Bold'>Herrogia</hi>. <foreign>Bl&eacute; &agrave; barbe du pays (trigo barbudo, triticum vulgare ovatum).</foreign></p>
+<p><hi rend='Bold'>Hika belharra</hi>. <foreign>G&eacute;ranium dissectum.</foreign></p>
+<p><hi rend='Bold'>H&uuml;ntz ostua</hi>. <foreign>Lierre (yedra, hedera helix); </foreign><hi rend='Bold'>h&uuml;zkeia </hi>edo <hi rend='Bold'>z&uuml;zkeia</hi>, <foreign>sa mouche.</foreign></p>
+<p><hi rend='Bold'>H&uuml;st&uuml;belharra</hi>. <foreign>Chiendent des chiens</foreign><mentioned><SUP> [54]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Iatzia</hi>. <foreign>Foug&egrave;re femelle (helecho, osmunda regalis).</foreign></p>
+<p><hi rend='Bold'>Idi mihia</hi>. <foreign>Langue de boeuf, pulmonaire lengua de buey, anchusa italica).</foreign></p>
+<p><hi rend='Bold'>Igitei belharra</hi>. <foreign>Linaire b&acirc;tarde (linaria)</foreign></p>
+<p>Zeren igiteiaeki egin zauriak horeki beitzien hersten.</p>
+<p><hi rend='Bold'>Ihia</hi>. <foreign>Jonc (junco, juncus).</foreign></p>
+<p><hi rend='Bold'>Ihitzi belharra, berbena</hi>. <foreign>Verveine (verbena, verbena officinalis).</foreign></p>
+<p><hi rend='Bold'>Ildopizarra</hi>. <foreign>Chiendent o&ugrave; esp&egrave;ce de gramin&eacute;e qui pousse entre les lignes de terre retourn&eacute;e par la charrue.</foreign></p>
+<p><hi rend='Bold'>Ilhagin orrazia</hi>. <foreign>Chardon &agrave; foulon (cardo de batanero, dipsacus fullonum).</foreign></p>
+<p><hi rend='Bold'>Ilhar bibila</hi>. <foreign>Pois petits (arveja, pisum sativum).</foreign></p>
+<p><hi rend='Bold'>Ilhar latza</hi>. <foreign>Lathirus gesce, pois de senteur (almortas, guisante de olor).</foreign></p>
+<p><hi rend='Bold'>Ilharra</hi>. <foreign>Haricot.</foreign></p>
+<p><hi rend='Bold'>Ilharria</hi>. <foreign>Brey&egrave;re (brezo, erica nomen generis)</foreign><mentioned><SUP> [55]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Ilherri lilia</hi>. <foreign>Souci (cal&eacute;ndula, calendula officinalis)</foreign><mentioned><SUP> [56]</SUP></mentioned></p>
+<p><hi rend='Bold'>Ilhorri xuria</hi>. <foreign>Aub&eacute;pine (espino albal, crataegus oxiacantha)</foreign><mentioned><SUP> [57]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Intsalada xuria</hi>. <foreign>Laitue cultiv&eacute;e (lechuga, lactuca sativa)</foreign><mentioned><SUP> [58]</SUP></mentioned></p>
+<p>Egarria hausten eta lo eginazten d&uuml;.</p>
+<p><hi rend='Bold'>Intsens&uuml; belharra, intsentsu lilia</hi>. <foreign>Cineraire, santoline citronelli.</foreign></p>
+<p><hi rend='Bold'>Inzaurtzia</hi>. <foreign>Noyer (nogal, juglans regia).</foreign></p>
+<p>Horren ostuaeki egin tizanak sendotzen d&uuml; minhoia, scrofula.</p>
+<p><hi rend='Bold'>Imortela</hi>. <foreign>Immortelle (imortela).</foreign></p>
+<p><hi rend='Bold'>Iphularra</hi>. <foreign>Carex, la&icirc;che</foreign><mentioned><SUP> [59]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Iraka</hi>. <foreign>Ivraie (ciza&ntilde;a)</foreign><mentioned><SUP> [60]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Itsas gazta&ntilde;a</hi>. <foreign>Marronier d'Inde (casta&ntilde;o de indias, aesculus hippocastanum).</foreign>Axalaeki egin tizana hun da helgaitzetan.</p>
+<p><hi rend='Bold'>Itze belharra</hi>. <foreign>Hysope (hisopo, hyssopus officinalis)</foreign><mentioned><SUP> [61]</SUP></mentioned></p>
+<p><hi rend='Bold'>Izar belharra</hi>. <foreign>Stellaire (estrellada, stelaria holostea).</foreign></p>
+<p><hi rend='Bold'>Izeia</hi>. <foreign>Sapin (abeto, abies).</foreign></p>
+<p>Horren ph&uuml;ntako butuek egiten die tizana bat huna gibel errai eta gibel minaentako. Thurmentina da aldiz haren onduk emaiten din sapa edo uina askoa phiko bat egiten zaionin.</p>
+<p><hi rend='Bold'>Janetatsia</hi>. <foreign>Violier (alel&iacute;, mathiola)</foreign><mentioned><SUP> [62]</SUP></mentioned></p>
+<p><hi rend='Bold'>Jaonkillatzia</hi>. <foreign>Jonquille (junquillo).</foreign></p>
+<p><hi rend='Bold'>Jasmina</hi>. <foreign>Jasmin (jazmin, jasminum).</foreign></p>
+<p><hi rend='Bold'>Jinebretzia, hagintzia</hi>. <foreign>Gen&egrave;brier (enebro, juniperus communis)</foreign><mentioned><SUP> [63]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Jiroflea</hi>. <foreign>Girofl&eacute;e (clavillo, caryophillus aromaticus)</foreign><mentioned><SUP> [64]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Jundane Juhane lilia</hi>. <foreign>Lys blanc (azucena, lilium candidum).</foreign>Zonbaitek horen zai&ntilde;a deitzen die Andere Dona Mariaren zai&ntilde;a. Horen zai&ntilde;ak zaphat&uuml;ik xilarazten d&uuml;t&uuml; hanpiluak. Horen lilia eg&uuml;n zonbaitez etxeki din aigardentak edo oliuak sendorazten d&uuml;t&uuml; kolpe eta phikuak.</p>
+<p><hi rend='Bold'>Kamomila</hi>. <foreign>Camomille romaine (manzanilla, chamomilla nobilis)</foreign><mentioned><SUP> [65]</SUP></mentioned><foreign>.</foreign></p>
+<p>Tizana balius aizetiko hunkitziaeki jauzten diren aziak.</p>
+<p><hi rend='Bold'>Kanabea</hi>. <foreign>Canne de Provence, roseau (ca&ntilde;a com&uacute;n, arundo donax)</foreign><mentioned><SUP> [66]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Kardinal bazka</hi>. <foreign>Sene&ccedil;on (yerba cana, senecio vulgaris)</foreign><mentioned><SUP> [67]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Karnatxa</hi>. <foreign>Raisin violet (garnacha, vitis vinifera).</foreign></p>
+<p><hi rend='Bold'>Kaskola</hi>. <foreign>Bruy&egrave;re jaune (brezo amarillo); ajonc nain (aliaga enana, ulex nanus).</foreign></p>
+<p><hi rend='Bold'>Khalamia</hi>. <foreign>Chanvre (c&aacute;&ntilde;amo, canabis sativa).</foreign></p>
+<p><hi rend='Bold'>Khardia</hi>. <foreign>Chardon piquant (cardo).</foreign></p>
+<p><hi rend='Bold'>Khoostia</hi>. <foreign>Houx (acebo, ilex aquifolium).</foreign></p>
+<p><hi rend='Bold'>Khuia</hi>. <foreign>Citrouille (calabaza, cucurbita).</foreign></p>
+<p><hi rend='Bold'>Kh&uuml;iutsia</hi>. <foreign>Courge (calabaza amarilla, curcubita maxima)</foreign><mentioned><SUP> [68]</SUP></mentioned><foreign><hi rend='Bold'>.</hi></foreign></p>
+<p><hi rend='Bold'>Khundea, kundea</hi>. <foreign>Avoine &eacute;lev&eacute;e bulbeuse, &agrave; chapelet (avena descollada fromental, arrhenatherum avenaceum)</foreign><mentioned><SUP> [69]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Kokalikua</hi>. <foreign>Coquelicot (amapola, papaver rhaeas)</foreign><mentioned><SUP> [70]</SUP></mentioned><foreign><hi rend='Bold'>.</hi></foreign></p>
+<p><hi rend='Bold'>Koment&uuml;-lilia</hi>. <foreign>Balsamine (balsamina, momordica balsamina)</foreign><mentioned><SUP> [71]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Krexua</hi>. <foreign>Cresson (berro, nasturtium officinale).</foreign></p>
+<p><hi rend='Bold'>Kuntsuda</hi>. <foreign>Consoude (sinfito, symphytum officinale)</foreign><mentioned><SUP> [72]</SUP></mentioned><foreign>.</foreign></p>
+<p>Kilotako sei kupa emaiten diana urthin behientako, 20 eg&uuml;netarik behar da phikat&uuml;. Ar&uuml;en saltzen da.</p>
+<p><hi rend='Bold'>K&uuml;rlo belharra, belhar zankhogorria</hi>. <foreign>G&eacute;ranium, herbe &aacute; Robert (yerba de San Roberto, geranium robertianum)</foreign><mentioned><SUP> [73]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Kuskuillia</hi>. <foreign>Rhinante (cresta de gallo, rhinantus minor)</foreign><mentioned><SUP> [74]</SUP></mentioned></p>
+<p><hi rend='Bold'>Laatxa</hi>. <foreign>Asperule, garance (asperula, asperula cynanchica</foreign><mentioned><SUP> [75]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Lanjatzia</hi>. <foreign>Orange (naranjo, citrus aurantium).</foreign></p>
+<p><hi rend='Bold'>Laphati&ntilde;a xehia</hi>. <foreign>Aigremoine (agrimonia, agrimonia eupatoria).</foreign>Hori da damnatuak manhatzen din tizana geia erorietan<mentioned><SUP> [76]</SUP></mentioned>.</p>
+<p><hi rend='Bold'>Leherra</hi>. <foreign>Pin epicea (pino, pinus sylvestris).</foreign></p>
+<p>Je crois, dont les morceaux emflamm&eacute;s servent &agrave; &eacute;clairer St.-Engr&acirc;ce pendant deux heures, comme des chandelles de r&eacute;sines.</p>
+<p><hi rend='Bold'>Leizarra</hi>. <foreign>Fr&ecirc;ne (fresno, fraxinus).</foreign></p>
+<p><hi rend='Bold'>Lia</hi>. <foreign>Lin (lino, linum usitatissimum).</foreign></p>
+<p>Goizan gaintizia kulerata bat azi hurian egon denak gogorzia sendotzen d&uuml;. Azia ehorik baliatzen da kataplazma egiteko hur herakin. Hur hortan heakiturik bazien aitzineti lau b&uuml;r&uuml; pabot, sabeleko mina eztitzen d&uuml; horeki egin kataplazmak.</p>
+<p><hi rend='Bold'>Loazlia, paboa</hi>. <foreign>Pavot (adormidera, papaver somniferum).</foreign></p>
+<p>Ez da edaten, gaitz baita, bena horeki egosi huraeki hartzen da labament&uuml;, bai eta egiten liaeki kataplazma, phausatzeko zabeleko minan ga&ntilde;en.</p>
+<p><hi rend='Bold'>Luiziana</hi>. <foreign>Aloizia odorata.</foreign></p>
+<p><hi rend='Bold'>L&uuml;r sagarra, patakua</hi>. <foreign>Pommes de terre (patata).</foreign></p>
+<p><hi rend='Bold'>L&uuml;rh&uuml;ntza</hi>. <foreign>Liseron des haies (correg&uuml;ella, convolvulus arvensis)</foreign><mentioned><SUP> [77]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>L&uuml;zerna</hi>. <foreign>Luzerne (mielga, alfalfa, medicago sativa).</foreign></p>
+<p>Behiek eta aretzek belhar berde hortarik eta treflatik sobera jaten badire eta bustirik, hantzen dira. <hi rend='Italic'>M&eacute;t&eacute;orisation </hi>deitzen da hori. Aize thian batek barnia bethatzen deie, ixkerreko saihetsian, eta oren laurden batez ithotzen ahal d&uuml;t&uuml;, hatsaren ezin hart&uuml;z; zankhakhaz ari dira, mihia bl&uuml; agertzen zaie, akabo da laster ezpada lag&uuml;nt&uuml;rik. Zer egin. Barbera h&uuml;illan eztenin, nur bera haz. Sar eraz behia bordan, abelpia lastoz lodi egin, erorten bada eztezan min har. Edaneraz zalhe zalhia litra bat hur hotz gaziturik 300 grama gatzeki. Bost edo sei min&uuml;taz mihia biziki thia kanpora gero batetan &uuml;tzi sartzera (minutakal lazpabost aldiz mihiaren thia eta &uuml;ztia). Arte hortan freta borthizki ixkerreko saihetsa eta sabela. Ezpada sabela deshantzen, berriz eman edatera hur gazi, edo hobeki orano kuillerata bat amoniaka litra hur batetan nahasirik. Mihia zilintzau eta bl&uuml; bad&uuml; orano, erori gabe, aiziaren elkhigia bat, zilo bat egin <hi rend='Italic'>trocart</hi> deitzen den arnezaeki, eta ezpada <hi rend='Italic'>trocart</hi>ik, labela bateki. Haen sari ezarten delarik xiluan kanabea edo sang&uuml;kitze xotx h&uuml;tz bat, t&uuml;ta batetarik bezala elkhi dadin barneko aizia: t&uuml;ta zola xirika, ezpada elkhitzen aizia. Xiluak egin behar d&uuml; ixkerreko saihetsin, azken saihets ez&uuml;rraren eta anka ez&uuml;rra ph&uuml;ntaren artin (10 edo 12 zentimetra bizkar ez&uuml;rra beno aphalago). B&uuml;r&uuml;tzen bada dezhantaztia, t&uuml;ta hori &uuml;zten da orano xiluan oren zonbait, aitzina aizia jalki dadin, eta berriz emaiten da edatea hur gazi edo irinaeki hur. Zauria tx&uuml;kartio latsatzen da aigardent eta hur algarreki nahasiareki. Erorten bada behia esparantxarik gabe, ganibeta lephoti sar, zerbait balio &uuml;khen dezan phikulako. Ardiari ber erremediuak, salb&uuml; eta 35 grama gatz bezaio emaiten litra laurden huretan.</p>
+<p><hi rend='Bold'>Mahua</hi>. <foreign>Aeillet (clavel, dianthus caryophyllus)</foreign><mentioned><SUP> [78]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Malba</hi>. <foreign>Mauve sauvage (malva, malva sylvestris).</foreign></p>
+<p>Ostuak, liliak, zai&ntilde;ak tizana huna egiten die; marhanta eztitzen eta mardotzen.</p>
+<p><hi rend='Bold'>Malba xuria</hi>. <foreign>Guimauve (malvabisco, altaea officinalis).</foreign></p>
+<p><hi rend='Bold'>Margaita lilia</hi>. <foreign>Marguerite, paquerette (margarita, bellis perenis).</foreign></p>
+<p><hi rend='Bold'>Mariaren khardia, triaga</hi>. <foreign>Chardon benit (cardo santo).</foreign></p>
+<p><hi rend='Bold'>Marmaua</hi>. <foreign>Sorgho &agrave; balais (sorgo, sorghum halapense).</foreign></p>
+<p><hi rend='Bold'>Masusa, amua</hi>. <foreign>Mures (mora).</foreign></p>
+<p><hi rend='Bold'>Meldona</hi>. <foreign>Menthe commune des chemins (mastranzo, mentha rotundifolia)</foreign><mentioned><SUP> [79]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Meliza</hi>. <foreign>M&eacute;lisse (torongil, melissa officinalis)</foreign><mentioned><SUP> [80]</SUP></mentioned></p>
+<p>Lanthare baliusa da estomakeko minetan, b&uuml;rh&uuml;ng&uuml;rian, ingoxerietan, eta berheziki zai&ntilde;en ematzeko. Edieiten da l&uuml;r &uuml;tsaletan eta baratzetan. Biltzen da lantharia oro, lili denian granerian idorazten. Bere ezti &uuml;rina arraphizten zaio thia bezala egiten den tizanan (erhip&uuml;r&uuml; bat edo biga litrakal). Goiz oroz gomendat&uuml;rik da edatia jente zahar gizener, apoplexiaren ohiltzeko, bai eta nekez formatzen dien persuna gazter.</p>
+<p><hi rend='Bold'>Melua</hi>. <foreign>Melon (melon, cucumis mello).</foreign></p>
+<p><hi rend='Bold'>Mendiko &uuml;rso belharra</hi>. <foreign>Lotier cornicul&eacute; (cuernecillo, lotus corniculotus).</foreign></p>
+<p><hi rend='Bold'>Migronelatzia. </hi><foreign>Grenadier (granado, punica granatum).</foreign></p>
+<p><hi rend='Bold'>Mihimena, hoillia eta gorria</hi>. <foreign>Osier (mimbre, salix purpurea)</foreign><mentioned><SUP> [81]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Milaxilo</hi>. <foreign>Mille-pertuis (corazoncillo, hypericum perforatum).</foreign></p>
+<p><hi rend='Bold'>Milosto</hi>. <foreign>Mille-feuille (mil en rama, achillea millefolium)</foreign><mentioned><SUP> [82]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Mineta</hi>. <foreign>Oseille (acedera, rumex acetosa)</foreign><mentioned><SUP> [83]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Mineta xehia</hi>. <foreign>Oxalis, petite oseille (acederilla).</foreign></p>
+<p><hi rend='Bold'>Mispiatzia</hi>. <foreign>N&eacute;flier (mizpero, nespilus germanica).</foreign></p>
+<p><hi rend='Bold'>Mitria</hi>. <foreign>Myrthe (mirto, myrtus communis).</foreign></p>
+<p><hi rend='Bold'>Mustarda</hi>. <foreign>Moutarde, senev&eacute; moutarde (mostaza, sinapis)</foreign><mentioned><SUP> [84]</SUP></mentioned></p>
+<p>Bada beltza eta xuria. Beltzak egiten d&uuml; sinapisma, eta xuriaren aziti goizan gaintitzez sendotzen da gogorreia.</p>
+<p><hi rend='Bold'>Naharra</hi>. <foreign>Ronce (zarza, rubus fructicosus)</foreign><mentioned><SUP> [85]</SUP></mentioned></p>
+<p>Horekin egosi den ezti hurak ematzen d&uuml; z&uuml;ntz&uuml;r mina gargarizatzez, bai eta beherako heia.</p>
+<p><hi rend='Bold'>&Ntilde;abua, arbia</hi>. <foreign>Navet (nabo, brassica napus).</foreign></p>
+<p><hi rend='Bold'>Odol-belharra</hi>. <foreign>Capillaire (hoja mosaica, asplenium trichomanes)</foreign><mentioned><SUP> [86]</SUP></mentioned><foreign>. Aspl&eacute;nium (doradilla, ceterach officinarum)</foreign><mentioned><SUP> [87]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Ogia</hi>. <foreign>Froment (trigo).</foreign></p>
+<p><hi rend='Bold'>Oillabarra</hi>. <foreign>Bourdaine, nerprun (arraclan, espino cerval, rhamnus frangula, rhamnus catharticus)</foreign><mentioned><SUP> [88]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Italic'> Vosges </hi>deitzen den kartielian laboraria p&uuml;rgatzen da goizan zopan hart&uuml;z 25 bihika beltz horen fr&uuml;t&uuml;tik.</p>
+<p><hi rend='Bold'>Olhaa</hi>. <foreign>Avoine folle, fausse avoine (avena fatua, ballueca)</foreign><mentioned><SUP> [89]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Olhua</hi>. <foreign>Avoine cultiv&eacute;e (avena s&aacute;tiva).</foreign></p>
+<p><hi rend='Bold'>Ondua</hi>. <foreign>Champignons comestibles (hongo en general): </foreign><hi rend='Bold'>buxeua, </hi><foreign>mousseron (tricholoma gambosum); </foreign><hi rend='Bold'>gorrintxa</hi>, <foreign>oronge (amanita caesarea); </foreign><hi rend='Bold'>lekaxina</hi><mentioned><SUP> [90] </SUP></mentioned><foreign>(chanterelle, cantharellus cibarius).</foreign></p>
+<p><hi rend='Bold'>Leheronduak</hi>, <foreign>champignons non comestibles.</foreign></p>
+<p>Dohakabia dianak jateko, ezag&uuml;tzen d&uuml; 6 edo 8 edo 10 oren b&uuml;r&uuml;ko, b&uuml;r&uuml;ko min, b&uuml;rh&uuml;ng&uuml;r&uuml;, sabeleko min, goiti eta behera. Barbera jiten den artian, egin ahalak oro egin erendatzeko, bi erhi z&uuml;ntz&uuml;r zolala helt&uuml;z, edo gingilla l&uuml;ma batez gillikatzez, edo orano taza bat edo biga olio ephel gaintitzez. Ez bada hola purga labament&uuml; batetan har. Nulazpait librat&uuml; ondun dateke balius kafia edo barberaren erremediuak.</p>
+<p><hi rend='Bold'>Ooldia</hi>. <foreign>Mousse (musgo).</foreign></p>
+<p><hi rend='Bold'>Orkhatz-ostua</hi>. <foreign>Androseme (todabuena, hypericum androsamum)</foreign><mentioned><SUP> [91]</SUP></mentioned><foreign>.</foreign></p>
+<p>Ostua oliun trenpa eta zauri zahar baten ga&ntilde;en hertz sendo.</p>
+<p><hi rend='Bold'>Oskerrena</hi>. <foreign>Arr&ecirc;te-boeuf (gatuna, ononis procurrens)</foreign><mentioned><SUP> [92]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Ostopegorria</hi>. <foreign>Saxifrage (saxifraga, saxifraga nomen generis).</foreign></p>
+<p><hi rend='Bold'>Ostopekua</hi>. <foreign>Orchis moucheron.</foreign></p>
+<p><hi rend='Bold'>Othia</hi>. <foreign>Gen&ecirc;t &eacute;pineux (aliaga, genista scorpius).</foreign></p>
+<p><hi rend='Bold'>Othondokua</hi>. <foreign>Betoine (betonica, btonica officinalis)</foreign><mentioned><SUP> [93]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Papantzea</hi>. <foreign>Pens&eacute;e (pensamiento).</foreign></p>
+<p>Tizanak sendotzen d&uuml;t&uuml; haurren urtheminak.</p>
+<p><hi rend='Bold'>Parietera</hi>. <foreign>Parietaire (pelosilla, parietaria difusa)</foreign><mentioned><SUP> [94]</SUP></mentioned></p>
+<p>Jiten da m&uuml;r&uuml; zaharretan, tizanak aizatzen d&uuml; hur xuriaren egitia.</p>
+<p><hi rend='Bold'>Pasione lilia</hi>. <foreign>Passiflora (pasionaria, passiflora caerulea).</foreign></p>
+<p><hi rend='Bold'>Pater xuria</hi>. <foreign>Fusain &agrave; fruits blancs, symphoricarpum (bonetero de frutos blancos, symphoricarpum).</foreign></p>
+<p><hi rend='Bold'>Pendenta. </hi><foreign>Fuchsia (pendiente).</foreign></p>
+<p><hi rend='Bold'>Peratzia</hi>. <foreign>Poirier (peral, pyrus).</foreign></p>
+<p><hi rend='Bold'>Perrezila</hi>. <foreign>Persil (perejil, petroselinum sativum).</foreign></p>
+<p>Horeki egosi hura hun da begiko minen, poitrinaiden tizana eta ama&ntilde;uen ezniaren hausteko kanabeaki nahasirik</p>
+<p><hi rend='Bold'>Pheskatzia</hi>. <foreign>P&ecirc;cher (melocotonero, amygdalus persica)</foreign><mentioned><SUP> [95]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Phika-belharra</hi>. <foreign>Ascl&eacute;piade, isopyre.</foreign></p>
+<p><hi rend='Bold'>Phikotzia</hi>. <foreign>Figuier (higuera, ficus carica)</foreign><mentioned><SUP> [96]</SUP></mentioned><foreign>.</foreign></p>
+<p>Marh&uuml;ka phika. Phiko zankhuak emaiten din esniaekin busta eg&uuml;n zunbaitez eta adio marh&uuml;ka <foreign>(<hi rend='Italic'>verrue</hi>).</foreign></p>
+<p><hi rend='Bold'>Phiperra</hi>. <foreign>Piment (pimiento).</foreign></p>
+<p><hi rend='Bold'>Phoria</hi>. Poireau <foreign>(puerro, allium porrum).</foreign></p>
+<p>Horeki egin kataplazmak zohitzen d&uuml;t&uuml; hanpiluak. Tizana hun grabelan.</p>
+<p><hi rend='Bold'>Pikababa, otso belarra</hi>. <foreign>Ellebore (el&eacute;boro, helleburus).</foreign></p>
+<p><hi rend='Bold'>Pinua</hi>. <foreign>Pin (pino, pinus sylvestris).</foreign></p>
+<p><hi rend='Bold'>Pipila</hi>. <foreign>Liseron des champs (enredadera, correg&uuml;ella, convolvulus).</foreign></p>
+<p><hi rend='Bold'>Pitusgarria</hi>. <foreign>Sen&eacute; (sen, cassia obovata)</foreign><mentioned><SUP> [97]</SUP></mentioned></p>
+<p><hi rend='Bold'>Planta&ntilde;a</hi>. <foreign>Plantain (llanten mayor, plantago major).</foreign></p>
+<p>Haren egoskinaeki bustatzez edo m&uuml;st&uuml;katzez begiko mina estitzen da. Horren sapaeki herstez, phiko bat behala sendotzen da. Tinkatzez emaiten din sapa edatez, bareatzen d&uuml;t&uuml; barneko emur gaistuak.</p>
+<p>L&eacute;gende-Erran zahar bat: Amaberjinak bestord&uuml;z haitat&uuml; zin planta&ntilde;a khiristi ororen minen sendotzeko. Ordin karota bezala zain bat zian. Debria jelos, phikat&uuml; zeron zai&ntilde;a, eta planta&ntilde;a xim&uuml;rtzen hasi. Amaberjinak ezag&uuml;t&uuml; nuntik zen kolpia eta erran: Demonio beltza, ez hiz baliat&uuml;ko. Zain xehe saldo bat &uuml;ng&uuml;r&uuml;nin phuseatsi zeron. Horra zertako din haenbeste zai&ntilde;.</p>
+<p><hi rend='Bold'>Platanatzia</hi>. <foreign>Platane (platano, platanus orientalis).</foreign></p>
+<p><hi rend='Bold'>Poidezant&uuml;r</hi>. <foreign>Gesse (arveja).</foreign></p>
+<p><hi rend='Bold'>P&uuml;bliertzia</hi>. <foreign>Peuplier (&aacute;lamo).</foreign></p>
+<p><hi rend='Bold'>P&uuml;h&uuml;illia</hi>. <foreign>Fenouil (hinojo, jaeniculum vulgare).</foreign></p>
+<p><hi rend='Bold'>P&uuml;h&uuml;ria</hi>. <foreign>Gui (mu&eacute;rdago, viscum album)</foreign><mentioned><SUP> [98]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>P&uuml;rgatzia</hi>. <foreign>Epurge (t&aacute;rtago, euphorbia latyris)</foreign><mentioned><SUP> [99]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Saatsa</hi>. <foreign>Lilybium marianum, herbe qui pousse apr&egrave;s la coupe de bl&eacute; dans le chaume. Chaume o&ugrave; partie de la tige des bl&eacute;s qui reste au champ apr&eacute;s le sciage; chaume o&ugrave; herbe qui pousse avec</foreign><mentioned><SUP> [100]</SUP></mentioned><foreign>. Setaire glauque: herbe poussant apr&egrave;s r&eacute;colte du froment dans le chaume.</foreign></p>
+<p><hi rend='Bold'>Saats belharra</hi>. <foreign>Letaria glauca.</foreign></p>
+<p><hi rend='Bold'>Safrana</hi>. <foreign>Safran (azafr&aacute;n, crocus sativus).</foreign></p>
+<p><hi rend='Bold'>Sagartzia</hi>. <foreign>Pommier (manzano, pyrus malus).</foreign></p>
+<p>Melgak dira: &uuml;zta sagarra, arneta beltza eta xuria, b&uuml;rd&uuml;in sagarra, aniza, estika, mandob&uuml;ria, teilla sagarra, pea sagarra, ginko sagarra, kamoiza.</p>
+<p><hi rend='Bold'>Sag&uuml;kitzia</hi>. <foreign>Sureau (yergo, sambucus ebulus).</foreign></p>
+<p>Ezinago balius den lantharia! Lilia idoraz, behar&uuml;nia deneko. Horreki egiten da tizana bat izertatzen dina eta holaz emeazten izerdi sarth&uuml;, errematisma, gutta, eta zai&ntilde;ak mardoazten marhanta eta eztula. Fitezegi sarth&uuml; z&uuml;rrunpiak, berriz erakhartzen d&uuml;t&uuml;. Izapela eta &uuml;tx&uuml;larik anpletzen dira horren huraeki hersten badira. Sei edo zortzi osto egozaz 10 minutaz eta p&uuml;rgat&uuml;ko zira, oren bat askalt&uuml; beno lehen edatez. Zai&ntilde;aeki adelat&uuml; tizanak mehaziko d&uuml; hydropisia. Sag&uuml;kitziaren bihiek p&uuml;rgatzen die eta p&uuml;rifikatzen eztiki, berderik, ala idort&uuml;rik, ala eztiaeki nahasirik konfit&uuml;a giza jaten balinbadira. Bigerren axalaekin egin tizana gomendat&uuml;rik da hidropizian.</p>
+<p><hi rend='Bold'>San Josephen lilia</hi>. <foreign>Lys violet (lirio, iris gernanica).</foreign></p>
+<p><hi rend='Bold'>Sapa-belharra</hi>. <foreign>Mouron blanc des oiseaux, cerastium, stellaria media</foreign><mentioned><SUP> [101]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Sapa ostuak</hi>. <foreign>Crasulac&eacute;es, crasulaceas.</foreign></p>
+<p><hi rend='Bold'>Sekalia</hi>. <foreign>Seigle (centeno, secale cereale).</foreign></p>
+<p><hi rend='Bold'>Sen Mark lilia</hi>. <foreign>Boule de neige (bola de nieve).</foreign></p>
+<p>Zeren prosesione kh&uuml;r&uuml;txia horeki den althatzen.</p>
+<p><hi rend='Bold'>Sobia</hi>. <foreign>Sauge (salvia, salvia officinalis).</foreign></p>
+<p>Erran zaharrak dio: nula hiltzen ahal da sobia etxen diana. Erran nahi beita baratze orotan edien behar l&uuml;kiala. Ezi horren ph&uuml;nteki (12 gramma litrakal) eginik den tizana manat&uuml;ik da dijestione gaistuetan, erendeietan, estomakeko minetan, fiebra tifoidetan, jente flakiaren gaiazko izerdietan. Sobian egon den ardua (60 gr. litrakal) hun da helgaitzetan eta haurren aheian, bai eta zauri zaharren hersteko.</p>
+<p><hi rend='Bold'>Sorho erregi&ntilde;a</hi>. <foreign>Reine des pr&eacute;s, spirea ulmaria.</foreign></p>
+<p>Ustekeria bada hun dela hidropiziaren eta hur xuriaren aizatzeko.</p>
+<p><hi rend='Bold'>S&uuml;har belharra</hi>. <foreign>Valeriane (valeriana, valeriana officinalis).</foreign></p>
+<p><hi rend='Bold'>S&uuml;har ostua</hi>. <foreign>Tussilage (u&ntilde;a de caballo, tussilago farfara)</foreign><mentioned><SUP> [102]</SUP></mentioned><foreign>. H&eacute;liotrophe d'hiver.</foreign></p>
+<p><hi rend='Bold'>Teeb&uuml;za</hi>. <foreign>Salsifis (barba cabruna, tragopogon porrifolius)</foreign><mentioned><SUP> [103]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Thi&ntilde;a</hi>. <foreign>Cuscute (cuscuta, cuscuta epithimum)</foreign><mentioned><SUP> [104]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Tillulzia, eskia</hi>. <foreign>Tilleul (tilo, tilia syilvestris).</foreign></p>
+<p>Mauleko aleak holakoz lanthat&uuml;rik dira pharte, arrabot gibelekuak. &Uuml;ztailan emaiten die z&uuml;hain balius horiek lili hoilli, l&uuml;zan bat izertazteko, zai&ntilde;en ematzeko, b&uuml;r&uuml;ko minentako. Ala dela tizana goxua! Farmazian saltzen da lilia khario.</p>
+<p><hi rend='Bold'>Topinanburra</hi>. <foreign>Topinambour (patacas, helianthus tuberosus).</foreign></p>
+<p>Hoi da hoi laborarien fort&uuml;na! Zai&ntilde;a ereiten da behin bethikoz. L&uuml;r sagar suberte bat da, zabala. Zankhua bi metra l&uuml;ze da, dena osto, kabalek &uuml;rietan jaten ahal diena. Negian bere l&uuml;rpian &uuml;zten da sagarra kuntserbatzekoz. Etxerat bild&uuml;rik gasta litake amust eg&uuml;n gabe. Jentek eta kabalek berheziki borthakuek jaten die gogoti gordinik ala egosirik, eta gizentzen dira. Thia ahala thia, eta ez da arra ereiterik. Hai eli bat baratzen dia l&uuml;rrian, hetarik jiten da ondoko azia. Aski da goroztatzia bedatsian. Harek ez d&uuml; eritarz&uuml;nik l&uuml;r sagarrak bezala.</p>
+<p><hi rend='Bold'>Triaga</hi>. <foreign>Silybum marianum</foreign><mentioned><SUP> [105]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Tulipa, asto lilia</hi>. <foreign>Pivoine, &agrave; tort (peonia an&oacute;mala).</foreign></p>
+<p><hi rend='Bold'>Txakur mihia</hi>. <foreign>Cynoglosse (cinoglosa, cynoglossum officinale)</foreign><mentioned><SUP> [106]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Uinhua</hi>. <foreign>Oignon (cebolla, allium cepa).</foreign></p>
+<p>Jinkuak gure baratzetan nasaiki phusasten din lanthare arrunt horrez, jatez eta edaneaztez haren salda eztitzen d&uuml; grabela, azkartzen estomaka. Gordinik zapha eta herts errad&uuml;a berri bat, ez da k&uuml;zk&uuml;ltzen.</p>
+<p><hi rend='Bold'>&Uuml;&ntilde;h&uuml;rri ostua</hi>. <foreign>Gouet (aro, yaro).</foreign></p>
+<p><hi rend='Bold'>Urheb&uuml;&uuml;sia</hi>. <foreign>Bardane (lampazo, lappa major)</foreign><mentioned><SUP> [107]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>&Uuml;rhe lilia</hi>. <foreign>Chrysanth&egrave;me (crisantemo, crysanthemum coronarium)</foreign><mentioned><SUP> [108]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>&Uuml;rr&uuml;txa, &uuml;zta h&uuml;rtzia</hi>. <foreign>Coudrier, noisetier (avellano, corylus avellana).</foreign></p>
+<p><hi rend='Bold'>&Uuml;rzo belharra</hi>. <foreign>Tr&egrave;fle &agrave; t&ecirc;te d'or (trebol de los campos).</foreign></p>
+<p><hi rend='Bold'>&Uuml;ts&uuml; belharra</hi>. <foreign>Herbe des f&eacute;es (hierba de hadas).</foreign></p>
+<p><hi rend='Bold'>&Uuml;ztailatsia</hi>. <foreign>Viorne lantana.</foreign></p>
+<p><hi rend='Bold'>Xaatxa</hi>. <foreign>Saule des haies (sauce).</foreign></p>
+<p><hi rend='Bold'>Xabulilia</hi>. <foreign>Saponaire (hierba jabonera, saponaria officinalis).</foreign></p>
+<p>Hola deith&uuml;rik zeren bustirik eta eskien artin tinkat&uuml;rik, emaiten bait&uuml; xabuk bezala gah&uuml;ma. Ph&uuml;ntek eta zai&ntilde;ek (50 gr. par litre) egiten die tizana huna dartan eta hazteietan. Berorik ere hartzez izertazten d&uuml;.</p>
+<p><hi rend='Bold'>Xanphora</hi>. <foreign>Cardamine (cardamina).</foreign></p>
+<p>Zeren magitzaren esk&uuml;z hunkitziaeki jauzten diren aziak.</p>
+<p><hi rend='Bold'>Xarlota</hi>. <foreign>Echalote (escalona).</foreign></p>
+<p><hi rend='Bold'>Xarpotxa</hi>. <foreign>Serpolet (serpol, thymus serpyllum).</foreign></p>
+<p>Ezt&uuml;laeki duen bulharretako arank&uuml;etan manhat&uuml;ik da tizana.</p>
+<p><hi rend='Bold'>Xarpoxlarria</hi>. <foreign>Thym (tomillo, thymus vulgaris).</foreign></p>
+<p><hi rend='Bold'>Xikorea</hi>. <foreign>Chicor&eacute;e (achicoria, cichorium intybus)</foreign><mentioned><SUP> [109]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Xinxila</hi>. <foreign>Cucubal (cucubalo)</foreign><mentioned><SUP> [110]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Xipa belharra</hi>. <foreign>Menthe aquatique (menta acu&aacute;tica).</foreign></p>
+<p><hi rend='Bold'>Xiristola</hi>. <foreign>Gen&ecirc;t des tinturiers (retama de tintoreros).</foreign></p>
+<p><hi rend='Bold'>Xixari-belharra, axinxua</hi>. <foreign>Absynthe (ajenjo, artemisa absinthium) .</foreign>Hola deith&uuml;rik zeren horreki egin tizana edo horreki egon arduak libratzen beit&uuml; xixaritik. Ezag&uuml;t&uuml; d&uuml;t gizon zahar bat, eri, estomakin phez&uuml; handi bat, barberak etsit&uuml;rik. Aizoko ostalersak, beitzakin, sendun, maite ziela absinta edaria, hil gabe azken plazer bat egin behar zola, edaneazi zeron godalet bat. Eriak ondoti urthuki zien pelota bezalako xixari athe bat. Goizian oliatia, aratzen sendo zen.</p>
+<p><hi rend='Bold'>Xixai jauzazlia</hi>. <foreign>Tanaisie armoise.</foreign></p>
+<p>Karota b&uuml;r&uuml;tia bezalako lanthare bat da, &uuml;rin borthitz bateki. Liliak &uuml;d&uuml;ri d&uuml; butu bat. Lik&uuml;r bat egiten da xixarik jauzerazten d&uuml;tiana. Ostueki egin kataplazma, haurren sabelan ga&ntilde;en, etxekiz, ehaiten deitze xixariak<mentioned><SUP> [111]</SUP></mentioned>.</p>
+<p><hi rend='Bold'>Xoibazka</hi>. <foreign>Mouron des oiseaux. Renov&eacute;e des oiseaux.</foreign></p>
+<p><hi rend='Bold'>Xuhandora</hi>. <foreign>Cornouiller (cornejo, cornus)</foreign><mentioned><SUP> [112]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Zalgia</hi>. <foreign>Vesce des haies (beza, vicia).</foreign></p>
+<p><hi rend='Bold'>Zantorea</hi>. <foreign>Centaur&eacute; petite (centaura menor, erythrea centarium)</foreign><mentioned><SUP> [113]</SUP></mentioned><foreign>.</foreign></p>
+<p><hi rend='Bold'>Zazpi-osto</hi>. <foreign>Alchimille (sietenrama, potentilla tormentilla).</foreign></p>
+<p><hi rend='Bold'>Zelidona</hi>. <foreign>Ch&eacute;lidoine (celidonia).</foreign></p>
+<p><hi rend='Bold'>Ze&ntilde;u-lilia</hi>. <foreign>Ancolie.</foreign></p>
+<p><hi rend='Bold'>Z&uuml;hain iatzia</hi>. <foreign>Polipodium.</foreign></p>
+<p><hi rend='Bold'>Z&uuml;hain madarikatia</hi>. <foreign>Tro&egrave;ne (ligustro, ligustrum vulgare).</foreign></p>
+<p>Xoriek ere ez die negian jaten horren fr&uuml;ta.</p>
+<p><hi rend='Bold'>Z&uuml;hain nigerregilia</hi>. <foreign>Saule pleureur (sauce llor&oacute;n, salix babilonica).</foreign></p>
+<p><hi rend='Bold'>Z&uuml;mia</hi>. <foreign>Salix. Saule blanc des ruisseaux.</foreign></p>
+<p>Hoien egongaia <hi rend='Bold'>zumatzia</hi>. Horren axalaeki egon hura edo arduak sendotzen d&uuml; s&uuml;kharra, kinkinak bezala kasik.</p>
+<p><hi rend='Bold'>Z&uuml;nharra</hi>. <foreign>Orme (olmo, ulmus campestris).</foreign></p>
+<p>Hori id&uuml;ri beste z&uuml;nhar bat hegigarra. Ene ustez s&uuml;berosa, salb&uuml; eta ostua xipiago beit&uuml; eta axala oro hegi, hartakoz deith&uuml;rik hegigarra.</p>
+<p><mentioned>&mdash; [1] Lehendabiziko idazki honen edizio berri honetarako hainbat aldaketa eta gehiketa egin dugu. Althabek zekarren ordenari buelta eman diogu, eta frantsesa-euskara izan ordez, euskara-frantsesa ordenari jarraitu diogu. Bestalde, gaztelerazko eta latinezko deiturak ere gehitu ditugu, parentesi artean beti. Althaberen testua doian gorpuzteago Lakoizketaren lana aldamenean izan dugu uneoro. Horretan, Larramendiren <hi rend='Italic'>Diccionario Triling&uuml;e </hi>hiztegian azaldurikoak, baita Aizkibelenak jasotzen dira. Edozein modutan ere, ez dugu deitura ezberdinak baizik hartu, eta ez beti, gehixegi ez luzatzearren. Orain arte argitara ateratako Mitxelenaren <hi rend='Italic'>Orotariko Euskal Hiztegia </hi>delakoaren alekiak ere eskura izan ditugu.</mentioned></p>
+<p><mentioned>&mdash; [2] <hi rend='Italic'>Eskualduna</hi> aldizkaria 1887.ean elki zen estrainekoz Luis Etxeberriren akuilagopean, betiere errepublika zaleek atera <hi rend='Italic'>R&eacute;veil</hi> zeritzanari kontra egiteko. Ezagunn da astekari honen bizitza luzea, baita zuzendaritzan izaniko goren graduko izenak: Hiriart-Hurruti, Blas Adema "Zaldubi", Saint-Pierre, Arotzarena...</mentioned></p>
+<p><mentioned>&mdash; [3] <hi rend='Italic'>Ziorlatxa </hi>(DT); <hi rend='Italic'>ahago </hi>(BN, S), <hi rend='Italic'>ahagorri</hi> (BN), paciencia, planta de raiz larga y hoja ancha (Azkue).</mentioned></p>
+<p><mentioned>&mdash; [4] <hi rend='Italic'>Ahamnda belhar </hi>(BN, S), ajenjo / absinthe (Azkue).</mentioned></p>
+<p><mentioned>&mdash; [5] <hi rend='Italic'>Aran zuria </hi>(Lakoiz.).</mentioned></p>
+<p><mentioned>&mdash; [6] <hi rend='Italic'>Andura, anyura, mausa, osilla-pikoa </hi>(Lakoiz.).</mentioned></p>
+<p><mentioned>&mdash; [7] Forraje: &laquo;Ditxa duenak alga eta abere, eztuenak ez lasto ere&raquo;, Oihenarte, 114.</mentioned></p>
+<p><mentioned>&mdash; [8] Hagitz pozointsua. Lakoizketak <hi rend='Italic'>otseria </hi>(=matalobos) eta <hi rend='Italic'>ira-belarra </hi>deiturekin batera Larramendiren hiztegian (DT) jaso <hi rend='Italic'>pozoiduna</hi> aldaera ekarri zizkigun.</mentioned></p>
+<p><mentioned>&mdash; [9] Una especie de cardo / chardon nain, dont les fevilles s'&eacute;talent sur le sol.</mentioned></p>
+<p><mentioned>&mdash; [10] <hi rend='Italic'>Anbula </hi>(BN, R, S), <hi rend='Italic'>anbulo </hi>(AN, BN), <hi rend='Italic'>anburu </hi>(L), <hi rend='Italic'>porrostia</hi> (DT); landare honezaz alkohol mota bat egin izan da Lakoizketaren aburuz.</mentioned></p>
+<p><mentioned>&mdash; [11] <hi rend='Italic'>Mats-larra </hi>(Lakoizketa).</mentioned></p>
+<p><mentioned>&mdash; [12] <hi rend='Italic'>Perretxillezea </hi>(DT).</mentioned></p>
+<p><mentioned>&mdash; [13] <hi rend='Italic'>Ardai, ardagai</hi>, cierto tipo de ag&aacute;rico sin tallo, cuyas especies viven par&aacute;sitas en el tronco del alerce, chopo, encina u otros &aacute;rboles. Seco sirve de yesca; <hi rend='Italic'>Karduba</hi> (Lakoizketa).</mentioned></p>
+<p><mentioned>&mdash; [14] Althabek dakarrenaz gain, Lakoizketak <hi rend='Italic'>soldadu belarra</hi> badakar: &laquo;aludiendo a su uso en esta comarca que lo introdujeron los soldados franceses en el a&ntilde;o de 1793&raquo;.</mentioned></p>
+<p><mentioned>&mdash; [15] Lakoizketak honakoak dakartza: <hi rend='Italic'>askia </hi>(DT), <hi rend='Italic'>atso-erioa </hi>(L), <hi rend='Italic'>atso-muturra </hi>(Zugarramurdi).</mentioned></p>
+<p><mentioned>&mdash; [16] <hi rend='Italic'>Bolligoia </hi>(Lakoiz.).</mentioned></p>
+<p><mentioned>&mdash; [17] <hi rend='Italic'>Arbitxikia </hi>(Lakoiz.).</mentioned></p>
+<p><mentioned>&mdash; [18] Planta de la familia de las umbel&iuml;feras (Azkue).</mentioned></p>
+<p><mentioned>&mdash; [19] <hi rend='Italic'>Gotxerroa </hi>(Lakoiz.).</mentioned></p>
+<p><mentioned>&mdash; [20] <hi rend='Italic'>Artatxiki.</hi></mentioned></p>
+<p><mentioned>&mdash; [21] <hi rend='Italic'>Orburua </hi>(DT).</mentioned></p>
+<p><mentioned>&mdash; [22] <hi rend='Italic'>Artzain zorro belar </hi>(Retana).</mentioned></p>
+<p><mentioned>&mdash; [23] Lakoizketak <hi rend='Italic'>ostazuria</hi> dakar, &laquo;no es chopo como dicen&raquo;. Honen ondoan <hi rend='Italic'>mats-pilla </hi>(AN), <hi rend='Italic'>gurbie </hi>(AN, Iru&ntilde;errian), <hi rend='Italic'>mazpila </hi>(L) eta <hi rend='Italic'>azpila</hi> (L) badakartza, mostajo, alisier des bois, sorbus torminalis. <hi rend='Italic'>Aspiltze</hi> (S), majuelo / aub&eacute;pine (Azkue).</mentioned></p>
+<p><mentioned>&mdash; [24] <hi rend='Italic'>Ezta&ntilde;u belarra </hi>(Lakoizk.).</mentioned></p>
+<p><mentioned>&mdash; [25] <hi rend='Italic'>Ostatxea, orriteskua</hi> (lakoizk.).</mentioned></p>
+<p><mentioned>&mdash; [26] <hi rend='Italic'>Bumina </hi>(DT).</mentioned></p>
+<p><mentioned>&mdash; [27] <hi rend='Italic'>Saparlarra, luisalea </hi>(Lakoiz.), alkarakatx.</mentioned></p>
+<p><mentioned>&mdash; [28] <hi rend='Italic'>Arbol madarikatua </hi>: &laquo;Los nudos de sus ramos y troncos son semejantes a los que algunos artistas tallan en los crucifijos, y por esto el vulgo supone que era de esta especie el madero en que clavaron a Jesucristo&raquo; (Lakoizketa); &laquo;Erran bat bada basa-erramua zela Jesu-Krixto itzatu zuten gurutzea; horra zertako dioten naski zuhaitz madarikatua han hemenka erraten. Udazkenean bihi gorrastaz kargatua delarik, zer landare pollita! Bainan bihi horiek zer pozoina duten!&raquo; (Zerbitzari, OEH).</mentioned></p>
+<p><mentioned>&mdash; [29] Planta de la familia de los helechos / planta de la famille des foug&egrave;res (Azkue).</mentioned></p>
+<p><mentioned>&mdash; [30] <hi rend='Italic'>Astazafrana </hi>(DT).</mentioned></p>
+<p><mentioned>&mdash; [31] <hi rend='Italic'>Ur ostoa</hi> (OEH).</mentioned></p>
+<p><mentioned>&mdash; [32] <hi rend='Italic'>Ige beratxa </hi>(Lakoizketa).</mentioned></p>
+<p><mentioned>&mdash; [33] <hi rend='Italic'>ketozkia </hi>(Lakoizketa)</mentioned></p>
+<p><mentioned>&mdash; [34] <hi rend='Italic'>Pleta </hi>(Bortzirietan, Lakoizketa), <hi rend='Italic'>bezarra </hi>(L), <hi rend='Italic'>zerba </hi>(DT).</mentioned></p>
+<p><mentioned>&mdash; [35] <hi rend='Italic'>Arroda</hi> (Lakoiz.).</mentioned></p>
+<p><mentioned>&mdash; [36] <hi rend='Italic'>Ostaza </hi>(DT), <hi rend='Italic'>apo-belarra </hi>(Lakoizketa).</mentioned></p>
+<p><mentioned>&mdash; [37] Lakoizketak <hi rend='Italic'>belar-mi&ntilde;a</hi> dakar (DT).</mentioned></p>
+<p><mentioned>&mdash; [38] <hi rend='Italic'>Nas-lorakia</hi> (Lakoizketa).</mentioned></p>
+<p><mentioned>&mdash; [39] Uharte Arakilen, landarea izendatzeko <hi rend='Italic'>txinbirio </hi>hitza jaso dugu.</mentioned></p>
+<p><mentioned>&mdash; [40] <hi rend='Italic'>Txarrangilla, orma belharra, odol-belarra </hi>(Lakoiz.).</mentioned></p>
+<p><mentioned>&mdash; [41] &laquo;Landare guti da Euskal Herrian erremulia baino maitatuago denik. pollita da, usain ona du, eta dohain hainitz badu erromatisma zahar eta holakoen kontra&raquo; (Zerbitzari, OEH).</mentioned></p>
+<p><mentioned>&mdash; [42] Lakoizketak dakar <hi rend='Italic'>bermigarzia</hi> (DT); en esta comarca es conocida con la denominaci&oacute;n <hi rend='Italic'>ezkerra-aiena</hi>, significando sarmiento que trepa en h&eacute;lice de derecha a izquierda.</mentioned></p>
+<p><mentioned>&mdash; [43] Gualda, vaso de oro / gaude, gen&ecirc;t d'or (Azkue).</mentioned></p>
+<p><mentioned>&mdash; [44] <hi rend='Italic'>Lapa Txipia, Zia belharra </hi>(DT).</mentioned></p>
+<p><mentioned>&mdash; [45] <hi rend='Italic'>Urrosta </hi>(DT).</mentioned></p>
+<p><mentioned>&mdash; [46] <hi rend='Italic'>Azerimatsa </hi>(Lakoiz.), <hi rend='Italic'>txorimahatsa.</hi></mentioned></p>
+<p><mentioned>&mdash; [47] <hi rend='Italic'>Garaiska, txarrangilla </hi>(Lakoiz.).</mentioned></p>
+<p><mentioned>&mdash; [48] <hi rend='Italic'>Gerezia</hi>, &laquo;no es de origen euskaro y viene del latin cerasus, pues se sabe que L&uacute;culo trajo el cereco de Cerasonte, Asia Menor, y que de aquella localidad tom&oacute; su denominaci&oacute;n, cerasus.</mentioned></p>
+<p><mentioned>&mdash; [49] <hi rend='Italic'>Zigiboilla</hi> (Lakoizketa).</mentioned></p>
+<p><mentioned>&mdash; [50] <hi rend='Italic'>Errepolloa, azakoba </hi>(Lakoizketa).</mentioned></p>
+<p><mentioned>&mdash; [51] <hi rend='Italic'>Irasagarra </hi>(Lakoiz.).</mentioned></p>
+<p><mentioned>&mdash; [52] <hi rend='Italic'>Aingeru belarra </hi>(Lakoizketa).</mentioned></p>
+<p><mentioned>&mdash; [53] Charmilla, &aacute;rbol cuya madera se utiliza para trabajos de torner&iacute;a / charme, arbre dont le bois s'emploie dans les travaux de tour.</mentioned></p>
+<p><mentioned>&mdash; [54] Avena silvestre o grama de perros / avoine sauvage, chiendent des chiens.</mentioned></p>
+<p><mentioned>&mdash; [55] Lakoizketak ere hauexek badakartza: <hi rend='Italic'>a&ntilde;arra</hi> (en esta comarca, Bertizarana naski)<hi rend='Italic'>, elharra </hi>(L), <hi rend='Italic'>ilharra </hi>(BN), <hi rend='Italic'>gillarra </hi>(BN).</mentioned></p>
+<p><mentioned>&mdash; [56] <hi rend='Italic'>Balsamo belarra, ebaki belarra </hi>(lakoiz.).</mentioned></p>
+<p><mentioned>&mdash; [57] <hi rend='Italic'>Arancibia </hi>(DT).</mentioned></p>
+<p><mentioned>&mdash; [58] <hi rend='Italic'>Urraza </hi>(DT).</mentioned></p>
+<p><mentioned>&mdash; [59] Esparga&ntilde;o, la hierba que nace la primera en primavera / laiteron, la premi&eacute;re plante qui pousse au printemps (Azkue).</mentioned></p>
+<p><mentioned>&mdash; [60] &laquo;Pr&eacute;stamo rom&aacute;nico, <hi rend='Italic'>biraca</hi>. del latin <hi rend='Italic'>ebriaca</hi>.</mentioned></p>
+<p><mentioned>&mdash; [61] <hi rend='Italic'>Urdin gorria </hi>(Lakoiz.).</mentioned></p>
+<p><mentioned>&mdash; [62] <hi rend='Italic'>Laras&ntilde;a</hi> (Lakoiz.).</mentioned></p>
+<p><mentioned>&mdash; [63] <hi rend='Italic'>Ipurka, ipuru. likabra, i&ntilde;ibrea, orrea </hi>(Lakoiz.).</mentioned></p>
+<p><mentioned>&mdash; [64] <hi rend='Italic'>urriltza</hi> (DT).</mentioned></p>
+<p><mentioned>&mdash; [65] <hi rend='Italic'>Kamomila, bitxilora</hi> (Lakoizketa).</mentioned></p>
+<p><mentioned>&mdash; [66] <hi rend='Italic'>Kanabela, ka&ntilde;abera, garriza, kana </hi>(Lakoizketa).</mentioned></p>
+<p><mentioned>&mdash; [67] <hi rend='Italic'>Zorne-belarra </hi>(Lakoizketa).</mentioned></p>
+<p><mentioned>&mdash; [68] <hi rend='Italic'>Kalabazoria </hi>(Lakoiz.).</mentioned></p>
+<p><mentioned>&mdash; [69] <hi rend='Italic'>Mugitia </hi>(Lakoizketa), <hi rend='Italic'>sora-mugiya </hi>(Aizkibel).</mentioned></p>
+<p><mentioned>&mdash; [70] <hi rend='Italic'>Lobedarra, lobelarra, emapola</hi> (Lakoiz.).</mentioned></p>
+<p><mentioned>&mdash; [71] <hi rend='Italic'>Balsa-mi&ntilde;a </hi>(DT).</mentioned></p>
+<p><mentioned>&mdash; [72] <hi rend='Italic'>Ositxeka </hi>(DT), <hi rend='Italic'>Zolda belarra </hi>(Lakoiz.).</mentioned></p>
+<p><mentioned>&mdash; [73] <hi rend='Italic'>Manda-persesilla</hi> (Lakoizketa).</mentioned></p>
+<p><mentioned>&mdash; [74] <hi rend='Italic'>Kurkubia , Kaskabilla </hi>(Lakoizketa).</mentioned></p>
+<p><mentioned>&mdash; [75] <hi rend='Italic'>Eskinantzia</hi> /DT).</mentioned></p>
+<p><mentioned>&mdash; [76] Lakoizketak <hi rend='Italic'>latxaskia </hi>eta <hi rend='Italic'>orrortxeta</hi>. (DT)</mentioned></p>
+<p><mentioned>&mdash; [77] <hi rend='Italic'>Lurruntza </hi>(B, G,): planta par&aacute;sita del trigo y maiz, tiene flor y raiz blancas / planta parasite du bl&eacute; et du mais, dont le fleur et la racine sont blanches (Azkue); <hi rend='Italic'>txilsurka, ezkertebeltza, ziurda, biurda </hi>(Lakoizketa).</mentioned></p>
+<p><mentioned>&mdash; [78] <hi rend='Italic'>Txulufrina, julo-freia </hi>(Lakoizketa).</mentioned></p>
+<p><mentioned>&mdash; [79] <hi rend='Italic'>Asta menda, kukuso-belharra </hi>(Lakoizketa), <hi rend='Italic'>mendaza </hi>(Aizkibel).</mentioned></p>
+<p><mentioned>&mdash; [80] <hi rend='Italic'>Larania, torongilla, garraiska </hi>(DT).</mentioned></p>
+<p><mentioned>&mdash; [81] <hi rend='Italic'>Zume, zumarika, zumitza, zumalika </hi>(Lakoiz.).</mentioned></p>
+<p><mentioned>&mdash; [82] <hi rend='Italic'>Millorria </hi>(DT).</mentioned></p>
+<p><mentioned>&mdash; [83] <hi rend='Italic'>Mingotxa, belar-gazia </hi>(Lakoizketa); mineta belarra landetan nunnai eltzen da, kardaberaren ostoak bezalakoduna da, goxoa, aurrak jaten duk haukien ostoak, lilia gai&ntilde;ean batto du (L., Azkue).</mentioned></p>
+<p><mentioned>&mdash; [84] <hi rend='Italic'>Ziapea </hi>(Lakoizketa).</mentioned></p>
+<p><mentioned>&mdash; [85] <hi rend='Italic'>Larra, sasia, lartza, marthotxa, martzoka </hi>(lakoizketa).</mentioned></p>
+<p><mentioned>&mdash; [86] <hi rend='Italic'>Txardin belarra </hi>(Lakoizketa).</mentioned></p>
+<p><mentioned>&mdash; [87] <hi rend='Italic'>Orma belarra, txarrangilla </hi>(Lakoiz.).</mentioned></p>
+<p><mentioned>&mdash; [88] Lakoizketak honako hauek dakarzkigu: <hi rend='Italic'>Ollakarana </hi>edo <hi rend='Italic'>zumalakarra</hi>, eta <hi rend='Italic'>eskilarra </hi>(DT).</mentioned></p>
+<p><mentioned>&mdash; [89] <hi rend='Italic'>Oloza </hi>(Lakoizketa), <hi rend='Italic'>larre-oloa</hi> (DT).</mentioned></p>
+<p><mentioned>&mdash; [90] Especie de seta comestible peque&ntilde;a, amarillenta y temprana / girolle, chanterelle, champignon comestible jaun&acirc;tre et pr&eacute;coce (Azkue).</mentioned></p>
+<p><mentioned>&mdash; [91] <hi rend='Italic'>Orkhatz-belharra</hi> ere bai (Lakoizketa).</mentioned></p>
+<p><mentioned>&mdash; [92] <hi rend='Italic'>Goldarrona </hi>(Lakoizketa).</mentioned></p>
+<p><mentioned>&mdash; [93] <hi rend='Italic'>Sugeria</hi> (Lakoizketa).</mentioned></p>
+<p><mentioned>&mdash; [94] <hi rend='Italic'>Txarrangilla, ormabelarra, odol-belharra </hi>(Lakoiz.).</mentioned></p>
+<p><mentioned>&mdash; [95] <hi rend='Italic'>Mertxika, tuatxa </hi>(L., Lakoizk.).</mentioned></p>
+<p><mentioned>&mdash; [96] Seg&uacute;n Larramendi, en alem&aacute;n es olla, as&iacute; como en dialecto vizca&iacute;no lapikoa, y puede aludir a la forma del recept&aacute;culo que encierra los frutos de este arbusto, pero esto seg&uacute;n mi amigo el Sr. Campi&oacute;n, no pasa de ser una mera etimolog&iacute;a de sonsonete, por lo que hay que buscarla en su nombre latino ficus, puesto que este no puede derivarse del vascongado &#191;proceden ambas denominaciones de otra ancestral com&uacute;n? A esta pregunta que a cada paso surge, trat&aacute;ndose de nombres de objetos vulgares con nombres ling&uuml;&iacute;sticamente reductibles, no puede hoy dar contestaci&oacute;n la ciencia.</mentioned></p>
+<p><mentioned>&mdash; [97] <hi rend='Italic'>Pitusgarria </hi>(DT).</mentioned></p>
+<p><mentioned>&mdash; [98] <hi rend='Italic'>Miura, miula </hi>(Lakoizk.).</mentioned></p>
+<p><mentioned>&mdash; [99] <hi rend='Italic'>Tartikua, tartekina </hi>(Lakoiz.).</mentioned></p>
+<p><mentioned>&mdash; [100] Rastrojo , residuo de ca&ntilde;as de la mies que queda en la tierra despu&eacute;s de segar (Azkue).</mentioned></p>
+<p><mentioned>&mdash; [101] Hierba pajarera, pica gallina, hierba de raiz blanca larga / mouron blanc des oiseaux, herbe &agrave; longue racine blanche, <hi rend='Italic'>cerastium, stellaria media</hi> (Azkue); Lakoizketa belar ezberdinak ditu Azkuek emandakoak: <hi rend='Italic'>stellaria media = sapelarra, txabarkoia</hi>, eta <hi rend='Italic'>cerastium = belar zuria, sagu biarria</hi>.</mentioned></p>
+<p><mentioned>&mdash; [102] <hi rend='Italic'>Ersukaia, mardarrosa </hi>(DT); &laquo;En este pa&iacute;s algunos fuman sus hojas&raquo;, (Lakoizketa).</mentioned></p>
+<p><mentioned>&mdash; [103] &laquo;Las cocineras le llaman salsifi, nombre franc&eacute;s de esta planta cuyo uso se ha importado de Francia&raquo;, (Lakoizketa).</mentioned></p>
+<p><mentioned>&mdash; [104] <hi rend='Italic'>Txostorria </hi>(DT).</mentioned></p>
+<p><mentioned>&mdash; [105] Cardo lechero, cardo santo / laiteron, chardon b&eacute;nit (Azkue).</mentioned></p>
+<p><mentioned>&mdash; [106] <hi rend='Italic'>Lapa txikia </hi>(Lakoiz.).</mentioned></p>
+<p><mentioned>&mdash; [107] <hi rend='Italic'>Lapa-txikia </hi>(DT).</mentioned></p>
+<p><mentioned>&mdash; [108] <hi rend='Italic'>Idibegia </hi>(DT).</mentioned></p>
+<p><mentioned>&mdash; [109] <hi rend='Italic'>Oster-txuria </hi>(Aizkibel).</mentioned></p>
+<p><mentioned>&mdash; [110] Azkue: Campanilla / sonnete (BN, S).</mentioned></p>
+<p><mentioned>&mdash; [111] Lakoizketak <hi rend='Italic'>azinjuba </hi>eta <hi rend='Italic'>azantzkoa </hi>badakartza. Zeregin bereberarako ere <hi rend='Italic'>artemisa abrotanum </hi>edo txitxari-belarra. Behiala zizarien kontu hauek zinez kezkagarriak ziren. Horrezaz zentzudun iharduki zuen Martin Minvielle Lartigau Labetseko miriku baxenafartarrak 1939.eko bere <hi rend='Italic'>Haurren arthatzeaz </hi>idazki pollitan: &laquo;Gure haur guziek, urthearen ondotik, xixariak badituzte. Izan ditezen eri edo ontsa, bethi badituzte zernahi. Har horiek egun guziez zuen baratzetan ikusten ditutzuenen familia berekoak dira, batzu biziki lodi, bertzeak arras tipi. Haurrek lurretik hartzen dituzte; lurrean itzulipurdika edo herrestan ibiliz, erhiak bethi lurrez zikhinduak ahorat emaiten dituztela, egun guziez bar arroltzeak milaka, miliunka barneratzen dituzte. Arroltze horiek ttipiegi dira gure begiez ikhusteko; nahiko duzielarik, microscope delakoarekin ikhusaraziko dauzkitzuet; emadazue lur poxi bat eta ixkilinba buru bat baino ttipiagoko poxi batean ikhusiren ditutzue milaka. Haurrak egun guziez iresten dituen arroltzeak jalgitzen dira gutiz gehienak ungarrian; bainan batzu gelditzen dira lothuak hertzetan eta han handituz xixari bilhakatzen. Ez erran beraz ez dakigula medikuek haurretan xixariak baditezkela; denek badituztela badakigu, eta zuek uste baino ainhitz gehiago&raquo;.</mentioned></p>
+<p><mentioned>&mdash; [112] <hi rend='Italic'>Belzurda, zuaindurra </hi>(Lakoiz.). Azkuek alhe&ntilde;a / tro&egrave;ne ematen du, ligustrum vulgare, <hi rend='Italic'>beltxalea, bi&ntilde;orria, sosakusia, alegustrea </hi>DT Lakoizketarenean).</mentioned></p>
+<p><mentioned>&mdash; [113] <hi rend='Italic'>Lubeazuna </hi>(Aizkibel).</mentioned></p>
+        </body>
+      </text>
+    </group>
+  </text>
+</TEI.2>
+

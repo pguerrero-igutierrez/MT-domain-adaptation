@@ -1,0 +1,923 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN"
+                       "http://www.tei-c.org/P4X/DTD/tei2.dtd" [
+   <!ENTITY % TEI.prose    'INCLUDE' >
+   <!ENTITY % TEI.linking  'INCLUDE' >
+   <!ENTITY % TEI.analysis 'INCLUDE' >
+   <!ENTITY % TEI.figures  'INCLUDE' >
+   <!ENTITY % TEI.XML      'INCLUDE' >
+   <!ENTITY % TEI.extensions.ent SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.ent' >
+   <!ENTITY % TEI.extensions.dtd SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.dtd' >
+]>
+<TEI.2>
+  <teiHeader>
+  <fileDesc>
+     <titleStmt>
+        <title>Jostuna</title>
+        <author>Antonio Maria Labaien</author>
+        <respStmt>Ez dauka</respStmt>
+     </titleStmt>
+     <extent>10.360 hitz, 75.777 karaktere</extent>
+     <publicationStmt>
+        <publisher>Klasikoen Gordailua [http://klasikoak.armiarma.com/]</publisher>
+        <distributor>Estrata Liburuak S.L.</distributor>
+        <address type='email'>klasikoak@armiarma.com</address>
+        <idno type='ota'>LabaienJostuna</idno>
+        <availability status='free'>Erabilpen librekoa; honoko helbidean topa daiteke (HTML, RTF eta PDF formatuetan): http://klasikoak.armiarma.com/idazlanak/L/LabaienJostuna.htm</availability>
+        <date>2006</date>
+     </publicationStmt>
+     <sourceDesc>
+        <bibl>Iturria: Euzko-Gogoa, 1955eko maiatza-abendua (http://www.armiarma.com/andima/eugo/eugo27/eugo2753.htm)</bibl>
+        <notesStmt><note>Iturburuen datazioa: 1956</note></notesStmt>
+     </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+     <projectDesc>Euskal literaturako testu klasikoen bilduma da KLASIKOEN GORDAILUA; testu hau berorren parte da</projectDesc>
+     <refsDecl>
+        <p>MENTIONED etiketa egilearenak ez diren hitzak markatzeko erabili da: hitzaurreak, aipuak, iruzkinak, e.a.</p>
+    </refsDecl>
+     <classDecl>
+        <taxonomy id='generoa'>
+            <category id='G-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='G-ANT'><catDesc>Antzerkia</catDesc></category>
+            <category id='G-BER'><catDesc>Bertsoak</catDesc></category>
+            <category id='G-ERL'><catDesc>Erlijioa</catDesc></category>
+            <category id='G-NAR'><catDesc>Narratiba</catDesc></category>
+            <category id='G-POE'><catDesc>Poesia</catDesc></category>
+            <category id='G-SAI'><catDesc>Saiakera, kronika, artikuluak...</catDesc></category>
+        </taxonomy>
+        <taxonomy id='garaia'>
+            <category id='M-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='M-16'><catDesc>XVI. mendea</catDesc></category>
+            <category id='M-17-1'><catDesc>XVII. mendea - 1. erdia</catDesc></category>
+            <category id='M-17-2'><catDesc>XVII. mendea - 2. erdia</catDesc></category>
+            <category id='M-18-1'><catDesc>XVIII. mendea - 1. erdia</catDesc></category>
+            <category id='M-18-2'><catDesc>XVIII. mendea - 2. erdia</catDesc></category>
+            <category id='M-19-1'><catDesc>XIX. mendea - 1. erdia</catDesc></category>
+            <category id='M-19-2'><catDesc>XIX. mendea - 2. erdia</catDesc></category>
+            <category id='M-20-1'><catDesc>XX. mendea - 1. erdia</catDesc></category>
+            <category id='M-20-2'><catDesc>XX. mendea - 2. erdia</catDesc></category>
+        </taxonomy>
+        <taxonomy id='euskalkia'>
+            <category id='E-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='E-BAT'><catDesc>batua</catDesc></category>
+            <category id='E-BIZ'><catDesc>bizkaiera</catDesc></category>
+            <category id='E-BNA'><catDesc>behenafarrera</catDesc></category>
+            <category id='E-ERR'><catDesc>erronkariera</catDesc></category>
+            <category id='E-GIP'><catDesc>gipuzkera</catDesc></category>
+            <category id='E-GNA'><catDesc>goi nafarrera</catDesc></category>
+            <category id='E-LAP'><catDesc>lapurtera</catDesc></category>
+            <category id='E-NAF'><catDesc>nafarrera</catDesc></category>
+            <category id='E-ZAR'><catDesc>zaraitzuera</catDesc></category>
+            <category id='E-ZUB'><catDesc>zuberera</catDesc></category>
+        </taxonomy>
+    </classDecl>
+  </encodingDesc>
+  <profileDesc>
+     <textClass>
+       <keywords scheme='generoa'>
+         <list><item>G-ANT</item></list>
+       </keywords>
+       <keywords scheme='garaia'>
+         <list><item>M-20-2</item></list>
+       </keywords>
+       <keywords scheme='euskalkia'>
+         <list><item>E-GIP</item></list>
+       </keywords>
+     </textClass>
+  </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>Jostuna -- Antonio Maria Labaien</docTitle>
+    </front>
+    <group>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>JOSTUNA</p><--</head>
+        </front>
+        <body>
+<p>Bi ekitaldilan Antzerkia neskatxa bakarrentzat</p>
+<p><hi rend='Italic'>Zipitriatar Elbire andere&ntilde;oari</hi></p>
+<p>Komeri bat neskatxa bakarrentzat eskatu zidaten, eta ona emen atera zaidana: JOSTUNA. Ez dakit gaia ondo ikusi ta aukera dudan; are gutxiago aria erabilliaz zuta ta zearra zuzen neurtu, egoki josi ditudan ertz guziak tolesturik. Irakurle-ikusleak esan bearko dute.</p>
+<p>Onoko egille au, gizonezkoen baldarrean noski, emakumezkoen jarduna alik eta ondoen burutzen alegindu da. Or konpon beraz. Berak, nere utsegite ta akatzak leundu ditzakete, nere asmamen motelari bizia emanez.</p>
+<p>Neskatxa bakarrak ala mutil utsekin teatro-lan bat bilbatu ta tajutzea ez dala gauza erreza aitor bear dizuet.</p>
+<p>Ori, pianoa eskubi ala esker esku bakarrekin jotzea bezela dezute. Eskuok orduan beren lekutik kanpo ibilli bear dute bakarrak bien lana egin dezan; nolabait ipuia osotu ta borobildu dedin.</p>
+<p>Dana dala, antzerki auxe atsegin ba zaizue eta jendeen aurrean azaltzeko din dala ba-derizkiozute, nere lantxoarentzat ori izango zait saririk ordaingarriena.</p>
+<p>Egilleak</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Jostuna 25 bat urtekoa.</p>
+<p>-f-<hi rend='Bold'>FILO:</hi> Aixpa gazteagoa.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA:</hi> Ama 60 urte inguru.</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> Neska zarra Markes baten etxean giltzazai dagona.</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Neskatx-pelotaria Lutxi ta Filoren laguna.</p>
+<p>-f-<hi rend='Bold'>SOR PAULA:</hi> Monja Andre Dominiren aizpa zarra.</p>
+<p>Gertakizuna orain-oraintsu Gallarreta errian eta Madriden.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>LENENGO EKITALDIA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>I. AGERRALDIA</hi></p>
+<p>-e-<hi rend='Italic'>(Jostundegia Lutxiren etxean. Barnean josteko makinaren otsa entzun bedi. Gelan bear diran mai, esertoki, arasa eta abar. Ate bi: bata kalera daramana eta bestea etxe barnera).</hi></p>
+<p>ERROXALI ETA LUTXI</p>
+<p>-f-<hi rend='Bold'>ERROXALI: </hi>Geiago ezin dedalako etorri naiz. Amabost egun barru nere etxekoandre markesak urteroko jaia ematen du Donostian, eta egun ortarako nai ta naiezkoa zait zuk so&ntilde;eko ori gertutzea...</p>
+<p>-f-<hi rend='Bold'>LUTXI: </hi>Orratx bada, ez dizut itzik ematen. Ez, ez!...</p>
+<p>-f-<hi rend='Bold'>ERROXALI: </hi>Ezetz? Auxen da lanbidea... Tira, tira!</p>
+<p>-f-<hi rend='Bold'>LUTXI: </hi>Lanbidea jostun izatea da erri ontan, eta lanez lepora&ntilde;o josita urte sasoi ontan. Andramaritako bakarrik agindua dauzkatenaz ez dakit nola ibilliko naizen bukatzeko.</p>
+<p>-f-<hi rend='Bold'>ERROXALI: </hi>Ni ez al nazu utziko lotsagarri, markesaren giltza-zaia...</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Guziok batera etortzen zerate eta i&ntilde;ork ez itxoin nai.</p>
+<p>-f-<hi rend='Bold'>ERROXALI: </hi>Ez da so&ntilde;eko berria; baizik-eta markesak igaz eman zidana. Zerorrek ikusiko dezu. Oso seda onekoa, ori bai kanela-kolorekoa. Ementxe ekarri dizut. (<hi rend='Italic'>Pakete batetik azkatuaz</hi>).</p>
+<p>-f-<hi rend='Bold'>LUTXI: </hi>Naigo det ez ikusi, erriko festak igaro arte...</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> (<hi rend='Italic'>Zabaldu ta erakutsiaz</hi>) Ez du asko antola bearrik: gerria pixka bat igo, gona zerbait moztu, atzealdetik atera, aurretik berriz lasatu, kolkoa zabalxeago, beso-mangak laburtu japonesa eran. (<hi rend='Italic'>Au guzia parregarri esan beza esaerai dagokien ki&ntilde;u ta itxurak egi&ntilde;ez</hi>).</p>
+<p>-f-<hi rend='Bold'>LUTXI: </hi>Ez dezu gutxi nai...</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi>Ez da ezer zuk dituzun esku trebeentzat. Oso &laquo;xik&raquo; geldituko zait. Jende aundia biltzen da gure markesaren jai-egunean, eta guziok galdegingo didate: &laquo;Nork josi dizu so&ntilde;eko &laquo;liluragarri&raquo; ori? Ta nik: &laquo;Lutxik&raquo;!</p>
+<p>-f-<hi rend='Bold'>LUTXI: </hi>Orratx! Ezin esan ezetz... Auxe da lanbidea gurea!</p>
+<p>-f-<hi rend='Bold'>ERROXALI: </hi>Ez esan orratx eta ar zazu titare ta jostorratz... baiezkoa emango didazula ba-dakit.</p>
+<p>-f-<hi rend='Bold'>LUTXI: </hi>Begira, Erroxali, etorri zaite datorren astelenean. Aste au oso txarra degu. Gauerdi arte ari gera lanean, eta eldu dan astean zer lan gelditzen zaizkigun ikusita...</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> Neri egiten didazuna ez da izango musutruk. Ain zuzen egun ortan beti izaten da gure etxean markesaren modista, Madriden, dan onentxoena, eta nai nuke berak lenago jositako so&ntilde;ekoa, nola eraberritu didazun ikusi dezan. Zuretzat maistra ona litzake andre ori. Eta bein ba&ntilde;o geiagotan bururatu zait arengana joan bear zenukela ikastera. Azken azkeneko modak..</p>
+<p>-f-<hi rend='Bold'>LUTXI: </hi>Ez dago gaizki esana. Zure asmo onak dirala-ta ezin utziko zaitut zure soi&ntilde;eko kutun au gabe. <hi rend='Italic'>(So&ntilde;ekoa zabaldu ta aztertuaz)</hi> Gai onekoa da.</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> (<hi rend='Italic'>pozik</hi>) Ederki, Lutxi! Guziz maitagarri zi&ntilde;ala ba nekin eta orain arego. Ez naiz aztuko zutzaz. Eta (<hi rend='Italic'>gaiztakeriz belarrira</hi>)... beste senargai bat lengoa ba&ntilde;o obea opa dizut...</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Ez zaidazula aitatu. Aski izan det batekin.</p>
+<p>-f-<hi rend='Bold'>ERROXALI: </hi>Emengo mutillekin ezkondu ba&ntilde;o... obeto dago bat dagon bezela.</p>
+<p>-f-<hi rend='Bold'>LUTXI: </hi>Gaizkitxo bizi zera!</p>
+<p>-f-<hi rend='Bold'>ERROXALI: </hi>Erroxali &laquo;Errementariko&raquo; alabak, ez du i&ntilde;on inbidirik.</p>
+<p>-f-<hi rend='Bold'>LUTXI: </hi>Eta kanela-kolorezko so&ntilde;eko apain orrekin ministruak ere begiekin jango zaitue.</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> (<hi rend='Italic'>par eginez</hi>) Ezta arroza esneakin ba-nintz ere!</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> (<hi rend='Italic'>So&ntilde;ekoa aztertuaz</hi>) Pampoxa geldituko zaizu.</p>
+<p>-f-<hi rend='Bold'>ERROXALI: </hi>Beti amabost! Au poza nerea! Astelenean emen nazu probaketa egitera.</p>
+<p>-f-<hi rend='Bold'>LUTXI: </hi>Ez ain aguro. Astelenean jostunak ere jai bear genuke, zapatariak bezela.</p>
+<p>-f-<hi rend='Bold'>ERROXALI: </hi>Ez, zuk txintxo lan egingo dezula ba-dakit. Zapatariok or kompon. Ez zait ajolik. Ba-ditut kokodreilo-larruzko o&ntilde;etako batzuek bika&ntilde;ak! Nere etxekoandreak emanak, estuegiak bai-zitun! Ori larrua (<hi rend='Italic'>Pozik</hi>)</p>
+<p>-f- Eta krixkitin kraxkitin arroxa krabelin.</p>
+<p>-f- Ba&ntilde;an noan! Etxean zai dauzkat-eta. Astelen arte! (<hi rend='Italic'>abituaz</hi>)</p>
+<p>-f-<hi rend='Bold'>LUTXI: </hi>Zoaz bada ondo. Etorri arte (<hi rend='Italic'>atera lagunduaz</hi>).</p>
+<p>-f-<hi rend='Bold'>ERROXALI: </hi>Ortan gelditzen gera, beraz. Ariyo!</p>
+<p>-f-<hi rend='Bold'>LUTXI: </hi>Agur terdi &laquo;poxpolin&raquo; (<hi rend='Italic'>Erroxali bijoa</hi>)</p>
+<p><hi rend='Bold'>II. AGERRALDIA</hi></p>
+<p>LUTXI ETA ANDRE DOMINI BERE AMA</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>Be&ntilde;ere ez zijoala uste nuen.</p>
+<p>-f-<hi rend='Bold'>LUTXI: </hi>Ezin bidaliko nuen kalera.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>Zer bear zuen orrenbeste algaraz?</p>
+<p>-f-<hi rend='Bold'>LUTXI: </hi>Emen utzi didan so&ntilde;eko au antolatzea.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>Ez zenion artuko?</p>
+<p>-f-<hi rend='Bold'>LUTXI: </hi>Erreza zegon ukatzea. Nori eta Erroxaliri! Erriko jaien ondoren zerbait egingo diot. Bestela ez bait-nau pakean utziko.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>Ba&ntilde;an, Lutxi! Nundik atera bear dezu astia? Ea berriz ere gaixotzen zeran. Ez du balio lanean lertzeak.</p>
+<p>-f-<hi rend='Bold'>LUTXI: </hi>Egia, ama; beti gauza batzuek josten aspertu naiz. Orrela ez degu irabazten, ez ikasten, ez. Zerbait geiago nai litzake. Erroxaliren so&ntilde;ekoa bestelakoa da. (<hi rend='Italic'>Amari erakutsiaz</hi>) Modista aundiak nola lan egiten duten ikasteko gogotan nago. Ez naiz beti emen sarturik egongo. Ikasi nai det, irabazi, aurrera atera...</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>Ez zaudete ni bezela oituta. Josten asi nintzanean, so&ntilde;eko guziaren itxura ta jostea, botoi ta guzi, zortzi peseta ala amar geienaz kentzen genuen.</p>
+<p>-f-<hi rend='Bold'>LUTXI: </hi>Orrek ez du ezer esan nai, amatxo. Amonaren demboran berriz errealka kontatzen omen-zuten. Zuenean pesetaka; gaur duroka eta laister millaka.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>Gero ere jostunak ez dira aberastuko. Lan asko zorretan uzten bait-dute... Ez derizkiot gaizki, ikastea, kampora ateriaz. Nere ondoan nai zi&ntilde;uzket beti; bai&ntilde;an ez det alaben etorkizuna galerazi nai. Nork zaitue bada amak ai&ntilde;a maite?... (<hi rend='Italic'>malkoa dariola</hi>).</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Ama! (<hi rend='Italic'>Musu ematera joanez</hi>) Ez gaitezen goibeldu. Onelako eguraldi alaia dago-ta.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA:</hi> (<hi rend='Italic'>Alaituaz</hi>) Arrazoi dezu. Jainkoak lagunduko gaitu. Zoaz barnen orretera. Zenbait puska erdi-bukaturik utzi ditut. Joxepaneko gona beltza puntada batzuen paltan dago. Bluxa, berriz, alba&ntilde;an oraindik. Filotxok onuzkero itzuli bear zuen. Etorri-ala, jarrai dezala.</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Bai ama. Banoa. Jai oietako ainbeste lan bildu baitzaigu (<hi rend='Italic'>etxe barnean sarturik</hi>).</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>Lena aski ez dala. Erroxaliren so&ntilde;ekoa. Noiz etorriko ote zaio zentzua neskazoro orri?</p>
+<p>-f-<hi rend='Bold'>LUTXI: </hi>Ama! Gabe bizitzea onena.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>Bai, al bada (<hi rend='Italic'>ateruntz begiratuz</hi>)! Atean norbait dala dirudi Filotxo izango da.</p>
+<p><hi rend='Bold'>III. AGERRALDIA</hi></p>
+<p>AMA ETA FILOTXO</p>
+<p>-e-<hi rend='Italic'>(Au kanpoko atetik sarturik).</hi></p>
+<p>-f-<hi rend='Bold'>FILO: </hi>Izebari itxoiten egon naiz eta berandutu egin zait. Oraindik an gelditu da Mari <hi rend='Italic'>&laquo;Begiokerrenean&raquo;...</hi></p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>Esango zenion etortzeko?</p>
+<p>-f-<hi rend='Bold'>FILO: </hi>Bai, ama! ba&ntilde;an alperrik... Aspaldi errian izan gabea dala-ta, ezagun guziekin gelditzen da. An utzi det; eta paketeak ekarri ditut. (<hi rend='Italic'>Puska batzuek mai gai&ntilde;ean jarririk</hi>). Etorriko al da nai badu. Bidea ba-daki...</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>Kampoan luzaro bizi diranai ez dakit zer gertatzen zaien! Erri ta erritarrok maitekirogo begiratzen dituztela guk ba&ntilde;o. Zera... ze&ntilde;ekin geldituko-ta <hi rend='Italic'>Begibakarreneko</hi> Marikin. Gure monjatxoari komentuan ainbeste urte eramanagatik ez zaizkio lagun zarrak aztu.</p>
+<p>-f-<hi rend='Bold'>FILO: </hi>Ni ere pozik aterako nintzake erritik, zerbait ikusteagatik.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>Eta etxeko lanak nork egin bear ditu? Amak? Ederki eman ere! Zoaz zoaz aizpa laguntzera, eskubete eginkizun ba-dezute-ta biontzako.</p>
+<p>-f-<hi rend='Bold'>FILO: </hi>Ortara ninjoan bada (<hi rend='Italic'>Abituaz</hi>).</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA:</hi> Aizu, Filotxo?</p>
+<p>-f-<hi rend='Bold'>FILO: </hi>Zer, amatxo?</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA:</hi> (<hi rend='Italic'>Beregana etorri-araziz</hi>) Zer gertatzen zaio Lutxiri?...</p>
+<p>-f-<hi rend='Bold'>FILO: </hi>Gertatu? ezer ez! ez dakit beintzat.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>Bai, zerbait ba-du, goibel arkitzen det; naigaberen bat ba-ote dun nago, esan nai ez didana. Zuk jakingo dezu.</p>
+<p>-f-<hi rend='Bold'>FILO: </hi>Bai zera! uskeriren bat</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>Senargaiarekin asarretu al da edo?... Esaidazu egia</p>
+<p>-f-<hi rend='Bold'>FILO: </hi>Ba, ama... senargaia aitatu dezun ezkero, Xabierekin oztu egin dala uste det.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>Zerbait ba-zala esaten nuen. Ez da gure Lutxiren errua izango, ez. Ni ere gaztea izana naiz. Gizonezkoekin ez da gauza onik. Gure aizpak asmatu zuan monja joanakin. Obe dezu zuk ere gerora komentuan sartu. Jainko maitea!</p>
+<p>-f-<hi rend='Bold'>FILO: </hi>Ez nago orretarako, ez enetxoa!</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>Orduan zoaz, barren ortara lana aurreratzera ta aizpatxoari poztasun zerbait ematera.</p>
+<p>-f-<hi rend='Bold'>FILO: </hi>Bai, bai, amatxo; ba&ntilde;an etzaiozula Lutxiri aitatu nik ezer esan dizudanik; alegia... nobio kontu ori... (<hi rend='Italic'>bijoa</hi>).</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>Ez, maite, ez! ba-det beste egitekorik. Orain zure izeba Sor Gibel-Aundiri itxoin. Noizbait etorriko al zait. Jainko maitea! (<hi rend='Italic'>asperen egi&ntilde;ez eseri bedi).</hi></p>
+<p><hi rend='Bold'>IV. AGERRALDIA</hi></p>
+<p>DOMINI ETA SOR PAULE</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> (<hi rend='Italic'>Sarturik</hi>) Emen naiz, aizpa. Ez zi&ntilde;an aspertuko neri itxoitez?...</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>Ortxe nunbait. Pazientzia galdu badet, zurea da errua... eta pekatua...</p>
+<p>-f-<hi rend='Bold'>SOR PAULE: </hi>&laquo;Ni pekataria&raquo; esango dizut. Ez asarretu, beintzat.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>Asarretu ez, ba&ntilde;an luze-iritzirik nengon zure gibela dala-ta. Komentuan patxarako emakumea egin zera.</p>
+<p>-f-<hi rend='Bold'>SOR PAULE: </hi>Nerekin batera monja sartzea zenun zuk ere.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA:</hi> Oraintxe esan dezu egi aundia. Lasago bizi zera gu ba&ntilde;o. Ordu erdi ontan zai naukazu.</p>
+<p>-f-<hi rend='Bold'>SOR PAULE: </hi>Berandutu egin zaidan ezkero, gabiltzan astiro. Lati&ntilde;ez ala diote: <hi rend='Italic'>Festina Lente</hi> &laquo;mugi zaite astiro&raquo;. Pizka batean eseritzera noa.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>Oraintxe jo didazu arpa!</p>
+<p>-f-<hi rend='Bold'>SOR PAULE: </hi>Ba al dakizu zer gertatzen dan, aizpa biotzekoa. Bada, gu monja sartzekoan, guzia utzita joan bear izaten degu: etxe, guraso, senide, ezagun, lagun, abar eta abar. Komentuan, berriz, besteren esanera gaude: ez borondate ta ez diru.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>Jaten ematen dizute, eta gutxi al da. Bego ga&ntilde;erakoa, or konpon!</p>
+<p>-f-<hi rend='Bold'>SOR PAULE: </hi>Ortan munduan ai&ntilde;a estuasun komentuan nagusi diranak izan oi dute. Ez dakizu ondo. Guziok ere, ordea, txarrera oitzen gera, eta i&ntilde;oiz gure bizimodu latza arintzen ba digute, jaitxo bat degula, Ama nagusiaren urtebetetzea edo antzekoa, zerua iruditzen zaigu.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>Munduan, berriz, pozago gaudenean, orduan eta larritasun geiago datorkigu. Alabak azi baditut, laister ezkon bear ditut...</p>
+<p>-f-<hi rend='Bold'>SOR PAULE: </hi>Zergatik ori?</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>Ba-dakizu, gure Lutxik senargai on bat ba-duala... edo ba-zuala...</p>
+<p>-f-<hi rend='Bold'>SOR PAULE: </hi>Bai; eta zer?... Jainkoak beste bidera deitu al-du?</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>Debruak dala esango nuke. Asarretu egin bait-dira; eta, jaki&ntilde;a., naigabea etxe guzian sartu zaigu.</p>
+<p>-f-<hi rend='Bold'>SOR PAULE: </hi>Gazteen gora-berak...</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>Bai, oso bera... eroriak gaude.</p>
+<p>-f-<hi rend='Bold'>SOR PAULE: </hi>Altxako zerate.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA:</hi> Ez da errez. Gure Lutxi lanerako batere gogorik gabe nabaitzen det, etxetik alde egiteko gogoz.</p>
+<p>-f-<hi rend='Bold'>SOR PAULE: </hi>Ez naiz arritzen. Ga&ntilde;era etxetik ateratzeak ez lioke kalterik egingo. Tokiz aldatzea, gogoz aldatzea bait-da. Jainkoaren bideak dira guziak.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>Ori esan bear diozu berari. Eta ama geldituko da emen alaba gaztearekin bakarrarekin... Ez, ez</p>
+<p>-f-<hi rend='Bold'>SOR PAULE: </hi>Ez dezu zerekoi izan bear. Lutxiren zoriona zurea izango da.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>Monjak oso errez antolatzen dituzte gauzak. Alabak ez dira aingeru, Sor Paula.</p>
+<p>-f-<hi rend='Bold'>SOR PAULE: </hi>Ez gu ere, Domini, aingeru eroriak ez bada... ba&ntilde;an egoak ditugunak Jainkoagana igo gaitezen.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>Sermoigille ona zaude zu; bai&ntilde;an orain goazen gure ikustaldia egitera. Gero jarraituko degu itz-aspertua...</p>
+<p>-f-<hi rend='Bold'>SOR PAULE: </hi>Zure esanera nago aizpa; atseden pizka bat artu det. Joateko gertu naukazu (<hi rend='Italic'>jeikiaz</hi>). Ez neri aitzekirik eman.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>Goazen bada. (<hi rend='Italic'>bijoaz</hi>)</p>
+<p><hi rend='Bold'>V. AGERRALDIA</hi></p>
+<p>XATUR BAKARRA</p>
+<p>-e-<hi rend='Italic'>(sartuaz) (jostari).</hi></p>
+<p>-f- Naiago det ez nauten bi aizpek ikusi. Batik-bat Sor Paulek... Monja oiek guzia jakin nai izaten bait-dute... Pelotari naizela ba-daki ta Madriden bizi naizela bera bezela. Galdegin naiko lidake etxea nun dedan, elizara joaten ote-naizen, zer lagun ditudan. Ba, ba, &laquo;Libertadia ze&ntilde;en eder den!&raquo; Pelotalekura ezin etorri da ikus-mirara, monja dalako. Bestela... (<hi rend='Italic'>Txalo batzuek joaz eta otsegi&ntilde;ik</hi>)</p>
+<p>-f- Eh! eh! Lutxiii! Filooo! beti lanean aritu bear al-dezute?</p>
+<p><hi rend='Bold'>VI. AGERRALDIA</hi></p>
+<p>XATUR ETA FILO; GERO LUTXI</p>
+<p>-f-<hi rend='Bold'>FILOTXO: </hi>(<hi rend='Italic'>Jostundegiko atetik begiratuz</hi>) Xatur da-ta. I al intzanan, neska, orrenbeste istilluekin?</p>
+<p>-f-<hi rend='Bold'>XATUR: </hi>Ni berbera. Xatur: ezur eta mami. Filo! (<hi rend='Italic'>musu emanez elkarri</hi>).</p>
+<p>-f-<hi rend='Bold'>FILO: </hi>Ezur geiago ekarri den mamia ba&ntilde;o. Ez al diten Madrilen jaten ematen edo zer?</p>
+<p>-f-<hi rend='Bold'>XATUR: </hi>Lira&ntilde;ago natxion pelotan jokatzeko. Ortarako gerria bear den estutu. Ez zuek bezela beti lanean eserita eta sakela gizentzen.</p>
+<p>-f-<hi rend='Bold'>FILO: </hi>Lan asko bai, diru gutxi ordea... eta naigabeak ugari.</p>
+<p>-f-<hi rend='Bold'>XATUR: </hi>Nun di&ntilde;agu Lutxi?</p>
+<p>-f-<hi rend='Bold'>FILO: </hi>Gona batzuek bukatzen, beti presaka...</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> (<hi rend='Italic'>Jostundegira joanez</hi>) Itxoingo diten, emakume! eta bestela or, konpon; shorten jantzita ibiltzea diten...</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> (<hi rend='Italic'>Sartuaz</hi>) Au Xatur ajolagabea! (<hi rend='Italic'>musu emanez</hi>) Zer modu? Guziak pelotari dirala uste al-den?</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Zuek ikustera etorria, eta erriko jaietan jolastera.</p>
+<p>-f-<hi rend='Bold'>LUTXI: </hi>Guretzat ba-dakin, erriko jaiak izaten dirala okerrenak. Ezin, bada, bezero guziekin kumplitu. Dagonerako asper-asper egi&ntilde;a natxion...</p>
+<p>-f-<hi rend='Bold'>XATUR: </hi>Nai dezutelako. Komeni zaizuen lana artu, ta ga&ntilde;erakoa utzi; &laquo;dejada&raquo; egin, pelotariak bezela.</p>
+<p>-f-<hi rend='Bold'>LUTXI: </hi>Jostunak ez gaitun pelotari. Guk ezin tongorik egin.</p>
+<p>-f-<hi rend='Bold'>FILO:</hi> (<hi rend='Italic'>Aizpari</hi>) Onek ez zekin, itxoiten daudenak ga&ntilde;etik botatzea gaitza dala. Euli-mandoak ez diten itsasgorrago...</p>
+<p>-f-<hi rend='Bold'>XATUR: </hi>Orduan aztu ditzagun estuasun oiek. Zer berri dabil errian?... Noiz eskontzen zaigu Argindegiko Mirentxu?</p>
+<p>-f-<hi rend='Bold'>FILO: </hi>Laister, diotenez. Arropa guzia gerturik zeukan. Ta nolakoa, ga&ntilde;era!</p>
+<p>-f-<hi rend='Bold'>XATUR: </hi>Eta noiz da irea Lutxirena? Ez didan ezer esaten, neska!</p>
+<p>-f-<hi rend='Bold'>LUTXI: </hi>Ez esateko obea den.</p>
+<p>-f-<hi rend='Bold'>XATUR: </hi>Ain epel al-zaudete?</p>
+<p>-f-<hi rend='Bold'>LUTXI: </hi>Epel ezik, otz ere bai... Izotzetik bera...</p>
+<p>-f-<hi rend='Bold'>XATUR: </hi>Asarretu egin al-aiz Xabierekin edo zer? Uskeriren bat...</p>
+<p>-f-<hi rend='Bold'>LUTXI: </hi>Eorrek esan den.</p>
+<p>-f-<hi rend='Bold'>FILO: </hi>Adiskide dira oraindik, ba&ntilde;an bakoitza bere aldetik.</p>
+<p>-f-<hi rend='Bold'>XATUR: </hi>Oraingo moda berria den ori...</p>
+<p>-f-<hi rend='Bold'>LUTXI: </hi>Ez, ez; benetan amaitu den elkarren arteko adiskidetasuna; eta ez di&ntilde;agu ezkontza-kompromisorik. Urrengo batean esango di&ntilde;at zeatzago.</p>
+<p>-f-<hi rend='Bold'>XATUR: </hi>Oso gogoko ez baden, ederki egi&ntilde;a. Gazte aiz, eta ez zain paltako beste proporzioren bat.</p>
+<p>-f-<hi rend='Bold'>LUTXI: </hi>Gabe ere etsiko di&ntilde;at.</p>
+<p>-f-<hi rend='Bold'>FILO: </hi>Mutillai ere ain arroak ez izaten erakutsi bear zaien. Munduan berak bakarrik al dituen nagusi, edo zer?...</p>
+<p>-f-<hi rend='Bold'>XATUR: </hi>Ori! ori! Filo! gogor! Ik aterako ditun eltzetik babak.</p>
+<p>-f-<hi rend='Bold'>LUTXI: </hi>Ik nereak atera dizkidan, beintzat... Eorrenak ondo isilik gorderik dauzkan. Zer bizimodu Madrid-aldean? Ez al-den adiskide mi&ntilde;ik egin?</p>
+<p>-f-<hi rend='Bold'>XATUR: </hi>Adiskide mi&ntilde;ik ez; guziak motelak atera zaizkidan. Mutillak ezagutu bai, erruz! bai&ntilde;an &laquo;kutunik&raquo; ez.</p>
+<p>-f-<hi rend='Bold'>FILO: </hi>Zertan aritzen zerate, bada, an?</p>
+<p>-f-<hi rend='Bold'>XATUR: </hi>Nere lan eta jokutik kampora, batek nai duan lekura: berbenak dirala, dantza dala, zinea dala, kaletan ibiltzea eta abar. Erretiroko egurastokira eguzkia artzera ere bai. I&ntilde;ori baimenik eskatu gabe. Ura edertasuna! &laquo;Madridetik zerura&raquo; esan oi-diten.</p>
+<p>-f-<hi rend='Bold'>LUTXI: </hi>Inbiria sartzen ari azait, Xatur. Emen erri txiki batetik atera gabe bizitzea, gauza motza bait-den.</p>
+<p>-f-<hi rend='Bold'>FILO: </hi>Donostira ez al-gaitun joaten, bada? Politagoa den Madrid bai&ntilde;o.</p>
+<p>-f-<hi rend='Bold'>XATUR: </hi>Ez den gauza berdi&ntilde;a. Bestelakoxea den Madrid, bein ango bazterrak ezagutu ezkero. Guzirako: Ikasteko, irabazirako ta jolaserako.</p>
+<p>-f-<hi rend='Bold'>FILO: </hi>Gastatzeko ta dirua xautzeko ere bai.</p>
+<p>-f-<hi rend='Bold'>XATUR: </hi>Jaki&ntilde;a! bai&ntilde;an Lutxik ditun buru argi ta esku trebeekin edozein moda-etxetan artuko liteken, eta ondotxo ordainduaz ga&ntilde;era...</p>
+<p>-f-<hi rend='Bold'>LUTXI: </hi>Orrek losintxatzen natxionan. Orretzaz itzegin bear di&ntilde;agu.</p>
+<p>-f-<hi rend='Bold'>XATUR: </hi>Eta an ikasiko ukena?...</p>
+<p>-f-<hi rend='Bold'>LUTXI: </hi>Emengo lanak amaitzean, ez di&ntilde;at berririk artuko. Ez ta ez ta ez! Eta negu aldian Madridera Xaturekin.</p>
+<p>-f-<hi rend='Bold'>XATUR: </hi>Nere poza! Ez gero atzera egin.</p>
+<p>-f-<hi rend='Bold'>LUTXI: </hi>Gure ama konbentzitzea ain errez balitz...</p>
+<p>-f-<hi rend='Bold'>FILO: </hi>Bai bai, Lutxi. Orrela aztuko ditun naigabeak.</p>
+<p>-f-<hi rend='Bold'>LUTXI: </hi>Aizpa! utzi ditzagun ametsak. Ezin aztu di&ntilde;aguna zera den... or barruan oraindik josi ta bukatzeko dauzkagun puskak. Emen berriketan ari gaitun, Xatur. Mingai&ntilde;a arin, eta jostorratza geldi. Au ez den lan egitea, ler egitea baizik.</p>
+<p>-f-<hi rend='Bold'>XATUR: </hi>Zuek dezute errua.</p>
+<p>-f-<hi rend='Bold'>LUTXI: </hi>Goazeman, goazen barrura! Or ikusiko den gure &laquo;errua&raquo; eta lan pilla ederra. Guzia utzita joango ni&ntilde;uken, ez Madridera baita Peki&ntilde;era ere</p>
+<p>-f-<hi rend='Bold'>FILO: </hi>Atean deika ari dirala zirudin (<hi rend='Italic'>ateruntz</hi>).</p>
+<p>-f-<hi rend='Bold'>LUTXI: </hi>Oa, bada, irikitzera. Beste bezeoren bat reklamatzera. Etxean ez nagola esan. Goazen, Xatur (<hi rend='Italic'>barrura joanez</hi>).</p>
+<p>-f-<hi rend='Bold'>XATUR: </hi>Bai; nik ere esan bear dizki&ntilde;at aizparen aurrean aitatu nai ez nizki&ntilde;anak (<hi rend='Italic'>bijoaz</hi>).</p>
+<p><hi rend='Bold'>VII. AGERRALDIA</hi></p>
+<p>FILO ETA ERROXALI</p>
+<p>-f-<hi rend='Bold'>FILO: </hi>Aurrera! Zu al-zi&ntilde;an, Erroxali?</p>
+<p>-f-<hi rend='Bold'>ERROXALI: </hi>Neroni bai, gazte; zure aizpari ajola aundiko gauza bat esatea aztu egin bait-zait. Nun degu Lutxi?</p>
+<p>-f-<hi rend='Bold'>FILO: </hi>Oial-muestra batzuek ikusten ari da. Lanpetua dago kampoko andre batekin.</p>
+<p>-f-<hi rend='Bold'>ERROXALI: </hi>Ba, nik ere nere &laquo;kanela&raquo;-kolorezko so&ntilde;ekoari apaingarria nun jarri, aztu egin zait esatea. Ondoena uste det paparran gai&ntilde;ean eskubi aldean izango dala; karda-lorea modukoa.</p>
+<p>-f-<hi rend='Bold'>FILO: </hi>Esango diot. Ba&ntilde;an aundiegia ez ote-da? Obe dezu lore zuri bat ipi&ntilde;i. Ez al derizkiozu?</p>
+<p>-f-<hi rend='Bold'>ERROXALI: </hi>Ez dakit bada. Zuria ta kanela, arroz-esnearen itxura artuko det.</p>
+<p>-f-<hi rend='Bold'>FILO: </hi>Erriko pestetako ezin eta jatorrago.</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> Zu txantxetan ari zera, ba&ntilde;an nik jantxi ori Markesaren etxerako det; eta edozein &laquo;tualetekin&raquo; ezin joango nazaizu.</p>
+<p>-f-<hi rend='Bold'>FILO:</hi> Zure korputz lira&ntilde;ak edozein so&ntilde;ekori ematen dio grazia, azukre ta kanelak edozein janariri bezela.</p>
+<p>-f-<hi rend='Bold'>ERROXALI: </hi>Modistetako balio dezu, losintxatzen gogoz ari zera.</p>
+<p>-f-<hi rend='Bold'>FILO: </hi>Gustorago ariko nintzake &laquo;arroz-esnea&raquo; jaten. Gozo-zale bait-nazu.</p>
+<p>-f-<hi rend='Bold'>ERROXALI: </hi>Gaztetxoa zera funtsez itzegiteko. Obe izango det neronek zure aizpari esatea. Ea lenbaitlen deitzen diozun.</p>
+<p>-f-<hi rend='Bold'>FILO: </hi>Lanpetua dagola-ta, ezin atera ditekela esan dizut bada...</p>
+<p>-f-<hi rend='Bold'>ERROXALI: </hi>Zu oso <hi rend='Italic'>gogaitkarri</hi> zaude lelo orrekin.</p>
+<p>-f-<hi rend='Bold'>FILO: </hi>Zu, berriz, <hi rend='Italic'>xarmangarri</hi> so&ntilde;eko kanela-kolore orrekin. Ba-zaude pixka baterako. Ez, datorren aste guzian beinik bein.</p>
+<p>-f-<hi rend='Bold'>ERROXALI: </hi>Ez badakizu ere, zure aizpak itz eman dit.</p>
+<p>-f-<hi rend='Bold'>FILO: </hi>Arek emango zizun &laquo;itz&raquo; ba&ntilde;an nik egin bearko det &laquo;pitz&raquo;, puntadak eman eta eman... amaitu arte.</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi>Nere so&ntilde;ekoak ez du orrenbeste lan. Gure markesaren jai egunerako nai ta nai ez bear det.</p>
+<p>-f-<hi rend='Bold'>FILO: </hi>Beste so&ntilde;ekorik ez dezu izango jartzeko-ta.</p>
+<p>-f-<hi rend='Bold'>ERROXALI: </hi>Ori bai. Ez zait palta jantzirik, bai&ntilde;an jai ori gauez da, ta seda orrek dirdai berezia dizu.</p>
+<p>-f-<hi rend='Bold'>FILO: </hi>Nere aizparekin antolatuko zera. Edo bestela nere amarekin... (<hi rend='Italic'>Ateruntz begiratuaz</hi>) Oraintxe dator bera kaletik izeba mojarekin. (<hi rend='Italic'>Atean dira</hi>) Itzulia uste ba&ntilde;o lenago egin dute</p>
+<p>-f-<hi rend='Bold'>ERROXALI: </hi>Aspaldiko ezagunak ditut biak! Ama, ezkondu aurretik; ta izeba moja, Madrilen maiz ikusten det. An duten kolejioa gure etxetik berta dago.</p>
+<p>-f-<hi rend='Bold'>FILO: </hi>Ainbat obeto, Erroxali. Orduan emen uzten zaitut, zerori bakarrik. Naiago det emen arki ez nazaten. Lan asko degu or barruan. Gure amarekin antolatuko zera.</p>
+<p>-f-<hi rend='Bold'>ERROXALI: </hi>Igesi zoaz, e?</p>
+<p>-f-<hi rend='Bold'>FILO:</hi> (<hi rend='Italic'>Joanez</hi>) Ez, ez, lanera! Gero arte!</p>
+<p><hi rend='Bold'>VIII. AGERRALDIA</hi></p>
+<p>ERROXALI, ANDRE DOMINI TA SOR PAULE</p>
+<p>-e-<hi rend='Italic'>(sarturik).</hi></p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>Arratsalde on, Erroxali!</p>
+<p>-f-<hi rend='Bold'>SOR PAULE: </hi>Ave, Maria!</p>
+<p>-f-<hi rend='Bold'>ERROXALI: </hi>Baita zuei ere (<hi rend='Italic'>elkar agurtuaz</hi>). Zer modu?</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA:</hi> Kaletik itzulia egin degula. Ba&ntilde;an gure etxean ez al-dizu i&ntilde;ork jaramonik egin?</p>
+<p>-f-<hi rend='Bold'>ERROXALI: </hi>Oraintxe alde egin dit zure alaba gazteak. Lutxikin itzegin nai nukean, ba&ntilde;an ain lanpetua omen-dago; beste egunen batean etorriko natzaio.</p>
+<p>-f-<hi rend='Bold'>SOR PAULE: </hi>Alaxen da, bai.</p>
+<p>-f-<hi rend='Bold'>ERROXALI: </hi>Badakizu, trapu-kontua..</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Amaika lan ematen du &laquo;trapu&raquo;-kontuak munduan.</p>
+<p>-f-<hi rend='Bold'>ERROXALI: </hi>Ez zuek bezin errez erabakiko bagenu so&ntilde;eko ta moda-&laquo;arazoa&raquo;...</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>&laquo;Moda&raquo;-arazoa ta ga&ntilde;erakoak... (<hi rend='Italic'>jan-ki&ntilde;ua egi&ntilde;az</hi>). &laquo;Habitua&raquo; jantzi ta eskera!</p>
+<p>-f-<hi rend='Bold'>SOR PAULE: </hi>Nere aizpak nola astintzen gaitun moja gaizoak.</p>
+<p>-f-<hi rend='Bold'>ERROXALI: </hi>Astindu, bai; ba&ntilde;an gero zuen sakela bete ere bai.</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Egia da, eta eskerrak ematen dizkiot. Guk ere zerbait &laquo;pasa&raquo; bear degu munduan eta ez dakizute buruko au (<hi rend='Italic'>toka ikutuaz</hi>) lotuta eramatea zer dan. Uda ta negu jantzi latz au ere so&ntilde;ean eraman-bearra gauzarik aspergarriena.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>Zuek ere zerbait bear dezute.</p>
+<p>-f-<hi rend='Bold'>ERROXALI: </hi>Sor Paulek arrazoi du. Ez nuke beti jantzi batekin ibilli nai. So&ntilde;ekoz aldatzean badirudi bat gaztetzen dala. Neretzako atsegi&ntilde;ena, goizean bat eta arratsaldean bestea jaztea. Kolorea ere egunari ta aroari dagokiona. Bein urdina, urrena zuria. Ain zuzen zure alabak &laquo;kanela&raquo;-kolorezko sedazkoa antola bear dit eta ea zuk ere, Andre Domini, zirikatzen dituzun len baitlen egin dezaidaten.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>Alabek amari kaso egiten diotela uste al-dezu? Ez lan geiegi artzeko esan diet ezin amaiturik ibiltzeko.</p>
+<p>-f-<hi rend='Bold'>ERROXALI: </hi>Nerea beintzat antolatuko al-didate.</p>
+<p>-f-<hi rend='Bold'>SOR PAULE: </hi>Noiz itzultzen zera Madrid-aldera?</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> Nere etxekoandre Markesaren eguna igaro arte ez. Illaren azken-aldera edo. Eta zu?</p>
+<p>-f-<hi rend='Bold'>SOR PAULE: </hi>Ni ordurako an izango naiz Jainkoak lagun. Ikaskizunak asten bait-dira.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>Ikaskizunak asiko dira, ba&ntilde;an zure &laquo;bixitak&raquo; emen ez dituzu amaituko. Ori, etorri zi&ntilde;anetik etxez-etxe zabiltzala.</p>
+<p>-f-<hi rend='Bold'>SOR PAULE: </hi>Arritzekoa al-da? Kontu egizu amar urte dirala errira etorri ez naizela Toki ta lagun zarrak ikustea atsegin zait. Kampoan, erbestean bizi ez zeratenok ez dakizute zer dan?</p>
+<p>-f-<hi rend='Bold'>ERROXALI: </hi>Udarako ez da txoko txarra.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>Emen gaude bada bizi guzian ea i&ntilde;ora atera gabe.</p>
+<p>-f-<hi rend='Bold'>SOR PAULE: </hi>Zoriontsua sorterrian jaio, bizi ta iltzen dana!</p>
+<p>-f-<hi rend='Bold'>ERROXALI: </hi>Txokotik ateratzea ere ez da txarra, zerbait ikasi ta irabazteko.</p>
+<p>-f-<hi rend='Bold'>SOR PAULE: </hi>Jainkoaren bideak ez ezagunak zaizkigu. Ni komentura deitu nindun. Zu, berriz, Erroxali, Markes baten etxera. Zerua nun-nai irabazi diteke.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA:</hi> Famili bat azi duna eta seme-alabai kristauki ta lanegi&ntilde;ez bizitzen erakusten ari dana ere, zuek a&ntilde;a izango al da!</p>
+<p>-f-<hi rend='Bold'>SOR PAULE: </hi>Gu, agian, estuago neurtuko gaitu Jainkoak.</p>
+<p>-f-<hi rend='Bold'>ERROXALI: </hi>Josten ederki erakutsi diezu alabai ta saritua izango zera: billuzi dagona janztea errukizko egintza bait-da. (<hi rend='Italic'>Parra dagite</hi>).</p>
+<p>-f-<hi rend='Bold'>SOR PAULE: </hi>Bai, jantzi-ordez askotan bear ez dana agirian utziko ez balukete. Au likiskeria ageri da itsas-bazter oietan! Ez da Aprika larru-gorrietan ain nabarmen.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>Olakoetan begiak itxi! Komentuan bezela ibiltzea nai al-dezu ondartza ta olakoetan?</p>
+<p>-f-<hi rend='Bold'>SOR PAULE: </hi>Ori ez! ba&ntilde;o txukun bai ordea. Kristauak al-gera, ala ez.</p>
+<p>-f-<hi rend='Bold'>ERROXALI: </hi>Bi aizpek ba-dezute beti eztabaida. Luzaroan egongo nintzake zuei entzuten, joan bear ez banu. Domini, esan zaiozu alabari ez nere so&ntilde;ekoa aztutzeko. Lutxik dituan eskuekin Madriden modista jarriko balitz nai a&ntilde;a diru irabaziko luke.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>Ori esan bear diozu! Oraintxe ez du asko palta erritik aldegiteko. Ga&ntilde;ezka dago.</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi>A zer nolako poza nerea! Madridera elkarrekin joango bagi&ntilde;a. Gure etxekoandreak modisteri on batean sartuko luke. Izeba Sor Paulek ere ezagutzen du ongi zer dan Madrid.</p>
+<p>-f-<hi rend='Bold'>SOR PAULE: </hi>Bai, bai, geiegi ere. Ikasteko leku ederra da gazteentzako, nun dabiltzan zaindu ezkero. Gure kolejioan toki egingo genioke.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>Ikusten ari naiz guzien artean burua berotuko diozutela, ta laister naizela alabarik gabe.</p>
+<p>-f-<hi rend='Bold'>SOR PAULE: </hi>Jainkoak alabak eman dizkitzu, Aren borondatea bete dezaten, eta etxetik joaten bazaizkitzu ere, ez dituzu jo bear galdutzat.</p>
+<p>-f-<hi rend='Bold'>ERROXALI: </hi>Moja ta praileak guzirako ba-dute arrazoi. Andre Domini, ez estutu. Urrengo batez itzegingo degu orretzaz. So&ntilde;ekoa progatzera etorri nadinean. Ba-dakizu e? Laister arte.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>Bai emakume bai! Zoaz ondotxo.</p>
+<p>-f-<hi rend='Bold'>SOR PAULE: </hi>Zoaz Jainkoarekin.</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi>Ariyo ba! (<hi rend='Italic'>bijoa</hi>) Biar etorriko naiz. Ez dezala aztu nere jantzi dotorea.</p>
+<p><hi rend='Bold'>IX. AGERRALDIA</hi></p>
+<p>A. DOMINI ETA SOR PAULE</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>Alde egin digunean, ez naiz asarre. Kanela-kolorezko so&ntilde;eko orrekin zoratu-araziko gaitu etxeko guziak.</p>
+<p>-f-<hi rend='Bold'>SOR PAULE: </hi>Orrelako bearrezko al-zaio?... Erroxali ere urtetan aurrera doa, eta onuzkero ez zaigu asiko senargai-billa.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>Mutxurdin oiekin ez pio! Txoralda zamarra izan da beti.</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Ez zazula orrela itzegin lagun urkoarengatik. Erroxali, ona da; Guziok ditugu geren utsegiteak. Madrideko etxe aundiki batean dago ama de llaves. Eta etxekoandre <hi rend='Italic'>Markesak</hi> ez daukala saltzeko ba-dakit.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>Orretxek arrotu du, bada, pizka bat gure Erroxali. Aristokrazikoa dala iruditzen bait-zaio. Sedazko so&ntilde;eko ori...</p>
+<p>-f-<hi rend='Bold'>SOR PAULE: </hi>Kanela-kolorea... guziok ba-dakizu.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>Ori bera! markesak emana du eta guk Erroxaliren neurrira jarri bear. Beste lanik ez balego.</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Itxoin dezala. Eta bestela ez artu. Ori ba&ntilde;o korapillo aundiagorik ez badezute.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>Egia diozu, aizpa! Ori ba&ntilde;o korapillo gaitzagoa badegu. Lutxi ezertako gogo barik arkitzen dedala. Badakizu zergatik dan...</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Bai, antzematen diot... Maite-mi&ntilde;a, nobio... keria.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>Orrela jarraitzen badu, aldi baterako etxetik kanpora bidaltzera beartuko naiz. Giroz aldatzea!</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Ez zait gaizki iruditzen. Ezta Madridera bidaltzen badezu ere. Erroxalik dion bezela, moda-etxe on batean josten ederki ikasiko luke. Zer gerta ere, an nago ni ga&ntilde;etik begiratzeko. Gure komentuan ere leku izango luke.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>Ori, berari galdegin bearko diozu. Biei deitzera noa. Ez bait-dakite emen geranik. (<hi rend='Italic'>otsegi&ntilde;az</hi>) Lutxi!! Filo! Atozte! emen gera! (<hi rend='Italic'>Barrendik</hi>) Ba-goaz amatxo!</p>
+<p>-f-<hi rend='Bold'>SOR PAULE: </hi>Bururik altxa gabe lanean ari dira.</p>
+<p><hi rend='Bold'>X. AGERRALDIA</hi></p>
+<p>LENGOAK LUTXI ETA FILO</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> (<hi rend='Italic'>sarturik</hi>) Zer gertatzen da?</p>
+<p>-f-<hi rend='Bold'>FILO: </hi>Aguro itzuli dira!</p>
+<p>-f-<hi rend='Bold'>SOR PAULE: </hi>Ez bait-degu etxean arkitu nai genduen &laquo;persona&raquo;, eta urrengo batean ikustaldia egingo diot.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>Bakarrik ioango zera. Beti kalean ibiltzeko prest. Ez dakit nola etsitzen dezun komentuan.</p>
+<p>-f-<hi rend='Bold'>SOR PAULE: </hi>Orregatik bada! Urte guzian komentuan nagolako, ateratzen naizenean oporraldietan kalea maite det. Geiago, gaur txokolate ona artzeko aitzekia bait-nuen. Zer dan ea aztu zaidana.</p>
+<p>-f-<hi rend='Bold'>LUTXI: </hi>Txokolatea etxean ere emango diozu izeba. On-ona Bayonakoa ga&ntilde;era. Gu ere lana uzteko irrikitzen gaude, eta guziok artuko degu elkarrekin.</p>
+<p>-f-<hi rend='Bold'>SOR PAULE: </hi>Ederki! ederki! Lutxi! (<hi rend='Italic'>bazter batera eramanez isil-kontuan diardutelarik</hi>).</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>Bueno, Filo. Zure aizpa lan egitez aspertu zaigu, ta gu biok gertu bearko degu txokolate ta ga&ntilde;erakoa.</p>
+<p>-f-<hi rend='Bold'>FILO: </hi>Bai, ama, bai! (<hi rend='Italic'>Izeba ta aizparengatik</hi>) utzi zaiezu pakean</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>Txokolate ona beeko apalean gorderik daukat.</p>
+<p>-f-<hi rend='Bold'>FILO: </hi>Ba-dakit bai. Neronek i&ntilde;oiz gordi&ntilde;ik ogiarekin iaten bait-det.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>Orduan, ez dakit batere geldituko danik!</p>
+<p>-f-<hi rend='Bold'>FILO: </hi>Bai andre, bai! Gaurko a&ntilde;a bai.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>Au neska! Ar itzazu lau ontzako, ta bero zazu esnea, alcoholezko sutokia berotuaz.</p>
+<p>-f-<hi rend='Bold'>FILO: </hi>Sua pizturik daukagu, plantxarentzako.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>Zuretzat ez da eragozpenik. Zer ote-da maratz izatea. Egizu, egin, derizkiotzun eran.</p>
+<p>-f-<hi rend='Bold'>FILO: </hi>Bai, amatxo. (<hi rend='Italic'>Izeba ta aizparen-gatik</hi>). Oiei ezer esan gabe!</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>Obe dezu, bai. Isil-konturen batzuek bait dituzte.</p>
+<p>-f-<hi rend='Bold'>FILO: </hi>Nik ere, ba, isil-konbidau bat ekarriko det. Xatur or barruan dagona!</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>Barruan dagona diozu, eta bakarrik utzi al dezute? Sartu dedilla</p>
+<p>-f-<hi rend='Bold'>FILO:</hi> Bai, nik txokolatea egin bitartean emen egon dedilla. (<hi rend='Italic'>Atetik</hi>) Xatur! Emen, nere amak eta, agurtu egin nai zaitue. Zatoz ona piska batean.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>Jakir&ntilde;a! Or utziko zenuten, bada, neska gajoa? Ez det aspaldi ikusi.</p>
+<p>-f-<hi rend='Bold'>FILO:</hi> (<hi rend='Italic'>sarturik</hi>) Txokolate dotorea artu bear degu gaur. Baionakoa!</p>
+<p><hi rend='Bold'>XI. AGERRALDIA</hi></p>
+<p>-e-SOR PAULE, A. DOMINI, LUTXI TA XATUR <hi rend='Italic'>(au sarturik).</hi></p>
+<p>-f-<hi rend='Bold'>XATUR: </hi>Arratsalde on! (<hi rend='Italic'>Sor Paule eta A. Domini agurtuaz</hi>) Zer modu?</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>Ez gazteak bezin ongi, bai&ntilde;an tira &laquo;ainbestean!&raquo;.</p>
+<p>-f-<hi rend='Bold'>SOR PAULE: </hi>Oso ondo, Jainkoari eskerrak.</p>
+<p>-f-<hi rend='Bold'>XATUR: </hi>A. Dominik beintzat ez du urterik galtzen. (<hi rend='Italic'>Sor Pauleri</hi>) Beorri ez det ainbeste ezagutzen, naiz orain biok Madriden bizi geran.</p>
+<p>-f-<hi rend='Bold'>SOR PAULE: </hi>Nor zaitugun ba-dakit. Nork ez du aditu Xaturetzaz mintzatzen?... Raketista...</p>
+<p>-f-<hi rend='Bold'>LUTXI: </hi>Nere lagun on bat da, Sor Paule. Eta neskatxa zintzoa, naizta pilotaria izan.</p>
+<p>-f-<hi rend='Bold'>SOR PAULE: </hi>Nik ala uste. Ez det txarrez esan.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>Au gazterik atera zan etxetik. Ez al-da ala, Xatur? Oraingo gazteen ezin-egona.</p>
+<p>-f-<hi rend='Bold'>XATUR: </hi>Oraingoena eta antzi&ntilde;akoena. Ni izebak eraman nindun... zera... &laquo;Ostatu zaarrekoak&raquo;...</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>Ah! bai! I&ntilde;axi! ezagutu nuen.</p>
+<p>-f-<hi rend='Bold'>SOR PAULE: </hi>Ikusten dezu, aizpa, ez gerala oraingoak bakarrik. Antzi&ntilde;akoak ere etxetik ateratzen ziran.</p>
+<p>-f-<hi rend='Bold'>LUTXI: </hi>Gure amak nai luke, ez be&ntilde;ere bere ingurutik mugitzea.</p>
+<p>-f-<hi rend='Bold'>SOR PAULE: </hi>Ama on guzien leloa da ori, bai&ntilde;an bizitza indartsuagoa da, ta guziok sakabanatzen gaitu. Ez dio ajolik;</p>
+<p>-f-<hi rend='Bold'>XATUR: </hi>Asieran pelotari bezela ibilli nintzan, ba&ntilde;an bilduko gera berriz beste munduan.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>Bai Josafateko zelaian. Ori ba-dakigu. Orain, ordea, oraingoa jakin nai genduke. Ea Xatur! esaiguzu zertan zauden Madriden...</p>
+<p>-f-<hi rend='Bold'>XATUR: </hi>Asieran pelotari bezela ibili nintzan, ba&ntilde;an orain arropa-almazen aundi batean nago. Nere izeba neskame izan zan etxean. Oso estimatua naukate eta ederki ordaintzen didate.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>Txanpon batzuek aurreratzen ariko zera orduan? ezkontzen zeraneko?</p>
+<p>-f-<hi rend='Bold'>XATUR: </hi>Ez banu gastatzen, bai. Erri aundietan, ordea, diru-txaubide aundiagoak daude oraindik.</p>
+<p>-f-<hi rend='Bold'>SOR PAULE: </hi>Obe dezu pelotaritza utzi dezuna. Jokalari izatea, ez da ondo neskatxa egoki batentzat.</p>
+<p>-f-<hi rend='Bold'>LUTXI: </hi>Okerrago da &laquo;futbolista&raquo; izatea.</p>
+<p>-f-<hi rend='Bold'>XATUR: </hi>Bai, ba&ntilde;an diru geiago irabazten da. Naiago nuke ala banintz.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>Oraingo oitura ta libertadeak! Bestela ezi gi&ntilde;uzten gure gurasoak. Ezkondu arte ez nintzan ea etxetik atera.</p>
+<p>-f-<hi rend='Bold'>SOR PAULE: </hi>Oraingo gaztedia beste era batera bizi da, ta ezin zaizkio bideak itxi. (<hi rend='Italic'>Xaturi</hi>) Zer kaletan bizi zera Madriden.</p>
+<p>-f-<hi rend='Bold'>XATUR: </hi>Nere izeba bizi izan zan etxean, Fuencarral-kalean; azken bizitzan bi gela aundi ditut zerura begira..</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Orduan lekua izango zenuke Lutxirentzat ere...</p>
+<p>-f-<hi rend='Bold'>XATUR: </hi>Ez det izango bada? Pozik artuko nuke ga&ntilde;era nerekin! Gaur bertan jardun degu orretzaz. Ez al-da ala, Lutxi?</p>
+<p>-f-<hi rend='Bold'>LUTXI: </hi>Bai, ala da. Ta Xatur ez ezik Erroxali ere beti ari zait Madridera joateko. Moda-etxe apain batean sartuko naula...</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>Guziok elkar artuta nere aurka ari zeratela dirudi. Zer da au? Monja ere bai, alaja&ntilde;a! Etxean bakar-bakarrik nai al-nazute?</p>
+<p>-f-<hi rend='Bold'>SOR PAULE: </hi>Ez da ori. Lutxiri, uste det, orain komeni zaiola etxetik ateratzea. Ama batek seme-alaben etorkizuna dalata ez du beldurrik izan bear etxetik kampora atera ditezen, kristau-ikasbidea ta errilijio katolikoaren egiak ondo erakutsi badizkiete. Jainkoak ez ditu eskutik utziko.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>Aski degu, aizpa. Gaur sermoi geitxo entzun dizkitzut. Ea seme ondatzaillearen ordez, alaba ondatzaillearena gertatzen zaigun. Madridera joan nai badu ez diot galeraziko. Bere buruaren jabe da, ta dijoala! (<hi rend='Italic'>malkoa dariola baztertzen da</hi>).</p>
+<p>-f-<hi rend='Bold'>SOR PAULE: </hi>Ez du orrelako presarik. Ez da laisterka ibilli bearrik. Emengo lanak bukatu ditzala, ta bitartean gauzak antolatuko dira. Guk Madriden jostun-etxe on bat billatuko diogu. Gure ikastetxean egon nai ez badu, Xaturek bere etxean artuko du...</p>
+<p>-f-<hi rend='Bold'>XATUR: </hi>Aguro ga&ntilde;era. Ori egi&ntilde;a dago. Au poza nerea! (<hi rend='Italic'>Lutxi besarkatuaz</hi>).</p>
+<p>-f-<hi rend='Bold'>LUTXI: </hi>Ez ain aguro, Xatur!</p>
+<p>-f-<hi rend='Bold'>XATUR: </hi>Isilik ago, neska!</p>
+<p>-f-<hi rend='Bold'>LUTXI: </hi>Zer nai den? Ama itun ikusten di&ntilde;at, eta ez niken geiago naigabetu nai. (<hi rend='Italic'>Besarkatzera joanez</hi>).</p>
+<p>-f- Ama!</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>Xaturekin joateko baimena ematen dizut.</p>
+<p>-f-<hi rend='Bold'>XATUR: </hi>Bai zera? Ez da egia izango.</p>
+<p>-f-<hi rend='Bold'>SOR PAULE: </hi>Ez dezute goibeltzeko ziorik. Alaitu zaitezte, alaitu.</p>
+<p><hi rend='Bold'>XII. AGERRALDIA</hi></p>
+<p>LENGOAK ETA FILO</p>
+<p>-f-<hi rend='Bold'>FILO:</hi> (<hi rend='Italic'>Barrengo atean agertuaz</hi>) Txokolatea gertu daukazutela, andre eta andere&ntilde;oak! Maia iarria dago. Aurrera beraz!</p>
+<p>-f-<hi rend='Bold'>XATUR: </hi>Garaiz zatoz, Filo. Emen barrena tristetzen asia zuten batzuek... eta guziok ere &laquo;plakiarekin&raquo; gaude.</p>
+<p>-f-<hi rend='Bold'>LUTXI: </hi>Ez da orrenbestean; ba&ntilde;an gogoz artuko degu. Ez al-da ala, ama?</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>Barruan geldituko zait arra.</p>
+<p>-f-<hi rend='Bold'>FILO: </hi>Guzia gertu daukat. Bizkotxoak ga&ntilde;era... Atozte! Sar bedi izeba!</p>
+<p>-f-<hi rend='Bold'>SOR PAULE: </hi>Ezin barau egingo degu, orrelako borondate onez eske&ntilde;ita. Goazen!</p>
+<p>-f-<hi rend='Bold'>FILO:</hi> Esne-ga&ntilde;a ta dultze pizka bat ere atera dizuet. Atsegin zaizuela bai bait-dakit.</p>
+<p>-f-<hi rend='Bold'>XATUR: </hi>Ura &laquo;eskonfarekin&raquo; ez unan aztuko, Filo. Egarririk natxionan pelota-partidu ondoren bezela.</p>
+<p>-f-<hi rend='Bold'>FILO:</hi> Ezta! Ortatik beti zegon gure etxean.</p>
+<p>-f-<hi rend='Bold'>LUTXI: </hi>Nik uste, Xaturek naiago di&ntilde;ala xerra bat urdaizpiko sagardoarekin.</p>
+<p>-f-<hi rend='Bold'>XATUR: </hi>Zer uste den, ez naizena &laquo;se&ntilde;orita pi&ntilde;a&raquo;. Tea artzen ere bazeki&ntilde;at.</p>
+<p>-f-<hi rend='Bold'>FILO: </hi>Ortatik ere ba-zeukanagu...</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>Edoze&ntilde;ek esango luke, loteria erori ala ezteiak dituguna, onela parra-parra ibiitzeko.</p>
+<p>-f-<hi rend='Bold'>SOR PAULE: </hi>Jai egiteko noiz-nai da garaia.</p>
+<p>-f-<hi rend='Bold'>LUTXI: </hi>Dagonean on, eta ez dagonean egon! Gaurkoa nere bizkar da. Lan egitez aspertu naiz, eta gere buruai opa bear diegu gozamen pizka bat. Izeba ere ez da egunero gurekin i zaten.</p>
+<p>-f-<hi rend='Bold'>SOR PAULE: </hi>Eskerrikasko!</p>
+<p>-f-<hi rend='Bold'>FILO: </hi>Oztu ba&ntilde;an len sar zaitezte! (<hi rend='Italic'>Lutxi eta Xatur besotik elduaz</hi>).</p>
+<p>-f-<hi rend='Bold'>XATUR: </hi>&laquo;Helatu&raquo; batzuen billa joango naiz.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>Ori geiegi izango da. Au neska oiek! Zer ote da gazte izatea?</p>
+<p>-f-<hi rend='Bold'>LUTXI: </hi>Beste egunen batez konbidatuko gaitun.</p>
+<p>-f-<hi rend='Bold'>FILO: </hi>Bai, gaur gure etxeko &laquo;atsolorreta&raquo; da. (<hi rend='Italic'>joanez</hi>).</p>
+<p>-f-<hi rend='Bold'>SOR PAULE: </hi>Izena jakitea ere ez da gutxi. A zer nolako bi alaba dituzun! ta zer bi illoba nik!</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA: </hi>Ez dira monja-gai, ez uste!</p>
+<p>Oiala</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>BIGARREN EKITALDIA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>I. AGERRALDIA</hi></p>
+<p>-e-<hi rend='Italic'>(Ganbara aundi bat bi atekin: lo-gelara ta eskallerara doazenak).</hi></p>
+<p>LUTXI TA ERROXALI</p>
+<p>-e-<hi rend='Italic'>(Lutxi ondo-ezik besaulki batean eserita).</hi></p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> (<hi rend='Italic'>Pakete bat eskuan duala</hi>) Kanela kolorezko so&ntilde;eko au berriz antolatu bear didazu, Lutxi.</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> (<hi rend='Italic'>Gogorik gabe</hi>) Orain ere bai, Erroxali?</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> Gauza gutxi. (<hi rend='Italic'>Oso parregarri lenengo ekitaldian bezela</hi>). Gerria pizka bat jetxi; gona luzatu ta atzealdetik estutu... aurrealdea bildu... paparrean jaso ta besomaukak... aldatu, ez japones erara baizik... oraingo moda berrira... &laquo;punto ruso&raquo; delakoarekin.</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Ez nazu lanerako gauza, Erroxali.</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> (<hi rend='Italic'>ondo-ezik dagola oartuaz</hi>) Zer gertatzen zaizu bada, Lutxi? Gaizoa! Ez nekien ezer.</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Grippe txar bat pasa dedala ta pattal utzi nau... Kemenik gabe gelditu natzaizu.</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> Ondo jarriko zeranean, asiko zera lanean.</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Ez dakit noiz! Madrilgo giroak ez nau ongi artu. Etorri nintzan ezkero, beti zerbait ba det...</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> (<hi rend='Italic'>Suspertu naiez</hi>) Ori ez dezu ezer: errimi&ntilde;a... Amatxo, aizpa... ta &laquo;txokotik urruti bizi bearra. Edo... (<hi rend='Italic'>gaiztoz</hi>) amorioa...</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Bai zera! Txoria ba&ntilde;o alaiago etorri nintzan-eta. Ta moda-etxean ikasteko irrikitzen nengon... ta barrengo trixturak gogo guzia galdu dit.</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> Tira! Tira, neska! Laister sendatuko zera. Udaberria Madriden berebizikoa dezu. Zerbait lagundu al banezaizuke, aski dezu esatea. Egunero ordu batzuek nere gain izaten ditut eta nun nagon ba-dakizu.</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Asko eta asko ixtimatzen dizut. Millesker zure eskeintzarengatik. Xatur emen dagola biok ondo moldatzen gaituzu.</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> Ai Xatur! Xatur! Bera ez bazaigu gaisotzen? Neskatxa ona da, bai&ntilde;an beldur pizka bat ematen dit. Madrideko txokoak ondo dakizki, eta ederki ez-ba du ba aizatzen bere burua...</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Berandu etortzen da, ori bai, jai eta igandetan. Ain da alaia!</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> Gaur aste gorrian gaude, eta alaz eta guziaz ez zaizu oraindik etxera agertu. Garaia zun bada! Zer afaldu bear dezu?</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Kafe-esnea, &laquo;bollo&raquo; batekin artzen det. Aski zait...</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> Orrela ez dezu indarrik egingo. Emengo esnea ez bai dezu Galarretakoa. Ez zerala berealakoan lanean asiko. Zer diote jostundegian? Maixtra ez al zaizu etorri bixitara?</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Ezta nai ere! Eman didan &laquo;tratua&raquo; ez da gain-gai&ntilde;ekoa. Asko agindu, ori bai! Au eta ura ordainduko zizkidala, eta sartu nintzan egunean bezela nago.</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> Ez ditekena da. Zuk dituzun eskuekin! primoreak!</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Bostna beatzekoak, besteak bezelaxe. Eraztunak kendu bear lanerako.</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> Ez da berdin ez. Lantegian aurreratuenetako zerana egingo nuke.</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Ez dakit batere. Bai, ordea, ez naizela &laquo;madama&raquo; orren etxera geigo itzuliko.</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> Aski-ikasi dezu bai zure kontu jartzeko. Madriden ere. Ta lenengo &laquo;parrokiana&raquo;, neroni.</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Bai, Erroxali! Eta pozik alare josiko nizuke so&ntilde;eko berri bat. Obe zenuke antolatzea ba&ntilde;o udarako &laquo;kanela&raquo; kolore ura?...</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> &laquo;Pampoxa&raquo; ez ba-zitzaidan gelditu bada... Arri ta belarri utzi nituen guziak! Pentsa, jai artan &laquo;kaballero&raquo; batek esan zidan <foreign>&laquo;Vaya canela&raquo;!</foreign></p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Ja, ja, ja!! (<hi rend='Italic'>algaraz</hi>). Au Erroxali! Nere ondoezean parregin-arazten didazu-ta! ja, ja, ja!! Ez nago bada irri askotarako...</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> Gaztea zera eta berriz ere, osasunaz batera, itzuliko dira zuretzat egun pozgarriak.</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Uste al dezu? Orratx! Etxetik atera nintzala bost urte badirala dirudit.</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> Ori buruz argal izateak egiten dizu. Neri, berriz, Madridera atzo etorri nintzala gogoak ematen dit. Atzo! eta ogeitabost urte aundi joan dira geroztik. Zaartzen noa. Auxen da mi&ntilde;a! Ai!!...</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Ene! ai! (<hi rend='Italic'>asperen-intziri luze bat egi&ntilde;ez</hi>).</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> Zure mi&ntilde;a edo nerea? Zer gertatzen zaizu?</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Ez nago ondo. Txorabioak arturik nauka... (<hi rend='Italic'>begiak itxiaz</hi>).</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> (<hi rend='Italic'>Lutxi eserita dagon alkira joanez eta eskua bekokian ipi&ntilde;irik</hi>). Ez dezu bada sukarrik. Oztu egingo zi&ntilde;an. Ez da batere berorik emen. Manta au botako dizut ga&ntilde;eti (<hi rend='Italic'>berogarrian ondo bildu beza</hi>). Sua ere piztuko dizut, eta zerbait bero artu bear dezu.</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Itxoingo det Xatur etorri arte.</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> Xatur?... Aditu bear dizkit bereak eta asto beltxarenak! Jakin nola zauden ta ez etorri bear zuzenean etxera. Ori da gibela! Biotza bear da aundi ta ez gibela!!!</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Zazpirak jo dute, eta laister izango da emen.</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> Nik ere ba-ditut egin bearrak, bainan ezin utziko zaitut bakar bakarrik. Xatur etorri de&ntilde;o geldiko naiz. Ori neska txoralda! Senargaia al du edo zer?</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Laguntzailleak, bai. Ortik aurrera ez det uste.</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> Zinera berdin joana izango degu.</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Aste-egunez ez da be&ntilde;ere joaten.</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> Madriden kontuz ibilli bearra dago mutillekin. Itsaskorrago dituzu, euli-mandoak ba&ntilde;o. &laquo;Ortera&raquo; deitzen dituzte.</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Emengoak &laquo;ortera&raquo;, ta gure errikoak &laquo;trikuak&raquo;.</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> Norbait da ate ortan. Ikustera noa.</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Garai ontan Xatur, txintxo asko.</p>
+<p><hi rend='Bold'>II. AGERRALDIA</hi></p>
+<p>LENGOAK ETA XATUR</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> (<hi rend='Italic'>Sartuaz albatan</hi>). Garai nun; ez da ala?... Arratsalde on! Erroxali zurekin dagonean, gaitz erdi. Berandutu egin zait.</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Ai, Xatur, Xatur! Aztu aiz nitzaz...</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Aztu ez, Lutxi; bai&ntilde;an kale ortan beti sortzen ditun ez etxeratzeko aitzekik. Ezagun batzuekin arkitu naun (<hi rend='Italic'>utzi bitza eskuan daramazkin puskak</hi>). Erroxali emen degu-ta...</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> Luzeiritzirik nago joateko, ez uste. Ba&ntilde;an Lutxi ez dago obeto...</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> (<hi rend='Italic'>Lutxirengana joanez eta maite-zimikoak eginik</hi>) Zer gertatzen zaio gure kutunari? Gaizo maitea!</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Kopla gutxi orain, Xatur...</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> Otzez dar-dar zegon aestian... ta gose ga&ntilde;era...</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Sua beriala piztuko det; eta bai aguro esnea berotu ere.</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Ez det jateko gogorik. Kalera ateratzekoa bai.</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Nai baden eta nai ez baden, esne-katillukada bat sartuko di&ntilde;at zintzurretik bera. Arraultz ta guzi, ala bearrez... (<hi rend='Italic'>sukalderuntz doalarik</hi>).</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Nazkatzeko ai&ntilde;a esne artu di&ntilde;at aspaldi.</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> Ez badezu jatena &laquo;pulamentuz&raquo; artzen, aultzen joango zera, ta zureak egin du!</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Artuko det, ba&ntilde;an batere gogorik gabe. Naiago ditut Xaturen konduak entzun. (<hi rend='Italic'>Xaturi</hi>) Ez digun oraindik esan nundik nora ibilli aizen.</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> (<hi rend='Italic'>sukaldetik itzuliaz</hi>) Jakingurak ez din beste gaitza sendatuko. Nere berriak bizigarri zaizkin eta esango dizki&ntilde;at.</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> Janetik bakarrik ez gera bizi.</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Utzi zaiozu itzegiten.</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Bada, lanetik atera naizenean, Patxi Arregi ta beste euskaldun mutil batzuekin topo egin det...</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> Zerbai aterazi diogu.</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Zaude... Ixkira eta karramarro batzuek jatera konbiatu naute... garagardoaz.</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Ori da mauka! Esnea ba&ntilde;o gustorago artuko nizkiken neronek ere!</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> Ekarriko dizkitzugu, kutizi ori badezu.</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Esan, bai. Begi luze izai. Ondo zegonean, ez zituan nai izaten ta. Ez didazute bukaten utzi... gero Patxi eta lagunek zuretzako eskumu&ntilde;ak eman dizkidate...</p>
+<p>-e-<hi rend='Italic'>(Lutxik une ontan begiak itxi ta burua makurtzen zaio).</hi></p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> Ez dira zutzaz aztutzen... Lutxi!</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Bai&ntilde;an... (<hi rend='Italic'>begiratu eta eskutik eltzen diolarik</hi>). Bai&ntilde;an, Lutxi, nere pitxi, nun den min?</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> (<hi rend='Italic'>begiak zerbait idikiaz</hi>) Ez den ezer. Buruko txorabioa.</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> Nik esan dedana: auldadea. Otzikaraz dago. Onek jan egin bear du. Ollo salda obe.</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Bai ta zera ere! Esnea emango diot. Onuzkero berotua da. (<hi rend='Italic'>Sukaldera joan eta baso-esnea ekarriaz</hi>). Tira, neska; ar zan!</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Ezin di&ntilde;at. Gorakoa egingo zidan. (<hi rend='Italic'>Berriz burua albora makurtu ta begiak itxiaz</hi>).</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Bai&ntilde;an, Lutxi! (<hi rend='Italic'>Basoa mai-ga&ntilde;ean utzi, ta eskutik eldurik</hi>).</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> (<hi rend='Italic'>Oso larritzen asirik</hi>) Onela ezin utzi genezaioke. Medikuari deitu bearko zaio. Otzikarak ditu, eta beldur ematen dit.</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Medikuari ba&ntilde;an lenago izeba monjari deitzea obe. Ark jakingo du zer egin. Zer derizkion, Lutxi? Sor Pauleri deitzea nai al den?</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> (<hi rend='Italic'>Begiak itxirik) </hi>Baita zera ere. Apaizari ere bai. No!...</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> (<hi rend='Italic'>Ikaraturik</hi>) Ni baezpada Sor Pauleren billa noa. (<hi rend='Italic'>Xaturi</hi>). Zu geldi zaite emen Lutxiren ondoan.</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Nun bizi dan ba-dakizu; ez ta ala?</p>
+<p>-f-<hi rend='Bold'>ERROXALI: </hi>Besterik ez! Gure etxetik bertan. Telefonoz ere deituko nioke, ba&ntilde;an obe det &laquo;metroa&raquo; artu ta komentura bertara joatea. Itzez itz adieraziko diot guzia. Beriala etorriko gera. Berak ikusiko du medikua deitu ala ez.</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Ederki. (<hi rend='Italic'>Lutxiri begiratuaz</hi>). Loak artu duala dirudi. Gaur ez da piztutzen, ez nere kontuekin ere!</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> (<hi rend='Italic'>Lutxi-ri</hi>) Gero arte Lutxi! Izeba monjaren billa noa.</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> (<hi rend='Italic'>Begiak itxita ta aoa itxirik ots zerbait egi&ntilde;az</hi>) Muu!</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Muu!... dio. Lenago ere askotan izana da emen izeba... Astinduko gaitu guziok. Orrela ere ezin utziko degu. Norbait etorri dedilla, naiz medikua naiz monja...</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> Bear bada Obeto zaitzeko komentura eraman naiko du.</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Torizu; sendagai ona ori!</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> Senargai on bat obe litzake, ba&ntilde;an...</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Zoaz, zoaz! lenbaitlen...</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> Alaxe da! Noan, bada (<hi rend='Italic'>bijoa</hi>).</p>
+<p><hi rend='Bold'>III. AGERRALDIA</hi></p>
+<p>XATUR ETA LUTXI</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> (<hi rend='Italic'>Lutxiri belarrira</hi>) Biok bakarrik gatxeuden. Esna adi! Goiz bait-den lo egiteko. Afaldu gabe ago. Izkira batzuek ekarri dizki&ntilde;at! Olakoak! Ze&ntilde;ekin ibilli naunan ere kontako di&ntilde;at. Erroxali ez zegonan ezkero, adieraziko di&ntilde;at egi guzia (<hi rend='Italic'>Bekoki ta okotzetik leunkiro elduaz</hi>). Lutxi</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> (<hi rend='Italic'>Begiak zabaldu eta burua jasoaz</hi>) Pasatzen ari zaidan. Obeto natxion.</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> (<hi rend='Italic'>Gartsu</hi>) &laquo;Siquiera&raquo;... piztu aizenean! Biotza bere lekutik ateraziko didan ire otzikarekin... Erroxalik arrazoi din. Auldu ta argaldu aiz, ta goseak txorabioa egiten din. Beraz, nai ta nai ez esnea artu bear den oraintxe.</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> I isiltzeagatik artuko di&ntilde;at txantxilla bat!...</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Ez, ez, baso osoa! (<hi rend='Italic'>Ezpa&ntilde;etara eramanez</hi>). Ea bada... gai&ntilde;ak ez zaizkin trabatuko. Ez den beldurrik</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> (<hi rend='Italic'>Ezpa&ntilde;ak itxiak</hi>) Aski, aski! Ea guzia edan di&ntilde;at.</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Beste pizka bat (<hi rend='Italic'>guzia edanaraziaz</hi>). Ura den erdia ba&ntilde;o geiago-ta. Barruan den. On egingo din.</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Bai! Orain konta eidan nun ibilli aizan.</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Ba, Zinean... X... pelikula ikusten. Bigarren aldia joaten natxionala. Oso polita den</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Nik ere bazeukanat ikusteko gogoa.</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Senda adi, ta joango aiz! Oraindik luzaroan irauten al din programan. Jaten asten baaiz eta beste buru-austeak aztutzen, zinera ezik dantzara ere joango gaitun elkarrekin...</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Nere izebak jakin gabe bearko din.</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Erroxali billa joan zaiola aditu den. Laister ditun emen.</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Ez unan bidali bear. Ona den bera! Au ernegazioa!</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Ikaratu egin bait-naun. Ainbeste antzi, naigabe ta arnas-estu atera ditun! Ez di&ntilde;at i&ntilde;or ikusi iltzen, ba&ntilde;an baezpada medikuari deitzea erabaki di&ntilde;agu Erroxalik. eta biok. Eta lenago ire izebari.</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Ez unan orrenbestera&ntilde;o. Eta ez orrelakorik aitatu izebari, bestela komentura eraman naiko natxion.</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Sendatzen ba aiz! or konpon! Ni ez natxion eramango. Neska mutilzaletzat jotzen bait-nau...</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Izan ere, lantegira joan ez naizela ogei egun badala jakin dezanean. Ez, ez! aste bete esan bearko zionat.</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Ori antolako di&ntilde;agu, Erroxalik ez ba din mingai&ntilde;a geiegi erabilli.</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Okerrena, ez daukadala batere gogorik lantegira berriz joateko. Andre Maixtra orrekin aspertuta natxion. Ikasi bear nuana, ikasi ninan noski. Sendatzean, naigo di&ntilde;at errira edo Donostira itzuli ta berriz nere kontura lanean asi.</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Neska! Ori den errimi&ntilde;a! Aguro aspertu aiz emen. Orrek esan nai din ire biotzak sustraiak an utzi dizki&ntilde;ala.</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> I ere ez aiz, bada, ijito-kasta, alaja&ntilde;etan!</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Indarrak etortzen ari zaizkin orratiokan! Bejoandinala! Zer ote, esne bataiatuaren ordez &laquo;txuletak&raquo; jaten asten aizanean?</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Ez den orrengatik. Izeba monja ta medikua datozenean, suspertzea gertatzen zaidan.</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Orduan ez den gaitz aundirik. Nola nai, obe den izebak maskaldu ta erori zamarra arki aunan. Galdera gutxiago egingo dizkin eta pakean utziko gaitxon.</p>
+<p><hi rend='Bold'>IV. AGERRALDIA</hi></p>
+<p>LENGOAK, ERROXALI TA SOR PAULE</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> Emen gaituzu! Arratsalde on!</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Ave Maria! Zer gertatzen da? Nola ez didazute lenago gaztigatu?</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Ez da ezer, izeba.</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Bai&ntilde;an... (<hi rend='Italic'>Lutxirengana urbilduaz</hi>).</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> &laquo;Grippe&raquo; pizka bat. Utsa! Egun batzuetan etxean egon-ondoren, biar ateratzera zijoan. Gaur txorabioak eman dio.</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> A gazteok, gazteok! Ez dakizute zeren buruak zaintzen. (<hi rend='Italic'>Lutxiri eskumuturra artuaz</hi>). Biotza ondo al dabilkizu...</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> (<hi rend='Italic'>Belarrira Erroxaliri</hi>) Orretxek, uste det, bada, utsegiten diola.</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> (<hi rend='Italic'>Bekokian eskua ipi&ntilde;irik</hi>) Sukarra dezula dirudi. Ea mingain ori. (<hi rend='Italic'>Lutxiri, mingai&ntilde;a atera araziaz</hi>). Ziki&ntilde;a daukazu.</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Amaika mingain zikin ba-dabil munduan (<hi rend='Italic'>Erroxaliri</hi>).</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> Ez zenuen neregatik esango? e?...</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Ez, enetxoa! Ba&ntilde;an ez zazula geiegi itzegin, Monjak zerbait galdegingo dizunean...</p>
+<p>-f-<hi rend='Bold'>SOR PAULE: </hi>(<hi rend='Italic'>Beti Lutxiri</hi>) Erroxalik esan dit, ogei egun daramazkizula lanera joan gabe... Nun dezu min?...</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Mi&ntilde;a... mi&ntilde;a... gauza aundirik ez, banan txaldankeria gorputz guzian. Eta jateko gogo gutxi.</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Ez da txoriak a&ntilde;a!</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Nik uste, oiean sartu bear zenukela.</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> Orixe bera esaten nion. Etzan, eta egon bertan goxo. Ezta orrelako erremediorik.</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Asper-asper egi&ntilde;a nago oean egotez. Eta ez nago batere obeto..</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> Bueno! etxekoak: berandutuko zait eta uzten zaituet. Ea (<hi rend='Italic'>Lutxiri</hi>) lenbaitlen titare ta jostorratza eskuan dituzula ikusten zaitudan.</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Eskerrik asko, Erroxali. Lenengo puntadak zuretzako izango dira.</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Aurren-aurrena senda zaite, eta ea indartzen zeran. Arpegi txarra arkitzen dizut.</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> Ainbat egunetan aizerik artu gabe.</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Ez da orrenbestetara&ntilde;o! Zer du bada...</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Neretzako &laquo;infekzio&raquo; zital bat, grippek utzi diona... Begira, Xatur, botikara zoaz, eta penizilina ekarri zazu. On aundia egingo dio. Neronek jarriko diot txertua. Ez degu mediku bearrik</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Bai, bai! ederki! Beriala joango naiz.</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Nere iztarrak ziztada bat geiago artuko du.</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Ori ez da ezer! Zerua irabazteko zerbait geiago jasan bearko dezu.</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> Nik lagunduko det Xatur botikara; eta gero etxerantz jarraituko det. Onuzkero etxekoandrea zai daukat.</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Goazen, bada... eta (<hi rend='Italic'>Lutxiri</hi>) geldi-geldi, izebari obeitzen.</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Errez den esatea! I, berriz, kalean ibiltzeagatik loteri-saltzale ere egingo intzake. Laister itzuli, e?</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Txanda elduko zain iri ere! (<hi rend='Italic'>Abituaz</hi>). Gero arte bada.</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> Ea ondo lo egiten dezun. Urren arte. (<hi rend='Italic'>Bijoaz</hi>).</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Agur, eta eskerrikasko!</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Nerekin geldituko da, Xatur etorri arte.</p>
+<p><hi rend='Bold'>V. AGERRALDIA</hi></p>
+<p>SOR PAULE ETA LUTXI</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Lenago deitu bear zenidan. Lanpetua egonagatik, etorriko nintzaizun ikustera. Zertarako gaude, bada?</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Utsa izan da, izeba. Gaur naigabeak eman-da, txorabioak era-bat artu naula.</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Ez da symptoma ona. Argal zauden ezaugarri dezu. Gaitza penizilinak kenduko dizu, ta gero indartzen asi bear.</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Luzeiritzirik nago...</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Etxeko berririk ba-al dezu?</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Ea astero, amak ez bada Filok karta egiten didate.</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Ni nagia naiz i&ntilde;ori karta egiteko. Ondo izango dira, noski, etxeko guziak?</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Ala diote. Ama be&ntilde;ere ba&ntilde;o bizkorrago, eta aizpatxoa berriz, ez dago esan bearrik osasunez ga&ntilde;ezka.</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Zu gaxorik... tira! makal zamar zabiltzala ba-al dakite?</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Ez bada. Bueno!... grippe arin bat pasa dedala aitatu diet. Orain susmoa arturik nago, geroztik Erroxalik bere etxekoai nitzaz zerbait adierazi ez ote dien: eta beldur naiz onuzkero berri ori aundituta ga&ntilde;era zabalduko zutela gurean ere.</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Orregatik gauza txarrik uste ez dezaten obe dezu zeorrek garbi esatea. Nik ere itz bi egin bearko dizkiot zure amari.</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Txaldana nago zernaitarako.</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Eta txaldankeri orrek gorputza ez ezik anima ere kutsutuko zizun. Egunero egiten al dituzu zure otoitzak?...</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Egunero ez bada geienetan bai izeba!</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Jainkoak i&ntilde;oiz naigabe oriek bidaltzen dizkigu. Nork daki ez ote zaitun eraman nai beste bide batetik. Maiz konfesatuz zure aitor-entzuleari galdegin bear zenioke. Animaren sendagillea hura baita.</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Ez dut asmorik! Orain medikuarai deitzea aski. Ezta ori ere! zuk sartuko didazun penizilina eta zure sermoiak naikoa ditut.</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Gauza guzien gai&ntilde;etik egin zagun Jainkoa ren borondatea.</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Paskotan eta udaberrin gaude eta Jainkoari eskatzen diot San Antonioren bitartez senda nazala. Batetik bestera ibilli, eguzki ta aizea artuaz...</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Oiek egunero merezi gabe zerutik datozkigun doaiak dituzu. Eta eskerronekoak izan bear degu. Urtetan aurrera zoaz Lutxi ta naiz gaztea izan etorkizunari buruz erabakiren bat artzeko sasoiean zaude.</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Erabakia? aspaldi artu nuen. Lengo bidetik noa ta Galarretara itzuli nai nuke.</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Eta Jainkoaren deia bestela balitz?... Bokazioa esate baterako...</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Ez det ezer berezi entzuten, nik dakidala beintzat.</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Ez uste izan zure izenez oiu egingo dizutenik. Dei isilak dituzu, barrengoak, eta ez dezu izan bear entzungor.</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Ez ez, belarri ta entzumen pi&ntilde;ak ditut. Orain bertan Xatur eskalletatik gora datorrela antzematen diot. Erne nago!</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Ala izatea poztutzen naiz. Jainkoaren gauzetan ere egon bada erne! Erne Aren deiari!</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> &laquo;Arena&raquo; ez dakit ba&ntilde;an &laquo;zurea&raquo; ondo entzun arazi didazu. Monja sartzea nai zenuke, ez da ala?...</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Nik ez dut billatzen zure zoriona baizik...</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Eskerrikasko izeba; Une ontan nere zoriona &laquo;loegitea&raquo; litzake (<hi rend='Italic'>begiak itxi ta burua makurtuaz</hi>).</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Ez dizut galeraziko. Inyekzioa jarri-ta pakean utziko zaitut. Ea biarko obeto zauden. Norbait dator.</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Kosta zaio etortzea! Xatur degu.</p>
+<p><hi rend='Bold'>VI. AGERRALDIA</hi></p>
+<p>-e-LENGOAK ETA XATUR <hi rend='Italic'>(sarturik)</hi></p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Emen nazute!</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Aguro egin dezu itzulia.</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Beriala eman didate penizilina. (<hi rend='Italic'>Lutxiri</hi>). Kajatxoan zegon orratza ere!</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Obe luzatu izan ba unan kalean-buelta.</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Ez zazula txorakeririk esan! Ez dezu gaitz aundirik alako berriketako gogoa dezunean... Ea kajatxo ori. (<hi rend='Italic'>Xaturen eskutik artuaz</hi>).</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Ondo sar bezaio. (<hi rend='Italic'>Lutxi zerbait etzan araziaz iztar aldetik sartu baliote ke&ntilde;ua egi&ntilde;ez</hi>).</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Lenago ere toki ori guzia minberaturik daukat. Ai! ene ai!</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Aoa itxi. Ez da ezer! O&ntilde;aze pizka bat ona da sendatzeko. (<hi rend='Italic'>Xaturi</hi>). Zuri ere emango dizut beste bat.</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Ez, ez! eskerrikasko! Osasunez ondo nago...</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Zuk bearko dezuna gorputzarena ba&ntilde;o animarentzako zirikaldi bat izango da. Gogo jardunak. Gogor zamarrak ga&ntilde;era! Lutxi senda dedinean biok etorri bear zenukete gure komentura ejerzizioak egitera.</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Zergatik ez! Lenago Erroxali eraman beza, ea nola artzen dituan.</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Hura urtetan aurreratuxea doa. Gaztetan premi aundiago izan oi da. Jesukristok ere aukeran mirabe gazteak naigo ditu. Neskazartu ezkero ez da errez oiturak aldatzen.</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Orain beintzat lo egitera joan nai det. (<hi rend='Italic'>Alboko gelara besotik daramatela</hi>).</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Bai gazteak, ez aztu nere aolkuak. Bizia laburra bait da. Ba noa ni ere. Ordu da. Polita izango litzake zuekin nagon bitartean komentuko ateak itxitzea.</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Oia emango diot eta afaltzen ere bai.</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Eskerrik asko biotzoneko zera! Agur eta biar arte. Ea errosarioa esaten dezuten!</p>
+<p>Eszenario-aldaketa</p>
+<p><hi rend='Bold'>VII. AGERRALDIA</hi></p>
+<p>-e-<hi rend='Italic'>(Aurreko oiala jasota sala ta lo-gela moduko bat agertuko da. Erdian maitxo bat; armario eser-leku eta abar, antzes-tokian).</hi></p>
+<p>XATUR ETA LUTXI</p>
+<p>-e-<hi rend='Italic'>(Xatur, marats-marats, gela antolatzen ari da; eta Lutxik ere zerbait lagundu nai dio).</hi></p>
+<p>-f-<hi rend='Bold'>XATUR: </hi>(<hi rend='Italic'>Lutxiri</hi>) I ago geldirik eserita. Ez al naun bada naikoa guzia txukun jartzeko.</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Ondo lo egin di&ntilde;at eta gogo bizitan natxion iri laguntzeko.</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Bai, piztu aiz ire etxekoak espero ditunalako. Ama ta aizparen aurrean itxuraz azaldu nai den.</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Au poza nerea! (<hi rend='Italic'>eserlekutik jeiki ta lanean asirik!)</hi> Sendaturik natxion eta laister errira itzuliko naun. Etxekoak urtetan ikusi ez ditudala ikusi; zerizkinan? <hi rend='Italic'>(iruditzen zaidan?)</hi></p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Ez ni&ntilde;an uste ain etxe-zur (<hi rend='Italic'>etxe-zulo</hi>) intzananik. Ez den ordea etxekariaz eta errizaletasunez bakarrik ire poza gainditzen. Ama ta aizpa maite ditun noski, bai&ntilde;an zerbait geiago ere ba-den barren ortan. Esaidan egi-egia</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Isilik gorde nai ni&ntilde;an oraindik, bai&ntilde;an galdegin didanan ezkero ezin ukatuko di&ntilde;at. Xabierek goraintziak bidali zizkidanan Erroxaliren bitartez. Eta nere berriak jakin nai ditudala zirudin...</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Antzeman nitxioanan olako zerbait gertatzen zitzai&ntilde;ala. Amorioa min jarioa... Maitasuna osasuna...</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Bertsotan atera zain... ta bi-paretak aidean.</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Pelotariz ga&ntilde;era batzuetan &laquo;bertsolari&raquo; ere bait ba-naun! Amorio zarra dala-ta ez laisterregi ibilli. Ez presa aundirik adierazi aintzi&ntilde;ako adiskideari. Iretzaz maite-mindua bazegon berriz ere nabarmenduko den nola edo ala...</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Ni, nere tokian natxion. Amak eta Lutxik zer nolako berriak dakarzkiten itxoiten. Erroxalik berriz...</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Ez badin aria ta matatsa geiago naspillatzen. Eztaziora joana den billa Sor Paulerekin eta diranak eta ez diranak esango zizki&ntilde;an onuzkero.</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Geitxo maite din jorratzea. Alaz eta guziaz lagun ona den, biotz onekoa eta nere alde egin duan guziagatik zer nai gauza barkatu bear zionagu.</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Barkatu bai, nai denan ai&ntilde;a! Bai&ntilde;an i Galarretara itzultzen aizenean ez di&ntilde;at nai emen askotan o&ntilde;a jarri dezan. Ago, ago! Uxatuko di&ntilde;at. Bai orixe!</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Ea isil adi! Atean norbait dabillela zirudin?</p>
+<p>-f-<hi rend='Bold'>XATUR: </hi>(<hi rend='Italic'>ateruntz joa&ntilde;ez</hi>) Bai ala den. Ez ditun eztaziokoak izango bada; amarrak joak ditun bai... (<hi rend='Italic'>Atea zabalduaz</hi>). Filo den eta! Ola bakarra!</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Filotxo! (<hi rend='Italic'>besarkatuaz</hi>). Nola ain aguro? Eta besteak?</p>
+<p><hi rend='Bold'>VIII. AGERRALDIA</hi></p>
+<p>LENGOAK ETA FILO</p>
+<p>-f-<hi rend='Bold'>FILO: </hi>(<hi rend='Italic'>sarturik eta aizpa ta gero Xatur besarkatu ta musuemanez</hi>) Meeturik arkitzen aunat Lutxi! I ikusteko gogotan nintxonan!! Neguaren luzea! Amarekin bakarrik!</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Dan onenarekin geldi intzanan eta ez dion antzeman! A tuntuna! Oso pertxenta. egin aiz.</p>
+<p>-f-<hi rend='Bold'>FILO:</hi> I berriz gaixorik egon eta guk ezer jakin ez!</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Ez ba unan ezer izan! Utsa! Erroxalik larritu zi&ntilde;an nere gaitza.</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Nola etorri aiz bakarra besteak kalean utzita?...</p>
+<p>-f-<hi rend='Bold'>FILO:</hi> Taxi ordaintzen geldituak ditun eta zerbait erosten. Neri etxea erakutsi zidaten eta emen etorri nazute tximista egi&ntilde;ean...</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Ez ni ikutu orduan ez naun &laquo;tximistorratza&raquo;-ta...</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> &laquo;Aitaren&raquo; eginda ez zegon beldurrik. (<hi rend='Italic'>Filori</hi>). Zer iruditu zain Madrid?</p>
+<p>-f-<hi rend='Bold'>FILO:</hi> Ene! aundia eta ederra.</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Azaletik bai. Barrundik ez orrenbeste.</p>
+<p>-f-<hi rend='Bold'>FILO:</hi> Lenago zerura&ntilde;o jasotzen zenuten bada. Ez ba zidaten pozik etorri biak.</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Pozago itzuliko naun etxera.</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Ez ni oraindik. Galarreta betiko tokian kokaturik egongo den &laquo;Muruaundi&raquo; mendia ga&ntilde;ean duala. Zer diote &laquo;galartarrak&raquo;?...</p>
+<p>-f-<hi rend='Bold'>FILO:</hi> Betiko bizima&ntilde;an. Ez da berri aundirik: jende ezagun batzuek il zaizkigu, Xerapi Etxeberrikoa, Anton Errotari... Beste etxeetan senideak ugaritu zaizkie. Eta ezkontzeko asmoetan dabiltzanak ere ba-dituzue...</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Konta izkiguzu konta!!</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Eseri dedilla lenengo. Ea emen lekua! (<hi rend='Italic'>eser, lekua erakutsiaz</hi>).</p>
+<p>-f-<hi rend='Bold'>FILO:</hi> Trenean amar orduan eserita etorri nazaizu eta zutik naiago pizkatean.</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Geiago azi bear al den?</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Azi ez, naikoa egin den. Galarretako berriak esaten asi bai.</p>
+<p>-f-<hi rend='Bold'>FILO:</hi> Ori den presa! Ga&ntilde;era luze uke guzia esatea. Ez zeki&ntilde;at nundik asi. Pizkana-pizkana gogoratuko zaizkidan. Zuek esan bear dizkidatzue emengo gora-berak. Nik ere noiz bait Madridera iritxi bear ni&ntilde;an. Eskerrak gaixo egon aizanala, bestela ez ni&ntilde;unan sekula zulotik aterako.</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Neskaren aterakaia! Entierrora etorri nai. (<hi rend='Italic'>Par dagite</hi>).</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Eta amak nola artu zizki&ntilde;an nere berriak?...</p>
+<p>-f-<hi rend='Bold'>FILO:</hi> Nola? Egun txarra igaroaz. Azkenean izebari telefonoz deitu zionan eta Madridera etortzea erabaki zitenan. Nik, egia esateko, ez ni&ntilde;an sinisten oso gaixo engonanik. Eta Madridera etortzeak poztutzen zidanan biotza.</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Ori den gauzak garbi adieraztea! Bapo! Filo. Asmatu den erdi-erditik.</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Guziontzat obe. Kezka bat bakarrik gelditzen zaidan. Amak zer esango ote didan. Beldurrez natxion.</p>
+<p>-f-<hi rend='Bold'>FILO:</hi> Ago lasai! Asarrea izeba monjarekin lertu zaion bidean; eta onera orduko bare-bare besakartuko au alaba maite-maitea</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Ori komeni zaigun neska! zuen izebatxo monja umil-umil etorri dedilla. Aren galderai erantzuten aski lan izaten di&ntilde;at: zenbat irabazten dedan, norekin nabillen, noiz etxeratzen naizen, nor etxeratzen. Ni &laquo;ardi-galdutzat&raquo; bai natxeukan.</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Bide onera ekararazi nai au, nunbait.</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Bide ona arentzako komentura daramana besterik ez. Ondo jaioak gatxeuden, Lutxi.</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Nork zekin?</p>
+<p>-f-<hi rend='Bold'>FILO:</hi> Ez dezute monjagai itzurik. Madritarren atzetik ibiltzen bai asiko zi&ntilde;aten.</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Ara bestea! Onek aterako zizkigun eltzetik babak.</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Ama aurrean ez dagola ajolagabetu den gure goiz-ollanda.</p>
+<p>-f-<hi rend='Bold'>FILO:</hi> Ama? Onuzkero ez den urruti, eskalleretan gelditu baditun ere.</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Eskalleretan ezik ate joka ari dirala esango niken.</p>
+<p>-f-<hi rend='Bold'>FILO:</hi> Berak dizki&ntilde;agu orduan (<hi rend='Italic'>ateruntz joanez</hi>).</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Ai! nere larria! Biotzak zirrada egiten zidan.</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Ago lasai. Eseri adi. (<hi rend='Italic'>Ateruntz abiatzen dirala</hi>)</p>
+<p><hi rend='Bold'>IX. AGERRALDIA</hi></p>
+<p>LENGOAK AMA TA SOR PAULE</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA:</hi> Oso goian bizi zerate.</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> (<hi rend='Italic'>besarkatuaz</hi>) Ama! amatxo</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA:</hi> Ai alaba! alaba! Amaika buruauste eman dizkidazu. Eta onela onik ikusten zaitudanean Lezoko Santo Kristori eskerrak ematen dizkiot... Uste izan nuen..</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Beti izan bear degu Jaungoikoagan uste osoa.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA:</hi> Bukatzen uzten al didazu bada. Monjak azken itza bere.</p>
+<p>-f-<hi rend='Bold'>FILO:</hi> Ama ez zaiteztela errietan asi Madridera iritxi eta bereala.</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Ori maite-asarrea da ez errieta.</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Beti degu zer ikasia.</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Eseri zaite ama! Nekaturik zaude ta patxaran jartzea obe.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA:</hi> Neri a&ntilde;a komeni zaizu zuri ere (<hi rend='Italic'>eseri bitez biak elkarren ondoan</hi>). Indarrak egiten ari al zaizkitzu?...</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Bai ama ni erabat sendaturik nago. Zuek negu ona pasatu al dezute?</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA:</hi> Jainkoari eskerrak gaitzik gabe. Orain adin bat ezkero nork ez ditu ajeak?. Eta nereak ere ugaritzen doaz.</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> I&ntilde;or ez da gaztetzen, bai&ntilde;an ez du beorrek itxura txarrik. Joan dan udaran ba&ntilde;o gizenago arkitzen det. Bapo dago ama</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA:</hi> Bai, primore!</p>
+<p>-f-<hi rend='Bold'>FILO:</hi> Ala dago-ta! Ongi dabil aspaldi, ama eta apetitu onarekin jaten du.</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Bi alabek diotenean egia izango da. Nik ere onik arkitzen zaitut. Arpegia beteagoa.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA:</hi> Zuen aldean bai. Batik bat Lutxi txaldana zaude; eta matrailezur oiek geiegi ageri zaizkitzu. (<hi rend='Italic'>Xaturi</hi>) Jateko gogorik bai al du?</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Ortatik dabil urri.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA:</hi> Bada zintzurretik sartu bear zaio egaztiai bezela.</p>
+<p>-f-<hi rend='Bold'>FILO:</hi> Pipar-erroskillak ekarri dizkitzugu.</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Inyekzioak artzen asia da eta on egingo die.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA:</hi> Txuleta onak jatea obe; eta gero ar dezala aize garbia, etxe zuloan sartuta egon gabe.</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Ama, guzia batean ezin egingo det. Sukarra joana zait eta orain asiko naiz iaten eta aizea artzen.</p>
+<p>-f-<hi rend='Bold'>FILO:</hi> Ori! ori! Kalera elkarrekin atera bear di&ntilde;agu. Madrideko bazterrak ikusteko gogotan natxion. Zerbait agertzen unan taxitik. A zer nolako etxe eta denda ederrak zeuden. Eta kaletako jende eta auto pilla. Batetik bestera igarotzen kosta zaidan!</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Bai bai joango gaitun.</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Aizpa gaztea ez dezu beldurrez atzean gelditzen danetakoa.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA:</hi> Ez orixe! Ez dezu gelditzen ta nekatzen dan oietakoa!</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Gaztea izaki!! Bere bideak arrapatuko du.</p>
+<p>-f-<hi rend='Bold'>FILO:</hi> (<hi rend='Italic'>Lutxiri</hi>) Etxe ontatik ez alda &laquo;bixtarik&raquo; agertzen?</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Ori da ume begi-luze! Gutxi al da zerua zapaitik ikustea?</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Ori da munduan degun ikuskizunik ederrena.</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Or atzekoaldean Ieio bat kalera ere badegu. (<hi rend='Italic'>Filori</hi>) Goazeman gelara eta erakutsiko di&ntilde;at.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA:</hi> Zoazte bai, bestera ez gaitu pakean utziko eta.</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Amak eta biok nun lo egin bear dezuten ere erakutsiko dizuet.</p>
+<p>-f-<hi rend='Bold'>XATUR: </hi>Leio ortatik erregeen palazioa ere ikusten da.</p>
+<p>-f-<hi rend='Bold'>FILO:</hi> Auzo onean bizi zerate orduan.</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Ain onean! katuz inguratuak. Goian gatxeuden eta guzia agertzen zaigun. Baita Guadarrama mendia ere.</p>
+<p>-f-<hi rend='Bold'>FILO:</hi> Ez ordea itxasorik!</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Baita zera ere.</p>
+<p>-e-<hi rend='Italic'>(Bijoaz Lutxi, Xatur eta Filo).</hi></p>
+<p><hi rend='Bold'>X. AGERRALDIA</hi></p>
+<p>A. DOMINI ETA SOR PAULE</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA:</hi> Bada, egia esateko, ez zait batere gustatzen Lutxiren itxura. Ez dio onik egin Madrilgo egonaldiak.</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Madridek ez du errua. Giro osasungarria dezu auxe. Grippe arrapatu duala ta ori da guzia.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA:</hi> Bai, bai ba&ntilde;an sendatzeko gurekin etxera eramatea obe. Jatena emango diogu eta indartuko da.</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Amaren ondoan bezin ondo i&ntilde;on ez. Jaki&ntilde;a! Ba&ntilde;an seme-alabek ez dira ama-zurregi ezi bear. Etorkizunari ere begira bear zaio. Lutxi emen asko ikasten ari zan eta nork daki...</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA:</hi> Ez, ez! Ez det nai alaba bizi guzirako argal eta erixko ikusi nai. Naiz asko ikasi eta are geiago irabazi.</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Arazo oietan ez biotzez buruz baizik joka bear da. Ez det uste orain Lutxi zerekin eramatea dagokizunik. Sendabidean doala ikusten dezu. Madriden jarrai dezala naiz etxez aldatu.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA:</hi> Zera! Hotel Palacera bidaliko degu. Ez, ez! etxera! etxera!</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Begira Domini, ez uste ni ere konporme nagonik Lutxi tellatupe ortan bizi dedin. Ga&ntilde;era (<hi rend='Italic'>isillago</hi>) Xatur ez du komeni zaion laguna. Nola esango dizut, ez da neska gaizto lotsagaldu oietakoa, ba&ntilde;an gaztea eta kaxkarin eta ergel zamarra bai. Erretiro gutxikoa. Eta Madrides neskatxa bakarrentzat arrixko aundiak daude.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA:</hi> Zu leia zi&ntilde;an bada gurea onuntz ekarri arazten. Modista gallena egingo zala eta abar.</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Ikasteko etxetik ateratzea gazteari onuragarri zaio. Orain nundik nora dabillen jaki&ntilde;ez-eta norekin bizi dan zainduaz.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA:</hi> Xaturetzaz ez det ezer txarrik entzun. Alaia dala? dantza-zale? neska-mutil? pelotaria?...</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Gutxi al derizkiozu?</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA:</hi> Gaztetasunak darabila! Ez da arritzekoa.</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Ez al dakizu iri aundi auetan oitura galgarriak diranik? &laquo;Bonbillako&raquo; dantzaldiak...</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA:</hi> Bonbillan? Obe da argitan dantzatzea illunpetan ba&ntilde;o.</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Au ez da Galarreta! Ezagun da ez dakizuna Madrid zer dan! Neskatxa bakarrak bizitzeko beldurgarri. Lutxik beste nunbait jarri bear luke bizitzen. Eta etxe berria arkitu ateean komentura eraman nezake.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA:</hi> Ori al zenun gorderik zeneukan dambada &laquo;atomikoa&raquo;. Lenago lertu arazi besterik ez zenun. Zeorrek ekar arazi zendun Madridera, komentuan sartzeko al zan? Jostundegi ta modetan trebetuko zan noski, Galarretako a&ntilde;a, beraz lenbaitlen etxera dedilla ta kito</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Ez nere esanak gaizki artu, aizpa. Obe bearrez izan bait da Bestela uste badezu ez det zure borondatearen aurka joan nai. Zaude lasai. (<hi rend='Italic'>Zin egi&ntilde;ez</hi>) Aitaren eta semearen... Jainkoak daki nere asmo zuzenaren berri. Amabirgi&ntilde;a dala bitarteko.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA:</hi> Eta &laquo;Irutasun&raquo; osoak gaitzala eskutik. Alabitz! (<hi rend='Italic'>atean joka ari diran otsa entzun bedi</hi>). Oso gora igo gaituzu aizpa eta emen lurrean ate joka ari zaizkigu. Ez dakit emengo berri.</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Joango naizaizu irikitzera. (<hi rend='Italic'>atea zabaldurik</hi>) Erroxali! Zu al zaitugu!</p>
+<p><hi rend='Bold'>XI. AGERRALDIA</hi></p>
+<p>LENGOAK ETA ERROXALI</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> Bai Sor Paule. Ni zazu! Ezin joan izan naiz eztaziora eta onera agertu bat egitea bururatu zait Andre Dominiri eta arpegia ikustera. (<hi rend='Italic'>A. Dominiri</hi>) Zer modu? (<hi rend='Italic'>Elkar besarkatuaz</hi>).</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA:</hi> Ez zu bezin ondo! ba&ntilde;an, tira! Madridera etortzeko aitzekia izan degu eta emen gaituzu kezkaz beterik.</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> Gaizkitxe! Zerbada, beti errian sartuta? Lutxi bizkortzen ari da egunetik egunera. Orrek ez dizu kezkik eman bear. Sendaturik dago.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA:</hi> Osasunez obeto jarri ba da ere neska orrekin zer egin erabaki bearko degu.</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Uste osoa Jainkoagan ipini bear degula esaten ari natzaizu. Ez aldez aurretik zere burua larritu.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA:</hi> Errezago da esatea aizpa. Zu Sor baitzaitugu ta ni Ama...</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Aragiz ala da, bai&ntilde;an gogoz be&ntilde;epein amatzat leia nai nuke nik ere.</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> Ala bearrez, nun dituzue neskatxa gazteak?</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA:</hi> Zuk kirakoak nai eh? Ba &laquo;gazteak&raquo; or dabiltza atzeko leioan edo. Filori bixtak erakutsi nai zizkiela-ta.</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> Orduan tellatura igoko ziran. Andik ikusbegi aundia ageri bait da. Filo aspertu egi&ntilde;ik egongo da.</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Gazteak itzuli ditezen bitartean ondo egingo degu eseritzea.</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> Ez nago nekaturik ba&ntilde;an nai badezute. (<hi rend='Italic'>eseri bitez</hi>).</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA:</hi> Erroxali! era bat madritarra egi&ntilde;ik zaudela ikusten zaitut: so&ntilde;eko apain, zapata pin eta orrazkera txukun...</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> (<hi rend='Italic'>arro</hi>) Alaja&ntilde;a! nai litzake! ea ogeitamar urte daramazkit eta aundikiren tartean...</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Udarero errira gogoz joaten zera bada Madrid utzita.</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> Monjak ere ez zerate atzean gelditzen ibilli kontu ortan...</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Agintzen digutenean... Amar urte oietan bein izan naiz Galarretan, eta bai pozik ere! Igaz!</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA:</hi> Gure txokoa bezelakorik ez dagola aitortzen dezutenean. An nago bizi guzian txilborretik lotuta. Ez zuek bezela.</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> (<hi rend='Italic'>par egi&ntilde;ez</hi>) Ja! ja! ja</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Ori aterakaiak ditu gure aizpak! Txilborraren ordez esazu biotza. Iparragirrek zion eran: &laquo;ba&ntilde;an biotzak dio zoaz Euskalerrira&raquo;.</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> Biotza! Berri on bat ba-det zuentzako. Zorionak eman bear dizkitzuet.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA:</hi> Zorionak guri? Jainko maitea! ez gabiltza bada aspaldi oso zoriontsu.</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Ari zor diogu zorion guzia eta eman bear dizkiogu eskerrak.</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> Ez dakizutela zergatik? Ezetz asmatu.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA:</hi> Ez dakit bada.. Ez naiz ezertaz oroitzen...</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> Ematen?...</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Bai, bai. Lenbaitlen esan zazu gu irrikitzen euki gabe.</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> Ba. ba.. Lutxi.. eta... Xabier berriz adiskidetu dirala... eta mutilla be&ntilde;ere ba&ntilde;o &laquo;enamoratua&raquo; dagola zure alaba Lutxitzaz..</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Zorioneko &laquo;maite-mi&ntilde;a&raquo;. Biotz-berak izaki oraingo gazteak.</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> Oraingoak eta betikoak. Obe da ori agi&ntilde;ekomi&ntilde;a ba&ntilde;o.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA:</hi> Zuk i&ntilde;undik jakiten dituzu isil-kontu oiek. Aurreratua bizi zera.</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> Madrillen bizituaz Galarretako albistiak zuek ba&ntilde;o lenago jakiten ditut. Eta iturri onetik ga&ntilde;era.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA:</hi> Ez dizut ezetz esaten. Pamilikoak izan oi gera orrelako berriak jakiten azkeneko...</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> &laquo;Grippe&raquo; ezik zure alabak zer zuan badakigu orain: &laquo;biotzekomi&ntilde;a&raquo;. Ez da ala Erroxali?</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> Jaki&ntilde;a! Oraintxe dago adinean.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA:</hi> Jesus! milla bider! (<hi rend='Italic'>asperenka</hi>) Nere alperrikako larria</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Lasatu ta poztu zaite. Eta ni zurekin! Lutxik ezkontzarako deia duala garbi ikusi da. Eta i&ntilde;oiz esan ba-didazute ere nik komentura eraman nai nuela. Ez da olakorik. Jarrai zala aukeratu dun bidea. Jaungoikoaren bidea da ori ere. Zerua irabazi diteke era guzitara eta askotan praile-monjak ba&ntilde;o sarigarrigo izango dira ezkondutakoak.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA:</hi> Edo ta mutil ala neska-zar gelditu diranok.</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> Neregatik al diozu ori?</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA:</hi> Ez andrea, ez! Zu &laquo;gai&raquo; zaude oraindik.</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> Ez dakit &laquo;gai&raquo; nagon, ba&ntilde;an zure alabaren ezkontzara joango naizela bai. Nere burua kombidatzen det.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA:</hi> Eskubidea ba-dezu eztaietan lekuko izateko. Soineko ederra, kanela koloreko sedazko ere... bai apain-apain agertzeko.</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> Ura gau-jaietakoa det. Elizkizunerako bestelako bear da.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA:</hi> Izango dezu aukera.</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Guk alde ederra badizuegu ortan. Beti jantzi bera. Modako buru austerik ez.</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> Ezta illeak kixkurtu bearrik.</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Burukoa plantxatu bearrak ematen dizkigu lanak. ordea...</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA:</hi> Ez dakit noiz kendu bear dizkizuen egal oiek.</p>
+<p><hi rend='Bold'>XII. AGERRALDIA</hi></p>
+<p>LENGOAK, ETA LUTXI, XATUR ETA FILO</p>
+<p>-f-<hi rend='Bold'>FILO:</hi> (<hi rend='Italic'>Lenengo sarturik</hi>) Erroxali ere emen degu-ta! Madriden ezik badirudi Gallarretann gaudena! Erroxali! (<hi rend='Italic'>elkar besarkaturik</hi>).</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> Zu ari zera neskatxa ederra egiten!</p>
+<p>-f-<hi rend='Bold'>FILO:</hi> (<hi rend='Italic'>Irritsu</hi>) Be&ntilde;ere itsusi izan al naiz bada?...</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA:</hi> Gure errian &laquo;arto bero-usaia&raquo; ze&ntilde;i esaten zaion ba-dakizu.</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> Ama bezela ez ba-zaude ba, kontentu...</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA:</hi> &laquo;Beti kontentu&raquo;.</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Ez dira gazteen buruak arrotu bear...</p>
+<p>-f-<hi rend='Bold'>FILO:</hi> Ea burua txorabiatu zait goi ortan. Tellatutik Madrid erdia ikusi degu. Xatur eta Lutxi ba-datoz. (<hi rend='Italic'>Sartu bitez</hi>).</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Ganbaratik ere zure boza entzuten zan Erroxali.</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Ezta irrintzia balitz ere.</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> Isilik ez nintzan etorriko zuek ikustera. Zer iruditu zaizu Madrid?</p>
+<p>-f-<hi rend='Bold'>FILO:</hi> Or goitik Errege-Jauregia, Telefonica eta Elizkampantorreak besterik ez dira ageri. Lenbaitlen kaleak eta dendak ikusi nai ditut.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA:</hi> Ez zi&ntilde;an jaio etxean geldirik egoteko beintzat.</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Nik lagunduko det. Laister joan bear bai det. Orrela lasago itz-egingo dezute familiko gauzatzaz.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA:</hi> Ez, ez! geldi zaitezte. Orrengatik beinik bein. Etxekotzat zauzkagu guziok... Esan bada esateko guziak.</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> Emen mintza bear duna Lutxi degu.</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Ni? Zer bada? (<hi rend='Italic'>lotsatuaz</hi>).</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> Ez al degu ezer berri?</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> &laquo;Zaarrak berri...&raquo;</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> &laquo;Gazteen errabigarri&raquo;... Ez zazula zure burua ez jakintzat egin...</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> I&ntilde;or ez dago beartua guzien aurrean barnean duana aitortzera. Garaia etortzean bere amari esango dio ta! kito!</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA:</hi> Gurasoak askotan beranduen jakiten ditugu seme-alaben gora-berak.</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Lutxi! ziztada guziak iretzat dirala zirudin... Olakotan oiala zirt-zart ebakitzea obe jostunen moduan.</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Guziok neri begira zaudeten ezkero, lotsaarazteko a&ntilde;a ba-da, ba&ntilde;an esango dizuet Xabierekin adiskidetu naizela...</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Isilik gorde den!</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> Ez al nuen arrazoi Domini? (<hi rend='Italic'>besakarturik</hi>)</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Ez nintzan deia egiten asiko erriko danbor-jotzaillearekin!</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA:</hi> (<hi rend='Italic'>Malkoa dariola</hi>) Etxekoak ordea jakin bear genuke kampokoak ba&ntilde;o lenago.</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Oraingoan Lutxiren alde nago. Gauza oietan zur eta kontuz jokatzea ainbat on!</p>
+<p>-f-<hi rend='Bold'>FILO:</hi> Nik banekin ama!</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA:</hi> Zergatik ez zenidan esan bada?</p>
+<p>-f-<hi rend='Bold'>FILO:</hi> Esan izan banizun ez ginan Madridera etorriko-ta. Ba-nuen Puerta del Sol ikusteko gogoa (<hi rend='Italic'>guziok par egiten dute</hi>).</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA:</hi> Ederra egin didazute bi alaben artean. Alperrik Madridera etorri arazi ainbeste txanpon txautzera..</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> Zertarako dituzu bada! Orrela egurastu zera etxetik kampora egun batzuek igaroaz. Zer ba? beti txokoan sartuta egon bear al dezu. Alargundu zi&ntilde;anetik ez zi&ntilde;an askotan atera izango.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA:</hi> Alaxen da. Ikusgarri da Madrid au...</p>
+<p>-f-<hi rend='Bold'>FILO:</hi> Noski eta ikusi bear dituzu bazter guziak.</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Bi alabak besoz-beso artuta kalez-kale ibilli bearko dezute.</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Gaizkitxe! Alaba ezkondu aurretik.</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Bai ama!</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA:</hi> Etorri geran ezkero ezer ikusi gabe ezin joango gera etxera ba&ntilde;an lenbaitlen itzultzea nai nuke...</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Ez utzi beintzat <foreign>&laquo;Cerro de los Angeles&raquo; </foreign>ikusi gabe</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Eta &laquo;Chamartingo Stadium...</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> eta Eskorrial... San Franzisko aundia...</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA:</hi> Ni naramaten leku guzitara joango natzaizue.</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> &laquo;Erretiro&raquo; ere oso ederra dezu.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA:</hi> &laquo;Erretiro&raquo; onena gure adi&ntilde;ean etxekoa. (<hi rend='Italic'>par dagite</hi>)</p>
+<p>-f-<hi rend='Bold'>XATUR:</hi> Madritarrok ere olako txisteak egiten dituzte. (<hi rend='Italic'>berriz algaraz</hi>)</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Emen isil dagona eta parrik egiten ezduna Lutxi degu. Zuk ere etxera joan naiko dezu alik eta laisterren...</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Bai bada. izeba emen bear nuen guzia ikusi eta ikusi det.</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> Eta an... norbait zai daukagu.</p>
+<p>-f-<hi rend='Bold'>LUTXI:</hi> Egia da.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA:</hi> Emen modista ba&ntilde;o an jostuna obe.</p>
+<p>-f-<hi rend='Bold'>ERROXALI:</hi> &laquo;Madridetik zerura&raquo; da esaera.</p>
+<p>-f-<hi rend='Bold'>DOMINI ANDREA:</hi> Lur ontan zerua jaiotetxean dago, sorterrian, gurasoen itzalean, seme-alaben ondoan. Madrid ona bada, lur ontako paradisua Galarretan daukagu.</p>
+<p>-f-<hi rend='Bold'>SOR PAULE:</hi> Eta gero zeruan gerta gaitezela guziok egun batez.</p>
+<p>AMAIA</p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><mentioned>Iturria: <hi rend='Italic'>Euzko-Gogoa, </hi>1955eko maiatza-abendua (http://www.armiarma.com/andima/eugo/eugo27/eugo2753.htm)</mentioned></p>
+        </body>
+      </text>
+    </group>
+  </text>
+</TEI.2>
+

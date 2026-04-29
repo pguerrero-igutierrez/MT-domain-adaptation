@@ -1,0 +1,1447 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN"
+                       "http://www.tei-c.org/P4X/DTD/tei2.dtd" [
+   <!ENTITY % TEI.prose    'INCLUDE' >
+   <!ENTITY % TEI.linking  'INCLUDE' >
+   <!ENTITY % TEI.analysis 'INCLUDE' >
+   <!ENTITY % TEI.figures  'INCLUDE' >
+   <!ENTITY % TEI.XML      'INCLUDE' >
+   <!ENTITY % TEI.extensions.ent SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.ent' >
+   <!ENTITY % TEI.extensions.dtd SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.dtd' >
+]>
+<TEI.2>
+  <teiHeader>
+  <fileDesc>
+     <titleStmt>
+        <title>Ipui onak</title>
+        <author>Bizenta Mogel</author>
+        <respStmt>Ez dauka</respStmt>
+     </titleStmt>
+     <extent>15.329 hitz, 106.391 karaktere</extent>
+     <publicationStmt>
+        <publisher>Klasikoen Gordailua [http://klasikoak.armiarma.com/]</publisher>
+        <distributor>Estrata Liburuak S.L.</distributor>
+        <address type='email'>klasikoak@armiarma.com</address>
+        <idno type='ota'>MogelBIpuionak</idno>
+        <availability status='free'>Erabilpen librekoa; honoko helbidean topa daiteke (HTML, RTF eta PDF formatuetan): http://klasikoak.armiarma.com/idazlanak/M/MogelBIpuionak.htm</availability>
+        <date>2006</date>
+     </publicationStmt>
+     <sourceDesc>
+        <bibl>Iturria: Ipui onak, Bizenta Antonia Mogel (Maite Iribarren edizioa). Euskal Editoreen Elkartea, 1992</bibl>
+        <notesStmt><note>Iturburuen datazioa: 1804</note></notesStmt>
+     </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+     <projectDesc>Euskal literaturako testu klasikoen bilduma da KLASIKOEN GORDAILUA; testu hau berorren parte da</projectDesc>
+     <refsDecl>
+        <p>MENTIONED etiketa egilearenak ez diren hitzak markatzeko erabili da: hitzaurreak, aipuak, iruzkinak, e.a.</p>
+    </refsDecl>
+     <classDecl>
+        <taxonomy id='generoa'>
+            <category id='G-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='G-ANT'><catDesc>Antzerkia</catDesc></category>
+            <category id='G-BER'><catDesc>Bertsoak</catDesc></category>
+            <category id='G-ERL'><catDesc>Erlijioa</catDesc></category>
+            <category id='G-NAR'><catDesc>Narratiba</catDesc></category>
+            <category id='G-POE'><catDesc>Poesia</catDesc></category>
+            <category id='G-SAI'><catDesc>Saiakera, kronika, artikuluak...</catDesc></category>
+        </taxonomy>
+        <taxonomy id='garaia'>
+            <category id='M-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='M-16'><catDesc>XVI. mendea</catDesc></category>
+            <category id='M-17-1'><catDesc>XVII. mendea - 1. erdia</catDesc></category>
+            <category id='M-17-2'><catDesc>XVII. mendea - 2. erdia</catDesc></category>
+            <category id='M-18-1'><catDesc>XVIII. mendea - 1. erdia</catDesc></category>
+            <category id='M-18-2'><catDesc>XVIII. mendea - 2. erdia</catDesc></category>
+            <category id='M-19-1'><catDesc>XIX. mendea - 1. erdia</catDesc></category>
+            <category id='M-19-2'><catDesc>XIX. mendea - 2. erdia</catDesc></category>
+            <category id='M-20-1'><catDesc>XX. mendea - 1. erdia</catDesc></category>
+            <category id='M-20-2'><catDesc>XX. mendea - 2. erdia</catDesc></category>
+        </taxonomy>
+        <taxonomy id='euskalkia'>
+            <category id='E-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='E-BAT'><catDesc>batua</catDesc></category>
+            <category id='E-BIZ'><catDesc>bizkaiera</catDesc></category>
+            <category id='E-BNA'><catDesc>behenafarrera</catDesc></category>
+            <category id='E-ERR'><catDesc>erronkariera</catDesc></category>
+            <category id='E-GIP'><catDesc>gipuzkera</catDesc></category>
+            <category id='E-GNA'><catDesc>goi nafarrera</catDesc></category>
+            <category id='E-LAP'><catDesc>lapurtera</catDesc></category>
+            <category id='E-NAF'><catDesc>nafarrera</catDesc></category>
+            <category id='E-ZAR'><catDesc>zaraitzuera</catDesc></category>
+            <category id='E-ZUB'><catDesc>zuberera</catDesc></category>
+        </taxonomy>
+    </classDecl>
+  </encodingDesc>
+  <profileDesc>
+     <textClass>
+       <keywords scheme='generoa'>
+         <list><item>G-NAR</item></list>
+       </keywords>
+       <keywords scheme='garaia'>
+         <list><item>M-19-1</item></list>
+       </keywords>
+       <keywords scheme='euskalkia'>
+         <list><item>E-GIP</item></list>
+       </keywords>
+     </textClass>
+  </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>Ipui onak -- Bizenta Mogel</docTitle>
+    </front>
+    <group>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Don Viktor Munibe ta Arangurengori</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Italic'>Osasuna, pakea, ta urte luzeak</hi></p>
+<p>Nere zalduntxoa: Artu ditudan ezkero gogoak argitara emateko <hi rend='Italic'>Ipui onen </hi>liburutxo bat, erabaki bear nuan nori bere eskintza egin. Buruari neke gogor ta gogaitkarririk eman gabe, nori asmatzen, zu izan bear zi&ntilde;an, nik artu bear nuena. Ipuiok atera nai ditut gaztetxo, ta nekazarientzat, edo Bizkaian esan oi dan bezela, nekezaleentzat. Zure urte laburrak gaztetxoen artean ipintzen zaituzte. Nai banu agertu zure andikitasuna jatorriz, ta zure Asaba jaunen argitasuna goi goi ipi&ntilde;i, erraz izango nuke aitatzeaz bakarrik Munibeak, Idiakezak, Ugarteak, Aranzibiak, Sasiolak, Arizagak, Arangurenak, Alabak, ta onelako beste izen eder ezagutuak non nai. Zure Asaben artean arkituko nituke, Loiolakoak ere, ta alkartzen, ta odoltzen zerala lurreko lau alde, ta zeruan ere ezagutua dan San Ignaziorekin. Au ala da; ba&ntilde;a itz alperrak dira onelakoak zuretzat. Nekazari baten semetxo bati egingo diozu zuk agur ain gozoa, nola Errege batenari, ta orobat da zuretzat abarkadun mutiltxoa nola, zapata bitxituz estalia.</p>
+<p>Badakit jatorriz bezela dakartzula nekazariei asko nai izatea, ta arpegi gozatsua erakustea. Ezagutu zutenak izen oneko zure Aita-Aita Jaun D. Xabier Maria Munibe ta Idiakezko, ez daukate azturik bere lautasuna nekazari guzientzat; nola ematen zioen eskua estu estu, ta laztantasunez baserritarrai. Zenbat bere errenterok esan oi zuten: &laquo;Ez degu i&ntilde;or, gure nagusiak ba&ntilde;o agur gozoagorik egiten digunik!&raquo;. Bere atsegin guzia zan jakitea ondo bizi zirala bere errenteroak, ta gogoan zerabillen, oen izerdiak diru guzieak ba&ntilde;o geiagora igoten zuela. Onegatik zuten ain maite, ta ez zuen gutxiago irabazi alde onetatik bere izen ona zabaltzeko, bere jakituria ta beste doai andietatik ba&ntilde;o.</p>
+<p>Berriz zure Aita jaun, ta nere ongille D. Antonio Maria Munibekoak bularretik bezela dakar nekazarien maitetasuna. Zein sarri enzun oi dan Markinan, ta bere inguruetan, Konde Pe&ntilde;afloridakoak baserritarrai egiten dioen, agur ederra! Bestetik? ez da bizi bere borondatez, ta aukera osoz baserritar eginda bezela? Bai: Erri andietako ospe, iskanbilla, ta kateatasunak ba&ntilde;o naiago du Munibeko Jauregi baserrituan lauki egunak igarotzea, andi-usaiak alde batera largarik, o nere zalduntxoa! jostatzen da zurekin, ta zure arreba, ta bere alaba biekin; jolasez bezela, agiraka, mukertasun, ta zigor gabe erakasten dizutela irakurten, ta izkribitzen. Zein ikusteko ederra azitegi, ta ikasleku eginda Munibeko Etxea., ta zure arrebatxo Maria Pilar, ta Maria Karmengo Amandrearen aldamenean berai ditzaizken esku-bearretan.</p>
+<p>Berriz, nolakoa zure poza ekustean txaltxoak jostatzen zelaian, izutu ta gogaitik egin gabe enzuten dituzunean idi, ta beien orroak? Bildotsak dabiltzanean parlanzuan, nolako farra gozoak? Zoazenean gazta&ntilde;adietara, ta arkitzean perretxikuak, nolako pozarekin ez zoaz Aita jaunari esatera, topatu ditut <hi rend='Italic'>urdin </hi>eder bat, ta <hi rend='Italic'>urritx </hi>bi bareak jan gabeak? Au bai dala bizitza kategabe, ta erri andietako lotutasun, edo laba&ntilde;keriarik ez duena!</p>
+<p>Orain bada, zu zera guziz Ipui-zalea. Aua zabalik enzuten egoten zera aspertu gabe Aita jaunak kontatzen dizkitzunean. Leiatzen zera zeu ere buruz ikasten, ta besteai gero kontatzen. Berriz euskera egiten dezu, dala Giputzen, dala Bizkaitarren gisan. Guzira zaude egi&ntilde;a. Beraz alde guzietatik zor nizun zuri liburu onen eskintza, edo presente labur au. Arkituko dezu kanta gaitzat katu eizariaren Ipui zortzikoan berariz ipi&ntilde;ia. Badezu nork zortziko berri bat so&ntilde;uan atera, ta irutzen bazera zere arreba gaztetxo aitatu ditudanekin, zein ederki irtengo duen katuaren zortzikoak. Aita jaunak biolinarekin laguntzen dizutela. Arzazu bada nere borondate onaren agermena, ta gelditzen da zure agindura, zure eskutxoai mu&ntilde; egin naiz.</p>
+<p><hi rend='Bold'>Bizenta Antonia Mogel ta Elgezabal</hi></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>IRAKURLE EUSKALDUNARI</p><--</head>
+        </front>
+        <body>
+<p>Badakit, enzunaz beste gabe, neskatx gazte baten izena dagoala itxatsirik liburutxo onen aurkean, jardungo dutela si&ntilde;uka ez gutxik, diotela beren artean, i&ntilde;oren lumaz janzi nai duela bela-txikiak; au da, besten bearrak artu nai ditudala neretzat: ez dagokiola neskatxa bati bururik ausitzea liburugi&ntilde;en: asko duela gorua, naiz jostorratza zuzen erabiltzea. Nola nik siniserazoko diet askori, euskeratu ditudala erdaldun jakitunak argiratu dituzten Ipuiak? Nolako arrotasuna berriz lati&ntilde;ezko itzkuntzarekin liburu onen asmoa agertzea? Orretarako bear litzake jakitea Euskera, Gaztelania, eta Latinezko iru izkuntzak. Zein gauza sinisgaitza neskatxa bategan!</p>
+<p>Naiz sinistu, naiz ez, esan bear det, gaztetxoa nintzala irakurri ta azaldu oi nituela Fedroren lati&ntilde;ezko ipuiak; artu oi nuela atsegin guziz andia enzunaz Txakur, Otso, Aizeri, Ollar..., Abere, Lauo&ntilde;eko, ta Egaztien itzketa alkarren artekoak. Zortzi urte nituenean ekusirik nere neba, edo anaia ikasten asi zala gure Osabarekin Lati&ntilde;ezko izkerea, jarri zitzatan buruan ikasi bear nuela nik ere. Ala, buruari neke gogorrik eman gabe, loari bere orduak emanda, ta zigor zaurigarriaren beldurrik ez nuela, jolasez bezela, irten nuen nere asmoarekin, Virgilioren itzneurtu, ta apainduetan gozatzen nintzala. Edoze&ntilde;ek daki Esoporen Ipui lati&ntilde;ez, ta itz lotu gabeetan daudenak, errazagoak dirala aditzen, Fedro, ta Virgilioren itz lotuak ba&ntilde;o.</p>
+<p>Umeago nintzanean berriz enzun oi nituen, zoro zororik, ta pozez erotuta, atso ipuiak. Sinisten nituen egia andi batzuek bezela, Peru, ta Mariaren ipui farragarri, ta sustrai gabeak: enzunak enzunda ere, aspertu ezin nintzan; ta, pakerik ematen ez nien atso gaixoai berriz eta berriz esateko alako ipuiak. Au da aur guzien gaitza, edo zorasuna. Orain bada, ondorik, ta ondorengo onik ez zekarten ipui eroak anbat atsegin ematen bazidaten, nere adinaren argiabarretan sartu ba&ntilde;o leenago, zenbat eztituko ez zan nere biotza irakurri nituenean gerora ipui onak? Lenengoan enzuten nituen algaraz, ta pozez Aizeriaren asmo, gaiztakeria, ta askojaki&ntilde;ak; bere berriketa, ta jardunak. Ba&ntilde;a azkenean irakurririk ipuiaren aterakizun, ta ondoren ederra, ta nekusanean, oskol, edo azal zatarra ausirik, barruan zegoan mami gozoa, oroitzen ninzan erle dontsuaz; ze&ntilde;ek lora, eder ez diradenetatik ere, atera oi duen eztia, ta egin gero erlaunzean abaraska, edo abao aurtxoen ezpa&ntilde;ak gozatzen dituztenak.</p>
+<p>Deritzat enzuten nagoala mutiltxo, neskatxatxo, ta nekazari askoren farra, ta algara gozoak irakurri, edo aituaz Ipoui oek; ta nola geroenean ixildu ta arrituta bezela geldituko diran Ipuiaren ondoren adigarriak ekusirik. Nork esan zezakean &mdash;esango dute&mdash; zertara jo bear zuten Ipui farra eragitekoak? Zein ederki adierazoten duten estalki ederren azpian, andikiak, txikikiak, ta jakintsuak berak ikasi bear dituzten, onak izateko, bideak!</p>
+<p>Esan oi dute erorik nekazari batzuek, anzi&ntilde;ako egunetan itzketan zekitela txakur, katu, aizeri, otso, ardi, ta ipuietan ateratzen diran abere, naiz egaztiak. Ba&ntilde;a gutxi dira ain eroak. Laster igarriko dioe adartxoetan dagoala fruta; ta oni oratu bear zaiola, adartxoa baztertuta. Azkeneronz dauden Ipui itzneurtuko, edo bersodunak, ez dira nereak, ta bai nere Osaba zerbait ezagunari artubak:</p>
+<p>Aitu diot ondo dakian bati, Ipui oek izango dirala guziz onak aztuerazotzeko Nekazarien etxeetatik Ipui oker, ta zatarrak, nola sagar ederrak, ta diru berdi&ntilde;ean saltzen daudenean, baztertu ta saldu ezinda gelditzen diran sagar mi&ntilde; ta motelak. Nork txori gerezi txatarrai begiratzen dioe dauzkanean eskubatera gerezi anpollak?</p>
+<p>Deritzat ez dala aztutzeko kontua Euskararen edertasuna, abere, ganadu, ta egaztien izenetan. Ez dira naski izen uts nola naiko, ta naiaz beste gabe asmatuak Erdaldunik geienen gisakoak.</p>
+<p>Goazen ekustera zer esan nai duen izen bakoitzak, ixildu ditezen Euskarari gaizki begiratzen dioenak, ta erderatuko ditut.</p>
+<p><hi rend='Italic'>Aizeria. </hi><foreign>Raposo. Aire pest&iacute;fero &oacute; maligno.</foreign></p>
+<p><hi rend='Italic'>Su-gea. </hi><foreign>Culebra. Sin fuego, &oacute; el fr&iacute;o.</foreign></p>
+<p>Zein ederki esan zan: <hi rend='Italic'><foreign>Frigidus... latet anguis in herba.</foreign></hi></p>
+<p><hi rend='Italic'>Muskerra. </hi><foreign>Lagarto. El esquivo de </foreign><hi rend='Italic'>musu okerra.</hi></p>
+<p><hi rend='Italic'>Otsoa, Oitsoa. </hi><foreign>Lobo. El de los altos, &oacute; monta&ntilde;&eacute;s.</foreign></p>
+<p><hi rend='Italic'>Artza. </hi><foreign>Oso. El de mucha &oacute; gran garra.</foreign></p>
+<p><hi rend='Italic'>Kata-motza. </hi><foreign>Tigre basto. Gato serio &oacute; respetable.</foreign></p>
+<p><hi rend='Italic'>Zakurra. </hi><foreign>Perro grande. De fuerte ladrido.</foreign></p>
+<p><hi rend='Italic'>Txakurra. </hi><foreign>Perro menor. Ladradorcillo.</foreign></p>
+<p>Ez da orobat <hi rend='Italic'>zauka, </hi>nola <hi rend='Italic'>txauka </hi>egitea: lenengoa da andiena, bigarrena txikiena. Zakurrak esan nai du <hi rend='Italic'>zaukorra, </hi><foreign>ladrador, &oacute; </foreign><hi rend='Italic'>zauka urrean </hi>duena.</p>
+<p><hi rend='Italic'>Basaurdea. </hi><foreign>Jabal&iacute;. Puerco mont&eacute;s.</foreign></p>
+<p><hi rend='Italic'>O&#161;-loa. </hi><foreign>Gallina. Sue&ntilde;o en alto.</foreign></p>
+<p><hi rend='Italic'>Oillarra. </hi><foreign>Gallo. El macho de las gallinas.</foreign></p>
+<p><hi rend='Italic'>Katua. </hi><foreign>Gato. El de las cadenas, &oacute; humeado.</foreign></p>
+<p><hi rend='Italic'>Ardia. </hi><foreign>Oveja. Pastador de hierba.</foreign></p>
+<p><hi rend='Italic'>Auntza. </hi><foreign>Cabra. Boca f&eacute;tida, &oacute; malhechora.</foreign></p>
+<p><hi rend='Italic'>Akerra. </hi><foreign>Cabr&oacute;n. Boca torcida, &oacute; mala.</foreign></p>
+<p><hi rend='Italic'>Erlea. </hi><foreign>Abeja. Poblador, &oacute; hacedor de pueblo, de </foreign><hi rend='Italic'>Erri-egillea</hi>.</p>
+<p><hi rend='Italic'>Erbia. </hi><foreign>Liebre. Doble cojera, de </foreign><hi rend='Italic'>erren-bi</hi>.</p>
+<p><hi rend='Italic'>Lukia</hi>. <foreign>Raposo. El encavernado, &oacute; enterrado en cueva.</foreign></p>
+<p><hi rend='Italic'>Mozoilloa. </hi><foreign>Mochuelo. Gallina seria &oacute; mocha. La voz </foreign><hi rend='Italic'>motza </hi><foreign>es equ&iacute;voca.</foreign></p>
+<p><hi rend='Italic'>Ontza. </hi><foreign>Buho. Todo bueno, &oacute; que no da&ntilde;a.</foreign></p>
+<p><hi rend='Italic'>Ep-erra. </hi><foreign>Perdiz. De hermoso corte, &oacute; tal vez zarpa hermosa, de </foreign><hi rend='Italic'>erpe-ederra.</hi></p>
+<p><hi rend='Italic'>Galeperra. </hi><foreign>Codorniz. Perdiz de los trigales.</foreign></p>
+<p><hi rend='Italic'>Ollagorra. </hi><foreign>Becada. Gallina sorda.</foreign></p>
+<p><hi rend='Italic'>Mingorra. </hi><foreign>Becac&iacute;n. De lengua muda.</foreign></p>
+<p><hi rend='Italic'>Mirua. </hi><foreign>Milano. Hila delgado... astuto.</foreign></p>
+<p><hi rend='Italic'>Gabilaia. </hi><foreign>Gavil&aacute;n. Vuela buscando, de </foreign>ega-billa.</p>
+<p><hi rend='Italic'>Astoa. </hi><foreign>Asno. De paso lento, de </foreign><hi rend='Italic'>asti doa.</hi></p>
+<p><hi rend='Italic'>Zaldia. </hi><foreign>Caballo. El aficionado al grano, &oacute; el fuerte.</foreign></p>
+<p><hi rend='Italic'>Zamaria. </hi><foreign>Cabalgadura. Cargador.</foreign></p>
+<p><hi rend='Italic'>Zezena. </hi><foreign>Toro. El erguido.</foreign></p>
+<p><hi rend='Italic'>Beeia. </hi><foreign>Vaca. Cabizbajo, &oacute; la abajada.</foreign></p>
+<p><hi rend='Italic'>Igela. </hi><foreign>Rana. Nadador.</foreign></p>
+<p><hi rend='Italic'>Ugarasiua. </hi><foreign>Rana. Nadador vocinglero.</foreign></p>
+<p><hi rend='Italic'>Erroia, Belia. </hi><foreign>Cuervos. De lo alto y bajo.</foreign></p>
+<p>Bela mota bi dira, bata beti goietan dabillena, inoiz sorobeetara jetsi gabe, ta bestea jetsi oi dana. Lenbizikoai deitzen zaizte <hi rend='Italic'>Erroiak, </hi>bigarrenai <hi rend='Italic'>Beleak. </hi>Ala dira ezagunak izenekin Bizkaian.</p>
+<p><hi rend='Italic'>Zapoa. </hi><foreign>Sapo. El zambo, ancho, &oacute; aplastado. De aqu&iacute; </foreign><hi rend='Italic'>zapaldu</hi>.</p>
+<p>Zer geiago esan diteke, zorri, arkakusu, ta tximitxa zitalal ere badituzte izen azaldariak.</p>
+<p><hi rend='Italic'>Zorria. </hi><foreign>Piojo. Deuda, &oacute; tributo. Lo es de nuestra miserable naturaleza.</foreign></p>
+<p><hi rend='Italic'>Arkakutsua. </hi><foreign>Pulga. Insecto ensuciador.</foreign></p>
+<p><hi rend='Italic'>Tximitxa. </hi><foreign>Pellizcador.</foreign></p>
+<p>Ez ziran oek igarotzekoak ipuien liburuan.</p>
+<p>Largatzen ditut azaldatu gabe beste izen asko. Au berau gertatzen da belarretan. Nere Osaba jauna, ta besteekin ere leiatu, edo dentatu naiz onelako izenazaldatze, edo erdera usaian, ethimologietan. Obe ez ote da, emakumea banaiz ere, igarotzea orduak onetan zer <hi rend='Italic'>janzi-berri </hi>dan gora ta beera aitatzen ba&ntilde;o? Jakiteak ez du eragozten birtute andi batera igotzeko. Santa Florentina, Santa Paula, Santa Brigida, ta beste Santa batzuek, emanak ziran liburuetara. Baziakien latin ez eze, geiago ere; ez, egiaz, egaatzeko arrotasunez, ta jakin nai utsez, ta bai bideak artzeko Jaungoikoagana. Arbezate bada Euskaldunak, neskatxa gazte baten emaitza, edo presente au. Gauza onik badago, esan dezatela i&ntilde;orena dala, ez nerea; okerrik badakuste egotzi nere ga&ntilde;era; berdin arteak ez du emango sagarrik. Agur onenbesterekin.</p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>IPUI 1</hi></p>
+<p><hi rend='Bold'>Otsoa ta Bildotsa</hi></p>
+<p>Otsoa ta Bildotsa eldu ziran bakoitza bere aldetik ibai batera ura edateko asmoz. Otsoa asi zan edaten goiko aldetik, ta bildotsa uraz beetik...</p>
+<p>Otsoak ekusirik asi zala ura edaten, diotsa:</p>
+<p>&mdash;Zergatik loitu didazu ura ni edaten nengoan artean?</p>
+<p>Bildotsak eranzun zion pakez:</p>
+<p>&mdash;Nola diozu or, zure aldetik badator Ibaiko ura ni nagoan beeko aldera?</p>
+<p>Otso gaiztoak ez en zuna eginik Bildotsaren arrazoi eder, ixilgarriari, esaten dio:</p>
+<p>&mdash;Zergatik lotsa galtzen didazu? Zergatik niri gaizki esan? Ori da Nagusiago bati bidegabe andia egitea.</p>
+<p>Bildotsak diotsa:</p>
+<p>&mdash;Ez dizut nik lotsarik galdu, ez gaizkirik esan.</p>
+<p>Orduan bekoki tximurtu, ta begirada aserratu batekin esaten dio Otsoak:</p>
+<p>&mdash;Sei illa bete dira zure Gurasoak egin zidala beste onenbeste.</p>
+<p>&mdash;Nola izan diteke ori &mdash;diotsa Bildotsak&mdash; geroago jaioa banaiz? Zeri ta zertara dator ori asmatzea?</p>
+<p>&mdash;Dan bezela dala, zuk galdu didazu nere lartegia belarra janaz &mdash;esaten dio Otsoak.</p>
+<p>Bildotsak berriz:</p>
+<p>&mdash;Nola ori ere, ortzak irten ez badidate? Nola jan belarra oi uts ta samurrekin?</p>
+<p>Ez zedukanean Otsoak zer eranzun arrazoi ain argiei, estalkiak kendurik, diotsa:</p>
+<p>&mdash;Berritxu zitala, ez dakit zer esan; bai ordea aragi zalea naizala, zure aragia bigun ta samurra dala, ta zurearekin apaldu bear dedala.</p>
+<p>Au esanda, arrapatu, ta sabeleratu zuen.</p>
+<p>Ipui onek esan nai du gaizto asmatzallen artean egiak ez duela lekurik; indarrak bakarrik agintzen duela. Zenbat onelako Otso? Asko dira biotz gogorrekoak; diru goseak darabiltza aitzakia, ta esesio billa, edateko Nekazari argalaren odol, edo bearra. Onegatik:</p>
+<p><hi rend='Italic'>Egia idukizazu gauza alpertzat</hi></p>
+<p><hi rend='Italic'>Gaisto asmodun, ta asto jaki&ntilde;entzat.</hi></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>IPUI 2</hi></p>
+<p><hi rend='Bold'>Zakurra ta Ardia</hi></p>
+<p>Zakur batek eskatu zion asmo gaiztoz ta gezurrez Ardi gaixo bati ogi zati bat, esanaz, berak lenago prestatu ziola. Ukatzen zion egiaz Ardi indar gabeak, esaten ziola:</p>
+<p>&mdash;Noiz ta non eman zinidan niri zuk ogi gauzarik?</p>
+<p>Jaiki zan auzi gogor bat. Agertu ziran bata ta bestea Agintari baten aurrera. Zakurrak esaten du:</p>
+<p>&mdash;Nik on egingo det nere esana siniste osoa eman bear zaien jende prestu, ta dakienekin igaro zana.</p>
+<p>Agintariak dio:</p>
+<p>&mdash;Ondo itzegin dezu, Zakur erritarra.</p>
+<p>Zuzendu zan au ixiltxorik billatzera Testigu, edo Agiritzalletzat Otsoa, Arranoa ta Mirua. Oekin, alkar aiturik, joan zan Agintariaren aurrera, ta diotsa Zakurrak:</p>
+<p>Ona emen aitzakia gabeko, ta lotsa andiko Testiguak; oek dakite zer igaro dan. Esan dezatela.</p>
+<p>Galdetu zion lenen Otsoari, egia zan edo ez, Zakurrak eman ziola ogia Ardiari.</p>
+<p>&mdash;Bai &mdash;eranzun zuen Otsoak&mdash; neuk dakit eman ziola aurrez, ta prestatzez, gero beste anbeste biurtzeko zorrez.</p>
+<p>Arranoak esan zuen:</p>
+<p>&mdash;Ala da; eta, nola uka lezake Ardi gezurtiak? Milla birao egingo ditut bear bada. Irentsi nazatela Katamotzak, ala ez bada.</p>
+<p>Miruak irten zuen esanaz, Otsoak, eta Arranoak egia ziotela; ta berak zekusala, bere begi argien aurrean prestatu ziola Zakur prestuak ogia Ardi zital ukatzen zuenari.</p>
+<p>Ardi gaixoak zer egin? Nola arpegia agertu etsai bere aragi zaleen esanak gezurtatzeko? Txist bat egitera aizartu ez zan. Orduan Agintariak eman zuen Autu au:</p>
+<p>&laquo;Zakurrak on egin duelako bere esana Agertzalle, edo testigu zuzen, ta lotsa andikoekin, ta Ardiak ezin duelako, gezurra diotela agertu, nola ixil egotea dan bestetik aitortzea, agintzen da biurtu degiola Ardiak Zakurrari prestatu zion ogia; ezagutua izan didilla Zakurra egia zaletzat, ta Ardiak paga ditzala egin diran kostu guziak&raquo;.</p>
+<p>Ez zedukan Ardi gaixoak zuriko erre bat ere. Beldurrez ebaki erazo zuen bere illea neguaren erraia bazan ere; partidu zan Artillea Agintari, Zakur, Otso, Arrano, ta Miruaren artean negu gogor bat otzez igaro bear zuela Ardiak.</p>
+<p>Ipui onek esan nai du, gizon gaizto, askotako, ta indartsuak billatzen dituztela beren gisako lagunak, ta egin kalte asko argal, oben ganeko, ta itz egi&ntilde;az gaizkiago irtengo duteenetan; larga oi dituztela larru utsean, ta gorrian berak ederki janzitzeko. Obe dala auzirik artu gabe lenengotik eskatzen diotena ematea, geroenean kostu guziekin ematea ba&ntilde;o. Ardiak eraman balu aurrera auzia beste Agintari Nagusiago batengana, ez ziran bere ille guziekin paketuko bere etsaiak. Aragi zaleak izanik, eramango zuten mamia bera, ille ta guzi. Ikasi bear da Ipui onekin ebakitzen auziak mugonez, beranduagora larga gabe. Obe da bear orduan esku atz bat ebaki, gero eskutur guzia ba&ntilde;o.</p>
+<p><hi rend='Italic'>Auzi zalea, etxe ondatzallea.</hi></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>IPUI 3</hi></p>
+<p><hi rend='Bold'>Txakurra ta aragi zatia</hi></p>
+<p>Txakur batek bere aoan aragi zati bat zedukala, igaro nai izan zuen Ibaia batetik bestera. Igerian zijoala, ekusi zuen uretan aoan zeraman okela zatiaren keriza, ta begitandu zitzaion zala benetako aragia. Damu ematen zion ez arrapatzea; ta azturik aoan zeramanaz, murgildu edo mus eginik uretan, dendatu zan arrapatzera. Idiki zuen orretarako aoa; erori zitzaion aoan zedukan aragia; keriz utsari kolpe egin da, ez zuen ezer atera, ta galdu zuen berea. Abiatu zan amorruz esaten, zerk erabilli nau geiagoren billa? Zori gaiztoan galdu det nerea.</p>
+<p>Ipui onek esan nai du pakean gorde bear degula garbiro deguna. Galdu oi dala bide onez dagoana, geiegi iduki naiz. Obe dala, esan oi dan bezela, etxatxori, edo kurroe bat eskuan, Arrano egatua ba&ntilde;o; Guzia billatzea dala guzia galtzea; bakoitzak eutsi bear diola bereari, ta larga i&ntilde;orenari.</p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>IPUI 4</hi></p>
+<p><hi rend='Bold'>Leoia, Beia, Auntza ta Ardia</hi></p>
+<p>Esop. Fab. IV.</p>
+<p>Andi ta txikien arteko partilla, ez da inoiz berdi&ntilde;a. Ala da esana, ta ala izana, erakasten digun bezela Ipui eder onek.</p>
+<p>Beia, Auntza, ta Ardia alkartu ta lagundu ziran bein Leoi batekin eizan arrapatzen zana alkarren artean partiltzeko. Basoan zebiltzala, arrapatu zuten Basauntz bat.</p>
+<p>&mdash;Lau gera &mdash;esan zuten Leoiez beste irurak&mdash; ta laurdendu bear degu Basauntzau.</p>
+<p>Geldi, geldi, dio Leoiak:</p>
+<p>&mdash;Naiz ni Abere guzien Buru, ta Nagusia; lauren bat zor zait alde onetatik; bigarren laurena ere neuri dagokit, naizalako sendoena; irugarrena ezin i&ntilde;ork kenduko dit zuek ba&ntilde;o ari&ntilde;ago ebilli naizalako, ta ni gatik izan ez balitza, iges egingo zizuten Basauntz onek; laugarrenari ikutzen dionak, jakin bearko du, izango nauela ni bere etsaia.</p>
+<p>Beldurrak ixildu zituen beste irurak, ta ikasi zuten urrengorako ez laguntzea, ez burua bat egitea Leoi sendo ta arroarekin.</p>
+<p>Ipui onek erakasten dioe gizon argal, me, ta nekazariei, ez burua bat egitea beren artu emanetan berak ba&ntilde;o andiagoekin, oek badira arroak, eskojakin, ta okerrak. Nekea izango da argalentzat; irabazia sendo dirudunentzat. Oek gizenduko dira, nekazaria argaltzen dan denporan.</p>
+<p><hi rend='Italic'>Laguntzat arzazu bardi&ntilde;a;</hi></p>
+<p><hi rend='Italic'>Andiagoa izango da kaltegi&ntilde;a.</hi></p>
+<p><hi rend='Italic'>Naibadezu igo goregi,</hi></p>
+<p><hi rend='Italic'>Jetsi bearko dezu beregi.</hi></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>IPUI 5</hi></p>
+<p><hi rend='Bold'>Otsoa ta Kurulloa</hi></p>
+<p>Zegoan bein, sarri bezela, Otsoa aragia jaten, ta katigatu zitzaion ezurra eztaarrian. Ito ezinik zegoala ikusi zuen zorionez Kurulloa.</p>
+<p>&mdash;Atoz ona &mdash;diotsa Otsoak&mdash; lagun zakizkit arren. Zuk dezu lepo luzea igaroko dezu mokoa nere eztarrira&ntilde;o; ta ala aterako didazu gatigatu zatan ezurra. Ori egiten badidazu, ez naiz inoiz aztuko; izango naitzatzu eskertsu ta ongi&ntilde;a; ezagutuko det zuri zorko dizudala nere bizitza; izango gera adiskide biok, ta nere bearrean jartzen bazera, lagunduko dizut beti, baita eman ere bearsari, edo aloger ona.</p>
+<p>Sinistu zituen Kurulloak Otsoaren eskintza, nora ezean, edo ezin bestez egin ziozkanak. Zabaldu zuan Otsoak aoa; sartu zion Kurulloak bere mokoa eztarrira&ntilde;o, ta atera zion ezurra. Onenbesterekin gelditu zan Otsoa gaitz gabe, ta osasun onean. Kurulloak esaten dio:</p>
+<p>&mdash;Eman egidazu nere bearsari, edo agindu didazun alogera.</p>
+<p>Otsoak ekusi zuenean burua sendaturik, ta irriskutik irtenda, eranzuten dio:</p>
+<p>&mdash;Ez zera lotsa niri alogera eskatzeaz? Zure bizitza egon da nere ortzetan; oek estutu banitu nik, zure lepo luzea nere aoan zegoanean, zer izango zan zuzaz? Eskerrak eman zaizkidatzu nere on egi&ntilde;a gatik. Nai izan banu, nere sabelean egongo zi&ntilde;an orain, ta zaude bizirik nere onegitasunez, ta urrengoan gorde ezazu burua onelako irriskutik.</p>
+<p>Onenbesterekin ixildu zuen Kurulloa Otso eskergabeak. Au da eman zion bearsaria.</p>
+<p><hi rend='Italic'>Gaiztoak ez dakite egiten onik,</hi></p>
+<p><hi rend='Italic'>Ematen ere ez i&ntilde;ori eskerrik.</hi></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>IPUI 6</hi></p>
+<p><hi rend='Bold'>Gizona ta Sugea</hi></p>
+<p>Neguaren erraian otz gogorren artean, izozturik zeudela bazterrak, Gizon errukior ta biotz bigu&ntilde;eko batek artu zuen etxean Sugea; palagatzen zuen alegi&ntilde;ez; ematen zion eznea, ta sukaldeko zokondoa berotu zidin. Eldu zan Udaberria, ta nola ondo biziaz gizendu zan Sugea, azi zitzaion mistoa, edo benenoa, ta jaikizan usikitzeko Gizon bere ongilleari. Aserratu zitzaion oni; artu zuen makilla bat, ta diotsa:</p>
+<p>&mdash;Ortikan emendik; zoaz nere etxetik urruti, esker gaiztoko ori. Zer? Nik errukirik andienarekin eman, negua ondo igarotzeko, toki ezin obea; jangarritzat eznea, berotegitzat sukalde bazterra, ta gizen gizen eginda, premia igarota, gaitz egin niri? Illko zaitut bertan bereala irteten ez badezu nere etxetik.</p>
+<p>Bai berriz. Ixiltxorik irten bearrean gaizki egin naiaz damutu ta, jasotzen du burua, ateratzen du eztena, ta sartu nai zion bere ongilleari.</p>
+<p><hi rend='Italic'>Gaiztoari egiten zaion mesedea,</hi></p>
+<p><hi rend='Italic'>Egillearentzat da kaltea.</hi></p>
+<p>Ez du onek esan nai Kristauak gaizki egingo duela on egi&ntilde;az bere etsai lurrekoari. Jesu-Kristok agintzen digu eranzuteko guk on egi&ntilde;ekin, gaizki nai, edo egin digutenai; eskatzeko Aita Zerukoari berak gatik; maite izateko biotzez, izan gaitezen bere umeak, ekusirik nola erorten diran euri lurraren ongarriak, gaiztoen ta onen soroetara. Anzi&ntilde;ako esana da, &laquo;egin ondo edoze&ntilde;i, begiratu gabe nori&raquo;. Ipuiak bakarrik esan nai du, nolakoak diran gaizto asko; zein esker galdukoak; nola ezagutzarik ez duten egiten zaizten mesedeak gatik.</p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>IPUI 7</hi></p>
+<p><hi rend='Bold'>Etxeko, eta Kanpoko Saguak</hi></p>
+<p>Erri-etxe eder baten bizi zan Saguak irten zuen bein kanpora, jakin nairik zer igarotzen zan zelai ta basoetan. Aurkitu zuen beste Sagu bat inoiz Errian sartu gabea, ta basoan beti azia. Ondo egonak alkarri emanik, diotsa kanpokoak:</p>
+<p>&mdash;Nere lagun berria, atoz nerekin nere etxe, edo bizi lekura.</p>
+<p>Eskerrak emanik Erri Saguak, jarraitu zion Basotarrari. Ipi&ntilde;i zion onek bazkari baso gisakoa. Agertu ziran maira aritz aleak, intxaurrak, uurrak, mispillak, txermenak, aranak, sagarrak, ta zer ez?</p>
+<p>&mdash;Adiskidea &mdash;esaten dio Erriko Saguak&mdash; janaria ugari dezu, ba&ntilde;a guzia otza, ta sabela indartzen ez duena. Atoz orain nerekin Erri barruko Etxe aberats, edo Jauregi eder batera, non bizi naizan nere era guzietara, ta emango dizkitzut janari gozatsuagoak, koipe ta eztia, urdai ta gaztaia, lukaika, zezina, gozoak... ta zer ez? Andiki bat naiz zure aldean.</p>
+<p>Berriketai sinistea eman da, joan zan Baso Sagua Errikoarekin. Sartu ziran Etxe andi baten. Etxekoak darama dispensa edo jantokira, ta erakusten diozka an agindu ziozkanak. Bizarrak koipoetu, ta musuak eztiturik zebiltzala jaaten, orra non onik onenean sartzen zaien Katu lodi ta arre bat. Etxeko Saguak artu zuen igesa, gorde zuen burua zulo ezagutuetan. Basotarra ikaraturik zegoan, zer egin ez zekiala; artzen du iges bidea, jarraitzen dio Katuak, ikutzen dio zerbait atzaparrakin, ba&ntilde;a zorionez ez zuen arrapatu. Irten zuenean Katuak, biurtu zan Etxekoa Basokoaren billa, ta arkitu zuen odola zeriola lepotik, ta beldurrez erdi illik. Esaten dio Etxekoak:</p>
+<p>&mdash;Nola nik bezela iges egin ez dezu Katuaren keriza ekusi orduko? Kontu bada urrengorako.</p>
+<p>Abiatzen dira berriz jaaten; ta onik onenean enzuten da ate giltzen otsa; iges egin zuen laster Etxekoak; Basokoak zegoan eltze, edo lapiko koipea zeukan baten. Aizartu ezinik irtetzen, egon zan an bazterturik. Giltzera Neskatxa ebilli zan batetik ta bestera gauzeen billa, ta zorionez ez zan eldu Basokoa zegoan onzira, ta irten zuen. Biurtu zan Etxekoa jantokira, ta esaten dio Basotarrari:</p>
+<p>&mdash;Ez nizun nik esan irtetzeko, ta iges egiteko bereala? Ni naiz Soldau zar urteak igaro ditudana onelako irriskuetan.</p>
+<p>&mdash;Adiskidea &mdash;diotsa Basotarrak&mdash;, zuretzat janari gozoak, aberats, ta andi etxekoak. Ai nere mendi laztana! Zeinbat zeran obea! Ez dezu an Katurik, ez giltzera Andrarik. Jaten det nere basoan ezeren beldur gabe. Zaude, zaude, zu emen bizarrak koipetzen, beti auzitan bezela Katu, ta Etxekoakin. Agur; banoa ni nere Basora.</p>
+<p>Ipui onek, zenbat gauza on erakasten ote digu? Bakoitza paketu bear da duiduian, ta duenaz. Igo nai duenak andi gauzen billa, edo leku goratura, buruko zorabio bat da asko bea jo ta bizitza galtzeko. Beldur ta kezka gabeko bizitza paketsua obea da, betiko irrisku, ta ikaran egotea ba&ntilde;o. Ez da i&ntilde;oiz zorionekoa aberats, ta asko duena, pake ta atsekabarik ezak iges egin badio. Nekazari Basotarren sabela beteago dago arto, kasta&ntilde;a, sagar, ta tupin azadunekin, andiki bat eper, ollagor, ta ollanda samurrekin ba&ntilde;o, onek osasunik, edo pakerik ez du, ta ark bai.</p>
+<p><hi rend='Italic'>Obe da gitxi iduki, ta pakea;</hi></p>
+<p><hi rend='Italic'>Ondasun askok dakar ikaria.</hi></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>IPUI 8</hi></p>
+<p><hi rend='Bold'>Arranoa ta Aizeria</hi></p>
+<p>Arranoak arrapatu ziozkan bein Aizeriari lurzillo edo leiza baten zeuzkan umeak. Ekusirik Aizeri asko jaki&ntilde;ak egin ezingo ziola gaitzik Arranoari, jarraitu zion negarrez, ta diotsa palaguz:</p>
+<p>&mdash;Egazti beste guzien Errege zerana, errukitu zaite nizaz; biur bear dizkidatzu nere umeak. Zertarako guraso bati emango diozu onelako atsakabea?</p>
+<p>Eranzun zion Arranoak:</p>
+<p>&mdash;Ago ixillik lapur zital ori. Zenbat alditan arrapatu diozkak Olla lokatuari bere txitatxoak bigundu gabe gurasoaren negarrekin? I&ntilde;ork ekusi ezin au kirastu gaizto ori.</p>
+<p>Ala Arranoak eraman zituan Aizerikumeak bere abiara, jaten emateko Arranokumeai Aizeri askotakoak asmatu zuen su ematea Arranoaren umeak zeuden arbolari. Ekarri zituan lastoa, lar igarra, ta sua. Iriziki zituenean erregarriak, igoten zuen keak gora, jaiki zan garra. Ekusirik Arranoak erre bear zutela bere umeak abia ta guzi, esaten dio:</p>
+<p>&mdash;Aizeri oker ta asmaria; garaitu nauzu zere asko jaki&ntilde;arekin; itzeli egizu sua, ta emango dizkitzut zere umeak.</p>
+<p>Ala biurtu ziozkan kalte gabe, erakasten zuela, geiago balio duela sarri asko jaki&ntilde;, ta aizartua izateak, indartsu, ta sendoa izateak ba&ntilde;o.</p>
+<p><hi rend='Italic'>Daudenak toki goietan</hi></p>
+<p><hi rend='Italic'>Eror ditezke beera;</hi></p>
+<p><hi rend='Italic'>Arrotu bear ez gera</hi></p>
+<p><hi rend='Italic'>Zori ordu onetan.</hi></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>IPUI 9</hi></p>
+<p><hi rend='Bold'>Belea ta Aizeria</hi></p>
+<p>Itz laba&ntilde;etan gelditzen diranak, lotsatuak irtengo dute. Ona zer dion Ipuiak.</p>
+<p>Bela batek ostu zuen bein leio batetik gaztaia, ta eraman zuen arbola ga&ntilde;era. Bazekusen Aizeriak, ta adurra zerion ezpa&ntilde;etati gaztaia jan naiaz. Zerbait ateratzeko asmoz esaten dio arbolaperik.</p>
+<p>&mdash;O Egazti ederra. Ez dago zure berdi&ntilde;ik egodunen artean. Zure belztasuna argi egiten du. Zenbat eta zarrago, anbat eta ederrago. Eta nor zu ba&ntilde;o egi&ntilde;agorik korputz itxuran? Bazi&ntilde;a beste txori so&ntilde;ulariak bezelakoa, kantatuko bazendu Birigarro batek beste, guziak garaituko zinituke.</p>
+<p>Arroturik Bela eroa Aizeri askotako aren erausi laba&ntilde;ekin, erakusteko bazekiela berak ere Birigarroak adi&ntilde;a so&ntilde;ua jotzen, idiki zuen mokoa kantatzeko asmoz. Orra non erori zitzaion lurrera arrapatu, ta arbolaratu zuen gaztaia. Ozta jo zuen onek lurra, non arrapatu zuen etorkizunaren zai zegoan Aizeriak, ta iges egin zion bere leizara. Jarraitu zion Beleak eskatzen ziola bere gaztaia. Aizeriak o&ntilde;ak arinka zijoala eranzun zion:</p>
+<p>&mdash;Ez da astoentzat eztia, ez dek tontoentzat ere gaztaia.</p>
+<p>Ipui onek adierazo nai du, ez zaiela enzuterik eman bear itz laba&ntilde;, ta astingarriai; gezurra darabiltela ezpa&ntilde;etan, gauden ba&ntilde;o goratuago ipi&ntilde;i nai gaituztenak itz ederrekin. Goitasun, ta alabanza zaleak damu izango dutela azkenean sinistea emanaz asko-jaki&ntilde;en berriketai; bada</p>
+<p><hi rend='Italic'>Itz laba&ntilde;etan ez eztitu;</hi></p>
+<p><hi rend='Italic'>Buruak goregi ez igitu.</hi></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>IPUI 10</hi></p>
+<p><hi rend='Bold'>Leoia, Basaurdea, Zezena ta Astoa</hi></p>
+<p>Arkitzen zan Leoi jauna zaarraz ga&ntilde;etik gaixoa, argala, ta aginte gabea. Urreratu zitzaion Basaurdea, ta diotsa aserrez, ta gaitz naiz:</p>
+<p>&mdash;Adiskidea, ez zait aztu nola beti zure igesi ebilli oi nintzan gaztea zi&ntilde;anean; esturasun gogorretan ipini ninduzun ez gutxitan, ta gogoan dadukat nolako zauria egin zinidan, ta o&ntilde;ak ari&ntilde;agoak izan ezpanitu aldapetan, zure sabelean egosia izango nintzan.</p>
+<p>Au esanda ekin zion ortz gogorrekin Leoi argalari, ta larga zuen mankatuagoa. Eldu zitzaion geroago Zezena, ta onek ere egin ziozkan epai, edo zauri andiak bere adarrekin. Agertzen da Asto bat, ta jo zuen atzeko o&ntilde;ekin bekokian, ta egotzi zuen lurrera. Eritu, ta ill ezinik odola alde guzietatik zeriola, dio Leoiak negarrez:</p>
+<p>&mdash;Ene zorigabea! nere indar, ta osasunaren jabe nintzanean, urte gutxiago nituenean, abere ta lau o&ntilde;eko guziak begiratzen zidaten lotsaz, ta beldurrez; nere aurrean egon oi ziraden buruz bera ikaraz. Nor aizartu nere arpegira begiratzera? Nere izenak sartzen zuen izua baso guzietan. Nere eskuan zegoala txit sarri arrapatu ta irenstea, izanik ni biotz bigu&ntilde;eko, ta errukiorra, largatzen nioen pakean orain banatu nautenai. Ez nuen i&ntilde;or iltzen nere gogoz, ta gaitziritziz, ta bai bakarrik bear bear nuena, gosea kendu ta bizi izateko. Bein ba&ntilde;o geiagotan gorde nioen bizitza ez gutxiri, beste gogorragoai eragotzirik gaitz egitea. Orain berriz, nakusenean adore, ta aginte gabe ezertako ez naizala, dirudi, guziak alkartzen diradela ni banatu, ta eriotza gogorrera eramateko, nere izen enzute andikoa galdurik gelditzen dala; bada esango da, &laquo;Asto txar batek egotzi zuen lurrera, ta garaitu Leoi arrotzarra&raquo;.</p>
+<p>Ipui onek erakasten dioe eskuarte andiko gizonai, begira degiotela etorkizunai; ta nola beti izan bear duten errukitsu, ta biotz bigu&ntilde;ekoak, i&ntilde;ori gaitzik egin gabe. Beldurra ta izua sartuaz ez dala adiskiderik egiten, ta bai amorioz artuaz mendeko, ta beragokoak; ez dagoala lurrean oin lokatu gabeko tokirik; gora bera asko ekusten dirala; bada</p>
+<p><hi rend='Italic'>Egin aurrez adiskideak</hi></p>
+<p><hi rend='Italic'>Premia orduetarako;</hi></p>
+<p><hi rend='Italic'>Ez da ez ezer aterako</hi></p>
+<p><hi rend='Italic'>Arturik beldurbideak.</hi></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>IPUI 11</hi></p>
+<p><hi rend='Bold'>Astoa ta Txakurtxoa</hi></p>
+<p>Etxeko-Jaun batek zeuzkan Astoa, ta Txakurtxoa. Ekusten zuen Astoak Etxeko-jaunak Txakurtxoari egiten ziozkan palagu, ta ille igortziak, ta nola alzoan arturik ematen ere ziozkan ogi bigu&ntilde;, ta okela zatitxoak, ta beretzat ez zegoala baizikan lasto gogor, ta noiz edo berriz esku bete arto ale.</p>
+<p>&mdash;Au zer da? &mdash;dio abere buru andikoak&mdash;. Txakur txar ezertako ez danak, bearrik egiten ez duenak anbeste asko nai edo estimazio Etxeko-Jaunagandik; ni berriz baztertu ta kortaturik bearrean mankatuta jan gutxirekin?</p>
+<p>Dakus, nola Txakurtxoak egiten diozkan pozkariak Etxeko Jaunaren bularrean aurreko o&ntilde;ak ipi&ntilde;irik; nola zauka eginda igoten zion beste batzuetan belaun ga&ntilde;era, ta miazkatzen ziozkala eskuak, ta arpegia. Dio beregan:</p>
+<p>&mdash;Obeto artuko naute ni ere alako pozkaria batzuek egiten badiozkat.</p>
+<p>Asmatu, ta egin. Ekusi zueneko Etxeko Nagusia era onean artarako, arrantza batzuek eginda, igoten dio aurreko o&ntilde;ekin bularrera, ta minga&ntilde; zatarrarekin igortzi nai zion arpegia. Astotzarraren pisuaz jo zuen bea Etxeko Jaunak; asi zan au deadarrez morroiai. Ekusi zutenean nagusia lurrean etzinda, ta Astoaren ostikopean, banatu zuten makillaka buru andikoa, ta larga zuten erdi illik.</p>
+<p>Ipui onek esan nai du, ez dala inoiz sartu bear bakoitzari ez dagokion lanean. Iratzarriak, eznatuak, ta asko jaki&ntilde;ak ez diranak, emango dutela atsekabe atsegi&ntilde;aren ordean.</p>
+<p><hi rend='Italic'>Egon bidi bakoitza bere tokian</hi></p>
+<p><hi rend='Italic'>Izan ez dagian naieza sari ordean.</hi></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>IPUI 12</hi></p>
+<p><hi rend='Bold'>Leoia ta Sagua</hi></p>
+<p>Leoia lotan zegoala mendi baten erriberan, urreratu zitzaion Sagu asko, ta oen arteko aizartuenak igo zion bizkarrera. Ezagutu zuenean Saguak, nor zan, ta nolako arriskuan zegoan, eskatu zion barkazioa, ta ez zegiola arren gaitzik egin; ez ziola bizkarrera igo gaizki naiz. Bazekian leoiak, ez zuela ezer aterako piztia alako bati gaitzegi&ntilde;az; gaizki esango zala bazter guzietan bere atzapar portitzak eramaten bazituen Sagu bat apurtzeko. Larga zion bada joaten nai zuen lekura. Saguak diotsa:</p>
+<p>&mdash;Leoi prestua, esker andiak ematen dizkitzut gaitz gabe bialtzen nazulako, ta emen, ta non nai, egongo naiz zuri on egiteko ezertan albadet.</p>
+<p>Egun batzuen ondoren erori zan Leoia prestatu zioen lakio baten. Ekusi zuenean bere burua gatigu, ta urratu ezin zituela loturik zeuzkaten sokatzarrak, asi zan orroa izugarriak ateratzen. Enzun zituen orroa andiak aitatu degun Sagutxoak; ezagutu zuen norenak ziran, ta esturasun gogorren batean zegoala, berari on egin zion Leoia. Urreratu zitzaion ekusteko zer zan; dakus gatigu; ta diotsa:</p>
+<p>&mdash;Nere ongille prestua, ez larritu; neu naiz asko zu ateratzeko irrisku orretatik. Ez dadukat aztuta zer zor dizudan; nolako itza eman nizun.</p>
+<p>Sagutxoak igo zuen soka edo gatigu zedukaten lokarri sendoetara. Gutxika gutxika urratu zituen ortzekin. Irten zuen Leoiak kalte gabe, ta esaten dio:</p>
+<p>&mdash;Zorioneko ordua, ze&ntilde;ean enzun nituen zure eskariak, ta larga nizun joaten gaitzik egin gabe. Zein prestu ta itz onekoa zeran txikia izanda ere!</p>
+<p>Ipui onek esan nai du txikitxoen bear izatera etorri ditezkeala, gizonik andienak, ta gaitzik egin ezin dezaketen askok on egin dezaketela. Erakasten ere du, eskertsu izaten, ta ez aztutzen artu diran mesedeak.</p>
+<p><hi rend='Italic'>Dionak &laquo;ez det i&ntilde;oren bearrik&raquo;</hi></p>
+<p><hi rend='Italic'>Burua daduka galdurik.</hi></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>IPUI 13</hi></p>
+<p><hi rend='Bold'>Ontza ta bere Ama</hi></p>
+<p>Gaixorik zegoan baten Ontza, ta sendagarririk ez zegoala beretzat lurrean, erregutu zion bere Amari egiteko Santuai eskintza, edo promesak bere osasuna gatik. Amak eranzun zion:</p>
+<p>&mdash;Nere umea, egingo det eskatzen didazuna; ba&ntilde;a beldur naiz enzungo ez nautela Santuak. Oroi zaite, zenbat lapurreta egin ditugun zuk, eta nik Eleiza barruetan; nola loitu ditugun Aldare, edo Eliz-maiak.</p>
+<p>Ipui onek esan nai du, gaitz andiak egin dituztenen noraezeko, ezin bestezko, ta esturasunak eraginiko eskintza, ta eskariak, alperrak dirala, leenago garbitzen ez bada biotza. Santuak bere alde, edo bando iduki nai dituenak, mugonez, edo leenaz irabazi bear dituela; osasun egunetan atsegin eman bear dioela, estura ordu ta gaixotasunean adiskide ongilletzat iduki nai dituenak.</p>
+<p><hi rend='Italic'>Santuei ondo esan</hi></p>
+<p><hi rend='Italic'>Ta leenaz beren adiskide izan.</hi></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>IPUI 14</hi></p>
+<p><hi rend='Bold'>Enadea ta beste Txoriak</hi></p>
+<p>Enadea, ta Txoritegi mota askotako bat zeuden begira Nekazari batzuei lino azia ereiten zeudela soroetan. Diotse Enadeak:</p>
+<p>&mdash;Nere lagunak, ez bide dakizute zertan ari diraden Erella oek; badazaute beldur gabe. Ereingo dute lino-azia lurra atxurtu, ta zimaurturik. Lino belarra azi, ta igartu didinean, gabikotu, txarrantxatu, ezpatatu, apaindu, gorutu, ta arituta, egingo dituzte gu arrapatzeko sareak. Mugonez oroitu bear gerade; berandu dator sendagarria, gaitzak indarrak artzen baditu. Arzazute nere gordebidea. Goazen guziok bat batean soroetara, azia lurrera bota, ta Atxurlari oek alde egiten dutenean, jango degu ezarri duten azia, jaioko ez da lino-belarrik; egingo ere ezin dute sarerik. Ala gordeko ditugu geren buruok. Zenbat txori erori ote dira sareetan?</p>
+<p>Beste txori bildu ziranak farra egiten zioten galanki, ta esaten dioe:</p>
+<p>&mdash;Enada gauza ez, beldurti, ikarakor, ta biotz gabea, etorkizun urrutiko, ta bear bada inoiz izango ez diranak, emango dizute anbeste larritasun? Ondo buruzalea zera. Egizu nai dezuna; berdin ez diogu guk geren buruai orrelako lorrik eman nai.</p>
+<p>&mdash;Ez? &mdash;diotse Enadeak&mdash; gogoango dezute noiz edo noiz. Or konpon. Ezin nik bakarrik jan nezake erein duten azia; iges egingo det soro, ta landetatik etxeetara. Egingo ditut abe arteetan nere abiak; aziko ditut umeak; erakatsiko dioet non bizi.</p>
+<p>Urrengo urtean zebillela Enadea ibai batean goitik beera, ta beetik gora egaa, ekusi zituen alboko soroetan txori asko sareetan sarturik indarka irten nai, ta irten ezinda. Txori oen artekoak ziran ormatxori, edo kurroiak, pintxoe, txirriskilla, amillots, txepetx, birigarro, zozo, bulargorri, ta eskillasotzarrak. Ekusi ziradenean ala katigu, ta an zebillela Enadea katea gabe, esaten zuten negarrez:</p>
+<p>&mdash;Ai sinistu bagi&ntilde;o Enadeari! Igarri zion zer gerta zitekean. Egin bagenu orren esana, ez gi&ntilde;aden ekusiko gaur esturasun onetan. Galduak gera bada, leenaz gorde bideak artu ez ginituelako.</p>
+<p>Ipui onek esan nai digu, ez degula izan bear buruiritxikoak; artu bear dirala jakintsuen zuzenbide, edo konseju onak; ezpaere gogoango degula noiz edo noiz, ta egingo degula negar katea, ta sare txaarrak urratu ezin ditugunean.</p>
+<p><hi rend='Italic'>Izan bada aurrez begiratua,</hi></p>
+<p><hi rend='Italic'>Etorri ez didin gero damua.</hi></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>IPUI 15</hi></p>
+<p><hi rend='Bold'>Lapurra ta Etxe-txakurra</hi></p>
+<p>Lapur bat zebillen gabaz gauza asko ostutzen, ta eldu zan aberats baten etxera. Irten zion atarira Zakur ora andi ta etxe zai egoten zanak, ta diotsa:</p>
+<p>&mdash;Zer dakartzu ona kaltegin gaizto orrek?</p>
+<p>Eranzun zion Lapurrak:</p>
+<p>&mdash;Ago ixillik, to ogi zati bat, ta ez egik zaukarik, ez usiki ere niri.</p>
+<p>Diotsa Zakurrak:</p>
+<p>&mdash;Ematen didazu ogi au ondo naiz, edo zure estalgilla izan nadin?</p>
+<p>Eranzuten dio Lapurrak:</p>
+<p>&mdash;Ematen dizut ixill-saritzat, zuk salatu gabe sartu nadin etxean, ta eramateko zuk bear ez dituzun diru, ta beste gauzak.</p>
+<p>Ba&ntilde;a diotsa Zakurrak:</p>
+<p>&mdash;Nork emango dit niri bizi naizan arteko ogia iltzen badidazu nere Jabea, edo eramaten badiozkatzu dauzkan diru ta beste ondasunak? Nai zenuke oraingo ogi puska bategatik galdu dezadan bizitza guziko ogia? Emango ziniket zuk gero bear dedana? Ez dezu errukirik gizonentzat, biotz gogorraren jabea zera oentzat, ta izango ote zera bigu&ntilde;ago neretzat? Ez diot nik ogia ematen didanari dollorkeria, ta ixil-saltzeerik egin nai; eta bai gorde bera ta etxeko gauzaak. Ala bada zoaz laster etorri zeran bideetatik, nai ez badezu nik emen nere ortzekin zu apurtzea. Ez da nere eztarritik lapur ogirik igaroko.</p>
+<p>Ipui onek adierazo nai du, ez dala inoiz lapurren estalgille izan bear. Morroi, ta mirabeak gorde bear dituztela kontuz etxeko gauzak, ta ez etxe lapur izan, ez etxe lapurrei lagundu. Ogia ematen duenai zor zaiola leialtadea, ta bearra egitea.</p>
+<p><hi rend='Italic'>Erakasten digu Txakurrak</hi></p>
+<p><hi rend='Italic'>Ez estaltzea Lapurrak.</hi></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>IPUI 16</hi></p>
+<p><hi rend='Bold'>Eiza-txakurra ta bere Jabea</hi></p>
+<p>Eizari batek zeukan Erbi-txakur, gaztea izan zan artean lagundu ziona guziz ondo bere eizan. Zaartu, astundu, ta ortzgabetu zan Txakur gaixoa. Guziaz ere arrapatu zuen Erbi bat, au lotan zegoala. Ba&ntilde;a nola ortzak erori zitzaikon, eginalak eginda ere, ezin iduki izan zuen Erbia, ta indarka zebiltzala iges egin zion. Bere jabe Eizariari aserratu zitzaion agitz, ta agirika gogorrez diotsa:</p>
+<p>&mdash;Txakur zarra, zertako zaitut nik nere etxean, ogia alperrik jateko baizik? Ez zera ezertako gauza.</p>
+<p>Esaten da, eranzun ziola ederki Txakur gaixoak:</p>
+<p>&mdash;Jauna, urte askoak zartu naute, ta dakusan bezela, ez zait ortzik ere gelditu. Noizbait, nere urte loratuetan bear egin nion; nere bidez ill zituen Erbi asko. Orduan esan oi zuen arro arrorik, ez zedukala i&ntilde;ork berorrek bezelako Erbi-txakurrik. Diru asko gatik ere ez ninduen salduko. Berriz orain zapaltzen nau agiraka; ematen didan ogia, da damuz, ta borondate gaiztoz; poztuko litzake illik banengo; zer egin dezaket bada zartu banaiz? Nola nik urteak atzeratu, ta indar berriak artu? Oroi bidi nere gaztetasuneko egikariakin; errukitu bidi nere ezina gatik; obe nuke len bezelako o&ntilde;ak ta ortzak banitu; bada biotza lengoa det.</p>
+<p>Ipui onek erakasten du argiro, gazte egunetan beargi&ntilde;a izan danari, ez zaiola erakutsi bear mukertasunik, gerora zartzan egon ba&ntilde;o besterik ezin duenean. Etxeko buruak artu bear dituztela ondo, ta errukiz morroi, ta mirabe, zaartu artean beargi&ntilde;ak izan diranak, ez bota kanpora aterik ate ogia billatzera. Eta arrazoi geiagorekin umeak bear diotela lotsea gorde, amorioz itz egin, arpegi ona erakutsi, ta laztantasunez begiratu guraso zaar bearrik ezin dutenai.</p>
+<p><hi rend='Italic'>Zaar nekatuei ondo begiratu;</hi></p>
+<p><hi rend='Italic'>Bear egi&ntilde;ak ondo saristatu.</hi></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>IPUI 17</hi></p>
+<p><hi rend='Bold'>Erbiak ta Igelak</hi></p>
+<p>Egin zuten bein Erbiak beren artean batzar, edo bilkuia, ta igaro zituzten itz oek:</p>
+<p>&mdash;Zer da guri gertatzen zaiguna? Egun on bat ez daukagu; beti bizi gera kezka gogorrean etsaiz inguraturik. Txakur ta gizonak gure billa dabiltza, ala basoetan, nola soro, ta ibarretan. Gorde naiagatik buruak otatza, gisasti, ta tokirik ezkutuenetan, arkitzen gaituzte txakurrak o&ntilde;atzetatik. Jesten bagera garitzetara, ezin jan degu ezer beldur gabe. Gaberako ere baditugu baso-txakurrak, Aizeriak, ta oek dira Eizaririk gaiztoenak. Zenbat gure lagun erori dira Txakur, ta Aizerien ortzetan? Zenbat beingoan iltzen dituzte gizonak erremienta sugi&ntilde;ekin? Au ez da bizi izatea, baizikan beti ikaraz eriotzaren atzaparretan ibiltzea. Obe ditugu bota geren buruak ibai batera, ito uretan, ta kendu betiko larritasunak.</p>
+<p>Erabaki zuten ala egitea, ta joan ziran ibai bateko egi, edo ondora. Dakuste uste gabe, nola an arkitzen zan igeltegi bat, guzia ikaraturik, banatu, ta bota zituzten beren buruak uretara. Orduan esan zioen beste lagunei Erbi batek.</p>
+<p>&mdash;Ez gera bakarrik gu beldurrean bizi geranak. Badira bai gu ba&ntilde;o ere beldurtiagoak. Ona nola gu ekusi ta beste gabe iges egin, ta bota dituzten buruak ibaira Igel txarrak. Ez degu ernegatu bear; etorriko aldira egun paketsuagoak guretzat; gaitzak dituzte beren mugak, ta aldiak. Goazen bada lengo lekuetara, ta bizi gaitean nola al egun obeagoen zai. Ala egin zuten.</p>
+<p>Ipui onek argitzen ditu Gizon, ta Andra ernegari, irritu, ta pake gutxikoak, ta beren buru, ta bizitzako atsekabeai gaitziritzirik, eriotza billa dabiltzanak. Ez dira egun guziak berdi&ntilde;ak; gaur leku beetuan dagoana, egon diteke egun gutxiren barruan, goraturik; ta negu gogorak ekarri oi du udaberri ederra. Jarri gaitean Jangoikoaren eskuetan.</p>
+<p>Aurpegi eman bear diogu gaitzari, begiratuta etorriko dan onari.</p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>IPUI 18</hi></p>
+<p><hi rend='Bold'>Otsoa ta Irudia</hi></p>
+<p>Zebillela Otsoa basoan, arkitu zuen Irudi, itxura uts, edo imaji&ntilde;a bat. Artu, ta egon zan goi ta be begira, ta dioe esan zuela.</p>
+<p>&mdash;O zein ederra zeran! ba&ntilde;a ez dezu zenzu, ez garu&ntilde;ik.</p>
+<p>Ipui oenk lotsatu bear ditu edertasun utsean biotza ipinirik daukatenak. Eder adingabeko, ta argi laburrekoa da zenzunik ez duen Irudi uts baten gisakoa.</p>
+<p><hi rend='Italic'>Edertasuna da egun laburrekoa;</hi></p>
+<p><hi rend='Italic'>Jakituria bizitza guzirakoa.</hi></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>IPUI 19</hi></p>
+<p><hi rend='Bold'>Eulia eta Mandoa</hi></p>
+<p>Mando batek zeramala Burdia jarri zitzaion burtolean Euli gogaitgarria, ta diotsa:</p>
+<p>&mdash;Mando zatar ta astuna, abill ari&ntilde;ago; bestela nere eztenarekin odoldu ta pizkortuko aut.</p>
+<p>Aserratu zitzaion Mandoari Euli zital batek ain arro itz egin bearraz. Eranzun zion bada:</p>
+<p>&mdash;O piztia zital, kiratsu, ta gogaitgarria! Ezin gaitzik egingo diat; ala ere, ez zidak ardura andirik ematen ire ezten txaarrak ateratzen bazidak odol apur bat. Nere ga&ntilde;ean dijoan Mandazai onen zigorrak beldurrago egiten naitziak. Onen zigorrada, ta ugal orapillotuak ematen diztan zartadak, atera oi dizkite zanbro andiak. Au bai dala beldurgarria.</p>
+<p>Ipuiak erakasten dioe Andikiai, badutela zer beldur izan nondik edo andik.</p>
+<p><hi rend='Italic'>Txikiak dira noizbait arrotzen;</hi></p>
+<p><hi rend='Italic'>Ta Andiak dute ernegatzen.</hi></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>IPUI 20</hi></p>
+<p><hi rend='Bold'>Eulia ta Txindurria</hi></p>
+<p>Euliak, ta Txindurriak zerabilten auzi gogor bat, nor ote zan ederrago. Euliak bere alde edo bandorako zioan:</p>
+<p>&mdash;Zuk, Txindurri itxusia, ezin burua nerekin berdindu dezakezu. Non nai, ta noiz-nai gauza guzietan aurreratzen natzaitzu. Ardi, edo Idi bat iltzen badute, neu naiz lenengo jaten diodana nai dedana. Nabill Erregen bur, ta maietan. Lo egiteko dauzkat aukera osoan oerik bigu&ntilde;enak. Nai dedanean, eguraldi otzetan, noa sukaldera, ta an berotzen naiz. Eguzkitara irten nai badet, nork eragotzi? Ni nabill, edo lurrean o&ntilde;ez, edo aidean egaa, nai dedan bezela. Zu berriz beti arrastaka.</p>
+<p>&mdash;A izurri zitala! &mdash;diotsa Txindurriak&mdash; Zer da ansi zu egotea Erregen buru, ta maietan, lo egitea oe bigu&ntilde;etan, berdin i&ntilde;ork ekusi nai ezbazaitu? bazera guzientzat gogaitgarria? Eguraldi bigu&ntilde;akin bazabiltza bai egaa; zerbait badirudizu bero aldietan; Negua datorrenean kikiltzen zera, ez zoaz maiko apurrak biltzera; ezkutatzen zera toki illunetan, ta i&ntilde;ork ez du zure berririk, ez daki bizi zeran edo ez; ezin arpegirik eman diozu elur apur bati; ta au da zorionekoa izatea? Ni bizi naiz udaan atsegin osoan, ta non nai det zer jan. Negurako prestatzen naiz bear egi&ntilde;az, nere bizkarrean daramadala ogi zorroa, edo gari ale neu ba&ntilde;o astunagoa, ez zu bezela alperreriara emanda negu guzian barau egiten, zer jan ez dezula zeure bakartadean. Otzik andienetan, elurrak lur guzia estaldua gatik, daukat nere etxea lurraren azpian bere gari gelarekin. Aizeri, Erbi, Zozo, Birigarro, ta anbeste Egazti goseak argaldurik, otzak igarorik dabiltzanean, ni ez naiz ez otzaren, ez gosearen beldur. Gizon guziak naukate beargintzat, ta esan oi dute, ikasi bear dala Txindurrietatik beargi&ntilde;, ta kontuzkoa izaten, ta prestatu bear dala zer jan bearrik ezin dan egunetarako.</p>
+<p>Ipui onek erakasten digu, ez buru zalegiak izaten, ez arrotzen gere gauzekin. Esana ta anzi&ntilde;akoa da, bakoitza bizi duela bere zoroak.</p>
+<p><hi rend='Italic'>Bakoitzak bere burua goratzea</hi></p>
+<p><hi rend='Italic'>Da bere burua ondo ez ezagutzea.</hi></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>IPUI 21</hi></p>
+<p><hi rend='Bold'>Otsoa, Aizeria ta Tximua</hi></p>
+<p>Auzi bat jaiki zan Otso, ta Aizeriaren artean. Otsoak egozten zion, arrapatu ziola berak jateko zeukan Bildotsa. Aizeriak ukatzen zuen. Nork erabaki zuzen errierta, edo ez-da-bai-da au? Billatu zuten orretarako Tximua; enzun zituen onek bataren, ta bestearen esan, ta agiriak. Ez zekarten testigu, edo ekuslarik. Eseri zan bada Tximua aulkian, ta eman zuen epai, edo sentenzia au:</p>
+<p>&mdash;Biok zerate lapur ezagunak; ta i&ntilde;ork ez daki nor dan gezurti, ta gaiztoena. Ez du Otsoak ekarri bere esanaren agiri edo probanzarik; bere esan utsa ez da asko sinistua izateko, ta lege zuzenetan ez zaio sinisterik ematen Lapur jaki&ntilde;ari. Bestetik Aizeriak ukatuko zuen ostu balu ere. Ala, zaudete pakean, ta onenbesterekin bukatu bidi auzi au, bada biok gelditzen zerate burua garbitu gabe, ta zaio gaiztoan.</p>
+<p>Ipui onek dio, gezurti, ta lapurrak ez dutela izan bear sinistuak. Gaiztagintza, ta oker-kizunetan artua, dala gaiztagi&ntilde;, ta okertzat ezagutua. Gizon egia zale ta bestetik zuzenak guzia daukatela eginda sinistuak izateko.</p>
+<p><hi rend='Italic'>Gizon gaizto, ta lapurra</hi></p>
+<p><hi rend='Italic'>Guzi guzia gezurra.</hi></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>IPUI 22</hi></p>
+<p><hi rend='Bold'>Gizona ta Ogi-gaztaia</hi></p>
+<p>Ogi-gaztaiak egiten ziozkan gizon bati kalte andiak etxean sartuta, itoaz Ollo ta Usoak, ta janaz arrautzak. Ipi&ntilde;i zion lakio edo gatigugarri bat, ta erori zan bertan. Arkitu zuen gizonak atsegin osoz o&ntilde;etik katigatua, ta diotsa.</p>
+<p>&mdash;O kaltegin zitala! Erori aiz geroenean. Aspaldiko egunetan ondo bizi izan aiz nere Ollo ta Usoakin.</p>
+<p>Eranzun zion buruz bera edo humilki Ogi-gaztaiak:</p>
+<p>&mdash;Nere jauna, ori egia da; ba&ntilde;a oroi bidi naizala saguzale, ta arrapatzallea; garbitu diodala etxea piztia zital oetatik. Ni nabillen lekuan ez da katu bearrik. Zenbat on, ta mesede izan du nik itoaz anbeste sagu ta arratoi andi? Aurreratu ditu gutxienez anega bi gari, lau anega artoale, arroa erdi urdai, aitatu gabe sagar, kasta&ntilde;a, gaztae, ta gozotan arrapatu, ta irentsi oi dituztenak. Kontuak alkartzen baditugu, gaitz ba&ntilde;o mesede geiago egin diot. Ez nagi bada banatu, ez arren ill. Ematen diot itza, ez diodala geiago arrapatuko Ollo, ez Uso, ez arrautzarik, ta geldituko naizala berorren Etxean Katu orde, ezer kostagabe.</p>
+<p>Eranzun zion Gizonak:</p>
+<p>&mdash;Ederki itzegiten dek; letradu bearrik ez dek; ba&ntilde;a baziakiat ez aizala ebilli nere ona gatik saguak arrapatzen, ta bai ere sabelaren asko naiz. Zertarako ziatubat borondate on gabeko on artuak? Nork sinistu ire itz laba&ntilde;, ta berriketai. Estuak erasoten dizkik; laster aztuko zaizkik, Olla tokian burua bakarrik ekusten badek. Ala, ill bear dek; bestela betiko beldurrean biziko dituk nere Ollo, ta Uso gelditu diranak.</p>
+<p>Ipui ederra gaiztagi&ntilde;ai sinistea ez emateko. Estuak edozer erasotzen du. Borondatea ona ez badago, biotz kaltetua duena, laster biurtuko da edozein gaizki egitera. Etxeetan azi oi diran Aizeriak ez dioe ortzik egozten Olloai etxekoen aurrean; ba&ntilde;a ezkutuan bai.</p>
+<p><hi rend='Italic'>Kaltegi&ntilde;ak beti kaltea,</hi></p>
+<p><hi rend='Italic'>Gaiztoa bada borondatea.</hi></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>IPUI 23</hi></p>
+<p><hi rend='Bold'>Igela eta Idia</hi></p>
+<p>Igelak ekusi zuen bein Idi bat, guzia loditu, ta gizen eginda, zebillela Zelaiko larrean; ta begitandu zitzaion bera ere azi ta gizendu zitekeala Idi ura bezela bere azal, ta larru zimurra betetzen bazuen nola bait. Asi zan bada puztu, ta aizez arrotzen bere larrua, ta jarri zitzaion buruan, azi zala asko, ta galdetu zioen bere umeai, Idia beste ote zan? Eranzuten dioe ezetz gutxiagoaz ere. Puztuago egin zan berriz puxiga bat balitz bezela. Puzka, ta indarka zebillela, orra non eztanda, edo ler egin zuen larrua etenda.</p>
+<p>Ipui onek erakusten digu, ez degula arrotu bear andiago, ederrago, ta aberatsago izan naiz.</p>
+<p><hi rend='Italic'>Aizez gizendua</hi></p>
+<p><hi rend='Italic'>laster da galdua.</hi></p>
+<p><hi rend='Italic'>Igoten duenak goregi</hi></p>
+<p><hi rend='Italic'>jo bearko du beregi.</hi></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>IPUI 24</hi></p>
+<p><hi rend='Bold'>Leoia ta Arzaia</hi></p>
+<p>Leoitzar izugarri bat zebillela basoan larren artean, sartu zitzaion aurreko oin azpi batean arantzea, ta anditu agitz, errenka, ta mi&ntilde; andiekin ba&ntilde;o ebilli ezin zala. Arkitu zuen Arzaia, ta nai zion oni adierazo, non mi&ntilde; zuen; eskatzen zion laguntasuna oi&ntilde; arantzatua eske&ntilde;irik. Ikusi zuenean Arzaiak bereganonz zetorrela Leoia, sartu zitzaion ikara larria, ta gaitzik ez izatearren, eske&ntilde;i zion ardi bat. Ordea leoiak ez zuen ordu artan ardi goserik, ta bakarrik billatzen zuen osasuna, ta arantza ura ateratzea, ta orretarako eraman ziozkan Arzaiari bularrera bere beso biak, ta erakutsi zion oi&ntilde; minberatu, ta aranzatua. Bereala igarri zion Arzaiak, zer nai zuen Leoiak; ta beldur guzia joanik, artu zion beso gaixotua; aztertu zituen oi&ntilde; azpiko bazterrak, ta arkiturik arantza sartua, atera zion poliki, ta gero garbitu ere ziozkan barruan andituarekin egin ziran ur ustelak. Ekusi zanean Leoia ala sendatua, eskerrak eman nairik itz gabe, millizkatu zion Arzaiari esku ga&ntilde;ea, ta aldi batean egon zan bere aldamenean.</p>
+<p>Egunak igarota arrapatu zuten Leoia gizon batzuek, ta eraman zuten lotuta Erri andi batera presondegi kaiolatu baten gordetzeko, ta ateratzeko Plaza edo toki agiri, ta langatu batera, Zezenak atera oi diran bezela, botatzeko jan garritzat Gizon Gaiztagi&ntilde;ak. I&ntilde;ork ez daki zergatik, ba&ntilde;a artu zuen Justiziak aitatu degun Arzaia; ta Agintariak erabaki zuten, bota bear zala Gizon ura Leoiak irentsi zezaten. Arzai gaixoa eraman zuten Plazara; atera zioen Leoitzarra, Zezen bat oi dan bezela; ekusi zueneko Gizon bakarra, o&ntilde;ak ari&ntilde;ik abiatzen da, sua zerioal, arrapatzeko Arzaia; ba&ntilde;a orra non besoak egozteko unean ezagutzen duen Leoiak, Gizon ura zala bere Ongillea; berari arantzea atera, ta osasuna eman ziona. Atzeratu zituen beso, apurzeko jasoak; jarri zan Leoia begira barrera ga&ntilde;etan zeuden jendeai, ta Arzaiari gaitzik egin gabe, biurtu zan bere Kortara, ki&ntilde;uekin adierazo zion Leoizaiari, zijoala andik bere zeregi&ntilde;etara. Biurtu zan berriz Plazara pozkaria agertzen zuela; jarri zitzaion Arzaiari aldamenean, ta zegoan an bere zai ta Gordetzalle eginda. Ikaratu zan jende guzia zekusanaz. Agindu zioen Arzaiari irtetzeko Plazatik; joateko nai zuen lekura. Abiatu zan iretetzeko; jarraitzen zion Leoiak nora nai Txakurtxo batek bezela. Jakin zutenean Arzaiagandik zer gertatu zitzaion basoan Leoi arekin, ta zergatik gero gaitz egin ez ezen, erakusten ere ziozkan amorioaren se&ntilde;ale, edo igargarriak, askatu zituzten Leoia, ta Arzaia; Leoia joan zan bere basora, ta Arzaia bere ardizaitzera.</p>
+<p>Ipui onek erakusten du, izan bear degula eskertsuak gure ongillakin, ta mesedeak geitu bear dizkioguezala, mesedeak egin dizkiguenai. Eskergabetasuna dala gaitziritzia beti, ta guziak gorrotoz begiratu oi dioena.</p>
+<p><hi rend='Italic'>Mesedeak dituzu artu?</hi></p>
+<p><hi rend='Italic'>Ez zaiteala i&ntilde;oiz aztu.</hi></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>IPUI 25</hi></p>
+<p><hi rend='Bold'>Zaldia ta Leoia</hi></p>
+<p>Leoitzar batek ekusirik zaldi mardo, ta gizen bat zebillela zelaian belarra jaten, etorri zitzaion gogo edo asmoa arrapatzeko. Urreratu zitzaion, ta asko nai balio bezela, edo askidearen estaliz, diotsa.</p>
+<p>&mdash;Ni naiz Sendagille edo Mediku txit aditua.</p>
+<p>Igarri zion Zaldiak, zebillela gezurrez, ta asmo gaiztoz; ba&ntilde;a ala ere egin zion arrera ona, igarri ez balio bezela, ta adierazo zion poztutzen zala idukitzeaz alako Mediku bat bear orduetarako. Zaldia asi zan errenka gaiztoz, oin batean arantzea sarturik zedukala siniserazotzeko Leoiari, ta esaten dio.</p>
+<p>&mdash;O Leoi ona, eta zeinbat gozatzen naizan nere atsekabearen erdian zu bezelako Sendagille bat bear ordu onetan emen agertzeaz! Atera bear didazu atzeko oin batean sarturik dadukadan arantza o&ntilde;azatzen nauena.</p>
+<p>Leoi tontotzarrak ezagutu gabe Zaldiaren gogoa, diotsa:</p>
+<p>&mdash;Damu det orrenbeste mi&ntilde;ekin zu egotea; ez larritu; neronek aterako dizut arantza o&ntilde;azagarri ori; nik largako zaitut mi&ntilde; gabe ta guziz sendaturik.</p>
+<p>Bata ta bestea zebiltzan, nork nori gezur kaltegarria sartu.</p>
+<p>&mdash;Ekarzu bada &mdash;diotsa Leoiak&mdash; gaiso dezun oi&ntilde; ori.</p>
+<p>Ori esaten dio Zaldiak, ta o&ntilde;a jasorik, jotzen du bekokiaren erdian ostikada gogor ta ondo zuzendu batekin; ezarten du lurrera, largatzen du Leoitzarra konorte gabe, ta artzen du Zaldiak igesa. Bereganatu zanean Leoia arpegi ongi mallatuaz, ez zuen aurrean ekusi Zaldirik. Odola zeriola, ta agitz mi&ntilde;, dio:</p>
+<p>&mdash;Ai ai! Nerea da obena edo kulpa. Ondo gertatu zait. Uste nuen jakitunagoa nintzala Zaldia ba&ntilde;o; gezurra nerabillen ezpa&ntilde;etan, ta asmo gaiztoa biotzean. Larga banio geldi Zaldiari, bere bearrak geldi idukiko zuen. Ark ez zuen aranzarik o&ntilde;etan, nik bai bere ostikada galanta bekokian. Zerk sartu nenduen ez niakian bear gintzan? Nere burua sendatu ezin det, ta siniserazo nai nuen, sendagille eder bat nintzala. Gezurraren irabazia!</p>
+<p>Ipui onek esan nai du, ez degula i&ntilde;oiz sartu bear ez dakigun, ta ez dagokigun lanean. I&ntilde;ori kalte egiten dionak, erakarriko duela kaltea bere burura.</p>
+<p><hi rend='Italic'>Ipi&ntilde;i diozu i&ntilde;ori lokarria?</hi></p>
+<p><hi rend='Italic'>Izango zera bertan eroria.</hi></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>IPUI 26</hi></p>
+<p><hi rend='Bold'>Zaldia ta Astoa</hi></p>
+<p>Zaldi eder bat, guzia apaindua, katea zillarrezkoz, jarleku, ugal, ta anka estalkiz urrez bitxitua; Jabe aberatsa zedukana, zijoala bidean arro arrorik, idoro zuen Asto makal, argal, pisuaren pisuz makurtu ta obendua, ta atzetik makillada gogorrak ematen ziozkana Astazai erruki gabeak. Ekusirik Zaldiak, ez ziola beingoan alderik egin bidetik, ezin zezakealako nekatuaren nekatuz, esan omen zion Astoari:</p>
+<p>&mdash;Arrituta naitziagok, Asto zatarra, nola ostikadaz asetzen ez audan. Zergatik baztertu ez, ni ikusita? Zergatik egon ez aiz geldi bazter batean ni igaro artean? Nor naizala uste dek? Nago ni ain apaindua, zillar ta urrez pitxitua. nere Korta edo Egontokia garbiago ziagok askoren etxeetako gela, ta Lotegiak ba&ntilde;o. Nere Etxeko Nagusiak egiten diezte agiraka gogorrak Morroiai egunoro garbitzen ez badute nere egonlekua; Askaan autsik ez du arkitu bear, ez da garagarrian ere. Garbitzen dizkide o&ntilde;ak; leundu bear dituzte nere bizkarra, ta ankea; nere illeak argi egin bear du. Begira bada, zein mardo, gizen, ta mamitsua nagoan. I berriz, zatar ori, burutik o&ntilde;etara ago, edo autsez josia, edo basatua; agiri dituk bizkar-ezurrak; jostorratz edo eztena zirudiek ire berna zanko gabeak; burua jaso ezin dek; belarri makaldu ta zaurituak agiri dituk; bidean nekea, ta etxean gosea. Onelakoa izanik, ez didak lotsa geiago gordeko? Lenengoa gatik, barkatzen diat; ba&ntilde;a begira beste bein onelakorik gerta ez didin.</p>
+<p>Ikaraturik Astoa aitu zituenekin Zaldi arroaren aotik, zijoan aurrera erneguz ta biraoka, madarikatzen zuela sortu zan ordua. Andikan urte batzuetara izan zuen Astoak Jabe obe bat, ze&ntilde;ek ematen zion ondotxo jaten, ta ez bear gogorregirik eragiten. Mardotu, ta ille edertu zan gure Astoa. Ba&ntilde;a bestera gertatu zitzaion Zaldi arroari. Urteak igarorik, saldu zion bere Jabeak Errotari txatar bati, ze&ntilde;ek eragiten zion bearra txit agitz, ta eman jateko gutxi, ta makillada asko. Onela bere mardotasuna desegin zan, agertu zitzaizkon bizkar ezurrak, zorroztu anka len gizena, laztu illea, zauritu bizkarra, makaldu burua, ta ezi&ntilde; i&ntilde;ork esan zezakean lengoa zala. Zegoala Asto uraxe bera Ibar batean belarra jaten pizkorturik, dakus, ta ezagutzen du lengo Zaldi bere agirakari arroa, trallatik zeramala Errotari txarrak, guzia argaldua, aginte ta indar gabea, bizkarrean zituela zorro andi bi, buruz bera, basta zatar, ta ugal erdi etenekin, gerrira&ntilde;o lokaitzatua, ta diotsa Astoak burla egin bearrez.</p>
+<p>&mdash;O Zaldi Jauna! Eta zein aberatsa zeran! Nora ditu berorren anzi&ntilde;ako zillar ta urrea zeriozkien apaindurak? Nora da arako buru arro ta gallendua? Non da orduko mardotasuna? Nora iges egin dute berorren mami galantak? Etorkizunai begiratu gabe, zu izan zi&ntilde;an bai, ta ez besterik, eskatu zinidana baztertzea, ta geldi egotea, igaro bear zenduan bidea idukitzeko zeretzat bakarrik. Zu, nekepean ni ikusita, errukitzen ez zi&ntilde;ana. Goiak beratu dira. Orain nago ni Jabe onarekin zaartza on batean, belarra emen jaten, guziau pizkortuta, ondotxo jan ta, bear neurri onekoan bizitza daramadala. Ez zaude zu orretara oiturik.</p>
+<p>Ipui onek erakasten dioe aberats, ta andikiai, ez abegor txarrik egitea, ez itz gogorrik esatea nekean bizi diranai, beragokoai; ta izan ditezela errukior ta biotz bigu&ntilde;en jabeak premian daudenentzat. Ez dala arrotu bear Andilekuetan; goikoak iruli oi diralako bekoetara. Biotz bera ta arrotasun gabeak iraungo dute beren goratasunean. Ba&ntilde;a:</p>
+<p><hi rend='Italic'>Zapaltzen duenak beetua,</hi></p>
+<p><hi rend='Italic'>Artuko du bere lekua.</hi></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>IPUI 27</hi></p>
+<p><hi rend='Bold'>Lurreko Abere ta Goietako Egaztiak</hi></p>
+<p>Jaiki zan errierta, ta auzi odolezko bat lurrean dabiltzan lau o&ntilde;ako, ta goietan egoz dabiltzanen artean. Ez batzuek ez besteak atzeratu nai ziran aserrean egotetik. Ikusirik Saguzarrak lurrekoak garaituko zituztela goietako Egaztiak, andiagoak, ta indartsuagoak zirudielako, alde egin zuen Egaztien aldetik, igarotzeko lau o&ntilde;ekoen bando, edo aldera. Egunak etorri ta joan zebiltzala, prestatu ziran beste batalla, edo auzka gogorragorako; bada lenengo erriertan batzuek, ta besteak gelditu ziraden igarri ezinik nor izan zan gogor ta garaitiago. Etorri zitzaien Egaztien bigarren errierta odoltsurako, len berekin iduki ez zuten Arranoa. Oek bildu, ta alkarturik, jetsi ziran lurreronz ekiteko gogorki Leoi, Zezen, Otso, Basaurde, Katamotz, ta txikietarikoai ere bai. Zein ekusteko ederra! Goian anbeste Egazti atzapardun, bean lau o&ntilde;eko izugarri beldurra sartu bear zutenak. Arrano pillo batek beren egotzarren otsarekin sartzen zioen izua beekoai. Zetozen gero beste Egaztiak, ta beren moko ta atzaparrakin zauritzen zituzten. Lurrekoak ekin naia gatik, kolpeak emanda, beren egoekin alde egiten zuten; bazetozen berriz lau o&ntilde;eko iges egin zutenetara, ta oen arteko batzuei ateratzen ziezten begiak; beste batzuek largatzen zituzten errenka, mankatuta, ta ez gutxi guziz illda. Zebillen lurrean Zezen, Otso ta lau o&ntilde;eko askoren odola. An zan enzutea Zakurren inziriak, Zaldien irrintziak, Leoi ta Zezenen orroak, Basaurden urrumizak, Aizerien illetak, Katamotzen miao izugarriak.</p>
+<p>Ekusi ziradenean lurrekoak garaiturik, ta anbeste lagun galdu zutela, eskatu zioen pakea Egaztiai. Oek etorri ziraden orretara; ba&ntilde;a eskatu zituzten bi gauza; bata gerra artan illik gelditu ziran lau o&ntilde;ekoak gelditu bearko zutela beren janaritzat; ta bigarrena, saguzar saltzalleari berak eman bear ziotela erabaki, edo sentenzia. Egin zuten orretarako Egaztiak Batzarra, ta agindu zan, kentzea Saguzarrari zituen lumak; billostu edo larru-gorritu bear zala; ez zegitela Saguzarrak i&ntilde;oiz argitara irten. Ala oi dabiltza ezertarako gauza ez dirala, ta i&ntilde;ork ekusi nai ez dituela.</p>
+<p>Ipui onek dio:</p>
+<p><hi rend='Italic'>Bere odoleko, ta adiskiden Saltzallea</hi></p>
+<p><hi rend='Italic'>Dala bere buru galtzallea.</hi></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>IPUI 28</hi></p>
+<p><hi rend='Bold'>Aizeria ta Otsoa</hi></p>
+<p>Otsoak eizan zebillela, bete zuen bere lur uspe, edo leizea arikiz, erbikiz, ta aunzkiz, ta bazedukan zer jan egun askotan. Usaira urreratu zitzaion Aizeria leiza aurrera, ta kanpotik, edo sarreratik diotsa Otsoari:</p>
+<p>&mdash;Nere Jaun prestua, egun asko da alkar ekusi ez degula. Argatik natorkizu gaur egitera ekustamen edo bisitatxo bat. Bestetik nere sabeleko utstasunak, egun askotako jan ezak, naduka aginte gabe. Uste det errukituko zerala nizaz. Badezu or zer eman zure kalte ezagutu gabe.</p>
+<p>Igarri zion Otsoak zer zerabillen Aizeriak, ta diotsa barrunbetik:</p>
+<p>&mdash;Asko jakin gaiztoa, guziak ezagutzen aute. Ken adi ortik. Ez ator i nere onez. Atera nai nauk emandik, gero arrapatzeko ixillik nere janariak. Billa ezak alper zital orrek. Nai dek i&ntilde;oren maian jarri, galanki bazkaldu, ta bearrik egin ez?</p>
+<p>Aizeriak irten zuen buruz bera, ta erneguz; ta dio:</p>
+<p>&mdash;Otso zeken ta prestueza, gogoango didak niri, zer jan ematea, ukatua.</p>
+<p>Joan zan basoan ardiak zaitzen zegoan mutill bategana, ta esaten dio:</p>
+<p>&mdash;Arzaia, ze sari edo aloger emango didazu, agertzen badizut non dagoan ezkutaturik Otso zure etsai andia? Arrapatu edo illko dezu txit erraz.</p>
+<p>Diotsa Mutillak Aizeriari:</p>
+<p>&mdash;Sari onak emango dizkitzut ori egiten badezu.</p>
+<p>&mdash;Atoz bada nerekin &mdash;esan zion Aizeriak, ta eraman zuen Otsoaren leizara. Sartu zion Arzaiak Burni zorrotz bat saietsen artean, ta larga zuen illik. Ikusi zuenean Aizeriak illik Otsa, diotsa Arzaiari:</p>
+<p>&mdash;Ez det orain zure alogerik bear.</p>
+<p>Sartu zan leizan, ta Otso illaren aldamenean ase zan arikiz, ta ardikiz, ta igaro zituen egun asko bazkari, ta apari ederrak egiten.</p>
+<p>Otsoaren ondasunak ez ziran betiko. Aizeriak irten zuen Ollo billa, ta erori zan ipi&ntilde;i zioten lakio edo tranpa batean. Katigu zegoala, gogoratu zitzaion Otsoarekin egin zuena, ta esaten zuen.</p>
+<p>&mdash;Gaitz egin nion Otsoari, ta argatik datorkit neroni ere eriotzako bidea.</p>
+<p>Ipui onek erakasten dioe gizonai, ez i&ntilde;oiz pozik artzeko i&ntilde;oren gaitzaz; geretzat nai deguna, nai izan bear dioguela besteai; ez degula damurik artu bear lagunaren ondo izateaz. Gorroto izan bear diogula zekentasunari, ze&ntilde;ek ekarri zion Otsoari bere galtzapena.</p>
+<p><hi rend='Italic'>Ez egin i&ntilde;ori kalterik</hi></p>
+<p><hi rend='Italic'>Ez artarako eman biderik.</hi></p>
+<p><hi rend='Italic'>Gizon prestu, ta esku zabalekoa</hi></p>
+<p><hi rend='Italic'>Izango da guzien gogokoa.</hi></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>IPUI 29</hi></p>
+<p><hi rend='Bold'>Basauntza ta Eizaria</hi></p>
+<p>Iturri batean edaten zegoala Basauntza, ekusi zuen urean bere adarraren keriza. Asi zan arrotasunez esaten:</p>
+<p>&mdash;Nor ni bezein ederrik? Nork iduki buruan nik daukadan bezelako apaingarririk?</p>
+<p>Begiratu zan gero o&ntilde;etara, ta ekusi zituenean berna ain me, argal ta mamigabeak, erori zitzaizkon biotzeko egoak. Onela zegoala txit larri, enzun zituen Txakur zaukaka, ta burua goraturik, dakus Eizari bat zetorrela Txakurren ondoren. Ba&ntilde;a nola o&ntilde;ak zituen txit ari&ntilde;ak, iges egin zioen erraz, ta sartu zan Baso txarakatu batera. Emen zan estua. Katigatu zitzaion bere adarra txarakako otatza, ta larretan, ta egin alak eginda, ezin askatu zuen, ta gelditu zan gatigu. Txakurrak jarraitzen zioten bere o&ntilde;atzetatik, ta Eizariak ere bai Txakurrai. Ekusi zanean eriotzako ortzetan, esan omen zuen:</p>
+<p>&mdash;Ai ai! adar au da nere galgarria; bestela nere o&ntilde;akin erraz gordeko nuke burua. Nik uste nuen mesede andi bat nedukala adar apaingarri onetan, ta madarikatzen nituen nere oi&ntilde; me ta argalak. Orain ezagutzen det nere kaltean, o&ntilde;ak ditudala nere gordegarriak, ta adarra nere galgarria.</p>
+<p>Onetan zegoala, eldu ziran Txakurrak, ta Eizaria, ta arrapatu zuten.</p>
+<p>Ipui onek erakasten du, ez dutela gizonak aldi askotan ezagutzen zer dan ona ta zer txarra berentzat. Ontzat dauzkatenak, izan oi dirala kaltegarrienak. Edertasun, ta apaingarriak iduki oi dira ontzat; ta askorentzat, Basauntzarentzat bezela, izan oi dira kaltegarriak. Aberatsak uste du dala zorionekoa diru askoren jabe dalako. Ba&ntilde;a lapurrak billatu dituzte sarri beren etxeetan eriotza emanaz, ta nekazariaren etxean ez dute o&ntilde;ik ipi&ntilde;iko.</p>
+<p><hi rend='Italic'>Itxurapen utsaz ez zaiteala arrotu</hi></p>
+<p><hi rend='Italic'>Okerra zuzentzat ez dagizun artu.</hi></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>IPUI 30</hi></p>
+<p><hi rend='Bold'>Aizeria, Ollara ta Txakurrak</hi></p>
+<p>Goseak estutzen zuen aldi baten, eldu zan Aizeria burua lurraren kontra zerabillela Ollarrarekin Olloak zebiltzan toki batera. Ollarrak igarri zion Aizeriaren etorrerari; asi zan karkarasa estuekin Olloak biltzen, ta igaroerazo zioen guziai arbola ga&ntilde;era bera aurrengo zala. Aizeria jarri zan arbolapean, ta esaten dio palaguz, ta itz laba&ntilde;akin Ollarrari.</p>
+<p>&mdash;Zer egiten dezu goi orietan zure Olloakin? Noren beldur zera? Nere? Ez nator ni zuen billa, zuei gaitz egiteko, ta bai lurreko berriak zuei emateko.</p>
+<p>&mdash;Ez dakit nik ezeren berririk &mdash;diotsa Ollarrak arbola ga&ntilde;etik.</p>
+<p>&mdash;Egin da bada &mdash;esan zion Aizeriak lurreko lau o&ntilde;eko, ta egazti guzien artean betiko pakea. Emendikan aurrera ezin alkarri gaitzik egingo diogu. Jetsi zaite bada beera zeure lagun oriekin, ta pakearen izenean egingo degu alkarrekin bazkari eder bat.</p>
+<p>&mdash;Benaz benaz &mdash;diotsa Ollarrak&mdash; poz andi bat ematen didazu berri orrekin.</p>
+<p>Ta au esanda, jaso zuen burua ta luzatu iduna zerbait balekus bezela.</p>
+<p>&mdash;Zer dakutsu? &mdash;esaten dio Aizeriak.</p>
+<p>&mdash;Dakustaz &mdash;diotsa&mdash; Txakur bi datozela arinka ta saukaz, ta etorriko dira pakearen berri onak guri, ta zuri ekartzera. Ala bada, Txakurrekin, emendik jetsita, egingo degu guziok bazkari zuk diozuna.</p>
+<p>&mdash;Agur, agur &mdash;esaten dio Aizeriak&mdash; banoa ni emendik.</p>
+<p>Ollarrak arbolatik.</p>
+<p>&mdash;Eroa, nora zoaz? Zeren beldur zera pakeak egin badira? Txakurrak ere ezin gaitzik egingo dizute.</p>
+<p>&mdash;Ori ala da &mdash;dio Aizeriak&mdash; ba&ntilde;a gerta liteke datozen Txakurrak bake berririk ez jakitea.</p>
+<p>Onekin iges egin zuen Txakurren zai egon gabe.</p>
+<p>Ipui onek dio, asko jaki&ntilde;entzat badirala asko jaki&ntilde;agoak; gezur batek agertzen duela beste gezur bat.</p>
+<p><hi rend='Italic'>Ez bada i&ntilde;ori gezurrik sartu,</hi></p>
+<p><hi rend='Italic'>Gezurra ez dakizun agertu.</hi></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>IPUI 31</hi></p>
+<p><hi rend='Bold'>Aita ta Seme gaiztoa</hi></p>
+<p>Guraso batek zeukan Seme oker ta gaizki azi bat ze&ntilde;ek ematen ziozkan naigabe andiak, ta negar eragin oi zion txit sarri. Aldi askotan gelditzen zan gabaz kanpoan. Egiten bazion agiraka, largatzen zuen gogorragoak eranzunda, ta ezin bururik egin zuen berarekin. Seme gaizto onegatik morroi ta mirabeak ere eraman oi zituzten atsekabe asko. Oei esan zioen Etxeko Jaunak Ipui au.</p>
+<p>Nekazari batek zeukan Idisko gazte, mardo, ta ezi gabea. Ezi didin, uztartu zuen Idi ekandu batekin. Zekusanean Idiskoak lepoa uztarpean gatigu, ta ezin jaso zuela burua nai bezela, indarka ta ostikoka mankatzen zuen Idi uztarrian geldi zegoana. Nekazari, bien jabeak akullua arturik, ematen ziozkan galantak Idisko uzu ta ezi gabeari, ziotsala:</p>
+<p>&mdash;Ez zaitut nik uztartu burdia erabilli, ta soroan lurra aratzeko, ta bai bakarrik ezitzeko zure lepo gogorra.</p>
+<p>Onela geldika akulluaren bidez ezi zuen, ta gero uztarria erakutsita beste gabe, etorri oi zan Idiskotxoa burua makurtzera.</p>
+<p>Ipui onek esan nai du, gaztetatik uztartu, edo ezi bear dirala umeak lepo bigu&ntilde;a daukaten artean. Ekarri bear dirala onez, ta gaitzez esanak egitera, gurasoai lotsa gordetzera, etxeari begiratzera. Au ez egi&ntilde;a gatik mugonez, ta gaztetxotan, lepoa gogortzen dala, ta gerora ezin ekarri dirala eskura; gogortzen dirala gurasoen kontra; irtetzen dutela lotsa galdukoak, bizitza txarrekoak, ta atsakabe asko emateko. Au ezagutu zuen, ba&ntilde;a berandu len aitatu degun Aitak.</p>
+<p><hi rend='Italic'>Daramana gaztetatik uztarria</hi></p>
+<p><hi rend='Italic'>Izango da ume ondo azia.</hi></p>
+<p><hi rend='Italic'>Gelditzen bazaio idun gogorra,</hi></p>
+<p><hi rend='Italic'>Berandu etorriko da zigorra.</hi></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>IPUI 32</hi></p>
+<p><hi rend='Bold'>Eskua, O&ntilde;ak ta Sabela</hi></p>
+<p>Eskuak, ta o&ntilde;ak alkar arturik ekin zioen sabelari, esanaz:</p>
+<p>&mdash;O lagun gaiztoa! Gure bear ta nekeakin daramazkitzu egun gozatsuak; asetzen zera jan ta edanaz gure irabaziak. O&ntilde;akin goaz sorora; esku ta o&ntilde;akin laiatzen da; mastiak ardorik emango badute, ezin dute eskuen neke andi gabe. Aldi askotan beso guztiak arikatu bear dute. Zenbat bider o&ntilde;ez bide luzeak egin bear dira zerbait irabazteko? Zuk, o sabel gaiztoa! daramazkitzu zere barrunbera gure neke, ta izerdi guzien irabaziak, ogia, ardoa, ta zer ez? Eta asetzen ote zera beti gure irabazi al guziakin? Guretzat ez dago nekea baizik. Ez degu ezer jaten. Ala bada ikasi bear dezu beargintzaren bat zer jan izaiteko; erabaki degu guk, ez bearrik egitea zuretzat.</p>
+<p>Eranzun zioen sabelak:</p>
+<p>&mdash;Ez arren orrelako asmo txarrik artu. Ez dakizute nik ezin ezer irabazi dezakedala? Ze beargintza ikasiko det? Asko zor dizuet, egia da; egiten dezute bearra neretzat; ordea zuek partil izan oi zerate. nere barrunbera datorrena, ez da guzia bertan gelditzen, neretzat bear dedana gorde, alper dana bota, ta zuek gana igarotzen da bizi ta sendakaia. Nik jaten ez badet, nola zuek bizi? Nola bear egin? Alkarri bear diogu lagundu; bada etxe batekoak gera.</p>
+<p>Diotsate eskuak ta o&ntilde;ak:</p>
+<p>&mdash;Askojaki&ntilde;a, asmatzalle, ta berritxua zera guri zoraerazotzeko. Gezurra diozu ez gera gu zure bear, ta ez dizugu lagunduko.</p>
+<p>Larga zuten sabela egun batzuetan janik, ta edanik eman gabe, ill zitzaion barruko berotasuna, leortu ta ugartu mi&ntilde;ga&ntilde;a egarriz. Sabelaren jan ezaz argaldu, ta indar gabetu ziran esku ta o&ntilde;ak. Ezagutu zuten oek nondik zetorken kalte ura. Ematen dioe jaten ta edaten sabelari; ba&ntilde;a berandu zetorren sendagarria; ill zan sabela ta ill ere ziran esku ta o&ntilde;ak.</p>
+<p>Ipui onek esan nai du, ez dala bakoitza guzia beretzat, edozein gizonek bear dituela lagungarriak senide, adiskide, ta ongillen artean. Errege bat ez dala izango Errege, bere menekoak laguntzen ezpadioe. Etxe, soro, ta baso asko dauzkan andikirik aberatsenak, burua galdu ez badu, aitortuko du, alperrak dirala alako ondasunak nekatzen ezpada beargi&ntilde;a; ez duela ez errenta, ez gari, ta ez ikatzik izango nekazariaren eskubear gabe. Eskuak, o&ntilde;ak ta sabelak alkarri lagundu bear dioen bezela, ala gizon batzuek besteai, galduko ez badira. Ezaguera onek ekarriko gaitu alkar maite izatera, beragokoai ez erakustera gogortasunik. Baledukate au gogoan Nagusi, ta Etxe-jaunak, oniritzi, ta maitetasun geiago ekusiko litzako beren serbitzari, ta Errenteroen alderonz, zeintzuen neke, ta bearegi&ntilde;ez dauden anbeste era ta jauntasunean. Orregatik</p>
+<p><hi rend='Italic'>Bat beretzat ez da asko;</hi></p>
+<p><hi rend='Italic'>Laguntasuna du bearko.</hi></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>IPUI 33</hi></p>
+<p><hi rend='Bold'>Gizona eta Astoa</hi></p>
+<p>Gizon batek zerbait irabazi nairik, ezarri ziozkan bere Astoari bizkarrera perz, edo lapikoz beterikako otarra bi, ta nai zion ari&ntilde; eragin anbat lasterren eldutzeko Feria andi bat zegoan Errira. Asto gaixoari ematen ziozkan makillada gogorrak, al zuen ba&ntilde;o ari&ntilde;ago eragiteko. Ba&ntilde;a geroago, ta laburragoa zan Astoaren ebillera edo pausoa. Gitxi jan, pisu andia, makilladak ugari, larga zuten aginte, edo adore gabe. Onela estutu zan, ta esan omen zuen buru-andikoak:</p>
+<p>&mdash;Ai illik banengo! edolarik bukatuko lirake nere nai gabeak.</p>
+<p>Alako batean erori zan illik, ta erorteaz ausi ziraden perz, edo lapiko asko. Astojabea asi zan biraoka, ta kolpetzen Abere illik zegoana. Ekusirik anbeste kalte, Astoa illda, ta lurrezko onziak apurtuta:</p>
+<p>&mdash;Zer egingo det? &mdash;dio&mdash;. Kenduko diot larrua Astoari; egingo ditut arrazkoak.</p>
+<p>Nekatu zan orretarako miatzen ta moldatzen larrua. Gizonak izan zituen kalteak, ta Astoak illda ere larrua eman bearra; ark, bere zekentasun, ta errukirik ezaz, onek eriotzari biraoz dei egin ziolako.</p>
+<p>Ipui onek erakasten dioe batzuei, ez geiegi irabazi nai izatea; ez, mendeko ta morroi mirabeai neke larregi, edo gogorregiak aztuerazotzea; ta beste batzuei, ez dei egitea eriotzari erneguz. Eriotza txarrarekin ez dira bukatzen atsekabe guziak. Kristau batek begiratu bear dio beldur onez eriotzari. Etorkizunak erakarri bear gaitu ez ernegatzera atsakaben artean, ta artzera pakez lurreko nai ez, ta pena garriak.</p>
+<p><hi rend='Italic'>Eriotzari erneguz deitzea,</hi></p>
+<p><hi rend='Italic'>Ez da naigabea kentzea.</hi></p>
+<p><hi rend='Italic'>Gabiltza geiegiaren billa?</hi></p>
+<p><hi rend='Italic'>Izango gera gere kaltegilla.</hi></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>IPUI 34</hi></p>
+<p><hi rend='Bold'>Aizeria ta Matsak</hi></p>
+<p>Eldu zan Aizeria mats-landara azi bat orman itxatsita zegoan Etxe baten ondora.</p>
+<p>Ekusi zituenean mordo ederki elduak, etorri zitzaion jateko gogo bizia. Abiatu zan alde guzietatik aztertzen, nondikan igo al zezakean mordoak zeuden tokira&ntilde;o. Ez zuen igobide onik arkitu. Dio:</p>
+<p>&mdash;Igoko det landaratik.</p>
+<p>Ordea, nola matsaren adartxo, ta aienak ziran argal, indar, edo sendotasun gabeak, zerbait igo zuenean, erori zan lurrera. Ernegatu bear zuen mordo ederrak ekusi, ta ezin arrapatuaz. Aitortu nai ez zuen bere ezin artua ta dio estalgarritzat:</p>
+<p>&mdash;Mordo oek ez dira oraindikan ondo eldu, gaitz egingo liket jango banitu, ta ala obe det ez jatea.</p>
+<p>Ipui onek adierazoten du, zurtasun, ta asko jaki&ntilde;a izatea dala, noizbait ez dakigulakoa egitea. Orregatikan,</p>
+<p><hi rend='Italic'>Ondo da noizbait nai eza erakustea,</hi></p>
+<p><hi rend='Italic'>Ta jakinda, ez jaki&ntilde;arena egitea.</hi></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>IPUI 35</hi></p>
+<p><hi rend='Bold'>Ogi-gaztaia ta Sagua</hi></p>
+<p>Ogi-gaztaia zar batek ezin artu zituen Saguak o&ntilde;ak astunak zeuzkalako, ta asmatu zuen sartzea iri&ntilde;a zegoan Arrazko batean, ta irten zuen zuriz janzirik. Jarri zan toki illunean, bestela ezinda, asmo gaiztoz saguak arrapatzeko. Eldu zan toki artara sagu gaitz gabeko bat, ta begitandurik, gauza zuria ekusita, janariren bat zala, erori zan bere etsaiaren atzaparretan. Ala eldu ziran beste sagutxo bi, ta gertatu zitzaien beste anbeste. Eldu zan Arratoi zar, asko jaki&ntilde;, ta beti zebillena ondo bazter ta gauzai begiratzen, erori ez zidin lakioren batean. Zuritasuna ekusita ez zan ero erorik iru sagutxoak bezela geiegi urreratu. Igarri zion irin utsa ez zala; bazebillela gauza biziren bat, illaren itxurapean. Diotsa:</p>
+<p>&mdash;O sagu arrapatzalle arnasea ito nai dezuna, ta so&ntilde;oko zuriz estalirik zaudena! Asmo oriek on ta egokiak dira sagu gazte, ta gutxi jaki&ntilde;ak arrapatzeko uste uste gabean; ez ordea ni bezelako soldadu zar, zure ta zu bezelakoen asmoak ondo ikasirik dauzkenak atzaparretara eramateko. Askotakoa egin bazaituzte zeure urte askoak, bai ni ere jakiteko non zer dagoan.</p>
+<p>Ipui onek dio, indarrik ez duten askok beren buruak gordetzeko, badituztela zurtasun, ta argia, desegiteko etsaien sendotasun, eta asmoak.</p>
+<p><hi rend='Italic'>Belar artean dago Sugea,</hi></p>
+<p><hi rend='Italic'>Ez bada izan arduragabea.</hi></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>IPUI 36</hi></p>
+<p><hi rend='Bold'>Itzaia ta Otsoa</hi></p>
+<p>Gizon bat zebillen basoko larrean Idiak zaitzen, ta urbildu zitzaion itoka Otsoa. Diotsa ark oni:</p>
+<p>&mdash;O Otso salobrea! Zerk zakarzki ona ain estu ta larri?</p>
+<p>&mdash;Ez dakutsu &mdash;eranzuten dio Otsoak&mdash; nola datorren Eizaria nere billa? Ez arren ni salatu, ez esan zein bide artu dedan.</p>
+<p>&mdash;Zoaz beldur gabe &mdash;diotza Izaiak&mdash; ez diot txist bat aterako, ta erakutsiko diot okerreko bidea.</p>
+<p>Andikan laster eldu zan Eizaria, ta galdetu zion Itzaiari, nora zan Otsoa, zein bide artu zuen. Au zegoan urtxoan sasipe batean ezkutaturik, ta ikaraz. Itzai asko jaki&ntilde;ak eskuz ta aoz erakusten dio bide okerrekoa; ba&ntilde;a begien ki&ntilde;uz zuzen, ta Otsoa zegoana. Eizariak ez zioen igarri begien ki&ntilde;uai, ta esku ta aoz erakutsi zion bideari jarraitu, ta okertu zan. Irten zuen sasipetik Otsoak, ta diotsa, oni Itzaiak:</p>
+<p>&mdash;Esker andiak eman bear dizkidatzu gorde zaitudalako; itzekoa izan naiz.</p>
+<p>&mdash;Bai &mdash;eranzun zion Otsoak&mdash; eskerrak zure ezpa&ntilde;ai, ta zure eskuai; ba&ntilde;a madarikatua izan didilla zure begi gaizto ki&ntilde;ularia.</p>
+<p>Ipui ederra itz laba&ntilde; ta samurrekin biotz dollor ta tolesturaz betea dutenentzat, ta ezagu eraziteko zenbat kalte egin dezaketen. Auan bat, biotzean beste bat, da gizon malmutz, ta okerren natua. Argatik,</p>
+<p><hi rend='Italic'>Askok dituzte itz eztitsuak,</hi></p>
+<p><hi rend='Italic'>Ta biotzez, asmo beazunduak.</hi></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>IPUI 37</hi></p>
+<p><hi rend='Bold'>Otsoa ta atxurlaria</hi></p>
+<p>Otso bat erori zan lakio batean, ta ekusi zuten gatigu zegoala Atxurlari batzuek. Urbildu zitzaizkon, ta an zan ekustea, bazuek agakadak ematen, beste batzuek ista ta farra egiten. Esan zioen beren arteko batek:</p>
+<p>&mdash;Gizonak, zertako da gaitz egitea gaitzik egiten ez duenari?</p>
+<p>Atzeratu zituzten aga edo makillak, ta larga zioen gaitz egiteari; errukin ziran ogia jateko ematera&ntilde;o. Gaba eldu zanean, joan zan bakoitza bere etxera, uste izanik, illko zala Otsoa goizerako. Gau artan urratu zituen lokarriak, iges egin zuen, ta laster sendatu zan. Gogoan zerabillen, nola gaitz egin berak ere bere gaizkillai. Biurtu zan basorik soro ta landetara, ta aserrezko sua zeriola, ekin zioen arrapatu zituen Arzai ta Atxurlariai. Larga zituen batzuek illik, beste batzuek gaizki zauriturik. Sartu zitzaien beldurra, inguru artako errietakoai, ta erregutu zioen gaitzik ez egitea.</p>
+<p>&mdash;Ondo da &mdash;dio Otsoak&mdash; barkatuko dioet jo ba&ntilde;o egin ez nautenai; idukiko ditut adiskidetzat nerekin errukitu, ta ogia eman zidatenak; ba&ntilde;a gogoango didate bizitza kendu nairik ebilli ziranak.</p>
+<p>Ipui onek erakasten digu, biotz bigu&ntilde;eko, ta errukiorra izaten: Bada</p>
+<p>Edoze&ntilde;i on egiozu</p>
+<p>Noizbait damuko ez dezu.</p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>IPUI 38</hi></p>
+<p><hi rend='Bold'>Aragi-epallea ta Aria</hi></p>
+<p>Ari asko zebiltzan larrean alkarrekin aldra, edo tegi bat eginda. Etorri zitzaien okelasaltzalle, edo erriko Aragi-epallea, ta eraman zuen Ari bat. Bere lagunak egon ziran geldi, txistik ere atera gabe, asko ezpalitza bezela anbesteren artetik bat eramatea. Ala bein banaan, egunoro eramaten zuela bat bakarra, gelditu zan lagun gabe Ari galant ta mardo bat. Etorri zan onen atzean ere, ta eskuak egozteko unean diotsa Ari onek:</p>
+<p>&mdash;O gure etsai odolgiroa! Eraman dituzu nere lagunak; ezkutatu dezu tegi guzia geldika ga&ntilde;ibet gogorraren bidez bizitza kentzeko. Nerekin zoaz beste anbeste egitera. Gurea da erakeria. Alkar ondo artu bagendu, lenengo etorrerean guziok topeka ekin baginizu, gordeko gi&ntilde;an eriotzatik. Txoroak izan gera alkarri ez laguntzeaz. Orain bakarrik arrapatzen nauzu, ta ez naiz asko zuri arpegi emoteko.</p>
+<p>Ipui ederra ikasteko, nola alkar ondo artu bear duten erri, naiz etxe batekoak. Ari me bat erraz etetzen da; ez alkarrekin soka lodi bat egiten bada. Au ondo aituko balitza, banatuko ezpalira gure borondateak, ez lirake ekusiko anbeste errierta, ezin ikusi, ta auzi: Bada</p>
+<p><hi rend='Italic'>Arriskuari aurrez begiak ezarri</hi></p>
+<p><hi rend='Italic'>Kalte andiak ez ditezen etorri.</hi></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>IPUI 39</hi></p>
+<p><hi rend='Bold'>Txori-artzallea ta Txoriak</hi></p>
+<p>Udako egunetan zeudela Txoriak kerizpean alzutena jaten, ekusi zuten begi gaiztoko Txori-artzalle bat, nola prestatzen zebillen ka&ntilde;abera, ta zakuan zekartzen sareak. Txori gaixoak uste izan zuten gizon ura zala beren ongillaren bat, ta beren errukiz malkoak zeriozkala begietatik. Beren artean zorionez zeukaten txori pizkor, asko jakin, ta begiratu bat, ze&ntilde;ek ezagutzen zituen gizonaren asmo galgarriak, ta diotsate:</p>
+<p>&mdash;nere lagun maiteak, ez dabil gure onean piztadun sare ipinitzalle ori; negarra ta errukia ba&ntilde;o urrago du farra gu gakusazalko. Dauzkan sareak, dira gu barrunbean arrapatzeko; ta bere lepo-zakua, edo brur-jakea, gu gordetzeko. Sinis nazazute. Nai baditugu buruak gorde, iges egin bear degu bereala, ta orretarako egoak ekin gora igo, nagitasunari lekurik eman gabe. Bestela eroriko gera bere sare asmo gaiztoz zabalduan. Antzi&ntilde;atik dakizkit onelakoen asmoak; bein ba&ntilde;o geiagotan arkitu naiz berak arrapatzeko irriskuan.</p>
+<p>Sinistu zituzten Txori asko-ekusiaren esanak; igo zuten landatik gora, egaaturik; larga zuten Txori-artzallea aoa zabalik bere sare ta buru-jakearekin, iges egin ziotelako atsekabeaz.</p>
+<p>Ikasi bear degu Ipui onekin, artu bear dirala ondo nai digutenen, ta jakitunen itz edo esan zuzengarriak. Ez jaki&ntilde;ak asko galdu ditu, ta gorde ere bai burua galtzetik; norbaitek erakutsi dioelako erorgarri, edo irriskua: Bada</p>
+<p><hi rend='Italic'>Lagun jakitunari jarraitu,</hi></p>
+<p><hi rend='Italic'>Bere itz onak pozik artu.</hi></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>IPUI 40</hi></p>
+<p><hi rend='Bold'>Gizon egia zalea, Gezurtia ta Tximoa</hi></p>
+<p>Gizon bik irten zuten alkarrekin lurra, ta erriak ekustera; bata zan egia zalea, ta bestea gezurti utsa. Zebiltzan zebiltzan eldu ziran Tximoak zeuden baso batera. Tximo nagusi, edo besten buru bezela zanak, esan zioen beste Tximo mendekoai.</p>
+<p>&mdash;Ara non dakustazan gizon bi; zoazte, ta esan egiozute, datozela nere aurrera.</p>
+<p>Egin zuten mandatua Tximo batzuek, ta eraman zituzten gizon aiek Tximo nagusiaren aurrera. Eldu orduko oek, exeri zan bera aulki eder batean; ipi&ntilde;i zituen albo bietatik beste Tximo guziak, ematen ziola bakoitzari zegokion tokia. Galdetu zion Tximo nagusiak gizon bi aietatik batari, ta au zan gezurtia:</p>
+<p>&mdash;Zer diote nigatik gizonak?</p>
+<p>Eranzun zion:</p>
+<p>&mdash;Deritzat, zu zerala Errege andi bat, zure inguru ta aldamenetan daudenok dirala, batzuek Jauna andiak, ta besteak Soldau agintarien artekoak.</p>
+<p>Gezurra bazerion ere, jaso zuelako itz laba&ntilde;ekin Erregetzera&ntilde;o, Erregeren izena aitu nai zuen Tximo nagusia, diotsa:</p>
+<p>&mdash;Esan dezulako egia, emango zatzu sari eder bat.</p>
+<p>Arro arrorik gelditu zan Tximo nagusia gezurrezko andikeriarekin; ta galdetu zion egia zalea zan gizon bigarrenari:</p>
+<p>&mdash;Eta zuk zer diozu?</p>
+<p>Zion onek bere artean:</p>
+<p>&mdash;Gezurra esan duenari ematen badioe emen alako saria, nolakoa emango ez zaio egia esaten duenari?</p>
+<p>Eranzun zion bada:</p>
+<p>&mdash;Zu, ta emen zauden guziok zerate Tximo batzuek, ta besterik ez.</p>
+<p>Aserratu zitzaion Erregeren izena enzun nai zuen Tximo nagusiari, ta diotsa:</p>
+<p>&mdash;Zer? zatoz ona nor geran agertzera? Ez eman niri Erregetasuna, ta oei andikiena? Tximo utstzat eman? Ill bear dezu, itz egin ez dezulako nere gogora.</p>
+<p>Ala ill zuten egia esan zuena, ta saristatu gezurti andia.</p>
+<p>Ipui onek salatzen ditu lurreko asko. Gezurti, itz laba&ntilde; zaleak, biotz tolestua dutenak, igo oi dute sarri leku goietara, agindupetik agintari izaitera; ta egia zaleak, gezur gorrotokoak, biotz garbikoak, jo oi dute goitik bera, ta asko alditan gezurra da saristatua, ta egia zapaldua. Ba&ntilde;a</p>
+<p><hi rend='Italic'>Gorde zaite itz laba&ntilde;etatik,</hi></p>
+<p><hi rend='Italic'>Ta alde egizu gezurtietatik.</hi></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>IPUI 41</hi></p>
+<p><hi rend='Bold'>Astoa ta Leoia</hi></p>
+<p>Asto batek basoan zebillela, topatu zuen Leoia, ta diotsa oni:</p>
+<p>&mdash;Igo bear degu mendi ga&ntilde;era, ta erakutsiko dizut, nola asko ta asko nere beldur diran.</p>
+<p>&mdash;Goazen bada &mdash;esaten dio Leoiak farra eginda.</p>
+<p>Igo zutenean, asi zan Astoa arrantza sendoak egiten.</p>
+<p>So&ntilde;u au enzun zutenen Baso artan zeuden Erbi, ta Kuiak irten zuten sasipetatik, ta artu zuten igesa. Diotsa orduan Astoak Leoiari:</p>
+<p>&mdash;Ez dakustsu nola nere beldurrak atera dituen iges egiteko?</p>
+<p>Eranzun zion Leoiak;</p>
+<p>&mdash;Asto Jauna, Erbi ta Kuiai igesa artu erazotzeko asko ta geiegi da Txakurtxo baten zauka. Ez zaite bada orrenbestera&ntilde;o arrotu. Egingo banu nik emen orroa bat, ekusiko zenduke, nola ikararen ikaraz iges egingo lukeen Zezenak, Basaurdeak, Otsoak, Artzak, Katamotzak, Mandoak, ta: nork ez? Zein gutxi beldurtu nauzun ni! Zera bada Asto buru andiko, ta belar luzedun bat ba&ntilde;o geiago?</p>
+<p>Ipui onek esan nai du, farragarria dala askoren arrotasuna, ezer egin ezin, ta gauza askotakotzat berenn buruak saldu nai dituztela. Bada</p>
+<p>Izan gabe, burua andiriztea,</p>
+<p>Da Asto arranzaria izaitea.</p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>IPUI 42</hi></p>
+<p><hi rend='Bold'>Arranoa ta beste Egaztiak</hi></p>
+<p>Arrano asko jakin batek neke gabe janaria billatzea gatik, asmatu ta zabaldu zuen bere jaiotzegunean eman nai zioela mai, edo bazkari eder bat beste Egaztiai. Eldu ziran bera ba&ntilde;o Egazti txikiago batzuek Arrano prestu onen etxera; ta barrunbean zeuzkala, itxi zituen ate, ta irten bide guziak. Ill zituen banaka, ta berekin egin ere bai egun askotan bazkari ederrak.</p>
+<p>Ipui onek dio, Gizon andi, ta aberats batzuen bazkari emate, ta beste palagagarriak, dakartela gezur, ta asmo gaiztoa nekazarien kaltean. Au ekusten da bide txarreko irabazi naietan. Eske&ntilde;iko diozke aurrez diruak, erruki balituzte bezela; eman ere bai epean gari ta artoak. Au da Arranoaren bazkari eske&ntilde;tzea. Ba&ntilde;a beren bizkarretik gizenduko dira, eskatuko diozkelako emanak ba&ntilde;o geiagoak. Laster egingo dira nekazarien gari ta artoen jabe. Aberastu dira berak, oek argalduaz, koipe guzia jan dioelako. Ala bada</p>
+<p><hi rend='Italic'>Erri askotan dira Arrano gizenduak,</hi></p>
+<p><hi rend='Italic'>Ta nekazari gaixo, berak argalduak.</hi></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>IPUI 43</hi></p>
+<p><hi rend='Bold'>Leoia ta Aizeria</hi></p>
+<p>Gizenduta zegoan leoi batek, siniserazo nai zuen eririk zegoala, ta erakarten zituen bera ekustera beste Abere ta Lauo&ntilde;ekoak, zalako guzien buru, edo Erregea. Ordea eltzea ta irenstea guzia bat zan. Eldu zan leiza atarira asko jaki&ntilde;a zan Aizeri bat. Diotsa oni Leoiak bere etzuntegi, edo oetik:</p>
+<p>&mdash;Atoz aurrera.</p>
+<p>&mdash;Ez ni &mdash;eranzun zion Aizeriak&mdash;. Dakustaz sartzen diradenan o&ntilde;atzak, ez ordea irtetzen dutenenak.</p>
+<p>Ala gorde zuen burua asko jaki&ntilde;ez, ta begiratua izanaz.</p>
+<p>Ipui onek erakasten du, besteen kalte, irrisku, ta gaitzetatik ikasi bear degula gere gordebidea. Orragatikan</p>
+<p><hi rend='Italic'>Besteen gaitzetan ipi&ntilde;i begiak,</hi></p>
+<p><hi rend='Italic'>Ta ekusi nondik diran etorriak.</hi></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>IPUI 44</hi></p>
+<p><hi rend='Bold'>Otso ta Asto gaixotua</hi></p>
+<p>Jaki&ntilde;ik Otsoak gaixo, edo eririk zegoala Astoa, joan zitzaion ekustera sendatzeko estalgarriaz. Ikutzen zion an ta emen, ta diotsa:</p>
+<p>&mdash;Non dezu mi&ntilde;? Non dago zure gaitza?</p>
+<p>Eranzun zion Astoak bere Mediku, edo Sendagille ederrari:</p>
+<p>&mdash;Zuk ikutzen didazun leku guzietan daukat mi&ntilde;ik andiena. Orretan dago nere gaitza, edo kaltea; ta eskerrak emango dizkitzut pakean bazaude. Zu bezelako Sendagillak dira gaitza irasteko obeak.</p>
+<p>Ipui onek dio, gizon gaiztoak saldu nai dutenean on egi&ntilde;a itz ederrakin, orduan ari dirala geien gaitz egiten. Bada</p>
+<p><hi rend='Italic'>Ez sinistu gizon gaiztoari</hi></p>
+<p><hi rend='Italic'>Gezurra dariolako alakoari.</hi></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>IPUI 45</hi></p>
+<p><hi rend='Bold'>Txindurria ta Txirriskia</hi></p>
+<p>Neguko egunean Txindurriak ateratzen zituen gari ale lurpean gordeak eguzkira, barunbean geiegi ezkoturik usteldu ez zitezen. Ikusi zuen onetan Txirriska so&ntilde;ulariak, ta eskatu zion zer jan. Diotsa Txindurriak:</p>
+<p>&mdash;Nere laztana, zer egin dezu udan negurako jangarria bildu gabe? Ez dakizu nola ni nekatzen naizan mugonez gero goserik ez idukitzeko? Alperra izanda, nai dezu i&ntilde;oren bizkarretik bizi?</p>
+<p>Eranzun zion Txirriskiak:</p>
+<p>&mdash;Ez nuen udan astirik izan bear egiteko, ebilli nintzalako erririk erri, bazterrik bazter so&ntilde;ua jotzen.</p>
+<p>&mdash;Ederki &mdash;esaten dio Txindurriak&mdash; so&ntilde;uarekin uda zabala olgantzan igaro badezu, igaro egizu negua dantzatzen. Ala berotuko zera; ala kenduko dezu gosea.</p>
+<p>Zeinbat artzen ote ditu Ipui onek? eta zein ederki erakasten digun Txindurriak iges egiten alperreri! Gosea ill nai dute askok i&ntilde;oren bizkarretik. Iduki ere bai zer jan nekatu gabe. Argatik</p>
+<p><hi rend='Italic'>Alperrak izango du gosea,</hi></p>
+<p><hi rend='Italic'>Ta soroa zalga txarrez betea.</hi></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>IPUI 46</hi></p>
+<p><hi rend='Bold'>Pagoa ta Ka&ntilde;aberea</hi></p>
+<p>Baso batean zeuden alkarren ondoan Pagoa, ta Ka&ntilde;aberea. Etorri zitzaien egoi aize zatar ta sendoa, ta Pagoak ez zuen beratu ta makurtu nai, ta bai arpegi eman, ta jarki aize gogorrari, esan ez zidin bera ba&ntilde;o sendoagoa zala aizea. Berriz Ka&ntilde;aberea makurtzen, ta obentzen zitzaion, ta zerabillen aizeak bein batera, bein bestera, sendo egon ezinik. Diotsa Pagoak:</p>
+<p>&mdash;O Ka&ntilde;abera argal, miazti, ikarakorra! Zergatik zabiltza zabuka ordi baten gisan, sendo egon ezinda? Ez dakutsu nola ni sendoago naizan aize guziak ba&ntilde;o? Emen ausitzen dira beren aserreak, niri zaburik eragin gabe. Arpegi ematen dioet, ta ezin dute ezer nirekin.</p>
+<p>Eranzun zion Ka&ntilde;abereak:</p>
+<p>&mdash;Ezagutzen det nik nere argaltasuna; ez naiz ni zu bezein sendoa; ez det erakutsi nai ez dedanik.</p>
+<p>Alako batean dator aize olatu ain portitz ta gogaitkarria, non da ausi zuen gerri gerritik gure Pagotzarra, ta jo zuen bera, o&ntilde;ean gelditzen zala Ka&ntilde;abera giratzallea. Lurrean zetzala Pagoa egoi-aizeak garaiturik, diotsa Ka&ntilde;abera zutik zegoanak.</p>
+<p>&mdash;O Pago luze, lodi ta mardoa! Nora dira zure arrotasunak? Zergatik sinistu ez, zegoala zu ba&ntilde;o indartsuagorik? Zure orri, edo ostro argi egiten zutenak zimeltzen asi dira; laster igartuak ekusiko ditugu. Etorriko ere dira gizonak beren aizkorakin jo dezulako lurra, ta lotsa kenduta, txikituko zaituzte, etxetara eraman ta surtan erretzeko. Ona zertara etorri dan zure errotasuna. Ni makurtzen nintzaion aizeari, ta nago orain zutik kalte gabe.</p>
+<p>Ipuin ezin obea adierazotzeko gizon arro, astin, ta buruiritzikoai, nola geroenean izango diran beratuak. Burua makurtzen dutenak, edo humillatzen diranak geldituko dira zutik, kalte gabe, aizerik gogorrenak garaitu ezin dituela. Zenbat mutill ta gizon arrok, indarrak erakutsi naia gatik, iritzirik sendoagoak diradela burruka ta makillaka, garaituak izan dira, jo dute bea, lurpera gorputza eramatera&ntilde;o! O arrotasuna! Zenbat galdu dituzun! Orregatik egia garbia da, beratzen dana biotz arrotuz, beratua. Esopok ba&ntilde;o obeto jakin bear dute egia au Jesukristoren eskolan azi diranak. Bada</p>
+<p><hi rend='Italic'>Ez inoiz burua goratu geiegi,</hi></p>
+<p><hi rend='Italic'>Eroria izan ez zaitean beregi.</hi></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>IPUI 47</hi></p>
+<p><hi rend='Bold'>Mandakoa, Aizeria ta Otsoa</hi></p>
+<p>Zebillen Mandako bat mendipeko ibar batean belarra jaten; etorri zitzaion Aizeria, ta galdetu zion onek:</p>
+<p>&mdash;Nor zera?</p>
+<p>Eranzun zion Mandakoak:</p>
+<p>&mdash;Zaldi gra&ntilde;oe galant bat zan nere Aita-aita.</p>
+<p>&mdash;Ez dizut ori galdetzen &mdash;diotsa Aizeriak&mdash; ta bai nor zeran?</p>
+<p>&mdash;Ni naiz lau-o&ntilde;ekoa &mdash;eranzun zion Mandakoak.</p>
+<p>&mdash;Gogaitgarria zera &mdash;esaten dio Aizeriak&mdash; esazu bada zein dan zure izena.</p>
+<p>Berriz Mandakoak:</p>
+<p>&mdash;Ez dakit nik ori; ill zitzaidan Aita gaztetxoa nintzala, ta nere izena aztu ez zidin, itxasi zidan nere ezkerreko ta atzeko oin pean; ezin inoiz irakurri izan det. Zu zera irakurlaria, jasoko dizut o&ntilde;a, ta ekusiko dezu zer dion, ta esango didazu.</p>
+<p>Aizeriak, askojaki&ntilde;a izanik, igarri zion zer asmo zerabillen Mandakoak; alde egin zuen ixillik, ta dio:</p>
+<p>&mdash;Era ederra Otso nere etsai tontotzarra galtzeko.</p>
+<p>Billatu zuen bada Otsoa zetzala kerizpe batean, ta pozez bezela diotsa:</p>
+<p>&mdash;O ero zenzu gitxikoa! Zer egiten dezu emen? Jaiki zaite bereala, atoz nerekin ta erakutsiko dizut non dagoan Mandako gazte, gizen ta aragi samurrekoa. Ez det nik indarrik itotzeko, zuk bai. Zuk illko dezu, ta biok sartuko gera partillean.</p>
+<p>Sinistu zion Aizeriari, ta joan zan Otsoa berekin, Mandakoa zegoan ibarrera. Galdetu zion Otsoak:</p>
+<p>&mdash;Zu nor zera?</p>
+<p>&mdash;Ni naiz &mdash;eranzun zion&mdash; Zaldi gra&ntilde;oe galant baten illoba.</p>
+<p>&mdash;Ez diot ori &mdash;esan zion Otsoak&mdash; ezpada, nor zeran zu?</p>
+<p>&mdash;Ni naiz bada &mdash;eranzun zion Mandakoak&mdash; lauo&ntilde;ekoa.</p>
+<p>&mdash;Gogaitkarria zaude &mdash;diotsa Otsoak&mdash; esazu zuzen, zein da zure izena?</p>
+<p>&mdash;Ori ezin esango dizut &mdash;eranzun zion Mandakoak&mdash;. Gaztetxoa nintzala, nere Aitak itxatsi zidan izena atzeko, ta ezkerreko o&ntilde;aren azpian. Irakurri nai badezu, atoz ononzago; jasoko dizut o&ntilde;a, jakingo dezu zein dan nere izena, ta niri ere jakin erazoko didazu.</p>
+<p>Otso zatar gatz gabe, ta tontotzarrak eskatu zion o&ntilde;a irakurtzeko, ta Mandako jaki&ntilde;agoak aurtigi zion ostikada gogor bat, jo zuen bekokiaren erdian; bota eragin ziozkan begiak, ta garu&ntilde;ak buru ezurra ausirik, ta larga zuen bertan illik. Aizeria bitartean zegoan zelataka ekusteko zertan gelditzen zan irakurte alakoa. Irten zuen pozez beterik zegoan gisatspetik, urreratu zitzaion illari, ta diotsa:</p>
+<p>&mdash;O Tontotzar adin ta gatz gabea! Zerk sartu au ez iakian gauzan? Nola igarri ez, gordeko zuela burua ire ortzetatik Mandako ostikariak? Ez gaituk orain ire beldur, ez Mandakoa, ez ni.</p>
+<p>Ipui ederra ezaguerazitzeko berritxu jaki&ntilde;gurai beren zorotasun, ta tontotasuna. Zein ero ta buru kaltekoa dan galtzeko, irriskuan jartzen dana!</p>
+<p><hi rend='Italic'>Ez galdetu bear ez danik,</hi></p>
+<p><hi rend='Italic'>Ez aditzeko nai ez dezunik.</hi></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>IPUI 48</hi></p>
+<p><hi rend='Bold'>Mika egarritua</hi></p>
+<p>Egarritu zan Mika bat, ta irten zuen ur billa. Eldu zanean Iturrira, ikusi zuen sakonduta zegoala ura, berak antxitu ezin zezakean bezela. Estutu zan, ba&ntilde;a ekusten du Neskatxen batek ura eramateko ekarri zuen galleta bat, ordea zei&ntilde;a ez zegoan erdira&ntilde;o baizik urarekin.</p>
+<p>&mdash;Au zer da! &mdash;dio&mdash; Egarriak ito bear nauela uraren ondoan? Iturri sakondutik, ta galleta erdi betetik urik artu ezinez? Zer egin dezaket?</p>
+<p>Asmatu zuen ekartzea, ta bein banan botatzea galletara arri kosko, edo txikitxoak. Zenbat geiago botatzen zituen, anbat gorago igoten zuen galletako urak, ta azkenik asmo onekin igoerazi zion berak nai bezela edan zezakean neurrira&ntilde;o.</p>
+<p>Asko dezake eskuak,</p>
+<p>Ba&ntilde;a geiago buruak.</p>
+<p>Garaituko dezu ezin egi&ntilde;a,</p>
+<p>Baldin bazera asko jaki&ntilde;a.</p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>IPUI 49</hi></p>
+<p><hi rend='Bold'>Nekazaria ta Idisko gaztea</hi></p>
+<p>Nekazari baserriko batek zedukan Idisko mardo, ba&ntilde;a alper ta ezi gabea. Uste izan zuen jabeak askoko zala ezitzeko uztartzea Idi paketsu ta bearrera oituarekin. Ikusi zuenean Idiskoa lepoa gatigu, asi zan orroaz, ostikoka indarka, ta bota zuen uztarria ugalak urraturik. Ikusirik Nekazariak Idiskoaren uzutasun, ta ezi ezi&ntilde;a, lotu ziozkan o&ntilde;ak, ebaki ere bai adar biak zorrotzak zeuden aldetik, ala adar motzekin i&ntilde;ori gaitzik egin etzegion. Uztartu zuen berriz. Idiskoak urratu zituen lokarriak, ateratzen zuen lur autsa jabeari itxuerazitzeko bezela. An ziran putzak, an ostikokak, an orroak, an aoko pitsa. Aserratu zitzaion Nekazariari, ta diotsa:</p>
+<p>&mdash;Idisko zoratua, egin ziat alegi&ntilde;a ezitzeko ire arrotasuna; ez ziagok iretzat ez uztarri, ez ugal sendorik; laguna galtzeko asko aiz; lotsarik gordetzen ez diok jaten ematen dianari. Alperrik izango dira nere neke berriak; berdin ez ziagok iretzat ezibiderik. Bada nik kenduko diat betiko, ta laster, ere arrotasuna; eramango aut Aragitegira, ta Epallearen mallu gogorrak beratuko dik burua.</p>
+<p>Ipui onek dio, gazte uzu, natu txar, ta aziera gaiztokoak berandu, nekez, ta askotan i&ntilde;oiz ere ezi ezin dirala. Zigorrada, agiraka ta beldur garri guziak alperrak dirala. Idiskoa gorputztu, mardotu, ta zezendu bada, jaikiko da jabe beraren kontra. Onelako gizasemeak bakarrik ezi oi dira, edo presondegi gogorretan, edo obeto urkabean. Ala bada txikitxotatik eman bear da aziera ona; aurtxoak zigortxoa ekusita beldurtzen diranean. Orregatikan</p>
+<p><hi rend='Italic'>Gaizto gogortuaren ezibidea,</hi></p>
+<p><hi rend='Italic'>Da urkabera eramatea.</hi></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>IPUI 50</hi></p>
+<p><hi rend='Bold'>Piztia itxusi ta Gizon bideaztia</hi></p>
+<p>Lidiako aldamenetan dagoan, ta Atlos deritzon mendi batean ezagutzen dira piztia izugarri ta itxusi batzuek; buruetan dituzte Idiskoak bezelako adarrak; o&ntilde;etan dirudite Auntzak, ta beste guzian daukate gizon nano, edo txiki baten itxura. Eldu zan mendi artara leku urrutietatik Erromes, edo gizon bideazti bat. Irten zion esan degun bezelako Abere zatar, edo Gizon-piztiatu itxusiak, ze&ntilde;ari ematen dioen Satiroaren izena. Diotsa onek pakez gizon Erromesari:</p>
+<p>&mdash;Atoz beldur gabe nere etxera; emango dizut mai ona; bada mendi onetako aldats, ta elurrak nakatuaz ga&ntilde;etik, eman izango dizute gosea.</p>
+<p>Etxera eldu ziranean, gizon bideaztiak eskuak berotzeko estutzen, ta igortzitzen zituen bata ta bestea alkarrekin, egozten ere zuen aoko arnasea esku sabeletara. Maian jarri zanean, ekarri ziezten janaririk ederrenak, ta sabela berotzeko katillu bete ardo berotu ta zirakiana. Urbildu zuenean ezpa&ntilde;etara, erre ziozkan ardo irakiten zegoanak, ta txut esanik, asi zan ardo gorituari putz egiten. Bazekusan au Abere zatarrak, ta diotsa gizonari:</p>
+<p>&mdash;Au zer da? gauza desberdin bi dakustaz zugan. Ao batekin berotu zinituen arnasa emanda esku-sabelak; ta ao berarekin puzka ta puzka otztu nai dezu ardo beroa. Gizon okerra zera zu, bi aldetara egiten dezuna, ta biotz tolestuaren jabea. Ez det nik nere etxean iduki nai zu bezelako gizonik. Zoaz bada nai dezun lekura, ta etorri zeran bidetik.</p>
+<p>Ipui onek arrapatzen ditu biotz ta ao biko gizonak, atzetik saldu, ta aurretik arpegi ona daukatenak.</p>
+<p><hi rend='Italic'>Ez da ez farra egiteko,</hi></p>
+<p><hi rend='Italic'>Arpegi bi idukitzea,</hi></p>
+<p><hi rend='Italic'>Batez pakea saltzea,</hi></p>
+<p><hi rend='Italic'>Besteaz auzi emateko.</hi></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>IPUIAK ITZ NEURTU, EDO BERSO EUSKARAZKOAN</p><--</head>
+        </front>
+        <body>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>ADIGARRIA</p><--</head>
+        </front>
+        <body>
+<p>Gure Euskara ez dala egi&ntilde;a lauki, edo zortziko batzuetarako bazik, esango dute ez gutxik. Jasoko dituzte Erdarak zerura&ntilde;o, azpiratzeko Itzkera etxekoa. Samaniego, ta Renteria Jaunak ots egiten dute, ipuiak berso, edo itz neurtuetan, ta Gaztelarren itzkuntzan argira emanaz. Nork, diote gero, euskarara ezarri, ta anbeste berso gisatan, ipuiak? Aitu diot zerbait dakianari, Samaniego ta Renteria jakin izan balute Erdera bezein ondo gure Euskera, gatz oraindikan obea idukiko zutela beren ipui-bersodunak. Gauza oetan itzak ugariagoak dituela gure itzkerak gaztelarrenak ba&ntilde;o. Bestetik, gure itzak badituzte otsidakoak ta abere kontuak ondo ezagunak dira gure Baserri, ta mendietan. Ez da gaitza igartea, zertan dagoan gure Poesia, edo bersogintzen laburtasuna. Dago bada bururik nekatu ez dalako; oitu ez diralako Euskaldunak zortziko, ta laukoetara baizik. Ai baleude aitatu ditudan bezelako jakitunak, Samaniego ta Renteria Euskaldun euskarara eman batzuek! Beste egunik ekusiko luke gure Poesiak, edo bersogintzak. Asi bear da ta jarraitu, aurreratuko bada. Asieran ez dira gauzak osotuak ekusten. Geldika egiten dira aurrerapenak.</p>
+<p>Esan nuen len berso ipuizko oiek ez dirala nere burukoak. Pillo andi bat dauka eginda nere Osaba Jaunak; ta pillotik artuak dira emen ekusiko diran gutxi batzuek. Saiagarri bat da au, ta ez geiago.</p>
+<p>Esango ere da gure Euskeraren lotsagarrirako, ez duela berso, edo Poesiak etxeko izenik. Ba&ntilde;a esan dezakegu, ez duela inoiz izan? Arkitzen dira Erri onetan, ta paper txit zarretan, berso euskerazko batzuek, anzi&ntilde;ako pergami&ntilde;o lizunduetatik paper, guretzat zarretara, igaroak, ta an Poesiari ematen zaio <hi rend='Italic'>ereziaren </hi>izena. Aztu bada, ez egotzi Euskarari, ta bai Euskaldunai.</p>
+<p>Ez arren erriertarik jaso bakoitzaren gogora itzak jokatzen ez badira. Giputzkoan ere ez dabiltza berdin. Batzuek diote <hi rend='Italic'>maitea, pakea... </hi>beste batzuek, <hi rend='Italic'>maitia, pakia; </hi>aiek esatea nai dute <hi rend='Italic'>burua, lekua... </hi>oek, <hi rend='Italic'>buruba, lekuba; duben, zuben; duen </hi>edo <hi rend='Italic'>zuen... zoroa, eroa; </hi>besteak, <hi rend='Italic'>zorua, erua. </hi>Aurkeriak dira oek, ta gizon aituak ez dira geldituko utskeria oetan.</p>
+<p>Beste gauza bat. Ipui ondo egi&ntilde;etan ez dira arkitu bear aurtxo, ta Nekazariak erraz adituko ez dituzten gauzak. Onetan uts egiten dute, egia badio Samaniego Jaunak, ipuilari geienak. Erakeria andia bestera egitera, nola litzakean Baserriko neskatx batentzat erostea Dama mundutarrentzat bear bada geiegiak diraden janzi pitxituak.</p>
+<p>Nola guziak ez dakiten euskera ondo, adituak izan ditezen izen batzuek ipi&ntilde;iko da bersoen o&ntilde;ean beren azalketa edo esan naia.</p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>IPUI 1</hi></p>
+<p><hi rend='Bold'>Andra alarguna ta Olloa</hi></p>
+<p>Andra alargunak etxean</p>
+<p>Zedukan zori onean</p>
+<p>Ollo arrautzaria</p>
+<p>Egunoro ipintzea</p>
+<p>Utsik gabe arrautzea.</p>
+<p>Dio pozez bere artean:</p>
+<p>&mdash;Ematen diodanean</p>
+<p>Aldi batez artoa</p>
+<p>Arrautza egunekoa</p>
+<p>Badit beti ipintzen;</p>
+<p>Zer baldin eramaten</p>
+<p>Badiot nik bi bider?</p>
+<p>Arrautza bat ez da ezer;</p>
+<p>Emanik jan aldi bi;</p>
+<p>Egingo ere nau ni</p>
+<p>Andi biren jabe;</p>
+<p>Nola asmatu ez dube</p>
+<p>Gauza onelakorik?</p>
+<p>Ala ero erorik</p>
+<p>Gizendu zan olloa;</p>
+<p>Ta arrautza batekoa</p>
+<p>Alpertu zan guzia.</p>
+<p>Beti izan da egia:</p>
+<p><hi rend='Italic'>Geiegi billatzea</hi></p>
+<p><hi rend='Italic'>Ezer gabe gelditzea.</hi></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>IPUI 2</hi></p>
+<p><hi rend='Bold'>Otsoa ta Antxumea</hi></p>
+<p>Aunz bat zijoan basora</p>
+<p>Antxumea etxean itxirik</p>
+<p>Okulluban ondo gorderik</p>
+<p>Irten ez zezan kanpora.</p>
+<p>&mdash;Kontu &mdash;diotsa&mdash; ez irten,</p>
+<p>Biurtu nadin artean;</p>
+<p>Eta i&ntilde;or bada atean,</p>
+<p><hi rend='Italic'>Oles, oles </hi>egiten,</p>
+<p>Ez idiki beingoan;</p>
+<p>Zaude iratzarritik,</p>
+<p>Ta begiak idikirik,</p>
+<p>Ni an ote nagoan.</p>
+<p>Zelata dago otsoa</p>
+<p>Esan ziona aditzen,</p>
+<p>Ba&ntilde;a goseak estutzen</p>
+<p>Zuen agitz gaiztoa.</p>
+<p>&mdash;Antxume aragia</p>
+<p>&mdash;Dio&mdash; da txit samurra;</p>
+<p>Ba&ntilde;a bear da gezurra</p>
+<p>Neretzeko <hi rend='Italic'>giberria.</hi></p>
+<p>Dijoa ixillik atera</p>
+<p>Aunz amaren so&ntilde;uaz,</p>
+<p>Asmo gaiztoz artuaz</p>
+<p>Ta onela arrapatzera.</p>
+<p>Antxumeak du gogoan</p>
+<p>Bere amaren esana</p>
+<p>Asko maitez emana</p>
+<p>Basora zan ondoan.</p>
+<p>Ala atearen zirritutik</p>
+<p>Daramazki begiak</p>
+<p>Ta erakusten dio argiak</p>
+<p>Zegoan leku ezkututik,</p>
+<p>Zala bere etsai otsoa,</p>
+<p>Ez bere ama maitea.</p>
+<p>&mdash;O <hi rend='Italic'>malmutz goseberea!</hi></p>
+<p>Zein aizan i gaiztoa!</p>
+<p>Ala gogoz kortatik</p>
+<p>Diotsa bere etsaiari.</p>
+<p>Eta, zer ipuiak gazteari?</p>
+<p>Enzun beza bertatik.</p>
+<p><hi rend='Italic'>Artu bear dira gogoan</hi></p>
+<p><hi rend='Italic'>Zar jakintsuen esanak</hi></p>
+<p><hi rend='Italic'>Kalte-artuz eman diranak.</hi></p>
+<p><hi rend='Italic'>Ez utzi i&ntilde;oiz alboan.</hi></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>IPUI 3</hi></p>
+<p><hi rend='Bold'>Lapurrak eta Ollarra</hi></p>
+<p>Etxe batean lapurrak ziran sartu;</p>
+<p>Nai zituzten bazterrak aztertu</p>
+<p>Goi goitik eta bera;</p>
+<p>Gero ere ez zuten ezer atera;</p>
+<p>Ollar zar bat bai. <hi rend='Italic'>Ze izakaria!</hi></p>
+<p>Ba&ntilde;a lapurrentzat ona da geia.</p>
+<p>&mdash;Artu dezagun &mdash;diote&mdash; <hi rend='Italic'>lumati ederra,</hi></p>
+<p>Gangor gorri, <hi rend='Italic'>allatsu, </hi>buru arroa</p>
+<p>Aragiz lodi, mamintsu, mardoa,</p>
+<p>Guretzat izango da gaur eperra.</p>
+<p>O nolako aparia!</p>
+<p>Gozatzeko sabel goseberia.</p>
+<p>Bazeramaten ollarra iltzera,</p>
+<p>Eltze batean egosten ipintzera.</p>
+<p>Eman zion ollarrak negarrari,</p>
+<p>Biotza biguntzeko lapurrari.</p>
+<p>&mdash;Zertako nauzute ni, o gizonak!</p>
+<p>Ezpaditut aragi samur, ta onak!</p>
+<p>Ordea guzia alperrik,</p>
+<p>Lapurrak ez dutelako errukirik.</p>
+<p>Ollarrak jardun ta jardun ber bera,</p>
+<p>&mdash;Zertako naramazute ni iltzera?</p>
+<p>Artu baninduzute ollasko nintzanean,</p>
+<p>Samurra izango nintza ezpa&ntilde;ean.</p>
+<p>Ill didilla ollanda bigu&ntilde; ta gozoa.</p>
+<p>Ollar zarra, ze <hi rend='Italic'>janari zozoa.</hi></p>
+<p>Nakutsute zarturik,</p>
+<p>Gogor, gauza ez, ta zaildurik.</p>
+<p>Ez naiz bizi ni i&ntilde;oren kaltean</p>
+<p>Gizonak esnatzen ditut gabean.</p>
+<p>Bizi naizala banaiz zerbaitako;</p>
+<p>Illtzen banazute, ez ezertako.</p>
+<p>Nere so&ntilde;ua da txit aitua</p>
+<p>Ta iratzarteko loak artua.</p>
+<p><hi rend='Italic'>&mdash;Egitekoaren bizarra!</hi></p>
+<p>Gangor andiarekin aiz gangarra.</p>
+<p>Euk eman dek iltzeko erabakia,</p>
+<p>Ire lepoa izateko ebakia.</p>
+<p>Dituala &mdash;diok&mdash; gizonak iratzarten,</p>
+<p>Ta jaiki ditezen gabaz, so&ntilde;utzen?</p>
+<p>Ori berriz lapurren aurrean?</p>
+<p>Galdua aiz gaur gure <hi rend='Italic'>batzarrean.</hi></p>
+<p>Eroa, orretan ziagok gure kaltea;</p>
+<p>Iretzat ere bai orain iltea.</p>
+<p><hi rend='Italic'>Gaiztagi&ntilde;ak ez du nai argirik,</hi></p>
+<p><hi rend='Italic'>Ez da ere ezaitea ezaguna;</hi></p>
+<p><hi rend='Italic'>Okerrerako nai du illuna,</hi></p>
+<p><hi rend='Italic'>Ta ez idukitzea ekuslarik.</hi></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>IPUI 4</hi></p>
+<p><hi rend='Bold'>Baserritarra ta Basaurdea</hi></p>
+<p>Baserritar bati basaurdeak</p>
+<p>Egiten zizkon bere soroan</p>
+<p>Kalte asko, gari, ta artoan,</p>
+<p>Ta igestzen zion abereak.</p>
+<p>&mdash;Zer? &mdash;dio&mdash;: Ez aut nik artuko,</p>
+<p>Ta noiz edo noiz eskupetuko?</p>
+<p>Etortzen zitzaion gabaz sarri,</p>
+<p>Alako batean eskuak zizkon ezarri.</p>
+<p>Bai bere zorionean,</p>
+<p>Ipintzen zuela bere mendean.</p>
+<p>Ebakitzen dio ezker-belarria,</p>
+<p>Largatzeko ala ezagugarria.</p>
+<p>Bidaltzen du bada ala basora,</p>
+<p>Biurtu ez zidin berriz sorora.</p>
+<p>Sendatu zitzaionean zauria,</p>
+<p>Ezpazuen ere lengo belarria,</p>
+<p>Gerta zitzaionaz azturik,</p>
+<p>Ekusi zuen soroan sarturik.</p>
+<p>Igesa artu zion;</p>
+<p>Arrapatzeko astirik eman etzion.</p>
+<p>Beste gabean dago zelatatzen,</p>
+<p>Ta dakus artoak lurreratzen.</p>
+<p>Belar-bakoitzak marra marra,</p>
+<p>Nola zaldi batek garagarra,</p>
+<p>Apurtzen zuen bere ortzetan,</p>
+<p>Biurtzen zuela iri&ntilde;etan.</p>
+<p>Baserritar gaixo kaltetuak</p>
+<p>Egotzi ziozkan berriz eskuak.</p>
+<p>Ebakitzen dio belarri eskuikoa</p>
+<p>Largatzeko ala belar-motzekoa.</p>
+<p>Gurrinka dijoa au basora,</p>
+<p>Odola zeriola, ez sorora</p>
+<p>Geiago joateko asmoaz.</p>
+<p>&mdash;Ai ai! &mdash;dio&mdash; zergatik zoaz</p>
+<p>Kalte egitera bazterretan?</p>
+<p>Ez dezu arte ale, lur-arbietan</p>
+<p>Zerekin gosea ase ugari?</p>
+<p>Zertako baserritar gaixoari</p>
+<p>Galdu zuk izerdia</p>
+<p>Ta bere urte guziko janaria?</p>
+<p>Sendatu zan berriz belar motzekoa,</p>
+<p>Ta gogora zitzaion arto sorokoa.</p>
+<p>&mdash;Banoa ara &mdash;dio&mdash; naiz ari&ntilde;a,</p>
+<p>Txakurrakin jostatzera egi&ntilde;a.</p>
+<p>Ez bada beldurrik,</p>
+<p>Jateko bear ez det belarririk,</p>
+<p>Dijoa gelditxo soro maitera;</p>
+<p>Belarriak daramazki etxera,</p>
+<p>Otsik ote dan ango atean,</p>
+<p>Ez baldin bazan bera bitartean</p>
+<p>Artoz asetzeko atseginez,</p>
+<p>Ez izuz, ikaraz, ta beldurrez.</p>
+<p>Baserritarra orduko soroan</p>
+<p>Bere morroiakin zelata zegoan.</p>
+<p>Ala dute arrapatzen</p>
+<p>Ta lokarri sendoakin gatigatzen.</p>
+<p>Urde zatarrak ordu ain estuan,</p>
+<p>Eskintza ederrak egiten zituan.</p>
+<p>Enzuterik ez zaio ematen,</p>
+<p>Bai berriz aserrez esaten;</p>
+<p>&mdash;Kalte gille gaiztoa!</p>
+<p>Zergatik izan aiz ain eroa?</p>
+<p>Ekusi dek nere onegitasuna,</p>
+<p>Nik ere bai ire gaiztotasuna.</p>
+<p>Ez ziagok barkaziorik,</p>
+<p>Ez iri bizitza largatzeko gogorik.</p>
+<p>Erori aiz irugarrenez gure eskuetan,</p>
+<p>Burnia izango dek ire saietsetan.</p>
+<p>Au esanaz iltzen dute beingoan,</p>
+<p>Artu ere bai morroiak lepoan,</p>
+<p>Poz pozik etxera eramateko,</p>
+<p>Ta auzoetan berri onak emateko.</p>
+<p>Ala biaramonean</p>
+<p>Ipi&ntilde;i zuten zatarra zaldi ga&ntilde;ean.</p>
+<p>Artzen dituzte burni zulatuak,</p>
+<p>Su-auts ederrarekin prestatuak.</p>
+<p>Abiatzen da sutunpa gogorra,</p>
+<p>Esna zezakeana ordi konkorra.</p>
+<p>&mdash;Zer da au? &mdash;diote erriko mutillak,</p>
+<p>Atso, agure, ta umetxo sotillak.</p>
+<p>Asitzen da berriz su-aize so&ntilde;ua;</p>
+<p>Alde askotan ekusten da la&ntilde;ua.</p>
+<p>Jesten dirade errira</p>
+<p>Basaurde zatarrari daude begira.</p>
+<p>Dijoaz andiki baten etxera,</p>
+<p>Itxusi arekin eskintza egitera.</p>
+<p>Hakuste, ba&ntilde;a arriturik,</p>
+<p>Ez zuela basaurdeak belarririk.</p>
+<p>Biltzen da ara gizon tegia;</p>
+<p>Ateratzen ere zaie zaragia.</p>
+<p>An bai zala atsegi&ntilde;a!</p>
+<p>Ardoaz onratzen kaltegi&ntilde;a.</p>
+<p>Ebakitzen diote burua;</p>
+<p>Jende guzia dago arritua,</p>
+<p>Ez zuelako garu&ntilde;ik agiri;</p>
+<p>Ezin ere zioten igarri.</p>
+<p>Zertan zegoan ipuia;</p>
+<p>Ote zan gezurra, edo egia.</p>
+<p>&mdash;Ez zaitezte, jaunak, arritu;</p>
+<p>Dakutsutenaz ez miraritu;</p>
+<p>Dio batek asko jaki&ntilde;ik,</p>
+<p>Ta ipuia egiaztu nairik.</p>
+<p>&mdash;Nola mu&ntilde;ak iduki</p>
+<p>Basaurdetzarrak? belarri bi,</p>
+<p>Galdu ezkero, badia sorora,</p>
+<p>Ekarri gabe leena gogora.</p>
+<p>Gastiguak ondutzen ez duena</p>
+<p>Da mu&ntilde;gabe, ta zoruena.</p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>IPUI 5</hi></p>
+<p><hi rend='Bold'>Txakurra ta Katua</hi></p>
+<p>Txakur-katuak, nork sinistu?</p>
+<p>Zeuden bein erretillu batean</p>
+<p>Alkarrekin jaten pakean,</p>
+<p>Ta ez ziran batere tximistu.</p>
+<p>Etxeko jaunak bertatik</p>
+<p>Auzokoai, erakusteko zergatik,</p>
+<p>Deiturik, abiatzen zaie esaten,</p>
+<p>Nola ez dituzute ekusten</p>
+<p>Etsai gogor bi paketurik</p>
+<p>Eta mai batean alkarturik?</p>
+<p>Txakur, ta Katua adiskide,</p>
+<p>Balira bezela senide?</p>
+<p>Zer egin ez lezake ekanduak,</p>
+<p>Eta gauza batera oituak?</p>
+<p>Beazuna bera eztitu;</p>
+<p>Gizon sutsua otzitu;</p>
+<p>Aserre erraza bigundu:</p>
+<p>Okerrena ere zuzendu.</p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>IPUI 6</hi></p>
+<p><hi rend='Bold'>Katamotza ta Zakurra</hi></p>
+<p>Kaiola burnitsuan</p>
+<p>Katamotz uzua zegoan sarturik</p>
+<p>Zekusala txakur bat porturik</p>
+<p>Kate gaba, jolas, ta parlanzuan.</p>
+<p>Desberdintasuna ekusi zuenean,</p>
+<p>Sartu zan katamotza aserrean,</p>
+<p>Zerua besoz nai du arrapatu,</p>
+<p>Eta zeduzkan burniak urratu.</p>
+<p>Diotsa bada deadarrez,</p>
+<p>Biraoz, araoz, eta aserrez:</p>
+<p>&mdash;Nola ni ain itzaltsu ta ari&ntilde;a izanik</p>
+<p>Naukate emen estu, ta gatigu?</p>
+<p>Zera nerekiko argala zu,</p>
+<p>Ez dezulako nere atzapar, ez za&ntilde;ik.</p>
+<p>Dezu ala ere aldi gozagarria</p>
+<p>Ara, ta onako bizitza ibiltaria.</p>
+<p>Berriz ni atsekabez,</p>
+<p>Burni artean naukatela beldurrez.</p>
+<p>&mdash;Ondo da &mdash;dio txakurrak&mdash; ez arritu;</p>
+<p>Egotea zu orrela, ta ni askatu;</p>
+<p>Zera atzapartsu, ta odol zalea,</p>
+<p>Ni gizon, ta etxeen gordetzallea.</p>
+<p>Ezpazi&ntilde;a ere alakoa,</p>
+<p>Ezin izan nindeke zu bezein gaiztoa.</p>
+<p>Sartzen diezu guziai beldurra;</p>
+<p>Egia da au, ta ez gezurra.</p>
+<p>Zertako dira indar, ta putzak lurrean</p>
+<p>Izango badira beti gure kaltean?</p>
+<p>Zenbat obeago bigun izaitea,</p>
+<p>Ta biotz errukitsua agertzea?</p>
+<p>Ez dezu nai katearik?</p>
+<p>Ez bada inoiz egin kalterik.</p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>IPUI 7</hi></p>
+<p><hi rend='Bold'>Katu Eizari basokoa Zortzikoan</hi></p>
+<p>Anzi&ntilde;a erri batean</p>
+<p>Bizi zan katua,</p>
+<p>Geldi egon bearrez</p>
+<p>Guziz gogaitua;</p>
+<p>Igesa artu nai du</p>
+<p>Etxetik basora,</p>
+<p>Igarotzeko egunak</p>
+<p>Bere gogo osora.</p>
+<p>Dio: &mdash;Zer da etxekoak!</p>
+<p>Emen nik sarturik?</p>
+<p>Egon bear ote det</p>
+<p>Beldurrez beterik?</p>
+<p>Sukaldera banoa,</p>
+<p>Etxe neskameak</p>
+<p>Nereganatzen ditu</p>
+<p>Bere aserreak.</p>
+<p>Illiti ta berzunak</p>
+<p>Dizkiz aurtigitzen,</p>
+<p>Nere bizkar ezurrak</p>
+<p>Asko minberatzen.</p>
+<p>Au da ematen didan</p>
+<p>Eguneko-ogia,</p>
+<p>Ala artu dezadan</p>
+<p>Ganbara bidia.</p>
+<p>Narabilte etxean</p>
+<p>Sarri illariaz,</p>
+<p>Lapurreta guziak</p>
+<p>Niri egotziaz;</p>
+<p>Asmo txatar onekin</p>
+<p>Beti naute zaitzen;</p>
+<p>Oramaian okelak</p>
+<p>Dizkide gordetzen.</p>
+<p>Alako baten bada</p>
+<p>Dia neskamea</p>
+<p>Beste toki batera;</p>
+<p>Ba&ntilde;a sukaldea</p>
+<p>Txakur baten pekora</p>
+<p>Didate largatzen,</p>
+<p>Utzi nai ez didala</p>
+<p>Onek urreratzen.</p>
+<p>Katuak bear dute</p>
+<p>Bizi ganbaretan,</p>
+<p>Billatu janaria</p>
+<p>Etxe saguetan;</p>
+<p>Suak argaltzen ditu,</p>
+<p>Ta guziz makaldu,</p>
+<p>Ala gure mixitxo</p>
+<p>Guzia da galdu.</p>
+<p>Au da enzuten dedan</p>
+<p>So&ntilde;u betikoa;</p>
+<p>Gero estaltzen dute</p>
+<p>Kontuz lapikoa,</p>
+<p>Arrapa ez dezadan</p>
+<p>Geli egosia,</p>
+<p>Ta beren janaritik</p>
+<p>Asa nik gosia.</p>
+<p>Egun pakezko gabe,</p>
+<p>Nor bizi onela?</p>
+<p>Ez da neretzat obe</p>
+<p>Iges bereala</p>
+<p>Mendira egitea,</p>
+<p>Zer jan billatzeko,</p>
+<p>Sabel ain muuritua,</p>
+<p>Noizbait betetzeko?</p>
+<p>Katuak bere asmoa</p>
+<p>Artu zuen laster,</p>
+<p>Eizan arrapatzeko</p>
+<p>Ollagor, ta eper,</p>
+<p>Baso satorrak, eta</p>
+<p>Erbi gaztetxoak,</p>
+<p>Birigarro, zozoak,</p>
+<p>Beste txoritxoak.</p>
+<p>Basoan artu zuen</p>
+<p>Leku ezkutua,</p>
+<p>Ala dago gorderik</p>
+<p>Gure bizartsua;</p>
+<p>Kateak egozteko</p>
+<p>Pizti, ta egaztiai,</p>
+<p>Bidea zabaltzeko</p>
+<p>Este zimurtuai.</p>
+<p>Laster zan bai gizendu</p>
+<p>Misotxo gurea,</p>
+<p>Mendian ez du izaten</p>
+<p>Etxeko gosea;</p>
+<p>Dio: &mdash;Au janaria!</p>
+<p>Samur gozatsua,</p>
+<p>Errian bizi dana</p>
+<p>Da txit zoratua.</p>
+<p>Katu eremutarrak</p>
+<p>Ez du nai belarrik,</p>
+<p>Ez aran, ez mispilla,</p>
+<p>Ez baso-sagarrik;</p>
+<p>Aragi samurretan</p>
+<p>Dago koipetua,</p>
+<p>Baraua dadukala</p>
+<p>Betiko aztua.</p>
+<p>Zebillela onela</p>
+<p>Pozez zoraturik,</p>
+<p>Dijoaz Eizariak</p>
+<p>Su-armak arturik;</p>
+<p>Laguntzat dituztela</p>
+<p>Eiza-zaukariak,</p>
+<p>Billatu, ta iltzeko</p>
+<p>Eper, ta erbiak.</p>
+<p>Usaika zebillela</p>
+<p>Txakur bat lurrean,</p>
+<p>Beingoan gelditu zan</p>
+<p>Sasitza aurrean.</p>
+<p>Zegoan an Padarra</p>
+<p>Ixill, ta gorderik;</p>
+<p>Txakurrak nai ez zuen</p>
+<p>Aldatu tokirik.</p>
+<p>Eizariak dirade</p>
+<p>Ingurura biltzen,</p>
+<p>Ollagor, eper, edo</p>
+<p>Erbiak irtetzen</p>
+<p>Ote zuen sasitik,</p>
+<p>Sua egiteko,</p>
+<p>Illik, eskuz artuta</p>
+<p>Brujakaratzeko.</p>
+<p>Uste uste gabean</p>
+<p>Dakuste katua;</p>
+<p>Sasipe sakonduan</p>
+<p>Guzia sartua;</p>
+<p>Zeuzkala aldamenean</p>
+<p>Ezurrak ugari,</p>
+<p>Zala kaltegillea</p>
+<p>Zioten igarri.</p>
+<p>Amorruz, ta erneguz</p>
+<p>Dute arrapatzen,</p>
+<p>Lokarri sendoakin</p>
+<p>Gero gatigatzen,</p>
+<p>Esaten diotela:</p>
+<p>&mdash;Eiza-gaitzallea!</p>
+<p>Emen galdu bear dek</p>
+<p>Ire bizitzea.</p>
+<p>&mdash;Gizonak, zer egin det?</p>
+<p>&mdash;diotse katuak&mdash;</p>
+<p>Ager zakizkidatzu</p>
+<p>Nere bekatuak;</p>
+<p>Baldin zuen laguna</p>
+<p>Banaiz ni onetan,</p>
+<p>Zertako ipintzea</p>
+<p>Gaur ni kateetan?</p>
+<p>Agintaria andia,</p>
+<p>Kaltegi&ntilde; andia,</p>
+<p>Nola zigorperatu</p>
+<p>Lapurtxo txikia?</p>
+<p>Lapur artutzalleak,</p>
+<p>Badira lapurrak,</p>
+<p>Irentsiko dituzte</p>
+<p>Mami, ta ezurrak.</p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>IPUI 8</hi></p>
+<p><hi rend='Bold'>Astoa eta Otsoa</hi></p>
+<p>Astoak bizkar ezurrean</p>
+<p>Zeukan zori txarrez zauria;</p>
+<p>Zan ikuskizun negargarria</p>
+<p>Belatzarrak ekin zionean;</p>
+<p>Alperra ostikadea,</p>
+<p>Eta arrantza gogorrak egitea</p>
+<p>Astazaia begira dago farraz,</p>
+<p>Ta belea jaten aukeraz.</p>
+<p>Gauza errukarria!</p>
+<p>Astoaren ez egotea errukia.</p>
+<p>Ekusten zegoan larpetik Otsoa</p>
+<p>Zein larri zerabilten Astoa;</p>
+<p>Astazaiak bereaz ez errukirik</p>
+<p>Ez belatxarrari iges erazoterik.</p>
+<p>&mdash;Zori gaiztokoa ni,</p>
+<p>Bere eskupean banagi ipi&ntilde;i;</p>
+<p>Bada ondo aztertu badidi</p>
+<p>Gizon gaiztagin otsotuak</p>
+<p>Daude Ipui onetan sartuak.</p>
+<p>Beti bizi bear dute oek ikaraz</p>
+<p>Ez jolasetan, ta algaraz.</p>
+<p>AZKENA</p>
+        </body>
+      </text>
+    </group>
+  </text>
+</TEI.2>
+

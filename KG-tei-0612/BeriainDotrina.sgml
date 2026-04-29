@@ -1,0 +1,930 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN"
+                       "http://www.tei-c.org/P4X/DTD/tei2.dtd" [
+   <!ENTITY % TEI.prose    'INCLUDE' >
+   <!ENTITY % TEI.linking  'INCLUDE' >
+   <!ENTITY % TEI.analysis 'INCLUDE' >
+   <!ENTITY % TEI.figures  'INCLUDE' >
+   <!ENTITY % TEI.XML      'INCLUDE' >
+   <!ENTITY % TEI.extensions.ent SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.ent' >
+   <!ENTITY % TEI.extensions.dtd SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.dtd' >
+]>
+<TEI.2>
+  <teiHeader>
+  <fileDesc>
+     <titleStmt>
+        <title>Dotrina kristioarena euskaras</title>
+        <author>Juan Beriain</author>
+        <respStmt>Bertsio elektroniko honen egilea: I&ntilde;aki Camino.</respStmt>
+     </titleStmt>
+     <extent>11.752 hitz, 83.478 karaktere</extent>
+     <publicationStmt>
+        <publisher>Klasikoen Gordailua [http://klasikoak.armiarma.com/]</publisher>
+        <distributor>Estrata Liburuak S.L.</distributor>
+        <address type='email'>klasikoak@armiarma.com</address>
+        <idno type='ota'>BeriainDotrina</idno>
+        <availability status='free'>Erabilpen librekoa; honoko helbidean topa daiteke (HTML, RTF eta PDF formatuetan): http://klasikoak.armiarma.com/idazlanak/B/BeriainDotrina.htm</availability>
+        <date>2006</date>
+     </publicationStmt>
+     <sourceDesc>
+        <bibl>Iturria: Doctrina Christiana escrita en Romance y Bascuence, Iuan de Beriayn. Carlos de Labayen, 1626</bibl>
+        <notesStmt><note>Iturburuen datazioa: 1626</note></notesStmt>
+     </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+     <projectDesc>Euskal literaturako testu klasikoen bilduma da KLASIKOEN GORDAILUA; testu hau berorren parte da</projectDesc>
+     <refsDecl>
+        <p>MENTIONED etiketa egilearenak ez diren hitzak markatzeko erabili da: hitzaurreak, aipuak, iruzkinak, e.a.</p>
+    </refsDecl>
+     <classDecl>
+        <taxonomy id='generoa'>
+            <category id='G-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='G-ANT'><catDesc>Antzerkia</catDesc></category>
+            <category id='G-BER'><catDesc>Bertsoak</catDesc></category>
+            <category id='G-ERL'><catDesc>Erlijioa</catDesc></category>
+            <category id='G-NAR'><catDesc>Narratiba</catDesc></category>
+            <category id='G-POE'><catDesc>Poesia</catDesc></category>
+            <category id='G-SAI'><catDesc>Saiakera, kronika, artikuluak...</catDesc></category>
+        </taxonomy>
+        <taxonomy id='garaia'>
+            <category id='M-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='M-16'><catDesc>XVI. mendea</catDesc></category>
+            <category id='M-17-1'><catDesc>XVII. mendea - 1. erdia</catDesc></category>
+            <category id='M-17-2'><catDesc>XVII. mendea - 2. erdia</catDesc></category>
+            <category id='M-18-1'><catDesc>XVIII. mendea - 1. erdia</catDesc></category>
+            <category id='M-18-2'><catDesc>XVIII. mendea - 2. erdia</catDesc></category>
+            <category id='M-19-1'><catDesc>XIX. mendea - 1. erdia</catDesc></category>
+            <category id='M-19-2'><catDesc>XIX. mendea - 2. erdia</catDesc></category>
+            <category id='M-20-1'><catDesc>XX. mendea - 1. erdia</catDesc></category>
+            <category id='M-20-2'><catDesc>XX. mendea - 2. erdia</catDesc></category>
+        </taxonomy>
+        <taxonomy id='euskalkia'>
+            <category id='E-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='E-BAT'><catDesc>batua</catDesc></category>
+            <category id='E-BIZ'><catDesc>bizkaiera</catDesc></category>
+            <category id='E-BNA'><catDesc>behenafarrera</catDesc></category>
+            <category id='E-ERR'><catDesc>erronkariera</catDesc></category>
+            <category id='E-GIP'><catDesc>gipuzkera</catDesc></category>
+            <category id='E-GNA'><catDesc>goi nafarrera</catDesc></category>
+            <category id='E-LAP'><catDesc>lapurtera</catDesc></category>
+            <category id='E-NAF'><catDesc>nafarrera</catDesc></category>
+            <category id='E-ZAR'><catDesc>zaraitzuera</catDesc></category>
+            <category id='E-ZUB'><catDesc>zuberera</catDesc></category>
+        </taxonomy>
+    </classDecl>
+  </encodingDesc>
+  <profileDesc>
+     <textClass>
+       <keywords scheme='generoa'>
+         <list><item>G-ERL</item></list>
+       </keywords>
+       <keywords scheme='garaia'>
+         <list><item>M-17-1</item></list>
+       </keywords>
+       <keywords scheme='euskalkia'>
+         <list><item>E-NAF</item></list>
+       </keywords>
+     </textClass>
+  </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>Dotrina kristioarena euskaras -- Juan Beriain</docTitle>
+    </front>
+    <group>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>DOTRINA KRISTIOARENA EUSKARAS</p><--</head>
+        </front>
+        <body>
+<p>Aita gurea, zeruetan zaudena, santifika bedi zure izena, etorri bedi zure Erre&ntilde;ua, guregana egin bedi zure borondatea, zeruan bezala lurrean ere gure egun orosko ogia eman drazaguzu egun, eta barka drazkiguzu gure zorrak, guk barkazen dizkiotegun bezala geuren zordunei, eta ezkaizazula utzi tentazioan erortera aitzetik libra gaizazu gaizetik, Ala dela.</p>
+<p>Erranen du agian zein baitek eztela erran bear orazio onetan libra gaizazu gaizetik baizik gaiz guzietatik, nola aunizek erraten baitu bada, da gauza ziertoa, eta klaro dena eztela erran bear gaizetatik, bai gaizetik, eta arrazioa da zeren orazio hau bear da erran edo zein lenguaje motan Kristo gure Iaunak ordenatu zuen sentidoan berean itzik batere a&ntilde;aditu, eta jendu bage, eta ala erraten draugu Eliza ama sanduak. Bada Latines erraten dugunean dio, <hi rend='Italic'><foreign>Sed libera nos a malo</foreign></hi>, eta ez <hi rend='Italic'><foreign>a malis</foreign></hi>, eta Erdaras erraten dugunean dio, <hi rend='Italic'><foreign>Mas libranos de mal</foreign></hi><foreign>, </foreign>eta ez <hi rend='Italic'>de <foreign>males </foreign></hi>ala bada Euskaras erran bear dugu gaizetik, eta ez gaizetatik, alaber berze orazioetan Ioanem naiz erranes itzik baterere a&ntilde;aditu, eta gendu bage al dagidan guzias Elizak erraten dizkigun sentidoan berean.</p>
+<p>Iaungoikoak salba zaizala Maria grazias betea Iauna da zureki bedeikatua zara emazten artean: eta bedeikatua da zure sabeleko frutua Iesus. Santa Maria Iaungoikoaren ama, otoiz egizu gu bekatariengatik orai, eta gure heriotzeko orduan, Ala dela.</p>
+<p>Sinestatzen dut Iaungoiko aita guzis poderosoan zeruaren, eta lurraren kreadorearen, eta Iesu Kristoren aren Seme bakoizaren gure Iaunaren baitan: zein konzebitu baitzen Espiritu Sanduare obras, eta jaio zen Birjina Mariaren baitatik: pasatu zuen Pasio doloroskoa, Ponzio Pilato juezaren azpian kruzifikatu izandu zen ill zen, eta orzi zuten: jautsi zen ifernuetara, irurgarren eg<hi rend='Italic'>un</hi>ean illetarik resuszitatu zen: igan zen zeruetara, eta jarririk dago Jaungoiko Aita guzis poderosoaren eskuian, <hi rend='Italic'>andik </hi>etorriko da bizien, eta illen juzgazera: sinestatzen dut Espiritu Sandua baitan, dela Eliza Sandu Katholikoa, Sanduen komunikazioa, bekatuen barkazioa, aragiaren resurrezioa, eta bizize sekulakoa. Ala dela.</p>
+<p>[...] guzis poderoso aren eskuian</p>
+<p>Zazpigarrena sinestatzea andik etorriko dela bizien, eta illen juzgazera, onei aren fedea sinestatu, eta Mandamentuak begiratu dituztenei emateko gloria, eta gaiztoei zeren ezpaituzte begiratu aren Mandamentu Sanduak emateko ifernuko sekulako penak.</p>
+<p>Jaungoikoaren lege sanduaren Mandamentuak dirade amar: lenbiziko irurak Jaungoikoaren honrari konbeni zazkionak, berze zazpiak proximo lagunaren probetxutan diradenak.</p>
+<p>Lenbizikoa Jaungoikoa honra, eta adora dezagula. Bigarrena iuramenturik banoro eztagigula. Irurgarrena igandeak, eta iaiak begira dizagula. Laurgarrena, aita eta ama honrra dizagula. Borzgarrena, iorere ill eztezagula. Seigarrena, Luxuriasko bekaturik eztagigula. Zazpigarrena, deus ebatsi eztezagula. Zorzigarrena, iori falso testimoniorik eraiki eztrazogula, eta ez gezurrik erran. Bedrazigarrena, lagunaren emaztea desea eztezagula. Amargarrena, berzeren gauzarik desea eztezagula.</p>
+<p>Amar Mandamentu obek enzerrazen dirade bidatan: Jaungoikoa gauza guzien ga&ntilde;ean oneristean, eta geuren proximo laguna geurok bezala.</p>
+<p><hi rend='Bold'>Eliza ama sanduaren Mandamentuak dirade borz:</hi></p>
+<p>Lenbizikoa igandetan, eta jaietan Meza osorik enzutea. Bigarrena urtean bein gutienean konfesazea. Irurgarrena komezazea Bazkoa garizumakoan. Laurgarrena baruzea Eliza ama sanduak manazen duenean. Borzgarrena amarren, eta primiziak ongi egitea.</p>
+<p><hi rend='Bold'>Elizako Sakramentuak dirade zazpi:</hi></p>
+<p>Lenbizikoa Bataiazea. Bigarrena Konfirmazea. Irurgarrena Penitenzia. Laurgarrena Komezazea. Borzgarrena Oliadura. Seigarrena Ordenazean errezebizen den Sakramentua deizen baita. Zazpigarrena matrimonioa.</p>
+<p><hi rend='Bold'>Obra Miserikordiaskoak dirade amalaur, zazpi Korporaleak eta berze zazpi Espiritualeak</hi></p>
+<p><hi rend='Italic'>Korporaleak dirade ohek:</hi></p>
+<p>Lenbizikoa da herien bisitatzea. Bigarrena gose denari jatera ematea. Irurgarrena egarri denari edatera ematea. Laugarrena billosirik dagona beztizea. Borzgarrena peregrinoei ostatu ematea. Seigarrena kautiboen reskatazea. Zazpigarrena illen orzizea.</p>
+<p><hi rend='Italic'>Espiritualeak dirade ohek:</hi></p>
+<p>Lenbizikoa eztakienari erakustea. Bigarrena bearrean dagonari konseju ona ematea. Irurgarrena utz eginik doaienari erratea nola doaien gaizki, eta hura utzirik ongi egin dezan erratea. Laurgarrena iniuriak barzazea. Borzgarrena tristeak konsolazea. Seigarrena pazienzias sufrizea proximo lagunaren faltak. Zazpigarrena biziengatik, eta illengatik Iaungoikoari otoiz egitea.</p>
+<p><hi rend='Bold'>Bekatu mortaleak dirade zazpi:</hi></p>
+<p>Lenbizikoa Soberbia. Bigarrena Abarizia. Irurgarrena Luxuria. Laurgarrena Ira. Borzgarrena Gula. Seigarrena Inbidia. Zazpigarrena Pereza.</p>
+<p><hi rend='Bold'>Zazpi bekatu mortale ohen kontra diraden birtuteak, eta ondasunak dirade ohek:</hi></p>
+<p>Soberbiaren kontra Humildadea. Abariziaren kontra Liberal izatea. Luxuriaren kontra Kastidadea. Iraren kontra Pazienzia. Gularen kontra Iatean, eta edatean tenplatu izatea. Inbidiaren kontra Karidadea. Perezaren, eta arloteriaren kontra Dilijente Jaungoikoaren serbizuan izatea.</p>
+<p><hi rend='Bold'>Arimaren etsaiak dirade irur:</hi></p>
+<p>Lenbizikoa da Demonioa. Bigarrena Mundua. Irurgarrena Aragia.</p>
+<p><hi rend='Bold'>Arimaren Potenziak dirade irur:</hi></p>
+<p>Lenbizikoa Memoria. Bigarrena Entendamentua. Irurgarrena Borondatea.</p>
+<p><hi rend='Bold'>Sentido Korporaleak dirade borz:</hi></p>
+<p>Ikustea, Enzutea, Urrin egitea, Gustazea, Ukizea.</p>
+<p><hi rend='Bold'>Birtuteak, eta ondasunak bear ditugunak izan dirade zazpi, irur Teologaleak, eta laurak Kardenaleak</hi></p>
+<p><hi rend='Italic'>Teologaleak dirade ohek:</hi></p>
+<p>Lenbizikoa fedea. Bigarrena Esperanza. Irurgarrena Karidadea.</p>
+<p><hi rend='Italic'>Kardinaleak dirade ohek:</hi></p>
+<p>Lenbizikoa Prudenzia. Bigarrena Iustizia. Irurgarrena Fortaleza. Laurgarrena Tenplanza.</p>
+<p><hi rend='Bold'>Espiritu Sanduaren doaiak dirade zazpi:</hi></p>
+<p>Lenbizikoa Sabiduriaren doaia. Bigarrena Entendamentuaren doaia. Irurgarrena Konsejuaren doaia. Laurgarrena Fortalezaren doaia. Borzgarrena Iakitearen doaia. Seigarrena Piedadearen doaia. Zazpigarrena Jaungoikoaren beldurraren doaia.</p>
+<p><hi rend='Bold'>Espiritu Sanduaren Frutuak ze&ntilde;etatik atrazen baitirade arbole batetik frutua bezala dirade amabi:</hi></p>
+<p>Karidadea. Gozo eta kontentu arimarena. Bakea. Pazienzia. Liberalidadea. Ondasuna. Mansedunbrea. Fedea. Modestia. Kontinenzia. Kastidadea.</p>
+<p><hi rend='Bold'>Bienabenturanzak dirade zorzi:</hi></p>
+<p>Lenbizikoa bienabenturatuak dirade pobre biotzes, eta borondates diradenak, zeren aiena baita zeruko erre&ntilde;ua. Bigarrena bienabenturatuak dirade mansoak, zeren ohek gozatuko dute lurra. Irurgarrena bienabenturatuak dirade nigar egiten dutenak, zeren ohek izanen dirade konsolatuak. Laurgarrena bienabenturatuak dirade justizia deseazen dutenak, zeren ohek izanen dirade aspertuak. Borzgarrena bienabenturatuak dirade miserikordiosoak, zeren ohek erdetsiko dute miserikordia. Seigarrena bienabenturatuak dirade biotzak garbi dituztenak, zeren ohek ikusiko dute Jaungoikoa. Zazpigarrena bienabenturatuak dirade bakes diradenak, zeren ohek izanen dirade deituak Jaungoikoaren Semeak. Zorzigarrena bienabenturatuak dirade justiziarengatik persegituak diradenak, zeren onlakoendako, da zeruko erre&ntilde;ua.</p>
+<p><hi rend='Bold'>Bekatu benialea barkazen da bedrazi gauza ohen bates:</hi></p>
+<p>Lenbizikorik Meza debozioreki enzuteas. Bigarrena dignoro komezazeas. Irurgarrena Jaungoikoaren itza enzuteas. Laurgarrena Ipispikuaren bedeizioas. Borzgarrena Aita gurea errateas. Seigarrena Konfesio jenerala errateas. Zazpigarrena hur bedeikatuas. Zorzigarrena ogi bedeikatuas. Bedrazigarrena bularretan bere bekatuen damu, eta urrikimentu duela golpe emateas.</p>
+<p><hi rend='Bold'>Gizonaren azkeneko gauzak dirade laur:</hi></p>
+<p>Lenbizikoa Heriotzea. Bigarrena Iuizioa. Irurgarrena Ifernua. Laurgarrena Gloria.</p>
+<p><hi rend='Bold'>KONFESIO JENERALA</hi></p>
+<p>Ni bekatariau konfesazen naizaio Jaungoiko guzis poderosoari, Andre dona Maria beti Birjinari, Ioandone Mikel Aingeruari, Ioandone Ioanis Bautistari, Ioandone Petri, eta Paulo Apostoloei, eta Sandu guziei, eta zuri Aita konfesoreorri neure bekatu egines, erranes, pensatues, enea da kulpa, enea da kulpa, enea da kulpa guzis andia; argatik otoiz egiten draukot Andre dona beti Birjinari, Ioandone Mikel Aingeruari. Ioandone Ioanis Bautistari, Ioandone Petri, eta Paulo Apostoloei, eta Sandu guziei, eta zuri Aita konfesoreorri zaraten Jaungoikoaren aurrean ene otoizgille.</p>
+<p><hi rend='Bold'>LENBIZIKO KAPITULOA</hi></p>
+<p><hi rend='Bold'>ze&ntilde;etan adizera ematen baita zein den Kristioaren se&ntilde;alea, eta Kredoan dirade misterioak</hi></p>
+<p><hi rend='Bold'>MAISTRUAK GALDEGIZEN DU,</hi> Kristioa zarade?</p>
+<p><hi rend='Bold'>DIZIPULOAK RESPONDAZEN DU,</hi> Bai Iesu Kristo gure Jaunaren grazias.</p>
+<p><hi rend='Bold'>G.</hi> Zer erran nai du Kristioa?</p>
+<p><hi rend='Bold'>R.</hi> Iesu Kristoren fedea, bataiatu zenean konfesatu zuena, duena.</p>
+<p><hi rend='Bold'>G.</hi> Nor da Iesu Kristo?</p>
+<p><hi rend='Bold'>R.</hi> Jaungoiko, eta gizon egiaskoa.</p>
+<p><hi rend='Bold'>G.</hi> Zein da Kristioaren se&ntilde;alea?</p>
+<p><hi rend='Bold'>R.</hi> Gurutze sandua.</p>
+<p><hi rend='Bold'>G.</hi> Zerengatik?</p>
+<p><hi rend='Bold'>R.</hi> Zerengatik Gurutze sanduan Kristo gure Jauna guruzifikatu izandu baizen, gu bekatutik, eta ifernutik librazeagatik.</p>
+<p><hi rend='Bold'>G.</hi> Zenbat motas usatzen du Kristioak se&ntilde;ale onesas?</p>
+<p><hi rend='Bold'>R.</hi> Bi motas.</p>
+<p><hi rend='Bold'>G.</hi> Zein dirade orihek?</p>
+<p><hi rend='Bold'>R.</hi> Irur Gurutze egitea eskuieko beaz andias. Lenbizikoa bekokian. Bigarrena agoan. Irurgarrena bularretan minzazen dela Jaungoikoareki.</p>
+<p><hi rend='Bold'>G.</hi> Erakutsi zazu nola?</p>
+<p><hi rend='Bold'>R.</hi> Gurutze Sanduaren, se&ntilde;aleagatik gure etsaietatik libra gaizazu Jaungoiko gurea.</p>
+<p><hi rend='Bold'>G.</hi> Zerengatik egin duzu Gurutzearen se&ntilde;alea bekokian?</p>
+<p><hi rend='Bold'>R.</hi> Zeren libra gaizan Jaungoikoak pensamentu gaistoetatik.</p>
+<p><hi rend='Bold'>G.</hi> Zerengatik egiten duzu agoan?</p>
+<p><hi rend='Bold'>R.</hi> Zeren libra gaizan Jaungoikoak itz gaistoetatik.</p>
+<p><hi rend='Bold'>G.</hi> Zerengatik egiten duzu bularretan?</p>
+<p><hi rend='Bold'>R.</hi> Zeren libra gaizan Jaungoikoak obra, eta deseo gaistoetatik.</p>
+<p><hi rend='Bold'>G.</hi> Zer da ze&ntilde;atzea?</p>
+<p><hi rend='Bold'>R.</hi> Egitea eskuieko eskuas Gurutzearen se&ntilde;alea, asi bekokitik, eta bularreta&ntilde;o, eta gero alaber pasazen dituela heriak ezkerreko so&ntilde;etik eskuietako so&ntilde;era Trintate guzis sandua kofesazen dugula dela Jaungoiko bat, eta irur persona.</p>
+<p><hi rend='Bold'>G.</hi> Erakutszazu nola?</p>
+<p><hi rend='Bold'>R.</hi> Aitaren, eta Semearen, eta Espiritu sanduaren izenean.</p>
+<p><hi rend='Bold'>G.</hi> Zerengatik egiten da Gurutzearen se&ntilde;ale hau?</p>
+<p><hi rend='Bold'>R.</hi> Lenbizikorik egiten da dakigun garadela Kristioak eta ala Kristo gure Jaunaren soldadoak: zeren Gurutzearen se&ntilde;alea da librea, eta se&ntilde;ale bat Kristioarena ze&ntilde;es ezagutzen baitirade Kristioak, eta diferenziazen Eliza sanduaren kontra diraden etsaietarik, nola baitirade Turkoak, eta berze jende mota onlako guziak.</p>
+<p><hi rend='Bold'>G.</hi> Eta zergatik geiago?</p>
+<p><hi rend='Bold'>R.</hi> Zeren Gurutze sanduaren se&ntilde;alea egiten dugunean eskazen diogu Trintate Jaun poderosoari digun fabore, eta lagun dakigun geuren obra guzietan Iesu Kristo gure Salbadorearengatik, zeren aren medios librazen garade gaiz guzietatik, eta erdesten ditugu ondasun guziak, eta ala akostunbrazen dute Kristio onek egitera Gurutzearen se&ntilde;alea ohatzetik jaikizen diradenean, etxetik atrazen diradenean, maian jarritzen diradenean, ohatzera doazenean, eta edozein gauza bat asi bear dutenean.</p>
+<p><hi rend='Bold'>G.</hi> Zerengatik anbat aldis?</p>
+<p><hi rend='Bold'>R.</hi> Demonioaren tentazioetatik librazeagatik, ze&ntilde;ek denbora guzietan, eta leku guzietan persegizen baikaitu, prokurazen duela al dagien kalte guzia egitera.</p>
+<p><hi rend='Bold'>G.</hi> Zergatik geiago?</p>
+<p><hi rend='Bold'>R.</hi> Zerengatik se&ntilde;ale oneki lotzazen da demonioa, eta iges egiten du, nola ladronek, eta gaizki egiten dutenek iges egiten baitute ikusi dezatenean justiziaren bara.</p>
+<p><hi rend='Bold'>G.</hi> Eta zergatik geiago?</p>
+<p><hi rend='Bold'>R.</hi> Zerengatik auniz aldis Gurutze sanduonen se&ntilde;aleagatik librazen dira gizonak peligro anizetatik, ala arimaren nola gorpuzaren kontra diradenetatik, egiten dela konfianzareki Jaungoikoaren miserikordian, eta Iesu Kristo gure Jaunaren merejimentuetan, ze&ntilde;etan nai izandu baizuen ill gure amoreagatik.</p>
+<p><hi rend='Bold'>G.</hi> Kristo gure Jauna adorazen duzunean Gurutzean, nola erraten duzu?</p>
+<p><hi rend='Bold'>R.</hi> Adoratzen zaitugu Kristo gure Jauna, eta bedeikazen zaitugu, zeren Gurutze sanduan erredemitu izandu baituzu mundua.</p>
+<p><hi rend='Bold'>G.</hi> Eta Gurutzea solla adoratzen duzunean, nola erraten duzu?</p>
+<p><hi rend='Bold'>R.</hi> Adoratzen zaitut Gurutze bedeikatua ze&ntilde;etan ene erredentore Jauna guruzefikatu izandu baizen.</p>
+<p><hi rend='Bold'>G.</hi> Ia ikusi dugu nola zaraden Kristioa, erran drazadazu zertako kriatu zuen Jaungoikoak gizona?</p>
+<p><hi rend='Bold'>R.</hi> Kriatu zuen gizona ezaguzezan kriatu zuen Jauna, eta Jaungoikoa, eta ezaguturik serbiza zezan, eta ala arzas goza zezan: zeren ezagutzen eztuenak, eta ez serbizazen eztu erdetsiko gloria, aizetik kondenatua izanen da ifernuko penetara erremediorik bage.</p>
+<p><hi rend='Bold'>G.</hi> Orlatan prinzipalkiro, eta kuidado geiagoreki gizonak prokuratu bear duena da salbatzeko konbeni zaizkion gauzak egitera?</p>
+<p><hi rend='Bold'>R.</hi> Ala da egia, zeren gizonari geien konbeni zaiona da Jaungoikoaren serbizazea, eta ala salbazea; zeren ez salbazeko obeago izanen zen jaio izandu ezpaliz.</p>
+<p><hi rend='Bold'>G.</hi> Erran drazadazu, zenbat gauza Kristioa den obligatu jakitera arrazios usatzera etorris gero zeruko gloria erdesteko?</p>
+<p><hi rend='Bold'>R.</hi> Laur gauza.</p>
+<p><hi rend='Bold'>G.</hi> Zein dirade orihek?</p>
+<p><hi rend='Bold'>R.</hi> Lenbizikoa jakin bear du zer bear duen sinestatu. Bigarrena zer bear duen egin. Irurgarrena zer orazio erran bear duen, eta nori. Laurgarrena zer Sakramentu bear duen errezebitu.</p>
+<p><hi rend='Bold'>G.</hi> Nor daki zer bear duen sinestatu?</p>
+<p><hi rend='Bold'>R.</hi> Kredoa, edo Artikulo Fedeskoak dakizkienak.</p>
+<p><hi rend='Bold'>G.</hi> Nork daki zer otoiz egin bear duen, eta zer orazio erran bear duen?</p>
+<p><hi rend='Bold'>R.</hi> Aita gurea dakienak, eta berze Elizako orazioak.</p>
+<p><hi rend='Bold'>G.</hi> Nork daki zer obrak egin bear dituen, eta ze&ntilde;etatik bear duen apartatu?</p>
+<p><hi rend='Bold'>R.</hi> Jaungoikoaren lege sanduko Mandamentuak, eta Elizarenak dakizkienak.</p>
+<p><hi rend='Bold'>G.</hi> Nork daki zer bear duen errezebitu?</p>
+<p><hi rend='Bold'>R.</hi> Sakramentu sanduak dakizkienak.</p>
+<p><hi rend='Bold'>G.</hi> Orlatan obligatu da Kristioa gauza ohek jakitera, eta adizera?</p>
+<p><hi rend='Bold'>R.</hi> Bai jauna, zeren ezin kunpli dezakegu geuren obligazioareki jakin ezpadezagu.</p>
+<p><hi rend='Bold'>G.</hi> Alas eta erran duzunean lenbiziko gauza Kristioa obligatu dena jakitera dela fedesko gauzak, erran drazadazu zer den fedea?</p>
+<p><hi rend='Bold'>R.</hi> Fedea da ikusten eztitugun gauzak diradela egiak sinestatzea; zeren Jaungoikoak baitio ala diradela.</p>
+<p><hi rend='Bold'>G.</hi> Ikusten duzu zuk Jaungoikoa, eta nola den irur persona, eta Jaungoiko bat?</p>
+<p><hi rend='Bold'>R.</hi> Ez Jauna.</p>
+<p><hi rend='Bold'>G.</hi> Ikusi zinduen zuk illzen Iesu Kristo, eta nola erresuzitatu zen illetarik irurgarren egunean, eta gero nola igan zen zeruetara, eta dagola jarririk bere Aitaren eskuietako aldean?</p>
+<p><hi rend='Bold'>R.</hi> Ez, baia sinestatzen dut ikusirik ba&ntilde;o obekiago.</p>
+<p><hi rend='Bold'>G.</hi> Zeren ikusi bage sinestatzen duzu ain firmokiro?</p>
+<p><hi rend='Bold'>R.</hi> Zerengatik Jaungoikoak baitio fedesko gauzak ala diradela, eta dakit zierto kiro eze ezin Jaungoikoa enga&ntilde;a ditekela, eta ezin ior ere enga&ntilde;a dezakela.</p>
+<p><hi rend='Bold'>G.</hi> Nondik dakizu zuk Jaungoikoak diola ala diradela?</p>
+<p><hi rend='Bold'>R.</hi> Dakit Eliza ama sanduak, ze&ntilde;ei Espiritu Sanduak maistruak bezala erakutsirik, erraten baitie ala diradela gauza ohek egiak: eta badakit eze ezin Eliza sandua enga&ntilde;a ditekela fedesko gauzetan, eta ala segurokiro sinestatzen dut ark sinestatzen dituen gauza guziak.</p>
+<p><hi rend='Bold'>G.</hi> Eta zein bear da sinestatzea fedesko gauzak salbazeko?</p>
+<p><hi rend='Bold'>R.</hi> Anbat eze hau bage ezin ihork ere erdetsi dezake gloria.</p>
+<p><hi rend='Bold'>G.</hi> Nola jakinen dugu zer bear dugun sinestatu?</p>
+<p><hi rend='Bold'>R.</hi> Aditzen dugula ongi Kredoan, edo Artikulo fedeskoetan dauden misterioak.</p>
+<p><hi rend='Bold'>G.</hi> Kredoa, eta Artikulo Fedeskoak dirade gauza bat?</p>
+<p><hi rend='Bold'>R.</hi> Bai jauna.</p>
+<p><hi rend='Bold'>G.</hi> Erran ezazu Kredoa?</p>
+<p><hi rend='Bold'>R.</hi> Sinestatzen dut Jaungoiko Aita guzis poderosoan erran den bezala.</p>
+<p><hi rend='Bold'>G.</hi> Nork egin zuen Kredoa?</p>
+<p><hi rend='Bold'>R.</hi> Apostoloek.</p>
+<p><hi rend='Bold'>G.</hi> Zertako?</p>
+<p><hi rend='Bold'>R.</hi> Guri erakusteko zer bear dugun sinestatu zerura ioateko.</p>
+<p><hi rend='Bold'>G.</hi> Eta guk zertako erraten dugu?</p>
+<p><hi rend='Bold'>R.</hi> Fedea konfesatzeagatik eta artan firmoago egoteagatik.</p>
+<p><hi rend='Bold'>G.</hi> Erran izazu Artikulo Fedeskoak?</p>
+<p><hi rend='Bold'>R.</hi> Artikulo Fedeskoak dirade amalaur, erran den bezala.</p>
+<p><hi rend='Bold'>G.</hi> Zer dirade Artikulo Fedeskoak?</p>
+<p><hi rend='Bold'>R.</hi> Fedesko misterio prinzipalenak.</p>
+<p><hi rend='Bold'>G.</hi> Erran zinduen lenbiziko Artikulo Fedeskoa dela sinestatzea dela Jaungoiko egiasko bat. Nor da Jaungoikoa gure Jauna?</p>
+<p><hi rend='Bold'>R.</hi> Da Jaun bat ondasun guziak dituena, gauza guziak dakizkiena, nai duen guzia egin dezakena, gauza guzien kriazallea, eta konserbazallea, ze&ntilde;eak ezpaitu ioren nezesidaderik, eta guziei bai arendako alako maneras eze ezin ior ere manea lite dagon lekutik, eta ezin iolako maneras bizi lite puntu bates Jaun hau lagun ezpalekio.</p>
+<p><hi rend='Bold'>G.</hi> Jaungoikoa da persona bat solamente?</p>
+<p><hi rend='Bold'>R.</hi> Ez jauna, baizik irur.</p>
+<p><hi rend='Bold'>G.</hi> Zein dirade?</p>
+<p><hi rend='Bold'>R.</hi> Aita, eta Semea, eta Espiritu Sandua.</p>
+<p><hi rend='Bold'>G.</hi> Aita Jaungoikoa da?</p>
+<p><hi rend='Bold'>R.</hi> Bai jauna.</p>
+<p><hi rend='Bold'>G.</hi> Semea da Jaungoikoa?</p>
+<p><hi rend='Bold'>R.</hi> Bai jauna.</p>
+<p><hi rend='Bold'>G.</hi> Espiritu Sandua da Jaungoikoa?</p>
+<p><hi rend='Bold'>R.</hi> Bai jauna.</p>
+<p><hi rend='Bold'>G.</hi> Dira irur Jaungoiko?</p>
+<p><hi rend='Bold'>R.</hi> Ez baizik Jaungoiko bat, eta Jaungoiko hau da Aita, eta Semea, eta Espiritu Sandua, eta ala dira irur persona, eta Jaungoiko bat; zeren irur personek baitute sustanzia bat, eta esenzia bat.</p>
+<p><hi rend='Bold'>G.</hi> Aita da semea?</p>
+<p><hi rend='Bold'>R.</hi> Ez jauna.</p>
+<p><hi rend='Bold'>G.</hi> Espiritu Sandua da Aita edo Semea?</p>
+<p><hi rend='Bold'>R.</hi> Ez jauna, zeren irur persona ohek Aita, eta Semea, eta Espiritu Sandua dirade irur persona diferente; baia nola irur persona ohek baitute esenzia bat, eta sustanzia bat, argatik dirade Jaungoiko bat.</p>
+<p><hi rend='Bold'>G.</hi> Orlatan irur persona ohek dute borondate bat, jakite bat, eta podore bat?</p>
+<p><hi rend='Bold'>R.</hi> Ala da egia alako maneras eze Aitak nai duena nai du Semeak, eta Espiritu Sanduak Aitak egiten duena egiten du Semeak, eta Espiritu Sanduak.</p>
+<p><hi rend='Bold'>G.</hi> Orlatan ezta persona bata poderosoago berzea ba&ntilde;o; eta ezta bata leen berzea ba&ntilde;o?</p>
+<p><hi rend='Bold'>R.</hi> Ala da egia; zeren irur personek baitute esenzia, eta sustanzia bat, eta ala dirade gauza guzietan igoal.</p>
+<p><hi rend='Bold'>G.</hi> Nola da Jaungoikoa guzis poderosoa?</p>
+<p><hi rend='Bold'>R.</hi> Zeren nai duen guzia egiten baitu, eta asko da nai izatea egiteko.</p>
+<p><hi rend='Bold'>G.</hi> Nola da Jaungoikoa gauza guzien kriazallea?</p>
+<p><hi rend='Bold'>R.</hi> Zeren Jaungoikoak ematen digu grazia, eta barkazen dizkigu bekatuak.</p>
+<p><hi rend='Bold'>G.</hi> Zerk mobizen du Jaungoikoa ematera guri bere grazia?</p>
+<p><hi rend='Bold'>R.</hi> Bere miserikordia, eta ondasun andiak, eta Iesu Kristo gure Jaunaren merejimentuek.</p>
+<p><hi rend='Bold'>G.</hi> Zer da grazia?</p>
+<p><hi rend='Bold'>R.</hi> Jaungoikoaren adiskidetasun bat egiten baikaitu Jaungoikoaren Semeak, eta herederoak zeruko gloriarendako.</p>
+<p><hi rend='Bold'>G.</hi> Zer maneras erdesten da grazia, eta erdetsis gero artan ailzina gaitezke?</p>
+<p><hi rend='Bold'>R.</hi> Jaungoikoari otoiz egines bere miserikordia, eta ondasun andi<hi rend='Italic'>o</hi>gatik, eta Iesu Kristo gure Jaunaren merejimentuengatik eman drazagun; eta Sakramentu sanduak ongi errezebizen ditugula, eta obra onetan enpleazen garadela.</p>
+<p><hi rend='Bold'>G.</hi> Nola da Jaungoikoa glorifikazallea?</p>
+<p><hi rend='Bold'>R.</hi> Zerengatik ematen baitu gloria aren grazian illzen denari.</p>
+<p><hi rend='Bold'>G.</hi> Purgatoriora doazenak nor dirade?</p>
+<p><hi rend='Bold'>R.</hi> Jaungoikoaren grazian illzen diradenak, baia beren bekatuengatik zor zuten pena guzia pagatu bage.</p>
+<p><hi rend='Bold'>G.</hi> Badu Jaungoikoak gorputzik guk bezala?</p>
+<p><hi rend='Bold'>R.</hi> Ez Dibinidadeas bekanbates, zeren da espiritu solla gorputzik <hi rend='Italic'>batere</hi> bage, baia bai gizon bekanbates.</p>
+<p><hi rend='Bold'>G.</hi> Zein persona iruretatik egin ze gizon?</p>
+<p><hi rend='Bold'>R.</hi> Bigarrena baita Semea.</p>
+<p><hi rend='Bold'>G.</hi> Aita egin zen gizon?</p>
+<p><hi rend='Bold'>R.</hi> Ez jauna.</p>
+<p><hi rend='Bold'>G.</hi> Espiritu Sandua egin ze gizon?</p>
+<p><hi rend='Bold'>R.</hi> Ez jauna, baizik solamente Semea.</p>
+<p><hi rend='Bold'>G.</hi> Nola Jaungoikoaren Semea, izanika Jaungoikoa, egin ze gizon?</p>
+<p><hi rend='Bold'>R.</hi> Arturik gorputza, eta arima arrazios usatzen duena, milagro eginikan Espiritu Sanduaren obras.</p>
+<p><hi rend='Bold'>G.</hi> Zer milagro izandu zen ori?</p>
+<p><hi rend='Bold'>R.</hi> Milagroa izandu ze guzis andia, zerengatik Espiritu Sanduak, baita Jaungoiko bat Aitareki, eta Semeareki, eta ala egin baitezake nai duen guzia, Birjina Andre dona Mariaren sabelean aren odol garbias, eta sanduas formatu zuen aurraren gorpuz bat guzis galanta, eta ederra, eta puntu artan berean kriatu zuen arima bat guzis preziosoa, eta ona, eta juntatu zuen aurraren gorpuzareki, eta Jaungoikoaren Semeak gorpuza, eta arima juntatu zituen puntu, eta instante artan berean bereki; eta ala leen Jaungoikoaren Semea ezpaizen baizik Jaungoikoa, juntatus gero gorpuzareki, eta arimareki da alaber gizon egiaskoa, eta hau erran nai du Jaungoikoaren Semea Kristo gure Jauna, gizon bekanbates konzebitu zela Espiritu Sanduaren obras bere Ama Andre dona Mariaren sabelean.</p>
+<p><hi rend='Bold'>G.</hi> Nola darizo Jaungoikoaren Semeari gizon egin zenari?</p>
+<p><hi rend='Bold'>R.</hi> Iesu Kristo munduaren salbazallea.</p>
+<p><hi rend='Bold'>G.</hi> Zerengatik egin zen gizon Jaungoikoaren Semea?</p>
+<p><hi rend='Bold'>R.</hi> Guregatik illzeagatik, eta exenplo emateagatik, zerengatik gizon egin ezpaliz ezin ill <hi rend='Italic'>zatea</hi>.</p>
+<p><hi rend='Bold'>G.</hi> Nola jaio <hi rend='Italic'>zea</hi> Ama Birjinarenganik?</p>
+<p><hi rend='Bold'>R.</hi> Jaungoikoak milagro eginik, nola egin izandu baizue konzebitu zuenean, zeren Jaungoikoak nai duen guzia egin dezake, eta ezta gauza difikultosorik arendako; eta ala Birjina Andre dona Maria erdi izandu zen Birjinika zegola erdi ba&ntilde;o leen, eta erditzean eta erdis gero beti Birjinik.</p>
+<p><hi rend='Bold'>G.</hi> Zer erran nai du Iesu Kristok padezitu, eta sufritu zuen pasioa Ponzio Pilato juezaren azpian, gurutzefikatu zuten, illzen, or<hi rend='Italic'>i</hi>tzi zuten?</p>
+<p><hi rend='Bold'>R.</hi> Erran nai du eze Kristo gure Jauna munduan <hi rend='Italic'>konbersaturik </hi>kasik ogei eta amairur urte, eta erakutsirik bere bizias, exenploas, eta dotrinas guziei zeruko bidea, auniz milagro eginika, eta ondasun Ponzio Pilatosen manus, baitzen orduan Iudeako gobernadorea, justiziaren eta arrazio guziaren kontra azotatu zuten, eta Gurutze batean eskuetan, eta o&ntilde;etan iltzes josirik ill izandu zela.</p>
+<p><hi rend='Bold'>G.</hi> Erran <hi rend='Italic'>drazaduzu</hi> alas, eta denean gauza ziertoa Iesu Kristo gure Jaunak etzuela bekaturik batere, eta ezin izan ere iolako maneras, eta nai <hi rend='Italic'>izandubetu libratu baizatea</hi> Pilatosen eskuetatik, eta berze guzien <hi rend='Italic'>etatik,</hi> nola nai izandu zue ill gurutze batean iltzes eskuak, eta o&ntilde;ak josirik anbat dolore, eta trabajureki?</p>
+<p><hi rend='Bold'>R.</hi> Egia da eze Kristo gure Jaunaren baitan etzela bekaturik batere, eta ezin zukela iolako maneras; eta alaber da gauza ziertoa eze nai izandu balu libratu zateala Pilatosen eskuetatik, eta mundu guzikoetatik ere, baia nai izandu zue ill gu bekatuetatik, eta ifernuko trabaju ain andietatik librazeagatik.</p>
+<p><hi rend='Bold'>G.</hi> Alas, eta Kristo gure Jauna ill izandu zenean guri geuren bekatuak barkazeagatik, eta aiengatik zor ginduen zorra pagazeagatik, eta gu guziok ifernutik librazeagatik, nondik dator kondenatzen baitirade anbat jende?</p>
+<p><hi rend='Bold'>R.</hi> Egia da eze Jaun onek bere trabajues, eta heriotzeas pagatu duela guzien bekatuengatik, baia nai du bapedra aprobetxa <hi rend='Italic'>dezin</hi> aren heriotze sanduas, bere partetik egiten duela penitenzia bere bekatues, eta onetako ordenaturik dauzkien Sakramentuak ongi errezebi dizan: argatik baldin baliotuko bazaigu aren pasio sandua, bear dugu geuren partetik aprobetxatu arkas, egiten dugula penitenzia, eta obra onak, eta gaistoetatik apartatu.</p>
+<p><hi rend='Bold'>G.</hi> Nai nuke orai erran duzunori nola den zindid<hi rend='Italic'>a</hi> adizera zeinbat semajanzas?</p>
+<p><hi rend='Bold'>R.</hi> Plazer baitut. Egin dezagun kontu gizon batek bere izerdias, eta trabajuas erabazi duela diru asko dena ziudade batean diraden zor guzien pagazeko, eta diru hau guzihau ezarzen duela merkatari baten etxean eman dakioten arren eskutik dramatenei zedula, eta klaredadea zer zor duten: gizon onek dudarik batere bage bere partetik den bekanbates eman du zor duten guzien kantidadearen pagatzeko: guziarekin ere zor duten ohetatik batek, edo bidak, edo geiagok ezpalute joan nai batzuek soberbias, bertzek arloterias, edo berze kausas arengana zedularen eske ez naies bere zor duena deskubritu; onlakoek bere faltas ez lituzkete bere zorrak pagatuko. Ala bada Kristo gure Jaunak bere pasio pasatu zuenas, eta heriotzeas pagatu zuen guk geuren bekatuengatik zor ginduen guzia kunplitukiro, eta geiago <hi rend='Italic'>bai</hi> nai du Jaun onek guk, geuren partetik dugun damu, bekatu egines, eta aurrera bekatuetatik aparta gaitezen, eta errezebi dizagun Sakramentu sanduak ongi, eta <hi rend='Italic'>bidero</hi> konbeni den bezala, egiten dugula geuren bekatues penitenzia, eta aietatik apartaturik, obra onetan enplea gaitezen, eta nola gauza ohek ezpaitituzte aunizek, egiten, argatik auniz dirade kondenazen diradenak bere faltas.</p>
+<p><hi rend='Bold'>G.</hi> Erran duzu Kristo gure Iauna illes gero jaitzi zela ifernuetara, zer adizen duzu ifernuetara erraten duzunean?</p>
+<p><hi rend='Bold'>R.</hi> Erran nai dut eze izanagatik lurpean laur leku, deizen baitirade ifernuak, nora joaten baitirade, illzen diraden arimak zerura, doazenes landara, ohetatik beitiena, eta zeruetatik urrutien dagona non baitaude demonioak, eta bekatu mortalean illzen diraden desditxatuak dela ifernua, bigarren lekua da guti bat goitiago baita purgatorioa, nora joaten baitirade justoen arimak aren grazian illzen diradenak, baia beren bekatuengatik, zor zuten, zorra pagatu bage. Irurgarrena baitago goitiago nora joaten baitirade aurren arimak bataiatu bage illzen diradenak, ze&ntilde;ek ezpaitute be&ntilde;ere Jaungoikoa ikusiko. Laurgarren lekua baita guzietatik goitien dagona da non baizeude Patriarka, eta Profeta, eta berze sanduen arimak ill izandu baitirade, Kristo gure Jauna ill ba&ntilde;o leen, eta leku onetara erran nai dut jaizi zela, eta andik libratu zituela arima sanduen zeudenak.</p>
+<p><hi rend='Bold'>G.</hi> Nola jaitzi izandu zen?</p>
+<p><hi rend='Bold'>R.</hi> Kristo gure Jaunaren arima jaitzi zen Dibinidadeareki.</p>
+<p><hi rend='Bold'>G.</hi> Orlatan Kristo gure Jaunaren gorpuza etzen jaitzi ifernuetara?</p>
+<p><hi rend='Bold'>R.</hi> Ez jauna, zeren gorpuza gelditu zen Gurutzean Dibinidade berareki, eta edekirik iltzeak ze&ntilde;es baitzego josirik Gurutzean eskuetan, eta o&ntilde;etan eraizi zuten Gurutzetik, eta ortzi zuten ouia batean.</p>
+<p><hi rend='Bold'>G.</hi> Nola erresuzitatu zen irurgarren egunean?</p>
+<p><hi rend='Bold'>R.</hi> Zeren irurgarren egunean Iesu Kristo gure Jaunaren arima juntatu zen bere gorpuzareki, eta erresuzitatu zen gloria, eta Majestade andiareki ez geiagorik illzeko.</p>
+<p><hi rend='Bold'>G.</hi> Zer kausas erraten da Iesu Kristo erresuzitatu zela, eta bertze illengatik erraten da erresuzitatu izandu diradela?</p>
+<p><hi rend='Bold'>R.</hi> Zeren Iesu Kristo da Jaungoikoaren Semea, eta ala bere podores, eta birtutes juntatu zuen bere arima bere gorpuzareki, eta asi zen berriro bizizen; baia berze illen arimak ezin bere podores, eta birtutes junta ditezke beren gorpuzeki, baizik Jaungoikoak bere podore, eta birtute andias; argatik erraten dugu Kristo gure Jauna erresuzitatu zen, eta berze illengatik erresuzitatu izandu zirade, nola gu guziok Jaungoikoak erresuzitatuko baikaitu juizioko egunean.</p>
+<p><hi rend='Bold'>G.</hi> Nola igan zen zeruetara?</p>
+<p><hi rend='Bold'>R.</hi> Nola baita Kristo gure Jauna Jaungoiko, eta gizon bere birtutes igan zen zeruetara.</p>
+<p><hi rend='Bold'>G.</hi> Zer erran nai du Iesu Kristo dagola jarririk Jaungoiko Aita guzis poderosoaren eskuian? Erran nai du agian Semea dagola eskuietako aldean, eta Aita dagola erdian, eta Espiritu Sandua ezkerretako aldean?</p>
+<p><hi rend='Bold'>R.</hi> Ez jauna, ezta orla aditu bear, zeren Aita, eta Semea, eta Espiritu Sandua, nola baitirade Jaungoiko bat, daude leku guzietan junto, eta ezin aparta ditezke; eta ala ezin erran diteke persona bat dago eskuietako aldean, eta berzea erdian, eta berzea ezkerretako aldean.</p>
+<p><hi rend='Bold'>G.</hi> Nola bada adizen duzu dagola jarririk bere Aitaren eskuian?</p>
+<p><hi rend='Bold'>R.</hi> Erran nai du eze Kristo gure Jaunak Jaungoiko den bekanbates duela Aitak duen gloria, eta Majestadea bera, eta gizon bekanbates duela Aingeruek sandu eta sanda guziek ba&ntilde;o geiago.</p>
+<p><hi rend='Bold'>G.</hi> Por bentura Kristo gure Jauna zeruas landara badago ionere berzetan?</p>
+<p><hi rend='Bold'>R.</hi> Jaungoiko den bekanbates dago leku guzietan baia gizon bezanbates zeruan dago solamente, eta hau berhau dago aldareko sakramentu sanduan.</p>
+<p><hi rend='Bold'>G.</hi> Orlatan komezazen diradenek Jaun hau berhau errezebizen dute?</p>
+<p><hi rend='Bold'>R.</hi> Ala da egia.</p>
+<p><hi rend='Bold'>G.</hi> Zer erran nai du, nondik etorriko baita illen, eta bizien juzgatzera?</p>
+<p><hi rend='Bold'>R.</hi> Erran nai du eze nola erran baitut Iesu Kristo igan zela zeruetara, eta dagola Aita eternoaren eskuietan, andik etorriko dela guzien juzgatzera gloria, eta Majestade guzis andiareki, Birjina Andre dona Mariak, Aingeru, eta sandu guziek akonpa&ntilde;azen dutela eze guziek dudarik bage ezagutuko baitute hura da Iesu Kristo, nola iguzkia atrazen denean dator anbat argitasuneki, eze guziek klarokiro ezaguzen baitute hura dela iguzkia, eta ez berze gauzarik.</p>
+<p><hi rend='Bold'>G.</hi> Noiz izanen da juzgatzera etorze ori?</p>
+<p><hi rend='Bold'>R.</hi> Ezin ihork ere jakin dezake dagon urbil, edo urruti egun hura, Jaungoikoak daki solamente: guk dakiguna da etorriko dela mundua akaba dedinean.</p>
+<p><hi rend='Bold'>G.</hi> Eta akabatuko da mundua?</p>
+<p><hi rend='Bold'>R.</hi> Bai jauna.</p>
+<p><hi rend='Bold'>G.</hi> Zer fin izanen dute, eta zertara etorriko dirade anbat obra jauregietan, eta etxetan eginik daudenak, eta berze gauza munduan diraden guziak?</p>
+<p><hi rend='Bold'>R.</hi> Mundu onetako gauza guziak erreko, eta txispilduko ditu su batek atrako baita munduko laur partetarik, izanen da ain andia, ain poderosoa eze ezpaizaio eskapatuko gauzarik baterere.</p>
+<p><hi rend='Bold'>G.</hi> Zer adizen duzu erraten duzunean Kredoan dela Eliza sandua Katholikoa? Zer erran nai du Eliza?</p>
+<p><hi rend='Bold'>R.</hi> Eliza erraten dudanean nai dut erran diradela Kristioak, ze&ntilde;ek baitirade junto, eta konforme sinestatzean fedesko gauzak, ze&ntilde;en burua baita Aita sandua, hau da Eliza.</p>
+<p><hi rend='Bold'>G.</hi> Zenbat gauza bear dirade junta onetako, erran nai dut Kristioa izateko?</p>
+<p><hi rend='Bold'>R.</hi> Irur gauza. Lenbizikoa bear du izan bataiatua, zein baita Eliza onetako ataria. Bigarrena bear du sinestatu fedesko gauzak, eta konfesatu Kristo gure Jaunaren legea, nola Eliza onetako Artzaiek, eta predikazallek erakusten baitigute. Irurgarrena bear da izan obediente Aita Sanduarendako, zeren baita Iesu Kristoren lekuan dagona ezagutzen dugula dela guzien burua.</p>
+<p><hi rend='Bold'>G.</hi> Baldin Eliza bada Kristioak orai erran den bezala, nola deizen ditugu Elizak arris eginik daudenak, non erraten baita Meza, eta egiten Jaungoikoaren ofizioak?</p>
+<p><hi rend='Bold'>R.</hi> Zeren Kristio fielak Elizako diradenak juntatzen baitirade aihetan Meza enzutera, eta predikuak, orazio egitera, konfesazera, eta komekazera, baia guk erraten dugunean Kredoan sinestatzen dut dela Eliza Katholikoa ezkara minzazen arris, eta zures eginik daudenes, baizik Kristio fieles bataiatues, Aita sanduaren obediente diradenes, leen erran dudan bezala.</p>
+<p><hi rend='Bold'>G.</hi> Zerengatik erraten da Eliza dela bat solamente, alas, eta munduan denean anbat jende mota Kristioak diradenak, eta anbat lekutan?</p>
+<p><hi rend='Bold'>R.</hi> Zeren guziek baitute buru bat solamente baita Iesu Kristo, eta aren lekuan Aita sandua. Bai, eta zeren munduan diraden Kristio guziek sinestatzen eta konfesatzen dute fede bat solamente, eta guziek dute lege bat: ala nola erresuma, edo erre&ntilde;u batean ze&ntilde;etan solamente baita errege bat, eta lege bat erraten da dela solamente bat, artan izanagatik auniz probinzia, ziudade, eta billa.</p>
+<p><hi rend='Bold'>G.</hi> Zer erran nai du sanduen komunioa?</p>
+<p><hi rend='Bold'>R.</hi> Erran nai du eze Kristioak egonagatik ain aparte batak berzenganik, eta ez ezagutuagatik erkal, alako maneras daudela juntaturik fedearen, eta obra onak egiten dituzten birtutes, eze baitute parte, eta probetxu batek berzen ondasunetan, aihek guretan, eta guk aihenetan, nola baita meza erraten diradenetan, ofizio, eta orazioetan, eta berze ondasun egiten duten guzietan.</p>
+<p><hi rend='Bold'>G.</hi> Eta alaber meza Kristio guzien ertean erraten diradenak, eta ondasun egiten diraden guziak aprobetxatzen zaizkiote purgatorioan dauden arimei?</p>
+<p><hi rend='Bold'>R.</hi> Alaber aprobetxatzen zaizkiote purgatorioan dauden arimei.</p>
+<p><hi rend='Bold'>G.</hi> Eta Jaungoikoas gozatzen dauden sanduen orazioak aprobetxatzen zaizkigu guri, eta purgatorioan dauden arimei?</p>
+<p><hi rend='Bold'>R.</hi> Bai jauna, eta auniz.</p>
+<p><hi rend='Bold'>G.</hi> Zer erran nai du bekatuen barkazioa?</p>
+<p><hi rend='Bold'>R.</hi> Erran nai du eze Elizan dela ondasun bat andia, eta konsuelo anditakoa bekatariendako, eze munduan den andiena izanagatik bere partetik Ioaungoikoaren faboreareki egiten duela ark nai duena barkatuko dizkiola bere bekatu guziak alako maneras eze geros izanen baita Ioaungoikoaren adiskidea.</p>
+<p><hi rend='Bold'>G.</hi> Eta Elizatik landara barkazen dirade bekatuak?</p>
+<p><hi rend='Bold'>R.</hi> Ez jauna iolako maneras.</p>
+<p><hi rend='Bold'>G.</hi> Zer erran nai du aragiaren erresurrekzioa?</p>
+<p><hi rend='Bold'>R.</hi> Erran nai du eze persona guziok ala onak nola gaistoak erresuzitatuko garadela.</p>
+<p><hi rend='Bold'>G.</hi> Zer erran nai du erresuzitatuko garadela?</p>
+<p><hi rend='Bold'>R.</hi> Erran nai du eze Jaungoiko gure Jaunak bere podore andias eginen duela bapedraren arima illes gero berriro junta dedin bere leen bizi zenean zuen gorpuzareki; eta ala izuliko garadela berriro bizizera.</p>
+<p><hi rend='Bold'>G.</hi> Noiz izanen da ori?</p>
+<p><hi rend='Bold'>R.</hi> Iuizioko orduan.</p>
+<p><hi rend='Bold'>G.</hi> Eta zergatik orduan?</p>
+<p><hi rend='Bold'>R.</hi> Zeren nola bizi ginanean arimareki, eta gorpuzareki junto egin baikinduze obra onak, edo gaistoak, nai du Jaungoikoak ager gaitezen aren aurrean juizioko egunean sentenziaren enzutera, eta errezebizera gorpuzean, eta ariman junto, egin <hi rend='Italic'>giduzen</hi> obren konforme edo premioa, edo kastigoa.</p>
+<p><hi rend='Bold'>G.</hi> Zer emanen diote onei?</p>
+<p><hi rend='Bold'>R.</hi> Gloria.</p>
+<p><hi rend='Bold'>G.</hi> Eta zer emanen diote gaistoei?</p>
+<p><hi rend='Bold'>R.</hi> Ifernuko be&ntilde;ere akabatuko eztiraden penak, eta trabajuak.</p>
+<p><hi rend='Bold'>G.</hi> Zein izanen dirade onak?</p>
+<p><hi rend='Bold'>R.</hi> Onak izanen dirade Iesu Kristoren fede sandua, Kristioek sinestatzen duguna, sinestatu dutenak, eta Jaungoikoaren Mandamentuak, eta Elizakoak begiratu dituztenak.</p>
+<p><hi rend='Bold'>G.</hi> Zein izanen dirade gaistoak?</p>
+<p><hi rend='Bold'>R.</hi> Aihek ze&ntilde;ek ezpaitute sinestatu Kristioek sinestatzen dugun fedea, edo sinestatuagatik ezpaitute begiratu Ioaungoikoaren Mandamentuak, eta ez Elizarenak.</p>
+<p><hi rend='Bold'>G.</hi> Orlatan erran drazadazu zenbat gauza bear diraden gloria erdesteko?</p>
+<p><hi rend='Bold'>R.</hi> Bi gauza. Lenbizikoa sinestatu Eliza sanduak sinestatzen dituen fedesko gauza guziak, eta oneki batean. Bigarrena bear dena da begiratu Jaungoikoaren Mandamentuak, eta Elizarenak, eze onla erdesten da zeruko gloria.</p>
+<p><hi rend='Bold'>G.</hi> Orlatan infielak, eta herejeak ezpaitute sinestatzen Eliza ama sanduak sinestatzen dituen fedesko gauzak kondenazen dirade?</p>
+<p><hi rend='Bold'>R.</hi> Da gauza ziertoa fedeak erakusten diguna eze ohek guziok ill, eta bereala doazela ifernura erremediorik batere bage.</p>
+<p><hi rend='Bold'>G.</hi> Eta Kristioak ze&ntilde;ek beti sinestatu baitute Eliza sanduak sinestazen dituen fedesko gauza guziak, baia bizi izandu dirade gaizki, eta ill izandu baitirade penitenzia bere bekatues egin bage bekatu mortalean daudela, oen arimak nora doaz?</p>
+<p><hi rend='Bold'>R.</hi> Alaber gure fede sanduak erakusten digu ohek guziok doazela ifernura, zeren fedea solla ezta asko gloria erdesteko, baizik fedeareki batean bear dirade egin obra onak erran den bezala.</p>
+<p><hi rend='Bold'>G.</hi> Alas, eta erran duzunean</p>
+<p>[...] Jaun</p>
+<p>[...] &ntilde;ere enojazerik, eta fastiazerik, baizik beti egonen dirade kontentu, eta plazer andiareki nola lenbiziko egunean be&ntilde;ere enoiatu, eta fastiatu bage.</p>
+<p><hi rend='Bold'>G.</hi> Zer gloria izanen du zeruan dagonean gorpuzak, alas, eta denean gauza ziertoa eze gorpuzak ezin ikusi dekakela Jaungoikoa, baizik arima sollak?</p>
+<p><hi rend='Bold'>R.</hi> Egia da eze arimak sollak ikus dezakela Jaungoikoa, baia onaren arimak ikustetik Jaungoikoa errezebituko gorpuzak ere bere gloria izanen baita ain andia, eze zeruan dagonaren gorpuza ikanen baita ain argi, eta ederr eze argituko baitu iguzkiak bezala, ezta be&ntilde;ere illen eztu be&ntilde;ere izanen goserik eta ez egarririk, ez minik, eta heritasunik baterere, baizik beti osasuna; eta ala egonen da beti gozo eta kontentu guzis andiareki berze gauzarik batere deseatu bage.</p>
+<p><hi rend='Bold'>G.</hi> Eta zenbat iraunen diote onei zeruko gloriak?</p>
+<p><hi rend='Bold'>R.</hi> Beti iraunen diote be&ntilde;ere faltatu bage eta gutitu bage, ala egonen dira beti nai duten kontentu eta gozo guziareki be&ntilde;erere gaizik sentitu bage, eta geiago ondasunik deseatu bage, zeren izanen baitute desea al dezaketen ondasun guzia.</p>
+<p><hi rend='Bold'>G.</hi> Alas eta erran duzunean zer gloria izanen duten onek zeruan. Erran drazadazu</p>
+<p>[...] gun bear duguna.</p>
+<p><hi rend='Bold'>G.</hi> Zer eskazen diozu erraten duzunean barka drazkiguzu gure zorrak?</p>
+<p><hi rend='Bold'>R.</hi> Eskazen diot Jaungoiko gure Jaunak barka drazkigun geuren bekatuak, eta aiengatik zor dugun pena.</p>
+<p><hi rend='Bold'>G.</hi> Zerengatik erraten duzu guk geuren zor dugunei barkazen dizkiotegun bezala?</p>
+<p><hi rend='Bold'>R.</hi> Zerengatik ezpaititu barkazen Jaungoikoak bekatuak bere injuriatu eta agrabiatu duenari barkazen eztizkionari.</p>
+<p><hi rend='Bold'>G.</hi> Zer eskazen diozu erraten duzunean ezkaizazula utzi tentazioan erortera?</p>
+<p><hi rend='Bold'>R.</hi> Nola baitaki Jaungoiko gure Jaunak garadela flakoak, eta dabilela demonia persegizen gaituela gauas, eta egunas etsai gosea, eta kruela bezala aldagien gaiz guzia prokurazen digula egitera, otoiz egiten diogu Jaungoikoari eztezala utzi konsenti dezagun gure etsaiak nai duenean, eta alaber otoiz egiten diogu eztezala utzi tenta gaizan gure etsaiak, baldin aren Majestadeak badaki ezkaradela alako tentaziotik atrako bitoriareki.</p>
+<p><hi rend='Bold'>G.</hi> Zer eskazen diozu erraten duzunean aitzetik libra gaizazu gaizetik. Zer gai [?] da ori?</p>
+<p><hi rend='Bold'>R.</hi> Eskazen diot Jaungoikoari libra gaizan bekatu guzietatik demonioarenganik eta ifernutik, eta desgrazietatik.</p>
+<p><hi rend='Bold'>G.</hi> Zer erran nai du amen al a</p>
+<p>[...] trabaju emanen diotenik?</p>
+<p><hi rend='Bold'>R.</hi> Bai Jauna arra konzienziarena, zein beti alako, eta euzekiko baizaiote beren buruei: oroizen diradela bekatu egin zitustenes, eta aietatik librazeko bizi ziradenean mundu onetan izandu zitusten aparejues Jaungoikoaren partes, biotzean ukizen zituela, eta konfesorek eman ziskioten abisoes erraten ziotela aparta zitezela bekatuetatik, eta okasio gaistoetatik, eta egin zezatela penitenzia, eta nai izan balute ain fazilkiro libratu ziratela ifernuko tormentu, eta trabajuetatik, eta ia bere faltas ikusirik eztela erremediorik baterere, onek atormentatuko ditu guzis auniz eze berak izanen baitirade beretako borrero kruelak.</p>
+<p><hi rend='Bold'>G.</hi> Eta zenbat iraonen dute ifernuko tormentu, eta trabaju ohek?</p>
+<p><hi rend='Bold'>R.</hi> Eztirade be&ntilde;ere akabatuko, baizik beti iraonen dute, ez ifernua akabatuko da, ez an dagonaren arima, ez gorputza eztirade be&ntilde;ere nai luketelarik illen, zeren heriotzeak iges eginen du aienganik ango suak beti erre, eta abrasa dizan beren bekatuen kastigotan.</p>
+<p><hi rend='Bold'>G.</hi> Alas, eta erran duzunean ifernuko suak erreko, eta abrasatuko dituela, gaistoak nola eztitu su ark akabatuko?</p>
+<p><hi rend='Bold'>R.</hi> Jaungoikoak, ze&ntilde;en kontra atrebitu baizirade bekatuak egitera, nai du aien kastigazeko ifernuko suak be&ntilde;ere akabatu bage beti erre, eta abrasa dizan ez solamente ariman baizik gorputzean here alako maneras eze entra&ntilde;aturik junto egonen baita alako maneras eze ezpaitira be&ntilde;ere libratuko arenganik, eta ez berze tormentuetatik.</p>
+<p><hi rend='Bold'>G.</hi> Zenbait aldis etzaizkiote ifernuan daudenei arinduko, eta gutituko an diraden penak, trabajuak, eta tormentuak?</p>
+<p><hi rend='Bold'>R.</hi> Ifernuko pena, eta trabajuak iraunen dute beti be&ntilde;ere arindu, eta gutitu bage alako maneras eze milla urte pasatu, eta egonen baitirade beren indarrean nola lenbiziko egunean, eta pasatu berrogei eta amar milla urte alaber, eta millonak pasatu, eta beti bere artan batere gutitu bage.</p>
+<p><hi rend='Bold'>G.</hi> Nola ezta ifernuan erremediorik batere?</p>
+<p><hi rend='Bold'>R.</hi> Ifernuras gero ezta bekaturik <hi rend='Italic'>barzazen</hi>, ezta lekurik penitenzia egiteko; zeren pasatu baizaiote malabenturatu ahei denbora penitenzia egiteko Jaungoikoak se&ntilde;alaturik daukana baita bizi garaden artean, eta nola ezpaitira denbora zenean <hi rend='Italic'>aprobetxatuk </hi>an egonen dirade ezperanzarik, eta erremediorik bage zeren Jaungoikoa ezin muta diteke, eta ala aren sentenzia gaistoei emanik dagonak irahun bear du beti.</p>
+<p><hi rend='Bold'>G.</hi> Erran drazadazu (aparta gaitezen onlako gauzetatik (zergatik joaten dira ifernura?</p>
+<p><hi rend='Bold'>R.</hi> Bekatu mortalearengatik zeren da gauza ziertoa eze bekatu mortale egiten duena naiz bat baizik ezpada here ill badadi arzas penitenzia egin bage joanen dela ifernura.</p>
+<p><hi rend='Bold'>G.</hi> Ain gauza gaistoa da bekatu mortalea?</p>
+<p><hi rend='Bold'>R.</hi> Da gauza guzietatik gaistoena, eta arrazioa da klaroa, zeren bekatu mortale egiten duenean batek puntu artan berean galzen du Jaungoikoaren grazia, eta adiskidetasuna, eta ala galzen du Jaungoikoa bera baita kalte guzietatik andiena, eta zeruko gloria erdesteko zuen dretxoa artan dagon bitartean.</p>
+<p><hi rend='Bold'>G.</hi> Baldin badakizu berze arraziorik adizera emateko zein gauza gaistoa den bekatu mortalea erran zazu?</p>
+<p><hi rend='Bold'>R.</hi> Erranen dut berze arrazio bat, ze&ntilde;ek alaber adizera ematen baitu zein gauza gaistoa den bekatu mortalea, eta da eze izanika Jaungoiko gure Jauna ain ona, ain urrikariosoa, miserikordiosoa, eta justoa, ze&ntilde;en baitan ezin baitate gauza gaistorik, eta arrazioaren kontra denik, eta ala eztitu kastigazen gaistoak aien bekatuek mereji duten ba&ntilde;o geiago; bada erakusten digu gure fede sanduak eze bekatu mortalean illzen diradenak penitenzia egin bage bere bekatuengatik egosten dituela ifernura: orlatan kastigo hura da kastigo justoa, eta mereji dutena, nondik atrazen baita bekatu mortalea dela gauza guzietatik gaistoena.</p>
+<p><hi rend='Bold'>G.</hi> Orlatan gauza azertatua da aborrezi dezagun bekatua geiago ezes berze gauza guziak, eta egin dezagun bereala penitenzia?</p>
+<p><hi rend='Bold'>R.</hi> Gauza guzis azertatua da geuren salbazioko negozioan, ze&ntilde;etan baitoagu anbat seguroan joatea, eta ala egitea bereala penitenzia geuren bekatues, aietatik apartazen garadela, zeren eztakigu noiz, eta nola illen garaden, agian desmaio bates, edo zenbait desgrazias aurkenduko gaitusten illik.</p>
+<p><hi rend='Bold'>M.</hi> Plazer dut erran baituzu ongi, nik enkomendazen drauzudana da gauza ohek konsidera dizazun maiz, eta sosegureki eze egin badezazu konbeni den bezala auniz aprobetxatuko zaizu bekatuak aborrezizeko, eta bereala penitenzia ongi egiteko aietatik librazeko; eta ala eskapatuko zarade ifernuko pena, eta trabajuetatik, eta erdetsiko duzu anbat ondasun nola baita glorian.</p>
+<p><hi rend='Bold'>G.</hi> Zer erran nai du dela bizize sekulakoa?</p>
+<p><hi rend='Bold'>R.</hi> Erran nai du eze bienabenturatuak zeruan izanen dutela bizize bat gorputzean eta ariman ain ona, eta kontentu anditakoa eze ikanen baitute nai duten guzia deuserere faltatu bage, eta bizize hau izanen da beti iraunen duena be&ntilde;ere akabatu bage.</p>
+<p><hi rend='Bold'>G.</hi> Kredoan, eta Artikulo Fedeskoetan dauden gauzes landara sinestatzen duzu berze gauzarik?</p>
+<p><hi rend='Bold'>R.</hi> Bai sinestatzen dut Eliza ama sanduak sinestatzen dituen gauza guziak.</p>
+<p><hi rend='Bold'>BIGARREN KAPITULOA</hi></p>
+<p><hi rend='Bold'>Dotrinaren bigarren partea</hi></p>
+<p><hi rend='Bold'>ze&ntilde;etan deklarazen baita Aita gurea, eta berze Elizako orazioak</hi></p>
+<p><hi rend='Bold'>M.</hi> Ikusi dut ia nola dakizun zer bear duzun sinestatu, baita lenbiziko gauza. Gatozen orai bigarrenera, baita zer eskatu bear den.</p>
+<p><hi rend='Bold'>G.</hi> Erran ezazu Aita gurea?</p>
+<p><hi rend='Bold'>R.</hi> Aita gurea zeruetan zaudena, erran den bezala.</p>
+<p><hi rend='Bold'>G.</hi> Nork erran zue Aita gurea?</p>
+<p><hi rend='Bold'>R.</hi> Kristo gure Jaunak.</p>
+<p><hi rend='Bold'>G.</hi> Zerengatik?</p>
+<p><hi rend='Bold'>R.</hi> Guri erakusteagatik nola orazio egin bear dugun.</p>
+<p><hi rend='Bold'>G.</hi> Zer da orazio egitea?</p>
+<p><hi rend='Bold'>R.</hi> Biotza altxatzea Jaungoikoarengana eskazen diogula egin drazagun mertxede auniz.</p>
+<p><hi rend='Bold'>G.</hi> Aita gurea erraten duzunean noreki minzazen zarade?</p>
+<p><hi rend='Bold'>R.</hi> Jaungoiko gure Jaunareki.</p>
+<p><hi rend='Bold'>G.</hi> Non dago Jaungoiko gure Jauna?</p>
+<p><hi rend='Bold'>R.</hi> Leku guzietan presente dago bere esenzias, presenzias, eta potenzias.</p>
+<p><hi rend='Bold'>G.</hi> Zein da orazio guzietatik oberena?</p>
+<p><hi rend='Bold'>R.</hi> Aita gurea.</p>
+<p><hi rend='Bold'>G.</hi> Zerengatik?</p>
+<p><hi rend='Bold'>R.</hi> Zeren Kristo gure Jaunak, Apostoloek eskaturik, erran izandu baizuen.</p>
+<p><hi rend='Bold'>G.</hi> Eta zergatik geiago?</p>
+<p><hi rend='Bold'>R.</hi> Zeren orazio onetan baitaude gauza Jaungoikoari eskatu bear bear zaizkio guziak zeren Kristo gure Jaunak ordenatu baizuen, ze&ntilde;ek baitaki iork here ba&ntilde;o obekiago zer eskatu bear dugun eta ala da probetxosoena, eta poderosoena Jaungoikoarenganik erdesteko konbeni zaigun guzia.</p>
+<p><hi rend='Bold'>G.</hi> Zerengatik nai du dei drazogun Jaungoikoari Aita?</p>
+<p><hi rend='Bold'>R.</hi> Zeren aren semeak bezala ar dezagun konfianza, eta animo otoiz egiteko digun bear dugun guzia.</p>
+<p><hi rend='Bold'>G.</hi> Nola da Jaungoikoa gure Aita?</p>
+<p><hi rend='Bold'>R.</hi> Zerengatik kriatu baikaitu, eta ala arenganik baitugu geuren naturaleza, eta gauza guziak, eta geuren partetik aren faboreareki egiten dugula ark nai duena emanen draugu bere grazia.</p>
+<p><hi rend='Bold'>G.</hi> Eta zergatik erraten duzu Aita gurea, eta ez ene Aita?</p>
+<p><hi rend='Bold'>R.</hi> Zeren dakigun guziok garadela Aita baten semeak, eta ala anaiak <hi rend='Italic'>onerisi dezegun</hi> batak berzea aita baten semeak garaden bezala.</p>
+<p><hi rend='Bold'>G.</hi> Zergatik geiago?</p>
+<p><hi rend='Bold'>R.</hi> Zeren guziek eska dazagun guziendako, zeren guzien orazioa da obeago, batena ba&ntilde;o; zeren guziek erraten dutenean Aita gurea otoiz egiten dute guziengatik, eta ala edoze&ntilde;engatik.</p>
+<p><hi rend='Bold'>G.</hi> Nola diozu zeruetan zaudena, erran duzu baldinba Jaungoikoa dagola leku guzietan?</p>
+<p><hi rend='Bold'>R.</hi> Egia da Jaungoikoa dagola leku guzietan; baia guziarekin ere nai du Iesu Kristok orazio onetan erran dezagun zeruetan zaudena, zeren zeruetan <hi rend='Italic'>ikusizen dute</hi> Aingeruek, eta bienabenturatu guziek.</p>
+<p><hi rend='Bold'>G.</hi> Zergatik geiago?</p>
+<p><hi rend='Bold'>R.</hi> Zerengatik erraten dugunean, zeruetan zaudena konsidera dezagun han zeruan dagola gure herenzioa; eta emen bizi garadenean lurrean garadela peregrinoak bidean gabilzanak, eta hau dela gauza fite akabatuko zaiguna; eta ala zerukoa baita be&ntilde;ere akabatuko eztena, <hi rend='Italic'>hiura</hi> prokura dezagun lenbizikorik, gauza anbat konbeni zaiguna bezala.</p>
+<p><hi rend='Bold'>G.</hi> Zer eskazen diozu erraten duzunean santifika bedi zure izenari?</p>
+<p><hi rend='Bold'>R.</hi> Jaungoikoa nola baita gure Jauna eskazen diot guziek mundu guzian ezagun dezaten nola den Jaungoiko egiaskoa, eta eztela berzerik; eta ala guziek adora dezaten, alabatu, eta serbizatu.</p>
+<p><hi rend='Bold'>G.</hi> Zer eskazen duzu erraten duzunean etorri bedi zure erre&ntilde;ua?</p>
+<p><hi rend='Bold'>R.</hi> Eskazen diot dagon emen lurrean bizi garadenean gureki bere grazias, eta gero digun bere gloria.</p>
+<p><hi rend='Bold'>G.</hi> Zer eskazen diozu erraten duzunean egin bedi zure borondatea zeruan bezala lurrean ere?</p>
+<p><hi rend='Bold'>R.</hi> Nola eskatu baitiot Jaungoikoari digun emen bere grazia, eta gero gloria, eskazen diot egin dedin aren borondatea, zeren erdesteko emen aren grazia, eta gero gloria bear dugu egin aren borondatea begirazen ditugula aren mandamentuak.</p>
+<p><hi rend='Bold'>G.</hi> Zer erran nai duzu erraten duzunean zeruan bezala lurrean ere?</p>
+<p><hi rend='Bold'>R.</hi> Erran nai dut eze ala nola Aingeruek, eta bienabenturatuek zeruan egiten baitute Jaungoikoaren borondatea kunplitukiro deusetan faltatu bage, eta prinzipalkiro aren dibina Majestadeari ongi irudizeagatik, eta hau beti ala dagigun guk ere emen lurrean.</p>
+<p><hi rend='Bold'>G.</hi> Zer eskazen diozu erraten duzunean gure egunorosko ogia eman drazaguzu egun?</p>
+<p><hi rend='Bold'>R.</hi> Prinzipalkiro eskazen diot arimaren egia baita aldareko Sakramentua, ze&ntilde;ek mantenazen baitu arima, eta Jaungoikoaren itzak [...]</p>
+<p><hi rend='Bold'>R.</hi> Ala dela, <hi rend='Italic'>biz</hi> ala, ala deseazen dut eta ala otoiz egiten dut egin dedin eskatu naizen bezala.</p>
+<p><hi rend='Bold'>G.</hi> Badakizu berze oraziorik?</p>
+<p><hi rend='Bold'>R.</hi> Bai Jauna.</p>
+<p><hi rend='Bold'>G.</hi> Zein dirade?</p>
+<p><hi rend='Bold'>R.</hi> Jaungoikoak salba zaizala Maria, eta Jaungoikoak salba zaizala <hi rend='Italic'>erregia</hi> eta ama miserikordiosoa.</p>
+<p><hi rend='Bold'>G.</hi> Erran ezazu Jaungoikoak salba zaizala Maria?</p>
+<p><hi rend='Bold'>R.</hi> Jaungoikoak salba zaizala Maria grazias betea, erran den bezala.</p>
+<p><hi rend='Bold'>G.</hi> Erran ezazu Jaungoikoak salba zaizala erregia?</p>
+<p><hi rend='Bold'>R.</hi> Jaungoikoak salba zaizala erregia, eta ama miserikordioskoa, erran den bezala.</p>
+<p><hi rend='Bold'>G.</hi> Orazio ohek erraten dituzunean, noreki minzazen kara?</p>
+<p><hi rend='Bold'>R.</hi> Andre dona Birjina Mariareki.</p>
+<p><hi rend='Bold'>G.</hi> Zerendako erraten dizkiozu orazio ohek?</p>
+<p><hi rend='Bold'>R.</hi> Eskazeagatik Andre dona Mariari otoiz egin dezan bitartekozale jarrizen dela guregatik Jaungoikoaren Aurrean, eta ala erdetsi dezagun aren dibina Majestadearenganik konbeni zaiguna.</p>
+<p><hi rend='Bold'>G.</hi> Nor da Andre dona Birjina Maria?</p>
+<p><hi rend='Bold'>R.</hi> Da Jaungoikoaren ama.</p>
+<p><hi rend='Bold'>G.</hi> Non dago Andre ain sandu, eta andiori?</p>
+<p><hi rend='Bold'>R.</hi> Zeruan dago gorpuzareki, eta arimareki Jaungoikoas gozazen duela.</p>
+<p><hi rend='Bold'>G.</hi> Eta Elizan dagona nor da?</p>
+<p><hi rend='Bold'>R.</hi> Aren figura, eta imajina.</p>
+<p><hi rend='Bold'>G.</hi> Zerendako dago han?</p>
+<p><hi rend='Bold'>R.</hi> Aren imajina hura ikusi eta oroit gaitezen zeruan dagonas.</p>
+<p><hi rend='Bold'>G.</hi> Eta aren imajinaren aurrean erraten duzunean, Jaungoikoak salba zaizala Maria, edo Jaungoikoak salba zaizala Erregia, eta Ama miserikordiaskoa, noreki minzazen zara, zeruan dagonareki ala aren imajinareki?</p>
+<p><hi rend='Bold'>R.</hi> Ikusten dudanean Andre dona Mariaren imajina, eta figura oroitzen naiz zeruan dagonas Jaungoikoas gozazen, eta areki minzazen naiz, erraten diodala Jaungoikoak salba zaizala Maria grazias betea edo erregia eta ama miserikordioskoa, eta ez aren imajinari, baita arris, edo zures, edo berze gauzas egina, eta ala eztu adizen, eta ezta minzazen, eta ezin erdezi drazakegu eskazen dioguna, baizik zeruan dagonak.</p>
+<p><hi rend='Bold'>G.</hi> Nola bada erraten da Kristo gure Jaunaren imajinak, edo aren amarenak edo alako sanduarenak egin duela milagroa?</p>
+<p><hi rend='Bold'>R.</hi> Imajinek eztute egiten milagrorik, baizik Jaungoiko gure Jaunak, baia aunizetan egiten ditu milagroak sanduen otoizengatik eta gustien ga&ntilde;ean Andre dona Mariaren orazioengatik eta ala erraten denean onlako Birjinaren imajinak, edo berze sanduenak egin du milagroa, erran nai du eze Jaungoikoak Andre dona Mariaren otoitzes egiten duela milagroa ala berze sanduen otoitzes.</p>
+<p><hi rend='Bold'>G.</hi> Zer erreberenzia egin bear diotegu sanduen imajinei?</p>
+<p><hi rend='Bold'>R.</hi> Erreberenzia hura bera sanduei, ze&ntilde;en imajinak baitirade, egiten dioteguna.</p>
+<p><hi rend='Bold'>G.</hi> Eta sanduen erlekiei zer erreberenzia egin bear diotegu?</p>
+<p><hi rend='Bold'>R.</hi> Sanduei berei egiten dioteguna, zeren aien arimak, Jaungoikoas gozatzen daudenak, mundu onetan bizi izandu baizirade aren serbizuan.</p>
+<p><hi rend='Bold'>G.</hi> Zerengatik Aita gurea erran, eta bereala erraten da Jaungoikoak salba zaizala Maria berze orazioak ba&ntilde;o leen?</p>
+<p><hi rend='Bold'>R.</hi> Zerengatik ezpaitugu Kristo gure Jaunaren aurren bitartekozale obeagorik, eta anbat dirokenik nola Birjina Maria aren ama; argatik erranes gero Jaun onek erakutsi digun orazioa, baita Aita gurea, akudizen dugu aren ama guzis sanduagana, bere otoitzes lagun dakigun erdestera eskatu dioguna. Nola emen munduan emanes gero erregeri memoria bat artan adizera ematen diogula zer deseazen dugun, prokuratzen dugu enkomendazera negozio hura areki gero geien dirokenari; zeren negozia drazagun nai duguna; argatik bada Aita gurea erran, eta bereala erraten dugu Jaungoikoak salba zaizala Maria.</p>
+<p><hi rend='Bold'>G.</hi> Zergatik geiago?</p>
+<p><hi rend='Bold'>R.</hi> Zerengatik orazio Aita gureas landara oberena da Jaungoikoak salba zaizala Maria; zerengatik Jaungoikoaren manus, eta ordenes baitago ordenaturik Arkanjel Gabrielek, eta santa Isabelek, eta Elizak erranikako itzes: zerengatik itz aiek Jaungoikoak salba zaizala grazias betea Jauna da zureki, bedeikatua zara emasten artean erran zituen san Gabrielek Jaungoikoaren partes, aren mandatariak bezala. Berze itzak, bedeikatua da zure sabeleko frutua erran zituen santa Isabelek, zegolarik Espiritu sanduas beterik. Berze itz guziak ezarzen ditu Eliza ama sanduak, Espiritu Sanduak berak erakutsirik, eta ala erraten da, eze orazio hau Aita gureas landara dela oberena.</p>
+<p><hi rend='Bold'>M.</hi> Ongi diozu. Orai erran drazadazu orazio hau guzia itzik batere utzi bage, zeren arrazio da guziek adi dezaten orazio ain on hau.</p>
+<p><hi rend='Bold'>G.</hi> Zer erran nai du Jaungoikoak salba zaizala Maria?</p>
+<p><hi rend='Bold'>R.</hi> Da salutazea Andre dona Maria, erakusten dugula onetan garadela aren adiskideak, eta ala gatozela areki minzazera, onetako erraten dizkiogula Aingeru san Gabrielek erran zizkion itzak, ze&ntilde;es baitakigu alegrazen dela auniz, eta plazer arzen duela enzuteas berri ain onak; eta gu oroitzen garadenas Jaungoikoari graziak emateas ari egin zion ondasun ain andias.</p>
+<p><hi rend='Bold'>G.</hi> Zer erran nai du grazias betea?</p>
+<p><hi rend='Bold'>R.</hi> Erran nai du Birjina Mariak duela grazia geiago berze sandu guziek ba&ntilde;o: zeren egin baititu obrak geiago, eta obekiago Jaungoikoari irudizen zaizkionak ezes berze guzienak, eta ala du grazia geiago.</p>
+<p><hi rend='Bold'>G.</hi> Zer erran nai du Jauna da zureki?</p>
+<p><hi rend='Bold'>R.</hi> Erran nai du eze Jaungoikoa gure Jauna egondu dela Birjina andre dona Mariareki beti gobernazen duela adiskideareki bezala, konzebitu izandu zen bezala librazen zuela bekatu guzietatik ala eze ezpaita izandu Birjina Mariaren baitan ez bekatu orijinalerik, ez mortalerik, ez benialerik baterere, eta ala da sandu guziak ba&ntilde;o obeago.</p>
+<p><hi rend='Bold'>G.</hi> Zer erran nai du bedeikatua zara emazte guzien artean?</p>
+<p><hi rend='Bold'>R.</hi> Dela bedeikatua emazte guzien artean zeren baita Ama eta Birjina, eta Iesu Kristoren ama, zenenganik baitatorgu guziei bedeizioa.</p>
+<p><hi rend='Bold'>G.</hi> Zer erran nai du, eta bedeikatua da zure sabeleko frutua Iesus?</p>
+<p><hi rend='Bold'>R.</hi> Erran nai du Iesus Andre dona Mariaren semea dela gizona, eta bedeikatua gizon guzien artean. Bai, eta dela Jaungoikoa, eta argatik dela bedeikatua kreatura guzien artean ala lurrean nola zeruan, eta argatik erraten diogu bedeikatua, da zure sabeleko frutua Iesus.</p>
+<p><hi rend='Bold'>G.</hi> Orlatan plazer arzen du auniz Birjina Mariak orazio hau errateas?</p>
+<p><hi rend='Bold'>R.</hi> Ala da zerengatik frutu ona izatea da arbolearen alabanza, eta semearen gloria amarena; eta Iesus izatetik aren semea datozkio anbat, eta ain ondasun andiak. Dituela ordu onareki.</p>
+<p><hi rend='Bold'>G.</hi> Zer eskazen diozu Andre dona Maria beti Birjinari erraten duzunean santa Maria Jaungoikoaren Ama otoiz egizu gure bekatariengatik orai, eta gure heriotzeko orduan?</p>
+<p><hi rend='Bold'>R.</hi> Itz ohek ezarri ditu orazio onetan Eliza sanduak jakinika dela guzietatik geien dirokena Jaungoikoareki guri erdesteko arenganik konbeni zaiguna, eta ala erraten diot otoiz egin dezan bitartekozale gertazen dela gu bekatariengatik gure nezesidade guzietan orai bizi garadenean ditugunetan, eta heriotzeko orduan, noiz baitugu nezesidade geiago aren faborearendako.</p>
+<p><hi rend='Bold'>G.</hi> Alaber egin bear diotegu orazio Aingeruei, eta sanduei?</p>
+<p><hi rend='Bold'>R.</hi> Bai Jauna gure bitartekozalei bezala.</p>
+<p><hi rend='Bold'>G.</hi> Zer gauza dirade Aingeruak?</p>
+<p><hi rend='Bold'>R.</hi> Dirade espiritu sollak gorputzik, eta materiarik batere bage, baitaude Jaungoikoa alabazen dutela.</p>
+<p><hi rend='Bold'>G.</hi> Zer egiten dute geiago?</p>
+<p><hi rend='Bold'>R.</hi> Gizonak begirazen dituzte, eta aien mandatuak, eta orazioak eramozen dituzte Jaungoikoarengana.</p>
+<p><hi rend='Bold'>G.</hi> Zer orazio erraten diotezu Aingeruei, eta sanduei?</p>
+<p><hi rend='Bold'>R.</hi> Zeinbait aldis Aita gurea, eta Jaungoikoak salba zaizala Maria.</p>
+<p><hi rend='Bold'>G.</hi> Nola bada Aita gurea erraten duzunean etzara minzazen Jaungoikoareki, eta Jaungoikoak salba zaizala erraten duzunean Andre dona Mariareki?</p>
+<p><hi rend='Bold'>R.</hi> Bai jauna egia da, baia nola orazio hau Aita gurea baita guzietatik oberena, zeren erran izandu baizue Iesu Kristo gure Jaunak, ze&ntilde;etan baitaude guk bear ditugun, eta konbeni zaizkigun gauza guziak; eta nola ohen erdesteko auniz balio baitu Aingeruen, eta sanduen otoizak, eta geiena Birjina Mariarenak, argatik erraten dut Aita gurea, eta Jaungoikoak salba zaizala Maria Aingeruak, edo sanduak Birjina Mariareki batean bitartekozale gerta dakizkigun erdesteko deseazen, eta bear ditugun gauzak.</p>
+<p><hi rend='Bold'>IRURGARREN KAPITULOA</hi></p>
+<p><hi rend='Bold'>Dotrinaren irurgarren partea,</hi></p>
+<p><hi rend='Bold'>ze&ntilde;etan tratazen baita Jaungoikoaren lege sanduaren Mandamentuen, eta Elizakoen ga&ntilde;ean</hi></p>
+<p><hi rend='Bold'>G.</hi> Erran izazu Jaungoikoaren lege sanduaren Mandamentuak?</p>
+<p><hi rend='Bold'>R.</hi> Jaungoikoaren lege sanduaren mandamentuak dirade amar, erran den bezala.</p>
+<p><hi rend='Bold'>G.</hi> Zertan obligazen gaitu lenbiziko Mandamentuak?</p>
+<p><hi rend='Bold'>R.</hi> Obligazen gaitu daukagun Jaungoikoa gure Jauna, Jaungoiko egiaskoa dela, eta ez ior ere berzerik.</p>
+<p><hi rend='Bold'>G.</hi> Nork dauka Jaungoikoa gure Jauna, dela Jaungoikoa egiaskoa?</p>
+<p><hi rend='Bold'>R.</hi> Nork adorazen baitu hura bera Jaungoiko egiaskoa den bezala Fedeas, Esperanzas, eta Karitateas.</p>
+<p><hi rend='Bold'>G.</hi> Nola bear da Jaungoikoa adoratu?</p>
+<p><hi rend='Bold'>R.</hi> Erreberenziareki gorputzas eta arimas.</p>
+<p><hi rend='Bold'>G.</hi> Nork egiten du bekatu mandamentu onen kontra?</p>
+<p><hi rend='Bold'>R.</hi> Jentilek, eta aiek guziek, ze&ntilde;ek baitauzkite bere Jaungoikozat iguzkia, edo ilargia, edo berze kreaturak, eta ala adorazen dituztenak.</p>
+<p><hi rend='Bold'>G.</hi> Nork honrazen du Jaungoikoa fedeas?</p>
+<p><hi rend='Bold'>R.</hi> Daukanak Jaungoikoa dela egia erakusten duena, eta ala sinestatzen duenak Elizari erakutsirik dauzkien fedesko gauza guziak diradela egiak; zeren Jaungoikoa ezin enga&ntilde;a diteke, eta ezin ior ere enga&ntilde;a dezake.</p>
+<p><hi rend='Bold'>G.</hi> Nork egiten du bekatu fedearen kontra?</p>
+<p><hi rend='Bold'>R.</hi> Sinestatzen eztituztenek Eliza ama sanduak erakusten dituen fedesko gauzak, eta Jaungoiko falsoetan sinestatzen dutenek, edo diradela auniz Jaungoiko.</p>
+<p><hi rend='Bold'>G.</hi> Nork honrazen du Jaungoikoa esperanzas?</p>
+<p><hi rend='Bold'>R.</hi> Daukanak bere baitan konfianza dela guzis fiela, eta ala kunplituko dituela prometaturik dauzkigun gauza guziak, zeren baita poderoso nai duen guziaren egiteko.</p>
+<p><hi rend='Bold'>G.</hi> Orlatan barkatuko dizkio bekatariari bere bekatuak, munduan den andiena izanagatik zeren ala dauka Jaungoikoak prometaturik?</p>
+<p><hi rend='Bold'>R.</hi> Ala da egia baldin egin badez penitenzia bear dena, duela dolore eta damu bere bekatu egines, eta daukala propositu sines bekatuetatik apartazeko, eta emendazeko; zeren onlakoei diadukote Jaungoikoak prometaturik barkatuko dizkiotela.</p>
+<p><hi rend='Bold'>G.</hi> Nork egiten du bekatu esperanzaren kontra?</p>
+<p><hi rend='Bold'>R.</hi> Deskonfiazen dutenek Jaungoikoaren miserikordias, eta gaizki konfiazen duenak.</p>
+<p><hi rend='Bold'>G.</hi> Nor da gaizki konfiazen duena Jaungoikoaren miserikordias?</p>
+<p><hi rend='Bold'>R.</hi> Huste duenak eze bekatuetatik apartatu bage, aitzetik daukala proposito eta intenzio bekatu mortale egiteko, barkatuko dizkiola, eta salbatuko dela.</p>
+<p><hi rend='Bold'>G.</hi> Nork honrazen du Jaungoikoa karitateas?</p>
+<p><hi rend='Bold'>R.</hi> Jaungoikoa oneristen duenak gauza guzien ga&ntilde;ean.</p>
+<p><hi rend='Bold'>G.</hi> Nor da oneristen duena Jaungoikoa gauza guzien ga&ntilde;ean?</p>
+<p><hi rend='Bold'>R.</hi> Jaungoikoaren mandamentuak begirazen dituenak, eta iolako maneras autsizen eztituenak.</p>
+<p><hi rend='Bold'>G.</hi> Orlatan Jaungoikoaren mandamentuak autsizen dituenak, bekatu mortale egiten duela, eztu Jaungoikoa oneristen?</p>
+<p><hi rend='Bold'>R.</hi> Ala da egia erranagatik itzes oneristen duela zeren Jaungoikoaren oneristea eztago itzetan solamente, baizik obra onak egitean, zeren itzak aufer dirade obra kontra diradenean.</p>
+<p><hi rend='Bold'>G.</hi> Nork egiten du bekatu karitatearen kontra?</p>
+<p><hi rend='Bold'>R.</hi> Egiten eztuenak Jaungoikoak bere mandamentuetan manazen duena, eta eskergabe dena egiten dizkion ondasunes, eta mertxedes.</p>
+<p><hi rend='Bold'>BIGARREN MANDAMENTUAREN GA&Ntilde;EAN</hi></p>
+<p><hi rend='Bold'>G.</hi> Nork egiten du juramentu banoro?</p>
+<p><hi rend='Bold'>R. </hi><hi rend='Italic'>J</hi>uramentu egiten duenak dakiela eztiola egia, edo gauza gaistoaren ga&ntilde;ean, eta bear bage.</p>
+<p><hi rend='Bold'>G.</hi> Egiten duenak juramentu dakiela eztiola egia, zer bekatu egiten du?</p>
+<p><hi rend='Bold'>R.</hi> Egiten du bekatu mortale, baldin dakiela gezurra diola juramentu egiten badu.</p>
+<p><hi rend='Bold'>G. </hi><hi rend='Italic'>J</hi>uramentu egiten duenak eztakiela dion egi, edo gezurra ala dudan dagola, egiten du bekatu mortale?</p>
+<p><hi rend='Bold'>R.</hi> Bai jauna, zeren jarrizen baita peligroan gezurraren ga&ntilde;ean juramentu egitera.</p>
+<p><hi rend='Bold'>G.</hi> Juramentu egiten duenak eginen duela gauza gaisto bat, zer bekatu egiten du?</p>
+<p><hi rend='Bold'>R.</hi> Egiten duenak juramentu eginen duela bekatu mortale den gauza bat, nola zenbait persona ilzeko, edo berze gauza gaisto andi den bat, egiten du bekatu mortale; baia egin badez juramentu eginen duela zenbait gaizki txiki, nola baita erranen duela gezur bat iori kalterik eztatorkola, edo ebasteko laureko bat, eta berze onlako gauza guti bat, solamente egiten du bekatu beniale.</p>
+<p><hi rend='Bold'>G.</hi> Noiz erraten da egiten dela juramentu nezesidadeareki?</p>
+<p><hi rend='Bold'>R.</hi> Noiz gauzak baitirade inportanzia anditakoak, eta konbeni baita aien aberigoazeko jakin zein den egia, orduan egiten da juramentu nezesidadeareki, eta ezta bekatu, aitzetik Iaungoikoa serbizazen du egiaren ga&ntilde;ean dakiela egiten duela, eta orduan ere egin bear du respetureki, eta erreberenziareki.</p>
+<p><hi rend='Bold'>G.</hi> Orlatan egiten dute bekatu edozein gauzaren ga&ntilde;ean burlazen, edo jokazen diradenean egiten dutenek?</p>
+<p><hi rend='Bold'>R.</hi> Bai Jauna, zeren gauza guti inportazen diradenetan eta nezesidade bage ekarzen baitute aitor Jaungoikoa, baita faltazea aren Majestadeari zor diogun respetu, eta erreberenziareki.</p>
+<p><hi rend='Bold'>G.</hi> Juramentu egiten duenak manera onetan nezesidade bage, zer bekatu egiten du?</p>
+<p><hi rend='Bold'>R.</hi> Egiaren ga&ntilde;ean egiten duela, eta ez gauza gaistoaren ga&ntilde;ean, egiten du bekatu beniale zeren respeto eta erreberenzia gutireki egiten baitu juramentu.</p>
+<p><hi rend='Bold'>G.</hi> Alaber da bekatu juramentu egitea Jaungoikoaren kriaturak aipazen dituenean juramentu egiteko intenzioreki orai erraten dugun manera onetan?</p>
+<p><hi rend='Bold'>R.</hi> Bai Jauna aietan dakargunean aitor aien kriazalea.</p>
+<p><hi rend='Bold'>G.</hi> Bada nola erranen dugu ez bekaturik egiteko?</p>
+<p><hi rend='Bold'>R.</hi> Erran geuren platiketan, eta konbersazioetan ala da, edo ezta nola Jesu Kristo gure jaunak erakusten baitigu.</p>
+<p><hi rend='Bold'>G.</hi> Boto egiten duenak egiteko gauza on den bat obligatu da kunplizera?</p>
+<p><hi rend='Bold'>R.</hi> Bai jauna aldagien <hi rend='Italic'>fitezena</hi>.</p>
+<p><hi rend='Bold'>G.</hi> Noiz da bekatu ez kunplizea boto egiten dena, eta auniz denboras luzazea?</p>
+<p><hi rend='Bold'>R.</hi> Okasiorik eztuela kunplizen eztuenean Letratu artan adizen zaiotenen irudira.</p>
+<p><hi rend='Bold'>IRURGARREN MANDAMENTUAREN GA&Ntilde;EAN</hi></p>
+<p><hi rend='Bold'>G.</hi> Nork jaiak begirazen ditu?</p>
+<p><hi rend='Bold'>R.</hi> Meza osorik enzuten duenak, eta okasio eta bear bage trabajazen eztenak.</p>
+<p><hi rend='Bold'>G.</hi> Eta izanen da bekatu denbora guti bates, edo bear diradenetan lan egitea?</p>
+<p><hi rend='Bold'>R.</hi> Ez jauna, baia dudan diraden, ala ez galdegin bear du dakienari, eta ala dudatik atra; baia denbora gutia denean trabajazen dena nezesidade bage izanagatik, solamente da bekatu beniale.</p>
+<p><hi rend='Bold'>LAURGARREN MANDAMENTUAREN GA&Ntilde;EAN</hi></p>
+<p><hi rend='Bold'>G.</hi> Nork erraten da egiareki honrazen dituela aita, eta ama?</p>
+<p><hi rend='Bold'>R.</hi> Obedizen diotenak, eta respeto ekarzen diotenak, eta sokorrazen bere nezesidadetan.</p>
+<p><hi rend='Bold'>G.</hi> Nor ohesas landara adizen da mandamentu onetan diradela aitak?</p>
+<p><hi rend='Bold'>R.</hi> Zarrago diradenak adinetan, eta dignidade, eta gobernazeko kargu duten personak.</p>
+<p><hi rend='Bold'>BORZGARREN MANDAMENTUAREN GA&Ntilde;EAN</hi></p>
+<p><hi rend='Bold'>G.</hi> Zer debekazen du Jaungoikoak mandamentu onetan?</p>
+<p><hi rend='Bold'>R.</hi> Ez illzea ior ere autoridade, edo dretxorik artako eztuela.</p>
+<p><hi rend='Bold'>G.</hi> Zer geiago debekazen du?</p>
+<p><hi rend='Bold'>R.</hi> Gaizki egitea proximoari obras, edo itzes, edo deseos.</p>
+<p><hi rend='Bold'>G.</hi> Nork egiten du mandamentu onen kontra?</p>
+<p><hi rend='Bold'>R.</hi> Illzen duenak zenbait persona, edo zaurizen duenak, edo aporreazen, edo meatxazen duenak, edo pesadunbre ematen dionak bere itzes, edo obras atsekabe emateagatik. Bai, eta ze&ntilde;ek bere personas deseazen baitu da&ntilde;u ohetatik egitera, edo berzek egin drazoten, arenganik mendekazeagatik.</p>
+<p><hi rend='Bold'>G.</hi> Bada onesas landara berze manerasko illzerik?</p>
+<p><hi rend='Bold'>R.</hi> Bai Jauna, sokorrazen eta faborazen eztuenak al dagiela nezesidade andian dagona.</p>
+<p><hi rend='Bold'>SEIGARREN MANDAMENTUAREN GA&Ntilde;EAN</hi></p>
+<p><hi rend='Bold'>G.</hi> Nork begirazen du mandamentu hau?</p>
+<p><hi rend='Bold'>R.</hi> Kasto eta honesto denak bere itzetan obretan, eta pensamentuetan.</p>
+<p><hi rend='Bold'>G.</hi> Egiten du bekatu pensamentu gaistoak etorzen zazkionak prokurazen duenean egostera bereganik oarzen zaionean?</p>
+<p><hi rend='Bold'>R.</hi> Ez jauna aitzetik merejizen du baldin oneki batean genzen baitu bereganik okasio gaistoak.</p>
+<p><hi rend='Bold'>G.</hi> Bada nork egiten du bekatu pensamentu gaistoetan?</p>
+<p><hi rend='Bold'>R.</hi> Nork determinazen baitu pensamentu gaistoak obras kunplizera, edo bere naies eta borondates goarzen dela aietan plazer arzen duenak.</p>
+<p><hi rend='Bold'>G.</hi> Zer gauza lagunzen dirade kasto izateko?</p>
+<p><hi rend='Bold'>R.</hi> Orazio egitea, eta maiz konfesazea eta komekazea, eta gauza onetan okupaturik egotea, eta okasio honen kontra diradenetatik, apartazea.</p>
+<p><hi rend='Bold'>ZAZPIGARREN MANDAMENTUAREN GA&Ntilde;EAN</hi></p>
+<p><hi rend='Bold'>G.</hi> Nork kunplizen du mandamentu hau?</p>
+<p><hi rend='Bold'>R.</hi> Arzen eztuenak berzeren dena, eta ezpaitu nai ere bere jauearen borondatearen kontra.</p>
+<p><hi rend='Bold'>G.</hi> Nork austen du mandamentu hau?</p>
+<p><hi rend='Bold'>R.</hi> Kalte egiten duenak berzeari bere haziendan, edo eragiten duenak.</p>
+<p><hi rend='Bold'>G.</hi> Eta ebasten duenak berzeari bere hazienda, edo kalte egiten duenak, asko da konfesazea bere bekatua?</p>
+<p><hi rend='Bold'>R.</hi> Ez jauna, baizik konfesazeas landara bear du errestituzio egin, erran nai dut itzuli bear du ebatsi duen gauza, edo kalte egin duena jabeari.</p>
+<p><hi rend='Bold'>G.</hi> Eta baldin batek ezin itzuli badezake ebatsi duen guzia, edo kalte egin duena, obligatu da itzulzera al dagiena?</p>
+<p><hi rend='Bold'>R.</hi> Bai jauna, baldin batek ebatsi bades dozena bat erreal, edo anbat balio duen gauza bat, eta ezpadu guziaren izulzeko, eta bai erdiarendako, edo irurgarrena hura bear du itzuli, eta ga&ntilde;erakoa duenean.</p>
+<p><hi rend='Bold'>G.</hi> Obligatu da persona bat bereala itzulzera artu duena, edo kalte egin duena?</p>
+<p><hi rend='Bold'>R.</hi> Obligatu da ez auniz denboras luzazera okasiorik ezpadu.</p>
+<p><hi rend='Bold'>G.</hi> Eta eztuenak zerzas, eta ala ezin dirokenak, zer eginen du?</p>
+<p><hi rend='Bold'>R.</hi> Prokuratu bear du bere partetik egitera al dagiena itzulzeas, eta orai ezpadu duenean; zeren eztu nai Jaungoikoak berzea geldi dedin kalte egin zaionareki.</p>
+<p><hi rend='Bold'>ZORZIGARREN MANDAMENTUAREN GA&Ntilde;EAN</hi></p>
+<p><hi rend='Bold'>G.</hi> Nork kunplizen du Mandamentu oneki?</p>
+<p><hi rend='Bold'>R.</hi> Juzgazen eztituenak berzearen gaizak se&ntilde;ale artako asko denik bage, eta eztuenak erraten berzeaten gaizkirik.</p>
+<p><hi rend='Bold'>G.</hi> Nork mandamentu hau autsizen du?</p>
+<p><hi rend='Bold'>R.</hi> Arrazioaren, eta justiziaren kontra edekizen dionak bere proximo lagunari fama, edo agerzen baitu sekretuan dagon bekatua, edo gezurra erraten duenean egin duela berzeak zenbait bekatu.</p>
+<p><hi rend='Bold'>G.</hi> Erran diteke bekaturik baterere bage gezurrik zenbait intenzio ones, nola baita erran gezur bat etxean akarrik ezten, edo zenbait kalte eztatorkon berari, edo proximoari?</p>
+<p><hi rend='Bold'>R.</hi> Be&ntilde;ere ezin erran diteke gezurrik bekatu bage, baia disimula dezake egia ijilik dagola erran bage zer pasatu den.</p>
+<p><hi rend='Bold'>G.</hi> Zein bekatu andia da gezurra erratea?</p>
+<p><hi rend='Bold'>R.</hi> Irur maneras erran diteke gezurra. Lenbizikorik kalte egiten diola bere proximoari nola batek juezak manazen duenean erran dezan dakien egia juramentuaren azpian, eta guziarekin ere gezurra erraten du, onlakoak beti egiten du bekatu mortale.</p>
+<p><hi rend='Bold'>G.</hi> Nola geiago?</p>
+<p><hi rend='Bold'>R.</hi> Bigarrena da ez juramentu artuagatik juezaren eskuan, baia eraikizen dio proximo lagunari falso testimonio erraten duela euatsi duela gauza andi bat, edo gaizki andi bat egin duela, eta ez ala izan, alauer manera onetan gezur erratea da bekatu mortale zeren baita eraikizea, falso testimonio gauza andian, eta hau debekazen da mandamentu onetan.</p>
+<p><hi rend='Bold'>G.</hi> Nola geiago?</p>
+<p><hi rend='Bold'>R.</hi> Irurgarren gezur erratea da batek erraten duenean gezurra librazeagatik zenbait persona, zenbait kaltetik, edo peligrotik, edo iori, kalterik etorri bage, eta ez prouetxurik manera onetan bietan, gezur erratea da bekatu beniale juramenturik egiten ezpadu zeren juramentu egiten den oros gezurraren ga&ntilde;ean, da bekatu mortale.</p>
+<p><hi rend='Bold'>BEDRATZI, ETA AMARGARREN MANDAMENTUAREN GA&Ntilde;EAN</hi></p>
+<p><hi rend='Bold'>G.</hi> Zer deuekazen zaigu, bedratzigarren mandamentuan?</p>
+<p><hi rend='Bold'>R.</hi> Lagunaren emasteareki bekatu egitera deseazea.</p>
+<p><hi rend='Bold'>G.</hi> Zerengatik deuekazen kaizkigu deseo ohek?</p>
+<p><hi rend='Bold'>R.</hi> Zeren baitirade peligrosoak, eta zerengatik egiten, baita borondateas here bekatu mortale deseazen duela.</p>
+<p>Zer debekazen zaigu, amargarren mandamentuan?</p>
+<p><hi rend='Bold'>R.</hi> Deseo gaistoak haziendarenak.</p>
+<p><hi rend='Bold'>G.</hi> Zerengatik?</p>
+<p><hi rend='Bold'>R.</hi> Zeren baitirade zimendua lagunaren hazienda ebasteko.</p>
+<p><hi rend='Bold'>G.</hi> Da bekatu deseazea izatea berzea bekanbat, edo geiago al balu iori agrauiorik egin bage?</p>
+<p><hi rend='Bold'>R.</hi> Ez jauna, zeren emen debekazen zaiguna da deseazea justiziaren, eta arrazioaren diradenak, nola baita ebatsis, edo berzeari agrauio egines.</p>
+<p><hi rend='Bold'>Elizako Mandamentuen ga&ntilde;ean</hi></p>
+<p><hi rend='Bold'>G.</hi> Erran izazu Elizako Mandamentuak?</p>
+<p><hi rend='Bold'>R.</hi> Elizako mandamentuak dirade borz, erran den bezala.</p>
+<p><hi rend='Bold'>Lenbiziko mandamentuaren ga&ntilde;ean</hi></p>
+<p><hi rend='Bold'>G.</hi> Nork kunplizen du Meza, enzuteko mandamentuareki?</p>
+<p><hi rend='Bold'>R.</hi> Meza osorik enzuten duenak deuozioreki utzi bage guarzen dela bere naies pensamentuak mundu onetako berze gauzetan egotera.</p>
+<p><hi rend='Bold'>G.</hi> Eta nor da obligatu eztena Meza enzutera?</p>
+<p><hi rend='Bold'>R.</hi> Eriak, eta nor baitago zenbait nezesidades, eta kausas egiasko denas okupaturik.</p>
+<p><hi rend='Bold'>Bigarren, eta irurgarren Mandamentuaren ga&ntilde;ean</hi></p>
+<p><hi rend='Bold'>G.</hi> Zerengatik erraten duzu konfesatu, eta komekatu gutienean urtean bein?</p>
+<p><hi rend='Bold'>R.</hi> Zerengatik ezpaikaitu Elizak geiago aldis obligazen.</p>
+<p><hi rend='Bold'>G.</hi> Eta konsejus zenbat aldis bear dugu konfesatu, eta komekatu?</p>
+<p><hi rend='Bold'>R.</hi> Konfesore onak, eta diskretoak akonsejazen duen aldietan.</p>
+<p><hi rend='Bold'>Laurgarren mandamentuaren ga&ntilde;ean</hi></p>
+<p><hi rend='Bold'>G.</hi> Baruzeko mandamentuak zertara obligazen gaitu?</p>
+<p><hi rend='Bold'>R.</hi> Ez jatera bianda deuekatuetatik, eta ez egunean bein baizik.</p>
+<p><hi rend='Bold'>G.</hi> Zer hordus bear da jan?</p>
+<p><hi rend='Bold'>R.</hi> Egerdis gero, edo guti bat leentxeago.</p>
+<p><hi rend='Bold'>G.</hi> Deuekazen kaigu barur egunean edatea?</p>
+<p><hi rend='Bold'>R.</hi> Ez egerdi ba&ntilde;o leen, eta ez geros ere.</p>
+<p><hi rend='Bold'>G.</hi> Zer persona daude eskusaturik baruretatik?</p>
+<p><hi rend='Bold'>R.</hi> Ogei eta urte bat kunpliturik eztutenak.</p>
+<p><hi rend='Bold'>G.</hi> Nor geiago?</p>
+<p><hi rend='Bold'>R.</hi> Ezin barur ditezkenak adinaren, edo heritasunaren kausas, edo trabajatu bearres, edo berze kausa egiasko denes.</p>
+<p><hi rend='Bold'>G.</hi> Zer egin bear du konsejus, obligaziorik eztuenak adinik ez izanes?</p>
+<p><hi rend='Bold'>R.</hi> Zenbait aldis barutu, zeren husa ezpadidi barurzera zenbait egunes eginen zaio neke barurareki kunplizea adinetara el dedinean.</p>
+<p><hi rend='Bold'>Borzgarren mandamentuaren ga&ntilde;ean</hi></p>
+<p><hi rend='Bold'>G.</hi> Zer frutus egin bear ditugu amarrenak, eta zenbat?</p>
+<p><hi rend='Bold'>R.</hi> Kostunbres errezebiturik dagonaren konforme.</p>
+<p><hi rend='Bold'>Laurgarren Kapituloa Sakramentuen ga&ntilde;ean</hi></p>
+<p><hi rend='Bold'>G.</hi> Erran izazu sakramentuak?</p>
+<p><hi rend='Bold'>R.</hi> Sakramentuak dirade zazpi erran den bezala.</p>
+<p><hi rend='Bold'>G.</hi> Nork ordenatu zitue sakramentuak?</p>
+<p><hi rend='Bold'>R.</hi> Kristo gure Iaunak.</p>
+<p><hi rend='Bold'>G.</hi> Zertako?</p>
+<p><hi rend='Bold'>R.</hi> Sakramentuak ongi errezebitu eta eman dakigun aren grazia.</p>
+<p><hi rend='Bold'>Bataiazearen ga&ntilde;ean</hi></p>
+<p><hi rend='Bold'>G.</hi> Zer da bataiazea?</p>
+<p><hi rend='Bold'>R.</hi> Da jaioze espiritual bat ze&ntilde;etan ematen baizaigu grazia, eta Kristo gure Iaunaren se&ntilde;alea eta aren zerbizazeko bear dugun fauorea.</p>
+<p><hi rend='Bold'>G.</hi> Zer bekatu genzen du bataiazeak?</p>
+<p><hi rend='Bold'>R.</hi> Bekatu orijinalea, eta edozein berzerik aurken badedi bataiazen denaren baitan.</p>
+<p><hi rend='Bold'>G.</hi> Zer gauza da konfirmazea?</p>
+<p><hi rend='Bold'>R.</hi> Da sakramentu bat ze&ntilde;ezas ematen baizaigu geiago grazia bataiatu ginanean errezebitu ginduenas landara eta fauore bataiatu ginanean errezebitu ginduen fede sandua konfesazeko demonioen eta fede hau persegizen dutenen kontra esporzazeko, eta bitoriareki atrazeko.</p>
+<p><hi rend='Bold'>Penitenziaren ga&ntilde;ean</hi></p>
+<p><hi rend='Bold'>G.</hi> Zer da penitenzia?</p>
+<p><hi rend='Bold'>R.</hi> Da sakramentu bat Kristo gure Iaunak ordenaturik baitauka bekatariei bataiatus gero egin dituzten bekatuak barkazeko.</p>
+<p><hi rend='Bold'>G.</hi> Zenbat gauza egin bear du bekatariak bere partetik ongi konfesazeko, eta ala Sakramentu onen birtutes bere bekatuen, barkazioa erdesteko?</p>
+<p><hi rend='Bold'>R.</hi> Bekatariak ongi konfesazeko egin bear ditu laur gauza.</p>
+<p><hi rend='Bold'>G.</hi> Zein da lenbizikoa?</p>
+<p><hi rend='Bold'>R.</hi> Lenbizikorik konfesatu ba&ntilde;o leen egin bear duena da kuidadoreki oroitu egin dituen bekatues, mandamentuetatik examinazen duela bere konzienzia.</p>
+<p><hi rend='Bold'>G.</hi> Zein da bigarrena?</p>
+<p><hi rend='Bold'>R.</hi> Bigarrena bear duena da izan damu, eta urrikimentu bere bekatu egines, zeren aiezas egin baitio Agrauio bere kriatu zuen Iaunari, eta Jaungoikoari, edo zeren egin duen bekatu mortales galdu baitu bere partetik den bekanbates zeruko gloria, edo ifernuko trabaju, eta tormentuetatik librazeagatik.</p>
+<p><hi rend='Bold'>G.</hi> Zein da irurgarrena?</p>
+<p><hi rend='Bold'>R.</hi> Irurgarren gauza egin bear duena da konfesatu bere bekatuak guziak erraten dizkiola konfesoreari bekatu mortalerik batere utzi bage.</p>
+<p><hi rend='Bold'>G.</hi> Zein da laurgarrena?</p>
+<p><hi rend='Bold'>R.</hi> Laurgarren gauza egin bear duena da kunplitu konfesoreak ematen dion penitenzia, egiten dituela ark erraten dizkion gauzak intenzioreki pagazeko bere bekatuengatik zor duena.</p>
+<p><hi rend='Bold'>G.</hi> Orlatan kofesoreak ematen dion penitenzia da ongi al dagien <hi rend='Italic'>fitetzena</hi> kunplizea, alas eta aihesas pagazen duenean aren bekatuek zor duten pena?</p>
+<p><hi rend='Bold'>R.</hi> Ala da egia, eta da prouetxu anditako gauza grazian dagola kunplizea.</p>
+<p><hi rend='Bold'>G.</hi> Baldin bat konfesa badedi bere konzienzia examinaturik ongi, eta ala bere bekatues oroiturik, eta erraten dizkiola guziak konfesoreari, baia propositorik, eta intenziorik bage bekatuetatik apartazeko, eta emendazeko, alakoari barkatuko dizkio Iaungoikoak bekatuak?</p>
+<p><hi rend='Bold'>R.</hi> Eztizkio iolako maneras barkatuko, zeren onla konfesazen denak eztu damu bere bekatues bear duena; zeren da gauza ziertoa ezin iork here, dukela urrikimentu, eta damu bekatu egines bear dena bekatuak barkazeko, baldin ezpadu propositorik, eta intenziorik emendazeko.</p>
+<p><hi rend='Bold'>G.</hi> Zer ondasun erdesten du ongi konfesazen denak?</p>
+<p><hi rend='Bold'>R.</hi> Iaungoikoaren grazia, ze&ntilde;es barkazen baizazkio bekatu egin dituen guziak, andiak izanagatik, eta aurrera etorzeko daudenetatik apartazeko fauorea.</p>
+<p><hi rend='Bold'>Komekazearen ga&ntilde;ean</hi></p>
+<p><hi rend='Bold'>G.</hi> Zer da komekazea?</p>
+<p><hi rend='Bold'>R.</hi> Da errezebizea Iesu Kristo ze&ntilde;ek sustentazen baitu arima, eta ematen bizia be&ntilde;ere akabatuko eztena.</p>
+<p><hi rend='Bold'>G.</hi> Zer ematen digu Sazerdoteak hostia konsagratua komekazen garadenean ematen digunean?</p>
+<p><hi rend='Bold'>R.</hi> Iesu Kristo bera zeruan dagona guzia osorik.</p>
+<p><hi rend='Bold'>G.</hi> Orlatan hostia konsagratuan dago Jesu Kristo bere buru santisimo areki, aurpegiareki, bere eskueki, eta o&ntilde;eki, zulaturik dauzkieneki gure amoreagatik?</p>
+<p><hi rend='Bold'>R.</hi> Ala da egia, gloria, eta Majestadeareki berareki nola baitago zeruan dago bere personas osorik hostia konsagratuan, eta kalizan ere bai ardoa konsagratus gero.</p>
+<p><hi rend='Bold'>G.</hi> Zer podores egiten da hori?</p>
+<p><hi rend='Bold'>R.</hi> Iaungoikoaren podores egiten dituela emen milagro bazuk guzis andiak.</p>
+<p><hi rend='Bold'>G.</hi> Zenbat; eta zer milagro dirade orihek?</p>
+<p><hi rend='Bold'>R.</hi> Milagroak sakramentu sandu onetan egiten dituenak Iaungoikoak dirade auniz guziak errateko bear lizate auniz denuora; baia luza eztezadan erranen ditut laur solamente.</p>
+<p><hi rend='Bold'>G.</hi> Zein da lenbizikoa?</p>
+<p><hi rend='Bold'>R.</hi> Lenbiziko milagroa da eze hostia aldarera ekarzen dena konsagrazeko; ariketa konsagratu artera&ntilde;o, ezta berzerik baizik ogi guti bat, eta kalizan ezarzen dena, ardo guti bat, baia sazerdoteak erraten dituen bezala konsagrazioko itzak, izulzen du ogia Iesu Kristoren gorpuzean, eta ardoaren odolean alako maneras eze geros ezpaita han ez ogirik, eta ez ardorik.</p>
+<p><hi rend='Bold'>G.</hi> Bada zer egiten da ogiaren, eta ardoaren sustanzia?</p>
+<p><hi rend='Bold'>R.</hi> Konsagrazioko itzen birtutes izulzen da ogia Kristo gure Jaunaren gorpuzean, eta ardoa aren odolean.</p>
+<p><hi rend='Bold'>G.</hi> Zein da bigarrena?</p>
+<p><hi rend='Bold'>R.</hi> Bigarren milagroa da eze Jesu Kristo gure Iauna, nola erran baita artikulo fedeskoetan igan zela zeruetara, eta dagola jarririk bere Aita eternoaren eskuian, Jaun hura bera, zeruan faltarik egin bage, dago hostia konsagratuan; eta kalizan, ardoa konsagratus gero.</p>
+<p><hi rend='Bold'>G.</hi> Zein da irurgarren milagroa?</p>
+<p><hi rend='Bold'>R.</hi> Irurgarren milagroa da eze izanika Jesu Kristo gure jaunaren gorpuza andia, eta guzis galanta dago bizirik eta osorik bere arimareki, eta guregatik ixuri zuen odolareki, eta bere dibinidadeareki, hostia konsagratuan, izanagatik ain txikia: eta kalizan ardoa konsagratus gero.</p>
+<p><hi rend='Bold'>G.</hi> Zein da laurgarrena?</p>
+<p><hi rend='Bold'>R.</hi> Laurgarren milagroa da eze Jaun hau berau dago munduan diraden hostia konsagratu guzietan, eta kaliza guzietan ardoa konsagratus gero; bai eta parti balezate hostia auniz parte, dago Jaun hau berau hostian guzian osorik, eta edozein zatikotan txikia izanagatik.</p>
+<p><hi rend='Bold'>G.</hi> Ohek milagro andiak dirade?</p>
+<p><hi rend='Bold'>R.</hi> Ala da egia, diradela marabilla, eta milagro guzis andiak, baia jakin bear duzu eze Jaungoikoak egin dezakela nai duen guzia, eta ala bear dugu sinestatu nola konfesazen baitugu Kredoa erraten dugunean, sinestazen dut Jaungoiko guzis poderosoan, eta ala egin dezake nai duen guzia, zeren ezta arendako gauza difikultoso denik.</p>
+<p><hi rend='Bold'>G.</hi> Zerendako egiten ditu milagro ohek?</p>
+<p><hi rend='Bold'>R.</hi> Guri ondasun, eta mertxede egiteagatik.</p>
+<p><hi rend='Bold'>G.</hi> Eta zer ondasun, eta mertxede egiten digu?</p>
+<p><hi rend='Bold'>R.</hi> Ondasun eta mertxede egiten digunak dirade guzis andiak zeren dago sakramentu sandu onetan erran den bezala gu honrazeagatik, eta geuren nezesidade guzietatik erremediazeagatik.</p>
+<p><hi rend='Bold'>G.</hi> Zenbat gauza egin bear ditugu komekatu ba&ntilde;o leen orrenbat ondasun erdesteagatik?</p>
+<p><hi rend='Bold'>R.</hi> Bi gauza.</p>
+<p><hi rend='Bold'>G.</hi> Zein da lenbizikoa?</p>
+<p><hi rend='Bold'>R.</hi> Lenbizikorik egin bear duguna da konfesatu oroizen bagarade edozein bekatu mortale eginik leem konfesatu eztugunes, eta egon bear dugu barurik janik, eta edanik bage.</p>
+<p><hi rend='Bold'>G.</hi> Zein da bigarrena?</p>
+<p><hi rend='Bold'>R.</hi> Bigarren gauza egin bear duguna da komekatu ba&ntilde;o leen pensatu, eta konsideratu nola dagon hostia konsagratuan Jesu Kristo gure jauna, zein Andre dona Mariak, Aingeruek, sandu eta sanda guziek respetu guzis andiareki adorazen, alabazen, eta serbizazen baitute, ze&ntilde;ek deseiazen baitute guk errezebi dezagun ongi arrazio den bezala, eta ala otoiz egin bear diogu digun bere faborea eta grazia ongi errezebizeko, eta Birjina Mariari Aingerueki, eta sandu, eta sanda guzieki bitartekozale gerta dakigun.</p>
+<p><hi rend='Bold'>G.</hi> Eta zer egin bear dugu komekatus gero?</p>
+<p><hi rend='Bold'>R.</hi> Luzaro eta sosegureki Jaungoikoari graziak eman egin digun ondasunas, eta mertxede ain andias, prokurazen dugula, alas eta ain obligaturik utzizen gaituenean, aren serbizuan gogotik eta sines enpleazera, be&ntilde;ere aren graziatik, adiskidetasunetik, eta amoriotik apartatu bage.</p>
+<p><hi rend='Bold'>Oliaduraren ga&ntilde;ean</hi></p>
+<p><hi rend='Bold'>G.</hi> Zer da oliadura?</p>
+<p><hi rend='Bold'>R.</hi> Oliadura da sakramentu bat Kristo gure jaunak ordenatu baitu heriendako ilzeko peligroan daudenean errezebi dezaten.</p>
+<p><hi rend='Bold'>G.</hi> Zenbat ondasun errezebizen du oliazen denak?</p>
+<p><hi rend='Bold'>R.</hi> Irur.</p>
+<p><hi rend='Bold'>G.</hi> Zein da lenbizikoa?</p>
+<p><hi rend='Bold'>R.</hi> Lenbizikoa da oliazen denak ongi aparejazen dela errezebizen du Espiritu sanduaren grazia, eta garuizen du aren arima, ager dein ill, eta Jaungoikoaren Aurrean arrazio den bezala garuirik.</p>
+<p><hi rend='Bold'>G.</hi> Zein da bigarrena?</p>
+<p><hi rend='Bold'>R.</hi> Bigarrena da ematen baitio oliazen denari indar, eta fabore denuora artan eritasunaren trabajuak pazienziareki errezebizeko, arzen duela konfianza andia Jaungoikoaren baitan bere miserikordia andias emanen diola artako bear duen fauorea; eta alauer demonioaren tentazioak, ze&ntilde;ek orduan bortizkiago tentazen baitu, garaizeko.</p>
+<p><hi rend='Bold'>G.</hi> Zein da irurgarrena?</p>
+<p><hi rend='Bold'>R.</hi> Irurgarren ondasuna da eze oliazen denak bear badu gorpuzaren osasuna arimaren saluazeko emanen baizaio.</p>
+<p><hi rend='Bold'>G.</hi> Orlatan arrazioa da Kristioek daukaten kontu andia sakramentu hau errezebizeas?</p>
+<p><hi rend='Bold'>R.</hi> Ala da egia, eta ezta etxeden bear ariketa juizioa galdu artera&ntilde;o, baizik juizio, eta sentido onean dagon bitartean bear du prokuratu errezebizera.</p>
+<p><hi rend='Italic'>Ordenazean errezebizen den Sakramentuaren ga&ntilde;ean eztut deus erraten zerengatik ordenazen diradenek berek dakite zer egin bear duten. </hi></p>
+<p><hi rend='Bold'>Matrimonioaren ga&ntilde;ean</hi></p>
+<p><hi rend='Bold'>G.</hi> Zer ondasun ematen diote matrimonioak ezkonzen diradenei?</p>
+<p><hi rend='Bold'>R.</hi> Ematen du grazia ezkonduei ongi bizizeko.</p>
+<p><hi rend='Bold'>G.</hi> Bekatu mortalean dagola ezkonzen denak zer bekatu egiten du?</p>
+<p><hi rend='Bold'>R.</hi> Egiten du bekatu mortale andia, zerengatik gaizki errezebizen baitu sakramentu sandu hura, eta argatik da ongi bi egunes, edo irures leen konfesazea eta komekazea, eta grazian dagola sakramentu hau errezebizea.</p>
+<p><hi rend='Bold'>BORZGARREN KAPITULOA</hi></p>
+<p><hi rend='Bold'>Obra miserikordiaskoen ga&ntilde;ean</hi></p>
+<p><hi rend='Bold'>G.</hi> Alas eta erran duzunean obra onak egiten enpleatu bear duguna, erran izazu obra miserikordiaskoak?</p>
+<p><hi rend='Bold'>R.</hi> Obra miserikordiaskoak dirade amalaur erran den bezala.</p>
+<p><hi rend='Bold'>G.</hi> Zerengatik deizen dirade obra miserikordiaskoak?</p>
+<p><hi rend='Bold'>R.</hi> Zeren ezpaitirade zor justizias.</p>
+<p><hi rend='Bold'>G.</hi> Noiz egin bear ditugu obligazios?</p>
+<p><hi rend='Bold'>R.</hi> Nezesidade andiak diradenean persona diskretoen, eta adizen zaiotenen irudira.</p>
+<p><hi rend='Bold'>SEIGARREN KAPITULOA</hi></p>
+<p><hi rend='Bold'>Espiritu Sanduaren doaien, eta aien prouetxuen ga&ntilde;ean</hi></p>
+<p><hi rend='Bold'>G.</hi> Erran izazu Espiritu sanduaren doaiak?</p>
+<p><hi rend='Bold'>R.</hi> Espiritu sanduaren doaiak dira zazpi erran den bezala.</p>
+<p><hi rend='Bold'>G.</hi> Zer gauzetako lagunzen zaizkigu Espiritu sanduaren doaiak?</p>
+<p><hi rend='Bold'>R.</hi> Elzeko Kristioaren bizize oberenera, zeren dirade eskalera bat bezala igateko, bekaturik libratu, eta obra onak egines Iaungoikoaren seruizuan den bizize oberenera, eta goitienera.</p>
+<p><hi rend='Bold'>G.</hi> Zertako aprouetxazen zaigu jakintasunaren doaia?</p>
+<p><hi rend='Bold'>R.</hi> Iakintasunaren doaia aprouetxazen zaigu eskojizeko konsideratu dugun gauzan geien konueni zaiguna; eta nola geien konueni zaiguna baita Jaungoikoaren seruizazea, geuren arimen saluazeko, ala jakintasuna duenak onetako egiten ditu obra onak.</p>
+<p><hi rend='Bold'>G.</hi> Eta obra onak egiten eztituenak bere arima saluazeko zer daki?</p>
+<p><hi rend='Bold'>R.</hi> Alakoari irudiagatik dakiela munduan diraden guziek ba&ntilde;o geiago; eztaki deus konueni zaionik.</p>
+<p><hi rend='Bold'>G.</hi> Zerendako aprouetxazen zaigu entendamentuaren doaia?</p>
+<p><hi rend='Bold'>R.</hi> Entendamentuaren doaia aprouetxatzen zaigu adizera emateko egiak, baitirade Jaungoikoari agradazen zaizkion gauzak, eta aren Majestadeak adizera ematen dizkigun misterioak.</p>
+<p><hi rend='Bold'>G.</hi> Zerendako aprouetxatzen zaigu konsejuaren doaia?</p>
+<p><hi rend='Bold'>R.</hi> Konsejuaren doaia aprouetxatzen zaigu konsiderazeko, eta pensazeko Jaungoikoak nai dituen gauzak egin dizagun.</p>
+<p><hi rend='Bold'>G.</hi> Zerendako aprouetxatzen zaigu fortalezaren doaia?</p>
+<p><hi rend='Bold'>R.</hi> Auniz aprouetxatzen zaigu, zeren gauza guzietan Jaungoikoa nai duenak serbizatu aurkenzen du difikultade, eta estorbu asko ezarzen dizkiola munduak, demonioak, eta aragiak guziek tentazen, eta akometazen gaituztela eztezagun obratan ezarri geuren proposito, eta intenzio onak; baia orduan Jaungoikoak ematen dio aprouetxatu nai duenari esporzu, eta indar garaitzeko difikultade, eta estorbu guziak.</p>
+<p><hi rend='Bold'>G.</hi> Zerendako aprouetxatzen zaigu piedadearen doaia, baita urrikaritzea?</p>
+<p><hi rend='Bold'>R.</hi> Aprouetxatzen zaigu Jaungoikoareki geuren gauzes konponzeko: zeren konsidera dezanak bekatu mortale bat gastigazeagatik daukala Jaungoikoak ifernuko pena, ze&ntilde;es meatxazen baitu, urrikarizen da bekataria bere buruas, eta prokurazen du egitera penitenzia aurrera emendazen dela, eta egiten duela gauza guzietan aren borondatea anbat gaitzetatik eskapazeagatik.</p>
+<p><hi rend='Bold'>G.</hi> Zerendako aprouetxatzen zaigu Jaungoikoaren beldurraren doaia?</p>
+<p><hi rend='Bold'>R.</hi> Auniz aprouetxatzen zaigu: zeren konsidera dezan<hi rend='Italic'>e</hi>k bear den bezala bekatu mortalean dagon bitartean dagola Jaungoiko guzis poderosoaren etsaitasunean, beldurzen da eta prokurazen du bekatu mortaletik atrazera hartan dagola gastiga eztezan.</p>
+<p><hi rend='Bold'>G.</hi> Erran izazu orai Espiritu sanduaren frutuak?</p>
+<p><hi rend='Bold'>R.</hi> Espiritu sanduaren frutuak dirade amabi erran den bezala.</p>
+<p><hi rend='Bold'>G.</hi> Zergatik erraten dirade Espiritu sanduaren frutuak?</p>
+<p><hi rend='Bold'>R.</hi> Erraten dirade Espiritu sanduaren frutuak: zerengatik nola arbole batean den gustosoena baita fruta; ala Espiritu sanduaren frutuak dirade birtuten, eta ondasunen oberenen, gustosoenak.</p>
+<p><hi rend='Bold'>ZAZPIGARREN KAPITULOA</hi></p>
+<p><hi rend='Bold'>Bienauenturanzen ga&ntilde;ean</hi></p>
+<p><hi rend='Bold'>G.</hi> Erran izazu Bienauenturanzak?</p>
+<p><hi rend='Bold'>R.</hi> Bienauenturanzak dirade zorzi erran den bezala.</p>
+<p><hi rend='Bold'>G.</hi> Zer gauza dirade bienauenturanza ohek?</p>
+<p><hi rend='Bold'>R.</hi> Dirade birtuten, eta ondasunen, eta Espiritu sanduaren doaien obra andienak.</p>
+<p><hi rend='Bold'>G.</hi> Nor dirade borondates pobre diradenak?</p>
+<p><hi rend='Bold'>R.</hi> Dirade borondates hazienda menospreziazen dituztenak.</p>
+<p><hi rend='Bold'>G.</hi> Nor dirade mansoak?</p>
+<p><hi rend='Bold'>R.</hi> Dirade irarik eztutenak, eta aren se&ntilde;alerik here.</p>
+<p><hi rend='Bold'>G.</hi> Nola gozazen dute lurra?</p>
+<p><hi rend='Bold'>R.</hi> Beren buruen Jaun diradela.</p>
+<p><hi rend='Bold'>G.</hi> Nor dirade nigar egiten dutenak?</p>
+<p><hi rend='Bold'>R.</hi> Dirade mundu onetako plazerak, eta gustoak billazen eztituztenak; baizik prokurazen baitute egitera penitenzia, eta beren bekatues nigarr.</p>
+<p><hi rend='Bold'>G.</hi> Nor dirade justiziaren gose, eta egarri diradenak?</p>
+<p><hi rend='Bold'>R.</hi> Egiten dutenak justizias, eta karidades obligatu diradena.</p>
+<p><hi rend='Bold'>G.</hi> Nor dirade miserikordiosoak?</p>
+<p><hi rend='Bold'>R.</hi> Urrikarizen diradenak nezesidadean daudenes, ez ezagunak izanagatik.</p>
+<p><hi rend='Bold'>G.</hi> Nor dirade biotz garuiak ditustenak?</p>
+<p><hi rend='Bold'>R.</hi> Gauza guzietan egiten dutenak Jaungoikoak nai duena, eta onetako beren apetitu gaistoen kontra egiten dutenak.</p>
+<p><hi rend='Bold'>G.</hi> Nor dirade bakea dutenak?</p>
+<p><hi rend='Bold'>R.</hi> Bereki, eta berzereki bakea dutenak.</p>
+<p><hi rend='Bold'>G.</hi> Nor dirade bere baitan bakea dutenak?</p>
+<p><hi rend='Bold'>R.</hi> Iaungoikoareki ongi daudenak, eze ohek dute bake berekin, eta prokurazen dute berzek ere duten.</p>
+<p><hi rend='Bold'>G.</hi> Nor dirade justiziarengatik persegituak diradenak?</p>
+<p><hi rend='Bold'>R.</hi> Persegitu diradenak, eta ala baia gustoreki, eta gogotik sufrizen dituztenak Jaungoikoaren amoreagatik egiten dizkioten injuriak, eta agrauioak, eta artan firme daudenak, nola egin izandu baizute jaunaren Apostoloek.</p>
+<p><hi rend='Bold'>G.</hi> Zerengatik obra ohek deizen dirade bienauenturanzak?</p>
+<p><hi rend='Bold'>R.</hi> Zerengatik ohek egitean baitago mundu onetako bienauenturanza, eta dirade eskalera bat bezala, ze&ntilde;etatik elzen baita erdezizera zeruko bienauenturanza be&ntilde;ere akabatuko eztena.</p>
+<p><hi rend='Bold'>ZORZIGARREN KAPITULOA</hi></p>
+<p><hi rend='Bold'>Bekatu mortalen, eta aien kontra diraden birtuten, eta ondasunen ga&ntilde;ean</hi></p>
+<p><hi rend='Bold'>G.</hi> Erran izazu bekatu mortaleak?</p>
+<p><hi rend='Bold'>R.</hi> Bekatu mortaleak dirade zazpi erran den bezala.</p>
+<p><hi rend='Bold'>G.</hi> Zeren deizen dituzu bekatu mortaleak, edo buruak?</p>
+<p><hi rend='Bold'>R.</hi> Zeren baitirade buruak, eta za&ntilde;ak ze&ntilde;etatik atrazen baitirade auniz bekatu.</p>
+<p><hi rend='Bold'>G.</hi> Dirade bekatu mortale soberuia, eta auarizia guziak?</p>
+<p><hi rend='Bold'>R.</hi> Ez guziak baizik solamente Jaungoikoaren karidadearen, eta proximo lagunaren amorioaren kontra diradenak.</p>
+<p><hi rend='Bold'>G.</hi> Eta noiz dirade karidadearen kontra?</p>
+<p><hi rend='Bold'>R.</hi> Noiz bekatu ohes autsizen baita zenbait Jaungoikoaren mandamenturik, edo Elizarenik.</p>
+<p><hi rend='Bold'>G.</hi> Zenbat maneras dirade bekatuak?</p>
+<p><hi rend='Bold'>R.</hi> Irur maneratan. Bata da bekatu orijinalea. Berzea mortalea. Berzea benialea.</p>
+<p><hi rend='Bold'>G.</hi> Zer gauza da bekatu orijinalea?</p>
+<p><hi rend='Bold'>R.</hi> Bekatu orijinalea da bekatu hura zein heredazen baitugu aita Adan, eta Euaganik arima Jaungoikoak kriatu, eta juntazen den bezala amaren sabelean gorpuzareki<hi rend='Italic'>.</hi></p>
+<p><hi rend='Bold'>G.</hi> Zer gauza da bekatu mortalea?</p>
+<p><hi rend='Bold'>R.</hi> Deseazea, erratea, edo egitea, edo faltazea zenbait gauza andi denean Jaungoikoaren legearen kontra.</p>
+<p><hi rend='Bold'>G.</hi> Zergatik erraten da bekatu mortalea?</p>
+<p><hi rend='Bold'>R.</hi> Erraten da mortalea, zeren illzen baitu arima.</p>
+<p><hi rend='Bold'>G.</hi> Nola illzen du arima?</p>
+<p><hi rend='Bold'>R.</hi> Zerengatik bekatu mortaleagatik galzen baitu egiten duenak Jaungoikoaren grazia, eta aren amorioa, baita arimaren bizia.</p>
+<p><hi rend='Bold'>G.</hi> Zer gauza da bekatu benialea?</p>
+<p><hi rend='Bold'>R.</hi> Ezpaitu illzen arima baizik herizen du.</p>
+<p><hi rend='Bold'>G.</hi> Nola heritzen du?</p>
+<p><hi rend='Bold'>R.</hi> Zeren flakazen baitu ongi egiteko eta aparejazen baitu bekatu mortale egiteko.</p>
+<p><hi rend='Bold'>G.</hi> Zeren deizen da bekatu benialea?</p>
+<p><hi rend='Bold'>R.</hi> Zeren fazilkiro egiten baita, eta barkazen here bai.</p>
+<p><hi rend='Bold'>G.</hi> Zenbat gauzas barkazen da?</p>
+<p><hi rend='Bold'>R.</hi> Leen erran den bedratzi gauzes.</p>
+<p><hi rend='Bold'>G.</hi> Zer gauza da soberuia?</p>
+<p><hi rend='Bold'>R.</hi> Apetitu, eta deseo gaisto bat, izateko berzeak ba&ntilde;o geiago.</p>
+<p><hi rend='Bold'>G.</hi> Zein da soberuiaren kontra den birtutea?</p>
+<p><hi rend='Bold'>R.</hi> Humildadea.</p>
+<p><hi rend='Bold'>G.</hi> Zer da Humildadea?</p>
+<p><hi rend='Bold'>R.</hi> Sentizea humilkiro bere baitan.</p>
+<p><hi rend='Bold'>G.</hi> Zer gauza da auarizia?</p>
+<p><hi rend='Bold'>R.</hi> Apetitu, eta deseo gaisto bat hazienda izateko.</p>
+<p><hi rend='Bold'>G.</hi> Zein da auariziaren kontra den birtutea?</p>
+<p><hi rend='Bold'>R.</hi> Liberal izatea.</p>
+<p><hi rend='Bold'>G.</hi> Zer da liberalidadea?</p>
+<p><hi rend='Bold'>R.</hi> Inklinazio bat emateko duen haziendatik konueni denean, eta bear den bezala.</p>
+<p><hi rend='Bold'>G.</hi> Zer gauza da luxuria?</p>
+<p><hi rend='Bold'>R.</hi> Apetitu eta deseo gaisto bat aragiarena luxuriako gauzetan.</p>
+<p><hi rend='Bold'>G.</hi> Zein da luxuriaren kontra den birtutea?</p>
+<p><hi rend='Bold'>R.</hi> Kastidadea.</p>
+<p><hi rend='Bold'>G.</hi> Zer da kastidadea?</p>
+<p><hi rend='Bold'>R.</hi> Luxuriako gauzetan garui izatea.</p>
+<p><hi rend='Bold'>G.</hi> Zer gauza da ira?</p>
+<p><hi rend='Bold'>R.</hi> Apetitu eta deseo gaisto bat mendezazeko.</p>
+<p><hi rend='Bold'>G.</hi> Zein da iraren kontra den birtutea?</p>
+<p><hi rend='Bold'>R.</hi> Manso izatea, eta pazienziatan proximo lagunaren agrauioak, eta injuriak errezebizea.</p>
+<p><hi rend='Bold'>G.</hi> Zer gauza da gula?</p>
+<p><hi rend='Bold'>R.</hi> Apetitu eta deseo bat jateko, eta edateko sobra.</p>
+<p><hi rend='Bold'>G.</hi> Zein da gularen kontra den birtutea?</p>
+<p><hi rend='Bold'>R.</hi> Tenplanza.</p>
+<p><hi rend='Bold'>G.</hi> Zer gauza da tenplanza?</p>
+<p><hi rend='Bold'>R.</hi> Ez jatea, eta ez edatea konueni den ba&ntilde;o geiago.</p>
+<p><hi rend='Bold'>G.</hi> Zer da inuidia?</p>
+<p><hi rend='Bold'>R.</hi> Tristura bat, eta damutasun bat berzearen ondasunas.</p>
+<p><hi rend='Bold'>G.</hi> Zein da inuidiaren kontra den birtutea?</p>
+<p><hi rend='Bold'>R.</hi> Karitatea.</p>
+<p><hi rend='Bold'>G.</hi> Zer da karitatea?</p>
+<p><hi rend='Bold'>R.</hi> Plazer arzea berzearen ondasunas, eta damu aren gaizas <hi rend='Italic'>geurenas</hi> bezala.</p>
+<p><hi rend='Bold'>G.</hi> Zer gauza da pereza?</p>
+<p><hi rend='Bold'>R.</hi> Tristurareki ibilzea, eta arlote izatea Jaungoikoaren zeruizuko gauzetan.</p>
+<p><hi rend='Bold'>G.</hi> Zein da perezaren kontra den birtutea?</p>
+<p><hi rend='Bold'>R.</hi> Dilijenzia.</p>
+<p><hi rend='Bold'>G.</hi> Zer da dilijenzia?</p>
+<p><hi rend='Bold'>R.</hi> Fite gogotik, eta gozoreki Jaungoikoaren zerbizuko, eta ari agradazen zaizkion gauzak egitea.</p>
+<p><hi rend='Bold'>BEDRAZIGARREN KAPITULOA</hi></p>
+<p><hi rend='Bold'>Birtute Teologalen, eta Kardinalen ga&ntilde;ean</hi></p>
+<p><hi rend='Bold'>G.</hi> Erran izazu birtute Teologalak?</p>
+<p><hi rend='Bold'>R.</hi> Birtute Teologalak dirade irur, erran den bezala.</p>
+<p><hi rend='Bold'>G.</hi> Zer gauza da Fedea?</p>
+<p><hi rend='Bold'>R.</hi> Da argitasun bat Jaungoikoak ematen diguna, ze&ntilde;ezas ikusi bage sinestatzen baitugu Jaungoikoak, eta Elizak erraten dizkigunak diradela fedesko gauzak.</p>
+<p><hi rend='Bold'>G.</hi> Zer gauza da Esperanza?</p>
+<p><hi rend='Bold'>R.</hi> Esperanza da idukizea Jaungoikoaren baitan emanen digula gloria, eta aren erdesteko bear ditugun gauzak.</p>
+<p><hi rend='Bold'>G.</hi> Zertan dago gure bienauenturanza?</p>
+<p><hi rend='Bold'>R.</hi> Jaungoikoa bera ikustean, oneristean, eta arzas gozazean beti be&ntilde;ere akabatu bage.</p>
+<p><hi rend='Bold'>G.</hi> Zer medios erdesten da?</p>
+<p><hi rend='Bold'>R.</hi> Jaungoikoaren grazias, eta Kristo gure Jaunaren merejimentues, eta gure obra ones.</p>
+<p><hi rend='Bold'>G.</hi> Zer da Karitatea?</p>
+<p><hi rend='Bold'>R.</hi> Oneristea Jaungoikoa gauza guzien ga&ntilde;ean, eta proximo laguna geurok bezala.</p>
+<p><hi rend='Bold'>G.</hi> Erran ezazu zenbat diraden birtute Kardinaleak?</p>
+<p><hi rend='Bold'>R.</hi> Birtute kardinaleak dirade laur erran den bezala.</p>
+<p><hi rend='Bold'>G.</hi> Zer ofizio du Prudenziak?</p>
+<p><hi rend='Bold'>R.</hi> Medio on bat izatea gauzetan.</p>
+<p><hi rend='Bold'>G.</hi> Zer ofizio du justiziak?</p>
+<p><hi rend='Bold'>R.</hi> Nori berea ematea.</p>
+<p><hi rend='Bold'>G.</hi> Zer ofizio du fortalezak?</p>
+<p><hi rend='Bold'>R.</hi> Edozein peligrotan jarrizea ill bear badu here konueni denean Jaungoikoaren seruizazeagatik, eta bear denean, edozein trabaju sufrizea.</p>
+<p><hi rend='Bold'>G.</hi> Zer ofizio du tenplanzak?</p>
+<p><hi rend='Bold'>R.</hi> Genzea sobra jatea, eta edatea, eta aragiaren luxuriasko deseo gaistoak.</p>
+<p><hi rend='Bold'>G.</hi> Zein da birtute guzietatik andiena?</p>
+<p><hi rend='Bold'>R.</hi> Karitatea, ze&ntilde;ek guziei ematen baitiote bizia.</p>
+<p><hi rend='Bold'>G.</hi> Zein persona da Jaungoikoaren Aurrean oberena, eta sanduena?</p>
+<p><hi rend='Bold'>R.</hi> Biz nornai karitate eta amorio Jaungoikoarekin geien duena.</p>
+<p><hi rend='Bold'>G.</hi> Eta nork du karitate eta amorio geiago Jaungoikoareki?</p>
+<p><hi rend='Bold'>R.</hi> Jaungoikoaren mandamentuak obekien begirazen dituenak.</p>
+<p><hi rend='Bold'>G.</hi> Ebanjelioko konsejuak zenbat dirade?</p>
+<p><hi rend='Bold'>R.</hi> Irur, borondates pobre izatea, eta kastidadesko estadoa, eta obedienziaren azpian bizizea.</p>
+<p><hi rend='Bold'>G.</hi> Zertako zeruizazen dira konseju ohek?</p>
+<p><hi rend='Bold'>R.</hi> Jaungoikoaren mandamentuak obekiago begirazeko.</p>
+<p><hi rend='Bold'>AMARGARREN KAPITULOA</hi></p>
+<p><hi rend='Bold'>Arimaren potenzien, eta Sentido korporalen ga&ntilde;ean</hi></p>
+<p><hi rend='Bold'>G.</hi> Erran izazu arimaren Potenziak?</p>
+<p><hi rend='Bold'>R.</hi> Dirade irur erran den bezala.</p>
+<p><hi rend='Bold'>G.</hi> Zertako eman digu Jaungoikoak entendamentua?</p>
+<p><hi rend='Bold'>R.</hi> Ezagudezagun nor den, eta aren gauzetan pensa dezagun.</p>
+<p><hi rend='Bold'>G.</hi> Zertako eman digu memoria?</p>
+<p><hi rend='Bold'>R.</hi> Oroit gaitezen aren legeas kunplizeko aren borondateareki, eta egiten dizkigun ondasunes graziak emateko.</p>
+<p><hi rend='Bold'>G.</hi> Zertako eman digu borondatea?</p>
+<p><hi rend='Bold'>R.</hi> Oneritsi dezagun, eta merejizen dugula egin dezagun aren borondatea.</p>
+<p><hi rend='Bold'>G.</hi> Erran izazu sentido korporaleak erran nai dut gorpuzarenak?</p>
+<p><hi rend='Bold'>R.</hi> Dirade borz erran den bezala.</p>
+<p><hi rend='Bold'>G.</hi> Zertako eman dizkigu sentido ohek?</p>
+<p><hi rend='Bold'>R.</hi> Guzies seruiza dezagun Jaungoikoa gauza guzietan.</p>
+<p><hi rend='Bold'>AMEKAGARREN KAPITULOA</hi></p>
+<p><hi rend='Bold'>Arimaren etsaien ga&ntilde;ean</hi></p>
+<p><hi rend='Bold'>G.</hi> Erran izazu arimaren etsaiak?</p>
+<p><hi rend='Bold'>R.</hi> Dirade irur erran den bezala.</p>
+<p><hi rend='Bold'>G.</hi> Zerengatik deizen ditugu ohek arimaren etsaiak. Porbentura naztugularik bekaturik eranginerazi drazakegute?</p>
+<p><hi rend='Bold'>R.</hi> Ez Jauna, baia egiten dute al dagiten guzia ???razen gaituztela egin dezagun bekatu, eta ala gal gaitezen argatik dirade etsaiak.</p>
+<p><hi rend='Bold'>G.</hi> Nola bada Jaungoikoak...</p>
+        </body>
+      </text>
+    </group>
+  </text>
+</TEI.2>
+

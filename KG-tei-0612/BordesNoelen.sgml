@@ -1,0 +1,898 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN"
+                       "http://www.tei-c.org/P4X/DTD/tei2.dtd" [
+   <!ENTITY % TEI.prose    'INCLUDE' >
+   <!ENTITY % TEI.linking  'INCLUDE' >
+   <!ENTITY % TEI.analysis 'INCLUDE' >
+   <!ENTITY % TEI.figures  'INCLUDE' >
+   <!ENTITY % TEI.XML      'INCLUDE' >
+   <!ENTITY % TEI.extensions.ent SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.ent' >
+   <!ENTITY % TEI.extensions.dtd SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.dtd' >
+]>
+<TEI.2>
+  <teiHeader>
+  <fileDesc>
+     <titleStmt>
+        <title>Üskal noelen lilia</title>
+        <author>Charles Bordes</author>
+        <respStmt>Ez dauka</respStmt>
+     </titleStmt>
+     <extent>2.016 hitz, 17.269 karaktere</extent>
+     <publicationStmt>
+        <publisher>Klasikoen Gordailua [http://klasikoak.armiarma.com/]</publisher>
+        <distributor>Estrata Liburuak S.L.</distributor>
+        <address type='email'>klasikoak@armiarma.com</address>
+        <idno type='ota'>BordesNoelen</idno>
+        <availability status='free'>Erabilpen librekoa; honoko helbidean topa daiteke (HTML, RTF eta PDF formatuetan): http://klasikoak.armiarma.com/idazlanak/B/BordesNoelen.htm</availability>
+        <date>2006</date>
+     </publicationStmt>
+     <sourceDesc>
+        <bibl>Iturria: Uskal Noelen Lilia Hounturik Jesusen Inkarnazioniaren ouhouretan eta orai harzara Uskaldun batek ahaire zaharrekin arra moulda erazirik, Charles Bordes. 1897</bibl>
+        <notesStmt><note>Iturburuen datazioa: 1897</note></notesStmt>
+     </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+     <projectDesc>Euskal literaturako testu klasikoen bilduma da KLASIKOEN GORDAILUA; testu hau berorren parte da</projectDesc>
+     <refsDecl>
+        <p>MENTIONED etiketa egilearenak ez diren hitzak markatzeko erabili da: hitzaurreak, aipuak, iruzkinak, e.a.</p>
+    </refsDecl>
+     <classDecl>
+        <taxonomy id='generoa'>
+            <category id='G-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='G-ANT'><catDesc>Antzerkia</catDesc></category>
+            <category id='G-BER'><catDesc>Bertsoak</catDesc></category>
+            <category id='G-ERL'><catDesc>Erlijioa</catDesc></category>
+            <category id='G-NAR'><catDesc>Narratiba</catDesc></category>
+            <category id='G-POE'><catDesc>Poesia</catDesc></category>
+            <category id='G-SAI'><catDesc>Saiakera, kronika, artikuluak...</catDesc></category>
+        </taxonomy>
+        <taxonomy id='garaia'>
+            <category id='M-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='M-16'><catDesc>XVI. mendea</catDesc></category>
+            <category id='M-17-1'><catDesc>XVII. mendea - 1. erdia</catDesc></category>
+            <category id='M-17-2'><catDesc>XVII. mendea - 2. erdia</catDesc></category>
+            <category id='M-18-1'><catDesc>XVIII. mendea - 1. erdia</catDesc></category>
+            <category id='M-18-2'><catDesc>XVIII. mendea - 2. erdia</catDesc></category>
+            <category id='M-19-1'><catDesc>XIX. mendea - 1. erdia</catDesc></category>
+            <category id='M-19-2'><catDesc>XIX. mendea - 2. erdia</catDesc></category>
+            <category id='M-20-1'><catDesc>XX. mendea - 1. erdia</catDesc></category>
+            <category id='M-20-2'><catDesc>XX. mendea - 2. erdia</catDesc></category>
+        </taxonomy>
+        <taxonomy id='euskalkia'>
+            <category id='E-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='E-BAT'><catDesc>batua</catDesc></category>
+            <category id='E-BIZ'><catDesc>bizkaiera</catDesc></category>
+            <category id='E-BNA'><catDesc>behenafarrera</catDesc></category>
+            <category id='E-ERR'><catDesc>erronkariera</catDesc></category>
+            <category id='E-GIP'><catDesc>gipuzkera</catDesc></category>
+            <category id='E-GNA'><catDesc>goi nafarrera</catDesc></category>
+            <category id='E-LAP'><catDesc>lapurtera</catDesc></category>
+            <category id='E-NAF'><catDesc>nafarrera</catDesc></category>
+            <category id='E-ZAR'><catDesc>zaraitzuera</catDesc></category>
+            <category id='E-ZUB'><catDesc>zuberera</catDesc></category>
+        </taxonomy>
+    </classDecl>
+  </encodingDesc>
+  <profileDesc>
+     <textClass>
+       <keywords scheme='generoa'>
+         <list><item>G-ERL</item></list>
+       </keywords>
+       <keywords scheme='garaia'>
+         <list><item>M-19-2</item></list>
+       </keywords>
+       <keywords scheme='euskalkia'>
+         <list><item>E-ZUB</item></list>
+       </keywords>
+     </textClass>
+  </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>Üskal noelen lilia -- Charles Bordes</docTitle>
+    </front>
+    <group>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>&Uuml;SKAL NOELEN LILIA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>hunt&uuml;rik Jes&uuml;sen Inkarnazioniaren uhuretan</hi></p>
+<p>Eta orai harzara &Uuml;skald&uuml;n batek ahaire zaharrekin arra mulda erazirik</p>
+<p><mentioned>SALZEN DA PARISEN.</mentioned></p>
+<p><mentioned>Bakhoitza: hamar sos.</mentioned></p>
+<p><mentioned>Hamarrak: hirur libera.</mentioned></p>
+<p><mentioned>1897</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>IRAKURZALER</p><--</head>
+        </front>
+        <body>
+<p>Diala eh&uuml;n eta hamabost urthe inprimat&uuml; z&uuml;tien, lehentze eta berhez, hamabi Noel; geroztik, dakig&uuml;larik, arramuldat&uuml;rik izan dira berritan, h&uuml;ts berekin, ezpazien ere haboro. Noel haietan baziren zunbait arrim&uuml; gabe, beste batz&uuml; aldiz, ezinago gaixki muldatiak, bertsiak batian l&uuml;zegi, bestian llab&uuml;rregi.</p>
+<p>Orai argitara emaiten d&uuml;t&uuml;g&uuml; hamabi Noel, ahaire ederrenak d&uuml;tienetarik. Hart&uuml; t&uuml;g&uuml;, pharte handiena <hi rend='Italic'>Noelen lilian; </hi>bat <hi rend='Italic'>Othoitze eta Kantika espirit&uuml;alak </hi>den librian; bestiak, azkenik ziberutarrez inprimat&uuml; kantiketan. Nula, erran bezala, h&uuml;ts hanitx beitzien, berheziki Noelen Lili-koek, ahalaz untsa x&uuml;xent&uuml; t&uuml;g&uuml;, zunbait ere kasik osoki arra berrit&uuml;. Lan aski idorra eta gaitza izan zaio, inprima erazliari besteren obren x&uuml;xentzia; eta zunbat nahi artha eman dian lan horri, ezta nahibezala b&uuml;r&uuml;tan joan, ezinbestian, eta denbora eskazez. Halere esparantxa d&uuml;, diren bezala hun hart&uuml;ko d&uuml;tiela Noel horik Ziberoan.</p>
+<p>Daig&uuml;n urthian, Jinkoak lag&uuml;ntzen g&uuml;tialarik, emanen d&uuml;t&uuml;g&uuml; kartilla berhezi batetan bilhat&uuml; ahal izan diren Noelak oro bere ahairekin, laphurtarrak ziberutarrak bezala.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>ANJEL&Uuml;SAK &Uuml;SKARAZ</p><--</head>
+        </front>
+        <body>
+<p>Zel&uuml;tik jinik aing&uuml;riak,</p>
+<p>Mariari anontzatzen</p>
+<p>Amatako Jinko Semiak</p>
+<p>Hura diala haitatzen.</p>
+<p>Hao naiz&uuml;la bethi neskato</p>
+<p>Zel&uuml;ko Jaon handiaren;</p>
+<p>Haren erran saintiak oro</p>
+<p>Nitan betherik biraien.</p>
+<p>Berhala sabel sakratian</p>
+<p>Mariak d&uuml; haor ernatzen;</p>
+<p>Bethikoa zaik&uuml; l&uuml;rrian</p>
+<p>G&uuml; gatik gizun egiten.</p>
+<p>Zuri bihotzez giaodetz&uuml;,</p>
+<p>Zel&uuml; l&uuml;rren erregi&ntilde;a;</p>
+<p>Zel&uuml;tik &uuml;khen izag&uuml;z&uuml;</p>
+<p>Hara heltzeko doha&ntilde;a.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>NOELAK</p><--</head>
+        </front>
+        <body>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>BIRJINA GAZTETTO BAT ZEGOEN</p><--</head>
+        </front>
+        <body>
+<p>Birjina gaztetto bat zegoen</p>
+<p>Kreazale Jaonaren othoitzen,</p>
+<p>Nuiz et'aing&uuml;r&uuml; bat lehiat&uuml;</p>
+<p>Beitzen zel&uuml;tik jaitxi</p>
+<p>Mintzatzera haren.</p>
+<p>Aing&uuml;ria sartzen, diolarik:</p>
+<p>&laquo;Agur, graziaz zira betherik,</p>
+<p>Jaona da zurekin, benedikat&uuml;</p>
+<p>Zira eta haitat&uuml;</p>
+<p>Emazten ga&ntilde;etik&raquo;.</p>
+<p>Maria ordian d&uuml;l&uuml;rat&uuml;,</p>
+<p>Eta bere beithan gogarat&uuml;</p>
+<p>Zeren zian uste gabe ebtz&uuml;ten</p>
+<p>Hura agur erraiten.</p>
+<p>Hanbat zen lotsat&uuml;.</p>
+<p>&laquo;Etzitela, ez, lotsa, Maria;</p>
+<p>Jinkoatan bath&uuml;'z&uuml; grazia:</p>
+<p>Z&uuml;k d&uuml;z&uuml; sabelian ernat&uuml;ren,</p>
+<p>Eta haor bat sorth&uuml;ren</p>
+<p>Jes&uuml;s datiana&raquo;.</p>
+<p>Harek, d&uuml;l&uuml;rat&uuml;rik, harzara:</p>
+<p>&laquo;Bena nula izan daite hola,</p>
+<p>Ezt&uuml;danaz gizunik ezag&uuml;tzen,</p>
+<p>Ez eta ezag&uuml;t&uuml;ren</p>
+<p>Batere sek&uuml;la?&raquo;.</p>
+<p>&laquo;Ezpirit&uuml; saintiak huntia</p>
+<p>Izanen d&uuml;z&uuml; hori, Maria&raquo;.</p>
+<p>Z&uuml; zirateke, ber ordian, ama</p>
+<p>Bai et'ere birjina,</p>
+<p>M&uuml;ndian bakhoitza.</p>
+<p>Mariak arrapost&uuml; ordian:</p>
+<p>&laquo;Hao naiz&uuml; Jinkoren zerb&uuml;txian,</p>
+<p>Z&uuml;k errana nitan biz konplit&uuml;&raquo;.</p>
+<p>Jaona aragit&uuml;</p>
+<p>Haren sabelian.</p>
+<p>O Jinkoaren ama saintia,</p>
+<p>Bekhat&uuml;gilen &uuml;rgaitzarria,</p>
+<p>Z&uuml;k gitzatz&uuml; lag&uuml;nt, bai Jinkoaren,</p>
+<p>Baita berth&uuml;tiaren</p>
+<p>Bihotzez maithatzen.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>KANTA ZAG&Uuml;N G&Uuml;ZIEK</p><--</head>
+        </front>
+        <body>
+<p>Khanta zag&uuml;n g&uuml;ziek</p>
+<p>Ahalik gorena,</p>
+<p>Laida'zag&uuml;n Maria,</p>
+<p>Jinkoaren ama.</p>
+<p>Jakin zian zel&uuml;tik</p>
+<p>Zer zen agit&uuml;ren,</p>
+<p>Birjina zegoelarik</p>
+<p>Zela amat&uuml;ren.</p>
+<p>Gure salbamentiaz</p>
+<p>Erraz&uuml; Maria</p>
+<p>Nurk ekharri zereiz&uuml;n</p>
+<p>Zel&uuml;tik berria?</p>
+<p>Gabriel aing&uuml;riak,</p>
+<p>Etxian sarth&uuml;rik,</p>
+<p>Jinkoari zelian</p>
+<p>G&uuml; &uuml;rrikalt&uuml;rik.</p>
+<p>Zer aita eternalak</p>
+<p>Dereiz&uuml; mez&uuml;t&uuml;?</p>
+<p>Gabriel aing&uuml;ria</p>
+<p>Nula zen mintzat&uuml;?</p>
+<p>Salutatzen z&uuml;t&uuml;g&uuml;</p>
+<p>Birjina Maria</p>
+<p>Grazia da zurekin</p>
+<p>Eta Jaon handia.</p>
+<p>Zer eretzetan zinen</p>
+<p>Hitz horik entz&uuml;tian,</p>
+<p>Gabriel aing&uuml;riak</p>
+<p>Zgur zeiz&uuml;nian?</p>
+<p>Galilean nindagon,</p>
+<p>Herri ederrian,</p>
+<p>Nihaor etxen berbera</p>
+<p>Ari othoitzian.</p>
+<p>Gabriel aing&uuml;riak</p>
+<p>Z&uuml; sal&uuml;tat&uuml;rik</p>
+<p>Ekharri zereiz&uuml;na</p>
+<p>Deus beste berririk?</p>
+<p>Erran dereit: z&uuml;k d&uuml;z&uuml;</p>
+<p>Z&uuml;k kontzebit&uuml;ren,</p>
+<p>Z&uuml;k d&uuml;z&uuml; semetako</p>
+<p>Jinko bat &uuml;khenen.</p>
+<p>Maria, othe zinen</p>
+<p>Zure beithan lazt&uuml;</p>
+<p>Gisa horrez zenian</p>
+<p>Gabriel mintzat&uuml;?</p>
+<p>Bai d&uuml;l&uuml;rat&uuml; nintzan</p>
+<p>Egiaz ordian,</p>
+<p>Nahi benintzan bizi</p>
+<p>Birjinitatian.</p>
+<p>Aing&uuml;riak zer erran</p>
+<p>Zereiz&uuml;n Maria,</p>
+<p>Ikhusirik zinela</p>
+<p>Z&uuml; lazt&uuml; g&uuml;zia?</p>
+<p>Ezpirit&uuml; saintia</p>
+<p>Z&uuml;tan da jaitxiren,</p>
+<p>Goikoaren indarrak</p>
+<p>Z&uuml;t&uuml; estaliren.</p>
+<p>Maria, aing&uuml;ria</p>
+<p>Z&uuml;nian sinhetsi?</p>
+<p>Eta nula zenerion</p>
+<p>Hari ihardetsi?</p>
+<p>Zelietako Jaona</p>
+<p>Biz bethi laidat&uuml;,</p>
+<p>Harek nahi diana</p>
+<p>Nitan biz konplit&uuml;.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>HOTS AING&Uuml;RIEKIN</p><--</head>
+        </front>
+        <body>
+<p>Hots aing&uuml;riekin,</p>
+<p>Arkanjeliekin,</p>
+<p>Gaor khantatzera</p>
+<p>Gur'erregiaren</p>
+<p>Jinko semiaren</p>
+<p>Adoratzera.</p>
+<p>Ez izotzegatik,</p>
+<p>Ez &uuml;lh&uuml;npegatik,</p>
+<p>Egon herabez.</p>
+<p>Har fedia gida,</p>
+<p>Jinkoatan fida,</p>
+<p>Goatzan lasterrez.</p>
+<p>Badoatz'artza&ntilde;ak,</p>
+<p>Arhinik belha&ntilde;ak,</p>
+<p>Lehen bai lehen,</p>
+<p>Ikhus diroienez</p>
+<p>Eia sorth&uuml; denez</p>
+<p>Jes&uuml;s Betlemen.</p>
+<p>Goatzan g&uuml; ere,</p>
+<p>Bihotzez berere,</p>
+<p>Heipe hartara,</p>
+<p>Jes&uuml;s maitiaren</p>
+<p>Gure bermiaren</p>
+<p>Adoratzera.</p>
+<p>Jes&uuml;s barr&uuml;kian,</p>
+<p>Astoa khantian,</p>
+<p>Sorth&uuml; hotzetan.</p>
+<p>So zaokon idia,</p>
+<p>Eitzirik jatia,</p>
+<p>Phaos&uuml; handitan.</p>
+<p>Harentzat etxerik,</p>
+<p>Hain g&uuml;ti kh&uuml;&ntilde;arik,</p>
+<p>Etzen agit&uuml;.</p>
+<p>Betleme hiria,</p>
+<p>Z&uuml;k, bihoz gabia,</p>
+<p>Jes&uuml;s ez hart&uuml;!</p>
+<p>Erregek etxiak</p>
+<p>D&uuml;tie bethiak</p>
+<p>Hat&uuml; ederrez:</p>
+<p>Jes&uuml;s barr&uuml;kian,</p>
+<p>Bai laston ga&ntilde;ian,</p>
+<p>Dago nigarrez.</p>
+<p>Nurk daidio sorik</p>
+<p>Begiak idorrik,</p>
+<p>Sorth&uuml; haorrari,</p>
+<p>Gai hotz borthitzian,</p>
+<p>Bero ezinian</p>
+<p>Hortxe denari?</p>
+<p>Zinez d&uuml;t sinhesten</p>
+<p>Begiez ikhusten</p>
+<p>Ban&uuml; bezala,</p>
+<p>Amak haor maitia</p>
+<p>Betlemen sorthia</p>
+<p>Jinko diala.</p>
+<p>Adam, lehen aitak,</p>
+<p>Egin zian berak</p>
+<p>H&uuml;tsa lehenik;</p>
+<p>Bai eta Mesiak</p>
+<p>Soltat&uuml; g&uuml;ziak</p>
+<p>L&uuml;rrera jinik.</p>
+<p>Jaona banarraiz&uuml;,</p>
+<p>Othoi sogidaz&uuml;,</p>
+<p>Ai ene botza;</p>
+<p>Z&uuml;tzaz gozatzeko,</p>
+<p>Zuri eskentzeko</p>
+<p>Ene bihotza.</p>
+<p>Aing&uuml;riak dira</p>
+<p>Jes&uuml;sen begira</p>
+<p>Khant&uuml;z goratik;</p>
+<p>Bai eta artza&ntilde;ak</p>
+<p>Han eitzi ber'olhak,</p>
+<p>Laster eginik.</p>
+<p>Dezag&uuml;n g&uuml;k ere,</p>
+<p>Bihotzez berere,</p>
+<p>Jes&uuml;s adora,</p>
+<p>Ezar gitzan gero,</p>
+<p>Haren haorrak oro,</p>
+<p>Zelian gora.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>BIBA JES&Uuml;S GURE JAONA</p><--</head>
+        </front>
+        <body>
+<p>Biba Jes&uuml;s gure Jaona</p>
+<p>Gaorko gaian sortzen dena,</p>
+<p>Bib'Andere dona Maria,</p>
+<p>Biba Josef, aita huna.</p>
+<p>Kristi orok d&uuml;g&uuml;n laida</p>
+<p>Jinko Jaon &uuml;rrikalsia,</p>
+<p>Orogatik zel&uuml;tik beita</p>
+<p>Jaitxi gure salbatzera.</p>
+<p>Gerla handi bat da phizt&uuml;,</p>
+<p>Tronpetek die sonat&uuml;,</p>
+<p>Trinitatia da khexat&uuml;:</p>
+<p>Adamek egin bekhat&uuml;.</p>
+<p>Gormandizazko bekhatia,</p>
+<p>Ala hi gora phikat&uuml;;</p>
+<p>Desobedientzia helt&uuml;</p>
+<p>Zelakoz hand&uuml;rreria.</p>
+<p>Han zen ere g&uuml;dizia</p>
+<p>Sobera jakin nahia;</p>
+<p>Horik g&uuml;ziek erazirik,</p>
+<p>Dela Jes&uuml;s Jaona jinik.</p>
+<p>Gabriel mez&uuml; saintiak</p>
+<p>Maria sal&uuml;tat&uuml; d&uuml;;</p>
+<p>Ezpirit&uuml; saint&uuml; goikoak</p>
+<p>Doha&ntilde; oroz bethatzen d&uuml;.</p>
+<p>Sorth&uuml; da Jes&uuml;s l&uuml;rrian</p>
+<p>Gure gatik gaorko gaian:</p>
+<p>Bai etare hor, barr&uuml;kian,</p>
+<p>Etzan gabezia handian.</p>
+<p>Sortzian ez &uuml;rg&uuml;ll&uuml;rik,</p>
+<p>Gero bizit&uuml; praoberik,</p>
+<p>Azkenian hil bilaizirik:</p>
+<p>Horik oro gure gatik.</p>
+<p>Ditzog&uuml;n arren eskerrak</p>
+<p>Bere huntarz&uuml;nez oroz;</p>
+<p>Eta gaor sortzen denaz geroz,</p>
+<p>Hari, bai, gure bihotzak.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>O EG&Uuml;BERRI GAIA</p><--</head>
+        </front>
+        <body>
+<p>O Eg&uuml;berri gaia,</p>
+<p>O, z&uuml;, gai dohatsia,</p>
+<p>Alageratzen d&uuml;z&uuml;</p>
+<p>Bihotzez khiristia.</p>
+<p>M&uuml;nd&uuml; g&uuml;zia d&uuml;z&uuml;</p>
+<p>Boztarioz bethatzen,</p>
+<p>Zeren z&uuml;k beitioz&uuml;</p>
+<p>Mesia dela sortzen.</p>
+<p>Gai &uuml;lh&uuml;nian ezta</p>
+<p>Ez, ageri ekhirik;</p>
+<p>Huntan agertzen zaik&uuml;</p>
+<p>Ikhusgarriz elkhirik.</p>
+<p>O gai desiratia,</p>
+<p>Argia d&uuml;z&uuml; phizt&uuml;</p>
+<p>Harek m&uuml;ndia oro</p>
+<p>Behar beit&uuml; berrit&uuml;.</p>
+<p>Zelietan izarrak</p>
+<p>Botzik jaosiz aritzen,</p>
+<p>Ohi beno beitie</p>
+<p>Gehiago argitzen.</p>
+<p>Aing&uuml;r&uuml; hunak orai</p>
+<p>Hasi dira khantatzen:</p>
+<p>Boztera d&uuml;tiela</p>
+<p>Gizonak kh&uuml;mitatzen.</p>
+<p>Errepikatzen die</p>
+<p>Manj&uuml;retez artza&ntilde;ek,</p>
+<p>Bardinetik dereie</p>
+<p>Ihardesten larza&ntilde;ek.</p>
+<p>Arra&ntilde;ak ari dira</p>
+<p>Jaoziz &uuml;haitz barnian,</p>
+<p>Ardiak mendin ga&ntilde;en,</p>
+<p>Arranoak airian.</p>
+<p>Gaiza g&uuml;ziak dira</p>
+<p>Orai alageratzen:</p>
+<p>Halaber egitera</p>
+<p>Bag&uuml;tie bulkatzen.</p>
+<p>Debrien ozte gaitza</p>
+<p>Gai huntan ikharatzen:</p>
+<p>Haren goitzale geia</p>
+<p>Delakoz orai sortzen.</p>
+<p>Eman'zag&uuml;n aitzina,</p>
+<p>G&uuml;k, boztarioari;</p>
+<p>Ditzog&uuml;la bihotzak</p>
+<p>Sorth&uuml; Jes&uuml;s haorrari.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>OI BETLEEM!</p><--</head>
+        </front>
+        <body>
+<p>Oi Betleem!</p>
+<p>Ala eg&uuml;n zure gloriak,</p>
+<p>Oi Betleem!</p>
+<p>Hanitx beit&uuml; distiatzen</p>
+<p>Zureganik helt&uuml; argiak,</p>
+<p>Bethatzen t&uuml; bazter g&uuml;ziak,</p>
+<p>Oi Betleem.</p>
+<p>Zer uhure!</p>
+<p>Ala beitzira goratia,</p>
+<p>Zer uhure!</p>
+<p>Zer grazia, zer fabore!</p>
+<p>Zeliak zira haitatia</p>
+<p>Jes&uuml;s haorraren sorlekhia,</p>
+<p>Zer uhure!</p>
+<p>Azkenekoz</p>
+<p>Hor heltzen da Jes&uuml;s maitia,</p>
+<p>Azkenekoz.</p>
+<p>D&uuml;g&uuml;n laida bihotz oroz;</p>
+<p>Hersi nahi d&uuml; ifernia,</p>
+<p>Et'ireki guri zelia</p>
+<p>Azkenekoz.</p>
+<p>Guregatik</p>
+<p>Jinko bat photerez bethia,</p>
+<p>Guregatik</p>
+<p>Jaixten da zel&uuml; goratik:</p>
+<p>Bai sortzen da Jinko Semia,</p>
+<p>Bitima thonarik gabia,</p>
+<p>Guregatik.</p>
+<p>Manjateran</p>
+<p>Dago haorrik aberatsena,</p>
+<p>Manjateran.</p>
+<p>Nurk othe z&uuml;kian erran</p>
+<p>Zel&uuml; l&uuml;rren jabia dena</p>
+<p>Ikhusiren zela etzana</p>
+<p>Manjateran?</p>
+<p>Artza&ntilde;ekin</p>
+<p>Jiten niz lehiaz z&uuml;gana</p>
+<p>Artza&ntilde;ekin.</p>
+<p>Haien antzo nahiz egin;</p>
+<p>Adoratzen z&uuml;t&uuml;t, Mesia,</p>
+<p>Zuri'maiten bihotz g&uuml;zia</p>
+<p>Artza&ntilde;ekin.</p>
+<p>Ezt&uuml;t deusik</p>
+<p>O Jes&uuml;s zuri eskentzeko,</p>
+<p>Ezt&uuml;t deusik,</p>
+<p>Bihotz ogend&uuml;n bat baizik:</p>
+<p>Eskerren zuri b&uuml;h&uuml;rtzeko,</p>
+<p>Hanbat doha&ntilde;en phakatzeko,</p>
+<p>Ezt&uuml;t deusik.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>EG&Uuml;BERRIREN JITIAZ</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Italic'> Eg&uuml;berriren jitiaz</hi></p>
+<p><hi rend='Italic'> Izan gitian bozt&uuml;rik;</hi></p>
+<p><hi rend='Italic'> Jes&uuml;sen izen saintiaz</hi></p>
+<p><hi rend='Italic'> Giraian oro betherik.</hi></p>
+<p>Eba gure lehen amak</p>
+<p>Falta egin zianian,</p>
+<p>Bertan L&uuml;zifer gaixtoak</p>
+<p>Bere pekot&uuml; g&uuml;ntian.</p>
+<p><hi rend='Italic'> Eg&uuml;berriren jitiaz...</hi></p>
+<p>Bena Jes&uuml;s Kristek g&uuml;t&uuml;</p>
+<p>Gizontzez arra erosi</p>
+<p>Eta gaitzetik baztert&uuml;,</p>
+<p>Ezg&uuml;nilarik merexi.</p>
+<p><hi rend='Italic'> Eg&uuml;berriren jitiaz...</hi></p>
+<p>Birjina batek d&uuml; sorth&uuml;</p>
+<p>Establia txar batetan,</p>
+<p>Eta berak adorat&uuml;</p>
+<p>&Uuml;militate handitan.</p>
+<p><hi rend='Italic'> Eg&uuml;berriren jitiaz...</hi></p>
+<p>Jes&uuml;s jaio bezain berri,</p>
+<p>Aing&uuml;riek alabat&uuml;,</p>
+<p>Bai eta're hantik sarri</p>
+<p>Jin artza&ntilde;ek adorat&uuml;.</p>
+<p><hi rend='Italic'> Eg&uuml;berriren jitiaz...</hi></p>
+<p>Hor d&uuml;t&uuml; goizerritarik</p>
+<p>Erregiak doha&ntilde;ekin,</p>
+<p>Izan zeitzonak emanik,</p>
+<p>Gogo hoberenarekin.</p>
+<p><hi rend='Italic'> Eg&uuml;berriren jitiaz...</hi></p>
+<p>Mirra, inxents&uuml; berari</p>
+<p>D&uuml;tie ohereskat&uuml;;</p>
+<p>Orano Jes&uuml;s haorrari,</p>
+<p>&Uuml;rhe ederrik eskent&uuml;.</p>
+<p><hi rend='Italic'> Eg&uuml;berriren jitiaz...</hi></p>
+<p>Errege haien gidatzen</p>
+<p>Izar bat bethi zabilan,</p>
+<p>Zeren Jes&uuml;s haorra beitzen</p>
+<p>Jinko gizontzen l&uuml;rrian.</p>
+<p><hi rend='Italic'> Eg&uuml;berriren jitiaz...</hi></p>
+<p>Jes&uuml;s Kristek hanbat maite</p>
+<p>&Uuml;khen d&uuml; khiristinoa,</p>
+<p>Ezin erran beitaiteke</p>
+<p>Har'k dian amorioa.</p>
+<p><hi rend='Italic'> Eg&uuml;berriren jitiaz...</hi></p>
+<p>Sorth&uuml; delakoz g&uuml;gatik</p>
+<p>Hain nekezia handitan,</p>
+<p>Dezag&uuml;n othoi gogotik</p>
+<p>Zelian oro har gitzan.</p>
+<p><hi rend='Italic'> Eg&uuml;berriren jitiaz...</hi></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>KHANTA BEZA</p><--</head>
+        </front>
+        <body>
+<p>Khanta beza bitoria</p>
+<p>Boztarioz m&uuml;ndiak.</p>
+<p>Phorrokat&uuml; d&uuml; b&uuml;ria</p>
+<p>Heren s&uuml;ge handiak.</p>
+<p>Gaitza zen haren aidia,</p>
+<p>Bena goith&uuml; Mesiak;</p>
+<p>Ikharat&uuml; ifernia</p>
+<p>Salbazale sorthiak.</p>
+<p>&Uuml;lh&uuml;npeko zer&uuml;kiak,</p>
+<p>Goza goza argia;</p>
+<p>Hitzemanik zen Mesiak</p>
+<p>Ekharri d&uuml; bakia;</p>
+<p>Asmeziak bethe dira,</p>
+<p>Agert&uuml; da egia:</p>
+<p>Gaiaz ekhiak argit&uuml;</p>
+<p>Betlemen barr&uuml;kia.</p>
+<p>Bazakian Jinko Jaonak</p>
+<p>Gure behar handia,</p>
+<p>Nula g&uuml; ezkintakian</p>
+<p>Gur'indarrez balia:</p>
+<p>Halaz, arren, bethi danik</p>
+<p>Haitat&uuml; d&uuml; semia,</p>
+<p>Sorth&uuml;ren zena l&uuml;rrian,</p>
+<p>Bekhatoren bermia.</p>
+<p>Adam gure lehen aita</p>
+<p>Satanek enganat&uuml;:</p>
+<p>Egin zian bekhatia</p>
+<p>Berak ezin bardint&uuml;.</p>
+<p>Laor mil'urthez etzen ihur</p>
+<p>Pharad&uuml;sian sarth&uuml;:</p>
+<p>Azkenekoz Jes&uuml;s haorrak</p>
+<p>Hanko borthak zabalt&uuml;.</p>
+<p>Haor handi bat da jaiot&uuml;,</p>
+<p>Alagera gitian.</p>
+<p>Hark ezt&uuml; bere bardinik</p>
+<p>Zelian ez l&uuml;rrian.</p>
+<p>Agert&uuml; balitzeik&uuml;</p>
+<p>Jinkoren &uuml;rhatsian</p>
+<p>Nul'etzaikeion eginen</p>
+<p>Batzarre hun l&uuml;rrian.</p>
+<p>Elaz! gure Jinko Jaona,</p>
+<p>Establia batetan</p>
+<p>Behar zinena jaiot&uuml;,</p>
+<p>Animalen artian?</p>
+<p>G&uuml;k merexi g&uuml;niana</p>
+<p>Hola kh&uuml;p&uuml;ts zentian?</p>
+<p>Ala gizona betzaiz&uuml;</p>
+<p>Hanitx khosta l&uuml;rrian.</p>
+<p>M&uuml;ndian zen jaoregirik</p>
+<p>Hait&uuml;z ederrenian</p>
+<p>Zinatialarik sorth&uuml;,</p>
+<p>Printze kalitatian;</p>
+<p>Borda txar bat irekirik</p>
+<p>Haitat&uuml;'z&uuml; l&uuml;rrian,</p>
+<p>Kargat&uuml;rik gure zorrez,</p>
+<p>Sorth&uuml; aberen artian.</p>
+<p>Zelian z&uuml;nialarik</p>
+<p>Hanitx khorte egile,</p>
+<p>Aing&uuml;r&uuml;rik ederrenak</p>
+<p>Dira berak jakile,</p>
+<p>G&uuml;k merexi gabetarik</p>
+<p>Gizon egin zirade;</p>
+<p>Ginelarik bekhatore</p>
+<p>Hart&uuml; zure aorhide.</p>
+<p>Gur'arima pheretxat&uuml;</p>
+<p>D&uuml;z&uuml; gaiza bekhana:</p>
+<p>Gora zian prezioa</p>
+<p>Hala nula erost&uuml;na.</p>
+<p>Hao da hao amorioa,</p>
+<p>Nur eleite estona,</p>
+<p>Jinkoa d&uuml; haor'erazi</p>
+<p>Salba lezan gizona.</p>
+<p>Zelietan aing&uuml;riak</p>
+<p>&Uuml;rg&uuml;lliak &uuml;ts&uuml;t&uuml;</p>
+<p>Zeren nahi izan diren</p>
+<p>Jinkoa &uuml;d&uuml;rit&uuml;;</p>
+<p>M&uuml;nd&uuml; huntan dabilana</p>
+<p>Nahi bada salbat&uuml;</p>
+<p>Haien h&uuml;tsari soginik</p>
+<p>Behar d'&uuml;milat&uuml;.</p>
+<p>Photeria da Aitari</p>
+<p>Bethireko bizian;</p>
+<p>Semiari z&uuml;h&uuml;rtzia</p>
+<p>Heben eta zelian;</p>
+<p>Ezpiritia biekin</p>
+<p>Bat da Trinitatian;</p>
+<p>Pitz dezala bere s&uuml;ia</p>
+<p>G&uuml;zien bihotzian.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>BEUDE BAZTER EG&Uuml;N</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Italic'> Beude bazter eg&uuml;n gure trist&uuml;rak;</hi></p>
+<p><hi rend='Italic'> Jes&uuml;sez ditzag&uuml;n betha gogoak.</hi></p>
+<p>Jes&uuml;s Kristo</p>
+<p>hanbat hun zirade,</p>
+<p>Guretako</p>
+<p>Sorth&uuml; beitzirade</p>
+<p>Kreat&uuml;regatik</p>
+<p>Sofrit&uuml; d&uuml;z&uuml;</p>
+<p>Eta orogatik</p>
+<p>Hil zirade z&uuml;.</p>
+<p><hi rend='Italic'> Beude bazter eg&uuml;n gure trist&uuml;rak...</hi></p>
+<p>Adam aita</p>
+<p>Zegoen iruski</p>
+<p>Ezarria</p>
+<p>Orotzaz saint&uuml;ki;</p>
+<p>Bena Jinko Jaona</p>
+<p>Zeion ahatze,</p>
+<p>Haren man&uuml; huna</p>
+<p>Ebaire haotse.</p>
+<p><hi rend='Italic'> Beude bazter eg&uuml;n gure trist&uuml;rak...</hi></p>
+<p>Adam beitzen</p>
+<p>Glorian dohats&uuml;,</p>
+<p>Debria zen</p>
+<p>Borthizki phenat&uuml;</p>
+<p>Nahiz galerazi</p>
+<p>Berarekila</p>
+<p>Eta daonerazi</p>
+<p>Ororekila.</p>
+<p><hi rend='Italic'> Beude bazter eg&uuml;n gure trist&uuml;rak...</hi></p>
+<p>Emaztia</p>
+<p>Nula aiherrago</p>
+<p>Bekhatila</p>
+<p>Gizunkia beno;</p>
+<p>Traditzen beit&uuml;t&uuml; bekhokereki,</p>
+<p>Halaz enganat&uuml;</p>
+<p>Eba gaixtoki.</p>
+<p><hi rend='Italic'> Beude bazter eg&uuml;n gure trist&uuml;rak...</hi></p>
+<p>Fr&uuml;ta hart&uuml;</p>
+<p>Ebak zianian,</p>
+<p>Aholkat&uuml;</p>
+<p>Zian Adam bertan,</p>
+<p>Hark ere har lezan</p>
+<p>Sagar hartarik,</p>
+<p>Eta sinhets zezan</p>
+<p>Satan bertarik.</p>
+<p><hi rend='Italic'> Beude bazter eg&uuml;n gure trist&uuml;rak...</hi></p>
+<p>Hal'ordian</p>
+<p>Adamek sinhetsi</p>
+<p>Emaztian,</p>
+<p>Ez b&uuml;h&uuml;rt&uuml; hari;</p>
+<p>Eta gloriatik</p>
+<p>Halaz gabet&uuml;,</p>
+<p>Baita Birjinatik</p>
+<p>Mesia sorth&uuml;.</p>
+<p><hi rend='Italic'> Beude bazter eg&uuml;n gure trist&uuml;rak...</hi></p>
+<p>H&uuml;tsa beitzen</p>
+<p>Egin emaztian,</p>
+<p>Bai z&uuml;zen zen</p>
+<p>Han sendo gintian.</p>
+<p>Hartakoz Berboa</p>
+<p>Da aragit&uuml;</p>
+<p>Eta Jaongoikoa</p>
+<p>Hartarik sorth&uuml;.</p>
+<p><hi rend='Italic'> Beude bazter eg&uuml;n gure trist&uuml;rak...</hi></p>
+<p>Birjinaren</p>
+<p>Sabel sakratian</p>
+<p>Egint&uuml; zen</p>
+<p>Jes&uuml;s ord&uuml; hartan,</p>
+<p>Eg&uuml;berrian,</p>
+<p>Baita g&uuml; salbat&uuml;</p>
+<p>Ord&uuml; berrian.</p>
+<p><hi rend='Italic'> Beude bazter eg&uuml;n gure trist&uuml;rak...</hi></p>
+<p>Othoitz d&uuml;g&uuml;n Jes&uuml;s Krist maitia</p>
+<p>Orok eg&uuml;n,</p>
+<p>Dena haor sorthia;</p>
+<p>Laket dakion, hark</p>
+<p>Oro salbat&uuml;</p>
+<p>Bai etare berak</p>
+<p>Benedikat&uuml;.</p>
+<p><hi rend='Italic'> Beude bazter eg&uuml;n gure trist&uuml;rak...</hi></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>JAON HANDIAK IKHUSAZIE</p><--</head>
+        </front>
+        <body>
+<p>Jaon handiak ikhusazie</p>
+<p>Jinko bat eg&uuml;n nigarrez;</p>
+<p>Eta izit&uuml;rik horrez,</p>
+<p>A, ikhara zitie. <hi rend='Italic'>(berr)</hi></p>
+<p>Ororen b&uuml;r&uuml;zagi d&uuml;g&uuml;:</p>
+<p>Aing&uuml;riak, erregiak</p>
+<p>Bai eta diren g&uuml;ziak</p>
+<p>Beraren peko d&uuml;t&uuml;. <hi rend='Italic'>(berr)</hi></p>
+<p>Debriaren pian beikinen,</p>
+<p>Karitatiak goith&uuml;rik,</p>
+<p>Jin da, kh&uuml;p&uuml;sten zelarik,</p>
+<p>Libratzera g&uuml;zien. <hi rend='Italic'>(berr)</hi></p>
+<p>Gibeltzen deik&uuml; ifernia.</p>
+<p>Minak g&uuml;t&uuml; destorbatzen;</p>
+<p>Halaber g&uuml;t&uuml; sendotzen</p>
+<p>Den senthagall&uuml; hunak. <hi rend='Italic'>(berr)</hi></p>
+<p>Salbazale haor gure minaz</p>
+<p>Nahi izan da kargat&uuml;?</p>
+<p>Huntarz&uuml;na da gerthat&uuml;</p>
+<p>Garhaitzen j&uuml;stiziaz. <hi rend='Italic'>(berr)</hi></p>
+<p>Nok&uuml;gabe da hedat&uuml;rik:</p>
+<p>Jinkoak zer kh&uuml;&ntilde;a dian!</p>
+<p>G&uuml; &uuml;mil izan gitian</p>
+<p>Haor hola ikhusirik. <hi rend='Italic'>(berr)</hi></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>KHIRISTIAK ORD&Uuml;-DA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Italic'> Khiristiak, ord&uuml; da</hi></p>
+<p><hi rend='Italic'> D&uuml;g&uuml;n sogin gora:</hi></p>
+<p><hi rend='Italic'> Jes&uuml;s hantik jaitxi da</hi></p>
+<p><hi rend='Italic'> Gure salbatzera.</hi></p>
+<p>O Jes&uuml;s, eg&uuml;n zira</p>
+<p>Hasi odol ixurten;</p>
+<p>Nula Jinko beitzira,</p>
+<p>Derik&uuml;z&uuml; ikhasten.</p>
+<p>Nul'egin behar d&uuml;g&uuml;n</p>
+<p>Zelian har-gitzaz&uuml;n.</p>
+<p><hi rend='Italic'> Khiristiak, ord&uuml;-da...</hi></p>
+<p>Eg&uuml;n zortzi m&uuml;nd&uuml;ra</p>
+<p>G&uuml;gatik sorth&uuml; zinen,</p>
+<p>Eta eg&uuml;n Tenpl&uuml;ra</p>
+<p>Zihaortarik agertzen:</p>
+<p>Bortxat&uuml; ezpeitzinen</p>
+<p>Hara juan zentien.</p>
+<p><hi rend='Italic'> Khiristiak, ord&uuml;-da...</hi></p>
+<p>Etzinen khozat&uuml;rik</p>
+<p>Bekhat&uuml; orijinalaz;</p>
+<p>Nahi zinen hargatik</p>
+<p>Estrenat&uuml; odolaz:</p>
+<p>Ezpeitzen lege hura</p>
+<p>Zuretako egina.</p>
+<p><hi rend='Italic'> Khiristiak, ord&uuml;-da...</hi></p>
+<p>Urthia &uuml;rhent&uuml;rik</p>
+<p>Berri bat d&uuml;g&uuml; hasten.</p>
+<p>Z&uuml;k nahi d&uuml;z&uuml;larik,</p>
+<p>Graziaz gira hazten:</p>
+<p>Deus merexi ezt&uuml;g&uuml;,</p>
+<p>Halere &uuml;rgaitz gitzatz&uuml;.</p>
+<p><hi rend='Italic'> Khiristiak, ord&uuml;-da...</hi></p>
+<p>Urthe berritze huntan</p>
+<p>Sinheste d&uuml;g&uuml; z&uuml;tan;</p>
+<p>&Uuml;rrikari zakizk&uuml;,</p>
+<p>Entz&uuml;n gure oihiak;</p>
+<p>Othoi phark'itzag&uuml;tz&uuml;</p>
+<p>Orori gur'ogenak.</p>
+<p><hi rend='Italic'> Khiristiak, ord&uuml;-da...</hi></p>
+<p>O Jes&uuml;s haor maitia,</p>
+<p>Orhit ed&uuml;k gitzatz&uuml;:</p>
+<p>Zelialat bidia</p>
+<p>Erakuts ezag&uuml;z&uuml;,</p>
+<p>Laida zitzag&uuml;n bethi</p>
+<p>Han saint&uuml; ororeki.</p>
+<p><hi rend='Italic'> Khiristiak, ord&uuml;-da...</hi></p>
+<p>Oi, z&uuml;, Ama Birjina,</p>
+<p>Zaode gur'artekari,</p>
+<p>Bai gure berme huna</p>
+<p>Balia zit'orori</p>
+<p>Dohats&uuml; izan gitian</p>
+<p>Orozbatkoz zelian.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>HIRUR ERREGEREKI</p><--</head>
+        </front>
+        <body>
+<p>Hirur erregereki</p>
+<p>Maiteki</p>
+<p>Laidatzen z&uuml;t&uuml;g&uuml;,</p>
+<p>Eta Herodeseki</p>
+<p>Gerla nahi d&uuml;g&uuml;.</p>
+<p>Izar bat zen argirik</p>
+<p>Handirik</p>
+<p>Zel&uuml;tik agert&uuml;:</p>
+<p>Erregiak bertarik</p>
+<p>Berhal'abiat&uuml;.</p>
+<p>Herodesen hirian</p>
+<p>Berian</p>
+<p>Hek zien galthat&uuml;,</p>
+<p>Eia hanko herrian</p>
+<p>Jes&uuml;s zenez sorth&uuml;.</p>
+<p>Herodes erregia,</p>
+<p>Bei eia</p>
+<p>Khex&uuml;tan jarririk,</p>
+<p>Gogorat&uuml; bazenez</p>
+<p>Beste erregerik.</p>
+<p>Herodesek berhala</p>
+<p>Khortia</p>
+<p>Zian bil erazi,</p>
+<p>Jakin nahi beitzian</p>
+<p>Berri hobeki.</p>
+<p>Herodesek ordian</p>
+<p>Berian</p>
+<p>&Uuml;khen arrapost&uuml;</p>
+<p>Kristek behar ziala</p>
+<p>Betlemen jaiot&uuml;.</p>
+<p>Erreger diosteie:</p>
+<p>Zoazte,</p>
+<p>Ezta sorth&uuml; heben;</p>
+<p>Ikhusten bad&uuml;zie,</p>
+<p>Eni erran nun den.</p>
+<p>Majek alageraki</p>
+<p>Jarraiki</p>
+<p>Zien bide hura,</p>
+<p>Bai eta adorat&uuml;</p>
+<p>Gero Jes&uuml;s haorra.</p>
+<p>Mirrha zeren eskent&uuml;</p>
+<p>Inxens&uuml;,</p>
+<p>&Uuml;rhe hanitxeki;</p>
+<p>Et'&uuml;tz&uuml;ltzeko joan</p>
+<p>Beste bidez gainti.</p>
+<p>Jes&uuml;s, laket bazaiz&uuml;,</p>
+<p>Ig&uuml;z&uuml;</p>
+<p>Errege haieki,</p>
+<p>Beit&uuml;z&uuml; photeria,</p>
+<p>Gloria iruski.</p>
+<p>O Birjina garbia,</p>
+<p>Maria,</p>
+<p>Othoitzen z&uuml;t&uuml;g&uuml;</p>
+<p>Jes&uuml;sen eretzian</p>
+<p>Balia zakizk&uuml;.</p>
+<p>Jes&uuml;s zelietako</p>
+<p>L&uuml;rreko</p>
+<p>Kreazale Jaona</p>
+<p>Othoi hel'az gitzatz&uuml;</p>
+<p>Pharad&uuml;siala.</p>
+        </body>
+      </text>
+    </group>
+  </text>
+</TEI.2>
+

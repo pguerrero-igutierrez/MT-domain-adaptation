@@ -1,0 +1,707 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN"
+                       "http://www.tei-c.org/P4X/DTD/tei2.dtd" [
+   <!ENTITY % TEI.prose    'INCLUDE' >
+   <!ENTITY % TEI.linking  'INCLUDE' >
+   <!ENTITY % TEI.analysis 'INCLUDE' >
+   <!ENTITY % TEI.figures  'INCLUDE' >
+   <!ENTITY % TEI.XML      'INCLUDE' >
+   <!ENTITY % TEI.extensions.ent SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.ent' >
+   <!ENTITY % TEI.extensions.dtd SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.dtd' >
+]>
+<TEI.2>
+  <teiHeader>
+  <fileDesc>
+     <titleStmt>
+        <title>Iturriagaren Elhestaldiak</title>
+        <author>Emanuel Intxauspe</author>
+        <respStmt>Ez dauka</respStmt>
+     </titleStmt>
+     <extent>5.360 hitz, 42.568 karaktere</extent>
+     <publicationStmt>
+        <publisher>Klasikoen Gordailua [http://klasikoak.armiarma.com/]</publisher>
+        <distributor>Estrata Liburuak S.L.</distributor>
+        <address type='email'>klasikoak@armiarma.com</address>
+        <idno type='ota'>IntxauspeElhestaldiak</idno>
+        <availability status='free'>Erabilpen librekoa; honoko helbidean topa daiteke (HTML, RTF eta PDF formatuetan): http://klasikoak.armiarma.com/idazlanak/I/IntxauspeElhestaldiak.htm</availability>
+        <date>2006</date>
+     </publicationStmt>
+     <sourceDesc>
+        <bibl>Iturria: Bonaparte Ondareko Eskuizkribuak, (Rosa Miren Pagola eta taldearen edizioa). CD-ROMa, Bilduma osoaren edizio digitala. Deustuko Ubibertsitatea / Eusko Jaurlaritza, 2004</bibl>
+        <notesStmt><note>Iturburuen datazioa: 1857, 2004</note></notesStmt>
+     </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+     <projectDesc>Euskal literaturako testu klasikoen bilduma da KLASIKOEN GORDAILUA; testu hau berorren parte da</projectDesc>
+     <refsDecl>
+        <p>MENTIONED etiketa egilearenak ez diren hitzak markatzeko erabili da: hitzaurreak, aipuak, iruzkinak, e.a.</p>
+    </refsDecl>
+     <classDecl>
+        <taxonomy id='generoa'>
+            <category id='G-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='G-ANT'><catDesc>Antzerkia</catDesc></category>
+            <category id='G-BER'><catDesc>Bertsoak</catDesc></category>
+            <category id='G-ERL'><catDesc>Erlijioa</catDesc></category>
+            <category id='G-NAR'><catDesc>Narratiba</catDesc></category>
+            <category id='G-POE'><catDesc>Poesia</catDesc></category>
+            <category id='G-SAI'><catDesc>Saiakera, kronika, artikuluak...</catDesc></category>
+        </taxonomy>
+        <taxonomy id='garaia'>
+            <category id='M-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='M-16'><catDesc>XVI. mendea</catDesc></category>
+            <category id='M-17-1'><catDesc>XVII. mendea - 1. erdia</catDesc></category>
+            <category id='M-17-2'><catDesc>XVII. mendea - 2. erdia</catDesc></category>
+            <category id='M-18-1'><catDesc>XVIII. mendea - 1. erdia</catDesc></category>
+            <category id='M-18-2'><catDesc>XVIII. mendea - 2. erdia</catDesc></category>
+            <category id='M-19-1'><catDesc>XIX. mendea - 1. erdia</catDesc></category>
+            <category id='M-19-2'><catDesc>XIX. mendea - 2. erdia</catDesc></category>
+            <category id='M-20-1'><catDesc>XX. mendea - 1. erdia</catDesc></category>
+            <category id='M-20-2'><catDesc>XX. mendea - 2. erdia</catDesc></category>
+        </taxonomy>
+        <taxonomy id='euskalkia'>
+            <category id='E-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='E-BAT'><catDesc>batua</catDesc></category>
+            <category id='E-BIZ'><catDesc>bizkaiera</catDesc></category>
+            <category id='E-BNA'><catDesc>behenafarrera</catDesc></category>
+            <category id='E-ERR'><catDesc>erronkariera</catDesc></category>
+            <category id='E-GIP'><catDesc>gipuzkera</catDesc></category>
+            <category id='E-GNA'><catDesc>goi nafarrera</catDesc></category>
+            <category id='E-LAP'><catDesc>lapurtera</catDesc></category>
+            <category id='E-NAF'><catDesc>nafarrera</catDesc></category>
+            <category id='E-ZAR'><catDesc>zaraitzuera</catDesc></category>
+            <category id='E-ZUB'><catDesc>zuberera</catDesc></category>
+        </taxonomy>
+    </classDecl>
+  </encodingDesc>
+  <profileDesc>
+     <textClass>
+       <keywords scheme='generoa'>
+         <list><item>G-SAI</item></list>
+       </keywords>
+       <keywords scheme='garaia'>
+         <list><item>M-19-2</item></list>
+       </keywords>
+       <keywords scheme='euskalkia'>
+         <list><item>E-ZUB</item></list>
+       </keywords>
+     </textClass>
+  </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>Iturriagaren Elhestaldiak -- Emanuel Intxauspe</docTitle>
+    </front>
+    <group>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Lehen elhestaldia</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>ANTONIO. </hi>Igaran eg&uuml;neko zure elhestak hanitz txostat&uuml; n&uuml;ndian.</p>
+<p><hi rend='Bold'>BASILIO. </hi>Laket zait jakitia.</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Nahi n&uuml;ke zerbait erran zenezan abereska zonbaiten ga&ntilde;en.</p>
+<p><hi rend='Bold'>BASILIO. </hi>Ez-ta gaitz plazer horren zuri emaitia.</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Hanitz esker neikez&uuml;.</p>
+<p><hi rend='Bold'>BASILIO. </hi>Badakizia zer den zeta?</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Ustez bai; huna heben.</p>
+<p><hi rend='Bold'>BASILIO. </hi>Bena badakizia nontik jiten den?</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Arauz Indietarik.</p>
+<p><hi rend='Bold'>BASILIO. </hi>Ez-ta Indietara joan behar zetaren &uuml;kheiteko.</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Nola! h&uuml;llanagotik jiten lizate?</p>
+<p><hi rend='Bold'>BASILIO. </hi>Heben berian ediren daite. Jinkollo baten lana da zeta.</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Jinkollo baten lana! badaitekia?</p>
+<p><hi rend='Bold'>BASILIO. </hi>Bai; jinkollo baten lana.</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Erran hezadaz&uuml; nola egiten dian lan eder hori.</p>
+<p><hi rend='Bold'>BASILIO. </hi>Bada jinkollo mota bat xuri eta lodi dena. Hunek err&uuml;ten d&uuml;tian arraultzetarik elkhiten dira har txipig&ntilde;i batz&uuml;. Berhala hasten dira marh&uuml;gatziaren ostuetarik jaten. Jaten dienaren antzo handitzez doatza. Erhia bezain lodi egiten dira berrogei eg&uuml;nen barnen. Ordian hasten dira ahotik elder egoisten ai&ntilde;harbak bezala. Egoisten die z&uuml;ha&ntilde;en adarretan bere b&uuml;rien &uuml;ng&uuml;rian. Hunla baratzen dira elderrezko zarpa baten barnen. Zarpa hau deitzen da k&uuml;skia. K&uuml;skiak ezarten dira hur herakian, eta han mardotzen dira. Hartzen da hari bat, eta diren lekh&uuml;tik elkhi gabe, barreiat&uuml;z badoatza. Khotxeian haria hart&uuml;rik, egiten da mathaza doan bezala barreiat&uuml;z.</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Nork erran liro ikhusten diren su&ntilde;eko ederrak zor zaitzola jinkolloari?</p>
+<p><hi rend='Bold'>BASILIO. </hi>K&uuml;skiaren barnen diren harrek oso osoki zia &uuml;d&uuml;ri die.</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Hilik, ala bizirik dira?</p>
+<p><hi rend='Bold'>BASILIO. </hi>Hilik gure begietan, bena bedaxian elkhiten dira k&uuml;sk&uuml;tik jinkollot&uuml;rik.</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Hori da gaiza izigarria!</p>
+<p><hi rend='Bold'>BASILIO. </hi>Bi gaiza hoietarik zoi&ntilde; zaiz&uuml; izigarriago? arraphiztia ala jinkollotzia?</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Hain izigarri edireiten d&uuml;t har baten jinkollotzia, zoi&ntilde;a hil baten arraphiztia.</p>
+<p><hi rend='Bold'>BASILIO. </hi>Egiazki harritzeko da eg&uuml;n l&uuml;rrian herrestaka dabilan har baten, bihar hegaltaz, lehen zen beno ederrago ikhustia. Hau ikhusirik ez-ta neke sinhestia arraphizt&uuml;ko girela g&uuml; ere eg&uuml;n batez lehen beno ederrago. Jinkollo berri hoiek err&uuml;ten d&uuml;tie arraultziak eta berhala hiltzen dira.</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Zer! hain denbora g&uuml;tiz bizi dira?</p>
+<p><hi rend='Bold'>BASILIO. </hi>Bai, eta badira aberiak orano g&uuml;tiago bizi direnak.</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Hori hola bada, ez-t&uuml;g&uuml; khex&uuml; izateko gure biziaren llab&uuml;rtarz&uuml;naz.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Bigerren elhestaldia</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>BASILIO. </hi>Eg&uuml;n erlez mintzat&uuml; behar nitzaiz&uuml;.</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Haziendatto baliusak dira erliak: hoiek emaiten deik&uuml;ie eztia.</p>
+<p><hi rend='Bold'>BASILIO. </hi>Ez bakhoizki eztia, bena ere emaiten deik&uuml;ie ezkoa.</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Nola ezti-khoi beniz ezinago, e-nintzan ezkoaz orhitzen.</p>
+<p><hi rend='Bold'>BASILIO. </hi>Eztia, jateko bezai&ntilde; hon da sendogarritako. Marhanta denian hartzen da eztia hurareki nahasirik. Atxeterrek janerazten die zonbait aldiz barazkal aitzinian khorpitzetik librerazteko. Bestalde orano, zonbat gaizarentako ez-ta hon ezkoa! Huneki egiten dira tortxak, oihal ezkostatiak eta herxkaill&uuml; mota hanitz. Erliak sortzen dira jinkolloak bezala, eta jaten die eztia. Lilietan edireiten die eztiaren eta ezkoaren geia. Liliaren irinareki egiten die ezkoa, eta eztia aldiz liliaren kokoxetik elkhitzen dian z&uuml;hatzareki. Irina biltzen die lilien ga&ntilde;en gibeleko aztaparren herresta erabiltez. Zankhoetan bad&uuml;tie galtzak bezalako batz&uuml;, eta ez-tira &uuml;kh&uuml;ratzen horik bethe artino. Z&uuml;hatza h&uuml;rr&uuml;patzen die m&uuml;th&uuml;rrian dien trunpa bateki. Z&uuml;hatzarentako badie sabel bat, eta han ezti egiten da. Irinarentako badie beste bat eta han ezko bilhatzen da. Gero, ahotik eztia egotxiz, egiten die orrazia. Eginik denian orrazia, hunen xiloak eztiz bethatzen d&uuml;tie.</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Xiloa deitzen da thegittoa?</p>
+<p><hi rend='Bold'>BASILIO. </hi>Orraziarena bai.</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Zorobilatzen naie ni gaiza hoiek orok.</p>
+<p><hi rend='Bold'>BASILIO. </hi>Ez-t&uuml;z&uuml; zertzaz zorobila.</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Zer! ez-ta zorobilatzeko gaiza, lilien ga&ntilde;en den irinaren ezkot&uuml;rik ikhustia?</p>
+<p><hi rend='Bold'>BASILIO. </hi>Eta e-tz&uuml;t&uuml; xorotzen g&uuml;k jaten d&uuml;t&uuml;g&uuml;n gaizen ikhustiak gure odoletara khanbiatzen?</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Egia dioz&uuml;, en&uuml;nd&uuml;z&uuml;n ohartzen.</p>
+<p><hi rend='Bold'>BASILIO. </hi>Eg&uuml;n behiak jan dian belharra bihar eznet&uuml;rik jaten d&uuml;g&uuml;.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Hirurgerren elhestaldia</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>BASILIO. </hi>Eg&uuml;n err&uuml;illiaz mintzat&uuml; behar gira.</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Z&uuml;k nahi d&uuml;z&uuml;n bezala.</p>
+<p><hi rend='Bold'>BASILIO. </hi>Err&uuml;illia da &uuml;ll&uuml; mehe, l&uuml;ze, berdais bat. Lexarretan edireiten da, zeren han err&uuml;n ohi beit&uuml;t&uuml; bere arraultziak.</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Horrek erran nahi d&uuml; err&uuml;illien harrek lexarraren ostoa jaten diela.</p>
+<p><hi rend='Bold'>BASILIO. </hi>Bai, jinkolloen harrek marh&uuml;gatzen ostoa bezala. Bena jakin behar d&uuml;z&uuml; zoi&ntilde;-nahi jinkollo ez eta zoi&ntilde;-nahi z&uuml;hai&ntilde; osto ez-tirela hon zetaren emaiteko. &Uuml;ll&uuml; huneki egiten da herxkallia.</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Erier ezarten zaiena?</p>
+<p><hi rend='Bold'>BASILIO. </hi>Bai, hura bera. Eritarz&uuml;n haboroenetan hori izaten da azken sendogarria. Odoluriak d&uuml;tienentako ezinago hon da.</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Eta nola emaiten da sendogarri hori?</p>
+<p><hi rend='Bold'>BASILIO. </hi>Erhaust&uuml;rik, eta ikhusaz&uuml; nola. Err&uuml;illiak bild&uuml; ondoan, &uuml;zten dira hiltzera eta idortzera; eta idort&uuml; direnian, zaphatzen dira zapharri batetan. Erhauts huneki egiten den herxkalliak erratzen d&uuml; eta z&uuml;sk&uuml;ll&uuml; eragiten. Zonbatek ez-tioie &uuml;ll&uuml; hoier zor bere osagarria! eta zonbatek bizia!</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Eta erranen deitaz&uuml; ez-tirela horik xorotzeko gaizak?</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Laugerren elhestaldia</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>BASILIO. </hi>Huna heben abereska bat z&uuml;k ezag&uuml;tzen ez-t&uuml;z&uuml;na.</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Heben atzaman d&uuml;z&uuml;?</p>
+<p><hi rend='Bold'>BASILIO. </hi>Ez, Ameriketan sortzen da, eta hantik ekharten die tinta egiteko. Koxenilla deitzen die.</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Alabena koxenilla gorri da eta abereska hori hauts kolore.</p>
+<p><hi rend='Bold'>BASILIO. </hi>Otharraina ere berde da bera&ntilde;ez, bena egostian gorritzen da. Bi&ntilde;agre txorta bat ixurten badeioz&uuml;, ikhusiko d&uuml;z&uuml; nola gorrit&uuml;ren den.</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Zoi&ntilde;en xabal eta biribil den! &uuml;d&uuml;ri d&uuml; ilhar-xabala. M&uuml;th&uuml;rra xerriarena bezalako d&uuml;.</p>
+<p><hi rend='Bold'>BASILIO. </hi>Hartakoz deitzen die espagnolez koxinilla. Bada beste har bat hau &uuml;d&uuml;ri, Kermes deitzen dena. Bena harek emaiten dian tinta ez-ta hai&ntilde; eder.</p>
+<p>Bata ala bestia z&uuml;hai&ntilde;etan aurkhitzen dira, zeren haien amek z&uuml;hai&ntilde;en ostoetan &uuml;zten beit&uuml;tie bere arraultziak. Harrak hoietarik elkhitzen dira, eta egiten d&uuml;tie maillak, berak barnen egoiten direlarik. Bada beste tinta gorri bat orano ederrago dena. Purpra deitzen da, bena hain da bakant, non ezinago g&uuml;tik &uuml;khen beitezakeie. Arrain-k&uuml;sk&uuml; baten barnen edireiten da, eta txak&uuml;r bati zor zaio.</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Zer! txak&uuml;r bati! nola agit&uuml; zen hori?</p>
+<p><hi rend='Bold'>BASILIO. </hi>Txak&uuml;r batek ebil ohi zian gosiak hilik. Gosiak eroan zian itxas bazterriala eta hasi zen arrain-k&uuml;sk&uuml;d&uuml;n jaten. Eg&uuml;n oroz joan ohi zian bere gosiaren hileraztera. &Uuml;tz&uuml;ltzen zen m&uuml;th&uuml;r g&uuml;zia gorrit&uuml;rik. Norbaitek ustez odola zela eta zauri zonbait baz&uuml;kiala, helt&uuml; zeion. Eta horra nola aurkhit&uuml; zen tintarik ederrena eta khariuena.</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Bai, khario izan behar d&uuml;, ezi arrain-k&uuml;sk&uuml;d&uuml;n hanitz behar date bild&uuml; su&ntilde;eko baten tintatzeko.</p>
+<p><hi rend='Bold'>BASILIO. </hi>Hai&ntilde; da khario non erregek eta handi zonbaitek bakhoizki &uuml;khen beitiokeie. Orobat gerthatzen da perlaz. Arrain-k&uuml;sk&uuml; baten barnen edireiten da itxasoan. Horra non m&uuml;ndian diren gaizarik baliusenak zor zaitzen abereska eli bati.</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Bai egiazki! nork erran lioke errege eta erregi&ntilde;en aphaind&uuml;rak hoier zor zaitzela!</p>
+<p><hi rend='Bold'>BASILIO. </hi>Orobat gerthatzen da elizako ornamentientako.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Bostgerren elhestaldia</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>BASILIO. </hi>Gaizarik txipienetan ikhusten da hobekienik Jinkoaren handitarz&uuml;na. Badakiz&uuml; arauz zer den lakhaxa. Ard&uuml;ra jiten zaie haurrer erhi artetan.</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Baitaere nigar gogotik eragiten gaxoer.</p>
+<p><hi rend='Bold'>BASILIO. </hi>Bere amek elkhi ohi deioe ekhitara orratz-moskoareki.</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Eta begi honak behar dira ekhitara ere haren elkhiteko.</p>
+<p><hi rend='Bold'>BASILIO. </hi>Arren, den bezai&ntilde; txipi izanik, bad&uuml;t&uuml; lakhaxak khorpitzaren zathi g&uuml;ziak. Bad&uuml;t&uuml; hortzak edo hortzen ordariak, haurrer nigar eragiten dianaz geroz; bad&uuml;t&uuml; urdaia, erxiak, sabela, bihotza, erraiak; behar d&uuml;t&uuml; ere &uuml;khen gibela, barhia eta g&uuml;ltz&uuml;rr&uuml;nak. Haren odolak behar d&uuml; ebili guriak bezala khorpitz g&uuml;zia gainti.</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Ez-t&uuml; hatik &uuml;d&uuml;ri odolik badiala.</p>
+<p><hi rend='Bold'>BASILIO. </hi>Odola xuri dialakoz beste hanitz abereskak bezala.</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Unxa dioz&uuml; gaizarik txipienetan dela handienik Jinkoa.</p>
+<p><hi rend='Bold'>BASILIO. </hi>Badira abereskak lakhaxa beno ere orano tthipiagoak.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Seigerren elhestaldia</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>BASILIO. </hi>Harrit&uuml; zinen igaran eg&uuml;nian ikhustez zonbat hon zor deieg&uuml;n abereska batzier: zeta jinkollo bati, eta tintarik ederrena eta perlak arrai&ntilde;-k&uuml;sk&uuml;d&uuml;n batzier. Arren orano izigarriago da abereska zonbaitek erakasten deik&uuml;iena emaiten deik&uuml;iena beno. Erliak goizetik arraxera ari dira lanian &uuml;kh&uuml;rat&uuml; gabe. Ez-tie jaten eg&uuml;nian eg&uuml;neko anhoa baizik. Badakie negia jinen dela eta ordian ezin elkhiko direla bere khobai&ntilde;etik. Hunla erakasten deik&uuml;ie lan egiten ahal d&uuml;g&uuml;nian ezin d&uuml;keg&uuml;neko, eta d&uuml;g&uuml;nian begiratzen ez-t&uuml;keg&uuml;neko. Hitz batez, erakasten deik&uuml;ie langile eta z&uuml;h&uuml;r izaten. Lanetik eta z&uuml;h&uuml;r izatetik jiten dira aberaxtarz&uuml;na eta onxa izatia. Lana da berth&uuml;te g&uuml;zien ama, eta auherkeria gaistokeria g&uuml;ziena. G&uuml;k g&uuml;ziek egin bageneza erleek egiten diena bizi gintake Aing&uuml;r&uuml; eli bat bezala.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Zazpigerren elhestaldia</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>ANTONIO. </hi>Nahi n&uuml;ke zerbait jakin i&ntilde;h&uuml;rrien ga&ntilde;en.</p>
+<p><hi rend='Bold'>BASILIO. </hi>Bada i&ntilde;h&uuml;rri mota hanitz: batak bestiak beno txipiago. Neg&uuml; g&uuml;zia igaraiten die lotan.</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Nolaz ez-tira hiltzen?</p>
+<p><hi rend='Bold'>BASILIO. </hi>Bere gizentarz&uuml;nak irai&ntilde;erazten deie. Gaiza bera gerthatzen da s&uuml;geeki, marmoteki eta beste zonbait abereeki. Zonbat aldiz gihaur, eri girenian ez-kira egoiten hilabete osoak deus hart&uuml; gabe! Inh&uuml;rrien artian batak dira arrak, bestiak emiak; bestiak ez ar eta ez eme. Arrak eta emiak dira h&uuml;men hazteko, eta bestiak laneko. Orobat gerthatzen da erleki. Abereska hegald&uuml;nak eta l&uuml;ma gabiak sortzen eta hazten dira jinkolloak bezala.</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Eta i&ntilde;h&uuml;rriak?</p>
+<p><hi rend='Bold'>BASILIO. </hi>Orobat.</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Alabena i&ntilde;h&uuml;rriek eztie hegalik.</p>
+<p><hi rend='Bold'>BASILIO. </hi>Bai, badie sortzen direnian, bena gero khentzen d&uuml;tie gibeleko bi zankuez. Badakizia behin beno gehiagotan etxiak egotxi d&uuml;tiela? Ez egin erririk, erraitera nuakiz&uuml; nula. Etxiak tellaz diren lekhietan asmatzen badie jatekorik barnen, huna zer egiten dien. Tellen arteko murtera phorrokatzen die barnen sartzeko. Jiten da gero aize buhada bat eta etxia l&uuml;rreratzen d&uuml;. Badira abereskak bere arraultziak fr&uuml;tien ga&ntilde;en err&uuml;ten d&uuml;tienak. Haietarik jiten diren harrak sartzen zaitze barnen eta jaten d&uuml;tie. Hau bera agitzen da z&uuml;hai&ntilde; ostuer, bihiari eta arroper.</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Hartakoz d&uuml;t&uuml;g&uuml; ikhusten z&uuml;hai&ntilde;en ostuak sariak bezalakot&uuml;rik.</p>
+<p><hi rend='Bold'>BASILIO. </hi>Eta zer ogen eztie egiten ogi bihian?</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Ogi athen gai&ntilde;en hegaltaz ikhusten diren eltxuen arraultzetarik sorth&uuml;ko dira naski han harrak?</p>
+<p><hi rend='Bold'>BASILIO. </hi>Bai, eta sartzen dira ogi bihian fr&uuml;tian bezala. Badira &uuml;lliak zaldier eta beste aberer s&uuml;d&uuml;rretik eta beste lekhietarik sartzen zaitzenak.</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Eta barnen &uuml;zten deitze arraultziak?</p>
+<p><hi rend='Bold'>BASILIO. </hi>Bai, eta haietarik sortzen diren harrek zorabiatzen d&uuml;tie askitan. Hazteria, hezkabia eta beste aski min eztira besterik harrak baizik.</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Haregatik theiarz&uuml;netik jiten direla diozie.</p>
+<p><hi rend='Bold'>BASILIO. </hi>Bai, zikhinkerian sortzen direlakoz harrak. Hartakoz behar dira eg&uuml;n oroz xahat&uuml; begithartia eta eskiak. Behar da ere eg&uuml;n oroz iresi. Aberek emaiten deik&uuml;ie xah&uuml;tarz&uuml;naren exenplia. Ikhusiko d&uuml;z&uuml; bethi bere b&uuml;rien garbitzen ari direla.</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Urdiak beren ez.</p>
+<p><hi rend='Bold'>BASILIO. </hi>Bai eta urdiak ere, ezt&uuml;z&uuml; haien thegiari so egitia baizik. Han ed&uuml;kiten die bere etzangia zilharra beno xahiago. Jinkuak eman deie asm&uuml; hori, xah&uuml;tarz&uuml;na osoki behar delakoz osagarriarentako.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Zortzigerren elhestaldia</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>ANTONIO. </hi>Gure azken elhestaldiaz gogozkan egon niz igaran den gai g&uuml;zian.</p>
+<p><hi rend='Bold'>BASILIO. </hi>Nula arren! Zerk harrit&uuml; z&uuml;t&uuml;?</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Hazteria, hezkabia eta beste aski gaitz theiarz&uuml;netik jiten direla entz&uuml;tiak.</p>
+<p><hi rend='Bold'>BASILIO. </hi>Hazteria eta hezkabia eztira har mota batz&uuml; baizik. Orobat diot hortzetan eta haginetan jiten den zikhi&ntilde;az. Har hoiek xilatzen d&uuml;tie gehienetan batak eta bestiak.</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Eta nuntik jiten dira haurrek &uuml;kheiten d&uuml;tien xixariak?</p>
+<p><hi rend='Bold'>BASILIO. </hi>Janhariareki eta edariareki irexten d&uuml;tien arraultzetarik. Eltxo phozund&uuml;nak berriz jiten dira hur &uuml;steletik. Orobat s&uuml;giak eta s&uuml;skanderak. Eta zunbat gaitz ez-ta jiten p&uuml;tz&uuml; eta loskuetarik. P&uuml;tziak nahi d&uuml; itzala hura &uuml;stel dadin nahi ez-pada; eta ezarten bazaio inkhatz edo inkhatz-erhaux xahatzen da hura edan ditakian bezala. Baitaere ezinago hun da garalla ezartia.</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Ikhusten d&uuml;t zikhi&ntilde;atik eta &uuml;steltarz&uuml;netik jiten direla gaiza greugarri direnak eta gaitz hanitz.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Bederatz&uuml;gerren elhestaldia</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>ANTONIO. </hi>Erradaz&uuml;: zer da anilla?</p>
+<p><hi rend='Bold'>BASILIO. </hi>Iratzia &uuml;d&uuml;ri dian belhar batetarik elkhiten den erhaux bat.</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Eta nuntik jiten dira kotua, kinkina, kanela eta itzia?</p>
+<p><hi rend='Bold'>BASILIO. </hi>Indietarik jiten dira. Kotua aurkhitzen da z&uuml;hai&ntilde; txipi baten k&uuml;skian, gazta&ntilde;a mardoxian bezala; kinkina z&uuml;hai&ntilde; baten axala da; kanela orobat, eta itzia beste z&uuml;hai&ntilde; baten fr&uuml;tia. S&uuml;kria da kanabera mota bati xehekat&uuml; eta egosi unduan idokiten zaion gozua. Gaiza horik oro herri beruetan jiten dira.</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Doha&ntilde; hunekoak izan behar die holako herriek.</p>
+<p><hi rend='Bold'>BASILIO. </hi>Badira herriak bethi bedaxian bizi direnak. Holako herrietan ikhusten dira z&uuml;hai&ntilde; batetan eta denbora berian lilia, fr&uuml;t&uuml; berdia eta huntia. Han berak jiten dira iranja, zitrua eta beste fr&uuml;t&uuml; batz&uuml;.</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Doha&ntilde; hunekuak holako herrietan bizi direnak! Bizi ditake deusen arrank&uuml;rarik gabe.</p>
+<p><hi rend='Bold'>BASILIO. </hi>Haregatik han ere lan eginez bizi da jentia. Jan h&uuml;xareki ezin bizi gitake.</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Zertako ez? hotz handirik eta bero handirik egiten ez-tian ber.</p>
+<p><hi rend='Bold'>BASILIO. </hi>Basa-gizunak hala bizi dira. Jakin behar d&uuml;z&uuml; hanitz lekh&uuml;tan, su&ntilde;ekorik gabez, itzailkatzen direla lohian urdiak bezala. Eltxo phozund&uuml;nek eta beste hanitz barbalotek tzistatzen d&uuml;tielakoz egiten die hori.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Hamargerren elhestaldia</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>BASILIO. </hi>Eg&uuml;n l&uuml;rlanaz elhe egin behar d&uuml;g&uuml;.</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Eztate gaizki igaranik denbora, hori beita gure lankheia.</p>
+<p><hi rend='Bold'>BASILIO. </hi>Bada l&uuml;r mota hanitz, bena g&uuml;ziak bitara ekharten dira.</p>
+<p>L&uuml;r orok bad&uuml; b&uuml;ztin eta hari&ntilde;a: b&uuml;ztin gehiago balin bad&uuml; hari&ntilde;a beno deitzen da b&uuml;ztin-l&uuml;rra; eta b&uuml;ztin beno hari&ntilde;a haboro balin bad&uuml; deitzen da hari&ntilde;a l&uuml;rra.</p>
+<p>B&uuml;ztin-l&uuml;rrak ezt&uuml; &uuml;zten hura barna sartzera, hari&ntilde;a l&uuml;rrak aldiz &uuml;zten d&uuml; sartzera g&uuml;zia.</p>
+<p>L&uuml;rrak hun izateko behar d&uuml; b&uuml;ztin bezai&ntilde;bat hari&ntilde;a; bestela busti bezai&ntilde; laster idortzen da.</p>
+<p>L&uuml;r hunak hur hanitz hartzen eta begiratzen d&uuml;; eta ga&ntilde;a idortzez duakolarik petik gora igaiten zaio hura.</p>
+<p>Ber gaiza heltzen da mitxan gora igaiten den oliuan. Holako l&uuml;r motek aski d&uuml;tie bedaxeko euriak &uuml;da orotako.</p>
+<p>Lax&uuml;nak ezinago unxa xehekatzen d&uuml; b&uuml;ztin l&uuml;rra.</p>
+<p>Gorotza da gero gaiza beharra l&uuml;rrak emaiteko.</p>
+<p>Gorotz &uuml;kheiteko behar da hazienda, eta hazienda &uuml;kheiteko behar da bazka.</p>
+<p>L&uuml;rlantzalerik hobena da &uuml;ztak eta bazka ber l&uuml;rretik eraikiten d&uuml;tiana.</p>
+<p>Hau da gure herrietan ikhusten dena.</p>
+<p>Haziendak behar d&uuml; etzangia, eta etzangiarentako behar da iraurkeia.</p>
+<p>Iraurkeik ezten lekhietan ezarten da hari&ntilde;a idorra, eta hari&ntilde;a idorrik ezpada harristatzen da etzan-lekhia.</p>
+<p>Zernahi den behar d&uuml; haziendak xah&uuml;tarz&uuml;n handi bat, emanen bazaio ere g&uuml;tiago jatera; eta ed&uuml;ki behar d&uuml; ahalaz begien aitzinian, zeren den loxor eta loxak ah&uuml;ltzen beit&uuml;.</p>
+<p>Laket zaio haztat&uuml;rik eta balakat&uuml;rik izatia.</p>
+<p>Eman behar zaio jatera &uuml;s&uuml; eta aldian g&uuml;ti; bestela asetzen da eta ezt&uuml; unxa jana ehaiten.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Hamekagerren elhestaldia</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>ANTONIO. </hi>Azken aldiko elhestaren jarraikitziaz egidaz&uuml; plazera.</p>
+<p><hi rend='Bold'>BASILIO. </hi>Gogo hunez jarraikiren diz&uuml;t, etz&uuml;t&uuml;dala ei&ntilde;hetzen ikhusten d&uuml;danaz geroz.</p>
+<p>L&uuml;rrak berartan bad&uuml; gozo k&uuml;nte hanitz.</p>
+<p>Lanthare bakhotxak nahi d&uuml; beria; bena bethi ber lanthare k&uuml;ntia ereiten bada l&uuml;r batian, geroago eta txarrago jinen da.</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Hori jakina da, zeren geroago eta gozo g&uuml;tiago barat&uuml;ko beita.</p>
+<p><hi rend='Bold'>BASILIO. </hi>Hartakoz eman behar zaio l&uuml;rrari l&uuml;r berri edo gorotz; bestela erei&ntilde; behar da orai lanthare mota bat eta gero beste bat.</p>
+<p>Badira lanthariak alkharreki unxa jiten direnak, eta badira alkharri ogen egiten dienak.</p>
+<p>Bi belhar k&uuml;nte egon ditake ber l&uuml;rrian, gozo berhezi behar badie; bena ez biek ber gozua behar badie.</p>
+<p>Aberiak ez-t&uuml; zathirik hunkarri egiteko hun eztenik.</p>
+<p>Az&uuml;zk&uuml;lia, ez&uuml;rra, adarra, ilhia, g&uuml;ziak ezinago hun dira hunkarri egiteko.</p>
+<p>Lax&uuml;n hanitz den lekhietan, laborari hunak atzaman ahala urthiki behar d&uuml; lax&uuml;n-labialat.</p>
+<p>Lax&uuml;n phuska bateki nahasirik g&uuml;ziak hunkarri egiten dira.</p>
+<p>Harat ezari behar dira oski zahar, abere hil eta tzarkeria g&uuml;ziak.</p>
+<p>Badira lapitzak lax&uuml;n hanitz dad&uuml;kenak, eta ezinago hun direnak b&uuml;ztin l&uuml;rrarentako.</p>
+<p>Lax&uuml;nik badianez ezag&uuml;tzen da zathixka bat binagrian ezariz.</p>
+<p>Herakitzen edo k&uuml;sk&uuml;ll&uuml; igorten hasten bada, lax&uuml;n badiala ezag&uuml;n da.</p>
+<p>Hautsa da hunkarri hobenetarik bat; bena hauts hanitz egiteko s&uuml;gei hanitz behar da.</p>
+<p>L&uuml;r ordokiak dira lantzeko hun direnak; zeren bera&ntilde;ez txar izanik ere, l&uuml;rlantzale hunak hunt&uuml;ko beit&uuml;t&uuml;; ezi emaiten zaien g&uuml;zia hetan baratzen da.</p>
+<p>Zeihara diren l&uuml;rretan behar da z&uuml;hai&ntilde;tze lanthat&uuml;. L&uuml;r g&uuml;ti unxa lanthiak emanen d&uuml;, erem&uuml; handi gaizki lanth&uuml; batek beno haboro.</p>
+<p>L&uuml;rrak, unxa lanth&uuml;rik izateko, erhaust&uuml;rik izan behar d&uuml;.</p>
+<p>Bihi mota hanitz erein behar da urthe berian, biltze baten h&uuml;xian, beste bat atzaman dadin.</p>
+<p>Hortakoz da erraiten, bat dianak batere eztiala.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Hamabigerren elhestaldia</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>BASILIO. </hi>Eg&uuml;n aberez mintzat&uuml; behar gira, z&uuml;k hala nahi bad&uuml;z&uuml;.</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Sirax handireki behat&uuml;ko n&uuml;z&uuml; erran nahi deiztatz&uuml;n g&uuml;zier.</p>
+<p><hi rend='Bold'>BASILIO. </hi>Haziendak nahi d&uuml; xah&uuml;tarz&uuml;n handi bat.</p>
+<p>Jatera eman behar zaio &uuml;s&uuml; eta aldian g&uuml;ti.</p>
+<p>G&uuml; bezalaxe dira kabaliak.</p>
+<p>Hobe da g&uuml;tixiago jatera emanen bazaie ere, xah&uuml; ed&uuml;kitzia.</p>
+<p>Izanen dira gizenago, azkarrago eta osagarrixiago.</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Zonbait aldiz aberia hantzen da, ezta hala?</p>
+<p><hi rend='Bold'>BASILIO. </hi>Bai, hantzen da belhar busti jaten dianian.</p>
+<p>Huna hori gerthatzen deneko errezetak:</p>
+<p><hi rend='Bold'>ERREZETA ERRAN DEN GAITZARENTAKO</hi></p>
+<p>Gatz amoniakaren izpirit&uuml;, untza bat.</p>
+<p>Petrole beltzaren olio, bi untza: nahasteka.</p>
+<p><hi rend='Bold'>BESTE BAT</hi></p>
+<p>Harerazten zaio aberiari jentiana za&ntilde;etik erhaust&uuml;rik untza laurden baten erdia.</p>
+<p>Belhar berotia hobe haziendarentako, ardu herakitia herakit&uuml; gabia beno hobe den bezala; eta haziendak gogotikago jaten d&uuml;, gozo hobia dialakoz.</p>
+<p>Hartakoz ere hanitzez hobeki ehaiten d&uuml;.</p>
+<p>Hanitz lekh&uuml;tan belharra bild&uuml; eta ihiztatzen die, gero eskietan tinkatzen eta &uuml;zten.</p>
+<p>Berotzen hasten denian zabaltzen die eta haziendari emaiten.</p>
+<p>Aberia ezinago gatz-khoi da, eta hanitz hun egiten deio i&ntilde;har batek; zeren gatzareki jana hanitzez hobeki ehaiten beita, eta gatz jaten dian aberiaren aragiak hanitzez hobe beit&uuml; gozoa.</p>
+<p>Hau ezag&uuml;tzen da nitre-gatz den bazkagietan alhatzen diren aharien aragian.</p>
+<p>Eritzen denian berheziki gatz eman behar zaio haziendari.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Hamahirurgerren elhestaldia</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>ANTONIO. </hi>Ezin erran dizakez&uuml;t zer sirax handireki entz&uuml;ten d&uuml;dan zure elhesta, othoitzen z&uuml;t&uuml;t ohi bezala jarraiki dezaz&uuml;n.</p>
+<p><hi rend='Bold'>BASILIO. </hi>Gogo hunez jarraikiko diz&uuml;t, hala nahi d&uuml;z&uuml;nez geroz.</p>
+<p>Aberen gaitzetarik haboruenak ez-axoletik jin ohi dira.</p>
+<p>Bustia da aberentako guretako bezala exaik handiena.</p>
+<p>Belhar bustiak hantzen d&uuml;tian bezala, etzangia bustiak eritzen d&uuml;t&uuml;.</p>
+<p>Hartakoz urthe eurixietan eman behar zaie janhari idor buxi bat, eta ahal bezain g&uuml;ti igorri behar dira bazkagietarat.</p>
+<p>Orotan-gainti behar zaio etzangia idor ed&uuml;ki.</p>
+<p>Aberia maite ez-tian laboraria, ez-ta l&uuml;rraren gizuna, zeren abererik gabe ez-peita gorotzik eta gorotzik gabe ez-peita &uuml;ztarik.</p>
+<p>Bestalde, orano bazka gabe ez-ta abererik.</p>
+<p>Bazkak, haziendak eta l&uuml;r lanthiak bardinian egon behar die.</p>
+<p>Ihurk ez-taki zunbat eman dezakian l&uuml;rrak.</p>
+<p>Erran ohi da, egia handireki, hartzen dian bezanbat emaiten diala. L&uuml;r phorrokatiena da hobekienik lanthia.</p>
+<p>Laborariak ez-t&uuml; behar, ahalaz, ed&uuml;ki l&uuml;r auherrik.</p>
+<p>Hazienda barr&uuml;kian egonago, hanbat hobiago, zeren gorotz haboro beit&uuml;ke laborariak.</p>
+<p>Ez-t&uuml; l&uuml;rrak exai handiagorik aberiaren aztaparra beno; berheziki b&uuml;ztin l&uuml;r den lekhietan.</p>
+<p>Nausiak eman behar deitzo l&uuml;rrak etxezai&ntilde;ari estat&uuml; hunian; ez-t&uuml; bestela lantze hunik eginen.</p>
+<p>Badira denborak eta haruak igaraitera &uuml;tzi behar eztirenak, ala ereiteko, ala jorratzeko ala ephaiteko. Hortakoz laborariak, hun izateko, behar d&uuml; esk&uuml;-arte, zeren &uuml;zten bad&uuml; harua igaraitera, lan txar eginen beit&uuml;; eta haruaren igaraitera ez &uuml;zteko jonaletorrak zonbait aldiz behar beitira.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Hamalaurgerren elhestaldia</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>ANTONIO. </hi>Zer egia handiak erran d&uuml;t&uuml;z&uuml;n azkeneko elhestaldian!</p>
+<p><hi rend='Bold'>BASILIO. </hi>Nausiek ezag&uuml;t&uuml; behar l&uuml;kie gaiza bat:</p>
+<p>Etxezai&ntilde;aren esk&uuml;-arte &uuml;kheitia ekhoizpen dela nausiarentako.</p>
+<p>Nausiaren, etxezai&ntilde;aren eta l&uuml;rrentzat hobena da hoien arrandan ezartia; ez dihar&uuml;tan, bena bai bihitan. Dihar&uuml;tako arranda neke da beretzen, eta ez-ta x&uuml;xen.</p>
+<p>Ez-ta x&uuml;xen, bihiaren baliuak gorabehera handiak &uuml;kheiten beit&uuml;t&uuml;.</p>
+<p>Gorabehera horik eta bihiaren dihar&uuml;tzia ez-tauzko etxezai&ntilde;ari.</p>
+<p>Nekazaliari emaiten deio indar handia haziendaren bere &uuml;kheitiak.</p>
+<p>Bena sagardoiek eta gazta&ntilde;aztoiek egon behar die erdizka, zeren ez-peitie deus emaiten hanitx urthetan.</p>
+<p>Etxalten jabek behar l&uuml;keie alkharreki hitzart&uuml; eta botiguan sarth&uuml; erratzen badira ere.</p>
+<p>Orobat egin behar l&uuml;keie aberen jabe g&uuml;ziek, hoietarik zunbait hiltzen zaieneko, bestela baten edo bigen hiltziak l&uuml;rrialatzen d&uuml; laboraria.</p>
+<p>Nola ez-peita ihur ohartzen dohakaitzaz helt&uuml; ez-teno, bortxaz eragin behar dira holako gaizak.</p>
+<p>Beste hainbeste gerthatzen da aizo-laneki.</p>
+<p>G&uuml;zientzat hun diren lanak dira, bena ihurk e-l&uuml;ke hetzaz axolik, bortxaz eragin ez-palite.</p>
+<p>Botiguak dira gaizarik hobenak destorbien egarteko.</p>
+<p>Etxen eta aberentako bezala, badira hurten, harriaren eta beste dohakaitzentako.</p>
+<p>Balin badira herri batetan berreh&uuml;n etxalte, etxeko-jaun bakhotxak hamabost libera emaiten dialarik, etxia berririk egiten da.</p>
+<p>Zonbat ere etxeko-jaun gehiago botiguan sarth&uuml;ko beitira, hanbat ere g&uuml;tiago bakhotxari eman behart&uuml;ren zaio.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Hamabostgerren elhestaldia</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>BASILIO. </hi>Zeren ga&ntilde;en elhe eginen d&uuml;g&uuml; arraxaldi huntan?</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Z&uuml;k nahi d&uuml;z&uuml;naren ga&ntilde;en.</p>
+<p><hi rend='Bold'>BASILIO. </hi>Erran deiz&uuml;t lehen ere aberia g&uuml; bezai&ntilde; minbera dela, nun ez-ten basat&uuml;rik.</p>
+<p>Erranen deiz&uuml;t orai eman behar zaiola janharia ahalaz egosirik.</p>
+<p>Hanitxez hobeki ehaiten d&uuml;, berheziki gatz i&ntilde;har bat emaiten bazaio.</p>
+<p>Badakiz&uuml; zunbat maite dien gatza abere mota g&uuml;ziek.</p>
+<p>Nuizian behin i&ntilde;har baten emaitiak hanitx gaitzetarik begiratzen d&uuml;t&uuml;.</p>
+<p>Dam&uuml;rik da gatza izan ohi dian bezai&ntilde; khario.</p>
+<p>Hun handia egin lizakio haziendari eg&uuml;n oroz gatz i&ntilde;har batek; zeren emaiten beit&uuml; jateko mengua eta ehaitia hanitz lag&uuml;ntzen beit&uuml;; bestalde l&uuml;rren huntzeko ere ezinago hun da.</p>
+<p>Badakit janhariaren egostia eta gatz emaitia khario jiten direla; bena jakitia hun da, berere hazienda eritzen deneko.</p>
+<p>Ez-t&uuml; deusek emaiten irabazi gehiago aberiak beno.</p>
+<p>Hartakoz behar da jakin zer den harentako hun eta zer ez-ten.</p>
+<p>Erran deiz&uuml;t eman behar zaiola jatera g&uuml;ti eta &uuml;s&uuml;. Xah&uuml;tarz&uuml;n handi bat galthatzen diala eta etzangia behar diala idor.</p>
+<p>Egon behar d&uuml; ahalaz ikhusteko bidian, zer hel ere, eta loxor delakoz.</p>
+<p>Bada abere mota hanitx.</p>
+<p>Badira milgorrax&uuml; direnak eta badira aragix&uuml; direnak.</p>
+<p>Badira behiak jaten diena oro eznetzen beitzaie.</p>
+<p>Orobat agitzen da hazienda ilhed&uuml;netan.</p>
+<p>Batek die ilhe huna eta aragi txarra, bestek aragi huna eta ilhe txarra.</p>
+<p>Badira &uuml;zkaldialat gizentzen direnak, eta hogei eta bost liberatako b&uuml;ztanak d&uuml;tienak.</p>
+<p>Axuriak &uuml;khen ohi d&uuml; aitaren ilhe mota eta amaren aragia.</p>
+<p>Errana da belharra txipi den lekhian hazienda xehe dela eta belharra handi den lekhian hazienda handi.</p>
+<p>Ikhusi behar da herri bakhotxeko zer abere mota sori den.</p>
+<p>Lekh&uuml; phatarretan eta baxad&uuml;netan ez-tauzka abere handiak; lekh&uuml; ordokietan aldiz hazienda handia hobe da xehia beno.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Hamaseigerren elhestaldia</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>BASILIO. </hi>Ez-teio deusek irabazi haboro emaiten laborariari haziendak beno.</p>
+<p>Hartakoz behar da haren osagarriaz hanitx axolat&uuml;.</p>
+<p>Behar da ere jakin zer egin behar zaion eri denian.</p>
+<p>Se&ntilde;ad&uuml;ra, p&uuml;rga, errad&uuml;ra eta setua dirade gaitz haboruentako sendogarriak.</p>
+<p>Laborariak behar l&uuml;ke jakin aberen se&ntilde;atzen beharord&uuml; batetako.</p>
+<p>Orobat jakin behar l&uuml;ke zer belharren hura den p&uuml;rgatzeko hun.</p>
+<p>Errakaririk hobena lax&uuml;na da, eta setuaren ezartia ezta gaiza gaitza.</p>
+<p>Aberia izerdi denian estali behar da, berheziki barr&uuml;kia hotz balin bada.</p>
+<p>Bazka bustirik bada, &uuml;tzi behar da idor artio.</p>
+<p>Aberia berot&uuml;rik bada edo izerdi, e-tzaio eman behar edatera, berheziki hura gordin balin bada.</p>
+<p>Eri bada eta gizen, berhala se&ntilde;at&uuml; behar da.</p>
+<p>Biharamenian eman behar zaiko p&uuml;rga eta jangabian ed&uuml;ki. Jangabia guretako bezain behar da aberentako, eri denian.</p>
+<p>Eta hori da sendogarri orotako hobena eta seg&uuml;rrena; berheziki bulharretako minaren eta marhantarentako.</p>
+<p>Abere eriak egon behar d&uuml; atxolbian eta etzangia idorrian.</p>
+<p>Deusek ez-t&uuml; gaitz gehiago ekharten bustiak eta sarjelkhiten den aiziak beno.</p>
+<p>Izert&uuml; unduan ez-ta jarri behar holako aize lasterretan.</p>
+<p>Phikuen, zaurien eta kolpientako ez-ta deus hura beno sendogarri hoberik.</p>
+<p>Hoien bertan sendoerazteko aski da oihal busti baten ezartia eta haren ard&uuml;ra hurtatzia.</p>
+<p>Errad&uuml;rarentako orano hur hotza da sendogarririk hobena.</p>
+<p>Erre bezain sarri sarth&uuml; behar da erria hur hotzian. Zauri zahar, hezkabia eta kara gaistozko hirod&uuml;rentzat inkhatz erhautsa ezinago hun da.</p>
+<p>Errakariak, setua eta xira bulharreko eta begietako minentako sendogarri hunak dira.</p>
+<p>Bai eta ere estumakekuentzat, gohen&uuml;z&uuml;rrentzat eta beste aski minentzat.</p>
+<p>Eritarz&uuml;n hoiek nahi die jangabe handia eta denbora hanitx.</p>
+<p>Hur ma&ntilde;iak, bai eta ere alphorezkoak ezinago hun dira hanitxetan.</p>
+<p>Gohen&uuml;z&uuml;rrak, txoriak eta holako beste hank&uuml;rak eztit&uuml; behar dira enplast&uuml;z.</p>
+<p>Hank&uuml;rak hotzetarik balin badira, hobe da ebakitzia edo erratzia.</p>
+<p>Ahal den aldi oroz, behar da deith&uuml; aberen atxeterra.</p>
+<p>Aberiak eri direnian hun da barr&uuml;kiaren xuritzia eta barnen lax&uuml;n beruaren ithotzia.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Hamazazpigerren elhestaldia</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>ANTONIO. </hi>Nahi n&uuml;ke jakin nula egiten den gurhi huna.</p>
+<p><hi rend='Bold'>BASILIO. </hi>Gurhi hunaren egiteko behar zaio aberiari eman bazka huna eta idorra.</p>
+<p>Olhua da bihietan ezne eta gai&ntilde; haboruenik eta hobenik emaiten diana.</p>
+<p>Gaiza ikhusia da gai&ntilde;a hun bada, gurhia hun datekiala.</p>
+<p>Belhar xehia eta bella eta trefla xuria edo gorria hanitx hun dira bazkatako.</p>
+<p>Orobat diot beazanetako belharraz, bustirik ez-pada.</p>
+<p>Gurhi egiteko lekhiak behar d&uuml; izan ipharraren eta ekhitzalgiaren artialat b&uuml;r&uuml;z.</p>
+<p>Behar d&uuml; izan handi eta gora eta leiho hanitxeki, aizia sar-jelkhi dadin unxa.</p>
+<p>Zolak harriz izan behar d&uuml;, freskago izan dadin eta xahatzen ehiago.</p>
+<p>Gurhia egiten den aldi oroz zolak hurez xahat&uuml; behar d&uuml;.</p>
+<p>Eta hur hunek elkhi behar d&uuml; hortako eginik datian erreka batetik.</p>
+<p>Bestela erorten diren ezne txortak &uuml;steltzen dira eta &uuml;rrin gaisto emaiten die gurhiari.</p>
+<p>Gurhia egiten den lekhian ez-ta behar den g&uuml;tien &uuml;rrin gaistua.</p>
+<p>L&uuml;rrezko untzi bernizatiak dira hobenak gurhiaren egiteko eta begiratzeko.</p>
+<p>Aberiak jeixi behar d&uuml; ahal den xah&uuml;tarz&uuml;nik handienareki.</p>
+<p>Berhezi behar da ga&ntilde;a eta ezari untzi batetan mingatz gozo bat har dezan artio.</p>
+<p>Ordian ezarten da gurhi untzian eta erabilten da tzotz edo makhila bateki.</p>
+<p>Gai&ntilde; gehiago eta zalhekiago erabili behar date.</p>
+<p>Gurhia egin denian, elkhitzen da untzitik eta hurian xahatzen benia handireki.</p>
+<p>B&uuml;rd&uuml;n-hura da hortako hobena, emaiten deiolakoz kolore eder bat.</p>
+<p>Belhar-h&uuml;nen egosteko sofre-hura hobena den bezala.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Hamazortzigerren elhestaldia</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>ANTONIO. </hi>Atzo erakaxi zeneitan nula egiten den gurhia.</p>
+<p><hi rend='Bold'>BASILIO. </hi>Eg&uuml;n arren ikhasi behar d&uuml;z&uuml; nula egiten den gazna.</p>
+<p>Lehenik irazten da ezne jeixi berria.</p>
+<p>Gero ezarten da golhare bat gatzagi hirur phitxer ezneri.</p>
+<p>Unxa nahasi unduan ed&uuml;kitzen da bere epheltarz&uuml;nian.</p>
+<p>Hortako, &uuml;ng&uuml;ra ditake, nahi bada, haux beroz.</p>
+<p>Gatzat&uuml; denian ezarten da tx&uuml;katzeko harlaxian.</p>
+<p>G&uuml;ne berosko batetan emaiten bada, lehenago eta hobekiago tx&uuml;katzen da.</p>
+<p>Gazna tx&uuml;katiago eta hobiago date.</p>
+<p>Unxa tx&uuml;kat&uuml; ez-ten gaznak gazixe izan ohi d&uuml;.</p>
+<p>Hogei eta laur orenen b&uuml;rian ezarten da lasto edo z&uuml;men ga&ntilde;en.</p>
+<p>Hola &uuml;zten da bost edo sei eg&uuml;n, unxa tx&uuml;ka dadin.</p>
+<p>Gero gazitzen da alde batetik, emanez untza bat gatz libera gaznaren.</p>
+<p>Gatz hau osoki hurt&uuml; denian, gazitzen da orobat beste aldetik.</p>
+<p>Gazitzen dagueno, egon behar d&uuml; g&uuml;ne idor eta aizestat&uuml; batetan.</p>
+<p>Zortzi eg&uuml;nez gazitzen &uuml;tzi unduan, esk&uuml;z xahat&uuml; behar da hur erdi-beruareki.</p>
+<p>Eskia igaran behar zaio ga&ntilde;etik, petik eta saihexetarik.</p>
+<p>Zortzi oroz egiten da ber lana, gazna sobera idortzen bada edo hasten bada mintzen.</p>
+<p>Hamabost edo hogei eg&uuml;nen b&uuml;r&uuml;ko, gazna horitzen da. Sartzen da gero thipi&ntilde;a edo z&uuml;ra batetan eta &uuml;zten da zederian.</p>
+<p>Zortzi oroz ikhusi behar da mintzen denez.</p>
+<p>Hasi bada, xahat&uuml; behar da lehen bezala hur erdi-beruan.</p>
+<p>Eznia bi jeix-alditakua bada, unxa nahasi behar d&uuml;.</p>
+<p>&Uuml;lliek hunki ez-tezen eta harrak sor ez-takitzon, huna zer egiten dien hanitx lekh&uuml;tan.</p>
+<p>Erratzen d&uuml;tie zunbaitek ez&uuml;rrak, eta haien hauxa ezarten deiue.</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Lan dira horik oro.</p>
+<p><hi rend='Bold'>BASILIO. </hi>Bena jakin behar d&uuml;z&uuml; emaiten zaion axola balio diala gaizak.</p>
+<p>Axol gabe ez-ta gaiza hunik.</p>
+<p>Eta m&uuml;nd&uuml; huntan agitzen diren behargabe gehienak ezaxolkeriatik jiten dira.</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Badaiteke.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Hemeretz&uuml;gerren elhestaldia</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>ANTONIO. </hi>Zu&ntilde; da laborariarentako abere motarik hobena?</p>
+<p><hi rend='Bold'>BASILIO. </hi>Lekh&uuml; ordokietan abere handia eta mendixietan txipia.</p>
+<p>Ga&ntilde;eran idi hunak izan behar d&uuml; handi eta l&uuml;ze.</p>
+<p>Behar d&uuml;t&uuml; &uuml;khen saihex ez&uuml;rrak zabal, larria lodi eta ez aragiari josirik.</p>
+<p>Zezenak behar d&uuml; bizkarra zabal, lephua lodi eta giltzak llab&uuml;r.</p>
+<p>Isterrak eta belha&ntilde;ak biribil, istartia ideki, bilhua llab&uuml;r eta lodi, bena lei&ntilde;.</p>
+<p>B&uuml;ztana gora, l&uuml;ze eta unxa bilhostat&uuml;rik, adarrak lodi eta xuri.</p>
+<p>Behiak izan behar d&uuml; handi, adarrak &uuml;khen behar d&uuml;t&uuml; zabal, belarra nasai eta sabela handi.</p>
+<p>Adarrak behar d&uuml;t&uuml; lei&ntilde; eta argi, herrapia xuri, handi eta ez aragix&uuml;.</p>
+<p>Ga&ntilde;erakuan, behi hunak izan behar d&uuml; zezena &uuml;d&uuml;ri.</p>
+<p>Aberiaren erostian sori da ikhustia unxa hortzik eskaz dianez, ah&uuml;lt ez-tadin.</p>
+<p>Behi beltzak txipi izan ohi dira eta ezne aph&uuml;rrago emaiten die bestek beno.</p>
+<p>Bena emaiten die bethi eta gogorrago dira laneko.</p>
+<p>Behi xuriak handiago dira eta emaiten die ezne haboro, bena ez hai&ntilde; l&uuml;zaz.</p>
+<p>Gorriak handiago dira orano eta ezne gehiago emaiten die, bena denbora g&uuml;tiagoz.</p>
+<p>Hartakoz hobe dira behi beltzak, ezne emaiten beitie l&uuml;zazago.</p>
+<p>Bestalde, behi beltzak h&uuml;me-egiliago dira beste koloretako behiak beno.</p>
+<p>Ez-ta behar behia estalerazi hirur urthiak bethe ez-t&uuml;tieno.</p>
+<p>Arramaiatzaren eta &Uuml;ztarilaren artia da hortako thenorerik hobena behi bat baizik ez-tianarentako.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Hogeigerren elhestaldia</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>ANTONIO. </hi>Ezin sinhex zenezake zer sirax handia d&uuml;dan zure entz&uuml;tez.</p>
+<p><hi rend='Bold'>BASILIO. </hi>Nik ez-t&uuml;t g&uuml;tiago horren kuntent zure ikhustez. Axuririk azkarrenak ezkhidiak dira, eta hoiek begirat&uuml; behar die h&uuml;me egiteko.</p>
+<p>Urde ahardi hunak ez-t&uuml;t&uuml; &uuml;khen behar hamabi thiti baizik; hamar diana da h&uuml;me hazteko hobena.</p>
+<p>Bai ordoxak bai ahardiak, hamabi hilabetez goiti behar die h&uuml;me egiteko.</p>
+<p>Ordoxak bost urthiak bethez geroz osat&uuml; ohi dira.</p>
+<p>Hoien urdakia lodiago da, tinkago eta gozuago osat&uuml;rik izan ez-tiren urdena beno.</p>
+<p>Lehen eg&uuml;netan aph&uuml;r eman behar zaio xerriari jatera, gosiak lag&uuml;n gabe egoitera exierazten beit&uuml;.</p>
+<p>Llepeia egoiten da hilabetez ernari.</p>
+<p>Behar d&uuml; sei aste h&uuml;men hazteko.</p>
+<p>Holatan bi hilabetetarik h&uuml;me egin dezake.</p>
+<p>Sei aste dienian osa ditake eta ezar lekh&uuml; zerrat&uuml; batetan.</p>
+<p>Handitzen dira zinez, eta emaiten bazaie eho beno lehen belhar hun aph&uuml;r bat jatera, aragiak hartzen d&uuml; gozo ezinago hun bat.</p>
+<p>Eho ditake hirur hilabetetan.</p>
+<p>Et-zaie eman behar aza ostorik, emaiten beiteio aragiari khi&ntilde;o gaisto bat.</p>
+<p>Hun da nuizik behin zahi bustiaren emaitia bihi i&ntilde;har bateki nahasirik.</p>
+<p>Orotan-gainti behar die xah&uuml;tarz&uuml;n handi bat.</p>
+<p>Larr&uuml;rik hobena da zilhar kolorekua.</p>
+<p>Gero xuria edo beltza, eta azkenik horia edo &ntilde;abarra.</p>
+<p>Angolakuak deitzen d&uuml;tienek die larr&uuml;rik hunena.</p>
+<p>Laur edo bost urthe dienian eho behar die.</p>
+<p>H&uuml;me hazteko begirat&uuml; behar dira Martxuan sorthiak.</p>
+<p>Ar bat aski da hamar &uuml;rr&uuml;xaren; bena arrak egon behar d&uuml; berhez.</p>
+<p>Orobat egon behar die h&uuml;me egiteko diren &uuml;rr&uuml;xek.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Hogei eta batgerren elhestaldia</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>BASILIO. </hi>Eg&uuml;nko elhestaldia ez-ta ene ustez izanen sirax g&uuml;tienik emanen deiz&uuml;na.</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Oro edireiten d&uuml;t&uuml;t batak bestiak beno laketgarriago.</p>
+<p><hi rend='Bold'>BASILIO. </hi>Hanitx lekh&uuml;tan ez-ta ez thipi&ntilde;ako ez argitako, intzaurraren oliua baizik.</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Jinkuari esker ez-t&uuml;g&uuml; heben holako gabeziarik.</p>
+<p><hi rend='Bold'>BASILIO. </hi>Halere hun da orai erraitera nuakiz&uuml;naren jakitia. Egiten da olio intzaurrez, h&uuml;rrez eta ezk&uuml;rrez. Baita-ere egiten da koltza deitzen den arbi mota baten aziaz.</p>
+<p>Egin daite orobat beste zer nahi aziz.</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Eta horik hun dira g&uuml;ziak thipi&ntilde;ako?</p>
+<p><hi rend='Bold'>BASILIO. </hi>Ez; zunbait ez-tira hun argitako baizik.</p>
+<p>Lihaziaren oliuak &uuml;rrin ezinago gaistoa d&uuml; eta ez-ta pintr&uuml;rako baizik hun.</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Eta nula egiten da oliua?</p>
+<p><hi rend='Bold'>BASILIO. </hi>Huna nula: hartzen da intzaur unxa huntiaren bihotza.</p>
+<p>Intzaurrak ez-t&uuml; zahar izan behar.</p>
+<p>Zaphatzen dira intzaur isterrak zapharri batetan eta bilhozko bahe batetan igaraiten dira.</p>
+<p>Biltzen da bilhozko oihal azkar batetan.</p>
+<p>Ezarten da prenxan eta egoisten d&uuml; gozoa.</p>
+<p>Egin berrian olio hau da hobena, ala gordinik ala thipi&ntilde;ako.</p>
+<p>Bena ez-ta &uuml;tzi behar zahartzera, laster galtzen delakoz.</p>
+<p>Hartakoz aldian g&uuml;ti egin behar da, bethi berri jan ahal dadin.</p>
+<p>Baratzen den graspa bustatzen da eta berriz prenxan ezarten.</p>
+<p>Orobat egiten da hirur aldiz.</p>
+<p>Bigerren aldian elkhiten den oliua hun da zarthagi&ntilde;ako eta argitako.</p>
+<p>Ezk&uuml;rrek, h&uuml;rrek eta aziek hur ephelian mardot&uuml; behar die.</p>
+<p>Thipilt&uuml; unduan zaphatzen dira zapharrian.</p>
+<p>Biltzen dira eta egiten da orhe bat.</p>
+<p>Orhe hau ezarten da berotzen haux beruaren ga&ntilde;en l&uuml;rrezko untzi batetan.</p>
+<p>Gero ezarten da prenxan bilhozko oihalian &uuml;ng&uuml;rat&uuml;rik.</p>
+<p>Ezk&uuml;rraren oliua hanitx hun da ala gordinik jateko ala thipi&ntilde;alako ala zarthaginalako.</p>
+<p>Bena behar d&uuml;t&uuml; bizpahirur urthe g&uuml;tienik huntzeko.</p>
+<p>Eta hortako ezarten da l&uuml;rrian phitxerretan edo l&uuml;rrezko butilletan.</p>
+<p>Bi lakha ezk&uuml;rrek emaiten die phitxer bat eta erdi olio.</p>
+<p>H&uuml;rraren oliua ez-ta hai&ntilde; hun, nun ez-ten argitako.</p>
+<p>Itxas-gazta&ntilde;aren hura ezinago hun da arropen garbitzeko.</p>
+<p>Bi gazta&ntilde;a aski dira butilla bat hurentako.</p>
+<p>Bihotza xurit&uuml; behar da, arraspat&uuml; eta hur beruan ed&uuml;ki hogei eta laur orenez.</p>
+<p>Nahasi behar da nuizik behin, phausatzera &uuml;tzi eta iratzi.</p>
+<p>Hur huneki garbitzen dira ederki arropak.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Hogei eta bigerren elhestaldia</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>BASILIO. </hi>Eg&uuml;n bestelako gaizaz elhe egin behar d&uuml;g&uuml;.</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Nahi d&uuml;z&uuml;n bezala; zeren nulakonahi izan dadin zure elhesta, bethi laketgarri beitate.</p>
+<p><hi rend='Bold'>BASILIO. </hi>Badakizia odeiak nula sortzen diren?</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Ard&uuml;ra ikhusten d&uuml;t&uuml;t elkhiten erreka eta &uuml;haitzetarik, bestaldian l&uuml;r bustitik eta &uuml;sienian itxasotik.</p>
+<p><hi rend='Bold'>BASILIO. </hi>Zerk hola elkherazten d&uuml;t&uuml;?</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Ekhiaren berotarz&uuml;nak ene ustez.</p>
+<p><hi rend='Bold'>BASILIO. </hi>Hala da, eta odeiak dira dakiz&uuml;n bezala euritan hurtzen direnak.</p>
+<p>E&uuml;ritik sortzen dira &uuml;th&uuml;rriak eta errekak eta hoietarik &uuml;haitzak.</p>
+<p>&Uuml;haitzetarik itxasoalat baduatza, denborareki odeitzeko.</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Hola arren dabiltza bethi itxasoko hurak &uuml;tz&uuml;l-&uuml;ng&uuml;r&uuml;ka errota bezala.</p>
+<p><hi rend='Bold'>BASILIO. </hi>Bai-eki, eta ber gaiza, dioienaz, ekhian gerthatzen da.</p>
+<p>Goguan emaz&uuml; ekhia argizko itxaso bat dela.</p>
+<p>Hantik elkhiten den argia harat berriz &uuml;tz&uuml;ltzen bada itxasoko h&uuml;ra bezala.</p>
+<p>Ehi da ordian ezag&uuml;tzia nola itxasoa eta ekhia bethi dauden ber he&ntilde;ian.</p>
+<p>L&uuml;rraren barnian aurkhitzen dira gaiza mota g&uuml;ziak, eta beroareki igaiten dira alphoren artian.</p>
+<p>Alphore hoietarik jiten dira i&ntilde;haziak et &uuml;h&uuml;lgiak.</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Izigarriak dira egiazki erraiten deiztatz&uuml;n gaizak.</p>
+<p>Zer dira beruak l&uuml;rretik eraikiten d&uuml;tian gaiza horik?</p>
+<p><hi rend='Bold'>BASILIO. </hi>Beste hanitxen artian nitria eta sofria zu&ntilde;eki egiten beita pholbora.</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Ez-takit zer den nitria.</p>
+<p><hi rend='Bold'>BASILIO. </hi>Nitria da gatz mota bat.</p>
+<p>Eta badakizia nun edireiten den gatza?</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Ahalkegarri da, bena aithort&uuml; behar d&uuml;t ez-takidala.</p>
+<p><hi rend='Bold'>BASILIO. </hi>Gatza aurkhitzen da harri gisa l&uuml;r-axalian eta l&uuml;rpian aurkhitzen da hurareki nahasirik &uuml;th&uuml;rrietan eta itxasuan.</p>
+<p>L&uuml;rraren ga&ntilde;en aurkhitzen dena deitzen da gatz-harria. Hau elkhiten da harrobitik harria bezala.</p>
+<p>&Uuml;th&uuml;rrietakua eta itxasokua elkhiten da hura berot&uuml;z edo herakieraziz.</p>
+<p>L&uuml;zaz bero-erazi unduan, &uuml;zten da hoztera eta zolan baratzen da.</p>
+<p>Lekh&uuml; beruetan itxasua gora denian, &uuml;zten die hura sartzera g&uuml;ne aphal eta ordokietan.</p>
+<p>Zerratzen d&uuml;tie bukalak eta &uuml;zten die ekhiari egitera s&uuml;iaren lana.</p>
+<p>Ordokia baratzen da gero gatzez xurit&uuml;rik elh&uuml;r egin bal&uuml; bezala.</p>
+<p>Gatza l&uuml;rpian den lekhietan, egiten d&uuml;tie zilo batz&uuml; eta hetara eramaiten die erreka bat hurez haien bethatzeko.</p>
+<p>Hura gazitzen da, elkhiten die eta bero-erazten, edo s&uuml;ian, edo ekhian barriuetan.</p>
+<p>Jakina da ekhiaren bidez egin gatza hanitxez merkiago jiten dela.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Hogei eta hirurgerren elhestaldia</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>BASILIO. </hi>Badakiz&uuml; zer heroxa egiten dian gatzak s&uuml;ian. Eta-arren pholbora ez-ta gatz baizik.</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Haregatik gatza xuri da eta pholbora beltz.</p>
+<p>Nahi n&uuml;ke jakin zereki egiten den pholbora.</p>
+<p><hi rend='Bold'>BASILIO. </hi>Erraitera nuakiz&uuml;.</p>
+<p>Nitre-gatza l&uuml;rrareki nahasirik gerthatzen da, eta l&uuml;r hori b&uuml;khatatzen die.</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Eta nula egiten da b&uuml;khata hori?</p>
+<p><hi rend='Bold'>BASILIO. </hi>Ezarten da l&uuml;rra edo erhauxa zare batetan, ixurten zaio ga&ntilde;a hur herakia, eta hunek hurt-erazten d&uuml; eta bereki eramaiten nitre-gatza.</p>
+<p>Hur hau deitzen die b&uuml;khata, eta hozt&uuml; denian baratzen da zolan nitre-gatza.</p>
+<p>Zunbat ere gehiagotan heraki-erazi beit&uuml;keie hura, hanbatere haboro indar d&uuml;ke nitre-gatzak.</p>
+<p>Bena gehiago khostaren da, zeren heraki-aldikal hura berrit&uuml; behar beitzaiko.</p>
+<p>Ez-ta d&uuml;darik, zeren bethi hertzez beitua nitria eta s&uuml; haboro behar beit&uuml;.</p>
+<p>Hartakoz ere nitria fiago eta baliua handiago d&uuml;.</p>
+<p>Nitriari ezarten zaio sofre i&ntilde;har bat zapharriala eta joiten da orhe egin dadin artio.</p>
+<p>Gero emaiten zaio inkhatz erhaux aph&uuml;r bat eta joiten da berriz l&uuml;zaki.</p>
+<p>Azkenian igaraiten da bilhozko bahe batetan eta pholbora eginik da.</p>
+<p>Orai goguan hart&uuml;ko d&uuml;z&uuml; nula sor ditakian irurziriak, i&ntilde;haziak eta d&uuml;r&uuml;ndak.</p>
+<p>Alphoraeki igaiten da l&uuml;rretik eta itxasotik gatz, sofre eta beste hanitx gaiza.</p>
+<p>Horik oro nahasten dira alkharreki eta s&uuml; hartzen die. Horra zer den irurziria; ez-ta ordian izitzeko egin ohi d&uuml;tian itxesez.</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Hori erran nahi da irurziri-zaparta bakhotxa kanu khald&uuml; bat bezala dela.</p>
+<p><hi rend='Bold'>BASILIO. </hi>Hala da.</p>
+<p>Badakiz&uuml; izotza ez-tela besterik hur gogortia baizik.</p>
+<p>Eta orobat dira txintxerra, elh&uuml;rra eta gatza.</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Haregatik, &uuml;d&uuml;ri die batek bestiak ez-bezalako direla.</p>
+<p><hi rend='Bold'>BASILIO. </hi>Bai, beste zerbait gaizareki nahasirik direlakoz.</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Eta l&uuml;ikhara zer da? edo zertarik jiten da?</p>
+<p><hi rend='Bold'>BASILIO. </hi>Hori gaiza ezag&uuml;tia da jakinez geroz l&uuml;rra dela gatzez, sofrez eta beste holako gaizaz betherik.</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Hori erran nahi da l&uuml;ikhara l&uuml;rpeko irurziriak egiten diala.</p>
+<p><hi rend='Bold'>BASILIO. </hi>Bai eta garmendiak ere. Garmendia deitzen da s&uuml; egoisten dian mendia.</p>
+<p><hi rend='Bold'>ANTONIO. </hi>Itxes handirik egin behar die l&uuml;ikharek eta garmendiek.</p>
+<p><hi rend='Bold'>BASILIO. </hi>Hirien erauztera eta funditzerano.</p>
+<p>L&uuml;rpian igaraiten bada hura gatz den lekh&uuml;tik, gazi elkhiten da &uuml;th&uuml;rritik; sofrat&uuml;, sofre artetik igaraiten bada, eta bero, s&uuml; den lekh&uuml;tik igaraiten bada.</p>
+        </body>
+      </text>
+    </group>
+  </text>
+</TEI.2>
+

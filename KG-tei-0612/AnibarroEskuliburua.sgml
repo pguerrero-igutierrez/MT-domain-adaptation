@@ -1,0 +1,1460 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN"
+                       "http://www.tei-c.org/P4X/DTD/tei2.dtd" [
+   <!ENTITY % TEI.prose    'INCLUDE' >
+   <!ENTITY % TEI.linking  'INCLUDE' >
+   <!ENTITY % TEI.analysis 'INCLUDE' >
+   <!ENTITY % TEI.figures  'INCLUDE' >
+   <!ENTITY % TEI.XML      'INCLUDE' >
+   <!ENTITY % TEI.extensions.ent SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.ent' >
+   <!ENTITY % TEI.extensions.dtd SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.dtd' >
+]>
+<TEI.2>
+  <teiHeader>
+  <fileDesc>
+     <titleStmt>
+        <title>Esku-liburua</title>
+        <author>Pedro Antonio Añibarro</author>
+        <respStmt>Ez dauka</respStmt>
+     </titleStmt>
+     <extent>20.341 hitz, 145.315 karaktere</extent>
+     <publicationStmt>
+        <publisher>Klasikoen Gordailua [http://klasikoak.armiarma.com/]</publisher>
+        <distributor>Estrata Liburuak S.L.</distributor>
+        <address type='email'>klasikoak@armiarma.com</address>
+        <idno type='ota'>AnibarroEskuliburua</idno>
+        <availability status='free'>Erabilpen librekoa; honoko helbidean topa daiteke (HTML, RTF eta PDF formatuetan): http://klasikoak.armiarma.com/idazlanak/A/AnibarroEskuliburua.htm</availability>
+        <date>2006</date>
+     </publicationStmt>
+     <sourceDesc>
+        <bibl>Iturria: Escu-liburua, eta berean eguneango cristiñau-cereguiñak, Pedro Antonio Añibarro. La Lama, 1821</bibl>
+        <notesStmt><note>Iturburuen datazioa: 1802, 1821</note></notesStmt>
+     </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+     <projectDesc>Euskal literaturako testu klasikoen bilduma da KLASIKOEN GORDAILUA; testu hau berorren parte da</projectDesc>
+     <refsDecl>
+        <p>MENTIONED etiketa egilearenak ez diren hitzak markatzeko erabili da: hitzaurreak, aipuak, iruzkinak, e.a.</p>
+    </refsDecl>
+     <classDecl>
+        <taxonomy id='generoa'>
+            <category id='G-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='G-ANT'><catDesc>Antzerkia</catDesc></category>
+            <category id='G-BER'><catDesc>Bertsoak</catDesc></category>
+            <category id='G-ERL'><catDesc>Erlijioa</catDesc></category>
+            <category id='G-NAR'><catDesc>Narratiba</catDesc></category>
+            <category id='G-POE'><catDesc>Poesia</catDesc></category>
+            <category id='G-SAI'><catDesc>Saiakera, kronika, artikuluak...</catDesc></category>
+        </taxonomy>
+        <taxonomy id='garaia'>
+            <category id='M-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='M-16'><catDesc>XVI. mendea</catDesc></category>
+            <category id='M-17-1'><catDesc>XVII. mendea - 1. erdia</catDesc></category>
+            <category id='M-17-2'><catDesc>XVII. mendea - 2. erdia</catDesc></category>
+            <category id='M-18-1'><catDesc>XVIII. mendea - 1. erdia</catDesc></category>
+            <category id='M-18-2'><catDesc>XVIII. mendea - 2. erdia</catDesc></category>
+            <category id='M-19-1'><catDesc>XIX. mendea - 1. erdia</catDesc></category>
+            <category id='M-19-2'><catDesc>XIX. mendea - 2. erdia</catDesc></category>
+            <category id='M-20-1'><catDesc>XX. mendea - 1. erdia</catDesc></category>
+            <category id='M-20-2'><catDesc>XX. mendea - 2. erdia</catDesc></category>
+        </taxonomy>
+        <taxonomy id='euskalkia'>
+            <category id='E-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='E-BAT'><catDesc>batua</catDesc></category>
+            <category id='E-BIZ'><catDesc>bizkaiera</catDesc></category>
+            <category id='E-BNA'><catDesc>behenafarrera</catDesc></category>
+            <category id='E-ERR'><catDesc>erronkariera</catDesc></category>
+            <category id='E-GIP'><catDesc>gipuzkera</catDesc></category>
+            <category id='E-GNA'><catDesc>goi nafarrera</catDesc></category>
+            <category id='E-LAP'><catDesc>lapurtera</catDesc></category>
+            <category id='E-NAF'><catDesc>nafarrera</catDesc></category>
+            <category id='E-ZAR'><catDesc>zaraitzuera</catDesc></category>
+            <category id='E-ZUB'><catDesc>zuberera</catDesc></category>
+        </taxonomy>
+    </classDecl>
+  </encodingDesc>
+  <profileDesc>
+     <textClass>
+       <keywords scheme='generoa'>
+         <list><item>G-ERL</item></list>
+       </keywords>
+       <keywords scheme='garaia'>
+         <list><item>M-19-1</item></list>
+       </keywords>
+       <keywords scheme='euskalkia'>
+         <list><item>E-BIZ</item></list>
+       </keywords>
+     </textClass>
+  </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>Esku-liburua -- Pedro Antonio Añibarro</docTitle>
+    </front>
+    <group>
+      <text>
+        <body>
+<p>BIZI BEDI Yesus</p>
+<p><hi rend='Bold'>ESKU-LIBURUA,</hi></p>
+<p><hi rend='Bold'>eta berean</hi></p>
+<p><hi rend='Bold'>EGUNEANGO</hi></p>
+<p><hi rend='Bold'>Kristi&ntilde;au-zeregi&ntilde;ak.</hi></p>
+<p>A. Fr. Pedro Antonio A&ntilde;ibarrok,</p>
+<p>Zarauzko Kolegioko A. San Franziskoren</p>
+<p>Ordeako Misi&ntilde;o-gilleak</p>
+<p>Bizkaiko euskeran iminiak.</p>
+<p>URTETEN DAU BIGARRENEZ.</p>
+<p>Bear dan legez.</p>
+<p><mentioned>Tolosan, Don Franzisko la Lama Liburu-gillearenean.</mentioned></p>
+<p><mentioned>1821garren urtian.</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>SART-AURREA</hi></p>
+<p>Irakurle maitea; ondo dakizu zuk, eta ezta ezdakianik, liburu santuen irakustzerik arimari sortu ta etorri yoakezan onura, irabazi ta zorion ugari-gozoak. Eztabe neurririk, eta ezin esan lei liburu on orrek zeinbat bekatari gaixo, Deabruaren eskuperik, eta bere agintza gogor gogaikarririk, edo orretarako bide labanerik aterata, ekarri izan dituezan ondutera, eta zerurako bide artezean ibiltera. S, Inaziok, Santa Teresak, San Yoan Kolunbanok, beste milla ta milla askogaz batera, egiaztuko dabe nik di&ntilde;odan gauza au.</p>
+<p>Bai beintzat, liburu santuak dira zeruko su ederra biotzean biztuteko su-arri ta kaltzeru alazokoak; dira su ori azi ta eukiteko su-garria. Liburu santuak dira arimeari oraingo gau illunean bidea erakusteko zuzi argiak; dira arerio okerrak astindu, goiberatu ta apurtuteko esku arma zorrotzak. Emeri agiri da euren bearra. Bada, zelan bistu ta euki biotzeko su santua liburu on bagarik? Zelan alde egin illunetako or-emen yausteak ta plaustadak euren argia bagarik? Zelan azpiratu arerio itzal, artoso ta asmutsuak liburuen indartasuna bagarik? Ay! oneek, nekez egingo direan gauzak dira.</p>
+<p>Orra bada zegaiti yakinik bateti Bizkaiko erritar maiteen gei onaren barri, eta onetariko asko misi&ntilde;o ostean irakurten ikasten asten direala; biotza ausirik besteti Bizkaiko euskeran doktrinako libru apurrak ba&ntilde;o besterik ikusten ez nabalako;.eta uste izanik beste bateti arima asko, liburu santuen bitartez Yaungoikozkoak izatera elduko litzatekezanak, euren yakin-eza itsuagaiti datozala Deabru okerraren adu gaiztoko agindupekoak izatera; gogoari emon neutsan atrapau ta yadietsi al neikezan astiune ta era-aldiak, erle egille aituaren antzera emon bear nituzala; eta onek lorarik lora batuten daben legez eztia ta argizagia abai gozoa egiteko, alantxe nik bere egin bear nituzala aleginak, liburutxu baten arimeen onerako batzandu ta alkartuteko, liburu askotan zabaldurik eta deslai legez dabiltzazan adi-bide, eskaari ta debozi&ntilde;o-garri bearrenak.</p>
+<p>Esan ta egin. Atera neutsuzan, bada, orain emeretzi urte danean <hi rend='Italic'>Esku-liburuan </hi>bat eginik eguneango kristi&ntilde;au zer eginak; goxereanik eta arratsera egin bear dozuzan gauzaak; egun bakotxerako gogarte santuak; mezentzuteko, konfesetako, gure Yauna artuteko, kurutzeetakoak eta errosario santua esateko, eta beste debozi&ntilde;o askotarako orazi&ntilde;o, eskaari eta egin-bideak. Zure, ta beste, erderarik eztakienen onerako, beste bagarik, artu nituzan, bai ta ondo gogo onez, salla edo arlo onetako egi&ntilde;enak.</p>
+<p>Etzirean nonbaite bere alperrak izan ene zelan-alango lanak; bada argiratu orduko, beingoan, arrapaka legez, saldu zirean liburu guztiak; ta arrezkero bere bakerik emon gura izan ez deuste, eske ta eske. Onetati artu izan dot barriro <hi rend='Italic'>Esku liburu </hi>au aterateko burutasuna. Eta onetan nabilela urten izan badau bere beste era onetako liburutxu polit batek, deritxot orregaiti eze, eta berak esango dau, eztala alperra izango ene au.</p>
+<p>Beinik bein yakina da, eta itsuak bere baakusde eze, i&ntilde;ori okerrik eztakarroiola. Eta leen ba&ntilde;o obexeago eta apainduxeago bigarren santxa onetan urten dagiantzat, esku-aldi barri bat emon izan yako. Baldin mesederen bat onetan egiten badeutsut, ezteutsut beste bearsaririk, ez beste eskerrik, eskatuten, ezpada aztu ez nagizula zeure orazi&ntilde;o eta eskabideetan. Azkenez esan bear deutsut eze liburu onetan ikusiko dozula batzuetan esaten dala <hi rend='Italic'>egizu, egidazu, egiozu, degizula, </hi>eta beste batzuetan <hi rend='Italic'>eikezu, eikedazu, eikiozu, deikezula. </hi>Lelengoak esaten dira gauzea ordu berean egin bearra danean; bigarrenak barriz geroago garrenean egin bearko danean. Alantxe esan daroe, baita ondo ba&ntilde;o obeto, gure Bizkaitar baserritarrak.</p>
+<p>Bizkaitar eurak erri apur batzuek, ez besteetan, Nafarrak, eta ara bere geiago Franziako euskaldunak esaten dabe <hi rend='Italic'>yan, yausi, yo, yagi; </hi>eta alan esaten ebeen antxina, eta antxina andi bagarik, euskaldun guztiak. <hi rend='Italic'>Ja je jia </hi>ez dabela euskerak berea, ta bai erderati erantsia, ao batez dirauskue Larramendik, Kardaberazek, Herbasek, D. Yoan Antonio Zamakolak, eta , berbabaten, gauzea ondo adituten yaken guztiak. Bada ondo danari, eta egin bear danari eutsi ta eutsi bear deutsagu. Agur onenbestegaz.</p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>BIZI BEDI YESUS</hi></p>
+<p><hi rend='Bold'>EGUNEANGO KRISTI&Ntilde;AU ZEREGI&Ntilde;AK</hi></p>
+<p><hi rend='Italic'>Goxean iratzarri ta bertati beste gauzatara gogoa emon bagarik, eregi eikezu Yaungoikoagana biotza, eta esan:</hi></p>
+<p>Yesus, Maria eta Yosepe, lagundu egidazue egun onetan. Angeru Gordetzallea, zaindu eta gorde nagizu gaur.</p>
+<p><hi rend='Italic'>Yagi zaitekez albait lasterren; ur bedeinkatua artu, zi&ntilde;atu, ta belauniko esan eikezu </hi>Neure Yauna Yesukristo <hi rend='Italic'>eta urrengo orazi&ntilde;o au:</hi></p>
+<p><hi rend='Bold'>ORAZI&Ntilde;OA</hi></p>
+<p>Irutasun Santua, Aitea, Semea, ta Espiritu Santua, gauza guztien egilla, yaun ta yaubea, zerutar guztiak bedeinka zagiezala zeure izate miragarria gaiti; ni ezer ezeti sortu, kristi&ntilde;au errietan azi, zure Semearen odolaz erosi, eta oraingi&ntilde;o itxaron, maitetu eta laztan izan nozulako; baita bere zure ontasun oxin baakoak niri, eta gisakume guzti guztiai eginiko mesede neurri baakoak gaiti.</p>
+<p>Biotz guztirik esker onak emoten deutsudaz barko arrats illuntzerik egun sentiko argitara atera nozulako, zeure ontasunak, ta ez bestek, gorde ta yagon izan nau gaur gi&ntilde;o. Zeinbat, Yauna, zor deutsut onenbeste mesede gaiti?</p>
+<p>Ni bart il nintekean; berein il izango dira; gaur asko ilgo dira; eta bear bada ni aurrengo. Ay! eztakit nik, elduko banas gaubera; agaiti bada ondo emon gura dot egun au. Bai, ze egunik asko yoan yataz alperrik eta utsik!</p>
+<p>Onetarako, Yauna, opa deutsudaz orain ganik gaurko ene gogo, berba, guraari, bear, neke, eta egikune guztiak, eta eurakaz batera eski&ntilde;iten deutsudaz, negarrezko erri onetan erbesteturik nagoan arteko, nire egite on guztiak; elexa santaan egingo direanakaz, eta Yesukristoren merezimentu irabaziakaz batera.</p>
+<p>Iminten dot gogoa gaurko parkamen guztiak irabazteko ene bekatuen zorren alderako, eta purgatorioko arima santuenen kitugarritzat.</p>
+<p>Esketan deutsut, Yaun errukiorra, arren zuzendu dagizuzala gaur da beti ene gogo, asmu, eta lan guztiak; alderatu nagizu ofendidu zinaidazan oker bideetarik; eta parkatu yausten banas argaltasunez, yakinezaz, edo neure guraari txar, eta ekandu gaistoen indarrez.</p>
+<p>Lar-bere sarri yausi izan nas orain artean; damu dot biotz guztirik; parkeska nagotzu; ta emoten deutsut betiko berba zindo benetakoa, ez gaur eta ez i&ntilde;os bekatu egiteko, eta biziera barri bat artuteko. Alan gerta dedila. Amen.</p>
+<p><hi rend='Italic'>Esaizu Kredoa.</hi></p>
+<p><hi rend='Bold'>AMA BIRJI&Ntilde;EARI ORAZI&Ntilde;OA</hi></p>
+<p>Zeru-lurreko Erregina, Yaungoikoaren Ama maitea, ta bekatarien bitartekorik laztanena; zeure bearra dot egun onetan; artu ta estalpetu nagizu zeure egapian; arteztu egizuz nire egikeraak; zuzendu nire ibileraak; gorde nagizu ondamendi ta galbideetarik; eta erregutu egiozu bekatari andionegaiti zeure biotzeko Semeari; eskatuten deutsazula arren nire erruki izan dedila, eta ondo artuak izan ditezala bere aurrean ene gaurko lan, esa egite, neke ta bear guztiak, ene bekatuen zorren alderako, bere gloriarik andienerako, eta neure lagun urkoen onerako. Amen.</p>
+<p><hi rend='Italic'>Abe Maria eta Salbea.</hi></p>
+<p><hi rend='Bold'>ANGERU GORDETZALLEARI ORAZI&Ntilde;OA</hi></p>
+<p>Ene arimako zain eta gordetzallea, Yaungoikoaren Angeru ederra, ene negarrezko erbeste onetako lagun ta yagola maitea. Sortu nintzanik ona zabiltz zeu nire laguntzan; berein esker eta mesede zor deutsudaz.</p>
+<p>Aurrera eroan egizuz, bada, gaur bere nigazko ardura alegi&ntilde;ezkook; urrindu egizuz niganik arerio gaistoak; azpiratu deabru madarikatuak; banatu bere sareak, lakioak, amu eta asmuak.</p>
+<p>Bizkortu nagizu, banakutsu nagi epelik, adierazo eta ulertu eragidazu zer egin, eta zer itxi bear dodan Yaungoikoaren borondatea egiteko; gaurko egun au ondo emoteko; ta eriotza-gi&ntilde;o bere grazian ta bakean irauteko. Amen.</p>
+<p><hi rend='Italic'>Aita gurea eta Abe Maria.</hi></p>
+<p><hi rend='Bold'>NEURE IZENEKO SANTUARI ORAZI&Ntilde;OA</hi></p>
+<p>Neure izeneko <hi rend='Italic'>N. </hi>Santu andia! Zeure izen miragarria emon eusten bateoan, zu ene moldea izanik, yarraitu negioentzat zeure bizitza, birtute, egite ta santutasunari.</p>
+<p>Izan zaitez, bada, gaur ta beti Yaungoikoaren aurrean bitarteko neurea; yagon eta gorde nagizu estukuntza eta oker-bide guztietan; bada ni orain-ganik asiko nas zeure antzera biziten lurrean; izan artean zeure lagun zeruan. Amen.</p>
+<p><hi rend='Italic'>Aita gurea eta Abe maria.</hi></p>
+<p><hi rend='Bold'>EGUN ATAKO SANTUARI ORAZI&Ntilde;OA</hi></p>
+<p>Egun onetako Santu biotzekoa! zeruan ta lurrean gordeten da gaur zeure egun andia. Gaur Elexa santuak iminten deustaz begien aurrean zeure umiltasun, nek-aldi, eta penitenzia arrigarriak, nire epeltasuna azkortuteko, eta neu zure antzera biziten ekarteko; orain zeure o&ntilde;atzai yarraiturik, egin dagizudantzat gero beti lagun zeruko glorian, Amen.</p>
+<p><hi rend='Italic'>Aita gurea ta Abe Maria.</hi></p>
+<p>Lan laburrok eginik zoaz mez entzutera. Bein bere ez uts egin meza santua, eta albaitanez barautan entzun; bada bein da arimea il ezina gorputz ustela baxen.</p>
+<p>Mezatara etsereanik urteten dozunean, uste izan eze Kalbariora zoazala, Yesukristo ilten ikustera; eta gogotan artu zelan Angeru Gordetzalleak daroian zeure mezatarako pausuen kontu ederra.</p>
+<p>Sartu zaitekez Elexan ikara lotsazkoak; begitandu bekizu zeruan bertan zagozala. Ez albora adi egon, ze bein baten Deabruak belar-ondoko eskerga bat omon ei eutsan albora begira egoan bateri. Begira Yaungoikoaren aurrean zagozala, eta ez aaztu bear bada egunen baten Elexa onetara ilik ekarriko zaituezala.</p>
+<p>Onezaz ostean edo Elexan edo etsean, ereak aginduten deutsunean, euki eikezu egunean egunean zeure gogarte edo adimentuzko orazi&ntilde;o apur bat. Ta ori errazago egiteko, ara emen egun bakotxerako gogarte edo meditazi&ntilde;o batzuk.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>ILEKO EGUN BAKOTXERAKO</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>atzerengoen ganeko gogarte laburrak,</hi></p>
+<p><hi rend='Bold'>Aita Yoan Pedro Pinamonte-enetarik euskeraratuak</hi></p>
+<p><hi rend='Bold'>SART-AURREA, ETA ORAZI&Ntilde;O EUKITEKO</hi></p>
+<p><hi rend='Bold'>ADIBIDEAK</hi></p>
+<p>Iru gauza dira orazi&ntilde;o eukiteko geien bear dozuzanak; aurretiko prestaerea, gogartea, eta biotzeko berba aldia. Ara emen irurok bein banatan.</p>
+<p><hi rend='Bold'>PRESTAEREA</hi></p>
+<p>Gogora ekazu zer zarean zu, eta zer Yaungoikoa; zure ezereztasun billau prestueza, eta Yaungoikoaren izate miragarria. Egon zaitekez bere aurrean fede bizi, biotz-erexegin eta umiltasun andi bategaz, eta errudun baten bildur-ikara guztiagaz. Esaka zakikioz argitu dagizula burua berotu biotza, ta zolitu gomutea, bear dan legez igaroteko, irakurtera zoazan gogartea. Eta oneri esaten deutse <hi rend='Italic'>Prestaerea.</hi></p>
+<p><hi rend='Bold'>GOGARTEA, EDO MEDITAZI&Ntilde;OA</hi></p>
+<p>Gogotan astiro astiro erabili eikezuz, eta bein banaan, eta bakotxa berez ausnartu irakurten dozuzan berba guztiak. Begira ea zure bizi-erea bada gogarte onek dirautsuen modukoa, edo ea zelan bizi zarean; arakatu eikezuz zeure biotzeko baster guztiak; ea zetan geien uts egin daroazun; zek yausi eragin, ta zek geiago lotuten zaituzan arako ekanduzko bekatuan; eta oneri esetsi zakikioz arik eta agertu eta azpiratu artean zeure ekandu txar, guztien artean geien burua erakutsi bear izaten dabena, eta ebagi artean bere sustrai gaisto, oker, gatx guztien iturburua. Eta oneri esaten yako <hi rend='Italic'>Gogartea.</hi></p>
+<p><hi rend='Bold'>BERBA-ALDIA EDO KOLOKIOA</hi></p>
+<p>Biotzerik eta gogo gogorik gorrotadu eikezu orain gi&ntilde;oko zure bizitza deungea; damutu bekatu egina, eta yosi eikezu zeure ariman, aurrerantzean zure bizitzea (gogarte irakurriak darakutsun legez) onduteko gogo zindo bat.</p>
+<p>Geroenean erregutu eikiozu Yaungoikoari, bere Seme Yesukristori, Ama Birjineari, Angeru Gordetzalleari, eta zeure Santu artuai lagun dagizuela frutu eta onura ugari ederrak orazi&ntilde;orik aterateko; ez ostera bekatura biurtuteko; ekandu txarrak aztuteko; lagun deungeetarik alde egiteko; negarrakaz bekatuak garbituteko; eta biziera on baten eriotza-gi&ntilde;o irauteko. Eta oneri deritxo <hi rend='Italic'>biotzeko berbaldia.</hi></p>
+<p><hi rend='Bold'>BESTE YAKIN BEAR BATZUK</hi></p>
+<p>Gogarte onek doaz gizonen azkenengoen ganean; bada oneek gogotan badarabiltzuz, etzareala bekatuan yausiko dirautsu ondo dakian Yaungoikoak berak. Yesukristo gaiti erregututen deutsut, arren, gitxienez egunean ordu laurentxu emon dagizula lan santu onetan; ze bear bada, beratan dago zure betiko zorion, edo zorigaisto guztia.</p>
+<p>Gogarte oneetarik batek edo batek zeure biotzean eraso andiagoa egiten badeutsu, ekin eta ekin berari; eta ez orduan ez eze, baita biaramonean ta biaramon askotan bere. Alan irakasten dau san Inazio asko yakinak.</p>
+<p>Buruzko eginenetan egotaldi guztia emon bagarik, igaro zaitekez biotzekoetara. Gorrotau bekatua; emon Yaunari esker onak bere ontasunak zuri eginiko mesedeakaiti; ezi gorputz gaistoa; ukatu zeure buruaren lar gura eta asko erexiari; aaztu lurreko ondasun uts guzurrezkoak; artu bekatu guztien damutasuna ta garbaia; eta zeure bizitzea obatuteko gogo zoli zindoa; ara emen zure lanerako arlorik eta sallarik ederrena.</p>
+<p>Eskariak egin eikiezuz, baita sarri Yaungoikoari, Yesus biotzekoari, bere Ama maiteari, zure Angeru yagoleari, eta zure Santu Santa artuai argitu zagientzat, lan onetarik onen bat aterateko.</p>
+<p>Gogarte osterako esango dan frutua ezta bai izango egun guztietan; orregaiti bere i&ntilde;os asmetan badozu, ak edo besteak gar geiago emoten deutsula, izkune txarren bat garbituteko, edo onen bat artuteko, zakikioz orreri biar, etzi, etzidamu, eta bear bada ile guztian, baderitxazu, ori izango dala Yaungoikoaren ondrario andienerako, eta zeure arimearen onerako.</p>
+<p>Egunen baten orazi&ntilde;oa luzatuteko astirik ezpadozu, irakurri eikezu edolanbere iru edo lau bider egun atako gogartea. Eta astiro orazi&ntilde;oan zagozanean, badabiltzu or emen deslai gogoa, ez itxi esku arterik liburutxu au; beti bere barriro irakurri leengo gauzea; orregaz lotuko dozuz zure gogorazi&ntilde;o arin eroak.</p>
+<p>Espiritu Santu Yaunak argitu eta lagundu daizula; ta eskatu eikiozu berari zu eta biokaiti.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>ILEKO EGUN BAKOTXERAKO</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>atzerengoen ganeko gogarte laburrak</hi></p>
+<p><hi rend='Bold'>LENENGO EGUNA</hi></p>
+<p><hi rend='Italic'>Ze ardurazko lana dan salbazi&ntilde;oa</hi></p>
+<p>I. Nire eginenik bearrena da neure salbazi&ntilde;oa. Baldin nik bere ardurarik ez padaukat, nok eukiko dau nigaiti?</p>
+<p>II. Ain da andia lan ta zeregin au eze, berean yoat nasan guzti au; ene arimea, ta ene gorputza. Nik yaramoten ezpadeutsat, nok aituko deutso nigaiti?</p>
+<p>III. Da zeregin bat, zeinetarik yatortan beti betiko zorion guztia. Nik galduten badot, nok irabazi leit?</p>
+<p>Bada, zer egiten dot? Nora adi nago? Zelan guzti au urtuten ez nas neure arimea salbetearren? Ez dot neure arima bakar au baxen maiteago izan bear dodan gauzarik; eztaukat arima il-ezin au baxen balio andiagoko ondasunik; bein galtzen badot, guztia betiko galdu neban.</p>
+<p><hi rend='Bold'>FRUTUA</hi></p>
+<p>Opa ta eski&ntilde;i egiozuz Trinidade txito santuari Birjina Ama Mariaren, Angeru Gordetzallearen ta egun atako Santuaren eskuz, eta bitartez zeure biotz, asmu, gogo, berba eta egikera guztiak, izan daitezantzat Yaungoikoaren gloriarik andienerako eta zeure arimearen onerako.</p>
+<p><hi rend='Italic'>Esaizu iru bider </hi>Gloria Aiteari.</p>
+<p><hi rend='Bold'>BIGARREN EGUNA</hi></p>
+<p><hi rend='Italic'>Eriotzearen ganeko yakinezak</hi></p>
+<p>Erabagirik dago, ta ni ilgo nas.</p>
+<p>I. Baia eztakit nos; il ninteke oraintxe, ordu onetan berean.</p>
+<p>II. Baia eztakit non; il ninteke oker-bide, edo era-aldi deungaren baten.</p>
+<p>III. Baia eztakit zelan; il ninteke bekatu mortalean. Eta, onen erorik edaten dodaz ur otza legez zarra zarra bekatuak? Eta, onen erraz biurtuten nas atzera leengo okerrerietara? Ze sinismen, ta ze zentzun da nirea? Ay ze sor gorturik nagoan!</p>
+<p><hi rend='Bold'>FRUTUA</hi></p>
+<p>Ebatsi egizu, orain-ganik ondo emotea enparetan yatzuzan egunak, baita zer egin bearko dozun ordu bakotxean. Bear bada zuk alperrik galduten dozun ordu ori, izango dozu zure azkenengo ordua; edo ameneko ordu orrek, ondo emonik, ekarri leikezu betiko zeru ederra.</p>
+<p><hi rend='Bold'>IRUGARREN EGUNA</hi></p>
+<p><hi rend='Italic'>Eriotzearen barri bildurgarria</hi></p>
+<p>Uste uste bagarik beingo baten ilten ezpanas, elduko da eguna, zeinetan esango yatan presta nadila ondo ilteko.</p>
+<p>I. Eta orduan, eukiko dot burua konfesetako, gatxagaz indargeturik eta konorte on bagarik ozta ozta egongo banas berba egiteko?</p>
+<p>II. Larriturik, bildur-ikaraturik, adorebagarik eta kokortoturik egongo nas; eta, izango dot burua bekatuak gomutetako?</p>
+<p>III. Nire biotza egongo da bekatuen sareakaz eta lokarriakaz nasturik, eta alde guztietati katigu; eta, egongo da bekatu orren benetako damua, ta ez geiago egiteko gogoa artuteko? O ene Yaungoikoa! ta, zer egingo dot nik orduan?</p>
+<p><hi rend='Bold'>FRUTUA</hi></p>
+<p>Leen eginda ezpadozu, egizu orain era batera bekatu guztien konfesi&ntilde;o jeneral egiazko bat, barriztetan dozuzala zure bizi guztiko konfesi&ntilde;oak; eta leen egi&ntilde;ik badozu, egizu geroenengorik onakoena. Garbitu egizuz zeure arimako kontuak; ta konfesi&ntilde;o on, on baten bidez ixildu zeure biotzeko kezka ta errenkura bildurgarriak. Autu ta artu eikezu konfesore albait onena; eta ez galdu zeure bizitza gaistoa onduteko Yaunak opa deutsun abegune eder au.</p>
+<p><hi rend='Bold'>LAUGARREN EGUNA</hi></p>
+<p><hi rend='Italic'>Eriotzarako prestaerea</hi></p>
+<p>Zer litzateke ondo nik egitea, eriotza on bat eukiteko?</p>
+<p>I. Ordu atan, egin izan baneu, gurako dodana.</p>
+<p>II. Ordu atan ezin egingo dodana.</p>
+<p>III. Ordu atan, salbaduko banas, gura ta gurez egin bearko dodana; neure bekatuen damuari oso, eta garbai zoli bat; aurrerantzean bekatura biurtu ez eiteko gogo zindo zindo bat.</p>
+<p><hi rend='Bold'>FRUTUA</hi></p>
+<p>Ardura andi bategaz arteztuko dodaz gaurko nire esa-egite guztiak atzeneko eguna baneu legetxe; negarrez urtuko dodaz nire bekatu eta gaistakeria ezainak; eta artuko dot gaur geiago ene bizitzea onduteko asmu egiazko bat.</p>
+<p><hi rend='Italic'>Aita San Yoseperen onrarik andienerako zazpi bider </hi>Gloria Aiteari.</p>
+<p><hi rend='Bold'>BOSTKARREN EGUNA</hi></p>
+<p><hi rend='Italic'>Ilteko dagoanaren esturaak</hi></p>
+<p>I. Igaroak larrituten dau; ainbeste bekatu negar eginbaakok.</p>
+<p>II. Ordukoak bildurten dau; dakus bere burua kondenetako arri labanaren ganean; eta eztaki zelan urtengo daben galbide atarik.</p>
+<p>III. Gerokoak ikaratuten dau; aurrez aurre iminten yako andiko aldeko betiko bizitzea, ta eztaki gertako yakonez zerua ala infernua. Santurik andiena ikaratuten da ordu garratz atan; zer egingo dot bada nik bekatari galdu onek?</p>
+<p><hi rend='Bold'>FRUTUA</hi></p>
+<p>Asmetan badozu zeure arimaan bekatu mortalen bat, berbertati, geiago luzatu bagarik, konfesa zaitekez gaur; eta bazagoz Yaungoikoaren grazian, berari esker andiak emoiozuz mesede eder onegaiti.</p>
+<p>Eskatu egiezu Yaunari, eta Ama Birjineari arren onean eriotzara gi&ntilde;o iraun erazo deizuela.</p>
+<p><hi rend='Italic'>Esaizu gaur Ama Birjinearen Letania.</hi></p>
+<p><hi rend='Bold'>SEIGARREN EGUNA</hi></p>
+<p><hi rend='Italic'>Atzerengo arnasea</hi></p>
+<p>I. Atzerengo orduan urtengo dau arimeak gorputzerik, eta itxiko dituz bein betiko aren gozoak eta atsegintasunak.</p>
+<p>II. Ordu atan galdu zirean emeko andi izateak; yoan tzirean ondasunak; alderatu zirean adiskiderik kutunenak.</p>
+<p>III. Ordu atan galdu ninteke beti betiko. Oraingo ordu au baneu nik ene atzenengo ordua, zer izango ete liteke nigaz? O memento ikaragarria, zeizetarik dagoan eskegita, dingilizka legez, baten betiko zori-ona edo zori-gaistoa!</p>
+<p><hi rend='Bold'>FRUTUA</hi></p>
+<p>Ordurik ordu zeure bururari kontu artu eikiozu, eta ikusi ea zelan eta zetan emon izan dozun aurrengo ordua. Alantxek egite'eban San Inaziok. Eta egin tzaitez erloiuak yoten daben bakotxean <hi rend='Italic'>Abe Maria </hi>esaten, parkamenak irabazteko.</p>
+<p><hi rend='Bold'>ZAZPIGARREN EGUNA</hi></p>
+<p><hi rend='Italic'>Arimea Yaungoikoaren aurrean</hi></p>
+<p>Ilteagaz bat-batean agertuko da ene arimea Yaungoikoaren aurrera bere bizi guztiko kontu zeatza emoten.</p>
+<p>Kontu egin daidan bada oraintxe dakusdala oearen o&ntilde;etati.</p>
+<p>I. Yesukristo yuez aserre gogor bat legez, nire kontra; eta etorri izan dala niri betiko sentenzia emotera.</p>
+<p>II. Dakusdala ezkerreko aldeti Deabru madarikatua pozarren ozta; liburuto andi tzar bategaz eskuetan, zeinetan darakusdazan banaan banaan, eta bakotxa berez ene bizi guztiko gaistakeriak eta okerkuntza eskergaak.</p>
+<p>III. Eskoako eskutara barriz dakusdala Angeru Gordetzallea, biotza ondo ilik daukala, eta liburutxo pitin baten erakusten deustazala nire egite on labur ezerezak. O ze ikusgarri tristea! O ze larritasuna!</p>
+<p><hi rend='Bold'>FRUTUA</hi></p>
+<p>Gaur gabean oean zatzazala, zagoz tanga baten azkenengo arnasakaz yoan aginean dagoan baten antzera; eta begitandu esku baten dozula Santokristo bat, eta bestean kandela exetua. Biztu onetan zeure biotza; eta esan eikezu zeure artean; <hi rend='Italic'>bada auxe balitz ene atzerengo ordua, zer gurako neunke nik eginik euki?</hi></p>
+<p><hi rend='Bold'>ZORTZIGARREN EGUNA</hi></p>
+<p><hi rend='Italic'>Yaungoagaz gizonaren arteko yudizioa</hi></p>
+<p>I. Kontu zeatz-arteza artuko deuste ene gogo, berba, eta egite guztiena. An agertuko dira niri esesten eta ni salatuten, ni deungerako puztu, edo okerrerako gantza niri emoten eusten Deabruak; antxe nik galdu nituzan lagunak; eta antxek Yaungoikoak niri emon, eta nik erantzun ez neutsen ainbeste argi-aldi eder, dei gozo, eta zemakuntza bildurgarri.</p>
+<p>II. Yueza izango da guztizko zuzena, zorrotza, eta errukibagea. Bere aurreti egin nituzan nik gaistakeria guztiak; berak ikusi, entzun eta aditu zituzan direanak.</p>
+<p>III. Bein emoniko sentenziari etxako bere bizian ukutuko. Ezta an izango gauzeen edergarririk, ez atxakia onik, ez berba egin leikean bitartekorik. O betiko zeruko bizitzea, edo betiko infernuko eriotzea! Eta... zelan bizi nas ni!</p>
+<p><hi rend='Bold'>FRUTUA</hi></p>
+<p>Ezpekizu burutarik kendu egun guztian Yesukristo yuez aserratuaren gogoa; eta gauzaren bat egin edo esan ba&ntilde;o leen, esaikezu zeure artean; eta, ze sentenzia zorko yako, orain egitera noian gauza oneri? Oera baxen leen esaikezu iru bider; <hi rend='Italic'>Ama graziazkoa, Ama errukizkoa, gorde gaizuz eriotzako orduan, Amen. </hi>Eta mun egiozu beari.</p>
+<p><hi rend='Bold'>BEDERATZIGARREN EGUNA</hi></p>
+<p><hi rend='Italic'>Arimea eriotza ostean</hi></p>
+<p>I. Emoten baiako zerurako sentenzia, igongo dau zerura arimeak Angeruen laguntzan, gloriaz yantzirik, birtutez aberasturik, eta apainduraz ederturik. Nok gogotan artu arimearen orduko poza? O ze gozotasuna beintzat berea!</p>
+<p>II. Infernurakoa barriz bada emoten yakan epaia, billostu ta erontziko deutsez arimeari birtute, doe, eta edergarri guztiak; yasoko dabe Deabruak, ta ondatuko dabe beingo-beingo baten infernuko su-garretan. O zori-gogoreko bekatuak beintzat! O ze larritasun itzala arima batena, ikusten dabenean bere burua suzko toki garra ta garra darion onetan!</p>
+<p>III. Epai bi oneetarik bata edo bestea nai eta naiezean, emongo yako bakotxari. Zein izango ere da, bada, niri emongo yatana?</p>
+<p><hi rend='Bold'>FRUTUA</hi></p>
+<p>Arratsalde onetan esamina konzienziakoa egin ezkero, egizu zeure artean ea zetan emon izan dozun bizitzea; eta ze sentenzia bearko zendukean orain-gi&ntilde;okoa gaiti; eta zein izango zendukean, gaurko egun onetan, oera ba&ntilde;o leen emon bearko balitxazu.</p>
+<p><hi rend='Italic'>Aita gurea bein eta iru gloria Aiteari Trinidade Santuari bekokiz zelaian etxun da.</hi></p>
+<p><hi rend='Bold'>AMARGARREN EGUNA</hi></p>
+<p><hi rend='Italic'>Gorpu ila</hi></p>
+<p>Kontu dakutsala zeure burua gorpu kaxa zuriaren ganean.</p>
+<p>I. Zelan dago? Ay! Guztiz ikaragarri, bellegi, ezain, ta zur bat legez gogor-gogor datzala. Eztakus, eztantzu, eztabil, eztau zirkinik ez txitik egiten. Bakarrik dago, i&ntilde;ok yaramon eta ikusi gura bagarik.</p>
+<p>I. Zegaz meztidu eta yanziten dabe? Ilyantzi zantar eten bategaz, edo abitu zar bategaz. Ain dago ikaragarri eze, guztiak dabiltz bera ganik igesi; i&ntilde;or ezin egon da bere alboan; otza gogorrean dauko nok lurr-emon.</p>
+<p>I. Nora daroe? Elexara, Sazerdoteak lagunduten deutsela; oneek orazi&ntilde;o batzuk esan ezkero, sartuten dabe lurpean; antxe ondo ondo sakatu ta ostikopeetuten dabe ardura bagarik, bertan usteldu, arrak yan, lurtu, eta austu dedintzat; ta itxirik an bakar bakarrik, bakotxa doa bere zereginetara. Ta, gorputz au nabil ni apaindu ezinik? Eta, gorputz oneri nabilko ni naieraak eta mizkeriak egiten? O itsumen gogorra! O erakeria latza neurea!</p>
+<p><hi rend='Bold'>FRUTUA</hi></p>
+<p>Zoaz gaur Elexa batera, ta Yesus Sakramentadua adorau ta, geratu zaitekez auspez sepultura baten ganean, eta esaikezu bost bider; Ay bada! Egunen baten etse onetara ekarriko dabe ene gorputz au, bertan usteldu eta arrak yateko.</p>
+<p><hi rend='Italic'>Esan egizuz orazi&ntilde;o batzuk purgatorioko Arimeen onerako.</hi></p>
+<p><hi rend='Bold'>AMAIKAGARREN EGUNA</hi></p>
+<p><hi rend='Italic'>Neure bizitzako prozesoa</hi></p>
+<p>Neure bizi nasan arteko egite guztiak eskribietan dira prozeso baten, eta elduko da eguna, zeinetan irakurriko yatan guztia erabatera.</p>
+<p>I. Irakurriko yat egin bear ez, eta alanbere egin neban okerreria.</p>
+<p>II. Irakurriko yat egin al neunkean, eta egin eneban on guztia.</p>
+<p>III. Onen guzti onen ganera yoko dau azkeneko sentenziak. Baia, ze sentenziak? Ay! Neuk orain ene egiteakaz irabaztan dodana.</p>
+<p><hi rend='Bold'>FRUTUA</hi></p>
+<p>Begira-aldi bat egiozu zeure igaroriko bizitzeari; eta gogora ekazu zeinbat gauz on lotsaz, bururari eretxiz, eta gizonen ederra eukitearren egin bagarik itxi dozuzan; zeinbat aldi eder emon dozuzan alperrik eta ezerezean, eta zeinbat bekatu ikaragarrizko egin dozuzan. Negar egizu guztien ganean, eta asi zaitez benetan bizitza on bat egiten.</p>
+<p><hi rend='Italic'>Esaizu Aita gurea bat.</hi></p>
+<p><hi rend='Bold'>AMABIGARREN EGUNA</hi></p>
+<p><hi rend='Italic'>Penitenziako akullua eta zirikadak</hi></p>
+<p>Bekatu egin badot, lepoan daukat gura eta gurezko penitenzia egin bearra; ezta alan? Baia, ta, nox egingo dot?</p>
+<p>I. Eriotzea ezkero ezin egin nei, zegaitik eze ya yoan yatan ori egiteko aldia.</p>
+<p>II. Eriotzan ezta erraz egiten, bada asti gitxi dago orduan, eta oraindo gogo eta ganora gitxiago.</p>
+<p>III. Oraingoxe au ba&ntilde;o beste era, aldi eta abegunerik eztaukat nik enen eskuan. Bada alan, edo orain egin penitenzia; edo bildur izan bear nas, ene bizian egingo eztodala.</p>
+<p><hi rend='Bold'>FRUTUA</hi></p>
+<p>Emon eikiezuz guztiai onerako burubideak eta gantza; ta egizu zu-gan dagoana bekatariak onduteko zure berba, erregu, eta esa-egite onakaz.</p>
+<p><hi rend='Italic'>Esaizu bost amarrekoko errosarioa, eta biotzerik eskatu egiozu Birjineari, arren zure erruz i&ntilde;or galdu eztedila.</hi></p>
+<p><hi rend='Bold'>AMAIRUGARREN EGUNA</hi></p>
+<p><hi rend='Italic'>Yudizio aurreko ikusgarri itzalak</hi></p>
+<p>Fedeak darakusku, eta Yesukristok esan euskun Yudizio aurreti izango direala ikusgarri txitozko itzalak.</p>
+<p>I. Izango dira bada asko eta andiak. Eguzkia ilunduko da; ilargia odoldu; izarrak beera yausi; itxasoak andien andiz ganez eginda, erri zabal luzeak ondatuko dituz; lurra ikaratu-ta alde askotan etenduko da; izango dira aserreak, gerraak, alkar ikusi ezinak ta gorrotoak.</p>
+<p>II. Izango dira oneek, munduan usterik gitxien danean; munduan bekaturik geien danean; eta munduak onduteko astirik izango eztabenean.</p>
+<p>III. Izango dira ikaragarriak; yausiko da zeruti suzko ibai bat, zeinek erre bearko dituzan gizonak, abereak, zugetzak, uriak, erriak, yauregiak, etseak eta ondasunak; berba baten, mundu ta mundutar guztiak, garauntxu bat bere itxi bagarik. O ze su, eta gar aserrea! Argirik eztauken abere mutuak eurak larri estuturik egongo badira orduan, zer egingo dabe bekatariak?</p>
+<p><hi rend='Bold'>FRUTUA</hi></p>
+<p>Iru gauza emon bear deutsazuz gaur zeure biotzari. Lenengoa Yaungoikoaren yustiziaren eta aserretasunaren bildur andi bat; bigarrena zeure bekatuen garbai zoli ta damu bizia; irugarrena barriz Yaunaren ontasun neurri bagaango esperantza berea. <hi rend='Italic'>Iru Aita gurea eta Abe maria.</hi></p>
+<p><hi rend='Bold'>AMALAUGARREN EGUNA</hi></p>
+<p><hi rend='Italic'>Gorputzeen biztuerea</hi></p>
+<p>Angeruak turrunta bildurgarriari ots eragin ezkero.</p>
+<p>I. Biztu eta yagiko da ene gorputz au datzan tokirik.</p>
+<p>II. Ene gorputz onegaz barriro batuteko, etorriko da ene arimea edo zerurik, edo infernurik.</p>
+<p>III. Gorputza eta arimea alkarregaz baturik, biak iraungo dabe betiko, i&ntilde;os il bagarik. Baia, eta, zelan? Edo betiko zori onekoak direala, edo betiko zori galdukoak. Zori galdukoak orduan, munduan bizi zirean arteko, olgura, solas, atsegintasun, ta erakeria zitelak! Zori-onekoak barriz, oraingo barau, neke eta penitenziak!</p>
+<p><hi rend='Bold'>FRUTUA</hi></p>
+<p>Emoikiozu gaur zure buruari nekeren bat, esaterako, baraua, zilizioa edo beste alangoren bat. Kendu, edo laburtu eikiozu atsegingarriren bat; edo yan gitxitxu, berbaak urri egin, begiak batu, edo alde egin biotza argituko leuskezun, lagun, toki eta ibilteetarik; ezi eikezu gorputz gaistoa, eta ebagi burua, arako ekandu deunga, zugan aginte geien izan, ta zure eten ta errakuntza guztien sustraia dozunari. <hi rend='Italic'>Iru kurutze egizuz mi&ntilde;agaz zelaian zeure berba deungaakaiti.</hi></p>
+<p><hi rend='Bold'>AMABOSTGARREN EGUNA</hi></p>
+<p><hi rend='Italic'>Yuezaren etorrerea</hi></p>
+<p>Yesukristo bizien eta ilen yueza yatsiko da bere Amaren, eta Angeru, Apostolu, ta zerutar guztien laguntzaan odoizko yarleku eder baten.</p>
+<p>I. Ene Egillea dan aldeti kontu estua artuko deust, eni eginiko mesedeena, eta eni emoniko doe guztiena; baita barriz nik, eskerbaako tzar onek, guztiak alperrik artu eta galdu nituzan.</p>
+<p>II. Ene gurasoa daneti kontu zorrotza eskatuko deust, eni eustan lastantasun ta askogurearena; eta enegan erakutsi eban ontasun neurribaakoarena; baita orretarako nik, lotsa galduko onek, orrei deungaro erantzun neuntsen.</p>
+<p>III. Ene erosla eta erredentore danez kontu gogorra artuko deust, nigaiti emon eban odol ugari baliotsuena; ta ni salbetako egin zituzan osterantzeko alegin ardurazkoena; barriz nik oker tzar onek sarri ta sarri zapaldu, ta o&ntilde; azpian erabili izan dot odol ori, eta gogortu natxake Yaungoikoaren aleginai.</p>
+<p><hi rend='Bold'>FRUTUA</hi></p>
+<p>Eroan eikezu gaur kurutze astun bat lepoganean, edo egon tzaitekez luzaro besoak zabalik edo erabili eikezu soka latz moropildu bat garria; edo egikezu beste laztasunen bat Yesusen pasi&ntilde;oaren izenean. Artu eikezu beti bere santokristo bat besartean, eta eskatu zakikioz Aita maite egiazkoari legez, arren zure erruki izan dedila, eta mun emon eikiezu guztiz samur bere llaga gozoai esanagaz bakotxari bein <hi rend='Italic'>Gloria Aiteari.</hi></p>
+<p><hi rend='Bold'>AMASEIGARREN EGUNA</hi></p>
+<p><hi rend='Italic'>Biotzen agermena</hi></p>
+<p>I. Bekaturik arinena ta ezerezena bere ezta geratuko ezkutuan azturik. Direanak an zabalduko dira; guztiak guztia entzungo dabe. Ay, ze lotsa gorrian ikusi bearko dodan orduan ene burua!</p>
+<p>II. Zeinbat gaistakeria zokondoetan eta basterretan eginak urten bearko dabeen an agirira! Zeinbat okerreria neure erruz aztuak eta yaramon ezak agertuko direan an! Zer erantzun nei nik orduan?</p>
+<p>III. Egin dodazan bekatu guztien aurrez aurre iminiko deustaz Yaungoikoak, berak niri eginiko mesede asko ta andiak; eta lotsatuko nau, nik ostikopean erabili neban bere odolagaz; deungaro artu nituzan sakramentuakaz; entzun, ta erantzun ez egin neutsen biotz deiakaz ta kisketadakaz. Ay, ta ze amorru gogorra eriongo yatan niri ordu itzal atan!</p>
+<p><hi rend='Bold'>FRUTUA</hi></p>
+<p>Bakartu eta ezkutadu zaitekez gaur Elexaren batera, edo etse barruan santokristo baten aurrera ordu lauren baten, edo geitxuago, eta an aratu ondo ondo zeure biotzeko bazter guztiak; eta gogora egikezuz zuk gogoz ta pensamentu utsez egin izan dozuzan bekatu estariak; eta begira, ondo egin dozuzanez orain arteko konfesi&ntilde;oak. <hi rend='Italic'>Espiritu Santuari burua argitu degizuntzat Kredo bat ta zazpi Gloria Aiteari.</hi></p>
+<p><hi rend='Bold'>AMAZAZPIGARREN EGUNA</hi></p>
+<p><hi rend='Italic'>Deungaak onen arterik ateretea</hi></p>
+<p>Mundu onetan alkarregaz batzandurik, eta nasturik bizi dira onak eta deungaak; il ezketi&ntilde;o bere toki baten lurpetuten dituez; baia yudizioko egunean ezta alan izango; zegaiti ze urtengo dabe angeruak, ta kenduko dituez deungaak onen arterik.</p>
+<p>I. Eskoatara egongo dira onak; eta bear bada nik orain ezetan ez daukadazan nekatutxu apal, mee asko.</p>
+<p>II. Ezkerretara egongo dira gaisto oker deungaak, eta ameneko nik nire erruz galdu eta nigaz nastean bekatu egin ebeenak.</p>
+<p>III. Eskoatara, ala ezkerretara egongo etenas ni?</p>
+<p><hi rend='Bold'>FRUTUA</hi></p>
+<p>Gaur ganik artu eikiezu debozino bero ta zoli bat angeru santuai, eta guztien ganeti Angeru gordetzalleari, egun ikaragarrizko atan deungeen arterik aterata, eskoatara eroan zagizantzat. Alan gerta dedintzat, entzun eikezuz orain ganik berak biotzera dirautsuzanak, eta egin beti ta beti bere esanak; eta erabili berak erakusten deutsun bidea. <hi rend='Italic'>Bederatzi bider </hi>Gloria Aiteari <hi rend='Italic'>bederatzi Angeru koruen izenean.</hi></p>
+<p><hi rend='Bold'>AMATZORTZIGARREN EGUNA</hi></p>
+<p><hi rend='Italic'>Atzerengo sentenzia</hi></p>
+<p>Alde eginik gaistoak onak ganik, emongo dau Yesukristok sentenzia.</p>
+<p>I. Sentenzia bat, bein-bere ezin ukutuko yakona.</p>
+<p>II. Sentenzia bat, emon da belan egin bearko dana.</p>
+<p>III. Sentenzia bat bein betiko izango dana. Betiko zorigaistokoa, bekatu egin da, i&ntilde;os damutu etxakonentzat. Barriz betiko zori onekoa, egu&ntilde;o bere bizian bekatu egin ez ebanarentzat; edo egin beeban bere, negarraz eta damu garbitu ebamarentzat.</p>
+<p><hi rend='Bold'>FRUTUA</hi></p>
+<p>Belauniko besoak zabalik esan egizu iru aldiz; <hi rend='Italic'>Nere Yauna Yesukristo; eta damu dot </hi>esatorduan, etxun zaitekez auspez lurrean; eta erazo eikiozuz zeure biotzari iru gauza oneek; lelengo humiltasuna, bigarren bekatuen damu zindoa, eta irugarren Yesukristori eskatutea, arren parkatu deizuzala zeure bekatu eta errakuntza guztiak.</p>
+<p><hi rend='Bold'>EMERETZIGARREN EGUNA</hi></p>
+<p><hi rend='Italic'>Denporearen balio andia</hi></p>
+<p>Balio andiko ondasun bat dozuz Yaungoikoak emoten deutsuzan egunak. Euren izpirik txikarrenak ainbat balio dau eze, berean irabazi lei batek bekatuagaz il eban arimea, eta galdu eban Yaungoikoa.</p>
+<p>Egiozu bada zure buruari:</p>
+<p>I. Zeinbat on egin neikean nik egun onetan, eta eztot egiten!</p>
+<p>II. Gaurko eguna igaroaz doa, eta eztot i&ntilde;os atzera ekarriko.</p>
+<p>III. Gaurko egun onen, eta ganeko egun, eta ordu guztien kontu zorrotza artuko deuste; eta alan da guzti, ain ardura gitxiz biziko nas? Ay ene zori gaistokoa deungaro emoten badodaz egun orreek!</p>
+<p><hi rend='Bold'>FRUTUA</hi></p>
+<p>Asi zaitez orain ganik ondo emoten zure egunak; egin ez galdutearren eurak opa deutsuen era ona; eta zerua irabazteko egarriaren andiz, ez alperrik yoaten itxi ezta dan apurrik txikienari bere. Orretarako, mezatan bazagoz, egon zaitekez lotsa onean, bazterretara begira ibili bagarik, eta gogoa bertan dozula; errosarioa esaten badozu, esaikezu albait debozi&ntilde;orik andienagaz; lanen bateri badaragoiozu, egikezu Yaungoikoa gogoan dozula, eta berari atsegin emotearren. <hi rend='Italic'>Esan eikezu bost amarrekoko errosario bat Ama Birjinearen ondran, mesedeak eskututen deutsazuzala.</hi></p>
+<p><hi rend='Bold'>OGEIGARREN EGUNA</hi></p>
+<p><hi rend='Italic'>Infernua</hi></p>
+<p>Zer da Infernua?</p>
+<p>I. Da presondegi, ta toki ilun, itzal, ikaragarri bat, zeinetan dagozan galdu madarikatuak estu esturik, kateakaz loturik, apur bateko bakerik, ez atseginik ez daukeela.</p>
+<p>II. Da susko etse bat, zein beti dagoan sutan ta garretan, bein-bere amatau bagarik.</p>
+<p>III. Da leku bat zeinetan ikusi bear direan asmadu alditekezan neke, gogortada, atsakaba eta alik gogorrenak eta aserreenak, i&ntilde;os ta i&ntilde;os ez gitxitu, ez arindu egiten ez tireala.</p>
+<p><hi rend='Bold'>FRUTUA</hi></p>
+<p>Ukutu egiozu eskuaz suari, edo euki egizu eskuko atz bat kandela exetu baten garretan, or, gitxienez <hi rend='Italic'>Abe Maria </hi>bat esaten dan bitartean; eta esan zure artean; <hi rend='Italic'>emeko suak, infernukoaren parean su usa&ntilde;a baxen eztan su onek, onelan erretan badau, bada, infernuko su benetakoak? </hi>O adugaistokoa beintzat, bere erruz an erretara datorrena! <hi rend='Italic'>Bost </hi>Abe Maria <hi rend='Italic'>Ama Birjineari.</hi></p>
+<p><hi rend='Bold'>OGETA BATGARREN EGUNA</hi></p>
+<p><hi rend='Italic'>Infernuko egotea</hi></p>
+<p>Zer egiten da infernuan?</p>
+<p>I. Ezaguguten da ze gatx andia dan bekatua, orain ain gitxi dazauguna.</p>
+<p>II. Beti ta beti egon bear da an atera ezinik, baita ondo gogor, eta bein bere atera bagarik, bekatuen zorrak, zeintzuk orain ain ardura gitxi emoten deuskuen.</p>
+<p>III. Antxe gorrotetan dira, eta betiko ta sekulako madarikatuten dira bekatu bide guztiak, zeintzuetarik orain aldendu gura ez garean. O zori gogorrekoa beintzat an sartzen dan bekataria! eta ze latz eta garratz egingo yakan ango bizi modu aserrea emen naroro ta gozaro bizi izan zanari!</p>
+<p><hi rend='Bold'>FRUTUA</hi></p>
+<p>Alde egin egizu bekatu-bideetarik; iges deungaroko o&ntilde;a emon leikezuen lagun, yoko, etse, edo beste edozein galbideti. Eskatu zakioz Yaungoikoari, emen erre, ebagi, edo naien dituzan nekeak erakutsi deikezuzala, gero infernura bota etzaikezan. Eta azkenik erregutu eikiezu Yaunari, eta Ama Birjineari bekatu mortalean datzazanak-gaiti. <hi rend='Italic'>Esaizu Maria Birjinearen Letania.</hi></p>
+<p><hi rend='Bold'>OGETA BIGARREN EGUNA</hi></p>
+<p><hi rend='Italic'>Inok eztaki salbaduko danez</hi></p>
+<p>I. Infernuan egon bear neban bekatu egin dodan ezkero; eta barriz eztakit nik Yaungoikoak parkatu deustanez.</p>
+<p>II. Oraindo yausi ninteke infernuan, bada barriro yausi ninteke bekatuan; eta egia esateko, eztakit nik yausiko banas ene burua arri labanaren ganean ikusita.</p>
+<p>III. Argiro dazaut, ondu ezik, betiko galduko nasana; bai ta orretarako eztakit nik eriotzea ba&ntilde;o leen onduko banas. Zer izango da nigaz, atzerengo orduan, elexakoak artu ta gero, leku emoten badeutsat gogotasun edo atsegin gaistoren bateri? Eta, nok esan leit, yausiko ez nasala, arako artean ain sarri yausteko lera gaistoa emoten izan deustan ekanduzko bekatuan? Zer izango da gero nigaz, au yazoten baiat? Ai! Betiko nireak egin eban.</p>
+<p><hi rend='Bold'>FRUTUA</hi></p>
+<p>Bekatu mortalean bazagoz, artu egizu gogo zoli zoli bat, konfesi&ntilde;o on bat egiteko. Zeure alegin guztiaz galdu eikezu ain sarri yausi eragiten deutsun izkune txar yarraitu ori, zeinek bear bada betiko gogortu eta ondatuko zaituzan. <hi rend='Italic'>Yoan zaitekez gaur Ama Birjinearen altara aurrera, eta esaikezuz iru </hi>Abe Maria <hi rend='Italic'>bere sortuera garbiaren izenean.</hi></p>
+<p><hi rend='Bold'>OGETA IRUGARREN EGUNA</hi></p>
+<p><hi rend='Italic'>Galduten dirianen pillo andia</hi></p>
+<p>I. Erraz da betiko galdutea, zegaitik eze guztiz zabala da infernuko bidea, eta asko ta asko bereanik dabiltzazanak. Alantxe di&ntilde;o Yesukristok.</p>
+<p>II. Gatx da salbetea, zegaitik eze estu bedarra da zeruko atea, eta gitxi ba&ntilde;o gitxiago andi sartuten direana. Kristok berak esana da auxe bere.</p>
+<p>III. Munduaren asierarik eta onako gizonik geienak galdu izan dira, ta santuak ao batez dirauskue eze, oraingoak bere geienak galduteko direala, geienak oker bizi dirielako. Nik ene burua-gaiti, zer esan nei? Ay! yakin ez.</p>
+<p><hi rend='Bold'>FRUTUA</hi></p>
+<p>Maian ukutu bere bagarik itxi eikezu arako gozoago egiten yatzun yaki edo kopaua. Etzaitekez eldu pozik eta gozorik geien asmetan dozun lekura, ona izan arren bere. <hi rend='Italic'>Esan egizuz </hi>Aita gurea<hi rend='Italic'>ti asi ta buruz dakizuzan orazi&ntilde;o batzuek.</hi></p>
+<p><hi rend='Bold'>OGETA LAUGARREN EGUNA</hi></p>
+<p><hi rend='Italic'>Infernutar baten betiko leloa</hi></p>
+<p>I. Yaungoikoak asko ta lar egin eban ni zerura eroatearren. Zeinbat arimako ondasun ta grazia ni beraganatuteko! Zeinbat dei gozo, zeinbat argi-aldi eder ni iratzartuteko! Zeinbat sakramentu ta osasungarri ni onduteko ta zeruratuteko! Beti ebillen bera nondik eta nora ni irabaziko ninduan, bein laztan gozoz, bestean zemai bildurrezkoakaz. Berein bider esetsi ta ekin eustan deika; baia nik bein bere erantzun eta yaramon ez neutsan.</p>
+<p>II. Nik ondo erraz zerua irabazi neunkean. Ay! ebagi izan baneu lenengo barritan arako bekatuen sustraia! Ay! indar tingi bat egin izan baneutso nik orduan ene buruari onduteko! Zintzo iraun baneu artu neban gogo onean! Damu benetako batek; bere bear tzan aldian eginiko konfesi&ntilde;o on batek, ay, eroango ninduan, eta ondo erraz, zeru eder gozora.</p>
+<p>III. Neuk nai izan dot infernu ikaragarrizko onetara etorri. Neure guraz, neure guraz sartu dot nik emen ene burua. Bai beintzat, bai; aragiazko atsegin zoro, zikin, belan yoan tzan bategiati beti ta beti erretan eukiko nabe laba gori onetan. Bai; neure gura bete betez, eta begiak zabalik yausi nas ni suzko oxin onetan. Berein bider esan eusten konfesoreak zer ikusi bearko neban; berein aldiz aginduten eustan biotzak zeren begira nengoan; sarritan ezagutu neban nik neuk egin au; ta askotan barri txar au biotzera emon eusan Yaungoikoaren ontasunak.</p>
+<p><hi rend='Bold'>FRUTUA</hi></p>
+<p>I. Esker onak emoiozuz Yaungoikoari, zuk ainbeste bekatu egin ezketi&ntilde;o, beste askori alagi&ntilde;a gogortasun erakutsi ezteutsulako, eta bear bada, zu baxen bekatu gitxiagoren yaubeak galduten dituzala, zeu infernura bota etzaitualako. Lotsatu egizu zeure burua, gogora ekarrita, zuk orain gi&ntilde;o bizitzea onduteko biotzean asmau, eta etxaramon egin deutsezun, Yaunaren dei, argi eta biotzketaak.</p>
+<p>II. Erregutu egiozu biotz biotzerik Yaungoikoari, iya betiko galdu aginean, edo orretarako bidean dagozanak gaiti.</p>
+<p><hi rend='Italic'>Esaizuz iru </hi>Kredo <hi rend='Italic'>Yesukristok kurutzean egin zituzan iru orduen izenean.</hi></p>
+<p><hi rend='Bold'>OGETA BOSTGARREN EGUNA</hi></p>
+<p><hi rend='Italic'>Betiko galdutea</hi></p>
+<p>Zer da betiko galdutea?</p>
+<p>I. Da Yaungoikoa galdutea, eta betiko galdutea.</p>
+<p>II. Da infernuko suan erretea, eta betiko erretan egon bearra.</p>
+<p>III. Da bapere on bagarik damuaren andiz amurratutea eta ernegetea; eta betiko alan egon bera izatea. O beti, beti! O beti iraun bearko dozun nekea! Eta ze bildurgarria zarean!</p>
+<p><hi rend='Bold'>FRUTUA</hi></p>
+<p>Asmadu eikezu gaur zelan eta zetara ezi ta nekatuko dozun zure gorputz gaistoa. Berbarako, zutunik bazagoz, ez ezeri eutsi; belauniko zagozanean, belaun baten egon; leku ostenduan zagozala, besoak zabaldu; kaleti atxina bazoaz, begiak batu ta yoan; eta beste onelango neka-aldi asko, buruak emongo deutsuzanak, nai estarian, zurezean egiteko, nai agirian bestek zakusala. <hi rend='Italic'>Gaur gabean egikezuz mi&ntilde;agaz zelain bost kurutze Andra Maria Birjinearen izenean.</hi></p>
+<p><hi rend='Bold'>OGETA SEIGARREN EGUNA</hi></p>
+<p><hi rend='Italic'>Eztala penitenzia luzatu bear</hi></p>
+<p>Bekatu egin dot? Bada erabagirik dago niretzat bitarik bat, edo infernua edo penitenzia. Baia ni ostera bekatura biurtuten nas, eta orregaiti, epetasun andian ta bake zabalean biz nas, onduko nasalakoan? Baia, eta, nok on egin leidaz iru gauza oneek?</p>
+<p>I. Izango dodala penitenzia egiteko erea, ta Yaungoikoarem grazia eragillea.</p>
+<p>II. Erea izan arren izango dodala atarako gogoa ta borondatea.</p>
+<p>III. Penitenzia egin arren, bekatuan barriro yausi ta, betiko galduko ez nasala?</p>
+<p><hi rend='Bold'>FRUTUA</hi></p>
+<p>Begiratu eikiezu gaur iru biderreko alditan zeure eskuai, ta esan eikezu bakotxean; <hi rend='Italic'>ay bada! esku eder oneek egunen baten usteldu eta austuko dira; </hi>eta egin tzaitekez goxean goxean auxe esatera. Onexegaz ondu eban Aita Santo Domingok andra bekatari andi bat. <hi rend='Italic'>Bost pider </hi>Aita gurea, Abe Maria <hi rend='Italic'>ta </hi>Gloria Aiteari <hi rend='Italic'>besoak zabalik.</hi></p>
+<p><hi rend='Bold'>OGETA ZAZPIGARREN EGUNA</hi></p>
+<p><hi rend='Italic'>Zeruko gloria</hi></p>
+<p>Neure lenengo zeruko sartzaieran, zer erakutsiko deust Yaungoikoak?</p>
+<p>I. Zoriontasunezko iturri ugariak, gatxen naste bagarik; gozotasun, atsegintasun eta pozkari bete ederrak, atsakabeen eta nekeen usai&ntilde; bagarik. O ze poza enea beintzat orduan!</p>
+<p>II. Zorion benetako oneek izango dodaz Yesusen, bere Ama laztanaren, eta Angeru ta zerutar doatsu guztien laguntzan. O ze laguntza gozo zorionekoa!</p>
+<p>III. Gozotasun eta zorionok eukiko dodaz neurri betean, eta gonburu; beti betiko; eta i&ntilde;ox galduteko bildur bagarik. O zoriuntasun nen oxin ondo ta baster baakoa!</p>
+<p><hi rend='Bold'>FRUTUA</hi></p>
+<p>Nekeagaz edo oker etorriagaz nagoanean nire artean egosten ta erraiak yaten; edo atseginakaz eta ondo yazonagaz laxaturik, Yaungoikoaren gauzeetan otz epel, esango deutsat ene buruari; <hi rend='Italic'>Zerua! Zerua! Gloria! Zoriontasun betikoa! </hi>San Felipe Nerik esan eroian legez, anditasunen bat opetan eutsenean. Sinisturik egongo nas, ezer eztireala munduko anditasunak eta zoriontasunak zerukoen aldean. Orregaiti esan eroian Aita San Inaziok, eta ondo; <hi rend='Italic'>O ze utsa, ze prestueza ta atsitua egiten yatan lurra, zeruari begiratuten deutsadanean! </hi>Aita gurea, <hi rend='Italic'>eta </hi>Kredo <hi rend='Italic'>bat belaunbiko, begiak zerura egin da.</hi></p>
+<p><hi rend='Bold'>OGETA ZORTZIGARREN EGUNA</hi></p>
+<p><hi rend='Italic'>Zerurako bidea</hi></p>
+<p>Bide bi baxen eztagoz zerurako; bekatu-eza ta penitenzia.</p>
+<p>I. Badirau enegan bateoan yantzi eusten arimako garbitasun ederrak? Ay ene! Berein bider galdu izan dot garbitasun ori.</p>
+<p>II. Eta, egin izan dot orren penitenzia? Zer di&ntilde;ot nik penitenzia? Entzuteak berak larri larri egiten nau. Beti ta beti ibili izan nas ni penitenziaren igesi; beti gogor eretxi deutsat nekerik arinenari; beti ibilten nas pozkarien eta atsegin-garrien billa.</p>
+<p>III. Au alan izanik, badot nik zerurako usterik? Bai aurki. Baia, eta, ze bideti? Arimako garbitasuna, galdu izan dot; penitenziarik egin nai eztot; zelan bada zeruratu? O itsumendi zoroa enea! O ze galdurik noian!</p>
+<p><hi rend='Bold'>FRUTUA</hi></p>
+<p>Egizuz zerurantz begiak ta biotza, eta gogoari emoiozu an dagoala zeure erri maitea, eta an betiko biziko, zareala, badarabiltzu orain aitatu direan bide bietarik bata edo bestea. <hi rend='Italic'>Iru bider </hi>Neure Yauna Yesukristo.</p>
+<p><hi rend='Bold'>OGETA BEDERATZIGARREN EGUNA</hi></p>
+<p><hi rend='Italic'>Zerua irabaztea</hi></p>
+<p>I. Ondo gitxi eskatuten deust Yaungoikoak, zeura nik irabazteko; eztiraust besterik ezpada gordetako bere legea, lege erraza, lege ezin obea, lege arina.</p>
+<p>II. Onetarako Yaungoikoak berak eskua emoten deust; berak indartuten ta azkortuten nau bere graziagaz, deiakaz, argitasunakaz, eta laguntasunakaz; baita bere Seme Yesukristoren merezimentu irabaziakaz.</p>
+<p>III. Lan labur onen sari emongo deustaz, beti iraungo dabeen, zoriontasunak, oraingo neke arinen sari, betiko gozotasunak; oraingo bearren aloger, beti betiko gloria.</p>
+<p><hi rend='Bold'>FRUTUA</hi></p>
+<p>Zure neke, atsakaba, premi&ntilde;a, gaixo-aldi ta osterantzeko ikusi-bear guztietan beti gogora eikezuz zeruko sari, atsegin eta gloria miragarriak. Esaizu iru bider <hi rend='Italic'>Aita gurea, Abe Maria ta Gloria Aiteari </hi>Trinidade santuaren izenean, eskatuten deutsazula, arren irrime yosi deizula biotzean zeruko gozamenen gomutea ta guraari erexegina.</p>
+<p><hi rend='Bold'>OGETA AMARGARREN EGUNA</hi></p>
+<p><hi rend='Italic'>Beti iraun bearra</hi></p>
+<p>I. Gizon guztiak sartu bear, dabe betiko izango dabeen etsean. &mdash;Orretati, ni bere sartuko nas? &mdash;Bai beintzat, sartuko nas. &mdash;Eta, etse au zelangoa izango ete dot? &mdash;Nik bizitza onetan ene egite onakaz edo txarrakaz egiten dodan modukoa.</p>
+<p>II. Deabruak milla asmu ta labankerigaz putza ta gantza emoten deust neure buruari emeko atsegin zoroetan, eta bekatu gauzeetan lasa emon da, etse au infernurako egiteko; eta nik sarri ta askotan entzutea emon daroiot.</p>
+<p>III. Yaungoikoak beste aldeti diraust, berak darakusdan biziera ona eginda, neure betiko etse ori zerurako egiteko; nik barriz ezetz, eta eztodala gura. Ay ze zoro garbia nasan ori alan egitean! O ze itsurik nagoan!</p>
+<p><hi rend='Bold'>FRUTUA</hi></p>
+<p>Oean zatzazala, zagoz zubil bat legez geldi geldi, ordu erdi baten gitxienez, ezeri eragin bagarik, edo burua ol baten ganean dozula; ta neke andia egiten baiatzu, esaizu zeure artean; <hi rend='Italic'>zer izango da, bada, betiko infernuko sugarrezko oe izioan egotea? </hi>Auxe berau esan zi&ntilde;aike pena gogor, edo neke garratzeren bategaz larri zagonean. <hi rend='Italic'>Zazpi Abe Maria Ama Birjineari bere zazpi doloreen ondrarik andienerako, eta beari bere zazpi bider mun egin.</hi></p>
+<p><hi rend='Bold'>OGETA AMAIKAGARREN EGUNA</hi></p>
+<p><hi rend='Italic'>Konzienziaren itaune erantzuteak</hi></p>
+<p>Ene biotza erantzun egiezu arren itaune onei.</p>
+<p>I. Zetarako sortu ta imini ninduan Yaungoikoak mundu onetan? &mdash;Ez beste gauzatarako ezpada bera orain serbidurik, gero bera zeruan gozetako.</p>
+<p>II. Zer egin deust niri bere ontasunak onetarako? Emon deustaz arima gorputzeko zentzunak eta argitasuna; bere grazia ta laguntasun ederrak, ta bitarteko ugariak.</p>
+<p>III. Eta, nik ezer egin dot neure burua zerura eroatearren? &mdash;Ay! Zeru ori ta ene Egille maitea aldapara bota ta, alegin guztiak egin izan dodaz ene burua infernuan ondatuteko.</p>
+<p><hi rend='Bold'>FRUTUA</hi></p>
+<p>I. Egizu aurrengo ileko konfesi&ntilde;o jenerala, eta ikusi ez zeinbat aurreratu izan dozun; zerurako bidean, edo ea belatuetan geiago sartu izan bazara.</p>
+<p>II. Euki egizu zeure deungaro eginen damu andi bat, eta artu egizu gogo egin-egina, urrengo ila obeto emoteko; ze bear bada, beran izango dozu zeure bizitzako geroenengoa. Eski&ntilde;i zakioz Yaungoikoari zarean guzti ori, arimea ta gorputza zeure argitasun, zentzun, indar, berba, egikune, gogo, eta asmu guztiaz; eta buruz ikasi egikezu gox guztietan yagit-orduan esateko, Aita San Inaziok esan eroian urrengo orazi&ntilde;o au.</p>
+<p>Ator, Yauna, artu egizu nire eskuikune guztia; eutsiz nire adimentua, gomutea eta gogo ta borondate guztia. Zeure eskuetarik dodaz, Yauna, direanok; eta zeuri atzera emon gura deutsudaz guztiak, bapere niretzat gorde bagarik; eta zeuk zeure esku andiaz, nik dakidan baxen obeto zaindu, arteztu, ta zuzenduko deustazuz. Bakarrik, Yauna, esketan deutsut, sortu degidazuzala ene biotzean zure grazia eta zuganako laztantasun ta on-eretxi ederra; eurokaz beste bagarik nas naiko bestean aberatsa; besterik gura eztot, ez bear bere.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>EGUN TA EGIKUNE GUZTIETAN</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>GOGARTE ONETARIK </hi></p>
+<p><hi rend='Bold'>ATERA BEAR DAN ONA</hi></p>
+<p>Zeure esa-egite guztiak zuzenduteko egin bear dozuna da, esetsi ta ekin eikiozu, esanik doazan gogarteen arteko bateri edo bateri kontu egizu eriotzearen ganekoari, yudizio, infernu edo betiko iraun bearren ganekuari; eta beti autu ta artu eikezu zeure biotza geien biztuko deutsuna, edo zintzoago iratzartu ta bildurtuko zaituzana.</p>
+<p>Goxean yagiten tzarean baxen arin, oratu zaikikioz berari; eta gero ez eikiozu itxi egun guztian; eta ezer egiten zagozan artean bere, beti atan atan egon zaitekez. Ara zelan egingo dozun ori. Eriotzearen gogartea da, esaterako, zuk gaurko artuten dozuna? Bada edozer gauza egitera zoazenean gogoari emoikiozu; <hi rend='Italic'>eta oraintxe baneu nik eriotzako orduan, zelan gurako neuke au eginik euki? </hi>Yudizioaren ganekoa bada zeure egun arako gogartea, ezer egiterakoan esan eikezu zeure artean; <hi rend='Italic'>bada niri berba, gogo, eta egite guztien kontu zeatza eskatuko deuste yudizioko egun ikaragarrian, eta oraintxe emen adi yagokat kontu ori artuko deustan Yaungoikoa. </hi>Eta eskatu eikiezu sarri Yaunari, eta Ama Birjineari arren sortu ta sartu deikezuezala zeure biotzean onelango gogotasun ederrak.</p>
+<p>Zeure egiteetan zeure gogo guztia izan bear dozu zelan egingo dozun Yaungoikoaren begietan ondo dana, eta zelan ikasiko dozun birtuteren baten ekandu ederra; berbarako, umiltasuna, Yaungoikoaren alderako maitetasuna, beragango esperantza ta uste bete betea, gorputz-arimako garbitasuna, edo beste onelangoren bat. Eta guztien artean ardura obeagaz eta sarriago egin bear dozuna, da, ondoen datorrena, zure gorputz okerrari, deungerako etxuntasuna, garramorea eta lera txarra galerazoteko; bekatu-bideetarik alderatuteko; eta sustraiak ebateko arako zugan aginte geiago euki ta geien azpian zaukazan izkune gaistoari. Eta ekin gau eta egun bein arturiko lanari, bapere itxi-aldirik egin bagarik arik eta gauz orren ekandu ona zeugan gogortu artean.</p>
+<p>Eta zearretara ez eze, baita artezean eta aurreti bere esetsi bear deutsezu izkune ta bezu deungai. Begira bada zetan geiagotan uts egin daroazun, eta ze gauzek sarriago yausi eragiten deutsun, eta ari zoli esetsi eta errime ekin bear deutsazu. Goxereanik artu Yaungoikoaren o&ntilde;etan, egun atan ain bekatutan edo bestean yausi ez eiteko gogo zindoak. Onetarako gero iges egin bear dozi, yausi erazoten deutsuen lagun batzar, bide, leku, eta ganeko galgarrietarik, eta bekatu orren kontrako gauzak egiten i&ntilde;ardu.</p>
+<p>Baia baldin, orreek guztiok egin-da bere, zeure argaltasunez yausten bazara berlan damutu alan egina; eta orregaz batera yo ukabillagaz bularra, edo begiak zerura yaso ta erantadu, edo begiak batuta egon; edo zelaiari mun egin; edo orazi&ntilde;oren batzuk esan; eta lotsa arren arpegia yausi yausi bekizu, ainbeste berba eder ezkero, ain erraz gaistakeria ezain orretan yausi izan tzarealako.</p>
+<p>Gabean gabean paper baten eskribiduko dozuz egun atako zeure uts eginak guztiak; alkar yo egun bateko utsak bestekoakaz, aste batekoak bestekoakaz, ikusteko zeinbat aurreratu edo atzeratu izan dozun zerurako bidean. Alan egin, eta alan irakasten eutsen San Inazio irakasle andiak, ondu gura ebeen arimai.</p>
+<p><hi rend='Bold'>ONDO BIZITZEKO ZUZEN-BIDEAK</hi></p>
+<p>Asko ta askori bizi guztia yoake gogo utsetan, gauz on bat i&ntilde;os egin bagarik. Oneek gero eriotzako orduan ikusiko dira gurari onez beterik, eta egite onez utsik; baita barriz orduan joan tzan ondo egiteko aldia. Begira, bada, ondo irakurle maitea, zein zuri beste onenbeste yazo dakizun. Eta bada ondutera zaroez, irakurri dozuzan gogarteak, eta asi gura dozu biziera barri on bat, alan gerta dakizuntzat, eta zure guraari onak beteteko, emon nai deutsudaz orain, urtean, ilean, astean eta egun bakotxean egin bear dozuzanen adibide labur batzuk.</p>
+<p><hi rend='Bold'>URTEAN BEIN EGIN BEAR DANA</hi></p>
+<p>Urte bakotxean artu eikezu egun bat, eta dan dana emon arimako lan ardurazkoetan. Egun onetan, urrengorik onako konfesi&ntilde;oez ostean, barriztadu eikezuz urte atako konfesi&ntilde;o guztiak. Onetarako, eta osterantzerako, artu eikezu konfesore aldozun onen onena; beti beragaz egin; ez urten bere esaneti, eta egin zeatz berak emoten deutsuzan buru onak. Agertu eikiozu berari artez zeure biotza, eta zeure ekandu eta lera deungaak; ze onelan Yaungoikoak bere argituko dau konfesori ori, zu bide artezeti zuzen eroateko.</p>
+<p>Presta zaitekez yai nagusietarako barauakaz, limosnakaz, bederatzi-urrenakaz, orazi&ntilde;oakaz eta egun atako misterioa, edo santuen bizitzea irakurteaz.</p>
+<p>Emon eikezuz debozi&ntilde;orik andienaz Yesus gozoaren ta bere Ama maitearen yai-egunak, euren, euren altaraak ikustera yoanik, eta ondo konfesau-komulgaurik.</p>
+<p><hi rend='Bold'>ILEAN BEIN EGINGO DIREANAK</hi></p>
+<p>I. Artu eikezu ile guztirako santuren bat zeure bitarteko; eta emon santuro bere eguna aldaizun ondoen.</p>
+<p>II. Ile onetan artu eikezu egun bat, eta berean ikusi zeure arimako atzera-aurrerak, galtzaieak edo irabazteak; eta euren barri emon zeure arimako aiteari.</p>
+<p>III. Gure Yauna artuko dozu il onetan konfesoreak aginduten deutsunean, ta barriztadu eikezuz lenagoko propositu eta gogo onak; eta ezkontzagea bazara, auxe dozu erarik ederrena erabagiteko; eta orretarako Yaungoikoari eskatuko deutsazu bere argia, eta iragarri degizula, ea ze estaduk lagunduko deutsun ondoen zerua irabazten; zegaitik eze Yaunagaz ondo egonik zoliago eta argiroago entzungo dozu bere deia.</p>
+<p>Konfesoreari baderitxo sarri konfesau komulgau bear dozula egikezu itsu itsuan bere esana; baia, galerazoten deutsunean bere ez muxinga ibili mukerrak erakusten.</p>
+<p><hi rend='Bold'>ASTE BAKOTXEAN EGINGO DOZUNA</hi></p>
+<p>Ondo ondo gorde eikezuz yai demekaak; ez meza arin bategaz geratu; orrez osterantzean santutu bear dozu egun guztia arimako lanetan emonda. Sermoia entzun, kurutzetakoak egin, errosarioa esan; parkamenak irabazten direan Elexara, eta Sakramentu santua agirian dagoenera eldu; liburu santuak irakurri; gaixuak ikusi; oneek eta onelangoak dozuz bide ederrak eta modu egokiak yaiegunak santututeko.</p>
+<p>Ez eikiezu bein bere yoan bagarik itxi dotrinea esaten dan Elexara; eta emen entzuna irakatsi eikezu gau atan zure umeai ta ogipekoai, zegaiti-ze ori da Angeruen eta Apostoluen zeregin ederra.</p>
+<p>Ereak aginduten deutsun egunetan zoaz Elexara; antxe euki eikezu gogozko orazi&ntilde;o mental apur bat; Yaungoikoari erregutu zeure burua gaiti; zeure etsekoak-gaiti, eta osterantzekoak-gaiti; eta emon zeure gorputz gaistoari nekeren bat; baia onetan eta onelangoetan ez i&ntilde;os urten arimako aitak dirautsunerik.</p>
+<p><hi rend='Bold'>EGUNEAN EGUNEANGO EGITEKOAK</hi></p>
+<p>Yagi zaitekez goxean goxetik, usteletan oean egon bagarik. Zeure lenengo lana eta ardurea izango da biotza Yaungoikoa-gana eregitea; berari damu zoliagaz parka eskatutea; egun atako gogo, asmu, guraari, berba, lan ta egikerak eskintzea eta bere eskua ta laguntasuna eskatutea egun a guztia bapere bekatu bagarik emoteko; eta zeuk bere zeure aldeti artu bear dozuz gogoak, zeugan dagoana egiteko, eta ara-bere ardura obeagaz ibilteko ekanduzko bekatuetan ez yausteko. Goxerik imini eikezu borondatea egun atako aldozuzan parkamenak guztiak irabazteko. Eski&ntilde;i zakioz zarean guztiori Ama Birjineari; erregutu Angeru Gordetzalleari, zeure izeneko Santuari, egun atakori, eta bitartekotzat artu-ta dozuzan Santu-Santai. Ez aztu bere purgatorioko Arima erruki-garriak, eta sarriro eurak-gaiti Yaunari eskatu; bada zuk aekaz egiten dozuna, gero zu-gaz bere besteak egingo dabe.</p>
+<p>Emon eikezu ordu laurentxu bat gitxienez egunean adimentuzko orazi&ntilde;oan. Ez bein-bere utsegin mezea; entzun debozi&ntilde;oz, lotsaz eta ikaraz; eta albazendu liburu on baten zagozala. Arratsean zeure buruari kontu estua eska zakioz ea zelan eta zetan emon izan dozun eguna; eta zelan yoan direan zeure gogo, berba ta lan guztiak. Onen bat egin badozu, dana zor deutsazu Yaungoikoari, eta bera-gaiti esker onak emoikiozuz bere ontasunari; deungarorik egin izan bozu, zeurea da errua, eta emoikiozu zeure buruari nekeren bat, erazoten deutsazula geiago ez egiteko berbea.</p>
+<p>Ardurarik albait andiena iminiko dozu alde egiteko bekatu bideetarik, zelangoak direan lagun okerrak, berbataldi loiak, ardangiontegiak ta osteratzeko ordi-lekuak, yoko larrak eta ganerako galbide deungaak. Deabru asmutsu zitelak, gitxien uste dozun tokian, zabalduko deutsuz sareak, eta iminko deutsuz lakioak eta amuak zu galduteko; eta alan beti begiak zabalik ibilli, eta begira ea zelan zabiltzazan, non sartuten zarean eta nogaz lagunduten zarean.</p>
+<p>Pitian bein gogoari emoikiozu Yaungoikoa adi ta begira daukazula; eta zeure estura eta tentazi&ntilde;o-aldietan beragana beingoan egin eskatuten deutsazula, arren indartu eta gogortu zagizala, bekatuan yausi ez eiteko. Onetarako eske&ntilde;i eikiozuz berari zeure zeregin guztiak, eskupeko bearrak, lan nagusiak, yana, loa, arduraak, pozkarriak, ibilerak eta gertakuntza on guztiak; direanak izan ditezantzat bere gloriarik andienerako, eta zeure arimearen onerako. Gatx guztien sustraia alperkeria izan doa; ata agaiti ez bein-bere bein bere alperrik egon. Azkenez yakin bear dozu eze, zelangoa dan bizitzea, alangoa izan doiala eriotzea; eta San Bernardok dirauskun legez, bizitzeari darraiko eriotzeak; eta eriotzeari andiko aldeko betiko izateak. <hi rend='Italic'><foreign>A vita mors: a morte aeternitas. </foreign>Amen.</hi></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>MEZA ENTZUTEKO YESUKRISTOREN</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>PASI&Ntilde;OAREN GANEKO GOGARTE TA ORAZI&Ntilde;OAK</hi></p>
+<p>Ez dau kristi&ntilde;autasunak mezea ba&ntilde;o gauza beneragarriagorik. Yaungoikoak berak ezin ezin emon ta asmau eukean, meza santua baxen gauza andiagorik, eta miragarriagorik. Ondra geiago emoten yako Yaungoikoari meza bakar bategaz, Angeruak eta gizonak mundua danik ona emon izan deutsena ba&ntilde;o.</p>
+<p>Meza batek balio dau Yesukristoren pasi&ntilde;oak alagi&ntilde;a, di&ntilde;o S, Yoan Krisostomok; zegaiti ze, mezaan barriztetan da bere pasi&ntilde;o ta eriotza berbera; berean Yesukristok emoten dau barriro gugaiti bere odola; berean Elexa Ama santak Sazerdoteen eskuz biralduten deutso Yaungoikoari bere Seme maitea, bere ontasunak guri ta enparaduai eginiko mesedeen ordez; eta gizon-emakumeen bekatuen zorren alderako.</p>
+<p>Meza emoten dan artean dagoz zeruak zabalik; dabiltz yoan-da etorri geure eskariakaz Angeruak. Baia, zer di&ntilde;ot? Yaungoikoa bera yatorku mezara; zerutar guztien laguntzaan yazten da Yesukristo, barriro argitu ta iltera, di&ntilde;o san Agustinek. Orregaiti bada ondo entzunak izan doaz gure eskabideak; parkatu yoakuz bekatu arinak; eransten yakuz Yesukristoren irabazi andi neurribaakoak, era emon yoakez ondo dantzuenai gorputzerako eta arimarako ondasun ugari ezin obeak.</p>
+<p>Ay bada! Balekie fededunak, zer dan mezea, eta zeinbat irabazten dan meza bakartxu bat entzuteagaz! Eguna bagarik litekez Elex ateetan mez-emollearen begira; aztu egingo lekikie baraustea; eta gox-guztia emongo leuke Elexan, urten bere bagarik.</p>
+<p>Bada, zelan gagoz aste guztian meza bat ikusten eztogula? Yai domeketan eta yai arinetan gura ta gurez legez entzun daroagu Elexeak esaten deuskulako; baia eta, zelan orduan bere? Nagi-epelik, ganora bagarik, erdi lo, albora adi, barreka, barriketan, ta gogoa beste lekutan dogula. Au da mez-entzutea? Alan egonik, egiten aldogu Elexearen esana? Olan egoteko, obe ez genduke etsean meza bagarik gelditutea?</p>
+<p>Zer deritxazue, zuek, altara aurrean auspez belauniko zagozen Angeru santuak, gure astokeria eta lotsa galdu oneri? Ay! lurreko Errege baten aurrean moduzkoagoak egongo gintekez aurki.</p>
+<p>Yesukristoren yaiotzan itzal obean egozan astoa ta idia, gu mezatan gagozan ba&ntilde;o. O abereak baxen bere abereagoak! O itsumena! O esker gaistoa! Eta, ze kastigu gogorraren begira gagozan!</p>
+<p>Lar bere egia da alantxe yazoten dala gugaz, eta agaiti urten daroagu mezatarik leen baxen otzago ta gaistoago; agaiti dakusguz gure errietan ain kalte gogorrak; eta eztakit nik zelan Yesukristok iges egiten eztaben gure Elexeetarik, ikusirik gure ezkergetasun gaistoa.</p>
+<p>Eta bada zeu kristi&ntilde;aua zara, aurrerantzean entzun eikezu meza sarriago eta albait onduen, zeure azkenengo mezea balitzan legetxe. Ori alan egiteko, ara emen meza arterako Yesukristoren pasi&ntilde;oaren ganeko gogarte ta orazi&ntilde;oak.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>MEZ-EMOLLEAREN YANTZIAK</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>TA MEZ-EMOTEKO BESTE BEAR DIREANAK </hi></p>
+<p><hi rend='Bold'>ADIERAZOTEN DABENA</hi></p>
+<p>Sazerdoteak adierazoten dau Yesukristo.</p>
+<p>Eskuak mez aurreti garbituteak, zelan Yesusek eriotza aurrean bere esku ederrakaz garbitu zituzan bere Ikasle Apostoluen o&ntilde;ak.</p>
+<p>Yanziten daben eunezko amituak adierazoten dau Yudeguak Yesukristoari aurpegia estalduteko imini eutsen zapia.</p>
+<p>Albeak Yesus maiteari, zoro bateri legez, Herodesen yauregian yanzi eutsen so&ntilde;eko zuria.</p>
+<p>Zinguluak, garritik estu eutsen katea.</p>
+<p>Manipuluak ta estoleak, esku-idunetati lotuteko ezarri eutsezan soka gogorrak.</p>
+<p>Kasulleak Pilatosen etsean imini eutsen errege yanzi gorri barregarria.</p>
+<p>Altareak, altara-arriak eta berean dagoan kurutzeak ulertuten emoten dau Kalbarioko mendia, eta Kristo il tzan kurutzea.</p>
+<p>Altarako zamauak eta korporalak, Kristo, obian edo sepulturan sartuteko, batu eben izarea ta izerkaria.</p>
+<p>Kalizak Yesus imini eben obia; patenak obi orren ganeko arria.</p>
+<p>Ostiak Kristoren gorputza; ardoak gugaiti ain ugari emon eban odola; eta ur-tanteak bere alborik urten eutsan ura.</p>
+<p><hi rend='Bold'>MEZEA ASI BA&Ntilde;O LEEN ESAIZU</hi></p>
+<p>Ene Yaungoiko maitea, meza santu au, eta gaur kristi&ntilde;au Elexa guztietan emongo direanak, eske&ntilde;iten deutsudaz, zeure, eta zeure Seme Yesukristoren gloriarik andinerako; bere Ama laztanaren eta zerutar guztien ondrarako, Elexa Ama Sanutaren ta bere Seme fededun guztien onerako; ene bekatuen ta gaistakerien eta ene erruz besteak eginikoen zorren alderako; eta mundua danik eta onera gizon-emakume guztiak egin izan dituezan orderako.</p>
+<p>Opetan deutsut purgatorioko arima santuen onerako; guztiz bere munduan neure guraso, aide, ongilla, ezagun, adiskide izan zireanerako.</p>
+<p>Eske&ntilde;iten deutsut il aginean bekatu mortalean, kondenetako unean, gaixorik eta esturaren baten dagozanen onerako.</p>
+<p>Ereje, Yudegu ta fedebaakoak argitu ta kristi&ntilde;autu dagizuzan, eta eriotzako ordu larrian zeure Semearen gorputza ukutu ez deikeguzun, zein ikusi ez arren, sinistuten dogun oraintxe emen meza onetan aurkituko dala gu yanaritu, indartu, aberastu ta zorionduteko orain graziaz, eta gero gloriaz. Amen.</p>
+<p><hi rend='Bold'>MEZA ARTEKO GOGARTEAK</hi></p>
+<p><hi rend='Italic'>Sazerdotearen sakristiarik eta altarako urteeran </hi></p>
+<p><hi rend='Italic'>begitandu bear yaku Yesukristo Yesemaniko ortura bidean.</hi></p>
+<p><hi rend='Bold'>ESAIZU</hi></p>
+<p>O Yesus maitea! Yesemaniko ortura, pasi&ntilde;o garratzari asiera emoteko egin zenduan bidealdia gaiti; eta bertan gero errudun gaisto bat legez sokaz ta kateaz loturik igaro zenduan lotsaaria gaiti, eskatuten dutsut arren zuzendu daizuzala ene o&ntilde;ak, oker bideetara yoan ez ditezantzat, orregaz artez ibilirik lurrean eldu nadintzat zeu zeruan ikustera. Amen.</p>
+<p><hi rend='Bold'>KONFESI&Ntilde;OA</hi></p>
+<p><hi rend='Italic'>Sazerdoteak makurturik adierazoten dau </hi></p>
+<p><hi rend='Italic'>Yesukristok auspez etxunik Yesemaniko ortuan, </hi></p>
+<p><hi rend='Italic'>gugaiti bere Aita betikoari egin eutsan eregua.</hi></p>
+<p><hi rend='Bold'>ESAIZU</hi></p>
+<p>Yesus ene arimearen eroslea! Ez arren aztu Yesemaniko ortuan nigaiti ikusi bear izan zenduan bildur larri, iluntasun estuera, bakartasun ta gogortada eskergaak; nigaiti egin zenduzan erregu ta eskaari samurrak; eta nire bekatuen gomuteak lurra bustigi&ntilde;okoan botarazo eutsuzan odol tantaak. Yosi egidazu, arren, biotzean bekatuen bildur gorrotozko bat; indazuz negar-korrontaak, ene bekatuen loi atsituak garbietako, eta lagun egidazu ene eriotzako larri-unean. Amen. <hi rend='Italic'>Esaizu </hi>Ni bekatari au <foreign>etc</foreign>.</p>
+<p><hi rend='Italic'>Mez-emolleak Altaran mun egitea da </hi></p>
+<p><hi rend='Italic'>adietan emoteko Yudasek Kristori emon eutsan </hi></p>
+<p><hi rend='Italic'>mosu ta apa guzurrezkoa.</hi></p>
+<p><hi rend='Bold'>ESAIZU</hi></p>
+<p>O Angeruen espillu ederra! Zeure arpegi sotilean Yudas dollorraren aoti bake andian artu zenduan guzurrezko mosu ta laztan lotsagarriagaiti eskatuten deutsut, arren gura eztakizula nik bire bekatuz zu lotsatutea; ez zure gorputza bekatu mortalean artutea. Amen.</p>
+<p><hi rend='Bold'>INTRUITUA</hi></p>
+<p><hi rend='Italic'>Sazerdotea introitua irakurten yoateak </hi></p>
+<p><hi rend='Italic'>esan gura dau, zelan eroan ebeen Kristo </hi></p>
+<p><hi rend='Italic'>lotsaari andiaz esturik Anas ta Kaifasen aurrera.</hi></p>
+<p><hi rend='Bold'>ESAIZU</hi></p>
+<p>O bildots bigun errubagakoa! Zuk ikusi zenduan lotsaari ta neke andia gaiti, arako sokaz esturik ta kateaz loturik eroan zinduezanean, erregututen deutsut arren bada urratu deidazuzala arimako katea gogor astunak; ta yosi nagizula errime pixo zeure amore ta bildur santuaz, iges egin ez dagidantzat bekatu-bidera. Amen.</p>
+<p><hi rend='Bold'>KIRIELEISON-AK</hi></p>
+<p><hi rend='Italic'>Ulertu eragiten dabe antxinako Santuen </hi></p>
+<p><hi rend='Italic'>Salbatzallearen mundura etorrerea-gaitiko deiak; </hi></p>
+<p><hi rend='Italic'>Yaungoikoaren bekatariagazko ontasun andia; </hi></p>
+<p><hi rend='Italic'>eta oneek eskatu bear deutsen parkazi&ntilde;oa.</hi></p>
+<p><hi rend='Bold'>ESAIZU</hi></p>
+<p>Yauna, errukia nigaz; Kristo, errukia nigaz, ta bekatari guztiakaz. Damu dot Yauna biotz guztirik zu ofendidu izana. O ontasun neurribaakoa! Indazu, Yauna, damu benetako bat, negarrez garbietako, zeure odolaz erosi zenduan ene arimea.</p>
+<p><hi rend='Bold'>GLORIAK</hi></p>
+<p><hi rend='Italic'>Adierazoten deusku Angeruak Yesukristori </hi></p>
+<p><hi rend='Italic'>kantadu eutsena, gugaiti gizon egintzalako.</hi></p>
+<p><hi rend='Bold'>ESAIZU</hi></p>
+<p>O Yaun andia! Eta ze maite dozuzan gizonak bada izanik zu ondasun guztien yaubea, eurakati yaio zinean abel-etse edo korta zantar baten; etzan estrami&ntilde;a baten; eta egon lasto ta abere artean. Uxatu egizu arren ene biotzerik andigurea, buru-eretxia, ta arrokeria, ta lurreko ondasun uts guzurrezkoen egarria, kantadu daikedantzat gero zeruan Angeruakaz nastean gloria, bakea, bendizi&ntilde;oa ta betiko pozkaria. Amen.</p>
+<p><hi rend='Bold'><foreign>DOMINUS VOBISCUM</foreign>-EK</hi></p>
+<p><hi rend='Italic'>Esan gura dau zelan Kristok gizonakaz </hi></p>
+<p><hi rend='Italic'>berba egiten eban; zelan laztanduten zituzan </hi></p>
+<p><hi rend='Italic'>bekataririk andienak, eta zelan S. Pedrori </hi></p>
+<p><hi rend='Italic'>begi errukizkoakaz begiratu eutsan, </hi></p>
+<p><hi rend='Italic'>onek bera ukatu ebanean.</hi></p>
+<p><hi rend='Bold'>ESAIZU</hi></p>
+<p>Egizuz, Yauna, guganantz zeure begi errukitsuok, zabaldu egizuz zeure besoak gu bekatariok laztanduteko; izan zaitez gure erruki argaltasunez gaistakeriaren baten yausten bagara; enda yagola ta artzain ardurazkoak legez estalpetu ta zaindu gaizuz zeure egapean, otso infernutarrak yan ez gaizantzat. Amen.</p>
+<p><hi rend='Bold'>EPISTOLEAK</hi></p>
+<p><hi rend='Italic'>Adierazoten dau Yesukristok emon esukun lege barria, </hi></p>
+<p><hi rend='Italic'>ta san Yoan Bautistaren sermoiak.</hi></p>
+<p><hi rend='Bold'>ESAIZU</hi></p>
+<p>Zeinbat, Yauna, zor ez deutsut fede santuagaz argitu nozulako? Zeinbat, kristi&ntilde;au artean sortu ta azi nozulako? O eta zeinbat itxi izan dozuzan ondaturik fedebagetasuneko iluntza ikaragarrian! Iraun eragidazu arren eriotzara gi&ntilde;o fede santu onetan; gorderik Apostoluak erakutsi eusten legea, eta Doneane Bautistak predikadu eustan penitenzia ta negarbidea igon daikedan bosbait zeru ederrera. Amen.</p>
+<p><hi rend='Bold'>EBANJELIOAK</hi></p>
+<p><hi rend='Italic'>Ulertarazoten dau Yesukristoren predikaldia.</hi></p>
+<p><hi rend='Bold'>ESAIZU</hi></p>
+<p>Yesus eguzki ederra! biotz guztirik eskatuten deutsut, indartu ta gogortu daizuzala fedean fededunak; argitu ainbaakoak, ezagutu dagientzat guztiak zeure legea, izen ta izate miragarria. Ez beitekez, Yauna, galdu zeure odolaz erosiriko arimaak. Nik beindanik bein bete-betean sinistuten dodaz Ebanjelioak eta Elexa Ama santuak irakasten deusteezan egia ta sinisgei guatiak. Ez, arren, Yauna, ene arimeari ukatu dotrina argi ta yanari bear bear oneek; eta lagun zakidaz gorde ta yagoteko ebanjelioan itxi zeuskuzan adi bide artezak. Amen.</p>
+<p><hi rend='Bold'>KREDOAK</hi></p>
+<p><hi rend='Italic'>Darakusaz fedeko sinisgeiak.</hi></p>
+<p><hi rend='Bold'>ESAIZU</hi></p>
+<p>Sinistuten dodaz, Yauna, Kredoan sartuten direan egia guztiak; eta gura neuke munduko guztiak sinistuko balituez. Sinistuten dot Yaungoiko, iru persona banatan bat danagan. Sinistuten dot Yesukristogan; zein yaio zan Ama Birjinea-ganik; ta iltzan bekatariak salbetearren. Sinistuten dot Elexa santuagan; eta siniste bete betea emoten deutset zuk berari agertu deutsazuzan egia guztiai. Sinismen onetan bizi ta il gura dot; berak darakusdan erara biziteko gogoak artzen dodaz, eta ementxe nago bizitzea galduteko bear bada, orren alde egitearren. <hi rend='Italic'>Esaizu Kredoa.</hi></p>
+<p><hi rend='Bold'>OFERTORIOAK</hi></p>
+<p><hi rend='Italic'>Adierazoten dau zelan Yesukristok gogo gogorik </hi></p>
+<p><hi rend='Italic'>bere burua eriotzara opetzi izan eban; </hi></p>
+<p><hi rend='Italic'>ta orren gomutaan eskiniten dituz mez-emolleak </hi></p>
+<p><hi rend='Italic'>ogi-ardaoak bere izenean, baita fededun guztienean.</hi></p>
+<p><hi rend='Bold'>ESAIZU</hi></p>
+<p>Aita Yaungoiko zerukoa! Zure Seme maitearen sakrifizio balio andiko au eskintzen deutsut mez-emolleagaz batera, zure gloriarik andienerako; nik eta mundu guztiak zor deutsugunari erantzuteko; guztiz bere geure bekatuen zorren alderako, eta purgatorioko neke artean datzazan Arima errukarrien onerako. O nok leukezan bere eskuan beste guztien biotzak, danakaz meza santu au zeuri eskiniteko! Begira, Yauna, begi gozoakaz zeure Semeak ikusi eban eriotzeari; aztu egizuz gure bekatuak; eta galdu ez beitekez ainbeste kosta izan zireanak. Amen.</p>
+<p><hi rend='Bold'>OSTIA TA KALIZA ESKINITEAK</hi></p>
+<p><hi rend='Italic'>Eraksuten deusku zelan Yesukristok </hi></p>
+<p><hi rend='Italic'>bere Aiteari eskini eutsazan bere pasi&ntilde;oko </hi></p>
+<p><hi rend='Italic'>azote, koroi, lotsari ta gogortadaak.</hi></p>
+<p><hi rend='Bold'>ESAIZU</hi></p>
+<p>O Aita betikoa! Begira egiozu zeure Seme maite bost milla azotez ebagiari, arantza zorrotzez koroatuari, iraunez, barrez eta otsez, dandarrez barregarri erabiliari. Berau, Yauna, opa deutsut nire ta munduko guztien bekatuen zorren alderako. Emoidazu arren eskua bakean eta onean eroateko negarrezko erbeste onetako nekeak, iraunaak, alak eta gixotasunak, bizi izanik orain zeure Semearen antzera igon daidantzat gero bere betiko laguntza gozora. Amen.</p>
+<p><hi rend='Bold'>ESKUAK GARBIETEAK</hi></p>
+<p><hi rend='Italic'>Gomutarazoten dau zelan Pilatosek, </hi></p>
+<p><hi rend='Italic'>adietan emoteko Kristoren erru eza, </hi></p>
+<p><hi rend='Italic'>eskuak garbitu zituzan; baita bere ze biotz garbiaz </hi></p>
+<p><hi rend='Italic'>eldu bear garean Yauna artutera goazenean.</hi></p>
+<p><hi rend='Bold'>ESAIZU</hi></p>
+<p>Garbitu egidazuz, Yauna, ene arimako orban loi atsituak; osatu zauri ustelak; eta edertu nagizu graziazko apaindurakaz, eta zure alboti urten eutsuezan odol urakaz. Alan arimea garbi garbi eginik, izateko zeure yar-leku eder ta bizi-toki gozo betikoa. Amen.</p>
+<p><hi rend='Bold'>ORATE FRATES-EK</hi></p>
+<p><hi rend='Italic'>Gogora ekarri bear deusku zelan Pilatosek </hi></p>
+<p><hi rend='Italic'>atera eban guztien aurrera erakusten Yesukristo, </hi></p>
+<p><hi rend='Italic'>so&ntilde;eko gorri zar barregarrizko bategaz. </hi></p>
+<p><hi rend='Italic'>Eta mez-emolleak eskatuten deusku lagundu daiogula, </hi></p>
+<p><hi rend='Italic'>mezeak dirauan artean, gure eskaari ta orazi&ntilde;oakaz.</hi></p>
+<p><hi rend='Bold'>ESAIZU</hi></p>
+<p>Eske gagotzuz, Yauna, eder eretxi ta abegi ona egin dagiozula, mez-emolle onek emoten dagoan meza ta sakrifizio adoragarri oneri, ondo entzunak izateko bere eskariak gureakaz batera, zure gloriarik andienerako, eta Elexa ta Elex-seme guztien onerako. Amen.</p>
+<p><hi rend='Bold'>PREFAZIOAK</hi></p>
+<p><hi rend='Italic'>Esan gura dau zelan Yesukristori irakurri eutsen eriotzako sentenzia gogorra.</hi></p>
+<p><hi rend='Bold'>ESAIZU</hi></p>
+<p>O bildots errubaakoa! O bizien ta ilen yueza! Eta bada ni infernuko eriotza ikaragarririk atera gurarik egon nai izan zenduan yuezaren aurrean, errudun gaisto oker bat legez, sokaz esturik, azotez ebagirik eta belarrondoko eskergeakaz lotsaturik entzuten zenduala bake bakean eta mistik bere egin bagarik nik bear neukean eriotzako sententzia; arren, Yauna, atera nagizu enen bekatuai zor yaken infernuko betiko eriotzarik. Amen.</p>
+<p><hi rend='Bold'>SANTUSEK</hi></p>
+<p><hi rend='Italic'>Gomutarazoten deuskuz Yesukristori </hi></p>
+<p><hi rend='Italic'>Angeruak ta Linboko Guraso santuak, </hi></p>
+<p><hi rend='Italic'>eldu zalako euren zorionen aldia, </hi></p>
+<p><hi rend='Italic'>esan eutsezan kanta so&ntilde;u gozoak; </hi></p>
+<p><hi rend='Italic'>ta Yerusalenera sartzaieran Uri atako askok </hi></p>
+<p><hi rend='Italic'>esan eutseezan alabantza ta pozkariak.</hi></p>
+<p><hi rend='Bold'>ESAIZU</hi></p>
+<p>Angeruakaz ta santuakaz bat eginik, nik bere esango dot; santua, alabadua, bedeinkatua, ta miragarria da geure Yaungoikoa andia. Zerutarrak, gizonak, egaztiak ta gauza guztiak bedeinka zagiezala, Yaun andia, gauza guztien yaubea, zeru-lurren egillea eta irauntzallea. Onetarako, Yauna, opa deutsut meza santu au, kristi&ntilde;au Elexa guztietan emongo direanak eta mundua danik ona Angeruak eta gizonak opa izan deutsuezan alabantza guztiak; eta eurakaz nastean eski&ntilde;iten deutsudaz ene biotza ta mi&ntilde;a zeintzuk onik aurrera eztabeen yakingo besterik ezpada zeure alabantzaak eta mirariak kantetan.</p>
+<p><hi rend='Bold'>IRUTASUN SANTUAREN</hi></p>
+<p><hi rend='Italic'>Ondrarik andienerako urrengo alabantzea </hi></p>
+<p><hi rend='Italic'>esaten dan bakotxean irabazten dira </hi></p>
+<p><hi rend='Italic'>ogei milla egun ta geiagoko parkamenak, </hi></p>
+<p><hi rend='Italic'>batera yota amalaugarren Klemente Aita Santu zanak, </hi></p>
+<p><hi rend='Italic'>eta Obispo yaun askok emon izan dituezanak; </hi></p>
+<p><hi rend='Italic'>ilean bein barriz, parkamen osoa konfesau komulgaurik.</hi></p>
+<p>Santua, santua, santua,</p>
+<p>Ejerzituen Yaungoikoa altua.</p>
+<p>Zerua ta lurra dagoz</p>
+<p>beterik zure gloria gozoz.</p>
+<p>Gloria Aiteari, gloria Semeari,</p>
+<p>gloria Espiritu Santuari;</p>
+<p>leen legez izan bedi</p>
+<p>orain, gero ta beti. Amen.</p>
+<p><hi rend='Italic'>Ostean </hi>Aita gurea <hi rend='Italic'>ta </hi>Abe Maria <hi rend='Italic'>Aita santuak erakusten dituzan gauzakaiti.</hi></p>
+<p><hi rend='Bold'>OSTIA GORA DOIANEAN</hi></p>
+<p><hi rend='Italic'>Adierazoten yaku zelan eregi ebeen kurutzean Yesukristo.</hi></p>
+<p>Adoretan zaitudaz, Yesus ene Yauna, ostia santu orretan; adoretan dot fede biziaz eta itzalik andienaz gorputz eder ori, kurutzean gugaiti eski&ntilde;i zana, eta barriro altara orren ganean eskintzen dana.Zeure Ama maiteak, angeru ta santu guztiak bedeinka zagiezala beti ta beti. Bete betean sinistuten dot, zu, ene salbatzallea benetan ortxe zagozala. Damu dot zeu ofendidu izana. Zure eskuetan iminten nas nasan guzti au. Zu zara, ta zu izango zara nire gauzarik maiteena ta laztanena. Errukia, Yauna, enegaz, ta bekatari guztiakaz.</p>
+<p><hi rend='Bold'>KALIZA GORA EGITEAN</hi></p>
+<p><hi rend='Italic'>Gogora egin bear doguz Yesus gozoak </hi></p>
+<p><hi rend='Italic'>gu garbietako emon zituzan odolezko iturri ugariak.</hi></p>
+<p><hi rend='Bold'>ESAIZU</hi></p>
+<p>Adoretan zaitudaz, ene Yesus laztanaren odol baliotsua, kurutzean emona gure onereko, arimaak erosteko, bekatariak onduteko, ta guztiak zeruratu ta zorioneko egiteko. Bete-betean sinistuten dot zu or tzagozala. Odol balio andiko onegan daukadaz nik nire uste guztiak, eta nago eze, bere bitartez garbituko yatazala, bekatuak arimaan itxi deustasan loiak. Errukia, Yauna nigaz. Zu zara ene odola eta ene gauza guztien ganetiko gauzea. O odol estimagarria beintzat!</p>
+<p><hi rend='Bold'>SAGARA OSTEAN</hi></p>
+<p>O ene Yaungoikoa! Ator altara orretan zure Seme gozoa. Berau, Yauna, zeuri atzera emon eta eski&ntilde;iten deutsut Elexa santuaren eta bere seme guztien izenean. Berau da ostia garbia, ostia santua, ostia miragarria. Berau da asko gure arimaak zaurituteko, gure zorrak aterateko, eta zeure esku presturik arturik doguzan mesede neurribaakoak ordeaztu ta kitututeko. Begira bada, Aita errukiorra, zeure biotzeko Seme maite oneri; eta gugaiti ikusi eban bizitza nekatu ta eriotza itzal gogorrari.</p>
+<p><hi rend='Bold'>SAZERDOTEAK</hi></p>
+<p><hi rend='Italic'>Geldi geldi dagoala Yaungoikoari ilak gaiti </hi></p>
+<p><hi rend='Italic'>egiten deutsan eskaariak gogora dakargu </hi></p>
+<p><hi rend='Italic'>Kristok kurutzean bere arerioak gaiti </hi></p>
+<p><hi rend='Italic'>Aitati egin eutsan eskabide samurra.</hi></p>
+<p><hi rend='Bold'>ESAIZU</hi></p>
+<p>Yaun errukiorra! parkeska nagotzu neure gaiskilla ta arerio guztientzat; eske nagotzu izan zaitezala purgatorioko Arima santuen erruki. Euren onerako eskintzen deutsut zeure Semeak kurutzen igaro eban guztia; gugaiti egin eutsuzan eskabideak; eta meza onetan sartuten direan miraari ta ondasun ederrak.</p>
+<p><hi rend='Bold'><foreign>NOBIS QUOQUE PECATORIBUS</foreign>-EK</hi></p>
+<p><hi rend='Italic'>Gomutarazoten deusku Lapur onaren garbai egiazkoa, </hi></p>
+<p><hi rend='Italic'>eta izan eban bekatuen parkazi&ntilde;o osoa.</hi></p>
+<p><hi rend='Bold'>ESAIZU</hi></p>
+<p>Eta bada, Yauna, parkatu zeuntsan zeure alboan kurutzean il tzan Lapur damutuari, ta beste bekatari andi askori, nik bere uste dot bete-betean eze, beste onen-beste egingo dozula nigaz, neure deungaro eginen damu benetakoagaz zeu-gana banator; eta ari legez lagunduko deustazula eriotzako ordu larrian. Orain-ganik, Yuana, orain-ganik onduten asi gura dot. Damu dot zeu ofendidua. O neure bizian bekaturik egin izan ezpaneu! O urtu albanegiz ene begietako negarrakaz leen eginak! Errukia, Yauna, errukia nigaz.</p>
+<p><hi rend='Bold'><foreign>PATER NOSTER</foreign>-AK EDO AITA GUREAK</hi></p>
+<p><hi rend='Italic'>Adierazoten dituz Kristok kurutzean </hi></p>
+<p><hi rend='Italic'>esan zituzan zazpi berba mirariz beteak. </hi></p>
+<p><hi rend='Italic'>Esaizuz zuk bere mez-emolleagaz batera </hi></p>
+<p><hi rend='Italic'>Aita gureako zazpi eskaariak, eskatuten dozula </hi></p>
+<p><hi rend='Italic'>zeure buruagaiti, eta zeure arerioakaiti.</hi></p>
+<p><hi rend='Bold'>OSTIA ZATITUTEAK</hi></p>
+<p><hi rend='Italic'>Esan nai dau zelan ebagi ta birrindu eutseezan </hi></p>
+<p><hi rend='Italic'>Yesukristori aragi guztiak, bururik eta </hi></p>
+<p><hi rend='Italic'>beatzetara atal osorik itxi bagarik.</hi></p>
+<p><hi rend='Bold'>KALIZEAN EZARTEN DAN</hi></p>
+<p><hi rend='Bold'>OSTIA TXATALTXUAK</hi></p>
+<p><hi rend='Italic'>Ulertarazoten deusku Yesukristoren Linbora </hi></p>
+<p><hi rend='Italic'>yatsi-erea, bertako Guraso santuak zoriondutera.</hi></p>
+<p><hi rend='Bold'><foreign>PAX MONINI</foreign>-K</hi></p>
+<p><hi rend='Italic'>Berak eginiko Yaungoiko aserreagaz gizonen arteko bakeak.</hi></p>
+<p><hi rend='Bold'><foreign>AGNUS DEI</foreign>-K</hi></p>
+<p><hi rend='Italic'>Darakusku zelan bekatari asko yatsi zirean </hi></p>
+<p><hi rend='Italic'>Kalbariorik, bekatuen damuarren negarrez, </hi></p>
+<p><hi rend='Italic'>bularrak ukabillagaz apurtu bear zituezala </hi></p>
+<p><hi rend='Italic'>Eurak legez guk bere egin bear dogu.</hi></p>
+<p><hi rend='Bold'>ESAIZU IRU BIDER</hi></p>
+<p>Yaungoikoaren bildotsa munduko bekatuak kentzen dozuzana errukia gugaz.</p>
+<p><hi rend='Italic'>Gero. </hi>Yaungoikoaren Seme maitea! ez, arren, gure bekatuai begiratu, ta bai zeure ontasun andiari. Galduak gara betiko, gure gaistakeriak zuk aztu-ezik. Gorora egizuz gure asko-gureak erakutsi eutsuzan bizitza ta eriotza garratzak; gorde gaizuz ondamendi ta galbideetarik; eta gorputz arimako gatx ta gertaera txarretarik. Baketu ta adiskidetu gaizuz zure Aita aserratuagaz. Bai arren, bildots errubagea eta Yaun errukiorra.</p>
+<p><hi rend='Bold'><foreign>DOMINE NON SUM DIGNUS</foreign>-EAN</hi></p>
+<p><hi rend='Bold'>ESAIZU</hi></p>
+<p>Yauna, ez nas ni dui&ntilde;a, zu nire etsean sartuteko; baia berbatxu bat esaizu, ta garbituko da nire arimea.</p>
+<p><hi rend='Italic'>Iru bider esango dozu au; ta euki egizu </hi></p>
+<p><hi rend='Italic'>guraari bizi erexegin bat, </hi></p>
+<p><hi rend='Italic'>Kristoren gorputza zeure biotzean artuteko; </hi></p>
+<p><hi rend='Italic'>zeineri deritxon arimeazko komuni&ntilde;oa; </hi></p>
+<p><hi rend='Italic'>baia orretarako arimea garbi </hi></p>
+<p><hi rend='Italic'>izan bear dozu, bekatu mortal bagarik.</hi></p>
+<p><hi rend='Bold'>KOMUNIOAK</hi></p>
+<p><hi rend='Italic'>Esan gura deusku, zelan Kristoren </hi></p>
+<p><hi rend='Italic'>gorputz ila obian sartu ebeen.</hi></p>
+<p><hi rend='Bold'>ESAIZU</hi></p>
+<p>Erdu Yauna, ene biotzera, eta egin tzaitez ene yabe oso osoa. Aberastuta edertu egidazu arimea, zu lango Yuan andia beardan legez nigan sartuteko. O Yauna! nor tzara zu, ta nor nas ni? O nok leukean zeure Amaren garbitasuna barruan zuri ostatu emoteko! Baazaut, Yaun nire ezerbere-eza; bakus enasala ezpada lurreko artzantar, billau gauza-ez bat; baia orregaiti bere zeugan dagoz ondasun guztiak, eta alan aberastu nagizu zeruko ondasunez. Zeuretu nagizu, zeurea guzti au izan nadintzat; zu beti lurrean nigaz egonik, zeruan beti gozetako. Amen.</p>
+<p><hi rend='Bold'>MISALA BATERIK BESTERA</hi></p>
+<p><hi rend='Italic'>Igaroteak esan gura dau, </hi></p>
+<p><hi rend='Italic'>munduaren azkenean gure fede santura </hi></p>
+<p><hi rend='Italic'>iragoko direala Yudegu, Ereje, ta fedebaako guztiak.</hi></p>
+<p><hi rend='Bold'><foreign>DOMINUS VOBISCUM-</foreign>EK</hi></p>
+<p><hi rend='Italic'>Yesukristo biztu ezkero agertu ekiela </hi></p>
+<p><hi rend='Italic'>bere Amari, Apostolu ta Andra santai.</hi></p>
+<p><hi rend='Bold'>GEROENENGO ORAZI&Ntilde;OAK</hi></p>
+<p><hi rend='Italic'>Adierazoten dabe, bere Ikasleai ets </hi></p>
+<p><hi rend='Italic'>Sazerdoteai emon eutsen bekatuak parketako, </hi></p>
+<p><hi rend='Italic'>ta fedea mundu guztian zabalduteko, esku'bidea.</hi></p>
+<p><hi rend='Bold'>AZKENENGO BEDEINKAZI&Ntilde;OAK</hi></p>
+<p><hi rend='Italic'>Kristoren zeruetara igoerea Espiritu Santuaren etorrerea </hi></p>
+<p><hi rend='Italic'>eta Yudizioko egunean onai ezarriko deutsuen bendezi&ntilde;oa.</hi></p>
+<p><hi rend='Bold'>OSTERENGO EBANJELIOAK</hi></p>
+<p><hi rend='Italic'>Ulertarazoten dau, zelan igonik zerura Yesukristok, asi zirean Apostoluak munduko baster guztietan Ebanjelio santuko egiak zabalduten.</hi></p>
+<p><hi rend='Bold'>ESAIZU</hi></p>
+<p>Zeruetako Ama maitea, Yaungoiko bakarra, gauza guztien egillea! nik bekatari andi onek Elexa Ama santagaz batera opa deutsut meza santu onetan eskini yatzun sakrifizio beneragarri au. Berean barriztadu dira zeure Seme biotzekoaren bizitza, pasi&ntilde;o ta eriotzea. Begira, Yauna, meza onetan egin danari; eta entzun egizuz beran, zeure Seme maiteak, entzulaak ta Elexa guztiak, egin deustuezan eskariak, gure bekatuen zorren alderako, eta purgatorioko Arimeen onerako. Ondu egizuz bekatariak; argitu fede-baakoak; indartu fedean kristi&ntilde;auak; zaindu Elexea; eta ez eiguzu ukatu eriotzako orduan zure Semearen gorputza; igoteko gero bera ikustera zeruko gloriara. Amen.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>ONDO KONFESETAKO ETA KOMULGETAKO ORAZI&Ntilde;OAK</p><--</head>
+        </front>
+        <body>
+<p>Ezta ain erraz zein da askok uste dabeen, konfesi&ntilde;o on bat egitea. Ezta itoan egin bear dan zeregina; leenagoti prestetako aleginak egin da beti, asko dago zereginik, Yaungoiko aserratuagaz bakeak egiteko, zeinen aurrean gure kontra deadarrez dagozan gure bekatuak, eta eske ta eske, gu infernuko ondarretara botetako.</p>
+<p>Gauza askok lagundu bear deutse ondo egingo dan konfesi&ntilde;oari; baia bearrenak dira bost. 1. Esamina konzienziakoa. 2. Bekatu mortal eginen damu benetakoa. 3. Aurrerantzean geiago ez egiteko gogo zolia. 4. Bekatu mortal guztiak, batxu bere ostu bagarik, artez konfesi&ntilde;oan agertutea. 5. Konfesoreak aginduriko penitenzia zeero egitea.</p>
+<p><hi rend='Bold'>ESAMINA AURREAN ESAIZU</hi></p>
+<p>O Yaun errukiorra! ara emen zure aurrean bekataririrk galduena. Lotsaren andiz nago aurpegia yausi yausi egin-da, begiak gora zeu-gana egiteko biotzik ozta daukadala; Argitu egidazuz, arren, ene arimako begi ilun itsutuok, ene biotzeko baster ezkutuak arakatuteko; ene bekatu asko eta andi tzarrak billatuteko; ene arimako ezaintasun ikaragarria argiro ikusteko; eta artez ezagututeko ene buruaren orain arteko kalte gogorrak.</p>
+<p>Agertu egidazuz, Yauna, ene biotzeko okollu ta ostendera guztiak, gelditu eztenditzat bekaturen bat ez bat ezkutuan ikutzagarik; eta lagundu egidazu ondo egiten konzienziako esaminea; zegaiti ze sor-gor, yakin-ez bat nas ni, eta zeu bagarik ezin gogora ekarri neiz bekatu guztiak.</p>
+<p>Yaungoikoaren Ama maitea, Angeru Gordetzallea ta zerutar guztiak lagundu ta biztu nagizue, aurkituteko neure arimaan dodazan gaistakeria, okerr-egite eta bekatu guztiak; presta nadintzat ondo konfesetako, ta Yauna-gazko benetako bakea, ta neure bekatuen parkazi&ntilde;oa izateko. Amen.</p>
+<p><hi rend='Italic'>Esaizu gero askotan biotz biotzerik akto kontrizi&ntilde;okoa, edo </hi>Neure Yauna Yesukristo.</p>
+<p><hi rend='Bold'>ESAMINEA EGITEKO BIDE ERRAZA TA LABURRA</hi></p>
+<p><hi rend='Bold'>LENENGO AGINDUAREN GANEAN</hi></p>
+<p>Begira zelan egin zenduan leengo konfesi&ntilde;oa, edo leenagokoak; lotsaz, bildurrez edo aztuzaz bekaturik itxi bazenduan; zan ba&ntilde;o gitxiago edo ederrago esan bazenduan; damurik edo onduteko gogo zindorik ezpazeroian; edo beste aldetati konfesi&ntilde;o edo komuni&ntilde;o okerrik egin bazenduan.</p>
+<p>Begira ea konfesoreak aginduriko penitenziak egin bagarik badaukazuz, edo luzaro zeure nagiz atzeratuta erabili izan badozuz; edo berak atzera yaubeari biurtuteko esan eustun gauzarik, ainbagarik badaukazu; ea eldu izan bazara berak eragotziriko etse, lagun arte, yolas, begira, fiesta era orretara, edo berba egin badozu, ez egiteko esan eutsun lagunagaz.</p>
+<p>Fedea galdu izan badozu, ezer sinistuten dozula Elexa Ama santeak erakusten dabenaren kontra; edo egon izan bazara zeure artean alan badira ezpadira atzeratuteko aleginik egin bagarik.</p>
+<p>Irakutsi edo esan izan badozu yakinen ganera, bekatu dana eztala, edo eztana baidala; edo eztagoala zerurik edo infernurik; edo gure arimea eztala betiko iraun bearra; edo Yaungoikoak eztakiala zer darabilen, edo gauzaak oker darabiltzazala, edo obeto erabili leikezala.</p>
+<p>Ea bear dan dotrinarik badakizu, edo yakiteko aleginik egiten badozu.</p>
+<p>Uste izan badozu, beti deungaro bizi izan-da bere, orregaiti zerurako bazareala; edo bestera, ain bekatari andi tzarra zareala eze, zuretzat ezin zerurik ezetara bere izan leitekean; edo eztagoala zeure eskuan salbetea Yaungoikoaren grazia lagun dozula bere.</p>
+<p>Yaungoikoa-gana biurtea eriotzako ordura artean luzatuteko gogorik izan badozu.</p>
+<p>Izan badozu Yaungoikoaren gorrotorik gaixopean, edo artutxu ta nekatu zaukazalako.</p>
+<p>Emon badeutsazu zeure buruari bekatu eginaren edo egingo dozunaren laudoa eta gorantzea.</p>
+<p>Betean emon izan badeutsezu sinisterik, sorginkeria gauzai, edo aztuen asmu, ipuin ta guzurrai, edo zure ames zoroai, ta onelango biderik eztaroen etorkizun, erremedio ta zorakeriai.</p>
+<p>Irri ta barre gauzarik Yaungoiko ta Snatuak-gaiti esan edo euren kontrako biraorik edo burorik egin izan badozu.</p>
+<p>Promesen bat bein agindu ezkero egin-tzagarik, edo luzaro atzeraturik badarabiltzu.</p>
+<p>Elexan ezer ostu, edo ediskide deungeari berba labanak edo nasaiak esan, edo si&ntilde;u, irri-barre, edo beste zorakeriaren bat egin, edo beste aldetara, dan legez dala, gauza txarrik egin izan badozu.</p>
+<p>Fede, esperantza ta karidadeko egintzaak bere aldietan egiten izan ezbadozuz.</p>
+<p><hi rend='Bold'>BIGARREN AGINDUAREN GANEAN</hi></p>
+<p>Begira ea egin izan dozunez guzurraren ganeko yuramenturik; bada guzur txikia ta txantxazkoa dala bere, beti da bekatu mortala.</p>
+<p>Egin izan dozunez alan dalakoan eztalakoan, gauzea artez yakin bagarik; edo besteren esanaren ganera zuk ikusia legez emon izan dozunez; ze oneek bere bekatu mortalak dira.</p>
+<p>Okerren bat i&ntilde;ori etorri izan yakonez zure guzurrazko yuramentuti, edo zuk besteari eragineti.</p>
+<p>Gatxen bat zeure buruari edo besteri egiteko yuramenturik egin dozunez; edo osterantzean bekatu mortala dan gauzea egitekoa.</p>
+<p>Emon deutsazunez i&ntilde;ori guzurrezko yuramento egiteko bidea edo beinik bein berak ondo yakin-ezean, alan zalakoa emotekoan imini zenduanez.</p>
+<p>Esan izan dozunez biraoak eta arranak; izan direanez gatxezkoak eta noribait oratuko yakazanak, eta zeinbat izan direan.</p>
+<p>I&ntilde;oren gatx-baako biraoak izan arren, bekatu mortala egin izango dozu, zeuk aintzat ostean esan badozuz, eta konfesau bear dozuz. Eta dana dala beti da izkune okerra txatean pitean gatz bagarik birau urtika ibiltekoa, eta aztutera aleginak egin bear dira.</p>
+<p><hi rend='Bold'>IRUGARREN AGINDUAREN GANEAN</hi></p>
+<p>Begira yai-domeketan meza osoa beti ta ondo entzun izan badozu; mezea uts egiteko bidean zeure burua imini izan badozu; I&ntilde;or besterik zeure erruz entzun bagarik geratu izan bada.</p>
+<p>Ea mezatan zeure guraz egon izan bazara gogoa beste lekutan dozula; edo berbaz, lo, albora begira, besteai galarazoten.</p>
+<p>Premi&ntilde;a andi bagarik bearrik zuk egin, edo besteri eragin badeutsazu, nai dala doan, nai alogerez edo sariz; nai eztarian, nai agirian, bada guztietara da bekatu.</p>
+<p>Barau-zaro egunetan, barau egin bearrik, galdu egin badozu; edo oneetan ta barikuetan ta beste egun debekatuetan lege eztan legez koipea yan badozu, edo arra&ntilde;a ta okela gauzea yat-ordu baten; edo zuk ez arren, norbaiteri yan eragin badeutsazu.</p>
+<p>Garizumaan bulda bagarik arrautzak, gaztaia, edo esne gauzaren bat yan badozu.</p>
+<p>Amarren-primiziak artez egin ezpadozuz; amarrenari txatxarrena edo adinona, zuretzat onena gorde-ta emon badeutsazu; azitakoa, edo lubarriena atzeratu badeutsazu; edo amar zuretzat eta amaikagarrena amarrenari emon badeutsazu; bada amarrenaren izenak berak di&ntilde;oan legez, artuten daneti amarrerik bat zor yako Yaungoikoaren Elexari.</p>
+<p><hi rend='Bold'>LAUGARREN AGINDUAREN GANEAN</hi></p>
+<p>Begira gurasoai, ugazabai, edo nagusiagoai eusren lotsea edo zor yaken itzala galdu badeutsezu; euren esanak egin gura ezik ibili bazatxakez, edo atzera erantzuten edo erremuxkadaak, burrufadaak, abrigutxarrak, begiraunaak edo adikunaak egiten; edo beste aldetara ernegarazo bedeutsezu.</p>
+<p>Ea gaisorik egonik ikusi ezpadozuz; zartzaroan begiratu, eta premi&ntilde;a ta mee-aldietan lagundu ta ez-unetan emendatu ezpadozuz; zeure erruz Elexakoak bagarik, edo testamentua egin bagarik il izan badira.</p>
+<p>Guraso edo etseko-buru bazara, begira ondo, ea zelan eta nondi dabiltzazan zure ume, otsein, ta ogitukoak; zelan dakien dotrinea; nos konfesetan direan; gauba ilundu-ta bere etserik kanpora badabiltz; ea erromeria, batzaako dantza, naasteko yolas ta gau-bigereetara agindu badozuz.</p>
+<p>Ea yakinik, edo susmea eukirik, zure umeak edo etsekoak kanpoan edo etsean deungaro bizi direala, edo lagun txarrakaz batzanduten direala, eragotzi ezpadeutsezu; ezkontzako berbaak emonik alkarren etseetara, edo alkarregaz egoteko lekura yoaten itxi badeutsezu; eta ori berba ori emon ezkero, berarizko ta beregiko ardura bat artu ezpadozu arimako okerrik izan ez dedintzat.</p>
+<p>Begira ea biraoak a&ntilde;enak, berba loiak, edo beste aldetati deungaak, eurak dantzuela, esan-da, edo gauza okerren bat, eurak dakusela, egin-da, edo eurai egiten agindu-ta, edo bestelan txarrerako biderik emon deutsazunez; lau bost urterik gorantzako seme alabaak oean alkarregaz badaratzazuz; edo senar-emazteok zeuen alboan, edo gelan.</p>
+<p>Ea euren aldia eldu ezketi&ntilde;o zure erruz ezkon-zagarik badagoz; edo euren gogoaz bestera ezkondu badozuz; edo Yaungoikoak osterantzean dei egiten deutsen estadua edo bizi-modua artuten zure aleginean lagundu gura ez edo bear bada galerazo badeutsezu.</p>
+<p>Ezkondua bazara emen gogoea eikezuz zeure lagunagazko aserre-aldiak, deungaro esakaak, esku-yoteak, eta onelangoak; baita bere ondatu izan badozuz yan edanetan, yokoan, tratu okerretan, auzitan, so&ntilde;ean ta zorakerietan, lagunak eta umeak bear leukeena.</p>
+<p>Testamentario i&ntilde;o9k itxi bazaituz, begira ea egin bagarik badaukazuz aren elexkariak eta agintzaak, eta atera bagarik zorrak eta mezaak.</p>
+<p><hi rend='Bold'>BOSTGARREN AGINDUAREN GANEAN</hi></p>
+<p>Gogora egizu, ea i&ntilde;ori gorrotorik, kurrukarik, edo ikusi-ezin andirik izan; agurra ta berbea kendu edo gatxik opa izan deutsazunez; edo etorri izan yakan okerragaz biotza argitu, edo onagaz ilundu yatzunez.</p>
+<p>Ea errieltea, edo aserre-aldia izan, eta berba astunak esan, edo iraunak i&ntilde;ori emon deutsazunez.</p>
+<p>Besteren arteko bakea, edo adiskidetasun ona, edo ezkontza egi&ntilde;a edo igaroa barriakaz eta zeure mii&ntilde; gaistoagaz galdu dozunez.</p>
+<p>Ea i&ntilde;or il, ebagi edo yo dozunez, eta atarik gero edo berari, edo besteri beste kalteren batzuk etorri yakozanez.</p>
+<p>Eriotzarik, edo beste kalte andirik zeure buruari opa, edo emon gura izan deutsazunez.</p>
+<p>Ea sabeleko sei&ntilde;a galduteko aleginik egin, edo besteren bat atan imini izan dozunez; edo ain bagarik, zeure erruz galdu edo galduteko bidean yarri izan tzareanez.</p>
+<p>I&ntilde;os katutu, edo yakinaren ganera lar edan, edo kalte andia egingo eutsuzuna artu izan douznez; edo i&ntilde;ori alangorik eragin deutsazunez. Ea orditutea ekanduz izan daroazunez; eta yakinik tabernara, ileetara, ezteguetara, eta fiestetara yoan da, ardaoan yausten zareala, orregaiti bere alango lekuetara eldu izan tzareanez; eta esan bear dozu, zeinbat bider izan zatekean, beri yausi-ezagaiti. Eta alper dozu; orrei lekuoi betiko agurra egin bagarik, etzara zeure bizian ondo konfesauko.</p>
+<p>Bidebagako auzirik i&ntilde;ori emon, edo kerellarik ekarri deutsazunez; edo besteak zuri emonari, lege eztan legez, eutsi, eta yarraitu deutsazunez. Ea zeure erruz bear eztan auziren bat Erriak, edo besteren batek darabilenez.</p>
+<p>Norbeiteri bekatu egiten agindu, lagundu, edo orretarako burutasun txarrik emon badeutsazu, edo zeure deungaro eginagaz orretan imini, edo orretarako biderik emon badeutsazu.</p>
+<p>Ea bekatu mortalean egonik, zeure burua ilteko pelleburuan edo bidean imini dozunez.</p>
+<p><hi rend='Bold'>SEIGARRENEKOAREN GANEAN</hi></p>
+<p>Begira emen aragizko bekaturik egin badozu; leen egina gogoratu-ta, atan atan gogoz egon bazara; damutu baiatzu erea izan-da, ez egina; egiteko asmua artu izan badozu; edo asmurik ez arren, egon izan bazara gauza loi seigarrenekoren bat burutan dozula, aztuteko, edo gogoa beste gauza batera yokatuteko aleginik egin bagarik; edo amesetako gauza loiren bateri eder-eretxi badeutsazu, eta burutarik kenduteko aleginik egin ezpadozu.</p>
+<p>Ibili izan bazara eskuaz deungaro, edo zeure buruagaz, edo dan legezko lagunagaz; bada nai gizonezkoak euretara dala, nai emakumeak emakumeetara beti da bekatu.</p>
+<p>I&ntilde;ori alangorik erakutsi badeutsazu, edo orretarako esan, mandatua agindu, edo zelan alan bide okerra emon badeutsazu; edo zeu i&ntilde;oren estalgilla ta mandatari ibili bazara.</p>
+<p>Kanta ta desta&ntilde;a zantarrik, ipuin loirik, edo berba barre-eraginkarri nasairik esan, edo besteai eraso, edo besteak esateko zuk egin edo imini badozuz; edo alangoak gogoti entzuten egon bazara.</p>
+<p>Ibili bazatxakoz gogo okerraz edonori bere aurpegira edo beste lekutara begira; edo si&ntilde;uka ta ki&ntilde;uka; edo egon bazara adi-ikusten zelan besteren batzuk deungaro dabiltzazan; edo patariai, abereai, edo pistia zantarrai, umeak artuten dabiltzazanean, orren bearrik eztozula.</p>
+<p>Berba baten agertuko deutsazu konfesoreari, lotsaak albora bota-ta, zuk gogoz, berbaz, mosuz, eskuz, ikustez, entzutez, edo bestera izan dozuzan argaltasunak; ibili izan bazara zirika, bultzaka, oraka, auska, itzulimurdika edo zapuzka; ta esan eikiozu beti, nor dan izentadu bagarik, zelango lagunagaz izan tzan, ezkonduagaz, ainbaakoagaz, boto kastidadeko-dunagaz, aideagaz, nai odolekoagaz, nai oratuagaz, eta zeinbatgarren aide zenduan; baita bere izan bazenduan ezer patariagaz, edo abere mutuagaz. Esan bere bear deutsazu, ea zeure etse barruan, edo zeure agindura badaukazu bekatu-laguna.</p>
+<p>Ezkoanduak bere konfesau bear dabe, lagunari gogortu baiakoz, laketu ta lagundu gura bagarik ondo dan aldietan, besteak esan-da bere; edo egin izan badabe oker dan orduan, edo txarto dan elde-erara, edo umeak edo bestek asmau leikiela; edo urak euren erruz, dana dala gaiti, zabaldu ta galdu egiten dituezala, edo galdu leikeezala.</p>
+<p>Onen ganean yakin egizu eze, seigarreneko gauzeetan eztagoala gauza txikirik; guztiak dira astunak eta zakonak; eta alan eztozu batxu bere konfesi&ntilde;oan atzeratu bear; eze bein bat atzeratutera azkerokoan guztiak geratuko yatzuz parka-tzagarik. Baita esan, onelangoen ganean biotzean daukazuzan errenkura, konka ta ezda-baida guztiak.</p>
+<p>Yakinik egon bear tzara eze, bazabiltze gazteak naastean batzaako dantzetara, yolasera, fiestetara, gau-bigiretara, erroldara, arta-zurietara, li&ntilde;a-gintzeetara, karobietara, txakolin-saltzeetara, ezteguetara, eta alangoetara, etzareela garbi izango, zuek alan uste izan-arren. Eta ara bere okerrago, bein ezkontzako berbea emon ezkeitio, ezkongei biok alkarregaz bazagoze.</p>
+<p>Eta azkenez yakin bear dozu eze, zeure etsean egiten bada batzaar nastua, edo zeure agindu-pekoai itxiten badeutsezu alango tokietara yoaten, edo leen esan direanetara ibilten; edo eragotzi bear dozula eragozten ezpadozu, zure bizkarrera izango dozuzala, orreek leku orreetan egin daikeezan bekatu guztiak; eta alan onelangoen ganean bere esami&ntilde;a egin bear dozu.</p>
+<p><hi rend='Bold'>ZAZPIGARREN AGINDUAREN GANEAN</hi></p>
+<p>Begira ezer ostu, edo ostuteko gogorik izan badozu: zeinbat zan; zeinbat aldiz; zeinbatena; ta izan bada Elexaan, edo Elex-gauzea.</p>
+<p>Ea gurasoai so&ntilde;erako, ta o&ntilde;erako ta zorakerietarako artoa, garia, edo beste gauzarik egin badeutsezu; bear dan baxen geiago gastarazo badeutsezu, neba-arrebeen kaltean.</p>
+<p>Otsei&ntilde;a edo ogitukoa izanik, ta zeure soldateari gitxi eretxirik, edo ainbaakoan, ugazabai ezer ostu badeutsazu.</p>
+<p>I&ntilde;oren ortuan, soloan, basoan, abereetan, edo gauzeetan kalterik egin badozu; edo egiten agindu, lagundu, edo orretarako burubiderik, edo o&ntilde;ik emon badozu; edo bestek ostua artu, edo estaldu badozu.</p>
+<p>Yokoan, saldu-erosietan, ta artu emonetan zindo ta garbi ibili ezpazara; pisuan ta neurrian gazago ta laburrago emon; edo gauza kaltetua, edo atxakia-duna, esan bagarik ontzat sartu; edo lege dan baxen merkeago erosi, eta gorago saldu badozu; ganadua erdiratzan, bear dan garbitasunean, ezpadaukazu.</p>
+<p>Dirua epeetan eta ordeaz emon agaiti korriarik eroan badozu; zeinbat eta zelangoari.</p>
+<p>Galarazo badeutsazu otsei&ntilde;ari soldatea, bearginari alogera, mandatariari saria, eta edoze&ntilde;eri bere izerdia.</p>
+<p>I&ntilde;orentzat alogerean edo bearrean ibilirik, bear litekean ba&ntilde;o lan ta bear gitxiago egin izan badozu.</p>
+<p>Leen osturiko gauzarik, zorrik, edo i&ntilde;oenik yaubeari aleginean emon bagarik luzaro badaukazu.</p>
+<p>Arkitu izan dozun gauzaren bat, zuretzat gorde izan badozu, yakitera egin bagarik noena dan, edo konfesoreagaz edo yakitun bategaz ondo itun bagarik.</p>
+<p>I&ntilde;oren besteren ondasunak, edo gauzea lege eztan bideti zeuretu gura izan badozuz.</p>
+<p><hi rend='Bold'>ZORTZIGARRENEKOAREN GANEAN</hi></p>
+<p>Begira ea guzurrik esan dozunez, eta ea atati gero norbaiteri okerrik etorri yakonez.</p>
+<p>Ea i&ntilde;ori guzurrik erne deutsazunez; edo zuk zeure aragiari kendu ez arren, edo zuk ikusia edo entzuna, ta egia izan arren, besteren kreituko etena, oraindo ixilik dagoana, edo gitxik dakiana, eztakianaren edo eztakien belarrietara eroan dozunez; eta atati gero zabaldutera etorri izan danez.</p>
+<p>Ea besteri kreituan kalte ekarriko deutsan kantarik atera dozunez; edo alangorik zuk desta&ntilde;ez kantau dozunez.</p>
+<p>I&ntilde;oren kartarik zabaldu edo yaubeak gura eztabela, irakurri dozunez.</p>
+<p>Ea kreitu galarazoa atzera leengo senean iminteko, konfesoreak esan da bere, aleginik egin eztozunez.</p>
+<p>Ea besteren batek zeure aurreti esan izan daben kreituzko deungaroa gogoz entzuten egon izan zareanez.</p>
+<p>I&ntilde;oren bizitzako gauzaak yakin ezinik, edo basterretako ereziak ta errondoak batu ezinik ibili zareanez.</p>
+<p>Egin izan dozun susma deungeari, edo buruak ekarri izan deutsun peko txarrari, arin ta bete-betean sinistea emon deutsazunez, eta ea inori iragarri deutsazunez.</p>
+<p><hi rend='Italic'>Bederatzi ta amargarrenekoen ganekoak, bost Elexakoenekoak, eta osterantzeko bekatuak sarturik doaz esanik doazaneetan.</hi></p>
+<p><hi rend='Bold'>ESAMINA OSTEAN</hi></p>
+<p><hi rend='Bold'>ESAIZU URRENGO ORAZI&Ntilde;OETARIK GURAAGO DOZUNA</hi></p>
+<p>I. Ene Yaungoiko on, eta Aita maitea! arriturik, eta lotsea daridala imini nabe ene bekatu asko ta andi tzarrak. Arakatu dodaz zeure argiagaz neure biotzeko bazter ezkutuak; bururatu dodaz aleginean, zure kontra nik eginiko gaistakeriak; eta zuk, ustez ezauerazo deustazuz ene bekatu ezain eskergaak; eta gogorturik nauko ikusteak nik egin dodana, eta zelan zure ontasunak itxaron deustan.</p>
+<p>O Yaun biotzekoa! Zelan nik aztu izan zaitudaz? Zelan ausi izan dodaz zure lege ta agindu santuak? Zelan yausi izan nas ainbeste bekatutan? Zelan egon zatxataz ain luzaro ixilik eta bakean? Zelan iruntsi ez nau infernuak? Zer egindot nik?</p>
+<p>Ay! ta ze ikaraturik naukeen nire bekatu andi itzalak! Bildur nas astirik izango ez ete dodan konfesorearen o&ntilde;etara elduteko. Ay ene zorigaistokoa, konfesau ba&ntilde;o leen ilten banas!</p>
+<p>II. Yesus ene artzain ta erosle maitea, izan zaitez zu zeure Aita aserratuagaz nire bitarteko. Andiak dira, eskergaak dira, egia da, ene bekatuak; baia andiagoa eta zabalagoa da ezin geiagoan zure ontasun neurri baakoa, eta enegaiti ainbeste igarazo eutsun zure on ereste gozoa.</p>
+<p>Zeruetako Erreginea, bekatarien Amarik laztanena, ta bitartekorik maiteena; Angeru ta zerutar santuak, eskatu egi9ozue zuek Yaungoikoari bekatari andi onegaiti. Bekatuaz egin nas bere arerio, ezaindu dot arimea, galdu izan dot zerua, irabazi izan dot infernua, eta betiko eneak egin eban, zuek ene bitarteko urten ezik.</p>
+<p>Ay Yauna! Errukia bekatari andi onegaz! Oraingi&ntilde;o gaisto okerra izan banas bere, bigundu egidazu, Yauna, ene biotz arrizko au; indazuz negarrezko korrontaak, nire bekatuak urtuteko; ez nagizu, arren, zure begi errukitsuen aurreti bota; estu, lotu ta eusti egidazu ondo ondo, geiago biurtu ez nadintzat leengo bekatuen ondamendi itzalera.</p>
+<p>Damu dot, Yauna, bekatu egin izana; baita damu dodala biotz guztirik. Errukia, Yauna, errukia bekatari andi onegaz. Onerik aurrera beste bat izango nas. Aurrerantzean gorrotoz, eta gorroto andiz, begiratuko deutsat bekatuari. Leenago ilgo nas il, bekatu egin ba&ntilde;o. Bai, Yauna, bai: alantxe izango da zuk lagunduten deustazula.</p>
+<p><hi rend='Bold'>BEKATUEN BENETAKO DAMUTASUNA ARTUTEKO ORAZI&Ntilde;OAK</hi></p>
+<p><hi rend='Bold'>ESAIZU ZEUK URRENGO ORAZI&Ntilde;OETARIK </hi></p>
+<p><hi rend='Bold'>BATA EDO BESTEA, ZEURI ONDOEN DERITXAZUNA</hi></p>
+<p>I. O ene Yaungoiko maitea! zu zareana zarealako, eta maite zaitudazalako gauza guztien ganeti, damu dot bekatu egina; damu dot biotz guztirik zure ontasuna neure bekatuakaz ofendidu izana; damu dot zure lege santua gorde eza: eta gura neuke, damuarren zatituko balitxat enen biotz prestu-ez au.</p>
+<p>Emoten deutsut berba zindo benetakoa, aurrerakoan ez geiago bekaturik egiteko; bekatuen bide guztietarik alde egiteko; nire bizitza gaistoa onduteko, eta biotz guztiaz zeu maite izateko. Bai, Yuana; leenago ilgo nas milla bider bere, ta leenago galduko dodaz osasuna eta ondasun guztiak, zure kontrako okerrik egin ba&ntilde;o.</p>
+<p>II. Ay nen biotzeko Yaungoikoa! Non tzan ene zentzuna bekatu egit-orduan? Nora adi nengoan, zure ontasunari bide baako ain itzalak egin neutsazanean? Zer egin dot nik?</p>
+<p>Bekatu bakar bategaiti asko ta asko datzaz infernuko laba gorietan; zelan bada niri ixilik eroan deustazuz ainbeste, ta ain andiak? Zeinbat dagoz oraintxe erretan infernuan nik baxen bekatu gitxiagogaz?</p>
+<p>Zer izango zan nigaz, eta non nengokean ni orain, il izan baninduzu, beste asko legez, bekatu egin-da bertati? Eta, zeren begira nago, atzera biurtuten banas, orain artean ain sarriro egin dodazan bekatuetara?</p>
+<p>III. Ay Yauna! eta, ze larri-ikaraturik naukeen neure bekatuak! O ontasun azkenbaakoa! eta, ze billau dollorra izan nasan ni zugaz! Zuk ni ezerbere ezeti sortu ninduzun; zuk kristi&ntilde;au egin nozu; zuk alde guztietara zoriundu nozu.</p>
+<p>Ni gaiti yatzi zinean zeruti lurrera; nigaiti aragiz yantzi zi&ntilde;ean; ikusi zenduzan neke, barau, atsakaba, ta gogortada entzun ezak. Nigaiti emon zenduan zeure odola; galdu zenduan zeure bizitzea kurutze baten untzeakaz yosirik; eta nik eskerbaako onek, zelan erantzun deutset alango laztantasun eta on-eretxi gozoai, eta alango mesede ezin andiagoai?</p>
+<p>IV. Ay Yauna! errezki izango dozu nizaz erruki! Ondatu aginean naukee neure bekatu astunak; betiko galduteko arri labanaren ganean nauke ene gaistakeriak. Deadarrez yustizia eske yagotzuz ene okerreriak. Ah! Bear bada ezteustazu luzeroago itxadongo; eta urrengo egin daikedan bekatuan, ene ganean yoko dau nire kontrako betiko sentenzia gogor adugaistokoak.</p>
+<p>Eta, zer egin nei nik estukuntza onetan? Nora biurtuko dodaz begiak? Nori dei egingo deutsat? Nogana etxungo nas? Baia, nogana, ezpada zeugana, ene Aita, Egilla, eta Ongin maite orregana; ene Yaun ta Yabe ona gana?</p>
+<p>Ara emen bada, Yauna, zeure o&ntilde;etan parkeska seme gaisto, galtzalle au: zeure artaldeko argi galdu deslaitu au; zeuk erosiko arima balio andiko au.</p>
+<p>V. Andiagoa da zure ontasuna, nire okerreria ba&ntilde;o. Nik galdu izan dot zure seme izatea, baia zuk ez niganako aitatasuna. Nik ni-gan dagoan guztia egin izan dot, ene burua betiko infernuan sartuteko; zeuk barriz egin dozuz aleginak eta ezin eginak, ni zerurako bidean iminteko.</p>
+<p>Baakit nik, gura eztozula bekataria galdu dedin; ezpekizu arren gura ni9 galdutea; izan tzaitez nire erruki; ez naizu emon infernuko otso amurratuen erpa artera.</p>
+<p>Errukia, Yauna, nizaz; errukia bekatari andi onezaz; errukia parkazi&ntilde;oa ta grazia. Amen.</p>
+<p><hi rend='Bold'>KONFESI&Ntilde;O AURREAN</hi></p>
+<p><hi rend='Bold'>ESAIZU URRENGO ORAZI&Ntilde;OETARIK BAT EDO GEIAGO</hi></p>
+<p>I. Emoidazu, Yauna, zeure argia, neure bekatuak ezagututeko; damu oso bat, neure erru guztiak gaiti negar egiteko; eta astia, direanok, garaurik bere itzi-bagarik, konfesetako.</p>
+<p>Ez nas lotsa izan bekatu egiteko; eta eztot lotsarik bear ko9nfesorearen o&ntilde;etan agertuteko, gogoz, berbaz, ta egitez izan dodazan etenak eta obenak.</p>
+<p>Bigundu egidazu, Yuan errukiorra, ene biotz kaltzaiduzko au; yosi egidazu zeure bildur santuaz arimea; eta lagundu egidazu konfesi&ntilde;oak dirauan arte guztian; bekaturen bat ez bat konfesa-tzagarik geratu eztakidan; bada eztakit, berau dodanez neure azkenengo konfesi&ntilde;oa.</p>
+<p>Birjina Ama Maria, Angeru Gordetzallea, Santu Santa guztiak, izan zaiteze orain bitarteko neureak; artez ta zeatz konfesadurik neure gaistakeria, ta bekatu guztiak, asi nadintzat Yuangoiko aserratuagaz bakeak egiten, eta presta nadintzat artzeko, bein penitenziako sakramentu au; eta gero altarakoa.</p>
+<p>II. Begira, Yauna, begira zakioz errukiz bekatari andi oneri; ez arren nigaz egin, nik merezi dodan legez; begira zakioz, nigaiti kurutze baten illik egon tzan zure seme gozoari; begira nire ondo guraz ai9n ugari emon eban odol ederrari. Nire erru ta zor guztiak baxen gaiago da askozaz bere, berak opa izan eutsun ordea.</p>
+<p>Begira bere Ama maiteari, zeinen eskus eskintzen deutsadazan Ama-Semeen merezimentu ta irabazi andiak, eta Elexa Santuko osterantzeko ondasun neurri bagaak.</p>
+<p>Esanik dozu zuk eze, baldin bekataririk gaisto galduena zu gana ondo damuturik badator, zuk aztuko dozuzala bere deungaro egin guztiak. Ara bada emen, Yauna, dan bekataririk okerrena; ez nagizu bota zeure begien aurreti; ez egidazuz itxi zeure errukiaren ateak. Deiez nagotzu; parkeska nagotzu; ez bada arren, belarriak gortu ene deiai, ez ene eskariai.</p>
+<p>III. Belu nator zugana. Askotan emon izan deutsut onduko nasalako berbea, eta eztot orain artekoan yagon; baia oraingoan ezta alan izango. Damu dot zeu ofendidua; ez nas geiagoren geiago bekatu bidera biurtuko; gogo zindo zindo bat daukat, aurrerantzean neure bizitzea onduteko.</p>
+<p>Zeugan, Yauna, daukat uste bete betea; zeugana biurtu gura dot; baia orretarako zure argia bear dot, neure bekatuen iluntzasun itzal onetarik urteteko; eta ondo ikusteko, eurak arimaan egin deusteezan kalte gogorrak.</p>
+<p>Lagundu egidazu, Yauna, ondo konfesadu nadintzat. Argitu egizu konfesorea zerurako bidera zuzendu nagiantzat.</p>
+<p>Ay Yauna! zelan konfesaduko nas ondo, zuk lagundu ezik? Zelan yagi ta garbituko nas, zuk eskua emon bagarik?</p>
+<p>Damu ta negar billa bazabiltz, ona emen damuturik ta negarrez bekatari andi au. Damu dot Yauna, damu dot biotz guztirik; errukia nizaz.</p>
+<p><hi rend='Italic'>Esaizu </hi>Neure Yaun Yesukristo.</p>
+<p><hi rend='Bold'>KONFESI&Ntilde;OAREN ONDOREN ESAIZU</hi></p>
+<p>Neure Yaun Yesukristo, milla esker, emon deustazulako ene bekatuak konfesetako erea, astia, ta gogoa.</p>
+<p>Zeure ontasun andia-gaiti, eta zeure Ama Birjinearen merezimentu andiakaiti eskatuten deutsut, arren parkatu deidazula, konfesi&ntilde;o onetan izan neunkezan utsak; aztu egin baiataz bekaturen batzuk; euki ezpadot euren damu ain betea; eta neure argaltasunez izan neinkezan dan legezko uts-egite guztiak bada nik gura neunkean alik ondoen egin, zeure mai santura graziazko garbitasunez zuririk eta ederrik elduteko.</p>
+<p>Zeugan, Yauna, daukat nik uste bete-betea, parkatuko deustazuzala bekatu guztiak; gogortuko nozula geiago bekatuan yausi ez eiteko; eta i&ntilde;osko alditan argaltasunez yausten banas, emongo deustazula ostera bere, abegunea, gura izatea, ta laguntasuna konfesetako, bizitzea onduteko; ta eriotzagi&ntilde;o zeure grazian eta adiskidetasun onean irautea; alan gero zerura, zeu ikusten igoteko. Amen.</p>
+<p><hi rend='Bold'>YAUNA ARTU BA&Ntilde;O LEEN</hi></p>
+<p><hi rend='Bold'>ESAN EIKEZU URRENGO ORAZI&Ntilde;OETARIK BIOTZA OBATO BIZTU LEIKEZUNA</hi></p>
+<p>I. Ay Yauna! zelan asartuko nas ni, zu ene biotz atsituan artuten? Bor tzara zu, ta nor nas ni? Zu zara zeru-lurren egillea; ni barriz lurreko artzantar billau atsituena. Zu zara danik yaun miragarriena; Zure aurrean lotsea ta beldurra dariela dagoz Angeruak; zure eskurik eskegirik, dingilizka legez, dagoz zeruak eta zeru-pe guztia; ezer ezkara zeure aurrean; ezdozu zuk i&ntilde;oren bearrik; eta zeure esate bakar bat da asko, gauza guztiak ezereztuteko.</p>
+<p>Ni barriz, zer nas zugana elduteko? Zu nire ao ta bular loian sartuteko? Enas ni ikuski zantar ezetarako ez bat; bekatuz kirastua; abere itsu bat, eta ezin geiagoan billau prestu eza? Bada, ze aurpegigaz elduko nas, Angeruen ogia yatera?</p>
+<p>Moyses zeure adiskide andiak biotzik ezpeukan, zeu agertu zintxakazan sasi erexeginera urreratuteko; San Yoan Bautista zeure lenkusuk bazi&ntilde;oan etzala bera duin zeure o&ntilde;etako ugala askatuteko; San Pedrok bazirautsun: <hi rend='Italic'>Yauna, ken ni ganik bekatari galdu bat nas eta; </hi>Angeruak eurak auspez, aurpegia dariela, badagoz zeure anditasunaren aurrean; zelan elduko nas ni bekatari oker au, zeuri ene barruan ostatu emoten?</p>
+<p>II. O Yaun bildurgarria! begiratuaz beste bagarik zeru lurrak ikaratuten dozuzana! Yaun neurri bagarik andia, baia nire errukiz, eta nire ondo guraz zeure burua ezereztu-ta, altarako mai satuan egiazko yanaari ta edaari eginik gelditu zineana! Ay Yauna! ze arpegigaz elduko nas ni zu-gana?</p>
+<p>Baia, zer di&ntilde;ot nik, arpegirik eztodala? Zelan izango eztot, zu zeuk zu-gana erorteko dei egiten badeustazu? Ondo yakinik ene argaltasunaren barri, orregaiti, billatuten banozu? Banator bada. Yauna, banator bai; bada, zer egin neike zu-bagarik ezetarako ez onek? Zeu-gan indartu ta gogortu bear dau ene arima argal, erkin, kadenak. Banator bada.</p>
+<p>Baia, Angeru ederrak, zatoze zuek laster ene-gana, eta prestau egizue biotz billox gauza-ez onetan zeuen Erregeri yagokan ostatua. Birjina Ama Maria, San Yosepe gloriosoa, zeruko Santu Santaak, erdue zuek bere garbituten, eta edertuten ostatu ezain au, sartu dedintzat berean zeuroen yaubea, zeruko Erregea, neure Yesus maitea, Yaun ta Yaungoikoa.</p>
+<p>III. O Angeruen ogi zuri ederra! O zeruko erraari gozoa, amodiozko labaan egosia! Erdu, Yauna, erdu ordu onean nire etse uts onetara. Erdu aberastuten nire arimea; gogortuten nire argaltasuna; biztuten nire fedea; exetuten nire biotza; asetuten goseak-il au; zoriunduten errukarri nekatu au eta zeugaz bat egiten, zeuri ainbeste kosta izan yatzun seme galdu au. Ay Yauna! eta, ze aberats geratu bear dodan, zeu ene biotzean, nigaz bat eginik, ikusi ezkero!</p>
+<p><hi rend='Italic'>Eldu zaitekez gero gure Yauna artutera fede ta biotz-samurtasun, albait beroenagaz; eta Sazerdoteak Yauna eskuan dabenean, esaikezu zuk bere beragaz nastean iru biderreko aldiz:.</hi></p>
+<p>Yauna, ez nas ni duin, zu ene etsean sartzeko; baia esaizu zuk berba bat, eta osatuko da ene arimea.</p>
+<p><hi rend='Italic'>Ostia santua artuteko egon bear dozu moduz, geldi geldi, burua puskatxu bat gora eginik, begiak baturik, aoa zabalik, ta mii&ntilde;a aterarik.</hi></p>
+<p><hi rend='Bold'>YAUNA ARTU EZKERO</hi></p>
+<p><hi rend='Italic'>Esango dozuz urrengo orazinoetarik batzuk, edo orduan, edo beste aldi baten egun atan, ereak dakartzunean.</hi></p>
+<p>I. O Yauna! ze aberats nagoan zugaz! O ze ontasun andia erakutsi dozun bekatari oker onegaz! Zek Yauna? Zek etorri eragin deutsu nigana? Ze on ikusi dozu nigan, ene barruan sartu gura izateko?</p>
+<p>Zu Erregeen Erregea, Yaun guztien Yauna, nigana? Zu, zeinentzat zeru zabalak eurak direan labur-estuak, nire etse ziloan? O Yauna, O Yauna! nos merezi izan dot mesede zorioneko au? Zer egin nei zor andi onen alderako? Edo zegaz erakutsi neikezu mesede guztizko onen esker ona?</p>
+<p>Nori egu&ntilde;o gogoak emon euskion, onelango mesede ederra egingo zeustala? Nor da gizona Yaungoikoak alan zoriunduteko? O atsegintasun guztien Yauna! ene ezerezean laztan zaitudaz onenbeste mesede gaiti. Neure bizian ezin aztu nei, erakutsi deustazun on-ereste gozo au.</p>
+<p>II. Ay Yesus maitea! eta, ze yar-leku pobrea ta billoxa artu izan dozun ene biotzean! Yesukristo ene bularrean? Yaungoikoa ene barruan? Neure egille laztana ene arimaan? O ze pozik, ze aberatsik, ze zoriundurik itxi dozun, Yauna, nire arimea eta nire gorputza! O nok leukean Ama Birjinearen garbitasuna, Angeru santuen amodio beroa, eta Santu guztien birtute ta ontasun miragarriak, ene arima au apaindu ta edertuteko, eta zeuri emoteko, zor deutsudazan esker onak!</p>
+<p>Orra, Yauna, zeure eskuetan ene biotzeko giltzaak; nire gauza guztien yaube oso-osoa egin tzaitez. Zeu zarean guztia egin zatxakaz enea; eta ni bere nasan guzti au izango natxazu orain-ganik eta geiago zurea, eta ondo zurea. Ator ene adimentua, gogoa, biotza, arimea, gorputza, eta nasan guzti au; egizu ni-gan ta nigaz nai dozun guztia.</p>
+<p>III. O Yauna! ze gitxia, ze prestu-eza, ze otz-orra, ta leorra nasan zuri esker onak emoteko!</p>
+<p>Zeugan dagoz aberastasun guztiak; on guztiak zeugan dozuz. Zeu zara ondasun guztien emalle prestua ta ugaria; bete egizuz bada ene utsak; aberastu zeure ondasunez ene arima on-bearra; busti ta samurtu zeruko i&ntilde;ontzaz ene biotz gogor, leor agortua, eta zuzendu ene gogo, berba, ibilera naigura guztiak; neu nasan guzti au bete-betean zurea izateko.</p>
+<p>Etzara, Yauna, alperrik eldu nire ostatu billox, uts onetara. Eta bada munduko Erregeak beti zerbait itxiten dabe sartzen direan etseetan, etzara zu aek baxen laburrago izango. Baukazu, bai, nigan non emon zeure ondasunak. Ezteutsut nik itxiko ene arimako ostatu onetarik urteten, arik-eta ni osatu, zoriundu eta aberastu artean.</p>
+<p>IV. Yauna, ain arriturik nauko ni-gana etorteaz egin deustazun mesede onek eze, eztakit nik ez zer egin, ez zer esan zuri eskerrak emoteko. Eta alan biotz umil pozezko bategaz eskintzen deutsut bularrean dodan zeure Seme maite au berau; berak ni-gaiti ikusi zituzan neke, eta niretzat irabazi zituzan ondasun ugariakaz batean.</p>
+<p>Non zagoze Angeru santuak? Non tzara zu, Yesusen Ama maitea? Eztakutsue nire barru ezain onetan zeuroen gloria guztia? Bedeinkatu, santutu ta alabadu egizue zuek nire ordez Yaundi andi au. O ene biotzeko Yesus maitea! Santu guztiak bedeinka zagiezala, ene-gana etorri zarealako.</p>
+<p>Izan bedi komuni&ntilde;o santu au barriztetako nire bizitzea; parketako nire bekatuak; eziteko nire guraari okerrak; garbituteko nire loitasunak; osatuteko nire gatxak; indarra emoteko tentazi&ntilde;o aldietarako; azpiratuteko deabrua; gogortuteko nire argaltasuna; yanarituteko erbeste onetan nire arimea; eta segurututeko betiko gloria.</p>
+<p>Au alan izan dedintzat, Aita betikoa, opa deutsut Seme maite au; berak eustan laztantasuna; bere umiltasuna, bere neke, barau ta penitenziak; ni salbetako eukan egarri andia, nigaiti artu zituzan arduraak, ta zuri egin eutsuzan eskaariak.</p>
+<p>V. Eski&ntilde;iten deutsudaz yaio zanik eta kurutzean il arteko bere atsakaba, naibaga, larritasun, ta nekaldi ezin geiagokoak. Eski&ntilde;iten deutsut ni-gaiti emon eban odol baliotsua, bere pasi&ntilde;oko gogortadaak, ta ikusi eban eriotza garratza.</p>
+<p>Onezaz ganeti, eta eurokaz batera eskiniten deutsut bere Ama maiteak igaro ebana; niretzat irabazi ebana; eta mundua danik ona Angeru ta gisaseme guztiak eski&ntilde;i deutsezan egite on guztiak.</p>
+<p>Au guzti au, Yauna, eski&ntilde;iten deutsut ni-gana sakramentadurik etorteaz egin deustazun emsede andiaren alderako; eta komuni&ntilde;o santu au gura dot izan dedin zeure gloriarik andienerako; ene arimearen onerako; eta purgatorioko arima santuak zor deutsuenen kitugarritzat; eta eskatuten deutsut yanariturik orain ogi santu onegaz, igon dagidala gero yatera zeruko maian gozotasunez beteriko ogi santua. Amen.</p>
+<p><hi rend='Italic'>Al daizun debozi&ntilde;orik beroenaz esaizu </hi></p>
+<p><hi rend='Italic'>komuni&ntilde;o ostean A. San Inazioren urrengo orazi&ntilde;o au.</hi></p>
+<p>Yesusen arima santua, santutu nagizu. Yesusen gorputza, gorde nagizu. Yesusen odola zure onez bete nagizu. Yesusen bularreko ura garbitu nagizu. O Yesus ona, entzun egidazu. Zeure llageen artean ostu nagizu. Zu-ganik alde egiten itxi ez egidazu. Arerio gaistoetarik yagon nagizu. Zu-gana etortea agindu egidazu. Santu guztiakaz zu alabetako orain, gero eta beti. Amen.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>SAKRAMENTU SANTUARI ESATEKO KANT-ONAK</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'> PANGE LINGUA-REN ANTZEKOA</hi></p>
+<p>Nire mi&ntilde;a, kanta giozu</p>
+<p>neure yaun yaubeari,</p>
+<p>ni-gaiti Sakramentuan</p>
+<p>niretzat dagoanari</p>
+<p>neu odolaz erosteko</p>
+<p>ni-gaiti il tzanari.</p>
+<p>Guri emon yakun Yauna,</p>
+<p>guretzako yaio zan;</p>
+<p>gugaz bizi izan ezkero,</p>
+<p>guretzat il egin tzan;</p>
+<p>gu-ganik yoat-orduan</p>
+<p>gugaz berton geldi zan.</p>
+<p>Bere belurengo gauban</p>
+<p>bere gorputz-odola,</p>
+<p>bere diszipulu onai</p>
+<p>berak eskuz emona,</p>
+<p>beragaz gu bat gaitezan</p>
+<p>bera da gure yana.</p>
+<p>Berbo Yauna gizondurik</p>
+<p>Berboa aragi da;</p>
+<p>Berboak berba egin da</p>
+<p>Berboa da yan gauza.</p>
+<p>Berbaz bada gora daigun</p>
+<p>Berbo Yangoiko Yauna.</p>
+<p>O Sakramentu andia!</p>
+<p>O ze Yauna an dagoan!</p>
+<p>O ze ikara, ze bildurra!</p>
+<p>O zer lotsa zor yakan!</p>
+<p>O Angeruen ogia!</p>
+<p>O nok gose zeikezan!</p>
+<p>Andia Aita Yainkoa,</p>
+<p>andia da Semea,</p>
+<p>andia Espiritua,</p>
+<p>andia gure zorra.</p>
+<p>Andia beraz daiogun</p>
+<p>Andiari eskerra. Amen.</p>
+<p><hi rend='Bold'>BESTE BAT <foreign>SACRIS SOLEMNIS</foreign>-EN YASAKOA</hi></p>
+<p>Bizi bedi Yesus</p>
+<p>sakramentadua,</p>
+<p>gure kanta santuz</p>
+<p>tint alabadua.</p>
+<p>Daiogun gogotik</p>
+<p>berari so&ntilde;ua.</p>
+<p>Ea, erago poz-pozik.</p>
+<p>Yaun biotzekoak</p>
+<p>il-aurreko gaban,</p>
+<p>ogi ta ardao banak</p>
+<p>artu-ta zi&ntilde;oan:.</p>
+<p>ene gorputza au dot,</p>
+<p>au odola: ta alan</p>
+<p>yan-edan berau guztiok.</p>
+<p>Ostia baten, ah,</p>
+<p>benetan daukazuz</p>
+<p>Yangoiko-gizona</p>
+<p>bere odol-gorputz,</p>
+<p>ta arima ederra.</p>
+<p>Yan edan egizuz.</p>
+<p>Orren begira da Yauna.</p>
+<p>Ilun, larri, baldan,</p>
+<p>argal zagozana,</p>
+<p>erdu, ara bertan</p>
+<p>zuk bear dozuna.</p>
+<p>Kristoren gorputzak,</p>
+<p>Ondo zuk artu-ta</p>
+<p>emongo deutsuz indarrak.</p>
+<p>Dirautse Yesusak</p>
+<p>meza-emolleai:</p>
+<p>artu au zuentzat,</p>
+<p>baita emon onai.</p>
+<p>Ay ze eskuikuna</p>
+<p>yatorken gizonai,</p>
+<p>Angeruak eztaukena !</p>
+<p>Angeru ogia</p>
+<p>da gizonarentzat;</p>
+<p>Yaungoiko-gizona</p>
+<p>da nai dabenentzat.</p>
+<p>Aberats ta pobre,</p>
+<p>Errege ta ezak,</p>
+<p>ona guztiok erdue.</p>
+<p>O Aita-Semeak,</p>
+<p>Espiritu onaz</p>
+<p>Yainko bat irurak!</p>
+<p>Zagoz orain gugaz</p>
+<p>geure biotzean,</p>
+<p>gero guk orregaz</p>
+<p>ikusteko zu zeruan. Amen.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>KURUTZETAKOEN IBILBIDEA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Italic'>Kurutzeak ibilteko gogarte, ta orazi&ntilde;oak.</hi></p>
+<p>Kristi&ntilde;au-debozi&ntilde;oen artean da txito ona, eta mesede-garria kurutze bidea, edo Kalbario-rako gera-aldi santuak ibiltea. Berean gomutarazoten yakuz, Yesus biotzekoak gu gaiti igaro zituzanak. Baita debozi&ntilde;o santu au Kristi&ntilde;auen biotzetan barrunago sartuteko, Aita-Santu Erromakoak emonik dituez parkamen asko ta andiak.</p>
+<p>Yesusek bide gogor onetan zeugaiti ikusi zituzan neke itzalakaiti, eskarituten natxazu, arren ta arren debozi&ntilde;o ta egikune santu oneri ekin ta ekin, ta eragon dagiozula, bizitzea ondu, ta zerua irabazi gura badozu.</p>
+<p><hi rend='Italic'>Kurutze santearen </hi>eginik, esaizu aldaizun biotzik beroenaz <hi rend='Italic'>Neure Yaun Yesukristo.</hi></p>
+<p><hi rend='Bold'>SARTZAIEREA</hi></p>
+<p>Neure Yaun ta Yaubea, zeure o&ntilde;etan etxunik, eta biotz umil bategaz, opa deutsut, orain ni astera noian Kalbario-bide onetan, esan ta egingo dodan guztia; eta emongo dodazan pausuak, Yesus zeure Seme maiteak bide onetan nigaiti eroan zituzan neke, gogortada, larritasun, ta ala andiakaz, eta niretzat irabazi zituzan merezimentuakaz batera.</p>
+<p>Orain-ganik artuten dot gogoa, irabazteko Aita-Santu Erromakoak, bide santu au dabiltzanentzat, emonik dituezan parkamen guztiak; eta direanak eskiniten deutsudaz purgatorioko Arima santuen onerako.</p>
+<p>Onetarako eskatuten deutsut biotz guztirik, arren gorde dagizula Elexa Ama santua; yagon kristi&ntilde;au-erriak; zaindu fededunak; parkatu gure bekatuak; ondu bekatariak; eta zeruratu purgatorioko Arima errukior orreek. Indazu, Yauna, grazia ta eskua, albait ondoen ibilteko kurutze santu onetako bide au. Amen.</p>
+<p>Asi gaitezan esaten</p>
+<p>Yesusen neke penak,</p>
+<p>larritasun, gogortada,</p>
+<p>eriotza, ta minak.</p>
+<p>Lagun daiogun guztiok</p>
+<p>Yesuseri negarrez,</p>
+<p>Kalbarioko bidean</p>
+<p>doianean ain nekez.</p>
+<p><hi rend='Bold'>LENENGO GERALDIA</hi></p>
+<p><hi rend='Italic'>Emen Kristo geure Yaunari emon eutsen eriotzako sentenzia.</hi></p>
+<p>Azotez galdu ezkero</p>
+<p>geure Yesus laztana,</p>
+<p>kondenau dau Pilatosek</p>
+<p>krutze baten iltzera.</p>
+<p><hi rend='Bold'>ESKAARIA</hi></p>
+<p>O Yesus ona! ta, ze laztan dozun zeuk eginiko gizona, bada bera bekaturik ateretearren, gura izan zenduan izan zeure arerio gogorrai saldua; sokaz ta kateaz estua; etserik etse dandarrez erabilia; Barrabas okerragaz bat egina; bost milla azotez ebagia; eta arantza itzalez koroatua! eta oneek asko ezpalira legez, entzun gura izan zenduan ixi-ixilik, arnasea atera bagarik, Pilatosek zeure kontra emon eban kurutzeko eriotzako sentenzia gogorra. Emoidazu, arren, biotz zabala, zuk legez onean ta bakean eroateko nire neke, atsakaba, lotsaari, ta gaixotasun guztiak; orain alan zurearen antzeko bizitza on bat eginik, betiko zerurako sentenzia zure aoti entzuteko. Amen.</p>
+<p>Yauna bekatu egin dot, errukia nizaz zeure pasi&ntilde;o ta eriotzea-gaiti.</p>
+<p><hi rend='Italic'>Aita gurea ta Abe Maria.</hi></p>
+<p>Bedeinkatua, ta alabadua izan dedila Yesu-Kristoren pasi&ntilde;o ta eriotzea; eta bere Ama maiteak ni gaiti ikusi zituzan neke ta penaak. <hi rend='Italic'>Onelantxe esango da kurutze bakotxean.</hi></p>
+<p><hi rend='Bold'>BIGARREN GERALDIA</hi></p>
+<p><hi rend='Italic'>Emen krutze astuna lepo-ganean imini eutsen Kristo geure Yaunari.</hi></p>
+<p>Lepoan kurutze astuna</p>
+<p>ezarri-ta daroe</p>
+<p>iltera Yesus laztana</p>
+<p>gaist'-okerbat legetxe.</p>
+<p><hi rend='Bold'>ESKAARIA</hi></p>
+<p>O Isaak seme esaneko ona! ze prestik ta ze pozik daroazun, zeure riotzarako bearko dan zur astuna, indargeturik egon-da bere, Aitearen borondatea egitearren! O bildots bigun, umil, errubaakoa! ze ixilik, eta gogoti zoazan eriotza lekura, gizonakaiti bizitzea emoten! Indazu, arren, grazia, ene bizitzea ondu-ta, arinduteko, ene bekatuak astundu izan deutsuen kurutze ori, eta bakean ta gogoti eroateko, zuk emon gura deustazun edozein bere neke ta ikuskizun, onelan gero andiko alboan izateko, alan egiten dabenen sari ederra. Amen.</p>
+<p>Yauna bekatu <foreign>etc</foreign>. <hi rend='Italic'>Aita gurea </hi><foreign>etc</foreign>.</p>
+<p><hi rend='Bold'>IRUGARREN GERALDIA</hi></p>
+<p><hi rend='Italic'>Emen yausi zan lelengo kurutzeagaz Salbatzallea.</hi></p>
+<p>Yesus datza luze luze</p>
+<p>lurrean krutze-pean:</p>
+<p>bota dabe zure erruak.</p>
+<p>Aremen nor tzarean.</p>
+<p><hi rend='Bold'>ESKAARIA</hi></p>
+<p>O zeru lurreen egillea! andia da nonbaite bere nire bekatuen astuntasuna, bada lurra yo eragin deutsue zeuri, gauza guztiak indartuten dozuzan orreri. Kurutze astuna ganean, ta Yaungoikoaren Semea azpian... ay! ze ikusgarri negargarria! Yauna, indazu eskua, ene bekaturik yagiteko, eta ez geiago yausteko; azkenean zure laguntzan zeruko bear-tsari gozoak izateko. Amen.</p>
+<p>Yauna bekatu <foreign>etc</foreign>. <hi rend='Italic'>Aita gurea </hi><foreign>etc</foreign>.</p>
+<p><hi rend='Bold'>LAUGARREN GERALDIA</hi></p>
+<p><hi rend='Italic'>Emen alkar ikusi eben Ama-Seme errukigarriak.</hi></p>
+<p>Negarrezko begiakaz</p>
+<p>dakus Amak Semea,</p>
+<p>galdurik, ta il bearrez.</p>
+<p>Au bai zala nekea!</p>
+<p><hi rend='Bold'>ESKAARIA</hi></p>
+<p>O zeruetako Erregina, ta Amarik errukarriena! eta, ze estu ta larri geldituko yatzun biotza, arako ikusi zenduanean zeure biotzeko Yesus laztana kurutze astunaz nekaturik, bere burua arantza zorrotzez galdurik, aurpegi ederra ubeldurik, gorputz guztia odol usturik, belaunak ikara, ta izan altzitekean lotsaririk andienaz iltera eroiela! Itzuli egizuez, arren, Ama-Seme bitzuok ni-ganantz zuen begi errukiorrok, eta egin nagizue zuen seme esaneko ona, egin degidazuentzat biok eriotzako orduan begitarte argia. <foreign>etc</foreign>.</p>
+<p>Yauna bekatu <foreign>etc</foreign>. <hi rend='Italic'>Aita gurea </hi><foreign>etc</foreign>.</p>
+<p><hi rend='Bold'>BOSTKARREN GERALDIA</hi></p>
+<p><hi rend='Italic'>Emen Simon Zirinekoari arrarazo eutsen Yesusen kurutzea.</hi></p>
+<p>Emen Simon Zirineo</p>
+<p>laguntzat emon eutsen,</p>
+<p>Kalbariora bagarik</p>
+<p>Yesus il ze lekien.</p>
+<p><hi rend='Bold'>ESKAARIA</hi></p>
+<p>Ay ene Yesus ona! eta ze nekez, ta ze ozta gogorrean egin zenduan Kalbariora bidea, bada Yudegu arrigarriak eurak uste eben eze, bertara ba&ntilde;o leen ilgo zintxakezala bidean; eta agaiti Zirineoa lagun emon eutsuen. Baia, ay, ez eutsuen orregaiti zure errukiz emon, ez; eta bai kurutzean gogor ilten ikusi gura zinduezalako. Gizonen zeuganako gogortasun itzala beintzat! Emoidazu, arren, Yauna, zeure nekeen erruki andi bat, eta zeure esana gauza guztietan egitea; onelan zuri kurutzea eroaten lagundurik, sartu nadin gero, kurutze orregaz idigi zeustan zeru zabal ederrean. Amen.</p>
+<p>Yauna bekatu <foreign>etc</foreign>. <hi rend='Italic'>Aita gurea </hi><foreign>etc</foreign>.</p>
+<p><hi rend='Bold'>SEIGARREN GERALDIA</hi></p>
+<p><hi rend='Italic'>Emen Beronika Santeak garbitu eutsan arpegia.</hi></p>
+<p>Beronikak siketarren</p>
+<p>Kristoren izerdia,</p>
+<p>eun garbian atera dau</p>
+<p>Yaun onen aurpegia.</p>
+<p><hi rend='Bold'>ESKAARIA</hi></p>
+<p>O Yesus edertasun berbera! eta, ze ezain itxi zaituezan ene bekatuak, bada izanik zeu angeruen ispillu loi-bagea, eta gisasemeen artean ederrena, gelditu yatzun aurpegi guztia ainbeste yotegaz baltziturik, anditurik, eta antz guztia galdurik, eta izerdiz, autsez, txiztuz ta odolez loiturik! Indazu, arren, Yauna, bekatuen damu zolia; yosi bekidaz irrime biotzean zeure neke gogorrak, atzeratu nagientzat bekatu egiterik; alan ikusteko zeruan, zuk Santuai erakusten deutsezun aurpegi eder-gozoa. Amen.</p>
+<p>Yauna bekatu <foreign>etc</foreign>. <hi rend='Italic'>Aita gurea </hi><foreign>etc</foreign>.</p>
+<p><hi rend='Bold'>ZAZPIGARREN GERALDIA</hi></p>
+<p><hi rend='Italic'>Emen bigarrenez yausi zan Yesus.</hi></p>
+<p>Begira ze astuna dan</p>
+<p>bekatuen pisua,</p>
+<p>bigarren aldiz egin dau</p>
+<p>geure Yesus lurrera.</p>
+<p><hi rend='Bold'>ESKAARIA</hi></p>
+<p>O Yaungoiko andia! nok alan argaldu ta indargetu dau, lur yotera gi&ntilde;o zure anditasun itzal andikoa? Ay ene Yauna! nire bekatuak ainbeste gatx zugan egin badabe, zer egin izango ez dabe nigan, bekatu orreek egin izan dodazan onegan? Nire bekatuak lurrera bota zaituez; eta ni, bekatuen azpiti beinbere yagiko ez nas? Yauna, Yauna! bigundu egidazu biotz gogor au; emoidazu bekatuen gorroto andia; eta munduko egotaldi labur au ezkero, eregi nagizu zeruko gloria goi ederra. Amen.</p>
+<p>Yauna bekatu <foreign>etc</foreign>. <hi rend='Italic'>Aita gurea </hi><foreign>etc</foreign>.</p>
+<p><hi rend='Bold'>ZORTZIGARREN GERALDIA</hi></p>
+<p><hi rend='Italic'>Emen irakatsi eutsen Yaunak Yerusalengo Alabai, zeri negar egin bear eutsen.</hi></p>
+<p>Yesus alaz ikusita,</p>
+<p>negar daigun guztiak</p>
+<p>bekatu egin izana.</p>
+<p>Alan dirausku berak.</p>
+<p><hi rend='Bold'>ESKAARIA</hi></p>
+<p>O Aita laztan, ta maisu egiazkoa! eta, ze ardura andiaz erakusten deuskuzun zerurako bidea! bada nekez, ta alaz, arnasea bete ezinik, zi&ntilde;oazala, guztia aztuta, geratu zinean irakasten zeure atzean negarrez yoazan andra errukiorrai, zelan ez zuri, ezpada euren bekatuai, eta euren semeenai negar egin bear eutseen. Arren, Yauna, argitu nagizu, zeure esan ederrak burutan ondo artuteko; zeure deiai erantzuteko; neure bekatuakaiti negar egiteko; eta zuri beti ene bizi guztian yarraituteko, gero zeruan betiko pozkari artean zugaz egon nadintzat. Amen.</p>
+<p>Yauna bekatu <foreign>etc</foreign>. <hi rend='Italic'>Aita gurea </hi><foreign>etc</foreign>.</p>
+<p><hi rend='Bold'>BEDERATZIGARREN GERALDIA</hi></p>
+<p><hi rend='Italic'>Emen yausi zan irugarrenez Yesus gaixoa.</hi></p>
+<p>Iru bider yausi Yesus</p>
+<p>zugaitarrik lurrera;</p>
+<p>ta, luzatzen ezteutsazu</p>
+<p>gogor orrek eskua ?</p>
+<p><hi rend='Bold'>ESKAARIA</hi></p>
+<p>O bildots errubaakoa! eta, ze umiltasun andiaz imini zinean Yudegu gogor-amorratuen eskuetan, ukabilka, ostikoka, makillaka, ta zelan gura barregarri erabilteko, zu bitarte orretan ixi-ixilik, txitik bere egin bagarik, zengozala! Ene arimearen erosla laztana, ni izanas neu, zuri onenbeste neke ekarri deutsudana. Parkatu, Yauna, parkatu. Emoidazu eskua bekatuen trokatzerik yagiteko, eta ez ostera yausteko. Indazu umiltasun benetakoa, eta ene burua gitxi egitea; orregaz irabazteko zeruko anditasun ederra. Amen.</p>
+<p>Yauna bekatu <foreign>etc</foreign>. <hi rend='Italic'>Aita gurea </hi><foreign>etc</foreign>.</p>
+<p><hi rend='Bold'>AMARGARREN GERALDIA</hi></p>
+<p><hi rend='Italic'>Emen billostu eben zeruko Erregea.</hi></p>
+<p>Lirio, larrosak ba&ntilde;o</p>
+<p>ederrago izanik,</p>
+<p>geratu da gu yanztarren</p>
+<p>Yesus dana billosik.</p>
+<p><hi rend='Bold'>ESKAARIA</hi></p>
+<p>O Yaunaik aberatsena, zerua izarrez, zelaiak loraz, eta mundu guztia edertasunez yantziten dozuna! ze lotsaari gogorrean ikusi zenduan zeure burua arako billox billoxik, narru gorrian, mundu bete lagunen aurrean itxi zinduezanean! Eta ze min ikaragarria zeurea, bigun bagarik erontzi eutsuezanean, aragi eratziai oratu-ta zeunkazan so&ntilde;ekoak! Ay Yauna! au ekarri deutsue ene bekatuetarako nabarbenkeriak, ta lotsabageak. Arren, Yauna, ideki eta kendu egidazu munduko zorakerien zaletasun ta lera gaistoa, eta emon nekeen egarri andia; alan zeruan gloriaz yantzirik betiko zugaz egoteko. Amen.</p>
+<p>Yauna bekatu <foreign>etc</foreign>. <hi rend='Italic'>Aita gurea </hi><foreign>etc</foreign>.</p>
+<p><hi rend='Bold'>AMAKAGARREN GERALDIA</hi></p>
+<p><hi rend='Italic'>Emen untzeakaz yosi eben Yesus kurutzean.</hi></p>
+<p>Esku-o&ntilde;ak untzeakaz</p>
+<p>krutze baten yosirik,</p>
+<p>eskegita dago Yesus</p>
+<p>minez ilten nigaitik.</p>
+<p><hi rend='Bold'>ESKAARIA</hi></p>
+<p>Ara emen, Yesus laztana, mundu zoroak zeure eriotzan opa deutsun oea. Ain nekezka lepo-ganean ekarri dozun zur gogorrean, yosten zaituez esku-o&ntilde;etati, burdi&ntilde;azko untze lodiakaz. O ene biotzeko Yesus gozoa! eta, ze itzala dozun oe ori! Ay, eta zelango alakaz atera bear dozuzan, neuk ene buruari emoten deutsadazan atsegin zantar, ta pos-zoro zital galgarriak! Yosi egidazu, yosi, neure biotza zure bildur santuaren untze zoliakaz, ibili ez nadintzat zoro eginik munduko atsegin ta naiari uts-kaltegarrien atzean. Nekeak izan bitez emen nire gozoa, gero betiko atsegintasunak zeruan izateko. Amen.</p>
+<p>Yauna bekatu <foreign>etc</foreign>. <hi rend='Italic'>Aita gurea </hi><foreign>etc</foreign>.</p>
+<p><hi rend='Bold'>AMABIGARREN GERALDIA</hi></p>
+<p><hi rend='Italic'>Emen iltzan Yesukristo gure Yauna.</hi></p>
+<p>Emen il tzan, ay, gugaiti</p>
+<p>gure Yesus maitea;</p>
+<p>ta, zelan minak ezteusku</p>
+<p>kenduten bizitzea?</p>
+<p><hi rend='Bold'>ESKAARIA</hi></p>
+<p>O ze gatx ikaragarria dan bekatua, bada bera-gaiti dakust nik kurutze baten ilik Yaungoikoaren Semea bera! O guztien bizitzea! nok alan il tzaituz? ze esku itzalek kendu deutsu bizitzea? Ay ene begiak! nosko dozuez negarrak? Ene Yesus biotzekoa, oraintxe dozu errukiaren aldia. Ni gaiti iltzara; nigaiti emon dozu bizitzea; errukia bada errukia nizaz. Apurtu bekit damuarren biotza. Il bekit munduko gauzetarako gogo guzia, bizi nadintzat gero zeugaz betiko bizitzaan. Amen.</p>
+<p>Yauna bekatu <foreign>etc</foreign>. <hi rend='Italic'>Aita gurea </hi><foreign>etc</foreign>.</p>
+<p><hi rend='Bold'>AMAIRUGARREN GERALDIA</hi></p>
+<p><hi rend='Italic'>Emen Yesusen gorpu ila kurutzereanik eretzi eta Birjineari altzora emon eutsen.</hi></p>
+<p>Semearen gorpu ilak,</p>
+<p>untzeak, eta arantzak</p>
+<p>emon deutsez Mariari</p>
+<p>min-ala guztiz latzak.</p>
+<p><hi rend='Bold'>ESKAARIA</hi></p>
+<p>O Matiri guztien Erregina, naibagez ta larritasunez uryolatua! eta ze igarorik, ta konorte bagarik geratuko yatzun arimea, eta ze larri biotza, arako ikusi zenduanean zeure altzoan ilik zeure Seme bakarra, eta zatiturik, Espiritu Santuak zeure sabelean sortu eban gorputz ederra! Nok esan, ez nok gogoaz bere urremon zeure botzketa ta ala itzalai, arako eskuakaz ikusi zenduzanean bere buru eder arantzaz galdua, esku-oi&ntilde; untze zorrotzez zulatuak, sorbalda azotez ebagiak, eta albo lantza gogorrez idigia? Damu dot, Ama maitea, ene bekatuaz zu onetara ekarria. Eztot geiago bekaturik gura. Artu nagizu emen semetzat, gero zeruan amatasun onen esker gozoak zeuri beti emoten egoteko. Amen.</p>
+<p>Yauna bekatu <foreign>etc</foreign>. <hi rend='Italic'>Aita gurea </hi><foreign>etc</foreign>.</p>
+<p><hi rend='Bold'>AMALAUGARREN GERALDIA</hi></p>
+<p><hi rend='Italic'>Kristoren sepulturea, ta Birjinearen bakartade iluna.</hi></p>
+<p>Umezurtza triste eginik</p>
+<p>gaixook lotu gara:</p>
+<p>obian daukagu Yesus,</p>
+<p>gozo bagarik Ama.</p>
+<p><hi rend='Bold'>ESKAARIA</hi></p>
+<p>O Amarik errukarriena! ze bakarra gelditu zarean! Non dozu Semea? Non dozu zeure biotzeko Seme bakarra? Non artuko dau atseden apur bat zeure biotz larri orrek? Orain artean, ilik bada bere, ikusi izan dozu zeure Semea; baia iya ar-losa astun batek estaldu deutsu begietarik, eta eztakusde oneek i&ntilde;onbere atsegin-garririk. Nigaiti ikusi dozuezanakaiti, eskatuten deutsuet Ama-Seme bioi, arren, egin nagizuela zuei gozo emongo deutsuedan langoa; Izan bidi neure biotza, komulgetan nasan bakotxean, ene Yaunaren toki ederra; azkenengo egunean gloriaz yantzirik biztu-ta, betiko zeuekaz zeruan egoteko. Amen.</p>
+<p>Yauna bekatu <foreign>etc</foreign>. <hi rend='Italic'>Aita gurea </hi><foreign>etc</foreign>.</p>
+<p><hi rend='Italic'>Gero esan zi&ntilde;aike Sakramentu Santuaren estazi&ntilde;oa, sei </hi>Aita gurea <hi rend='Italic'>ta </hi>sei Abe Maria <hi rend='Italic'>esan-da.</hi></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>YESUKRISTOK BERE PASI&Ntilde;OAN</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>IKUSI ZITUZAN NEKE GUZTIEN BARRI LABURRA</hi></p>
+<p>Yesus maiteari emon eutsezan bere aurpegi ederrean eun-da ogei matrallako.</p>
+<p><hi rend='Italic'>Guztiak erantzungo dabe:</hi></p>
+<p>Alabadua izan bedi Yauna.</p>
+<p>Eun-da ogei ukabilkada ikaragarri baxen geiago emon eutsezan. R. Alabadua <foreign>etc</foreign>.</p>
+<p>Gesemaniko orturik eta Anasen etsera-gi&ntilde;o zazpi bider lurrera egotzi ebeen. R. Alabadua <foreign>etc</foreign>.</p>
+<p>Emon eutsezan ostikadaak, izan zirean eun ta berrogei. R. Alabadua <foreign>etc</foreign>.</p>
+<p>Idun-sokarik narraska erabili eben ogeta bat aldiz. R. Alabadua <foreign>etc</foreign>.</p>
+<p>Buruko ulle ta bizar tirakaak izan zirean berrogeta amabi. R. Alabadua <foreign>etc</foreign>.</p>
+<p>Azotadu ebenean eldu zan bein il aginera.</p>
+<p>Emon eutsezan bost-milla, eun ta berrogeta amabost azote erruki baakoak.</p>
+<p>Azotadu ebeen borreruak izan zirean sei gizototzar.</p>
+<p>Ain errime estu eben metarrira ze, istanda egin eutsan eskuturretati odolak.</p>
+<p>Arantzazko koroiak egin eutsazan buruan irurogeta amabi zillo zakon.</p>
+<p>Irurogeta amabi bider atsitu eutsen arpegi ederra txu ta gorro lizunakaz.</p>
+<p>Kalbariora bidean iru aldiz yausi zan luze luze.</p>
+<p>Irurogeta amabi bider larri larri egin yakan biotza.</p>
+<p>Azur asko eukazan lokaturik, eta arra-betean agirian.</p>
+<p>Gelditu yakon gorputza bururik eta beatzetara zati oso bagarik, eta odolezko iturri bat eginik.</p>
+<p>Kurutzean yosirik egoala, geratu zan ain ezain ta ikaragarri eze, ez eukan gizonen antzik bere, eta i&ntilde;ok ezagutu bere ezin egin eukean.</p>
+<p>Gugaiti ikusi zituzan neke, ala, ta gogortada guztiok.</p>
+<p><hi rend='Bold'>YESUKRISTO GEURE YAUNAREN NEKEEN-GANEKO GOGARTE TXITO SAMURRAK,</hi></p>
+<p><hi rend='Bold'>ta orazi&ntilde;o mentalerako, mezentzuteko, kurutzetakoak egiteko, ta konfesi&ntilde;o aurreti bekatuen damutasuna artu gura danerako guztizko ederrak</hi></p>
+<p>I. O ene arima! Begira zure Yesus maiteari, zeinek guri euskun on-ereste ta asko-gura ezin geiagokoa-gaiti, nai izan eban gizon egin, abel-etse baten, edo, esan daigun, korta zantar baten yaio, it-aska, edo estrami&ntilde;a baten etzan, zortzigarren egunean bere odola emon, eta Eyituko erbestean bizi. Ontzat eroan eban gure onerako bateatua izatea, barau egitea, tentazi&ntilde;oak ikustea, bidean ibiltea, sermoiak ta mirariak egitea, nekatuai ta gaixoai mesede egitea.</p>
+<p>II. Begira Yesus gozoari, zeinek ilgo zan aurrengo egunean bere dizipulu maiteakaz batera Yerusalenen Paskoa egin, ta bere eriotzea esan gura eban bildotsa, yan eban. An gero afal-ostean, garrien inguru eun bat imini, ura ontzi zakon baten utsitu, eta garbitu eutsezan dizipulu orrei o&ntilde;ak, ta eunagaz leortu, berba gozoak bitartean esaten eutsezala.</p>
+<p>III. Begira zeure Yesus laztanari, zeinek i&ntilde;ok eskatu bere bagarik egin eban alango testamentu ederra, eta egin ta itxi eban bere gorputz ta odolaren sakramentu beneragarria, bere biaramoneko pasi&ntilde;oaren gomutea beti Elexa santuan egin zedintzat, eta sakramentu ain andiaren frutu ta onura gozo ugaria il-bizietara zabaldu zedintzat.</p>
+<p>IV. Begira zeure Yesus laztanari, zeineri, bere dizipuluakaz Olibeteko ortura yoan ezkero, asi yakan biotza ikara-ikara ta ilun-ilun egiten; eta alan esan eban, iya ganean eukan pasi&ntilde;oaren garrastasun ta gogortasunak erasota: <hi rend='Italic'>ilun daukat, il artean, biotza.</hi></p>
+<p>Antxe belauniko bere Aiteari orazi&ntilde;o egin eutsan; ta auspez, aurpegia lurraz yosita, yarririk, bere burua bete-betean imini eban Aita orren eskuetan, biotza ordu atan onen larri eukala eze, larriaren andiz odolezko izerdi laban batek emon, eta alde guztietati odol tantaak zara zara eriozan; eta Yaungoikoaren SEme zanak Angeru bat bear izan eban, berari biotz puskatxu bat emoteko.</p>
+<p>V. Begira zure Yesus biotzekoari, zeinek, gu-gaiti ilteko eukan egarri itoagaz, bidera urten eutsen, bere billa erozan arerio okerrai; eta Yudas dollor, zital dalduaren mosua bakean artu eban; beste dizipulu enparaduak barriz berari i&ntilde;es egin, eta soldadu gaistoak, lapurra bailitzan legetxe, oratu, estu, eta gogor ta barregarri erabili ebeen.</p>
+<p>VI. Begira zeure Yesus gozoari, zeinek, Anas Pontifizearen aurrera ain lotsa gorrian eroana izan tzanean, artu bear izan eban aren muti-otsein ikuski-oker batek emon eutsan ikaragarrizko belarrondokoa.</p>
+<p>VII. Begira zeure Yesus ederrari, zeinek, Kaifas Pontifizeak ta Batzaar guztiak gaiskilla egin-da, guztizko garraztasun ta lotsakizun andiak ikusi bear izan tzituzan; bada testigu okerrekaz salatu eben, Yuangoikoaren kontrako berbaak esan izan bailituzan legez; ezin okerrago kondenadu eben; asko ta askok irri ta barre egin, ta arpegi ederrera txistu ta gorro loi atitsuak egin eutsezan, eta gau guztian lotsa txarrean errebes barregarri erabili eben.</p>
+<p>VIII. Begira zeure Yesus gozo berari, zeinek, Yudeguen agintariak Pilatos-egana eroan-da, arpegia yausi yausi eginik egon bear izan eban yuez yentil fedebaakoaren aurrean; eta guzurrez salatuten ebeenean, ixi-ixilik egoteari obe eretxi eutsan, erantzuteari baxen.</p>
+<p>IX. Begira Yaungoikoaren yakituria danari, zein Pilatosek Herodes-egana biraldurik, Yudeguak barriro ta aserre salatuten dabeen. Berak barriz ez Errege mirariak ikusi gura oneri laketu eutsan bere naikeri zoroa, ez Yudegu salatzalleai ao bere arnasa atera. Atati Herodes-enekoak zoro garbi egin, eta so&ntilde;eko zuri bategaz burlazar yantzirik, Pilatos-egana atzera, esturik, agindu eben.</p>
+<p>X. Begira zeure Yesus errukarriari, zein Pilatosen atartean, so&ntilde;ekoak erantzita narru gorrian met-arri batera loturik, aserre-gogor azotez ebaten daben, gorputz eratzi guztiti odol ez gitxi gitxi erion-gi&ntilde;okoan.</p>
+<p>XI. Begira zeure Yesus biotzekoari, zeineri Pilatosen soldaduak, azote gogorrak ezkero, so&ntilde;eko gorri bat yantziten dutsen, eta euki bear dau, baita min-ala zoliakaz, buruan yosirik arantzazko koroe itzala. Emoten deutse ka&ntilde;abera bat eskura, eta beragaz buru santuan yoten dabe; eta burlaz ta barrez nabarben okerrak, belauniko yarririk, eskumunak egin, <hi rend='Italic'>Yudeguen Errege </hi>esan, aurpegi beneragarrira txistu-egin, ta belarrondokoak emoten deutsez.</p>
+<p>XII. Begira zeure Yesus gaixoari, zein atera eban Pilatosek arantzazko koroiagaz, eta so&ntilde;eko gorriagaz etse aurrera, an egoan mundu bete laguneri erakusten; oneek barriz deadarka ta deadarka, zoro eginik, Yesus ilteko esaten deutse.</p>
+<p>XIII. Begira zure Yesus gozoari, zein errubagarik kondenadu eban Pilatosek, kurutze lotsagarrian iltera; eta gero kurutze, zur astun ori lepoan ebala, eta argalarren uko egin bear ebala, uriaren erdi erditi atera ebeen, ilgo ebeen leku itzalera eroateko, andratxu banaka batzuk baxen bestek errukirik ez eutsala.</p>
+<p>XIV. Begira zure Yesus laztanari, zein gero ta gero bere bideaz askaturik, eta albaitinkaka arnasea bete ezinik eldu zan Kalbariora, eta antxe emon eutseen beaztunez nastauriko edaari mingotz apur bat aoan sartu eban, urrengo berba oneek di&ntilde;oen legez: <hi rend='Italic'>emon eusten beaztuna yaten, eta egarri nintzanean binagrea emon eusten edaten.</hi></p>
+<p>XV. Begira zeure Yesus biotzekoari, zeinek kurutzearen aurrean so&ntilde;ekoak erontzirik, ta billoxik bere ganean luze luze eginik, eta untzeakaz yosirik, alango eriotza gogorraren guztizko min-ala ikaragarriak ikusi bear izan zituzan.</p>
+<p>XVI. Begira zeure Yesus laztanari, zeinek, kurutze eregian, lapur biren erdian, eskegirik, egarriak itoten egoala, bere Aiteari, bera alan imini ebeenakaiti, eta bere kontra irrika ta barreka, ta deungaroak esaka zi&ntilde;arduenakaiti, bitarteko ederra legez, eskatuten deutsan; barriz Ama larrituari kurutzereanik berba egiten deutso; eta Aiteari, deadar zoliagaz eta negar andiakaz, bere arimea emoten deutso; ikusten dabela eriotza ikaragarrizko gogor au, bera Sazerdotea, ta opa dan ostia erabatera izanik, Yangoiko-Aiteagaz gure gorrotozko Semeoen arteko bakeak egiteko, eta mundu galdua bere eriotzeagaz erosteko ta onduteko.</p>
+<p>XVII. Begira zure Yesus maite-gozoari, zeinen gorpu ilaren eskoako saietz-aldea lantzeagaz ebagia ta zulatua izan tzan, eta guretzako odola ta ura emon eban; eta zeinen gorpu ori azaz ganeti adiskideak kurutzerik eretsi, ta obian sartu ba&ntilde;o leen, ubientu usaintsuakaz igotzi ta gantzatu, eta izara garbi baten batu eben.</p>
+<p>Ezagutu egizu, ene arimea, ezagutu. Auxe dozu gure Yangoiko Yauna, zure Salbatzallea. Yangoikoaren Seme bakarra; eta mundu onetako errubaako bakarra. Eta alan-da guzti, ara, gaisto egin izan dabe, ta gizonik satzenentzat artu izan dabe. Ay! ta gizonik ederrena, ze ezain dagoan! Gure bekatuakaiti ebagi izan dabe, gure okerreriakaiti birrindu izan dabe. Il gura izan dau, Aitak guri euskun gorrotoa galarazoteko, eta gu zerura eroateko.</p>
+<p><hi rend='Bold'>ANDRANA MARIAREN NEKEAK</hi></p>
+<p>Yesukristoren nekeak zelanbait gogotan erabili ezkero, ekazuz burutara bere Amearenak bere. Ay bada, zelango atsakabea izango zan berea, arako Seme eder orrek, iltera yoan bear-ta, azkenengo agur damurrak egin eutsazanean! Eta, zer izango zan ekusten ebanean, Seme ori bere eskolako batek saldu ebala, best batek maisu ebala ukatu, eta guztiak, bera itxita, iges egiten eutsela?</p>
+<p>Zer gero ikusi ebanean Seme laztan bera guztien gorrotogarri eginik, eta direanak ebilkozala, len-bait-len munduti kendu gurarik, eta kenduteko aleginak egiten; darabildela batak irri, besteak barre, besteak ki&ntilde;u, onek deungaroak esan ak irauna astunak; eta geienak yo ta yo barregarri? Zer azkenez ikusi ebanean Seme au azotez birrindurik, bere buru ederra arantzazko loroe itzalaz dana galdurik, eta kurutze lotsagarrian ilteko sentenzia gogorrak, iya bere ganean yo ebala?</p>
+<p>Baia eldu gaitezan <hi rend='Italic'>Larri-kalea </hi>deritxon Yerusalengo kalera; antxe ikusiko doguz Ama-Semeok alkarren aurrez aur, larriaren andiz berbarik egin ezinik. Dakus Amak bere erraietako Semea, kurutze astunaz lepoan, lapur biren erdian; guztia odoldurik, arpegia baltziturik, anditurik, eta ezaindurik; indargeturik, ozta ozta o&ntilde;en ganean dagoala; eta aserre ta errukiaren apur bagarik daroiela yoka, ta deungaroak esaka, kurutze atan iltera. Zelango naibakoak ta damuak, zelango alen uryoleak artuko ez autsan Ama bigunari biotza? Ay, ay! Eztago au esateko mi&ntilde;ik, ez au ulertuko daben buru argirik.</p>
+<p>Alanbere ezta ori guztia; guziago ta geiago, eta askoz geiago ikusi bear izan eban Kalbarioko mendian. Bai beintzat; antxe dakus Ama errukior onek, egu&ntilde;o munduan izan dan Semerik onena, bere biotzeko zatia, bere Yaungoikoa eban Semea, kurutzean untze gogorrakaz yosirik, odola esku-o&ntilde;etako zilloetati zara zara geldi bagarik eriola, egarriz ito bearrez... guztien satz, zarama, ta gorroto eginik... azkenengo arnasakaz... ilten... ta il-otzik.</p>
+<p>Eguzkia ilunduten da; itargia odoldu; lurra ikaratu, ta atxakapurtu; baia ez Amari, ez Semeari ezteutse gizonak errukirik arean artuten eta ilta gero bere, Ama minez ganeztu onek dakusala, SEmeari alboa lantza gogorraz urratuten deutse. Bai beintzat, Ama, bai; oraintxe, aurki, esan lei, itxasoa baxen andia dala zeure larritasuna.</p>
+<p>Baia geiagora ezin eldu baleitekean bere, barriztadu zan orregaiti neke ori, arako kurutzereanik eretsita, Seme ori magalean eukala, eskuakaz ikusi eutsazanean arako buru arantzaz galdua, arako sorbalda bizkar azotez apurtuak, arako esku-o&ntilde; untzez zulatuak, arako gorpu buruti beatzetara dana zulatua, arako biotzeko Semea gizonen antzik bere ez aukana.</p>
+<p>O Ama errukigarria! Baakit nik enea dala zure nekeen errua. Ene bekatuakaz ekarri deutsuet nik, zure Semeari eriotza gogorra eta zuri, Ama ezin geiagoko atsakaba eta ala orreek. Baia damututa nago; eta eskatuten natxazue Ama-Semeoi, indazuela bekatu onen oraindo damu zoliagoa, eta aurrera zuei gozo emongo deutsuen bizitza on bat egitea. Ezpedi galdu zeuei ainbeste kosta izan yatzuen arima au.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>ERROSARIO SANTUA</p><--</head>
+        </front>
+        <body>
+<p>Txikarregia da liburutxu au, berean adierazoteko Errosari santuan sartuten direan miraariak; bera esateaz irabazten direan parkamenak; eta arimai etorri yoakezan ondasunak. Asko da bein yakitia, Ama Birjineak berak asmadu, eta Aita San Domingori agertu ta iragarri eutsala; eta ain dagoela sarturik kristi&ntilde;auen artean debozi&ntilde;o au eze, ao batean esan lei eze, ez dabela kristi&ntilde;auen antzik bere, egunean egunean esaten eztabenak.</p>
+<p>Era bitara da errosarioa; batari deritxo Ama Birjinearen koroia zeinek dituzan zazpi amarreko, garaiti Abe Maria bi eta guenean Aita-Santuaren izenean Aita gurea ta Abe Maria. Berau esanagaz irabazten dabe Aita san Franziskoren iru ordeetakoak parkamen osoa, edo induljenzia plenaria, Aita-Santu Erromako Leon amargarrenak, eta Paulo boztkarrenak emona.</p>
+<p>Besteari deritxo <hi rend='Italic'>errosarioa, </hi>zeinek dituzan amabost amarreko, zeintzuk esan leizan, edo amabostak aldeereskan, edo bakotxean bana; eta dan legez dala, amabosteetara ezkero irabazten da parkamen osoa.</p>
+<p>Baia irabazteko esan bear dozu errosario ori debozi&ntilde;o andiaz, aoz ta biotzez; ez erdi lo, ganora bagarik, ta gogoa best lekutan dozula; astirotxu, berbaak agin artean nastau bagarik, itxaroten dozuela, batak osoro esan artean, besteak erantzuteko; eta erreguturik Ama Birjineari, arren bada, eskatu dagiola bere Yesus gozoari, yagon ta zaindu dagiala Elexa santua, beragandu ereje ta fedebaako guztiak, gogortu fedean kristi&ntilde;auak, baketu ta argitu kristi&ntilde;au errietako buru, nagusi ta agintariak.</p>
+<p>Onez ostean amarreko bakotxean gogoan erabili eikezu, egunari ta amarrekoari yatorkan misterio ta gogartea, emen dirautsudan eraan.</p>
+<p><hi rend='Bold'>MISTERIO GOZOZKOAK</hi></p>
+<p><hi rend='Bold'>ASTELEN-EGUBENETAN ESANGO DIREANAK</hi></p>
+<p><hi rend='Italic'> Erri askotan yaiegun-arrastegietan bi edo lauk urrengo misteriok kantetan dituez, ta gero esan Abe Mariak.</hi></p>
+<p>Yesus onaren Ama maitea,</p>
+<p>grazia eske gagortzuz,</p>
+<p>bost misterio gozoz beteak</p>
+<p>kantetan lagun zakiguz.</p>
+<p>Gogo guztiaz esango dogu</p>
+<p>lelengo misterioa;</p>
+<p>zuzendu gaizuz zerura beti</p>
+<p>Birjina biotzekoa.</p>
+<p><hi rend='Bold'> LENENGO MISTERIOA</hi></p>
+<p><hi rend='Bold'> Yaungoikoaren Semea gizon egitea</hi></p>
+<p>Zeruetarik ekarri eutsun</p>
+<p>Angeruak albistea,</p>
+<p>Zu-gan aragiz yantziko zala</p>
+<p>Ait'Eternoaren Semea.</p>
+<p><hi rend='Italic'> Guztiak erantzuten dabe urrengo au.</hi></p>
+<p>Abe Marien amarreko au,</p>
+<p>Aita-gureaz batean,</p>
+<p>Birjina eder maite berari</p>
+<p>esaten asi gaitean.</p>
+<p><hi rend='Italic'> Emen esan edo kantadu egiten dira Aita gura ta Abe Mariak.</hi></p>
+<p><hi rend='Bold'> BIGARREN MISTERIOA</hi></p>
+<p><hi rend='Bold'> Santa Isabel ikustea</hi></p>
+<p>Yainkoaz seindun zeu zoaz, Ama,</p>
+<p>lengusi&ntilde;ea ikusten;</p>
+<p>ta aren semea yaio bagarik</p>
+<p>saltoka dabil pozarren.</p>
+<p>Abe Marien <foreign>etc</foreign>.</p>
+<p><hi rend='Bold'> IRUGARREN MISTERIOA</hi></p>
+<p><hi rend='Bold'> Yesukristoren yaiotza</hi></p>
+<p>Yaio zanean zure Semea</p>
+<p>zu zeu dontzella itxirik,</p>
+<p>geldi ginean gizon guztiak</p>
+<p>ondasun gozoz beterik.</p>
+<p>Abe Marien <foreign>etc</foreign>.</p>
+<p><hi rend='Bold'> LAUGARREN MISTERIOA</hi></p>
+<p><hi rend='Bold'> Ama Birjinea Elexan sartutea</hi></p>
+<p>Yerusalengo Elexa santan</p>
+<p>Yesus eskini zenduan;</p>
+<p>berari opa gaizuz guztiok,</p>
+<p>beretzat artu gagizan.</p>
+<p>Abe Marien <foreign>etc</foreign>.</p>
+<p><hi rend='Bold'> BOSTKARREN MISTERIOA</hi></p>
+<p><hi rend='Bold'> Yesus galduta irugarren egunean aurkitutea</hi></p>
+<p>Galdu ezkero, idoro zendun</p>
+<p>Elexan zure Semea;</p>
+<p>poz onegaiti gura ezpekizu,</p>
+<p>gu bekatuan iltea.</p>
+<p>Abe Marien <foreign>etc</foreign>.</p>
+<p><hi rend='Bold'>MISTERIO DOLOREZKOAK</hi></p>
+<p><hi rend='Bold'>MARTITZEN-BARIKUETARAKO</hi></p>
+<p>Yesus onaren Ama maitea,</p>
+<p>grazia eske gagotzuz;</p>
+<p>bost misterio minez beteak</p>
+<p>kantetan lagun zakiguz.</p>
+<p>Gogo guztiaz esango dogu</p>
+<p>lenengo misterioa,</p>
+<p>zuzendu gaizuz zerura beti,</p>
+<p>Birjina biotzekoa.</p>
+<p><hi rend='Bold'> LENENGO MISTERIOA</hi></p>
+<p><hi rend='Bold'> Yaunaren ortuko biotz larria</hi></p>
+<p>Yesemaniko ortu santuan</p>
+<p>egoan Yesus larririk,</p>
+<p>odol-izerdi laban labana</p>
+<p>emoten gorputz guztitik.</p>
+<p>Abe marien amareko au,</p>
+<p>Aita-gureaz batean,</p>
+<p>Birjina eder maite berari</p>
+<p>esaten asi gaitean.</p>
+<p><hi rend='Bold'> BIGARREN MISTERIOA</hi></p>
+<p><hi rend='Bold'> Yesusen azote ikaragarriak</hi></p>
+<p>Bost milla azote artu zituzan</p>
+<p>gure bekatuakaiti;</p>
+<p>ze gatx andia dan bekatua</p>
+<p>atera daigun emeti.</p>
+<p>Abe Marien <foreign>etc</foreign>.</p>
+<p><hi rend='Bold'> IRUGARREN MISTERIOA</hi></p>
+<p><hi rend='Bold'> Yaunari arantzazko koroia imintea</hi></p>
+<p>Arantza zorrotz, gogor, latsakaz</p>
+<p>koroaturik burua,</p>
+<p>nonbait Yesusek kendu nai euskun</p>
+<p>buru-eretxi galdua.</p>
+<p>Abe Marien <foreign>etc</foreign>.</p>
+<p><hi rend='Bold'> LAUGARREN MISTERIOA</hi></p>
+<p><hi rend='Bold'> Yaunak kurutzea eroatea</hi></p>
+<p>Krutze astun bat lepoan, eta</p>
+<p>lapur gaistoen erdian,</p>
+<p>eroan eben Yesus maitea</p>
+<p>Kalbarioko bidean.</p>
+<p>Abe Marien <foreign>etc</foreign>.</p>
+<p><hi rend='Bold'> BOSTKARREN MISTERIOA</hi></p>
+<p><hi rend='Bold'> Yesus kurutzean yosirik iltea</hi></p>
+<p>Kurutze ganean untzez yosirik</p>
+<p>an galdu eban bizia;</p>
+<p>gure arimak gal etzitezen,</p>
+<p>igaro eban guztia.</p>
+<p>Abe Marien <foreign>etc</foreign>.</p>
+<p><hi rend='Bold'>MISTERIO GLORIAZKOAK</hi></p>
+<p><hi rend='Bold'>DOMEKA-EGUASTEN-ZAPATUETARAKO</hi></p>
+<p>Yesus onaren Ama maitea,</p>
+<p>grazia eske gagotzuz;</p>
+<p>bost misterio gloriazkoak</p>
+<p>kantetan lagun zakiguz.</p>
+<p>Gogo guztiaz esango dogu</p>
+<p>lenengo misterioa;</p>
+<p>zuzendu gaizuz zerura beti,</p>
+<p>Birjina biotzekoa.</p>
+<p><hi rend='Bold'> LENENGO MISTERIOA</hi></p>
+<p><hi rend='Bold'> Yesukristoren biztuerea</hi></p>
+<p>Neken ostean, Ama maitea,</p>
+<p>ilen arterik bizturik</p>
+<p>ikusi zendun zure Semea</p>
+<p>eguzki eder eginik.</p>
+<p>Abe Marien amarreko au,</p>
+<p>Aita-gureaz batean,</p>
+<p>Birjina eder maite berari</p>
+<p>esaten asi gaitean.</p>
+<p><hi rend='Bold'> BIGARREN MISTERIOA</hi></p>
+<p><hi rend='Bold'> Yaunaren zeruetara igoerea</hi></p>
+<p>Berrogei egun igaro, eta</p>
+<p>zerura igo zanean,</p>
+<p>gloriaz bertan yarri izan eban</p>
+<p>Aitak berak aldean.</p>
+<p>Abe Marien <foreign>etc</foreign>.</p>
+<p><hi rend='Bold'> IRUGARREN MISTERIOA</hi></p>
+<p><hi rend='Bold'> Espiritu Santuaren etorrerea</hi></p>
+<p>Espiritu Santu Yainkoa bera</p>
+<p>sutan zerurik etorren,</p>
+<p>Apostoluak, ta ganekoak</p>
+<p>amore-doiez beteten.</p>
+<p>Abe Marien <foreign>etc</foreign>.</p>
+<p><hi rend='Bold'> LAUGARREN MISTERIOA</hi></p>
+<p><hi rend='Bold'> Maria Santisimearen zeruetara igoera</hi></p>
+<p>esus gozoak zu ikustarren</p>
+<p>zeruan zoriondurik,</p>
+<p>ara zaroaz gorputz ta arima,</p>
+<p>Angeruz inguraturik.</p>
+<p>Abe Marien <foreign>etc</foreign>.</p>
+<p><hi rend='Bold'> BOSTKARREN MISTERIOA</hi></p>
+<p><hi rend='Bold'> Ama Birjinearen gloria andia</hi></p>
+<p>rinidadeak yarri zinduzan</p>
+<p>me Yaunaren aldean,</p>
+<p>eti ta beti zu eukiteko</p>
+<p>beste guztien ganean.</p>
+<p>Abe Marien <foreign>etc</foreign>.</p>
+<p><hi rend='Bold'>BESTE MODU BAT ERROSARIOA ESKE&Ntilde;ITEKO</hi></p>
+<p><hi rend='Bold'>AMARREKO BAKOTXEAN ESANGO DA</hi></p>
+<p>Ama graziazkoa, Ama errukizkoa, gorde gaizuz arerioetarik; eta artu gaizuz eriotzako orduan. Amen.</p>
+<p><hi rend='Bold'>MISTERIO BAKOTXEAN ESAN ZI&Ntilde;AIKE URRENGO ESKAARIA</hi></p>
+<p>O Birjina Ama Maria, Aingeruen Erregina, ta gizonen bitarteko maitea! Amar Abe Maria oneek, ta Aita gurea au opa deutsuguz, erregutu daiozun zeure Semeari, emon daigula egiazko umiltasuna; gorputz eta arimako osasuna; geure bekatuen garbai zolia; kristi&ntilde;au errietan bakea, ta Elexa ama santuan zoriona. Amen.</p>
+<p><hi rend='Bold'>AMA BIRJINEAREN LETANIAK EUSKERAZ</hi></p>
+<p>Yauna, errukia.</p>
+<p>Kristo, errukia.</p>
+<p>Yauna, errukia.</p>
+<p>Kristo, entzun gaizuz.</p>
+<p>Kristo, aditu gaizuz.</p>
+<p>Aita Yaungoiko zeruetakoa.</p>
+<p><hi rend='Italic'> R. Errukia guzaz.</hi></p>
+<p>Seme Yaungoiko munduaren eroslea.</p>
+<p><hi rend='Italic'> R. Errukia guzaz.</hi></p>
+<p>Espiritu SAntu Yaungoikoa.</p>
+<p><hi rend='Italic'> R. Errukia guzaz.</hi></p>
+<p>Irutasun SAntu Yaungoiko bakarra.</p>
+<p><hi rend='Italic'> R. Errukia guzaz.</hi></p>
+<p>SANTA MARIA, erregutu gugaiti.</p>
+<p>Yaungoikoaren Ama Santea.</p>
+<p>Donzelleen Donzella SAntea.</p>
+<p>Kristoren Ama.</p>
+<p>Yankoaren graziaren Ama.</p>
+<p>Ama guztiz garbia.</p>
+<p>Ama guztiz kastea.</p>
+<p>Ama dontzellea.</p>
+<p>Ama birjinea.</p>
+<p>Ama loitubaakoa.</p>
+<p>Ama maitegarria.</p>
+<p>Ama miragarria.</p>
+<p>Egillearen Ama.</p>
+<p>Salbatzallearen Ama.</p>
+<p>Birjina txito begiratua.</p>
+<p>Birjina itzal andikoa.</p>
+<p>Birjina alabagarria.</p>
+<p>Birjina esku andikoa.</p>
+<p>Birjina biotz biguna.</p>
+<p>Birjina kirmena.</p>
+<p>Ontasunaren espillua.</p>
+<p>Yakinduriaren yarlekua.</p>
+<p>Gure poz-ekarlea.</p>
+<p>Ontzi espirituala.</p>
+<p>Ontzi ondragarria.</p>
+<p>Debozi&ntilde;o ontzi txitozkoa.</p>
+<p>Larrosa asko esan gurea.</p>
+<p>Dabiden torrea.</p>
+<p>Marfilezko torrea.</p>
+<p>Urregorrizko etsea.</p>
+<p>Bakearen utxea.</p>
+<p>Zeruko atea.</p>
+<p>Egun sentiko izarra.</p>
+<p>Gaixoen osasuna.</p>
+<p>Bekatarien iges lekua.</p>
+<p>Larri estuen pozkaria.</p>
+<p>Kristi&ntilde;auen laguntasuna.</p>
+<p>Aingeruen Erregina.</p>
+<p>Aita aurrenen Erregina.</p>
+<p>Profeta igarleen Erregina.</p>
+<p>Apostoluen Erregina.</p>
+<p>Martirien Erregina.</p>
+<p>Konfesoreen Erregina.</p>
+<p>Donzellen Erregina.</p>
+<p>Santu guztien Erregina.</p>
+<p>Yaungoikoaren bildotsa, munduko bekatuak kenduten dozuzana, <hi rend='Italic'>Parkatu, Yauna.</hi></p>
+<p>Yaungoikoaren bildotsa, munduko bekatuak kenduten dozuzana, <hi rend='Italic'>Entzun gaizuz Yauna.</hi></p>
+<p>Yaungoikoaren bildotsa, munduko bekatuak kenduten dozuzana, <hi rend='Italic'>Errukia guzaz.</hi></p>
+<p><hi rend='Bold'>GOX EGUERDI ARRATSEETAN</hi></p>
+<p><hi rend='Bold'>Abemarietakoak yot-orduan parkamenak </hi></p>
+<p><hi rend='Bold'>irabazten dira urrengo orazi&ntilde;orik esan da</hi></p>
+<p>Angeruak Maria Birjineari barri onak emon, ta Espiritu Santuaren graziaz Yaungoikoaren Semea bere sabelan sortu zan. <hi rend='Italic'>Abe Maria.</hi></p>
+<p>Ara emen yaunaren otsei&ntilde;a, egin bedi nigan zuk di&ntilde;ozun legez. <hi rend='Italic'>Abe Maria.</hi></p>
+<p>Yaungoikoaren Semea gizon egin tzan ta bizi izan zan gure artean. <hi rend='Italic'>Abe Maria.</hi></p>
+<p><hi rend='Bold'>ESKABIDEA</hi></p>
+<p>Ezarri egizu, arren, yauna, gure arimeetan zure grazia; Angeruak barri onak ekarrita Kristo zure Semearen gizon egitea ezagutu dogunok, bere pasi&ntilde;o ta kurutzearen bitartez bere biztuerako gloriara eroanak izan gaitezan. Amen.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>FEDE, ESPERANTZA TA KARIDADEKO EGINTZAAK</p><--</head>
+        </front>
+        <body>
+<p>Nik sinisten dot Yangoiko bakar baten iru persona banaak; zeintzuk direan Aitea, Semea, ta espiritu Santua; irurak gauza guztietan bat eta bardi&ntilde;ak.</p>
+<p>Sinistuten dot Irutasun Santu onetako bigarren Personea, Espiritu Santuaren egitez ta graziaz, gizon egin izan tzala Maria Birjinearen sabel santuan; eta yaio izan tzala bere Amaren donzellatasunaren kalte bagarik.</p>
+<p>Sinistuten dot, Yaun au kurutzean il egintzala, gu bekatariok erostearren; ilen arterik bistu, ta zerura igon ebala; eta azkenengo yudizioko egunean etorriko dala, biziai ta ilai euren bizian kontu artu, ta sentenzia emotera.</p>
+<p>Sinistuten dot Altarako Sakramentu santuan dagoala Yesukristo gure Yauna, Yaungoiko ta gizon egiazkoa.</p>
+<p>Sinistuten dot, Elexa Ama Santeak sinistu ta erakusten deustan guztia, utsik ezin egin leian Yaungoikoak Elexa berari agertu ta irakatsi deutsazalako; eta siniste on onetan bizi ta il gura dot.</p>
+<p>Biztu egidazu, ene fede otz il au.</p>
+<p><hi rend='Bold'>ESPERANTZAKO EGINTZEA</hi></p>
+<p>Ene Yaungoiko errukior ta biot bigunekoa, zeure ontasunean daukat nik uste bete-betea zeure Seme Yesukristoren merezimentu, odol ta eriotzea gaiti parkatuko deustazuzala zeure bekatuak, eta emongo deustazula zeure bear dodan argitasuna, laguntzea, ta grazia zeure aginduak artez gordetako; eta oneek alan gordetan badodaz, beti betiko gloria. Alan gerta dedilla. Amen.</p>
+<p><hi rend='Bold'>KARIDADEKO EGINTZEA</hi></p>
+<p>Maite zaitudaz, Yauna, gauza guztien ganean; ta gura zindukedaz maitatu, zeure Amak, Angeru ta zerutar guztiak maite zaituezan legetxe.</p>
+<p>Maite zaitudaz zu zarealako neure egillea, ongillea, ta ontasun berbera; eta zeruaren usterik ezpaneu, ezta infernuaren bildurrik bere, orregaiti bere maitatuko zindakedaz; eta damu dot orain artean bear dan legez ez maitatu izana; damu dot zu ainbeste bider ofendidua. Maite dodaz bere zu gaiti lagun proximu guztiak, neure burua legetxe.</p>
+<p>Indazu, Yauna, zu ganako amodio su ta gar andiko bat; orregaz iraunik eriotzaa gi&ntilde;o zeure maitetasun ederrean, eldu nadintzat gero zu beti maite izango zaitudazan zerura. Amen.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>BESKARI TA APARI-OSTEAN</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>ESKER ONAK EMOTEKO ORAZI&Ntilde;OA</hi></p>
+<p>Eskerrak emoten deutsuguz, Yangoiko maitea, zure eskurik orai gi&ntilde;o artu doguzan mesedeakaiti, ta guztiz bere, orain guk merezi eztogula, emon deuskuzun yatekoa gaiti. Zeugan, Yauna, dauzeguz usteak, emongo deuskuzula barriro bere gure eguneango ogia ta yanaria, geure bizitzeari, zeu serbietako, iraun arazo daioguntzat. Amen.</p>
+<p><hi rend='Italic'>Aita gurea ta Abe Maria.</hi></p>
+<p>Ama Birjina Maria Santisimearei, gure bitarteko izan dedintzat orain ta eriotzako orduan, <hi rend='Italic'>Salbe bat.</hi></p>
+<p>Purgatorioko Arimeen onerako, ta batez bere gure senide, adiskide, ezagun, eta etse onetarik urten dabenenerako. <hi rend='Italic'>Aita gurea ta Abe Maria bat.</hi></p>
+<p>Mai onetan batu gaituzanok, batu gaizala Yaungoikoak zeruan: <hi rend='Italic'>Aitearen, ta Semearen, ta espiritu Santuaren izenean, Amen.</hi></p>
+        </body>
+      </text>
+    </group>
+  </text>
+</TEI.2>
+

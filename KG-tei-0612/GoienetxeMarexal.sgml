@@ -1,0 +1,324 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN"
+                       "http://www.tei-c.org/P4X/DTD/tei2.dtd" [
+   <!ENTITY % TEI.prose    'INCLUDE' >
+   <!ENTITY % TEI.linking  'INCLUDE' >
+   <!ENTITY % TEI.analysis 'INCLUDE' >
+   <!ENTITY % TEI.figures  'INCLUDE' >
+   <!ENTITY % TEI.XML      'INCLUDE' >
+   <!ENTITY % TEI.extensions.ent SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.ent' >
+   <!ENTITY % TEI.extensions.dtd SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.dtd' >
+]>
+<TEI.2>
+  <teiHeader>
+  <fileDesc>
+     <titleStmt>
+        <title>Marexalen liburia</title>
+        <author>Bertrand Goienetxe</author>
+        <respStmt>Ez dauka</respStmt>
+     </titleStmt>
+     <extent>3.561 hitz, 24.912 karaktere</extent>
+     <publicationStmt>
+        <publisher>Klasikoen Gordailua [http://klasikoak.armiarma.com/]</publisher>
+        <distributor>Estrata Liburuak S.L.</distributor>
+        <address type='email'>klasikoak@armiarma.com</address>
+        <idno type='ota'>GoienetxeMarexal</idno>
+        <availability status='free'>Erabilpen librekoa; honoko helbidean topa daiteke (HTML, RTF eta PDF formatuetan): http://klasikoak.armiarma.com/idazlanak/G/GoienetxeMarexal.htm</availability>
+        <date>2006</date>
+     </publicationStmt>
+     <sourceDesc>
+        <bibl>Iturria: &#171;Monjongo Dassan&ccedil;aren Laborarien abissua (1692) eta honen bi aldaera ezezagun: Jean pierre Chabalgoityk idatzia (XVIII.m.) eta Bertrand Goyenetcheren Marechalaren liburia (1831)&#187;. Aurkezpena, edizioa, oharrak eta hiztegia, ASJU XXXIII-1, 1999, 239-304.</bibl>
+        <notesStmt><note>Iturburuen datazioa: 1830</note></notesStmt>
+     </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+     <projectDesc>Euskal literaturako testu klasikoen bilduma da KLASIKOEN GORDAILUA; testu hau berorren parte da</projectDesc>
+     <refsDecl>
+        <p>MENTIONED etiketa egilearenak ez diren hitzak markatzeko erabili da: hitzaurreak, aipuak, iruzkinak, e.a.</p>
+    </refsDecl>
+     <classDecl>
+        <taxonomy id='generoa'>
+            <category id='G-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='G-ANT'><catDesc>Antzerkia</catDesc></category>
+            <category id='G-BER'><catDesc>Bertsoak</catDesc></category>
+            <category id='G-ERL'><catDesc>Erlijioa</catDesc></category>
+            <category id='G-NAR'><catDesc>Narratiba</catDesc></category>
+            <category id='G-POE'><catDesc>Poesia</catDesc></category>
+            <category id='G-SAI'><catDesc>Saiakera, kronika, artikuluak...</catDesc></category>
+        </taxonomy>
+        <taxonomy id='garaia'>
+            <category id='M-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='M-16'><catDesc>XVI. mendea</catDesc></category>
+            <category id='M-17-1'><catDesc>XVII. mendea - 1. erdia</catDesc></category>
+            <category id='M-17-2'><catDesc>XVII. mendea - 2. erdia</catDesc></category>
+            <category id='M-18-1'><catDesc>XVIII. mendea - 1. erdia</catDesc></category>
+            <category id='M-18-2'><catDesc>XVIII. mendea - 2. erdia</catDesc></category>
+            <category id='M-19-1'><catDesc>XIX. mendea - 1. erdia</catDesc></category>
+            <category id='M-19-2'><catDesc>XIX. mendea - 2. erdia</catDesc></category>
+            <category id='M-20-1'><catDesc>XX. mendea - 1. erdia</catDesc></category>
+            <category id='M-20-2'><catDesc>XX. mendea - 2. erdia</catDesc></category>
+        </taxonomy>
+        <taxonomy id='euskalkia'>
+            <category id='E-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='E-BAT'><catDesc>batua</catDesc></category>
+            <category id='E-BIZ'><catDesc>bizkaiera</catDesc></category>
+            <category id='E-BNA'><catDesc>behenafarrera</catDesc></category>
+            <category id='E-ERR'><catDesc>erronkariera</catDesc></category>
+            <category id='E-GIP'><catDesc>gipuzkera</catDesc></category>
+            <category id='E-GNA'><catDesc>goi nafarrera</catDesc></category>
+            <category id='E-LAP'><catDesc>lapurtera</catDesc></category>
+            <category id='E-NAF'><catDesc>nafarrera</catDesc></category>
+            <category id='E-ZAR'><catDesc>zaraitzuera</catDesc></category>
+            <category id='E-ZUB'><catDesc>zuberera</catDesc></category>
+        </taxonomy>
+    </classDecl>
+  </encodingDesc>
+  <profileDesc>
+     <textClass>
+       <keywords scheme='generoa'>
+         <list><item>G-SAI</item></list>
+       </keywords>
+       <keywords scheme='garaia'>
+         <list><item>M-19-1</item></list>
+       </keywords>
+       <keywords scheme='euskalkia'>
+         <list><item>E-LAP</item></list>
+       </keywords>
+     </textClass>
+  </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>Marexalen liburia -- Bertrand Goienetxe</docTitle>
+    </front>
+    <group>
+      <text>
+        <body>
+<p><hi rend='Bold'>MAREXALEN LIBURIA Eskuaraz</hi></p>
+<p><foreign><hi rend='Bold'>&agrave; Bertrand Goyenetche fils</hi></foreign></p>
+<p><foreign><hi rend='Bold'>Fait &agrave; Saint Jean Pied de Port</hi></foreign></p>
+<p><foreign><hi rend='Bold'>le 25 mars 1830</hi></foreign></p>
+<p><hi rend='Bold'>1</hi></p>
+<p><hi rend='Bold'><hi rend='Italic'>Idiaren, sukharra sendatzeko zer egin behar den</hi></hi></p>
+<p>Idiak sukharra duenian ezagutuko duzue idiaren inketadura era guziz gorphutza ikharatzen zaienian. Kopetan ere eztu su eta lamarik baizen ageri eta partikularki bi adarren artian.</p>
+<p>Halaber berotzen zaizko beharriak eta ahua izerdia kaintoin guzietarik dariola.</p>
+<p>Ezen denbora hartan ezin deusik ian dezake.</p>
+<p>Bainan nahi luke zenbait gauza fresko milikatu, mihiaren idortasuna dela kausa.</p>
+<p>Buria ere hanitz pisua daduka eta begiak nigarretan tuela era muthurra linburriz garnitia hanitz luzia.</p>
+<p>Fazoin hartan sendi duzuenian idia sukharrez atakatua dela egun hartan barur araziko diozue eta gero biharamunian atherako diozue odol guti bat buztanaren azpitik.</p>
+<p>Ondoko borz egunetan entretenituko duzue gluteron deitzen den belhar fresko hetarik urarekin irakitu eta ur hartarik maiz edatera emaiten diozuela eta halaber kontinua edate hori sukharra ioan arteraino berze batzuek atheratzen diotela odola beharri gibeletarik eta kopetatik.</p>
+<p><hi rend='Bold'>2</hi></p>
+<p><hi rend='Bold'><hi rend='Italic'>Lantzar deitzen den eritasuna edo ezperen idi marteilia</hi></hi></p>
+<p>Idi marteilia deitzen den eritasuna ezagutzen da noiz eta ikhusten beitugu idiaten iliak sagarreroiaren izpiak gisa laztuak tuela, eta idia hanitz tristatua, begiak ilhunak eta pisuak, lephua makhurtia, ahotik gerlia dariola, bizkarra eztoka bezala gogortua, urhatsa jo anhitz pisua apetitia galdua auxnarria edo ruminatzia ezarriagoa.</p>
+<p>Eritasun hori hastean senda daiteke fazilki behar den erremedioak emaiten zaizkonian.</p>
+<p>Bainan zahartuxez geroztik / eskapatzen da eritasun hortarik. Halere entseiatu behar da egin ahalaren egitera.</p>
+<p>Hartarakotz harzazue Konstantinopolitana eta meloin erroak, bakhotxetik ahur bana eta hirur ahur gatz larri; eta gero hek elkharrekin xehaturik, trenpa zazue laurden bat arnotan; eta eman arno hartarik idiari edatera goiz guziez gathulu baten betia aldian eta kontinua diozozue arno hartarik osoki, sendotu arteraino.</p>
+<p><hi rend='Bold'>3</hi></p>
+<p><hi rend='Bold'><hi rend='Italic'>Idiaren bihotz-terra khentzeko, zer egin behar den</hi></hi></p>
+<p>Idiak bihotz terra duenian ezagutuko / duzue idia gonbite iduriz dagoenian, non orduan berxala mustupila edo muthurra frotatuko diozue phorruz eta baratxuriz eta posible bada hetarik xehaturik, arnoarekin hararaziko diozue golpean eta arratxean.</p>
+<p><hi rend='Bold'>4</hi></p>
+<p><hi rend='Bold'><hi rend='Italic'>Idiaren kolika sendatzeko zer egin behar den</hi></hi></p>
+<p>Idiak kolika duenian ezagutuko duzue idiaren pleinutan bai eta halaber haren estok eta gogortasunean, hasi lepotik eta isterretarainoko guzian.</p>
+<p>Ordu hartan habarrotx hanitx egiten zaio sabelian; maiz etzan, maiz jaikitzen da eta ezin dago / bere lekuan, izerdia xurrupitan dariola, kainton guzietarik.</p>
+<p>Gaitz horren sendotezeo batzuek emaiten diote baratxuriak eta phorruak xehaturik eta arnouan irakiturik, arno hartarik edatera laurden erdi baten inguria aldi bakotxian.</p>
+<p>Berze batzuek erremedio hori iuntatzen diote intzaur, oliba eta tipula arnotan egosirik.</p>
+<p>Hartarakotz harzazue ahur bana mirra eta erramou bihiak eta hek irakitu ondoan arnoarekin, irazi eta emozue edatera arno houra.</p>
+<p>Berze batzuek, idiari pikatzen diote behatz azpiko haragiak eta buztan / azpitik, odol guti bat ekhar dezantzat.</p>
+<p>Kolika sue(r)te hori arribatzen da ordenariozki u(n)haduraz primaderetan, zeren ezen denbora hartan odol soberantziak hobeki errekeitatzen baitira; eta hala odola atheratou ondoan zenbait pasaie erakin diozozue ungi estalirik errefria eztadin</p>
+<p><hi rend='Bold'>5</hi></p>
+<p><hi rend='Bold'><hi rend='Italic'>Idiaren sabelminen erremedioa</hi></hi></p>
+<p>Kolika bezala egiten da eritasun hura eta hala kolikarentzat on diren erremedioak balia daitezke sabelminetan; bai eta halaber drigas ere arnoarekin edatera emaiten diotela; eta gero biharamunian odola atherako diozue mihi azpitik, edo suduretarik edo ezperen edan araziko diozue erremedio huntaz zeina egiten baita lau untza turmentina eta gatz guti batekin, pirolak idiari iretxarazteko eta baldin posible ez bada zintzurrian pasaraztea, urtuko tuzue arno beroan; eta gero edana araziko adar batetarik.</p>
+<p>Denbora hartan idiak beroki egon behar du barruki bero batean <foreign>(vulgar vult).</foreign></p>
+<p><hi rend='Bold'>6</hi></p>
+<p><hi rend='Bold'><hi rend='Italic'>Idia xarmadurez inkantatua denian zer egin behar den.</hi></hi></p>
+<p>Idia xarmatua denian, ezagutuko / duzue tristezia handian; bai eta guziz laster bere akzioneak egin nahi tuenian, non orduan idia laburski hagatzen eta mehatzen baita hetikatua baliz bezala.</p>
+<p>Hargatik da nesesario pronpki erremedioak egitea.</p>
+<p>Hartarakotz ezagutu duzuenian idia xarmatua dela, emozue lehen bai lehen ur hartarik sudurretan barna zeina eginen baituzue lehen bai lehen ahur bat erramou bihi eta ahurbat ienebria bihi eta untza bat sofre lore, eta gero ur epeletan hogoi eta lau orenez irazi duzuenian balia zaitezte ur hartaz goizetan eta arratsetan sudurretan barna emaiteko./</p>
+<p>Hori egin bezain sarri preparatuko diozue erremedio miragarri hau, zeina khenduko baititu xarmak eta eskantadura guziak.</p>
+<p>Hartarakotz harzazue laur untza Konstantinopolitana, untza bat gatz larri; eta hek xehaturik ungi irakitu behar dute pinterdi bat uretan eta gero eman hur hura idiari edatera.</p>
+<p>Baldin eta lehen kolpetik ezpada idia erremetitia emanen diozue zenbait aldiz erremedio hortarik eta hala ikhusiko duzue, efetu miragarri ez solamente idien xarmen kontra erakusten duen efetua, bainan oraino / erranen darotzut Konstantinopolitana horrek berthute handiak dituela Sedazieus Arabiako autor famatu haren erranez.</p>
+<p>Etzen hain espresuki seguratzen gaitu erraiten darotzunian khentzen tuela eta debekatzen guziak nahiz alimalia, presunetan lur eta etxetan egiten diren guziak.</p>
+<p>Hartarakotz dio aski dela erran dugun Konstantinopolitana hori bere lurretan eta etxetan idukhitzia. Beraz hazia zaitezte erremedio miragarri hortaz.</p>
+<p><hi rend='Bold'>7</hi></p>
+<p><hi rend='Bold'>Idiaren utxada edo sabeltasuna duenian</hi> inagutuko duzue haren isurrietan, zeren etzen klar aski baitire bat eta berzia ezagutzekotz; eta hala ikhusten duzuenian sabeltasuna duela eztiozue denbora hartan iatera ez edatera eman behar bizpahirur egunez, baizen xoilki zenbait mahatx bihi pipita edo ezperen mahatx ostoak arnotan trenpaturik har araziko diozue idiari, eta gero hirur egunen buruan presenta diozue zenbat belhar fresko, nahiz planta&ntilde;ak edo / zamari bustana deitzen den belharra eta guardia ondotik ere bere hura erramou ostoeki irakiturik eman beharko diozue. Zer ere erremedio eman baitut sabeltasunarentzat zeren etzen biak bat bezala egiten baitire.</p>
+<p><hi rend='Bold'>8</hi></p>
+<p><hi rend='Bold'><hi rend='Italic'>Idiak erortzeko mina duenian zer egin behar den</hi></hi></p>
+<p>Idiak erortzeko mina duenian ezagutuko duzue idia kolpez erortzen denian eta gero ahua makhurturik gerlia ta arrapoa ahotik dariola eta zangoak bihurzen bezala, eta finian bizpahirur orenen buruan deusik ezpalu bezala altxatzen denian.</p>
+<p>Halako eritasuna duten idiak ordenarioski atakatuak dira bi hilabetetarik bi hilabetetara.</p>
+<p>Eritasun horren sendatzeko hararazi beharko diozue laurden bar arnotan astoaren zangoko hezurra, untza bana, limaturik eta ungi xehaturik eta gero kontinua hogoi egunez goiz guziz emaiten diozula adar batetarik, berze batzuek hanitz baliatzen dire erran dugun / konstantinopolitana miragarri hortaz.</p>
+<p>Hartarakotz aski dute arnouan edo urian irakiturik ur hartarik idiari goizetan eta arraxetan emaitia.</p>
+<p><hi rend='Bold'>9</hi></p>
+<p><hi rend='Bold'><hi rend='Italic'>Idiaren gatarrari edo Kainnarrari zer egin behar den</hi></hi></p>
+<p>Gatarraren erremediorik lasterrena mihiaren azpitik odola atheratzia da eta gero porruak, arruta, apio, (salbina, eta <foreign>morsus diabolus) </foreign>elgarrekin urian irakiturik irazi eta ur hartarik idiari edatera emaitia.</p>
+<p>Eta finian panieru batian arno ligaz, ogi mamiz eta hautxarekin ahia eginik hortaz lepoa lotzea non bide hortaz laster / khenduko baitiozue bere gatharra.</p>
+<p><hi rend='Bold'>10</hi></p>
+<p><hi rend='Bold'><hi rend='Italic'>Idiak odolez pixa ajiten duenian zer egin behar den</hi></hi></p>
+<p>Idiak odolez pixa egiten duenian heldu zaio komuski akzident hori hanitz berotua eta bortizki marfunditua denean eta guziz udan zenbait belhar gaisto ihintzez bustia ian duenian.</p>
+<p>Gaitz horren erremediatzekotz ezdu deusere idiak edo behar luke xoilki edari huntarik baizen hartarakotz harzazue hirur untza artho irin eta untza bat trigada. Gero hek irakit pinterdibat arnotan eta finian iuntazen diozuela / safran guti bat.</p>
+<p>Edari hortarik emozue edatera goizetan eta arratxetan plantain ura olioarekin.</p>
+<p><hi rend='Bold'>11</hi></p>
+<p><hi rend='Bold'><hi rend='Italic'>Idiak ezin pixa eginez dagoenian zer egin behar den</hi></hi></p>
+<p>Idia penaz dagoenian ezin pixarik eginez atherako diozue odol gutibat bizikako lainetarik eta gero hirur goizez edan araz: eztia eta olioa arno xuritan nahasirik.</p>
+<p><hi rend='Bold'>12</hi></p>
+<p><hi rend='Bold'><hi rend='Italic'>Idiak harria duenian zer egin behar den</hi></hi></p>
+<p>Noiz ere baitakizue idiak harria duela bizikan edo xilkuan barna pikaturik atherarzia da erremedirik segurrena.</p>
+<p>Bainan halere ezpada posible nihok atheratzia baliatuko zarete erremedio huntaz haren oinazez apazegatzekotz.</p>
+<p>Hartarakotz harzazue untza bat millu marin erro untza laurden bat espezia itze eta haren erdia bipher; eta gero guziak ungi xehatu direnian emozue idiari arno ephel guti batekin edatera eta kontinua zenbait aldiz fazoin berian emaitera./</p>
+<p><hi rend='Bold'>13</hi></p>
+<p><hi rend='Bold'><hi rend='Italic'>Idiak bere natura edo pitostoa gogortua duenian zer egin behar den</hi></hi></p>
+<p>Eritasun hori gertatzen zaionean idiari aski duzue malbariska egostia burrarekin batian, eta gero hartaz maiz pereka idiaren natura eta laster suflaraziko dio bere pithoa.</p>
+<p><hi rend='Bold'>14</hi></p>
+<p><hi rend='Bold'><hi rend='Italic'>Idiak azpia hantua duenian zer egin behar den</hi></hi></p>
+<p>Ezagutu duzuenian idiaren / mihi azpia hantua dela enseia zaitezte lehen bai lehen mihi azpiko zainerarik burdin bero batez zilhaturik edo lantzeta zorrotz batez odola atheratzia, da gero gantzu edo pereka diozozue zauri hura, olioa eta gatza elkharrekin nahasirik eta kontinua umore guzia kanporat joan artino.</p>
+<p>Denbora hartan idia entretenituko duzue belhar freskoz eta baldin apetitua ezpadu ernatua laster, izan araziko diozue erremedio huntaz.</p>
+<p>Hartarakotz harzazue arroltze bat xuringoa balxan, eta nahas ezti / guti batekin gero emozue arnoarekin idiari edatera. Hantik harat emozue bere iatekotan zenbait gatz bihi eta hala efetu onak atherako dire.</p>
+<p><hi rend='Bold'>15</hi></p>
+<p><hi rend='Bold'><hi rend='Italic'>Idiak errainetako mina duenian zer egin behar den</hi></hi></p>
+<p>Idiak errainetako mina duenian ezagutuko duzue haren plainutan eta guziz gibeleko trainaz, ezin aitzina zangoak heda ditzazkenian; almakez ere ezin segura daiteke; ez eta hain guti bustanna biribilka, non ordian dilindan baitario, haren gernuak usain gaistoa du eta gibeleko traina osokhi pisatua; eta baldin inflamazionerik gerthatzen bada denbora hartan idiaren pixa odolaren gisa gorri dohako eta penarekin egiten du.</p>
+<p>Eta hanitz badio, ez da izanen harentzat erremediorik.Bainan ezpada pixa bura aphur bat tindatua baizen gorri kara duela bere koloria esparantza da eritasun hartarik sendatuko dela.</p>
+<p>Hartarakotz atherako diozue odola almaketarik eta maiz eman idiari / edatera porruak ur klarrian trenpaturik.</p>
+<p><hi rend='Bold'>16</hi></p>
+<p><hi rend='Bold'><hi rend='Italic'>Idiaren berze errainetako mina nola sendatu behar zaion</hi></hi></p>
+<p>Noiz ere senti baituzue idia erori dela zenbait gauza gogorren gainera ezagutuko duzue baten kolpe handian ezen ezta behinere falta kolpe borthitza dela kausa konstusione eta inflamazionea.</p>
+<p>Hargatik laboraria denbora hartan idiak mehatxatzen tuenian eztitu bere lekhutik mobiaraziko eta kolpia duen lekhua maiz freskatuko dio ur hotzez eta gero gantzu edo pereka ungi xukhaturik, urin hurtuz edo urdaiez.</p>
+<p>Eritasun horren sei&ntilde;aliak dire kanpoko aldetik gogor izatia aisiarat manaia dezake; eta pena handia du etzana denian bere lekhutik ezin altxatuz.</p>
+<p><hi rend='Bold'>17</hi></p>
+<p><hi rend='Bold'><hi rend='Italic'>Idiaren oinaze eta dolore suerte gehienentzat erremedioa eta guziz nekhadurez heldu zaiotenetan</hi></hi></p>
+<p>Har zazue ahurbat liho azi eta berze ahur bat kammamilla eta hek ungi irakit aieru batetan urian erabilzen duzue maiz makhilla batez, osokhi ahia egin arteraino eta gero heda zazue zenbait traputan eta hartaz lot non ere sendi baituzue gogortasuna hanturarik edo oinaze duen lekhuan.</p>
+<p><hi rend='Bold'>18</hi></p>
+<p><hi rend='Bold'><hi rend='Italic'>Idia biriketarik errenkura denian zer egin behar den</hi></hi></p>
+<p>Birikerarik arrangura horiek gaitz dire idier khentzia hein mobimendu handia dela kausa.</p>
+<p>Bainan halere egin dakiozue erremedio ha&uuml; zeina baita lehenbizikorik maniatera ur beroz garbitzia eta gero belhar freskos usain onetakoez ungi urrindatzia.</p>
+<p>Denbora hartan khendu behar tuzue barrukitik zamari edo behor urde eta berze azienda guziak beldurrez ezen haren hatxak kommunika eztiozoten eritasun bera.</p>
+<p>Hargatik orduan utziko diozue / zenbait asto aldian, ezen haren hatxak probetxu egiten diote biriketako arrankurer.</p>
+<p><hi rend='Bold'>19</hi></p>
+<p><hi rend='Bold'><hi rend='Italic'>Idia estulez atakatua denian zer egin behar den</hi></hi></p>
+<p>Idia marfundiz atakatua denian eta guziz estul handia duela, hartuko duzue aphur bat hisopa eta hura irakit pinterdi bat huretan. Gero irazi duzuenian, edan araz dezakozue ur hura idiari.</p>
+<p>Denbora hartan emozue iatera / forru ostoak xehaturik ogi nostroarekin batian.</p>
+<p>Berze batzuek emaiten diote idiari armoisaren ura amiron xuriarekin batian, hisopa egiten den gisa.</p>
+<p><hi rend='Bold'>20</hi></p>
+<p><hi rend='Bold'><hi rend='Italic'>Idiak hertziak galtzen hasia dituenian zer egin behar den</hi></hi></p>
+<p>Idiak hertziak deseginak dituenian hartu behar duzue hirur untza turmentina eta hura haur baten eskuz sar idiari gibeleko aldetik ahalik eta barnena; edo ezperen turmentinaren lekhuan balia zaitezte, gantz gesaz era urin hurruz...</p>
+<p><hi rend='Bold'>21</hi></p>
+<p><hi rend='Bold'><hi rend='Italic'>Idiak hatxa laburra duenian zer fazoinez sendatuko den</hi></hi></p>
+<p>Noiz ere sendi baituzue idiak hatxa laburra duela emozue beharritan zilhaturik <hi rend='Italic'>Hellebore noir</hi> deitzen den belharra gargandilla baliz bezala eta hark on handia eginen diote</p>
+<p><hi rend='Bold'>22</hi></p>
+<p><hi rend='Bold'><hi rend='Italic'>Idiak almaketan min duenian zer egin behar den</hi></hi></p>
+<p>Ezagutu duzuenian idiari almaketan hoin-haziak eta doloriak dituela, har zazue hirur ahur alzibre eta hek irakit minagretan; eta gero ungi xehatu tuzuenian lot zazue doloria den lekhuan eta laster sendatuko da. Berze batzuek atheratzen diote odola gainetarik.</p>
+<p>Gero porruak urian irakitu eta/ ur hartarik idi(ari) edanarazten, edo ezperen idiaren gernu bera.</p>
+<p><hi rend='Bold'>23</hi></p>
+<p><hi rend='Bold'><hi rend='Italic'>Idiaren lipua khentzeko edo min gaistoa</hi></hi></p>
+<p>Lipiaren erremediorik segurrena eta laisterrena da, pikaturik atheratzia eta gero bourra freskoz zauri hura goiz-guziez arratsez gantzutzia eta perekatzia...</p>
+<p><hi rend='Bold'>24</hi></p>
+<p><hi rend='Bold'><hi rend='Italic'>Idiaren golardoa edo lepho hantuan zer egin behar den</hi></hi></p>
+<p>Idiak golardoa duenian hanitz tu lepho guzia hantua, eta baldin sendi badiozu abzestilduma edo materiarik duela, denbora hartan haparantziaz ageri den lekhuan zilhatuko duzue, burdin gorri batez eta gero eman zilho hartan asunen erro guti bat edo ezperen erran dugun Hellebororen / erroa eta har zazue bethi artha erro horietarik saniatzeko.</p>
+<p>Idiari edan araziko diozue urri belharrarekin irakitu uretik nahiz goizetan eta arratxetan; kopetarik eta beharri gibeletarik odola atheratzia ere probetxu handi eginen diote.</p>
+<p><hi rend='Bold'>25</hi></p>
+<p><hi rend='Bold'><hi rend='Italic'>Idia hantua denian nola sendotu behar den</hi></hi></p>
+<p>Ordenarioski idiak hantzen dire belhar sendoki ianez eta guziz ihitzarekin direnian.</p>
+<p>Eritasun horren sendarazteko azki da xoilki, adar bat alderen alde zilhatzia, eta olioz gantzuturik edo perekaturik gibeleko aldetik, aiuta bezala idiari emaitia. haise hanitz egin dezaken arteraino eta adarra / han dueno perekatuko diozue sabela haga sendo batez.</p>
+<p><hi rend='Bold'>26</hi></p>
+<p><hi rend='Bold'><hi rend='Italic'>Idiak zenbait alimale xume iretxi duenian zer egin behar den</hi></hi></p>
+<p>Sendi duzuenian idiak iretxi ahal dukela, zenbait alimale, emozue, lehen bai lehen, behi esnia edatera, edo berzenaz egizue dikostionia piko melatuz arnoarekin batian eta gero batian eman arno hartarik idiari edatera./</p>
+<p><hi rend='Bold'>27</hi></p>
+<p><hi rend='Bold'><hi rend='Italic'>Idiaren handitxuen sendatzeko zer egin behar den</hi></hi></p>
+<p>Har zazue ahur bat andre dena maria arrosaren tipula eta berze ahur bat konstantinopolitana eta hek ungi egos minagrian gero lot zazue erremedio hortaz hantua den lekhuan eta hola laster leher araziko dio here hantixua.</p>
+<p>Lehertu denian garbi zazue zauri hura goizetan eta arratxetan gernuz eta pixaz</p>
+<p><hi rend='Bold'>28</hi></p>
+<p><hi rend='Bold'><hi rend='Italic'>Idiak zangoa hantua duenian nola sendotu behar den</hi></hi></p>
+<p>Hartarakotz har zazue zenbait ahur sauka osto eta hek ungi irakit gantz guti batekin batian eta gero egosi direnian lot zazue kataplasma hortaz: eta hala laster ikhusiko duzue hantura kontsomitua.</p>
+<p>Eman dugun kataplasma hori egin daiteke hotzik eta freskoki / hartarakotz har zazue zenbait ahur sauka osto eta hek ungi xehatu direnian emozue urin hurtua kataplasma egiteko aski den bezenbat.</p>
+<p><hi rend='Bold'>29</hi></p>
+<p><hi rend='Bold'><hi rend='Italic'>Idiaren taloin eta aztaparretako minen sendatzeko erremedioa</hi></hi></p>
+<p>Eritasun sue(r)te hori idiari arribatzen zaio maizenik neguan; eta guziz horma eta karro&iuml;netan trabaillatzen denian non orduan baiziduri...... idiari aztaparra lantzeta xorroix batez sakrifikatuko diozue / aphur bat barnaskotho eta gero erre diozazue piko hetan arinki eta gantzu urin hurtuz senda arteraino.</p>
+<p><hi rend='Bold'>30</hi></p>
+<p><hi rend='Bold'><hi rend='Italic'>Idiaren aztaparra berze fazoinez kolpatua denian nola sendatuko den</hi></hi></p>
+<p>Lehenbiziko gauza dena da aztapar hura fondamenaren ungi garbirzia; eta gero lot goizetan eta arraxetan urin hurtuz segoarekin nahasirik / borz edo sei egunez kontinuatu duzuenian, gero berze haren berze mainatuko diozue, arnoz edo minagrez ezti guti batekin nahasirik.</p>
+<p><hi rend='Bold'>31</hi></p>
+<p><hi rend='Bold'><hi rend='Italic'>Idiak barrabilak hantuak dituenian zer egin behar den</hi></hi></p>
+<p>Har zazue klera guti bat eta hartaz minagriarekin egizue liga edo ahia, eta gero gantzu eta pereka hantura duen lekhuan. Idortzen denian gantzuze hori gantzutuko diozue gantz gesaz goizetan eta arraxetan./</p>
+<p>Berze batzuek badiote photxo baten behasunaz edo minaz aski dela gantzutzia beheala hantura guzien eramaiteko.</p>
+<p><hi rend='Bold'>32</hi></p>
+<p><hi rend='Bold'><hi rend='Italic'>Idiaren adarra arrailatua denean zer egin behar den</hi></hi></p>
+<p>Idiaren adarra erdiratua duenean frotta izozie bere adarra minagre, gatz eta olio guti batekin batian, eta gero gantzu edo pereka izozie urin hartaz arraxina guti batekin eta kontinua gantzutze hori zazpi egunez.</p>
+<p><hi rend='Bold'>33</hi></p>
+<p><hi rend='Bold'><hi rend='Italic'>ldiak begiak hantuak dituenean zer egin behar den</hi></hi></p>
+<p>Begiak hantuak dituenian egizue ahia ogi nostraiaren irinez eta ezti guti batez eta gero lot goizetan eta arratxetan. Ordian nola eztia dela kausa, uliek khexa bailezakete debekatuko diozue akzident hortarik baldin eta alkakerenaz begi inguriak perekatzen baitozazue.</p>
+<p><hi rend='Bold'>34</hi></p>
+<p><hi rend='Bold'><hi rend='Italic'>Idiak begian xuria duenian zer egin behar den</hi></hi></p>
+<p>Noiz ere ezagutzen baitiozue begian xuria duela, harzazue sel armonia guti bat eta nahas ezti puska batekin gero hartaz lot zazue goiz arratxetan begiak.</p>
+<p>Berze batzuek baliatzen dire balea garrharen herrautxez.</p>
+<p><hi rend='Bold'>35</hi></p>
+<p><hi rend='Bold'><hi rend='Italic'>Idi begi nigartuak nota sendatu behar diren</hi></hi></p>
+<p>Idiari nigarra darionian egizue ahia, ogi nostroiren irinez eta hartaz lot goizetan eta arraxetan, edo ezperen irakit zazue mairu arrosaren erroak; ura eta eztiarekin batian.</p>
+<p>Gero hartaz maiz lot idiaren begia.</p>
+<p>Berze batzuek baliatzen dire tuthiaren bitriolaz ur arrosatuarekin batian.</p>
+<p><hi rend='Bold'>36</hi></p>
+<p><hi rend='Bold'><hi rend='Italic'>Idiaren zaragarra edo hasteria khentzeko</hi></hi></p>
+<p>Har zazue ahur bat ximinako khedarre; ahur e(r)di bat sofre eta lau baratxuri buru gero elgarrekin xehaturik frotta zazue idia.</p>
+<p><hi rend='Bold'>37</hi></p>
+<p><hi rend='Bold'><hi rend='Italic'>Hauxe zerbitzatzen da begietako, axe, aire edo kolpendako</hi></hi></p>
+<p>Hartuko duzue Parisko fruita bat hur korritutan, hirur sosen koupa Roxa xuria, sos baten Irisflorentza hori egosi gabe ungi nahasirik den gutienaz arratxe- / tan lotzerakoan, bustiko duzue begiaren barnia bederatzi arratxez segidan. Odolaren idortasunetik ezpada ez du faltako sendotzia.</p>
+<p><hi rend='Bold'>38</hi></p>
+<p><hi rend='Bold'><hi rend='Italic'>Mandouak zamarra begian duenian zer egin behar den</hi></hi></p>
+<p>Ikhusten duzuenian mandoua samar gorri batekin begia nigartua duela, askiko duzue imintzia arroltze bat gorringoa khendurik gatzez erdikala suian, eta g&uuml;ero beltxatu denian lehertu gabe athera sazue kanpora eta untsa xehaturik piloun batian, g&uuml;ero mazian pasaturik irina beko / irin hura tuta batian imini eta g&uuml;ero oufa batez begira houtz bizpahirur goizez.</p>
+<p>FINA</p>
+<p><foreign>Fait &agrave; St Jean Pied-de-Port le 1er avril 1831</foreign></p>
+<p><foreign>B.nd G-che</foreign></p>
+<p>&laquo;hau da behien eta idien korkoillo barbera gastia pipatzen du ederki arno edaten emaiten badakote. Usatia flaskoa aldera, baina barber famatia <foreign>etc</foreign>.&raquo;</p>
+<p><foreign> Chanson Basque</foreign></p>
+<p>Philipe izeneko lehen erregea</p>
+<p>Frantzes patriot honen oi buruzagia,</p>
+<p>Ministro gaisto guzien aborrizaillea,</p>
+<p>Franziako xartaren konserbazaillea. (bis)</p>
+<p>Xarles hamargarrenak bere ministroekin</p>
+<p>Guziek nahi gintusten esklabo ezarri,</p>
+<p>Noblezia oro aphesak heieikin</p>
+<p>Gutas plazer lutena nahi zuten egin. (bis)</p>
+<p>Bainan tronpatu dira, iainkoa laudatu,</p>
+<p>Laffayet eta Laffita ziren abisatu,</p>
+<p>Memento beretikan ziren abiatu,</p>
+<p>Franzian libertatia nahis sostengatu. (bis)</p>
+<p><hi rend='Bold'>39</hi></p>
+<p><hi rend='Bold'><hi rend='Italic'>Idiaren larruduren sendatzekotz zer egin behar den</hi></hi></p>
+<p>Hartarakotz har zazue kalitz ungi ondoa eta idortuak, eta hek pasa zetaxe batetarik gero herrauts hartas balia zaiteste ulzera eta larrudura guzien sendatzekotz.</p>
+<p><hi rend='Bold'>40</hi></p>
+<p><hi rend='Bold'><hi rend='Italic'>Sugiaren eta hor errabiatuen ausikien erremedioa</hi></hi></p>
+<p>Sendi duzuenian idiak pozoindatua(k) direla suge edo hor errabiatuen ausikias aski duzue gantzuzea ausikia den lekhuan olio eskorpiona edo esperen har zazue laur untza xabon zahar gero ur laurden bat minagretan, hartaz ardura garbi zazue ausikia diren lekuan. Fazoin bera egin dezakezue mirra arnoarekin bai eta halaber leisarrarekin eta finean zinarthodon potso arrosarekin arnotan edo minagretan irakiturik.</p>
+<p><hi rend='Bold'>(D 37)</hi></p>
+<p><hi rend='Bold'><hi rend='Italic'>Leisorren eta mandoulien kontra zer egin behar den</hi></hi></p>
+<p>Leisorrek eta mando uliek edo zenbait berze uliek ausikitzen tustenian aski duzue klera zerusa guti bat urean trenpatzea eta gero ausikiak egunean bigetan lotzea.</p>
+<p><hi rend='Bold'>(D 38)</hi></p>
+<p><hi rend='Bold'>Leisorrek mando uliek es hain guti uli xehek es ausikitzeko erremedioa</hi></p>
+<p>Hartarakotz aski duzue malba osto pilika bat ungi xehatzea eta olio guti batekin ligatzea eta gero idia hartaz goizetan eta arraxetan perekatzea.</p>
+<p><hi rend='Bold'>(D 39)</hi></p>
+<p><hi rend='Bold'><hi rend='Italic'>Barrokietarik leisorren kasatekotz erremedioa</hi></hi></p>
+<p>Har zazue ahur bat erramu osto eta bihi irakiturik urean gero ur hartarik gantzu sazue idia edo berze animaliak zeinaren bides kasatuko baitire barrukietarik leisor, mando ulik eta berze suerteak.</p>
+<p><hi rend='Bold'><hi rend='Italic'>Liburu huntan diren drogak eta belharren esplikationeak</hi></hi></p>
+<p>Erran darotzuet esplikatuko naroskitzuela hemen diren izen barbaro iduriak eta hala banohatzue xeheki bat bederari adiarastera, klarki zer diren misterio suerte horiek. Hartarakotz iakin / zazue Lupin deitzen den droga hura dela illar zabal bat frantziako partetik probiditzen dena garena. Nerprun duzu berris oian beltzetan aurkitzen dena, elhorri beltzaren fruitua, (diduriena, <hi rend='Italic'><foreign>Vesse) </foreign></hi>da ilhar xume zabala frantziatik ekartzen darotzuetena.</p>
+<p><hi rend='Bold'>(D 40)</hi></p>
+<p><hi rend='Bold'><hi rend='Italic'>Barrukietan funzigazionea edo urrindatzea egiteko</hi></hi></p>
+<p>Promes emaiten darotzuet liburu huntan hastean erakutxiko naroskitzuela zer, fazoines egin behar ziren fumigationeak eta hala nork ere / senti baituzue barrukia aire gaistos korronpitua dela.</p>
+<p>Lehenbizikorik garbituko duzue hango ongarri guziak kanpora eta gero hartuko duzue unza bat isenzu, unza bat sofre lore eta unza arroxina gero hek elguarrekin nahastekaturik emanen tutzue xaufeta bat brasetan eta ke hartas ingura zazue barruki guzia eta gero kontinua erran dugun urrindatze hori drogak fini arteraino.</p>
+<p>Fumigatione hori egin duzuen bezain sarri hartuko duzue erramoniak maioranak, kamamilak eta gero heier su eman barrukiaren erdian idukarasten tutzuela ke hura barrukian barna zenbait denboraz eta gero emozue aire guti bat norteko partetik edo esperen lebantetik eta hala bide hortaz izanen tutzue ziaun establiak prekozionetuak era halaber asindak: konserbatuak eritasunik gabe. Ordean ala ere orhoit zaiteste fumigatione hori egin ondoan on litakela zenbait berdura emaitea barruki betan barna sugerik edo berze alimale lisunik han egin estadin hartarakotz aski duzue bellarez beraura hura egitea edo ezperen leizar ostoak ihaurgiarekin batean ematen batutzue ere estarotzue probetxurik baizen eginen eta guzis zenbait baratxuri buru balsan dutenean.</p>
+<p><hi rend='Bold'><hi rend='Italic'>Purga baten konpositionea</hi></hi></p>
+<p>Har zazu sauka erro pillika bat, bi ahur bezala gaineko axala utz eta bigarren axal gizen hura ezar azieta batian bi kuillera urekin besperatik gero biharamunian, erro hek untsa tinka iusa ken gero emozu ius hari bortz kuillera esne nahasirik eta irazirik epheldu eta edan, gero oren baten edan ur ephel eta salda ardura eta marruska sabela eskerreko aldetik ikhusiko duzu efetu handia egiten.</p>
+<p>Haurrendako aski da kuillera bat gutiago gorphutz arauka.</p>
+<p><foreign>Cette livre apartien a M. Bertrand G.che fin de la ... /</foreign></p>
+<p><hi rend='Bold'><hi rend='Italic'>Aingiren hatzemaiteko erremedioa</hi></hi></p>
+<p>Emazu amia ontsa dragaturik ez eman sisari gorririk batere bainan... bat belskara edo beltza eta hoberenik buria eta bustana eta amia konpli.</p>
+<p><hi rend='Bold'>GASTANBIDE Doktor Medikuak LABORARIER ABISUA</hi></p>
+<p>Badu zenbat ere denbora Lapurdiko parte guzietarik aditzen dudala laborariak arranguratzen direla idietan, eta ardietan arribatzen zaizkoten mortalitatez, nun uste baitute izurria bezalako eritasuna hekien aziendetarat hedatua dela,</p>
+<p>Akhostarrek senditurik akzident horren berria beldurrez fazoin / berian heien abreak gertha zitzesteen beldurrez orthoiztu naute adiskide batzuek zenbaik fagore eritasun horren kontra egitiaz; eta hala erresolitu dut horien satifazionea gatik obra xume baten egitia, zeinetan erakhurxiko baitaiet, idien eta ardien eritasun prinzipalen ezagutziaz konbeni zaizkoten erremedio miragarriak.</p>
+<p>Ordean segura zaiztezte eztirela hemen diren gauzak / pentsatuak, bainan bai direla ilkiak lehenagoko Autor handi eta Oraingo moderno famatuetarik.</p>
+<p>Eta nola hanitz nor bere nazionetan eta nazionentzat trabaillatu baitire, Alamaniakoak alemanez, E(s)painiakoak espa&ntilde;olez, eta berze nazionetakoak, nork bere erresumetako lengoaiez, hala nola franzian egin baitute liburu bat Maison Rustika franzeses eta gu franziakoak izan arren Heskualdun guziek ez dakigu / ederraz eta partikulazki laborariak konprenitzeko beheala liburu miragarri hartan diren misterioak hargatik intreprenitu dut obra xume bat eskaraz emaiterat bat bederak iakhin dezatentzat, zein errazxi den eskuaraz konprenditzea lehenagoko eta etorren sendimenduak.</p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><mentioned>Betsio honen iturria: &laquo;Monjongo Dassan&ccedil;aren Laborarien abissua (1692) eta honen bi aldaera ezezagun: Jean pierre Chabalgoityk idatzia (XVIII.m.) eta Bertrand Goyenetcheren Marechalaren liburia (1831)&raquo;. Aurkezpena, edizioa, oharrak eta hiztegia, ASJU XXXIII-1, 1999, 239-304.</mentioned></p>
+        </body>
+      </text>
+    </group>
+  </text>
+</TEI.2>
+

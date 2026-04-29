@@ -1,0 +1,412 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN"
+                       "http://www.tei-c.org/P4X/DTD/tei2.dtd" [
+   <!ENTITY % TEI.prose    'INCLUDE' >
+   <!ENTITY % TEI.linking  'INCLUDE' >
+   <!ENTITY % TEI.analysis 'INCLUDE' >
+   <!ENTITY % TEI.figures  'INCLUDE' >
+   <!ENTITY % TEI.XML      'INCLUDE' >
+   <!ENTITY % TEI.extensions.ent SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.ent' >
+   <!ENTITY % TEI.extensions.dtd SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.dtd' >
+]>
+<TEI.2>
+  <teiHeader>
+  <fileDesc>
+     <titleStmt>
+        <title>ABC edo Kristinoen instrukzionea</title>
+        <author>Joanes Leizarraga</author>
+        <respStmt>Bertsio informatiko honen egilea: Josu Lavin; Urkiola, 1-1C 48990 - Getxo (Bizkaia) </respStmt>
+     </titleStmt>
+     <extent>6.183 hitz, 45.429 karaktere</extent>
+     <publicationStmt>
+        <publisher>Klasikoen Gordailua [http://klasikoak.armiarma.com/]</publisher>
+        <distributor>Estrata Liburuak S.L.</distributor>
+        <address type='email'>klasikoak@armiarma.com</address>
+        <idno type='ota'>LeizarragaAbc</idno>
+        <availability status='free'>Erabilpen librekoa; honoko helbidean topa daiteke (HTML, RTF eta PDF formatuetan): http://klasikoak.armiarma.com/idazlanak/L/LeizarragaAbc.htm</availability>
+        <date>2006</date>
+     </publicationStmt>
+     <sourceDesc>
+        <bibl>Ez dauka</bibl>
+        <notesStmt><note>Iturburuen datazioa: 1571</note></notesStmt>
+     </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+     <projectDesc>Euskal literaturako testu klasikoen bilduma da KLASIKOEN GORDAILUA; testu hau berorren parte da</projectDesc>
+     <refsDecl>
+        <p>MENTIONED etiketa egilearenak ez diren hitzak markatzeko erabili da: hitzaurreak, aipuak, iruzkinak, e.a.</p>
+    </refsDecl>
+     <classDecl>
+        <taxonomy id='generoa'>
+            <category id='G-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='G-ANT'><catDesc>Antzerkia</catDesc></category>
+            <category id='G-BER'><catDesc>Bertsoak</catDesc></category>
+            <category id='G-ERL'><catDesc>Erlijioa</catDesc></category>
+            <category id='G-NAR'><catDesc>Narratiba</catDesc></category>
+            <category id='G-POE'><catDesc>Poesia</catDesc></category>
+            <category id='G-SAI'><catDesc>Saiakera, kronika, artikuluak...</catDesc></category>
+        </taxonomy>
+        <taxonomy id='garaia'>
+            <category id='M-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='M-16'><catDesc>XVI. mendea</catDesc></category>
+            <category id='M-17-1'><catDesc>XVII. mendea - 1. erdia</catDesc></category>
+            <category id='M-17-2'><catDesc>XVII. mendea - 2. erdia</catDesc></category>
+            <category id='M-18-1'><catDesc>XVIII. mendea - 1. erdia</catDesc></category>
+            <category id='M-18-2'><catDesc>XVIII. mendea - 2. erdia</catDesc></category>
+            <category id='M-19-1'><catDesc>XIX. mendea - 1. erdia</catDesc></category>
+            <category id='M-19-2'><catDesc>XIX. mendea - 2. erdia</catDesc></category>
+            <category id='M-20-1'><catDesc>XX. mendea - 1. erdia</catDesc></category>
+            <category id='M-20-2'><catDesc>XX. mendea - 2. erdia</catDesc></category>
+        </taxonomy>
+        <taxonomy id='euskalkia'>
+            <category id='E-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='E-BAT'><catDesc>batua</catDesc></category>
+            <category id='E-BIZ'><catDesc>bizkaiera</catDesc></category>
+            <category id='E-BNA'><catDesc>behenafarrera</catDesc></category>
+            <category id='E-ERR'><catDesc>erronkariera</catDesc></category>
+            <category id='E-GIP'><catDesc>gipuzkera</catDesc></category>
+            <category id='E-GNA'><catDesc>goi nafarrera</catDesc></category>
+            <category id='E-LAP'><catDesc>lapurtera</catDesc></category>
+            <category id='E-NAF'><catDesc>nafarrera</catDesc></category>
+            <category id='E-ZAR'><catDesc>zaraitzuera</catDesc></category>
+            <category id='E-ZUB'><catDesc>zuberera</catDesc></category>
+        </taxonomy>
+    </classDecl>
+  </encodingDesc>
+  <profileDesc>
+     <textClass>
+       <keywords scheme='generoa'>
+         <list><item>G-ERL</item></list>
+       </keywords>
+       <keywords scheme='garaia'>
+         <list><item>M-16</item></list>
+       </keywords>
+       <keywords scheme='euskalkia'>
+         <list><item>E-LAP</item></list>
+       </keywords>
+     </textClass>
+  </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>ABC edo Kristinoen instrukzionea -- Joanes Leizarraga</docTitle>
+    </front>
+    <group>
+      <text>
+        <body>
+<p><hi rend='Bold'>ABC,</hi></p>
+<p><hi rend='Bold'>edo</hi></p>
+<p><hi rend='Bold'>KRISTINOEN</hi></p>
+<p><hi rend='Bold'>INSTRUKTIONEA</hi></p>
+<p><hi rend='Bold'>othoitz egiteko</hi></p>
+<p><hi rend='Bold'>formarekin</hi></p>
+<p>MATTH. XIX.</p>
+<p><hi rend='Italic'>Utzitzazue haurrak, eta enegana ethortetik eztitzazuela enpatxa: ezen horrelakoen da zeruetako resuma.</hi></p>
+<p><mentioned>ROCHELLAN,</mentioned></p>
+<p><mentioned>Pierre Hautin, Inprimizale.</mentioned></p>
+<p><mentioned>1571.</mentioned></p>
+<p><hi rend='Italic'>EPHES. VI.</hi></p>
+<p><hi rend='Italic'>Eta zuek aitek, hazitzazue zuen haurrak instruktionetan eta Iaunazko remonstrationetan.</hi></p>
+<p><hi rend='Italic'><foreign>IACQUES</foreign>, I.</hi></p>
+<p><hi rend='Italic'>Baldin zuetarik zenbeitek sapientia faltarik badu, eska bekio Iainkoari, eta emanen zaio, baina federekin eska dadin, batre dudatzen eztuela.</hi></p>
+<p><hi rend='Bold'>HEUSKAL-HERRIAN</hi></p>
+<p><hi rend='Bold'>GAZTETASUNAREN</hi></p>
+<p><hi rend='Bold'>irakasteko kargua dutener eta goitiko guzier,</hi></p>
+<p><hi rend='Bold'>I. Leizarraga Beraskoizkoak Iainkoaren gratia desiratzen</hi></p>
+<p><hi rend='Italic'>Berze natione guziek, zeinek bere lengoajean bezala, Heuskaldunak-ere berean duenzat, zertan irakurtzen ikas ahal dezan, eta nola Iainkoa ezagutu eta zerbitzatu behar duen, nezesario estimatu ukan dut, ABC haur berze instruktionerekin Heuskaraz-ere iar ledin: eta hunetakotzat, Iainkoak egin drautan gratiaren araura, haren laudoriotan enplegatu izan naiz: dakusadalarik bada, ezen Iainko egiazkoaren eta Iesus Krist haren Seme guregatik mundura ethorri izan denaren ezagutzera laxo eta ansikabe direnek kontu gutia hunez eginen dutela: baina berak manu bezala Iainkoa ezagutu eta zerbitzatu desir dutenek, segur naiz, bere probetxurik eginen dutela: eta halakoakgatik ber, haur egin izan da. Eta minzatzeko maneraz den bezenbatean, Heuskal-herrian relijionearen exerzitioa den lekuko jendetara konsideratione gehiago ukan dut, ezen ez berzetakoetara: eta haur, speranzaz ezen Instruktione hunek lehenik, eta orain behin gehienik, hetan zerbitzaturen duela. Baina bithartean, irakasteko kargua duzuenak, hirur punktuz prinzipalki aduertitu nahi ukan zaituztet. Lehena da, aitzinago hel daitezkeno, zer den bokala edo konsonanta, diphtongoa edo sillaba, haurrer ikasten denborarik enplega erazi gabe, liburutxo hunetako formari sinpleki zarreitzaten. Bigarrena, ungi eta trebeki lehen-bizitik letreiatzen haurrer irakats diezezuen. Hirurgarrena, irakurtzera datozenean, Kolonaren, Komaren, edo Punktuaren diferentia zerik den, anhitz fundatu gabe, hitzak distinktoki eta klaroki pronuntia eraziz, pausuen egiten kostuma ditzazue. Iainkoak, othoi, zuen trabaillua prospera eta benedika dezala, Amen. Rochellan Urriaren lehenean, </hi>1571.</p>
+<p><foreign>A <hi rend='Italic'>a </hi>a B <hi rend='Italic'>b </hi>b C <hi rend='Italic'>c </hi>c D <hi rend='Italic'>d </hi>d E <hi rend='Italic'>e </hi>e F <hi rend='Italic'>f </hi>f G <hi rend='Italic'>g </hi>g H <hi rend='Italic'>h </hi>h I <hi rend='Italic'>i </hi>i K <hi rend='Italic'>k </hi>k L <hi rend='Italic'>l </hi>l M <hi rend='Italic'>m </hi>m N <hi rend='Italic'>n </hi>n O <hi rend='Italic'>o </hi>o P <hi rend='Italic'>p </hi>p Q <hi rend='Italic'>q </hi>q R <hi rend='Italic'>r </hi>r S <hi rend='Italic'>s </hi>s T <hi rend='Italic'>t </hi>t V <hi rend='Italic'>v </hi>u X <hi rend='Italic'>x </hi>x Y <hi rend='Italic'>y </hi>y Z <hi rend='Italic'>z </hi>z </foreign></p>
+<p><hi rend='Bold'>Diphtongoak</hi></p>
+<p><foreign>&aelig; ai au ei eu &#156; oy ou. </foreign></p>
+<p><hi rend='Bold'>Letra elkarri datxetzanak</hi></p>
+<p><foreign>Et ff fi fl si sl s st &amp; </foreign></p>
+<p><hi rend='Bold'>Abbrebiationeak</hi></p>
+<p><foreign>&acirc; am an &ecirc; em en &icirc; im in &ocirc; om on &ucirc; um un 9 us q quam q q; que q qui q quod p per p pre, p pro </foreign>Pausuen egiteko punktuak <foreign>, : . </foreign>Letren berezgarriko merka <foreign>u&auml; u&egrave; </foreign>Interrogatzekoa <foreign>? </foreign>Admirationezkoa <foreign>! </foreign>Azentuaren egitekoa <foreign>&#180; </foreign>Hitz-arteko iunktagarria <foreign>- a e i o u Ba be bi bo bu Ca, &ccedil;a ce ci co, &ccedil;o cu, &ccedil;u Da de di do du Fa fe fi fo fu Ga ge, gue gi, gui go gu Ha he hi ho hu Ia ie ii io iu Ka ke ki ko ku La le li lo lu Ma me mi mo mu Na ne ni no nu Pa pe pi po pu Qua que qui quo quu Ra re ri ro ru Sa se si so su Ta te ti to tu Va ve vi vo vu Xa xe xi xo xu Za ze zi zo zu Az ez iz oz vz </foreign></p>
+<p><hi rend='Bold'>IESUS KRIST GURE IAUNAREN ORATIONEA</hi></p>
+<p>Gure Aita zeruetan aizena.</p>
+<p>Sanktifika bedi hire Izena.</p>
+<p>Ethor bedi hire Resuma.</p>
+<p>Egin bedi hire borondatea zeruan bezala lurrean-ere.</p>
+<p>Gure eguneko ogia iguk egun.</p>
+<p>Eta barka ietzaguk gure bekatuak, nola guk-ere ofensatu gaituztener barkatzen baitrauegu.</p>
+<p>Eta ezgaitzala sar erazi tentationetan: baina deliura gaitzak gaitzetik.</p>
+<p>Ezen hirea duk resuma, puisanza eta gloria sekula sekulakotz, Amen.</p>
+<p><hi rend='Bold'>KRISTINOEN FEDEKO ARTIKULUAK</hi></p>
+<p>Sinhesten dut Iainko Aita bothere-guzitako zeruaren eta lurraren Kreazalea baithan.</p>
+<p>Eta Iesus Krist haren Seme bakoitz gure Iauna baithan:</p>
+<p>Zein konzebitu izan baita Spiritu sainduaganik:</p>
+<p>Sorthu Maria birjinaganik.</p>
+<p>Pontio Pilateren azpian pasionatu,</p>
+<p>Kruzifikatu, hil eta ohortze.</p>
+<p>Iautsi izan da ifernuetara.</p>
+<p>Hereneko egunean resuszitatu izan da hiletarik.</p>
+<p>Igan izan da zeruetara.</p>
+<p>Iarria da Iainko Aita bothere-guzitakoaren eskuinean.</p>
+<p>Handik ethorteko da bizien eta hilen iujeatzera.</p>
+<p>Sinhesten dut Spiritu saindua baithan.</p>
+<p>Sinhesten dut Eliza saindu unibersala.</p>
+<p>Sainduen komunionea.</p>
+<p>Bekatuen barkamendua.</p>
+<p>Haragiaren resurrektionea.</p>
+<p>Bizitze eternala, Amen.</p>
+<p><hi rend='Bold'>IAINKOAREN LEGEKO HAMAR MANAMENDUAK</hi></p>
+<p><hi rend='Italic'>Exodoan 20. <foreign>cap</foreign>.</hi></p>
+<p><hi rend='Bold'>PREFATIOA EDO HATSEA</hi></p>
+<p>Behadi, Israel: Ni nauk hire Iainko Iauna, hi Ejipteko lurretik, sklabotasuneko etxetik idoki audana.</p>
+<p><hi rend='Bold'>LEHEN TAULA</hi></p>
+<p>1 Eztuk ukanen <hi rend='Italic'>nizaz</hi> berze Iainkorik ene aitzinean.</p>
+<p>2 Eztraukak eure buruari imajina ebakirik eginen, ez irudirik batre zeruan garaian diren gauzenik, ez beherean lurrean direnenik, ez uretan lurraren azpian direnenik. Eztituk hek adoraturen ez zerbitzaturen. Ezen ni nauk hire Iainko Iauna, borthitzik ielosia, aiten inikitatea haurren gainean bisitatzen dudana hirurgarren eta laurgarren jenerationerano, niri gaitz dariztenetan: eta miserikordia egiten drauedana milla jenerationetarano, niri on dariztener eta ene manamenduak begiratzen dituztener.</p>
+<p>3 Eztuk eure Iainko Iaunaren Izena banoki harturen: ezen Iaunak eztik inozent edukiren haren Izena banoki harturen duena.</p>
+<p>4 Aizen orhoit Sabbath egunaz, hura sanktifika dezanzat. Sei egunez trabaillaturen aiz, eta eginen duk eure obra guzia: baina zazpigarren eguna, hire Iainko Iaunaren Sabbat eguna duk. Eztuk eginen hartan obrarik batre, ez hik, ez hire semek, ez hire alabak, ez hire muthillek, ez hire neskatok, ez hire abrek, ez hire borthez barnetik den estranjerek. Ezen sei egunez egin zitik Iaunak zerua eta lurra eta itsasoa eta hetan den guzia: eta zazpigarren egunean repausatu izan duk. Harren, benedikatu dik Iaunak Sabbath eguna: eta hura sanktifikatu.</p>
+<p><hi rend='Bold'>BIGARREN TAULA</hi></p>
+<p>5 Ohoraitzak eure aita eta eure ama, hire egunak luzat ditezenzat, eure Iainko Iaunak emaiten drauan lurraren gainean.</p>
+<p>6 Eztuk hilen.</p>
+<p>7 Eztuk paillardaturen.</p>
+<p>8 Eztuk ebatsiren.</p>
+<p>9 Eztuk testimoniaje falsurik erranen eure hurkoaren kontra.</p>
+<p>10 Eztuk guthiziaturen eure hurkoaren etxea, ez emaztea, ez muthilla, ez neskatoa, ez idia, ez astoa, ez haren den gauzarik batre.</p>
+<p><hi rend='Bold'>LEGE GUZIAREN SOMARIOA</hi></p>
+<p><hi rend='Italic'>Matth. </hi>22. 37.</p>
+<p>Onhetsiren duk eure Iainko Iauna eure bihotz guziaz, eta eure arima guziaz, eta eure adimendu guziaz.</p>
+<p>Haur duk Manamendu lehena eta handia. Eta bigarrenak hura irudi dik, baita, Onhetsiren duk eure hurkoa eure burua bezala.</p>
+<p>Bi manamendu hautarik dependitzen dira Lege guzia eta Profetak.</p>
+<p><hi rend='Italic'>Matth. </hi>7. 12.</p>
+<p>Gizonek zuer egin dietzazuen nahi dituzuen gauza guziak egin ietzezue zuek-ere haier halaber.</p>
+<p><hi rend='Italic'>Ioan </hi>15. 12.</p>
+<p>Haur da ene manamendua, batak berzea maite duzuen, nik maite ukan zaituztedan bezala.</p>
+<p><hi rend='Italic'>Ioan </hi>13. 35.</p>
+<p>Hunetan ezaguturen dute guziek, ezen ene diszipulu zaretela, baldin xaritate baduzue elkargana.</p>
+<p><hi rend='Bold'>AITA FAMILIA</hi></p>
+<p><hi rend='Bold'>fidel baten bere etxeko guziekilako exerzitioa eta Iainkoari othoitz egiteko forma</hi></p>
+<p>Gure aiuta dela zerua eta lurra egin dituen Iaunaren izenean. Amen.</p>
+<p><hi rend='Bold'>EXHORTATIONEA</hi></p>
+<p>Haurrideak, humilia bedi gutarik batbedera Iainkoaren Maiestate sainduaren aitzinean orain bertan zeinek gure izateaz kontu rendatzera konparitu behar bagendu bezala, gure buruak bekatore eta miserikordia behar ezagutzen ditugularik eta barne bihotzez iarreikiren gaitzaizte nik orain erranen ditudan hitzer.</p>
+<p><hi rend='Bold'>GOIZEKO ETA ARRATSEKO ORATIONEN AITZINEAN EGITEKO KONFESIONEA</hi></p>
+<p>Iainko Aita Iaun gratiaz eta miserikordiaz bethea, konfesatzen diagu eta zeinek gure bihotzetan egiazki ezagutzen, ezen bekatutan konzebituak eta sorthuak garenaz berzalde, hik debetu drauzkiguan gauzetan eroriz, eta hik manu drauzkiguanak ez eginez, eta egiten ditugunak-ere bide bezala egin gabez, damnationerik baizen eztugula merezitzen: eta badiakusagu Iauna, baldin hik, zein gure merezituaren araura punitu nahi ukan bagentuk, sekulakotz damnatu direnekin, aspaldi ginandela: eta eure ontasun gratiazkoagatik hemen oraino utziten gaituala, emenda gaitenzat: bethi abisatzen gaitualarik, ezen emendaturen eztirenek, azken iudiziokotzat hire hirazko thesauraz gordaillu dolorezkoa egiten dutela.</p>
+<p>Harren, Iauna, egiazko dolurekin, eta bekatutarik harzaraturik, hik manu bezala bizitzeko borondaterekin, gure afektione guziaz othoitz egiten drauagu, guk berzer gureganako faltak barkatzen drauztegun bezala, nahi drauzkiguan gure bekatu guziak barkatu, Iesus Krist eure Seme gure Iaunaren herioa eta pasionea haien pagamendutan rezebituz, eta nahi gaituan othoi, hala eure Spiritu sainduaz bethi arranberritu eta rejeneratu, non geroago segurago baikarate zein gure elektioneaz eta adoptioneaz, hirekilako bakeaz eta gure arimen saluamenduaz Iesus Krist hire Seme gure Iaunaren izenean. Amen.</p>
+<p><hi rend='Bold'>GOIZEKO ORATIONEA</hi></p>
+<p>Gure Iainko Aita eta Saluadorea, eure ontasun handiagatik, gaua iraganik egungo egunera heltzeko gratia egin draukuan bezala, hik othoi egungo egunaren eta goitiko gure mende guziaren hala hire zerbitzuan enplegatzeko dohain eta gratia egiguk, non eztezagun deus pensa, ez erran, ez egin, hire obedientiatako, eta hire borondate sainduaren konplimendutako gauzarik baizen, halako maneraz non, gure obra guziak baitirate, hira izen sainduaren gloriatan eta gure hurkoaren edifikationetan. Eta nola eure ontasunagatik nahi baituk argi dagigun mundu hunetan hire iguzkiak korporalki, hik othoi halaber, eure Spirituaren klaretateaz illumina ietzaguk gure adimenduak eta bihotzak, hire iustotasuneko bidera gida gaitezenzat: eta zertara-ere aplika baikaitez, bethiere gure fin eta intentione prinzipala den, hire beldurrean bizitzera hire zerbitzatzera eta ohoratzera, behar dugun on eta prosperitate ororen hire gratiatik eta liberalitate puretik ukaiteko konfidanzarekin, bethi hiregana beha gaudelarik, hire borondate sainduaren arauezko gauzarik baizen entrepreni eztezagunzat. Halaber, zein gure bizitze motan, gure gorputzakgatik eta mundu hunetako bizi beharragatik, hik manu bezala enplegatzen garela, hik egiguk, othoi, aitzinago gogoatzeko, eta eure haurrer hik prometatu drauean bizitze eternalera behatzeko gratia.</p>
+<p>Eta han artean, gure arimen eta gorputzen goarda eta Iabe erakusten aizela, nahi gaituan deabruaren tentatione ororen kontra fortifikatu, eta hel ahal lekidizkigun gaitz guzietarik deliuratu eta enparatu. Eta zeren ungi egiten hatsea ezpaita deus, baldin perseberatzea ezpada, othoitz egiten drauagu nahi gaituan, ez egungo egunekotz solament, baina gure bizi guzikotz eure gidamendu eta gobernu sainduan hartu eta entretenitu, kontinuatzen eta augmentatzen ditualarik eure gratiak gutan, eurorrek, Iesus Krist eure Seme gure arimen iguzki egiazko eta bakoitz, egun eta gau bethi argitzen duenaren koniunktionera eta batasunera hel gaitzakean arteranokotz. Eta dohain eta gratia hauk hireganik inpetra ahal ditzagunzat, ezadila othoi gure falta handiez eta anhitzez gehiagorik orhoit, baina eure miserikordia handiagatik barka ietzaguk hek, egiaz inuokaturen autener egiteko prometatu drauean bezala. Enzun gaitzak, othoi, Aita miserikordiosoa, Iesus Krist eure Seme gure Iaunaren izenean.</p>
+<p>Amen.</p>
+<p><hi rend='Italic'>Psal. </hi>143.</p>
+<p>Enzun erazi iezaguk goizeandanik eure miserikordia Iauna: ezen hi baithan speranza ukan diagu: ezagut erazi iezaguk ebili bezar garen bidea, hiregana gure bihotzak goititu ditugunaz geroz.</p>
+<p>Enpara gaitzak gure etsaietarik, Iauna, ezen hiregana oihu egin diagu.</p>
+<p>Irakats gaitzak eure borondatearen egiten, ezen hi aiz gure Iainkoa: hire Spirituak bide xuxenera gida gaitzala, othoi. Amen.</p>
+<p><hi rend='Bold'>GOIZEKO BERZE ORATIONEA</hi></p>
+<p>Eta nola eure ontasunagatik gaurko gauaren iragaiteko gratia egin ukan baitraukuk, hik othoi, egungo egunean eta goitiko gure mende guzian hala eure Spiritu sainduaz gida eta goberna gaitzak, non eztezagun deus pensa ez erran ez egin hire izen sainduaren laudoriotako eta gure hurkoaren probetxutako gauzarik baizen, eta zein gure bizitze motaren araura, hala bethi akita baikaitezke, non gauza guzietan hire borondate sainduari oraino baino hobeki iarreiki baikakidizkio Iesus Krist hire Seme gure Iaunaren izenean. Amen.</p>
+<p><hi rend='Bold'>LAN EDO EGITEKO HATSEAN</hi></p>
+<p>Gure Iainko eta Aita Iaunak, othoi, egiteko hunetan eta bethiereko guzietan, hala bere Spiritu sainduaz gida eta goberna gaitzala, non orain eta bethiere pensaturen, erranen eta eginen dugun guzia baitate haren laudoriotako eta ohoretako Iesus Krist bere Seme gure Iaunaren izenean. Amen.</p>
+<p><hi rend='Bold'>LAN ONDOAN</hi></p>
+<p>Egiteko hunetan eta oraindrano berze behar ukan dugun orotan bere Spiritu sainduaz iabetu izan zaikun Iauna laudatu dela, eta gure bekatu guziak barkaturik, hala gure arimetan eta gorputzetan iabe dakigula, non bere haurretan aboa eta rezebi baikaitzake Iesus Krist bere Seme gure Iaunaren izenean. Amen.</p>
+<p><hi rend='Bold'>LEKTIONEAREN STUDIATZERAKOAN ERRAITEKO ORATIONEA</hi></p>
+<p><hi rend='Italic'>Psal. </hi>119.</p>
+<p>Zertan drezaturen du haurrak bere bidea?</p>
+<p>Hire hitzaren araura bere burua gidatuz, Iauna.</p>
+<p>Ireki ietzaguk gure begiak, eta konsideraturen zitiagu hire Legeko mirakuluak.</p>
+<p>Iguk, othoi, adimendu, eta begiraturen diagu hire Legea, eta begiraturen-ere gure bihotz guziaz.</p>
+<p>Iauna, hi baitaiz, zuhurtzia eta iakite ororen ithurburu bakoitza, nola eure ontasunagatik, gure mende guzian sainduki eta honestoki gobernatzeko garen, gure adin gazte hunetan emaiten baitraukuk instruitu izateko moiena: halaber othoitz egiten drauagu nahi, drauzkiguan gure adimendu bere ethortez itsuak, emanen zaikun doktrinaren ikastera eta konprehenditzera illuminatu, eta haren beraren ungi retenitzera eta edukitera gure memorioak moldatu eta konfermatu, baieta gure bihotzak haren hartzera eta rezebitzera dispausatu: hik eure gratiaz gure probetxuaren egiteko emaiten draukuan okasionea gure ingrat izanez gal eztadinzat. Hunetakotzat hik othoi, heda ezak gure gainera eure Spiritu saindua, baita egiazko intellijentia, egia, iujemendu, zuhurtzia eta doktrina orotako Spiritua, hark gure eginbidearen egitera gida eta abanza gaitzanzat, nehork gure instruitzen harturen duen pena galdua ezten amorekatik. Eta zerere studio sortetara aplika baikaitez, hik egiguk othoi, ikasiren dugun guziaren egiazko finera drezatzeko gratia, baita, Iesus Krist gure Iaunean hala hire ezagutzera, non gure saluamenduaz hire gratian konfidanza bethea baitukegu: eta hi gure mende guzian bidezki eta purki, eure borondate sainduaren araura, zerbitza baihezakegu: biz bada, othoi, guk ikasiren dugun guzia hartakotzat gure aiutatzeko instrument bezala. Eta nola hik prometatzen baituk ezen xipier eta humiler iakite emanen draueala, eta urgulutsuak eta superbiosoak, bere adimenduko banitatean konfundituren dituala: baieta, bihotzez xuxen izanen direner manifestaturen atzaiela, eta malignoak eta gaixtoak itsuturen dituala: othoitz egiten drauagu, lehenik hiregana, gero gure rejitzeko eta irakasteko ezarri dituan aitzinekoetara dozil eta obedient garaten humilitate batetara nahi gaituan othoi zalhutu eta erekarri.</p>
+<p>Gehiago nahi drauzkiguan gure bihotzak hire egiazki bilhatzera dispausatu, gure afektione karnal eta gaixto guziaz bethi renuntiatzen dugularik. Hik bada Iauna, behar dugun konditione orotara hala prepara gaitzak, non adinetara gatozenean, hik behin ordenatu plazer ukanen draukuan bizitze motan, eurorrek manu bezala zerbitza eta lauda baihezakegu: enzun gaitzak othoi, Aita miserikordiosoa, Iesus Krist eure Seme gure Iaunaren izenean. Amen.</p>
+<p><hi rend='Italic'>Psal. </hi>25</p>
+<p>Iaunak rebelatzen drauzte bere sekretuak haren beldur direner, eta haier ezagut eraziten draue bere allianza.</p>
+<p><hi rend='Bold'>IAN AITZINEKO OHOITZA</hi></p>
+<p><hi rend='Italic'>Psal.</hi> 104</p>
+<p>Gauza guziak hiregana beha diaudek Iauna, eta hik drauek iatera bere denboran.</p>
+<p>Hik emaiten draueanean biltzen die: eta hik eskua zabaltzen duanean guziak abundantiaz bethe dioazak.</p>
+<p>Iainko Aita bothere guzia eta on ororen konplimendua duana, hik othoi, heda iezaguk eure benediktionea eure zerbitzari gaixon gainera, eta sanktifika ietzaguk hire gratiazko frangantiatik rezebitzen ditugun donoak eta emaitzak: emaiten drauzkiguanez sobreki eta purki hire borondate sainduaren araura usatuz, hi gure Aita egiazkotan eta ontasun ororen iabetan eta emailetan ezagut ahal ezagun: eta hire hitz sainduazko ogi spiritualaren ondoan ardura gabiltzala, gure arimak harzaz eternalki substantia dakizkun, Iesus Krist hire Seme gure Iaunaren izenean, Amen.</p>
+<p><hi rend='Bold'>IAN ONDOKO OTHOITZA</hi></p>
+<p><hi rend='Italic'>Psal.</hi> 117</p>
+<p>Natione guziek lauda bezate Iainkoa, populu guziek hari kanta biezote laudorio:</p>
+<p>Ezen haren miserikordia multiplikatu da gure gainean eta haren egia sekulakotz dago.</p>
+<p>Iainko Aita Iauna, remerziatzen drauagu, hireganik ardura rezebitzen ditugun on guziez: eta zeren gure behar guzien konplimendua emanez bizitze gorputzeko hunetan gaituan substantiatzen eta hatzen: eta guzien gainetik, zeren eure Ebanjelio sainduaz rebelatu ukan draukuan speranza hobe batetara rejeneratu ukan baikaituk. Eta othoitz egiten drauagu eztuan permetitu nahi gure afektionek, gauza behera eta korruptible hautan errorik dagiten, baina egiguk othoi, Iesus Krist eure Seme gure Iaunaren izenean, hura zerutik gure redenptionetan ager daiteno, iratzarri izateko eta haren begira egiazki egoiteko gratia.</p>
+<p>Amen.</p>
+<p><hi rend='Bold'>IAN AITZINEKO BERZE OTHOITZA</hi></p>
+<p>Gure Iainko eta Aita Iauna, iateko eta edateko guziak gure substantiatzeko eta hatzeko indarrekin kreatu ukan baitituk, hik othoi hezaz eta goitiko emaiten drauzkiguan gauza guziez, hala usatzeko gratia iguk non hire izen saindua hik manu bezala bethi lauda eta glorifika baitezakegu, Iesus Krist hire Seme gure Iaunaren izenean, Amen.</p>
+<p><hi rend='Bold'>IAN ONDOKO</hi></p>
+<p>Iainko Aita eternala, gure bihotz guziaz esker drauagu, zeren eure miserikordia handiagatik, goitiko egiten drauzkiguan gratia guzien gainera, gure porputz, sarri lurrera eta behin ezeztaturik resuszitatu behar diren hoier, orain substantia eman baitrauek: eta augu suplikatzen eure gureganako ontasunaren kontinuatzetan nahi drauzkiguan bethiere gure arimak eure hitz sainduaz hala substantiatu, non gerotik gerora hire borondate sainduari hobeki iarreiki baikakidizkio, Iesus Krist hire Seme gure Iaunaren izenean. Amen.</p>
+<p><hi rend='Bold'>IAN AITZINEAN</hi></p>
+<p>Iainkoak bere miserikordiagatik emaiten drauzkigun onez, berak manu bezala, haren laudoriotan usatzeko gratia digula, Iesus Krist bere Seme gure Iaunaren izenean. Amen.</p>
+<p><hi rend='Bold'>IAN ONDOAN</hi></p>
+<p>Gure gorputzak biandaz eta berze behar ditugun gauzez, mundu hunetan bere miserikordiagatik substantiatzen drauzkigun Iaunak, gure arimak-ere bizitze eternalekotzat bere hitz sainduaz substantia dietzagula, Iesus Krist bere Seme gure Iaunaren izenean. Amen.</p>
+<p><hi rend='Bold'>ARRATSEKO ORATIONEA</hi></p>
+<p>Gure Iainko Iauna, eta Aita miserikordiaz bethea, eure ontasunagatik, eguna trabaillatzeko bezala, gaua-ere repausatzeko gizonari ordenatu ukan draukoanaz geroz, egiguk othoi gratia, gure gorputzak hala gaurko gauean repausa ditezen, non gure arimak bethi hiregana iratzarri baitauteke eta gure bihotzak hire amoriora altxatuak baitirate: eta mundu hunetako egitekoak hala kita eta utzi ditzagun, gure gorputzen beharraren araura repausatzeko, non hi ezpaihekidigu iagoitik ahanz, baina hire ontasunaren eta gratiaren memorioa, inprimitua eta engrabatua baitauke gure bihotzetan: eta halaz, gure konszientiek-ere bere repaus spirituala duten, gorputzek berea harturen duten bezala. Eta berzalde, gure loa ezten othoi soberantiatako, bide baino gehiago gure haragiaren konplazimendutan, baina solament gure naturaren frajilitateak mengoa duenaren araura, gero hire zerbitzura hobeki dispausa gaitezenzat. Halaber, nahi gaithuan othoi, kaste eta xahu begiratu, hanbat gure gorputzetan, nola gure spirituetan, peril orotarik enparatzen gaitualarik, gure lo egite bera-ere hire gloriatako denzat. Eta zeren egungo eguna ezpaita iragan, non anhitz aldez ofensatu ezaugun, nola gauza guziak hik igorri duan ilhunbeaz orain estaliak baitira, hala nahi dituan othoi, gure falta guziak eure miserikordia handiaz estali eta ohortze, haien kausaz hire aitzinetik iraitz ezgaitezenzat. Enzun gaitzak othoi, gure Iainko Aita eta Saluadorea Iesus Krist eure Seme gure Iaunaren izenean. Amen.</p>
+<p><hi rend='Bold'>ARRATSEKO BERZE ORATIONEA</hi></p>
+<p>Eta egungo egunaren iragaiteko gratia egin draukuan bezala, gure beharrak emaiten duen bezenbat gaurko gauean-ere repausatzeko gratia eginik, hik othoi, iguk bethi gerora hire zerbitzuan hobeki enplegatzeko gratia. Eta egunaren ondoan hik igorririk gaua dakusagun bezala, bizitze hunen ondoan herioa uste eztugun orduko guzier asignatua baitauku, nola hartara guziak bardin laster hurbiltzen baikara, hala preparatzeko eta prest egoiteko-ere gratia egiguk othoi, non ordu hartara gatozenean, eure glorian rezebi baikaitzakek Iesus Krist eure Seme gure Iaunaren izenean.</p>
+<p>Amen.</p>
+<p><hi rend='Bold'>GOIZEKO ETA ARRATSEKO ORATIONEN ONDOKO OTHOITZA JENERALAK</hi></p>
+<p>ETA guk Iauna, ezagutzen diagu, gure buruagatik-ere hiregana goiti begien altxatzeko, ez gure beharrean hiri rekestarik egitera, gure ahoen irekiteko-ere ezgarela digne, guziagatik-ere elkargatik othoitz dagigun, hik eure ontasunagatik manatu gaituanaz geroz: othoitz egiten drauagu jeneralki, eure populu guziakgatik, oraino hire ezagutzea eztuten ignorant gaixoak, nahi dituan illuminatu eta eure egiazko ezagutzera erekarri: hire ezagutzea dutenak, nahi dituan hartan entretenitu eta abanzatu: hartakotzat nahi duan othoi, eure hitz sainduaren egiazko deklarazalerik eta publikazalerik igorri, deus-ere hire ohorearen abanzamendutako eta hire populuaren edifikationetako gauzarik baizen bilha ez prokura eztezaketen bezalakorik: eta hik hartakotzat igorririk, hire gloriaren abanzamendutan eta hire populuaren edifikationetan fidelki enplegatzen direnak, nahi dituan bere eginbidearen egitera bethi fortifikatu, baieta kontrarioa egiten dutenetarik eure populua deliuratu eta enparatu.</p>
+<p>Halaber othoitz egiten drauagu Iauna, hik rege, prinze, iaun, iustitier edo berzela kargudun ezarri dituan guziak, nahi dituan othoi hala eure Spiritu sainduaz illuminatu eta gidatu, non zeinek bere autoritatea eta kargua hik manu bezala hire laudoriotan eta hire populuaren emendiotan enplega baitezakete: eta hik berzeren gobernuko eta manuko ezarri dituaner-ere, eiek othoi, bide duten obedientiaren eta leialtatearen bere aitzinekoetara rendatzeko dohain eta gratia: eta handi eta xipi guziak, nola hire aitzinera, eta luzenaz-ere sarri, zein gure izateaz kontu rendatzera asignatuak baikaude, hik othoi hala gure eginbide guziaren beharra sendi erazi iezaguk, non guziak zein gure beharraren araura, eta kontu on renda dezakegun bezala iratzar baikaitezke hire izen sainduaren inuokatzera, eta hik manu bezala bizitzera eta hiltzera: gure behar guzietan eure miserikordiagatik bethi aiutatzen gaitualarik. Eta nola nahi eta behar baitugu eta othoitz egiten-ere baitrauagu, gure egiteko eta mengoa orotan aiuta gaitzan, hala othoitz egiten drauagu beharretan eta nezesitatetan diren guziak nahi dituan aiutatu eta konsolatu, eta berze guzien gainetik hire hitz sainduagatik gaitzetsi, hiragun eta persekutatu diren gaixoak.</p>
+<p>Berzalde othoitz egiten drauagu Aita miserikordiosoa, eure Eliza anhitz aldez bethi egitekotan denari, nahi draukoan bere etsai guzien kontra esku eduki, bethi mantenitzen eta preseruatzen dualarik: baieta anhitzen ignorantiaz abaritiaz edo berze moldez iarri izan den zerbitzu falsu eta manera gaixto guzia, nahi duan, othoi, hala ezagut erazi leku guzietan eta kendu, non hi euror gure bizi guzian, eure Seme gure Iaunarekin Spiritu sainduaren berthutez eure hitz sainduaren araura ezagut, zerbitza eta lauda baihezakegu.</p>
+<p>Hauzaz bada Iauna eta goitiko behar ditugula hik hobeki dakusan gauza guziez othoitz egiten drauagu Iesus Krist eure Seme gure Iaunaren izenean, hark berak irakatsi eta hiri othoitz egitera manatu gaituen forman. Gure Aita zeruetan aizena, <foreign>&amp;c</foreign></p>
+<p>Halaber Iauna, hireganako fedean eta sinhestean hala bethi abanza eta konfirma gaitzak, othoi, non hartan fidelki bizi eta hil baikaitezke, orain zeinek gure fedeaz aithorra eginen dugun bezala. Sinhesten dut Iainko Aita, <foreign>&amp;c</foreign>.</p>
+<p>Gure Iainko Aita eternalaren benediktionea eta gratia, Iesus Krist haren Seme gure Iaunaren bakea Spiritu sainduaren berthutez eta komunkationez dela eta dagoela eternalki gure eta goitiko guzien gainean, Amen.</p>
+<p><hi rend='Bold'>IESUS KRIST</hi></p>
+<p><hi rend='Bold'>GURE IAUNAREN</hi></p>
+<p><hi rend='Bold'>ZENA SAINDURA</hi></p>
+<p><hi rend='Bold'>rezebitu behar direnen interrogatzeko manera</hi></p>
+<p><hi rend='Bold'>Ministrea</hi></p>
+<p>NOR baithan sinhesten duk hik?</p>
+<p>H. Iainko Aita, eta Semea, eta Spiritu saindua baithan.</p>
+<p>M. Aita, eta Semea, eta Spiritu saindua hirur Iainko dira?</p>
+<p>H. Ez: baina esentia dibinal ber batetan, hirur persona hauk dira distingituak eta zein bere.</p>
+<p>M. Zein da hire fedearen eta sinhestearen fundamenta eta substantia?</p>
+<p>H. Hura da konprehenditzen Kristinoen fedeko Konfesionean.</p>
+<p>M. Eia dankugun hura orain hireganik.</p>
+<p>H. Sinhesten dut Iainko Aita, <foreign>etc</foreign>.</p>
+<p>M. Hitz gutitan erraitera, zer kontenitzen du Konfesione horrek?</p>
+<p>H. Laur punktu. Lehena, nola Iainko Aitak bere botherez kreatu ukan dituen kreatura guziak, zeinek konseruatzen eta gobernatzen-ere baititu. Bigarrena da, nola Iesus Krist haren Seme gure Iaunak, natura humano hartu ukan duen, eta hartan pasionaturik eta resuszitaturik, gure redenptionetan behar zen guzia konplitu ukan duen ondoan, zeruetarat iganik (non rezebitu ukan baitu bere Aitaganik bothere eta sei&ntilde;oria guzia) nola handik ethorteko den bizien eta hilen iujeatzera. Hirurgarrena da, nola sinhesten dugun Spiritu saindua baithan, zeinez komunikatzen baitzaizkigu Iesus Krist Iaunaz egiten zaizkigun ungi guziak. Laurgarrena eta azkena da, Elizaz, eta Iainkoak hari egiten drauzkion gratia prinzipalez.</p>
+<p>M. Eta fedea zer moienez dukegu?</p>
+<p>H. Spiritu sainduaz, zeinek gure bihotzetan seguranza emaiten baitrauku, Iainkoak Ebanjelioan egiten drauzkigun promesez.</p>
+<p>M. Zer moldez zerbitzatu eta obeditu behar da Iainkoa?</p>
+<p>H. Ez guri ungi eta on dela irudi zaikunaren araura: baina berak eman drauzkigun manamenduen araura.</p>
+<p>M. Eta zein da hark eman drauzkigun manamenduen somarioa?</p>
+<p>H. Hura da Legeko hamar manamenduetan, eta hek dira Exodoaren hogeigarren kapituluan.</p>
+<p>M. Eia erraintzak hek.</p>
+<p>H. Behadi Israel, Ni nauk hire Iainko Iauna, <foreign>etc</foreign>.</p>
+<p>M. Somarioki erraitera, zer da Iainkoak manamendu hauzaz gureganik plazer duena?</p>
+<p>H. Guziak bi punktutara itzul ahal daitezke. Ezen lehen Taulako laur manamenduetan, Iainkoak erakusten drauku, hura egiazki ohoratzekotz zer gureganik plazer duen: eta bigarren Taulako sei manamenduetan, deklaratzen drauku gure hurkoetara egin behar duguna egitekotz, zertarik begiratu behar garen.</p>
+<p>M. Eta gure buruz gauza horiak konpli ahal ditzakegu?</p>
+<p>H. Ez, den punkturik xipiena-ere, baldin lehen Spiritu sainduaz rejeneratuak eta reformatuak ezpagara. Baina gu rejeneratu ondoan, Iainkoaren Spirituak gutibana gutibana reformatzen gaitu Iainkoaren ohoratzera eta obeditzera. Eta zeren bethi baikara inperfekt eta bekatore, hanbat da falta haren manamenduak konplitzen ditugun, non anhitz aldez eta maiz hausten-ere baititugu.</p>
+<p>M. Beraz guziak gaituk Iainkoaren malediktionearen suiet, ikusirik ezen hark maradikatzen dituela, ez solament haren Legea hausten dutenak, baina osoki hura begiratzen eta konplitzen eztutenak-ere bai.</p>
+<p>H. Hala da egia: baina malediktione hartarik deliuratzen eta idokiten gaitu Iesus Krist gure Iaunak.</p>
+<p>M. Eta nola hori?</p>
+<p>H. Zeren hark hartu ukan baitu bere gain, guk merezitu genduen malediktionea, eta herio eta pasione gure bekatuen pagamendutan iraganik, rekonziliatu eta baketu ukan baikaitu bere Aitarekin.</p>
+<p>M. Eta eure othoitzak nori egiten drautzak hik?</p>
+<p>H. Iainkoari.</p>
+<p>M. Eta noren konfidanzatan, eta noren izenean othoitz egiten draukak Iainkoari?</p>
+<p>H. Iainko Aitaganako gure Aduokat eta Ararteko bakoitzaren konfidanzatan, eta haren beraren izenean.</p>
+<p>M. Eta Iainkoari eskatzeko guaizkion gauzez, zer instruktione dugu?</p>
+<p>M. Instruktione emaiten zaiku Skripturan, asko lekutan. Baina expresuki hartakotzat Iesus Krist gure Iaunak eman ukan drauku formulariobat, zeinetan laburki konprehenditzen baitira Iainkoari galdegiteko drauzkiogun gauza guziak.</p>
+<p>M. Eia erran ezak hura.</p>
+<p>H. Gure Aita zeruetan aizena, <foreign>etc</foreign>.</p>
+<p>M. Eta othoitzeko formulario horrek, somarioki erraitera, zer dakarke?</p>
+<p>H. Sei rekesta ditu, eta lehen hirurak Iainkoaren gloria berera beha daude: eta berze hirurak, gure on tenporalera eta spiritualera.</p>
+<p>M. Dugun on guzia, norenganik dugula ezagutu behar dugu?</p>
+<p>H. Iainkoaganik: eta halakotz gure bizi guzian eskerrak eta alegeurzak emanez, hura bethi laudatu behar dugu.</p>
+<p>M. Nola, eta zer moienez nahi du Iainkoak haren Eliza irakats dadin.</p>
+<p>H. Haren hitz sainduaz, eta hitzari datxetza Sakramenduak-ere.</p>
+<p>M. Beraz Elizan Ministrek behar die izan, hitzaren predikatzeko, eta Sakramenduen administratzeko.</p>
+<p>H. Hala da egia: eta eztu nehork uste ukaiteko Ministre gaberik Eliza iragan ahal daitela, Iainkoak berak haren instruitzeko eta edifikatzeko moien hura ordenatu ukan duenaz geroz.</p>
+<p>M. Zenbat Sakramendu dira Kristinoen Elizan?</p>
+<p>H. Biga, Baptismoa, eta Zena.</p>
+<p>M. Baptismoak zer signifikatzen eta denotatzen drauku?</p>
+<p>H. Bi gauza: bata, nola Iesus Krist Iaunaren odolaz gure bekatuak iraungiten eta xahutzen diren: berzea nola Iainkoaren Spirituaren berthutez rejeneratzen garen spiritualki eta arranberritzen, Iainkoa obedi dezagunzat.</p>
+<p>M. Eta Zenak zer signifikatzen drauku?</p>
+<p>H. Ogiak Iesus Kristen gorputza representatzen drauku: eta mahatsarnoak, haren odola. Bada, Zenan signifikatzen zaiku, ezen Iesus Kristen gorputzaren eta odolaren komunikationez, gure arimak hatzen direla bizitze eternalerako speranzan, bizitze mortal hunetan ogiaz eta mahatsarnoaz gure gorputzak hatzen diren bezala.</p>
+<p>M. Eta Iesus Kristen gorputzean eta odolean komunikatzekotz, ogian eta mahatsarnoan barna, haren gorputza eta odola bilhatu behar ditugu?</p>
+<p>H. Ez. Baina Fedez zerura, hura bere Aitaren glorian den lekura altxatu behar ditugu gure bihotzak, hura rezebi dezagunzat, eta bere Spirituaz bat gurekin egin dadinzat.</p>
+<p>M. Beraz nezesarioki fedea behar diagu, Zena sainduaz ungi usat ahal dezagun baino lehen.</p>
+<p>H. Berzela ezin date: eta Fedeak enjendratu behar du gutan gure bekatuezko dolu penitentiatakobat, baieta gure hurkoetarako xaritate eta amorio egiazkobat: eta manera hunetan garate Sakramendu saindu hunen gure saluamendutan rezebitzeko prest.</p>
+<p>FINA.</p>
+<p><hi rend='Bold'>KRISTINO</hi></p>
+<p><hi rend='Bold'>BATEK IAKITEKO</hi></p>
+<p><hi rend='Bold'>DITUEN PUNKTU</hi></p>
+<p><hi rend='Bold'>prinzipalen definitioneak eta deskriptioneak</hi></p>
+<p><hi rend='Bold'>IAINKOAZ</hi></p>
+<p>Zeren Iainkoa baita inkonprehensible, nehork definitione propririk ezin harzaz eman dezake, baina behar dugun bezenbat ezagutzeren ukaiteko hunela deklara ahal daite. Iainkoa da esentia bakoitzbat, spiritual, eternal, infinito, inkonprehensible, egia muthatzen eztena, bere ethortez izate duena, baieta bothere, zuhurtzia, iustitia eta berthute guzia: zeinetan baitira hirur persona zein bere proprietatez distingituak eta zein-bere: baina esentiaz eta dibinitatez den bezenbatean bat bera baizen ez: Aita, zein baita gauza guzien lehen fundamenta eta kausa: Semea, zein baita Aitaren sapientia eternala: eta Spiritu saindua, zein baita Aitaren eta Semearen berthutea, zeinen berthutez gauza guziek iraute eta abanzu baitute, zeinek bere izatean.</p>
+<p><hi rend='Bold'>IAINKOAREN PROBIDENTIAZ</hi></p>
+<p>Iainkoaren probidentia da haren beraren konseillua eta gobernamendua, zeinez gauza guziak berak kreatu bezala, berak dispausatzen eta gobernatzen-ere baititu, hanbat jeneralki nola partikularki.</p>
+<p><hi rend='Bold'>PREDESTINATIONEAZ</hi></p>
+<p>Predestinationea da Iainkoaren konseillu eta ordenamendu eternala, zeinez bere borondate iustoaren araura ezeinere berze konsiderationerik gabe, ordenatua baitaduka, bere ontasun gratiazkoz, bere gloria manifestatu nahi drauenen saluamenduaz eta damnaturen direnen damnationeaz, zeinetan bere iujemendu iustoz eta egiazkoz nahi izan baita glorifikatu.</p>
+<p><hi rend='Bold'>EDO</hi></p>
+<p>Predestinationea da Iainkoaren konseillu eta ordenamendu eternala, zeinez ordenatu baititu batak saluamendutara eta berzeak damnationetara, bere borondate iustora baizen konsiderationerik batre ukan gabe, moien harzaz glorifika ledinzat. Eta Predestinationeak ditu bi parte, Elektionea eta Reprobationea: handik deitzen dira batak elejituak eta berzeak reprobatuak.</p>
+<p><hi rend='Bold'>ELEKTIONEAZ</hi></p>
+<p>Elektionea da Iainkoaren konseillu eta ordenamendu eternala, zeinez elejitu eta hautatu ukan baititu Iesus Kristen menbro egin plazer zituenak, haien saluamenduan glorifika ledinzat. Elektione haur maiz deitzen da exzellentiaz predestinatione, eta ez solament Theolojianoen skribuetan, baina bai Skriptura sainduan-ere: hala nola Rom. 8. 29. 30. Eph. 1. 5.</p>
+<p><hi rend='Bold'>REPROBATIONEAZ</hi></p>
+<p>Reprobationea da Iainkoaren konseillu eta ordenamendu eternala, zeinez iraitzi baititu iustoki batzu damnationetara, hetan iuje iusto, eta rigoroso erakuts ledinzat.</p>
+<p><hi rend='Bold'>GIZONA IAINKOAREN IRUDIRA KREATU IZAN ZEN IMAJINAZ</hi></p>
+<p>Lehen gizonak kreatu izan zenean Iainkoaren imajina zuena zen, hark berze kreatura guzien gainetik zuen exzellentia, eta exzellentia hunen leku eta alki prinzipala zen haren arima, adimendu klaroz eta egiazkoz, baieta pensamendu eta afektione iustoz eta sainduz dohatua zen bezenbatean: eta arima haren parte eta fakultate guziak ziren, ahal zirateken bezain ungi dispausatuak eta reglatuak, eta hartan zen hark bere Kreazaleaganat zuen irudia eta konformitatea.</p>
+<p>Eta Iainkoaganatko irudi eta konformitate haur gizonean desfiguratu eta ezeztatu izan da bekatuaz. Ezen Iainkoak hura dohatu eta ornatu zuen dohainez den bezenbatean: dohain naturalak (baitira mundu hunetako gauzen kursura baizen beha eztaudenak) gizonean hagitz korrunpitu eta ezeztatu izan dira: baina dohain supernaturalak eta spiritualak (baitira bizitze eternalera beha daudenak) xoil galdu ukan ditu: baina haur fideletan Spiritu sainduaz rejeneratu diren bezenbatean, parte reparatu izan da, eta zerura heldu diratekenean, eta prinzipalki resuszitatuz geroztik, xoil reparatu date, are lehen kreatu izan zenean baino perfektione handiagotan.</p>
+<p><hi rend='Bold'>LIBERAL ARBITRE GIZONA KREATU IZAN ZENEKOAZ</hi></p>
+<p>Gizonak kreatu izan zenean zuen liberal arbitrea zen, Iainkoak haren ariman hala hura ezarri ukan baitzuen, non bere buruz eta razoinez, onaren eta gaitzaren ezagutzeko, baieta bere borondate propriz bataren edo berzearen hautatzeko edo arbuiatzeko bothere baitzuen: baina bekatua izan da kausa, gizona bothere hunez gabetu izan baita, eta prinzipalki Iainkoaren Resumako gauzez den bezenbatean.</p>
+<p><hi rend='Bold'>IAINKOAREN ELIZAZ</hi></p>
+<p>Iainkoaren Eliza da, Iainkoa bere Iaunetan eta Iabetan ezagutzen eta zerbitzatzen dutenen kongregationea.</p>
+<p>Baina Skripturak Elizaren izen haur bi aldetara hartzen du, eta da Grek, erran nahi baita, hanbat nola biltzarrea edo kongregationea.</p>
+<p>Batzutan izen haur hartzen da solament elejituakgatik, zein Iesus Kristen amorez Iainkoaren haurretan adoptatu eta haren Spirituaz rejeneratu izan baitira: eta Eliza haur eztu Iainkoak berak baizen ezagutzen, zeren ezpaita hunetan hark bere haurretan aboatzen duenik baizen.</p>
+<p>Eta batzutan Elizaren izen hunez jeneralki aditzen dira, kanpoko maneraz Iainkoaren zerbitzatzez, eta Iesus Kristen rezebitzez, baieta Iainkoaren hitzaren enzutez eta Sakramenduen administratzez irudi eta profesione egiten duten guziak: eta Eliza haur gizonek-ere ezagutzen dute: eta hunetan hipokritarik eta gaixtorik-ere bada onekin nahasteka.</p>
+<p><hi rend='Bold'>SKRIPTURA EDO IAINKOAREN HITZA ERRAITEN DENEAN, ZER ADITZEKO DEN</hi></p>
+<p>Skriptura edo Iainkoaren hitza erraiten denean aditzeko da, Testamentu zaharreko eta berriko liburu kanonikoetan den guzia, kanoniko deitzen dira (erran nahi baita regular) zeren Spiritu sainduak, nola haren beraren inspirationez konpausatuak eta eginak baitira, hetan Iainkoaren egiaren regla xuxenbat eta egiazkobat emaiten baitu.</p>
+<p><hi rend='Bold'>IAINKOAREN EGIAZKO ZERBITZUAZ</hi></p>
+<p>Iainkoaren zerbitzu egiazkoa da, berak galdegiten eta bere hitzaz expresuki ordenatzen duen zerbitzua.</p>
+<p><hi rend='Bold'>IAINKOAREN ZERBITZU FALSUAZ</hi></p>
+<p>Iainkoaren zerbitzu falsua ezta solament, hark bere hitzaz expresuki defendatzen duena, baina adimendu humanoak bere buruz eta superstitioski, Iainkoaren hitza gabe ordenatzen duen zerbitzu guzia falsu da, zer-ere intentione on eta zer-ere kolore nehork allega ahal baiteza.</p>
+<p><hi rend='Bold'>IUSTIFIKATZEN GAITUEN FEDEAZ</hi></p>
+<p>Iustifikatzen gaituen fedea da, bere hitzean prometatzen duen bezala Iainkoak Iesus Krist Iaunean on darizkun amorioaren ezagutze segur Spiritu sainduaz emaiten denbat.</p>
+<p><hi rend='Bold'>EDO</hi></p>
+<p>Fedea da Iainkoak guregana duen amorioaren ezagutze segurbat eta fermubat, bera bere Ebanjelioan deklaratzen zaikunaren araura, ezen gure Aita eta Saluadore dela Iesus Kristen moienez.</p>
+<p><hi rend='Bold'>IAINKOAREN AITZINEAN IUSTIFIKATU IZATEAZ</hi></p>
+<p>Iainkoaren aitzinean iustifikatu izatea da, haren iujemenduaren aitzinean absoluatu izatea, eta iusto estimatu izatea: ez Iainkoak hogendun eta kondemnationearen digne erideiten ezgaituelakotz, baina zeren Iesus Kristek bere herioaz guregatik egin duen pagamenduaren kausaz, ezpaitrauzkigu gure bekatuak inputatzen ez kontatzen: eta zeren Iesus Kristen iustitia gure kontatzen baitzaiku. Eta zeren fedez, eta ez ezeinere den gure obren merituz, rezebitzen baitugu iustitia haur, erraiten dugu ezen fede hutsaz iustifikatzen garela Iainkoaren aitzinean.</p>
+<p><hi rend='Bold'>EUANJELIOAZ</hi></p>
+<p>Ebanjelio hitz haur da Grek, eta erran nahi da, berri ona: eta Skripturan hartzen da solament, Iesus Krist Iaunean manifestatzen eta presentatzen zaikun berri on eta dohain onezkoagatik.</p>
+<p>Iainkoak Legean eta Profetetan bere miserikordia gratiazkoagatik Iesus Krist ethorteko zela, egin ukan drauzkigun promes guziak, Ebanjelio hitz hunetan konprehendi eta har ahal daitezke: guziagatik-ere izen haur Testamentu berriaren da propriki, zeren hartan berri on haur klaroki manifestatu izan baita. Eta nola Iesus Krist baita Ebanjelioaren fundament egiazkoa eta bakoitza: eta zeren laur Ebanjelistek skribatu duten historian deklaratzen baita Iesus Kristen sortzeaz, doktrinaz, bizitzeaz, hiltzeaz, resurrektioneaz eta zerurat igaiteaz, historia huni eman izan zaio partikularki Ebanjelioaren izena.</p>
+<p><hi rend='Bold'>IAINKOAK SKRIBUZ EMAN DUEN LEGEAZ</hi></p>
+<p>Iainkoak skribuz eman draukun Legea da, berak bere hitzean gure bizitze guziaren reglatzeko eman draukun doktrina, eta hartan manatzen drauku laudatzen, defendatzen, edo kondemnatzen duen guzia.</p>
+<p><hi rend='Bold'>LEGE NATURALAZ</hi></p>
+<p>Lege naturala da konszientiako sendimendubat, zeinek asko sufizientki, ignorantiazko exkusarik eztukeen bezala, onaren eta gaitzaren artean diszernitzen eta iujeatzen baitu.</p>
+<p><hi rend='Bold'>OBRA ONAZ</hi></p>
+<p>Obra ona da Iainkoaren Legearen araura egiten den obra.</p>
+<p><hi rend='Bold'>BEKATUAZ</hi></p>
+<p>Iainkoaren Legearen kontra den gauza guzia bekatu da.</p>
+<p><hi rend='Bold'>BEKATU ORIJINALAZ</hi></p>
+<p>Bekatu orijinala da gure naturaren arrazazko korruptione gaixtobat, eta harzaz da korrunpitua arima, baieta gizona guzia, eta hartarik prozeditzen da pensatze erraite eta egite gaixto guzia.</p>
+<p><hi rend='Bold'>SPIRITU SAINDUAREN KONTRA DEN BEKATUAZ</hi></p>
+<p>Spiritu sainduaren kontra den bekatua da Iainkoaren Legearen kontra iakiarazko reboltatze totalbat, nehor hari resistitzera Iainkoaren egia ezagutuaren kontra, ez infirmitatez edo ignorantiaz, baina malitia obstinatu eta deliberatu batez, haren kontra bandatzen denean.</p>
+<p>Bekatu hunetara elejituak ezin eror daitezke: baina berze erorten direnak, eztira penitentiatara ez emendamendutara iagoitik ethorten, eta halakotz da irremisible eta barka ezin daiten bezalako.</p>
+<p><hi rend='Bold'>KARITATEAZ</hi></p>
+<p>Karitatearen izen haur da Grek, eta erran nahi da onheriztea, edo amorioa: eta hartzen da Skripturan, gure buruak baino gehiago Iainkoa onhetsi behar dugun amorioagatik, eta gure buruak bezala gure hurkoa onhetsi behar dugunagatik: eta arau hunetara konprehenditzen du bere baithan, Iainkoagana eta gure hurkoagana egitera itzeradoki eta obligatu garen guzia.</p>
+<p><hi rend='Bold'>PENITENTIAZ</hi></p>
+<p>Penitentia da bizitze gaixtotik, bizitze on eta saindu batetaratko Iainkoaren egiazko beldurretik heldu den kanbiatzebat, inzitatzen gaituelarik gure haragiaren zebatzera eta mortifikatzera, Spiritu sainduaz goberna dadinzat Iainkoaren hitzaren obedientian.</p>
+<p><hi rend='Bold'>EDO</hi></p>
+<p>Penitentia da gaizkiaz desplazer ukaitea eta ungiaren onhestea Iainkoaren beldurretik prozeditzen dela, eta guri gure haragia mortifika eraziten draukula, Iainkoaren zerbitzuan Spiritu sainduaz gida eta goberna gaitezenzat.</p>
+<p><hi rend='Bold'>ORATIONEAZ</hi></p>
+<p>Egiazko orationea da, Iesus Krist gure Ararteko bakoitzaren izenean Iainkoari egiten zaion rekesta eta othoitzebat, hura egiten duena, bere mengoa ezaguturik seguratzen delarik, ezen Iainkoak egin dituen promesen araura, enzunen dela.</p>
+<p><hi rend='Bold'>ESKERREN ETA GRATIEN RENDATZEA</hi></p>
+<p>Iainkoaren laudatzea eta hari eskerren emaitea da, glorifikatu denzat Iainkoari edozein on rezebitugatik remerziamendurekin ezagutze egitebat.</p>
+<p><hi rend='Bold'>ELIZAKO PASTORAZ EDO MINISTREAZ</hi></p>
+<p>Elizako Pastora edo Ministrea da, lejitimoki eta bidezki deithu izanik Elizaren kargua duena, hartan Iainkoaren hitza egiazki deklara eta Sakramenduak administra ditzanzat, eta hura Iainkoak manu bezala eta haren ofizioak emaiten duen bezala, gida eta goberna dezanzat.</p>
+<p><hi rend='Bold'>KONSISTORIOAZ, EDO SENATU EKLESIASTIKOAZ</hi></p>
+<p>Konsistorioa edo Senatu Eklesiastikoa da, Elizakoez egiten diren gaizkien eta skandaloen gainean Ministrekin gogoa dutenzat eta Eliza guziaren izenean Elizako beharkiez eta egitekoez iujea eta ordena dezatenzat, lejitimoki deithu eta iarri izan direnen konpainia eta biltzarrea.</p>
+<p><hi rend='Bold'>SAKRAMENDUAZ</hi></p>
+<p>Sakramendua da, Iainkoak bere Elizarenzat ordenatu ukan duen ordenanzabat, hartan bere promes spiritualak signo bisiblez representatzen drauzkigularik: eta harzaz eztrauzkigu solament promesak konfirmatzen, baina hetan posesionetan-ere ezarten gaitu. Eta guk gure aldetik Sakramenduez dignezki usatzen dugunean deklaratzen dugu, ezen egiazko gure Iainko eta Saluadore ezagutzen dugula hura.</p>
+<p><hi rend='Bold'>EDO</hi></p>
+<p>Sakramendua da, Iainkoaren gratiaren testimoniaje bisiblebat, gauza spiritualak signo bisiblez representatzen drauzkigularik, Iainkoaren promesak zinezago gure bihotzetan inprimi ditezenzat, eta gu segurago garenzat.</p>
+<p><hi rend='Bold'>BAPTISMOAZ</hi></p>
+<p>Baptismoa da Sakramendubat, zeinetan Iainkoak testifikatzen baitrauku uraz, ezen Iesus Kristen odolean gure bekatuak ikuzi nahi drauzkigula, eta bere Spiritu sainduaz rejeneratu nahi gaituela: eta Sakramendu hunez Elizako egiten gara, Iesus Kristen menbro egin gaitezenzat.</p>
+<p><hi rend='Bold'>EDO</hi></p>
+<p>Baptismoa da gure Kristinotasunaren merka, eta nola harzaz Elizan rezebitzen garen, sei&ntilde;alea: Kristekin inkorporaturik eta bat eginik, Iainkoaren haurren kontuko garenzat.</p>
+<p><hi rend='Bold'>ZENAZ</hi></p>
+<p>Zena da Sakramendubat, zeinetan Iainkoak ogiaz eta mahatsarnoaz testifikatzen baitrauku, ezen Iesus Kristen gorputza eta odola direla bizitze spiritualekotzat eta eternalekotzat gure egiazko ianhari eta edari.</p>
+<p><hi rend='Bold'>EXKOMUNIKATIONEAZ</hi></p>
+<p>Exkomunikationea da, Elizaz edo konsistorioaz lejitimoki pronuntiatzen den sententiabat, zeinez Elizako direla profesione egiten duten heretikoak, edo skandaloso gaixtoak eta desobedientak trenkatzen eta iraizten baitira Kristen komunionetik, eta hunen sei&ntilde;aletan Sakramenduen partizipationetik halakoak exkluditzen eta kenzen dira: eta prinzipalki Zenatik.</p>
+<p><hi rend='Bold'>MAJISTRATUAZ</hi></p>
+<p>Majistratuak dira politia tenporalaren gobernamendua dutenzat ordenatuak: eta Iainkoak nahi du hek diren puisanzaz fornituak eta goarnituak, haren gloriaren eta Elizaren mantenitzeko, hogen-gaben defendatzeko eta hogendunen gaztigatzeko, bortxa guziaren reprimitzeko eta iustitiaren administratzeko, nori berea balia dakionzat</p>
+<p><hi rend='Bold'>GIZONAZ</hi></p>
+<p>Gizona da Filosofoen araura, animal razoin duenbat. Batzuk eratxekiten dute, mortal.</p>
+<p><hi rend='Bold'>BAINA KRISTINO ANZO GIZONAZ MINZATZERA</hi></p>
+<p>Gizona da kreaturabat gorputz korruptiblez eta arima imortalez konpausatua eta egina, zeini Iainkoak eman baitrauka adimendu eta razoin, ez bere buruaren mundu hunetako bizitzearen egitekoetan gobernatzen iakiteko solament, baina Iainkoaren beraren ezagutzeko-ere bai, hura ohora dezanzat.</p>
+<p><hi rend='Bold'>GURE HURKOAZ</hi></p>
+<p>Gure hurkoa da, ez solament gure ahaide dena, baina ahaide ezten guzia-ere bai: zeren guziak iunktatu baikaitu Iainkoak, ez zeren guziak haren kreatura garen solament, baina zeren hark bere imajina inprimitu zerauzan natura humano ber batetarik guziak garen.</p>
+<p><hi rend='Bold'>AINGERUAZ</hi></p>
+<p>Aingerua da hitz Grekbat, zein erran nahi baita enbaxadore edo mandatari: eta izen hunez deitzen dira, Iainkoak bere borondatearen exekutatzera Ministre igorten dituen Spirituak.</p>
+<p>Eta batzutan Aingeru izen haur deabruakgatik hartzen bada-ere, zeren Iainkoa nahi badira eta ezpadira hezaz zerbitzatzen den: guziagatik-ere propriki Spiritu oner apertenitzen zaie.</p>
+<p>Spiritu on hauzaz Hebraikoetaratko epistolan, <foreign>cap</foreign>. 1. 14. hunela erraiten da, Hek dira guziak Spiritu zerbitzu egiten dutenak, zerbitzuko igorten direnak, saluamenduko heredero izanen direnakgatik.</p>
+<p><hi rend='Bold'>BAINA ERRAXKIAGO ADI ERAZITEKO, HUNELA ERRAN AHAL DAITE</hi></p>
+<p>Aingerua da, Iainkoaren gratiaz berak bere zerbitzuko kreatu zuen integritatean persistitu eta iraun duen Spiritu on-bat, zeinez Iainkoa zerbitzatzen baita, eta prinzipalki elejituen konseruationetan.</p>
+<p><hi rend='Bold'>DEABRUAZ</hi></p>
+<p>Deabrua da, Iainkoak kreatu ukan zuen integritatetik bere faltaz erori izan den Spiritu gaixtoa, eta hark zerbitzatzeko borondaterik ezpadu-ere zerbitzatzen da harzaz Iainkoa, eta prinzipalki elejituen phorogatzeko, eta reprobatuen kontra bere iujemenduen exekutatzeko.</p>
+<p>Spiritu gaixto hauk Skripturan deitzen dira batzutan Deabru, eta batzutan Satan. Deabrua da hitz Grekbat, eta erran nahi da, kalumniazalea: zeren Iainkoaren obren eta haren elejituen kalumniatzera bethi prest baita. Satan da hitz Hebraikobat, eta erran nahi da, kontrasta, zeren bethiere baita Iainkoaren eta haren elejituen etsai mortal.</p>
+<p><hi rend='Bold'>PARADISOAZ</hi></p>
+<p>Paradisoa da elejituek Aingeruekin perpetualki Iainkoa baithan duten felizitatea: lehenik, gorputzetarik partitu direnean bere arimetan, eta gero resuszitaturik, bere gorputzetan eta arimetan ukanen dutena.</p>
+<p>Paradisoaren izen haur da Grek, eta erran nahi da, hanbat nola baratzea: eta hartu izan da hitza, Iainkoak kreaturik lehen gizona ezarri ukan zuen baratze plazentiazkotik: eta eman izan zaio izenetan zeruetako gloriari, hartan elejituek duten eta perpetualki ukanen duten plazer handiagatik eta boluptate sainduagatik, eta zeren hek Adamek bekatuaren kausaz galdu zuen statura, baieta hobeagotara itzuli bezala izan baitira Iesus Kristen moienez.</p>
+<p><hi rend='Bold'>IFERNUAZ</hi></p>
+<p>Ifernua da, reprobatuek Deabruekin Iainkoaren hira eta mendekio iustoz eta bidezkoz sufritzen eta perpetualki sufrituren duten punitionea eta tormenta: lehenik, bere arimetan, gorputzetarik partitu direnean: gero resuszitaturik, gorputzetan eta arimetan.</p>
+<p>Ifernu hitz haur, Latinetik hartua da, eta erran nahi da, leku beherabat: eta irudi du hala hartu izan dela, zeren elejituen gloria zelestiala gora bezala, reprobatuen izatea behera baita: edo (nola sepulkreagatik-ere Skripturan hartzen baita) zeren lurrean sepulkrebat bezala, den ifernua, zeinetan ezarten baitira herio eternalera kondemnatuak.</p>
+<p><hi rend='Italic'>FINA.</hi></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><mentioned>Bertsio informatiko honen egilea: Josu Lavin; Urkiola, 1-1C 48990 - Getxo (Bizkaia) </mentioned></p>
+        </body>
+      </text>
+    </group>
+  </text>
+</TEI.2>
+

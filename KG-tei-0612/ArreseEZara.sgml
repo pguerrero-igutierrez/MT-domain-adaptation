@@ -1,0 +1,1036 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN"
+                       "http://www.tei-c.org/P4X/DTD/tei2.dtd" [
+   <!ENTITY % TEI.prose    'INCLUDE' >
+   <!ENTITY % TEI.linking  'INCLUDE' >
+   <!ENTITY % TEI.analysis 'INCLUDE' >
+   <!ENTITY % TEI.figures  'INCLUDE' >
+   <!ENTITY % TEI.XML      'INCLUDE' >
+   <!ENTITY % TEI.extensions.ent SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.ent' >
+   <!ENTITY % TEI.extensions.dtd SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.dtd' >
+]>
+<TEI.2>
+  <teiHeader>
+  <fileDesc>
+     <titleStmt>
+        <title>Zara</title>
+        <author>Emeterio Arrese</author>
+        <respStmt>Ez dauka</respStmt>
+     </titleStmt>
+     <extent>2.828 hitz, 20.111 karaktere</extent>
+     <publicationStmt>
+        <publisher>Klasikoen Gordailua [http://klasikoak.armiarma.com/]</publisher>
+        <distributor>Estrata Liburuak S.L.</distributor>
+        <address type='email'>klasikoak@armiarma.com</address>
+        <idno type='ota'>ArreseEZara</idno>
+        <availability status='free'>Erabilpen librekoa; honoko helbidean topa daiteke (HTML, RTF eta PDF formatuetan): http://klasikoak.armiarma.com/idazlanak/A/ArreseEZara.htm</availability>
+        <date>2006</date>
+     </publicationStmt>
+     <sourceDesc>
+        <bibl>Iturria: Nere bidean, Emeterio Arrese. E. Lopez, 1913</bibl>
+        <notesStmt><note>Iturburuen datazioa: 1913</note></notesStmt>
+     </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+     <projectDesc>Euskal literaturako testu klasikoen bilduma da KLASIKOEN GORDAILUA; testu hau berorren parte da</projectDesc>
+     <refsDecl>
+        <p>MENTIONED etiketa egilearenak ez diren hitzak markatzeko erabili da: hitzaurreak, aipuak, iruzkinak, e.a.</p>
+    </refsDecl>
+     <classDecl>
+        <taxonomy id='generoa'>
+            <category id='G-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='G-ANT'><catDesc>Antzerkia</catDesc></category>
+            <category id='G-BER'><catDesc>Bertsoak</catDesc></category>
+            <category id='G-ERL'><catDesc>Erlijioa</catDesc></category>
+            <category id='G-NAR'><catDesc>Narratiba</catDesc></category>
+            <category id='G-POE'><catDesc>Poesia</catDesc></category>
+            <category id='G-SAI'><catDesc>Saiakera, kronika, artikuluak...</catDesc></category>
+        </taxonomy>
+        <taxonomy id='garaia'>
+            <category id='M-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='M-16'><catDesc>XVI. mendea</catDesc></category>
+            <category id='M-17-1'><catDesc>XVII. mendea - 1. erdia</catDesc></category>
+            <category id='M-17-2'><catDesc>XVII. mendea - 2. erdia</catDesc></category>
+            <category id='M-18-1'><catDesc>XVIII. mendea - 1. erdia</catDesc></category>
+            <category id='M-18-2'><catDesc>XVIII. mendea - 2. erdia</catDesc></category>
+            <category id='M-19-1'><catDesc>XIX. mendea - 1. erdia</catDesc></category>
+            <category id='M-19-2'><catDesc>XIX. mendea - 2. erdia</catDesc></category>
+            <category id='M-20-1'><catDesc>XX. mendea - 1. erdia</catDesc></category>
+            <category id='M-20-2'><catDesc>XX. mendea - 2. erdia</catDesc></category>
+        </taxonomy>
+        <taxonomy id='euskalkia'>
+            <category id='E-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='E-BAT'><catDesc>batua</catDesc></category>
+            <category id='E-BIZ'><catDesc>bizkaiera</catDesc></category>
+            <category id='E-BNA'><catDesc>behenafarrera</catDesc></category>
+            <category id='E-ERR'><catDesc>erronkariera</catDesc></category>
+            <category id='E-GIP'><catDesc>gipuzkera</catDesc></category>
+            <category id='E-GNA'><catDesc>goi nafarrera</catDesc></category>
+            <category id='E-LAP'><catDesc>lapurtera</catDesc></category>
+            <category id='E-NAF'><catDesc>nafarrera</catDesc></category>
+            <category id='E-ZAR'><catDesc>zaraitzuera</catDesc></category>
+            <category id='E-ZUB'><catDesc>zuberera</catDesc></category>
+        </taxonomy>
+    </classDecl>
+  </encodingDesc>
+  <profileDesc>
+     <textClass>
+       <keywords scheme='generoa'>
+         <list><item>G-ANT</item></list>
+       </keywords>
+       <keywords scheme='garaia'>
+         <list><item>M-20-1</item></list>
+       </keywords>
+       <keywords scheme='euskalkia'>
+         <list><item>E-GIP</item></list>
+       </keywords>
+     </textClass>
+  </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>Zara -- Emeterio Arrese</docTitle>
+    </front>
+    <group>
+      <text>
+        <body>
+<p>IRU EGINTZ ETA AZKEN-ZATI BATEAN</p>
+<p>ANTZERKI AU MOKOROA'TAR</p>
+<p>EDUARDO JAUNAK ERESALDU ZUAN,</p>
+<p>TA ZATI BATZUEK ABESTU ZITUAN</p>
+<p>TOLOSA-KO ABESLARI-TALDEAK 1913-AN EGIN</p>
+<p>ZIRAN EUSKAL-JAYETAN.</p>
+<p><hi rend='Bold'>IRUDIGILLEAK</hi></p>
+<p><hi rend='Bold'>ZARA: </hi>(zoratzallea)</p>
+<p><hi rend='Bold'>MUSKI&Ntilde;: </hi>(sorgi&ntilde;a)</p>
+<p><hi rend='Bold'>BORDA-TXURI: </hi>(Itur-en semea)</p>
+<p><hi rend='Bold'>TXONDAR: </hi>(Lelo-n aidea)</p>
+<p><hi rend='Bold'>ERKO: </hi>(aztarnaria)</p>
+<p><hi rend='Bold'>ITUR: </hi>(Koblakari-zarra)</p>
+<p><hi rend='Bold'>LELO: </hi>(gudarien buruzaria)</p>
+<p><hi rend='Bold'>GOITI: </hi>(bigalki&ntilde;a)</p>
+<p><hi rend='Bold'>TOTA: </hi>(Lelo-n emaztegaya)</p>
+<p><hi rend='Bold'>SUDUN: </hi>(batzaldiko zarrena)</p>
+<p><hi rend='Bold'>SORGI&Ntilde;-TALDEA. </hi></p>
+<p><hi rend='Bold'>AIZKOLARIK.</hi></p>
+<p><hi rend='Bold'>GUDARIK.</hi></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>AURRENENGO EGINTZA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Italic'>-e-Iruditegiak. Aurkeztatzen du Ameron-go sorgi&ntilde;aren bizi-lekua. Gaua da.</hi></p>
+<p><hi rend='Bold'>Lenengo irudia</hi></p>
+<p><hi rend='Bold'>ZARA </hi><hi rend='Italic'>(ezker aldetik)</hi></p>
+<p>Gabak artu nau bere mendean,</p>
+<p>aserre dago zeruba,</p>
+<p>biyurri dabil turmoien zale</p>
+<p>tximist izuen ke&ntilde;uba.</p>
+<p>Ordu txarrean egokitu zait</p>
+<p>ozi&ntilde;-aundiko putzuba;</p>
+<p>ez ote da emen bordik?..., ara or</p>
+<p>norbaiten bizi-lekuba.</p>
+<p><hi rend='Bold'>Bigarren irudia</hi></p>
+<p><hi rend='Italic'>-e-Zara ta muski&ntilde;</hi></p>
+<p><hi rend='Bold'>MUSKI&Ntilde; </hi><hi rend='Italic'>(atadian azalduaz)</hi>:</p>
+<p>Atoz, ezagutzen det</p>
+<p>daukazun ikara,</p>
+<p>nora zoaz ain arrats</p>
+<p>illunean, Zara?</p>
+<p><hi rend='Bold'>ZARA </hi><hi rend='Italic'>(arriturik)</hi>:</p>
+<p>Nundik, nola dakizu</p>
+<p>nere izena'n berri?</p>
+<p><hi rend='Bold'>MUSKI&Ntilde;:</hi></p>
+<p>Etzait munduan ezer</p>
+<p>eskutatzen neri.</p>
+<p><hi rend='Bold'>ZARA:</hi></p>
+<p>Nor zera?</p>
+<p><hi rend='Bold'>MUSKI&Ntilde;:</hi></p>
+<p>Ez bildurtu,</p>
+<p>zaude, zaude lasai,</p>
+<p>Ameron-go Muski&ntilde;-ek</p>
+<p>etzaitu galdu nai.</p>
+<p>Gaiztoen lagun eta</p>
+<p>ongilleen etsai</p>
+<p>nere sorgintasunaz</p>
+<p>jar zi&ntilde;eke alai.</p>
+<p><hi rend='Bold'>ZARA: </hi></p>
+<p>Zorigaitz edo onean,</p>
+<p>o Muski&ntilde; astiya,</p>
+<p>zure bordan ekatzu</p>
+<p>atseden aldiya!</p>
+<p><hi rend='Bold'>MUSKI&Ntilde;: </hi></p>
+<p>Atoz, geitu ba&ntilde;o len</p>
+<p>daukazun larriya</p>
+<p><hi rend='Bold'>ZARA </hi><hi rend='Italic'>(sartuaz)</hi>:</p>
+<p>Nere larritastma</p>
+<p>ez da beste gauzik</p>
+<p>gudara joan arteko</p>
+<p>arazoa baizik.</p>
+<p>Bigar dijoa Lelo,</p>
+<p>urrun dago emendik,</p>
+<p>eta garaiz beregan</p>
+<p>iritxi nai det nik.</p>
+<p><hi rend='Bold'>MUSKI&Ntilde;:</hi></p>
+<p>Lelo, Lelo, on-eginzale,</p>
+<p>Lelo nik niadarikatu,</p>
+<p>aren ordez Tota-n jabe</p>
+<p>laister izango zera zu,</p>
+<p>laister, Zara, nere bidez,</p>
+<p>i&ntilde;or ez bezin doatsu.</p>
+<p><hi rend='Bold'>ZARA:</hi></p>
+<p>Tot'ederraren jabe ni</p>
+<p>zalla da bein izatea.</p>
+<p><hi rend='Bold'>MUSKI&Ntilde;:</hi></p>
+<p>Maita dezazu ta sarri</p>
+<p>izango zera maitea.</p>
+<p><hi rend='Bold'>ZARA:</hi></p>
+<p>Esango nuke amets on bat</p>
+<p>egiten ari naizela</p>
+<p><hi rend='Bold'>MUSKI&Ntilde;:</hi></p>
+<p>Ez, ez; iduripen gabe</p>
+<p>jardun nik esan bezela.</p>
+<p>Orain... artu ezazu, tori</p>
+<p>indar gozo-dun mixtela.</p>
+<p><hi rend='Bold'>ZARA:</hi></p>
+<p>Edari onen doaya</p>
+<p>sorginkeri leunean</p>
+<p>ixuri bedi, o Muski&ntilde;!</p>
+<p>nere kolko gogorrean.</p>
+<p><hi rend='Italic'>-e-(Edan ondorean loak artzen du, ta bitarte ontan entzuten da sorgi&ntilde;-otsa).</hi></p>
+<p><hi rend='Bold'>SORGI&Ntilde;-TALDEA </hi><hi rend='Italic'>(barrendik)</hi>:</p>
+<p>Ja, ja ja, ja,</p>
+<p>ju, ju, ju, ju!</p>
+<p>Andre Muski&ntilde;, andre Muski&ntilde;,</p>
+<p>askai zoroen erregi&ntilde;!</p>
+<p>Entzun, entzun gau-algara</p>
+<p>zer alai ozi&ntilde;ik-ozi&ntilde;,</p>
+<p>gure lagun illun-narra</p>
+<p>t'ekaitza berare sorgi&ntilde;.</p>
+<p>Gaur degun festa-billera</p>
+<p>arrats obegoan ezi&ntilde;;</p>
+<p>goazen egan, goazen ari&ntilde;,</p>
+<p>Uju, iji, ju,</p>
+<p>ja, ja, ja, ja!</p>
+<p>Andre Muski&ntilde;, andre Muski&ntilde;</p>
+<p>askai zoroen erregi&ntilde;!</p>
+<p><hi rend='Italic'>-e-(Oiek kantari ari diran bitartean, Muski&ntilde;-ek egiten ditu bere sorginkerik, noizik-bein garr-aldi batzuek sorta eraziaz ontzi zar batetik).</hi></p>
+<p><hi rend='Bold'>ZARA </hi><hi rend='Italic'>(esnatuaz)</hi>:</p>
+<p>Zer oyu dira, zer talde bizi</p>
+<p>naspilkor oiek aidean?</p>
+<p><hi rend='Bold'>MUSKI&Ntilde;:</hi></p>
+<p>Gauen alabak zure gidari</p>
+<p>goiz'argitu bitartean.</p>
+<p><hi rend='Bold'>ZARA:</hi></p>
+<p>Eskertu nai det eman dirazun</p>
+<p>itxaropen doatsua.</p>
+<p>Zure bitartez eroso eta</p>
+<p>pozkidaturik nijoa.</p>
+<p><hi rend='Bold'>MUSKI&Ntilde;:</hi></p>
+<p>Garai onean arkitu dezu</p>
+<p>bizi naizen ingurua,</p>
+<p>zu bezelako igeslari bat</p>
+<p>ez dabil emen galdua.</p>
+<p><hi rend='Italic'>-e-(Biak):</hi></p>
+<p><hi rend='Bold'>ZARA:</hi></p>
+<p>Kezka larrien asnas estuba</p>
+<p>arindu zait bat-batean,</p>
+<p>ez det ikusten eriotzaren</p>
+<p>itzalik orain aurrean,</p>
+<p>Tota bakarrik, Tota-n oroitza</p>
+<p>daukat irudimenean.</p>
+<p>Banijoake Muski&ntilde; astiya,</p>
+<p>t'arengan alboratzean</p>
+<p>zi&ntilde;ismen dena ipi&ntilde;iko det</p>
+<p>zure sorgintasunean.</p>
+<p><hi rend='Bold'>MUSKI&Ntilde;:</hi></p>
+<p>Gorozmendiko mugatik aruntz</p>
+<p>Erniyorako bidean</p>
+<p>jarrai zi&ntilde;ezke, irten soseguz</p>
+<p>zedorrek nai dezunean.</p>
+<p>Aisa, txit errez igoko zera</p>
+<p>aldapik aundiyenean,</p>
+<p>amaitu dira lengo nekeak,</p>
+<p>zoaz oinkid'ari&ntilde;ean.</p>
+<p>Zoazkit, eta zi&ntilde;ismen dena</p>
+<p>iduki nere esanean!</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>BIGARREN EGINTZA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Italic'>-e-Iruditegiya: arizti bat. Urrutinean ernio-mendi.</hi></p>
+<p><hi rend='Bold'>Lenengo irudia</hi></p>
+<p><hi rend='Italic'>-e-(Azaltzen dira eskuitik Borda-txuri t'aizkolarik. Arratsaldea da).</hi></p>
+<p><hi rend='Bold'>BORDA-TXURI:</hi></p>
+<p>Eguzkiaren arratsaldeko</p>
+<p>erra&ntilde;u-sort epeiduak</p>
+<p>gorde ba&ntilde;o len ikutzen ditu</p>
+<p>Erniyoren aitz-buruak.</p>
+<p>Ta isil-aldiya nola datorren</p>
+<p>berekin otoitz-orduak</p>
+<p>isildu dira mendirik-mendi</p>
+<p>ernai zetozen oyuak.</p>
+<p><hi rend='Bold'>TXONDAR:</hi></p>
+<p>Basotik ere otoitz</p>
+<p>antzera la&ntilde;oa</p>
+<p>illun aurrean goronz</p>
+<p>banatzen dijoa.</p>
+<p><hi rend='Bold'>BORDA-TXURI:</hi></p>
+<p>Bai, gure lurra egonik umant</p>
+<p>illezkorrez ain betea</p>
+<p>leitsu bizi da euzkotar aien</p>
+<p>gogo aditz-emallea.</p>
+<p>Ara min, ara nola dijoan</p>
+<p>la&ntilde;o-bilgumen ezea;</p>
+<p>ori da lengo gudari zarren</p>
+<p>asnas lurrintsu maitea.</p>
+<p><hi rend='Bold'>BIYAK:</hi></p>
+<p>Gai eder dezun kemea,</p>
+<p>sasoizko laguntzallea,</p>
+<p>zure giroaz orniturikan</p>
+<p>gure biotz barrunbea</p>
+<p>euzkal-mendien egaletatik</p>
+<p>zerura&ntilde;o igo zaitea!</p>
+<p><hi rend='Bold'>AIZKOLARIK:</hi></p>
+<p>Zantso txar batez nastu nai emen</p>
+<p>obietako pakea;</p>
+<p>Pister ikaraz Erromatarrak</p>
+<p>entzungo dute gurea!</p>
+<p><hi rend='Bold'>BORDA-TXURI:</hi></p>
+<p>Gudazaleen gri&ntilde;a berriro</p>
+<p>orroka dabil an bean,</p>
+<p>ezi&ntilde; aspertu be&ntilde;ere gudaz,</p>
+<p>ezi&ntilde; bere itxumenean.</p>
+<p>Ergal arroak,</p>
+<p>gero malkoak</p>
+<p>zer dira oien artean</p>
+<p>baldin pakezko lore malatsa</p>
+<p>negar egin ondorean</p>
+<p>i&ntilde;oiz ernetzen ezpazaiote</p>
+<p>biotzaren barrenean?</p>
+<p><hi rend='Bold'>TXONDAR:</hi></p>
+<p>Itur-en seme ona</p>
+<p>Borda-txuri</p>
+<p>Jainkoak erakitu</p>
+<p>goitizlari.</p>
+<p><hi rend='Bold'>BORDA-TXURI:</hi></p>
+<p>Berak almen-doaya</p>
+<p>emanaz ugari</p>
+<p>egin zaituzte arrotz</p>
+<p>aien bildurgarri.</p>
+<p>Pakean, paketsuak,</p>
+<p>gudan gudalari,</p>
+<p>zuek ain zangar eta</p>
+<p>Itur koblakari.</p>
+<p><hi rend='Bold'>AIZKOLARIK:</hi></p>
+<p>Jayotzez datorkio</p>
+<p>ludi ontan noski</p>
+<p>dezagokion era</p>
+<p>gauza bakoitzari:</p>
+<p>azkonarra nar eta</p>
+<p>miruba egalari</p>
+<p>aitortu bear gaya</p>
+<p>berez dubenari.</p>
+<p>Bereztasun au i&ntilde;ork</p>
+<p>ezin kendu guri;</p>
+<p>euskaldunak euskaldun</p>
+<p>len, orain ta beti.</p>
+<p><hi rend='Bold'>Bigarren irudia</hi></p>
+<p><hi rend='Italic'>-e-Lengoak eta Zara</hi></p>
+<p><hi rend='Bold'>ZARA </hi><hi rend='Italic'>(guztiz nekatua)</hi>:</p>
+<p>Onuntz-bideko maldari gallen</p>
+<p>emanik al bezin azkar</p>
+<p>sorterritasun leyalak zuen</p>
+<p>artera gogotsu nakar.</p>
+<p><hi rend='Bold'>TXONDAR:</hi></p>
+<p>Zorionean!</p>
+<p><hi rend='Bold'>ZARA:</hi></p>
+<p>Bart jakin nuen</p>
+<p>nola berriz Erromatar</p>
+<p>gaizkille oiek nai duten gure</p>
+<p>lurra billuztu su ta gar.</p>
+<p><hi rend='Bold'>AIZKOLARIK:</hi></p>
+<p>Asmo likitsa; ez egunda&ntilde;o</p>
+<p>bizirik gauden artean,</p>
+<p>etsaien mende gelditu ba&ntilde;o</p>
+<p>ill obe da gurutzean!</p>
+<p><hi rend='Bold'>ZARA </hi><hi rend='Italic'>(maltzur)</hi>:</p>
+<p>Orixe bera gogoraturik</p>
+<p>onera netorrenian</p>
+<p>asnas'artzeko betarik gabe</p>
+<p>ibilli naiz gau guzian.</p>
+<p><hi rend='Bold'>TXONDAR:</hi></p>
+<p>Aldezu armik?</p>
+<p><hi rend='Bold'>ZARA </hi><hi rend='Italic'>(erakutsiaz)</hi>:</p>
+<p>Ara konkordun</p>
+<p>aritz-makilla nik emen,</p>
+<p>Leitzalarreko baso beltzean</p>
+<p>aukeraz ebaki nuen.</p>
+<p><hi rend='Bold'>TXONDAR:</hi></p>
+<p>Egoki zatoz.</p>
+<p><hi rend='Bold'>AIZKOLARIK:</hi></p>
+<p>Irmu ta jator.</p>
+<p><hi rend='Bold'>ZARA:</hi></p>
+<p>Eraso nai det lenbailen,</p>
+<p>Zer gai arrotzek izan lezake</p>
+<p>makill onek ainbat almen?</p>
+<p><hi rend='Bold'>Irugarren irudia</hi></p>
+<p><hi rend='Italic'>-e-Lengoak eta Erko</hi></p>
+<p><hi rend='Bold'>ERKO </hi><hi rend='Italic'>(Zara-ri)</hi>:</p>
+<p>Errai beltz dezun inpernutarra</p>
+<p>nola zerade onuntz bildu;</p>
+<p>nola zure gai&ntilde; ez dira, Zara,</p>
+<p>tontor guziyak amildu?</p>
+<p><hi rend='Bold'>TXONDAR </hi><hi rend='Italic'>(arriturik)</hi>:</p>
+<p>Zer entzuten det?</p>
+<p><hi rend='Bold'>ERKO:</hi></p>
+<p>Gizon au, Txondar,</p>
+<p>Lauburu-pean ez artu,</p>
+<p>onen eskuak Mutilleder-en</p>
+<p>odolez dira gorritu.</p>
+<p><hi rend='Bold'>ZARA </hi><hi rend='Italic'>(larriro)</hi>:</p>
+<p>Aldendu zaite!</p>
+<p><hi rend='Bold'>ERKO:</hi></p>
+<p>Alperrik zabiltz</p>
+<p>eskutatzeko asmoan;</p>
+<p>naiz ori gerta ez legoke bein</p>
+<p>pakerik zure kolkoan.</p>
+<p><hi rend='Bold'>TXONDAR:</hi></p>
+<p>Lelo-k zer egin agindu arte</p>
+<p>t'ez dedin igesi joan</p>
+<p>legautsari au sar dezazue</p>
+<p>beeko azari-zuloan.</p>
+<p><hi rend='Italic'>-e-(Eramaten dute aizkolarien tartean t'oyekin batez joango da Erko).</hi></p>
+<p><hi rend='Bold'>Laugarren irudia</hi></p>
+<p><hi rend='Bold'>GAU-OTOITZA</hi></p>
+<p><hi rend='Italic'>-e-(Barrendik. Gero ta bertarago entzungo balitz bezela).</hi></p>
+<p>Sasoi da eta urbil gaitean</p>
+<p>otoitz-mendira</p>
+<p>guraso zarren obi dontsuak</p>
+<p>dauden tokira,</p>
+<p>oiek illargi bete-beteaz</p>
+<p>argitu dira</p>
+<p>t'ari begira</p>
+<p>bigal ditzagun eresi denak</p>
+<p>zeru garbira.</p>
+<p><hi rend='Italic'>-e-(Azaltzen dira Lelo, Itur eta gudarik. Itur igotzen da aritz-ondoko arkaitz ga&ntilde;era illargia goratzen ari dan batez).</hi></p>
+<p><hi rend='Bold'>ITUR </hi><hi rend='Italic'>(illargia-ri begira)</hi>:</p>
+<p>Ongi etorri gabiro ederren</p>
+<p>koroi zeran illargia,</p>
+<p>agur zaitugu Jaungoikoaren</p>
+<p>zeruko mandataria!</p>
+<p>Iraupen luzez erakutsirik</p>
+<p>musu borobill aundia</p>
+<p>zelai, baso ta mendietara</p>
+<p>betor, betor zure argia!</p>
+<p>Guri begira pozkidaz Aitor</p>
+<p>ber-bera dagon auskia,</p>
+<p>agertz alai ta betea dezun</p>
+<p>illargi zoragarria...</p>
+<p>eman deiguzu, eman deiguzu</p>
+<p>garaimenaren saria!</p>
+<p><hi rend='Bold'>GUDARI-TALDEA </hi><hi rend='Italic'>(illargiari)</hi>:</p>
+<p>Jaun-Egilleak bigaldu zaitu</p>
+<p>guregan, auski zintzoa,</p>
+<p>erra&ntilde;u leunaz adiaztera</p>
+<p>albiste goienekoa.</p>
+<p>Ongi etorri, eman deiguzu</p>
+<p>bigar garaimen osoa!</p>
+<p><hi rend='Bold'>ITUR:</hi></p>
+<p>Doatsua milla bider</p>
+<p>goiturik biotz t'adia</p>
+<p>paketasuna kantatzen</p>
+<p>ari dan koblakaria;</p>
+<p>ba&ntilde;an aitu da lurrean</p>
+<p>pakezko egoitz-aldia,</p>
+<p>ez du gizon berekoyak</p>
+<p>maite nai aren zoria.</p>
+<p>Aritzaren kerizpean</p>
+<p>jayo geran euskaldunak,</p>
+<p>lanbide onetik datorren</p>
+<p>bizitza gura degunak,</p>
+<p>zalazten gaitu berriro</p>
+<p>arrotzen likistasunak;</p>
+<p>berriro zantsoka datoz</p>
+<p>urrun-tar kopet-illunak.</p>
+<p>O, Lelo! zure dearrak</p>
+<p>adierazo du agitz</p>
+<p>ta euskaldun jator guzien</p>
+<p>irrintzik oyarka dabiltz.</p>
+<p>Gelditu bedi Octaviano</p>
+<p>lotsetan bigarren aldiz;</p>
+<p>Aitor-ek bere laguntza</p>
+<p>eman derizula berriz.</p>
+<p><hi rend='Italic'>-e-(Lelo-k makurtzen du burua, aizkora daukan besoa luzatuaz).</hi></p>
+<p><hi rend='Bold'>LELO:</hi></p>
+<p>Ez naiz, ez, odol ixuri zale,</p>
+<p>ez nago gri&ntilde;az jantzia,</p>
+<p>eripetzen det barren-barrendik</p>
+<p>gizonen zitalkeria.</p>
+<p>Ta ni bezela berez izanik</p>
+<p>euskaldun nekazaria</p>
+<p>suarki ba&ntilde;a mi&ntilde;ez du beti</p>
+<p>entzun guda-karrasia.</p>
+<p><hi rend='Bold'>GUDARI-SAILL BATEK:</hi></p>
+<p>Guk nai ez arren etsai dollorrak</p>
+<p>ontara beartzen gaitu,</p>
+<p>pizti-tzar ori gizalegean</p>
+<p>ezin be&ntilde;ere jarraitu.</p>
+<p><hi rend='Bold'>LELO:</hi></p>
+<p>Anaitasunez elkarri lagun</p>
+<p>egitea beste asmorik</p>
+<p>ez dun emengo baserritarrak,</p>
+<p>aldakar i&ntilde;oren gaitzik?</p>
+<p>Zertako datoz ixkanbill garrats</p>
+<p>oriek Tiber-aldetik;</p>
+<p>arrano beltza zertako dabill</p>
+<p>neke gaiztoau alperrik,</p>
+<p>ezpadu i&ntilde;olaz egingo gure</p>
+<p>arkaitz burutan kabirik?</p>
+<p><hi rend='Bold'>BESTE GUDARI-SALLA:</hi></p>
+<p>Gizonentzat gai osagarria</p>
+<p>lurrak eman nai ugari,</p>
+<p>gizonak berriz lurran ga&ntilde;ean</p>
+<p>jazarka buru-belarri.</p>
+<p>Euskalduari</p>
+<p>bere muga utzi,</p>
+<p>Jaunak eman zion</p>
+<p>lur au sorterri.</p>
+<p><hi rend='Bold'>LELO:</hi></p>
+<p>Baserrietan gelditzen dira</p>
+<p>zuen emazte txintxoak</p>
+<p>guk ba&ntilde;o leno zantsoen otsa</p>
+<p>nabaitu zuen gajoak;</p>
+<p>baserrietan ume ta zarrak,</p>
+<p>bakardadean basoak,</p>
+<p>mendiyak mutu, txondar denak soill</p>
+<p>t'izerdi gabe soroak.</p>
+<p>Egun txintaren garayaz bigar</p>
+<p>bagoaz denok urruti</p>
+<p>t'ordu artean lotara zoazte,</p>
+<p>atseden on bat iduki.</p>
+<p>Maitagarri-ren ego bigunak</p>
+<p>zuen betazal gai&ntilde; aurki</p>
+<p>jausiko dira. Gabon, gabon!</p>
+<p><hi rend='Bold'>DENAK:</hi></p>
+<p>Gabon, gabon! Gau eder ontan</p>
+<p>Maitagarri</p>
+<p>ametsen jabe</p>
+<p>izan bedi.</p>
+<p>Bigar Basojaun</p>
+<p>ta gaur ori</p>
+<p>guretzat dira</p>
+<p>laguntzari</p>
+<p>Gabon, gabon,</p>
+<p>loa betor</p>
+<p>osagarri!</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>IRUGARREN EGINTZA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Italic'>-e-Iruditegiak aurkeztatzen du arkaitz zulo aundi bat.</hi></p>
+<p><hi rend='Bold'>Lenengo irudia</hi></p>
+<p><hi rend='Italic'>-e-(Agertzen da Zara baxter batean exerita eskuaz kopetari eusten diola. Entzuten da gudara dijoazen jazarlarien kantua).</hi></p>
+<p><hi rend='Bold'>GUDARI BATZUEK </hi><hi rend='Italic'>(barrendik)</hi>:</p>
+<p>Utzirik emen euskal-menditan</p>
+<p>onez arki zan pakea</p>
+<p>bagoaz beera</p>
+<p>urrun aldera</p>
+<p>gudari-talde gaztea</p>
+<p>Agur Erniyo! luzetzi gabe</p>
+<p>gure zai egon zaitea,</p>
+<p>laister gera emen</p>
+<p>goiturik gallen</p>
+<p>jeistera goazen bidea.</p>
+<p>O, sorterriya! ez dezu izango</p>
+<p>itxogi&ntilde;-aldi luzea!</p>
+<p><hi rend='Bold'>BESTE GUDARIK:</hi></p>
+<p>Bitarte ontan emakumeak</p>
+<p>jardun bitez aurrairi lo</p>
+<p>egi&ntilde;-erazten bular sendoaz</p>
+<p>aur oiek ase ta gero.</p>
+<p>Ala berian</p>
+<p>txabol zarrian</p>
+<p>aiton sorra lasai bego;</p>
+<p>mendi-mutillak ernai goaz ta</p>
+<p>gure buruzari, Lelo,</p>
+<p>Lelo, Lelo, Lelo,</p>
+<p>zure di&ntilde;'ez</p>
+<p>ogei mill'arrano.</p>
+<p>Etsai zitala: askoz obe dek</p>
+<p>onuntz inguratu ba&ntilde;o</p>
+<p>ekarri dekan bidea berriz</p>
+<p>alik laisterren igaro!</p>
+<p>Abil, abill!, ire zankotan</p>
+<p>indarrik baldin badago</p>
+<p>soi&ntilde;-burni oiek erantzi eta</p>
+<p>itzul ari, Octaviano.</p>
+<p><hi rend='Bold'>LELO:</hi></p>
+<p>Atxur ta layen ordez arturik</p>
+<p>kirten sendodun aizkora</p>
+<p>Erromatarrak purrukatzeko</p>
+<p>iritxi zaigu denbora.</p>
+<p>Ekaitz guzien indartasunez</p>
+<p>besoak astinduz gora</p>
+<p>txistuka ziur aizkoren ertzak</p>
+<p>bijoaz aien lepora.</p>
+<p><hi rend='Bold'>DENAK:</hi></p>
+<p>Omen, omen! gure omengarri</p>
+<p>izan bedi</p>
+<p>isuriko dan odola! <hi rend='Italic'>(Ixiltzen dira)</hi></p>
+<p><hi rend='Bold'>ZARA </hi><hi rend='Italic'>(jeikiaz)</hi>:</p>
+<p>Nere ustean obe biarrez</p>
+<p>gorde-lekura netorren,</p>
+<p>t'esango nuke alegi&ntilde; ontan</p>
+<p>alperrik ote nabillen.</p>
+<p>Zori makurra sayatutzia</p>
+<p>igeska bat nor beraren,</p>
+<p>eriotzaren itzala beti</p>
+<p>erailleak bere ondoren.</p>
+<p>Ez det zi&ntilde;isten <hi rend='Italic'>(baiez aundian)</hi></p>
+<p>ez det zi&ntilde;isten,</p>
+<p>sorgi&ntilde;ak ala esan arren,</p>
+<p>agindutako sari on ura</p>
+<p>arki nezakenik emen!...</p>
+<p>Ordu latz izugarriak,</p>
+<p>egun illunak</p>
+<p>ipintzen dizkit aurrean</p>
+<p>ekorkizunak.</p>
+<p>Gezurrezko itzak ziran bart</p>
+<p>Muski&ntilde;-i entzunak,</p>
+<p>madarikatu nau bere</p>
+<p>sorgintasunak!</p>
+<p>Bildur naiz Tota-n jabe</p>
+<p>egin bearrean</p>
+<p>amilduko ote naizen</p>
+<p>betiko illunpean.</p>
+<p>Lozorroaz bezela</p>
+<p>neri gaur gaubean</p>
+<p>ager zaizkit oroitzak</p>
+<p>irudimenean.</p>
+<p>Zoazte itzuri,</p>
+<p>ez gaur ibilli</p>
+<p>nere gogoan!</p>
+<p>Zoazte laister edo eriotza</p>
+<p>betor beingoan!</p>
+<p>Leiza-zulotik amildu eta</p>
+<p>naigo det gero an</p>
+<p>illotzik arki</p>
+<p>t'ez orla bizi</p>
+<p>zorigaiztoan</p>
+<p>egun eta gau nere animako</p>
+<p>leiza-zuloan.</p>
+<p><hi rend='Bold'>Bigarren irudia</hi></p>
+<p><hi rend='Italic'>-e-Zara ta Goiti</hi></p>
+<p><hi rend='Bold'>GOITI:</hi></p>
+<p>Biotz on baten leyaltasuna</p>
+<p>adizkigarri</p>
+<p>zenbatera&ntilde;o iritxi leiken</p>
+<p>i&ntilde;ork ez daki.</p>
+<p>Mutilleder-en agintzaz da bat</p>
+<p>onuntz etorri</p>
+<p>jaki&ntilde;aztera barkatu egin</p>
+<p>dizula zuri.</p>
+<p><hi rend='Bold'>ZARA </hi><hi rend='Italic'>(alaituaz):</hi></p>
+<p>Aldi gaiztoen orduak beraz</p>
+<p>amaitu dira?</p>
+<p><hi rend='Bold'>GOITI:</hi></p>
+<p>Irten zi&ntilde;ezke noiznai emendik</p>
+<p>zabaldegira.</p>
+<p><hi rend='Bold'>ZARA:</hi></p>
+<p>Noan, noan gau illun ontatik</p>
+<p>egun berrira,</p>
+<p>urdintasunez jazten ari dan</p>
+<p>marboill aundira.</p>
+<p>Errai beltz oiek utzi ta noan,</p>
+<p>noan argira!</p>
+<p><hi rend='Bold'>Irugarren irudia</hi></p>
+<p><hi rend='Italic'>-e-(Lengo zapi-laburra <foreign>(tel&oacute;n corto) </foreign>igo ta azaltzen da Totan bizitza. Tota lo dago. Alboratzen zaio andre Muski&ntilde; ixil-ixillik, ta aren bekokian zi&ntilde;u batzuk egi&ntilde;ik eskutatzen da algara izugarriaz).</hi></p>
+<p><hi rend='Bold'>TOTA </hi><hi rend='Italic'>(amets gaizto batetik esnatuko balitz bezela)</hi>:</p>
+<p>Nor zan, nork egin du</p>
+<p>lengo algara?</p>
+<p>O, zer dakust? <hi rend='Italic'>(Zara ikusirik)</hi></p>
+<p>Zara, Zara!</p>
+<p>nundik zatoz</p>
+<p>neregana?</p>
+<p><hi rend='Bold'>ZARA </hi><hi rend='Italic'>(maitetsu)</hi>:</p>
+<p>Entzun, Tota, aditu nere</p>
+<p>albistea,</p>
+<p>kendu zait orain barrengo</p>
+<p>naigabea.</p>
+<p><hi rend='Bold'>TOTA:</hi></p>
+<p>Esan, esan!</p>
+<p><hi rend='Bold'>ZARA:</hi></p>
+<p>Neketan igaro arren</p>
+<p>gau luzea</p>
+<p>beronek zekar ondoren</p>
+<p>goiz obea.</p>
+<p>Jaunari ezker Mutilleder</p>
+<p>ongillea</p>
+<p>sendatu da t'otoi dagit</p>
+<p>egindea.</p>
+<p>Bere erru zan nik ain gogor</p>
+<p>ekitea;</p>
+<p>ez naiz, Tota, ez naiz gizon</p>
+<p>iltzallea.</p>
+<p><hi rend='Bold'>TOTA </hi><hi rend='Italic'>(limurki)</hi>:</p>
+<p>Biotz on leyal ori</p>
+<p>ezin diteke</p>
+<p>legautsari batena</p>
+<p>izan be&ntilde;ere.</p>
+<p>Zi&ntilde;isten det, zi&ntilde;isten,...</p>
+<p>bakoitzak bere</p>
+<p>ixpillua begitan...</p>
+<p>O, Tota, zure</p>
+<p>itz eder oiek pozaz</p>
+<p>ipi&ntilde;i naute!</p>
+<p>Zu zera nere</p>
+<p>gau illuneko izarra,</p>
+<p>ta ni zu gabe</p>
+<p>negarrez bizi ba&ntilde;o...</p>
+<p><hi rend='Bold'>TOTA </hi><hi rend='Italic'>(zer gerta zaion ezdakila)</hi>:</p>
+<p>Ai, Zara! Egunda&ntilde;o</p>
+<p>zuri entzun arte</p>
+<p>ez naiz orla zorion</p>
+<p>ta kezkaz bete.</p>
+<p>Biotzak alaz guziz</p>
+<p>nayago luke</p>
+<p>bertan amoriyozko</p>
+<p>loreaz erne:</p>
+<p>ixildu bear ba&ntilde;a...</p>
+<p>ezin det gorde.</p>
+<p><hi rend='Bold'>ZARA </hi><hi rend='Italic'>(eztiro)</hi>:</p>
+<p>Arbolak bere ostoa</p>
+<p>i&ntilde;olaz ere</p>
+<p>aizerik ez dagola</p>
+<p>mugi elezake;</p>
+<p>ala gu biyok, Tota,</p>
+<p>zori ortan gaude</p>
+<p>zeruetako ipar</p>
+<p>gozoen mende.</p>
+<p>Uso maitagarriya!</p>
+<p>erruki zaite,</p>
+<p>egin zazu biotz au</p>
+<p>zurean jabe.</p>
+<p>Atoz!, nere besotan... <hi rend='Italic'>(arenganduaz)</hi></p>
+<p><hi rend='Bold'>TOTA </hi><hi rend='Italic'>(iges egin nayaz bezela)</hi>:</p>
+<p>Zara, Zara! Ene!</p>
+<p>Zer gerta zait? Zoazkit;</p>
+<p>ez, ez... zaude...! <hi rend='Italic'>(Zara-gan biurtuaz)</hi></p>
+<p>atsegin denak betoz</p>
+<p>gure bitarte!</p>
+<p><hi rend='Bold'>ROMANTZA</hi></p>
+<p><hi rend='Bold'>ZARA:</hi></p>
+<p>Iturri leun garbi ontan</p>
+<p>O, kutun zoragorriya!</p>
+<p>anima gaxo eritu batek</p>
+<p>ase du bere egarriya.</p>
+<p>Orain, Tota, zure alboan</p>
+<p>bizitz eder pozgarriya</p>
+<p>igaroko det gordeaz</p>
+<p>bi biotz oien kabiya,</p>
+<p>Untzak maita dun bezela</p>
+<p>arkaizti onen gerriya</p>
+<p>maiteko zaitut emanaz</p>
+<p>doatsutasun guziya,</p>
+<p>Mirabe aingerutiya,</p>
+<p>erregi&ntilde; goitik jetxiya,</p>
+<p>gaurtandikan izango da</p>
+<p>untz eta lorez jantziya,</p>
+<p>zure jarkoi, Mendikute,</p>
+<p>koroi berriz, eguzkiya!</p>
+<p><hi rend='Bold'>TOTA:</hi></p>
+<p>Itz bakoitzean zuk ainbat</p>
+<p>argitasun dariyona</p>
+<p>kupi det ain kupigarri</p>
+<p>arrats osuan egona.</p>
+<p>Entzunik orren eztiro</p>
+<p>zure biotzak diyona</p>
+<p>ez nuke esango zeranik</p>
+<p>lurbir'ontako gizona.</p>
+<p>Artu dezazu, artu Zara,</p>
+<p>nere kolkuan dagona,</p>
+<p>maite zaitudan ezkero</p>
+<p>bat egin zagun biyona</p>
+<p>emanaz elkarri</p>
+<p>zorion ugari,</p>
+<p>illargi bete-beteaz</p>
+<p>eman genezakiona.</p>
+<p><hi rend='Bold'>BIYAK ELKARRI:</hi></p>
+<p>Gure kate biguna</p>
+<p>Jaunak emen beau</p>
+<p>azkatu eta berriz</p>
+<p>zeru zabalean</p>
+<p>are bigunkiago</p>
+<p>lotu bitartean</p>
+<p>limurtasun gozoaz</p>
+<p>maitatu gaitean.</p>
+<p><hi rend='Italic'>O, biotz on ederra!</hi></p>
+<p><hi rend='Italic'>Goi-argien arreba!</hi></p>
+<p>zu gabe lurrean</p>
+<p>enitzake biziko</p>
+<p>denbora luzean.</p>
+<p><hi rend='Italic'>Nere amets urdi&ntilde;a!</hi></p>
+<p><hi rend='Italic'>Nere poz t'atsegi&ntilde;a!</hi></p>
+<p>beti aldamenean</p>
+<p>bizi gaitezen biyok</p>
+<p>mendi magalean,</p>
+<p>Erniyoko pagadi</p>
+<p>gereitsuenean.</p>
+<p>Arki gaitean beti</p>
+<p>beti aldamenean!</p>
+<p><hi rend='Bold'>Baugarren irudia</hi></p>
+<p><hi rend='Italic'>-e-Lengoak eta Goiti</hi></p>
+<p><hi rend='Bold'>GOITI:</hi></p>
+<p>Irrintz alayak, irrintz alayak</p>
+<p>tontorrik-tontor!</p>
+<p>Garait-otsa da mendi ga&ntilde;etan!</p>
+<p>Lelo badator!</p>
+<p>Onen bidera banoa, Tota,</p>
+<p>albezin pizkor,</p>
+<p>zartu naiz ba&ntilde;an ez dira nere</p>
+<p>indar guzik sor.</p>
+<p>Lur ontan Lelo gure zaindari,</p>
+<p>t'an goyan, Aitor! <hi rend='Italic'>(joaten da Izar utzita)</hi></p>
+<p><hi rend='Bold'>TOTA </hi><hi rend='Italic'>(Irudiak berak erakusten duan bezela)</hi>:</p>
+<p>Errukarri naiz!</p>
+<p><hi rend='Bold'>ZARA:</hi></p>
+<p>Basora goazen!</p>
+<p><hi rend='Bold'>TOTA:</hi></p>
+<p>Lelo gaxua, Lelo maitia!</p>
+<p><hi rend='Bold'>ZARA:</hi></p>
+<p>Tota, ez itxogi&ntilde;;</p>
+<p>irten gaitean emendik azkar,</p>
+<p>atoz nerekin!</p>
+<p><hi rend='Bold'>Bosgarren irudia</hi></p>
+<p><hi rend='Italic'>-e-Azaltzen da Lelo</hi></p>
+<p><hi rend='Bold'>TOTA:</hi></p>
+<p>Lelo, nere Lelo!</p>
+<p><hi rend='Italic'>-e-(Bitarte ontan erasotzen dio Zara-k Lelo-ri ta iltzen du).</hi></p>
+<p><hi rend='Bold'>ZARA </hi><hi rend='Italic'>(larriro)</hi>:</p>
+<p>Tota, Tota; aldegin zagun!</p>
+<p><hi rend='Italic'>-e-(Joaten dira biyak aurreko zapiya jeisten ari dan batean).</hi></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>LAUGARREN EGINTZA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Italic'>-e-Bigarren egintzako iruditegi bera.</hi></p>
+<p><hi rend='Bold'>ERESIA</hi></p>
+<p><hi rend='Bold'>DENAK </hi><hi rend='Italic'>(barrendik)</hi>:</p>
+<p>Illoztu zaigu Lelo,</p>
+<p>ill buruzaria,</p>
+<p>Lelo-n galdezka dago</p>
+<p>bere sorterria!;</p>
+<p>ura gabe zurtz emen</p>
+<p>arkirik guzia</p>
+<p>erreka zakon eta</p>
+<p>mendi-goi tentia</p>
+<p>negartzen ari dira</p>
+<p>Lelo-n ilberria.</p>
+<p>Arindu iguzu bada,</p>
+<p>jaun oz-tar aundia!,</p>
+<p>penaz eztali gaitun,</p>
+<p>odoi beltz nagia!</p>
+<p>Gugaz kupitu zeran</p>
+<p>adierazia</p>
+<p>eman, eman pizturik</p>
+<p>zeruko uztargia.</p>
+<p>Bidaldu iguzu andik</p>
+<p>Lelo-n par-irria!</p>
+<p><hi rend='Bold'>ERABAKIZALEEN BATZ'ALDIA</hi></p>
+<p><hi rend='Italic'>-e-(Eresia abestu ondoren azalduko dira Sudun ta Txondar beren gudari ta erriko aitonen aurretik. Azken, Tota ta Zara. Oiek, bakoiza bere aldean jarririk egongo dira Sudun-en aurrez beste guziez inguratuak).</hi></p>
+<p><hi rend='Bold'>SUDUN </hi><hi rend='Italic'>(aserre. Tota ta Zara-ri)</hi>:</p>
+<p>Ezin zi&ntilde;eztu leiken eginde</p>
+<p>lotsagarri batez orain</p>
+<p>bizitz illunen goibeltasuna</p>
+<p>eralkitu da zuen gain.</p>
+<p>Lelo-rengan, O! zer burutasun</p>
+<p>euki dezute zuek ain</p>
+<p>erru gaiztoaz ari emateko</p>
+<p>zorigaitza laguntz ordain?</p>
+<p>Biotz gabeak!, loikeri orrek</p>
+<p>euskeraz izenik ez du</p>
+<p>ta nik ez dakit zenbatera&ntilde;o</p>
+<p>zuenak madarikatu;</p>
+<p>ez neike bada be&ntilde;ere Lelo-n</p>
+<p>erailleagaz kupitu.</p>
+<p><hi rend='Bold'>TXONDAR:</hi></p>
+<p>Ongi diyozu; gaur zeran ba&ntilde;o</p>
+<p>obetogo ezin jardun,</p>
+<p>eskergabeak elezateke</p>
+<p>eripena baizik entzun.</p>
+<p>Alaz guziyaz, il zan maite ark,</p>
+<p>gogoratu zaite, Sudun!</p>
+<p>azken orduan oieri nola</p>
+<p>barkatzeko esan zigun.</p>
+<p>Aren esana begiramenaz,</p>
+<p>oroiturik egin zagun.</p>
+<p><hi rend='Bold'>SUDUN:</hi></p>
+<p>Ezagun dezu Lelo-ren</p>
+<p>alde jator bat zerala,</p>
+<p>badirurite itz oiek</p>
+<p>zerutik jetxi dirala;</p>
+<p>egoki datoz, O, Txondar,</p>
+<p>biotz aundi ta leyala!,</p>
+<p>ba&ntilde;an agintz ortarako</p>
+<p>nik ere nai arren ala,</p>
+<p>eskubiderik ez du i&ntilde;ork</p>
+<p>gure batz onek ezpada,</p>
+<p>t'orain bere iritzia</p>
+<p>emango du bereala.</p>
+<p><hi rend='Italic'>(aiton billera-ri)</hi></p>
+<p>Barkatzen aldiezute</p>
+<p>ergal oieri bizia?</p>
+<p><hi rend='Bold'>AITON DENAK:</hi></p>
+<p>Egin bedi, egin bedi</p>
+<p>Lelo-ren borondatia!</p>
+<p><hi rend='Bold'>SUDUN </hi><hi rend='Italic'>(Zara ta Tota-ri)</hi>:</p>
+<p>Legez ta bidez pistien jankai</p>
+<p>izan bear zendutenak</p>
+<p>entzun dezue zer ta zergatik</p>
+<p>ezetz dion zar-billerak.</p>
+<p>Bizirik uzten zaituegu ta</p>
+<p>bizitz illun orrek berak</p>
+<p>zuenganatu bitza gaurtandik</p>
+<p>eripen-ordu latzenak.</p>
+<p>Lur garbi onek eztu gorde nai,</p>
+<p>ez du nai estali ezur likitsik,</p>
+<p>eta oraintxe bertan gure mugetatik</p>
+<p>urrun bazoazteke, doakabeak!</p>
+<p>t'ill artera&ntilde;o gau t'egun</p>
+<p>gorrotoaren eraunsi beltza</p>
+<p>izan bedi zuen lagun.</p>
+<p><hi rend='Bold'>ZARA </hi><hi rend='Italic'>(gogorki)</hi>:</p>
+<p>Zuen odol zale ta</p>
+<p>izango naiz arrotz;</p>
+<p>laister entzungo da emen</p>
+<p>nere zantsoen ots</p>
+<p>errakoya!</p>
+<p><hi rend='Bold'>SUDUN:</hi></p>
+<p>Zoazte!</p>
+<p><hi rend='Bold'>ZARA </hi><hi rend='Italic'>(Tota-ri)</hi>:</p>
+<p>Atoz!</p>
+<p><hi rend='Bold'>TOTA </hi><hi rend='Italic'>(errukarri)</hi>:</p>
+<p>Doakabe naiz!</p>
+<p>Otoi, otoi!</p>
+<p><hi rend='Italic'>-e-(Joaten dira biyak. Tota-k ille mordoa erdi banatua eukiko du).</hi></p>
+<p><hi rend='Bold'>SUDUN:</hi></p>
+<p>Aitormendiko pagadi zarra:</p>
+<p>zure lurpean Lelo-ri</p>
+<p>atseden on bat eman zayozu,</p>
+<p>atseden bere so&ntilde;ari!</p>
+<p>Goazen basora; oroitz loreaz</p>
+<p>ernetu bei Aitormendi!</p>
+<p><hi rend='Italic'>-e-(Goititz oiek abestu bear dira &laquo;Azken-Abestia&raquo;-n aurretik, eskutatzen dijoazen bitartean).</hi></p>
+<p><hi rend='Bold'>AZKEN-ABESTIA</hi></p>
+<p><hi rend='Bold'>GUZIAK </hi><hi rend='Italic'>(barrendik)</hi></p>
+<p>Lelo, Lelo, il Lelo</p>
+<p>Zara-k il Leloa;</p>
+<p>Zara-kin Tota, biyak</p>
+<p>elkartze gaiztoa.</p>
+<p>Igeska dabiltz, etsai</p>
+<p>dute lur osoa,</p>
+<p>etsai, etsai sortitza,</p>
+<p>aserre Jainkoa.</p>
+<p>Berengan mendiz-mendi</p>
+<p>Lelo-ren gogoa</p>
+<p>aiez madarikatzen</p>
+<p>oyarka dijoa.</p>
+<p>O, Lelo, euzkotarren</p>
+<p>esnale beroa!</p>
+<p>zu gabe illun ta mutu</p>
+<p>aizpeko basoa.</p>
+<p>Lelo, Lelo, il Lelo,</p>
+<p>Zara-k il Leloa;</p>
+<p>Goyen Lelo-k iraupen</p>
+<p>beti-betikoa!</p>
+<p><hi rend='Italic'>-e-(Abesti au amaitu ba&ntilde;o lentxeago sortzen da oztadar edo uztargia).</hi></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>AZKEN-ZATIYA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Italic'>-e-(Azken-Abesti ondoren jasorik lengo zapiya, iruditegiak aurkeztatzen du erreka zakon illun bat, bere aitz aundien tartetik uramildea balijoaken antzera. Gainkaldean egurrezko zubi zar bat. Urrutira mendi basatiak).</hi></p>
+<p><hi rend='Bold'>ZARA </hi><hi rend='Italic'>(aitz ga&ntilde;etik zubira dijoan bidean)</hi>:</p>
+<p>Etsai daruzkat zeru ta lurra,</p>
+<p>indarrak labur, biotza larri,</p>
+<p>gogua lauso, betillun;</p>
+<p>lengo sorgi&ntilde;en otsa berriro</p>
+<p>erruz darabil gau t'egun.</p>
+<p>Birau t'algaraz eriotz-ardall</p>
+<p>izugarriya besterik</p>
+<p>ergai latz ontan ezdatorkigu,</p>
+<p>ezdatorkigu i&ntilde;undik.</p>
+<p>Ekaitz orroa,</p>
+<p>sortze gaiztoa,</p>
+<p>itzuli zaite nigandik!</p>
+<p><hi rend='Italic'>(Zubi-ga&ntilde;etik ur-bitzari begira)</hi></p>
+<p>Begira nagon iturburuko</p>
+<p>lats arro t'amilkaria!:</p>
+<p>esku nereak zure aparretan</p>
+<p>garbitutzeko zoria</p>
+<p>emanik orain, kendu zaidazu</p>
+<p>odolezko orban guzia!</p>
+<p><hi rend='Italic'>(Ergai ontan ekaitza sortzen dan batez izaten du Zara-k agertzirudi galgarria, t'eskutatzen da larriro, esanaz):</hi></p>
+<p>Basojaun, Basojaun!</p>
+<p><hi rend='Bold'>TOTA </hi><hi rend='Italic'>(barrendik)</hi>:</p>
+<p>Bizitz ontatik nere</p>
+<p>anima gaxoa</p>
+<p>Jauna, zure bitartez</p>
+<p>Lelo-gan bijoa!</p>
+<p><hi rend='Bold'>SORGI&Ntilde;AK </hi><hi rend='Italic'>(barrendik)</hi>:</p>
+<p>Uju, ju, ju,</p>
+<p>ja, ja, ja, ja!</p>
+<p>Lelo, Lelo, il Lelo,</p>
+<p>Zara-k il Leloa!</p>
+<p><hi rend='Bold'>TOTA </hi><hi rend='Italic'>(Aitzpetik azalduaz. So&ntilde;ekua erdi urratuba t'ille mordoa zintzilik txoro baten eraz)</hi>.</p>
+<p>Nora nua? Ba&ntilde;an gaur...</p>
+<p><hi rend='Italic'>(Ikusiko balu bezela)</hi></p>
+<p>zer naiz? Zara, Zara!</p>
+<p>sortze gaiztozko nere</p>
+<p>galgarri zerana,</p>
+<p>zoaz aldamenetik,</p>
+<p>zoazkit!, itzuli!...</p>
+<p>Zer nabil ta nun nago,</p>
+<p>zer istillu larri</p>
+<p>goibeltasun aroaz</p>
+<p>datorkit, ai, neri?</p>
+<p>Lelo-k ere an goitik</p>
+<p>oztots izugarri</p>
+<p>batez bere aserrean</p>
+<p>madarikatu ni.</p>
+<p>Lelo, Lelo illotzik, <hi rend='Italic'>(belauniko) </hi></p>
+<p>ni berriz ain bakar;</p>
+<p>Arren! kupitu zaite,</p>
+<p>itxaron bat eman;</p>
+<p>entzun anima gaso</p>
+<p>t'aul baten deadar</p>
+<p>errukarria! Lelo,...</p>
+<p>zorionik ez daukat</p>
+<p>il zi&ntilde;an ezkero!</p>
+<p>Otoi Lelo maitia,</p>
+<p>otoi, Lelo,... Lelo,... Lelo!</p>
+<p><hi rend='Italic'>-e-(Azkenengo itz-neurtua esaten ari danean zutik jarri nai luke, ba&ntilde;an erortzen da luze-luze aitz ga&ntilde;era estal-zapiya jeisten ari dan bitartean; entzungo da berriro ekaitza sorgi&ntilde;-otsakin batez).</hi></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><mentioned>Iturburua: &laquo;Nere bidean&raquo;, Emeterio Arrese. E. Lopez, 1913</mentioned></p>
+        </body>
+      </text>
+    </group>
+  </text>
+</TEI.2>
+

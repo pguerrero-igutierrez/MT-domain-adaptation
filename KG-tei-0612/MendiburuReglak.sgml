@@ -1,0 +1,771 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN"
+                       "http://www.tei-c.org/P4X/DTD/tei2.dtd" [
+   <!ENTITY % TEI.prose    'INCLUDE' >
+   <!ENTITY % TEI.linking  'INCLUDE' >
+   <!ENTITY % TEI.analysis 'INCLUDE' >
+   <!ENTITY % TEI.figures  'INCLUDE' >
+   <!ENTITY % TEI.XML      'INCLUDE' >
+   <!ENTITY % TEI.extensions.ent SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.ent' >
+   <!ENTITY % TEI.extensions.dtd SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.dtd' >
+]>
+<TEI.2>
+  <teiHeader>
+  <fileDesc>
+     <titleStmt>
+        <title>Jesusen Bihotzaren Kongregazioko reglak</title>
+        <author>Sebastian Mendiburu</author>
+        <respStmt>Bertsio elektroniko honen egilea: Ales Bengoetxea.</respStmt>
+     </titleStmt>
+     <extent>10.838 hitz, 76.315 karaktere</extent>
+     <publicationStmt>
+        <publisher>Klasikoen Gordailua [http://klasikoak.armiarma.com/]</publisher>
+        <distributor>Estrata Liburuak S.L.</distributor>
+        <address type='email'>klasikoak@armiarma.com</address>
+        <idno type='ota'>MendiburuReglak</idno>
+        <availability status='free'>Erabilpen librekoa; honoko helbidean topa daiteke (HTML, RTF eta PDF formatuetan): http://klasikoak.armiarma.com/idazlanak/M/MendiburuReglak.htm</availability>
+        <date>2006</date>
+     </publicationStmt>
+     <sourceDesc>
+        <bibl>Iturria: Jesusen Bihotzaren devocioa, Sebastian Mendiburu. Pedro Joseph Ezquerro, 1751</bibl>
+        <notesStmt><note>Iturburuen datazioa: 1751</note></notesStmt>
+     </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+     <projectDesc>Euskal literaturako testu klasikoen bilduma da KLASIKOEN GORDAILUA; testu hau berorren parte da</projectDesc>
+     <refsDecl>
+        <p>MENTIONED etiketa egilearenak ez diren hitzak markatzeko erabili da: hitzaurreak, aipuak, iruzkinak, e.a.</p>
+    </refsDecl>
+     <classDecl>
+        <taxonomy id='generoa'>
+            <category id='G-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='G-ANT'><catDesc>Antzerkia</catDesc></category>
+            <category id='G-BER'><catDesc>Bertsoak</catDesc></category>
+            <category id='G-ERL'><catDesc>Erlijioa</catDesc></category>
+            <category id='G-NAR'><catDesc>Narratiba</catDesc></category>
+            <category id='G-POE'><catDesc>Poesia</catDesc></category>
+            <category id='G-SAI'><catDesc>Saiakera, kronika, artikuluak...</catDesc></category>
+        </taxonomy>
+        <taxonomy id='garaia'>
+            <category id='M-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='M-16'><catDesc>XVI. mendea</catDesc></category>
+            <category id='M-17-1'><catDesc>XVII. mendea - 1. erdia</catDesc></category>
+            <category id='M-17-2'><catDesc>XVII. mendea - 2. erdia</catDesc></category>
+            <category id='M-18-1'><catDesc>XVIII. mendea - 1. erdia</catDesc></category>
+            <category id='M-18-2'><catDesc>XVIII. mendea - 2. erdia</catDesc></category>
+            <category id='M-19-1'><catDesc>XIX. mendea - 1. erdia</catDesc></category>
+            <category id='M-19-2'><catDesc>XIX. mendea - 2. erdia</catDesc></category>
+            <category id='M-20-1'><catDesc>XX. mendea - 1. erdia</catDesc></category>
+            <category id='M-20-2'><catDesc>XX. mendea - 2. erdia</catDesc></category>
+        </taxonomy>
+        <taxonomy id='euskalkia'>
+            <category id='E-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='E-BAT'><catDesc>batua</catDesc></category>
+            <category id='E-BIZ'><catDesc>bizkaiera</catDesc></category>
+            <category id='E-BNA'><catDesc>behenafarrera</catDesc></category>
+            <category id='E-ERR'><catDesc>erronkariera</catDesc></category>
+            <category id='E-GIP'><catDesc>gipuzkera</catDesc></category>
+            <category id='E-GNA'><catDesc>goi nafarrera</catDesc></category>
+            <category id='E-LAP'><catDesc>lapurtera</catDesc></category>
+            <category id='E-NAF'><catDesc>nafarrera</catDesc></category>
+            <category id='E-ZAR'><catDesc>zaraitzuera</catDesc></category>
+            <category id='E-ZUB'><catDesc>zuberera</catDesc></category>
+        </taxonomy>
+    </classDecl>
+  </encodingDesc>
+  <profileDesc>
+     <textClass>
+       <keywords scheme='generoa'>
+         <list><item>G-ERL</item></list>
+       </keywords>
+       <keywords scheme='garaia'>
+         <list><item>M-18-2</item></list>
+       </keywords>
+       <keywords scheme='euskalkia'>
+         <list><item>E-GIP</item></list>
+       </keywords>
+     </textClass>
+  </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>Jesusen Bihotzaren Kongregazioko reglak -- Sebastian Mendiburu</docTitle>
+    </front>
+    <group>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>JESUSEN BIHOTZAREN KONGREGAZIOKO REGLAK</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>&#167;. I.</hi></p>
+<p><hi rend='Bold'>ANITZ LAGUNTZEN DUTE ZERURAKO KOFRADIA TA KONGREGAZIOAK</hi></p>
+<p>1. Onerako gogorik bage ta gaitzera makurtuak gatoz garanak. Ezpada gogo gaixtoa garaituz ta geren buruak nekatzen ditugula, ezin gabilzke ibilli behar dugun Zeruko bidean. Bide onetarako behar den guzia nork-nai izan dezake gure Jauna gandik; ba&ntilde;a edozein Kristauek ba&ntilde; o, errazago Kofradian edo Kongregazioan bizi denak.</p>
+<p>2. Zeruko bidean dabilzanai gertatzen zaie lurrekoan dabilzanai gertatzen zaiena. Lurreko bidekoak, galdu ez ditezen, behar dituzte zenbait gauza; beste anbeste behar dituzte Zerukoan dabilzanak. Emen bidez dabillenak behar du, nondik artu ez dakieneko, nori galdetu. Neketik atsedeteko, behar du hostatua; gose-egarriaren kontra behar ditu janari-edariak; eta, agertzen zaizkan etsaiak garaitzeko, behar ditu armak. Onenbat gauzarekin arkitzen dena badabilke bere lurreko bidean.</p>
+<p>3. Ez da gutiagoren beharrean arkitzen Zeruko bidea artzen duena; ta bide onetarako behar den guzia arkitzen da Kongregazio edo Kofradietan. Kofradia edo Kongregazioetan badira reglak. Kongregazioko reglak Zeruko bidearen letrazko mugak dira. Zer dioten adirazteko, badira Kongregazioan kargudunak; baita makur, gaizki edo kontrako bidean dabilzanen zuzentzalleak ere.</p>
+<p>4. Ikasten da emen Zeruan sartzeko jakin behar dena; edo ikasten da nola gauzak egin.</p>
+<p>5. Bide hau bi bidez ikasten dute Kongreganteak: adituz ta ikusiz. Elkarganatzen diranetan adirazten du orretarako kargua duenak aldian egin behar dena; baita nola egin ere, egiten den edozein gauza. Uts-egiten duenari erakusten dio zuzen bidea: bidea galdurik dabillena erakarzen du bidera; ta, berriz galdu ez dezan, bidalzen du bere oharmenak edo abisoak emanik.</p>
+<p>6. Elkar gana bilzen diranetan ta beste zenbait aldiz ikusten dute zer hari diran, edo nola, lagunak beren egitekoetan; ta ikusiz ta adituz ikasten dute nola ibilli Zeruko bidean, reglak erakusten duten bezala.</p>
+<p>7. Kofradietan sarturik bizi diranak badute elkarren artean Zeruko senidetasuna; bada, senide onak bezala, hordu jaki&ntilde;etan bilzen dira elkar gana; elkar artzen dute; lagunzen diote elkarri; ta elkarrekin egiten dituzte gauz on asko; ta egiten dituzten guziak guzienzat dira. Hau Kofradeak, ez nola nai Zeruko senideak izatea ezik, Relijiosoen bizitza dirudien bizitza bat munduan bertan egitea da.</p>
+<p>8. Reglak bereizten dituzte atseden horduak. Hordu orietan sartzen dira Kofrade edo Kongreganteak Elizako hostatuan. Emen arkitzen dute orazioaren deskansua, Sakramentuen Maia ta Graziaren janaria ta edaria. Jateko onek ematen ditu Zeruko bidean ibiltzeko ta bideko etsaiak edo etsaiaren tentazioak garaitzeko behar diran auxilio ta armak.</p>
+<p>9. Onenbat ondasun dakartzien elkarrekiko Kofradeen bizitza gatik esan diteke: ah! zein gauza ona, zenbat atsegin dakarzien gauza den Senideak elkarrekin bizitzea!</p>
+<p>10. S. Franzisko Salesek, ezaguturik emendik datozen ondasunak, al duten guziak sar ditezela, dio, Kongregazio ta Kofradietan. Oetatik zenbait Jesusen izenekoak dira; onen Amaren izenekoak dira beste zenbait; eta beste izen moduak dituztenak beste asko. Ba&ntilde;a guziak dira Jaunaren honrarako ta gure ta Purgatoriokoen onerako.</p>
+<p>11. Sar zaitez bada al dezunetan; ba&ntilde;a batean edo bestean baizik sartu behar ezpadezu, sar zaitez zere anima geiena ontzen edo moldatzen lagunduko dizun artan. Bada ontzen edo birtutez apaintzen badezu anima, atsegin eginen diozu Jainkoari, ta len ba&ntilde;o geiago lagunduko diezu Purgatorioko suan erretzen daudenai.</p>
+<p>12. Orretarako guztiz onak dira Relijioetako irugarren Ordenak; eta Kristo Jaunaren eta onen Amaren Eskolak; baita berriro Euskaldunen Errietara etorri den Jesusen Bihotzaren Kongregazioa ere.</p>
+<p>13. Kongregazio onetakoak atera dezaten atera dezakeen ondasun guzia, erakustera goaz zertako den ta zer egin behar duten onetan sartzen diranak Kongregante onak izateko ta, elkarri laguntzen diotela, Zeruan sartzeko.</p>
+<p><hi rend='Bold'>&#167;. II.</hi></p>
+<p><hi rend='Bold'>ZERTAKO DEN JESUSEN BIHOTZAREN KONGREGAZIOA; TA ONETAN SARTZEN DIRANAK EGIN BEHAR DITUZTEN ZENBAIT GAUZA</hi></p>
+<p>1. Jesusen Bihotzaren debozioak asko laguntzen dio Aldareko Sakramentuaren debozioari: ta, Kongregazio onek biai: bada Kongregazioak dirau&ntilde;o, iraun behar du Jesusen Bihotzaren debozioak; eta Bihotz onen debozioa duen bihotzean ezta faltako Aldareko Jaunaren debozioa. Orregatik bada Jesusen Bihotzaren Kongregazioa, Bihotz onen debozioari beinik bein, ta onen eskuz, Aldarekoaren debozioari indarrak ematen diozkan gauza da.</p>
+<p>2. Kongregazio hau Jesusen Bihotzaren debozioak eskatzen duena gogotik egiteko da. Debozioak eskatzen duena da, lenbiziko lekuan, naiez ta amorez eranzutea Aldarean Jesusek erakusten digun bere Bihotzeko nai ta amore bazterrik gabekoari: ta bigarrenean Jesusek Aldarean ekusten dituen oztasun, bidegabe, txarkeri ta ga&ntilde;erako gauz arrigarrien damuz beterik gu bizitzea. Orregatik Kongregazioa da Jesusi zor diogun amorearen amorez ta gugatik Aldarean ekusten duenaren damuz gure bihotzak betetzeko.</p>
+<p>3. Gu gatik Aldarean daramanaren ta guri digun nai andiaren berririk geiena duen Jesusen Ama da bere kontura Kongregazio hau artua dadukana; ta Jesusi zor diogunari eranzuteko behar dugun grazia Zerutik bidaltzeko dagoena.</p>
+<p>4. Gizonak bezala sar ditezke Emakumeak ere Kongregazio onetan: bada, guzien aldetik artu dituen bezala Aldarean bidegabeak, nai du Jesusek guzien amorea ta damua. Damu-amore onetara daraman gauza da Jesusen Bihotzaren Kongregazioa.</p>
+<p>5. Sar ditezke Kongregazioan onen Buruzagi edo Kargudunak nai duten adi&ntilde;a. Ba&ntilde;a ez dute artuko ots, omen edo fama txarrekorik: ez eta errankizuna emain dutenik ere: bada gaixto bat aski da Kongregazioa galtzeko; ogi guzia galtzeko, aski den bezala legami edo orantz zati usteldu bat.</p>
+<p>6. Elkarrekin egiten dituzten gauzak Elizan egi&ntilde;en dituzte, ta Jauna agerturik. Orietarako behar den argiarenzat emain dute al dutenak nai dutena.</p>
+<p>7. Jesusi onginaiak eragin behar die Kongreganteai egiten dutena; orregatik ez da Kongregazioan bekaturik txikienaren karga dakarren reglarik. Aski da Jesusen maitatzalleentzat, reglak erakusten dutena egiteko, orretan Jesusi atsegin egi&ntilde;en diotela jakitea.</p>
+<p>8. Kongregazioan sartzeko, guziak egin behar dute Konfesio jeneral bana, egin berriak ezpadira, edo Konfesore onak besterik agintzen ezpadie.</p>
+<p>9. Osasuna dutenak eta doazkenak, ez dute zer utsegin Kongregazioko exerziziorik. Alferkeriz, nagitasunez edo joan nai gabez noizbait uts-egiten badute, orda&ntilde;ez egin behar dute beste gauz onen bat.</p>
+<p><hi rend='Bold'>&#167;. III.</hi></p>
+<p><hi rend='Bold'>KONGREGANTEAK EGIN BEHAR DITUEN BESTE LAU GAUZA</hi></p>
+<p>1. Lau gauza egin behar dituzu, Kongregante ona izateko. Lenbizikoa zere Jainko ona gatik: bigarrena Jesusen Ama gatik: irugarrena bizi diran ta osasuna dutenak gatik; eta atzenekoa, eri arkitzen diran ta ill ondoan Purgatorioan daudenak gatik.</p>
+<p>2. Egin behar dezun lenbiziko gauza da Aldarean arkitzen den Jaun andiaren Bihotzarekin debozio zi&ntilde;ezkoa artzea. Debozio hau, dizun Biotzeko amoreak gatik, Jesus maitatzea da; ba&ntilde;a maitatzea gogotik eta bizi guzian. Onela maite duenak billatzen du Jesus, al duenean, bere Elizan. Ezin badoake, an egon naiez dago Aingeruekin batean. Jesus maite duenak enzun nai lituke lurreko bazter guzietan ematen diran Mezak; guzietan zor dionaren eskerrak eman ta agur egiteko edo adoratzeko; eskatzeko berari barka dizkiola bere oben ta txarkeri guziak; eta, diola horien ta ga&ntilde;erakoak egin diozkaten guzien urriki ta damua.</p>
+<p>3. Kongregante ona izateko, egizu gogoz bad-ere beste onenbeste: ta zaude, Elizan zaudenetan, Meza enzutean, Sermoia aditzean ta ango gauza guzietan, Jesusen begietan dagoena bezala; edo begiak lurrean ta gogoa Jesusen Bihotzean daduzkatzula; ta ekusten zaituztenak esan dezakeen bezala: ara, hari ezagun zaio den guzia Jesus onarena dela.</p>
+<p>4. Bigarren lekuan maitatu behar dezu, Kongregante ona izateko, Jesusen Ama. Maitatze onekin behartua dadukanak Jesusen Ama, emen ona izan ondoan, izain du sekulako gloria: <hi rend='Italic'><foreign>Qui me invenerit, inveniet vitam. </foreign></hi>Geiegi zor diogu Jesusen Amari, hau guk ez maitatzeko. Ez gi&ntilde;an Jauna ganako, eskua guri onek ez ematera. Semea gurutzean il zenetik humetzat artuak gaduzka; ta geroztik, guk merezi ez bezala begiratzen digu. Onen eskutik ez datorkigun ondasunik ez dela dio San Bernardok: dugun guzia Jesusen Amari zor diogu: baita bere kontura artu duen Kongregazioak izatea ere. Guztiz maite duen bere Seme on Jesus maitatzen guri laguntzeko dago: ta, zenbat bera geiago maitatzen dugun, anbat obeki lagunduko digu. Maite duenak ez du Jesusen Amaren egunik uzten konfesatu gabe: artua daduka egunoroko Errosarioa: artuak daduzka goiz-arratsetako ta horduetako Ave Mariak: etxetik ateratzean, estutasun guzietan ta noizean bein billatzen du hume onak bezala, ta eskatzen dio bere laguntza ta eskua. Orra Jesusen Amaren deboto ta Kongregante ona izateko egin dezakezuna.</p>
+<p>5. Hirugarren Jesusen Bihotzaren Kongregaziokoak egin behar duten gauza da bizi diranekin ongi etorzea. Norekin nai ongi etorriko da Jesusek bere Bihotzean erakusten diozkan bi birtuteak ikasten dituena. Begira, dio Jesusek, eta ikasi guziok nik egiten dudana: noiz-nai ta beti beraa da edo mansoa ta humilla nere Bihotza: <hi rend='Italic'><foreign>Discite &agrave; me, quia mitis sum, &amp; humilis corde.</foreign></hi></p>
+<p>6. Zuzendu behar dituzu, al egi&ntilde;ean, Zeruko bidetik atera diranak. Ez diozu bati ere utzi behar aserretzen; ta, aserretzen bada, eragin behar diozkatzu bakeak. Nekeren batekin arkitzen diranai kendu behar diezu edo arindu zere hitz onakin duten barreneko mi&ntilde;a ta o&ntilde;azea. Eskean dabillen edo beharrean dagoenari al dezun bezala lagunduko diozu: bada, egiten dituzun urrikarizko lan onakin neurritu behar zaitu Jesusek bere Tribunalean.</p>
+<p>7. Aldezunei erakutsi behar diezu ta arrerazi Jesusen Bihotzaren debozioa. Jesus maite dutenak nai lukee ga&ntilde;erakoak ere maita lezaten; ta oriei debozio hau arreraztea Jesus maitatzeko bidean sarreraztea da. Orretarako eramain dituzu al dituzunak Kongregazioko lan on edo exerzizioetara. Hau da guziekin ongi etortzea.</p>
+<p>8. Laugarren egin behar dezun gauza Eriakikoa da, ta illena. Eritasuna Jainkoak bidaldurikako ondasuna da: ba&ntilde;a ondasun neketzat baizik askok ezagutu nai ez dutena. Behar ba&ntilde;o geiago estutu oi ditu geienak. Al dezunei eskua ematea gatik, zoaz auzoko eriak ekustera; begitarte ta hitz onakin lagun egiezu, Jainkoaren doaitzat ardezaten beren eritasuna. Beharrean badaude ta arkitzen bazera zerekin, andik atera ba&ntilde;o len, zerbait utzi zaiezu. Eri dagoen ta il den Kongregantearekin ga&ntilde;erako egin behar dena gero erakutsiko da.</p>
+<p>9. Purgatoriokoei egin behar zaie al den on guzia. Aiek eta gu Jesusen humeak gara ta Zeruko senideak; eta ez dira senide onak Purgatoriokoak bezain nekatuak daudenai laguntzen ez diotenak. Laguntzen die obra onen irabazia uzten dienak. Utzi zaiezu bada, edo guzia, edo geiena, erretzen dauden zure senide onai: ta lenbiziko lekuan geiena zor diezunei. Badute egiten zaienaren ezaguera: badakite orda&ntilde;ez an daude&ntilde;o ere Jaunari guretzat guk behar duguna eskatzen. Zeruan sartu ezkero guri laguntzeko egoin dira. Eskatzen badiegu, noiz-nai izain dira gure Bitarteko: ta, gu aetaz aztua gatik, ez dira aiek gutaz aztuko. Illai ta biziai onela egiten diezuna gatik emain dizu Jesusek beraren Bihotzaren maitatzalle ta Kongregante ona izateko behar dezuna.</p>
+<p><hi rend='Bold'>&#167;. IV.</hi></p>
+<p><hi rend='Bold'>URTEAN BEIN EGIN BEHAR DIRAN GAUZAK</hi></p>
+<p>1. Jesusen Bihotzak badu bere eguna. Egun hau Jesusek berezia da; ta da Korpus Kristitik zorzigarren egunaren urrengo ostirala. Bihotz onen debozioa dutenak nola egun hau igaro debozioaren ga&ntilde;eko libruan ongi erakutsia arkituko dute. Orain hitz egiten dugu Kongregaziokoak elkarrekin egin behar dutenaren ga&ntilde;ean.</p>
+<p>2. Nioiz emateko, emain ditu Jesusek bere Bihotzaren egun onetan graziaren doai ta ondasunak; eta andiagoak obeki prestaturik igarotzen duenari. Egun onetan bukatzen da Kristo Jaunaren Gorputz Santu egunean asitzen den Jesusen Bihotzaren Bederatzi-hurrena. Bederatzi-hurren hau egin behar dute Kongreganteak Elizan, ta Jaun andia agerturik. Egin diteke Meza nagusiaren ondotik. Elizara ezin joan ditekean Kongreganteak egin behar du etxean edo al duen lekuan.</p>
+<p>3. Jesusen Bihotzaren eguna urte guzian Aldarean ekusi dituen sakrilejio ta txarkerien alde gordetzen zaion eguna da. Al badu, ez du Kongreganteak egun onetako Komunioa utziko; ta egin behar du nioiz ere ba&ntilde;o obeki begiraturik; edo ongi ongi bihotza Konfesioan garbitu ta barrena prestaturik.</p>
+<p>4. Egun onetan kantatu behar zaio Jesusen Bihotzari bere Meza bere Sermoiarekin.</p>
+<p>5. Ez goiza ezik arratsaldea ere Jesusen Bihotzarena da. Egin behar dute Kongreganteak arratsalde onetan ill-oroko se&ntilde;alatuko den exerzizioa. Mezakotik exerzizioa bukatu artean, agerturik egon behar du Aldareko Jaun andiak.</p>
+<p>6. Nekazari anitz dituen Kongregazioak alda dezake egun onetakoa iganderen batera. Debozio ta indar andiarekin asitzen diran Kongregazioak eta beste gauza onak olako sutegian egin den burnia bezala dira. Burnirik goriena luzaro badago sutegira gabe, oztu ta gogortuko da. Gogor dakion beldur den Ola-Gizonak sutegira darama moldatzen ari den bere burnia. Oztutzera doazen bihotzak debozioz beratu nai badituzte Kongreganteak, orobat egin behar dute, edo billatu behar dute Zeruko sutegiren bat. Guztiz ona da Loiolako Aita San Ignazioren exerzizioetakoa. Onetara behar dute bada urtean bein; edo urte oro egin behar dituzte San Ignazioren exerzizioak.</p>
+<p>7. Exerzizio oiek Elizan egin behar dira, ta Aldareko Jaun andia agerturik. Egin nai dituzten guziai, Kongreganteak ez izana gatik, utziko die berekin batean oriek egiten.</p>
+<p>8. Egin ditezke edozein denboraz: ba&ntilde;a al badedi, egin behar dira egitekorik gutiena Kongreganteak dutenean.</p>
+<p>9. Iraun behar dute zortzi edo sei egunez; ta egun oro bi horduz goizean; ta arratsaldean beste biz. Zer horduz sartu behar den exerzizioan, ekusiko dute Kargudunak.</p>
+<p>10. Goizeko exerzizioak asiko dira Mezarekin. Hau asitzean agertu behar da Jaun Andia, Exerzizioen asiera, besteetan bezala. Onetan ta hitzez edo orretarako den libruren batetik orazio-gaia edo otoitzerako materia Kongreganteai ematen eraman behar da hordu erdi bat. Beste erdi bat orazioan: ta azkeneko hordu erdia Jesusen Bihotzaren debozioko Libruan irakurtzen ta Jaun andia gordetzen.</p>
+<p>11. Arratsaldekoak asiko dira Jaun andia agertzetik. Debozioak esan ondoan, eman behar da hitzez edo librutik orazio-gaia. Hau guzia hordu erdi batean. Gero beste erdi bateko otoitza. Urrengo hordu erdian edo Librutik irakurri edo platika bat. Azkeneko hordu erdian esain da Jesusen Amaren Errosarioa ta gordeko da Jaun andia.</p>
+<p>12. Hastia dutenak orazio geiago egin behar dute goiz-arratsaldeetan; baita irakurri ere Libruren batean. Egin dezakee Elizan edo etxean.</p>
+<p>13. Geroko utzi ditezkeen egitekoak ez ditzatela egin exerzizioetako egunetan. Zenbat Jainkoarekin berak luzeago, anbat emalleago arkituko dute Jaun hau.</p>
+<p>14. Zerbait behar du egun oietako Jaunaren argiak; Zeruko argia Jauna gandik nai duten Kongreganteak emain dute al dutena Jaunari argi egiteko.</p>
+<p>15. Urtean egin behar dute urteko Konfesio jenerala. Onek eskatzen duen konturako ta hau egiteko denborarik onena exerzizioetako denbora da.</p>
+<p>16. Erri txikiren bateko Kongregazioan ezin egin baditezke goizetako exerzizioak, arratsaldekoak bad-ere egin behar dira.</p>
+<p><hi rend='Bold'>&#167;. V.</hi></p>
+<p><hi rend='Bold'>ILL-OROKO ZENBAIT GAUZA</hi></p>
+<p>1. Geiegi tiratzen gaitu gaitzak, urteko exerzizioekin bero bizitzeko Jesusen Bihotzaren debozioan. Debozio onek iraun dezan, ill oro ere Zeruko sutegira beharko dute Kongreganteen bihotzak: ba&ntilde;a ez len adi&ntilde;a denboraz egoteko. Olako sutegi andian zenbait hordu egin dituen ta meetu den burniak denbora guti behar du Errementariaren sutegian berotu ta goritzeko; ta exerzizioetako sutegian urtu ta moldatu den bihotzak asko izan oi du, berotzeko, exerzizio labur bat.</p>
+<p>2. Leku geienetan bildu ditezke Kongreganteak amabostean bein, Jesus onarekin ordu bat igarotzera. Erri txikietan, illean bein bad-ere bilduko dira. Badira Kongreganteak zorzian bein ere onetara bilzen diranak, eta hordu ta erdi aldian Jesus onarekin daudenak edo daramatenak. Ostiraletan, igandeetan eta noiz exerzizio onetara bildu behar duten Kongreganteak, kargudunak ekusiko dute. Exerzizioak dirau&ntilde;o, Jaun andia egoin da Aldare ga&ntilde;ean agertua.</p>
+<p>3. Agertzean, Jesusen Bihotzaren zenbait laudariotan, onen Amaren letanian ta orazio gaia hitzez edo librutik Kongreganteai ematen gastatuko da edo eramain hordu erdi bat. Laurden bat Jainkoari otoitz edo orazio egiten; ta beste laurden luze bat platika batean edo Jesusen Bihotzaren deboziozko librutik irakurtzen. Irakurri ondoan, gordeko dute Jaun andia Elizako kantuarekin.</p>
+<p>4. Illean bein bad-ere konfesatuko dira, ta artuko dute Jaun andia; ta, al dutenak, exerzizioko egun guzietan.</p>
+<p>5. Egun orietan ezin dutenak edo geiagotan nai dutenak, artu dezakee illeko ostiraletan; ta, batean baizik ez artzekotan, lenbizikoan ezin duenak egin beza al duen egunean. Dukeala, ez ditzala utzi Jesusen Amaren egunak.</p>
+<p>6. Zenbat geiagotan komulgatzen diran &mdash;ongi komulgatzen dirala&mdash;, anbat obekiago egoin dira etsaiak garaitzeko, Jauna maitatzeko ta ga&ntilde;erako lan onetarako.</p>
+<p>7. Hastia dutenak egin bezate ill-oro Jesusen Bihotzaren Bederatzi hurrena. Noiz nai asi diteke: ba&ntilde;a asitzen bada doan illaren atzeneko ostegunean, bukatzera dator Bihotz maitagarri onen egunean edo illaren lenbiziko ostiralean.</p>
+<p>8. Ostiral hau nola ongi igaro arkitzen da Jesusen Bihotzaren debozioko libruan. Egun onetan ezin dutenak egin dezakee edozein egun edo Igandetan han erakusten dena: ta egiten badute, eginen dute Jesusi atsegin andia eginen dion ta beren onerako izain den gauza bat.</p>
+<p>9. Ill-oro irakurri behar ditu bakoitzak Kongregazioko Reglak.</p>
+<p><hi rend='Bold'>&#167;. VI.</hi></p>
+<p><hi rend='Bold'>HASTE-OROKO GAUZAK</hi></p>
+<p>1. Hastean ta egun oro Kongreganteak egin behar dituzten gauzak elkar gana gabe egin ditzakenak dira. Ez da erraz zenbaitek egunoro egitea egun oro beste zenbaitek egin ditzakeen gauza zenbait; ba&ntilde;a bakanak izain dira, hastean bein bad-ere, orain bereziko diran gauzak ezin egin ditzakeen Kongreganteak.</p>
+<p>2. Haste-oro nekatu behar dute bein beintzat beren burua, edo baruren bat ateratzearekin, edo nai ez lukean lanen bat egitearekin, edo eskatzen duen gauza edo gustoren bat ukatzearekin.</p>
+<p>3. Ostirala, Jesusen Bihotzaren eguna bezala, orretarako onena da. Egun onetan, besterik ezin duen Kongreganteak, ekarri bitza halik bilduenak bere begiak, bere mihi ta bihotza.</p>
+<p>4. Ez doakiola, al duenari, Mezarik enzun gabe haste guzia. Onetan uts-egiten duenak enzun beza orda&ntilde;a jaiean edo igandean.</p>
+<p>5. Al duenak ez du hasterik utziko Elizan, bein beintzat, sartu gabe. Sartzen denetan utziko die an dauden Aingeruei bere lekuan Jaunari lagun egiteko kargua.</p>
+<p>6. Etxeko kargua duten Kongreganteak erakutsiko die haste oro jakin behar duten gure legeko zerbait orien kontura daudenai. Lan-egunetan egitekoz beteak daudenak ere badituzte orretarako jai-igandeak.</p>
+<p>7. Ez da aski zer egin behar duten etxekoai erakustea. Nola egiten den ere erakutsi behar die, hura bera berak egiten duela.</p>
+<p>8. Al egi&ntilde;a egin behar dute malkor-toki ta galzeko bideetatik Gazteak kenzea gatik. Orrelako bideetaratzen dira geienik jai-igandeetan. Ez ditzatela begietatik utzi, beintzat egun orietan.</p>
+<p>9. Bide gaixtoetatik kendu ez ezik, azi behar dituzte Gazteak Jaunaren beldur andian. Onela aziko dituzte, berak onak dirala, noizean bein gogora ekartzearekin guzien il beharra, nekezko bizi onen laburtasuna, gaizki egi&ntilde;aren kontu estua, gaixtoen betiko erretze arrigarria ta onen Zeruko atsegin ta kontentua. Onela aziko dituzte, maiz edo usu konfesarazten dituztela, gauza onetara eramatearekin, ta Jesusen Bihotz maitearen debozioa arrerazten diela.</p>
+<p>10. Berak onak izatea, hau guzia egitea ta modu onez esatea asko ez bada nai dena eragiteko eskupean dituztenai, ez da zer barkatu dollorkeri ta uts-egite txarrik. Obe da, nai dutena egiten utzi ta galzea ba&ntilde;o, nai ez duten zerbait eragin ta Gazteak Zerura bidaltzea.</p>
+<p>11. Haste guzian etxeratzen ez diranak etxeko guziekin esain dute Igandeetan Jesusen Amaren Errosarioa.</p>
+<p><hi rend='Bold'>&#167;. VII.</hi></p>
+<p><hi rend='Bold'>EGUN ORO EGIN BEHAR DIRAN GAUZAK</hi></p>
+<p>1. Zerurako eman zigun Jainkoak dugun izatea; ta ditugun indarrak Zeruko gloria irabazteko dira. Goizean bidaltzen digun argiarekin lanera deitzen gaitu. Jesusen Bihotzaren Kongregante onak, argitu ta alik lasterrena jaiki behar dute, ta, jaunzi orduko, asi Zeruko lanean.</p>
+<p>2. Lan hau da belauniko jarririk Jaunari milla esker ordura&ntilde;o zor diogunaz ematea; egun guziko hitz, asmo ta lan guziak berarentzat Jesusen Bihotzean uztea; ta diranak ongi egiteko grazia Bihotz onen ta Birjin Amaren izenean berari eskatzea.</p>
+<p>3. Gurutze pean, arantzez ingurutua ta argi-garrak dariozkala agertu zaiku Jesusen Bihotza; hiru gauza oek aditzera ematen dituzten amore-nekeen izenean esain dituzu goizean, eguerdian ta arratsean, belaunak lurrean dituzula, hirur Aita gure, Ave Maria ta Gloria. Hau egiten dezunetan, eskatuko diozu Jesus onari zeretzat eta etxeko guzientzat eriotz on bana: ta eskatuko diozu haren Bihotzaren debozioa dutenak izan ditezela beraren Bihotzekoak; eta ga&ntilde;erakoai orobat gerta dakien, dakartziela bere Bihotzaren deboziora.</p>
+<p>4. Hal dutenak egin behar dute hirur aldietako hau Elizan, ta Aldareko Jaunaren aitzi&ntilde;ean: ezperen Jesusen Bihotzaren Estanpa bat aitzinean dutela ta Jesusi zor dioguna gogoan arturik.</p>
+<p>5. Etxekoakin, hal badute, bestela bakarrik, esain dute egun oro Jesusen Amaren Errosarioa.</p>
+<p>6. Jauna ganako gure zorrentzat ez da Mezak adi&ntilde;a balio duen gauzarik: ez eta Jesusen Aitari atsegin geiago emain ta grazia geiago emaneraziko dion presentarik ere, len adirazi dugun bezala. Izan dezaten bada Kongreganteak beren zorrak ateratzeko ta edozein gauz on egiteko behar dutena, ez dezatela egunik utzi Meza enzun gabe.</p>
+<p>7. Libruak dira ixillik bai ba&ntilde;a lotsarik gabe ta kopeta garbiarekin hitz egiten diguten Adiskide ta Predikadoreak. Orien hitzak, Jaunak ematen diela barrengo indarra, biguindu dituzte arrizkoak ziruditen asko bihotz; otzak zeuden zenbait berotu dituzte, ta berotuak Zeruko suz erreak utzi dituzte. Ez utzi oriez baliatzea; ta, guti bad-ere, irakurri zazu orietatik batean egun oro.</p>
+<p>8. Gu galzea beste egitekorik ez duten etsaiez ingurutuak gaude. Oriek garaitzeko, erne bizi behar dugu, ta armaz jauntziak bezala. Geiena izutzen dituen arma da gure Jauna gana guk iges egitea. Iges egite hau da lagun dakigula eskatzea edo otoitz egitea. Estutasunean arkitzen garanean, ez uts-egiteko, lenik oitu behar gara ori noizean bein egitera. Egizu egun oro eskatze ta otoitz onetan hordu laurden bat.</p>
+<p>9. Ez da zer galdu Elizan sartzeko izaten dezun bide ta deretxik. Sarzen zaranean, joan behar dezu an dagoen Jaunari buruz ta gogoz agur egitera, zor diozun amorearen eskerrak ematera, ta zure lan ta pausu guziak zuzen ditzala eskatzera. Hau egizu hal dezun guzian; ta zenbait aldiz orretara berariaz joana gatik ez dezu ezer galduko; ta egi&ntilde;en dezu Jesusi atsegin eginen dion gauza bat.</p>
+<p>10. Loa eriotzaren iduri ta imajina da: ta askorentzat lotan sartzea bizia bukatzea izandu da: bada iratzarri edo esnatu ziranean, eternidadearen argiak eman zien begietan. Edoze&ntilde;i gerta dakioke orobat edo beste anbeste. Gertatzen bazaitzu ere, etzara galdua izain, eriotzarako prestatzen bazera, loari zere burua eman orduko edo lotan sartu ba&ntilde;o len. Prestatze hau zere bihotzari egun guzian egin dituen gauzen kontua eskatzea da; onak gatik Jainkoari eskerrak ematea; ta orduan, edo lenago egin dituzun gaitz guzien barkazioa zi&ntilde;ez eskatzea; berriz orrelako lanik ez egiteko asmo ta gogoarekin.</p>
+<p>11. Ori egin ondoan, belaunak lurrean dituzula, esain dituzu zere hiru Aita gure, Ave Mari, Gloriak; urrengo Elizan dagoen Jesusi buruz ta bihotzez agur andi bat egi&ntilde;en diozu, ta eskatuko diozu gorde zaitzala gau artan bere Bihotzean, ta zaduzkala bere eskutik edo bere grazian.</p>
+<p>12. Jesusen Amari ere eskatu behar diozu, hiru Ave Maria esanik, bere Konzepzio garbiaren izenean &mdash;egizu hau bera goiz-eguerdietan&mdash; bidal diezazula Zerutik gaua ta bizi guzia garbiro igarotzeko behar dezuna.</p>
+<p><hi rend='Bold'>&#167;. VIII.</hi></p>
+<p><hi rend='Bold'>ELKAR GATIK KONGREGANTEAK EGIN BEHAR DUTENA</hi></p>
+<p>1. Elkar arturik etsaia gana doazen Soldaduak, banaka dijoazenak ba&ntilde;o, aisago hura garaitzen dute: ta errazago ateratzen dute Kristauak Jauna gandik Infernua, mundua ta aragi gaixtoa garaitzeko behar dutena, batean edo elkargana bildurik ori eskatzen diotenean. Orregatik joan behar du beti Kongreganteak exerziziora. Besteekin batean gauza onak egiten dituenean, laguntzen die diranai, ta ateratzen du beretzat, bakarrik egiten balu ba&ntilde;o geiago.</p>
+<p>2. Beren estutasunean, senide onak bezala, lagundu behar die elkarri Kongreganteak. Norbaiti zerbait emateko, eman behar diozu orietatik bati. Edoze&ntilde;i egiten zaiona, berari egintzat artzen du gure Jesusek. Beste Kristau anitz ba&ntilde;o, Jesusen alderago daude onen Bihotzaren maitatzalle Kongreganteak; eta beharrean dagoen Kongreganteari Kongreganteak egiten diona, beste askori egi&ntilde;a ba&ntilde;o, obeki iduri behar zaio Jesusi; bada elkarri, ga&ntilde;erakoai ba&ntilde;o, geiago zor diote.</p>
+<p>3. Lurreko gauzen beharrean ez egona gatik, eri badago edozein Kongregante, beste guziak artaz oroitu behar dute beren eskari ta orazioetan.</p>
+<p>4. Elizakoak artzeko edo arturik dagoenean Kongreganteren bat, esain du bakoitzak ar gatik Jesusen Amaren Errosarioa, ta, Ama hau bitarteko arturik, eskatuko dio Jesusi eriaren osasuna, edo, ongi ezpadagokio osasuna, eriotz on bat.</p>
+<p>5. Eri dagoenak gaztigatuko dio edo eriaren etxekoak adiraziko diote Kongregazioaren Kargua duenari nola dagoen Kongregantea; bana dezan edo adirazi aren berria ta dagiten Kongreganteak esan dena.</p>
+<p>6. Ilzen bada, atera behar du bakoitzak edo enzun Meza bat aren alde. Ekusi behar ditu edo bisitatu Aldareak; eta errain du Errosario bat. Lenbiziko exerzizioetan eman behar zaie guziai Kongregantearen il berria, ori jakin gabez, galdu ez dezan, Purgatoriotik ateratzeko edo ango sua arintzeko, nork-nai egin behar diona.</p>
+<p>7. Kongregazioaren ongigilleak gatik eskatu behar diote Jesusi Kongreganteak, onak izateko behar dutena, ta, osasun onarekin, bizitza luzea. Besterik ezin duten Kongreganteak eman behar diote Jesusi bihotz garbi beraren maitatzalle bana.</p>
+<p><hi rend='Bold'>&#167;. IX.</hi></p>
+<p><hi rend='Bold'>KONGREGAZIOKO KARGUAK</hi></p>
+<p>1. Eliza Santua Kongregazioa da; ta Kongregazio bere kargudunak dituena. Kargudunetatik batzuek Obispoak dira, Elizetako Nagusiak besteak, besteak Apaizak: ba&ntilde;a oiek eta ga&ntilde;erakoak ba&ntilde;o esku geiago duena San Pedroren Kataderan dagoena da. Onek eta besteak duten egitekoa da ez dakitenai jakin behar dutena erakustea, eta egin behar dutena eragitea edo egiten laguntzea. Erakusle, Laguntzalle edo Eragillerik ezpalu, ez oi&ntilde; ta ez buru ibilliko lizake Eliza edo Elizako Kongregazioa. Ori bera gerta ez dakion, behar ditu Jesusen Bihotzaren Kongregazioak ere bere Kargudunak.</p>
+<p>2. Kongregazio onetako Kargudunak izan ditezke zortzi. Aita bat, lau Konsejari, Ohartzalle bi, Deitzalle bat eta Biltzalle bat.</p>
+<p><hi rend='Bold'>KONGREGANTEEN AITA</hi></p>
+<p>3. Elizan lenbiziko eskua duenari Aita Santua deitzen diote Euskaldunak; eta dei dakioke Kongregazio onetan eskurik geiena duenari Kongreganteen Aita.</p>
+<p>4. Ongi nai dien lurreko Aitak humeai begiratzen dien bezala, Aita onek begiratu behar die Kongregante guziai. Guziak eman diozka Jesusek bere Bihotzaren debozioan azitzeko. Onetan azitzeko, kendu beharko ditu belar gaixtorik, edo esanez ta palakuz utzirazi beharko die edozein bide makur, zuzena arrerazteko. Gogortuko zaizka zenbait; beste zenbaitek ez aditu egi&ntilde;en diote, anitz, artu duten bide onetik leneko gaixtora biurtuko zaizka: ta guti izain dira egiten dienaren ezaguera erakutsiko diotenak. Guzia gatik ere, irauten badu artu duen egiteko onean, anitz on eginen du Jesusen Kongregazioan; ta azkenean, egiten duenaren eskerrak Zeruan arkituko ditu.</p>
+<p>5. Kongreganteen Aitak, Aldareko Jauna agertu ondoan, erran behar du exerzizioaren asiera. Emain du orazio-gaia. Hitz on zenbait esan ditzake Kongreganteak orazioan daudenean ta hau bukatzean. Deritzanean, egin dezake bere platika. Platika onen lekuan irakurri ditzake ta explikatu noizean bein Kongregazioko Reglak.</p>
+<p>6. Exerzizio guzietan eskatuko du Ave Maria bat edo beste Kongregazioaren ongigillentzat: baita il diran Kongreganteentzat ere. Eririk bada, dien Jesusek osasuna edo eriotz on bana, esain du besteekin batean Aita gure bat eta Ave Maria; ta esan behar die Kongreganteai dagitela orretarako egin behar dutena.</p>
+<p>7. Kargudunen konsejua eskatzen duen gauzaren bat gertatzen denean, billerazi ditzake.</p>
+<p>8. Kongreganteai adiraziko die nor diran il diranak eta nor sartu diran berriro Kongregazioan.</p>
+<p><hi rend='Bold'>KONSEJARIAK</hi></p>
+<p>9. Konsejarien egitekoa da, kargudunak biltzen diranetan, gauzak zuzenzen konsejuz laguntzea.</p>
+<p>10. Konsejarien erdiak Apaizak izain dira: ta Kongregazioko Aita eri edo egitekoren batekin arkitzen denean, bietatik edoze&ntilde;ek egin behar ditu Kongregazioko haren lanak. Egitekorik ez izana gatik, Aitak esan ezkero, lagundu behar diote Kongregazioko edozein gauzetan.</p>
+<p><hi rend='Bold'>OHARTZAILLEAK</hi></p>
+<p>11. Oien egitekoa da Kongreganteak nola bizi diran jakiteko oharturik bizitzea. Arin dabillela norbait, behar ez diran pausoak dakartziela ta erranbideak ematen dituela ikas dezateneko, guzia adiraziko diote Kongregazioko Aitari; onek berez edo Kargudunak diotena aditurik, ar ditzan bere neurriak gauzak zuzentzeko.</p>
+<p>12. Uste badute, lenbiziko elkarganatzen diranean, Kargudunai esatearekin obeki zuzenduko dela gauza, beude ixillik ordura&ntilde;o. Halako horduetan hitz-egin behar dute duten egitekoaz ta esaten dituzten hitzaz Jaunari kontua eman behar diotenak bezala.</p>
+<p>13. Ohartzalle bietatik bat Apaiza izain da.</p>
+<p><hi rend='Bold'>DEITZALLEA</hi></p>
+<p>14. Onek bi egiteko ditu. Lenbizikoa da, Kongregazioko Aitak esaten dionean, Kargudunak biltzea; ta biltzen diraneko, behar diran gauzak prestatuak idukitzea.</p>
+<p>15. Bigarrena, geroko gorde behar diran Kargudunen abisoak Libruan ezartzea edo eskribitzea.</p>
+<p><hi rend='Bold'>[BILTZALLEA]</hi></p>
+<p>16. Onen kontura geldituko da limosnaz biltzen den dirua; baita argizagia ta exerzizioetarako behar diran gauzak erosi ta prestatzea ere. Artu-emanak ezartzeko, behar du Libru bat. Kargudunak aldatzean, eman behar ditu Kontuak.</p>
+<p><hi rend='Bold'>&#167;. X.</hi></p>
+<p><hi rend='Bold'>GA&Ntilde;ERAKO KARGUAK, ETA ZORTZI KARGUDUNEN BILTZE ALDIAK</hi></p>
+<p>1. Irakurle bi behar ditu Kongregazioak. Irakurriko dute aldizka urteko ta illeko exerzizioetan. Irakurri behar dute Kongregazioko Aitak ematen dien Librutik, eta berak nai duena.</p>
+<p>2. Izain dira Aldarearen Apaintzalle bi ere. Bien artu-emanak Biltzallearekin izain dira. Oni eskatuko diote behar duten argizagia edo edozein gauza; ta berari emain diote gelditzen denaren kontua.</p>
+<p>3. Erri txikietan gutiren artean artu beharko dituzte Kargu guziak.</p>
+<p>4. Zortzi Kargudunak elkargana bildurik hitz-egin behar dute Kongregazioko gauzen ga&ntilde;ean lau aldiz beintzat urtean edo iru illabetetik irura. Artuko dute orretarako illaren lenena edo obeki dagokien egunen bat.</p>
+<p>5. Bilduko dira Sakristanian, Koruan edo Elizan, nior ez den horduren batean.</p>
+<p>6. Zerbait gertatzen denean, gauzaren bat zuzentzeko edo egiteko, on izain dela Kargudunak biltzea edozein Karguduni iduritzen zaionean, bego Kongregazioko Aitarekin; ta, onek baderitza, egin diteke noiz nai guzien billera edo Junta.</p>
+<p>7. Elkarganatzen diranetan hitz-egi&ntilde;en dute, berriro Kongregazioan sartu nai duenik bada, onen sartzearen ga&ntilde;ean; ta sartuko dira Kargudun geienak nai dutenak.</p>
+<p>8. Behar du Kongregazioak Reglak eta Kongreganteen izenak dituen Libru bat. Deitzallearen kontura dago, emen, berriro sartzen diranen izenak ezartzea. Libru onetan gelditu behar dute Kargudunak egiten dituzten gauzak eta artzen dituzten neurriak. Deitzalleak aterako du Libru hau, Kargudunak biltzen diranetan.</p>
+<p>9. Urte bateko dira Karguak. Leneko Kargudunak egiten dituzte berriak. Kongregazioko Aita geldi diteke bere Karguarekin. Biltzen diranetan guziak dute eskua ta botoa; ba&ntilde;a berdin daudenean, Aitarena da geiena balio duena.</p>
+<p>10. Kargudunak bilzen diranetan hitz egiten asi ba&ntilde;o len belaunikatuko dira; ta esain du Aitak. <hi rend='Italic'><foreign>Veni, Sancte Spiritus, reple tuorum corda Fidelium.</foreign></hi></p>
+<p><hi rend='Bold'>KARGUDUNAK. </hi><foreign><hi rend='Italic'>Et tui amoris in eis ignem accende.</hi></foreign></p>
+<p><foreign><hi rend='Bold'>OREMUS</hi></foreign></p>
+<p><foreign><hi rend='Italic'> Mentes nostras, quaesumus, Domine, lumine tuae claritatis illustra, ut videre possimus, quae agenda sunt, &amp; quae recta sunt agere valeamus. Per Christum Dominum nostrum. Amen.</hi></foreign></p>
+<p>Hitz egin ondoan</p>
+<p><hi rend='Bold'>AITAK</hi>. <foreign><hi rend='Italic'>Confirma hoc Deus.</hi></foreign></p>
+<p><hi rend='Bold'>KARGUDUNAK. </hi><foreign><hi rend='Italic'>Quod operatus es in nobis.</hi></foreign></p>
+<p><foreign><hi rend='Bold'>OREMUS</hi></foreign></p>
+<p><foreign><hi rend='Italic'> Praesta quaesumus, Domine, auxilium gratiae tuae, ut, quae, te auctore, facienda agnovimus, te adjuvante, eadem impleamus. Per Christum Dominum nostrum. Amen.</hi></foreign></p>
+<p><hi rend='Bold'>AITAK</hi>. <foreign><hi rend='Italic'>Procedamus in Pace.</hi></foreign></p>
+<p><hi rend='Bold'>KARGUDUNAK. </hi><foreign><hi rend='Italic'>In nomine Domini. Amen.</hi></foreign></p>
+<p><hi rend='Bold'>&#167;. XI.</hi></p>
+<p><hi rend='Bold'>EXERZIZIOAREN ASIERA</hi></p>
+<p><hi rend='Bold'>KONG</hi>. Aitak. Alabatua izan dedilla Aldarean dagoen Jesusen Bihotz maitagarria.</p>
+<p><hi rend='Bold'>GUZIAK</hi>. Bai ta bekatuaren loirik ikusi etzuen Jesusen Ama ere.</p>
+<p><hi rend='Bold'>AITAK</hi>. Jesus gurea, galduak izan ez gaitezen.</p>
+<p><hi rend='Bold'>GUZIAK</hi>. Gorde gaitzatzu zere Bihotzaren erdian.</p>
+<p><hi rend='Bold'>AITAK</hi>. Gu gatik Gizon egin zi&ntilde;an, bizi guzian neke-izerdia baizik ekusi etzenuena, ta odola zeriezula Gurutze batean josirik gelditu zi&ntilde;an Jesus maitagarria, galduak izan ez gaitezen.</p>
+<p><hi rend='Bold'>GUZIAK</hi>. Gorde gaitzatzu zere Bihotzaren erdian.</p>
+<p><hi rend='Bold'>AITAK</hi>. Gu gana aserre dagoen Aita palakatzeko, ta gure bekatuak gatik zor diogunaren alde Aldare orretan gelditu zaran Jesus maitagarria, galduak izan ez gaitezen.</p>
+<p><hi rend='Bold'>GUZIAK</hi>. Gorde gaitzatzu zere Bihotzaren erdian.</p>
+<p><hi rend='Bold'>AITAK</hi>. Gure bihotzak zureari dariozkan graziazko argi ta amorezko suz bete naiez zauden Jesus maitagarria, galduak izan ez gaitezen.</p>
+<p><hi rend='Bold'>GUZIAK</hi>. Gorde gaitzatzu zere Bihotzaren erdian.</p>
+<p><hi rend='Bold'>AITAK</hi>. Gure bekatuen gurutzeak eta kulpen arantza gogorrak zure Bihotzari eman zioten neke ta estutasunaren damua eskatzen dezun Jesus maitagarria, galduak izan ez gaitezen.</p>
+<p><hi rend='Bold'>GUZIAK</hi>. Gorde gaitzatzu zere Bihotzaren erdian.</p>
+<p><hi rend='Bold'>AITAK</hi>. Indartsuen janaritzat eta anima eriei indarrak emateko, Aldarean gelditu zaran Jesus maitagarria, galduak izan ez gaitezen.</p>
+<p><hi rend='Bold'>GUZIAK</hi>. Gorde gaitzatzu zere Bihotzaren erdian.</p>
+<p><hi rend='Bold'>AITAK</hi>. Artu nai zaituztenentzat Aingeruen ogi ta edaten dutenak Birjina egiten dituen ardo egi&ntilde;ik Mai orretan zauden Jesus maitagarria, galduak izan ez gaitezen.</p>
+<p><hi rend='Bold'>GUZIAK</hi>. Gorde gaitzatzu zere Bihotzaren erdian.</p>
+<p><hi rend='Bold'>AITAK</hi>. Amorezko labe ta sutegi egi&ntilde;ik zere Bihotza dadukazuna, ta gurearen amodioa eskatzen dezun Jesus maita garria, galduak izan ez gaitezen.</p>
+<p><hi rend='Bold'>GUZIAK</hi>. Gorde gaitzatzu zere Bihotzaren erdian.</p>
+<p><hi rend='Bold'>AITAK</hi>. Itsasoak are adi&ntilde;a bekatu dituen gaixtoarentzat, eta atsegin guziak or arkituko dituen onarentzat Bihotza zabaldua dadukazun Jesus maitagarria, galduak izan ez gaitezen.</p>
+<p><hi rend='Bold'>GUZIAK</hi>. Gorde gaitzatzu zere Bihotzaren erdian.</p>
+<p><hi rend='Bold'>AITAK</hi>. Birtute guziak eta lenik beratx izatea ta humiltasuna zere Bihotzean erakusten dezun Jesus maitagarria, galduak izan ez gaitezen.</p>
+<p><hi rend='Bold'>GUZIAK</hi>. Gorde gaitzatzu zere Bihotzaren erdian.</p>
+<p><hi rend='Bold'>AITAK</hi>. Eriotzak lurretik bota nai gaituenean, Zeruko hostaturako behar dugun ondasuna ta grazia Bihotz orretan dakartzula, gu gana etortzeko zauden Jesus maitagarria, galduak izan ez gaitezen.</p>
+<p><hi rend='Bold'>GUZIAK</hi>. Gorde gaitzatzu zere Bihotzaren erdian.</p>
+<p><hi rend='Bold'>AITAK</hi>. Sakramentu andi orretan munduaren bizitza, bizitzako arbola, gaixtoen Bitarteko, onen piztura ta sekulako bizitza zaran Jesus maitagarria, emendik ateratzen garanean sekulako galduak izan ez gaitezen.</p>
+<p><hi rend='Bold'>GUZIAK</hi>. Gorde gaitzatzu zere Bihotzaren erdian.</p>
+<p><foreign>A&ntilde;a. <hi rend='Italic'>Improperium expectavit cor meum, &amp; miseriam, &amp; substinui, qui sim&ugrave;l contristaretur, &amp; non fuit, &amp; qui consolaretur, &amp; non inveni.</hi></foreign></p>
+<p><foreign>Vers. <hi rend='Italic'>Discite &agrave; me, quia mitis sum, &amp; humilis corde.</hi></foreign></p>
+<p><foreign>Resp. <hi rend='Italic'>Et invenietis requiem animabus vestris.</hi></foreign></p>
+<p><foreign><hi rend='Bold'>OREMUS</hi></foreign></p>
+<p><foreign><hi rend='Italic'> Domine Jesu, qui ineffabiles Cordis tui divitias Ecclesiae Sponsae tuae singulari dilectionis beneficio aperire dignatus es, concede propiti&ugrave;s, ut gratiis Colestibus ex hoc dulcissimo fonte manantibus corda nostra ditari, ac recreari mereantur. Qui vivis, &amp; regnas in saecula saeculorum. Amen.</hi></foreign></p>
+<p><hi rend='Bold'>KONGREGAZIOAN SARTZEN DENAK ESAN BEHAR DUEN OTOITZA</hi></p>
+<p>Aldareko Sakramentuan zauden Jesus maitea, zuri zor dizudana ta nere eskergabea ezaguturik nator, ta lotsaz beterik guzia. Bihotz orretako amore andiari nola ere bait eranzutea gatik, eta orainda&ntilde;oko nere uts-egite ta zuganako oztasunaren zorrak ateratzea gatik, sartu nai nuke ori nola egin behar den erakusten duen Bihotz beraren Kongregazioan edo Eskolan. Ar nazazu harren, Jesus, ni gatik ezpada ere, zere ta zere Amaren Bihotz garbiak gatik. Ematen dizut orainda&ntilde;o ez bezala gaurgero bizitzeko hitza. Egi&ntilde; alean egin uste dut Kongregazioko reglak erakusten dutena: ta, dagidan, uts-egin gabe, indazu orretarako behar dudan zure esku ta laguntza. Hala gerta dedilla. Amen.</p>
+<p><hi rend='Bold'>&#167;. XII.</hi></p>
+<p><hi rend='Bold'>ZER DEN INDULJENZIA. ZENBAT IRABAZTEN DITUZTEN JESUSEN BIHOTZAREN KONGREGANTEAK</hi></p>
+<p>1. Jesusen Bihotzaren Kongregazioetatik anitzek dute Aita Santuaren Bulda. Bulda hau Kongregazioa onzat ematen duen ta Induljenziak dakartzien gauza da.</p>
+<p>Induljenzia animako zorren barkazioa da. Animako zorrak bekatuaren zorrak dira; ta dira barkatzen ez diren zorrak, bekatua bera barkatu artean. Zenbait aldiz barkatzen ditu Jainkoak bekatuaren zor guziak bekatuarekin batean. Ori gertatzen zaie bekatuaren damuz bihotza erdiratzera&ntilde;o bezala etorri diranei. Ga&ntilde;erakoak zordun gelditzen dira, bekatua barkatzen zaienean. Zordun gelditzen diran Kongreganteen alde da Buldaren Induljenzia ta barkazioa.</p>
+<p>2. Barkazio hau erdisten ez duen Kongreganteak atera beharko ditu bere zorrak Purgatorioan suzko nekearekin, edo emengo neke, hildura ta penitenziekin. Purgatorioko nekea neke arrigarria da; baita emen bekatuen zorrak eskatzen duen nekea ere. Hau ezagutzeko, aski da ekustea zer eragin oi zuen len Elizak zor onen alde.</p>
+<p>3. Gezurrezko juramentu bategatik eragiten zuen zazpi urteko penitenzia. Bekatu hau egin zuenak barutu behar zuen lenbiziko berrogei egunetan ur-ogi utsekin; ta gero hastean irur egunez. Hau egin artean etzen komuniatzen. Ga&ntilde;erako bekatuetatik batzuek zuten gisa berean amar urteko penitenzia; besteak bizi guzikoa. Orietatik bat egin zuenak, barutu ez ezik, egon behar zuen igande oro Errikoak Mezatan zeude&ntilde;o Elizako ateetan; ta, batzuetan beinzat o&ntilde; utsetan, ta soka bat lepoan zedukala; ta eriotzeko hordura&ntilde;o etzitzaion komunioa ematen.</p>
+<p>4. Seigarreneko bekatu batzuek zazpi ta amar urteko penitenzia zuten: besteak bizi guziko penitenzia; ta beste batzuek amabi urtekoa, romerian ibiltzea ta gero Konbenturen batean sartzea, an bere egunak bukatzeko obra onen ta penitenzien artean.</p>
+<p>5. Honrako gauzan gezurra asmatzen zuenak egin behar zuen bizi zen artean ogizko ta urezko penitenzia. Beste bekatu moduak bazuten beren penitenzia; ta txikiena, orain ematen diranen aldean, guztiz zen arrigarria.</p>
+<p>6. Onenbat zor bazaio Jainkoari bekatua gatik, ikusi zazu zenbat zorrekin arkitzen den zenbait bekatu egin dituena, bekatuak konfesatuak eta barkatuak egona gatik. Zor oriek eskatzen duten emengo edo Purgatorioko neke pean egon nai ez duenak irabaz bitza hal dituen barkazio ta Induljenziak. Induljenziak irabaztea da Jesusek lurreko bizitzan ta Pasio santuan irabazi zuenarekin nork bere kulpen zorrak ateratzea.</p>
+<p>7. Induljenzia batzuek osoak dira; besteak ez. Osoa irabazten duenak ateratzen du bere burua zituen zorren artetik. Laburragoa irabazten duenari laburtzen zaizka bere zorrak. Osorik ez irabazia gatik, bein ta askotan irabazten dituen laburrekin, bizi dela atera ditzake nork-nai dituen zorrak. Ala andiak nola txikiak irabazteko, egin behar da Induljenziak ematen dituenak eskatzen duena; ta egin behar da begitan arturik obenak edo bekatuak.</p>
+<p>12. [8] Aita Santuak ez ezik, beste zenbaitek ere eman ditzakee induljenziak; ba&ntilde;a ez osoak. Errenko ezartzera noa, bein Aita Santuaren Buldako Induljenziak; eta gero Obispo Jaunak emanikakoak.</p>
+<p><hi rend='Bold'>AITA SANTUAREN INDULJENZIAK</hi></p>
+<p>9. Iru induljenzia modu dakartzi Kongregazioetako Buldak: batzuek Osoak: besteak zazpi urte ta zazpi berrogeikoak; eta besteak irur-ogei egunekoak.</p>
+<p>10. Buldaren Kongregazioan sartzen diranak, sartzen diran egunean konfesatzen ta komulgatzen dirala, irabazten dute Induljenzia osoa edo bekatu guzien zorren barkazioa.</p>
+<p>11. Urte oro irabazten dute Induljenzia osoa urte oroko Jesusen Bihotzaren egunean, egun hartan edo lenagokoan, konfesatu ta komulgatzearekin ta Kongregazioko Eliza edo Aldarea bisitatzearekin, an eskatzen zaiola Jainkoari begira dezagola Eliza Santuari; gal ditzala herejia gaixtoak; ekarri ditzala Hereje ta Jentilak, beren oben ta itsutasuna ezaguturik, gure lege garbi onera; diela bakea ta elkar ongi artzeko grazia lege berean bizi diran Errege ta Prinzipeai; ta Aita Santuari osasuna. Otoitz hau ta Eliza edo Aldarea bisitatzea egin ditezke egun guzian; baita lenagoko eguneko Bezperetako hordutik ere.</p>
+<p>12. Eriotzeko horduan irabazten du Kongreganteak Induljenzia edo barkazio osoa, al badu konfesatu ta komulgatzearekin; ezperen bekatuen damu andi bat artu ta Jesus ezpa&ntilde;ez [edo], hau ezin duenean, bihotzez esatearekin, edo barreneko damua nola-nai aditzera ematearekin.</p>
+<p>13. Beste barkazio ta induljenzia anitz &mdash;eta andiak ala ere, osoak ez izana gatik&mdash; irabazi ditzake Kongreganteak. Orietatik zenbait irabazteko, artu behar dira, Bulda datorrenean, urte oroko lau egun &mdash;egun oiek eta festako eguna ezin alda ditezke; ez eta bein Kongregaziorako artzen den Eliza edo Aldarea ere; ta aldatzen badira, galtzen dira Buldako induljenziak&mdash;. Lau egun oietatik bakoitzean konfesa-komekatu ta len esan den otoitza Aldare edo Eliza berean egitearekin irabazten da zazpi urte ta zazpi berrogeiko induljenzia, edo zazpi urte ta berreun ta larogei egunez len egin oi zen ta bekatuak irabazia dadukaten penitenzia arrigarriaren barkazioa.</p>
+<p>14. Badira Buldan konfesiorik eskatzen ez duten induljenziak edo barkazioak. Irur-ogei eguneko zorrak edo merezi zituen penitenziak &mdash;ikusi dezu zein gogorrak&mdash; barkatzen zaizka orain esatera noan gauzetatik edozein egiten duen Kongreganteari; ta ez bein baizik bakoitza egiten duen aldi-oro. Egin behar diran gauzak dira 1. Besteekin batean Meza enzutea. 2. Kongregazioko exerzizioetan egotea. 3. Kongregazioko edo beste edozein prozesiotan ibiltzea. 4. Illen ortzitzean arkitzea. 5. Elizakoak artzeko dagoen eriagana doan Jaunari lagun egitea. 6. Hau ezin badu, belauniko eria gatik Aita gure bat eta Ave Maria esatea. 7. Bidariai edo Peregrinoai etxean leku ematea edo ematea zerbait. 8. Eriak ekustea ta hitz onakin laguntzea. 9. Aserre daudenai bakeak eragitea. 10. Etsaiekin bakeak egitea. 11. Gaizki dabillena zuzentzea. 12. Ez dakienari erakustea Zeruko bidea ta Doktrina. 13. Bost Aita gure ta Ave Maria Kongregante illak gatik esatea. 14. Beste edozein urrikarizko edo miserikordiazko gauza egitea.</p>
+<p>15. Orra zenbat ondasun dakartzien asko kostatzen ez den Aita Santuaren Kongregazioko Buldak. Ez duten Kongregazioak ez dezatela ekarri gabe utzi, galdu ez ditzaten Kongreganteak, bestela ere egin behar dituzten gauzekin irabazi ditzakeen Induljenziak.</p>
+<p><hi rend='Bold'>OBISPO JAUNEN INDULJENZIAK</hi></p>
+<p>16. Naiz Kongregazioak Bulda izan, ta naiz ez, irabaz ditzakee Kongreganteak D. Gaspar de Miranda Iru&ntilde;eko Obispo Jaunak eman dituen Induljenziak. Aita Santuak eman dituenen aldean laburrak dira Obispo Jaunarenak: ba&ntilde;a bide geiagoz, ta geiagotan irabaz ditezkeanak. Urtean, illean, hastean ta egunean egiteko, anitz gauza bereixten dituzte Kongregazioko Reglak: eta orietatik edozein egiten den aldi-oroko eman du Obispo Jaunak berrogei eguneko Induljenzia.</p>
+<p>17. Emen arkitzen diran iru Bederatzi-urrenetako egunetan Kongreganteak, eta ga&ntilde;erako egiten dituztenak irabazten dute egun oro berrogei eguneko induljenzia. Beste berrogei egunekoa erraten duten oro otoitz labur hau Jesus maitea, beti ta non-nai zor dizut asko, ta ez gutienik Aldareko Sakramentuan: nere zorrai nola-ere-bait eranzun naiez nago: guzien, ba&ntilde;a lenbiziko lekuan, Aldarekoen alde ematen dizut nere bihotz guzia.</p>
+<p>25. [18] Biziak irabazten duen barkazioa edo induljenzia utz dezake Purgatorioan dagoenaren zorren alde. Biziak, elkarrekin bezala, Purgatoriokoekin ere badugu senidetasuna: guziok gara Jesus bere burutzat ezagutzen duen gorputzaren ezurrak eta Eliza Santuko humeak: eta elkarri biziak geren otoitz ta obra onakin laguntzen diogun bezala, lagundu behar diegu hal dugunean Purgatoriokoai ere. Geren lanakin nola hau egin dezakegun erakutsi dugu reglarako &#167;.III.p.316.n.9. Lan on ta penitenzien paguarekin bezala, lagun dakieke barkazio ta induljenziekin ere. Utzazu bada Jaunaren eskuan, irabazten dezun induljenzia; eskatzen diozula izan dedilla geiena zor diozun alde edo besteren batenzat, arkitzen bada orietatik, ezperen berak nai duenarendako. Egiten badezu, egi&ntilde;az ez dezu damu izain egunen batean.</p>
+<p><hi rend='Bold'>&#167;. XIII.</hi></p>
+<p><hi rend='Bold'>JESUSEN BIHOTZAREN BEDERATZI-URRENA EGITEN DUENARI</hi></p>
+<p>Aita Eternoaren eskuan daude behar ditugun eta ga&ntilde;erako gauzak. Eska dakioke berari edozein; ta, eskatzen zaiola ongi, ez du behar denik ukatuko. Orregatik ere aditzera emana daduka nai duela eska dakion eskatzen zaiona, bere Semearen Bihotzeko maitatze andia gatik; eta ez duela ukatuko onela eskatzen zaion gauzarik. Nai duenak Bitarteko izan semea ta erditsi Aita gandik eskatzen diona, egin bezo emen arkitzen den Bederatzi-urrena, garbiturik konfesioko iturrian bere bihotza; bada zenbat garbiagoa bihotza, anbat prestago zeruko ondasunetarako. Hau egin dezake Bederatzi-urrena asi ba&ntilde;o len edo onen egunetatik batean. Len edo aspaldian egin ez duenak egin beza konfesio jenerala, Bederatzi-urrena egiten duenean.</p>
+<p>Duenak zer eman ez dio hitz egiten bitartekoari esku utsakin; nai duena obeki eragitea gatik, eramaten dio hal duen presenta. Gure bitarteko Jesus onak ez du gure gauzen beharrik: hala ere ongi artzen du bihotz osoz ematen ta egiten zaiona; edo ongi deritza beraren izenean egiten den edoze&ntilde; gauzari. Orrelakoak dira Eriren bat ekustea, egiteko estuetan arkitzen denari laguntzea; izerdi ta nekeetan dagoenari eskua ematea; uste etzuen lan gaixtoren batean sartu denari ateratzeko bidea erakustea; eskean dabillenari edo beharrean arkitzen den edoze&ntilde;i hal dena luzatzea: baita baruak ateratzea ere; otorduetako jan edanetik zerbait uztea; begiratze, hitz egite ta ga&ntilde;erako gauzetan oharturik bizitzea; lanak egitea kenzen ez duen ta zerbait mi&ntilde; edo o&ntilde;aze ematen duen silizio edo korapilluzko lokarriren batekin gorputza estuturik ekartzea: mezak enzutea; Purgatorioan erretzen dauden Aide, zor diegun eta ga&ntilde;erakoak gatik Aldareetako otoitz edo erreguak egitea, eta al ditugun lagun guziak Jesusen Bihotzaren maitatzalleak egitea. Libruetan irakurtzea. Orra Bederatzi-urrena egiten denean egin ditezkean zenbait gauza.</p>
+<p>Onak izanik ere gauza oiek guziak, guziak ba&ntilde;o geiago nai du Jesusek bihotz bat. Nai duenak bada, Arteko sendo gerta dakion bere Aitarekin, utz beza Jesusen eskuetan bere bihotza, dituen asmo, gogo ta egiteko guziakin. Egin dezake ori bederatzi-urrena asitzean, ta gero noizean bein pag. 398. arkituko duen otoitzarekin.</p>
+<p><hi rend='Bold'>LENBIZIKO EGUNA</hi></p>
+<p>Kristo Jauna dagoen Aldarera begira zaudela, Elizan bazaude, edo haren Bihotzaren Imajinaren o&ntilde;etan zinatu, ta errain dezu Nere Jesu-Kristo Jauna, <foreign>&amp;c</foreign>. ta gero</p>
+<p><hi rend='Bold'>EGUN OROKO LENBIZIKO OTOITZA</hi></p>
+<p>Ondasun guzien jaun ta jabe zaran Jesus maitea: behartsuak gara zu gana gatozenak: zuri gure beharrak eta premiak agertzera gatoz, oriek eskatzen dutena ta gure onerako den guzia emain diguzulako uste osoan. Adi gaitzatzu arren, zere Bihotzeko amore andia gatik. Amen.</p>
+<p><hi rend='Bold'>LENBIZIKO EGUNEKO BIGARREN OTOITZA</hi></p>
+<p>Animen Artzai on Jesus maitea; ardi txar-errebesa bezala ibilli naz ni bekatuen sasian, ta su-lezeko otsotzarren artean: eraman nazazu, sekulako gal ez nadin, ardi onetara, zere Bihotzaren maitatzalleetara, ikas dezadan nik ere nola zu maitatu, nola bizi ta nola billatu emen behar dudana. Hala gerta dedilla. Amen.</p>
+<p>Jesusen Bihotzaren gurutzeak eta gar-aranzak aditzera ematen dituzten amore-nekeen izenean irur Aita gure ta Ave Maria.</p>
+<p><hi rend='Bold'>EGUN OROKO IRUGARREN OTOITZA</hi></p>
+<p>Oztu diran bihotzak berotzeko, zere Bihotzaren debozioa berriro agertu dezun Jesus maitea; gal ez ditzaten, jakin gabez, debozio onen ondasunak, emaiezu Lurreko guziei onen ezaguera andi bat, ezaguturik zure Bihotzari zor zaion amorea ta gu gatik eraman dituzun neke, izerdi, odol-ixurtze, txarkeri ta eriotz gogorra, asi gaitezen amorez erantzuten zure amoreari ta damuz zure neke-damu andiei. Iguzu, Jesus, asitzeko ez ezik, eriotz-hordura&ntilde;o onetan irauteko grazia. Amen.</p>
+<p>Eska zagozu Jainkoari, Jesusen Bihotzeko amore-nekeak gatik, nai dezun guzia. Gero esazu.</p>
+<p>A&ntilde;a. <hi rend='Italic'><foreign>Improperium expectavit Cor meum &amp; miseriam, &amp; sustinui, qui simul contristaretur, &amp; non fuit, &amp; qui consolaretur, &amp; non inveni.</foreign></hi></p>
+<p><foreign> Vers. <hi rend='Italic'>Discite &agrave; me, quia mitis sum, &amp; humilis Corde.</hi></foreign></p>
+<p><foreign> Res. <hi rend='Italic'>Et invenietis requiem animabus vestris.</hi></foreign></p>
+<p><foreign><hi rend='Bold'>OREMUS</hi></foreign></p>
+<p><foreign><hi rend='Italic'> Domine Jesu, qui ineffabiles Cordis tui divitias Ecclesiae Sponsae tuae singulari dilectionis beneficio aperire dignatus es, concede propitius, ut gratijs colestibus ex hoc dulcissimo fonte manantibus corda nostra ditari, ac recreari mereantur. Qui vivis, &amp; regnas in saecula saeculorum. Amen.</hi></foreign></p>
+<p>Latinez aditzen ez duenak latina utzi, ta esan dezake.</p>
+<p>A&ntilde;a. Illuntasunez, nekez ta izerdiz beterik daduzkadala nere gorpuz-Bihotzak ez dut idiro lagunzallerik, edo nork arindu zerbait nere tristura.</p>
+<p><foreign>Vers. </foreign>Ikasi nigandik bihotzeko beratasuna, ez aserretzea ta ez burua goratzea.</p>
+<p><foreign>Resp. </foreign>Ori da alaba&ntilde;a ongi ta aisa bizitzeko bidea.</p>
+<p><hi rend='Bold'>OTOITZA</hi></p>
+<p>Kont-al ba&ntilde;o ondasun geiago zere Bihotzeko Debozioan Elizari berriro agertu diozkatzun Jesus maitea, Bihotz onetako amore andia gatik iguzu gure bihotzak garbitzeko behar dugun graziaren ura ta zu zi&ntilde;ez maitatzeak eskatzen duen guzia. Bai arren, Aitarekin ta Espiritu Santuarekin bat zaran Jesus ona. Amen.</p>
+<p><hi rend='Bold'>ORAIN, KOMUNIOKO EGUNETAN TA NOIZ NAI ERRAN DITEKEAN TA ANITZ BALIO DUEN OTOITZA</hi></p>
+<p>Jesusen Anima, birtutez bete nazazu.</p>
+<p>Jesusen Bihotza, amorez erre nazazu.</p>
+<p>Jesusen Gorputza, salba nazazu.</p>
+<p>Jesusen Odola, amorez zora nazazu.</p>
+<p>Jesusen Bihotzeko ura, garbi nazazu.</p>
+<p>Jesusen Izerdia, graziazko biziz bete nazazu.</p>
+<p>Jesusen Pasioa, indarsu egin nazazu.</p>
+<p>Nere Jesus Ona, adi nazazu.</p>
+<p>Zure Llagetan, zure Biotzaren erdian gorde nazazu.</p>
+<p>Ez nadilla ni etsaien eskuetan erori.</p>
+<p>Nere eriotzeko orduan dei nazazu.</p>
+<p>Zere gana eraman nazazu.</p>
+<p>Zure Santuekin alaba zaitzadan beti, sekula guzian. Amen.</p>
+<p><hi rend='Bold'>BIGARREN EGUNEKO BIGARREN OTOITZA</hi></p>
+<p>Hume txar eskergabe gaixtoak gara gu, Jesus maitea; bada, egin beharra egin lekuan, egin ditugu zuri atsekabe eman dizuten anitz gauza ta txarkeri. Egi&ntilde;az damuturik arkitzen gara. Barka izkitzu orainda&ntilde;oko gure uts-egiteak: eta iguzu, berririk ez egiteko, ta hume onak bezala, zure erranak zuzen egiteko grazia: baita orain eskatzera goazena ere. Amen.</p>
+<p><hi rend='Bold'>IRUGARREN EGUNEKO BIGARREN OTOITZA</hi></p>
+<p>Gu gana guztiz aserre dago, Jesus, zure Aita maitea. Aserretu da egin dizkitzugun txarkeriak gatik. Zere aldetik barkatu ez ezik, erditsi behar diguzu Aita gandik guzien barkamentua. Eman behar diguzu hura berriz ez aserretzeko grazia; ta orain eskatzera goazen beste gauza. Eskatzen dizugu zere Bihotzeko amorea gatik. Ala gerta dedilla. Amen.</p>
+<p><hi rend='Bold'>LAURGARREN EGUNEKO BIGARREN OTOITZA</hi></p>
+<p>Berandu bad-ere, ezagutu dut, Jesus, ni gatik dirala zure Bihotzaren tristurak eta ga&ntilde;erako nekeak. Neke-tristura oriek arindu naiez nago. Indazu orretarako behar dudana. Indazu nere kulpen zi&ntilde;ezko damua; bekatu berririk ez egiteko grazia; ta egun eskatzen dizudana. Eskatzen dizut zure Bihotzak ekusi duena gatik. Amen.</p>
+<p><hi rend='Bold'>BOSTGARREN EGUNEKO BIGARREN OTOITZA</hi></p>
+<p>Geiegi nai diguzu, Jesus; ez da gu gatik ekusi ez dezunik. Gu gatik artu zaituzte preso, urratu zaituzte burutik onetara&ntilde;o ta, gurutze batean josirik, kendu dizute bizia. Ze&ntilde; andia den zure Bihotzari zor diogun amorea! Iguzu, hau ezagutzeko, oni eranzuteko ta ongi bizitzeko behar duguna; ukatu gabe eskatzera goazen oraingo gauza. Amen.</p>
+<p><hi rend='Bold'>SEIGARREN EGUNEKO BIGARREN OTOITZA</hi></p>
+<p>Badakit, Jesus maitea, gurutzetik ekusi zenuenean begira zegokizun zere Ama, itsasoko ur gaziak ba&ntilde;o gaziagoak zirala zuen Bihotzetako estutasun-neke-tormentuak: orduko bien tormentu gazi-gogorrak gatik, eman behar didazu, nere nekeen artean, behar bezala egoteko grazia; ta orain eskatzera noana. Amen.</p>
+<p><hi rend='Bold'>ZAZPIGARREN EGUNEKO BIGARREN OTOITZA</hi></p>
+<p>Ikas dezagula, diozu, Jesus, zure Bihotzak erakusten digun beratasuna ta ixillera. Illzera daramaten ardia bezain ixill ta humill igan zi&ntilde;an galbarioko mendira; ta ezpa&ntilde;ak erabilli bazenituen gurutzean, izandu zen zere etsaien alde hitz-egiteko. Hitz-egiozu orain ere ta eska zagozu Aitari, digula zurea dirudien bihotz ixil, manso, humill bana; ta ga&ntilde;erako behar dugun guzia. Amen.</p>
+<p><hi rend='Bold'>ZORTZIGARREN EGUNEKO BIGARREN OTOITZA</hi></p>
+<p>Zure atsegin ta gustoa dela diozu, Jesus, anima garbien artean bizitzea: orregatik gelditu zara gurekin Aldareko Sakramentuan. Zori onekoak garbiro ta askotan zu ganatzen diranak! Indazu zureari darion uretik nere Bihotza garbitzeko behar dudana; ager nadin maiz zuri atsegin egitera ta nerau aberastera. Indazu orain eskatzera noan gauz ere. Amen.</p>
+<p><hi rend='Bold'>BEDERATZIGARREN EGUNEKO BIGARREN OTOITZA</hi></p>
+<p>Indazu, erraten dit Jesusek, indazu nere semea, zere bihotza. Ez dit geiago eskatzen ni gatik egin ta eraman duenaren alde. Ze&ntilde; ona, zen maitagarria den guretzat gure Jesus! Gaurgero zuri nola nik uka nere bihotza edo bihotz osoz zu ta zi&ntilde;ez maitatzea? Indazu orretarako behar dudana, ta Bederatzi-urren onetan eskatu dizudan guzia. Ala gerta dedilla. Amen.</p>
+<p><hi rend='Bold'>JESUSEN BIHOTZAREN DEBOZIOARI</hi></p>
+<p>Gure gusto, gure atsegin,</p>
+<p>gure Jesus maitea:</p>
+<p>Zere Bihotzeko suan</p>
+<p>erre zazu gurea.</p>
+<p>Gure obenak, gure loiak</p>
+<p>lenik kendu behar dira;</p>
+<p>Ura zara, ken itzatzu,</p>
+<p>galdu gara bestela.</p>
+<p>Badakigu zaudela</p>
+<p>gure amorez betea:</p>
+<p>zere Bihotzeko suan</p>
+<p>erre zazu gurea.</p>
+<p>Etzeuden bakarrik loiak</p>
+<p>gure bihotz gaixtoan;</p>
+<p>busti ta ur egi&ntilde;a dago,</p>
+<p>bekatuen kutsuan.</p>
+<p>Garbia da, idor dago</p>
+<p>Jesus ona, zurea:</p>
+<p>zere Bihotzeko suan</p>
+<p>erre zazu gurea.</p>
+<p>Argiz dago beterik,</p>
+<p>Jesus, zure Bihotza;</p>
+<p>illunbean gurea</p>
+<p>elurra bezain otza.</p>
+<p>Emen gatoz, ager zazu</p>
+<p>zu ganako bidea;</p>
+<p>zere Bihotzeko suan</p>
+<p>erre zazu gurea.</p>
+<p>Noizbait noizbait arkitu dut</p>
+<p>bular hori idikia!</p>
+<p>sartuko naz, ar nazazu</p>
+<p>Bihotzean guzia.</p>
+<p>Egon behar ez ote dut</p>
+<p>nik or beti gordea?</p>
+<p>zere Bihotzeko, <foreign>&amp;c</foreign>.</p>
+<p>Zure suak, zure garrak</p>
+<p>auts egi&ntilde;en naute ni?</p>
+<p>Geroztik egoin ninzake</p>
+<p>amorez urtzen beti.</p>
+<p>Jesus, zu zaran ezkero</p>
+<p>gure animen labea;</p>
+<p>zere Bihotzeko, <foreign>&amp;c</foreign>.</p>
+<p>Hau zer da? Zer penak dira</p>
+<p>dituzunak barrendik?</p>
+<p>zure Bihotza utzi dute</p>
+<p>dena nekez beterik!</p>
+<p>ze&ntilde; andi ta gogorra den</p>
+<p>daramazun nekea!</p>
+<p>zere bihotzeko suan, <foreign>&amp;c</foreign>.</p>
+<p>Zure Bihotza arkitzen da</p>
+<p>lantzaz erdiratua:</p>
+<p>nere kulpen burdi&ntilde;a da</p>
+<p>lantz erdiratzallea.</p>
+<p>Damuz autsi baledi</p>
+<p>nere barren tristea!</p>
+<p>zere Bihotzeko suan, <foreign>&amp;c</foreign>.</p>
+<p>Arantza zorrotzak baizik</p>
+<p>ez dezu nere eskutik:</p>
+<p>nere kulpen arantzakin</p>
+<p>dena zaude odolturik.</p>
+<p>Ah ni baldin banengo</p>
+<p>negar, damuz asea!</p>
+<p>zere Bihotzeko suan, <foreign>&amp;c</foreign>.</p>
+<p>Gure kulpak egin dute</p>
+<p>Gurutze sendor ori;</p>
+<p>ezartzen diote kulpak</p>
+<p>zure Bihotz onari.</p>
+<p>Kulpa gaixto, oben gogor,</p>
+<p>oben kulpa nerea!</p>
+<p>zere Bihotzeko suan, <foreign>&amp;c</foreign>.</p>
+<p>Zer nai duzu? Zertan zaude,</p>
+<p>Jesus ona, Aldarean!</p>
+<p>txarkeriak artzen dago</p>
+<p>amorezko lekuan.</p>
+<p>Txarkerien pena nai du;</p>
+<p>nai du gure amorea.</p>
+<p>zere Bihotzeko suan, <foreign>&amp;c</foreign>.</p>
+<p>Ez dut behar maitatu</p>
+<p>Jesus zure bihotza!</p>
+<p>artu behar ez dut nik</p>
+<p>zure nekeen damua!</p>
+<p>Eske nator, zabal zazu</p>
+<p>sarbideko Atea,</p>
+<p>zere bihotzeko suan</p>
+<p>erre zazu gurea.</p>
+<p><hi rend='Bold'>SAN IGNAZIO LOIOLAKOAREN BEDERATZI-URRENA</hi></p>
+<p>Egin behar duenari.</p>
+<p>Bere Semea gatik ez ezik, Santuren bat bitarteko sartzen zaionean ere, eman oi ditu Jainkoak, berari zuzen eskatzen zaizkanean, ukatzen dituen zenbait gauza. Orregatik zerbait argandik nai dugunean, askotan bera gana ba&ntilde;o lenago goaz Santuren baten gana; eta, zeren zenbait aldiz Santuak ere ez aditu egiten diguten lenbizian, berriz ta geiagotan eskatzen diegu izan ditezela Jaunarekiko gure Arteko.</p>
+<p>[1.] Onelako eskatzeak irauten dute zenbait egunez; ta, izen edo otsik andiena dutenak, bederatziz. Bederatzi egunez irauten duen eskatzeari deitu dakioke Bederatzi-urrena.</p>
+<p>2. Geiena lagunduko diola deritzan Santuari egiten dio bakoitzak egun horietako bere eskaera edo Bederatzi-urrena. Bateki&ntilde; ba&ntilde;o bestearekin geiago ez dutenentzat badira zenbait Santu orretarako jaioak diruditenak. Orien artean konta ditezke Loiolako Aita San Ignazio ta onen Seme andi San Franzisko Xabier; bada biak izandu dira beti esku andikoak, billatu dituztenen onerako: ta orretaratzen bagi&ntilde;a, eunka ta millaka kontatu beharko genituzke aldi horietan egin dituzten gauza andiak edo milagroak.</p>
+<p>3. Laguntza Santuaren hau zu ganatzeko, bederatzi-urrenari zakitzanean, egin behar dituzu haren izenean zenbait gauza. Egin ditzaketzu Jesusen Bederatzi-urrenerako berezi ditugunak. Lekurik badezu, irakurri zazu egun orietan Santuaren bizitza edo beste libru onen bat.</p>
+<p>4. Nai zenuen gauza gabe arkitua gatik Bederatzi-urrena egin ondoan, ez dakizula iduri denbora galdu besterik egin ez dezula. Humeari ongi nai dion Aitak ez dio eskatzen duen kanibeta ematen; ta, haren lekuan, ematen dio behar duen janaria ta gauza. Zer behar dugun ta zer gure gaitzerako izain den guk ba&ntilde;o obeki dakien Jaunaren humeak gara; bide onez eskatzen dioguna ukatzen badigu, galdu ez gaitzan da; ta haren orda&ntilde;ez ematen digu on egi&ntilde;en digun gauzaren bat.</p>
+<p><hi rend='Bold'>LENBIZIKO EGUNEAN EGIN BEHAR DENA.</hi></p>
+<p><hi rend='Bold'>ZI&Ntilde;ATU, TA NERE JESU-KRISTO JAUNA <foreign>&amp;c</foreign>. ERRAN ONDOAN, EGUN ORO LENBIZIKO LEKUAN EGIN BEHAR DEN OTOITZA</hi></p>
+<p>Jaunaren glori andirako ta munduko guziai lagundu naiez Jesusen Konpa&ntilde;ia ekarri zenuen Aita S. Ignazio, lagun zakizkit zure izenean egiten dudan bederatzi-urren onetan; ta, ikusten ezpadezu nere gaitzerako dela, erditsi behar didazu Jauna gandik egun eskatzen diodana. Amen.</p>
+<p><hi rend='Bold'>LENBIZIKO EGUNEAN BAIZIK EGITEN EZ DEN OTOITZA</hi></p>
+<p>Andia zen Aita San Ignazioren si&ntilde;estea ta fedea; hau ba&ntilde;o lenago utziko zuela, zion, bere bizia. Ill zen artean egin zuen al egi&ntilde;a si&ntilde;iste bera ta fedea arreraztea gatik Hereje gaixto, Turko ta Jentilei. Onetan ta bere sinistearekin egin zuen irabazia gatik, indazu arren, Jesus, gure legeko misterio ta gauza guzien si&ntilde;iste bizi-sendo bat; baita egun eskatu behar dudan guzia ere. Amen.</p>
+<p>&#182; Orain A. San Ignaziok Trinidadeko Personekin izandu zuen debozioaren izenean, iru Aita gure ta Ave Maria.</p>
+<p><hi rend='Bold'>EGUNORO EGIN BEHAR DEN IRUGARREN OTOITZA</hi></p>
+<p>Jesusen Konpa&ntilde;ia bildu ta zuzendu zenuen Aita San Ignazio, zuzendu nai nuke nik ere nere bihotza, ta utzi nere Jesus onari begira. Itsua bezala bizi naz, ta ez dakidala eskatzen ditudan gauzak gai diran onetarako edo ez. Dakizunak bezala lagundu behar didazu egiteko onetan; ta, nere naiari begiratu gabe, eska zagozu Jaunari nere onerako izain dena; ta, orrelakoa bada, beste gauzen artean, orain zure izenean eskatzera noakiona. Amen.</p>
+<p>&#182; Zenbait denboraz egoin zara Aita San Ignazioren izenean Jainkoari eskatzen nai zenukeana ta behar dezun guzia.</p>
+<p><hi rend='Bold'>AZKENEAN EGIN BEHAR DEZU AITA SAN IGNAZIOK</hi></p>
+<p><hi rend='Bold'>JAUNARI EGIN OI ZION OTOITZA</hi></p>
+<p>Ona, Jauna, zure eskuetan uzten ditut nere eskua, nere adimentua ta borondatea. Ez dut nik zu gandik artu gabeko gauzarik: zurea da dudan guzia: guzia biurtzen dizut, jabeari bezala. Ez dut gaurgero zuri ez dagokizun gauzarik nai. Ba&ntilde;a, zureak diran ezkero nere gauzak, erakutsi zadazu nola egin; edo nola zu zi&ntilde;ez maitatu; bada maitatze onetatik datoz gauzak zuzen egitea ta sekulako gloria. Orregatik maitatze hau da nik nai dudan guzia ta orain eskatzen dizudana. Indazu arren. Amen.</p>
+<p><foreign> A&ntilde;a. <hi rend='Italic'>Similabo eum viro sapienti, qui aedificavit domun suam supra petram.</hi></foreign></p>
+<p><foreign> Vers. <hi rend='Italic'>Amavit eum Dominus, &amp; ornavit eum.</hi></foreign></p>
+<p><foreign> Resp. <hi rend='Italic'>Stolam gloriae induit eum.</hi></foreign></p>
+<p><foreign><hi rend='Bold'>OREMUS</hi></foreign></p>
+<p><foreign><hi rend='Italic'> Deus, qui ad majorem tui nominis gloriam propagandam novo per B. Ignatium subsidio militantem Ecclesiam roborasti, concede, ut ejus auxilio, &amp; imitatione certantes in terris coronari cum ipso mereamur in Colis. Qui vivis, &amp; regnas in saecula saeculorum. Amen.</hi></foreign></p>
+<p><hi rend='Bold'>BIGARREN EGUNEKO BIGARREN OTOITZA</hi></p>
+<p>Eskatzen dugunaren emalle on Jaun maitagarria, iguzu Aita San Ignazioren izenean, oni eman zenion bezalako uste ta esperanza andi bat. Ezin si&ntilde;istu zuen onek ukatu behar zeniola eskatzen zizun gauzarik. Nik ere, ukatuko ez didazulako ustean, eskatzen dizut, lenik Zerua irabazteko behar dudan grazia, ta gero zuri orain eskatu gogo dizudana. Arren indazu. Amen.</p>
+<p><hi rend='Bold'>IRUGARREN EGUNEKO BIGARREN OTOITZA</hi></p>
+<p>Andiak ziran Aita San Ignazioren birtuteak; eta etzen txikiena Jainkoari zion ongi naia ta amorea: onek idarokitzen zion: lagun zakizkit zu zi&ntilde;ez maitatzen: maitatze onegatik ez dut berriro ta obeki zu maitatzea beste pagurik nai! Indazu, Jesus, onen bihotza berotu zuen sutik zerbait, maita zaitzadan nik ere orainda&ntilde;o ez bezala: baita orain eskatu behar dizudan beste gauza ere. Amen.</p>
+<p><hi rend='Bold'>LAUGARREN EGUNEKO BIGARREN OTOITZA</hi></p>
+<p>Zu maite zaituenak, Jesus ona, maite ditu zureak, eta zureak gatik egiten du zuk orretarako nai dezuna. Hau da San Ignaziok egin zuena: bada, zu gana zenetik ill artean, beti zebillen mundukoak zuzentzen ta nondik zeruan sarreraziko zituen. Orretan eman zizun atsegin andia gatik indazu arren nere hitz eta gauza guziekin ekusten nautenai Zeruko bidean lagunzeko grazia; ta orain eskatzen dizudana. Amen.</p>
+<p><hi rend='Bold'>BOSTGARREN EGUNEKO BIGARREN OTOITZA</hi></p>
+<p>Arrigarria da, Jesus, zuk ixillik eta pazienzian gu gatik eraman dezuna. Zu gandik ikasi zuen Aita San Ignaziok nola eraman Presondegiak, kateak, makil-ukaldeak, desohore, gose-egarri ta ga&ntilde;erako nekeak. Gu gatik zuk eta zure izenean onek eraman zuena gatik, iguzu gure nekeak eta estutasunak behar bezala eramateko grazia; baita orain eskatu behar dizuguna ere. Amen.</p>
+<p><hi rend='Bold'>SEIGARREN EGUNEKO BIGARREN OTOITZA</hi></p>
+<p>Bihotz garbiak maite dituzun Jesus ona, garbitu zenion Aita San Ignaziori aragiaren su, gar ta tentazioetatik berea; bidaldurik orretarako Zerutik zere Ama. Indazu nere bihotza garbitzeko behar dudan grazia ta orain adiraziko dizudana. Eskatzen dizut S. Ignazioren, Birjin Amaren ta zure Bihotz garbiaren izenean. Amen.</p>
+<p><hi rend='Bold'>ZAZPIGARREN EGUNEKO BIGARREN OTOITZA</hi></p>
+<p>Aitak nai duena baizik nai ez dezun Jesus maitea; badakusazu nola S. Ignaziok egin zuen hal egi&ntilde;a zure Legeak diona egin ta eragitea gatik: orretan eman zizun atsegin andia gatik, iguzu zuk nai dezuna egiteko grazia; ta orain eskatzera goazena. Amen.</p>
+<p><hi rend='Bold'>ZORTZIGARREN EGUNEKO BIGARREN OTOITZA</hi></p>
+<p>Aberats izan zindezkeala, nekeak eta beharra besterik ikusi etzenuen Jesus maitea; San Ignaziok, zurearen iduriko bizitza egitea gatik, utzi zituen lurreko ondasunak, honrak eta gauzak; eta, ah! zein ziki&ntilde;a iduritzen zaidan mundua bere gauzekin &mdash;esan oi zuen&mdash;, Zeruaz ta an uste dudan atsegin-kontentuaz oroitzen nazanean! Nai nuke nik ere bide hau artu. Zuk eta Santu andi onek egin dezutena gatik indazu lan onek eskatzen duen grazia; baita eskatzera noan bertze gauza ere. Amen.</p>
+<p><hi rend='Bold'>BEDERATZIGARREN EGUNEKO BIGARREN OTOITZA</hi></p>
+<p>Seme onak bezala maite dezu, Jesus, zere Ama; ta nai dezu maita dezaten besteak ere. Maitatzallerik izandu badu, izandu da bat Aita San Ignazio. Mundua utzi horduko billatu zuen zure Ama: billatu zueneko erakutsi zion Zeruko bidea, erakusten ziola Exerzizioetako Libru ederrean dagoena. Onek nai izandu ziona gatik, iguzu guri ere maitatasun ederraren Ama hau zi&ntilde;ez ta beti maitatzeko grazia; ta, Zeruko gloria diguzun artean, bizitza txar hau ongi igarotzeko behar duguna. Amen.</p>
+<p><hi rend='Bold'>AITA SAN IGNAZIO LOIOLAKOARI</hi></p>
+<p>Badakizu, San Ignazio,</p>
+<p>Etsai anitz dugula: (bai bai)</p>
+<p>guziakin peleara</p>
+<p>noiz nai aterako gara,</p>
+<p>zu bazatoz gugana. (zi&ntilde;ez)</p>
+<p>Etzaude galtzera uzteko</p>
+<p>billatzen zaituena: (ez ez)</p>
+<p>behartuko bazindugu,</p>
+<p>Euskaldunak uste dugu</p>
+<p>diguzun zuk eskua. (bai bai)</p>
+<p>Izan zi&ntilde;an zu Loiolan,</p>
+<p>ez bein, bitan jaioa: (bai bai)</p>
+<p>bein Soldadu mundurako,</p>
+<p>urrengoan Zerurako;</p>
+<p>len ta gero Euskalduna, (bai bai)</p>
+<p>Soldadeska Mundukoan</p>
+<p>izan zi&ntilde;an andia: (bai bai)</p>
+<p>Anditasun lurrekoak</p>
+<p>etziran deus, Zerukoak</p>
+<p>jaitsi ezkero zu gana (ez ez)</p>
+<p>Non da gerra? non da etsaia</p>
+<p>zu izutu zinduena? (non? non?)</p>
+<p>armak, lanzak, suak, garrak,</p>
+<p>etsai guzien indarrak</p>
+<p>zure kontra zer dira? (zer? zer?)</p>
+<p>Nondik nai ta nai adi&ntilde;a</p>
+<p>zetozela zu gana; (noiz [noiz])</p>
+<p>igesi nor-nai lijero</p>
+<p>zijoan, artu ezkero</p>
+<p>zuk eskuan ezpata. (bai bai)</p>
+<p>Artzeko zeuden Franzesak</p>
+<p>Iruindarren Erria: (bai, bai)</p>
+<p>orduan zu sarzen zara,</p>
+<p>laster zoaz armetara,</p>
+<p>ta arritzen da Franzesa. (bai, bai)</p>
+<p>Murallak galduak zeuden,</p>
+<p>galdurik Gaztelua; (bai, bai)</p>
+<p>zu bertan ez agertzera</p>
+<p>muru sendor izatera</p>
+<p>sartua zen Franzesa. (bai, bai)</p>
+<p>Iru&ntilde;eko ta Espa&ntilde;ako</p>
+<p>Gazteluak zer dira? (zer? zer?)</p>
+<p>munduaren lau Bazterrak,</p>
+<p>onen Erresuma ederrak</p>
+<p>daude zure kontura. (bai, bai)</p>
+<p>Negarrez beterik dago</p>
+<p>zure deiez mundua: (bai, bai)</p>
+<p>nago, dio, ni galtzeko</p>
+<p>ta Infernuan erretzeko,</p>
+<p>ezpazatoz ni gana. (bai, bai)</p>
+<p>Atoz, atoz, San Ignazio,</p>
+<p>atoz arren onara; (laster)</p>
+<p>bekatuak, herejiak,</p>
+<p>munduko gaixtakeriak</p>
+<p>emen nere gain dira. (bai, bai)</p>
+<p>Erregeen Soldadeska</p>
+<p>utzazu bereala: (bai, bai)</p>
+<p>artu zazu Zerukoa,</p>
+<p>hau da, bai, hau honrazkoa,</p>
+<p>ez zuk orain dezuna. (ez ez)</p>
+<p>Bala batek bota zaitu</p>
+<p>murallatik lurrera. (bai, bai)</p>
+<p>Buru ta ezurrak austea,</p>
+<p>tripa, esteak urratzea</p>
+<p>da gerra onen pagua. (bai, bai)</p>
+<p>Badu beste Soldadeskak</p>
+<p>sekulako gloria: (bai, bai)</p>
+<p>hara gero zu zoazen,</p>
+<p>ta zurekin gu goazen,</p>
+<p>atoz atoz onara. (fite)</p>
+<p>Sendatzera zu San Pedro</p>
+<p>laster etorriko da. (bai, bai)</p>
+<p>Ba&ntilde;a indarrak izain dira</p>
+<p>eramateko (begira)</p>
+<p>mundukoak Zerura. (bai, bai)</p>
+<p>Birjina dator uztera</p>
+<p>zu birtutez jaunzia: (bai, bai)</p>
+<p>Ori da arrek zu egitea</p>
+<p>Soldadu ta moldatzea</p>
+<p>gu ganako bidea. (bai, bai)</p>
+<p>Ea laster bildu zazu</p>
+<p>Jesusen Konpa&ntilde;ia: (laster)</p>
+<p>zu Kapitan bazaitugu,</p>
+<p>erraz garaituko dugu</p>
+<p>guk Infernu guzia (erraz)</p>
+<p>Zure Kartak len zeduzkan</p>
+<p>Debruak ikara: (bai bai)</p>
+<p>Infernuan oik sartzeko,</p>
+<p>ta ondatuak gaur uzteko,</p>
+<p>asko da zure izena. (bai bai)</p>
+<p>Espa&ntilde;ian ta Italian</p>
+<p>bada zure beharra: (bai, bai)</p>
+<p>Afrikako bazterretan,</p>
+<p>Asian ta Indietan</p>
+<p>ai! agertzen bazi&ntilde;a! ai! ai!</p>
+<p>Franzia ta Germania,</p>
+<p>Polonia guzia: (ai! ai!)</p>
+<p>Flandes, Olanda, Hungaria</p>
+<p>Dinamarka ta Eskozia</p>
+<p>zer egin ote dira? (zer, zer)</p>
+<p>Inglaterra ta Irilanda;</p>
+<p>Turkoaren erria, (ai, ai)</p>
+<p>Suezia, Moskobia,</p>
+<p>Tibet, Mogol, Tartaria,</p>
+<p>Txina, Japon non dira! (non? non?)</p>
+<p>Guziak eta geiagok</p>
+<p>dute zure beharra: (bai, bai)</p>
+<p>Atoz bada lagunzera</p>
+<p>diranai, ta eramatera</p>
+<p>nai dutenak Zerura. (zuzen)</p>
+<p>Lagunzeko zuk guziai,</p>
+<p>ez da zer utzi Roma: (ez ez)</p>
+<p>zure Seme Soldaduak</p>
+<p>betoz ongi prestatuak;</p>
+<p>ori laguntzea da? (bai, bai)</p>
+<p>Non nai ez egona gatik</p>
+<p>Soldadu Nagusia; (Zer da?)</p>
+<p>Soldaduak badabilza,</p>
+<p>Nagusiak darabilza;</p>
+<p>ta aien lana onena da. (bai, bai)</p>
+<p>Espa&ntilde;ara betor Borja,</p>
+<p>Canisio Nortera, (betor)</p>
+<p>betor Fabro Franziara,</p>
+<p>Xabier Indietara,</p>
+<p>betor Lainez Trentora. (betor)</p>
+<p>Aita Antxeta, Aita Lizardi,</p>
+<p>Aita Claver andia, (betoz)</p>
+<p>Acebedo lagunakin,</p>
+<p>ta Montoya besteekin</p>
+<p>betoz Amerikara. (betoz)</p>
+<p>Hitz batean esain dizut</p>
+<p>esan nai nukeana: (bai, bai)</p>
+<p>Jaunak bidaldua zera</p>
+<p>Semeekin zuzentzera</p>
+<p>Mundu guzi guzia. (bai, bai)</p>
+<p>Ea bada; nai diozu</p>
+<p>eman behar duena? (eman)</p>
+<p>Konpa&ntilde;ia bana zazu</p>
+<p>Munduan, ta bete zazu</p>
+<p>Jesuitez guzia. (bai, bai)</p>
+<p><hi rend='Bold'>SAN FRANZISKO XABIERREN BEDERATZI-URRENA</hi></p>
+<p>Bederatzi-urren hau egiten denean Jesusen Konpa&ntilde;iako Elizan, irabaz ditezke Induljenziak; bat osoa, eta ga&ntilde;erakoak zazpi urte ta zazpitan berrogei egunekoak. Guziak eskatzen dute konfesa-komekatzea ta otoitza. Otoitza egiten zaio Jainkoari komunioko egunean; ta egiten zaio pag. 349. erakutsi deguna gatik; eta egiten da Bederatzi-urrena den Jesusen Konpa&ntilde;iako Elizan. Lenbiziko hau egiten denean irabazten da Induljenzia ta barkazio osoa. Berriz bederatzi egunetan egiten den aldi oro irabazten da zazpi urte ta zazpitan berrogei egunekoa.</p>
+<p>Bederatzi-urrenaren ondotik arkituko dezu San Franzisko Xabier beraren Amar-urrena. Hau egiten den egunetarako bada Induljenzia bera: lenbiziko konfesa-komekatu ta otoitza egiten deneko osoa; ta beste egunetarako zazpi urte ta zazpitan berrogeikoa.</p>
+<p>Egun onelakoetan egin oi diran gauzak arkituko dituzu pag. 355.</p>
+<p><hi rend='Bold'>EGUNOROKO ASIERA</hi></p>
+<p>Santuaren Aldarean edo haren Imajinari begira zaudela zi&ntilde;atuko zera: esain dezu Nere Jesu-Kristo Jauna &amp;. ta egun oro lenbiziko</p>
+<p><hi rend='Bold'>OTOITZA</hi></p>
+<p>Zeruko doaiez ta gloriaz beterik zauden Indietako Apostol San Franzisko Xabier: eskatzen diozun gauzarik ez dizu Jaunak ukatzen: eska zagozu bada gure onerako ta beraren gloriarako den guzia; ta, orrelakoa bada, Bederatzi-urren onetan adiraziko dizuguna. Amen.</p>
+<p><hi rend='Bold'>LENBIZIKO EGUNEKO BIGARREN OTOITZA</hi></p>
+<p>Aingeruen jabe ta Jaun andia; orietatik bat ematen diozu Lurreko bakoitzari, zai dezan ta gorde bizi den artean. Aingeruekin batean erabilli zenuen Lurrekoak zaitzen bere bihotz-asmo garbietan Aingerua zirudien San Franzisko Xabier. Batak eta besteak eman dizuten atsegin andia gatik, iguzu bihotz garbi bana, ta orain eskatzen dugun guzia. Amen.</p>
+<p><hi rend='Bold'>SANTUAREN IZENEAN,</hi></p>
+<p><hi rend='Bold'>IRUR AITA GURE TA AVE MARIA;</hi></p>
+<p><hi rend='Bold'>TA GERO IRUGARREN OTOITZA</hi></p>
+<p>Zer hari diran ez dakiten Aurren ezpa&ntilde;etatik zere laudarioak aditzen dituzun San Franzisko Xabier, nai genuke leuden eriotzeko horduan gure bihotzak Jaunaren amorez beteak, eta zu, guri laguntzeko, geren bazterrean zaitugula; legien Jesusek gure Animei, gorputzak utzirik arganatzen diranean, begitarte ona. Hau eskatzen diogu gure zorren alde eman zuen bizitza ta odola gatik, bere Amaren bihotz garbia gatik, eta zuk irabazi zenuen guzia gatik. Eskatzen diogu, denbora berean, lurreko asmo txarrak uzteko ta zeruko gauzen nai andi bat artzeko behar dugun grazia, bizitza zuzenaren bidez sar gaitezen eriotz onaren eskuetan. Lagun zakizkigu onetan ta ga&ntilde;erako eskatu behar diogun guzian. Amen.</p>
+<p><hi rend='Bold'>ESKA ZAGOZU JAINKOARI,</hi></p>
+<p><hi rend='Bold'>SAN FRANZISKO XABIERREKIN BATEAN, IZAN GOGO DEZUNA.</hi></p>
+<p><hi rend='Bold'>ESAZU GERO SANTUAK EGUN ORO ESAN OI ZUEN OTOITZA</hi></p>
+<p>Oroi zaitez, gauza guziak egiten dituzun Jainko maitea, zuk egi&ntilde;ak dirala bataiatu gabe daudenen animak. Badute, besteak bezala, zure antza ta iduria; ba&ntilde;a gure Legearen berririk gabez, illunbean bezala daude ta galtzeko bidean. Argi egiezu, ezagu dezaten Jesusi zor diotena; balia ditezen onen odolezko Pasio Santuaz ta izan ditezen Zerukoak, Zerutik jaitsirik zure Semeak bere kontura artu zituenak. Bai arren, oriek gatik ezpad-ere, maite gaituzten Santuak gatik eta Elizan edo zure legean bizi diranen otoitzak gatik. Amen.</p>
+<p><foreign> A&ntilde;a. <hi rend='Italic'>Hic vir despiciens mundum, &amp; terrena, triumphans, divitias Colo condidit ore, manu.</hi></foreign></p>
+<p><foreign> Vers. <hi rend='Italic'>Justum deduxit Dominus per vias rectas.</hi></foreign></p>
+<p><foreign> Resp. <hi rend='Italic'>Et ostendit illi regnum Dei.</hi></foreign></p>
+<p><foreign><hi rend='Bold'>OREMUS</hi></foreign></p>
+<p><foreign><hi rend='Italic'> Deus, qui Indiarum gentes B. Francisci praedicatione, &amp; miraculis Ecclesiae tuae aggregare voluisti, concede propitius, ut cujus glorioso merita veneramur, virtutum quoque imitemur exempla. Per Christum Dominum Nostrum. Amen.</hi></foreign></p>
+<p><hi rend='Bold'>BIGARREN EGUNEKO BIGARREN OTOITZA</hi></p>
+<p>Arkanjeloei eman oi dieztezun egitekoak eman zeniozkan S. Franzisko Xabierri; ta egin zituen guziak, zuk nai bezala, zuzen ta ederki; orretan eman zizun atsegi&ntilde; andia gatik, iguzu, Jainko maitea, zuk nai dituzun gauzak behar bezala egiteko grazia; ta orain eskatzen duguna. Amen.</p>
+<p><hi rend='Bold'>IRUGARREN EGUNEKO BIGARREN OTOITZA</hi></p>
+<p>Zeruko Prinzipadua zirudien S. Franzisko Xabierrek, berez, ta, bera ezin zoakeen aldeetara Lagunak bidaldurik, erakusten zebillenean Mundukoai onak izateko ta Zeruan sartzeko jakin behar zutena: zure izenean onek egin ta eragin zuena gatik, indazu arren, Jainko maitea, nereak eta ga&ntilde;erakoen gauzak zuzenzeko behar dudan ezaguera ta grazia; ta orain eskatuko dizudana. Amen.</p>
+<p><hi rend='Bold'>LAUGARREN EGUNEKO BIGARREN OTOITZA</hi></p>
+<p>Zeruko Potestadeak ez ezik S. Franzisko Xabierrek ere aienatzen zituen gorputz-animetatik su-lezeko gaizkigin gaixtoak: onek eta zerukoak zure izenean egin dutena gatik, iguzu, Jaun andia, gure etsaiak garaitzeko behar dugun grazia; ukatu gabe egun eskatu uste dizuguna. Amen.</p>
+<p><hi rend='Bold'>BOSTGARREN EGUNEKO BIGARREN OTOITZA</hi></p>
+<p>Zere Birtuteen eskuz anitz gauz andi egiten dituzun Jaun maitagarria, ez dira txikiak S. Franzisko Xabierrek Zeruan, Lurrean, itsasoan ta non-nai egin dituenak. Zerukoen gauzak gatik, eta lurreko Birtute andi onek egin zituenetan erakutsi zuen humiltasuna gatik, indazu nere gauzetan zure honra ta gloria billatzeko grazia; ta orain eskatzen dizudana. Amen.</p>
+<p><hi rend='Bold'>SEIGARREN EGUNEKO BIGARREN OTOITZA</hi></p>
+<p>Esku andikoak izana gatik Aingeru-Dominazioak, besteak bezain prest daude Jaunak adirazten diena bereala egiteko. Anitzen Nagusi ta Buru bezala zen San Franzisko Xabier; ta al-ere gogo osoz ta trikatu gabe egiten zuen Jaunaren izenean erraten zioten guzia. Onek eta Zerukoak dizuten errespetua gatik, indazu Jainko maitea, zuk zerorrek eta zure lekuan daudenak adirazten didatena zuzen egiteko grazia; ta beste behar dudan guzia. Amen.</p>
+<p><hi rend='Bold'>ZAZPIGARREN EGUNEKO BIGARREN OTOITZA</hi></p>
+<p>Aingeru Tronuen egitekoa bere gain arturik, Mundu guzian ibilli zen S. Franzisko Xabier, Jaunaren Izena ta gure Legeko berri onak banatzen. Orretan eman zizun atsegin andia gatik, indazu, Jainko maitea, zure Legeak erakusten duen bezala bizitzeko grazia ta orain eskatzen dizudana. Amen.</p>
+<p><hi rend='Bold'>ZORTZIGARREN EGUNEKO BIGARREN OTOITZA</hi></p>
+<p>Aingeru Kerubinei ez ezik S. Franzisko Xabierri ere agertu ziozkan Jaunak gauz ta misterio andiak; eta ala onek nola Zerukoak egin zuten agertze ta erakuste onek eskatzen zuena. Orretan artu zenuen atsegin andia gatik, iguzu, Jainko maitea, jakin behar ditugun gauzen berria ta berri onek eskatzen duen bezala bizitzeko grazia; ta orain eskatuko dizuguna. Amen.</p>
+<p><hi rend='Bold'>BEDERATZIGARREN EGUNEKO BIGARREN OTOITZA</hi></p>
+<p>Badakit, Jainko maitagarria, zere amorez urtzen daduzkatzula Aingeru Serafinak: badakit orietatik bat zirudiela S. Franzisko Xabierrek, emen bizi zenean ere: lurreko Serafin onek eta Zerukoak dizuten amorea gatik, iguzu, zu zi&ntilde;ez maitatzeko behar duguna; ta Bederatzi-urren onetan eskatu dizugun guzia. Amen.</p>
+<p><hi rend='Bold'>SAN FRANZISKO XABIERREN AMAR-URRENA</hi></p>
+<p>Zenbaitek egiten diote San Franzisko Xabierri urtean Amar-urren bat. Egiten da amar egunez, Indietan Ebanjelioa erakusten egin zituen amar urteen izenean: ta egiten da, ez errenkako egunetan, baizik amar ostiralez. Ostiralak artzen dira ta ez beste egunak onetarako, zeren Santua ill zen ostiralean. Ostiral-oro konfesatu behar da ta artu komunioa, ta egin behar dira Bederatzi urrenetako berezi diran gauzetatik bat edo beste. Komulgatu ondoan esaten dira amar Aita gure, Ave Maria ta gloria; ta gero urrengo</p>
+<p><hi rend='Bold'>OTOITZA</hi></p>
+<p>Suari, Itsaso-Lurrai ta Zeruari, Jainkoak emanikako eskuarekin, nai dezuna eragiten diezun Indietako Apostol San Franzisko Xabier, Zeruko bidea Lurrekoai erakustea gatik eta orretan zenbiltzala eraman zenituen nekeak gatik lagundu behar didazu, Bitarteko onak bezala, Jainkoari egiten diodan otoitz onetan, ta eskatu behar diozu, berak bere izenean diela ez dutenai bere ta Zeruko bidearen berria; gaizki bizi diranai bekatuen damua ta onak izateko asmoa: eskatu behar diozu diela gure Lege santuko Erregeai elkarren arteko bakea ta Etsaiak garaitzeko eskua; diela Purgatorioan daudenai alik lasterrena bere arpegia ta gloria; ta didala niri ere orain eskatzen diodana. Zu ganatzen diranak aditu oi dituzu: ni ere adituko nazulako ustearekin nator: aditzen banazu, emen ta Zeruan zuri eskerrak ematera behartua gelditzen naz; ba&ntilde;a pozik artuko dut lan hau nere gain, artzen badezu zuk zere kontura nik eskatzen dizudana. Arren bai; artu zazu, nere debozioko Santu andia. Amen.</p>
+<p><hi rend='Bold'>S. FRANZISKO XABIERRI</hi></p>
+<p>Deiez dago mundua,</p>
+<p>negarrez ta gogotik:</p>
+<p>San Xabier, Zerutik</p>
+<p>iguzu zere eskua.</p>
+<p>Santu bata baterako</p>
+<p>besterako bestea:</p>
+<p>San Xabier, zu zara</p>
+<p>nai dutenen onerako.</p>
+<p>Dago gure bizia</p>
+<p>neke-penaz beterik:</p>
+<p>San Xabier, Zerutik</p>
+<p>Agertu nai badezu</p>
+<p>dezun esku ta indarra,</p>
+<p>gure lan ta nekea</p>
+<p>kendu baizik ez dezu.</p>
+<p>Ai! Orretan asia</p>
+<p>bazeunde zu: gaur danik!</p>
+<p>San Xabier, Zerutik</p>
+<p>Ez andi ta ez txikirik</p>
+<p>arkitzen da munduan</p>
+<p>ez duenik askotan</p>
+<p>behar asko Zerutik.</p>
+<p>Zuk hau bai dakizula</p>
+<p>ez degu guk dudarik:</p>
+<p>San Xabier, Zerutik</p>
+<p>Behartsuak askotan</p>
+<p>zu gana bildu dira:</p>
+<p>utsik irten ez dira:</p>
+<p>orrelako horduan.</p>
+<p>Baldin zu mudatua</p>
+<p>ezpazaude geroztik,</p>
+<p>San Xabier, Zerutik</p>
+<p>Nere behar andiak</p>
+<p>nakar ni gaur zu gana:</p>
+<p>badakizu zertara:</p>
+<p>jakin beza munduak.</p>
+<p>Nik eskatzen dudana</p>
+<p>betor emen bertatik:</p>
+<p>San Xabier, Zerutik</p>
+<p>Anitz da len Munduan</p>
+<p>zuk egin zenuena:</p>
+<p>geldirik egotera</p>
+<p>sartu zara Zeruan?</p>
+<p>Ezin izain da orkoa</p>
+<p>dagoena geldirik:</p>
+<p>San Xabier, Zerutik</p>
+<p>Len ta gero bat zara,</p>
+<p>ongigillea beti:</p>
+<p>ez arren uka niri</p>
+<p>orain behar dudana.</p>
+<p>Uste dut ez nazula</p>
+<p>utziko ni galdurik:</p>
+<p>San Xabier, Zerutik</p>
+<p>Badakizu bizia</p>
+<p>ematen ill zenari:</p>
+<p>baita beste edoze&ntilde;i</p>
+<p>behar duen guzia.</p>
+<p>Nik ere nai dudana</p>
+<p>uste dut gaur zu gandik:</p>
+<p>San Xabier, Zerutik</p>
+<p>Itsasoz ta leorrez</p>
+<p>zenbait on egin dezu:</p>
+<p>zerbait utzi badezu,</p>
+<p>izandu da nai gabez.</p>
+<p>Zuk nai dezun guzia</p>
+<p>nai du Jaunak gogotik:</p>
+<p>San Xabier, Zerutik</p>
+<p>Argia behar badu</p>
+<p>Itsasoko tristeak,</p>
+<p>laster zure eskatzeak</p>
+<p>Eguzkia lotzen du.</p>
+<p>Ez bat galdu dedilla,</p>
+<p>izan gabez argirik:</p>
+<p>San Xabier, Zerutik</p>
+<p>Erretzea suari</p>
+<p>kendu zenion noizbait,</p>
+<p>ez diozu utzi nonbait</p>
+<p>gatzik ur gaziari.</p>
+<p>Bekatuen gazia</p>
+<p>ken baledi gu gandik!</p>
+<p>San Xabier, Zerutik</p>
+<p>Alaba Seme egi&ntilde;a</p>
+<p>Ama batek nai zuen:</p>
+<p>zure Elizan egin zen</p>
+<p>ark eskatzen zuena.</p>
+<p>Guk eskatzen duguna</p>
+<p>orain bihotz guzitik:</p>
+<p>San Xabier, Zerutik</p>
+<p>Bi toki zuk batetan</p>
+<p>bete zenituen len</p>
+<p>arki zaitez gaur emen</p>
+<p>or zaudela Zeruan.</p>
+<p>Zu bazatoz gu gana</p>
+<p>ez da geroz nekerik:</p>
+<p>San Xabier, Zerutik</p>
+        </body>
+      </text>
+    </group>
+  </text>
+</TEI.2>
+

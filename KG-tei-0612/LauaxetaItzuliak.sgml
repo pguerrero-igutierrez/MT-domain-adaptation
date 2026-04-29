@@ -1,0 +1,583 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN"
+                       "http://www.tei-c.org/P4X/DTD/tei2.dtd" [
+   <!ENTITY % TEI.prose    'INCLUDE' >
+   <!ENTITY % TEI.linking  'INCLUDE' >
+   <!ENTITY % TEI.analysis 'INCLUDE' >
+   <!ENTITY % TEI.figures  'INCLUDE' >
+   <!ENTITY % TEI.XML      'INCLUDE' >
+   <!ENTITY % TEI.extensions.ent SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.ent' >
+   <!ENTITY % TEI.extensions.dtd SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.dtd' >
+]>
+<TEI.2>
+  <teiHeader>
+  <fileDesc>
+     <titleStmt>
+        <title>Poema itzuliak</title>
+        <author>Estepan Urkiaga - "Lauaxeta"</author>
+        <respStmt>Bertsio informatiko honen egilea: Josu Lavin; Urkiola, 1-1C 48990 - Getxo (Bizkaia)</respStmt>
+     </titleStmt>
+     <extent>1.385 hitz, 10.144 karaktere</extent>
+     <publicationStmt>
+        <publisher>Klasikoen Gordailua [http://klasikoak.armiarma.com/]</publisher>
+        <distributor>Estrata Liburuak S.L.</distributor>
+        <address type='email'>klasikoak@armiarma.com</address>
+        <idno type='ota'>LauaxetaItzuliak</idno>
+        <availability status='free'>Erabilpen librekoa; honoko helbidean topa daiteke (HTML, RTF eta PDF formatuetan): http://klasikoak.armiarma.com/idazlanak/L/LauaxetaItzuliak.htm</availability>
+        <date>2006</date>
+     </publicationStmt>
+     <sourceDesc>
+        <bibl>Ez dauka</bibl>
+        <notesStmt><note>Iturburuen datazioa: 1927-1931, 1974</note></notesStmt>
+     </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+     <projectDesc>Euskal literaturako testu klasikoen bilduma da KLASIKOEN GORDAILUA; testu hau berorren parte da</projectDesc>
+     <refsDecl>
+        <p>MENTIONED etiketa egilearenak ez diren hitzak markatzeko erabili da: hitzaurreak, aipuak, iruzkinak, e.a.</p>
+    </refsDecl>
+     <classDecl>
+        <taxonomy id='generoa'>
+            <category id='G-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='G-ANT'><catDesc>Antzerkia</catDesc></category>
+            <category id='G-BER'><catDesc>Bertsoak</catDesc></category>
+            <category id='G-ERL'><catDesc>Erlijioa</catDesc></category>
+            <category id='G-NAR'><catDesc>Narratiba</catDesc></category>
+            <category id='G-POE'><catDesc>Poesia</catDesc></category>
+            <category id='G-SAI'><catDesc>Saiakera, kronika, artikuluak...</catDesc></category>
+        </taxonomy>
+        <taxonomy id='garaia'>
+            <category id='M-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='M-16'><catDesc>XVI. mendea</catDesc></category>
+            <category id='M-17-1'><catDesc>XVII. mendea - 1. erdia</catDesc></category>
+            <category id='M-17-2'><catDesc>XVII. mendea - 2. erdia</catDesc></category>
+            <category id='M-18-1'><catDesc>XVIII. mendea - 1. erdia</catDesc></category>
+            <category id='M-18-2'><catDesc>XVIII. mendea - 2. erdia</catDesc></category>
+            <category id='M-19-1'><catDesc>XIX. mendea - 1. erdia</catDesc></category>
+            <category id='M-19-2'><catDesc>XIX. mendea - 2. erdia</catDesc></category>
+            <category id='M-20-1'><catDesc>XX. mendea - 1. erdia</catDesc></category>
+            <category id='M-20-2'><catDesc>XX. mendea - 2. erdia</catDesc></category>
+        </taxonomy>
+        <taxonomy id='euskalkia'>
+            <category id='E-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='E-BAT'><catDesc>batua</catDesc></category>
+            <category id='E-BIZ'><catDesc>bizkaiera</catDesc></category>
+            <category id='E-BNA'><catDesc>behenafarrera</catDesc></category>
+            <category id='E-ERR'><catDesc>erronkariera</catDesc></category>
+            <category id='E-GIP'><catDesc>gipuzkera</catDesc></category>
+            <category id='E-GNA'><catDesc>goi nafarrera</catDesc></category>
+            <category id='E-LAP'><catDesc>lapurtera</catDesc></category>
+            <category id='E-NAF'><catDesc>nafarrera</catDesc></category>
+            <category id='E-ZAR'><catDesc>zaraitzuera</catDesc></category>
+            <category id='E-ZUB'><catDesc>zuberera</catDesc></category>
+        </taxonomy>
+    </classDecl>
+  </encodingDesc>
+  <profileDesc>
+     <textClass>
+       <keywords scheme='generoa'>
+         <list><item>G-POE</item></list>
+       </keywords>
+       <keywords scheme='garaia'>
+         <list><item>M-20-1</item></list>
+       </keywords>
+       <keywords scheme='euskalkia'>
+         <list><item>E-BIZ</item></list>
+       </keywords>
+     </textClass>
+  </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>Poema itzuliak -- Estepan Urkiaga - "Lauaxeta"</docTitle>
+    </front>
+    <group>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>SORTZEZ-GARBIAREN GABA</p><--</head>
+        </front>
+        <body>
+<p><mentioned> (Maragall'en olerkia)</mentioned></p>
+<p>Gaur-gabeko zeruan urdintasuna!</p>
+<p>Betirauna ikusten dala bai dirudi.</p>
+<p>Illargi ta izarrak ziar, betirauna.</p>
+<p>Odeiak bapere</p>
+<p>lausoturik gabe.</p>
+<p>Illargi ta izarrak gabaren donean</p>
+<p>osertze barikan ortzi urdi&ntilde;ean</p>
+<p>ainbeste distiraz argi egitean,</p>
+<p>lilluratuten yat bertantxe gogoa.</p>
+<p>Bai-da gaurko gaba, gau Jainkotikoa!</p>
+<p>Bai-da gaurko gaba</p>
+<p>gau zerutikoa!</p>
+<p>Berak dirdiratzen daun ozkarbi ziar</p>
+<p>Sortzez garbi ori jasten da zerutik.</p>
+<p>Izar bakotza izpi geiagoz bizturik</p>
+<p>lotazilleko gau-betean jasten da.</p>
+<p>Ixil da ludia,</p>
+<p>leundu da aixia.</p>
+<p>Zaratage dator... Oi gaban urdi&ntilde;a!</p>
+<p>Oi gaban bikai&ntilde;a!</p>
+<p><mentioned> <hi rend='Italic'>(J. B. D., </hi>1928-II, 26 or.).</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>FLAY AWAY</p><--</head>
+        </front>
+        <body>
+<p><mentioned> (Tennyson)</mentioned></p>
+<p>Egun-antzian.</p>
+<p>Txoritxuak zer di&ntilde;o abian?</p>
+<p>&mdash;Egaz egiten itxi egistak;</p>
+<p>itxistan, ama &mdash;di&ntilde;o txoriak.</p>
+<p>&mdash;Txori ori, itxoian apur batean</p>
+<p>eure egotxuak azi artean.</p>
+<p>Olantxe apur baten txoria</p>
+<p>bere abian</p>
+<p>geldi egonik, egazka doya</p>
+<p>egun-antzian.</p>
+<p>Sei&ntilde; txikerrak zer di&ntilde;o oean?</p>
+<p>Txoriak legez sei&ntilde;ak: Jagiten</p>
+<p>itxistan, eta egaz egiten.</p>
+<p>&mdash;Sei&ntilde;txu orek lo, apur batean,</p>
+<p>gorputz orixe azi artean.</p>
+<p>Lo-lo badago pitin bat geyau</p>
+<p>bere oean,</p>
+<p>sei&ntilde;txu txikerrak be egaz egingo dau.</p>
+<p><mentioned> <hi rend='Italic'>(Euzkadi, </hi>1928, irailla, 15)</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>EXTASE</p><--</head>
+        </front>
+        <body>
+<p><mentioned> (Victor Hugo)</mentioned></p>
+<p>Gau izartsu baten olatu ondoan</p>
+<p>bakarrik nengoan...</p>
+<p>Zeru ta itxasoa oso garbi ta lau.</p>
+<p>Begiok beituten eben au ludi au</p>
+<p>ba&ntilde;o urrunago.</p>
+<p>Mendi, arro eta beresi aundiak,</p>
+<p>eta izaki gustiak</p>
+<p>zurrumurru itzelez, itxas olatuai,</p>
+<p>maitetsu itaunduten eutsela irudian.</p>
+<p>Eta urregorizko izartxu garbiak,</p>
+<p>zeruko gustiak,</p>
+<p>suzko burestunak dardar biurtuaz,</p>
+<p>yaurri ezingoak,</p>
+<p>burutako bitsa nakurtuz: &laquo;Jainkoa,</p>
+<p>Yainko Yaunaltsu</p>
+<p>yautzue au&raquo;, alai esaten eutsien.</p>
+<p><mentioned> <hi rend='Italic'>(Euzkadi, </hi>1927, irailla, 26).</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>LEUNTASUNA</p><--</head>
+        </front>
+        <body>
+<p><mentioned> (Paul Verlaine)</mentioned></p>
+<p>Leuntasuna eurrez leuntasun ganian;</p>
+<p>Maite, gentzatu zeure lei sutsua,</p>
+<p>maitasun mosu-aldian</p>
+<p>arrebazko maite-ezti lei bakua</p>
+<p>erara yatorko maitale onari;</p>
+<p>urrumaka egin laztan gentzatsuak,</p>
+<p>samurtsu adi ta begizkun gozuak.</p>
+<p>Besarka gogor biurrak</p>
+<p>ez dira aldin mosu garbi ta samurrak,</p>
+<p>guzurrez arren, aldin direan bezela.</p>
+<p>Ba&ntilde;a maitasun sutsuak</p>
+<p>zeure biotz ori kiskaltzen dauela,</p>
+<p>zeuk di&ntilde;ostazu, maitia,</p>
+<p>barruan esita oru dagiela,</p>
+<p>ez entzun ostera bere ots bizia...</p>
+<p>Zeure bekokia neure bekokian,</p>
+<p>eta zure eskuak neurien ganian,</p>
+<p>biar agurtzeko zi&ntilde;a egistazu...</p>
+<p>Ta eguna dirdiz agertu artian</p>
+<p>alkarrekin negar dagigun samurtsu.</p>
+<p><mentioned> <hi rend='Italic'>(Euzkadi, </hi>1929, epailla, 14).</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>IZAYA</p><--</head>
+        </front>
+        <body>
+<p><mentioned> (Charles Baudelaire)</mentioned></p>
+<p>Olgetan itxas-gizonak sarri</p>
+<p>eizatzen dabez izai altsubak.</p>
+<p>Ontzi-lagunok egazka nasai</p>
+<p>egazten dabez itxas arrubak.</p>
+<p>Zauriz josita ontziratzian</p>
+<p>(ortze-bakaldun ziran txorijak)</p>
+<p>arraun apurtu batzun antzera</p>
+<p>narraz daruez egal andijak.</p>
+<p>Gero egadun bidazti onek</p>
+<p>oso galtzen dau edertasuna.</p>
+<p>Onek pikuba erreten dautso,</p>
+<p>arek antzestu egazka aztuna.</p>
+<p>Gezi-ekatxen bildurrik eztaun</p>
+<p>txorijan antza, olerkarijak.</p>
+<p>Samin artian egaz egiten</p>
+<p>eztautse utziten egal andijak.</p>
+<p><mentioned> <hi rend='Italic'>(Euzkadi, </hi>1929, urrilla, 26).</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>LILI-GORRI</p><--</head>
+        </front>
+        <body>
+<p><mentioned> (Francis Jammes'ena)</mentioned></p>
+<p>Oroldiko lili-gori zimela,</p>
+<p>neurtitz oneik, erle zurmur bezela,</p>
+<p>oyeski abestu dagitzuela.</p>
+<p>Nire begizkuna zeure ganian</p>
+<p>erori daitela gaban antzian,</p>
+<p>urrezko izarrez lo dagizunian.</p>
+<p>Oles samur onek zeuganantz egaz,</p>
+<p>abes dagitzula eres bigunaz,</p>
+<p>larrean dabesan i&ntilde;ontz-abotsaz.</p>
+<p>Na&iacute; ba'dozu biotz au jolasteko</p>
+<p>biurtu daitela zeure uleko</p>
+<p>lore odoltsuan, beti-betiko.</p>
+<p>Negar dagidanen neska argia,</p>
+<p>alaitasunezko oyu bizia</p>
+<p>iduri zaizula neure adia.</p>
+<p>Eta zerraldoko itzal estuak</p>
+<p>estaltzen naunian, neure malkuak</p>
+<p>dizdir dagiala zeure begian... !</p>
+<p>Zeu ikusirik ba ain dizdirkora,</p>
+<p>dagerzun gazteko betiraunkora</p>
+<p>goratu dagien neure eriotzan.</p>
+<p><mentioned> <hi rend='Italic'>(Euzkadi, </hi>1929, XII, 10).</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>LORONTZI AUSIA</p><--</head>
+        </front>
+        <body>
+<p><mentioned> (Sully-Prudhomme)</mentioned></p>
+<p>Irusta au il doian lorontzia,</p>
+<p>aizeki-kaskak karraskatu eban;</p>
+<p>ostaz ikutuz egin zan ausia,</p>
+<p>eta ots batek agertu ez eban.</p>
+<p>Leyar leunari aginka egi&ntilde;ik</p>
+<p>mallatutxuak ba&ntilde;a egunero,</p>
+<p>oso geldiro eta eten barik</p>
+<p>eskier beti biratu dau oro.</p>
+<p>Tantaka bere urak itzuririk</p>
+<p>legortu ein da loratxu polita</p>
+<p>i&ntilde;ok somatu ez arren oraindik;</p>
+<p>ez ikuturik, ba-dago ausita!</p>
+<p>Maite dagian eskuak sarriro</p>
+<p>biotza urratuz dagio zauria,</p>
+<p>berez mallatu dua nausikiro</p>
+<p>eta dil bere maitasun-lilia.</p>
+<p>Ikutu barik beti oso dager;</p>
+<p>barruko zauri meek ba&ntilde;a aunditu</p>
+<p>ta ixillik negar dagiala duler;</p>
+<p>ausia da-ta, ez, arren, unkitu.</p>
+<p><mentioned> <hi rend='Italic'>(Euzkadi, </hi>1930, I, 28).</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>GREEN</p><--</head>
+        </front>
+        <body>
+<p><mentioned> (Paul Verlaine)</mentioned></p>
+<p>Lorak, igaliak eta abar-otsa</p>
+<p>zeure opari-gai dira,</p>
+<p>eta zeugaitik pilpira</p>
+<p>dagian neure biotza.</p>
+<p>Esku me orekaz apurtu barik,</p>
+<p>zeure begien laztana,</p>
+<p>biurtu, arren, neugana.</p>
+<p>Ona natorkizu garoz beterik,</p>
+<p>goxeko aize samurrez</p>
+<p>bekokian leitu yatan i&ntilde;otzez.</p>
+<p>Itxi egiozu neure mi&ntilde;ari</p>
+<p>atseden dagian zeure o&ntilde;etan</p>
+<p>ordu baketsu maitian</p>
+<p>emaro amets dagian.</p>
+<p>Itxi, arren, zeure altzo oretan</p>
+<p>eratzan dagidan neure burua;</p>
+<p>zeure azken-mosuz dardar oraindik</p>
+<p>maitasun-ekatxak bertan esturik</p>
+<p>lo itxi nagizu bakian</p>
+<p>atseden dagizun aldi guztian.</p>
+<p><mentioned> <hi rend='Italic'>(Euzkadi, </hi>1930, otsailla, 14).</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>IRU NESKATILLAK</p><--</head>
+        </front>
+        <body>
+<p><mentioned> (Maurice Maeterlinck)</mentioned></p>
+<p>Iru neska il-egin dituez</p>
+<p>biotzan daukena ikusi nai-gurez.</p>
+<p>Bata zorionez beterik eguan,</p>
+<p>odola jario yagokon altzuan,</p>
+<p>txistuka iru suge iru urte-aruan.</p>
+<p>Leuntasuna ganez beste biotzian,</p>
+<p>odola jario yagokon ganian,</p>
+<p>iru artxok bazka-dagie iru urtian.</p>
+<p>Zoritxarra eurrez irugarrenian,</p>
+<p>odola jario yagokon zaurian:</p>
+<p>iru gotzon ernai iru urte-aldian.</p>
+<p>Iru neskatilla il-egin dituez</p>
+<p>biotzan daukena ikusi nai-gurez.</p>
+<p><mentioned> <hi rend='Italic'>(Euzkadi, </hi>1930, otsailla, 19).</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>ERDU</p><--</head>
+        </front>
+        <body>
+<p><mentioned> (Th&eacute;odore de Banville)</mentioned></p>
+<p>Erdu; ginbaila imi&ntilde;i buruan;</p>
+<p>egun lankora agertu orduan</p>
+<p>guazen, goxa dakusgun mendian.</p>
+<p>Eta maitatzen dozuzan</p>
+<p>liliak batu daiguzan.</p>
+<p>Bolbol daguan iturri ertzian</p>
+<p>kulunka dardar otzikera-lekak.</p>
+<p>Ara ta ona larrian</p>
+<p>artzai abesti samurrak,</p>
+<p>alai egi&ntilde;ik baratz loratuak.</p>
+<p>Zeu, arren, dardar eguak,</p>
+<p>alai yatortzuz aiziak.</p>
+<p>Barre-irri egin dozulako pozik</p>
+<p>etori datoz usai&ntilde;ez beterik</p>
+<p>mertxika lurrinkatuak</p>
+<p>eta sagardi oso loratuak</p>
+<p><mentioned> <hi rend='Italic'>(Euzkadi, </hi>1930, otsailla, 20)</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>GOIZPARKIAK</p><--</head>
+        </front>
+        <body>
+<p><mentioned> (Paul Verlaine)</mentioned></p>
+<p>Neure Jaungoiko Jauna, zadiz onetsija</p>
+<p>aldi bijur-txarrotan kistar nozulako.</p>
+<p>Ba&ntilde;a sar egistazu jasapen bixija</p>
+<p>leyala nayakitzun txakur on bat antzo.</p>
+<p>Banedi ardijan atz duan axurija!</p>
+<p>Artza&ntilde;ak ez dau lanik zintzo dualako.</p>
+<p>Ondo daki nori zor artilla, bixija;</p>
+<p>areri dago ernai noiz-nai artuteko.</p>
+<p>Arrain nagixu, &laquo;Ikurran Semiari&raquo; nagon:</p>
+<p>edo asto apala neuregana digon:</p>
+<p>txarrija banintzake murgildu nagijan.</p>
+<p>Noti&ntilde;ak ba&ntilde;o obeto abere-piztijak.</p>
+<p>Otsein ixaten jatzuz oraingo aldijan:</p>
+<p>egin biarra zintzo dagije guztijak.</p>
+<p><mentioned> <hi rend='Italic'>(Euzkadi, </hi>1931, epailla, 4)</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>EURIA DAGI</p><--</head>
+        </front>
+        <body>
+<p><mentioned> (Paul Verlaine)</mentioned></p>
+<p>Urian legez euria dagi</p>
+<p>neure biotzian.</p>
+<p>Nundik sartzen yat itun aldia</p>
+<p>goguan erdian?</p>
+<p>Tella ganetan tak-tak euriak,</p>
+<p>baita be lurrean;</p>
+<p>bere negarrak poza dariost</p>
+<p>biotz itunean.</p>
+<p>Nire biotza negarrez dago.</p>
+<p>Zergaitik zoti&ntilde;ak?</p>
+<p>Salkeri batek ez dautsoz sartu</p>
+<p>ezpata sami&ntilde;ak...</p>
+<p>Nekez dagist samin ziyoa</p>
+<p>jakin-ez-eiteak;</p>
+<p>maitasun-erra barik darona</p>
+<p>biotz errugeak!</p>
+<p><mentioned> <hi rend='Italic'>(Euzkadi, </hi>1930, epailla, 14)</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>BEATRICE'N AGURRA</p><--</head>
+        </front>
+        <body>
+<p><mentioned> (Dante Alighieri)</mentioned></p>
+<p>Nire maiteak agur egitean</p>
+<p>mingain oro dardaraz</p>
+<p>ixildurik daroaz;</p>
+<p>begirik adi ez dakus aurrean.</p>
+<p>Ain zogi dagir, ain eme lirai&ntilde;az!</p>
+<p>Maitekor juan dua</p>
+<p>eta geituten da bere dedua.</p>
+<p>Apaltasunez daroa yantzia,</p>
+<p>eta dirudi alatz gelgarria</p>
+<p>goiko zerutik lurrera jatsia.</p>
+<p>Dastatu ez dabenak</p>
+<p>ulertu ezin dagiken eztia</p>
+<p>damotso begitatik</p>
+<p>biotz erdira so-dagionari,</p>
+<p>jagoken maite gogo guztiari!</p>
+<p>Maitasunez beterik</p>
+<p>espanetatik arnasa guria</p>
+<p>ugari dariola</p>
+<p>goguari: &laquo;Inka egik&raquo;,</p>
+<p>dirudi di&ntilde;otsola.</p>
+<p><mentioned> <hi rend='Italic'>(Euzkadi, </hi>1930, epailla, 27)</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>ODOL-ITURRIJA</p><--</head>
+        </front>
+        <body>
+<p><mentioned> (Charles Baudelaire)</mentioned></p>
+<p>Sarri odola dustet</p>
+<p>ixuriten yatala;</p>
+<p>nabaituten dot iturri antzera</p>
+<p>lotu be barik jario daula.</p>
+<p>Alperrik zauri billa</p>
+<p>somatu darot neure soi&ntilde; zurbilla.</p>
+<p>Uritik nabaitzen da</p>
+<p>moltzo aundi batian,</p>
+<p>txaidiak odol-iturri ditzuliz;</p>
+<p>orok leituten dauz bere zalian,</p>
+<p>eta izadi guztija</p>
+<p>agertuten yat odolez gorija.</p>
+<p>Alperrik edan dodaz</p>
+<p>irezkai edendubak</p>
+<p>neure sami&ntilde;a ixildu gurian.</p>
+<p>Begijak piztu dagistaz ardubak,</p>
+<p>piztu neure begiak</p>
+<p>baita zoroztu bere belarriak.</p>
+<p>Atsegin legunetan</p>
+<p>ba'naurki ixiltasuna!</p>
+<p>Jostoratzeko oyea da ba&ntilde;a,</p>
+<p>oya zorotza, neure maitasuna;</p>
+<p>bertatik darijola.</p>
+<p>andre ankerrak nedate odola...</p>
+<p><mentioned> <hi rend='Italic'>(Euzkadi, </hi>1930, urrilla, 12)</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>IKASLEAREN ERIOTZA</p><--</head>
+        </front>
+        <body>
+<p><mentioned> (J. Verdaguer)</mentioned></p>
+<p>Montserrat gaur negarrez,</p>
+<p>oso urtu bearrez.</p>
+<p>Abestutzian il da,</p>
+<p>il da lorik ikasletxua!</p>
+<p>Birji&ntilde;oi, abestutzera</p>
+<p>zoaz usotegitxura.</p>
+<p>Abesten eutzunari</p>
+<p>nok ez egingo intziri?</p>
+<p>Kutxa zuri barruan</p>
+<p>zein gelgarri daguan!</p>
+<p>Zitoria dirudi,</p>
+<p>oraindik ebai-barri.</p>
+<p>Jo oi eban bioli&ntilde;a</p>
+<p>ezker-aldian dauka;</p>
+<p>bioli&ntilde;a batean,</p>
+<p>uztaya eskumean;</p>
+<p>lurperatzen daroye</p>
+<p>bere abeskideak.</p>
+<p>Urretxindora txintaz</p>
+<p>&mdash;txintaz dago urrean...</p>
+<p>Ikasleak ikastean</p>
+<p>ixildu entzuteko,</p>
+<p>il-eresia abesten</p>
+<p>&laquo;Abesten datorkioz...&raquo;</p>
+<p>Abesti lenengoa</p>
+<p>zerutik jatsikoaz</p>
+<p>bigarren abestian</p>
+<p>ango negar-adiak.</p>
+<p>Alperrik artezliak</p>
+<p>ki&ntilde;uz bizkortzen dauz;</p>
+<p>negarrak ibai dira,</p>
+<p>eta intzirak itxaso.</p>
+<p>Padar bat abeslari,</p>
+<p>beste danak negarrez.</p>
+<p>Mutila gotzonakin&raquo;</p>
+<p>ikusi! doa kantari.</p>
+<p>Zeru-gora jo daben</p>
+<p>txori ego arina,</p>
+<p>ak goyan abestean</p>
+<p>iryiko bioli&ntilde;a.</p>
+<p><mentioned> <hi rend='Italic'>(Euzkadi, </hi>1930, lotazilla, 23).</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>GORESPENA</p><--</head>
+        </front>
+        <body>
+<p><mentioned> (Charles Baudelaire)</mentioned></p>
+<p>Aintzira la&ntilde;otsuak egaz igarorik</p>
+<p>mendi eta oyana gustien ga&ntilde;etik,</p>
+<p>aldatu goi zabalak eta ixar argijak.</p>
+<p>Ozertza ziar egaz igaro axijak.</p>
+<p>Olantxe joan doa, bai, neure gogua,</p>
+<p>eta igerlari ona, digaro itxasua.</p>
+<p>Neurri bako zabala digaro pozkiro</p>
+<p>eta atsegi&ntilde;ez bete doa nausikiro.</p>
+<p>Beko ustelin ziar igon zerura&ntilde;o!</p>
+<p>Txautu zaitezan, igon, zeru goi-gora&ntilde;o!</p>
+<p>Ta edari bai'litzan gogo gelgarrija</p>
+<p>edan egizu, arren, zeruko argija.</p>
+<p>Zoriontsuba bai da, igui&ntilde;en ganetik,</p>
+<p>bizitza au mingarri dagiskun luditik</p>
+<p>eta negar artetik zeruko laztana,</p>
+<p>ega indartsubaz egan lortu dagiana-</p>
+<p>Dontsuba larratxori antzera ortzijan</p>
+<p>lei-lotzen dabillena goxalde argijan.</p>
+<p>Eta zalantza barik igaroz ludija</p>
+<p>ulertu al dabena lili-berbetija.</p>
+<p><mentioned> <hi rend='Italic'>(Euzkadi, </hi>1930, azilla, 9).</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>MINGARRIA</p><--</head>
+        </front>
+        <body>
+<p><mentioned> (Francis Jammes)</mentioned></p>
+<p>Mingarria txekortxu ari oitutia,</p>
+<p>gura zein gura ez, il-tokira eroian.</p>
+<p>Erriko orma-zar baltzak mizkatuten joian,</p>
+<p>orma-zar baltzetatik jausten zan euria.</p>
+<p>Ene Jauna!, on antza dagersku txekorak,</p>
+<p>lagun izaten ditu sasizko zidorak.</p>
+<p>Esan egiozu, Urtzi on eta gurena,</p>
+<p>danentzat an izango dala azkespena.</p>
+<p>Egun baten zeruan zidarrez beterik,</p>
+<p>ez dabela eroango iltera txekorik.</p>
+<p>Orain ba&ntilde;o obeak izango garala,</p>
+<p>lorez adarrak eder eingo dautzuzala.</p>
+<p>Ene Jauna!, txekorak mi&ntilde;ik il-aurrean</p>
+<p>ez dagila nabaitu burnia sartzean.</p>
+<p><mentioned> <hi rend='Italic'>(Euzkadi, </hi>1931, epailla, 6).</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><mentioned>Bertsio informatiko honen egilea: Josu Lavin; Urkiola, 1-1C 48990 - Getxo (Bizkaia)</mentioned></p>
+        </body>
+      </text>
+    </group>
+  </text>
+</TEI.2>
+

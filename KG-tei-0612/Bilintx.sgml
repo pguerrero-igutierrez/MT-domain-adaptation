@@ -1,0 +1,2869 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN"
+                       "http://www.tei-c.org/P4X/DTD/tei2.dtd" [
+   <!ENTITY % TEI.prose    'INCLUDE' >
+   <!ENTITY % TEI.linking  'INCLUDE' >
+   <!ENTITY % TEI.analysis 'INCLUDE' >
+   <!ENTITY % TEI.figures  'INCLUDE' >
+   <!ENTITY % TEI.XML      'INCLUDE' >
+   <!ENTITY % TEI.extensions.ent SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.ent' >
+   <!ENTITY % TEI.extensions.dtd SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.dtd' >
+]>
+<TEI.2>
+  <teiHeader>
+  <fileDesc>
+     <titleStmt>
+        <title>Bertso guztiak</title>
+        <author>Bilintx</author>
+        <respStmt>Ez dauka</respStmt>
+     </titleStmt>
+     <extent>7.095 hitz, 48.372 karaktere</extent>
+     <publicationStmt>
+        <publisher>Klasikoen Gordailua [http://klasikoak.armiarma.com/]</publisher>
+        <distributor>Estrata Liburuak S.L.</distributor>
+        <address type='email'>klasikoak@armiarma.com</address>
+        <idno type='ota'>Bilintx</idno>
+        <availability status='free'>Erabilpen librekoa; honoko helbidean topa daiteke (HTML, RTF eta PDF formatuetan): http://klasikoak.armiarma.com/idazlanak/B/Bilintx.htm</availability>
+        <date>2006</date>
+     </publicationStmt>
+     <sourceDesc>
+        <bibl>Iturria: Bilintx. Indalecio Bizkarrondo. 1831-1876. Bizitza eta bertsoak, Bilintx (Antonio Zavalaren edizioa). Sociedad Guipuzcoana de Ediciones y Publicaciones, 1978</bibl>
+        <notesStmt><note>Iturburuen datazioa: (-1876)</note></notesStmt>
+     </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+     <projectDesc>Euskal literaturako testu klasikoen bilduma da KLASIKOEN GORDAILUA; testu hau berorren parte da</projectDesc>
+     <refsDecl>
+        <p>MENTIONED etiketa egilearenak ez diren hitzak markatzeko erabili da: hitzaurreak, aipuak, iruzkinak, e.a.</p>
+    </refsDecl>
+     <classDecl>
+        <taxonomy id='generoa'>
+            <category id='G-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='G-ANT'><catDesc>Antzerkia</catDesc></category>
+            <category id='G-BER'><catDesc>Bertsoak</catDesc></category>
+            <category id='G-ERL'><catDesc>Erlijioa</catDesc></category>
+            <category id='G-NAR'><catDesc>Narratiba</catDesc></category>
+            <category id='G-POE'><catDesc>Poesia</catDesc></category>
+            <category id='G-SAI'><catDesc>Saiakera, kronika, artikuluak...</catDesc></category>
+        </taxonomy>
+        <taxonomy id='garaia'>
+            <category id='M-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='M-16'><catDesc>XVI. mendea</catDesc></category>
+            <category id='M-17-1'><catDesc>XVII. mendea - 1. erdia</catDesc></category>
+            <category id='M-17-2'><catDesc>XVII. mendea - 2. erdia</catDesc></category>
+            <category id='M-18-1'><catDesc>XVIII. mendea - 1. erdia</catDesc></category>
+            <category id='M-18-2'><catDesc>XVIII. mendea - 2. erdia</catDesc></category>
+            <category id='M-19-1'><catDesc>XIX. mendea - 1. erdia</catDesc></category>
+            <category id='M-19-2'><catDesc>XIX. mendea - 2. erdia</catDesc></category>
+            <category id='M-20-1'><catDesc>XX. mendea - 1. erdia</catDesc></category>
+            <category id='M-20-2'><catDesc>XX. mendea - 2. erdia</catDesc></category>
+        </taxonomy>
+        <taxonomy id='euskalkia'>
+            <category id='E-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='E-BAT'><catDesc>batua</catDesc></category>
+            <category id='E-BIZ'><catDesc>bizkaiera</catDesc></category>
+            <category id='E-BNA'><catDesc>behenafarrera</catDesc></category>
+            <category id='E-ERR'><catDesc>erronkariera</catDesc></category>
+            <category id='E-GIP'><catDesc>gipuzkera</catDesc></category>
+            <category id='E-GNA'><catDesc>goi nafarrera</catDesc></category>
+            <category id='E-LAP'><catDesc>lapurtera</catDesc></category>
+            <category id='E-NAF'><catDesc>nafarrera</catDesc></category>
+            <category id='E-ZAR'><catDesc>zaraitzuera</catDesc></category>
+            <category id='E-ZUB'><catDesc>zuberera</catDesc></category>
+        </taxonomy>
+    </classDecl>
+  </encodingDesc>
+  <profileDesc>
+     <textClass>
+       <keywords scheme='generoa'>
+         <list><item>G-BER</item></list>
+       </keywords>
+       <keywords scheme='garaia'>
+         <list><item>M-19-2</item></list>
+       </keywords>
+       <keywords scheme='euskalkia'>
+         <list><item>E-GIP</item></list>
+       </keywords>
+     </textClass>
+  </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>Bertso guztiak -- Bilintx</docTitle>
+    </front>
+    <group>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Galop infernal</p><--</head>
+        </front>
+        <body>
+<p><mentioned>&mdash;</mentioned></p>
+<p><mentioned>&mdash;</mentioned><mentioned>Onoko bertso-sail onek bi zati ditu. Lenengoan aditzera ematen danez, I&ntilde;auteri batzuetarako paratua da. Ta, bigarrengoan esaten danez, I&ntilde;auteri oietarako dantza-tokia ta abar prestatzen asi ziranean, kontrarioren bat edo beste izan zuten Bilintx eta bere lagunak; ba&ntilde;an ala ere ondo antolatu zituzten gauzak.</mentioned></p>
+<p><mentioned>&mdash;</mentioned><mentioned>Bertso auek, argitaratutako paper batetik ditugu. Paper ori, Pe&ntilde;aflorida kondearen liburutegian-edo omen zegoan, eta gure eskuetara&ntilde;o Donosti'ko Juan Arbelaitz ta Tolosa'ko Juan Jose Beloki jaunen bitartez etorri zan.</mentioned></p>
+<p><mentioned>&mdash;</mentioned><mentioned>Len adierazi bezela, moldiztegiak, Jaunari eskerrak eta gure mesedetarako, urtea ipintzeko buruzbidea izan zuan: 1852. Guk ezagutzen ditugunetan, auek izango dira Bilintxen bertsorik zarrenak. Ogei ta bat urte zituan orduan; ondo gazterik asi zan, beraz, bertsogintzan.</mentioned></p>
+<p><mentioned>&mdash;</mentioned><mentioned>Bertsoen azpian, egillearen firma: Vilinch. Ortik dakigu bertso auen aita nor dan. Izengoiti ori nundik datorren, i&ntilde;ork ere ez daki gaur. Paper onetan azaltzen da, guk uste, lenengo aldiz. Bitatik bat izango da: bere aurrekoengandik zetorkiona edo oso gazterik berari erantsia.</mentioned></p>
+<p><mentioned>&mdash;<hi rend='Bold'>Antonio Zavala</hi></mentioned></p>
+<p><hi rend='Bold'>Lagunkida fraternal'eko galaiak beren damari</hi></p>
+<p><hi rend='Bold'> 1</hi></p>
+<p>Emakume maiteak,</p>
+<p>dantzara gurekin</p>
+<p>etortzen zeratenak</p>
+<p>borondatiakin,</p>
+<p>esan biaizutegu</p>
+<p>dezazuten jakin:</p>
+<p>dantzak bukatzen dira</p>
+<p>gaur gabekoakin.</p>
+<p><hi rend='Bold'> 2</hi></p>
+<p>Zuben dantzetan zegon</p>
+<p>gure alegriya,</p>
+<p>aitortzen dizutegu</p>
+<p>klaroan egiya;</p>
+<p>orain utzi biarrak</p>
+<p>zuben konpa&ntilde;iya,</p>
+<p>biotzeratzen digu</p>
+<p>tristura aundiya.</p>
+<p><hi rend='Bold'> 3</hi></p>
+<p>Pena ori degula</p>
+<p>biotzen betian,</p>
+<p>zubengandik biagu</p>
+<p>egon apartian,</p>
+<p>ez eunki osuan,</p>
+<p>ez ogei urtian,</p>
+<p>baizik eta Pazkuak</p>
+<p>etorri artian.</p>
+<p><hi rend='Bold'> 4</hi></p>
+<p>Itxoron biar degun</p>
+<p>denbora motzian,</p>
+<p>pena franko izango da</p>
+<p>gure biyotzian;</p>
+<p>ba&ntilde;a sartuko gera</p>
+<p>berriro pozian,</p>
+<p>gure naieko egun</p>
+<p>oiek etortzian.</p>
+<p><hi rend='Bold'> 5</hi></p>
+<p>Betoz ordu onian,</p>
+<p>datozenerako</p>
+<p>dantzako sala degu</p>
+<p>egoki parako;</p>
+<p>so&ntilde;u politik ere</p>
+<p>etzaigu faltako,</p>
+<p>guziya ondo egin</p>
+<p>naiko degulako.</p>
+<p><hi rend='Bold'> 6</hi></p>
+<p>Orra, maite politak,</p>
+<p>klaro eman parte</p>
+<p>ez degula dantzarik</p>
+<p>gaizuma juan arte;</p>
+<p>lenengua noiz degun</p>
+<p>jaki&ntilde;ian zaute,</p>
+<p>faltatu gabetanik</p>
+<p>etorri zaitezte.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Ziririkuak</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'> 1</hi></p>
+<p>Langilleen dantzetan</p>
+<p>izaten geranak,</p>
+<p>bost arratsetan pruebak</p>
+<p>dauzkagu emanak,</p>
+<p>gure kontra izketan</p>
+<p>aritu diranak,</p>
+<p>txit askoz enga&ntilde;atu</p>
+<p>dirala dianak.</p>
+<p><hi rend='Bold'> 2</hi></p>
+<p>Aiek guregatikan</p>
+<p>esan zutena da:</p>
+<p>&laquo;Barulloa sortzeko</p>
+<p>kuadrilla ona da!!!</p>
+<p>Neskatxa onradurik</p>
+<p>baldin juaten bada,</p>
+<p>lotsatuta kanpora</p>
+<p>irten biarra da.&raquo;</p>
+<p><hi rend='Bold'> 3</hi></p>
+<p>Baita ere gauza onik</p>
+<p>gurekin ez dala,</p>
+<p>jaungoiko Bako'k bere</p>
+<p>mendian gauzkala;</p>
+<p>ezagun da inbiriyak</p>
+<p>prejitzen zauztela,</p>
+<p>etzenduten gezurrik</p>
+<p>sortuko bestela.</p>
+<p><hi rend='Bold'> 4</hi></p>
+<p>Eta segitu zuten</p>
+<p>lenago bezala,</p>
+<p>esanaz guziz gauza</p>
+<p>seguruba zala</p>
+<p>adornatutzen gure</p>
+<p>dantzetako sala</p>
+<p>dama onradurikan</p>
+<p>izango etzala.</p>
+<p><hi rend='Bold'> 5</hi></p>
+<p>Oraindik deskontentu</p>
+<p>esan zutenakin,</p>
+<p>deskantsatu ziraden</p>
+<p>a&ntilde;aditubakin:</p>
+<p>&laquo;Alakorik batian</p>
+<p>biar degu jakin</p>
+<p>etxeratu zirala</p>
+<p>txandarme banakin.&raquo;</p>
+<p><hi rend='Bold'> 6</hi></p>
+<p>Dantzarako tokirik</p>
+<p>ote zegon nonbait,</p>
+<p>galdezka Donostiya'n</p>
+<p>asi gi&ntilde;an zenbait;</p>
+<p>uraxen topatzea</p>
+<p>kostatu zan zerbait,</p>
+<p>galarazi nayian</p>
+<p>bazebillen norbait.</p>
+<p><hi rend='Bold'> 7</hi></p>
+<p>Noiz ere bait topatu</p>
+<p>genduben tokiya:</p>
+<p>aduana zarreko</p>
+<p>zertegi aundiya;</p>
+<p>dudan gaude illa dan</p>
+<p>ero dan biziya,</p>
+<p>eskubetatik itzul</p>
+<p>egin zigun iya.</p>
+<p><hi rend='Bold'> 8</hi></p>
+<p>Nai baluteke ere</p>
+<p>orain defenditu,</p>
+<p>lengo itzak lazuan</p>
+<p>arrapatzen ditu;</p>
+<p>gure dantzak pakian</p>
+<p>dira despeditu,</p>
+<p>aiek esantakorik</p>
+<p>ez da suzeditu.</p>
+<p><hi rend='Bold'> 9</hi></p>
+<p>Orain gelditzen gera</p>
+<p>guziz ditxosuak,</p>
+<p>irten geradelako</p>
+<p>bitoriosuak;</p>
+<p>guk bezela esango du</p>
+<p>Donosti osuak:</p>
+<p>Bost gezur sortzen ditu</p>
+<p>inbiriosuak!!!</p>
+<p><hi rend='Bold'> 10</hi></p>
+<p>Gure dantzara damak</p>
+<p>polit onradubak</p>
+<p>etorritzen dirade</p>
+<p>guztiz apaindubak,</p>
+<p>adornaturik ondo</p>
+<p>gorputz ta burubak,</p>
+<p>mantxarikan gabeko</p>
+<p>birji&ntilde;a purubak.</p>
+<p><hi rend='Bold'> 11</hi></p>
+<p>Gure dantzetan juan da</p>
+<p>guziya konpleto,</p>
+<p>damak serbitu dira</p>
+<p>i&ntilde;on ba&ntilde;a obeto;</p>
+<p>izandu diyotegu</p>
+<p>milla errespeto,</p>
+<p>berak kontentu daude,</p>
+<p>badakigu zierto.</p>
+<p><hi rend='Bold'> 12</hi></p>
+<p>Izan degu so&ntilde;uba</p>
+<p>dantzatzeko di&ntilde;a,</p>
+<p>bai eta damak ere</p>
+<p>bana eta bi&ntilde;a;</p>
+<p>guziya izan da txit</p>
+<p>ederki egi&ntilde;a,</p>
+<p>bosti eman diyote</p>
+<p>sabeleko mi&ntilde;a.</p>
+<p><mentioned>[1852]</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Kontzezirentzat</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'> 1</hi></p>
+<p>Kantatutzera indar aundiko</p>
+<p>desio batek narama,</p>
+<p>Kontzezi, zuri nai dizut eman</p>
+<p>mereziya dezun fama;</p>
+<p>gure probintzi Gipuzkoa'kuan</p>
+<p>igualik gabeko dama,</p>
+<p>berinkatuba izan derilla</p>
+<p>zu egin zinduben ama.</p>
+<p><hi rend='Bold'> 2</hi></p>
+<p>Zedorrek uste etzenubela</p>
+<p>egon nitzaizun begira,</p>
+<p>lenbizikuan o&ntilde;etara ta</p>
+<p>urrena berriz gerrira;</p>
+<p>o&ntilde;ak dituzu txiki politak,</p>
+<p>gustagarriyak txit dira,</p>
+<p>gerriyan berriz eman litzazke</p>
+<p>kana bat zintak bi jira.</p>
+<p><hi rend='Bold'> 3</hi></p>
+<p>Andik urrena ipi&ntilde;i nizun</p>
+<p>erreparua petxura,</p>
+<p>ordubantxen bai eman nizula</p>
+<p>aingeru baten itxura;</p>
+<p>Jainkoak berak deitu izan balit</p>
+<p>iyo nerilla zerura,</p>
+<p>zure ondotik ara juan biarrak</p>
+<p>emango ziran tristura.</p>
+<p><hi rend='Bold'> 4</hi></p>
+<p>Ondoren jarri nitzan denboran</p>
+<p>begiratubaz lepora,</p>
+<p>biyotzak salto egiten ziran</p>
+<p>irten nayian kanpora;</p>
+<p>irten ta zuzen, badakit zierto,</p>
+<p>juango zan zure kolkora,</p>
+<p>nik jakitera nai zenubela</p>
+<p>utziko niyon gustora.</p>
+<p><hi rend='Bold'> 5</hi></p>
+<p>Atentziyua begiyetara</p>
+<p>paratu nizun segiran,</p>
+<p>ez dakit zierto begiyak ero</p>
+<p>eguzki berri bi ziran;</p>
+<p>ondo ikusi ez nizkitzun ta</p>
+<p>nola esango det zer diran?</p>
+<p>Begiratutzen nizun guziyan</p>
+<p>bista kendutzen zeniran.</p>
+<p><hi rend='Bold'> 6</hi></p>
+<p>Ille beltz eder dizdizariya</p>
+<p>oparo dezu buruban,</p>
+<p>konparatzeko baliyo duben</p>
+<p>sedarik ez da munduban;</p>
+<p>trentzak egi&ntilde;ik zenekan dana</p>
+<p>erregi&ntilde; baten moduban,</p>
+<p>diamantezko koro eder bat</p>
+<p>falta zitzaizun orduban.</p>
+<p><hi rend='Bold'> 7</hi></p>
+<p>Ointxo politak, gerriya mia,</p>
+<p>graziya milla petxuban,</p>
+<p>lepo biribill diruriyena</p>
+<p>egin berriya tornuban;</p>
+<p>pare gabeko begi argiyak,</p>
+<p>ille ederra buruban,</p>
+<p>zu ba&ntilde;o aingeru politagorik</p>
+<p>ez da izango zeruban.</p>
+<p><hi rend='Bold'> 8</hi></p>
+<p>Beti ariko naiz Jaunari eskaka</p>
+<p>ondo izan zaitezela,</p>
+<p>etzazula uste nere biziyan</p>
+<p>zutzaz aztuko naizela;</p>
+<p>eskumu&ntilde;ak maiz bigal nazkitzu</p>
+<p>orain artian bezela,</p>
+<p>ainbeste egin biar dirazu,</p>
+<p>penaz ilko naiz bestela.</p>
+<p><mentioned>[1857]</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Zaldi baten bizitza</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>(Zaldi zuriyarena)</hi></p>
+<p><hi rend='Bold'> 1</hi></p>
+<p>Orra sei bertso kale</p>
+<p>garbitzalleari,</p>
+<p>ze&ntilde;a bere izenez</p>
+<p>dan Joxe Mari;</p>
+<p>erreza lezazkike</p>
+<p>iru abe mari,</p>
+<p>indarra etortzeko</p>
+<p>zaldi zuriyari;</p>
+<p>animali ori</p>
+<p>urriki zait neri,</p>
+<p>falta du ugari</p>
+<p>egoteko guri;</p>
+<p>kartoiaki&ntilde; egi&ntilde;a</p>
+<p>dala diruri.</p>
+<p><hi rend='Bold'> 2</hi></p>
+<p>Goizero biar diyo</p>
+<p>eraso lanari,</p>
+<p>ziki&ntilde;ak bildu arte</p>
+<p>erri danari;</p>
+<p>berriz ere obeto</p>
+<p>bizi ez danari,</p>
+<p>nabarbenduko zaizka</p>
+<p>ezurrak ugari;</p>
+<p>ez naiz txantxaz ari,</p>
+<p>eta, Joxe Mari,</p>
+<p>zaldi gaxuari</p>
+<p>nai a&ntilde;a janari</p>
+<p>eman zaiozu, jartzen</p>
+<p>ote dan lori.</p>
+<p><hi rend='Bold'> 3</hi></p>
+<p>Dago eskeletuen</p>
+<p>itxura arturik,</p>
+<p>di&ntilde;a jan ezak daka</p>
+<p>orla galdurik;</p>
+<p>nola ez da egongo</p>
+<p>oso argaldurik,</p>
+<p>irukitzen badute</p>
+<p>askotan baraurik?</p>
+<p>Zaldiya orri nik</p>
+<p>ez det esperorik</p>
+<p>ezer ikusterik</p>
+<p>ezurrak besterik;</p>
+<p>ez du beintzat izango</p>
+<p>odol-golperik.</p>
+<p><hi rend='Bold'> 4</hi></p>
+<p>Lana sobra du ba&ntilde;a</p>
+<p>janariya falta,</p>
+<p>urrikigarriya da</p>
+<p>dakarren planta;</p>
+<p>gaxuak ez lezake</p>
+<p>luzaro aguanta,</p>
+<p>flakiyareki&ntilde; ezi&ntilde;</p>
+<p>mugitu du anka;</p>
+<p>pentsu gutxi jan ta</p>
+<p>kalian jiraka, .</p>
+<p>gaizki bizi da ta</p>
+<p>indarrik ez daka;</p>
+<p>ezi&ntilde; karriatu du</p>
+<p>karro bat kaka.</p>
+<p><hi rend='Bold'> 5</hi></p>
+<p>Munduban ez liteke</p>
+<p>zaldirik arkitu,</p>
+<p>dubenik orrek a&ntilde;a</p>
+<p>pena sufritu;</p>
+<p>biyotzik gogorrena</p>
+<p>lezake kupitu,</p>
+<p>ez du zartzera txarra</p>
+<p>gaxuak atxitu;</p>
+<p>pausua nagitu,</p>
+<p>ezi&ntilde; da mugitu,</p>
+<p>gutxiyenaz ditu</p>
+<p>zazpi espiritu,</p>
+<p>bestela bizirikan</p>
+<p>ezi&ntilde; segitu.</p>
+<p><hi rend='Bold'> 6</hi></p>
+<p>Gizarajuaz danak</p>
+<p>pena ar zazute,</p>
+<p>baldi&ntilde; biyotz bigu&ntilde;ak</p>
+<p>badituzute;</p>
+<p>asi zan egunetik</p>
+<p>eta orai&ntilde; arte,</p>
+<p>serbitzuba egi&ntilde; du</p>
+<p>erriyan bastante;</p>
+<p>igande ta aste,</p>
+<p>jaiareki&ntilde; naste,</p>
+<p>maki&ntilde;a bat urte</p>
+<p>pasa dizkitzute;</p>
+<p>orai&ntilde; erretirua</p>
+<p>merezi luke.</p>
+<p><hi rend='Bold'>ZALDIAREN ERIOTZA</hi></p>
+<p>Indarra zekan arte</p>
+<p>ziki&ntilde;a karraio,</p>
+<p>eragiten zioten</p>
+<p>maki&ntilde;a bat saio.</p>
+<p>Ba&ntilde;an mi&ntilde;ez jarri da,</p>
+<p>indarra juan zaio!</p>
+<p>Nekearen pagua</p>
+<p>balaz eman zaio!</p>
+<p><hi rend='Bold'>OBIZDEA</hi></p>
+<p>Azkenak emen daude</p>
+<p>zaldi argal baten,</p>
+<p>ze&ntilde;ak ez zuen i&ntilde;oiz</p>
+<p>pentsu on bat jaten;</p>
+<p>gelditu zaizkan mami</p>
+<p>puskak eramaten,</p>
+<p>beliak lan askorik</p>
+<p>apenas daukaten.</p>
+<p><hi rend='Italic'><foreign> R. I. P. Amen.</foreign></hi></p>
+<p><mentioned>[1860]</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Pozez ta bildurrak</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'> 1</hi></p>
+<p>Dama gazte polit bat</p>
+<p>bada Donostiya'n,</p>
+<p>berdi&ntilde;ik ez dubena</p>
+<p>zeruban azpiyan;</p>
+<p>biyotza mugitzen zait</p>
+<p>modu txit eztiyan,</p>
+<p>nere pensamentura</p>
+<p>datorren guztiyan.</p>
+<p><hi rend='Bold'> 2</hi></p>
+<p>Graziyazko aingeru</p>
+<p>adoragarriya,</p>
+<p>Jaunaren ondotikan</p>
+<p>egan etorriya,</p>
+<p>zerubak egintako</p>
+<p>milagro berriya,</p>
+<p>gloriyaz bete dezan</p>
+<p>Donosti'ko erriya!</p>
+<p><hi rend='Bold'> 3</hi></p>
+<p>Arpegiya ze&ntilde;ek du</p>
+<p>arrek bezin fi&ntilde;a?</p>
+<p>Eta ze&ntilde;ek gorputza</p>
+<p>ai&ntilde; ongi egi&ntilde;a?</p>
+<p>Ibilleran ere da</p>
+<p>guztizko ari&ntilde;a,</p>
+<p>euskerak ez du itzik</p>
+<p>famatzeko di&ntilde;a!</p>
+<p><hi rend='Bold'> 4</hi></p>
+<p>Naiz plazara juan bedi,</p>
+<p>naiz juan iturrira,</p>
+<p>nork ez du arreta jartzen</p>
+<p>aren ibillira?</p>
+<p>Bat ba&ntilde;an geiago're</p>
+<p>gelditutzen dira,</p>
+<p>ezkutatzen dan arte</p>
+<p>berari begira.</p>
+<p><hi rend='Bold'> 5</hi></p>
+<p>Bere jatorrez duben</p>
+<p>patxara fi&ntilde;ian,</p>
+<p>biria pasatzen du</p>
+<p>pauso ari&ntilde;ian;</p>
+<p>lurrik ez du zanpatzen</p>
+<p>txoriyak a&ntilde;ian,</p>
+<p>txutik juango litzake</p>
+<p>uraren ga&ntilde;ian.</p>
+<p><hi rend='Bold'> 6</hi></p>
+<p>Orrenbeste graziya</p>
+<p>dituben meriyo,</p>
+<p>arentzako gordia</p>
+<p>zenbat amoriyo</p>
+<p>biyotzian dakatan</p>
+<p>nork kontatu diyo?</p>
+<p>Kalian ikusita</p>
+<p>esan dit ariyo!</p>
+<p><hi rend='Bold'> 7</hi></p>
+<p>Berriz ikusitzeko</p>
+<p>egingo det modu,</p>
+<p>juango diran ba&ntilde;o len</p>
+<p>ogei ta lau ordu;</p>
+<p>ariyo esaten badit</p>
+<p>laister entzungo du</p>
+<p>&laquo;Nere arratseroko</p>
+<p>ametsa, zer modu?&raquo;</p>
+<p><hi rend='Bold'> 8</hi></p>
+<p>&laquo;Ongi nai ta ezi&ntilde; izan&raquo;</p>
+<p>esango dit anbat;</p>
+<p>nik erantzungo diyot</p>
+<p>&laquo;Noski besteren bat</p>
+<p>izango da, sufritzen</p>
+<p>dubena zuk ainbat...&raquo;</p>
+<p>&laquo;Zein da, bada, esazu!&raquo;</p>
+<p>&laquo;Zu nai zinduzken bat!&raquo;</p>
+<p><hi rend='Bold'> 9</hi></p>
+<p>&laquo;Burlaz esaten dezu!</p>
+<p>Nork naiko nau ni? Nork?</p>
+<p>Aberatsa ez danik</p>
+<p>ez du maite i&ntilde;ork.&raquo;</p>
+<p>Ba&ntilde;a nik ordubantxen</p>
+<p>erantzungo diyot:</p>
+<p>&laquo;Zoragarriya, naizu</p>
+<p>maita gaiten biyok?&raquo;</p>
+<p><hi rend='Bold'> 10</hi></p>
+<p>Baietz esaten baldi&ntilde;</p>
+<p>badit erdi farrez,</p>
+<p>erotu egingo naiz</p>
+<p>pozaren indarrez;</p>
+<p>ezetz entzuten badet</p>
+<p>nere suerte txarrez,</p>
+<p>itz orrek utziko nau</p>
+<p>betiko negarrez!</p>
+<p><mentioned>[1862]</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Juramentuba</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'> 1</hi></p>
+<p>Begi urdi&ntilde;ak dituzu eta</p>
+<p>arpegi zuri-gerriya,</p>
+<p>nere biyotzak maite zaituben</p>
+<p>aingeru zoragarriya;</p>
+<p>zumia bezi&ntilde; bigu&ntilde;a eta</p>
+<p>mia da zure gerriya,</p>
+<p>estutu bage artu liteke</p>
+<p>bi eskubakin neurriya.</p>
+<p><hi rend='Bold'> 2</hi></p>
+<p>Lengo batian, izar berriya,</p>
+<p>ongi fortuna nerian,</p>
+<p>maite ninduzun galdetu eta</p>
+<p>baietz erantzun zeniran;</p>
+<p>pozaki&ntilde; iya zoraturikan,</p>
+<p>aditu eta segiran,</p>
+<p>beso eskuia estutu nuben</p>
+<p>zure gerriyaren jiran.</p>
+<p><hi rend='Bold'> 3</hi></p>
+<p>Neri begira gelditu zi&ntilde;an</p>
+<p>buruba triste etzanaz,</p>
+<p>ni ere zuri begira negon</p>
+<p>&laquo;Maite neria!&raquo; esanaz;</p>
+<p>luzaro ala egondu ginan</p>
+<p>suspiriyuak emanaz,</p>
+<p>biyok elkarren begiyetatik</p>
+<p>amoriyua eranaz.</p>
+<p><hi rend='Bold'> 4</hi></p>
+<p>Ongi penakin askaturikan</p>
+<p>zure gerritik besua,</p>
+<p>ez zait aztuko nola esan nizun</p>
+<p>&laquo;Nere maitetxo gozua!</p>
+<p>Zorionaren ekartzallia,</p>
+<p>izar amoriosua,</p>
+<p>zu adoratzen igaroko det</p>
+<p>nere bizitza osua!</p>
+<p><hi rend='Bold'> 5</hi></p>
+<p>Maite nazula len esan dezu,</p>
+<p>berriz esan zazu arren!</p>
+<p>Ez naiz entzutez gogobeteko</p>
+<p>milla bider esan arren;</p>
+<p>nun ta zerubak erabakiya</p>
+<p>beste moduz ez dakarren,</p>
+<p>denbora gutxi barrun gu biyok</p>
+<p>izango gera elkarren.&raquo;</p>
+<p><hi rend='Bold'> 6</hi></p>
+<p>Imaji&ntilde;a bat zillarrezkua</p>
+<p>kordoi batekin lotuba</p>
+<p>begiz aurrian jarri zeniran</p>
+<p>kolkotik ateratuba,</p>
+<p>ze&ntilde;etan zegon gurutzeturik</p>
+<p>Jaunaren Seme santuba</p>
+<p>&laquo;Onen aurrian &mdash;esan zeniran&mdash;</p>
+<p>egizu juramentuba!&raquo;</p>
+<p><hi rend='Bold'> 7</hi></p>
+<p>Faltsiyarikan ez zeguela</p>
+<p>nere biyotz xamurrian,</p>
+<p>proga emango nizun eguna</p>
+<p>arkitzen zala urrian,</p>
+<p>begiratuba imaji&ntilde;an ta</p>
+<p>belaun eskuia lurrian,</p>
+<p>juramentuba eske&ntilde;i nizun</p>
+<p>Jaungoikoaren aurrian.</p>
+<p><hi rend='Bold'> 8</hi></p>
+<p>Fintasunaki&ntilde; kunplituko det,</p>
+<p>ez da zer egon zalantzez,</p>
+<p>denborarikan igaro gabe</p>
+<p>gogo txarrezko balantzez;</p>
+<p>erakutsitzen baldin badizut</p>
+<p>faltsiyarikan mudantzez,</p>
+<p>nere biyotza bete dezala</p>
+<p>damutasunak arantzez.</p>
+<p><mentioned>[1862]</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Loriak</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'> 1</hi></p>
+<p>Beti nik damari</p>
+<p>loriak ugari,</p>
+<p>endemas pixka bat</p>
+<p>maite naubenari;</p>
+<p>damak berriz neri</p>
+<p>&mdash;gezurra diruri!&mdash;</p>
+<p>osi&ntilde;ez pagatu</p>
+<p>lorezko zor ori.</p>
+<p><hi rend='Bold'> 2</hi></p>
+<p>Oso nago mendian</p>
+<p>jaungoiko itxubaren,</p>
+<p>ama Venus'engandik</p>
+<p>jaiotakoaren;</p>
+<p>neroni ez naiz jabe</p>
+<p>nere biyotzaren,</p>
+<p>gaxua preso dakat</p>
+<p>amoriyuaren.</p>
+<p><hi rend='Bold'> 3</hi></p>
+<p>Sartutzen dan bezela</p>
+<p>balkoi batetikan</p>
+<p>eguzkiya gelara</p>
+<p>kristaletatikan,</p>
+<p>modu ortaraxe bei&ntilde;</p>
+<p>igaro zitzaitan</p>
+<p>biyotzera dama bat</p>
+<p>begiyetatikan.</p>
+<p><hi rend='Bold'> 4</hi></p>
+<p>Biyotz nerian preso</p>
+<p>gelditu bire zan,</p>
+<p>geratzen dan bezela</p>
+<p>txingarra iyeskan;</p>
+<p>obligatuba dago</p>
+<p>egotera bertan,</p>
+<p>nun-ta biyotz ta guzi</p>
+<p>ateratzen ez dan.</p>
+<p><hi rend='Bold'> 5</hi></p>
+<p>Ditu ille urrezko</p>
+<p>albi&ntilde;u luziak,</p>
+<p>alakorik apaintzen</p>
+<p>ez du orraziak;</p>
+<p>frankotan inbiriya</p>
+<p>eman dit aiziak,</p>
+<p>aren trentza tartetik</p>
+<p>jostatzen pasiak.</p>
+<p><hi rend='Bold'> 6</hi></p>
+<p>Ondo konparatzia</p>
+<p>da gauza ezi&ntilde;a</p>
+<p>arren begiyetako</p>
+<p>urdintasun fi&ntilde;a;</p>
+<p>ez da irrutira're</p>
+<p>aitatzeko di&ntilde;a</p>
+<p>itxasoko bagaren</p>
+<p>kolore urdi&ntilde;a.</p>
+<p><hi rend='Bold'> 7</hi></p>
+<p>Ez da zer aitaturik</p>
+<p>zeru zabala're,</p>
+<p>bolaraz urdi&ntilde;-urdi&ntilde;</p>
+<p>jarritzen dala're;</p>
+<p>aingeru neriaren</p>
+<p>begiyak alare</p>
+<p>urdi&ntilde; purubagoko</p>
+<p>zerubak dirare.</p>
+<p><hi rend='Bold'> 8</hi></p>
+<p>Izarrak dirurite,</p>
+<p>ai&ntilde; ditu argiyak,</p>
+<p>aingerubak zerutik</p>
+<p>jetxita jarriyak,</p>
+<p>gloriyan egintako</p>
+<p>ispillu garbiyak,</p>
+<p>Jaungoikua badala</p>
+<p>gogoragarriyak.</p>
+<p><hi rend='Bold'> 9</hi></p>
+<p>Cupido'k eritzen nau</p>
+<p>fletxakin berriro,</p>
+<p>neregana jiratzen</p>
+<p>dituben aldiro;</p>
+<p>biyotzera sartzen zait</p>
+<p>eztiro-eztiro</p>
+<p>amoriyotasun bat</p>
+<p>gozua guztiro.</p>
+<p><hi rend='Bold'> 10</hi></p>
+<p>Aren ezpai&ntilde; gorriyak</p>
+<p>nere atsegintzat,</p>
+<p>ondo merezi dute</p>
+<p>famatzia fintzat;</p>
+<p>zerbaitez apartetik</p>
+<p>ikusita beintzat,</p>
+<p>mundu guztiyak artzen</p>
+<p>ditu krabelintzat.</p>
+<p><hi rend='Bold'> 11</hi></p>
+<p>Farrik egiten badu</p>
+<p>zerutar birji&ntilde;ak,</p>
+<p>erakusten dituben</p>
+<p>ortza txiki fi&ntilde;ak,</p>
+<p>txuriz elurrarekin</p>
+<p>dirare berdi&ntilde;ak;</p>
+<p>perlak iruri dute</p>
+<p>zillarrez egi&ntilde;ak.</p>
+<p><hi rend='Bold'> 12</hi></p>
+<p>Gozuaren birtutez</p>
+<p>aren asnasiak</p>
+<p>lo-arazitzen ditu</p>
+<p>nere o&ntilde;aziak;</p>
+<p>usai oberik ez du</p>
+<p>banatzen aiziak,</p>
+<p>loriak maitatubaz</p>
+<p>baratzan pasiak.</p>
+<p><hi rend='Bold'> 13</hi></p>
+<p>Lepo biribilla ta</p>
+<p>gorputza lira&ntilde;a,</p>
+<p>txikiz ez det esaten</p>
+<p>o&ntilde;aren tama&ntilde;a;</p>
+<p>ibiltzen airetsuba,</p>
+<p>jantziyan apa&ntilde;a,</p>
+<p>aren graziyak dira</p>
+<p>ezi&ntilde; esan a&ntilde;a.</p>
+<p><mentioned>[1862]</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Maita nazazu arren!</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'> 1</hi></p>
+<p>Biyotzaren erditik</p>
+<p>zeruzko dama bat</p>
+<p>amoriyoz maite det</p>
+<p>ezi&ntilde; esan ainbat;</p>
+<p>sufri-arazitzen dit</p>
+<p>erotzeko din bat,</p>
+<p>artara ekarriko nau</p>
+<p>oraindikan anbat.</p>
+<p><hi rend='Bold'> 2</hi></p>
+<p>Nere maitasun onek</p>
+<p>falta du orda&ntilde;a,</p>
+<p>etzait ongi portatzen</p>
+<p>aingeru lira&ntilde;a;</p>
+<p>itxumen guztiyakin</p>
+<p>maitatzen det ba&ntilde;a...</p>
+<p>berak ez nau ordia</p>
+<p>nik merezi a&ntilde;a.</p>
+<p><hi rend='Bold'> 3</hi></p>
+<p>Zoraturikan beti</p>
+<p>aren billa nabill,</p>
+<p>ura berriz nigandik</p>
+<p>igesika dabill;</p>
+<p>laister logratuko du</p>
+<p>onla banarabill,</p>
+<p>biyotzikan gabiak</p>
+<p>penaz nai banau ill!</p>
+<p><hi rend='Bold'> 4</hi></p>
+<p>I&ntilde;on ikusi gabe</p>
+<p>sei aste luziak,</p>
+<p>beti artaz pensatzen</p>
+<p>negarrez pasiak;</p>
+<p>begi biyak dakazkit</p>
+<p>malkotan asiak,</p>
+<p>ez du asko kupitzen</p>
+<p>nere o&ntilde;aziak.</p>
+<p><hi rend='Bold'> 5</hi></p>
+<p>Aren krueltasuna</p>
+<p>izanik ainbeste,</p>
+<p>penaz betia nago,</p>
+<p>mi&ntilde;ez eta triste;</p>
+<p>izar dizdizariya,</p>
+<p>nitaz kupi zaite!</p>
+<p>Zuregatik ilko naiz</p>
+<p>ez banazu maite!</p>
+<p><hi rend='Bold'> 6</hi></p>
+<p>Baldin gertatzen bada</p>
+<p>orrelakoren bat,</p>
+<p>zedorri're damubak</p>
+<p>ilko zaitu anbat;</p>
+<p>maita nazazu bara</p>
+<p>nik zaitutan ainbat,</p>
+<p>elizan egiteko</p>
+<p>biyotz birekin bat!</p>
+<p><mentioned>[1862]</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Beti zutzaz pentsatzen</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'> 1</hi></p>
+<p>Dama gazte bat ezagutzen det</p>
+<p>diruriyena izarra,</p>
+<p>eguzkiyari kopetetikan</p>
+<p>saltatutako txingarra;</p>
+<p>biyotz nerian ala piztu du</p>
+<p>amoriyozko su-garra,</p>
+<p>nola mendiyan piztu lezaken</p>
+<p>tximistak arbol igarra.</p>
+<p><hi rend='Bold'> 2</hi></p>
+<p>Beti goguan zauzkatan dama</p>
+<p>izarra diruriyena,</p>
+<p>eguzkiyaren biarrik gabe</p>
+<p>argi egiten dezuna;</p>
+<p>berdin gabeko amoriyua</p>
+<p>senti-arazten nazuna,</p>
+<p>aditzera ezi&ntilde; eman liteke</p>
+<p>dizutan maitetasuna.</p>
+<p><hi rend='Bold'> 3</hi></p>
+<p>Nere begiyak beren aurrian</p>
+<p>ikusten ez bazaituzte,</p>
+<p>gixaraxuak eta biyotza</p>
+<p>egoten dira txit triste;</p>
+<p>xinista zazu mundu guztiyan</p>
+<p>ez dala i&ntilde;or ni beste,</p>
+<p>zu maitatzeko kapaz danikan</p>
+<p>merezi dezun ainbeste.</p>
+<p><hi rend='Bold'> 4</hi></p>
+<p>Gau eder alai aietako bat</p>
+<p>gertatutzen dan orduban,</p>
+<p>izarrak dizdiz egiten dute</p>
+<p>zeruko urdi&ntilde; puruban;</p>
+<p>diferentzirik batere gabe,</p>
+<p>zuk nere pensamentuban</p>
+<p>dizdiz alaxen egiten dezu</p>
+<p>nola izarrak zeruban.</p>
+<p><hi rend='Bold'> 5</hi></p>
+<p>Ia gozua izango al dan,</p>
+<p>enamoraturik dana,</p>
+<p>ama on batek aur maitiari</p>
+<p>ematen diyon laztana?</p>
+<p>Alare bada beste gauza bat</p>
+<p>askoz gozuago dana:</p>
+<p>zureganako amoriyua</p>
+<p>nere biyotzak daukana.</p>
+<p><hi rend='Bold'> 6</hi></p>
+<p>Nork irukiko zaitu nik bezi&ntilde;</p>
+<p>ixtimaziyo aundiyan,</p>
+<p>animatikan maite bazaitut</p>
+<p>erotutzeko zoriyan?</p>
+<p>Amoriyozko naitasunaki&ntilde;</p>
+<p>gorderik erdi-erdiyan,</p>
+<p>biyotz nerian ala zaukazkit</p>
+<p>nola niniya begiyan.</p>
+<p><hi rend='Bold'> 7</hi></p>
+<p>Bost urte diran ez dakit ba&ntilde;o</p>
+<p>be&ntilde;epei&ntilde; badirare lau,</p>
+<p>faltatu gabe nere oroitzan</p>
+<p>zaudela egun eta gau;</p>
+<p>zu itxumenez maitatutzeko</p>
+<p>zerubak si&ntilde;alatu nau,</p>
+<p>alik lenena premiya zazu</p>
+<p>egiyazko naitasun au.</p>
+<p><mentioned>[1868]</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Ja-jai!</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'> 1</hi></p>
+<p>Bei&ntilde; batian Loiola'n</p>
+<p>erromeriya zan,</p>
+<p>antxen ikusi nuben</p>
+<p>neskatxa bat plazan;</p>
+<p>txoriya ba&ntilde;an ere</p>
+<p>ari&ntilde;ago dantzan,</p>
+<p>uraxen bai pollita,</p>
+<p>an pollitik bazan!</p>
+<p><hi rend='Bold'> 2</hi></p>
+<p>Esan niyon desio</p>
+<p>senti nuben gisan,</p>
+<p>areki&ntilde; izketa bat</p>
+<p>nai nubela izan;</p>
+<p>erantzun ziran ezik</p>
+<p>atsegi&ntilde; ar nezan,</p>
+<p>adituko zirala</p>
+<p>zer nai niyon esan.</p>
+<p><hi rend='Bold'> 3</hi></p>
+<p>Arkitu gi&ntilde;anian</p>
+<p>i&ntilde;or gabe jiran,</p>
+<p>koloriak gorritu</p>
+<p>arazi zizkiran;</p>
+<p>kontatuko dizutet</p>
+<p>guztiya segiran</p>
+<p>zer esan niyon eta</p>
+<p>nola erantzun ziran.</p>
+<p><hi rend='Bold'> 4</hi></p>
+<p>&laquo;Dama polita zera,</p>
+<p>polita guztiz, ai!</p>
+<p>Ba&ntilde;an alare zaude</p>
+<p>oraindik ezkongai.</p>
+<p>Ezkon gaitezen biyok!</p>
+<p>Esan zadazu bai!&raquo;</p>
+<p>&laquo;Ni zureki&ntilde; ezkondu</p>
+<p>Ni zureki&ntilde;? Ja-jai!&raquo;</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Zenbait damaren esker txarra</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'> 1</hi></p>
+<p>Atzo, probetxu gabe,</p>
+<p>etxeko auzuan,</p>
+<p>egondu nitzan zure</p>
+<p>zai egun osuan;</p>
+<p>gaur suertez ikusitzen</p>
+<p>zaitutan kasuan,</p>
+<p>itz egi&ntilde; biar dizut</p>
+<p>izketa gozuan.</p>
+<p><hi rend='Bold'> 2</hi></p>
+<p>Zei&ntilde;-ta politak diran</p>
+<p>arrosa, jazmi&ntilde;a,</p>
+<p>azuzena, liriyo</p>
+<p>eta klabeli&ntilde;a,</p>
+<p>danak bat egi&ntilde;ta're</p>
+<p>ez dirade di&ntilde;a</p>
+<p>igualatzeko nere</p>
+<p>maite atsegi&ntilde;a.</p>
+<p><hi rend='Bold'> 3</hi></p>
+<p>Nai det jaki&ntilde; dezazun</p>
+<p>orai&ntilde; beriala</p>
+<p>txit asko nai dizutan</p>
+<p>neskatxa zerala;</p>
+<p>gaur zu ikusitziak</p>
+<p>poztutzen nau ala,</p>
+<p>nun iruritzen zaitan</p>
+<p>jai aundi bat dala.</p>
+<p><hi rend='Bold'> 4</hi></p>
+<p>Au da mundu guziyak</p>
+<p>ongi dakiyena:</p>
+<p>zu zerala dama bat</p>
+<p>grazi utsa dena;</p>
+<p>bat oietan badezu</p>
+<p>erotzen naubena,</p>
+<p>artan arkitzen dizut</p>
+<p>grazirik geiena.</p>
+<p><hi rend='Bold'> 5</hi></p>
+<p>Izan ere gorputza</p>
+<p>dezu aproposa,</p>
+<p>ikusi utsareki&ntilde;</p>
+<p>ematen du poza;</p>
+<p>beste i&ntilde;or ez dala</p>
+<p>zu bezi&ntilde; airosa,</p>
+<p>erri guziyan dago</p>
+<p>banatuba boza.</p>
+<p><hi rend='Bold'> 6</hi></p>
+<p>Patxaran ibiltzia</p>
+<p>dago gaur bolaran,</p>
+<p>pausaje fi&ntilde;a orai&ntilde;</p>
+<p>zergatik moda dan;</p>
+<p>eta zu ikustia</p>
+<p>modako patxaran,</p>
+<p>ez dakizu neretzat</p>
+<p>nolako ditxa dan!</p>
+<p><hi rend='Bold'> 7</hi></p>
+<p>Nik esan ta zuk jaki&ntilde;</p>
+<p>biazu ezikan</p>
+<p>lau andregai dakazkit</p>
+<p>artu nai ezikan;</p>
+<p>ezkonduko nitzake</p>
+<p>gaur bertan kasikan,</p>
+<p>bestereki&ntilde; ez ba&ntilde;an</p>
+<p>zureki&ntilde; pozikan!</p>
+<p><hi rend='Bold'> 8</hi></p>
+<p>Amoriyorik gabe</p>
+<p>pasatu ezi&ntilde;ez,</p>
+<p>nik damak maite ditut,</p>
+<p>aitortzen det zi&ntilde;ez:</p>
+<p>begiyaki&ntilde; guziyak,</p>
+<p>milla bai minga&ntilde;ez,</p>
+<p>ba&ntilde;an biyotzareki&ntilde;</p>
+<p>zu besterikan ez!</p>
+<p><hi rend='Bold'> 9</hi></p>
+<p>Zu zera, bai, zu zera,</p>
+<p>damatxo maitia,</p>
+<p>nere desiuaren</p>
+<p>zeruko atia;</p>
+<p>biyotz onez nereki&ntilde;</p>
+<p>bat egi&ntilde; zaitia,</p>
+<p>eta biziko zera</p>
+<p>kontentuz betia.</p>
+<p><hi rend='Bold'> 10</hi></p>
+<p>Ortarako aguro</p>
+<p>genuke eguna,</p>
+<p>nik nai detana balitz</p>
+<p>biyok nai deguna;</p>
+<p>ba&ntilde;an zure asmua</p>
+<p>da txit ezaguna</p>
+<p>ez dezu estimatzen</p>
+<p>nere naitasuna.</p>
+<p><hi rend='Bold'> 11</hi></p>
+<p>Ditxa bat ez dit opa</p>
+<p>fortuna zekenak,</p>
+<p>negarrez daramazkit</p>
+<p>ordurik geienak;</p>
+<p>ezi&ntilde; aundiyagoko</p>
+<p>o&ntilde;aze ta penak,</p>
+<p>sufritutzen bizi naiz</p>
+<p>zuregatik denak.</p>
+<p><hi rend='Bold'> 12</hi></p>
+<p>Mi&ntilde; abetaz kupitzen</p>
+<p>ez baldi&ntilde; bazera,</p>
+<p>nere buruba nua</p>
+<p>betiko galtzera</p>
+<p>Matxo'ra iyoko naiz</p>
+<p>andik botatzera,</p>
+<p>duben altubenetik</p>
+<p>Gaztelu atzera.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Dama ta galaia</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'> 1</hi></p>
+<p><hi rend='Italic'> Galaiak:</hi></p>
+<p>Dezu gorputz egokiya,</p>
+<p>polita txit arpegiya</p>
+<p>eta ederra begiya</p>
+<p>zure begiya</p>
+<p>agitz argiya</p>
+<p>da guztiyetan aurrena;</p>
+<p>bestiak dira urrena,</p>
+<p>ori da-ta ederrena,</p>
+<p>diruri eperrarena.</p>
+<p><hi rend='Bold'> 2</hi></p>
+<p>Ez det, dama begi eder,</p>
+<p>desiatzen beste ezer,</p>
+<p>ba&ntilde;an bai... esango det zer</p>
+<p>legezko birez,</p>
+<p>faltsiyaki&ntilde; ez,</p>
+<p>zu neretzako logratu;</p>
+<p>nik orla naia obratu</p>
+<p>txantxa dala ez pentsatu,</p>
+<p>zutzaz naiz enamoratu.</p>
+<p><hi rend='Bold'> 3</hi></p>
+<p>Konformatutzen bazera,</p>
+<p>laster ezkonduko gera,</p>
+<p>ez galdu orlako era;</p>
+<p>biyok munduban</p>
+<p>bizi-moduban</p>
+<p>artutzen badegu parte,</p>
+<p>asnasiak iraun arte,</p>
+<p>jaki&ntilde;ian gera zaite,</p>
+<p>nik izango zaitut maite.</p>
+<p><hi rend='Bold'> 4</hi></p>
+<p>Millaka ditut ardiyak,</p>
+<p>larogei ta lau ariyak,</p>
+<p>mardulak eta guriyak;</p>
+<p>zezen eta bei</p>
+<p>berreun ta ogei,</p>
+<p>sei eun eta bost iriyak;</p>
+<p>baitare soro aundiyak,</p>
+<p>belar ugariz jantziyak,</p>
+<p>mantendutzeko guziyak.</p>
+<p><hi rend='Bold'> 5</hi></p>
+<p>Nik ori guztiya daukat</p>
+<p>ez balitz bezela deus bat,</p>
+<p>badet-eta beste gauz bat</p>
+<p>giltzaz azpiyan</p>
+<p>leku itxiyan</p>
+<p>dakat montuan billbilla</p>
+<p>urrezko zenbait kurpilla;</p>
+<p>uraxen bai dala pilla</p>
+<p>ontzako utsak lau milla.</p>
+<p><hi rend='Bold'> 6</hi></p>
+<p>Dauzkatanaren giltzaz be</p>
+<p>zu egi&ntilde;go zaitut jabe,</p>
+<p>bazeudeke duda gabe:</p>
+<p>bara, begira,</p>
+<p>izango dira,</p>
+<p>orra eman notiziyak,</p>
+<p>zure kontura utziyak,</p>
+<p>dituzu-ta mereziyak,</p>
+<p>etxeko giltza guziyak.</p>
+<p><hi rend='Bold'> 7</hi></p>
+<p>Zer ongi biziko zeran,</p>
+<p>nai dezuna jan ta eran,</p>
+<p>guztiya zure aukeran;</p>
+<p>jazteko ere</p>
+<p>zuk ez batere</p>
+<p>gastubari begiratu;</p>
+<p>dendik onenetan sartu,</p>
+<p>gayik ederrenak artu</p>
+<p>eta so&ntilde;ak enkargatu.</p>
+<p><hi rend='Bold'> 8</hi></p>
+<p>Alaja-zale bazera,</p>
+<p>juango gera esatera</p>
+<p>alajategi batera:</p>
+<p>erakusteko,</p>
+<p>zuk ikusteko,</p>
+<p>dakaten alajeriya;</p>
+<p>naiz bada're gariztiya,</p>
+<p>izango da erosiya</p>
+<p>gustatzen zaizun guziya.</p>
+<p><hi rend='Bold'> 9</hi></p>
+<p>Zu serbitzeko nik ontan,</p>
+<p>gauz oiek errira ontan</p>
+<p>ez daude denda i&ntilde;ontan;</p>
+<p>ta erostera</p>
+<p>erri bestera</p>
+<p>egi&ntilde;go degu, bai, jira;</p>
+<p>nai badezu Donosti'ra</p>
+<p>edo bestela Frantzi'ra,</p>
+<p>ango zuk naizun errira.</p>
+<p><hi rend='Bold'> 10</hi></p>
+<p>Esaten dizkitzutanak,</p>
+<p>dira-ta zi&ntilde;ez esanak,</p>
+<p>kunplituko ditut danak;</p>
+<p>fiyatu zaite,</p>
+<p>nik zaitut maite,</p>
+<p>eta jaki&ntilde; zazu ezik</p>
+<p>zugatik ez dala kasik</p>
+<p>egi&ntilde;go ez nuken gauzik</p>
+<p>gusto aundira ta pozik.</p>
+<p><hi rend='Bold'> 11</hi></p>
+<p>Zutzaz enamoratuba,</p>
+<p>nago kasikan artuba</p>
+<p>illaren erretratuba;</p>
+<p>mi&ntilde;ik txarrena</p>
+<p>dakat barrena,</p>
+<p>animara&ntilde;o sartuba;</p>
+<p>au legoke sendatuba,</p>
+<p>gauza bat desiatuba</p>
+<p>nik baneka logratuba.</p>
+<p><hi rend='Bold'> 12</hi></p>
+<p>Sendako litzaiket mi&ntilde;a,</p>
+<p>bestela senda ezi&ntilde;a,</p>
+<p>zu neretzako bazi&ntilde;a;</p>
+<p>azken ortara</p>
+<p>ni nua bara,</p>
+<p>guztiz intentziyo onez,</p>
+<p>ezi&ntilde; liteke-ta obez,</p>
+<p>arren esazu faborez</p>
+<p>neretzat zeran edo ez!</p>
+<p><hi rend='Bold'> 13</hi></p>
+<p><hi rend='Italic'> Damak:</hi></p>
+<p>Dirazu naitasun fi&ntilde;a,</p>
+<p>gozua ta atsegi&ntilde;a</p>
+<p>obiagorik ezi&ntilde;a;</p>
+<p>jaki&ntilde; naizuna</p>
+<p>da erantzuna</p>
+<p>esatiaki&ntilde; onela</p>
+<p>alaxen banitz bezela,</p>
+<p>zierto egon zaitezela</p>
+<p>zuria izango naizela.</p>
+<p><hi rend='Bold'> 14</hi></p>
+<p><hi rend='Italic'>Au nik diyot:</hi></p>
+<p>Ara gauzak nola diran</p>
+<p>egun artatik segiran</p>
+<p>biyak alkarrenak ziran;</p>
+<p>ordu ezkero,</p>
+<p>au zan espero,</p>
+<p>kunplitu-ta berak naia</p>
+<p>ongi daudela da baia,</p>
+<p>pasiaz bizi alaia,</p>
+<p>gure dama ta galaia.</p>
+<p><hi rend='Bold'> 15</hi></p>
+<p>Egiya nik esateko,</p>
+<p>ez zebilltzan ezkontzeko</p>
+<p>geldi-geldi egoteko</p>
+<p>galaiak obra,</p>
+<p>seguru sobra,</p>
+<p>aurreratuba darama;</p>
+<p>egi&ntilde; dirala da fama</p>
+<p>bat aita, bestia ama,</p>
+<p>gure galaia ta dama.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Juana Bixenta Olabe</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'> 1</hi></p>
+<p><hi rend='Italic'> J. Bixenta:</hi></p>
+<p>Nagusi jauna, auxen da lana,</p>
+<p>amak bigaltzen nau berorrengana.</p>
+<p><hi rend='Italic'> N. jauna:</hi></p>
+<p>Ai, bigaldubo bazinduke maiz!</p>
+<p>Zu ikusita konsolatzen naiz.</p>
+<p>Xinista zazu</p>
+<p>oso zoraturikan nakazu!</p>
+<p>Orren polita nola zera zu?</p>
+<p><hi rend='Bold'> 2</hi></p>
+<p><hi rend='Italic'> J. Bixenta:</hi></p>
+<p>Amak esan dit, etxeko errenta</p>
+<p>pagatzeko dirurik ez zuben-ta,</p>
+<p>ia egingo diyon mesere,</p>
+<p>illabetian geienaz ere,</p>
+<p>itxogotia; (<foreign>sic</foreign>)</p>
+<p>bara zierto dala ematia</p>
+<p>pasa ba&ntilde;o len illabetia.</p>
+<p><hi rend='Bold'> 3</hi></p>
+<p><hi rend='Italic'> N. jauna:</hi></p>
+<p>Logratutzia, errex alare,</p>
+<p>naiz ori ta beste zernai gauza're,</p>
+<p>seguru dala esan amari,</p>
+<p>zu baldi&ntilde; bazatoz mandatari;</p>
+<p>dudarik gabe,</p>
+<p>nere borondatiaren jabe</p>
+<p>zu zera, Juana Bixenta Olabe.</p>
+<p><hi rend='Bold'> 4</hi></p>
+<p><hi rend='Italic'> J. Bixenta:</hi></p>
+<p>Beraz bertatik nua etxera</p>
+<p>poz aundi bat amari ematera;</p>
+<p>orai&ntilde; ariyo, nagusi jauna,</p>
+<p>presaka juan biat amagana.</p>
+<p><hi rend='Italic'> N.jauna:</hi></p>
+<p>Ez zuazela;</p>
+<p>portatu zaite nik nai bezela,</p>
+<p>gaur etxera juan ez zaitezela.</p>
+<p><hi rend='Bold'> 5</hi></p>
+<p>Zuben etxia dago irruti,</p>
+<p>birian zer gerta izan bildurti;</p>
+<p>bara iya pasa da eguna,</p>
+<p>arratsa berriz dator illuna;</p>
+<p>orai&ntilde; juatia</p>
+<p>txartzat iruki, nere maitia;</p>
+<p>gaur emen bertan gera zaitia.</p>
+<p><hi rend='Bold'> 6</hi></p>
+<p>Ez juan etxera, bire oietan,</p>
+<p>gabaz, bakarrik eta illunbetan;</p>
+<p>kontura erori zaitia zu:</p>
+<p>gabaz illunbian juan biazu</p>
+<p>peligro aundiz,</p>
+<p>eta obe dezu eun aldiz</p>
+<p>biyar goizian juan egun argiz.</p>
+<p><hi rend='Bold'> 7</hi></p>
+<p><hi rend='Italic'> J. Bixenta:</hi></p>
+<p>Ezetz etsiya egon liteke,</p>
+<p>ni emen gelditu ezi&ntilde; niteke;</p>
+<p>amak espero nau gaberako,</p>
+<p>eta ark espero naubelako,</p>
+<p>juan biar det nik;</p>
+<p>alaba ikusi bagetanik</p>
+<p>amak izango ez luke onik.</p>
+<p><hi rend='Bold'> 8</hi></p>
+<p><hi rend='Italic'> N. jauna:</hi></p>
+<p>Emen zuretzat dira parako</p>
+<p>jaki txit goxuak afaitarako;</p>
+<p>erariya berriz, &mdash;Jaungoikua!&mdash;,</p>
+<p>illak piztutzeko modukua</p>
+<p>ardo onduba,</p>
+<p>ontzen urtietan egonduba,</p>
+<p>Malaga'tikan da bigalduba.</p>
+<p><hi rend='Bold'> 9</hi></p>
+<p><hi rend='Italic'> J. Bixenta:</hi></p>
+<p>Jauna, berorrek, ba&ntilde;an alferrik,</p>
+<p>badaki armatzen lazo ederrik;</p>
+<p>lazua eiz bage gera dedi&ntilde;,</p>
+<p>nere etxian nai ditut egi&ntilde;</p>
+<p>afaldu ta lo;</p>
+<p>naiago ditut ango bi talo,</p>
+<p>ta ez emengo milla erregalo.</p>
+<p><hi rend='Bold'> 10</hi></p>
+<p><hi rend='Italic'> N. jauna:</hi></p>
+<p>Biyotz nereko dama polita,</p>
+<p>asmoz muda zaite, auxen tori-ta</p>
+<p>amasei duroko urre fi&ntilde;a,</p>
+<p>sendatu nai zazun nere mi&ntilde;a,</p>
+<p><hi rend='Italic'> J. Bixenta:</hi></p>
+<p>Ez, jauna, ez, ez!</p>
+<p>Merezi bezi&ntilde; kopeta beltzez,</p>
+<p>esango diyot ezetz ta ezetz!</p>
+<p><hi rend='Bold'> 11</hi></p>
+<p><hi rend='Italic'> N. jauna:</hi></p>
+<p>Ga&ntilde;era berriz, Juana Bixenta,</p>
+<p>utziko dizutet etxeko errenta</p>
+<p>kito zor dirazuten guziya,</p>
+<p>kunplitzen banazu kutiziya.</p>
+<p><hi rend='Italic'> J. Bixenta:</hi></p>
+<p>Lotsa gogorra!!</p>
+<p>Sufritzen dago gaur nere onra,</p>
+<p>penaz malkuak darizkit orra!!</p>
+<p><hi rend='Bold'> 12</hi></p>
+<p><hi rend='Italic'> N. jauna:</hi></p>
+<p>Nik ditut kulpak, ez egi&ntilde; negar,</p>
+<p>orlakorik ez nizun esan biar;</p>
+<p>animan sentitutzen det mi&ntilde;a</p>
+<p>zuri ofensa ori egi&ntilde;a.</p>
+<p>Maldiziyua!</p>
+<p>Ez dakit nun nekan juiziyua,</p>
+<p>eskatzen dizut barkaziyua!</p>
+<p><hi rend='Bold'> 13</hi></p>
+<p><hi rend='Italic'> J. Bixenta:</hi></p>
+<p>Barkaziyua, du-ta eskatu,</p>
+<p>nere biyotz onak ezi&ntilde; ukatu;</p>
+<p>erakutsi ditalako, jauna,</p>
+<p>gaitz egi&ntilde;aren damutasuna,</p>
+<p>konforme nago;</p>
+<p>ez egi&ntilde;-ta ofensa geiago,</p>
+<p>gaurkua oso aztutzat dago.</p>
+<p><hi rend='Bold'> 14</hi></p>
+<p><hi rend='Italic'> N. jauna:</hi></p>
+<p>Berriz nik egi&ntilde; zuri ofensa?</p>
+<p>Arren orlakorik ez bara pensa!</p>
+<p>Zaukazkit neskatxa fi&ntilde; batetzat,</p>
+<p>eta gusto aundiz emaztetzat</p>
+<p>artuko zaitut;</p>
+<p>biyotzetikan esaten dizut,</p>
+<p>zuretzat ona baderizkizut.</p>
+<p><hi rend='Bold'> 15</hi></p>
+<p><hi rend='Italic'> J. Bixenta:</hi></p>
+<p>Ori egiyaz baldi&ntilde; badiyo,</p>
+<p>neregana egon liteke fiyo;</p>
+<p>ba&ntilde;an usatubaz kortesiya,</p>
+<p>ama neriari lizentziya</p>
+<p>eska bezaio.</p>
+<p><hi rend='Italic'> N. jauna:</hi></p>
+<p>Ori gustora egingo zaio,</p>
+<p>biyar goizian juango naitzaio.</p>
+<p><hi rend='Bold'> 16</hi></p>
+<p><hi rend='Italic'> J. Bixenta:</hi></p>
+<p>Banua orai&ntilde;.</p>
+<p><hi rend='Italic'> N. jauna:</hi></p>
+<p>Atoz onuntza,</p>
+<p>birerako artu zazu laguntza.</p>
+<p>Adi zazu, morroi Joxe Juaki&ntilde;</p>
+<p>etxera farolan argiyaki&ntilde;</p>
+<p>aingeru oni</p>
+<p>gaur zuk laguntzia da komeni,</p>
+<p>kezketan egon ez nariyen ni.</p>
+<p><hi rend='Bold'> 17</hi></p>
+<p><hi rend='Italic'> Morroiak:</hi></p>
+<p>Aingeru ari lagundu eta</p>
+<p>orra, jauna, egi&ntilde; ostera buelta;</p>
+<p>birian, bai, bildurtxo zan bera,</p>
+<p>ba&ntilde;an allegatu-ta etxera</p>
+<p>kontentu zegon;</p>
+<p>orai&ntilde; kezketan ez du zer egon,</p>
+<p>oiera juan ta pasatu gau on.</p>
+<p><hi rend='Bold'> 18</hi></p>
+<p>Eldu zanian urrengo goiza,</p>
+<p>nagusiyak zuben kunplitu itza</p>
+<p>juan zitzaion amari etxera,</p>
+<p>andretzat alaba eskatzera;</p>
+<p>amak txit firme</p>
+<p>artu ta gero milla informe,</p>
+<p>gelditu ziran biyak konforme.</p>
+<p><hi rend='Bold'> 19</hi></p>
+<p>Andik zortzi bat egunetara,</p>
+<p>edo amar ziran ez dakit bara;</p>
+<p>ez, amar ezi&ntilde; zitezken izan,</p>
+<p>andik zortzi egunera elizan</p>
+<p>ezkondu ziran;</p>
+<p>ezkondu ta etxera segiran,</p>
+<p>jendia franko bazuten jiran.</p>
+<p><hi rend='Bold'> 20</hi></p>
+<p>Bost illabete edo sei ontan</p>
+<p>ez dirade beti egondu lotan;</p>
+<p>eman dute zenbait jirabira</p>
+<p>eta gozatutzen bizi dira</p>
+<p>ditxak ausarki;</p>
+<p>obeto ezi&ntilde; litezke arki,</p>
+<p>espero dute aurtxo bat aurki.</p>
+<p><hi rend='Bold'> 21</hi></p>
+<p>Dama gaztiak, ez egon lotan,</p>
+<p>begira zaitezte ispillu ontan</p>
+<p>gustatuta birtute ederra,</p>
+<p>andretzat artu bere maizterra</p>
+<p>du nagusiyak;</p>
+<p>orla irabaztera graziyak</p>
+<p>saia zaitezte beste guziyak.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Somaketa</p><--</head>
+        </front>
+        <body>
+<p>Nere bata ta biya da</p>
+<p>somatzen errexa dana,</p>
+<p>bara zerorrek dauzkatzu</p>
+<p>esku bakoitzian bana.</p>
+<p>Bata ta laba da berriz</p>
+<p>Gipuzkoa'ko erri bat,</p>
+<p>ze&ntilde;etan arkitutzen dan</p>
+<p>beste i&ntilde;on ez dan arri bat.</p>
+<p>Nere iruba ta laba</p>
+<p>bereki&ntilde; daukan diruba,</p>
+<p>ontzat artzia eroze&ntilde;ek</p>
+<p>ez da gauza seguruba;</p>
+<p>batez ere baldin bada</p>
+<p>baliyo aundiko moneda,</p>
+<p>ez du gutxik galdetuko</p>
+<p>&laquo;Au gero fi&ntilde;a ote da?</p>
+<p>Ez da txit katolikua;</p>
+<p>zer derizkitzu, Inaxi?&raquo;</p>
+<p>&laquo;Neri? Faltsua derizkit&raquo;.</p>
+<p>&laquo;Eta zuri, andre Graxi?&raquo;</p>
+<p>&laquo;Arrira bota zazu ta</p>
+<p>so&ntilde;uba egi&ntilde;-arazi;</p>
+<p>ez badu so&ntilde;uba fi&ntilde;a,</p>
+<p>ganbiyatutzen ez asi.&raquo;</p>
+<p>Iruba eta bigarrena</p>
+<p>da gizonaren desditxa,</p>
+<p>ala pegatzen zaiona</p>
+<p>nun balitzake tximitxa;</p>
+<p>pegatzen da txit errexa,</p>
+<p>apartatutzen txit gaitza;</p>
+<p>alako asko izatetik</p>
+<p>Jaungoikuak libra gaitza.</p>
+<p>Zer afariya!! Ogiya,</p>
+<p>botilla bat ardo eder,</p>
+<p>ta ongi jarriyak lautxo bat</p>
+<p>nere iruba bi bider.</p>
+<p>Batari eta biyari</p>
+<p>laugarrena itxeki-ta,</p>
+<p>beste asko're bai ba&ntilde;o</p>
+<p>donzella da txit polita.</p>
+<p>Eta da nere guziya</p>
+<p>desiatuba, gauz ona;</p>
+<p>indartsu arkituko da</p>
+<p>bereki&ntilde; naukan gizona.</p>
+<p>Somaketa onentxen itza,</p>
+<p>&mdash;saiatu zaitezte denak&mdash;,</p>
+<p>propina asko izango du</p>
+<p>zer dan asmatzen dubenak.</p>
+<p>Logratzen duben arentzako</p>
+<p>daukazkit si&ntilde;alatubak</p>
+<p>loteriyako lau billete...</p>
+<p>&mdash;orai&ntilde; bi urte artubak&mdash;.</p>
+<p><hi rend='Bold'>Bilintx</hi></p>
+<p><mentioned> Ez det jarri <hi rend='Italic'>Bilintx </hi>ori, somaketa neronek sortuba</mentioned></p>
+<p><mentioned>dan patxandiyaz.</mentioned></p>
+<p><mentioned> Zer erregalua!! Baizik eta jarri det, asmatzia logratu</mentioned></p>
+<p><mentioned>duben arrek jakin dezan norengana biar duben giyatu,</mentioned></p>
+<p><mentioned>menturaz nai balu egin billete oien jabe. (1)</mentioned></p>
+<p><mentioned> Teatroko dendan,</mentioned></p>
+<p><mentioned> zei&ntilde;a ikusten dan</mentioned></p>
+<p><mentioned> aspaldi guziyan</mentioned></p>
+<p><mentioned> kale nagusiyan,</mentioned></p>
+<p><mentioned> aurreko etxearen</mentioned></p>
+<p><mentioned> etxe eder aren</mentioned></p>
+<p><mentioned> beraren onduan,</mentioned></p>
+<p><mentioned> paper abek duan</mentioned></p>
+<p><mentioned> an ematen dira;</mentioned></p>
+<p><mentioned> ez iritzi mira,</mentioned></p>
+<p><mentioned> ez milagro egi&ntilde;,</mentioned></p>
+<p><mentioned> egiya da berdi&ntilde;.</mentioned></p>
+<p><mentioned> Eta balitz norbait</mentioned></p>
+<p><mentioned> badakanik zerbait</mentioned></p>
+<p><mentioned> duda gauz orretan,</mentioned></p>
+<p><mentioned> bijua ta bertan</mentioned></p>
+<p><mentioned> artuko du proga</mentioned></p>
+<p><mentioned> au ez dala droga,</mentioned></p>
+<p><mentioned> baizikan egiya,</mentioned></p>
+<p><mentioned> ta egi garbiya.</mentioned></p>
+<p><mentioned> Bara au diyonak,</mentioned></p>
+<p><mentioned> konseju txit onak</mentioned></p>
+<p><mentioned> txiki-txikitandik</mentioned></p>
+<p><mentioned> gurasuakgandik</mentioned></p>
+<p><mentioned> artubak izan-ta,</mentioned></p>
+<p><mentioned> ez daki saiatzen</mentioned></p>
+<p><mentioned> i&ntilde;or enga&ntilde;atzen</mentioned></p>
+<p><mentioned> gezurrak esan-ta.</mentioned></p>
+<p><mentioned> (1) Inoxente-egunian emango diyozkat.</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p>Izar argi bi falta dirala</p>
+<p>zeruan sortu da gerra,</p>
+<p>al dakizu nork ostu dituen,</p>
+<p>beltxeran begi ederra?</p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p>Hil ondoren argitaratuak</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Potajiarena</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'> 1</hi></p>
+<p>Egunaren izena</p>
+<p>ez dakit nola zan,</p>
+<p>ba&ntilde;o se&ntilde;alagarri</p>
+<p>partidu bat bazan,</p>
+<p>pelotan jokatzeko</p>
+<p>Oiartzun'go plazan;</p>
+<p>nai det nere orduko</p>
+<p>gertaera esan,</p>
+<p>urrenguan beste bat</p>
+<p>eskarmenta dezan.</p>
+<p><hi rend='Bold'> 2</hi></p>
+<p>Partiduba jokatzez</p>
+<p>bukatu zanian,</p>
+<p>ostatura juan nintzan</p>
+<p>zuzen-zuzenian;</p>
+<p>maiera jana ekartzen</p>
+<p>asi ziranian,</p>
+<p>apaiz bat serbitzen zan</p>
+<p>aurren-aurrenian,</p>
+<p>maki&ntilde;a bat sartu zan</p>
+<p>arren barrenian.</p>
+<p><hi rend='Bold'> 3</hi></p>
+<p>Zintzur ona zubela</p>
+<p>klaro si&ntilde;aliak</p>
+<p>eman zituen apaiz</p>
+<p>barbantzu zaliak;</p>
+<p>dozenaka tragatzen</p>
+<p>zituen aliak,</p>
+<p>maskatu ere gabe</p>
+<p>tripazai jaliak,</p>
+<p>alako aixa nola</p>
+<p>antxua baliak.</p>
+<p><hi rend='Bold'> 4</hi></p>
+<p>Tragatutzen zituen</p>
+<p>igar da eziak,</p>
+<p>etziran aren di&ntilde;a</p>
+<p>zetozen klasiak;</p>
+<p>ekarri orduko zeuzkan</p>
+<p>tripara pasiak</p>
+<p>kortesia gabeko</p>
+<p>txapela guziak;</p>
+<p>arrek naikua jan ta</p>
+<p>ni berriz gosiak.</p>
+<p><hi rend='Bold'> 5</hi></p>
+<p>Nere ditxa guziak</p>
+<p>badute ajia,</p>
+<p>noski naiz Jaungoikoak</p>
+<p>aztutzat lajia;</p>
+<p>gosiak egin nuben</p>
+<p>ango biajia,</p>
+<p>kulpa duenarentzat</p>
+<p>daukat korajia,</p>
+<p>apaiz batek jan zuben</p>
+<p>nere potajia.</p>
+<p><hi rend='Bold'> 6</hi></p>
+<p>Geroztik ostatuan</p>
+<p>sartu ordurako,</p>
+<p>galdia egin bage</p>
+<p>ez det nik lajako</p>
+<p>egun artan apaizik</p>
+<p>ote dan arako;</p>
+<p>ez apaiz jaun guziyak</p>
+<p>igual diralako,</p>
+<p>baizik batek bildurra</p>
+<p>sartu ziralako.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Izazu nitzaz kupira</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'> 1</hi></p>
+<p>Loriak udan intza bezela</p>
+<p>maite det dama gazte bat,</p>
+<p>ari ainbeste nai diyotanik</p>
+<p>ez da munduban beste bat;</p>
+<p>i&ntilde;oiz edo bein pasatzen badet</p>
+<p>ikusi gabe aste bat,</p>
+<p>biyotz guztira banatutzen zait</p>
+<p>alako gauza triste bat.</p>
+<p><hi rend='Bold'> 2</hi></p>
+<p>Neskatxa gazte pare gabia,</p>
+<p>Apirilleko arrosa,</p>
+<p>izarra bezi&ntilde; dizdizariya,</p>
+<p>txoriya bezi&ntilde; airosa;</p>
+<p>oraintxen ba&ntilde;o gusto geiago</p>
+<p>nik ezi&ntilde; nezake goza:</p>
+<p>zori onian ikusten zaitut,</p>
+<p>nere biyotzak au poza!</p>
+<p><hi rend='Bold'> 3</hi></p>
+<p>Ez al dirazu antzik ematen</p>
+<p>nik zaitutala naiago,</p>
+<p>ai, mari&ntilde;elak gau illunian</p>
+<p>izarra ba&ntilde;o geiago?</p>
+<p>Nere onduan zauzkatalako</p>
+<p>pozez zoraturik nago,</p>
+<p>zu ikustiak alegratu nau,</p>
+<p>triste neguen lenago.</p>
+<p><hi rend='Bold'> 4</hi></p>
+<p>Nik ainbat i&ntilde;ork nai dizunikan</p>
+<p>arren ez zazula uste,</p>
+<p>nere begiyak beren aurrian</p>
+<p>beti desio zaituzte;</p>
+<p>eguzkirikan ikusi gabe</p>
+<p>txoriya egoten da triste,</p>
+<p>ni ez nau ezerk alegratutzen</p>
+<p>zu ikustiak ainbeste.</p>
+<p><hi rend='Bold'> 5</hi></p>
+<p>Arpegi fi&ntilde;a, gorputza berriz</p>
+<p>ez dago zer esanikan,</p>
+<p>izketan ere grazi ederra,</p>
+<p>ezer ez dezu txarrikan;</p>
+<p>mundu guztira miratuta're</p>
+<p>zu bezelako damikan</p>
+<p>agiyan izan liteke ba&ntilde;o</p>
+<p>ez det sinisten danikan.</p>
+<p><hi rend='Bold'> 6</hi></p>
+<p>Nere betiko pentsamentuba,</p>
+<p>nere konsolagarriya,</p>
+<p>zu gabetanik ezin bizi naiz,</p>
+<p>esaten dizut egiya;</p>
+<p>zu bazi&ntilde;ake arbola eta</p>
+<p>ni baldin banitz txoriya,</p>
+<p>nik zu zi&ntilde;aken arbol artantxen</p>
+<p>egingo nuke kabiya.</p>
+<p><hi rend='Bold'> 7</hi></p>
+<p>Amoriyuak nere biyotza</p>
+<p>zureganuntza darama,</p>
+<p>erri guztiyan zeren dakazun</p>
+<p>neskatx bika&ntilde;aren fama</p>
+<p>beste fortunik mundu onetan</p>
+<p>ez det desiatzen, dama:</p>
+<p>aur batek berak izan gaitzala</p>
+<p>ni aita eta zu ama.</p>
+<p><hi rend='Bold'> 8</hi></p>
+<p>Falta dubenak logratutzeko</p>
+<p>itz egitia txit on du,</p>
+<p>eta nik ere saiatu biat</p>
+<p>ote gintezken konpondu;</p>
+<p>gaur nagon bezin atrebituba</p>
+<p>sekulan ez naiz egondu,</p>
+<p>argatik golpez galdetzen dizut</p>
+<p>nerekin naizun ezkondu.</p>
+<p><hi rend='Bold'> 9</hi></p>
+<p>&laquo;Ezkondutziak izan biar du</p>
+<p>preziso gauza txarren bat!&raquo;</p>
+<p>Ala esaten ari zait beti</p>
+<p>nere konsejatzalle bat;</p>
+<p>alaxen ere aren esanak</p>
+<p>oso utzirik alde bat,</p>
+<p>ongi pozikan artuko nuke</p>
+<p>zu bezelako andre bat.</p>
+<p><hi rend='Bold'> 10</hi></p>
+<p>Zerorrek ere ongi dakizu</p>
+<p>aspaldi ontan nagola</p>
+<p>zuregatikan penak sufritzen,</p>
+<p>ba&ntilde;an ordia au nola!</p>
+<p>Alaxen ere nigana ezi&ntilde;</p>
+<p>bigundu zaitut i&ntilde;ola,</p>
+<p>ni zuretzako argizaia naiz,</p>
+<p>zu neretzako marmola!</p>
+<p><hi rend='Bold'> 11</hi></p>
+<p>Nere biyotza urtzen dijua</p>
+<p>eta ez da misteriyo</p>
+<p>penaren kargak estutu eta</p>
+<p>zumua kendutzen diyo;</p>
+<p>begiyak dauzkat gau eta egun</p>
+<p>egi&ntilde;ikan bi erriyo,</p>
+<p>beti negarra dariyotela</p>
+<p>zu zerarela meriyo.</p>
+<p><hi rend='Bold'> 12</hi></p>
+<p>Zu zeralako meriyo baldi&ntilde;</p>
+<p>juaten banaiz lur azpira,</p>
+<p>gero damuba eta malkuak</p>
+<p>alperrik izango dira;</p>
+<p>bei&ntilde; juan ezkero oien birtutez</p>
+<p>berriz ez niteke jira,</p>
+<p>ori gertatu ba&ntilde;o lenago</p>
+<p>izazu nitzaz kupira!</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Gaztetan jarriyak dama bati</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'> 1</hi></p>
+<p>Argitasun aundiko</p>
+<p>perla garistiya,</p>
+<p>nere osasuna ta</p>
+<p>nere eguzkiya;</p>
+<p>baita ere zu zera,</p>
+<p>maitetxo eztiya,</p>
+<p>mundu ontako nere</p>
+<p>desio guztiya.</p>
+<p><hi rend='Bold'> 2</hi></p>
+<p>Ezi&ntilde; fi&ntilde;ago dala</p>
+<p>da txit seguruba</p>
+<p>zuganako dakatan</p>
+<p>naitasun puruba;</p>
+<p>beti dauzkat zugatik,</p>
+<p>nere ai&ntilde;geruba,</p>
+<p>sentitzen biyotza ta</p>
+<p>pentsatzen buruba.</p>
+<p><hi rend='Bold'> 3</hi></p>
+<p>Ixilik gorde arren</p>
+<p>asko dira penak,</p>
+<p>nere biyotz gaxuan</p>
+<p>zugatik daudenak;</p>
+<p>biazuna ba&ntilde;o're</p>
+<p>mi&ntilde;katsago denak,</p>
+<p>ba&ntilde;an zuk nai ezkero</p>
+<p>goza litezkenak.</p>
+<p><hi rend='Bold'> 4</hi></p>
+<p>Dauzkatan pena oiek</p>
+<p>ixilik gordeta,</p>
+<p>uts biyurtuko dira</p>
+<p>zuk nai zazu-eta;</p>
+<p>bertatik jarriko naiz</p>
+<p>kontentuz beteta,</p>
+<p>neria izatera</p>
+<p>konforma zaite-ta.</p>
+<p><hi rend='Bold'> 5</hi></p>
+<p>Ez naiz mutill ederra,</p>
+<p>&mdash;au lana, au lana!&mdash;</p>
+<p>ez naiz aberatsa're,</p>
+<p>maitetxo laztana!</p>
+<p>Ba&ntilde;an biyotz bat badet</p>
+<p>oberik ez dana,</p>
+<p>betia zuganako</p>
+<p>amoriyoz dana.</p>
+<p><hi rend='Bold'> 6</hi></p>
+<p>Auxen eskei&ntilde;tzen dizut</p>
+<p>guztizko suabe,</p>
+<p>arren egi&ntilde; nazazu</p>
+<p>zuriaren jabe!</p>
+<p>Bestela penaz ill ta</p>
+<p>laister naiz lurraz be,</p>
+<p>bara ni ezi&ntilde; bizi</p>
+<p>niteke zu gabe.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Biyotz erituba</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'> 1</hi></p>
+<p>Askok diyote kantetan beti</p>
+<p>amore-kontu naizela,</p>
+<p>nik esaten det arriturikan</p>
+<p>motibo gabe daudela.</p>
+<p>Zer egin biat baldin zerubak</p>
+<p>doaitu banau orrela?</p>
+<p>Ez dute ikusten usaia mendak</p>
+<p>bere jatorrez dubela?</p>
+<p>Nere biyotzak amoriyua</p>
+<p>mendak usaia bezela.</p>
+<p><hi rend='Bold'> 2</hi></p>
+<p>Triste bizi naiz eta</p>
+<p>illko banitz obe,</p>
+<p>badauzkat biyotzian</p>
+<p>zenbait atsekabe;</p>
+<p>dama bat maitatzen det</p>
+<p>ba&ntilde;an... aren jabe</p>
+<p>sekulan izateko</p>
+<p>esperantza gabe.</p>
+<p><hi rend='Bold'> 3</hi></p>
+<p>Nere biyotz gaxua</p>
+<p>penatuba dago,</p>
+<p>ezi&ntilde; egon liteke,</p>
+<p>ai!, penatubago;</p>
+<p>pasatzen ditutala</p>
+<p>aspaldiyan nago</p>
+<p>egunak triste eta</p>
+<p>gabak tristiago.</p>
+<p><hi rend='Bold'> 4</hi></p>
+<p>Amorez erituba</p>
+<p>zenbait denbora ontan,</p>
+<p>gaurik ez det pasatzen</p>
+<p>soseguzko lotan;</p>
+<p>penaren kargareki&ntilde;</p>
+<p>urtuta, frankotan</p>
+<p>kanpora irteten zait</p>
+<p>biyotza malkotan!</p>
+<p><hi rend='Bold'> 5</hi></p>
+<p>Auxen da mi&ntilde;a laister</p>
+<p>ill biar naubena,</p>
+<p>kupitutzen ez bada</p>
+<p>senda lezakena;</p>
+<p>ai&ntilde; arkitutzen zaizkit</p>
+<p>sartubak barrena</p>
+<p>animan tristura ta</p>
+<p>biyotzian pena.</p>
+<p><hi rend='Bold'> 6</hi></p>
+<p>Biyotza ezi&ntilde; jaso det,</p>
+<p>au karga barrenak!</p>
+<p>Iya gastatu zaizkit</p>
+<p>indarrik geienak;</p>
+<p>ez luke xinistuko</p>
+<p>progatu ez dubenak,</p>
+<p>zenbat pisatzen duben</p>
+<p>egiyazko penak.</p>
+<p><hi rend='Bold'> 7</hi></p>
+<p>Anima tristuraki&ntilde;</p>
+<p>ai&ntilde; dakat negarti,</p>
+<p>nun egi&ntilde; al dezaken</p>
+<p>arriya bi parti;</p>
+<p>adorantzak ematen</p>
+<p>&mdash;belauniko beti!&mdash;</p>
+<p>biyotzian daukatan</p>
+<p>imaji&ntilde;a bati.</p>
+<p><hi rend='Bold'> 8</hi></p>
+<p>Zei&ntilde; ote dan ezi&ntilde;ik</p>
+<p>kontura erori,</p>
+<p>kutiziya jaioko</p>
+<p>zaiote askori;</p>
+<p>nik ordian ez diyot</p>
+<p>esango i&ntilde;ori,</p>
+<p>berak badaki eta</p>
+<p>bastante det ori.</p>
+<p><hi rend='Bold'> 9</hi></p>
+<p>Nere maitatuba da</p>
+<p>guztiz dama fi&ntilde;a,</p>
+<p>biyotz onekua ta</p>
+<p>ondo itzegi&ntilde;a;</p>
+<p>bentaja guztiyaki&ntilde;</p>
+<p>zerubak egi&ntilde;a,</p>
+<p>munduba pasatzeko</p>
+<p>lagun atsegi&ntilde;a.</p>
+<p><hi rend='Bold'> 10</hi></p>
+<p>Zertako desiatu</p>
+<p>ditu gauza on oiek</p>
+<p>nere biyotz koidatu</p>
+<p>gixaraxua onek?</p>
+<p>Kulparen kastigutzat</p>
+<p>datozkit pena obek,</p>
+<p>merezi dituala</p>
+<p>badakit neronek.</p>
+<p><hi rend='Bold'> 11</hi></p>
+<p>Aingeru zoragarri,</p>
+<p>mirabe laztana,</p>
+<p>pentsamentu nerian</p>
+<p>beti zauzkatana;</p>
+<p>biyotzaren erditik</p>
+<p>maite zaitutana,</p>
+<p>zu zera neretzako</p>
+<p>nai zinduzketana.</p>
+<p><hi rend='Bold'> 12</hi></p>
+<p>Nere amoriyua</p>
+<p>ai&ntilde; fi&ntilde;a izanik,</p>
+<p>beti goguan zauzkat</p>
+<p>aztu gabetanik;</p>
+<p>ez da mundu guztiyan</p>
+<p>i&ntilde;or kapaz danik,</p>
+<p>dama, zu maitatzeko</p>
+<p>ainbeste nola nik.</p>
+<p><hi rend='Bold'> 13</hi></p>
+<p>Begiyaren aurrian</p>
+<p>beti nai zinduzket,</p>
+<p>ikusten ez bazaitut</p>
+<p>naibagia maiz det;</p>
+<p>gogoratu bageko</p>
+<p>minuturik ez det,</p>
+<p>amoriyoz maitatzen</p>
+<p>ez daki nik bestek.</p>
+<p><hi rend='Bold'> 14</hi></p>
+<p>Etzaitut ikusitzen</p>
+<p>desio ainbeste,</p>
+<p>ditxa ori logratzen det</p>
+<p>i&ntilde;oiz edo beste;</p>
+<p>eta ez detanian</p>
+<p>logratzia uste,</p>
+<p>ura triste ibiltzen naiz!</p>
+<p>Jesus, ura triste!</p>
+<p><hi rend='Bold'> 15</hi></p>
+<p>Ezi&ntilde; bizi zu gabe,</p>
+<p>au amoriyua!</p>
+<p>Logratzen ez bazaitut,</p>
+<p>zer martiriyua!</p>
+<p>Ez badezu desio</p>
+<p>nere eriyua,</p>
+<p>zuregan arkitzen da</p>
+<p>erremeriyua.</p>
+<p><hi rend='Bold'> 16</hi></p>
+<p>Erregututzen dizut,</p>
+<p>o Jesusen Ama,</p>
+<p>nitaz kupi derilla</p>
+<p>maite detan dama;</p>
+<p>biurtzen badirazu</p>
+<p>biyotzera kalma,</p>
+<p>kantaz banatuko det</p>
+<p>milagruen fama.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Neskatxa bati mutill batek jarriak</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'> 1</hi></p>
+<p>Goguan izango det</p>
+<p>bai gaurko eguna,</p>
+<p>berriro biyok alkar</p>
+<p>ikusi deguna;</p>
+<p>auxen da ditxa eta</p>
+<p>auxen da fortuna,</p>
+<p>zergatikan zu zeran,</p>
+<p>maitetxo kutuna,</p>
+<p>nere asnasia ta</p>
+<p>nere osasuna.</p>
+<p><hi rend='Bold'> 2</hi></p>
+<p>Egiyazko amoriyoz</p>
+<p>nai dizutalako,</p>
+<p>zugatik pasatzen det</p>
+<p>naibagia franko;</p>
+<p>orai&ntilde; au poza bistan</p>
+<p>zaukazkitalako!</p>
+<p>Aspaldiyan ikusi</p>
+<p>ez zi&ntilde;dutalako,</p>
+<p>ura bildurra nekan</p>
+<p>mi&ntilde; zenubelako!</p>
+<p><hi rend='Bold'> 3</hi></p>
+<p>Nere biyotzak o zer</p>
+<p>poza duben artu!</p>
+<p>Onen golpiak ezi&ntilde;</p>
+<p>ditut aguantatu;</p>
+<p>bere lekutik dabill</p>
+<p>nayian faltatu,</p>
+<p>kanpora irten ez dedi&ntilde;</p>
+<p>biar det kalkatu,</p>
+<p>gaxuak zuregana,</p>
+<p>nai luke saltatu!</p>
+<p><hi rend='Bold'> 4</hi></p>
+<p>Au nere zoramena</p>
+<p>zutzat gustatuta,</p>
+<p>bildur naiz gera nadi&ntilde;</p>
+<p>burutik galduta;</p>
+<p>ainbestera&ntilde;o nago</p>
+<p>enamoratuta,</p>
+<p>nai badezu, o&ntilde;etan</p>
+<p>belaunikatuta,</p>
+<p>adoratuko zaitut,</p>
+<p>agindu zazu-ta.</p>
+<p><hi rend='Bold'> 5</hi></p>
+<p>Zer ote da graziyan</p>
+<p>norbait erortzia!</p>
+<p>Zu zerala meriyo</p>
+<p>ai au erotzia!</p>
+<p>Frankotan gertatu zait</p>
+<p>gogora etortzia</p>
+<p>kanpan-torrian gora</p>
+<p>korrika iyotzia</p>
+<p>ta zure alabantzan</p>
+<p>kanpanak jotzia.</p>
+<p><hi rend='Bold'> 6</hi></p>
+<p>Nik ezi&ntilde; xinistu det</p>
+<p>zuk esan dezula</p>
+<p>nere amoriyua</p>
+<p>dudan dakazula;</p>
+<p>arren, orlakorikan</p>
+<p>pentsa ez zazula,</p>
+<p>eta nai det seguru</p>
+<p>jaki&ntilde; dezazula</p>
+<p>beti bezela zure</p>
+<p>mende nakazula.</p>
+<p><hi rend='Bold'> 7</hi></p>
+<p>Fi&ntilde; nabillen edo ez</p>
+<p>ez zaudezen dudan,</p>
+<p>ara zer juramentu</p>
+<p>egingo dizuran</p>
+<p>ai&ntilde; amoriyo aundiz</p>
+<p>nola zu zaituran,</p>
+<p>maitatzen baldi&ntilde; badet</p>
+<p>besterik sekulan,</p>
+<p>ez dezatala izan</p>
+<p>parterik zeruban.</p>
+<p><hi rend='Bold'> 8</hi></p>
+<p>Zure graziyetara</p>
+<p>oso zoratuba,</p>
+<p>biyotza sentitzen det</p>
+<p>enamoratuba;</p>
+<p>ni bizi naizen arte,</p>
+<p>baratz loratuba,</p>
+<p>dizdizara klarozko</p>
+<p>izar doratuba,</p>
+<p>ez zaizu faltatuko</p>
+<p>nork adoratuba!</p>
+<p><hi rend='Bold'> 9</hi></p>
+<p>Ala dirurizu ta</p>
+<p>zaukazkit loretzat,</p>
+<p>baratzakuak ba&ntilde;o</p>
+<p>oraindik obetzat.</p>
+<p>Norentzako zera zu,</p>
+<p>loria, norentzat?</p>
+<p>Ez zenuke izan biar</p>
+<p>beste norentzat,</p>
+<p>baizikan biyotzetik</p>
+<p>nai dizun onentzat!</p>
+<p><hi rend='Bold'> 10</hi></p>
+<p>Lengo egun batian,</p>
+<p>&mdash;ai, San Antoniyo!&mdash;</p>
+<p>doi-doi egi&ntilde; zeniran</p>
+<p>kalian ariyo;</p>
+<p>badakit, sobra dakit</p>
+<p>zer dala meriyo</p>
+<p>errezibitzen nazun</p>
+<p>orlako seriyo</p>
+<p>zuk asko merezi ta</p>
+<p>nik gutxi baliyo!</p>
+<p><hi rend='Bold'> 11</hi></p>
+<p>Aguro ezkontzeko</p>
+<p>dakat animua,</p>
+<p>bakarrik aspertu naiz,</p>
+<p>biat arrimua;</p>
+<p>obran zureki&ntilde; jarri</p>
+<p>nai nuke asmua,</p>
+<p>bara, zumo gozodun</p>
+<p>marrubi umua,</p>
+<p>zu nere mi&ntilde;arentzat</p>
+<p>zera balsamua.</p>
+<p><hi rend='Bold'> 12</hi></p>
+<p>Aditzera detanez,</p>
+<p>dama begi alai,</p>
+<p>zure ondoren dabill</p>
+<p>maki&ntilde;a bat galai;</p>
+<p>ba&ntilde;an aietakorik</p>
+<p>ez omen dezu nai;</p>
+<p>bara ni nai banazu</p>
+<p>izan zuk senargai,</p>
+<p>konformatzen al zeran</p>
+<p>esan ez edo bai.</p>
+<p><hi rend='Bold'> 13</hi></p>
+<p>Ba&ntilde;an ikusten zaitut</p>
+<p>erantzun nai ezik,</p>
+<p>baietzik esan gabe,</p>
+<p>ain gutxi ezetzik;</p>
+<p>orla gelditutzia</p>
+<p>egin bage itzik,</p>
+<p>ezin pentsa nezake</p>
+<p>dala beste gauzik,</p>
+<p>senartzako artu nai</p>
+<p>ez nazula baizik.</p>
+<p><hi rend='Bold'> 14</hi></p>
+<p>Senartzat nai al nazun</p>
+<p>egon naiz galdez ta,</p>
+<p>ez nazu baietz esan,</p>
+<p>ezetz ere ez-ta;</p>
+<p>ori zuk ez dirazu</p>
+<p>nai esan itzez ta,</p>
+<p>beste modu batera</p>
+<p>baliya zaitez ta,</p>
+<p>igual da ematia</p>
+<p>kartaz errespuesta.</p>
+<p><hi rend='Bold'> 15</hi></p>
+<p>Baldi&ntilde; ez banaitzazu</p>
+<p>sartutzen gogora,</p>
+<p>ez det asko pasako</p>
+<p>erriyan denbora</p>
+<p>paraje abetatik</p>
+<p>juango naiz i&ntilde;ora,</p>
+<p>egun gutxiren barrun</p>
+<p>betiko kanpora,</p>
+<p>Buenos Aires'a edo</p>
+<p>Montevideo'ra.</p>
+<p><hi rend='Bold'> 16</hi></p>
+<p><hi rend='Italic'> Au nik diyot:</hi></p>
+<p>Ez dakit zer esaten</p>
+<p>ziyon errespuestan,</p>
+<p>ba&ntilde;a nola mutilla</p>
+<p>Donostiya'n ez dan,</p>
+<p>falta zan egunetik</p>
+<p>pasa diranetan,</p>
+<p>onezkero sartu da,</p>
+<p>nere kontubetan,</p>
+<p>Montevideo'n edo</p>
+<p>Buenos Aires'etan.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Domingo Kanpa&ntilde;a</p><--</head>
+        </front>
+        <body>
+<p>Mando baten ga&ntilde;ian</p>
+<p>Domingo Kanpa&ntilde;a,</p>
+<p>ez dijoa utsikan</p>
+<p>asto orren ga&ntilde;a;</p>
+<p>azpian dijoana</p>
+<p>mandua da, ba&ntilde;a,</p>
+<p>ga&ntilde;ekua ere bada</p>
+<p>azpikua a&ntilde;a:</p>
+<p>mando baten ga&ntilde;ian</p>
+<p>bestia, alaja&ntilde;a!</p>
+<p><mentioned><hi rend='Italic'>Indalexio, Indalexio,</hi></mentioned></p>
+<p><mentioned><hi rend='Italic'>Indalexio Moko,</hi></mentioned></p>
+<p><mentioned><hi rend='Italic'>uste al dek, uste al dek</hi></mentioned></p>
+<p><mentioned><hi rend='Italic'>ez autala joko?</hi></mentioned></p>
+<p>Berriz esaten baidak</p>
+<p>Indalexio &laquo;Moko&raquo;,</p>
+<p>ezurrak autsi arte</p>
+<p>ez aut nik lagako.</p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'> 1</hi></p>
+<p>Aspaldiyan, Joxepa,</p>
+<p>famatuba zeunden,</p>
+<p>gu berriz ikusteko</p>
+<p>desiotan geunden;</p>
+<p>Ondarrabi aldian</p>
+<p>aditzen genduben</p>
+<p>dama bertsolari bat</p>
+<p>nola bazeguen,</p>
+<p>ze&ntilde;ak Euskalerriyan</p>
+<p>parerik etzuben.</p>
+<p><hi rend='Bold'> 2</hi></p>
+<p>Egiyak ote ziran</p>
+<p>faenaren ots aiek,</p>
+<p>bixitatu zindugun</p>
+<p>zenbait jaki&ntilde; zalek,</p>
+<p>amar edo amabi</p>
+<p>donostiyatarrek;</p>
+<p>aieki&ntilde; batian zan</p>
+<p>bizar aundi arrek,</p>
+<p>izkribatzen dizkitzu</p>
+<p>zuri bertso abek.</p>
+<p><hi rend='Bold'> 3</hi></p>
+<p>Ni bertsolariya naiz</p>
+<p>ba&ntilde;on det aditu</p>
+<p>ez nitzaizula zuri</p>
+<p>ala iruritu;</p>
+<p>zuk orla pentsatzia</p>
+<p>ez da zer argitu</p>
+<p>nere jakinduririk</p>
+<p>ez nuben argitu,</p>
+<p>zergatikan ez nitzan</p>
+<p>premiyan arkitu.</p>
+<p><hi rend='Bold'> 4</hi></p>
+<p>Baliteke irixtia</p>
+<p>premiya orretara,</p>
+<p>agindu zenirala</p>
+<p>goguan det bara,</p>
+<p>prestaturikan nere</p>
+<p>desiuetara;</p>
+<p>baldi&ntilde; dibertsiyo bat</p>
+<p>nai banuben para,</p>
+<p>etorriko zi&ntilde;ala</p>
+<p>Errenteriya'ra.</p>
+<p><hi rend='Bold'> 5</hi></p>
+<p>Egizu naizunian,</p>
+<p>dama, etorrera,</p>
+<p>zuregan utzitzen det</p>
+<p>egunan aukera;</p>
+<p>ipintzen badirazu</p>
+<p>orrelako era,</p>
+<p>aprobetxatu gabe</p>
+<p>ez niteke gera,</p>
+<p>alkarreki&ntilde; berriro</p>
+<p>mintzatuko gera.</p>
+<p><hi rend='Bold'> 6</hi></p>
+<p>Arkitzen baldin banaiz</p>
+<p>orduban umorez,</p>
+<p>proga emango dizut</p>
+<p>lenagoko ordez,</p>
+<p>beste i&ntilde;ori ba&ntilde;an</p>
+<p>gustorago doblez,</p>
+<p>gero juzga dezagun</p>
+<p>ezaguera obez,</p>
+<p>ia bertsolariya</p>
+<p>al naizen edo ez.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Bertsolarien gudua</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'> 1</hi></p>
+<p><hi rend='Italic'> Peruk:</hi></p>
+<p>Aizak, Txanton, Premi&ntilde;i</p>
+<p>ik esan al diyok</p>
+<p>ez dikala irabazten</p>
+<p>bertsuetan i&ntilde;ork?</p>
+<p>Beraz ni kontu ortan</p>
+<p>ire mende niok?</p>
+<p>Nola itz egiten dekan</p>
+<p>ai, mutil, begirok!</p>
+<p>Nai dek jai lenenguan</p>
+<p>proga gaiten biyok?</p>
+<p><hi rend='Bold'> 2</hi></p>
+<p><hi rend='Italic'>Txantonek:</hi></p>
+<p>Egiya dek Premi&ntilde;i</p>
+<p>esan diyotala</p>
+<p>bertsuetan guziyak</p>
+<p>txautzen ditutala;</p>
+<p>eta esan badiyot</p>
+<p>Premi&ntilde;i nik ala,</p>
+<p>oraindik niok itza</p>
+<p>mantentzen detala.</p>
+<p>Uste al dek esana</p>
+<p>damutu zaitala?</p>
+<p><hi rend='Bold'> 3</hi></p>
+<p><hi rend='Italic'> Peruk:</hi></p>
+<p>Ez zaikala damutu</p>
+<p>niok jaki&ntilde;ian,</p>
+<p>jaki&ntilde; eta alare</p>
+<p>sinist ezi&ntilde;ian,</p>
+<p>ez dala bertsolari</p>
+<p>i&ntilde;or i a&ntilde;ian;</p>
+<p>abillidade asko</p>
+<p>dakak minga&ntilde;ian;</p>
+<p>progatu nai induket</p>
+<p>gauza orren ga&ntilde;ian.</p>
+<p>................ 2</p>
+<p><hi rend='Bold'> 4</hi></p>
+<p><hi rend='Italic'>Txantonek:</hi></p>
+<p><hi rend='Bold'> 5</hi></p>
+<p><hi rend='Italic'> Peruk:</hi></p>
+<p>Gauza orren ga&ntilde;ian</p>
+<p>nai banak progatu,</p>
+<p>Txanton Aritzpe'kua,</p>
+<p>zer nai dek jokatu?</p>
+<p>Orra kontra nork egin</p>
+<p>aguro topatu.</p>
+<p>Nai dituk amar ardi</p>
+<p>demandan paratu,</p>
+<p>ze&ntilde;ek ederragoko</p>
+<p><hi rend='Bold'> 6</hi></p>
+<p><hi rend='Italic'>Txantonek:</hi></p>
+<p>Nere amar ardiyak</p>
+<p>orra, Peru, emen,</p>
+<p>esaminatu itzik</p>
+<p>mardul ote daguen,</p>
+<p>mardularen tartian</p>
+<p>argalik daguen;</p>
+<p>mira itzik banaka</p>
+<p>bat bestien urren,</p>
+<p>oiek ez ditek izan</p>
+<p>falta belarraren.</p>
+<p><hi rend='Bold'> 7</hi></p>
+<p><hi rend='Italic'> Peruk:</hi></p>
+<p>Nere amar ardiyak</p>
+<p>ona emen, Anton,</p>
+<p>mira itzik banaka</p>
+<p>argalikan dagon;</p>
+<p>ez dituk i&ntilde;oiz ere</p>
+<p>belar-faltan egon,</p>
+<p>ez diyotek tatxikan</p>
+<p>billatuko i&ntilde;on,</p>
+<p>uste diat daudela</p>
+<p>iriak bezin on.</p>
+<p><hi rend='Bold'> 8</hi></p>
+<p>Txanton ikusitzen det</p>
+<p>onuntz datorrela,</p>
+<p>Matspe'ko Martin jauna</p>
+<p>jueztzat dubela;</p>
+<p>ederki etorriya</p>
+<p>izan deriyela,</p>
+<p>orrek juzgatuko du</p>
+<p>gauza dan bezela,</p>
+<p>ero mundu ontako</p>
+<p>i&ntilde;ork ez bestela.</p>
+<p><hi rend='Bold'> 9</hi></p>
+<p>Garai'ko Premi&ntilde; dator</p>
+<p>juez Perurentzat,</p>
+<p>gizon obiagorik</p>
+<p>ez dala deritzat;</p>
+<p>ondo portatu izan da</p>
+<p>orain arte beintzat,</p>
+<p>mundu guziyan dago</p>
+<p>prestu eta fintzat,</p>
+<p>orrek ez du juzgatzen</p>
+<p>gorriya urdintzat.</p>
+<p><hi rend='Bold'> 10</hi></p>
+<p>Garai'ko Premi&ntilde;entzat</p>
+<p>ez da zer esanik,</p>
+<p>sekulan ez du egi&ntilde;</p>
+<p>biar eztan lanik;</p>
+<p>gizon fi&ntilde;agoen bat</p>
+<p>mundu ontan danik</p>
+<p>izan liteke ba&ntilde;o</p>
+<p>sinisten ez det nik,</p>
+<p>fiya liteke orrengan</p>
+<p>kezka gabetanik.</p>
+<p><hi rend='Bold'> 11</hi></p>
+<p>Martin Matspe'kuagan</p>
+<p>fiyatu zaitezte,</p>
+<p>gizon oberik i&ntilde;on</p>
+<p>danik ez det uste;</p>
+<p>zeok zeon jueztzat</p>
+<p>jarri gaituzute,</p>
+<p>gugana konfiantza</p>
+<p>beraz badezute.</p>
+<p><hi rend='Bold'> 12</hi></p>
+<p>Txanton, neri ardiyak</p>
+<p>ik irabazi? Ai!</p>
+<p>Koitadu triste orrek</p>
+<p>ez uke gutxi nai!</p>
+<p>Desiatzen dek ba&ntilde;o</p>
+<p>ez aiz ordia gai,</p>
+<p>gizarajua orrek</p>
+<p>etsi ezakek, bai,</p>
+<p>alperrik egon gabe</p>
+<p>ardiya oben zai.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Orentzaro</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'> 1</hi></p>
+<p>Zai egoten naiz luzaro</p>
+<p>eldu dedi&ntilde; Orentzaro,</p>
+<p>zergatik dan eguna</p>
+<p>zelebratzen deguna</p>
+<p>bazkariz eta afariz</p>
+<p>eldutzen dan ainbat aldiz.</p>
+<p><hi rend='Bold'> 2</hi></p>
+<p>Orentzaro izan ezkero,</p>
+<p>gure etxian urtero,</p>
+<p>nola oroitzen zaitan,</p>
+<p>egun artan bazkaitan</p>
+<p>ez da, ez, izango falta</p>
+<p>eltzian odolki galanta.</p>
+<p><hi rend='Bold'> 3</hi></p>
+<p>Afari oberik berdi&ntilde;</p>
+<p>ez du beste i&ntilde;ork egi&ntilde;;.</p>
+<p>ez pezeta franko're</p>
+<p>kostatu bazaio're</p>
+<p>ostaturik onenian:</p>
+<p>Marti&ntilde; Ezkurra'renian.</p>
+<p><hi rend='Bold'> 4</hi></p>
+<p>Orduko nere gloriyan,</p>
+<p>dantzan asteko zoriyan</p>
+<p>jartzen naiz geienian,</p>
+<p>egiten dutenian</p>
+<p>arduak botillan <hi rend='Italic'>dun dun dun,</hi></p>
+<p>gazta&ntilde;ak surtan <hi rend='Italic'>pun, pun, pun.</hi></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Kanpuan da</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'> 1</hi></p>
+<p>Izar maite nubena</p>
+<p>ai&ntilde; biyotz guztitik</p>
+<p>juan zan Donosti'tik;</p>
+<p>orai&ntilde; neregandikan</p>
+<p>irrutiyan dago,</p>
+<p>ba&ntilde;an goguan dakat</p>
+<p>juan ba&ntilde;o lenago</p>
+<p>itza eman zirala</p>
+<p>denbora gutxi barrun</p>
+<p>etorriko zala.</p>
+<p><hi rend='Bold'> 2</hi></p>
+<p>Tristetasun aundi bat</p>
+<p>juan zan ezkeroztik</p>
+<p>senti det geroztik;</p>
+<p>zierto dakit ordia,</p>
+<p>berriz neregana</p>
+<p>etorritzen danian</p>
+<p>ai&ntilde; maite derana,</p>
+<p>poztuko naizela</p>
+<p>goizaren etorreran</p>
+<p>txoriya bezela.</p>
+<p><hi rend='Bold'> 3</hi></p>
+<p>Dagolarikan ere</p>
+<p>nigandik irruti</p>
+<p>ikusten det beti</p>
+<p>erritikan juan arren</p>
+<p>oroitzatik ezi&ntilde;;</p>
+<p>zerubaren erdiyan</p>
+<p>izar batek bezi&ntilde;</p>
+<p>argitasun aundiz,</p>
+<p>nere pentsamentuban</p>
+<p>egiten du diz diz.</p>
+<p><hi rend='Bold'> 4</hi></p>
+<p>Desiatuba nago</p>
+<p>etorri deriyen</p>
+<p>alegra nariyen;</p>
+<p>kontentu biziko naiz</p>
+<p>andikan aurrera,</p>
+<p>maitetxo neriaren</p>
+<p>edertasunera</p>
+<p>itxutuba oso;</p>
+<p>emango diyozkat, bai,</p>
+<p>milla laztan gozo.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Pobriaren suertia</p><--</head>
+        </front>
+        <body>
+<p>Beste alibiyorik</p>
+<p>pobriak ez daka</p>
+<p>negarrez jaio eta</p>
+<p>bizi arrastaka,</p>
+<p>galtzarbian kolkuan</p>
+<p>nun-nai arraskaka,</p>
+<p>erropetan koipia,</p>
+<p>ziki&ntilde;a ta kaka.</p>
+<p>Jendiak ikustian</p>
+<p>artutzen du lazka,</p>
+<p>danak pasatzen zaizka</p>
+<p>ondotik presaka;</p>
+<p>nai baldin badu ibilli</p>
+<p>kalian bueltaka,</p>
+<p>ateratu orduko</p>
+<p>etxetikan anka,</p>
+<p>mutill txikiyak ditu</p>
+<p>atzetik millaka,</p>
+<p>azanariyo ero</p>
+<p>patata tiraka;</p>
+<p>zakurrak ere asten</p>
+<p>zaiozka zaunkaka,</p>
+<p>aberiak tiratzen</p>
+<p>diyote pullanka;</p>
+<p>danak, kristau ta abere,</p>
+<p>guziyak txandaka</p>
+<p>gizarajua dute</p>
+<p>ibiltzen burlaka;</p>
+<p>batek obe luke izan</p>
+<p>pobre ba&ntilde;on kaka.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Sartzia soldadu</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'> 1</hi></p>
+<p>Penetan daramazkit</p>
+<p>eguna ta gaba,</p>
+<p>poz bat sentitu gabe,</p>
+<p>au suerte billaba!</p>
+<p>Gosaritzat talua</p>
+<p>eta bakallaba,</p>
+<p>bazkaitan katillu bat</p>
+<p>salda ta sei baba,</p>
+<p>amalau jango eta</p>
+<p>bi sardin afaldu,</p>
+<p>batek ez luke obe</p>
+<p>sartzia soldadu?</p>
+<p><hi rend='Bold'> 2</hi></p>
+<p>Urrikigarriya da</p>
+<p>nere izaera</p>
+<p>goizero nai ta nai ez</p>
+<p>juan biar lanera,</p>
+<p>egarritutzen banaiz</p>
+<p>ura eratera...</p>
+<p>Nik orla zer [.........]</p>
+<p>nezake atera?</p>
+<p>Ezer sobratu ez ta</p>
+<p>osasuna galdu;</p>
+<p>ez det ondo egingo</p>
+<p>sartzia soldadu?</p>
+<p><hi rend='Bold'> 3</hi></p>
+<p>Kontuz ibilli arren</p>
+<p>eta juiziyuan,</p>
+<p>i&ntilde;or aberasten ez</p>
+<p>da ofiziyuan.</p>
+<p>Ni lanakin ibilli</p>
+<p>beti sesiyuan?</p>
+<p>Erremientak norbaiti</p>
+<p>erdi preziyuan</p>
+<p>ero kasik debalde</p>
+<p>al banizka saldu,</p>
+<p>biyartikan sartuko</p>
+<p>nitzake soldadu.</p>
+<p><hi rend='Bold'> 4</hi></p>
+<p>Jaunak, ariyarazi</p>
+<p>ez liteke itzez</p>
+<p>zein aspertuba nagon</p>
+<p>onela bizitzez,</p>
+<p>beti negarrez eta</p>
+<p>penetan ibiltzez,</p>
+<p>jornal txikiyaren truk</p>
+<p>lanian aritzez;</p>
+<p>batek beti onela</p>
+<p>bizi bear badu,</p>
+<p>ez du gaiki egingo</p>
+<p>sartzia soldadu.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Zortziko</p><--</head>
+        </front>
+        <body>
+<p>Ikusi-ta desgrazi</p>
+<p>eritubarena,</p>
+<p>penaz nori etzaio</p>
+<p>urtzen biyotz dena?</p>
+<p>Da oieri ematea</p>
+<p>nork al dezakena,</p>
+<p>zeruba irabazteko</p>
+<p>obrarik onena.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Pagatzalle on bat</p><--</head>
+        </front>
+        <body>
+<p>Egun batian juan zan</p>
+<p>gizon bat kafera,</p>
+<p>beste askoren gisa</p>
+<p>zerbait artutzera,</p>
+<p>eta ango mutillak</p>
+<p>al zuben lenena</p>
+<p>eraman ziyon berak</p>
+<p>eskatu zubena.</p>
+<p>Sillan ixiririkan</p>
+<p>denkantsu onian,</p>
+<p>komeni zitzaiona</p>
+<p>artu zubenian,</p>
+<p>oju bat egin zuben</p>
+<p>so&ntilde;u aundikua,</p>
+<p>ze&ntilde;etan deitu zuben</p>
+<p>&laquo;Aizak, mutikua</p>
+<p>Ua galdetutzera</p>
+<p>nagusiyagana</p>
+<p>zenbat pagatutzen dan</p>
+<p>nik artu derana.&raquo;</p>
+<p>Seiak ekarri ziyon</p>
+<p>zuzen mandatuba</p>
+<p>&laquo;Jauna, bost errial da</p>
+<p>bedorren kontuba.&raquo;</p>
+<p>Gizona ordubantxe</p>
+<p>trantzian zeguen,</p>
+<p>pezeta bat bakarra</p>
+<p>besterik etzuen,</p>
+<p>eta eska&ntilde;i ziyon</p>
+<p>esanaz seriyo</p>
+<p>&laquo;To, eta nausiyari</p>
+<p>eraman akiyo.&raquo;</p>
+<p>Mutillak esan ziyon</p>
+<p>artu ordurako</p>
+<p>&laquo;Errial bat falta du</p>
+<p>emen konturako.&raquo;</p>
+<p>Arrek erantzun ziyon</p>
+<p>bere-beriala,</p>
+<p>len alegiya ez aitu:</p>
+<p>&laquo;Zenbat: erriala?</p>
+<p>Ik ez dirak serbitu</p>
+<p>mandatugilletzat?</p>
+<p>Bien, errial ori</p>
+<p>gorde zak iretzat!&raquo;</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Begirozute, pikadoriak</p><--</head>
+        </front>
+        <body>
+<p>Jaunak, seguru nago,</p>
+<p>gaur arratsaldian</p>
+<p>pikadoriak ondo</p>
+<p>portatu baziran,</p>
+<p>festa ederra izango zan,</p>
+<p>zezen onak ziran;</p>
+<p>ba&ntilde;an, pikadoriak?</p>
+<p>Beti pikardiyan!</p>
+<p>Zezen bat on samarra</p>
+<p>irtentzen danian,</p>
+<p>etzaiozka jarritzen</p>
+<p>aurreko aldian,</p>
+<p>nola itzul egi&ntilde;a</p>
+<p>dakaten artian.</p>
+<p>Eta suertatzen bada</p>
+<p>txiripa batian</p>
+<p>zezen bat txit brabua</p>
+<p>bere errabiyan,</p>
+<p>pikara sartzen dana</p>
+<p>furiya aundiyan,</p>
+<p>zer egiten diyote?</p>
+<p>Urrengo sartzian</p>
+<p>pika jartzen diyote</p>
+<p>besoen ga&ntilde;ian;</p>
+<p>eta sartu ezkero</p>
+<p>pika bei&ntilde; andikan,</p>
+<p>zezen gizarajuak</p>
+<p>ez du indarrikan,</p>
+<p>kojo gelditutzen da</p>
+<p>beso artatikan,</p>
+<p>eta berriz pikara</p>
+<p>egotsigatikan,</p>
+<p>ez diyo zaldiyari</p>
+<p>sartzen adarrikan,</p>
+<p>beso-buruban dakan</p>
+<p>eridagatikan;</p>
+<p>ba&ntilde;an presidentiak</p>
+<p>ala pikatzian</p>
+<p>deituko baliyoke</p>
+<p>instante batian,</p>
+<p>eta bere aurrera</p>
+<p>etortzen danian</p>
+<p>esango baliyoke</p>
+<p><foreign><hi rend='Italic'>&laquo;&#161;Atienda V., perill&aacute;n:</hi></foreign></p>
+<p><foreign><hi rend='Italic'>por haber espaldillado</hi></foreign></p>
+<p><foreign><hi rend='Italic'>de ese modo al animal,</hi></foreign></p>
+<p><foreign><hi rend='Italic'>300 reales de multa!</hi></foreign></p>
+<p><foreign><hi rend='Italic'>Y p&aacute;guelos sin replicar,</hi></foreign></p>
+<p><foreign><hi rend='Italic'>y tenga V. mucho cuidado</hi></foreign></p>
+<p><foreign><hi rend='Italic'>en no volver a espaldillar,</hi></foreign></p>
+<p><foreign><hi rend='Italic'>porque entonces, se lo advierto,</hi></foreign></p>
+<p><foreign><hi rend='Italic'>multa doble recibir&aacute;.&raquo;</hi></foreign></p>
+<p>Gaur egin baldin bazan</p>
+<p>ori Donostiya'n</p>
+<p>orduban seguru naiz,</p>
+<p>txit seguru, biyar</p>
+<p>ez pagatziagatik</p>
+<p>iru eun errial,</p>
+<p>pikatuko zutela</p>
+<p>biar dan legian.</p>
+<p>Ba&ntilde;an gaur orren ondo</p>
+<p>nola irten diran,</p>
+<p>pikatuko dituzte</p>
+<p>gaur bezela biyar.</p>
+<p>Au aritu niyon nik</p>
+<p>atzo arratsian</p>
+<p>gizon sudur motz bati</p>
+<p>taberna batian.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Arotz bati ziyoten...</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'> 1</hi></p>
+<p>Arotz bati ziyoten</p>
+<p>mandatuba laja:</p>
+<p>al zuben azkarrena</p>
+<p>egiteko kaja,</p>
+<p>Don Gaspar Lizarralde</p>
+<p>ipigandu zedi&ntilde;.</p>
+<p><hi rend='Bold'> 2</hi></p>
+<p>Arotzak esan ziyon</p>
+<p>mandatariyari</p>
+<p>&laquo;Nik artu biar diyot</p>
+<p>neurriya berari,</p>
+<p>kaja gorputzarentzat</p>
+<p>justu irten dedi&ntilde;.</p>
+<p><hi rend='Bold'> 3</hi></p>
+<p>Eta nora juango naiz</p>
+<p>artzera neurriya?&raquo;</p>
+<p>&laquo;Done Migel kalera,</p>
+<p>etxe bat berriya</p>
+<p>an ikusiko dezu</p>
+<p>balkoi urdin duna.</p>
+<p><hi rend='Bold'> 4</hi></p>
+<p>Bigarren bizitzara</p>
+<p>juan zaitia billa,</p>
+<p>an arkituko dezu,</p>
+<p>pulmoniyak illa,</p>
+<p>kaja lenbailen egi&ntilde;</p>
+<p>biar diyozuna.&raquo;</p>
+<p><hi rend='Bold'> 5</hi></p>
+<p>Juan zan gure arotza</p>
+<p>listoi bat artuta,</p>
+<p>eta, esan ziyoten</p>
+<p>etxera sartuta,</p>
+<p>bigarren bizitzara</p>
+<p>iyo zan aguro.</p>
+<p><hi rend='Bold'> 6</hi></p>
+<p>Ba&ntilde;an iyo zanian</p>
+<p>kezketan jarri zan,</p>
+<p>okerreko lekuba</p>
+<p>zitekela izan;</p>
+<p>pixka bat duda-mudan</p>
+<p>egon eta gero,</p>
+<p><hi rend='Bold'> 7</hi></p>
+<p>bi golpe atiari</p>
+<p>eman zizkan: Da! Da!</p>
+<p>Eta irten zanari</p>
+<p>egin ziyon galda:</p>
+<p>&laquo;Don Gaspar Lizarralde</p>
+<p>emen bizi al da?&raquo;</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Konfesoriagana</p><--</head>
+        </front>
+        <body>
+<p>Konfesoriagana</p>
+<p>juan zan Marzelina,</p>
+<p>gero konfesa zedin</p>
+<p>artzera dotrina;</p>
+<p>ba&ntilde;an guziz gorra zan</p>
+<p>Marzelina ori,</p>
+<p>etziyon kasik itzik</p>
+<p>aditzen i&ntilde;ori.</p>
+<p>Apaizak, beste gauza</p>
+<p>batzuben urrena,</p>
+<p>galdia egin ziyon:</p>
+<p>&laquo;Zein da seigarrena?&raquo;</p>
+<p>Gaixuak, nola zan ai&ntilde;</p>
+<p>gorrera aundikoa,</p>
+<p>galdetzen ziyolako</p>
+<p>&laquo;Zein da Jaungoikoa?&raquo;,</p>
+<p>erresponditu ziyon</p>
+<p>al zuben lenena</p>
+<p>&laquo;Da pentsatu liteken</p>
+<p>gauzik ederrena.&raquo;</p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p>Apirillaren lagun elkarra,</p>
+<p>saroi berdeko alaitasuna,</p>
+<p>Ama Venus'en asnase bigu&ntilde;,</p>
+<p>aize laguna.</p>
+<p>Zuk badakizu zenbatera&ntilde;o</p>
+<p>arkitzen naizen penaz beterik,</p>
+<p>zeren ez nazun entzun izandu</p>
+<p>kejak besterik.</p>
+<p>Eraman izan dituzu i&ntilde;oiz</p>
+<p>neriak zenbait adi ta negar,</p>
+<p>mendirik mendi, saroirik saroi,</p>
+<p>ibarrik ibar.</p>
+<p>Zuaz ta esan zaiozu nere</p>
+<p>anyerusari, noizbait bezela</p>
+<p>ez baldi&ntilde; banau berriz maitatzen,</p>
+<p>ilko naizela.</p>
+<p>Nere mi&ntilde;aren berri lenago</p>
+<p>jakiten zuben; eta ni mi&ntilde;ez</p>
+<p>negon guziyan, bera egoten zan</p>
+<p>negar egi&ntilde;ez.</p>
+<p>Zori obeko beste denboraz</p>
+<p>maite ninduben ezi&ntilde; geiago;</p>
+<p>beste denboraz... ba&ntilde;an, ai!, orain</p>
+<p>aserre dago.</p>
+<p>Zuaz aguro, zuaz korrika,</p>
+<p>zuaz lasterka, egan juan zaite,</p>
+<p>eta esaiozu ilko naizela</p>
+<p>ez banau maite.</p>
+<p>Ala jaungoiko diran guziyak</p>
+<p>amoriyua dezaizutela,</p>
+<p>ala zerubak zure zori ona</p>
+<p>nai dezatela.</p>
+<p>Eta zuk egan ibillitzeko</p>
+<p>zein denboretan dezun atsegi&ntilde;,</p>
+<p>ez dezatela sekulan elur</p>
+<p>osto bat egi&ntilde;.</p>
+<p>Ai&ntilde; gutxiyago ditzala i&ntilde;oiz</p>
+<p>oroi beltzaren kaskarabarrak</p>
+<p>eritu zure lore ostozko</p>
+<p>ego &ntilde;abarrak.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Zaldun gazte</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'> 1</hi></p>
+<p>Zaldun gazte bozal egoki batek</p>
+<p>esan ziyon batian Filys'i:</p>
+<p>&laquo;Zeru eder maite maitagarriya,</p>
+<p>nai al dezu zuk nereki&ntilde; bizi?</p>
+<p>Aberatsa naiz zuri kunplitzeko</p>
+<p>nai dituzun ainbeste kutizi;</p>
+<p>ukatzeko prebenitu ba&ntilde;a len</p>
+<p>ondo pentsatu zazu lenbizi.&raquo;</p>
+<p><hi rend='Bold'> 2</hi></p>
+<p>Galaiari esan ziyon Filys'ek:</p>
+<p>&laquo;Nere aurretik zuaz beriala!</p>
+<p>Uste al dezu lenagoko faltsiyak</p>
+<p>orren laster aztu zaizkirala?</p>
+<p>Igartzen det zure eske&ntilde;i denak</p>
+<p>fi&ntilde;tasunik gabiak dirala;</p>
+<p>naiago det onrakin pobre bizi,</p>
+<p>ez aberats onrik ez derala.&raquo;</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Dolores'i</p><--</head>
+        </front>
+        <body>
+<p>Zei&ntilde; dan nai al zenuke</p>
+<p>jaki&ntilde;, daguena</p>
+<p>nere biyotz gaxuan</p>
+<p>sartuba barrena?</p>
+<p>Bai? Banekiyen zala</p>
+<p>naiko zenubena;</p>
+<p>beraz, jaki&ntilde; dezazun</p>
+<p>alik laisterrena,</p>
+<p>eskribitzera nua</p>
+<p>D ta O aurrena,</p>
+<p>L eta berriz O</p>
+<p>eleren urrena,</p>
+<p>R ta E ondoren</p>
+<p>S bat azkena;</p>
+<p>orai&ntilde; letzen badezu</p>
+<p>segiruban dena,</p>
+<p>nere maite politak</p>
+<p>orla du izena.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>Azkenengo bertsoa</p><--</head>
+        </front>
+        <body>
+<p>Nik au pentsatu nuben</p>
+<p>bei&ntilde; zu ikusita:</p>
+<p>Ori bai dala guztiz</p>
+<p>neskatxa polita!</p>
+<p>Nai balu nere izan,</p>
+<p>gaude ezkongai-ta</p>
+<p>maiteko nuke nola</p>
+<p>ama eta aita,</p>
+<p>nere biziya ba&ntilde;o</p>
+<p>geiago're baita.</p>
+        </body>
+      </text>
+    </group>
+  </text>
+</TEI.2>
+

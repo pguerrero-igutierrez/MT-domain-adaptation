@@ -1,0 +1,802 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN"
+                       "http://www.tei-c.org/P4X/DTD/tei2.dtd" [
+   <!ENTITY % TEI.prose    'INCLUDE' >
+   <!ENTITY % TEI.linking  'INCLUDE' >
+   <!ENTITY % TEI.analysis 'INCLUDE' >
+   <!ENTITY % TEI.figures  'INCLUDE' >
+   <!ENTITY % TEI.XML      'INCLUDE' >
+   <!ENTITY % TEI.extensions.ent SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.ent' >
+   <!ENTITY % TEI.extensions.dtd SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.dtd' >
+]>
+<TEI.2>
+  <teiHeader>
+  <fileDesc>
+     <titleStmt>
+        <title>Patxiko Txerren</title>
+        <author>Antero Apaolaza</author>
+        <respStmt>Ez dauka</respStmt>
+     </titleStmt>
+     <extent>11.622 hitz, 83.731 karaktere</extent>
+     <publicationStmt>
+        <publisher>Klasikoen Gordailua [http://klasikoak.armiarma.com/]</publisher>
+        <distributor>Estrata Liburuak S.L.</distributor>
+        <address type='email'>klasikoak@armiarma.com</address>
+        <idno type='ota'>ApaolazaTxerren</idno>
+        <availability status='free'>Erabilpen librekoa; honoko helbidean topa daiteke (HTML, RTF eta PDF formatuetan): http://klasikoak.armiarma.com/idazlanak/A/ApaolazaTxerren.htm</availability>
+        <date>2006</date>
+     </publicationStmt>
+     <sourceDesc>
+        <bibl>Iturria: Patxiko Txerren, Antonio Trueba / Antero Apaolaza. Auspoa, 1962</bibl>
+        <notesStmt><note>Iturburuen datazioa: 1890</note></notesStmt>
+     </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+     <projectDesc>Euskal literaturako testu klasikoen bilduma da KLASIKOEN GORDAILUA; testu hau berorren parte da</projectDesc>
+     <refsDecl>
+        <p>MENTIONED etiketa egilearenak ez diren hitzak markatzeko erabili da: hitzaurreak, aipuak, iruzkinak, e.a.</p>
+    </refsDecl>
+     <classDecl>
+        <taxonomy id='generoa'>
+            <category id='G-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='G-ANT'><catDesc>Antzerkia</catDesc></category>
+            <category id='G-BER'><catDesc>Bertsoak</catDesc></category>
+            <category id='G-ERL'><catDesc>Erlijioa</catDesc></category>
+            <category id='G-NAR'><catDesc>Narratiba</catDesc></category>
+            <category id='G-POE'><catDesc>Poesia</catDesc></category>
+            <category id='G-SAI'><catDesc>Saiakera, kronika, artikuluak...</catDesc></category>
+        </taxonomy>
+        <taxonomy id='garaia'>
+            <category id='M-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='M-16'><catDesc>XVI. mendea</catDesc></category>
+            <category id='M-17-1'><catDesc>XVII. mendea - 1. erdia</catDesc></category>
+            <category id='M-17-2'><catDesc>XVII. mendea - 2. erdia</catDesc></category>
+            <category id='M-18-1'><catDesc>XVIII. mendea - 1. erdia</catDesc></category>
+            <category id='M-18-2'><catDesc>XVIII. mendea - 2. erdia</catDesc></category>
+            <category id='M-19-1'><catDesc>XIX. mendea - 1. erdia</catDesc></category>
+            <category id='M-19-2'><catDesc>XIX. mendea - 2. erdia</catDesc></category>
+            <category id='M-20-1'><catDesc>XX. mendea - 1. erdia</catDesc></category>
+            <category id='M-20-2'><catDesc>XX. mendea - 2. erdia</catDesc></category>
+        </taxonomy>
+        <taxonomy id='euskalkia'>
+            <category id='E-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='E-BAT'><catDesc>batua</catDesc></category>
+            <category id='E-BIZ'><catDesc>bizkaiera</catDesc></category>
+            <category id='E-BNA'><catDesc>behenafarrera</catDesc></category>
+            <category id='E-ERR'><catDesc>erronkariera</catDesc></category>
+            <category id='E-GIP'><catDesc>gipuzkera</catDesc></category>
+            <category id='E-GNA'><catDesc>goi nafarrera</catDesc></category>
+            <category id='E-LAP'><catDesc>lapurtera</catDesc></category>
+            <category id='E-NAF'><catDesc>nafarrera</catDesc></category>
+            <category id='E-ZAR'><catDesc>zaraitzuera</catDesc></category>
+            <category id='E-ZUB'><catDesc>zuberera</catDesc></category>
+        </taxonomy>
+    </classDecl>
+  </encodingDesc>
+  <profileDesc>
+     <textClass>
+       <keywords scheme='generoa'>
+         <list><item>G-NAR</item></list>
+       </keywords>
+       <keywords scheme='garaia'>
+         <list><item>M-19-2</item></list>
+       </keywords>
+       <keywords scheme='euskalkia'>
+         <list><item>E-GIP</item></list>
+       </keywords>
+     </textClass>
+  </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>Patxiko Txerren -- Antero Apaolaza</docTitle>
+    </front>
+    <group>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>&mdash;I&mdash;</p><--</head>
+        </front>
+        <body>
+<p>Orain izango dira Jaungoikoak daki zenbait urte, Anzuela eta Deskarga barrena bitartean, bideaz ezkerrera, zan auzera bat, ikusi leikean ederrena.</p>
+<p>Pago, aritz, gazta&ntilde;a, sagar eta keixa artean, or da emen banakatuak agiri ziraden patxara ederreko eta Aitzgorri ga&ntilde;eko elurra ba&ntilde;o zuriago ziraden etxeak.</p>
+<p>An barrenean erreka txiki bat, ze&ntilde;en urak ziran udaberriko intzan tantoa ba&ntilde;o garbiagoak eta izotza bera ba&ntilde;o otzagoak, antxintxika zijoan, bere anaia, Arrandari menditikan datorren errekatxoari laztan ematera, agur, gur, gur, gur esanaz, erreka baztarretako sagatz, altz eta arantzei.</p>
+<p>Errekatxo onen eskubiko aldetik eta intxaur aundi batzuen itzalean, beste lau edo bost etxe inguruan zituala, zegoan eleiza txiki bat, non erregututzen zioten Aita San Blasi, len aitortu dedan auzokoak.</p>
+<p>Auzera onetakoa zan Etxe-alai zeritzon etxea, non gertatu zan ni esatera noan kondaira.</p>
+<p>Izena zuan bezela, Etxe-alai zan era guztitako eta zituen soro batzuek, bai etxe buruan eta bai etxe azpian, lur beltz eta asta-putza ondo eldu ba&ntilde;o samurragoak eta aundiki baten baratza bezin ongi apainduak.</p>
+<p>Itz batean, ezi&ntilde; eskatu zezakean Etxe-alaik zedukan ba&ntilde;o egoera oberikan. Atari aurreko keixa, intxaur eta lizarren artetik nekez bide egi&ntilde;ik, mun egiten zion eguzkiak egun sentian eta etzion alderatzen Azandegietan barrena ezkutatu artean.</p>
+<p>Bagilla zegoan bere azkenetan eta zan illunabar bat.</p>
+<p>Etxe-alaiko jentea ari zan keixa batzuek biltzen etxe aurreko keixa arboletan.</p>
+<p>&mdash;Kontu erori, Inazio, zergatik geiago balio dek ik mundu onetako keisa guztiak ba&ntilde;o, &mdash;deitzen zion amona batek birigarro bat bezela adarrik adar keixa ga&ntilde;ean zebillen amasei urteko mutil gazte bati.</p>
+<p>&mdash;Ez bildurrik izan, ama, zergatik badakit nun eta nola nabillen &mdash;erantzun zion gazteak.</p>
+<p>&mdash;Aukerakua intzake, seme, erririk erri txerpolari bizimodua ateratzeko.</p>
+<p>Au esanaz ustu zituan altzuan zituan keixak keixondoan zegoan otxarren batera.</p>
+<p>&mdash;Bai... jatxi adi onezkero; otxarren onek ga&ntilde;ezka egin dik eta aitak eta Patxikok ere bete ditek eurena.</p>
+<p>Inazio brinko batean jetxi zan keixatik.</p>
+<p>Beste mutill gazte bat lau edo bost urte Inazio ba&ntilde;o zarragua, jeisten zan orduan aldameneko beste keixa arbola batetik; zei&ntilde;en ondoan zegoan aitona buru zuri bat.</p>
+<p>Bien artean artu zuten alde banatatikan keixaz beterik zeukaten otxarrena eta abiatu ziran ama eta Inazio zeuden aldera.</p>
+<p>Elkartu ziranean eseri ziran atsedeten lurrean.</p>
+<p>Aitonak atera zuan praketako boltsikotik bere tosa, atera zuan andi pipa kerten motz bat, eta atzazkalean astinduaz, nola ortzik ez zuan, jarri zuan zintzilika ezpa&ntilde;ean.</p>
+<p>Beste ainbeste egin zuan seme zarrenak.</p>
+<p>&mdash;Patxiko, eman egiak pipada bat, emen etziok eta &mdash;esan zion aitonak biatzaki&ntilde; atzamartuaz, ba&ntilde;a alferrik, tosaren ondoa.</p>
+<p>&mdash;Aita, neroni ere aitu zait &mdash;erantzun zion semeak bere pipa bete zuanean.</p>
+<p>&mdash;Gezurtia &mdash;esan zion Inaziok izioturik&mdash;. Atzo bertan ez nikan ekarri neronek laurden bat Bergaratik?</p>
+<p>&mdash;I beti izango aiz berritsu aundi bat!</p>
+<p>&mdash;Eta i zitala paregabekoa!</p>
+<p>&mdash;Ondo egiten diat. Erre nai duenak erosi dezala belarra.</p>
+<p>&mdash;Ez aiz lotsatzen esatiakin bakarrik?</p>
+<p>&mdash;Utziyok, utziyok, Inazio, &mdash;esan zuan aitak arnasa luze bat egi&ntilde;az eta pipa sartuaz bere tosan&mdash; utziyok. Bazekiyagu zer itxon dezakegun guztiyak ire anaiagandik.</p>
+<p>&mdash;Juane &mdash;esan zuan amak&mdash;. Orixe da etxe onetako Judas. Orretxek kendu bear digu danori biziya. Orretxek...</p>
+<p>&mdash;Ixildu zaite, Fraiska &mdash;erantzun zion Juanek&mdash;. Pipa artzalle zalea banaiz ere, etxeko bakian zaliago naiz.</p>
+<p>&mdash;Aita, bakerik ez badezu ere, pipa bete belar izango dezu &mdash;dio Inaziok&mdash; ni bizi naizen artean; eta esanaz batera brinko bian sartu zan etxean.</p>
+<p>Jesusgarren batean biurtu zan atzera arturik eskuan orri puska bat sokan gisa biurtua.</p>
+<p>&mdash;Tori, aita &mdash;esan zion&mdash; naiz neronek ez erre, ezagutzen det zenbat aienatzen zeran orririk ez dezunean pipa betetzeko, eta argatik, atzo nere anaiaren aginduaz juan nintzanean belarra ekartzera, erosi nuen laurdentxo bat zuri ez aldiak betetzeko.</p>
+<p>&mdash;Bai &mdash;esan zuan Patxikok&mdash; nere laurdenetik artuko uan ori.</p>
+<p>&mdash;Begiraik, Patxi; etzeidak odolik berotu. Uste duk danak gerala ire antzekuak?</p>
+<p>&mdash;Bai &mdash;esan zuan Fraiskak Patxiri begiratuaz&mdash;. Ai&ntilde; zitalak dituk ire ametsak nola diran ire egi&ntilde;ak.</p>
+<p>&mdash;Bai... Bai... utzi, utzi zaiozue gauza orri &mdash;esan zuen Juane gizajoak masallak estuturik tira egi&ntilde;az pipari.</p>
+<p>Zori oneko pakea iritxi zan Etxe-alaira... Illun arratsa zan, eta egunaz bero izugarria egi&ntilde; bazuan ere, txit egon giro ona zegoan.</p>
+<p>&mdash;Aurki apaldu eta lotara juan bear degu &mdash;esan zuan Juanek&mdash;. Bigar goizian goiz, eguzkiak berotzen asi ba&ntilde;o lenago, juan bearko dezute Bergarara keixekin, eta ala orai&ntilde;, goazen etxera. Mikaelak onezkero gertatuko zuan afariya.</p>
+<p>&mdash;Begira Juane... Ez litzake obe bertan afaltzea? &mdash;esan zion emazteak.</p>
+<p>&mdash;Ongi pentsatua da... &mdash;erantzun zuten danak, etxe barruan labean ba&ntilde;o beroago egongo da orai&ntilde;.</p>
+<p>&mdash;Mikaela!... &mdash;deadar egin zuan Fraiskak etxe aldera begiratuaz.</p>
+<p>&mdash;Zer nai du, ama? &mdash;erantzun zion neskatxa batek sukaldeko leiotikan.</p>
+<p>&mdash;Afariya gertu danean ekarri zan oneraxe.</p>
+<p>&mdash;Or naiz bereala, ama...</p>
+<p>Eta esan bezela, or non datorren gure Mikaela, galbai bat zapi zuri batekin estaliya buruan arturik, eta gazta&ntilde;a koloreko pitxar aundi bat sagardoz beteta eskuan duela.</p>
+<p>Mikaela zan emezortzitik ogei urterako neskatxa bat, San Juan eguneko goiz bat bezin argiya ta larrosa bat bezin ederra.</p>
+<p>Itzuli zuan auspez galbaia; apaindu zuan zapi zuriarekin; eta jarri zuan ga&ntilde;ean ontzi zabal bat bete sardi&ntilde;a, li&ntilde;a lorea ba&ntilde;on urdi&ntilde;agoak, eta ingurutua urre zarra ba&ntilde;o oriagoko arto atalekin.</p>
+<p>...Aitaren, Semearen, eta Spiritu Santuaren... Errezatu zutenean Paternosterra, bedeinkatu zuan mai ura Juanek..., eta betor sardi&ntilde;a, kolpe artuari eta laztan pitxarrari, asi ziran jaten pake onean.</p>
+<p>&mdash;Keixak... baduaz arintzen &mdash;esan zuan Juanek&mdash;, eta sentitzen det Don Josegatikan.</p>
+<p>&mdash;D, Jose... &mdash;dio Patxik&mdash;. Geiago sentituko dute txoriak.</p>
+<p>&mdash;Aurten ez da onezkero geiago etorriko, meza esan ba&ntilde;o len, goizian goiz, zozuak eta eskillasuak iltzera gure sukaldeko leiotik. Deabruan piztiyak; ez ira izutzen txorimalua jarriagatikan.</p>
+<p>&mdash;Eta Don Jose aitatu degun ezkero, gaur, nola ez ote da etorri? &mdash;esan zuen Fraiskak.</p>
+<p>&mdash;Atzo juan bazan Donostiara... bere illoba indianoari bidera ateratzea &mdash;esan zion Juanek.</p>
+<p>&mdash;Orla badator illoba? Ai zenbat pozten naizen! Ekarri ote digu zure anaian berririk, Juane...?</p>
+<p>&mdash;Juangoikoak nai izan dedilla.</p>
+<p>&mdash;Arritzeko gauza da gero, ainbeste denboran ez jakitea ez il dan, ez bizi dan. Bildur naiz ilko zala, bestela onezkero letra punten bat egingo zuan.</p>
+<p>&mdash;Neronek ere alaxe uste det, Juane.</p>
+<p>&mdash;Bost ajola digu guri ori ala izanda ere &mdash;esan zuan Patxikok.</p>
+<p>&mdash;Abe Maria purisima! &mdash;dio Fraiskak.</p>
+<p>&mdash;Ai zer biotz gogorraren jabe aizen, seme!</p>
+<p>&mdash;Zer ardura digu guri ura deabruak eraman dezala, sekula ardit bat eman ez badigu?</p>
+<p>&mdash;Nik nai dedana eta danok deseo bear deguna da, bizi dedilla &mdash;esan zuan Juanek&mdash;, naiz Ipi&ntilde;-arrita bete urren jabe izan eta ez deigula erretxin batentzat ere eman.</p>
+<p>&mdash;Ba&ntilde;a... Amerikatik dator Don Josen illoba? &mdash;galdetu zuen Mikaelak.</p>
+<p>&mdash;Ez zeki&ntilde;at nik ori &mdash;erantzun zion amak&mdash;, ba&ntilde;an nola ta nai ere urrutitik be&ntilde;epenean, eta, esaten dutenez, oso aberats.</p>
+<p>&mdash;Ixo...!! &mdash;esan zuan Inaziok, lepoa luzatuta&mdash;. Ez ote dira erak an Deskargan barrena datozenak?</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>&mdash;II&mdash;</p><--</head>
+        </front>
+        <body>
+<p>Arrazoia zuan Inaziok; gazta&ntilde;aria ziar zijoan galtzadan, azaldu ziran apaiz jauna eta bere illoba Anjel, mando banan ga&ntilde;ean, ondoren zituztela beste iru mando indianoaren maletaz zamatuak.</p>
+<p>D. Jose zan San Blaseko apaiz jauna. Zituan irurogeiren bat urte, osasun kolorea eta geiegi ez arren zer arin mardua; bere itzetan eta bere arpegian ezagun zan biotzaren edertasuna; beti itxiya gorrotoarentzat, poltsa zabalik zeukan bezela auzoen ez bearretarako; itz batean zan, esan oi dan bezela, ogi puska ba&ntilde;o obea, eta auzera guztiak maitatzen zuan aita bezela.</p>
+<p>Indianoa zan ogei ta bost urteko galai gazte bat.</p>
+<p>Etxe-alaiko guraso eta umeak jaiki ziran aiei ongi etorri ona ematera: bakarrik Patxi gelditu zan otxarren ondoan, sardi&ntilde;ak egon ziran ontzia arta puska batekin inguru guztian igozten; eta esanaz bere artean: zer zeukat nik zer ikusi indianoarekin eta ez bere osabarekin...? Oiek emango dutenagatikan...</p>
+<p>Ez al zituan D, Josek Etxealaitarrak ikusi, gelditu zuan mandoa. Beste ainbeste egin zuan indianoak.</p>
+<p>&mdash;Kaixo Juane! Ola Franziska! &mdash;esan zuten osaba illobak.</p>
+<p>&mdash;Arratsaldeon duela D, Jose lagunakin &mdash;erantzun zuten danak.</p>
+<p>&mdash;Posible ote da &mdash;esan zuan Franziskak&mdash; zaldun au dala...</p>
+<p>&mdash;Anjel &mdash;erantzun zion irribarre egi&ntilde;az indianoak&mdash;. Ni naiz mutil gaizto ura, orain amar urte asarratu eragiten nizuna beti arrika etxe aurreko intxaurrari, nere osaban ondorean Etxe-alaira etorten nintzanean.</p>
+<p>&mdash;Bedeinkatua izan dedilla gure Jaungoikoa!! Nork esan lezakean berori zan bezi&ntilde;...</p>
+<p>&mdash;Zer berori eta zer perretxiku ustel!</p>
+<p>&mdash;Orixe bear genduke; zapaburua a&ntilde;a ez nintzanean ezagutu ninduenak berori eta jauna esatea.</p>
+<p>&mdash;Infernuko Txomin!! Mikaelak ere ez du ezer galdu. Au bai dagoala neskatxa.</p>
+<p>&mdash;Mikaelak jatxi zituan begiak lepoko pa&ntilde;oloan punta atzamartuaz, eta aren larrosa koloreko masalla ederrak biurtu ziran krabeli&ntilde;a kolorekoak.</p>
+<p>&mdash;Zenbat azi dan Inazio!! Eta Patxi nundikan dabill?</p>
+<p>&mdash;Keixa ondoan gelditu da.</p>
+<p>&mdash;Arek, ez dago zer esanik, lengo lepotikan eukiko du orain ere burua. Amaika bidar ernegatu eragin ziran txikitan.</p>
+<p>&mdash;Eta beori, nola ibilli da mundu oietan?</p>
+<p>&mdash;Zorioneko beori! Ez nuke nai berriz aitzerik, Juane.</p>
+<p>&mdash;Ba&ntilde;an ezin utzi esan gabe.</p>
+<p>&mdash;Ba! bearko utzi nerekin aiskide nai badezu.</p>
+<p>&mdash;Ni ibilli naiz ondo eta gaizki, guztira; ba&ntilde;a Jaungoikoari eskerrak osasuna badet eta asko asko ez arren, ondasun piska baten jabe ere egin naiz; nere ustez naikoa, ogi puska bat janaz baztar onetan pozik bizi izateko. Asko nai diot eski&ntilde;a oni, eta geiago nere osabari, ze&ntilde;i zor diotan naizen guztia.</p>
+<p>&mdash;Nere artean esan nuan, nuan, nere ollo lurrera, onezkero osaba zartua egongo da, eta nai det bere ondoan bizi bera zaitutzeko eta biurtu, i&ntilde;ola al badet, neri egin diran mesedeak, eta, esan da egin, emen nun iritxi naizen zerutik eroritako txoko onetara; ba&ntilde;a, orain gogoratzen naizenaz, zuek, inguru guztiko aberatsenak izan bear dezute.</p>
+<p>&mdash;Jaungoikoari eskerrak etzaigu falta artoa eta esnea.</p>
+<p>&mdash;Zer esaten dezu, Juane? Eta anaian ondasunak?</p>
+<p>&mdash;Zer ondasun, Don Anjel?</p>
+<p>&mdash;Berriz ere D. eta kalabaza erria. Jaunak zeruan euki dedilla, zure anaianak.</p>
+<p>&mdash;Ai gure Jaungoikoa!! Orla il zan!! esan zuten Juanek eta Fraiskak eskuak gurutzatuaz.</p>
+<p>&mdash;Seguru ezin esan nezake &mdash;esan zuan indianoak zerbait damuturik&mdash;, ba&ntilde;a, oso gaizki zegoan.</p>
+<p>&mdash;Ai!! Ez beza ukatu, illa izango da.</p>
+<p>&mdash;Bai ba zorigaiztoan, urte bi izango dira ura il zala &mdash;esan zuan indianoak&mdash;. Ba&ntilde;a, nola izan lezake zuek ez jakitea? Eta arek zuentzat utzi zituan izugarrizko ondasunak?</p>
+<p>&mdash;Gorde diteztela orain dauzkatenak &mdash;erantzun zuten Juanek eta Fraiskak.</p>
+<p>&mdash;Juane! Fraiska! &mdash;esan zien apaizak, eskuakin sorbaldan juaz. Negarra ez da ai&ntilde; mikatza ondasunekin danean.</p>
+<p>Bigar itz egingo degu gauza orren ga&ntilde;ean, zergatik gaur etzaudete orretarako.</p>
+<p>Gaba iritxi zan izarrak agertuaz. Indianoa ete bere osaba alde batera eta Etxe-alaikoak bestera, alkarri gabon esanaz abiatu ziran bakoitza bere etxera.</p>
+<p>&mdash;Il da! Il da! &mdash;esan zioten Patxiri aitak eta amak etxera eldu ziranean.</p>
+<p>&mdash;Eta. Diru asko utzi du? Eta, guretzat utzi ditu? &mdash;galdetu zuan Patxik begiak <hi rend='Italic'>bris bris </hi>egiten ziotela.</p>
+<p>&mdash;Patxiko! &mdash;esan zion aitak asarraturik&mdash;. Oso biotz txarra dezu eta lotsatzen naiz, zuri semearen izena eman bearrak.</p>
+<p>Andik laster sartu ziran bakoitza bere aposentuan.</p>
+<p>Keixak aztu ziran, an jan zituzten goizean olloak eta zerriak. Aztu zan goizean Bergarara joatea.</p>
+<p>Etxe-alaiko danak, osabaren eriotza zeukaten gogoan; Patxik, zerbait izango zuan esperantzarekin; ga&ntilde;erakoak negar egiteko.</p>
+<p>Biaramon egun sentiyan zijoan Don Jose Etxe-alai aldera.</p>
+<p>Beste batzuetan eraman oi zuan bezela, ez zeraman orduan bere eskopeta, eta laguntzen zion bere illoba Anjelek.</p>
+<p>Eldu ziradenean Etxe-alaira, arkitu zituen Juane eta ga&ntilde;erakoak, aurreko arratsian utzi zituen ba&ntilde;o zerbait sosegu geiagorekin.</p>
+<p>&mdash;Ya, ba, Juane &mdash;asi zan esaten indianoa&mdash;, emen, argi itz egin bear degu. Nola difuntuak utzi zi&ntilde;uen bere ondasunen jabe, konbeni da, eta bear dituzu zeureganatu, besterik ez bada ere limosna egiteko.</p>
+<p>&mdash;Arrazoia du, Don Anjel, ala gustatzen zait gizonak.</p>
+<p>&mdash;Orain esango dizuet zer gertatzen dan gauza onetan. Zure anaia zan bost egun milla errialen jabe.</p>
+<p>&mdash;Bost egun milla errial!! &mdash;esan zuan Patxik&mdash;. Eta sekula txanpon bat bakarra ez ziguen bialdu!!!</p>
+<p>&mdash;Zure anaia zan oso diru maitea. Ba&ntilde;a, utzi ditzagun pakean ildakoak, eta egin daiogun gerra zuen ondasunak jaten bizirik daudenari.</p>
+<p>&mdash;Zure anaiaren azkeneko enkargua artu zutenak zabaldu dute Amerikan, egin dutela difuntuan borondatea, Jaungoikoak agintzen duan bezela; eta an, i&ntilde;ork ez du sinisten gezurretan dabiltzanik.</p>
+<p>&mdash;Onela ba bear diozute eskribitu ainbat lasterren eskatutzen, arrazoi dan bezela, zuen gauzak, eta euren buruak gorrak egiten badituzte, billatuko degu erremediyua gorraizea sendatzeko.</p>
+<p>&mdash;Ongi da Don Anjel &mdash;esan zuan Juanek&mdash;. Guk egingo degu beorrek esaten duan guztia.</p>
+<p>Nola Etxe-alain ez zegoan zerekin karta egin, apaizak bialdu zuan Patxi esanaz:</p>
+<p>&mdash;Esan egiok gure Josepari emateko papera, tinta, luma eta oblia batzuek.</p>
+<p>Patxi guztiz nagia zan, ba&ntilde;a nola zeguan ezkurran zurru murrua, berantzat ere zerbait izango zan ametsean, lau brinkoan eldu zan Don Josen etxera.</p>
+<p>Andra Josepa zan emakume bat, ez zarra eta ez gaztea, guztiz ona eta txit esku zabala.</p>
+<p>Patxik billatu zuan andra Josepa sekula ba&ntilde;o umore obean, eta kontuak esateko gogo aundiakin.</p>
+<p>Andra Josepa &mdash;esan zion Patxik&mdash;, eman bear dit ainbat lasterren eskatutako oiek.</p>
+<p>&mdash;Jesus, gizon. Ez ari ai&ntilde; burduntzia izan, itxon zak puska bat, ez zeramak urjolak garirrikan.</p>
+<p>&mdash;Ba&ntilde;a, ez daki nekez juaten banaiz asarre egingo diatena apaizak eta Don Angelek?</p>
+<p>&mdash;Zer egin biar ditek asarre, aingeruak ba&ntilde;o obeago diran kristauak!</p>
+<p>&mdash;Ogei bat urte badituk Don Josekin nagoala, eta oraindikan etzioat ikusi arpegi illunikan. Eta Anjel? Apota! Lurrak ez dik bere ga&ntilde;ean ume obeagorik! Ikusi dek zer mutil ederra etorri dan?</p>
+<p>&mdash;Eta esan beza, andra Josepa. Aberatsa etorri al da?</p>
+<p>&mdash;Izugarri!! Baeki ark ekarri dituanak, ator beran aposentura, eta an ikusiko duk zer dan gauza ona.</p>
+<p>Patxi eta andra Josepa sartu ziran kutxatillaz eta narruzko maletaz beterik zegoan aposentu baten.</p>
+<p>Andra Josepak eregi zituan aietako iru edo lau eta erakutsi ziozkan Patxiri aien barruan zeuden urrezko eta zillarrezko gauza ederrak.</p>
+<p>Begiak iges egin nai zioten Patxiri aiek ikusi zituanian. Andra Josepa ezin kabitu zan bere larruan Patxi ala ikusita.</p>
+<p>&mdash;Au &mdash;esan zion Patxiri&mdash;, biatzakin se&ntilde;alatuaz iltze oriz josita zegoan kutxatilla bat, au, ziok itxita zazpi giltzarekin; artu zak eskuetan, esan zion begi bat ki&ntilde;atuaz.</p>
+<p>Patxik egotzi zion eskua eta ozta ozta jaso zuan lurretik ontzabeten bat. Atzera uzterakoan aitu zan txin, txin, ots bat, Patxikori zarrada eragin ziona. Andra Josepak, algara egi&ntilde;az, esan zion:</p>
+<p>&mdash;Zer uste uan gizajo orrek, arta lastoz betea zegoala?</p>
+<p>Patxik ez zuan aditzen andre Josepak esaten zionik. Etzegoan bere artean, izardi larria ateratzen zitzaion eta milla gogorazio txar jaiotzen ziran aren buruan.</p>
+<p>&mdash;Zer deizkiok orri Patxi?</p>
+<p>&mdash;Duroz betia egongo da, e?</p>
+<p>&mdash;A kaiku aundia! Duroz ez, baizik lau kantoiko ontzako zarrez zeok ori betea.</p>
+<p>Au aditu zuanian Patxik, galdu zuan bere burua eta txoko danetara begiratuaz eman zuan pauso bat ukabillak estuturik andra Josepa zeguan aldera.</p>
+<p>&mdash;Patxi! Patxi! &mdash;ots egin zuten sasoi onetan eskalleratatik.</p>
+<p>Patxik, birau izugarri bat boteaz, jo zuan ostikuaz lurra eta andra Joseparen ondoren joan zan eskallera burura.</p>
+<p>&mdash;An zegoan Inazio.</p>
+<p>&mdash;Egun on daukala, andra Josepa &mdash;esan zion.</p>
+<p>&mdash;Abil azkar, mutil &mdash;esan zion Patxiri.</p>
+<p>&mdash;Ordubete onetan an zeudek ire zai apaiza eta Don Anjel.</p>
+<p>&mdash;Ez al dakik oraindikan meza esateko dagoala Don Jose?</p>
+<p>&mdash;Itxon dezala. Oraindik ezta berandu &mdash;esan zuan Josepak&mdash;, Jesus batean jarriko dizutet gosari goxo bat.</p>
+<p>&mdash;Eskerrak milla, andra Josepa &mdash;esan zuan Inaziok.</p>
+<p>&mdash;Zer esker eta zer adar. Nik esaten det gaur ez zeratela juango Etxe-alaira lukainka mutur bana jan eta txakolin zurrut bana eran gabe.</p>
+<p>&mdash;Alkarrekin busti bear degu gure indianoaren etorrera.</p>
+<p>&mdash;Beste egun baten etorriko gera, andre Josepa &mdash;esan zuan Inaziok.</p>
+<p>&mdash;Igandean meza ondoan artuko degu berorren gonbita.</p>
+<p>&mdash;Ondo da ba, nere semeak, ez dizuet lantegi txarrik eragin nai, eta badakizute nere borondatea zuentzat; ba&ntilde;a nai nuke Inaziok ere ikusi ditzan Patxik ikusi dituan gauza ederrak.</p>
+<p>&mdash;Ez andria, ez, orain ez degu astirik orretarako, beste batean izango da &mdash;esan zuan Inaziok; eta au esanaz, artu zituan maian ga&ntilde;ean gertu zeudenak eta anai biak artu zuten etxera bidea.</p>
+<p>&mdash;Orai&ntilde; ikusiko dezute nola izan leikean egarriak egon eta urik ez gogoratzea.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>&mdash;III&mdash;</p><--</head>
+        </front>
+        <body>
+<p>Udaberriko arratsalde eder bat zan.</p>
+<p>Don Jose eta bere illoba indianoa, bakoitzak bere eskopeta anka artean arturik, zeuden muga baten ga&ntilde;ean eserita, aurreko egian ji eta jau zaunkaz zebiltzan erbi zakur eder biri begira.</p>
+<p>&mdash;Osaba &mdash;dio Anjelek&mdash;. Uste det Pintok eta Leonek lorratza galdu dutela. Obe ez genduke etxera joatea? Zergatik illuntzera dua eta berori ez da gauzako gabaz bide txior abetan ibilteko.</p>
+<p>&mdash;Arrazoia dek, Anjel; arratsaldean asko ibilli ez bagera ere, oso nekatua arkitzen nauk; abarka zar batek a&ntilde;a ez diat balio, Anjel, eta onezkero, obe izango diat nik, neguan suan ondoan eta udan itzalean, pake pakean egotea.</p>
+<p>Osaba illobak jarri zituzten eskopetak bizkarrean eta fiut fiut zakurrei txistu egi&ntilde;az, jetxi ziran mendiyak bera.</p>
+<p>Anjel zijoan aurrena, eta etxera bidea utzirik artu zuan Etxe-alaira zijoan bide txiorra.</p>
+<p>&mdash;Nora goaz? Etxe-alaira? &mdash;esan zion Don Josek.</p>
+<p>&mdash;Bai, osaba; antxe atsedengo degu piska bat, eta nik erango det trago bat ur, egarriak itotzen nauka eta.</p>
+<p>Osabak, irribarre egi&ntilde;az, esan zion:</p>
+<p>&mdash;Ta, ta, ta. Anjel! Ainbeste baztar ikusiya izanik, ez daukak abilidaderik ire desioa ezkutatzeko.</p>
+<p>&mdash;Zergatik esan du ori, osaba? &mdash;esan zuan Anjelek, anpolaiaren kolorea artuaz.</p>
+<p>&mdash;Zergatik ez diat nik uste Etxe-alain atsegin lezakela, pago zar onen itzalean ba&ntilde;o obeki, eta ur goxoagorik eran ere or altz tartean dagoan iturrian ba&ntilde;o.</p>
+<p>&mdash;Ba&ntilde;a, emen.</p>
+<p>&mdash;Esan zak emen ez dagoala Mikaelarik, pitxarra eskura emateko.</p>
+<p>&mdash;Osaba!</p>
+<p>&mdash;Esan zak egia, Anjel, aitortu zak, Mikaela ikusteko pozak eramaten auela egunero Etxe-alaira. Zer gaitz ziok gauza orretan, izanik bera neskatxa on bat, eta ire asmoak zuzenak?</p>
+<p>&mdash;Egia da, osaba, oingoan igarri dio.</p>
+<p>&mdash;Guk, burua zurituta degunak, urrutitikan usaia artzen diagu.</p>
+<p>&mdash;Bai ba, osaba, maite det Juanen alaba, eta uste dut berak ere ez daukala iguirik neretzat, eta barkatu beit, osaba, orain artean ixilik idukitzea gauza au.</p>
+<p>&mdash;Ez duk ixillik iduki, ez, Anjel, zergatik ezin ezkutatu dik ire arpegiak biotzak sentitzen duna.</p>
+<p>&mdash;Ba&ntilde;a, zer egiten duk ire intentzioak erakutsi gabe Juaneri, Fraiskari eta aurrena Mikaelari berari?</p>
+<p>&mdash;Ain dirade zuzenak eta leialak eze, beldur naiz, osaba, arrazoirikan aditu naiko ez dutela, beste asko eta askok pozik adituko litukian arrazoiarengatikan beragaitik.</p>
+<p>&mdash;Ni naiz aberatsa, eta erak ez.</p>
+<p>&mdash;Orrek ez dik arrazoiaren izenik merezi. Noizdik duk pekatu aberatsa izatea, aberastasuna ekarri bada, ik ekarri dean bezela, ere izardiarekin irabaziya?</p>
+<p>&mdash;Ez osaba, ba&ntilde;a, denbora gutxi barru, erak izan litezke ni bezin edo ni ba&ntilde;o aberatsagoak, eta orduan.</p>
+<p>&mdash;Orduan esango ditek, erak ez zergatik ez dute biotz eta pentsamentu txarrik, ba&ntilde;a bai beste mingai&ntilde; luzen batzuek, diruagaitikan ezkontzen aizela.</p>
+<p>&mdash;Arrazoia du, osaba, ez zitzaidan orrelako gauzarikan burutatzen.</p>
+<p>Onetan eldu ziran osaba illobak Etxe-alaira.</p>
+<p>Juane, bere emaztea eta semeak ari ziran etxeburuko soroan arta jorran.</p>
+<p>&mdash;Zer berri da, Juane? &mdash;esan zuan Don Josek.</p>
+<p>Ez dago gauza berririkan, jauna. Goizian izan da Inazio Bergaran eta Amerikako korreoa etorriagatikan, ez zan guretzat kartarik, gure esperantzak eta gaberdiko zakurran ametsak berdin.</p>
+<p>&mdash;Zer amets eta zer &mdash;esan zuan Anjelek&mdash;, beti ur epelean ibilli gabe, oingoan gogor asi bear degu.</p>
+<p>&mdash;Eta zer nai du ba egitea? Duazela Jaungoikoarekin, gorde ditzela bostegun milla errialak eta gastatu ditzatela osasunarekin, gu, biziko al gera gere pobrezan.</p>
+<p>&mdash;Arrazoia du aitak &mdash;esan zuten Mikaelak eta Inaziok.</p>
+<p>&mdash;Orixe esaten dut neronek ere &mdash;geitu zuan Fraiskak.</p>
+<p>&mdash;Mokorda zar bat! &mdash;esan zuan Patxik, eskuan zuan atxurrarekin, bost edo sei artalandara zatituaz.</p>
+<p>&mdash;Tripa erre! &mdash;esan zion amak&mdash;. I bezela izango gaituk, dirua beste Jaungoikorikan ezagututzen ez dekan ori! Orretxek galdu bear au i! Orretxegatikan ustelduko aiz i kartzelan batean!</p>
+<p>&mdash;Bai, Fraiska, bai, asko da &mdash;esan zuan apaizak&mdash;, oinguan parte arrazoia dauka. Neri begitantzen zait, alferra izango dala berriro eskribitzea, zergatik ezagun da testamentarioak fede gaiztoan dabiltzana, eta nik uste dut onena izango litzakeala zeutako bat sartu ontziyan eta, gari berriak arte esanaz, bertara joatia.</p>
+<p>Juane ez dago orretarako edadean. Patxik ez du eskolarikan.</p>
+<p>Berak ditu kulpak, jauna, esan zuan Fraiskak, amaika alegi&ntilde; egin zaio bere denboran, ba&ntilde;o gelditu zan, goiko abe zar ori ba&ntilde;o eskola geiago bage. Ez du arreban antz aundirikan! Gaixoak ez du izan Inazio beste maisurikan. Lau egun ez dirade eskribitzen asi zala eta egiten ditu esola batzuek ederragoak. Erai begira txoratu egin lezake!</p>
+<p>Bai, esan zuan Patxik, ori saiatzen da ikasten. Don Anjelen aurrean lotsatzen dalako, eskribitzen ez dakila esaten.</p>
+<p>Mikaela jarri zan txingarra ba&ntilde;o gorriago.</p>
+<p>Ondo egiten dik, esan zuan amak, ez, i bezela izango duk, atxur kerten ori.</p>
+<p>&mdash;Pakea, Fraiska, pakea! &mdash;esan zuan Don Josek&mdash;; esanak esan, eta goazen beste artikulo batera... Inazio... izango uke animorikan li&ntilde;a potzu aundi aretan sartzeko?</p>
+<p>&mdash;Apaiz jauna, nere aitak eta nere amak agintzen badirade, ni joango naiz munduan azkenera&ntilde;o.</p>
+<p>&mdash;Ai Don Jose! &mdash;esan zuan Fraiskak&mdash;. Nere sabeleko seme maitea, itxasora bealdu!</p>
+<p>&mdash;Arrazoia dauka Fraiskak &mdash;esan zuan Juanek&mdash;, gizona, idiya dabillen lekuan.</p>
+<p>&mdash;Ez zazute umekeriarik esan &mdash;dio Anjelek&mdash;. Itxasoan bezelaxe etorri lezake, usterik gutxien degunean, lurrean ere eriotzako ordua. I&ntilde;or ez da itotzen Jaungoikoak nai ez duanian, eta arek nai duanian, ito lezake katillu bat uretan ere...</p>
+<p>&mdash;Egi aundia, Don Anjel &mdash;esan zuan Inaziok.</p>
+<p>&raquo;Ia ba, aita, baldin beorrek eta amak nai badute, joango naiz salto bian Amerikara eta beriala naiz biurtu nere bostegun milla eta ondarrak arturik poltsan, zergatik negargarria da, emen pobreak egonik, gure txanponekin farra egin dezen prestuez aiek.</p>
+<p>&mdash;Arrazoia duk &mdash;esan zuan aitak&mdash;. Zer deizkiozu zuk, Fraiska?</p>
+<p>&mdash;Nik zer esatea nai dezute? Zuek egiten dezutena ikusi, eta... Ama Birji&ntilde;a Karmengoak gorde dezala nere biotzeko semea.</p>
+<p>&mdash;Au ikusia dago &mdash;esan zuan Don Josek&mdash;. Egin ditzagun ga&ntilde;era bear diraden prestamenak eta joan dedilla Inazio ainbat laisterren.</p>
+<p>Andikan zortzi egunera sartu zan Inazio, Donostiatikan ateratzen zan ontzi batean; ango ezagun batzuentzat Anjelek eman ziozkan karta batzuek, eta Don Josek, nai ta nai ez, poltsan jarri ziozkan urre zar batzuek berekin zituala.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>&mdash;IV&mdash;</p><--</head>
+        </front>
+        <body>
+<p>Inazio Indietara joan zanetikan bost edo sei illabetera, Etxe-alaikoak ari ziran goiz batean gosaltzen, galdara ori bat esnez betea aurrean zutela...</p>
+<p>Naigabe aundiak igaro bear izan zituzten etxe aretan... Mikaelak galdu zituan bere kolore ederrak; Fraiska eta Juane zeuden oso narrastuak, eta danak ezagun zuten eren arpegietan, biotzak negarrez zeuzkatela.</p>
+<p>&mdash;Mikaela... &mdash;esan zuan amak&mdash;. Zergatikan ez dun jaten?</p>
+<p>&mdash;Jaten ari ez naiz ba, ama.</p>
+<p>&mdash;Bai... eta oraindik ez dun mokadurik aoan sartu!</p>
+<p>&mdash;Ezin nezake, nai ta ere, ama.</p>
+<p>&mdash;Jateko gogorikan ez badun, kontu egin zan botika dala, eta ortzak estutuaz... barrura... zergatik jaten ez duana, badakin..., il egiten dun. Ba&ntilde;a... zerk kendutzen din gogoa?</p>
+<p>&mdash;Alferrik da ori galdetutzea &mdash;esan zuan aitak&mdash;. Anjel gaixorik dago, eta onek ere alaxe nai du.</p>
+<p>&mdash;Eta jarriko da, eta ilko da &mdash;esan zuan amak&mdash;. Gosaldu zan, Mikaela, begira ze&ntilde;en gozoa dagoan esnea. Nai dun arrautza bat auspean epeltzea?</p>
+<p>&mdash;Ba&ntilde;a ez izan gogorikan, ama.</p>
+<p>&mdash;Alaba! iduki ezan konfiantza Jaungoikoagan; Anjel sendatuko dun aurki eta joango ditun deabru etxera naigabeak.</p>
+<p>&mdash;Ai nere ama maitea! Baldin Anjel iltzen bada, ilko naiz ni ere.</p>
+<p>&mdash;Il! il! Ez ezan esan txorakeriarik, neska. Barberuak esan din okerrena igaro zala. Zer ba! Ari bakarrik gertatu al zaion eizean dabillela, tiroak erten eta eritzea? Amaikatxo baditun alakoak, sendatu eta ezer izan ez balute bezela gelditzen diradenak... Egia dun, lenbizi sinistu genduala gauza okerragoren bat, ba&ntilde;a orain, Jaungoikoari eskerrak, ez zegon zergatik beldur izan.</p>
+<p>&mdash;Au geiegi da! &mdash;esan zuan Patxik, lurrera botaz eskuan zedukan kollara&mdash;. Beti indianoa gora eta indianoa bera! Berregun milla deabruk eraman bazuten ere, ez zan ezer galduko.</p>
+<p>&mdash;Patxi! &mdash;esan zion aitak&mdash;. Ez ezak Anjelen izenik aotikan atera bedeinkatutzeko ez bada.</p>
+<p>&mdash;Bedeinkatutzeko!... Ematen digunagatikan...</p>
+<p>&mdash;Ematen ziguk, guk merezi degun eta bear degun ba&ntilde;o geiago.</p>
+<p>&mdash;Ba nik esaten dut, zeken aundi bat dala.</p>
+<p>&mdash;Patxi! &mdash;deadar egin zuten aitak eta amak, maitikan jaikiaz.</p>
+<p>&mdash;Etxea bete urre iduki eta ala ere, utzi lana egin dezagula astoak bagi&ntilde;a bezela!</p>
+<p>&raquo;Damugarria da, tiroak saiatsetan jo zuan bezela ez jotea garu&ntilde;etan!</p>
+<p>&mdash;Ixilik egon ari, ixilik, lotsagarri eta pizti gaizto ori!</p>
+<p>&mdash;Ez naiz ixilik egongo!</p>
+<p>&mdash;Ik galdu bear gaituk! Ik, bizia kendu bear diguk! Ire anai gizajoa joan zan ezkero, ez diguk utzi egun bat bakarra pakean igarotzen. Ay! nere biotzeko Inazio maitea! Ay! Ura etxian egon balitz, beste gauzarik izango uen.</p>
+<p>Eta ama gaixoak eman zion negarrari, Mikaela ere ala zegoan, eta aitak, itzik esateko almenikan gabe, makurtu zuan burua eta erori zitzaizkon begietatikan paparrera ur aleak ba&ntilde;o negar malko aundiago bi...</p>
+<p>&mdash;Madarikatua izan dedilla betiko, gurasoen begietatik negarra ateratzen duan umea!!!...</p>
+<p>Naigabez beterik gelditu ziran jan ba&ntilde;o negar egiteko gogo geiagorekin.</p>
+<p>&mdash;Juane! Juane! &mdash;deitzen zuan gizon batek etxe aurreko larra&ntilde;etikan.</p>
+<p>Juane alkandoran esku muturraz begiak igortziaz atera zan leiora.</p>
+<p>&mdash;Kaixo, Simon! Zer dakartzu onera?</p>
+<p>&mdash;Berri onak, Juane... Atzo Bergaran izan nintzan eta korriuan eman ziden Amerikako karta bat zuretzat &mdash;esan zuen Simonek&mdash;, txapeletikan karta ateriaz. Nola bart berandu etorri nintzan, ez nuan aterikan jo nai izan.</p>
+<p>Au aditu zutenean, danak arrapastaka joan ziran larra&ntilde;era, eta Juanek artu zuanian Simonek eskuetan zedukan karta, pozezko garraxi bat egin zuan, ezagutzean bere semearena zala. Fraiskak kendu zion eskuetatikan eta asi zan kartari laztanka paper guztiya negarraz bustiyaz.</p>
+<p>Beste ainbeste egin zuan Mikaelak, amak utzi zionian.</p>
+<p>Bakarrik Patxi zegoan sorbaldak jasoaz ezer ez balitza bezela...</p>
+<p>&mdash;Ba&ntilde;a... zertako dirade aspamentu oiek ez badakigu oraindikan, Inaziok artu dituan edo ez diruak?...</p>
+<p>Bai... Patxik, aitak esan zuan bezela, biotz gogorra zeukan. Ez zitzaion ajolarik jakitea bere anaia bizi zala. Bere guraso eta arrebaren biotzak betetzen zituzten poza sinisteko, jakin bear zuan bere anaia aberatsa ote zegoan. Baldin ala ez izanik, zer ardura zitzaion Patxiri bizirik edo illik egon zedilla bere anaia?</p>
+<p>Juanek bereganatu zuan azkenean karta, eta irikiaz beldurrez asi zan onela irakortzen...</p>
+<p>&mdash;Nere aita, ama eta anai arreba maiteak; zuengandikan alderatu nintzan ezkero, naigabea eta tristura izan dut lagun ordu guztietan. Ni, Amerikara joateko Donostian sartu nintzan ontziak, izan zituan bidean milla eta milla estrapuzu, ba&ntilde;a ala guztiaz ere urreratu gi&ntilde;an zorioneko Indietarako lurrera. Danon ustea zan seguru gi&ntilde;ala, ba&ntilde;a gure Jaungoikoak erakutsi nai zizkun oraindikan estutasun gogorrakoak... Beingo batean atera zan aize mot izugarri bat, agertu ziraden olatu batzuek mendiyak bezelakoak, illundu zan zerua, eta trumoi orruaz bat batera asi ziran orruntz onuntz, galda galdan dagoan burnia ba&ntilde;o gorriagoko o&ntilde;aztuak.</p>
+<p>&raquo;Gure ontzia, tantai luzeak aizeak eramanik eta tximistak zatiturik, zebillen ur ga&ntilde;ean, gazta&ntilde;a orbela ibiltzen dan gisa uda azkeneko aizearekin, noiz ba&ntilde;o noiz geldituko olaturen baten azpian geiago ez agertutzeko. Alako batean tarra tar tar tar egi&ntilde;az, banatu zan ontzi zarra, eta nerekin zijoazen lagunik geienak izkutatu ziraden itxasoaren barrenera geiago ez azaldutzeko. Nik orduan agur egi&ntilde;az mundu oni, artu nuan eskuetan, etxetik atera nintzan besperan nere ama gaixoak lepotikan zintzilika jarri ziraden Ama Birji&ntilde;ari Karmengoaren eskapularioa, eta biotz guztitikan mu&ntilde; egi&ntilde;az, eskatu nion gorde zezala, konbeni bazan, nere bizia, ez neregatikan baizik nere guraso maiteak izango zuten naigabe sami&ntilde;agatikan, eta salto egi&ntilde;az itxasora, eldu nion ur ga&ntilde;ean zebillen zur zar bateri.</p>
+<p>&raquo;Zur onen laguntasunaz, piskaka piskaka nijoan gerturatutzen itxas baztarrera, ba&ntilde;a nere indarrak aitu ziraden; eta itxasoa zan geroago eta asarreago. Kredo bat esan nuan eta banijoan begiak betiko itxitzera, ikusi nituanian neregandikan ez urrutira iru gizon erdi larrugorrian txalupa txiki batean, euren bizia galtzeko zorian neregana zetozela; zerura begiak jasoaz egin nuan azkeneko alegi&ntilde;a, eta ozta ozta eldu nintzan txaluparen saiatsera. Artu ninduen besoetan kristau on aiek, eta andikan laster jarri nuen nere o&ntilde;a, aspaldi ikusi ez nuan lur legorrian. Ba&ntilde;a, zein errukigarria!... Nere besoak zeuden etenik eta nere eskuak danak odolduak, zutirik egoteko gauza ez nintzala... Sekula, bear bezela, maitatuko ez ditudan gizon aiek, egin zuten angalla bat, etzan ninduen bertan, eta basorik baso eldu gi&ntilde;an erri txiki batera, nun euren ume bat banintza bezela eta ama batek bezin naitasun bigunarekin sendatu eta zaitu ninduen. Jaungoikoak sartu ditzala zeruan erdi erdian ai&ntilde; biotz ederreko gizonak!!</p>
+<p>&raquo;Piska bat indartu nintzanean, biotzaren erditik eskerrak emanaz nere ongilleari, joan nintzan nere osaba bizi izan zan errira.</p>
+<p>&raquo;Ikusi nituan osaba ditxosoan testamentarioak eta... ba&ntilde;a... ez dut nai zuen biotzik zauritu, gizon gaizto aiek neri esan eta egin zizkidaten gauzak esanaz.</p>
+<p>&raquo;Esan ziden gezurretan nebillen bat nintzala, eta burla eta farra egi&ntilde;az, bultzaka bota ninduen etxetikan...</p>
+<p>&raquo;Ba&ntilde;a gizonen artean billatzen ez badegu justiziarik, gure Jaungoikoak begiratuko du guregaitikan. Ala ba, esperantzarikan ez galdu, eta bien bitartean poztu zaitezte, besterik ezean, jakiteakin bizi naizela guztion onerako bear egiteko.</p>
+<p>&raquo;Ikusi ditut Anjelen adiskide batzuek ere, eta euren artean euskaldun bat, ze&ntilde;ek nai didan anai batek bezela.</p>
+<p>&raquo;Danak esan dire lagunduko diratela alegin guztian.</p>
+<p>&raquo;Denbora askotxo bearko dut gauza abek garbitzen, zergatik testamentarioak gogortuak daude guri ostutako armakin, eta diruak emen, or bezela, ate asko irikitzen ditu...</p>
+<p>&raquo;Uste dut, oraingo ezkonduak egongo dirala Anjel eta Mikaela, eta ez dago zer esanik biziko diradela aingeruak bezela, Don Jose eta andra Joseparen konpa&ntilde;ian; egunero gogoratzen naiz guztiokin... Eskumu&ntilde;ak Simon uztargi&ntilde;ari, Etxe-berriko Mariyari eta nerekin oroitzen dan guztiari, eta amak segi dezala erregutzen, oi duan bezela, Ama Birji&ntilde;a Piedadekoari, ni gorde nazan orain arte bezela.</p>
+<p>&mdash;Ai nere sabeleko puska!! &mdash;esan zuan Fraiskak eskuak gurutzatuaz&mdash;. Zenbat estutasun, eta zer gertutikan ikusi duan eriotza nere seme maiteak! Ba&ntilde;a Ama Santisimak gorde du.</p>
+<p>&mdash;Balio izan dionagatikan... &mdash;esan zuan Patxik.</p>
+<p>&mdash;Patxi! &mdash;esan zion aitak, sekula ba&ntilde;o aserreago&mdash;. Oiek ez dirade zure gurasoetatikan artu dituzun lezioak...</p>
+<p>&mdash;Gu erruki&ntilde;ak! &mdash;esan zuan Fraiskak negar egi&ntilde;az&mdash;. Ume onetxek kendu bear digu biziya eta bialdu bear du bere burua kalabozon batera!</p>
+<p>...Nola Anjel zegoan jaikitzen ez zala eritu zan ezkero, sarri bialtzen zuten Patxi aitak eta amak aren berri jakitera.</p>
+<p>Patxi zan geroago eta zakarragoa, eta ainbeste naigabe ematen zituan etxean egunero bere gurasoari ze, asi ziran osasuna galtzen beldur izateko moduan.</p>
+<p>Beste gauzarik zan Patxi apaizaren etxean! Izutuak zeuden aren argitasunarekin eta izketa legunarekin; eta andra Josepa eroturik Patxi ala ikusita, gertatu oi zion maki&ntilde;a bat mokadu gozo, eta erakusten ziozkan nun eta nola zeuden etxeko gauza guztiak.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>&mdash;V&mdash;</p><--</head>
+        </front>
+        <body>
+<p>San Migel egun batean, eguzkiak Irimo ga&ntilde;etikan iges egiten duan sasoiean, kee beltz mordo batek irteten zuan, Korosotikan Anzuelara datorren bideaz ga&ntilde;ean zegoan pagari batetikan, non se&ntilde;ale zan txendorren bat zegoala egosten... Eta ala zan izan ere.</p>
+<p>Ikasgin bat txendorrari betegarriya sartzen, eta beste iru edo lau aren lagunak, ari ziran pagari barrenean subill gertatzen beste bat sututzeko.</p>
+<p>Txendorraren garaiko aldean ikusten zan etxabola bat, iru pago adarrekin egi&ntilde;a, eta garoz azpitik eta zoiez ga&ntilde;etik estalia.</p>
+<p>Ikazgin aietako bat joan zan etxabolara, zirri bat egin zion etxabolako ate muturrian zegoan suari eta non zegoan gal gal gal egosten topinkada bat baba, jarri zuan talo burnia berotzen eta botarik ganbela batera ura, gatza eta arto iri&ntilde;a, asi zan zaplaka orea gertatzen taloak egiteko.</p>
+<p>Abek erre zituanian, jarri zituan eskuak tronpetan gisa, eta euu... u... u... egin zuan deadar luze bat... &laquo;Bai&raquo;... erantzun zioten lagunak, eta, utzirik aizkorak pago gerrietan sartuta, abiatu ziraden etxabola aldera, batek gerrikoa lotu, besteak zintz egi&ntilde;az...</p>
+<p>Jan zituzten baba eta taloak, erre zuten pipada bana, ba&ntilde;a ala ere i&ntilde;or ez zan mugitzen. Illundu zuan izarrak agertuaz, eta ari ziran ikazgi&ntilde;ak txutxu mutxu alkarri belarrira itz egi&ntilde;az; ezagun zuten soseguz ez zeudela...</p>
+<p>Gizon bat azaldu zan bideak ziar eta asi zan pagaria gora etxabola aldera... Ura ikusi zutenean jaiki ziraden ikasgi&ntilde;ak...</p>
+<p>&mdash;Guazen &mdash;esan zuan gizon arek&mdash;, ez dezagun denborarikan galdu, zergaitik nik goiz joan nai nikek etxera, i&ntilde;ork gauza txarrik sospetxa ez dezan...</p>
+<p>&mdash;Guazen ba &mdash;erantzun zuten ikasgi&ntilde;ak.</p>
+<p>&mdash;Ezer badaramazute? &mdash;esan zuan gizonak.</p>
+<p>&mdash;Ez da ezertxo're...</p>
+<p>&mdash;Or konpon, Mari Anton. Nik zeramazkiat bi pistoleta eta ka&ntilde;abeta.</p>
+<p>&mdash;Gu goaz lapurretara, eta ez eriotzarik egitera, esan zioten ikazgi&ntilde;ak...</p>
+<p>&mdash;Bakoitzak ondo datorkiona egin dezala &mdash;esan zuan pistoleta dunak&mdash;. Ba&ntilde;a... ez dezagun denborarikan galdu... Bidean esango dizuet zer egin bear degun...</p>
+<p>Beltzitu zituzten arpegiak iduri bustiarekin eta joan ziraden pagaria bera...</p>
+<p>&mdash;Zergatikan ez dator Mitxel? &mdash;esan zuan armatuta zijoanak.</p>
+<p>&mdash;Txendorra betegarri eske dago eta bear da bat emateko, &mdash;erantzun zuten ikasgi&ntilde;ak&mdash;. Ga&ntilde;era, aren lanak ez du gutxiago balioko, guk egiten degunak ba&ntilde;o.</p>
+<p>&mdash;Nola izan lezake ori?</p>
+<p>&mdash;Kantuan egi&ntilde;az...</p>
+<p>&mdash;Zertarako?</p>
+<p>&mdash;O&ntilde;atitikan datozenak aditu dezaten, eta bigar edo etsi okerrikan balitz, esan dezaten San Migel arratsean ikasgi&ntilde;ak pagarian zeudela...</p>
+<p>&mdash;Mutill azkarrak zerate!</p>
+<p>&mdash;Bai... eta egin dezagun aberatsak izateko bidea.</p>
+<p>Andikan ordu erdi batera zetozen Koroson barrena bi gizon, elatzean zintzilika dagoan abarka ba&ntilde;a igarragoak, eta ukalondotatikan ere berriketa zerioela. Zetozten bakoitzak bere kana bizkarrean zutela, eta loturik aien puntan aspandar pieza laurden bana.</p>
+<p>Pagari goenean aditzen zan kanta bat esaten zuana.</p>
+<p><hi rend='Italic'>Goiz, eguardi eta arrats</hi></p>
+<p><hi rend='Italic'>beti porru salda,</hi></p>
+<p><hi rend='Italic'>kopatsu nai izatea</hi></p>
+<p><hi rend='Italic'>arrazoi ez al da?</hi></p>
+<p><hi rend='Italic'>burrun burrun bun</hi></p>
+<p><hi rend='Italic'>kopatsu nai izatea</hi></p>
+<p><hi rend='Italic'>burrun burrun bun</hi></p>
+<p><hi rend='Italic'>arrazoi ez al da?</hi></p>
+<p>&mdash;Mitxel deabru orrek ez dik beste ametsik, kapa&ntilde;eri burla egitea ba&ntilde;o &mdash;esan zuan batek.</p>
+<p>&mdash;Eori ere ez aiz ba ixilikan egotekoa &mdash;esan zuan lagunak&mdash; zergatik erantzuten ez diok, jaki&ntilde;ik, ik dakizkan bezela, itxu batek a&ntilde;a kanta...?</p>
+<p>&mdash;Aspaldi onetan joan zaizkidak kantatzeko gogoak Don Josen etxean igarotzen danarekin.</p>
+<p>&mdash;Arrazoia duk; txit damugarria duk indianoari gertatu zaiona.</p>
+<p>&mdash;Anjel gizajoa! Sinistu zak... Baldin da baldin ura iltzen baduk, gure Manuri ez zaiok sekula begirikan legortuko.</p>
+<p>Berak eman ziozkan lenbiziko bularra eta nai zioagu geure seme bat balitza bezela. Eta Don Jose gizajoa? Ikusiko duk, Anjel iltzen bada, laster jarraituko ziok ondoren...</p>
+<p>Ala itz egi&ntilde;az bazijoazen kapa&ntilde;ak eren bidean, eta Mitxel gelditu zan geroago eta gogoazgo kantari...</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>&mdash;VI&mdash;</p><--</head>
+        </front>
+        <body>
+<p>San Blasko apaiz jaunaren etxea zegoan intxaur arbolaz inguratua eta eleizatikan ogeiren bat kana bezela, zan arlanduzkoa eta ago aldera zedukan baratza eder bat.</p>
+<p>Alde onetaraxe zeuden lo egiteko aposentuak eta bai ere sukaldea. Sukaldeko leioan azpian zegoan etxetxo bat, nun idukitzen zituzten zimaurraz ga&ntilde;era, atxur, laia eta ostiango joan etorriak.</p>
+<p>Denbora aretan oitzen zuten nola pobreak ala aberatsak goizean goiz jaikitzea, eta orrengaitikan, arratseko zortzirak ezkero aundi eta txiki egon oi ziran ankaz gora.</p>
+<p>Lenbiziko loa izan oi da gozoena eta astunena... Don Jose... lo bete betian zegoan, andra Josepa ere bai... Anjel bakarrikan zegoan ernai, zergatik nai ezak loa gal erazitzen zion.</p>
+<p>Zakurrak okolluan asi ziraden zangaz...</p>
+<p>&mdash;Osaba! &mdash;deitu zion Anjelek Don Joseri alboko aposentura.</p>
+<p>Apaizak ez zion erantzun... Zakurrak ez ziraden ixiltzen.</p>
+<p>&mdash;Osaba! Osaba! &mdash;deitu zion bigarren aldiz illobak.</p>
+<p>&mdash;Zer nai duk, Anjel?</p>
+<p>&mdash;Pintok eta Leonek estu zaunkatzen dute eta iruritzen zait etxetxoko tellatuan nor edo nor dabillela.</p>
+<p>&mdash;Bai... aizeak erabilliko zituk tellak eta zakurrak orrengatikan zaunkaz ariko dituk.</p>
+<p>Leon eta Pinto ari ziran geroago eta garratzago, norbaitek larrua kentzen bazioten bezela.</p>
+<p>&mdash;Osaba! &mdash;deitu zuan berriro Anjelek&mdash;. Uste dut sukaldeko leioari bultza egiten diotela.</p>
+<p>&mdash;Ez ari txorua izan, Anjel! &mdash;esan zion Don Josek erdi lotan&mdash;. Aizian otsak dituk oik....</p>
+<p>&mdash;Ikusi egingo degu ori &mdash;esan zuan Anjelek bere artean, eta zutikan egoteko indarrik ez iduki arren, jaiki zan ogetikan eta ixil ixilikan iriki zuan leioa, ba&ntilde;a ai&ntilde; illun zegoan eta alako aizerik zebillen eze, ez zuan ez ezer ikusi eta ez ezer aditu.</p>
+<p>Itxi zuan leioa eta bazegoan oe aurrean...</p>
+<p>Pinto eta Leon ari ziran geroago eta estuago.</p>
+<p>Anjelek aditzen zituan len ba&ntilde;o obeto tella otsak eta sukaldeko leioari egiten ziozkaten bultzatuak.</p>
+<p>&mdash;Ez, ikusi bear dut zer dan ori &mdash;esan zuan bere artean, eta eskopeta artuaz joan zan sukaldera, nun zegoan argi illun bat, katillu baten olioaz jartzen zuana egunero andra Josepak, Anjel eritu zan ezkero.</p>
+<p>Anjel sukaldera eldu zanean, rau, eregi zan bat batera leioa eta arpegia eta eskuak beltztuta zeduzkan gizon bat agertu zan bertan pistoleta eskuan zuala.</p>
+<p>Anjelek apuntatu zion bere eskopetarekin, ba&ntilde;o tiroak irteteko astirikan gabe erori zitzaion eskuetatikan eskopeta, zatitua lapurrak tiratu zion pistoletazoarekin.</p>
+<p>Lapurra, beste iru ondoren zituala, sartu ziran salto batian barrura; eldu zioten danen artean Anjeli, bota zuten lurrera, estali zioten aoa zapi batekin eta lotu ziozkatzen eskuak eta o&ntilde;ak... Beste ainbeste egi&ntilde;ik Don Jose eta andra Joseparekin, artu zituzten diru eta gauzarik onenak eta balio aundienekoak. Ongi ezagututzen zituan lapur aietako batek etxe aretako zokoak, bada zuzen billatu zituzten, batere okerrikan gabe, ondo izkutatuak zeuden ontzako zarrak eta beste gauza eder asko...</p>
+<p>Bete zituzten iru saku, eta, nola ala zamatuaz ez zan errez leiotikan iges egiten, atera ziran atariko ate zabaletikan.</p>
+<p>Auzoak aditu zuten lapurrak egin zuan tiroan otsa, eta gogoraturik gauza okerren bat, zebiltzan illunean, batzuek makillakin eta zuanak eskopetarekin, non izan ote zan ots ura, lapurrak agertu ziradenean sakuak bizkarrean zituztela.</p>
+<p>&mdash;Geldi or! &mdash;deadar egin zuten lapur billa zebiltzanak, ba&ntilde;a aiek orpoak jasoaz asi ziraden igesi.</p>
+<p>Dimbi! damba! aditu ziran tiro bi, eta lapur bat iztarrean eritua erori zan musuz aurrera... Beste irurak salto egi&ntilde;ik errekatxoa, esmendatu ziran an gertuan zegoan txara baten, eta txara ziar joan ziran Jaungoikoak daki nora...</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>&mdash;VII&mdash;</p><--</head>
+        </front>
+        <body>
+<p>Lapurreta izan zanetikan zortzi illabetera, udaberriko arratsalde eder batean, zijoazen D, Jose eta Anjel Etxe-alai aldera.</p>
+<p>Eskopeta ordez zeramaten esku makilla lodi bana, eta aien arrimoan pauso ematen zuten nekez, bide txiorra gora.</p>
+<p>Ezin ezagutu zitzakean apaiz jauna. Aren lengo arpegi argi eta ederra oso narrastua zegoan, eta bere begirakuna tristean ikusten ziran aren animako naigabeak... Ez zegoan asko obeki Anjel; gizajoaren arpegian makurra eta gorputzaren argaltasuna ikustean i&ntilde;ork ez zion astebeteko bizirikan emango.</p>
+<p>...Apaiz gizajoak, bera laguntasun premian arkituagatikan, lagundu eta animatutzen zuan bere illoba.</p>
+<p>&mdash;Anjel gizajoa! Animatua adi &mdash;esaten zion&mdash;. Ez duk ikusten zer arratsalde ederra?... Muga guztiak loraz eta arbola danak ostoz betetzen ari dituk, eta adar bakoitzean txori bat ari duk kantari... Juanak... joan... Oroipen mikatzak aztu egin bear dituk. Zer nai duk aposta, egun gutxi barru ezer izan ez bau bezela agoala?</p>
+<p>&mdash;Ai osaba! Egia da, arbolak, zelaiak, txoriak eta inguru guztiak farrez eta kantari daudela, ba&ntilde;a nere biotza negarrez dago.</p>
+<p>&mdash;Lenago ere esan diat, juan zana joan uen. Orain egin bear duk igarotakoak aztu eta len bait lasterren sendatzera... Oraindikan gaztea aiz eta denboraz ezkonduko aiz Mikaelarekin eta danak biziko gaituk ongi.</p>
+<p>&raquo;Zer! Ez al aiz gauza Etxe-alaira&ntilde;o joateko?</p>
+<p>&mdash;Beldur naiz, osaba, elduko ote naizen, nik txit opa izanagatikan...</p>
+<p>&mdash;Saiatu gaitezen ba... Mikaela gaixoak ez zidukak, gu besterikan, nori begiak itzuli, eta i&ntilde;ola al degula, ez zioagu utzi bear bakardadean, bere anai gaiztoak ematen diozkan tratu gogorraren artean.</p>
+<p>&mdash;Bere anaia! Ai osaba! Ez egonik lurrean justiziarikan alako pizti gaiztoarentzat? Non da Jaungoikoarena agertu gabe?</p>
+<p>&mdash;Anjel! Jaungoikoa justua duk eta beti zeduzkak gogoan gizonak egiten ditugun gauza txarrak eta onak. Patxik... naigabeak emanaz kendu ziek bizia bere gurasoari, eta, sinistu zak, lentxo edo geroago arkituko duk merezi duanarekin.</p>
+<p>...Onela izketan eldu ziraden osaba illobak Etxe-alaiko atari aurreko intxaurretara.</p>
+<p>Orduantxe zetorren Mikaela barrenetikan, mantalean artalea arturik eta purra esanaz larra&ntilde;ean aztarka zebiltzan egazti batzueri...</p>
+<p>Gaixoa zegoan beltzez jantzia!</p>
+<p>Lutua zedukan gorputzean!!</p>
+<p>Lutua biotzean!!</p>
+<p>Alegi&ntilde;ak egin zien osaba illobari sartu ziteztela sukaldera, ba&ntilde;a aiek naiago izan zuten eseri atari aurrean zegoan li&ntilde;a arri baten ga&ntilde;ean, zergaitikan ez zuten indarrikan eskallerak gora ta bera ibiltzeko.</p>
+<p>&mdash;Eta Patxi? &mdash;galdetu zion apaizak.</p>
+<p>&mdash;Goizean Bergarara joan da, jauna, &mdash;erantzun zion Mikaelak.</p>
+<p>&mdash;Artoak ereiteko egunetan gaude, eta oraindikan ez dezute ankarik soroan sartu, ikusten dedanez.</p>
+<p>&raquo;Zer asmo du zure anaiak nekazaritzeari ala atzera uztean?</p>
+<p>&mdash;Ai Don Jose! Ez dakit nik zer pasatzen dan gure etxean...</p>
+<p>&raquo;Bi edo iru bidar izan gerade deituak Bergarara Patxi eta ni aitortzeko, beorren etxean egin zan lapurreta arengatikan kartzelan sartu zuten ikazgi&ntilde;ak zerbait esanik.</p>
+<p>&raquo;Aspaldi onetan ez da i&ntilde;or gurekin oroitzen, ba&ntilde;a ala ere nere anaia joaten da Bergarara egun biz bat... Ez dakit nik zer esan eta zer pensatu, eta daukat erru gaizto bat, gauza onetxek ez ote zituan nere guraso maiteak galdu.</p>
+<p>&raquo;Ai nere aita eta ama biotzekoak! &mdash;esan zuan Mikaelak negarra txirrioan zeriola...</p>
+<p>&mdash;Ia, ba, Mikaela... sosega zaite piska bat &mdash;esan zion apaizak...</p>
+<p>&raquo;Konformidadea da, kristau guztiak degun zor aundi bat. Zure gurasoen bizia Jaungoikoana zan eta berak kendu zien.</p>
+<p>&raquo;Aienatu bear gera gure Jaungoikoak egiten duanagatikan?</p>
+<p>&raquo;Pazientzia, ba, Mikaela, eta esan egiguzu, zerk, zure ustetan, il zituan zure guraso zorionekoak...</p>
+<p>&mdash;Izango dira sei edo zazpi illabete &mdash;esan zuan Mikaelak&mdash; asi zala etortzen gabaz gure etxera Patxikin itz egitera itxura gaiztoko gizon bat...</p>
+<p>&raquo;Bai nere gurasoak eta bai ni, arritu eta ikaratutzen gi&ntilde;an gauza arekin.</p>
+<p>&raquo;Arrats batean, oeratu gi&ntilde;anetikan laister, ikusi nuan nere aita, jaikirik oetikan, zijoala oi&ntilde; puntetan Patxin aposentuko atera. Maiz oi zuan bezela, orduan ere zegoan nere anaia len esan dedan gizon arekin, atea barrendik giltzaz itxirik.</p>
+<p>&raquo;Ordu laurdenen bat egon zan aita ate ondoan, eta biurtu zan berriz oera...</p>
+<p>&raquo;Andi puntuko sentitu nituan nere aita eta ama gaixoak zotinka eta negarrez urtutzen zeudela... ba&ntilde;a ixilik, ni lo nengoalako ustean.</p>
+<p>&raquo;Biaramon goizean jaiki ziradenean ozta ozta zebiltzan zutik, eta esan zitzakean igaro zutela gaixo aldi izugarriren bat, eta zerbait izan bear zuan, zergatikan andik iru illabetera il zan nere ama maitea, eta illabete geroago itxi zituan betiko begiak nere aita gizajoak...</p>
+<p>&mdash;Egia balitz &mdash;esan zuan Anjelek bekokia joaz esku zabalakin&mdash;, egia balitz neri orain bururatu zaidana...</p>
+<p>&mdash;Ixilikan egon ari, Anjel, &mdash;esan zion osabak&mdash;, alako gogorapenik egin gabe... Ori egia balitz infernuak ere ez likek artuko!</p>
+<p>Mikaelak ez zion igarri osaba illobak esan nai zutenari...</p>
+<p>&mdash;Eta... zer bizimodu egiten dezu, Mikaela gaixoa, gurasoak il ziraden ezkero, zure anaiarekin? &mdash;esan zion Anjelek.</p>
+<p>&mdash;Zer bizimodu esaten du! Sekula ez diot arpegi argirik ikusten.</p>
+<p>&raquo;Sekula ez dit itzik egiten, eta maiz ostikoka eta golpeka zauritzen nau &mdash;esan zuen neska gaixoak, begiak igortziaz amantalaren ertzakin...</p>
+<p>&mdash;Puzuni gaiztoa! &mdash;esan zuan Anjelek ukabillak estutuaz&mdash;. Ni egongo naiz berakin eta nik esango dizkiot merezi dituanak.</p>
+<p>&mdash;Ez, ez, ez, Jaungoikoaren amorioagatikan, ez ezer esan Patxiri &mdash;esan zuan Mikaelak beldurrez ikara&mdash; zergatikan ilko ninduke baleki nik ezer esan dedanikan...</p>
+<p>&mdash;Ondo da, ondo da, &mdash;esan zuan Don Josek.</p>
+<p>&raquo;Iduki zazu pazientzia egun batzuetan, Jaungoikoak emango dio osasuna Anjeli eta orduan nere illobak aterako zaitu otso gaizto orren atzamarretatikan.</p>
+<p>&mdash;Jaungoikoagatikan bada, ixildu gaitezen!... An nun datorren nere anaia...</p>
+<p>Alaxe zan. Orduantxe zetorren Patxi etxe azpiko langatikan aurrera.</p>
+<p>Danak ixildu ziran alkarri begiratuaz.</p>
+<p>Patxi, ikusi zituanian Don Jose eta Anjel, piska bat astoratu zan, zergaitik beldur zan zerbait esango ziotela merezi zuan bezela, ba&ntilde;a laister bereganatu zan eta asi zan kopeta illuntzen.</p>
+<p>&mdash;Nondikan nora abil, Patxi? &mdash;esan zion apaizak.</p>
+<p>&mdash;Simonenian izan naiz lengo egun batean agindu nion uztarriya egin ote duan.</p>
+<p>&mdash;Denbora asko bear izan duk emendikan Simonenera joan etorria egiten.</p>
+<p>&mdash;Simon orrek ba berakin bazkaltzeko pakerikan ez dit eman eta ala gelditu naiz.</p>
+<p>Apaizak eta Anjelek sinistu zioten, eta eren artean gogora zuten, Mikaela deskuidatu egingo zala esatean Patxi Bergaran zala.</p>
+<p>&mdash;Eta... zer asmo daukak, Patxi? &mdash;esan zion Don Josek&mdash;. Auzera danian artuak erein zituztek, eta ik oraindikan zoi bat bakarrikan ez duk itzuli. Zer egiteko asmoa duk?</p>
+<p>&mdash;Ez erein... da nere asmoa...</p>
+<p>&mdash;Ixilikan ago alakorikan esan gabe! &mdash;esan zion Don Josek.</p>
+<p>&mdash;Etxea eta lurrak saldu, eta O&ntilde;atira nua bizi izatera nere arrebarekin. Onen balioarekin jarriko dut denda koxkor bat, eta ogitarako lain aterako al degu; eta ez beti emen lertutzen aritu taloak ta babak jan ezi&ntilde;ikan...</p>
+<p>&mdash;Baztarra saldu! &mdash;esan zuan apaizak zerura begiratuaz&mdash;. Etxea saldu esan duk! Ez duk posible, Patxi! Ez diat ikusi artian sinistuko ain biotz gogorra eta ain buru makurra dekanikan...</p>
+<p>&raquo;Ire aurrekoak jaio eta bizi izan ziran etxea! Ire gurasoak jaio, bizi eta il ziraden etxea! Eori jaio aizen etxea! Patxi!! Edo txantxetan abil, edo erotu egin aiz...</p>
+<p>&mdash;Ez bata eta ez bestea &mdash;esan zuan Patxik, asiyaz asarratzen...</p>
+<p>&raquo;Zer sartu daukate erok i&ntilde;oren guazatan? Ni naiz anaiarik nausiena, nere aita il zan testamenturikan egin gabe, eta nik egin nezake etxe onekin gogoak ematen didana.</p>
+<p>&mdash;Etxea eta lurrak, ireak bezela dituk ire anai arrebanak...</p>
+<p>&mdash;Nik eman ezkero bakoitzari aginduak dauzkaten bostegun dukatak, ez du i&ntilde;ortxok zer ikusirikan.</p>
+<p>&mdash;Zer negargarria! Zer gaiztakeri! &mdash;esan zuten batera osaba illobak, Mikaela gaixoa, Patxin aurrean begiak jasotzen atrebitu ezi&ntilde;ik, negarrez zegoan bitartean.</p>
+<p>&mdash;Esan dut lenago ere, nik egingo dut gogoak agintzen dirana &mdash;esan zuan Patxik geroago eta asarreago&mdash;. Zaitu bezate euren etxea eta ez auzokoa, zergatik i&ntilde;oren buruko mi&ntilde;ak, astoak iltzen ditu.</p>
+<p>Patxi jiratu zan beste aldera bizkarra jasoaz, eta sartu zan etxean kantatuaz:</p>
+<p><hi rend='Italic'>Nik badut liburutxo bat</hi></p>
+<p><hi rend='Italic'>duana esaten,</hi></p>
+<p><hi rend='Italic'>i&ntilde;or ez dedilla asi</hi></p>
+<p><hi rend='Italic'>auzo gobernatzen.</hi></p>
+<p>&mdash;Mikaela! &mdash;esan zion apaizak&mdash; atoz gurekin. Iges egin ezazu anima galdu orrengandikan, eta ez zaiozu geiago arpegira begiratu.</p>
+<p>&mdash;Ai Don Jose! Ori egingo banuke, ez nuke ordubeteko bizirikan &mdash;esan zuan Mikaela gaixoak, beldurraz ikara apaizangana arrimatuaz.</p>
+<p>&mdash;Mikaela! Mikaela! &mdash;ots egin zuan Patxik sukaldetikan&mdash;. Or ez zaizu ezer ere galdu! Or ez daukazu zer egi&ntilde;ikan!</p>
+<p>&mdash;Ez zaiozu kasorikan egin, eta atoz, atoz gurekin, &mdash;esan zioten Don Josek eta Anjelek neska gaixoari esku muturretikan elduaz.</p>
+<p>&mdash;Ez, ez, Ama Santisimarengatikan! Ikusiko balu ni erokin nuala, egun pauso eman ba&ntilde;o lenago, ilko gi&ntilde;uzke irurak. Agur! Agur! Obeitu egin bear diot! Bestela, ni errukiena &mdash;esan zuan Mikaelak Don Joseri eta Anjeli esku banatatikan elduaz eta belaunak ikaraz zituala. Eta sartu zan barrura negarraz eta atzera begiratuaz.</p>
+<p>Osaba illobak asi ziraden bide txiorra bera, itzik egiteko almenikan gabe eta noiz ba&ntilde;o noiz negarrak ertengo.</p>
+<p>Galtzadako zubitxora eldu ziradenean, eser ziran atsegitera...</p>
+<p>Tan, tan, tan, ari zan joten Abe Maritakoa San Blasko kanpaia. Apaiza eta Anjel jarri ziran buru utsean eta errezatu zituzten iru Abe Maria...</p>
+<p>&mdash;Sinistu beza, osaba, &mdash;esan zuan Anjelek errezatu zutenean&mdash;. Sinistu beza; Patxik salduko du etxea, eta ez da konbeni beste eskuetara aldatu dedin Etxe-alai. Orixe erosten enpliatuko ditut lapurrak utzi zizkidaten diru apurrak, eta, Inazio datorrenean, Jaungoikoak nai badu etorri dedin... etorri dedilla aberats, edo etorri dedilla arditikan gabe... esango diot: Inazio! Or daukazu zure gurasoen etxea, zure anai madarikatuak saldu zuana; eta Jaungoikoak nai izaten badu, Mikaela eta ni ezkondu gaitezen, Etxe-alain biziko gera Inazio etorrera arte, eta gure alegi&ntilde;ak eta gure izardiak jantziko ditu orain gorri dauden lur ederrak...</p>
+<p>&mdash;Ori, Anjel, ori! &mdash;esan zion osabak lepotikan elduaz&mdash;; lurraren ga&ntilde;ean ez duk ire biotza ba&ntilde;o ederragorikan...</p>
+<p>&mdash;Simon uztargi&ntilde;a ez da, an datorren ura? &mdash;esan zuan Anjelek.</p>
+<p>&mdash;Bai... bera duk &mdash;esan zion osabak&mdash; eta ez dik etxetikan datorren antzikan. Gezurren bat esan dik Patxik!</p>
+<p>Simon jaietako arropakin eta asto bat aurrean zuala eldu zan zubira.</p>
+<p>&mdash;Arratsalde on, edo gabon onezkero, Don Jose konpa&ntilde;iarekin &mdash;esan zuan Simonek, astoari issssooo esanaz.</p>
+<p>&mdash;Kaixo, Simon! Nondikan zatoz?</p>
+<p>&mdash;Or... Tolosa aldian izan naiz uztarri batzuekin.</p>
+<p>&mdash;Eta ezerki egin da?</p>
+<p>&mdash;Ez dut ba gauza aundirikan egin, jauna. Bi egunian an egon aiz, eta erekin atzera ez etortzeagatikan, utsian eman ditudala kontu, ardit baten irabazirikan gabe.</p>
+<p>&raquo;Eta zer egingo nuan? Gaurko egunean etxetikan kanpora dabillenak, poltsa beti eskuan bear du, eta ala ere, or be alde orretan, zai zai daude noiz bat artuko, larrutzeko; nik be&ntilde;epe&ntilde; oingo biajian ix-ixilik ederrak artu ditut; esaten diot, gaurko egunian ezin ankarikan atera lezake etxetikan...</p>
+<p>&raquo;Eta eurok, pasiuan izan dira? Ondo alaxe, ondo! Konbeni zaizka orlako ibili batzuek Don Anjeli...</p>
+<p>&mdash;Bai ba... Ustez uste gabe, Etxe-alaira&ntilde;o eldu gera.</p>
+<p>&mdash;Hola! Hola! Poliki izan da...</p>
+<p>&raquo;Eta... zer dio jende arek? Inazion berririkan izan dute?</p>
+<p>&raquo;Egun urte badira ikusi ez ditudala, ez Patxiko eta ez Mikaela...</p>
+<p>&mdash;Zori gaiztoan, ez dute ba Inazion berririkan.</p>
+<p>&mdash;Bai, Inazio etxian balego, beste ollarreak egingo luke kukurruku Etxe-alaian... Mundu onetan ez da izango amarik, Patxi ori ba&ntilde;o aur okerragorik jaio duanik, eta bestela galdetu deiotela beran arreba zintzoari eta beran bazterrari.</p>
+<p>&raquo;Ay! Juanek eta Fraiskak, zeruan egon ditezela, Juanek eta Fraiskak jasoko balute burua eta orko joan etorria ikusi, beriala lirake berriz illik.</p>
+<p>&mdash;Badakizu Patxi etxea saltzera duana?</p>
+<p>&mdash;Aitaren eta Semearen! Zer esaten du, Don Jose? &mdash;esan zuan Simonek si&ntilde;atuaz.</p>
+<p>&mdash;Aditzen dezuna...</p>
+<p>&mdash;Ba! Ezin sinistu lezake orrelako erokeririkan! Etxea saldu, Jaungoikoan izenean!... Ez nuke salduko nik nerea, mundu onetako urre guztiagatikan ere... Zer da gauza oberik, esan al izatea ba&ntilde;o egunero: sagar au nere aitak sartua da; intxaur ori, nere aitonak; or egoten zan nere amona goruetan; an nere ama, gure praka zarrak konpontzen; eta beste alako milla eta milla gauza, nik ezin esan nitezkeanak?</p>
+<p>&raquo;A! Patxi pardel! Baldin Inaziok baleki zer igarotzen dan bere etxean, laister litzake etorri eta galerazi Patxiri astakeri ori egitea. Erakutsiko lioke ark, norekin eta nola dabillen, Patxi alfer orri.</p>
+<p>&mdash;Baaa... Inazio gizajoak ikusi ez dezan bere gurasoen etxea i&ntilde;oren mende, nai du nere illobak erosi...</p>
+<p>&mdash;Ongi asmatua! Oraintxe erori naiz astotikan, Don Jose, &mdash;esan zuan Simonek, irribarre egin eta begiak ki&ntilde;atuaz&mdash;. Orrela egia da Mikaela eta Don Anjel ezkontzen dirala? Urte askotarako eta osasunarekin izan dedilla, ni uztargi&ntilde;a naizen bezela.</p>
+<p>&raquo;Urre puska balitz ba&ntilde;a geiago balio du neskatxa orrek. Ama ber-bera atera da. Eta zer bizimodua ematen dion gaixoari perdulario orrek! Zer gauza beltzak ikusten diran mundu onetan!</p>
+<p>&mdash;Ba&ntilde;a nola Anjelek, lapurtua izan arren, aberatsan otsak dituan, Patxik, dadukagu bildurra, asko paga erazi naiko diola.</p>
+<p>&mdash;Arrazoia du, Don Jose. Eta nork! Patxik!... Diruagatikan salduko luke bere odola ere.</p>
+<p>&mdash;Ba... orretako egin bear diguzu mesede bat, Simon.</p>
+<p>&mdash;Nere animarekin eta nere biziarekin, jauna. Esan beza zer egin bear dedan.</p>
+<p>&mdash;Zeorrentzat balitza bezela, Etxe-alai erosi.</p>
+<p>&mdash;Ez beza geiago itzik atera. Bigar, Jaungoikoak nai badu, meza ondoan ga&ntilde;erakoa itz egingo degu.</p>
+<p>&mdash;Eskerrak milla, Simon.</p>
+<p>&mdash;Zer esker eta zer... eskerrak izan oi dira apaiz-etxekoan...</p>
+<p>&raquo;Barkatu beit, Don Jose..., astekeria bat ia esan nuan eta... Ainbestekin gabon, eta bigar arte. Nai dute etxera&ntilde;o lagundutzea?</p>
+<p>&mdash;Ez, Simon, eskerrik asko, eta eskumu&ntilde;ak emazteari.</p>
+<p>&mdash;Asko poztuko da... Eman beiote nere izenean ere andra Josepari.</p>
+<p>&mdash;Bai, eta ga&ntilde;era esango diogu, bigar zu zatozenerako, gertu iduki ditzala sartainkara bat urdai azpiko eta pitxar bat txakoli&ntilde;.</p>
+<p>&mdash;Je, je je! Ez dira gaizki etorriko, jauna.</p>
+<p>&mdash;Bigar arte ba, Simon.</p>
+<p>&mdash;Ongi bijoaz.</p>
+<p>&mdash;Uztargi&ntilde;a joan zan bere bidean, eta osaba illobak asi ziraden etxe aldera arrimatzen, iguzkiak bezin argi egiten zuan idargia lagun zutela.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>&mdash;VIII&mdash;</p><--</head>
+        </front>
+        <body>
+<p>O&ntilde;atiko kale bazter bateko etxe illun batean zegoan denda txiki bat. Atean aurrez aurre zegoan mostradore edo mai beltz luze bat ez gauzaz betea.</p>
+<p>Denda aretan sartutzen ziradenak gutxik ezer erosten zuten...</p>
+<p>Aruntz zijoazenak joaten ziraden dirua artu edo dirua ematera, ba Patxin tratabiderik maitiarena zan, estu estu arkitzen ziraden nekazari gizajoari odola zurrut egitea, emanaz dirua ogei errial bakoitzeko lauren irabaziakin illean.</p>
+<p>Mai aren ostean egon oi zan Patxi, edo diru kontatzen edo atzamarrak kontatuaz konturen bat zuzentzen. Noizik be&ntilde;ean deitzen zuan an ostean zegoan ate txiki batetikan, eta etortzen zan barrendik Mikaela, liburuan jartzera anaiak esaten ziona.</p>
+<p>Ba&ntilde;a... Mikaela onek ez zuan Etxe-alaiko neskatxa eder aren antzikan; zegoan guztiz arlote jantzia, oso argaldua eta aren lengo larrosa kolore ederrak biurtu ziraden buztin kolorekoak.</p>
+<p>Gaixo arentzat ez zegoan Jesus beteko atsegi&ntilde;ik, beti lanean, sekula ez arpegi argirik ikusi eta ez itz bigun bat aditu gabe bere anaiagandikan. Errukigarri aren sariya izan oi zan gosea, itz gogorrak, eta maiz belarrondokoak eta ostikarak. Mikaela gaixoak ez zuan beste pozik, ez bada, bakarrik arkitzen zanean, negar eta negar egitea, oroituaz bere biotzeko guraso eta Inazio maitearekin, eta baita ere Anjelekin. Ainbeste negarrekin begiak zeduzkan gaixotuak, ba&ntilde;a ala ere gaixo aren ezpa&ntilde;etatikan ez zuan ertetzen ai ene batek bakarrik. Patxin begirakunak uzten zuan beldurrez ikara eta non zegoan ez zekiala. Beldur onekin baliatuaz egiten ziozkan madarikatu arek, zakur amorratu bati opa bear ez zaizkonak, eta ikusirikan bere arreba arriari negar eragiteko estaduan, orduan eta gogorrago izaten zan berarekin...</p>
+<p>Bai! Aretxek igarotzen zuan egiazko martirioa!</p>
+<p>Illun arrats batean sartu zan Patxin dendan, arpegia eta eskuak beltzak zituan gizon bat, eta, ez gabon eta ez berri on, eseri zan zokoan zegoan aulki batean.</p>
+<p>Ura ikustean, jaiki zan Patxi salto batean eta itxi zuan giltzaz dendako atea; urrena sartu zan barrenera, eta, ikusirik arreba bere lanean zebillela, itxi zuan osteko ate txikia ere, eta, eseri zanean bere lekuan, esan zuan...</p>
+<p>&mdash;Zerk ekarri au onera, Mitxel?</p>
+<p>&mdash;Deabruak eraman nazala, ez i ikusteko gogoak, Patxi, baizikan etorri nauk iri esatera, txoriya aspertu dala kaiolan egotez, eta esan zidak, ze, egiten ez baditugu bideak ura andikan laister ateratzeko, denbora pasa kantuan asiko dala, eta aren kantuan otsera bat edo bat joango zaiola lagun egitera.</p>
+<p>&raquo;Ni an egon naizen artean, ainbestean ere egon duk, ba&ntilde;a ni andik atera nintzan ezkero, eskerrak kapai&ntilde;ak egin zuten deklarazioari, esanaz ni San Migel arratsean Istingagorriko pagariyan egon nintzala kapa&ntilde;ari burlaka kantuan, gizajo ura geroago eta asarreago ziok, eta esaten dik, agindu ziozuten bezela andikan ateratzen ez badezute, dana zan bezela garbi esango duala.</p>
+<p>Patxik, ukabillarekin maia joaz eta birau bat botaz, esan zuan:</p>
+<p>&mdash;Eta, zergatikan bota bear zaizkit neri txalma guztiak, izanik danak okerra egin genduanak?</p>
+<p>&mdash;Poliki itz egizu, konpa&ntilde;ero, poliki. Nik egin diat nere eskota. Zuek eman zizkidazuten ogei ontzako ziki&ntilde;agatikan, an egon nauk ogei astean itzalean, eta zuek, urre eta zidarrezko gauzan ga&ntilde;era, berregun bana ontzako gorde zenduztenok, ez dezute oraindikan ankarik sartu iguzki gutxiko aposentuan. Besteak ezkutatu ituan deabruak zekik nora, eta orain i bakarrik aiz beldur izan bear duna... badakik, untura oriekin kaiolako atea irikitzen ez badiok txoriyari iges egin dezan.</p>
+<p>&mdash;Sinistu nazak, Mitxel! Txanponikan ez zidukat...</p>
+<p>&mdash;Beste zakur bati ezur ori, Patxi! Patxi! Kontuz ibilli ari! zergatik Anzuelan asi duk zurru murru bat on aundirikan egingo ez dirana.</p>
+<p>&mdash;Eta, zer ajola zaidak neri Anzuelarran berriketangatika?</p>
+<p>&mdash;Ez dakik, Patxi, Pepeten ipuia?</p>
+<p>&mdash;Ez diat nai ere jakiterik.</p>
+<p>&mdash;Ba&ntilde;a... nola izan lezakek ik ez jakitea, bularreko aurrak dakitenean zer igaro zitzaion Pepete dontsuari?</p>
+<p>&mdash;Mitxel, utzi zaiek kopla oieri, ez zeukatek zer ikusirikan nerekin eta...</p>
+<p>&mdash;Ez dutela zer ikusirik irekin? Aitu zak! Aitu zak! eta aurki esango dirak daukaten edo ez.</p>
+<p>&raquo;Pepete uen Leazpiar bat, eta ik egin dean bezela, saldu ziran bere etxea, eta bizi uen, jan, eran eta josta, errege bat ba&ntilde;o egokiago... Ba&ntilde;a, atera eta ez sartu agertu uen kutxatillaren soruba, eta joan zituan deabru etxera Pepeten jan eranak eta jolasak. Ondo nai eta ezin izan, gizajo ura ari uan beti burua nekatzen, nola ote zeikean bizi ongi eta lanikan egin gabe.</p>
+<p>&raquo;Arrats batean joan uen Billarrealera, sartu uan osteko atetikan indiano baten etxean, eta egun sentirako jo zikan Legazpi, ezin jaso ala ontzako urrez zamatua. Asi uan justizia lapurraren billa, ba&ntilde;a alegin guztiak alferrak izan ituan, zergatik ez zuten ezeren lorratzik topatu. Bitartean bizi uen gure Pepe len da gero ba&ntilde;o obekiago. Denbora joan, denbora etorri, i&ntilde;or ez uan oroitzen Billarrialgo indiano lumatuarekin, non egun baten asi ziraden zar eta gazte, atsoak eta mutikoak, kantari:</p>
+<p><hi rend='Italic'>Pepe, Pepete,</hi></p>
+<p><hi rend='Italic'>i&ntilde;oren gauzaz</hi></p>
+<p><hi rend='Italic'>zuk etxea bete.</hi></p>
+<p>&raquo;Eldu uen kanta Bergarako juezan belarrietara, eta bota dizko Pepete dontsuari bost mandamentuak ga&ntilde;ean, eta ortikan zirri eta emetikan galde, aitortu eragin zioten, zan bezela, Billarrealgo indianoari eman zion txalma, eta mesede onen sariya eman zioten dantzatu eragi&ntilde;az nai ez zuan fandangua soka batetikan zintzilika.</p>
+<p>&raquo;Ala ba, Patxi, begira zak ondo Pepeten ipuiak daukan edo ez zer ikusirikan; begira zak ongi, Anzuelan dabillen zurru-murrua eldu litekean edo ez juezaren belarrietara.</p>
+<p>&raquo;Ik esan duk ire artean: Anzuelan ezin nezake kanpiatu diru onekin... zergatik bat edo batek galdetuko luke: Nondik ateratzen dirade meza oiek? Eta besten batek erantzungo luke: Apaizan etxetikan. Orregatikan esan duk ik: Saldu zadan etxea eta jarri zadan denda, eta jarri zadan ez ezagun artean, i&ntilde;ork nere eltzean sartu ez dezan sudurrik, eta sinistu dezaten nere ondasunak salbentaren irabaziak ekarri dituala. Ez duk ori ala?</p>
+<p>&mdash;Ba&ntilde;a zer esan nai duk ainbeste itz alferrekin, Mitxel?</p>
+<p>&mdash;Esan nai dirat, mutill abilla izan aizela eta aurrera ala izan nai baduk, eman bear dirakela dozenatxo bat ontzako; aiekin igortziaz eskuak txori zaitzalleari, ateratzen ote degun eguzkitara an kalabozoan usteltzen dagoana.</p>
+<p>&mdash;Lenago ere esan dirat, Mitxel, ez dedala nik dirurikan. Eta... iduki eta ere, uste duk orain arte eman ditudanak ez diradela naikoa?</p>
+<p>&mdash;Begira, Patxi, egin zak nai dekana. Ni banijoak ik zer esan dekan ari esatera... Ikusiko duk nola kantatzen duan. Patxi! Ere larrua maitatzen baduk, atera itzak amabi ontzako esandakoak.</p>
+<p>Patxik, agi&ntilde;ak estutuaz ezpa&ntilde;etatikan odola ateratzera&ntilde;o, esan zuan birau izugarri bat, eta maiko kutxatillatikan atera zituan sei ontzako egi&ntilde;ak, eta bota zituan maian gai&ntilde;ean.</p>
+<p>&mdash;Adiskire &mdash;esan zion Mitxelek&mdash; sei falta dituk emen.</p>
+<p>&mdash;Ez zidukat geiago.</p>
+<p>&mdash;Amabi bear dituk.</p>
+<p>Patxik bota zuan beste ontzako bat eta beste birau bat.</p>
+<p>&mdash;Patxi! Ez ari denbora pasa ibilli.&mdash; Betoz beste bostak...&raquo;.</p>
+<p>Patxik bota zuan beste ontzako bat.</p>
+<p>&mdash;Animatu ari, gutxi falta dituk.</p>
+<p>&mdash;Ez detala geiago.</p>
+<p>&mdash;Txoria kantuan asiko dala.</p>
+<p>Patxik bota zuan beste bat.</p>
+<p>&mdash;Onera beste irurak...</p>
+<p>&mdash;Iru o&ntilde;aztu eroriko al dituk i eta ni biok kiskaldu gaitezen.</p>
+<p>&mdash;Patxi..., Txoria amorratzen dagoala kantuan asitzeko.</p>
+<p>Patxik bota zuan amargarren ontzakoa eta beste juramentu bat.</p>
+<p>&mdash;Aspertu nauk ia, Patxi, atera itzak falta diran biak.</p>
+<p>&mdash;Ez diat geiago emango, bizirik nagoala larrua kentzen badirade ere!...</p>
+<p>&mdash;Patxi..., txoriak kantatzen badu, lepo ori estutuko ditek...</p>
+<p>Patxik bota zuan beste bat.</p>
+<p>&mdash;Ia ba azkena...</p>
+<p>&mdash;Ez da txiki txiki egiten banaute ere, ez diat besterik emango.</p>
+<p>&mdash;Ai kerten aundia! Ontzako baten gora-beragatikan, nai duk zintzilika dantzan ibiltzea! Zer ikusgarri polita egongo aizen minga&ntilde;a kana laurden bat kanpora deala!</p>
+<p>Au aditu zuanean, Patxik bota zuan azkeneko ontzako esanaz:</p>
+<p>&mdash;To, eta erosi zak berakin ni urkatzeko soka.</p>
+<p>&mdash;Zer egin oiek borreruanak dituk &mdash;esan zuan Mitxelek ontzakoak gerrikoan sartuaz&mdash;. Orain eregi zak atea noan Bergarara, artale auek sartzen ote diozkaten ari kaiola ertzen batetikan, eta bigar egun sentirako Lakiola basoan daukaten txendorrean egon nai nikek, zergatikan onezkero eske egongo duk ura.</p>
+<p>&raquo;Ain zeken ibilli zi&ntilde;aten nerekin ontzako partitzean, eze berriro ere aizkorari eldu bear izan zioat biziko banaiz.</p>
+<p>Patxik, giltza artutzen bazuen bezela, artu zuan mai ga&ntilde;ean erdi ezkutatua zegoan arakin kutxillo bat, eta eman zuan pauso Mitxelengana.</p>
+<p>&mdash;Patxi! &mdash;esan zion onek, pistola bat ateriaz gerrikotikan&mdash;. Patxi! Baldin giltza ez baduk billatzen atea irikitzeko, onek irikiko dik ire buruan atea edo leioa kutxillo orrek ba&ntilde;o obeto.</p>
+<p>Patxik lotsaturik esan zuan zerbait aopean, eta utzirik kutxilloa eregi zuan atea, nundik esmendatu zan Mitxel.</p>
+<p>Bakarrik gelditu zanean, Patxi joan zan kutxatillara, eta, ikusi zuanian Mitxelek eramandako ontzakoak utzi zuten utsuna, asi zan birauka buruko illeak ateriaz eta negarrez eskola ume bat bezela.</p>
+<p>Au igaro zanetikan bost edo sei egunera, goiz batean zegoan Patxi bere denda baztarrean, agertu zanean gizon bat karta eskuan zuala. Karta au zan Patxirentzat, eta Anzuela borraturik zedukan aren ordez O&ntilde;ati. Nola ez zekian irakorten Patxik deitu zion Mikaelari, eta onek ezagutu zuanian Inaziona zala, asi zan irakortzen pozez negarra zeriola. Inaziok esaten zuan karta aretan, jaki&ntilde;ian zegoala nola gurasoak il ziraden eta laister ikusiko zutela San Blasko eleizan aiengatikan Jaungoikoari erregutzen. Esaten zien ere aberastu zala, ba&ntilde;a osabaren ondasunak bereganatuta ez bada berak irabazi zituanekin euskaldun batek lagunduaz.</p>
+<p>&raquo;Gure Jaungoikoak &mdash;esaten zuan&mdash;, kupiturik nere ez bearrakin, eman dit denbora gutxian beste askori eren bizi guztian ematen dien ba&ntilde;o ondasun geiago, bada neronek irabazi ditudanaz ga&ntilde;era, len esan dedan euskaldun laguna il zan, eta, nola ez zuan seniderikan, nik berari nion legeagaitik utzi ninduan bere ondasun guztiaren jabe.</p>
+<p>&raquo;Badakizute ba; ni nago izugarri aberatsa, eta nere ondasunak izango dirade, nereak bezela nere anai arrebarenak; baldin uste dedan bezela, merezia badute.</p>
+<p>Ezin esan lezake zenbatera&ntilde;o zan Patxikon naigabea karta au irakorri zanean!</p>
+<p>Bere anaiak zekartzen ondasunak izan balira osabak utzi zituanak, berarentzat izan bear zuan, nai ta nai ez, irugarren zatia, ba&ntilde;a ala ez izanikan ez zedukan eskubiderik ezertan, eta beldur zan, jaki&ntilde;ik Inaziok beran ibillera eta egintza gaiztoak, ez ondasunikan eman, baizik kontu estuak artuko ziozkala.</p>
+<p>Au oroitzen damutu zitzaion egin zituan gaiztakeriak; ez biotza bigundu zitzaiolako, baizikan anaiaren beldurrez, eta aurrera asi zan arreba eztitzen alegin guztian.</p>
+<p>Egun artatikan, orduan arte ba&ntilde;o beste bizi modurik izan zuan Mikaela gaixoak... Ekarri zion neskame bat etxeko lanak egiteko, jantzi zuan burutikan o&ntilde;etara, zer nai eta arekin eztitu zuan itz legunakin, eta, itz batean, kostea kosta, egin zituan alegi&ntilde;ak Mikaela pozik idukitzeko eta aztu eragiteko aurretik emandako naigabeak eta egun gorriak...</p>
+<p>Arrebak, ez jaki&ntilde;ik Patxin intentzio makurrak, sinistu zuan, Jaungoikoak, errukiturik berakin, ikutu ziola biotzean borrero ari, eta, berak uste ez zuala, asi zan Patxi maitatzen, azturik artu eragin zion gorrotua.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>&mdash;IX&mdash;</p><--</head>
+        </front>
+        <body>
+<p>Igande goiz batean Bergarako plazan eta amarrak inguruan, galai gazte batek esaten zion, arrautza, gazta, eta</p>
+<p>egazti aurrean zituala, zegoan estalki zuri dun amonatxo bati.</p>
+<p>&mdash;Asko egiten dute arrautzak?</p>
+<p>Amonak, keskaz begiratuaz, esan zion:</p>
+<p>&mdash;Edo nik la&ntilde;oak ditut begietan edo beroi da... Ba&ntilde;a... bai zera... Ura ez an ain.</p>
+<p>&mdash;Orrela! Ez nau ezagututzen Mariyak?</p>
+<p>&mdash;Nere Ama Santisima! &mdash;esan zuan amonak, eta, jaregi&ntilde;ik, mantalean zeduzkan arrautzari, lepotikan eldu zion beso biakin, eta, laztan bat emanaz, esan zion:&mdash; Inazio!</p>
+<p>Eta amona eta Inazio gelditu ziran alkar estututaz.</p>
+<p>&mdash;Mari &mdash;esan zion aldamenean zegoan atso batek&mdash;. Senide al dezu galai ori?</p>
+<p>&mdash;Ez det senide, ba&ntilde;a seme bati a&ntilde;a nai diot nik oni &mdash;erantzun zuan Marik, txitxi ba&ntilde;o arruago&mdash;. Neronen belaunetan azia da au esate baterako. Zer ederra zauden, Inazio! Zenbat azi zeran!</p>
+<p>&raquo;Ay! Zure ama bizi balitz!</p>
+<p>&raquo;Zenbat nai zizun Fraiska gaixoak!</p>
+<p>&raquo;Askotan esan oi nion nik: Seme orrek txoratu egingo zaitu zu. Eta Don Josek esaten ziran: Utziozu, Inazio du orrek bere kutuna eta...</p>
+<p>&raquo;Zer negargarria, Inazio, zer negargarria! Ain famili ederra utzi joan zi&ntilde;anean eta orain...</p>
+<p>&raquo;Batzuek illik! eta besteak...</p>
+<p>&raquo;Jaungoikoak daki non!</p>
+<p>&mdash;Zer esaten dezu, Mari? Nere anai arrebak... ez daude Etxe-alain?</p>
+<p>&mdash;Zer! Ez dakizu Patxi deabruak Simon uztargi&ntilde;ari etxea saldu eta O&ntilde;atira joan zala bere arrebarekin?</p>
+<p>&mdash;Ai nere Jaungoiko maitea! &mdash;esan zuan Inaziok buruari elduaz&mdash;. Nere anaiak saldu egin duala etxea, diozu?</p>
+<p>&mdash;Aditzen dezun bezela. Ark ez badu biotzikan! Ark ez badio legerikan i&ntilde;ori! Berak il zituan naigabez zure gurasoak!</p>
+<p>Inaziori bete zitzaizkon urez begiak eta aldatu zuan itz bidea.</p>
+<p>&mdash;Eta apaiza eta bere etxekoa nola daude?</p>
+<p>&mdash;Ala, ala, ba, Inazio; D, Jose oso lurra jota dago, eta Anjel oraindikan ez da saniatu. Orrengatikan ez da ezkondu zure arrebarekin, zergaitik berak esaten duan bezela: zertarako ezkonduko naiz ni neskatxa gaixo orrekin bigar edo etzi alargun utzitzeko edaderik onenean?... Zein dagoan anbestean ere, andra Josefa da; eta ori ark ere bereak ikusi dituala ainbeste joan etorrikin. Lege aundia dio etxeari eta, esan oi dan bezela, da emakume on bat.</p>
+<p>&raquo;Berak ezer izan ezkero, ez da ez auzoan negarrik izango. Eta bazenkizu zenbat nai dizun!</p>
+<p>&raquo;Beti dabil, Inazio gora eta Inazio bera...</p>
+<p>&raquo;Eta... nola ibilli zera baztar oietan?</p>
+<p>&mdash;Ni, Mariya, Amerikan ongi ibilli eta ongi joan zait, ba&ntilde;a itxasoan gaizki... Ni nere ondasun guztiakin netorren ontzia, galdu egin zan bidean, eta berakin galdu zan nere izatea. Etorri naiz joan nintzan bezelaxe...</p>
+<p>&mdash;Ai zer damugarria! Ba&ntilde;a... zer egingo da! Bizirik zaude eta ori da bearrena. Ez zaite estutu orrengatikan; osasunak lagundu ezkero, ez da faltako ogi puska bat...</p>
+<p>&raquo;Ez dago esan bearrik... Gaur alkarrekin joango gera Anzuelara; astoa nerekin det eta aretxek eramango ditu, tresnarikan badezu. Ez da ala?</p>
+<p>&mdash;Milla esker, Mariya, ba&ntilde;a lenbizi O&ntilde;atira joan nai nuke, aiek an dauden ezkero.</p>
+<p>&mdash;Ondo egiten dezu, Inazio, ondo egiten dezu! zergatikan nor beran odolekuari legerik ez dionari, Jaungoikoak ere ezin lagundu leioke.</p>
+<p>&raquo;Egia da, Patxi dala arpegira begiratutzea merezi ez duana, ba&ntilde;a, okerrenera jo eta ere, anaia dezu, eta, len esan dedan bezela, odolak betik ezartzen du. Alferrikan da!</p>
+<p>&raquo;Beti oi da etxe bakoitzean txerren bat!... Mikaela bai poztuko dala zu ikusiarekin. Ez du gaixoak Patxin antz aundirikan... Ama ber bera dator ura guztian...</p>
+<p>Beste ordu bian ez zan geldituko Mariyan iturria, bezero bat etorri ez balitza arrautz tratura.</p>
+<p>&mdash;Orain ba... zer nai dezu Anzuelarako?...</p>
+<p>&mdash;Eskumu&ntilde;ak etxian, Mari, eta denboraz alkar ikusiko degu...</p>
+<p>Egun ura igaro zuan Inaziok bere zer egin batzuetan, eta biaramon goizean joan zan O&ntilde;atira.</p>
+<p>Mikaela eta Patxi biak zeuden dendan, Inazio atean agertu zanean.</p>
+<p>Iruren eztarrietatikan atera zan pozezko deadar bat, eta alkarri elduaz gelditu ziraden bat egi&ntilde;ik.</p>
+<p>Ezin aditzera eman litezke Patxik egin ziozkan pozkeriak, Inaziori sinistu eragin naian bere naitasuna, eta gutxiago aitortu lezake, bear dan bezela, zei&ntilde; gozoa eta aundia zan Mikaelaren eta Inazioren biotzak betetzen zituan poza...</p>
+<p>Piska bat sosegatu ziradenean, Inaziok aditzera eman zien anai arrebari bere ibilleran eta bere bizi moduan joan etorriak, eta esan zien Mariyari Bergaran esan ziona, au da, bere ondasun guztiak itxasoak irintsirik, arditikan gabe zetorrela.</p>
+<p>Inazio izketan ari zan artean, Patxik eta Mikaelak zeukaten beso banarekin lepotikan ezarrita, ba&ntilde;a ez al zuan Patxik aditu joan bezin aberatsa zetorrela, alderandu zan anaiarengandikan, izurriaz edo atzez beterik etorri balitz bezela Inazio. Ez zuan egin alakorikan Mikaelak, ez bada eldu zion len ba&ntilde;o gogotiago eta estutu zuan bere anai maitea biotzaren kontra. Ba&ntilde;a Patxik egin zion begirakuna bat, aspaldi artan beldurrez eta izardi otzez bete oi zuten begirakuna aietako bat, eta Mikaela gaixoak, zer egiten zuan ez zekiala, biotza mi&ntilde;ez zatiturik, alde egin bear izan zuan bere animako Inaziogandikan.</p>
+<p>&mdash;Inazio &mdash;esan zion Patxik&mdash;. Nik naikoa egin diat orain arte, i joan intzan ezkero, gure guraso eta arrebagatikan, eta ez diat uste geiago egiteko zorian arkitzen naizenik.</p>
+<p>&raquo;I pobrea ba aiz, ni ere ala nauk.</p>
+<p>&raquo;Jan nai baduk, lana egin zak, zergatikan nik naikoa diat gure arrebarentzat eta neuretzat ogia irabaztea...</p>
+<p>&mdash;Ori duk esatea, Patxi, ire etxeko atea eta ire biotza itxiak daudela anaiarentzat &mdash;esan zuan Inaziok, dolorez itzik asmatu ezi&ntilde;ik&mdash;. Patxi! Zuk zere etxetikan botatzen banazu zakur bat banitza bezela, nik billatuko dut beste etxe bat, nik nereganatuko dut nere anai madarikatuak saldu zuana, eta bertan biziko naiz nere o&ntilde;azakin eta nere miserian edo nere ondasun artean...</p>
+<p>Eta au esanaz erten zan dendatikan, eta eskuak gurutzatuaz esan zuan...</p>
+<p>&mdash;Nere arrebak ere saldu nau azkenik! Ai nere Jaungoikoa! Au geiegi da nere indarrarentzako! Egin bedi zure borondatea!</p>
+<p>O&ntilde;atitikan Korosora dagoan bidea gora zijoan Inazio gizajoa, burua makurturik eta noizik be&ntilde;ean negar tantoa zeriola, oroituaz bere bakardadearekin. Eldu zanean Koroso ga&ntilde;era, utzirik bidea, igo zuan aren eskuiko aldetikan zegoan tontor batera, nondikan agiri zan San Blas auzera eta non ikusten zan Etxe-alai, uso zuri bat erramu tartean balego gisa.</p>
+<p>&mdash;O nere jaiotetxe ederra! &mdash;esan zuan Inaziok esku zapiarekin kopeta legortuaz&mdash;. Ez dago zure sukalde baztarrean ama bat negarrez, bere seme maitea urruti dalako! Ni garaitzen naizenean zure atari aurreko intxaurretara, ez du i&ntilde;ork egingo pozezko garrasirikan leio oietatik!...</p>
+<p>&raquo;Ez ama, ez aita, ez arreba eta ez anairikan ez da besoak zabalduaz antxintxika etorriko errukigarri oni laztan ematera! Ai nere Jaungoikoa! Zergatik ito ez ninduzun itxasoan nere lagunak ito zenduzen bezela? Zergatik ez dezu sortu nere biotza ainbeste zauritu ba&ntilde;o len?</p>
+<p>O&ntilde;azari eutsi ezi&ntilde;ikan, jira zituan begiak beste aldera eta... txilio aundi bat egi&ntilde;az asi zan tontorra bera, bidea gora illeak narras eta arnasaz ezi&ntilde; beterik, zetorren neskatxa gazte bat besoetan estutzera...</p>
+<p>Neskatxa au zan Mikaela, bere animako arreba kutuna...</p>
+<p>&mdash;Inazio! Inazio! Nere Inazio maitea! &mdash;esan zuan Mikaelak bere anaiaren lepotikan zintzilika geldituaz eta aren paparrean arpegia ezkutatuaz&mdash;. Zurekin nai det bizi, Inazio nerea! Zuri lagundu nai dizut zure miserian, anai biotzekoa!...</p>
+<p>&raquo;Patxin beldurraz ez dizut jarraitu lenago, ba&ntilde;a errukiturikan zure bakardade eta sami&ntilde;arekin, indartu naiz aregandikan iges egiteko. Ai Inazio! Zer arrazoia zuan gure aita zori onekoak esaten zuanean Patxik biotz gogorra zuala!</p>
+<p>&raquo;Patxi aberatsa da, eta bota zaitu bere etxetikan pobrea zeradelako!</p>
+<p>&mdash;Ez, nere arreba maitea! Ez naiz pobrea, zuk maitatzen banazu &mdash;esan zuan Inaziok, pozez eroturik, eroturik amorioz.</p>
+<p>&raquo;Zure naitasuna bakarrik falta zitzaidan, arreba biotzekoa, zergatik aberatsa naiz, izugarrizko ondasunak ditut, orain artean izkutatu nai izan ditudanak, jakiteagatikan leiala ote zan nere anai arrebaren naitasuna.</p>
+<p>&raquo;An! &mdash;esan zuan Inaziok, beatzarekin Etxe-alai erakutsiaz bere arrebari&mdash;. Antxe biziko gerade biok, Mikaela maitea, eta nik nere maitetasun bigunarekin sendatuko ditut zure biotz gaixoak daduzkan zauritu gogorrak...</p>
+<p>Eta eskuak emanda alkarri, izkutatu ziraden Elosegietan barrena eta Urkillun ziar, zeruko aingeruak zalez beterik uzteko zoriyan.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>&mdash;X&mdash;</p><--</head>
+        </front>
+        <body>
+<p>Mikaela eta Inazio Etxe-alaira ziradenetikan illabetera, goiz batean, Anzuelako kale goena gora zijoan amonatxo bat bere estame&ntilde;azko so&ntilde;eko beltz ederrarekin, eta elurra ba&ntilde;o zuriago zan estalkian azpitik kopetatxo urdi&ntilde;a zintzilik zuala.</p>
+<p>Pertzan ipurdia ba&ntilde;o beltzago zan atso batek, ate zirriztu batetikan atera zuan burua, bata bestearen ga&ntilde;ean bi edo iru estalki zarrekin jantzi.</p>
+<p>&mdash;Manu! &mdash;deitu zion amonatxoari&mdash;... ia onera&ntilde;o.</p>
+<p>&mdash;Presaka nua, Pepa, eta ez det astirikan orain &mdash;erantzun zion Manuk aurrera joanaz.</p>
+<p>&mdash;Emakumea, ez zaitugu jango &mdash;esan zuan Pepak eta atetikan erten da joan zitzaion, arri muturretikan arri muturrera pauso egi&ntilde;az, katuak lokatza tartean egin oi duten gisa...</p>
+<p>&mdash;Gaur, ez dago zer esanikan. An izango zera? &mdash;esan zuan atso beltzak, Manun aurrean jarri eta esku batekin estalki zarrak aurreratu bekokian eta beste eskuko biatzarekin sudur zuluak errejistatuaz...</p>
+<p>&mdash;Bai... eta zer? &mdash;esan zion Manuk.</p>
+<p>&mdash;Zer... Badakizu zuk eta beste askok ere gure miseri...</p>
+<p>&mdash;Bai, bai, badakit zertara zuazen... Inposible ez bada, zu batiatu zi&ntilde;uzten pondak izango zuan jarion bat... zuri... ez Lanzurdea, baizikan Pepa-negar jarri bear zizuten izena.</p>
+<p>&mdash;Bai... i&ntilde;oren begiko negarrak, ez dit neri ere mi&ntilde;ikan ematen, Manu.</p>
+<p>&mdash;Nik sinistu ori, Pepa, ba&ntilde;a esan zazu laister esan bear dezuna.</p>
+<p>&mdash;Ba... esaten ari nintzan bezela, neu ez naiz ezertarako gauza, ala ere egualdi otz abekin...</p>
+<p>&mdash;Egualdi otzak ba&ntilde;o gaitz geiago egiten dizu barrua geiegi epelduak, Pepa...</p>
+<p>&mdash;Bai... gure intxaurrak erak diraden ba&ntilde;o so&ntilde;u aundigoak izaten dituzte, Manu... gure agure kaskalari ere, besoak sortu zaizko dornuari eta kardari eragiteko, ba&ntilde;a agi&ntilde;ak geroago eta azkarrago ditu. Aren ogi txikitzea!</p>
+<p>&raquo;Aren irintsi bear tristea!... berarentzat lain...</p>
+<p>&mdash;Ixilik egon zaite! Asko ezagun dute zure senar gizajoan masalla ertzak ase eta betean dabillela, zuk esan naia dezun bezela! ba&ntilde;a zabiltz azkar presa dut eta.</p>
+<p>&mdash;Gaur, ba... i&ntilde;oiz izatekoan izango dira an eskupekoak; eta zuk, D, Jose edo andra Josepari esango bazi&ntilde;io itz erditxo bat, zergatik, badakizu, gu bezelakoak... eta ga&ntilde;era zerri ezur batzuek edo beste edozer gauza etxeak dakarrena ez litzake.</p>
+<p>&mdash;Eta, zergatikan joaten ez zera zeori?</p>
+<p>&mdash;Ai Manu! Neretzat arpegi illunak egoten dirade an...</p>
+<p>&mdash;Merezia izango dezulako...</p>
+<p>&mdash;Zereko merezi. I&ntilde;oren etxeko gauzak jakiteagatikan, noizik be&ntilde;ean eramaten dute bera betekada bat ematera, eta deabru ark gezur eta abar... beti ni txar egin.</p>
+<p>&mdash;Bai, txoroak dituzu bai apaiza eta bai bere etxekoak, ez igartzeko zein zeraden zu eta nor dan zure agura gizajoa... Bai, naikoa esan dezu, eta banoa &mdash;esanaz, iges egin zion Manuk.</p>
+<p>&mdash;Gero, ez aztu nik esandakoa &mdash;deitu zion Lanzurdeak.</p>
+<p>&mdash;Bai, egon zai &mdash;erantzun zion Manuk&mdash;. Denboraz izango naiz emen, eskupekoa kolkoan eta upela txiki bat patarrez betea buruan detala...</p>
+<p>Pausoa arin arin emanaz, bazijoan gure Manutxo, non tellari buruan trin egin zuan Mariyarekin, zein zetorren galtzada ziar, bere pranelazko matali&ntilde;a tolostuaz esku biakin artuaz ertz banatatikan, eta okotzarekin erditik eutsiaz, eta, nola Jaungoikoari eskerrak ez zan mutua, dakigun bezela, esan zion Manuri:</p>
+<p>&mdash;Linboan edo non egon zerade orain artean, Manu? Ez al dezu?...</p>
+<p>&mdash;Ixilikan zaude, Mari... Ernegatua nago nere artean ere... Lanzurde sorgi&ntilde;ak iduki nau, nai ta nai ez, ordubetean bere betiko negarrak esaten.</p>
+<p>&mdash;Ai Manu! Oraintxe betiko alkartu ditu Don Josek! Ai ura ikusgarria!... Mikaelak Ama Birji&ntilde;a bat zirudian eta Anjelek aingeru San Gabriel. Ikusi bazi&ntilde;u!</p>
+<p>&mdash;Eta, nortzuek izan dituzte lagun?</p>
+<p>&mdash;Nortzuek izango zituzten, Manu... Andra Josepa eta Inazio edo Don Inazio; zergatik uste dut Don esan litzakiola emen inguruetako aberatsenari, berak nai ez baldin badu ere... Gaizto aundia! Zer patata sinistu eragin zidan Bergarako plazan!</p>
+<p>&mdash;Mariya, Jaungoikoak bedeinkatu ditzala; zergatik merezi dute.</p>
+<p>&mdash;Ala izan dedilla, Manu... Apaiz jauna ere... illabete onetan gaztetu da oso. Artu ditu berriz ere lengo kolore eder aiek...</p>
+<p>&mdash;Mariya, zu etxekoa nola zeraden an, jakingo dezu zerbait?</p>
+<p>&mdash;Jakin ez bada! Bai orixe! Ba... Inazio etorri zanean lenbizi egin zuan gauza izan zan, Don Josen etxera joan eta esatea:</p>
+<p>&raquo;Don Jose! Ni, diruz josiya nago, ba&ntilde;a falta zaizkit aita, ama eta anaia; Anjel ezkondu dedilla Mikaelarekin, eta beori, Don Jose, izango da nere aita; beori, Andra Josepa, nere ama, eta zu, Anjel, izango zerade nere anaia.</p>
+<p>&raquo;Umian ondasunak dirade gurasoenak, eta orregatikan jaki&ntilde;ian egon bitez, nere ondasunak danorenak diradela. Udaberria eta uda igaroko ditugu Etxe-alaian, eta negua emen.</p>
+<p>&raquo;Ez al zuan au esan Inaziok, danak alkarri elduaz asi ziraden... ba&ntilde;a... ixo... an non datozen... goazen ikustera, Manu &mdash;esanaz, joan ziraden biak eskolako umeak bezela, berriketan egi&ntilde;az eta korrika eleiza aldera.</p>
+<p>Gizon bi, San Inazio martxa joaz, bata txirolakin eta bestea atabalarekin; aien ondoren, pago gazteak ba&ntilde;o bortitzago ziraden mutil tropel baten artean, Anjel; eta aben atzetikan, Mikaela, larrosaz eta krabelinaz egindako txorta bat ba&ntilde;o ederragoago zan neskatxa mordo baten erdian, eta guztien jarrai, Don Jose, Simonen eta Inazioren erdian, zijoazen eleizatikan apaizaren etxera.</p>
+<p>&mdash;Ai Manu! &mdash;esan zuan Mariyak&mdash;. Zer damugarria gaur, ez eman bearra gure Jaungoikoak ordu beteko bizia Juane eta Fraiska zorionekoeri, au ikusi dezaten!</p>
+<p>&mdash;Bai! Arrazoi daukazu, Mari! Ba&ntilde;a zerutikan egongo dirade begira eta... Ga&ntilde;a, zergatikan ote doaz ainbeste lagun korrika bide aldera? Zer ikusgarri ote dago an? Goazen geu ere zer ote dan.</p>
+<p>Eta, esan da egin, amonatxo biak joan ziraden antxintxika...</p>
+<p>An zegoan ikuskizuna zan, mutil sasoiko bat burnizko zepo batean eskuak sarturik eta soka batekin ukolondoak gogor loturik, lau txendarmen artean zeramatena Deskarga aldera.</p>
+<p>&mdash;Nere Ama Piedadekoa! Zer ikusten dut nik? &mdash;esan zuan Mariyak esnea ba&ntilde;o zuriago eginda.</p>
+<p>&mdash;Patxi da loturik damaten ori!! Ai gure Jaungoikoa!! Bera da, bera da! &mdash;erantzun zion Manuel begiak estaliaz.</p>
+<p>&mdash;Ai Manu! Zenbat arrazoi zuan Fraiska gaixoak, esaten zuanian Patxik kartzelaren baten usteldu bear zuala!!!</p>
+<p>Patxik ikusi zuan Simon uztargi&ntilde;a Don Josen etxeko leio batean eta gelditu nai izan zuan arekin itz bat edo bi egiteko, ba&ntilde;a txendarme batek &laquo;aurrera&raquo; esanaz, jo zuan bizkarrean fusiliaren ipurdiaz eta ezkutatu ziraden bidea gora.</p>
+<p>Txoriak kantatu egin zuan!!!</p>
+        </body>
+      </text>
+    </group>
+  </text>
+</TEI.2>
+

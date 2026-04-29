@@ -1,0 +1,803 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN"
+                       "http://www.tei-c.org/P4X/DTD/tei2.dtd" [
+   <!ENTITY % TEI.prose    'INCLUDE' >
+   <!ENTITY % TEI.linking  'INCLUDE' >
+   <!ENTITY % TEI.analysis 'INCLUDE' >
+   <!ENTITY % TEI.figures  'INCLUDE' >
+   <!ENTITY % TEI.XML      'INCLUDE' >
+   <!ENTITY % TEI.extensions.ent SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.ent' >
+   <!ENTITY % TEI.extensions.dtd SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.dtd' >
+]>
+<TEI.2>
+  <teiHeader>
+  <fileDesc>
+     <titleStmt>
+        <title>Ardi galdua</title>
+        <author>Resurreccion Maria Azkue</author>
+        <respStmt>Ez dauka</respStmt>
+     </titleStmt>
+     <extent>18.017 hitz, 133.250 karaktere</extent>
+     <publicationStmt>
+        <publisher>Klasikoen Gordailua [http://klasikoak.armiarma.com/]</publisher>
+        <distributor>Estrata Liburuak S.L.</distributor>
+        <address type='email'>klasikoak@armiarma.com</address>
+        <idno type='ota'>AzkueRGaldua</idno>
+        <availability status='free'>Erabilpen librekoa; honoko helbidean topa daiteke (HTML, RTF eta PDF formatuetan): http://klasikoak.armiarma.com/idazlanak/A/AzkueRGaldua.htm</availability>
+        <date>2006</date>
+     </publicationStmt>
+     <sourceDesc>
+        <bibl>Iturria: Bein da betiko / Batxi Guzur, Resurreccion Maria Azkue (Ines Pagolaren edizioa). Euskal Editoreen Elkartea, 1989</bibl>
+        <notesStmt><note>Iturburuen datazioa: 1918</note></notesStmt>
+     </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+     <projectDesc>Euskal literaturako testu klasikoen bilduma da KLASIKOEN GORDAILUA; testu hau berorren parte da</projectDesc>
+     <refsDecl>
+        <p>MENTIONED etiketa egilearenak ez diren hitzak markatzeko erabili da: hitzaurreak, aipuak, iruzkinak, e.a.</p>
+    </refsDecl>
+     <classDecl>
+        <taxonomy id='generoa'>
+            <category id='G-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='G-ANT'><catDesc>Antzerkia</catDesc></category>
+            <category id='G-BER'><catDesc>Bertsoak</catDesc></category>
+            <category id='G-ERL'><catDesc>Erlijioa</catDesc></category>
+            <category id='G-NAR'><catDesc>Narratiba</catDesc></category>
+            <category id='G-POE'><catDesc>Poesia</catDesc></category>
+            <category id='G-SAI'><catDesc>Saiakera, kronika, artikuluak...</catDesc></category>
+        </taxonomy>
+        <taxonomy id='garaia'>
+            <category id='M-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='M-16'><catDesc>XVI. mendea</catDesc></category>
+            <category id='M-17-1'><catDesc>XVII. mendea - 1. erdia</catDesc></category>
+            <category id='M-17-2'><catDesc>XVII. mendea - 2. erdia</catDesc></category>
+            <category id='M-18-1'><catDesc>XVIII. mendea - 1. erdia</catDesc></category>
+            <category id='M-18-2'><catDesc>XVIII. mendea - 2. erdia</catDesc></category>
+            <category id='M-19-1'><catDesc>XIX. mendea - 1. erdia</catDesc></category>
+            <category id='M-19-2'><catDesc>XIX. mendea - 2. erdia</catDesc></category>
+            <category id='M-20-1'><catDesc>XX. mendea - 1. erdia</catDesc></category>
+            <category id='M-20-2'><catDesc>XX. mendea - 2. erdia</catDesc></category>
+        </taxonomy>
+        <taxonomy id='euskalkia'>
+            <category id='E-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='E-BAT'><catDesc>batua</catDesc></category>
+            <category id='E-BIZ'><catDesc>bizkaiera</catDesc></category>
+            <category id='E-BNA'><catDesc>behenafarrera</catDesc></category>
+            <category id='E-ERR'><catDesc>erronkariera</catDesc></category>
+            <category id='E-GIP'><catDesc>gipuzkera</catDesc></category>
+            <category id='E-GNA'><catDesc>goi nafarrera</catDesc></category>
+            <category id='E-LAP'><catDesc>lapurtera</catDesc></category>
+            <category id='E-NAF'><catDesc>nafarrera</catDesc></category>
+            <category id='E-ZAR'><catDesc>zaraitzuera</catDesc></category>
+            <category id='E-ZUB'><catDesc>zuberera</catDesc></category>
+        </taxonomy>
+    </classDecl>
+  </encodingDesc>
+  <profileDesc>
+     <textClass>
+       <keywords scheme='generoa'>
+         <list><item>G-NAR</item></list>
+       </keywords>
+       <keywords scheme='garaia'>
+         <list><item>M-20-1</item></list>
+       </keywords>
+       <keywords scheme='euskalkia'>
+         <list><item>E-GIP</item></list>
+       </keywords>
+     </textClass>
+  </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>Ardi galdua -- Resurreccion Maria Azkue</docTitle>
+    </front>
+    <group>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>ENE ADISKIDE MAITE TA BERETERKIDE GARTSU</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Italic'>J.J. Arin ta J.M. Zuazti-ri</hi></p>
+<p>Gertiruditxo onen aitabitxi izatea, gizalegez, zueri dagokizute. Zueri zor dizute <hi rend='Italic'>Ardi galdua </hi>onek beronen seaskatxo txukuna: Leaburu. Aldi batez Greziako gizuren baten ama (enaiz izenaz oroitzen), ertzaroan, bere jaioterritik elkita, izan bear zuen aurrarentzat seaskerri baten bila joran aundiz ibili omen zan bezela, nerau ere, nire <hi rend='Italic'>Arkumetxo</hi> onentzat jaiogu bat nai nuelarik, Beizama-aldera tipi-tapa asi nintzan; eta zuen arteko nere antzekoen orrek, arriturik, &laquo;Beizamara! esan zenidan Beizamara! ezotezera mendi basa aietan zerori ARDI GALDUA izango?&raquo; Alarik ere Urdanpilleta-barreneko basauritxo artan iru eguneko egotaldi-ikastaldi-ikertalditxo bat egin nuen ta gero zuengana Leaburura jo.</p>
+<p>Leaburu! Uf! <hi rend='Italic'><foreign>Tout le monde a deux patries</foreign></hi>, arroxko esan zidaten bein Parisen: <hi rend='Italic'><foreign>la sienne et la France</foreign></hi>. Nik, &laquo;mundu guzti&raquo; orren antzera, bi sorterri, bi asaberri, bi <hi rend='Italic'><foreign>patries</foreign></hi> bear banitu, bigarrena enuke izango ori; nere bigarrena Leaburu izango litzake: semeerria, bigarren asaberri. Ikusi Geigarriko itz berriak. Ikusi <hi rend='Italic'>-gu</hi> Geigarrian. Edozeinek ditu bi sorterri: norberarena ta Frantzia.</p>
+<p>Ara iritsita, bertako apaiz jaunak, &laquo;Arako mendi hura zein dan? Basatxurro. Beste orrako ori? Larte. Bularra ere bear da gero orri burura igotzeko&raquo;. Ta onelaxe jakinerazi zizkidan inguru aietako tontor ta arro, gain ta sakon, mendiska ta zelai, etse ta balderna... baita gizaseme ta emakume agerienen izenak ere. Aien artean Egi. O Egi, Leaburuko elizapeko ttonttor, buru-biribil, ikusgarri ta ikusgu eder ori! Ire bizkarretik Ernio ta Aralar ta Aizkorri mendi eskergak begi betean ikusita gero, Oria-bazterreko uri lantsu Toloxa, emakumetxo zurbil bat bailitzan gutxituz, emetuz izendatzen duten Tolosa yaiua, begiak zabal-zabal nituela, ikustorduan, gogoak etzidan bururatzen egungo uri ketsu, erdaltsu, dirutsu ori, ez; orren ordez, gizaldi zarretan Gipuzkoak burutzat zeukan uri alai, goita beterriko beredin basauritxoren inude, bertsolari buru-zorrotz, ur-etsai, ezpain-bigu&ntilde; geienen bilune zan, Tolosa irudi izan zitzaidan.</p>
+<p>Zueri, biotzez baturik zauzkadan orrei, ez bakarrik seaska, baita leguntasun-zerbait ere zor dizute nere semetxo kuttun onek. Zuenak izan oi dira Martin Loontxok eta Betijaik entzundako parre gozo asikinak; zuenak Antton Barandianek eta Medelek Urkietako aurreskuan izan zituen lenengo txaloak; eta Medelen seme naigabetsuak bere negar ta antziz eraginiko len-malkoak ere zuen begietatik isuriak izan dira. Zuek, beste inork ez bezela, dakizute nundikoak izan ta izango ditudan nere buruauste, biozmin ta jarraikadarik latzenak eta beltzenak. Euskera ilko ezpada, noraezekoa [nai ta ezekoa] degu izkelgi bati [dialekto bati] euskaldun guztiok errazen ulertzen degun izkelgiari, Urumea-bazterrekoari, indarra ta kemena ematea. Onetarako asmotan artua dezute Donostian euskera utsezko eguneroko bat ateratzea. Jaunak onedatsi ta indartu bezazute, nere gogaide maite oiei, asmo eder pizkarri ori. Ni jaio nintzan-uri onetako mintzoa Euskalerriko una [mu&ntilde;a] balitz, nere poza, lenen ikasi nituen itz aiek [berbatsu arek] arrointzat artuta, lan ta lan egitea!</p>
+<p>Azkenez, zuenak izan dira onelako arazoetan ekiteko izan ditudan itz pozgarri ta zintzoenak. Zuen izenaren gerizpean sor bite, beraz, nere lantxo au; eta aate alper-nagien umeak oilo amaloka baten egapean arrautze-koskoletik irten ta azi oi diran bezen mamintsu ta pizkor, zuen izenpean argitaratu ta koxkortu bite nere <hi rend='Italic'>Ardi galdua</hi>.</p>
+<p>Lekeition, 1918ko garoilaren 20an</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>LENENGO ESKUTITZA</p><--</head>
+        </front>
+        <body>
+<p><foreign><hi rend='Bold'>United States, Sacramento (California)</hi></foreign></p>
+<p><foreign><hi rend='Bold'>V&iacute;a New-York. Leaburu Hotel, N-street, 313</hi></foreign></p>
+<p><hi rend='Bold'>1887garren urteko Garagarrilaren 6an</hi></p>
+<p><hi rend='Italic'>Adrian Iriondo Leaburuko Bikario jaunari Emeterio Olazarretak</hi></p>
+<p>Amalau urte doi-doi daramazkit erri-alde onetan: Californian.</p>
+<p>Iru ezkutitz egin ditut nere aide urkoen etxera. Geiago ere egingo nituen, lengoak alperrekoak izan ezpalira. Lenengoa amaginarrebari zuzendu nion; bigarrena, nere emazte zanaren aizpa Isabeli; irugarrena, amaginarraba il zala jakitean, zerorren izenean bidali nuen. Eztet izan erantzumenik. Zergatik ote da? Iru ezkutitzetan nere seme bakar Leonen berriak galdetu nituen. Eskerrak orko adiskide bati, zerbait jakitera iritsi da Medel gaisoa. Amabi urte berealaxe beteko ditu Leonek; eta onezkero onera etorri diteke. Or baino ikaspide obeak dira emen, irabazpide geiago, ugariago dirua. Aspaldi guzi onetan zuk eta zure lengusina Isabelek eta izeba zanak Leonentzat eskuartea bear izan dezute. Zeinbat diru eralki dezuten esan eta nik len-bai-len garbituko det zor ori. Erara nabil ta gogoz ari naiz diru biltzen. Califonia! Au da erria! Ez neguan otzegi, ez beroegi udan. Emen eztakigu eztula zer dan, marranta ta bularrestua [katarroa] zer diran ere ez. Birigaitza [tisis] ezta ezagutzen. Osasun-erri ta ondasun-erri da au. Zeinbat uste dezu, lengusu Adrian, zeinbat irabazten nuela Sacramentotik Chico deritzaion gorengo uritxora, Nevada-ondora, ibaiz, gurpildun lurrinontzian [baporean] ibili nintzanean? Ilean 50 dollar [ogerleko] urretan ta gainera jan-edana: jan ere aragia ugari; ez, or bezela, oiloentzat egokiago dan ozala [saperoa], giza-ozala, eltzekaria. Chico Gaintza bezelatsuko basauritxo bat da, Sacramento-River deritzaion ibai-bazterrean egina. Gorago eztira lurrinontziak joaten. Andik Nevadako mendi eskerga, izugarri, beti elurrez beteak ageri dira. Jarri itzatzute alkarren gainean Izarraitz, Ernio, Aizkorri, Aralar ta Gorbea, gainerakotzat (kapelatzat bezela) Basatxurro dutela. Ala ere Nevadako Whitney mendia aundiago, bost bat milla zerren [metro] baititu.</p>
+<p>Ibai onetan arraima bada Jesus ta bat ala ere! Neronek ere, baserritarra naizen onek, artu izan ditut maiz askotan: garranga [amua] beera, arraina gora, besoak nekatu arte; beitatzat [amuzkitzat] arra nuela. <hi rend='Italic'><foreign>Cattfish</foreign></hi> du izena ugarienak, &laquo;katuarraina&raquo; esan nai du; arra ta erdi-inguruko arraina da, larruduna: larru-beltz, aragi-zuri, gozo-gozoa. Orko latsetan [erreketan] txipa ta zapatariak baino ugariago dira emen <hi rend='Italic'><foreign>Cattfish</foreign></hi> auek.</p>
+<p>Artzaingoan [artzaintzan] ere ibilia naiz, lurrinontzietan bezela, ilean 50 dollar ta otamena saritzat nituela. Emengo artaldeak eztira orkotxoen irudikoak. Bi mila, bi mila ta bosteun buru izaten ditu talde bakoitzak. Zortzian-zortzian, astero, esan nai det, agertzen zaie artzainai landagizona <hi rend='Italic'><foreign>(El Campero)</foreign></hi>; astekaria zamariz (asto-mando-gainean) dakarkiela; aragia, kafea, esnea latetan ta gainerako elikatura osoa. Lengauetan loa neketsu-samarra izaten da, baina gero... Begira: lurraren gainean kirru lodizko eun sendo luze bat jarri, aren urren bi bururdi, gero artzaina; gainean bi naiz iru burusi [manta], burusi-gainean kirruzko eun andi ori; burrukotzat zorro batean soineko zar ta oinetakoak eta abar sartzen genituen ta, ebanjelioa da au! erregek ere eztu gozaroago lo egiten.</p>
+<p>Bi urtetik bi urtera amabost eguneko oporraldia ematen die artzainai taldejabeak; eta oporzale geienak Sacramentora jexten dira, ostatura. Oporretxe auek agitz euskalduna dute jabetzat: erdaldun bakoitzeko euskaldunik gutxienez amar. Artaldejabeak artzainbila euskalostatuetan ots egiten dute. Eun artzainen artean, laurogei ta amar gutarrak izan oi dira: napar, lapurtar, giputz, bizkaitar; gainerakoak irlandesak eta portugesak, geienak. Etzaio emen inori galdetzen: &laquo;Bizkaiko semea zera, Giputza zera, Lapurtarra zera, Naparra zera?&raquo; Erantzun ere &laquo;euskalduna naiz&raquo; edo ta &laquo;enaiz euskalduna&raquo; ta kito.</p>
+<p>Alakoxe oporraldi batean nabaritu nuen, erosoago jatetxedunak dirua irabazten zutela; ta neronek ere, bizikera legun, artetsu ta atseginago bat nairik, ostatu-iskitxo bat, neronen izenekoak, Hotel Olazarreta, San Franziskon sortu nuen.</p>
+<p>Orain Sacramenton nago ingeles batekin baltzuan; bion artean arroztegi andi bat, Hotel bat, egin degu uriaren erdi-erdian. Izentzat nere jaioturitxoaren izena ezarri diogu: Leaburu-Hotel.</p>
+<p>Hotel onen izantz [irudi] bat bidali nai dizut, or erakusteko ere, nola bizi geran jakin dezazuten. Eskuialdeko morrosko zabala nerau nauzute; beste zar ori, nere baltzukide ingelesa.</p>
+<p>Sacramento uri zabala dalarik, kale errazago bilatzekorik eztu beste urik. A ta B ta C... dituzte izentzat. Leaburu-Hotel N-streeten datza. Nun, ordea? Bada M-street eta O-streeten bitartean. <hi rend='Italic'><foreign>(Street </foreign></hi>ingelesez &laquo;kale&raquo; da).</p>
+<p>Nere erriarenganako maitetasuna geroago ta sakonagoa ta samurragoa dala uste det. Egunero izen gozo ori nere etxean, txala adinako izki andietan, irakurtzean, au poza!</p>
+<p>Al baldin banu, erri osoa beraren etxe ta eliza ta erritar guztiakin ekarriko nuke. Orko nekazariak emen, lan orren luze neketsuak eginezkero, berealaxe aberastuko lirake. Emen gizonaren izerdia emea da, ekarkorra, umetsua. Orko izerdia, arra ezpada ere, erdi antzua bai, ala jaina! Eun gizalditan or ari dira Leaburuarrok goiz ta arratsalde, uda ta negu, euri naiz eguzki, lanean, izerdia mara-mara dariela. Nolako atzea dute? Bizitokiak beti zar, ormak beltz pitzatuak; sukaldea utsa ta otza; ukulluetan lau-bost abelgorri ezurtsu. Nolako gosari, bazkari ta apariak egiten dituzte? Aragirik gutxitan jan, ardorik astean beintxo baizik edan ez; abarka zarra oinetan, zazarkina dariela; soinean oial zar adabatuak, sakela aizez betea. Ai, Leaburuar guziok emen balira! Nere semea betor beintzat. Bizkaitik, itsasaldetik batez ere, maiz etortzen dira onera ondasun-zaleak. Alako baten babesean etorri diteke Leon. Bidaritzat 100 dollarreko diru-txartel bat or dezu laster. Besartean ikusi dezadaneko, Kolejio eder batean, San Franziskon, sartuko det; ingeles-izketaz batera sal-erospena ikasi dezan. Gaur egunean ingelesez mintza ezin dan gizona gizon-erdi baizik ezta.</p>
+<p>Musu bat nere mutikoari; ezagun ta adiskideai goraintzi ta eskumu&ntilde;ak eman. Urrengoarte.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>BIGARREN EZKUTITZA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>Leaburutik 1887garren urteko Garoilaren 7an</hi></p>
+<p><hi rend='Italic'>Emeterio Olazarretari Adrian Iriondo apaizak</hi></p>
+<p>Zure ezkutitza (orain bi ilebete egindakoa) begien aurrean det. Besterik eztet nik artu. Zure berriak zinez poztu naute. Zerbait dago, orregatik, zure ezkutitzean poz-pozik irakurri eztedana: Leonez diozuna. Leon, mutil burutsua, zuzena ta biotz oneko gizasemea, latin ikasten asia da. Elizgizon izan nai luke, edo (euskaldun zarrak esan oi zutenez) bereter. Tamal andia litzake, onen gazte tolesgabea dalarik, orrera bidaltzea. Eztiot nik aitatuko, ez berari ez Isabeli ez inortxori, zuk berazaz dezun asmo ori.</p>
+<p>Isabel, ain zuzen ere, zure ezkutitza iritsi zanean, beste askotan bezela, beraren aizpa lekaimea [monjatxoa] ikustera Lasartera joana zan. Bestela irakurri nai izango zuen zetorrena eta noski neronek baino ere lenago. Negarrez ta garrasiz, enura gabe, etxe guztia zuztarretik itzuliko zuen, Leon orrera eramateko uste ori jakin balu. Ez: obe da asmo ori zure ta nere artean baizik ez izatea.</p>
+<p>Eun dollarreko diru-txartela nere eskuetara garaiz eldu zan. Eun ta ogei ogerleko ta erreal batzuk artu ditut txartel orren ordez. Den-den-dena izango da Leonentzako gutun ta ikaspideetarako. Amabi urte auetan bezela, geroztik ere, Seminarioan eztan aldian, nere etxe au berarena izango du. Beretertuta gero, ni aguretxo erdi-ezindua naizelarik, Jainkoari atsegin dakiola nere ordezko emen izatea, noizbait ondorengo izan dakidan. Etzinake, Medel, seme bereterraren ondoan, Leaburuko elizetxean, Californiako Leaburu-Hotel orretan baino pozago bizi izango? Ezetz badiozu, nik ezin sinetsi zuri.</p>
+<p>Iloba txikia det berau, lengusina baten semea. Gainera ona da, onena bezelakoxea. Ez aitatu, beraz, neri dirua ordaingarritzat bidaltzerik. Aitarik or ezpalu, emen leukake bat.</p>
+<p>Zure berri jakiteaz, nizaz gainera, zure ezagun ta adiskideak ere biotzez poztu ziran. Lenak gera gu orain ere. Oikuntza zarrai tinko-tinko eutsi ta irozotzen diegu.</p>
+<p>Zu emen zeundenean bezela, orain ere meza nagusi-ondorean, elizaurrean naiz elizatarian (eguraldia nolakoa dan) gizonak eguerdirarte, pipakada bana ketu ta asteko berriak jakiteko asmoz, igandero biltzen dira.</p>
+<p>Ikustekoa zan Leaburuarren begitartea, ni, zure ezkutitza eskuan nuela, &laquo;Medelen berriak&raquo; esanez, agertu nintzanean!</p>
+<p>Antton Barandiaran maiz ikusten det lo, ni irakasguan Ebanjelioa azaltzen ari naizen bitartean. Medelen berriak entzuten hura ere, beste guziak bezelaxe, adi ta zur zegoen. Nekazari zintzo aien parre gozoak, gizona, ingelesez mintzatu ezik, gizon erdi dala entzun zutenean! Anttonek, pipa ezpainetan zuelarik, auxe esan zigun:</p>
+<p>&mdash;Ingeles bat Leaburura baletor ta euskeraz mintzatzen ezpaleki, gizon-erdi ez, laurden izatea ere hmmm!! naikoa lan.</p>
+<p>Eta arako, al bazinu, Leaburu osoa, beronen etxe ta eliza, izaki ta gizaki, orrera eramango zinuzkela, entzun zuenean, Pello Gurreagak, ortz banakak agerian zituela, beraren iritzia onelaxe eman zigun:</p>
+<p>&mdash;Eliza eraman? Emen ere bear degu; baina, diotenez, Galipornia orretan bearrago omen da; ta, ni-gorabera, daramatela. Belauntzakora joango nintzake ni, urruti ere eztet-eta.</p>
+<p>Leaburuarron etxeak beti zar dirala belarriratu zuenean, Martin Loontxo Etxeberrikok auxe sudur-mintzoz erantzun zidan:</p>
+<p>&mdash;Nere etxea, bederen, beti da Etxeberri. Sacramento orretan arkitu ezetz beti berri dan etxerik! &mdash;Barre guk&mdash; Gainera, beren bereuna! ni ere Ameriketan ibilia naiz, ango berri-puska bat badakit. An ere eguzkitan erreriko artorik eztu inork jaten eta zakurrak ankutsik ibiltzen aldira. Medelen itz oriek, burua zearo gogortu ezpazait, aberats batek egindakoak dirudite. Aldarte onez diranean, Elgoientarrak, lenago bezela, sudurrez mintzatzen zaleak ditugu. Ta aberatsak an ere, aberatsak... aberatsak... ementxe bezelatsu, auzoan bizi izan oi dira geien geienak, auzoan.</p>
+<p>&mdash;Aragia gutxitan jaten degula? gaineratu zuen beste norbaitek: ikusi izan ditugu, alegia! Ameriketatik itzulitako gizon aragijaleok, baina zer? oiek ere masailezurra, gure antzera, zorrotza daukate. Bizarra bai, artaburuari udazkenean bezela, zuri ta beltz ta arre nondiknai agertzen zaiete.</p>
+<p>Bigarrenez urrengo igandean irakurri bear izan nizkioten zure berriak. Martin Loontxo izan zan orduan ere itzik geien egin zuena.</p>
+<p>&mdash;Eztula zer dan eztakitela? Bai nik, Argentinan izan nintzanean. Marranta ta birigaitza ta bularrestua eztituztela ezagutzen? Zertaz iltzen ote dira gizonak Galipornian?</p>
+<p>&mdash;Zarrez, bizi izaten aspertuak diranean.</p>
+<p>&mdash;Guk (Martin Loontxok zioan au ere), eltzekariz, gizaozalez bizi geranok eztegu indarrik mendia mendiaren gainean, Medelek-eta, elurrezko mendi eskerga, erraldoi oriek metatu dituzten antzera, jartzeko. Mutilak: Galiporniako artzain aberats oriek gainezka duten ondasuna bidali digutela ta asi gaitezten aragia jaten. Orduantxe guk ere, batak Aralar, besteak Basatxurro bizkarrean artuta Goierrira, Aizkorri-gainera, lorretan eramango ditugu.</p>
+<p>&mdash;Nork ezagutu orduan gure errialde au? Medelek, onontz datorrenean, Galipornia batetik beste Galipornia batera itzuli dala uste izango du.</p>
+<p>&mdash;Ta katuarrainak? gaineratu zuen Mendigibelek. Ni eninduen amak urzale egin, urak dakarzkien elikatura oriek ere eztitut gogoz jaten; alabaina, eztezute uste katuarrainak katu-janaritzat egokiago dirala?</p>
+<p>Parre lergarriak egin-ondoan, Iturgoienek, astiro, beti bezela, esan zigun:</p>
+<p>&mdash;Gure Medelek errege baino andiago izan nai bide du. Artzain, lurra oetzat zuelarik, burupean abarka zarrak artuta, erregek bezela lo egiten zuela, zerk eraman du Matrimonio edo Sacramento ortara, ostatari izatera? Agi danez, errege baten andia izan-naiak.</p>
+<p>Hotel Leaburu ta Hotel-jabeen izantza gogoz ikusi dute zure erritar auek. Ezagun da gose-egarri andi gabe bizi zeratela, batez ere zu. Eztakit zein zan esan zuena ingelesak ezurra ta zuk mamina jaten diozutela zuen garatz orri, <hi rend='Italic'>negozio</hi> orri.</p>
+<p>Medel: batzarre artan erabili genituen eraskinak, buruan baneuzka ere, enituke gaberarte adierazi al izango. Ori bai: guztiak ao betean eskerrak emateko eskatu zidaten, zure ostatu andi orri Leaburu izentzat ezarri diozulako. Tolosak berak Californian eztuela, uste du Anttonek, gure erriak duen osperik, aipurik, omenik.</p>
+<p>Onenbestez agur, Medel. Izan zaitez urrutietan emen zinan bezelako kristau ona. Etzaitut nere otoitzetan aantziko [aztuko]. Leon ere beronenetan, bear ere bada-ta, zuzaz egunero oroitzen da. Agur berriz.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>IRUGARREN EZKUTITZA</p><--</head>
+        </front>
+        <body>
+<p><foreign><hi rend='Bold'>United States, Sacramento (California)</hi></foreign></p>
+<p><foreign><hi rend='Bold'>V&iacute;a New-York. Leaburu Hotel, N-street, 313</hi></foreign></p>
+<p><hi rend='Bold'>1887-garren urteko Azilaren 8an</hi></p>
+<p><hi rend='Italic'>Leon Olazarretari Aitak</hi></p>
+<p>Mutil, zer gertatzen zaik? Mutiko ederra ago, bidali didakan izantzean [erretratuan] beintzat; zurbil, ordea, ta maskal-samar. Geiegi ikasten al dek, ala gutxiegi jan? Bazkaltegiko maiean ire barrua betetzen ezpadek, ikasguko maiean eztek burua bete al izango. Lanabes batek indarra bear dik. Galwestondik Californiara, lau egun ta lau gautan, gau ta gaberdi ekarri ninduan-orgadiak [trenak] orduko ogei bat leguako uxtua zeukan; bainan aren kea, aren sua, aren ikatz-erretzea ikustekoak zitukan. Lanak jana eskatzen dik. Ikasgu [<foreign>Colegio</foreign>] orretan eztuela inortxok ere euskeraz ezkutitzik egiten! Eta ik ere ire aita euskaldunari erderaz egin bear? Nik, orain amalau urte andi etxetik atera nindukanean, erdera gutxi nazekian, orain ala ere gutxiago. Emen <hi rend='Italic'><foreign>mexicano</foreign></hi> ta <hi rend='Italic'><foreign>chileno</foreign></hi> arlote batzuez landan, ingelesez ta euskeraz ari izaten nauk beti. Esan didakan erdia eztiat ulertu al izan. Neretzat latina latin dek eta erdera ere latin. Urrengorako eska zaiok orko nagusiari, aitarekin, korreoz bada ere, euskeraz mintzatzeko baimena. Nik naiago nikek euskeraz baino ingelesez irekin mintzatu, ez ingelesa euskera baino maiteago dedalako, bearrago degulako baino. Gure erriko baserritar ezer ikusi gabeak bestera uste izanarren, ingeles-mintzoa dek gaur-egunean gizonak bearren duena. Osaba apaizak nai lukenez, Leaburun beti izateko baaiz, arako eztek latinik ere bear. Nik, ordea, i, apaiz argitsua aizelarik, gutxienez Donostian parroku ikusi nai induket.</p>
+<p>Orretarako bear dekan eskuartea oparo ta purrustaka bidaliko diat. Asi adi len-bai-len mintzo bear-bear ori ikasten; maisua onena izan ditela ta irakas-saritzat beraren agoa neurri.</p>
+<p>Nere garatzak ederki zijoazik. Nere baltzu-lagun onek Mister Stephenson dik izena. Protestantea dek, baina gizon zuzena, zinezko gizona, gutxi bezelakoa. Ik eztakik zergatik utzi nian gure Euskalerri maite ori. Amabost urte dituk laster eta ire aita zuztarrez ezagutzeko garaia badek. Lau senide izan zinaten. Lenbiziko irurak, bata bestearen ondorean, udaberriko goizlore batzuk bezela, alkar ezagun ere gabe, il zitzaizkigun. I jaio intzanean, etzekiat nori otu zitzaion ik benturako umea izan bear uela, izeba Isabeli naski. Uraxe dek olako begizko ta sorginkeria oriek beti gogotan dauzkana. Berak eraman induen, jaio ta bateratsu, jaiegun batean elizpera, lenengo agertzen ziran gizaseme ta emakumea ire aita-ta amabitxi izateko. Orregatik aiz i Kaltzaundi ta amona Inaxiren besoetako semea. Bizi ote dituk berak! Ik urte ta erdi izan baino lenago il uen ire ama, nere emazte gaixoa. Nork esan Isabel ta Eladi aitama batzuen aurrak zirala! Urte beteren buruan, norbaitek puztuta, asi zitzaidan amona belarriak berotzen: Isabel emaztetzat artu bear nuela ta bear nuela: ni isilik. Bera uela iretzat amagairik onena, etxandre aundia zala, egilea ta eragilea: ni isilik. Etzaidak bein ere emakume ori biotzean sartu ta, amaginarraba maite izanarren, nere burua maiteago nian; eta bazkalondo batean, zearo oroitzen nauk, zearka-mearka ibili gabe, ezetz esan niokan.</p>
+<p>Geroztik egunak neretzat eguzkigabeak zitukan. Gorputza lokabe, baina gogoa atsekabez lotua nian eta auzo guztien aomingainean irrigarri nindukan urte ta erdi aietan. Nik alde egin bar. I uzteak biotza erdiratzen idan, baina erorren on-izate gerokoak onerontz ekarri nindukan.</p>
+<p>Norbaitek esan omen du bein Txerreni (<hi rend='Italic'>deabruari)</hi> Jaungoikoari irri ta parre egitea gogoratu zitzaiola. Burua gau ta egun alperrik maiz autsita, <hi rend='Italic'>beatak</hi> orretarako asmatu omen zituen. Arrezkero beatak (Isabel aurrena) or zebiltzek goizero elizan zinu ta kinu; eta sukaldean txingarrak itzalirik, altzari ta zokoetan autsa lodi, ta baratzean bare ta bare-kurkuilo, mamorro ta zomorro, landare jaten ari dituk.</p>
+<p>Nere egunik ilunenak aietxek izan zitukan. Nori eskerrak? Ala ere, i ongi azi auelako, barkatzen zizkat arrebatzakoari [ko&ntilde;atari] neri erakutsi zizkidan latzak eta beltzak.</p>
+<p>Orrera atseden-aldi bat artzera noanean eramango zioat berak naien duen zerbait. Ik, ezarian eta bestela baitakoan, jakik zer naien duen, nik, New-Yorken naiz beste nonbait, erosi dezadan.</p>
+<p>Nere ezkutitz luze oni atzena eman-orduko, itz eder batzuk jakinarazi nai dizkiat, Leon. &laquo;Aitarik or (Californian) ezpalu, emen leukake bat&raquo;. Ez al dek somatzen itz auek norenak diran? Ire osaba, nere lengusu, Adrianenak. Eztizkiot bein ere aantziko. Nere izantz eder bat urrengo korreoan bidaliko diat; nik irea bezela, ik nerea maiterik eta ageri-agerian iduki dezakan. Bidali neri osabarena ere. Agur, seme maite, nere mutikotxo yaiu ori. Bizi adi ongi ta lan egin zak gogoz, gizon andi izateko.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>LAUGARREN EZKUTITZA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>Leaburutik 1888ko Ostoilaren 30an</hi></p>
+<p><hi rend='Italic'>Sor Santa Catalinari beraren aizpa Isabelek</hi></p>
+<p>Leaburu osoa, Gazteluko mugatik asita Lizartza ta Belauntza ta Ibarrekoetara, izen batek betetzen du zortzi egun auetan: gure aizpa Eladi zanaren alargun Medelen izenak. Badakizu Amezketan izebaren etxean ginala, artalde ta beitaldeak, mendian beera jetxita, elizako arresietan azka ari ziranean, beren arran, dunba ta zintzarriz klan-klan, bulun-bulun, zein gozaro gure belarriak poztu oi zituzten? Alako ots pozgarrien ordez beste bat dantzugu emen astelenetik onerontz. Medelek au, Medelek ori; Medel gora, Medel beera; Medel, Medel, Medel. Geron izena aantzitzeko zorian bizi gera.</p>
+<p>Gure lengusu Adrian bereterrari ezkutitz luze bat egin omen dio.</p>
+<p>Nik artu banu, len ere orrenbeste egin degu ta, eztakit eskuratuko zuen. Gure mutila gizon egiteko eztegu inor bear. Diotenez, aberats porrokatua omen da. Orrek ere, esatea dan bezela, irinik adina lauso izango du. Urrutitik eskuzabal diruditenak, gerturaezkero agitz ardagaia baino legorrago izaten dira. Gainera etzaigu aantzi nor izan zan Medel. Zutik joango liraken gezurrak parra-parra esaten zizkigun. Beste aldetik, sinestean lanak ditu, bainan, dirutsua danaren zantzuak badakuskigu. Eztizkio, bada, Adriani mila ogerleko, mila astaperra andi, bidali? (Neronek ikusi ditut). Ori bai: arrokeria erruz darabilgu. Mutilarentzat piano berri kutsatu gabea erosteko, kattagorriak Gaztelu-gaineko mendietan iltzeko eskopeta ere bai, bi odiduna; irakasle burutsuenak Tolosan begiz jotzeko; elizaldean zerbait egin nai lukeala; eta Adrianek berak buruko ta soineko ta oinetako bitzuk berarentzat agindu ditzala. Neretzat goraintzirik ere ez; ezta nai ere. Neronek ero, muturzikin baten eskutikako ezer artu? Nola eginak ote dira beraren ondasun-meta oriek? Orain iru urterarte artxain baizik etzan.</p>
+<p>Bart zortzirak aldean ementxe eten bear izan nuen nere ezkutitz au. Goizeon, uste eztegula, Leon agertu zaigu, andi-andi eginta, mutil ederra. Espen onenak omen dakazki: <hi rend='Italic'><foreign>Meritissimus</foreign></hi>, ala nik dakit? Amarrak elizan jotzen eta beetik ojuka bera. &laquo;Nor ote da?&raquo; nik neronen artean. &laquo;Izeba, izeba&raquo;, ots egin ezpalu, enuen ezagutuko. Marrantaz datorrela esan liteke. Mintzura berria dakar. Txilin pitzatu bat bezela agertu zaigu: len ozen, orain motel. Gaur bereter eginbear balute, eluke mezarik oiukatu al izango. Ez al zaigu beti onelako mintzuraduna izango!</p>
+<p>Oneragino iritsita, beste etenaldi bat izan du nere luma-lantxo onek. Datorren astean Leon ta biok orrera joango gerala-ta ezkutitza urratzeko ari-arian egon naiz. Jaungoikoz eztet nere asmo ori bete. Banabil beraren soinekoak kutxatik ateratzen, garbiak egurastu ta zikinak garbierazteko arduratan: eta galtza batzuk astintzen ari naizelarik plaust! papertxo bat lurrera. Zabaldu ta, ene Jaungoiko maitea! <hi rend='Italic'>Leon Olazarretari beraren Aitak: </hi>Medel aoberoren ezkutitza. Eta nolakoa! &laquo;Asko jateko&raquo;. Otoitz egiteko ta ona izateko ez itzik ez mitzik. &laquo;Ingeles ikasteko, latinik eztala bear&raquo;. Ez, naski, apaiz protestante ezkondu orietako bat izateko. Ala semea olako txerren-apaiza izatea nai al dek? Baltzu-laguna protestantea omen da &laquo;baina gizon zuzena, zinezko gizona, gutxi bezelakoa&raquo;. Medelen itzak dira auek. Ori da (garbi agertzeko kemenik ezta) zearka-mearka auxe esatea: &laquo;Seme, ikasi ingeles-izkera, onera etorrita apaiz egin adi, emengo apaiz, emaztedun apaiz; eta i ere gizon zuzena, zinezko gizona, gutxi bezelakoa izango aiz&raquo;. Gure Adrianek etzuen sinetsi nai, nik joan dan neguan maiz azaltzen niona. Ba al daki inork, nik bezela, Medel nor dan? Gizonak burutsuak dirala? Bai, arto-zati batzuk eztiranean. Orain ikusiko du zein zegoen zuzen ta zein oker: bera ala nerau. Eta gero &laquo;benturako umea&raquo; nik egin nuela; ni begizko ta sorginkeri sinesle naizela (sorgina naizela esan eztuenean!); nik berarekin ezkondu nai izan nuela. Negarra tantoka darit. <hi rend='Italic'>Beatak, </hi>Jaungoikoari irri egiteko, deabruak asmatu zituela; eta arrezkero, nerau aurrena, goizero elizan omen dabiltza zinuka ta kinuka. Onera etortzeko ustea omen du. Betor, baina zure aizpa Isabel, eskean bada ere, Leaburutik ordu artantxe elkiko da, irtengo da.</p>
+<p>Gero zaplandari lotsagabeak neri zerbait ekarri nai didala ta Leonek, nik zer naien dedan, azpitik jakiteko. &laquo;Nik ezer artu ire eskutik? Utikan! erosi zak nai dekana ire lagun protestante orrentzat&raquo;. Izena ere egoki-egokia du: Mister. Entzun al dezu inoiz, aizpa, San Mister, San Leon ta San Adrian bezela? Nere buruaren jabe enaizela uste det, ain dadukat zorabiatua. Jaunak Eladi berarengana eraman zuenean, ni, nerau jarri ninduen Leon aurraren ondoan, bigarren ama izateko. Len esan det Medel datorrenean ni Leaburutik aterako naizela. Ez, ez enaiz elkiko; ementxe egongo naiz etxezain, ilobazain. &laquo;Eztiagu bear protestanterik&raquo;, esango diot. Ken, ken; oa ostatura, ardantegira, nai dekan tokira. Elizetxe batean ezin bizi ditekek, beatak Txerrenen alabatzat daduzkan gizon txaldar, narrats, lotsagaberik, sinespena galdu duen gizonik. Ken, ken.</p>
+<p>Berri izugarri auek neronek asmatu edo beintzat geitu ditudala esan eztezazun, biar goizean nere ezkutitz onezaz batera bidaliko dizut Medelek egina. Erakutsi ama nagusiari ere ta atzera len-bai-len nereganatu. Bitartean Adrianek naiz Leonek eska balekidate, Seminarioan utzi izango duela naiz beste olako zerbait asmatuko diet. Orrera goazenean ezjakin egin zerorren burua. Agur, aizpa maite. Egin otoitz inoiz baino gartsuago ta egin dezatela besteak ere gure etxekoentzat, Medelen alde ere bai, Jainkoak guregana etortzeko asmoa erauzi dezaion.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>BOSKARREN EZKUTITZA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>Leaburutik 1888ko Uztaren 4an</hi></p>
+<p><hi rend='Italic'>Emeterio Olazarretari Adrian Iriondo bereterrak</hi></p>
+<p>Zure txartel mamitsu, mila dollarreko txartel hura, artu nueneko, itsaspetik labur-laburtxo ta erderaz bederen erantzun nizun &laquo;dirua emen da&raquo; esanez. Geroztik Leonen berriak zearo eman al izateko, Garagarrilari lekuratzen utzi diot. Berri-mordoska ederra det oraingo netan: Leonenak, nere zertxobait eta uritarrenak.</p>
+<p>Oroitzen al zera Amezketako errotari zarra zaldiz, txerbelik eta beroxko zetorrenean ere, abereari itsatsita bezela, bein ere erori gabe, nola ibiltzen zan? Hura zaldiz bezen erraz dabilkigu Leon gurea, beronen biltzirrika-gainean. Arratsaldero joaten zaigu oinez Ibarreragino, burnizko zaldia musukotik daramala. An igotzen zaio ta tximista bezela Tolosara iristen da. Injenieru baten emazte ingelesak irakasten dio beraren izkera. Pianu-ekitaldiak organistarekin egiten ditu. Goiz osoa ematen du etxean arratsalderako atontzen. Saria ematera erenegundamu joan nintzanean, bi irakasleak ao betean esan zidaten ikasle antsiduna, arretatsua ta ulerkorra (adimen zorrotzekoa) zala; ta onela jarrikiezkero, organistak esan zuen au, datorren urtean Elizan zerbait jotzeko eztuela inor bear izango. Berau, Jaunari eskerrak, beti bezelako azkarra, otzana, aldarte onekoa ta lagungina dator. Maiean atsegin da Leon ikustea. Ezertxok ere eztio kalterik egiten. Gaztaren ondotik gereziak, naiz mamiaren gainean sagardoa, artuarren, edozerk on egiten dio. Eztute esaten abere ta pistien artean muxarra dala lotiena? Gure mutil au muxarkia dala sinetsi lezake beraz.</p>
+<p>Goiz geientsuetan esnatzeko, belarritik ten egitea ez omen du asko izaten. &laquo;Gizajoa&raquo; esanta, arpegia ureztatu bear izaten dio izebak. Gosaldutakoan nere mezatara etortzen da ta berealaxe asten da lanean. Nik ez jakin-bearra, beronen ikaskizunetan aria emateko adina! Baina nere aitaren egunetan pianoa ta ingeles-izkera zer ziran ere ez al zekien bat ez batek nere errian: Amezketan.</p>
+<p>Medel, nundik nora bururatu zaitzu neri soineko ta oinetako ta buruko bitzuk egineraztea? Esku-erakutsi bitzuri eskerrak ere bitzuk dagozkiete. Ala ere udarakoak baizik eztitut agindu. Neguan amabostean beintxo irtetzen naiz Leaburutik. Baserriko apaizari eztio inork begiratzen apain ala narras jantzia datorren. Udakoak aski ta geiegi ere baditut. Egun [gaur] astebete, San Pedro gure elizjaurri-egunean, burutik beerako estalki berri apainez agertzean, musua gorri-gorri nuen, ostu izan bainituen. Eskerrak berriz ere ta gatozen orain erritar auengana.</p>
+<p>Zure ondasunak dirala ta eztirala emen erakori dan zarraparra! Gutun orritsu bat (liburu andi bat) egin lezake nik aspaldion entzun izan dedana iratsi nai banu. Gure erritarren irudimenak eztio andaluzenari ezer zor. Sineskarritzat aski dala uste det erenegun ilun-nabarrean izan nuen erausia [izketa]. Badakizu nor dan Izurraingo neskazarra: Joxepi&ntilde;axi. Beti-betiko eztimetxa, izmizti, bigu&ntilde;a. Urteak gora-beera zimurtxo bat gabea da mutxurdin au. Ni baino zarrago dalako, berorika asi nintzakion bein izketan, bai neri damutu! ... Ea, berorika itz egiteko atxoa zala uste ote nuen esan zidan. Au utzirik, atzoko autua edatsiko dizut, mamina ere badu-ta.</p>
+<p>&mdash;Jainkoak iluntze on diola, apaiz jauna.</p>
+<p>&mdash;Bai, zuri ere.</p>
+<p>&mdash;Berorren etxera nentorren zertxobait jakitera.</p>
+<p>&mdash;Nere etxeak Leaburuarrentzat eztu giltzik, Joxepi&ntilde;axi: beti dezute zabalik. Eta zer da jakin nai dezuna?</p>
+<p>&mdash;Berorren lengusu Medelek kale ta guztiko uri berria Leaburun egiteko ustea omen du.</p>
+<p>&mdash;Jesus ta bat ala ere! Uri berria!</p>
+<p>&mdash;Elgoientarrentzat berorren baratzetik asi ta Malaerreka-gain-gaineraginokoa izango omen da. Ba omen du dirua, bai ta bear ere, Leaburu ta Gazteluren bitarteko zoko sakon ori lurrez betetzeko.</p>
+<p>&mdash;Amets egin al dezu, Joxepa?</p>
+<p>&mdash;Nere esan au ametsa baldin bada, erri guztia ta inguruetako beredin gizaseme ta emakume ere ametsetan ari dira. Donostian ez omen da inor Medelek adina diru duenik; eta Bilbon ere, bakan bakantxoren bat edo bestetxo.</p>
+<p>&mdash;Baina nundik atera dituzute, ordea, berri auek?</p>
+<p>&mdash;Apaiz jauna: Izurrain-aldera egin diteke ta erraz kale lerden ederra. Lurrak, aide kutsatuak era bagera-ta (Medelen aitona nere amaren bigarren kusua zan), garestiegi eniozke emango, onetarako izan ezkero.</p>
+<p>&mdash;Aitaren, Semearen!... Eta kale berri oiek jauregiz beteko dituela eztiote?</p>
+<p>&mdash;Zerbaitez bete bearko. Anttolin Saizarrek uste du olaren batzuk ere sortuko dituela: iraltsolak, burniolak...</p>
+<p>&mdash;Bai, orrelako zerbait izan bearko du. Gezurrolak sortzeko beintzat eztegu Medelen bearrik. Leaburuko etxe bakoitza gezurrola aaaundi bat da egungo egunean.</p>
+<p>Au entzun zuenean, arrizkoa zirudien Izurraingo neskazarrak; eta nik, errukiarren, ezpainetan parrirria nuela ta aopean bezela esan nion:</p>
+<p>&mdash;Joxepa, lenengo kalea Elgoienen egin ezkero, bigarrena Izurraingo mugak joaz Elbarrenaldera zuzenduko degu.</p>
+<p>&mdash;Gezurra zala-ta?</p>
+<p>&mdash;Nik orduan egin nuen parrezantzoa [algara] Baxatxurron ere entzun zezakean. Joxepi&ntilde;axiren buruan zure aberastasunak, elurra izotz-gainean bezelaxe, gogortu ta mamitu al dira: belarria egingo nuke.</p>
+<p>Atzo, eguerdirian, eskolandrearen bitartez Alkateari, etorrerazita, esan nion:</p>
+<p>&mdash;Juan Joxe, erabaki al dezute Medelek beraren jaioterri onetan egokien egin lezakeana?</p>
+<p>&mdash;Jauna: iru aldiz bildu gera sei zinegotziok; eta ezin elkar bat egin degu. Elgoientarrak beren baldernan kale berri bat nai lukete, Elbarrentarrak aldiz Egi ta Garmendiola-bitartean beste zerbait nai: batzuk ola berri bat, erregebidearen guraria ere erakutsi dute. Ezin batu gera. Onen onena len-bai-len berori guregana etortzea izango da.</p>
+<p>&mdash;Noiz joko degu alkarrengana? Igandean? Ala nai dezute gaur, zortzirak aldean, bildu gaitezen?</p>
+<p>&mdash;Berorrek nai duena.</p>
+<p>&mdash;Tira bada, gaur. Ots egin beste bost lagunai ta gainera ezta gaizki izango elizaina ere udaletxera agertzea.</p>
+<p>Bi ordu oso iraun zuen gure jarrialdiak. Amarrak jota atera nintzan andik. Isilaldirik, ardoa ekarrerazi nuen bitartean, etzan besterik izan. Argiroago jakin dezazun, lenengo iztuna Alkatea zan; bigarrena, Antton Barandiaran; irugarrena, Martin Loontxo; laugarrena, Anttolin Saizar; boskarrena, Iturgoien; seigarrena, Mendigibelko Manu andi; zazpigarrena, nerau. Elizainak (emen aipatzen dutenez, <hi rend='Italic'>mariordomuak) </hi>zurrut, entzun ta parre: etzuen besterik egin.</p>
+<p><hi rend='Bold'>II</hi></p>
+<p><hi rend='Bold'>LEABURUKO UDALETXEAN</hi></p>
+<p>Neronek autsi nuen iztun-esetsia:</p>
+<p>&mdash;Gizonak: lengusuari len-bai-len erantzun nai nioke eta erabaki ezazute zer naien dezuten Medelek Leaburun egitea.</p>
+<p>Lenengoak: Alegia! eguerdi-aurrean aitortu dedana gertatu zaigu emen, apaiz jauna. Batzuk au, besteak ori nai lukete; Elgoientarrak Elgoienez oroitzen dira; Elbarrentarrak eztute aintzat artu nai besteen gogoa; ta gu... gu... len baino nasiago.</p>
+<p>Irugarrenak: Nasiago, nasiago! Elbarren ez al da Leaburuko alderik zabalena ta etxez ornituena?</p>
+<p>Bigarrenak: Ori uste dek ik Elbarrentarra aizelako. Elgoienen jaio baintz...</p>
+<p>Irugarrenak: Elgoien! Utikan! Ez al dakik nundik datorkion Leabururi txalburuerri gaitzizena? Elgoiendik, zuen balderna orretan arkaitzak eta igeltsotegiak baizik eztiralako.</p>
+<p>Bigarrenak: Txalburuak Elgoienen! Eta nundikoa degu Leaburuarrok zurrutero-gaitzizena? Elizaz beetikoa, zuenganikakoa. Txaraman ta Tolosako mugatik gertu bizi zeratenok Muttur-oker ta Ttotta ta Juju maite omen dituzute.</p>
+<p>Irugarrenak: Arraio-pola! Ori ere esan? Nik eztiat inoiz Leaburuko gizasemerik, Elgoientarrik ere, urik edaten ikusi. Ez al dek, Antton, nabaritu nork oratu dion gaur aurren-aurrena ardo-bonbilari? Erorrek. Eta Juan Joxe alkatea ta Iturgoien ere eztituk atzerenak izan zurrut egiten.</p>
+<p>Guztiok: Ja-ja-ja-ja-ja.</p>
+<p>Bigarrenak: Aizak, Martin Loontxo, nun dek or, ire Elbarren orretan, Arburola baino auzotegi ekarkorragorik? Ango gari-artoak! Ango gerezi eder, marrubi gozo, belardi mamintsuak!</p>
+<p>Seigarrenak: Eta Egi. Tolosa guztia ikusteko gaintxo ederra? Elbarrentarrak izan ezpalira, Gazteluk jan izango zituen zuen galsoro ta artalanda, gerezi ta marrubi oriek, txalburu ta guzti.</p>
+<p>Nik: (Eskuz maia jota). Gizonak: nik entzutea dedanez, Venezia, Errepublika aberatsa, orain seireun bat urte Europa guztira salgaiak ugari itsasoz zabaltzen zituena, amar gizonen buruzpidean bizi izan zan. Leaburuarrak izan balira, sei ez, zinegotziak seireun izanta ere, naikoa lan izango zuten buruzpidetzeko, batez ere Elgoien ta Elbarren an izan ezkero. Elizaldea guztiona dezute. Egin dezagun zerbait ementxe; ta orrela, naiz goien-naiz barrentar zeratela, oro erara aseko zerate.</p>
+<p>Lenengoak: Alegia! Gaizki esana eztirudi. Ni elizaltarra naiz eta goiko balderna ta bekoa biak zaizkit berdin.</p>
+<p>Seigarrenak: Eztiat uste. Ire arkaitz ori nun zegok? Elgoienen. Ire emaztea nungoa uen? Elgoiengoa. Zeintzuk egin aute Leaburuko alkate bein ta bi ta iru aldiz? Elgoientarrak.</p>
+<p>Nik: (Berriz maia jota). Gizonak: zer nai dezute Medelek egitea?</p>
+<p>Laugarrenak: Apaiz jauna: iturri andi eder bat, itaskak aldamenean dituen bat, ortxe, elizondoan, Urkieta-bitartean izango litzake egokiena: auxe uste det nik.</p>
+<p>Bigarrenak: Antton Barandiaran naizen bezela diot: urrutiegi degula Elgoientarrok, batez ere Gazteluko mugan bizi geranok, toki ori, gu ur-eske orrera etortzeko. Iturri andi eder bat Elbarrenen bear bada, Elgoienen ere beste iturri andi...</p>
+<p>Boskarrenak: Ori, ori, Antton! Ez utzi.</p>
+<p>Lenengoak: Erreplubika! Erreplubika esan du, apaiz jauna? Nun beste bat Leaburuko baino andiagorik? Alegia! Iturriak len ere baditugu. Arburolan ez al dezute Galitzia ta beraxeago Malako iturria? Arkaizpean Zubite degu. Gainera or dira Linosineta, Ebro... Jainkoak lagun! Zertarako ur geiago? Ardo-iturria balitz...</p>
+<p>Guztiok batera: Ja-ja-ja-ja-ja-ja.</p>
+<p>Boskarrenak: Nik ere orrelaxe uste det. Bide berria, erregebidea, da bearren deguna: au itsuak ere badakuste. Orretarako bear dan eskuarterik erdia aldundiak [Diputazioak] agindu digu; beste erdia Medelek eman ezkero, gu...</p>
+<p>Bigarrenak: Gu ere amak ezkenituen erdizka egin, osorik sortuak gaituk. Gizonari etzaio erdirik ezertxo ere eskatu bear. Badakizute nor dan Tolosako Terexa, <hi rend='Italic'><foreign>dama de seda </foreign></hi>izendatzen dutena? Oraintxe iru bat urte Lourdesen izan omen zan eta beste ikusgarri askoren artean bide berri, asmo berriko bide bat, ikusi omen zuen, kaletik mendirakoa. Zearka ibili gabe zuzen-zuzen joaten omen dira betik gora, zzzzzsit! &laquo;Aitaren&raquo; egin orduko.</p>
+<p>Boskarrenak: Orrela dalarik ere, bide ori, gizonak iragotzeko, tira! ona izan litekek; baina gure gurdiak, batez ere zamatuak diranean, aldapa gora ekartzeko, istilu gorriak izango lirake.</p>
+<p>Bigarrenak: Gurdiak ere idi ta guzti Ibarreko elizaldean, goitik beera ta beetik gora dabilen burnizko soka lodiari lotuta, zzzzsit! Leaburun; Gaztelura bear bada, lotu berriz ere ta, zzzzsit! Gaztelun; Orejara igo bear izan ezkero, berriz ere lotu ta beste zzzistada batean an zijoazik idi ta gurdi ta itzain, Artesburu ta Larte baino ere gorago. Au egiegi-egia dek, Antton Barandiaran naizen bezelaxe.</p>
+<p>Irugarrenak: I Antton Barandiaran ba aiz, ni Martin Loontxo Etxeberriko nauk eta nik ere badiat zerbait esateko. Guk iturri andi bat aski ez ta bigarrena ere nai ta, ala jaina! aundia, itaska ta guztikoa bigarrena ere. Erregebidea ere bear degula, kaleak ere elizaz goitik eta beetik. Apaizak esan omen du bat Malaerrekara, bigarrena Izurrain-aldera egingo dirala.</p>
+<p>Nik: Nola, nola?</p>
+<p>Irugarrenak: Ez al zaio Medeli gertatuko igeri dabilenaz esan oi dana: &laquo;murgilean sartu ta azalera irten baino lenago topoa arkitu&raquo;? Amerikako aberastasunak! Ni ere Ameriketan izan nauk eta ango berri bazekiat.</p>
+<p>Bigarrenak: Martin Loontxo: joan adi or beko Zumardira amaikak-aldean. Egunero ikusiko dituk tokan jokatzen, maukutsik eta iruna astaperra eskuan dituela, indiano-mordoska bat. Begiratu aien lepo gorri mamintsu ta sabel-zorro borobilari. I ere Ameriketan izan aiz; baina ire zerailtasunak, ire ezur zorrotz oriek ik egin uena agertzen duten neurri berean, Zumardiko indianoen garondo gorri ta zilbor beteak egoki azaltzen digute Ameriketan bat baino geiago erruz aberastu izan dirala.</p>
+<p>Lenengoak: Demonies pesteena! Eztegu gaur ere ezer onik erabakiko. Batzuk iturria goiean eta iturria bean, besteak erregebidea, Anttonek sorginbide ori litekela onena. Don Adrian: esan bezaio lengusuari datorkigula bera len-bai-len; ikusi dezala berak zer dan bearren deguna ta gu berak egin nai duenaz poz-pozik egongo gera. Eta gainera Alkate izateaz aspertua ere banago ta izan bite bera gure erri onen buru.</p>
+<p>Nik: Gizonak: alik zeatzen erakutsiko diot lengusuari emen gertatu dana. Biar goizetik jaiki bearra naiz, berandu ere badegu ta Jainkoak dizutela gau on bat.</p>
+<p>Au esanta elki nintzan. Irugarren bonbil andia erdi beterik utzi nien ta aien bigirak noiz arte iraun ote zuen batek badaki.</p>
+<p>Agur, Medel. Badakizu zein dan zure erkide, zure erritarren gogorik andiena: zu emen len-bai-len ikustea. Laugarren papertxo au eztet bete nai, Leonek ornitu dezan. Hurrengo arte.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>SEIGARREN EZKUTITZA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>Leaburutik 1889ko Epailaren 15an</hi></p>
+<p><hi rend='Italic'>Sor Santa Catalinari beraren aizpa Isabelek</hi></p>
+<p>Larunbat guren-eguna izanarren, oilo ilak lumatzen ari nintzan, zure ezkutitza artu nuenean. &laquo;Berriak asko ta onak, argiro ta zearo&raquo; emateko. &laquo;Iztuna nor dan, oiulariak nungoak eta zeinbat...&raquo; &laquo;zeinu berriak nolako otsa duten...&raquo; &laquo;Eliza berriztatuaren izantz bat len-bai-len bidali&raquo;.</p>
+<p>Ori dezu, aizpatxo, galea, leia; ori asnasestua, ori ito-bearra!</p>
+<p>Laurdenegun-atzetik, oilo-bipiltzen; laurdenegun, berrogei bat sabelkoi egazti ta bildoski ta arrainkiz ase ezinik; erenegun, eskuerakutsiz etorri ziran auzolagun asko aragiz ta gibelez ta piper andiz este-betetzen; atzo, zutik ere lo: onelaxe igaro zaizkit egun auek, ogei itz etentzaka esateko astirik [betarik] gabe. Beizama-gaineko Urdanpiletatik arranpalo agertzen omen da gure Elizatxo txirrin-berri, txukun au. Zeinutegia andiago egin baliote, badakizu zer irudi izango zuen? Tolosan, inautegunetan, aitaren kapela buruan dutela ibiltzen diran aur aietako bat. Txikiago ezarri baliote, ostera, asmo berriko motots txikia kaskarrean darabilten anddere buru-loka irudi izango luke. Leaburuko eliza ponpox onek etzuen bear beste txirrinik [zeinutegirik], oraintxe duena baizik. Zeinuak [ezkilak] ere egokiak ditu ta uri askotan baino geiago; lau, laurak ozenak. Bik, sakonago jotzen dutelarik, gizazeinuak dirudite; beste biak, ots goi meagodun dirala, emaezkilak.</p>
+<p>Txistularia ta ttunttunduna, Amasako semeak biak, <hi rend='Italic'>Inazio gure patroi aundia </hi>jotzen aurretik ari zirala, Juan Joxe Alkatea ta bost zinegotziak, oi bezela, udaletxetik ateratzean, asi ziran zeinu berriak oska. Beren otsa entzunta, sukaldeko bost emakumeok txaloka, eltze ta kazpel, burruntzi ta brisela sutan, aingeruen ardurapean, utzita, leioetara irten ginan. Elizaurrea, sagar-urteetan sagaztiak alez bezela, gizakiz bete-bete-betea gekusen; eta oro, txilibitariak ere bai, gora begira birloratuak zeuden. Eztakit zer sartu zitzaidan belarrian barrurago: zeinuen otsa, ala gizon ta gixon, andere ta anddere aien zalaparta. Begiak malko gozoz bustirik genituen ta ezpainak barrez, zintzurra deadarka ta biotza taup-taup zebilzkigun-artean. Alako pozaldirik eztu ez nere ez besteren gogok, Leaburuarrenek beintzat, egundo izan.</p>
+<p>Tamalez nik, Pazko izanarren, goizmezatxo batez naikotu bear izan nuen. Meza nagusitan itzaldia ta oiuketa nolakoak izan ziran eztakit. Oiulariak Tolosarrak omen ziran geienak. Aurpegiz enituen ezagutzen, urdailez ederki ezagutu ditugu: aien jan-edanak etzuen amairik. Iztuna [sermolaria] Adrianen apaizlagun bat zan, Amezketako seme ta Azpeitiko bereterburu [artzipreste] jauna. Hura jarri zuen gureak maipuruan. Eseri-aurretxoan, an nintzan ni, bi zuku-ontzi eskuetan nituela, Adrianek, txalo batez berritsuak isilerazita &laquo;bereterburu jauna, <hi rend='Italic'><foreign>benedicite&raquo;</foreign></hi> esan zion.</p>
+<p>&mdash;Nik emen eztiat aginpiderik, egin zak erorrek.</p>
+<p>Eta gureak, bear ere ala zan-ta, maia onedatsi zuen.</p>
+<p>Bazkari artan Adrianek eralki zuen-diruen diruaz baratze zabal, lur mizkeduna, arresi ta guztikoa, erosi liteke. Ni, zorionez ama zana bezelako gordea izan, ta lenago erriko jaietan, ausartzen nintzakion Adriani esaten: &laquo;Zertarako eralki onenbeste diru? Urdailak ematen zaion guztia artzen du. Atzo erriogia ta arakaia irentsita, biar arakaia ta erriogia jan bear dutenai, ezin bada, bi zukuren urren, eltzekariak eman, gero bi jaki ugariz naia egin dezaten?&raquo; Orain eztet kemenik onenbeste agertzeko. Gure amak maiz aitatzen zuen au: &laquo;alper da Maria makilatu, berez bear du&raquo;. Lanik alperrena Adrian makilatzea (Adriani xurtasuna oroitzea) dala uste det. Donostiko arroztegi [Hotel] ospetsuenetan bezelaxe bazkaldu zan igandean Leaburuko apaiztegian; astelenean, Tolosako ostatu onenean eztai-egunetan bezelatsu.</p>
+<p>Sei bat aldiz agertu nintzan ni bazkaldarren-artean. Gezur-agindun apaiz burutxuriak ere mauka-mauka ari ziran beti. Olako zauta bat, olako bonbonkada bat beste elizgizon baten etxean, nun?</p>
+<p>Gure apaiza illunxko ikusteak mai-lagunen mamurketak baino ere arrituago nendukan. Beste asko artzen baino pozago egoten da Adrian ematen. &laquo;Beronen bizitze osoan, ain zuzen ere egun [gaur], larritu ote dio aldarte beti alaia, sakel-zabalegi izateak!&raquo; esaten nion nere buruari, bainan enuen ala uste. Bazkaldar zarrenak, &laquo;zer dek?&raquo; garerdikoak, &laquo;zer dezu?&raquo; gazteenak, &laquo;zer du?&raquo; galdetzen ziotenean, gogoz bestera erantzuten zieten: batzui &laquo;etzekiat&raquo;, besteai &laquo;eztakit&raquo;, buru beltzenai &laquo;pzzzz&raquo;. Alako batean etzuela lorik egin al izan buruak eman zion, eta gogoa maiean, txalin ta erratilu-artean, gabetanik, ogera begira zedukala.</p>
+<p>Bazkalartean Leonen ezkutitza ekarri zioten, Seminariotik bidalia. Gaizo, Amaren seme yaiu orrek! Noiz uste izango uen osaba maitea, ire izlerroak irakurrita, auspeko sua bezela, geroago epelago, geroago otzago egingo zala? Lengusua zurbil ta maskaltxe ikusirik, neronek galdetu nion orduan, boskarren otarraina [langosta] mai-gainean utzita:</p>
+<p>&mdash;Bainan esan ta esanta ere, zer dezu, Adrian?</p>
+<p>&mdash;Txekor bat Arburolako belardietan baino pozago izango zala gure artean bera, dio Leonek.</p>
+<p>Au edatsita antzi bat egin zuen, zautalari guztiak arritzeko antzi barru-barrutikoa. Gizagaizoak, zauzkadaak estaltzearren noski. &mdash;Don Agustin, Belauntzaldean ze berri?&mdash; galdetu zuen. Belauntzako arima-zainak &mdash;bainan zer dek, mutil?&mdash; erantzun zion.</p>
+<p>&mdash;Logale, enauk besterik: ez bazkaldar, ez mailagun, ez gose-egarri, ezta gizon ere enauk. Begi batez bestea ezin ikusi diat.</p>
+<p>&mdash;Nik ere ez, ispilu-aurrean jarri-ezik &mdash;eta urrezko betaurreko-gainetik zurt eta tinko begiratzen zion bereter mugakideak.</p>
+<p>&mdash;Isabel: gure bazkaldarrok neregatik meza-entzuleak bezela egon eztitezen, eraman Elizgelara [Sakristiara] etzataulkia, ordu ta erdiko loa bederen egin dezadan. Gizonak, gero arte.</p>
+<p>Au esanez jaiki ta barruko bidetik Elizara joan zan gure lengusu atsekabez astundua.</p>
+<p>Eztezu gaitz, aizpa, ni arratsalde artan nola nengoen somatzea. Buruko ileak, adats osoa, emango nuen Leonen papertxo hura irakurtzearen ordez. Nerau enintzan eligizonen maiean geroztik agertu. Or arratsalde-apalean zautalariak bakoitza beraren kabira alde egiteko zeudetela, beretariko baten eskabidez Adrianen bila asi nintzan. Elizan zegoen eserita, buru esku-artean zuela, errukarria! &mdash;Orain ere logale?&mdash; esan nion, aldarte ona, enuena, idurikatuz. Lagunak begira daduzkazu.</p>
+<p>Istar-zabalka Eliza-barrualdetik etxe-atarira joan zan. Amabost apaiz ziran, eskerrak emanez, eskua estutu ziotenak. Berak iztunari, aopean zerbait jakineraziz, geratu eragin zion. Nik, ori ikusi nuenean, nere buruari nirautsan: Isabel, etzera emakumea, orien autuak kirika ezpaditzatzu.</p>
+<p>Aparitan berakin iduki ninduten, bainan etzuten berarizkorik deus aitatu: Seminarioko mutilkeri batzuez parragarriro oroitu zan Azpeitiko eliznagusia. Apalostean elizpera joan ziran; ni, bizkortxo elizbarrutik elizatarira joanez, beren alde-alde belauniko jarri nintzan, begiak opalmai [aldare] ilunduan eta belarriak ate nagusian josita bezela nituela. Adrian, Adrian Iriondo, Amezketako seme argi, Leaburuko bereter ospetsu ori, etzaitut bein ere ikusi onen larri ta ilun. Nola esan diteke <hi rend='Italic'><foreign>jeroglifico</foreign></hi> euskeraz? Auxe izan zera bazkalondo luze osoan zure lankide guztiontzat. Zer ote du Adrianek? Berorren iloba Leonek Amerikara joan nai duela esan ote dio? Eri ote da? Ote: iztxo au amar aldiz aipatu eztuen bereterrik ezta izan egun Leaburun. Aska zazu biotz ori.</p>
+<p>&mdash;Orretarakoxe gera-erazi zaitut.</p>
+<p>&mdash;Ilobak lobea [sotana] uzteko gogoa erakutsi al dizu?</p>
+<p>&mdash;Jaunari eskerrak etzaio olakorik inoiz bururatu. Beretergai ona degu, erakusmenekoa.</p>
+<p>&mdash;Beraren ezkutitza irakurrita antzi bat egin dezu-ta...</p>
+<p>&mdash;Leonek ez, beraren Aitak, Medelek, burua arduraz bete dit, atsekabez biotza, atsekabe gorri-gorri-gorriz.</p>
+<p>&mdash;Zeinu berri auek eztituela ordaindu nai, adierazi al dizu? Ezin ditzakeala? Olako zerbait noski?</p>
+<p>&mdash;Ez: Medelek sakel betea ta biotz ona ditu, agintzen duena eztu betetzaka uzten. Sakela ta biotza bezelakoa balu burua, hura liteke gizona! Ona emen, argi ta garbi, gertatu zaidana. Larunbat-eguerdian, atzo, ekarri zidan korreoak beraren ezkutitza.</p>
+<p>&mdash;Ba al dezu pizkarririk, arrastik, aldean?</p>
+<p>&mdash;Baietz uste det. Bost-sei baditut.</p>
+<p>&mdash;Goazen orduan nere langelara, gutxi dira-ta.</p>
+<p>Aiek Adrianen langelara baino lentxeago iritsi nintzan ni bearen aldameneko etzatokira. Eztakit bi gela onen bitartean aterik ote zan zu emen zeundenean. Aspaldi luzean an da beintzat kirikate [kirikatzeko atea] izateko aterik egokiena, iru bat beatz laburregia. Gela batean esaten dana bestean erraz entzuten da. Langelara sartuta, Adrianek argia irazeki zuenean, lagunak latinez zerbait esan zion. Enion ja ere ulertu. Luze iraupentsua da Medelen ezkutitza. Isabel banaiz, urrengo Lasarteraldian eramango dizut. Orain beraren mu&ntilde;a soil-soilik aitatuko det. &laquo;Nere baltzukide onek (Mister Stephensonek) eriotze-aurretxoan maiterakutsi [fabore] auxe eskatu zidan. Mister Mit: lau izaki uzten ditut zinez maite ditudanak: emaztea, alaba, garatza ta zerori. Nere maitetasun laukoitz onegatik ar zazu, otoi, emaztetzat nere alaba. Lentxoago dio Medelek beraren izen Emeterio, osorik inola ere ezin esanez, <hi rend='Italic'><foreign>Mister Mit </foreign></hi>etxe artan izendatzen zutela. Olazarretaren ordez <hi rend='Italic'>Oleiz, </hi>Olaz, esaten omen zioten. Onela nere emaztearen seme ta gure garatz andi orren jabe bakar zu izango zera&raquo;. Gero Alice (au omen du Mari Zirtzilek izena) neskatila ona dala; ta au adierazteko, eun zurikeria. Arako Mister il zana (zakur bat bezelaxe il izango zan) eredua, erakusmeneko gizona zala, alkar maite zutela; ta au adierazteko, beste eun bigu&ntilde;-migu&ntilde;keria. Atzenez (oroitu zaitezte orain zuk eta zuen Ama nagusiak ere neri maiz aipaturiko onezaz: nik Medel zan baino ere zeragotzat nedukala), atzenez, dio zuen Medel orrek, Aliceri ezkontzeko itza eman diola, Alice ori <hi rend='Italic'>besterikoa </hi>dala ta Adrianek bear diran agiriak len-bai-len eskuratu ta berari bidaltzeko.</p>
+<p>Eta, kertenak alakoak! ezkutitzaren asieran &laquo;Leaburu-Hotel, Sacramento ta Street&raquo; emen ere berriz erakutsi al ditu. Ezago i Sacramento txarra! Elizarako zeinuak onenak eta ugari ekarri, besteai dei egiteko noski. Sartzen ote aiz erori Sacramento orretako Eliza batean ere!</p>
+<p>Azpeitiko bereterburu ta Leaburuko arimazain jaunak gutxienez ordu-laurden batean ari izan ziran gero <hi rend='Italic'>besterikoa</hi>ren zentzuna, adierazpena, azaldu-ezinik.</p>
+<p>Eta onetarako ikasi dituzute Teologia-Meologia oriek! Itz egitea zilegi izan banu, nire kirika-zokotik esango nien: &laquo;Eztakizute, gizonok, ala eztezute jakin nai <hi rend='Italic'>besterikoa</hi> zer dan? Gu, katolikoak, kristau onak geralarik, Mari Zirtzil besterikoa, kristau txarra, dala; kristaua baldin bada. Ez al zerate oroitzen, elizgizon agurgarriok, egia aundi onezaz? 'Gurasoak nolakoak, umeak alakoak'. Aita, arako Mister hura, zer izan zan? besterikoa. Alaba ere orixe, berberori: besterikoa, protestantea izan bear&raquo;. Nik au esango nien, bainan isilik egon bear. O Leaburuko nere eliza maite, nik ainbeste urtetan jai berriz [Korpuzez] ta erriko jai-aurrean ta beste egun askotan gure baratzeko lore zuri ta gorriz ain maiterik apaindu zaitudan eliza lirain, santu ederdun, maitagarri orrek: orain bezela Protestante-usaina darikala baino obe uen, Medelen zeinu ta zeinutegi gabe, txukun-txukunik ta isil-isiltxorik bizi izan. Ta i, Adrian gaizo, Euskalerriko apaiz sakel-zabalen ori, izango ezaiz, bada, logale, kristau ustelakin artu-emanak ditukan-artean?</p>
+<p>Gero, latinkada batzuk berriz ta berriz ezpainetatik aterata, Azpeitikoak gureari esan zion:</p>
+<p>&mdash;Gaugiro ederra degu ta goazen udaletxe-aurreko zugaztira. Eztio eguratsak gure buruari kalterik egingo, batez ere zureari, Adrian Iriondo.</p>
+<p>Zoritxarrez zugazti artan ezta kirika-zokorik eta ni sukaldera, nere lankide sailtsuai lagun egitera, jetxi nintzan.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>ZAZPIGARREN EZKUTITZA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>Leaburuko Gizurena</hi></p>
+<p><hi rend='Italic'><foreign>Ecos del Urumea</foreign>-ren zuzentzaileari Vasco de Gaintza-k</hi></p>
+<p><hi rend='Bold'>&mdash;I&mdash;</hi></p>
+<p>Egun aundia, urrez erartzeko eguna, goizeko eguzkiaz jaio ta arratsaldekoaz ila izanarren, Leaburuko semeen oroipenean beti argi ta alai bizi izango dan eguna: <hi rend='Italic'><foreign>La Bastille</foreign></hi> frantzes lokabetuen eskuetan erori zan urteurrenekoa, uztail onen amalaugarrena. Aurregunean [bezperan] zuzentzaileak, Zumalakarregik beraren iskilo-lagunai bezela, labur ta elexur [lakoniko] esan zidan: <hi rend='Italic'><foreign>Hotel de Embajadores-</foreign></hi>en omen degu Leaburuko gizona: Medel. Zoaz ta ekutsu.</p>
+<p>Atean ots eginda nere izen-txartela bidali nion.</p>
+<p>Sudurpeko beltz, luze, erpin-zorrotza; masailak gorri; sudur zubitua, enda-sudurra; bekokia, zabal ta edatsu, gogamen andi ta asmo sakonen kabia; sorbaldaz azkarra, menditarra ibilkeraz, mintzuraz gizaldi zarretako izkudaburua [almirantea], begirakunez antxume-zaina; kaskarra zuta, zilarrariz apaintzen asia; izkuntzaz, Henry irugarrenaren mezularia Gizpuzkoan, naiz Giputzena Londresen izateko egokia; baserritar <hi rend='Italic'>gentlemandua: </hi>burutik beatzetara gizona. Auxe ikusi nuen Leaburuar ospetsua agertu zitzaidan liparrean [unean].</p>
+<p>Nere <hi rend='Italic'><foreign>buenas noches</foreign></hi> erderazkoari <hi rend='Italic'><foreign>good evening</foreign></hi> berak erantzun zion. Nere arrimena nabaritzean, &mdash;Gaintzako semea ez al zera?&mdash;, galde egin zidan.</p>
+<p>&mdash;Bai, zure mendeko.</p>
+<p>&mdash;Ni, zure eskuerako, Leaburuarra. Eseri ta euskeraz mintza gaitezen, Erri.</p>
+<p>Udaro ministrorik asko izan ditu Vasco de Gaintzak autulagun; batek ere eztio, Medelek bezela, erdi titili-potolo itz eragin. Begien bigu&ntilde;tasunari esker, bereala neronen kaburatuta, neraman-asmoa zein zan itz gutxitan erakutsi nion: Leaburura berarekin batera biaramonean joan ta ango berri nere Egunerokoari ematea.</p>
+<p>&mdash;Zortzi ta erdietako orgadian gure laguntzan Tolosaratu zaitezke. Orain, ordu-erdi barru apaltzen asiko gera ta, nere emaztea zuri aurkeztuaz, maikide izango zaitugu.</p>
+<p>&mdash;Emaztearekin etorri al zera?</p>
+<p>&mdash;Bai, ezkonberri gera ta Europan eztaiondoa igarotzeko gogoa izan degu.</p>
+<p>&mdash;Emendik Parisa edo?</p>
+<p>&mdash;Nere gogoa oso-osorik beteko balitz, Leaburutik enintzake aterako, berriz Californiara joanarte; baina Bostonen jaio, San Franciscon azi ta Sacramenton bizi dan emakumea, peko [esklabo] izatekoa ezpada, Madril Paris ta Londres ikusi gabe, ezin eramana izan liteke urezandiko beronen errialdera.</p>
+<p>Egunerokoan noraezeko lantxo bat izan ezpanu, beronen apaldar bear nuen. Aren arrata, aren ekina!!</p>
+<p>Urrengo goizean zortzi ta erdiak-aldean gelunera [estaziora] iritsita, Medelen eskua estutu ta emaztearena doi-doi aztatu nuen.</p>
+<p>Tolosara-bitartean, senarra adierazle zala, Mistress Medel Olaz-ekin elealdi laburtxo bat izan nuen. (Linozkoa dirudi bere adatsak).</p>
+<p>Donostiaren edertasuna andia zala; Canada ta Euskalerriko mendi-basoen antza, alaber; euskerari goxoa zerizkiola; <hi rend='Italic'>nere maitea, eskerrik asko, ala Jaina, senarra, sagardoa... </hi>ta beste zertxobait ikasi zuela; baina gure mintzo au <hi rend='Italic'><foreign>very very hard, difficult</foreign></hi> (oso zaila ta gaitza) zala uste zuen Mrs. Olazek.</p>
+<p>Tolosako gelunean Leaburutar-mordoxka bat, apaiz ta alkatearen ondoren, agertu zitzaizkigunean, beste bat zirudien Medelek. Ordurarte, isiltxorik izketan, uritar jatorra, <hi rend='Italic'><foreign>gentleman </foreign></hi>berarengan ikusi nuen; geroztik, batari &laquo;kaixo, mutil&raquo;, bestea bizkarrean jo, baserritar uts-uts kutsatu-gabea zan. Begiak pozez &ntilde;ir-&ntilde;ir zituela, lenen beraren seme beretergaia ta lengusu bereterra aurkeztu zizkidan; gero beste seirak; onelaxe:</p>
+<p>&mdash;Gaintza: ona emen gure alkate Juan Joxe Eizagirre. Adi zazu: alde batean eun milloi gizonen buru dan Mac-Kinley eta bestean berreun bat Leaburuarren agintari Juan Joxe, zein nai autatzeko, esan balezaizute, zalantza-malantzan ibili gabe, itsu-itsuan, angoa utzi ta gure gizon au ar zazu. Beste bost morrosko auek Elgoien ta Elbarrentarrak autaturiko zinegotziak ditugu: Antton Barandiaran, Martin Loontxo Etxeberriko, Iturgoien, Anttolin Saizar ta Mendigibelko nagusia. <hi rend='Italic'><foreign>Time is money</foreign></hi>, aldia dirua dala, esan oi dute an goietan. <hi rend='Italic'><foreign>Word is good</foreign></hi> esan diteke Mendigibel ezagututa: itza urrea dala. Munduan ura baino beste edaririk ezpalitz, Mendigibel mutu ginuke. Lena baaiz beintzat. Ez al dek egia, lagun zarra?</p>
+<p>Txikitako lagun guztiai adiskidez, irri-mirrika ta zipladatxoren bana zuzenduz itz egiten zien beren erritar aberats onek.</p>
+<p>Aurretik Leon, bereterra ta Mistress Medel zijoazen. Leonek, aita noizean bein lerdea zeriola begira zuelarik, ingelesez amordeari Tolosako berri ematen zion. Medel gero baino gero ikasgarriago nuen ta enintzan urrats bat ere berarengandik lekuratzen.</p>
+<p>&mdash;Juan Joxe, egia al da ni urrutietan bizi izan naizen amasei urte aundi auetan, Leaburu Erreplubikatua daukazutela?</p>
+<p>Juan Joxek, apaizari begiratuta, &mdash;Ja-jai! Don Adrianek lengusuari alik zeatzen gure jarrialdi arako hura erakutsiko ziola. Alegia! ageri da. Amaseikorik gorriena emango nuen, gizonak, gau artan gure udaletxean egoteagatik.</p>
+<p>&mdash;Leon, esan zion gero Medelek semeari: ik onezkero iru aldiz ere Meza entzun aldek eta, gu Santa Marian geran bitartean, erosi or nunbait, erorri dagokien txapel urdin bigu&ntilde; andi bat. Leaburuko barrutian alkateak (eskuan zigorra daramanean), apaizak eta txorimaloak izan ezik, beste inortxok eztu kapelarik bear. Ik, Antton, akura zak beor ongi ezi bat, Ibarretik gorakoa Andre Medelek berera egin dezan.</p>
+<p>&mdash;Adi zazu, Medel, gaineratu zion Anttonek. Galiporniako emakumeak izengabeak al dira?</p>
+<p>&mdash;Ezkondu arte, izendunak; ezkonduz-geroztik senarraren etxea dute etxe ta senarraren izena izen. Inoiz alargundu baenzake, neronek begiz joko nikek iretzat toki aietako emaztegai aundiren bat. Naiago nikek entzun <hi rend='Italic'><foreign>Mistress Antton B&aacute;randiaran!</foreign></hi></p>
+<p>Aien parre gozoak!</p>
+<p>Mezatara zijoan txartesdun batek, berai begiraka, &mdash;txalburuak parrez? ebia [euria] laxter&mdash;, esan zuen.</p>
+<p><hi rend='Bold'>&mdash;II&mdash;</hi></p>
+<p>Amaikak igarotxo ziran, bereter ta beretergai, alkate ta alkatelagun, senar ta emazte, Tolosatik Ibarralderontz igitzean [abiatzean]. Orduko, goian, Urkietan, ogei neska-mutil gaztek, bazkaltegia atondua zeukaten. Bi mai luze, zamauz estaliak: bata, andizki ta beren ingurukoentzat; bestea, naiz zarrez naiz eriz astunduak ziranentzat jarriak ziran. Bata ta bestearen goitik, itzalgarritzat, lizar-abarrak ugari, pago batetik bestera, lotu zituzten. Zugazti aren izena gure egunetan asmatu bear balitz, Urkietaren ordez, Pagoeta naiz Pagadi izango litzake. Urkirik bat ere ezta, zugatz guztiak dira pagoak. Erdi-inguruan mai txiki oboki bat zetzan, txistu-ttunttunlarientzakoa. Mai urenaz konerka ta maindire batzuen ostean zeukaten beren lantegi [sukaldea] ta jaki-meta, ur-upel ta baxerategia egun artako mirabe-morroiak. Patxiko elizgelaria [sakristaua] jarri zuen bereterrak elizaldeko ta Urkietako zuzentzaile. Iru morroxko ipini zituen beronek Egi deritzaion mendiska-txuntxurrean, bakoitzak iru amabiko suziri aldamenean zituela. Lau mutiko, bear zan baino ordu ta erdi lenagotik, lau zeinuen agunak [sokak] eskuan zituela, zeinutegian [torrean] zeuden, Medel ta lagunak noiz-ikusiko.</p>
+<p>Udaletxeko zelaiean, goizerdirako bilduta, beste erritar guztiak, erriko jaietan bezelaxe apain, Tolosaldera begira zeuden. Bederatzi ta erdietan orgadia [trena] Tolosara eltzen, ta amar ta erdietan ere bideztiak ageri ez? Txiki ta andi, gizaseme ta emakume luzetetsiak, arrausika ta (zarrenak behintzat) zuzmurtuak ziran.</p>
+<p>&mdash;Orgadia bidekatu egin ote da?</p>
+<p>&mdash;Medeli, diruaren errukiz, jatura ematea damutu ote zaio?</p>
+<p>&mdash;Beraren andrea, mendi auek izututa, ez ote zaie sapustu?</p>
+<p>&mdash;Ez ote degu orok Ibarrera, Txaramara noski, bazkaltzera joan bear izango?</p>
+<p>Noizein bein zeinutegiko muttilak, epea galduta, &laquo;daun&raquo; aul-aul jotzen zuten. Patxikoren aotik ostots-erauntsi bat egiteko adina tximista atera ziran goiz artan. Egiko suziridunai agindu garratz au eman zieten:</p>
+<p>&mdash;Gero, Medel Urkieta-mugan ikusi arte eztezute bat ere jaurtiki bear, bestela arratsalderako bat ere gabe geldituko gaituk eta, tximista gaiztoa! etzerate Urkietan bazkalduko.</p>
+<p>Elbarrentar batek, Jose Martin Baratzondok, semea Ibarreragino bidali zuen. Basauntz bat bezela ipur&ntilde;auska joan zan au ta zortzi bat laguntxo uxta berean jarraiki zitzaizkien.</p>
+<p>Geroenean berok, azken joan zirenok, lasterka ta garrasika goiak gora agertu ziran, berri auek alkarren gainean ematen zituelarik:</p>
+<p>&mdash;Or dira.</p>
+<p>&mdash;Andrea zaldiz.</p>
+<p>&mdash;Medel maukutsik.</p>
+<p>&mdash;Txapela eskuan duela.</p>
+<p>&mdash;Bizarduna da.</p>
+<p>Deadar auek entzunik, Patxikoren agindu garratza gora-beera, Egiko barrandariak suziriak zalapart aundiz lerrerazten zituzten. Zeinutegikoak ere, gogoz beren lanari lotuta din-daun, din-daun asi ziran. Zeinuketa onezaz Urkietako mirabe-morroiak pozturik, beren mandar [altzo] zuriak gora ta bera erabiliz. Gora Medel! Ongi etorri! Gora gure erritar andia! , ozenki deadar egin zuten. Bostongo alabak Leoni zer zesaten galde egin zion. Elizaurrera iritsi arte ezkinan inun gelditu bideztiok. An Medelek andreari jaxten lagunduta gero, zeinu-otsez erritarren ongietorri ta txerazko itzak entzun ezinarren, poz aundiz eskua guztiai eman zien; batzuri lepoko ederrak ere bai. Beretertegira sartu ginanean, isildu ziran zeinulariak. Suziridunak azkena jaurtiki arte etziran isildu.</p>
+<p><hi rend='Bold'>&mdash;II&mdash;</hi></p>
+<p><hi rend='Bold'>ERRI-ZAUTA</hi></p>
+<p>Ordu-laurden baten buruan, eliza ikusi ta gero, Amasako antzelariak txistu-ttunttunka ta ibiltzen zekiten aur ta nexka-muttilak, jauzi ta zapart, aurretik genietuela, astiro jatxi ginan Urkietako bazkaltegira. Mai urenean ezkerretik eskuira, onelaxe jarri ginan: iru zinegotzi, ni, Leon, Mistress Olaz, bereter jauna, Medel, alkatea ta beste bi zinegotziak. Zarren mai luzean ogei ta sei bat atso-agure nabaritu nituen. Beste bazkaldar guztiak mordoxketan jarri ziran, belartzan eserita: mordoxka bakoitzean bi etxetako lagunak.</p>
+<p>Maia onedatsi ta gero, ogei neska-mutilak maiez mai zuku-lorrean asitakoan, Patxiko zuzentzaileak, aurpegia ta eskuak igel baten larrua bezain bustirik zituela, eguneko gizurenari galde egin zion:</p>
+<p>&mdash;Don Emeterio, asi al ditezke txistu-ttunttunak?</p>
+<p>&mdash;Oler abil, Patxiko. Ni enauk ori.</p>
+<p>&mdash;Medel orduan. Asi al ditezke?</p>
+<p>&mdash;Iluntzerarte etziok emen irea baino beste aginpiderik. Oro gaituk ire mendeko.</p>
+<p>Patxikoren gurkalaria! Andre Medeli txeratsu ta parrirrikor ongietorria erakutsi zion. Birigarroak beren txioketa bezela, Patxikok berezkoa zuen gizabidea. Gero beraren ugazaba [nagusi] bereterrari, aopean, berri txar au eman zion:</p>
+<p>&mdash;Jauna: Egin neuzkan astaki aiek azken suziria, eungarrena, erre digute. Ta zer da egitea?</p>
+<p>&mdash;Beste eun ekarrerazi, baderizkiok.</p>
+<p>Patxikok berbertatik txapelaz keinu bat eginda, txistularia, ttunttuna lagun zuela, eguneko entzukizuna jotzen asi zan: <hi rend='Italic'>Iru damatxo, Iriyarena, Agur nere biotzeko, Pello Joxepe, Gernikako arbola </hi>ta dantzaki batzuk. Isialdietan zintzurra ta urdaila jakiz ta edariz alkarren leian berotzen zituzten. Jotzeko, zutitu ta burustu egiten ziran. Arretarik andiena, zautakide guztien artean, Medelek eta emazteak erakutsi zuten. Noizean bein, senarrak gure otseztiazko eritzia eskatuta, <hi rend='Italic'><foreign>delicious</foreign></hi> [zoragarria] erantzuten zion emazteak.</p>
+<p>Bi ordu aietan zeinbat ogi txiki, ardo ta sagardo, arrautza ta aragi, lusagar ta piper andi, egazti ta arrainki, gazta ta gaztanbera, udare ta gerezi irentsiak izan ziran, Patxikori galdetzeko ustea izan nuen; baina aantzi egin zitzaidan.</p>
+<p>Aketta [kafea] agertu zutenean, bi kutxaxko besapean zituela, mordoxkaz mordoxka andoilak [zigarro andiak] banatzen asi zan Medel. Biotza ezpain ta begietan zutela artu zuten bazkaldar guztiak. Leaburuarrak etzuten orduan bere poza saltzeko.</p>
+<p>Baserritar auen errikoitasuna ezagutarazteko, arteki [episodio] auxe aski dala uste det. Nere eskuiko mailagunari (Antton Barandiaran bide deritzaio) zerbait esan bear-ta, &mdash;Gaintza nere jaioterria, ikusi ote diteke emendik?&mdash; galdetu nion. Eta zutituz, &mdash;ara, urixka ikusgarria&mdash; esan nuen, oilo loka batek txitoak bezela, Elizaren babesean ogei bat etxe txuri dauzkana.</p>
+<p>&mdash;Gaintza!</p>
+<p>&mdash;Izan al zera elizaldean?</p>
+<p>&mdash;Jainkoak lagun!</p>
+<p>&mdash;Ta zer derizkiozu?</p>
+<p>&mdash;Leaburu aldamenean ezpalu, polita.</p>
+<p>&mdash;Leaburu, besterik ez bezelakoa al da?</p>
+<p>&mdash;Leaburu! Donostia ta Tolosa kendu ezkero, nun ezu Gipuzkoan uri ederragorik?</p>
+<p>&mdash;Au ere entzun! Eta Azpeiti-Azkoitiak? Eta Bergarak?</p>
+<p>&mdash;Azpeiti? Bi kale ditu Azpeitik; Medel bizi bada, Leaburuk izango dituen beste.</p>
+<p>&mdash;Azpeitik Loiola ere an du.</p>
+<p>&mdash;Guk ere an degu Loiola.</p>
+<p>&mdash;Eta Irun, Ondarribia?</p>
+<p>&mdash;Enaiz or bein ere izan; baina oriek ere otsak andiago.</p>
+<p>Gure autu bitxi au etetzera Patxiko alderatu zitzaigun. &mdash;Juan Joxe&mdash; esan zion alkateari; onelako egunetan erriko buruak egiten du aurreskua.</p>
+<p>Mutil, nik etzekiat. Neri baino errezago edozein txekorri irakatsi lezaioke irradan egiten. Aurreskutzat udaletxeakoa bear bada, or eztek, bada, Antton Barandiaran, Goierrin ere berdinik eztuena?</p>
+<p>&mdash;Antton, esan zion Medelek, ik egin bear omen dek aurreskua.</p>
+<p>&mdash;Egingo diat, goizeko zuketa hura alde bat utzi zuen Enttonek, eta ala ere aitzurren baino pozago; bainan erorrek atzeskua egitekotan.</p>
+<p>&mdash;Aantzi ere egin al zaidak; baina, ots!</p>
+<p>Patxikok aopean esan zion gero Medeli ea onetsiko zuen aurreskuari beraren emaztea ateratzea.</p>
+<p>&mdash;Bai mutil.</p>
+<p>Gorrituxe egin zitzaizkion emazteari masailak, egiune onen berri eman ziotenean. <hi rend='Italic'><foreign>All right</foreign></hi> erantzun zuen ala ere.</p>
+<p>&mdash;Eta berorrentzako irrada-laguntzat zein?</p>
+<p>&mdash;Nai dekana, Patxiko; aurreskuaren emaztea, baderizkiok.</p>
+<p>Patxikok orduan, txaloka neskame-morroiai ots eginta, agindu auxe eman zien:</p>
+<p>&mdash;Bazkaldu bazerate, ken ortik berealaxe bazkalkin-ondarmondarrok; eta zuek, mutilok, dantza-sokara bear dezute; emakumeok gertu egon irradarako.</p>
+<p>Antton Barandiaran jeikitzen asi zan, baina zutik ezin egon, ordea.</p>
+<p>&mdash;Zer dek, Anton? bereterrak galde egin zionean.</p>
+<p>&mdash;Apaiz jauna, zaragi zarrarena gertatu zait; nonbait ere nere urdailak jarioa bide du ta zurrutatu dedan erdia bealdera isuriz, astunduta ezin ibili naiz, esan zion Anttonek.</p>
+<p>Medelen parre gozoak! Emazteak ere karkaila [algara] ederrak egin zituen, Anttonkeri au adierazi ziotenean.</p>
+<p>&mdash;Martin Loontxok egin dezala, erabaki zuen alkateak. Eta bereala zutitu ta amar nerabe azkarrak eta Etxeberriko ta Arburolako biurezandikoak [indianoak], alkarri eskuak emanta, dantzasoka eratu zuten. Irradan egin bear ez omen dana egin zuen Martin Loontxok: eskuak, ankak baino zoliago, erabili. Alarik ere, <hi rend='Italic'><foreign>Mistress Olaz </foreign></hi>bi mutil burusturen erdian aurkeztuta, artazi ta belaunikatze, au ere ez omen dagokio irrada onari, ta eskuan txapela zuela, iru buru-makurtzeren ondoren, azken-itzulia eman zuenean, eskuzaparta ederrak entzun zituen.</p>
+<p>&mdash;Gora Elbarren!&mdash; deadar egin zuen Medingibelek. Elgoientar guztiak, au entzunez, eskuak berealaxe berezi zituzten, txalorik ez.</p>
+<p>Medelek ere, besteak bezen bizkor ezarren, txistu-otsari egoki zerraikion; belaunikatzerik etzuen egin, artazi ta gora-gorak bai, ugaritxoegi noski. Arloa aitu zuenean, Antton Barandiaranek eserita zegoen tokitik, &mdash;Ori, ori, Medel!, deadar egin zuen, &mdash;Ujuiiii-ji-ji-ji a-ja-ja-jaaa! Gora Elgoien! Txalo andiak Elgoientarrak.</p>
+<p>Medelek, erdi-erdira irtenik: &mdash;erritar maiteak, esan zuen; eztezagun deadar egin. Gora Elbarren, ezta Gora Elgoien ere. Antton: beste irrintzi bat.</p>
+<p>Antton Barandiaranek beste ujui lena baino ere ozenago ta luzeago egin zuenean, Medelek biriken indar guztiaz: &mdash;Gora Leaburu, munduko urixkarik politena&mdash; aldarri egin [pregonatu] zuen.</p>
+<p>&mdash;Gaintza, belarriratu zidan Anttonek neri; Gaintza: arrapa zak ori.</p>
+<p>An erakori zan gogoberozko zalapart, zarraparra ta iskanbila egoki zeekatzeko, nere luma baino zorrotzago bear da.</p>
+<p>Txistulariak orripekoa asi zutenean, Bostongo alabak Leaburuar guztien begiak berarengan zituen. Besoak zabaldu, bai; baina elizako irudiak baino zirkin geiago etzuen egiten. <hi rend='Italic'><foreign>As the others</foreign></hi>, esaten zion senarrak, <hi rend='Italic'><foreign>as the others</foreign></hi> (besteak bezela). Txingarra ta bat zan aren musua; aldarte onez, ordea, beste guztiakin batera, bere buruari parre egiten zion.</p>
+<p>Irrada aitu zanean, <hi rend='Italic'><foreign>very well</foreign></hi> (oso ederki), esanta, eskua ertsi zion Medelek emazteari. Martin Loontxok berarenari, &mdash;Kattalin, gu ere ba beste onenebeste eginbearrak gaitun: ekartzan esku ori&mdash;. Lertzeko arian, okerturik, parra egin genuen guztiok.</p>
+<p>Jaiandreak, senarraren bitartez, Alkateari aitortu zion etzuela egun alaiagorik beraren bizi guztian izan; eta, sakeletik diru-txartel batzuk aterata, beraren izenean berreun dollar aiek erriko txiroentzat <hi rend='Italic'><foreign>(for the poors) </foreign></hi>zirala. Alkateak, paperak eskuan zituela, arimazainari, &mdash;txirorik ba ote da Leaburun?&mdash; galde egin zion; aberatsik ere bat eta berau biartik aurrera badoakigu ta kito. Andrea, guztiok gera emen beartsuak, txirorik ezta emen; eskalerik, zarrak gera baina, eztegu inoiz ezagutu.</p>
+<p>Arritu zan <hi rend='Italic'><foreign>Mistress</foreign></hi> Olaz au jakin zuenean; etzituen artu nai izan, ordea, Alkateak beatzen erpinean zeuzkan paperak. Lengusu bereterrak eskola berrriztatzeko izan lirakeala esan zuen. Medelek ezetz; berak ordainduko zuela lanketa ori ta emaztearen emaia lenen jaioko ziran bi aurrentzat mozkinkutxara [<hi rend='Italic'><foreign>caja de ahorros-</foreign></hi>a] eramateko agindu zuen. Eskupeko ederrak eman zituen, gainera, Patxiko ta mai-otseinentzat, zeinulari ta suziridunak ere poliki izan zuten.</p>
+<p>Eguzkia Beizamako mendi-tontorretan beera apaldu zanean, Tolosalderako igitu ginan. Belaun-buruetan indarra zuten Leaburuar guztiak Urkietan ziran eta Ibarrerako aldapa-bururagino geientsuak lagun egin ziguten. Gero, oi dana, agur bein ta berriz, esku-emate luzea ta berreun aotako izan ongi... Bat ez, besteak, Isabel goiz-baxkari bat eginta, zeinuketa entzun zuenean, Gazteluko apaizaren etxera joan omen zan. Aguratu arte ez egon itzultzeko... eskerrik asko... agur, agur, agur.</p>
+<p>Goizerdian amaika ginan gorakoak, iluntzean beerakoak bederatzi: Antton Barandiaran ta Mendigibel Urkietan gelditu ziran, lo noski. Beste zortzi bideztiak jai ederra eraskintzen ari ziran-artean, neri Medelekin nolabait berdinkatzeko, antzinako gizuren batzuk bururatu zitzaizkidan. Ulises, Telemakoren aita, bezelakoxe zurra ta seme maitea nekusen Medel. Solon Atenastar andiaren antza geiagotan du. Bata ta besteau, nerabetan, mutil zirala, txiroxko ziran; batark eta besteonek salerospenean burua ateratzeko, atzerrira joan bear izan zuten; eta oraino gazte dirala, bata ta besteau aberastasunaren oe bigu&ntilde;ean etziten dira. Solon, erriratu zanean, <hi rend='Italic'>arkonte</hi> egin zuten beraren sorkideak. Medel, onera bizi izatera etorri ditenean, jakin ez zer izatekoa dan.</p>
+<p><hi rend='Italic'><foreign>Ecos del Urumea-</foreign></hi>ren irakurleak poztuko dira Leaburuko gizona, enura gabe, <hi rend='Italic'>errepublikanoa</hi> dala jakitean. Diogenes, upelean bizi izandako Greziar ospetsu hura, bezelako oso-osoa da. Bein Alejandro Erregek, upel-aurrean aurkeztuta, beraren andikeriaren ttuntturretik, zer nai zuen galdetu zionean, Diogenesek &laquo;eguzkitik ken zaizkidala&raquo; buruzutik erantzun zion. Zikotza ez, <hi rend='Italic'>prudente</hi> baizik. Beste ainbeste egingo luke Medelek. Tolosako gelunean, alkarri agur andiak eginta, senar-emazteen atzetik orga eder batean sartu nintzanean, <hi rend='Italic'>Leaburuko oiartzunak </hi>gogotan zituela, <hi rend='Italic'><foreign>O very beautiful</foreign></hi>, berriz ta berriz, elizako <hi rend='Italic'><foreign>ora pro nobis</foreign></hi> bezela, maizkatzen zuen Bostondarrak. Orgadia igitu zanean, Medelek zutik eta kapela eskuan zuelarik, jaioterrira begira, <hi rend='Italic'><foreign>&laquo;Long life</foreign></hi> Leaburu&raquo;, esan zuen; <hi rend='Italic'><foreign>&laquo;long life&raquo;</foreign></hi> erantzun ginion beste biok.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>ZORTZIGARREN EZKUTITZA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Italic'>Lasartetik Azpeitiko bereterburu jaunari beraren adiskide ta mendeko Andres Artesarri apaizak</hi></p>
+<p>Gutxitan ikusi det nere burua atzo ta egun baino estuago. Atzo iru aldiz asi nuen ezkutitz au ta iruretan tarrat egin bear izan nuen papera. Goizeon ere beste ainbeste egin det zirriborro batzuez. Zer izango ote zan errudun izan banintz! Monjatxo bat oso eri, noiz ilko, degulako, eztet artu orrerako bidea, emen gertatu dana zuri agoz zearo jakinerazteko.</p>
+<p>Agi danez, irain andia egin dizute zuri, iztun arrigarri ta bereterburu ospetsu zeran orri. Leonen meza berritan jarduna egitera aspaldion zeunden zu itz emana, lotua; ta zure ordez neronek jardun bear izan det; eta, iraina gorriago agertzeko, erderaz. Ni enaiz errudun. Zerori izan zaitez epailari. Orain ilebete, ez oso, beste eun aldiz bezela, aizpa ikustera agertu zitzaigun Isabel, gure adiskide Adrianen lengusina ta etxandere Isabel. Alako txaplatarik! Leaburun meza berria (asmatu zanez) ematea Jainkoak etzuela agintzen. An egingo zan diru-zabaltze ta janedan izugarriz erri guztia marmar gaizki esaten ari zala. Protestante batzuen diruaz meza Santua! Atzen esakeratxo au amar aldiz aitatu izan edo zuen. Nik eztakit nola, beinik bein emengo lekaime [monja] guztiak zuritu zituen ta beren nagusi Berastegiarrak Adriani agiri luze legun batean guztien naia jakinerazi zion: Leonek Lasarteko komentuan len-meza eman zezala.</p>
+<p>Arizpe jauna: emakume onen txaldankeria obekixeago negurtu al dezazun, orain aste ta erdi-inguruko gertakizuntxo bat jakin-araziko dizut. Azokatik arako atorra ta barreneko motx, burruko-azal ta maindire, esku ta sudur-zapi, ugari zituela agertuz, birjosle trebeenai mintzagura dei egin-ta, aldagarri berri aiek zabaltzen zituen artean, aizpak, esan zien: gure apaiz berriarentzat erosi ditut miesa zuri eder auek. Meza berri-egunerako birjosi [bordatu] ditzatzuten ekarri ditut. Bakoitzari gure ilobaren lenizki andi ta gorri-gorriak ezartzea nai nuke: D.L.O.=Don Leon Olazarreta.</p>
+<p>&mdash;<hi rend='Italic'>Don</hi> ta guzti? galde egin zion lekaime batek.</p>
+<p>&mdash;Bai orixe, <hi rend='Italic'>Don</hi> ta guzti beintzat. Eta mutxurdin txaldan au muturtuko ezpazan, <hi rend='Italic'>Don</hi> ta guzti birjosi bear izan dituzte gure lekaimeok apaiz berriarentzako aldagarri, orratzetik arako, kutsatu gabeak.</p>
+<p>Adriani, onera erakarrita, baietza erasan ziotenean, Isabelek neri, kapellau jauna, esan zidan: an irentsiko ziran txal, oilasko-oilanda, bildots ta arkume, izokin, kui, arrautza ta gainerako jakiz, gezurrik esan gabe, bi urte luzetan etxea berera erabiliko degu.</p>
+<p>Zein egunez nai zuten, Leaburuko apaizak galde egin zienean, &laquo;larunbatez&raquo;, erantzun zuen beraren etxandereak, Leonen ama larunbatez il zala-ta. Nagusiak orduan bigu&ntilde;-bigu&ntilde; gaineratu zuen: Gero badakizute emengo berri. Igande-elizkizunetan, baserritarrengatik, euskeraz izaten dira gure itzaldi ta jardunak; astegunetan, oro erderaz.</p>
+<p>&mdash;Eta nork Azpeitiko iztunari erderaz Lasarten itz eragin?</p>
+<p>&mdash;Ezkutiztxo bat bidali bezaio berorrek, Don Adrian, barru-barruko adiskide duen ezkero.</p>
+<p>&mdash;Andre nagusi: nik eztet orretarako kemenik. Eskutitz ori berorrek egin ta bidaltzea dirudi egokiena.</p>
+<p>Eta jakina! zuk erderazko jardunik nai ez ta kapellau gaizoak lan ori artu bear. San Krisostomo iztun andiari erruz itz eraginez, nolabait burutu nuen nere arazoa. Apaiz-mordo ederra bildu zan Elizan; maiean bost ginan soil-soilik: meza-emalea, aitabitxi, bi apaiz gazte (Leonen esker-eskubiko lagunak) eta nerau. Mintzagua txikia zala ta beste bereter guztiak Elizetxen bazkalddu ziran. Amezketar batzuk, Adrianen aideak, izan genituen mai-lagun.</p>
+<p>Meza-ondoan emengo ikusmikuskizunak apaiz gazteai erakutsi nizkien. Zuk ere atsegina izango zenduen, nik uste. Astitsu zeran batean zatoz berok ikustera. Ez al dezu damu izango.</p>
+<p>Okendo izkudaburu [almirante] aren bi arreba, lekaime izan ziran Lasarteko komentu onetantxe. Arrebak erraz berendu zuten beren neba ospetsuak maiteen zuen ondasun bat: ontziko harian [salan] iduki zeukan irudi, <hi rend='Italic'>Pozgarrizko Andre Maria. </hi>Arra ta erdikotxoa da, arrizkoa. Okendok beretu baino lenago ere iruditxo onek mirari bat egin zuen. Mirari onen oroikarritzat Eliza onetantxe degu artailu [kuadru] bat, diotenez, ederki egina. Baditugu beste artailu batzuk ere: Elizgelan Okendorena ta beraren emazte Andre Teresa San Millan-ena. Berriz ere dioketsut: onontzaldi bat egin ezazu bein edo bein.</p>
+<p>Zu bezelako gizon jakitunentzat erakusgarritzat daukat emengo artitz polit, len elizpe zarraren ateburuan, orain auzpez lurrean ezarria deguna:</p>
+<p><hi rend='Italic'><foreign>Inveni portium. Spes, fortuna: valete.</foreign></hi></p>
+<p>Apaiz gazte aietarik batek, burujabea da ta miinduna apaiz hura, esan zigunez &laquo;exametro&raquo; osoa izateko iztxo bat bear omen du artitz onek:</p>
+<p><hi rend='Italic'><foreign>Inveni portum. Nunc spes fortuna: valete.</foreign></hi></p>
+<p>Amaikari erakutsi diet irakurgaitxo au! Batek ere eztio utsunerik ediro.</p>
+<p>Fraile zar Sunbilako seme batek, neronen otoiz, onelaxe euskerazkotu zizkidan itz oriek:</p>
+<p><hi rend='Italic'>Kaia ementxe det, gazte.</hi></p>
+<p><hi rend='Italic'>Itxaropen, zori: zoazte.</hi></p>
+<p>Maiean ginala berealaxe ots egin zuen zure izenak. Gu mauka-mauka ari ginan artean, barruko aldean komentuko nagusi berastegiarra ta bestetxo bi bazkaltzen ari ziran.</p>
+<p>&mdash;Iztun arrigarria omen da, esan zuen zuzaz nagusiak.</p>
+<p>&mdash;Bai orixe! erantzun zion Adrianek. Datorrela lurpetik Fray Luis de Granada, zekien erdera legunez izketara; nik Azpeitikoari bere euskera garbi, erraz, mendi-usainekoz naiago diot entzun.</p>
+<p>&mdash;Nik, gaineratu zuen arako apaiz burujabeak, Euskalerrian bada, Fray Luis de Granadari baino nere erriko erretoreari ere gogozago; ta Matxinbentako erretorearen izena ezta gero Ciceron. Euskaldunai euskeraz.</p>
+<p>&mdash;Igandero euskeraz ari izaten zaigu Don Andres, gure kapellau jauna.</p>
+<p>&mdash;Goizean ere euskeraz ekin balio, etzan ezer galduko.</p>
+<p>&mdash;Apaiz jauna, erdaldunentzat erderaz egin bear da. Badira gure artean euskerarik eztakiten lekaimeak.</p>
+<p>&mdash;<hi rend='Italic'><foreign>Madre</foreign></hi>, esan zion orduan Matxinbentarrak: erdalerrian erderaz, euskalerrian euskeraz. Berrogei lekaime euskaldun dauden komentu batean, Burgosko erdaldun naiz Bilbo-aldeko euskaldun motzen bat datorrelako, beste guztiak euskera ezpailekiten bizi bear? Bidezkoa deritzaio oni? Autu au ta beste geien geienak erderazkoak izan ziran. Amezketarrai zerbait esatorduan eta alkarren arteko autu laburtxo batzuetan baizik etzuen gure izkerak ots egin. Komentuak agitz euskeraren obiak dira, esatea lotsagarria bada ere. Euskalduna eztanik gure artera baldin badator, ikasi dezala gure mintzoa, gure izkera. Guk ere ori egin bear izan genuen erdalerrian: erderaz ikasi. Erdaldunik battxo etorri ote da egungo jarduna entzutera? Eztet bat ikusi; lo bai, baserritar-mordo ederra. Aurrean dedan amezketar onek ere aiek zurrungak! Ez al da egia, Simon?</p>
+<p>&mdash;Tolosan len ere entzun izan ditugu erderazko <hi rend='Italic'>kalamatrika</hi> oriek eta egi-egia! ni bezelakoentzat aur-kantatxoak bezela dira erderazko jardunak: logarriak.</p>
+<p>Isabelek, barru-aldekoak sapustuko ziralako, &mdash;<hi rend='Italic'><foreign>Madre</foreign></hi> esan zuen, Bilbotar aberats batzuk asi omen dira Berastegin burni-arria ateratzen.</p>
+<p>&mdash;Burni-arriz eztegu emen burua austen. Emen Jaunaren mendean bizi gera, Beraren naia egin nai gendukeala. Berarengana deituta eztigu beste zeaztasunik eskatuko, eztigu arpegi artuko euskeraz ari izan geralako naiz ezkeralako.</p>
+<p>&mdash;Orregatik ere <hi rend='Italic'><foreign>quinque talenta</foreign></hi> eman diete lekaimeai ta bost doe orien artean euskera ederra ere artu dezute ta nere ustez...</p>
+<p>&mdash;Bost baino ezpalira! esan zion Adrianek Matxinbentarrari, keinu bat eginez. Ain zuzen ere nere lengusina Sor Santa Catalina emen sartu zanean (badira gutxienez ogeita amar urte; apaiz gaztetxoa nintzan ni, Leaburun sartu berria); emengo kapellau zarrak jardun zuen, ni ausartzen ez ta; ain zuzen ere Ebanjelioaren ataltxo ori aipatu zuen. Ez al zera oroitzen, Eusebi?</p>
+<p>&mdash;Sarraldi guztietan, gutxi gora-bera, berdin esaten omen zuen.</p>
+<p>Aien parrea, batez ere bi lekaime isilkor aiena, Sor Santa Catalinaren itz auek entzutean!!</p>
+<p>Zuk neronek baino ere sakonagotik dazaguzu Leaburuko arimazaina, erkideak ere bazerate-ta. Emale danean, pozik izan oi da. Ezta bein ere itzontzi izan; baina, lagunartean itz gutxi eginarren, asko eragiten du.</p>
+<p>Beti agertu oi da, arpegia argi duela, besteak nola poztuko. Laurden egungo bazkalartean inoiz baino gutxiago mintzatu zitzaigun, zure minez noski. Matxinbentako apaiz gazte aien zipladaz lekaimeak mindu etzitezen erabez [bildurrez], atera edo zituen gure adiskideak itzik erdiak.</p>
+<p>Aketta [kafea] artzen ari ginan artean, Toloxako norbaitek bidalita, txantel urdin bat eskuan zuela, gizon bat izerdi-patsetan agertu zitzaigun. Lur jota gelditu zan gure Adrian Iriondo, berri hura irakurri zuenean. Banan banan maikide guztiok txantel ari so bat, begirakune bat, egin ginion. Ona irakurri nizkion itzak: <hi rend='Italic'>Alice aurgintzan il zait. Erruki nizaz. Medel.</hi></p>
+<p>Oro murtik egin gabe ginala, Isabelek, Isabel txaplatak, Jaungoikoaren zigorra dabil emen, esanez, autsi zuen isilaldia. Ez al zan inor izan biotz-barruan garrazkeriaren bat erne ta otu etzitzaionik. Adriani soilik irten zitzaion itza, bakarra bera ta astuna: &laquo;Isabel&raquo;.</p>
+<p>Osaba-ilobak etzuten geroztik ez burua jaso ez agoa zabaltzen. Besteok binaka txutxuputxu giarduelarik, Isabelen agotik, lengusu baserritarrarekin ari zala, itz-mordo eten auek belarriratu zitzaizkidan: &laquo;Mari Zirtzil... uztaren amalaugarren eguna zan... Dilin-dalan zeinutegian... ur bedeinkatua ere artu... protestantea&raquo;. Itza ta pitsa zeriozkion Isabeli ezpainetatik.</p>
+<p>Leaburuko bereterrak, mai-eskerrak oi bezela eman ta gero, il otoitz bat egin zuen. Isabelek, ezpainak alkarri itsatsiak bide zituen, auxe esan arte: ari ere <hi rend='Italic'>errespontsua?</hi></p>
+<p>Isabel, esan zion lengusu apaizak: Jesukristo gure Jaunak esan zigun, azken-<hi rend='Italic'>juizio</hi>-egunean gizaldi onen aurka [kontra] Ninibetarrak jaiki ta gaitzetsi [kondenatu] egingo zituztela. California ezta Ninive zan baino galduago.</p>
+<p>Bi ordu geroago Lasarten etzan arrotzik gelditu.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>BEDERATZIGARREN EZKUTITZA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>Azpeititik, 1990-garren urteko</hi></p>
+<p><hi rend='Bold'>Errosario-egunean</hi></p>
+<p><hi rend='Italic'>Emeterio Olazarretari Juan Jose Arizpe bereterrak</hi></p>
+<p>Zure lengusu Adrianen adiskide mamia naizen aldetik ezkutitz au zuri egitea artu det gogotan. Inork inor maite izan badu, maite det nik Iriondo apaiza. Badakit zuk ere zinez ta anai bat bezela oneresten dezula.</p>
+<p>Bat onen ta beste orren biotza minduta ere, argiro esan bear dizut beste aldetatik jakingo etzendukean berri au. Aspaldion ezagunean mekotu ta maskaldu zaigu Adrian. Etxekoak, egunero ikusten dutelako edo, eztakite beintzat zein indarga, zein aul dagoen. Bizirik ikusi nai badezu, igi zaitez, Medel, ar zazu ononzko bidea ta alik zuzenen zatoz Leaburura.</p>
+<p>Soina [gorputza], beti bezela, orain ere gaizkabea du; gogoa [arima] aspaldion oso eri; ta gogo bereatuak emeki-emeki ta igartzaka soinik erretsuenari oben eragiten dio.</p>
+<p>Zure emaztearen ilberria Lasarten, Leonen meza berri-egunean, artu zuen. Zauzkada andia eragin zioten aren eriotzeak eta zure atsekabeak.</p>
+<p>Urrengo lau bat ilebetez biozketa saminak gozatzeko egun asko izan ditu. Leon izan du orretarako gozagarririk onena. Baserritarren aotik &laquo;gure apaiz gaztea bezelako oiulari ta organularirik nun?&raquo; entzun izan duenean, berak &laquo;ikasberria degu oraindik, ikasberria&raquo; erantzun arren, eztitan eukiten izan du beraren biotz andia. Nerau eraman ninduten Leaburura San Pedroz ta neronen belarriak entzuna da autu ori. Egun aietantxe erabaki genduen Bartolome guren-egunean, [San Bartolomez] Amezketara joatea: Adrian meza nagusia oiukatzeko; oiutegiko maisu izateko, ni; Leon, zure seme jator Leon, eguneko jarduna egiteko.</p>
+<p>Ederki ari izan zan bereter gaztea. Asieran berak ere Amezketarren odola zuela agertzean, ango artzain ta gurtzainen biotzak osaro berarendu zituen iztun berriak. Meza-ondoan ilobaren gora andiak nornairen ezpainetatik entzunik, luzarotxo isilik egonarren, alako batean auxe azaldu zigun: &laquo;egia esan, ni, orren urteak nituenean, enintzan gai an goitik, dardaratu gabe, asteko elizkizunak erakusteko ere&raquo;.</p>
+<p>Alako egun asko izan balitu, leneratuko edo zan zure lengusua; baina, gutxien uste zuela, lau ilebeteko poz-atsegin guztiak bat-batera atsekabetu zitzaizkion.</p>
+<p>Leon Arabako urixko tutu txatxar exerex baterako Parroku izendatu zuen Apezpiku jaunak; eta Leonek... joan egin bear. Osabak Tolosaragino lagun egiteko ere etzuen kemenik izan.</p>
+<p>Elizako armonium zuk emandako jokailu eder hura mututu zan. Eskubirengo leioa beti ertsia zegoen elizetxean. Alperrik aratu ta ikertzen zituen zakurrak etxeko zoko-bazterrak, nagusi berria ediro naiean. Adrian etzuten poztutzen ez eliztarren autuk, ez alberrietako bereterren ikustaldik. Isabelek aldiz beraren zinkurin ta aiuma ta antziz larriago egiten zion nagusi zarrari bioz-mina.</p>
+<p>Aldarte onetantxe zegoela ots egin zuen Adrianek iluntze batez nere ta zure etxe onen atean. Besoak zabalik artu nuen nere adiskidea; al nuen abegi txeratsuena egin nion. Nere lankide apaiz batzuk ere, bera poztutzeko, mairatu nituen. Atxeter bat degu emen, mediku bat, oiukirik parragarrienak erdi frantzes erdi euskeraz ematen dituen gazte buru-arin bat. <hi rend='Italic'>Betijai</hi> du gure arteko izena.</p>
+<p>Hura ere bazkaldar izan nuen; eta beste maikide guztiok parrez lertzen ari ginan artean, parrirri doi-doi egin zuen Leaburuko arimazainak.</p>
+<p>Bakartu ginanean, aurreguneko burubidea eman nion: bera soil-soilik apezpikuarengana agertzeko, urtetsu-samarra zala esateko; Leon bear-bearrekoa zuela; ta, alarik ere, nagusia ezetzerako bazegoen, zuen sendiak [familiak] Leaburuko elizari egin dizkion on andiak agertzeko.</p>
+<p>&mdash;Lagun zarra, erantzun zidan; nik, sasi-apaiz onek, erdiak esateko ere eztiat adorerik [kemenik] izango.</p>
+<p>Iru egunen buruan emen zan berriz, joan zan baino ere ilago, mailadian gora igoteko eskuzalari eldu-bearrez.</p>
+<p>&mdash;Ezin ditekeala, erantzun dit. Apaiz berriak, diranak dirala, Arabara bear dutela. Nereak egin du, lagun zarra.</p>
+<p>&mdash;Nolako egin ta egin-ondo? Iluntzen eztan egunik ezta, goibeltzen eztan zoririk ere ez. Badakizu arako Birgiliorena: <hi rend='Italic'><foreign>Post nubila Phebus</foreign></hi> &mdash;laino-ondoan eguzkia&mdash;.</p>
+<p>Kementsuago izan zaitez, Adrian. Buruari ez utzi erortzen. Oker asi dan arlo au zuzenduko degu, Jainkoak nai badu; baina osasuna galdu ezkero...</p>
+<p>&mdash;Len-bai-len etxera joan bear det. Eztakit zer dedan. Indarga ta aul asmatzen det nere gorputz guztia. Inun eztet minik; indarrik ere ez, ordea.</p>
+<p>&mdash;Ezagun da Leaburuko bakartasun artan gorabera gabe bizi izana zerala. Bidez asi orduko on izango da sendalariari ots egitea. Joxepa, Joxepa. Zoaz Aginaga Jaunarengana. Berealaxe datorrela, norbait ikusi bear duela-ta. Onek esango digu, Adrian, aultasun ori barrurago sar eztedin, zer dan egin bear ddezuna. Guk ere, zu baino gaztexeago izanarren, izan ditugu buruausterik asko ta naigaberik ez gutxi. Ontziak itsasoan eztute aizea beti poparean izaten. <hi rend='Italic'><foreign>Post nubila Phebus</foreign></hi>.</p>
+<p>&mdash;Nere egun labur auetan ezpada ere, nere ondoren beintzat Leon Leaburuko arimazain izatea nai nuke. Au baneki, ni iltzeko ere pozik.</p>
+<p>&mdash;Ze il ta mil? Ikusiko dezu gure Betijaik, eztirudien sendalari trebe onek, sendapidean jarrita, zerorrek uste dezun baino ere azkarrago ta zoliago nola izango zeran. Orra or berori, uste dedanez, <hi rend='Italic'>Pello Joxepe </hi>oiukatzen.</p>
+<p>&mdash;Sartuko naiz ala ez?</p>
+<p>&mdash;Sar, sar ta ordu onean ala ere.</p>
+<p>&mdash;Don Adrian de Leaburu onontzaldi? Gazteiz-aldetik nolako berriak dakarzkizu?</p>
+<p>&mdash;Txarrak, Aginaga: kili-kolo joan ta ez-erori bai-erori etorri.</p>
+<p>Adrianek gero, neronek lagun egiten niola, zearo edatsi zizkion bere goraberak.</p>
+<p>&mdash;Iriondo jauna: zuk, gaizo orrek, bi gizon bear dituzu, osaro sendatzeko: sendalaria ta bitartekoa; bigarren au lenengoa baino bearrago. Nere itz auek aditzean arroa naizela esan badezazu, neri ajolarik ez. Neronengan, bat baizik enaizelarik, neronengan izango dituzu bi gizon oriek. Sendalari, nolako edo alako, Madrilen egin ninduten. Bitarteko, altsu naiz erkin, atzeak esango du zer naizen. Zure eritasunik andiena, zure minik sakonena iloba mina da. Iloba biar-etzietan Leaburura, an izateko, baletor, zu berealaxe leneratu, berealaxe sendatuko zinake. Au nere anai, Donostiako sendalari ospetsu, zuk ere ezagutzen dezun hura, arteratu ezkero, gure don Juan Josek emango didan Jereza barruratuko dedan bezelaxe...</p>
+<p>&mdash;<hi rend='Italic'><foreign>Intelligenti pauca</foreign></hi>. Joxepa, Joxepa: ekarzazu onera lengo egunean asi genduen bonbil ori.</p>
+<p>&mdash;Nere anaiak, ez anaia detalako bainan, andimandi orien artean, nik baserritar auen artean bezela, zer nai ta axe eskuratzen du. Esan dezatela, nori zor dioten gaur duten maila, Astigarragako kapellau, Ernaniko erretore...</p>
+<p>&mdash;Eskerrik asko, Aginaga. Nere ta apezpiku jaunaren bitartekotzat eztu Jaunak agintzen elizgizona eztanik. Eskerrik asko berriz ere ta barka.</p>
+<p>&mdash;Ederki erabakia, lagun zarra. Bi gizon bear baditu, izan zaitez zu bat, Aginaga: sendalari. Bitarteko izatea neri dagokit. Onek, sasi-apaiztzat burua duen onek, eztu kemenik izan Apezpiku jaunari gauzak argi ta garbi erakusteko; gizon andiai nunbait ere gutxitan itz egiten ta gero oilotu egin zaigu. Zuk egin zazu, Betijai, zure <hi rend='Italic'><foreign>recipe</foreign></hi> ori. Nik, neronen aldetik, alegin guztia egingo det, apezpiku jauna zurituz, <hi rend='Italic'><foreign>accipe</foreign></hi> esateko: tori Faidoko apezarentzat Leabururako izapidea [nonbramentua].</p>
+<p>San Miguel-aurreguna zan, Leonentzako Parrokutasun berria eskuan ta gure sendalari oiuzalea lagun nuela, Leaburura jo nuen eguna. Beste bat zirudien Adrianek. Betazpiak irten-irten puzgotuak, masailak sartuak eta zimurtsu; larrua gorri-ubel; mintzura [boza] zintzarri pitzatu baten otsa bezelako motela. Jateko beti nakar, gogorik gabe; egarria il ezina. Neri, berri-papertxoa irakurri zuenean, &laquo;Juan Jose, esan zidan: eskerrak bear bezela erakusteko ere eztet astirik izango. Goitik, gorakoa baldin banaiz, goitik erakutsiko dizkizut&raquo;.</p>
+<p>&mdash;Gora diozu ta irurogei urte aurten izan!</p>
+<p>&mdash;Ez, Juan Jose. Igaz berrogei ta emeretzi, aurten irurogei ta amalau gutxienez. Izateko nituen-urteak mordo batean erori zaizkit; eta nik orien astuntasuna jasotzeko indarrik ez... indarrik ez nik. Nereak egin duela. Zuk ere badakutsu, begi busti oriek ezagun dute.</p>
+<p>&mdash;Eguraldi bero sapatan, aldapa gora, azkazalak ere izerdi patsetan izan oi dituguta...</p>
+<p>Zerbait esan bear, nere zauzkada zurikatzeko, ta orixe esan nion.</p>
+<p>Aginagak, ota erreari kea bezela, gezurra parra-parra zeriola, &laquo;Leon agertzeaz batean asiko dira zure masailak, Don Adrian, arrautza-perretxikoak bezelaxe gorritzen&raquo;, esan zion. Amabost egun barru aldako usoak iltzera, doi-doi bada ere, joan al izango zera. Ezetz? Buru ori etzatzu, gizon, ezker-eskubi erabili. Udaberriz, gaur lasai dezun sotana ori, andikien altzo txakurrak larrua bezelaxe, bete-bete-betea, lertzeko zorian izango dezu. Ezetz berriz ere? Bein ere eztizut elizjardunik [sermoirik] entzun; baina, orretarako erarik banu, zuk goitik azalduriko sineskaiak belarriratuta, enuke burua kordokan erabiliko.</p>
+<p>&mdash;Aginaga, erantzun zion eri gaizoak, zure gogokizun [intentzio] ori eskergarria da; baina sendapiderik ikasi ezarren, nerau ere maiz ibili izan naiz eri isuri maskal-artean eta bestera uste izanarren, askotan agertu izan ditut olako aurresan pozezkoak. Eta zer? Eriotzea, guri parre eginez, bere orduan jetxi oi izan da.</p>
+<p>Orduan Betijairi, ate-aldera joanta, sukaldekoari deiez asi zan:</p>
+<p>&mdash;Ixabel, Iiisabel.</p>
+<p>&mdash;Jauna.</p>
+<p>&mdash;Zatoz onera. Barute-aurrean [garizuma-aurrean] Don Juan Jose ta biok emen izango gera, zauta batzuk egin ta Leaburuko apaiz sendatuaren balbe [eriotze] zarrari parre gozoak egiteko asmoz. Artuko gaituzu?</p>
+<p>&mdash;Bai ta pozik ala ere.</p>
+<p>Bazkaritan Adrianek salda-pitin bat besterik etzuen urdaileratu. Nere bide-laguna, amabost egun aurrerago nere etxean bezela, asi zan oiuki [kanta] parregarriak ematen. Ona bat:</p>
+<p><hi rend='Italic'>Atso zarraren atorra zarra</hi></p>
+<p><hi rend='Italic'>berea balu ezer ez;</hi></p>
+<p><hi rend='Italic'>kedarra baino beltzagoa du,</hi></p>
+<p><hi rend='Italic'>garbiketako alperrez.</hi></p>
+<p><hi rend='Italic'>Txirurik brinkulin brinkulin brinkulin</hi></p>
+<p><hi rend='Italic'>txirurin brinkulin atsoa:</hi></p>
+<p><hi rend='Italic'>su-bazterrean dagoenean</hi></p>
+<p><hi rend='Italic'>eztauka mozkorra gaiztoa.</hi></p>
+<p><hi rend='Italic'>Gure atsoak gau ta egun</hi></p>
+<p><hi rend='Italic'>eztu besterik zer egin,</hi></p>
+<p><hi rend='Italic'>arkakusoak arrapatuta</hi></p>
+<p><hi rend='Italic'>ipur... ari atz egin.</hi></p>
+<p><hi rend='Italic'>Txirurin brinkulin brinkulin brinkulin</hi></p>
+<p><hi rend='Italic'>txirurin brinkulin atsoa:</hi></p>
+<p><hi rend='Italic'>su-bazterrean dagoenean</hi></p>
+<p><hi rend='Italic'>eztauka mozkorra gaiztoa.</hi></p>
+<p>Oiulariak etzuen oso amaitu al izan. Urmindunari edozein janari ur sortzen zaionez, Adrian gaixoari esaki naiz oiuki parregarrienak negargarri biurtzen zitzaizkion; eta neronek, zinu bat eginez, Aginagari atso zarraren oiukitxo au eten-arazi nion.</p>
+<p>Isabelek, noizean beinka sukaldetik azaldatuz, esku zabalez gonak gogor jota, ziraustan:</p>
+<p>&mdash;Don Juan jose, zer uste du? Onetarako izan bear al zuten gure Leonen organu ta ingeles-ikasteak? Arabako arkaitzai belarriak gozatzeko? Izan naiz ni an, gure apaizak kemenik izan ezpadu ere; izan naiz an bai amaika negar bizi egin ere! Eznerik ere etzuen gizagaixoak gosaritako. Aragi ta arraina guk emendik bidali bear. Faido, ! aido! Auxe du baserri purtzilak izena. Leon, Leon zorigabea!</p>
+<p>&mdash;Zaude isilik, Isabel, iganderako etxea joko du-ta.</p>
+<p>Nere ustez iloba-minak baino lengusinaren antzi ta zinkurinak geiago makaldu izango dute gure gizona. Berau errebelarketara [tabako-bila] goiean zan artean, atxeterrak medikuak <hi rend='Italic'><foreign>diabetes florida </foreign></hi>zuela esan zidan ta laguntzat <hi rend='Italic'><foreign>defuncionamiento card&iacute;aco</foreign></hi>; itz garratz oroikarri auek gaineratuz:</p>
+<p>&mdash;Eri au, eri bikoitz edo irukoitz au sendaezina ezpada, sendagaitza bada beintzat. Bizia luzatzeko, alaitasun andia ta jolasaldi etentzakea ta atseden osoa <hi rend='Italic'><foreign>(mucha alegr&iacute;a, distracci&oacute;n ininterrumpida y completo reposo) </foreign></hi>bear izango ditu, Tolosako sendalariak ederki erabaki duen bezela.</p>
+<p>Auetxek dira Medel, nik, estalki gabe, eman al dizkitzudan berriak. Zatoz, bada, len-bai-len, lengusu maitagarri, errukarri, isuri onen bizia, alaituz, luzatzera. Leonek eta zuk ezin dezakezutena eztio lurrekok egin al izango.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>AMARGARREN EZKUTITZA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>1901-ko Maiatzaren 9an</hi></p>
+<p><hi rend='Italic'>Belauntzatik Azpeitiko bereterburu jaunari beraren adiskide begirunetsu Agustin Basaldek</hi></p>
+<p>Eskutitz au nerea da ta ezta nerea: nerea, gaiz; inorena, apainkiz, itzez. Onelako eskulanik bein ere eztet nik euskeraz burutu. Ibili nintzan ikasguetan etzidaten euskeraz deusik irakatsi ta eztet inoiz ardurarik artu, neronez, nere kabuz ikasteko. Zilegi etzala, etzala eder egiten zu bezelako euskalzale andiari erdal-ezkutitzik bidaltzea, ta norbaiti idazterazi diot. Norbait onek eztu nai, ordea, beronen izena eman. Lendik emengo berririk ezpadakizu, arrituko zera, jaun Arizpe, au irakurrita.</p>
+<p>Gure adiskide gazte, Leaburuko arimazain, Leon Olazarreta, oso abaildua dago, latzak eta beltzak ikusten bizi da errukarri au. Emen zinan zu, beste ogei ta amar bereterren artean, gure adiskide on, biotz andiko elizgizon Iriondo il zanean, zerorrek oiukatu ere egin zenduen elizkarietako Meza-ta.</p>
+<p>Oroitzen al zera, Leon, osabaren eriotzea biotz-barruragino sartua zuelarik, zein beluri ta zurbil, zein biozmindun ta atsekabetsu egun oso artan gekusen? Orduko atsekabea egun auetakoen ondoan naigabetxo arin zilaka utsa baizik etzan. Medel, beronen aita Medel, il ote zaio? Il balitzakio, eluke semea izango, duen baino errukarriago, atsekabetuago, abailduago ta gogoz ilago.</p>
+<p>Belauntza ta Leaburu, beti alkarri begira bizi izateko, Jaunak sortu zituen, mugakide dira; ta bi urixko auetako, bi erritxo auen apaizok, nere ezaupidean beintzat, etentzaka alkar ongi artzekoak izan gera, adiskide onak. Elurra lodi, euria adarrez, ostotsak [trumoiak] belarriak gortzeko zorian, naiz beste onelako ekaitz izugarriren bat ezpada, ni Leaburuko bereterrarengana, naiz bera Belauntzako apaiztegira, astean bi aldiz agertu izan gera. Ala ere maizago egin izan det nik joan-etorritxo au, Adrian il-aurretxotik, Medel Ameriketatik erriratu zanetik onera. Atsegina zan Leaburuko elizaldera joatea! Leon, neskatxak andre irakasleari utzita, mutikoai goiz ta arratsalde euskera ta erderazko ikaspidea ematen, musika ere bai gainera. Medel, semeari eskuarte ugariz ta lanez lagunduta, ingeles ere zertxobait aurrai irakasten zietela; igande askotan meza alai eztitsuak oiukatzen zituela. Atsegina zan, zinez, Leaburuko elizatxo txukunean sartzea! Baina norbait, diotenez, Isabel, Leonen izeba Isabel, asi omen zan Medelengan belztasunen bat nabaritzen; ta, isil-misilka lenengo, txutxumutxu gero, zurru-murru geroago ta esan-mesanez azkenean, nunnai, Leabururen lau egaletako sukalde guztietan zabaldu zan: Apaizaren aita etzala kristau ona, Pazkoazkoa etzuela egin; Elizan, oiutegira bai; opalmaira, ordea, etzala beintxo ere urbildu.</p>
+<p>Udaberrian eztira udare ta sagarrondoak lorez zuritzen Leon igande-arratsalde batez agertu zitzaidan baino zuriago. Obiren batetik arima-bila jeikitako ilotza zirudien.</p>
+<p>&mdash;Zer dezu, Leon?</p>
+<p>&mdash;Auxe ta auxe. (Gaixoak barrua zabal-zabal egin zidan). Zer da, don Agustin, nik egin bear dedana?</p>
+<p>Etsarian [salan] zoko batetik bestera, burua makur ta gogoketan nuela, arontz-onontz batzuk eginta, auxe erantzun nion:</p>
+<p>&mdash;Leon: Job gurena Jainkoak eskupean artu zuen, gero len baino ere gorago jartzeko. Zu ere Jainko maiteak eskupean artu zaitu. Jobek bezela esan bear dezu: onak, atseginak, Jaunaren eskutik artu baditugu, zergatik eztitugu gaitzak eta naigabeak artu bear? Zuk orain burubide bat nai dezu. Ona nik eman dezakedana. Gure berrinarki [periodiku] maite <hi rend='Italic'><foreign>Siglo Futuro</foreign></hi>-ren orrietan maiz irakurtzen degun esakera urrezko <hi rend='Italic'><foreign>Bonum ex integra causa-</foreign></hi>z, oroitzen al zera? Beraz oso-osoak izan bear degu gizon orok: kristauak, kristautasunean; bereter geranok, beretergoan. Zure aita, esku-zabala ta masala [prestua] izanez gainera, ekandu onduna dala diote; baina elizaz erdikina da, akatzak ditu, ezta osoa. Akatz oriek dituen artean, osotu eztiten artean, beste eliztarrentzat alkeisun edo gaizpide dalako, ezta zilegi <hi rend='Italic'><foreign>(non licet) </foreign></hi>zurekin emen bizi izatea. Aita, orrelakoa dezun artean, beste nunbait, atzerririk urrutirenean bizi bada ere, eztezu zilegi <hi rend='Italic'><foreign>(non licet tibi)</foreign></hi> Leaburuko parroku izatea. Protestante baten semea, aingerukia izanarren, aita nor dan dakitenen ustez, ezin izan diteke <hi rend='Italic'><foreign>integer,</foreign></hi> osoa. Kalte andia, kalte izugarria egingo luke eliztarren artean. Nere otoitzak lagun egingo dizute. Auxe da nere burubidea. Badituzu, alabaina, Euskalerrian ni baino bereter jakintsuagoak, ugari. Zoaz oriengana ere, baldin <hi rend='Italic'><foreign>Uni&oacute;n Cat&oacute;lica</foreign></hi> orrezaz nasiak, <hi rend='Italic'><foreign>mestizos</foreign></hi> ezpadira; ta uste det oriek ere nere au bezelako burubidea emango dizutela.</p>
+<p>Geroztik or ibili da Leon errukarria jo orrera ta jo onera. Neri etzait luzaro agertu. Esan didatenez, euskera ta latinezko esakune zar batena gertatu zaio: <hi rend='Italic'><foreign>tot capita quot sententiae</foreign></hi> &laquo;buru bezanbat aburu&raquo; ediro ditu. Batak, alde egiteko; besteak, gelditzeko; onelakok, au; alakok, bestea; Urliak, Aitarekin Californiaratzeko; Berendiak, komenturen batean sartzea litzakeala egokiena; Zandiak (beltzen batek au, nere ustez), orain arte bezela, lengo biziari darraikiola.</p>
+<p>Atzo zortzi jo zuen berriz neregana. Bere ezpainetatik entzun nituen, bestelan nik jakindako joan-etorri ta eritzi-uste auen berriak. Tolosako bereterburuak artarako bultz eginta, aurreko gabean agertu omen zan gure adiskide gazte au aitarengana.</p>
+<p>&mdash;Aita, esan omen zion apal-apalik: erriak berori sinestegabetzat du. Ni seme nau, parroku ere bai. Aita dedanez, barka berorrengana agertzea; elizburua naizen aldetik... negarrez etzuen, ez omen zuen gaizoak!</p>
+<p>&mdash;Seme, seme maite, ezagunago ta maiteago autan seme Leon, erantzun omen zion Medelek: ni emezortzi urte aunditan, elizara bidea galduta ibili nauk; gainera badakik nolako erlijioa zuen nere bigarren emazteak. Seme, etxetik eraman nuen erlijioa, arroinak [zimenduak] utsak zituelako edo, galdu nian beintzat; eztiat orain inolako sinesterik. Alabaina, ez bakarrik semez, baita elizburu autalako ere, egingo nikek nai dekana, urbilduko nindukek opalmai [aldare] ortara; enauk, ordea, inoiz <hi rend='Italic'>komediante</hi> izan; oso-osoa nauk; sineste gabe eztiat orrelakorik egin nai. Ostia orretan Jaungoikoa baldin bada, irri egitera bidali nai al nauk?</p>
+<p>Semeak, len baino ere negar saminagoak isurita, etzion ezer erantzun al izan.</p>
+<p>Urrengo goizean emen zan ta arren-bai-arren berak (kemenik eztuelako ta lotsa gorritan bizi dalako) ezin duela ta neronek zuri ezkutitz bat egiteko otoitz egin zidan; eta beraren izenean ta bere osaba Adrian onari zinion maitasunez, zuri eskatzeko: Leaburura len-bai-len etorri zaitezela.</p>
+<p>Beste iztxo bat edo bi, auek neronengandikoak. Medelen osotasuna ta gurea, Jaunari eskerrak, eztira berdinak. Gurea bezelakoa izango zan orrena ere, irakurri izango zituen inarki [paper] itsusi galgarrien ordez, emen ditugun Jainkozkoak irakurri balitu. Onera agertu zaizenean zurekin mintzatu nai nuke neronek ere.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>AMAIKAGARREN EZKUTITZA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>Aita Mendiriren eraskinak</hi></p>
+<p><hi rend='Italic'>Nere Aita probintzialaren aginduz idatzi ditut oar auek</hi></p>
+<p><hi rend='Italic'>Oarlaria: A. Justo Mendiri</hi></p>
+<p>Berak ni, autsa naizen frailetxo au, A. Batizen misiolaguntzat Leaburura bidali ninduen. 1901garren urteko garagarrilaren 13an, San Antonio arratsaldean, eldu ginan.</p>
+<p>Tolosara bideko Egi deritzaion mendiskatxoan erri guztia gure zain zegoen: zortzi apaiz pellizez jantziak, beren artean Azpeitiko bereterburua ta Belauntzako arimazaina, Leaburuko parroku gaztea, kapadun, erdian zutela, agertu ziran; bi ez besteak gazte ile-beltzak. Alkatea ta bost zinegotziak [kontzejalak] elizgizonen ondoan ziran. Medel zala ta berrogei ta amar-amabi urtedun gizon azkar, masal, beltzez jantzi bat an zan, erritar guztiak tinko-tinko begiratzen ziotela. Izerdia kentzeko ere asti gabe, parrokuaren ezker-eskubi bi misiolariok jarri ginuzten. Geroxeago bi apaiz oiulari aurretik zirala, erri guztia, Elizarontz igituta, oiuka asi zan:</p>
+<p><hi rend='Italic'>Atoz pekataria,</hi></p>
+<p><hi rend='Italic'>atoz Eleizara,</hi></p>
+<p><hi rend='Italic'>Jaungoikoaren itza</hi></p>
+<p><hi rend='Italic'>gogoz aditzera.</hi></p>
+<p>Bi apaiz aurreratuak, bikondean <hi rend='Italic'><foreign>[a duo] </foreign></hi>itz auek oiukatu zituzten:</p>
+<p><hi rend='Italic'>Pekatuen neurria</hi></p>
+<p><hi rend='Italic'>bete eztezazun</hi></p>
+<p><hi rend='Italic'>aditu Jaungoikoak</hi></p>
+<p><hi rend='Italic'>zer esaten dizun:</hi></p>
+<p><hi rend='Italic'>Ez egon pekatuan,</hi></p>
+<p><hi rend='Italic'>ez egon luzaro,</hi></p>
+<p><hi rend='Italic'>damu izan eztezazun</hi></p>
+<p><hi rend='Italic'>alperrikan gero.</hi></p>
+<p>Erriak:</p>
+<p><hi rend='Italic'>Atoz pekataria...</hi></p>
+<p>Bik:</p>
+<p><hi rend='Italic'>Pekatuan oera</hi></p>
+<p><hi rend='Italic'>etzitzen bazera,</hi></p>
+<p><hi rend='Italic'>benturaz infernuan</hi></p>
+<p><hi rend='Italic'>esnatuko zera.</hi></p>
+<p><hi rend='Italic'>Urterik asko Jaunak</hi></p>
+<p><hi rend='Italic'>zuri eman dizkitzu</hi></p>
+<p><hi rend='Italic'>eta danak pekatuz</hi></p>
+<p><hi rend='Italic'>zuk bete dituzu.</hi></p>
+<p>Erriak berriz:</p>
+<p><hi rend='Italic'>Atoz pekataria...</hi></p>
+<p>Elikonde [koro] au irugarrenez eman zutenean, len entzun gabeko mintzura lodi eder bat nasi zan lengoen artean. Belauntzako arimazainak Aita Batizi agopean Medel oiuka esan zion.</p>
+<p>Elizaratu ginaneko, nere lankideak irakastegitik itzaldi laburtxo bat egin zuen, misioaldia zer ta zertarako dan agertzeko.</p>
+<p>Apalaurrean Arizpe bereterrak eta aita San Franziskoaren bi semeok autu bat izan genduen.</p>
+<p>&mdash;Arizpe, esan zion, nere lagunak: Jainkoaren doia oparo izan bekigu sail gaitz onetan. Zer egin dezakegu Medelen biotz gogortu ori bigundu ta gureganatzeko, gure bitartez Jaunak berarendu dezan?</p>
+<p>&mdash;Aita Batiz: biotza Medelek bigu&ntilde;a du, baina otza, burua du eri, burua; ta iluntasuna dala uste det eri orren azia ta sustraia: iluntasun lodia, urte askotakoa, errekondoetan sortzen dan la&ntilde;oa bezelako narratsa. Sor bekio buruan zeruko argitasuna, Jaunaren ostargi ederra; ta eguzkiak bere erroz, bere ostrontzez egiten duena egingo dio Medeli goitiko beste erro, guar, ostrontz orrek: argitu ta berotu; argitu, burua; berotu, biotza.</p>
+<p>&mdash;Eztezu uste, bereterburu, orretarako egoki izan daitekeala guk geron autuetan gizon orren biotza ortzargitasunez <hi rend='Italic'><foreign>[por simpat&iacute;a] </foreign></hi>irabaztea?</p>
+<p>&mdash;Ederki esana.</p>
+<p>&mdash;Nik, badakizu, Arizpe, nor naizen-ta, edatsiko nizkioke ipuin ta izkirimiritan Jainkoa lagun! , oraintxe asi ta etzi gaberarte, isildu gabe, ari izango nintzake txir-txor, txir-txor: edatsi ta edatsi.</p>
+<p>&mdash;Obe izango dala uste det, lagun zar, berari itz eragin ta gu gogoz adi egotea. Californian izan duen bizikera pozik, lerdea dariola, jakineraziko digu. Gainera musika-zalea da ta baritono-mintzura du, <hi rend='Italic'><foreign>sochantre</foreign></hi> zar batek bezelatsukoa. Ziriketatxo bat egin ezkero, bereala asiko zaigu esaten Prado ta Marianico Garcia ta Cosme de Benitorenak dirala mezarik eztitsuenak. Ezetzik etzaio esan bear. Alegia, aantzi etzaidanean! Zu, A. Batiz, <hi rend='Italic'>karlista</hi> itsua zera; Belauntzako parrokua, <hi rend='Italic'>integrista</hi> amurratua. Jainkoarren eskatzen dizut, egun auetan beintzat, utzi ditzatzutela alde batean, batark eta besteorrek, utzi politikazko purtzilkeria oriek.</p>
+<p>&mdash;Arizpe: zerorrek neurtitz berriren batzuk egin omen dituzu, misioetarakoak.</p>
+<p>&mdash;Misioetarakoak ez, misio onetarakoak.</p>
+<p>&mdash;Ikus ditzagun. Entzun izango dituzu arako:</p>
+<p><hi rend='Italic'><foreign>Vous qui pleurez, venez a ce Dieu, car il pleure.</foreign></hi></p>
+<p><hi rend='Italic'><foreign>Vous qui souffrez, venez a Lui, car il gu&eacute;rit.</foreign></hi></p>
+<p><hi rend='Italic'><foreign>Vous qui tremblez, venez a Lui, car il sourit.</foreign></hi></p>
+<p><hi rend='Italic'><foreign>Vous qui passez, venez a Lui, car il demeure.</foreign></hi></p>
+<p><hi rend='Italic'>Artzainak dei ta ardia arengandik igesi...</hi></p>
+<p>&mdash;Itz orrezaz ez, <hi rend='Italic'><foreign>O sauitaris</foreign></hi> bezela neronek ere amaika aldiz oiukatu izan det ori!</p>
+<p>&mdash;Biar goiz ta arratsalde ikasiko al du Medelek beraren itzulpenerako egindako eresitxo au.</p>
+<p>&mdash;Ea nola dan.</p>
+<p>&mdash;Frantzesez, Victor Hugoren itz eder oriek musikatuz, Faurek <hi rend='Italic'><foreign>Crucifix</foreign></hi> eman zion eresiari izena; nik, aipagarri ezpada ere, <hi rend='Italic'>Artzain ona. </hi>Jatorrizko itzak, gutxi dira-ta, berriz ta berriz osteratu zituen musikalariak. Nik neretxoak eztitut berrizkatu.</p>
+<p>Oiuka eman zituen Arizpe jaunak itz auek.</p>
+<p><hi rend='Italic'>Artzainak dei t(a) ardi(a) arengandik igesi,</hi></p>
+<p><hi rend='Italic'>zerk arabil, gaiz(o) ori, galdu ta deslai?</hi></p>
+<p><hi rend='Italic'>Larrez larre, biotza minez t(a) esiz esi</hi></p>
+<p><hi rend='Italic'>dabil Jesus t(a) ik ez al diok entzun nai?</hi></p>
+<p><hi rend='Italic'>Obeki nun Jesusen besoetan baino?</hi></p>
+<p><hi rend='Italic'>Nun or bezain zoritsu, pakez eta alai?</hi></p>
+<p><hi rend='Italic'>Jeiki, jeiki t(a) ator pozik artegirano,</hi></p>
+<p><hi rend='Italic'>Artzain-deiari gaur erantzun: Jauna, bai.</hi></p>
+<p><hi rend='Italic'>Artzainak dei t(a) ardi gaizoa arenganaino</hi></p>
+<p><hi rend='Italic'>beeka doa lotsa dala, damu, garbai.</hi></p>
+<p>Gero atzenean biak, neurtitz gabe, esango dute: <hi rend='Italic'>O Jesus, argi neri!</hi></p>
+<p>&mdash;Medelek ori esatea egoki, ezin egokiago dala uste det. Zuk esaizu, Arizpe: <hi rend='Italic'>O Jesus, argi oni, oiulari oni, aldameneko txori polit oni!</hi></p>
+<p>&mdash;Nik ere argia bear dizut, ordea.</p>
+<p>Onetan ginala, Isabelek atea jo zigun. Aparia gertu zeukala esatea zan au; ta irurok bazkaltegira jetxi ginan. Lenengo gabean Medelek Galvestondik Californiarako orgadiaren [trenaren] uxtua nolakoa zan ta Acapulcon (Mexicok Pacificon duen uri bero-bero-bero batean) gaberdiko mezatan eguberri-kantatxo bat, Amezketan txikitan ikasia, euskeraz oiukatu zuela esan zigun. Itsasgizon urte batez ibili zaneko berri au, etxekoak ere gau artararte ez omen zekiten. Aita Batizen eskabidez oiukitxo ori adi-adi ta arretatsu entzun ginion Medeli. Apalondoan Leonek pianoan Santestebanen Pudente jota, beste gertaera aipagarri gabe, bakoitza bere kabira joan ginan.</p>
+<p><hi rend='Bold'>&mdash;II&mdash;</hi></p>
+<p>Egunak joan, egunak etorri, Eliza goizaldero ta iluntzetan bete-bete egin oi ziguten eliztar jainkozale aiek. Egia sakonak beti bezelaxe gure A. Batizek erakusten zituen. Nik, autsa ta autsa ere bidekoa, nornaik zapaltzekoa, naizen onek, nere austasunean al nuentxoa egiten nuen: utsa zan nerea. Arratsaldeko bost eta erdien otsaz batera, udako misioetan oi danez, bereter jaunak alde banatan zituela, Aita Batiz, apaizetxetik kurutze andi bat eskuetan zuela, irtetzen zan. Ni orduantxe estuen, nere dotrinatxoa buruan sartzen. Erriak <hi rend='Italic'>Atoz pekataria </hi>oiukatuta, oro Elizara sartzen ziran, Elizaurreko zugazti itzaltsuan itzuli bat eginez. Agurtza-ostean, errosario-ondorean, ni, obiko ar ta zomorroen janari au, kristau-ikaskizunak [dotrina] azaltzera igoten nintzan. Urrengo, Arizpe jaunak eta Medelek, Leon bereter gazte gartsua laguntzaile zutela, Artzain onaren eresia ederki entzunerazten ziguten; gero Aita Batizen itzaldi sakon sutsu ederra; ta azkenez berriro zugaztira, onedaspena [bendizioa] artzera. Nere jarduntxoak laburrak izanarren, luzetetsia nabaritzen nuen erria; Aita Batizenak, ordea, bear ere ala zan-ta, luzeak ziralarik, laburtzat agoa zabalik entzunak izaten ziran.</p>
+<p>Oiulariak beren bikondearen amaitzat [azkentzat] arako <hi rend='Italic'>O Jesus, argi neri! </hi>bigu&ntilde;-bigu&ntilde;ik oiukatzean, Leon, aitak bezelako biotz samurra du-ta, arratsaldero negarrez ikusi zuten norbaitzuk. Azken egunean Aitak ere, semearen negarrak nabarituz, begiak legortzeko zapia sakeletik atera omen zuen.</p>
+<p>Bazkal-apalorduetan ezkinuen aipatzen ez protestanterik ez gure politika gorabeerarik. Leaburu-Hotel, edergarria [grabadoa] erakutsiz teilatutik atarira zeekatu zigun Medelek. Zerbait irakurria da, batez ere ingelesez. Nik inoiz entzungabeko berri asko eman zizkigun. Ona bat.</p>
+<p>Goi-Amerika artan gizeli <hi rend='Italic'><foreign>[multitudo gentium] </foreign></hi>andi bat omen da, erlijioko izakietan ezer sinesten eztuena. Erdizka bada ere, 5garren orrialdeko edergarriak darakus arroztegi onen izantza Itzur bezela [maximatzat] <hi rend='Italic'><foreign>know nothing (nau nacin</foreign></hi> esaten zuen berak) omen dute: euskeraz &laquo;ezer eztazagut&raquo; esatea bezela. Pozik nabaritzen nuen, neri, gizagaizo oni, jaramon gutxi eginarren, gure Aita Batiz biotzez maitatzen asi zala Medel.</p>
+<p>Eztakit zein egunetan zan: ala bost ala seigarrenean, nere anai maite ta eredu Aita Batizek bereterburuari, onen eresi taxak dituen &laquo;deslai&raquo; ta &laquo;garbai&raquo; zer ziran galde egin zion.</p>
+<p>&mdash;<hi rend='Italic'>Deslai, </hi>erderazko <foreign>&laquo;decarriado&raquo;, </foreign><hi rend='Italic'>garbai </hi><foreign>&laquo;arrepentimiento&raquo;. </foreign>Asko da, Aita Batiz, Bizkaiko semea zerori ta gainera nunai ibilia zerala, ez entzun izatea arako <hi rend='Italic'>urdaia jan ta garbaia!</hi></p>
+<p>&mdash;Urdaia! esan zuen Medelek. Neronek gertatuko dizutet, biar bazkaritako, Californiarren eraz. Beatzak ere, gozoaren gozoz, miazkatu baietz?</p>
+<p>&mdash;Orduan <hi rend='Italic'>urdaia jan ta alaia </hi>esan bearko degu, gaineratu zuen Belauntzako don Agustinek.</p>
+<p>Biaramongo bazkalorduan biaoa egitera igotzean, A. Batizek &laquo;mutil, esan zidan, nere alaitasuna egi-egia! Californierazko urdai hura jan dedanean, ezta izan besterik ez bezelakoa; ala ere gogo-irudiz irentsi det eman didatena&raquo;.</p>
+<p>Mauka-mauka ari ginala, Isabelek agopean &laquo;ori? esan zidan neri ori garbatu, ori itzuli? Eztakitela berok ori nor dan&raquo;. Egi bat esan, Medelez, nizaz bezela noski, <hi rend='Italic'>eguna bijoa, gaua betor, </hi>bizi zala esan daiteke: buruauste gabe, ezertxok ere ajolarik ematen etziola. Ezkenion ez damutasun ez itzulpide-zantzurik, igargarririk, ikusten; eta gu, beraren bizilagun guztiok, arduratan geunden, ardura gorritan, zer ikusiko; katu bat elorriadar-artean bezen larri. egun ilun auetan amaika ta amaika aldiz esaten nion nere buruari, Aita probintzialari, onetarako autatu nenduenean, esan niona! &laquo;ni onelako misio bat emateko? Onako ni, autsa, oinpeko autsa naizen au? Ez ote dauka nere itzen moteltasunak Medelen biotza, lenengo egunean bezen otz ta itzul-gogor?&raquo;.</p>
+<p><hi rend='Bold'>&mdash;III&mdash;</hi></p>
+<p>Azken-eguna iritsi zan, guretzat egun goibela. Nere laguna, beretertegitik Gaztelu-aldera joanda, urruti eztan Arkaitz-gaineko txoritokian sartu zan, goizerditik arratsalderarte antxe egoteko. Toki artarako igitu-aurretxoan nere gelako atea jota, Jesusek ikasleai, txerren erauzteko indarga ziralarik, esan ziena oroitarazi zidan: <hi rend='Italic'><foreign>Hoc genus (demoniorum) in nullo potest exire nisi in oratione et jejunio</foreign></hi>. &laquo;Onelako txerren-mota otoitzez eta baruz baizik ezin erauzi diteke&raquo;.</p>
+<p>&mdash;Justo: bazkal-orduan, besteak nere galdez asitakoan, ain ongi ere enabilela ta goi-aldera joan naizela.</p>
+<p>Gogoketan asi nintzan, bakartu nintzanean. Alperrekoak izango ote dira gure lanak, batez ere lagunarenak? Utsak, alberrietako apaiz ta monjen eskariak? Antzuak, semearen negar-malkoak? Enaiz, neronez, inoren aultasunak agertzen zalea; nerau inor baino aulagoa ta ezerezagoa bainaiz. Nere Aita probintzialaren agindua zintzo, alik zintzoen, betetzeko, esango det, ordea, zerk eman zidan egun aietan iguinik andiena: gu zeinbat estuago ta larriago, Isabel ainbat lasaiago ta pozago ikusteak. Gutxienez sei aldiz entzun nion, aurreko gabean ere, neronen belarri ondoan esaten: &mdash;Aita: alperrik ari dira. Gizon au zuritu baino errazago litzake trikuari bizkarreko arantzak amoztu naiz katu bati sagu-uzia kentzea. Au itzuli! Au kristautu!</p>
+<p>Iluntzeko itzaldi-aurretxoan, Belauntzakoak itz auek erderaz zuzendu zizkion nere lagunari:</p>
+<p>&mdash;Azken kartutxoa oraintxe dijoa.</p>
+<p>&mdash;Gurea bai, erantzun zion A. Batizek. Goiko eizariak eztakigu, alabaina, noiz jaurtikiko dion bere lenengoa. Ark eziko du eizakia, ark.</p>
+<p>Beste izmitzik inori esan gabe, igo zan iztuna irakastaulkira [pulpitora]. Elizan orratz batentzako ere utsunerik ezegoen: txiltxil betea zan. Opalmai [aldare] ondoan baziran gutxienez amabi bereter. Amezketako parrokua ere an zan, bere uritxotik mendirik mendi etorria.</p>
+<p>Iztunak bere arazoa asi-aurrean, erriak, gero egiteko eztulak, orduantxe atera zituen. Etzuen gure Aita Batizek, oi degunez, asikintzat Ebanjelioko itzik aipatu. <hi rend='Italic'>Artzain ona </hi>eresiaren lenengo aapaldia <hi rend='Italic'><foreign>[estrofa] </foreign></hi>astiro ta ozenki entzun arazi zigun.</p>
+<p><hi rend='Italic'>Artzaina dei ta ardia arengandik igesi!</hi></p>
+<p><hi rend='Italic'>Zerk arabil, gaizo ori, galdu ta deslai? (bakar-bakarra ta bidegabetua).</hi></p>
+<p><hi rend='Italic'>Larrez larre, biotza minez ta esiz esi.</hi></p>
+<p><hi rend='Italic'>Dabil Jesus, ta ik ez al diok entzun nai?</hi></p>
+<p>&laquo;Egun auetan emen oikatu dira itz ederrak dira auek&raquo;, isiltxo gaineratu zuen iztunak.</p>
+<p>Tamala da, damugarria da, Aita Batizek arkaitz-gaineko txoritoki artan, oso-osorik, lan eder au ez idatzi izatea. Argitaratuko balitz, eredutzat [modelutzat] ar lezakete gure anai gazteak, eredutzak iztunik trebeenak ere. Hura zan etorria! hura erraztasuna! Itz guztiak Jainkozko maitasun-garretan irtetzen zitzaizkion; eta gu, zerutiko gar onen artean, geron buruaz aantziak [aztuak] bezela geunden adi. Lurra baino gorago, odei-gaineratuak, ginala esan zitekean. Artzain onak nola ta zeinbat eraz dei egiten digun, azaldu zuen lenengo; ardia nola ta zergatik galtzen dan, gero. Arako <hi rend='Italic'><foreign>know nothing</foreign></hi>, Medelek jakinarazi zigun zer hura ere aipatu zuen, bai zearo porrokatu ta austu ere!</p>
+<p>Bigarren ataltzat, eresiaren bigarren aapaldia esan zigun, paperetik irakurriz:</p>
+<p><hi rend='Italic'>Obeki nun Jesusen besoetan baino?</hi></p>
+<p><hi rend='Italic'>Nun, or bezain, zoritxu, pakez eta alai?</hi></p>
+<p><hi rend='Italic'>Jeiki, jeiki ta ator pozik artegiraino,</hi></p>
+<p><hi rend='Italic'>Artzain-deiari gaur erantzun: jauna, bai.</hi></p>
+<p>Jesusen besoetan izatea zer dan, eztet uste Krisostomo andiak ere egokiago ta gartsuago azaldu zezakeala. Jesusekiko zoria, pakea ta alaitasuna banan banan ta argiro erakutsi zizkigunean, ezin kendu nuen nik nere buru ta biotzetik gogamen au:</p>
+<p>&mdash;Eta i, Justo; Justo ere ez aizen ori; i, Juxto, misiolari onen lagun!!</p>
+<p>Urrengo itz auek, apaiz batzuk lagun nituela, berak esan zituen erara artu al izan nituen. &laquo;Ardi galdua: artegia utzita, nora oa? Jesus ire artzain ori baino onagorik, biotz andi ta samurragodunik, nun arkitzeko? Nun egiazko Elizan bezelako bazka gozo, janari osasungarririk? Artzain onak bere gorputza janaritzat eman digu, edaritzat bere odola. Zeruko intza ta euria ta eguzkiaren garra lurrean gari biurtzen dituenak, gari ori gure barruan geron gorputz aldatzen duen berberak, Jesusek, aldareko ostia mee zuri garbi ori beraren gorputz itzultzea nai izan du, gure arima erorkor onen janari indargarri izan dakigun. Eta au noiz? Kurutze santuan josita ardi galduen onerako bere bizia eman ta gero. O ardi gaixo, o ardi errukarri bezain maitagarri, deslai, sasirik sasi, galduta abilen ardi argigabe ori! Adi ta entzun zak gaur ire jabearen deia. Nork daki azken-deia, o, bai, azken-deia ez ote dan!&raquo;</p>
+<p>Itz au &laquo;azken-deia&raquo; bigarrenez esatean, zotina bezelako zer bat erakori zitzaion barru-barrutik iztunari, entzule guztioi zauzkada andia eragin zigula. Inor, battxo ere, ez al zan beealdean, gora, oiutegira, begiratu etzuenik. Medelek an goian, oiutegian, arrizkoa zirudien. Gero, kurutzea eskuetan zuela, iztunak artzain onari egin zion eskari samurra entzutean, guztiok geunden negarra tantoka-tantoka zerigula. Enuen buruz ezer artu al izan.</p>
+<p>Aita Batiz izerdi-patsetan, elizgelan [sakristeian] barruna, etxera sartu zan inori itzik egin gabe. Neri, barrura dei eginez, Leonek eman zezala, esan zidan, Leonek eman zezala gau artan kurutzeaz onedaspena [bendizioa]. Elizatik &laquo;Jesus gure Jaun maite atsekabetua&raquo;, ezpainetan genduela, zugaztira joan ginanean, Medel etzan sartu, bestetan bezela, oiulari-artean.</p>
+<p>Bazkaltegian, apalorduan, betiko bi apaizez gainera, beste bi: Amezketakoa ta Belauntzakoa, bildu ziran. Medel etzan ageri. Luzarotxo bera igurikitzen, berari begira, egonta, Isabel agertu zitzaigun, Medel etzala etorriko esatera. Gure estuasuna ta jakin-naia!</p>
+<p>&mdash;Zer agitu ote zaio? zinoan batak.</p>
+<p>&mdash;Ongiezik ote da? besteak.</p>
+<p>&mdash;Ala sapustua, gaineratu zuen A. Batizek, nere itzai zorrotzegi eritzia, asarratua?</p>
+<p>&mdash;Ori ez, erantzun zion Amezketakoak. Eizakia, mindu gabe, ezta atxitzen. Mindua dala ageri du. Zein min duen, Jainkoak, mindu duenak, daki.</p>
+<p>Isabel berriz agertu zitzaigunean, &mdash;zer du Medelek?&mdash; galde egin zion Arizpe jaunak. Parrirria ezpainetan ta begietan poza ageri zituela, auxe esan zigun:</p>
+<p>&mdash;Apaiz ta fraile-artean gogaituta edo, sukaldera etorri zaigu; ta buruko zorabioa duela ta etzin-bearreko asmatzen dala ta lotara doala esan digu. Jatez eztu ezer jan. Ur-ardotan pitxerdi-inguru edan al du.</p>
+<p>Emakume aren oztasunak burutik beerako otzikaraz ebaki ninduen ni. Beste bost apaldarrak etzioten begiratu ere egin. Isil ta motel ezkenduen ganoraz apaldu. Leon bi aldiz joan zan Aitaren gela-ondora, ezer nabaritzen ote zuen. Alako batean A. Batizek, &mdash;Leon atoz onera, gaizo ori&mdash; esanez, besartean maiterik artu zuen apaiz gazte negartsua.</p>
+<p>&mdash;Gaur <hi rend='Italic'><foreign>gloria</foreign></hi> gabe geranok, biar <hi rend='Italic'><foreign>alleluia</foreign></hi> oiu egingo degu.</p>
+<p>Beraren ondoan eseri-eraginez, Habanatiko masoitzar amurratu baten itzulpena edatsi zion.</p>
+<p>&mdash;Baita ezagutu det, Lekeitio-ondoko baserritxo batean, Californiatiko baten biotz-gogortasuna ere, gaineratu zuen. Aita Emerando nuen nik misiolagun. Gogoz ekin genion gure arloari. Hura, gizon hura, etzitzaigun beintxo ere urbildu. Beretertegitik Elizara-bidean &laquo;erdu pekataria&raquo; oiukatzen ginjoazenetan, txapela buruan zuela, aldiro egoten zan zakarra alakoa! ardantegiko atarian <hi rend='Italic'><foreign>El Pa&iacute;s</foreign></hi> ta <hi rend='Italic'><foreign>El Mot&iacute;n</foreign></hi> iru edo lau aldiz atepetik barruratu zizkigun lotsagabe aundiak. Etzan hura egun aietan elizpean ere sartu. Californiar hura ta zure aita iparraldea ta egoaldea dira. Egin lo lasai ta zabal. Gaur <hi rend='Italic'>gloriarik</hi> ez, biar <hi rend='Italic'><foreign>alleluia. </foreign></hi>Gure Jauna irugarren egunean piztu zan, zure aita amargarrenean piztuko da. <hi rend='Italic'><foreign>Alleluia, alleluia!</foreign></hi></p>
+<p><hi rend='Bold'>&mdash;IV&mdash;</hi></p>
+<p>Gau artan lo egitea etzan egikizun erraza. Misiolari gartsuaren <hi rend='Italic'><foreign>alleluiak </foreign></hi>baino sakonago ta itsatsiago nituen, burmu&ntilde;-artean sartuta, etxeko andrearen berri sukaldekoak. Medel, batean agertzen zitzaidan (gure Aita San Franzisko bost zauriak artzen bezela) belauniko opalmai [aldare] aurrean, jauna artzen; mingain zuri-zuria agerian; aurpegia, goizeko eguzkiak jota bezelaxe, ikusgarrizko argitan zuela. Bestean, semearen etxetik igesi nekusen Californiar errukarria, idunean [lepoan] ttattar [korbata] gorri andi bat ipinita, zekor batek bezelako ijutiak eginez, Tolosako errepublikanoen batzokian sartzen. Negar ere egin nuen, nere burutasun hura egiazkotuko ote zan erabez [bildurrez]. Medel betiko galtzen bazan nork errua? Beste errudunik etzitzaidan agertzen. Nerau ote nintzan beraz? Enintzala uste izateko, bederatzi egun aietan azaldu nituen ikaspide [dotrina] guztiak gogoratzen asi nintzan. Euskeraz garbiegi mintzatu nintzaneko ingira [eskrupuloa] biotzaren ondarretaragino sartu zitzaidan. &laquo;Sinespen, itxaropen, onerespen...&raquo; ba ote zekien Medelek zer ziran? Gainera, asiberria ta kemen gutxikoa izanik, nere jardunak, nere lantxoak itzez itz ikasi bear, ta gero nere esakerak su gutxi, nere eskuketak ganorarik ez ta entzuleak otz ta Medel, lendik ozpera zan Medel, geroago otzago. Zein ilkorrek du Medelen itzulgogortasunaren errua? Neronek, autsa ta oinpeko autsa baino besterik enaizen onek. Etzan, ez, egikizun bererakoa ta samurra goizalde artan lo egitea.</p>
+<p>Laurak ziran, Alkateak, bi misiolarion ateak jota, &mdash;ordua da&mdash; ots egin zigunean. <hi rend='Italic'><foreign>Deo gratias</foreign></hi> erantzunez jeikita, berealaxe atondu [gertatu] nintzan lanerako. Otoitz, nere otoixko ezerezen urren, aitortegian nintzan. Oso nekatua nuen burua. Eliza Juan Joxek berak zabaldutakoan, gizakume ta emakume arrapaztaka sartu ziran, bai laxter aitortegi-inguruak belztu ere. Ordu ta erdi, or-or, igarota, gizeli osoa bateratsu sakristeiara begira jarri zan ta asnasa utsezko itz bat, ots gabea, bular askotatik irten zan: &laquo;Ardi galdua... ardi galdua... ardi galdua&raquo;.</p>
+<p>Nere lana etenik, alde artara begiratu nuen nik ere. Jaungoiko maitea! oraintxe bai esan genezakeala: <hi rend='Italic'><foreign>Alleluia, alleluia</foreign></hi>. Ardi galdua, Medel, artegira zetorren. Buruan nuen astuntasun andia, oso-osorik, poz itzulita, biotzean sartu zitzaidan. Atsegin andiagorik, <hi rend='Italic'>botoak </hi>egin nituenean ere eztakit izan ote nuen. Nere aitortegira urbildu zan. Gizon guztiak, jeikita, aurrenengo tokia berari utzi zioten. Aurregunetako nere itzaldi-mintzalditxoak, emendik atal bat, ortik puska bat, andik pitin bat aterata, izketa mordollotuz, Medeli berriz biotzeratu nizkion. Patxiko zeritzaion bat Californiara Medelengana joan zan ezkero, Juan Joxe Alkatea izaten omen da egun andietan elizgelari [sakristau] Orduan &laquo;sinespen, itxaropen, onerespen&raquo; <hi rend='Italic'>fedea, esperantza </hi>ta <hi rend='Italic'>karidadea </hi>izan ziran. Pekatari bat itzultzen danean, aingeruen poza andia izan bear, gure poza onenbesteraginokoa danean. Alkatea bera joan omen zan Leonen gelara berri zoragarri au ematera. Zoragarria, bai, egiaz zoragarria izendatu daiteke, Leon gainerako ordu guztietan erotua bezelaxe ikusita. Berak, apaiz gazte, gartsu, pozez zoratuak, ezarri zuen Ostia gurena [santua] bere Aitaren, ardi len galduaren, mingainean, <hi rend='Italic'><foreign>Alleluia, alleluia, alleluia!</foreign></hi></p>
+<p><hi rend='Bold'>&mdash;V&mdash;</hi></p>
+<p>Izan zan egun artan iskanbila ta abarrotsa Leaburuko elizetxean! Apaiz ta fraile ta edozein nekazari sartzen zan ara, jaiotetxera bezelaxe. Sukaldean tokiak artu ala emakume zebilzen gosari sendoa ta geroko bazkari ugaria gertatzen.</p>
+<p>Azpeitiko bereterburu jaunaren burutasuna izan zan, egun artan, asteguna izanarren, meza nagusia, <hi rend='Italic'><foreign>Te Deum</foreign></hi> ta guztikoa ospatzea [zelebratzea]: meza-emale Jaun Andres Lezartzaburu Amezketakoa zala; beraren lagun, Belauntzako arimazaina ta Tolosako apaiz gazte bat; iztun, Aita Batiz; meza-musika, Medelek lurbira guztiko onentzat zeukalako, Pradorena.</p>
+<p>Neke gutxi artu zuten egun artan Leaburuko nekazariak soroetan, geien-geienak gurekin ziran-ta. Medeli <hi rend='Italic'><foreign>Laudamus, laudamus te</foreign></hi> entzutea pozgarria zan. Aren gogoberotasuna! Eztet, ordea, elizkizun ospatsu alai hura zee-zee erakusteko asmorik. Armiarmak atzik bezenbat luma banitu &mdash;sei&mdash; ta seirak batera erabili al izanarren, Leaburuko elizan ta elizaldean goiz-arratsalde aietan, egikerak utzita ere, ezpainez belarri ibili ziran esakera ta parregaiak enituke zeekatu [adierazi] al izango. Bazkaltegiko maiean amalau lagun ginan: bi ez, besteak elizgizonak. Medel ta Juan Joxe Alkatea ziran txapeldun bakarrak. Itzik geien egin zutenak Aita Batiz, Arizpe ta Lezartzaburu izan ziran; gutxien, Aita-semeak. Auek alkarri begiratu ta parre egiteaz lanik aski zuten. Aita Batizen ipuin ta izkirimiriak entzunez ler egin genduen guztiok. Bakar bat edatsiko det.</p>
+<p>Azpeitiko bereterburuak ea Amezketako zerbait ez ote zekien galde egin zionean, &mdash;Amezketako kale bakarraren jatorria dakit&mdash; erantzun zuen. Zein zan jakin gabe asi zan alaitasuna gure ezpainetan irakiten. &mdash;Ixo esanez, eten zigun Arizpek. Ea, lagun zar; edatxi ipuin ori. Gero, Lezartzaburu, guztia amaitu arte, isilik egotea e?</p>
+<p>&mdash;Gizonak: Amezketara lenengoz iritsi nintzanean, irakurgaitxo labur-labur batek arri ta zur itzuli ninduen. Elizaren aurrez aur etxe txiki bat dakusku. Etxe orrek eztu lagunik, battxo ere, lerro-lerro beintzat; bakarra da; ta ala ere <hi rend='Italic'><foreign>Calle de San Bartolom&eacute;</foreign></hi> du agerian ezarrita. Zein da kale ori? Nun da? ageria dea? Urte asko igarota jakin det kale orren berri. Zuek; jakin dezazutenean, nik bezela aitortuko dezute: Amezketan kale bakar bat baizik izan ez arren, bera Londresko kalerik luzeena baino luzeago dala.</p>
+<p>Oraintxe asten da ipuina. Beinola, orain emeretzireun urte, ez oso, San Bartolome, kristau-legea irakatsi bear zuela-ta, Aralarpera etorri omen zan, Amezketara. Asi zuen bere arloa. Amezketarrak abegi ona egin zioten; gaintxo batean txabola egin ere bai. Ikasi... burugogorrak izanta edo, ikasi zerbait ai; baina... tira! ta bitartean, alkarren leian, batak baino besteak naiago ta geiago (nori saldu ere etzeukaten-ta) arkume ta ezne, gazta ta gaztanbera, talo ta arto, sagar ta urr, egur ta ikatz, lorretan, aurrez, oparo zeramazkioten. Txabola beti zeukan San Bartolomek ongi ornitua. Bein, eztakigu ala Amezketarrak ematen aspertu ziralako, ala gogo onez, kristautasuna zabaltzeko gogoz, beintzat artzain zartxo batek (bertsolaria ere ba al zan nere ustez), &laquo;San Bartolome, esan zion txabolako erlijio-irakasleari, San Bertolome: zure asmo orretarako, obe zenduke ara, Aralar-gain artara, joan ta goi aietan bizi diran napar ilargi-jauresleai [adoratzaileai] egiazko erlijioa jakineraztera joan. Bidea, nai dezunean erakutsiko dizugu; ta, nekatzen baldin bazera, anka jasotzen lagundu ere bai&raquo;.</p>
+<p>Badoaz ta badoaz ta badoaz ta alako batean eldu ziran Aralar-burura. Amezketarrok San Bartolome bakarrik utzi zuten ta antxumeak bezen bizkor etxaldera jetxi ziran. Egunak eta gauak, orduan ere, aldizka ibiltzen ziran ta mordo bat egun ta beste ainbeste gau igarotakoan, nola bizi ote da gure San Bartolome? galdetzen zuten beetarrak. Arkumerik jaten ote du, emen bezela? Etzekiten ja ere aren berririk. Bein, ilargia oso-osorik Aralar-gainean agertu zan gau batean, mendi-txuntxurrean irrintzi banakaren baten oiartzuna ta lagun askoren arantz-onantz bizkor ibiltzea nabaritu zuten. Zer ote darabilte naparrak? Bekoak gora begira zirala, lau gizonen artean mukurru [bulto] andi bat mendian beera amildu zuten. Ikus naiez, mailazotzik mailazotz ta mailorik mailo igon ziran amezketar gizaseme garako geienak.</p>
+<p>Gizon bat arkaitzik arkaitz, bilinbalaunka, amiltzen ikusi zuten. Badoaz ta larru-eratsia, larrutua zetzan gizon ori. Mintzuran ezagutu zuten nor zan, bestela ezin: San Bartolome. Lauk bizkarrean artuta bere txabolara ekarri zuten. Zerbait, erdizka bazan ere, esan zioten San Bartolomek:</p>
+<p>&mdash;Jaunik bat baizik ezta, goikoa bera. Jauna maite izan, maite izan alkar... Jesus!...&mdash; ta gogoa [arima], lurrin argi-argi bat bezelaxe, gora ta gora, Aralar baino gorago, ilargia baino ere gorago, izarrak baino ere askozaz gorago igon zan: zorilekura, zerura, Jauregira.</p>
+<p>Maite dute Amezketarrak beren San Bartolome. Maitasun onen ezaugarritzat norbaiti iru asmo otu zitzaizkion: txabola aren aldamenean baselizatxo bat eregitea (gaur Eliza ederra da), txabola zegoen tokian etxe bat jasotzea ta etxe artan itz auek erderaz ezartzea: <hi rend='Italic'><foreign>Calle de San Bartolom&eacute;</foreign></hi>.</p>
+<p>Gizonak: inoiz Amezketara bazoazte, itz auek irakurtzean, kale au ikusteko, ez begiratu atzetik aurrera, beetik gora begira ezazute. Amezketako kalea ezta, lurbirako beste guztien antzera, zearra, atzetik aurrerakoa; zuta, beetik gorakoa da Amezketako kalea. Orain nik bezela dakizute kale au zergatik dan Londresko kalerik luzeena baino luzeago.</p>
+<p>&mdash;Arizpe, esan zuen orduan Lezartzaburuk, zilegi ote zait orain zerbait esatea?</p>
+<p>&mdash;Bai, gizon, orain bai.</p>
+<p>&mdash;Aita Batiz: zerorrek asmatu dezu ipuin ori, zerorrek.</p>
+<p>Gizaki potzoloak parre-samurrak izan oi dira ta Arizpe gozaro parrez asi zan; eta parrea itsaskorra baita, gainerako guztiak karkarkar ari ginan, zein pozkorrago. Eta onelaxe zorion-pitsetan igaro genituen egun alai aren ordu arinak.</p>
+<p>Itzal bat izan zuen egun argitsu ark, goiz-goizetik orori alaitasuna nolabait goibeldu zigun itzala: Isabel. Emakume au, ardi galdua artegiratua zala jakin zuenean, artegitik irten zan. Nora? Gaztelura? Lasartera? Amezketara? Inork etzekien zein bide artu zuen.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>AMABIGARREN EZKUTITZA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>Arantzazutik 1901-VI-28</hi></p>
+<p><hi rend='Italic'>Leaburuko Olazarreta aita-semeai Fr, Gabriel Batizek, O.F.M.</hi></p>
+<p>Zerk beartu zaituzte, nere adiskide maiteok, guri, bezuzatzat [erregalutzat], onenbeste janari, edari ta errebelar [tabako] eder bidaltzera? Gure lanaren saria or berton gainezka artu genduen. Etxe onetako nagusi ta mendekoen gogoz eskerrak upelka ar itzatzute. Esker-erakutsitzat mando batek ekarri-ala izaki zuek guri, ta guk papertxo au baizik ez ote degu, zuei eskerrak erakusteko? Gure txirotasunean zerbait egin nai gendukeala, nagusiaren izenean dei au bijoa: garoileko Andre Mariz onera igo zaiteztela.</p>
+<p>Leon: zuk emango dezu, gure jairik andien orretan, meza nagusia. Opalorduan [ofertorion] zuk, Medel, eta Azpeitiko gure adiskide Arizpek <hi rend='Italic'>Artzainak dei </hi>oiukatu zenezakete. Arizpek beraren kabia utzi ezin badu, Aita Lezaurre gure nagusiak lagun egingo dizu. Ez uste izan, ordea, egun guzioten arresi-artean bizi izango zeratela. Urbiara egunen batean txangotan joan gindezke. Eztezute damu izango gain artara igo izatea. Antxe, berriz, jan genezake Californierazko urdaia.</p>
+<p>Ezagutzen al dezu, Medel, Hermannen meza? Bakonde ederrak ditu. Lenago ere gure Andre Mariz oiukatu izan degu emen. Or ezpadezute, neronek bidaliko dizut Tolosako Santa Klarara.</p>
+<p>Ez gero, gizonak, gure dei oni ez erantzun egin. Zure ordez, Leon, jai artarako nor jarri ezpadezu, norbait emendixek bidaliko dizugu.</p>
+<p>Gaur arratsalde apalean Leaburuko zeinutegi txanbelin ori burdinbidetik ikusiko det; eta zuetzaz oroituko naiz. Donostiara noa, andik gaberako Zumaiara jotzeko. Pedro gurenaren [santuaren] gorespena egitera naramate. Ernio bitartean ezpalitz, biar, amarrak aldean, Zumaiako parrokuaren betaurrekoren batez Leaburuko Alkatea ta bere bost zinegotziak, txistularia aurretik dutela, Elizara joaten ikusiko nituke.</p>
+<p>Aita Justo zertan ari dan? Lanean, or egin dituen ikaspideak [dotrinak] apaintzen, amar bat egun barru Ernanira joan-bearrak gera-ta. <hi rend='Italic'><foreign>Pater Pulvis</foreign></hi> da gure Mendiri. An ere esango du &laquo;autsa, oinpeko autsa, nornaik zapaltzekoa naizen au&raquo;. Misiolaguntzat eztet besterik nai. Orrerako neronek eskatu nion A. Probintzialari. Dagokion izena du: Justo. Egokiagorik inork ez. Il dadinean, lurreko arrak ez edo diote soinekorik ere zulatuko. Oski ta guzti (sandalia ta guzti) joango zaigu zerura. Goraintzi andiak eman dizkit beronek. Etxeko guztiak dute zuek ezagutzeko gogo mina, bizia.</p>
+<p>Eta Isabel? Artegiratu al dezute?</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>AMAIRUGARREN EZKUTITZA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>Leaburutik 1901-VIII-26</hi></p>
+<p><hi rend='Italic'>Aita agurgarri Gabriel Batizi Leon Olazarreta bereterrak</hi></p>
+<p>Berorren adiskide Izagirre apaiz, euskalzale ospetsu ta iztun txukun goxoak, Andre Mari-aurregunean agertu zanean, berorrek emandako goraintziz ta eskumu&ntilde;ez Aita ta seme oso poztu ginduzen. Berorri guzaz orrenbeste oroitzen dala! Egunik ez al zaigu igarotzen guri, nundik edo andik Aita Batiz ta Justo aipatu gabe. Arantzazun garoileko Andre Mariz oiukatzeko meza, Hermannena, Andre Mari agorrekoz entzunarazi genduen emen. Poz-pozik oiukatuko du or ere Aitak. Gogokoa du Hermannen musika. &laquo;<hi rend='Italic'><foreign>Benedictus</foreign></hi> luzexeago balu, Merkadanterena ere ez ederrago&raquo; esan zigun. Ezin paketsuago, ezin zoritsuago da emen daraman bizikera. Goiz batzuetan Ibar-ondoko Zumardira jexten da, Indianoakin tokan jokatzera; beste batzuetan arotz-lanetan ari izaten zaigu. Lurrean ere zerbait egiten asi bear omen du. Arratsaldean, neri opor eraginez, ikasgura [eskolara] joan oi da, mutil koskor auei ingeles-apur bat eta kontuak buruan sartzeko asmoz.</p>
+<p>&mdash;Zer da zuria?</p>
+<p><hi rend='Italic'><foreign>&mdash;White.</foreign></hi></p>
+<p>&mdash;Zer da beltza?</p>
+<p><hi rend='Italic'><foreign>&mdash;Black.</foreign></hi></p>
+<p>&mdash;Nola esaten da: arratsalde on?</p>
+<p><hi rend='Italic'><foreign>&mdash;Good evening.</foreign></hi></p>
+<p>&mdash;Nola, egun on?</p>
+<p><hi rend='Italic'><foreign>&mdash;Good morning.</foreign></hi></p>
+<p>&mdash;Eta gau on?</p>
+<p><hi rend='Italic'><foreign>&mdash;Good night.</foreign></hi></p>
+<p>&mdash;Zenbait dira <hi rend='Italic'><foreign>twenty </foreign></hi>ta <hi rend='Italic'><foreign>twenty</foreign></hi>?</p>
+<p><hi rend='Italic'><foreign>&mdash;Forty.</foreign></hi></p>
+<p>&mdash;Euskeraz?</p>
+<p>&mdash;Berrogei.</p>
+<p>&mdash;Zeinbat dira zortzi ta zazpi?</p>
+<p>&mdash;Amabost.</p>
+<p>&mdash;Ingelesez?</p>
+<p><hi rend='Italic'><foreign>&mdash;Fifteen.</foreign></hi></p>
+<p>&mdash;Esan ezazute orain ingelesez auxe: &laquo;ona da Sakramentora joatea&raquo;.</p>
+<p><hi rend='Italic'><foreign>&mdash;It is good to go to Sacramento.</foreign></hi></p>
+<p>&mdash;Ortxe, Sakramento-aurrean, erortzen dira geienak. Ta onelaxe arratsaldero: mutikoak pozik, bera pozago. Uts gutxien egiten duenari txanpona ematen dio. Astegunetan onentxoak pelotaka jartzen ditu, bik biri, bera epailari dala, irabazleentzat erreal bana aginduz ta emanez.</p>
+<p>Bost aldiz ikusi ditut nekazariak, lanari utzita, gure pelotatokitxora urbiltzen, beren semetxoak nola ari diran ikustera etorriak. Ingelesez aldarri egiten ditu aitak <hi rend='Italic'>tantoak</hi>:</p>
+<p>&mdash;<hi rend='Italic'><foreign>Ten the firsts an eleven the others, sirs</foreign></hi> (amar eskuak [sakeak], atzeak amaika, jaunak). <hi rend='Italic'><foreign>Fifteen and twenty, sirs</foreign></hi> (amabost eta ogei, jaunak)... eta abar. Parregarria izaten da entzutea: Markox: <hi rend='Italic'><foreign>Come here</foreign></hi>. Arberola txiki: <hi rend='Italic'><foreign>Play stark, little boy, play stark</foreign></hi>.</p>
+<p>Ez ote diegu egunen batean nekazariari &laquo;aida beiak&raquo; ingelesez entzungo?</p>
+<p>Andre Mariz meza nagusi-ondoan Izagirre jaunaren itzaldi txukuna, edo berak, Elizan ari danean, esango lukenez eztia bezain gozoa, entzunta gero, lau gizonen artean pelotaldi bat jokatu zuten: Tolosar urezandiko [indianu] batek eta Belauntzako apaizgaiak emengo nekazari baten eta nere Aitaren aurka [kontra]. Martin Loontxo zuten kontulari ta epailari. Egia esan, pelotariak etziran bana-banakoak eta etzan beren leia ikuskizun andia izan. Ator onera. Jokazak gorgor, mutiko; jokazak gogor.</p>
+<p>Baina orduko arteki txiki au uste det gogoz berorrek irakurriko duela.</p>
+<p>Elizpean Tolosatiko eskolapio bat eta eguneko iztuna, Calahorran oiulari dan Belauntzako seme bat eta nerau ginan: batean autuan, bestean pelotariak ikusten. Izagirre, nunbait ere basetxe asmo berrikoren bat edo goratzen ari da-ta, Katalu&ntilde;iatik oilo beltz batzuk <hi rend='Italic'><foreign>&#173;-Gallinas Prat&mdash; </foreign></hi>ekartzeko ustean omen dabil. Oilo auen arrautzaak nolakoak diran adierazteko, ukabila gora jasoa zedukan, Aitak Martin Loontxori &mdash;i, nola gaudek?&mdash; galde egin zionean.</p>
+<p>Martin Loontxok, <hi rend='Italic'>pertidu </hi>andietan bezela, txapela erantzita, nere aitaren mintzura lodia idurikatuz, ingeles-mordolloz <hi rend='Italic'><foreign>tubantipiiiif al pirtiiiii</foreign></hi> aldarri egin zuen.</p>
+<p>Parre gozoagorik eztute Leaburuarrak nere egunetan egin.</p>
+<p>Arratsaldean aitari Tolosara lagun egin-bearra naiz ta berealaxe atzena emango diot ezkutitz oni.</p>
+<p>Isabel artegiratu ote degun? Ona eun orren irazkia. Amabostean bein nerau bere iges-lekura, Amezketara, joaten izan natzaio. Iru aldiz etxeratzeko eginalak egin; ta bera gor. Azkenaldian musututs ta bakar etxea jo nuenean, Leaburuko Aita Medelek,</p>
+<p>&mdash;Seme, esan zidan: zuek Elizan itz egiteko ori bai! inor ez zuek berdintzekorik. Elizaz atetik [kanpotik] jardunak egiteko, ordea, gu zuen aldean misiolari trebeak gera. Erorrek ikusiko dek zein berera ta poliki Isabel ezkaitz ori neronek ezi ta zurituko dedan. Goakiozen datorren astelenean.</p>
+<p>Alperreko arazoa izango zala uste nuen. Zeinek, alabaina, aita bati, batez ere nerealakoari, ezer ukatu? Joan, iritsi, sartu ta berarekin bazkaldu-ondoan, esku bete giltz mai-gainera aterata, Isabel, esan zion Aitak, gizonok ezkera giltzain izateko jaioak. Etxekoa degula, eztu Jainkoak agintzen beste emakumek giltz auek erabiltzea. Bil ditzagun emen dituzun puskak eta gaberako goazen Leaburura.</p>
+<p>Nik eztakit biotz artan, Bilboko Labandietan sua bezela, gorrot mina aspaldi luzeetan izekia izan duen biotz artan, nola itz oriek sustraitu zitezkean. Gau artatik izeba emen degu beintzat, eta agi danez, izango ere.</p>
+<p>Aita-semeok Arantzazuratea noiz etorriko gogo minez, gutar andiz bizi gera. Gaur zortzi, goizean goiz, emendik orrerako bidea artuko degu. Eresi bat, Arantzazuko Andre Mariarekikoa, apaiz batek oiuki zar txukun bati ezarria, arestian ikasi det.</p>
+<p>Emen entzunez biotza onenbat gozatu didanean, zeinbat ez ote dit gozatuko, or badantzut? Aldean eramango det.</p>
+<p><hi rend='Italic'>Arantzazu aldean izar bat da ageri,</hi></p>
+<p><hi rend='Italic'>izar orrek izantzat darakusku Mari;</hi></p>
+<p><hi rend='Italic'>izen gozoagorik, ezti ta samurragorik,</hi></p>
+<p><hi rend='Italic'>entzun ote nakioke aingeru-eliari?</hi></p>
+<p><hi rend='Italic'>Best(e) izen batek zoli an dago durundi,</hi></p>
+<p><hi rend='Italic'>Jesus da izen ori, adituz du zori.</hi></p>
+<p><hi rend='Italic'>Jesusek eman dio gozo alaitsu au Amari:</hi></p>
+<p><hi rend='Italic'>goazen Arantzazura eta gauden adi.</hi></p>
+<p>Arantzazu, Arantzazu! Gain orietatik Andre Mariak, beraren bi seme gartsuren bitartez, maiterik eta oparo bidali zizkigun Leaburuko elizalde onetan bear genituen argia ta sua.</p>
+<p>Nola nik ori atzendu? Hebreotarrak Jerusalenez ziotena esan dezaket nik geron Arantzazuz: &laquo;Zuzaz ni aantzi banendi, neronen izena aantzia [aztua] izan ditela. Nere mingaina autzetan itsatsi bekit, zuzaz oroit ezpanendi; ta nere gozotasun onetan zure izen ori aurren-aurrena jar ezpadezat&raquo;.</p>
+        </body>
+      </text>
+    </group>
+  </text>
+</TEI.2>
+

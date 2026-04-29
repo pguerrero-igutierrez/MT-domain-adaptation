@@ -1,0 +1,218 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN"
+                       "http://www.tei-c.org/P4X/DTD/tei2.dtd" [
+   <!ENTITY % TEI.prose    'INCLUDE' >
+   <!ENTITY % TEI.linking  'INCLUDE' >
+   <!ENTITY % TEI.analysis 'INCLUDE' >
+   <!ENTITY % TEI.figures  'INCLUDE' >
+   <!ENTITY % TEI.XML      'INCLUDE' >
+   <!ENTITY % TEI.extensions.ent SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.ent' >
+   <!ENTITY % TEI.extensions.dtd SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.dtd' >
+]>
+<TEI.2>
+  <teiHeader>
+  <fileDesc>
+     <titleStmt>
+        <title>Otoitzak</title>
+        <author>Arnauld François Maitie</author>
+        <respStmt>Ez dauka</respStmt>
+     </titleStmt>
+     <extent>1.865 hitz, 14.970 karaktere</extent>
+     <publicationStmt>
+        <publisher>Klasikoen Gordailua [http://klasikoak.armiarma.com/]</publisher>
+        <distributor>Estrata Liburuak S.L.</distributor>
+        <address type='email'>klasikoak@armiarma.com</address>
+        <idno type='ota'>MaitieOtoitzak</idno>
+        <availability status='free'>Erabilpen librekoa; honoko helbidean topa daiteke (HTML, RTF eta PDF formatuetan): http://klasikoak.armiarma.com/idazlanak/M/MaitieOtoitzak.htm</availability>
+        <date>2006</date>
+     </publicationStmt>
+     <sourceDesc>
+        <bibl>Iturria: Les pri&egrave;res du prone en basque (dialecte souletin), Arnauld-Fran&ccedil;ois Maytie. Lamaign&egrave;re, 1874</bibl>
+        <notesStmt><note>Iturburuen datazioa: 1676, 1874</note></notesStmt>
+     </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+     <projectDesc>Euskal literaturako testu klasikoen bilduma da KLASIKOEN GORDAILUA; testu hau berorren parte da</projectDesc>
+     <refsDecl>
+        <p>MENTIONED etiketa egilearenak ez diren hitzak markatzeko erabili da: hitzaurreak, aipuak, iruzkinak, e.a.</p>
+    </refsDecl>
+     <classDecl>
+        <taxonomy id='generoa'>
+            <category id='G-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='G-ANT'><catDesc>Antzerkia</catDesc></category>
+            <category id='G-BER'><catDesc>Bertsoak</catDesc></category>
+            <category id='G-ERL'><catDesc>Erlijioa</catDesc></category>
+            <category id='G-NAR'><catDesc>Narratiba</catDesc></category>
+            <category id='G-POE'><catDesc>Poesia</catDesc></category>
+            <category id='G-SAI'><catDesc>Saiakera, kronika, artikuluak...</catDesc></category>
+        </taxonomy>
+        <taxonomy id='garaia'>
+            <category id='M-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='M-16'><catDesc>XVI. mendea</catDesc></category>
+            <category id='M-17-1'><catDesc>XVII. mendea - 1. erdia</catDesc></category>
+            <category id='M-17-2'><catDesc>XVII. mendea - 2. erdia</catDesc></category>
+            <category id='M-18-1'><catDesc>XVIII. mendea - 1. erdia</catDesc></category>
+            <category id='M-18-2'><catDesc>XVIII. mendea - 2. erdia</catDesc></category>
+            <category id='M-19-1'><catDesc>XIX. mendea - 1. erdia</catDesc></category>
+            <category id='M-19-2'><catDesc>XIX. mendea - 2. erdia</catDesc></category>
+            <category id='M-20-1'><catDesc>XX. mendea - 1. erdia</catDesc></category>
+            <category id='M-20-2'><catDesc>XX. mendea - 2. erdia</catDesc></category>
+        </taxonomy>
+        <taxonomy id='euskalkia'>
+            <category id='E-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='E-BAT'><catDesc>batua</catDesc></category>
+            <category id='E-BIZ'><catDesc>bizkaiera</catDesc></category>
+            <category id='E-BNA'><catDesc>behenafarrera</catDesc></category>
+            <category id='E-ERR'><catDesc>erronkariera</catDesc></category>
+            <category id='E-GIP'><catDesc>gipuzkera</catDesc></category>
+            <category id='E-GNA'><catDesc>goi nafarrera</catDesc></category>
+            <category id='E-LAP'><catDesc>lapurtera</catDesc></category>
+            <category id='E-NAF'><catDesc>nafarrera</catDesc></category>
+            <category id='E-ZAR'><catDesc>zaraitzuera</catDesc></category>
+            <category id='E-ZUB'><catDesc>zuberera</catDesc></category>
+        </taxonomy>
+    </classDecl>
+  </encodingDesc>
+  <profileDesc>
+     <textClass>
+       <keywords scheme='generoa'>
+         <list><item>G-ERL</item></list>
+       </keywords>
+       <keywords scheme='garaia'>
+         <list><item>M-17-2</item></list>
+       </keywords>
+       <keywords scheme='euskalkia'>
+         <list><item>E-ZUB</item></list>
+       </keywords>
+     </textClass>
+  </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>Otoitzak -- Arnauld François Maitie</docTitle>
+    </front>
+    <group>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>LES PRI&Egrave;RES DU PRONE</p><--</head>
+        </front>
+        <body>
+<p><foreign>en basque (dialecte souletin)</foreign></p>
+<p><foreign>publi&eacute;es par</foreign></p>
+<p><foreign>M<SUP>gr</SUP> Arnauld-Fran&ccedil;ois Maytie</foreign></p>
+<p><foreign>Ev&ecirc;que d'Oloron, en 1676</foreign></p>
+<p><foreign>R&eacute;imprim&eacute; chez M<SUP>me</SUP> Veuve Lamaign&egrave;re</foreign></p>
+<p><foreign>en 1874</foreign></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><foreign> Le petit livret que nous reproduisons est probablement le premier ouvrage qui ait &eacute;t&eacute; imprim&eacute; en dialecte basque souletin. Il a &eacute;t&eacute; publi&eacute; en 1676 par M<SUP>er</SUP> Arnauld-Fran&ccedil;ois de Maytie, &eacute;v&ecirc;que d'Oloron, le troisi&egrave;me de la noble famille de Maytie, de Mauleon, qui ait occup&eacute; ce si&egrave;ge. Il est &agrave; pr&eacute;sumer qu'il l'aura &eacute;crit lui-m&ecirc;me dans sa langue maternelle.</foreign></p>
+<p><foreign> On ne conna&icirc;t de cet opuscule qu'un seul exemplaire, lequel est en notre possession. Nous l'avons fait reproduire dans sa justification et page pour page, ligne pour ligne, sans rien changer ni &agrave; l'orthographe, ni &agrave; la ponctuation.</foreign></p>
+<p><foreign> Cet &eacute;crit et le cat&eacute;chisme de Bela-Peyre, qui fut imprim&eacute; quelques ann&eacute;es plus tard (en 1695), sont un t&eacute;moignage du peu de variation, ou plut&ocirc;t de l'absence de variation dans le dialecte souletin depuis deux cents ans.</foreign></p>
+<p><foreign>Urrugne, le 26 Mars 1874</foreign></p>
+<p><foreign>ANTOINE D'ABBADIE,</foreign></p>
+<p><foreign>Membre de l'Institut</foreign></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><foreign><hi rend='Bold'>PRONVS</hi></foreign></p>
+<p><foreign><hi rend='Italic'>Singulis diebus Dominicis clar&egrave; et distinct&egrave; immediat&egrave; post Euangelium populo legendus</hi></foreign></p>
+<p><hi rend='Italic'> Aitaren, eta Semiaren, eta Espirit&uuml; Saintiaren izenian Hala biz.</hi></p>
+<p>Pop&uuml;l&uuml; Kristia, eg&uuml;nko bestak man&uuml; egiten derizie m&uuml;nd&uuml;ko lanak eitzirik, Jinkoaren zerb&uuml;txatzera: Hartakoz lek&uuml; saind&uuml; hontara bild&uuml; zireie, eginbide honen errendatzera, Kristi fidelak bezala.</p>
+<p>Zoinen lehena baita, fediak eta elizak erakasten derizkien gaizen aithortzia, hori eginbehar d&uuml;zie sinheste oso bateki, egiati dela, zeren Jinkoak zoin baita lehen egia Elizari erakatsi baiterio, eta Elizak espirit&uuml; saintiaz &uuml;rgatzirik, hutsik ezin baitaidi haren partez erraiten deritzienetan, eta zeren Apostolien sinhestiak, guria hitz g&uuml;titan baitad&uuml;ka, d&uuml;g&uuml;n erran.</p>
+<p><foreign>&mdash; Credo in Deum Patrem omnipotentem Creatorem Caeli &amp; Terrae.</foreign></p>
+<p><foreign>&mdash; Et in Iesum Christum Filium eius vnicum Dominum nostrum.</foreign></p>
+<p><foreign>&mdash; Qui conceptus est de Spiritu Sancto, Natus ex Maria Virgine.</foreign></p>
+<p><foreign>&mdash; Passus sub Pontio Pilato, Crucifixus, mortuus, &amp; sepultus.</foreign></p>
+<p><foreign>&mdash; Descendit ad inferos; tertia die resurrexit &agrave; mortuis.</foreign></p>
+<p><foreign>&mdash; Ascendit ad Caelos, sedet ad Dexteram Dei Patris omnipotentis.</foreign></p>
+<p><foreign>&mdash; Inde venturus est iudicare viuos et mortuos.</foreign></p>
+<p><foreign>&mdash; Credo in Spiritum Sanctum.</foreign></p>
+<p><foreign>&mdash; Sanctam Ecclesiam Catholicam, Sanctorum Communionem.</foreign></p>
+<p><foreign>&mdash; Remissionem peccatorum</foreign></p>
+<p><foreign>&mdash; Carnis resurrectionem.</foreign></p>
+<p><foreign>&mdash; Vitam aeternam. Amen.</foreign></p>
+<p>Sinhesten d&uuml;t Jinko Aita potere oro dianian, Zeliaren eta l&uuml;rraren Kreazalian.</p>
+<p>Eta Ies&uuml; Krist haren seme bakoitz gure Iaunian.</p>
+<p>Zoin izan baita konzebit&uuml; Espirit&uuml; Saintiaz, sorth&uuml; Maria Birjina ganik.</p>
+<p>Soferit&uuml; Ponzio Pilat&uuml;sen pian, Kr&uuml;fikat&uuml;, hil, eta ehortzi.</p>
+<p>Iaitsi ifernietara, heren eg&uuml;nian hiletarik pizt&uuml;.</p>
+<p>Zelietrat igan, iarririk dago Jinko Aita potere oro dianaren alde esk&uuml;inian.</p>
+<p>Hantik ginen da bizien eta hilen iuiatzera.</p>
+<p>Sinhesten d&uuml;t Espirit&uuml; Saintian.</p>
+<p>Eliza Sainta Katholika, saintien parteliant izatia.</p>
+<p>Bekatien parkamentia.</p>
+<p>Aragiaren piztia.</p>
+<p>Bethi irainen dian bizitzia. Hala biz.</p>
+<p>Bigerrenian, zien bekatiez dol&uuml; &uuml;ken behar d&uuml;zie, zeren Jinkoaren hotarz&uuml;nari eta eztitarz&uuml;nari ogen egiten baiterie; boronthate oso batekin haren graziareki batian, ez gehiago erortera, eta ahalik sarriena kofesatzera, oroz parkament&uuml; eskatzeko, erranen d&uuml;zie.</p>
+<p><foreign>&mdash; Confiteor Deo Omnipotenti, Beatae Mariae semper Virgini, beato Michaeli Archangelo, beato Ioanni Baptiste, Sanctis Apostolis Petro &amp; Paulo, omnibus sanctis, &amp; tibi Pater, quia pecaui nimis cogitatione, verbo &amp; opere; Mea culpa, mea culpa, mea maxima culpa; Ideo precor beatam Mariam semper Virginem, beatum Michaelem Archangelum, beatum Ioannem Baptistam, Sanctos Apostolos Petrum, &amp; Paulum, omnes Sanctos, &amp; te Pater orare pro me ad Dominum Deum nostrum. Amen..</foreign></p>
+<p>Kofesatzen niz Jinko potere oro dianari. Maria bethi Birjina dohatsiari, Iondane &Ntilde;eli Arkanjeliari, Iondane Iohane Baptistari, Apostol&uuml; saintier Iondane Petiri, eta Iondane Pauleri, beste saind&uuml; orori, eta zuri Aita Espirit&uuml;ala, zeren sobera bekat&uuml; egin bait&uuml;t pensament&uuml;z, hitzez, eta obraz: Ene faltaz, ene faltaz, ene falta hadiz. Hortakotz othoitzen d&uuml;t Maria bethi Birjina dohatsia, iondane &Ntilde;eli Arkanjelia, iondane Iohane Baptista, Apostol&uuml; saintiak iondane Petiri, eta iondane Paule, beste saintiak oro, eta z&uuml; Aita espirit&uuml;ala, Jinkoa othoi dekazien enegatik.</p>
+<p><foreign>&mdash; Misereatur vestri omnipotens Deus, &amp; dimissis pecatis vestris perducat vos ad vitam aeternam. Amen.</foreign></p>
+<p><foreign>&mdash; Indulgentiam, absolutionem &amp; remissionem peccatorum vestrorum tribuat vobis omnipotens, &amp; misericors Dominus, Amen.</foreign></p>
+<p>Hirurgerrenian, Jinkoa ohorat&uuml; behar d&uuml;zie bihotz amorats&uuml; bateki, eta ezag&uuml;t&uuml; haren handitarz&uuml;na; laidatzen d&uuml;zielarik bere potere handi, z&uuml;h&uuml;rtze, hontarz&uuml;n, eta beste m&uuml;ga gabe d&uuml;tian perfekzione gatik, oferitzen deriozielarik mezako Sakrifizio Saintia Apezareki elizaren gogoan, zien espiritien eta korpitzen ohoreskiak, zien honak eta zerb&uuml;tx&uuml; leialak.</p>
+<p>Laurgerrenian, ohoresk&uuml; bera, eta eskerrak emanen deritzozie, zeren kreat&uuml; baitz&uuml;tie merexi gabe, begirat&uuml; ogen egiten deriozielarik, berriz erosi Ies&uuml; Kristen odolaren balioaz bekatarien eta deebriaren man&uuml; petik, deith&uuml; ebanjelioaren ezag&uuml;tziala, elizan ezari, Sakrament&uuml;, grazia, eta bere aberatstarz&uuml;n espirit&uuml;aletan parte eman.</p>
+<p>Bostgerrenian, Jinkoa maithat&uuml; behar d&uuml;zie gaiza ororen gaineti, eta zien Kristi lag&uuml;na, zoin baita haren &uuml;d&uuml;ria; ziha&uuml;reien b&uuml;ria bezala; ez hanbat honki egin deritzielakoz h&uuml;ts, eta parad&uuml;sia adelat&uuml;, bena orano, zeren berartan bait&uuml; hontarz&uuml;n g&uuml;zia, eta zien azken &uuml;rhenze gehiena baita; Karitate honen eginbidiak edireiten dira haren, eta elizaren manietan, ditzag&uuml;n erran.</p>
+<p><hi rend='Bold'>Jinkoaren maniak dira hamar</hi></p>
+<p>1. Jinko bakoitz bat adora eta maitha ezak gaiza ororen gaineti.</p>
+<p>2. Jinkoaren izena iura eztezala, ez beste gaizarik behar gabe.</p>
+<p>3. Igantiak begira itzak, Jinkoa zerb&uuml;txatzen diala debotki.</p>
+<p>4. Bita eta ama ohora itzak, l&uuml;rrian bizi adin l&uuml;zazki.</p>
+<p>5. Gizon erhaile ezizala, obraz, ez boronthatez.</p>
+<p>6. L&uuml;x&uuml;rius ezizala gogoz, ez korpitzez.</p>
+<p>7. Besteren hona ebats eztezala, ez dakialarik ed&uuml;ki.</p>
+<p>8. Iakile fals&uuml; ezizala, ez iagoiti gez&uuml;rti.</p>
+<p>9. Aragizko obra onhets eztezala, ezkonzez baizi.</p>
+<p>10. Besteren honik nahi eztiala, ed&uuml;kiteko gaistoki.</p>
+<p><hi rend='Bold'>Elizaren maniak dira zazpi</hi></p>
+<p>1. Igantez meza enz&uuml;n ezak, eta besta manatiez debotki.</p>
+<p>2. Hire bekatiak oro kofesa itzak, urthian behin g&uuml;tiena.</p>
+<p>3. Ore Kreazalia errezebi ezak berantena bazkoz &uuml;milki.</p>
+<p>4. Elizaz manat&uuml; bestak begira itzak leialki.</p>
+<p>5. La&uuml;r tenporak, bijiliak, eta goroz&uuml;ma barur itzak osoki.</p>
+<p>6. Ostiralian, ez neskeneg&uuml;nian eztezala ian aragirik.</p>
+<p>7. Tenpora debetatiez eztagiala ezteik, eta detxema primiziak paka itzak x&uuml;xenki.</p>
+<p>Seigerrenian, zeren beraren grazia gabe, haren boronthate saintia zihaureiek ezin egin baitirozie, ez eta hartakoz beragana hel; ezag&uuml;t ezazie hontarz&uuml;n ororen &uuml;th&uuml;rb&uuml;ria bezala, eta sinheste handi bat hart&uuml;rik haren potere oso, liberalitate, eta miserikordian, Ies&uuml; Kristen merexietan, Birjina Sakratiaren, eta parad&uuml;s&uuml;ko Saint&uuml; ororen arartekotarz&uuml;nian, othoi ezazie bizitze honen eta Elizaren behar orogatik, hanbat zihaureiegatik, nola bizi eta hil orogatik.</p>
+<p>Othoi ezazie Eliza Sainta Katolika, Apostolika eta Romanoaren begira, eta goratzia gatik; gure Aita Saintia gatik, zoin baita haren b&uuml;r&uuml; ageri dena; Kardinalen Kolejio Sakratia gatik, gure Iaun. N, Apezk&uuml;pia gatik, haren Karg&uuml;d&uuml;negatik, gure Iaun Arxapezk&uuml;p&uuml;, Apezk&uuml;p&uuml;, Erretor eta beste arimen, gidazale oro gatik, gure Errege ezinago Kristia gatik, lek&uuml; hontako Patron, Patrone gatik; Iuje eta beste oro atik; Amorekati haien Gobern&uuml; hanbat espirit&uuml;al, nola tenporalen pian, Eliza egiten dien partiak oro, g&uuml;ziz erres&uuml;ma hontan, bake honian bizi direlarik, saintiago gertha ditian; bekatorer dol&uuml; dakien; Eri, eta penatan direnak, berheziki lek&uuml; hotakoak, soltha ditian, edo Jinkoaren amorekati, ditien bihotztoiki egar; Eliza honi honkigiliak, Jinkoak paka ditzan; Elizati herratiak, eta berheziak berartara bil ditian; fede gabiak honiala &uuml;tz&uuml;l; eta Jinkoaren zerb&uuml;txuko korpitzen osagarria, airiaren xah&uuml;tarz&uuml;na, eta l&uuml;rreko honak begirat&uuml; diren gure othoitz ororen gozoa, Ies&uuml; Krist gure Iaunak erakatsi derik&uuml;nian, dagoelakoz, erranen d&uuml;g&uuml;.</p>
+<p><foreign>&mdash; Pater noster qui es in caelis, sanctificetur nomen tuum. Adueniat regnum tuum. Fiat voluntas tua sicut in caelo, &amp; in terra. Panem nostrum quotidianum da nobis hodie. Et dimitte nobis debita nostra, sicut &amp; nos dimittimus debitoribus nostris. Et ne nos inducas in tentationem. Sed libera nos &agrave; malo. Amen.</foreign></p>
+<p>Gure Aita zelietan zirena, erabil bedi saint&uuml;ki zure izena, zure erres&uuml;ma jin bekig&uuml;, zure boronthatia egin bedi zelian bezala l&uuml;rrian. Ig&uuml;z&uuml; eg&uuml;n gure eg&uuml;neko ogia. Eta parka itzag&uuml;tz&uuml; gure bekatiak, hala nola g&uuml;k parkatzen bait&uuml;t&uuml;gu guri ogen egiler; Eta ezgitzatzula eitz tentazionetan erortera. Bena begira gitzaz&uuml; gaitzetik, hala biz.</p>
+<p><hi rend='Bold'>Eta zeren behar bait&uuml;g&uuml; &uuml;ken debozione eta sinheste handi bat Birjinaren sokorrian, erranen d&uuml;g&uuml;:</hi></p>
+<p><foreign>&mdash; Ave Maria gratia plena, Dominus tecum: benedicta tu in mulieribus, &amp; benedictus fructus ventris tui Iesus, Sancta Maria mater Dei, ora pro nobis peccatoribus nunc &amp; in hora mortis nostra, Amen.</foreign></p>
+<p>Sal&uuml;tatzen z&uuml;t&uuml;t Maria graziaz bethia, Iauna da zureki, benedikat&uuml; zira emazte ororen artian, eta benedikat&uuml; da zure sabeleko fr&uuml;tia Ies&uuml;s. Maria saintia Jinkoaren ama othoitz egiz&uuml; g&uuml; bekatore gatik orai, eta gure hilzeko orenian, hala biz.</p>
+<p>Hebenko ere arima honkigilen arhinmentia gatik, eta beste p&uuml;rgatorioan daudiane gatik, g&uuml;ziz aste hontan, noren meza saintiak Eliza hontan erranen baitira, hentko d&uuml;g&uuml;n erran</p>
+<p><foreign>&mdash; Fidelium Deus omnium conditor &amp; redemptor animabus Famulorum, Famularumque tuarum remissionem cunctorum tribue peccatorum; vt Indulqentiam quam semper optauerunt, pijs suplicationibus consequantur, qui viuis &amp; regnas in saecula saeculorum. R. Amen.</foreign></p>
+<p><foreign>&mdash; V. Requiem aeternam dona eis Domine.</foreign></p>
+<p><foreign>&mdash; R. Et lux, perpetua luceat eis.</foreign></p>
+<p><foreign>&mdash; V. Requiescant in pace.</foreign></p>
+<p><foreign>&mdash; R. Amen.</foreign></p>
+<p><hi rend='Bold'>Azkenekoz, gure Iaun Apezk&uuml;piaren poterez esk&uuml;m&uuml;kat&uuml; berhezi dira</hi></p>
+<p>1. Majizien belhagile, enkantazale, azti, estekazale, eta hetara hersatzen direnak, dakielarik deebriareki pakto egiten diela, edo iakinez geroz, bekat&uuml; handi bat dela.</p>
+<p>2. Eliza gizonen zonbat nahi arhinzki xaflazaliak.</p>
+<p>3. Bere Aita, edo Amen popazaliak.</p>
+<p>4. Seroreki aragizko bekatiaren egiliak.</p>
+<p>5. Elizan, edo hilherrian heretiko, edo esk&uuml;m&uuml;kat&uuml; izentat&uuml; baten korpitzaren ehortzliak.</p>
+<p>6. Neskato, edo emazten bortxazaliak.</p>
+<p>7. Ezkonze ixil egiliak, bere lag&uuml;neki.</p>
+<p>8. Haurren urthia beno lehen bereki eratzaliak, ithotzen badira.</p>
+<p>9. Elizak, eliza gizonek, edo haiek nahi d&uuml;tien arrandatek bere honak goza eztitzen gibelzaliak, eta haien z&uuml;zenen gordazaliak bortxaz, mehatxuz edo nola nahi.</p>
+<p>10. Haur sorth&uuml; berri bere man&uuml; pekoak, zortzi eg&uuml;netan barnen batheia eraziten ezt&uuml;tienak.</p>
+<p><foreign>&mdash; Haec vltima excommunicatio non reseruatur.</foreign></p>
+<p><foreign>&mdash; His addet, si quae sint monenda iuxta Rituale.</foreign></p>
+<p><foreign>&mdash; De gallico haec cantabrica elucubratio caeteris quae passim legebantur emendatior, condita est cum altero inferiori Prono, pro Patria Solensi, iussu illustrissimi &amp; Reuerendissimi Domini Episcopi Oloronensis. Datum Mauleone die nostrae sinodi quinta Maij., Anno Domini millesimo sexcentesimo septuagesimo sexto.</foreign></p>
+<p><foreign>&mdash;ARNALDVS FRANCISCVS DE MAYTIE</foreign></p>
+<p><foreign>&mdash;Episcopus Oloronensis</foreign></p>
+<p><foreign><hi rend='Bold'>PRONVS</hi></foreign></p>
+<p><foreign><hi rend='Italic'>Pariter legendus singulis diebus feria secunda, Obitus, Nonis, et Anniuersarijs, quibus populus in Ecclesiam conuenire assueuit, quoties non habebitur concio.</hi></foreign></p>
+<p><hi rend='Italic'> Aitaren, eta Semiaren, eta Espirit&uuml; Saintiaren izenian. Hala biz.</hi></p>
+<p><hi rend='Bold'>Arima debotak bild&uuml; zireie lek&uuml; saint&uuml; hontara, Eliza ama saintiaren egitate honaren araura</hi></p>
+<p>Lehenik, Jinkoaren adoratzera, eta egin deritzien hontarz&uuml;n eta grazia orotzaz eskerren emaitera, zien bekatiez parkament&uuml; eskatzera, eta arimen salbatzeko behar d&uuml;t&uuml;zien gaizen hari &uuml;milki galtatzera, ararteko ezarten deriozielarik Birjina ama saintia, zien Aing&uuml;r&uuml; begirazale, Patron Saint&uuml;, eta beste saintiak oro.</p>
+<p>Bigerrenian, hona bild&uuml; zireie, p&uuml;rgatorioko penetan diren arimen &uuml;rgaztera, <hi rend='Italic'><foreign>Generaliter diebus lunae</foreign></hi>; eta berheziki N. zenaren arimaren, zoinetako eg&uuml;n erraiten baitira meza saintiak eliza hontan,eta ohereskiak egiten, eretxeki ditzakogun oro bere bekatien satisfakzionetan, othoitzen d&uuml;g&uuml;larik gure Jinkoa, plazer dian pena orotarik idokirik, parad&uuml;s&uuml;ko gloria saintian ezarri; hartakoz erranen d&uuml;zie Trinitate saintiaren ohoretan hiruretan <hi rend='Italic'><foreign>Pater, Abe Maria </foreign></hi>eta <hi rend='Italic'><foreign>Requiem</foreign></hi>, berhala Ies&uuml; Krist gure salbazaliaren bost zauri karioen ohoretan, bostetan <hi rend='Italic'><foreign>Pater</foreign></hi>, eta <hi rend='Italic'><foreign>Abe Maria</foreign></hi>. Eta arima hura ezpada beharetan; hontarz&uuml;n hoiek oro ditzog&uuml;n Jinkoari eskent haren askazi, edo beste arima beharretan direne gatik.</p>
+<p>Eta zeren, P&uuml;rgatorioko penetan diren arimek sokorrit&uuml; izan behar baitie meza saintiez orotan gainti, gero othoitze, barur, amoina, ohoresk&uuml;, eta beste obra honez, gomendatzen deriziet karitate hoietzaz ahalik hobekiena &uuml;rgatz ditzatzien, sinhesten d&uuml;zielarik, eta esperanxa hartzen bere penetarik solthat&uuml;tik, Jinkoaren gloria gozat&uuml;ren dienian izanen direla ordari zien othoitz egile; eta Jinkoak hobeki enz&uuml;n zitzen, adela ziteie zien arimen haren grazian ezartera, bekat&uuml; orotzaz parkament&uuml; &uuml;milki galthatzen deriozielarik,eta osoki hitz emaiten etzireiela gehago bekatiala eroriren; igaranez dol&uuml;men haur erakats izozie.</p>
+<p>Ene Jinko hona, parkament&uuml; eske nauz&uuml; &uuml;milki ene bekat&uuml; orotzaz, dol&uuml; eta bihotz min diz&uuml;t zure amorekatik, zeren oro hon zirelarik, ogen egin baiteriz&uuml;t;</p>
+<p>hartzen diz&uuml;t boronthate oso bat zure graziareki batian, ez gehiago bekat&uuml;rik egiteko; berhala hitz emaiten deriz&uuml;t ene bekat&uuml; orotzaz kofesat&uuml;ren nizala ahalik sarriena, emanen zaitadan penitenziaren egiteko. Halabiz.</p>
+        </body>
+      </text>
+    </group>
+  </text>
+</TEI.2>
+

@@ -1,0 +1,604 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN"
+                       "http://www.tei-c.org/P4X/DTD/tei2.dtd" [
+   <!ENTITY % TEI.prose    'INCLUDE' >
+   <!ENTITY % TEI.linking  'INCLUDE' >
+   <!ENTITY % TEI.analysis 'INCLUDE' >
+   <!ENTITY % TEI.figures  'INCLUDE' >
+   <!ENTITY % TEI.XML      'INCLUDE' >
+   <!ENTITY % TEI.extensions.ent SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.ent' >
+   <!ENTITY % TEI.extensions.dtd SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.dtd' >
+]>
+<TEI.2>
+  <teiHeader>
+  <fileDesc>
+     <titleStmt>
+        <title>Bein da betiko</title>
+        <author>Resurreccion Maria Azkue</author>
+        <respStmt>Ez dauka</respStmt>
+     </titleStmt>
+     <extent>9.132 hitz, 69.351 karaktere</extent>
+     <publicationStmt>
+        <publisher>Klasikoen Gordailua [http://klasikoak.armiarma.com/]</publisher>
+        <distributor>Estrata Liburuak S.L.</distributor>
+        <address type='email'>klasikoak@armiarma.com</address>
+        <idno type='ota'>AzkueRBetiko</idno>
+        <availability status='free'>Erabilpen librekoa; honoko helbidean topa daiteke (HTML, RTF eta PDF formatuetan): http://klasikoak.armiarma.com/idazlanak/A/AzkueRBetiko.htm</availability>
+        <date>2006</date>
+     </publicationStmt>
+     <sourceDesc>
+        <bibl>Iturria: Bein da betiko / Batxi Guzur, Resurreccion Maria Azkue (Ines Pagolaren edizioa). Euskal Editoreen Elkartea, 1986</bibl>
+        <notesStmt><note>Iturburuen datazioa: 1890</note></notesStmt>
+     </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+     <projectDesc>Euskal literaturako testu klasikoen bilduma da KLASIKOEN GORDAILUA; testu hau berorren parte da</projectDesc>
+     <refsDecl>
+        <p>MENTIONED etiketa egilearenak ez diren hitzak markatzeko erabili da: hitzaurreak, aipuak, iruzkinak, e.a.</p>
+    </refsDecl>
+     <classDecl>
+        <taxonomy id='generoa'>
+            <category id='G-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='G-ANT'><catDesc>Antzerkia</catDesc></category>
+            <category id='G-BER'><catDesc>Bertsoak</catDesc></category>
+            <category id='G-ERL'><catDesc>Erlijioa</catDesc></category>
+            <category id='G-NAR'><catDesc>Narratiba</catDesc></category>
+            <category id='G-POE'><catDesc>Poesia</catDesc></category>
+            <category id='G-SAI'><catDesc>Saiakera, kronika, artikuluak...</catDesc></category>
+        </taxonomy>
+        <taxonomy id='garaia'>
+            <category id='M-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='M-16'><catDesc>XVI. mendea</catDesc></category>
+            <category id='M-17-1'><catDesc>XVII. mendea - 1. erdia</catDesc></category>
+            <category id='M-17-2'><catDesc>XVII. mendea - 2. erdia</catDesc></category>
+            <category id='M-18-1'><catDesc>XVIII. mendea - 1. erdia</catDesc></category>
+            <category id='M-18-2'><catDesc>XVIII. mendea - 2. erdia</catDesc></category>
+            <category id='M-19-1'><catDesc>XIX. mendea - 1. erdia</catDesc></category>
+            <category id='M-19-2'><catDesc>XIX. mendea - 2. erdia</catDesc></category>
+            <category id='M-20-1'><catDesc>XX. mendea - 1. erdia</catDesc></category>
+            <category id='M-20-2'><catDesc>XX. mendea - 2. erdia</catDesc></category>
+        </taxonomy>
+        <taxonomy id='euskalkia'>
+            <category id='E-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='E-BAT'><catDesc>batua</catDesc></category>
+            <category id='E-BIZ'><catDesc>bizkaiera</catDesc></category>
+            <category id='E-BNA'><catDesc>behenafarrera</catDesc></category>
+            <category id='E-ERR'><catDesc>erronkariera</catDesc></category>
+            <category id='E-GIP'><catDesc>gipuzkera</catDesc></category>
+            <category id='E-GNA'><catDesc>goi nafarrera</catDesc></category>
+            <category id='E-LAP'><catDesc>lapurtera</catDesc></category>
+            <category id='E-NAF'><catDesc>nafarrera</catDesc></category>
+            <category id='E-ZAR'><catDesc>zaraitzuera</catDesc></category>
+            <category id='E-ZUB'><catDesc>zuberera</catDesc></category>
+        </taxonomy>
+    </classDecl>
+  </encodingDesc>
+  <profileDesc>
+     <textClass>
+       <keywords scheme='generoa'>
+         <list><item>G-NAR</item></list>
+       </keywords>
+       <keywords scheme='garaia'>
+         <list><item>M-19-2</item></list>
+       </keywords>
+       <keywords scheme='euskalkia'>
+         <list><item>E-BIZ</item></list>
+       </keywords>
+     </textClass>
+  </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>Bein da betiko -- Resurreccion Maria Azkue</docTitle>
+    </front>
+    <group>
+      <text>
+        <body>
+<p>&mdash; Oraintxe sei urte argitaraturiko irakurgei txiki au asko zabaldu eztalako, bigarrenez erakutsi nai dogu orri onen artean. Lekeition iazorikotzat erakutsi genduan. Onan da guzti bere ds ta ds sarriegi ez ezartearren, orri onetan oi dogun antzera bizkaitarrez, lekeitiarrez barik, berba eragingo dautsegu Txantoni ta Maripari ta beste enparau edo ganerantzekoai, mandazai&ntilde;aren aoan beren berarizko berbakunea oso osorik itxita.</p>
+<p>&mdash; Irakurgei au iatorrizko ipuin-antzeko irakaspen baten sortu zan. Gure irakurle-artean bat bai&ntilde;o geiago egongo dira onetariko irakaspen edo <hi rend='Italic'>leyendak </hi>dakiezanak.</p>
+<p>&mdash; Bat edo battxu guri bere elitzakiguz txarto etorriko.</p>
+<p><hi rend='Bold'>Abbadieko Antoine iaunari</hi></p>
+<p>Buru-auste nekagarria ta garaitu-ezi&ntilde;a izango litzakit zugan Abbadieko iakituna bai&ntilde;o ikusi ezik, nire gogamenak erara ta egoki adierazotea; bai&ntilde;a zugan Abbadieko euskalduna ta euskaldunen aitalena dakustanez gero eztaukat zeri burua ausi, zeri nekatu ta armindu bere ez. Euskaldunak gara biok. Euskaldunak euskaldunagaz iardu ta erausteko, buruan argi andirik euki ezarren, biotzeko garra dau naikoa. Biok dogu erri bat maite, erri ederra: zaarra dan aldetik, gurgarria; doaiz betea ta zintsua danetik, maitagarria. Izkera batek alkarturik gaukaz biok, geure Ama Euskal-erriaren izkerea izanaz ganera, laguntasunik ezaz sotil da etsaiz edo arerioz inguraturik estu dagoalako.</p>
+<p>Euskal-erriak, bizi al izateko, biotz bakar bat dauko, egiazko euskaldun guztien biotz guztiakaz egi&ntilde;iko biotza. Zer balio dau, euskaldunak batuteko, Pirineoetako mendi-erreskadeak? Zulatu beie (mendean daukelako) Espa&ntilde;iarrak eta Frantsezak menditeri latz ori; arri-ikatz-kez kedartu beiez beren erraiak, gazteluz iosi daioela arrizko azala. Zer iaritxiko dabe albo-erri gaztetxuok gure Ama zaarraren gorputza gau ta egun, oi&ntilde;ez ta burdiz, burdi&ntilde;az ta suz zaurituarren? Ezta asko gure Ama samurraren bizia il al izateko, beren bizkar-azurra (Pirineoetako menditeria) ta gorputza zulatutea. Euskaldun onak munduan dagozan artean, Euskal-erria ezta berez erioko, eztau ez benetako areriok ez izen utseko adiskidek il al izango.</p>
+<p>Euskaldun guztion anaitasuna zelanbait erakustearren, ezarri gura izan dot zure izen entzutetsua ene irakurgaitxu onen leku agirienean. Zuk modu askotara, ezin obeto ta sarri erakutsi dauskuzu Bidasoatik onanzko euskaldunoi beste alde orretakoak dauskuen maitetasuna; nik, ortikoai emendikook dautsegunaren ezaugarritzat, gaurrarte ezin ezer agertu izan dot.</p>
+<p>Euskaldunak: nire izen da izatetxuak ezin dabena, Aitalen baten izate ta izen onak egin bei. Batu beiz gure biotzak <hi rend='Italic'>bein da betiko.</hi></p>
+<p>Zazpi alaba galant daukaz gure Ama laztanak: Frantziari dautsela iru, Espa&ntilde;iaren mendean lau. Zazpi aizta onek, orain legez erdal-erri bik menderatu bearrean, beste euron beste erdalerrik eurentzakotu ta bere, zazpirok biotzez da egiaz izango doguz beti bat: Euskal-erria.</p>
+<p>Bilbon, 1892-garren urtean</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>I</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>Txakolintegi baten</hi></p>
+<p>Ezeukan goiz atan Maripak barriketan iarduteko gogo andirik. Noizik noizera amantalaz igozten ebazan beren begi negartsu ta gorrituak.</p>
+<p>Otondotxu batzuk ur goritan sartu ebazanean, zokondoko gizonai arpegi tximurduna erakutsiaz, &laquo;ke andia dago gizonak (esan eutsen) eta eztaukazu beste lau egunean bere itxasoraterik. Ekaitz gogorren bat dakar aize onek dandarrez.&raquo;</p>
+<p>&mdash;Zer, bada, Maripa? erantzun eutsen Maripari itxas-gizon arek.</p>
+<p>&mdash;Enakutsu begiak edegi ezi&ntilde;ik?</p>
+<p>&mdash;Astoen arrantzaak eta emakumeen negarrak badakigu, Maripa, zer balio daben.</p>
+<p>&mdash;Eztaukat zeuri ezer esateko. Etzara zu asko erreko, itxasoak betondo illuna agertuarren; legorrean ondo zagoz; nok iaten emon eukiezkero, eztautsu lo-zorroa asko arindu edo sumatuko mairako lain nok ekarri egon ezak. Aaaur dabil nire senar taketa bere: umezain (aurzain edo sein-iagole ez esatearren), dindirri-urtika ta kaleak austen. Amabietako txili&ntilde;aren durundi edo iskanbillak betiko moduan ekarriko dau a maira... ian-edanerako bere, eztirudi bai&ntilde;a... on egin daiola.</p>
+<p>&mdash;Aulan, aaaulan Maripa. Goiz guztian ortxe euki augu, tautik ez murtik ez deusik eraso ezi&ntilde;ik. Begiak idigi ezin badaunaz bere ezein aoa itxirik euki.</p>
+<p>&mdash;Aai, zu, politok, or zaukadaz, nori adarra io daukazunean pozik!</p>
+<p>&mdash;Egin daun eure arlo edo sail ori?</p>
+<p>&mdash;Egin da egiten diardut, antxi&ntilde;ako lapurren antzera. Sueteko arazo onek naikoa ezpaneuz, da nekeak iasoteko daukadan bai&ntilde;o barru sakonagoa baneuka bere, or zaukadaz deika ta deiez, barrurik sakonenari ganez eragiteko bestean.</p>
+<p>&mdash;Maripa, guk zeinbat edanago, i ainbat obeto.</p>
+<p>&mdash;Zuk urdaillean ondartza edo aretza andiren bat euki bear dozu, gizonak: edan-alak edanarren, beti zakustaz edateko amurruz.</p>
+<p>&mdash;Ekarri eiskun, bada, urrengorako txakolin indartsuagoa.</p>
+<p>&mdash;Zein edarik zure urdaillari atzera eragin? Ezta itxasoko baga edo uin edo olatuen gizako txakoli&ntilde;a banekartsu bere.</p>
+<p>&mdash;Maripa, amabietako txili&ntilde;a dantzut.</p>
+<p>&mdash;Bai, Erroke: egin betiko arrena.</p>
+<p>&mdash;Aurra...</p>
+<p>&mdash;Ondo beren moduko lati&ntilde;akaz dakik, Erroke, arren egiten.</p>
+<p>&mdash;Zelan irakatsi alan ikasi.</p>
+<p>&mdash;Eure bizikoa izango intzan i sakristaukuntzan, Erroke.</p>
+<p>&mdash;Maripa: nor dan orretarako beren bizikoa ta alagalakoa laster erakutsiko daunat. Aur berori. Kaisio Txanton.</p>
+<p>&mdash;Kaisio Erroke.</p>
+<p>&mdash;Txanton, erbi-txakurra izan baintz, ik euki izango euazan surrak!!</p>
+<p>&mdash;Bai, Erroke, belarriak bere: bai&ntilde;a oi&ntilde;ik ez.</p>
+<p>&mdash;Egia esan bear bada, Maripa lango emazte zintzoa, iasekoa, ganoraduna ta maratza daukan gizakume edo gizasemeak eztau arrapataka ibilli bear. Ezau i aizeak beingoan eroango. Zein sutegitan egin daue soi&ntilde;eko txartes ori? Ori aldean daukaala, gure txalupeak tirabira egi&ntilde;ezkero, beruna legetxez ondoratuko intzake i. Maripa, Maaripa; aamen au.</p>
+<p>&mdash;Ori or dagoana badakit nik, Erroke; erantzun eban Maripak.</p>
+<p>&mdash;Ikusi barik?</p>
+<p>&mdash;Ori urreratu dana iakiteko eztot nik begirik bear izaten, belarririk bere ez; surrak izaten dodaz naikoa.</p>
+<p>&mdash;Zer bada, Maripa?</p>
+<p>&mdash;Alperrak berarizko usai&ntilde;a euki daroe: alper-sundea. Orrelango Maritxu bat senartzat artu bai&ntilde;o oba neban monkategi baten sartu banintz: bai oba neban. Eztaiala Iaungoikoak gura izan: bai&ntilde;a gure Elizako San Kosetxu ederra ostuko baleuskue, neure senarra da agindu ta egi&ntilde;a langoxea, beronen seme ta ene seme eder au besoetan daukala, altara-ganean egoteko.</p>
+<p>&mdash;Bai&ntilde;a, Maripa, senarra bizi dala alargundu nai euke?</p>
+<p>&mdash;Bai, Erroke; pozarren. Ori an baneuko, zerua zeruan da zerua lurrean eukiko neukez. Emaztea baga elitzake au zeruan egon al izango, neu bear izango nenduke. Lurrean barriz, kalerik kale edo itxasoak austen dabillenartean, euki daroat nik emengo zeru-apurra. Etxean sartuaz batera, agur nire barruko bakea: suetera badator, galerazo bai&ntilde;o besterik eztaki egiten; suetera etorri ezik, or guztion artean txutxuputxu barriketan iarduten dau. Neure erraietako semetxua berorren eriko zirimara bat izan ezpalekit! Erdu ona, amagana erdu, ene semetxu kutuna, baba-lora ederra; erdu apa apa, e!! geldi geldi, ezakit iausi, semetxu laztan ori. Nor dok maite, neure neure orrek? Nor? &mdash;Ma, ta &mdash;Ama, Aita? Zeinbat? &mdash;Mmmmar. &mdash;Amar bai&ntilde;o ez neure seme Don Diego, usakumetxu zurien orrek, beste guztiak ioan da bere, etxean egon bear izango dauan orrek? Neure Lorentzotxu, ma maitea, ma Amari... Ma eder orrek, ma. Nor da beso-artean aukan au, nor? Nor nok ni, ni? &mdash; Mmmma. &mdash; Eta an upa-kontran dagoan txapel zaardun gizona. Nor dogu?</p>
+<p>Ama-semeak uso-antzera urrumadaka iarduenartean, Txanton upa-kontran egoan, mai-inguruko gizonai zer edo zer esateko gertu ta ernai.</p>
+<p>Ezeutsen Txantoni barritsu-ezizena alperrik ezarri. <hi rend='Italic'>Lagun eletari, bideko zamari, </hi>di&ntilde;o Lapurtarren esakune batek. Bizkaian, <hi rend='Italic'>kontu-kontulari bideko zamari, </hi>esan daroagu; ta egi utsa da. Kontulariak, edo zeatzago esatearren, kontalariak, ibiltaldiko lagunen zamaak eroan ezarren, beren ipuin albista asmo ta barregarritasunakaz asko arindu edo euren astuntasuna errime aaztu eragiten dautse. Txantonek, esakune au beti gomuta izan baleu bere, barriketan iarduteko eukan bai&ntilde;o gutar geiago ezeban euki izango.</p>
+<p>Lenengo aldiz txakolintegi atara ioanak, Txanton da Maripa alkarren ondoan ikusiezkero, txakur bildurti bat katu erpe-zorrotzagaz ezkondurik egoala esango eban; bai&ntilde;a auzoko guztiak ondo ekien, alkarren antzik euki ezarren, alkar maite maite ebela biak. Txanton burugi&ntilde;a zan; Maripa, burutsua; Txanton, barritsu ta erausle utsa; Maripak, ixilla izan ezarren, mi&ntilde;ari bai&ntilde;o eskuai gogo obeaz eragiten eutsen; ak beren egimen edo egitade guztietan ziramaratxu bat irudian; onek beronenetan emakume ganoraduna ta oartua zana agiri eban; bildurkor bildurkorra zan Txanton; Maripak Iaunari bai&ntilde;o besteri ezeutsan bildurrik erakusten; senar gonaduna zan bata; bestea, ia kaltzadun emaztea; sorgin, lamia ta pamerialak zer-esan asko emoten eutsen Txantoni; Maripari ostera, baldin beren berbaak si&ntilde;istu bear badoguz, orretariko umekeriak ezeutsen ardura ta aizola andirik emoten. Bata bestearentzat egi&ntilde;ak ezirudien: beroa ta otza, eguzkia ta euria, udea ta negua lurrerako direanak, zirean etxe baterako senar-emazte arek. Txanton bai&ntilde;o senar egokiagorik topa-orduko, edo neskazartu edo bigarrenean iaio bear izango eban Maripak; eta oni, arpegiz arpegi edo bekoz beko ak <hi rend='Italic'>Mari-droga </hi>esanarren, bakarren <hi rend='Italic'>Mari-patxo</hi>-geurea esaten eutsan beren biotzak.</p>
+<p>Eztaiogun bai&ntilde;a Txantoni beren itzik atzeratu:</p>
+<p>&mdash;Eztagoala zorgi&ntilde;ik esaten dabe gero.</p>
+<p>&mdash;Txanton, erantzun eutsan batek, bazkaldu eik orain gogo onagaz arratsaldean azalduko dauskuk non dagozan ire zorgi&ntilde;ok. Agur, Maripa, berandu dogu ta kontua illuntzean edo...</p>
+<p>&mdash;Bai, zoaz ondo, esan eban Maripak, ez orren ardura izan.</p>
+<p>&mdash;Bezeroak urtendakoan, &laquo;mutilla az i Txanton&raquo;, esan eutsan emazteak; amar da erdietan urten da, besterik ezarren, umeari salda-tantatxu bi emoteko, orai&ntilde;arte agertu ez.</p>
+<p>&mdash;Auxe dago geurean: arin natorrenean, umeak eguzki geiago artu bear leukeala, berandutxuago elduezkero, saldatan... ta... txuak. Urrengoan ioan ez da kitu.</p>
+<p>&mdash;Nok esaten dausk ioateko?</p>
+<p>&mdash;Gagozan isillik.</p>
+<p>&mdash;Nogaz batu az eu?</p>
+<p>&mdash;Mandazai&ntilde;agaz da...</p>
+<p>&mdash;Banaiekian. Orrelangoakaz gauza ona? Bat edo bati buru-auste andiak emongo dautsaz orrek, koko orrek oraindi&ntilde;o. Ai, aingeru batek beren errira baleroa!</p>
+<p>&mdash;Itzat, Maripa, eu bakarrik az ona, eu bakarrik langillea, eu bakarrik biotz-berea; eta ori uste izatea... neuk badakit.</p>
+<p>&mdash;Itzat, ostera, guztiak dozak ezin obeak, guztiak zintzoak, guztiak biotz-beraak, eta au uste izatea zer dan edonok daki. Ezai beste bein orregaz batu, buru-arin ori. Ezetedago Lekeition Txantonentzako lagun erazkorik edo aiuturik? Zori onean aurkitu daizala ire Aita ta enea, arek itzoazan gizonak, arek!!</p>
+<p>&mdash;Eta mandazai&ntilde;a ta erbestekoa dala ta txakur amurratuagandik legez alde egin, igesi ioan, lepoa erakutsi, begiratu bere ez egin gura?</p>
+<p>&mdash;Ai Txanton, Txanton barritsu! I ta ni aren antzekoak izan-orduko, amaika amaika ta erdiko agertuko iakuz uri onetan!!</p>
+<p>&mdash;Onezkero salda ona eukiko dogu, e?</p>
+<p>&mdash;Guk? Perrandes mandazai&ntilde;ak uste neban. Lenengo erdiratu eik txisillua, ta laburtxua da bai&ntilde;a aur dagoan zamauaz edo mai-zapiaz estaldu eik: zatitu gero arto bero ori, lekuratu aulkiak eta ez lo egon. Tira, tira; igitu gorputz ori.</p>
+<p>&mdash;Geiago?</p>
+<p>&mdash;Arrena.</p>
+<p>&mdash;&laquo;Guztion begiak Zeuri begira dagoz, Iauna, eta zeuk adiunez danontzako iakia emoten dozu: Zure eskua edegiaz, bizidun guztiok onegi&ntilde;ez aseten gozuz...</p>
+<p>Arren labur onen urren sei <hi rend='Italic'>Aita gurea </hi>ta <hi rend='Italic'>Agur Maria </hi>gitxienez esan eroazan Txantonek, atzenez <hi rend='Italic'><foreign>Salve </foreign></hi>bat.</p>
+<p>Beti langoxe bazkaria ta sekulako gogoa euki ebezan egun atan bere Txantonek eta Maripak : katillukada bi salda aurretik, esteria oneko aza-lapikoa, urdai ta okela gazituaz gozatua; arto-erregutadaak ugari edo iori, unean unean txakoli&ntilde;a, sagar eder bi atzetik, umearentzat euki eroen salda garbia nora eztala.</p>
+<p>Txantonek, Maritxukeriak ez aztutearren, txakolin-tinditxu bat eroan eban umearen ezpanetara; Maripak, Txanton atan ikusi ebaneko, &laquo;Uuut, esan eutsan, umea bere eu lango zurrut-zalea izatea nai aldok?&raquo;</p>
+<p>Txanton barriz, emaztearen errespeari iaramonik egin baga ta atsakabe andiren batek io bear izan baleu legez, katillua mai-ganean laga, umeari eskutik oratu ta zirki&ntilde;ik egiten ezebala, katillura begira gelditu zan luzaro; umeari, arnasa artuteko bere bildurrez, Aitari begira egoanartean, aoa zabaldu ta begiak bustiten asi iakozan; etxeko andra maratzak ezekian zer-esan, senarra ta semea eskuz egi&ntilde;ak langoak ikustean; eta katuak zer erabillen i&ntilde;or konturatu-orduko, &laquo;Maripa, esan eban Txantonek, esku zabalaz belaunburuko txapel zaarra astinduaz, Maripa; gure Lorentzo izen andiko gizona izango dogula uste dot.</p>
+<p>&mdash;Eta au esateko orrenbeste parizta? Zei&ntilde;ek etedauko gatz geiago: bazkaritako aza buru-bageak, ala nire senar buru-arin onek? A Txanton, Txanton barritsu! Ez asko txarrago umearen txintxirri&ntilde;a paparretik dingilizka baeuko. Au gizondu bai&ntilde;o lenago, geu umetuko gozak, geu; eta olan bere, gizon eginda banekus!</p>
+<p>Seaskan edo kuman ipi&ntilde;i eik geure laztan ori, ta bestetan bai&ntilde;o obeto erabilli gero, neuk, katillu erratillu ta tresna-enparauak garbituten diardudanartean, lo eragingo dautsat-eta.&raquo;</p>
+<p>Esan da egin: Txantonek umea seaskan ipi&ntilde;i ebaneko, beren emazteak eztarri-ots zoli zoliaz bertso edo neurtitz onetxek entzun eragin eutsezan auzokoai:</p>
+<p><hi rend='Bold'>1 </hi></p>
+<p>Basa-txoritxu mustur luzeak</p>
+<p>Ez igan zerura billa,</p>
+<p>Aingerutxurik bear ezkero</p>
+<p>Orra or nire mutilla.</p>
+<p><hi rend='Bold'>2 </hi></p>
+<p>Bere musua edurra da ta</p>
+<p>Sua biotza ta ezpanak</p>
+<p>Berton urturik biziko dira</p>
+<p>Nire bularra ta zanak.</p>
+<p><hi rend='Bold'>3 </hi></p>
+<p>Ai! nok leukezan urrezko orratza</p>
+<p>Urre-miesa ta aria,</p>
+<p>Urrez asi eta amaituteko</p>
+<p>Ume onentzat iantzia.</p>
+<p><hi rend='Bold'>4 </hi></p>
+<p>Larrosatxuak bost orri daukaz</p>
+<p>Kabeli&ntilde;eak amabi,</p>
+<p>Gure umea gura dabenak</p>
+<p>Eskatu beren Amari.</p>
+<p><hi rend='Bold'>5 </hi></p>
+<p>Neure leioko inzirrituak</p>
+<p>Illun-abarran begiak,</p>
+<p>Ene umea lo datzanarte</p>
+<p>Lo egin bei eguzkiak.</p>
+<p><hi rend='Bold'>6 </hi></p>
+<p>Argi goiztarra betor gurera</p>
+<p>Betoz izartxu gautarrak,</p>
+<p>Ezpeiz lotsatu or ikusiak</p>
+<p>Buruak illun da zaarrak.</p>
+<p><hi rend='Bold'>7 </hi></p>
+<p>Begi bik ikuskizun bat dauke,</p>
+<p>Belarri biak zentzun bat,</p>
+<p>Usain bakarra sur-zulo biak</p>
+<p>Zeru-lurrak bat Iaubetzat.</p>
+<p><hi rend='Bold'>8 </hi></p>
+<p>Batu beiz orain beti betiko</p>
+<p>Nire biotza ta irea,</p>
+<p>Seme maitea, maite izan daigun</p>
+<p>Ire ta nire Egillea.</p>
+<p><hi rend='Bold'>9 </hi></p>
+<p>Basa-txoritxu mustur-luzeak</p>
+<p>Ez igan zerura billa</p>
+<p>Aingeurutxurik bear ezkero</p>
+<p>Orra or nire mutilla.</p>
+<p>Umea loak artu ebanean &laquo;atzo bai&ntilde;o goiztxuago etorri gaur, esan eutsan Txantoni emazteak.</p>
+<p>&mdash;Bai&ntilde;a nik illuntzean Elizara ioan bear.</p>
+<p>&mdash;Beti eu? Neuk bere orretarakoxe etxean euki nai aut.&raquo;</p>
+<p>&mdash;Txanton, iagi ta isil isillik, umea ez iratzartu edo esnatutearren kaleratu zanean &laquo;bai, esan eban Maripak: egia di&ntilde;o; gure Lorentzotxu izen andiko gizona izango dogu.&raquo;</p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><hi rend='Bold'>II</hi></p>
+<p><hi rend='Bold'>Kai-ganean egotalditxu bat</hi></p>
+<p>Txanton kaleratu bai&ntilde;o lentxuago beren adiskideak kai ganean batera ta bestera ebilzan, aizeak puzturiko orbelen antzera; geienak kaltzerpean eukezan eskuak, batek bakarrik erabilzan aidean. Urrunetik ezautu ebazan Txantonek; eta egia esateko, eukazan baizen begi zuur da ziurrak euki ezarren, ezeban asko urreratu bear, izketan da eskuketan ziarduan mandazai&ntilde;a ezaututeko.</p>
+<p>Uda ta negu soi&ntilde;eko bardi&ntilde;ak erabilten ebazan onek: zapi gorrizka bat buruan, txapel-orde; oraldi-antzeko kaltza laburrak; iakerik ez (iantzirik beintzat), garriko luze ta zabala, abarkatxu edegiak, kaltzerdi urdin bizardunak eta berarizko txartes nasai bat. Beren kokot gorri mamintsuari ta berna biribil guriari begiratueran &laquo;amaika okelatato iruntzi dauz orrek!&raquo; esan eroen <hi rend='Italic'>Arranegi</hi>ko atsoak. Ezekian isilik berba egiten, zuzen ibilten bere ez.</p>
+<p>Txanton urreratu iakenean, barre-santzoka edo algaraka eukazan mandazai&ntilde;ak beren entzule guztiak. Txantonek beren lepotik ziarduela uste izango eban, Txili eritxon gizon sendo bat zerbait esatera aurreratu ezpalitzakio.</p>
+<p>&mdash;&laquo;Eztakik Txanton, zer iazo iakon mandazai&ntilde;ari MatxeIegaz.</p>
+<p>&mdash;Zer?</p>
+<p>&mdash;Beronek esango dau nik bai&ntilde;o politoago.</p>
+<p>&mdash;Bai, ni esango da <hi rend='Italic'>gusto </hi>askogaz Txanton, badakik nor da Matxel?</p>
+<p>&mdash;Bai bat, Basaldeko dendaria.</p>
+<p>Ori Matxel da <hi rend='Italic'>tonto </hi>bat. Ni ekarri <hi rend='Italic'><foreign>aceite </foreign></hi>edo orio berari, ta paper bat bere nire erriko. Ni sartu goiz au dendan, ta esan Marcelino etxean badago; bera ezetz, ni baietz. Non dago? ni esan; bera zer ezdaki niri esan; ni esan gero bera bai egin dau <hi rend='Italic'><foreign>pedido </foreign></hi>bat orio, sei il eginda, beste mandazai&ntilde;ari; bera baietz <hi rend='Italic'>pedidoa </hi>egin dau; ta ni esan berari &laquo;emen papera, eu Marcelino.&raquo; Bera &laquo;ni ez Marcelino, ni Matxel.&raquo; Nor da, ni orduan esan, nor da Marcelino de Foruria? Bera orduan &laquo;tximista bi, neu alnok.&raquo;</p>
+<p>Txanton, barre? neu ez barre. Zer eritxi iri? Ez barretu, neu ezda nai izan <hi rend='Italic'>burla </hi>egitea, <hi rend='Italic'>Arraioa! </hi>Matxel bai, Marcelino ez. Zer da Matxel?</p>
+<p>&mdash;Matxel Marcelino da, ta Marcelino Matxel; Txanton Antonio da, ta Antonio Txanton: ni, Antonio ta Txanton; a, Marcelino ta Matxel.</p>
+<p>&mdash;Eta Matxel ta Txanton, Txanton ta Matxel <hi rend='Italic'><foreign>recentella </foreign></hi>bi. Nire mandoak izen bat euki Riojan ta emen ta leku guztian: bat Platera, beste bat Tordillo, beste bat Carbonero. Zertarako izen bi? Ni bere bai Fernandez mandazai&ntilde;a emen ta Fernandez nire errian.</p>
+<p>&mdash;Perrandes?</p>
+<p>&mdash;Zer nai i, Txili?</p>
+<p>&mdash;Guk egunen baten Txantoni emakume-iantzi eragingo dautsagu.</p>
+<p>&mdash;I dok ondo esan, Txili. Neure kortako manta zarra manta orrentzat ebagi. Txanton, noiz izango da?</p>
+<p>&mdash;Niri soi&ntilde;eko ori bai&ntilde;o obeto etorriko litzakioe beste askori artz-narrua.</p>
+<p>&mdash;Ondo esan i bere bai, Txanton. Zelan esan euskaran <hi rend='Italic'>carnavalak?</hi></p>
+<p>&mdash;Emen aratusteak deritxe, <hi rend='Italic'>Probintzia</hi>-aldean i&ntilde;oteriak edo i&ntilde;auteriak, Naparroan iagoteak.</p>
+<p>&mdash;Ondo, ondo. Ni <hi rend='Italic'>carnavaletan </hi>edo ara... tus... zelan?</p>
+<p>&mdash;Aratusteetan.</p>
+<p>&mdash;Ni <hi rend='Italic'><foreign>h&uacute;ngaro</foreign></hi>-iantzi, Txanton emakume-iantzi, Txili artz-iantzi. Txanton dirua <hi rend='Italic'>recojidu, </hi>Txiliri kataia bat lotu neure mandokoa, neu makilla bat <hi rend='Italic'>pandero </hi>bat eta Txili erabilli. Txili nai i?</p>
+<p>&mdash;Ni, Txanton emakume-iantziakaz, arpegi agiriaz da kalerik kale ikustearren, artz ezeze deabru bere iantziko nintzake: noiznai, zeinbat lenago pozago.</p>
+<p>&mdash;Roke, i bere bai etorri gugaz.</p>
+<p>&mdash;Batuko dan diruaz Txiliren alabeari zerbait erostekoan, bai.</p>
+<p>&mdash;Txiliren alabea ez beartu ezer. Ezda alan Txili?</p>
+<p>&mdash;Onek barriketarako gogoa dauke, Perrandes.</p>
+<p>&mdash;Ni emakume iantzi ta ikusi gura nabela esateko, zer egin etedot? Len bere aitatu dot bai&ntilde;a...</p>
+<p>&mdash;Txita-kume ori, ezago beti emakumeen gizan, zorgi&ntilde;a ortik, lamiak andik, patoak eta pamerialak emendik?</p>
+<p>&mdash;Egi guztiak eztira, Txili, belarri guztietarako iaioak; edo belarri askok, andiak izanarren... Badakit neuk nora noan.</p>
+<p>&mdash;Barriketa gitxi, Txanton, da eurak onak.</p>
+<p>&mdash;Ona bada, Txili: Zorgi&ntilde;ik eztagola di&ntilde;oanak...</p>
+<p>&mdash;Non iagozak bada zorgi&ntilde;ok? Kalbanoko mendian? Kaian? Nasa onetan? Non?</p>
+<p>&mdash;Arek leku askotan, gitxien uste dan tokian. Batek badaki ementxe geure artean etedabilzan!</p>
+<p>&mdash;Gure artean, nor? Eu zorgi&ntilde;a ezpaaz, tximista ori, etxagok emen beste zorgin-antzdunik.</p>
+<p>&mdash;Neuk ikusi ezpaneuz... tira; bai&ntilde;a...</p>
+<p>&mdash;Tximista gorria: betorkiguz mundu onetako ta besteko zorgin guztiak, iarri ai gero eurokaz eu edozein txalupatako alderdi batean, neu bestean iarriko nok; eta emendixek bat batera asi ta kalarai&ntilde;o abantean garaituko banenduzu naroela eurakaz betiko.</p>
+<p>&mdash;Ezeik orrelango astakeririk esan, Txili.</p>
+<p>&mdash;Astakeria neuk? Eta nok esan bear... da Txantonek? -Tximista kaltza-estua: esku-artean baeunkat, txotxolo ori...&raquo;</p>
+<p>Autuak azatz okerra eroala ikusi ebenean, mandazai&ntilde;a ta lagunak, Txiliren da Txantonen erdian arteturik, Txiliren sumi&ntilde;a zelan edo alan amata edo itzali al izan eben. Txilik atzenez beren barrua azazkatearren, edu onetan berba egin eutsan Errokeri: &laquo;ez asarratu, dirauste, ez asarratu. Nor, tximista orren atsokeriak entzueran, asarratu ez? Bai&ntilde;a nogaz diardut buru bagako onek? Oilloen eki&ntilde;ak oillotu enaien, nagoan geldi geldi.&raquo;</p>
+<p>Au esanaz batera, txapela barrurago sartu ta eskuak kaltzerperatuaz besteakandik alderatuten ioan; Txili; etzan bai&ntilde;a asko alderatu, lepo makurtua lerdendu ta albokera begiratuaz Txantoni oles au egin eutsanean: &laquo;Txanton: esan eik nai dauan guztia, barritsu orrek; baiakiat txor txor txor iarduteko gogoz agoana-ta. Ire burutasunak bai&ntilde;o naiago naieukek itxasoa bare bagaieukak.</p>
+<p>&mdash;Nora Txili?, esan eutsan mandazai&ntilde;ak beraganatuteko usteaz; ez ioan orra, neu bere ezda ikusi zorgi&ntilde;ak; egon emen.</p>
+<p>&mdash;Ez ni ez; ni kanpo-aldera begira egongo naz, orrek diarduanartean.&raquo;</p>
+<p>Ikusgarria izaten da beti itxasoa, atan edo batez bere ekatxaren arnaseak bizkortuten dabenean: atxakaz da kai-arriakaz topeka ta gora-goraka dabillela ikusirik, eizari batek katamotz ta leoien burrukea gogoratuko leuke; baserritar gitxi irakurria elitzake beren buruaren iaube izango; gudari edo marratiak, itxasoa goratutea lurraren txikitasuna neurtutearren dalakoan egongo litzakez; elizgizonak barriz Eliza amak gizon dongeakandik egunaro artuten dauzan zemai ta naibageak irudi izango leukez. Txili buru-gogorrak ura bai&ntilde;o ezekusan, ur asko: gorantzean urdi&ntilde;a, atxak iotakoan, zurizkea, berantzean bits utsa; bai&ntilde;a guztia ura. Beste edozein, Talapean ianari-billa ebilzan itxas-txoriak ikusian, ume bat pitxiai begira legetxez geldituko zan, edo katua saguen zain, da mirua txindor papar-gorriaren zelatean egoten direan antzera: eztitan da adurra eriola. Nok, bai&ntilde;a, Txiliren mosuetan adurra ikusi, lotaldian edo iatorduan izan ezik?</p>
+<p>Etzan bai&ntilde;a Txili beren lanean aspertu, lana bada besoak bata bestaz laztandu ta nasa-ganean begira egotea; ezta Perrandes edo Fernandez mandazai&ntilde;a ta lagunak bere etzirean Txantoni entzuten aspertu. Txanton-gaitik eztago esan-bearrik: kontuak nori iakin eragin eukiezkero, ezeban ak beren semea bere gomuta izaten.</p>
+<p>&laquo;Txilik oraindi&ntilde;o si&ntilde;istuko dau, esan eban Txantonek mandazai&ntilde;a eurakanatu iakenean; bai, si&ntilde;istuko dau oraindi&ntilde;o Txilik. Neuk ikusi ezpaneuz, bai&ntilde;a neuk neure begi onetxekaz (guzurra badi&ntilde;ot, lurrak iruntzi naiala) neuk ikusi dodaz, da si&ntilde;ustu ez?</p>
+<p>&mdash;Non ikusi, Txanton?, esan eutsan mandazai&ntilde;ak.</p>
+<p>&mdash;Geldi geldi esango dot. Guztiok dakizu erri-erdia oraintxe lau illebete erre iakuna, Talatik asi ta ia geure etxerai&ntilde;o.</p>
+<p>&mdash;Badakigu.</p>
+<p>&mdash;Niri esan dau <hi rend='Italic'>patrona </hi>gaur, esan eban mandazai&ntilde;ak.</p>
+<p>&mdash;Zelan erre zan? itandu eban begi bizkor bizkorrakaz Txantonek.</p>
+<p>&mdash;Ori da <hi rend='Italic'><foreign>pregunta. </foreign></hi>Nire kortako <hi rend='Italic'><foreign>techo</foreign>..., </hi>zelan esan?</p>
+<p>&mdash;Sabaia.</p>
+<p>&mdash;Nire kortako... ori iausi. Zelan iausi? Ni Riojara ioan ta lapurrak urten ta il. Zelan il? &laquo;Au esan da garrikopetik gai&ntilde;ibeta ikaragarri bat argitaratuaz, atzazalak moztuten abia zan mandazai&ntilde;a.</p>
+<p>Txantonek barriz ikaratu ezpalitz langoxe arpegia erakutsi ta pipa-atsik ez artutearren Errokegandik alderatuaz &laquo;aurixe dago bada, esan eban, su baga ezta ezer erreten, bai&ntilde;a zelan puztu zan sua, ain arin da bizkor da arras Lekeitio-erdia austu al izateko? Itxasoan ezegoan aize-putzik.</p>
+<p>&mdash;Etxe zaarrak, adiskidea, suari deika dagozan zur gardamuak edo zerenak ianikoak, pipa onetakoxe suaz, bat bi iru lau... eun esan-orduko, neuk erreko neukez.</p>
+<p>&mdash;Ez, Erroke. Ik eztakik zelan gerta zan, orduan gertarikoa.</p>
+<p>&mdash;Euk baaldakik?</p>
+<p>&mdash;Astia artu daigun, erantzun eutsan Txantonek Errokeri. Torreko txili&ntilde;ak sua nonbait egoala iragarri euskuneko, gure Maripa umea neure besoetan itxi ta txioa bai&ntilde;o ari&ntilde;ago kale-barrenera ioan zan. Ni, badakik Erroke, ikusguratsua nok, eta emazteak etxetik ez urteteko aginduarren, zirrin zarran abarka zaarrak ondo lotu baga, kalera atera naieuan neure burua ta ene Lorentzotxuna. Nik ikusi nebazan ikustekoak! Aitatuaz bakarrik dart dart daukadaz neure erraiak.</p>
+<p>&mdash;Esan eik esango badok, txotxolo orrek.</p>
+<p>&mdash;Bai Erroke: orbelak legetxez etozan teillatuak beera; beren moduko aize batek, nik bein ez bein ezautu eztodan modukoak, putz egiten eutsan suari; auspo andiren batzuk zerutik dingilizka egozala uste neban. Alango baten, zer ikusi neban nik!! Tximista gorria!! Jesus, zer dot esan dodana!! Zorgin-aldra luze luze luze bat, santzoka uluka irrintzaka miauka intzirika orroika, bai&ntilde;a beti barreka ta alkarri eskuak emon-da putz da putz da putz ikusi nebazan.</p>
+<p><hi rend='Italic'>&mdash;<foreign>Re... contra</foreign>, </hi>Txanton, ze ederra aurreskua!</p>
+<p>&mdash;Begitasuna, besterik ez, Perrandes; Txantonen begitasuna.</p>
+<p>&mdash;Begitasuna? Ez Erroke, erantzun eutsan Txantonek.</p>
+<p>&mdash;Bai gizona: txakur goseak, ogia ames; gizon bildurti ta siniskorregiak barriz zorgi&ntilde;ak. Antxe, abeganeetan ibilli nintzoan neu, ta Maripa bere beeko alde baten ikusi naieuan. Ak balio iok, ak; ez ik, oillanda orrek! Eta ez berak, ez nik, ez i&ntilde;ok ezkaieuan zorgi&ntilde;ik ikusi, ez putzik belarriratu, ez santzorik ulurik irrintzarik ez orretariko zorginkeriarik entzun. Begitasuna, Txanton, begitasuna.</p>
+<p>&mdash;Ezetz, Erroke, ezetz. Begi onetxekaz, lurrak iateko dagozan begiokaz, ikusi nebazan; guzurra badi&ntilde;ot, eneuke nagoan lekutik ziririk egin bear. Nik artu neban ikarea! Maripak sai&ntilde;az da ozpi&ntilde;az gau atan gorputz guztia igortzi ezpaleust, agur ni. Ez barrerik egin, egia da-ta.</p>
+<p>&mdash;Txanton: i ez balio ioateko nigaz Riojara.</p>
+<p>&mdash;Nora? itandu eutsan Errokek mandazai&ntilde;ari. Gabaz bakarrik ibilli bear baleu, taketa legetxez gogorturik topako genduke au. Eztago leku txarrean gauzea. Nora? ta Erriojara, nor? da Txanton, bai zera!! Ik, Perrandes, barreka diarduk, bai&ntilde;a eztakik oraindi&ntilde;o Txanton nor dan.</p>
+<p>&mdash;Txanton da gizon bat makala, bai&ntilde;a ona laguna.</p>
+<p>&mdash;Ez illunetan ibilteko. Maripari bein bai&ntilde;o sarriago entzun dautsat: goizaldean itxasorako ots egiten dautsenean, Maripak berak atarirai&ntilde;o ta sarri kalebarrenerai&ntilde;o lagun egingo ezpaleuskio, Txantonek beren tretzak laster etengo leukez, ezkeuke aurrerantzean onen laguntasunik eukiko. Barre, Txanton, barre? Alkarregaz gabilz au ta ni txalupa baten, neure atze atzean dauko beronen arrauna edo erramua. Onelango oillorik!! Ikustekoa izaten da au legorretik urteeran: eguzkia agertu-aurretik, nik aste guztian bai&ntilde;o arren geiago egiten dautse onek zeruko guztiai.</p>
+<p>&mdash;Euk ezaldok itxasora-aldietan arrenik egiten?</p>
+<p>&mdash;Bai Txanton, itxasoraterik eztagoanean bere.</p>
+<p>&mdash;I bere bai, Roke?</p>
+<p>&mdash;Zegaitik ez, Perrandes? Kaitik urtenaz batera popakoak Done Nikolasi ta Antiguako Andra Mariari arren egiten dautse; beste guztiok, txapelak edo txanoak edo suestak eskuetan daukaguzala, erantzuten dogu; eguzkiak beren arpegia erakusten dabenean, <hi rend='Italic'>Salve </hi>bana danok: ekandu onek geure asabakandik iatorkuz.</p>
+<p>&mdash;I bere bai, Roke, zorgi&ntilde;ak ikaratu?</p>
+<p>&mdash;Nik zorgi&ntilde;ik dagoan edo eztagoan ezti&ntilde;ot. Leberi&ntilde;en amama zorgintzat dauke guztiak: nik eztakit. Bai&ntilde;a nik bildur ez izatearren eztot arren egiten: aur dago bada untzea.</p>
+<p>&mdash;I zegaitik <hi rend='Italic'><foreign>rezoak </foreign></hi>egin?</p>
+<p>&mdash;Aamen au. Bildur izan ezarren, arrenik egin ez? Mendebal gogorraren putzak Kala-aldean estu ta larri garabilzanean, arren zeruari, ta ordurarte mandoari <hi rend='Italic'>arre</hi>? Ori ezta gure lege zaarra.</p>
+<p>&mdash;Txili egiten da?</p>
+<p>&mdash;Txili beren egikizunak legorrean euki daroe. Bai&ntilde;a egin ez? Euskal-errian eztago, Perrandes, besteriko arrai&ntilde;ik.&raquo;</p>
+<p>Mandazai&ntilde;a, onetariko autua gizonen aotik entzunak asko arritu eban; eta Erroken albistaak gora-bera, Txili sendoa ain lai&ntilde;ekoa izateari arrigarriagoa eritxon. Onetarako Txanton biraldu nai izan eban Txiliren eske edo billa; ta Txantonen nagitasuna edo atzerakuntzea ezautu ebanean, Errokeri esan eutsan Txiliri dei egin eiola. Au agertu ekionean &laquo;Txili, itandu eban, i bere bai euki bildurra zorgi&ntilde;ai?</p>
+<p>&mdash;Esan daust Errokek, eta badakit zer esan gura dauan. Ni gaurrarte enaz i&ntilde;oren bildur izan, izango bere ez. Eta au <hi rend='Italic'>dala ta eztala</hi>, zerua aztu gizonak? Iaungoikoaren gomuta eztan gizona, Txanton bera bai&ntilde;o bere <hi rend='Italic'>ortik emendikoagoa </hi>da: Txanton, oilloa; orretariko gizona, ganbelua.</p>
+<p>&mdash;I ta Txanton altarara, <hi rend='Italic'>santoak </hi>biak.</p>
+<p>&mdash;Nortzuk? Txanton da ni? Baiagok oberik. Txanton i&ntilde;ora eroateraezkero, eskintokira eroango genduke, Perrandes.</p>
+<p>&mdash;Zer da ori?</p>
+<p>&mdash;Eskin tokia oillo-lekuada.</p>
+<p>&mdash;Bai, gizona, i esan beti ondo.</p>
+<p>&mdash;Ni barriz edo nire gorputza, legorrean illezkero, lurpera eroango dabe; bestela...</p>
+<p>&mdash;Txili, ori beranduago; ez esan ori orain. <hi rend='Italic'>Carnavaletan </hi>edo orretan egun Txanton emakume iantzi, Txili artz iantzi, ta ni <hi rend='Italic'><foreign>H&uacute;ngaro </foreign></hi>iantzi; ta gero ni apari andi bat emon guztiari.</p>
+<p>&mdash;Ezteguko aparia bai&ntilde;o gozoagorik, onuratsuagorik, eztiagorik eztago, Perrandes.</p>
+<p>&mdash;I barriz beti ago, Erroke, adarra io nairik.</p>
+<p>&mdash;Bai, Txili; adarra Roke euki, idi iantzi au.&raquo;</p>
+<p>Beste arkuntza edo era edo muga baten arratsalde atan egin eben beste barre egin balebe Errokek eta lagunak Perrandesen esakerakaz, ezeutsezan onek orduan legez ontzat artuko. Berarizko garatzen bat erabillen esku-artean mandazai&ntilde;ak: Txiligandik aldendu gura ez, Txili nondik pozarren eukiko, Txili gora, Txili beera ta beti Txili. Ardao barria edan eragiteko atxakia edo estakuruaz, alkarregaz ioan zirean bata ta bestea, mandazai&ntilde;a egoan ostatura.</p>
+<p>Ezekian Txantonek euren artu-emonen barririk, eta iakin-guratsua zana ez ukatutearren, Errokeri ta Leberin zaarrari itandu eutsen zegaitik eteebilzan arek orratza ta aria, edo argia ta gerizea legez. Edozein albistak, entzun-barrian, arritu ta konkortuten eban Txanton, da etzan asko Leberi&ntilde;en berbaak entzuten aoa zabalik gelditutea.</p>
+<p>&mdash;&laquo;Txilik txokoa egingo dau, Erroke; esan eban Leberi&ntilde;ek.</p>
+<p>&mdash;Bai zera!</p>
+<p>&mdash;Ez zera! eztitan da adurretan dabil beragaz bei&ntilde;ik bein.</p>
+<p>&mdash;Nire alabea balitz, iakingo neuke zer egin.</p>
+<p>&mdash;Aberatsa dala di&ntilde;oe bada.</p>
+<p>&mdash;Urreneko intxaurrak beti ots andia. Balitz bere, zer?</p>
+<p>&mdash;Emendixek urte betera gaur baizen adiskide izan daitezala.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>III</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>Maripa ta Katalin</hi></p>
+<p>&laquo;&mdash;Berandutxu etegoazan nago, Katalin.</p>
+<p>&mdash;Ez, Maripa: txili&ntilde;ak badiardue, ta isilduarte ezta Elizkizuna asiko.</p>
+<p>&mdash;Gure Txanton lango gizonik! Ordurik ezin izenta lekio. Esan neutsan orduan etorri balitz, onezkero Elizan gengozan. Nire agindu guztiai baietz erantzuten dautse aoz, egimenez ezetz. Katalin: ire senargei dontsu ori nire senarra bai&ntilde;o esangi&ntilde;agoa izan dailla.</p>
+<p>&mdash;Perrandes, errian edozer esanarren, iaseko mutilla da.</p>
+<p>&mdash;Zer di&ntilde;on, Katalin? Iasekoa ori? Ta ganera mutilla? Iasa zer dan bere eztaki orrek; mutilla dana badantzugu. Batek badaki ezkonduta dagoan ala ez!! Urruneko arrai&ntilde;agaz kontuan ibilli, Katalin.</p>
+<p>&mdash;Ik beti orrelangoxe detua ta eki&ntilde;a.</p>
+<p>&mdash;Gaztetasuna zoroa da: gero egunen baten alperrik negar egiteak eztau balio izango. Txantongaitik nik edozer esan daroat; bai&ntilde;a erbesteko gizon guztiakaz bat egin al balitz bere, naiago izango neuke ene senarra.</p>
+<p>&mdash;Erbestean ezin egon leike gizon onik?</p>
+<p>&mdash;Gitxitan ikusi dot neuk berori Elizan, da orduan bere... izan leike, bai&ntilde;a... nire surrak gero... Ona Katalin: ezaut alabea, alaba bat legetez nik i maite izanarren. Iaunak nai izan da nire erraietan sorturikoa baendut...</p>
+<p>&mdash;Bada ni, edo orretxegaz edo beste bat ez bategaz enaz ezkonduko.</p>
+<p>&mdash;Eztagoz berton mutil morrosko eder on bana-banakoak? Kose Kulian bat aor eztago, gitxi gitxi langoxea? Leberin bat? Peillo gorraren seme biak, eta beste amaika? Gazteria ederra eztogu beti Ondarroan ezautu? Eta itxas-gizonik senartzat artu nai izan ezik, nora iges egin dabe Izpasterko mutilko arpegi-ederrak?</p>
+<p>&mdash;Bai&ntilde;a orrek...</p>
+<p>&mdash;Zer orrek, orrek zer? Ondasun billa abil Katalin? Orretara-ezkero ez beste baten zain egon: geure auzoan bizi da Ameriketatik oraintsu erriraturiko mutil zaar bat, orrazi zaarren aginduna. I&ntilde;oiz ondasunik pillotu bada, baeidauko orrek urre gorria ta urre zuria bai&ntilde;o eztana.</p>
+<p>&mdash;Orregaz ezkondu? Gizonak salduaz da lapurretan aberasturiko aker zaar, koipedun, arlote orregaz? Neu? Satz sortuko al-iakoz berorren urre-pillook!</p>
+<p>&mdash;Ori larregi esatea da. Ziur iakinarte, etxako gizoni orrelango irai&ntilde;ik ezarri bear; ziur iakin da bere, kontuz kontuz, ezin bestez da mii&ntilde;a labanegitu barik.</p>
+<p>&mdash;Perrandes ezta orren erikoa, izango bere ez. Esatea bere! Perrandes lango mutillak eztira orma-bedarra legez nungura ta lekuan lekuan ikusten.</p>
+<p>&mdash;Ez e? Erruki aut Katalin: erbien begiak dirudie ireak; edegirik dagoz, bai&ntilde;a lo; eta (auxe dogu damugarriena) iratzartueran negar egingo dabe. Gure auzoko dirudun ori, zelan alangoa ta bada-ezpadakotxua ta ortik emendikoa ta guztia bearrekoa dala batzuk esanarren, euskaldun garbia ta euskaldun garbien semea dozu; onez ganera kristi&ntilde;aua, Eliza onetantxe bateaturikoa.</p>
+<p>&mdash;Eta zer?</p>
+<p>&mdash;Ondasun-billa abiatera-ezkero, ez kanpora ioan, aaaor berton senargei ona. Iaunaren legeko bizi-lagun on bat gura badon barriz, ez katalin erdal-erriko mandazai&ntilde;i begiratu.</p>
+<p>&mdash;Batek esan bear leuke gauzea! Nora begira egon intzan eu, Maripa, Txantonen gura izateko?</p>
+<p>&mdash;Neure Txanton?</p>
+<p>&mdash;Begiak itxi ta bere naiago dot...</p>
+<p>&mdash;Bai, Katalin; begiak arras zarraturik artuteko obea don ori, kirten ori. Ezakit, bai&ntilde;a, asarratu, ez sumindu, ez goragoraka ta purrustadaka asi. Perrandes eztakigu ez aberatsa danik, ez mutilla danik, ez ain gitxi kristi&ntilde;au ona danik; kristi&ntilde;au zintsua ta mutil ondo eukia balitz, elitzake ori ire atzean ibilliko. Ezaldago beren iaioterrian neskatilla on-zalerik?</p>
+<p>-Perrandes nor dan ondo dakit nik.</p>
+<p>-Nok esan-da? Perrandesek berak esan-da, e? Aaai, Katalin, ene alabea!! Damu izango euke eure bizi guztian.</p>
+<p>&mdash;Elitzake nire damu ori i&ntilde;oren lepora iausiko. Emakume onen eramena ta eki&ntilde;a!</p>
+<p>&mdash;Eutsi, Katalin, ur bedeinkatua. Gogoz arren egin gero, gogoz.&raquo;</p>
+<p>Txantonen emaztea ta Txiliren alabea Elizaratu zireanean, mutil koipeztotxu batek Antiguako altaran argiak isioten iarduan. Altara-ganean kandela bi bai&ntilde;o ezebazan ipi&ntilde;i, alderdi banatan bat; argi irukotx bi isio ta iza ebazan gero zokondoko txikotakaz, atzenez erdiko estalki zurizkatxua amarra edo txikot intziriti batek goratu ebaneko, Elizako gizon da andrazko guztiak buru makur makurraz da bat batera agur egin eutsen Antiguako Andra Mariari.</p>
+<p>Gizonen gorputza aztertu ta ezautu daroagun antzera, erri bat, aztertu ta ezautu gura izan-ezkero, kaleak zantzat euki bear izango gendukez, etxeak azurtzat, odoltzat erritarrak eurak, besotzat bideak, burutzat auzi-etxea edo uriko-etxea: Elizea izaten da errien biotza.</p>
+<p>Gizona zelangoa dan iakiteko, eztogu burutik beatzetara neurtuten, gizon andiak sarri asto andiak izan doazalako. Erriak ezaututeko bere, kaleetako txikota ezta neurririk onena izaten.</p>
+<p>Lekeitioko uria ondoen da zeatzen illuntzetan ezautu eikean: Elizaraturik. A da Elizea! An Ama Mariak biotzeratuten daben atsegi&ntilde;a da atsegi&ntilde;a!</p>
+<p>Gure kondairatxu au bai&ntilde;o askozaz oraintsuago, zapatari barregarri bat bizi izan zan Lekeition bertan. Eriotzako ordua eldu zanean, abade txikitxu batek, gau ta egun beragandik aldendu edo alderatu baga, ondo ilten lagundu eutsan. Beste gauza on askoren artean &laquo;Urlia, esan eutsan zapatari erdi-illari, poztu ai. Nok leuken ire zori ona! Gure Eliza ederra laster barriraztuko dauskue, ta ik zerutik polito polito ikusi al izango dok.</p>
+<p>&mdash;Iauna, erantzun eutsan oekoak; nik neure aukeran itxi-ezkero, lurretik ikustea naiago izango neuke&raquo;.</p>
+<p>Zapatari orrek, beetik ikusi ta bere, ona eritxon; da ziurtzat euki leikenez, zeruan baldin badago, amaika bidar beren erritarrakaz batu ta guri begira dagoanean pozezko adurretan esan izango dau ak <hi rend='Italic'>ederra da gero Lekeitioko uriaren biotza!</hi></p>
+<p>Lurreko gei guztiak alde bi daukez: aurrea ta atzea, kanpoa ta barrua, ganea ta azpia, agiria ta estaria. Gure begiak alde bat bai&ntilde;o eztabe begirakune baten ikusi al izaten; Iaunaren begietarako barriz eztago atzerik, azpirik bere ez, ain gitxi estaririk: gauza guztiak, gizonen gogamen da asmoak, uste ta gurariak, begirakune bat bakarraz alde guztietatik dakusaz goiko Ikusleak.</p>
+<p>Beetik ikusiriko ezgauzatxu onei goitik begiratu al bageutse, zeinbat egi elitzakiguz guzurtuko? Amaika bidar lotsatuko gendukez geure burua ikusiak!</p>
+<p>Gau atan Txiliren alabea Elizan ikusi-ezkero, betuleai zirkin eragin baga altarara begira ta beren ezpanak motzaillen artazi edo guraizak legez gelditu baga alkar ioten, zein gurasok ezeutsan Iaungoikoari bera langoxe alaba elizarakoi bat eskatuko? Bai&ntilde;a alde bat bai&ntilde;o ezekusen: agiria, barrukorik ez. Maripak besoan atz-tximurkada bi egin ezpaleutsaz, antxe geratuko zan Katalin altara illundura begira ta mandazai&ntilde;aren irudia begitasunez ikusten.</p>
+<p>Bata bestearen ondoren kaleratu zireaneko ta Maripak eski&ntilde;itako ur bedeinkatuaz zer egin ezekiala, &laquo;Bai, esan eutsan Katali&ntilde;ek: erdalduna ta erbestekoa dot, bai&ntilde;a bera langoxe beste bat ezaututearren, diruak emon leikez. Nire lepotik aspaldion barriketan da zurrumurru diarduenak, badakin, Maripa, zer dauken? Guraria, beren esteriako baten guraria, ta neu ikusi ezi&ntilde;a.</p>
+<p>&mdash;Uuuujui: ire kontuak ezin esan daikez mutuak, nik egingo neukean barrea! Guraria neuk? Mandazain taket baten guraria? Ezkonduteko banengo (ondo entzun gero, ondo: ez albokera begiratu, kaltza nasaidunik ezton agiri-ta) ezkonduteko banaiengon, berreun mandazain euren antzeko bi milla mando ta guzti bai&ntilde;o naiago izango naieuken Txanton bat soi&ntilde;eko utsakaz, goian zerua ta beean lurra daukazala.</p>
+<p>&mdash;Eztot nik igaitik esan.</p>
+<p>&mdash;Nigaitik ez, e? Gaisoa! Eztaukan ik erru guztia, eure Aitako sur-andiak bai&ntilde;o.</p>
+<p>&mdash;Gero... gure Aitari ez esatea.</p>
+<p>&mdash;Ire Aitak eztakialakoan ago, arri-koskor guztiak beste gauzarik eztakienean? Aur eztarabil bera Errokek, goiz da arratsalde, mandazai&ntilde;a gora ta mandazai&ntilde;a beera, gortu-agi&ntilde;ik?</p>
+<p>&mdash;Isiltxuago, Maripa; geuri begira dagoz guztiak eta isiltxuago.</p>
+<p>&mdash;Iakingo dot nik oraindi&ntilde;o ori nor dan, txori polit ori. Naiago enduket, Katalin, eskeko bategaz ezkondu-ta ikusi, orrelango...</p>
+<p>&mdash;Eztaigun geiago iardu ta ekin. Eskeko bategaz neure burua? Beste batek gauza ori esan baleust... Maripa, zeinbat eragi&ntilde;ago ziri&ntilde;ago; alper da Maria makillatu, ezpada berez biurtu.</p>
+<p>&mdash;Neskazaartuteko arrenkuratan ago? Neuk erakutsiko daunat Mari&ntilde;asi ezkontzalaria nun bizi dan. Edozei&ntilde;en, edozeren da edonungo barri eidaki.</p>
+<p>&mdash;Alper dala Maria makillatu...</p>
+<p>&mdash;Tira, bada, tira. Egiunea eginda badago, ez atzeratu. Egun atan txilintxuen ordez arranak Elizan gertu bear izango doguz; albotikotzat mando andi bi, beralangoxe erraldoe bi, ipi&ntilde;iko dautsaguz Perrandesi; eztegu-etxean aulkirik ezta bear izango, oriotako zaragi puztuetan iarri ta iezarriko gara.</p>
+<p>&mdash;Ezein iarraitu, Maripa; osterantzean eztaunat i&ntilde;oiz agurrik egingo. Barre?</p>
+<p>&mdash;Aide, aide; or konpon, ondo ibilli; gorantziak eta eskuetako munak eta oi&ntilde;etako igortziak oriodunari&raquo;.</p>
+<p>Kalean eurakaz batera ioazanen ardureak ezeutsan Katali&ntilde;i aldenduten larga edo laketu; eta Burgosko astotxuarena ez egitearren, ezeban Mariparen albora edo aldamenera urreratu gura izan. Alkarri loturiko txakur asarratu bi legetxez, ibilliago ta ari&ntilde;ago ioazan biak: murmur bata, agi&ntilde;ak agirian bestea. Mariparen etxe-ingurura eldu zireanean, Katalin bekoki txordoaz da zerbait atzeraturik, &laquo;i&ntilde;ok nai ezpadau bere...&raquo; esaten abia ekion &laquo;ezaz ezkonduko&raquo; erantzun eutsan Maripak. Ezeutsen alkarri besterik esan, aldendu zireanean.</p>
+<p>Berantz begira ioan Maripa, kaleko sakon-uneetan maskalez ez ondatutearren; ezeban burua iasoko, Errokek eta Leberin zaarrak oles egin ezpaleutse. Alkarri &laquo;gau on&raquo; esan da gero, Txantoni burutik zorgi&ntilde;ak kendutearren okerreriaren bat egin bear ekiola esan eban Errokek. Beren asmoa adierazo ebanean, barreka abia zirean irurak; Maripak barrean barrez ezeutsan ezer erantzun al izan.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>IV</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>Txantonen barriraztasuna</hi></p>
+<p>Aparia aoan eukela sartu zirean Mariparen txakolintegian Erroke, Leberin zaarra ta Santi amugi&ntilde;a. Euren etorrereari luze eritxala egon zan Txanton, apaldu ta gero semeari lo eragin eutsanetik orduxerarte. Txili beste irurakaz ez ikusirik, arratsaldeko eztabaidatxua gogoratu iakon, da berak egiteko eukan itaunea Erroken aotik entzun ebanean, asko geitu iakon beren keizura ta arrenkurea.</p>
+<p>&mdash;&laquo;Nun etedabil gaur Perrandesen aitagi&ntilde;arreba izatekoa?</p>
+<p>&mdash;Nor? Txili? Aotik kendu daustak, Erroke; neu bere orixe itanduteko egon naz. Beste egunetan ordu onetako beti agertuten iaku. Ezer egin eteiako, bada? Badakit urrean zek atzeratu daben gaur. Astakeriak mii&ntilde;ean artuten dabezala esan dautsat arratsaldean, da nik barriz eztot bera mindutearren esan. Astakeriak edo... neuk badakit... arira eztatozan esakeraak lantzean edo noizean bein aitatuten dabezana, ezta egia, gizonak? Enaizu gero salatu.</p>
+<p>&mdash;Ezai umea izan, Txanton; ori bai&ntilde;o gora-bera ta lor geiago dauko ak biotzean. Eu gaur Elizara baga, e?</p>
+<p>&mdash;Ez niri errurik ezarri, Erroke, an dagoanari bai&ntilde;o.</p>
+<p>&mdash;Maripa, enekian orrelangoa intzanik.</p>
+<p>&mdash;Gogorik ezeukala igarriezkero, zer egingo neban, bada? esan eutsan Errokeri Maripak. Sutondotxuan bero berotan gelditu eragin.</p>
+<p>&mdash;Guzurra bere, berbea da, esan eutsan beren senarrak. Ez sinistu oni, gizonak: bazkal-ostean, goizetik etxeratuteko beronek agindu, ta orain ori esan?</p>
+<p>&mdash;Illuntzeko aize otzak ene senar epel oni eztautso on andirik egiten; arratsaldea zer edo zertxu artu baga igaroteak bere ez.</p>
+<p>&mdash;Zori txarrean eskatu neutsazan bein txakolin-txiztil batzuk eta ogi-apur apur bi. Ni bai&ntilde;o iatun da edari-zaleagorik ezpalego...</p>
+<p>&mdash;Ezakit, senarra, gorritu; antxi&ntilde;atik etxekotuta daukaguz entzule onek; adiskide ta bezero zaarrak doguz, Erroke.</p>
+<p>&mdash;Zer, Maripa?</p>
+<p>&mdash;Txakolin-saltzaillea baintz, zer gurago izango euke? eure aurrean pitxerdi, ala atzetik eta ezkutuan pitxarkada osoa edatea?</p>
+<p>&mdash;Beste batek edateraezkero, zeinbat gitxiago naiago; bai&ntilde;a neuk edateraezkerokoan, betoz pitxarkadok. Nora oa, Txanton? Umeagana onen goiz? Itxi eiok orri lo egiten: bakean dagoanari...</p>
+<p>&mdash;Bakean itxi. Ori ii&ntilde;oat neuk bere bada; auri, orixe, berori. Berak, Maridrogak, egia eztana iakin da bere, esan! Bakarrik gagozanean, Kristorenak esan daidazala; leporatu beidaz, guzur da bar, mii&ntilde;ak emonala ta geiago; bai&ntilde;a i&ntilde;ok entzuteko moduan... Iatuna ta edalea neu? edan-sarria batez bere? Nok ikusi etenau zabuka ibilli ezi&ntilde;ik, edo tirlitorlo mii&ntilde;a moteldu-ta?</p>
+<p>&mdash;Olgetan aitaturiko destai&ntilde;a mingarriak, benetan esanikotzat artuten dozak ik.</p>
+<p>&mdash;Olgetan-benetan esan beti, Erroke; olgeteak benetea ekarten dau gero.</p>
+<p>&mdash;O neure senar morrosko, gizon bana banako, kokotgorri, Txanton sendoa! Bedeinkatua ta onetsia izan dailla i onen ordu gitxitan luze ta mardotu, sendo ta edertu auan txakolin miragarria!</p>
+<p>&mdash;Ene San Antonio ta mutilla! Zek edo zek, gatx andiren batek io bear gauz, Maripa. I&ntilde;oiz ez, da gaur onelango zoraildia?</p>
+<p>&mdash;Txanton: txiki txikitatik, umetatik, Aita ta Ama esaten ikasi genduanetik, bata bestearen lagun izanarren, aspaldiko urteotan alkarregaz bizi izan da bere, ezetedogu, bada, alkar ezautu? Makarra ta eragi&ntilde;a intzan arte guztian, abegi ona egiten eustan; da orain, lodi ta galanta agoanean, abegi ta arrera txarra egingo daustak?</p>
+<p>&mdash;Bai&ntilde;a andia ezta au, Erroke? Gaurrarte ni txakilla izan nau ene emazte zoro onek, makala, barritsua, epela, ezereza; gaur barriz morroskoa, banabanako gizona, kokot-gorria, galanta, sendoa. Benetan diardun, Maripa?</p>
+<p>Eztakutsu, gizonak, nire senar, txalen begidun au?</p>
+<p>&mdash;Bai.&raquo;</p>
+<p>Guztiak baitez esan ebenean, Txanton erdi-si&ntilde;istuten asi zan beren barriraztasuna; kokota ta arpegia igortzi ebazan gero esku bategaz, da beti langoxeak eukazala uste eban; gorputzari bere ezeritxan len bai&ntilde;o andiagoa ta mardoagoa. Ezbai onetatik len bai len urtetearren, Errokeri isilleko mandatu bat emon eutsan Txantonek; eta biak, besteak barrea euki ezi&ntilde;ik egozanartean, subil-ondora ioan zirean.</p>
+<p>&laquo;Begiratu eik aurra, topi&ntilde;a-barrura, topi&ntilde;eari zirki&ntilde;ik ez eragin gero, ura geldi geldi egon daitean; urreratu kurtzelu ori.</p>
+<p>&mdash;Ta zer? esan eutsan Errokek.</p>
+<p>&mdash;Begiratu ondo: nik arpegia len langoxe makarra iruntzia ta azurtsua daukat; kokota, beti betiko zantsua ta tximurduna.</p>
+<p>&mdash;Ik eztaukazak, mutil, begi orrek zuur da ondo: nik, bai uretan da bai aurrez aur edo arpegiz arpegi, arratsaldean bai&ntilde;o andiago, lodiago, mardoago, guriago, ta galantagoa akust.</p>
+<p>&mdash;Egia eteda kontu ori? Bai&ntilde;a luzatu ta zabaldu banintzok, kaltzak eta txartesa estuago ta laburrago euki bear izango neukez nik.</p>
+<p>&mdash;Eure soi&ntilde;ekoak bere, eugaz batera azi ta nasaiturik iagozak.</p>
+<p>&mdash;Zorginkeria da au orretaraezkero, zorginkeria.</p>
+<p>&mdash;Ur bedeinkaturik ezetedago goian?</p>
+<p>&mdash;Bai zera! Egon balitzok, etzoan i&ntilde;or i olan aldatutera etorriko.</p>
+<p>&mdash;Zorgindurik etenago bada?</p>
+<p>&mdash;Orretara zorgindutekoan, betorkidaz neuri bere zorgi&ntilde;ok.</p>
+<p>&mdash;Ezin izan leike au.</p>
+<p>&mdash;Ezin izan leikeala? Eztakik zer igaro dan amabost egun onen barruan, Gizaburuagako baserri-etxe baten?</p>
+<p>&mdash;Zer?</p>
+<p>&mdash;Au bai&ntilde;o barriraztasun arrigarriagoa iazo da an. Ago puskatxu baten, arei ots egin daioedan. Maripa, Leberin, Santi: zatorkiguz sutondora, or zagozanok.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>V</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>Olgetan-benetan</hi></p>
+<p>Errokek dei egin eutseneko, beraganatu zirean Maripa ta beste biak. Maripak kontuz ibilteko esan eutsan Errokeri, umea iratzartu ezeian. Errokek baietz erantzun da gero, modu onetan iarraitu eban bere berbaldia edo iarduna: &laquo;Besarkada edo laztan bat emon daiogun Txanton ederrari, ezer adierazoten asi bai&ntilde;o lenago. Txanton, dart dart ago i; nik barriz ziur dakit, Txantonek ukabilkada bategaz Leberin zaarra Santi ta neu, irurok, lurrera eratsiko gendukezana. Entzun ondo guztiok.</p>
+<p>Pilipe Muitizko deritxan gizon gazte bati, oraindi&ntilde;o urte bi eztireala, sein edo aur makar makartxu bat iaio iakon. Urte ta erdi-inguruan, makal da erkin bai, bai&ntilde;a beste gora-bera baga bizi izan iako sein ori. Oraintxe amabost egun, egubakoitz edo bariaku-arratsalde baten, Piliperen emazteak, sei&ntilde;a lo itxita, Laizoletako errotara edo bolura iru zorrokada gari eiotera eroan ebazan.&raquo;</p>
+<p>Errokek iarduan artean, Txantonek Leberin zaarrari isil isillik &laquo;I, belarrira itandu eutsan, ni orretara nagoana egia da?&raquo; Leberin zaarrak barrea euki ezinik &laquo;baietz, gizona&raquo;, erantzun eutsan.</p>
+<p>Errokek, Txantonen barruan zer ebillen igarrita, aunetara iarraitu eban. &laquo;Errotatik urten da etxean sartu zireanean, umea ondo-ezik eta artegaturik topa eban Piliperen emazteak; mosu bat emon eutsan bekokian, bai&ntilde;a ingiraz; beren besoetan artu nai izan eban gero, ta kaltz erpetik oratuaz geiagoko baga, garraisika ta alarauka asi zan umearen Ama. Beren alarauetara ainbeste auzoko batu edo batzandu iakozan: Ama errukarria ikara gorrian da izerdilarritan ikusi ebenean, zeri oratu ezekiela geratu zirean. Mari Andres, Maari Andres, deiadar egin eutsen; Mari Andresek (au eban Piliperen emazteak beren izena), begiak zabalik eukiarren, ezeutsen ezer erantzun al izan: adore bagakoa irudian. Nok esan, bai&ntilde;a, an gerta zan guztia? Emakumeak bildurraren oetik aldendu bai, bai&ntilde;a kanporatu nai ezik egozan; gizonezkoak, bata batera ta bestea bestera zabaldu zirean: Piliperen billa batzuk, beste batzuk osagillearen eske, ta enparauak Abadetan. Abadea iagi al izan balitz ordu-erdi bai&ntilde;o lenago guztia amaitu ta leneratuko zan: zorginkeriak ezeban geiago iraungo.</p>
+<p>&mdash;Erroke, arin amaitu eik; nik len bai len oeratu gura neuke.</p>
+<p>&mdash;Egon ai puskatxu baten, Txanton; laster atzena emongo dautsat asiriko arlo oni. Aurrenean edo lenengotan esan dot eta egia da: gaur emen Txantoni iazo iakona, angoaren aldean ezta ezer. Pilipe ta osagilleak, eskaratzean sartu ta gero, igarorikoa iakin ebenean, osagilleak sastada bat beren puntzetaz egin eutsan Mari Andresi; Pilipek barriz umea Amaren odolaz ez loitutearren besoetan artu gura izan eban. &mdash;Zer dabil emen? esan eban Pilipek arpegia zurbildurik, berunezkoa ala aragizkoa dot ene seme au? &mdash;Mari Andres ozta ta nekez beren senera etorri zan. Guztiak iarduen izketan, guztiak alkar aditu ezi&ntilde;ik. Noizbait agertu eban beren burua sakristauak, eta guztiai isillik egon eragin da geldi geldi ta estulartean beren eretxia erakutsi eban: &laquo;Abadea ondo-eztxuaz oeraturik dagonezkero, Done Eufemiako eliz-zai&ntilde;agana umea eroatea izango da, ene ustez, osabiderik egokiena ta ironena.</p>
+<p>&mdash;Bai&ntilde;a ara-orduko gautuko balitzakigu? iragarri eban batek.</p>
+<p>&mdash;Eta zer?, erantzun eban sakristauak.</p>
+<p>&mdash;Zelan eroan umea? Astuna dago ori, arai&ntilde;o eroan al izateko.</p>
+<p>&mdash;Astorik ezaldako kortan?</p>
+<p>&mdash;Iru dagoz, esan eban Pilipek.</p>
+<p>&mdash;Goazan bada, erabagi eban sakristauak: alkarri begira egoteak eztakar atze onik. Andrazkoak begoz berton, Mari Andres zainduten; goazan gizonok.</p>
+<p>Euretariko bati entzun dautsat, Txanton, ekin eban Errokek; zazpi gizonek Done Eufemiako mendira-bidea artu eben, eurakaz iru asto ioazan, irurak bein banan da lepo-azurra arras minberaturik eroan eben ume astuna. Alango arratsik eta gaurik ezeidabe egundo igaro. Arratsaldeko bostak inguruan eldu zirean mendi-barrenera, etxean geldi geldi egon balitzaz!! Errukarriak! Eurai entzutea da bat, beste bat nik azaldutea. Uleak zuti&ntilde;ik edo zutunik eta gorputza ikarapean eukiten dauz Gizaburuagako gizonak, au gomuta izaten daben bakotxean.</p>
+<p>&mdash;Txanton: ezai larritu. Naikoa ezta izango, Erroke?</p>
+<p>&mdash;Ez, Maripa: egon bein. Ezeizan arratsalde atan eguna bestetan legez gautu. Norbaitek zartada baten odei-ganean estalki baltz da izugarri bat zabaldu-ta legetxez, etorri ei-iaken gaba euren begietara: bat batera, itsu-mustuan, i&ntilde;ok uste izan baga, si&ntilde;istu ezindako moduan. Eta gero, ai gero! Ujuiak emendik, barre-santzoak ortik; argi bat emen, beste bat arantzago; ioan alde batera ta argia illundu, ioan bestera ta sasiartean arpegia urratu; alkarren barri ezekien; gorputza, berreun gizonek makillaturik legetxez euken. Gau guztian ibilten, nundik nora ezekiela: bilin balaunka, musturrez aurrera, buruz beera... ta zelan ez? Gau guzti guztian ibilli ta ibilli, Txanton, da auxe da arrigarriena ta beste iazoera guztien azkarrekoa!! eguna argitu iakenean (bat batera ta goizabar baga argitu zan orduan) zirririk edo zirki&ntilde;ik egin ezpaleben antzera, zazpi gizonak, iru astoak eta zori txarreko umeak alkarren kontran euren buruak ikusi ebezan.</p>
+<p>Egon ai, Txanton; txarrena agertu dot eta egon ai; besteok bere ementxe gaiagozak eta ezai lokatu. Alkarri eskuak emonaz iagi bear izan eben, ain egozan eiota!! Astiro astiro, gora ta gora igon eben gero mendi-burura elduarte. Eliz-ondoan oles egin ebeneko, <hi rend='Italic'>pekatu baga sortua </hi>esanaz, irurogei urte-inguruko gizon gordin andi bat aurkeztu iaken.</p>
+<p>&mdash;Zer dakazu edo zek zakaz, gizonak, onen goiz?, onetxek izan zirean eliz-zai&ntilde;agandik entzuniko berbaak.</p>
+<p>&mdash;Garatz arduratsu batek gakaz adiskidea; erantzun eutsan sakristauak.</p>
+<p>Onek, igaroriko guztia iragarritakoan, asto-ganeko umea erakutsi eutsan eliz-zai&ntilde;ari. Ona emen onek emoniko epaia:</p>
+<p>&mdash;Zelango begiak daukazuz, gizonak? Umetzako au ezta umea, larogei urteko atsoa bai&ntilde;o: Sorgi&ntilde;a. Iaurti ta amildu eizu guztion artean ortik beera.&raquo;</p>
+<p>Ezeban geiago entzun al izan Txantonek: aldi gaizto batek adore baga itxi eban.</p>
+<p>Maripak, estu ta larri, olgetan asiaz damuturik, amantalaz beren senarra aizetu eban. Arik gerotxuago, guztien artean goiko gela batera eroan eben Mariparen senar eder galant kokot-gorria.</p>
+<p>Goian ebilzanartean, Txilik iru edo lau bidar ots egin eban bean; da i&ntilde;ok ezer erantzun ezeutsanean, sueterai&ntilde;o ioan zan.</p>
+<p>Maripa geroago ta keizuago ebillen; ezeban i&ntilde;ok uste senarraren ondo-eztxuak alango zauskadea egin bear eutsanik. &laquo;Bein asi ta bertan au iazo bear, esan eban. Ordu txarrean ikusi aut, Erroke, etxerantz nentorrela. I ezaz Erroke, okerra bai&ntilde;o. Ai neure Txanton baketsua!! Kendu zakidaz, gizonak, emendik; ken ken. Begiratu eiozu bat edo batek umeari, ta ezer opa izanez kero, badakizu gauzaak non dagozan, da artu.&raquo;</p>
+<p>Au entzunaz, Erroke ta lagunak alik isillen beerantz etozan; Txilik euren oi&ntilde;-otsa belarriratu ebanean, bide-erdi urten da zer euken itaundu eban. Beren guraria ase ta gero, Txantoni adarra iotera igon nai izan eban, bai&ntilde;a besteak ezeutsen laketu.</p>
+<p>&mdash;&laquo;Guztion artean txotxolotu dozu Txanton. Nok gero tximista orri zorgi&ntilde;ik eztagoala si&ntilde;istu eragin?</p>
+<p>&mdash;Gizona, erantzun eutsan Errokek Txili tximistadunari, nik uste izango naieuan au iazoko zanik? Neu bere siniskorra nok eta bildurtia, edozein gizon gitxi edo asko izan doan antzera; bai&ntilde;a orrenbestekoa...</p>
+<p>&mdash;Erroke, geldi geldi: gatozan arira. Ni enok gero Txanton. Bildur izan ai eu, gura badok: ezkaizak besteok bildurtitzat edo Txantontzat euki.</p>
+<p>&mdash;Ezaz i, Txili, bein ez bein da baten ez baten bildur izan?</p>
+<p>&mdash;Txili ez.</p>
+<p>&mdash;Gabaz bakarrik eta bakartasunean abillenean bere ez?</p>
+<p>&mdash;Ezta munduan neu bakar bakarrik bizi banintzok bere.</p>
+<p>&mdash;Izan leike... edo eztakit nik zer esan: orrelango epairik etxoat benetan diardun gizonengandik entzun. Neuk bere gizaseme indartsu ta barru sendodunak ezautu dodaz; arako neure aitaita, indar-arazoetan entzute andikoa. Berari ta beste askori (onek bere etzirean ustelak) bein bai&ntilde;o geiagotan entzun dautset...</p>
+<p>&mdash;Zer?</p>
+<p>&mdash;Gauaz bein edo bein <hi rend='Italic'>Damutu</hi>ren bat aurkituezkero, biotza taupadaka eukiten ebela.</p>
+<p>&mdash;Zer, Erroke?</p>
+<p>&mdash;Esan dodana, Txili.</p>
+<p>&mdash;Sinistu bere ezin dot ire aitaita sendoa, <hi rend='Italic'>damutuak </hi>direala ta eztireala, ikaratu izatea. Damutuak!! Erdi billoizik, txikotaz edo idi-zillaz gorputza odolduten iarduten daben ero batzukaitik taupadaka biotza asi? Biotz txatxarra da, gizonak ezgauzakaitik taup egiten daben biotza.</p>
+<p>&mdash;Txili: eztau balio izango gero gauza bat esan da beste bat egiteak. Or gau-erdi-inguruan norberen gerizarik bere ikusten eztan gau illun baten, buru-utsik, ortozik edo orpo-utsik eta erdi-billoizik, erraldoia lango Damutu andi bat begien aurrera, eu bakarrik agoala, aurkeztuko balitzakik, ezintzake, Txili, bildur izango?</p>
+<p>&mdash;Ona, Erroke (ukabillaz maiari ots eragi&ntilde;az esan eutsan Txilik): ire aitaita baizen sendoa enok; onelan da guzti bere inpernuko deabrua bera Damutu-iantziaz agertuko balitzakit, eta iarraituteko esango baleust bere, enintzake bildur izango, eneuke atzera egingo. Zelango biotza da taupadaka dabillen biotza? Zanen batetik dingilizka edo esegita daukagula uste aldok?</p>
+<p>&mdash;Naiago neuan, Txili, aitatu dauan ori aitatu ezpaeu.</p>
+<p>&mdash;Ezai txakilla izan i bere, Leberin. Ekarri eik txakoli&ntilde;a, ta gaioazan gero geure Txantontxu ikustera.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>VI</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>Aupada bidebagako baten atzea</hi></p>
+<p>Marki&ntilde;arako urteeran, <hi rend='Italic'>Atea </hi>deritxon uri-mugan eukan Perrandes mandazai&ntilde;ak ostatua. Berarizko apaingarririk ezeukan etxe onek; beren ormetan ezeben iaubeak i&ntilde;oiz ezetariko zuzenbiderik edo igargarririk ezarri; au gorabera, Lekeitiar guztiak antxi&ntilde;atxutik <hi rend='Italic'>Mandazai&ntilde;entzako Ostatua </hi>esaten eutsen etxe oni. Iru ate andi eukazan etxeak: bi kortarakoak, goiko bizi-toki ta ganbararakoa irugarrena.</p>
+<p>Lekeitioko uriak, bai orduan da bai arrezkero, kale luze luze bat dauko, bertako zurkulu ia guztiak erakusten dauzana. Beste kaleak (onen aldean txikiak) erdi-konturatu baga bertara eroaten dabe bat, zein da errekatxuak ibai andira daroezan urak legetxez.</p>
+<p>Iru mako edo arri-uztai egozan kalean bertan: kai-ondoan bata, gaurko uri-etxeari dautsala bigarrena, bestea <hi rend='Italic'>Ate </hi>aldean; eta iruretan zerutarren irudiak lurtarren atsegi&ntilde;erako eregi ebazan iaiereak edo onerazpenak. Kale onetantxe egoan Txiliren etxea, kale onetantxe Mandazai&ntilde;entzako Ostatua, ta kaleon berton igaro zirean esateko daukaguzan gertaera gomutagarriak.</p>
+<p>Gau atan ezekian mandazai&ntilde;ak zer erabillen esku-artean. Txiliri erraiak ardaoz berotuezkero, beren alabea emaztetzat eskatu ta baietz entzutea, atzerapen bagako gauzea izan bear ebela uste izan eban: ezeutsan ezetz erantzun, bai&ntilde;a baietz bere ez; eta gizonak, beren ustez, zerbait eskatu dakionean bai edo ez, garbi garbi, zeatz zeatz, soil soil da luzapen baga erantzun bear dau. Berari i&ntilde;ok (Katali&ntilde;ek izan ezik) beren iru mandoak eskatu izan baleutsaz, etzan atzera begira ta burua austen egon izango: ez esan da kitu.</p>
+<p>Mandoai askan garagarraren ordez lepoko estalkiak edo berogarriak ipi&ntilde;i eutsezan iakitzat; mando errukarriak bein bai&ntilde;o ezeben burua makurtu, agi&ntilde;ak erakutsi barriz bein bere ez. Ikustekoa zan orduan Perrandes, argimutilla eskerrean da gorostizko makilla eze bat eskuman eukazala, ai&ntilde;enka ta biraoka, bein banaan <hi rend='Italic'>Tordillori, Carbonerori</hi> ta <hi rend='Italic'>Platerari</hi> bizkarazurra neurtuten.</p>
+<p>Zori onean da adiunez iatzi zan goiko atsoa (Madalen eulea) aparia maian eukala Perrandesi esatera.</p>
+<p>&mdash;Zer nai, <hi rend='Italic'>patrona?</hi></p>
+<p>&mdash;Apaldu nai izanezkero...</p>
+<p>&mdash;Apaldu eu.</p>
+<p>&mdash;Mando gaisoak! ezeizak orrenbeste64 io.</p>
+<p>&mdash;Isillik i, <hi rend='Italic'>arraioa.</hi></p>
+<p>&mdash;Zer egin etedaue bada, gaisook?</p>
+<p>&mdash;Garagarra neu emon ta ez ian. <hi rend='Italic'>Tordillo, <foreign>come, rre... diez</foreign>.</hi></p>
+<p>&mdash;Olan ioezkero, eu il ezaien kontuan ibilli ai... Bai&ntilde;a Perrandes, zelan iango dabe zer-ian eztagoan lekuan?</p>
+<p>&laquo;Mandazai&ntilde;ak, beren uts-egi&ntilde;a ezautu ebanean, Ama batek sei&ntilde;ari langoxe ereguak eta palaguak mandoai egin eutsezan. I&ntilde;oiz bai&ntilde;o garragar geiago iruntzi eben oneek egun atan. Euren iaubea, kortako egikizuna amaitu ebanean, Madalen aurretik argi-mutillaz ebala, gora ioan zan.</p>
+<p>Apari ugaria ta onuratsua gertu eutsan Madalenek, bai&ntilde;a alperrik: ezeban ezer ian al izan. Arrautzatan, berak ianala ta geiago egozala esan eutsan, da alperrik; alperrik iardu eben Madalenek eta beren seme zaarrenak errian urte atan gertariko guztia adierazoten; alperrik osagilleari ots egiteko igitu gura izan eben. Ez, esan eutsen Perrandesek: berba auxe ta <hi rend='Italic'>gau on</hi> bai&ntilde;o besterik ezeben beronen aotik entzun.</p>
+<p>Oi ebanez, kortara etzatera iatzi zanean, ezeutsen Katali&ntilde;en senargeiak mandoai bestetan legez beren asmorik erakutsi; ez, Erriojara noiz ioan bear euen esan; ez lepoa, Katali&ntilde;en izena ta edertasuna aitatuaz, igortzi ta palagatu.</p>
+<p>Argiari putz egin da gero, soi&ntilde;eko ta guzti etzan zan lasto-zorro ganean. Lau ordu bai&ntilde;o geiago igaro ebazan bira biraka, loari burutasunen artean ostatu emon ezi&ntilde;ik. Beren asmoak bete baleuz, ezebazan Txantonen emazteak urte asko munduan iraungo.</p>
+<p>Gau-erdia bai&ntilde;o gerotxuago zutindu edo oi&ntilde;en ganeratu zan; eta argia isiotea gogoratu baga, estalki andi bat topa ebanean, beraz batu ta kaletik urten baga Arranegi-alderantz ioan zan.</p>
+<p>Txiliren etxe-aurrera eldueran, atea beste etxeetakoa legez idigirik aurkituarren, atarian oi&ntilde;ak ipinten asiaz batera, itxas-ertzerako bidea artu eban. Eztakigu, bai&ntilde;a, ala bildurrez, ala lotsaz, ala zerez edo zegaitik ezeban bete gura izan beren asmoa: Txilin alabea ostu edo ebatsi, ta goizalde atantxe Erriojara eroatera.</p>
+<p><hi rend='Italic'>Talan </hi>egotaldi on bat egin da gero, bigarrenez lengo lekura etorrela, oi&ntilde;-ots durunditsua entzun eban Txiliren etxeko mailletan. Zer iazoko, alboko atari baten ezkuta eban beren burua, garrikopeko gai&ntilde;ibetea eskuratuten egoanartean. Mailletan beera etorrenak ezeutsan asko itxaron eragin: ondo begiratu eutsan Perrandesek, bai&ntilde;a ezetara ezeban ezautu al izan; eta arrausi egikeran ezautu ezpaleu, gizon bat gitxiago ta eraille bat geiago euki izango alebazan Lekeitioko uri baketsuak.</p>
+<p>Txili zan Perrandesek aurrez aur eukan gizona. Zek iagi eragin eutsan ordu atan? Ezekian mandazain buru-andiak, Txili <hi rend='Italic'>sei&ntilde;eroa </hi>zanik; ezekian ordu atantxe edo belutxuago Talara ioan bear izaten ebanik: ostean ezeutsan iarraituko.</p>
+<p>Txilik egikizunez eguraldia egunean egunean aztertu bear izaten eban. Onetarako, zein euritan zein aterritan, goizaldea bai&ntilde;o askozaz lenago ioaten zan Talara; an izarrai begiratu, odeien azatza kontuan artu, aizea ezautu ta itxasoa zelan egoan ikusirik, txalupetako nausiai ots edo oles egiten eutsen. Gero txalupa maisuakaz batera osteratu bear izaten eban Talara; eta guztien artean eguraldia alik zeatzen aztertutakoan, itxasoraterik egonezkero, dei <hi rend='Italic'>egitekoai </hi>dei egitera ioaten zirean.</p>
+<p>Txili odeietara begira ebillenartean, mandazai&ntilde;a baztertxu baten iarri zan gai&ntilde;ibetea eskutik kendu baga.</p>
+<p>Gauza andi ta beren moduko bat ikusi eban Txilik, <hi rend='Italic'>Tala goikotik </hi>beraganantz etorrela, baltzaren baltzaz illunetan bere geriza egiten eban. Urreratu iakonean, &laquo;gau on, adiskidea, esan eutsan Txilik; goizetik gabilz, goizetik.</p>
+<p>&mdash;Nai goiz nai berandu, iri zer?</p>
+<p>&mdash;Asarrez dator mutil au: geu bere bada drogarako ezkozak txarrenak. Nor az eu, tximista ori?</p>
+<p>&mdash;Enakusk?</p>
+<p>&mdash;Nik ez ondo, eure eskutzar onetako zigorra izan ezik. Tema egingo neuke Damutu eroen bategaz diardudala. Nondik nora abil eu?</p>
+<p>&mdash;Eztaukat barriketan iarduteko astirik; bai&ntilde;a itaune edo galdeera geiago ez egitekoz erantzungo dauat. Gau guztian, nundik nora eztakidala ta neure gerizea bai&ntilde;o beste lagun baga, ibilli nabil; egun-sentia bai&ntilde;o lenago, Oiz-barrenera ioan nai neuke, nundik baneki.</p>
+<p>&mdash;Egun-sentia bai&ntilde;o lenago? Mau mau! ezta inpernuko deabrua baintz bere.</p>
+<p>&mdash;Lagun on bat baneuko, bai.</p>
+<p>&mdash;Ori ikustearren...</p>
+<p>&mdash;Ator.</p>
+<p>&mdash;Baina nik...</p>
+<p>&mdash;Orretaraezkero, berba biko gizona az i.</p>
+<p>&mdash;Ez ni.</p>
+<p>&mdash;Bart euk ezeuan eski&ntilde;i, edozein Damuturi lagun egingo euskeola?</p>
+<p>&mdash;Bai&ntilde;a...</p>
+<p>&mdash;Atxakiak, akiakulak eta estakuruak daukazak ik.</p>
+<p>&mdash;Eta zein tximistak dei egingo dau, itxasoraterik badago?</p>
+<p>&mdash;Eguraldi txarra, txalupaak iazo ezindakoa balego, iarraituko eusket?</p>
+<p>&mdash;Bai, zegaitik ez?&raquo;</p>
+<p>Au esanaz, ezeban Txilik puskatxu baten aurreko laguna ikusi. Agertu iakonean, modu onetan iarraitu eben lengo autua:</p>
+<p>&mdash;&laquo;Orra or mendebal gogorra ta ugarte ori gai&ntilde;ako olatuak.</p>
+<p>&mdash;Tximista gorria! ni bai&ntilde;o igarle obea az.</p>
+<p>&mdash;Baator ala ezator?</p>
+<p>&mdash;Tira.&raquo;</p>
+<p>Parrandesek, asarrezko autu labur au entzun ebanean, ezer aditu ezarren, Txiliren alde urten gura izan eban, bai&ntilde;a egi&ntilde;ala egin da bere, ezeban beren burua lokatu al izan: orma-kontran norbaitek inka ta legez eukan gorputza.</p>
+<p>Beren paretik irago zireanean, Txiliri oles egitea otu iakon; bai&ntilde;a ekandu txarrekotzat euki ezeian, isillik gelditu zan.</p>
+<p>Bera iagi-orduko, Txili ta laguna Done Peruren makopera eldu zirean. Alango irudien aurrean, Damutu guztiak eskuetako zigorraz gorputza astindu eroen. Baekian Txilik ekandu au; ta beren laguna aurrera ioala ikusi ebanean, &laquo;Adiskidea, esan eutsan, irudi done baten aurrean ago. Lege oneko Damutua baaz...</p>
+<p>&mdash;Eta iri zer?</p>
+<p>&mdash;Niri neuri... ezer ez, bai&ntilde;a...</p>
+<p>&mdash;Bildur az?</p>
+<p>&mdash;Bildur, zegaitik?</p>
+<p>&mdash;Iarraituko daustak?</p>
+<p>&mdash;Noranai.&raquo;</p>
+<p>Andik bigarren makopera Andra Mariaren irudidunpera bide andirik ezeuken, da gelditxuago ioan da bere laster elduko zirean. Orduantxe bere Txilik ezeban beren laguna gorputza astinduten ikusi, ta eskuak kaltzerpean sarturik agiraka asi iakon, berba onek esanaz:</p>
+<p>&laquo;Euk eure gorputzar ori astinduteko adorerik ezpadaukak, neuk eskuak berotutearren makillatu edo zigortuko dauat, bardin baderitxok.</p>
+<p>&mdash;Berotuteko gogoa daukak? Berotuko az. Arira eztatozan itauneak gizon txakillak egiten dabez.</p>
+<p>&mdash;Bada arrain ona eu eteazan...</p>
+<p>&mdash;Bildur az?</p>
+<p>&mdash;Zegaitik diraustak ori?</p>
+<p>&mdash;Bildur az?</p>
+<p>&mdash;Ez.&raquo;</p>
+<p>Mandazai&ntilde;ak, arin ibilten oituta egon balitz bere, ezeutsen aurrea artu al izango. Arek eroen abiadea!</p>
+<p>Andra Mariaren makopetik irago bear ebanean, dingilizka ta gelditu-gurarik ebillen argitxua ikusirik, gorantz begiratu eban Perrandesek; ezekian, bai&ntilde;a, zelan azaldu, zegaitik edo zerik zetara erabillen burua albo alboka kristal edo beiraarteko irudiak. Geratu baga bigarrenez bertara begiratu eban, da argi ziri&ntilde;a ta illuntasun ao-zabala bai&ntilde;o besterik ezeban ikusi. Gaiztakeria ontasunetik eta ezaintasuna edertasunetik ondoen ezautu daroaguzan antzera, illuntasuna begitanduteko bere, argia bear izaten dogu.</p>
+<p>Aurretik ioazan bien oi&ntilde;-otsak entzueran, berak bai&ntilde;o obeto apaldu bear izan ebela gogoratu iakon Erriojako kaltza laburdunari; atsen egin da lotaratutea bere, buruak emon eutsan, bai&ntilde;a zer esango eban Txilik, besteagaz burrukara ioan da beren laguntasunaren bearrean aurkituezkero?</p>
+<p>Mandazai&ntilde;ari burutasun onek gogoratu-orduko, irugarren makopera eldu zirean beste biak. An bere, zigorraz ezer egin baga ta burua lotsaz legez makurturik, etzan gelditu Txiliren laguna. Zerbait esango eutsan Txilik, besteak katamotzaren begiak langoxe sutsuakaz albokera begiraturik, &laquo;aurrera&raquo; esan ezpaleutso.</p>
+<p>Uriko atzenengo etxea lepo-aldean itxi ebenean, Txilik (besteari zerbait erasotearren nire ustez) izerditan egoala ta gelditxuago ibilli ta bere, elduko zireala esan eutsan.</p>
+<p>&mdash;&laquo;Izerdia? Bildur azalako ago i, oskil ori, izerditan.&raquo;</p>
+<p>Beren buruagaitik oskilla entzun ebanean, esku biak ukabildu ta astakeriren bat esan da egitera ioan sei&ntilde;ero indartsua; bai&ntilde;a lagunaren atzetan amar erpe, amuak langoxe okerrak, ekusazala begitandu iakon, da arritu-ta aoa zabalik eta arnasa baga gelditu zan.</p>
+<p>&mdash;&laquo;Bildur az, oskil ori?</p>
+<p>&mdash;Ez,&raquo; arrausika legetxez erantzun eban; eta zelan ezekiala, orduantxe aoak emon eutsan beren bizitza guztiko lenengo guzurra.</p>
+<p>Ordurik aurrera, Txantonen txakolintegian esan ebana gomuta ez izatearren, begiak erdi-itxirik, lagunaren oi&ntilde;-otsak banan banan zeinbatu edo kontaten abia zan Katali&ntilde;en Aita. Alan da guzti bere ezin aaztu ebazan Damutuaren begi ta erpeak.</p>
+<p>Txilik uste ta gura eban bai&ntilde;o nekezago ta beluago eldu zirean <hi rend='Italic'>Kristo Portalekora.</hi></p>
+<p>Araezkero, Damutu-ezaugarririk erakutsi ezik, ezeutsan aurrera lagunduko: alperrik bestearen aotik txakilla, oskilla ta bildurtia ta edozetariko irai&ntilde;ak entzun. Eldu zirean noizbait. Damutua, Iaungoikozko irudi kurutzeratua ez ikustearren, pillara edo metarri-atzetik aurreratu zan. Txilik, zerbait esateko gurariaz, burua iaso ta begiak zabaldu ebazanean, auntzaren musturra ta agi&ntilde;ak begitandu iakozan bestearen arpegian; eta katai batek emoniko gili gilia langoxea eukalakoan, eskuaz kokota igortzi ebanaz batera, barre-algara izugarri bat egin eutsan auntz-arpegidunak. &laquo;Bildur az&raquo; itandu eutsan, bai&ntilde;a ez gizon-berbakaz, auntzaren barreakaz bai&ntilde;o: Txilik ezeutsan ezer erantzun.</p>
+<p>Mandazain mokor-astunak eurai obeto iarraitutearren, kortan sartu ta iru mandoetatik bizkorrena azpiko laguntzat artu eban: onetarako ezeban oinkadarik galdu bear izan. Arre <hi rend='Italic'>Tordillo </hi>esan da alik ari&ntilde;en besteen atzetiko bide ziorra iarraitu eban.</p>
+<p>Txili gaisoari bitartean, gorputzaren arintasunak burua ia zorabiatuarte astundu eutsan. Geroago ta ari&ntilde;ago ioazan, alkarren leian eritxi baten, bai&ntilde;a bera konturatu baga: Auria-ko bide medarretik Arrupai&ntilde;en zear, Leako zubitik irago bear izan eben <hi rend='Italic'>Oleta </hi>atzean isteko; eta aingiratako toki arek beren etxeko zurkuluak baizen ondo iaki&ntilde;arren, ezeban ezautu ez etxerik, ez ibairik, ez zubirik, ez olarik.</p>
+<p><hi rend='Italic'>Oibar</hi>-ingurura eldu zireanean, Txanton il zala bururatu iakon, da beren <hi rend='Italic'>Gauille</hi>an edo <hi rend='Italic'>Gauela</hi>n egoalakoan, kaltzaak aratu ta <hi rend='Italic'>errosario-garauak </hi>atera ta amabost arenak esaten abia zan.</p>
+<p>&laquo;Alperrik&raquo;; esan eutsan lagunak. Berak, lotorditatik itzartu-ta legez, aoa zabalik begiratu eutsan; &laquo;alperrik&raquo; esan eutsan bigarrenez besteak. Txili, sugoiaren aurrean txoriak egoten eidirean gizan, begiak zarratu ezi&ntilde;ik egoan: biak geldi, biak alkarri begira.</p>
+<p>Bildurra bera aragiz iantzi ta gizondu al balitz, elitzake Txili egoan baizen margul da kolorga edo zurbil egongo. Damutuak burpil baten bira biraka milla arpegi balebilz langoxe taiua erakusten eutsan Txiliri: txakurrik beterre ta surzapalenak, auntzik zaar da bizartsuenak, urderik itxusi ta ziki&ntilde;enak eta beste euron antzeko milla abere-muetak Damutuaren sorburuan burua agertuteko itunea egin ebela irudian. Txili iaustera ioan, bestea kar kar kar abia iakonean: &laquo;Txili sendoa, entzun ondo bein da betiko. Bildur az?</p>
+<p>&mdash;&laquo;Antiguako Ama Maria, bildur naz&raquo; esan, da Oibar-ko Elizatxuko atea eskuakaz ioaz, auspaz edo aospez barrura iausi zan.</p>
+<p>&mdash;&laquo;Txili (beren erraietako orroi arrigarri bategaz esan eutsan orduan Damututzakoak), Txili: beste bein baketan laga eiok inpernuko deabruari. Neu nok. Ona emen ezaugarria. Neurea intzan, neurea. Eskerrak emon eiozak eskuetako orri ta agoan lekuari.&raquo;</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>VII</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>Guena</hi></p>
+<p>Laster agertu zan mandazai&ntilde;a. Elizatxu-aurreko bidea bai&ntilde;o besterik ezeukan aurreratuteko. Urruntxutik ikusi eban bertako argia. Urreratu zanean, geriza andi bat argipean ikusirik, mando-ganetik iatzi, arnasaz bete ta kurutze bat egi&ntilde;az barrura sartu zan. Ketan egoan atea ta esku andi baten ezaugarria eukan ezarririk.</p>
+<p><hi rend='Italic'><foreign>&laquo;&#191;Qui&eacute;n eres? </foreign></hi>itandu eutsan, kaltza-barrenetik oratuak, auspaz egoanari.</p>
+<p>&mdash;Perrandes, iaso naik.</p>
+<p>&mdash;Txili, zelan emen?</p>
+<p>&mdash;Aingeruak ekarri abe ona. Nik onen saritzat emon al daikedan gauzarik balego...</p>
+<p>&mdash;Badago.</p>
+<p>&mdash;Zer?</p>
+<p>&mdash;Katalin.</p>
+<p>&mdash;Bai.</p>
+        </body>
+      </text>
+    </group>
+  </text>
+</TEI.2>
+

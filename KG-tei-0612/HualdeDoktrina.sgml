@@ -1,0 +1,929 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN"
+                       "http://www.tei-c.org/P4X/DTD/tei2.dtd" [
+   <!ENTITY % TEI.prose    'INCLUDE' >
+   <!ENTITY % TEI.linking  'INCLUDE' >
+   <!ENTITY % TEI.analysis 'INCLUDE' >
+   <!ENTITY % TEI.figures  'INCLUDE' >
+   <!ENTITY % TEI.XML      'INCLUDE' >
+   <!ENTITY % TEI.extensions.ent SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.ent' >
+   <!ENTITY % TEI.extensions.dtd SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.dtd' >
+]>
+<TEI.2>
+  <teiHeader>
+  <fileDesc>
+     <titleStmt>
+        <title>Kristiaiñaren Doktrinaren Introduzionia</title>
+        <author>Pedro Prudenzio Hualde Maio</author>
+        <respStmt>Ez dauka</respStmt>
+     </titleStmt>
+     <extent>7.184 hitz, 52.985 karaktere</extent>
+     <publicationStmt>
+        <publisher>Klasikoen Gordailua [http://klasikoak.armiarma.com/]</publisher>
+        <distributor>Estrata Liburuak S.L.</distributor>
+        <address type='email'>klasikoak@armiarma.com</address>
+        <idno type='ota'>HualdeDoktrina</idno>
+        <availability status='free'>Erabilpen librekoa; honoko helbidean topa daiteke (HTML, RTF eta PDF formatuetan): http://klasikoak.armiarma.com/idazlanak/H/HualdeDoktrina.htm</availability>
+        <date>2006</date>
+     </publicationStmt>
+     <sourceDesc>
+        <bibl>Iturria: Bonaparte Ondareko Eskuizkribuak, (Rosa Miren Pagola eta taldearen edizioa). CD-ROMa, Bilduma osoaren edizio digitala. Deustuko Ubibertsitatea / Eusko Jaurlaritza, 2004</bibl>
+        <notesStmt><note>Iturburuen datazioa: 1866, 2004</note></notesStmt>
+     </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+     <projectDesc>Euskal literaturako testu klasikoen bilduma da KLASIKOEN GORDAILUA; testu hau berorren parte da</projectDesc>
+     <refsDecl>
+        <p>MENTIONED etiketa egilearenak ez diren hitzak markatzeko erabili da: hitzaurreak, aipuak, iruzkinak, e.a.</p>
+    </refsDecl>
+     <classDecl>
+        <taxonomy id='generoa'>
+            <category id='G-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='G-ANT'><catDesc>Antzerkia</catDesc></category>
+            <category id='G-BER'><catDesc>Bertsoak</catDesc></category>
+            <category id='G-ERL'><catDesc>Erlijioa</catDesc></category>
+            <category id='G-NAR'><catDesc>Narratiba</catDesc></category>
+            <category id='G-POE'><catDesc>Poesia</catDesc></category>
+            <category id='G-SAI'><catDesc>Saiakera, kronika, artikuluak...</catDesc></category>
+        </taxonomy>
+        <taxonomy id='garaia'>
+            <category id='M-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='M-16'><catDesc>XVI. mendea</catDesc></category>
+            <category id='M-17-1'><catDesc>XVII. mendea - 1. erdia</catDesc></category>
+            <category id='M-17-2'><catDesc>XVII. mendea - 2. erdia</catDesc></category>
+            <category id='M-18-1'><catDesc>XVIII. mendea - 1. erdia</catDesc></category>
+            <category id='M-18-2'><catDesc>XVIII. mendea - 2. erdia</catDesc></category>
+            <category id='M-19-1'><catDesc>XIX. mendea - 1. erdia</catDesc></category>
+            <category id='M-19-2'><catDesc>XIX. mendea - 2. erdia</catDesc></category>
+            <category id='M-20-1'><catDesc>XX. mendea - 1. erdia</catDesc></category>
+            <category id='M-20-2'><catDesc>XX. mendea - 2. erdia</catDesc></category>
+        </taxonomy>
+        <taxonomy id='euskalkia'>
+            <category id='E-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='E-BAT'><catDesc>batua</catDesc></category>
+            <category id='E-BIZ'><catDesc>bizkaiera</catDesc></category>
+            <category id='E-BNA'><catDesc>behenafarrera</catDesc></category>
+            <category id='E-ERR'><catDesc>erronkariera</catDesc></category>
+            <category id='E-GIP'><catDesc>gipuzkera</catDesc></category>
+            <category id='E-GNA'><catDesc>goi nafarrera</catDesc></category>
+            <category id='E-LAP'><catDesc>lapurtera</catDesc></category>
+            <category id='E-NAF'><catDesc>nafarrera</catDesc></category>
+            <category id='E-ZAR'><catDesc>zaraitzuera</catDesc></category>
+            <category id='E-ZUB'><catDesc>zuberera</catDesc></category>
+        </taxonomy>
+    </classDecl>
+  </encodingDesc>
+  <profileDesc>
+     <textClass>
+       <keywords scheme='generoa'>
+         <list><item>G-ERL</item></list>
+       </keywords>
+       <keywords scheme='garaia'>
+         <list><item>M-19-2</item></list>
+       </keywords>
+       <keywords scheme='euskalkia'>
+         <list><item>E-ERR</item></list>
+       </keywords>
+     </textClass>
+  </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>Kristiaiñaren Doktrinaren Introduzionia -- Pedro Prudenzio Hualde Maio</docTitle>
+    </front>
+    <group>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>KRISTIAI&Ntilde;AREN DOKTRINA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>Kristiai&ntilde;aren doktrinaren introduzionia</hi></p>
+<p>Fiel kristiai&ntilde; oro</p>
+<p>da anixki obligatruk,</p>
+<p>debozione ekutra</p>
+<p>biotz guziuaz,</p>
+<p>Kristoren gore argiaz</p>
+<p>Krutxe Saintiuarekin.</p>
+<p>Artan, bada, nai ekunzion hil</p>
+<p>gu redimitiagatik</p>
+<p>gore bekatiuaren kautibidadetik</p>
+<p>eta enemigo gaixtotik.</p>
+<p>Eta korren gatik</p>
+<p>akostunbratu biar zra</p>
+<p>zeinatra eta santiguatra,</p>
+<p>irur krutxe egitantziualarik:</p>
+<p>leina borontian,</p>
+<p>Jangeikuk libragitzan</p>
+<p>pensamentu gaixtuetarik;</p>
+<p>bigarna ahuan,</p>
+<p>Jangeikuak libragitzan</p>
+<p>hele edo itz gaixtuetarik;</p>
+<p>Irur garna burarretan,</p>
+<p>Jangeikuak libragitzan</p>
+<p>obra eta deseo gaixtuetarik.</p>
+<p>Mintzatan kola: Krutxe saintiuaren + se&ntilde;aliagatik, gore + enemigetarik libragitzazu + gore Jeina eta Jangeikua. Aitaren + eta Semiaren eta Espiritu Saintiuaren izenian. Amen.</p>
+<p><hi rend='Bold'>Kredua</hi></p>
+<p>Xinestandud Jangeiko Aita guziuen poderoso, zeuriaren eta lurraren Kriazalian, eta Jesukristo haren Seme bakotx gore Jeinan, zoin konzebitruk izanzen Espiritu Saintiuaren obra eta graziaz, eta sortu Maria Birjina ganik; padezitu zion Ponzio Pilatosen poderaren pean, kruzifikatruk izanzen, hilik eta o&ntilde;rzik; xatxi zen iburnietra, irurgarnen egunian resuzitatuzen hilen artetik; iganzen zeurietra, dago xaseririk Aita Jangeiko guziuetan poder dionaren eskoi&ntilde;an; kantik biardu xin bizien eta hilen juzgatra. Xinestandud Espiritu Saintiuan, Eliza Katolika Saintiuan, Saintiuen komunionian, bekatiuen parkamentiuan, haragiaren resurrezionian eta betik irinen dion bizian. Amen.</p>
+<p><hi rend='Bold'>Artikulo fedezkuak dra amalaur</hi></p>
+<p>Zazpi leinak pertenezitan dra dibinidadiari eta berze zazpiak Jesu-Kristo gore Jeina Jangeiko eta Gizon egin zenaren Humanidade Saintiuari. Pertenezitandrenak dibinidadiari dra kuek:</p>
+<p>Leina, xinestia Jangeiko solo batian guziuen poderoso.</p>
+<p>Bigarna, xinetstia dela Aita.</p>
+<p>Irurgarna, xinetstia dela Semia.</p>
+<p>Laurgarna, xinetstia dela Espiritu Saintiua.</p>
+<p>Borzgarna, xinetstia dela Kriazalia.</p>
+<p>Seigarna, xinetstia dela Salbazalia.</p>
+<p>Zazpigarna, xinetstia dela Glorifikazalia.</p>
+<p>Pertenezitandrenak Humanidade Saintiuari dra kuek:</p>
+<p>Leina, xinetstia gore Jesu-Kristo Jeina gizon bikala izanzela konzebitruk Espiritu Saintiuaren obraz eta graziaz.</p>
+<p>Bigarna, sinetstia sortu zela Santa Maria Birjina ganik, zelarik kaur birjen libratu antzinian, libratian eta libratuz gero.</p>
+<p>Irurgarna, xinetstia padezitu ziola muertia eta pasionia gu bekatariak salbatiagatik.</p>
+<p>Laurgarna, xinetstia xatxi zela iburnietra eta erkinztiola Aita Saintiuen, aren adbenimentu saintu esperatan zaudenen arimak.</p>
+<p>Borzgarna, xinetstia resuzitatuzela irurgarnen egunian hilen artetik.</p>
+<p>Seigarna, sinetstia iganzela zeurietra eta dagola xaseririk Jangeiko Aita guziuen poderosuaren alte eskoi&ntilde;an.</p>
+<p>Zazpigarna, xinetstia xinendela bizien eta hilen juzgatra, oner emoitako gloria, zeren guardatu baiztein haren mandamentu saintiuak, eta gaixtuer sekulako pena zeren ezbaiztein guardatu.</p>
+<p><hi rend='Bold'>Aita goria</hi></p>
+<p>Aita goria zeurietan zaudena, santifikatruk izandeila zore izena, xinbekigu zore reinua, egin deila zore borontatia, nola zeurian, kala lurrian. Emondazkiguzu egun gore eguneko ogia, eta parkadazkiguzu gore zorrak, guk guri zor deiner parkatan digun bikala; eta ezgitzazu eitz tentazionian erortra, baizik libragitzazu gatxetik. Amen.</p>
+<p><hi rend='Bold'>Abe Maria</hi></p>
+<p>Abe Maria, graziaz betea, Jeina da zorekin, benedikatruk zra zu emazte guziuen artian, eta benedikatruk da zore entra&ntilde;ako frutiua Jesus. Santa Maria, Jangeikuaren Ama, eginzazu otoi gu bekatariak gatik, orai eta gore hil ordiuan. Amen.</p>
+<p><hi rend='Bold'>Salbea</hi></p>
+<p>Jangeikuak salbazitzala, Reina eta miserikordiazko Ama; bizia, dulzura eta gore esperanza, Jangeikuak salbazitzala. Zore deiez gaude Ebaren seme desterratiuak. Zore gana gaude suspiratan sentimentuz eta nexarrez lagrimazko balle kontan. Ea bada, Anderia, gore Abogada, utzulzazu gore gana begi miserikordiazko koriek; eta destierro kontarik geroz mostra daizguzu Jesus, zore entra&ntilde;ako frutu benedikatiua. O klementisima! O piadosa! O dulze Birjen Maria! Otoi egin zazu gore gatik, Jangeikuaren Ama Saintiua, merexitzagun alkanzatia Jesu-Kristo gore Jeinaren promesak. Amen.</p>
+<p><hi rend='Bold'>Jangeikoren Legeko mandamentiuak drade amar</hi></p>
+<p>Lein irurak pertenezitan dra Jangeikuaren honriari, eta berze zazpiak projimuaren probetxuari:</p>
+<p>Leina, Jangeikua amatia (edo maite ekutia) gaiza guziuen gainetik.</p>
+<p>Bigarna, juramento falsorik ez egitia.</p>
+<p>Irurgarna, xei egunak santifikatia.</p>
+<p>Laurgarna, aita eta ama honratia.</p>
+<p>Borzgarna, &ntilde;or ez hiltia.</p>
+<p>Seigarna, lujuriazko bekaturik ez egitia.</p>
+<p>Zazpigarna, ez ebatstia.</p>
+<p>Zortzigarna, testimonio falsorik ez azkatia eta gezurrik ez erraitia.</p>
+<p>Bedratzugarna, projimuaren emazterik ez deseatia.</p>
+<p>Amargarna, berzen gaizarik ez gatxki deseatia.</p>
+<p>Amar mandamentu kuek enzerratandrade bitan, zerbutxatian eta maite ekutian Jangeikua gaiza guziuen gainetik, eta zore projimua zore buriua bikala.</p>
+<p><hi rend='Bold'>Kristiain Doktrinaren deklarazionia</hi></p>
+<p><hi rend='Bold'>galteginez eta respondituz</hi></p>
+<p><hi rend='Bold'>GALTEGITANDUD.</hi> Kristiai&ntilde; zreia?</p>
+<p><hi rend='Bold'>RESPONDITANDUD.</hi> Bai, Jangeikoaren graziaz.</p>
+<p><hi rend='Bold'>G.</hi> Noren ganik izan ekunzunien kristiai&ntilde;aren izen kori?</p>
+<p><hi rend='Bold'>R.</hi> Jesu-Kristo gore Jeina ganik.</p>
+<p><hi rend='Bold'>G.</hi> Zer erran naidu kristiai&ntilde;?</p>
+<p><hi rend='Bold'>R.</hi> Kristoren gizon.</p>
+<p><hi rend='Bold'>G.</hi> Zer entelegatantzu Kristoren gizonaz?</p>
+<p><hi rend='Bold'>R.</hi> Jesu Kristoren fedia diona Bautismuan rezibitruk, eta ofrezitruk dena haren zerbutxu saintiuari.</p>
+<p><hi rend='Bold'>G.</hi> Zoin da kristiai&ntilde;aren se&ntilde;alia?</p>
+<p><hi rend='Bold'>R.</hi> Krutxe Saintiua.</p>
+<p><hi rend='Bold'>G.</hi> Zerengatik?</p>
+<p><hi rend='Bold'>R.</hi> Zerengatik baita Kristo kruzifikatiuaren figura, zointan redimitu baigintien.</p>
+<p><hi rend='Bold'>G.</hi> Zomat gisatra usatandu kristiai&ntilde;ak se&ntilde;ale kortaz?</p>
+<p><hi rend='Bold'>R.</hi> Bitra.</p>
+<p><hi rend='Bold'>G.</hi> Zoin drade?</p>
+<p><hi rend='Bold'>R.</hi> Zeinatia eta santiguatia.</p>
+<p><hi rend='Bold'>G.</hi> Zer da zeinatia?</p>
+<p><hi rend='Bold'>R.</hi> Eskoi&ntilde;eko eskuko erhi biatzaz irur krutxe egitia, leina borontian, bigarna ahuan, irurgarna burarretan, mintzatandelarik Jangeiko gore Jeinarekin.</p>
+<p><hi rend='Bold'>G.</hi> Mostrazazu nola?</p>
+<p><hi rend='Bold'>R.</hi> Krutxe saintiuaren + se&ntilde;aliagatik gore + enemiguetarik libragitzazu + gore Jeina eta Jangeikua.</p>
+<p><hi rend='Bold'>G.</hi> Zertako zeinatan zra borontian?</p>
+<p><hi rend='Bold'>R.</hi> Jangeikuak libragitzan pensamentu gaitxtuetarik.</p>
+<p><hi rend='Bold'>G.</hi> Zertako ahuan?</p>
+<p><hi rend='Bold'>R.</hi> Jangeikuak libragitzan hitz (edo hele) gaitxtuetarik.</p>
+<p><hi rend='Bold'>G.</hi> Zertako burarretan?</p>
+<p><hi rend='Bold'>R.</hi> Jangeikuak libragitzan obra eta deseo gaitxtuetarik.</p>
+<p><hi rend='Bold'>G.</hi> Zer da santiguatia?</p>
+<p><hi rend='Bold'>R.</hi> Eskoi&ntilde;eko eskuko bi erhiez krutxe bat egitia, borontetik burarretraino, ezkerreko soinetik eskoi&ntilde;ekuaraino, mintzatangrelarik Trinitate Santisimuarekin.</p>
+<p><hi rend='Bold'>G.</hi> Mostrazazu nola?</p>
+<p><hi rend='Bold'>R.</hi> Aitaren, eta Semiaren, eta Espiritu Saintiuaren izenian. Amen.</p>
+<p><hi rend='Bold'>G.</hi> Noiz egin biartzu se&ntilde;ale kori?</p>
+<p><hi rend='Bold'>R.</hi> Zomait obra on egiten hastangren aldioro, edo eltangrenian zomait biartra, tentazione edo peligrotra; espezialki oitik xagitian, etsetik erkitian, Elizan sartian eta loarako ordiuan.</p>
+<p><hi rend='Bold'>G.</hi> Zertako kainbat aldiz?</p>
+<p><hi rend='Bold'>R.</hi> Zeren tenpra eta leku guziuetan gore enemiguek tenta eta persegitanbaigutiei.</p>
+<p><hi rend='Bold'>G.</hi> Zer enemigo dra koriek?</p>
+<p><hi rend='Bold'>R.</hi> Mundiua, demoniua eta haragia.</p>
+<p><hi rend='Bold'>G.</hi> Bada, Krutxiak badia birtute enemigo korien kontra?</p>
+<p><hi rend='Bold'>R.</hi> Bai, Jina.</p>
+<p><hi rend='Bold'>G.</hi> Nontik du Krutxiak birtute kori?</p>
+<p><hi rend='Bold'>R.</hi> Hartan benzituziolakoz Jesu-Kristok bere muertiarekin.</p>
+<p><hi rend='Bold'>G.</hi> Adoratantziuanian Krutxia nola erraitantzu?</p>
+<p><hi rend='Bold'>R.</hi> Adoratanzaitur, Kristo, eta benedikatanzaitur, zeren zore Krutxe Saintiuaz redimitu baizunien mundiua.</p>
+<p><hi rend='Bold'>Kristiain-Doktrinaren dibisionia</hi></p>
+<p>Ekusi digu kristiain zrela kristiai&ntilde;aren izen eta se&ntilde;aliaz; bada, erranzazu orai, zomat gaiza xakitra eta entelegatra obligatruk dago kristiai&ntilde;a arrazoi&ntilde;aren usuara eltandenian?</p>
+<p>Responditandur. Laur gaiza.</p>
+<p>Galtegitandur. Zoin drade?</p>
+<p><hi rend='Bold'>R.</hi> Xakitia zer biardion xinetsi, zer orazione biardion egin, zer obratu eta zer errezibitu.</p>
+<p><hi rend='Bold'>G.</hi> Nola xakinendu zer biardion xinetsi?</p>
+<p><hi rend='Bold'>R.</hi> Dazkiolarik Kredoa edo Artikulo fedezkuak.</p>
+<p><hi rend='Bold'>G.</hi> Nola xakinendu zer orazione eginbiardion?</p>
+<p><hi rend='Bold'>R.</hi> Dazkiolarik Aita goria eta Elizaren berze orazioniak.</p>
+<p><hi rend='Bold'>G.</hi> Nola xakinendu zer biardion obratu?</p>
+<p><hi rend='Bold'>R.</hi> Dazkiolarik Jangeikoaren Legeko Mandamentiuak, Eliza Ama Saintiuarnak eta obra miserikordiazkuak.</p>
+<p><hi rend='Bold'>G.</hi> Nola xakinendu zer biardion rezibitu?</p>
+<p><hi rend='Bold'>R.</hi> Dazkiolarik Eliza Ama Saintiuaren sakramentiuak.</p>
+<p><hi rend='Bold'>Kristiain Doktrinaren lein partia</hi></p>
+<p><hi rend='Bold'>zointan erakustan baitra Kredua eta Artikulo Fedezkuak</hi></p>
+<p>Leinetik astian, erranzazu: Nork erranzion Kredua?</p>
+<p><hi rend='Bold'>R.</hi> Apostolek.</p>
+<p><hi rend='Bold'>G.</hi> Zertako?</p>
+<p><hi rend='Bold'>R.</hi> Guri Fede Saintiuan informatako.</p>
+<p><hi rend='Bold'>G.</hi> Eta zuk zertako, bada, erraitentzu?</p>
+<p><hi rend='Bold'>R.</hi> Kristiai&ntilde;ek digun fede konen konfesatako.</p>
+<p><hi rend='Bold'>G.</hi> Zer da fedia?</p>
+<p><hi rend='Bold'>R.</hi> Ekusi ez diguna xinestia.</p>
+<p><hi rend='Bold'>G.</hi> Ekusi zunion zuk Jesu-Kristo sortan?</p>
+<p><hi rend='Bold'>R.</hi> Ez, Jina.</p>
+<p><hi rend='Bold'>G.</hi> Ekusi zuniona hiltan edo zeuriara igaitan?</p>
+<p><hi rend='Bold'>R.</hi> Ez, Jina.</p>
+<p><hi rend='Bold'>G.</hi> Eta xinestantziua?</p>
+<p><hi rend='Bold'>R.</hi> Bai, Jina, xinestandur.</p>
+<p><hi rend='Bold'>G.</hi> Zerengatik xinestantzu?</p>
+<p><hi rend='Bold'>R.</hi> Zeren gatik Jangeiko gore Jeinak kola errebelatu baitu, eta Eliza Ama Saintiuak guri kola erakustan.</p>
+<p><hi rend='Bold'>G.</hi> Zer gaiza drade kristiai&ntilde; bikala dazkazunak eta xinestantzunak?</p>
+<p><hi rend='Bold'>R.</hi> Erromako Eliza Ama Saintiuak dazkanak eta xinestantionak.</p>
+<p><hi rend='Bold'>G.</hi> Zer gaiza drade zuk eta harek dazkazeinak eta xinestantzeinak?</p>
+<p><hi rend='Bold'>R.</hi> Artikulo fedezkuak prinzipalki, Kreduan dauden bikala.</p>
+<p><hi rend='Bold'>G.</hi> Zer gaiza drade Artikulo fedezkuak?</p>
+<p><hi rend='Bold'>R.</hi> Drade fediaren Artikulo prinzipalenak.</p>
+<p><hi rend='Bold'>G.</hi> Zertako drade Artikulo fedezkuak?</p>
+<p><hi rend='Bold'>R.</hi> Notizia distinto emoiteko Jangeiko gore Jeinaz eta Jesu-Kristo gore Redentoriaz.</p>
+<p><hi rend='Bold'>G.</hi> Nor da Jangeiko gore Jeina?</p>
+<p><hi rend='Bold'>R.</hi> Da gaiza bat kain exzelente eta admirable, ez baideiteke erran eta ez pensa; da Jein bat infinitoki on, poderoso, sabio, justo, gaiza guziuen prinzipiua eta akabantxa.</p>
+<p><hi rend='Bold'>G.</hi> Nor da Trinitate Santisimua?</p>
+<p><hi rend='Bold'>R.</hi> Da Jangeiko bera, Aita, Semia eta Espiritu Saintiua, irur persona distinto eta solo Jangeiko bat berdadero edo egiazko.</p>
+<p><hi rend='Bold'>G.</hi> Aita Jangeiko dia?</p>
+<p><hi rend='Bold'>R.</hi> Bai, Jina.</p>
+<p><hi rend='Bold'>G.</hi> Semia Jangeiko dia?</p>
+<p><hi rend='Bold'>R.</hi> Bai, Jina.</p>
+<p><hi rend='Bold'>G.</hi> Espiritu Saintiua Jangeiko dia?</p>
+<p><hi rend='Bold'>R.</hi> Bai, Jina.</p>
+<p><hi rend='Bold'>G.</hi> Irur Jangeiko dria?</p>
+<p><hi rend='Bold'>R.</hi> Ez; Jangeiko egiazko bat baizik.</p>
+<p><hi rend='Bold'>G.</hi> Aita Semia dia?</p>
+<p><hi rend='Bold'>R.</hi> Ez, Jina.</p>
+<p><hi rend='Bold'>G.</hi> Espiritu-Saintiua dia Aita edo Semia?</p>
+<p><hi rend='Bold'>R.</hi> Ez, Jina.</p>
+<p><hi rend='Bold'>G.</hi> Zerengatik?</p>
+<p><hi rend='Bold'>R.</hi> Zeren personak distinto baidra, solo Jangeiko bat egiazko izanik ere.</p>
+<p><hi rend='Bold'>G.</hi> Segun kaur, zomat naturaleza, entendimentu eta borontate drade Jangoikuatan?</p>
+<p><hi rend='Bold'>R.</hi> Solo naturaleza bat, entendimentu bat solo eta solo borontate bat.</p>
+<p><hi rend='Bold'>G.</hi> Eta zomat persona?</p>
+<p><hi rend='Bold'>R.</hi> Irur distinto, baitra: Aita, Semia eta Espiritu-Saintiua.</p>
+<p><hi rend='Bold'>G.</hi> Nola da Jangeikua Todo Poderoso?</p>
+<p><hi rend='Bold'>R.</hi> Zeren solo bere poderarekin egitan baitu nahidion guziua.</p>
+<p><hi rend='Bold'>G.</hi> Nola da Kriazalia?</p>
+<p><hi rend='Bold'>R.</hi> Zeren ez deustarik egin baiztion gaiza guziuak.</p>
+<p><hi rend='Bold'>G.</hi> Nola da Salbazalia?</p>
+<p><hi rend='Bold'>R.</hi> Zeren emoitanbaitu grazia eta parkatan bekatiuak.</p>
+<p><hi rend='Bold'>G.</hi> Nola da Glorifikazalia?</p>
+<p><hi rend='Bold'>R.</hi> Zeren emoitanbaitu gloria perseberatandenari haren grazian.</p>
+<p><hi rend='Bold'>G.</hi> Jangeikuak badia guk bikala korpiz figurarik?</p>
+<p><hi rend='Bold'>R.</hi> Jangeiko bikala ez, zeren baita Espiritu puro; baia bai Gizon bikala.</p>
+<p><hi rend='Bold'>G.</hi> Trinitateko irur persona dibinuetarik, zoin eginzen Gizon?</p>
+<p><hi rend='Bold'>R.</hi> Bigarna, zoin baita Semia.</p>
+<p><hi rend='Bold'>G.</hi> Aita eginzena Gizon?</p>
+<p><hi rend='Bold'>R.</hi> Ez, Jina.</p>
+<p><hi rend='Bold'>G.</hi> Espiritu-Saintiua eginzena Gizon?</p>
+<p><hi rend='Bold'>R.</hi> Ez, Jina.</p>
+<p><hi rend='Bold'>G.</hi> Zoin, bada?</p>
+<p><hi rend='Bold'>R.</hi> Kain solo Semia, zoin Gizon eginik deitan baita Jesu-Kristo.</p>
+<p><hi rend='Bold'>G.</hi> Segun kori, bada, nor da Jesu-Kristo?</p>
+<p><hi rend='Bold'>R.</hi> Da Jangeiko biziaren Semia, Gizon eginzena gu redimitiagatik eta guri bizitan erakustiagatik.</p>
+<p><hi rend='Bold'>G.</hi> Eta zomat naturaleza, boluntate eta entendimentu drade Jesu-Kristotan?</p>
+<p><hi rend='Bold'>R.</hi> Bi naturaleza: bata Jangeikuarena eta berzia Gizonarena. Bi boluntate, Jangeikuarena bata eta Gizonarena berzia; eta gisa berian bi entendimentu.</p>
+<p><hi rend='Bold'>G.</hi> Eta zomat persona eta memoria?</p>
+<p><hi rend='Bold'>R.</hi> Solo persona bat dibino, zoin baita Trinitate Santisimuaren bigarna; eta solo memoria bat, gizonarena, zeren Jangeiko bikala ez baitu memoriarik.</p>
+<p><hi rend='Bold'>G.</hi> Zer erran nahidu Jesusek?</p>
+<p><hi rend='Bold'>R.</hi> Salbazalia.</p>
+<p><hi rend='Bold'>G.</hi> Zertarik salbatugintion?</p>
+<p><hi rend='Bold'>R.</hi> Gore bekatutik eta Demoniuaren kautiberiotik.</p>
+<p><hi rend='Bold'>G.</hi> Zer erran nahidu Kristok?</p>
+<p><hi rend='Bold'>R.</hi> Unjitiua.</p>
+<p><hi rend='Bold'>G.</hi> Zertaz izanzen unjitruk?</p>
+<p><hi rend='Bold'>R.</hi> Espiritu-Saintiuaren graziez eta donez.</p>
+<p><hi rend='Bold'>G.</hi> Kristo gore Jeina nola izanzen konzebitruk eta sortuzen Ama Berjina ganik?</p>
+<p><hi rend='Bold'>R.</hi> Obratuz Jangeikuak sobrenaturalki eta milagrosoki.</p>
+<p><hi rend='Bold'>G.</hi> Zeren erraitantzu sobrenaturalki eta milagrosoki?</p>
+<p><hi rend='Bold'>R.</hi> Zeren Jesu-Kristo ez baizen izan konzebitruk eta ez sortu ere berze gizonen gisa.</p>
+<p><hi rend='Bold'>G.</hi> Nola obratuzen, bada, haren konzepzioniaren misteriua?</p>
+<p><hi rend='Bold'>R.</hi> Maria Birjinaren entra&ntilde;etan formatuzion Espiritu-Saintiuak, Anderia konen odol purisimotik, korpiz perfektisimo bat; ezdeustarik kriatuzion arima bat eta unituzion korpiz kari; eta instante berian korpiz eta arima koni unituzen (edo xuntatu zen) Jangeikuaren Semia, eta kola, ordiuarartio Jangeiko baizik ez zena, eitzu bage Jangeiko izaitia, baratuzen Gizon eginik.</p>
+<p><hi rend='Bold'>G.</hi> Eta nola sortuzen milagrosoki?</p>
+<p><hi rend='Bold'>R.</hi> Erkinzelarik Maria Santisimaren entra&ntilde;etarik konen birjinidadiaren damurik bage, gisa beriara nola iguzkiaren raiua erkitan baita kristale batarik kaur autse eta zikintu bage.</p>
+<p><hi rend='Bold'>G.</hi> Kristoren Ama bizi izanzena gero betik birjen?</p>
+<p><hi rend='Bold'>R.</hi> Bai, Jina, betik birjen.</p>
+<p><hi rend='Bold'>G.</hi> Zerengatik hil nahi ekunzion krutxian?</p>
+<p><hi rend='Bold'>R.</hi> Gu bekatutik eta muerte eternotik libratiagatik.</p>
+<p><hi rend='Bold'>G.</hi> Nola, bada, merexituginien muerte eterno kori?</p>
+<p><hi rend='Bold'>R.</hi> Adan gore lein Aitak bekatu eginziolakoz nortan guziuek bekatu egin baigunien.</p>
+<p><hi rend='Bold'>G.</hi> Zer entelegatantzu Kristo gore Jeina hil geroztik xatxizen iburniaz?</p>
+<p><hi rend='Bold'>R.</hi> Ez leku nontan dauden kondenatiuak, baizik linbua zointan zauden justuak.</p>
+<p><hi rend='Bold'>G.</hi> Eta iburni bat beino obro dagua?</p>
+<p><hi rend='Bold'>R.</hi> Bai, Jina, daude laur lurraren entra&ntilde;an, eta deitandra: kondenatiuen iburnia, purgatoriua, aurren linbua eta justuen linbua edo Abrahanen Senua.</p>
+<p><hi rend='Bold'>G.</hi> Eta zer gaiza dra?</p>
+<p><hi rend='Bold'>R.</hi> Kondenatiuen iburnia da leku zointra faitenbaidra bekatu mortalian hiltandrenen arimak, izaitako kan atormentatruk sekulakoz. Purgatoriua da leku zointra faiten baidra grazian hiltandrenen arimak aski satisfakzione emon bage, bere bekatiuetaz kan izaitako purifikatruk tormento terriblerekin. Aurren linbua da leku zointra faitan baidra aurr hiltandrenak arrazoi&ntilde;aren usuara eltu beino lein, bautismua rezibitu bage. Eta justuen linbua edo Abrahanen senua da leku zointra, gu redimitruk izangintzen bitartio, faitan baizren Jangeikoaren grazian hiltanzrenen arimak osoki purgatruk izanez geroz, eta leku bera zointra xatxibaizen Jesu-Kristo realki eta berdaderoki.</p>
+<p><hi rend='Bold'>G.</hi> Nola xatxizen?</p>
+<p><hi rend='Bold'>R.</hi> Arima unitruk Dibinidadiari.</p>
+<p><hi rend='Bold'>G.</hi> Eta haren korpiza nola baratuzen?</p>
+<p><hi rend='Bold'>R.</hi> Unitruk Dibinidade berarekin.</p>
+<p><hi rend='Bold'>G.</hi> Nola resuzitatuzen irurgarnen egunian?</p>
+<p><hi rend='Bold'>R.</hi> Bueltatuzelarik xuntatra haren korpiz eta Arima gloriosua ez &ntilde;oiz bueltatako hiltra.</p>
+<p><hi rend='Bold'>G.</hi> Nola iganzen zeurietra?</p>
+<p><hi rend='Bold'>R.</hi> Bere birtute propiuarekin.</p>
+<p><hi rend='Bold'>G.</hi> Eta zer da hegoitia xaseririk Aita Jangeikuaren alte eskoi&ntilde;an?</p>
+<p><hi rend='Bold'>R.</hi> Jangeiko bikala, Aita beikinbat gloria ekutia; eta Gizon bikala, berze guziuen beino obro.</p>
+<p><hi rend='Bold'>G.</hi> Noiz xinenda bizien eta hilen juzgatra?</p>
+<p><hi rend='Bold'>R.</hi> Mundiuaren akabantxan.</p>
+<p><hi rend='Bold'>G.</hi> Eta gunian (edo ordiuan) biardeia hilek resuzitatu?</p>
+<p><hi rend='Bold'>R.</hi> Bai, Jina, izan ekunzein korpiz eta arima berekin.</p>
+<p><hi rend='Bold'>G.</hi> Eta mundiuaren akabantxa beino lein, izanen dreia gizonak juzgatruk?</p>
+<p><hi rend='Bold'>R.</hi> Bai, Jina, guziuer bapanaren hil ordiuan biardu juzgatu eta sentenziatu Jeinak, oner Jangeikuaren gozatra sekulakoz glorian, eta gaixtuer tormento eterno padezitra iburnian.</p>
+<p><hi rend='Bold'>G.</hi> Zer xinestantzu erraitantzunian: Xinestandur Saintiuen Komunionian?</p>
+<p><hi rend='Bold'>R.</hi> Kristiai&ntilde; fiel guziek deila parte berzenen ontarzun espiritualetan, korpiz baten mienbro bikala, zoin baita Eliza.</p>
+<p><hi rend='Bold'>G.</hi> Nor da Eliza?</p>
+<p><hi rend='Bold'>R.</hi> Da kristiai&ntilde; fiel guziuen kongregazionia (edo junta), zoinen buriua baita Aita Saintiua.</p>
+<p><hi rend='Bold'>G.</hi> Nor da Aita Saintiua?</p>
+<p><hi rend='Bold'>R.</hi> Da Erromako Sumo Pontifizia, lurrian Kristoren bikariua, zoini guziuak baigaude obligatruk obedezitra.</p>
+<p><hi rend='Bold'>G.</hi> Kreduaz eta Artikuluez landa, xinestantziua zomait berze gaiza?</p>
+<p><hi rend='Bold'>R.</hi> Bai, Jina, Eskritura Saintiuan dagon guziua eta Jangeikuak bere Elizari errebelatudion guziua.</p>
+<p><hi rend='Bold'>G.</hi> Zer gaiza dra koriek?</p>
+<p><hi rend='Bold'>R.</hi> Kori ez nizazu niri galtegin, zeren ignorante bainaz. Eliza Ama Saintiuak badu Doktore, xakinen baitei erresponditan.</p>
+<p>M. Onki erraitantzu, doktorer konbenidela, eta ez zuri, kontu emoitia fedezko gaiza guziuez. Aski da zuri Artikulo fedezkuez, Kreduan dauden bikala, kontu emoitia.</p>
+<p><hi rend='Bold'>Doktrinaren bigarnen partia</hi></p>
+<p><hi rend='Bold'>zointan erakustan baidra zer biarden eskatu, eta Eliza Ama-Saintiuaren orazioniak</hi></p>
+<p>Ekusi digu nola dakizun zer biartziuan xinetsi, baita lein gaiza; xingitian bigarniara, zoin baita xakitia zer biarden eskatu.</p>
+<p>Erranzazu: Nork erranzion Aita goria?</p>
+<p><hi rend='Bold'>R.</hi> Jesu-Kristok.</p>
+<p><hi rend='Bold'>G.</hi> Zerentako?</p>
+<p><hi rend='Bold'>R.</hi> Guri orazione (edo otoi) egitan erakustako.</p>
+<p><hi rend='Bold'>G.</hi> Zer da orazione edo otoi egitia?</p>
+<p><hi rend='Bold'>R.</hi> Da Jangeikuari biotza azkatia eta mertxediak eskatia.</p>
+<p><hi rend='Bold'>G.</hi> Zomat gisatra da orazionia?</p>
+<p><hi rend='Bold'>R.</hi> Bitra: mentala eta bokala.</p>
+<p><hi rend='Bold'>G.</hi> Zer gaiza da orazione mentala?</p>
+<p><hi rend='Bold'>R.</hi> Da egitandena arimaren potenzien ejerziziuarekin, guartangrelarik memoriarekin zomait gaiza ontaz, pensa eta diskurritan digularik entendimentiuarekin edo etelekiarekin gaiza on karen gainian, eta egitan digularik borontatiarekin zomait akto, kala nola bekatiuen doloria, edo zomait resoluzione, kala nola bekatiuen konfesatia eta biziz mutatia.</p>
+<p><hi rend='Bold'>G.</hi> Zer gaiza da orazione bokala?</p>
+<p><hi rend='Bold'>R.</hi> Da egitandena esteriorki helez edo itzez, kala nola egitandiguna Aita goria errezatan digunian.</p>
+<p><hi rend='Bold'>G.</hi> Eta nola biarda otoi egin edo errezatu?</p>
+<p><hi rend='Bold'>R.</hi> Atenzione, humildade, konfianza eta perseberanziarekin.</p>
+<p><hi rend='Bold'>G.</hi> Aita goria erraitantzunian norekin mintzatanzra?</p>
+<p><hi rend='Bold'>R.</hi> Jangeiko gore Jeinarekin.</p>
+<p><hi rend='Bold'>G.</hi> Non d&aacute; Jangeiko gore Jeina?</p>
+<p><hi rend='Bold'>R.</hi> Leku guziuetan: partikularki zeurian eta Altareko Sakramentu Saintisimuan.</p>
+<p><hi rend='Bold'>G.</hi> Eta Kristo gizon bikala non dago?</p>
+<p><hi rend='Bold'>R.</hi> Kain solo zeurian eta Altareko Sakramentu Santisimuan.</p>
+<p><hi rend='Bold'>G.</hi> Orazionetarik zoin da obenena?</p>
+<p><hi rend='Bold'>R.</hi> Aita goria.</p>
+<p><hi rend='Bold'>G.</hi> Zerengatik?</p>
+<p><hi rend='Bold'>R.</hi> Zerengatik Jesu Kristok erranbaizion bere ahuaz, Apostolek eskatuz.</p>
+<p><hi rend='Bold'>G.</hi> Zerengatik obro?</p>
+<p><hi rend='Bold'>R.</hi> Zerengatik baitu zazpi petizione karitatian fundatruk.</p>
+<p><hi rend='Bold'>G.</hi> Zoin drade?</p>
+<p><hi rend='Bold'>R.</hi> Leina, santifikatruk izandeila zore izena.</p>
+<p><hi rend='Bold'>G.</hi> Zer eskatanzra petizione kortan?</p>
+<p><hi rend='Bold'>R.</hi> Jangeikuaren izena izandeila izaguntruk eta honratruk mundu guziuan.</p>
+<p><hi rend='Bold'>G.</hi> Zoin da bigarna?</p>
+<p><hi rend='Bold'>R.</hi> Xin bekigu zore reinua.</p>
+<p><hi rend='Bold'>G.</hi> Zer eskatanzra petizione kortan?</p>
+<p><hi rend='Bold'>R.</hi> Jangeikuak rreinatzala kemen lurrian gore arimetan graziaz, eta gero emondazkigula bere gloria.</p>
+<p><hi rend='Bold'>G.</hi> Zoin da irurgarna?</p>
+<p><hi rend='Bold'>R.</hi> Egindeila zore borontatia nola zeurian kala lurrian.</p>
+<p><hi rend='Bold'>G.</hi> Zer eskatanzra petizione kortan?</p>
+<p><hi rend='Bold'>R.</hi> Jangeikuaren borontatia egintzagula lurrian gaudenek, kala nola egitan baitei zeurian Bienabenturaduek.</p>
+<p><hi rend='Bold'>G.</hi> Zoin da laurgarna?</p>
+<p><hi rend='Bold'>R.</hi> Emondazkiguzu egun eguneko ogia.</p>
+<p><hi rend='Bold'>G.</hi> Zer eskatanzra petizione kortan?</p>
+<p><hi rend='Bold'>R.</hi> Jangeikuak emondazkigula korpizeko konbeniden mantenimentiua, graziaren mantenimentu espirituala eta arimarentako Sakramentiuak.</p>
+<p><hi rend='Bold'>G.</hi> Zoin da borzgarna?</p>
+<p><hi rend='Bold'>R.</hi> Parkadazkiguzu gore zorrak, guk guri zor deiner parkatantigun bikala.</p>
+<p><hi rend='Bold'>G.</hi> Zer eskatanzra petizione kontan?</p>
+<p><hi rend='Bold'>R.</hi> Jangeikuak parkadazkigula gore bekatiuak guk parkatandigun bikala agrabio eta gaxki egindaikiguner.</p>
+<p><hi rend='Bold'>G.</hi> Zoin da seigarna?</p>
+<p><hi rend='Bold'>R.</hi> Ezgitzazu eitz tentazionian erortra.</p>
+<p><hi rend='Bold'>G.</hi> Zer eskatanzra petizione kortan?</p>
+<p><hi rend='Bold'>R.</hi> Jangeikuak ezgitzala eitz errortra (<foreign>sic</foreign>) eta ez konsentitra pensamentu eta tentazione gaixtuetan, zoinekin Demoniuak prokuratan baitu gu bekatiuan erorgitian.</p>
+<p><hi rend='Bold'>G.</hi> Zoin da zazpigarna?</p>
+<p><hi rend='Bold'>R.</hi> Baizik libragitzazu gatxetik.</p>
+<p><hi rend='Bold'>G.</hi> Zer eskatanzra petizione kortan?</p>
+<p><hi rend='Bold'>R.</hi> Jangeikuak libragitzala arimako eta korpizeko peligro eta gatx guziuetarik.</p>
+<p><hi rend='Bold'>G.</hi> Zertako erraitentzu leinik: Aita goria zeurietan zaudena?</p>
+<p><hi rend='Bold'>R.</hi> Jangeikuari biotza azkatako eta mertxediak eskatako humildade eta konfianzarekin.</p>
+<p><hi rend='Bold'>G.</hi> Zer naidu erran azkenian erraitantzun itz kura &laquo;Amen&raquo;?</p>
+<p><hi rend='Bold'>R.</hi> Kola izandeila.</p>
+<p><hi rend='Bold'>G.</hi> Zer orazione egitantzu prinzipalki gore Anderiari?</p>
+<p><hi rend='Bold'>R.</hi> Abe Maria eta Salbia.</p>
+<p><hi rend='Bold'>G.</hi> Nork erranzion Abe Maria?</p>
+<p><hi rend='Bold'>R.</hi> Arkainguru San Gabrielek xin zenian gore Anderia Birjen Mariaren salutatra.</p>
+<p><hi rend='Bold'>G.</hi> Nork erranzion Salbia?</p>
+<p><hi rend='Bold'>R.</hi> Eliza Ama Saintiuak daka rezibitruk.</p>
+<p><hi rend='Bold'>G.</hi> Zertako?</p>
+<p><hi rend='Bold'>R.</hi> Mertxede eskatako gore Anderiari.</p>
+<p><hi rend='Bold'>G.</hi> Abe Maria eta Salbia erraitantzunian norekin mintzatanzra?</p>
+<p><hi rend='Bold'>R.</hi> Gore Anderia Birjen Mariarekin.</p>
+<p><hi rend='Bold'>G.</hi> Nor da gore Anderia Birjen Maria?</p>
+<p><hi rend='Bold'>R.</hi> Da Anderia bat birtutez beterik, Jangeikuaren Ama dena eta dagona zeurian.</p>
+<p><hi rend='Bold'>G.</hi> Eta altarian dagona nor da?</p>
+<p><hi rend='Bold'>R.</hi> Da zeurian dagonaren imajen eta semejanza bat.</p>
+<p><hi rend='Bold'>G.</hi> Zertako dago altarian?</p>
+<p><hi rend='Bold'>R.</hi> Hura ekustian guart gitian zeurian dagonaz, eta haren imajena delakoz egin dazagun reberenzia.</p>
+<p>M. Bada, orobat egin biartzu berze Saintiuen imajener eta relikier.</p>
+<p><hi rend='Bold'>G.</hi> Egin biar dugua ere orazione aingurier eta Saintiuer?</p>
+<p><hi rend='Bold'>R.</hi> Bai, Jina, gore medianeruer bikala.</p>
+<p><hi rend='Bold'>G.</hi> Zer gaiza dra ainguriuak?</p>
+<p><hi rend='Bold'>R.</hi> Drade Espiritu bianbenturado banak, baitaude zeurian Jangeikuaz gozatan.</p>
+<p><hi rend='Bold'>G.</hi> Zertako kriatuztion Jangeiko gore Jeinak?</p>
+<p><hi rend='Bold'>R.</hi> Hari eternidade guziuaz alaba eta benedikatzein.</p>
+<p><hi rend='Bold'>G.</hi> Eta zertako obro?</p>
+<p><hi rend='Bold'>R.</hi> Haren Ministro bikala gobernatzein Eliza eta gizonak guarda.</p>
+<p><hi rend='Bold'>G.</hi> Bada, zuk batzu ainguru guardazko?</p>
+<p><hi rend='Bold'>R.</hi> Bai, Jina, eta gizon bapanak badu beria.</p>
+<p>M. Bada, debozione handi ekundazazu eta hari enkomendazte egunoroz.</p>
+<p>Doktrinaren irurgarnen partia, zointan erakustanbaita zer biarden obratu.</p>
+<p>Ekusi digu zer biartzun xinetxi eta orazione egin; ekus zagun orai zer biartzun obratu.</p>
+<p><hi rend='Bold'>G.</hi> Erranzazu, zoin da Jangeikuaren Legeko lein mandamentiua?</p>
+<p><hi rend='Bold'>R.</hi> Jangeikua amatia edo moite ekutia gaiza guziuen gainetik.</p>
+<p><hi rend='Bold'>G.</hi> Nork amatandu edo moite du Jangeikua?</p>
+<p><hi rend='Bold'>R.</hi> Haren mandamentiuak guardatantionak.</p>
+<p><hi rend='Bold'>G.</hi> Zer da Jangeikuaren amatia gaiza guziuen gainetik?</p>
+<p><hi rend='Bold'>R.</hi> Nai ekun gal gaiza guziuak lein ezik Jangeikua ofendi.</p>
+<p><hi rend='Bold'>G.</hi> Zertra obro obligatandikugu mandamentu konek?</p>
+<p><hi rend='Bold'>R.</hi> Haren solo adoratra korpizeko eta arimako reberenziarik handienaz, xinetsis, eta esperanza ekunez hartan fede biziarekin.</p>
+<p><hi rend='Bold'>G.</hi> Nork bekatu egitendu mandamentu konen kontra?</p>
+<p><hi rend='Bold'>R.</hi> Adoratan eta xinetstandionak idolo edo Jangeiko falsuetan; fediaren kontra zomait gaiza xinetstandionak edo dudatan haren zomait misteriotaz, edo ignoratan nezesario drenak; ez dionak egitan obligazione dionian akto fedezkuak, esperanza eta karitatezkuak, edo deskonfiatandionak Jangeikuaren miserikordiaz, edo rezibitan indignoki zomait Sakramentu.</p>
+<p><hi rend='Bold'>G.</hi> Nork obro?</p>
+<p><hi rend='Bold'>R.</hi> Agueruetan xinetstan dionak, edo baliatandena etxizeria edo supertizioso gaizetaz.</p>
+<p><hi rend='Bold'>G.</hi> Zoin da bigarna?</p>
+<p><hi rend='Bold'>R.</hi> Juramento falsorik ez egitia edo Jangeikuaren izen saintiua ez banoki hartia.</p>
+<p><hi rend='Bold'>G.</hi> Nork erraitantigu egitandiola juramento banoki?</p>
+<p><hi rend='Bold'>R.</hi> Juramento egitandionak egiarik, justiziarik eta nestaterik bage.</p>
+<p><hi rend='Bold'>G.</hi> Zer da juramento egitia egiarik bage?</p>
+<p><hi rend='Bold'>R.</hi> Juramento egitia batek bere konzienzian senditandionaren kontra, edo gezurrareki.</p>
+<p><hi rend='Bold'>G.</hi> Eta nola faltatanda, edo zer bekatu egitandu juramento egitandionak egiarik bage, edo dudarekin egia denez juramento egitandiona?</p>
+<p><hi rend='Bold'>R.</hi> Bekatu mortale, juramentiua gaiza lebetan izanik ere.</p>
+<p><hi rend='Bold'>G.</hi> Zer da juramento egitia justiziarik bage?</p>
+<p><hi rend='Bold'>R.</hi> Da juramento egitia zomait gaiza injusto eta gaixtotaz, nola projimuari zomait gaxki egitia.</p>
+<p><hi rend='Bold'>G.</hi> Eta juramento egitandionak justiziarik bage zer bekatu egitan du?</p>
+<p><hi rend='Bold'>R.</hi> Bekatu mortal gaiza injustua grabe bada, eta lebe bada, bekatu benial.</p>
+<p><hi rend='Bold'>G.</hi> Zer da juramento egitia nestaterik bage?</p>
+<p><hi rend='Bold'>R.</hi> Da Jangeikuaren izena artia kausa graberik bage edo gaiza inportanzia txiki deinen gatik.</p>
+<p><hi rend='Bold'>G.</hi> Eta zer bekatu da kaur?</p>
+<p><hi rend='Bold'>R.</hi> Benial, ez faltatian juramentuaren egia eta justizia.</p>
+<p><hi rend='Bold'>G.</hi> Eta juramento edo boto edo promesa egitandionak zomait gaiza onen egitako, obligatruk dagua kunplitra?</p>
+<p><hi rend='Bold'>R.</hi> Bai, Jina; eta ez kunplitia, edo tenpra anitxez eiztia kunplitu bage, da bekatu mortale, materia grabe izaitian.</p>
+<p><hi rend='Bold'>G.</hi> Eta bekatu dia juramento egitia banoki kriaturen gatik?</p>
+<p><hi rend='Bold'>R.</hi> Bai, Jina; zeren hetan juramento egitan baita Kriazaliari.</p>
+<p><hi rend='Bold'>G.</hi> Nola egitan da juramento kriaturengatik?</p>
+<p><hi rend='Bold'>R.</hi> Erraitandenian b.g. ene arima, zeuria, lurra, <foreign>etc</foreign>. da testigo kaur kala dela edo egia erraitanduala.</p>
+<p><hi rend='Bold'>G.</hi> Zer erremedio dago juramento banorik ez egitako?</p>
+<p><hi rend='Bold'>R.</hi> Akostunbratia erraitra bai, edo ez, Kristok erakutstandaigun bikala.</p>
+<p><hi rend='Bold'>G.</hi> Eta betatandia gaiza berze zomait mandamentu kontan?</p>
+<p><hi rend='Bold'>R.</hi> Bai, Jina; betatanda ere blasfemia, baita hele edo itz injurioso erraitia Jangeikuaren edo bere Saintiuen kontra, zoin bekatu mortale baita.</p>
+<p><hi rend='Bold'>G.</hi> Zoin da irurgarna?</p>
+<p><hi rend='Bold'>R.</hi> Xeien santifikatia.</p>
+<p><hi rend='Bold'>G.</hi> Nork santifikatantu xeiak?</p>
+<p><hi rend='Bold'>R.</hi> Meza osorik entzutandionak eta hetan nestate edo biarrik bage trabajatan ez dionak.</p>
+<p><hi rend='Bold'>G.</hi> Eta zer bekatu egitandu nestaterik bage trabajatan dionak xeietan?</p>
+<p><hi rend='Bold'>R.</hi> Bekatu mortal, bi oren igaririk trabajatanbadu, eta benial regularki ez bada eltan bi orentra.</p>
+<p><hi rend='Bold'>G.</hi> Zoin da laurgarna?</p>
+<p><hi rend='Bold'>R.</hi> Aita eta Ama honratia.</p>
+<p><hi rend='Bold'>G.</hi> Nork honratantu Aita eta Ama?</p>
+<p><hi rend='Bold'>R.</hi> Obedezitan, sokorritan eta erreberenziatan ditionak.</p>
+<p><hi rend='Bold'>G.</hi> Nor dra bekatu mortal egitandeinek konen kontra?</p>
+<p><hi rend='Bold'>R.</hi> Seme ezdeinek obedezitan bere Aita eta Amari etsearen gobernuko eta kostunbre onen gaizetan; ezdabeinek sokorritan nestate deinian; maldezitandabeinek, edo burla egitan hetaz edo eskiua azkatandabeinek; eta matrimoniuaren estadua artu nahi deinek, hen bendizione eta konsejorik bage.</p>
+<p><hi rend='Bold'>G.</hi> Nor berzerik entelegatandra Aita eta Amaren izenaz?</p>
+<p><hi rend='Bold'>R.</hi> Maior drenak adinian, dignidadian eta goberniuan.</p>
+<p><hi rend='Bold'>G.</hi> Eta mandamentu kontan konprenditan dreia obro obligazione ezik Semernak bere Aita eta Amarekin?</p>
+<p><hi rend='Bold'>R.</hi> Bai, Jina; superiorek deinak bere inferiorekin, eta Aita eta Amak bere Semiekin.</p>
+<p><hi rend='Bold'>G.</hi> Eta zoin dra kuek?</p>
+<p><hi rend='Bold'>R.</hi> Her alimentatia edo mantenatia, korejitia (<foreign>sic</foreign>), ejenplo on emoitia eta bere tenpran estado korresponditan zabeina.</p>
+<p><hi rend='Bold'>G.</hi> Zer bekatu egitandei obligazione kuetan faltatandrenak?</p>
+<p><hi rend='Bold'>R.</hi> Bekatu mortale, regularki.</p>
+<p><hi rend='Bold'>G.</hi> Zoin da borzgarna?</p>
+<p><hi rend='Bold'>R.</hi> Ez &ntilde;or hiltia.</p>
+<p><hi rend='Bold'>G.</hi> Zer mandatanda mandamentu kontan?</p>
+<p><hi rend='Bold'>R.</hi> &Ntilde;ori gaxkirik ez egitia ez obraz, ez itzez eta ez ere deseoz.</p>
+<p><hi rend='Bold'>G.</hi> Eta nor faltatandra mortalki mandamentu konen kontra?</p>
+<p><hi rend='Bold'>R.</hi> Deseatandionak bere buriuari edo projimuari muertia edo berze zomait gatx grabe, edo projimuari odio dionak; projimuari bizia gentan dionak, heritan edo golpezkatan; orditandena, edo xatan dionak gaiza bere osagarriaren perjuizio grabetan; bere bizia peligrotan izartan edo bere eskuz artandionak, eta bere buriuari edo projimuari maldezitandionak.</p>
+<p><hi rend='Bold'>G.</hi> Zer da maldezitia?</p>
+<p><hi rend='Bold'>R.</hi> Da eskatia batek beraren edo berze batentako zomait gatx, nola erraitia: Kor erorieila hilik.</p>
+<p><hi rend='Bold'>G.</hi> Eta zer bekatu da maldezitia?</p>
+<p><hi rend='Bold'>R.</hi> Gatx graberen deseorekin izaitian, bekatu mortale.</p>
+<p><hi rend='Bold'>G.</hi> Eta kalako deseorik bage bada?</p>
+<p><hi rend='Bold'>R.</hi> Beniale, aunke ez aldioro.</p>
+<p><hi rend='Bold'>G.</hi> Nor, bada, faltatandra mortalki, maldezitan kolako deseorik bage?</p>
+<p><hi rend='Bold'>R.</hi> Regularki Aita et Ama eta superior maldezitandeinek her inferior drenen antzinian, eta maldezitako kostunbre deinek eta ez egitan dilijenziak kostunbre konen arrankatako edo benzitako.</p>
+<p><hi rend='Bold'>G.</hi> Eta zeren kola?</p>
+<p><hi rend='Bold'>R.</hi> Zeren bere itz eta ejenplo gaixtuekin inzitatan baitei berzer Jangeikuaren ofenditra grabeki, zoin deitan baita eskandalo.</p>
+<p><hi rend='Bold'>G.</hi> Zoin da seigarna?</p>
+<p><hi rend='Bold'>R.</hi> Ez lujuriazko bekaturik egitia.</p>
+<p><hi rend='Bold'>G.</hi> Zer mandatan da mandamentu kontan?</p>
+<p><hi rend='Bold'>R.</hi> Izangitiala xai&ntilde; eta kasto pensamentu, itz eta obretan.</p>
+<p><hi rend='Bold'>G.</hi> Nor dra mortalki bekatu egitandeinak mandamentu konen kontra?</p>
+<p><hi rend='Bold'>R.</hi> Adbertenziarekin deleitatandrenak inpurezazko pensamentiuetan, aunke ezditzein izar eta ez desea izartia obraz; xardoki edo kantatandeinek gaiza torpe, edo konplazenziarekin entzutan; eta bere baitan edo berzekin deinek tokamentu edo azione deshonesto, edo deseatan ekutia.</p>
+<p><hi rend='Bold'>G.</hi> Zoin da zazpigarna?</p>
+<p><hi rend='Bold'>R.</hi> Ez ebatstia.</p>
+<p><hi rend='Bold'>G.</hi> Zer mandatanda mandamentu kontan?</p>
+<p><hi rend='Bold'>R.</hi> Ez gentia, ez ekutia edo erokitia eta ez nahi ekutia berzen gaiza bere due&ntilde;o edo nausiaren borontatiaren kontra.</p>
+<p><hi rend='Bold'>G.</hi> Eta nor dra bekatu mortale egitandeinek konen kontra?</p>
+<p><hi rend='Bold'>R.</hi> Gaiza kuetarik zernaiden egitandeinek, edo berze zomait gisatra egitan damu projimuari bere ontarzunetan materia grabetan.</p>
+<p><hi rend='Bold'>G.</hi> Eta kontan damu egitandeinek projimuari zernaiden maneratan izanik ere, baratandreia zomait obligazionekin?</p>
+<p><hi rend='Bold'>R.</hi> Baratandra obligazione graberekin leinaz lein restituzionia egitako eta satisfakzione emoitako projimuari damu egindabein guziuetaz.</p>
+<p><hi rend='Bold'>G.</hi> Zoin da zortzigarna?</p>
+<p><hi rend='Bold'>R.</hi> Falso testimoniorik ez azkatia eta ez gezurrik erraitia.</p>
+<p><hi rend='Bold'>G.</hi> Zer mandatanda mandamentu kontan?</p>
+<p><hi rend='Bold'>R.</hi> Ez arhinki, edo fundamento eta motiborik bage, projimuaz gaxki juzgatia; ez erraitia eta ez entzutia haren defektuak edo faltak.</p>
+<p><hi rend='Bold'>G.</hi> Nork kebrantatandu mandamentu kaur?</p>
+<p><hi rend='Bold'>R.</hi> Arrazoi&ntilde;rik bage, edo aski fundamentorik bage juzgatandionak, fama gentan, sekretua deskubritan edo gezurra erraitan.</p>
+<p><hi rend='Bold'>G.</hi> Eta projimuari fama grabeki gentandionak erraitandiolarik hartaz zomait delito falsu edo egiazko, baia okulto, edo bere begitartian egoixtan haren faltak, baratandia zomait obligazionekin?</p>
+<p><hi rend='Bold'>R.</hi> Fama edo honre (<foreign>sic</foreign>) gentu daunaren restituitakoarekin.</p>
+<p><hi rend='Bold'>G.</hi> Zer betatanda bedratzu eta amargarnen mandamentiuan?</p>
+<p><hi rend='Bold'>R.</hi> Lujuriazko plazerak eta berzenen ontarzunak gaixki deseatia.</p>
+<p>M. Erran zazu Eliza Ama Saintiuaren mandamentiuak.</p>
+<p><hi rend='Bold'>Eliza Ama Saintiuaren mandamentiuak dra borz</hi></p>
+<p>Leina, meza entero entzutia igante oro eta guardatuko xei egunetan.</p>
+<p>Bigarna, urtian bein bedrere konfesatia, edo leinago uste badu hiltako peligrorik, edo Komunionia rezibitu biar badu.</p>
+<p>Irurgarna, Goreximako Bazkuetan Komunionia rezibitia.</p>
+<p>Laurgarna, Eliza Ama Saintiuak mandatandionian barurtia.</p>
+<p>Borzgarna, Dekumak eta Primiziak Jangeikuaren Elizari pakatia.</p>
+<p><hi rend='Bold'>G.</hi> Zertako dra mandamentu kuek?</p>
+<p><hi rend='Bold'>R.</hi> Jangeikuaren Legekuen obeki guardatako.</p>
+<p><hi rend='Bold'>G.</hi> Eta leina, baita meza entzutia, nori obligatandu?</p>
+<p><hi rend='Bold'>R.</hi> Arrazoi&ntilde;aren usuara heltudren kristiai&ntilde; guziuer.</p>
+<p><hi rend='Bold'>G.</hi> Eta nola biardei entzun?</p>
+<p><hi rend='Bold'>R.</hi> Hartan presente daudelarik atenzionerekin zomait gaiza espiritualetan, nola meditatan edo debozionerekin errezatan.</p>
+<p><hi rend='Bold'>G.</hi> Eta lizitoki inpeditruk egon bage ezdionak meza entzutan, edo egoitan bada hartan edo haren zomait parte grabetan atenzionerik bage, edo isartan bada haren ez entzutako peligrotan, nola bekatu egitandu?</p>
+<p><hi rend='Bold'>R.</hi> Mortalki.</p>
+<p><hi rend='Bold'>G.</hi> Eta bigarna eta irurgarna, baidra konfesatia eta komunionia rezibitia edo atizatia, nori obligatendabei?</p>
+<p><hi rend='Bold'>R.</hi> Bekatu mortaliaren pean obligatandabei arrazoi&ntilde;aren usua deinen kristiai&ntilde; guziuer.</p>
+<p><hi rend='Bold'>G.</hi> Eta konfesatan edo atizatandrenak sakril&eacute;goki kunplitandeia mandamentu kekin?</p>
+<p><hi rend='Bold'>R.</hi> &Ntilde;olare, eta bi gaiza kuen bapanian egitandei bi bekatu mortale.</p>
+<p><hi rend='Bold'>G.</hi> Eta batek hiltako peligrotan ez badu konfesorerik, zer biardu egin?</p>
+<p><hi rend='Bold'>R.</hi> Kontrizione perfektuaren akto bat konfesatako propositorekin.</p>
+<p><hi rend='Bold'>G.</hi> Eta laurgarna, baita barurtia, nori obligatandabei?</p>
+<p><hi rend='Bold'>R.</hi> Ogeita bat urte kunplitu deiner.</p>
+<p><hi rend='Bold'>G.</hi> Eta nola biarda barurtu?</p>
+<p><hi rend='Bold'>R.</hi> Pribatan delarik bat manjare betatuk drenetaz, eta ez beizik bazkari bat egitan egerdiz.</p>
+<p><hi rend='Bold'>G.</hi> Eta kontan faltatu bage ardeitekia zerbait goxenetik?</p>
+<p><hi rend='Bold'>R.</hi> Kausa aunke leberekin, ardeiteke onza batena.</p>
+<p><hi rend='Bold'>G.</hi> Eta arratsen?</p>
+<p><hi rend='Bold'>R.</hi> Ardeiteke kolazionez usatandena konzenzia ontako gente artetan, galteginez kaso kontaz duda denian konfesore dokto bati.</p>
+<p><hi rend='Bold'>G.</hi> Eta kausa lizitorik bage ezdeinek barurtan, nola bekatu egitandei?</p>
+<p><hi rend='Bold'>R.</hi> Mortalki.</p>
+<p><hi rend='Bold'>G.</hi> Eta aragi ez xatako mandamentiuak barur eta bijilia egunetan, ez nastekatako egun beretan aragi eta peskado bazkal aldi batian, eta ez xatako arraultze eta eznetarzun Goreximan, bula ez ekutian, nori obligatan dabei?</p>
+<p><hi rend='Bold'>R.</hi> Arrazoi&ntilde;aren uso deinen guziuer.</p>
+<p><hi rend='Bold'>G.</hi> Eta nola bekatu egitandei mandamentu kuek kunplitan ezteinek?</p>
+<p><hi rend='Bold'>R.</hi> Mortalki, egunian faltatandren aldioro.</p>
+<p>M. Erranzazu obra miserikordiazkuak.</p>
+<p><hi rend='Bold'>Obra miserikordiazkuak drade amalaur: zazpi espiritualak edo arimarenak eta berze zazpi korporala edo korpizarenak</hi></p>
+<p>Espiritualak edo korpizarenak dra kuek:</p>
+<p>Leina, ez dakionari erakutstia.</p>
+<p>Bigarna, biardionari konsejo on emoitia.</p>
+<p>Irurgarna, gaxki dabilenaren korrejitia.</p>
+<p>Laurgarna, injurien parkatia.</p>
+<p>Borzgarna, triste denaren konsolatia.</p>
+<p>Seigarna, gore projimuen adbersidade eta flakezak pazienziarekin sufritia.</p>
+<p>Zazpigarna, biziez eta hilez Jangeikuari otoi egitia.</p>
+<p>Korporalak edo korpizarenak dra kuek:</p>
+<p>Leina, eriak bisitatia.</p>
+<p>Bigarna, gose dionari xatra emoitia.</p>
+<p>Irurgarna, egarri dionari edatra emoitia.</p>
+<p>Laurgarna, kautibua redimitia edo erreskatatia.</p>
+<p>Borzgarna, belainzurik dena beztitia.</p>
+<p>Seigarna, pobre edo peligrinuari ostatu emoitia.</p>
+<p>Zazpigarna, hilen o&ntilde;rztia.</p>
+<p><hi rend='Bold'>G.</hi> Zerengatik deitandra miserikordiazko?</p>
+<p><hi rend='Bold'>R.</hi> Zeren ez baitra zor justiziaz.</p>
+<p><hi rend='Bold'>G.</hi> Noiz obligatandei bekatiuaren pean?</p>
+<p><hi rend='Bold'>R.</hi> Nestatiak grabe drenian, gizon diskrezione deinen urdupenian.</p>
+<p><hi rend='Bold'>G.</hi> Eta obra miserikordiazko kuetaz eta berze on kristiai&ntilde;ak egitandionen medioz, ia izantian obligazionez, edo ia debozionezko, zer konsegitandu?</p>
+<p><hi rend='Bold'>R.</hi> Jangeikuaren grazian badago, merexitia ken medioz graziaren eta gloriaren aumento; satisfakzione emoitia bere bekatiuetaz eta alkanzatia Jeina ganik ontarzun kala arimaren nola korpizaren, konbenibazaur.</p>
+<p><hi rend='Bold'>G.</hi> Eta zeren erraitantzu, Jangeikuaren grazian badago?</p>
+<p><hi rend='Bold'>R.</hi> Zeren obra on eginak bekatu mortalian daudenen ganik, ez baidra merexitarzun eta ez ere satisfazitarzun, baizik kain solo alkanzatarzun, zoinez medioz alkanza baideiteke zomait benefizio Jeina ganik.</p>
+<p><hi rend='Bold'>Doktrinaren laurgarnen partia</hi></p>
+<p><hi rend='Bold'>zointan erakutstanbaita rezibitu biardren Sakramentiuak</hi></p>
+<p>Ekusi digu dakiziuala zer biartziuan xinetxi, orazione egin eta obratu. Ekuszagun nola dakizun rezibitu biartziuana, baita azken gaiza. Erranzazu Sakramentiuak.</p>
+<p>Eliza Ama Saintiuaren Sakramentiuak drade zazpi: lein borzak dra biarrezkuak, obraz edo deseos rezibitu biar drenak, zoinak bage ezdeiteke salba gizona eiztan batu menosprezioz; berze biak dra borontatezkuak.</p>
+<p>Leina, Bautismua.</p>
+<p>Bigarna, Konfirmazionia.</p>
+<p>Irurgarna, Penitenzia edo Konfesionia.</p>
+<p>Laurgarna, Komunionia edo Atrizionia.</p>
+<p>Borzgarna, Oliazionia.</p>
+<p>Seigarna, Orden Sazerdotala.</p>
+<p>Zazpigarna, Matrimoniua.</p>
+<p><hi rend='Bold'>G.</hi> Zer gaiza drade Sakramentiuak?</p>
+<p><hi rend='Bold'>R.</hi> Dra se&ntilde;ale agiridren banak Jesukristo gore Jeinak instituitruk, hetaz emoitako guri bere grazia eta birtutiak.</p>
+<p><hi rend='Bold'>G.</hi> Zer da grazia?</p>
+<p><hi rend='Bold'>R.</hi> Izaitia dibino bat zoinek egitanbaitu gizona Jangeikuaren Seme eta zeuriko heredero.</p>
+<p><hi rend='Bold'>G.</hi> Eta nola deitanda grazia kaur?</p>
+<p><hi rend='Bold'>R.</hi> Santifikazalia.</p>
+<p><hi rend='Bold'>G.</hi> Eta badia berze gisatazko graziarik, kontarik landa?</p>
+<p><hi rend='Bold'>R.</hi> Badra berze banak deitan baitigu presentezkuak edo ausiliuak eta inspirazioniak, zoinak bage ez dokegu as, eta ez prosegi, eta ez ere akaba gaiza zointaz merexidokegun sekulako bizia.</p>
+<p><hi rend='Bold'>G.</hi> Eta kuek zer dra?</p>
+<p><hi rend='Bold'>R.</hi> Jangeikuak emoitan dikugun sokorro banak gatxetik apartatako eta obra onak egitako, zoin baidra sermonak, ejenplo onak, muerte repentinuak eta kolako argi banak zoineki Jangeikuak ilustratan baitu gore entendimentiuak; eta deseo sa&ntilde;tu banak, zoineki mobitan baitu gore borontatiak edo deseoak obra on egitako.</p>
+<p><hi rend='Bold'>G.</hi> Zer birtute emoitan dei Sakramentiuek graziarekin batian?</p>
+<p><hi rend='Bold'>R.</hi> Prinzipalki irur, theologale eta dibino.</p>
+<p><hi rend='Bold'>G.</hi> Zoin drade?</p>
+<p><hi rend='Bold'>R.</hi> Fedia, Esperanza eta Karitatia.</p>
+<p><hi rend='Bold'>G.</hi> Zer da Fedia?</p>
+<p><hi rend='Bold'>R.</hi> Ekusi ez diguna xinetstia Jangeikuak rebelatu diolakoz.</p>
+<p><hi rend='Bold'>G.</hi> Zer da Esperanza?</p>
+<p><hi rend='Bold'>R.</hi> Esperatia gloria Jangeikoaren graziaren eta gore obra onen medioz.</p>
+<p><hi rend='Bold'>G.</hi> Zer da Karitatia?</p>
+<p><hi rend='Bold'>R.</hi> Jangeikua amatia edo moite ekutia gaiza guziuen gainetik, eta gore projimuak giauren buriua bikala, egitan digularik hekin, hek guri egin lezein nahi ginokena.</p>
+<p><hi rend='Bold'>G.</hi> Zertako izan zen instituitruk edo establezitruk Bautismuaren Sakramentiua?</p>
+<p><hi rend='Bold'>R.</hi> Bekatu orijinalaren gentako, eta berze zoinaiden ekundokenik batixatandenak.</p>
+<p><hi rend='Bold'>G.</hi> Zer da bekatu orijinala?</p>
+<p><hi rend='Bold'>R.</hi> Da kura zoinekin guziuak sortan baigra, heredatruk gore lein Aita eta Ama ganik.</p>
+<p><hi rend='Bold'>G.</hi> Eta nork batixadoke nestate denian?</p>
+<p><hi rend='Bold'>R.</hi> Zoin nai gizon edo emazte arrazoi&ntilde;aren usua deinek.</p>
+<p><hi rend='Bold'>G.</hi> Eta nola biardu batixatu?</p>
+<p><hi rend='Bold'>R.</hi> Usurtandiolarik ur natural batixatu biardionaren buru gainian, eta erraitan batixatako intenziorekin: Nik batixatandaizur Aitaren eta Semiaren eta Espiritu Saintiuaren izenian, Amen.</p>
+<p><hi rend='Bold'>G.</hi> Zertako da Konfirmazionezko Sakramentiua?</p>
+<p><hi rend='Bold'>R.</hi> Da guri konfirmatako eta fortalezitako bautismuan rezibitugunien fedian.</p>
+<p><hi rend='Bold'>G.</hi> Eta arrazoi&ntilde;aren uso dionak eta rezibitan Sakramentu kaur bekatu mortalian, bekatu egitandia?</p>
+<p><hi rend='Bold'>R.</hi> Mortalki.</p>
+<p><hi rend='Bold'>G.</hi> Zer biardu egin, bada, ez bekatu egitako Sakramentu kaur rezibitian?</p>
+<p><hi rend='Bold'>R.</hi> Disponi lein konfesione on bat egitandiolarik.</p>
+<p><hi rend='Bold'>G.</hi> Zertako da Penitenziazko Sakramentiua?</p>
+<p><hi rend='Bold'>R.</hi> Batixatuz gero bekatu egin digunen parkatako.</p>
+<p><hi rend='Bold'>G.</hi> Zer bekatu dra koriek?</p>
+<p><hi rend='Bold'>R.</hi> Mortalak, baitare benialak.</p>
+<p><hi rend='Bold'>G.</hi> Zer da bekatu mortala?</p>
+<p><hi rend='Bold'>R.</hi> Da erraitia, egitia, pensatiua edo deseatia Jangeikoaren Legiaren kontra materia grabetan.</p>
+<p><hi rend='Bold'>G.</hi> Zertako deitanda mortala?</p>
+<p><hi rend='Bold'>R.</hi> Zeren hiltan baitu egitandionaren arima.</p>
+<p><hi rend='Bold'>G.</hi> Eta noiz rezibitandigu Penitenziazko Sakramentiua?</p>
+<p><hi rend='Bold'>R.</hi> Onki konfesatan grenian eta rezibitan absoluzionia.</p>
+<p><hi rend='Bold'>G.</hi> Zer parte du Penitenziazko Sakramentiuak bekatu mortalaren gentako?</p>
+<p><hi rend='Bold'>R.</hi> Irur.</p>
+<p><hi rend='Bold'>G.</hi> Zoin drade?</p>
+<p><hi rend='Bold'>R.</hi> Biotzaren doloria, ahuaren konfesionia eta obrazko satisfakzionia.</p>
+<p><hi rend='Bold'>G.</hi> Eta irur gaiza preziso dren kuetan nahi dionari rezibitu Sakramentu kaur, konprenditandreia zomait berze gaiza?</p>
+<p><hi rend='Bold'>R.</hi> Bai, Jina; dolorian konprenditanda biziz mutatako propositua, eta konfesionian konzienziaren examinatia.</p>
+<p><hi rend='Bold'>G.</hi> Segun kaur, zomat gaiza drade nezesario Penitenziazko Sakramentiuaren rezibitako, edo egitako konfesione on bat?</p>
+<p><hi rend='Bold'>R.</hi> Borz, baidra konzienziaren examinatia, biotzaren doloria, biziz mutatako propositua, ahuko konfesionia eta obrazko satisfakzionia.</p>
+<p><hi rend='Bold'>G.</hi> Zer da konzienziaren examinatia?</p>
+<p><hi rend='Bold'>R.</hi> Da egitia biar dren dilijenziak guartako bat bekatu ez konfesatiuetaz, diskurritandiolarik Jangeikuaren eta Elizaren mandamentiuetaz, leku erabilidionetaz eta okupazione ekundionetaz, eskatuzgero Jangeikuari argi izaguntako bere kulpak.</p>
+<p><hi rend='Bold'>G.</hi> Zomat gisatra da biotzeko doloria?</p>
+<p><hi rend='Bold'>R.</hi> Bitra: bata perfekto eta berzia ez kain perfekto, zoin deitanbaitigu atrizionia.</p>
+<p><hi rend='Bold'>G.</hi> Zoin da dolore perfektua?</p>
+<p><hi rend='Bold'>R.</hi> Da sentimentu edo pesar bat Jangeikua ofenditiaz Hura izaitiaz nor den, edo zeren baita gaiza guziez gainian on, konfesatako, ez obrorik bekatiuara utzultako eta penitenziaren kunplitako propositorekin.</p>
+<p><hi rend='Bold'>G.</hi> Eta zer da atrizionia?</p>
+<p><hi rend='Bold'>R.</hi> Sentimentu edo pesar bat Jangeikuaren ofenditiaz, edo bekatiuaren itxustarzuna gatik, edo iburniko penen lotzaz, edo zeuriko gloriaren galtiaz, konfesatako <foreign>etc</foreign>. <foreign>etc</foreign>. propositorekin.</p>
+<p><hi rend='Bold'>G.</hi> Eta zoin bi dolore kuetarik da obenena?</p>
+<p><hi rend='Bold'>R.</hi> Kontrizionezkua edo dolore perfektua.</p>
+<p><hi rend='Bold'>G.</hi> Eta zeren?</p>
+<p><hi rend='Bold'>R.</hi> Zeren kontrizionezko doloria sortan baita, guk seme gisa Jangeikuari amorio edo moitegua digunetik, eta atrizionezkua, Hari lotsa digunetik. Kontrizionezko doloriaren medioz parkatanzazka bati bekatu mortalak lein ezik konfesa, eta izartanda Jangeikuaren grazian; baia solo atrizioniaren medioz ez dra konsegitan gaiza kuek.</p>
+<p><hi rend='Bold'>G.</hi> Eta konfesione on baten egitako aski dia atrizionezko doloria edo biar da kontrizionezkua?</p>
+<p><hi rend='Bold'>R.</hi> Jeneralki erraitanda aski dela atrizionezkua; baia obe eta seguruena da eramaitia kontrizionezkua, eta kaur biar du prokuratu ekun konfesatan denak.</p>
+<p><hi rend='Bold'>G.</hi> Eta noiz biar da ekun doloria?</p>
+<p><hi rend='Bold'>R.</hi> Lein ezik konfesorak absolbitzan penitentia.</p>
+<p><hi rend='Bold'>G.</hi> Zer gaiza da propositua?</p>
+<p><hi rend='Bold'>R.</hi> Da resoluzione firme bat &ntilde;oizere ez sekula ofenditako Jangeikua grabeki.</p>
+<p><hi rend='Bold'>G.</hi> Zer da ahuazko konfesionia?</p>
+<p><hi rend='Bold'>R.</hi> Da konfesorari deklaratia enga&ntilde;o eta gezurrik bage bekatu mortale guziuak, animorekin kunplitako penitenzia.</p>
+<p><hi rend='Bold'>G.</hi> Eta a&ntilde;lkez ixiltandionak zomait bekatu mortale, edo konfesatan zomait grabe egin ez dienik, edo egitan bere konfesionia dolorerik edo propositorik edo penitenzia kunplitako intenzionerik bage, konfesatan dia onki?</p>
+<p><hi rend='Bold'>R.</hi> Ez, Jina; egitandu sakrilejio grabe bat, eta baratanda obligazioniarekin bueltatako konfesatra bekatu konfesatiuetaz eta ez konfesatietaz, sakrilejiozko eginzionarekin batian.</p>
+<p><hi rend='Bold'>G.</hi> Eta nork xinetsdokei ekun ezdeila dolore eta ez proposito bere konfesionetan?</p>
+<p><hi rend='Bold'>R.</hi> Ezdrenak apartatan okasionetarik, eta konfesione bat eta berze batez geroz erortandrenak bekatu berbanetan.</p>
+<p><hi rend='Bold'>G.</hi> Eta mobitako bat formatra egiazko dolore eta proposito, zer izanen zaur konbeniente egin?</p>
+<p><hi rend='Bold'>R.</hi> Lein ezik hel konfesatra, eska Jeinari sokorri dazala bere ausiliuekin; medita rato batez edo benefizio Jeinak egindaunetan, edo haren pasionian eta muertian, edo haren bondadian, eta bat eta obro aldiz erran kontrizionezko aktua.</p>
+<p><hi rend='Bold'>G.</hi> Zer da obrazko satisfakzionia?</p>
+<p><hi rend='Bold'>R.</hi> Jangeikuari satisfakzione emoitia pena tenporal zor drenen bekatiuen gatik, kunplitandelarik konfesorak emoitandion penitenzia.</p>
+<p><hi rend='Bold'>G.</hi> Eta nola bekatu egitandu ez dionak kunplitan penitenzia, edo eiztan tenpra luzez kunplitia?</p>
+<p><hi rend='Bold'>R.</hi> Mortalki, hizaitian penitenzia grabe.</p>
+<p><hi rend='Bold'>G.</hi> Eta emon dokegua Jangeikuari satisfakzione pena tenporaletaz berze gisaz ezik konfesorak penitenzia emoitan dionarekin?</p>
+<p><hi rend='Bold'>R.</hi> Bai, Jina; gisa guziuetako obra onekin eta irabaztan digularik induljenziak.</p>
+<p><hi rend='Bold'>G.</hi> Zer gaiza drade induljenziak?</p>
+<p><hi rend='Bold'>R.</hi> Drade grazia banak zointaz medioz parkatanbaita pena tenporala, zoin biar baita pakatu bekatiuengatik mundu kontan edo berzian.</p>
+<p><hi rend='Bold'>G.</hi> Eta nola biar dra irabazi?</p>
+<p><hi rend='Bold'>R.</hi> Egitan graziazko estaduan fin konekin mandatantena.</p>
+<p><hi rend='Bold'>G.</hi> Eta faitandrener purgatoriuara bizikontan satisfakzionerik emonbagetaz, guk sokorri eta lagun dozkegua?</p>
+<p><hi rend='Bold'>R.</hi> Bai, Jina; satisfakzione emon dokegun obra berekin.</p>
+<p><hi rend='Bold'>G.</hi> Eta bat erortan den aldioro bekatu mortalian, biardia bertan konfesatu parkatruk izanledian?</p>
+<p><hi rend='Bold'>R.</hi> On izan leiteke, baia ez da nezesario.</p>
+<p><hi rend='Bold'>G.</hi> Zer egin biardu, bada?</p>
+<p><hi rend='Bold'>R.</hi> Biar du ekun bere bekatiez kontrizionezko dolore egiazko bat propositorekin biziz emendatako eta bekatiuen konfesatako Eliza Ama Saintiuak mandatan dion tenpran.</p>
+<p><hi rend='Bold'>G.</hi> Zer gaiza da bekatu beniala?</p>
+<p><hi rend='Bold'>R.</hi> Da bekatu mortalaren disposizione bat.</p>
+<p><hi rend='Bold'>G.</hi> Zeren gatik deitanda beniala?</p>
+<p><hi rend='Bold'>R.</hi> Zeren hartan gizona arinki edo fazilki erortan baita, eta arinki parkatan baizau.</p>
+<p><hi rend='Bold'>G.</hi> Zomat gaizaz parkatan zau?</p>
+<p><hi rend='Bold'>R.</hi> Bedratzuz, Jina.</p>
+<p><hi rend='Bold'>G.</hi> Zoin drade?</p>
+<p><hi rend='Bold'>R.</hi> Leina, meza entzutiaz.</p>
+<p>Bigarna, atizatiaz.</p>
+<p>Irurgarna, konfesione jenerala erraitiaz.</p>
+<p>Laurgarna, obispuaren bendizionia rezibitiaz.</p>
+<p>Borzgarna, ur benedikatiuaz.</p>
+<p>Seigarna, ogi benedikatiuaz.</p>
+<p>Zazpigarna, Aita goria erraitiaz.</p>
+<p>Zortzigarna, sermon entzutiaz.</p>
+<p>Bedratzugarna, burarretan golpe emoitiaz eskatan Jangeikuari parkamentu.</p>
+<p><hi rend='Bold'>G.</hi> Zertako erraitantzu, eskatan Jangeikuari parkamentu?</p>
+<p><hi rend='Bold'>R.</hi> Entelegatra emoitako, gaiza kuetaz konsegitako bekatu benialen parkamentiua, biar digula ekun hetaz zomait dolore sobrenaturale.</p>
+<p><hi rend='Bold'>G.</hi> Eta obligatruk gaudia konfesatra bekatu benialak?</p>
+<p><hi rend='Bold'>R.</hi> Ez, Jina; baia da gaiza on eta probetxuzko.</p>
+<p><hi rend='Bold'>G.</hi> Eta azken konfesioniaz gero ez baizik bekatu benial dionari zer izanenzaur konbeniente egin doloria eta proposituaren aseguratako?</p>
+<p><hi rend='Bold'>R.</hi> Konfesa baitare, aunke benialetaz konfesadein, leinago egin bekatu mortale konfesatiuetarit (<foreign>sic</foreign>) zomait.</p>
+<p><hi rend='Bold'>G.</hi> Zertako da Komunioneko Sakramentu Santisimua?</p>
+<p><hi rend='Bold'>R.</hi> Rezibitan delarik dignoki, izandein gore arimen mantenimentu eta gore graziaren aumentu.</p>
+<p><hi rend='Bold'>G.</hi> Zertako erraitantzu dignoki?</p>
+<p><hi rend='Bold'>R.</hi> Entelegatra emoitako Sakramentu kaur ezdela izanen gore arimen mantenimentu, ez badigu rezibitan disposizione biardigunekin kain arimaren nola korpizaren partez edo altetik.</p>
+<p><hi rend='Bold'>G.</hi> Eta zer disposizione biar da arimaren partez edo altetik?</p>
+<p><hi rend='Bold'>R.</hi> Jangeikuaren grazian egoitia.</p>
+<p><hi rend='Bold'>G.</hi> Eta erori dena bekatu mortalian, nola biar da disponitu atizatako edo komunioniaren rezibitako?</p>
+<p><hi rend='Bold'>R.</hi> Konfesatandelarik.</p>
+<p><hi rend='Bold'>G.</hi> Eta konfesatuz gero guartandena zomait bekatu grabetaz, zer egin biardu?</p>
+<p><hi rend='Bold'>R.</hi> Konfesatia lein.</p>
+<p><hi rend='Bold'>G.</hi> Eta korpizaren partez zer disposizione biar da?</p>
+<p><hi rend='Bold'>R.</hi> Eltia barurik antzineko gaiko amabi ornetarik landa ez deus xan bage eta ez edan bage, non eta ezdion atizatubiar eri bikala.</p>
+<p><hi rend='Bold'>G.</hi> Zer rezibitantzu Komunioneko Sakramentu Santisimuan?</p>
+<p><hi rend='Bold'>R.</hi> Jesu Kristo Jangeiko eta Gizon egiazkua, Altareko Sakramentu Santisimuan egiazki dagona.</p>
+<p><hi rend='Bold'>G.</hi> Segun kaur, nor dago hostian konsagrazioniaz gero?</p>
+<p><hi rend='Bold'>R.</hi> Jesu-Kristoren korpiza haren odol, arima eta dibinidadiarekin batian.</p>
+<p><hi rend='Bold'>G.</hi> Eta kalizian?</p>
+<p><hi rend='Bold'>R.</hi> Jesu-Kristoren odola haren korpiz, arima eta dibinidadiarekin batian.</p>
+<p><hi rend='Bold'>G.</hi> Segun kaur, Jesu-Kristo guziua dagua hostian eta kalizian?</p>
+<p><hi rend='Bold'>R.</hi> Jesu-Kristo guziua dago hostia guziuan, eta guziua konen zoin naiden partetan, eta oro bat kalizian.</p>
+<p><hi rend='Bold'>G.</hi> Eta konsagrazioniaz gero badagua hostian ogirik, edo kalizian ardau&ntilde;ik?</p>
+<p><hi rend='Bold'>R.</hi> Ez, Jina; ez baizik ogiaren eta ardau&ntilde;aren akzidentiak, nola kiua, koloria, saboria, <foreign>etc</foreign>.</p>
+<p><hi rend='Bold'>G.</hi> Eta autstan bada hostia, edo partitan kalizian dagona, auts edo partitandia Jesukristo?</p>
+<p><hi rend='Bold'>R.</hi> Ez, Jina; guziua osorik baratanda parte guziuetan eta parte guziuen bapanian.</p>
+<p><hi rend='Bold'>G.</hi> Eta eltan dena komunioniara errandren disposizioniak bage, rezibitandia ere Jesu-Kristo?</p>
+<p><hi rend='Bold'>R.</hi> Bai, Jina; baia ez deus probetxurik bage, zeren egitanbaitu sakrilejiozko bekatu andienetarik.</p>
+<p><hi rend='Bold'>G.</hi> Eta komunionia aprobetxatanzabeiner, zer izanen zabei konbeniente egin, errandren gaizetarik landa, fruto edo probetxu andiago konsegitzein?</p>
+<p><hi rend='Bold'>R.</hi> Komunionia rezibi beino lein, konsidera nor den Jein hen gana xitandena; ejerzita fediaren, esperanzaren eta karitatiaren aktuetan; Jeina rezibi humildade eta reberenzia andirekin, eta gero Jeinari emon eskerrak benefizio edo mertxede kain anditaz.</p>
+<p><hi rend='Bold'>G.</hi> Zertako da Oliazionezko Sakramentiua?</p>
+<p><hi rend='Bold'>R.</hi> Irur gaizatako.</p>
+<p><hi rend='Bold'>G.</hi> Zoin drade?</p>
+<p><hi rend='Bold'>R.</hi> Leina, leinagoko bizi gaxtuaren mantxa eta relikien gentako.</p>
+<p>Bigarna, arimari indar emoitako demoniuaren tentazionen kontra.</p>
+<p>Irurgarna, korpizari osagarri emoitako konbeni bazau.</p>
+<p><hi rend='Bold'>G.</hi> Eta arrazoi&ntilde;aren usuara eltuz gero peligrozko eriguatan daudenak, badeia obligazionerik rezibitako Sakramentu kaur?</p>
+<p><hi rend='Bold'>R.</hi> Bai, Jina; eta faltatandra mortalki ez badei rezibitan aldokeinian, edo bekatu mortalian rezibitan badei.</p>
+<p><hi rend='Bold'>G.</hi> Bada, bekatu mortalian senditandena zer biar du egin rezibitako dignoki Sakramentu kaur?</p>
+<p><hi rend='Bold'>R.</hi> Biar da konfesatu lein, eta ez badeiteke konfesa, ekun kontrizionezko doloria.</p>
+<p><hi rend='Bold'>G.</hi> Zertako da Orden Sazerdotalaren Sakramentiua?</p>
+<p><hi rend='Bold'>R.</hi> Ordenatako eta konsagratako Elizako Ministro dignuak, nola baitra Apezak, Diakonuak eta Subdiakonuak.</p>
+<p><hi rend='Bold'>G.</hi> Eta Elizako Ministruak, partikularki Apezak, biardeia izan respeta eta reberenziatruk espezialki?</p>
+<p><hi rend='Bold'>R.</hi> Bai, Jina.</p>
+<p><hi rend='Bold'>G.</hi> Zertako da Matrimoniozko edo Bordaltako Sakramentiua?</p>
+<p><hi rend='Bold'>R.</hi> Bordaltako eta bordaltiuer emoitako grazia zoinekin bakian alkar bizi izanditian eta semiak azditzein zeuriko.</p>
+<p><hi rend='Bold'>G.</hi> Eta Sakramentu kaur rezibitako dignoki, biar deia bordaltandrenak egon Jangeikuaren grazian?</p>
+<p><hi rend='Bold'>R.</hi> Bai, Jina; bekatu mortaliaren pean.</p>
+<p><hi rend='Bold'>G.</hi> Eta ez drenak sendi Jangeikuaren grazian, nola biar dra disponitu Sakramentu kaur rezibitako?</p>
+<p><hi rend='Bold'>R.</hi> Konfesatandrelarik.</p>
+<p><hi rend='Bold'>Bekatu kapitalak dra zazpi</hi></p>
+<p>Leina, Soberbia.</p>
+<p>Bigarna, Abarizia.</p>
+<p>Irurgarna, Lujuria.</p>
+<p>Laurgarna, Ira.</p>
+<p>Borzgarna, Gula.</p>
+<p>Seigarna, Inbidia.</p>
+<p>Zazpigarna, Pereza.</p>
+<p><hi rend='Bold'>G.</hi> Zertako deitandutzu kapitalak jeneralki mortal deitandren zazpiak?</p>
+<p><hi rend='Bold'>R.</hi> Deitandra kapitalak, zeren baidra berze bizio hetarik sortandrenen buru, iturri eta izorro bikala; eta mortalak deitia ez zabei kuadratan kain onki, bada, anitx aldiz ez dra benialak baizik.</p>
+<p><hi rend='Bold'>G.</hi> Noiz dra mortalak?</p>
+<p><hi rend='Bold'>R.</hi> Drenian Jangeikuaren eta projimuaren karitatiaren kontra.</p>
+<p><hi rend='Bold'>G.</hi> Noiz dra karitatiaren kontra?</p>
+<p><hi rend='Bold'>R.</hi> Hetaz kebrantatandenian Jangeikuaren edo Elizaren zomait mandamentu gaiza anditan.</p>
+<p><hi rend='Bold'>G.</hi> Zer da Soberbia?</p>
+<p><hi rend='Bold'>R.</hi> Berzer preferitruk izaitako apetito desordenatu bat.</p>
+<p><hi rend='Bold'>G.</hi> Zer da Abarizia?</p>
+<p><hi rend='Bold'>R.</hi> Ontarzunetako apetito desordenatu bat.</p>
+<p><hi rend='Bold'>G.</hi> Zer da Lujuria?</p>
+<p><hi rend='Bold'>R.</hi> Deshonestidadekeriatako plazer zikinen apetito desordenatu bat.</p>
+<p><hi rend='Bold'>G.</hi> Zer da Ira?</p>
+<p><hi rend='Bold'>R.</hi> Mendekatako apetito desordenatu bat.</p>
+<p><hi rend='Bold'>G.</hi> Zer da Gula?</p>
+<p><hi rend='Bold'>R.</hi> Xatako eta edatako apetito desordenatu bat.</p>
+<p><hi rend='Bold'>G.</hi> Zer da Inbidia?</p>
+<p><hi rend='Bold'>R.</hi> Berzenen onaren pesar edo tristuria bat.</p>
+<p><hi rend='Bold'>G.</hi> Zer da Pereza?</p>
+<p><hi rend='Bold'>R.</hi> Obra onen egitako desanimazione bat.</p>
+<p><hi rend='Bold'>Zazpi bizio kuen kontra drade zazpi birtute</hi></p>
+<p>Soberbiaren kontra, Humildadia.</p>
+<p>Abariziaren kontra, Largeza.</p>
+<p>Lujuriaren kontra, Kastidadia.</p>
+<p>Iraren kontra, Pazenzia.</p>
+<p>Gularen kontra, Tenplanza.</p>
+<p>Inbidiaren kontra, Karitatia.</p>
+<p>Perezaren kontra, Dilijenzia.</p>
+<p><hi rend='Bold'>Arimaren enemiguak, zoinetarik i&ntilde;esi biar baidigu, drade irur</hi></p>
+<p>Leina da mundiua.</p>
+<p>Bigarna, demoniua.</p>
+<p>Irurgarna, haragia.</p>
+<p><hi rend='Bold'>G.</hi> Nor da mundiua?</p>
+<p><hi rend='Bold'>R.</hi> Drade gizon mundano, gaixto eta perbersuak.</p>
+<p><hi rend='Bold'>G.</hi> Nor da demoniua?</p>
+<p><hi rend='Bold'>R.</hi> Da ainguru bat, zoin kriatruk zeurian Jangeikua ganik, rebelde izanzelakoz berze anitxekin Haren Majestadiaren kontra, Jangeikuak egotxizion iburnietra bere bekatiuaren lagunekin, zoin deitan baiditigu demoniuak.</p>
+<p><hi rend='Bold'>G.</hi> Nor da aragia?</p>
+<p><hi rend='Bold'>R.</hi> Da gore korpiz propiua bere pasione eta inklinazione gaixtuekin.</p>
+<p><hi rend='Bold'>G.</hi> Nola benzitan eta i&ntilde;es egitanda mundiuaren ganik?</p>
+<p><hi rend='Bold'>R.</hi> Kaur i&ntilde;es eta benzitanda haren anditarzun eta banidaden menospreziorekin.</p>
+<p><hi rend='Bold'>G.</hi> Nola benzitan eta i&ntilde;es egitanda demoniuaren ganik?</p>
+<p><hi rend='Bold'>R.</hi> Orazione eta humildaderekin.</p>
+<p><hi rend='Bold'>G.</hi> Nola benzitan eta i&ntilde;es egitanda aragiaren ganik?</p>
+<p><hi rend='Bold'>R.</hi> Kaur i&ntilde;es eta benzitan da mortifikazione, disziplina eta barurekin. Kaur da enemigorik andiena, zeren aragia ez baidokegu egotx gore ganik, baia bai mundiua eta demoniua.</p>
+<p><hi rend='Bold'>Birtute teologalak drade irur</hi></p>
+<p>Leina, Fedia.</p>
+<p>Bigarna, Esperanza.</p>
+<p>Irurgarna, Karitatia.</p>
+<p><hi rend='Bold'>G.</hi> Nola ezgra faltaten birtute kuen akto egitako obligazione digunari?</p>
+<p><hi rend='Bold'>R.</hi> Errezatan delarik debozionerekin eta anitx aldiz (justo dena bikala egin tzein kristiai&ntilde; guziuek) Kredua, Aita goria eta erraitan biotzez kontrizionezko aktua.</p>
+<p><hi rend='Bold'>Birtute Kardinalak drade laur</hi></p>
+<p>Leina, Prudenzia.</p>
+<p>Bigarna, Justizia.</p>
+<p>Irurgarna, Fortaleza.</p>
+<p>Laurgarna, Tenplanza.</p>
+<p><hi rend='Bold'>Korpizaren sentiduak drade borz</hi></p>
+<p>Leina, begiez ekustia.</p>
+<p>Bigarna, biarriez entzutia.</p>
+<p>Irurgarna, ahuaz gustatia edo testatia.</p>
+<p>Laurgarna, sudurrez ki&ntilde;o egitia.</p>
+<p>Borzgarna, eskiez tokatia.</p>
+<p><hi rend='Bold'>G.</hi> Zertako emondikugu Jangeikuak sentido eta berze mienbro guziuak?</p>
+<p><hi rend='Bold'>R.</hi> Guziuetaz edo orotaz zerbutxaginezan hari gaiza guziuetan.</p>
+<p><hi rend='Bold'>Arimaren potenziak drade irur</hi></p>
+<p>Memoria, Entendimentiua eta Boluntatia.</p>
+<p><hi rend='Bold'>G.</hi> Zertako Jangeikuak emonzaigun memoria?</p>
+<p><hi rend='Bold'>R.</hi> Gu guargitian Hartaz eta haren benefiziuetaz.</p>
+<p><hi rend='Bold'>G.</hi> Zertako entendimentiua?</p>
+<p><hi rend='Bold'>R.</hi> Izaguntako gore Jeina eta berartan pensatako.</p>
+<p><hi rend='Bold'>G.</hi> Eta zertako borontatia?</p>
+<p><hi rend='Bold'>R.</hi> Moite ekutako Jangeikua Bondade andiena bikala, eta projimua haren amorioa gatik.</p>
+<p><hi rend='Bold'>G.</hi> Eta zer gaiza da gore arima norna baidra potenzia kuek?</p>
+<p><hi rend='Bold'>R.</hi> Da espiritu inmortal bat Jangeikuak kriatu baizion ez deustarik haren imajen eta semejanzara.</p>
+<p><hi rend='Bold'>Espiritu Saintiuaren donak drade zazpi</hi></p>
+<p>Leina, Xakintarzunaren dona.</p>
+<p>Bigarna, Entendimentiuaren dona.</p>
+<p>Irurgarna, Konsejuaren dona.</p>
+<p>Laurgarna, Zienziaren dona.</p>
+<p>Borzgarna, Fortalezaren dona.</p>
+<p>Seigarna, Pietatiaren dona.</p>
+<p>Zazpigarna, Jangeikuaren Lotsatarzunaren dona.</p>
+<p><hi rend='Bold'>Espiritu Saintiuaren frutiuak drade amabi</hi></p>
+<p>Leina, Karitatia.</p>
+<p>Bigarna, Bakia.</p>
+<p>Irurgarna, Biotzeko anditarzuna.</p>
+<p>Laurgarna, Benignidadia.</p>
+<p>Borzgarna, Fedia.</p>
+<p>Seigarna, Kontinenzia.</p>
+<p>Zazpigarna, Gozo espirituala.</p>
+<p>Zortzigarna, Pazienzia.</p>
+<p>Bedratzugarna, Bondadia.</p>
+<p>Amargarna, Dulzetarzuna.</p>
+<p>Amekagarna, Modestia.</p>
+<p>Amabigarna, Kastidadia.</p>
+<p><hi rend='Bold'>Bienabenturanzak drade zortzi</hi></p>
+<p>1. Bienabenturado drade espirituz pobre drenak, zeren hena baita zeuriko reinua.</p>
+<p>2. Bienabenturado drade dulziak, zeren hek lurraren due&ntilde;o izanen baidra.</p>
+<p>3. Bienabenturado nexar egitan deinak, zeren hek izanen baidra konsolatruk.</p>
+<p>4. Bienabenturado justiziaz gose eta egarri deinak, zeren hek aserik izanen baidra.</p>
+<p>5. Bienabenturado miserikordiosuak, zeren hek alkanzaten baitei miserikordia.</p>
+<p>6. Bienabenturado biotzez xain drenak, zeren hek Jangeikua ekusen baitei.</p>
+<p>7. Bienabenturado bakia prokuratandeinek, zeren hek deitruk izanen baidra Jangeikuaren Seme.</p>
+<p>8. Bienabenturado padezitan deinek persekuzione justiziaren gatik, zeren hentako izanen baita zeuriko reinua.</p>
+<p><hi rend='Bold'>G.</hi> Zer errandigu orai?</p>
+<p><hi rend='Bold'>R.</hi> Zortzi bienabenturanzak.</p>
+<p><hi rend='Bold'>G.</hi> Zer gaiza dra zortzi bienabenturanza kuek?</p>
+<p><hi rend='Bold'>R.</hi> Birtuten eta Espiritu-Saintiuaren donen obrarik obenenak.</p>
+<p><hi rend='Bold'>G.</hi> Nor dra espirituz pobre drenak?</p>
+<p><hi rend='Bold'>R.</hi> Nai ez deinek (&aacute; lo menos deseoarekin) honre eta ez abratstarzunik, gaiza lebetan izanik ere.</p>
+<p><hi rend='Bold'>G.</hi> Nor dra dulziak?</p>
+<p><hi rend='Bold'>R.</hi> Irarik ezdeinek eta ez ere ullan iraren mobimenturik.</p>
+<p><hi rend='Bold'>G.</hi> Nola izanen dra lurraren due&ntilde;o?</p>
+<p><hi rend='Bold'>R.</hi> Bere buriuen jein bikala.</p>
+<p><hi rend='Bold'>G.</hi> Nor dra nexar egitandeinek?</p>
+<p><hi rend='Bold'>R.</hi> Gustuak eiztan deinek, gaiza lebetan izanik ere.</p>
+<p><hi rend='Bold'>G.</hi> Nor dra justiziaz gose eta egarri deinek?</p>
+<p><hi rend='Bold'>R.</hi> Bere obligazionia ansiarekin kunplitan deinek.</p>
+<p><hi rend='Bold'>G.</hi> Nor dra miserikordiosuak?</p>
+<p><hi rend='Bold'>R.</hi> Pietatez beterik drenak estra&ntilde;uekin ere.</p>
+<p><hi rend='Bold'>G.</hi> Nor dra biotzez xai&ntilde; drenak?</p>
+<p><hi rend='Bold'>R.</hi> Bere pasionetan osoki mortifikatandrenak.</p>
+<p><hi rend='Bold'>G.</hi> Nor dra bakia prokuratan deinak?</p>
+<p><hi rend='Bold'>R.</hi> Beren eta berzen artian bakia izartandeinek.</p>
+<p><hi rend='Bold'>G.</hi> Nor dra justiziaren gatik pesekuzione (<foreign>sic</foreign>) padezitan deinek?</p>
+<p><hi rend='Bold'>R.</hi> Gaiza on guziuetan firme daudenak, persegitruk izanik ere.</p>
+<p><hi rend='Bold'>G.</hi> Zeren kuek deitandra bienabenturanzak?</p>
+<p><hi rend='Bold'>R.</hi> Zeren hetan baitago bizi kontan onki izaitia eta berzeko esperanza.</p>
+<p><hi rend='Bold'>G.</hi> Zomat drade gizonaren azken finak?</p>
+<p><hi rend='Bold'>R.</hi> Laur, zoin baidrade: muertia, juiziua, Iburnia eta Gloria.</p>
+<p><hi rend='Bold'>G.</hi> Zer da Gloria?</p>
+<p><hi rend='Bold'>R.</hi> Estado perfektisimo bat, zointan baidaude ontarzun guziuak ez deus gaztigurik bage, kala nola iburnian baidaude gaztigu guziuak ez deus ontarzunik bage.</p>
+<p><hi rend='Bold'>G.</hi> Eta iburnia ebitatako eta alkanzatako zeuria, zer biardigu egin?</p>
+<p><hi rend='Bold'>R.</hi> Guarda mandamentiuak.</p>
+<p><hi rend='Bold'>G.</hi> Eta badagua zomait medio zoinekin guk fazilagoki alekuntzagun guarda mandamentiuak eta libra kuek kebrantatiaz?</p>
+<p><hi rend='Bold'>R.</hi> Bai, Jina.</p>
+<p><hi rend='Bold'>G.</hi> Zoin drade?</p>
+<p><hi rend='Bold'>R.</hi> Sakramentiuak frekuenziarekin rezibitia, Jangeikuari goxetik obrak ofrezitia; egun oro meza entzutia eta Birjen Santismari (<foreign>sic</foreign>) arrosariua errezatia; lektura espirituala, meditazionia, gaienez konzenziaren examinatia; eta medio berze anitx abrazatandiona da konfesor sabio, on eta prudente baten eskojitia, eta sujeta hari orotan.</p>
+<p>M. Onki erraitantzu, zeren konfesor on baten eskojitia, S. Franzisko de Sales erraitandion bikala, da adbertenzia guziuen adbertenzia. Eginzazu, bada, zuk kola; bada, kaur izanentzu zuretako ainguru baten bikala, giaten baidaizu, se&ntilde;alatan daizularik medio kuek eta berziak, erabilzitian mandamentiuen bidetarik eta elzitian Jangeikuaren ekustra glorian, zoin baita akabantxa zointako kriatruk izan baigra.</p>
+<p>Jeinak kara guziuer eramangitzala. Amen.</p>
+<p><hi rend='Bold'>Konfesione jenerala</hi></p>
+<p>Ni bekataria konfesatan nuzu Jangeiko guziuen poder dionari, Maria betik Birjen bienabenturadari, bienabenturado S. Migel Arkanguriuari, S. Juan Bautistari, Pedro eta Pablo Apostol Saintiuer, Saintu guziuer eta zuri, ene Aita, zeren bekatu egin baitur grabeki pensamentu, itz eta obrekin ene kulpaz, ene kulpaz, ene kulpa andiaz. Kortakoz othoi egitandur Maria betik Birjen Bienabenturadari, S. Migel Arkainguru bienabenturaduari, S. Juan Bautistari, Pedro eta Pablo Saintu Apostoler, Saintu guziuer eta zuri, ene Aita Espirituala, egintzazun nitaz ohtoi (<foreign>sic</foreign>) gore Jangeiko Jinari.</p>
+<p><hi rend='Bold'>Akto kontrizionezkua</hi></p>
+<p>Jesu-Kristo ene Jeina, Jangeiko eta Gizon egiazkua, ene Kriazalia eta Redentora, zu nor zrena gatik eta zeren amatan baizaitur gaiza guziuen gainetik, niri pezatan zaita biotz guziuaz zuri ofenditiaz; eta artandur proposito firme bat ez berriz bekaturik egitako, konfesatako eta konfesorak emoitan ditan penitenziaren kunplitako, eta apartatako zuri ofenditako okasione guziuetarik. Ofrezitandaizur ene bizia, obrak eta trabajiuak ene bekatu guziuen satisfakzionetan; eta konfiatandur zure bondade dibinuan eta miserikordia finik bagekuan parkaten nidazkitzula zore odol prezioso, pasione eta muertiaren mereximentiuen gatik, eta emonenditazula grazia &ntilde;ore biziaren emendatako eta perseberatako zore zerbutxu saintiuan &ntilde;ore hil ordiuaraino. Amen.</p>
+<p><hi rend='Bold'>Orazione brebe ofrezitako goxenetik egunazko obra guziuak Jangeikuaren onra eta gloriatan</hi></p>
+<p>Graziak emoitandaizur, ene Jangeikua, benefizio rezibitu duan guziuetaz zore liberal eskutik, eta espezialki eitzu nidaizkos eltra egun kontra, zointan zore honra eta gloriatan ofrezitandaiz ene pensamentu, itz eta obra guziuak Jesu-Kristoren odol eta merituekin batian; eta zointan berian ez zuri ofenditako, zore graziarekin firmeki proponitandur. Sokorrinazazu bada, Jeina, zore ausiliuekin, kunpliditzadan kola Jesu-Kristoren, bere Ama Santisimaren eta Saintu guziuen mereximentiuen gatik. Amen.</p>
+        </body>
+      </text>
+    </group>
+  </text>
+</TEI.2>
+

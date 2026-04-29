@@ -1,0 +1,1983 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN"
+                       "http://www.tei-c.org/P4X/DTD/tei2.dtd" [
+   <!ENTITY % TEI.prose    'INCLUDE' >
+   <!ENTITY % TEI.linking  'INCLUDE' >
+   <!ENTITY % TEI.analysis 'INCLUDE' >
+   <!ENTITY % TEI.figures  'INCLUDE' >
+   <!ENTITY % TEI.XML      'INCLUDE' >
+   <!ENTITY % TEI.extensions.ent SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.ent' >
+   <!ENTITY % TEI.extensions.dtd SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.dtd' >
+]>
+<TEI.2>
+  <teiHeader>
+  <fileDesc>
+     <titleStmt>
+        <title>Poema solteak</title>
+        <author>Estepan Urkiaga - "Lauaxeta"</author>
+        <respStmt>Bertsio informatiko honen egilea: Josu Lavin; Urkiola, 1-1C 48990 - Getxo (Bizkaia)</respStmt>
+     </titleStmt>
+     <extent>6.741 hitz, 47.727 karaktere</extent>
+     <publicationStmt>
+        <publisher>Klasikoen Gordailua [http://klasikoak.armiarma.com/]</publisher>
+        <distributor>Estrata Liburuak S.L.</distributor>
+        <address type='email'>klasikoak@armiarma.com</address>
+        <idno type='ota'>LauaxetaSolteak</idno>
+        <availability status='free'>Erabilpen librekoa; honoko helbidean topa daiteke (HTML, RTF eta PDF formatuetan): http://klasikoak.armiarma.com/idazlanak/L/LauaxetaSolteak.htm</availability>
+        <date>2006</date>
+     </publicationStmt>
+     <sourceDesc>
+        <bibl>Ez dauka</bibl>
+        <notesStmt><note>Iturburuen datazioa: 1925-1937, 1974</note></notesStmt>
+     </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+     <projectDesc>Euskal literaturako testu klasikoen bilduma da KLASIKOEN GORDAILUA; testu hau berorren parte da</projectDesc>
+     <refsDecl>
+        <p>MENTIONED etiketa egilearenak ez diren hitzak markatzeko erabili da: hitzaurreak, aipuak, iruzkinak, e.a.</p>
+    </refsDecl>
+     <classDecl>
+        <taxonomy id='generoa'>
+            <category id='G-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='G-ANT'><catDesc>Antzerkia</catDesc></category>
+            <category id='G-BER'><catDesc>Bertsoak</catDesc></category>
+            <category id='G-ERL'><catDesc>Erlijioa</catDesc></category>
+            <category id='G-NAR'><catDesc>Narratiba</catDesc></category>
+            <category id='G-POE'><catDesc>Poesia</catDesc></category>
+            <category id='G-SAI'><catDesc>Saiakera, kronika, artikuluak...</catDesc></category>
+        </taxonomy>
+        <taxonomy id='garaia'>
+            <category id='M-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='M-16'><catDesc>XVI. mendea</catDesc></category>
+            <category id='M-17-1'><catDesc>XVII. mendea - 1. erdia</catDesc></category>
+            <category id='M-17-2'><catDesc>XVII. mendea - 2. erdia</catDesc></category>
+            <category id='M-18-1'><catDesc>XVIII. mendea - 1. erdia</catDesc></category>
+            <category id='M-18-2'><catDesc>XVIII. mendea - 2. erdia</catDesc></category>
+            <category id='M-19-1'><catDesc>XIX. mendea - 1. erdia</catDesc></category>
+            <category id='M-19-2'><catDesc>XIX. mendea - 2. erdia</catDesc></category>
+            <category id='M-20-1'><catDesc>XX. mendea - 1. erdia</catDesc></category>
+            <category id='M-20-2'><catDesc>XX. mendea - 2. erdia</catDesc></category>
+        </taxonomy>
+        <taxonomy id='euskalkia'>
+            <category id='E-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='E-BAT'><catDesc>batua</catDesc></category>
+            <category id='E-BIZ'><catDesc>bizkaiera</catDesc></category>
+            <category id='E-BNA'><catDesc>behenafarrera</catDesc></category>
+            <category id='E-ERR'><catDesc>erronkariera</catDesc></category>
+            <category id='E-GIP'><catDesc>gipuzkera</catDesc></category>
+            <category id='E-GNA'><catDesc>goi nafarrera</catDesc></category>
+            <category id='E-LAP'><catDesc>lapurtera</catDesc></category>
+            <category id='E-NAF'><catDesc>nafarrera</catDesc></category>
+            <category id='E-ZAR'><catDesc>zaraitzuera</catDesc></category>
+            <category id='E-ZUB'><catDesc>zuberera</catDesc></category>
+        </taxonomy>
+    </classDecl>
+  </encodingDesc>
+  <profileDesc>
+     <textClass>
+       <keywords scheme='generoa'>
+         <list><item>G-POE</item></list>
+       </keywords>
+       <keywords scheme='garaia'>
+         <list><item>M-20-1</item></list>
+       </keywords>
+       <keywords scheme='euskalkia'>
+         <list><item>E-BIZ</item></list>
+       </keywords>
+     </textClass>
+  </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>Poema solteak -- Estepan Urkiaga - "Lauaxeta"</docTitle>
+    </front>
+    <group>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>BEGO&Ntilde;A'KO AMARI</p><--</head>
+        </front>
+        <body>
+<p>Bizkaiko estalpe urdi&ntilde;ez jantzia,</p>
+<p>Bego&ntilde;a'ko izarra ta lora garbia,</p>
+<p>argitu, gordetu zeruko bidean</p>
+<p>euskotarren lurra, lur zoragarria.</p>
+<p>Aingeruk Bego&ntilde;a'n, mendi maitetsuan,</p>
+<p>eleiz bat zuretzat urrez egin eben.</p>
+<p>Jauregi orretan Euskaldun garbiak</p>
+<p>eskeintzen dituzte biotzak Amari.</p>
+<p>Or dagon lurga&ntilde;a estaltzen dabena</p>
+<p>atxurdin guriak, euskotar semeak</p>
+<p>i&ntilde;oiz eztabe lur autsagaz zikindu,</p>
+<p>ba igesten ditubez usok lez lokatzak.</p>
+<p>Itxas-aldeko izar argi-legun ori,</p>
+<p>igon illuntzean mendi tontorrera,</p>
+<p>Bizkaiko lurrean bidazti galduai</p>
+<p>argitzeko zeru aldeko bidea.</p>
+<p>Negu gogorrean arrantzaleari</p>
+<p>emon estalpea ortzia urdindurik,</p>
+<p>eta zeure janzki euskotar alabak</p>
+<p>eundukoaz egin aize-oial on bat.</p>
+<p>Laster ur-ontziak lurra dakusaten,</p>
+<p>ta gero bernutzik Bego&ntilde;a'n aldapa</p>
+<p>igon daien itxas erdian negarrez</p>
+<p>eske&ntilde;itako itza pozik betetzera.</p>
+<p>Euskal amak zure jauregira seme</p>
+<p>onak eskeintzera eroan oi dabez,</p>
+<p>neu ere amatxok gaztea nintzala</p>
+<p>zure magalpera ekarria naiz-ta.</p>
+<p>Zu izango zara bai gure Bakalduna</p>
+<p>urre-zigorrez gurutze deunagaz,</p>
+<p>Zurekin betiko azkatasunera</p>
+<p>jaioterriagaz eramango gaizuz.</p>
+<p>Jainkoaren ama: gure mendietan</p>
+<p>artalde zuriak ugaritu beti;</p>
+<p>eta udabarrian zugatz tantaietan,</p>
+<p>poza urretxindorrak abestu deiela.</p>
+<p>Baserri aldetan ixuri alaia</p>
+<p>soloetan emaitz ederrak azirik.</p>
+<p>Semetxo danakin guraso laztanak</p>
+<p>sukalde beroan batuizuz neguan.</p>
+<p>I&ntilde;on muga barik gentz zoragarria</p>
+<p>itxaso ta mendi-ga&ntilde;etan zabaldu,</p>
+<p>uri andietan anai-maitasuna,</p>
+<p>toki guztietan donokiko poza.</p>
+<p>Nire neurtitzari zure Gizkarbia</p>
+<p>goratzeko beti gogo goi-zalea</p>
+<p>Ta jausi ditela jauregi ortatik</p>
+<p>ondasun euria euskal-erritara.</p>
+<p>Ezdiela i&ntilde;oiz be la&ntilde;oak eskutau</p>
+<p>argi ori, Ama, eta gure errian,</p>
+<p>biotzean zildu dan iturri ori</p>
+<p>jario ditela danentzat azkenge.</p>
+<p>Bizkaiko estalpe urdi&ntilde;ez jantzia,</p>
+<p>Bego&ntilde;a'ko izarra ta lora garbia,</p>
+<p>argitu, gordetu zeruko bidean</p>
+<p>euskotarren lurra, lur zoragarria.</p>
+<p><mentioned> <hi rend='Italic'>(J. B. D., </hi>1925-12, 368 or.).</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>JOSUREN AMESA</p><--</head>
+        </front>
+        <body>
+<p>Gotzonak edur zuriz jantzita</p>
+<p>ortzetik egaz lurrera datoz;</p>
+<p>izar bana dirdizka dakarre</p>
+<p>gau illunaren bekoki ga&ntilde;ean.</p>
+<p>Begitan zeruko poz ederra,</p>
+<p>eskutan xirribika politak.</p>
+<p>Jaunan jauregitik jatsi dira</p>
+<p>on berriak ludira ekarten.</p>
+<p>Igarobidean izar danak</p>
+<p>argi zoli ta ederragaz,</p>
+<p>aizea ixil, eta Taborrean</p>
+<p>garalduta diran zitoriak</p>
+<p>zuritasunez argitu dabez,</p>
+<p>Belem aldera egazka doaz.</p>
+<p>Aurtxo txiki bat altzoan dula</p>
+<p>arkitzen dabe Miren abeska,</p>
+<p>bere Semeari lo eragiten;</p>
+<p>eresi gozo bat abesturik</p>
+<p>Jerusalemgo alaba artean</p>
+<p>Jaunaren etxean ikasia.</p>
+<p>Erespide gotzon danak dagoz</p>
+<p>&laquo;Umetxu laztana, lo egizu</p>
+<p>amaren altzo garbi-garbian,</p>
+<p>gotzonakin amesetan gero</p>
+<p>ortz-aldera iges bat egiteko&raquo;.</p>
+<p>Eta Josu maitatsuak gotzon</p>
+<p>zuriak alboan ikusirik,</p>
+<p>parrez begiak itxiten ditu</p>
+<p>ames bat egiteko arekin.</p>
+<p>Amak laztantxo bat eman dio</p>
+<p>begitxu baltz ta ederrenetan,</p>
+<p>ta gotzonak ega zuriakaz</p>
+<p>estaldu dabe Josu Aurtxoa.</p>
+<p>Nolako amesak euki ditun!</p>
+<p>Gotzonak ortzera doaz, eta</p>
+<p>Josuk aman altzoan eskuaz</p>
+<p>Gurutze txiki bat eraldu dau...!</p>
+<p><mentioned> <hi rend='Italic'>(Jesus'en Biotzaren Deya, </hi></mentioned></p>
+<p><mentioned> 1927, ilbeltza, 121'garren zenbakia, 53 or.).</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>AD JESUM</p><--</head>
+        </front>
+        <body>
+<p><foreign>Natus est nobis puer et venustus </foreign></p>
+<p><foreign>parvulus, surgens teneris in annis </foreign></p>
+<p><foreign>e sinu aurorae, roseisque manis </foreign></p>
+<p><foreign>solis ab ortu.</foreign></p>
+<p><foreign>Tu potes nubes oculis serenis </foreign></p>
+<p><foreign>cernere et rivos vitreos morari. </foreign></p>
+<p><foreign>Rupe muscosa et tumido reponis </foreign></p>
+<p><foreign>aequora motu.</foreign></p>
+<p><foreign>Quin dolores tu lacrymasque risu </foreign></p>
+<p><foreign>admoves, tanta est tibi grata virtus. </foreign></p>
+<p><foreign>Dulce dum rides niveos dant flores </foreign></p>
+<p><foreign>lumina pratis.</foreign></p>
+<p><foreign>Non meae vero lacrymae cadentes </foreign></p>
+<p><foreign>et dolores animum lacessent? </foreign></p>
+<p><foreign>Heu! puer preces tibi rite dicam </foreign></p>
+<p><foreign>vulnere laesus!</foreign></p>
+<p><foreign> Stephanus Urquiaga, S. J.</foreign></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>ORRILLA</p><--</head>
+        </front>
+        <body>
+<p>Gaur deitu dabe aize usaintsuak leyo isietan</p>
+<p>Jaunaren irri gozoa agertu yaku loretan.</p>
+<p>Itxaropena dirudi goiko zeru zabalak,</p>
+<p>Oteun ontziak legez dakuskuz larrosa aiztak.</p>
+<p>Ortzitar intzez bustirik, lorez sagar-onduak</p>
+<p>apaindu dira, eta leka soildun erramuak.</p>
+<p>Etorri yakuz bular zuridun elai illunak</p>
+<p>udabarrien alaba azkarrak, gazteen kutunak.</p>
+<p>Orril-aratza bere loretan nigana dator</p>
+<p>neure erritxuko eleiz zurian orok maitekor.</p>
+<p>Oyukatuten eben kantuen usain gozoa.</p>
+<p>Zelan abesti arek poztuten eusten gogoa!</p>
+<p>Artzai&ntilde;en izar gorria ikusten dogun aldian</p>
+<p>aingeru otsak zabaltzen dira ortxe be beian.</p>
+<p>Zelan orduan baserritarrak lana amaiturik</p>
+<p>Josun Amari agur esaten eutsien pozik!</p>
+<p>Zelan biotzak Jaunan etxean billauten eban</p>
+<p>barruko mi&ntilde;ak ixuri nairik otoi batean.</p>
+<p>Argiz dirdizka zegon Marijan oindi bikai&ntilde;a</p>
+<p>eta eleiza oro izaten zan larrosa usai&ntilde;a.</p>
+<p>Zaleki orok, eskuak apal bular ganean,</p>
+<p>otoi samurra esaten eben oindi aurrean.</p>
+<p>&mdash;&laquo;Agur Marija, gure bizitza eta zoruna;</p>
+<p>Zu zara gure negar ta mi&ntilde;en gozotasuna.</p>
+<p>&laquo;Begi eztitsu orreik biurtu eizuz gugana,</p>
+<p>t'erbestetuok eroan gaizuz, Miren, zeugana.</p>
+<p>&laquo;O biotz bigun! O errukior! Ama gozoa!</p>
+<p>Josun aurrean edertu eizu gure gogoa&raquo;&mdash;.</p>
+<p>Orduan Jaunan onespen deuna biotz ganian</p>
+<p>baketsu jausten zan, intza legez lore zurian.</p>
+<p>Itxaropenan lili urdintsu bat erneten zan,</p>
+<p>gri&ntilde;an arantzak labakituta euken gogoan.</p>
+<p>Ta ataira orok urten eben, dirdir izarra</p>
+<p>legez barruan, Aman irudi donokitarra.</p>
+<p>Orain, ostera, sarri dakusgu semetxu barik</p>
+<p>Amaren oindi lorez yantzia, bakar-bakarrik!</p>
+<p>Goazen berriz ba, Marijaren eleiz zurira,</p>
+<p>gozotasunez gure biotzak beteko dira.</p>
+<p>Lore artean bizitza iturri gozoa dago;</p>
+<p>bertan dario ura, inon ba&ntilde;o be legunago.</p>
+<p>Aman aurrean ez da entzuten ludi abotsa,</p>
+<p>Jaunaren itzak ordea poztu daro biotza.</p>
+<p>Eleiz maiteak zeruan antza dauko distiraz,</p>
+<p>&laquo;Agur Marija&raquo; di&ntilde;oen oyuz argi ta loraz.</p>
+<p>Lore bakotzan usai&ntilde;ak otoitz bat daro ortzira,</p>
+<p>begi guztitan malko samurrak agiri dira.</p>
+<p>Loreillan zugatz orleitsu bat da ludi guztija;</p>
+<p>ta zugatz orren lore ederrena da Andra Marija...</p>
+<p><mentioned> <hi rend='Italic'>(J. B. D., </hi>1927, 123'garren zenbakia, 154 or.)</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>ARIMEN EGUNEKO YUALE-OTSAK</p><--</head>
+        </front>
+        <body>
+<p>Dorre zarreko yuale orreik diran aztunak!</p>
+<p>Nok iragarri zer di&ntilde;oskuen euren otsetan?</p>
+<p>Ai! il-maiteak euren agur ta gomuta itunak</p>
+<p>lotu ebezan negar dagien kanpai orreitan...</p>
+<p>Zarata orreik, gogo erritik ludikoakin</p>
+<p>berba eitera datozen illen abotsak dira.</p>
+<p>Orrein bitartez illobi itzi-ta umezurtzakin</p>
+<p>etxe otzean ama txiroak mintzatzen dira.</p>
+<p>Beste ludiko yuale orreik euren otsetan,</p>
+<p>il-maitientzat eskatzen dabez gure otoiak.</p>
+<p>Ta illak poztuten dira bai euren illobietan;</p>
+<p>bakar-bakarrik negar-dagie mi&ntilde;ez biziak...</p>
+<p>Ai! Zenbat bijotz banatu daroz bai erijotzak!</p>
+<p>Nok daki baltzez ikutzen badau gure atea?</p>
+<p>Abe lerdenak deusezten ditu bere oi&ntilde; otzak,</p>
+<p>urte artean eskutu dakar bere sarea.</p>
+<p>Ai! orregaitik dira ots orreik diran itunak!</p>
+<p>Ai dakarskuzan gomutearen goibeltasuna!</p>
+<p>Negarrez zarrak, itziten ditu begi aztunak.</p>
+<p>Beragaitik be laster joko da yuale illuna...</p>
+<p>Gazteak goibel oldoztuten dau, obi ganera</p>
+<p>zorun-zugatzan urrezko orriak jausten dakusta.</p>
+<p>Edange eskuan daukon atsegin txola kentzera</p>
+<p>eriotza noz etorko ete yakon bildur da...</p>
+<p>Yuale orrein ots negartiak diran aztunak!</p>
+<p>Bakar-bakarrik dagozan illen abotsak dira.</p>
+<p>Orregaitik ba dira ots orreik diran itunak!</p>
+<p>Euren otsakaz deitzen gaituna obi-tegira.</p>
+<p>Ara ludia bukatuten dan leku ixiltsua.</p>
+<p>Gure ibillaldi larria emen amaituten da.</p>
+<p>Emen ludi itxi eta zabaltzen yaku zerua;</p>
+<p>orok jadesten dogun ondartza emen asten da.</p>
+<p>Ara guraso maitien loa zaintzen kurtzea,</p>
+<p>Zoriondunak il ziralako Urtzi'n bakean,</p>
+<p>euren autsean ezilkor datza berbizkundea.</p>
+<p>Itxaropena loratu dager euren obian.</p>
+<p>Josugan itxoin eben ta bere arpegi deuna</p>
+<p>aurrez-aurre ta diztiraz bete ikusko dabe.</p>
+<p>Kurtze-egapean lurra be oso yakie leuna.</p>
+<p>Euren obia ez da egongo lorarik gabe.</p>
+<p>Eguzkiaren argi dirdirkor itzali yaken,</p>
+<p>ba&ntilde;a begiak iztean, euren bijotz barruan</p>
+<p>betikor izar baten diztira aurkitu eben...</p>
+<p>Eta illobitik dakuste izarren dirdir zeruan.</p>
+<p>Maitetasunez betetu ziran azurrotz oneik,</p>
+<p>ba Urtzi'aren gogoa euren artean datza.</p>
+<p>Garbai negarrok txautu ebezan begi-ertz orreik</p>
+<p>donoki goian dakuste Jaunan egun aratza.</p>
+<p>Kiston eskarran jarrai jun ziran oi&ntilde;eak dira;</p>
+<p>barruan Kurtze deuna eroan eben bijotzak;</p>
+<p>Josun gorputzak txautu ebezan espanak dira;</p>
+<p>orok, Urtzi'an aintza ikusiko daben gorputzak.</p>
+<p>Zegaitik ba, ama nekatu orrek, negar-dagizu?</p>
+<p>Obi zurian lo datzan seme orren sointxua,</p>
+<p>zeruko gentzan zabalduko dan zitori yatzu.</p>
+<p>Zeure albotik egaz, aurkitu eban zerua.</p>
+<p>Iltegi ganez jausten asi da gau baltz barea,</p>
+<p>dorrean jo ta jo di&ntilde;ardue yuale itunak.</p>
+<p>Illen lo deuna zaintzen bakarrik dagir Kurtzea...</p>
+<p>Illobietan barre dagie gure il kutunak.</p>
+<p>Yuale orreik euren otsetan zer di&ntilde;auskue?</p>
+<p>Itxaropenan abots samurrak dira kanpaiak,</p>
+<p>ta berbizkunde egun-aintzatzaz itz-dagiskue..</p>
+<p>Dorre zarreko yuale-otsak diran alaiak!</p>
+<p><mentioned> <hi rend='Italic'>(J. B. D., </hi>1927, azilla, 131'garren zenbakia, 343 or.)</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>ELEIZAKO AINGERUAK</p><--</head>
+        </front>
+        <body>
+<p>&laquo;Zer dira eleizako egadun musuak?&raquo;</p>
+<p>&mdash;bere amari itaundu eutson neskatxuak&mdash;.</p>
+<p>&laquo;Maitasun lorak legez dagoz altarean</p>
+<p>beti ega-zabalik zerura begira;</p>
+<p>ortzi goitik jausiko lorak ete dira?</p>
+<p>Aingeruak lez dagerz Jaunaren aurrian&raquo;.</p>
+<p>Olan erantzun eutson samurki ameak:</p>
+<p>&laquo;Eleizan dakusuzan egadun loreak</p>
+<p>dira neska garbien gogo loratuak.</p>
+<p>Jaunak gotzon oneetan eratu ebazan,</p>
+<p>oso garbiak ziran ta erne yakezan</p>
+<p>euren gogo erdian maitasun eguak&raquo;.</p>
+<p>Garbi oso bizi zan neskatxu panpi&ntilde;a,</p>
+<p>ba egadun loretan biurtzeko mi&ntilde;a</p>
+<p>biztu yakon biotzean. Oi ama gaixoa!</p>
+<p>Zure alabeari erne yakoz egak.</p>
+<p>Gogoan erne yakoz, garbitasun egak</p>
+<p>ta ortzi oztin-zear donokira doa.</p>
+<p><mentioned> <hi rend='Italic'>(Jaungoiko-Zale, </hi>1928, 260 or. ) .</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>ERESI BAKUNA</p><--</head>
+        </front>
+        <body>
+<p>Bai zakust oldozten dauan gaban izar garretan,</p>
+<p>abeslari sortzen dan ortzargiaren loretan.</p>
+<p>Edertasun jantziz nabaituten zaitut leioan,</p>
+<p>esker-jantziz ba&ntilde;a ederrago neure gogoan.</p>
+<p>Ortzi gardenean zure mosua dot goresten,</p>
+<p>ume begietan zure esker deuna dot onesten.</p>
+<p>Eguzki izlatsua dirdirtzen da itxaso barean,</p>
+<p>eta zure gentza, Urtzi ori, gogo donean.</p>
+<p>Onetsiten zaitut gaztaroko barre garbian</p>
+<p>baita be zartzaro zimurreko buru zurian.</p>
+<p>Izadian dakust zure aunditasun lorratza.</p>
+<p>gizadian zure maitasun irudi aratza.</p>
+<p>Zugaitz lilietan dakust udabarri irria,</p>
+<p>giz-bekokietan zure ezpanen mosu guria.</p>
+<p>Lorazko goizari abesten dautsie txoriak,</p>
+<p>aunditasun orren lan orori gizon guztiak.</p>
+<p>Ortzi-itxaso-lurrak dira zure aintzan txadona.</p>
+<p>Zerorren txadonik ederrena barriz gizona,</p>
+<p>Bildur naiakitzu ekaitz zaldiaren bitsean,</p>
+<p>ba&ntilde;a maitatuten zaitut biotzaren bakean.</p>
+<p>Eguzki dizdiraz argitu daroazu ludia,</p>
+<p>Zure begi deunak dira gogoaren argia.</p>
+<p><mentioned> <hi rend='Italic'>(Jaungoiko-Zale, </hi>1929, 198 or.).</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>GURUTZEKO JAKINTZA</p><--</head>
+        </front>
+        <body>
+<p>Urrun Zugandik &mdash; bixi gurarik</p>
+<p>dastatu dodaz &mdash; gozo guztijak.</p>
+<p>Bijotza ba&ntilde;a &mdash; ze itun Zeu barik!</p>
+<p>larrosak beste &mdash; ziran zaurijak...</p>
+<p>Neugaz nenkarren &mdash; barre alaya,</p>
+<p>poz ayek orain &mdash; diran malkuak!</p>
+<p>Atsegin-lora &mdash; bada garbaya,</p>
+<p>nora joko dau &mdash; neure goguak?</p>
+<p>Ibilli nazan &mdash; lora ganian</p>
+<p>aurkitu dodan &mdash; zauri mingotza!</p>
+<p>Aul erori naz &mdash; laket artian</p>
+<p>eta mi&ntilde;ez dil &mdash; neure bijotza.</p>
+<p>Bixitza onen &mdash; arlo betia</p>
+<p>benetan zala &mdash; gri&ntilde;en ekintza!</p>
+<p>Iltia ba&ntilde;a, &mdash; Josu maitia,</p>
+<p>Kurtze ondoko &mdash; gogo-jakintza!</p>
+<p><mentioned> <hi rend='Italic'>(Jaungoiko-Zale, </hi>1930, 313 or.).</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>GORANTZA</p><--</head>
+        </front>
+        <body>
+<p>Ixar lira&ntilde;ez urretsu</p>
+<p>zeru ori dan politta!</p>
+<p>Lorategija dirudi</p>
+<p>larrosa gorriz jositta.</p>
+<p>Noz lortuko ete zaitut</p>
+<p>atsegin danen tokija?</p>
+<p>Ludi au yatan illuna</p>
+<p>beiturik zeure argija!</p>
+<p>Intziri nok ez egingo</p>
+<p>ixar ederroi begira?</p>
+<p>Mitxeletaren antzera</p>
+<p>begijok duaz argira.</p>
+<p>Neure lei bixi samurrok,</p>
+<p>ortzija zuben atzena!</p>
+<p>Argi-seme biurtzia</p>
+<p>zuben elburu guena.</p>
+<p>Zerurantz juan gaitezan,</p>
+<p>bidian piztuko ixarrak</p>
+<p>zubek poztuten dozubez</p>
+<p>bidazti onen negarrak.</p>
+<p>Neure sami&ntilde;en koroya</p>
+<p>izpi legunok balira!</p>
+<p>Ludiko neke artetik</p>
+<p>beti nago orrantz begira.</p>
+<p>Ixarrok ete zarie</p>
+<p>Gotzon eguen auts zia?</p>
+<p>Zuberi mosu egiten</p>
+<p>digaro neure zalia.</p>
+<p>Illuna oker-laguna</p>
+<p>ixaten ei da ludijan,</p>
+<p>orregaitik argi-ziar</p>
+<p>jarraitu nai dot ontzijan.</p>
+<p>Begijok gorantz daroyez</p>
+<p>goiko disdira lagunak,</p>
+<p>neure bijotza ostera</p>
+<p>katigu daukost illunak.</p>
+<p>Egaz egin nai zerura,</p>
+<p>al ezin barriz txiruak!</p>
+<p>Jaun orrek, kendu zaliok,</p>
+<p>edo eratu eguak!</p>
+<p><mentioned> <hi rend='Italic'>(Jaungoiko-Zale, </hi>1930, jorrailla, 1, 110, or.).</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>BADAKIT</p><--</head>
+        </front>
+        <body>
+<p>Negarra zear</p>
+<p>barre dagizu</p>
+<p>sami&ntilde;a gorde gurian.</p>
+<p>Espa&ntilde;ok irriz</p>
+<p>zaintzen dabena</p>
+<p>dardarka dogu begian.</p>
+<p>Zaindu nai zeunke</p>
+<p>zeure gogua,</p>
+<p>itun darozun gogua.</p>
+<p>Errukarria</p>
+<p>badakit, gazte gaxua,</p>
+<p>ba&ntilde;a zarala</p>
+<p>Jakin dodanik</p>
+<p>edertasuna</p>
+<p>zeure so&ntilde;ian dozula,</p>
+<p>badakit ondo</p>
+<p>zoritxar mi&ntilde;a</p>
+<p>goguan sartu yatzula.</p>
+<p><mentioned> <hi rend='Italic'>(Euzkadi, </hi>1929, epaila, 21).</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>AMA GAXUA!</p><--</head>
+        </front>
+        <body>
+<p>Oi lenengoz ama danan zoriona!</p>
+<p>Nork atzaldu oso poz orren sakona?</p>
+<p>Oi lenengoz bere semea</p>
+<p>besoetan daukon andrea!</p>
+<p>Gau baltzean jayo zan ume laguna;</p>
+<p>soi&ntilde; txikerdun sei&ntilde;a aitaman kutuna.</p>
+<p>Soin orren ezkutu aundi leunena!</p>
+<p>Emen daukogu iskiz gura genduena.</p>
+<p>Bere begiak dira leunak!</p>
+<p>Bere irriak dira bigunak!</p>
+<p>Sorkalde garbitik dager ortzargia:</p>
+<p>bere somuz dargi gelatxu idigia;</p>
+<p>ta lenen sortzen dan argiak</p>
+<p>lora-legez seme begiak</p>
+<p>zabaldu dagizan, aruntza begira,</p>
+<p>ama-seme biak geratuten dira.</p>
+<p>Ai!, ori ezin ba&ntilde;a amea!</p>
+<p><mentioned> <hi rend='Italic'>(Euzkadi, </hi>1928, irailla, 5).</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>ASKETSI</p><--</head>
+        </front>
+        <body>
+<p>&laquo;Asketsa&raquo; loratu da kurtze-abarretan,</p>
+<p>maitasun biurtuten dira irain lertsubak</p>
+<p>bere beso leunetan.</p>
+<p>Or abia dagie ba biotz samindubak.</p>
+<p>Gorrotorik ezin da sortu kurtze-pean:</p>
+<p>&laquo;Asketsi, ez dakie ba zer dagien-da&raquo;.</p>
+<p>Ludiko irain artean</p>
+<p>dan ederra kurtzeko maitasun-gurenda!</p>
+<p>Irain eta o&ntilde;azez oro mindu nozue;</p>
+<p>ordez entzun ba nire biotzan ira&ntilde;a:</p>
+<p>&laquo;Jauna, asketsi eiozu:</p>
+<p>asketsi, zer dagian argi daki ba&ntilde;a)&raquo;.</p>
+<p><mentioned> <hi rend='Italic'>(Euzkadi, </hi>1929, epalla, 28).</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>EZ DIGARZU</p><--</head>
+        </front>
+        <body>
+<p>Maitasunezko</p>
+<p>gau ozti&ntilde;etan</p>
+<p>ortzirantza so dagizu</p>
+<p>ta urretxi&ntilde;olak</p>
+<p>larroseari</p>
+<p>zer dirautson ba-dakizu.</p>
+<p>Igarten dozu</p>
+<p>mitxeleteak zer</p>
+<p>di&ntilde;otson loreari</p>
+<p>eta iturrian</p>
+<p>altzo gardenak</p>
+<p>zer dasaion ortziari.</p>
+<p>Zure goguak</p>
+<p>ba&ntilde;a ez digar,</p>
+<p>neska eder ta kutuna,</p>
+<p>neure biotzak</p>
+<p>zeure orreri</p>
+<p>di&ntilde;otson maitetasuna.</p>
+<p><mentioned> <hi rend='Italic'>(Euzkadi, </hi>1929, apirilla, 6).</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>MAYETZEKO LARROSAK</p><--</head>
+        </front>
+        <body>
+<p>Larrosa ederrak loratu zaitie</p>
+<p>txori bako abar igartu ganetan.</p>
+<p>Ameskor bialdu gora usain gozua</p>
+<p>euzkia bakaldun dan padu ixiletan.</p>
+<p>Seaska-zurtz ertzen iri zeuen lekak</p>
+<p>orok laga daben obi bakartian.</p>
+<p>Min diran goguen zaurian loratu</p>
+<p>Jauna aztuta dagon otoige oindian.</p>
+<p>O&ntilde;aze artean loratu zaitie,</p>
+<p>alaitu negarrok, poztu begi itunak.</p>
+<p>Arantzak beti, ba, maite izan dozuez</p>
+<p>sasian sortuko larrosa kutunak!</p>
+<p><mentioned> <hi rend='Italic'>(Euzkadi, </hi>1929, mayatza, 19).</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>LORETAN</p><--</head>
+        </front>
+        <body>
+<p>Leyo zuripe ortan illargi gabetan</p>
+<p>maitasuna dirudi ames gorubetan.</p>
+<p>Gau argitsuan barriz iruiten dodana</p>
+<p>ortzargian eskubak urratzen dau dana.</p>
+<p>Nire malkoz bustita dagozan liliak,</p>
+<p>ez ete di&ntilde;autzuez neure gurariak?</p>
+<p>Tanta bat lora-lekan ikusten ba'dozu,</p>
+<p>&laquo;goxaren agurra da&raquo;, samurki di&ntilde;ozu.</p>
+<p>Zure bijotz lilian al banuez urduri</p>
+<p>gogoko negar oneik goxaldero ixuri!</p>
+<p>Orduan ortzargian maitasun malkuak</p>
+<p>eleukez estalduko nire lei gaxuak.</p>
+<p><mentioned> <hi rend='Italic'>(Euzkadi, </hi>1929, garagarrilla,9 ) .</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>BIOTZ GANEAN</p><--</head>
+        </front>
+        <body>
+<p>Biotz ganean lotu eunstazun</p>
+<p>maitasunezko lilia;</p>
+<p>ganean baizik ez eguan-da</p>
+<p>igartu yatzu guztia.</p>
+<p>Maitasun suak zimeldu eban,</p>
+<p>jausi yakozan orriak;</p>
+<p>jantza zoruan zapaldu neuzan</p>
+<p>lorean orri zuriak.</p>
+<p>Barruan gero sartu zan barriz</p>
+<p>lorean sasi zorrotza;</p>
+<p>orain ba'darot biotz erdian</p>
+<p>maitasun arantz mingotza.</p>
+<p><mentioned> <hi rend='Italic'>(Euzkadi, </hi>1929, irailla, 3).</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>ERRUKARRI ZARA</p><--</head>
+        </front>
+        <body>
+<p>Orain aske zagoz maitaletxu ori,</p>
+<p>zure begian ez dager malko-ikara.</p>
+<p>Sami&ntilde;ik goguan ez yatzu erori,</p>
+<p>ba&ntilde;a errukarri zara.</p>
+<p>Enozu maite izan eta pozik zagoz,</p>
+<p>aizuna izan arren, lo gentzaz-dagizu;</p>
+<p>urbil o&ntilde;azeak estalduta dagoz...</p>
+<p>Gerorantza so-egizu.</p>
+<p>Gaurkora zuzendu zeure begi illunak,</p>
+<p>zartzaron ez dozu zoruna lortuko.</p>
+<p>Maitale izanaren gomuta bigunak</p>
+<p>i&ntilde;oiz ez zaitu poztuko.</p>
+<p>Negar-aldian ba maitatu egi&ntilde;ak</p>
+<p>itxi daben oroiz atsegintzen gara.</p>
+<p>Ez dazauzuz orain maite-aizun-mi&ntilde;ak,</p>
+<p>ba&ntilde;a errukarri zara!</p>
+<p><mentioned> <hi rend='Italic'>(Euzkadi, </hi>1929, irailla, 4).</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>BIZITZA-BIOTZAK</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Italic'>(Guido Mazzoni)</hi></p>
+<p>Gazte sendo lerroka gudarantza doa,</p>
+<p>euren azkonak zemaiz, dirdiraz, argira.</p>
+<p>Guda eresa; anayak, orok gudaldira!</p>
+<p>Indarran soillik ala, orobat dedua...</p>
+<p>Lora polit ganean yantzan neskatxuak.</p>
+<p>Abesa egaz euren adats kizkorrean,</p>
+<p>egaz abesa: Maite, maite gaztetxuak,</p>
+<p>maitatzean bizitza, poza maitatzean.</p>
+<p>Arrizko zurgu-ziar zarrak nausikiro,</p>
+<p>talde leuna dabeste geldiro, geldiro:</p>
+<p>Seme orrek, onena dok eriotzea.</p>
+<p>Obian soillik gentza, obian Bakea...</p>
+<p><mentioned> <hi rend='Italic'>(Euzkadi, </hi>1929, IX, 24).</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>OTOI-MINDUA</p><--</head>
+        </front>
+        <body>
+<p>Negar-samin artean sortu intzan otoia,</p>
+<p>egal orreik zabalik zeru-ziar oia.</p>
+<p>Ai-otsak baxen ondo ire maminduak,</p>
+<p>bakez gozatzen dituk biotz zaurituak.</p>
+<p>Luditar abes-urrun gogoko zaurira</p>
+<p>otoirik minduenak dardar eltzen dira.</p>
+<p>Ludi orrek ez duler otoi-atsegi&ntilde;a,</p>
+<p>otoiak ba&ntilde;a goian dager gure mi&ntilde;a</p>
+<p>Negarraren izketa nok ez ete digar?</p>
+<p>Barruko mi&ntilde;a nok ez ete dazau malko-ziar?</p>
+<p>Txadontzat Jaunak dartu biotz nekatua,</p>
+<p>txadonean otoia berez sortuz dua.</p>
+<p>Min bizian ai-dagin otoia, emaro</p>
+<p>gotzon zuriak egapean gorde daro.</p>
+<p>Otoiaren egak min-arren ez deuseztu;</p>
+<p>malkuak arren, gora begiak arteztu.</p>
+<p>Gure otoi onetan sami&ntilde;an otoia</p>
+<p>Donoki goira artezen zeru-ziar doia.</p>
+<p><mentioned> <hi rend='Italic'>(Euzkadi, </hi>1929, XI, 22).</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>NEURE LARROSEA</p><--</head>
+        </front>
+        <body>
+<p>Neure soloko larrosea,</p>
+<p>maitasun odolez ernea,</p>
+<p>lorondorik nok ostu zaitu?</p>
+<p>Goxaldeko malkoz bustita</p>
+<p>sortu zi&ntilde;an lora polita,</p>
+<p>zein eskuak banatu gaitu?</p>
+<p>Zeure bikaintasun arruba</p>
+<p>mitxeletak loitu bakuba,</p>
+<p>espanen batzuk ausi dabe?</p>
+<p>Axiaren maitalarija,</p>
+<p>ortzargi malkoen abija,</p>
+<p>gizonak dira zeure jabe?</p>
+<p>Ondo zainduko larrosea,</p>
+<p>larrosa orotan maitea,</p>
+<p>nok lorrindu zaitu, lira&ntilde;a?</p>
+<p>Illuntzeko bake aldian</p>
+<p>nire maitasunak ekian</p>
+<p>zure ametsezko usa&ntilde;a...</p>
+<p>Nun zagoz, larrosa kutuna?</p>
+<p>Ze&ntilde;ek dagi zeure zoruna,</p>
+<p>neure larrosatxu maitea...</p>
+<p>Edertasunarren lagarik,</p>
+<p>neure soloan loitu barik</p>
+<p>euki zindudan larrosea?</p>
+<p><mentioned> <hi rend='Italic'>(Euzkadi, </hi>1930, urtarrilla, 21 ) .</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>LORESKIN JOTEN</p><--</head>
+        </front>
+        <body>
+<p>Edurtzan zugatz ziar</p>
+<p>dagir etxetxua.</p>
+<p>Leyar garbi mosuka</p>
+<p>dirdir dakust sua.</p>
+<p>Abeslari di&ntilde;arzu:</p>
+<p>oldozkor kanpoan</p>
+<p>entzuten ez dazauzu</p>
+<p>nor ete dagoan.</p>
+<p>Abes ori entzunaz</p>
+<p>negar dagit mi&ntilde;ez;</p>
+<p>goguak dardar dagist</p>
+<p>gomuta sami&ntilde;ez.</p>
+<p>Otz naz... Edurra dagi.</p>
+<p>Zuria dager lurra...</p>
+<p>Mitxilotatxu eran</p>
+<p>jausten da edurra.</p>
+<p>Loreskin bolikitan</p>
+<p>dabil negar otsa.</p>
+<p>Nire ames ganera</p>
+<p>erori da izotza.</p>
+<p>Il-oroiak gogora</p>
+<p>dustot dakarzela</p>
+<p>zure abesti orrek...</p>
+<p>Orren da zimela!</p>
+<p><mentioned> <hi rend='Italic'>(Euzkadi, </hi>1930, epailla, 11).</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>ITURRI LEGORTUA</p><--</head>
+        </front>
+        <body>
+<p>Iturri maite ori,</p>
+<p>zelan legortu zara?</p>
+<p>Nok kendu ete dautzu</p>
+<p>altzoko ur-ikara?</p>
+<p>Zuk entzun zendun gure</p>
+<p>maitasun itz-dardara...</p>
+<p>&laquo;Garden beitu ninduzan</p>
+<p>zuen maite-begiak;</p>
+<p>ba&ntilde;a ordutik ona</p>
+<p>agur nire urten garbiak</p>
+<p>oso legortu naue</p>
+<p>zeruko eguzkiak...&raquo;.</p>
+<p>Maitasun itz goxuak</p>
+<p>gardenduko iturria,</p>
+<p>sarri beteten zendun</p>
+<p>aren usuil garbia;</p>
+<p>aizuna izan zan ba&ntilde;a</p>
+<p>usuil aren garbia...</p>
+<p>Orain negar ta negar</p>
+<p>dagist biotz ilunak:</p>
+<p>nok legortuko ditu</p>
+<p>nire negar itunak?</p>
+<p>Oso legortuko dauz</p>
+<p>barruko maitasunak.</p>
+<p><mentioned> <hi rend='Italic'>(Euzkadi, </hi>1930 epailla, 18).</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>LORTU EZI&Ntilde;A</p><--</head>
+        </front>
+        <body>
+<p>&laquo;Mendiko bidea</p>
+<p>bide nekakorra!</p>
+<p>Arantzaz josita</p>
+<p>zakidazan lorra! &raquo;.</p>
+<p>Larreko bidetik</p>
+<p>abeslari nua.</p>
+<p>Illuntze onetara</p>
+<p>oro da amets-lua.</p>
+<p>Mendi goyan dabil</p>
+<p>zorion-izpia.</p>
+<p>Mendi goyan dago</p>
+<p>zeruko bidia.</p>
+<p>&mdash;Abil, abil, abil</p>
+<p>mendi goi-gora&ntilde;o!</p>
+<p>Ortzia argi dago,</p>
+<p>itxasua la&ntilde;o...</p>
+<p>I&ntilde;ok eztau lortu</p>
+<p>izpi zerutarra.</p>
+<p>Lilien margua</p>
+<p>orotan bakarra.</p>
+<p>&mdash;Abil, abil, abil,</p>
+<p>abil neke barik!</p>
+<p>Koldarrentzat ezta</p>
+<p>izpi ta lorarik.</p>
+<p>Lilian ganean</p>
+<p>izpi leuna dago.</p>
+<p>Abesti au barriz</p>
+<p>dakust itunago:</p>
+<p>&laquo;Mendiko bidea</p>
+<p>bide nekekorra!</p>
+<p>Arantzaz josita</p>
+<p>zakidazan lorra! &raquo;</p>
+<p><mentioned> <hi rend='Italic'>(Euzkadi, </hi>1930, lotazilla, 14).</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>UDABARRIKO ABESTIJA</p><--</head>
+        </front>
+        <body>
+<p>Lagun kutunok, gaztiak gara!</p>
+<p>Burubak jaso zeruko argiz txauturik.</p>
+<p>Itxaropena abestu daigun</p>
+<p>Maitasun-euna mendi goyetan loturik.</p>
+<p>Udabarrija loratsu dager.</p>
+<p>Eskuban dakar geure Jaungoiko altsubak.</p>
+<p>Girin lizunak urijan utzi.</p>
+<p>Erain daiguzan bijotz alayen oyubak.</p>
+<p>Intzezko lorak zabaldu dabez</p>
+<p>Irri dagijen urrezko leka gorrijak.</p>
+<p>Eta larrosak kolko-zabalik</p>
+<p>Bai-dirudije maitasun-oteun-ontzijak.</p>
+<p>Gaztiago orain dabez goguak.</p>
+<p>Ago gaztien aintza eresi samurrak...</p>
+<p>Txorijak legez orok egazka</p>
+<p>Poztu daiguzan amets-dagijen gaillurrak.</p>
+<p>Usaintsu egak axetxu mia</p>
+<p>Legunki dabil bedar ta lili artian.</p>
+<p>Garitza eta zugatz abarrak</p>
+<p>Laztantzen ditu labalde orlei ganian.</p>
+<p>Goitik datorren argi leunari</p>
+<p>Zabaldu, arren, bular zurijak kutunki.</p>
+<p>Abots alayaz baserritarrak</p>
+<p>Zelai erdijan abesten dabe bigunki.</p>
+<p>Bixi-barrijaz pilpiraz dagoz</p>
+<p>Izadijaren maitasunezko bularrak.</p>
+<p>Edertasunez orleitsu dator</p>
+<p>Loraz poztuten negu latzaren negarrak.</p>
+<p>Mosu samurren aro donia,</p>
+<p>&laquo;Maitatzen zaitut&raquo;, eta laztanen orduba.</p>
+<p>Zugatz puntetan lorea ba&ntilde;o.</p>
+<p>Espan ganetan lenago derne mosuba.</p>
+<p>Udabarriko zugatz mardula.</p>
+<p>Landatu daigun geure bijotzen barruban.</p>
+<p>Bere azpijan lotan dagigun</p>
+<p>Bero aldija elduko yakun orduban.</p>
+<p>Igartzen bada, Jon deun-gabean.</p>
+<p>Santzoka jaurti sutan dagozan garretan.</p>
+<p>Abar igarrak jaurtiko doguz</p>
+<p>Eta ganetik jauzkatu pozez olgetan</p>
+<p>Gora bijotzak! Oro da poza!</p>
+<p>Lortu daiguzan atsegin danen lilijak.</p>
+<p>Gaur gara, bijar ezerez barriz.</p>
+<p>Illobija ez dauskube itxiko adijak.</p>
+<p>Maite-itz barrijak entzungo ditu</p>
+<p>Zelayan dardar daguan lora arruak.</p>
+<p>Larrosa leunak artu lagunok,</p>
+<p>Maite diranen mosu samurrek lakuak!</p>
+<p>Bein gaztarua il ezketi&ntilde;o</p>
+<p>Nekosta baltza ixango yaku laguna.</p>
+<p>Lortu lilijen mosu garbija</p>
+<p>Igaro arte betiko zurgu iluna</p>
+<p>Udabarrija maitasun-jaya,</p>
+<p>Abiz bete dauz baso ixileko zugatzak.</p>
+<p>Ur gardenean biurtzen ditu</p>
+<p>Gotzon eguan erako edur matatzak.</p>
+<p>Mendi goyetan jantzi urdi&ntilde;a,</p>
+<p>Zabaldu dabe eguzkijaren mosubak.</p>
+<p>Ezkon barrija lurrak dirudi.</p>
+<p>Bere lilurak larrosaz daroz eundubak.</p>
+<p>Oarmen eta so&ntilde;an bixitza.</p>
+<p>Soilik dirudit udabarriko argijak.</p>
+<p>Atsegin oroz bijotza asetu</p>
+<p>Eta malkorik barik goratu begijak.</p>
+<p>Onetsi daigun udabarrija,</p>
+<p>Lili usa&ntilde;ez geure gorputzak txauturik.</p>
+<p>Ta itxaropena abestu daigun</p>
+<p>Mendi goyetan maitasun-euna loturik.</p>
+<p><mentioned> <hi rend='Italic'>(Euzkerea, </hi>1930, 451 or.)</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>GURA NEUKENA</p><--</head>
+        </front>
+        <body>
+<p>Nik eztot maite, neure neskatil zurija,</p>
+<p>bular ganian dardar darozun lilija.</p>
+<p>Bijotz ori da maitatzen dodan bitxija.</p>
+<p>Lili lerdena</p>
+<p>neure bijotzak</p>
+<p>maite dabena.</p>
+<p>Maitasun bixiz zabaldu yatzun lorea</p>
+<p>gorde nai neuke usainduz bijotz gaxua.</p>
+<p>Zeure gogoko ederrak lotu narua.</p>
+<p>Lora laztana,</p>
+<p>bijotz ori da</p>
+<p>maite dodana.</p>
+<p>Zergaitik, arren, ez maite lili bika&ntilde;a?</p>
+<p>Damokitzuket neure lilitxu lira&ntilde;a...</p>
+<p>Goguan dagon maitasun lora au ba&ntilde;a</p>
+<p>ezin opari</p>
+<p>zeure espanaren</p>
+<p>mosu leunari.</p>
+<p><mentioned> <hi rend='Italic'>(Euzkerea, </hi>1931, otsailla, 562 or.).</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>BIDE-ZIAR ABESTEN</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>I</hi></p>
+<p>&mdash;Neure begijok dira gaba baxen baltzak:</p>
+<p>Maitasun-zalez dakart bijotzeko suba.</p>
+<p>&mdash;Lora baltzak edurtzan bildurgarri yataz:</p>
+<p>Begi orrein diztira erijotz-mosuba.</p>
+<p>&mdash;Ezpan oneik sugarran mingain gorritsuba.</p>
+<p>Lorak zabaltzen dabez matrail-kutunean.</p>
+<p>&mdash;Ezpan-samur ganian zabalduko lorak</p>
+<p>Larrosa zauritubak geure bijotzean.</p>
+<p>&mdash;Zitori antza dager neure soin garbijak.</p>
+<p>Mosu orrentzat artu bere edertasuna.</p>
+<p>&mdash;Edurran antzekuak zitorijak dira.</p>
+<p>Loitu ezkero ezin atzindu lizuna.</p>
+<p>&mdash;Ezpan oneik la&ntilde;ua, begijak ametsa,</p>
+<p>Gorputza ikugai-eza, ezin zaitut maite.</p>
+<p>&mdash;Irudi gelgarrijoi, neuregana zatoz!</p>
+<p>Maite ezi&ntilde;a betiko neugaz lotu zaite!</p>
+<p><hi rend='Bold'>II</hi></p>
+<p>Lorarik lora</p>
+<p>amets egalez</p>
+<p>sortu yatan lei sutsuba.</p>
+<p>Irri egisten</p>
+<p>lili leunentzat</p>
+<p>neure maitasun mosuba.</p>
+<p>Ortziak gero</p>
+<p>urrezko argiz</p>
+<p>lotu eustazan begijak.</p>
+<p>&Ntilde;ir&ntilde;ir egisten</p>
+<p>ixar ta lorak,</p>
+<p>neure begizkun gustijak.</p>
+<p>Maitasun ori,</p>
+<p>gero zeu ba&ntilde;a</p>
+<p>beitu zinduban zorunez.</p>
+<p>Agur betiko,</p>
+<p>ixar ta lorak,</p>
+<p>gaztarua ilda sami&ntilde;ez.</p>
+<p>Neure mosuntzat</p>
+<p>lora leunenak</p>
+<p>neska politan ezpanak.</p>
+<p>Begizkunentzat</p>
+<p>ixar argijak</p>
+<p>maitian begi laztanak.</p>
+<p><hi rend='Bold'> III</hi></p>
+<p>Abesti leunak loratzen ziran</p>
+<p>ezpan ganeko gentzean.</p>
+<p>Bijotz samurra bildu eustazun</p>
+<p>maitasunezko leyean.</p>
+<p>Orain ixilik abesa dago</p>
+<p>eta zerurantz begira</p>
+<p>dizdir begijan malkuak dagi</p>
+<p>maitasun baten distira.</p>
+<p>&mdash;Abes bigunen erregin ori,</p>
+<p>alai abestu egixu.</p>
+<p>Orain maitale garealako</p>
+<p>sami&ntilde;ez negar dagixu?</p>
+<p>Ezpan kutunak neureganatuz</p>
+<p>mosuba damost amesti.</p>
+<p>&mdash;Ta mosu oneik, samurki di&ntilde;aust,</p>
+<p>eztabez anei abesti?</p>
+<p><mentioned> <hi rend='Italic'>(Euzkerea, </hi>1930, 500, or.).</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>MUTILTXUBA TA ERLIA</p><--</head>
+        </front>
+        <body>
+<p>Mitxeleta bat eta erlia</p>
+<p>egaizka lili-artian</p>
+<p>mutiltxu batek ikusi euzan</p>
+<p>baratz alaiko bakian.</p>
+<p>Mitxeletaren margo politak</p>
+<p>zoratu eben mutilla.</p>
+<p>Lorarik lora arin ebillan</p>
+<p>margo eder areik billa.</p>
+<p>Erle maratzak ots-egin eutsan:</p>
+<p>&mdash;&laquo;Ez adi joan i&ntilde;ora.</p>
+<p>Mitxeletan autsa dok soilki,</p>
+<p>Ator, bai, neure ondora.</p>
+<p>&laquo;Ezti gozua emen yaukuat</p>
+<p>lore gustijen mosuba&raquo;.</p>
+<p>Ba&ntilde;a mutillak apurtu eutsan</p>
+<p>ezti-beraska txautuba.</p>
+<p>Onez ganera atrapau eban</p>
+<p>mitxeletatxu lira&ntilde;a.</p>
+<p>Laskitu eban bere o&ntilde;akaz</p>
+<p>loratza oso bika&ntilde;a.</p>
+<p>Ordun erleak, erletxu onak</p>
+<p>sartu eutson, bai, eztena.</p>
+<p>&mdash;&laquo;Eskar txarreko mutil gaiztua,</p>
+<p>eu azan lukur-zekena&raquo;.</p>
+<p>Mutiltxu onen antzeko asko</p>
+<p>ba-dira gure artian.</p>
+<p>Ba&ntilde;a txarraren azkena, laster,</p>
+<p>elduten yake ludijan.</p>
+<p><mentioned> <hi rend='Italic'>(Euzkadi,</hi>1932, bagilla, 16).</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>MUTIKO GAIZTUA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>(Alegia)</hi></p>
+<p>Txoririk ederrena</p>
+<p>txaki baten eguan,</p>
+<p>kanta kantari beti</p>
+<p>alai egun osuan.</p>
+<p>Amearen esana</p>
+<p>aiztu eban gaztiak.</p>
+<p>Txorija ikusi nairik</p>
+<p>zabal euzan atiak.</p>
+<p>&mdash;Seme, txaki orretan</p>
+<p>i&ntilde;oz ez adi sartu.</p>
+<p>Txori orren kabia</p>
+<p>ez egik artegatu.</p>
+<p>&mdash;Amearen esana</p>
+<p>egin ba zeban ondo,</p>
+<p>zigor bildurrik orain</p>
+<p>ez zenduke, mutiko.</p>
+<p>Ba&ntilde;a, zabal orduko,</p>
+<p>aldendu zan txorija.</p>
+<p>Eguak axe-ziar</p>
+<p>billau eban mendija</p>
+<p>Mutillaren negarrak</p>
+<p>ikusi euzanian</p>
+<p>txorijak esan eutson</p>
+<p>egaiz-egaiz ortzian:</p>
+<p>Txarra egin ba&ntilde;o len</p>
+<p>ez aiztu gerokorik.</p>
+<p>Negarrak eztaukalako</p>
+<p>zuzenduten okerrik.</p>
+<p><mentioned> <hi rend='Italic'>(Euzkadi, </hi>1932, uztailla, 7).</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>NESKA LIXUNAREN URTE GIROAK</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Italic'>Uda Barrian </hi></p>
+<p>Txili&ntilde;ak otska dorrian,</p>
+<p>&mdash;Sagu-zarrak dantzari&mdash;</p>
+<p>neska lixunan goguak</p>
+<p>sagu-zarra dirudi.</p>
+<p>Axe gozuak kalian,</p>
+<p>&mdash;zidarrez jantzi zadi&mdash;</p>
+<p>ameslarijen albuan</p>
+<p>axez putzutu adi.</p>
+<p>Ixar-koroya ortzian,</p>
+<p>&mdash;sorgin zarrak kantari&mdash;</p>
+<p>neska gangarrak oyean</p>
+<p>ezin eutsi amesari.</p>
+<p><hi rend='Italic'>Udan </hi></p>
+<p>Ipar mia itxasuan</p>
+<p>&mdash;batelen puntan zuri&mdash;</p>
+<p>olatu-apar onduan</p>
+<p>neska zankuak guri.</p>
+<p>Eguzkija, bero, gordin,</p>
+<p>ur-ertzak, ondar gorri;</p>
+<p>neska ari&ntilde;an bijotza</p>
+<p>ames lixunez gori.</p>
+<p>Olatu nagi puntetan</p>
+<p>txirrin baltzak jolasti,</p>
+<p>neska gangarran lepuan</p>
+<p>gaste arruak burlari.</p>
+<p><hi rend='Italic'>Neguan </hi></p>
+<p>Edur garbija mendijan,</p>
+<p>ibai-ertzak izotzik;</p>
+<p>mar-marka kale zarrian</p>
+<p>mutxurdi&ntilde;a moskorrik.</p>
+<p>Zarata itzalak gabian,</p>
+<p>&mdash;akelarrak beterik&mdash;</p>
+<p>axe zolijen so&ntilde;ura</p>
+<p>mutxurdi&ntilde;a burutik.</p>
+<p>Kanpayak otska dorrian,</p>
+<p>&mdash;baltzez estaldu adik&mdash;</p>
+<p>kanposantuko bidian</p>
+<p>mutxurdi&ntilde;a bakarrik.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>PALANKARI BATI</p><--</head>
+        </front>
+        <body>
+<p><foreign> <hi rend='Italic'>(Un desiderio della belleza antica)</hi></foreign></p>
+<p><foreign> <hi rend='Italic'>Carducci</hi></foreign></p>
+<p>Zein eder, lagun yaukok bedar-gain, itzala!</p>
+<p>Palanka orren leya axe barna jaurti</p>
+<p>ozti&ntilde;aren eun mia urratzen jokala,</p>
+<p>ba&ntilde;a orekan ago, gaste, tinko beti!</p>
+<p>Zein eder, lagun yaukok bedar-gain, itzala!</p>
+<p>Elade'n ager intzan gastarozko loran?</p>
+<p>Soin orrek akatsik ez, Apalla'ren antzo!</p>
+<p>Izlan dok, ba, barnian arnas illezi&ntilde;a.</p>
+<p>Indarra ta gokentza eugan batu dituk.</p>
+<p>Esku ertzetik soilki urten begik alak</p>
+<p>so&ntilde;a lerden dokala Parzenon'rako gai,</p>
+<p>arri-landu bateko soin ereskitsuba.</p>
+<p>Igigune barik eu, oro igitu begik</p>
+<p>naimen bitartez obe, indarragaz ba&ntilde;o.</p>
+<p>Begizkun orrein aurrez, gel-ez-arin, bua</p>
+<p>ospe nayak yarokan palankaren ertza.</p>
+<p>Esku artetik azke, senti dokanarren,</p>
+<p>bere aztatik ezin eta lurra jo yok.</p>
+<p>Indarra eztok naiko.</p>
+<p>Neurri zabalen-min</p>
+<p>nayak uts egin bai'au, nora juanen az?</p>
+<p>Azke gozalako ta olantxe gabiltzok,</p>
+<p>gizkaya yoguk ba&ntilde;a ta bera gatorzak.</p>
+<p>Gaste ori, ospiak ortxe yagik zantzo!</p>
+<p>Eure jarrai txalotsa, agur bat zinkatu!</p>
+<p>Ixen ori juango dok urrin egaizka,</p>
+<p>bedar-legor metetan suba baxen arin.</p>
+<p>Gaste-aldren gelkuntzak esitzen au pozik,</p>
+<p>eta euren jo-muga besterik etxagok.</p>
+<p>Il yakun gogo oneri emoyok indarra;</p>
+<p>sendorik sendoena, emaitz baten antzo.</p>
+<p>Iturriko txirulak ixillian otska</p>
+<p>yantzarazi eutsoen i&ntilde;oiz urtzimiai,</p>
+<p>gurenda orrek legez, geure baitan nayai?</p>
+<p>Jaurti palanka ori! Ez eme, ar adi!</p>
+<p>Euregan dok gastaro, apahal eder legez</p>
+<p>Elade'k arnas so&ntilde;an, abil aintza billa!</p>
+<p>Jopu diranen aintza, estuntzartian.</p>
+<p>Eu garalle, i&ntilde;orentzat ere&ntilde;otz abarra?</p>
+<p>Ez! Urtzi'k igortzi au gastaro illezi&ntilde;ez</p>
+<p>aberria goratu dedin eure bidez.</p>
+<p>Urrin jaurti nai yoguk endaren azkura,</p>
+<p>palanka orrek legez ozti&ntilde;ak urratzen.</p>
+<p><mentioned> <hi rend='Italic'>(Euzkerea, </hi>1932, epalla, 25 or.).</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>IGANDE GOIZ BATEN</p><--</head>
+        </front>
+        <body>
+<p>Zerua dok dardar uso-egalpian</p>
+<p>ta aizien ezpanak loreak sorlari.</p>
+<p>Urtzimiak billoxik dozak</p>
+<p>so&ntilde;a, mies-antzo, argitan.</p>
+<p>Igande goiza, begi-gain dok gentza!</p>
+<p>Zelai ziar yuak kanpai baten otsa.</p>
+<p>Neuretzat beti az sorbarri,</p>
+<p>gogo utsez akustalako.</p>
+<p>Dapni eta Kloe &mdash;begi barna loran&mdash;</p>
+<p>zer dan eztakien lera baten jarrai.</p>
+<p>Eun me atzian zadorra dok,</p>
+<p>lerro leunak gentzaz yagozak.</p>
+<p>Olan akust, lurroi, aur danen ameoi;</p>
+<p>eure bare ontan eztok u&ntilde;en otsik.</p>
+<p>Ba&ntilde;a arri-antzo orra gizona,</p>
+<p>eta ugoskak dozak altzuan.</p>
+<p>Soin gaztiak utsik maite dozak dantzan;</p>
+<p>begi bakun-ziar, izpiz jantzita letz.</p>
+<p>Sort begik alai maite-mi&ntilde;a,</p>
+<p>gogai mia baizen ikuske!</p>
+<p>Atseden orduan eure adi nagok:</p>
+<p>mezatan aintz deuna neugan dok oindi&ntilde;o.</p>
+<p>Ezertzaz oldoztu ba&ntilde;o len</p>
+<p>euri gurka egiten natork.</p>
+<p>Ixillian dantzuk erlen neurrizko otsa,</p>
+<p>bedar oron lagun ba-yatork itzala.</p>
+<p>Urtzi ibilli dok emen ala,</p>
+<p>begiratez dana edertzen?</p>
+<p>Ludi oi, zar-barri, ago neure maite!</p>
+<p>Arnas ezilkorrez azal-gain laztanduz.</p>
+<p>Ago eder, itxas bitsetik</p>
+<p>Aprodite urten zanian letz.</p>
+<p>Goiza dok. Lausotan oro itxartu nairik.</p>
+<p>Jata'k urdin goiak, la&ntilde;oz gerrikua.</p>
+<p>Itxas-azalan argia yabilk,</p>
+<p>eunak arro yuak ontzia.</p>
+<p>Eta gorpuzkion lillura ixillian</p>
+<p>adore barri bat nabaituten yuat.</p>
+<p>Ezilkortu ba'neukek berton</p>
+<p>gerorago yatan zerua!</p>
+<p><mentioned> <hi rend='Italic'>(Euzkerea, </hi>1932, orrilla, 95 or.).</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>LARROSEA ETA TXARRIJA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>(Alegia)</hi></p>
+<p>Txoritokitik landara</p>
+<p>atera eben txarrija.</p>
+<p>Arin-arin basatzara</p>
+<p>sartu zan, orruz, piztija.</p>
+<p>Mustur-okerraz basatza</p>
+<p>usartu eban sastarrak.</p>
+<p>Onetan larrosa aratza</p>
+<p>begijan eukon bedarrak.</p>
+<p>Lorondo-puntan eguan</p>
+<p>larrosa sortu-barrija.</p>
+<p>Distiraz eukon altzuan</p>
+<p>goxeko garo garbija.</p>
+<p>Laster aginka txarrijak</p>
+<p>apurtu eban gaxua.</p>
+<p>&mdash;Zergatik neure orrijak</p>
+<p>laskitu dozuz, gaiztua?&mdash;</p>
+<p>Baratzan barriz musturka</p>
+<p>asi txarri ayerra.</p>
+<p>Ta esan eutson orruka:</p>
+<p>&mdash;Zergaitik az ain ederra?&mdash;</p>
+<p><hi rend='Italic'>Olan i&ntilde;oren ederrak </hi></p>
+<p><hi rend='Italic'>min damotsoe askori. </hi></p>
+<p><hi rend='Italic'>Ba-dira txarri ayerrak </hi></p>
+<p><hi rend='Italic'>ludi onetan ugari.</hi></p>
+<p><mentioned> <hi rend='Italic'>(Euzkadi, </hi>1932, orilla, 19).</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>IKER'EN ERANTZUNA</p><--</head>
+        </front>
+        <body>
+<p>Erkaldarren etxian</p>
+<p>ikurrin zabala.</p>
+<p>Onetzaz mintzalari</p>
+<p>ikasle garbala.</p>
+<p>&mdash;&laquo;Umiok, beti maite</p>
+<p>ikurrin ederra.</p>
+<p>Agertu beti orri</p>
+<p>gogoan eskerra&raquo;.</p>
+<p>Gero mintzatzen zala</p>
+<p>eldu zan axia...</p>
+<p>Ikurri&ntilde;a zibuka,</p>
+<p>arro zan eun mia.</p>
+<p>&laquo;Sari bat artuko dau,</p>
+<p>sari ederrena,</p>
+<p>onetzaz diraustanak</p>
+<p>oldozkun gurena&raquo;.</p>
+<p>&mdash;&laquo;Ikurrin eder orrek</p>
+<p>zer esaten dautzu?</p>
+<p>Axe-ziar zibuka?</p>
+<p>maitatzen eztozu?</p>
+<p>Ikasle malmutz arek</p>
+<p>umiai i&ntilde;otsen:</p>
+<p>&mdash;&laquo;Orra aberri amea,</p>
+<p>gustijok laztantzen.</p>
+<p>Umiak au ta ori</p>
+<p>erantzun eutsoen,</p>
+<p>ba&ntilde;a Ikertxu'k, ixillik,</p>
+<p>ez eban jardesten.</p>
+<p>&laquo;Erantzun egistazu,</p>
+<p>euzkotar zitala!&raquo;.</p>
+<p>&mdash;Zibu orreik dirauste</p>
+<p>axe ona dala!</p>
+<p><mentioned> <hi rend='Italic'>(Euzkadi, </hi>1932, maiatza, 20)</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>GAZTAYA TA KATUBA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>(Alegia)</hi></p>
+<p><hi rend='Italic'>Mikel, abertzale gastiari, biotzez</hi></p>
+<p>Gaztaya eukon atsuak</p>
+<p>arasa baten zainduta,</p>
+<p>ba&ntilde;a sagutxu gaiztuak</p>
+<p>ozka itxi eutson galduta.</p>
+<p>Apari ona jateko</p>
+<p>gabero euken gaztaya.</p>
+<p>Elduko zan ba&ntilde;a agudo</p>
+<p>oturuntz arein amaya.</p>
+<p>Arexek galdu gurarik</p>
+<p>ekarri eban katuba.</p>
+<p>Laster ixango bat barik</p>
+<p>arasearen barruba.</p>
+<p>Katu-gorri, bizar-zuri</p>
+<p>arro ebillan etxian.</p>
+<p>O&ntilde;ez nagi, begiz argi,</p>
+<p>urdairik etzan bakian.</p>
+<p>Arasan sartu katuba</p>
+<p>ta oiratu zan atsua.</p>
+<p>Axe bai zala zeruba</p>
+<p>gaztayan usain gozua!</p>
+<p>Atsuak jagi zanian</p>
+<p>zabaldu eban arasa.</p>
+<p>Katuba sagu artian</p>
+<p>axe eguan lasa-lasa.</p>
+<p>Ez urdairik, ez gaztarik</p>
+<p>arasan etzan gelditu.</p>
+<p>Ba&ntilde;a katu ta sagurik</p>
+<p>gosiaz etzan garbitu.</p>
+<p><hi rend='Italic'>I&ntilde;oren kontuz eurerik </hi></p>
+<p><hi rend='Italic'>ez egik itxi sekulan.</hi></p>
+<p><hi rend='Italic'>Arrotzak alkar il barik </hi></p>
+<p><hi rend='Italic'>batuten dozak beinguan.</hi></p>
+<p><mentioned> <hi rend='Italic'>(Euzkadi, </hi>1932, orrilla, 26).</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>TXITXEAK ETA MIRUBA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>(Alegia)</hi></p>
+<p>Olluak klo-klo egijan</p>
+<p>pi-pi txitxeak ostera.</p>
+<p>Olantxe baratz erdijan</p>
+<p>ebiltzan danak erara.</p>
+<p>Ameak jana billatu</p>
+<p>eta txitxeak iruntsi.</p>
+<p>Arrikan etzan geratu,</p>
+<p>goserik etzan ikusi.</p>
+<p>Txitxeak ziran orijak,</p>
+<p>anka-txiki. luma-eder.</p>
+<p>Etxe onduan gustijak</p>
+<p>egoten ziran eskijer.</p>
+<p>Bat ba&ntilde;a danen galbide</p>
+<p>etzan an bizi poz-pozik.</p>
+<p>Buru-arin, piku-luze</p>
+<p>urrun juan zan etxetik.</p>
+<p>Miru jauna, jaun bijurrak</p>
+<p>ezautu eban txitxea.</p>
+<p>Konpondu ziran maltzurrak</p>
+<p>eta gertau eben tranpea.</p>
+<p>&laquo;Zeure lagun, lagun ona</p>
+<p>iraungo yuat ludijan.</p>
+<p>Alkarrekin zorijona</p>
+<p>billauko yoguk mendijan&raquo;.</p>
+<p>Miru aren itz gaiztuak</p>
+<p>zi&ntilde;istu euzan txitxeak.</p>
+<p>Eta gau baten gaxuak</p>
+<p>iri eutsozan atiak.</p>
+<p>Laster jarri zan miruba</p>
+<p>txitxa politen artian.</p>
+<p>Zorrotza eukon pikuba,</p>
+<p>eta gosia erpian.</p>
+<p>&laquo;Azke-azke mendi-goyan</p>
+<p>neugaz bixiko zarie.</p>
+<p>Ama orrek etxe-esijan</p>
+<p>beti euki nai zaitube&raquo;.</p>
+<p>Mirubak eta txitxeak</p>
+<p>zauritu eben ollua.</p>
+<p>Eta ama barik gustijak</p>
+<p>goitu eben areyua.</p>
+<p>I&ntilde;oren sorosi barik</p>
+<p>miru txarraren eki&ntilde;ak!</p>
+<p>Gustijak erail ezi&ntilde;ik</p>
+<p>zauritu euzan geyenak.</p>
+<p><hi rend='Italic'>Arrotz baten lagun-nayez </hi></p>
+<p><hi rend='Italic'>ez galdu i&ntilde;oz anayak. </hi></p>
+<p><hi rend='Italic'>Etxeko baten obenez </hi></p>
+<p><hi rend='Italic'>sortuten dozak etsayak.</hi></p>
+<p><mentioned> <hi rend='Italic'>(Euzkadi, </hi>1932, bagilla, 2).</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>LOREAK ETA EGUZKIA</p><--</head>
+        </front>
+        <body>
+<p>Ur-ondoan ziran loreak</p>
+<p>axe samurren usaingarri,</p>
+<p>eguzkiaren maitagarri.</p>
+<p>Kulunka ona, kulunka ara</p>
+<p>gustijak</p>
+<p>pozik egozan berotara.</p>
+<p>Eguzki-kalda lur-ganian</p>
+<p>loreak zimeltzen ebillan.</p>
+<p>Aldezlari i&ntilde;oz ez garillan.</p>
+<p>Zutago goitik eguzkijak</p>
+<p>unian</p>
+<p>legor ziran orri gustijak.</p>
+<p>Ama-samur orra odeya</p>
+<p>lora ta eguzki-artian.</p>
+<p>Itzal leuna lore-ganian</p>
+<p>orri&ntilde;o ororen mosulari.</p>
+<p>Ken-deya</p>
+<p>egin eutson, ba&ntilde;a, itzalari.</p>
+<p>&mdash;&laquo;Kendu adi, odei aztuna,</p>
+<p>ezin yoguk eguzkija ikus&raquo;.</p>
+<p>&mdash;&laquo;Lora-taldiak ezin nakus.</p>
+<p>Eztau euki gura onduan</p>
+<p>zoruna&raquo;</p>
+<p>negarrez itzalak i&ntilde;uan</p>
+<p>Eta negar-malko bigunak</p>
+<p>jausi ziran loren altzora.</p>
+<p>Tanta jausi yaken kolkora.</p>
+<p>Eta odei aren malkuak,</p>
+<p>itunak,</p>
+<p>alaitu ebazan gaxuak.</p>
+<p>Lora onein legez zoruak</p>
+<p>kenduten dabe laguntzea.</p>
+<p>Ba&ntilde;a adizkide egizkua</p>
+<p>ezta aldenduten orregaitik</p>
+<p>Goguak</p>
+<p>eztabe galtzen laguntzarik.</p>
+<p><mentioned> <hi rend='Italic'>(Euzkadi, </hi>1932, bagilla, 9).</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>ATSUARENA</p><--</head>
+        </front>
+        <body>
+<p>Moskor bat eta moskor bi</p>
+<p>&mdash;iru ta zortzi amabi&mdash;</p>
+<p>zenbatzen aztu atso orri!</p>
+<p>Tabernara goxez dua</p>
+<p>geure kaleko atsua</p>
+<p>baitago penaz beterik.</p>
+<p>Gero elixan danian</p>
+<p>buruba dauko airian</p>
+<p>ta ezin egin otoirik.</p>
+<p>&mdash;Aitearen</p>
+<p>semiaren</p>
+<p>ezkerraz egitten dala</p>
+<p>nok esan dautzu, mamala?</p>
+<p>Moskor bat eta moskor bi</p>
+<p>&mdash;iru ta zortzi amabi&mdash;</p>
+<p>zenbatzen aztu atso orri!</p>
+<p>&mdash;Jauna ona, nitzaz erruki!</p>
+<p>Ba&ntilde;a zer jazo yat neuri,</p>
+<p>dana ba-dakust biraka?</p>
+<p>Len torre bat zan tokijan</p>
+<p>bi jarri dabez, agijan,</p>
+<p>beata oroi burleka...</p>
+<p>Altaretan</p>
+<p>deunak dantzan</p>
+<p>egitten dabez saltuak</p>
+<p>edo itxutu nau lausuak.</p>
+<p>Moskor bat eta moskor bi</p>
+<p>&mdash;iru ta zortzi amabi&mdash;</p>
+<p>zenbatzen aztu atzo orri!</p>
+<p>&mdash;Apez jauna, zer dagixu?</p>
+<p>Ardoz ugutzauten dozu</p>
+<p>geure kutuntxu txikerra?</p>
+<p>&laquo;Gloria&raquo; esan bearrez,</p>
+<p>basoa bete ardo onez?</p>
+<p>Bai errespontso ederra!</p>
+<p>Edan barik</p>
+<p>oso osorik</p>
+<p>nago neu beintzat oindi&ntilde;o.</p>
+<p>Suspiruz nago orrati&ntilde;o!</p>
+<p>Moskor bat eta moskor bi</p>
+<p>&mdash;iru ta zortzi amabi&mdash;</p>
+<p>zenbatzen aztu atso orri!</p>
+<p>&mdash;Buru au daukot galdurik!</p>
+<p>Ur bedinkatuba barik,</p>
+<p>ardua dakart etxera?</p>
+<p>Orijo ordez ardautxubak</p>
+<p>betetu daun kurtzulubak</p>
+<p>lagundu begist oera.</p>
+<p>Neure lagun</p>
+<p>poz ta zorun,</p>
+<p>zatotxu bat bego onduan.</p>
+<p>Ainbat samin dot goguan!</p>
+<p>Moskor bat eta moskor bi</p>
+<p>&mdash;iru ta zortzi amabi&mdash;</p>
+<p>zenbatzen aztu atso orri!</p>
+<p><mentioned> <hi rend='Italic'>(Euzkadi, </hi>1934, jorrailla, 27).</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>TOPA BATEN OSTEAN</p><--</head>
+        </front>
+        <body>
+<p><foreign> <hi rend='Italic'>Insanire iuvat</hi></foreign></p>
+<p>Ardoz edo argiz moskortu adi</p>
+<p>eta gudu-kantak geroari itxi.</p>
+<p>Topa egiok bizitzari,</p>
+<p>goizeko izpien aizteari!</p>
+<p>Bertsotan esan dok asaben gaintza;</p>
+<p>gazteek maite yuen ezpaten aintza.</p>
+<p>Edariz bustirik ezpanak</p>
+<p>birtute-itzak eder eztozak.</p>
+<p>Moskorrak ez yakik barneko mi&ntilde;ik;</p>
+<p>poz baten mosuak eztauko ordurik.</p>
+<p>Kanta egik txolen dirdira,</p>
+<p>eta ezpan gazteen pilpira!</p>
+<p>Zoratzea on dok. Ardo gardenak</p>
+<p>andere eder baten itxura yaukak.</p>
+<p>Urteak kendu yeutsek garra,</p>
+<p>udaldi beroen indarra.</p>
+<p>Yainkoen odoltzat gorde yuedan</p>
+<p>ta ardokiko itzalak marguldu yuan.</p>
+<p>Bonbil orren yanzki panpi&ntilde;a</p>
+<p>armiarmen ariz egi&ntilde;a!</p>
+<p>Zar-kutsua yaukok, bai&ntilde;a yakintsu</p>
+<p>maitasun ta irriak ez yozak galdu.</p>
+<p>Azkenengo tanta gozoa</p>
+<p>begiotan yaitekek loa.</p>
+<p>Ardo zar argiaz eztok zadorrik:</p>
+<p>gizonak ez yaukek ule zuririk.</p>
+<p>Yakitun danaren ezpanak</p>
+<p>itz-yario samurra dozak.</p>
+<p>Oin danetan yabilk dantza-gurea,</p>
+<p>ben-benari be eder yakok barrea.</p>
+<p>Errege askoren lepotik</p>
+<p>eskaleak ki&ntilde;u bai-yagik.</p>
+<p>Zentzuna galtzeak azkatzen gaituk;</p>
+<p>edanak mundu au aunditzen yauskuk.</p>
+<p>Topa, biar ba deus ez gara!</p>
+<p>Moskorra betor txol-artera.</p>
+<p>Yagokan tokian ta zori ona</p>
+<p>laketen yaube, ba, eztok gizona.</p>
+<p>Beti Kitere'ren ezpanak</p>
+<p>ardoz ezti-lora yakuzak!</p>
+<p><mentioned> <hi rend='Italic'>(Yakintza, </hi>1935, azaro-lotazilla, 415 or.).</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>MAIRAKO DEYA</p><--</head>
+        </front>
+        <body>
+<p>Nire mai garbi au maspar-pean yagok,</p>
+<p>txiro ba&ntilde;o eder, neurriz gauz danetan.</p>
+<p>Arrats baten gentza edariak yaukok:</p>
+<p>aize mihia yabilk matsorri-puntetan.</p>
+<p>Ator neure maira egunaren billa</p>
+<p>zorion lorak, ba, etxaukek arorik!</p>
+<p>Gaur gurea yoguk laketen gurpilla</p>
+<p>ta iru Ederkunak yatorzak alairik.</p>
+<p>Jateak on begik, edanak ez gaitzik,</p>
+<p>ta eure barrenan eztiz bego poza.</p>
+<p>Urrezko txol baten, doai xamurrenik,</p>
+<p>aizkidetasunak bekar mintzo boza.</p>
+<p>Borgo&ntilde;a'ko matsak ez dozak gurean,</p>
+<p>ba&ntilde;a Laukaritz'ko mastien nigarra</p>
+<p>Orati'k ledakek bertso ozenenean.</p>
+<p>Odol egin zuan Eguzki'ren garra!</p>
+<p>Emaitzon umoan goiz-intza yatorrak</p>
+<p>eta euron urak ez yaukok bardi&ntilde;ik.</p>
+<p>Erle-madari ta txakala-sagarrak,</p>
+<p>zelai berdeetako usa&ntilde;ez beterik!</p>
+<p>Maian jarri adi, ba&ntilde;a eure lagun</p>
+<p>malko edo itunik ez egik ekarri.</p>
+<p>Oraingoa soillik atzemon yagigun</p>
+<p>ardo au bai-yakuk ezpanen pozkarri.</p>
+<p>Edontzi mee bana eskuan jasota</p>
+<p>edango yuaguk arrats onen illa.</p>
+<p>Eta oianako otz bustia artuta</p>
+<p>etorriko yakuk goietako itzala.</p>
+<p>I&ntilde;ok jaurri begik uri urduria</p>
+<p>edo uin latzetan yabilkan batela,</p>
+<p>Guretzat lats baten altza-ots eztia,</p>
+<p>eta lora-pean yagokan kupela!</p>
+<p>Bizitzaren guna txastatzen yokanak</p>
+<p>ez yok artu bear jakitunen itzik.</p>
+<p>Jakintza onena ardo meeak yaukak!</p>
+<p>bere kolkon, ba, ez yabilk zadorrik.</p>
+<p>Geroa ezetsi, une eder ta argiak</p>
+<p>sarri balio yok betiraunak a&ntilde;a!</p>
+<p>Gaur ezer ez dozak biarko liliak:</p>
+<p>ontzat ar egik, ba, neure mai apa&ntilde;a!</p>
+<p><mentioned> <hi rend='Italic'>(Zer, </hi>1978, 6'gn. zenbakia, urtarrilla).</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>EGUNA BERANTZ DOA</p><--</head>
+        </front>
+        <body>
+<p>Neurekin gel zaite arrats-begi da-ta:</p>
+<p>itzal baten goxoz urdintzen da Jata.</p>
+<p>Ene Josu maite,</p>
+<p>gel zaite!</p>
+<p>Neure egun argia berantz azkar doa,</p>
+<p>itzalak jotzen dau atadi ondoa.</p>
+<p>Arrats onen otza,</p>
+<p>biotza!</p>
+<p>Oi Bidazti Deuna, sar zaite neurera,</p>
+<p>bertan dozu bada maitasun arrera.</p>
+<p>Bekidat bizitza</p>
+<p>zeure itza.</p>
+<p>Idazti Doneak atzaldu daidazuz,</p>
+<p>euren muin eztiak emon egistazuz.</p>
+<p>Bel zeure mintzoa,</p>
+<p>goxoa!</p>
+<p>Ta barne gustia berotan dodala</p>
+<p>argi biur bekit eriotz itzala.</p>
+<p>Dana yat atsegin</p>
+<p>Zeurekin.</p>
+<p>Orain sakon dakust zeure eriotz ori;</p>
+<p>zegaitik daukozun biotz deuna gori.</p>
+<p>Ene Josu maite,</p>
+<p>gel zaite!</p>
+<p><mentioned> (Gasteiz'ko espetxean, 1937)</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>BIOTZ DONEA</p><--</head>
+        </front>
+        <body>
+<p>Biotz xamur-berea,</p>
+<p>gar gori batekin zauritzen nozu.</p>
+<p>Zauri ganean, ordea,</p>
+<p>maitasun-larrosa zabaltzen dozu.</p>
+<p>Sakon bitan nabil, ez-bai goxoan;</p>
+<p>otzak il naroa Zugandik urrun,</p>
+<p>su gordi&ntilde;ak nauka zure ondoan.</p>
+<p>Gabaz argi zakusat,</p>
+<p>egunez berriz illun.</p>
+<p>Zurekin naukazu, neugaz ez zaukat.</p>
+<p>Eguzkitan edur, otzetan sugar.</p>
+<p>Jolas bikoitz onek galduta nakar.</p>
+<p>Ba&ntilde;a bien tartean</p>
+<p>sugar zakit, Jauna, biotz barnean!</p>
+<p><mentioned> (Gasteiz'ko espetxean, 1937 )</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>ATETAN NAGO</p><--</head>
+        </front>
+        <body>
+<p>Goizero zagoz nere atetan;</p>
+<p>oi ots goxoa biotz mu&ntilde;etan!</p>
+<p>Iretzat ditu Jainkoak</p>
+<p>goiz neskatxaren usoak?</p>
+<p>Egun sentia ba&ntilde;o lenago</p>
+<p>nere txaki au dirdiraz dago.</p>
+<p>Norbaiten begi niniak</p>
+<p>antz artzen ditu argiak.</p>
+<p>Ba&ntilde;a ots meia, zer nai didazu?</p>
+<p>&mdash;Ixil, enetxo, Jauna nazazu.</p>
+<p>Adats ederrok intzetan,</p>
+<p>maite-min nabil atetan.</p>
+<p>Lotan zi&ntilde;ala zure ortuan</p>
+<p>belar ta zugatz busti nituan.</p>
+<p>Ikusi euren ederra,</p>
+<p>zurez dute, ba, eskerra.</p>
+<p>Zut nadin, Jauna, didar goxora</p>
+<p>eta zut nagon zure mintzora!</p>
+<p>Ostro-tartez, ixil-ixil,</p>
+<p>zure ats xamurra bebil.</p>
+<p>Betarte orrein pake argira</p>
+<p>ibar ta landa edertu dira.</p>
+<p>Oin garbi orrein urratsak</p>
+<p>joranez ditu loratzak.</p>
+<p>&mdash;Enetxo, zabal zure atea</p>
+<p>ta izanen dezu eder betea.</p>
+<p>Landan ba&ntilde;o garbiago</p>
+<p>eder au barnetan dago.</p>
+<p>Sar zaite, Jauna, etxe-barnera,</p>
+<p>poza dator, ba. Zugaz batera.</p>
+<p>Eta zure Arnas deunak</p>
+<p>bete begiz biotz-mu&ntilde;ak.</p>
+<p><mentioned> (Gasteiz'ko espetxean, 1937)</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>AZKEN OYUA</p><--</head>
+        </front>
+        <body>
+<p>(Zubillaga'tar Karla'ri )</p>
+<p>Goiz eder onetan erail bear nabe</p>
+<p>txindor baten txintak gozotan naukela?</p>
+<p>El naiten leyora begiok intz gabe.</p>
+<p>Gorbei barna yatort ka&ntilde;oi-ots itzela:</p>
+<p>or egazkin-egak odei-lapur doaz.</p>
+<p>Guda-gotzon baltzak odolez dakustaz,</p>
+<p>euren oin aurrean beredin gudari.</p>
+<p>Gaste argi orreik, eutsi lur amari!</p>
+<p>Bera baizen onik eztauko ludiak.</p>
+<p>Ba&ntilde;a, Jaun altsua, orain ken nai nozu?</p>
+<p>Bildots baten antzez lotuta naukozu</p>
+<p>bearren naunean neure Aberriak?</p>
+<p>Aren deia dantzut arma-ots larrian.</p>
+<p>Izkillu-tarteko dirdira bizian</p>
+<p>mendi goitietan Eriotz betorkit.</p>
+<p>Bertan eder dira azkenengo atsak!</p>
+<p>Arte adartsu babes-toki bekit,</p>
+<p>neure gezi meion eriotz-zauria</p>
+<p>txastau dagientzat etsaien erranak!</p>
+<p>Zuzentzaren maitez bil diran semeekin</p>
+<p>ixuri daidala bizitz-iturria.</p>
+<p>Lurra estal bedi odol-larrosakin!</p>
+<p>Gozo eta eder gizonen kopetan</p>
+<p>aberri-opazko eriotz mosuak!</p>
+<p>Zauritu orreik zut, orra mendietan</p>
+<p>aintzak zabal ditu esku argituak</p>
+<p>ortxe jausi nedin!</p>
+<p>Eta azken orduan</p>
+<p>laztandu naiela arnasa estuan</p>
+<p>garaitz-abar billa doazen (t) zaldiak.</p>
+<p>Eta begi onein la&ntilde;o leyartuan</p>
+<p>tinki igaro beitez gizuren argiak;</p>
+<p>esku zurbil oneik aul luzatu bediz</p>
+<p>eutsi zagientzat, ikurrin donea.</p>
+<p>Azkatasun atsak betiko bil zagiz!</p>
+<p>Antxe makur zaite, oi buru neurea,</p>
+<p>geure lur amaren besarte gozoan!</p>
+<p>Eta anai maiteok, eutsi burrukari</p>
+<p>i&ntilde;oiz ilgo eztan euzkoen amari.</p>
+<p>Itxaropen auxe sort bekit gogoan.</p>
+<p>Jauna, eriotz au arren emostazu;</p>
+<p>koldarrentzat itxi larrosen usa&ntilde;a.</p>
+<p>Azkatasun deuna bial egistazu,</p>
+<p>atzindu nai dot ba arrotzen ira&ntilde;a,</p>
+<p>gorputz onek bakez atseden dagian</p>
+<p>erri azkatuen Egun-Aundi arte!</p>
+<p>Gudan jaus nadilla zuzentzaren alde,</p>
+<p>ez ormari atzez, goiz eder argian.</p>
+<p>Eta bake deuna sortuko danean</p>
+<p>neure azur utsak besteenakin batu;</p>
+<p>eresi gurenaz lagundu bidean</p>
+<p>obi bakar-arte.</p>
+<p>Ba&ntilde;a, arren, bukatu</p>
+<p>oroigailluaren maitasun itzala</p>
+<p>Kistoren gurutzat; Beragan ditxarot.</p>
+<p>Josu'ren fedea besterik eztaukot.</p>
+<p>Erri zintzo-onenak zaindu dagiala</p>
+<p>il gintzanen atsa, il gintzanen ala.</p>
+<p><mentioned> (1937)</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>AGUR, EUZKADI!</p><--</head>
+        </front>
+        <body>
+<p>Agur, Euzkadi, Jaunak naroa</p>
+<p>Aberri eder argira.</p>
+<p>Neure negarrak jarion neuzan</p>
+<p>zeure mendiai begira.</p>
+<p>Seme bat zeukan, ba&ntilde;a etsayak</p>
+<p>kendu eutsoen biotza;</p>
+<p>soin ederrera ixuri yakon</p>
+<p>mayetz bateko goiz otza.</p>
+<p>Gurutz Deunari mosu egi&ntilde;az</p>
+<p>aldegin eutson mundutik,</p>
+<p>Kistoren gentza abo ganean</p>
+<p>loratu yakon gastetik.</p>
+<p>Jaunaren maitez, aberri maitez,</p>
+<p>ez eban euki bildurrik,</p>
+<p>eta zeuretzat zorion utsa</p>
+<p>opaldu eutson gogotik.</p>
+<p>Euzkadi ona, zagoz betiko</p>
+<p>Kistoren fede betean;</p>
+<p>olan zoruna billauko dozu</p>
+<p>emen ezpada zeruan.</p>
+<p>Eriotz deuna aurrean daukot,</p>
+<p>zi&ntilde;istu bada, euzkoa:</p>
+<p>Euzkadi azke izan daitean</p>
+<p>zaindu Josu'ren legea.</p>
+<p>Eder yatazan euzko bazterrak,</p>
+<p>eder itxaso zabala;</p>
+<p>ba&ntilde;a oraintxe ederrago yat</p>
+<p>eriotz onen itzala!</p>
+<p>Gaztea nozu bizitz onetan</p>
+<p>t'ez yatan palta gauzarik.</p>
+<p>Jauna!, gogorra aldi onetan</p>
+<p>iges eitea lurretik.</p>
+<p>Ezpedi egin neure oldea,</p>
+<p>zeure naia bai, ostera.</p>
+<p>Gogoa boa zeru argira,</p>
+<p>gorputza lur illunera.</p>
+<p><mentioned> 1937</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>GARBAIA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>Urtzi'ren asarrea</hi></p>
+<p>I. Neure begi onein errukizko aterpetik jaurtiko zaitut; dongeen bideetan, ba, oles-egin dozu: &laquo;An mendi garaienetako gerizpe gozotan, Urtzi lo-zorroan datza.</p>
+<p>II. Lurrezko etxe oneitan jan-edan bai?, eta jolastu gaitezan, geure so&ntilde;u otsik ezpaidau entzungo, Aren alki inguruan aize adartsua dabil-eta&raquo;.</p>
+<p>III. Ba&ntilde;a zerua baizen zabala Neure belarria da-ta, aizerik meenak orri sortu-barriari zelako itza esaten dautsoen, be, entzun dagiket.</p>
+<p>IV. Neskutz baten antzaz oroimena bideratu yatzun gri&ntilde;akin, ordea, batzarra egin ondoren, i&ntilde;oiz ikutu gabeko emazte, oean ilta itxi zendun.</p>
+<p>V. Oin azkarrakaz dabiltzanai, guzurra euren mingain ertzetan orratza legez darabillenai oyu-egi&ntilde;az esan zeutsoen: &laquo;Txaloegin, geure janaria garraztu eta edaria mingoztuten ebazana illotz daukogu&raquo;.</p>
+<p>VI. Eta zer? Negartsuen deiak ez ote naue biotz-beratzen? Arein zoti&ntilde;ak aintzi&ntilde;era&ntilde;o igon dira eta gatzura ba&ntilde;o garratzago aboan biurtu yataz.</p>
+<p>VII. Urtzi biziduna nazan ezkero, tximista ta trumoi jatsiko nayatzu, neure asarrearen ontzian edaten emon bear dautzut ba.</p>
+<p>VIII. Zabiltzan bide guztietako autsa be, zeure negarrakaz ore-egingo dozu eta lora-artean Neure eztena zer dan esku orreik sentiko dabe. Bai orixe!</p>
+<p>IX. Ezti-kaparra ostu dautsen urobioa legez zeure inguruan nabil; bei-euli zorrotzak zauritu dauan zezena iduri, zelai orreik zear narraikizu.</p>
+<p>X. &laquo;Igaliz beterik nago&raquo; zure baitan di&ntilde;ozu, ba&ntilde;a Neure age luzeak erausiko zaitu eta mutikoak ikolatxoan ibilli ostean aren adarrak geratzen diran antzean izango zara.</p>
+<p>XI. Aberats okitutzat enparantzetan goratzen zaitue, ba&ntilde;a zeure urre-zidarrok neure asarre biziaren dolarean urtuko dodaz eta edaritzat emongo deutzudaz.</p>
+<p>XII. Bai!, aize-oyalak arro, itxasoan ibilli zaite, bere eskumako pitxerra Neure aingeruak iruliko daunian illotzaren odol antza urak artuko dau-ta.</p>
+<p>XIII. Neure asarrean igaroko nazan aldian, mendien belaunak dardar egingo dabe eta goietako oyanak, oyu: Urtzi biziaren azkora-otsak kikiltzen gaitue.</p>
+<p>XIV. Aralar'en neure orrua eta Gorbeia'n neure azkonen olea. Eiztari baten itxuraz nabil eta neure geziakandik etzara aldenduko, paguso bat legez ilgo zaitut ba.</p>
+<p>XV. Zuzentza betearen neurriak eder yatazan ezkero, menperatuak izan diranak deika daukodaz. Arein eskuak eztira alperrik zerurantz jasoten eta euren oinkadak eztira ixilpean galtzen neure jauregi onen zabalunetan.</p>
+<p>XVI. Azokara eroan bear dan bildotsa lau anketatik oraturik loki gogorraz artza&ntilde;ak lotzen daun legez, gaiztakeriaren larretan ikotika zabiltzan ori be, lotuko zaitut.</p>
+<p>XVII. Eta luzakor, ez aztukor nagola jakingo dozu. Urtzi Jaunaren eskuak ludi onek eztauz esitzen; bere begiak ozertzerik eztauka-ta. Bere aintza gogor eskatzen dau. Jainko illa enaz bizia ba&ntilde;o-eta.</p>
+<p><mentioned> (Gasteiz'ko espetxean, 1937)</mentioned></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>&#161;&#161;VEN, SE&Ntilde;OR!!</p><--</head>
+        </front>
+        <body>
+<p><foreign>Se&ntilde;or, &#191;qu&eacute; buscas en mi pecho, </foreign></p>
+<p><foreign>si el alba la cubr&iacute; de lodo? </foreign></p>
+<p><foreign>Tu rastro, que signaba todo, </foreign></p>
+<p><foreign>en ruinas lo dej&eacute; deshecho.</foreign></p>
+<p><foreign>&#191;Qui&eacute;n, Se&ntilde;or, borr&oacute; de mi frente </foreign></p>
+<p><foreign>aquel resplandor de tu Cara </foreign></p>
+<p><foreign>que al espejo del agua clara </foreign></p>
+<p><foreign>prest&oacute; cristal m&aacute;s transparente?</foreign></p>
+<p><foreign>Qu&eacute; bellas fueron mis pisadas </foreign></p>
+<p><foreign>cuando la gracia florec&iacute;a, </foreign></p>
+<p><foreign>en las alas del nuevo d&iacute;a </foreign></p>
+<p><foreign>que rob&oacute; luz en tus miradas.</foreign></p>
+<p><foreign>Cu&aacute;n presto sab&iacute;a tu estancia </foreign></p>
+<p><foreign>y la sombra de tu Figura, </foreign></p>
+<p><foreign>pues una sutil hermosura </foreign></p>
+<p><foreign>me guiaba con su fragancia.</foreign></p>
+<p><foreign>Pero &#191;pasaste por mis huertos, </foreign></p>
+<p><foreign>con tus claros ojos en gracia </foreign></p>
+<p><foreign>para que la flor fuese lacia </foreign></p>
+<p><foreign>y los frutos nacieran muertos?</foreign></p>
+<p><foreign>&#161;No, Se&ntilde;or!, vuelvan tus caminos </foreign></p>
+<p><foreign>con hermosura siempre nueva </foreign></p>
+<p><foreign>y su se&ntilde;al mi amor remueva </foreign></p>
+<p><foreign>para seguir tus pies divinos.</foreign></p>
+<p><foreign>&#161;Ven, Se&ntilde;or!, con secreto viento </foreign></p>
+<p><foreign>tu Esp&iacute;ritu mueva mis ramas, </foreign></p>
+<p><foreign>y con brisas bese las llamas </foreign></p>
+<p><foreign>la paz divina de tu aliento.</foreign></p>
+<p><foreign>Surjan incendios en mi pecho, </foreign></p>
+<p><foreign>que quemen los frutos de muerte. </foreign></p>
+<p><foreign>Tu libertad me ate tan fuerte </foreign></p>
+<p><foreign>que sea tuyo por derecho.</foreign></p>
+<p><foreign>As&iacute;, Se&ntilde;or, tu voz me fuera </foreign></p>
+<p><foreign>&mdash;con la belleza por misiva&mdash; </foreign></p>
+<p><foreign>lleno de perd&oacute;n mientras viva, </foreign></p>
+<p><foreign>lleno de gracia cuando muera.</foreign></p>
+<p><foreign> Sinatua: E. de Urkiaga Lauaxeta</foreign></p>
+<p><foreign> Espetxea: Karmeldarrak. Gasteiz 1937-6-2</foreign></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>PLEGARIA POSTRERA</p><--</head>
+        </front>
+        <body>
+<p><foreign>Virgen Mar&iacute;a, de fulgor me llena </foreign></p>
+<p><foreign>de tus ojos en luz el alba pura. </foreign></p>
+<p><foreign>&#191;Qu&eacute; mieles en flor manan la dulzura </foreign></p>
+<p><foreign>como tus labios al besar mi pena?</foreign></p>
+<p><foreign>Virgen Mar&iacute;a, &#191;qu&eacute; mortal condena </foreign></p>
+<p><foreign>ata las almas en prisi&oacute;n oscura? </foreign></p>
+<p><foreign>Filo de plata tiene tu ternura, </foreign></p>
+<p><foreign>con que corten sin sangre mi cadena.</foreign></p>
+<p><foreign>Sin esperanza mi dolor muriera. </foreign></p>
+<p><foreign>si en tu sonrisa maternal no viera </foreign></p>
+<p><foreign>la libertad en sol con brisas nuevas.</foreign></p>
+<p><foreign>As&iacute; mi llanto se transforma en gracia, </foreign></p>
+<p><foreign>y mi alma, presa en lodos antes lacia, </foreign></p>
+<p><foreign>en flor eterna para Dios renuevas.</foreign></p>
+<p><foreign> 1937</foreign></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>YO LLEVO</p><--</head>
+        </front>
+        <body>
+<p><foreign> <hi rend='Italic'>J.M. - J.T.</hi></foreign></p>
+<p><foreign>Yo llevo entre mi esp&iacute;ritu encendida </foreign></p>
+<p><foreign>la hermosa luz del entusiasmo ardiente; </foreign></p>
+<p><foreign>amo la libertad m&aacute;s que la vida </foreign></p>
+<p><foreign>y no nac&iacute; para doblar la frente,</foreign></p>
+<p><foreign>Por eso estoy aqu&iacute; de altivo y fuerte, </foreign></p>
+<p><foreign>tu fallo espero con serena calma, </foreign></p>
+<p><foreign>porque si puedes decretar mi suerte, </foreign></p>
+<p><foreign>nunca podr&aacute;s envilecerme el alma.</foreign></p>
+<p><foreign>Hiere, yo tengo en la prisi&oacute;n imp&iacute;a </foreign></p>
+<p><foreign>la honradez de mi nombre por consuelo. </foreign></p>
+<p><foreign>&#191;Qu&eacute; me importa no ver la luz del d&iacute;a </foreign></p>
+<p><foreign>si tengo en mi conciencia la luz del Cielo?</foreign></p>
+<p><foreign>&#191;Qu&eacute; importa que entre muros y cerrojos </foreign></p>
+<p><foreign>la luz del sol, la libertad me veles, </foreign></p>
+<p><foreign>si ven celeste claridad mis ojos?</foreign></p>
+<p><foreign>&#191;Si hay algo en m&iacute; m&aacute;s fuerte que tu yugo, </foreign></p>
+<p><foreign>algo que sabe despreciar tus iras </foreign></p>
+<p><foreign>y que no puede sujetar, verdugo, </foreign></p>
+<p><foreign>el terror que a los d&eacute;biles inspiras?</foreign></p>
+<p><foreign>Hiere. Bajo tu l&aacute;tigo implacable, </foreign></p>
+<p><foreign>d&eacute;bil acaso ante el dolor imp&iacute;o, </foreign></p>
+<p><foreign>podr&aacute; flaquear el cuerpo despreciable, </foreign></p>
+<p><foreign>pero jam&aacute;s el pensamiento m&iacute;o...</foreign></p>
+<p><foreign>M&aacute;s fuerte se alzar&aacute;, m&aacute;s arrogante </foreign></p>
+<p><foreign>mostrar&aacute; el golpe del dolor sus galas; </foreign></p>
+<p><foreign>el pensamiento es &aacute;guila triunfante </foreign></p>
+<p><foreign>cuando sacude el hurac&aacute;n sus alas.</foreign></p>
+<p><foreign>No me importa... tu furia es omnipotente, </foreign></p>
+<p><foreign>v&iacute;ctima del placer, sue&ntilde;o de un d&iacute;a </foreign></p>
+<p><foreign>Si todos ante ti doblan la frente, </foreign></p>
+<p><foreign>yo siento orgullo en levantar la mia&raquo;.</foreign></p>
+<p><foreign> (Gazteiz'ko espetxean, 1937).</foreign></p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>&laquo;EL HOME BIEN BARBADO Y BIEN AMOHINADO&raquo;</p><--</head>
+        </front>
+        <body>
+<p><foreign> <hi rend='Italic'>(Para Carlos Zubillaga)</hi></foreign></p>
+<p><foreign>Esta barba cubri&oacute; con su mara&ntilde;a </foreign></p>
+<p><foreign>mi rostro de perfil en calma plena, </foreign></p>
+<p><foreign>mas el mar con borrascas que me llena </foreign></p>
+<p><foreign>en negras ondas mis recuerdos ba&ntilde;a.</foreign></p>
+<p><foreign>Un punto fijo su mirada da&ntilde;a </foreign></p>
+<p><foreign>sin poder enhebrar jam&aacute;s su pena, </foreign></p>
+<p><foreign>la clara frente de amplitud serena </foreign></p>
+<p><foreign>con gesto duro del pensar se empa&ntilde;a.</foreign></p>
+<p><foreign>As&iacute; qued&oacute; trazada mi figura </foreign></p>
+<p><foreign>en el hastio de prisi&oacute;n oscura </foreign></p>
+<p><foreign>mientras su fin con fe viril aguarda.</foreign></p>
+<p><foreign>No te extra&ntilde;e del &laquo;home bien barbado&raquo;, </foreign></p>
+<p><foreign>pasa, pues en su pecho al sol cerrado </foreign></p>
+<p><foreign>la miel en flor para el amigo guarda.</foreign></p>
+<p><foreign> <hi rend='Italic'>Amigo Carlos: el demonio mando no tiene...</hi></foreign></p>
+<p><foreign> (E. de Urquiaga)</foreign></p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><mentioned>Bertsio informatiko honen egilea: Josu Lavin; Urkiola, 1-1C 48990 - Getxo (Bizkaia)</mentioned></p>
+        </body>
+      </text>
+    </group>
+  </text>
+</TEI.2>
+

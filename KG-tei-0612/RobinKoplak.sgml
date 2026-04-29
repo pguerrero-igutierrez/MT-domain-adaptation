@@ -1,0 +1,682 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN"
+                       "http://www.tei-c.org/P4X/DTD/tei2.dtd" [
+   <!ENTITY % TEI.prose    'INCLUDE' >
+   <!ENTITY % TEI.linking  'INCLUDE' >
+   <!ENTITY % TEI.analysis 'INCLUDE' >
+   <!ENTITY % TEI.figures  'INCLUDE' >
+   <!ENTITY % TEI.XML      'INCLUDE' >
+   <!ENTITY % TEI.extensions.ent SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.ent' >
+   <!ENTITY % TEI.extensions.dtd SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.dtd' >
+]>
+<TEI.2>
+  <teiHeader>
+  <fileDesc>
+     <titleStmt>
+        <title>Koplak</title>
+        <author>Jean Robin</author>
+        <respStmt>Ez dauka</respStmt>
+     </titleStmt>
+     <extent>2.210 hitz, 15.372 karaktere</extent>
+     <publicationStmt>
+        <publisher>Klasikoen Gordailua [http://klasikoak.armiarma.com/]</publisher>
+        <distributor>Estrata Liburuak S.L.</distributor>
+        <address type='email'>klasikoak@armiarma.com</address>
+        <idno type='ota'>RobinKoplak</idno>
+        <availability status='free'>Erabilpen librekoa; honoko helbidean topa daiteke (HTML, RTF eta PDF formatuetan): http://klasikoak.armiarma.com/idazlanak/R/RobinKoplak.htm</availability>
+        <date>2006</date>
+     </publicationStmt>
+     <sourceDesc>
+        <bibl>Iturria: Bertsolaritzaren historia II, (Patri Urkizuren edizioa). Etor, 1991</bibl>
+        <notesStmt><note>Iturburuen datazioa: 1758-1821</note></notesStmt>
+     </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+     <projectDesc>Euskal literaturako testu klasikoen bilduma da KLASIKOEN GORDAILUA; testu hau berorren parte da</projectDesc>
+     <refsDecl>
+        <p>MENTIONED etiketa egilearenak ez diren hitzak markatzeko erabili da: hitzaurreak, aipuak, iruzkinak, e.a.</p>
+    </refsDecl>
+     <classDecl>
+        <taxonomy id='generoa'>
+            <category id='G-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='G-ANT'><catDesc>Antzerkia</catDesc></category>
+            <category id='G-BER'><catDesc>Bertsoak</catDesc></category>
+            <category id='G-ERL'><catDesc>Erlijioa</catDesc></category>
+            <category id='G-NAR'><catDesc>Narratiba</catDesc></category>
+            <category id='G-POE'><catDesc>Poesia</catDesc></category>
+            <category id='G-SAI'><catDesc>Saiakera, kronika, artikuluak...</catDesc></category>
+        </taxonomy>
+        <taxonomy id='garaia'>
+            <category id='M-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='M-16'><catDesc>XVI. mendea</catDesc></category>
+            <category id='M-17-1'><catDesc>XVII. mendea - 1. erdia</catDesc></category>
+            <category id='M-17-2'><catDesc>XVII. mendea - 2. erdia</catDesc></category>
+            <category id='M-18-1'><catDesc>XVIII. mendea - 1. erdia</catDesc></category>
+            <category id='M-18-2'><catDesc>XVIII. mendea - 2. erdia</catDesc></category>
+            <category id='M-19-1'><catDesc>XIX. mendea - 1. erdia</catDesc></category>
+            <category id='M-19-2'><catDesc>XIX. mendea - 2. erdia</catDesc></category>
+            <category id='M-20-1'><catDesc>XX. mendea - 1. erdia</catDesc></category>
+            <category id='M-20-2'><catDesc>XX. mendea - 2. erdia</catDesc></category>
+        </taxonomy>
+        <taxonomy id='euskalkia'>
+            <category id='E-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='E-BAT'><catDesc>batua</catDesc></category>
+            <category id='E-BIZ'><catDesc>bizkaiera</catDesc></category>
+            <category id='E-BNA'><catDesc>behenafarrera</catDesc></category>
+            <category id='E-ERR'><catDesc>erronkariera</catDesc></category>
+            <category id='E-GIP'><catDesc>gipuzkera</catDesc></category>
+            <category id='E-GNA'><catDesc>goi nafarrera</catDesc></category>
+            <category id='E-LAP'><catDesc>lapurtera</catDesc></category>
+            <category id='E-NAF'><catDesc>nafarrera</catDesc></category>
+            <category id='E-ZAR'><catDesc>zaraitzuera</catDesc></category>
+            <category id='E-ZUB'><catDesc>zuberera</catDesc></category>
+        </taxonomy>
+    </classDecl>
+  </encodingDesc>
+  <profileDesc>
+     <textClass>
+       <keywords scheme='generoa'>
+         <list><item>G-POE</item></list>
+       </keywords>
+       <keywords scheme='garaia'>
+         <list><item>M-18-2</item></list>
+       </keywords>
+       <keywords scheme='euskalkia'>
+         <list><item>E-LAP</item></list>
+       </keywords>
+     </textClass>
+  </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>Koplak -- Jean Robin</docTitle>
+    </front>
+    <group>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>ANDREN APHAINDURAZ</p><--</head>
+        </front>
+        <body>
+<p>Setiatuak gabeaz,</p>
+<p>Izituak gerlateaz,</p>
+<p>Melankonian ez erortzeko</p>
+<p>Gaiten arin kantatzeaz.</p>
+<p>Ez da ez berdin sujeta</p>
+<p>Gure herrietan falta:</p>
+<p>Mende huntako andderei esker,</p>
+<p>Badakigu nola dosta.</p>
+<p>Bion daiola modari</p>
+<p>Bai halaber modistari,</p>
+<p>Sortzeak eskas eman guzien</p>
+<p>Hura dugu konpligarri.</p>
+<p>Oi, zenbat duen sekretu</p>
+<p>Nahi bada probetxatu!</p>
+<p>&Ntilde;a&ntilde;o berez jigante egiteko,</p>
+<p>Behar den guzia badu.</p>
+<p>Marianak nahi baitu</p>
+<p>Hedoiak buruz ukhitu,</p>
+<p>Girgileriaz eginikako</p>
+<p>Ustai erdi bat aski du.</p>
+<p>Baldin beldur bada-arroxa</p>
+<p>Dorrea haizeak etxa,</p>
+<p>Jendek hirririk ez egiteko,</p>
+<p>Huna molde bat errexa.</p>
+<p>Zimendutzat eman betzo</p>
+<p>Zenbeit istupa xorointto,</p>
+<p>Segoz hek ongi gantzutu geroz</p>
+<p>Haizeaz da trufatuko.</p>
+<p>Heldu bazaio dorrera</p>
+<p>Marmalorik tentatzera,</p>
+<p>Hei jazartzeko badire-ezpatak</p>
+<p>Eginak moda berrira.</p>
+<p>Ez nik, oihuz dio, ez nik</p>
+<p>Horlako ausartziarik,</p>
+<p>Beldur ninteke zenbeit gaztigu</p>
+<p>Izan nezaken zerutik.</p>
+<p>Marianak asmu hau du</p>
+<p>Entzun orduko gustatu,</p>
+<p>Ordean arroxa lagun nahiz</p>
+<p>Huna nola zaion lothu.</p>
+<p>Ago ixilik sinplea,</p>
+<p>Hori dun bada-erratea:</p>
+<p>Gure grekak ez ditun hain gora</p>
+<p>Nola Babelgo dorrea.</p>
+<p>Horla behar ditinagu</p>
+<p>Gizon gaizoak tronpatu:</p>
+<p>Nahi ez bahaiz hainitz bezala</p>
+<p>Bethi neskatxa urdindu.</p>
+<p>Hi behar haiz, hi, ixildu</p>
+<p>Edo nerekin aithortu,</p>
+<p>Mutzurdin hanbat ez leitekela</p>
+<p>Ez balitz hanbat aphaindu.</p>
+<p>Nongo gaztea, nahi dun,</p>
+<p>Zin zinez hurbil dakigun,</p>
+<p>Gure kan [...] ikusi eta</p>
+<p>Laster gibela goanen dun.</p>
+<p>Herrian nork ez othe du</p>
+<p>Nik diodana frogatu?</p>
+<p>Zenbaitek ez dituzte senaitzat</p>
+<p>Bere parurak izatu?</p>
+<p>Othe da bada Laphurdin</p>
+<p>Hautan bezanbat mutzurdin?</p>
+<p>Halaber ez dakusat badela</p>
+<p>Nihon hain bertze berregin.</p>
+<p>Ikusazue Katixak</p>
+<p>Zein gora tuen fontantxak</p>
+<p>Bada ez omen tu beherago</p>
+<p>Manatu kalendabuxak.</p>
+<p>Huna non den berregina</p>
+<p>Iduri andre-erregina,</p>
+<p>Damu-gaixtorik ez du izanen</p>
+<p>Espostzat zenbeit dauphina.</p>
+<p>Ez ahal da aldarerik</p>
+<p>Hau bezala aphaindurik?</p>
+<p>Aranzazuko birjinak ere</p>
+<p>Deus ez du hurbilekorik.</p>
+<p>Elizan da ikusiko</p>
+<p>Bertze guziez gorago:</p>
+<p>Arren da tenplu sainduarentzat</p>
+<p>Errespetuz estaliko.</p>
+<p>Ethorri zaio dolua</p>
+<p>Ordutik du mandelua,</p>
+<p>Munduko legeak nahi baitu</p>
+<p>Ibil dadin kukuldua.</p>
+<p>Hauk duk hire ohorea,</p>
+<p>O mundu dohakabea!</p>
+<p>Jaunaren ministroen gainetik</p>
+<p>Hik daramak, hik, florea.</p>
+<p>Predikariak gaur goitik</p>
+<p>Ahal dagozke ixilik</p>
+<p>Elizak bere men aldetik</p>
+<p>Ez duen zauri berririk.</p>
+<p>Handitarik xumetara</p>
+<p>Andren [...] sehitara,</p>
+<p>Heldea nota gaitz hau da hala</p>
+<p>Banatu guzietara.</p>
+<p>Getaria andreari</p>
+<p>Ezin jarraik eta nahi</p>
+<p>Estofaz ez bada fazoinaz du</p>
+<p>Madama handi iduri.</p>
+<p>Pegarrekoek hain guti</p>
+<p>Nahi dute parrik utzi</p>
+<p>Lehiaz guziak hari dire</p>
+<p>Zein ederkienik jauntzi.</p>
+<p>Etxetarik ethortzean</p>
+<p>Zirrikituna soinean</p>
+<p>Doidoia zakiten animatzen</p>
+<p>Motho bat buru gainean.</p>
+<p>Hala baitziren aspaldi,</p>
+<p>Aprendizkotarik ilkhi:</p>
+<p>Tinun baten moldatzeko orai,</p>
+<p>Non artexagorik aurkhi?</p>
+<p>Ez da buru pelaturik,</p>
+<p>Ez eta kasko murritzik,</p>
+<p>Alegiako tupeta zenbeit</p>
+<p>Egiten ez dakienik.</p>
+<p>Adi zazue zer duten</p>
+<p>Ilen azpian ematen,</p>
+<p>Istupa, xanpela, eta zurda</p>
+<p>Bertzerik ez da ikusten.</p>
+<p>Holakoz dire eginak</p>
+<p>Antantur eta tinunak,</p>
+<p>Funts hortan dohaz gure arbaso</p>
+<p>Xoratuen tuntinak.</p>
+<p>Balitz ontasun gosea</p>
+<p>Greken antolatzailea</p>
+<p>Urthea gabe egin lezake</p>
+<p>Dorrearekin etxea.</p>
+<p>Petenta saltzaileak du</p>
+<p>Bere botika berretu</p>
+<p>Zorionean egun batez zen</p>
+<p>Gure herrira agertu.</p>
+<p>Gure sehien soldata</p>
+<p>Damurik hobea ez da:</p>
+<p>Zirikuz egin eskularruak</p>
+<p>Ez lituzkete ez falta.</p>
+<p>Gabe hargatik ez dire</p>
+<p>Lonazkoak bada ere.</p>
+<p>Brasadatic lephora-iguzkiak</p>
+<p>Eskuak beldurrez erre.</p>
+<p>Hitz batez dituztenean</p>
+<p>Zapata gonak soinean,</p>
+<p>Baionako panpinak diduri</p>
+<p>Ditutzula aitzinean.</p>
+<p>Aparailu eder hortan,</p>
+<p>Besta eta igandetan,</p>
+<p>Bide berritan laurazka dire,</p>
+<p>Ikusiko pasaietan.</p>
+<p>Nola othe dute ahantzi</p>
+<p>Etxetan zer duten utzi.</p>
+<p>Haintzur, jormaiak. Helaz, hetara,</p>
+<p>Behar dire berdin jautsi.</p>
+<p>Nihor bada ene koplez</p>
+<p>Estomakatzen suertez,</p>
+<p>Goragalea khentzeko dire</p>
+<p>Soberanoak ordainez.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>ZER EGIN ZARE KOPLARI ZAHARRA</p><--</head>
+        </front>
+        <body>
+<p>Zer egin zare koplari zaharra,</p>
+<p>Gure andderen xaxari suharra,</p>
+<p>Zure antzearen eta donuaren</p>
+<p>Behar handi ginduke, hemen gaude eske,</p>
+<p>Hel bada arren.</p>
+<p>Donibaneko Panpina berriak</p>
+<p>Zu entzun nahiz daude egarriak.</p>
+<p>Gure bezinoak, zubiburukoak</p>
+<p>Ez dauzka gutiago zure aditzeko</p>
+<p>Hirrits handiak.</p>
+<p>Herdoildua dut, diozu, antzea</p>
+<p>Ahantzi nuen kopla moldatzea,</p>
+<p>Haren xerdentzeko eta zorrotzteko</p>
+<p>Ezta ez Bergararik, ez Gagne-petitik</p>
+<p>Aski jakinik.</p>
+<p>Egun bakhoitzak dautzu hornituko,</p>
+<p>Erran gai franko bersu moldatzeko.</p>
+<p>Perma zaite, beraz, ez egon ikharaz,</p>
+<p>Ordean zuri lana, hartzen duzun pena</p>
+<p>Zazu pagaraz.</p>
+<p>Horra Katixak non tuen ahantzi</p>
+<p>Bere funtantxak bazterrera utzi,</p>
+<p>Muthil bat bezala manda-zain bat nola,</p>
+<p>Buru-murritz dabila, ahantzten duela</p>
+<p>Neskatxa dela.</p>
+<p>Mairu-herritan ez, ez da ikusten</p>
+<p>Guk mende huntan duguna miresten:</p>
+<p>Han emakumea zahar bai gaztea,</p>
+<p>Estalirik dabila, gogor daukala</p>
+<p>Bere idola.</p>
+<p>Ifernuak, bai hark bakharrik du</p>
+<p>Oraiko moda itsusia asmatu.</p>
+<p>Nongo portaletek, nongo erretaulek</p>
+<p>Hanbat dute eskandala ematen bai nola</p>
+<p>Khristau-alabek?</p>
+<p>Esku batean zakhutto bat dute,</p>
+<p>Zeina Ridikul deitzen baidute,</p>
+<p>Erran-komuna da gure zaharrena,</p>
+<p>Jabea irrigarri tresnek hau iduri,</p>
+<p>Imasun propi.</p>
+<p>Gure Zezili, oi, zer ikuskari!</p>
+<p>Beso guzia dabila ageri:</p>
+<p>Hezur puska batzu beltz eta hiratu,</p>
+<p>Jitano bat iduri, bain da nardagarri,</p>
+<p>Gure Zezili.</p>
+<p>Orai, zer othe da eskas bertzerik,</p>
+<p>Gizon arropak manatzea baizik?</p>
+<p>Emazteki antza, neskatxaren traza,</p>
+<p>Osoki ahantzteko eta borratzeko</p>
+<p>Behin bethiko.</p>
+<p>Tenplu sainduan, aingeruen balsan,</p>
+<p>Ikusiko da aparailu hortan.</p>
+<p>Jainkoaz, munduaz, lurraz, ifernuaz,</p>
+<p>Guziez da burlatzen, kopeta du ezen</p>
+<p>Gora altxatzen.</p>
+<p>Jende xeheak ezin aldarerik</p>
+<p>Ikus dezake andre hunen gatik;</p>
+<p>Burua du arin, ttinpla baten berdin,</p>
+<p>ezkila dorrekotzat, haize seinaletzat</p>
+<p>Non hulakorik?</p>
+<p>Bere kadirak beldurrez min egin</p>
+<p>Lumatxatto bat behar du eragin:</p>
+<p>Baten gaitza dena bertzearen ona,</p>
+<p>Hor du janbon gaizoa ofiziokoa,</p>
+<p>Eta fetxoa.</p>
+<p>Azkenaz goiti gizonak behar du</p>
+<p>Soilarutarik ahalkez urrundu:</p>
+<p>Han, han, istapeka eta zein lehenka,</p>
+<p>Ohi dire ikusten dutela ahantzten</p>
+<p>Andre izaten.</p>
+<p>Ah! Jaun-aphezek, hain xuxen khoroa</p>
+<p>Baitute hirur sarrailetakoa.</p>
+<p>Bertzenaz sartzera leitezke mentura,</p>
+<p>Bertze guziak baino jarriak gorago</p>
+<p>Han izateko.</p>
+<p>Eri gaixki da gure mundutarra,</p>
+<p>Aphezetara laster deihadarra:</p>
+<p>Orduan, nigarrez, hiltzeko beldurrez;</p>
+<p>Moda du, bere ustez, higintzen zin-zinez,</p>
+<p>Bainan gezurrez.</p>
+<p>Itzur bekio herio latzari,</p>
+<p>Gure eria nor den da ageri:</p>
+<p>Madalen falsoa, alegiakoa,</p>
+<p>Madalena ezpainez, mundutarra obrez,</p>
+<p>Eta bihotzez.</p>
+<p>Gure erheztunak galdu ziren arren</p>
+<p>Hemen ditugu erhiak, bai hemen:</p>
+<p>Zorrak zor-tegira jauntz gaiten modara,</p>
+<p>Gaiten oraino dosta, zer nahi den gosta,</p>
+<p>Gaiten bai dosta.</p>
+<p>Ezin bertzean, zahar garenean,</p>
+<p>Mundua gutaz aseko denean,</p>
+<p>Jainkoari gaizko emanen bethiko</p>
+<p>Jauts gaiten orai mail bat beherago,</p>
+<p>Zer iragaten den han ikusteko.</p>
+<p>Estofa ez bada, badute fazoina,</p>
+<p>Ez baditezke andre, bederen anddere,</p>
+<p>Agertzen dire.</p>
+<p>Lehen, kopeta diztiarazteko,</p>
+<p>Oi, zer arraultze freskoren xuringo!</p>
+<p>Orai, edergailu bisaiak behar du,</p>
+<p>Ile zenbeit dilindan, ordena herrunkan</p>
+<p>Eta konpasan.</p>
+<p>Kotoin marratu, angeles xuria,</p>
+<p>Etxaie aski gainekotz propia:</p>
+<p>Zerbeit gehiago behar agertzeko,</p>
+<p>Pekina da sobraxa, perkala gutixe,</p>
+<p>Legez gutixe.</p>
+<p>Gure Maria da saldu nahia,</p>
+<p>Hargatik dauka botika idekia:</p>
+<p>Jende beretzeko eta azipatzeko,</p>
+<p>Non da merkataririk, non arrantzalerik</p>
+<p>Hunen parerik?</p>
+<p>Apastatzat du begitarte ona,</p>
+<p>Eta amutzat soinik ederrena:</p>
+<p>Hula zurikatzen, hula du peskatzen,</p>
+<p>Gizon atun gaizoa, Piarres tontoa,</p>
+<p>Hula peskatzen.</p>
+<p>Besta egunetan, bezpera denboran,</p>
+<p>Mundu guzia delarik elizan,</p>
+<p>Zaiku aphainduko pasaietarako,</p>
+<p>Neskatxa lagunekin, galaia berekin</p>
+<p>Da ibiliko.</p>
+<p>Ez karrika, ez, ezta zabal aski,</p>
+<p>Lerro handi hau ezin du iduki,</p>
+<p>Besoz-beso dohaz, hirriz, bai karkaraz,</p>
+<p>Jendeak darasala, ez dute axola,</p>
+<p>Zer nahi dela.</p>
+<p>Koplari jauna, goazen sehitara,</p>
+<p>Eta lehenik nafartarretara:</p>
+<p>Huna, Antonia, horra hor Maria,</p>
+<p>Hunakoan ikatzkin, laster dira egin</p>
+<p>Andre berregin.</p>
+<p>Gure sehiak, guziz nafartarrak,</p>
+<p>Etxeko-andren portalet ber-berak.</p>
+<p>Oi, nola dabiltzan igande, beztetan,</p>
+<p>Zinta gorri bat gora, bertze bat behera</p>
+<p>Gure kaletan.</p>
+<p>Baldin miraila libro ez badute,</p>
+<p>Tirrina bat ur orobat zaiote:</p>
+<p>Han du Antoniak, han gure Mariak,</p>
+<p>Ikusten arpegia, duenetz garbia,</p>
+<p>Eta xuria.</p>
+<p>Aitak alaba nekhez ezagutzen,</p>
+<p>Hain mudatua ezen du topatzen,</p>
+<p>Orhaze fin hutsa, flokatzat arrosa,</p>
+<p>Buztana feraturik, xala bat jauntzirik,</p>
+<p><foreign> &agrave; la francesa.</foreign></p>
+<p>Etxelartarrak, urdazuriarrak,</p>
+<p>Ezin ezagut bere herritarrak:</p>
+<p>Hemen dire ezen bertzela aphaintzen.</p>
+<p>Buztana feraturik, xala bat jauntzirik,</p>
+<p><foreign> &agrave; la francesa.</foreign></p>
+<p>Laphurdikoak balinba ez dio</p>
+<p>Nafartarrari amorrik utziko:</p>
+<p>Petenta arrundak lephoan xerrendak,</p>
+<p>Urrezko gathe ordez letoina badute</p>
+<p>Berdin zaiote.</p>
+<p>Nonbeit handia behar da soldata,</p>
+<p>Urthe-berriko joria presenta;</p>
+<p>Non dik hanbat briju eta edergailu?</p>
+<p>Nihork galde ez beza, berak pausa beza,</p>
+<p>Pensa, bai, pensa.</p>
+<p>Gure matronak begoz direnentzat,</p>
+<p>Sobra dakite andre hek beretzat:</p>
+<p>Oxala burkuak, azukre, kakauak,</p>
+<p>Utz-liotzoten libro, kikera hutsteko</p>
+<p>Ausarkiago.</p>
+<p>Luietan dire mundu huntan bizi,</p>
+<p>Bi parabisu nahiz irabazi,</p>
+<p>Oi, zein gustu ona gure matronena,</p>
+<p>Sasia badezate konpli eta bethe,</p>
+<p>Hain gustu ona.</p>
+<p>Eta papur sobrak</p>
+<p>ditu hartuko.</p>
+<p>Ama prudentak alaba nahi du</p>
+<p>Lehen bai lehen baitezpada saldu.</p>
+<p>Feria nihon da, gure haurra han da,</p>
+<p>Satanen maximekin, ponpa guziekin</p>
+<p>Eta obrekin.</p>
+<p>Aitabitxiak eta amabitxiak,</p>
+<p>Harentzat egin agintza guziak,</p>
+<p>Han ditu ukhatzen eta ostikatzen,</p>
+<p>O alaba, o ama, nork othe darama</p>
+<p>Zuen arima?</p>
+<p>Zu, tronpetari Jainko gorarena,</p>
+<p>Haren mezuen kridari zarena;</p>
+<p>Altxa boza gora, ez ixil, ez bara,</p>
+<p>Hertxa aldez bai moldez, bortxa-eta amorez,</p>
+<p>Othoitz, nigarrez.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>LARRUNEN BAZKAL-ONDOKO DESERTA</p><--</head>
+        </front>
+        <body>
+<p>Non othe naiz ni aurkhitzen,</p>
+<p>Zer zorion dut dastatzen?</p>
+<p>Konpainia maitagarri batek</p>
+<p>Oihuz nau abiarazten.</p>
+<p>Izpiritu Larrungoa,</p>
+<p>Esker dautzut bethikoa,</p>
+<p>Zure bidez baitut iragaten</p>
+<p>Egun bat dohatsuzkoa.</p>
+<p>Beha dezadan inguru,</p>
+<p>Lorietan naiz mukuru:</p>
+<p>Jende plantez setiatua,</p>
+<p>Beharrik nintzela sorthu.</p>
+<p>Ermitau bat dut ikusten</p>
+<p>Mortura ihes egiten,</p>
+<p>Ejiptokoa, ohi bezala,</p>
+<p>Debotez hau du publatzen.</p>
+<p>Aphez, Beata Birjina,</p>
+<p>Kalostretan nahi dena,</p>
+<p>Munduko batekin banuke</p>
+<p>Ikuskari konpliena.</p>
+<p>Bistaren kontentatzeko,</p>
+<p>Batzarraren osatzeko,</p>
+<p>Dohainaren begira daudenak</p>
+<p>Zenbat ez dut aurkhituko?</p>
+<p>Atsegin emendagarri,</p>
+<p>Gauza bat da miragarri,</p>
+<p>Apetitu bat baita ikusteko</p>
+<p>plat-guzien xukhagarri.</p>
+<p>Ez, ez, esker mendiari,</p>
+<p>Bai ordean jan gauzari:</p>
+<p>Hortzak khamutsak ez baditugu</p>
+<p>Zordun gaizko Mariari.</p>
+<p>Bion daizula Maria,</p>
+<p>Zaren luzaro bizia:</p>
+<p>Gose-eztenari janarazteko</p>
+<p>Antze duzu berezia.</p>
+<p>Urthubiako friantak,</p>
+<p>Zer dire zuen Banketak?</p>
+<p>Gure Mariak ahantzten ditu</p>
+<p>Zuen kuziner balentak.</p>
+<p>Xokatua Bizkondea</p>
+<p>Bai haren gorthea</p>
+<p>Desafio ematen dautzute,</p>
+<p>Gure Maria andrea.</p>
+<p>Duzularik abantaila,</p>
+<p>Dudarik ez den bezala,</p>
+<p>Zure espostzat da erregeren</p>
+<p>Sukhaldeko prinzipala.</p>
+<p>Hauxe da, hauxe dohaina,</p>
+<p>Ardietsi duzun oina;</p>
+<p>Larrungo tupinan egin zare</p>
+<p>Kuzineren erregina.</p>
+<p>Zu horla lausengaturik,</p>
+<p>Gu ere bai dostaturik,</p>
+<p>Larrungo San Miguelen kapera</p>
+<p>Ez dago berregindurik.</p>
+<p>Dugun, beraz, abiadan,</p>
+<p>Zerbaitto eman ofrendan:</p>
+<p>Gerthakari gaixtotik Jainkoak</p>
+<p>Gaitzan iduk bere goardan.</p>
+<p>Orai presuna gazteak,</p>
+<p>Orai zerura galdeak,</p>
+<p>Hurbil den huntan eska detzagun</p>
+<p>Bakhotxak dohain gureak.</p>
+<p>Zu, Maria, altxaturik,</p>
+<p>Gu ere bai dostaturik,</p>
+<p>Etxeko andre Ihartzetakoa,</p>
+<p>Ez dago horla pagurik.</p>
+<p>Gure ostaler zalduna,</p>
+<p>Hirriz kontent etzarena,</p>
+<p>Erraguzu abiatu gabe,</p>
+<p>Zer den gure penarena.</p>
+<p>Galdetu duzu korteski,</p>
+<p>Horra bada guk bizarki:</p>
+<p>Jainkoari gomenda gaitzatzu,</p>
+<p>Arren goazen dohatsuki.</p>
+<p>Agur beraz, zaude brabo,</p>
+<p>Berriz ikus arteraino:</p>
+<p>Goiz onik baizen ezin dukezu</p>
+<p>Larrun hauzo dukezuino.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>APHEZ JURATUAK</p><--</head>
+        </front>
+        <body>
+<p>Altxa dezagun boza eta kanta gora,</p>
+<p>Bertsu estranjer batzu detzagun fagora:</p>
+<p>Ez nauzu deklaratzen nor duten autora,</p>
+<p>Ala den bikaria, ala den erretora.</p>
+<p>Zu zaitut materia, monsieur Iharasarri,</p>
+<p>Nazioneak fidel zaitu bere zerbitzari.</p>
+<p>Nola behatzen diozu gure Elizari,</p>
+<p>Trublatua zabiltza haren gerizari.</p>
+<p>Uste duzu lehen duzula burua,</p>
+<p>Kasik gobernua ere diozula mundua:</p>
+<p>Hainitz bolanta duzu, o sendimendua,</p>
+<p>Utzi duzunaz geroz gure aita seindua.</p>
+<p>Theologian zinen denboraz profesor,</p>
+<p>Orduan baitzinduen orotarik agur.</p>
+<p>Sujet handiak-ere zure ziren beldur,</p>
+<p>Argumentalaz geroz ez baitziren segur.</p>
+<p>Lauda ere zinitzaket bazinu merezi.</p>
+<p>Bainan etsaiak daitzu oro galarazi.</p>
+<p>Lehen xismatikoetan zu zinen berezi,</p>
+<p>Aita seindu maiteari erranik goraintzi.</p>
+<p>Monsieur Iharasarri, Agerreko apheza,</p>
+<p>Berthute gabea da orai zure meza.</p>
+<p>Juramentu beltz hori turna bazineza,</p>
+<p>Egundaino bezala zinitake preza.</p>
+<p>Zure baithan sar zaite eta eman gogora</p>
+<p>Gisa hortan zoazila leziaren ondora.</p>
+<p>Karitatez mintzao da legiaren autora,</p>
+<p>Imita dezazula Kanboko erretora.</p>
+<p>Larrasoron bikari, monsieur Gorriti,</p>
+<p>Hura ere ibili da goiti eta beheiti.</p>
+<p>Hark bezala egizu zuk ere prudenki,</p>
+<p>Flakatasun handiaz duzula urriki.</p>
+<p>Exhorta zazu buru arin laguna,</p>
+<p>Azantzako apheza, Sorhondoko xalduna:</p>
+<p>Zuentzat ilhundu da argizko egia,</p>
+<p>Legean fermu gaudenek orok dakiguna.</p>
+<p>Monsieur Iharasarri, aditu dut berria.</p>
+<p>Hiriarti kita-arazi diozula herria...</p>
+<p>Baldin hartu izan balu zuk duzun legea,</p>
+<p>Baliatuko zaukon jaun hari egia.</p>
+<p>Ala finki baituzu egina botua,</p>
+<p>Soberanoaren kontra arras gogortua:</p>
+<p>Damurik izan zare mundurat sorthua,</p>
+<p>Estola, kasolaz Jaunak sakratua.</p>
+<p>Monsieur Marithurri, Senperen erretor,</p>
+<p>Zu bezain prest izan da hura ere erorkor.</p>
+<p>Erregeen erregia ezta ez ahantzkor,</p>
+<p>Hala gertha baledi oraino nonbait hor.</p>
+<p>Zu estonatzen naiz, monsieur Duronea,</p>
+<p>Horren maite duzunez bada ilhunbea,</p>
+<p>Itzul-azu gu gana, o! desirkundea,</p>
+<p>Zuzen nahi baduzu zeruko bidea.</p>
+<p>Erretretan sar zaite zure lagunekin,</p>
+<p>Pobreak sokorrituz zenbait barurekin,</p>
+<p>Mundura sorthu zinen donurekin,</p>
+<p>Soberanoa eman da hainitz damurekin.</p>
+<p>Bihotzez egizue, o! nigar marraska,</p>
+<p>Dugun aita seindua barne onez besarka,</p>
+<p>Hari sumeti zaite joan gabe hasarka,</p>
+<p>Parabisura goazen guziak, galtzarka.</p>
+<p>Bertsu huntan mintzo naiz monsieur Larrondori,</p>
+<p>Nola gogortu zaien Senperen orori,</p>
+<p>Aristokratek dezagun guziek sokorri,</p>
+<p>Zeren juramentura ez baita erori.</p>
+<p>Bera eskapatu da hainitzen artetik,</p>
+<p>Ardi-inozenta nola otsoen artetik.</p>
+<p>Legean fermu dago Jesu-Kristo gatik,</p>
+<p>Beraz laudagarri da, guzien gainetik.</p>
+<p>Flako, miserablea, non zare, Etxeberri,</p>
+<p>Munduari eragin diozu zenbait irri,</p>
+<p>Zure erretoria oraino ezta ageri,</p>
+<p>Paperak ornen dira urerat erori.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>NAZIONEKO BESTA SENPEREN</p><--</head>
+        </front>
+        <body>
+<p>Senperen egin dute besta bat handia:</p>
+<p>Deklaratzera noha, guziek guardia.</p>
+<p>Jaun erretorak ditu oro gomitatu,</p>
+<p>Nazioneko besta dute ohoratu.</p>
+<p>Atso zahar batzuek, ongi aphaindurik,</p>
+<p>Plazala bildu dira, elgar aditurik,</p>
+<p>Ikhusi dutenean han eztela deusik,</p>
+<p>Ostatura joan ziren, bihotzak ilhunik.</p>
+<p>Ostatuan sartzian, etxeko jaunari</p>
+<p>Atsoek erran diote: &laquo;Hots, fite, Bettiri,</p>
+<p>Gaur besta handi dugu, iguzu jatera,</p>
+<p>Juan behar dugu gero guziek plazara&raquo;.</p>
+<p>Bazkaiteko denboran, batak bertzeari</p>
+<p>Oihu egiten zuten: &laquo;Hire graziari!</p>
+<p>Bibe nazionea!&raquo; zioten gogotik,</p>
+<p>&laquo;Gaztetan eztun orai gu bezalakorik&raquo;.</p>
+<p>Bazkaldu direnian atso gaztetuak,</p>
+<p>Kontrapasetan dire hasi zoratuak:</p>
+<p>&laquo;Hots, begira huts-egin&raquo;, zioten atsuek,</p>
+<p>&laquo;Dostatu behar dugu gaur hemen guziak&raquo;.</p>
+<p>Dantzatu direnenan, arbaso zaharrak</p>
+<p>Kanporat ilki dira, husturik sakelak;</p>
+<p>Plazan arribatzean, bisaiak gorririk,</p>
+<p>Mundu guzia zagon irriz zabaldurik.</p>
+<p>Jaun erretora berriz leihorat etorri,</p>
+<p>Handik konplimenduka zitzaie hasi:</p>
+<p>&laquo;Hots, ene haurrak, orai hor dantza zaitezte,</p>
+<p>Ni ere zuiekilan abia nindaite&raquo;.</p>
+<p>Atsoek errepusta jaun erretorari:</p>
+<p>&laquo;Zu beharko zaitugu ororen gidari!&raquo;.</p>
+<p>Emaiten da trunkoa aintzingidaritzat,</p>
+<p>Atso zahar guzien gobernatzailetzat.</p>
+<p>Hasi zenean beraz trunkoa dantzatzen,</p>
+<p>Gure atso guziak irriz eman ziren,</p>
+<p>Bere esku zimurrak emanik hanketan,</p>
+<p>Oro begira zauden besta handi hartan.</p>
+<p>Gure atso gaizoak etziren unhatzen,</p>
+<p>Bere artzainarekin oro kontent ziren,</p>
+<p>Ordean heien senhar gaxoak etxean</p>
+<p>Tupina hutsa zuten bathu ilhuntzean.</p>
+<p>Giza-gaizoak ziren plazalat ethorri,</p>
+<p>Bere emazten bilha zoroak iduri.</p>
+<p>Jaun erretorak hori ikhusi orduko,</p>
+<p>Oihu egin zioten baken egiteko.</p>
+<p>&laquo;Zuk, Joanes, edan zazu, zuk ere Domingo,</p>
+<p>Ene eskuietarik zenbait arno trago.</p>
+<p>Bibe nazionea! egizu, zuk, Pello!</p>
+<p>Egun haserratziak deus eztu balio.</p>
+<p>Gizon eta emazte dugun orok edan,</p>
+<p>Basoak trinkaturik omore onean;</p>
+<p>Zoazte elgarrekin guziak bakean&raquo;.</p>
+<p>Besta akabatu zen hola arratsean.</p>
+        </body>
+      </text>
+    </group>
+  </text>
+</TEI.2>
+

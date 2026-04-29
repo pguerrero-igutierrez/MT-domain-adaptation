@@ -1,0 +1,448 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN"
+                       "http://www.tei-c.org/P4X/DTD/tei2.dtd" [
+   <!ENTITY % TEI.prose    'INCLUDE' >
+   <!ENTITY % TEI.linking  'INCLUDE' >
+   <!ENTITY % TEI.analysis 'INCLUDE' >
+   <!ENTITY % TEI.figures  'INCLUDE' >
+   <!ENTITY % TEI.XML      'INCLUDE' >
+   <!ENTITY % TEI.extensions.ent SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.ent' >
+   <!ENTITY % TEI.extensions.dtd SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.dtd' >
+]>
+<TEI.2>
+  <teiHeader>
+  <fileDesc>
+     <titleStmt>
+        <title>Haritxabalet Jaun apezaren gainen</title>
+        <author>Jean Baptiste Constantin</author>
+        <respStmt>Ez dauka</respStmt>
+     </titleStmt>
+     <extent>6.438 hitz, 47.771 karaktere</extent>
+     <publicationStmt>
+        <publisher>Klasikoen Gordailua [http://klasikoak.armiarma.com/]</publisher>
+        <distributor>Estrata Liburuak S.L.</distributor>
+        <address type='email'>klasikoak@armiarma.com</address>
+        <idno type='ota'>ConstantinHaritxaba</idno>
+        <availability status='free'>Erabilpen librekoa; honoko helbidean topa daiteke (HTML, RTF eta PDF formatuetan): http://klasikoak.armiarma.com/idazlanak/C/ConstantinHaritxaba.htm</availability>
+        <date>2006</date>
+     </publicationStmt>
+     <sourceDesc>
+        <bibl>Iturria: Haritchabaletaren bizia / Don Juan eta bere adixkidiak, Jean Baptiste Constantin (Patri Urkizuren edizioa). Euskal Editoreen Elkartea, 1997</bibl>
+        <notesStmt><note>Iturburuen datazioa: 1926</note></notesStmt>
+     </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+     <projectDesc>Euskal literaturako testu klasikoen bilduma da KLASIKOEN GORDAILUA; testu hau berorren parte da</projectDesc>
+     <refsDecl>
+        <p>MENTIONED etiketa egilearenak ez diren hitzak markatzeko erabili da: hitzaurreak, aipuak, iruzkinak, e.a.</p>
+    </refsDecl>
+     <classDecl>
+        <taxonomy id='generoa'>
+            <category id='G-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='G-ANT'><catDesc>Antzerkia</catDesc></category>
+            <category id='G-BER'><catDesc>Bertsoak</catDesc></category>
+            <category id='G-ERL'><catDesc>Erlijioa</catDesc></category>
+            <category id='G-NAR'><catDesc>Narratiba</catDesc></category>
+            <category id='G-POE'><catDesc>Poesia</catDesc></category>
+            <category id='G-SAI'><catDesc>Saiakera, kronika, artikuluak...</catDesc></category>
+        </taxonomy>
+        <taxonomy id='garaia'>
+            <category id='M-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='M-16'><catDesc>XVI. mendea</catDesc></category>
+            <category id='M-17-1'><catDesc>XVII. mendea - 1. erdia</catDesc></category>
+            <category id='M-17-2'><catDesc>XVII. mendea - 2. erdia</catDesc></category>
+            <category id='M-18-1'><catDesc>XVIII. mendea - 1. erdia</catDesc></category>
+            <category id='M-18-2'><catDesc>XVIII. mendea - 2. erdia</catDesc></category>
+            <category id='M-19-1'><catDesc>XIX. mendea - 1. erdia</catDesc></category>
+            <category id='M-19-2'><catDesc>XIX. mendea - 2. erdia</catDesc></category>
+            <category id='M-20-1'><catDesc>XX. mendea - 1. erdia</catDesc></category>
+            <category id='M-20-2'><catDesc>XX. mendea - 2. erdia</catDesc></category>
+        </taxonomy>
+        <taxonomy id='euskalkia'>
+            <category id='E-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='E-BAT'><catDesc>batua</catDesc></category>
+            <category id='E-BIZ'><catDesc>bizkaiera</catDesc></category>
+            <category id='E-BNA'><catDesc>behenafarrera</catDesc></category>
+            <category id='E-ERR'><catDesc>erronkariera</catDesc></category>
+            <category id='E-GIP'><catDesc>gipuzkera</catDesc></category>
+            <category id='E-GNA'><catDesc>goi nafarrera</catDesc></category>
+            <category id='E-LAP'><catDesc>lapurtera</catDesc></category>
+            <category id='E-NAF'><catDesc>nafarrera</catDesc></category>
+            <category id='E-ZAR'><catDesc>zaraitzuera</catDesc></category>
+            <category id='E-ZUB'><catDesc>zuberera</catDesc></category>
+        </taxonomy>
+    </classDecl>
+  </encodingDesc>
+  <profileDesc>
+     <textClass>
+       <keywords scheme='generoa'>
+         <list><item>G-NAR</item></list>
+       </keywords>
+       <keywords scheme='garaia'>
+         <list><item>M-20-1</item></list>
+       </keywords>
+       <keywords scheme='euskalkia'>
+         <list><item>E-ZUB</item></list>
+       </keywords>
+     </textClass>
+  </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>Haritxabalet Jaun apezaren gainen -- Jean Baptiste Constantin</docTitle>
+    </front>
+    <group>
+      <text>
+        <body>
+<p><hi rend='Bold'>Aiphamen llabur bat</hi></p>
+<p><hi rend='Bold'>Haritxabalet</hi></p>
+<p><hi rend='Bold'>Jaun aphezaren ga&ntilde;en</hi></p>
+<p><hi rend='Bold'>J. B. Constantin</hi></p>
+<p><hi rend='Bold'>Santa Graztarrak eginik</hi></p>
+<p><mentioned><hi rend='Italic'>Eskualduna,</hi> 1376. z., 1926-IV-16.</mentioned></p>
+<p>Ziberoan Basaburuko etxalte hobenetarik bat izan da sekulaz geroz Atharratze Haritxabaleta.</p>
+<p>1760ian sorthu zen etxe hartan haur bat batheiarrian Dominika deithurik izan zena.</p>
+<p>Haur hura <hi rend='Italic'>erreboluzione handiaren</hi> uhulgien gatik aphezturen da eta apheza, Erreboluzioneko odol ixurten gatik, gogorki egonen da aphez.</p>
+<p><hi rend='Italic'>Dominika Haritxabalet</hi>ek khorpitzezazkar eta buruz hun izateko abioa bazian.</p>
+<p>Bost, sei urthetakotz ageri zen zer entreinatako eta zer jitetako gizona izan zaitekian.</p>
+<p>Baratxu gaitz zen, bena etzian gaxtokeriarik. Ordunkoz txasko egiteko jaidura bazian eta jaidura hura jarraiki zeron denbora orotan.</p>
+<p>Aitak eta amak, ezaguturik haurraren jite ederra eta, bere ezin egona gatik, othoitzialako zian suia, hitzartu zien behar ziela herriko jaun erretora mintzatu eta behar ziela ikhusi harekin Dominikaetarik ez othe zienez aphez bat egin behar.</p>
+<p>Jaun erretorak ontsa hartu zian Haritxabaletako nausi-etxekanderen xedia.</p>
+<p>Eta, hantik bertan hasi zen Dominikari lati letzione emaiten.</p>
+<p>Ordu beretik mundiak erran zian: <hi rend='Italic'>Dominika Haritxabaletakoa aphez gei da</hi>.</p>
+<p>Nor nahi etzen aphez gei hun hartzen; ihur etzen abiatzen latiaren ikhastera, ordenala heltzeko elhian, non etzen ezaguturik barnetik baziala aphezgoalako ekhardura osoa.</p>
+<p>Eta orai bezala arauz? erranen deitade, ozen ozena, hantik eta hebentik.</p>
+<p>Bai, bai, orai bezala.</p>
+<p>Xoilki, denbora batez, jente gora eta aberatsean, aphezak batzutan egiten ziren nula nahixe, bokazionia edo barnetikako deia jinik ez bazen jinekozelakoan.</p>
+<p>Herroka aphaletan aldiz, populu xehian, ikhare batekin baizik etzen uzten haur bat Eliza gizon sartzeko bidiari lotzera, beldurrez etzukiala benturaz Jinkoaren zerbutxialako deia behar zen bezain egiazko eta azkar.</p>
+<p>Dominika Haritxabalet etzen ezbaiekoetarik: <hi rend='Italic'>Nahi niz izan aphez eta aphez saintu</hi>, erran zian, lehen egunetik.</p>
+<p>Hatsarrian hiriko jaun erretorak eraits-erazten zian Dominika, astian berritan, letzioniaren hartzera.</p>
+<p>Frantzesik etzakialakoz, gizon gaztia nekez lotzen zen lati gramerari; bena jaun erretorak ezagutzen zian thai gabeko zela haurraren ikhasi nahia, eta erraiten zian: Behin abiatuz geroz joanen da suia bazka idorrian bezala.</p>
+<p>Egun batez, Dominika letzioniaren hartzen ibilirik, etxerat jinik zen doi doia.</p>
+<p>Ama, su eder baten aitzinian, talo edo pastex egitera abian zagon.</p>
+<p>Erran zeron semiari:</p>
+<p>&mdash;Ikasten duka hanitx Dominika? Eia badakianez latirik? Motthikoak ihardetsi zian amari:</p>
+<p><hi rend='Italic'><foreign>Rosa </foreign></hi>ikhasi dut behin;</p>
+<p><hi rend='Italic'><foreign>Rosae</foreign></hi>-k eman deit zer egin;</p>
+<p><hi rend='Italic'><foreign>Rosis </foreign></hi>igaranik nago;</p>
+<p><hi rend='Italic'><foreign>Rosae-</foreign></hi>tan ez gibelago;</p>
+<p><hi rend='Italic'><foreign>Rosarum </foreign></hi>joan da aitzina;</p>
+<p><hi rend='Italic'><foreign>Rosis </foreign></hi>biharko latina.</p>
+<p>Besoak altxaturik, ama hasi zen: Dominika guriak badaki jadanik latia<hi rend='Italic'><foreign> paterra</foreign></hi> bezala.</p>
+<p>Izanen da irakurzaletan sinhetsiren ez dienik osoki Dominika aphez geiak, zian adinian, hitzez hitz ihardetsi ahal ukhen ziala amari erran dugun moldian.</p>
+<p>Ezar dezagun <hi rend='Italic'><foreign>Rosa, Rosae, Rosis, Rosae, Rosarum, Rosis</foreign></hi> zutuzkiala eman herrokan, eta beste uskara buztanak lati hitz horier norbaitek eretxeki dutiala.</p>
+<p>Eta ez haatik, ihurk ez dutu eretxeki, bai izaritanezari.</p>
+<p>Joan ziren urthiak; lanak eman zian beria. Dominika Haritxabaletako seme aphez geiak sakolan zian lati gramera. Horrek erran nahi beitu hari nausiturik zela, hura ikhasirik ziala <hi rend='Italic'><foreign>paterr</foreign></hi>a bezain ontsa.</p>
+<p>Atharratzeko jaun erretorak, hatsarrian zonbait phitzaldi builtazerran ukhen zeron Dominikari:</p>
+<p>&mdash;Buria Erretzuko arroka bezain gogor othe duka?</p>
+<p>Haritxabaletek ihardesten umen zian gogoz jaun erretorari:</p>
+<p>&mdash;Ene buria ez da Erretzuko arroka bezain gogor eta ene bokazionia hanitxez hura beno gogorrago da.</p>
+<p>Jin zen seminarioan sartzeko thenoria. Dominika joan zen gogo hunez Oloruko seminarioalat.</p>
+<p>Langile handi eta hartze hun zelakoz, denbora orotan, jakitatez bere lagunen aitzinian egon zen.</p>
+<p>Oloruko seminarioan aitzindari eta eskolierek estimu handitan etxekiten zien Haritxabalet. Bena aphez geiek, estimiaz kanpo, balin bazen lagun alagera eta bihotz gozoko haren etxekimentu behex bat, aitzindariek etzutien ontsa hartzen Dominikaren txasko eta utzuliak oro.</p>
+<p>Eta aitzindarien beldurra zen aphezgei uduriz haituko hura etzela sekula ordenala heltu ahal izanen.</p>
+<p>Bakhotxak ikhusiren du eia Haritxabaletek zonbait elhe eta utzuli arhinen gatik, gaxki harturik izatia merexitu dianez egundano.</p>
+<p>Huna lehen bakantzak.</p>
+<p>Atharraztarrek etzien ikhusi ordialartino Haritxabalet sotenarekilan. Zer muthikua! Zer gizona! Zer aphez ederra! Barnetxek erran zian:<hi rend='Italic'> Seminarioko aphez gei Biarnesek ez ahal deroie horri erhia sudurpian igaraiten!</hi></p>
+<p>Haritxabalet haatik azkar eta odol bero bezain bakezko eta ororen adiskide zen.</p>
+<p>Etxera heltu zelarik, amak besarkatu zian eta potez abantzu jan.</p>
+<p>Gero eman zeron edatera. Godaleta etzen txipi, ez handi ere; laborari godalet bat.</p>
+<p>Hustu bezain sarri, krakez, Dominikak eror-erazi zian godaleta sotena mahankalat eta eskuz lothu zen zuntzurrari, uduri zerbaitek ithotzen ziala. Ama hasi zen oihuz:<hi rend='Italic'> Zer duk</hi>?</p>
+<p>Haritxabaletek egin zian: <hi rend='Italic'>Deusere, deusere orai: godalet txar hura erori zait ahualat eta gaintitu dut.</hi></p>
+<p>Ama harritu zen. Egun berian erosi zian Atharratze Martxantenian, barnez gathulu tarro baten heineko godaleta, seme jaunarentako.</p>
+<p>Dominikak etzian besterik galthegiten.</p>
+<p>Semenarioan Haritxabaletek khuntatu zian laguner amari egin txaskua.</p>
+<p>Karkazaz hant-erazizutian aphezgeiak. Aitzindariek aldiz ediren zien hor ezagutze eskaz bat amaren eretzeko.</p>
+<p>Haritxabalet etzen amaz trufatu nahi izan huilanikere, amak erri eginen zian ezagutu balu semiaren utzulia.</p>
+<p>Haritxabalet handi eta azkar zela badakigu. Ez da sinhesteko lagunek beno haboroxo jan behar ziala. Eta denbora haietan seminarioko bizigarria mehe eta xuhur zen</p>
+<p>Norbaitekin hitzarturik noiztarik noiz hiritik hel-erazten zeroien jateko ami&ntilde;i bat.</p>
+<p>Bazakian noiz zen anhua eguna. Gaian egurukiten zian thenoria. Leihotik behera igorten zian soka hari estekatzen zien zaretto bat, eta bertan zaria sartzen zen seminarioan.</p>
+<p>Saila ontsa zoan.</p>
+<p>Bena zer egiten ahal da luzaz aizuek jakin gabe?</p>
+<p>Seminarioko aitzindarien berrietaratu zen Haritxabaletek egiten zian lana.</p>
+<p>Superiurrak begia etxekiten zeron uskaldun handiari.</p>
+<p>Arrats batez, zerbait zotuku nabariturik, jarri zen haren alde peko kanberan. Eta zaria abiatu zelarik gora buruz, leihoa zabal-eta hatzeman zian soka. Soka muztu zian eta zaria bere ganat bildu.</p>
+<p>Horra Haritxabalet seminariotik kanpo ezaririk izateko bidian.</p>
+<p>Biharamunian Superiurrak bildu zian kontseilia eta deitu zian Haritxabalet haren aitziniala.</p>
+<p>Haritxabalet sartu zelarik kontseilia bildurik zen barne hartara, hasi zen hasperenez, iharrausiz eta ezin egon batekin bezala zagon, ulhun eta erreus</p>
+<p>&mdash;Zer dugu Haritxabalet?, erran zeron Superiurrak haizu etzen erkhaitza batekin.</p>
+<p>Ez da haizu ihurtzaz trufatzia; ez da trufatu behar bera beno aphalago batez ere. Bestalde Haritxabalet ogendun ekarririk zen, bena ez orano ezaguturik egiazki ogendunzela.</p>
+<p>Haritxabaletek ihardetsi zian Superiurrari:</p>
+<p>&mdash;Barda egin dut amets bat eta amets harek zainetan ezari deitadan izialdura etzait orano ere igaraiten. Beste mundian nintzan zeluko loriaz gozatzen ari. Arima gaxo bat hasi zait oihuz Purgatoriotik: <hi rend='Italic'>Salba nezazu! Salba nezazu</hi>! Igorri derot soka bat. Lothu da sokari eta zelietarat igaran-erazten nian. Bena ainguru bat jelki da oldarrian bortha batetarik, hatzeman du soka, bildu arima bere ganat eta lotsa niz urthiki diala ifernialat.</p>
+<p>Superiurra eta haren lagunak egon ziren algarri so aphur bat.</p>
+<p>Ikhusirik aphez gei gaizoak etziala egin, ororen burian, jateko buxibaten, erran ahal daiteke ogi azal baten kontrebanda baizik; orhiturik Haritxabaleten entelijentziako gizonak bekhan zirela, utzi zien bakian estudianta.</p>
+<p>Haritxabaletek etzian gezurra maite.</p>
+<p>Erraiten zian:<hi rend='Italic'> Gezurra bekhatu da eta gezurrak txipitzen eta ezdeusten du gizona. Erakhar ditzazke ere nahigabe, destorbu eta itxuskeriak.</hi></p>
+<p>Bena bada haatik gezur eta gezur.</p>
+<p>Xuxenka edo unguruz norbaiti ogen egiten edo egiten ahal dian gezurra ez da haizu.</p>
+<p>Libertitzeko, ihur demendrenik kolpatu gabe erraiten den gezurra ez da arauz bekhatu handia. Bere buriaren edo adiskide baten urhats gaxto batetarik idekiteko erraiten den gezurra, gezur harek ez dialarik besterik ihuri ere okherrik egiten, zer heinetan da bekhatu?</p>
+<p>Aldi batez Harritxabaletek behar ukan zian gezur bat biribilkatu bere buriaren garbitzeko. Aithortzen zian ogen handia ukhen ziala gezurraren erraiteko beharruniala eroriz, bena etzian sendi barneko minik. Kontzentzia bakian ezaririk zian seminariotik jelkhi gabe ere.</p>
+<p>Huna zer gerthatu zen: Atheraldi edo promenadatik aphez geiak utzultzen zirelarik, Haritxabaletek ardura artia hatzamaiten zian botila bat ardu xuriren eros eta sakolan sartzeko.</p>
+<p>Egun batez hatzemanik izan zen: gehien batek ezagutu zian haren utzulia. Etzian ezkapurik. Berak ziuan: <hi rend='Italic'>Ala txoria!!! uste zieia igorten nundiela berhala ahar-zainMaidalena serralat</hi>.</p>
+<p>Seminarioanestudiantak sarthu bezain sarri, Superiurra abiatu zen khanberetan ikheraldi baten egitera.</p>
+<p>Haritxabaletek bazakian zer egin zian eta zer athekan edireiten zen. Etzen egon ezbaian: zunbait itzikiz edan zian botila ardua eta ezari zian ohe pian botila erdikalaxe beterik... bere huretik.</p>
+<p>Erran behar da, denbora haietan, estudiantek etziela gaiazko untzirik eta jeiki beharrian gerthatzen zenak juan behar ziala, laster edo urhatsian nula ere manhaturik beitzen, zokho ulhuntto batetan zen barne hartara.</p>
+<p>Superiurra, ungurukaz, heltu zen nuzpait Haritxabaleten khanberala. Hasi zen han xokhuen ikhertzen. Bazakian botila barne hartan zela eta haatik etzian edireiten.</p>
+<p>Azkenian horra nun ikhusten dian botila ohe pian. Hartzen du eskietarat. <hi rend='Italic'>Zer da hau?,</hi> galthegiten du. Haritxabaletek ihardesten dero: <hi rend='Italic'>Jauna, badakizu ez dugula gaiazko untzirik; untziaren ordaribotila bat etxekiten dut; goiz huntan ez dut hustu botilaa; orai ikhusten duzu zer den.</hi></p>
+<p><hi rend='Italic'>Bai?</hi>, egin zian Superiurrak, eta ber denboran abiatu zen bere ustez ardu xuria zelako haren urrintatzera. Etzian botilaren sudurriala huilantu beharrik ukhan. Bertan ezagutu zian Haritxabalet egiaz mintzo zela. Superiurra khexu gaitzian zen haatik. Prozedurak etxekiten zian azkarki ikhusi ziala Haritxabalet botilaren sakolan sartzen, bena kontzentziari minik egin gabe etzirokian besua altxa erraiteko botila betherik zela.</p>
+<p>Ez gira argi bilha juanen seminariotik kanpo, erran zian Superiurrak, semenarioko gora beherak heben berian behar die xuritu eta bardintu. Haritxabaletek dio zer beharrunetako zian botila. Nihauek ere badakit zer zian botilak barnen. Izan dira beste utzul unguru, Haritxabal batek baizik ozketan ezar ez liruanik. Agian ez. Gezurra bekhatu da eta bekhatian denaren lekhurik ez da semenariuan.</p>
+<p>Superiurra borthizki mintzatu zen, bena nulako etzen izanen haren bihotz mina bortxatu izan balitz Haritxabaleten semenariotik kanpo ezartera. Maite zian Haritxabalet eta bazian sinheste handiak harek aphezgualako zian ekharduran.</p>
+<p>Hortan baratu zen egitekua.</p>
+<p>Seminarioko denborak ere igaraiten dira. Luze khausitzen dutie aphez gei haboruek.</p>
+<p>Zerentako othe? Ez luke uduri debeiatzeko arterik han badela. Orenak oro harturik dira. Ez da oren herrestakorik.</p>
+<p>Bena... zerbait, nun ez da zerbait?</p>
+<p>Haritcbabalet debeiatu zena seminariuan? Ez ahal; lana zinez maite zian; eta phausu artetan bazakian besten eta bere buriaren liberti-erazten.</p>
+<p>Bere txasko txipi eta handi ororen gatik etzian ukhen deus nahigaberik.</p>
+<p>Eta orai horraa nun den Haritxabalet ordenala helturik: horraa nun den aphez.</p>
+<p>Adinez hogei-eta-hamar urthetara huilanturik da.</p>
+<p>Bi asteren burian jaun aphezkupiak izendatu zian Haritxabalet Santa Graziako bikari.</p>
+<p>Hartxilon gora zoalarik erran umen zian:<hi rend='Italic'> Ala txoria! Errege etzaiku jinen ikhustera.</hi> Etzian goguan igaraiten Erregek zer behar zian ikhusi.</p>
+<p>1790ian arren, Haritxabalet juan zen bikari Santa Grazirat. D'Esquer zen ordian hanko erretora. D'Esquerrek egin zeron gaihaje hun Haritxabaleti.</p>
+<p>Denbora haietan Frantzian baziren zotuku gaitzak; erreboluzioniaren herotsek aranatzen zutien bazterrak. Lege berriak egiten zutien eta oro populiaren hunetan, bena ezagun zen lege egilen artian bazirela gogoan errabia zienak. Ageri zen zer egunetara zoan Frantzia eta, hartakoz, mundu oro erreus bizi zen.</p>
+<p>Goberniak ezari nahi ukhen zutien Elizaa eta Elizako gizonak <hi rend='Italic'><foreign>Constitution Civile</foreign></hi> zelako lege berri baten pian. Lege haren arabera, populiak behar zutian botzez haitatu aphezkupu eta erretorak.</p>
+<p>Elizari khendu zeitzoien bere huntarzunak oro, bena Frantziako goberniak behar zutian eman Eliza gizoner huntarzun haien entresak soldata bezala.</p>
+<p>Ala txoria!, erranen zian Haritxabaletek, bizi izan balitz egun orano, Erreboluzioneko gizonak oraiko Errepublikakuak beno xuxenago ziren; bazien hoiek beno kontzentzia haboro: hartu zutien Elizaren huntarzunak bena etzien txerkatu aphezer gosez arnega-eraztiai. soldatak eman zeitzen.</p>
+<p>Aita saintiak etzian onetsi <hi rend='Italic'><foreign>Constitution Civile</foreign></hi> zelako lege berria. Aphez zunbait aldiz hari jarri ziren. Egiazki untsa edireiten ziena, ala lotsak erabilten zutian?</p>
+<p>Aphezek behar zien zin egin lege hura untsa hartzen ziela. 1791an D'Esquer-ek eta Haritxabaletek egin zien zina, Santa Graziako plazan, bai eta dantzatu <hi rend='Italic'>Karma&ntilde;ola</hi> han berian.</p>
+<p>D'Esquer zahartuttorik zen ordunkoz.</p>
+<p>Haritxabaletek egiten zian D'Esquerren dantzatzeko ihikina; gizagaxo xaharra hatsa juanik ungurukatzen zen ahal bezala, sotena hegalak herrestan.</p>
+<p>Lege berriaren araberako aphez bezala ezari zien Haritxabalet Ligin erretor. Hantik bertan igorri zien Larrainerat.</p>
+<p>Larrainen umen zian Haritxabaletek khantatu hainbestetan aiphaturik izan den prefaziua.</p>
+<p>Axuri denbora igarantxerik zen; ahuiniak hasirik. Igante hartan haatik, ez axuririk ez ahuinik, ihurk etzian ekharri apheztegialat. Haritxabaletek, bethi bezala bazutian khumitak. Eta Ma&ntilde;a&ntilde;a gelhariak etzian deus handirik bildu ez adelatu, sasu hartan bazkari geiak ez beitzian hutsik egiten jitia.</p>
+<p>Erretora juan zen elizalat, erraiten zialarik Ma&ntilde;a&ntilde;ari:</p>
+<p><hi rend='Italic'>Jinkuak zerbait eginen din</hi></p>
+<p><hi rend='Italic'>Eta hik ere harekin.</hi></p>
+<p>Meza hasirik zen. Horra nun laborari batek ekharten dian ahuine bat ederrik. Ma&ntilde;a&ntilde;ak nahi ukhen zukian Haritxabaleti jakinerazi baziala arakeia, arakei gazte eta gizena.</p>
+<p>Larrainen ordunko aphez etxia elizari huilan huilana zen eta leiho batetarik ikhus zaitekian altharia.</p>
+<p>Ez dakigu orai hala denez.</p>
+<p>Ma&ntilde;a&ntilde;ak hartu zian ahukia besapian eta jarri zen leihuan altharialat so. Erretorak, utzuli zelarik populiari buruz, <hi rend='Italic'><foreign>Orate fratres</foreign></hi>, erraiteko ikhusi zian Ma&ntilde;a&ntilde;a kheinuz ahuiniaren erakasten ari zerola.</p>
+<p>Ordian Haritxabaletek prefazio hau khantatu zian:</p>
+<p>Ma&ntilde;a&ntilde;a, o Ma&ntilde;a&ntilde;a,</p>
+<p>Badugia ahuina!</p>
+<p>Ikhusi dinat, kheinu egitian,</p>
+<p>Bat baduinala besapian.</p>
+<p>Abia hadi bertan prestatzera,</p>
+<p>Gerrenian erdia ezartera.</p>
+<p>Beste erdia ezar-an saltsan,</p>
+<p>Ederki jan dezagun bazkaitan.</p>
+<p>Zer erranen die irakurzalek prefaziotto horrez? Haboruek erri eginen die, eta behar ere. Ez deia izanen bat edo beste sinhetsiren dianik Haritxabaletek hori khantatu diala Larraineko elizan?</p>
+<p>Balin bada bat bera, harek erranen du: <hi rend='Italic'>Haritxabalet etzen apheza; arnegatu bat baizik etzen izaten ahal; elizaa ostatu baten bardin etxekiten zian eta ordena zankhopetan ezarten</hi>.</p>
+<p>Haritxabalet aphez fede handikua zen eta eliza gizon ederra eta seriusa.</p>
+<p>Ez du sekula elizan khantatu prefazio hori. Khantatzen zian elizatik kanpo, adiskide untsa ezagutu zunbaitekin zelarik. Bena adiskide untsa ezagutietarik behar zien izan. Beste nur nahik egiatako harturen zutian. Haritxabaletek libertitzeko, jiten zeitzon bezala, burrustan emaiten zutian elhe auher, erri gozo egin-eraztekuak.</p>
+<p>Haritxabalet laket zen Larrainen. Eta haatik Santa Grazia maitiago zian. Ardura juaiten zen, Lexartsun gainti D'Esquerren ikhustera. D'Esquer ulhuntto zen aspaldian. Ikhusten zian nula zoatzan Frantziako gora beherak; herritik ihesi juan behar ukhenen zialako lotsan bizi zen. Haritxabaletek khentzen zeron ahalaz lotsa hura. Haritxabalet gazte zen; gaztia ez du geruak izitzen. Ez jakin D'Esquerrek etzianez bere barneko mina zeren lege berriari jarri zen. D'Esquerrez eta Haritxabaletez besterik ez ahal zen hanbat zin egin zienik eskualde huntan.</p>
+<p>Elizaren zerratzia jin zen. Aphez zin eginak eta bestiak, oro bardin ezari zutien. Etzeren haizu, ez agerian ez gordeka, erlijioneko eginbiden bethatzia.</p>
+<p>Hanitx haatik, biziaren galtzeko bidetan, bazabiltzan gaiaz haur batheiatzen, ezkuntze benedikatzen eta Elizako helturen erier emaiten.</p>
+<p>Deusek etzian khordokatu Haritxabalet bere fede azkarretik, bena ez beitzian zertarik bizi, sarthu zen mandozain, armadako bizigarri kharreiazale.</p>
+<p>Sotena utzi behar ukhen zian.</p>
+<p>Mandozain lagunetan hanitx baziren erlijioniaz erri egin nahi zienik. Haritxabaletek erraiten zeren: &laquo;Orhit zitie Jinkua gain hartan dela eta lekhu orotan; hura dela gure nausia; ikhusten dutiela gure ibilbide eta solasak oro&raquo;.</p>
+<p>Gutizbestek hartzen zien Haritxabaleten eretzeko bestiak beno haboroxe den bati zor den errespetia.</p>
+<p>Haritxabaletek orori elhe huna emaiten zian bethi. Bena gerthatzen bazen ezin eden bat, nausa eta gaxtokeriak gaintika zutiana, Haritxabalet jauzten zen ozketiketa lagun hortz gaxtoko hari, lepho zakutik har eta emaiten zeron ilhasaldi bat.</p>
+<p>Egun batez uhuin bat jelkhi zeron Haritxabaleti bidiala:</p>
+<p>&mdash;Bizia edo mursa!</p>
+<p>&mdash;Ez bata ez bestia.</p>
+<p>Haritxabaletek etzeron utzi uhuinari armaren hartzeko denboraa: makila ukhaldu batez hautse zeron ukharaia. Gero ezari zian mandon gainen eta eraman zian minaren hersteko lekhiala. Etzian utzi juaitera ontsa sendatu artino. Ordian eman zeron libertatia erraiten zerolarik:</p>
+<p>&mdash;Abil eta bizitzez khanbiadi!</p>
+<p>Ihurk etzian jakin zer bidetako gizona zen.</p>
+<p>Haritxabaletek etzukian mandozain bezala mulde hun handirik. Lagun zunbaitek, egun batez, erri egin zeroien zaldien kargatzen ikhusi zielarik.</p>
+<p>&mdash;Nahi duzie jokhatu zerbait enekin zuinek lehen ezar mando baten bizkarrian hirur kintale?, erran zeren Haritxabaletek.</p>
+<p>Bat jeiki zen:</p>
+<p>&mdash;Bai eta bai!, egunko bien bazkaria.</p>
+<p>Lothu ziren lanari, edo, hobeki erraitera, mandozainak begi ukhaldu batez behexi zutian bi zahagi ardu: zahagietarik bata jadanik mandon gainen zien; bestia laster hari uztarturik izateko bidian zen.</p>
+<p>Ordian Haritxabalet jauzi batez igain zen mandon gaina eta gozo gozuan erran zeron bestiari:</p>
+<p>&mdash;Irabazi duta?</p>
+<p>Mandozaina, egonik ixilik aphur bat, ez jakinian zuin gainti har, gaitziturik, khexian sartzeko halako errakia batean, mintzatu zen eta erran zian:</p>
+<p>&mdash;Bai, partida irabazi duzu: ukhen diokezu hirur kintale phezu.</p>
+<p>Haritxabaletek phakatzian bazkaria. Hanitxek bazakien Haritxabalet aphez zela. Bestalde, lotsarik gabe, berak hori erraiten zian goraki.</p>
+<p>Soldado aitzindari batek uste ukhen zian behin buria aphaleraziren zerola. Erran zeron erkhaizta gaxto bat ezpainetan:</p>
+<p>&mdash;Mandozain sarthu aitzinian, zer zen zure ofiziua?</p>
+<p>Demendren ukhorik gabe, Haritxabaletek ihardetsi zeron:</p>
+<p>&mdash;Aphez nintzan. Egun aphez niz eta, hil artino, izanen niz Melchisedech-en legiaren araberako aphez.</p>
+<p>Ofizierak ezagutu zian Haritxabalet etzela, ordunko denbora gaitzen gatik, lotsak gorderik egon nahi zienetarik. Haren hain garbiki mintzatziak eman zeron estimu handi bat mandozain aphezaren.</p>
+<p>Erreboluzione handiko gizon thorpenak erori ziren haatik. Frantzia utzulixe zen bakialat. Elizak zabaltu zitien.</p>
+<p>Berria agertu bezain sarri Haritxabaletek utzi zian mandozaingua eta galthegin zian Elizaren zerbutxian berriz sartzia.</p>
+<p>Bigerren aldikotz Santa Grazirat bikari igorri zien.</p>
+<p>Han egonen da bere denbora orotan bikari D'Esquer erretora hil artino eta D'Esquer-en ondotik 27 urthez.</p>
+<p>Zunbait nahi Santa Grazia bortu zokho den, zunbat nahi denbora haietan hanko bidiak gaitz ziren, kanpotiarrak juaiten ziren saldoka herri hartarat, haboruak debozionez, bena hanitx Haritxabalet jaun aphez entzunaren adiskide bezala, edo harekin ezagutzen egitia gatik.</p>
+<p>Haritxabaletek batzarri ederra zian mundu ororen. Adiskider gaihaje handi egiten zian eta ikhusliarren eretzeko ezinago largo zen.</p>
+<p>Bethi erranik izan da, Haritxabaleten botz ederraren entzutia gatik, herriz kanpoko hanitx juaiten zirela igantez Santa Grazirat. Hortako astegunez juaitia bardin zatekian; Haritxabaletek khantatzen zutian Prefaziua eta Paterra, besta, igante ala astegun, bere botz nasai eta eztia erabiliz bethi unguru eta hedadura berian.</p>
+<p>Aldi batez nurbaitek laidorioz hantzen zian Haritxabalet bere botzaren gainen.</p>
+<p>&laquo;Behar deizut kuntatu zer gertatu zaitan orai berri, erran zeron aphezak. Ari nintzan pheredikiaren emaiten. Ikhusi nian eliza ezkaratzeko xokho batetan Behigorkhuko etxekandere xaharra ari zela nigar eta nigar. Ebanjeliotik mintzo nintzan eta ez nian deus ere lazgarririk erraiten. Hartu nian burian behar niala jakin zerk emazte gaxo hari nigar zipa hurak oro jauz-erazten zeitzon.</p>
+<p>Mezaurhentu bezain sarri giltzaina kargatu nian Behigorkhuko etxekandere xaharrari erran zion ikhusi eta mintzatu behar niala; elizatik jelkhitian jin zedin aphez etxiala. Emaztettua jin zen. Zerbait har-erazi neron jateko eta edateko. Ez nintzan berehala atrebitu emaztiari galthegitera zerk hala nigarretan ezari zian eta eduki meza denboran. Ez neron berehala aithor-erazi ahal ukhen egia. Bena ezaguturik etziala hoberik, erran zeitan:</p>
+<p>&mdash;Jauna, jakinen duzu hala nahi duzunaz gainen, bena othoi ez duzu behar khexatu. Baginizun asto bat hunik. Zalthubian larrutu zikuzu. Egun, zure botzaren entzutiari, uduri zitadazun astuaren orrua entzuten niala. Eta asto gaxuaz orhiturik nigarrez arizan nuzu.&raquo;</p>
+<p>Haritxabaletek maite zutian lagun gozuak bena etzen laket laidoria egilekin:</p>
+<p>&mdash;Ala txoria!, erraiten zian, holako berakatuxek uste die orano bestiak berakatuxago direla.</p>
+<p>Eriak ere, ahal zien bezala, juaiten ziren Santa Graziarat. Hertsatzen ziren hanko patrona saintari, ararteko hartuz, sinheste handi batekin, Haritxabalet jaun erretora. Haritxabaletek emaiten zutian ebanjeliuak erien osagarriaren eskatzeko.</p>
+<p>Bazutian bi ebanjelio eli: Elizako luburietakuak eta Zaragozakuak.</p>
+<p>Denbora haietan bazen behargabedun hanitx. Haietarik zunbaiten ixil eta ekhuru egon-eraztia neke zen. Sobera gaizten zirelarik, Haritxabaletek luburia zerra eta, bilho zamarretik hartzen zutian eta iharrausten zarpa bezala.</p>
+<p>Eta behargabedunak axuria bezain ezti jarten ziren bertan. Behargabedun gaitzer emaiten zutian ilhas aldi hurak Haritxabaletek deitzen zutian Zaragozako ebanjeliuak.</p>
+<p>Haritxabalet, beste aphezak oro bezala arauz, mahanka largo zen bekhatore txipien eretzeko.</p>
+<p>Emaztetto batek kofesiuan aitortu zeron zunbait phorru ebatsi zutiala. Haritxabaletek etzian hanbat gaizkitu emaztia. Erran zeron:</p>
+<p>&mdash;Haurra, hori bekhatu txipia dun. Ez din laxuki holako uhuintza txar baten aiphatziak balio.</p>
+<p>&mdash;Bena, Jauna, ihardetsi zeron emaztiak, zure baratzian ebatsi ditit phorru hurak.</p>
+<p>Haritxabalet ixil egon zen aphur bat. Gero igorri zian penitenta erranez:</p>
+<p>&mdash;Orhit hadi arrastan badela phorru eta phorru...</p>
+<p>Ekharriren dugia heben zer utzulia Haritxabaletek jauki zian bost kontrebanda haxeren salbatzeko?</p>
+<p>Bost haxero, bost kontrebandist sarthu ziren gaiaz, kafez kargaturik Urdaiten behera. Eraintzeko portillotik igaran nahi izan ziren, bena gardak han gainti zirela jakinik, behar ukhen zien Urdaiterat buruz utzuli. Bidia luzatzen zien hanitx, ezi Olorurako alderat abiaturik ziren, bena zer egin? Baratu ziren Drundan, han egunaren igaraiteko.</p>
+<p>Bena gardek jakin zien kontrebandaa sarthu Athororat eta han zela nunbait gorderik. Bost kafe haxiain Drundako sabaian ziren eta Drunda erreuszen beitzakian herriko karabineruak oro Athoron zabiltzala etxez etxe, bordaz borda, zokhoz zokho.</p>
+<p>Juan zen Haritxabaleti khuntatzera zer gertatzen zen eta hari erraitera galdia zela kontrebandaa haren etxen gardek edireiten bazien.</p>
+<p>Haritxabaletek berehala hatzeman zian Drundaren galbidetik idokiteko utzulia:</p>
+<p>&mdash;Abil, erran zeron, eta orotan heda-eraz ezak etxekandere xaharra hil zaizielako berria eta haren ehortzeta bihar izanen delakua.</p>
+<p>Drundak egin zian Haritxabaletek manatia.</p>
+<p>Bihamunian aizo eta askaziak bildu Drundala. Athoro oso osua han zen.</p>
+<p>Bost haxiak ezari zutien karkanuetan; hil oihalaz untsa tapatu zutien. Gero, Drunda buru burian, khurutxe bat eta ezko khanderak eskietan, haren ondotik Athorotar kontrebandistak, kunderak erhietarik txilintxan, hila lau gizonek bizkarrian eta gibeletik emazte tramada bat, kapotxinaz gorderik, zunbait nigarrez, bestiak othoitzian, horra hila eta ehortzetaliarrak eraisten Athoro gainetik herroka luze batetan.</p>
+<p>Erranik izan da Haritxabalet ere giltzain, beretter eta khantatiarekin, juan zela Drundala hilaren txerka eta bidian khantatu ziala <hi rend='Italic'><foreign>Miserere mei...</foreign></hi></p>
+<p>Hori ehortzetari itxura habororen emaiteko ezaririk izan den emendio bat da. Ez da egia. Haritxabalet aphez zen, osoki aphez; deuseren gatik etzian elizako zeremonia baten errespetia galduren.</p>
+<p>Bestalde Santa Grazian, sekulaz geroz etxauetako hilak ekharten dutiela aphezik gabe karrikala. Karrikala juaiten da apheza ehortzetako ofiziuen hastera.</p>
+<p>Eiheramendiko borthan ziren gardak kafe haxiak hil-karkanuetan han igaran zirelarik.</p>
+<p>Ordunko kargulantak, nahiz Erreboluzioniaren aranak ezagun ziren, etziren oraikuak bezain hotz erlijioaren eretzeko; eta hil batek emaiten beitu nuri nahi ere bortxazko gogueta ulhun eta latz bat, gardak, herrokan, belhariko jarri ziren kontrebanda igaran zelarik.</p>
+<p>Espilagan Athorotar ehortzetaliarrak ekhuratu ziren. Bost gizonek hartu zutien kafe haxiak eta, denborarik galdu gabe, lothu ziren bidiari. Oren bat eta erdi etziren eman Garateko lephuala heltzeko. Garatialaz geroz etzien Santa Graziako garden beldurrik.</p>
+<p>Biarnes gardarik ere etzen gertatu Goillertze ungurunetan.</p>
+<p>Zokhoz zokho, haxeruak eraitsi ziren ezagutzen zutien bidexkez eta sarthu ziren Senpeko oihanian.</p>
+<p>Bethi izan dira bekhaxti eta salhazaliak. Gardak ari zirelarik Athoron Garaiko etxolaren ikhertzen, berria heltu zen haien beharrietara bost kontrebandist igaran ziela Zalthondoko ibarra gora. Gardek jakin zien ere egun hartan etzela izan ehortzetarik Santa Grazian.</p>
+<p>&mdash;Haritxabaleten kolpia!, erran zian garden aitzindariak, herenegun Athoron sarthu kontrebandaa Olorurako bidian da. Haren aitzinian belharikatu gira; laster egin dezagun orai haren ondotik.</p>
+<p>Abiatu ziren bena berantegi. Etziren juan elizatik gorago.</p>
+<p>Beren errabian mehatxuz hasi ziren Haritxabaleten kontre. Haritxabalet khanberako leihotik so eta beha zagon garder. Gardetarik batek hartu zian bere arma ilabur eta su egiteko bezala jarri zen Haritxabaleti buruz.</p>
+<p>Haritxabaletek erran zeron:</p>
+<p>&mdash;Ala txoria!, eia emak!; ez nezala haatik huts egin; bestela hire larria saltzeko izanen duk.</p>
+<p>Hain sarri hartu zian eskietara bi kolpetako suharrizko arma eta, erriz zaguelarik, hura erakatsi zeron gardari.</p>
+<p>Gardak hartan juan ziren.</p>
+<p>Hantik bertansko, garden kapitaina, ardura egiten zian bezala, juan zen Haritxabaletekin bazkaitera. Adiskide handi ziren.</p>
+<p>Kapitainak nahi ukhen zian erran zerbait gaizki aphezari:</p>
+<p>&mdash;Zer, zu kontrabandisten alte? Hori da egin duzun lana!</p>
+<p>&mdash;Xo!, ihardetsi zeron Haritxabaletek, ez othoi iratzar-eraz lo dagon erbia. Nahi duzia entzun zerbait kuxeluz? Zunbaiten ustekia da zuk zihauk batzutan laguntzen dutuzula kontrebandistak.</p>
+<p>Kapitaina hain zen khexian jarri nun nahi izan beitzen abiatu adiorik erran gabe ere.</p>
+<p>Bena Haritxabaletek bazakian balakatzen eta biltzen. Kapitaina eztitu zen. Egia da bazkaiteko thenoria zela ere.</p>
+<p>Espainul arduak ezari zian kapitaina lurreko izate gozo gozo batetan.</p>
+<p>Ordian etzutian hain gaizki hartzen kontrebandisten utzuliak.</p>
+<p>Eiherazain bat, oro irin, bathu zian egun batez, elge zolan, zorro gaitz bat suinian:</p>
+<p>&mdash;Zer dugu hori?</p>
+<p>&mdash;Ez baduzu ezagutzen zer den hau?</p>
+<p>&mdash;Nurentako da?</p>
+<p>&mdash;Jaun erretoraren.</p>
+<p>&mdash;Jaun erretorak ere jan behar du arren?</p>
+<p>&mdash;Bai eta edan ere.</p>
+<p>&mdash;Errozu goraintzi nik exi.</p>
+<p>&mdash;Untsa duzu; bena zu nur zira?</p>
+<p>&mdash;Garden kapitaina.</p>
+<p>&mdash;Pharka ene muldegaizkeria, ez nakizun nur zinen.</p>
+<p>&mdash;Zuatza, zuatza bakian!</p>
+<p>&mdash;Bai, arren, bai!</p>
+<p>Zortzi egun zutian eiherazainaren ikhusiak eta egun hartan zian kapitainak jakin eiherazaina kontrebandist bat zela, espainul arduz kargaturik. Hain xuxen ardu harek zian ezari kapitainaren papua ephel ephela.</p>
+<p>Abiatzeko thenoria jin zelarik, Haritxabaletek erran zeron kapitainari:</p>
+<p>&mdash;Badutu lehen Eretako erretoraren jin-erazirik lau ofizioko luburu ttipi. Ez dakit nula hel-arazi behar deitzotan. Etzuntuzke eramaiten ahal?</p>
+<p>&mdash;Bai; eta aisa!, ihardetsi zeron kapitainak. Luburusko horien phezia ez da handi izaten ahal. Gaur berian, bide hunez, eskutik eskiala emanen deitzot gure erretorari.</p>
+<p>Ez dut orano erran garden kapitaina Eretan egoiten zela.</p>
+<p>Kapitainak eraman zutian, ez ofizioko luburiak, bena bai berrogoi-eta-hamar zigarro espainul, untsa eijerki emanik paper azkar batetan eta luburien heineko muldian.</p>
+<p>Gai berian kapitainak eraman zeitzon zigarruak Eretako erretorari. Erretorak egon-erazi zian kapitaina berarekin aihaitan. Aihal onduan eskentu zeron zigarro bat.</p>
+<p>&mdash;Nurat nahi juanik beti kontrebanda, egin zian kapitainak. Zigarrua nun da eta ene ixilik Espainatik jinik da.</p>
+<p>&mdash;Ez da zure ixilik jinik, ihardetsi zeron erretorak. Kontrebandako zigarrua bada, kontrebandista zu zira. Santa Graziako erretorak igorri deizkit berrogei-eta-hamar zigarro egun zurekin.</p>
+<p>Kapitainak buria bi eskien artian harturik erran zian:</p>
+<p>&mdash;O, Haritxabalet!</p>
+<p>Nurk ez du entzun aipatzen <hi rend='Italic'><foreign>tourne-broche</foreign></hi> baten gainen Haritxabaletek erran zian elhe unguruzkua? Haritxabaletek elhe hura erran zialarik Jaun Aphezkupiari, ez berak ez Jaun Aphezkupiak etzien goguan igaran halako ahapaldi xoil, gaxtokeria gabekuak ehun urthe irainen ziala kalomniaren muldian.</p>
+<p>Huna bi hitzez zer igaran zen eta zertarik hasi zen konder tzar luzaz mundiak erabili diana.</p>
+<p>Jaun Aphezkupia Santa Grazian zen konfirmazioniaren emaitera juanik. Ofiziuak urhenturik, mundia kalostrapetan eta ilherri ungurunetan zagon. Bazen jentez Sentak eden ahala. Jaun Aphezkupia, Haritxabalet eta beste aphezak erretor etxeko borthan zauden.</p>
+<p>&mdash;Zer populazione ederra! erran zian Jaun Aphezkupiak. Oro laborariak dira?</p>
+<p>Haritxabaletek ihardetsi zeron:</p>
+<p>&mdash;Haboruak laborari; hanitx artzain; saldo bat jualtero; oro agudo; oro <hi rend='Italic'><foreign>tourne-broch-</foreign></hi>az aberats.</p>
+<p>Azken hitz horik Haritxabaletek erran zutian botza aphaltuxez eta Jaun Aphezkupiaren beharriala igorriz.</p>
+<p><hi rend='Italic'><foreign>Tourne-broche </foreign></hi>izen horrek Jaun Aphezkupiaren eman-erazi zeron begi ukhaldia suialako gaintiala: ikhusi zian suphazterrian putiko bat, gorri gorria, ari zela gerren handi batetan zikiro laurden baten erra-erazten. Utzuli zen erretorari buruz eta erkhaizta ezti batekin erran zeron:</p>
+<p>&mdash;Jinkuak benedikatzen dutu familia handiak.</p>
+<p>Hori da egia oso osua.</p>
+<p>Haritxabaletek Jaun Aphezkupiari enthelega-erazteko Santa Graziako etxetan bazela haurrez gaintika, hartu bazian uduriz arruntxegi zen unguria, ogen ukhen ziala nahi dugu. Haritxabaleten berjitia ezagutzen zianak utzi zian mintza mulde hura igaraitera arrankurarik egin gabe. Jaun Aphezkupiak berak etzian batere gaizki ediren.</p>
+<p>Haritxabaleten gelharia, Ma&ntilde;a&ntilde;a xaharxetan hasirik zen. Jaun erretorak hartu zian Ma&ntilde;a&ntilde;aren suineskail, Graxi bere iloba, Haritxabaletako alhaba.</p>
+<p>Graxi gazte zen orano. Ezkunt adinala haatik heltuxurik.</p>
+<p>Denbora hartan Santa Grazian elizako giltzaina Berriets zen. Berrietsian bazen primia, Dominixe. Dominixe etzen izan beretter, bena elizan, gazte gaztetik, khantaderianzabilan. Botz hun bat zian, ez bethe bethe bena odeietara gora.</p>
+<p>Erran dugu Dominixe etzela izan beretter. Aitak nahi zukian meza zerbutxari sar-erazi, bena huna zerentako muthikuak utzi zian kargu hartara heltzeko abiua.</p>
+<p>Egun batez Berriets ari zen lur utzultzen. Dominixek behiak deitzen zutian. Aitak nahi ukhen zeron erakatsi nula elizan erabiltzen zien intsentsatzekua. Denbora haietan eta geroz ere, beretterrek etxekiten zien intsentsatzekua khatiaren gain gainetik eta intsentsatzen zien besua luzatuz, eliza bobedala huilan hel-erazten zielarik su untzia.</p>
+<p>Oraiko intsentsatze muldia hanitxez xotilago da.</p>
+<p>Berrietsek nahi zian arren semiari intsentsatzen erakatsi. Hartu zian pegarra eta ezari zeron builhur bat. Horra intsentsatzekua. Bera jarri zen aphezaren lekhutan. Dominixek behar zian intsentsatu. Putikua lothu zen lanari besogainka. Hain sarri builhurxarra ethen zen eta pegarrak jo zian burian Berriets eta urthiki. Egun hartarik aitzina Berrietsek etzian deusetan nahi ukhen entzun semiaren beretter egiterik.</p>
+<p>Erran duguna, Dominixe elizako khantari zen eta holaz bazian zerbait zuzen aphez etxian zunbait sar-jelkhiren egiteko. Ardura gerthatzen dena gerthatu zen ordian ere: ezkuntzeko adiniala diren bigek algar ikhusi eta biek algar untsa hartu.</p>
+<p>Haritxabaletako nausiak hitzemanik zian alhaba besteri.</p>
+<p>Osaba aphezak nabaritu zialarik Graxik Dominixeri egiten zian sua, haro zerbait eraiki zian; libertatiak ilobari hersatu zeitzon eta bortha erakatsi zeron Dominixeri. Horik oro auherretan izan ziren. Gai batez Arbeleneko eta Santa Eskerreko baratzen artian zen muhuiluondo gaitz bati Haritxabaletek thiratu zian tiro bat, uste zialakuan muhuilu ondo hura Dominixe Berriets zela. Bazakian zer ari zen bena etzakin haatik Dominixe muhuilu ondua beno huilanago ziala: leiho eretzian zen, etxe murriari josirik, hatsaren hartzeko herotsik ere egin gabe. Behin beno haborotan entzun derogu Dominixeri:</p>
+<p>&mdash;Ala jin posibilia! uste nia gai hartan zela ene mundutik juaitia!</p>
+<p>Graxi sarthu zen Berrietsian etxekandere. Bena zunbat nahi Berrietsia bizigu huna zen, denbora luze gabe etxaltiak utzuli gainti egin zian.</p>
+<p>Nuren ogena izan zen? Marimenddi Berrietseko alhabak erraiten zian kotaluxenurguiluak ezari ziala etxaltia lurrian. Kotalux, Santa Graztarrek deitzen zien Graxi. Izen garaitiko hori eman zeroien arauz bestiak beno philda hobexiaguan zabilalakotz.</p>
+<p>Dominixek utzi zian laborantxaa eta lothu zen jualteroguari. Graxiren dothia ez baitzen galdu sos harekin. Dominixek eta Graxik erosi zien karrikan Puntenia.</p>
+<p>Ukhen zutian haurra; eraiki zutien haurtxoak ere; bizi izan ziren, ez bethi bakian, bata ez bestia ez beitziren berjitez maithagarri, bena beharrak eskerniaturik izan gabe, 80ra urthetara huilan.</p>
+<p>Haritxabalet ihizlari handi zen. Biga bost orkatz eta basahuntz eraitzi dutu bortutik. Hura bezalako thirari guti zela ziroien. Bere leihotik, Maidaleneko khurutxiala balaz igaraiten zian makila bat aldikal.</p>
+<p>Hori emendatuxerik izan daiteke. Hunki zutian makila behin edo behin. Aldi oroz makilaren heineko xuri batean zilatzia tregua hartan, nekeztto dela uduri du. Bortol Kurutxagako zenak, Haritxabaleten ihizlari lagunetarik beitzen, baietz ziuan bethi.</p>
+<p>Ihizekan egiten zutian lasterrek eta han hartzen zutian akhidura eta izertaldi handiek goizik ezintu zien Haritxabalet. Hiruretan-hogei urthetakoz errematisma gaxto batek eskazatu zian. Nekez baizik etzaitekian haboro zotuka; txankarikgabe etzirokian egin urhatsik. Oinaze handirik etzian haatik. Barnia untsa zian eta bethiko irrigura gozua jarriki zeron.</p>
+<p>Ardura aphez ikusliarrak jiten zeitzon Haritxabaleti. Ajia apheza, atharraztarra, Ligiko erretora hoberenetarik zian. Ajia hunkhoi handi umen zen. Mehe egunez etzen Santa Graziarat agertzen. Hura jiten zenian Ma&ntilde;a&ntilde;ak behar zian oilua thipinan ezari. Maidalenako khurutxetik aldi oroz Ajiak oihu egiten zian Santa Eskernialat buruz:</p>
+<p>&mdash;Ma&ntilde;aaa&ntilde;a!</p>
+<p>Hoili deia salda gaaaina?</p>
+<p>Oihu hori entzun bezain sarri Haritxabaletek erraiten zion gelhariari:</p>
+<p>&mdash;Zarthagina zaharra hor dinagu.</p>
+<p>Zarthagina zaharra etzen sekula borthazale bera juaiten. Santa Graziako bide luze eta gaitzen igaraiteko hobe zen hanitxez zunbait lagun algarrekin izan zitian. Aldi oroz Ajia ekhuratzen zen Aphez-Jauzkagian. Nahi zukian jakin zertarik izen hori emanik izan zen leku hari.</p>
+<p>&mdash;Ala txoria! erraiten zeron Haritxabaletek, nihauren hunetan ere behar diat hola mintzatu, bena, othoi, ez dezaziela sobera hurrupa nafartto huntarik, ez dezazien hor nunbait egin Aphez-Jauzkagia berri bat.</p>
+<p>Beren mandoskuetan xuxen haatik Haritxabaleten ikhusliar aphezak igaraiten ziren gora eta behera.</p>
+<p>Elguebarne zen denbora hartan Santa Grazian elizako khantari eta herriko izkiriba&ntilde;o. Bazian jakitate aphur bat. Latia ere bazakian bere ustez. Aphez gai izanik zen. Bazakian seminarioko zerbait berri. Bena soldado behar ukhen zian juan, eta armadatik libratu zelarik, etzen haboro utzuli eskolalat. Ez apheztekoz, ez dakigu zerentako etzen jarraiki soldado zerbutxiari, ezi ofizier zen, eta bazian aski eskola aitzinatzeko.</p>
+<p>Etxegoyhen Ainharbiarra eta Elguebarne Santa Graztarra, bi aphez geiak algarrekin ibili ziren soldado; biak aitzindari ziren eta konpaina berian: Etxegoyhen kapitain eta Elguebarne lotinent.</p>
+<p>Etxegoyhenek ere utzi zutian armak, bena berriz seminariuan sartzeko. Apheztu zen eta Maulen hil da arxipretra.</p>
+<p>Etxegoyhen juiaten zelarik Haritxabaleten ikhustera, Elguebarne bazkaitan zen haiekin eta bi aitzindari ohiek behar zutien ordian soldado denborako gora beherak elhez arraberrikatu.</p>
+<p>Beste hanitxek bezala Elguebarnek maite zian mahatsaren hura. Ageri zen nuiz zian papua epheltzen hasirik.</p>
+<p>Ordian gizagaizua orhitzen zen lehenago hartu letzionez eta latiala erortzen zen.</p>
+<p>Xuxen zabilano Haritxabaletek erriz tzur tzur, uzten zian juaitera, bena behaztopatzen zelarik erraiten zeron:</p>
+<p>&mdash;Hori Espainako ermithainaren latia da.</p>
+<p>Zer zen Espainako ermithaina?</p>
+<p>Erran dugu Etxegoyhen eta Elguebarne soldado izan zirela algarrekin. Espainan ziren Victoriako hirian. Egun batez haien konpainaa igorri zien ikhuska mendiska baten ungurunetara. Naba xokhota batetan ikhusi zien ermitha edo elixa bat. Huilantu ziren hara eta han ediren zien aphez bat. Espainul ami&ntilde;i bat beitzakien, elhe egin zien aphezarekin. Erran zeroien aphez geiak zirela bena behar ukhen ziela seminariua utzi soldado juaiteko.</p>
+<p>Aphezak aphezari hunkijin beitero, nun nahi bathurik eta zuin nahi nazionetako izanik, ermithain edo elixa-zainak arristiri askari hun bat adela erazi zian eta frantzes bi ofizierak untsa trataturik izan ziren. Jin zen Elguebarnerentako latiz mintzatzeko thenoria. Gazte danik bazian geruan azkarki ukhen zian erraitekuaren hastapena.</p>
+<p>Gizagaxo ermithainak behar ukhen zian aithortu etzela latian trebe, etziala ikhasi latirik elizako othoitzen enthelegatzeko doia baizik. Zer burian hartu zien eta hartu azkarki Etxegoyhenek eta Elguebarnek? Espainako aphezek etzakiela latirik.</p>
+<p>Victorian, hiriko aphez etxiari aitzinez aitzin zien bi ofizierek beren egongia. Ikhusten zien egun oroz bazkal onduan, galerian, erretora hara hunaka.</p>
+<p>Victorian, karriketan, bi gaintitarik eta goratarzun berian, etxek orok badutie galeriak. Etxegoyhenek eta Elguebarnek hitzartu zien egun berian behar ziela galeriatik galeriala, hiriko aphez-nausiarekin elhe egin. Elguebarne zatekian haste, harek beitzian boronte gaitza. Etxegoyhenek joren zian aitzina, Elguebarne beno hanitxez azkarrago beitzen latian.</p>
+<p>Vitoriako erretora etzen haatik erran delako elixazainaren herrokuetarik: latian etzen herratzen eta teolojian azkar zen. Elguebarnek bertan ixiltu behar ukhen zian. Etxegoyhen juan zen aski hurrun, bena ezagutzen zian etziala haboro biderik. Victoriako erretorak eskolier berri baten heiniala ezaririk zian; halako galtho batzu egiten zeitzon eta etzakian nula ihardets.</p>
+<p>Elguebarne ez beitzen burments eta ikusten beitzian kapitaina zer athekan zen, oihuz hasi zen barnetik:</p>
+<p>&mdash;Etxegoyhen! haigu bazkaitara, hire haiduru gutuk...</p>
+<p>Etxegoyhenek ordian, bizkarra konkortuz, gurrak egin zeitzon espainul aphezari erranez arragret ziala bena lagunek bazkaitara deitzen ziela.</p>
+<p>Bi ofizier latinistek erran zien algarri:</p>
+<p>&mdash;Frantzian eta Espainan, jakitanta jakitant eta deusere ez dakiana ahal den bezalako.</p>
+<p>Haritxabaletek entzun zian aiphatzen gerthakari hori hanitx aldiz. Hartakoz erraiten zeron Elguebarneri, bide emaiten zerolarik:</p>
+<p>&mdash;Bego ermithainaren latia!</p>
+<p>Elguebarneri etzeron hanbat laket elhe horien entzutia Goihenetx eta Ardatx khantari lagunen aitzinian. Ikhusten zian bi beretter haiek halako so bat eginen ziela algarri, erran nahi ukhen balie bezala:</p>
+<p>&mdash;Bere handiusgua ororen gatik, ez duk hori ere uduri-erazi nahi lukian bezain hurrun latian heltzen.</p>
+<p>Elguebarne, Goihenetx eta Ardatx, hiruak elizako khantari lehen herrokakuak ziren Elguebarne buru, bestiak haren peko.</p>
+<p>Elguebarnek botz artekotto bat zian, aski mulde oneko; Goihenetxek botza idor zian; eta Ardatxek belatxa bezain arhin. Hirurak untsa trebaturik ziren <hi rend='Italic'><foreign>Plaint-chant</foreign></hi>-ian. Khantu notak eta haien gora eta beherako jauziak untsa ezagutzen zutien. Saihetseko khantari zunbaitek huts egiten zielarik, bazakien, so batez, haien gibel egon-erazten. Filipe Luro, Haltzepo, Dominixe Berriets, Anbroxi Elixalt eta beste zunbait heinian zauden jaun handi haien onduan.</p>
+<p>Igante batez Pettarreko gizon bat debozionian jinik zena, bere herrian elizako khantari zatekiana arauz, huilantu zen khantaderiala. Elguebarnek gogoz gainti bena halarik ere, eman zian gizon arrotzari, <hi rend='Italic'><foreign>Introit </foreign></hi>eta besten hasteko uhuria.</p>
+<p>Pettarrakbotz ederra zian eta haren khantatzeko muldiak odola bekhatxez phizturik ezari zutian Elguebarne, Goihenetx eta Ardatx.</p>
+<p>Bena horra nun gizagaxo Pettarrak ofertoriuan nota bat faltsu emaiten dian osoki. Hain sarri Elguebarnek, mundu orok entzuteko heinian, egiten dero saihetsetik: &laquo;Eskolalat! Eskolalat!&raquo;. Goihenetx eta Ardatx hasi ziren kheinuz eta erriz, bi haur bezala.</p>
+<p>Pettarra, ahalkez gorriturik, jelkhi zen berehala khantaderatik eta hurruntuxe zen beren buruez hainbeste harturik ziren gizon haietarik.</p>
+<p>Haritxabaletek erran zeien, egun hartan bere elizako kantarier bi hitz zorrotzik, erran zeien <hi rend='Italic'><foreign>Plaint-chant</foreign></hi>-eko oso zirela, bena gizatarzunez zinez eskas. Elguebarnek behar ukhen zian buria aphaltu; aleta lephua gogor zian eta elhia bizkor berjitez.</p>
+<p>Erramuz, Santa Grazian, Pasionia khantatzen zien mulderik ederrenian.</p>
+<p>Herri osua juaiten zen egun hartan elizalat Pasioniaren khantatzen entzutia gatik.</p>
+<p>Elguebarne althariala eraisten zen khantaderetik. Goihenetxek emaiten zian goraa. Egun hartan Haritxabaletek uzten zutian xaramelak eta ezarten zian bere botz nasaia arrabitaren sonia bezain ezti.</p>
+<p>Bi oren behar ziren Pasioniaren khantatzeko eta mezazaliak etziren debeiatzen.</p>
+<p>Dominixe Berriets aspaldian Pasioniaren khantatzeko uhuriala heltu nahirik zen. Goihenetxek etzeron orano uzten aldirik.</p>
+<p>&mdash;Nik uzten dudanian hik emanen duk gora.</p>
+<p>Jin zen Erramu. Elizaa jentez gaintika betherik zen. Elguebarnek hasi zian Pasionia. Goihenetx, lunetak argiturik, haien sudurren gaina biltzen ari zen. Dominixe Berriets Goihenetxen gibelian zagon. Elguebarne gibelian zelarik hitz horietara: <hi rend='Italic'><foreign>Dicebant autem</foreign></hi>, Dominixek, Goihenetxi ahuaren zabaltzeko denboraa utzi gabe, eliza bobedaa iharrauziz, ihardetsi zian:<hi rend='Italic'><foreign> Non in die festo, ne forte tumultus fieret in populo.</foreign></hi></p>
+<p>Goihenetx ahalketurik gibeltu zen eta Dominixek khantatu zian lehen aldikoz Pasioneko goraa.</p>
+<p>Ordian hasirik, denbora luzaz eduki zian pasioneko goraren khantatzeko aldia.</p>
+<p>Goihenetx etzen nahi izan arrankuratu Haritxabaleti Dominixek egin zeron lan tzarraz, beitzakian jaun erretora bere ilobaren senarraren kuntre etzela jarriren.</p>
+<p>Goihenetx hartan erori zen; utzi zian elizan khantatzia. Izan zen haatik haren ordari khantaderian sarthu zena. Primu egin zian bere iloba Anttoni Burguburu. Anttonik bazian botz bethe hun bat. Ikhasi zian ere <hi rend='Italic'><foreign>Plaint-chant</foreign></hi>-a aski untsa. Osabaren luburiak hartu zutian eta jarraiki da bere denbora orotan elizan khantatziari. Elguebarne etzuan azkartuz. Constantin errejent gaztiak hartu zian haren lekhia. Utzi zeron, juan ahal zeno, lehen urhatsa khantaderian eta merako lanetan. Azkentsialat Elguebarnek etzian luma etxekiten ahal nun etzian aitzinetik botila bat ardu edaten. Gaiaren hun igaraiteko hartzen zian arrats oroz, ohialat sartu onduan godalet handi baten bethe aigardent.</p>
+<p>Ardatx ere bere bi lagunak bezala, ixiltu zen. Utzi zialarik khantore egitia, mundiak erran zian:</p>
+<p>&mdash;Adio Ardatx!</p>
+<p>Ari izan zen haatik orano askitto luzaz, negian, gaiazko eskolaa egiten lehen kominiankarier, katiximaren erakasteko. Etzian eskolaa kario pakha-erazten. Letzioniaren hartzera jiten zenak, behar zian ekharri aldikal, su egiteko eskail bat. Egurra gabe jiten zenaren etzen bortha zabaltzen. Borthan joiliari Ardatxek egiten zian: &laquo;Eia le&ntilde;a?&raquo;. Bazian halako ahalke bat uskaraz erraiteko: &laquo;Badeia egurra?&raquo;.</p>
+<p>Aiphaturen dugu igaraitian Haritxabaleten adiskide bat, Ganosse medezia.</p>
+<p>Ganosse Tarbeko zen. Jin zen gazte gaztia, eskolak urhentu bezain sarri Eretarat egoitera. Eretan zagon neskato, laborari etxe batetan, Santa Grazi Guillemeneko neskatila eder bat. Ganossek ezagutziak egin zutian neskatila harekin. Hain zeron goguan sarthu non emaztetako hartu beitzian. Eta hantik bertan jin zen egoitera Santa Graziarat. Han bizi izan da luzez eta han hil 57 urthetan, 1832an.</p>
+<p>Haritxabaletek khumitatzen zian Ganosse ardura bazkaitara. Medezi bezain ere bazian zunbait aldiz haren beharra. Adin azkarrian errematismek hartu zien, bestalde, ihurk hanbat etzakialarik, bazian estomak xiluan ethendura gaitz bat.</p>
+<p>Ganossek erraiten zian bere uskararik hobenian:</p>
+<p>&mdash;Jaun erretora azkar dela hartza bezala, bena badela doloria handi, eta gero txoria? Txoria badiat phantzoilian habia. Lana ez, phausia bai.</p>
+<p>Haritxabaletek bazian Ganosse beitan sineste osua. Ardura ziuan:</p>
+<p>&mdash;Nula holako gizon jakintsuna izan da hain kopetx arhin, gabezia gorrian sartzeko, eta hain ahul bizi orotan, han ithorik egoiteko?</p>
+<p>Ganossek egin ahal zukian ezkuntze eder bat, bena zunbat nahi emaztia deus gabe zen, buru huneko jelkhi balitz, ezin biziak etzian eskerniatuko jaun hura, ezi lan hanitx bazian herrian eta hanitxez haboro herri aizuetan, ardura deitzen zien Biarnorat. Denbora haietako irabazten zian sos ederra, bena haren etxen ari ziren jina juan.</p>
+<p>Haur saldo bat ere Ganossek ukhen zian. Haurretarik bat beizik etzen jelkhi zerbait balio zianik. Bizar egile, basa barber, ostalari eta sonu joile hura bizi izan zen Eretan. Zerbait huntarzun ere egin zian eta oro utzi aitaren gaintitik Tarban zutian askazier. Aurhidek etzien deusere ukhen, oro edale eta buruments zien ere. Zankhuak hun zutien haatik. Nuiz nahi bazuatzan huinez, Tarbako askazien ikhustera. Bazen haientako han bethi xokhorra. Kosiak anaia beno hobe ziren. Bada bide Santa Graziarik Tarbara.</p>
+<p>Haritxabalet etxekiten zen zinez Ganosseri, bai eta haren familia errenbesari ere.</p>
+<p>Aldi batez, Eretan zagon Ganosse semiari erran zeron:</p>
+<p>&mdash;Foure, aisan zira, ez duzu haurrik. Laguntuxe behar zuntuzke aurhide gaxo horik.</p>
+<p>Haritxabalet ixiltzera dua. Ez du haboro izkiribatzen ere. Constantin herriko errejentak egiten dero segretarigua. Harek behar deitzo leterak irakurri eta haien arrapostiak egin.</p>
+<p>Elhia bekhantziari begithartia ulhuntuxe zaio. Segretariak zunbait aldiz, Haritxabaleti erri ami&ntilde;i bat jauz-erazteko, galthatzen dero hau edo hura khunta dizon. Nekeztto, bena Haritxabalet hasten da: <hi rend='Italic'>Egun batez laguntu nia Ganosse Harrigiliala. Han bazia emazte bat eri gaizki. Nabaritu zialarik medezia kanberan sartzen, eria hasi zia oihuz: Jaun barbera egarri! &mdash;Eta ene haurra edan! &mdash;Bena jauna, lotsa nuzu! &mdash;Eta ene haurra, ez edan!</hi></p>
+<p>Hortan Ganossek utzi zia eria.</p>
+<p>Haritxabaleten azken erri elhetarik hau ere: <hi rend='Italic'>Ibarburuko suphazterrian nundia jarririk. Apa Maria zena xokhuan ziagona ixil ixila. Su murratik inkhatz bat har-eta, phiztu nia pipaa. Emazte xaharra eni so ziagola xuxen xuxena. &mdash;Zer da Apa Maria? galthegin dioia. &mdash;Eta hi ere pipatzen duna gizuna bezala? &mdash;Eta, ala txoria! eniza gizuna? &mdash;Bai, bai, gizuna, bena apheza behintzan</hi>. Apa Maria Biarnorik jinde zen ezkuntzaz Ibarburila.</p>
+<p>Haritxabalet zinez apaltzen ari zen. Halako khorpitza, halako indarra eroririk ziren orozbakoz. Laxague bikariak, lotsak harturik, galthegin zeron etzutianez nahi azken sakramentiak errezibitu:</p>
+<p>&mdash;Nahi nundukek igorri, bena ez ditiat orano botak urintaturik bidaje handialako. Nihauk erranen deiat nuiz datekian thenoria, ihardetsi zeron.</p>
+<p>Hantik laster haatik Haritxabaletek deitu zian Laxague khanberala:</p>
+<p>&mdash;Orai behar diat untsa adelaturik jarri. Bertan dukek Jinkuaren aitziniala ene agertzia, eta nahi nuk izan Jundane Juhane lilia bezain xuri nausi handiaren besuetara juaiteko.</p>
+<p>Haritxabalet hil zen 74 urthetan, 1834ian.</p>
+        </body>
+      </text>
+    </group>
+  </text>
+</TEI.2>
+

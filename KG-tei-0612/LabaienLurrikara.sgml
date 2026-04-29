@@ -1,0 +1,1417 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN"
+                       "http://www.tei-c.org/P4X/DTD/tei2.dtd" [
+   <!ENTITY % TEI.prose    'INCLUDE' >
+   <!ENTITY % TEI.linking  'INCLUDE' >
+   <!ENTITY % TEI.analysis 'INCLUDE' >
+   <!ENTITY % TEI.figures  'INCLUDE' >
+   <!ENTITY % TEI.XML      'INCLUDE' >
+   <!ENTITY % TEI.extensions.ent SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.ent' >
+   <!ENTITY % TEI.extensions.dtd SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.dtd' >
+]>
+<TEI.2>
+  <teiHeader>
+  <fileDesc>
+     <titleStmt>
+        <title>Lurrikara</title>
+        <author>Antonio Maria Labaien</author>
+        <respStmt>Ez dauka</respStmt>
+     </titleStmt>
+     <extent>18.673 hitz, 136.963 karaktere</extent>
+     <publicationStmt>
+        <publisher>Klasikoen Gordailua [http://klasikoak.armiarma.com/]</publisher>
+        <distributor>Estrata Liburuak S.L.</distributor>
+        <address type='email'>klasikoak@armiarma.com</address>
+        <idno type='ota'>LabaienLurrikara</idno>
+        <availability status='free'>Erabilpen librekoa; honoko helbidean topa daiteke (HTML, RTF eta PDF formatuetan): http://klasikoak.armiarma.com/idazlanak/L/LabaienLurrikara.htm</availability>
+        <date>2006</date>
+     </publicationStmt>
+     <sourceDesc>
+        <bibl>Iturria: Euzko-Gogoa (1956ko iraila-urria / 1956ko azaroa-abendua / 1957ko urtarrila-otsaila) (http://www.armiarma.com/andima/eugo/eugo32/eugo3214.htm)</bibl>
+        <notesStmt><note>Iturburuen datazioa: 1955</note></notesStmt>
+     </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+     <projectDesc>Euskal literaturako testu klasikoen bilduma da KLASIKOEN GORDAILUA; testu hau berorren parte da</projectDesc>
+     <refsDecl>
+        <p>MENTIONED etiketa egilearenak ez diren hitzak markatzeko erabili da: hitzaurreak, aipuak, iruzkinak, e.a.</p>
+    </refsDecl>
+     <classDecl>
+        <taxonomy id='generoa'>
+            <category id='G-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='G-ANT'><catDesc>Antzerkia</catDesc></category>
+            <category id='G-BER'><catDesc>Bertsoak</catDesc></category>
+            <category id='G-ERL'><catDesc>Erlijioa</catDesc></category>
+            <category id='G-NAR'><catDesc>Narratiba</catDesc></category>
+            <category id='G-POE'><catDesc>Poesia</catDesc></category>
+            <category id='G-SAI'><catDesc>Saiakera, kronika, artikuluak...</catDesc></category>
+        </taxonomy>
+        <taxonomy id='garaia'>
+            <category id='M-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='M-16'><catDesc>XVI. mendea</catDesc></category>
+            <category id='M-17-1'><catDesc>XVII. mendea - 1. erdia</catDesc></category>
+            <category id='M-17-2'><catDesc>XVII. mendea - 2. erdia</catDesc></category>
+            <category id='M-18-1'><catDesc>XVIII. mendea - 1. erdia</catDesc></category>
+            <category id='M-18-2'><catDesc>XVIII. mendea - 2. erdia</catDesc></category>
+            <category id='M-19-1'><catDesc>XIX. mendea - 1. erdia</catDesc></category>
+            <category id='M-19-2'><catDesc>XIX. mendea - 2. erdia</catDesc></category>
+            <category id='M-20-1'><catDesc>XX. mendea - 1. erdia</catDesc></category>
+            <category id='M-20-2'><catDesc>XX. mendea - 2. erdia</catDesc></category>
+        </taxonomy>
+        <taxonomy id='euskalkia'>
+            <category id='E-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='E-BAT'><catDesc>batua</catDesc></category>
+            <category id='E-BIZ'><catDesc>bizkaiera</catDesc></category>
+            <category id='E-BNA'><catDesc>behenafarrera</catDesc></category>
+            <category id='E-ERR'><catDesc>erronkariera</catDesc></category>
+            <category id='E-GIP'><catDesc>gipuzkera</catDesc></category>
+            <category id='E-GNA'><catDesc>goi nafarrera</catDesc></category>
+            <category id='E-LAP'><catDesc>lapurtera</catDesc></category>
+            <category id='E-NAF'><catDesc>nafarrera</catDesc></category>
+            <category id='E-ZAR'><catDesc>zaraitzuera</catDesc></category>
+            <category id='E-ZUB'><catDesc>zuberera</catDesc></category>
+        </taxonomy>
+    </classDecl>
+  </encodingDesc>
+  <profileDesc>
+     <textClass>
+       <keywords scheme='generoa'>
+         <list><item>G-ANT</item></list>
+       </keywords>
+       <keywords scheme='garaia'>
+         <list><item>M-20-2</item></list>
+       </keywords>
+       <keywords scheme='euskalkia'>
+         <list><item>E-GIP</item></list>
+       </keywords>
+     </textClass>
+  </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>Lurrikara -- Antonio Maria Labaien</docTitle>
+    </front>
+    <group>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>LURRIKARA</p><--</head>
+        </front>
+        <body>
+<p>LAU EKITALDITAN</p>
+<p><hi rend='Bold'>DRAMATIS PERSONAE</hi></p>
+<p>-f-<hi rend='Bold'>AITZINDARI AMA</hi>: Konbentuko buru ta agintari nagusia.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARI AMA</hi>: Nagusi ordekoa.</p>
+<p>-f-<hi rend='Bold'>GURUTZE AIZPA</hi>: Monja gazte, sartu berria.</p>
+<p>-f-<hi rend='Bold'>ATEZAI AIZPA</hi>: Adi&ntilde;ez aurreratua.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN</hi>: Kapellau jauna. Apaiz gaztea.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL</hi>: Konbentuko sakristau ta morroi zarra.</p>
+<p>-f-<hi rend='Bold'>GOTZON</hi>: Langillea, giza seme gaztea, etxe barruko antolamenak egiten dituna.</p>
+<p>-f-<hi rend='Bold'>IZASKUN</hi>: Gurutzeren aizpa.</p>
+<p>-f-<hi rend='Bold'>GUDARI</hi>: Burutakoa.</p>
+<p>-f-<hi rend='Bold'>GORRI</hi>: Burutakoa.</p>
+<p>-f-<hi rend='Bold'>REKETE</hi>: Izarduna.</p>
+<p>-f-<hi rend='Bold'>PALANJE</hi>: Izarduna.</p>
+<p>-f-Monja, gudari-mutil, gorri, ta moro soldaduak.</p>
+<p>Gertaria Gipuzkoan 1.936ko matxinada ta guda asieran.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>I. EKITALDIA</p><--</head>
+        </front>
+        <body>
+<p>-e-<hi rend='Italic'>Monja-Komentu bateko klaustro barrena. Erdi-aldera loretegi ta iturria arko sarreraz inguraturik. Lenen ageri dan klaustro zatiaren eskubi-eskerrera, ate bana elizara ta lekaretxe barnera daramatenak. Atzealdera, erdi-erdian kaleko atadia.</hi></p>
+<p><hi rend='Bold'>I. AGERRALDIA</hi></p>
+<p>-e-<hi rend='Italic'>Abots xurixken oiartzuna... Monjatxoen &laquo;ordu&raquo; artako azken abestiak emeki eliza barnean entzun bitez. Isilunea. Oi&ntilde;ots bigunak eta beriala monja-taldea azaldu bedi, errenkadan, klaustro zear igaroaz, komentu barrneruntz eskutaturik.</hi></p>
+<p>-e-<hi rend='Italic'>Bat batean tiro otsak urrun. Geroxeago eztanda aundi bat, komentuko orrmak ikararazi artera&ntilde;o. Berriz ere ots eta dunbatekoak. Gizardalla urrbillago. Aintzindari ta Zuzendari Amak atetik ager bitez. Biak urrduri; batik bat Zuzendari Ama.</hi></p>
+<p>AINTZINDARI TA ZUZENDARI AMAK</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>(<hi rend='Italic'>Zuzendari Ari eskutik eutsirik</hi>). Lasa zaite ama Marte! Ez bururik gal! Tiro batzuengatik!</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Oso berta bait-ziran. Eta eztanda! Jesus!</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA:</hi> Jesus bai! Ori degu berrtago. Goiko jaunak lagunduko digu. Ez zagun beraz beldurrik izan.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Ez, ba&ntilde;an, beorrek Paxkual asieratik bidali bear zuan zerr gerrtatzen dan jakitera.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Ez genduen utziko gure otoitzaldia amaitzeka. Lenen Jaungoikoa; gero Paxkual, gure mandataria.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Alako geldia da gizajoa. Ta gaurr berandu dator (<hi rend='Italic'>Urrduri</hi>) Zerrbait txar gerrtatzen da errian (<hi rend='Italic'>Errne ta adi</hi>) Otsak gero ta aundiagoak dira. Gaur ezin atera izango gera baratzara eguneroko egurastaldira.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Gaurrkoz aizpak geletan geldi ditezela.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Ez naiz ausarrtzen baratzara i&ntilde;or bidaltzen; ezta aparirako porru-azak jasotzera ere!</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Barau bat geiagok ez digu kalterik egingo.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Ori da gutxiena! Bikario jaunak esan zigun bai, matxinada zetorrela... (<hi rend='Italic'>edozein ots dala ta</hi>) berriz tiroak?...</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>(<hi rend='Italic'>Itunki</hi>) Baleike ori merezi izatea.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Igesi egin bearko degu. Zenbat monja erail dituzten ba-daki Ama. Gizon gaiztoen eskuetan erori bearra!</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Jainkoaren asarrea deitzen ari zerala dirudi. Ori ez dago ondo zuretzat. Ama Marte. Zu ainbateko emakume sendoa. Ez zaitzatela, arren, orrela ikusi beste aizpek (<hi rend='Italic'>maitekiro eskua artuaz</hi>). Usotxo gaixoak! Goiko Jaunak gure Ama doatsu. Kalare deunaren bitartez zaitzen al gaitu. Emen jende zintzoa degu. Zer kalte egin diegu, bada, gure aurka jaiki ditezen. Auzoko aurrai eskola ematen diegu; jantzi ta janetik ez zaie falta. Benetan maite ditugu. Guretzat gorrotorik izango ote dute bada?... Langille errukarriak, bat edo beste kendu ezkero on puskak baitira. Euskaldunak ga&ntilde;era.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Oiek izaten dira txarrenak okertzen diranean. Arro dabiltz aspaldi.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Gixaxoak! Ez zazula orrelakorik esan, oben larria da-ta.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>(<hi rend='Italic'>Belaunikaturik</hi>) Barkatu Ama.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Jeiki zaite. Ta Salesko Prantzikok Filoteari esaten dion arabera gure mintzoa bedi, manxo, garbi, xuxen eta leiala.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>(<hi rend='Italic'>Zutiturik</hi>). Beorren esanera nago Aintzindari Ama. Ba&ntilde;an kaletik susmur aundia dator. Ez al du ardallik entzuten?</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA:</hi> Bai aizpa maitea. Gaur, ez bestelako so&ntilde;uak datoz. Arritzen naiz Paxkual ez etorri izatea. Zer derizkiotzu?</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Ba, Parroko ta alkate jauna deitu bear litukeala.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Lenengo, Kapelau jauna etorri arazi zagun beintzat. Parrokoak eta alkate jaunak, zer esanik ez une ontantxe buruauste aundiagorik izango dute.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Alkatea oso eskubitakoa da. Gure botoaz irrten zan garaille...</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Emen izan banintz ez gi&ntilde;aten orretara komentutik irtengo. Ez!</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Parroko jaunak agindu bait-zigun.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Esanekoak izatea dagokigu. Onela agintzen digu gure legeak. Ba&ntilde;an ez da gure egitekoa Kristauen arteko burruketan sartzea. Orretarako utzi al genduen bada mundua? Ezin atera gera ama il zorian daukagunean, eta botoa ematea bai?</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Gaiztoak nagusitzen ba dira ordea komentua erreko bait-digute, eliza ondatu, ditugunak oztu, guziaz jabetu ta gu... (<hi rend='Italic'>asperenka</hi> ) il! Goazen! Tiroak berriz! (<hi rend='Italic'>abitzen da</hi>).</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Zaude paketiar! Ez ain laisterka joan aizpa maitea. Oraindik osorik gaude. Zu izutu ezkero zer egingo dute beste gure bildots gaxoak. Beraz, kemen aundia ta Jainkoarengan itxaropena. Bortitz beti!</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Etxea zaintzeko guarda-zibilak eskatu bearko ditugu.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Itxoin, itxoin. Lenengo Jainkoaren laguntza eska zagun. (<hi rend='Italic'>Otoitz isil laburra dagite biok, &laquo;Aitaren&raquo; ikurraz amaiturik).</hi></p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>(<hi rend='Italic'>Ateruntz begiraturik</hi>) Norbait dator!</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Bai, Jaungoikoa da noski gure Paxkual sakristauaren itxura arturik.</p>
+<p><hi rend='Bold'>II. AGERRALDIA</hi></p>
+<p>LENGOAK ETA PAXKUAL</p>
+<p>-e-<hi rend='Italic'>(Paxkual bi monjenganuntz urbildurik)</hi></p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Luzeiritzirik geunden zure zai. Kosta zaizu etortzea.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL:</hi> (<hi rend='Italic'>Arnas estuka</hi>) Kosta?... Giro dago kalebarrenean! Zoaz! zoaz! Ez beintzat errurik leporatu, berandu zergatik natorren jakin gabe.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Gure Paxkual zintzoak arrazoi du. Mintzatzen utzi zaiozu.Zer berri dabil?</p>
+<p>-f-<hi rend='Bold'>PAXKUAL:</hi> Berri? Erreboluzioa lertu dala! ta...</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA ta ZUZENDARIA:</hi> (<hi rend='Italic'>Oso beldurti</hi>). El Jesus! Erreboluzioa?</p>
+<p>-f-<hi rend='Bold'>PAXKUAL:</hi> Bai, erreboluzio ta matxinada gorria. Madrilen Errepublika botata berriz errege jarri nai dute. Emengo esker jendeak kalera atera dira. Ez nuen uste orrenbeste ziranik. Tiro botatzeari ekin diote kale barrengo zubialdera. Napar bidetik ez omen dago igarotzerik...</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Esaten nion Aintzindari ama, gauza beltza dator. Arriskoan gaude ta nora igesi joan artu bear luke asmo.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Patxaraz entzun zagun. Utzi zaiozu esaten ari dana amaitzen gure gizonari. Gero neurtuko degu arrixkoa.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL:</hi> Arrixkoa? Aundiena neronena. Bizi guzian karlista ta ga&ntilde;era Iturrizako sakristau ta mandatari. Ez badidate ba aguro ezarriko&raquo;Indri&raquo;...</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA:</hi> Biok ere goibel zaudete. I&ntilde;ori pozik emateko! Jarrai zazu, jarrai Paxkual, ez diguzu guzia esan.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL:</hi> Esan? zera, ba... gorriak, arma bila guarda-zibilen kuartelera joan dirala. Aiek errendituaz udaletxera jo dutela. Ta emen jaun eta jabe daudela. Ta...(<hi rend='Italic'>emakumezko biak txaututa geldi bitez</hi>).</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Ori ere bai?</p>
+<p>-f-<hi rend='Bold'>PAXKUAL:</hi> Bai, ori ere bai.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA:</hi> Ta, nun da alkate jauna?</p>
+<p>-f-<hi rend='Bold'>PAXKUAL:</hi> Mendira igesi egi&ntilde;a dala entzun det.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>(<hi rend='Italic'>beldurti</hi>) Zer egin bear degu?</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Orain entzun patxadan, Zuzendari Ama (<hi rend='Italic'>Paxkuali</hi>) Jarrai zazu, gizona. Zer geiago jakin dezu.?</p>
+<p>-f-<hi rend='Bold'>PAXKUAL:</hi> Esan dedana gutxi al da? Baezpada ere ez naiz larregi urbildu tiroak ziran aldera. Edozein ausartzen zan! Ortik aurrera, ezdakit, ezdakit...</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Ordu bete, ori besterik ez jakiteko.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Beste eginkizunak ere bete bait ditu. Etxean zure bearra ba dago. Ez da ala Paxkual?</p>
+<p>-f-<hi rend='Bold'>PAXKUAL:</hi> Ba... ogeitamar urte ba-daramazkit-eta.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Beste orrenbeste opa dizkitzut osasun onean.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL:</hi> Eskerrikasko Aintzindari Ama, beorrek ikusi itzala. Nik egi&ntilde;alak egingo ditut.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Bai, sinisten degu. Gaur ere &laquo;<hi rend='Italic'>Bertan goxora</hi>&raquo; joango zi&ntilde;an zera....(<hi rend='Italic'>zurruta adierazi naiez</hi>).</p>
+<p>-f-<hi rend='Bold'>PAXKUAL:</hi> (<hi rend='Italic'>Lasai</hi>) Bai andrea! Ez dira oitura onak galdu bear. Kasildonean ere izan naiz.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>(<hi rend='Italic'>Paketiar</hi>) Baita, baita. Ta, zer dio jendeak?</p>
+<p>-f-<hi rend='Bold'>PAXKUAL:</hi> Bada, Kasildo jauna an ari zan esaten eskubitar guziak errelijioaren alde jokatzearren bat egin bear gendukeala, txorakeriak utzirik.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Ori da bide zuzena, On Kasildoko diona. Ez batzuek bizkaitarrak, besteak karlistak...</p>
+<p>-f-<hi rend='Bold'>PAXKUAL:</hi> Bai, Kasildo rentzat aberastu danetik errege ekartzea txorakeria zan; Jil Robles omen zan gizona. Zera, Errepublikari lagundu; ta errelijioa kandel geiago saltzeagatik besterik ez. Jaki&ntilde;a matxinada etorri bear zuala.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Mingain ori! Ez onela mintza! Kristauen arteko gorroto ta ezin ikusiak dakarzki matxinada ta naasikeriak. Guziok gera Jainkoaren seme. Ez beraz lagun urkongatik gaitziritzi. Are gutxiago katoliko onak diranengatik. Elizama doatsuak guziok bildu nai baigaitu. Gaur i&ntilde;oiz ba&ntilde;o geiago.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Gure Ama nagusiak egi-egia dio. Ba&ntilde;an eguna aurrera doa ta ez degu garbitasunik atera errian gertatzen danari buruz. Paxkual onek...</p>
+<p>-f-<hi rend='Bold'>PAXKUAL:</hi> Orain ere errua nere al da?</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Ez, zu errugabe, xalo bat zera, ba&ntilde;an, laister-laisterka D. Martin Kapelau jaunarengana zoaz eta lenbait-len onuntz datorrela.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL:</hi> (<hi rend='Italic'>Abituaz</hi>) Ba-noa; ba&ntilde;an, naiko lan etxean izatea. Langilleen batzokian izango da.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Bereala etorri dedilla. Al badu.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Zu ere aguro ta zuzen itzuli.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL:</hi> (<hi rend='Italic'>aienatuaz</hi>) Ez naiz tabernan sartuko, ez uste.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>(<hi rend='Italic'>Zuzendariari</hi>) Zoaz gora Zuzendari ama ta aizpak lasaitu itzazu. Bertan geldi ditezela baratzara atera gabe. Ta zu itzuli zaite Gurutze aizparekin.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>(<hi rend='Italic'>joanez</hi>) Beorrek agindu arabera egitera noa.</p>
+<p>-e-<hi rend='Italic'>(Aintzindari Ama, bakarrik gelditzen dalarik zerurontz begitartea jasorik gogartean jardun da Atezai-Aizpa urbiltzen zaion artio).</hi></p>
+<p><hi rend='Bold'>III. AGERRALDIA</hi></p>
+<p>AINTZINDARI AMA TA ATEZAI-AIZPA</p>
+<p>-f-<hi rend='Bold'>ATEZAINA:</hi> (<hi rend='Italic'>albatan</hi>) Gure Aintzindari Ama! zerbait larri gertatzen da errian. Ez dakit, ez dakit... tiroak izan omen dira...</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Zuk ez zenitun entzungo noski. Gorreriak ere badu bere alderdi ona.</p>
+<p>-f-<hi rend='Bold'>ATEZAINA:</hi> Jendea korrika ikusi det. Gero, auzoko Madalen erreboluzioa dala esatea etorri zait. Errusin ere orrela asi zala. Ta jaki&ntilde;a, monja ta praileak etxean sartuta egotea obe degu. Zer derizkio kanpoko ateaundia itxitzea.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Ez dago gauza ain estu. Ez zazula sakristaua beintzat kanpoan utzi. Laister Kapellau jaunarekin etortzekoa baita.</p>
+<p>-f-<hi rend='Bold'>ATEZAINA:</hi> Ez ote diote kalterik egingo. Orain entzuten diran gauzekin ez nintzake batere arrituko. Ta beste edozein ate joka ba-dator iriki bear al diot?</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Atea ez zaio i&ntilde;ori-itxi bear arrazoi aztunik gabe. Arrotza bera, Jesukristo gure jauna bailitz artu bear dala ba-dakizu.</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Bai, ba&ntilde;an orrenbeste Judas dator aspaldi...</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Ba ezpada ba, zoaz, zoaz zure atea zaintzea, etsai gaiztorik sar ez dedin (<hi rend='Italic'>ontartez beterik</hi>) &laquo;vigilate et orate&raquo;.</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Ongi da Aintzindari ama. Ezer gaizto gerta baledi oartuko diot.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Eleizan arkituko nazu.</p>
+<p>-e-<hi rend='Italic'>(Atadi aldera doa. Barrengo ate batetik Zuzendari Ama ta Gurutze aizpa agertzen diralarik).</hi></p>
+<p><hi rend='Bold'>IV. AGERRALDIA</hi></p>
+<p>ZUZENDARI TA GURUTZE AIZPA</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Bai, Gurutze Aizpa, berri oso txarrak dira. Txerrena ez da lo egon. Erreboluzioa! gaiztoak nagusi!</p>
+<p>-f-<hi rend='Bold'>GURUTZE:</hi> Jaungoikoari i&ntilde;oiz ba&ntilde;o sutsuago otoitz egingo diogu. Ilduratuko gera: barau, neke-mi&ntilde;ak eske&ntilde;iko dizkiogu.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Ori ondo dago, ba&ntilde;an ez da aski. Gure Jaungoikoak geiago eskatzen digu: etxe santu ontatik atera bearrean gera, jantziz aldaturik.</p>
+<p>-f-<hi rend='Bold'>GURUTZE:</hi> (<hi rend='Italic'>naigabeturik</hi>) Au mi&ntilde;a &laquo;habitua&raquo; kendu bearra. Mundura berriz emengo pakea utzirik!</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Aldi gutxirako izango da. Gelditzen baldin bagera okerrago izango baita.</p>
+<p>-f-<hi rend='Bold'>GURUTZE:</hi> Nai ta nai ezkoa al da ordea? Naiago nuke Jaungoikoari bizia eske&ntilde;i.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Esanekoa izatea da gure errilijioaren lenengo araua.</p>
+<p>-f-<hi rend='Bold'>GURUTZE:</hi> Zuen menpean nagoala ba-daki Zuzendari ama.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Ba gaua emen igarotzea beldurgarria izango da. Azken orduko zalapartak txarrenak. Bizpairu, sakristauarekin gelditu ta beste guziak erriko etxe on batzuetan zabaltzea obe degu. Ogeitasei gera guziak. Zuen etxean bat edo beste artuko gaituzte, tokirik baldin badute, ez da ala?</p>
+<p>-f-<hi rend='Bold'>GURUTZE:</hi> Baietz uste det, baezpada aurrez galdegitea obe degu.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Zure aizpa deituko degu sakristaua etorri bezin aguro. Itzultzen baldin bada beintzat. Gizona ain da geldi ta ikaratia. Beraz Gurutze aizpa, gertu itzazu zure puskak...</p>
+<p>-f-<hi rend='Bold'>GURUTZE:</hi> Au lotsa! Munduko jantzia erabilli bearra.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Zer esango det nik. Zu gaztea zera. Komentuan ogeitamabost urte daramazkit. Jendeakin jarduteko oitura galdu nuen aspaldi. Alare, etxearen onari begiratzeko guzia utziko det.</p>
+<p>-f-<hi rend='Bold'>GURUTZE:</hi> Onela baldin bada Jaungoikoaren borondatea egin bedi. Gure buru argalak. Aren eskuetan utzi itzagun.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Paxkual emen degu-ta! Zer gerta ote zaio? Etxetik ateratzea besterik ez baitu egin.</p>
+<p>-f-<hi rend='Bold'>GURUTZE:</hi> Zai gaudela igarriko zuan eta lenbait-len etxeratua da nunbait. Paxkual leiala.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Bai, ez balu ardoa ainbeste maite.</p>
+<p>-f-<hi rend='Bold'>GURUTZE:</hi> Gizonak bear du orrenbeste. Alargun dago. Ez du beste lagunik. Gizajoa!</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Ez geiegi errukitu. Nork burutu bestela berakin! Gauden isilik ba dator-ta.</p>
+<p><hi rend='Bold'>V AGERRALDIA</hi></p>
+<p>LENGOAK ETA PAXKUAL SAKRISTAUA</p>
+<p>-f-<hi rend='Bold'>SAKRISTAUA:</hi> (<hi rend='Italic'>Laisterka datorrela</hi>) Nun da aintzindari ama?</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>(<hi rend='Italic'>arrituta</hi>) Dagoaneko itzuli al zera? (<hi rend='Italic'>Jakin naiez</hi>) Ta? zer dago kale aldean?</p>
+<p>-f-<hi rend='Bold'>SAKRISTAUA:</hi> Bai andrea, bidean D. Martin arkitu det ta ez diot onuntz bakarrik etortzen utzi nai izan.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>D. Martin kapelaua etorri dala? Zer dio?</p>
+<p>-f-<hi rend='Bold'>SAKRISTAUA:</hi> Atadian atezai aizparekin gelditua da. Astirik galdu gabe Aintzindari amarekin itzegin nai omen du.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Jaki&ntilde;a, ez dezu esan bearrik. Gaur eliza ta sakristiko ate guziak ondo-ondo itxi itzazu beintzat.</p>
+<p>-f-<hi rend='Bold'>SAKRISTAUA:</hi> Ori ere ez dago esan bearrik. Ez digu i&ntilde;ork ezer ostu ni emen naizen ezkero. Ta ori beorrek ba&ntilde;o urte geiago daramazkidala etxe ontan.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Ez dizu i&ntilde;ortxok olakorik aitatu Paxkual. Alabai&ntilde;an gaur gauez zu eliza zaitzen gelditzea on litzake.</p>
+<p>-f-<hi rend='Bold'>SAKRISTAUA:</hi> (<hi rend='Italic'>uzkurki</hi>) Nik egunez ere egin bearra betetzen naiko lan det. Ez naiz egunda&ntilde;o gau-gurtzale izan. Ori praile ta mojentzat.</p>
+<p>-f-<hi rend='Bold'>GURUTZE:</hi> (<hi rend='Italic'>ontartez</hi>) Ori emazte ta etxekoak ez bakarrik uzteagatik izango zan.</p>
+<p>-f-<hi rend='Bold'>SAKRISTAUA:</hi> Ez ta alargun geldituta gero ere!</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>A zer nolako katoliko pi&ntilde;a egi&ntilde;a zauden.</p>
+<p>-f-<hi rend='Bold'>SAKRISTAUA:</hi> Nozedal ba&ntilde;o obea.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Bada orduan, gaur, Aintzindari Amak agintzen badizu emen egon bearko dezu gau guzian.</p>
+<p>-f-<hi rend='Bold'>SAKRISTAUA:</hi> Aintzindari Amak egintzen ba dit bai.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Elizan dezu.</p>
+<p>-f-<hi rend='Bold'>GURUTZE:</hi> (<hi rend='Italic'>Berekiko</hi>) Paxkual gizon zintzoa.</p>
+<p>-f-<hi rend='Bold'>SAKRISTAUA:</hi> (<hi rend='Italic'>Elizako atetik sarturik</hi>). Noan bila!</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>(<hi rend='Italic'>Etxe barne aldera abiturik</hi>). Goazen Gurutze. Zure aizpa Izazkuni etortzeko gaztigatuko diogu. Kalerako so&ntilde;ekoak gertu bear ditugu.</p>
+<p>-f-<hi rend='Bold'>GURUTZE:</hi> Ez gertutzea obe.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Nolanai ere ezin agertuko gera. Zuek gazteak gaitzerdi. Ba&ntilde;an gu gona luzeaz eta erdi kaskamotz parragarri gi&ntilde;ake, edozein eratan azaldu ezkero.</p>
+<p>-f-<hi rend='Bold'>GURUTZE:</hi> Ez orrengatik larritu. Laguntzen al dizuegu itxura onean azaltzen. Ba&ntilde;an, egiz, komentua utzi bear al degu? Jaungoiko maitea au lanbidea!</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Gurutz bidea, alaba, gurutz bidea! (<hi rend='Italic'>bijoaz</hi>)</p>
+<p><hi rend='Bold'>VI. AGERRALDIA</hi></p>
+<p>D. MARTIN KAPELLAU JAUNA TA AINTZINDARI AMA</p>
+<p>-e-<hi rend='Italic'>(Aitzindari Ama elizako atetik irtetzen, D. Martin atadi nagusian agertzen dalarik).</hi></p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>(<hi rend='Italic'>Aintzindarierangana urbildurik</hi>). Arratsaldeon Ama agurgarria!</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Jaungoikoak ala digula kapelau jauna. Zer berri dakarzkitzu erri aldetik. Egia al da matxinadan gaudena? Tiro otsa entzuten degu...</p>
+<p>-f-<hi rend='Bold'>D. MARTIN:</hi> Bai tiroak izan dira, ba&ntilde;an ikaratzeko, aidera botiak. Udaletxe enparantzan jendea erruz dago bildua. Albiste zai. Madriden militarrak asaldatu omen dira-ta.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Paxkual etorri zaigu berri emanez, ta gero berak aunditu dituanak. Beti errepublika nola ankaz gora jarri sumatzen ari baita.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN:</hi> Oraingo txandan asmatzea baleike. Neronek ere gauza itzal dakust.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Jakin al dezu zerbait geiago?</p>
+<p>-f-<hi rend='Bold'>D. MARTIN:</hi> Ezer gutxi garbi. Telefono artu-emanak etenak dira. Ezin da, ez Bilbao ta Donostiarekin itzegin. Ez dakizkigu radioz entzuten diranak besterik. Madrideko gobiernoak agintaritzaren nagusi dala dio. Paristik entzun det berriz Kastilla ta Andaluzi geiena militarren eskuetan eroria ote dagon. Eta Madrideko kaletan gogor ari dirala burrukan. Ez da errez garaipena nora makurtuko dan jakitea. Ekaitz gogorra lertu zaigula buru ga&ntilde;era uste det. Ori bai.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Goiko Jaunak ematen al digu aterpe D. Martin. Emen ere gauza okerragora joko duala al derizkiotzu?</p>
+<p>-f-<hi rend='Bold'>D. MARTIN:</hi> Beldur naiz. Oraintxe bertan Gobiernoa, langile ta jende txeari armak artzeko dei sutsuak aldarrikatzen ari da. Ez baitu uste onik guarda-zibil eta beste izkilludunetan. Bein erri txea armez jabetu ezkero, ta asarrez ga&ntilde;ezka dagoala, zei&ntilde;ek asmatu dantza nun eta nola amaituko dan? Gorrotoa sendo itsasi da gizartean...</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Gerok ikusten degu ikastolara ekartzen dizkiguten aurretan ere. Gaxoak!</p>
+<p>-f-<hi rend='Bold'>D. MARTIN:</hi> Bai aspaldi ontan errelijioaren aurka zapalkunde zitala egin da, langille ta beartsuen artean. Zoritxarrez ez ain urri arrazoiz. Gizarte auzian gertatzen danaren errua ez du kristau-sinismenak eta bai kristau epelak. Batez ere kristau izeneko ugazaba batzuek. Erri txeak ez daki berezten eta komunis-moaren besoetan erortzen da.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Orratiokan langille zintzo asko dago erri ontan. Gorri izenekoak ere, barrendik, geienak on puskak dira.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN:</hi> Egia da. Ta Jainkoari eskerrak euskal langileen elkartasuna i&ntilde;oiz ba&ntilde;o indartsuago dago; <foreign>cooperativa </foreign>saltokia aurrera doa. Laister etxe merkeen len arriak ipi&ntilde;i ta beinkatzekoak gi&ntilde;an. Eta ainbat beste asmo kristau ta onurakor.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Zuk artzen dituzun lan-nekeak ez dira beintzat txikiak Jaungoikoaren aurrean. Kapelautza aski ez dezula, monjen txorakerien ardura ez izaki arlo aundirik zuretzat. Ez zera gelditzen. Beti zaude lanpetuta. Ez dakit nolatan guzirako astia irixten zaizun. Gaztea zera ba&ntilde;an osasunari ere geixeago begira bear zenioke, D. Martin.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN:</hi> Ez da orrenbestra&ntilde;o Aintzindari Ama. Ga&ntilde;era, guk, apaizok ez badegu ori egiten, nork sinistuko digu Jesukristoren ordezkariak geranik? Ez dit ajolik neregati esaten dituztenak; sozialista naizena, ezkertarra ta abar. Laister ikusiko degu nork duan arrazoi.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Guk otoitz egiten jarraituko degu Goitatik atera gaitzala. Matxinada ori dala-ta gure elizkizunetan eragozpenik izango al degu?</p>
+<p>-f-<hi rend='Bold'>D. MARTIN:</hi> (<hi rend='Italic'>Irritsu</hi>) Ez! Ba&ntilde;an ba ezpada, ez geiegi ta sendoegi kanpaitik jo. Izan ere ainbeste otoitzaldi dituzue...Zuen joalea berritsuegia ote dan nago; beti dantzan bait-dabil. Goizean-goiz auzo guzia esnatzen du. Jeronimo tabernakoa marmaizoan aritzen da beintzat. Ba dakizu gorri zamarretakoa degula. Egun oietan ez da komeni jendea goizegi esnatzea. Bestela ere zenbaitek lo ari&ntilde;a izango bait-dute.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Ondo dago D. Martin. Aldarte onik ez dezula galtzen ikusten det. Ala obe.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN:</hi> Ori galtzeko zorian gaude, ez uste.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Guk ez degu ba, i&ntilde;orentzako gogaikarri izan nai. Sakristau ta atezai aizpari, kanpaia, gure kanpaitxo maitea, isil arazteko aginduko diet. Pakean egon dedilla ostiral saindua bailitz. Munduak maiz gurutziltzatzen bait du Kristo gure Jauna. Ta kanpaia isildu ondoren, gure otoitzak geldi bear ba dute...Etxe ontatik gu bidaltzen ba gaitue....</p>
+<p>-f-<hi rend='Bold'>D. MARTIN:</hi> Ez kezka ori izan Ama. Zuek jarrai zazue eguneroko otoitzak egiten. Ez zaitue i&ntilde;ortxok ikutuko. Emen nago, kapellau ezerez au, zuek aldezteko. Gauez ere segurantzi osoa izan dezazuen, nere mutillak, euskal langile ta Batzokiko mendigoizaleak gaurtandik bidaliko dizkizut lekaretxe ta eleiza zaintzeko.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Eskerrikasko. Onelako lagun ta begirale zintzoak baldin baditu geldi gaitezke. Ain litzake mingarri, ainbeste urte ondoren, Iturrizako elizako argiak itzali ta otoitzak isiltzea. Ez gureak diralako Jainkoari zor zaizkiolako baizik.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN:</hi> Ekin ba munduaren zorrak ordaintzen. Amaika zordun ba gaude bazterretan.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Ez dakizu zer nolako zama kentzen didazun ga&ntilde;etik. Jainkoak onetsi zaitzazela; zu ta bidaltzeko asmoa dezun mutilak.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN:</hi> Bedeinkapena ondo dago Ama alare gauean mutilai zerbait geiago eman bearko diezu: aparitxoren bat edo. Baratxuri sopa ardo pixka batekin aski dute.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Kutizirik ez, ba&ntilde;an gosea kentzeko a&ntilde;a izango dute. Sukaldariaren gain utziko det ori. Bai enetxoa.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN:</hi> Ba-noa kale aldera, itzul inguru bat egitera (<hi rend='Italic'>dijoala</hi>) Billera bat degu illuntzean. Zerbait gertatzen ba zaizue bitartean, euskal langileen etxean izango naiz. Sakristaua nere bila bidaltze besterik ez dezute.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Joan nai badu bai. Gizona oso ikaratu zaigu.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN:</hi> Rekete ausarta egi&ntilde;a dago orduan. Orain ez dago ezer errian. Dana dala etorriko natzaizue ilundu aurretik.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Arretaz ibili D. Martin. Zoaz ondo ta ea zer berri dakarzkiguzun.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN:</hi> (<hi rend='Italic'>Irtenaz</hi>) Agur.</p>
+<p><hi rend='Bold'>VII. AGERRALDIA</hi></p>
+<p>AINTZINDARI TA ATEZAIA</p>
+<p>-e-<hi rend='Italic'>(Klaustroan ibilliaz)</hi></p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>D. Martin oso kezkati zijoala irudi zait.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Zertan ezagutu dezu? arpegian ez beintzat, ez zaio antzematen.</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Ez dakit bada. Joatekoan beti zerbait esaten dit, zirikalaria bait-degu; ta gaur ezta arrastseldeon ere!</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Gero esango dizu. Berriz itzultzekoa baita. Oso iraduz bait zioan.</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Ain presaka ere!</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>(<hi rend='Italic'>Gaiz aldatuz</hi>) Atezai aizpa: elizako kanpaia zuk eta Paxkualek txandaka jotzen dezute, ez da ala?</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Bai Aintzindari Ama. Paxkualek egunezko ordutan jotzen ditu; ta nik argizkilla ta gauezkoak.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Ba, ez gaur bederatzietan, eta ez biar goizean-goiz ez dezazula kainpairik jo. Kalean naspilla dagon arten ez ditezela oroitu guretzaz. Zenbaitzuek, ala bearrez aitzeki billa dabiltz. Aditzen?</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Ogeita zortzi urte egunero, goiz eta arratsalde kanpai sokari eragiten diodala. Ez det utzi astintzez gaxo-aldia izandu nuanean besterik. Nik uste gure kanpaiak, bakarrik ere, zer ordutan dantzatu ba dakila.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Berez asten bada, aingeruak eraginda edo, lan bat gutxiago zuretzat.</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Aingeru ederra Paxkual sakristaua; egarik gabekoa!</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Paradisotik bidalitako guziok antzo: ez ego; ta gogoz...argalak. Paxkuali ere esango diot egin bearra. Badakizu zurea ta gogoan artu.</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Egon bedi lasa Ama, ez zait aztuko.</p>
+<p><hi rend='Bold'>VIII. AGERRALDIA</hi></p>
+<p>LENGOAK ZUZENDARI AMA TA GURUTZE AIZPA</p>
+<p>-e-<hi rend='Italic'>(Azkeneko biak barrungo atetik datozelarik)</hi></p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Beorren bila gentozen Ama.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Emen nazute bada. D. Martin kapellau jaunarekin egon naiz.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Ta zer berri ekarri du? Tiroena zer izan da?</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Oraingoz ez dio kaleko iskamillari ajola geiegirik eman. Tiroketa ez omen da gauza izugarrirk izan. Ez dutela i&ntilde;or ez zauritu ta ez il. Jaungoikoari eskerrak.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Alare! Ba&ntilde;an D. Martin ez da ezergatik estutzen. Bera ausarta ta lasaia baita.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Nolanai ere matxinada lartu dala egia dan ezkero neurri zur batzuek artzea erabaki degu. Jendea paketu ta lanean asi arte elizako kanpaia jotzeari utziko diogu. Ori esaten ari nitzaion Atezai Aizpari.</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Esan bezela egi&ntilde;a izango da.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Zentzudun agindua derizkiot Ama! I&ntilde;or oartu gabe berdin eguneroko eginkizunak bete al izango ditugu. Ni beorren baimenaz, Gurutzeren etxera auzoko Malen bidali det aizpa etorri dedilla esatea.</p>
+<p>-f-<hi rend='Bold'>GURUTZE: </hi>Bai Ama nere aizpa Izaskunen billa.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Neskatxik on eta egokienetakoa Izaskun; eta buruz argia.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Etortzeko esan diot, baldin gauza okerragora ba-doa etorkizunari begira bear diogulako. Emendik bidaltzen bagaitue ala igesi bagoaz, nun sartu, nola jantziz aldatu, ta nora gauzak jaso jakin bear bait degu. Ortaz Izaskunekin itzegitea nai ta naiezkoa zaigu.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Zuk egi&ntilde;a zuzen egi&ntilde;a dago. Orrengatik zera Zuzendari Ama; oraingoz, ordea, Goikoak lagun, ez degu emendik i&ntilde;ora igesi joan bearrik. Gure lan, elizkizun eta otoitz aldiak oi bezela pakean egiteko eran bait gera.</p>
+<p>-f-<hi rend='Bold'>GURUTZE: </hi>(<hi rend='Italic'>Asperenka</hi>) Zorionaren aundia!</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Bai, D. Martinek eskiertasun osoa eman dit, ez digula i&ntilde;ork eragozpenik ipi&ntilde;iko. Ga&ntilde;era, gauez eliza ta komentua gordetzeko zaindariak izango ditugu.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Onela baldin bada gaitzerdi. Guarda zibillek zaindu ezkero ziur gera.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Ez uste. Oiek agintarien morroi ta mutil dira, goi agintaria ona ala txarra izan. Ordaintzen dietenaren menpeko. Ta gure zaindariak Kristoren mutillak izango ditugu; biotz oneko kristauak.</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Zaindariak komentuan. Zer ikusi bear ote degu bada.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Jaungoikoak nai dezana.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Bera degu zaindari onenea. Arengan ustea lotu bear. (<hi rend='Italic'>Aldatuz</hi>) Izaskuni etortzeko esan diodanez, une ontan zerbait lagundu gaitzazke. Ez da ala?</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Bai, bai, aren laguntza pozik artuko degu. Emen beti pozik ikusten ditugu onelako gazte zintzo ta etxekoiak.</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Ta dotore ta txukun jantzia! Aren ille kixkurren orrazkera apa&ntilde;a!</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Ez det aspaldi ikusi. Onuzkero andere&ntilde;o panpoxa bat egi&ntilde;ik dago. Ez da ala Gurutze?</p>
+<p>-f-<hi rend='Bold'>GURUTZE:</hi> Laister du emen. Ordu ontan etxean lanean aritzen baita.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Zuen etxea ez dago urruti.</p>
+<p>-e-<hi rend='Italic'>(Ateko zintzarria entzun bedi ta guziok ateruntz begira ipi&ntilde;i bitez).</hi></p>
+<p>-f-<hi rend='Bold'>GURUTZE: </hi>Ea bera dan!</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>(<hi rend='Italic'>Atezaiari</hi>) Aizpa, ezin utzi da atea bakarrik.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Urrutitik ere zaintzen ba-daki ordea.</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Ori esan Ama. (<hi rend='Italic'>Ateruntz abituaz</hi>) Laister jakingo degu nor dan atean.</p>
+<p>-f-<hi rend='Bold'>GURUTZE: </hi>Nere aizpa dala biotzak esaten dit.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Biotzak, maiz asko oker irizten du gero; ba&ntilde;an, tira: gure ongi-etorria aldez aurretik irabazirik dauka.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>(<hi rend='Italic'>Abotsak entzun bitez</hi>) Gurutze aizpak asmatu duala uste det. Izaskunen abotsa da atadian.</p>
+<p><hi rend='Bold'>IX. AGERRALDIA</hi></p>
+<p>LENGOAK ETA IZASKUN</p>
+<p>-e-<hi rend='Italic'>(Atezai ta Izaskun sartuaz)</hi></p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Sartu aurrera Izaskun. Ea &laquo;komunidade&raquo;osoa itxoiten daukazu-ta.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Ezta abadesa banintz ere! Lotsatuko naute. Arratsaldeon guzioi! (<hi rend='Italic'>Aintzindari ta Zuzendari Amak agurtu bitza; Gurutze aizpari musu emanez</hi>).</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Zure guraso ta senideak onik izango dira beti.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Bai andrea, oso ondo dira, eskerrikasko.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Zuri galdegin bearrik ez dago. Ain alai ta zoriontsu beti.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Ortan Gurutze aizparen antza degu.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Zerbaintengatik gera aragizko aizpak.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Gogoz ere orrela izango zerate, bai.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Ez dakit bada. Etortzeko gaztigatu didate ta emen nazute.</p>
+<p>-f-<hi rend='Bold'>GURUTZE: </hi>Bai, Zuzendari Amak irekin itzegin nai din.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Zera da, kalean zer jazo dan jakiteagatik. Tiro-otsak entzun bait-ditugu. Matxinada beltza datorrela esan digute, ta ez dakigu zer egin.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Guk ere etxetik tiroak entzun ditugu. Jostundegian lanean ari gi&ntilde;an. Ola aunditako langileak opor egin dutela zabaldu da. Tiroak beko zubian izan dirala ba&ntilde;an aidera boteak. Ez dakit geiago. Illuntzean zerbait jakitera Batzokira joateko asmoetan nintzan.</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Emakume Abertzaleen lendakari baita.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Ederki, ederki; ortarako din zeran ezaugarri. Ta gauean zure etxetik kalera bakarrik joaten ausartzen al zera?</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Txikitandik oituta gaude.</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>(<hi rend='Italic'>Maliziz</hi>) Ta agian nork lagundu ere izango bait-du.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Ez da arritzeko gauza. Munduan ere andre, emazte ta ama onak bear dira. Ezin izan guziak monja-gai.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Ez noski; ba&ntilde;an nik onelako adiskide ta laguntzale gutxi izaten ditut Atezai aizpak bestela uste arren.</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Batekin aski dezu-ta.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>(<hi rend='Italic'>Asarre-antzean</hi>) Gogaitaraziko dezue Izaskun onelako galderak egi&ntilde;az.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Baterez Ama.</p>
+<p>-f-<hi rend='Bold'>GURUTZE: </hi>Oiturik dago.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Ala obe, olgetak naigabeak bezin irritsu artu. Gaur uste det, ordea, gure Zuzendari Amak, benetan, itzegin nai dizula.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Bai, ajola aundiko beste arazo batera deitu zaitugu Matxinada ga&ntilde;ean baitdegu. Gorri ta gaiztoak errelijio doneari ta monja ta praileai dioten gorrotoa ba-dakizue.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Emen, arrotz bat edo beste kendu ezkero, ez dago ain jende gaiztorik. Ez ba!</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Emengoak ez digute beldurrik ematen ba&ntilde;an Ibarpeko komunistak oporraren aitzekiz erria nastutzera etortzen ba zaizkigu, komentutik igesi egin bearrean gertatuko gera. Une ori, zoritxarrean irixten ba da, zuen laguntza eske gatoz. Erriko sendi on batzuetan banatu bearko genuke.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Ez larritu orrengatik. Gure etxean lau edo bostentzako leku ba degu beintzat. Ta beste guzientzako ere errez arkitu leike.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Eskerrikasko Izaskun, Jainkoak ordain dezaizula.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Gure Zuzendari Ama lasa gelditu dala dirudi, ta etxeko guziak ere bai.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Aldez aurrez begiratzea obe bait da, gero itxumustuan ibiltzea ba&ntilde;o.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Ori egi&ntilde;a dago. Ez didazute eskerrik eman bearrik. Neronek gertuko dizkitzuet, nola ta zer etxeetara joan.</p>
+<p>-f-<hi rend='Bold'>GURUTZE: </hi>Jainkoak ez dezala nai ordu ori eltzea!</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Etxean utzi unan tokia antxe aukanan iretzako. Amari poza aundia emango dion. (<hi rend='Italic'>GurutzeA.k eskuzapiaz legortzen du begietatik darion malkoa...).</hi></p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Au zan bada guzia. Itxoin... beste oztopo txiki bat ere badegu: zera... jantzi kontua.</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>(<hi rend='Italic'>Par-santo gozoak egi&ntilde;ik</hi>) Ja, ja, ja. Ta kaskamotzena! (<hi rend='Italic'>Beste guziak parrez asi bitez).</hi></p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Ez da parregiteko unea. Gure buruak nola ala estaliko ditugu. Jantzietan, geientsuenak kaleko so&ntilde;eko bat ala beste ba-degu, ba&ntilde;an zarpa zar egi&ntilde;ik ezin aterako gera. Urrutira ezagutuko gaitue.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Dituzuenak antolako dizkitzuegu. Ta zerbait peitu bazaizue gure jostundegian izango da zuentzako a&ntilde;a.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Ez det uste ortara iritxiko geranik. Ga&ntilde;era, monjak apainketa gutxi bear degu.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>(<hi rend='Italic'>AintzindariAri</hi>) Beorren baimenaz Izaskun gurekin gora igo dedilla. Onela ditugun jantzi ta puskak ikusiko ditu.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Bai, bai, koruko ordu arte beta ba degu (<hi rend='Italic'>Irritsu Izaskuni</hi>) Ea bidea ikasita monja sartzeko gogoa egiten zaizun. Goazen! (<hi rend='Italic'>Barneruntz abiaturik</hi>).</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Nork daki?</p>
+<p>-f-<hi rend='Bold'>GURUTZE: </hi>Egia balitz! Bi izango gi&ntilde;ake etxe batetik.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>(<hi rend='Italic'>Sartuaz</hi>) Gure txokolatea nolakoa dan txasta bear dezu Izaskun. Neroni noa sukaldariari gertutzeko esatea, beste agindu bat ere eman bear diot-eta.</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>(<hi rend='Italic'>Atadiruntz joanez</hi>) Noan nere atea. Etxekoentzat ez bait-da txokolaterik izaten. Ba&ntilde;an Izaskunek merezi du. Ta baita senargai on bat ere!</p>
+<p><hi rend='Bold'>X. AGERRALDIA</hi></p>
+<p>PAXKUAL SAKRISTAUA TA GOTZON ETXE ANTOLATZALLEA</p>
+<p>-e-<hi rend='Italic'>(Elizatik irtenik, Gotzon lan tresnak eskuan daramazkila)</hi></p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Ik ez al dek uelgarik?</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Tellatua ondo antolatu arte ez beintzat. Itute aundiena aldare nagusi ga&ntilde;era erortzen baita. Zer bada?</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Zera, gaur lan egitez toki askotan utzi bait-dute. Ibargorri tik etorriak omen dira uelga jarri ta lantegiak itxi araztera. Betikoa; istillua jartzeko aitzekia.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Ez da beti aitzekia izaten. Guri ez digu Alkartasunak agindurik eman, eta lanean jarraituko degu. Ez dakit zer izan diteken.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Ba kapitan-jeneral guzia asaldatuta kolpen bat eman ote duten entzun diat. Madriden izugarrizko matxinada zagokela. Langilleak kalera irten emen dituk. Ba&ntilde;an alperrik ari dituk. Jeneralak kontra dirala Errepublikak ankaz gora joan bear dik.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Ez soldadu ta jende txea alde badu. Zuek beti gudan pentsatzen. Pakea ta lana bear ditugu emen. Eta gure araudi ta lege zarrak arrotz geiago sar ez dedin. Ez beti Madrideri begira egon.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>To! Bedaiora begira egongo gaituk. Fueroak Errepublikak emango zizkiguk!</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Ez Errepublikak eta ez Erregetzak. Oiek artu, irabazi egin bear dira. Onean ala txarrean. Ori da karlistak egin nai ez dezutena. Ez bait dezute euskal maitasunik!</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Aizaki! euskaltasunean ez zidak i&ntilde;ongo bizkaitarrik irabazten eta oraingo gazteak gutxiago.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>(<hi rend='Italic'>Paketiar</hi>) Ez, ez!, zu karlista piketakoa zera. Ba&ntilde;an salduta zaudete buruzagi maketozaleak dituzutelako.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Ortan arrazoi dek. Gure artean ez dek traizioa besterik...</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Jaki&ntilde;a! traizionalistak...</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Bai Marototik asita. Orain ere gure alderdian nozedaldarrak dizkiagu nagusi. Orrengatik ez nauk geiago <foreign>&laquo;Circulo Carlistara&raquo; </foreign>joaten.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Zuk gure Batzokira etorri bear zenuke.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Ez motel! Zarra nauk bide berriak artzeko.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Ez da be&ntilde;ere berandu Aberria ezagutzeko.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Ez zekiat itz berri oiek nundik sortzen dituzuen.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Itz eder ori ondo ulertzean &laquo;<hi rend='Italic'>abertzale</hi>&raquo; izango zera.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Txorakeri oriek ba&ntilde;o naiago diat baxo erdi bat edan.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Ortan ere lagunduko baitut. Goazen traguxka bat egitera. Bidenabar kale aldean zer dioten jakingo degu.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Ez ziok giro kalean ibiltzeko! Ea berriz ere tiroka asten ditukan. Ba&ntilde;an tira! goazemak, egarri niatxiok.</p>
+<p><hi rend='Bold'>XI AGERRALDIA</hi></p>
+<p>LENGOAK, D. MARTIN ETA ATEZAI AIZPA</p>
+<p>-e-<hi rend='Italic'>(D. Martin goibelago len ba&ntilde;o)</hi></p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Aitzindari Ama deitu zazu.</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Goian dago bixita batzuekin. Gaztigatuko diot. (<hi rend='Italic'>Jakin naiez</hi>) Kaletik aguro itzuli da D. Martin. (<hi rend='Italic'>Geldi bedi</hi>)</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>(<hi rend='Italic'>Kezkati</hi>) Bai, ez dago astia galtzerik. (<hi rend='Italic'>Sakristau ta Gotzon ikusirik</hi>) Zuek ere emen? Poztutzen naiz. Zure bearra ere ba-det Gotzon. (<hi rend='Italic'>Eskuan mallu ta igitaria dituala oarturik</hi>) Komunista biurtu al zera?</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>(<hi rend='Italic'>Irritsu</hi>) Ea, ea! Igitariarengatik?, Tellatuko belarrak ebakitzeko da. Etxe zaarrak beti bait-du ituteren bat.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Gizartea ere alaxen dago itutez beterik. Eta tresna oiek utzita ez dakit jendea erria aldezteko armak artu bearrean ez dan izango.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Ori gazteentzat, Nik onuzkero kandelak itzaliaz jarraitu bearko det.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Uzten badizue. Guda, matxinada ta naspila izugarri bat bait dator.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Ez nekien ezer, Paxkualek esana besterik. Oraintxe ninjoan Alkartasunera zerbait jakitera.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN:</hi> Itxoin zazu pixka bat elkarrekin joango gera. Ortaz itzegin bear degu.</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>(<hi rend='Italic'>Sakristauari</hi>) D. Martini arpegian ezagutu diot. Aitzindari Amak esan dit kanpairik ez jotzeko. Zuri ere agindu ori emango dizu.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Gudatea ba-dator ildakoen alde jotzea ez dute eragotziko bederik.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN:</hi> Or zera oraindik atezai aizpa. Zoaz aguro Aitzindari Amari gaztigatzea. Arren eta arren!</p>
+<p>-f-<hi rend='Bold'>ATEZAI AIZPA: </hi>Barkatu D.Martin, ez nengon azturik Emen dezu beriala. (<hi rend='Italic'>Bijoa</hi>)</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>(<hi rend='Italic'>Kezkati</hi>) Gauza ilun dago benetan. Militarren asaldaketa zabaltzen doala dirudi. Iru&ntilde;an ere nagusitu emen dira. Oraintxe radioz esan emen dute 20.000 rekete Gipuzkoa ga&ntilde;era datozela.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Zer erru ote du Gipuzkoa gaxoak, bazterrak ondatzera, onuntz etortzeko.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Etorri ditezela gaur bertan errege ta guzi.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Bai zaldi-zuri ga&ntilde;ean...</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Paxkual ez itzazula itz oiek nun nai esan. Oraingoa ez da jostaketa, espetxera eraman zenezakete-ta. Beraz kale aldean isilik egon. Odola isurtzen asi dedinean ez jakin ziprizti&ntilde;ak nora&ntilde;o elduko ez diran.</p>
+<p><hi rend='Bold'>XII. AGERRALDIA</hi></p>
+<p>LENGOAK ETA AITZINDARI TA ZUZENDARI AMAK; GURUTZE AIZPA TA IZASKUN ONDOREN</p>
+<p>-f-<hi rend='Bold'>ATEZAINA:</hi> (<hi rend='Italic'>aurretik</hi>) Emen dituzu guziak D. Martin.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Ez ziran urruti orduan. (<hi rend='Italic'>Etorri berriai</hi>) Barkatu zuen eginkizunatik aterazi ba zaituet.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Ala da. Gure atezaiak alako larria eman digu.</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Kapellau jaunak biadali nau.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Egia da, arnas estuka etorria naiz berri oso txarrak bait-dira. (<hi rend='Italic'>Monjak arpegi izutuz begiraturik</hi>) Eh! Bai ote? Jesus!</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Zer gerta bear zuan nabaitzen nuen aspaldi.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Gogo onez ar zagun Goikoak bidalitakoak.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>(<hi rend='Italic'>Gurutze Aizpa ta Izaskuni so egi&ntilde;ik</hi>). Zu ere emen Izaskun.</p>
+<p>-f-<hi rend='Bold'>IZASKUN eta GURUTZE: </hi>Bai jauna bai! Arratsaldeon kapelau jauna!</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Orobat zuei. Aizpa biak elkarrekin pozik izango zerate.</p>
+<p>-f-<hi rend='Bold'>GURUTZE: </hi>Pentsa. Oso gutxitan etortzen ba zait.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Aldi txarretan bizi bait-gera monja sartzeko. Ez da ala Izaskun?</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Ori esan.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Oraintsu-orain Paxkual eta Gotzoni esaten arin nintzaien (<hi rend='Italic'>oiek buruaz baiezten dute</hi>) eta on da guziok jakitea matxinada bete betean gaudela... (<hi rend='Italic'>D. Martin inguruan jarri bitez antzeztokiak uzten duan eta antzez uneak eskatzen duan arabera</hi>) Azken berriak dira, militarrek Marruekos-en eta Sevillan asitako asaldaketa beste toki askotara zabaltzen ari dala.</p>
+<p>-f-<hi rend='Bold'>BATZUEK:</hi> Ene! Zer gerta bear du emen! Lurrikara!</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Iru&ntilde;atik ere berri latzak dira. Ez da ordu laurden bat jakin dala, radiobidez, Errepublikako agintariak mendera ditzutela. Ta ogei mila gizon, reketeak geienak, Gipuzkoaz jabetzera omen datoz. Au guda da, anai-arteko guda ankerra. Erri batentzako ondamena.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Jaungoikoa gutzaz errukitzen al da.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Rekete oiek onak dira. Emengo gaiztoai besterik ez die erasoko. Errelijioaren alde egingo dute.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Errelijioaren aldezle zintzoena, aren aginduak ondoen goimaitasunez betetzen dituana da. Jesukristok erakutsi bait-zigun ezpata zorrotik ateratzea arrisko aundi dala. Pakea da errien ondasun aundiena.</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>D. Martin, berri ordez, sermoia egiten ari zaigu.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Ez bait-diogu lagatzen.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Aguro amaitzen det. Itzaldi luzeak ez ditudala maite ba-dakizue-ta. Ez dago giro berriketarako. Kalea itsusi dago; oso beltz. Gobiernoak gogor egiteko aginduak eman ditu. Ortan sozialista ta gorriak mutilak dira. Onera ere Ibargorritik sail-batzuek etorriak emen dira, izkiluz orniturik noski. Alkatearen galdera egin omen dute. Ta au igesi egin duan susmurra dabil. <foreign>Circulo Carlistara </foreign>joan emen dira ta ez ote duen i&ntilde;or arkitu. Gauza da jendea baitzen asi dirala: Iturburu anaiak, Joxe txiki ta Kaxildo Etxezarrekoa ere bai. Ez dakit zenbait geiago.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA:</hi> D. Kasildo ere bai? Gizarajoa.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Ain kristau ona!</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Pastelero ederra!</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Ez orrelakorik esan, Jaungoikoarengatik Paxkual beste orrenbeste egin zenezakete zurekin.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL:</hi> Badakit Ama. Nik ere argizai usaia det; erle argizai garbiarena ordea, gantzik gabekoa. (<hi rend='Italic'>Par dagite Aitzindari ta Zuzendari ez ga&ntilde;erako guziak</hi>).</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Ez da arroegia izan bear. Norberak ditugu gere utsegiteak. Eta utsegite gaitzena elkarrenganako gorretoa. Katoliko artean ori gertatzen bada ez da arritzeko etsaiak egunetik egunera nagusigonetzea. Ez al derizkietzu, D. Martin, egia dala?; onak bat egin bear luketela?</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Ongi mintzo zera Aitzindari Ama, Ortan leiatuko gera. Ordu erdi bat barru kristau langilleen elkartsunean bilera degu. Guzien artean erria zaintzeko. Paxkual eta Gotzon an izango dirala uste det.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Bai jauna, nere laguntza izango du.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Ni oraintxe meza laguntzeko besterik ez naiz gauza-ta...</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Komentua zaintzeko mutilak bidaliko dituzu ez da ala?</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Bai Ama, ez kezkarik izan. Zuek gauez lasa egon. Goazen Gotzon. Paxkual gelditu dedila nai badu (<hi rend='Italic'>abituaz</hi>).</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Ori diozun ezkero, eliza begiratzea noa.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Nik ere etxe aldea joan bearko det. Emen entzundakoaz berri geiago jakiteko gogoa egin zait. Ba ezpada ere. (<hi rend='Italic'>Gurutze Aizpari</hi>) Biar etorriko natzaizue berriz.</p>
+<p>-f-<hi rend='Bold'>GURUTZE: </hi>Amatxori-ta ez beldurtzeko esan. Anaiak kontuz ibiltzeko. Emen ondo gerala.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Ez aztu gure jantziena egitez.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Zoazte Jaungoikoarekin. Agur. (<hi rend='Italic'>Monjai begiratuaz</hi>) Zeruko laguntza izan dezagun une larri oietan, gaurtandik, goizeko ta arratseko otoitz aldia ordu betez luzatuko degu. Gertu zaitezte alaba maiteak, barau ta beste korputz ildurak pakearen alde eskeintzen.</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>II. EKITALDIA</p><--</head>
+        </front>
+        <body>
+<p>-e-<hi rend='Italic'>Batzoki bateko idazkaritza-gela matxinada egunetan. Mai baten ga&ntilde;ean, naste-borraste, paper, egunkari ta ingi. Eserlekuak tokiz at sakabanatuak. Orma bazterrean bizpairu izkillu, dantzari-makil, arrats, txistu, ikurrin oial eta abar. Gau erdi inguru da.</hi></p>
+<p><hi rend='Bold'>I. AGERRALDIA</hi></p>
+<p>-e-GOTZON ETA GUDARI BAT <hi rend='Italic'>(IZKILLU TA GUZI)</hi></p>
+<p>-e-<hi rend='Italic'>(Azkenengo au sar bedi erdi lotan zegon Gotzon esnatuaz)</hi></p>
+<p>-f-<hi rend='Bold'>GUDARIA: </hi>Eup! Gabon!</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>(<hi rend='Italic'>susperturik</hi>) Kaxo &laquo;Urdi&ntilde;a&raquo;! zer degu?</p>
+<p>-f-<hi rend='Bold'>GUDARIA: </hi>Zera, rekete oiek bertaratzen ari dirala.</p>
+<p>-f-<hi rend='Bold'>GOTZON:</hi> (<hi rend='Italic'>izuikaraz zutiturik</hi>) E!?...</p>
+<p>-f-<hi rend='Bold'>GUDARIA: </hi>Bai motel, illuntzean Ergoien artu zigu ek.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>A! Ori banetxekian; kosta bear zaiek, ordea, andik aurreratzea.</p>
+<p>-f-<hi rend='Bold'>GUDARIA: </hi>Bai gizenki jokatzen badiagu. Ez nauk ortara etorri. Iturrizako komentuan zaindari gatxeudekala ba-akik noski. Ba erria aldezteko Monja-tontorra oso toki berezia dala-ta, gorriek komentu beretzat artu nai ditek. Zer egin bear diagun jakiteko on ukek Batzarreko norbait bertara joatea.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Emen, Batzarrekotatik bakarra niago, besteak lotara joanak bai-dituk. Neronek ere oea obeto artuko nike. Amabost egun auetan irutan besterik ez diat maindira artean lo egin. Eta berrogei ta zortzi ordu aundi begirik itxi gabe zeramazkiat.</p>
+<p>-f-<hi rend='Bold'>GUDARIA: </hi>Begiek? naiko itxiak ituan emen sartu naizenean. Loa uxa zak eta goazen. Gero ere zurrunka egiteko beta izango diagu-ta.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Itxoin zak pixka bat. Joango gaituk elkarrekin. Jaun baten zai niagok. Ordu laurden bateko aldia izango dek guzia.</p>
+<p>-f-<hi rend='Bold'>GUDARIA: </hi>Orduan, bitartean, kalea artzera niak (<hi rend='Italic'>abituaz</hi>).</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Orri eskerrak zutik egon al nauk. Aizak i? Ergoiengo ortan &laquo;su&raquo; aundia izan al dek?</p>
+<p>-f-<hi rend='Bold'>GUDARIA: </hi>Bai zera! Sei ala zortzi ka&ntilde;oi &laquo;opil&raquo; sartu omen dizkitek, etsaiek; eta gureak berriz, batzuek izkillu gabe, besteak zizpa zar batzuekin (<hi rend='Italic'>sorbaldan darama erakutsiaz</hi>), onen erakoak, eta erregai gutxi su egiteko. Utzi egin bear!</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Izkillu saila aundi bat Bilbora iritxia izan bear dek eta biar, emen ere, nai a&ntilde;a izango ote dizkiagun.</p>
+<p>-f-<hi rend='Bold'>GUDARIA: </hi>Garaia dek. Ba zeukat gogoa! Gure mutilei izkilluak ematekoa. Eraso zatela orduan reketeroak. Ezta gorriek ere ez ditek nai dutena egingo kalean. Ez ala Jainkoa!</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Eutsiko zuagu.</p>
+<p>-e-<hi rend='Italic'>(Oin otsak)</hi></p>
+<p>-f-<hi rend='Bold'>GUDARIA: </hi>Norbait zetorrek. Ea ik bear dekana ote dan. (<hi rend='Italic'>ateruntz aurreratuta</hi>) D. Martin kapellaua dek eta! (<hi rend='Italic'>etorri berriari erantzunez</hi>) Bai, emen dezu. (<hi rend='Italic'>Gotzoni</hi>) Ire galdera egiten dik.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>D. Martin? Sartu dedilla ba!</p>
+<p>-f-<hi rend='Bold'>GUDARIA: </hi>(<hi rend='Italic'>joanez</hi>) Beian kafea artzen geldituko nauk.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Ederki! Laister nazue zuekin.</p>
+<p><hi rend='Bold'>II. AGERRALDIA</hi></p>
+<p>GOTZON ETA D. MARTIN</p>
+<p>-f-<hi rend='Bold'>D. MARTIN:</hi> (<hi rend='Italic'>sartuaz</hi>) Jainkoak dizula gabon!</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Baita beorri ere D. Martin. Zer dabil garai ontan eta sotana utzita?</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Bearko. Onela i&ntilde;ork ez ezagutzeko eran bait nabil. Ituritzan zer gertatzen dan ba-aldakizu?</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Bai jauna. Oraintxe etorri zait &laquo;Urdi&ntilde;a&raquo; esatera. Auek dira istiluak! D. Martin, egun onak damaizkigunak! Era&ntilde;egun D. Kaspar baitu zuten; atzo karlistetako batzar guzia tartean nere lengusu Ixidoro. Ta eskerrak aundiki jende geienai igesegiteko agindu diegula, bestela ez legoke kartzelan guzientzat lekurik. Eta gaur au! Gorriek Iturritzako monja etxean sartu nai dutela. Eta ezin ukatu zaie, jaki&ntilde;a, komentu ga&ntilde;a toki berezia bait-da.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Zergatik ez? Ikusiko degu. Orain goaz Urdi&ntilde;a, bere mutilak eta ni Iturritzara.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Andik bait nator! Gorrien buru egiten duanarekin mintzatu naiz eta aiek etxe ori nai ta nai ez artu nai dute. Batetik Ergoiendik igesi etorri diran mutillai ostatu emateko; ta bestetik mendixka ga&ntilde;a ikusbegi ona, babesa ta etsaiari aurregiteko leku berezia dalako. An daude moja guziak izuturik. Aitzindari Amari esan diot ez larritzeko. Eguna argitu aurretik komentutik ateratzea dutela onena.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Nik uste ba, obe dutela gelditzea. I&ntilde;ork ikutu alditu ba egunda&ntilde;o? Itxoin zatela. Ez al gera aski berak zaindu ta begiratzeko? Gero ere ateratzeko beta izango dute.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Nik ere orrela uste nuen lenago. Orain ordea, gertakizunak ausnarturik, gerora uztea okerrago dala derizkiot. Ez dira gaxoak azken orduan tiro tartean aterako. Gerdu daude: jantzi, tresna, ta elizako ontzi done ta kutunenak jasorik dauzkate. Ene iritzian oraintxe dute oartzeka irteteko unea. Sakristaua Izaskunen billa bidali det. Onek bait daki zer etxetara joan bear duten, nundik nora ibili ta abar. Batzokiko gudari mutillak lagunduko dituzte, eta egi&ntilde;a dago guzia. Ordubeteko lana!</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Beorren iritzia orrela baldin bada, niketz ez dago eragozpenik. Bereala joango gera mojak ateratzea. Beian daude mutilak zai, kalea artzen.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Ainbat obe! Arin, arin; gero zer gerta leiken ez daki Jainkoak bestek. Zorigaiztoko reketeak ga&ntilde;ean ditugu. Aurrera ba-datoz, zenbait gorri amorratuai erria galdu ta uzteak egingo dien zartadan, piztikeriak egiten asiko ote diran beldur naiz.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Erria utzi, galdu? Ez berealakoan! (<hi rend='Italic'>isilka-misilka</hi>) Biar izkilu ta erregaiak erruz izango omen ditugu. Ga&ntilde;era gudari sail aundiak datoz. Beraz reketeak emen sartu? Ez dago beldurrik!</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Burruka aundia baldin bada ainbat gaiztogo. Zenbat eta izkilu geiago, anai arteko odol isurtze aundiago. Biotzak gorrotoz ga&ntilde;ezka ta kristautasuna illa gogo ta asmoetan. Ondamenaren aundia! Nola amaitu.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Zer nai zukean bada? erriko ateak zabalik uztea? Rekete andur oiek etorri zaizkigu, lenengo, izkiluz eraso ta gu menperatzera. Emen gogoz ase ez bagi&ntilde;a, ere, paketsu geuden.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Egia da, ondotxo dakit. Izugarria da erori zaigun zigorra. Izugarrikeri beltza, ezin esan alako obena Erlijio santua aoan artuta gudate negargarri au piztu dutenarena. Jesukristo aitatuz lagun urkoak, naiz gaiztoak izan, odoletan itotzea. Sinismen berdi&ntilde;eko anaiei maitasunaren ordez ezpataz suntsitu nai izatea. Errelijioaren etsaiek basatikeri aundiak egin dituzte; kristau izenekoak egiten ari diran eriotz sinitzgaitzak erdiratzen ditet barrena.</p>
+<p>-f- (<hi rend='Italic'>Itunki</hi>) Gotzon, apaiz naizen aldetik, biotz-biotzez esaten dizut nere bizia pozik eskeintzen dedala ala gerta ez dedin. Bestenaz nola goazke Jesukristoren ordezkariak erriaren gana Ebangelioa erakustera?</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Gogoketa itun-oiek utzi bitza. Jainkoak lagunduko gaitu. Lanean uste onez ari bait gera. Etsaien biziak gordetzen ditugu, zenbaitek esker onik ez badigute emango ere. (<hi rend='Italic'>Sutsu</hi>) Euzkadi azkatzera goaz.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Bai, ba&ntilde;an Iturritzako mojak aztu gabe. (<hi rend='Italic'>Par dagite biok</hi>).</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Sakristaua ere emen degu-ta.</p>
+<p><hi rend='Bold'>III. AGERRALDIA</hi></p>
+<p>LENGOAK IZASKUN ETA PAXKUAL</p>
+<p>-e-<hi rend='Italic'>(Sartuaz Izaskunek bultzatzen duala)</hi></p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Batzokira sartzen ikusten ba naute?</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Aurrera gizona. Ta gabon jaunak.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Baita zuei ere. (<hi rend='Italic'>Paxkuali</hi>) Apaiza sartzen dan lekuan sakristaua ere sar diteke.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Ezkontza sakramentuan ez ezik. (<hi rend='Italic'>Par dagite</hi>) Kosta zaizu gureganatzea Paxkual.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Ez ba. Aguro etorri naiz (<hi rend='Italic'>Izaskunegatik</hi>) Onen etxean oieratu gabe bait-zeuden.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Nork lo egin lasa egun oietan. Berriketan ari gi&ntilde;an.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN:</hi> Gaur ez beintzat. Tira, Izaskun beriala Iturritzara joan bear degu monjak atera araztea. Zuk badakizu zer etxetara zabaldu, ez da ala?</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Bai jauna, ta gurean bezela beste etxetan ere monjak noiz joango (<hi rend='Italic'>zaizkioten</hi>) zai daude. Aski degu ate jotzea. Amabi monja gelditu dira Iturritzan, ganerakoak beste erritara bidali zituztelako. Binaka zabalduko ditugu; ta gure etxean lau, aizpa Gurutzekin.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Ori da gauzak tajuz erabakitzea. Zu bezelako laguntzaleekin guda irabazi diteke.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Toki onean!</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>(<hi rend='Italic'>Gotzoni</hi>) Ta zerua ere bai alakoarekin ezkontza-sakramentuaren bidez. Aukeratzen jakin bear.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Guda amaitzean lan ortan asiko naiz.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Ziri ederra sartu dik.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Lenago sartu dizu, zuri.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Ziriak utzi ta goazen lenbaitlen Iturritzara. Zu aurretik Paxkual.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Biok joango gera elkarrekin.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Eskerrikasko ba&ntilde;an laguntzale gaztea obe degu. Ez dago gau atsegi&ntilde;a kalezkale ibiltzeko.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Txarkeriren bat egingo dieten beldur da. Emen norbaitek gelditu bear du ta Paxkual egon dedilla gu itzuli arte.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Neregatik bai. Goazen.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Gure etxera lo egitera joango zera. Bat geiagorengatik!</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Paxkual! Batzokian etxean bezela zaude. Egarri bazaude beian zerbait eskatu; jan nai badezu berdin, eta logaleak errenditzen bazaitu lo egin.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Ez dago esan bearrik, moldatuko naiz.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Aurreratzea goaz. (<hi rend='Italic'>Abituaz</hi>).</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Atadian itxoin bezate. Urdina ta gudariei deitzera noa (<hi rend='Italic'>Barrura daraman atetik otsegi&ntilde;az</hi>)Urdi&ntilde;a! Goazemak! (<hi rend='Italic'>Itzuliaz</hi>) Ba-datoz.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Mutil gizaxoak!, egun oiek guzietan artzen duten nekea. (<hi rend='Italic'>Bijoa D. Martinerekin</hi>).</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Pozik ga&ntilde;era. Kristau onak bait-dira. Gaztedi zintzo ta garbia Jainkoak ordaiduko ditu.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Bai; mutil oriek egiten ari diran lana ez da bestenaz munduko urre guziaz ordaintzen.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Beste orrenbeste egingo nuke oien sasoia izateatik. Oraintxe gelditu bait naiz ez zerurako ta ez lurrerako. Ez gizon, ez sakristau ta ea ea ez kristau; gorrien menpeko.</p>
+<p><hi rend='Bold'>IV. AGERRALDIA</hi></p>
+<p>GOTZON, PAXKUAL, URDI&Ntilde;A TA MUTILLAK</p>
+<p>-f-<hi rend='Bold'>URDI&Ntilde;A:</hi> (<hi rend='Italic'>Beste iru edo lau mutil izkilludunekin sarturik</hi>). Emen gaituk! Noranaiko gertu. Bizigarri zerbait artu bait-diagu. Berdin zaiguk komentura joan ala &laquo;<hi rend='Italic'>tanke</hi>&raquo; barnean sartu.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Ez, ez komentura joan bear dezute. Gorriek tanketan sartu ditezela nai badute.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Bai; ga&ntilde;era, monjak biar goizerako gosari ona utziko dizute.</p>
+<p>-f-<hi rend='Bold'>URDI&Ntilde;A:</hi> Ez digu ajolik!</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Iturritzara bada aguro.</p>
+<p>-f-<hi rend='Bold'>URDI&Ntilde;A:</hi> (<hi rend='Italic'>Mutillai aginduz</hi>). Irmo mutillak! Eup! (<hi rend='Italic'>Mutillak irme jarri bitez</hi>).</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Ondo erakutsiak dauzkak.</p>
+<p>-f-<hi rend='Bold'>URDI&Ntilde;A:</hi> Bearko! Agintzaperik gabe ez zegok soldauzkarik.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Gudak jarraitzen badik izarduna izatera iritxiko aiz.</p>
+<p>-f-<hi rend='Bold'>URDI&Ntilde;A:</hi> Izarduna ez zekiat, bizarduna bai ordea, lenago balaren bat sabelean sartzen ez ba zidatek.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Zer derizkiotzu mutil oietzaz Paxkual, ausartak dirala e?</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Geiegi! Karlisten gudatekoak bezela. Amaika onelako galdu zan, alperrik, orain, gu, etxetik bialduak izateko.</p>
+<p>-f-<hi rend='Bold'>URDI&Ntilde;A: </hi>Oraingoan ez dago salketarik Paxkual. Berak zuri ta gorriek matxinada sortu ba dute, guk euskaldunek Jangoiko ta legezarraren alde fin jokatuko degu: (<hi rend='Italic'>abestia urdi&ntilde;ak asi ta mutillak erantzuten diote</hi>).</p>
+<p>&laquo;Eusko gudariak gera</p>
+<p>Euskadi azkatzeko</p>
+<p>Gertu daukagu odola</p>
+<p>Aren alde emateko.</p>
+<p>Irrintzi bat entzun da</p>
+<p>Mendi tontorrean</p>
+<p>Goazen gudari danok</p>
+<p>Ikurri&ntilde;en atzean&raquo;.</p>
+<p>-f- Ta zuk sakristautzan Iturritzan jarraituko dezu.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Ire kanta ez zeok gaizki. Ni nere lantegian guziari Amen! esaten oiturik niagok. Beraz alabitz! Ez diat saltza ortan sartu nai. Or konpon zuen zuri ta zuen gorriekin.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Berandutu egingo zaigula. Zu geldi zaite emen lasa. Ta norbait nere bila baldin ba dator ala beste zerbaiten galdezka, itxoin zala.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Bai, bai, aditzera eman zuat.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>(<hi rend='Italic'>Abituaz Urdi&ntilde;a ta mutilai</hi>) Goazen! Guk zainduko degu azken arte Iturritzako komentua. Baita bertan atxituko ba gaitue ere!</p>
+<p>-f-<hi rend='Bold'>URDI&Ntilde;A:</hi> (<hi rend='Italic'>Mutilai</hi>) Jaso izkiluak! eup! Aurrera eup! (<hi rend='Italic'>Bijoaz; Paxkual aiei begira gelditzen da atean, gero gela barnera itzuliaz</hi>).</p>
+<p><hi rend='Bold'>V. AGERRALDIA</hi></p>
+<p>PAXKUAL BAKARRIK; GERO GORRI.</p>
+<p>AZKENEKO AU, NAI IZAN EZKERO, BIZPAIRU GUDARI GORRIZ LAGUNDURIK AGER BEDI</p>
+<p>-e-<hi rend='Italic'>(Paxkual astiro eseriko da, oarkabean, abertzale gudariei, entzundako abestia txistuz joaz. Ontan dagoala GORRI ta lagunak ager bitez. Guziak izkilludunak, lepoko gorria daramatela).</hi></p>
+<p>-f-<hi rend='Bold'>GORRI: </hi>Osasuna, lagun!</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>(<hi rend='Italic'>Etorri berriai arriturik begiratuaz</hi>) Osasuna ta... pakea adizkide.</p>
+<p>-f-<hi rend='Bold'>GORRI: </hi>Bakea?... Ez andi-mandi guziak garbitu artio.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Orduan pixka baterako gerra ba-degu. Gizon bakoitzak barnen bait darama aundinaikeriaren gri&ntilde;a ta arra.</p>
+<p>-f-<hi rend='Bold'>GORRI: </hi>Oraintxe degu kapitalismoa apurtzeko okasi&ntilde;ua. Ez ba degu zapaltzen fazismoa, betiko menderatuko gaitue.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Beartsuak naiko menderatuak bizi gera beti. Ez dakit nolatan goikoak asaldatu diran, agintzen egon da.</p>
+<p>-f-<hi rend='Bold'>GORRI: </hi>Ezin ikusia gertau zaielako, bekoak igoten ari bait gi&ntilde;an. Eurak beti azpian euki gura bait gaitue. Ez ba rebelozi&ntilde;ua izango dabe!</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Onelakotan bekoak gora igotzen dira; ta goikoak bera. Matxinadan dunak galtzen du. Neri beintzat ez didate asko kenduko.</p>
+<p>-f-<hi rend='Bold'>GORRI: </hi>Orain gizarteko bardintasuna erduko da. Guzientzat progreso ta zibilizazi&ntilde;oa. Au da: demokrazia.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Orrek <hi rend='Italic'>deogratias</hi> dirudi. Besteak ez dakit zer esan naiduten.</p>
+<p>-f-<hi rend='Bold'>GORRI: </hi>Bai berba gitxitan, abade, praile ta monjak birrindutia.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>(<hi rend='Italic'>ikarati</hi>) Ori errilijioaren kontrako gauza da nola nai.</p>
+<p>-f-<hi rend='Bold'>GORRI: </hi>Jaki&ntilde;a! Errelijioa erriaren opioa baita!</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>O pio!?</p>
+<p>-f-<hi rend='Bold'>GORRI: </hi>Bai gizona! Intzentsuaren lurri&ntilde;a edo...</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>(<hi rend='Italic'>maltzur</hi>) Ori ala dala, zer egin bear dute sakristauekin?</p>
+<p>-f-<hi rend='Bold'>GORRI: </hi>(<hi rend='Italic'>zer erantzun ez dakila</hi>). Au da galderia! Sakristauagaz zer erabagi artu gero pentsauko dabe.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Ez dituzte ilko noski?</p>
+<p>-f-<hi rend='Bold'>GORRI: </hi>Errusin zelan jokatu daben itaungo dogu.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Urrutiko intxaurrak!</p>
+<p>-f-<hi rend='Bold'>GORRI: </hi>Orain urrego degu zeregi&ntilde;a. Iturritzako komentuko monjak bidaltzera goaz. Toki ura geuretzat bear dogu. Zabala ta guziz leku ederrean emen dago-ta. Ez da ala?</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Bai; leku txarragoak izan oi dira.</p>
+<p>-f-<hi rend='Bold'>GORRI: </hi>Gerrako komisariuak esan dauskunez ori emen da ori au defenditzeko posizi&ntilde;o estatejikoa.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Nik ba&ntilde;o geiago dakizu gauz erretzaz.</p>
+<p>-f-<hi rend='Bold'>GORRI: </hi>(<hi rend='Italic'>losintxa onarturik</hi>) Zeu bizkaitarristen komitekoa izango zara noski?</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>(<hi rend='Italic'>larri</hi>) Ez jauna, ez! Ni ez nazu ezer.</p>
+<p>-f-<hi rend='Bold'>GORRI: </hi>Ez dago i&ntilde;or etxe ontan ala?</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Neroni ere zai nago.</p>
+<p>-f-<hi rend='Bold'>GORRI: </hi>Ba larregi itxaroten daruegu komentuaren kontu orregaz. Ez genduke bizkaitarrekin asarretu gura, bano ez daukagu ezta be luzapen geiagorik emoterik. Eskarrak nazionalistiak katolikuak bezin demokrata zintzuak dirana, ostantzean triskantza kruela komentu danetan egingo genduke, egin be.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Ba ez bada ere obe dezute itxoin. Ga&ntilde;era emengo monjak tira... ez dira txarrak; askori jaten ematen diote; aurrak ezi ta jantzitzen ere leiatzen dira ta...</p>
+<p>-f-<hi rend='Bold'>GORRI: </hi>Laikoak ba-lira beste enparauak legez ez liguke ajolik. Edonork dau libertadia gura daun lez biziteko. Orain presa daukogu, joan bearrean gagoz. Ez da amen i&ntilde;or lagunduteko.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Nik uste laister azalduko dala bat edo bat. Bitartean eseri zaite. Zigarro bat erreko dezu: (<hi rend='Italic'>eske&ntilde;iaz</hi>).</p>
+<p>-f-<hi rend='Bold'>GORRI: </hi>Zigarroa artuko dautzut, eskerrikasko, ba&ntilde;an ezin artu nezake (<hi rend='Italic'>jes</hi>) eserlekurik. Rebolizi&ntilde;oa aurrera doian artean geu ezin geldi egon, i&ntilde;olaz be.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>(<hi rend='Italic'>poxpolua pizturik</hi>) Torizu sua ba.</p>
+<p>-f-<hi rend='Bold'>GORRI: </hi>(<hi rend='Italic'>pizturik</hi>) Ederto! Orain nigaz etorri bear zara bidea erakusten. Ez bait dodaz amengo bazterrak ondo ezaguten.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>(<hi rend='Italic'>Totel</hi>) Onela illunpetan ez dakit nik ere asmatuko nuken.</p>
+<p>-f-<hi rend='Bold'>GORRI: </hi>Gitxi gora bera noruntz dagon esan ezkero topauko dogu. Lagun nagizu!</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>(<hi rend='Italic'>aitzeki-maitzeki</hi>) Ezin utzi nezake au bakarrik ordea.</p>
+<p>-f-<hi rend='Bold'>GORRI: </hi>Alik eta ari&ntilde;en biurtuten al zara! Unetxo bat!</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Urrutitxo dago-ta, bitartean norbait baldin ba-dator?...</p>
+<p>-f-<hi rend='Bold'>GORRI: </hi>(<hi rend='Italic'>zakarki</hi>) Zeure billa neu etorri naz, Arraiea! Ta gura ba-dezu ala ez nigaz joango zara joan be! Zaspi mila zentellia!</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Ez asarretu gizona, ez uste lagundu nai ez zaitudanik. Berialaxe ga&ntilde;era.</p>
+<p>-f-<hi rend='Bold'>GORRI: </hi>Koitau ori. Berandu da ganobageritan ibilteko. Aurrera! Izkilurik ba dezu ala?</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Ez ba...</p>
+<p>-f-<hi rend='Bold'>GORRI: </hi>Zelako milizianoa zagozan! Eutsi errebolber oni bidean reketeren bat arkitzen ba-degu be! (<hi rend='Italic'>Gerritik errebolber bat aterata eman bekio</hi>).</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>(<hi rend='Italic'>beldurrez arturik</hi>). Ez da kargatua egongo?</p>
+<p>-f-<hi rend='Bold'>GORRI: </hi>Bai gizona! amar tirogaz! Zertarako bear dezu bestela! Urten aurretik! (bultzatuaz).</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>(<hi rend='Italic'>beldurti</hi>) Goazen ba, Iturritzara?...</p>
+<p>-f-<hi rend='Bold'>GORRI: </hi>Reboluzi&ntilde;ora! (<hi rend='Italic'>bijoaz</hi>).</p>
+<p><hi rend='Bold'>VI. AGERRALDIA</hi></p>
+<p>ZUZENDARI AMA TA ATEZAI TA GURUTZE AIZPAK</p>
+<p>-e-<hi rend='Italic'>(Komentutik igesi datoz, mundutar so&ntilde;okoaz jantziak eta arras izuturik).</hi></p>
+<p>-f-<hi rend='Bold'>ZUZENDARI AMA:</hi> Jesus milla bider! Au al da Batzokia?</p>
+<p>-f-<hi rend='Bold'>GURUTZE: </hi>Bai ama. Sartu bedi lasai. Au da bai.</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Ene au larria. Ordu oietan kalean (<hi rend='Italic'>asperenka</hi>).</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>(<hi rend='Italic'>Bazter guzitara begiraturik</hi>) Emen eskier al gaude? Ez ote zaizikigu billa etorriko? Zaindarik gabe bildurtzekoa da.</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Gudariak atean gelditu dira besteen zai.</p>
+<p>-f-<hi rend='Bold'>GURUTZE: </hi>Nere aizpa Izaskun etorri bezin aguro gure etxera joango gera.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Paxkual gizajoa ikusi al dezute nola zijoan gorri aiekin? Nora ote zeramakien? Txarkeriren bat egitea edo. Iltzea berdin! Oldoztea ere!</p>
+<p>-f-<hi rend='Bold'>GURUTZE: </hi>Adiskide antzean zijoazela irudi zait.</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Bai zera! Eskuan errebolber bat zeramakin-eta. Ea galdegin nion gure sakristauri zer zebillen; ba&ntilde;an mojak gi&ntilde;ala ezagutuko gi&ntilde;uztela-ta isildu egin naiz.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Ederki egin dezu. Kontu beti minga&ntilde;ari! Orrek galtzen gaitu. Bestela jantzitan ez det uste i&ntilde;ork monja gerala ezagutuko gaitunik (<hi rend='Italic'>Irurak elkarri begira bitez</hi>).</p>
+<p>-f-<hi rend='Bold'>GURUTZE: </hi>Gere buruak onela ikusi bearra, au lotsa! Erriko jendeak eta lagunek ikusten ba-naute.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Goiko jaunak ba-daki ez dala gure gogoa. ez onela jantzitzea ez komentua uztea. Matxinadaren ondorena baizik.</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Guretzat ez dira ain txarrak izan. Eskerrak D. Martinek bidalitako gudari jatorrai. Oiek mutil alai ta zintzoak! I&ntilde;ork ez du ezer kendu, ezer ikutu, ez elizan ez baratzan; eta azkenik nai izan degun guzia ateratzen lagundu digute.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Bai egia da. Ba&ntilde;an mingarri da mutil oiek, ez beste eskubitarrekin bat egitea matxinada ta gorriak laister zapaltzeko.</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Berak ez dute sortu matxinada. Ez dute Jainkoa ta erria aldeztea besterik egiten, Ama.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>(<hi rend='Italic'>Ben</hi>) Isiltzeko esan dizut Aizpa. (<hi rend='Italic'>Gurutzeri</hi>) Zer derizkiotzu Gurutze aizpa?</p>
+<p>-f-<hi rend='Bold'>GURUTZE: </hi>Ez dakit zer esan Ama. Agertu bear diot ordea, amabost egun oietan ainbat poz ez nuala aspaldi nabaitu nere barruntean. (<hi rend='Italic'>goitar</hi>) Loa laburtu, otoitzaldiak luza; barauz eta zigorrez gure gorputza ildura. Nola Jaungoiko Jaunari eskerrak eman ez, gizonen gaiztakeriak ordaintzeko egokiera eske&ntilde;i digulako. Jasarpena onetsia bedi.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Jainkoaren maitasun sugarrean irazekia zaude Aizpa, ba&ntilde;an guzian, neurria arkitu bear degu. Geiegikeriak so&ntilde;ari ezik gegoaren osasunari ere kaltegarri zaizkio. Ta maiz txerrenaren ziltzaldiak dira. Ezin genduen Iturritzako exte donean jarraitu, naasikeri artan: arrotz jendea, erriko mutil ta gizon izkilludunak noiz nai sartu-atera zebiltzala.</p>
+<p>-f-<hi rend='Bold'>GURUTZE: </hi>Bai ama, beorren itzak arrazoizkoak dira. Nere naigabea okerra da bear bada: biotzaren irritz zentzugabea. Aintzindari Amaren agindua bedi beti nere araua: esaneko apala ene elburua.</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Gudariek gure etxea ez ba digute ondo zaindu ba. Nik beintzat oiek irabaztea nai det. Ezkerronez bederik.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Guk txurien, eskubien alde Jainkoari otoitz egin bear diogu. etsaiak zapaldu ditzan.</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Edoze&ntilde;ek daki nortzuek diran etsaiak! Guri lagundu digutenak ez be&ntilde;epein. Aitzindari Ama berekin geldi da aolku batzuek ematen.</p>
+<p>-f-<hi rend='Bold'>GURUTZE: </hi>Guziengatik otoitz egin zagun. Pakea jetxi dedila len-bait-len gizonen artera.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Ez dezaiela ezer gerta Aitzindari Ama ta D. Martini. Sakristaua itxura artan ikusteak beldur eman dit.</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Norbatzuek ba-datoz. Izaskun-eta izango dira.</p>
+<p><hi rend='Bold'>VII. AGERRALDIA</hi></p>
+<p>LENGOAK, IZASKUN ETA GOTZON</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>(<hi rend='Italic'>Sartuaz</hi>) Ez ikaratu! Gu bait gera! Besteak eraman ditugu ta orain zuen billa gatoz gure etxera eramateko. Gelak eta oiak gertu daude. Gaur lasa lo egingo dezute ta... (<hi rend='Italic'>irritsu</hi>) goizean jeikitzeko presik gabe. (<hi rend='Italic'>Atezairi</hi>) Ez da ala?</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Ori esan.</p>
+<p>-f-<hi rend='Bold'>GURUTZE: </hi>Be&ntilde;ere ba&ntilde;o gutxiago lo egingo degu.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Dana dala, ez dakigu nola ordaindu guregatik egiten ari zeraten guzia.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Otoitza da zuen txanpona. Gogo onez gure alde &laquo;<hi rend='Italic'>Agur Mari</hi>&raquo;batzuek esan eta, kito!</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Gure otoitz ordu guziak! Zuen laguntzagatik ez balitz toki onean gi&ntilde;an. Ene! gorrien eskuetan.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Ez dira ain mutil txarrak! Ez gaur lotan ametsik egin! Aizpa.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Aintzindari Ama D. Martinekin dator. Gure mutillak komentu barruan gelditu dira. Gorriek mendi aldean. Beraz ez dago etxean ezer egingo duten bildurrik. Goazen etxera; guk lagunduko zaitugu.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Eskerrikasko. Lenbaitlen joatea obe degu bai. Emen gizonezko leku batean gu egotea itsusi da.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Kalean egotea okerago zan; eta emendik errezago i&ntilde;ork nabaitu gabe gure etxean sartuko gera.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Zuek aginduko diguzute.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Ni aurretik ioango naiz. Gero, Gurutze ta Atezai aizpa dijoazela. Barren kaletik. (<hi rend='Italic'>Gurutzeri</hi>) Ez zitzaizun etxeko bidea aztuko... mutil gazteak laguntzen zindutenekoa...</p>
+<p>-f-<hi rend='Bold'>GURUTZE: </hi>Ori ez da be&ntilde;ere aztutzen.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Orain ere apain zaudete (<hi rend='Italic'>monjai begiraturik</hi>) Kalean norbaitek arkitzen bazaitue ez du ezagutuko monjak zeratenik.</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Ni erri guzian ezagutzen naute beintzat, komentuko atezaia!</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Garai ontan kalean dabiltzan geienak erbestekoak dira.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Kalean norbait arkitzen ba-dezute ez itzegitera gelditu, naiz ezaguna izan.</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Gabon esango diot.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Ez da ori ere.</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Beste aldera begiratuko det orduan, itxura txarreko jendea baldin ba da.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Ez lurrera begiratu; monja zerala ezagutuko zaitue bestela.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Berriketa geiago gabe, zoazte! gure etxean zai bait-daude. Oso berandu da.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Izaskunek arrazoi du.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Jarraitu ba neri (<hi rend='Italic'>abituaz</hi>)</p>
+<p>-f-<hi rend='Bold'>GURUTZE: </hi>Goazen! (<hi rend='Italic'>Atezai ta biak Gotzoni jarraitzen diote Aitaren egi&ntilde;az</hi>).</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Gero Aintzindari Amaren billa etorriko zerate. Ez nago trankil. (<hi rend='Italic'>bijoaz</hi>)</p>
+<p><hi rend='Bold'>VIII. AGERRALDIA</hi></p>
+<p>D. MARTIN ETA AINTZINDARI AMA</p>
+<p>-f-<hi rend='Bold'>D. MARTIN:</hi> (<hi rend='Italic'>Ate guzitatik begiratuaz</hi>) Batzoki barruan ez i&ntilde;or izatea arritzen naiz. Zuzendari Aama ta beste aizpak etxera joanak izango dira. Izaskuni itxoingo diogu. Emen gelditzeko esan bait-digu.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Geldi gaitean bada.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Eseri zaite, eseri. (<hi rend='Italic'>berriz bazterrak begiratuaz</hi>) I&ntilde;or ez! Paxkual nora joan ote da? Emen utzi det-eta. Gizajo ura nun ote dabil?</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Egiz, oraintxe ez dakit ezer. Ez nun nagon ta ez nor naizen nere burua onela ikusita. Artaldera otsoa sartu bait-da eta ardiak sakabanatu zaizkit. Artzaia emen dabil galduta.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Ez geiegi arrengura. Egunda&ntilde;o ez bait zaizue ezer txarrik gertatu. Ardiak ezagutzen dituzu ta ezagutzen zaitue. Biltzen al zerate berriz!</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA:</hi> Gu, agian bai, ba&ntilde;an beste kristauak? Anai arteko guda zital onek biotza zartatzen dit. Zoritxarraren aundia! Ildako ta zaurituak erruz omen dira. Ain jende ona elkarren aurka ikustea ere! Elkar maite izan bearrean, elkar erailtzen. Elkarrengano goimaitasuna nun dago?</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Ori guda piztu dutenai galdegin bear: lenen eraso dutenai; erria zapaltzera datozen goikoai. Jende txeak; euskaldun gaztedi gartsuak ez dira ari egiten beren erria aldeztea besterik.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Ez naiz ausartuko noren errua dan esatea. Ba&ntilde;an, ez al dago i&ntilde;undik guda amaitzerik, pake bideren bat arkitzerik? Aztu...</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Odol geiegi isuri da, bat batean, pakea egi&ntilde;az aztutzeko; ta gutxiegi, oraindik, i&ntilde;ork etsita errenditzeko.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Auzia nork irabaziko duala derizkiotzu?</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Indarrak! Izkiluak! Ta militar pean erori dedi&ntilde;a erruki det.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Gure komentua zaitzen dauden mutil zintzo oiei ez ote diote ezer egingo?</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Gorrotoak ainbeste itxutzen du, Ama, mutil oiek militartzarren eskuetan eroriko balira il egingo lituzkere. Jainkoa ta Erria aldezten besterik egiten ez duten arren.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Ezin diteke ori D. Martin. Errilijioaren alde datozenak onelako bidegabekeriak egitea.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Errilijio donea aitzekitzat artzen dute olakoak:arrokeriaren estalki. Itzez Kristo goratu; egiez ordea Kristo berriz gurutzean josi.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Ez da egia izango. Ba al leike kristau izena daramatenak onela jardutea? Siniskaitza zait.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Nik ere ez nuen ori uste. Amabost eguneko gudateak zenbait gizon arroputz obeto ezagutzen erakutsi dit. Guda beti guda da. Txuri izeneko aingeru txar oiek erri batzuetan zer egiten ari dirala jakin dedanean, guzia sinisten det! Eta <hi rend='Italic'>reketeak</hi> biar ere aurreratzen badoaz komentuko mutilai, bertan ez gelditzeko esango diet. Asaldatariak errian sartu aurretik, igesi doazela. Au da nere aolkua.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Norbait atxitzen badute, nik, militarren buruzagiai, belauniko jarrita itzeingo diet. Bai, mutil oiek guregatik egin dutena adierazi ere. Ez didate ukatuko Krisoren izenean eskatutakoa.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Alperrik! Itz oiei entzungor egin die. Gudan, Ebangelio ta arau nagusia etsaia lenbaitlen zapaltzea da. Ta etsaiak Burgosko agintarientzat euskaldunak gera: euskaldunak, gorriak ba&ntilde;o lenago.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Ez ote da zure irudimena?</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Ez Ama, zoritxarrez egi-egia besterik ez da. Ez det nai mutillak azken ordu arte komentuan gelditzea. Bide guziak itxi ba&ntilde;o len alde egin dezatela. Bestela ni nintzake errudun. Biar gauean ez dira an geldituko.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Komentua gorrien eskuetan utzi bearra ere. Ez ba diote su ematen.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Ez, ez! Oiei ere zer arrizkuan dauden adieraziko diet: reketeak ga&ntilde;ean dituztela. Ez dituzte ain errez kaiolan atxituko.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Esan didazun guziak kezkaz bete nau. Ez dakit zer erabaki artu.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Ori biarko utzi Ama. Loak emandako atsedenaren ondoren.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Au amaitu arte ez dago atsedenik neretzako.</p>
+<p><hi rend='Bold'>IX. AGERRALDIA</hi></p>
+<p>LENGOAK, GOTZON ETA IZASKUN</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>(<hi rend='Italic'>Sarturik</hi>) Emen zaudetela e?</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Bai ba, zuen zai.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Arestian elduak gera. Ez gaude aspaldidanik itxoiten.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Gu, Zuzendari Ama, Atezaia ta Gurutze etxera laguntzera joan geran tartea. An utzi ditugu.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Ta Paxkual sakristaua?</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Ez al zenduten ba zuekin? Uste ortan nintzan.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Nik, emen gelditzeko esan bait diot. Ez dakit nora aldegi&ntilde;a dan. Onek egin digu ederra!</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Nere aizpak eta esan dute gorri batzuekin zijoala ikusi dutela.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Eza txarkerin bat egiten dioten. Gizajoa! Zer gertatu ote zaio? Ezin utziko degu gorrien eskuetan.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Ez det uste gizona, baituta eramango zutenik. Onelako agureari zer egingo diote ba? Bera joana izango da komentu aldera, gure billa.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Sakristira ez ba da joan zerbait jasotzez aztu zaiolako.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>An izan naiz eta ez det ikusi. Ori eliza guzia ondo aztertu degularik. Gero taberna bazterren batean agertuko da. Ordu txikitan ere an egoten bait ba daki.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Garai ontako itxiak daude guziak. <hi rend='Italic'><foreign>Casa del Pueblora </foreign></hi>ez ba dute eraman.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Ba diteke! (<hi rend='Italic'>Gotzoni</hi>) Ea ori degun: korapillo bat geiago azka bearra.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Ez estutu. Billa joango gatzaio. Obe zuan emen gelditu.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Paxkual! Ondo zintzo ta leial izan zaigu beti. Ezer gutxi irabaziaz, Iturritzak ez du errez izango morroi ta otsein oberik. Monjak emengo etxea utzi bear ba genuke, gure ondoren edozein tokitara etorriko litzaigukeala ziur nago. Ta guk ere, bera ez genduke nai zartzaroan bakarrik utzi.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Ez kezkik izan Ama, Paxkual agertuko da oso osorik.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Geienaz ere zerbait edana: burutik eta anketatik apur bat arindua, edo. Ez da sendabiderik txarrena ikara igarotzeko.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Dantza au zertan amaituko dan gero ta gutxiago ikusten det. (<hi rend='Italic'>Erne entzunaz</hi>) Norbait dator kaletik? e?</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>(<hi rend='Italic'>Atetik zeletaka</hi>) Paxkual da-ta!</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Alare agertu danean! Jesus goretsia bedi!</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Nun egon ote da orain arte!</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>(<hi rend='Italic'>Etorri berriari zuzenduaz</hi>) Bizi al zera gizona?</p>
+<p><hi rend='Bold'>X. AGERRALDIA</hi></p>
+<p>LENGOAK ETA PAXKUAL</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>(<hi rend='Italic'>albatan sarturik</hi>) Ai! osta... osta! Utzi zaidazue arnasa lasa artzen. Fu...u!...</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Gizona!</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Ez zera zauritua etorriko?</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Zauritua ez dakit: ba&ntilde;an bai... erdi illa.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Aguro piztuko zaitut. (<hi rend='Italic'>Bar aldera joanez</hi>) Bizigarri billa noa.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>(<hi rend='Italic'>Eser-leku bat eske&ntilde;iaz</hi>) Eseri zaite gizajo ori.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Zer gertatu zaizu bada? Ez al gera lenago gelditu emen itxoingo zi&ntilde;ugula.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>(<hi rend='Italic'>Begiraturik</hi>) Itxoin, e?</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>(<hi rend='Italic'>Baxo bat ardo eskuan duala sartuaz</hi>) Tira! ikara iltzeko sendagaia. (<hi rend='Italic'>Edan aragiaz</hi>) Txokon batean sartuko zi&ntilde;an eta berandutu... ots, goizetu esan nai nuen. Ikara!</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>(<hi rend='Italic'>Edan ondoren</hi>) Ikara? Zuek joandakoan ere emen gelditu naiz bakarrik asko. Gero izan da izatekoa. Zera... gorri batzuek etorrita bortxaz komentua erakustera eraman nautela.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Nungoak?</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Noiz ordea?</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Ez ditut ezagutu: Ibargorri aldekoak izango ziran. Zuek irten ala. Baratzako atetik joan zeratenean besteak kaletik sartzen ziran.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Ez ote dira berriz etorriko! Erlijiosa bat emen ordu oietan arkitzea ere.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Ez zaitue errez ezagutuko. Ez luke i&ntilde;ork esango erlijiosa zeranik.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Orduan eta geiago erlijioaren bearra degu.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Mundutarren jantziaz ere beti Aitzindari.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Jainkoaren mirabe soil eta xume bat. Berak gaitzala.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>I&ntilde;on seguru ba zaude ementxen da Ama.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Asi dedilla norbait sartzen emen. Berea ematen al da! (<hi rend='Italic'>Zizpa ta pistola ametraladora erakutsiaz). </hi>Nere izkilluak aski ez dirala, zuretzako ere ba dira or. (<hi rend='Italic'>Paxkuali orma bazterrean daudenak ikus araziaz</hi>).</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>(<hi rend='Italic'>Gorrik emandako pistola arrokeriz ateriaz</hi>) Ona emen nerea! (<hi rend='Italic'>Guziok arrituta begira bezaie</hi>).</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Jesus! Nundik atera dezu ori! Ba ezpada gorde zazu.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Arma artzen ez dakigunak alperrik gaude emen.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Alatsu! Paxkual? suspertu zerala dirudi. Jakin zagun zer gerta zaizun.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>(<hi rend='Italic'>Izkillua gorde ta damu-amorruaz</hi>) Ba, emen gorri batzuek era txarrean artuta Iturritzara laguntzera beartu naute. An, aurretik nintzala, bazter guziak aztertu dituzte.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Ez al dituzu ikusi gure mutillak?</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Bai pilla bat bazan elizaldean; ta gorriekin ez zirala gaizki etortzen zirudin.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Lagun onekin bildu bear dute gizajoak.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Txarrak ala onak an daude kanpantorre ta etxe gallurrera igota. Ontan, sukaldea erakusten ari nintzaiela napar-zubi aldetik iskamilla gaitza sumatzen asi gera. Bat-batean tximista egi&ntilde;ean iru edo lau auto aundietakoak eldu dira; atzetik ka&ntilde;o gurdiak arrastaka zituzten. Ura zan oiuketa ta ardalla! Birau ta mingain gaiztoa! Nik al dakit, sail guzia erretiran edo! Agintariek saldu egiten dituztela-ta!</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>(<hi rend='Italic'>berekiko</hi>) Guziok Kristoren odolez erosiak.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Betiko leloa! Ergoienen zeudenak dira orduan. Itxoin zezaketen beren tokian biar goiz arte gutxienez.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Illuntzezkero usai txarra eman diot Ergoiengo eraso orri. Mutil batzuek oso eroriak etorri dira. Ta emen gazte jende geiago ez ikustea ezaugarri bat da.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Mutillak komentura ta mendi aldera joanak bait dira guziak.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Gure mutil gizajoak pagatuko dute azkenik.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Mi&ntilde;aren aundia! Obe litzake elkarri amore ematea orrenbeste odol isuri gabe.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Onena guda ez sortzea zuten. Onela ibilli bearrik ez.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Likiskeri ziki&ntilde;ak! Aurreak erakusten du atzea nola dantzatu. Euskalduna nor dan orain ikusiko dute. Gureari eusten ba-dakigula etsai guzien aurka.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Ez dezagun gal ezaguera ta zentzuna. Biotza bero, bai, zuzentasunaren alde; alaz guztiaz burua otz eta argi &mdash;ortz garbi&mdash; arrutik bera ez amiltzearren. (<hi rend='Italic'>Paxkuali</hi>) Zer geiago entzun dezu?</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Ba soldadu-koluna ga&ntilde;ean dala. Eguna argitzeko erri sarreran izango ote diran.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>(<hi rend='Italic'>Asarre</hi>) Bai, zera!... kale nagusian! gosaltzen! (<hi rend='Italic'>Urduri</hi>) Udaletxera noa zer gertatzen dan jakitera. Ori ez diteke egia izan.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Baretu zaite Gotzon. (<hi rend='Italic'>Emakumezkoengatik</hi>) Oiek lagunduta joango zera.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Ez nuke nai gure gatik beste eginkizunari uts egitea. Goazen lenbaitlen.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Berdin da bai. Gaurko gure loa ta auntzaren gaberdiko estula bat. Ez bait degu begirik itxiko.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Orregatik lekuko izan danari entzun dezaiogun. Tira! itzegin Paxkual.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Ikusi dedana esan det. Ardalla ta naspilla artan nere burua bakarrik arki dedanean anka! berriz aien eskuetan erori aurretik. Ez naiz asarre emen nagonean!</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Ez al zaitue ezagutu gure Sakristaua zeranik?</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Egia esateko Ama, San Pedrok Jesukristo iru aldiz ukatu ba zuan, nik gaur ukatu zaituet amar aldiz!</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Gizon ausarta zaude. Ortarako ez zenduen izkillurik bear.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Zer nai dezue! bere burua estu ikusiko zuan ta.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Paxkual, damuzko negar malkoak isuri bearko dituzu.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Naiago det negar-malkoak isuri ta ez odola.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Ederki Paxkual. Ez zeunden martiri izatera beartua.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Ori Goikoak noizean bein ematen duan doai berezi bat da.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Neri ez dit ba eman. Ez izaki apezpiku. Ez zaio sakristau trixte bati, gizon aundiagoari ez zaiena eskatzen... Ba&ntilde;an... (<hi rend='Italic'>Une ontantxe susmur bat entzuten asi bedi, gero ta geiago aunditzen eta urbilten joango dana. Orruen artean automobil, gurdi kurpil eta gizataldearen otsak nagusi. Ardalla biziena danean deadar batzuek belarriak urra bitzate: REKETEAK DATOZELA! <foreign>VIVA LA REPUBLICA! </foreign>U. H. P. MOROAK DIRALA! GORA EUZKADI! ta antzekoak. Telefonoaren txintxarria ere gogorki jotzen asi diteke</hi>). Oiek dira! Badatoz! Betoz!</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Automobilean dijoan jendea da!</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Igesi doazenak. Paxkualek arrazoi du! Zer da au! Telefonoari jaramon egin dezaiogun! Galduak gaude. (<hi rend='Italic'>Telefonoz itzeginaz</hi>) Nor da?</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>(<hi rend='Italic'>&laquo;Aitaren&raquo; egin beza izuturik; ta gero otoitz isilka</hi>).</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Tirorik ez dan bitartean ezer gertatzen ez dan ezaugarri... Kalera noa ikustera (<hi rend='Italic'>abituaz</hi>) Zuek emen gelditu.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Ni ere bai! (<hi rend='Italic'>bijoa</hi>)</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Kontuz ibilli! (<hi rend='Italic'>atera&ntilde;o bijoa</hi>)</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>(<hi rend='Italic'>Telefonoz izketan ari dala</hi>) E? Moroak? Terziokoak? Utzi? bai. Baita. Aguro! (<hi rend='Italic'>Besteai itzegi&ntilde;az</hi>) Berri oso txarrak! Udal-etxetik deitu dute. Erri ga&ntilde;era koluna indartsu bat inguratu dala: Moro, terzio ta reketeak. Ezin diote arpegi eman eta erria uztea doazela. Alde egin nai duanak lenbaitlen ateratzeko diote!</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Gotzon eta Paxkual irten dira. Itxoingo diegu.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Ta ez badira itzultzen?</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Emen gelditzen naiz zuri laguntzeko. Apaizek naigabe ta ezbearren artean dute leku bereziena. Ezin alde egin det gaur nere erritik.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Ez nik nere komentutik ere. Goazen nai badezu gure elizara Jainkoaren etxera laguntza eskatzera.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Al ba dezute bai! Ez al litzake obe gure etxean zerbait lo egitea. Biok ere nekaturik daude...</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Nekea ba&ntilde;o lenago da lagun-urkoa bearrean dagonean laguntzea: iltzeko zorian dauden arimak ezin bakarrik utzi.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Gaxo ta zaurituak zaintzea zure ondoan egin bear dedan errukizko egintza... (<hi rend='Italic'>Gotzon eta Paxkual itxumustuan sarturik</hi>).</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Sua! Sua!</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Komentua erretzen ari dala!!</p>
+<p>-e-<hi rend='Italic'>(Antzez-joku oni egiantz eta indar geiago ematearren azken aldera Gotzon eta Paxkualekin gudari ta beste zenbait mutil sar ditezke, zuzendariak nai izan ezkero. Ga&ntilde;era une guzian Radio entzukiaren bidez aldiari dagokion dei, berri ta otsak barreiatu ditezke).</hi></p>
+<p><hi rend='Italic'>Laisterka</hi></p>
+<p>OIALA</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>III. EKITALDIA</p><--</head>
+        </front>
+        <body>
+<p>-e-<hi rend='Italic'>(Antzestokian Igo Ekitaldiko agerkai ber-bera: monja komentuaren klaustro barnea. Oiala jasotzeakoan Atezai Aizpa kanpaia biziki jotzen ari da, sokari eragiten diolarik).</hi></p>
+<p><hi rend='Bold'>LENENGO AGERRALDIA</hi></p>
+<p>ATEZAI AIZPA, D. MARTIN ETA GOTZON</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>(<hi rend='Italic'>D. Martinekin batean ataditik etorriaz</hi>) Aski da!! Ez gaude gorrak, sor. Erri guzian ere onuzkero ondo entzun dute. Irugarren joaldia bait-dezue. Guzia karlixtak sartu diralako. Ez da Jaungoikoa piztu balitz ere! (<hi rend='Italic'>eskuaz belarriak estaliaz</hi>).</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>(<hi rend='Italic'>eragiteari utzirik</hi>) Zuzendari Amak agindu bait dit. Lorietan dago!</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Bai, Zuzendari Ama ta beste guziak. Orain ez dezute gure bearrik Komentua osorik gorde dizuegu; ta berriz emen zerate.</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Ala da gure etxera itzuliaren poza. Ba&ntilde;an Aitzindari Amai itun arkitzen det, ez dakit ba...</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Samindua dago ta ez da gutxigorako. Anaiak, kristauak elkarren artean gudan, tiroka dabiltzala jakiteak zearo naigabetzen du. Komentua erreta ikustea naiago izango zuan eta ez erria gorrotoz kixkalduta gelditzea. Orregatik amabost egun oietan ez du ez jan eta ez lorik egin. Otoitza bait zaio elikadura bakarra. Orain ere eleizan dago. Ez du oeratu nai izan.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Ni agur egitera etorri naiz ba. Ez bait det nai militarrok kaiolan arrapatu nazaten. Ba-noa igesi! Itxian egotez aspertu naiz!</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>(<hi rend='Italic'>Arriturik</hi>) Zergatik ordea? Ez dezu ona besterik egin da!</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Jaungoikoagatik ez zaiteala egun argiz irten. Baituko zaitue. Ez txorakerietan ibilli. Bein jakinezkero kolumna nora joan dan eta zaitzaleak zer tokietan jartzen dituzten, gauean mendiz Pagotara errez joan zaitezke; eta andik Prantziko muga edo nai dezun lekura.</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Emen egongo zera gordeta. Ganbaran leku onak ditugu.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Ez, ez! Sakristaua etorri arte itxoingo det, ba&ntilde;an lenbaitlen nere lagunengana alde egin bear det. Bideak ondo ezagutzen ditut, eta nola edo ala aienganatzen moldatuko naiz. Gogorra gerta zaigu. Gu sua itzaltzera etorriak gi&ntilde;an bitartean, militarrak mendiari bira eman da beste aldetik sartu. Ta eskerrak Txilarreta baserritik gaztigatu digutela. Onela burnibidetik emen zeuden guziak joan al izan dira. Ni etxera gauzak jasotzera joan naiz eta anka egingo diet.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Ez urrats txarrik eman gero! (<hi rend='Italic'>Damuaz</hi>) Elbarren galdu ondoren, emen zer gerta bear zuan ikusia zegon. Gobiernoaren aldetik ez bait dago ez buru ta ez oin: ez indar eta ez izikillu.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Izkilluak gaur iritxtekoak ziran. Beste oiek eutsi izan ba lute.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Garai onean! Zer egingo zaio ba, ala bearko zuan-eta. Gaitz erdi gaztedi geientxoenak igesi egin duala. Zu ez ga&ntilde;erako guziak.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Ba... lagunetara bilduko naiz aguro asko; izkilluak eta erregaia ugari baldin baditugu, azkenerako nor irtengo dan garaille esango dit.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Garaile zuzentasuna ta ez indarra nai nuke izatea: ta pakea lenbaitlen egitea, bakoitzari berea emanez. Ta zu eskuta zaite militar jende au zer nolako asmoz datorren ikusi arte. Ez ote dira astakerian asiko. Ez dakigu nor duten buru ta ez zenbat diran ere.</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Askotoxo dira. Otazumenditik goizean sartu diranak mando ta guzi; ta orain kamionetan erruz etorri datozenak.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Berdin da ba, Amezketan euliak a&ntilde;a baldin ba dira ere, ederki astindu bear ditugu.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Euliak ugari dira armiarmak urri. Sinismen sendoko gizona zaitugu Gotzon.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Il arte! Eriotza naiago det oien azpian bizitzea ba&ntilde;o.</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Paxkual sakristaua oraintxe dator kaletik. Onek kontu prexkoak ekarriko dizkigu. (<hi rend='Italic'>Atadiruntz joanez atea zabalduaz</hi>) Aurrera Paxkual!</p>
+<p><hi rend='Bold'>II. AGERRALDIA</hi></p>
+<p>LENGOAK ETA PAXKUAL</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>(<hi rend='Italic'>Sartuaz</hi>) Arratsaldeon!</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Kaxo!</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Bizi al zera gizon?</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Komentura ez zi&ntilde;ala geiago etorriko, uste genuen. Soldaduen atzetik ibiltzeagatik edo...</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Bai, mutil koskorra izanda. Sasoi txarrean nago soldaru ondoren ibiltzeko.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Ta zenbat batalloi etorriak dira ba. Zer ikusi dituzun esaiguzu...</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Batek ba-aldaki! Kuxidare ederra dago bazterretan!: Gorda zibil, txapel oker, karabinero, soldaru xar, palankero, terzio, moro-indianoak eta txapel gorri batzuek. Kolumna okerragorik, auntz-adarra a&ntilde;akoa. Auek guretarrak beraz!</p>
+<p>-f-<hi rend='Bold'>GOTZON:</hi> Ez al zaizkitzu atsegin izan?</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Jende oiek atsegin? Bizi guzian liberalkeriaren aurka ari ta orain beltzekin eta presondegitik igesegindako gaizkileekin naasita. Terraje itxusiko gizasemea. Gorriak txarrak ba-ziran oien usaia ez da obea!</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Beinkatuta datoz ordea. Erlijioaren aldekoak omen dira ta lurrin doneaz gozatuko dituzte. Kiratsa guretzat geldituko da.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Gai ori oso labaina dezu Gotzon. Eliz-Amak seme guziak berdin maite bait ditu. Orretzaz ez itzegitea obe degu. (<hi rend='Italic'>aldatuaz</hi>) Ez diguzu esan errian soldaduai zer nolako arrera egin dien.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Utsa! Kanpai jotzea belarri-mu&ntilde;a urratzera&ntilde;o. (<hi rend='Italic'>Atezaiari</hi>) Ta Iturritzako joale berritsua guzien ga&ntilde;etik nabarmentzen zan.</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Gure kanpaitxoa alakoa bait-da. Aspaldi isilik bait-zegon. Agindu bezela astindu bat eman diot nekatu ba naiz ere.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Zure egin bearra bete dezu sor. Zer geiago Paxkual?</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Ezer gutxi. Errian gelditu diran ume ta atsoak txalo ta oiuka kalera irten dirala. Gizon egi&ntilde;ik osta-osta. D. Nikanor Amerikanoa beste batzuekin. Parroko jauna eliz aurrean ikusi det.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>&laquo;Te Deum&raquo; gertutzen ariko zan.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Goizegi da. Ta ain aguro nola agertu dan arritzen naiz. Yurre balarako baserri batean eskutaturik bait zegon.</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Gizajoa!</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Orain gordetzeko txanda neri datorkit.</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Au lanbidea!</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Izan ere! Ez zekiat emen nola gelditu aizen. Alde egin bear uan ba ezpa e.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Azken ordu arte emen egon nintzan eta uste gabean besteak errian sartu. Ba&ntilde;an... Ez nitzaz kupirik izan. Abiadura ar dezadanean, an ziak mutil au! Oraindik ez da berandu.</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Aingeru begiraleak zaindu zaitzala.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Soldaru arrotzai ba&ntilde;o bertako zelatariari beldur geiago bear diek.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Orrengatik, egunez ez ateratzeko esaten ari natzaio. (<hi rend='Italic'>Gotzoni</hi>) Ez zazula kalean bururik agertu. Illundu ezkero ibaiz beste aldera igarotzea aski dezu. Ta gau erdian menditik gora.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Ori da errezena. Kolumna nun gelditu dan jakin bear det lenengo.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Ba aurrena sartutakoak bi ala iru lagundi Udaletxeko enparantzan daude errenkadan jarririk. Alkate ta militarren buruzagien zai egon bear dute.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Ortara sasi-alkate ori erritik igesi joango zan. Lenengo bere larrua toki babesean jarri, gero eroso-eroso sorterria etsaien eskuetan uzteko. Salkindaria!</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Zenbat milla gizon sartu dira ba?</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Ez dakit ba, erri barnera gutxi oraindik. Geienak ka&ntilde;oi ta zaldiekin goiko zumardian geldituak omen dira ta beste batzuek autokamioitan ba datoz-ta.</p>
+<p>-e-<hi rend='Italic'>(Une ontan soldatu-turutak entzun bitez gero ta bertago jotzen datozelarik. Guziok ao-zabalik eta arrituta geldituaz).</hi></p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Soldaduen joaldi ta deia da.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Eta onuntz datozela dirudi.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Bai zera, kaleruntz doazenak.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Ez, bertaratzen ari dira. (<hi rend='Italic'>Guziok adi-adi entzunez</hi>)</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>(<hi rend='Italic'>larritzen asirik</hi>) Ea onuntza datozen! Onela da.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Nik ere baietz uste det.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Gotzon! ez zazu galdu astirik! Gorde zaite! (<hi rend='Italic'>bultzatuaz</hi>) Elizako amarrandegian. Ni sakristian geldituko naiz.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>(<hi rend='Italic'>Lasaitu naiez</hi>) Ez dago presarik!</p>
+<p>-e-<hi rend='Italic'>(Turuten joaldia isil bedi).</hi></p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Zoazte bai. Neri zerbait galdegiten ba didate ez dakidala ezer erantzungo diet.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Nik ez det berriz ezer entzuten.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Aitzindari Amari adierazi bear zaio. (<hi rend='Italic'>Atadiko txintxarria jo bezate</hi>). Goazen!</p>
+<p>-e-<hi rend='Italic'>(D. Martin eta Gotzon elizako atetik bijoaz azkenengo au besotik elduta daramalarik).</hi></p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Arrasto beroaren ondoren datoz. (<hi rend='Italic'>bijoaz</hi>)</p>
+<p><hi rend='Bold'>III. AGERRALDIA</hi></p>
+<p>ATEZAI AIZPA TA PAXKUAL</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Atea iriki bearko diet.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Zure lantegia ori da.</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Zertara ote datoz?</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Ostatu billa noski. Erriko etxetan ez dute bear a&ntilde;a leku izango-ta.</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Bateak eta besteak ez gaitue pakean utziko. Etxean ez bait degu ezer.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Oeratza, sua, gatza ta ozpi&ntilde;a. Ori da soldauari oituraz zor zaiona. Ga&ntilde;erako guzia berak artuko du... dagon lekutik.</p>
+<p>-e-<hi rend='Italic'>(Berriro atadiko txintxarria jo bezate ta oraingoan sendoago).</hi></p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>(<hi rend='Italic'>Atea irikitzea doalarik</hi>) Jesus! noan!</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Oiek ez bait dakie itxoiten.</p>
+<p><hi rend='Bold'>IV. AGERRALDIA</hi></p>
+<p>LENGOAK, REKETE TA FALANJE IZARDUNAK</p>
+<p>-e-<hi rend='Italic'>(Atezaiak atea zabaldutakoan kaletik datozen deadarrak entzun bitez: &#161;&#161;Arriba Espa&ntilde;a!! &#161;&#161;Viva Espa&ntilde;a!! soldaruak oiukatuak).</hi></p>
+<p>-f-<hi rend='Bold'>FALANJE: </hi>(<hi rend='Italic'>Sartuaz</hi>) Mutilak kanpoan geldituko dira deitu arte.</p>
+<p>-f-<hi rend='Bold'>REKETE: </hi>(<hi rend='Italic'>Atezaiari</hi>) Beraz, Iturritzako komentua au degu!</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Bai jauna bai; auxe bera.</p>
+<p>-f-<hi rend='Bold'>REKETE: </hi>Biok kapitanak gera.</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Barkatu ez nizuen izarrai begiratu. Kapitanak bai, eta neregatik lenbaitlen jeneraletara irixtea opa dizuet.</p>
+<p>-f-<hi rend='Bold'>REKETE: </hi>Ez al zaizue komentu barnean batere gorririk gelditu? (<hi rend='Italic'>bazterrak begiratzen asiaz</hi>).</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Ez da i&ntilde;ortxo ere! Zuen usaia artu orduko igesi joanak dira guziak.</p>
+<p>-f-<hi rend='Bold'>FALANJE: </hi>Eta bestelako &laquo;<hi rend='Italic'>separatista</hi>&raquo; madarikatu oietatik? Zital alenak ez bestenak! Okerragoak gorriak ba&ntilde;o. Gure eskuetan bat edo bat erori ba ledi!</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Emen ez da arrotzik gelditu: guziok gera etxeko. Ta zera... (<hi rend='Italic'>ezin asmaturik</hi>) bestela ez dakit ba zer esan. Ainbeste eratara itzegin oi da!</p>
+<p>-f-<hi rend='Bold'>FALANJE: </hi>(<hi rend='Italic'>Paxkualengatik</hi>) Zer egiten ari da gizon au emen?</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Paxkual! zure galdera egiten du kapitan onek.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>(<hi rend='Italic'>Dagon bazterretik burua itzulirik</hi>) Nik? Ba berrogei urte oietan egiten ari naizen lan berbera: sakristautza.</p>
+<p>-f-<hi rend='Bold'>FALANJE: </hi>Sakristau? Ez gera pio Gipuzkoako eliz gizonekin, Arr gaizto batez kutsutuak bait daude.</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Oni geienaz argizai ta ardo kutsua arkituko diozue.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Ori da guzia esan bearra. Bakoitzak geren utsegiteak izaten ditugu.</p>
+<p>-f-<hi rend='Bold'>FALANJE: </hi>(<hi rend='Italic'>gogorki</hi>) Zuk ze&ntilde;en alde eman zendun botoa azkenengo auteskundetan?</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Betiko aldera. Ez nazu aldatzen ibiltzen dan oietakoa.</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Karlista zar eta pi&ntilde;a bait-da.</p>
+<p>-f-<hi rend='Bold'>REKETE: </hi>(<hi rend='Italic'>elkarrizketan sartuaz</hi>) Guretakoa baldin bada pakean utzi zaiozu. Gure egitekora goazen. (<hi rend='Italic'>Atezaiari</hi>) Komentuan kalte aundiak egin al dizkizue? Norbait ilik ba al dezute? Ta lapurretak? Ta elizari su ematea?...</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Baterez! Gurekin oso ondo jardun dira. Ga&ntilde;era au zaintzen, gau ta egun euskaldun abertzale nazionalistak izan ditugu; ta menditik militarrok jaurtitako bonba baten bidez gure etxe-ordeko belar eta lastoak su artu zutenean berak itzaldu zuten, onela komentu guzia erretzetik gaizkaturik.</p>
+<p>-f-<hi rend='Bold'>FALANJE: </hi>(<hi rend='Italic'>otso amorratua gixa</hi>) Ezin entzun det lelo ori. Separatistak au egin dutela; beste ura ere bai. Guretzat gaizkile ta txarrenak oiek dira. Ez gaitue atzipetzen.</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Zure lagunak galdegin bait dit; ez det egin egi-egia esatea besterik.</p>
+<p>-f-<hi rend='Bold'>FALANJE: </hi>Egi-egia Espa&ntilde;a aundi bat aitortzean dago: Espa&ntilde;a bakar, aundi, oso-osorik. Beste guzia txarkeri ta gezurra da.</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Ez nuen i&ntilde;oiz olakorik entzun.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Ez nik ere: Kristau ikasbidea berriro-berritik ikasten asi bearko degu, Atezai Aizpa.</p>
+<p>-f-<hi rend='Bold'>FALANJE: </hi>Bai, katolikotasun berria: au da espa&ntilde;azaletasuna. Au gabe ez bait dago kristautasunik. (<hi rend='Italic'>sutan</hi>) Ta ez txintik atera bestela biok espetxera baituta eramango zaituet. Euskaldunaz lepora&ntilde;o okiturik nago!</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Euskaldunak itz gutxikoak gera ta ez zaitugu iraindu. Or konpon ba, zure ezpain eta zure minga&ntilde;arekin!</p>
+<p>-f-<hi rend='Bold'>FALANJE: </hi>(<hi rend='Italic'>Asarre biziz Paxkuali besotik eltzen diola</hi>) (<hi rend='Italic'>sasi-biraua</hi>) Agure sagardozulo! zakur-mintzo! urde zipotza. Enda guzia balaz lurpean sartzea merezi du.</p>
+<p>-f-<hi rend='Bold'>REKETE: </hi>(<hi rend='Italic'>Bion artean jarririk banatuaz).</hi> Utzi zaiozu! (<hi rend='Italic'>Falanjeri</hi>) Zurea da errua, erri txearekin eztabaidan asteagatik. Demokraziaren etsai orrengatik gera. Alperrik ari zerate erriari eskubideak eman naiaz. Sindikalismoaz ez dezute gauza zuzenik aterako, gizarte auzia gaiztotu baizik. Burutara joan bear da: agintaritik agintaritara.</p>
+<p>-f-<hi rend='Bold'>FALANJE: </hi>Olakoak zigorraz ezitzen ditugu. Zuretakoa dalako ta zarra ga&ntilde;era uzten diot.</p>
+<p>-f-<hi rend='Bold'>REKETE: </hi>Bai gizona. Arazo au ze&ntilde;en errez antolatzen degun ikusiko dezu. (<hi rend='Italic'>Atezaiari</hi>) Nun dago Aitzindari Ama?</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Etxean da.</p>
+<p>-f-<hi rend='Bold'>REKETE: </hi>Datorrela beriala. Berakin itzegin nai genduke.</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Banoa billa kapitan jauna. (<hi rend='Italic'>Doalarik</hi>)</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Ni ere eginkizunetara noa ba. (<hi rend='Italic'>Bijoa</hi>)</p>
+<p><hi rend='Bold'>V. AGERRALDIA</hi></p>
+<p>REKETE TA FALANGE IZARDUNAK</p>
+<p>-f-<hi rend='Bold'>REKETE: </hi>Aitzindari Amari galdegingo diogu emen gertatu danaren berri.</p>
+<p>-f-<hi rend='Bold'>FALANJE: </hi>Oien esanetik zerbait garbi ateratzea uste ba-dezu. Nai duena isiltzen ba-dakite. Gerok bazter guziak aztertzea obe degu. Ba-ezpada.</p>
+<p>-f-<hi rend='Bold'>REKETE: </hi>Ori ere egingo degu ba. Ba&ntilde;an (<hi rend='Italic'>komentu galur aldera begiratuz</hi>) etxeak ez du kalte aundirik. Emendik tiraketan ari ziranai, guk menditik berunopil ederrik jaurti genien-ba. Ez lertu nunbait.</p>
+<p>-f-<hi rend='Bold'>FALANJE: </hi>Okerrena igesi egiten utzi diegula. Mendi bizkarretik sartu bagi&ntilde;a bertan arrapatzen ditugu guziak. Pareta kontra zerraldo pila eder bat botatzeko gogorik ez ba det ba. (<hi rend='Italic'>Izkilua aterata ki&ntilde;ua eginaz</hi>) Onela, errenkadan jarrita ga&ntilde;era.</p>
+<p>-f-<hi rend='Bold'>REKETE: </hi>Ez gera beti gauza batean ariko. Mendian ogei egun egon ondoren, erdi goseak, eta bala tartean, erri ontaz jabetu gera. Beraz atseden pizka bat ar zagun: ondo edan eta lasai lo egin. Gizonezkoak igesi egin badigute, obe! neskatxa batzuek geldituko ziran gu ez gogaitzeko.</p>
+<p>-f-<hi rend='Bold'>FALANJE: </hi>(<hi rend='Italic'>Lizun-irritzaz arpegiz aldaturik</hi>) Aizazu, emengo &laquo;<hi rend='Italic'>emakume</hi>&raquo; oietako bat besakartzeko gogotan nago. Arro, trinko, ta sasoikoak omen dira ta neurtu nai nituzke luze laburrean...</p>
+<p>-f-<hi rend='Bold'>REKETE: </hi>Eder eta lirain askoak ezagutuko ditugu. Gaur goizean bat ikusi det, bika&ntilde;a! baserritarra, asto ga&ntilde;ean zijoan.</p>
+<p>-f-<hi rend='Bold'>FALANJE: </hi>Astakeriak ikusten oiturik egongo da orduan. Ez da gureengatik ikaratuko. Biar goizean itxoingo diogu.</p>
+<p>-f-<hi rend='Bold'>REKETE: </hi>Komentuan gaude ta arretaz mintza zaite. Norbaitzuek datozela dirudi... (<hi rend='Italic'>Adi-adi</hi>) Aitzindari Ama izango da.</p>
+<p>-f-<hi rend='Bold'>FALANJE: </hi>(<hi rend='Italic'>&laquo;Meka&raquo; bat jaurtiaz</hi>) Entzun zatela! monja txoro oiekin ez da milixkerietan ibilli bear.</p>
+<p>-f-<hi rend='Bold'>REKETE: </hi>Isilik! (<hi rend='Italic'>datozenai begiratuaz</hi>) Emen ditugu.</p>
+<p><hi rend='Bold'>VI. AGERRALDIA</hi></p>
+<p>LENGOAK, AITZINDARI TA ZUZENDARI AMAK</p>
+<p>-e-<hi rend='Italic'>(Komentu barne aldetik datozela).</hi></p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>(<hi rend='Italic'>Burua makurturik</hi>) Jainkoak dizuela egun on!</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>(<hi rend='Italic'>Aitzindaria bezelatsu</hi>) Egunon! ta ongi etorri etxe done onetara.</p>
+<p>-f-<hi rend='Bold'>REKETE: </hi>(<hi rend='Italic'>Biai begiratuta galdegi&ntilde;az</hi>) Aitzindari Ama?</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>(<hi rend='Italic'>Aitzindaria beatzez zuzendurik</hi>) Gure Ama Nagusi agurgarria au dezute: Ta onoko otsein au (<hi rend='Italic'>bere buruagatik</hi>) etxeko zuzendaria.</p>
+<p>-f-<hi rend='Bold'>REKETE: </hi>(<hi rend='Italic'>Gudari-eraz agurturik</hi> ) Zuek ezagutuaz poz aundi bat artzen degu.</p>
+<p>-f-<hi rend='Bold'>FALANJE: </hi>Poz artzea ba&ntilde;o eginbear bat betetzera obeto gatoz.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Edoze&ntilde;etara-ere al degun eran zuei laguntzeko gertu gaude, naiz eta ez dakigun zeintzuek zeraten.</p>
+<p>-f-<hi rend='Bold'>FALANJE: </hi>Gu Espa&ntilde;ako gudarozte aintzagarri ta azpiratu ezi&ntilde;aren izardunak gera. Au (<hi rend='Italic'>Reketearengatik</hi>) Rekete bulartsuen Kapitan da.</p>
+<p>-f-<hi rend='Bold'>REKETE: </hi>Ta jaun au Falanje kementsuen buruzagi.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Onore bat da guretzat. Gaur errian sartu diran soldadu taldeen agintariak dira Aitzindari Ama.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Etxe ontan gogo zuzenez datozen guziok ondo artuak izaten dira. Ta erri zaingoaren ardura dezutenok arego. Jaungoikoaren eskerronak ordain zaitzatela ta lenbaitlen Berak pakearen saria bekarkigula. Zuei osasunez sendiarengana biurtu al izateko: ta guri otoitz aldi apaletan gizon guzien alde eskatzearren.</p>
+<p>-f-<hi rend='Bold'>FALANJE: </hi>Ez, gorri, gorrixka ta estalkin guziak zapal-zapal egin arte.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Jesus! Gorri oietatik azkatu geranean! Ez da gutxi.</p>
+<p>-f-<hi rend='Bold'>REKETE: </hi>Ortaz ere jardungo gera. Ba&ntilde;an lenengo, gure nagusi Moreno Gutierrez jeneralaren izenean agurtzera gatoz eta arek emengo berri artzeko agindu digu. Leku au soldadu-talde baten ostatutzat aukeratzea baditeke. Iturritza barrendik ikustea nai genuke.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Zuen esanera gaude. Olakotan ez bait gera gere buruaren jabe. Aurre-egunetan besteak izan ditugu nagusi; orain zuen txanda da.</p>
+<p>-f-<hi rend='Bold'>FALANJE: </hi>(<hi rend='Italic'>Deadarka</hi>) Orain eta beti! Gorrien laguntzale zein izan diran garbi jarri bear degu. Kanpantorretik ametraladoraz tiraka zeintzuek ari izan zaizkigun!</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>(<hi rend='Italic'>Bare</hi>) Ez dakit ba, goizean itzuli gera onera egun batzuek at igarota. (<hi rend='Italic'>Bidea erakutsiaz</hi>) Lokutoriumera etorri nai bazenukete, agian leku egokiagoa da nai a&ntilde;ean itzegitekoa. Emen ez ditugun esertokiak eske&ntilde;i al izango dizkitzuet.</p>
+<p>-f-<hi rend='Bold'>REKETE: </hi>(<hi rend='Italic'>Aitzindari A. ondoren abituaz</hi>) Ongi derizkiot. Aitzindari Ama zur mintzatzen da. Goazen ba. Zenbait itz bide alik eta belarri gutxiagok entzutea obe.</p>
+<p>-f-<hi rend='Bold'>FALANJE: </hi>(<hi rend='Italic'>Gogo txarrez</hi>) Ez degu ordea astirik berriketan galdu bear. Itz gutxi ta... begiak erne, makarrak kenduta.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Bai, bai. Zuzendari Amak etxeko txoko guziak ikusten lagunduko zaitue. (<hi rend='Italic'>Aurretik Aitzindari A. ta Rekete bijoaz; ondoren Zuzendari ta Falanje</hi>).</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Pozik ga&ntilde;era! (<hi rend='Italic'>Falanjeri dijoaztelarik</hi>) Mingarri zaigu zuei ezin ezer eske&ntilde;i al izatea; Jaki ta edari guziak ostu dizkigute; kondarrik gabe geldituak gera.</p>
+<p>-f-<hi rend='Bold'>FALANJE: </hi>Ori entzutez asperturik gaude. Gordeta dagona aterazten ba dakigu. (<hi rend='Italic'>Bijoaz</hi>)</p>
+<p><hi rend='Bold'>VII. AGERRALDIA</hi></p>
+<p>ATEZAI AIZPA TA PAXKUAL</p>
+<p>-e-<hi rend='Italic'>(Elizatik irtenaz)</hi></p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Ez daude ez. Lokutoriumera joanak izango dira. (<hi rend='Italic'>Alde artara joanez</hi>) Zerbait entzun al baneza.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Zaude geldirik. Gozoak datoz gizontxoak. Gorriak txarrak dirala. Oiek ez ditugu obeak. Ori da agindu bearra: &laquo;<hi rend='Italic'>orde&ntilde;o el mando</hi>&raquo; Militar ziki&ntilde;ok!</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Gure Aitzindari Amak legunduko ditu. Orretarako esku berezia bait-du.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Ba nerekin izardun tentel oiek berriz nabarmentzen ba-dira, bereak eta bost entzungo dituzte. Entzungo dituenez, bai arranetan! (<hi rend='Italic'>azken itzok ukabilaz zematurik esan bitza</hi>).</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Gorritakoa dirudizu. (<hi rend='Italic'>Ontan atadiko txintxarria berriro entzun bedi, Paxkual erdi izuturik utziaz</hi>).</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Ni gorri?</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Ez, orain zuri geldi zerala ikusten det.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>(<hi rend='Italic'>Asperenka</hi>) A! a!...</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Ea soldau oztea dan berriz?...</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Ez aitatu bi aldiz otsoa ta... ikustea zoaz.</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>(<hi rend='Italic'>Atera&ntilde;o joan geroz</hi>) Ardiz jantzia baldin badator ezin ezagutuko det (<hi rend='Italic'>Idikiaz</hi>). Izaskun da-ta.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>(<hi rend='Italic'>Pozik</hi>) Gure bildotsa!</p>
+<p><hi rend='Bold'>VIII. AGERRALDIA</hi></p>
+<p>LENGOAK ETA IZASKUN</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>(<hi rend='Italic'>Estu ta larri</hi>) Komentua soldaduz inguraturik dago! Nik uste Gotzonen bila datozela.</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>(<hi rend='Italic'>Lasatu naiz</hi>) Ez emakume ez! Nola jakin dezakete emen dagoala?</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Aizazu, olakotan beti izan oi da norbait salatzeko.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Noski! Gotzon begiz ezin ikusi duan neska zar margaritan batek. Lerdea dariela daude batzuek militarren etorreraz. Komentu aurrean daudenak ez zidaten barnera sartzen utzi nai. Eskerrak gogor ekin diedala aizparengana nentorrela esanez. Alare nik entzun bear izan dedan izkuntza!</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Bai! ez ziran letariak izango. Soldaua migain ziki&ntilde;ekoa izan oi da. Ta itz utsez ase ba dira, gaitz erdi. Eskuak ere ari&ntilde;ak izaten dituzte.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Ez, norbaitek ikutu banindu masalleko ederra artuko zuan.</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Sinisten dizut. Gizonezko askok ba&ntilde;an lenago.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>(<hi rend='Italic'>Ziria jasoaz</hi>) Egokierak egiten du gizona ausarta.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Une ori eldu zaigu ba. Errira sartu diran soldadu taldeak etxeak aztertzen asi dira : lotsagabekeri ta lapurretak egiten; gure adiskideak baituta kartzelara eramaten. Ziur-ziur nago, barnean sartua daukat, militar oiek onera Gotzonen eske datozela.</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Biotzak esaten ba dizu egia izango da.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Jolasa alde batera utzirik, gertazen dana Gotzoni adierazi bear zaio.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Zaude lasai, ondo eskutatua bait-dago.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Bai, ordea, lenbaitlen igesegin bear zukean. Emen arrixko aundian dago.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Egunez ezin abituko da.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Ilunabarra laister da. Nundik eta zer tokietara nik esango diot. Lagunak zai dauzka. Ez zukean emen geldi bear.</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Orratx ba, gu monjak, eta komentua bakarrik ez uzteagatik izan da. (<hi rend='Italic'>Isilago, belarrira Izaskuni</hi>) Eliza atzean eskutaturik dago. D. Martin ere or da. Gaztigatzera noakio &laquo;<hi rend='Italic'>bestea</hi>&raquo; etorri araz dezan.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Zu? ba&ntilde;an, barrengoen beldurrik ez al dago?</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Gora igoak dira. Gero aruntzko eskalera ondoan jarriko naiz eta bera datozela nabai dezadanean oartuko zaituet.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Zoaz ba berandu ba&ntilde;o len.</p>
+<p>-e-<hi rend='Italic'>(Atezai A. abitzen dalarik D. Martin ager bedi)</hi></p>
+<p><hi rend='Bold'>IX. AGERRALDIA</hi></p>
+<p>LENGOAK ETA D. MARTIN; GERO GOTZON</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>(<hi rend='Italic'>Elizako atetik</hi>) Zer da bilera au? (<hi rend='Italic'>Izaskuni</hi>) Barrendik zure abotsa entzun det. Zer berri? Militarrok joan al zaizkigu?</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Joan? Militarrez esiturik gaude. Berri txarrak D. Martin. Errian guretako jendea baitzen asiak dira: Artxanko bi anaiak, Patxi Bidegain, Manu Ostolaza ta beste asko.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Oiek ere bai? Ezertan sartzen ez diran gizonak.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Bai ba. Ta orain Iturritzara Gotzonen billa datoz.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>E? Egitan uste al dezu?</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Bai jauna, ezpairik gabe.</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>(<hi rend='Italic'>Elizako atetik joanez</hi>) Gaztigatzera noakio.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>(<hi rend='Italic'>Oldozki</hi>) Zer erabaki artu oldoztu bearko da. (<hi rend='Italic'>Izaskuni</hi>) Soldaduak etxe aurrean daudela esan dezu, ez da onela?</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Bai, etxeko sarrera ta irtera guziak ikusten dituztela.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Bi izardunak barruan ditugu. Sima gaiztokoak ga&ntilde;era. Aitzindari ta Zuzendari Amekin gora igo dira.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Egonaldi labur eta giza legezko agurra egi&ntilde;az geroz, nik uste alde egingo dutela.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Ez derizkiot. Bai zera! Etxe guzietan sartzen ari dira eta emen ez? Baita!</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Au etxe done bat da kristauentzat. Ez dago orretarako guda aitzekirik. Eta nik Aitzindari Amari baimena eskatu ondoren, jaun oiei au arakatzea, elizako legearen aurka, eragotzi egingo diet.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Oientzako ez dago ez lege ta ez fede turkoena baizik: entzungor eta kaskagogor.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Gotzoni itzegin nai diot. Arentzako paper batzuek dakarzkit. Batzokikoak izan bear dute.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Liburu ta agiri guziak jaso al dituzute?</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Baietz uste det.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Ba Gotzoni esan bear diozuna esan, eta alik eta laisterrena etxera joatea dezu onena. Eta paper guziak erretzea.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Gurutze nere aizpatxoarekin ere ikusi nai det. Ez da emen agertzen.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Ageri? Gajoa komentuan berriz murgildu da, pozago, arraitxoa uretan ba&ntilde;o.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Atera arazi bear det bada. Kalerako eman nizkion jantziak itzuli ditzaizkidan.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Aguro kendu ez ba zituan bada so&ntilde;etik. Komenturatu orduko, ga&ntilde;ean zituan, buruko, toka, jantzi, ubel, errosaio, gurutze ta abar. Ez du munduan bizi nai. Irteera ez zaio atsegin izan.</p>
+<p>-e-<hi rend='Italic'>(Gotzon eta Atezai Aizpa sar bitez)</hi></p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>(<hi rend='Italic'>Izaskuni</hi>) Oi! Nola zu emen?</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Zuri alde egiteko esatea etorri naiz; ta bidenabar paper oiek ekartzera. (<hi rend='Italic'>Sorta bat paper kolkotik atera ta emanez)</hi></p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Kontuz olakoekin. Lur azpian gordetzea litzake onena ala erretzea. Isilago itzegin zazute. Ez da zur emen onenbeste jende bildurik egotea.</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>(<hi rend='Italic'>Beste muturrera joanez</hi>) Zerbaiten zantzurik nabaitzen ote dedan noa.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>(<hi rend='Italic'>Gotzoni</hi>) Zure lagunak igesi joan zaizkitzu: Oletako auzoan itxoingo omen dizue.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Ezin lenago irten izan naiz ba; monjakikoa egin arte.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Zure billa ote datozen beldur naiz. Atean soldadu pilla bat bait dago. Norbaitek salatu ba zaitu...</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Ez, soldaduak izardunak laguntzera etorriak bide dira.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Ez dakit ba.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Dana dala, zearo illundu arte ezin igi ninteke emendik. Eskutatzen al naiz eta, kito!</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Ez dago zer esanik.</p>
+<p>-e-<hi rend='Italic'>(Atezaiak beste muturretik).</hi></p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Malladia jexten oraintxe asi dira. Onuntz datoz.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>(<hi rend='Italic'>Urduritsu</hi>) Goazen emendik! Gotzon! (<hi rend='Italic'>besotik eutsi bekio</hi>) sakristira nerekin!</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Ez besoa errotik atera! Lanerako bear bait det. (<hi rend='Italic'>Abituaz</hi>)</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>(<hi rend='Italic'>Aien ondoren joanez</hi>) Nere tokia ere ori da ba.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>(<hi rend='Italic'>Eliza barneruntz bultzatzen dituala</hi>) Barrura! (<hi rend='Italic'>Atezaiari</hi>) Aizpa! zeorrekin Izaskun eraman zazu.</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Biok atadiko gelan geldituko gera.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Berdin da. Sartzen ikusi bait naute.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN:</hi> Gero arte!</p>
+<p>-e-<hi rend='Italic'>(Atezai Aizpa ta Izaskun atadi nagusiruntz; eta D. Martin elizako atetik bijoa).</hi></p>
+<p><hi rend='Bold'>X. AGERRALDIA</hi></p>
+<p>ZUZENDARI AMA TA REKETE TA FALANJE IZARDUNAK</p>
+<p>-f-<hi rend='Bold'>FALANJE: </hi>(<hi rend='Italic'>Datozela</hi>) Zuen aitzindariak legun-legun itzeginda gu atzipetzea uste badu oker dago. Zurikeriz gogaiturik gaude. Ikusten danez, komentu ontan gorriei arrera onegia egin diozue. Aien atzamarretatik atera zaituegu ta orda&ntilde;ez ez degu arkitzen, &mdash;aitzeki-maitzeki&mdash; epeltasuna besterik.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Ez Kapitan jauna! Gure gaizkatzaleak zeratela ao batez aitortzen degu. Badakizu ordea... Aitzindari Ama...</p>
+<p>-f-<hi rend='Bold'>REKETE: </hi>Eztabaidak utzi itzagun. Au aztertzez amaitu ezkero zer erabaki artu jakingo degu.</p>
+<p>-f-<hi rend='Bold'>FALANJE: </hi>(<hi rend='Italic'>Amorratu</hi>) Ez jauna ez! Nun nai nagusi gerala adierazi bear degu. Ez dago Aitzindari ta ez Amabirgi&ntilde;ik!</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Gure Ama agurgarriak ez dizue ezezkorik eman. Ba&ntilde;an zuen asmoa onartu aurretik kapellau jaunari aolkua eskatu naiko dio.</p>
+<p>-f-<hi rend='Bold'>FALANJE: </hi>(<hi rend='Italic'>Irri gaiztoz</hi>) Beraz apaiz bat ere ba degu tartean. Zer egiten du emen? Nun dago bera?</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Etxean izan bear du: elizan. Kapellau ta gogo zuzendari degu: ta elizkizunetik at oso arduratsua da: inguruko aurrak kristau ikasbidea erakusteko biltzen ditu; ta langille semeai ta ume beartsuai bestelako ikasketak ere ematen dizkie.</p>
+<p>-f-<hi rend='Bold'>REKETE: </hi>Langilleak losintxatzea, berriz ere nagusien aurka jeiki ditezen. Errelijio era berria da ori.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Aurrak pozik etortzen dira beintzat. Ga&ntilde;era euskeraz erakusten bait, die, eresi, dantza ta guzi.</p>
+<p>-f-<hi rend='Bold'>FALANJE: </hi>(<hi rend='Italic'>Pipertua</hi>) Orduan bizkaitar zikin oietako bat izango da Astinduko degu ederki. Guregana agertu dedilla. Olako ze... bat aurrez-aurre ikusteko gogotan nago.</p>
+<p>-f-<hi rend='Bold'>REKETE: </hi>Apaiz &laquo;gorri&raquo; ori nun ibilli da egun oietan?</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Ba... kalean!</p>
+<p>-f-<hi rend='Bold'>REKETE: </hi>Kalean, gorri artean, eta bizirik dago? Eta meza ematen zuan.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Bai jauna.</p>
+<p>-f-<hi rend='Bold'>FALANJE: </hi>Oiek dute errua gu lenago errian sartu ez izatea. Komunistai laguntzen ibilliko zan.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Ez ba, guri laguntzen leia da.</p>
+<p>-f-<hi rend='Bold'>FALANJE: </hi>Orain Aitzindariaren &laquo;sorginkeria&raquo; garbi ikusten da. Apaiza atzean bait dago. Orrengatik gorriek, komentu ontan. onenbeste laguntza arkitu dute.</p>
+<p>-f-<hi rend='Bold'>REKETE: </hi>Erriko erretore ta bear bada obispoari salatuko zaio.</p>
+<p>-f-<hi rend='Bold'>FALANJE: </hi>Bai zera! Asiera-asierako sasi-apaiz ori soldadu artean artu ta presondegira eraman. (<hi rend='Italic'>Atadiruntz abituaz</hi>) Agindua ematera noa!</p>
+<p>-f-<hi rend='Bold'>REKETE: </hi>Pixka bat itxoin zagun. Lenengo berari entzutea da (<hi rend='Italic'>Zuzendari Amari</hi>) Nun dago? Esaiozu etortzeko.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Deituko det. Elizan izan bear du. (<hi rend='Italic'>Elizako atetik joanez</hi>).</p>
+<p>-f-<hi rend='Bold'>FALANJE: </hi>Bele-txio bat eskuetan erori zaigula uste det. Kantaraziko diogu: Kra-kra-kra! ta bestela lumatu, arranetan!</p>
+<p>-f-<hi rend='Bold'>REKETE: </hi>Ez geiegi itzegin. Olakoak itzbide ta erantzunetan trebeagoak izan oi bait dira gu ba&ntilde;o. Lati&ntilde;a dakiten oiek sarean errez arrapatzen dute jendea.</p>
+<p>-f-<hi rend='Bold'>FALANJE: </hi>Aguro asko isildu araziko det. Guretzako ez bait dago lojika solojismo ta antzeko korapilorik. &laquo;Lingua... ta manu militari&raquo;. Zaspi tiro kaskaezurrean ta ez du geiago buru-lanean neka bearrik izango.</p>
+<p>-f-<hi rend='Bold'>REKETE: </hi>Zeorri isildu zaite ba. Ori, esan gabe egiten da.</p>
+<p><hi rend='Bold'>XI. AGERRALDIA</hi></p>
+<p>LENGOAK ETA D. MARTIN</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>(<hi rend='Italic'>Burua makurtuaz agurturik</hi>) Nere galdera egiten dezutela esaten dit Zuzendari Amak. Emen naukazute.</p>
+<p>-f-<hi rend='Bold'>REKETE: </hi>(<hi rend='Italic'>zakar</hi>) Ez genduen zure billa bidali bearrik izango zeorri agertu izan bazi&ntilde;a. Espa&ntilde;iko gudaroztearen agintariai arrera obea zor zaiela uste degu.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Barkatu, ba&ntilde;an ez nenkien nortzuek zi&ntilde;aten. Izkiludunak inguruan zenbiltzan susmoa izan det, ene eginkizunari jarraitu diot ordea. Etxeko nagusi Aitzindari Ama bait degu ta aren esanera nago.</p>
+<p>-f-<hi rend='Bold'>FALANJE: </hi>(<hi rend='Italic'>asarrekoi</hi>) Ipuiak! Ez zera agertu, beldur zi&ntilde;alako. Oraindik arpegian ezagun dezu-ta. Estali nai arren nor zaitugun badakigu: Espa&ntilde;a aundiaren etsai ta arerioa; separatista purrukatu ta gorrien laguntzale maltzurra. Egunda&ntilde;o egin dezun azpi-lanari orain erantzun bearko diozu.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>(<hi rend='Italic'>baretsu</hi>) Erantzun? Argi ta garbi ga&ntilde;era. Kapellautza onetara Gotzai jaunak izendatua izan nintzan. Emen egin dedan lan apurra aren baimenaz bete izan det; eta komentu barrukoa Aitzindari Amak onartua noski.</p>
+<p>-f-<hi rend='Bold'>REKETE: </hi>Ta matxinadan gorriekin naasita ibilli ta laguntzea Obispoak agindu al dizu?</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Guda piztu duanari galdegin. Bein sartuta gero apaizek ez dezakegu errilijioaren laguntzarik i&ntilde;ori uka. Ez zindoek gaiztoengandik berezi. Ain gaitza da! Goimaitasuna guzientzako bait da; ta bide txarretik dabiltzanentzat arego. Naspil biurri ontan bearrean dauden oro soroztea degu apaizek xede bakarra: bai zuribeltz eta bai gorri. Ta Jaungoikoaren laguntzaz zerbait iritxi degula uste det.</p>
+<p>-f-<hi rend='Bold'>FALANJE: </hi>(<hi rend='Italic'>Basati</hi>) Azaluts! Azpi-suge! itxurati! alena ez beztena! Gezurzulo!</p>
+<p>-f-<hi rend='Bold'>REKETE: </hi>(<hi rend='Italic'>Baretu naiez</hi>) Isilik zaude pizkatean!</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>(<hi rend='Italic'>pakezale</hi>) Jesusen Biotz doneari eskerrak gaitzetik libratu gera. D. Martin ortan ere asko leiatu da. Ta azkenik zuek Espa&ntilde;a katolikoaren militarrok, Frankoren soldadu kementsuak, berriz komentuaren jabe egin gaituzute.</p>
+<p>-f-<hi rend='Bold'>FALANJE: </hi>Jabe? Euskaldun pipiaz jotako lur ustel oiek geren odolaz Espa&ntilde;arako irabazi ditugulako, gureak izango dira. (<hi rend='Italic'>Unetxo bat ondoren D. Martini barego</hi>) Gure aurka nortzuek ibilli diran guda-epai maiak erabakitzen al du. Nik bertan zalatuko zaitut, emen, Espa&ntilde;aren kaltezko jakingaiak erakutsi dituzulako. Euskeraz bai!</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Ez dizut ukatuko, ez zuri ta Epaimaikoai; ortan ez bait det egin Elizamaren erakutsiak jarraitzea besterik. Jainkoak emandako izkuntzaz mutillak ezitzea errua baldin bada, errudun naizela aitortzen det. Oartzen zaitut ordea, kristau zeraten aldetik, ez zaizuela zillegi apaiz bat Guda-epai maiaren aurrera eramatea, Eliz-agintariak baimena eman aurretik.</p>
+<p>-f-<hi rend='Bold'>FALANJE:</hi> (<hi rend='Italic'>Berriro suturik</hi>) Ori amaitu zan. Orain guda-legea da nagusi; ta gu gaituzu agintari. Jakin zazu Espa&ntilde;ako izkuntz bakarra gaztelera dala. Au sartuko degu toki guzietan, onean ez ba da txarrean. Sasi izkerak betiko joan dira. Ta... itzez aski degu. Oraintxe gurekin Agintaritzara etorriko zera. Ez badezu gogo onez etorri nai, soldadu artean! Antxe nai a&ntilde;a arrazoi esango dituzu. (<hi rend='Italic'>Ateruntz abituaz</hi>).</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Azken itza ori badezu zuekin joateko gertu nago. Bereala. Niketz ez dago eragozpenik.</p>
+<p>-f-<hi rend='Bold'>REKETE: </hi>Joan aurretik soldauak etxea ta baratza maitzez amaitu zatela; ba ezpada gorriek izkillu batzuek utzi ba dituzte ere. (<hi rend='Italic'>D. Martini</hi>) Bitartean zerbait artu nai badezu, gure gelara joan zaitezke.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Eskerrik asko, ez det ezer artu bearrik. Eta nere apaiz-itzak zerbait balio ba du, emen ez dezutea ez izikillu ta ez guda-gairik arkituko, esan bear dizuet. Ga&ntilde;era monjak alperrik nekaraztea litzake...</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Ez, ez, guregatik sartu ditezke.</p>
+<p>-f-<hi rend='Bold'>FALANJE: </hi>(<hi rend='Italic'>Atadiruntz joanez, soldaduai deiturik</hi>) Bai, zenbait itzetan ez degu uste aundirik. Guda-mutilak ba datoz. Eta, ondo miatzeko, kristau ez diranak ga&ntilde;era, kexkarik izan ez dezaten. Aurrera!</p>
+<p><hi rend='Bold'>XII. AGERRALDIA</hi></p>
+<p>LENGOAK ETA MARRUEKOTAR MORO-SOLDADU TALDETXOA</p>
+<p>-e-<hi rend='Italic'>(Moroak Falanje izarduna aurrean dutela sar bitez)</hi></p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>(<hi rend='Italic'>zearo izututa</hi>) Ene!! moroak!</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>(<hi rend='Italic'>Asarre</hi>) Au geiegizkoa da! Mahometarrak onera sar arazi! Katoliko errelijioari iruzur egitea! (<hi rend='Italic'>Izardunai sendoki</hi>) Jaunak: Enegatik ez bada, etxe done oni zor zaion lots eta itzalagatik; monja oiek, emakumezko argalak, ez iraintzeatik, arren eta arren moro oiek emendik ateratzea eskatzen dizuet.</p>
+<p>-f-<hi rend='Bold'>REKETE: </hi>Ez onelako aspamenturik atera. Ez ditue monjak ikutuko. Ga&ntilde;era gorriak egon diran lekuan, egon ditezke moroak ere. Oiek errilijioa bait ba-dute ta aiek ez!</p>
+<p>-f-<hi rend='Bold'>FALANJE: </hi>Ta marruekostarrak gure menpeko izanez ga&ntilde;era Espa&ntilde;aren alde odola isurtzen ari da. Geiago oraindik, jatorriz espa&ntilde;arrak dira.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN:</hi> Ez dizut ezetzik esango. Ni ere uste ortakoa natzaizu. Ba&ntilde;an euskal lur ontan, lege zarrak bestela irizten zituen gauz oiek; bestela bereztein gure jatorria, moro ta juduen odoletik. Eta ori alde batera utzita, elizarauz soil-soilez, komentu batean naiz gorri ta naiz beste edozein arrotz mota sartu aurretik, gutxienez Aitzindari Amari baimena eska bear zenioten. Onela itxumustuan moro oiek onera ekeartzea, i&ntilde;olaz ezin eraman diteken irai&ntilde;ik lotsagarriena bait da. Ta ez det moruengatik esaten, ekarri arazi dituenengatik baizik.</p>
+<p>-f-<hi rend='Bold'>FALANJE: </hi>(<hi rend='Italic'>amorruaz</hi>) Emen ezin eraman ditekena zure nabarmenkeria da. Moroak sartuko dira. Ta kabila osoa gogoak ematen ba digu. Euskaldun emakumezkoak ez dute geiago merezi!</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>(<hi rend='Italic'>Irain ori entzunez D. Martini ea naigabea ematen dio. Zerbait esan nai du ta ez du asmatzen</hi>) O!... (Bitartean Falanjek moroai arabitarrez agindu-ots batzuek eman bitzaie).</p>
+<p>-f-<hi rend='Bold'>REKETE:</hi> (<hi rend='Italic'>D. Martini</hi> ) Isilik zaude, obe dezu. Bestela okerrago izango da.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Bai D. Martin, zer egingo zaio? Jainkoak ala nai izan du. Oiek ere gure anaiak dira-ta.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Bai &laquo;<hi rend='Italic'>besteak</hi>&raquo; ere. Indar pean menperatuko naute, ez nere asarre bizia erakutsi gabe ordea.</p>
+<p>-f-<hi rend='Bold'>FALANJE: </hi>(<hi rend='Italic'>Moroekin, oinkada ozenaz klaustrotik barrena doazela</hi>) Bira laister egingo degu. (<hi rend='Italic'>Reketeari, D. Martin begiraturik</hi>) Zure gain uzten det... pizti ori!</p>
+<p>-f-<hi rend='Bold'>REKETE: </hi>Aguro ibilli ba da.</p>
+<p><hi rend='Bold'>XIII. AGERRALDIA</hi></p>
+<p>-e-ZUZENDARI AMA, REKETE, D. MARTIN ETA AITZINDARI AMA <hi rend='Italic'>(AU ELIZATIK DATOR)</hi></p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Erritan ari zi&ntilde;atela irudi zait. (<hi rend='Italic'>Isilunea</hi>) Noiz berriro pakea biurtuko ote da etxe done onetara? (<hi rend='Italic'>Isilunea</hi>) Mikel goi-aingeruak txerrenaren atzaparretatik atera gaitzala.</p>
+<p>-f-<hi rend='Bold'>REKETE: </hi>Ez da ezer izan. Utsa! Sodaduak zarata pixka bat atera dutela.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Istillu ta otsa ba&ntilde;an geiago da gaizpide ta ezezpena. Aitzindari Ama! Moroak, komentu ontako babes donea oinperatzen ari dira.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA:</hi> Moroak? (<hi rend='Italic'>amoremanez</hi>) Gure obenengatik ori ote dagokigu? Jaungoikoa onetsia bedi.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>Gure onerako datoz Ama. Besteak utzi dizkiguten kondarrak jasotzea. Ori esaten ari nintzaion D. Martini.</p>
+<p>-f-<hi rend='Bold'>REKETE: </hi>Bereala irtengo dira ga&ntilde;era: azterketa labur bat.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Ez zutekean sartu izan bear ordea, Aitzindari Amaren baimenik gabe. Zertarako dira elizako legeak bada?</p>
+<p>-f-<hi rend='Bold'>REKETE: </hi>Aitzindari Amari zerbait aitatu diogu.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Nik nola eman orrelako baimenik. Eliz agintariak or daude.</p>
+<p>-f-<hi rend='Bold'>REKETE: </hi>Guda bearrek lagamen oiek zilegi egin oi dituzte.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Ez det izan aolkurik eskatzeko betarik.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Ez oiek ere ez zuten emen moroak sarrarazteko bear larririk. Guzia Iturritzako kapellaua nekarazteagatik. (<hi rend='Italic'>Sutsu</hi>) Apaiz ezik, gizon naizen aldetik, egi osoa jakin zazue ba: anai-arteko guda zital au piztu dutenen aurka nago; kristau zillegigoaren kaltez asaldatu diranen aurka; erri txea zapaldu nai dutenen aundiki ta militar nagusien aurka. Au nunai aitortuko det.</p>
+<p>-f-<hi rend='Bold'>REKETE: </hi>(<hi rend='Italic'>Irri-mirritsu</hi>) Arrokeri oiek guda-epai maiaren aurrean esaten dituzun, laister ikusiko degu. Ja! ja ja!</p>
+<p><hi rend='Bold'>XIV. AGERRALDIA</hi></p>
+<p>LENGOAK, PAXKUAL, ATEZAI, GURUTZE AIZPA; TA BESTE ZENBAIT MONJA NAI IZAN EZKERO</p>
+<p>-e-<hi rend='Italic'>(Toki ezberdi&ntilde;etatik igesi bezela datoz)</hi></p>
+<p>-e-<hi rend='Italic'>(Zalapartan etorri ala)</hi></p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Ene! Komentu ontako atetatik ene denbora guzian ez zan antzekorik ikusi. Jesus! oi itxuskeria! Ta errilijioaren aldekoak zirala guk uste!</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Morua bein ikusi izan det! Ura gezurrezkoa Antzuolako jaietan. Eta orain egitazkoak eta erria bete! Emen, illargi erdiaren gizonak! Jaungoikoa aldatu egin al da edo?</p>
+<p>-f-<hi rend='Bold'>GURUTZE: </hi>Ez, ez, txerrenak bidaltzen dizkigu gu zitzaldian erorazteko. (<hi rend='Italic'>Aitzindari Amari</hi>) Ama emen gelditzen utzi zaidazu! Ez det berriz atera nai!</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>(<hi rend='Italic'>Eztiki</hi>) Ez artegatu alaba, geldituko gera, gure otoitzak egiten.</p>
+<p>-f-<hi rend='Bold'>REKETE: </hi>Ez zaiteztela beldurtu. Ez zaizue ezer gertatuko. Zurietakoak bait gera (<hi rend='Italic'>ateruntz doa bakarrik</hi>).</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Ez luke i&ntilde;ork esango, beltz zamarrak bait dira barnen dabiltzanak. Utziko dute ziki&ntilde;a bazterretan.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>(<hi rend='Italic'>Atezai ta Gurutzerengana urbilduaz</hi>) Zer gertatzen da?</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>Zer? Ba, Gotzonek eskutatu bearrean burua, baratzaldean Izaskunekin izketan dagola, ta biak atxiko dituztela.</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>(<hi rend='Italic'>Aitaren egi&ntilde;ez</hi>) Beste korapillo bat.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARIA: </hi>(<hi rend='Italic'>Bekoki illun</hi>) Ori zentzugabekeria da.</p>
+<p>-f-<hi rend='Bold'>GURUTZE: </hi>Maitasuna indartsuago baita beldurra ba&ntilde;o.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>(<hi rend='Italic'>Ertz batetik</hi>) Ba datoz beltzak!!</p>
+<p>-f-<hi rend='Bold'>AINTZINDARIA: </hi>Geldi ta isilik guziok!</p>
+<p>-f-<hi rend='Bold'>ATEZAINA: </hi>(<hi rend='Italic'>Agertu ala</hi>) Nik niona! Beste biokin datoz.</p>
+<p>-e-<hi rend='Italic'>(Monjak kokilduta baztertu bitez).</hi></p>
+<p><hi rend='Bold'>XV. AGERRALDIA</hi></p>
+<p>-e-LENGOAK, IZASKUN, GOTZON, FALANJE ETA MOROAK</p>
+<p>-e-<hi rend='Italic'>(Izaskun eta Gotzon erdian dituztela ager bitez; Falanje aurretik)</hi></p>
+<p>-f-<hi rend='Bold'>FALANJE: </hi>(<hi rend='Italic'>Arranditsu ta oiuka</hi>) Apaiz orrek zergatik ez zigun aurrera sartzen uzten, orain garbi azaltzen zaigu. (<hi rend='Italic'>Reketeri</hi>) Kapitana begira gure eiza!</p>
+<p>-f-<hi rend='Bold'>REKETE: </hi>(<hi rend='Italic'>D. Martin eri goitik-bera</hi>) Zer diozu orain kapellau jauna?</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Ni leenean nago. Zuen egitekoa zuzentzaren aurkakoa dala.</p>
+<p>-f-<hi rend='Bold'>REKETE: </hi>(<hi rend='Italic'>Asarre</hi>) Zer egiten zuen gazte onek emen?</p>
+<p>-e-<hi rend='Italic'>(D. Martinek Gotzoni begira bekio).</hi></p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Elkarrekin geunden-ta...</p>
+<p>-f-<hi rend='Bold'>AITZINDARI AMA:</hi> Etxekoak ditugu biak. Etxeko arotza bat; eta monja baten aizpa neskatxa. Oso onak!</p>
+<p>-f-<hi rend='Bold'>FALANJE: </hi>Ez zait ajolarik! Agintaritzan garbian jarriko dute (<hi rend='Italic'>zirikalari</hi>) apaizaren aurrean aitortu nai ez badute ere. Ez ziran errezatzen ariko... Guri jarraitzeko gertu zaitezte. Irurok eta zuk lendabizi (<hi rend='Italic'>apaizari</hi>) epai maikoen aurrean erantzun bear dezute.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Gu atxitzeko eskubidea ez dizut ukatuko ba&ntilde;an bai gazte oien izen ona iraintzekoa. Barruntza garbi daukagu eta ez degu beldurrik i&ntilde;oren aurrean agetzeko. (<hi rend='Italic'>irmo</hi>) Goazen!</p>
+<p>-f-<hi rend='Bold'>AITZINDARI AMA:</hi> (<hi rend='Italic'>Belaunikaturik</hi>) Ez! arren eta arren Jaungoikoagatik, auzpez jarrita bear bada, pakean azke laga itzazuela eskatzen dizuet. Irurok errugabe bait dira. Neroni noake Gudari agintaria aurrean erantzutea. Ene itza aski ez bazaizue, errian galdegin zazute.</p>
+<p>-f-<hi rend='Bold'>FALANJE: </hi>Alper-alperrik ari zera. Altxa zaite.</p>
+<p>-f-<hi rend='Bold'>AITZINDARI AMA: </hi>Gazte zindo batzuek gure etxean barruan atxituta ateratzea gaizki dago. Ba&ntilde;an apaiz onbidetsu bat, onela gaizkilletzat eramatea latzgarria da.</p>
+<p>-f-<hi rend='Bold'>FALANJE: </hi>Berak ba-daki zergatik. Apaiz izan edo ez! or konpon!</p>
+<p>-f-<hi rend='Bold'>REKETE: </hi>Ez ditugu lotuta eramango.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARI AMA: </hi>(<hi rend='Italic'>Aitzindari Amari</hi>) Orduan ez dira ain nabarmen joango Ama. Obe dute lenbaitlen igitzea, onela agurogo garbituko bait dute auzia, ta soldauak pakean utziko gaituzte.</p>
+<p>-f-<hi rend='Bold'>AITZINDARI AMA:</hi> Pake txarra eta urria lagun urkoa zapalduta lortzen dana.</p>
+<p>-f-<hi rend='Bold'>FALANJE: </hi>(<hi rend='Italic'>Aginduaz</hi>) Txau-txau-txau! Irurok gure aurretik bijoaz, lotu gabe, ba&ntilde;an jakin zazue, i&ntilde;or iges egiten asten bada su egiteko agindua eman dedala.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Goazen! Ez deiogun oien erronkai aitzekirik eman. (<hi rend='Italic'>Irurok, moroak ondoren dituztela abitzen dira, Agur esanez) (Apaizak suspertzen ditu guziak diolarik</hi>) Gora biotzak! (<hi rend='Italic'>Izaskun eta Gotzoni</hi>) Ez degu lotsa bear gaizkille bezela joatez Jesukristo gure Jauna okerrago erabilli zuten. Goikoaren borondatea bedi. Iltzeko gertu dagona aunditasun goitarrenera igotzen bait da.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>(<hi rend='Italic'>Gurutzeri</hi>) Gurutze etxean, esan nola naramaten. Enegatik ez zait batere ajolik ba&ntilde;an etxekoengatik...</p>
+<p>-f-<hi rend='Bold'>GURUTZE AIZPA:</hi> (<hi rend='Italic'>Negarrez aizpa besarkatuaz</hi>) Amak artuko duan mi&ntilde;a alaba bat onela ikusirik.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Ez doa bakarrik. Esaiozu emen duala seme bat soraziko duana.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Lasa zazu biotz ori Gurutze. Geldi zaite bare komentuan. Laister dezu anai bat geiago.</p>
+<p>-f-<hi rend='Bold'>FALANJE: </hi>(<hi rend='Italic'>Zakarki</hi>) Malkoz eta antziz aski degu (<hi rend='Italic'>Moroai, arabitarrez aginduaz</hi>) Kristauak nola dantza Aprikan ikasi nuen, Eup! (<hi rend='Italic'>Abitzen dira: Falanje aurretik, atxituak, moroak eta ondoren Rekete. Atezai eta Sakristauk dauden tokitati aserre ximikoak egin bitzate; monja geienak negar dagite</hi>).</p>
+<p>-f-<hi rend='Bold'>REKETE: </hi>(<hi rend='Italic'>Atetik</hi>) Zuen otoitzak egiten geldi zaitezteke, ez zaizue deus gertatuko.-Emen gaude gu errelejioa zaitzeko. (<hi rend='Italic'>Bijoa militar tankeraz agurturik</hi>).</p>
+<p>-f-<hi rend='Bold'>ZUZENDARI AMA:</hi> (<hi rend='Italic'>Atera&ntilde;o lagunduaz</hi>) Eskerrikasko!</p>
+<p>-f-<hi rend='Bold'>AITZINDARI AMA:</hi> Zaindu? Gu zaindu gaituenak giltzapera daramazkigute-ta Jaso itzagun begiak zerura...</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Oiek zerutik bonba kixkalgarriak jaurtizen ba dakite gero. Baezpa ere...</p>
+<p>-f-<hi rend='Bold'>AITZINDARI AMA:</hi> Alare gure biziak pakearen alde eske&ntilde;i ditzagun. (<hi rend='Italic'>Otoitz egi&ntilde;az</hi>) <foreign>&laquo;Da pacen Domine, sustinentibus te ut prophetae tui fideles inveniantur&raquo;...</foreign></p>
+<p>OIALA GELDIRO</p>
+        </body>
+      </text>
+      <text>
+        <front>
+          <head rend='Bold'>--><p>IV. EKITALDIA</p><--</head>
+        </front>
+        <body>
+<p><hi rend='Bold'>LENENGO LAUKIA</hi></p>
+<p><hi rend='Bold'>I. AGERRALDIA</hi></p>
+<p>-e-<hi rend='Italic'>(Presondegiko gela zikin eta illun bat. Aurrez aurre, ate bat zerrallu aundiz itxitzen dana. Alde bateko orman, oso goi, leiotxoa. Oazur guzitzat alki zar bat).</hi></p>
+<p>D. MARTIN, GOTZON ETA IZASKUN</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Gure buruak era errukarri ontan ikustea ere! Nork esan! Ba&ntilde;an (<hi rend='Italic'>lagunai</hi>) Es estutu. Oso lasa egon gi&ntilde;ezke, kontzientzi barruntea garbi bait daukagu ta beste ga&ntilde;erantzekoa, ez da ezer!</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Garbi?... Kontzientzia bearko bai, bestela ondo zikinkeriz inguraturik gaude. Toki txukunera ekarri gaitue. Ni emen egotea, gaitz-erdi! Ba&ntilde;an emakumezkoa eta apaiz jaun bat kuxidade ontan. Lotsagarria da! Ta guzia errelijioaren izenean. Etsai aundi ta amorratuenak berak dira.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Neregatik ez dit ajolik. Aterako naute. Zuek ordea... Bartko tiro ots eta garraxiak entzun al dituzute? Oso bertan ziran. Eraildako gaxoak zeintzuek ote? Iltzalle andurrak! Zure txanda noiz izango beldur naiz Gotzon. Oi! (<hi rend='Italic'>Begiak eskuaz estalirik</hi>).</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>(<hi rend='Italic'>Bare</hi>) Zer egingo degu bada.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>(<hi rend='Italic'>Sutsu</hi>) Ori ez! Ez! Lenago ilko naute-ni, bai, ni-zuri ezer egin aurretik. Atzo epai maiekoai esan nien bezela: errudunik baldin bada neroni naiz. Zuk ez dezu egin nere agindua betetzea besterik komentua zaintzen geldituaz. Beraz emendik laister atera bear zaitue.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Atera ala ez atera ez det ezer ukatuko. Alegia, abertzalea naizela ta Jaunkoikoaren urrengo Euzkadi maite dedala, nere Aberria dalako.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Eta nerea.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Ez da maite dan guzia aitor bearrik.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Berak gorrotoa nortzuei dioten ederki erakusten dute beintzat.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Ezin ikusia! Zertarako etorri bear zuten, bestela gu zapaltzera.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Ez dute ori egingo zuzentasunaren aurkakoa bait da.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Ez e? Ez ditu nik bezin ondo ezagutzen.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Egia ta arrazoia ditugu gure alde ta i&ntilde;oren aurrean burua gora jasota azaldu gaitezke.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Ori bai; ortan det nik arrokeria, zer ba? Espetxean sartu gaituelako, kokilduta. Ez be&ntilde;ere ez! Ez da onela Izaskun?</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Ikusiko dezu ikusi zer balio duten zure itzak oien astakerien eta gri&ntilde;a gaiztoen aurka. Egia aitortzeko, ate ori noiz irikiko beldurrez dar-dar nago.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Ni berriz gutiziatzen. Zerbait jakingo al degu, ta gosari ematen ote digute. Gose naiz.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Lenengo meza ematen utziko didatela uste det.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Emen nazu laguntzeko.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Eta ni entzunle.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Ateratzen uzte ba zaitue bai. Gu deitzera ez datoz oso goiz. Ez bait gera bakarrak izango ta gutaz aztuko ziran.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Zeintzuek geiago dauden baituta jakiteko gogotan nago. Bart arratsean abots batzuek entzun nitun ba&ntilde;an ez ezagunak.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Emakumezkoetatik bakarra izango naiz.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Onela omen aundiagoa zuretzat.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>(<hi rend='Italic'>Adi-adi</hi>) Orain ere oin-otsak entzuten dira berta zamar. Onuntz ote datozen ga&ntilde;era...</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Bai! gure atezaiak ez ba dira... kanzerberoak! (<hi rend='Italic'>giltza so&ntilde;ua entzun bedi</hi>).</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>(<hi rend='Italic'>Iziturik</hi>) Atea irikitzera datoz! (<hi rend='Italic'>oarkabean tokiz aldatu ta beste egokiera bat ar beza</hi>).</p>
+<p><hi rend='Bold'>II. AGERRALDIA</hi></p>
+<p>LENGOAK ETA REKETE TA PALANKA IZARDUNAK</p>
+<p>-e-<hi rend='Italic'>(Giltz eta zerrallu so&ntilde;u ondoren atea azkarki zabaltzen da espetxe gelara bi izardunak Rekete ta Palanka arroputz eta erraibeltz diosalik gabe sartzen diralarik).</hi></p>
+<p>-f-<hi rend='Bold'>PALANKA: </hi>(<hi rend='Italic'>Irri gaiztoa</hi>) Onuzkero esnatuko zi&ntilde;aten ez da ala?... Gu esnago ordea! Ez uste guri ziririk sartzerik. Beriala epai maikoen aurrean agertu bear dezute, atzoko zuen esanaldiak berritzera...</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Nik lenago agintari jaunai apal eskatu nai diot meza donea ematera joaten utzi nazatela.</p>
+<p>-f-<hi rend='Bold'>PALANKA: </hi>Meza! ja ja ja!! azti-meza! Ez gaituzu ipui oiekin atzipetzen. Zuri egingo dizuguna sotana kentzea da, gure agintarien aurrean agertzeko.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Ezerez eta obenlari natzaizu. Jaungoikoak daki ondo ba&ntilde;an ez naiz i&ntilde;on lotsatu apaiz jantzian agertzez.</p>
+<p>-f-<hi rend='Bold'>PALANKA: </hi>Oraingoan gonak kenduko dizkitzue, barru ortan zer dezun ikusteko. (<hi rend='Italic'>Sotana astin bezaio</hi>).</p>
+<p>-f-<hi rend='Bold'>REKETE: </hi>(<hi rend='Italic'>Palanka ta apaiz artean sarturik</hi>) (<hi rend='Italic'>Palankari</hi>) Zaude geldirik!</p>
+<p>-f-<hi rend='Bold'>PALANKA: </hi>Bai alperrik da onekin itzegitea. Apaizai ba&ntilde;o obe det emakumezkoai jaramon egitea (<hi rend='Italic'>Izaskunengana joanez</hi>) Neskatxa polita ez ba da ba. (<hi rend='Italic'>Izaskunengana urbiltzen dalarik Gotzon ez dabil urruti ta begiz jotzen du</hi>).</p>
+<p>-f-<hi rend='Bold'>REKETE: </hi>(<hi rend='Italic'>D. Martinekin buruz-buru</hi>) Mingarri zait apaiz bat emen ikustea. Ez zan ori gertatuko, ordea, zu errelijioa zaintzera datozenen alde jarri bazi&ntilde;an, eta ez gorriekin naasita ibili, bizkaitar lotsagalduok bezela.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Atzo aitortu nuen gauza bera esango dizut: ez det egin bearrean zegonari laguntzea besterik. Errelijioaren aginduok urratu dituzutenak zuek izan zerate! guda piztuaz, legearen aurka asaldatuaz, jende txea erailtzen asiaz...</p>
+<p>-f-<hi rend='Bold'>REKETE: </hi>Jende galdua! Ez al dakizu komunismoa zetorrela? Guk aurrea artu diogu. Obispoaren baimena ba genduen ortarako.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Ez dakit zer zetorren. Ez det i&ntilde;on ikusi Obispo jaunaren baimenik! ba&ntilde;an komunismoa bera ere zuek sortu dezuen lurrikara ba&ntilde;o okerragoa ez dalakoan nago.</p>
+<p>-f-<hi rend='Bold'>REKETE: </hi>Zurekin ez dago mintzatzerik. Itz oiek epai-maiaren aurrean esaten ba dituzu erailla izatera zigortuko zaitue.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Berdin zait! Egi osoa, egia guzian, egia besterik ez da aterako nere aotik.</p>
+<p>-f-<hi rend='Bold'>REKETE: </hi>Or konpon, ez gero guri errurik leporatu. (<hi rend='Italic'>Palanke deituaz</hi>) Opizial jauna! Goazen! ezin itxoin araziko diegu epai maikoai. Lenengo gizonezkoak agertu bear dute.</p>
+<p>-f-<hi rend='Bold'>PALANKA: </hi>(<hi rend='Italic'>Erantzunez</hi>) Bai bai (<hi rend='Italic'>Izaskuni</hi>) Entzun dezu. Emen gelditzen zera.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>(<hi rend='Italic'>D. Martin eta Gotzonengatik</hi>) Eta oiek ez?</p>
+<p>-f-<hi rend='Bold'>PALANKA: </hi>Ez oiek gosaltzera daramazkigu. Euskaldunak oso goseti ta tripazaiak bait dira. (<hi rend='Italic'>Gotzoni, zorrotz begiratzen diola ikusirik</hi>) Zer esan nai didatu begiratu oietaz? A! A!</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>(<hi rend='Italic'>Asarrea eutsiaz</hi>) Ezerrez! Jaunartzeko bait nago D. Martinek Meza eman dezanean. Bestela...</p>
+<p>-f-<hi rend='Bold'>PALANKA: </hi>Emango dizue bioi berunezko opiltxoak!</p>
+<p>-f-<hi rend='Bold'>REKETE: </hi>Berriketak utzirik atozte nerekin Auzitegiko gela nagusira.</p>
+<p>-f-<hi rend='Bold'>PALANKA: </hi>Zoaz aurretik. Ni pixka batean neskatx onekin geldituko naiz bakarrik egon ez dedin. Bestela ikaratu egingo bait da.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Ez jauna ez. Zuk ikaratzen nazu izanean. Naiago det bakarrik egon eta ez gaizki lagunduta.</p>
+<p>-f-<hi rend='Bold'>PALANKA: </hi>Ez emakume, ondo zainduko zaitut.</p>
+<p>-f-<hi rend='Bold'>REKETE: </hi>Zuek biok (<hi rend='Italic'>D. Martin eta Gotzoni</hi>) atozte nerekin.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Meza ematen utziko al didate?</p>
+<p>-f-<hi rend='Bold'>REKETE: </hi>Ori ez da gure egitekoa. Epai maikoak erabakiko dute. (<hi rend='Italic'>Bijoazela</hi>).</p>
+<p>-f-<hi rend='Bold'>PALANKA: </hi>Guk pistola bana degu zuek zuzen ibil arazteko. (<hi rend='Italic'>D. Martin, Gotzon eta Rekete ateratzekoan atea itxiaz Izaskun dagon aldera biurtzen da).</hi></p>
+<p><hi rend='Bold'>III. AGERRALDIA</hi></p>
+<p>IZASKUN ETA PALANKA</p>
+<p>-f-<hi rend='Bold'>PALANKA: </hi>(<hi rend='Italic'>Izaskun negarrez ari dala oarturik eztiki ta losintxaz mintzaturik</hi>) Ez negarrik egin gazte. Ez zaizu ezer gertatuko. Gosaria ekarri araziko dizut.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>(<hi rend='Italic'>Zakar</hi>) Ez det ezer nai! Utzi nazazu pakean! Zoaz emendik!</p>
+<p>-f-<hi rend='Bold'>PALANKA: </hi>Ez beldurtu, ez dizut kalterik egingo. Ain bakarrik ikusita laguntza eskeni nai nizuke; orra guzia.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Ez det zure laguntasun bearrik.</p>
+<p>-f-<hi rend='Bold'>PALANKA: </hi>Geiago zuk uste dezuna ba&ntilde;o.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Orduan zuregatik gaude emen. A zer nolako laguntzallea.</p>
+<p>-f-<hi rend='Bold'>PALANKA: </hi>Neregatik ez, ba&ntilde;an nortzuek salatu zaituen ba dakit eta azke uztea nere gain dago.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Orrela baldin bada, orain eraman dituzuen bi gizon on oiek beriala azke jarri bear dituzu. Bata, besterik ez ba da, apaiz jauna dalako; eta zein ba&ntilde;o zein errugabeak biak.</p>
+<p>-f-<hi rend='Bold'>PALANKA: </hi>Gauza ezi&ntilde;a, eskatzen didazuna. Guda auzitegiaren eskuetan bait daude, ta <foreign>Consejo de Guerra</foreign>k erabakitakoa egingo da: orman aurrean ankaz gora zerraldo erortzea...</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>(I<hi rend='Italic'>karaz eta asarre</hi>) Ez da egia izango. Gaizkille alenak! Madarikatuak ori dagitenak.</p>
+<p>-f-<hi rend='Bold'>PALANKA: </hi>Legea! Gizon oietzaz ardura aundia artzen dezula dirudi. Senideak al dituzu ala?...</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Senideak ba&ntilde;an geiago: Jelkideak!</p>
+<p>-f-<hi rend='Bold'>PALANKA: </hi>Oietzaz ez da ezer egiterik... Bai, lurperatzea edo. Orain zu ez ba zera arroegi jarduten biar goizerako emendik ateratzeko era egingo dizut.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Aiek ez ba-dira, ateratzen, nik ere emen gelditu nai det.</p>
+<p>-f-<hi rend='Bold'>PALANKA: </hi>Aiek atera?... Baliteke ateratzea &laquo;paseotxo&raquo; bat ematera...</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Itz oiek ni ikaratzeko esaten ba dizkidazu alperrik ari zera.</p>
+<p>-f-<hi rend='Bold'>PALANKA: </hi>Ez! zure onerako esaten dizkitzut. Nere itzari jaramon egiozu; izan zaite sentzuduna. Lenengoz, ikusi zindunetik barrura sarturik zauzkat. Biok adiskide on izan gaitezke.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>(<hi rend='Italic'>Arro</hi>) Adiskide?... Nere adiskideak emen zeudenak ziran. Zu, beti etsai, ta etsai amorratutzat joko zaitut. Bai, naska ematen didazu. Gero ta geiago. Utikan! (<hi rend='Italic'>arpegia itzuliaz</hi>).</p>
+<p>-f-<hi rend='Bold'>PALANKA: </hi>(<hi rend='Italic'>Barruko asarre biziari ezin eutsirik, alare ordea gaitz irritsu agertuaz</hi>) Ederki! Ederki! Ondo da jakitea. Beraz aiek dituzu adiskide ta ni etsai? Ja! ja! Ja! Aiek a&ntilde;a eskubide det ba-da zure gain. (<hi rend='Italic'>Makur bidez</hi>) Aiekin gau batean egon ba zera, nerekin egingo dezu bestea. Elkarrekin lo egingo degu.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Lotsa galdu! naskagarri ziki&ntilde;a!</p>
+<p>-f-<hi rend='Bold'>PALANKA: </hi>(<hi rend='Italic'>Neskatxaruntz urbilduaz eta ikutu nairik</hi>) Guri-guria zaude. A zer nolako kolko bigu&ntilde;a izan bear dezuna.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>(<hi rend='Italic'>Igesi egi&ntilde;ez</hi>) Ikutzen ba nazu karraxi egingo det.</p>
+<p>-f-<hi rend='Bold'>PALANKA: </hi>Gauean ikusiko degu karraxi egiten dezun ala ez. Ez, ama! deitu. Tiroak entzundakoan isilduko zera.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Ustel nardagarria! ez bestena! Emakumezko argal batekin errezki ausartzen zera.</p>
+<p>-f-<hi rend='Bold'>PALANKA: </hi>Zertara ausartzen naizen gero erakutsiko dizut; naiz zuk ez dezun ikasi bearrik. Ondo dakizun gauza bait da. Gizon guziak berdintsuak gera.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>(<hi rend='Italic'>Sutsu</hi>) Zu ez zera gizona; abere likits kirats bat baizik! Zoaz emendik!</p>
+<p>-f-<hi rend='Bold'>PALANKA: </hi>Onenean akerra adar eta guzi: ta zu antxumea. Ez bebeka asi, bakarrik utziko zaitut.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Naiago det milla aldiz.</p>
+<p>-f-<hi rend='Bold'>PALANKA: </hi>(<hi rend='Italic'>Kanpotik datozen o&ntilde;otsak entzunik</hi>). Naita ere, ez zera bakarrik egongo bada. Onuntz datozela dirudi. Lagun berrien batzuek.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Jaungoikoari eskerrak! (<hi rend='Italic'>Giltz eta zerrallu so&ntilde;uak nabaitzen dira; ondoren atea irikitzen dute, D. Martin, Gotzon eta Rekete izarduna berriz sartuaz</hi>).</p>
+<p><hi rend='Bold'>IV. AGERRALDIA</hi></p>
+<p>LENGOAK, D. MARTIN, GOTZON ETA REKETE</p>
+<p>-f-<hi rend='Bold'>REKETE: </hi>(<hi rend='Italic'>Aurrean sartuaz</hi>) Emen gera berriz.</p>
+<p>-f-<hi rend='Bold'>PALANKA: </hi>Nola ain aguro?</p>
+<p>-f-<hi rend='Bold'>REKETE: </hi>Agintarik ez dute astirik galdu nai. Oiek bere siman bait daude; auzitegiaren egitekoa laister amaitu da: eraillak izatera, zigortu ditu.</p>
+<p>-f-<hi rend='Bold'>PALANKA: </hi>Militar lege arabera jaki&ntilde;a zan pusilatuko zituztela. Auzitegira ekarri gabe, ga&ntilde;era lenago garbitu bear zituzten. (<hi rend='Italic'>Izaskun negarrez asten da: asperenka</hi>).</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>(<hi rend='Italic'>Izaskuni</hi>) Ez orrela jarri! Lasa zaite!</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>(<hi rend='Italic'>Palankari</hi>) Eskerrikasko jauna. Zure burua kristautzat iritziko dezu. Piztiak ez dute errai beltzagorik.</p>
+<p>-f-<hi rend='Bold'>PALANKA: </hi>Zer Kristau ta zer sakristau ondo! Espa&ntilde;aren etsaiak ez dute errukirik merezi.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Etsaiak zuek zerate. Guk euskaldunak izanagatik Espa&ntilde;ako legezko agintaria eta zuek berriz ez!</p>
+<p>-f-<hi rend='Bold'>PALANKA: </hi>(<hi rend='Italic'>Gotzon jo nairik eta oiuka</hi>) Oni, nork eman dio izardun bati itz egiteko eskubidea.</p>
+<p>-f-<hi rend='Bold'>REKETE: </hi>(<hi rend='Italic'>Palankari baretuaz</hi>) Isildu zaite ta ez emen istilurik sortu.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Ori nai degu. Pakean utzi gaitzatela. Lenago ere, zuek sortutako matxinadan ez degu egin lagun urkoa lagundu ta gere buruak zaintzea besterik.</p>
+<p>-f-<hi rend='Bold'>REKETE: </hi>Ez naiz ortan sartzen. Epaituak izan zerate ta erabakia emana dago. Mingarri zait egia da, ba&ntilde;an biar goiz arte epea dago ta bitartean barkapena iritxi dezakezue.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Ez goaz i&ntilde;ora barkapenik eskatzera ori errudunak gerala aitortzea litzake.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Goiko Jaunak epaituko gaitu guziok eta Aren borondatea egin bedi. (<hi rend='Italic'>Izaskunek negarrez darrai</hi>).</p>
+<p>-f-<hi rend='Bold'>PALANKA: </hi>(<hi rend='Italic'>Izaskuni</hi>) Madalen! bear zenuke izena, ai Madalen Madalen! Madalen Malko!</p>
+<p>-f-<hi rend='Bold'>REKETE: </hi>(<hi rend='Italic'>Asarrekoi</hi>) Utzi ditzagun pakean! (<hi rend='Italic'>Palankari besotik eutsirik</hi>) Goazen!</p>
+<p>-f-<hi rend='Bold'>PALANKA: </hi>Oiekin gelditu bear al du emen?</p>
+<p>-f-<hi rend='Bold'>REKETE: </hi>Ez degu beste agindurik artu, beraz ez da gure egitekoa (<hi rend='Italic'>Palankari ateruntz bultzarik</hi>) Galdetuko degu. (<hi rend='Italic'>Espetxeratuai</hi>) Egun eta gau guzia dezute gertutzeko. Orain zerbait jaten ekartzeko agintzera noa; eta beste zernai eskatzeko eskubidea dezute.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Nik meza ematen uztea nai nuke ba...</p>
+<p>-f-<hi rend='Bold'>REKETE: </hi>(<hi rend='Italic'>Atea itxiaz</hi>) Ori gaitz ikusten det... (<hi rend='Italic'>bijoaz militar biak</hi>)<hi rend='Italic'>.</hi></p>
+<p><hi rend='Bold'>V. AGERRALDIA</hi></p>
+<p>D. MARTIN, GOTZON ETA IZASKUN</p>
+<p>-e-<hi rend='Italic'>(Iru espetxetutakoak oso eroriak gelditzen dira. Bat batean D. Martin belaunika bedi; gero eskubiz Gotzon Besarkatzen du ta biok jekirik Izaskunengana doaz pozkariatu naiaz).</hi></p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Gora biotzak! Ordu larri auetan Kristau gerala erakutsi bear degu; ta ez diogula beldurrik eriotzari. Ixo ba Izaskun!</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>(<hi rend='Italic'>Malkoak legortuaz</hi>) Ez det orrengatik negar egiten. Eriotza askotan obea bait da zenbait eskuetan bizitea ba&ntilde;o...</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Ez det uste erilko gaituenik. Itxura guziak gu beldurtzeagatik egin dituzte. Ori al da justizi zuzena?...</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Ez ba! juztizi okerra dalako, zuzengabekeria! ez degu uste geiegi izan bear.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Zer dakite ortan militar oiek? Iru galdera eginda epaitu gaitue. Gizonak geiago gabe urkamendira bidali nai? Otso alenak.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Pizti txarren eskuetan gaudelako eriotzari aurrez-aurre begira bear diogu, borrero ta iltzalleai barkaturik.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Emendik ateratzen ba zaitue, ni ere eraman nazatela (<hi rend='Italic'>berriz ere negar lerturik).</hi> Ez det bakarrik gelditu nai!</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Gurekin ezin ibilliko zera beti. Zu azke jarriko bait zaitue: ta gu...</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>(<hi rend='Italic'>gogor</hi>) Zuekin batera erail nazatela!</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Ez da oraindik zure ordua.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Bai! Palanka likits ori nere ondoren dabil ni galdu naian. Eta gaur gauean zuek emendik baldin bazoazte, indarrez berea izatea beartuko nau (<hi rend='Italic'>asperenka</hi>).</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>(<hi rend='Italic'>amorruaz</hi>) Ta oiei barkatu? Be&ntilde;ere ez! Oraintxe bazterren batean atzemango banu itoko nuke!</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Jesukristoren legeak ez du ori agintzen. Ga&ntilde;era, orrekin ez zenduke ezer aurreratuko. Beste bide batez Izaskun obeto zaindu genezake.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>(<hi rend='Italic'>Eskale</hi>) Bai, emen geldituta. Arren, ez nazazutela utzi bakarrik. Zuek zoazten lekura joan nai det, naiz eta pusilatzera eramaten ba naute ere.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN:</hi> Emakume sendoa zera, adoretsua.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Onelako andregai kementsua aukeratu nuen D. Martin. (<hi rend='Italic'>Izaskun eta Gotzon naigabepean laztanki elkarri begiratuaz</hi>)</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>(<hi rend='Italic'>Bat batean, goi argiz jota bezela</hi>) Ba Gotzon, andregai ori emazte egi&ntilde;a bazenuke obe.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>(<hi rend='Italic'>irripar itu&ntilde;ez</hi>) Laister gi&ntilde;an ezkontzekoak, ez da ala Izaskun?</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>(<hi rend='Italic'>Itunki</hi>) Bai ba&ntilde;an orain ez gaude asmo ortan pentzatzeko. (<hi rend='Italic'>negarti</hi>)</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Orain be&ntilde;ere ba&ntilde;o geiago bear dezute laguntza ori. Sakramentuetako goi-eskerra lorraldian da bearrezkoena.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Ezkontza!... Kartzelan gaudela?</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Bai, bai.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Ez dezu aldarte onik galdu. Txantxetan ariko zera...</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Gauza ezi&ntilde;a. Nola nai dezu ordea. Laister utziko nuke alargun.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>(<hi rend='Italic'>ben-ben</hi>) Ala balitz ere! Orrek eriotz ordurako emango lizuke indar berri bat ; ta Izaskuni ere zu gabe bizi izateko bear duan eskerra: Sakramentuaren ondasuna!</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>(<hi rend='Italic'>Oniritzirik</hi>) Onela baldin bada nik baiezkoa ematen dizut.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Nik ez det ezezkorik esango. Nola ditezke, ordea, paperik eta agirik gabe.</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Zuek aski zerate. Ez da agiri geiago bear, ni lekuko naizela. Onelakoetan, <foreign>&laquo;articulo mortis&raquo; </foreign>deritzenetan Elizama onak bideak errezten daki.</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>(<hi rend='Italic'>apal</hi>) Gertu naukazue.</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Zuri ondo ba derizkiotzu neregatik ez dago eragozpenik. Bizirik ateratzen ba naiz gerorako lan bat gutxiago. Jaungoikoak bestela nai badu...</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>(<hi rend='Italic'>Sutsu</hi>) Zuregatik otoitz egingo duan alargun bat utziko dezu. Ta... (<hi rend='Italic'>zarradak jarraitzen usten ez diola</hi>).</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Agian, uste ba&ntilde;o asti geiago izaten alda ta Jaungoikoak eman dezazuke aingeru bat, izen berekoa; aitak maite izan dituan gauzak maiteko dituana! zartzaroan babes izango dezun seme kutuna... (<hi rend='Italic'>Itz oiek D. Martin esaten ari dala Gotzon eta Izaskun, ezin bestela, elkar kartsuki besarkatzendira. Ta au ikusita apaiza eztiki aiengana urbilduaz galdegiten die</hi>) Izaskun! Gotzon senartzat artu nai al dezu!</p>
+<p>-f-<hi rend='Bold'>IZASKUN: </hi>Bai aita!</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>Gotzon! Izaskun emaztetzat artu nai al dezu?</p>
+<p>-f-<hi rend='Bold'>GOTZON: </hi>Bai aita!</p>
+<p>-f-<hi rend='Bold'>D. MARTIN: </hi>(Belaunika arazten ditu ta bikotearen buru ga&ntilde;era onespena zabal eta geldia erortzen da) Alabitz! In nomine, Patri, Filio, Spiritu Santo.</p>
+<p>OIALA GELDIRO</p>
+<p><hi rend='Bold'>IV. EKITALDIA</hi></p>
+<p><hi rend='Bold'>BIGARREN LAUKIA</hi></p>
+<p>-e-(<hi rend='Italic'>Lenengo ekitaldiko agerkai bera: komentuko klaustro barrena. Elizan, illeta otoitzak amaitzen ari dira. &laquo;Liberame&raquo; ren azken oiuak datoz).</hi></p>
+<p><hi rend='Bold'>I. AGERRALDIA</hi></p>
+<p>PAXKUAL ETA ATEZAI AIZPA</p>
+<p>-e-<hi rend='Italic'>(Paxkual ildakoen oroimenez kanpai sokari eragin dio: ta joalearen ots itzalak entzun bitez. Atezaia orduntxe elizatik irtenik)</hi></p>
+<p>-f-<hi rend='Bold'>ATEZAI AIZPA:</hi> Ez det i&ntilde;oiz onelako illeta itunik ikusi. I&ntilde;or ez Elizan, etxekoak ezik. Erru izpirik ez zuten D. Martin eta Gotzon gaizoak erail dituzte, ta elizkizunetara erriko jendeari etortzen utzi ez ! Zer ikustekoak ote gera oraindik?</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Edoze&ntilde;ek daki. (<hi rend='Italic'>Berriro sokari eraginez</hi>) Berdin da ba! Nik jotzen jarraituko det, erri guziak jakin dezan pazista urde zikin oiek etxeko bi il dizkigutela. Ta bat Kapellaua. Ori al zan zekarkiten erreligioa! Askoz obe da komunisten fedea.</p>
+<p>-f-<hi rend='Bold'>ATEZAI AIZPA:</hi> Jesus milla bider! Ez zazula orrelakorik esan. Zu ez zera lengoa, oso aldatua ikusten zaitut.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Bai orrela da. Gazteago banintz! Ez ditut alper gaiztoan 40 urte, komentuko sakristautzan igaro! Matxina aste oietan geiago ikusi bait det nere bizi guzian ba&ntilde;o. Karlisten asmoak, guzia gezur eta jauntxokeria! Ez det izenik entzun nai!</p>
+<p>-f-<hi rend='Bold'>ATEZAI AIZPA:</hi> Ni berriz jaioko banintz ere monja izango nintzake bada.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Laister, gorriek irabazten badute ez da monjarik geldituko munduan. Zuriek apaizak erailtzen badituzte ea gorriak zer egingo duten!</p>
+<p>-f-<hi rend='Bold'>ATEZAI AIZPA:</hi> Mundua, mundua dan bitartean guk iraungo omen degu.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>(<hi rend='Italic'>Ezezpenez</hi>) Azitarako! (<hi rend='Italic'>Isilune bat ondoren</hi>) Ezin astu ditut gure D. Martin eta Gotzon. Oso bulartsu illak izan bear dute biak.</p>
+<p>-f-<hi rend='Bold'>ATEZAI AIZPA:</hi> Ezin ulertu det nolatan ez bear oiek katolikoek egin ditzazketen.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Espa&ntilde;an katolikotasunik ba al zan ba! orregatik euskaldunai ziguten ezin ikusia: Ebroz arunzkoak eta emengo karlista jauntxoak.</p>
+<p>-f-<hi rend='Bold'>ATEZAI AIZPA:</hi> Ez da orrelakorik geiago gertatuko. Presondegietatik jendea ateratzen asi omen dira. Ta oien arteab Izaskun. Ikusi nai nuke gaixoa.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Nik D. Martin eta Gotzon ikusi nai nituzke bizirik eta bitartean (<hi rend='Italic'>kanpai soka eragi&ntilde;ez</hi>) nun nai esango det francotarrak gaizkille ankerrak dirala; (<hi rend='Italic'>oiuka</hi>) Madarikatu! endakatua! odolzaleak!!</p>
+<p>-f-<hi rend='Bold'>ATEZAI AIZPA:</hi> Ixo! ixo! Entzuten ba dizue.</p>
+<p><hi rend='Bold'>AZKEN AGERRALDIA</hi></p>
+<p>-e-<hi rend='Italic'>(Antzerki asieraren antzo Monja-taldea elizatik datorela klaustro zear doa, emeki emeki, beste muturrean eskutatu arte).</hi></p>
+<p>-e-LENGOAK, AITZINDARI TA ZUZENDARI AMAK</p>
+<p>-e-<hi rend='Italic'>(Oiek biak, lerroan azken aldera doaz eta besteak aienatutakoan gelditzen dira, Atezai ta Paxkualengana urbilduaz).</hi></p>
+<p>-f-<hi rend='Bold'>AITZINDARI AMA:</hi> (<hi rend='Italic'>Atezaiari galdegi&ntilde;ez</hi>) Jaungoikoak dizuela egun on. Ez al da berri berezirik eldu kale aldetik?</p>
+<p>-f-<hi rend='Bold'>ATEZAI AIZPA:</hi> Deus ez! Aintzindari Ama.</p>
+<p>-f-<hi rend='Bold'>AITZINDARI AMA:</hi> Beldurtzekoa bait da. Beti badegu zerbait eta. Nolako txarkeriak! Jes&uacute;s!</p>
+<p>-f-<hi rend='Bold'>ZUZENDARI AMA:</hi> Amaitu dira Ama. Aurrerantzean ez omen da orrelakorik gertatuko. Francok pakea ta tajua jarriko omen ditu.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>(<hi rend='Italic'>Asarre, kanpaia eragi&ntilde;ez</hi>) Illobiko pakea! urde zarra! Ta D. Martin eta Gotzon?</p>
+<p>-f-<hi rend='Bold'>ATEZAI AIZPA:</hi> Ez eztabaidan asi: Jainkoagatik.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARI AMA:</hi> Aski dezu kanpaia jotzez. Ez al dakizu elizkizuna amaitu dala ta kandelak itzali dituztela?</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Bai! ba&ntilde;an erri guzitik kanpai otsa ondo entzutea nai det, onela norbaitzuen barruan dardarra sartzen al da ta eriotz anker orren odola buru ga&ntilde;era erori beie Abelen itzala Kainen ganera bezela.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARI AMA:</hi> Epai-maiak epaitu zituan eta ez da egin aren erabakia betetzea besterik. Beraz erruren bat izango zuten.</p>
+<p>-f-<hi rend='Bold'>AITZINDARI AMA:</hi> Isil gaitean. Arkutar Jone ere epai-mai baten erabakiz erre zuten eta Elizamak berriz Done mallara igo du. Guzientzat eta batik bat eroritakoentzat bear degu goimatasuna. Gaur Izaskun gaixoa, espetxetik atera duten ezkero, ikustera joango gera.</p>
+<p>-f-<hi rend='Bold'>ZUZENDARI AMA:</hi> Ez al da goizegi? Gero ere astia izango da. Gaixoa obeto geldituko da Komentuan sartzeko munduan bizitzeko ba&ntilde;o.</p>
+<p>-f-<hi rend='Bold'>AITZINDARI AMA:</hi> Ez dakigu Jaunaren naimena zer nolakoa izango da. Ezkutuak bait dira Aren bideak.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>(<hi rend='Italic'>zakar</hi>) Nik badakizkit ba! Izaskun ezkondua dago! Kartzelan bertan! Ageri batean ori utzi omen dute idatzita il aurretik D. Martin eta Gotzonek!</p>
+<p>-f-<hi rend='Bold'>ZUZENDARI AMA:</hi> Nola leike ordea? Ori izugarrikeria!</p>
+<p>-f-<hi rend='Bold'>AITZINDARI AMA:</hi> Jainkoaren onespena, zergatik ez!</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Aien izena oroitu ta garbi arazten nork lagundu izango du agian. (<hi rend='Italic'>sutsu</hi>) komentu ontan ba&ntilde;o geiago. Aiek il da gero ez det emen bizi nai. Itotzen naiz. Banoa!</p>
+<p>-f-<hi rend='Bold'>AITZINDARI AMA:</hi> (<hi rend='Italic'>leunki, eskale</hi>) Ez olakorik egin Paxkual zure laguntza bearrezkoena zaigunean. Itun, naigabez beterik gaude, ez zazula geitu gure atsekabea. Geldi zaite. (<hi rend='Italic'>besotik elduaz</hi>) Jesukristo gure Jaunak, egun obeak emango al dizkigu.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>(<hi rend='Italic'>zalantzan</hi>) Ezin! Igesi noa! Urruti!...</p>
+<p>-f-<hi rend='Bold'>ZUZENDARI AMA:</hi> Ezkiogako Amabirgin ikusleak esaten zuen ibaika ixuriko zala. Geienak ez zuten sinistu nai izan eta &mdash;zeruko zigorra&mdash; orain egia gertatu.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>San Migel, onak zaintzera etorriko zala ere esaten zuen. Bada, ez naiz itzuliko erri ontara Goi-Aingeruak ezpataz, azaluts, pariseo ta itxurati guziak garbitu artio.</p>
+<p>-f-<hi rend='Bold'>AITZINDARI AMA:</hi> Igarkizun oiek zur eta arretaz artu bear dira. Zoritxarrez sarritan txerrena... (<hi rend='Italic'>monjak Aitaren egin bezate itz ori entzundakoan</hi>) nagusi bait dabil.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Nik ez ditut ba nagusitzat aitortuko ez Franco ta ez Malko, gure lege zarra baizik!</p>
+<p>-f-<hi rend='Bold'>ZUZENDARI AMA:</hi> Gotzai jaunak itzegin dute ta kristau katoliko guziak militarren alde jartzeko agintzen dute.</p>
+<p>-f-<hi rend='Bold'>PAXKUAL: </hi>Gutxi dakit, ba&ntilde;an ez det uste ori amar agindu artean dagonik. Nork agintzen du ezpata ala artzai-makillak?</p>
+<p>-f-<hi rend='Bold'>AITZINDARI AMA:</hi> Lurrikarak! Ondoren gelditzen dan naasi aldian zutik irauteko indarra gutxik bait dute. (<hi rend='Italic'>Goruntz begiak jasorik</hi>) Illunpean artaldea galdu ta sakabana ez dedin, Jaun altsuari eska ezaiogun Artzai onak eman ditzaigula!</p>
+<p>ZAPIA GELDIRO</p>
+<p>AMAYA</p>
+        </body>
+      </text>
+    </group>
+  </text>
+</TEI.2>
+

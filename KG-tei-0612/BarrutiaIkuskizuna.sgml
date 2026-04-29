@@ -1,0 +1,768 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN"
+                       "http://www.tei-c.org/P4X/DTD/tei2.dtd" [
+   <!ENTITY % TEI.prose    'INCLUDE' >
+   <!ENTITY % TEI.linking  'INCLUDE' >
+   <!ENTITY % TEI.analysis 'INCLUDE' >
+   <!ENTITY % TEI.figures  'INCLUDE' >
+   <!ENTITY % TEI.XML      'INCLUDE' >
+   <!ENTITY % TEI.extensions.ent SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.ent' >
+   <!ENTITY % TEI.extensions.dtd SYSTEM 'http://www.tei-c.org/Lite/DTD/teilitex.dtd' >
+]>
+<TEI.2>
+  <teiHeader>
+  <fileDesc>
+     <titleStmt>
+        <title>Gabonetarako ikuskizuna</title>
+        <author>Pedro Ignazio Barrutia</author>
+        <respStmt>Bertsio informatiko honen egilea: Mikel Martinez.</respStmt>
+     </titleStmt>
+     <extent>2.857 hitz, 18.854 karaktere</extent>
+     <publicationStmt>
+        <publisher>Klasikoen Gordailua [http://klasikoak.armiarma.com/]</publisher>
+        <distributor>Estrata Liburuak S.L.</distributor>
+        <address type='email'>klasikoak@armiarma.com</address>
+        <idno type='ota'>BarrutiaIkuskizuna</idno>
+        <availability status='free'>Erabilpen librekoa; honoko helbidean topa daiteke (HTML, RTF eta PDF formatuetan): http://klasikoak.armiarma.com/idazlanak/B/BarrutiaIkuskizuna.htm</availability>
+        <date>2006</date>
+     </publicationStmt>
+     <sourceDesc>
+        <bibl>Iturria: Teatro zaarra. Gabonetako ikuskizuna. gabon-sariak. El borracho burlado, Pedro Barrutia, Sor Luisa, Xabier Munibe (Gabriel Arestiren edizioa). Auspoa, 1965</bibl>
+        <notesStmt><note>Iturburuen datazioa: XVIII. mendea, 1897</note></notesStmt>
+     </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+     <projectDesc>Euskal literaturako testu klasikoen bilduma da KLASIKOEN GORDAILUA; testu hau berorren parte da</projectDesc>
+     <refsDecl>
+        <p>MENTIONED etiketa egilearenak ez diren hitzak markatzeko erabili da: hitzaurreak, aipuak, iruzkinak, e.a.</p>
+    </refsDecl>
+     <classDecl>
+        <taxonomy id='generoa'>
+            <category id='G-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='G-ANT'><catDesc>Antzerkia</catDesc></category>
+            <category id='G-BER'><catDesc>Bertsoak</catDesc></category>
+            <category id='G-ERL'><catDesc>Erlijioa</catDesc></category>
+            <category id='G-NAR'><catDesc>Narratiba</catDesc></category>
+            <category id='G-POE'><catDesc>Poesia</catDesc></category>
+            <category id='G-SAI'><catDesc>Saiakera, kronika, artikuluak...</catDesc></category>
+        </taxonomy>
+        <taxonomy id='garaia'>
+            <category id='M-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='M-16'><catDesc>XVI. mendea</catDesc></category>
+            <category id='M-17-1'><catDesc>XVII. mendea - 1. erdia</catDesc></category>
+            <category id='M-17-2'><catDesc>XVII. mendea - 2. erdia</catDesc></category>
+            <category id='M-18-1'><catDesc>XVIII. mendea - 1. erdia</catDesc></category>
+            <category id='M-18-2'><catDesc>XVIII. mendea - 2. erdia</catDesc></category>
+            <category id='M-19-1'><catDesc>XIX. mendea - 1. erdia</catDesc></category>
+            <category id='M-19-2'><catDesc>XIX. mendea - 2. erdia</catDesc></category>
+            <category id='M-20-1'><catDesc>XX. mendea - 1. erdia</catDesc></category>
+            <category id='M-20-2'><catDesc>XX. mendea - 2. erdia</catDesc></category>
+        </taxonomy>
+        <taxonomy id='euskalkia'>
+            <category id='E-0'><catDesc>sailkatu gabea</catDesc></category>
+            <category id='E-BAT'><catDesc>batua</catDesc></category>
+            <category id='E-BIZ'><catDesc>bizkaiera</catDesc></category>
+            <category id='E-BNA'><catDesc>behenafarrera</catDesc></category>
+            <category id='E-ERR'><catDesc>erronkariera</catDesc></category>
+            <category id='E-GIP'><catDesc>gipuzkera</catDesc></category>
+            <category id='E-GNA'><catDesc>goi nafarrera</catDesc></category>
+            <category id='E-LAP'><catDesc>lapurtera</catDesc></category>
+            <category id='E-NAF'><catDesc>nafarrera</catDesc></category>
+            <category id='E-ZAR'><catDesc>zaraitzuera</catDesc></category>
+            <category id='E-ZUB'><catDesc>zuberera</catDesc></category>
+        </taxonomy>
+    </classDecl>
+  </encodingDesc>
+  <profileDesc>
+     <textClass>
+       <keywords scheme='generoa'>
+         <list><item>G-ANT</item></list>
+       </keywords>
+       <keywords scheme='garaia'>
+         <list><item>M-18-1</item></list>
+       </keywords>
+       <keywords scheme='euskalkia'>
+         <list><item>E-BIZ</item></list>
+       </keywords>
+     </textClass>
+  </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <docTitle>Gabonetarako ikuskizuna -- Pedro Ignazio Barrutia</docTitle>
+    </front>
+    <group>
+      <text>
+        <body>
+<p><foreign><hi rend='Bold'>Acto para la Noche Buena</hi></foreign></p>
+<p><hi rend='Italic'><foreign>Cantan adentro</foreign></hi></p>
+<p><foreign> La divina Magestad</foreign></p>
+<p><foreign> ha querido que este d&iacute;a</foreign></p>
+<p><foreign> se despose con Mar&iacute;a</foreign></p>
+<p><foreign> Joseph por su bondad.</foreign></p>
+<p><hi rend='Italic'><foreign>Salen S. Jos&eacute; y la Virgen</foreign></hi></p>
+<p><foreign><hi rend='Bold'>SAN JOSE:</hi></foreign></p>
+<p>Benturosoa milla bider ni</p>
+<p>Zeren juntadu naizazun zeuri</p>
+<p>Mila grazia ematen deusat</p>
+<p>Au ordenadu dauen Jaunari.</p>
+<p><foreign><hi rend='Bold'>VIRGEN:</hi></foreign></p>
+<p>Ni mila bider benturosea</p>
+<p>Josefe Dabiden semea</p>
+<p>Zerren zeruak ala nairik</p>
+<p>Naizan zeure esposea.</p>
+<p><foreign><hi rend='Bold'>SAN JOSE:</hi></foreign></p>
+<p>Ainbat bentura &amp;iquest;nundik nik, nundi?</p>
+<p><hi rend='Italic'><foreign>Responde de dentro el angel</foreign></hi></p>
+<p><foreign><hi rend='Bold'>ANGEL:</hi></foreign></p>
+<p>Doa gustia dator zeruti</p>
+<p><foreign><hi rend='Bold'>SAN JOSE: </hi></foreign>(<hi rend='Italic'><foreign>Ponese de rodillas</foreign></hi>)</p>
+<p>Kunplitu bedi sekula beti</p>
+<p>Ordenadua zeru altuti.</p>
+<p><foreign><hi rend='Bold'>VIRGEN:</hi></foreign></p>
+<p>Nundi nik nundi ainbat bentura</p>
+<p><foreign><hi rend='Bold'>ANGEL:</hi></foreign></p>
+<p>Jaun zerukuak ala dau gura</p>
+<p><foreign><hi rend='Bold'>VIRGEN: </hi></foreign>(<hi rend='Italic'><foreign>de rodillas</foreign></hi>)</p>
+<p>Kunplitu bedi beti sekula</p>
+<p>Zeru altuak ordenadua.</p>
+<p><hi rend='Italic'><foreign>Cantan de dentro</foreign></hi></p>
+<p><foreign> Esta Virgen celestial</foreign></p>
+<p><foreign> de San Jos&eacute; digna esposa</foreign></p>
+<p><foreign> ser&aacute; con Dios piadosa</foreign></p>
+<p><foreign> &aacute; remediar nuestro mal.</foreign></p>
+<p><hi rend='Italic'><foreign>Sale la Virgen</foreign></hi></p>
+<p><foreign><hi rend='Bold'>VIRGEN:</hi></foreign></p>
+<p>Trinidade altuko seme bakarra</p>
+<p>Arren adiezazu gure negarra</p>
+<p>Zatoz Orienteko eguski klarua</p>
+<p>Akordadu bekizu Adan itxua</p>
+<p>Adanek egi&ntilde; eban itxurik bekatu</p>
+<p>Aren da gure kulpak damu ditugu</p>
+<p>Merezidu ez arren parkazionoa</p>
+<p>Bakigu zen zarana piadosoa</p>
+<p>Profeta sagraduak eskribidu eben</p>
+<p>Nola zan Jaun aundi bat jaioko Belenen</p>
+<p>Bera zala izango salbadorea</p>
+<p>Desegindu egian gure kulpea</p>
+<p>Donzella bategainik xaiokozala</p>
+<p>&#191;Nor izango ote dau Jaun onek Ama?</p>
+<p><hi rend='Italic'><foreign>Sale el Angel</foreign></hi></p>
+<p><foreign><hi rend='Bold'>ANGEL:</hi></foreign></p>
+<p>Ave mila bider Birji&ntilde;a Maria</p>
+<p>Ni naiz zeru altuko mandataria</p>
+<p>Zerureanik dakart embajadea</p>
+<p>Zeu zarala izango Jaunaren amea.</p>
+<p><foreign><hi rend='Bold'>VIRGEN:</hi></foreign></p>
+<p>Ezagutu ezpadot sekula gizonik</p>
+<p>nola jaioko da Jaunori neugainik?</p>
+<p><foreign><hi rend='Bold'>ANGEL:</hi></foreign></p>
+<p>Ez dozu zer ifini batere dudarik</p>
+<p>Ez ta zeruarentzat imposiblerik</p>
+<p>Imposibleak eurak aditu nagizu</p>
+<p>Egimbite esanak egite ditu. (<hi rend='Italic'><foreign>v&aacute;se</foreign></hi>)</p>
+<p><foreign><hi rend='Bold'>VIRGEN:</hi></foreign></p>
+<p>Zeu zara ene Xauna, esklabea naiz ni</p>
+<p>Zeure borondatea kumplitu bidi (<hi rend='Italic'><foreign>v&aacute;se</foreign></hi>)</p>
+<p><hi rend='Italic'><foreign>Cantan dentro</foreign></hi></p>
+<p><foreign> Josepf, con resignaci&oacute;n</foreign></p>
+<p><foreign> Pon los ojos en el cielo</foreign></p>
+<p><foreign> Que &aacute; sus siervos da consuelo</foreign></p>
+<p><foreign> En la mayor aflicci&oacute;n.</foreign></p>
+<p><hi rend='Italic'><foreign>Sale Sn. Jos&eacute;</foreign></hi></p>
+<p><foreign><hi rend='Bold'>SAN JOSE:</hi></foreign></p>
+<p>Izorra sentizen dot neure esposea</p>
+<p>Aditu ezin dot nik zer dan kausia</p>
+<p>Donzella bat ain garbia</p>
+<p>Nola zaran zu Maria</p>
+<p>Nola da posible</p>
+<p>&#161;ay, ay, ay ene!</p>
+<p>Ez dot nik merezizen zeugaz geldizea</p>
+<p>Zer egingo neuke &amp;iexcl;ai! ene tristea</p>
+<p>Fuerza jat juatia</p>
+<p>Imposible egotea</p>
+<p>Zeugainik ausente</p>
+<p>ay, ay, ay ene! (<hi rend='Italic'><foreign>&eacute;chase a dormir</foreign></hi>)</p>
+<p><hi rend='Italic'><foreign>Aparece el Angel</foreign></hi></p>
+<p><foreign><hi rend='Bold'>ANGEL:</hi></foreign></p>
+<p>Jospeh itzi bekio pentsamentu orri</p>
+<p>Biotzeko penea desterra bidi,</p>
+<p>Zure esposeagan ez da posible</p>
+<p>Inok edirozea kulparik batere</p>
+<p>Labur da gizonaren adimentua</p>
+<p>Adizeko Jaunaren ordenadua</p>
+<p>Espiritu Santuak keriza eginik</p>
+<p>Jesusa xaiokoda Virjiniea gainik (<hi rend='Italic'><foreign>v&aacute;se</foreign></hi>)</p>
+<p><hi rend='Italic'><foreign>Edicto de Cesar</foreign></hi></p>
+<p><hi rend='Italic'><foreign>Salen el Ministro y el Gracioso</foreign></hi></p>
+<p><foreign><hi rend='Bold'>MINISTRO:</hi></foreign></p>
+<p>Mundu guztiko Enperadore Zesar Augusto aundiak</p>
+<p>Ala nairik alista bitez aren basallo gustiak</p>
+<p>Gizon bakoizak pagatu bedi tributua ta zensoa</p>
+<p><foreign><hi rend='Bold'>GRACIOSO:</hi></foreign></p>
+<p>Diruak ez atara zeori eztok egingo beloa</p>
+<p>Ene bolsea arina beti urrin neuganik dirua</p>
+<p>Nik neuk ere dirua baneu ederra neuke mosua</p>
+<p><foreign><hi rend='Bold'>MINISTRO:</hi></foreign></p>
+<p>Txakurrak eurak egiten dabe danza diruagaiti</p>
+<p><foreign><hi rend='Bold'>GRACIOSO:</hi></foreign></p>
+<p>Gure Mondragoen pagatzen dogu dirua dazeagati</p>
+<p>Auxe dok bizitza modu</p>
+<p>Neska zarrok danza egin da mutilok dirua pagadu</p>
+<p>Ibini bidi, Alkate Xauna, ibini bidi legea</p>
+<p>Mutilak libre, neskachak eurak paga dezeela danzea</p>
+<p><foreign><hi rend='Bold'>MINISTRO:</hi></foreign></p>
+<p>Zuk emoniko sentenzi orrek chapadamente dirudi</p>
+<p>Zu legezko abogadurik ez da sekula ikusi</p>
+<p><foreign><hi rend='Bold'>GRACIOSO:</hi></foreign></p>
+<p>Zerrebeta xo bidi emon daiztan salto bi</p>
+<p><foreign><hi rend='Bold'>CHAMB.:</hi></foreign></p>
+<p>Zer so&ntilde;u?</p>
+<p><foreign><hi rend='Bold'>GRACIOSO:</hi></foreign></p>
+<p>Gura doana xoegik eze gustirako nok agudu</p>
+<p><hi rend='Italic'><foreign>Danza el grazioso un villano</foreign></hi></p>
+<p><hi rend='Italic'><foreign>Salen Sn. Joseph y la Virgen</foreign></hi></p>
+<p><foreign><hi rend='Bold'>SAN JOSE:</hi></foreign></p>
+<p>Goazen Maria, goazen Belenera</p>
+<p>Zesari tributua an pagatzera</p>
+<p><foreign><hi rend='Bold'>VIRGEN:</hi></foreign></p>
+<p>Borondate asko gaz xarten naiz bidean</p>
+<p>Pozik etorriko naiz zure atzean</p>
+<p><foreign><hi rend='Bold'>SAN JOSE:</hi></foreign></p>
+<p>Emeti Belenera dago bide luzea</p>
+<p>Zure trabajua da ene penea</p>
+<p><foreign><hi rend='Bold'>VIRGEN:</hi></foreign></p>
+<p>Ordenadurik dago gu ara xuatea</p>
+<p>Cunplitu bidi Xaunaren borondatea (<hi rend='Italic'><foreign>v&aacute;se</foreign></hi>)</p>
+<p><hi rend='Italic'><foreign>Cantan dentro</foreign></hi></p>
+<p><foreign> A Belen caminan Josef y Mar&iacute;a</foreign></p>
+<p><foreign> Jes&uacute;s v&aacute; encubierto, El es quien los gu&iacute;a</foreign></p>
+<p><foreign> Seguid sus pisadas, seguid, alma m&iacute;a,</foreign></p>
+<p><foreign> Errar no es posible con tan zierta gu&iacute;a.</foreign></p>
+<p><hi rend='Italic'><foreign>Salen Sn. Joseph y la Virgen</foreign></hi></p>
+<p><foreign><hi rend='Bold'>SAN JOSE:</hi></foreign></p>
+<p>Xaunari demazugan graziak Maria</p>
+<p>Orra nun agertudan Belengo uria</p>
+<p><foreign><hi rend='Bold'>VIRGEN:</hi></foreign></p>
+<p>Eperik ezta Josef cunplitzen eztanik</p>
+<p>Laster xaioko da Jesusa niganik</p>
+<p>Kontenturik bioz au kabidu ezin jat</p>
+<p>Neu sentizen dot paradisu bat</p>
+<p><foreign><hi rend='Bold'>SAN JOSE:</hi></foreign></p>
+<p>Pensamentuan nator zerren dan berandu</p>
+<p>Izango ote dogun Belenen ostatu</p>
+<p><foreign><hi rend='Bold'>VIRGEN:</hi></foreign></p>
+<p>Ostaturik ezpada Belengo errian</p>
+<p>Zeruko Jauna dago leku guztian</p>
+<p>Ordua etorri da esposo maitea</p>
+<p>Seinonek xaio beardau xokudi atea (<hi rend='Italic'><foreign>tocan la puerta</foreign></hi>)</p>
+<p><hi rend='Italic'><foreign>Cantan dentro</foreign></hi></p>
+<p><foreign> Llamando est&aacute; San Josef</foreign></p>
+<p><foreign> A las puertas de un meson</foreign></p>
+<p><foreign> Con la Reina de los cielos</foreign></p>
+<p><foreign> Virgen y Madre de Dios.</foreign></p>
+<p><hi rend='Italic'><foreign>Dentro el mesonero y el criado</foreign></hi></p>
+<p><foreign><hi rend='Bold'>TOMAS: </hi></foreign>(<hi rend='Italic'><foreign>da voces</foreign></hi>)</p>
+<p>Mutill, aditzen dok, mutill!</p>
+<p><foreign><hi rend='Bold'>CHATO:</hi></foreign></p>
+<p>Beti arran eginik naduka adikatur&iacute;k</p>
+<p>Erribateko kanpaetzat ez tau bere parerik</p>
+<p><foreign><hi rend='Bold'>TOMAS:</hi></foreign></p>
+<p>Ez al nok aditu</p>
+<p>Zori gaiztoan artu indudan nere echean criadu</p>
+<p><foreign><hi rend='Bold'>CHATO:</hi></foreign></p>
+<p>Lo egiten iskuzu; goiza etorri echazu</p>
+<p>Puntu onetan oera naiz da enaiz ondo berotu</p>
+<p><foreign><hi rend='Bold'>TOMAS: </hi></foreign></p>
+<p>Ara norbait da atean</p>
+<p><foreign><hi rend='Bold'>CHATO: </hi></foreign></p>
+<p>Gu ondo gauza oean</p>
+<p><foreign><hi rend='Bold'>TOMAS: </hi></foreign></p>
+<p>Mutil nagia xagi adi</p>
+<p><foreign><hi rend='Bold'>CHATO: </hi></foreign></p>
+<p>Xaginendi albanegi</p>
+<p><foreign><hi rend='Bold'>TOMAS: </hi></foreign>Arraka</p>
+<p>Gura al dok ibili nadin makilaka ta agaka</p>
+<p><foreign><hi rend='Bold'>CHATO:</hi></foreign></p>
+<p>Arzaraz beti gure nagusi</p>
+<p>Alamenean ezteuz ichi</p>
+<p>Olloa nola iskintokian</p>
+<p>Gizenzen jaku losagerian</p>
+<p><foreign><hi rend='Bold'>TOMAS: </hi></foreign>Aguro</p>
+<p>Ondo ikasteko bearneuskio zaukazanak ebagui</p>
+<p>Bera dazan oearekin su emon prestu ezari</p>
+<p><foreign><hi rend='Bold'>CHATO:</hi></foreign></p>
+<p>Eso s&iacute;</p>
+<p>Orrelako orazinoak zure aoan ugari</p>
+<p><foreign><hi rend='Bold'>TOMAS:</hi></foreign></p>
+<p>Chato mutil lotsagabe, desvengonzadu perroa</p>
+<p>Xagi banadi ichiko deustat moltsuarekin aoa</p>
+<p>Ay kora mutill</p>
+<p><foreign><hi rend='Bold'>CHATO: </hi></foreign></p>
+<p>Flema oberik ekusi dozu urtezen daben zerekin.</p>
+<p><foreign><hi rend='Bold'>SAN JOSE:</hi></foreign></p>
+<p>Ostatu eske gabilz ez arren beatu</p>
+<p>Zeuroen trabajua pagatuko xazu.</p>
+<p><foreign><hi rend='Bold'>CHATO:</hi></foreign></p>
+<p>Zuentzat ostaturik eztago emen</p>
+<p>Akomoda zaitez bazterren baten</p>
+<p><foreign><hi rend='Bold'>SAN JOSE:</hi></foreign></p>
+<p>Belenen ostaturik guretzat ezpada</p>
+<p>Arren erakuskuzu nun irago gaua.</p>
+<p><foreign><hi rend='Bold'>CHATO:</hi></foreign></p>
+<p>Or dago portale bat uriaz ateti</p>
+<p>Iskuzu lo egiten zuaz emeti (v&aacute;se)</p>
+<p><foreign><hi rend='Bold'>VIRGEN:</hi></foreign></p>
+<p>Besterik ezin bada guazen bada ara</p>
+<p>Xaungoikoa dan lekuan ezer ez ta falta</p>
+<p><hi rend='Italic'><foreign>(Entran en el portal)</foreign></hi></p>
+<p><hi rend='Italic'><foreign>Tocan alg&uacute;n instrumento y cantan dentro</foreign></hi></p>
+<p>Bekatariak alegrabit&eacute;z alegrabidi zerua</p>
+<p>Portale baten jaiorik dago Mesias prometidua</p>
+<p>Zeruarentzat gloria dakar gizonarenzat bakea</p>
+<p>Bakea bere ez nola nai ondasun askoz betea</p>
+<p>Amorioak dakar zerurik Jesusa zuen artera</p>
+<p>Bekatuaren poderiotik guztiok atarazera</p>
+<p>Bekatariak ez desechadu Xaun onen amorioa</p>
+<p>Mundureanik apartaduta agan ibinzu gogoa</p>
+<p>Askoda lorik esnaazaitez; bioz garbierazazus</p>
+<p>Bioz garbira etorriko da, an izatera kontentuz</p>
+<p><hi rend='Italic'><foreign>Sale el demonio echando fuego</foreign></hi></p>
+<p><foreign><hi rend='Bold'>LUZIFER:</hi></foreign></p>
+<p>Izanik infernuko prinzipe andia</p>
+<p>Demonio guztien agintaria</p>
+<p>Ni orain indar baga ni orain loturik</p>
+<p>Sein bat baster baten jaioagaitik</p>
+<p>Luzifer altibo soberbioa</p>
+<p>Nun da anchi&ntilde;ako ire brioa</p>
+<p>Pena garratz, rabia, tormentu andiak</p>
+<p>Abrasatzen deust errai gustiak</p>
+<p>Iregibidi lurra irunsi nagi</p>
+<p>Sekula ainbat pena estot eugi</p>
+<p>Ene infernua dago Belenen</p>
+<p>Enaiz atrebitzen gaizki esaten</p>
+<p>Se&ntilde;ora birtuosa (zer esango dot</p>
+<p>Gaizki nai arren esan ezin dot)</p>
+<p>Se&ntilde;ora birtuosa &amp;iexcl;ai ene tristea!</p>
+<p>Andra gustien artean kulpa bagea</p>
+<p>Donzella daguala semea egin dau</p>
+<p>Nik ezin aditu dot misterio au</p>
+<p>An dago agura bat ez mundukua</p>
+<p>Gura nukean ba&ntilde;o santuagua</p>
+<p>&amp;iexcl;A&iacute; ni mila b&iacute;der desdichadua!</p>
+<p>Nola ausi deusten neure burua</p>
+<p>Orain portalean jaio-dan orr&iacute;</p>
+<p>Aus&iacute;a emango deusat sekula beti</p>
+<p>Gizonak ene kontra ainbat podere</p>
+<p>Gizona izatea ez da posible</p>
+<p>Nun aiz Asmodeo, nun aiz Berzebu</p>
+<p>Ocasino onetan fabore indazu</p>
+<p>Fabore infernua, fabore, fabore,</p>
+<p>Lagun izango dogu Erodes errege</p>
+<p>Zierra, zierra, <foreign>guerra, guerra.</foreign></p>
+<p><hi rend='Italic'><foreign>(hacen ruido: salen Asmodeo y Berzebu (sic.)</foreign></hi></p>
+<p><foreign><hi rend='Bold'>ASMODEO:</hi></foreign></p>
+<p>Luzifer andi balerosoa ez adila turbadu</p>
+<p>Ire favore etorri gaituk Asmodeo ta Berzebu</p>
+<p>Baal, Belial, Lebiatan ta beste ga&ntilde;eko jentea</p>
+<p>Azean dituk dakardela ire estandartea</p>
+<p>Publicavidi gerra eruela gerra mundu gustiti</p>
+<p>Emon bekio &aacute;lada kumpli xaio dan infante oni</p>
+<p><foreign><hi rend='Bold'>BERZEBU:</hi></foreign></p>
+<p>Gure kontra etorri da benturaz bere kostuan</p>
+<p>Padez&iacute;du bearko ditu mila trabaju munduan</p>
+<p>Aldagidana egingodot nik neure podere gust&iacute;an</p>
+<p>Kruzebaten isete-arren Jerusalengo mend&iacute;an.</p>
+<p><hi rend='Italic'><foreign>Sale el Gracioso</foreign></hi></p>
+<p><foreign><hi rend='Bold'>GRACIOSO:</hi></foreign></p>
+<p>Lian, lan bere, lian lan bere gabaren alegerea</p>
+<p>Lian, lan bere gauza ona dok buzkantz ondo betea</p>
+<p>Lian, lan bere, emenchen datoz amar libra okela</p>
+<p>Lian, lan bere birao gura eztala ene sabela</p>
+<p>Lian, lan bere, bai nik ekarri presentean neurekin</p>
+<p>Guzurrik batere asmatu baga zaspi ochaba chakolin</p>
+<p>Afaritako esala falta arrain zabala salsatan</p>
+<p>Salsatako zeruak xakin zeinbat inchaur jo ziran</p>
+<p>Lian lan bere, Lian lan bere ondo nago kontuan</p>
+<p>Salsa xaiten iru motrallu pedazadu nituan</p>
+<p>Lian lanbere irunsi ditu eunda ainbat gazta&ntilde;a</p>
+<p>Eg&iacute;a da ta artu zituen lagun bik garau bana</p>
+<p>Sagarrak bere eziran falta mispil ustelak abondo</p>
+<p>Lian lan bere ediro zenda ene tripea gaur ondo</p>
+<p>Ogiak bere baziran iru bakocha lau librakoa</p>
+<p>Lian lanbere ezegoala geldirik orduan aoa</p>
+<p>Lian lanbere echetik nator egiten paseadea</p>
+<p>Lian lanbere dijerizeko neure afari puskea</p>
+<p>Lian lan bere, Lian lan bere</p>
+<p><hi rend='Italic'><foreign>Mira &aacute; los demonios, t&uacute;rbase y dice:</foreign></hi></p>
+<p>Arako ura zer jente</p>
+<p>Losaua&ntilde;o bildurrago&ntilde;ok ikaratu najok</p>
+<p>Korpuz gustia ikara jarri auxe dok bide obia</p>
+<p>Ene kontra baldin badatoz orpoak erakustia</p>
+<p>Berna gogorrak milazemai neuk egitea kunplida</p>
+<p>Menturaz neu legez ikaratuta igesi juango dira</p>
+<p><foreign><hi rend='Bold'>BELTRAN: </hi></foreign></p>
+<p>Nor da ura</p>
+<p><foreign><hi rend='Bold'>ASMODEO: </hi></foreign></p>
+<p>Aje dok Charles tripazabal mendietako on gura</p>
+<p><foreign><hi rend='Bold'>BELCEBU:</hi></foreign></p>
+<p>Artu daigun ingura</p>
+<p>Gaurko gauaz akordadidin para siempre sekula</p>
+<p>Camaradas enga&ntilde;aduriz ezpadago begia</p>
+<p>Au dok mutil balz Veragarako danzari koplaria</p>
+<p>Mundu guztia kolpatzeko echaio falta grazia</p>
+<p>Probadu bedi nolakoa dan infernuko ogia</p>
+<p>Auxe dok auxe gure morroe alper kazadorea</p>
+<p>Kazara doean orduan beti aldamenean botea</p>
+<p>Akari sarri eman oijeusak apagozo dulcea</p>
+<p><foreign><hi rend='Bold'>ASMODEO:</hi></foreign></p>
+<p>Adiezak Berzebu onen bizitza modu</p>
+<p>Goizean goizean bearko ijok entresilua kapazu</p>
+<p>Mantenitzeko tripea da gustiz dilijentea</p>
+<p>Ardan truke salduxok egun emazte aren moldea</p>
+<p>Au dok fiesta zaleak gure adiskidea</p>
+<p>Guganik orain eroan begi merezidu dauen doea</p>
+<p>Da infernuko legea sekula ausi gabea</p>
+<p>Obeto serbitzen gaituanari aumentazea penea</p>
+<p><foreign><hi rend='Bold'>GRACIOSO:</hi></foreign></p>
+<p>Ordu gaistoan ken zaitez orrik ezpabere ta fedea</p>
+<p>Xakin baixakin nolakoa dan ene ukabil parea</p>
+<p><foreign><hi rend='Bold'>BELCEBU: </hi></foreign></p>
+<p>Quien eres t&uacute;?</p>
+<p><foreign><hi rend='Bold'>GRACIOSO: </hi></foreign></p>
+<p>Orren mesediori serbitzeko ni naiz Jauna Machi frisa</p>
+<p><foreign><hi rend='Bold'>ASMODEO: </hi></foreign></p>
+<p>Zer gizon?</p>
+<p><foreign><hi rend='Bold'>GRACIOSO: </hi></foreign></p>
+<p>Tontorron ton</p>
+<p><foreign><hi rend='Bold'>TODOS: </hi></foreign></p>
+<p>Emon, emon! tiene lindo barrig&oacute;n (<hi rend='Italic'><foreign>aporreanle</foreign></hi>)</p>
+<p><foreign><hi rend='Bold'>GRACIOSO:</hi></foreign></p>
+<p>Auxe dala Zeledon, artu bai ta ez emon.</p>
+<p>Mari Gabon, nun aiz ene Mari Gabon</p>
+<p>Neure azurrak pedazatuta emeti jagi ezin non</p>
+<p><hi rend='Italic'><foreign>Asoma Mari Gabon &aacute; la ventana</foreign></hi></p>
+<p><foreign><hi rend='Bold'>MARI GABON:</hi></foreign></p>
+<p>Edan eitegi adinon</p>
+<p>Ondatu naxok ire tripa traidore gextoa</p>
+<p>Or konpon:</p>
+<p><foreign><hi rend='Bold'>GRACIOSO:</hi></foreign></p>
+<p>Mari Gaboncho enea, biozeko puskea, Orienteko perlea</p>
+<p>&amp;iquest;Nun da zure legea? &amp;iquest;nun zure karidadea?</p>
+<p><foreign><hi rend='Bold'>MARI GABON:</hi></foreign></p>
+<p>Berbok eder aoan orapiloa kolkoan</p>
+<p>Leen legez egongo enaiz zure ukaondoan</p>
+<p><foreign><hi rend='Bold'>GRACIOSO: </hi></foreign></p>
+<p>Echeko-andra maitea eukidazu piedadea</p>
+<p><foreign><hi rend='Bold'>MARI GABON:</hi></foreign></p>
+<p>Zurekin beti gerran ba&ntilde;o</p>
+<p>Obedot zubaga baquea</p>
+<p><foreign><hi rend='Bold'>GRACIOSO: </hi></foreign></p>
+<p>Orrela tratatzen nozu</p>
+<p><foreign><hi rend='Bold'>MARI GABON: </hi></foreign></p>
+<p>Bestelako tratamenturik merezizen ez dosu</p>
+<p><foreign><hi rend='Bold'>GRACIOSO: </hi></foreign></p>
+<p>Guarda xagi banadi</p>
+<p><foreign><hi rend='Bold'>MARI GABON:</hi></foreign></p>
+<p>Zemai, Mari Gaboni, Mari Gaboni zemai</p>
+<p><hi rend='Italic'><foreign>(baja y dice)</foreign></hi></p>
+<p>Orain xaukat neure aldi</p>
+<p>Galdunok eta galadi (<hi rend='Italic'><foreign>aporrea &aacute; su marido: v&aacute;se</foreign></hi>)</p>
+<p><foreign><hi rend='Bold'>GRACIOSO:</hi></foreign></p>
+<p>Berdin ossa banadi</p>
+<p>Laster da ondo egingo deusat</p>
+<p>Pagu erreala beroni</p>
+<p>Adiezazu mundua</p>
+<p>Ze modutan emaiten dauen</p>
+<p>Emaste onak pagua.</p>
+<p><hi rend='Italic'><foreign>Asoma Mari Gabon y dice</foreign></hi></p>
+<p><foreign><hi rend='Bold'>MARI GABON:</hi></foreign></p>
+<p>Munduak aditu begi</p>
+<p>Senar gaizak emaste ona esperadu ezpegi (v&aacute;se)</p>
+<p><foreign><hi rend='Bold'>GRACIOSO:</hi></foreign></p>
+<p>Ene tripa tristea</p>
+<p>Zori gaistoan ikusi neban araisteko jentea.</p>
+<p><hi rend='Italic'><foreign>Salen los pastores cantando lan beres</foreign></hi></p>
+<p><foreign><hi rend='Bold'>BELTRAN:</hi></foreign></p>
+<p>Charles guerea ordirik daza</p>
+<p>Aikona laster Machi Ardanza</p>
+<p><hi rend='Italic'><foreign>Levantase el gracioso y da saltos</foreign></hi></p>
+<p><foreign><hi rend='Bold'>GRACIOSO:</hi></foreign></p>
+<p>Lian lan bere gauaren ona</p>
+<p>Xaunak emona</p>
+<p>Bestebat nago puntuti ona</p>
+<p><foreign><hi rend='Bold'>LORENZO: </hi></foreign></p>
+<p>Esak mutil modu orretan zek arabil</p>
+<p><foreign><hi rend='Bold'>GRACIOSO:</hi></foreign></p>
+<p>Iru deabruk erruki baga</p>
+<p>Lastasakuba baininzan ala</p>
+<p>Kendu jeuste zayak</p>
+<p>Barberu gaba osatu xataz neure azur ausiak</p>
+<p><foreign><hi rend='Bold'>GABRIEL:</hi></foreign></p>
+<p>Matasanoen eskuan, osasuna dabena bere</p>
+<p>Xarten dok peliburuan</p>
+<p><hi rend='Italic'><foreign>Aparece el Anxel y canta Gloria in excelsis Deo:</foreign></hi></p>
+<p><hi rend='Italic'><foreign>T&uacute;rbanse los pastores y dicen en su orden:</foreign></hi></p>
+<p><foreign><hi rend='Bold'>LORENZO:</hi></foreign></p>
+<p>Ene lagunak zer ete dogu arako misterioa</p>
+<p>Choriak legez egoak dakarz dulzea bere aoa</p>
+<p>Zori onian juntatu gara gustiok leku batera</p>
+<p>Angeruzko exerzituak, xasi dira lurrera.</p>
+<p><foreign><hi rend='Bold'>TOMAS:</hi></foreign></p>
+<p>Ala sarde eztok agertu ene dempora gustian</p>
+<p>Onelako gizon ederrik gure Belengo mendian</p>
+<p>Agana begira dago kontentu askoz begia</p>
+<p>Beragatarren trukadu nei pozik mundu guztia</p>
+<p><foreign><hi rend='Bold'>GRACIOSO:</hi></foreign></p>
+<p>Aserik orain franko dago onela esanagaitik</p>
+<p>Kalchapotak eman leizke bokadu on bategaiti</p>
+<p><foreign><hi rend='Bold'>BELTRAN:</hi></foreign></p>
+<p>Angerua dok ez dok gizona</p>
+<p>Aren abegi ederrak</p>
+<p>Duda baga benzizen ditu</p>
+<p>Kanpoetako eperrak</p>
+<p>Kantore asko arkizen dira Jerusalengo temploan</p>
+<p>Musika dulzeagoa dago angeru onen agoan</p>
+<p><foreign><hi rend='Bold'>GRACIOSO:</hi></foreign></p>
+<p>Beltranikocho aleizako esaminadorea</p>
+<p><foreign>No se hizo para los asnos </foreign>estimakaz dulzea</p>
+<p><foreign><hi rend='Bold'>ARICHA:</hi></foreign></p>
+<p>Berau ikusi nuen ezkero da ene pentsamentua</p>
+<p>Zeruetako gloria gaiti irizeari mundua</p>
+<p>Desiertura juango naiz ni egiten penitenzia</p>
+<p>Ene xana ta ene edana, urarekin ogia</p>
+<p><foreign><hi rend='Bold'>GRACIOSO:</hi></foreign></p>
+<p>Gure mutil au izango jaku santu gustiz andia</p>
+<p>Alboan falta dakionian kuartilloko onzia</p>
+<p>Arichabalcho gurea zezen toreadorea</p>
+<p>Penitenzia egite ori ez dok insaur saltsea</p>
+<p><foreign><hi rend='Bold'>CHATO:</hi></foreign></p>
+<p>Anteoxoak ibini eizke Charlesikocho laztana</p>
+<p>Esan egidak zer misterio etorri jakun geu gana</p>
+<p><foreign><hi rend='Bold'>GABRIEL:</hi></foreign></p>
+<p>Aren aoko berba dulzea aditu neban puntuan</p>
+<p>Sentidu neban argi andibat neure biotz barruan</p>
+<p>Arzain ignorantea ninzan biurtu naiz sabio</p>
+<p>Ene ustez mundu guztiak eztau zuribat balio</p>
+<p><foreign><hi rend='Bold'>GRACIOSO:</hi></foreign></p>
+<p>Parabolok esan franko Gabrieliko gureak</p>
+<p>Biar goiseko beste alderuz izulikoxok aizeak</p>
+<p>Beistegiko Gabriel ka&ntilde;aberan kaskabel</p>
+<p>Lindo mozo despachazeko de vino blanco un pichel</p>
+<p>Sekula i&ntilde;ok eztau ikusi onereango konturik</p>
+<p>Ezta posible eztaodela ene lagunak ordirik</p>
+<p>Ez aldezu dijeridu arrasaldeko salsea</p>
+<p>Chakolin orrek turbadu deusu begietako bistea</p>
+<p>Sermonadore barri orri egonaizako begira</p>
+<p>Orida buru moz O&ntilde;atiko Peru Jainkoen mutila</p>
+<p>Kasi buruan ilerik echok, diranak ere bakarrak</p>
+<p>Mosu linduan argizen dira begi eder gorri bi</p>
+<p>Goizean bein ematen dabe estimakaza ugari</p>
+<p>Gidalbi-gidalgozoagorik eztira jamas ikusi</p>
+<p>Badirudie izan dirala Durangon errementari</p>
+<p>Arpegiko narru ederrak pergaminoa dirudi</p>
+<p>Pergaminoa bustita gero erakusia suari</p>
+<p>Berba baten esan dagidan nolakoa dan mutila</p>
+<p>Egin eginik aren gorpuza Nativitate subila</p>
+<p>Izan ezidin gauza gustian mutil au desgraziadu</p>
+<p>Zerren dauen kantu ederra egingo dogu angeru</p>
+<p>Mila grazia emon eusan Jaun zerukoak aoan</p>
+<p>Mila ma&ntilde;a on erakusten dau bere ofizioan</p>
+<p>Gure burloi ichita orain biurtu gaitezen azera</p>
+<p>Zertara xakin gura genduke zatozen gure artera</p>
+<p><foreign><hi rend='Bold'>GABRIEL:</hi></foreign></p>
+<p>Bateti ene bioza poz da, besteti dabil ikara</p>
+<p>Ezkutaria konbeni bada esan egizu nor zara</p>
+<p><foreign><hi rend='Bold'>ANGEL:</hi></foreign></p>
+<p>Ni naiz zeruetako Jaunaren angerua</p>
+<p>Dakardana zeruti barri deseadua</p>
+<p>Asegin arrezazu Belengo pastoreak</p>
+<p>Iditen asi dira zeruko portaleak</p>
+<p>Donzella batenganik jaio dan infanteak</p>
+<p>Zeruko jaunarekin egin ditu bakeak</p>
+<p>Donzella santa onek izena dau Maria</p>
+<p>Erakusiko deusu xaio dan eguzkia</p>
+<p>Belengo portalean baturik oxalean</p>
+<p>Kumearen ordeaz daraza pesebrean</p>
+<p>Sartu zan infante au Amaren sabelean</p>
+<p>Adanen bekatuti ezebela arean.</p>
+<p>Berau da Xangoikoa ama dau Birjinea</p>
+<p>Ori da marabilla andi parebagea</p>
+<p>Josephe dichosoa amaren esposoa</p>
+<p>Ezta Jesusen aita ba&ntilde;an bai ordekoa</p>
+<p>Abere mutu biren erdian xaio dana</p>
+<p>Bera adoratzera zeruti xasi gara</p>
+<p>Iru errege Mago izar baten azean</p>
+<p>Bisitazera datoz dromedario gainean</p>
+<p>Desegingo ditu Xaun onen geraziak</p>
+<p>Bekatu orainga&ntilde;o egi&ntilde;iko gustiak</p>
+<p>Da gure infantea bioz garbi zalea</p>
+<p>Apareja bekio esse natto bagea <hi rend='Italic'><foreign>(v&aacute;nse todos)</foreign></hi></p>
+<p><hi rend='Italic'><foreign>Dice la Virgen</foreign></hi></p>
+<p><foreign><hi rend='Bold'>VIRGEN:</hi></foreign></p>
+<p>Adorazen zaitut Xainkoa legez</p>
+<p>Laztan egiten deusut semeari legez</p>
+<p><foreign><hi rend='Bold'>SAN JOSE:</hi></foreign></p>
+<p>Zeruak eta lurrak zeureak izanik</p>
+<p>Nola zatoz mundura orren billoxik</p>
+<p>Zer da ori Jauna portale baten</p>
+<p>Guri umildadea erakusterren</p>
+<p>Nola konfundizen ez da mundua</p>
+<p>Admiraturik dago zeru altua</p>
+<p><foreign><hi rend='Bold'>VIRGEN:</hi></foreign></p>
+<p>Eji ene laztanchoa, eji negar tanta bat da asko</p>
+<p>Orainga&ntilde;iko kulpa egi&ntilde;ak deseginzeko</p>
+<p>Amorioak irizi zaituz zerueanik lurrera</p>
+<p>Adanen ume desterraduak zeugana konbertizera</p>
+<p>Magestatea bateti dakuts, besteti umildadea</p>
+<p>Xangoikoa ta gizona zara, milagro parebagea</p>
+<p>Zeureak dira gure biozak, mundu gustia zeurea</p>
+<p>Erakuskuzu Jaun zerukoa, zarala gure xabea</p>
+<p>Eji ene laztantxoa exi: etc.:</p>
+<p><hi rend='Italic'><foreign>Entran los pastores a adorar</foreign></hi></p>
+<p><foreign><hi rend='Bold'>GABRIEL:</hi></foreign></p>
+<p>Lizenzia iguzu birjina santea</p>
+<p>Adoradu daigun zeure infantea</p>
+<p>Zeruko erregea dana bakigu</p>
+<p>Aingeruen aoti aditu degu</p>
+<p><foreign><hi rend='Bold'>VIRGEN:</hi></foreign></p>
+<p>Pastoreak, ea, barrura sar zaitez</p>
+<p>Xaio dan Xaun onekin konsola zaitez</p>
+<p>Eskatu zakio oa askoren</p>
+<p>Umildadeai ez taki ezer ukazen</p>
+<p><foreign><hi rend='Bold'>ARICHA:</hi></foreign></p>
+<p>Adanen bekatua kausa izanik</p>
+<p>Denbora luzean gabilza issurik</p>
+<p>Desegindu beiz zeure argiak</p>
+<p>Gure biozetako odei guztiak</p>
+<p>Pobrero xaio zara Jesus dulzea</p>
+<p>Ediro ezin arren ostatu obea</p>
+<p>Portale ori ichita zatoz geugana</p>
+<p>Bakizu gure biozok, zeureak dirana.</p>
+<p><hi rend='Italic'><foreign>Sale Aseginzoro y dice:</foreign></hi></p>
+<p><foreign><hi rend='Bold'>ASEGINZORO:</hi></foreign></p>
+<p>Mila barrion puntu onetan aditu ditut esean</p>
+<p>Sei&ntilde; eder bat xaioxakula abere biren artean</p>
+<p>Neuk ere gura neuke ikusi chikirritiko gurea</p>
+<p>Ugasabari artuta nator isilik lukainkea</p>
+<p>Trabajo asko kosta jat neure egungo lapurretea</p>
+<p>Ezoixaku sekula falta eskarazen jentea</p>
+<p>Eseko andra noblea dogu bear bere ala nik</p>
+<p>Zerren bestela egongo ninzan oraingo enterradurik</p>
+<p>Gure andreak uste oidau naizala mutil santua</p>
+<p>Echok osorik ediroko lukainken kontua</p>
+<p>Kontazen asi didin orduan, xarririk eskarazean</p>
+<p>Ene kulpea xauxikoda alabearen ga&ntilde;ean</p>
+<p><hi rend='Italic'><foreign>Ofrecen dones los pastores</foreign></hi></p>
+<p><foreign><hi rend='Bold'>GABRIEL:</hi></foreign></p>
+<p>Guchiagaiti parkatu</p>
+<p>Borondatea bakussu</p>
+<p>Zure seme xaun orrendako</p>
+<p>Esne gichi bat dakargu</p>
+<p><foreign><hi rend='Bold'>VIRGEN:</hi></foreign></p>
+<p>Atsegin artu egizu</p>
+<p>Borondatea bakussu</p>
+<p>Beronek borondate on ori</p>
+<p>Pagatuko deussu</p>
+<p><foreign><hi rend='Bold'>GRACIOSO:</hi></foreign></p>
+<p>Falta bajat saria</p>
+<p>Echat falta naia</p>
+<p>Afari onek eruan deust</p>
+<p>Etxean neban gustia</p>
+<p>Trabaxu andi mortal bat</p>
+<p>Andrea opukadu xat</p>
+<p>Mila golpe artuta nago</p>
+<p>Gusti gustiak neuretzat</p>
+<p>Beste marabilla bat</p>
+<p>Neri sucedidu xat</p>
+<p>Nundi ta nola eztakidala</p>
+<p>Neke gustia kendu jat</p>
+<p><foreign><hi rend='Bold'>VIRGEN:</hi></foreign></p>
+<p>Dicha gustia zeruti</p>
+<p>Xaun onen eskuetati</p>
+<p>Biozerean emon bekioz</p>
+<p>Mila grazia beroni</p>
+<p><foreign><hi rend='Bold'>GRACIOSO:</hi></foreign></p>
+<p>Usik banator barkatu</p>
+<p>Borondatea bakussu</p>
+<p>Sekula beti izango naiz ni</p>
+<p>Onen eta zure kriadu</p>
+<p><foreign><hi rend='Bold'>VIRGEN:</hi></foreign></p>
+<p>Atsegin artu egizu</p>
+<p>Borondatea bakusku</p>
+<p>Beronek borondate on ori</p>
+<p>Pagatuko deussu</p>
+<p><foreign><hi rend='Bold'>GRACIOSO:</hi></foreign></p>
+<p>Mesede eske nagozu</p>
+<p>Ezarren orain ukatu</p>
+<p>Jesusikori bear deusat</p>
+<p>Billanziko bat kantadu</p>
+<p>Adi, adi, adi, adi, adiezazuz berba bi</p>
+<p>Azkonarraren azamarchoa ekarriko dot menditi</p>
+<p>Begizkorik eztegizuen bularchorean iseg&iacute;</p>
+<p>Adi Adi</p>
+<p>Goizean bein nik ekarriko</p>
+<p>Esnea zure amari</p>
+<p>Amachok gero egingo deusa</p>
+<p>A&iacute;a semechoari adi adi</p>
+<p>Ezer ekarri bear danean</p>
+<p>kriadu izango naiz ni</p>
+<p>Bearrak pozik egingo ditut</p>
+<p>Sein ederra zeugati.</p>
+<p>Adi adi adiezazuz berba bi.</p>
+<p><foreign><hi rend='Bold'>SAN JOSE:</hi></foreign></p>
+<p>Adanek ausi eban ezkero</p>
+<p>Xaunaren mandamendua</p>
+<p>Miseriazko balle onetan</p>
+<p>Echaku falta llantua</p>
+<p>Konbertibidi llantua gozo</p>
+<p>Konsolabidi mundua</p>
+<p>Guretakotzat jaio da Jesus</p>
+<p>Askoren deseadua</p>
+<p><foreign><hi rend='Bold'>VIRGEN:</hi></foreign></p>
+<p>Biurrerazazuz orain geugana</p>
+<p>Jesussa zure begiak</p>
+<p>Ona nun ofrezizen deusut</p>
+<p>Munduko bioz gustiak</p>
+<p><foreign><hi rend='Bold'>ARICHA:</hi></foreign></p>
+<p>Beste gauzarik eztozu gura</p>
+<p>Ezpada borondatea</p>
+<p>Guradozuna geugaz egizu</p>
+<p>Zaran ezkero xavea</p>
+<p><foreign><hi rend='Bold'>GABRIEL:</hi></foreign></p>
+<p>Milla grazia emon bekioz</p>
+<p>Xaio dan infante oni</p>
+<p>Ainbat favore zelebrazeko</p>
+<p>Danza bat ordenau bidi</p>
+<p><hi rend='Italic'><foreign>== Fin ==</foreign></hi></p>
+<p><hi rend='Italic'><foreign>Canta uno</foreign></hi></p>
+<p><foreign><hi rend='Bold'>CANCION:</hi></foreign></p>
+<p>Gaur dala gabon gaua, gaur dala gabon</p>
+<p>Gaur egiten xaku Xangoikoa gizon</p>
+<p>Osbegi dambolinak, lutua ken bidi</p>
+<p>Fiesta degiogun infante oni</p>
+<p>Zerureanik dator gure artera</p>
+<p>Erratuai bid&iacute;a erakustera</p>
+<p>Emaitera dator milla barri on</p>
+<p>Gaur egiten xaku Xangoikoa gizon</p>
+<p>Ezta besteren eske biozak bakarrik</p>
+<p>Beretzat gura ditu beste bagarik</p>
+<p>Kunplidu egiozu Xaun oni naia</p>
+<p>Beroni sal-erozuz bioz guztia</p>
+<p>Ordeaz bera zeuri, dakizun emon</p>
+<p>Gaur egiten xaku Xangoikoa gizon</p>
+<p><foreign><hi rend='Bold'>LOS REYES MAGOS:</hi></foreign></p>
+<p>Marabilla bat argitu xaku</p>
+<p>Amabi egun danean</p>
+<p>Besteak ba&ntilde;o ederragoa</p>
+<p>Izarbat Orientean.</p>
+        </body>
+      </text>
+      <text>
+        <body>
+<p><mentioned>Bertsio informatiko honen egilea: Mikel Martinez.</mentioned></p>
+        </body>
+      </text>
+    </group>
+  </text>
+</TEI.2>
+
