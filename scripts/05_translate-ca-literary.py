@@ -1,5 +1,5 @@
 """
-01_translate-ca-literary.py
+05_translate-ca-literary.py
 
 Translates literary Spanish paragraphs from CTILC to Basque (es->eu) and/or Catalan (es->ca),
 then re-aligns translations back to the original paragraph structure using
@@ -15,12 +15,12 @@ Output: corpus/corpus_trilingual.json
         para_id, offset_* and aligned_paragraphs are recomputed after alignment.
 
 Usage:
-    python scripts/01_translate-ca-literary.py --langs eu
-    python scripts/01_translate-ca-literary.py --langs ca
-    python scripts/01_translate-ca-literary.py --langs eu ca
-    python scripts/01_translate-ca-literary.py --langs eu ca --resume
-    python scripts/01_translate-ca-literary.py --langs eu --batch-size 256 --max-tokens 512
-    python scripts/01_translate-ca-literary.py --langs ca --batch-size 64
+    python scripts/05_translate-ca-literary.py --langs eu
+    python scripts/05_translate-ca-literary.py --langs ca
+    python scripts/05_translate-ca-literary.py --langs eu ca
+    python scripts/05_translate-ca-literary.py --langs eu ca --resume
+    python scripts/05_translate-ca-literary.py --langs eu --batch-size 256 --max-tokens 512
+    python scripts/05_translate-ca-literary.py --langs ca --batch-size 64
 """
 
 import argparse
@@ -34,9 +34,9 @@ import numpy as np
 
 csv.field_size_limit(sys.maxsize)
 
-CORPUS_DIR   = Path(__file__).parent.parent / "corpus"
-INPUT_JSON   = CORPUS_DIR / "corpus_ca_es_100k_recent.json"
-OUTPUT_JSON  = CORPUS_DIR / "corpus_trilingual.json"
+CORPUS_DIR   = Path(__file__).parent.parent / "sampled-data"
+INPUT_JSON   = CORPUS_DIR / "corpus_ca_es_100k_lit.json"
+OUTPUT_JSON  = Path("backtranslated-corpus/ca-literary_trilingual.json")
 CACHE_DIR    = CORPUS_DIR / ".translation_cache"
 
 LATXA_MODEL   = "HiTZ/Latxa-Llama-3.1-8B-Instruct"

@@ -54,8 +54,8 @@ from tqdm import tqdm
 from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
 
 INPUT_DIR   = Path("literary/eu-literary")
-OUTPUT_DIR  = INPUT_DIR / "output"
-INPUT_JSONL = OUTPUT_DIR / "sampled_pretranslation.jsonl"
+OUTPUT_DIR  = Path("backtranslated-corpus")
+INPUT_JSONL = OUTPUT_DIR / "eu-literary_backtranslated.jsonl"
 
 NLLB_MODEL      = "facebook/nllb-200-3.3B"
 NLLB_SRC        = "eus_Latn"

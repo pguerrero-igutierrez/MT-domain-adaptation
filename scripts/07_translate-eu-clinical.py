@@ -1,5 +1,5 @@
 """
-03_translate-eu-clinical.py
+07_translate-eu-clinical.py
 
 Builds a parallel EU-CA corpus from pre-sampled Basque paragraphs.
 
@@ -43,8 +43,8 @@ import torch
 from tqdm import tqdm
 from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
 
-INPUT_JSON  = Path("parallel_corpus_eu_ca_sampled.json")
-OUTPUT_JSON = Path("parallel_corpus_eu_ca.json")
+INPUT_JSON  = Path("sampled-data/eu-clinical_sampled100k.json")
+OUTPUT_JSON = Path("backtranslated-corpus/eu-clinical_backtranslated.json")
 
 NLLB_MODEL      = "facebook/nllb-200-3.3B"
 NLLB_SRC        = "eus_Latn"
