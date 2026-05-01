@@ -5,7 +5,7 @@ Reads .sgml files from literary/eu-literary/, extracts and parses paragraphs
 from the most recently modified source files and writes a single all.jsonl
 with only source_eu filled in — ready to be fed to the translation step.
 
-Output: literary/eu-literary/output/sampled_pretranslation.jsonl
+Output: sampled-data/eu-literary_sampled100k.jsonl
         Each line: { "doc_id", "para_id", "offset_eu", "source_eu" }
 Requires: no extra dependencies (stdlib only)
 """
@@ -15,10 +15,15 @@ import json
 import re
 from pathlib import Path
 
-INPUT_DIR   = Path("literary/eu-literary")
-OUTPUT_DIR  = INPUT_DIR / "output"
-OUTPUT_FILE = OUTPUT_DIR / "sampled_pretranslation.jsonl"
 
+
+
+
+INPUT_DIR   = Path("data/literary/eu-literary")
+OUTPUT_DIR = Path("sampled-data")
+OUTPUT_FILE = OUTPUT_DIR / "eu-literary_sampled100k.jsonl"
+
+OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 SAMPLE_SIZE = 100_000
 MIN_PARA_LEN = 20
 
@@ -47,7 +52,7 @@ def resolve_entities(text: str) -> str:
 
 def extract_paragraphs(path: Path) -> list[str]:
     try:
-        raw = path.read_text(encoding="utf-8", errors="replace")
+        raw = path.read_text(encoding="latin-1")
     except Exception as e:
         print(f"  [WARN] Could not read {path.name}: {e}")
         return []

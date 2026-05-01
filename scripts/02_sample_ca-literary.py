@@ -8,7 +8,7 @@ Output: corpus/corpus_ca_es_100k_recent.json
         List of records with all original columns preserved.
 Requires: no extra dependencies (stdlib only)
 """
-
+from typing import Optional
 import csv
 import json
 import random
@@ -17,8 +17,8 @@ from collections import defaultdict
 from datetime import datetime
 from pathlib import Path
 
-INPUT_CSV   = Path("corpus/corpus_ca_es.csv")
-OUTPUT_JSON = Path("corpus/corpus_ca_es_100k_recent.json")
+INPUT_CSV   = Path("data/literary/CTILC-paula-ca-es-literary/corpus_ca_es.csv")
+OUTPUT_JSON = Path("sampled-data/corpus_ca_es_100k_lit.json")
 
 SAMPLE_SIZE = 100_000
 YEAR_COLUMN = "year"
@@ -27,7 +27,7 @@ SEED        = 42
 csv.field_size_limit(sys.maxsize)
 
 
-def parse_year(value) -> int | None:
+def parse_year(value) -> Optional[int]:
     if not value:
         return None
     s = str(value).strip()

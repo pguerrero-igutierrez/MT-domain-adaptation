@@ -5,20 +5,20 @@ Reads JSON files from clinical/eu-clinical/, extracts paragraphs
 publication_date (most recent first), accumulates until 100k paragraphs
 are reached, then writes a JSON file ready to be fed to the translation step.
 
-Output: parallel_corpus_eu_ca_sampled.json
+Output: sampled-data/eu-clinical_sampled100k.json
         List of records with all metadata + eu + ca="" fields.
         Drop-in replacement: load and pass directly to run_translation().
 Requires: no extra dependencies (stdlib only)
 """
-
+from typing import Optional
 import json
 import random
 import re
 from datetime import datetime
 from pathlib import Path
 
-EU_DIR      = Path("clinical/eu-clinical")
-OUTPUT_JSON = Path("parallel_corpus_eu_ca_sampled.json")
+EU_DIR      = Path("data/eu-clinical")
+OUTPUT_JSON = Path("sampled-data/eu-clinical_sampled100k.json")
 
 SAMPLE_SIZE  = 100_000
 MIN_PARA_LEN = 20
@@ -53,7 +53,7 @@ def extract_meta(data: dict) -> dict:
     }
 
 
-def parse_date(value) -> datetime | None:
+def parse_date(value) -> Optional[datetime]:
     if not value:
         return None
     s = str(value).strip()
@@ -106,7 +106,7 @@ def main():
     if skipped:
         print(f"  {skipped:,} files with unparseable publication_date (kept, sorted last).")
 
-    file_meta.sort(key=lambda x: (x[0] is None, x[0] if x[0] else datetime.min), reverse=True)
+    file_meta.sort(key=lambda x: x[0] or datetime.min, reverse=True)
 
     print("Accumulating paragraphs from most recent documents...")
     accumulated = []
