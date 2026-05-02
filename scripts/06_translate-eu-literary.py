@@ -59,7 +59,7 @@ from tqdm import tqdm
 from vllm import LLM, SamplingParams
 
 INPUT_JSONL  = Path("sampled-data/ehuhac_sampled_parallel.jsonl")
-OUTPUT_DIR   = Path("backtranslated-corpus/eu-literary-trilingual.jsonl")
+OUTPUT_DIR   = Path("backtranslated-corpus")
 
 MODEL_ID     = "HiTZ/Latxa-Llama-3.1-8B-Instruct"
 BATCH_SIZE   = 64
@@ -200,14 +200,16 @@ def main() -> None:
             args.batch_size, args.max_tokens, "  ES->CA",
         )
 
+        offsets_es = compute_offsets(es_texts)
+        offsets_eu = compute_offsets([r["source_eu"] for r in doc_rows])
         offsets_ca = compute_offsets(ca_translations)
 
         records = [
             {
                 "doc_id":         doc_id,
                 "para_id":        doc_rows[i]["para_id"],
-                "offset_es":      doc_rows[i]["offset_es"],
-                "offset_eu":      doc_rows[i]["offset_eu"],
+                "offset_es":      offsets_es[i],
+                "offset_eu":      offsets_eu[i],
                 "offset_ca":      offsets_ca[i],
                 "source_es":      es_texts[i],
                 "source_eu":      doc_rows[i]["source_eu"],

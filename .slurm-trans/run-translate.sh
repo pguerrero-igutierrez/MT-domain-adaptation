@@ -20,6 +20,6 @@ export TOKENIZERS_PARALLELISM=false
 echo "Job started on $(hostname)"
 echo "Date: $(date)"
 
-python scripts/05_translate-ca-literary.py --langs eu ca --resume --batch-size 32 --max-tokens 512
+python scripts/07_translate-eu-clinical.py
 
 echo "Job finished at $(date)"
