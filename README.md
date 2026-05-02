@@ -22,7 +22,11 @@ https://ctilc.iec.cat/scripts/CTILCCorpus_Descarr.asp
 
 
 TO DO:
-the 3 fine-tuning scripts (general,literary and clinical)
+- Prepare three fine-tuning scripts: general, literary, and clinical
+- Keep the general model as a standalone baseline
+- Fine-tune the in-domain models (literary and clinical separate) starting from the general model
+- Run experiments fine-tuning the in-domain data directly from the base model (without general-domain fine-tuning) for comparison
+- Evaluate Latxa baseline alone, the general-domain model, the general→literary and general→clinical models, as well as the literary-only and clinical-only models
 
 
 
