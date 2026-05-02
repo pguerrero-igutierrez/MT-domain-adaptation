@@ -21,3 +21,8 @@ CA
 https://ctilc.iec.cat/scripts/CTILCCorpus_Descarr.asp
 
 
+ca-literary: translate es to eu (pivoting)
+eu-literary: translate es to ca (pivotong)
+eu-clinical: translate eu to ca directly
+
+
