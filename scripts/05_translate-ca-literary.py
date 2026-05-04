@@ -5,12 +5,11 @@ Translates literary Spanish paragraphs from CTILC to Basque (es->eu) and/or Cata
 then re-aligns translations back to the original paragraph structure using
 the same vecalign DP alignment used in 03_build_corpus.py.
 
-Models:
-    es->eu : HiTZ/Latxa-Llama-3.1-8B-Instruct  (vLLM offline batching)
-    es->ca : facebook/nllb-200-distilled-1.3B   (HuggingFace seq2seq)
+Model:
+    es->eu/ca : HiTZ/Latxa-Llama-3.1-8B-Instruct  (vLLM offline batching)
 
-Reads:  corpus/corpus_ca_es_100k_recent.json
-Output: corpus/corpus_trilingual.json
+Reads:  sampled-data/corpus_ca_es_100k_lit.json
+Output: backtranslated-corpus/ca-literary_trilingual.json
         Fields: all original fields + text_eu + text_ca_back
         para_id, offset_* and aligned_paragraphs are recomputed after alignment.
 
@@ -40,14 +39,13 @@ OUTPUT_JSON  = Path("backtranslated-corpus/ca-literary_trilingual.json")
 CACHE_DIR    = CORPUS_DIR / ".translation_cache"
 
 LATXA_MODEL   = "HiTZ/Latxa-Llama-3.1-8B-Instruct"
-NLLB_MODEL    = "facebook/nllb-200-3.3B"
 EMBED_MODEL   = "intfloat/multilingual-e5-large"
 
 LATXA_SYSTEM    = "Itzultzaile profesional bat zara. Emandako testua euskarara itzuli behar duzu, jatorrizko esanahia eta tonua mantenduz."
 LATXA_USER_TMPL = "Itzuli testu hau euskarara:\n\n{text}"
 
-NLLB_SRC_LANG = "spa_Latn"
-NLLB_TGT_LANG = "cat_Latn"
+LATXA_CA_SYSTEM    = "Ets un traductor professional. Has de traduir el text donat al català, mantenint el significat i el to originals."
+LATXA_CA_USER_TMPL = "Tradueix aquest text al català:\n\n{text}"
 
 NEW_COLS = ["text_eu", "text_ca_back"]
 
@@ -252,40 +250,34 @@ def translate_ca_batch(
     batch_size: int,
     max_tokens: int,
 ) -> list[str]:
-    import torch
-    from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
+    from vllm import LLM, SamplingParams
+    from transformers import AutoTokenizer
 
-    tokenizer  = AutoTokenizer.from_pretrained(NLLB_MODEL)
-    device     = "cuda" if torch.cuda.is_available() else "cpu"
-    model      = AutoModelForSeq2SeqLM.from_pretrained(
-        NLLB_MODEL, torch_dtype=torch.float16
-    ).to(device)
-    model.eval()
-    forced_bos = tokenizer.convert_tokens_to_ids(NLLB_TGT_LANG)
-    print(f"  CA: NLLB loaded on {device}")
+    tokenizer = AutoTokenizer.from_pretrained(LATXA_MODEL)
 
-    results = []
-    for i in range(0, len(texts), batch_size):
-        batch = texts[i : i + batch_size]
-        tokenizer.src_lang = NLLB_SRC_LANG
-        inputs = tokenizer(
-            batch,
-            return_tensors="pt",
-            padding=True,
-            truncation=True,
-            max_length=max_tokens,
-        ).to(device)
-        with torch.no_grad():
-            outputs = model.generate(
-                **inputs,
-                forced_bos_token_id=forced_bos,
-                max_length=max_tokens,
-                num_beams=4,
-            )
-        results.extend(tokenizer.batch_decode(outputs, skip_special_tokens=True))
-        print(f"  CA: {min(i + batch_size, len(texts))}/{len(texts)}", end="\r")
-    print()
-    return results
+    def make_prompt(text: str) -> str:
+        messages = [
+            {"role": "system", "content": LATXA_CA_SYSTEM},
+            {"role": "user",   "content": LATXA_CA_USER_TMPL.format(text=text)},
+        ]
+        return tokenizer.apply_chat_template(
+            messages,
+            tokenize=False,
+            add_generation_prompt=True,
+        )
+
+    llm = LLM(
+        model=LATXA_MODEL,
+        dtype="float16",
+        gpu_memory_utilization=0.90,
+        max_model_len=2048,
+    )
+    sampling_params = SamplingParams(temperature=0.0, max_tokens=max_tokens)
+
+    prompts = [make_prompt(t) for t in texts]
+    print(f"  CA: running vLLM on {len(prompts)} prompts...")
+    outputs = llm.generate(prompts, sampling_params)
+    return [o.outputs[0].text.strip() for o in outputs]
 
 
 def run_translation(

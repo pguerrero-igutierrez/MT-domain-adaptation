@@ -6,8 +6,8 @@
 #SBATCH --time=24:00:00
 #SBATCH --mem=64GB
 #SBATCH --gres=gpu:1
-#SBATCH --output=/home/pguerrero005/MT/MT-domain-adaptation/.slurm-trans/translate_%j.log
-#SBATCH --error=/home/pguerrero005/MT/MT-domain-adaptation/.slurm-trans/translate_%j.err
+#SBATCH --output=/home/pguerrero005/MT/MT-domain-adaptation/.slurm-trans/translateca_%j.log
+#SBATCH --error=/home/pguerrero005/MT/MT-domain-adaptation/.slurm-trans/translateca_%j.err
 #SBATCH --chdir=/home/pguerrero005/MT/MT-domain-adaptation
 
 source /home/pguerrero005/envs/MTproject_3.11/bin/activate
@@ -20,6 +20,8 @@ export TOKENIZERS_PARALLELISM=false
 echo "Job started on $(hostname)"
 echo "Date: $(date)"
 
-python scripts/07_translate-eu-clinical.py
+echo "CUDA_VISIBLE_DEVICES=$CUDA_VISIBLE_DEVICES"
+export CUDA_VISIBLE_DEVICES=${CUDA_VISIBLE_DEVICES:-0}
+python scripts/05_translate-ca-literary.py --langs eu ca --batch-size 64 --max-tokens 1024
 
 echo "Job finished at $(date)"

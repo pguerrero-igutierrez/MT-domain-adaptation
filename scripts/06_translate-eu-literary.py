@@ -169,7 +169,7 @@ def main() -> None:
     args = parser.parse_args()
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    all_output = OUTPUT_DIR / "eu-literary-trilingual.jsonl"
+    all_output = OUTPUT_DIR / "eu-literary-all.jsonl"
 
     groups = load_sampled(INPUT_JSONL)
     done_stems = load_done_stems(OUTPUT_DIR) if args.resume else set()
