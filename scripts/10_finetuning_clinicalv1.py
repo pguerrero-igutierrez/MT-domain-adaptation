@@ -51,7 +51,7 @@ from transformers import (
     TrainingArguments,
 )
 
-BASE_MODEL    = "HiTZ/Latxa-Qwen3-8B-Instruct"
+BASE_MODEL    = "HiTZ/Latxa-Qwen3-VL-8B-Instruct"
 CLINICAL_JSON = Path("backtranslated-corpus/eu-clinical_backtranslated.json")
 OUTPUT_DIR    = Path("outputs/clinicalv1")
 
