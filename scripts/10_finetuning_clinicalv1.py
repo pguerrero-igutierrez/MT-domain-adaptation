@@ -1,7 +1,7 @@
 """
 10_finetuning_clinicalv1.py
 
-Fine-tunes HiTZ/Latxa-Qwen3-8B-Instruct with LoRA for Catalan→Basque
+Fine-tunes HiTZ/Latxa-Qwen3-VL-8B-Instruct with LoRA for Catalan→Basque
 clinical translation using the backtranslated Basque clinical corpus.
 
 Only one direction is available (ca2eu): the corpus provides Catalan as
@@ -43,7 +43,7 @@ import torch
 from datasets import Dataset
 from peft import LoraConfig, TaskType, get_peft_model
 from transformers import (
-    AutoModelForCausalLM,
+    Qwen3VLForConditionalGeneration,
     AutoTokenizer,
     BitsAndBytesConfig,
     DataCollatorForSeq2Seq,
@@ -57,7 +57,7 @@ OUTPUT_DIR    = Path("outputs/clinicalv1")
 
 SEED              = 42
 MAX_LENGTH        = 512
-TRAIN_SPLIT       = 0.80
+TRAIN_SPLIT       = 0.90
 MAX_TRAIN_SAMPLES = None
 
 MIN_SRC_CHARS = 20
@@ -195,7 +195,7 @@ def main() -> None:
         tokenizer.pad_token = tokenizer.eos_token
     tokenizer.padding_side = "right"
 
-    model = AutoModelForCausalLM.from_pretrained(
+    model = Qwen3VLForConditionalGeneration.from_pretrained(
         args.model,
         quantization_config=bnb_config,
         device_map="auto" if torch.cuda.is_available() else "cpu",

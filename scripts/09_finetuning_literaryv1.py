@@ -48,7 +48,7 @@ import torch
 from datasets import Dataset
 from peft import LoraConfig, TaskType, get_peft_model
 from transformers import (
-    AutoModelForCausalLM,
+    Qwen3VLForConditionalGeneration,
     AutoTokenizer,
     BitsAndBytesConfig,
     DataCollatorForSeq2Seq,
@@ -63,7 +63,7 @@ OUTPUT_DIR    = Path("outputs/literaryv1")
 
 SEED              = 42
 MAX_LENGTH        = 512
-TRAIN_SPLIT       = 0.80
+TRAIN_SPLIT       = 0.90
 MAX_TRAIN_SAMPLES = None
 
 INSTRUCTION = {
@@ -244,7 +244,7 @@ def main() -> None:
         tokenizer.pad_token = tokenizer.eos_token
     tokenizer.padding_side = "right"
 
-    model = AutoModelForCausalLM.from_pretrained(
+    model = Qwen3VLForConditionalGeneration.from_pretrained(
         args.model,
         quantization_config=bnb_config,
         device_map="auto" if torch.cuda.is_available() else "cpu",

@@ -1,190 +1,352 @@
-""" 12_finetuning_clinicalv2.py
-
-Continue fine-tuning from 08_finetuning_general.py 
-General data + clinical data (backtranslated-corpus/eu-clinical_backtranslated.json)
-
-"""
-
 """
 12_finetuning_clinicalv2.py
 
-Continue fine-tuning from 08_finetuning_general.py 
-General data + clinical data (backtranslated-corpus/eu-clinical_backtranslated.json)
+Continue fine-tuning from a general-purpose Basque–Catalan translation
+baseline (08_finetuning_general.py output, hosted on HuggingFace Hub) by
+mixing general parallel data with the clinical backtranslation corpus.
+
+Base model
+----------
+A LoRA-merged (or full) checkpoint uploaded to HF after the general
+fine-tuning stage, e.g. "your-org/latxa-qwen3-8b-general-eucat".
+Override with --model.
+
+Data sources
+------------
+Clinical ca2eu : backtranslated-corpus/eu-clinical_backtranslated.json
+    source = ca  →  target = eu
+
+General data   : loaded via --general-jsonl  (ehuhac_parallel format)
+    source_eu / source_es  →  eu2es and es2eu pairs
+    Included as regularisation to prevent forgetting general translation.
+
+Direction instructions
+-----------------------
+ca2eu : "Tradueix aquest text clínic del català al basc:\n\n{source}"
+eu2es : "Itzuli testu hau euskaratik gaztelaniara:\n\n{source}"
+es2eu : "Itzuli testu hau gaztelaniatik euskarara:\n\n{source}"
+
+Strategy
+--------
+- Load HF general baseline (plain merged or PEFT via --is-peft).
+- Oversample clinical data (--clinical-weight, default 2) to bias the
+  mix toward the clinical domain without forgetting general ability.
+- Lower LR (5e-5) and cosine schedule to continue training gently.
+
+Output
+------
+outputs/clinicalv2/   – LoRA adapters + tokenizer
+outputs/test_set_clinical.json  – shared test set (created by v1 if absent)
+
+Usage
+-----
+    python 12_finetuning_clinicalv2.py --model your-org/latxa-qwen3-8b-general-eucat
+    python 12_finetuning_clinicalv2.py --model your-org/... --no-4bit --epochs 2
+    python 12_finetuning_clinicalv2.py --model your-org/... --clinical-weight 3
+    python 12_finetuning_clinicalv2.py --model your-org/... --general-jsonl sampled-data/ehuhac_sampled_parallel.jsonl
 """
 
+import argparse
 import json
+import random
+from pathlib import Path
+
+import numpy as np
 import torch
-from datasets import Dataset, concatenate_datasets
+from datasets import Dataset
+from peft import LoraConfig, PeftModel, TaskType, get_peft_model
 from transformers import (
+    Qwen3VLForConditionalGeneration,
     AutoTokenizer,
-    AutoModelForCausalLM,
-    TrainingArguments,
+    BitsAndBytesConfig,
+    DataCollatorForSeq2Seq,
     Trainer,
-    DataCollatorForSeq2Seq
+    TrainingArguments,
 )
-from peft import LoraConfig, get_peft_model, PeftModel
 
-# =========================
-# CONFIG
-# =========================
-BASE_MODEL = "HiTZ/Latxa-Qwen3-8B-Instruct""
-CHECKPOINT_PATH = "outputs/latxa-ca-eu-bidirectional"  # from script 08
+DEFAULT_BASE_MODEL = "your-org/latxa-qwen3-8b-general-eucat"
 
-GENERAL_DATA_PATH = "sampled-data/ca_eu_50k.json"
-CLINICAL_DATA_PATH = "backtranslated-corpus/eu-clinical_backtranslated.json"
+CLINICAL_JSON = Path("backtranslated-corpus/eu-clinical_backtranslated.json")
+OUTPUT_DIR    = Path("outputs/clinicalv2")
 
-OUTPUT_DIR = "outputs/latxa-ca-eu-clinical-v2"
+SEED              = 42
+MAX_LENGTH        = 512
+TRAIN_SPLIT       = 0.90
+MAX_TRAIN_SAMPLES = None
 
-MAX_LENGTH = 768
+MIN_SRC_CHARS = 20
+MIN_TGT_CHARS = 20
 
-# =========================
-# LOAD GENERAL DATA
-# =========================
-with open(GENERAL_DATA_PATH, "r", encoding="utf-8") as f:
-    general_raw = json.load(f)
+INSTRUCTION = {
+    "ca2eu": "Tradueix aquest text clínic del català al basc:\n\n{source}",
+    "eu2es": "Itzuli testu hau euskaratik gaztelaniara:\n\n{source}",
+    "es2eu": "Itzuli testu hau gaztelaniatik euskarara:\n\n{source}",
+}
 
-def format_bidirectional(example):
-    ca = example["ca"]
-    eu = example["eu"]
 
-    return [
-        {
-            "text": f"<|user|>\ntranslate from catalan to basque:\n{ca}\n<|assistant|>\n{eu}"
-        },
-        {
-            "text": f"<|user|>\ntranslate from basque to catalan:\n{eu}\n<|assistant|>\n{ca}"
-        }
-    ]
+def set_seed(seed: int) -> None:
+    random.seed(seed)
+    np.random.seed(seed)
+    torch.manual_seed(seed)
+    if torch.cuda.is_available():
+        torch.cuda.manual_seed_all(seed)
 
-general_expanded = []
-for ex in general_raw:
-    general_expanded.extend(format_bidirectional(ex))
 
-general_dataset = Dataset.from_list(general_expanded)
+def load_clinical_json(path: Path) -> list[dict]:
+    with open(path, encoding="utf-8") as f:
+        rows = json.load(f)
+    samples = []
+    for r in rows:
+        src = (r.get("ca") or "").strip()
+        tgt = (r.get("eu") or "").strip()
+        if len(src) >= MIN_SRC_CHARS and len(tgt) >= MIN_TGT_CHARS:
+            samples.append({"source": src, "target": tgt, "direction": "ca2eu"})
+    return samples
 
-# =========================
-# LOAD CLINICAL DATA
-# =========================
-with open(CLINICAL_DATA_PATH, "r", encoding="utf-8") as f:
-    clinical_raw = json.load(f)
 
-clinical_expanded = []
-for ex in clinical_raw:
-    clinical_expanded.extend(format_bidirectional(ex))  # assumes same keys (ca, eu)
+def load_general_jsonl(path: Path) -> list[dict]:
+    if not path or not path.exists():
+        return []
+    samples = []
+    with open(path, encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            r = json.loads(line)
+            es = (r.get("source_es") or "").strip()
+            eu = (r.get("source_eu") or "").strip()
+            if len(es) >= MIN_SRC_CHARS and len(eu) >= MIN_TGT_CHARS:
+                samples.append({"source": eu, "target": es, "direction": "eu2es"})
+                samples.append({"source": es, "target": eu, "direction": "es2eu"})
+    return samples
 
-clinical_dataset = Dataset.from_list(clinical_expanded)
 
-# =========================
-# MERGE DATASETS
-# =========================
-dataset = concatenate_datasets([general_dataset, clinical_dataset])
-dataset = dataset.train_test_split(test_size=0.05)
+def build_prompt(sample: dict) -> str:
+    return INSTRUCTION[sample["direction"]].format(source=sample["source"])
 
-# =========================
-# TOKENIZER
-# =========================
-tokenizer = AutoTokenizer.from_pretrained(CHECKPOINT_PATH)
 
-if tokenizer.pad_token is None:
-    tokenizer.pad_token = tokenizer.eos_token
+def print_stats(samples: list[dict], label: str) -> None:
+    by_dir = {}
+    for s in samples:
+        by_dir.setdefault(s["direction"], []).append(s)
+    print(f"\n{label}: {len(samples):,} total")
+    for d, items in sorted(by_dir.items()):
+        print(
+            f"  {d}: {len(items):,} | "
+            f"src_avg={int(np.mean([len(i['source']) for i in items]))} | "
+            f"tgt_avg={int(np.mean([len(i['target']) for i in items]))}"
+        )
 
-# =========================
-# TOKENIZATION (same as script 08)
-# =========================
-def tokenize(example):
-    full_text = example["text"]
 
-    if "<|assistant|>" not in full_text:
-        raise ValueError("Missing assistant tag")
+def print_examples(samples: list[dict], n: int = 3) -> None:
+    print(f"\n--- {n} random examples ---")
+    for s in random.sample(samples, min(n, len(samples))):
+        print(f"  direction : {s['direction']}")
+        print(f"  prompt    : {build_prompt(s)[:120]!r}")
+        print(f"  target    : {s['target'][:80]!r}")
+        print()
 
-    prompt, target = full_text.split("<|assistant|>")
-    prompt += "<|assistant|>"
 
-    prompt_tokens = tokenizer(
-        prompt,
-        truncation=True,
-        max_length=MAX_LENGTH
+def tokenize_fn(examples, tokenizer, max_length):
+    input_ids_list, attention_mask_list, labels_list = [], [], []
+    for prompt, target in zip(examples["prompt"], examples["target"]):
+        full_text  = prompt + target + tokenizer.eos_token
+        enc_full   = tokenizer(full_text, truncation=True, max_length=max_length, padding=False)
+        enc_prompt = tokenizer(prompt,    truncation=True, max_length=max_length, padding=False)
+        prompt_len = len(enc_prompt["input_ids"])
+        labels     = [-100] * prompt_len + enc_full["input_ids"][prompt_len:]
+        input_ids_list.append(enc_full["input_ids"])
+        attention_mask_list.append(enc_full["attention_mask"])
+        labels_list.append(labels)
+    return {"input_ids": input_ids_list, "attention_mask": attention_mask_list, "labels": labels_list}
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--model",             default=DEFAULT_BASE_MODEL,
+                        help="HF repo of the general fine-tuned checkpoint")
+    parser.add_argument("--is-peft",           action="store_true",
+                        help="Set if the HF repo is a PEFT/LoRA checkpoint (not merged)")
+    parser.add_argument("--general-jsonl",     default=None,
+                        help="Path to general parallel data JSONL (ehuhac_parallel format)")
+    parser.add_argument("--clinical-weight",   type=int,   default=2,
+                        help="Repeat clinical samples N times to up-weight domain")
+    parser.add_argument("--output-dir",        default=str(OUTPUT_DIR))
+    parser.add_argument("--epochs",            type=int,   default=3)
+    parser.add_argument("--batch-size",        type=int,   default=4)
+    parser.add_argument("--grad-accum",        type=int,   default=8)
+    parser.add_argument("--lr",                type=float, default=5e-5)
+    parser.add_argument("--max-length",        type=int,   default=MAX_LENGTH)
+    parser.add_argument("--lora-r",            type=int,   default=16)
+    parser.add_argument("--lora-alpha",        type=int,   default=32)
+    parser.add_argument("--lora-drop",         type=float, default=0.05)
+    parser.add_argument("--no-4bit",           action="store_true")
+    parser.add_argument("--seed",              type=int,   default=SEED)
+    parser.add_argument("--max-train-samples", type=int,   default=MAX_TRAIN_SAMPLES,
+                        help="Cap training samples after shuffle (None = use all)")
+    args = parser.parse_args()
+
+    set_seed(args.seed)
+    output_dir = Path(args.output_dir)
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    print("Loading data...")
+    clinical_samples = load_clinical_json(CLINICAL_JSON)
+    general_path     = Path(args.general_jsonl) if args.general_jsonl else None
+    general_samples  = load_general_jsonl(general_path)
+
+    clinical_weighted = clinical_samples * args.clinical_weight
+    all_samples       = clinical_weighted + general_samples
+
+    print(f"  eu-clinical (ca2eu) : {len(clinical_samples):,}  × {args.clinical_weight} = {len(clinical_weighted):,}")
+    print(f"  general (eu↔es)     : {len(general_samples):,}")
+
+    random.shuffle(all_samples)
+
+    split         = int(len(all_samples) * TRAIN_SPLIT)
+    train_samples = all_samples[:split]
+    eval_samples  = all_samples[split:]
+
+    if args.max_train_samples is not None:
+        train_samples = train_samples[:args.max_train_samples]
+        print(f"  Training capped at {len(train_samples):,} samples (--max-train-samples)")
+
+    print_stats(train_samples, "TRAIN")
+    print_stats(eval_samples,  "EVAL")
+    print_examples(train_samples)
+
+    for s in train_samples:
+        s["prompt"] = build_prompt(s)
+    for s in eval_samples:
+        s["prompt"] = build_prompt(s)
+
+    train_ds = Dataset.from_list(train_samples)
+    eval_ds  = Dataset.from_list(eval_samples)
+
+    use_4bit = not args.no_4bit and torch.cuda.is_available()
+    print(f"\nLoading base model from HF: {args.model}  (4-bit={use_4bit})")
+
+    bnb_config = None
+    if use_4bit:
+        bnb_config = BitsAndBytesConfig(
+            load_in_4bit=True,
+            bnb_4bit_quant_type="nf4",
+            bnb_4bit_compute_dtype=torch.bfloat16,
+            bnb_4bit_use_double_quant=True,
+        )
+
+    tokenizer = AutoTokenizer.from_pretrained(args.model, trust_remote_code=True)
+    if tokenizer.pad_token is None:
+        tokenizer.pad_token = tokenizer.eos_token
+    tokenizer.padding_side = "right"
+
+    if args.is_peft:
+        base = Qwen3VLForConditionalGeneration.from_pretrained(
+            args.model,
+            quantization_config=bnb_config,
+            device_map="auto" if torch.cuda.is_available() else "cpu",
+            torch_dtype=torch.bfloat16 if not use_4bit else None,
+            trust_remote_code=True,
+        )
+        model = PeftModel.from_pretrained(base, args.model)
+        model = model.merge_and_unload()
+    else:
+        model = Qwen3VLForConditionalGeneration.from_pretrained(
+            args.model,
+            quantization_config=bnb_config,
+            device_map="auto" if torch.cuda.is_available() else "cpu",
+            torch_dtype=torch.bfloat16 if not use_4bit else None,
+            trust_remote_code=True,
+        )
+
+    model.config.use_cache = False
+
+    lora_config = LoraConfig(
+        task_type=TaskType.CAUSAL_LM,
+        r=args.lora_r,
+        lora_alpha=args.lora_alpha,
+        lora_dropout=args.lora_drop,
+        target_modules=[
+            "q_proj", "k_proj", "v_proj", "o_proj",
+            "gate_proj", "up_proj", "down_proj",
+        ],
+        bias="none",
+    )
+    model = get_peft_model(model, lora_config)
+    model.print_trainable_parameters()
+
+    tok_kwargs = dict(tokenizer=tokenizer, max_length=args.max_length)
+    train_ds = train_ds.map(
+        lambda ex: tokenize_fn(ex, **tok_kwargs),
+        batched=True,
+        remove_columns=train_ds.column_names,
+    )
+    eval_ds = eval_ds.map(
+        lambda ex: tokenize_fn(ex, **tok_kwargs),
+        batched=True,
+        remove_columns=eval_ds.column_names,
     )
 
-    full_tokens = tokenizer(
-        full_text,
-        truncation=True,
-        max_length=MAX_LENGTH
+    bf16_avail = torch.cuda.is_available() and torch.cuda.is_bf16_supported()
+
+    training_args = TrainingArguments(
+        output_dir=str(output_dir),
+        num_train_epochs=args.epochs,
+        per_device_train_batch_size=args.batch_size,
+        per_device_eval_batch_size=args.batch_size,
+        gradient_accumulation_steps=args.grad_accum,
+        learning_rate=args.lr,
+        lr_scheduler_type="cosine",
+        warmup_ratio=0.05,
+        bf16=bf16_avail,
+        fp16=not bf16_avail and torch.cuda.is_available(),
+        logging_steps=50,
+        eval_strategy="epoch",
+        save_strategy="epoch",
+        save_total_limit=2,
+        load_best_model_at_end=True,
+        metric_for_best_model="eval_loss",
+        report_to="none",
+        seed=args.seed,
+        dataloader_num_workers=4,
+        ddp_find_unused_parameters=False,
     )
 
-    input_ids = full_tokens["input_ids"]
-    attention_mask = full_tokens["attention_mask"]
+    collator = DataCollatorForSeq2Seq(
+        tokenizer=tokenizer,
+        model=model,
+        padding=True,
+        pad_to_multiple_of=8,
+        label_pad_token_id=-100,
+    )
 
-    labels = input_ids.copy()
+    trainer = Trainer(
+        model=model,
+        args=training_args,
+        train_dataset=train_ds,
+        eval_dataset=eval_ds,
+        data_collator=collator,
+    )
 
-    prompt_len = len(prompt_tokens["input_ids"])
-    labels[:prompt_len] = [-100] * prompt_len
+    print("\nStarting continued clinical fine-tuning...")
+    trainer.train()
 
-    return {
-        "input_ids": input_ids,
-        "attention_mask": attention_mask,
-        "labels": labels
-    }
+    print(f"\nSaving adapters to {output_dir}")
+    model.save_pretrained(str(output_dir))
+    tokenizer.save_pretrained(str(output_dir))
 
-dataset = dataset.map(tokenize, remove_columns=dataset["train"].column_names)
+    test_set_path = Path("outputs/test_set_clinical.json")
+    test_set_path.parent.mkdir(parents=True, exist_ok=True)
+    if not test_set_path.exists():
+        with open(test_set_path, "w", encoding="utf-8") as f:
+            json.dump(eval_samples, f, ensure_ascii=False, indent=2)
+        print(f"Test set saved -> {test_set_path}")
+    else:
+        print(f"Test set already exists, not overwriting -> {test_set_path}")
 
-# =========================
-# LOAD MODEL + LORA
-# =========================
-base_model = AutoModelForCausalLM.from_pretrained(
-    BASE_MODEL,
-    torch_dtype=torch.float16,
-    device_map="auto",
-    use_cache=False
-)
+    print("Done.")
 
-# Load LoRA weights from previous training
-model = PeftModel.from_pretrained(base_model, CHECKPOINT_PATH)
 
-model.print_trainable_parameters()
-
-# =========================
-# TRAINING
-# =========================
-training_args = TrainingArguments(
-    output_dir=OUTPUT_DIR,
-    per_device_train_batch_size=4,
-    gradient_accumulation_steps=4,
-    num_train_epochs=2,  # slightly fewer epochs for continued tuning
-    learning_rate=1e-4,  # lower LR for stability
-    fp16=True,
-    logging_steps=50,
-    save_steps=500,
-    save_total_limit=2,
-    evaluation_strategy="steps",
-    eval_steps=500,
-    report_to="none",
-    optim="adamw_torch",
-    lr_scheduler_type="cosine",
-    warmup_ratio=0.03
-)
-
-data_collator = DataCollatorForSeq2Seq(
-    tokenizer=tokenizer,
-    model=model,
-    padding=True
-)
-
-trainer = Trainer(
-    model=model,
-    train_dataset=dataset["train"],
-    eval_dataset=dataset["test"],
-    args=training_args,
-    data_collator=data_collator
-)
-
-# =========================
-# TRAIN
-# =========================
-trainer.train()
-
-# =========================
-# SAVE
-# =========================
-trainer.model.save_pretrained(OUTPUT_DIR)
-tokenizer.save_pretrained(OUTPUT_DIR)
+if __name__ == "__main__":
+    main()
