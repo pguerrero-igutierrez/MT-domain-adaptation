@@ -56,7 +56,7 @@ from transformers import (
     TrainingArguments,
 )
 
-BASE_MODEL    = "HiTZ/Latxa-Qwen3-8B-Instruct"
+BASE_MODEL    = "HiTZ/Latxa-Qwen3-VL-8B-Instruct"
 CA_JSON       = Path("backtranslated-corpus/ca-literary_trilingual.json")
 EU_JSONL      = Path("backtranslated-corpus/eu-literary-trilingual.jsonl")
 OUTPUT_DIR    = Path("outputs/literaryv1")
