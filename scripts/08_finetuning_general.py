@@ -1,7 +1,7 @@
 """
 08_finetuning_general.py
 
-Fine-tunes HiTZ/Latxa-Qwen3-8B-Instruct with LoRA on general-domain
+Fine-tunes HiTZ/Latxa-Qwen3-VL-8B-Instruct with LoRA on general-domain
 Catalan–Basque parallel data from AINA for bidirectional translation in a
 single model using explicit direction instructions per training example.
 
@@ -56,7 +56,7 @@ from transformers import (
     TrainingArguments,
 )
 
-BASE_MODEL    = "HiTZ/Latxa-Qwen3-8B-Instruct"
+BASE_MODEL    = "HiTZ/Latxa-Qwen3-VL-8B-Instruct"
 INPUT_JSON    = Path("sampled-data/ca_eu_50k.json")
 OUTPUT_DIR    = Path("outputs/generalv1")
 
