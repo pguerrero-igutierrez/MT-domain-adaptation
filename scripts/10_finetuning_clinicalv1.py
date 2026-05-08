@@ -19,10 +19,14 @@ Instruction template
 ---------------------
 ca2eu: "Tradueix aquest text clínic del català al basc:\n\n{source}"
 
+Split
+-----
+90 % train / 5 % valid / 5 % test
+
 Output
 ------
-outputs/clinicalv1/   – LoRA adapters + tokenizer
-outputs/test_set_clinical.json  – held-out 10 % test set (shared with v2)
+outputs/clinicalv1/              – LoRA adapters + tokenizer
+outputs/test_set_clinical.json   – held-out 5 % test set (shared with v2)
 
 Usage
 -----
@@ -41,7 +45,7 @@ from pathlib import Path
 import numpy as np
 import torch
 from datasets import Dataset
-from peft import LoraConfig, TaskType, get_peft_model
+from peft import LoraConfig, TaskType, get_peft_model, prepare_model_for_kbit_training
 from transformers import (
     Qwen3VLForConditionalGeneration,
     AutoTokenizer,
@@ -56,12 +60,14 @@ CLINICAL_JSON = Path("backtranslated-corpus/eu-clinical_backtranslated.json")
 OUTPUT_DIR    = Path("outputs/clinicalv1")
 
 SEED              = 42
-MAX_LENGTH        = 512
+MAX_LENGTH        = 768
 TRAIN_SPLIT       = 0.90
+VALID_SPLIT       = 0.05
 MAX_TRAIN_SAMPLES = None
 
 MIN_SRC_CHARS = 20
 MIN_TGT_CHARS = 20
+MAX_LEN_RATIO = 3.0
 
 INSTRUCTION = {
     "ca2eu": "Tradueix aquest text clínic del català al basc:\n\n{source}",
@@ -83,8 +89,12 @@ def load_clinical_json(path: Path) -> list[dict]:
     for r in rows:
         src = (r.get("ca") or "").strip()
         tgt = (r.get("eu") or "").strip()
-        if len(src) >= MIN_SRC_CHARS and len(tgt) >= MIN_TGT_CHARS:
-            samples.append({"source": src, "target": tgt, "direction": "ca2eu"})
+        if len(src) < MIN_SRC_CHARS or len(tgt) < MIN_TGT_CHARS:
+            continue
+        ratio = max(len(src), len(tgt)) / max(1, min(len(src), len(tgt)))
+        if ratio > MAX_LEN_RATIO:
+            continue
+        samples.append({"source": src, "target": tgt, "direction": "ca2eu"})
     return samples
 
 
@@ -137,7 +147,7 @@ def main() -> None:
     parser.add_argument("--epochs",            type=int,   default=3)
     parser.add_argument("--batch-size",        type=int,   default=4)
     parser.add_argument("--grad-accum",        type=int,   default=8)
-    parser.add_argument("--lr",                type=float, default=1e-4)
+    parser.add_argument("--lr",                type=float, default=5e-5)
     parser.add_argument("--max-length",        type=int,   default=MAX_LENGTH)
     parser.add_argument("--lora-r",            type=int,   default=16)
     parser.add_argument("--lora-alpha",        type=int,   default=32)
@@ -158,25 +168,32 @@ def main() -> None:
 
     random.shuffle(all_samples)
 
-    split         = int(len(all_samples) * TRAIN_SPLIT)
-    train_samples = all_samples[:split]
-    eval_samples  = all_samples[split:]
+    n = len(all_samples)
+    train_end = int(n * TRAIN_SPLIT)
+    valid_end = train_end + int(n * VALID_SPLIT)
+
+    train_samples = all_samples[:train_end]
+    valid_samples = all_samples[train_end:valid_end]
+    test_samples  = all_samples[valid_end:]
 
     if args.max_train_samples is not None:
         train_samples = train_samples[:args.max_train_samples]
         print(f"  Training capped at {len(train_samples):,} samples (--max-train-samples)")
 
     print_stats(train_samples, "TRAIN")
-    print_stats(eval_samples,  "EVAL")
+    print_stats(valid_samples, "VALID")
+    print_stats(test_samples,  "TEST")
     print_examples(train_samples)
 
     for s in train_samples:
         s["prompt"] = build_prompt(s)
-    for s in eval_samples:
+    for s in valid_samples:
+        s["prompt"] = build_prompt(s)
+    for s in test_samples:
         s["prompt"] = build_prompt(s)
 
     train_ds = Dataset.from_list(train_samples)
-    eval_ds  = Dataset.from_list(eval_samples)
+    eval_ds  = Dataset.from_list(valid_samples)
 
     use_4bit = not args.no_4bit and torch.cuda.is_available()
     print(f"\nLoading model: {args.model}  (4-bit={use_4bit})")
@@ -204,6 +221,9 @@ def main() -> None:
     )
     model.config.use_cache = False
 
+    if use_4bit:
+        model = prepare_model_for_kbit_training(model)
+
     lora_config = LoraConfig(
         task_type=TaskType.CAUSAL_LM,
         r=args.lora_r,
@@ -217,6 +237,8 @@ def main() -> None:
     )
     model = get_peft_model(model, lora_config)
     model.print_trainable_parameters()
+
+    model.gradient_checkpointing_enable()
 
     tok_kwargs = dict(tokenizer=tokenizer, max_length=args.max_length)
     train_ds = train_ds.map(
@@ -282,7 +304,7 @@ def main() -> None:
     test_set_path.parent.mkdir(parents=True, exist_ok=True)
     if not test_set_path.exists():
         with open(test_set_path, "w", encoding="utf-8") as f:
-            json.dump(eval_samples, f, ensure_ascii=False, indent=2)
+            json.dump(test_samples, f, ensure_ascii=False, indent=2)
         print(f"Test set saved -> {test_set_path}")
     else:
         print(f"Test set already exists, not overwriting -> {test_set_path}")
