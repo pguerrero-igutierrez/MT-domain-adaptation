@@ -1,7 +1,7 @@
 """
-evaluate-literary.py
+evaluate-clinical.py
 
-Evaluates fine-tuned literary translation models (literaryv1 / literaryv2)
+Evaluates fine-tuned clinical translation models (clinicalv1 / clinicalv2)
 on the held-out 5 % test split used during training.
 
 Pass --test-file to load a pre-saved JSON test set.
@@ -9,7 +9,7 @@ Pass --test-file to load a pre-saved JSON test set.
 Models evaluated
 ----------------
 Any checkpoint directory or HF repo with LoRA adapters trained by
-09_finetuning_literaryv1.py or 11_finetuning_literaryv2.py.
+10_finetuning_clinicalv1.py or 12_finetuning_clinicalv2.py.
 
 Metrics (per direction and overall)
 ------------------------------------
@@ -20,8 +20,7 @@ Metrics (per direction and overall)
 
 Data sources (same as training)
 --------------------------------
-backtranslated-corpus/ca-literary_trilingual.json   eu2ca
-backtranslated-corpus/eu-literary-EhuHac.jsonl      ca2eu
+backtranslated-corpus/eu-clinical_backtranslated.json   ca2eu
 
 Output
 ------
@@ -31,13 +30,12 @@ Saves full results + per-sample outputs to:
 
 Usage
 -----
-    python 10_evaluate_literary.py --model outputs/literaryv1 --test-file outputs/test_set_literary.json
-    python 10_evaluate_literary.py --model outputs/literaryv2 --test-file outputs/test_set_literary.json
+    python evaluate-clinical.py --model outputs/clinicalv1 --test-file outputs/test_set_clinical.json
+    python evaluate-clinical.py --model outputs/clinicalv2 --test-file outputs/test_set_clinical.json
     
-    python 10_evaluate_literary.py --model outputs/literaryv1
-    python 10_evaluate_literary.py --model outputs/literaryv2 --run-name v2
-    python 10_evaluate_literary.py --model outputs/literaryv1 --directions eu2ca
-    python 10_evaluate_literary.py --model outputs/literaryv1 --max-samples 500 --batch-size 8
+    python evaluate-clinical.py --model outputs/clinicalv1
+    python evaluate-clinical.py --model outputs/clinicalv2 --run-name v2
+    python evaluate-clinical.py --model outputs/clinicalv1 --max-samples 500 --batch-size 8
 """
 
 import argparse
@@ -53,9 +51,8 @@ from sacrebleu.metrics import BLEU, CHRF, TER
 from tqdm import tqdm
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-CA_JSON      = Path("backtranslated-corpus/ca-literary_trilingual.json")
-EU_JSONL     = Path("backtranslated-corpus/eu-literary-EhuHac.jsonl")
-OUTPUT_DIR   = Path("outputs/eval")
+CLINICAL_JSON = Path("backtranslated-corpus/eu-clinical_backtranslated.json")
+OUTPUT_DIR    = Path("outputs/eval")
 
 SEED          = 42
 TRAIN_SPLIT   = 0.90
@@ -65,8 +62,7 @@ MIN_TGT_CHARS = 20
 MAX_LEN_RATIO = 3.0
 
 INSTRUCTION = {
-    "eu2ca": "Itzuli testu hau euskaratik katalanera:\n\n{source}",
-    "ca2eu": "Tradueix aquest text del català al basc:\n\n{source}",
+    "ca2eu": "Tradueix aquest text clínic del català al basc:\n\n{source}",
 }
 
 
@@ -76,53 +72,33 @@ def set_seed(seed: int) -> None:
     torch.manual_seed(seed)
 
 
-def load_ca_json(path: Path) -> list[dict]:
+def load_clinical_json(path: Path) -> list[dict]:
     with open(path, encoding="utf-8") as f:
         rows = json.load(f)
     samples = []
     for r in rows:
-        src = (r.get("text_eu") or "").strip()
-        tgt = (r.get("text_ca") or "").strip()
+        src = (r.get("ca") or "").strip()
+        tgt = (r.get("eu") or "").strip()
         if len(src) < MIN_SRC_CHARS or len(tgt) < MIN_TGT_CHARS:
             continue
         ratio = max(len(src), len(tgt)) / max(1, min(len(src), len(tgt)))
         if ratio > MAX_LEN_RATIO:
             continue
-        samples.append({"source": src, "target": tgt, "direction": "eu2ca"})
+        samples.append({"source": src, "target": tgt, "direction": "ca2eu"})
     return samples
 
 
-def load_eu_jsonl(path: Path) -> list[dict]:
-    samples = []
-    with open(path, encoding="utf-8") as f:
-        for line in f:
-            line = line.strip()
-            if not line:
-                continue
-            r = json.loads(line)
-            src = (r.get("ca_translation") or "").strip()
-            tgt = (r.get("source_eu") or "").strip()
-            if len(src) < MIN_SRC_CHARS or len(tgt) < MIN_TGT_CHARS:
-                continue
-            ratio = max(len(src), len(tgt)) / max(1, min(len(src), len(tgt)))
-            if ratio > MAX_LEN_RATIO:
-                continue
-            samples.append({"source": src, "target": tgt, "direction": "ca2eu"})
-    return samples
-
-
-def reconstruct_test_set(literary_weight: int = 1) -> list[dict]:
+def reconstruct_test_set(clinical_weight: int = 1) -> list[dict]:
     set_seed(SEED)
-    ca_samples = load_ca_json(CA_JSON)
-    eu_samples = load_eu_jsonl(EU_JSONL)
+    clinical_samples = load_clinical_json(CLINICAL_JSON)
 
-    literary = (ca_samples + eu_samples) * literary_weight
-    random.shuffle(literary)
+    clinical = clinical_samples * clinical_weight
+    random.shuffle(clinical)
 
-    n = len(literary)
+    n = len(clinical)
     train_end = int(n * TRAIN_SPLIT)
     valid_end = train_end + int(n * VALID_SPLIT)
-    test_samples = literary[valid_end:]
+    test_samples = clinical[valid_end:]
     
     return test_samples
 
@@ -243,6 +219,8 @@ def print_table(results: dict) -> None:
     print(header)
     print("-" * len(header))
     for d in all_dirs:
+        if d not in results:
+            continue
         m = results[d]
         row = (
             f"{d:<12}"
@@ -271,15 +249,15 @@ def print_samples(per_sample: list[dict], n: int = 5) -> None:
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--model",           required=True,
-                        help="Path to fine-tuned checkpoint (outputs/literaryv1 or outputs/literaryv2)")
+                        help="Path to fine-tuned checkpoint (outputs/clinicalv1 or outputs/clinicalv2)")
     parser.add_argument("--run-name",        default=None,
                         help="Name for output file (defaults to model dir name)")
     parser.add_argument("--test-file",       default=None,
                         help="Pre-saved JSON test set. If not given, reconstructs from data files.")
-    parser.add_argument("--literary-weight", type=int, default=1,
-                        help="Must match the --literary-weight used in training (default 1 for v1, 2 for v2)")
-    parser.add_argument("--directions",      nargs="+", choices=["eu2ca", "ca2eu"],
-                        default=["eu2ca", "ca2eu"],
+    parser.add_argument("--clinical-weight", type=int, default=1,
+                        help="Must match the --clinical-weight used in training (default 1 for v1, 2 for v2)")
+    parser.add_argument("--directions",      nargs="+", choices=["ca2eu"],
+                        default=["ca2eu"],
                         help="Which directions to evaluate")
     parser.add_argument("--max-samples",     type=int, default=None,
                         help="Cap samples per direction (useful for quick smoke-test)")
@@ -300,7 +278,7 @@ def main() -> None:
         print(f"  {len(test_samples):,} samples loaded.")
     else:
         print("Reconstructing test set (seed=42, same split as training)...")
-        test_samples = reconstruct_test_set(literary_weight=args.literary_weight)
+        test_samples = reconstruct_test_set(clinical_weight=args.clinical_weight)
         print(f"  {len(test_samples):,} test samples reconstructed.")
 
     test_samples = [s for s in test_samples if s["direction"] in args.directions]

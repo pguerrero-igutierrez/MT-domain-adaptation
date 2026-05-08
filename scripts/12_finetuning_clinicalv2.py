@@ -1,51 +1,3 @@
-"""
-12_finetuning_clinicalv2.py
-
-Continue fine-tuning from a general-purpose Basque–Catalan translation
-baseline (08_finetuning_general.py output, hosted on HuggingFace Hub) by
-mixing general parallel data with the clinical backtranslation corpus.
-
-Base model
-----------
-A LoRA-merged (or full) checkpoint uploaded to HF after the general
-fine-tuning stage, e.g. "your-org/latxa-qwen3-8b-general-eucat".
-Override with --model.
-
-Data sources
-------------
-Clinical ca2eu : backtranslated-corpus/eu-clinical_backtranslated.json
-    source = ca  →  target = eu
-
-General data   : loaded via --general-jsonl  (ehuhac_parallel format)
-    source_eu / source_es  →  eu2es and es2eu pairs
-    Included as regularisation to prevent forgetting general translation.
-
-Direction instructions
------------------------
-ca2eu : "Tradueix aquest text clínic del català al basc:\n\n{source}"
-eu2es : "Itzuli testu hau euskaratik gaztelaniara:\n\n{source}"
-es2eu : "Itzuli testu hau gaztelaniatik euskarara:\n\n{source}"
-
-Strategy
---------
-- Load HF general baseline (plain merged or PEFT via --is-peft).
-- Oversample clinical data (--clinical-weight, default 2) to bias the
-  mix toward the clinical domain without forgetting general ability.
-- Lower LR (5e-5) and cosine schedule to continue training gently.
-
-Output
-------
-outputs/clinicalv2/   – LoRA adapters + tokenizer
-outputs/test_set_clinical.json  – shared test set (created by v1 if absent)
-
-Usage
------
-    python 12_finetuning_clinicalv2.py --model your-org/latxa-qwen3-8b-general-eucat
-    python 12_finetuning_clinicalv2.py --model your-org/... --no-4bit --epochs 2
-    python 12_finetuning_clinicalv2.py --model your-org/... --clinical-weight 3
-    python 12_finetuning_clinicalv2.py --model your-org/... --general-jsonl sampled-data/ehuhac_sampled_parallel.jsonl
-"""
-
 import argparse
 import json
 import random
@@ -54,7 +6,7 @@ from pathlib import Path
 import numpy as np
 import torch
 from datasets import Dataset
-from peft import LoraConfig, PeftModel, TaskType, get_peft_model
+from peft import LoraConfig, PeftModel, TaskType, get_peft_model, prepare_model_for_kbit_training
 from transformers import (
     Qwen3VLForConditionalGeneration,
     AutoTokenizer,
@@ -70,12 +22,14 @@ CLINICAL_JSON = Path("backtranslated-corpus/eu-clinical_backtranslated.json")
 OUTPUT_DIR    = Path("outputs/clinicalv2")
 
 SEED              = 42
-MAX_LENGTH        = 512
+MAX_LENGTH        = 768
 TRAIN_SPLIT       = 0.90
+VALID_SPLIT       = 0.05
 MAX_TRAIN_SAMPLES = None
 
 MIN_SRC_CHARS = 20
 MIN_TGT_CHARS = 20
+MAX_LEN_RATIO = 3.0
 
 INSTRUCTION = {
     "ca2eu": "Tradueix aquest text clínic del català al basc:\n\n{source}",
@@ -99,8 +53,12 @@ def load_clinical_json(path: Path) -> list[dict]:
     for r in rows:
         src = (r.get("ca") or "").strip()
         tgt = (r.get("eu") or "").strip()
-        if len(src) >= MIN_SRC_CHARS and len(tgt) >= MIN_TGT_CHARS:
-            samples.append({"source": src, "target": tgt, "direction": "ca2eu"})
+        if len(src) < MIN_SRC_CHARS or len(tgt) < MIN_TGT_CHARS:
+            continue
+        ratio = max(len(src), len(tgt)) / max(1, min(len(src), len(tgt)))
+        if ratio > MAX_LEN_RATIO:
+            continue
+        samples.append({"source": src, "target": tgt, "direction": "ca2eu"})
     return samples
 
 
@@ -116,9 +74,13 @@ def load_general_jsonl(path: Path) -> list[dict]:
             r = json.loads(line)
             es = (r.get("source_es") or "").strip()
             eu = (r.get("source_eu") or "").strip()
-            if len(es) >= MIN_SRC_CHARS and len(eu) >= MIN_TGT_CHARS:
-                samples.append({"source": eu, "target": es, "direction": "eu2es"})
-                samples.append({"source": es, "target": eu, "direction": "es2eu"})
+            if len(es) < MIN_SRC_CHARS or len(eu) < MIN_TGT_CHARS:
+                continue
+            ratio = max(len(es), len(eu)) / max(1, min(len(es), len(eu)))
+            if ratio > MAX_LEN_RATIO:
+                continue
+            samples.append({"source": eu, "target": es, "direction": "eu2es"})
+            samples.append({"source": es, "target": eu, "direction": "es2eu"})
     return samples
 
 
@@ -204,25 +166,32 @@ def main() -> None:
 
     random.shuffle(all_samples)
 
-    split         = int(len(all_samples) * TRAIN_SPLIT)
-    train_samples = all_samples[:split]
-    eval_samples  = all_samples[split:]
+    n = len(all_samples)
+    train_end = int(n * TRAIN_SPLIT)
+    valid_end = train_end + int(n * VALID_SPLIT)
+
+    train_samples = all_samples[:train_end]
+    valid_samples = all_samples[train_end:valid_end]
+    test_samples  = all_samples[valid_end:]
 
     if args.max_train_samples is not None:
         train_samples = train_samples[:args.max_train_samples]
         print(f"  Training capped at {len(train_samples):,} samples (--max-train-samples)")
 
     print_stats(train_samples, "TRAIN")
-    print_stats(eval_samples,  "EVAL")
+    print_stats(valid_samples, "VALID")
+    print_stats(test_samples,  "TEST")
     print_examples(train_samples)
 
     for s in train_samples:
         s["prompt"] = build_prompt(s)
-    for s in eval_samples:
+    for s in valid_samples:
+        s["prompt"] = build_prompt(s)
+    for s in test_samples:
         s["prompt"] = build_prompt(s)
 
     train_ds = Dataset.from_list(train_samples)
-    eval_ds  = Dataset.from_list(eval_samples)
+    eval_ds  = Dataset.from_list(valid_samples)
 
     use_4bit = not args.no_4bit and torch.cuda.is_available()
     print(f"\nLoading base model from HF: {args.model}  (4-bit={use_4bit})")
@@ -262,6 +231,9 @@ def main() -> None:
 
     model.config.use_cache = False
 
+    if use_4bit:
+        model = prepare_model_for_kbit_training(model)
+
     lora_config = LoraConfig(
         task_type=TaskType.CAUSAL_LM,
         r=args.lora_r,
@@ -275,6 +247,8 @@ def main() -> None:
     )
     model = get_peft_model(model, lora_config)
     model.print_trainable_parameters()
+
+    model.gradient_checkpointing_enable()
 
     tok_kwargs = dict(tokenizer=tokenizer, max_length=args.max_length)
     train_ds = train_ds.map(
@@ -340,7 +314,7 @@ def main() -> None:
     test_set_path.parent.mkdir(parents=True, exist_ok=True)
     if not test_set_path.exists():
         with open(test_set_path, "w", encoding="utf-8") as f:
-            json.dump(eval_samples, f, ensure_ascii=False, indent=2)
+            json.dump(test_samples, f, ensure_ascii=False, indent=2)
         print(f"Test set saved -> {test_set_path}")
     else:
         print(f"Test set already exists, not overwriting -> {test_set_path}")
