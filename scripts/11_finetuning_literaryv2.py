@@ -303,13 +303,19 @@ def main() -> None:
     tokenizer.padding_side = "right"
 
     if args.is_peft:
+        with open(Path(args.model) / "adapter_config.json") as f:
+            adapter_cfg = json.load(f)
+        base_model_name = adapter_cfg.get("base_model_name_or_path")
+        print(f"Loading base model: {base_model_name}")
+        
         base = Qwen3VLForConditionalGeneration.from_pretrained(
-            args.model,
+            base_model_name,
             quantization_config=bnb_config,
             device_map="auto" if torch.cuda.is_available() else "cpu",
             torch_dtype=torch.bfloat16 if not use_4bit else None,
             trust_remote_code=True,
         )
+
         model = PeftModel.from_pretrained(base, args.model)
         model = model.merge_and_unload()
     else:
