@@ -25,7 +25,6 @@ from sacrebleu.metrics import BLEU, CHRF, TER
 from tqdm import tqdm
 from transformers import AutoModelForVision2Seq, AutoTokenizer
 
-# Suppress excessive PyTorch Lightning warnings from COMET
 logging.getLogger("pytorch_lightning").setLevel(logging.WARNING)
 from comet import download_model as download_comet
 from comet import load_from_checkpoint as load_comet
@@ -207,6 +206,8 @@ def compute_metrics(sources: list[str], hypotheses: list[str], references: list[
     }
 
 def print_table(results: dict) -> None:
+    if not results:
+        return
     all_dirs = [k for k in results if k != "overall"] + (["overall"] if "overall" in results else [])
     col_w = 10
     header = f"{'Direction':<12}" + "".join(f"{m:>{col_w}}" for m in ["chrF++", "BLEU", "TER", "COMET", "LenRatio", "N"])
@@ -214,9 +215,10 @@ def print_table(results: dict) -> None:
     print(header)
     print("-" * len(header))
     for d in all_dirs:
+        if d not in results: continue
         m = results[d]
         if d == "overall": print("-" * len(header))
-        print(f"{d:<12}{m['chrF++']:>{col_w}.2f}{m['BLEU']:>{col_w}.2f}{m['TER']:>{col_w}.2f}{m['COMET']:>{col_w}.2f}{m['length_ratio']:>{col_w}.3f}{m['n_samples']:>{col_w}}")
+        print(f"{d:<12}{m.get('chrF++', 0.0):>{col_w}.2f}{m.get('BLEU', 0.0):>{col_w}.2f}{m.get('TER', 0.0):>{col_w}.2f}{m.get('COMET', 0.0):>{col_w}.2f}{m.get('length_ratio', 0.0):>{col_w}.3f}{m.get('n_samples', 0):>{col_w}}")
     print("=" * len(header))
 
 # --- MAIN ---
@@ -302,26 +304,47 @@ def main() -> None:
                 hypotheses.extend(generate_batch(model, tokenizer, batch_prompts, args.max_new_tokens))
             elapsed = time.time() - t0
 
-            metrics = compute_metrics(sources, hypotheses, references, comet_evaluator)
-            metrics["seconds"] = round(elapsed, 1)
-            all_results[direction] = metrics
-
+            # 1. Inference
+            direction_out = []
             for s, hyp, ref in zip(samples, hypotheses, references):
-                per_sample_out.append({"direction": direction, "source": s["source"], "reference": ref, "hypothesis": hyp})
+                item = {"direction": direction, "source": s["source"], "reference": ref, "hypothesis": hyp}
+                direction_out.append(item)
+                per_sample_out.append(item)
+            
+            backup_path = OUTPUT_DIR / f"{run_name}_{args.task}_{direction}_backup.json"
+            with open(backup_path, "w", encoding="utf-8") as f:
+                json.dump(direction_out, f, ensure_ascii=False, indent=2)
+            print(f"  [Backup] Inferencia completada y guardada en {backup_path}")
+
+            # 2. Metrics
+            print("  Calculando métricas (COMET, BLEU, etc.)...")
+            try:
+                metrics = compute_metrics(sources, hypotheses, references, comet_evaluator)
+                metrics["seconds"] = round(elapsed, 1)
+                all_results[direction] = metrics
+                print(f"  chrF++={metrics['chrF++']:.2f}  BLEU={metrics['BLEU']:.2f}  TER={metrics['TER']:.2f}  COMET={metrics['COMET']:.2f}  ({elapsed:.0f}s)")
+            except Exception as e:
+                print(f"  [ERROR] Fallo al calcular métricas para {direction}: {e}")
+                print(f"  Las traducciones están a salvo en el archivo de backup.")
+                continue
 
             all_sources.extend(sources)
             all_hypotheses.extend(hypotheses)
             all_references.extend(references)
 
         if len(args.directions) > 1 and all_hypotheses:
-            all_results["overall"] = compute_metrics(all_sources, all_hypotheses, all_references, comet_evaluator)
+            try:
+                print("\nCalculando métricas globales (Overall)...")
+                all_results["overall"] = compute_metrics(all_sources, all_hypotheses, all_references, comet_evaluator)
+            except Exception as e:
+                print(f"  [ERROR] Fallo al calcular métricas globales: {e}")
 
         print_table(all_results)
 
         out_path = OUTPUT_DIR / f"{run_name}_{args.task}_results.json"
         with open(out_path, "w", encoding="utf-8") as f:
             json.dump({"model": model_path, "run_name": run_name, "task": args.task, "metrics": all_results, "per_sample": per_sample_out}, f, ensure_ascii=False, indent=2)
-        print(f"\nResults saved -> {out_path}")
+        print(f"\nResultados finales guardados -> {out_path}")
         
         del model
         del tokenizer
