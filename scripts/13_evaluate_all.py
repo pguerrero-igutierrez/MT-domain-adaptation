@@ -2,7 +2,7 @@
 evaluate_all.py
 
 Unified evaluation script for General, Literary, and Clinical translation models.
-Evaluates fine-tuned LoRA models on their respective test sets and also their base models for comparison. Computes chrF++, BLEU, TER, and COMET scores.
+Evaluates fine-tuned LoRA models and baselines on their respective test sets.
 
 Usage:
     python evaluate_all.py --task general --models HiTZ/Latxa-Qwen3-VL-8B-Instruct outputs/generalv1 --test-file outputs/test_set_general.json
@@ -29,7 +29,6 @@ logging.getLogger("pytorch_lightning").setLevel(logging.WARNING)
 from comet import download_model as download_comet
 from comet import load_from_checkpoint as load_comet
 
-# --- CONFIGURATION ---
 DATA_PATHS = {
     "general": Path("sampled-data/ca_eu_50k.json"),
     "literary_ca": Path("backtranslated-corpus/ca-literary_trilingual.json"),
@@ -55,7 +54,6 @@ def set_seed(seed: int) -> None:
     np.random.seed(seed)
     torch.manual_seed(seed)
 
-# --- DATA LOADERS ---
 def load_json_data(path: Path, direction: str, src_key: str, tgt_key: str, apply_ratio_filter: bool) -> list[dict]:
     with open(path, encoding="utf-8") as f:
         rows = json.load(f)
@@ -119,7 +117,6 @@ def reconstruct_test_set(task: str, domain_weight: int) -> list[dict]:
     
     return samples[valid_end:]
 
-# --- MODEL & EVALUATION ---
 def build_prompt(sample: dict) -> str:
     return INSTRUCTION[sample["direction"]].format(source=sample["source"])
 
@@ -192,7 +189,6 @@ def compute_metrics(sources: list[str], hypotheses: list[str], references: list[
     bleu = BLEU(effective_order=True)
     ter = TER()
     
-    # Predict COMET
     comet_data = [{"src": s, "mt": h, "ref": r} for s, h, r in zip(sources, hypotheses, references)]
     comet_score = comet_evaluator.predict(comet_data, batch_size=8, gpus=1 if torch.cuda.is_available() else 0).system_score
 
@@ -200,7 +196,7 @@ def compute_metrics(sources: list[str], hypotheses: list[str], references: list[
         "chrF++": round(chrf.corpus_score(hypotheses, [references]).score, 2),
         "BLEU": round(bleu.corpus_score(hypotheses, [references]).score, 2),
         "TER": round(ter.corpus_score(hypotheses, [references]).score, 2),
-        "COMET": round(comet_score * 100, 2), # Scale 0-100 to match BLEU/chrF
+        "COMET": round(comet_score * 100, 2),
         "length_ratio": round(np.mean([len(h.split()) for h in hypotheses]) / max(np.mean([len(r.split()) for r in references]), 1), 3),
         "n_samples": len(hypotheses),
     }
@@ -221,7 +217,6 @@ def print_table(results: dict) -> None:
         print(f"{d:<12}{m.get('chrF++', 0.0):>{col_w}.2f}{m.get('BLEU', 0.0):>{col_w}.2f}{m.get('TER', 0.0):>{col_w}.2f}{m.get('COMET', 0.0):>{col_w}.2f}{m.get('length_ratio', 0.0):>{col_w}.3f}{m.get('n_samples', 0):>{col_w}}")
     print("=" * len(header))
 
-# --- MAIN ---
 def main() -> None:
     parser = argparse.ArgumentParser(description="Unified Evaluator for MT Models")
     parser.add_argument("--task",            required=True, choices=["general", "literary", "clinical"])
@@ -231,7 +226,7 @@ def main() -> None:
     parser.add_argument("--directions",      nargs="+", default=None, help="Which directions to evaluate (overrides defaults)")
     parser.add_argument("--max-samples",     type=int, default=None, help="Cap samples per direction")
     parser.add_argument("--batch-size",      type=int, default=4)
-    parser.add_argument("--max-new-tokens",  type=int, default=256)
+    parser.add_argument("--max-new-tokens",  type=int, default=1024)
     parser.add_argument("--no-4bit",         action="store_true")
     parser.add_argument("--seed",            type=int, default=SEED)
     args = parser.parse_args()
@@ -239,13 +234,11 @@ def main() -> None:
     set_seed(args.seed)
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-    # Load COMET model once for all evaluations
     print("\nLoading COMET evaluation model (wmt22-comet-da)...")
     comet_path = download_comet("Unbabel/wmt22-comet-da")
     comet_evaluator = load_comet(comet_path)
     comet_evaluator.eval()
 
-    # Determine default directions based on task
     if args.directions is None:
         if args.task == "clinical":
             args.directions = ["ca2eu"]
@@ -277,7 +270,6 @@ def main() -> None:
 
     use_4bit = not args.no_4bit and torch.cuda.is_available()
 
-    # EVALUATE EACH MODEL
     for model_path in args.models:
         run_name = Path(model_path).name.replace("/", "_")
         print(f"\n{'='*70}")
@@ -298,34 +290,45 @@ def main() -> None:
             references = [s["target"] for s in samples]
             hypotheses = []
 
-            t0 = time.time()
-            for i in tqdm(range(0, len(prompts), args.batch_size), desc=direction):
-                batch_prompts = prompts[i : i + args.batch_size]
-                hypotheses.extend(generate_batch(model, tokenizer, batch_prompts, args.max_new_tokens))
-            elapsed = time.time() - t0
-
-            # 1. Inference
-            direction_out = []
-            for s, hyp, ref in zip(samples, hypotheses, references):
-                item = {"direction": direction, "source": s["source"], "reference": ref, "hypothesis": hyp}
-                direction_out.append(item)
-                per_sample_out.append(item)
-            
             backup_path = OUTPUT_DIR / f"{run_name}_{args.task}_{direction}_backup.json"
-            with open(backup_path, "w", encoding="utf-8") as f:
-                json.dump(direction_out, f, ensure_ascii=False, indent=2)
-            print(f"  [Backup] Inferencia completada y guardada en {backup_path}")
+            t0 = time.time()
+            elapsed = 0.0
 
-            # 2. Metrics
-            print("  Calculando métricas (COMET, BLEU, etc.)...")
+            if backup_path.exists():
+                print(f"  [INFO] Backup found at {backup_path}. Skipping inference...")
+                with open(backup_path, "r", encoding="utf-8") as f:
+                    saved_data = json.load(f)
+                
+                for item in saved_data:
+                    hypotheses.append(item["hypothesis"])
+                    per_sample_out.append(item)
+            else:
+                print("  Generating translations...")
+                for i in tqdm(range(0, len(prompts), args.batch_size), desc=direction):
+                    batch_prompts = prompts[i : i + args.batch_size]
+                    hypotheses.extend(generate_batch(model, tokenizer, batch_prompts, args.max_new_tokens))
+                elapsed = time.time() - t0
+
+                direction_out = []
+                for s, hyp, ref in zip(samples, hypotheses, references):
+                    item = {"direction": direction, "source": s["source"], "reference": ref, "hypothesis": hyp}
+                    direction_out.append(item)
+                    per_sample_out.append(item)
+                
+                with open(backup_path, "w", encoding="utf-8") as f:
+                    json.dump(direction_out, f, ensure_ascii=False, indent=2)
+                print(f"  [Backup] Inference completed and saved to {backup_path}")
+
+            print("  Calculating metrics (COMET, BLEU, etc.)...")
             try:
                 metrics = compute_metrics(sources, hypotheses, references, comet_evaluator)
-                metrics["seconds"] = round(elapsed, 1)
+                if elapsed > 0:
+                    metrics["seconds"] = round(elapsed, 1)
                 all_results[direction] = metrics
-                print(f"  chrF++={metrics['chrF++']:.2f}  BLEU={metrics['BLEU']:.2f}  TER={metrics['TER']:.2f}  COMET={metrics['COMET']:.2f}  ({elapsed:.0f}s)")
+                print(f"  chrF++={metrics['chrF++']:.2f}  BLEU={metrics['BLEU']:.2f}  TER={metrics['TER']:.2f}  COMET={metrics['COMET']:.2f}")
             except Exception as e:
-                print(f"  [ERROR] Fallo al calcular métricas para {direction}: {e}")
-                print(f"  Las traducciones están a salvo en el archivo de backup.")
+                print(f"  [ERROR] Failed to calculate metrics for {direction}: {e}")
+                print("  Translations are safely stored in the backup file.")
                 continue
 
             all_sources.extend(sources)
@@ -334,17 +337,17 @@ def main() -> None:
 
         if len(args.directions) > 1 and all_hypotheses:
             try:
-                print("\nCalculando métricas globales (Overall)...")
+                print("\nCalculating overall metrics...")
                 all_results["overall"] = compute_metrics(all_sources, all_hypotheses, all_references, comet_evaluator)
             except Exception as e:
-                print(f"  [ERROR] Fallo al calcular métricas globales: {e}")
+                print(f"  [ERROR] Failed to calculate overall metrics: {e}")
 
         print_table(all_results)
 
         out_path = OUTPUT_DIR / f"{run_name}_{args.task}_results.json"
         with open(out_path, "w", encoding="utf-8") as f:
             json.dump({"model": model_path, "run_name": run_name, "task": args.task, "metrics": all_results, "per_sample": per_sample_out}, f, ensure_ascii=False, indent=2)
-        print(f"\nResultados finales guardados -> {out_path}")
+        print(f"\nFinal results saved -> {out_path}")
         
         del model
         del tokenizer
