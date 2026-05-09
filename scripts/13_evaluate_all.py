@@ -23,7 +23,7 @@ import torch
 from peft import PeftModel
 from sacrebleu.metrics import BLEU, CHRF, TER
 from tqdm import tqdm
-from transformers import AutoModelForVision2Seq, AutoTokenizer
+from transformers import AutoModelForImageTextToText, AutoTokenizer
 
 logging.getLogger("pytorch_lightning").setLevel(logging.WARNING)
 from comet import download_model as download_comet
@@ -146,7 +146,7 @@ def load_model_and_tokenizer(model_path: str, use_4bit: bool):
             adapter_cfg = json.load(f)
         base_model_name = adapter_cfg.get("base_model_name_or_path", model_path)
         print(f"  Detected PEFT adapter. Base model: {base_model_name}")
-        base = AutoModelForVision2Seq.from_pretrained(
+        base = AutoModelForImageTextToText.from_pretrained(
             base_model_name,
             quantization_config=bnb_config,
             device_map="auto" if torch.cuda.is_available() else "cpu",
@@ -156,7 +156,7 @@ def load_model_and_tokenizer(model_path: str, use_4bit: bool):
         model = PeftModel.from_pretrained(base, model_path)
     else:
         print("  Loading as full model checkpoint.")
-        model = AutoModelForVision2Seq.from_pretrained(
+        model = AutoModelForImageTextToText.from_pretrained(
             model_path,
             quantization_config=bnb_config,
             device_map="auto" if torch.cuda.is_available() else "cpu",
