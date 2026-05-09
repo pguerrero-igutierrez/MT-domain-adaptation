@@ -42,8 +42,8 @@ import json
 import random
 from pathlib import Path
 
-from sacrebleu.metrics import CHRF
 import numpy as np
+from sacrebleu.metrics import CHRF
 import torch
 from datasets import Dataset
 from peft import LoraConfig, TaskType, get_peft_model, prepare_model_for_kbit_training
@@ -142,6 +142,10 @@ def tokenize_fn(examples, tokenizer, max_length):
     return {"input_ids": input_ids_list, "attention_mask": attention_mask_list, "labels": labels_list}
 
 
+
+
+
+
 def preprocess_logits_for_metrics(logits, labels):
     if isinstance(logits, tuple):
         logits = logits[0]
@@ -165,7 +169,6 @@ def make_compute_metrics(tokenizer):
         return {"chrf": result.score}
 
     return compute_metrics
-
 
 def main() -> None:
     parser = argparse.ArgumentParser()
@@ -285,7 +288,7 @@ def main() -> None:
         output_dir=str(output_dir),
         num_train_epochs=args.epochs,
         per_device_train_batch_size=args.batch_size,
-        per_device_eval_batch_size=args.batch_size,
+        per_device_eval_batch_size=1,
         gradient_accumulation_steps=args.grad_accum,
         learning_rate=args.lr,
         lr_scheduler_type="cosine",
@@ -303,7 +306,7 @@ def main() -> None:
         seed=args.seed,
         dataloader_num_workers=4,
         ddp_find_unused_parameters=False,
-        eval_accumulation_steps=4,
+        eval_accumulation_steps=16,
     )
 
     collator = DataCollatorForSeq2Seq(
