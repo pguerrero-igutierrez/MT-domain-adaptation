@@ -1,44 +1,17 @@
 """
 evaluate-clinical.py
 
-Evaluates fine-tuned clinical translation models (clinicalv1 / clinicalv2)
+Evaluates fine-tuned clinical translation models and baseline models
 on the held-out 5 % test split used during training.
 
 Pass --test-file to load a pre-saved JSON test set.
 
-Models evaluated
-----------------
-Any checkpoint directory or HF repo with LoRA adapters trained by
-10_finetuning_clinicalv1.py or 12_finetuning_clinicalv2.py.
-
-Metrics (per direction and overall)
-------------------------------------
-- chrF++   (sacrebleu)   primary metric, handles Basque morphology well
-- BLEU     (sacrebleu)   for reference / comparison with literature
-- TER      (sacrebleu)   translation edit rate
-- Length ratio           avg(len(hyp)) / avg(len(ref))
-
-Data sources (same as training)
---------------------------------
-backtranslated-corpus/eu-clinical_backtranslated.json   ca2eu
-
-Output
-------
-Prints a formatted table to stdout.
-Saves full results + per-sample outputs to:
-    outputs/eval/<run_name>_results.json
-
-Usage
------
-    python evaluate-clinical.py --model outputs/clinicalv1 --test-file outputs/test_set_clinical.json
-    python evaluate-clinical.py --model outputs/clinicalv2 --test-file outputs/test_set_clinical.json
-    
-    python evaluate-clinical.py --model outputs/clinicalv1
-    python evaluate-clinical.py --model outputs/clinicalv2 --run-name v2
-    python evaluate-clinical.py --model outputs/clinicalv1 --max-samples 500 --batch-size 8
+Usage:
+    python evaluate-clinical.py --models HiTZ/Latxa-Qwen3-VL-8B-Instruct outputs/clinicalv1 --test-file outputs/test_set_clinical.json
 """
 
 import argparse
+import gc
 import json
 import random
 import time
@@ -248,10 +221,8 @@ def print_samples(per_sample: list[dict], n: int = 5) -> None:
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--model",           required=True,
-                        help="Path to fine-tuned checkpoint (outputs/clinicalv1 or outputs/clinicalv2)")
-    parser.add_argument("--run-name",        default=None,
-                        help="Name for output file (defaults to model dir name)")
+    parser.add_argument("--models",          nargs="+", required=True,
+                        help="List of model paths or HF base models (e.g., HiTZ/Latxa-Qwen3-VL-8B-Instruct outputs/clinicalv1)")
     parser.add_argument("--test-file",       default=None,
                         help="Pre-saved JSON test set. If not given, reconstructs from data files.")
     parser.add_argument("--clinical-weight", type=int, default=1,
@@ -269,7 +240,6 @@ def main() -> None:
 
     set_seed(args.seed)
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    run_name = args.run_name or Path(args.model).name
 
     if args.test_file:
         print(f"Loading test set from {args.test_file}...")
@@ -297,68 +267,81 @@ def main() -> None:
         print(f"  {d}: {len(items):,} samples")
 
     use_4bit = not args.no_4bit and torch.cuda.is_available()
-    model, tokenizer = load_model_and_tokenizer(args.model, use_4bit)
 
-    all_results: dict[str, dict] = {}
-    all_hypotheses: list[str] = []
-    all_references: list[str] = []
-    per_sample_out: list[dict] = []
+    for model_path in args.models:
+        run_name = Path(model_path).name.replace("/", "_")
+        print(f"\n{'='*60}")
+        print(f"EVALUATING MODEL: {model_path}")
+        print(f"{'='*60}")
 
-    for direction in args.directions:
-        samples = by_dir.get(direction, [])
-        if not samples:
-            print(f"\n  No samples for {direction}, skipping.")
-            continue
+        model, tokenizer = load_model_and_tokenizer(model_path, use_4bit)
 
-        print(f"\nEvaluating {direction} ({len(samples):,} samples)...")
-        prompts    = [build_prompt(s) for s in samples]
-        references = [s["target"] for s in samples]
-        hypotheses = []
+        all_results: dict[str, dict] = {}
+        all_hypotheses: list[str] = []
+        all_references: list[str] = []
+        per_sample_out: list[dict] = []
 
-        t0 = time.time()
-        for i in tqdm(range(0, len(prompts), args.batch_size), desc=direction):
-            batch_prompts = prompts[i : i + args.batch_size]
-            batch_hyps    = generate_batch(model, tokenizer, batch_prompts, args.max_new_tokens)
-            hypotheses.extend(batch_hyps)
-        elapsed = time.time() - t0
+        for direction in args.directions:
+            samples = by_dir.get(direction, [])
+            if not samples:
+                print(f"\n  No samples for {direction}, skipping.")
+                continue
 
-        metrics = compute_metrics(hypotheses, references)
-        metrics["seconds"] = round(elapsed, 1)
-        all_results[direction] = metrics
+            print(f"\nEvaluating {direction} ({len(samples):,} samples)...")
+            prompts    = [build_prompt(s) for s in samples]
+            references = [s["target"] for s in samples]
+            hypotheses = []
 
-        for s, hyp, ref in zip(samples, hypotheses, references):
-            per_sample_out.append({
-                "direction":  direction,
-                "source":     s["source"],
-                "reference":  ref,
-                "hypothesis": hyp,
-            })
+            t0 = time.time()
+            for i in tqdm(range(0, len(prompts), args.batch_size), desc=direction):
+                batch_prompts = prompts[i : i + args.batch_size]
+                batch_hyps    = generate_batch(model, tokenizer, batch_prompts, args.max_new_tokens)
+                hypotheses.extend(batch_hyps)
+            elapsed = time.time() - t0
 
-        all_hypotheses.extend(hypotheses)
-        all_references.extend(references)
+            metrics = compute_metrics(hypotheses, references)
+            metrics["seconds"] = round(elapsed, 1)
+            all_results[direction] = metrics
 
-        print(f"  chrF++={metrics['chrF++']:.2f}  BLEU={metrics['BLEU']:.2f}  TER={metrics['TER']:.2f}  ({elapsed:.0f}s)")
+            for s, hyp, ref in zip(samples, hypotheses, references):
+                per_sample_out.append({
+                    "direction":  direction,
+                    "source":     s["source"],
+                    "reference":  ref,
+                    "hypothesis": hyp,
+                })
 
-    if len(args.directions) > 1 and all_hypotheses:
-        all_results["overall"] = compute_metrics(all_hypotheses, all_references)
+            all_hypotheses.extend(hypotheses)
+            all_references.extend(references)
 
-    print_table(all_results)
-    print_samples(per_sample_out)
+            print(f"  chrF++={metrics['chrF++']:.2f}  BLEU={metrics['BLEU']:.2f}  TER={metrics['TER']:.2f}  ({elapsed:.0f}s)")
 
-    out_path = OUTPUT_DIR / f"{run_name}_results.json"
-    with open(out_path, "w", encoding="utf-8") as f:
-        json.dump(
-            {
-                "model":      args.model,
-                "run_name":   run_name,
-                "metrics":    all_results,
-                "per_sample": per_sample_out,
-            },
-            f,
-            ensure_ascii=False,
-            indent=2,
-        )
-    print(f"\nResults saved -> {out_path}")
+        if len(args.directions) > 1 and all_hypotheses:
+            all_results["overall"] = compute_metrics(all_hypotheses, all_references)
+
+        print_table(all_results)
+        print_samples(per_sample_out)
+
+        out_path = OUTPUT_DIR / f"{run_name}_results.json"
+        with open(out_path, "w", encoding="utf-8") as f:
+            json.dump(
+                {
+                    "model":      model_path,
+                    "run_name":   run_name,
+                    "metrics":    all_results,
+                    "per_sample": per_sample_out,
+                },
+                f,
+                ensure_ascii=False,
+                indent=2,
+            )
+        print(f"\nResults saved -> {out_path}")
+
+        del model
+        del tokenizer
+        gc.collect()
+        if torch.cuda.is_available():
+            torch.cuda.empty_cache()
 
 
 if __name__ == "__main__":

@@ -43,6 +43,7 @@ import json
 import random
 from pathlib import Path
 
+from sacrebleu.metrics import CHRF
 import numpy as np
 import torch
 from datasets import Dataset
@@ -52,6 +53,7 @@ from transformers import (
     AutoTokenizer,
     BitsAndBytesConfig,
     DataCollatorForSeq2Seq,
+    EarlyStoppingCallback,
     Trainer,
     TrainingArguments,
 )
@@ -136,6 +138,31 @@ def tokenize_fn(examples, tokenizer, max_length):
         attention_mask_list.append(enc_full["attention_mask"])
         labels_list.append(labels)
     return {"input_ids": input_ids_list, "attention_mask": attention_mask_list, "labels": labels_list}
+
+
+def preprocess_logits_for_metrics(logits, labels):
+    if isinstance(logits, tuple):
+        logits = logits[0]
+    return logits.argmax(dim=-1)
+
+
+def make_compute_metrics(tokenizer):
+    chrf_metric = CHRF(word_order=2)
+
+    def compute_metrics(eval_preds):
+        preds, labels = eval_preds
+        if isinstance(preds, tuple):
+            preds = preds[0]
+        preds  = np.where(preds  != -100, preds,  tokenizer.pad_token_id)
+        labels = np.where(labels != -100, labels, tokenizer.pad_token_id)
+        decoded_preds  = tokenizer.batch_decode(preds,  skip_special_tokens=True)
+        decoded_labels = tokenizer.batch_decode(labels, skip_special_tokens=True)
+        decoded_preds  = [p.strip() for p in decoded_preds]
+        decoded_labels = [[l.strip()] for l in decoded_labels]
+        result = chrf_metric.corpus_score(decoded_preds, decoded_labels)
+        return {"chrf": result.score}
+
+    return compute_metrics
 
 
 def main() -> None:
@@ -268,11 +295,13 @@ def main() -> None:
         save_strategy="epoch",
         save_total_limit=2,
         load_best_model_at_end=True,
-        metric_for_best_model="eval_loss",
+        metric_for_best_model="chrf",
+        greater_is_better=True,
         report_to="none",
         seed=args.seed,
         dataloader_num_workers=4,
         ddp_find_unused_parameters=False,
+        eval_accumulation_steps=4,
     )
 
     collator = DataCollatorForSeq2Seq(
@@ -289,6 +318,9 @@ def main() -> None:
         train_dataset=train_ds,
         eval_dataset=eval_ds,
         data_collator=collator,
+        compute_metrics=make_compute_metrics(tokenizer),
+        preprocess_logits_for_metrics=preprocess_logits_for_metrics,
+        callbacks=[EarlyStoppingCallback(early_stopping_patience=2)],
     )
 
     print("\nStarting training...")
