@@ -4,6 +4,7 @@
 Continue fine-tuning from a general-purpose Basque–Catalan translation
 baseline (08_finetuning_general.py output, hosted on HuggingFace Hub) by
 mixing general parallel data with both literary backtranslation corpora.
+Evaluates using BLEU score during training.
 
 Base model
 ----------
@@ -62,6 +63,7 @@ import os
 import random
 from pathlib import Path
 
+from sacrebleu.metrics import BLEU
 import numpy as np
 import torch
 from datasets import Dataset, concatenate_datasets
@@ -146,22 +148,25 @@ def load_eu_jsonl(path: Path) -> list[dict]:
 def load_general_jsonl(path: Path) -> list[dict]:
     if not path or not path.exists():
         return []
-    samples = []
+    
     with open(path, encoding="utf-8") as f:
-        for line in f:
-            line = line.strip()
-            if not line:
-                continue
-            r = json.loads(line)
-            es = (r.get("source_es") or "").strip()
-            eu = (r.get("source_eu") or "").strip()
-            if len(es) < MIN_SRC_CHARS or len(eu) < MIN_TGT_CHARS:
-                continue
-            ratio = max(len(es), len(eu)) / max(1, min(len(es), len(eu)))
-            if ratio > MAX_LEN_RATIO:
-                continue
-            samples.append({"source": eu, "target": es, "direction": "eu2es"})
-            samples.append({"source": es, "target": eu, "direction": "es2eu"})
+        rows = json.load(f)
+        
+    samples = []
+    for r in rows:
+        es = (r.get("source_es") or "").strip()
+        eu = (r.get("source_eu") or "").strip()
+        
+        if len(es) < MIN_SRC_CHARS or len(eu) < MIN_TGT_CHARS:
+            continue
+            
+        ratio = max(len(es), len(eu)) / max(1, min(len(es), len(eu)))
+        if ratio > MAX_LEN_RATIO:
+            continue
+            
+        samples.append({"source": eu, "target": es, "direction": "eu2es"})
+        samples.append({"source": es, "target": eu, "direction": "es2eu"})
+        
     return samples
 
 
@@ -209,9 +214,45 @@ def oversample(samples: list[dict], factor: int) -> list[dict]:
     return samples * factor
 
 
+def preprocess_logits_for_metrics(logits, labels):
+    if isinstance(logits, tuple):
+        logits = logits[0]
+    return logits.argmax(dim=-1)
 
 
+def make_compute_metrics(tokenizer):
+    bleu_metric = BLEU()
 
+    def compute_metrics(eval_preds):
+        preds, labels = eval_preds
+
+        if isinstance(preds, tuple):
+            preds = preds[0]
+
+        preds = np.where(preds != -100, preds, tokenizer.pad_token_id)
+        labels = np.where(labels != -100, labels, tokenizer.pad_token_id)
+
+        decoded_preds = tokenizer.batch_decode(
+            preds,
+            skip_special_tokens=True
+        )
+
+        decoded_labels = tokenizer.batch_decode(
+            labels,
+            skip_special_tokens=True
+        )
+
+        decoded_preds = [p.strip() for p in decoded_preds]
+        decoded_labels = [[l.strip()] for l in decoded_labels]
+
+        result = bleu_metric.corpus_score(
+            decoded_preds,
+            decoded_labels
+        )
+
+        return {"bleu": result.score}
+
+    return compute_metrics
 
 
 def main() -> None:
@@ -366,7 +407,7 @@ def main() -> None:
         output_dir=str(output_dir),
         num_train_epochs=args.epochs,
         per_device_train_batch_size=args.batch_size,
-        per_device_eval_batch_size=1,
+        per_device_eval_batch_size=args.batch_size,
         gradient_accumulation_steps=args.grad_accum,
         learning_rate=args.lr,
         lr_scheduler_type="cosine",
@@ -374,17 +415,19 @@ def main() -> None:
         bf16=bf16_avail,
         fp16=not bf16_avail and torch.cuda.is_available(),
         logging_steps=50,
-        eval_strategy="epoch",
-        save_strategy="epoch",
+        eval_strategy="steps",
+        save_strategy="steps",
+        eval_steps=100,
+        save_steps=100,
         save_total_limit=2,
         load_best_model_at_end=True,
-        metric_for_best_model="eval_loss",
-        greater_is_better=False,
+        metric_for_best_model="bleu",
+        greater_is_better=True,
         report_to="none",
         seed=args.seed,
         dataloader_num_workers=4,
         ddp_find_unused_parameters=False,
-        eval_accumulation_steps=16,
+        eval_accumulation_steps=4,
     )
 
     collator = DataCollatorForSeq2Seq(
@@ -401,7 +444,9 @@ def main() -> None:
         train_dataset=train_ds,
         eval_dataset=eval_ds,
         data_collator=collator,
-        callbacks=[EarlyStoppingCallback(early_stopping_patience=2)],
+        compute_metrics=make_compute_metrics(tokenizer),
+        preprocess_logits_for_metrics=preprocess_logits_for_metrics,
+        callbacks=[EarlyStoppingCallback(early_stopping_patience=3, early_stopping_threshold=0.0)],
     )
 
     print("\nStarting continued literary fine-tuning...")

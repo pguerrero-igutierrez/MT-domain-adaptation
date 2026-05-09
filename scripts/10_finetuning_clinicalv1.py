@@ -3,6 +3,7 @@
 
 Fine-tunes HiTZ/Latxa-Qwen3-VL-8B-Instruct with LoRA for Catalan→Basque
 clinical translation using the backtranslated Basque clinical corpus.
+Evaluates using BLEU score during training.
 
 Only one direction is available (ca2eu): the corpus provides Catalan as
 source (field "ca") and Basque as target (field "eu"). There is no
@@ -42,6 +43,7 @@ import json
 import random
 from pathlib import Path
 
+from sacrebleu.metrics import BLEU
 import numpy as np
 import torch
 from datasets import Dataset
@@ -141,9 +143,45 @@ def tokenize_fn(examples, tokenizer, max_length):
     return {"input_ids": input_ids_list, "attention_mask": attention_mask_list, "labels": labels_list}
 
 
+def preprocess_logits_for_metrics(logits, labels):
+    if isinstance(logits, tuple):
+        logits = logits[0]
+    return logits.argmax(dim=-1)
 
 
+def make_compute_metrics(tokenizer):
+    bleu_metric = BLEU()
 
+    def compute_metrics(eval_preds):
+        preds, labels = eval_preds
+
+        if isinstance(preds, tuple):
+            preds = preds[0]
+
+        preds = np.where(preds != -100, preds, tokenizer.pad_token_id)
+        labels = np.where(labels != -100, labels, tokenizer.pad_token_id)
+
+        decoded_preds = tokenizer.batch_decode(
+            preds,
+            skip_special_tokens=True
+        )
+
+        decoded_labels = tokenizer.batch_decode(
+            labels,
+            skip_special_tokens=True
+        )
+
+        decoded_preds = [p.strip() for p in decoded_preds]
+        decoded_labels = [[l.strip()] for l in decoded_labels]
+
+        result = bleu_metric.corpus_score(
+            decoded_preds,
+            decoded_labels
+        )
+
+        return {"bleu": result.score}
+
+    return compute_metrics
 
 
 def main() -> None:
@@ -260,11 +298,12 @@ def main() -> None:
 
     bf16_avail = torch.cuda.is_available() and torch.cuda.is_bf16_supported()
 
+    # Actualizado con la lógica de pasos, BLEU y acumulación de evaluación
     training_args = TrainingArguments(
         output_dir=str(output_dir),
         num_train_epochs=args.epochs,
         per_device_train_batch_size=args.batch_size,
-        per_device_eval_batch_size=1,
+        per_device_eval_batch_size=args.batch_size,  # Evalúa usando batch_size (en vez de 1)
         gradient_accumulation_steps=args.grad_accum,
         learning_rate=args.lr,
         lr_scheduler_type="cosine",
@@ -272,17 +311,19 @@ def main() -> None:
         bf16=bf16_avail,
         fp16=not bf16_avail and torch.cuda.is_available(),
         logging_steps=50,
-        eval_strategy="epoch",
-        save_strategy="epoch",
+        eval_strategy="steps",                       # Evaluar por pasos
+        save_strategy="steps",
+        eval_steps=100,                              # Frecuencia de evaluación
+        save_steps=100,
         save_total_limit=2,
         load_best_model_at_end=True,
-        metric_for_best_model="eval_loss",
-        greater_is_better=False,
+        metric_for_best_model="bleu",                # Guardar el de mejor BLEU
+        greater_is_better=True,
         report_to="none",
         seed=args.seed,
         dataloader_num_workers=4,
         ddp_find_unused_parameters=False,
-        eval_accumulation_steps=16,
+        eval_accumulation_steps=4,                   # Evita que la RAM explote al decodificar
     )
 
     collator = DataCollatorForSeq2Seq(
@@ -299,7 +340,9 @@ def main() -> None:
         train_dataset=train_ds,
         eval_dataset=eval_ds,
         data_collator=collator,
-        callbacks=[EarlyStoppingCallback(early_stopping_patience=2)],
+        compute_metrics=make_compute_metrics(tokenizer),                   # Inyectamos BLEU
+        preprocess_logits_for_metrics=preprocess_logits_for_metrics,       # Inyectamos Argmax
+        callbacks=[EarlyStoppingCallback(early_stopping_patience=3, early_stopping_threshold=0.0)],
     )
 
     print("\nStarting training...")

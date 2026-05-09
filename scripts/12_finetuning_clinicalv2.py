@@ -70,22 +70,25 @@ def load_clinical_json(path: Path) -> list[dict]:
 def load_general_jsonl(path: Path) -> list[dict]:
     if not path or not path.exists():
         return []
-    samples = []
+    
     with open(path, encoding="utf-8") as f:
-        for line in f:
-            line = line.strip()
-            if not line:
-                continue
-            r = json.loads(line)
-            es = (r.get("source_es") or "").strip()
-            eu = (r.get("source_eu") or "").strip()
-            if len(es) < MIN_SRC_CHARS or len(eu) < MIN_TGT_CHARS:
-                continue
-            ratio = max(len(es), len(eu)) / max(1, min(len(es), len(eu)))
-            if ratio > MAX_LEN_RATIO:
-                continue
-            samples.append({"source": eu, "target": es, "direction": "eu2es"})
-            samples.append({"source": es, "target": eu, "direction": "es2eu"})
+        rows = json.load(f)
+        
+    samples = []
+    for r in rows:
+        es = (r.get("source_es") or "").strip()
+        eu = (r.get("source_eu") or "").strip()
+        
+        if len(es) < MIN_SRC_CHARS or len(eu) < MIN_TGT_CHARS:
+            continue
+            
+        ratio = max(len(es), len(eu)) / max(1, min(len(es), len(eu)))
+        if ratio > MAX_LEN_RATIO:
+            continue
+            
+        samples.append({"source": eu, "target": es, "direction": "eu2es"})
+        samples.append({"source": es, "target": eu, "direction": "es2eu"})
+        
     return samples
 
 
