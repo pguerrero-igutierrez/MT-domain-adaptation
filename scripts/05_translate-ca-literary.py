@@ -1,25 +1,22 @@
 """
 05_translate-ca-literary.py
 
-Translates literary Spanish paragraphs from CTILC to Basque (es->eu) and/or Catalan (es->ca),
+Translates literary Spanish paragraphs from CTILC to Basque (es->eu),
 then re-aligns translations back to the original paragraph structure using
 the same vecalign DP alignment used in 03_build_corpus.py.
 
 Model:
-    es->eu/ca : HiTZ/Latxa-Llama-3.1-8B-Instruct  (vLLM offline batching)
+    es->eu : HiTZ/Latxa-Llama-3.1-8B-Instruct  (vLLM offline batching)
 
 Reads:  sampled-data/corpus_ca_es_100k_lit.json
 Output: backtranslated-corpus/ca-literary_trilingual.json
-        Fields: all original fields + text_eu + text_ca_back
-        para_id, offset_* and aligned_paragraphs are recomputed after alignment.
+        Fields: all original fields + text_eu
+        para_id, offset_eu and aligned_paragraphs are recomputed after alignment.
 
 Usage:
-    python scripts/05_translate-ca-literary.py --langs eu
-    python scripts/05_translate-ca-literary.py --langs ca
-    python scripts/05_translate-ca-literary.py --langs eu ca
-    python scripts/05_translate-ca-literary.py --langs eu ca --resume
-    python scripts/05_translate-ca-literary.py --langs eu --batch-size 256 --max-tokens 512
-    python scripts/05_translate-ca-literary.py --langs ca --batch-size 64
+    python scripts/05_translate-ca-literary.py
+    python scripts/05_translate-ca-literary.py --resume
+    python scripts/05_translate-ca-literary.py --batch-size 256 --max-tokens 512
 """
 
 import argparse
@@ -43,11 +40,6 @@ EMBED_MODEL   = "intfloat/multilingual-e5-large"
 
 LATXA_SYSTEM    = "Itzultzaile profesional bat zara. Emandako testua euskarara itzuli behar duzu, jatorrizko esanahia eta tonua mantenduz."
 LATXA_USER_TMPL = "Itzuli testu hau euskarara:\n\n{text}"
-
-LATXA_CA_SYSTEM    = "Ets un traductor professional. Has de traduir el text donat al català, mantenint el significat i el to originals."
-LATXA_CA_USER_TMPL = "Tradueix aquest text al català:\n\n{text}"
-
-NEW_COLS = ["text_eu", "text_ca_back"]
 
 _embed_model = None
 
@@ -245,60 +237,20 @@ def translate_eu_batch(
     return [o.outputs[0].text.strip() for o in outputs]
 
 
-def translate_ca_batch(
-    texts: list[str],
-    batch_size: int,
-    max_tokens: int,
-) -> list[str]:
-    from vllm import LLM, SamplingParams
-    from transformers import AutoTokenizer
-
-    tokenizer = AutoTokenizer.from_pretrained(LATXA_MODEL)
-
-    def make_prompt(text: str) -> str:
-        messages = [
-            {"role": "system", "content": LATXA_CA_SYSTEM},
-            {"role": "user",   "content": LATXA_CA_USER_TMPL.format(text=text)},
-        ]
-        return tokenizer.apply_chat_template(
-            messages,
-            tokenize=False,
-            add_generation_prompt=True,
-        )
-
-    llm = LLM(
-        model=LATXA_MODEL,
-        dtype="float16",
-        gpu_memory_utilization=0.90,
-        max_model_len=2048,
-    )
-    sampling_params = SamplingParams(temperature=0.0, max_tokens=max_tokens)
-
-    prompts = [make_prompt(t) for t in texts]
-    print(f"  CA: running vLLM on {len(prompts)} prompts...")
-    outputs = llm.generate(prompts, sampling_params)
-    return [o.outputs[0].text.strip() for o in outputs]
-
-
 def run_translation(
-    lang: str,
     unique_texts: list[str],
     cache: dict[str, str],
     batch_size: int,
     max_tokens: int,
 ) -> dict[str, str]:
     pending = [t for t in unique_texts if t not in cache]
-    print(f"{lang.upper()}: {len(unique_texts)} unique paragraphs, {len(pending)} not cached")
+    print(f"EU: {len(unique_texts)} unique paragraphs, {len(pending)} not cached")
 
     if pending:
-        if lang == "eu":
-            translated = translate_eu_batch(pending, batch_size, max_tokens)
-        else:
-            translated = translate_ca_batch(pending, batch_size, max_tokens)
-
+        translated = translate_eu_batch(pending, batch_size, max_tokens)
         for text, translation in zip(pending, translated):
             cache[text] = translation
-        save_cache(lang, cache)
+        save_cache("eu", cache)
 
     return cache
 
@@ -307,39 +259,27 @@ def build_output(
     rows: list[dict],
     groups: dict[str, list[dict]],
     eu_cache: dict[str, str],
-    ca_cache: dict[str, str],
-    active_langs: list[str],
 ) -> list[dict]:
     out_rows = []
 
     for doc_id, doc_rows in groups.items():
         source_paras = [r["text_es"] for r in doc_rows]
 
-        eu_raw = [eu_cache.get(t, "") for t in source_paras] if "eu" in active_langs else [""] * len(source_paras)
-        ca_raw = [ca_cache.get(t, "") for t in source_paras] if "ca" in active_langs else [""] * len(source_paras)
-
-        eu_aligned = align_to_source(source_paras, [t for t in eu_raw if t]) if "eu" in active_langs else eu_raw
-        ca_aligned = align_to_source(source_paras, [t for t in ca_raw if t]) if "ca" in active_langs else ca_raw
+        eu_raw = [eu_cache.get(t, "") for t in source_paras]
+        eu_aligned = align_to_source(source_paras, [t for t in eu_raw if t])
 
         while len(eu_aligned) < len(source_paras):
             eu_aligned.append("")
-        while len(ca_aligned) < len(source_paras):
-            ca_aligned.append("")
 
         aligned_n  = len(source_paras)
         offsets_eu = compute_offsets(eu_aligned)
-        offsets_ca = compute_offsets(ca_aligned)
 
         for i, row in enumerate(doc_rows):
             out_row = dict(row)
             out_row["para_id"]            = i
             out_row["aligned_paragraphs"] = aligned_n
-            if "eu" in active_langs:
-                out_row["text_eu"]        = eu_aligned[i]
-                out_row["offset_eu"]      = offsets_eu[i]
-            if "ca" in active_langs:
-                out_row["text_ca_back"]   = ca_aligned[i]
-                out_row["offset_ca_back"] = offsets_ca[i]
+            out_row["text_eu"]            = eu_aligned[i]
+            out_row["offset_eu"]          = offsets_eu[i]
             out_rows.append(out_row)
 
         print(f"  [ALIGNED] {doc_id}: {aligned_n} paragraphs")
@@ -356,12 +296,9 @@ def write_output(out_rows: list[dict]) -> None:
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Translate ES corpus to EU and/or CA, realigned to original paragraph structure.",
+        description="Translate ES corpus to EU, realigned to original paragraph structure.",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog=__doc__,
-    )
-    parser.add_argument(
-        "--langs", nargs="+", choices=["eu", "ca"], required=True,
     )
     parser.add_argument(
         "--resume", action="store_true",
@@ -375,19 +312,11 @@ def main() -> None:
     groups = group_by_doc(rows)
     unique_es = list({r["text_es"] for r in rows if r.get("text_es")})
 
-    eu_cache: dict[str, str] = {}
-    ca_cache: dict[str, str] = {}
-
-    if "eu" in args.langs:
-        eu_cache = load_cache("eu") if args.resume else {}
-        eu_cache = run_translation("eu", unique_es, eu_cache, args.batch_size, args.max_tokens)
-
-    if "ca" in args.langs:
-        ca_cache = load_cache("ca") if args.resume else {}
-        ca_cache = run_translation("ca", unique_es, ca_cache, args.batch_size, args.max_tokens)
+    eu_cache = load_cache("eu") if args.resume else {}
+    eu_cache = run_translation(unique_es, eu_cache, args.batch_size, args.max_tokens)
 
     print("\nRealigning translations to original paragraph structure...")
-    out_rows = build_output(rows, groups, eu_cache, ca_cache, args.langs)
+    out_rows = build_output(rows, groups, eu_cache)
 
     write_output(out_rows)
     print("Done.")

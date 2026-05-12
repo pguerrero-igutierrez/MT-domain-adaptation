@@ -1,12 +1,9 @@
 """
 06_translate-eu-literary.py
 
-Translates Spanish literary sentences in two independent passes using
+Translates Spanish literary sentences into Catalan using
 HiTZ/Latxa-Llama-3.1-8B-Instruct via vLLM offline batching:
-  Pass 1: source_es -> Basque   (eu_backtrans)
-  Pass 2: source_es -> Catalan  (ca_translation)
-
-Both passes use the same Spanish source sentence as input.
+  Pass 1: source_es -> Catalan  (ca_translation)
 
 INPUT
 -----
@@ -17,9 +14,8 @@ Format : one JSON object per line with fields:
 PIPELINE
 --------
 1. Load parallel pairs from ehuhac_parallel.jsonl.
-2. Translate source_es -> Basque using Latxa (vLLM offline batch).
-3. Translate source_es -> Catalan using Latxa (vLLM offline batch).
-4. Write per-document JSONL files + merged all.jsonl.
+2. Translate source_es -> Catalan using Latxa (vLLM offline batch).
+3. Write per-document JSONL files + merged all.jsonl.
 
 OUTPUT
 ------
@@ -35,7 +31,6 @@ Each output line:
       "offset_ca":      int,
       "source_es":      str,
       "source_eu":      str,
-      "eu_backtrans":   str,
       "ca_translation": str
     }
 
@@ -67,12 +62,6 @@ MAX_TOKENS   = 512
 TEMPERATURE  = 0.0
 TENSOR_PARALLEL = 1
 
-
-ES_TO_EU_SYSTEM = (
-    "Zara itzultzaile profesional bat. "
-    "Itzuli ondorengo gaztelaniazko testua euskarara. "
-    "Eman itzulpena soilik, azalpenik gabe."
-)
 
 ES_TO_CA_SYSTEM = (
     "Ets un traductor professional. "
@@ -188,13 +177,7 @@ def main() -> None:
 
         es_texts = [r["source_es"] for r in doc_rows]
 
-        print("  Step 1: ES -> EU backtranslation")
-        eu_backtrans = run_inference(
-            llm, es_texts, ES_TO_EU_SYSTEM,
-            args.batch_size, args.max_tokens, "  ES->EU",
-        )
-
-        print("  Step 2: ES -> CA translation")
+        print("  Step 1: ES -> CA translation")
         ca_translations = run_inference(
             llm, es_texts, ES_TO_CA_SYSTEM,
             args.batch_size, args.max_tokens, "  ES->CA",
@@ -213,11 +196,10 @@ def main() -> None:
                 "offset_ca":      offsets_ca[i],
                 "source_es":      es_texts[i],
                 "source_eu":      doc_rows[i]["source_eu"],
-                "eu_backtrans":   eu_backtrans[i],
                 "ca_translation": ca_translations[i],
             }
             for i in range(len(doc_rows))
-            if eu_backtrans[i] and ca_translations[i]
+            if ca_translations[i]
         ]
 
         out_file = OUTPUT_DIR / f"eu-literary-{doc_id}.jsonl"

@@ -1,5 +1,9 @@
 """
 12_finetuning_clinicalv2.py
+
+Continue fine-tuning from a general-purpose Basque-Catalan translation
+baseline (08_finetuning_general.py output, hosted on HuggingFace Hub)
+using the same clinical synthetic corpus as clinicalv1.
 """
 
 import argparse
@@ -10,6 +14,7 @@ from pathlib import Path
 import numpy as np
 import torch
 from datasets import Dataset
+from sacrebleu.metrics import BLEU
 from peft import LoraConfig, PeftModel, TaskType, get_peft_model, prepare_model_for_kbit_training
 from transformers import (
     Qwen3VLForConditionalGeneration,
@@ -38,8 +43,6 @@ MAX_LEN_RATIO = 3.0
 
 INSTRUCTION = {
     "ca2eu": "Tradueix aquest text clínic del català al basc:\n\n{source}",
-    "eu2es": "Itzuli testu hau euskaratik gaztelaniara:\n\n{source}",
-    "es2eu": "Itzuli testu hau gaztelaniatik euskarara:\n\n{source}",
 }
 
 
@@ -64,31 +67,6 @@ def load_clinical_json(path: Path) -> list[dict]:
         if ratio > MAX_LEN_RATIO:
             continue
         samples.append({"source": src, "target": tgt, "direction": "ca2eu"})
-    return samples
-
-
-def load_general_jsonl(path: Path) -> list[dict]:
-    if not path or not path.exists():
-        return []
-    
-    with open(path, encoding="utf-8") as f:
-        rows = json.load(f)
-        
-    samples = []
-    for r in rows:
-        es = (r.get("source_es") or "").strip()
-        eu = (r.get("source_eu") or "").strip()
-        
-        if len(es) < MIN_SRC_CHARS or len(eu) < MIN_TGT_CHARS:
-            continue
-            
-        ratio = max(len(es), len(eu)) / max(1, min(len(es), len(eu)))
-        if ratio > MAX_LEN_RATIO:
-            continue
-            
-        samples.append({"source": eu, "target": es, "direction": "eu2es"})
-        samples.append({"source": es, "target": eu, "direction": "es2eu"})
-        
     return samples
 
 
@@ -132,6 +110,47 @@ def tokenize_fn(examples, tokenizer, max_length):
     return {"input_ids": input_ids_list, "attention_mask": attention_mask_list, "labels": labels_list}
 
 
+def preprocess_logits_for_metrics(logits, labels):
+    if isinstance(logits, tuple):
+        logits = logits[0]
+    return logits.argmax(dim=-1)
+
+
+def make_compute_metrics(tokenizer):
+    bleu_metric = BLEU()
+
+    def compute_metrics(eval_preds):
+        preds, labels = eval_preds
+
+        if isinstance(preds, tuple):
+            preds = preds[0]
+
+        preds = np.where(preds != -100, preds, tokenizer.pad_token_id)
+        labels = np.where(labels != -100, labels, tokenizer.pad_token_id)
+
+        decoded_preds = tokenizer.batch_decode(
+            preds,
+            skip_special_tokens=True
+        )
+
+        decoded_labels = tokenizer.batch_decode(
+            labels,
+            skip_special_tokens=True
+        )
+
+        decoded_preds = [p.strip() for p in decoded_preds]
+        decoded_labels = [[l.strip()] for l in decoded_labels]
+
+        result = bleu_metric.corpus_score(
+            decoded_preds,
+            decoded_labels
+        )
+
+        return {"bleu": result.score}
+
+    return compute_metrics
+
+
 
 
 
@@ -143,10 +162,6 @@ def main() -> None:
                         help="HF repo of the general fine-tuned checkpoint")
     parser.add_argument("--is-peft",           action="store_true",
                         help="Set if the HF repo is a PEFT/LoRA checkpoint (not merged)")
-    parser.add_argument("--general-jsonl",     default=None,
-                        help="Path to general parallel data JSONL (ehuhac_parallel format)")
-    parser.add_argument("--clinical-weight",   type=int,   default=2,
-                        help="Repeat clinical samples N times to up-weight domain")
     parser.add_argument("--output-dir",        default=str(OUTPUT_DIR))
     parser.add_argument("--epochs",            type=int,   default=3)
     parser.add_argument("--batch-size",        type=int,   default=4)
@@ -168,14 +183,9 @@ def main() -> None:
 
     print("Loading data...")
     clinical_samples = load_clinical_json(CLINICAL_JSON)
-    general_path     = Path(args.general_jsonl) if args.general_jsonl else None
-    general_samples  = load_general_jsonl(general_path)
+    all_samples = clinical_samples
 
-    clinical_weighted = clinical_samples * args.clinical_weight
-    all_samples       = clinical_weighted + general_samples
-
-    print(f"  eu-clinical (ca2eu) : {len(clinical_samples):,}  × {args.clinical_weight} = {len(clinical_weighted):,}")
-    print(f"  general (eu↔es)     : {len(general_samples):,}")
+    print(f"  eu-clinical (ca2eu) : {len(clinical_samples):,}")
 
     random.shuffle(all_samples)
 
@@ -287,7 +297,7 @@ def main() -> None:
         output_dir=str(output_dir),
         num_train_epochs=args.epochs,
         per_device_train_batch_size=args.batch_size,
-        per_device_eval_batch_size=1,
+        per_device_eval_batch_size=args.batch_size,
         gradient_accumulation_steps=args.grad_accum,
         learning_rate=args.lr,
         lr_scheduler_type="cosine",
@@ -295,17 +305,19 @@ def main() -> None:
         bf16=bf16_avail,
         fp16=not bf16_avail and torch.cuda.is_available(),
         logging_steps=50,
-        eval_strategy="epoch",
-        save_strategy="epoch",
+        eval_strategy="steps",
+        save_strategy="steps",
+        eval_steps=100,
+        save_steps=100,
         save_total_limit=2,
         load_best_model_at_end=True,
-        metric_for_best_model="eval_loss",
-        greater_is_better=False,
+        metric_for_best_model="bleu",
+        greater_is_better=True,
         report_to="none",
         seed=args.seed,
         dataloader_num_workers=4,
         ddp_find_unused_parameters=False,
-        eval_accumulation_steps=16,
+        eval_accumulation_steps=4,
     )
 
     collator = DataCollatorForSeq2Seq(
@@ -322,7 +334,9 @@ def main() -> None:
         train_dataset=train_ds,
         eval_dataset=eval_ds,
         data_collator=collator,
-        callbacks=[EarlyStoppingCallback(early_stopping_patience=2)],
+        compute_metrics=make_compute_metrics(tokenizer),
+        preprocess_logits_for_metrics=preprocess_logits_for_metrics,
+        callbacks=[EarlyStoppingCallback(early_stopping_patience=3, early_stopping_threshold=0.0)],
     )
 
     print("\nStarting continued clinical fine-tuning...")

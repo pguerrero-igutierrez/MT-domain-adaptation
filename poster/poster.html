@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<title>CA–EU Domain Adaptation MT Poster A2</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;1,400;1,700&family=Lato:wght@300;400;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+:root {
+  --blue-deep:    #1A4B7A;
+  --blue-mid:     #2E6FAC;
+  --blue-soft:    #4D90C4;
+  --blue-lt:      #8BBFE0;
+  --blue-pale:    #BCD9EF;
+  --blue-sky:     #DDEEF8;
+  --blue-frost:   #EEF6FC;
+  --teal:         #2B7A78;
+  --teal-lt:      #C2E0DF;
+  --slate:        #5A7FA0;
+  --slate-lt:     #C5D9E8;
+  --steel-lt:     #E0EDF5;
+  --ink:          #1C2E40;
+  --ink-mid:      #3A526A;
+  --ink-muted:    #7090A8;
+  --rule:         #BDD5E8;
+  --paper:        #F5FAFD;
+  --white:        #FFFFFF;
+  --gold:         #C8A228;
+  --gold-lt:      #F5E9B8;
+}
+
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+  width: 420mm;
+  height: 594mm;
+  overflow: hidden;
+  font-family: 'Lato', sans-serif;
+  font-size: 11.3pt;
+  color: var(--ink);
+  background: var(--white);
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+  display: flex;
+  flex-direction: column;
+}
+
+@page { size: A2 portrait; margin: 0; }
+
+.header {
+  background: var(--blue-frost);
+  padding: 12.7mm 15.6mm 9.9mm;
+  position: relative;
+  border-bottom: 4px solid var(--blue-pale);
+  overflow: hidden;
+}
+.header::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 6px;
+  background: linear-gradient(90deg, var(--blue-deep) 0%, var(--blue-soft) 55%, var(--teal) 100%);
+}
+.header-inner {
+  position: relative; z-index: 2;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 23px;
+  align-items: center;
+}
+.title {
+  font-family: 'Playfair Display', serif;
+  font-size: 23.2pt;
+  font-weight: 800;
+  line-height: 1.18;
+  color: var(--ink);
+  margin-bottom: 6px;
+  letter-spacing: -0.02em;
+}
+.title .hl { color: var(--blue-mid); font-style: italic; }
+.subtitle {
+  font-size: 11.3pt;
+  color: var(--ink-muted);
+  font-weight: 300;
+  margin-bottom: 7px;
+  letter-spacing: 0.015em;
+  line-height: 1.4;
+}
+.author-line {
+  font-size: 11.6pt;
+  color: var(--ink-mid);
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  flex-wrap: wrap;
+}
+.author-line .sep { color: var(--blue-soft); }
+.author-line strong { color: var(--ink); font-weight: 700; }
+
+.metrics-strip {
+  background: var(--ink);
+  padding: 0 15.6mm;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+.metric-chip {
+  text-align: center;
+  color: var(--blue-lt);
+  padding: 8px 8px;
+  flex: 1;
+  border-right: 1px solid rgba(77,144,196,0.25);
+}
+.metric-chip:last-child { border-right: none; }
+.metric-chip .val {
+  font-family: 'Playfair Display', serif;
+  font-size: 15.6pt;
+  font-weight: 700;
+  display: block;
+  line-height: 1;
+  color: var(--white);
+}
+.metric-chip .lbl { font-size: 7.8pt; opacity: 0.7; margin-top: 3px; letter-spacing: 0.05em; text-transform: uppercase; }
+.metric-chip .delta { font-size: 7.8pt; color: var(--blue-lt); font-weight: 700; }
+
+.body-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background: var(--paper);
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+}
+.col {
+  padding: 8.5mm 7.8mm 1.4mm;
+  border-right: 1px solid var(--rule);
+  overflow: hidden;
+}
+.col:last-child { border-right: none; }
+section { margin-bottom: 7.4mm; }
+
+.sec-hdr {
+  display: flex;
+  align-items: baseline;
+  gap: 7px;
+  margin-bottom: 8px;
+  padding-bottom: 6px;
+  border-bottom: 2px solid var(--blue-pale);
+}
+.sec-num {
+  background: var(--blue-pale);
+  color: var(--blue-deep);
+  font-size: 9.2pt;
+  font-weight: 700;
+  width: 20px; height: 20px;
+  border-radius: 4px;
+  display: inline-flex;
+  align-items: center; justify-content: center;
+  flex-shrink: 0;
+  font-family: 'JetBrains Mono', monospace;
+}
+.sec-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 13.4pt;
+  font-weight: 700;
+  color: var(--ink);
+  font-style: italic;
+}
+
+p {
+  font-size: 11.3pt;
+  line-height: 1.62;
+  color: var(--ink-mid);
+  margin-bottom: 8px;
+  text-align: justify;
+  hyphens: auto;
+}
+code {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 9.9pt;
+  background: var(--blue-sky);
+  border-radius: 4px;
+  padding: 1px 4px;
+  color: var(--blue-deep);
+}
+
+.callout {
+  background: var(--blue-sky);
+  border-left: 4px solid var(--blue-soft);
+  border-radius: 0 8px 8px 0;
+  padding: 7px 11px;
+  margin: 7px 0;
+  font-size: 11.3pt;
+  color: var(--blue-deep);
+  line-height: 1.45;
+}
+.callout.warn { background: #FFF8E5; border-left-color: var(--gold); color: #6A4A00; }
+.callout strong { font-weight: 700; }
+
+.pipeline-wrap { margin: 5px 0; }
+.pipeline-label {
+  font-size: 9.2pt; font-weight: 700; color: var(--ink-muted);
+  text-transform: uppercase; letter-spacing: 0.07em; margin-bottom: 3px;
+}
+.pipeline-label .star { color: var(--blue-mid); }
+.pipeline { display: flex; align-items: center; gap: 4px; flex-wrap: nowrap; }
+.pb {
+  background: var(--white); border: 2px solid var(--rule);
+  border-radius: 7px; padding: 4px 8px;
+  font-size: 10.6pt; font-weight: 600; color: var(--ink);
+  text-align: center; line-height: 1.2; white-space: nowrap;
+}
+.pb.base  { background: var(--blue-sky);  border-color: var(--blue-soft); color: var(--ink-mid); }
+.pb.gen   { background: var(--steel-lt);  border-color: var(--slate);     color: var(--blue-deep); }
+.pb.lit   { background: var(--teal-lt);   border-color: var(--teal);      color: var(--teal); }
+.pb.clin  { background: var(--blue-pale); border-color: var(--blue-mid);  color: var(--blue-deep); }
+.pb.best  { background: var(--blue-mid);  border-color: var(--blue-deep); color: var(--white); font-weight: 700; }
+.pa { color: var(--ink-muted); font-size: 14.1pt; line-height: 1; }
+
+.info-row {
+  display: flex; justify-content: space-between; align-items: center;
+  font-size: 10.6pt; padding: 4px 0;
+  border-bottom: 1px solid var(--rule); color: var(--ink);
+}
+.info-row .k { color: var(--ink-muted); font-size: 9.9pt; }
+.info-row .v { font-weight: 600; }
+
+.training-note {
+  background: var(--blue-sky);
+  border-left: 4px solid var(--blue-soft);
+  border-radius: 0 7px 7px 0;
+  padding: 7px 11px;
+  font-size: 10.6pt; color: var(--ink-muted); margin: 7px 0; line-height: 1.45;
+}
+.training-note strong { color: var(--ink); }
+
+.corpus-table { width: 100%; border-collapse: collapse; font-size: 9.9pt; margin: 4px 0; }
+.corpus-table th { background: var(--slate); color: var(--white); padding: 3px 6px; font-size: 9.2pt; text-align: left; }
+.corpus-table td { padding: 3px 6px; border-bottom: 1px solid var(--rule); }
+.corpus-table tr:nth-child(even) td { background: var(--blue-sky); }
+
+.rtable { width: 100%; border-collapse: collapse; font-size: 9.5pt; margin: 6px 0; }
+.rtable th {
+  background: var(--blue-deep); color: var(--blue-lt);
+  padding: 4px 5px; text-align: center; font-weight: 700;
+  font-size: 8.5pt; letter-spacing: 0.04em; text-transform: uppercase;
+}
+.rtable th:first-child { text-align: left; border-radius: 6px 0 0 0; }
+.rtable th:last-child { border-radius: 0 6px 0 0; }
+.rtable td {
+  padding: 3px 5px; text-align: center;
+  border-bottom: 1px solid var(--rule); font-variant-numeric: tabular-nums;
+}
+.rtable td:first-child { text-align: left; font-weight: 600; }
+.rtable tr:nth-child(even) td { background: var(--blue-sky); }
+.rtable .best-val { font-weight: 700; color: var(--blue-deep); }
+.rtable .row-best td { background: var(--blue-pale) !important; }
+.rtable .row-best td:first-child { color: var(--blue-deep); }
+.rtable .row-base td:first-child { color: var(--ink-muted); }
+.rtable .row-xdomain td:first-child { color: var(--slate); font-style: italic; }
+.rtable .ter-best { font-weight: 700; color: var(--teal); }
+
+.chart-wrap { margin: 4px 0; }
+.chart-title { font-size: 9.9pt; font-weight: 700; color: var(--ink); margin-bottom: 4px; text-transform: uppercase; letter-spacing: 0.06em; }
+
+.finding { display: flex; gap: 8px; margin-bottom: 8px; align-items: flex-start; }
+.finding-icon {
+  background: var(--blue-pale); color: var(--blue-deep);
+  font-size: 9.9pt; font-weight: 700; border-radius: 4px;
+  width: 21px; height: 21px;
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0; margin-top: 1px;
+  font-family: 'JetBrains Mono', monospace;
+}
+.finding-text { font-size: 11.3pt; line-height: 1.45; text-align: left; color: var(--ink-mid); }
+.finding-text strong { color: var(--ink); }
+
+.hf-strip {
+  background: var(--blue-sky);
+  padding: 5.7mm 15.6mm;
+  display: flex; align-items: center; justify-content: space-between;
+  border-top: 2px solid var(--blue-pale);
+}
+.hf-title { font-size: 10.6pt; font-weight: 700; color: var(--ink); margin-right: 14.1mm; white-space: nowrap; text-transform: uppercase; letter-spacing: 0.07em; }
+.hf-models-container { display: flex; gap: 9.9mm; align-items: flex-start; flex-grow: 1; }
+.hf-item { font-family: 'JetBrains Mono', monospace; font-size: 9.9pt; color: var(--blue-mid); display: flex; flex-direction: column; gap: 1px; }
+.hf-item .hf-type { font-family: 'Lato', sans-serif; font-size: 7.8pt; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--ink-muted); }
+.hf-item .hf-name { display: flex; align-items: center; gap: 6px; }
+.hf-item.best { color: var(--blue-deep); }
+.hf-item.best .hf-name { font-weight: 700; background: var(--blue-pale); padding: 1px 7px; border-radius: 4px; border: 1px solid var(--blue-soft); }
+.hf-item.best .hf-type { color: var(--blue-deep); }
+.hf-dot { width: 7px; height: 7px; background: currentColor; border-radius: 50%; flex-shrink: 0; }
+
+.footer {
+  background: var(--ink);
+  color: var(--blue-lt);
+  padding: 5mm 11mm;
+  font-size: 8pt;
+  display: flex; justify-content: space-between; align-items: flex-start; gap: 20px;
+  flex-shrink: 0;
+}
+.footer-left { line-height: 1.5; flex: 1; }
+.footer-right { text-align: right; line-height: 1.5; flex: 1; }
+.footer strong { color: var(--blue-pale); font-size: 11pt; text-transform: uppercase; letter-spacing: 0.06em; }
+.footer .ref-item { font-size: 11pt; color: var(--blue-lt); margin-top: 0.5em; margin-left: 15px; text-indent: -15px; line-height: 1.4; }
+.footer code { background: rgba(77,144,196,0.18); color: var(--blue-lt); }
+.hrule { border: none; border-top: 1px solid var(--rule); margin: 6px 0; }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header">
+  <div class="header-inner">
+    <div>
+      <div class="title">Domain Adaptation for <span class="hl">Catalan–Basque</span> Machine Translation<br>via Synthetic Data and Continued Fine-Tuning</div>
+      <div class="subtitle">Literary fluency &amp; clinical precision through Spanish-pivot corpus construction, back-translation, and LoRA fine-tuning of instruction-following LLMs</div>
+      <div class="author-line">
+        <strong>Paula Guerrero & Iker Gutierrez</strong>
+        <span class="sep">·</span>
+        <span>University of the Basque Country EHU</span>
+        <span class="sep">·</span>
+        <span>Deep Learning 2025–2026</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- METRICS STRIP -->
+<div class="metrics-strip">
+  <div class="metric-chip">
+    <span class="val">43.49</span>
+    <div class="lbl">chrF++ General ↑</div>
+    <div class="delta">+29.8 vs baseline</div>
+  </div>
+  <div class="metric-chip">
+    <span class="val">80.68</span>
+    <div class="lbl">COMET General ↑</div>
+    <div class="delta">+33.8 vs baseline</div>
+  </div>
+  <div class="metric-chip">
+    <span class="val">36.13</span>
+    <div class="lbl">chrF++ Literary ↑</div>
+    <div class="delta">literaryv1 eu→ca</div>
+  </div>
+  <div class="metric-chip">
+    <span class="val">40.79</span>
+    <div class="lbl">chrF++ Clinical ↑</div>
+    <div class="delta">clinicalv1 ca→eu</div>
+  </div>
+  <div class="metric-chip">
+    <span class="val">22.14</span>
+    <div class="lbl">BLEU Clinical ↑</div>
+    <div class="delta">clinicalv1 ca→eu</div>
+  </div>
+  <div class="metric-chip">
+    <span class="val">5</span>
+    <div class="lbl">Model Variants</div>
+    <div class="delta">gen · lit · clin × 2</div>
+  </div>
+</div>
+
+<!-- BODY 3-COL -->
+<div class="body-grid">
+
+  <!-- COL 1 -->
+  <div class="col">
+
+    <section>
+      <div class="sec-hdr">
+        <span class="sec-num">1</span>
+        <span class="sec-title">Motivation &amp; Research Questions</span>
+      </div>
+      <p>Catalan–Basque (CA–EU) MT is severely under-resourced, especially in specialized domains. Standard multilingual models produce poor output for this pair, and in-domain parallel data is scarce.</p>
+      <div class="callout">
+        <strong>Core question:</strong> Can synthetic domain-specific corpora built from related bilingual resources substantially improve CA–EU MT over a general baseline?
+      </div>
+      <div style="display:flex;flex-direction:column;gap:5px;margin-top:6px;">
+        <div style="display:flex;gap:8px;align-items:flex-start;">
+          <div style="background:var(--blue-pale);color:var(--blue-deep);font-family:'JetBrains Mono',monospace;font-size:6.5pt;font-weight:700;border-radius:50%;width:18px;height:18px;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px;">1</div>
+          <div style="font-size:9.5pt;color:var(--ink-mid);line-height:1.4;font-style:italic;">Can pivot-based corpus construction and back-translation create useful training data for low-resource domains?</div>
+        </div>
+        <div style="display:flex;gap:8px;align-items:flex-start;">
+          <div style="background:var(--teal-lt);color:var(--teal);font-family:'JetBrains Mono',monospace;font-size:6.5pt;font-weight:700;border-radius:50%;width:18px;height:18px;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px;">2</div>
+          <div style="font-size:9.5pt;color:var(--ink-mid);line-height:1.4;font-style:italic;">Does domain-specific fine-tuning improve in-domain translation quality over the general model?</div>
+        </div>
+        <div style="display:flex;gap:8px;align-items:flex-start;">
+          <div style="background:var(--steel-lt);color:var(--slate);font-family:'JetBrains Mono',monospace;font-size:6.5pt;font-weight:700;border-radius:50%;width:18px;height:18px;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px;">3</div>
+          <div style="font-size:9.5pt;color:var(--ink-mid);line-height:1.4;font-style:italic;">Is continued fine-tuning from a general checkpoint better than direct domain-specific fine-tuning from the base model?</div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="sec-hdr">
+        <span class="sec-num">2</span>
+        <span class="sec-title">Two Domains, Two Quality Criteria</span>
+      </div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:6px;margin:6px 0;">
+        <div style="background:var(--teal-lt);border:1px solid var(--teal);border-radius:8px;padding:7px 9px;">
+          <div style="font-size:9.5pt;font-weight:700;color:var(--teal);margin-bottom:3px;text-transform:uppercase;letter-spacing:0.05em;">Literary</div>
+          <div style="font-size:9.5pt;color:var(--ink-mid);line-height:1.4;">Quality depends on <strong>fluency</strong>, <strong>creativity</strong> and <strong>stylistic naturalness</strong>.</div>
+        </div>
+        <div style="background:var(--blue-sky);border:1px solid var(--blue-soft);border-radius:8px;padding:7px 9px;">
+          <div style="font-size:9.5pt;font-weight:700;color:var(--blue-mid);margin-bottom:3px;text-transform:uppercase;letter-spacing:0.05em;">Clinical</div>
+          <div style="font-size:9.5pt;color:var(--ink-mid);line-height:1.4;">Quality depends on <strong>terminological accuracy</strong> and <strong>clinical clarity</strong>.</div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="sec-hdr">
+        <span class="sec-num">3</span>
+        <span class="sec-title">Synthetic Data Construction</span>
+      </div>
+      <p>All domain corpora are built synthetically using <strong>Spanish as pivot language</strong> and the <strong>round-trip back-translation</strong> technique. This yields synthetic parallel pairs:</p>
+      <div class="callout" style="font-size:10pt;">
+        Original CA text → MT into EU (via ES pivot) → reverse for fine-tuning
+      </div>
+
+      <div style="font-size:9.9pt;font-weight:700;color:var(--ink);margin:6px 0 3px;text-transform:uppercase;letter-spacing:0.05em;">Literary — 2 Source Corpora</div>
+      <div class="pipeline-wrap">
+        <div class="pipeline-label">Source A: CA-ES literary (CTILC) → trilingual JSON</div>
+        <div class="pipeline">
+          <div class="pb base">CA-ES<br>corpus</div>
+          <div class="pa">→</div>
+          <div class="pb lit">ES→EU<br>translate</div>
+          <div class="pa">→</div>
+          <div class="pb best">ca-literary<br>trilingual</div>
+        </div>
+      </div>
+      <div class="pipeline-wrap" style="margin-top:4px;">
+        <div class="pipeline-label">Source B: ES-EU literary (EhuHac) → eu-literary-EhuHac.jsonl</div>
+        <div class="pipeline">
+          <div class="pb base">ES-EU<br>EhuHac</div>
+          <div class="pa">→</div>
+          <div class="pb lit">ES→CA<br>translate</div>
+          <div class="pa">→</div>
+          <div class="pb best">eu-literary<br>JSONL</div>
+        </div>
+      </div>
+
+      <div style="font-size:9.9pt;font-weight:700;color:var(--ink);margin:8px 0 3px;text-transform:uppercase;letter-spacing:0.05em;">Clinical Pipeline</div>
+      <div class="pipeline-wrap">
+        <div class="pipeline">
+          <div class="pb base">EU clinical<br>JSON docs</div>
+          <div class="pa">→</div>
+          <div class="pb clin">EU→CA</div>
+          <div class="pa">→</div>
+          <div class="pb clin">CA→EU<br>backtrans</div>
+          <div class="pa">→</div>
+          <div class="pb best">clinical<br>synthetic</div>
+        </div>
+      </div>
+      <div class="callout" style="margin-top:6px;font-size:9.5pt;">
+        <strong>Instruction prompt distinction (ca→eu):</strong>
+        <div style="margin-top:3px;"><strong>literary/general:</strong> <code>"Tradueix aquest text del català al basc:\n\n{source}"</code></div>
+        <div style="margin-top:2px;"><strong>clinical:</strong> <code>"Tradueix aquest text <span style="color:var(--blue-deep);font-weight:900;">CLÍNIC</span> del català al basc:\n\n{source}"</code></div>
+      </div>
+      <div class="callout" style="margin-top:7px;font-size:9.5pt;">
+        <strong>⚠ Two distinct models in the pipeline:</strong>
+        <span style="display:block;margin-top:3px;"><strong>Translation</strong> (scripts 05–07): <code>HiTZ/Latxa-Llama-3.1-8B-Instruct</code></span>
+        <span style="display:block;margin-top:2px;"><strong>Fine-tuning</strong> (scripts 08–12): <code>HiTZ/Latxa-Qwen3-VL-8B-Instruct</code></span>
+      </div>
+    </section>
+
+    <section>
+      <div class="sec-hdr">
+        <span class="sec-num">4</span>
+        <span class="sec-title">Datasets</span>
+      </div>
+      <table class="corpus-table">
+        <thead><tr><th>Resource</th><th>Domain</th><th>Size</th><th>Split</th></tr></thead>
+        <tbody>
+          <tr><td><code>AINA CA-EU Parallel</code></td><td>General</td><td>50k pairs</td><td>90/5/5</td></tr>
+          <tr><td><code>CTILC CA-ES literary</code></td><td>Literary</td><td>~100k rows</td><td>—</td></tr>
+          <tr><td><code>EhuHac ES-EU</code></td><td>Literary</td><td>sampled JSONL</td><td>—</td></tr>
+          <tr><td>EU clinical JSON docs</td><td>Clinical</td><td>100k paragraphs</td><td>—</td></tr>
+        </tbody>
+      </table>
+      <div style="font-size:7.8pt;color:var(--ink-muted);margin-top:3px;">General corpus split: 90% train / 5% valid / 5% test (<code>VALID_SPLIT=0.05</code>).</div>
+    </section>
+
+  </div><!-- end col 1 -->
+
+  <!-- COL 2 -->
+  <div class="col">
+
+    <section>
+      <div class="sec-hdr">
+        <span class="sec-num">5</span>
+        <span class="sec-title">Training Setup</span>
+      </div>
+      <div class="info-row"><span class="k">Fine-tuning model</span><span class="v">HiTZ/Latxa-Qwen3-VL-8B-Instruct</span></div>
+      <div class="info-row"><span class="k">Translation model (05–07)</span><span class="v">HiTZ/Latxa-Llama-3.1-8B-Instruct</span></div>
+      <div class="info-row"><span class="k">Adaptation</span><span class="v">LoRA · 4-bit NF4 (bitsandbytes)</span></div>
+      <div class="info-row"><span class="k">Max length</span><span class="v">768 tokens</span></div>
+      <div class="info-row"><span class="k">Epochs / Seed</span><span class="v">3 (default) / 42</span></div>
+      <div class="info-row"><span class="k">Batch / Grad accum</span><span class="v">4 / 8</span></div>
+      <div class="info-row"><span class="k">Learning rate</span><span class="v">5e-5 · cosine schedule</span></div>
+      <div class="info-row"><span class="k">Prompting style</span><span class="v">Instruction-based, bidirectional</span></div>
+      <div class="info-row" style="border-bottom:none;"><span class="k">Checkpoint selection</span><span class="v">Best BLEU on validation (v1 + literaryv2); eval_loss↓ for clinicalv2</span></div>
+      <div class="training-note">
+        Each parallel pair → two instruction samples: <code>eu2ca</code> + <code>ca2eu</code>.
+        <span style="display:block;margin-top:4px;border-top:1px solid var(--rule);padding-top:4px;"><strong>clinicalv2 differs significantly:</strong>
+        <code>eval_strategy=epoch</code> (not steps) · <code>per_device_eval_batch_size=1</code> (not 4) · checkpoint selected by <code>eval_loss↓</code> (not BLEU) · <em>no</em> <code>compute_metrics</code> callback.</span>
+      </div>
+    </section>
+
+    <section>
+      <div class="sec-hdr">
+        <span class="sec-num">6</span>
+        <span class="sec-title">Model Variants &amp; Experimental Design</span>
+      </div>
+
+      <div class="pipeline-wrap">
+        <div class="pipeline-label">generalv1 — Direct fine-tuning on AINA CA-EU</div>
+        <div class="pipeline">
+          <div class="pb base">Latxa-Qwen3<br>base</div><div class="pa">→</div>
+          <div class="pb gen">SFT 50k<br>CA-EU pairs</div><div class="pa">→</div>
+          <div class="pb best">generalv1<br>(bi-dir.)</div>
+        </div>
+      </div>
+      <div class="pipeline-wrap" style="margin-top:5px;">
+        <div class="pipeline-label">literaryv1 — Direct literary domain SFT</div>
+        <div class="pipeline">
+          <div class="pb base">Latxa-Qwen3<br>base</div><div class="pa">→</div>
+          <div class="pb lit">SFT on literary<br>synthetic</div><div class="pa">→</div>
+          <div class="pb lit">literaryv1</div>
+        </div>
+      </div>
+      <div class="pipeline-wrap" style="margin-top:5px;">
+        <div class="pipeline-label">literaryv2 — Continued from generalv1 + ES-EU aux data <span class="star">★</span></div>
+        <div class="pipeline">
+          <div class="pb gen">generalv1<br>ckpt</div><div class="pa">→</div>
+          <div class="pb lit">cont. literary SFT<br>+ ES↔EU aux (EhuHac)<br><small style="font-size:7.5pt;opacity:0.8;">weight×2, labeled eu2es/es2eu</small></div><div class="pa">→</div>
+          <div class="pb lit">literaryv2</div>
+        </div>
+      </div>
+      <div class="pipeline-wrap" style="margin-top:5px;">
+        <div class="pipeline-label">clinicalv1 — Direct clinical domain SFT</div>
+        <div class="pipeline">
+          <div class="pb base">Latxa-Qwen3<br>base</div><div class="pa">→</div>
+          <div class="pb clin">SFT on clinical<br>synthetic</div><div class="pa">→</div>
+          <div class="pb clin">clinicalv1<br>(ca2eu)</div>
+        </div>
+      </div>
+      <div class="pipeline-wrap" style="margin-top:5px;">
+        <div class="pipeline-label">clinicalv2 — Continued from generalv1 + clinical aux data <span class="star">★</span></div>
+        <div class="pipeline">
+          <div class="pb gen">generalv1<br>ckpt</div><div class="pa">→</div>
+          <div class="pb clin">cont. clinical SFT<br>+ clinical aux<br><small style="font-size:7.5pt;opacity:0.8;">weight×2; eval_loss↓; epoch-eval</small></div><div class="pa">→</div>
+          <div class="pb clin">clinicalv2</div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="sec-hdr">
+        <span class="sec-num">7</span>
+        <span class="sec-title">General Domain Results</span>
+      </div>
+      <table class="rtable">
+        <thead>
+          <tr><th>Model</th><th>Dir</th><th>chrF++↑</th><th>BLEU↑</th><th>TER↓</th><th>COMET↑</th></tr>
+        </thead>
+        <tbody>
+          <tr class="row-base"><td>Baseline</td><td>eu→ca</td><td>10.93</td><td>0.60</td><td>300.3</td><td>45.17</td></tr>
+          <tr class="row-base"><td>Baseline</td><td>ca→eu</td><td>17.10</td><td>1.29</td><td>296.3</td><td>48.54</td></tr>
+          <tr class="row-best"><td>generalv1</td><td>eu→ca</td><td class="best-val">45.03</td><td class="best-val">18.51</td><td class="ter-best">75.53</td><td class="best-val">80.61</td></tr>
+          <tr class="row-best"><td>generalv1</td><td>ca→eu</td><td class="best-val">41.63</td><td class="best-val">9.92</td><td class="ter-best">88.02</td><td class="best-val">80.75</td></tr>
+        </tbody>
+      </table>
+      <p style="font-size:7pt;color:var(--ink-muted);text-align:left;margin-top:2px;">N=2435 eu→ca / 2412 ca→eu. Baseline = Latxa-Qwen3-VL-8B-Instruct zero-shot.</p>
+
+      <div class="chart-wrap" style="margin-top:5px;">
+        <div class="chart-title">chrF++ — General Domain</div>
+        <svg viewBox="0 0 290 88" xmlns="http://www.w3.org/2000/svg" style="width:100%;display:block;">
+          <line x1="42" y1="8" x2="42" y2="60" stroke="var(--blue-pale)" stroke-width="0.8"/>
+          <line x1="42" y1="60" x2="282" y2="60" stroke="var(--blue-pale)" stroke-width="0.8"/>
+          <line x1="42" y1="42" x2="282" y2="42" stroke="var(--blue-sky)" stroke-width="0.6" stroke-dasharray="2,2"/>
+          <line x1="42" y1="25" x2="282" y2="25" stroke="var(--blue-sky)" stroke-width="0.6" stroke-dasharray="2,2"/>
+          <text x="38" y="63" font-size="7" fill="var(--ink-muted)" text-anchor="end">0</text>
+          <text x="38" y="45" font-size="7" fill="var(--ink-muted)" text-anchor="end">20</text>
+          <text x="38" y="28" font-size="7" fill="var(--ink-muted)" text-anchor="end">40</text>
+          <!-- Baseline eu→ca: 10.93 / 50 * 52 -->
+          <rect x="52" y="58.6" width="28" height="1.4" fill="var(--ink-muted)" rx="1"/>
+          <text x="66" y="56.5" font-size="6.5" fill="var(--ink-muted)" text-anchor="middle">10.9</text>
+          <!-- Baseline ca→eu: 17.10 -->
+          <rect x="85" y="57.8" width="28" height="2.2" fill="var(--ink-muted)" rx="1"/>
+          <text x="99" y="55.8" font-size="6.5" fill="var(--ink-muted)" text-anchor="middle">17.1</text>
+          <!-- generalv1 eu→ca: 45.03 -->
+          <rect x="168" y="13.6" width="28" height="46.4" fill="var(--blue-mid)" rx="1.5"/>
+          <text x="182" y="11.5" font-size="7.5" fill="var(--blue-deep)" font-weight="bold" text-anchor="middle">45.0</text>
+          <!-- generalv1 ca→eu: 41.63 -->
+          <rect x="205" y="17.7" width="28" height="42.3" fill="var(--blue-soft)" rx="1.5"/>
+          <text x="219" y="15.6" font-size="7" fill="var(--blue-deep)" text-anchor="middle">41.6</text>
+          <text x="66" y="72" font-size="7" fill="var(--ink-mid)" text-anchor="middle">Base eu→ca</text>
+          <text x="99" y="72" font-size="7" fill="var(--ink-mid)" text-anchor="middle">Base ca→eu</text>
+          <text x="182" y="72" font-size="7" fill="var(--blue-deep)" font-weight="bold" text-anchor="middle">gen eu→ca</text>
+          <text x="219" y="72" font-size="7" fill="var(--blue-deep)" text-anchor="middle">gen ca→eu</text>
+        </svg>
+      </div>
+    </section>
+
+  </div><!-- end col 2 -->
+
+  <!-- COL 3 -->
+  <div class="col">
+
+    <section>
+      <div class="sec-hdr">
+        <span class="sec-num">8</span>
+        <span class="sec-title">Literary Domain Results</span>
+      </div>
+      <table class="rtable">
+        <thead>
+          <tr><th>Model</th><th>Dir</th><th>chrF++↑</th><th>BLEU↑</th><th>TER↓</th><th>COMET↑</th></tr>
+        </thead>
+        <tbody>
+          <tr class="row-base"><td>Baseline</td><td>eu→ca</td><td>11.96</td><td>0.82</td><td>151.3</td><td>41.55</td></tr>
+          <tr class="row-base"><td>Baseline</td><td>ca→eu</td><td>16.59</td><td>0.63</td><td>266.6</td><td>44.82</td></tr>
+          <tr class="row-xdomain"><td>generalv1 ×</td><td>eu→ca</td><td>27.97</td><td>4.96</td><td>89.44</td><td>66.68</td></tr>
+          <tr class="row-xdomain"><td>generalv1 ×</td><td>ca→eu</td><td>29.58</td><td>2.82</td><td>101.8</td><td>67.76</td></tr>
+          <tr class="row-best"><td>literaryv1 ★</td><td>eu→ca</td><td class="best-val">36.13</td><td class="best-val">8.96</td><td class="ter-best">85.08</td><td class="best-val">69.61</td></tr>
+          <tr class="row-best"><td>literaryv1 ★</td><td>ca→eu</td><td class="best-val">26.90</td><td class="best-val">2.44</td><td class="ter-best">99.60</td><td class="best-val">65.29</td></tr>
+          <tr><td>literaryv2</td><td>eu→ca</td><td>34.51</td><td>7.44</td><td>87.66</td><td>68.72</td></tr>
+          <tr><td>literaryv2</td><td>ca→eu</td><td>25.87</td><td>2.31</td><td>100.7</td><td>64.34</td></tr>
+        </tbody>
+      </table>
+      <p style="font-size:7pt;color:var(--ink-muted);text-align:left;margin-top:2px;">★ Direct SFT (v1) beats continued adaptation (v2). × = cross-domain transfer only.</p>
+    </section>
+
+    <section>
+      <div class="sec-hdr">
+        <span class="sec-num">9</span>
+        <span class="sec-title">Clinical Domain Results (ca→eu)</span>
+      </div>
+      <table class="rtable">
+        <thead>
+          <tr><th>Model</th><th>chrF++↑</th><th>BLEU↑</th><th>TER↓</th><th>COMET↑</th></tr>
+        </thead>
+        <tbody>
+          <tr class="row-base"><td>Baseline</td><td>11.03</td><td>0.64</td><td>104.3</td><td>50.56</td></tr>
+          <tr class="row-xdomain"><td>generalv1 ×</td><td>10.60</td><td>0.38</td><td>98.10</td><td>56.56</td></tr>
+          <tr class="row-best"><td>clinicalv1 ★</td><td class="best-val">40.79</td><td class="best-val">22.14</td><td class="ter-best">97.32</td><td class="best-val">74.44</td></tr>
+          <tr><td>clinicalv2</td><td>25.43</td><td>7.12</td><td>93.74</td><td>69.04</td></tr>
+        </tbody>
+      </table>
+      <p style="font-size:7pt;color:var(--ink-muted);text-align:left;margin-top:2px;">N=66. ★ clinicalv1 dominates; × cross-domain generalv1 barely beats baseline on COMET but fails on other metrics.</p>
+
+      <div class="chart-wrap" style="margin-top:5px;">
+        <div class="chart-title">chrF++ — Clinical Domain</div>
+        <svg viewBox="0 0 290 88" xmlns="http://www.w3.org/2000/svg" style="width:100%;display:block;">
+          <line x1="42" y1="8" x2="42" y2="60" stroke="var(--blue-pale)" stroke-width="0.8"/>
+          <line x1="42" y1="60" x2="282" y2="60" stroke="var(--blue-pale)" stroke-width="0.8"/>
+          <line x1="42" y1="42" x2="282" y2="42" stroke="var(--blue-sky)" stroke-width="0.6" stroke-dasharray="2,2"/>
+          <line x1="42" y1="25" x2="282" y2="25" stroke="var(--blue-sky)" stroke-width="0.6" stroke-dasharray="2,2"/>
+          <text x="38" y="63" font-size="7" fill="var(--ink-muted)" text-anchor="end">0</text>
+          <text x="38" y="45" font-size="7" fill="var(--ink-muted)" text-anchor="end">20</text>
+          <text x="38" y="28" font-size="7" fill="var(--ink-muted)" text-anchor="end">40</text>
+          <!-- Baseline: 11.03 -->
+          <rect x="55" y="58.6" width="32" height="1.4" fill="var(--ink-muted)" rx="1"/>
+          <text x="71" y="56.5" font-size="6.5" fill="var(--ink-muted)" text-anchor="middle">11.0</text>
+          <!-- generalv1 cross: 10.60 -->
+          <rect x="100" y="58.6" width="32" height="1.4" fill="var(--slate)" rx="1"/>
+          <text x="116" y="56.5" font-size="6.5" fill="var(--slate)" text-anchor="middle">10.6</text>
+          <!-- clinicalv1: 40.79 -->
+          <rect x="148" y="13.5" width="32" height="46.5" fill="var(--blue-mid)" rx="1.5"/>
+          <text x="164" y="11.5" font-size="7.5" fill="var(--blue-deep)" font-weight="bold" text-anchor="middle">40.8★</text>
+          <!-- clinicalv2: 25.43 -->
+          <rect x="196" y="45.1" width="32" height="14.9" fill="var(--blue-lt)" rx="1.5"/>
+          <text x="212" y="43.1" font-size="6.5" fill="var(--blue-deep)" text-anchor="middle">25.4</text>
+          <text x="71" y="72" font-size="7" fill="var(--ink-mid)" text-anchor="middle">Baseline</text>
+          <text x="116" y="72" font-size="7" fill="var(--ink-mid)" text-anchor="middle">gen (cross)</text>
+          <text x="164" y="72" font-size="7" fill="var(--blue-deep)" font-weight="bold" text-anchor="middle">clinicalv1</text>
+          <text x="212" y="72" font-size="7" fill="var(--ink-mid)" text-anchor="middle">clinicalv2</text>
+        </svg>
+      </div>
+    </section>
+
+    <section>
+      <div class="sec-hdr">
+        <span class="sec-num">10</span>
+        <span class="sec-title">Key Findings</span>
+      </div>
+      <div class="finding">
+        <div class="finding-icon">1</div>
+        <div class="finding-text"><strong>generalv1 strongly improves general CA-EU MT:</strong> chrF++ 13.69 → 43.49 and COMET 46.85 → 80.68 overall, with near-perfect length ratios (~0.986).</div>
+      </div>
+      <div class="finding">
+        <div class="finding-icon">2</div>
+        <div class="finding-text"><strong>Cross-domain transfer helps but is insufficient:</strong> generalv1 applied out-of-domain beats the zero-shot baseline but falls clearly below dedicated domain models on both literary and clinical tasks.</div>
+      </div>
+      <div class="finding">
+        <div class="finding-icon">3</div>
+        <div class="finding-text"><strong>Direct domain SFT outperforms continued adaptation:</strong> literaryv1 &gt; literaryv2 and clinicalv1 &gt; clinicalv2 on all reported metrics — continued adaptation from a general checkpoint is not uniformly better.</div>
+      </div>
+      <div class="finding">
+        <div class="finding-icon">4</div>
+        <div class="finding-text"><strong>clinicalv1 achieves the largest relative gain:</strong> chrF++ 11.03 → 40.79 (+29.8 pp), confirming that synthetic data via round-trip back-translation is effective even with only 66 test items.</div>
+      </div>
+      <div class="finding">
+        <div class="finding-icon">5</div>
+        <div class="finding-text"><strong>Pipeline inconsistencies identified &amp; corrected:</strong> v2 scripts use <em>Spanish↔Basque</em> (ES-EU) auxiliary data — not CA-EU as labelled. clinicalv2 uses eval_loss + epoch-eval (not BLEU+steps). eu2ca literary uses <code>text_ca</code>, not <code>text_ca_back</code>. Two separate models handle translation (Latxa-Llama-3.1) vs fine-tuning (Latxa-Qwen3).</div>
+      </div>
+    </section>
+
+    <section>
+      <div class="sec-hdr">
+        <span class="sec-num">11</span>
+        <span class="sec-title">Limitations &amp; Future Work</span>
+      </div>
+      <div class="callout warn">
+        <strong>Limitations:</strong> Small clinical test set (N=66); single-directional clinical training; reliance on synthetic supervision; incomplete <code>requirements.txt</code>; some corpus schemas unresolved.
+      </div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:4px;margin-top:6px;">
+        <div style="background:var(--teal-lt);border:1px solid var(--teal);border-radius:7px;padding:5px 7px;">
+          <div style="font-size:8.5pt;font-weight:700;color:var(--teal);margin-bottom:2px;text-transform:uppercase;">Corpus schema</div>
+          <div style="font-size:8.5pt;color:var(--ink-mid);line-height:1.4;">Unify file naming; document exact provenance and field definitions of each synthetic corpus.</div>
+        </div>
+        <div style="background:var(--blue-sky);border:1px solid var(--blue-soft);border-radius:7px;padding:5px 7px;">
+          <div style="font-size:8.5pt;font-weight:700;color:var(--blue-mid);margin-bottom:2px;text-transform:uppercase;">Ablations</div>
+          <div style="font-size:8.5pt;color:var(--ink-mid);line-height:1.4;">Test pivot language choices, backtranslation strategy and domain oversampling weights.</div>
+        </div>
+        <div style="background:var(--steel-lt);border:1px solid var(--slate);border-radius:7px;padding:5px 7px;">
+          <div style="font-size:8.5pt;font-weight:700;color:var(--slate);margin-bottom:2px;text-transform:uppercase;">Curriculum</div>
+          <div style="font-size:8.5pt;color:var(--ink-mid);line-height:1.4;">Compare direct SFT, continued fine-tuning and mixed-domain curricula under a controlled protocol.</div>
+        </div>
+        <div style="background:var(--gold-lt);border:1px solid var(--gold);border-radius:7px;padding:5px 7px;">
+          <div style="font-size:8.5pt;font-weight:700;color:#7A5500;margin-bottom:2px;text-transform:uppercase;">Bidirectional</div>
+          <div style="font-size:8.5pt;color:var(--ink-mid);line-height:1.4;">Extend clinical to eu→ca; add human evaluation and larger test sets.</div>
+        </div>
+      </div>
+    </section>
+
+  </div><!-- end col 3 -->
+
+</div><!-- end body-grid -->
+
+<!-- MODELS STRIP -->
+<div class="hf-strip">
+  <div class="hf-title">Model Variants</div>
+  <div class="hf-models-container">
+    <div class="hf-item">
+      <div class="hf-type">General</div>
+      <div class="hf-name"><div class="hf-dot"></div>generalv1</div>
+    </div>
+    <div class="hf-item best">
+      <div class="hf-type">Literary — best</div>
+      <div class="hf-name"><div class="hf-dot"></div>literaryv1 ★</div>
+    </div>
+    <div class="hf-item">
+      <div class="hf-type">Literary continued</div>
+      <div class="hf-name"><div class="hf-dot"></div>literaryv2</div>
+    </div>
+    <div class="hf-item best">
+      <div class="hf-type">Clinical — best</div>
+      <div class="hf-name"><div class="hf-dot"></div>clinicalv1 ★</div>
+    </div>
+    <div class="hf-item">
+      <div class="hf-type">Clinical continued</div>
+      <div class="hf-name"><div class="hf-dot"></div>clinicalv2</div>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+  <div class="footer-left">
+    <strong>References &amp; Resources</strong>
+    <div class="ref-item">Freitag et al. 2022. <em>Results of the WMT22 Metrics Shared Task.</em> EMNLP 2022.</div>
+    <div class="ref-item"><code>projecte-aina/CA-EU_Parallel_Corpus</code> · <code>HiTZ/Latxa-Qwen3-VL-8B-Instruct</code> · <code>HiTZ/Latxa-Llama-3.1-8B-Instruct</code> · EhuHac ES-EU literary corpus · CTILC CA-ES literary corpus · Unbabel COMET</div>
+    <div style="margin-top:5px;"><strong>Pipeline scripts</strong></div>
+    <div class="ref-item" style="color:var(--blue-lt);">
+      01_sample_general · 02–03_sample_literary · 04_sample_clinical · 05–07_translate · 08–12_finetuning · 13_evaluate_all
+    </div>
+  </div>
+  <div class="footer-right">
+    <strong>Evaluation Metrics</strong>
+    <div class="ref-item">chrF++ · BLEU · TER · COMET · Length Ratio</div>
+    <div style="margin-top:5px;"><strong>Base Model (Fine-tuning)</strong></div>
+    <div class="ref-item"><code>HiTZ/Latxa-Qwen3-VL-8B-Instruct</code></div>
+    <div style="margin-top:5px;"><strong>Translation Model (Data construction)</strong></div>
+    <div class="ref-item"><code>HiTZ/Latxa-Llama-3.1-8B-Instruct</code></div>
+    <div style="margin-top:5px;"><strong>Embedding Alignment</strong></div>
+    <div class="ref-item"><code>intfloat/multilingual-e5-large</code></div>
+  </div>
+</div>
+
+</body>
+</html>

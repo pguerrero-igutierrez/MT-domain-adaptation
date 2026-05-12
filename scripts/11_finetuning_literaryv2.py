@@ -2,8 +2,8 @@
 11_finetuning_literaryv2.py
 
 Continue fine-tuning from a general-purpose Basque–Catalan translation
-baseline (08_finetuning_general.py output, hosted on HuggingFace Hub) by
-mixing general parallel data with both literary backtranslation corpora.
+baseline (08_finetuning_general.py output, hosted on HuggingFace Hub)
+using the same literary backtranslation corpora as literaryv1.
 Evaluates using BLEU score during training.
 
 Base model
@@ -12,11 +12,8 @@ A LoRA-merged (or full) checkpoint uploaded to HF after the general
 fine-tuning stage, e.g. "your-org/latxa-qwen3-8b-general-eucat".
 Override with --model.
 
-Data sources  (all three used simultaneously)
----------------------------------------------
-General data: loaded via --general-jsonl  (same format as ehuhac_parallel)
-    source = source_es / source_eu fields; treated as supplementary signal
-
+Data sources
+------------
 Literary eu2ca : backtranslated-corpus/ca-literary_trilingual.json
     source = text_eu  →  target = text_ca
 
@@ -28,16 +25,13 @@ Direction instructions (same as v1)
 eu2ca: "Itzuli testu hau euskaratik katalanera:\n\n{source}"
 ca2eu: "Tradueix aquest text del català al basc:\n\n{source}"
 
-The general data (eu↔es sentences) is included purely as regularisation;
-it is labelled with its own direction tags so the model does not confuse
-language pairs.
-
 Strategy
 --------
 - Load the HF baseline with its existing LoRA adapters (PEFT) or as a
   plain causal-LM checkpoint and apply fresh LoRA on top.
-- Use a higher literary sampling weight to bias the mix toward the target
-  domain without forgetting general translation ability.
+- Reuse the same literary training data as literaryv1 so that the main
+  experimental difference is the starting checkpoint rather than the
+  corpus composition.
 - Cosine LR schedule with a short warmup continuing from a low LR so we
   do not overwrite the general weights.
 
@@ -54,19 +48,17 @@ Usage
 -----
     python 11_finetuning_literaryv2.py --model your-org/latxa-qwen3-8b-general-eucat
     python 11_finetuning_literaryv2.py --model your-org/... --no-4bit --epochs 2
-    python 11_finetuning_literaryv2.py --model your-org/... --literary-weight 3
 """
 
 import argparse
 import json
-import os
 import random
 from pathlib import Path
 
 from sacrebleu.metrics import BLEU
 import numpy as np
 import torch
-from datasets import Dataset, concatenate_datasets
+from datasets import Dataset
 from peft import LoraConfig, PeftModel, TaskType, get_peft_model, prepare_model_for_kbit_training
 from transformers import (
     Qwen3VLForConditionalGeneration,
@@ -97,8 +89,6 @@ MAX_LEN_RATIO = 3.0
 INSTRUCTION = {
     "eu2ca": "Itzuli testu hau euskaratik katalanera:\n\n{source}",
     "ca2eu": "Tradueix aquest text del català al basc:\n\n{source}",
-    "eu2es": "Itzuli testu hau euskaratik gaztelaniara:\n\n{source}",
-    "es2eu": "Itzuli testu hau gaztelaniatik euskarara:\n\n{source}",
 }
 
 
@@ -142,31 +132,6 @@ def load_eu_jsonl(path: Path) -> list[dict]:
             if ratio > MAX_LEN_RATIO:
                 continue
             samples.append({"source": src, "target": tgt, "direction": "ca2eu"})
-    return samples
-
-
-def load_general_jsonl(path: Path) -> list[dict]:
-    if not path or not path.exists():
-        return []
-    
-    with open(path, encoding="utf-8") as f:
-        rows = json.load(f)
-        
-    samples = []
-    for r in rows:
-        es = (r.get("source_es") or "").strip()
-        eu = (r.get("source_eu") or "").strip()
-        
-        if len(es) < MIN_SRC_CHARS or len(eu) < MIN_TGT_CHARS:
-            continue
-            
-        ratio = max(len(es), len(eu)) / max(1, min(len(es), len(eu)))
-        if ratio > MAX_LEN_RATIO:
-            continue
-            
-        samples.append({"source": eu, "target": es, "direction": "eu2es"})
-        samples.append({"source": es, "target": eu, "direction": "es2eu"})
-        
     return samples
 
 
@@ -261,10 +226,6 @@ def main() -> None:
                         help="HF repo of the general fine-tuned checkpoint")
     parser.add_argument("--is-peft",          action="store_true",
                         help="Set if the HF repo is a PEFT/LoRA checkpoint (not merged)")
-    parser.add_argument("--general-jsonl",    default=None,
-                        help="Path to general parallel data JSONL (ehuhac_parallel format)")
-    parser.add_argument("--literary-weight",  type=int, default=2,
-                        help="Repeat literary samples N times to up-weight domain")
     parser.add_argument("--output-dir",       default=str(OUTPUT_DIR))
     parser.add_argument("--epochs",           type=int,   default=3)
     parser.add_argument("--batch-size",       type=int,   default=4)
@@ -287,15 +248,10 @@ def main() -> None:
     print("Loading data...")
     ca_samples      = load_ca_json(CA_JSON)
     eu_samples      = load_eu_jsonl(EU_JSONL)
-    general_path    = Path(args.general_jsonl) if args.general_jsonl else None
-    general_samples = load_general_jsonl(general_path)
+    all_samples = ca_samples + eu_samples
 
-    literary = oversample(ca_samples + eu_samples, args.literary_weight)
-    all_samples = literary + general_samples
-
-    print(f"  ca-literary (eu2ca)  : {len(ca_samples):,}  × {args.literary_weight} = {len(ca_samples)*args.literary_weight:,}")
-    print(f"  eu-literary (ca2eu)  : {len(eu_samples):,}  × {args.literary_weight} = {len(eu_samples)*args.literary_weight:,}")
-    print(f"  general (eu↔es)      : {len(general_samples):,}")
+    print(f"  ca-literary (eu2ca)  : {len(ca_samples):,}")
+    print(f"  eu-literary (ca2eu)  : {len(eu_samples):,}")
 
     random.shuffle(all_samples)
 

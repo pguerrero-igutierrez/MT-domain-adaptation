@@ -1,12 +1,9 @@
 """
 07_translate-eu-clinical.py
 
-Builds a parallel EU-CA-EU corpus from pre-sampled Basque clinical paragraphs
+Builds a parallel EU-CA corpus from pre-sampled Basque clinical paragraphs
 using HiTZ/Latxa-Llama-3.1-8B-Instruct via vLLM offline batching:
-  Pass 1: source_eu -> Catalan      (ca_translation)
-  Pass 2: ca_translation -> Basque  (eu_backtrans)
-
-Pass 2 uses the Catalan output of Pass 1 as its input (backtranslation).
+  Pass 1: source_eu -> Catalan      (ca)
 
 INPUT
 -----
@@ -19,9 +16,8 @@ PIPELINE
 --------
 1. Load pre-sampled paragraphs from eu-clinical_sampled100k.json.
 2. Translate eu -> Catalan using Latxa (vLLM offline batch).
-3. Backtranslate ca_translation -> Basque using Latxa (vLLM offline batch).
-4. Align by document and paragraph index.
-5. Save merged output JSON preserving all metadata fields.
+3. Align by document and paragraph index.
+4. Save merged output JSON preserving all metadata fields.
 
 OUTPUT
 ------
@@ -31,8 +27,7 @@ Each output record preserves all original metadata fields, plus:
     {
       ...,
       "eu":             str,   (original Basque)
-      "ca":             str,   (translated Catalan)
-      "eu_backtrans":   str    (backtranslated Basque from CA)
+      "ca":             str    (translated Catalan)
     }
 
 REQUIREMENTS
@@ -69,13 +64,6 @@ EU_TO_CA_SYSTEM = (
     "Proporciona només la traducció, sense explicacions."
 )
 
-CA_TO_EU_SYSTEM = (
-    "Itzultzaile profesional bat zara. "
-    "Itzuli ondorengo katalanezko testua euskarara. "
-    "Eman itzulpena soilik, azalpenik gabe."
-)
-
-
 def load_sampled(path: Path) -> list[dict]:
     if not path.exists():
         raise FileNotFoundError(f"Input file not found: {path}")
@@ -90,7 +78,7 @@ def load_done_doc_ids(path: Path) -> set[str]:
         return set()
     with open(path, encoding="utf-8") as f:
         existing = json.load(f)
-    done = {r["doc_id"] for r in existing if r.get("eu_backtrans", "").strip()}
+    done = {r["doc_id"] for r in existing if r.get("ca", "").strip()}
     print(f"  Resume: {len(done)} already-translated doc_ids found in {path.name}")
     return done
 
@@ -180,17 +168,10 @@ def main() -> None:
         args.batch_size, args.max_tokens, "EU->CA",
     )
 
-    print("\nStep 2: CA -> EU backtranslation")
-    eu_backtrans = run_inference(
-        llm, ca_translations, CA_TO_EU_SYSTEM,
-        args.batch_size, args.max_tokens, "CA->EU",
-    )
-
     for i, row in enumerate(rows):
-        row["ca"]           = ca_translations[i] if i < len(ca_translations) else ""
-        row["eu_backtrans"] = eu_backtrans[i]     if i < len(eu_backtrans)    else ""
+        row["ca"] = ca_translations[i] if i < len(ca_translations) else ""
 
-    rows = [r for r in rows if r.get("ca") and r.get("eu_backtrans")]
+    rows = [r for r in rows if r.get("ca")]
     print(f"\nValid records after filtering empties: {len(rows):,}")
 
     rows = align_by_doc(rows)
