@@ -315,13 +315,13 @@ code {
   <div class="header-inner">
     <div>
       <div class="title">Domain Adaptation for <span class="hl">Catalan–Basque</span> Machine Translation<br>via Synthetic Data and Continued Fine-Tuning</div>
-      <div class="subtitle">Literary fluency &amp; clinical precision through Spanish-pivot corpus construction, back-translation, and LoRA fine-tuning of instruction-following LLMs</div>
+      <div class="subtitle">Literary and clinical translation through synthetic corpus construction, pivot-based translation, and LoRA fine-tuning</div>
       <div class="author-line">
         <strong>Paula Guerrero & Iker Gutierrez</strong>
         <span class="sep">·</span>
         <span>University of the Basque Country EHU</span>
         <span class="sep">·</span>
-        <span>Deep Learning 2025–2026</span>
+        <span>Machine Translation and Multilingualism 2025–2026</span>
       </div>
     </div>
   </div>
@@ -353,11 +353,6 @@ code {
     <span class="val">22.14</span>
     <div class="lbl">BLEU Clinical ↑</div>
     <div class="delta">clinicalv1 ca→eu</div>
-  </div>
-  <div class="metric-chip">
-    <span class="val">5</span>
-    <div class="lbl">Model Variants</div>
-    <div class="delta">gen · lit · clin × 2</div>
   </div>
 </div>
 
@@ -414,9 +409,9 @@ code {
         <span class="sec-num">3</span>
         <span class="sec-title">Synthetic Data Construction</span>
       </div>
-      <p>All domain corpora are built synthetically using <strong>Spanish as pivot language</strong> and the <strong>round-trip back-translation</strong> technique. This yields synthetic parallel pairs:</p>
+      <p>The domain corpora are constructed through synthetic translation pipelines. Literary data uses Spanish as pivoting, while the clinical corpus is built by directlytranslating Basque clinical text into Catalan. This yields synthetic parallel pairs:</p>
       <div class="callout" style="font-size:10pt;">
-        Original CA text → MT into EU (via ES pivot) → reverse for fine-tuning
+        Original CA text → MT into EU (via ES pivot) → reverse directions for fine-tuning
       </div>
 
       <div style="font-size:9.9pt;font-weight:700;color:var(--ink);margin:6px 0 3px;text-transform:uppercase;letter-spacing:0.05em;">Literary — 2 Source Corpora</div>
@@ -480,6 +475,143 @@ code {
         </tbody>
       </table>
       <div style="font-size:7.8pt;color:var(--ink-muted);margin-top:3px;">General corpus split: 90% train / 5% valid / 5% test (<code>VALID_SPLIT=0.05</code>).</div>
+      <div style="font-size:9.9pt;font-weight:700;color:var(--ink);margin:7px 0 4px;text-transform:uppercase;letter-spacing:0.05em;">
+  Dataset Statistics
+</div>
+
+<table class="rtable" style="font-size:8.3pt;">
+  <thead>
+    <tr>
+      <th>Domain</th>
+      <th>Split</th>
+      <th>Dir</th>
+      <th>Samples</th>
+      <th>Src Avg</th>
+      <th>Tgt Avg</th>
+    </tr>
+  </thead>
+  <tbody>
+
+    <!-- GENERAL -->
+    <tr class="row-best">
+      <td rowspan="6">General</td>
+      <td>Train</td>
+      <td>ca→eu</td>
+      <td>43,661</td>
+      <td>106</td>
+      <td>105</td>
+    </tr>
+    <tr class="row-best">
+      <td>Train</td>
+      <td>eu→ca</td>
+      <td>43,568</td>
+      <td>104</td>
+      <td>106</td>
+    </tr>
+    <tr>
+      <td>Valid</td>
+      <td>ca→eu</td>
+      <td>2,388</td>
+      <td>104</td>
+      <td>103</td>
+    </tr>
+    <tr>
+      <td>Valid</td>
+      <td>eu→ca</td>
+      <td>2,458</td>
+      <td>107</td>
+      <td>110</td>
+    </tr>
+    <tr>
+      <td>Test</td>
+      <td>ca→eu</td>
+      <td>2,412</td>
+      <td>107</td>
+      <td>105</td>
+    </tr>
+    <tr>
+      <td>Test</td>
+      <td>eu→ca</td>
+      <td>2,435</td>
+      <td>106</td>
+      <td>107</td>
+    </tr>
+
+    <!-- LITERARY -->
+    <tr class="row-xdomain">
+      <td rowspan="6">Literary</td>
+      <td>Train</td>
+      <td>ca→eu</td>
+      <td>75,444</td>
+      <td>110</td>
+      <td>110</td>
+    </tr>
+    <tr class="row-xdomain">
+      <td>Train</td>
+      <td>eu→ca</td>
+      <td>26,900</td>
+      <td>311</td>
+      <td>299</td>
+    </tr>
+    <tr>
+      <td>Valid</td>
+      <td>ca→eu</td>
+      <td>4,217</td>
+      <td>108</td>
+      <td>108</td>
+    </tr>
+    <tr>
+      <td>Valid</td>
+      <td>eu→ca</td>
+      <td>1,468</td>
+      <td>306</td>
+      <td>291</td>
+    </tr>
+    <tr>
+      <td>Test</td>
+      <td>ca→eu</td>
+      <td>4,261</td>
+      <td>112</td>
+      <td>113</td>
+    </tr>
+    <tr>
+      <td>Test</td>
+      <td>eu→ca</td>
+      <td>1,426</td>
+      <td>301</td>
+      <td>290</td>
+    </tr>
+
+    <!-- CLINICAL -->
+    <tr class="row-base">
+      <td rowspan="3">Clinical</td>
+      <td>Train</td>
+      <td>ca→eu</td>
+      <td>1,174</td>
+      <td>1000</td>
+      <td>1541</td>
+    </tr>
+    <tr class="row-base">
+      <td>Valid</td>
+      <td>ca→eu</td>
+      <td>65</td>
+      <td>1041</td>
+      <td>1630</td>
+    </tr>
+    <tr class="row-base">
+      <td>Test</td>
+      <td>ca→eu</td>
+      <td>66</td>
+      <td>919</td>
+      <td>1339</td>
+    </tr>
+
+  </tbody>
+</table>
+
+<div style="font-size:7.5pt;color:var(--ink-muted);margin-top:3px;">
+  Avg = average tokenized sequence length. General corpus duplicated bidirectionally.
+</div>
     </section>
 
   </div><!-- end col 1 -->
@@ -499,12 +631,10 @@ code {
       <div class="info-row"><span class="k">Epochs / Seed</span><span class="v">3 (default) / 42</span></div>
       <div class="info-row"><span class="k">Batch / Grad accum</span><span class="v">4 / 8</span></div>
       <div class="info-row"><span class="k">Learning rate</span><span class="v">5e-5 · cosine schedule</span></div>
-      <div class="info-row"><span class="k">Prompting style</span><span class="v">Instruction-based, bidirectional</span></div>
-      <div class="info-row" style="border-bottom:none;"><span class="k">Checkpoint selection</span><span class="v">Best BLEU on validation (v1 + literaryv2); eval_loss↓ for clinicalv2</span></div>
+      <div class="info-row"><span class="k">Prompting style</span><span class="v">Instruction-based, bidirectional (general and literary), unidirectional (clinical)</span></div>
+      <div class="info-row" style="border-bottom:none;"><span class="k">Checkpoint selection</span><span class="v">Best BLEU on validation</span></div>
       <div class="training-note">
         Each parallel pair → two instruction samples: <code>eu2ca</code> + <code>ca2eu</code>.
-        <span style="display:block;margin-top:4px;border-top:1px solid var(--rule);padding-top:4px;"><strong>clinicalv2 differs significantly:</strong>
-        <code>eval_strategy=epoch</code> (not steps) · <code>per_device_eval_batch_size=1</code> (not 4) · checkpoint selected by <code>eval_loss↓</code> (not BLEU) · <em>no</em> <code>compute_metrics</code> callback.</span>
       </div>
     </section>
 
@@ -523,7 +653,7 @@ code {
         </div>
       </div>
       <div class="pipeline-wrap" style="margin-top:5px;">
-        <div class="pipeline-label">literaryv1 — Direct literary domain SFT</div>
+        <div class="pipeline-label">literaryv1 Direct literary domain SFT</div>
         <div class="pipeline">
           <div class="pb base">Latxa-Qwen3<br>base</div><div class="pa">→</div>
           <div class="pb lit">SFT on literary<br>synthetic</div><div class="pa">→</div>
@@ -531,15 +661,15 @@ code {
         </div>
       </div>
       <div class="pipeline-wrap" style="margin-top:5px;">
-        <div class="pipeline-label">literaryv2 — Continued from generalv1 + ES-EU aux data <span class="star">★</span></div>
+        <div class="pipeline-label">literaryv2 Continued from generalv1<span class="star">★</span></div>
         <div class="pipeline">
           <div class="pb gen">generalv1<br>ckpt</div><div class="pa">→</div>
-          <div class="pb lit">cont. literary SFT<br>+ ES↔EU aux (EhuHac)<br><small style="font-size:7.5pt;opacity:0.8;">weight×2, labeled eu2es/es2eu</small></div><div class="pa">→</div>
+          <div class="pb lit">cont. literary SFT<br>+ ES↔EU (EhuHac)<br><small style="font-size:7.5pt;opacity:0.8;">labeled eu2es/es2eu</small></div><div class="pa">→</div>
           <div class="pb lit">literaryv2</div>
         </div>
       </div>
       <div class="pipeline-wrap" style="margin-top:5px;">
-        <div class="pipeline-label">clinicalv1 — Direct clinical domain SFT</div>
+        <div class="pipeline-label">clinicalv1 Direct clinical domain SFT</div>
         <div class="pipeline">
           <div class="pb base">Latxa-Qwen3<br>base</div><div class="pa">→</div>
           <div class="pb clin">SFT on clinical<br>synthetic</div><div class="pa">→</div>
@@ -547,10 +677,10 @@ code {
         </div>
       </div>
       <div class="pipeline-wrap" style="margin-top:5px;">
-        <div class="pipeline-label">clinicalv2 — Continued from generalv1 + clinical aux data <span class="star">★</span></div>
+        <div class="pipeline-label">clinicalv2 Continued from generalv1 <span class="star">★</span></div>
         <div class="pipeline">
           <div class="pb gen">generalv1<br>ckpt</div><div class="pa">→</div>
-          <div class="pb clin">cont. clinical SFT<br>+ clinical aux<br><small style="font-size:7.5pt;opacity:0.8;">weight×2; eval_loss↓; epoch-eval</small></div><div class="pa">→</div>
+          <div class="pb clin">cont. clinical SFT<br>+ clinical aux</div><div class="pa">→</div>
           <div class="pb clin">clinicalv2</div>
         </div>
       </div>
@@ -559,7 +689,7 @@ code {
     <section>
       <div class="sec-hdr">
         <span class="sec-num">7</span>
-        <span class="sec-title">General Domain Results</span>
+        <span class="sec-title">General Domain Results (bidirectional)</span>
       </div>
       <table class="rtable">
         <thead>
@@ -575,7 +705,7 @@ code {
       <p style="font-size:7pt;color:var(--ink-muted);text-align:left;margin-top:2px;">N=2435 eu→ca / 2412 ca→eu. Baseline = Latxa-Qwen3-VL-8B-Instruct zero-shot.</p>
 
       <div class="chart-wrap" style="margin-top:5px;">
-        <div class="chart-title">chrF++ — General Domain</div>
+        <div class="chart-title">chrF++ General Domain</div>
         <svg viewBox="0 0 290 88" xmlns="http://www.w3.org/2000/svg" style="width:100%;display:block;">
           <line x1="42" y1="8" x2="42" y2="60" stroke="var(--blue-pale)" stroke-width="0.8"/>
           <line x1="42" y1="60" x2="282" y2="60" stroke="var(--blue-pale)" stroke-width="0.8"/>
@@ -612,7 +742,7 @@ code {
     <section>
       <div class="sec-hdr">
         <span class="sec-num">8</span>
-        <span class="sec-title">Literary Domain Results</span>
+        <span class="sec-title">Literary Domain Results (bidirectional)</span>
       </div>
       <table class="rtable">
         <thead>
@@ -651,7 +781,7 @@ code {
       <p style="font-size:7pt;color:var(--ink-muted);text-align:left;margin-top:2px;">N=66. ★ clinicalv1 dominates; × cross-domain generalv1 barely beats baseline on COMET but fails on other metrics.</p>
 
       <div class="chart-wrap" style="margin-top:5px;">
-        <div class="chart-title">chrF++ — Clinical Domain</div>
+        <div class="chart-title">chrF++ Clinical Domain</div>
         <svg viewBox="0 0 290 88" xmlns="http://www.w3.org/2000/svg" style="width:100%;display:block;">
           <line x1="42" y1="8" x2="42" y2="60" stroke="var(--blue-pale)" stroke-width="0.8"/>
           <line x1="42" y1="60" x2="282" y2="60" stroke="var(--blue-pale)" stroke-width="0.8"/>
@@ -713,20 +843,20 @@ code {
         <span class="sec-title">Limitations &amp; Future Work</span>
       </div>
       <div class="callout warn">
-        <strong>Limitations:</strong> Small clinical test set (N=66); single-directional clinical training; reliance on synthetic supervision; incomplete <code>requirements.txt</code>; some corpus schemas unresolved.
+        <strong>Limitations:</strong> Small clinical test set (N=66); single-directional clinical training; reliance on synthetic supervision..
       </div>
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:4px;margin-top:6px;">
         <div style="background:var(--teal-lt);border:1px solid var(--teal);border-radius:7px;padding:5px 7px;">
-          <div style="font-size:8.5pt;font-weight:700;color:var(--teal);margin-bottom:2px;text-transform:uppercase;">Corpus schema</div>
-          <div style="font-size:8.5pt;color:var(--ink-mid);line-height:1.4;">Unify file naming; document exact provenance and field definitions of each synthetic corpus.</div>
+          <div style="font-size:8.5pt;font-weight:700;color:var(--teal);margin-bottom:2px;text-transform:uppercase;">Corpus</div>
+          <div style="font-size:8.5pt;color:var(--ink-mid);line-height:1.4;">xx</div>
         </div>
         <div style="background:var(--blue-sky);border:1px solid var(--blue-soft);border-radius:7px;padding:5px 7px;">
           <div style="font-size:8.5pt;font-weight:700;color:var(--blue-mid);margin-bottom:2px;text-transform:uppercase;">Ablations</div>
-          <div style="font-size:8.5pt;color:var(--ink-mid);line-height:1.4;">Test pivot language choices, backtranslation strategy and domain oversampling weights.</div>
+          <div style="font-size:8.5pt;color:var(--ink-mid);line-height:1.4;">Test pivot language choices.</div>
         </div>
         <div style="background:var(--steel-lt);border:1px solid var(--slate);border-radius:7px;padding:5px 7px;">
-          <div style="font-size:8.5pt;font-weight:700;color:var(--slate);margin-bottom:2px;text-transform:uppercase;">Curriculum</div>
-          <div style="font-size:8.5pt;color:var(--ink-mid);line-height:1.4;">Compare direct SFT, continued fine-tuning and mixed-domain curricula under a controlled protocol.</div>
+          <div style="font-size:8.5pt;font-weight:700;color:var(--slate);margin-bottom:2px;text-transform:uppercase;">x</div>
+          <div style="font-size:8.5pt;color:var(--ink-mid);line-height:1.4;">x</div>
         </div>
         <div style="background:var(--gold-lt);border:1px solid var(--gold);border-radius:7px;padding:5px 7px;">
           <div style="font-size:8.5pt;font-weight:700;color:#7A5500;margin-bottom:2px;text-transform:uppercase;">Bidirectional</div>
@@ -748,7 +878,7 @@ code {
       <div class="hf-name"><div class="hf-dot"></div>generalv1</div>
     </div>
     <div class="hf-item best">
-      <div class="hf-type">Literary — best</div>
+      <div class="hf-type">Literary  best</div>
       <div class="hf-name"><div class="hf-dot"></div>literaryv1 ★</div>
     </div>
     <div class="hf-item">
@@ -756,7 +886,7 @@ code {
       <div class="hf-name"><div class="hf-dot"></div>literaryv2</div>
     </div>
     <div class="hf-item best">
-      <div class="hf-type">Clinical — best</div>
+      <div class="hf-type">Clinical best</div>
       <div class="hf-name"><div class="hf-dot"></div>clinicalv1 ★</div>
     </div>
     <div class="hf-item">
@@ -770,21 +900,16 @@ code {
 <div class="footer">
   <div class="footer-left">
     <strong>References &amp; Resources</strong>
-    <div class="ref-item">Freitag et al. 2022. <em>Results of the WMT22 Metrics Shared Task.</em> EMNLP 2022.</div>
+    <div class="ref-item">example <em>Results of the WMT22 Metrics Shared Task.</em> EMNLP 2022.</div>
     <div class="ref-item"><code>projecte-aina/CA-EU_Parallel_Corpus</code> · <code>HiTZ/Latxa-Qwen3-VL-8B-Instruct</code> · <code>HiTZ/Latxa-Llama-3.1-8B-Instruct</code> · EhuHac ES-EU literary corpus · CTILC CA-ES literary corpus · Unbabel COMET</div>
-    <div style="margin-top:5px;"><strong>Pipeline scripts</strong></div>
     <div class="ref-item" style="color:var(--blue-lt);">
-      01_sample_general · 02–03_sample_literary · 04_sample_clinical · 05–07_translate · 08–12_finetuning · 13_evaluate_all
     </div>
   </div>
   <div class="footer-right">
-    <strong>Evaluation Metrics</strong>
-    <div class="ref-item">chrF++ · BLEU · TER · COMET · Length Ratio</div>
     <div style="margin-top:5px;"><strong>Base Model (Fine-tuning)</strong></div>
     <div class="ref-item"><code>HiTZ/Latxa-Qwen3-VL-8B-Instruct</code></div>
     <div style="margin-top:5px;"><strong>Translation Model (Data construction)</strong></div>
     <div class="ref-item"><code>HiTZ/Latxa-Llama-3.1-8B-Instruct</code></div>
-    <div style="margin-top:5px;"><strong>Embedding Alignment</strong></div>
     <div class="ref-item"><code>intfloat/multilingual-e5-large</code></div>
   </div>
 </div>
