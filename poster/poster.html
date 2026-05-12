@@ -1,43 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <meta charset="UTF-8">
 <title>CA–EU Domain Adaptation MT Poster A2</title>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;1,400;1,700&family=Lato:wght@300;400;700&family=JetBrains+Mono:wght@400;500&display=swap');
 
 :root {
-  --blue-deep:    #1A4B7A;
-  --blue-mid:     #2E6FAC;
-  --blue-soft:    #4D90C4;
-  --blue-lt:      #8BBFE0;
-  --blue-pale:    #BCD9EF;
-  --blue-sky:     #DDEEF8;
-  --blue-frost:   #EEF6FC;
-  --teal:         #2B7A78;
-  --teal-lt:      #C2E0DF;
-  --slate:        #5A7FA0;
-  --slate-lt:     #C5D9E8;
-  --steel-lt:     #E0EDF5;
-  --ink:          #1C2E40;
-  --ink-mid:      #3A526A;
-  --ink-muted:    #7090A8;
-  --rule:         #BDD5E8;
-  --paper:        #F5FAFD;
-  --white:        #FFFFFF;
-  --gold:         #C8A228;
-  --gold-lt:      #F5E9B8;
+  --blue-deep:  #1A4B7A;
+  --blue-mid:   #2E6FAC;
+  --blue-soft:  #4D90C4;
+  --blue-lt:    #8BBFE0;
+  --blue-pale:  #BCD9EF;
+  --blue-sky:   #DDEEF8;
+  --blue-frost: #EEF6FC;
+  --teal:       #2B7A78;
+  --teal-lt:    #C2E0DF;
+  --slate:      #5A7FA0;
+  --slate-lt:   #C5D9E8;
+  --steel-lt:   #E0EDF5;
+  --ink:        #1C2E40;
+  --ink-mid:    #3A526A;
+  --ink-muted:  #7090A8;
+  --rule:       #BDD5E8;
+  --paper:      #F5FAFD;
+  --white:      #FFFFFF;
+  --gold:       #C8A228;
+  --gold-lt:    #F5E9B8;
 }
 
 * { margin:0; padding:0; box-sizing:border-box; }
 
 body {
   width: 420mm;
-  height: 594mm;
-  overflow: hidden;
+  min-height: 594mm;
   font-family: 'Lato', sans-serif;
-  font-size: 11.3pt;
+  font-size: 10pt;
   color: var(--ink);
   background: var(--white);
   -webkit-print-color-adjust: exact;
@@ -48,206 +46,111 @@ body {
 
 @page { size: A2 portrait; margin: 0; }
 
+/* ─── HEADER ─── */
 .header {
   background: var(--blue-frost);
-  padding: 12.7mm 15.6mm 9.9mm;
+  padding: 10mm 14mm 7mm;
   position: relative;
   border-bottom: 4px solid var(--blue-pale);
-  overflow: hidden;
 }
 .header::before {
-  content: '';
-  position: absolute;
-  top: 0; left: 0; right: 0;
-  height: 6px;
+  content:''; position:absolute; top:0; left:0; right:0; height:6px;
   background: linear-gradient(90deg, var(--blue-deep) 0%, var(--blue-soft) 55%, var(--teal) 100%);
-}
-.header-inner {
-  position: relative; z-index: 2;
-  display: grid;
-  grid-template-columns: 1fr auto;
-  gap: 23px;
-  align-items: center;
 }
 .title {
   font-family: 'Playfair Display', serif;
-  font-size: 23.2pt;
-  font-weight: 800;
-  line-height: 1.18;
-  color: var(--ink);
-  margin-bottom: 6px;
-  letter-spacing: -0.02em;
+  font-size: 21pt; font-weight: 800; line-height: 1.18;
+  color: var(--ink); margin-bottom: 5px; letter-spacing: -0.02em;
 }
 .title .hl { color: var(--blue-mid); font-style: italic; }
-.subtitle {
-  font-size: 11.3pt;
-  color: var(--ink-muted);
-  font-weight: 300;
-  margin-bottom: 7px;
-  letter-spacing: 0.015em;
-  line-height: 1.4;
-}
-.author-line {
-  font-size: 11.6pt;
-  color: var(--ink-mid);
-  display: flex;
-  align-items: center;
-  gap: 13px;
-  flex-wrap: wrap;
-}
+.subtitle { font-size: 10pt; color: var(--ink-muted); font-weight: 300; margin-bottom: 6px; line-height: 1.4; }
+.author-line { font-size: 10.5pt; color: var(--ink-mid); display:flex; align-items:center; gap:12px; flex-wrap:wrap; }
 .author-line .sep { color: var(--blue-soft); }
 .author-line strong { color: var(--ink); font-weight: 700; }
 
+/* ─── METRICS STRIP ─── */
 .metrics-strip {
-  background: var(--ink);
-  padding: 0 15.6mm;
-  display: flex;
-  justify-content: space-between;
-  align-items: stretch;
+  background: var(--ink); padding: 0 14mm;
+  display: flex; justify-content: space-between; align-items: stretch;
 }
 .metric-chip {
-  text-align: center;
-  color: var(--blue-lt);
-  padding: 8px 8px;
-  flex: 1;
+  text-align: center; color: var(--blue-lt);
+  padding: 7px 8px; flex: 1;
   border-right: 1px solid rgba(77,144,196,0.25);
 }
 .metric-chip:last-child { border-right: none; }
 .metric-chip .val {
-  font-family: 'Playfair Display', serif;
-  font-size: 15.6pt;
-  font-weight: 700;
-  display: block;
-  line-height: 1;
-  color: var(--white);
+  font-family: 'Playfair Display', serif; font-size: 14pt; font-weight: 700;
+  display: block; line-height: 1; color: var(--white);
 }
-.metric-chip .lbl { font-size: 7.8pt; opacity: 0.7; margin-top: 3px; letter-spacing: 0.05em; text-transform: uppercase; }
-.metric-chip .delta { font-size: 7.8pt; color: var(--blue-lt); font-weight: 700; }
+.metric-chip .lbl { font-size: 7pt; opacity: 0.7; margin-top: 3px; letter-spacing: 0.05em; text-transform: uppercase; }
+.metric-chip .delta { font-size: 7pt; color: var(--blue-lt); font-weight: 700; }
 
+/* ─── BODY: 2-column ─── */
 .body-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   background: var(--paper);
   flex: 1;
-  min-height: 0;
-  overflow: hidden;
 }
 .col {
-  padding: 8.5mm 7.8mm 1.4mm;
+  padding: 7mm 7mm 4mm;
   border-right: 1px solid var(--rule);
-  overflow: hidden;
 }
 .col:last-child { border-right: none; }
-section { margin-bottom: 7.4mm; }
+section { margin-bottom: 6mm; }
 
+/* ─── SECTION HEADER ─── */
 .sec-hdr {
-  display: flex;
-  align-items: baseline;
-  gap: 7px;
-  margin-bottom: 8px;
-  padding-bottom: 6px;
+  display: flex; align-items: baseline; gap: 7px;
+  margin-bottom: 7px; padding-bottom: 5px;
   border-bottom: 2px solid var(--blue-pale);
 }
 .sec-num {
-  background: var(--blue-pale);
-  color: var(--blue-deep);
-  font-size: 9.2pt;
-  font-weight: 700;
-  width: 20px; height: 20px;
-  border-radius: 4px;
-  display: inline-flex;
-  align-items: center; justify-content: center;
-  flex-shrink: 0;
-  font-family: 'JetBrains Mono', monospace;
+  background: var(--blue-pale); color: var(--blue-deep);
+  font-size: 8.5pt; font-weight: 700;
+  width: 19px; height: 19px; border-radius: 4px;
+  display: inline-flex; align-items: center; justify-content: center;
+  flex-shrink: 0; font-family: 'JetBrains Mono', monospace;
 }
 .sec-title {
   font-family: 'Playfair Display', serif;
-  font-size: 13.4pt;
-  font-weight: 700;
-  color: var(--ink);
-  font-style: italic;
+  font-size: 12pt; font-weight: 700; color: var(--ink); font-style: italic;
 }
 
-p {
-  font-size: 11.3pt;
-  line-height: 1.62;
-  color: var(--ink-mid);
-  margin-bottom: 8px;
-  text-align: justify;
-  hyphens: auto;
-}
+p { font-size: 10pt; line-height: 1.55; color: var(--ink-mid); margin-bottom: 7px; text-align: justify; hyphens: auto; }
 code {
-  font-family: 'JetBrains Mono', monospace;
-  font-size: 9.9pt;
-  background: var(--blue-sky);
-  border-radius: 4px;
-  padding: 1px 4px;
-  color: var(--blue-deep);
+  font-family: 'JetBrains Mono', monospace; font-size: 9pt;
+  background: var(--blue-sky); border-radius: 4px;
+  padding: 1px 4px; color: var(--blue-deep);
 }
 
 .callout {
-  background: var(--blue-sky);
-  border-left: 4px solid var(--blue-soft);
-  border-radius: 0 8px 8px 0;
-  padding: 7px 11px;
-  margin: 7px 0;
-  font-size: 11.3pt;
-  color: var(--blue-deep);
-  line-height: 1.45;
+  background: var(--blue-sky); border-left: 4px solid var(--blue-soft);
+  border-radius: 0 7px 7px 0; padding: 6px 10px; margin: 6px 0;
+  font-size: 10pt; color: var(--blue-deep); line-height: 1.45;
 }
 .callout.warn { background: #FFF8E5; border-left-color: var(--gold); color: #6A4A00; }
 .callout strong { font-weight: 700; }
 
-.pipeline-wrap { margin: 5px 0; }
-.pipeline-label {
-  font-size: 9.2pt; font-weight: 700; color: var(--ink-muted);
-  text-transform: uppercase; letter-spacing: 0.07em; margin-bottom: 3px;
-}
-.pipeline-label .star { color: var(--blue-mid); }
-.pipeline { display: flex; align-items: center; gap: 4px; flex-wrap: nowrap; }
-.pb {
-  background: var(--white); border: 2px solid var(--rule);
-  border-radius: 7px; padding: 4px 8px;
-  font-size: 10.6pt; font-weight: 600; color: var(--ink);
-  text-align: center; line-height: 1.2; white-space: nowrap;
-}
-.pb.base  { background: var(--blue-sky);  border-color: var(--blue-soft); color: var(--ink-mid); }
-.pb.gen   { background: var(--steel-lt);  border-color: var(--slate);     color: var(--blue-deep); }
-.pb.lit   { background: var(--teal-lt);   border-color: var(--teal);      color: var(--teal); }
-.pb.clin  { background: var(--blue-pale); border-color: var(--blue-mid);  color: var(--blue-deep); }
-.pb.best  { background: var(--blue-mid);  border-color: var(--blue-deep); color: var(--white); font-weight: 700; }
-.pa { color: var(--ink-muted); font-size: 14.1pt; line-height: 1; }
-
+/* ─── INFO ROW ─── */
 .info-row {
   display: flex; justify-content: space-between; align-items: center;
-  font-size: 10.6pt; padding: 4px 0;
+  font-size: 9.5pt; padding: 3.5px 0;
   border-bottom: 1px solid var(--rule); color: var(--ink);
 }
-.info-row .k { color: var(--ink-muted); font-size: 9.9pt; }
+.info-row .k { color: var(--ink-muted); font-size: 9pt; }
 .info-row .v { font-weight: 600; }
 
-.training-note {
-  background: var(--blue-sky);
-  border-left: 4px solid var(--blue-soft);
-  border-radius: 0 7px 7px 0;
-  padding: 7px 11px;
-  font-size: 10.6pt; color: var(--ink-muted); margin: 7px 0; line-height: 1.45;
-}
-.training-note strong { color: var(--ink); }
-
-.corpus-table { width: 100%; border-collapse: collapse; font-size: 9.9pt; margin: 4px 0; }
-.corpus-table th { background: var(--slate); color: var(--white); padding: 3px 6px; font-size: 9.2pt; text-align: left; }
-.corpus-table td { padding: 3px 6px; border-bottom: 1px solid var(--rule); }
-.corpus-table tr:nth-child(even) td { background: var(--blue-sky); }
-
-.rtable { width: 100%; border-collapse: collapse; font-size: 9.5pt; margin: 6px 0; }
+/* ─── RESULTS TABLE ─── */
+.rtable { width: 100%; border-collapse: collapse; font-size: 9pt; margin: 5px 0; }
 .rtable th {
   background: var(--blue-deep); color: var(--blue-lt);
-  padding: 4px 5px; text-align: center; font-weight: 700;
-  font-size: 8.5pt; letter-spacing: 0.04em; text-transform: uppercase;
+  padding: 3.5px 5px; text-align: center; font-weight: 700;
+  font-size: 8pt; letter-spacing: 0.04em; text-transform: uppercase;
 }
 .rtable th:first-child { text-align: left; border-radius: 6px 0 0 0; }
-.rtable th:last-child { border-radius: 0 6px 0 0; }
+.rtable th:last-child  { border-radius: 0 6px 0 0; }
 .rtable td {
   padding: 3px 5px; text-align: center;
   border-bottom: 1px solid var(--rule); font-variant-numeric: tabular-nums;
@@ -256,78 +159,214 @@ code {
 .rtable tr:nth-child(even) td { background: var(--blue-sky); }
 .rtable .best-val { font-weight: 700; color: var(--blue-deep); }
 .rtable .row-best td { background: var(--blue-pale) !important; }
-.rtable .row-best td:first-child { color: var(--blue-deep); }
 .rtable .row-base td:first-child { color: var(--ink-muted); }
 .rtable .row-xdomain td:first-child { color: var(--slate); font-style: italic; }
 .rtable .ter-best { font-weight: 700; color: var(--teal); }
 
-.chart-wrap { margin: 4px 0; }
-.chart-title { font-size: 9.9pt; font-weight: 700; color: var(--ink); margin-bottom: 4px; text-transform: uppercase; letter-spacing: 0.06em; }
+/* ─── PIPELINES ─── */
+.pipeline-wrap { margin: 4px 0; }
+.pipeline-label { font-size: 8.5pt; font-weight: 700; color: var(--ink-muted); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 3px; }
+.pipeline { display: flex; align-items: center; gap: 4px; flex-wrap: nowrap; }
+.pb {
+  background: var(--white); border: 2px solid var(--rule);
+  border-radius: 7px; padding: 3px 7px;
+  font-size: 9.5pt; font-weight: 600; color: var(--ink);
+  text-align: center; line-height: 1.2; white-space: nowrap;
+}
+.pb.base  { background: var(--blue-sky);  border-color: var(--blue-soft); color: var(--ink-mid); }
+.pb.gen   { background: var(--steel-lt);  border-color: var(--slate);     color: var(--blue-deep); }
+.pb.lit   { background: var(--teal-lt);   border-color: var(--teal);      color: var(--teal); }
+.pb.clin  { background: var(--blue-pale); border-color: var(--blue-mid);  color: var(--blue-deep); }
+.pb.best  { background: var(--blue-mid);  border-color: var(--blue-deep); color: var(--white); font-weight: 700; }
+.pa { color: var(--ink-muted); font-size: 13pt; line-height: 1; }
 
-.finding { display: flex; gap: 8px; margin-bottom: 8px; align-items: flex-start; }
+/* ─── FINDINGS ─── */
+.finding { display: flex; gap: 7px; margin-bottom: 7px; align-items: flex-start; }
 .finding-icon {
   background: var(--blue-pale); color: var(--blue-deep);
-  font-size: 9.9pt; font-weight: 700; border-radius: 4px;
-  width: 21px; height: 21px;
+  font-size: 9pt; font-weight: 700; border-radius: 4px;
+  width: 20px; height: 20px;
   display: flex; align-items: center; justify-content: center;
-  flex-shrink: 0; margin-top: 1px;
-  font-family: 'JetBrains Mono', monospace;
+  flex-shrink: 0; margin-top: 1px; font-family: 'JetBrains Mono', monospace;
 }
-.finding-text { font-size: 11.3pt; line-height: 1.45; text-align: left; color: var(--ink-mid); }
+.finding-text { font-size: 10pt; line-height: 1.42; text-align: left; color: var(--ink-mid); }
 .finding-text strong { color: var(--ink); }
 
+/* ═══════════════════════════════════════════
+   DATASETS SECTION
+   ═══════════════════════════════════════════ */
+
+.ds-divider {
+  display: flex; align-items: center; gap: 8px;
+  font-size: 8pt; font-weight: 700; text-transform: uppercase;
+  letter-spacing: 0.09em; color: var(--ink-muted);
+  margin: 8px 0 6px;
+}
+.ds-divider span.line { flex: 1; height: 1px; background: var(--rule); }
+
+/* source corpus cards */
+.ds-sources {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 5px; margin-bottom: 4px;
+}
+.ds-source-card {
+  border-radius: 8px; padding: 6px 8px; border: 1.5px solid;
+}
+.ds-source-card .ds-tag {
+  font-size: 7pt; font-weight: 700; text-transform: uppercase;
+  letter-spacing: 0.08em; margin-bottom: 2px;
+}
+.ds-source-card .ds-name { font-size: 9.5pt; font-weight: 700; line-height: 1.2; margin-bottom: 2px; }
+.ds-source-card .ds-meta { font-size: 8pt; color: var(--ink-mid); line-height: 1.3; }
+.ds-source-card code { font-size: 7.5pt; }
+
+.ds-source-card.gen  { background: #EBF3FA; border-color: var(--blue-soft); }
+.ds-source-card.gen  .ds-tag { color: var(--blue-deep); }
+.ds-source-card.lit  { background: var(--teal-lt); border-color: var(--teal); }
+.ds-source-card.lit  .ds-tag { color: var(--teal); }
+.ds-source-card.clin { background: var(--slate-lt); border-color: var(--slate); }
+.ds-source-card.clin .ds-tag { color: var(--blue-deep); }
+
+/* domain split rows */
+.ds-domains { display: flex; flex-direction: column; gap: 5px; }
+
+.ds-domain-row { border-radius: 9px; overflow: hidden; border: 1.5px solid; }
+.ds-domain-row.gen  { border-color: var(--blue-soft); }
+.ds-domain-row.lit  { border-color: var(--teal); }
+.ds-domain-row.clin { border-color: var(--slate); }
+
+.ds-domain-header {
+  display: flex; align-items: center; gap: 8px; padding: 5px 9px;
+}
+.ds-domain-row.gen  .ds-domain-header { background: #D0E8F7; }
+.ds-domain-row.lit  .ds-domain-header { background: var(--teal-lt); }
+.ds-domain-row.clin .ds-domain-header { background: var(--slate-lt); }
+
+.ds-domain-label {
+  font-size: 9pt; font-weight: 700; text-transform: uppercase;
+  letter-spacing: 0.07em; flex: 0 0 auto;
+}
+.ds-domain-row.gen  .ds-domain-label { color: var(--blue-deep); }
+.ds-domain-row.lit  .ds-domain-label { color: var(--teal); }
+.ds-domain-row.clin .ds-domain-label { color: var(--blue-deep); }
+
+.ds-dir-badge {
+  font-size: 7.5pt; background: rgba(255,255,255,0.7);
+  border-radius: 4px; padding: 1px 6px; font-weight: 600; color: var(--ink-mid);
+}
+
+.ds-splits {
+  display: grid; grid-template-columns: 1fr 1fr 1fr;
+  background: var(--white);
+}
+.ds-split {
+  padding: 5px 9px; border-right: 1px solid var(--rule);
+  display: flex; flex-direction: column; gap: 2px;
+}
+.ds-split:last-child { border-right: none; }
+
+.ds-split-label {
+  font-size: 7.5pt; font-weight: 700; text-transform: uppercase;
+  letter-spacing: 0.07em; color: var(--ink-muted);
+}
+.ds-split-count {
+  font-size: 13pt; font-weight: 700; line-height: 1.05;
+  font-family: 'Playfair Display', serif;
+}
+.ds-domain-row.gen  .ds-split-count { color: var(--blue-mid); }
+.ds-domain-row.lit  .ds-split-count { color: var(--teal); }
+.ds-domain-row.clin .ds-split-count { color: var(--slate); }
+
+.ds-split-sub { font-size: 7.5pt; color: var(--ink-muted); line-height: 1.25; }
+
+.ds-bar-track { height: 4px; background: var(--rule); border-radius: 2px; margin-top: 3px; overflow: hidden; }
+.ds-bar-fill  { height: 100%; border-radius: 2px; }
+.ds-domain-row.gen  .ds-bar-fill { background: var(--blue-mid); }
+.ds-domain-row.lit  .ds-bar-fill { background: var(--teal); }
+.ds-domain-row.clin .ds-bar-fill { background: var(--slate); }
+
+/* ═══════════════════════════════════════════
+   COMPARISON CHART (full-width central band)
+   ═══════════════════════════════════════════ */
+.chart-section {
+  background: var(--white);
+  border-top: 2px solid var(--blue-pale);
+  border-bottom: 2px solid var(--blue-pale);
+  padding: 5mm 14mm 5mm;
+}
+.chart-section-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 13pt; font-weight: 700; color: var(--ink); font-style: italic;
+  text-align: center; margin-bottom: 1mm;
+}
+.chart-section-sub {
+  text-align: center; font-size: 9pt; color: var(--ink-muted); margin-bottom: 4mm;
+}
+.charts-row { display: grid; grid-template-columns: 1fr 1fr; gap: 8mm; }
+.chart-block-title {
+  font-size: 9pt; font-weight: 700; text-transform: uppercase;
+  letter-spacing: 0.06em; color: var(--ink); margin-bottom: 4px; text-align: center;
+}
+.chart-legend {
+  display: flex; justify-content: center; flex-wrap: wrap; gap: 14px;
+  margin-bottom: 5px; font-size: 8.5pt; color: var(--ink-muted);
+}
+.chart-legend span { display: flex; align-items: center; gap: 4px; }
+.chart-legend .sq { width: 11px; height: 11px; border-radius: 2px; display: inline-block; }
+
+/* training note */
+.training-note {
+  background: var(--blue-sky); border-left: 4px solid var(--blue-soft);
+  border-radius: 0 7px 7px 0; padding: 6px 10px;
+  font-size: 9.5pt; color: var(--ink-muted); margin: 6px 0; line-height: 1.45;
+}
+.training-note strong { color: var(--ink); }
+
+/* ─── MODELS STRIP ─── */
 .hf-strip {
-  background: var(--blue-sky);
-  padding: 5.7mm 15.6mm;
+  background: var(--blue-sky); padding: 4mm 14mm;
   display: flex; align-items: center; justify-content: space-between;
   border-top: 2px solid var(--blue-pale);
 }
-.hf-title { font-size: 10.6pt; font-weight: 700; color: var(--ink); margin-right: 14.1mm; white-space: nowrap; text-transform: uppercase; letter-spacing: 0.07em; }
-.hf-models-container { display: flex; gap: 9.9mm; align-items: flex-start; flex-grow: 1; }
-.hf-item { font-family: 'JetBrains Mono', monospace; font-size: 9.9pt; color: var(--blue-mid); display: flex; flex-direction: column; gap: 1px; }
-.hf-item .hf-type { font-family: 'Lato', sans-serif; font-size: 7.8pt; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--ink-muted); }
-.hf-item .hf-name { display: flex; align-items: center; gap: 6px; }
+.hf-title { font-size: 9.5pt; font-weight: 700; color: var(--ink); margin-right: 12mm; white-space: nowrap; text-transform: uppercase; letter-spacing: 0.07em; }
+.hf-models-container { display: flex; gap: 8mm; align-items: flex-start; flex-grow: 1; }
+.hf-item { font-family: 'JetBrains Mono', monospace; font-size: 9pt; color: var(--blue-mid); display: flex; flex-direction: column; gap: 1px; }
+.hf-item .hf-type { font-family: 'Lato', sans-serif; font-size: 7pt; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--ink-muted); }
+.hf-item .hf-name { display: flex; align-items: center; gap: 5px; }
 .hf-item.best { color: var(--blue-deep); }
-.hf-item.best .hf-name { font-weight: 700; background: var(--blue-pale); padding: 1px 7px; border-radius: 4px; border: 1px solid var(--blue-soft); }
+.hf-item.best .hf-name { font-weight: 700; background: var(--blue-pale); padding: 1px 6px; border-radius: 4px; border: 1px solid var(--blue-soft); }
 .hf-item.best .hf-type { color: var(--blue-deep); }
-.hf-dot { width: 7px; height: 7px; background: currentColor; border-radius: 50%; flex-shrink: 0; }
+.hf-dot { width: 6px; height: 6px; background: currentColor; border-radius: 50%; flex-shrink: 0; }
 
+/* ─── FOOTER ─── */
 .footer {
-  background: var(--ink);
-  color: var(--blue-lt);
-  padding: 5mm 11mm;
-  font-size: 8pt;
+  background: var(--ink); color: var(--blue-lt);
+  padding: 4mm 11mm; font-size: 7.5pt;
   display: flex; justify-content: space-between; align-items: flex-start; gap: 20px;
   flex-shrink: 0;
 }
 .footer-left { line-height: 1.5; flex: 1; }
 .footer-right { text-align: right; line-height: 1.5; flex: 1; }
-.footer strong { color: var(--blue-pale); font-size: 11pt; text-transform: uppercase; letter-spacing: 0.06em; }
-.footer .ref-item { font-size: 11pt; color: var(--blue-lt); margin-top: 0.5em; margin-left: 15px; text-indent: -15px; line-height: 1.4; }
+.footer strong { color: var(--blue-pale); font-size: 9pt; text-transform: uppercase; letter-spacing: 0.06em; }
+.footer .ref-item { font-size: 8pt; color: var(--blue-lt); margin-top: 0.4em; margin-left: 13px; text-indent: -13px; line-height: 1.4; }
 .footer code { background: rgba(77,144,196,0.18); color: var(--blue-lt); }
-.hrule { border: none; border-top: 1px solid var(--rule); margin: 6px 0; }
 </style>
 </head>
 <body>
 
-<!-- HEADER -->
+<!-- ═══ HEADER ═══ -->
 <div class="header">
-  <div class="header-inner">
-    <div>
-      <div class="title">Domain Adaptation for <span class="hl">Catalan–Basque</span> Machine Translation<br>via Synthetic Data and Continued Fine-Tuning</div>
-      <div class="subtitle">Literary and clinical translation through synthetic corpus construction, pivot-based translation, and LoRA fine-tuning</div>
-      <div class="author-line">
-        <strong>Paula Guerrero & Iker Gutierrez</strong>
-        <span class="sep">·</span>
-        <span>University of the Basque Country EHU</span>
-        <span class="sep">·</span>
-        <span>Machine Translation and Multilingualism 2025–2026</span>
-      </div>
-    </div>
+  <div class="title">Domain Adaptation for <span class="hl">Catalan–Basque</span> Machine Translation<br>via Synthetic Data and Continued Fine-Tuning</div>
+  <div class="subtitle">Literary and clinical translation through synthetic corpus construction, pivot-based translation, and LoRA fine-tuning</div>
+  <div class="author-line">
+    <strong>Paula Guerrero &amp; Iker Gutierrez</strong>
+    <span class="sep">·</span>
+    <span>University of the Basque Country EHU</span>
+    <span class="sep">·</span>
+    <span>Machine Translation and Multilingualism 2025–2026</span>
   </div>
 </div>
 
-<!-- METRICS STRIP -->
+<!-- ═══ METRICS STRIP ═══ -->
 <div class="metrics-strip">
   <div class="metric-chip">
     <span class="val">43.49</span>
@@ -356,345 +395,273 @@ code {
   </div>
 </div>
 
-<!-- BODY 3-COL -->
+<!-- ═══ BODY 2-COL ═══ -->
 <div class="body-grid">
 
-  <!-- COL 1 -->
+  <!-- ─── LEFT COLUMN ─── -->
   <div class="col">
 
     <section>
-      <div class="sec-hdr">
-        <span class="sec-num">1</span>
-        <span class="sec-title">Motivation &amp; Research Questions</span>
-      </div>
+      <div class="sec-hdr"><span class="sec-num">1</span><span class="sec-title">Motivation &amp; Research Questions</span></div>
       <p>Catalan–Basque (CA–EU) MT is severely under-resourced, especially in specialized domains. Standard multilingual models produce poor output for this pair, and in-domain parallel data is scarce.</p>
-      <div class="callout">
-        <strong>Core question:</strong> Can synthetic domain-specific corpora built from related bilingual resources substantially improve CA–EU MT over a general baseline?
-      </div>
-      <div style="display:flex;flex-direction:column;gap:5px;margin-top:6px;">
-        <div style="display:flex;gap:8px;align-items:flex-start;">
-          <div style="background:var(--blue-pale);color:var(--blue-deep);font-family:'JetBrains Mono',monospace;font-size:6.5pt;font-weight:700;border-radius:50%;width:18px;height:18px;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px;">1</div>
-          <div style="font-size:9.5pt;color:var(--ink-mid);line-height:1.4;font-style:italic;">Can pivot-based corpus construction and back-translation create useful training data for low-resource domains?</div>
+      <div class="callout"><strong>Core question:</strong> Can synthetic domain-specific corpora built from related bilingual resources substantially improve CA–EU MT over a general baseline?</div>
+      <div style="display:flex;flex-direction:column;gap:4px;margin-top:5px;">
+        <div style="display:flex;gap:7px;align-items:flex-start;">
+          <div style="background:var(--blue-pale);color:var(--blue-deep);font-family:'JetBrains Mono',monospace;font-size:6.5pt;font-weight:700;border-radius:50%;width:17px;height:17px;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px;">1</div>
+          <div style="font-size:9pt;color:var(--ink-mid);line-height:1.4;font-style:italic;">Can pivot-based corpus construction and back-translation create useful training data for low-resource domains?</div>
         </div>
-        <div style="display:flex;gap:8px;align-items:flex-start;">
-          <div style="background:var(--teal-lt);color:var(--teal);font-family:'JetBrains Mono',monospace;font-size:6.5pt;font-weight:700;border-radius:50%;width:18px;height:18px;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px;">2</div>
-          <div style="font-size:9.5pt;color:var(--ink-mid);line-height:1.4;font-style:italic;">Does domain-specific fine-tuning improve in-domain translation quality over the general model?</div>
+        <div style="display:flex;gap:7px;align-items:flex-start;">
+          <div style="background:var(--teal-lt);color:var(--teal);font-family:'JetBrains Mono',monospace;font-size:6.5pt;font-weight:700;border-radius:50%;width:17px;height:17px;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px;">2</div>
+          <div style="font-size:9pt;color:var(--ink-mid);line-height:1.4;font-style:italic;">Does domain-specific fine-tuning improve in-domain translation quality over the general model?</div>
         </div>
-        <div style="display:flex;gap:8px;align-items:flex-start;">
-          <div style="background:var(--steel-lt);color:var(--slate);font-family:'JetBrains Mono',monospace;font-size:6.5pt;font-weight:700;border-radius:50%;width:18px;height:18px;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px;">3</div>
-          <div style="font-size:9.5pt;color:var(--ink-mid);line-height:1.4;font-style:italic;">Is continued fine-tuning from a general checkpoint better than direct domain-specific fine-tuning from the base model?</div>
+        <div style="display:flex;gap:7px;align-items:flex-start;">
+          <div style="background:var(--steel-lt);color:var(--slate);font-family:'JetBrains Mono',monospace;font-size:6.5pt;font-weight:700;border-radius:50%;width:17px;height:17px;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px;">3</div>
+          <div style="font-size:9pt;color:var(--ink-mid);line-height:1.4;font-style:italic;">Is continued fine-tuning from a general checkpoint better than direct domain-specific SFT?</div>
         </div>
       </div>
     </section>
 
     <section>
-      <div class="sec-hdr">
-        <span class="sec-num">2</span>
-        <span class="sec-title">Two Domains, Two Quality Criteria</span>
-      </div>
-      <div style="display:grid;grid-template-columns:1fr 1fr;gap:6px;margin:6px 0;">
-        <div style="background:var(--teal-lt);border:1px solid var(--teal);border-radius:8px;padding:7px 9px;">
-          <div style="font-size:9.5pt;font-weight:700;color:var(--teal);margin-bottom:3px;text-transform:uppercase;letter-spacing:0.05em;">Literary</div>
-          <div style="font-size:9.5pt;color:var(--ink-mid);line-height:1.4;">Quality depends on <strong>fluency</strong>, <strong>creativity</strong> and <strong>stylistic naturalness</strong>.</div>
+      <div class="sec-hdr"><span class="sec-num">2</span><span class="sec-title">Two Domains, Two Quality Criteria</span></div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:5px;margin:5px 0;">
+        <div style="background:var(--teal-lt);border:1px solid var(--teal);border-radius:8px;padding:6px 8px;">
+          <div style="font-size:8.5pt;font-weight:700;color:var(--teal);margin-bottom:2px;text-transform:uppercase;letter-spacing:0.05em;">Literary</div>
+          <div style="font-size:9pt;color:var(--ink-mid);line-height:1.4;">Quality depends on <strong>fluency</strong>, <strong>creativity</strong> and <strong>stylistic naturalness</strong>.</div>
         </div>
-        <div style="background:var(--blue-sky);border:1px solid var(--blue-soft);border-radius:8px;padding:7px 9px;">
-          <div style="font-size:9.5pt;font-weight:700;color:var(--blue-mid);margin-bottom:3px;text-transform:uppercase;letter-spacing:0.05em;">Clinical</div>
-          <div style="font-size:9.5pt;color:var(--ink-mid);line-height:1.4;">Quality depends on <strong>terminological accuracy</strong> and <strong>clinical clarity</strong>.</div>
+        <div style="background:var(--blue-sky);border:1px solid var(--blue-soft);border-radius:8px;padding:6px 8px;">
+          <div style="font-size:8.5pt;font-weight:700;color:var(--blue-mid);margin-bottom:2px;text-transform:uppercase;letter-spacing:0.05em;">Clinical</div>
+          <div style="font-size:9pt;color:var(--ink-mid);line-height:1.4;">Quality depends on <strong>terminological accuracy</strong> and <strong>clinical clarity</strong>.</div>
         </div>
       </div>
     </section>
 
+    <!-- ══ DATASETS (fully redesigned) ══ -->
     <section>
-      <div class="sec-hdr">
-        <span class="sec-num">3</span>
-        <span class="sec-title">Synthetic Data Construction</span>
-      </div>
-      <p>The domain corpora are constructed through synthetic translation pipelines. Literary data uses Spanish as pivoting, while the clinical corpus is built by directlytranslating Basque clinical text into Catalan. This yields synthetic parallel pairs:</p>
-      <div class="callout" style="font-size:10pt;">
-        Original CA text → MT into EU (via ES pivot) → reverse directions for fine-tuning
+      <div class="sec-hdr"><span class="sec-num">3</span><span class="sec-title">Datasets</span></div>
+
+      <div class="ds-divider">
+        <span class="line"></span><span>Source Corpora</span><span class="line"></span>
       </div>
 
-      <div style="font-size:9.9pt;font-weight:700;color:var(--ink);margin:6px 0 3px;text-transform:uppercase;letter-spacing:0.05em;">Literary — 2 Source Corpora</div>
+      <div class="ds-sources">
+        <div class="ds-source-card gen">
+          <div class="ds-tag">General</div>
+          <div class="ds-name">AINA CA–EU Parallel</div>
+          <div class="ds-meta">~50k pairs · bidirectional<br><code>projecte-aina/CA-EU_Parallel</code></div>
+        </div>
+        <div class="ds-source-card lit">
+          <div class="ds-tag">Literary A</div>
+          <div class="ds-name">CTILC CA–ES</div>
+          <div class="ds-meta">~100k pairs<br>ES pivot → EU synthesis</div>
+        </div>
+        <div class="ds-source-card lit">
+          <div class="ds-tag">Literary B</div>
+          <div class="ds-name">EhuHac ES–EU</div>
+          <div class="ds-meta">sampled JSONL<br>ES pivot → CA synthesis</div>
+        </div>
+        <div class="ds-source-card clin">
+          <div class="ds-tag">Clinical</div>
+          <div class="ds-name">E3RC EU Clinical</div>
+          <div class="ds-meta">1,300 pairs · ca→eu only<br>round-trip back-translation</div>
+        </div>
+      </div>
+
+      <div class="ds-divider" style="margin-top:10px;">
+        <span class="line"></span><span>Train · Validation · Test splits</span><span class="line"></span>
+      </div>
+
+      <div class="ds-domains">
+
+        <!-- GENERAL -->
+        <div class="ds-domain-row gen">
+          <div class="ds-domain-header">
+            <span class="ds-domain-label">General</span>
+            <span class="ds-dir-badge">eu→ca &amp; ca→eu</span>
+            <span style="font-size:7.5pt;color:var(--ink-muted);margin-left:auto;">90 / 5 / 5 % split</span>
+          </div>
+          <div class="ds-splits">
+            <div class="ds-split">
+              <div class="ds-split-label">Train</div>
+              <div class="ds-split-count">87.2k</div>
+              <div class="ds-split-sub">43,661 ca→eu<br>43,568 eu→ca</div>
+              <div class="ds-bar-track"><div class="ds-bar-fill" style="width:100%;"></div></div>
+            </div>
+            <div class="ds-split">
+              <div class="ds-split-label">Validation</div>
+              <div class="ds-split-count">4.8k</div>
+              <div class="ds-split-sub">2,388 ca→eu<br>2,458 eu→ca</div>
+              <div class="ds-bar-track"><div class="ds-bar-fill" style="width:5.5%;"></div></div>
+            </div>
+            <div class="ds-split">
+              <div class="ds-split-label">Test</div>
+              <div class="ds-split-count">4.8k</div>
+              <div class="ds-split-sub">2,412 ca→eu<br>2,435 eu→ca</div>
+              <div class="ds-bar-track"><div class="ds-bar-fill" style="width:5.5%;"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- LITERARY -->
+        <div class="ds-domain-row lit">
+          <div class="ds-domain-header">
+            <span class="ds-domain-label">Literary</span>
+            <span class="ds-dir-badge">eu→ca &amp; ca→eu</span>
+            <span style="font-size:7.5pt;color:var(--ink-muted);margin-left:auto;">avg 110–311 tok/seq</span>
+          </div>
+          <div class="ds-splits">
+            <div class="ds-split">
+              <div class="ds-split-label">Train</div>
+              <div class="ds-split-count">102k</div>
+              <div class="ds-split-sub">75,444 ca→eu<br>26,900 eu→ca</div>
+              <div class="ds-bar-track"><div class="ds-bar-fill" style="width:100%;"></div></div>
+            </div>
+            <div class="ds-split">
+              <div class="ds-split-label">Validation</div>
+              <div class="ds-split-count">5.7k</div>
+              <div class="ds-split-sub">4,217 ca→eu<br>1,468 eu→ca</div>
+              <div class="ds-bar-track"><div class="ds-bar-fill" style="width:5.6%;"></div></div>
+            </div>
+            <div class="ds-split">
+              <div class="ds-split-label">Test</div>
+              <div class="ds-split-count">5.7k</div>
+              <div class="ds-split-sub">4,261 ca→eu<br>1,426 eu→ca</div>
+              <div class="ds-bar-track"><div class="ds-bar-fill" style="width:5.6%;"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CLINICAL -->
+        <div class="ds-domain-row clin">
+          <div class="ds-domain-header">
+            <span class="ds-domain-label">Clinical</span>
+            <span class="ds-dir-badge">ca→eu only</span>
+            <span style="font-size:7.5pt;color:var(--ink-muted);margin-left:auto;">avg ~1,000–1,600 tok</span>
+          </div>
+          <div class="ds-splits">
+            <div class="ds-split">
+              <div class="ds-split-label">Train</div>
+              <div class="ds-split-count">1,174</div>
+              <div class="ds-split-sub">long-form clinical docs</div>
+              <div class="ds-bar-track"><div class="ds-bar-fill" style="width:100%;"></div></div>
+            </div>
+            <div class="ds-split">
+              <div class="ds-split-label">Validation</div>
+              <div class="ds-split-count">65</div>
+              <div class="ds-split-sub">avg 1,041 src tokens</div>
+              <div class="ds-bar-track"><div class="ds-bar-fill" style="width:5.5%;"></div></div>
+            </div>
+            <div class="ds-split">
+              <div class="ds-split-label">Test</div>
+              <div class="ds-split-count">66</div>
+              <div class="ds-split-sub">avg 919 src tokens</div>
+              <div class="ds-bar-track"><div class="ds-bar-fill" style="width:5.6%;"></div></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div style="font-size:7.5pt;color:var(--ink-muted);margin-top:4px;">General corpus duplicated bidirectionally (each pair → 2 instruction samples). Bar widths proportional to train set size within each domain.</div>
+    </section>
+
+    <section>
+      <div class="sec-hdr"><span class="sec-num">4</span><span class="sec-title">Synthetic Data Construction</span></div>
       <div class="pipeline-wrap">
-        <div class="pipeline-label">Source A: CA-ES literary (CTILC) → trilingual JSON</div>
+        <div class="pipeline-label">Literary A: CA-ES (CTILC) → trilingual</div>
         <div class="pipeline">
-          <div class="pb base">CA-ES<br>corpus</div>
-          <div class="pa">→</div>
-          <div class="pb lit">ES→EU<br>translate</div>
-          <div class="pa">→</div>
-          <div class="pb best">ca-literary<br>trilingual</div>
+          <div class="pb base">CA-ES corpus</div><div class="pa">→</div>
+          <div class="pb lit">ES→EU translate</div><div class="pa">→</div>
+          <div class="pb best">trilingual JSON</div>
         </div>
       </div>
       <div class="pipeline-wrap" style="margin-top:4px;">
-        <div class="pipeline-label">Source B: ES-EU literary (EhuHac) → eu-literary-EhuHac.jsonl</div>
+        <div class="pipeline-label">Literary B: ES-EU (EhuHac)</div>
         <div class="pipeline">
-          <div class="pb base">ES-EU<br>EhuHac</div>
-          <div class="pa">→</div>
-          <div class="pb lit">ES→CA<br>translate</div>
-          <div class="pa">→</div>
-          <div class="pb best">eu-literary<br>JSONL</div>
+          <div class="pb base">ES-EU EhuHac</div><div class="pa">→</div>
+          <div class="pb lit">ES→CA translate</div><div class="pa">→</div>
+          <div class="pb best">eu-literary JSONL</div>
         </div>
       </div>
-
-      <div style="font-size:9.9pt;font-weight:700;color:var(--ink);margin:8px 0 3px;text-transform:uppercase;letter-spacing:0.05em;">Clinical Pipeline</div>
-      <div class="pipeline-wrap">
+      <div class="pipeline-wrap" style="margin-top:4px;">
+        <div class="pipeline-label">Clinical: back-translation pipeline</div>
         <div class="pipeline">
-          <div class="pb base">EU clinical<br>JSON docs</div>
-          <div class="pa">→</div>
-          <div class="pb clin">EU→CA</div>
-          <div class="pa">→</div>
-          <div class="pb clin">CA→EU<br>backtrans</div>
-          <div class="pa">→</div>
-          <div class="pb best">clinical<br>synthetic</div>
+          <div class="pb base">EU clinical docs</div><div class="pa">→</div>
+          <div class="pb clin">EU→CA</div><div class="pa">→</div>
+          <div class="pb clin">CA→EU backtrans</div><div class="pa">→</div>
+          <div class="pb best">clinical synthetic</div>
         </div>
       </div>
-      <div class="callout" style="margin-top:6px;font-size:9.5pt;">
-        <strong>Instruction prompt distinction (ca→eu):</strong>
-        <div style="margin-top:3px;"><strong>literary/general:</strong> <code>"Tradueix aquest text del català al basc:\n\n{source}"</code></div>
-        <div style="margin-top:2px;"><strong>clinical:</strong> <code>"Tradueix aquest text <span style="color:var(--blue-deep);font-weight:900;">CLÍNIC</span> del català al basc:\n\n{source}"</code></div>
-      </div>
-      <div class="callout" style="margin-top:7px;font-size:9.5pt;">
-        <strong>⚠ Two distinct models in the pipeline:</strong>
-        <span style="display:block;margin-top:3px;"><strong>Translation</strong> (scripts 05–07): <code>HiTZ/Latxa-Llama-3.1-8B-Instruct</code></span>
-        <span style="display:block;margin-top:2px;"><strong>Fine-tuning</strong> (scripts 08–12): <code>HiTZ/Latxa-Qwen3-VL-8B-Instruct</code></span>
+      <div class="callout" style="margin-top:6px;font-size:9pt;">
+        <strong>Clinical prompt:</strong> <code>"Tradueix aquest text <strong style="color:var(--blue-deep);">CLÍNIC</strong> del català al basc:\n\n{source}"</code>
       </div>
     </section>
-
-    <section>
-      <div class="sec-hdr">
-        <span class="sec-num">4</span>
-        <span class="sec-title">Datasets</span>
-      </div>
-      <table class="corpus-table">
-        <thead><tr><th>Resource</th><th>Domain</th><th>Size</th><th>Split</th></tr></thead>
-        <tbody>
-          <tr><td><code>AINA CA-EU Parallel</code></td><td>General</td><td>50k pairs</td><td>90/5/5</td></tr>
-          <tr><td><code>CTILC CA-ES literary</code></td><td>Literary</td><td>~100k rows</td><td>—</td></tr>
-          <tr><td><code>EhuHac ES-EU</code></td><td>Literary</td><td>sampled JSONL</td><td>—</td></tr>
-          <tr><td>EU clinical JSON docs</td><td>Clinical</td><td>100k paragraphs</td><td>—</td></tr>
-        </tbody>
-      </table>
-      <div style="font-size:7.8pt;color:var(--ink-muted);margin-top:3px;">General corpus split: 90% train / 5% valid / 5% test (<code>VALID_SPLIT=0.05</code>).</div>
-      <div style="font-size:9.9pt;font-weight:700;color:var(--ink);margin:7px 0 4px;text-transform:uppercase;letter-spacing:0.05em;">
-  Dataset Statistics
-</div>
-
-<table class="rtable" style="font-size:8.3pt;">
-  <thead>
-    <tr>
-      <th>Domain</th>
-      <th>Split</th>
-      <th>Dir</th>
-      <th>Samples</th>
-      <th>Src Avg</th>
-      <th>Tgt Avg</th>
-    </tr>
-  </thead>
-  <tbody>
-
-    <!-- GENERAL -->
-    <tr class="row-best">
-      <td rowspan="6">General</td>
-      <td>Train</td>
-      <td>ca→eu</td>
-      <td>43,661</td>
-      <td>106</td>
-      <td>105</td>
-    </tr>
-    <tr class="row-best">
-      <td>Train</td>
-      <td>eu→ca</td>
-      <td>43,568</td>
-      <td>104</td>
-      <td>106</td>
-    </tr>
-    <tr>
-      <td>Valid</td>
-      <td>ca→eu</td>
-      <td>2,388</td>
-      <td>104</td>
-      <td>103</td>
-    </tr>
-    <tr>
-      <td>Valid</td>
-      <td>eu→ca</td>
-      <td>2,458</td>
-      <td>107</td>
-      <td>110</td>
-    </tr>
-    <tr>
-      <td>Test</td>
-      <td>ca→eu</td>
-      <td>2,412</td>
-      <td>107</td>
-      <td>105</td>
-    </tr>
-    <tr>
-      <td>Test</td>
-      <td>eu→ca</td>
-      <td>2,435</td>
-      <td>106</td>
-      <td>107</td>
-    </tr>
-
-    <!-- LITERARY -->
-    <tr class="row-xdomain">
-      <td rowspan="6">Literary</td>
-      <td>Train</td>
-      <td>ca→eu</td>
-      <td>75,444</td>
-      <td>110</td>
-      <td>110</td>
-    </tr>
-    <tr class="row-xdomain">
-      <td>Train</td>
-      <td>eu→ca</td>
-      <td>26,900</td>
-      <td>311</td>
-      <td>299</td>
-    </tr>
-    <tr>
-      <td>Valid</td>
-      <td>ca→eu</td>
-      <td>4,217</td>
-      <td>108</td>
-      <td>108</td>
-    </tr>
-    <tr>
-      <td>Valid</td>
-      <td>eu→ca</td>
-      <td>1,468</td>
-      <td>306</td>
-      <td>291</td>
-    </tr>
-    <tr>
-      <td>Test</td>
-      <td>ca→eu</td>
-      <td>4,261</td>
-      <td>112</td>
-      <td>113</td>
-    </tr>
-    <tr>
-      <td>Test</td>
-      <td>eu→ca</td>
-      <td>1,426</td>
-      <td>301</td>
-      <td>290</td>
-    </tr>
-
-    <!-- CLINICAL -->
-    <tr class="row-base">
-      <td rowspan="3">Clinical</td>
-      <td>Train</td>
-      <td>ca→eu</td>
-      <td>1,174</td>
-      <td>1000</td>
-      <td>1541</td>
-    </tr>
-    <tr class="row-base">
-      <td>Valid</td>
-      <td>ca→eu</td>
-      <td>65</td>
-      <td>1041</td>
-      <td>1630</td>
-    </tr>
-    <tr class="row-base">
-      <td>Test</td>
-      <td>ca→eu</td>
-      <td>66</td>
-      <td>919</td>
-      <td>1339</td>
-    </tr>
-
-  </tbody>
-</table>
-
-<div style="font-size:7.5pt;color:var(--ink-muted);margin-top:3px;">
-  Avg = average tokenized sequence length. General corpus duplicated bidirectionally.
-</div>
-    </section>
-
-  </div><!-- end col 1 -->
-
-  <!-- COL 2 -->
-  <div class="col">
-
-    <section>
-      <div class="sec-hdr">
-        <span class="sec-num">5</span>
-        <span class="sec-title">Training Setup</span>
-      </div>
+        <section>
+      <div class="sec-hdr"><span class="sec-num">5</span><span class="sec-title">Training Setup</span></div>
       <div class="info-row"><span class="k">Fine-tuning model</span><span class="v">HiTZ/Latxa-Qwen3-VL-8B-Instruct</span></div>
       <div class="info-row"><span class="k">Translation model (05–07)</span><span class="v">HiTZ/Latxa-Llama-3.1-8B-Instruct</span></div>
       <div class="info-row"><span class="k">Adaptation</span><span class="v">LoRA · 4-bit NF4 (bitsandbytes)</span></div>
       <div class="info-row"><span class="k">Max length</span><span class="v">768 tokens</span></div>
-      <div class="info-row"><span class="k">Epochs / Seed</span><span class="v">3 (default) / 42</span></div>
+      <div class="info-row"><span class="k">Epochs / Seed</span><span class="v">3 / 42</span></div>
       <div class="info-row"><span class="k">Batch / Grad accum</span><span class="v">4 / 8</span></div>
       <div class="info-row"><span class="k">Learning rate</span><span class="v">5e-5 · cosine schedule</span></div>
-      <div class="info-row"><span class="k">Prompting style</span><span class="v">Instruction-based, bidirectional (general and literary), unidirectional (clinical)</span></div>
       <div class="info-row" style="border-bottom:none;"><span class="k">Checkpoint selection</span><span class="v">Best BLEU on validation</span></div>
-      <div class="training-note">
-        Each parallel pair → two instruction samples: <code>eu2ca</code> + <code>ca2eu</code>.
-      </div>
+      <div class="training-note">Each parallel pair → two instruction samples: <code>eu2ca</code> + <code>ca2eu</code>.</div>
     </section>
 
-    <section>
-      <div class="sec-hdr">
-        <span class="sec-num">6</span>
-        <span class="sec-title">Model Variants &amp; Experimental Design</span>
-      </div>
+  </div><!-- /left col -->
 
+  <!-- ─── RIGHT COLUMN ─── -->
+  <div class="col">
+
+
+
+    <section>
+      <div class="sec-hdr"><span class="sec-num">6</span><span class="sec-title">Model Variants &amp; Experimental Design</span></div>
       <div class="pipeline-wrap">
-        <div class="pipeline-label">generalv1 — Direct fine-tuning on AINA CA-EU</div>
+        <div class="pipeline-label">generalv1 — Direct SFT on AINA CA-EU</div>
         <div class="pipeline">
-          <div class="pb base">Latxa-Qwen3<br>base</div><div class="pa">→</div>
-          <div class="pb gen">SFT 50k<br>CA-EU pairs</div><div class="pa">→</div>
-          <div class="pb best">generalv1<br>(bi-dir.)</div>
+          <div class="pb base">Latxa-Qwen3 base</div><div class="pa">→</div>
+          <div class="pb gen">SFT 50k CA-EU</div><div class="pa">→</div>
+          <div class="pb best">generalv1</div>
         </div>
       </div>
-      <div class="pipeline-wrap" style="margin-top:5px;">
-        <div class="pipeline-label">literaryv1 Direct literary domain SFT</div>
+      <div class="pipeline-wrap" style="margin-top:4px;">
+        <div class="pipeline-label">literaryv1 — Direct literary SFT</div>
         <div class="pipeline">
-          <div class="pb base">Latxa-Qwen3<br>base</div><div class="pa">→</div>
-          <div class="pb lit">SFT on literary<br>synthetic</div><div class="pa">→</div>
+          <div class="pb base">Latxa-Qwen3 base</div><div class="pa">→</div>
+          <div class="pb lit">SFT literary synth.</div><div class="pa">→</div>
           <div class="pb lit">literaryv1</div>
         </div>
       </div>
-      <div class="pipeline-wrap" style="margin-top:5px;">
-        <div class="pipeline-label">literaryv2 Continued from generalv1<span class="star">★</span></div>
+      <div class="pipeline-wrap" style="margin-top:4px;">
+        <div class="pipeline-label">literaryv2 — Continued from generalv1</div>
         <div class="pipeline">
-          <div class="pb gen">generalv1<br>ckpt</div><div class="pa">→</div>
-          <div class="pb lit">cont. literary SFT<br>+ ES↔EU (EhuHac)<br><small style="font-size:7.5pt;opacity:0.8;">labeled eu2es/es2eu</small></div><div class="pa">→</div>
+          <div class="pb gen">generalv1</div><div class="pa">→</div>
+          <div class="pb lit">cont. literary SFT</div><div class="pa">→</div>
           <div class="pb lit">literaryv2</div>
         </div>
       </div>
-      <div class="pipeline-wrap" style="margin-top:5px;">
-        <div class="pipeline-label">clinicalv1 Direct clinical domain SFT</div>
+      <div class="pipeline-wrap" style="margin-top:4px;">
+        <div class="pipeline-label">clinicalv1 — Direct clinical SFT</div>
         <div class="pipeline">
-          <div class="pb base">Latxa-Qwen3<br>base</div><div class="pa">→</div>
-          <div class="pb clin">SFT on clinical<br>synthetic</div><div class="pa">→</div>
-          <div class="pb clin">clinicalv1<br>(ca2eu)</div>
+          <div class="pb base">Latxa-Qwen3 base</div><div class="pa">→</div>
+          <div class="pb clin">SFT clinical synth.</div><div class="pa">→</div>
+          <div class="pb clin">clinicalv1</div>
         </div>
       </div>
-      <div class="pipeline-wrap" style="margin-top:5px;">
-        <div class="pipeline-label">clinicalv2 Continued from generalv1 <span class="star">★</span></div>
+      <div class="pipeline-wrap" style="margin-top:4px;">
+        <div class="pipeline-label">clinicalv2 — Continued from generalv1</div>
         <div class="pipeline">
-          <div class="pb gen">generalv1<br>ckpt</div><div class="pa">→</div>
-          <div class="pb clin">cont. clinical SFT<br>+ clinical aux</div><div class="pa">→</div>
+          <div class="pb gen">generalv1</div><div class="pa">→</div>
+          <div class="pb clin">cont. clinical SFT</div><div class="pa">→</div>
           <div class="pb clin">clinicalv2</div>
         </div>
       </div>
     </section>
 
     <section>
-      <div class="sec-hdr">
-        <span class="sec-num">7</span>
-        <span class="sec-title">General Domain Results (bidirectional)</span>
-      </div>
+      <div class="sec-hdr"><span class="sec-num">7</span><span class="sec-title">General Domain Results (bidirectional)</span></div>
       <table class="rtable">
-        <thead>
-          <tr><th>Model</th><th>Dir</th><th>chrF++↑</th><th>BLEU↑</th><th>TER↓</th><th>COMET↑</th></tr>
-        </thead>
+        <thead><tr><th>Model</th><th>Dir</th><th>chrF++↑</th><th>BLEU↑</th><th>TER↓</th><th>COMET↑</th></tr></thead>
         <tbody>
           <tr class="row-base"><td>Baseline</td><td>eu→ca</td><td>10.93</td><td>0.60</td><td>300.3</td><td>45.17</td></tr>
           <tr class="row-base"><td>Baseline</td><td>ca→eu</td><td>17.10</td><td>1.29</td><td>296.3</td><td>48.54</td></tr>
@@ -702,52 +669,13 @@ code {
           <tr class="row-best"><td>generalv1</td><td>ca→eu</td><td class="best-val">41.63</td><td class="best-val">9.92</td><td class="ter-best">88.02</td><td class="best-val">80.75</td></tr>
         </tbody>
       </table>
-      <p style="font-size:7pt;color:var(--ink-muted);text-align:left;margin-top:2px;">N=2435 eu→ca / 2412 ca→eu. Baseline = Latxa-Qwen3-VL-8B-Instruct zero-shot.</p>
-
-      <div class="chart-wrap" style="margin-top:5px;">
-        <div class="chart-title">chrF++ General Domain</div>
-        <svg viewBox="0 0 290 88" xmlns="http://www.w3.org/2000/svg" style="width:100%;display:block;">
-          <line x1="42" y1="8" x2="42" y2="60" stroke="var(--blue-pale)" stroke-width="0.8"/>
-          <line x1="42" y1="60" x2="282" y2="60" stroke="var(--blue-pale)" stroke-width="0.8"/>
-          <line x1="42" y1="42" x2="282" y2="42" stroke="var(--blue-sky)" stroke-width="0.6" stroke-dasharray="2,2"/>
-          <line x1="42" y1="25" x2="282" y2="25" stroke="var(--blue-sky)" stroke-width="0.6" stroke-dasharray="2,2"/>
-          <text x="38" y="63" font-size="7" fill="var(--ink-muted)" text-anchor="end">0</text>
-          <text x="38" y="45" font-size="7" fill="var(--ink-muted)" text-anchor="end">20</text>
-          <text x="38" y="28" font-size="7" fill="var(--ink-muted)" text-anchor="end">40</text>
-          <!-- Baseline eu→ca: 10.93 / 50 * 52 -->
-          <rect x="52" y="58.6" width="28" height="1.4" fill="var(--ink-muted)" rx="1"/>
-          <text x="66" y="56.5" font-size="6.5" fill="var(--ink-muted)" text-anchor="middle">10.9</text>
-          <!-- Baseline ca→eu: 17.10 -->
-          <rect x="85" y="57.8" width="28" height="2.2" fill="var(--ink-muted)" rx="1"/>
-          <text x="99" y="55.8" font-size="6.5" fill="var(--ink-muted)" text-anchor="middle">17.1</text>
-          <!-- generalv1 eu→ca: 45.03 -->
-          <rect x="168" y="13.6" width="28" height="46.4" fill="var(--blue-mid)" rx="1.5"/>
-          <text x="182" y="11.5" font-size="7.5" fill="var(--blue-deep)" font-weight="bold" text-anchor="middle">45.0</text>
-          <!-- generalv1 ca→eu: 41.63 -->
-          <rect x="205" y="17.7" width="28" height="42.3" fill="var(--blue-soft)" rx="1.5"/>
-          <text x="219" y="15.6" font-size="7" fill="var(--blue-deep)" text-anchor="middle">41.6</text>
-          <text x="66" y="72" font-size="7" fill="var(--ink-mid)" text-anchor="middle">Base eu→ca</text>
-          <text x="99" y="72" font-size="7" fill="var(--ink-mid)" text-anchor="middle">Base ca→eu</text>
-          <text x="182" y="72" font-size="7" fill="var(--blue-deep)" font-weight="bold" text-anchor="middle">gen eu→ca</text>
-          <text x="219" y="72" font-size="7" fill="var(--blue-deep)" text-anchor="middle">gen ca→eu</text>
-        </svg>
-      </div>
+      <p style="font-size:7pt;color:var(--ink-muted);margin-top:2px;">N=2435 eu→ca / 2412 ca→eu. Baseline = Latxa-Qwen3-VL-8B-Instruct zero-shot.</p>
     </section>
 
-  </div><!-- end col 2 -->
-
-  <!-- COL 3 -->
-  <div class="col">
-
     <section>
-      <div class="sec-hdr">
-        <span class="sec-num">8</span>
-        <span class="sec-title">Literary Domain Results (bidirectional)</span>
-      </div>
+      <div class="sec-hdr"><span class="sec-num">8</span><span class="sec-title">Literary Domain Results (bidirectional)</span></div>
       <table class="rtable">
-        <thead>
-          <tr><th>Model</th><th>Dir</th><th>chrF++↑</th><th>BLEU↑</th><th>TER↓</th><th>COMET↑</th></tr>
-        </thead>
+        <thead><tr><th>Model</th><th>Dir</th><th>chrF++↑</th><th>BLEU↑</th><th>TER↓</th><th>COMET↑</th></tr></thead>
         <tbody>
           <tr class="row-base"><td>Baseline</td><td>eu→ca</td><td>11.96</td><td>0.82</td><td>151.3</td><td>41.55</td></tr>
           <tr class="row-base"><td>Baseline</td><td>ca→eu</td><td>16.59</td><td>0.63</td><td>266.6</td><td>44.82</td></tr>
@@ -759,18 +687,13 @@ code {
           <tr><td>literaryv2</td><td>ca→eu</td><td>25.87</td><td>2.31</td><td>100.7</td><td>64.34</td></tr>
         </tbody>
       </table>
-      <p style="font-size:7pt;color:var(--ink-muted);text-align:left;margin-top:2px;">★ Direct SFT (v1) beats continued adaptation (v2). × = cross-domain transfer only.</p>
+      <p style="font-size:7pt;color:var(--ink-muted);margin-top:2px;">★ Direct SFT (v1) beats continued adaptation (v2). × = cross-domain transfer only.</p>
     </section>
 
     <section>
-      <div class="sec-hdr">
-        <span class="sec-num">9</span>
-        <span class="sec-title">Clinical Domain Results (ca→eu)</span>
-      </div>
+      <div class="sec-hdr"><span class="sec-num">9</span><span class="sec-title">Clinical Domain Results (ca→eu)</span></div>
       <table class="rtable">
-        <thead>
-          <tr><th>Model</th><th>chrF++↑</th><th>BLEU↑</th><th>TER↓</th><th>COMET↑</th></tr>
-        </thead>
+        <thead><tr><th>Model</th><th>chrF++↑</th><th>BLEU↑</th><th>TER↓</th><th>COMET↑</th></tr></thead>
         <tbody>
           <tr class="row-base"><td>Baseline</td><td>11.03</td><td>0.64</td><td>104.3</td><td>50.56</td></tr>
           <tr class="row-xdomain"><td>generalv1 ×</td><td>10.60</td><td>0.38</td><td>98.10</td><td>56.56</td></tr>
@@ -778,141 +701,344 @@ code {
           <tr><td>clinicalv2</td><td>25.43</td><td>7.12</td><td>93.74</td><td>69.04</td></tr>
         </tbody>
       </table>
-      <p style="font-size:7pt;color:var(--ink-muted);text-align:left;margin-top:2px;">N=66. ★ clinicalv1 dominates; × cross-domain generalv1 barely beats baseline on COMET but fails on other metrics.</p>
-
-      <div class="chart-wrap" style="margin-top:5px;">
-        <div class="chart-title">chrF++ Clinical Domain</div>
-        <svg viewBox="0 0 290 88" xmlns="http://www.w3.org/2000/svg" style="width:100%;display:block;">
-          <line x1="42" y1="8" x2="42" y2="60" stroke="var(--blue-pale)" stroke-width="0.8"/>
-          <line x1="42" y1="60" x2="282" y2="60" stroke="var(--blue-pale)" stroke-width="0.8"/>
-          <line x1="42" y1="42" x2="282" y2="42" stroke="var(--blue-sky)" stroke-width="0.6" stroke-dasharray="2,2"/>
-          <line x1="42" y1="25" x2="282" y2="25" stroke="var(--blue-sky)" stroke-width="0.6" stroke-dasharray="2,2"/>
-          <text x="38" y="63" font-size="7" fill="var(--ink-muted)" text-anchor="end">0</text>
-          <text x="38" y="45" font-size="7" fill="var(--ink-muted)" text-anchor="end">20</text>
-          <text x="38" y="28" font-size="7" fill="var(--ink-muted)" text-anchor="end">40</text>
-          <!-- Baseline: 11.03 -->
-          <rect x="55" y="58.6" width="32" height="1.4" fill="var(--ink-muted)" rx="1"/>
-          <text x="71" y="56.5" font-size="6.5" fill="var(--ink-muted)" text-anchor="middle">11.0</text>
-          <!-- generalv1 cross: 10.60 -->
-          <rect x="100" y="58.6" width="32" height="1.4" fill="var(--slate)" rx="1"/>
-          <text x="116" y="56.5" font-size="6.5" fill="var(--slate)" text-anchor="middle">10.6</text>
-          <!-- clinicalv1: 40.79 -->
-          <rect x="148" y="13.5" width="32" height="46.5" fill="var(--blue-mid)" rx="1.5"/>
-          <text x="164" y="11.5" font-size="7.5" fill="var(--blue-deep)" font-weight="bold" text-anchor="middle">40.8★</text>
-          <!-- clinicalv2: 25.43 -->
-          <rect x="196" y="45.1" width="32" height="14.9" fill="var(--blue-lt)" rx="1.5"/>
-          <text x="212" y="43.1" font-size="6.5" fill="var(--blue-deep)" text-anchor="middle">25.4</text>
-          <text x="71" y="72" font-size="7" fill="var(--ink-mid)" text-anchor="middle">Baseline</text>
-          <text x="116" y="72" font-size="7" fill="var(--ink-mid)" text-anchor="middle">gen (cross)</text>
-          <text x="164" y="72" font-size="7" fill="var(--blue-deep)" font-weight="bold" text-anchor="middle">clinicalv1</text>
-          <text x="212" y="72" font-size="7" fill="var(--ink-mid)" text-anchor="middle">clinicalv2</text>
-        </svg>
-      </div>
+      <p style="font-size:7pt;color:var(--ink-muted);margin-top:2px;">N=66. ★ clinicalv1 dominates; × cross-domain barely beats baseline on COMET.</p>
     </section>
 
     <section>
-      <div class="sec-hdr">
-        <span class="sec-num">10</span>
-        <span class="sec-title">Key Findings</span>
-      </div>
+      <div class="sec-hdr"><span class="sec-num">10</span><span class="sec-title">Key Findings</span></div>
       <div class="finding">
         <div class="finding-icon">1</div>
         <div class="finding-text"><strong>generalv1 strongly improves general CA-EU MT:</strong> chrF++ 13.69 → 43.49 and COMET 46.85 → 80.68 overall, with near-perfect length ratios (~0.986).</div>
       </div>
       <div class="finding">
         <div class="finding-icon">2</div>
-        <div class="finding-text"><strong>Cross-domain transfer helps but is insufficient:</strong> generalv1 applied out-of-domain beats the zero-shot baseline but falls clearly below dedicated domain models on both literary and clinical tasks.</div>
+        <div class="finding-text"><strong>Cross-domain transfer helps but is insufficient:</strong> generalv1 out-of-domain beats zero-shot baseline but falls clearly below dedicated domain models.</div>
       </div>
       <div class="finding">
         <div class="finding-icon">3</div>
-        <div class="finding-text"><strong>Direct domain SFT outperforms continued adaptation:</strong> literaryv1 &gt; literaryv2 and clinicalv1 &gt; clinicalv2 on all reported metrics — continued adaptation from a general checkpoint is not uniformly better.</div>
+        <div class="finding-text"><strong>Direct domain SFT outperforms continued adaptation:</strong> literaryv1 &gt; literaryv2 and clinicalv1 &gt; clinicalv2 on all metrics.</div>
       </div>
       <div class="finding">
         <div class="finding-icon">4</div>
-        <div class="finding-text"><strong>clinicalv1 achieves the largest relative gain:</strong> chrF++ 11.03 → 40.79 (+29.8 pp), confirming that synthetic data via round-trip back-translation is effective even with only 66 test items.</div>
+        <div class="finding-text"><strong>clinicalv1 achieves the largest relative gain:</strong> chrF++ 11.03 → 40.79 (+29.8 pp), confirming synthetic back-translation is effective even with N=66 test items.</div>
       </div>
       <div class="finding">
         <div class="finding-icon">5</div>
-        <div class="finding-text"><strong>Pipeline inconsistencies identified &amp; corrected:</strong> v2 scripts use <em>Spanish↔Basque</em> (ES-EU) auxiliary data — not CA-EU as labelled. clinicalv2 uses eval_loss + epoch-eval (not BLEU+steps). eu2ca literary uses <code>text_ca</code>, not <code>text_ca_back</code>. Two separate models handle translation (Latxa-Llama-3.1) vs fine-tuning (Latxa-Qwen3).</div>
+        <div class="finding-text"><strong>Pipeline inconsistencies identified:</strong> v2 scripts use ES-EU auxiliary data (not CA-EU); clinicalv2 uses eval_loss not BLEU; two separate models handle translation vs fine-tuning.</div>
       </div>
     </section>
 
     <section>
-      <div class="sec-hdr">
-        <span class="sec-num">11</span>
-        <span class="sec-title">Limitations &amp; Future Work</span>
-      </div>
-      <div class="callout warn">
-        <strong>Limitations:</strong> Small clinical test set (N=66); single-directional clinical training; reliance on synthetic supervision..
-      </div>
-      <div style="display:grid;grid-template-columns:1fr 1fr;gap:4px;margin-top:6px;">
+      <div class="sec-hdr"><span class="sec-num">11</span><span class="sec-title">Limitations &amp; Future Work</span></div>
+      <div class="callout warn"><strong>Limitations:</strong> Small clinical test set (N=66); single-directional clinical training; reliance on synthetic supervision.</div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:4px;margin-top:5px;">
         <div style="background:var(--teal-lt);border:1px solid var(--teal);border-radius:7px;padding:5px 7px;">
-          <div style="font-size:8.5pt;font-weight:700;color:var(--teal);margin-bottom:2px;text-transform:uppercase;">Corpus</div>
-          <div style="font-size:8.5pt;color:var(--ink-mid);line-height:1.4;">xx</div>
+          <div style="font-size:8pt;font-weight:700;color:var(--teal);margin-bottom:2px;text-transform:uppercase;">Corpus</div>
+          <div style="font-size:8.5pt;color:var(--ink-mid);line-height:1.4;">Expand real parallel data and human-validated references.</div>
         </div>
         <div style="background:var(--blue-sky);border:1px solid var(--blue-soft);border-radius:7px;padding:5px 7px;">
-          <div style="font-size:8.5pt;font-weight:700;color:var(--blue-mid);margin-bottom:2px;text-transform:uppercase;">Ablations</div>
-          <div style="font-size:8.5pt;color:var(--ink-mid);line-height:1.4;">Test pivot language choices.</div>
+          <div style="font-size:8pt;font-weight:700;color:var(--blue-mid);margin-bottom:2px;text-transform:uppercase;">Ablations</div>
+          <div style="font-size:8.5pt;color:var(--ink-mid);line-height:1.4;">Test pivot language choices and SFT data mix ratios.</div>
         </div>
         <div style="background:var(--steel-lt);border:1px solid var(--slate);border-radius:7px;padding:5px 7px;">
-          <div style="font-size:8.5pt;font-weight:700;color:var(--slate);margin-bottom:2px;text-transform:uppercase;">x</div>
-          <div style="font-size:8.5pt;color:var(--ink-mid);line-height:1.4;">x</div>
+          <div style="font-size:8pt;font-weight:700;color:var(--slate);margin-bottom:2px;text-transform:uppercase;">Evaluation</div>
+          <div style="font-size:8.5pt;color:var(--ink-mid);line-height:1.4;">Add human eval and larger, balanced test sets.</div>
         </div>
         <div style="background:var(--gold-lt);border:1px solid var(--gold);border-radius:7px;padding:5px 7px;">
-          <div style="font-size:8.5pt;font-weight:700;color:#7A5500;margin-bottom:2px;text-transform:uppercase;">Bidirectional</div>
-          <div style="font-size:8.5pt;color:var(--ink-mid);line-height:1.4;">Extend clinical to eu→ca; add human evaluation and larger test sets.</div>
+          <div style="font-size:8pt;font-weight:700;color:#7A5500;margin-bottom:2px;text-transform:uppercase;">Bidirectional</div>
+          <div style="font-size:8.5pt;color:var(--ink-mid);line-height:1.4;">Extend clinical to eu→ca direction.</div>
         </div>
       </div>
     </section>
 
-  </div><!-- end col 3 -->
+  </div><!-- /right col -->
 
-</div><!-- end body-grid -->
+</div><!-- /body-grid -->
 
-<!-- MODELS STRIP -->
+<!-- ═══ COMPARISON CHARTS — pure SVG ═══ -->
+<div class="chart-section">
+  <div class="chart-section-title">chrF++ &amp; BLEU Comparison Across All Domains</div>
+  <div class="chart-section-sub">Best model per domain vs. zero-shot baseline · higher is better for both metrics</div>
+
+  <div class="chart-legend">
+    <span><span class="sq" style="background:#7090A8;"></span>Baseline</span>
+    <span><span class="sq" style="background:#2E6FAC;"></span>General eu→ca</span>
+    <span><span class="sq" style="background:#4D90C4;"></span>General ca→eu</span>
+    <span><span class="sq" style="background:#2B7A78;"></span>Literary eu→ca</span>
+    <span><span class="sq" style="background:#5DCAA5;"></span>Literary ca→eu</span>
+    <span><span class="sq" style="background:#5A7FA0;"></span>Clinical ca→eu</span>
+  </div>
+
+  <div class="charts-row">
+
+    <!-- ── chrF++ SVG ── -->
+    <div class="chart-block">
+      <div class="chart-block-title">chrF++ ↑</div>
+      <!--
+        Canvas area: x=48..580, y=8..190  (height=182px)
+        maxVal=55  → 1 unit = 182/55 = 3.309px
+        Groups: 5 groups, each 100px wide, bar-pair centered.
+        Bar width=20, gap between pair=4, group gap=12
+        Group x-centers: 96, 204, 312, 420, 528
+        Pair: base bar left=-12, best bar left=+2 (each w=18)
+      -->
+      <svg viewBox="0 0 620 210" xmlns="http://www.w3.org/2000/svg" style="width:100%;display:block;" role="img" aria-label="chrF++ bar chart">
+        <title>chrF++ comparison across domains</title>
+        <!-- Y gridlines & labels: 0,10,20,30,40,50 -->
+        <line x1="48" y1="190" x2="580" y2="190" stroke="#BCD9EF" stroke-width="0.8"/>
+        <line x1="48" y1="157" x2="580" y2="157" stroke="#DDEEF8" stroke-width="0.7" stroke-dasharray="3,3"/>
+        <line x1="48" y1="124" x2="580" y2="124" stroke="#DDEEF8" stroke-width="0.7" stroke-dasharray="3,3"/>
+        <line x1="48" y1="91"  x2="580" y2="91"  stroke="#DDEEF8" stroke-width="0.7" stroke-dasharray="3,3"/>
+        <line x1="48" y1="58"  x2="580" y2="58"  stroke="#DDEEF8" stroke-width="0.7" stroke-dasharray="3,3"/>
+        <line x1="48" y1="25"  x2="580" y2="25"  stroke="#DDEEF8" stroke-width="0.7" stroke-dasharray="3,3"/>
+        <!-- Y axis line -->
+        <line x1="48" y1="8" x2="48" y2="190" stroke="#BCD9EF" stroke-width="0.8"/>
+        <!-- Y tick labels -->
+        <text x="42" y="193" font-size="9" fill="#7090A8" text-anchor="end" font-family="Lato,sans-serif">0</text>
+        <text x="42" y="160" font-size="9" fill="#7090A8" text-anchor="end" font-family="Lato,sans-serif">10</text>
+        <text x="42" y="127" font-size="9" fill="#7090A8" text-anchor="end" font-family="Lato,sans-serif">20</text>
+        <text x="42" y="94"  font-size="9" fill="#7090A8" text-anchor="end" font-family="Lato,sans-serif">30</text>
+        <text x="42" y="61"  font-size="9" fill="#7090A8" text-anchor="end" font-family="Lato,sans-serif">40</text>
+        <text x="42" y="28"  font-size="9" fill="#7090A8" text-anchor="end" font-family="Lato,sans-serif">50</text>
+
+        <!-- scale: 1 unit = 182/55 = 3.309px, y = 190 - val*3.309 -->
+        <!-- GROUP 1: General eu→ca  cx=96 -->
+        <!-- baseline 10.93 → h=36.2  y=153.8 -->
+        <rect x="74" y="153.8" width="18" height="36.2" fill="#7090A8" rx="2"/>
+        <text x="83" y="150.5" font-size="8" fill="#7090A8" text-anchor="middle" font-family="Lato,sans-serif">10.9</text>
+        <!-- best 45.03 → h=149.0  y=41.0 -->
+        <rect x="96" y="41.0" width="18" height="149.0" fill="#2E6FAC" rx="2"/>
+        <text x="105" y="37.5" font-size="8.5" fill="#1A4B7A" font-weight="bold" text-anchor="middle" font-family="Lato,sans-serif">45.0</text>
+        <text x="96" y="202" font-size="8" fill="#3A526A" text-anchor="middle" font-family="Lato,sans-serif">Gen eu→ca</text>
+
+        <!-- GROUP 2: General ca→eu  cx=204 -->
+        <!-- baseline 17.10 → h=56.6  y=133.4 -->
+        <rect x="182" y="133.4" width="18" height="56.6" fill="#7090A8" rx="2"/>
+        <text x="191" y="130.0" font-size="8" fill="#7090A8" text-anchor="middle" font-family="Lato,sans-serif">17.1</text>
+        <!-- best 41.63 → h=137.8  y=52.2 -->
+        <rect x="204" y="52.2" width="18" height="137.8" fill="#4D90C4" rx="2"/>
+        <text x="213" y="48.5" font-size="8.5" fill="#1A4B7A" font-weight="bold" text-anchor="middle" font-family="Lato,sans-serif">41.6</text>
+        <text x="204" y="202" font-size="8" fill="#3A526A" text-anchor="middle" font-family="Lato,sans-serif">Gen ca→eu</text>
+
+        <!-- GROUP 3: Literary eu→ca  cx=312 -->
+        <!-- baseline 11.96 → h=39.6  y=150.4 -->
+        <rect x="290" y="150.4" width="18" height="39.6" fill="#7090A8" rx="2"/>
+        <text x="299" y="147.0" font-size="8" fill="#7090A8" text-anchor="middle" font-family="Lato,sans-serif">12.0</text>
+        <!-- best 36.13 → h=119.6  y=70.4 -->
+        <rect x="312" y="70.4" width="18" height="119.6" fill="#2B7A78" rx="2"/>
+        <text x="321" y="66.5" font-size="8.5" fill="#1A4B7A" font-weight="bold" text-anchor="middle" font-family="Lato,sans-serif">36.1</text>
+        <text x="312" y="202" font-size="8" fill="#3A526A" text-anchor="middle" font-family="Lato,sans-serif">Lit eu→ca</text>
+
+        <!-- GROUP 4: Literary ca→eu  cx=420 -->
+        <!-- baseline 16.59 → h=54.9  y=135.1 -->
+        <rect x="398" y="135.1" width="18" height="54.9" fill="#7090A8" rx="2"/>
+        <text x="407" y="131.5" font-size="8" fill="#7090A8" text-anchor="middle" font-family="Lato,sans-serif">16.6</text>
+        <!-- best 26.90 → h=89.0  y=101.0 -->
+        <rect x="420" y="101.0" width="18" height="89.0" fill="#5DCAA5" rx="2"/>
+        <text x="429" y="97.5" font-size="8.5" fill="#1A4B7A" font-weight="bold" text-anchor="middle" font-family="Lato,sans-serif">26.9</text>
+        <text x="420" y="202" font-size="8" fill="#3A526A" text-anchor="middle" font-family="Lato,sans-serif">Lit ca→eu</text>
+
+        <!-- GROUP 5: Clinical ca→eu  cx=528 -->
+        <!-- baseline 11.03 → h=36.5  y=153.5 -->
+        <rect x="506" y="153.5" width="18" height="36.5" fill="#7090A8" rx="2"/>
+        <text x="515" y="150.0" font-size="8" fill="#7090A8" text-anchor="middle" font-family="Lato,sans-serif">11.0</text>
+        <!-- best 40.79 → h=135.0  y=55.0 -->
+        <rect x="528" y="55.0" width="18" height="135.0" fill="#5A7FA0" rx="2"/>
+        <text x="537" y="51.5" font-size="8.5" fill="#1A4B7A" font-weight="bold" text-anchor="middle" font-family="Lato,sans-serif">40.8</text>
+        <text x="528" y="202" font-size="8" fill="#3A526A" text-anchor="middle" font-family="Lato,sans-serif">Clin ca→eu</text>
+      </svg>
+    </div>
+
+    <!-- ── BLEU SVG ── -->
+    <div class="chart-block">
+      <div class="chart-block-title">BLEU ↑</div>
+      <!--
+        maxVal=25  → 1 unit = 182/25 = 7.28px
+        y = 190 - val*7.28
+      -->
+      <svg viewBox="0 0 620 210" xmlns="http://www.w3.org/2000/svg" style="width:100%;display:block;" role="img" aria-label="BLEU bar chart">
+        <title>BLEU comparison across domains</title>
+        <!-- Y gridlines: 0,5,10,15,20,25 -->
+        <line x1="48" y1="190" x2="580" y2="190" stroke="#BCD9EF" stroke-width="0.8"/>
+        <line x1="48" y1="153.6" x2="580" y2="153.6" stroke="#DDEEF8" stroke-width="0.7" stroke-dasharray="3,3"/>
+        <line x1="48" y1="117.2" x2="580" y2="117.2" stroke="#DDEEF8" stroke-width="0.7" stroke-dasharray="3,3"/>
+        <line x1="48" y1="80.8"  x2="580" y2="80.8"  stroke="#DDEEF8" stroke-width="0.7" stroke-dasharray="3,3"/>
+        <line x1="48" y1="44.4"  x2="580" y2="44.4"  stroke="#DDEEF8" stroke-width="0.7" stroke-dasharray="3,3"/>
+        <line x1="48" y1="8"     x2="580" y2="8"     stroke="#DDEEF8" stroke-width="0.7" stroke-dasharray="3,3"/>
+        <line x1="48" y1="8" x2="48" y2="190" stroke="#BCD9EF" stroke-width="0.8"/>
+        <!-- Y tick labels -->
+        <text x="42" y="193" font-size="9" fill="#7090A8" text-anchor="end" font-family="Lato,sans-serif">0</text>
+        <text x="42" y="156" font-size="9" fill="#7090A8" text-anchor="end" font-family="Lato,sans-serif">5</text>
+        <text x="42" y="120" font-size="9" fill="#7090A8" text-anchor="end" font-family="Lato,sans-serif">10</text>
+        <text x="42" y="84"  font-size="9" fill="#7090A8" text-anchor="end" font-family="Lato,sans-serif">15</text>
+        <text x="42" y="47"  font-size="9" fill="#7090A8" text-anchor="end" font-family="Lato,sans-serif">20</text>
+        <text x="42" y="11"  font-size="9" fill="#7090A8" text-anchor="end" font-family="Lato,sans-serif">25</text>
+
+        <!-- GROUP 1: General eu→ca -->
+        <!-- baseline 0.60 → h=4.4  y=185.6 -->
+        <rect x="74" y="185.6" width="18" height="4.4" fill="#7090A8" rx="1"/>
+        <text x="83" y="182.5" font-size="8" fill="#7090A8" text-anchor="middle" font-family="Lato,sans-serif">0.6</text>
+        <!-- best 18.51 → h=134.8  y=55.2 -->
+        <rect x="96" y="55.2" width="18" height="134.8" fill="#2E6FAC" rx="2"/>
+        <text x="105" y="51.5" font-size="8.5" fill="#1A4B7A" font-weight="bold" text-anchor="middle" font-family="Lato,sans-serif">18.5</text>
+        <text x="96" y="202" font-size="8" fill="#3A526A" text-anchor="middle" font-family="Lato,sans-serif">Gen eu→ca</text>
+
+        <!-- GROUP 2: General ca→eu -->
+        <!-- baseline 1.29 → h=9.4  y=180.6 -->
+        <rect x="182" y="180.6" width="18" height="9.4" fill="#7090A8" rx="1"/>
+        <text x="191" y="177.5" font-size="8" fill="#7090A8" text-anchor="middle" font-family="Lato,sans-serif">1.3</text>
+        <!-- best 9.92 → h=72.2  y=117.8 -->
+        <rect x="204" y="117.8" width="18" height="72.2" fill="#4D90C4" rx="2"/>
+        <text x="213" y="114.0" font-size="8.5" fill="#1A4B7A" font-weight="bold" text-anchor="middle" font-family="Lato,sans-serif">9.9</text>
+        <text x="204" y="202" font-size="8" fill="#3A526A" text-anchor="middle" font-family="Lato,sans-serif">Gen ca→eu</text>
+
+        <!-- GROUP 3: Literary eu→ca -->
+        <!-- baseline 0.82 → h=6.0  y=184.0 -->
+        <rect x="290" y="184.0" width="18" height="6.0" fill="#7090A8" rx="1"/>
+        <text x="299" y="181.0" font-size="8" fill="#7090A8" text-anchor="middle" font-family="Lato,sans-serif">0.8</text>
+        <!-- best 8.96 → h=65.2  y=124.8 -->
+        <rect x="312" y="124.8" width="18" height="65.2" fill="#2B7A78" rx="2"/>
+        <text x="321" y="121.0" font-size="8.5" fill="#1A4B7A" font-weight="bold" text-anchor="middle" font-family="Lato,sans-serif">9.0</text>
+        <text x="312" y="202" font-size="8" fill="#3A526A" text-anchor="middle" font-family="Lato,sans-serif">Lit eu→ca</text>
+
+        <!-- GROUP 4: Literary ca→eu -->
+        <!-- baseline 0.63 → h=4.6  y=185.4 -->
+        <rect x="398" y="185.4" width="18" height="4.6" fill="#7090A8" rx="1"/>
+        <text x="407" y="182.5" font-size="8" fill="#7090A8" text-anchor="middle" font-family="Lato,sans-serif">0.6</text>
+        <!-- best 2.44 → h=17.8  y=172.2 -->
+        <rect x="420" y="172.2" width="18" height="17.8" fill="#5DCAA5" rx="2"/>
+        <text x="429" y="169.0" font-size="8.5" fill="#1A4B7A" font-weight="bold" text-anchor="middle" font-family="Lato,sans-serif">2.4</text>
+        <text x="420" y="202" font-size="8" fill="#3A526A" text-anchor="middle" font-family="Lato,sans-serif">Lit ca→eu</text>
+
+        <!-- GROUP 5: Clinical ca→eu -->
+        <!-- baseline 0.64 → h=4.7  y=185.3 -->
+        <rect x="506" y="185.3" width="18" height="4.7" fill="#7090A8" rx="1"/>
+        <text x="515" y="182.5" font-size="8" fill="#7090A8" text-anchor="middle" font-family="Lato,sans-serif">0.6</text>
+        <!-- best 22.14 → h=161.2  y=28.8 -->
+        <rect x="528" y="28.8" width="18" height="161.2" fill="#5A7FA0" rx="2"/>
+        <text x="537" y="25.0" font-size="8.5" fill="#1A4B7A" font-weight="bold" text-anchor="middle" font-family="Lato,sans-serif">22.1</text>
+        <text x="528" y="202" font-size="8" fill="#3A526A" text-anchor="middle" font-family="Lato,sans-serif">Clin ca→eu</text>
+      </svg>
+    </div>
+
+  </div>
+
+  <div style="text-align:center;font-size:7.5pt;color:var(--ink-muted);margin-top:4px;">
+    Literary best = literaryv1. Clinical = clinicalv1 (ca→eu only). Each pair: gray = baseline, color = best fine-tuned model.
+  </div>
+</div>
+
+<!-- ═══ MODELS STRIP ═══ -->
 <div class="hf-strip">
   <div class="hf-title">Model Variants</div>
   <div class="hf-models-container">
-    <div class="hf-item">
-      <div class="hf-type">General</div>
-      <div class="hf-name"><div class="hf-dot"></div>generalv1</div>
-    </div>
-    <div class="hf-item best">
-      <div class="hf-type">Literary  best</div>
-      <div class="hf-name"><div class="hf-dot"></div>literaryv1 ★</div>
-    </div>
-    <div class="hf-item">
-      <div class="hf-type">Literary continued</div>
-      <div class="hf-name"><div class="hf-dot"></div>literaryv2</div>
-    </div>
-    <div class="hf-item best">
-      <div class="hf-type">Clinical best</div>
-      <div class="hf-name"><div class="hf-dot"></div>clinicalv1 ★</div>
-    </div>
-    <div class="hf-item">
-      <div class="hf-type">Clinical continued</div>
-      <div class="hf-name"><div class="hf-dot"></div>clinicalv2</div>
-    </div>
+    <div class="hf-item"><div class="hf-type">General</div><div class="hf-name"><div class="hf-dot"></div>generalv1</div></div>
+    <div class="hf-item best"><div class="hf-type">Literary best</div><div class="hf-name"><div class="hf-dot"></div>literaryv1 ★</div></div>
+    <div class="hf-item"><div class="hf-type">Literary continued</div><div class="hf-name"><div class="hf-dot"></div>literaryv2</div></div>
+    <div class="hf-item best"><div class="hf-type">Clinical best</div><div class="hf-name"><div class="hf-dot"></div>clinicalv1 ★</div></div>
+    <div class="hf-item"><div class="hf-type">Clinical continued</div><div class="hf-name"><div class="hf-dot"></div>clinicalv2</div></div>
   </div>
 </div>
 
-<!-- FOOTER -->
+<!-- ═══ FOOTER ═══ -->
 <div class="footer">
   <div class="footer-left">
     <strong>References &amp; Resources</strong>
-    <div class="ref-item">example <em>Results of the WMT22 Metrics Shared Task.</em> EMNLP 2022.</div>
     <div class="ref-item"><code>projecte-aina/CA-EU_Parallel_Corpus</code> · <code>HiTZ/Latxa-Qwen3-VL-8B-Instruct</code> · <code>HiTZ/Latxa-Llama-3.1-8B-Instruct</code> · EhuHac ES-EU literary corpus · CTILC CA-ES literary corpus · Unbabel COMET</div>
-    <div class="ref-item" style="color:var(--blue-lt);">
-    </div>
+    <div class="ref-item">example <em>Results of the WMT22 Metrics Shared Task.</em> EMNLP 2022.</div>
   </div>
   <div class="footer-right">
-    <div style="margin-top:5px;"><strong>Base Model (Fine-tuning)</strong></div>
+    <div><strong>Base Model (Fine-tuning)</strong></div>
     <div class="ref-item"><code>HiTZ/Latxa-Qwen3-VL-8B-Instruct</code></div>
-    <div style="margin-top:5px;"><strong>Translation Model (Data construction)</strong></div>
-    <div class="ref-item"><code>HiTZ/Latxa-Llama-3.1-8B-Instruct</code></div>
-    <div class="ref-item"><code>intfloat/multilingual-e5-large</code></div>
+    <div style="margin-top:3px;"><strong>Translation Model (Data construction)</strong></div>
+    <div class="ref-item"><code>HiTZ/Latxa-Llama-3.1-8B-Instruct</code> · <code>intfloat/multilingual-e5-large</code></div>
   </div>
 </div>
+
+<!-- Chart.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<script>
+(function() {
+  const GRAY     = '#7090A8';
+  const GEN_EU   = '#2E6FAC';
+  const GEN_CA   = '#4D90C4';
+  const LIT_EU   = '#2B7A78';
+  const LIT_CA   = '#5DCAA5';
+  const CLIN     = '#5A7FA0';
+
+  const labels = [
+    'General eu→ca', 'General ca→eu',
+    'Literary eu→ca', 'Literary ca→eu',
+    'Clinical ca→eu'
+  ];
+
+  const sharedOpts = (maxY, step) => ({
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: { display: false },
+      tooltip: { callbacks: { label: ctx => ctx.dataset.label + ': ' + ctx.parsed.y.toFixed(2) } }
+    },
+    scales: {
+      x: {
+        ticks: { font: { size: 8.5 }, color: '#3A526A', autoSkip: false, maxRotation: 18 },
+        grid: { display: false }
+      },
+      y: {
+        min: 0, max: maxY,
+        ticks: { font: { size: 9 }, color: '#7090A8', stepSize: step },
+        grid: { color: 'rgba(188,217,239,0.5)', lineWidth: 0.8 }
+      }
+    }
+  });
+
+  // chrF++
+  new Chart(document.getElementById('chrfChart'), {
+    type: 'bar',
+    data: {
+      labels,
+      datasets: [
+        {
+          label: 'Baseline',
+          data: [10.93, 17.10, 11.96, 16.59, 11.03],
+          backgroundColor: GRAY,
+          borderRadius: 3, borderSkipped: false,
+        },
+        {
+          label: 'Best model',
+          data: [45.03, 41.63, 36.13, 26.90, 40.79],
+          backgroundColor: [GEN_EU, GEN_CA, LIT_EU, LIT_CA, CLIN],
+          borderRadius: 3, borderSkipped: false,
+        }
+      ]
+    },
+    options: sharedOpts(55, 10)
+  });
+
+  // BLEU
+  new Chart(document.getElementById('bleuChart'), {
+    type: 'bar',
+    data: {
+      labels,
+      datasets: [
+        {
+          label: 'Baseline',
+          data: [0.60, 1.29, 0.82, 0.63, 0.64],
+          backgroundColor: GRAY,
+          borderRadius: 3, borderSkipped: false,
+        },
+        {
+          label: 'Best model',
+          data: [18.51, 9.92, 8.96, 2.44, 22.14],
+          backgroundColor: [GEN_EU, GEN_CA, LIT_EU, LIT_CA, CLIN],
+          borderRadius: 3, borderSkipped: false,
+        }
+      ]
+    },
+    options: sharedOpts(26, 5)
+  });
+})();
+</script>
 
 </body>
 </html>
