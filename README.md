@@ -1,5 +1,10 @@
 # Machine Translation Domain Adaptation: Catalan–Basque
 
+
+[![Paper](https://img.shields.io/badge/Paper-PDF-red)](paper/paper.pdf)
+[![Models](https://img.shields.io/badge/HuggingFace-Models-yellow)](https://huggingface.co/collections/pguerrero-igutierrez/mt-domain-adaptation-ca-eu)
+
+
 Fine-tuning HiTZ/Latxa-Qwen3-VL-8B-Instruct for domain-specific Catalan↔Basque translation across general, literary, and clinical domains using LoRA and synthetic data augmentation.
 
 The project fine-tunes `HiTZ/Latxa-Qwen3-VL-8B-Instruct` with LoRA adapters. Literary and clinical datasets are expanded with synthetic data generated using `HiTZ/Latxa-Llama-3.1-8B-Instruct`.
