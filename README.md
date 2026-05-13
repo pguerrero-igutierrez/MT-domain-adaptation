@@ -130,13 +130,13 @@ python scripts/13_evaluate_all.py \
 
 Evaluation metrics:
 
-```text
-BLEU
-chrF++
-TER
-COMET
-length ratio
-```
+- text
+- BLEU
+- chrF++
+- TER
+- COMET
+- length ratio
+
 
 
 ## Repository Structure
