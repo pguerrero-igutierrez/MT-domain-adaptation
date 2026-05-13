@@ -15,12 +15,11 @@ PIPELINE
 --------
 1. Load parallel pairs from ehuhac_parallel.jsonl.
 2. Translate source_es -> Catalan using Latxa (vLLM offline batch).
-3. Write per-document JSONL files + merged all.jsonl.
+3. Write a single JSONL output file for the EhuHac corpus.
 
 OUTPUT
 ------
-backtranslated-corpus/<doc_id>.jsonl
-backtranslated-corpus/eu-literary-trilingual.jsonl
+backtranslated-corpus/eu-literary-EhuHac.jsonl
 
 Each output line:
     {
@@ -55,6 +54,7 @@ from vllm import LLM, SamplingParams
 
 INPUT_JSONL  = Path("sampled-data/ehuhac_sampled_parallel.jsonl")
 OUTPUT_DIR   = Path("backtranslated-corpus")
+OUTPUT_JSONL = OUTPUT_DIR / "eu-literary-EhuHac.jsonl"
 
 MODEL_ID     = "HiTZ/Latxa-Llama-3.1-8B-Instruct"
 BATCH_SIZE   = 64
@@ -130,21 +130,8 @@ def run_inference(
     return results
 
 
-def load_done_stems(output_dir: Path) -> set[str]:
-    done = {f.stem for f in output_dir.glob("*.jsonl") if f.stem != "all"}
-    if done:
-        print(f"  Resume: {len(done)} document(s) already translated.")
-    return done
-
-
 def save_jsonl(records: list[dict], path: Path) -> None:
     with open(path, "w", encoding="utf-8") as f:
-        for rec in records:
-            f.write(json.dumps(rec, ensure_ascii=False) + "\n")
-
-
-def append_jsonl(records: list[dict], path: Path) -> None:
-    with open(path, "a", encoding="utf-8") as f:
         for rec in records:
             f.write(json.dumps(rec, ensure_ascii=False) + "\n")
 
@@ -158,13 +145,10 @@ def main() -> None:
     args = parser.parse_args()
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    all_output = OUTPUT_DIR / "eu-literary-all.jsonl"
 
     groups = load_sampled(INPUT_JSONL)
-    done_stems = load_done_stems(OUTPUT_DIR) if args.resume else set()
-    pending = {doc_id: rows for doc_id, rows in groups.items() if doc_id not in done_stems}
-
-    if not pending:
+    if args.resume and OUTPUT_JSONL.exists():
+        print(f"Resume requested and output already exists -> {OUTPUT_JSONL}")
         print("Nothing new to translate.")
         return
 
@@ -172,7 +156,9 @@ def main() -> None:
     llm = LLM(model=MODEL_ID, tensor_parallel_size=args.tensor_parallel)
     print("  Model loaded.")
 
-    for doc_id, doc_rows in tqdm(pending.items(), desc="Documents"):
+    all_records: list[dict] = []
+
+    for doc_id, doc_rows in tqdm(groups.items(), desc="Documents"):
         print(f"\n{doc_id} ({len(doc_rows):,} pairs)")
 
         es_texts = [r["source_es"] for r in doc_rows]
@@ -202,12 +188,11 @@ def main() -> None:
             if ca_translations[i]
         ]
 
-        out_file = OUTPUT_DIR / f"eu-literary-{doc_id}.jsonl"
-        save_jsonl(records, out_file)
-        append_jsonl(records, all_output)
-        print(f"  Saved {len(records):,} records -> {out_file.name}")
+        all_records.extend(records)
+        print(f"  Prepared {len(records):,} records for {doc_id}")
 
-    print(f"\nDone. Merged output -> {all_output}")
+    save_jsonl(all_records, OUTPUT_JSONL)
+    print(f"\nDone. Output -> {OUTPUT_JSONL}")
 
 
 if __name__ == "__main__":
