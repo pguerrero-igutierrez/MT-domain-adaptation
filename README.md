@@ -130,7 +130,6 @@ python scripts/13_evaluate_all.py \
 
 Evaluation metrics:
 
-- text
 - BLEU
 - chrF++
 - TER
@@ -168,3 +167,35 @@ Evaluation metrics:
 
 - Clinical translation is only trained and evaluated in the `ca2eu` direction.
 - `literaryv2` and `clinicalv2` require a previously trained general checkpoint.
+
+
+---
+
+## Citation
+
+If you use this work, please cite:
+
+```bibtex
+@misc{x,
+  title        = {x},
+  author       = {x},
+  year         = {2026},
+  note         = {Unpublished manuscript}
+}
+```
+
+Also cite the CLARA-MeD dataset:
+
+```bibtex
+
+```
+---
+
+
+### Contact
+
+- [pguerrero005@ikasle.ehu.eus](mailto:pguerrero005@ikasle.ehu.eus)  
+- [igutierrez134@ikasle.ehu.eus](mailto:igutierrez134@ikasle.ehu.eus)  
+---
+*Project for Machine Translation 2025-26*   
+*MSc in Language Analysis and Processing (EHU)*  
