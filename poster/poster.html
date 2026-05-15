@@ -167,6 +167,7 @@ body {
   flex-shrink: 0;
 }
 
+
 /* ─── BODY: 2-column ─── */
 .body-grid { display: grid; grid-template-columns: 1fr 1fr; background: var(--paper); flex: 1; }
 .col { padding: 7mm 7mm 4mm; border-right: 1px solid var(--rule); }
@@ -309,12 +310,12 @@ code { font-family: 'JetBrains Mono', monospace; font-size: 10pt; background: va
 /* CHART SECTION */
 .chart-section {
   background: var(--white);
-  border-top: 2px solid var(--blue-pale);
-  border-bottom: 2px solid var(--blue-pale);
+  border-top: none;
+  border-bottom: none;
   padding: 5mm 14mm 5mm;
 }
-.chart-section-title { font-family: 'Playfair Display', serif; font-size: 13pt; font-weight: 700; color: var(--ink); font-style: italic; text-align: center; margin-bottom: 1mm; }
-.chart-section-sub { text-align: center; font-size: 10pt; color: var(--ink-muted); margin-bottom: 4mm; }
+.chart-section-title { font-family: 'Playfair Display', serif; font-size: 13pt; font-weight: 700; color: var(--ink); font-style: italic; text-align: center; margin-bottom: 0mm; }
+.chart-section-sub { text-align: center; font-size: 10pt; color: var(--ink-muted); margin-bottom: 0mm; }
 .charts-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 5mm; }
 .chart-block-title { font-size: 10pt; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink); margin-bottom: 4px; text-align: center; }
 .chart-legend { display: flex; justify-content: center; flex-wrap: wrap; gap: 14px; margin-bottom: 5px; font-size: 9pt; color: var(--ink-muted); }
@@ -369,69 +370,7 @@ code { font-family: 'JetBrains Mono', monospace; font-size: 10pt; background: va
   </div>
 
 <!-- ═══ METRICS STRIP — Literary & Clinical focus ═══ -->
-<div class="metrics-strip">
 
-  <!-- LITERARY group -->
-  <div class="ms-group literary">
-    <div class="ms-group-label">
-      <span class="ms-domain-name">Literary</span>
-    </div>
-    <div class="ms-chips">
-      <div class="metric-chip best">
-        <div class="val">36.13</div>
-        <div class="lbl">chrF++ eu→ca</div>
-        <div class="delta">+24.2 vs baseline</div>
-      </div>
-      <div class="metric-chip">
-        <div class="val">26.90</div>
-        <div class="lbl">chrF++ ca→eu</div>
-        <div class="delta">+10.3 vs baseline</div>
-      </div>
-      <div class="metric-chip">
-        <div class="val">69.61</div>
-        <div class="lbl">COMET eu→ca</div>
-        <div class="delta">literaryv1 ★</div>
-      </div>
-      <div class="metric-chip">
-        <div class="val">8.96</div>
-        <div class="lbl">BLEU eu→ca</div>
-        <div class="delta">+8.1 vs baseline</div>
-      </div>
-    </div>
-  </div>
-
-  <div class="ms-divider"></div>
-
-  <!-- CLINICAL group -->
-  <div class="ms-group clinical">
-    <div class="ms-group-label">
-      <span class="ms-domain-name">Clinical</span>
-    </div>
-    <div class="ms-chips">
-      <div class="metric-chip best">
-        <div class="val">41.51</div>
-        <div class="lbl">chrF++ ca→eu</div>
-        <div class="delta">+30.5 vs baseline</div>
-      </div>
-      <div class="metric-chip best">
-        <div class="val">22.64</div>
-        <div class="lbl">BLEU ca→eu</div>
-        <div class="delta">+22.0 vs baseline</div>
-      </div>
-      <div class="metric-chip">
-        <div class="val">74.44</div>
-        <div class="lbl">COMET clinicalv1</div>
-        <div class="delta">clinicalv1 ★</div>
-      </div>
-      <div class="metric-chip">
-        <div class="val">73.84</div>
-        <div class="lbl">COMET clinicalv2</div>
-        <div class="delta">clinicalv2</div>
-      </div>
-    </div>
-  </div>
-
-</div>
 
 <!-- ═══ BODY 2-COL ═══ -->
 <div class="body-grid">
@@ -481,17 +420,17 @@ code { font-family: 'JetBrains Mono', monospace; font-size: 10pt; background: va
         <div class="ds-source-card gen">
           <div class="ds-tag">General</div>
           <div class="ds-name">AINA CA–EU Parallel</div>
-          <div class="ds-meta">~50k pairs<br><code>projecte-aina/CA-EU_Parallel</code></div>
+          <div class="ds-meta">~50k pairs<br></div>
         </div>
         <div class="ds-source-card lit">
           <div class="ds-tag">Literary A</div>
           <div class="ds-name">CTILC CA–ES</div>
-          <div class="ds-meta">~30k pairs<br>ES pivot → EU synthetic</div>
+          <div class="ds-meta">~30k pairs ES pivot → EU synthetic</div>
         </div>
         <div class="ds-source-card lit">
           <div class="ds-tag">Literary B</div>
           <div class="ds-name">EhuHac ES–EU</div>
-          <div class="ds-meta">~100k pairs<br>ES pivot → CA synthetic</div>
+          <div class="ds-meta">~100k pairs ES pivot → CA synthetic</div>
         </div>
         <div class="ds-source-card clin">
           <div class="ds-tag">Clinical</div>
@@ -626,6 +565,7 @@ code { font-family: 'JetBrains Mono', monospace; font-size: 10pt; background: va
       <div class="info-row" style="border-bottom:none;"><span class="k">Checkpoint selection</span><span class="v">Best BLEU on validation</span></div>
       <div class="training-note"><strong>Literary domain:</strong> each parallel pair → two instruction samples <code>eu2ca</code> + <code>ca2eu</code>.
       <br><strong>Clinical domain:</strong> single direction (due to data limitations) <code>ca2eu</code>.</div>
+
     </section>
 
   </div><!-- /left col -->
@@ -634,7 +574,7 @@ code { font-family: 'JetBrains Mono', monospace; font-size: 10pt; background: va
   <div class="col">
 
     <section>
-      <div class="sec-hdr"><span class="sec-num">6</span><span class="sec-title">Model Variants &amp; Experimental Design</span></div>
+    <div class="sec-hdr"><span class="sec-num">6</span><span class="sec-title">Model Variants &amp; Experimental Design</span></div>
       <div class="pipeline-wrap">
         <div class="pipeline-label">general — Direct SFT on general-domain parallel data</div>
         <div class="pipeline">
@@ -643,6 +583,7 @@ code { font-family: 'JetBrains Mono', monospace; font-size: 10pt; background: va
           <div class="pb best">general</div>
         </div>
       </div>
+
       <div class="pipeline-wrap" style="margin-top:4px;">
         <div class="pipeline-label">literaryv1 — Direct literary SFT  (synthetic parallel data through pivoting)</div>
         <div class="pipeline">
@@ -784,9 +725,8 @@ code { font-family: 'JetBrains Mono', monospace; font-size: 10pt; background: va
   </div><!-- /right col -->
 </div><!-- /body-grid -->
 
-<div class="chart-section" style="margin-top: 24px; border-top: 1px dashed var(--rule); padding-top: 16px; font-family: 'Lato', sans-serif;">
-  <div class="chart-section-title" style="font-size: 18px; font-weight: bold; margin-bottom: 6px;">chrF++, BLEU &amp; COMET Comparison Across All Domains</div>
-  <div class="chart-section-sub" style="font-size: 14px; margin-bottom: 14px; color: #557085;">Best model per domain vs. zero-shot baseline · higher is better for all metrics</div>
+<div class="chart-section" style="margin-top: 6px; padding-top: 6px; font-family: 'Lato', sans-serif;">
+  <div class="chart-section-sub" style="font-size: 14px; margin-bottom: 6px; color: #557085;">Best model per domain vs. zero-shot baseline </div>
 
   <div class="chart-legend" style="font-size: 13px; display: flex; flex-wrap: wrap; gap: 14px; margin-bottom: 20px; line-height: 1.4;">
     <span><span class="sq" style="display: inline-block; width: 10px; height: 10px; background:#7090A8; margin-right: 4px; vertical-align: middle;"></span>Baseline</span>
@@ -957,9 +897,6 @@ code { font-family: 'JetBrains Mono', monospace; font-size: 10pt; background: va
     </div>
   </div>
 
-  <div style="text-align:center; font-size:9.5pt; color:var(--ink-muted); margin-top:12px;">
-    Literary best = literaryv1 (eu→ca) / literaryv1 (ca→eu). Clinical best = clinicalv1 for all metrics. Each pair: gray = baseline, color = best model.
-  </div>
 </div>
 
 
