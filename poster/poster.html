@@ -167,12 +167,11 @@ body {
   flex-shrink: 0;
 }
 
-
 /* ─── BODY: 2-column ─── */
 .body-grid { display: grid; grid-template-columns: 1fr 1fr; background: var(--paper); flex: 1; }
 .col { padding: 7mm 7mm 4mm; border-right: 1px solid var(--rule); }
 .col:last-child { border-right: none; }
-section { margin-bottom: 6mm; }
+section { margin-bottom: 1mm; }
 
 .sec-hdr { display: flex; align-items: baseline; gap: 7px; margin-bottom: 7px; padding-bottom: 5px; border-bottom: 2px solid var(--blue-pale); }
 .sec-num {
@@ -184,7 +183,7 @@ section { margin-bottom: 6mm; }
 }
 .sec-title { font-family: 'Playfair Display', serif; font-size: 14pt; font-weight: 700; color: var(--ink); font-style: italic; }
 
-p { font-size: 10pt; line-height: 1.55; color: var(--ink-mid); margin-bottom: 7px; text-align: justify; hyphens: auto; }
+p { font-size: 10pt; line-height: 1.55; color: var(--ink-mid); margin-bottom: 5px; text-align: justify; hyphens: auto; }
 code { font-family: 'JetBrains Mono', monospace; font-size: 10pt; background: var(--blue-sky); border-radius: 4px; padding: 1px 4px; color: var(--blue-deep); }
 
 .callout { background: var(--blue-sky); border-left: 4px solid var(--blue-soft); border-radius: 0 7px 7px 0; padding: 6px 10px; margin: 6px 0; font-size: 10pt; color: var(--blue-deep); line-height: 1.45; }
@@ -317,8 +316,8 @@ code { font-family: 'JetBrains Mono', monospace; font-size: 10pt; background: va
 .chart-section-title { font-family: 'Playfair Display', serif; font-size: 13pt; font-weight: 700; color: var(--ink); font-style: italic; text-align: center; margin-bottom: 0mm; }
 .chart-section-sub { text-align: center; font-size: 10pt; color: var(--ink-muted); margin-bottom: 0mm; }
 .charts-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 5mm; }
-.chart-block-title { font-size: 10pt; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink); margin-bottom: 4px; text-align: center; }
-.chart-legend { display: flex; justify-content: center; flex-wrap: wrap; gap: 14px; margin-bottom: 5px; font-size: 9pt; color: var(--ink-muted); }
+.chart-block-title { font-size: 10pt; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink); margin-bottom: 0px; text-align: center; }
+.chart-legend { display: flex; justify-content: center; flex-wrap: wrap; gap: 14px; margin-bottom: 2px; font-size: 9pt; color: var(--ink-muted); }
 .chart-legend span { display: flex; align-items: center; gap: 4px; }
 .chart-legend .sq { width: 11px; height: 11px; border-radius: 2px; display: inline-block; }
 
@@ -725,10 +724,8 @@ code { font-family: 'JetBrains Mono', monospace; font-size: 10pt; background: va
   </div><!-- /right col -->
 </div><!-- /body-grid -->
 
-<div class="chart-section" style="margin-top: 6px; padding-top: 6px; font-family: 'Lato', sans-serif;">
-  <div class="chart-section-sub" style="font-size: 14px; margin-bottom: 6px; color: #557085;">Best model per domain vs. zero-shot baseline </div>
-
-  <div class="chart-legend" style="font-size: 13px; display: flex; flex-wrap: wrap; gap: 14px; margin-bottom: 20px; line-height: 1.4;">
+<div class="chart-section" style="margin-top: 2px; padding-top: 2px; font-family: 'Lato', sans-serif;">
+  <div class="chart-legend" style="font-size: 13px; display: flex; flex-wrap: wrap; gap: 14px; margin-bottom: 10px; line-height: 1.4;">
     <span><span class="sq" style="display: inline-block; width: 10px; height: 10px; background:#7090A8; margin-right: 4px; vertical-align: middle;"></span>Baseline</span>
     <span><span class="sq" style="display: inline-block; width: 10px; height: 10px; background:#2E6FAC; margin-right: 4px; vertical-align: middle;"></span>General eu→ca</span>
     <span><span class="sq" style="display: inline-block; width: 10px; height: 10px; background:#4D90C4; margin-right: 4px; vertical-align: middle;"></span>General ca→eu</span>
