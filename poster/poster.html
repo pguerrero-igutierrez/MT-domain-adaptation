@@ -62,7 +62,7 @@ body {
 .title {
   font-family: 'Playfair Display', serif;
   font-size: 21pt; font-weight: 800; line-height: 1.18;
-  color: var(--ink); margin-bottom: 5px; letter-spacing: -0.02em;
+  color: var(--ink); margin-bottom: 20px; letter-spacing: -0.02em;
 }
 .title .hl { color: var(--blue-mid); font-style: italic; }
 .subtitle { font-size: 11pt; color: var(--ink-muted); font-weight: 300; margin-bottom: 6px; line-height: 1.4; }
@@ -156,7 +156,7 @@ body {
 }
 .metric-chip.best .val { color: #FFE58A; font-size: 17pt; }
 .metric-chip .lbl { font-size: 7pt; opacity: 0.65; letter-spacing: 0.05em; text-transform: uppercase; color: var(--blue-lt); line-height: 1.2; }
-.metric-chip .delta { font-size: 8pt; font-weight: 700; margin-top: 1px; }
+.metric-chip .delta { font-size: 8pt; font-weight: 700; margin-top: 4px; }
 
 .ms-group.literary  .metric-chip .delta { color: #7ECFCC; }
 .ms-group.clinical  .metric-chip .delta { color: #A8C8E0; }
@@ -168,12 +168,12 @@ body {
 }
 
 /* ─── BODY: 2-column ─── */
-.body-grid { display: grid; grid-template-columns: 1fr 1fr; background: var(--paper); flex: 1; }
+.body-grid { display: grid; grid-template-columns: 1fr 1fr; background: var(--paper); align-items: start; }
 .col { padding: 7mm 7mm 4mm; border-right: 1px solid var(--rule); }
 .col:last-child { border-right: none; }
-section { margin-bottom: 1mm; }
+section { margin-bottom: 2mm; }
 
-.sec-hdr { display: flex; align-items: baseline; gap: 7px; margin-bottom: 7px; padding-bottom: 5px; border-bottom: 2px solid var(--blue-pale); }
+.sec-hdr { display: flex; align-items: baseline; gap: 7px; margin-bottom: 10px; padding-bottom: 5px; border-bottom: 2px solid var(--blue-pale); }
 .sec-num {
   background: var(--blue-pale); color: var(--blue-deep);
   font-size: 9pt; font-weight: 700;
@@ -262,12 +262,12 @@ code { font-family: 'JetBrains Mono', monospace; font-size: 10pt; background: va
 .finding-text strong { color: var(--ink); }
 
 /* DATASETS */
-.ds-divider { display: flex; align-items: center; gap: 8px; font-size: 9pt; font-weight: 700; text-transform: uppercase; letter-spacing: 0.09em; color: var(--ink-muted); margin: 8px 0 6px; }
+.ds-divider { display: flex; align-items: center; gap: 8px; font-size: 10pt; font-weight: 700; text-transform: uppercase; letter-spacing: 0.09em; color: var(--ink-muted); margin: 8px 0 6px; }
 .ds-divider span.line { flex: 1; height: 1px; background: var(--rule); }
-.ds-sources { display: grid; grid-template-columns: 1fr 1fr; gap: 5px; margin-bottom: 4px; }
+.ds-sources { display: grid; grid-template-columns: 1fr 1fr; gap: 5px; margin-bottom: 7px; }
 .ds-source-card { border-radius: 8px; padding: 6px 8px; border: 1.5px solid; }
 .ds-source-card .ds-tag { font-size: 10pt; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 2px; }
-.ds-source-card .ds-name { font-size: 10pt; font-weight: 700; line-height: 1.2; margin-bottom: 2px; }
+.ds-source-card .ds-name { font-size: 10pt; font-weight: 700; line-height: 1.2; margin-bottom: 9px; }
 .ds-source-card .ds-meta { font-size: 10pt; color: var(--ink-mid); line-height: 1.3; }
 .ds-source-card code { font-size: 8pt; }
 .ds-source-card.gen  { background: #EBF3FA; border-color: var(--blue-soft); }
@@ -321,7 +321,7 @@ code { font-family: 'JetBrains Mono', monospace; font-size: 10pt; background: va
 .chart-legend span { display: flex; align-items: center; gap: 4px; }
 .chart-legend .sq { width: 11px; height: 11px; border-radius: 2px; display: inline-block; }
 
-.training-note { background: var(--blue-sky); border-left: 4px solid var(--blue-soft); border-radius: 0 7px 7px 0; padding: 6px 10px; font-size: 10pt; color: var(--ink-muted); margin: 6px 0; line-height: 1.45; }
+.training-note { background: var(--blue-sky); border-left: 4px solid var(--blue-soft); border-radius: 0 7px 7px 0; padding: 6px 10px; font-size: 10pt; color: var(--ink-muted); margin: 12px 0; line-height: 1.45; }
 .training-note strong { color: var(--ink); }
 
 /* MODELS STRIP */
@@ -340,11 +340,11 @@ code { font-family: 'JetBrains Mono', monospace; font-size: 10pt; background: va
 .hf-collection a { color: var(--blue-deep); text-decoration: none; font-weight: 700; word-break: break-all; }
 
 /* FOOTER */
-.footer { background: var(--ink); color: var(--blue-lt); padding: 4mm 11mm; font-size: 8pt; display: flex; justify-content: space-between; align-items: flex-start; gap: 20px; flex-shrink: 0; }
-.footer-left { line-height: 1.5; flex: 2; }
-.footer-right { text-align: right; line-height: 1.5; flex: 1; }
+.footer { background: var(--ink); color: var(--blue-lt); padding: 4mm 11mm; font-size: 9pt; display: flex; justify-content: space-between; align-items: flex-start; gap: 20px; flex-shrink: 0; }
+.footer-left { line-height: 1.8; flex: 2; }
+.footer-right { text-align: right; line-height: 1.8; flex: 1; }
 .footer strong { color: var(--blue-pale); font-size: 10pt; text-transform: uppercase; letter-spacing: 0.06em; }
-.footer .ref-item { font-size: 9pt; color: var(--blue-lt); margin-top: 0.4em; margin-left: 13px; text-indent: -13px; line-height: 1.4; }
+.footer .ref-item { font-size: 9pt; color: var(--blue-lt); margin-top: 0.6em; margin-left: 13px; text-indent: -13px; line-height: 1.8; }
 .footer code { background: rgba(77,144,196,0.18); color: var(--blue-lt); }
 </style>
 </head>
@@ -419,7 +419,7 @@ code { font-family: 'JetBrains Mono', monospace; font-size: 10pt; background: va
         <div class="ds-source-card gen">
           <div class="ds-tag">General</div>
           <div class="ds-name">AINA CA–EU Parallel</div>
-          <div class="ds-meta">~50k pairs<br></div>
+          <div class="ds-meta">50k pairs<br></div>
         </div>
         <div class="ds-source-card lit">
           <div class="ds-tag">Literary A</div>
@@ -429,12 +429,12 @@ code { font-family: 'JetBrains Mono', monospace; font-size: 10pt; background: va
         <div class="ds-source-card lit">
           <div class="ds-tag">Literary B</div>
           <div class="ds-name">EhuHac ES–EU</div>
-          <div class="ds-meta">~100k pairs ES pivot → CA synthetic</div>
+          <div class="ds-meta">100k pairs ES pivot → CA synthetic</div>
         </div>
         <div class="ds-source-card clin">
           <div class="ds-tag">Clinical</div>
           <div class="ds-name">E3-RC EU Clinical</div>
-          <div class="ds-meta">1,300 pairs · ca→eu only<br></div>
+          <div class="ds-meta">~1,300 pairs · ca→eu only<br></div>
         </div>
       </div>
 
@@ -498,7 +498,7 @@ code { font-family: 'JetBrains Mono', monospace; font-size: 10pt; background: va
           <div class="ds-domain-header">
             <span class="ds-domain-label">Clinical</span>
             <span class="ds-dir-badge">ca→eu only</span>
-            <span style="font-size:8.5pt;color:var(--ink-muted);margin-left:auto;">avg ~1078 tok</span>
+            <span style="font-size:8.5pt;color:var(--ink-muted);margin-left:auto;">avg 1078 tok</span>
           </div>
           <div class="ds-splits">
             <div class="ds-split">
@@ -571,8 +571,7 @@ code { font-family: 'JetBrains Mono', monospace; font-size: 10pt; background: va
 
   <!-- ─── RIGHT COLUMN ─── -->
   <div class="col">
-
-    <section>
+        <section>
     <div class="sec-hdr"><span class="sec-num">6</span><span class="sec-title">Model Variants &amp; Experimental Design</span></div>
       <div class="pipeline-wrap">
         <div class="pipeline-label">general — Direct SFT on general-domain parallel data</div>
@@ -591,6 +590,7 @@ code { font-family: 'JetBrains Mono', monospace; font-size: 10pt; background: va
           <div class="pb lit">literaryv1</div>
         </div>
       </div>
+
       <div class="pipeline-wrap" style="margin-top:4px;">
       <div class="pipeline-label">literaryv2 — Continued from general</div>
       <div class="pipeline">
@@ -672,30 +672,30 @@ code { font-family: 'JetBrains Mono', monospace; font-size: 10pt; background: va
           <tr><td>literaryv1</td><td class="best-val">25.58</td><td class="best-val">2.4</td><td class="ter-best">99.24</td><td class="best-val">64.21</td></tr>
         </tbody>
       </table>
-      <p style="font-size:9pt;color:var(--ink-muted);margin-top:2px;">Each model is trained on the same amount of data (token-based) and evaluated on their respective domains.</p>
+      <p style="font-size:9pt;color:var(--ink-muted);margin-top:2px;">Each model is trained on the same amount of data (~360,000 tokens) and evaluated on their respective domains.</p>
     </section>
 
     <section>
       <div class="sec-hdr"><span class="sec-num">10</span><span class="sec-title">Key Findings</span></div>
       <div class="finding">
         <div class="finding-icon">1</div>
-        <div class="finding-text"><strong>Domain-specific fine-tuning is the main driver of improvement. In particular, clinicalv1 achieves substantial gains over zero-shot Latxa-Qwen3, confirming that even moderate amounts of data (synthetic or real) are sufficient to adapt LLMs to a low-resource pair such as CA–EU.</div>
+        <div class="finding-text"><strong>Domain-specific fine-tuning is the main driver of improvement, in particular for clinicalv1.</div>
       </div>
       <div class="finding">
         <div class="finding-icon">2</div>
-        <div class="finding-text"><strong>Cross-domain transfer helps but is insufficient:</strong> the general domain fine-tuned model evaluated on out-of-domain data beats zero-shot baseline but falls clearly below dedicated domain models (the v1 models). This also suggests that sequential adaptation may introduce domain interference or overfitting.</div>
+        <div class="finding-text"><strong>Cross-domain transfer helps but is insufficient</strong> for adapting v2 models to dedicated domains.</div>
       </div>
       <div class="finding">
         <div class="finding-icon">3</div>
-        <div class="finding-text"><strong>Literary: direct SFT outperforms continued adaptation (literaryv2) and zero-shot across all metrics. The v2 model does not benefit from the general-domain checkpoint. </div>
+        <div class="finding-text"><strong>Literary: direct SFT outperforms continued adaptation (literaryv2) and zero-shot across all metrics. </div>
       </div>
       <div class="finding">
         <div class="finding-icon">4</div>
-        <div class="finding-text"><strong>For low-resource pairs where no direct parallel data exists, synthetic data proves beneficial:</strong> Generating training pairs either via a pivot language (ES) or direct translation successfully compensates for the absolute lack of parallel corpora.</div>
+        <div class="finding-text"><strong>Generating training pairs either via a pivot language (ES) or direct translation successfully compensates for the absolute lack of parallel corpora.</strong></div>
       </div>
       <div class="finding">
-        <div class="finding-icon">7</div>
-        <div class="finding-text"><strong>Clinical domains are more "learnable":</strong> Under strict token-matching, clinical SFT yields much higher overall metrics than literary SFT, reflecting the lower stylistic variance of medical terminology.</div>
+        <div class="finding-icon">5</div>
+        <div class="finding-text"><strong>Clinical domains are more "learnable":</strong> Under strict token-matching, clinical SFT yields much higher overall metrics than literary SFT.</div>
       </div>
     </section>
 
@@ -705,7 +705,7 @@ code { font-family: 'JetBrains Mono', monospace; font-size: 10pt; background: va
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:4px;margin-top:5px;">
         <div style="background:var(--teal-lt);border:1px solid var(--teal);border-radius:7px;padding:5px 7px;">
           <div style="font-size:8pt;font-weight:700;color:var(--teal);margin-bottom:2px;text-transform:uppercase;">Corpus</div>
-          <div style="font-size:8.5pt;color:var(--ink-mid);line-height:1.4;">High reliance on synthetic data that may introduce noise, explore SFT results on human-translated parallel data. Extend clinical to eu→ca direction.</div>
+          <div style="font-size:8.5pt;color:var(--ink-mid);line-height:1.4;">High reliance on synthetic data, explore SFT results on human-translated parallel data. Extend clinical to eu→ca direction.</div>
         </div>
         <div style="background:var(--blue-sky);border:1px solid var(--blue-soft);border-radius:7px;padding:5px 7px;">
           <div style="font-size:8pt;font-weight:700;color:var(--blue-mid);margin-bottom:2px;text-transform:uppercase;">Ablations</div>
@@ -724,8 +724,9 @@ code { font-family: 'JetBrains Mono', monospace; font-size: 10pt; background: va
   </div><!-- /right col -->
 </div><!-- /body-grid -->
 
-<div class="chart-section" style="margin-top: 2px; padding-top: 2px; font-family: 'Lato', sans-serif;">
-  <div class="chart-legend" style="font-size: 13px; display: flex; flex-wrap: wrap; gap: 14px; margin-bottom: 10px; line-height: 1.4;">
+<div class="chart-section" style="margin-top: 1px; padding-top: 2px; font-family: 'Lato', sans-serif;">
+  <div class="chart-section-title" style="margin-bottom: 12px;"><span class="sec-title">Best model per domain vs. zero-shot</span></div>
+  <div class="chart-legend" style="font-size: 13px; display: flex; flex-wrap: wrap; gap: 14px; margin-bottom: 9px; line-height: 1.4;">
     <span><span class="sq" style="display: inline-block; width: 10px; height: 10px; background:#7090A8; margin-right: 4px; vertical-align: middle;"></span>Baseline</span>
     <span><span class="sq" style="display: inline-block; width: 10px; height: 10px; background:#2E6FAC; margin-right: 4px; vertical-align: middle;"></span>General eu→ca</span>
     <span><span class="sq" style="display: inline-block; width: 10px; height: 10px; background:#4D90C4; margin-right: 4px; vertical-align: middle;"></span>General ca→eu</span>
@@ -734,166 +735,148 @@ code { font-family: 'JetBrains Mono', monospace; font-size: 10pt; background: va
     <span><span class="sq" style="display: inline-block; width: 10px; height: 10px; background:#0b202a; margin-right: 4px; vertical-align: middle;"></span>Literary ca→eu (token-matched)</span>
     <span><span class="sq" style="display: inline-block; width: 10px; height: 10px; background:#5A7FA0; margin-right: 4px; vertical-align: middle;"></span>Clinical ca→eu</span>
   </div>
-
+ 
   <div class="charts-row" style="display: flex; gap: 24px; flex-wrap: wrap;">
     
     <div class="chart-block" style="flex: 1; min-width: 320px;">
       <div class="chart-block-title" style="font-size: 16px; font-weight: bold; margin-bottom: 8px;">chrF++ ↑</div>
-      <svg viewBox="0 0 620 216" xmlns="http://www.w3.org/2000/svg" style="width:100%;display:block;">
-        <line x1="48" y1="190" x2="580" y2="190" stroke="#BCD9EF" stroke-width="0.8"/>
-        <line x1="48" y1="157" x2="580" y2="157" stroke="#DDEEF8" stroke-width="0.7" stroke-dasharray="3,3"/>
-        <line x1="48" y1="124" x2="580" y2="124" stroke="#DDEEF8" stroke-width="0.7" stroke-dasharray="3,3"/>
-        <line x1="48" y1="91"  x2="580" y2="91"  stroke="#DDEEF8" stroke-width="0.7" stroke-dasharray="3,3"/>
-        <line x1="48" y1="58"  x2="580" y2="58"  stroke="#DDEEF8" stroke-width="0.7" stroke-dasharray="3,3"/>
-        <line x1="48" y1="25"  x2="580" y2="25"  stroke="#DDEEF8" stroke-width="0.7" stroke-dasharray="3,3"/>
+                  <svg viewBox="0 0 620 216" xmlns="http://www.w3.org/2000/svg" style="width:100%;display:block;">
+        <line x1="48" y1="190" x2="520" y2="190" stroke="#BCD9EF" stroke-width="0.8"/>
+        <line x1="48" y1="157" x2="520" y2="157" stroke="#DDEEF8" stroke-width="0.7" stroke-dasharray="3,3"/>
+        <line x1="48" y1="124" x2="520" y2="124" stroke="#DDEEF8" stroke-width="0.7" stroke-dasharray="3,3"/>
+        <line x1="48" y1="91"  x2="520" y2="91"  stroke="#DDEEF8" stroke-width="0.7" stroke-dasharray="3,3"/>
+        <line x1="48" y1="58"  x2="520" y2="58"  stroke="#DDEEF8" stroke-width="0.7" stroke-dasharray="3,3"/>
+        <line x1="48" y1="25"  x2="520" y2="25"  stroke="#DDEEF8" stroke-width="0.7" stroke-dasharray="3,3"/>
         <line x1="48" y1="8"  x2="48" y2="190" stroke="#BCD9EF" stroke-width="0.8"/>
-        
         <text x="42" y="194" font-size="11" fill="#7090A8" text-anchor="end" font-family="Lato,sans-serif">0</text>
         <text x="42" y="161" font-size="11" fill="#7090A8" text-anchor="end" font-family="Lato,sans-serif">10</text>
         <text x="42" y="128" font-size="11" fill="#7090A8" text-anchor="end" font-family="Lato,sans-serif">20</text>
         <text x="42" y="95"  font-size="11" fill="#7090A8" text-anchor="end" font-family="Lato,sans-serif">30</text>
         <text x="42" y="62"  font-size="11" fill="#7090A8" text-anchor="end" font-family="Lato,sans-serif">40</text>
         <text x="42" y="29"  font-size="11" fill="#7090A8" text-anchor="end" font-family="Lato,sans-serif">50</text>
-        
-        <rect x="74"  y="153.8" width="18" height="36.2"  fill="#7090A8" rx="2"/>
-        <text x="83"  y="148.5" font-size="10" fill="#7090A8" text-anchor="middle" font-family="Lato,sans-serif">10.9</text>
-        <rect x="96"  y="41.0"  width="18" height="149.0" fill="#2E6FAC" rx="2"/>
-        <text x="105" y="35.5"  font-size="10.5" fill="#1A4B7A" font-weight="bold" text-anchor="middle" font-family="Lato,sans-serif">45.0</text>
-        <text x="96"  y="205"   font-size="12" fill="#3A526A" text-anchor="middle" font-family="Lato,sans-serif">Gen eu→ca</text>
-        
-        <rect x="182" y="133.4" width="18" height="56.6"  fill="#7090A8" rx="2"/>
-        <text x="191" y="128.0" font-size="10" fill="#7090A8" text-anchor="middle" font-family="Lato,sans-serif">17.1</text>
-        <rect x="204" y="52.2"  width="18" height="137.8" fill="#4D90C4" rx="2"/>
-        <text x="213" y="46.5"  font-size="10.5" fill="#1A4B7A" font-weight="bold" text-anchor="middle" font-family="Lato,sans-serif">41.6</text>
-        <text x="204" y="205"   font-size="12" fill="#3A526A" text-anchor="middle" font-family="Lato,sans-serif">Gen ca→eu</text>
-        
-        <rect x="290" y="150.4" width="18" height="39.6"  fill="#7090A8" rx="2"/>
-        <text x="299" y="145.0" font-size="10" fill="#7090A8" text-anchor="middle" font-family="Lato,sans-serif">12.0</text>
-        <rect x="312" y="70.4"  width="18" height="119.6" fill="#2B7A78" rx="2"/>
-        <text x="321" y="64.5"  font-size="10.5" fill="#1A4B7A" font-weight="bold" text-anchor="middle" font-family="Lato,sans-serif">36.1</text>
-        <text x="312" y="205"   font-size="12" fill="#3A526A" text-anchor="middle" font-family="Lato,sans-serif">Lit eu→ca</text>
-        
-        <rect x="398" y="135.1" width="18" height="54.9" fill="#7090A8" rx="2"/>
-        <text x="407" y="129.5" font-size="10" fill="#7090A8" text-anchor="middle" font-family="Lato,sans-serif">16.6</text>
-        <rect x="420" y="101.0" width="18" height="89.0" fill="#5DCAA5" rx="2"/>
-        <text x="429" y="95.5" font-size="10.5" fill="#1A4B7A" font-weight="bold" text-anchor="middle" font-family="Lato,sans-serif">26.9</text>
-        <rect x="442" y="105.3" width="18" height="84.7" fill="#0b202a" rx="2"/>
-        <text x="451" y="99.5" font-size="10.5" fill="#0b202a" font-weight="bold" text-anchor="middle" font-family="Lato,sans-serif">25.6</text>
-        <text x="431" y="205" font-size="12" fill="#3A526A" text-anchor="middle" font-family="Lato,sans-serif">Lit ca→eu</text>
-
-        <rect x="506" y="153.5" width="18" height="36.5"  fill="#7090A8" rx="2"/>
-        <text x="515" y="148.0" font-size="10" fill="#7090A8" text-anchor="middle" font-family="Lato,sans-serif">11.0</text>
-        <rect x="528" y="57.0"  width="18" height="133.0" fill="#5A7FA0" rx="2"/>
-        <text x="537" y="51.5"  font-size="10.5" fill="#1A4B7A" font-weight="bold" text-anchor="middle" font-family="Lato,sans-serif">40.2</text>
-        <text x="528" y="205"   font-size="12" fill="#3A526A" text-anchor="middle" font-family="Lato,sans-serif">Clin ca→eu</text>
+        <rect x="56"  y="153.8" width="28" height="36.2"  fill="#7090A8" rx="2"/>
+        <text x="70"  y="148.5" font-size="12" fill="#7090A8" text-anchor="middle" font-family="Lato,sans-serif">10.9</text>
+        <rect x="88"  y="41.0"  width="28" height="149.0" fill="#2E6FAC" rx="2"/>
+        <text x="102" y="35.5"  font-size="13" fill="#1A4B7A" font-weight="bold" text-anchor="middle" font-family="Lato,sans-serif">45.0</text>
+        <text x="86"  y="210"   font-size="13" fill="#3A526A" text-anchor="middle" font-family="Lato,sans-serif">Gen eu→ca</text>
+        <rect x="146" y="133.4" width="28" height="56.6"  fill="#7090A8" rx="2"/>
+        <text x="160" y="128.0" font-size="12" fill="#7090A8" text-anchor="middle" font-family="Lato,sans-serif">17.1</text>
+        <rect x="178" y="52.2"  width="28" height="137.8" fill="#4D90C4" rx="2"/>
+        <text x="192" y="46.5"  font-size="13" fill="#1A4B7A" font-weight="bold" text-anchor="middle" font-family="Lato,sans-serif">41.6</text>
+        <text x="176"  y="210"  font-size="13" fill="#3A526A" text-anchor="middle" font-family="Lato,sans-serif">Gen ca→eu</text>
+        <rect x="236" y="150.4" width="28" height="39.6"  fill="#7090A8" rx="2"/>
+        <text x="250" y="145.0" font-size="12" fill="#7090A8" text-anchor="middle" font-family="Lato,sans-serif">12.0</text>
+        <rect x="268" y="70.4"  width="28" height="119.6" fill="#2B7A78" rx="2"/>
+        <text x="282" y="64.5"  font-size="13" fill="#1A4B7A" font-weight="bold" text-anchor="middle" font-family="Lato,sans-serif">36.1</text>
+        <text x="266"  y="210"  font-size="13" fill="#3A526A" text-anchor="middle" font-family="Lato,sans-serif">Lit eu→ca</text>
+        <rect x="326" y="135.1" width="28" height="54.9" fill="#7090A8" rx="2"/>
+        <text x="340" y="129.5" font-size="12" fill="#7090A8" text-anchor="middle" font-family="Lato,sans-serif">16.6</text>
+        <rect x="358" y="101.0" width="28" height="89.0" fill="#5DCAA5" rx="2"/>
+        <text x="372" y="95.5"  font-size="13" fill="#1A4B7A" font-weight="bold" text-anchor="middle" font-family="Lato,sans-serif">26.9</text>
+        <rect x="390" y="105.3" width="28" height="84.7" fill="#0b202a" rx="2"/>
+        <text x="404" y="99.5"  font-size="13" fill="#0b202a" font-weight="bold" text-anchor="middle" font-family="Lato,sans-serif">25.6</text>
+        <text x="372"  y="210"  font-size="13" fill="#3A526A" text-anchor="middle" font-family="Lato,sans-serif">Lit ca→eu</text>
+        <rect x="448" y="153.5" width="28" height="36.5"  fill="#7090A8" rx="2"/>
+        <text x="462" y="148.0" font-size="12" fill="#7090A8" text-anchor="middle" font-family="Lato,sans-serif">11.0</text>
+        <rect x="480" y="57.0"  width="28" height="133.0" fill="#5A7FA0" rx="2"/>
+        <text x="494" y="51.5"  font-size="13" fill="#1A4B7A" font-weight="bold" text-anchor="middle" font-family="Lato,sans-serif">40.2</text>
+        <text x="478"  y="210"  font-size="13" fill="#3A526A" text-anchor="middle" font-family="Lato,sans-serif">Clin ca→eu</text>
       </svg>
     </div>
-
+ 
     <div class="chart-block" style="flex: 1; min-width: 320px;">
       <div class="chart-block-title" style="font-size: 16px; font-weight: bold; margin-bottom: 8px;">BLEU ↑</div>
-      <svg viewBox="0 0 620 216" xmlns="http://www.w3.org/2000/svg" style="width:100%;display:block;">
-        <line x1="48" y1="190"   x2="580" y2="190"   stroke="#BCD9EF" stroke-width="0.8"/>
-        <line x1="48" y1="153.6" x2="580" y2="153.6" stroke="#DDEEF8" stroke-width="0.7" stroke-dasharray="3,3"/>
-        <line x1="48" y1="117.2" x2="580" y2="117.2" stroke="#DDEEF8" stroke-width="0.7" stroke-dasharray="3,3"/>
-        <line x1="48" y1="80.8"  x2="580" y2="80.8"  stroke="#DDEEF8" stroke-width="0.7" stroke-dasharray="3,3"/>
-        <line x1="48" y1="44.4"  x2="580" y2="44.4"  stroke="#DDEEF8" stroke-width="0.7" stroke-dasharray="3,3"/>
-        <line x1="48" y1="8"      x2="580" y2="8"      stroke="#DDEEF8" stroke-width="0.7" stroke-dasharray="3,3"/>
+                  <svg viewBox="0 0 620 216" xmlns="http://www.w3.org/2000/svg" style="width:100%;display:block;">
+        <line x1="48" y1="190"   x2="520" y2="190"   stroke="#BCD9EF" stroke-width="0.8"/>
+        <line x1="48" y1="153.6" x2="520" y2="153.6" stroke="#DDEEF8" stroke-width="0.7" stroke-dasharray="3,3"/>
+        <line x1="48" y1="117.2" x2="520" y2="117.2" stroke="#DDEEF8" stroke-width="0.7" stroke-dasharray="3,3"/>
+        <line x1="48" y1="80.8"  x2="520" y2="80.8"  stroke="#DDEEF8" stroke-width="0.7" stroke-dasharray="3,3"/>
+        <line x1="48" y1="44.4"  x2="520" y2="44.4"  stroke="#DDEEF8" stroke-width="0.7" stroke-dasharray="3,3"/>
+        <line x1="48" y1="8"     x2="520" y2="8"     stroke="#DDEEF8" stroke-width="0.7" stroke-dasharray="3,3"/>
         <line x1="48" y1="8" x2="48" y2="190" stroke="#BCD9EF" stroke-width="0.8"/>
-        
         <text x="42" y="194" font-size="11" fill="#7090A8" text-anchor="end" font-family="Lato,sans-serif">0</text>
         <text x="42" y="157" font-size="11" fill="#7090A8" text-anchor="end" font-family="Lato,sans-serif">5</text>
         <text x="42" y="121" font-size="11" fill="#7090A8" text-anchor="end" font-family="Lato,sans-serif">10</text>
         <text x="42" y="85"  font-size="11" fill="#7090A8" text-anchor="end" font-family="Lato,sans-serif">15</text>
         <text x="42" y="48"  font-size="11" fill="#7090A8" text-anchor="end" font-family="Lato,sans-serif">20</text>
         <text x="42" y="12"  font-size="11" fill="#7090A8" text-anchor="end" font-family="Lato,sans-serif">25</text>
-        
-        <rect x="74"  y="185.6" width="18" height="4.4"   fill="#7090A8" rx="1"/>
-        <text x="83"  y="180.5" font-size="10" fill="#7090A8" text-anchor="middle" font-family="Lato,sans-serif">0.6</text>
-        <rect x="96"  y="55.2"  width="18" height="134.8" fill="#2E6FAC" rx="2"/>
-        <text x="105" y="49.5"  font-size="10.5" fill="#1A4B7A" font-weight="bold" text-anchor="middle" font-family="Lato,sans-serif">18.5</text>
-        <text x="96"  y="205"   font-size="12" fill="#3A526A" text-anchor="middle" font-family="Lato,sans-serif">Gen eu→ca</text>
-        
-        <rect x="182" y="180.6" width="18" height="9.4"   fill="#7090A8" rx="1"/>
-        <text x="191" y="175.5" font-size="10" fill="#7090A8" text-anchor="middle" font-family="Lato,sans-serif">1.3</text>
-        <rect x="204" y="117.8" width="18" height="72.2"  fill="#4D90C4" rx="2"/>
-        <text x="213" y="112.0" font-size="10.5" fill="#1A4B7A" font-weight="bold" text-anchor="middle" font-family="Lato,sans-serif">9.9</text>
-        <text x="204" y="205"   font-size="12" fill="#3A526A" text-anchor="middle" font-family="Lato,sans-serif">Gen ca→eu</text>
-        
-        <rect x="290" y="184.0" width="18" height="6.0"   fill="#7090A8" rx="1"/>
-        <text x="299" y="179.0" font-size="10" fill="#7090A8" text-anchor="middle" font-family="Lato,sans-serif">0.8</text>
-        <rect x="312" y="124.8" width="18" height="65.2"  fill="#2B7A78" rx="2"/>
-        <text x="321" y="119.0" font-size="10.5" fill="#1A4B7A" font-weight="bold" text-anchor="middle" font-family="Lato,sans-serif">9.0</text>
-        <text x="312" y="205"   font-size="12" fill="#3A526A" text-anchor="middle" font-family="Lato,sans-serif">Lit eu→ca</text>
-                    
-        <rect x="398" y="185.4" width="18" height="4.6" fill="#7090A8" rx="1"/>
-        <text x="407" y="180.5" font-size="10" fill="#7090A8" text-anchor="middle" font-family="Lato,sans-serif">0.6</text>
-        <rect x="420" y="172.2" width="18" height="17.8" fill="#5DCAA5" rx="2"/>
-        <text x="429" y="167.0" font-size="10.5" fill="#1A4B7A" font-weight="bold" text-anchor="middle" font-family="Lato,sans-serif">2.4</text>
-        <rect x="442" y="172.5" width="18" height="17.5" fill="#0b202a" rx="2"/>
-        <text x="451" y="167.0" font-size="10.5" fill="#0b202a" font-weight="bold" text-anchor="middle" font-family="Lato,sans-serif">2.4</text>
-        <text x="431" y="205" font-size="12" fill="#3A526A" text-anchor="middle" font-family="Lato,sans-serif">Lit ca→eu</text>
-
-        <rect x="506" y="185.3" width="18" height="4.7"   fill="#7090A8" rx="1"/>
-        <text x="515" y="180.5" font-size="10" fill="#7090A8" text-anchor="middle" font-family="Lato,sans-serif">0.6</text>
-        <rect x="528" y="48.5"  width="18" height="141.5" fill="#5A7FA0" rx="2"/>
-        <text x="537" y="42.5"  font-size="10.5" fill="#1A4B7A" font-weight="bold" text-anchor="middle" font-family="Lato,sans-serif">19.4</text>
-        <text x="528" y="205"   font-size="12" fill="#3A526A" text-anchor="middle" font-family="Lato,sans-serif">Clin ca→eu</text>
+        <rect x="56"  y="185.6" width="28" height="4.4"   fill="#7090A8" rx="1"/>
+        <text x="70"  y="180.5" font-size="12" fill="#7090A8" text-anchor="middle" font-family="Lato,sans-serif">0.6</text>
+        <rect x="88"  y="55.2"  width="28" height="134.8" fill="#2E6FAC" rx="2"/>
+        <text x="102" y="49.5"  font-size="13" fill="#1A4B7A" font-weight="bold" text-anchor="middle" font-family="Lato,sans-serif">18.5</text>
+        <text x="86"  y="210"   font-size="13" fill="#3A526A" text-anchor="middle" font-family="Lato,sans-serif">Gen eu→ca</text>
+        <rect x="146" y="180.6" width="28" height="9.4"   fill="#7090A8" rx="1"/>
+        <text x="160" y="175.5" font-size="12" fill="#7090A8" text-anchor="middle" font-family="Lato,sans-serif">1.3</text>
+        <rect x="178" y="117.8" width="28" height="72.2"  fill="#4D90C4" rx="2"/>
+        <text x="192" y="112.0" font-size="13" fill="#1A4B7A" font-weight="bold" text-anchor="middle" font-family="Lato,sans-serif">9.9</text>
+        <text x="176"  y="210"  font-size="13" fill="#3A526A" text-anchor="middle" font-family="Lato,sans-serif">Gen ca→eu</text>
+        <rect x="236" y="184.0" width="28" height="6.0"   fill="#7090A8" rx="1"/>
+        <text x="250" y="179.0" font-size="12" fill="#7090A8" text-anchor="middle" font-family="Lato,sans-serif">0.8</text>
+        <rect x="268" y="124.8" width="28" height="65.2"  fill="#2B7A78" rx="2"/>
+        <text x="282" y="119.0" font-size="13" fill="#1A4B7A" font-weight="bold" text-anchor="middle" font-family="Lato,sans-serif">9.0</text>
+        <text x="266"  y="210"  font-size="13" fill="#3A526A" text-anchor="middle" font-family="Lato,sans-serif">Lit eu→ca</text>
+        <rect x="326" y="185.4" width="28" height="4.6" fill="#7090A8" rx="1"/>
+        <text x="340" y="180.5" font-size="12" fill="#7090A8" text-anchor="middle" font-family="Lato,sans-serif">0.6</text>
+        <rect x="358" y="172.2" width="28" height="17.8" fill="#5DCAA5" rx="2"/>
+        <text x="372" y="167.0" font-size="13" fill="#1A4B7A" font-weight="bold" text-anchor="middle" font-family="Lato,sans-serif">2.4</text>
+        <rect x="390" y="172.5" width="28" height="17.5" fill="#0b202a" rx="2"/>
+        <text x="404" y="167.0" font-size="13" fill="#0b202a" font-weight="bold" text-anchor="middle" font-family="Lato,sans-serif">2.4</text>
+        <text x="372"  y="210"  font-size="13" fill="#3A526A" text-anchor="middle" font-family="Lato,sans-serif">Lit ca→eu</text>
+        <rect x="448" y="185.3" width="28" height="4.7"   fill="#7090A8" rx="1"/>
+        <text x="462" y="180.5" font-size="12" fill="#7090A8" text-anchor="middle" font-family="Lato,sans-serif">0.6</text>
+        <rect x="480" y="48.5"  width="28" height="141.5" fill="#5A7FA0" rx="2"/>
+        <text x="494" y="42.5"  font-size="13" fill="#1A4B7A" font-weight="bold" text-anchor="middle" font-family="Lato,sans-serif">19.4</text>
+        <text x="478"  y="210"  font-size="13" fill="#3A526A" text-anchor="middle" font-family="Lato,sans-serif">Clin ca→eu</text>
       </svg>
     </div>
-
+ 
     <div class="chart-block" style="flex: 1; min-width: 320px;">
       <div class="chart-block-title" style="font-size: 16px; font-weight: bold; margin-bottom: 8px;">COMET ↑</div>
-      <svg viewBox="0 0 620 216" xmlns="http://www.w3.org/2000/svg" style="width:100%;display:block;">
-        <line x1="48" y1="190"   x2="580" y2="190"   stroke="#BCD9EF" stroke-width="0.8"/>
-        <line x1="48" y1="153.6" x2="580" y2="153.6" stroke="#DDEEF8" stroke-width="0.7" stroke-dasharray="3,3"/>
-        <line x1="48" y1="117.2" x2="580" y2="117.2" stroke="#DDEEF8" stroke-width="0.7" stroke-dasharray="3,3"/>
-        <line x1="48" y1="80.8"  x2="580" y2="80.8"  stroke="#DDEEF8" stroke-width="0.7" stroke-dasharray="3,3"/>
-        <line x1="48" y1="44.4"  x2="580" y2="44.4"  stroke="#DDEEF8" stroke-width="0.7" stroke-dasharray="3,3"/>
-        <line x1="48" y1="8"      x2="580" y2="8"      stroke="#DDEEF8" stroke-width="0.7" stroke-dasharray="3,3"/>
+                  <svg viewBox="0 0 620 216" xmlns="http://www.w3.org/2000/svg" style="width:100%;display:block;">
+        <line x1="48" y1="190"   x2="520" y2="190"   stroke="#BCD9EF" stroke-width="0.8"/>
+        <line x1="48" y1="153.6" x2="520" y2="153.6" stroke="#DDEEF8" stroke-width="0.7" stroke-dasharray="3,3"/>
+        <line x1="48" y1="117.2" x2="520" y2="117.2" stroke="#DDEEF8" stroke-width="0.7" stroke-dasharray="3,3"/>
+        <line x1="48" y1="80.8"  x2="520" y2="80.8"  stroke="#DDEEF8" stroke-width="0.7" stroke-dasharray="3,3"/>
+        <line x1="48" y1="44.4"  x2="520" y2="44.4"  stroke="#DDEEF8" stroke-width="0.7" stroke-dasharray="3,3"/>
+        <line x1="48" y1="8"     x2="520" y2="8"     stroke="#DDEEF8" stroke-width="0.7" stroke-dasharray="3,3"/>
         <line x1="48" y1="8" x2="48" y2="190" stroke="#BCD9EF" stroke-width="0.8"/>
-        
         <text x="42" y="194" font-size="11" fill="#7090A8" text-anchor="end" font-family="Lato,sans-serif">0</text>
         <text x="42" y="157" font-size="11" fill="#7090A8" text-anchor="end" font-family="Lato,sans-serif">20</text>
         <text x="42" y="121" font-size="11" fill="#7090A8" text-anchor="end" font-family="Lato,sans-serif">40</text>
         <text x="42" y="85"  font-size="11" fill="#7090A8" text-anchor="end" font-family="Lato,sans-serif">60</text>
         <text x="42" y="48"  font-size="11" fill="#7090A8" text-anchor="end" font-family="Lato,sans-serif">80</text>
         <text x="42" y="12"  font-size="11" fill="#7090A8" text-anchor="end" font-family="Lato,sans-serif">100</text>
-        
-        <rect x="74"  y="107.8" width="18" height="82.2"  fill="#7090A8" rx="2"/>
-        <text x="83"  y="102.5" font-size="10" fill="#7090A8" text-anchor="middle" font-family="Lato,sans-serif">45.2</text>
-        <rect x="96"  y="43.3"  width="18" height="146.7" fill="#2E6FAC" rx="2"/>
-        <text x="105" y="37.5"  font-size="10.5" fill="#1A4B7A" font-weight="bold" text-anchor="middle" font-family="Lato,sans-serif">80.6</text>
-        <text x="96"  y="205"   font-size="12" fill="#3A526A" text-anchor="middle" font-family="Lato,sans-serif">Gen eu→ca</text>
-        
-        <rect x="182" y="101.7" width="18" height="88.3"  fill="#7090A8" rx="2"/>
-        <text x="191" y="96.5"  font-size="10" fill="#7090A8" text-anchor="middle" font-family="Lato,sans-serif">48.5</text>
-        <rect x="204" y="43.0"  width="18" height="147.0" fill="#4D90C4" rx="2"/>
-        <text x="213" y="37.0"  font-size="10.5" fill="#1A4B7A" font-weight="bold" text-anchor="middle" font-family="Lato,sans-serif">80.8</text>
-        <text x="204" y="205"   font-size="12" fill="#3A526A" text-anchor="middle" font-family="Lato,sans-serif">Gen ca→eu</text>
-        
-        <rect x="290" y="114.4" width="18" height="75.6"  fill="#7090A8" rx="2"/>
-        <text x="299" y="109.0" font-size="10" fill="#7090A8" text-anchor="middle" font-family="Lato,sans-serif">41.6</text>
-        <rect x="312" y="63.3"  width="18" height="126.7" fill="#2B7A78" rx="2"/>
-        <text x="321" y="57.5"  font-size="10.5" fill="#1A4B7A" font-weight="bold" text-anchor="middle" font-family="Lato,sans-serif">69.6</text>
-        <text x="312" y="205"   font-size="12" fill="#3A526A" text-anchor="middle" font-family="Lato,sans-serif">Lit eu→ca</text>
-                    
-        <rect x="398" y="108.4" width="18" height="81.6"  fill="#7090A8" rx="2"/>
-        <text x="407" y="103.0" font-size="10" fill="#7090A8" text-anchor="middle" font-family="Lato,sans-serif">44.8</text>
-        <rect x="420" y="71.2"  width="18" height="118.8" fill="#5DCAA5" rx="2"/>
-        <text x="429" y="65.5"  font-size="10.5" fill="#1A4B7A" font-weight="bold" text-anchor="middle" font-family="Lato,sans-serif">65.3</text>
-        <rect x="442" y="73.1"  width="18" height="116.9" fill="#0b202a" rx="2"/>
-        <text x="451" y="67.5"  font-size="10.5" fill="#0b202a" font-weight="bold" text-anchor="middle" font-family="Lato,sans-serif">64.2</text>
-        <text x="431" y="205" font-size="12" fill="#3A526A" text-anchor="middle" font-family="Lato,sans-serif">Lit ca→eu</text>
-
-        <rect x="506" y="98.0"  width="18" height="92.0"  fill="#7090A8" rx="2"/>
-        <text x="515" y="92.5"  font-size="10" fill="#7090A8" text-anchor="middle" font-family="Lato,sans-serif">50.6</text>
-        <rect x="528" y="51.2"  width="18" height="138.8" fill="#5A7FA0" rx="2"/>
-        <text x="537" y="45.5"  font-size="10.5" fill="#1A4B7A" font-weight="bold" text-anchor="middle" font-family="Lato,sans-serif">76.3</text>
-        <text x="528" y="205"   font-size="12" fill="#3A526A" text-anchor="middle" font-family="Lato,sans-serif">Clin ca→eu</text>
+        <rect x="56"  y="107.8" width="28" height="82.2"  fill="#7090A8" rx="2"/>
+        <text x="70"  y="102.5" font-size="12" fill="#7090A8" text-anchor="middle" font-family="Lato,sans-serif">45.2</text>
+        <rect x="88"  y="43.3"  width="28" height="146.7" fill="#2E6FAC" rx="2"/>
+        <text x="102" y="37.5"  font-size="13" fill="#1A4B7A" font-weight="bold" text-anchor="middle" font-family="Lato,sans-serif">80.6</text>
+        <text x="86"  y="210"   font-size="13" fill="#3A526A" text-anchor="middle" font-family="Lato,sans-serif">Gen eu→ca</text>
+        <rect x="146" y="101.7" width="28" height="88.3"  fill="#7090A8" rx="2"/>
+        <text x="160" y="96.5"  font-size="12" fill="#7090A8" text-anchor="middle" font-family="Lato,sans-serif">48.5</text>
+        <rect x="178" y="43.0"  width="28" height="147.0" fill="#4D90C4" rx="2"/>
+        <text x="192" y="37.0"  font-size="13" fill="#1A4B7A" font-weight="bold" text-anchor="middle" font-family="Lato,sans-serif">80.8</text>
+        <text x="176"  y="210"  font-size="13" fill="#3A526A" text-anchor="middle" font-family="Lato,sans-serif">Gen ca→eu</text>
+        <rect x="236" y="114.4" width="28" height="75.6"  fill="#7090A8" rx="2"/>
+        <text x="250" y="109.0" font-size="12" fill="#7090A8" text-anchor="middle" font-family="Lato,sans-serif">41.6</text>
+        <rect x="268" y="63.3"  width="28" height="126.7" fill="#2B7A78" rx="2"/>
+        <text x="282" y="57.5"  font-size="13" fill="#1A4B7A" font-weight="bold" text-anchor="middle" font-family="Lato,sans-serif">69.6</text>
+        <text x="266"  y="210"  font-size="13" fill="#3A526A" text-anchor="middle" font-family="Lato,sans-serif">Lit eu→ca</text>
+        <rect x="326" y="108.4" width="28" height="81.6"  fill="#7090A8" rx="2"/>
+        <text x="340" y="103.0" font-size="12" fill="#7090A8" text-anchor="middle" font-family="Lato,sans-serif">44.8</text>
+        <rect x="358" y="71.2"  width="28" height="118.8" fill="#5DCAA5" rx="2"/>
+        <text x="372" y="65.5"  font-size="13" fill="#1A4B7A" font-weight="bold" text-anchor="middle" font-family="Lato,sans-serif">65.3</text>
+        <rect x="390" y="73.1"  width="28" height="116.9" fill="#0b202a" rx="2"/>
+        <text x="404" y="67.5"  font-size="13" fill="#0b202a" font-weight="bold" text-anchor="middle" font-family="Lato,sans-serif">64.2</text>
+        <text x="372"  y="210"  font-size="13" fill="#3A526A" text-anchor="middle" font-family="Lato,sans-serif">Lit ca→eu</text>
+        <rect x="448" y="98.0"  width="28" height="92.0"  fill="#7090A8" rx="2"/>
+        <text x="462" y="92.5"  font-size="12" fill="#7090A8" text-anchor="middle" font-family="Lato,sans-serif">50.6</text>
+        <rect x="480" y="51.2"  width="28" height="138.8" fill="#5A7FA0" rx="2"/>
+        <text x="494" y="45.5"  font-size="13" fill="#1A4B7A" font-weight="bold" text-anchor="middle" font-family="Lato,sans-serif">76.3</text>
+        <text x="478"  y="210"  font-size="13" fill="#3A526A" text-anchor="middle" font-family="Lato,sans-serif">Clin ca→eu</text>
       </svg>
     </div>
   </div>
-
+ 
 </div>
 
 
