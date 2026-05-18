@@ -103,7 +103,21 @@ All translation for data construction uses `HiTZ/Latxa-Llama-3.1-8B-Instruct` vi
 
 ---
 
+## Data Sources
+
+Raw corpora are not included in this repository due to size. Download them from the following links and place them under `data/`.
+
+| Corpus | Domain | Link |
+|---|---|---|
+| projecte-aina/CA-EU_Parallel_Corpus | General | https://huggingface.co/datasets/projecte-aina/CA-EU_Parallel_Corpus |
+| CTILC CA–ES literary corpus | Literary | https://github.com/guerreropaula/synthetic-corpus-ca-es |
+| EhuHac ES–EU literary corpus | Literary | https://opus.nlpl.eu/datasets/EhuHac?pair=eu&es |
+| E3C Basque clinical corpus | Clinical | https://github.com/hltfbk/E3C-Corpus |
+
+---
+
 ## Quick Start
+
 
 ```bash
 pip install -r requirements.txt
