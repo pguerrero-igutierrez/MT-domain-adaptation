@@ -179,7 +179,6 @@ python scripts/13_evaluate_all.py \
 │   ├── test_set_clinical.json
 │   └── eval/                      # Per-model evaluation JSON results
 ├── poster/                        
-├── paper/
 └── scripts/
     ├── 01_sample_general.py
     ├── 02_sample_ca-literary.py
