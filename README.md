@@ -13,10 +13,10 @@ This repository contains the code, data pipelines, and evaluation framework for 
 
 Two specialized domains are targeted:
 
-| Domain | Translation Direction | Quality Criterion |
+| Domain | Translation Direction | 
 |---|---|---|
-| Literary | CA↔EU (bidirectional) | Fluency, creativity, stylistic naturalness |
-| Clinical | CA→EU only | Terminological accuracy, clinical clarity |
+| Literary | CA↔EU (bidirectional) | 
+| Clinical | CA→EU only | 
 
 The general-domain model serves as both a standalone baseline and a warm-start checkpoint for continued domain-specific fine-tuning.
 
@@ -39,11 +39,6 @@ All models use `HiTZ/Latxa-Qwen3-VL-8B-Instruct` as base, with LoRA adapters (r=
 
 ## Pipeline
 
-```
-Data Sampling → Synthetic Data Generation → Fine-tuning → Evaluation
-  (01–04)              (05–07)                (08–12)        (13)
-```
-
 | Stage | Scripts | Description |
 |---|---|---|
 | Data sampling | `01–04` | Prepare general, literary, and clinical datasets |
@@ -55,8 +50,10 @@ Data Sampling → Synthetic Data Generation → Fine-tuning → Evaluation
 
 ## Datasets
 
+All datasets use a split of 90/5/5% for train/validation/test.
+
 ### General
-Sampled from `projecte-aina/CA-EU_Parallel_Corpus` (50k pairs). Split 90/5/5% for train/validation/test.
+Sampled from `projecte-aina/CA-EU_Parallel_Corpus` (50k pairs). 
 
 | Split | CA→EU | EU→CA |
 |---|---|---|
@@ -89,15 +86,6 @@ Built from Basque clinical documents (E3C corpus) translated to Catalan. Single 
 
 Average document length: ~1,078 tokens.
 
----
-
-## Synthetic Data Construction
-
-| Pipeline | Description |
-|---|---|
-| **Literary A** (CTILC) | CA monolingual corpus → CA→ES (pivot) → ES→EU translate → CA–EU synthetic pairs |
-| **Literary B** (EhuHac) | EU–ES corpus → ES→CA translate → EU–CA synthetic pairs |
-| **Clinical** (E3C) | EU monolingual corpus → EU→CA back-translate → CA–EU synthetic pairs (CA=source, EU=reference) |
 
 **Round-trip technique**: machine-translated texts serve as the source language during fine-tuning, while original high-quality texts are the target. This ensures the model learns from clean references.
 
