@@ -164,7 +164,7 @@ python scripts/13_evaluate_all.py \
 
 ```
 .
-├── data/                          # Raw source corpora 
+├── data/                          # Raw source corpora (not included for size constraints)
 ├── sampled-data/                  # Sampled/preprocessed inputs 
 ├── backtranslated-corpus/         # Synthetic parallel corpora
 ├── outputs/
