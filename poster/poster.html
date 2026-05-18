@@ -354,7 +354,7 @@ code { font-family: 'JetBrains Mono', monospace; font-size: 10pt; background: va
 <div class="header">
   <div class="header-inner">
     <div class="header-text">
-  <div class="title">Domain Adaptation for <span class="hl">Catalan–Basque</span> Machine Translation<br>via Synthetic Data and Continued Fine-Tuning</div>
+  <div class="title">Domain adaptation for <span class="hl">Catalan–Basque</span> machine translation<br>via synthetic data and continued fine-tuning</div>
   <div class="author-line">
     <strong>Paula Guerrero &amp; Iker Gutierrez</strong>
     <span class="sep">·</span>
@@ -378,7 +378,7 @@ code { font-family: 'JetBrains Mono', monospace; font-size: 10pt; background: va
   <div class="col">
 
     <section>
-      <div class="sec-hdr"><span class="sec-num">1</span><span class="sec-title">Motivation &amp; Research Questions</span></div>
+      <div class="sec-hdr"><span class="sec-num">1</span><span class="sec-title">Motivation &amp; research questions</span></div>
       <p>Catalan–Basque (CA–EU) machine translation remains highly under-resourced, particularly in specialized domains. Existing multilingual models often struggle with this language pair, while high-quality in-domain parallel corpora are extremely limited.
 </p></p>
       <div class="callout"><strong>Core question:</strong> Given the scarcity of domain-specific parallel corpora, can synthetic bilingual data generated from monolingual resources significantly improve CA–EU machine translation?</div>
@@ -399,7 +399,7 @@ code { font-family: 'JetBrains Mono', monospace; font-size: 10pt; background: va
     </section>
 
     <section>
-      <div class="sec-hdr"><span class="sec-num">2</span><span class="sec-title">Two Domains, Two Quality Criteria</span></div>
+      <div class="sec-hdr"><span class="sec-num">2</span><span class="sec-title">Two domains, two quality criteria</span></div>
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:5px;margin:5px 0;">
         <div style="background:var(--teal-lt);border:1px solid var(--teal);border-radius:8px;padding:6px 8px;">
           <div style="font-size:10pt;font-weight:700;color:var(--teal);margin-bottom:2px;text-transform:uppercase;letter-spacing:0.05em;">Literary</div>
@@ -523,7 +523,7 @@ code { font-family: 'JetBrains Mono', monospace; font-size: 10pt; background: va
     </section>
 
     <section>
-      <div class="sec-hdr"><span class="sec-num">4</span><span class="sec-title">Synthetic Data Construction</span></div>
+      <div class="sec-hdr"><span class="sec-num">4</span><span class="sec-title">Synthetic data construction</span></div>
       <div class="pipeline-wrap">
         <div class="pipeline-label">Literary A: CA (CTILC)</div>
         <div class="pipeline">
@@ -552,7 +552,7 @@ code { font-family: 'JetBrains Mono', monospace; font-size: 10pt; background: va
     </section>
 
     <section>
-      <div class="sec-hdr"><span class="sec-num">5</span><span class="sec-title">Training Setup</span></div>
+      <div class="sec-hdr"><span class="sec-num">5</span><span class="sec-title">Training setup</span></div>
       <div class="info-row"><span class="k">Fine-tuning model</span><span class="v">HiTZ/Latxa-Qwen3-VL-8B-Instruct</span></div>
       <div class="info-row"><span class="k">Translation model</span><span class="v">HiTZ/Latxa-Llama-3.1-8B-Instruct</span></div>
       <div class="info-row"><span class="k">Adaptation</span><span class="v">LoRA · 4-bit NF4 (bitsandbytes)</span></div>
@@ -573,7 +573,7 @@ code { font-family: 'JetBrains Mono', monospace; font-size: 10pt; background: va
   <!-- ─── RIGHT COLUMN ─── -->
   <div class="col">
         <section>
-    <div class="sec-hdr"><span class="sec-num">6</span><span class="sec-title">Model Variants &amp; Experimental Design</span></div>
+    <div class="sec-hdr"><span class="sec-num">6</span><span class="sec-title">Model variants &amp; experimental design</span></div>
       <div class="pipeline-wrap">
         <div class="pipeline-label">general — Direct SFT on general-domain parallel data</div>
         <div class="pipeline">
@@ -619,7 +619,7 @@ code { font-family: 'JetBrains Mono', monospace; font-size: 10pt; background: va
     </section>
 
     <section>
-      <div class="sec-hdr"><span class="sec-num">7</span><span class="sec-title">General Domain Results (bidirectional)</span></div>
+      <div class="sec-hdr"><span class="sec-num">7</span><span class="sec-title">General domain results (bidirectional)</span></div>
       <table class="rtable">
         <thead><tr><th>Model</th><th>Dir</th><th>chrF++↑</th><th>BLEU↑</th><th>TER↓</th><th>COMET↑</th></tr></thead>
         <tbody>
@@ -633,7 +633,7 @@ code { font-family: 'JetBrains Mono', monospace; font-size: 10pt; background: va
     </section>
 
     <section>
-      <div class="sec-hdr"><span class="sec-num">8</span><span class="sec-title">Literary Domain Results (bidirectional)</span></div>
+      <div class="sec-hdr"><span class="sec-num">8</span><span class="sec-title">Literary domain results (bidirectional)</span></div>
       <table class="rtable">
         <thead><tr><th>Model</th><th>Dir</th><th>chrF++↑</th><th>BLEU↑</th><th>TER↓</th><th>COMET↑</th></tr></thead>
         <tbody>
@@ -651,7 +651,7 @@ code { font-family: 'JetBrains Mono', monospace; font-size: 10pt; background: va
     </section>
 
     <section>
-      <div class="sec-hdr"><span class="sec-num">9</span><span class="sec-title">Clinical Domain Results (ca→eu)</span></div>
+      <div class="sec-hdr"><span class="sec-num">9</span><span class="sec-title">Clinical domain results (ca→eu)</span></div>
       <table class="rtable">
         <thead><tr><th>Model</th><th>chrF++↑</th><th>BLEU↑</th><th>TER↓</th><th>COMET↑</th></tr></thead>
         <tbody>
@@ -665,7 +665,7 @@ code { font-family: 'JetBrains Mono', monospace; font-size: 10pt; background: va
     </section>
       <!-- ─── TOKEN MATCHED ─── -->
     <section>
-      <div class="sec-hdr"><span class="sec-num">7</span><span class="sec-title">Token-Matched Results (ca→eu)</span></div>
+      <div class="sec-hdr"><span class="sec-num">7</span><span class="sec-title">Token-matched results (ca→eu)</span></div>
       <table class="rtable">
         <thead><tr><th>Model</th><th>chrF++↑</th><th>BLEU↑</th><th>TER↓</th><th>COMET↑</th></tr></thead>
         <tbody>
@@ -677,7 +677,7 @@ code { font-family: 'JetBrains Mono', monospace; font-size: 10pt; background: va
     </section>
 
     <section>
-      <div class="sec-hdr"><span class="sec-num">10</span><span class="sec-title">Key Findings</span></div>
+      <div class="sec-hdr"><span class="sec-num">10</span><span class="sec-title">Key findings</span></div>
       <div class="finding">
         <div class="finding-icon">1</div>
         <div class="finding-text"><strong>Domain-specific fine-tuning is the main driver of improvement, in particular for clinicalv1.</div>
@@ -701,7 +701,7 @@ code { font-family: 'JetBrains Mono', monospace; font-size: 10pt; background: va
     </section>
 
     <section>
-      <div class="sec-hdr"><span class="sec-num">11</span><span class="sec-title">Limitations &amp; Future Work</span></div>
+      <div class="sec-hdr"><span class="sec-num">11</span><span class="sec-title">Limitations &amp; future work</span></div>
       <div class="callout warn"><strong>Limitations:</strong> Small clinical test set (N=66); single-directional clinical training; reliance on synthetic supervision.</div>
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:4px;margin-top:5px;">
         <div style="background:var(--teal-lt);border:1px solid var(--teal);border-radius:7px;padding:5px 7px;">
