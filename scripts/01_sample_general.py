@@ -9,8 +9,8 @@ import random
 from datasets import load_dataset
 
 DATASET_NAME = "projecte-aina/CA-EU_Parallel_Corpus"
-SAMPLE_SIZE = 50_000
-OUTPUT_FILE = "ca_eu_50k.json"
+SAMPLE_SIZE = 100_000
+OUTPUT_FILE = "ca_eu_100k.json"
 SEED = 42
 
 def main():
