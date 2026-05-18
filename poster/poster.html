@@ -379,12 +379,13 @@ code { font-family: 'JetBrains Mono', monospace; font-size: 10pt; background: va
 
     <section>
       <div class="sec-hdr"><span class="sec-num">1</span><span class="sec-title">Motivation &amp; Research Questions</span></div>
-      <p>Catalan–Basque (CA–EU) MT is severely under-resourced, especially in specialized domains. Standard multilingual models produce poor output for this pair, and in-domain parallel data is scarce.</p>
-      <div class="callout"><strong>Core question:</strong> Can synthetic domain-specific corpora built from related bilingual resources substantially improve CA–EU MT over a general baseline?</div>
+      <p>Catalan–Basque (CA–EU) machine translation remains highly under-resourced, particularly in specialized domains. Existing multilingual models often struggle with this language pair, while high-quality in-domain parallel corpora are extremely limited.
+</p></p>
+      <div class="callout"><strong>Core question:</strong> Given the scarcity of domain-specific parallel corpora, can synthetic bilingual data generated from monolingual resources significantly improve CA–EU machine translation?</div>
       <div style="display:flex;flex-direction:column;gap:4px;margin-top:5px;">
         <div style="display:flex;gap:7px;align-items:flex-start;">
           <div style="background:var(--blue-pale);color:var(--blue-deep);font-family:'JetBrains Mono',monospace;font-size:6.5pt;font-weight:700;border-radius:50%;width:17px;height:17px;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px;">1</div>
-          <div style="font-size:10pt;color:var(--ink-mid);line-height:1.4;font-style:italic;">Can pivot-based corpus construction and back-translation create useful training data for low-resource domains?</div>
+          <div style="font-size:10pt;color:var(--ink-mid);line-height:1.4;font-style:italic;">Can pivot-based corpus construction and back-translation generate effective training data for low-resource specialized domains?</div>
         </div>
         <div style="display:flex;gap:7px;align-items:flex-start;">
           <div style="background:var(--teal-lt);color:var(--teal);font-family:'JetBrains Mono',monospace;font-size:6.5pt;font-weight:700;border-radius:50%;width:17px;height:17px;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px;">2</div>
@@ -553,7 +554,7 @@ code { font-family: 'JetBrains Mono', monospace; font-size: 10pt; background: va
     <section>
       <div class="sec-hdr"><span class="sec-num">5</span><span class="sec-title">Training Setup</span></div>
       <div class="info-row"><span class="k">Fine-tuning model</span><span class="v">HiTZ/Latxa-Qwen3-VL-8B-Instruct</span></div>
-      <div class="info-row"><span class="k">Translation model (05–07)</span><span class="v">HiTZ/Latxa-Llama-3.1-8B-Instruct</span></div>
+      <div class="info-row"><span class="k">Translation model</span><span class="v">HiTZ/Latxa-Llama-3.1-8B-Instruct</span></div>
       <div class="info-row"><span class="k">Adaptation</span><span class="v">LoRA · 4-bit NF4 (bitsandbytes)</span></div>
       <div class="info-row"><span class="k">Max length</span><span class="v">768 tokens</span></div>
       <div class="info-row"><span class="k">Epochs</span><span class="v">3</span></div>
@@ -774,7 +775,7 @@ code { font-family: 'JetBrains Mono', monospace; font-size: 10pt; background: va
         <rect x="358" y="101.0" width="28" height="89.0" fill="#5DCAA5" rx="2"/>
         <text x="372" y="95.5"  font-size="13" fill="#1A4B7A" font-weight="bold" text-anchor="middle" font-family="Lato,sans-serif">26.9</text>
         <rect x="390" y="105.3" width="28" height="84.7" fill="#0b202a" rx="2"/>
-        <text x="404" y="99.5"  font-size="13" fill="#0b202a" font-weight="bold" text-anchor="middle" font-family="Lato,sans-serif">25.6</text>
+        <text x="404" y="99.5"  font-size="13" fill="#0b202a" font-weight="bold" text-anchor="middle" font-family="Lato,sans-serif">24.7</text>
         <text x="372"  y="210"  font-size="13" fill="#3A526A" text-anchor="middle" font-family="Lato,sans-serif">Lit ca→eu</text>
         <rect x="448" y="153.5" width="28" height="36.5"  fill="#7090A8" rx="2"/>
         <text x="462" y="148.0" font-size="12" fill="#7090A8" text-anchor="middle" font-family="Lato,sans-serif">11.0</text>
@@ -820,7 +821,7 @@ code { font-family: 'JetBrains Mono', monospace; font-size: 10pt; background: va
         <rect x="358" y="172.2" width="28" height="17.8" fill="#5DCAA5" rx="2"/>
         <text x="372" y="167.0" font-size="13" fill="#1A4B7A" font-weight="bold" text-anchor="middle" font-family="Lato,sans-serif">2.4</text>
         <rect x="390" y="172.5" width="28" height="17.5" fill="#0b202a" rx="2"/>
-        <text x="404" y="167.0" font-size="13" fill="#0b202a" font-weight="bold" text-anchor="middle" font-family="Lato,sans-serif">2.4</text>
+        <text x="404" y="167.0" font-size="13" fill="#0b202a" font-weight="bold" text-anchor="middle" font-family="Lato,sans-serif">2.3</text>
         <text x="372"  y="210"  font-size="13" fill="#3A526A" text-anchor="middle" font-family="Lato,sans-serif">Lit ca→eu</text>
         <rect x="448" y="185.3" width="28" height="4.7"   fill="#7090A8" rx="1"/>
         <text x="462" y="180.5" font-size="12" fill="#7090A8" text-anchor="middle" font-family="Lato,sans-serif">0.6</text>
@@ -866,7 +867,7 @@ code { font-family: 'JetBrains Mono', monospace; font-size: 10pt; background: va
         <rect x="358" y="71.2"  width="28" height="118.8" fill="#5DCAA5" rx="2"/>
         <text x="372" y="65.5"  font-size="13" fill="#1A4B7A" font-weight="bold" text-anchor="middle" font-family="Lato,sans-serif">65.3</text>
         <rect x="390" y="73.1"  width="28" height="116.9" fill="#0b202a" rx="2"/>
-        <text x="404" y="67.5"  font-size="13" fill="#0b202a" font-weight="bold" text-anchor="middle" font-family="Lato,sans-serif">64.2</text>
+        <text x="404" y="67.5"  font-size="13" fill="#0b202a" font-weight="bold" text-anchor="middle" font-family="Lato,sans-serif">65.4</text>
         <text x="372"  y="210"  font-size="13" fill="#3A526A" text-anchor="middle" font-family="Lato,sans-serif">Lit ca→eu</text>
         <rect x="448" y="98.0"  width="28" height="92.0"  fill="#7090A8" rx="2"/>
         <text x="462" y="92.5"  font-size="12" fill="#7090A8" text-anchor="middle" font-family="Lato,sans-serif">50.6</text>
