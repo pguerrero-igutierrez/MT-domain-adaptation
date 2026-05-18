@@ -14,7 +14,7 @@ This repository contains the code, data pipelines, and evaluation framework for 
 Two specialized domains are targeted:
 
 | Domain | Translation Direction | 
-|---|---|---|
+|---|---|
 | Literary | CA↔EU (bidirectional) | 
 | Clinical | CA→EU only | 
 
