@@ -182,6 +182,14 @@ section { margin-bottom: 2mm; }
   flex-shrink: 0; font-family: 'JetBrains Mono', monospace;
 }
 .sec-title { font-family: 'Playfair Display', serif; font-size: 14pt; font-weight: 700; color: var(--ink); font-style: italic; }
+.sec-title .amp {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-style: normal;
+  font-weight: 700;
+  display: inline-block;
+  line-height: 1.15;
+  padding-right: 0.03em;
+}
 
 p { font-size: 10pt; line-height: 1.55; color: var(--ink-mid); margin-bottom: 5px; text-align: justify; hyphens: auto; }
 code { font-family: 'JetBrains Mono', monospace; font-size: 10pt; background: var(--blue-sky); border-radius: 4px; padding: 1px 4px; color: var(--blue-deep); }
@@ -340,7 +348,7 @@ code { font-family: 'JetBrains Mono', monospace; font-size: 10pt; background: va
 .hf-collection a { color: var(--blue-deep); text-decoration: none; font-weight: 700; word-break: break-all; }
 
 /* FOOTER */
-.footer { background: var(--ink); color: var(--blue-lt); padding: 4mm 11mm; font-size: 9pt; display: flex; justify-content: space-between; align-items: flex-start; gap: 20px; flex-shrink: 0; }
+.footer { background: var(--ink); color: var(--blue-lt); padding: 4mm 11mm 5mm; margin-bottom: -1mm; font-size: 9pt; display: flex; justify-content: space-between; align-items: flex-start; gap: 20px; flex-shrink: 0; }
 .footer-left { line-height: 1.8; flex: 2; }
 .footer-right { text-align: right; line-height: 1.8; flex: 1; }
 .footer strong { color: var(--blue-pale); font-size: 10pt; text-transform: uppercase; letter-spacing: 0.06em; }
@@ -378,7 +386,7 @@ code { font-family: 'JetBrains Mono', monospace; font-size: 10pt; background: va
   <div class="col">
 
     <section>
-      <div class="sec-hdr"><span class="sec-num">1</span><span class="sec-title">Motivation &amp; research questions</span></div>
+      <div class="sec-hdr"><span class="sec-num">1</span><span class="sec-title">Motivation <span class="amp">&amp;</span> research questions</span></div>
       <p>Catalan–Basque (CA–EU) machine translation remains highly under-resourced, particularly in specialized domains. Existing multilingual models often struggle with this language pair, while high-quality in-domain parallel corpora are extremely limited.
 </p></p>
       <div class="callout"><strong>Core question:</strong> Given the scarcity of domain-specific parallel corpora, can synthetic bilingual data generated from monolingual resources significantly improve CA–EU machine translation?</div>
@@ -573,7 +581,7 @@ code { font-family: 'JetBrains Mono', monospace; font-size: 10pt; background: va
   <!-- ─── RIGHT COLUMN ─── -->
   <div class="col">
         <section>
-    <div class="sec-hdr"><span class="sec-num">6</span><span class="sec-title">Model variants &amp; experimental design</span></div>
+    <div class="sec-hdr"><span class="sec-num">6</span><span class="sec-title">Model variants <span class="amp">&amp;</span> experimental design</span></div>
       <div class="pipeline-wrap">
         <div class="pipeline-label">general — Direct SFT on general-domain parallel data</div>
         <div class="pipeline">
@@ -696,25 +704,25 @@ code { font-family: 'JetBrains Mono', monospace; font-size: 10pt; background: va
       </div>
       <div class="finding">
         <div class="finding-icon">5</div>
-        <div class="finding-text"><strong>Clinical domains are more "learnable":</strong> Under strict token-matching, clinical SFT yields much higher overall metrics than literary SFT.</div>
+        <div class="finding-text"><strong>Clinical domains are more "learnable":</strong> under strict token-matching, clinical SFT yields for most metrics substantially higher results than literary SFT.</div>
       </div>
     </section>
 
     <section>
-      <div class="sec-hdr"><span class="sec-num">12</span><span class="sec-title">Limitations &amp; future work</span></div>
+      <div class="sec-hdr"><span class="sec-num">12</span><span class="sec-title">Limitations <span class="amp">&amp;</span> future work</span></div>
       <div class="callout warn"><strong>Limitations:</strong> Small clinical test set (N=66); single-directional clinical training; reliance on synthetic supervision.</div>
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:4px;margin-top:5px;">
         <div style="background:var(--teal-lt);border:1px solid var(--teal);border-radius:7px;padding:5px 7px;">
           <div style="font-size:8pt;font-weight:700;color:var(--teal);margin-bottom:2px;text-transform:uppercase;">Corpus</div>
-          <div style="font-size:8.5pt;color:var(--ink-mid);line-height:1.4;">High reliance on synthetic data, explore SFT results on human-translated parallel data. Extend clinical to eu→ca direction.</div>
+          <div style="font-size:8.5pt;color:var(--ink-mid);line-height:1.4;">Due to high reliance on synthetic data, explore SFT results on human-translated parallel data. Extend clinical to eu2ca.</div>
         </div>
         <div style="background:var(--blue-sky);border:1px solid var(--blue-soft);border-radius:7px;padding:5px 7px;">
           <div style="font-size:8pt;font-weight:700;color:var(--blue-mid);margin-bottom:2px;text-transform:uppercase;">Ablations</div>
-          <div style="font-size:8.5pt;color:var(--ink-mid);line-height:1.4;">Test pivot language choices and SFT data sizes variation between domains.</div>
+          <div style="font-size:8.5pt;color:var(--ink-mid);line-height:1.4;">Test all possible pivot language choices and SFT data sizes variation between domains. Try English prompting.</div>
         </div>
         <div style="background:var(--steel-lt);border:1px solid var(--slate);border-radius:7px;padding:5px 7px;">
           <div style="font-size:8pt;font-weight:700;color:var(--slate);margin-bottom:2px;text-transform:uppercase;">Evaluation</div>
-          <div style="font-size:8.5pt;color:var(--ink-mid);line-height:1.4;">Add human eval and larger, balanced test sets.</div>
+          <div style="font-size:8.5pt;color:var(--ink-mid);line-height:1.4;">Incorporate human evaluation.</div>
         </div>
         <div style="background:var(--gold-lt);border:1px solid var(--gold);border-radius:7px;padding:5px 7px;">
           <div style="font-size:8pt;font-weight:700;color:#7A5500;margin-bottom:2px;text-transform:uppercase;">Single model</div>
