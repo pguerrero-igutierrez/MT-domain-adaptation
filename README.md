@@ -205,7 +205,7 @@ If you use this work, please cite:
 
 ```bibtex
 @misc{guerrero-gutierrez-2026-caeu-mt,
-  title        = {Domain Adaptation for Catalan--Basque Machine Translation via Synthetic Data and Continued Fine-Tuning},
+  title        = {Domain Adaptation for Catalan-Basque Machine Translation via Synthetic Data and Continued Fine-Tuning},
   author       = {Guerrero, Paula and Gutierrez, Iker},
   year         = {2026},
   note         = {Unpublished manuscript}
