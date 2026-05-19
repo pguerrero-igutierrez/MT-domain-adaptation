@@ -1,4 +1,4 @@
-# Domain Adaptation for Catalan–Basque Machine Translation via Synthetic Data and Continued Fine-Tuning
+# Domain aaptation for Catalan–Basque machine translation via synthetic data and continued fine-tuning
 
 [![Paper](https://img.shields.io/badge/Paper-PDF-red)](paper/paper.pdf)
 [![Models](https://img.shields.io/badge/HuggingFace-Models-yellow)](https://huggingface.co/collections/pguerrero-igutierrez/mt-domain-adaptation-ca-eu)
