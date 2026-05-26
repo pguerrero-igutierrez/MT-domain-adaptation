@@ -56,7 +56,7 @@ Translates Basque clinical paragraphs to Catalan (EU→CA) using Latxa. Long doc
 
 ---
 
-## Fine-tuning (`08–12`, `09.2`)
+## Fine-tuning (`08–12`)
 
 All fine-tuning scripts share the same core architecture:
 
@@ -70,11 +70,13 @@ All fine-tuning scripts share the same core architecture:
 
 ### Instruction Templates
 
-| Direction | Prompt |
+| Setting | Prompt |
 |---|---|
-| EU→CA | `Itzuli testu hau euskaratik katalanera:\n\n{source}` |
-| CA→EU (literary) | `Tradueix aquest text literari del català al basc:\n\n{source}` |
-| CA→EU (clinical) | `Tradueix aquest text clínic del català al basc:\n\n{source}` |
+| EU→CA general | `Itzuli testu hau euskaratik katalanera:\n\n{source}` |
+| CA→EU general | `Tradueix aquest text del català al basc:\n\n{source}` |
+| EU→CA literary | `Itzuli testu literario hau euskaratik katalanera:\n\n{source}` |
+| CA→EU literary | `Tradueix aquest text literari del català al basc:\n\n{source}` |
+| CA→EU clinical | `Tradueix aquest text clínic del català al basc:\n\n{source}` |
 
 ---
 

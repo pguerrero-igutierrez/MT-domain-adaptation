@@ -44,7 +44,7 @@ All models use `HiTZ/Latxa-Qwen3-VL-8B-Instruct` as base, with LoRA adapters (r=
 |---|---|---|
 | Data sampling | `01–04` | Prepare general, literary, and clinical datasets |
 | Synthetic data generation | `05–07` | Translate or back-translate domain corpora |
-| Fine-tuning | `08–12`, `09.2` | Train general, domain-specific, and token-matched LoRA adapters |
+| Fine-tuning | `08–12` | Train general, domain-specific, and token-matched LoRA adapters |
 | Evaluation | `13` | Evaluate models with BLEU, chrF++, TER, and COMET |
 
 ---
@@ -196,8 +196,7 @@ python scripts/13_evaluate_all.py \
 │   └── eval/                      # Per-model evaluation JSON results
 ├── paper/
 │   ├── README.md
-│   ├── paper.tex
-│   └── paper.pdf                  # Compiled manuscript PDF (generated locally)
+│   └── paper.pdf                  
 ├── poster/                        
 └── scripts/
     ├── 01_sample_general.py
