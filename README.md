@@ -237,7 +237,7 @@ If you use this work, please cite:
 ## Contact
 
 **Iker Gutierrez Fandiño**<br>
-*Computational Linguist*<br>
+*Computational linguist*<br>
 [GitHub Profile](https://github.com/iker-gutierrez) | [LinkedIn](https://www.linkedin.com/in/iker-gutierrez-fandino)
 
 **Paula Guerrero Castelló**<br> 
