@@ -3,208 +3,144 @@ base_model: HiTZ/Latxa-Qwen3-VL-8B-Instruct
 library_name: peft
 pipeline_tag: text-generation
 tags:
-- base_model:adapter:HiTZ/Latxa-Qwen3-VL-8B-Instruct
 - lora
+- peft
 - transformers
+- machine-translation
+- domain-adaptation
+- literary
+- catalan
+- basque
 language:
-- eu
 - ca
+- eu
 ---
 
-# Model Card for Model ID
+# Latxa-Qwen3-8B-Literary-v2-ca-eu
 
-<!-- Provide a quick summary of what the model is/does. -->
+`Latxa-Qwen3-8B-Literary-v2-ca-eu` is a LoRA adapter for Catalan-Basque literary machine translation. It continues fine-tuning from the project general-domain checkpoint and targets bidirectional literary translation for the `ca->eu` and `eu->ca` directions.
 
+## Model details
 
+- Developed by: Paula Guerrero and Iker Gutierrez
+- Affiliation: University of the Basque Country (EHU)
+- Model type: LoRA adapter for `HiTZ/Latxa-Qwen3-VL-8B-Instruct`
+- Languages: Catalan (`ca`), Basque (`eu`)
+- Domain: Literary translation
+- Base model: `HiTZ/Latxa-Qwen3-VL-8B-Instruct`
+- Continued from: `pguerrero-igutierrez/Latxa-Qwen3-8B-General-eu-ca`
+- Repository: `pguerrero-igutierrez/Latxa-Qwen3-8B-Literary-v2-ca-eu`
+- Collection: `pguerrero-igutierrez/mt-domain-adaptation-ca-eu`
 
-## Model Details
+## Sources
 
-### Model Description
+- Hugging Face repository: https://huggingface.co/pguerrero-igutierrez/Latxa-Qwen3-8B-Literary-v2-ca-eu
+- Hugging Face collection: https://huggingface.co/collections/pguerrero-igutierrez/mt-domain-adaptation-ca-eu
+- Project repository: https://github.com/pguerrero-igutierrez/MT-domain-adaptation
+- Paper source: https://github.com/pguerrero-igutierrez/MT-domain-adaptation/tree/main/paper
 
-<!-- Provide a longer summary of what this model is. -->
+## Intended use
 
+This model is intended for research on low-resource Catalan-Basque literary translation, especially in settings where in-domain parallel data is scarce and synthetic back-translation data is used for adaptation.
 
+Supported prompting directions:
 
-- **Developed by:** [More Information Needed]
-- **Funded by [optional]:** [More Information Needed]
-- **Shared by [optional]:** [More Information Needed]
-- **Model type:** [More Information Needed]
-- **Language(s) (NLP):** [More Information Needed]
-- **License:** [More Information Needed]
-- **Finetuned from model [optional]:** [More Information Needed]
+- `eu->ca`: `Itzuli testu hau euskaratik katalanera:\n\n{source}`
+- `ca->eu`: `Tradueix aquest text del català al basc:\n\n{source}`
 
-### Model Sources [optional]
+## Out-of-scope use
 
-<!-- Provide the basic links for the model. -->
+- High-stakes use without human review
+- Professional literary publishing without post-editing
+- Medical, legal, or safety-critical translation workflows
+- General multilingual tasks outside Catalan-Basque translation
 
-- **Repository:** [More Information Needed]
-- **Paper [optional]:** [More Information Needed]
-- **Demo [optional]:** [More Information Needed]
+## Training data
 
-## Uses
+This adapter was trained on the same literary corpora as `literaryv1`, built through Spanish-pivot synthetic data generation and back-translation:
 
-<!-- Address questions around how the model is intended to be used, including the foreseeable users of the model and those affected by the model. -->
+- `backtranslated-corpus/ca-literary_trilingual.json`
+- `backtranslated-corpus/eu-literary-EhuHac.jsonl`
 
-### Direct Use
+The model was then continued from the project general checkpoint rather than trained directly from the base model.
 
-<!-- This section is for the model use without fine-tuning or plugging into a larger ecosystem/app. -->
+## Training procedure
 
-[More Information Needed]
-
-### Downstream Use [optional]
-
-<!-- This section is for the model use when fine-tuned for a task, or when plugged into a larger ecosystem/app -->
-
-[More Information Needed]
-
-### Out-of-Scope Use
-
-<!-- This section addresses misuse, malicious use, and uses that the model will not work well for. -->
-
-[More Information Needed]
-
-## Bias, Risks, and Limitations
-
-<!-- This section is meant to convey both technical and sociotechnical limitations. -->
-
-[More Information Needed]
-
-### Recommendations
-
-<!-- This section is meant to convey recommendations with respect to the bias, risk, and technical limitations. -->
-
-Users (both direct and downstream) should be made aware of the risks, biases and limitations of the model. More information needed for further recommendations.
-
-## How to Get Started with the Model
-
-Use the code below to get started with the model.
-
-[More Information Needed]
-
-## Training Details
-
-### Training Data
-
-<!-- This should link to a Dataset Card, perhaps with a short stub of information on what the training data is all about as well as documentation related to data pre-processing or additional filtering. -->
-
-[More Information Needed]
-
-### Training Procedure
-
-<!-- This relates heavily to the Technical Specifications. Content here should link to that section when it is relevant to the training procedure. -->
-
-#### Preprocessing [optional]
-
-[More Information Needed]
-
-
-#### Training Hyperparameters
-
-- **Training regime:** [More Information Needed] <!--fp32, fp16 mixed precision, bf16 mixed precision, bf16 non-mixed precision, fp16 non-mixed precision, fp8 mixed precision -->
-
-#### Speeds, Sizes, Times [optional]
-
-<!-- This section provides information about throughput, start/end time, checkpoint size if relevant, etc. -->
-
-[More Information Needed]
+- LoRA rank: 16
+- LoRA alpha: 32
+- LoRA dropout: 0.05
+- Target modules: `q_proj`, `k_proj`, `v_proj`, `o_proj`, `gate_proj`, `up_proj`, `down_proj`
+- Quantization: 4-bit NF4
+- Max sequence length: 768
+- Epochs: 3
+- Batch size: 4
+- Gradient accumulation: 8
+- Learning rate: `5e-5`
+- Scheduler: cosine
+- Warmup ratio: 0.05
+- Seed: 42
+- Checkpoint selection: best validation BLEU
 
 ## Evaluation
 
-<!-- This section describes the evaluation protocols and provides the results. -->
+Results on the literary held-out test set:
 
-### Testing Data, Factors & Metrics
+| Direction | chrF++ | BLEU | TER | COMET |
+|---|---:|---:|---:|---:|
+| `eu->ca` | 34.51 | 7.44 | 87.66 | 68.72 |
+| `ca->eu` | 25.87 | 2.31 | 100.74 | 64.34 |
+| Overall | 30.02 | 5.17 | 93.81 | 65.44 |
 
-#### Testing Data
+In the project experiments, this continued-adaptation literary model performed slightly below the direct literary SFT model (`literaryv1`) across the reported literary metrics.
 
-<!-- This should link to a Dataset Card if possible. -->
+## Limitations
 
-[More Information Needed]
+- Trained on synthetic literary supervision rather than human-translated in-domain CA-EU parallel data
+- Literary quality aspects such as style, voice, and fluency are only partially captured by automatic metrics
+- CA->EU literary performance remains challenging, especially under word-level metrics such as BLEU
 
-#### Factors
+## Usage
 
-<!-- These are the things the evaluation is disaggregating by, e.g., subpopulations or domains. -->
+This repository contains adapter weights, so it must be loaded on top of the base model.
 
-[More Information Needed]
+```python
+import torch
+from peft import PeftModel
+from transformers import AutoTokenizer, Qwen3VLForConditionalGeneration
 
-#### Metrics
+base_id = "HiTZ/Latxa-Qwen3-VL-8B-Instruct"
+adapter_id = "pguerrero-igutierrez/Latxa-Qwen3-8B-Literary-v2-ca-eu"
 
-<!-- These are the evaluation metrics being used, ideally with a description of why. -->
+tokenizer = AutoTokenizer.from_pretrained(base_id, trust_remote_code=True)
+base_model = Qwen3VLForConditionalGeneration.from_pretrained(
+    base_id,
+    device_map="auto",
+    torch_dtype=torch.bfloat16 if torch.cuda.is_available() else torch.float32,
+    trust_remote_code=True,
+)
+model = PeftModel.from_pretrained(base_model, adapter_id)
 
-[More Information Needed]
+prompt = "Tradueix aquest text del català al basc:\n\nBon vespre."
+inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
+outputs = model.generate(**inputs, max_new_tokens=128)
+print(tokenizer.decode(outputs[0], skip_special_tokens=True))
+```
 
-### Results
+## Citation
 
-[More Information Needed]
+If you use this model, please cite the project repository:
 
-#### Summary
+```bibtex
+@misc{guerrero-gutierrez-2026-caeu-mt,
+  title        = {Domain Adaptation for Catalan-Basque Machine Translation via Synthetic Data and Continued Fine-Tuning},
+  author       = {Guerrero, Paula and Gutierrez, Iker},
+  year         = {2026},
+  note         = {Unpublished manuscript}
+}
+```
 
+## Contact
 
+- Paula Guerrero: `pguerrero005@ikasle.ehu.eus`
+- Iker Gutierrez: `igutierrez134@ikasle.ehu.eus`
 
-## Model Examination [optional]
-
-<!-- Relevant interpretability work for the model goes here -->
-
-[More Information Needed]
-
-## Environmental Impact
-
-<!-- Total emissions (in grams of CO2eq) and additional considerations, such as electricity usage, go here. Edit the suggested text below accordingly -->
-
-Carbon emissions can be estimated using the [Machine Learning Impact calculator](https://mlco2.github.io/impact#compute) presented in [Lacoste et al. (2019)](https://arxiv.org/abs/1910.09700).
-
-- **Hardware Type:** [More Information Needed]
-- **Hours used:** [More Information Needed]
-- **Cloud Provider:** [More Information Needed]
-- **Compute Region:** [More Information Needed]
-- **Carbon Emitted:** [More Information Needed]
-
-## Technical Specifications [optional]
-
-### Model Architecture and Objective
-
-[More Information Needed]
-
-### Compute Infrastructure
-
-[More Information Needed]
-
-#### Hardware
-
-[More Information Needed]
-
-#### Software
-
-[More Information Needed]
-
-## Citation [optional]
-
-<!-- If there is a paper or blog post introducing the model, the APA and Bibtex information for that should go in this section. -->
-
-**BibTeX:**
-
-[More Information Needed]
-
-**APA:**
-
-[More Information Needed]
-
-## Glossary [optional]
-
-<!-- If relevant, include terms and calculations in this section that can help readers understand the model or model card. -->
-
-[More Information Needed]
-
-## More Information [optional]
-
-[More Information Needed]
-
-## Model Card Authors [optional]
-
-[More Information Needed]
-
-## Model Card Contact
-
-[More Information Needed]
-### Framework versions
-
-- PEFT 0.19.1
