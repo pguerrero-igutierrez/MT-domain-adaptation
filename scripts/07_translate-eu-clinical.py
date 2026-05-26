@@ -1,44 +1,40 @@
 """
 07_translate-eu-clinical.py
 
-Translates pre-sampled Basque clinical paragraphs to Catalan
-using HiTZ/Latxa-Llama-3.1-8B-Instruct via vLLM offline batching.
+Translates pre-sampled Basque clinical paragraphs to Catalan using
+`HiTZ/Latxa-Llama-3.1-8B-Instruct` via vLLM offline batching.
 
-Long texts are split into chunks before translation and rejoined
-afterwards, so no content is truncated by the model's max_tokens limit.
+Long texts are split into character-level chunks before translation and
+rejoined afterwards so the model can process long clinical documents without
+truncating them.
 
-INPUT
+Input
 -----
 File   : sampled-data/eu-clinical_sampled100k.json
-Format : JSON list of records with fields:
-         doc_id, language, publication_date, source, source_url, doc_type,
-         licence, authors, url, para_id, eu, ca (ca="" untranslated)
+Format : JSON list of records with fields such as:
+         `doc_id`, `publication_date`, `source`, `doc_type`, `authors`,
+         `para_id`, `eu`, and an empty `ca`
 
-OUTPUT
+Output
 ------
-backtranslated-corpus/eu-clinical_eu2ca.json
+backtranslated-corpus/eu-clinical_backtranslated.json
 
-Each output record preserves all original metadata fields, plus:
+Each output record preserves the original metadata and fills:
     {
       ...,
-      "eu": str,   (original Basque)
-      "ca": str,   (translated Catalan)
+      "eu": str,   (original Basque text)
+      "ca": str,   (synthetic Catalan translation)
     }
 
-REQUIREMENTS
+Requirements
 ------------
     pip install vllm tqdm
 
-USAGE
+Usage
 -----
-    python 07_translate-eu-clinical.py
-    python 07_translate-eu-clinical.py --resume
-    python 07_translate-eu-clinical.py --batch-size 64 --max-tokens 700 --chunk-size 2000
-
-CHUNK-SIZE GUIDE
-----------------
-    Clinical corpus  : --chunk-size 2000 --max-tokens 700   (texts up to 18k tokens)
-    Literary/ehu-hac : --chunk-size 9999 --max-tokens 512   (texts already short)
+    python scripts/07_translate-eu-clinical.py
+    python scripts/07_translate-eu-clinical.py --resume
+    python scripts/07_translate-eu-clinical.py --batch-size 64 --max-tokens 700 --chunk-size 2000
 """
 
 import argparse
@@ -50,7 +46,7 @@ from tqdm import tqdm
 from vllm import LLM, SamplingParams
 
 INPUT_JSON  = Path("sampled-data/eu-clinical_sampled100k.json")
-OUTPUT_JSON = Path("backtranslated-corpus/eu-clinical_eu2ca.json")
+OUTPUT_JSON = Path("backtranslated-corpus/eu-clinical_backtranslated.json")
 
 MODEL_ID        = "HiTZ/Latxa-Llama-3.1-8B-Instruct"
 BATCH_SIZE      = 64

@@ -20,22 +20,22 @@ ca2eu: "Tradueix aquest text del català al basc:\n\n{source}"
 
 Split
 -----
-90 % train / 10 % eval+test.
-The eval set is saved to outputs/test_set_general.json after training so
-downstream scripts (clinicalv2, literaryv2) can use it as a shared test set.
+90 % train / 5 % valid / 5 % test.
+The held-out test set is saved to `outputs/test_set_general.json` the first
+time the script is run, and reused afterwards.
 
 Output
 ------
 outputs/generalv1/              – LoRA adapters + tokenizer
-outputs/test_set_general.json   – held-out 10 % test set
+outputs/test_set_general.json   – held-out 5 % test set
 
 Usage
 -----
-    python 08_finetuning_general.py
-    python 08_finetuning_general.py --no-4bit
-    python 08_finetuning_general.py --epochs 5 --lr 2e-4
-    python 08_finetuning_general.py --max-train-samples 10000
-    python 08_finetuning_general.py --output-dir outputs/my_general_run
+    python scripts/08_finetuning_general.py
+    python scripts/08_finetuning_general.py --no-4bit
+    python scripts/08_finetuning_general.py --epochs 5 --lr 2e-4
+    python scripts/08_finetuning_general.py --max-train-samples 10000
+    python scripts/08_finetuning_general.py --output-dir outputs/my_general_run
 """
 
 

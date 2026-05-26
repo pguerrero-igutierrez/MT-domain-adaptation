@@ -1,28 +1,39 @@
 """
-09_finetuning_literaryv1_tokenmatched.py
+09.2_finetuning_literaryv1_tokenmatched.py
 
-Fine-tunes HiTZ/Latxa-Qwen3-VL-8B-Instruct with LoRA for Catalan→Basque
-literary translation (ca2eu only) using a token-budget sampling strategy
-to match the total token volume of the clinical domain for a fair comparison.
+Fine-tunes `HiTZ/Latxa-Qwen3-VL-8B-Instruct` with LoRA for Catalan->Basque
+literary translation (`ca2eu` only) using a token-budget-matched subset of the
+literary corpus. The train and validation splits are matched to the clinical
+domain's source-token budgets to support a fair literary-vs-clinical
+comparison.
 
-Data source
------------
+Data sources
+------------
 backtranslated-corpus/eu-literary-EhuHac.jsonl
-    source = ca_translation  (Catalan)
-    target = source_eu       (Basque)
-    direction = ca2eu
+    source = `ca_translation`  (Catalan)
+    target = `source_eu`       (Basque)
+
+backtranslated-corpus/eu-clinical_backtranslated.json
+    used only to derive the clinical reference token budgets
 
 Split
 -----
-Token-budget based (matching clinical total tokens):
-    train : Matched to clinical total source tokens
-    valid : Matched to clinical total source tokens
-    test  : remainder
+1. Shuffle the clinical corpus and take fixed-size reference splits
+   (`1174` train, `65` valid, remainder test).
+2. Compute source-token budgets for the clinical train and valid splits.
+3. Consume shuffled literary examples until those budgets are matched.
+4. Use the remaining literary examples as test data.
 
 Output
 ------
 outputs/literaryv1_tokenmatched/   – LoRA adapters + tokenizer
-outputs/test_set_literary.json     – held-out test set
+outputs/test_set_literary.json     – held-out literary test set, saved only if absent
+
+Usage
+-----
+    python scripts/09.2_finetuning_literaryv1_tokenmatched.py
+    python scripts/09.2_finetuning_literaryv1_tokenmatched.py --no-4bit
+    python scripts/09.2_finetuning_literaryv1_tokenmatched.py --output-dir outputs/my_tokenmatched_run
 """
 
 import argparse
@@ -46,8 +57,8 @@ from transformers import (
 )
 
 BASE_MODEL    = "HiTZ/Latxa-Qwen3-VL-8B-Instruct"
-LITERARY_JSONL= Path("/home/igutierrez134/MT/MT-domain-adaptation/backtranslated-corpus/eu-literary-EhuHac.jsonl")
-CLINICAL_JSON = Path("/home/igutierrez134/MT/MT-domain-adaptation/backtranslated-corpus/eu-clinical_backtranslated.json")
+LITERARY_JSONL= Path("backtranslated-corpus/eu-literary-EhuHac.jsonl")
+CLINICAL_JSON = Path("backtranslated-corpus/eu-clinical_backtranslated.json")
 OUTPUT_DIR    = Path("outputs/literaryv1_tokenmatched")
 
 SEED          = 42

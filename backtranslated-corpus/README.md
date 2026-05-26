@@ -15,7 +15,7 @@ Trilingual CA–ES–EU literary corpus derived from the CTILC Catalan–Spanish
 
 **Notes**:
 - `text_ca` is the high-quality original; `text_eu` is synthetic (machine-translated via Latxa from the Spanish pivot).
-- During fine-tuning, the **round-trip** direction is EU→CA: model input is `text_eu` (synthetic source), target is `text_ca` (original reference).
+- During fine-tuning, the **back-translation** direction is EU→CA: model input is `text_eu` (synthetic source), target is `text_ca` (original reference).
 - Paragraph alignment is performed per document using cosine similarity over multilingual-e5-large embeddings with a DP merge strategy (max 2 paragraphs merged per side).
 
 ---
@@ -28,7 +28,7 @@ Bilingual EU–CA literary corpus derived from the EhuHac Spanish–Basque liter
 
 **Notes**:
 - `source_eu` is the high-quality original; `ca_translation` is synthetic.
-- During fine-tuning, the **round-trip** direction is CA→EU: model input is `ca_translation` (synthetic source), target is `source_eu` (original reference).
+- During fine-tuning, the **back-translation** direction is CA→EU: model input is `ca_translation` (synthetic source), target is `source_eu` (original reference).
 
 ---
 
@@ -42,7 +42,7 @@ Back-translated EU–CA clinical corpus derived from Basque clinical documents i
 
 **Notes**:
 - `eu` is the high-quality original clinical text; `ca` is synthetic.
-- During fine-tuning, the **round-trip** direction is CA→EU: model input is `ca` (synthetic source), target is `eu` (original reference).
+- During fine-tuning, the **back-translation** direction is CA→EU: model input is `ca` (synthetic source), target is `eu` (original reference).
 - Long documents were chunked at ≤2,000 characters before translation and rejoined to avoid context window truncation.
 
 

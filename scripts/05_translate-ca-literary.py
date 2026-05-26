@@ -1,9 +1,10 @@
 """
 05_translate-ca-literary.py
 
-Translates literary Spanish paragraphs from CTILC to Basque (es->eu),
-then re-aligns translations back to the original paragraph structure using
-the same vecalign DP alignment used in 03_build_corpus.py.
+Translates literary Spanish paragraphs from CTILC to Basque (ES->EU), then
+realigns the translated text to the original Catalan paragraph structure with
+an in-script DP alignment procedure based on `multilingual-e5-large`
+embeddings.
 
 Model:
     es->eu : HiTZ/Latxa-Llama-3.1-8B-Instruct  (vLLM offline batching)

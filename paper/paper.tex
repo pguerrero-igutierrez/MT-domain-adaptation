@@ -1,0 +1,743 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[hyperref]{acl2020}
+\usepackage{times}
+\usepackage{latexsym}
+
+\usepackage{etoolbox}
+\let\oldtexttt\texttt
+\renewcommand{\texttt}[1]{%
+  {\fontsize{10.5pt}{11pt}\selectfont\oldtexttt{#1}}%
+}
+
+\renewcommand{\UrlFont}{\ttfamily\small}
+\renewcommand{\arraystretch}{1.2}
+
+\usepackage{url}
+\usepackage{graphicx}
+\usepackage{multirow}
+\captionsetup{font=small,labelfont=bf}
+\usepackage{float}
+\usepackage{microtype}
+\usepackage{amssymb,amsmath}
+\usepackage{booktabs}
+\usepackage{tcolorbox}
+\usepackage[normalem]{ulem}
+\usepackage{xcolor}
+\hbadness=10000
+\vbadness=10000
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[C]{\thepage}
+
+% Annotation label style
+\newcommand{\ann}[1]{%
+\textcolor{blue}{\textbf{\small[#1]}}%
+}
+
+\newcommand\BibTeX{B\textsc{ib}\TeX}
+
+\hyphenpenalty=1500
+\exhyphenpenalty=1500
+
+\setlength\titlebox{6.5cm}
+\setlength\footskip{18pt}
+
+\newcommand{\researchtechlength}{$10$ (ten)}
+\newcommand{\researchtransuserslength}{$10$ (ten)}
+\newcommand{\implementationslength}{$6$ (six)}
+\newcommand{\projectlength}{$2$ (two)}
+
+\aclfinalcopy
+
+\title{Domain adaptation for Catalan--Basque machine translation\\
+via synthetic data and continued fine-tuning}
+
+\author{Paula Guerrero Castelló \and Iker Gutierrez Fandiño \\
+  University of the Basque Country (EHU) \\
+  {\tt \{pguerrero005,igutierrez134\}@ikasle.ehu.eus}}
+
+\date{}
+
+\begin{document}
+\setlength{\footskip}{45pt}
+\maketitle
+\thispagestyle{plain}
+\pagestyle{plain}
+
+\begin{abstract}
+Catalan--Basque (CA--EU) machine translation remains highly
+under-resourced, particularly in specialized domains. We investigate
+whether synthetic bilingual data derived from monolingual and
+pivot-language resources can improve domain-specific CA--EU translation. We also explore whether direct domain-specific supervised fine-tuning or continued supervised
+fine-tuning from a general-domain checkpoint is more effective.
+We fine-tune Latxa-Qwen3-VL-8B-Instruct\footnote{\url{https://huggingface.co/HiTZ/Latxa-Qwen3-VL-8B-Instruct}} with LoRA
+adapters on three domains: general, literary, and clinical. Lite\-rary
+and clinical training corpora are constructed via pivot translation and
+back-translation using Latxa-Llama-3.1-8B-Instruct.
+Domain-specific fine-tuning yields large improvements over both the
+zero-shot baseline and the general-domain model in all domains.
+Direct fine-tuning outperforms continued adaptation from the general
+checkpoint for both literary and clinical domains. A token-matched
+comparison (fine-tuning with the same number of tokens in both domains) reveals that clinical texts are more learnable
+than literary texts, probably because clinical texts are stylistically more similar to the standard-register texts on which LLMs are mostly pretrained.
+\end{abstract}
+
+\section{Introduction}
+
+Catalan and Basque are two co-official languages of Spain with active
+institutional support, yet the language pair Catalan--Basque (CA--EU)
+is among the most under-resourced in the Western European MT landscape.
+Unlike Catalan--Spanish or Basque--Spanish, CA--EU lacks substantial
+parallel corpora in any domain, and dedicated MT systems for this pair
+are scarce. The linguistic distance between the two languages (Catalan
+is a Romance language while Basque is an isolated language with a
+highly agglutinative morphology) makes the transfer from other
+language pairs non-trivial.
+
+Additionally, state-of-the-art LLMs show promising MT performance in high-resource
+settings, but they still underperform standard NMT systems in low-resource
+domains such as medicine \cite{bawden-yvon-2023-investigating}.
+This work addresses three core questions. First, can pivot-based
+corpus construction and back-translation generate effective training
+data for low-resource specialized CA--EU MT, in the absence of
+direct in-domain parallel corpora? Second, does domain-specific
+fine-tuning improve in-domain translation quality over a general-domain
+model and over a zero-shot baseline? Third, is continued fine-tuning
+from a general-domain checkpoint preferable to direct domain-specific
+supervised fine-tuning (SFT)?
+
+We study two specialized domains that represent contrasting quality
+criteria. In the \textbf{literary} domain, translation quality depends
+on fluency, creativity, stylistic naturalness, and preservation of
+register and narrative voice. In the \textbf{clinical} domain, quality
+is primarily determined by terminological accuracy, factual completeness,
+and clinical adequacy. These differences motivate distinct evaluation
+emphases and are expected to affect domain learnability under
+limited synthetic supervision.
+
+Our experimental pipeline constructs domain-specific synthetic corpora from available Catalan and Basque monolingual and bilingual resources. Using back-translation, we preserve the original monolingual texts as training targets and generate synthetic source-side data for fine-tuning. We adapt Latxa, a Basque-centric instruction-tuned large language model, with parameter-efficient LoRA adapters. We evaluate five model variants across four automatic
+metrics (chrF++, BLEU, TER, and COMET) and include a controlled
+token-matched comparison to assess domain learnability independently
+of data volume.
+
+\section{Related work}
+
+Domain adaptation for MT has been extensively studied in
+resource-rich settings, commonly through continued training on
+in-domain parallel data~\cite{Freitag2016}, mixture-of-domains
+training~\cite{ling2025diversityrewardfinetuningllms}, and through fine-tuning
+of pre-trained language models~\cite{alves-etal-2023-steering}. Back-translation has been widely explored as a method for leveraging
+monolingual data to generate synthetic bilingual corpora and improve MT
+performance~\cite{luu-etal-2026-machine,bojar-tamchyna-2011-improving, edunov-etal-2018-understanding}, including in low-resource language settings \cite{xu2019backtranslation}.
+
+
+The Projecte AINA initiative \cite{villegas2023aina} at the Barcelona Supercomputing Center
+has produced dedicated MT models for Catalan, including a Basque--Catalan
+system\footnote{\url{https://huggingface.co/projecte-aina/aina-translator-eu-ca}} trained on data
+generated by translating the Spanish side of a CA--ES corpus through
+a Latxa ES--EU pivot system. That model is the closest prior system to
+the present work, differing in that it uses an
+encoder--decoder architecture trained from scratch rather than
+fine-tuning an instruction-tuned LLM.
+ 
+As regards to Basque-centric language modelling, Latxa~\cite{etxaniz-etal-2024-latxa}
+represents the state of the art for open Basque LLMs and is the
+foundation of the Latxa-Qwen3 and Latxa-Llama model series used
+in this work.
+ 
+Supervised fine-tuning (SFT) is one of the most common approaches to
+domain adaptation in LLMs, enabling models to continue training on
+in-domain examples and specialize in a target domain
+\cite{alves-etal-2023-steering,eschbach-dymanus-etal-2024-exploring}. Nevertheless, applying full SFT
+to LLMs is costly, as it involves updating billions
+of model parameters. 
+Parameter-efficient fine-tuning methods, in particular
+LoRA~\cite{hu2022lora}, have made it feasible to adapt large
+models with limited compute where full fine-tuning is
+expensive.
+ 
+
+\section{Data and synthetic corpus construction}
+\label{sec:data}
+
+We use four source corpora spanning three domains. Corpora exceeding
+100,000 samples are randomly subsampled to at most 100,000 in
+order to control training size and reduce domain imbalance.
+
+\paragraph{General domain.} The AINA CA--EU Parallel Corpus\footnote{\url{https://huggingface.co/datasets/projecte-aina/CA-EU_Parallel_Corpus}}
+ provides general-domain
+sentence pairs. We sample 100,000 pairs. Each pair is used bidirectionally:
+one EU$\to$CA and one CA$\to$EU instruction sample are generated per
+pair, giving 100,000 training instances in total before the train/
+validation/test split.
+
+
+\paragraph{Literary A (CTILC).}
+The original Catalan texts come from the CTILC Catalan literary
+corpus~\cite{ctilc_iec}. We rely on a previously constructed synthetic
+Catalan--Spanish corpus~\cite{guerrero2026ca_es_corpus}, where the
+CTILC Catalan paragraphs were translated into Spanish with
+Gemma-3-27B-IT, resulting in approximately 30,000 aligned
+Catalan--Spanish paragraph pairs. For our CA--EU corpus construction,
+we use Spanish as a pivot language and translate the synthetic Spanish
+side into Basque with Latxa-Llama-3.1-8B-Instruct. This produces
+synthetic Basque sources paired with original Catalan targets. The
+resulting pairs are then aligned using multilingual-e5-large embeddings.
+
+\paragraph{Literary B (EhuHac).} The EhuHac Spanish--Basque literary
+corpus\footnote{\url{https://opus.nlpl.eu/datasets/EhuHac?pair=eu&es}}
+provides sentence-aligned EU--ES pairs. Spanish is translated into
+Catalan, producing synthetic CA--EU literary pairs. Sentence pairs in
+which either side is shorter than five characters are discarded. From
+the remaining valid pairs, we randomly sample 100,000 examples.
+
+\paragraph{Clinical (E3C).} The E3C Basque clinical corpus\footnote{\url{https://github.com/hltfbk/E3C-Corpus}}
+provides approximately 1,300 document records. Basque clinical paragraphs are
+translated into Catalan using Latxa-Llama-3.1-8B-Instruct. Because clinical
+samples are comparatively longer, documents are split into chunks of at
+most 2,000 characters before translation.
+
+\subsection{Synthetic data construction via back-translation}
+
+We generate synthetic parallel data from
+target-side monolingual or pivoting Spanish texts using Latxa-Llama-3.1-8B-Instruct\footnote{\url{https://huggingface.co/HiTZ/Latxa-Llama-3.1-8B-Instruct}}. This model was used for corpus construction because it was the available
+Latxa-family instruction-tuned model at the time the synthetic
+translation pipeline was run. The fine-tuning experiments themselves are
+conducted on Latxa-Qwen3-VL-8B-Instruct, which was selected later due to
+its reported adaptation to Basque, Catalan, and Galician. In all cases, we use the back-translation technique: the machine-translated text is always used as the \emph{source} side during fine-tuning, while the original human-authored text is preserved as the \emph{target} side. In this way, the model is trained to produce clean, human-quality output from potentially noisy synthetic input, rather than learning to imitate machine-translated targets. \autoref{tab:backtranslation_corpus} summarizes the construction direction for each corpus.
+
+\begin{table}[H]
+\small
+\centering
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{llll}
+\toprule
+\textbf{Corpus} & \textbf{Source (synthetic)} & \textbf{Target (original)} & \textbf{Dir.} \\
+\midrule
+CTILC literary & EU (translated) & CA (original) & EU$\to$CA \\
+EhuHac literary & CA (translated) & EU (original) & CA$\to$EU \\
+E3C clinical   & CA (translated) & EU (original) & CA$\to$EU \\
+\bottomrule
+\end{tabular}
+}
+\caption{Back-translation supervision: synthetic source, original target.}
+\label{tab:backtranslation_corpus}
+\end{table}
+
+
+\subsection{Dataset splits}
+
+\begin{table*}[t]
+\small
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llcccccc}
+\toprule
+\multirow{2}{*}{\textbf{Domain}} &
+\multirow{2}{*}{\textbf{Direction}} &
+\multicolumn{2}{c}{\textbf{Train}} &
+\multicolumn{2}{c}{\textbf{Validation}} &
+\multicolumn{2}{c}{\textbf{Test}} \\
+\cmidrule(lr){3-4}\cmidrule(lr){5-6}\cmidrule(lr){7-8}
+& & \textit{total} & \textit{per dir.} & \textit{total} & \textit{per dir.} & \textit{total} & \textit{per dir.} \\
+\midrule
+General & EU$\to$CA & \multirow{2}{*}{87,229 (90\%)} & 43,568 (49.9\%) & \multirow{2}{*}{4,846 (5\%)} & 2,458 (50.7\%) & \multirow{2}{*}{4,847 (5\%)} & 2,435 (50.2\%) \\
+        & CA$\to$EU &                                  & 43,661 (50.1\%) &                              & 2,388 (49.3\%) &                              & 2,412 (49.8\%) \\
+\midrule
+Literary & EU$\to$CA & \multirow{2}{*}{102,344 (90\%)} & 26,900 (26.3\%) & \multirow{2}{*}{5,685 (5\%)} & 1,468 (25.8\%) & \multirow{2}{*}{5,687 (5\%)} & 1,426 (25.1\%) \\
+         & CA$\to$EU &                                   & 75,444 (73.7\%) &                              & 4,217 (74.2\%) &                              & 4,261 (74.9\%) \\
+\midrule
+Clinical & CA$\to$EU & 1,174 (90\%) & 1,174  & 65 (5\%) & 65 & 66 (5\%) & 66 \\
+\bottomrule
+\end{tabular}
+}
+\caption{Dataset splits by domain and direction. Percentages in the \textit{total} columns are computed over the full domain size, while percentages in the \textit{per dir.} columns are computed within each split.}
+\label{tab:datasets}
+\end{table*}
+
+As shown in \autoref{tab:datasets}, all domains use a 90/5/5\% partition split.
+The difference of sizes in the literary training set
+(CA$\to$EU: 75,444 vs.\ EU$\to$CA: 26,900) reflects the imbalance of the two source corpora: EhuHac provides substantially more
+sentence pairs for the CA$\to$EU direction than CTILC provides for
+EU$\to$CA. The clinical corpus covers only CA$\to$EU because no
+Catalan clinical originals are available; all Catalan text is synthetic.
+Moreover, the large average paragraph length in the clinical domain ($\sim$1,078
+tokens) contrasts sharply with the literary domain ($\sim$110 tokens)
+and explains the chunking requirement in the translation pipeline.
+
+
+
+\section{Methodology}
+\label{sec:methodology}
+
+\subsection{Base model}
+All fine-tuning experiments use Latxa-Qwen3-VL-8B-Instruct as the base
+model. 
+
+\subsection{Instruction format}\label{sec:instruction}
+
+We formulate fine-tuning as an instruction-following translation task, detailed in \autoref{tab:instruction-prefixes}.
+Consistently with our back-translation setup, the direction is determined
+by the original side: Catalan originals are used as CA
+targets for EU$\to$CA fine-tuning, while Basque originals are used as EU
+targets for CA$\to$EU fine-tuning, thus preserving maximum quality of the translations in the target.
+
+\begin{table}[H]
+\small
+\centering
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{ll}
+\toprule
+\textbf{Setting} & \textbf{Instruction prefix} \\
+\midrule
+EU$\to$CA general & \textit{Itzuli testu hau euskaratik katalanera:} \\
+CA$\to$EU general & \textit{Tradueix aquest text del catal\`{a} al basc:} \\
+EU$\to$CA literary & \textit{Itzuli testu literario hau euskaratik katalanera:} \\
+CA$\to$EU literary & \textit{Tradueix aquest text literari del catal\`{a} al basc:} \\
+CA$\to$EU clinical & \textit{Tradueix aquest text cl\'{i}nic del catal\`{a} al basc:} \\
+\bottomrule
+\end{tabular}
+}
+\caption{Instruction prefixes used for each translation direction and domain.}
+\label{tab:instruction-prefixes}
+\end{table}
+
+
+\subsection{Fine-tuning strategy}
+
+We use parameter-efficient fine-tuning with LoRA adapters. Following a
+fixed configuration across all experiments, we set the LoRA rank to
+$r=16$, the scaling factor to $\alpha=32$, and the dropout rate to
+$p=0.05$. The adapters are inserted into the attention projections
+(q\_proj, k\_proj, v\_proj, o\_proj) and the MLP projections
+(gate\_proj, up\_proj, down\_proj). Additionally, for memory-efficient training, the base model is loaded in 4-bit NF4
+quantization with bitsandbytes.
+
+\subsection{Training hyperparameters}
+
+Table~\ref{tab:hyperparams} lists the shared hyperparameters for training. The maximum sequence length is set to 768 tokens,
+which covers approximately the 95th percentile of the training data
+while limiting memory consumption during fine-tuning.
+Checkpoint selection is based on best validation BLEU. Early stopping
+with patience 3 is applied where the validation set is large enough
+to be meaningful.
+
+\begin{table}[H]
+\small
+\centering
+\begin{tabular}{ll}
+\toprule
+\textbf{Hyperparameter} & \textbf{Value} \\
+\midrule
+Base model & Latxa-Qwen3-VL-8B-Instruct \\
+LoRA rank / $\alpha$ & 16 / 32 \\
+LoRA dropout & 0.05 \\
+Quantization & 4-bit NF4 \\
+Max sequence length & 768 tokens \\
+Epochs & 3 \\
+Batch size & 4 \\
+Gradient accumulation & 8 steps \\
+Effective batch size & 32 \\
+Learning rate & $5 \times 10^{-5}$ \\
+LR schedule & cosine \\
+Warmup ratio & 0.05 \\
+Checkpoint selection & best validation BLEU \\
+Seed & 42 \\
+\bottomrule
+\end{tabular}
+\caption{Shared training hyperparameters for all model variants.}
+\label{tab:hyperparams}
+\end{table}
+
+\section{Experimental setup}
+\label{sec:setup}
+
+\subsection{Model variants}
+
+We compare six trained model variants against a zero-shot baseline,
+plus one additional token-matched variant for the learnability analysis.
+\autoref{tab:variants} provides an overview.
+
+\begin{table}[H]
+\scriptsize
+\centering
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{ll}
+\toprule
+\textbf{Variant} & \textbf{Description} \\
+\midrule
+Baseline & Zero-shot Latxa-Qwen3-VL-8B-Instruct \\
+generalv1 & Direct SFT on AINA general CA--EU data \\
+literaryv1 & Direct literary SFT from base model \\
+literaryv2 & Literary SFT continued from generalv1 \\
+clinicalv1 & Direct clinical SFT from base model \\
+clinicalv2 & Clinical SFT continued from generalv1 \\
+litv1-tm & CA$\to$EU literary SFT, token-matched to clinical \\
+\bottomrule
+\end{tabular}
+}
+\caption{Model variants and their training lineage. litv1-tm
+denotes the token-matched literary variant.}
+\label{tab:variants}
+\end{table}
+
+For the v2 variants, we perform continued domain adaptation from the
+general-domain checkpoint. The LoRA adapters trained in generalv1 are
+first merged into the base model weights, and a new set of LoRA adapters
+is then trained on the corresponding domain-specific corpus. This setup
+tests whether starting from a general CA--EU translation model improves
+specialized adaptation. Since the general-domain corpus consists of
+existing parallel data rather than synthetic data generated in our
+pipeline, we expect it to provide a cleaner and higher-quality
+initialization than the domain-specific synthetic corpora.
+
+\subsection{Token-matched experiment}
+
+To compare literary and clinical domain learnability independently of
+data volume, we train litv1-tm on a CA$\to$EU literary subset matched
+to the clinical training budget in source tokens, approximately 360,000
+source tokens. We restrict the literary subset to the same translation
+direction as the clinical corpus, CA$\to$EU, so that both models are
+trained and evaluated under comparable directional conditions. We conduct token matching instead of sample matching owing to the large difference in average length per sample between the datasets of the two domains. In the
+literary-domain dataset, each sample corresponds to a sentence, whereas in the
+clinical-domain dataset, each sample corresponds to a paragraph. As a result,
+clinical samples are approximately ten times longer on average, as shown in \autoref{tab:avg-length}.
+
+\begin{table}[H]
+\small
+\centering
+\begin{tabular}{lcc}
+\toprule
+\textbf{Domain} & \textbf{Average length} & \textbf{$\Delta$} \\
+\midrule
+Literary & 110 tokens & $1.0\times$ \\
+Clinical & 1,078 tokens & $\sim 9.8\times$ \\
+\bottomrule
+\end{tabular}
+\caption{Average sample length by domain.}
+\label{tab:avg-length}
+\end{table}
+
+ Both litv1-tm and clinicalv1
+are evaluated on the original test sets of their respective domains (detailed in \autoref{tab:datasets}).
+
+\subsection{Evaluation}
+
+For evaluation, we generate translations with each fine-tuned model and
+compare them against the reference translations. We report chrF, BLEU, TER and COMET
+\cite{popovic-2015-chrf,papineni-etal-2002-bleu,snover-etal-2006-study,Rei2022}.
+TER is expressed as a percentage throughout.
+
+
+
+\begin{itemize}
+  \item \textbf{chrF++}: used to capture character-level overlap, which is
+particularly relevant for agglutinative languages such as Basque, as it
+is more sensitive to subword and morphological variation.
+\item \textbf{BLEU}: included as a standard MT benchmark metric, allowing
+  comparison with previous work despite its limitations for morphologically
+  complex languages and low-resource settings.
+ \item \textbf{TER}: Translation Edit Rate measures the number of edits
+needed to transform the system output into the reference translation, hence lower values indicate better
+  output.
+  \item \textbf{COMET}: included to complement surface-overlap metrics with
+  a learned quality signal that is more sensitive to adequacy and semantic
+  similarity.
+\end{itemize}
+
+Bidirectional evaluation (EU$\to$CA and CA$\to$EU) is performed for
+the general and literary domains; clinical evaluation covers only
+CA$\to$EU.
+
+\section{Results}
+\label{sec:results}
+
+\subsection{General domain}
+
+As shown in \autoref{tab:general}, the zero-shot baseline produces near-zero BLEU and very high TER in
+both directions, confirming that the base model's multilingual
+capacity alone is insufficient for this low-resource pair despite
+its Basque--Catalan coverage. In contrast, the generalv1 evidences that fine-tuning on only 87,000 general-domain
+sentence pairs yields very large gains: chrF++ rises by 35 points for EU$\to$CA and by 24 points for CA$\to$EU, BLEU improves by roughly 18 for EU$\to$CA and by 9 points
+for CA$\to$EU respectively, and COMET increases more than 30 points in both directions. This demonstrates that the base model has the necessary linguistic
+competence but requires task-specific supervision to produce usable
+translations for this pair.
+
+\begin{table}[H]
+\small
+\centering
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{llcccc}
+\toprule
+\textbf{Model} & \textbf{Dir.} & \textbf{chrF++ $\uparrow$} & \textbf{BLEU $\uparrow$} & \textbf{TER $\downarrow$} & \textbf{COMET $\uparrow$} \\
+\midrule
+Baseline & EU$\to$CA & 10.93 & 0.60 & 300.3 & 45.17 \\
+Baseline & CA$\to$EU & 17.10 & 1.29 & 296.3 & 48.54 \\
+\textbf{generalv1} & \textbf{EU$\to$CA} & \textbf{45.03} & \textbf{18.51} & \textbf{75.53} & \textbf{80.61} \\
+\textbf{generalv1} & \textbf{CA$\to$EU} & \textbf{41.63} & \textbf{9.92}  & \textbf{88.02} & \textbf{80.75} \\
+\bottomrule
+\end{tabular}
+}
+\caption{General domain results. Bold: best per direction.}
+\label{tab:general}
+\end{table}
+
+\subsection{Literary domain}
+
+\begin{table}[H]
+\small
+\centering
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{llcccc}
+\toprule
+\textbf{Model} & \textbf{Dir.} & \textbf{chrF++ $\uparrow$} & \textbf{BLEU $\uparrow$} & \textbf{TER $\downarrow$} & \textbf{COMET $\uparrow$} \\
+\midrule
+Baseline        & EU$\to$CA & 11.96 & 0.82 & 151.3 & 41.55 \\
+Baseline        & CA$\to$EU & 16.59 & 0.63 & 266.6 & 44.82 \\
+generalv1 & EU$\to$CA & 27.97 & 4.96 & 89.44 & 66.68 \\
+\textbf{generalv1} & \textbf{CA$\to$EU} & \textbf{29.58} & \textbf{2.82} & 101.8 & \textbf{67.76} \\
+\textbf{literaryv1} & \textbf{EU$\to$CA} & \textbf{36.13} & \textbf{8.96} & \textbf{85.08} & \textbf{69.61} \\
+literaryv1 & CA$\to$EU & 26.90 & 2.44 & \textbf{99.60} & 65.29 \\
+literaryv2 & EU$\to$CA & 34.51 & 7.44 & 87.66 & 68.72 \\
+literaryv2 & CA$\to$EU & 25.87 & 2.31 & 100.7 & 64.34 \\
+\bottomrule
+\end{tabular}
+}
+\caption{Literary domain results. Bold: best per direction.}
+\label{tab:literary}
+\end{table}
+
+As shown in \autoref{tab:literary}, the generalv1 model transfers to the literary domain substantially better
+than the zero-shot baseline, confirming that
+general-domain CA--EU alignment is a useful starting point.
+
+If one compares the general-domain model versus the direct literary SFT model (literaryv1), there are mixed results, but literaryv1 is better overall.
+The literaryv1 model robustly outperforms generalv1
+in EU$\to$CA (chrF++ rises from
+27.97 to 36.13), whereas the generalv1 model is slightly better in CA$\to$EU.
+
+Regarding domain-specific variants, literaryv1 slightly but consistently outperforms the conti\-nued adaptation
+variant literaryv2 across all reported metrics and both
+directions. This at first sight looks like a counterintuitive finding: conti\-nued
+fine-tuning from a strong general-domain starting point does not surpass
+direct literary SFT. One possible explanation is that the general
+checkpoint encodes translation patterns from distinct domains that introduce
+noise during literary adaptation, whereas direct SFT from the base
+model allows the LoRA adapters to specialize more cleanly to literary
+style. An alternative explanation is that the literary synthetic data
+already contains sufficient signal for direct adaptation, making the
+general checkpoint an unnecessary intermediate step.
+
+BLEU scores in the CA$\to$EU direction are notably low across all
+literary variants. This is partly expected: Basque is a highly
+agglutinative language, and BLEU considers the full word incorrect even if most of its morphemes are correct. 
+ %morphological variation harshly when reference translations may use different but equivalent inflectional forms.
+chrF++ and COMET are more informative in this
+setting.
+
+\subsection{Clinical domain}
+
+\begin{table}[H]
+\small
+\centering
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Model} & \textbf{chrF++ $\uparrow$} & \textbf{BLEU $\uparrow$} & \textbf{TER $\downarrow$} & \textbf{COMET $\uparrow$} \\
+\midrule
+Baseline           & 11.03 & 0.64  & 104.3  & 50.56 \\
+generalv1 & 10.60 & 0.38  & \textbf{98.10}  & 56.56 \\
+\textbf{clinicalv1} & \textbf{40.20} & \textbf{19.43} & 101.09 & \textbf{76.25} \\
+clinicalv2 & 38.73 & 18.50 & 104.64 & 75.02 \\
+\bottomrule
+\end{tabular}
+}
+\caption{Clinical domain results (CA$\to$EU only). Bold: best value per metric.}
+\label{tab:clinical}
+\end{table}
+
+As can be observed in \autoref{tab:clinical}, the clinical domain exhibits the most drastic gains from the baseline: clinicalv1
+raises chrF++ from 11.03 to 40.20 and BLEU from 0.64 to 19.43.
+
+
+The general-domain model applied cross-domain to the clinical
+test set (generalv1) yields chrF++ below the zero-shot baseline
+(11.03 vs.\ 10.60) and lower BLEU, suggesting that general-domain
+fine-tuning may orient the model towards general-domain fluency patterns
+that are actually less appropriate for clinical terminology. 
+
+As with the literary domain, direct SFT (clinicalv1) slightly but consistently outperforms
+continued fine-tuning from the general checkpoint (clinicalv2) across all metrics.
+
+
+In an overall comparison of all models, clinicalv1 is the strongest system by three out of four metrics (chrF++, BLEU, and COMET), whereas generalv1 achieves the best TER score.
+
+
+The clinical test set contains only 66 examples, so numerical
+differences should be interpreted with caution. Nevertheless, the
+consistency of the ranking across three metrics (chrF++, BLEU, COMET)
+lends some confidence to the conclusion.
+
+\subsection{Token-matched comparison}
+
+\begin{table}[H]
+\small
+\centering
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Model} & \textbf{chrF++ $\uparrow$} & \textbf{BLEU $\uparrow$} & \textbf{TER $\downarrow$} & \textbf{COMET $\uparrow$} \\
+\midrule
+clinicalv1  & \textbf{40.20} & \textbf{19.43} & 101.09 & \textbf{76.25} \\
+litv1-tm    & 24.73 & 2.28 & \textbf{97.03} & 65.41 \\
+\bottomrule
+\end{tabular}
+}
+\caption{Token-matched CA$\to$EU results. Both models are trained on
+approximately 360,000 source tokens and evaluated on their respective
+domain test sets.}
+\label{tab:tokenmatched}
+\end{table}
+
+In \autoref{tab:tokenmatched}, one can observe that, when trained on equal token budgets, clinical SFT achieves substantially
+higher chrF++ (40.20 vs.\ 24.73), BLEU (19.43 vs.\ 2.28), and COMET
+(76.25 vs.\ 65.41) than literary SFT, while TER is slightly better for
+the literary model (litv1-tm). This suggests that clinical texts are intrinsically
+more learnable under the same experimental conditions. Clinical
+language tends to be formulaic, with recurring terminology, standardized
+phrase structures, and unambiguous semantics. Literary translation, in
+contrast, requires fluency, stylistic variation, figurative language, and
+narrative coherence (pro\-perties that are harder to capture with a
+synthetic training set and that automatic metrics may inadequately
+quantify). The gap in chrF++ is particularly large, consistent with the
+greater morphological predictability of clinical neologisms, along with the hardly predictable lexical diversity of literary texts.
+
+\section{Discussion}
+\label{sec:discussion}
+
+\paragraph{Pivot translation and back-translation.}
+This work demonstrates that, in the complete absence of direct
+CA--EU in-domain parallel corpora, pivot-based translation
+(via Spanish) and back-translation from monolingual data
+can produce training signal sufficient for substantial improvement.
+The approach is practical: it requires only a multilingual
+model capable for data construction and it does not depend on human translators
+for domain-specific pairs.
+
+However, synthetic data introduces risks. Machine-translated source
+sides may contain \textit{translationese} artifacts, pivot language biases,
+or domain-specific mistranslations. The back-translation
+strategy (training the model to produce original human-authored
+targets from synthetic source inputs) mitigates target-side noise
+but cannot eliminate source-side errors.
+
+
+\paragraph{Direct SFT vs.\ continued adaptation.}
+In both literary and clinical domains, direct SFT from the base model
+outperforms continued fine-tuning from the general-domain checkpoint.
+This is contrary to our initial expectation: because the general-domain
+corpus consists of existing parallel data rather than synthetic data
+generated in our pipeline, we expected it to provide a cleaner starting
+point for specialized adaptation.
+
+A possible explanation is that the general-domain checkpoint encodes
+translation patterns that are not fully aligned with the stylistic or
+terminological requirements of the specialized domains. Direct SFT may
+therefore allow the LoRA adapters to specialize more cleanly from the
+base model, while the domain-specific synthetic corpora already provide
+enough data for adaptation without an intermediate step that may introduce additional noise.
+
+\paragraph{Metric considerations.}
+The four metrics provide complementary views of translation quality, but
+their interpretation requires caution in this setting. chrF++ is
+particularly useful for Basque because it captures subword overlap, while
+BLEU may underrepresent partially correct morphological forms. TER is
+informative about editing effort and reordering, which is relevant given
+the typologically different word orders of Catalan (SVO) and Basque
+(SOV). 
+COMET provides a learned adequacy signal and correlates better
+with human judgement in many settings, but it is trained primarily on
+high-resource language pairs and its reliance on CA--EU may not
+be optimal. All four metrics should be treated as complementary rather
+than individually. This limitation is especially important in
+the absence of human evaluation: literary style and clinical adequacy
+cannot be fully captured by these metrics trained primarily on other language pairs.
+
+\paragraph{Cross-domain transfer.}
+The general-domain model used cross-domain shows mixed behavior: it improves
+over the zero-shot baseline in the literary domain (as expected from its CA--EU
+alignment) but decreases chrF++ and BLEU in the clinical domain. This suggests
+that general-domain patterns can hinder
+clinical adaptation at the lexical level as terminology
+is highly specialized.
+
+\section{Limitations and future work}
+\label{sec:limitations}
+
+Several limitations should be acknowledged.
+% The clinical test set (N = 66) is small and results should be interpreted with appropriate caution.
+First, the clinical setting is
+limited by the small size of the test set (N = 66), so clinical results
+should be interpreted with caution. In addition, clinical training covers only the CA$\to$EU direction: the
+reverse direction is unavailable due to the absence of Catalan
+clinical original datasets. Second, the study
+relies heavily on synthetic supervision. Although our back-translation
+setup preserves human-authored texts as targets, the synthetic source
+side may still contain translationese artifacts, pivot biases, or mistranslations. Third, all experiments are conducted
+with a single model family, Latxa-Qwen3, which limits the extent to which
+the findings can be generalized to other architectures. Finally, evaluation is entirely automatic: human assessment
+of translation quality could be particularly useful for the literary style.
+
+Future work should address these limitations and integrate other attempts for improvement. 
+%Extending the clinical corpus to include EU$\to$CA training examples and obtaining human evaluation judgements for a sample of outputs would substantially strengthen the findings.
+First, evaluating the approach on human-translated parallel data would
+help determine how much of the observed performance is affected by
+synthetic-data noise.
+Second, English-language instruction prefixes (instead of the implemented source-language instructions) should be explored, as researchers leveraging the Latxa-Qwen3-VL-8B-Instruct model are experiencing better results with English prompting (Josu Barrutia, personal communication, 2026). Additionally, ablation studies should test different pivot-language
+choices, training-data sizes, and LoRA configurations in order to
+identify which factors contribute most to adaptation quality.
+%varying data sizes 
+
+
+
+\section{Conclusion}
+\label{sec:conclusion}
+
+We have presented a domain adaptation study for Catalan--Basque machine
+translation covering general, literary, and clinical domains, using
+synthetic bilingual data derived from monolingual and pivot-language
+resources. Fine-tuning Latxa-Qwen3-VL-8B-Instruct with
+LoRA adapters yields very large improvements over the zero-shot baseline
+in all domains. Domain-specific fine-tuning consistently outperforms
+the general-domain model applied cross-domain, and direct SFT outperforms
+continued fine-tuning from the general checkpoint in both literary and
+clinical settings. 
+%A token-matched experiment reveals that clinical texts are more learnable than literary texts, probably because of the formers' higher stylistic similarity to the standard-register texts on which LLMs are mostly pretrained.
+The token-matched experiment reveals that clinical texts are more learnable than literary texts, probably because clinical texts are stylistically more similar to the standard-register texts on which LLMs are mostly pretrained. Findings confirm that
+pivot-based and back-translated synthetic data can compensate
+effectively for the complete absence of direct CA--EU in-domain
+parallel corpora, while \linebreak supporting the effectiveness of back-translation and domain-specific fine-tuning for \linebreak 
+low-resource
+specialized MT.
+
+\bibliography{bibliography}
+\bibliographystyle{acl_natbib}
+
+\appendix
+\section{Resources}
+The code used in this work is publicly available at:
+
+\begin{itemize}
+  \item \url{https://github.com/pguerrero-igutierrez/MT-domain-adaptation}
+\end{itemize}
+
+The fine-tuned model variants are released through the following
+Hugging Face collection:
+
+\begin{itemize}
+  \item \url{https://huggingface.co/collections/pguerrero-igutierrez/mt-domain-adaptation-ca-eu}
+\end{itemize}
+
+\end{document}

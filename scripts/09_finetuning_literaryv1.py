@@ -37,10 +37,10 @@ outputs/test_set_literary.json   – held-out 5 % test set
 
 Usage
 -----
-    python 09_finetuning_literaryv1.py
-    python 09_finetuning_literaryv1.py --no-4bit
-    python 09_finetuning_literaryv1.py --epochs 5 --lr 2e-4
-    python 09_finetuning_literaryv1.py --output-dir outputs/my_run
+    python scripts/09_finetuning_literaryv1.py
+    python scripts/09_finetuning_literaryv1.py --no-4bit
+    python scripts/09_finetuning_literaryv1.py --epochs 5 --lr 2e-4
+    python scripts/09_finetuning_literaryv1.py --output-dir outputs/my_run
 """
 
 import argparse

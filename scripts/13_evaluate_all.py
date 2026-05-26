@@ -1,13 +1,32 @@
 """
-evaluate_all.py
+13_evaluate_all.py
 
-Unified evaluation script for General, Literary, and Clinical translation models.
-Evaluates fine-tuned LoRA models and baselines on their respective test sets.
+Unified evaluation script for the general, literary, and clinical translation
+tasks. It can evaluate base models, merged checkpoints, and LoRA adapters on
+shared held-out test sets, and computes BLEU, chrF++, TER, COMET, and length
+ratio metrics.
 
-Usage:
-    python evaluate_all.py --task general --models HiTZ/Latxa-Qwen3-VL-8B-Instruct outputs/generalv1 --test-file outputs/test_set_general.json
-    python evaluate_all.py --task literary --models outputs/literaryv2 --test-file outputs/test_set_literary.json
-    python evaluate_all.py --task clinical --models outputs/clinicalv1 --test-file outputs/test_set_clinical.json
+Inputs
+------
+- `--task`: one of `general`, `literary`, `clinical`
+- `--models`: one or more local model paths or Hugging Face model IDs
+- `--test-file`: optional pre-saved JSON test set; if omitted, the script
+  reconstructs the test split from the source corpora using the same split
+  logic as training
+
+Outputs
+-------
+outputs/eval/{model}_{task}_{direction}_backup.json
+    Per-direction inference backup used to skip regeneration on reruns
+
+outputs/eval/{model}_{task}_results.json
+    Aggregate metrics and per-sample predictions
+
+Usage
+-----
+    python scripts/13_evaluate_all.py --task general --models HiTZ/Latxa-Qwen3-VL-8B-Instruct outputs/generalv1 --test-file outputs/test_set_general.json
+    python scripts/13_evaluate_all.py --task literary --models outputs/literaryv1 outputs/literaryv1_tokenmatched outputs/literaryv2 --test-file outputs/test_set_literary.json
+    python scripts/13_evaluate_all.py --task clinical --models outputs/clinicalv1 outputs/clinicalv2 --test-file outputs/test_set_clinical.json
 """
 
 import argparse

@@ -31,11 +31,11 @@ outputs/test_set_clinical.json   – held-out 5 % test set (shared with v2)
 
 Usage
 -----
-    python 10_finetuning_clinicalv1.py
-    python 10_finetuning_clinicalv1.py --no-4bit
-    python 10_finetuning_clinicalv1.py --epochs 5 --lr 2e-4
-    python 10_finetuning_clinicalv1.py --max-train-samples 5000
-    python 10_finetuning_clinicalv1.py --output-dir outputs/my_clinical_run
+    python scripts/10_finetuning_clinicalv1.py
+    python scripts/10_finetuning_clinicalv1.py --no-4bit
+    python scripts/10_finetuning_clinicalv1.py --epochs 5 --lr 2e-4
+    python scripts/10_finetuning_clinicalv1.py --max-train-samples 5000
+    python scripts/10_finetuning_clinicalv1.py --output-dir outputs/my_clinical_run
 """
 
 import argparse

@@ -1,6 +1,6 @@
 # Outputs
 
-This directory contains all artifacts produced by the fine-tuning and evaluation pipeline: trained LoRA adapters, held-out test sets, and per-model evaluation results.
+This directory contains all artifacts produced by the fine-tuning and evaluation pipeline: trained LoRA adapters, held-out test sets, token-matched comparison checkpoints, and per-model evaluation results.
 
 ---
 

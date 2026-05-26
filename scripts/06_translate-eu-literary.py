@@ -1,23 +1,23 @@
 """
 06_translate-eu-literary.py
 
-Translates Spanish literary sentences into Catalan using
-HiTZ/Latxa-Llama-3.1-8B-Instruct via vLLM offline batching:
-  Pass 1: source_es -> Catalan  (ca_translation)
+Translates Spanish literary sentences from the sampled EhuHac corpus into
+Catalan using `HiTZ/Latxa-Llama-3.1-8B-Instruct` via vLLM offline batching.
 
-INPUT
+Input
 -----
-File   : sampled-data/ehuhac_parallel.jsonl
+File   : sampled-data/ehuhac_sampled_parallel.jsonl
 Format : one JSON object per line with fields:
-         doc_id, para_id, offset_es, offset_eu, source_es, source_eu
+         `doc_id`, `para_id`, `source_es`, `source_eu`
 
-PIPELINE
+Pipeline
 --------
-1. Load parallel pairs from ehuhac_parallel.jsonl.
-2. Translate source_es -> Catalan using Latxa (vLLM offline batch).
-3. Write a single JSONL output file for the EhuHac corpus.
+1. Load sampled ES-EU parallel pairs.
+2. Translate `source_es` -> Catalan to create `ca_translation`.
+3. Compute byte offsets for the Spanish, Basque, and Catalan texts.
+4. Write one JSONL output file for the EhuHac-derived literary corpus.
 
-OUTPUT
+Output
 ------
 backtranslated-corpus/eu-literary-EhuHac.jsonl
 
@@ -33,15 +33,15 @@ Each output line:
       "ca_translation": str
     }
 
-REQUIREMENTS
+Requirements
 ------------
     pip install vllm tqdm
 
-USAGE
+Usage
 -----
-    python 06_translate-eu-literary.py
-    python 06_translate-eu-literary.py --resume
-    python 06_translate-eu-literary.py --batch-size 64 --max-tokens 512
+    python scripts/06_translate-eu-literary.py
+    python scripts/06_translate-eu-literary.py --resume
+    python scripts/06_translate-eu-literary.py --batch-size 64 --max-tokens 512
 """
 
 import argparse

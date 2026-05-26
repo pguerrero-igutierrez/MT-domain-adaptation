@@ -1,14 +1,20 @@
 """
-Parallel corpus builder for the EhuHac ES-EU literary dataset.
-Reads two aligned plain-text files (one sentence per line):
-  - EhuHac.es-eu.es  (Spanish)
-  - EhuHac.es-eu.eu  (Basque)
+03_sample_eu-literary.py
 
+Builds a sampled Spanish-Basque literary parallel corpus from the EhuHac
+plain-text files. The script reads one sentence per line from:
+  - `EhuHac.es-eu.es` (Spanish)
+  - `EhuHac.es-eu.eu` (Basque)
 
-Output: sampled-data/ehuhac_parallel.jsonl
-        Each line: { "doc_id", "para_id", "source_es", "source_eu" }
+Short aligned pairs are discarded, the remainder is optionally downsampled to
+100,000 pairs, and the result is saved as JSONL for the EU-literary
+back-translation step.
 
-Optionally down-samples to SAMPLE_SIZE if the corpus is larger.
+Output
+------
+sampled-data/ehuhac_sampled_parallel.jsonl
+    One JSON object per line with:
+    `doc_id`, `para_id`, `source_es`, `source_eu`
 """
 
 import json

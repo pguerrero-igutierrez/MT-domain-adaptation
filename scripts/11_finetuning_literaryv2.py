@@ -1,16 +1,16 @@
 """
 11_finetuning_literaryv2.py
 
-Continue fine-tuning from a general-purpose Basque–Catalan translation
-baseline (08_finetuning_general.py output, hosted on HuggingFace Hub)
-using the same literary backtranslation corpora as literaryv1.
+Continues fine-tuning from a general-purpose Basque-Catalan translation
+checkpoint using the same literary back-translation corpora as
+`09_finetuning_literaryv1.py`.
 Evaluates using BLEU score during training.
 
 Base model
 ----------
-A LoRA-merged (or full) checkpoint uploaded to HF after the general
-fine-tuning stage, e.g. "your-org/latxa-qwen3-8b-general-eucat".
-Override with --model.
+By default the script expects `--model` to point to a merged/full general
+checkpoint. If `--is-peft` is used, `--model` must point to a local PEFT
+adapter directory so `adapter_config.json` can be read before merging.
 
 Data sources
 ------------
@@ -46,8 +46,9 @@ outputs/test_set_literary.json   – held-out 5 % test set
 
 Usage
 -----
-    python 11_finetuning_literaryv2.py --model your-org/latxa-qwen3-8b-general-eucat
-    python 11_finetuning_literaryv2.py --model your-org/... --no-4bit --epochs 2
+    python scripts/11_finetuning_literaryv2.py --model outputs/generalv1 --is-peft
+    python scripts/11_finetuning_literaryv2.py --model your-org/merged-general-checkpoint
+    python scripts/11_finetuning_literaryv2.py --model your-org/merged-general-checkpoint --no-4bit --epochs 2
 """
 
 import argparse

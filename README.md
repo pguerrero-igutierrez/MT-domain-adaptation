@@ -29,6 +29,7 @@ The general-domain model serves as both a standalone baseline and a warm-start c
 |---|---|---|
 | `generalv1` | `08_finetuning_general.py` | Bidirectional CA↔EU model fine-tuned on AINA general corpus |
 | `literaryv1` | `09_finetuning_literaryv1.py` | Direct literary SFT from base model (bidirectional) |
+| `literaryv1_tokenmatched` | `09.2_finetuning_literaryv1_tokenmatched.py` | CA→EU literary token-matched variant for fair comparison with the clinical setup |
 | `literaryv2` | `11_finetuning_literaryv2.py` | Literary SFT continued from `generalv1` checkpoint |
 | `clinicalv1` | `10_finetuning_clinicalv1.py` | Direct clinical SFT from base model (CA→EU) |
 | `clinicalv2` | `12_finetuning_clinicalv2.py` | Clinical SFT continued from `generalv1` checkpoint |
@@ -43,7 +44,7 @@ All models use `HiTZ/Latxa-Qwen3-VL-8B-Instruct` as base, with LoRA adapters (r=
 |---|---|---|
 | Data sampling | `01–04` | Prepare general, literary, and clinical datasets |
 | Synthetic data generation | `05–07` | Translate or back-translate domain corpora |
-| Fine-tuning | `08–12` | Train general and domain-specific LoRA adapters |
+| Fine-tuning | `08–12`, `09.2` | Train general, domain-specific, and token-matched LoRA adapters |
 | Evaluation | `13` | Evaluate models with BLEU, chrF++, TER, and COMET |
 
 ---
@@ -87,7 +88,7 @@ Built from Basque clinical documents (E3C corpus) translated to Catalan. Single 
 Average document length: ~1,078 tokens.
 
 
-**Round-trip technique**: machine-translated texts serve as the source language during fine-tuning, while original high-quality texts are the target. This ensures the model learns from clean references.
+**Back-translation setup**: machine-translated texts serve as the source language during fine-tuning, while original high-quality texts are the target. This ensures the model learns from clean references.
 
 All translation for data construction uses `HiTZ/Latxa-Llama-3.1-8B-Instruct` via vLLM offline batching.
 
@@ -138,6 +139,7 @@ python scripts/03_sample_eu-literary.py
 python scripts/05_translate-ca-literary.py --resume
 python scripts/06_translate-eu-literary.py --resume
 python scripts/09_finetuning_literaryv1.py
+python scripts/09.2_finetuning_literaryv1_tokenmatched.py
 python scripts/11_finetuning_literaryv2.py --is-peft --model outputs/generalv1
 ```
 
@@ -162,7 +164,7 @@ python scripts/13_evaluate_all.py \
 # Literary
 python scripts/13_evaluate_all.py \
   --task literary \
-  --models outputs/literaryv1 outputs/literaryv2 \
+  --models outputs/literaryv1 outputs/literaryv1_tokenmatched outputs/literaryv2 \
   --test-file outputs/test_set_literary.json
 
 # Clinical
@@ -192,6 +194,10 @@ python scripts/13_evaluate_all.py \
 │   ├── test_set_literary.json
 │   ├── test_set_clinical.json
 │   └── eval/                      # Per-model evaluation JSON results
+├── paper/
+│   ├── README.md
+│   ├── paper.tex
+│   └── paper.pdf                  # Compiled manuscript PDF (generated locally)
 ├── poster/                        
 └── scripts/
     ├── 01_sample_general.py

@@ -1,9 +1,42 @@
 """
 12_finetuning_clinicalv2.py
 
-Continue fine-tuning from a general-purpose Basque-Catalan translation
-baseline (08_finetuning_general.py output, hosted on HuggingFace Hub)
-using the same clinical synthetic corpus as clinicalv1.
+Continues fine-tuning from a general-purpose Basque-Catalan translation
+checkpoint using the same clinical back-translation corpus as
+`10_finetuning_clinicalv1.py`.
+Evaluates using BLEU score during training.
+
+Base model
+----------
+By default the script expects `--model` to point to a merged/full general
+checkpoint. If `--is-peft` is used, `--model` must point to a local PEFT
+adapter directory so `adapter_config.json` can be read before merging.
+
+Data source
+-----------
+backtranslated-corpus/eu-clinical_backtranslated.json
+    source = `ca`   (Catalan)
+    target = `eu`   (Basque)
+    direction = `ca2eu`
+
+Instruction template
+--------------------
+ca2eu: "Tradueix aquest text clínic del català al basc:\n\n{source}"
+
+Split
+-----
+90 % train / 5 % valid / 5 % test
+
+Output
+------
+outputs/clinicalv2/              – LoRA adapters + tokenizer
+outputs/test_set_clinical.json   – held-out clinical test set, saved only if absent
+
+Usage
+-----
+    python scripts/12_finetuning_clinicalv2.py --model outputs/generalv1 --is-peft
+    python scripts/12_finetuning_clinicalv2.py --model your-org/merged-general-checkpoint
+    python scripts/12_finetuning_clinicalv2.py --model your-org/merged-general-checkpoint --no-4bit --epochs 2
 """
 
 import argparse

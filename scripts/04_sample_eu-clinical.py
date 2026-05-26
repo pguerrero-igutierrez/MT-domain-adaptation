@@ -1,14 +1,21 @@
 """
-Pre-translation subsampling for the EU clinical JSON pipeline.
-Reads JSON files from clinical/eu-clinical/, extracts paragraphs
-(same logic as 03_translate-eu-clinical.py), sorts documents by
-publication_date (most recent first), accumulates until 100k paragraphs
-are reached, then writes a JSON file ready to be fed to the translation step.
+04_sample_eu-clinical.py
 
-Output: sampled-data/eu-clinical_sampled100k.json
-        List of records with all metadata + eu + ca="" fields.
-        Drop-in replacement: load and pass directly to run_translation().
-Requires: no extra dependencies (stdlib only)
+Prepares the Basque clinical corpus for back-translation. The script reads
+JSON files from `data/eu-clinical/`, extracts paragraph-level records, sorts
+documents by `publication_date` (most recent first), accumulates up to
+100,000 paragraphs, and writes a sampled JSON file ready for
+`07_translate-eu-clinical.py`.
+
+Output
+------
+sampled-data/eu-clinical_sampled100k.json
+    JSON list with document metadata plus:
+    `para_id`, `eu`, and an empty `ca` field to be filled by translation.
+
+Requirements
+------------
+    No extra dependencies (stdlib only)
 """
 from typing import Optional
 import json
@@ -142,7 +149,8 @@ def main():
     print(f"Done. {len(accumulated):,} paragraphs saved to {OUTPUT_JSON}")
     if dates_used:
         print(f"Date range: {min(dates_used)} – {max(dates_used)}")
-    print(f"\nNext step: load {OUTPUT_JSON} and pass to run_translation() in 03_translate-eu-clinical.py")
+    print(f"\nNext step: python scripts/07_translate-eu-clinical.py")
+    print(f"           (it reads {OUTPUT_JSON} by default)")
 
 
 if __name__ == "__main__":

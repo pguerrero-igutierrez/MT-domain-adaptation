@@ -10,7 +10,7 @@ This directory contains all pipeline scripts for data sampling, synthetic data g
 |---|---|---|
 | Data sampling | `01–04` | Extract and subsample domain corpora |
 | Synthetic data generation | `05–07` | Translate or back-translate to build CA–EU parallel data |
-| Fine-tuning | `08–12` | Train LoRA adapters on sampled and synthetic data |
+| Fine-tuning | `08–12`, `09.2` | Train LoRA adapters on sampled, synthetic, and token-matched data |
 | Evaluation | `13` | Score all models with BLEU, chrF++, TER, COMET |
 
 ---
@@ -18,7 +18,7 @@ This directory contains all pipeline scripts for data sampling, synthetic data g
 ## Data Sampling (`01–04`)
 
 ### `01_sample_general.py`
-Loads the `projecte-aina/CA-EU_Parallel_Corpus` dataset from HuggingFace and randomly samples 100,000 CA–EU sentence pairs.
+Loads the `projecte-aina/CA-EU_Parallel_Corpus` dataset from HuggingFace and randomly samples 50,000 CA–EU sentence pairs.
 
 ---
 
@@ -56,7 +56,7 @@ Translates Basque clinical paragraphs to Catalan (EU→CA) using Latxa. Long doc
 
 ---
 
-## Fine-tuning (`08–12`)
+## Fine-tuning (`08–12`, `09.2`)
 
 All fine-tuning scripts share the same core architecture:
 

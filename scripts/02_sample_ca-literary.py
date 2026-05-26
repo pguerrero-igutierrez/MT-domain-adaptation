@@ -1,12 +1,20 @@
 """
-Pre-translation subsampling for the CA-ES corpus pipeline.
-Reads corpus/corpus_ca_es.csv, filters to the most recent years,
-samples 100k rows, and writes a JSON file ready to be passed directly
-to 05_translate.py instead of the full corpus.
+02_sample_ca-literary.py
 
-Output: corpus/corpus_ca_es_100k_recent.json
-        List of records with all original columns preserved.
-Requires: no extra dependencies (stdlib only)
+Pre-translation subsampling for the CTILC Catalan-Spanish literary corpus.
+Reads `data/literary/CTILC-paula-ca-es-literary/corpus_ca_es.csv`, keeps the
+most recent publication years until at least 100,000 rows are available, then
+optionally downsamples to 100,000 and saves the result for the CA-literary
+translation pipeline.
+
+Output
+------
+sampled-data/corpus_ca_es_100k_lit.json
+    JSON list with all original columns preserved.
+
+Requirements
+------------
+    No extra dependencies (stdlib only)
 """
 from typing import Optional
 import csv
@@ -97,8 +105,8 @@ def main():
 
     print(f"Done. {len(accumulated):,} rows saved to {OUTPUT_JSON}")
     print(f"Years covered: {min(used_years)} – {max(used_years)}")
-    print(f"\nNow run: python scripts/05_translate.py --langs eu ca")
-    print(f"         (update INPUT_CSV in that script to point to {OUTPUT_JSON})")
+    print(f"\nNext step: python scripts/05_translate-ca-literary.py")
+    print(f"           (it reads {OUTPUT_JSON} by default)")
 
 
 if __name__ == "__main__":
