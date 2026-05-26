@@ -236,7 +236,12 @@ If you use this work, please cite:
 
 ## Contact
 
-- [pguerrero005@ikasle.ehu.eus](mailto:pguerrero005@ikasle.ehu.eus)
-- [igutierrez134@ikasle.ehu.eus](mailto:igutierrez134@ikasle.ehu.eus)
+**Iker Gutierrez Fandiño**<br>
+*Computational Linguist*<br>
+[GitHub Profile](https://github.com/iker-gutierrez) | [LinkedIn](https://www.linkedin.com/in/iker-gutierrez-fandino)
+
+**Paula Guerrero Castelló**<br> 
+*Computational linguist & translator ES/FR/EN/CA/ZH*<br>
+[GitHub Profile](https://github.com/guerreropaula) | [pguerrero005@ikasle.ehu.eus](mailto:pguerrero005@ikasle.ehu.eus) 
 
 *MSc in Language Analysis and Processing (EHU) · Machine Translation 2025–26*
