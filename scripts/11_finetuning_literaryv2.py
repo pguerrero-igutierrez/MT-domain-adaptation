@@ -22,8 +22,8 @@ Literary ca2eu : backtranslated-corpus/eu-literary-EhuHac.jsonl
 
 Direction instructions (same as v1)
 ------------------------------------
-eu2ca: "Itzuli testu hau euskaratik katalanera:\n\n{source}"
-ca2eu: "Tradueix aquest text del català al basc:\n\n{source}"
+eu2ca: "Itzuli testu literario hau euskaratik katalanera:\n\n{source}"
+ca2eu: "Tradueix aquest text literari del català al basc:\n\n{source}"
 
 Strategy
 --------
@@ -88,8 +88,8 @@ MIN_TGT_CHARS = 20
 MAX_LEN_RATIO = 3.0
 
 INSTRUCTION = {
-    "eu2ca": "Itzuli testu hau euskaratik katalanera:\n\n{source}",
-    "ca2eu": "Tradueix aquest text del català al basc:\n\n{source}",
+    "eu2ca": "Itzuli testu literario hau euskaratik katalanera:\n\n{source}",
+    "ca2eu": "Tradueix aquest text literari del català al basc:\n\n{source}",
 }
 
 

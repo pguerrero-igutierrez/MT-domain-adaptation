@@ -64,8 +64,17 @@ MIN_TGT_CHARS = 20
 MAX_LEN_RATIO = 3.0
 
 INSTRUCTION = {
-    "eu2ca": "Itzuli testu hau euskaratik katalanera:\n\n{source}",
-    "ca2eu": "Tradueix aquest text del català al basc:\n\n{source}",
+    "general": {
+        "eu2ca": "Itzuli testu hau euskaratik katalanera:\n\n{source}",
+        "ca2eu": "Tradueix aquest text del català al basc:\n\n{source}",
+    },
+    "literary": {
+        "eu2ca": "Itzuli testu literario hau euskaratik katalanera:\n\n{source}",
+        "ca2eu": "Tradueix aquest text literari del català al basc:\n\n{source}",
+    },
+    "clinical": {
+        "ca2eu": "Tradueix aquest text clínic del català al basc:\n\n{source}",
+    },
 }
 
 def set_seed(seed: int) -> None:
@@ -136,8 +145,8 @@ def reconstruct_test_set(task: str, domain_weight: int) -> list[dict]:
     
     return samples[valid_end:]
 
-def build_prompt(sample: dict) -> str:
-    return INSTRUCTION[sample["direction"]].format(source=sample["source"])
+def build_prompt(sample: dict, task: str) -> str:
+    return INSTRUCTION[task][sample["direction"]].format(source=sample["source"])
 
 def load_model_and_tokenizer(model_path: str, use_4bit: bool):
     print(f"Loading tokenizer from {model_path}...")
@@ -305,7 +314,7 @@ def main() -> None:
 
             print(f"\nEvaluating {direction} ({len(samples):,} samples)...")
             sources    = [s["source"] for s in samples]
-            prompts    = [build_prompt(s) for s in samples]
+            prompts    = [build_prompt(s, args.task) for s in samples]
             references = [s["target"] for s in samples]
             hypotheses = []
 

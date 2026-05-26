@@ -168,7 +168,7 @@ order to control training size and reduce domain imbalance.
 
 \paragraph{General domain.} The AINA CA--EU Parallel Corpus\footnote{\url{https://huggingface.co/datasets/projecte-aina/CA-EU_Parallel_Corpus}}
  provides general-domain
-sentence pairs. We sample 100,000 pairs. Each pair is used bidirectionally:
+sentence pairs. We sample 50,000 pairs per direction. Each pair is used bidirectionally:
 one EU$\to$CA and one CA$\to$EU instruction sample are generated per
 pair, giving 100,000 training instances in total before the train/
 validation/test split.
@@ -222,7 +222,7 @@ E3C clinical   & CA (translated) & EU (original) & CA$\to$EU \\
 \bottomrule
 \end{tabular}
 }
-\caption{Back-translation supervision: synthetic source, original target.}
+\caption{Round-trip supervision: synthetic source, original target.}
 \label{tab:backtranslation_corpus}
 \end{table}
 

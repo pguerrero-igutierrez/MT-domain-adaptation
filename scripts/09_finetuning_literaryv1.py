@@ -23,8 +23,8 @@ instruction prefix so the model learns to obey it at inference time.
 
 Instruction templates
 ---------------------
-eu2ca: "Itzuli testu hau euskaratik katalanera:\n\n{source}"
-ca2eu: "Tradueix aquest text del català al basc:\n\n{source}"
+eu2ca: "Itzuli testu literario hau euskaratik katalanera:\n\n{source}"
+ca2eu: "Tradueix aquest text literari del català al basc:\n\n{source}"
 
 Split
 -----
@@ -76,8 +76,8 @@ VALID_SPLIT       = 0.05
 MAX_TRAIN_SAMPLES = None
 
 INSTRUCTION = {
-    "eu2ca": "Itzuli testu hau euskaratik katalanera:\n\n{source}",
-    "ca2eu": "Tradueix aquest text del català al basc:\n\n{source}",
+    "eu2ca": "Itzuli testu literario hau euskaratik katalanera:\n\n{source}",
+    "ca2eu": "Tradueix aquest text literari del català al basc:\n\n{source}",
 }
 
 MIN_SRC_CHARS = 20

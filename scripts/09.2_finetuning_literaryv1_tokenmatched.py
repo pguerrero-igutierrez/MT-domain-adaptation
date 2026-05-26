@@ -29,6 +29,10 @@ Output
 outputs/literaryv1_tokenmatched/   – LoRA adapters + tokenizer
 outputs/test_set_literary.json     – held-out literary test set, saved only if absent
 
+Instruction template
+--------------------
+ca2eu: "Tradueix aquest text literari del català al basc:\n\n{source}"
+
 Usage
 -----
     python scripts/09.2_finetuning_literaryv1_tokenmatched.py
@@ -63,7 +67,7 @@ OUTPUT_DIR    = Path("outputs/literaryv1_tokenmatched")
 
 SEED          = 42
 MAX_LENGTH    = 768 
-INSTRUCTION   = {"ca2eu": "Tradueix aquest text del català al basc:\n\n{source}"}
+INSTRUCTION   = {"ca2eu": "Tradueix aquest text literari del català al basc:\n\n{source}"}
 
 def set_seed(seed: int) -> None:
     random.seed(seed)
