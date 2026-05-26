@@ -244,4 +244,3 @@ If you use this work, please cite:
 *Computational linguist & translator ES/FR/EN/CA/ZH*<br>
 [GitHub Profile](https://github.com/guerreropaula) | [pguerrero005@ikasle.ehu.eus](mailto:pguerrero005@ikasle.ehu.eus) 
 
-*MSc in Language Analysis and Processing (EHU) · Machine Translation 2025–26*
