@@ -8,7 +8,7 @@ This directory contains the synthetic parallel corpora used for domain-specific 
 
 ### `ca-literary_trilingual.json`
 
-Trilingual CA–ES–EU literary corpus derived from the CTILC Catalan–Spanish literary dataset.
+Trilingual CA–ES–EU literary corpus derived from the CTILC Catalan–Spanish literary dataset ([`guerreropaula/synthetic-corpus-ca-es`](https://github.com/guerreropaula/synthetic-corpus-ca-es)).
 
 **Pipeline**: CA–ES source pairs → ES→EU translation (Latxa) → DP paragraph alignment (multilingual-e5-large) → trilingual records
 

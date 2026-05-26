@@ -23,7 +23,7 @@ Loads the `projecte-aina/CA-EU_Parallel_Corpus` dataset from HuggingFace and ran
 ---
 
 ### `02_sample_ca-literary.py`
-Reads `data/literary/CTILC-paula-ca-es-literary/corpus_ca_es.csv`, filters to the most recent document years, and samples up to 100,000 CA–ES paragraph pairs for subsequent pivot translation.
+Reads `data/literary/CTILC-paula-ca-es-literary/corpus_ca_es.csv` from [`guerreropaula/synthetic-corpus-ca-es`](https://github.com/guerreropaula/synthetic-corpus-ca-es), filters to the most recent document years, and samples up to 100,000 CA–ES paragraph pairs for subsequent pivot translation.
 
 ---
 
@@ -42,7 +42,7 @@ Reads JSON documents from `data/eu-clinical/`, extracts paragraphs, sorts docume
 All translation uses `HiTZ/Latxa-Llama-3.1-8B-Instruct` via vLLM offline batching with greedy decoding.
 
 ### `05_translate-ca-literary.py`
-Translates Spanish paragraphs from the CTILC corpus to Basque (ES→EU) using Latxa. After translation, applies a DP-based paragraph alignment (vecalign-style, using `multilingual-e5-large` embeddings) to re-align the translated EU text to the original CA paragraph structure, producing trilingual CA–ES–EU records.
+Translates Spanish paragraphs from the CTILC corpus ([`guerreropaula/synthetic-corpus-ca-es`](https://github.com/guerreropaula/synthetic-corpus-ca-es)) to Basque (ES→EU) using Latxa. After translation, applies a DP-based paragraph alignment (vecalign-style, using `multilingual-e5-large` embeddings) to re-align the translated EU text to the original CA paragraph structure, producing trilingual CA–ES–EU records.
 
 ---
 

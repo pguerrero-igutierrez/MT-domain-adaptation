@@ -65,7 +65,7 @@ Sampled from `projecte-aina/CA-EU_Parallel_Corpus` (50k pairs).
 ### Literary
 Built from two sources via pivot translation (ES as pivot language):
 
-- **CTILC CA–ES**: ~30k pairs; ES pivot → EU synthetic (back-translation to produce CA–EU pairs)
+- **CTILC CA–ES** ([`guerreropaula/synthetic-corpus-ca-es`](https://github.com/guerreropaula/synthetic-corpus-ca-es)): ~30k pairs; ES pivot → EU synthetic (back-translation to produce CA–EU pairs)
 - **EhuHac ES–EU**: 100k pairs; ES pivot → CA synthetic
 
 | Split | CA→EU | EU→CA |
