@@ -3,7 +3,7 @@
 [![Paper](https://img.shields.io/badge/Paper-PDF-red)](paper/paper.pdf)
 [![Models](https://img.shields.io/badge/HuggingFace-Models-yellow)](https://huggingface.co/collections/pguerrero-igutierrez/mt-domain-adaptation-ca-eu)
 
-**Paula Guerrero & Iker Gutierrez** · University of the Basque Country (EHU) · Machine Translation and Multilingualism 2025–2026
+**Paula Guerrero Castelló & Iker Gutierrez Fandiño** · University of the Basque Country (EHU) · Machine Translation and Multilingualism 2025–2026
 
 ---
 
@@ -225,7 +225,7 @@ If you use this work, please cite:
 ```bibtex
 @misc{guerrero-gutierrez-2026-caeu-mt,
   title        = {Domain Adaptation for Catalan-Basque Machine Translation via Synthetic Data and Continued Fine-Tuning},
-  author       = {Guerrero, Paula and Gutierrez, Iker},
+  author       = {Guerrero Castelló, Paula and Gutierrez Fandiño, Iker},
   year         = {2026},
   note         = {Unpublished manuscript}
 }
