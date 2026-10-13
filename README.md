@@ -4,7 +4,6 @@
 [![Models](https://img.shields.io/badge/HuggingFace-Models-yellow)](https://huggingface.co/collections/pguerrero-igutierrez/mt-domain-adaptation-ca-eu)
 
 **Paula Guerrero Castelló & Iker Gutierrez Fandiño**<br>
-University of the Basque Country (EHU) · Machine Translation and Multilingualism 2025–2026
 
 ---
 
@@ -241,6 +240,6 @@ If you use this work, please cite:
 [GitHub Profile](https://github.com/iker-gutierrez) | [LinkedIn](https://www.linkedin.com/in/iker-gutierrez-fandino)
 
 **Paula Guerrero Castelló**<br> 
-*Computational linguist & translator ES/FR/EN/CA/ZH*<br>
+*Computational linguist*<br>
 [GitHub Profile](https://github.com/guerreropaula) | [LinkedIn](https://www.linkedin.com/in/paula-guerrero-castelló)
 
