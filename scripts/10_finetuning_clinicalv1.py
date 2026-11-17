@@ -11,7 +11,7 @@ Basque→Catalan clinical gold data, so we train a single-direction model.
 
 Data source
 -----------
-backtranslated-corpus/eu-clinical_backtranslated.json
+backtranslated-corpus/eu-clinical_eu2ca.json
     source = ca   (Catalan)
     target = eu   (Basque)
     direction = ca2eu
@@ -59,7 +59,7 @@ from transformers import (
 )
 
 BASE_MODEL    = "HiTZ/Latxa-Qwen3-VL-8B-Instruct"
-CLINICAL_JSON = Path("backtranslated-corpus/eu-clinical_backtranslated.json")
+CLINICAL_JSON = Path("backtranslated-corpus/eu-clinical_eu2ca.json")
 OUTPUT_DIR    = Path("outputs/clinicalv1")
 
 SEED              = 42
@@ -198,6 +198,8 @@ def main() -> None:
     parser.add_argument("--lora-drop",         type=float, default=0.05)
     parser.add_argument("--no-4bit",           action="store_true")
     parser.add_argument("--seed",              type=int,   default=SEED)
+    parser.add_argument("--clinical-data", type=Path, default=CLINICAL_JSON,
+                        help="Clinical corpus; see PROVENANCE.md for the archived version")
     parser.add_argument("--max-train-samples", type=int,   default=MAX_TRAIN_SAMPLES,
                         help="Cap training samples after shuffle (None = use all)")
     args = parser.parse_args()
@@ -207,7 +209,7 @@ def main() -> None:
     output_dir.mkdir(parents=True, exist_ok=True)
 
     print("Loading data...")
-    all_samples = load_clinical_json(CLINICAL_JSON)
+    all_samples = load_clinical_json(args.clinical_data)
     print(f"  eu-clinical (ca2eu): {len(all_samples):,}")
 
     random.shuffle(all_samples)

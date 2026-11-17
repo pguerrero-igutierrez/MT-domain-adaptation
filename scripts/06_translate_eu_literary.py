@@ -1,5 +1,5 @@
 """
-06_translate-eu-literary.py
+06_translate_eu_literary.py
 
 Translates Spanish literary sentences from the sampled EhuHac corpus into
 Catalan using `HiTZ/Latxa-Llama-3.1-8B-Instruct` via vLLM offline batching.
@@ -39,10 +39,12 @@ Requirements
 
 Usage
 -----
-    python scripts/06_translate-eu-literary.py
-    python scripts/06_translate-eu-literary.py --resume
-    python scripts/06_translate-eu-literary.py --batch-size 64 --max-tokens 512
+    python scripts/06_translate_eu_literary.py
+    python scripts/06_translate_eu_literary.py --resume
+    python scripts/06_translate_eu_literary.py --batch-size 64 --max-tokens 512
 """
+
+from __future__ import annotations
 
 import argparse
 import json
@@ -50,7 +52,6 @@ from collections import defaultdict
 from pathlib import Path
 
 from tqdm import tqdm
-from vllm import LLM, SamplingParams
 
 INPUT_JSONL  = Path("sampled-data/ehuhac_sampled_parallel.jsonl")
 OUTPUT_DIR   = Path("backtranslated-corpus")
@@ -72,13 +73,18 @@ ES_TO_CA_SYSTEM = (
 
 def load_sampled(path: Path) -> dict[str, list[dict]]:
     if not path.exists():
-        raise FileNotFoundError(f"Input file not found: {path}")
+        raise FileNotFoundError(f"Input file not found: {path}. Run scripts/03_sample_eu_literary.py to generate the aligned ES–EU sample.")
     groups: dict[str, list[dict]] = defaultdict(list)
     with open(path, encoding="utf-8") as f:
-        for line in f:
+        for number, line in enumerate(f, 1):
             line = line.strip()
             if line:
                 rec = json.loads(line)
+                required = ('doc_id', 'para_id', 'source_es', 'source_eu')
+                if not isinstance(rec, dict) or any(key not in rec for key in required):
+                    raise ValueError(f'{path}:{number} needs doc_id, para_id, source_es and source_eu. The legacy monolingual sample cannot be used here; run scripts/03_sample_eu_literary.py.')
+                if not all(isinstance(rec[key], str) and rec[key].strip() for key in ('source_es', 'source_eu')):
+                    raise ValueError(f'{path}:{number} contains an empty or invalid aligned text.')
                 groups[rec["doc_id"]].append(rec)
     for doc_id in groups:
         groups[doc_id].sort(key=lambda r: int(r["para_id"]))
@@ -115,6 +121,7 @@ def run_inference(
     max_tokens: int,
     desc: str,
 ) -> list[str]:
+    from vllm import SamplingParams
     sampling = SamplingParams(temperature=TEMPERATURE, max_tokens=max_tokens)
     results: list[str] = []
     for i in tqdm(range(0, len(texts), batch_size), desc=desc):
@@ -152,6 +159,7 @@ def main() -> None:
         print("Nothing new to translate.")
         return
 
+    from vllm import LLM
     print(f"Loading {MODEL_ID}...")
     llm = LLM(model=MODEL_ID, tensor_parallel_size=args.tensor_parallel)
     print("  Model loaded.")

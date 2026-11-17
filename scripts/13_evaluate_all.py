@@ -26,7 +26,7 @@ Usage
 -----
     python scripts/13_evaluate_all.py --task general --models HiTZ/Latxa-Qwen3-VL-8B-Instruct outputs/generalv1 --test-file outputs/test_set_general.json
     python scripts/13_evaluate_all.py --task literary --models outputs/literaryv1 outputs/literaryv1_tokenmatched outputs/literaryv2 --test-file outputs/test_set_literary.json
-    python scripts/13_evaluate_all.py --task clinical --models outputs/clinicalv1 outputs/clinicalv2 --test-file outputs/test_set_clinical.json
+    python scripts/13_evaluate_all.py --task clinical --models outputs/clinicalv1 outputs/clinicalv2 --test-file outputs/test_set_clinical_reported.json
 """
 
 import argparse
@@ -34,7 +34,6 @@ import gc
 import json
 import random
 import time
-import logging
 from pathlib import Path
 
 import numpy as np
@@ -44,15 +43,13 @@ from sacrebleu.metrics import BLEU, CHRF, TER
 from tqdm import tqdm
 from transformers import AutoModelForImageTextToText, AutoTokenizer
 
-logging.getLogger("pytorch_lightning").setLevel(logging.WARNING)
-from comet import download_model as download_comet
-from comet import load_from_checkpoint as load_comet
+from comet_bridge import ExternalCometEvaluator, validate_cached_predictions
 
 DATA_PATHS = {
     "general": Path("sampled-data/ca_eu_50k.json"),
     "literary_ca": Path("backtranslated-corpus/ca-literary_trilingual.json"),
     "literary_eu": Path("backtranslated-corpus/eu-literary-EhuHac.jsonl"),
-    "clinical": Path("backtranslated-corpus/eu-clinical_backtranslated.json"),
+    "clinical": Path("backtranslated-corpus/eu-clinical_eu2ca.json"),
 }
 OUTPUT_DIR = Path("outputs/eval")
 
@@ -117,7 +114,7 @@ def load_jsonl_data(path: Path, direction: str, src_key: str, tgt_key: str, appl
             samples.append({"source": src, "target": tgt, "direction": direction})
     return samples
 
-def reconstruct_test_set(task: str, domain_weight: int) -> list[dict]:
+def reconstruct_test_set(task: str, domain_weight: int, clinical_data=None) -> list[dict]:
     set_seed(SEED)
     
     if task == "general":
@@ -135,7 +132,7 @@ def reconstruct_test_set(task: str, domain_weight: int) -> list[dict]:
         eu_samples = load_jsonl_data(DATA_PATHS["literary_eu"], "ca2eu", "ca_translation", "source_eu", True)
         samples = (ca_samples + eu_samples) * domain_weight
     elif task == "clinical":
-        samples = load_json_data(DATA_PATHS["clinical"], "ca2eu", "ca", "eu", True) * domain_weight
+        samples = load_json_data(clinical_data or DATA_PATHS["clinical"], "ca2eu", "ca", "eu", True) * domain_weight
 
     random.shuffle(samples)
 
@@ -213,6 +210,8 @@ def generate_batch(model, tokenizer, prompts: list[str], max_new_tokens: int) ->
     return [d.strip() for d in decoded]
 
 def compute_metrics(sources: list[str], hypotheses: list[str], references: list[str], comet_evaluator) -> dict:
+    if not (len(sources) == len(hypotheses) == len(references)) or not sources:
+        raise ValueError('Metric inputs must be non-empty and have matching lengths.')
     chrf = CHRF(word_order=2)
     bleu = BLEU(effective_order=True)
     ter = TER()
@@ -250,6 +249,8 @@ def main() -> None:
     parser.add_argument("--task",            required=True, choices=["general", "literary", "clinical"])
     parser.add_argument("--models",          nargs="+", required=True, help="List of model paths or HF base models")
     parser.add_argument("--test-file",       default=None, help="Pre-saved JSON test set.")
+    parser.add_argument("--clinical-data", type=Path, default=None,
+                        help="Clinical corpus used only when reconstructing the test split")
     parser.add_argument("--domain-weight",   type=int, default=1, help="Must match domain weight used in training")
     parser.add_argument("--directions",      nargs="+", default=None, help="Which directions to evaluate (overrides defaults)")
     parser.add_argument("--max-samples",     type=int, default=None, help="Cap samples per direction")
@@ -257,15 +258,18 @@ def main() -> None:
     parser.add_argument("--max-new-tokens",  type=int, default=1024)
     parser.add_argument("--no-4bit",         action="store_true")
     parser.add_argument("--seed",            type=int, default=SEED)
+    parser.add_argument("--comet-python", default=str(Path(__file__).resolve().parents[1] / '.venv-comet/bin/python'),
+                        help="Interpreter in the separate COMET environment")
+    parser.add_argument("--output-dir", type=Path, default=OUTPUT_DIR,
+                        help="Directory for prediction caches and scores")
     args = parser.parse_args()
 
     set_seed(args.seed)
-    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    args.output_dir.mkdir(parents=True, exist_ok=True)
 
-    print("\nLoading COMET evaluation model (wmt22-comet-da)...")
-    comet_path = download_comet("Unbabel/wmt22-comet-da")
-    comet_evaluator = load_comet(comet_path)
-    comet_evaluator.eval()
+    if not Path(args.comet_python).is_file():
+        parser.error('COMET interpreter not found. Create .venv-comet using requirements-comet.txt, or pass --comet-python /path/to/python.')
+    comet_evaluator = ExternalCometEvaluator(args.comet_python)
 
     if args.directions is None:
         if args.task == "clinical":
@@ -279,7 +283,7 @@ def main() -> None:
             test_samples = json.load(f)
     else:
         print(f"\nReconstructing {args.task} test set (seed={args.seed})...")
-        test_samples = reconstruct_test_set(args.task, args.domain_weight)
+        test_samples = reconstruct_test_set(args.task, args.domain_weight, args.clinical_data)
 
     test_samples = [s for s in test_samples if s["direction"] in args.directions]
     
@@ -304,7 +308,7 @@ def main() -> None:
         print(f"EVALUATING MODEL: {model_path}")
         print(f"{'='*70}")
 
-        model, tokenizer = load_model_and_tokenizer(model_path, use_4bit)
+        model, tokenizer = None, None
 
         all_results, all_hypotheses, all_references, all_sources, per_sample_out = {}, [], [], [], []
 
@@ -318,7 +322,7 @@ def main() -> None:
             references = [s["target"] for s in samples]
             hypotheses = []
 
-            backup_path = OUTPUT_DIR / f"{run_name}_{args.task}_{direction}_backup.json"
+            backup_path = args.output_dir / f"{run_name}_{args.task}_{direction}_backup.json"
             t0 = time.time()
             elapsed = 0.0
 
@@ -327,11 +331,14 @@ def main() -> None:
                 with open(backup_path, "r", encoding="utf-8") as f:
                     saved_data = json.load(f)
                 
+                validate_cached_predictions(saved_data, samples, direction)
                 for item in saved_data:
                     hypotheses.append(item["hypothesis"])
                     per_sample_out.append(item)
             else:
                 print("  Generating translations...")
+                if model is None:
+                    model, tokenizer = load_model_and_tokenizer(model_path, use_4bit)
                 for i in tqdm(range(0, len(prompts), args.batch_size), desc=direction):
                     batch_prompts = prompts[i : i + args.batch_size]
                     hypotheses.extend(generate_batch(model, tokenizer, batch_prompts, args.max_new_tokens))
@@ -370,9 +377,11 @@ def main() -> None:
             except Exception as e:
                 print(f"  [ERROR] Failed to calculate overall metrics: {e}")
 
+        if not all_results:
+            raise RuntimeError('No metrics were computed; existing results will not be overwritten. Translation caches are preserved.')
         print_table(all_results)
 
-        out_path = OUTPUT_DIR / f"{run_name}_{args.task}_results.json"
+        out_path = args.output_dir / f"{run_name}_{args.task}_results.json"
         with open(out_path, "w", encoding="utf-8") as f:
             json.dump({"model": model_path, "run_name": run_name, "task": args.task, "metrics": all_results, "per_sample": per_sample_out}, f, ensure_ascii=False, indent=2)
         print(f"\nFinal results saved -> {out_path}")

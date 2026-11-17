@@ -1,11 +1,11 @@
 """
-04_sample_eu-clinical.py
+04_sample_eu_clinical.py
 
 Prepares the Basque clinical corpus for back-translation. The script reads
 JSON files from `data/eu-clinical/`, extracts paragraph-level records, sorts
 documents by `publication_date` (most recent first), accumulates up to
 100,000 paragraphs, and writes a sampled JSON file ready for
-`07_translate-eu-clinical.py`.
+`07_translate_eu_clinical.py`.
 
 Output
 ------
@@ -149,7 +149,7 @@ def main():
     print(f"Done. {len(accumulated):,} paragraphs saved to {OUTPUT_JSON}")
     if dates_used:
         print(f"Date range: {min(dates_used)} – {max(dates_used)}")
-    print(f"\nNext step: python scripts/07_translate-eu-clinical.py")
+    print(f"\nNext step: python scripts/07_translate_eu_clinical.py")
     print(f"           (it reads {OUTPUT_JSON} by default)")
 
 

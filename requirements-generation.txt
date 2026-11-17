@@ -1,0 +1,5 @@
+# Separate environment for corpus construction with scripts 05–07.
+# vLLM selects its compatible Torch/Transformers dependencies.
+vllm>=0.10,<1
+sentence-transformers>=3,<6
+tqdm>=4.67

@@ -1,5 +1,5 @@
 """
-09.2_finetuning_literaryv1_tokenmatched.py
+09b_finetuning_literaryv1_tokenmatched.py
 
 Fine-tunes `HiTZ/Latxa-Qwen3-VL-8B-Instruct` with LoRA for Catalan->Basque
 literary translation (`ca2eu` only) using a token-budget-matched subset of the
@@ -13,7 +13,7 @@ backtranslated-corpus/eu-literary-EhuHac.jsonl
     source = `ca_translation`  (Catalan)
     target = `source_eu`       (Basque)
 
-backtranslated-corpus/eu-clinical_backtranslated.json
+backtranslated-corpus/eu-clinical_eu2ca.json
     used only to derive the clinical reference token budgets
 
 Split
@@ -35,9 +35,9 @@ ca2eu: "Tradueix aquest text literari del català al basc:\n\n{source}"
 
 Usage
 -----
-    python scripts/09.2_finetuning_literaryv1_tokenmatched.py
-    python scripts/09.2_finetuning_literaryv1_tokenmatched.py --no-4bit
-    python scripts/09.2_finetuning_literaryv1_tokenmatched.py --output-dir outputs/my_tokenmatched_run
+    python scripts/09b_finetuning_literaryv1_tokenmatched.py
+    python scripts/09b_finetuning_literaryv1_tokenmatched.py --no-4bit
+    python scripts/09b_finetuning_literaryv1_tokenmatched.py --output-dir outputs/my_tokenmatched_run
 """
 
 import argparse
@@ -62,7 +62,7 @@ from transformers import (
 
 BASE_MODEL    = "HiTZ/Latxa-Qwen3-VL-8B-Instruct"
 LITERARY_JSONL= Path("backtranslated-corpus/eu-literary-EhuHac.jsonl")
-CLINICAL_JSON = Path("backtranslated-corpus/eu-clinical_backtranslated.json")
+CLINICAL_JSON = Path("backtranslated-corpus/eu-clinical_eu2ca.json")
 OUTPUT_DIR    = Path("outputs/literaryv1_tokenmatched")
 
 SEED          = 42
@@ -180,6 +180,8 @@ def main() -> None:
     parser.add_argument("--lora-drop",   type=float, default=0.05)
     parser.add_argument("--no-4bit",     action="store_true")
     parser.add_argument("--seed",        type=int,   default=SEED)
+    parser.add_argument("--clinical-data", type=Path, default=CLINICAL_JSON,
+                        help="Clinical reference corpus; see PROVENANCE.md for the archived version")
     args = parser.parse_args()
 
     set_seed(args.seed)
@@ -193,7 +195,7 @@ def main() -> None:
     tokenizer.padding_side = "right"
 
     # 1. Process Clinical Reference to get budget
-    clinical_all = load_clinical_json(CLINICAL_JSON)
+    clinical_all = load_clinical_json(args.clinical_data)
     random.shuffle(clinical_all)
     clin_train = clinical_all[:1174]
     clin_valid = clinical_all[1174:1174+65]

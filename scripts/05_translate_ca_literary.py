@@ -1,5 +1,5 @@
 """
-05_translate-ca-literary.py
+05_translate_ca_literary.py
 
 Translates literary Spanish paragraphs from CTILC to Basque (ES->EU), then
 realigns the translated text to the original Catalan paragraph structure with
@@ -15,9 +15,9 @@ Output: backtranslated-corpus/ca-literary_trilingual.json
         para_id, offset_eu and aligned_paragraphs are recomputed after alignment.
 
 Usage:
-    python scripts/05_translate-ca-literary.py
-    python scripts/05_translate-ca-literary.py --resume
-    python scripts/05_translate-ca-literary.py --batch-size 256 --max-tokens 512
+    python scripts/05_translate_ca_literary.py
+    python scripts/05_translate_ca_literary.py --resume
+    python scripts/05_translate_ca_literary.py --batch-size 256 --max-tokens 512
 """
 
 import argparse

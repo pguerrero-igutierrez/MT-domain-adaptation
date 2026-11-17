@@ -1,0 +1,15 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv*/
+.env
+.env.*
+!.env.example
+.pytest_cache/
+/data/
+/sampled-data/.translation_cache/
+/sampled-data/ca_eu_50k.json
+/sampled-data/ehuhac_sampled_parallel.jsonl
+/outputs/*/
+!/outputs/eval/
+/paper/*.pdf

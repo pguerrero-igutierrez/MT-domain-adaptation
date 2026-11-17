@@ -1,5 +1,5 @@
 """
-07_translate-eu-clinical.py
+07_translate_eu_clinical.py
 
 Translates pre-sampled Basque clinical paragraphs to Catalan using
 `HiTZ/Latxa-Llama-3.1-8B-Instruct` via vLLM offline batching.
@@ -17,7 +17,7 @@ Format : JSON list of records with fields such as:
 
 Output
 ------
-backtranslated-corpus/eu-clinical_backtranslated.json
+backtranslated-corpus/eu-clinical_eu2ca.json
 
 Each output record preserves the original metadata and fills:
     {
@@ -32,9 +32,9 @@ Requirements
 
 Usage
 -----
-    python scripts/07_translate-eu-clinical.py
-    python scripts/07_translate-eu-clinical.py --resume
-    python scripts/07_translate-eu-clinical.py --batch-size 64 --max-tokens 700 --chunk-size 2000
+    python scripts/07_translate_eu_clinical.py
+    python scripts/07_translate_eu_clinical.py --resume
+    python scripts/07_translate_eu_clinical.py --batch-size 64 --max-tokens 700 --chunk-size 2000
 """
 
 import argparse
@@ -46,7 +46,7 @@ from tqdm import tqdm
 from vllm import LLM, SamplingParams
 
 INPUT_JSON  = Path("sampled-data/eu-clinical_sampled100k.json")
-OUTPUT_JSON = Path("backtranslated-corpus/eu-clinical_backtranslated.json")
+OUTPUT_JSON = Path("backtranslated-corpus/eu-clinical_eu2ca.json")
 
 MODEL_ID        = "HiTZ/Latxa-Llama-3.1-8B-Instruct"
 BATCH_SIZE      = 64

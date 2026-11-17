@@ -14,7 +14,7 @@ adapter directory so `adapter_config.json` can be read before merging.
 
 Data source
 -----------
-backtranslated-corpus/eu-clinical_backtranslated.json
+backtranslated-corpus/eu-clinical_eu2ca.json
     source = `ca`   (Catalan)
     target = `eu`   (Basque)
     direction = `ca2eu`
@@ -61,7 +61,7 @@ from transformers import (
 
 DEFAULT_BASE_MODEL = "your-org/latxa-qwen3-8b-general-eucat"
 
-CLINICAL_JSON = Path("backtranslated-corpus/eu-clinical_backtranslated.json")
+CLINICAL_JSON = Path("backtranslated-corpus/eu-clinical_eu2ca.json")
 OUTPUT_DIR    = Path("outputs/clinicalv2")
 
 SEED              = 42
@@ -206,6 +206,8 @@ def main() -> None:
     parser.add_argument("--lora-drop",         type=float, default=0.05)
     parser.add_argument("--no-4bit",           action="store_true")
     parser.add_argument("--seed",              type=int,   default=SEED)
+    parser.add_argument("--clinical-data", type=Path, default=CLINICAL_JSON,
+                        help="Clinical corpus; see PROVENANCE.md for the archived version")
     parser.add_argument("--max-train-samples", type=int,   default=MAX_TRAIN_SAMPLES,
                         help="Cap training samples after shuffle (None = use all)")
     args = parser.parse_args()
@@ -215,7 +217,7 @@ def main() -> None:
     output_dir.mkdir(parents=True, exist_ok=True)
 
     print("Loading data...")
-    clinical_samples = load_clinical_json(CLINICAL_JSON)
+    clinical_samples = load_clinical_json(args.clinical_data)
     all_samples = clinical_samples
 
     print(f"  eu-clinical (ca2eu) : {len(clinical_samples):,}")

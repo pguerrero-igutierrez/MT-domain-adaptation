@@ -1,5 +1,5 @@
 """
-02_sample_ca-literary.py
+02_sample_ca_literary.py
 
 Pre-translation subsampling for the CTILC Catalan-Spanish literary corpus.
 Reads `data/literary/CTILC-paula-ca-es-literary/corpus_ca_es.csv`, keeps the
@@ -105,7 +105,7 @@ def main():
 
     print(f"Done. {len(accumulated):,} rows saved to {OUTPUT_JSON}")
     print(f"Years covered: {min(used_years)} – {max(used_years)}")
-    print(f"\nNext step: python scripts/05_translate-ca-literary.py")
+    print(f"\nNext step: python scripts/05_translate_ca_literary.py")
     print(f"           (it reads {OUTPUT_JSON} by default)")
 
 

@@ -32,7 +32,7 @@ Bilingual EU–CA literary corpus derived from the EhuHac Spanish–Basque liter
 
 ---
 
-### `eu-clinical_backtranslated.json`
+### `eu-clinical_eu2ca.json`
 
 Back-translated EU–CA clinical corpus derived from Basque clinical documents in the E3C corpus.
 
@@ -52,18 +52,20 @@ Back-translated EU–CA clinical corpus derived from Basque clinical documents i
 
 ```bash
 # Literary (CA source)
-python scripts/05_translate-ca-literary.py --resume
+.venv-generation/bin/python scripts/05_translate_ca_literary.py --resume
 
 # Literary (EU source)
-python scripts/06_translate-eu-literary.py --resume
+.venv-generation/bin/python scripts/06_translate_eu_literary.py --resume
 
 # Clinical
-python scripts/07_translate-eu-clinical.py --resume --chunk-size 2000 --max-tokens 700
+.venv-generation/bin/python scripts/07_translate_eu_clinical.py --resume --chunk-size 2000 --max-tokens 700
 ```
 
 Use `--resume` to skip records already present in the output file.
 
+Install `requirements-generation.txt` in the separate `.venv-generation` environment and run the translation commands with `.venv-generation/bin/python`. The released files can be used directly for training. Steps 03 and 06 use the aligned `sampled-data/ehuhac_sampled_parallel.jsonl` intermediate; the tracked monolingual `eu-literary_sampled100k.jsonl` lacks its required Spanish field.
+
 
 ---
 
-**Paula Guerrero & Iker Gutierrez** · University of the Basque Country (EHU) · Machine Translation and Multilingualism 2025–2026
+**Paula Guerrero-Castelló & Iker Gutiérrez-Fandiño** · University of the Basque Country (EHU)

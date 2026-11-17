@@ -2,6 +2,8 @@
 
 This directory contains all pipeline scripts for data sampling, synthetic data generation, model fine-tuning, and evaluation. Scripts are numbered to reflect execution order.
 
+Use the root README's separate environments: `.venv` for sampling/training/evaluation, `.venv-generation` for steps 05–07, and `.venv-comet` for the COMET scoring subprocess. The Python-only scorers `comet_bridge.py` and `score_comet.py` support the evaluator. Install the corresponding requirements file for each environment.
+
 ---
 
 ## Overview
@@ -10,7 +12,7 @@ This directory contains all pipeline scripts for data sampling, synthetic data g
 |---|---|---|
 | Data sampling | `01–04` | Extract and subsample domain corpora |
 | Synthetic data generation | `05–07` | Translate or back-translate to build CA–EU parallel data |
-| Fine-tuning | `08–12`, `09.2` | Train LoRA adapters on sampled, synthetic, and token-matched data |
+| Fine-tuning | `08–12`, `09b` | Train LoRA adapters on sampled, synthetic, and token-matched data |
 | Evaluation | `13` | Score all models with BLEU, chrF++, TER, COMET |
 
 ---
@@ -22,17 +24,19 @@ Loads the `projecte-aina/CA-EU_Parallel_Corpus` dataset from HuggingFace and ran
 
 ---
 
-### `02_sample_ca-literary.py`
+### `02_sample_ca_literary.py`
 Reads `data/literary/CTILC-paula-ca-es-literary/corpus_ca_es.csv` from [`guerreropaula/synthetic-corpus-ca-es`](https://github.com/guerreropaula/synthetic-corpus-ca-es), filters to the most recent document years, and samples up to 100,000 CA–ES paragraph pairs for subsequent pivot translation.
 
 ---
 
-### `03_sample_eu-literary.py`
+### `03_sample_eu_literary.py`
 Reads the aligned EhuHac ES–EU plain-text files (`EhuHac.es-eu.es`, `EhuHac.es-eu.eu`), filters short lines, and down-samples to 100,000 aligned sentence pairs.
+
+Writes `sampled-data/ehuhac_sampled_parallel.jsonl` with `source_es` and `source_eu`. The legacy tracked monolingual file `sampled-data/eu-literary_sampled100k.jsonl` is not interchangeable with this output.
 
 ---
 
-### `04_sample_eu-clinical.py`
+### `04_sample_eu_clinical.py`
 Reads JSON documents from `data/eu-clinical/`, extracts paragraphs, sorts documents by publication date (most recent first), and accumulates up to 100,000 paragraphs. Prepares records with an empty `ca` field ready for translation.
 
 ---
@@ -41,17 +45,17 @@ Reads JSON documents from `data/eu-clinical/`, extracts paragraphs, sorts docume
 
 All translation uses `HiTZ/Latxa-Llama-3.1-8B-Instruct` via vLLM offline batching with greedy decoding.
 
-### `05_translate-ca-literary.py`
+### `05_translate_ca_literary.py`
 Translates Spanish paragraphs from the CTILC corpus ([`guerreropaula/synthetic-corpus-ca-es`](https://github.com/guerreropaula/synthetic-corpus-ca-es)) to Basque (ES→EU) using Latxa. After translation, applies a DP-based paragraph alignment (vecalign-style, using `multilingual-e5-large` embeddings) to re-align the translated EU text to the original CA paragraph structure, producing trilingual CA–ES–EU records.
 
 ---
 
-### `06_translate-eu-literary.py`
+### `06_translate_eu_literary.py`
 Translates Spanish sentences from EhuHac (ES→CA) using Latxa, producing synthetic Catalan translations aligned to existing Basque originals.
 
 ---
 
-### `07_translate-eu-clinical.py`
+### `07_translate_eu_clinical.py`
 Translates Basque clinical paragraphs to Catalan (EU→CA) using Latxa. Long documents are split into character-level chunks (default 2,000 chars) before translation and rejoined afterwards to avoid truncation by the model's context limit.
 
 ---
@@ -90,7 +94,7 @@ Direct literary SFT from the base model. Combines CA-literary (EU→CA direction
 
 ---
 
-### `09.2_finetuning_literaryv1_tokenmatched.py`
+### `09b_finetuning_literaryv1_tokenmatched.py`
 Variant of `09` that trains only on CA→EU literary data matched to the same token budget as the clinical training set (~360k source tokens). Enables a fair data-controlled comparison between literary and clinical domain learnability.
 
 ---
@@ -132,6 +136,8 @@ Unified evaluation script that loads one or more model checkpoints (full or PEFT
 | `--max-samples` | Cap samples per direction for quick runs |
 | `--batch-size` | Generation batch size (default 4) |
 | `--max-new-tokens` | Max output tokens per sample (default 1024) |
+| `--comet-python` | Python executable in the separate COMET environment (default `.venv-comet/bin/python`) |
+| `--output-dir` | Prediction caches and results (default `outputs/eval/`); select a new directory for changed settings |
 
 ---
 
@@ -154,4 +160,4 @@ Unified evaluation script that loads one or more model checkpoints (full or PEFT
 
 
 ---
-**Paula Guerrero & Iker Gutierrez** · University of the Basque Country (EHU) · Machine Translation and Multilingualism 2025–2026
+**Paula Guerrero-Castelló & Iker Gutiérrez-Fandiño** · University of the Basque Country (EHU)

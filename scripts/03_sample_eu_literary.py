@@ -1,5 +1,5 @@
 """
-03_sample_eu-literary.py
+03_sample_eu_literary.py
 
 Builds a sampled Spanish-Basque literary parallel corpus from the EhuHac
 plain-text files. The script reads one sentence per line from:
@@ -45,7 +45,7 @@ def read_lines(path: Path) -> list[str]:
             return lines
         except UnicodeDecodeError:
             continue
-    raise UnicodeDecodeError(f"Could not decode {path}")
+    raise ValueError(f"Could not decode {path}")
 
 
 def clean(line: str) -> str:
